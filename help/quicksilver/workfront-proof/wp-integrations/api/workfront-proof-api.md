@@ -1,7 +1,7 @@
 ---
 filename: workfront-proof-api
 content-type: api
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: api-workfront-proof
 title: The Workfront Proof API

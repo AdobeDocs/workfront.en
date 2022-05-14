@@ -38,7 +38,7 @@ You must have the following access to perform the steps in this article:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="understanding-request-types"></a>Set what issue or request types are allowed for a project</h2>
+<h2>Set what issue or request types are allowed for a project</h2>
 <p>You can organize the kind&nbsp;of issues or requests that are logged in Workfront by Request Types. This organization is useful for reporting reasons and for helping users understand what kind&nbsp;of unexpected work&nbsp;might occur during the lifetime of a project.</p>
 <p>You can specify the&nbsp;type of requests that can be logged on a project when you configure the <strong>Queue Details</strong>&nbsp;area on the <strong>Queue Setup</strong> tab for the project.&nbsp;</p>
 <ol>

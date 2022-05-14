@@ -1,6 +1,6 @@
 ---
 filename: configure-pop-up-messages
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-legacy-proofing-viewer
 title: Configure Pop-up Messages in Workfront Proof

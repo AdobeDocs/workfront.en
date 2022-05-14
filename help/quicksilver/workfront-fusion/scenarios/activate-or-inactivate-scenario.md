@@ -1,6 +1,6 @@
 ---
 filename: activate-or-inactivate-scenario
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Activate or deactivate a scenario in Adobe Workfront Fusion

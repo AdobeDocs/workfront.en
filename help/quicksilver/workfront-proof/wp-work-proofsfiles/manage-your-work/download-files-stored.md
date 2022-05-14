@@ -1,6 +1,6 @@
 ---
 filename: download-files-stored
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Download Files Stored in Workfront Proof

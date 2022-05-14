@@ -108,7 +108,7 @@ You can use the Task List Gantt Chart to level your resources.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">
-<h2 data-mc-conditions="QuicksilverOrClassic.Classic"><a name="resource-leveling-in-gantt"></a>Apply Resource Leveling in the Legacy Gantt Chart</h2> 
+<h2 data-mc-conditions="QuicksilverOrClassic.Classic">Apply Resource Leveling in the Legacy Gantt Chart</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;drafted, because it's removed from the system)</p>
 <ol>
 <li value="1" data-mc-conditions="QuicksilverOrClassic.Classic">Navigate to a project.</li>
@@ -125,7 +125,7 @@ NOTE: Your resources might be overallocated if they are assigned to multiple tas
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="leveling-delay"></a>Overview of Leveling Delay</h2> 
+<h2>Overview of Leveling Delay</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article: /Content/Manage work/Tasks/Task information/task-leveling-delay.htm) </p>
 -->
 <p>At times, there might be conflicts between task schedules on a project. You can level resources or address resource conflicts by rescheduling resources and tasks so that all tasks can be completed within a realistic&nbsp;schedule. </p>

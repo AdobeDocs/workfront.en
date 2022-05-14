@@ -1,6 +1,6 @@
 ---
 filename: sp-release-activity
-product: enterprise-scenario-planner
+product-previous: enterprise-scenario-planner
 content-type: release-notes
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: product-releases

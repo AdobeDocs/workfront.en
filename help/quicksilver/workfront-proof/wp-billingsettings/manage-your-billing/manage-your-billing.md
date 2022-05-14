@@ -1,7 +1,7 @@
 ---
 filename: _manage-your-billing
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: billing-settings
 title: Manage your billing

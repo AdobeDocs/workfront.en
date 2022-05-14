@@ -1,7 +1,7 @@
 ---
 filename: microsoft-365-calendar-modules
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations;calendars
 keywords: connector
 navigation-topic: apps-and-their-modules

@@ -1,6 +1,6 @@
 ---
 filename: import-metadata-for-content
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Use Workfront Library's import tool to add metadata to content

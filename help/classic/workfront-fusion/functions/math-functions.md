@@ -1,7 +1,7 @@
 ---
 filename: math-functions
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Math functions in Adobe Workfront Fusion

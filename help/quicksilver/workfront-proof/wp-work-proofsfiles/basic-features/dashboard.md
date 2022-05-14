@@ -1,7 +1,7 @@
 ---
 filename: dashboard
 content-type: overview
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;dashboard
 navigation-topic: basic-features-workfront-proof
 title: The Dashboard in Workfront Proof

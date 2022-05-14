@@ -1,6 +1,6 @@
 ---
 filename: make-groups-private
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
 title: Make Groups Private using Workfront Proof

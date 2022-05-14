@@ -1,6 +1,6 @@
 ---
 filename: share-folders
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Share Folders in Workfront Proof

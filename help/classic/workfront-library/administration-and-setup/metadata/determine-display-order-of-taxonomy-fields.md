@@ -1,6 +1,6 @@
 ---
 filename: determine-display-order-of-taxonomy-fields
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Determine the display order of taxonomy fields in Workfront Library

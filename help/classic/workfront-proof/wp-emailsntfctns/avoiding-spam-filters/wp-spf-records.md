@@ -1,6 +1,6 @@
 ---
 filename: wp-spf-records
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: Workfront Proof SPF records

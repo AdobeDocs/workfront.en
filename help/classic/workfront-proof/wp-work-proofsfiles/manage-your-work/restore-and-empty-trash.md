@@ -1,6 +1,6 @@
 ---
 filename: restore-and-empty-trash
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Restore and Empty the Trash in Workfront Proof

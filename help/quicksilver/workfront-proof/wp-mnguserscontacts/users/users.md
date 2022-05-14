@@ -1,6 +1,6 @@
 ---
 filename: _users
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: Users

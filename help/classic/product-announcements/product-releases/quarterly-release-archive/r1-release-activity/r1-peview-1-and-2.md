@@ -164,7 +164,7 @@ Prior to this change, expense rates could contain only up to 2 characters after 
 For more information about creating expense rates, see [Create custom expense types](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="updated-look-and-improved-performance-in-the-tasks-lists-area"></a>Updated Look and Improved Performance in the Tasks&nbsp;List (by request only)</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Updated Look and Improved Performance in the Tasks&nbsp;List (by request only)</h2>
 -->
 
 <!--

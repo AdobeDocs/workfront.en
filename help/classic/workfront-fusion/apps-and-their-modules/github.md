@@ -1,7 +1,7 @@
 ---
 filename: github
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
@@ -568,7 +568,7 @@ This module lists all comments on the specified issue.
 </table>
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Troubles"></a>Troubleshooting</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Troubleshooting</h2>
 -->
 
 <!--

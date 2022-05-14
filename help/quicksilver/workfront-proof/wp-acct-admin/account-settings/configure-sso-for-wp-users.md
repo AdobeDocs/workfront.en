@@ -1,6 +1,6 @@
 ---
 filename: configure-sso-for-wp-users
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: Configure Single Sign-On for Workfront Proof users

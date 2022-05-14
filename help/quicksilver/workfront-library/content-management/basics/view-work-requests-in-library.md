@@ -1,6 +1,6 @@
 ---
 filename: view-work-requests-in-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: View Workfront Library work requests

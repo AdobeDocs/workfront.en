@@ -1,6 +1,6 @@
 ---
 filename: fusion-jun-28
-product: workfront-fusion
+product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 keywords: update

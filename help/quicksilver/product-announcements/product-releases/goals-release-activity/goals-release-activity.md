@@ -1,6 +1,6 @@
 ---
 filename: goals-release-activity
-product: workfront-goals
+product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: product-releases
 title: Adobe Workfront Goals release activity

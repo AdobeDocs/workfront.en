@@ -123,14 +123,14 @@ This section provides examples of custom views, filters, and groupings that you 
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Hour"></a>Hour</h2>
+<h2>Hour</h2>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md" class="MCXref xref" xrefformat="{para}">View: combined task and issue details in an Hour list</a> </p>
 <p>An Hour view which combines the Task and Issue name columns, as well as the Task and Issue work required (Planned Hours) using the <code>sharecol=true</code> line. This allows you to display the Planned Hours for both Tasks and Issues in one column. Because each hour entry can only be associated with either a Task or an Issue, you always have just one value in the shared column. In the case of an hour entry on a task, the issue reference will be null, and vice versa.</p>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hours-parent-task-information.md" class="MCXref xref" xrefformat="{para}">View: hours with parent task information</a> </p>
 <p>This Hour view displays the name of the task where the hours were logged as well as the name of the parent task.</p>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md" class="MCXref xref" xrefformat="{para}">Grouping: Project Sponsor for hours</a> </p>
 <p>This Hour grouping organizes hours by the sponsor of the project where the hours reside. The standard interface for Hour groupings does not provide a mapping to the project sponsor; it must be done through the Text Mode interface.</p>
-<h2><a name="Issue"></a>Issue</h2>
+<h2>Issue</h2>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md" class="MCXref xref" xrefformat="{para}">View: issues with approval information</a> </p>
 <p>This Issue view shows the approval process, step, names of the approvers, and the status of the Issue before the approval was granted. Some of these fields are not accessible through the standard interface builder.</p> 
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -147,7 +147,7 @@ This section provides examples of custom views, filters, and groupings that you 
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md" class="MCXref xref" xrefformat="{para}">View: issues with resolving object details</a> </p>
 <p>This Issue view displays the name and percentage complete of the resolving object of the Issue, allowing the issue originator to have insight into the progress of the issue even without access to the resolving task or project.</p> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;Luke: Program - hidden because the view is not supported in the new UI anymore)</p>
-<h2><a name="Project"></a>Project</h2>
+<h2>Project</h2>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md" class="MCXref xref" xrefformat="{para}">View: project with all project team users and roles</a> </p>
 <p>This Project view shows a list of users and roles assigned to the project team.</p> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;View: Business Case Export&nbsp;- hidden, because this view is not supported anymore.This was originally created to provide an option to export the business case directly from an emailed report -- the recipient will receive a report of new business cases created in the previous week each Monday morning and be able to export the business case PDF without having to navigate through the Workfront interface.) </p>
@@ -169,13 +169,13 @@ This section provides examples of custom views, filters, and groupings that you 
 <p>In this custom project grouping, you can display projects grouped by a range of their percent complete values. The breakdowns show percent complete value of 25 percent point increments: 0-25%, 25-50%, etc.</p>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md" class="MCXref xref" xrefformat="{para}">Grouping: project percent breakdown 2</a> </p>
 <p>In this custom project grouping, you can display projects grouped by a range of their percent complete values. The breakdowns show percent complete value of 10 percent point increments: 0-10%, 11-20%, 21-30% etc.</p>
-<h2><a name="Project2"></a><span class="wysiwyg-font-size-large wysiwyg-color-black">Project User</span> </h2>
+<h2><span class="wysiwyg-font-size-large wysiwyg-color-black">Project User</span> </h2>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md" class="MCXref xref" xrefformat="{para}">View: list of project users with job roles</a> </p>
 <p> A project view that displays a list of all users associated with a project and the roles they fulfill on the project. </p>
-<h2><a name="proof"></a>Proof </h2>
+<h2>Proof </h2>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md" class="MCXref xref" xrefformat="{para}">Filter:&nbsp;Proof Approval report to omit previous proof versions</a> </p>
 <p>On a Proof Approval report, you can use the&nbsp;<strong>Is Current Document Version</strong> filter to include only the current versions of proofs waiting for your approval. </p>
-<h2><a name="Report"></a>Report</h2>
+<h2>Report</h2>
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE:&nbsp;View: Report Delivery Details&nbsp;-This code is no longer supported. Most fields are available through the UI.</p>
 <p>This view shows specific details about the reports in your system that are scheduled for automatic delivery via email. You can see the last sent date along with the details about the format of the report and the delivery options you have set.)</p>
@@ -185,7 +185,7 @@ This section provides examples of custom views, filters, and groupings that you 
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md" class="MCXref xref" xrefformat="{para}">View: reporting elements used in reports</a> </p>
 <p>This Report view displays the View, Filter, and Grouping used to build each report in Workfront in a text mode format.</p>
 <p>You can see the fields or valueexpressions used in every element of the report.</p>
-<h2><a name="Task"></a>Task</h2>
+<h2>Task</h2>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref" xrefformat="{para}">View: display original issue information on task and project lists</a> </p>
 <p> This task view allows you to display information from the original issues on task lists, after the issues have been converted to the tasks. </p>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md" class="MCXref xref" xrefformat="{para}">View: Actual Hours over Planned Hours in the same column of a task View</a> </p>
@@ -230,7 +230,7 @@ This section provides examples of custom views, filters, and groupings that you 
 <p>This Task view identifies tasks that will have to complete late because of weekends, Personal Time Off, or other schedule exceptions.</p>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md" class="MCXref xref" xrefformat="{para}">View: show name of parent tasks as all caps</a> </p>
 <p>You can add this column to a task view to display the name of the parent tasks in all capital letters.</p>
-<h2><a name="User"></a>User</h2>
+<h2>User</h2>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md" class="MCXref xref" xrefformat="{para}">View: expanded user details</a> </p>
 <p>This User view displays information about your users. In addition to their name, access levels and Company, it also shows lists of their Groups, Teams, and Job Roles.</p>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md" class="MCXref xref" xrefformat="{para}">View: user personal time off</a> </p>
@@ -246,7 +246,7 @@ This section provides examples of custom views, filters, and groupings that you 
 <p><li><a href="#viewing-a-filter-view-or-grouping-that-has-been-shared-with-you">Viewing a Filter, View, or Grouping That Has Been Shared with You</a></li></p>
 <p><li><a href="#removing-a-shared-filter-view-or-grouping">Removing a Shared Filter, View, or Grouping</a></li></p>
 <p></ul></p>
-<p><p><a name="sharing-a-filter-view-or-grouping"></a><span class="wysiwyg-font-size-x-large">Sharing a Filter, View, or Grouping</span></p></p>
+<p><p><span class="wysiwyg-font-size-x-large">Sharing a Filter, View, or Grouping</span></p></p>
 <p><ol></p>
 <p><li>Click the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu, then select the Filter, View, or Grouping you want to share.</li></p>
 <p><li>Click the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu again, then click <strong>Share Filter</strong>, <strong>Share View</strong>, or <strong>Share Grouping</strong>.<br />The Filter Access, View Access, or Grouping Access dialog box is displayed.<br /><img src="/hc/en-us/article_attachments/209683908/share_filterviewgrouping.png" alt="" /></li></p>
@@ -258,13 +258,13 @@ This section provides examples of custom views, filters, and groupings that you 
 <p><li>(Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant. <br /><img src="/hc/en-us/article_attachments/209684008/share_filterviewgrouping_dropdown.png" alt="" /><br />You can select from the following options:<br /><strong>View it:</strong> Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.<br /><strong>Manage it:</strong> Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.<br /><strong>Share:</strong> Click <strong>Advanced Settings</strong>, then select or deselect the <strong>Share</strong> option, depending on whether you want the share recipients to be able to share with others.</li></p>
 <p><li>Click <strong>Save</strong>.<br />Users can access the shared Filter, View, or Grouping as described in <a href="#viewing-a-filter-view-or-grouping-that-has-been-shared-with-you">"Viewing a Filter, View, or Grouping That Has Been Shared with You."</a><br />Users who you share the Filter, View, or Grouping with can access the shared Filter, View, or Grouping by clicking&nbsp;the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu and scrolling down to&nbsp;the <strong>Shared with me</strong> section.</li></p>
 <p></ol></p>
-<p><p><a name="viewing-a-filter-view-or-grouping-that-has-been-shared-with-you"></a><span class="wysiwyg-font-size-x-large">Viewing a Filter, View, or Grouping That Has Been Shared with You</span></p></p>
+<p><p><span class="wysiwyg-font-size-x-large">Viewing a Filter, View, or Grouping That Has Been Shared with You</span></p></p>
 <p><p><span class="wysiwyg-font-size-x-large wysiwyg-font-size-medium">You can access the Filters, Views, or Groupings that have been shared with you.</span></p></p>
 <p><ol></p>
 <p><li>Navigate to the object where you want to view the shared Filter, View, or Grouping.</li></p>
 <p><li>Click&nbsp;the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu and scroll&nbsp;down to&nbsp;the <strong>Shared with me</strong> section.<br /><img src="/hc/en-us/article_attachments/209786067/shared_filterviewgrouping_accessing.png" alt="" /><br />The Filter, View, or Grouping is applied to the object you are viewing.</li></p>
 <p></ol></p>
-<p><p><a name="removing-a-shared-filter-view-or-grouping"></a><span class="wysiwyg-font-size-x-large">Removing&nbsp;a Shared Filter, View, or Grouping</span></p></p>
+<p><p><span class="wysiwyg-font-size-x-large">Removing&nbsp;a Shared Filter, View, or Grouping</span></p></p>
 <p><p>For information about how to remove&nbsp;a shared filter, view, or grouping, see the following sections:</p></p>
 <p><ul></p>
 <p><li>"Removing a Filter" in <a href="/hc/en-us/articles/216654218" target="_blank" rel="noopener">"Creating and Customizing Filters"</a></li></p>
@@ -272,7 +272,7 @@ This section provides examples of custom views, filters, and groupings that you 
 <p><li>"Removing a Grouping" in <a href="/hc/en-us/articles/217202717" target="_blank" rel="noopener">"Creating and Customizing Groupings"</a></li></p>
 <p></ul> )</p>
 </div>
-<h2><a name="Work"></a>Work Item</h2>
+<h2>Work Item</h2>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md" class="MCXref xref" xrefformat="{para}">Report: combined task and issue View and Grouping</a> </p>
 <p>This Work Item report shows both tasks and issues which users have accepted to work on in one report. It is best when combined with a custom grouping.</p>
 </div>

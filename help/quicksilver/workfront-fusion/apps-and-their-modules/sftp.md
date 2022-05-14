@@ -1,7 +1,7 @@
 ---
 filename: sftp
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: SFTP modules

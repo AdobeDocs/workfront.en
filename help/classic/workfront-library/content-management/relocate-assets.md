@@ -1,6 +1,6 @@
 ---
 filename: relocate-assets
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Relocate assets in Workfront Library

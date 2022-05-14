@@ -1,6 +1,6 @@
 ---
 filename: set-up-proof-auto-workflow
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
 title: Set up a proof with an Automated Workflow in Workfront Proof

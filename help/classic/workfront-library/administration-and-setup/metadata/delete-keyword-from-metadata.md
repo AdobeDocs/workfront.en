@@ -1,6 +1,6 @@
 ---
 filename: delete-keyword-from-metadata
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Delete a keyword from the picklist in Workfront Library

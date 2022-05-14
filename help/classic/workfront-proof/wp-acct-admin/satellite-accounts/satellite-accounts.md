@@ -1,7 +1,7 @@
 ---
 filename: _satellite-accounts
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Satellite accounts in Workfront Proof

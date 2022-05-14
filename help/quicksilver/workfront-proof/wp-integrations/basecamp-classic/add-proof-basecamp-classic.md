@@ -1,6 +1,6 @@
 ---
 filename: add-proof-basecamp-classic
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
 title: Add a Proof to a Basecamp Classic Project

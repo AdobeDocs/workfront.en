@@ -1,6 +1,6 @@
 ---
 filename: access-proofs-shared-with-you
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Access a proof shared with you

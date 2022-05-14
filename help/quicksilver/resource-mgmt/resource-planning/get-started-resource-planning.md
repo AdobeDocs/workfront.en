@@ -59,7 +59,7 @@ To budget time for your resources for the projects you plan to assign them to, y
 * Using the Scenario Planner, you can build enterprise-level plans across multiple initiatives that outline your company's overall strategic outcomes. For more information, see [Get started with the Scenario Planner](../../scenario-planner/get-started-with-scenario-planning.md).
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="understanding-prerequisites"></a>Prerequisites for resource planning</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>
 -->
 
 <!--
@@ -106,7 +106,7 @@ The following prerequisites are required only when viewing the Resource Planner 
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="user-prerequisites"><a name="user-prerequisites"></a>User prerequisites</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="user-prerequisites">User prerequisites</h3>
 -->
 
 <!--
@@ -169,7 +169,7 @@ The following prerequisites are required only when viewing the Resource Planner 
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="project-prerequisites"><a name="project-prerequisites"></a>Project prerequisites</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="project-prerequisites">Project prerequisites</h3>
 -->
 
 <!--
@@ -191,7 +191,7 @@ The following prerequisites are required only when viewing the Resource Planner 
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="tasks-and-issues-prerequisites"><a name="tasks-prerequisites"></a>Tasks and issues prerequisites</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="tasks-and-issues-prerequisites">Tasks and issues prerequisites</h3>
 -->
 
 <!--
@@ -232,7 +232,7 @@ The following prerequisites are required only when viewing the Resource Planner 
   -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="accessing-resource-planning"></a>Access resource planning tools in&nbsp;Workfront</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Access resource planning tools in&nbsp;Workfront</h2>
 -->
 
 <!--
@@ -245,7 +245,7 @@ The following prerequisites are required only when viewing the Resource Planner 
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="creating-resource-pools"></a>Create Resource Pools</h2>
+<h2>Create Resource Pools</h2>
 <p>(drafted because it's redundant with the user prerequisites above) </p>
 <p>You can manage your user resources by adding users to Resource Pools. Having users organized in Resource Pools and associating the pools with your projects are prerequisites to Resource Planning.</p>
 <p>For information about adding users to Resource Pools and associating them with projects, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools</a> and <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">Associate resource pools with users </a>.</p>

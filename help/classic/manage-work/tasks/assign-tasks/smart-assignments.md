@@ -74,7 +74,7 @@ Users are recommended in the smart assignments drop-down list based on a combina
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <div>
-<h3><a name="Smart"></a>Smart assignments criteria for the Production environment</h3>
+<h3>Smart assignments criteria for the Production environment</h3>
 <p>(NOTE: drafted,this was the case BEFORE we updated the logic in the WB - with the 21.4 release)</p>
 </div>
 <p>Smart assignments display on tasks and issues when the following conditions are met:</p>
@@ -98,7 +98,7 @@ Users are recommended in the smart assignments drop-down list based on a combina
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="assigning-smart-assigmments"></a>Make smart assignments</h2>
+<h2>Make smart assignments</h2>
 <p>(NOTE:&nbsp;this was moved to its own article: make-smart-assignments.) </p>
 <p>Smart assignments are available in most locations where you can make assignments in Workfront.</p>
 <p>You can use smart assignments on tasks and issues that have previously been assigned to a job role or a team.</p> <note type="note">

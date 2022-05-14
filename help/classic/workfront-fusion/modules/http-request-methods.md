@@ -1,7 +1,7 @@
 ---
 filename: http-request-methods
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: HTTP request methods in Adobe Workfront Fusion

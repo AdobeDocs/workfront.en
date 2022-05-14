@@ -1,6 +1,6 @@
 ---
 filename: create-new-fusion-templates
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Create new templates in Adobe Workfront Fusion

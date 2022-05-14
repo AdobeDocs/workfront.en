@@ -1,6 +1,6 @@
 ---
 filename: create-a-practice-automation-scenario
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Create a practice automation scenario in Adobe Workfront Fusion

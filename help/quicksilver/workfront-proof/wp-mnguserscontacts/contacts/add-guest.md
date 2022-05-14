@@ -1,6 +1,6 @@
 ---
 filename: add-guest
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
 title: Add a Guest to Workfront Proof

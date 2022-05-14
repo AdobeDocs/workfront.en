@@ -1,6 +1,6 @@
 ---
 filename: create-proof-box-account
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;workfront-integrations;setup
 navigation-topic: box
 title: Create a Proof via Your Box Account

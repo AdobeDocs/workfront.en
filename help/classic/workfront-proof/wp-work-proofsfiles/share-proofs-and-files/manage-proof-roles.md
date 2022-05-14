@@ -1,6 +1,6 @@
 ---
 filename: manage-proof-roles
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Manage Proof Roles in Workfront Proof

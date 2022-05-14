@@ -1,6 +1,6 @@
 ---
 filename: send-documents-from-wf-to-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Send documents from Workfront to Workfront Library

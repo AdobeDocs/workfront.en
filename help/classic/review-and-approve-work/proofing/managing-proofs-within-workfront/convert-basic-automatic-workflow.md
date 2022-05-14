@@ -1,6 +1,6 @@
 ---
 filename: convert-basic-automatic-workflow
-product: workfront-proof;workfront
+product-previous: workfront-proof;workfront
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Convert a basic workflow to an Automated Workflow on a proof

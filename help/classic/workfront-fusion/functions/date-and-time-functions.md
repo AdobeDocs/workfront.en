@@ -1,7 +1,7 @@
 ---
 filename: date-and-time-functions
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Date and time functions in Adobe Workfront Fusion

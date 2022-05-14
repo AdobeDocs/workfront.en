@@ -1,6 +1,6 @@
 ---
 filename: get-started-with-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Get started with Workfront Library

@@ -1,7 +1,7 @@
 ---
 filename: general-functions
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: General functions in Adobe Workfront Fusion

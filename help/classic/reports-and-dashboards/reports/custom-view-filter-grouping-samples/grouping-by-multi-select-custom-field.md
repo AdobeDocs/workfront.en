@@ -82,7 +82,7 @@ To group by a multi-select custom field in a report:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="charting-by-multi-select-fields"></a>Chart a report by multi-select Custom Fields</h2>
+<h2>Chart a report by multi-select Custom Fields</h2>
 <p>(NOTE: this moved to its own article, linked in the Note above!)</p>
 <p>You cannot build a chart in a report by referencing a multi-select custom field. Instead, you can create a calculated field that records the values of the multi-select custom field on a given object and group by the calculated field.&nbsp;</p>
 <ul>

@@ -1,6 +1,6 @@
 ---
 filename: wf-mobileiron-configs
-product: mobile
+product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Configure Adobe Workfront for MobileIron
 description: In the Adobe Workfront for MobileIron app, we support default configurations provided by MobileIron for both Android and iOS.

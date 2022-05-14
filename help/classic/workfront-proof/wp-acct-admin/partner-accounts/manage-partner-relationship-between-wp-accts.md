@@ -1,6 +1,6 @@
 ---
 filename: manage-partner-relationship-between-wp-accts
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: partner-accounts
 title: Manage a partner relationship between Workfront Proof accounts

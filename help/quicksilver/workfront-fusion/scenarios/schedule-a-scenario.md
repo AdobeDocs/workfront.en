@@ -1,6 +1,6 @@
 ---
 filename: schedule-a-scenario
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Schedule a scenario in Adobe Workfront Fusion

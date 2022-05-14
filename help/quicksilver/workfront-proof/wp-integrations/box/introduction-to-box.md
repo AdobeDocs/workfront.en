@@ -1,7 +1,7 @@
 ---
 filename: introduction-to-box
 content-type: overview
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
 title: Introduction to the Workfront Proof and Box integration

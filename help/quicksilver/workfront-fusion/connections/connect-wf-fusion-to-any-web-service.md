@@ -1,6 +1,6 @@
 ---
 filename: connect-wf-fusion-to-any-web-service
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Connect Adobe Workfront Fusion to any web service

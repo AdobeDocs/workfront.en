@@ -188,7 +188,7 @@ You can see whether a report has been configured to be delivered by creating the
   For more information about creating reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). For information on creating a report on reports, see [Create a report on reporting activities](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="scheduling-a-repeating-report-delivery"></a>Scheduling a Repeating&nbsp;Report Delivery</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating&nbsp;Report Delivery</h2>
 -->
 
 <!--
@@ -260,7 +260,7 @@ You can see whether a report has been configured to be delivered by creating the
    -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="deleting-a-sheduled-report-delivery"></a>Deleting a Scheduled Report Delivery</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Deleting a Scheduled Report Delivery</h2>
 -->
 
    <!--
@@ -280,7 +280,7 @@ You can see whether a report has been configured to be delivered by creating the
    -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="sending-a-report-on-a-manual-basis"></a>Sending a Report Manually, on a One-Time Basis</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Sending a Report Manually, on a One-Time Basis</h2>
 -->
 
 <!--
@@ -296,7 +296,7 @@ You can see whether a report has been configured to be delivered by creating the
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="sending-a-scheduled-report-now"><a name="sending-a-scheduled-report-now"></a>Sending a Scheduled Report Now</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="sending-a-scheduled-report-now">Sending a Scheduled Report Now</h3>
 -->
 
 <!--
@@ -324,7 +324,7 @@ You can see whether a report has been configured to be delivered by creating the
    -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="sending-a-report-one-time-only"><a name="sending-a-report-one-time-only"></a>Sending a Report (One Time Only)</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="sending-a-report-one-time-only">Sending a Report (One Time Only)</h3>
 -->
 
 <!--

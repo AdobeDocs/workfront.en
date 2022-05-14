@@ -1,7 +1,7 @@
 ---
 filename: _personal-settings
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: basics-workfront-proof
 title: Personal settings in Workfront Proof

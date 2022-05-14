@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="When"></a>When to modify user assignments on issues</h2>
+<h2>When to modify user assignments on issues</h2>
 <p>(NOTE:&nbsp;drafted and moved to the overview article: Modify issue assignments overview)</p>
 <p>You might want to modify the user assignments for multiple issues for a variety of&nbsp;reasons, including the following:</p>
 <ul>

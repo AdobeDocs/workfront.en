@@ -1,6 +1,6 @@
 ---
 filename: set-up-taxonomy-metadata
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Set up taxonomy metadata for Workfront Library

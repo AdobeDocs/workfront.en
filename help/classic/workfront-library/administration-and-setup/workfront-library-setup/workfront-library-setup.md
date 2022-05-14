@@ -1,7 +1,7 @@
 ---
 filename: _workfront-library-setup
 content-type: reference
-product: workfront-library
+product-previous: workfront-library
 product-area: documents;system-administration;setup
 navigation-topic: administration-and-setup-for-workfront-library
 title: Workfront Library Setup

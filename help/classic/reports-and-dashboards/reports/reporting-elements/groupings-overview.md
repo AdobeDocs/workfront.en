@@ -116,7 +116,7 @@ For information about removing a grouping, see the article [Remove filters, view
   -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="understanding-groupings"><a name="understanding-groupings"></a>Understanding Groupings</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="understanding-groupings">Understanding Groupings</h2>
 -->
 
 <!--
@@ -164,7 +164,7 @@ For information about removing a grouping, see the article [Remove filters, view
   -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="creating-or-customizing-a-grouping"><a name="creating-or-customizing-a-grouping"></a>Creating or Customizing a Grouping</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="creating-or-customizing-a-grouping">Creating or Customizing a Grouping</h2>
 -->
 
   <!--
@@ -180,7 +180,7 @@ For information about removing a grouping, see the article [Remove filters, view
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="customizing-an-existing-grouping"><a name="Customizing_an_Existing_Grouping"></a>Customizing an Existing Grouping</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="customizing-an-existing-grouping">Customizing an Existing Grouping</h3>
 -->
 
    <!--
@@ -216,7 +216,7 @@ For information about removing a grouping, see the article [Remove filters, view
    -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="creating-a-new-grouping-based-on-an-existing-grouping"><a name="Creating_a_New_Grouping_Based_on_an_Existing_Grouping"></a>Creating a New Grouping Based on an Existing Grouping</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="creating-a-new-grouping-based-on-an-existing-grouping">Creating a New Grouping Based on an Existing Grouping</h3>
 -->
 
    <!--
@@ -252,7 +252,7 @@ For information about removing a grouping, see the article [Remove filters, view
    -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="creating-a-new-grouping-from-scratch"><a name="Creating_a_New_Grouping_from_Scratch"></a>Creating a New Grouping from Scratch</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="creating-a-new-grouping-from-scratch">Creating a New Grouping from Scratch</h3>
 -->
 
    <!--
@@ -284,7 +284,7 @@ For information about removing a grouping, see the article [Remove filters, view
    -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="aggregating-values-in-groupings"><a name="aggregating-values-in-groupings"></a>Aggregating Values in Groupings</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="aggregating-values-in-groupings">Aggregating Values in Groupings</h2>
 -->
 
 <!--
@@ -303,7 +303,7 @@ For information about removing a grouping, see the article [Remove filters, view
 -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="sorting-by-a-grouping"></a>Sorting by a Grouping</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Sorting by a Grouping</h2>
 -->
 
 <!--
@@ -311,7 +311,7 @@ For information about removing a grouping, see the article [Remove filters, view
 -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="removing-a-grouping"></a>Removing a Grouping</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Removing a Grouping</h2>
 -->
 
 <!--

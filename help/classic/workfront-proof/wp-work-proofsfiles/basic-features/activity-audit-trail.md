@@ -1,7 +1,7 @@
 ---
 filename: activity-audit-trail
 content-type: overview
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
 title: Understanding the Workfront Proof Activity Audit Trail

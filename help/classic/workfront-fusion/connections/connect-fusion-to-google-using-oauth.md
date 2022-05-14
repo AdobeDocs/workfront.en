@@ -1,6 +1,6 @@
 ---
 filename: connect-fusion-to-google-using-oauth
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
 title: Connect Adobe Workfront Fusion to Google Services using a custom OAuth client

@@ -1,6 +1,6 @@
 ---
 filename: goals-nov-30
-product: workfront-goals
+product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
 title: "Adobe Workfront Goals 21.1 release activity: Week of November 30, 2020"

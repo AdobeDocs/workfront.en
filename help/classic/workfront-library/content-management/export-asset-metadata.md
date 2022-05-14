@@ -1,6 +1,6 @@
 ---
 filename: export-asset-metadata
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Export asset metadata from Workfront Library

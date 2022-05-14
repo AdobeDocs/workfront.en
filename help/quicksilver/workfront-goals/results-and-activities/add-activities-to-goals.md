@@ -1,6 +1,6 @@
 ---
 filename: add-activities-to-goals
-product: workfront-goals
+product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Add activities to goals in Adobe Workfront Goals

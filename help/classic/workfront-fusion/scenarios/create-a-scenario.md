@@ -1,6 +1,6 @@
 ---
 filename: create-a-scenario
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Create a scenario in Adobe Workfront Fusion

@@ -1,6 +1,6 @@
 ---
 filename: get-started-with-results-and-activities
-product: workfront-goals
+product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Get started with results and activities in Adobe Workfront Goals

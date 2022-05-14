@@ -90,7 +90,7 @@ For information about updating Commit Dates for tasks and issues, see [Update Co
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Updating"></a>Update Commit Dates on tasks and issues</h2>
+<h2>Update Commit Dates on tasks and issues</h2>
 <p>(NOTE:&nbsp;moved to its own article) </p>
 <p>Updating the Commit Date is identical for tasks and issues.</p>
 <ol>

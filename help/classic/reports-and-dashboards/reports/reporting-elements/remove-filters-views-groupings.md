@@ -20,12 +20,12 @@ description: Remove filters, views, and groupings
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: this is older content - has been drafted and replaced by the DIV below) </p>
 <p>You can remove a filter, view, or grouping from the drop-down menus of lists and reports if you created them or they have been shared with you. You cannot remove default filters, views, or groupings.</p>
-<h2><a name="Walk-thr"></a>Walk-through</h2>
+<h2>Walk-through</h2>
 <p>View the following video to learn how to remove filters, views, and groupings in Adobe Workfront.</p> <note type="note">
 The video describes how to remove a grouping. However, removing views and filters is identical to removing a grouping.
 </note>
 <p><a href="https://workfront-video.wistia.com/medias/n0qpjfhecr" target="_blank"><img src="assets/video-remove-grouping-350x196.png" style="width: 350;height: 196;"></a> </p>
-<h2><a name="How-to"></a>How-to steps</h2>
+<h2>How-to steps</h2>
 <p>How you remove a reporting element depends on whether you initially created it, or it was shared with you.</p>
 <p>For example, when removing a grouping:</p>
 <ul>
@@ -38,7 +38,7 @@ The video describes how to remove a grouping. However, removing views and filter
 <li value="2"> <p>In the <strong>Grouping</strong>,<strong>Filter</strong>, or<strong>View</strong> drop-down menus, click <strong>Remove Grouping</strong>,<strong>Remove Filter</strong>, or<strong>Remove View</strong>.</p> <p>The <strong>My Groupings</strong>,<strong>My Filters,</strong> or<strong>My Views</strong>dialog box displays.</p> <p>All reporting elements that you have rights to remove are available to remove. Other reporting elements are displayed as dimmed.</p> </li>
 <li value="3">Click the <strong>x</strong> icon next to any reporting element that you want to remove, then click <strong>Done</strong>.</li>
 </ol>
-<h2><a name="Addition"></a>Additional information</h2>
+<h2>Additional information</h2>
 <p>See also:</p>
 <ul>
 <li data-mc-conditions="QuicksilverOrClassic.Classic"><a href="https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ" target="_blank">Learning Path for reports and dashboards</a> </li>

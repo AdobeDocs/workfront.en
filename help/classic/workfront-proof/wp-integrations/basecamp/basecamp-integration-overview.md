@@ -1,7 +1,7 @@
 ---
 filename: basecamp-integration-overview
 content-type: overview
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp
 title: Understand the Basecamp Integration with Workfront Proof

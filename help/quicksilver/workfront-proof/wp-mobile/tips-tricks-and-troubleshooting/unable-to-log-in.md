@@ -1,7 +1,7 @@
 ---
 filename: unable-to-log-in
 content-type: tips-tricks-troubleshooting
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-mobile
 title: Unable to Log In to the Workfront Proof Mobile App

@@ -1,7 +1,7 @@
 ---
 filename: integrations-user-setup
 content-type: overview;reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: personal-settings
 title: Integrations - User Setup

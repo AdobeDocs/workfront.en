@@ -1,7 +1,7 @@
 ---
 filename: folders-overview-library
 content-type: overview
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: folders
 title: Overview of folders in Workfront Library

@@ -1,6 +1,6 @@
 ---
 filename: filter-project-lists-in-workfront-view
-product: mobile
+product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
 title: Filter project lists in Adobe Workfront View

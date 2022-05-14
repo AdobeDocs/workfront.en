@@ -1,6 +1,6 @@
 ---
 filename: instant-triggers-webhooks
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Instant triggers (webhooks) in Adobe Workfront Fusion

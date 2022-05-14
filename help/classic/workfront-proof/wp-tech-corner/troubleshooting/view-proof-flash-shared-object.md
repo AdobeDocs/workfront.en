@@ -1,7 +1,7 @@
 ---
 filename: view-proof-flash-shared-object
 content-type: tips-tricks-troubleshooting
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Problems With Viewing Proofs - Flash Shared Objects Explained

@@ -1,6 +1,6 @@
 ---
 filename: copy-modules-or-scenarios
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Copy modules or scenarios in Adobe Workfront Fusion

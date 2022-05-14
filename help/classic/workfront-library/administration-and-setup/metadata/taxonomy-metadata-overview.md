@@ -1,7 +1,7 @@
 ---
 filename: taxonomy-metadata-overview
 content-type: overview
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Overview of taxonomy metadata in Workfront Library

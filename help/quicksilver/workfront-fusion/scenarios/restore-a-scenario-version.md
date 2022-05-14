@@ -1,6 +1,6 @@
 ---
 filename: restore-a-scenario-version
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Restore a scenario version in Adobe Workfront Fusion

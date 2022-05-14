@@ -1,6 +1,6 @@
 ---
 filename: view-interactive-proofs
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-legacy-proofing-viewer
 title: View Interactive Proofs in Alternate Resolutions in the Legacy proofing viewer

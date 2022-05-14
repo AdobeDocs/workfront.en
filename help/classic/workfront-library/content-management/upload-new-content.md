@@ -1,6 +1,6 @@
 ---
 filename: upload-new-content
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Upload content to Workfront Library

@@ -1,7 +1,7 @@
 ---
 filename: _review-proofs-in-wpv
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Review proofs in the Web Proofing Viewer

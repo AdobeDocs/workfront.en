@@ -1,7 +1,7 @@
 ---
 filename: language-settings
 content-type: reference;how-to-procedural
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
 title: Language Settings in Workfront Proof

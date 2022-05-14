@@ -1,6 +1,6 @@
 ---
 filename: dropzone
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: create-proofs-and-files
 title: The Dropzone

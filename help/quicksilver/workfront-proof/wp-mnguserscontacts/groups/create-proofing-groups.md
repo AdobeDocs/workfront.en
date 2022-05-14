@@ -1,6 +1,6 @@
 ---
 filename: create-proofing-groups
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
 title: Create Proofing Groups using Workfront Proof

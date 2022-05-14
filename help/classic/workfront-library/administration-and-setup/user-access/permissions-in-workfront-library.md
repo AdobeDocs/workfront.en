@@ -1,6 +1,6 @@
 ---
 filename: permissions-in-workfront-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents;user-management;system-administration
 navigation-topic: user-access
 title: Permissions in Workfront Library

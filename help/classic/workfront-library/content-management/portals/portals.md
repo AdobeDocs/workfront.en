@@ -1,7 +1,7 @@
 ---
 filename: _portals
 content-type: reference
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Manage portals

@@ -41,7 +41,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="using-FNLT"></a>Use the Finish No Later Than constraint</h2>
+<h2>Use the Finish No Later Than constraint</h2>
 <p>To update the Task Constraint to Finish No Later Than:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>

@@ -1,7 +1,7 @@
 ---
 filename: legacy-proofing-viewer
 content-type: overview
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-legacy-proofing-viewer
 title: Legacy proofing viewer Overview

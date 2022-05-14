@@ -28,7 +28,7 @@ For information about moving a group, see [Move a group](../../../administration
    <td> <p>All of the moved group’s statuses remain with it. They are not added to the statuses of the group’s new parent group.</p> <p>But the moved group inherits any locked statuses in the group or groups that are now higher in its hierarchy. And, from now on, if an administrator locks a status higher in the hierarchy, the moved group inherits that status.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a name="When"></a>When a status in both groups has the same key but different attributes</td> 
+   <td role="rowheader">When a status in both groups has the same key but different attributes</td> 
    <td> <p>Suppose that 2 different subgroups inherit the same unlocked status from a parent group. The group administrators of the 2 groups then customize the status for their groups in different ways.</p> <p>Later, one of the 2 groups is moved under the other one. Now they both have a status with the same key, but it has different attributes in the two groups.</p> <p>In this case, one of the following is true:</p> 
     <ul> 
      <li>If the status in the new parent group is unlocked, the status in the moved group retains its attributes, unaffected by the move.</li> 

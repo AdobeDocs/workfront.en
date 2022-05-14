@@ -112,7 +112,7 @@ Your Workfront administrator can set up custom Expense Types.
 For more information about&nbsp;creating custom Expense Types, see [Create custom expense types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).&nbsp;
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><a name="resource-estimates"></a>Legacy Resource Estimates</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Legacy Resource Estimates</h2>
 -->
 
 <!--

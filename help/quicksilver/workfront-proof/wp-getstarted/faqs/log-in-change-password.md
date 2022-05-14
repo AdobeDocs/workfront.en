@@ -1,7 +1,7 @@
 ---
 filename: log-in-change-password
 content-type: faq
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: faqs-workfront-proof
 title: Logging in and changing your password and email for Workfront Proof

@@ -1,6 +1,6 @@
 ---
 filename: set-up-content-expiration-in-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents;system-administration;setup
 navigation-topic: workfront-library-setup
 title: Set up content expiration in Workfront Library

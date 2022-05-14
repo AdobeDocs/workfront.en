@@ -1,6 +1,6 @@
 ---
 filename: rename-items
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Rename items in Workfront Library

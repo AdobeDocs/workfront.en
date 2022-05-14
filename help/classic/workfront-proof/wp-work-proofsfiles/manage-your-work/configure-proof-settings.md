@@ -1,6 +1,6 @@
 ---
 filename: configure-proof-settings
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Configure Proof Settings in Workfront Proof

@@ -1,6 +1,6 @@
 ---
 filename: navigate-lpv
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-legacy-proofing-viewer
 title: Navigate the Legacy proofing viewer

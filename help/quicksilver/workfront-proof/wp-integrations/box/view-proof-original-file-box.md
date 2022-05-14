@@ -1,6 +1,6 @@
 ---
 filename: view-proof-original-file-box
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
 title: View a Proof's Original File in Box

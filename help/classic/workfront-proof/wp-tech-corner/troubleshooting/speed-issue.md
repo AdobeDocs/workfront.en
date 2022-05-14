@@ -1,7 +1,7 @@
 ---
 filename: speed-issue
 content-type: tips-tricks-troubleshooting
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Speed issues in Workfront Proof

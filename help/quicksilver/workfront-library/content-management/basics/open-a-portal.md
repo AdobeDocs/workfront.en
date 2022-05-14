@@ -1,6 +1,6 @@
 ---
 filename: open-a-portal
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Open a Workfront Library portal

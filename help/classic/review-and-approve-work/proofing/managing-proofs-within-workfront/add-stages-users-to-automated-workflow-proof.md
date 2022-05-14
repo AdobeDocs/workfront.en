@@ -1,6 +1,6 @@
 ---
 filename: add-stages-users-to-automated-workflow-proof
-product: workfront-proof;workfront
+product-previous: workfront-proof;workfront
 product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
 title: Add stages and users to an Automated Workflow on a proof

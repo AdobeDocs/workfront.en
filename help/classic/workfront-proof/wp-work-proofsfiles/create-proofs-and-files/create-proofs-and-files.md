@@ -1,7 +1,7 @@
 ---
 filename: _create-proofs-and-files
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Create proofs and files

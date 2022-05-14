@@ -1,6 +1,6 @@
 ---
 filename: create-edit-automated-workflow-existing-proof
-product: workfront-proof;workfront
+product-previous: workfront-proof;workfront
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Create or edit an Automated Workflow for an existing proof

@@ -1,6 +1,6 @@
 ---
 filename: add-proof-to-basecamp-project
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp
 title: Add a Proof to a Basecamp Project

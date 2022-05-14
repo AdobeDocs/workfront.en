@@ -1,6 +1,6 @@
 ---
 filename: close-wp-acct
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: Close your Workfront Proof account

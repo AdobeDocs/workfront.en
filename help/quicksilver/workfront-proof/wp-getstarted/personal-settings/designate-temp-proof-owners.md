@@ -1,6 +1,6 @@
 ---
 filename: designate-temp-proof-owners
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: personal-settings
 title: Designating Temporary Proof Owners in Workfront Proof

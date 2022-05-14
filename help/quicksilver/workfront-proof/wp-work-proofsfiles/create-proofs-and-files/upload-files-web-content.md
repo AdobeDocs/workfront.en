@@ -1,6 +1,6 @@
 ---
 filename: upload-files-web-content
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
 title: Upload Files and Web Content to Workfront Proof

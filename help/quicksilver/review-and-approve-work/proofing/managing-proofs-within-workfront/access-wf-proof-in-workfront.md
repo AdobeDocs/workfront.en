@@ -1,6 +1,6 @@
 ---
 filename: access-wf-proof-in-workfront
-product: workfront-proof;workfront
+product-previous: workfront-proof;workfront
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Access Workfront Proof from Adobe Workfront

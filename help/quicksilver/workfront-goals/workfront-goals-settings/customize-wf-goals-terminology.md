@@ -1,6 +1,6 @@
 ---
 filename: customize-wf-goals-terminology
-product: workfront-goals
+product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
 title: Customize Adobe Workfront Goals terminology
 description: Customize Adobe Workfront Goals terminology

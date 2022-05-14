@@ -226,6 +226,6 @@ Your resources might be overallocated if they are assigned to multiple tasks whi
 -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="editing-the-task-list-gantt-chart"></a> </h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"> </h2>
 -->
 

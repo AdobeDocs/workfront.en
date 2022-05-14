@@ -25,7 +25,7 @@ description: Legacy Workfront Fusion is not available as of March 31, 2021.
 <p>The Slack app for Legacy Workfront Fusion enables you to connect Legacy Workfront Fusion to your Slack account. After you enter your credentials, you can reuse that connection the next time you build a FLO using Slack. You can set up and save multiple connections and share them with your teammates.</p>
 <p class="workfront_plans"> This is available only for customers who have aLegacy Workfront Fusion license.</p>
 <p>For more information about Legacy Workfront Fusion, see <a href="../../administration-and-setup/configure-integrations/legacy-workfront-fusion.md" class="MCXref xref" xrefformat="{para}">Legacy Workfront Fusion</a>.</p>
-<h2><a name="enabling-the-slack-integration"></a>Enable the Slack integration</h2>
+<h2>Enable the Slack integration</h2>
 <p>The first time you add a Slack card to a FLO, you must set up a connection for that connector.&nbsp;</p>
 <p>To set up a connection with Slack:</p>
 <div>
@@ -45,7 +45,7 @@ description: Legacy Workfront Fusion is not available as of March 31, 2021.
 <li value="9">Click&nbsp;<strong>Authorize</strong>&nbsp;to give Legacy Workfront Fusion access to your Slack data. This allows Legacy Workfront Fusion to send messages on your behalf.&nbsp;You can reuse this connection any time you use Slack in a FLO.&nbsp;</li>
 </ol>
 <p>After you have set up a connection, you can use that connection again or set up a new one.</p>
-<h2><a name="events-and-actions-in-slack-integration"></a>What you can do with the Slack integration</h2>
+<h2>What you can do with the Slack integration</h2>
 <p>There are multiple Events in Slack that can trigger FLOs:</p>
 <ul>
 <li><strong>New Message in Channel:</strong> Start FLO when there is a new message in a certain channel</li>

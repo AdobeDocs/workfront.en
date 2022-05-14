@@ -43,7 +43,7 @@
      </tbody> 
     </table> 
     <p aemmigrated="true">*To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.</p> 
-    <h2 aemmigrated="true"><a name="commenting-on-a-proof" aemmigrated="true"></a>Comment on a proof</h2> 
+    <h2 aemmigrated="true">Comment on a proof</h2> 
     <ol aemmigrated="true"> 
      <li value="1" aemmigrated="true"> <p aemmigrated="true">Go to the project, task, or issue that contains the document, then select <strong aemmigrated="true">Documents</strong>.</p> </li> 
      <li value="2" aemmigrated="true"> <p aemmigrated="true">Find the proof you need, then click <strong aemmigrated="true">Open proof</strong>.</p> </li> 
@@ -109,7 +109,7 @@
       In static proofs, you can mark multiple areas on multiple pages for one comment. For example, if you want to make the same comment on multiple pages, select an area on one page, then go to the next page where you want to make the same comment and select an area there. (This applies only to the regular annotation markup tools, not the text markup tools.)
      </note> 
      <li value="6" aemmigrated="true">Type your comment in the <strong aemmigrated="true">Add comment</strong> box on the right.</li> 
-     <li value="7" aemmigrated="true"> <p aemmigrated="true"><a name="@mention-in-comment" aemmigrated="true"></a>(Optional) To tag another user in your comment and add them to the proof's workflow, type @ in the comment box, then type the user's name or email address and select the user in the menu that appears.&nbsp;For more information, see <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref" aemmigrated="true">Tag users to share a proof</a>.</p> </li> 
+     <li value="7" aemmigrated="true"> <p aemmigrated="true">(Optional) To tag another user in your comment and add them to the proof's workflow, type @ in the comment box, then type the user's name or email address and select the user in the menu that appears.&nbsp;For more information, see <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref" aemmigrated="true">Tag users to share a proof</a>.</p> </li> 
      <li value="8" aemmigrated="true"> (Optional) To attach&nbsp;a file to a comment, do either of the following: 
       <ul aemmigrated="true">
        <li aemmigrated="true">Click the paper clip icon in the lower-right corner of the comment, then find and select the file you want to upload.</li>

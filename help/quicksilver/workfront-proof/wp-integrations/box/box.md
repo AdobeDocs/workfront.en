@@ -1,7 +1,7 @@
 ---
 filename: _box
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
 title: Box

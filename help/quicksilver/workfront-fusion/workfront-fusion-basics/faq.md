@@ -1,7 +1,7 @@
 ---
 filename: faq
 content-type: faq
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-basics
 title: Adobe Workfront Fusion FAQ

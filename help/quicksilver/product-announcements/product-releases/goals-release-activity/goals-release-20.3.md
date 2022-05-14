@@ -1,6 +1,6 @@
 ---
 filename: goals-release-20.3
-product: workfront-goals
+product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
 title: Workfront Goals with the 20.3 release - August 14, 2020

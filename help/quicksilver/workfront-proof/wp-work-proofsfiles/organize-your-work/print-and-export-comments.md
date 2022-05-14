@@ -1,6 +1,6 @@
 ---
 filename: print-and-export-comments
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Print and Export Comments in Workfront Proof

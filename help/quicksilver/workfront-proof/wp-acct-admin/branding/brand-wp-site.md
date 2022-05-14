@@ -1,6 +1,6 @@
 ---
 filename: brand-wp-site
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
 title: Brand the Workfront Proof site
@@ -105,7 +105,7 @@ To set up email branding:
    ![Branding_-_email_notification.png](assets/branding---email-notification-350x195.png)
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="custom_sub_domains"></a>Custom Sub-Domains</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom Sub-Domains</h2>
 -->
 
 <!--

@@ -1,6 +1,6 @@
 ---
 filename: configure-how-hyperlinks-open
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-desktop-proofing-viewer
 title: Configure how hyperlinks open in the Desktop Proofing Viewer

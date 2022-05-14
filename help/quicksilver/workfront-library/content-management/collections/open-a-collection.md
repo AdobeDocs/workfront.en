@@ -1,6 +1,6 @@
 ---
 filename: open-a-collection
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: collections
 title: Open a collection in Workfront Library

@@ -125,7 +125,7 @@ You must have the following:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="deleting-a-job-role"></a>Delete a job role</h2>
+<h2>Delete a job role</h2>
 <ol data-mc-continue="false">
 <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <strong>Setup</strong> <img src="assets/gear-icon-settings.png">.</li>
 <li value="2">Click<strong>Job Roles.</strong></li>

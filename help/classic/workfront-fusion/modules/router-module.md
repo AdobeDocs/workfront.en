@@ -1,7 +1,7 @@
 ---
 filename: router-module
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Router module in Adobe Workfront Fusion

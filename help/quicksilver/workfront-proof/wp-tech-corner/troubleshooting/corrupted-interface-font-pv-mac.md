@@ -1,7 +1,7 @@
 ---
 filename: corrupted-interface-font-pv-mac
 content-type: tips-tricks-troubleshooting
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Troubleshooting - corrupted interface font in proofing viewer on Mac

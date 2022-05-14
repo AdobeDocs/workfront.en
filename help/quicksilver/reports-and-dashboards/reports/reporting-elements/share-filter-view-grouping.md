@@ -84,7 +84,7 @@ Sharing filters, views, or groupings in Workfront is identical.
 <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="#sharing-filters-and-groupings-using-the-beta-builder-interface" class="MCXref xref">Sharing filters and groupings using the beta builder interface</a> </p>
 </li>
 </ul>
-<h3 data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode" id="sharing-filters-views-and-groupings-using-the-standard-interface"><a name="Sharing"></a>Sharing filters, views, and groupings using the standard interface</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode" id="sharing-filters-views-and-groupings-using-the-standard-interface">Sharing filters, views, and groupings using the standard interface</h3>
 <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: drafted, keep NWE)&nbsp;</p>
 <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">Sharing filters, views, and groupings in the standard interface is identical.</p>
 </div>
@@ -202,7 +202,7 @@ This video was recorded in Workfront Classic. However, the content also applies 
 [![](assets/video-share-reporting-elements-350x198.png)](https://workfront-video.wistia.com/medias/wj9snapqio)
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Addition"></a>Additional information</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Additional information</h2>
 -->
 
 <!--
@@ -270,7 +270,7 @@ This video was recorded in Workfront Classic. However, the content also applies 
   -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="sharing-a-filter-view-or-grouping"><a name="sharing-a-filter-view-or-grouping"></a>Sharing a Filter, View, or Grouping</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="sharing-a-filter-view-or-grouping">Sharing a Filter, View, or Grouping</h2>
 -->
 
 <!--

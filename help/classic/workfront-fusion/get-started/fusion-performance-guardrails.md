@@ -1,6 +1,6 @@
 ---
 filename: fusion-performance-guardrails
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: scenarios,performance
 navigation-topic: get-started-with-workfront-fusion-2-0

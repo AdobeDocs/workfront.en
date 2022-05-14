@@ -1,7 +1,7 @@
 ---
 filename: folders
 content-type: overview
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Folders in Workfront Proof

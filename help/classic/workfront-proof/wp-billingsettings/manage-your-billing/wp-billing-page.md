@@ -1,7 +1,7 @@
 ---
 filename: wp-billing-page
 content-type: overview
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: The Workfront Proof Billing Page

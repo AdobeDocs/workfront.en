@@ -1,6 +1,6 @@
 ---
 filename: request-new-data-backup-in-wp
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Request a new data backup in Workfront Proof

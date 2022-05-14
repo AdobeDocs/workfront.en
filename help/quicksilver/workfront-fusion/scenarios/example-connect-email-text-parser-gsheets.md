@@ -1,6 +1,6 @@
 ---
 filename: example-connect-email-text-parser-gsheets
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: "Adobe Workfront Fusion scenario example: Connect email, Text Parser, and Google Sheets"

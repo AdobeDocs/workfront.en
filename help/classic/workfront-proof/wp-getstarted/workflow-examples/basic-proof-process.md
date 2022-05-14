@@ -1,7 +1,7 @@
 ---
 filename: basic-proof-process
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
 title: Basic Proofing Process in Workfront Proof

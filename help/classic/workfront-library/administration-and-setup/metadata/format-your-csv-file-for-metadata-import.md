@@ -1,6 +1,6 @@
 ---
 filename: format-your-csv-file-for-metadata-import
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Format your CSV file for metadata import in Workfront Library

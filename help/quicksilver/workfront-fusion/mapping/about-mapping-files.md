@@ -1,7 +1,7 @@
 ---
 filename: about-mapping-files
 content-type: overview
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: About mapping files in Adobe Workfront Fusion

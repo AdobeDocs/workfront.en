@@ -1,7 +1,7 @@
 ---
 filename: license-automation-vs-integration
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion licenses

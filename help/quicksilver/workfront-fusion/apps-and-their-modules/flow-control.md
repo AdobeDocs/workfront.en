@@ -1,7 +1,7 @@
 ---
 filename: flow-control
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Flow control in Adobe Workfront Fusion

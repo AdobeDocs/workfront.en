@@ -1,7 +1,7 @@
 ---
 filename: google-team-drive-modules
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations;agile-and-teams;user-management
 keywords: connector
 navigation-topic: apps-and-their-modules

@@ -1,7 +1,7 @@
 ---
 filename: google-drive-modules
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
@@ -105,7 +105,7 @@ If you see the map button above a field or function, you can use it to set varia
 <li> <p><a href="#move-a-file-folder" class="MCXref xref">Move a File/Folder</a> </p> </li>
 <li> <p><a href="#get-a-share-link" class="MCXref xref">Get a share link</a> </p> </li>
 </ul>
-<h4 id="watch-files-in-folder"><a name="Watch"></a>Watch Files In Folder</h4>
+<h4 id="watch-files-in-folder">Watch Files In Folder</h4>
 <p>This trigger module retrieves file details when a file is added or modified in the specified folder.</p>
 <table>
 <col>
@@ -152,7 +152,7 @@ If you see the map button above a field or function, you can use it to set varia
 </tr>
 </tbody>
 </table>
-<h4 id="watch-all-files"><a name="Watch2"></a>Watch All Files</h4>
+<h4 id="watch-all-files">Watch All Files</h4>
 <p>This trigger module retrieves file details when a file in your Google Drive is added or modified.</p>
 <table>
 <col>
@@ -195,7 +195,7 @@ If you see the map button above a field or function, you can use it to set varia
 </tr>
 </tbody>
 </table>
-<h4 id="watch-folders"><a name="Watch5"></a>Watch Folders</h4>
+<h4 id="watch-folders">Watch Folders</h4>
 <p>This trigger module starts a scenario when a folder is created or modified.</p>
 <table>
 <col>
@@ -232,7 +232,7 @@ If you see the map button above a field or function, you can use it to set varia
 </tr>
 </tbody>
 </table>
-<h4 id="search-for-files-folders"><a name="Search3"></a>Search for Files/Folders</h4>
+<h4 id="search-for-files-folders">Search for Files/Folders</h4>
 <p>This search module searches for files or folders based on search criteria.</p>
 <table>
 <col>
@@ -280,7 +280,7 @@ If you see the map button above a field or function, you can use it to set varia
 </tr>
 </tbody>
 </table>
-<h4 id="download-a-file"><a name="Download"></a>Download a file</h4>
+<h4 id="download-a-file">Download a file</h4>
 <p>This action module downloads a file from your Google Drive.</p>
 <table>
 <col>
@@ -316,7 +316,7 @@ If you see the map button above a field or function, you can use it to set varia
 </tr>
 </tbody>
 </table>
-<h4 id="create-a-file-from-text"><a name="Create2"></a>Create a File from Text</h4>
+<h4 id="create-a-file-from-text">Create a File from Text</h4>
 <p>This action module creates a file from plain text.</p>
 <table>
 <col>
@@ -353,7 +353,7 @@ If you see the map button above a field or function, you can use it to set varia
 </tr>
 </tbody>
 </table>
-<h4 id="create-a-folder"><a name="Create3"></a>Create a Folder</h4>
+<h4 id="create-a-folder">Create a Folder</h4>
 <p>This action module creates a folder in the specified location.</p>
 <table>
 <col>
@@ -408,7 +408,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h4 id="upload-a-file"><a name="Upload2"></a>Upload a File</h4>
+<h4 id="upload-a-file">Upload a File</h4>
 <p>This action module uploads a file to your Google Drive.</p>
 <table>
 <col>
@@ -440,7 +440,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h4 id="update-a-file"><a name="Update2"></a>Update a File</h4>
+<h4 id="update-a-file">Update a File</h4>
 <p>This action module updates a file's metadata or content.</p>
 <table>
 <col>
@@ -476,7 +476,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h4 id="move-a-file-folder-to-trash"><a name="Move2"></a>Move a File/Folder to Trash</h4>
+<h4 id="move-a-file-folder-to-trash">Move a File/Folder to Trash</h4>
 <p>This action module moves a file or folder to the trash.</p>
 <table>
 <col>
@@ -496,7 +496,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h4 id="delete-a-file-folder"><a name="Delete2"></a>Delete a File/Folder</h4>
+<h4 id="delete-a-file-folder">Delete a File/Folder</h4>
 <p>This action module permanently deletes a file or folder.</p>
 <table>
 <col>
@@ -516,7 +516,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h4 id="copy-a-file"><a name="Copy2"></a>Copy a File</h4>
+<h4 id="copy-a-file">Copy a File</h4>
 <p>This action module copies a file to the new location on Google Drive.</p>
 <table>
 <col>
@@ -540,7 +540,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h4 id="move-a-file-folder"><a name="Move3"></a>Move a File/Folder</h4>
+<h4 id="move-a-file-folder">Move a File/Folder</h4>
 <p>This action module moves a file or folder to a different location on Google Drive.</p>
 <table>
 <col>
@@ -578,7 +578,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h4 id="get-a-share-link"><a name="Get3"></a>Get a share link</h4>
+<h4 id="get-a-share-link">Get a share link</h4>
 <p>This action module retrieves the share link for a file in Google Drive.</p>
 <table>
 <col>
@@ -656,7 +656,7 @@ Google Shared Drive modules are for G Suite users only.
 <li> <p><a href="#update-a-shared-drive" class="MCXref xref">Update a shared Drive</a> </p> </li>
 <li> <p><a href="#delete-a-shared-drive" class="MCXref xref">Delete a Shared Drive</a> </p> </li>
 </ul>
-<h4 id="watch-shared-drives"><a name="Watch6"></a>Watch shared drives</h4>
+<h4 id="watch-shared-drives">Watch shared drives</h4>
 <p>This trigger module starts a scenario when a shared drive is created.</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
@@ -686,7 +686,7 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h4 id="search-for-shared-drives"><a name="Search4"></a>Search for Shared Drives</h4>
+<h4 id="search-for-shared-drives">Search for Shared Drives</h4>
 <p>This search module searches for the Google shared drive</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
@@ -716,7 +716,7 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h4 id="create-a-shared-drive"><a name="Create4"></a>Create a Shared Drive</h4>
+<h4 id="create-a-shared-drive">Create a Shared Drive</h4>
 <p>This action module creates a new shared drive</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
@@ -734,7 +734,7 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h4 id="get-a-shared-drive"><a name="Get4"></a>Get a Shared Drive</h4>
+<h4 id="get-a-shared-drive">Get a Shared Drive</h4>
 <p>This action module retrieves shared drive details</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
@@ -752,7 +752,7 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h4 id="update-a-shared-drive"><a name="Update3"></a>Update a shared Drive</h4>
+<h4 id="update-a-shared-drive">Update a shared Drive</h4>
 <p>This action module updates an existing drive's name or restrictions.</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
@@ -784,7 +784,7 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h4 id="delete-a-shared-drive"><a name="Delete3"></a>Delete a Shared Drive</h4>
+<h4 id="delete-a-shared-drive">Delete a Shared Drive</h4>
 <p>This action module deletes a shared drive. The shared drive cannot contain any content.</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
@@ -808,7 +808,7 @@ The G Suite administrator privilege is required in order to use this module.
 <li> <p><a href="#get-a-folder-id-for-a-path" class="MCXref xref">Get a Folder ID for a Path</a> </p> </li>
 <li> <p><a href="#make-an-api-call" class="MCXref xref">Make an API&nbsp;Call</a> </p> </li>
 </ul>
-<h4 id="watch-comments"><a name="Watch7"></a>Watch Comments</h4>
+<h4 id="watch-comments">Watch Comments</h4>
 <p>This trigger module starts a scenario when a comment is added or modified on the selected file.</p>
 <table>
 <col>
@@ -845,7 +845,7 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h4 id="get-a-folder-id-for-a-path"><a name="Get5"></a>Get a Folder ID for a Path</h4>
+<h4 id="get-a-folder-id-for-a-path">Get a Folder ID for a Path</h4>
 <p>This action module retrieves the Folder ID for a given path.</p>
 <table>
 <col>
@@ -861,7 +861,7 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h4 id="make-an-api-call"><a name="Make"></a>Make an API&nbsp;Call</h4>
+<h4 id="make-an-api-call">Make an API&nbsp;Call</h4>
 <p>This action module allows you to perform a custom API call.</p>
 <table>
 <col>

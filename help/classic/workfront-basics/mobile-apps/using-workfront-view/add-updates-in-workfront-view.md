@@ -1,6 +1,6 @@
 ---
 filename: add-updates-in-workfront-view
-product: mobile
+product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
 title: Add updates in Adobe Workfront View

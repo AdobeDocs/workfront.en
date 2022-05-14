@@ -133,7 +133,7 @@ View the following video to learn how to share filters, views, and groupings in 
 [ ![](assets/video-share-reporting-elements-350x198.png)](https://workfront-video.wistia.com/medias/wj9snapqio)
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Addition"></a>Additional information</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Additional information</h2>
 -->
 
 <!--
@@ -201,7 +201,7 @@ View the following video to learn how to share filters, views, and groupings in 
   -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="sharing-a-filter-view-or-grouping"><a name="sharing-a-filter-view-or-grouping"></a>Sharing a Filter, View, or Grouping</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="sharing-a-filter-view-or-grouping">Sharing a Filter, View, or Grouping</h2>
 -->
 
 <!--

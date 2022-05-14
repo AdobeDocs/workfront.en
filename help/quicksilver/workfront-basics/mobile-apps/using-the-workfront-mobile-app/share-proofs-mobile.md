@@ -1,6 +1,6 @@
 ---
 filename: share-proofs-mobile
-product: mobile
+product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Share and download proofs in the Adobe Workfront mobile app
 description: You can share a proof document with internal and external recipients directly from the mobile app. You can also download a proof document to your mobile device.

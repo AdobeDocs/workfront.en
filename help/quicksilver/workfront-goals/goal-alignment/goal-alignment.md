@@ -1,7 +1,7 @@
 ---
 filename: _goal-alignment
 content-type: reference
-product: workfront-goals
+product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
 title: Goal alignment in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.

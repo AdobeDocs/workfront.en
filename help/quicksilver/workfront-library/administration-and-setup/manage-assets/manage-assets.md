@@ -1,7 +1,7 @@
 ---
 filename: _manage-assets
 content-type: reference
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: administration-and-setup-for-workfront-library
 title: Manage assets

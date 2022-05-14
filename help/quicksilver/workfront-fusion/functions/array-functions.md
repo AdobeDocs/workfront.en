@@ -1,7 +1,7 @@
 ---
 filename: array-functions
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Array functions in Adobe Workfront Fusion

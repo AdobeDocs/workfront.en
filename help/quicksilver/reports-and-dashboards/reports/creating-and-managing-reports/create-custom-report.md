@@ -254,7 +254,7 @@ To watch a video of how to create a report, see this [Create a custom report](#W
    Click **Save + Close** if you are finished editing the report and you want to save the report.
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Addition"></a>Additional information</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Additional information</h2>
 -->
 
 <!--

@@ -1,6 +1,6 @@
 ---
 filename: edit-the-taxonomy
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Edit a taxonomy metadata field in Workfront Library

@@ -1,6 +1,6 @@
 ---
 filename: workfront-fusion-2
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: fusion
 navigation-topic: workfront-fusion-navigation-topic

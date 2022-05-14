@@ -1,6 +1,6 @@
 ---
 filename: lpv-removed-2018
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-legacy-proofing-viewer
 title: Legacy proofing viewer removed in 2018.3

@@ -1,6 +1,6 @@
 ---
 filename: view-and-resolve-incomplete-executions
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: View and resolve incomplete executions in Adobe Workfront Fusion

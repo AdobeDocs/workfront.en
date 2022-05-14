@@ -84,7 +84,7 @@ You must have the following access to perform the steps in this article:
 1. Click **Make Decision**.
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="making-a-workfront-approval-decision"></a>Make a decision when the proof is configured with an approval process</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Make a decision when the proof is configured with an approval process</h2>
 -->
 
 <!--
@@ -100,7 +100,7 @@ You must have the following access to perform the steps in this article:
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="make-a-workfront-approval-decision-in-a-proof"><a name="making-a-workfront-approval-decision-in-a-proof"></a>Make a Workfront approval decision in a proof</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="make-a-workfront-approval-decision-in-a-proof">Make a Workfront approval decision in a proof</h3>
 -->
 
    <!--
@@ -112,7 +112,7 @@ You must have the following access to perform the steps in this article:
    -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="change-your-workfront-approval-decision-in-a-proof"><a name="changing-your-workfront-approval-decision-in-a-proof"></a>Change your Workfront approval decision in a proof</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="change-your-workfront-approval-decision-in-a-proof">Change your Workfront approval decision in a proof</h3>
 -->
 
 <!--

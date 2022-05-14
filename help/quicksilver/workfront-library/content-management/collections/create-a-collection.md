@@ -1,6 +1,6 @@
 ---
 filename: create-a-collection
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: collections
 title: Create a collection in Workfront Library

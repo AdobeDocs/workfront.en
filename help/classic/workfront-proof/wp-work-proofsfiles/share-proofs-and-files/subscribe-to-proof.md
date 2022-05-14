@@ -1,6 +1,6 @@
 ---
 filename: subscribe-to-proof
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Subscribe to a Proof in Workfront Proof

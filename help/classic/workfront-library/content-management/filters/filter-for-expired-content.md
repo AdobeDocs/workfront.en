@@ -1,6 +1,6 @@
 ---
 filename: filter-for-expired-content
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: filters
 title: Filter for expired content in Workfront Library

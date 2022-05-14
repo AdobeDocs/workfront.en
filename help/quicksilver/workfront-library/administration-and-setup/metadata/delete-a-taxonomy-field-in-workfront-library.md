@@ -1,6 +1,6 @@
 ---
 filename: delete-a-taxonomy-field-in-workfront-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Delete a taxonomy field in Workfront Library

@@ -1,7 +1,7 @@
 ---
 filename: organization-roles
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Organization roles in Adobe Workfront Fusion

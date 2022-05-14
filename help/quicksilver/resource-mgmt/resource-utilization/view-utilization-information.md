@@ -72,7 +72,7 @@ The following sections describe how to view and use utilization information.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="prerequisites"></a>Prerequisites for accessing utilization information</h2>
+<h2>Prerequisites for accessing utilization information</h2>
 <p>(NOTE: drafted, replaced with above table)</p>
 <p>To access utilization information as described in this section, ensure that the following conditions are met:</p>
 <ul>

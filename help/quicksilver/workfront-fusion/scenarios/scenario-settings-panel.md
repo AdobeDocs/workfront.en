@@ -1,6 +1,6 @@
 ---
 filename: scenario-settings-panel
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: The scenario settings panel in Adobe Workfront Fusion

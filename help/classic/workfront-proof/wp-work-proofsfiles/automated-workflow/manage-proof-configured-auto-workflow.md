@@ -1,6 +1,6 @@
 ---
 filename: manage-proof-configured-auto-workflow
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
 title: Manage a proof configured with an Automated Workflow in Workfront Proof

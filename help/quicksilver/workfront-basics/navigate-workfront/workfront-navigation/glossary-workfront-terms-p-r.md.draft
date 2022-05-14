@@ -119,7 +119,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
     --> </td> 
   </tr> 
   <tr> 
-   <td> <p><a name="Planned-Labor-Cost"></a>Planned Labor Cost</p> </td> 
+   <td> <p>Planned Labor Cost</p> </td> 
    <td> <p>For a task, the hourly rate of the user or role multiplied by the number of hours assigned to the user or role.&nbsp;</p> <p>For a project, it is a total of all Planned Labor Costs of all the tasks.&nbsp;&nbsp;</p> <p>Whether the rate of the user or role is used depends on the Cost Type that is selected for the given task. </p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
   </tr> 
   <tr> 

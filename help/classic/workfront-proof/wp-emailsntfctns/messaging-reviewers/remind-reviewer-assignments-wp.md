@@ -1,6 +1,6 @@
 ---
 filename: remind-reviewer-assignments-wp
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: messaging-reviewers
 title: Remind a reviewer about assignments in Workfront Proof

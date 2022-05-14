@@ -195,7 +195,7 @@ When you add a document to a linked folder via Workfront, it is automatically ad
    A new version of your document is automatically created in Quip and linked into Workfront.
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id=""><a name="synchronizing-changes-made-on-a-linked-document"></a> </h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id=""> </h2>
 -->
 
 ## Delete a linked document or folder {#delete-a-linked-document-or-folder}

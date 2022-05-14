@@ -124,7 +124,7 @@ You must have the following:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="deleting-a-job-role"></a>Delete a job role</h2>
+<h2>Delete a job role</h2>
 <ol data-mc-continue="false">
 <li value="1" data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Setup</strong> near the upper-right corner of Adobe Workfront on the Global Navigation Bar.</li>
 <li value="2">Click<strong>Job Roles.</strong></li>

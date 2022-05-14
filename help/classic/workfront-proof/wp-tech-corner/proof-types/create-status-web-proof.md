@@ -1,6 +1,6 @@
 ---
 filename: create-status-web-proof
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: proof-types
 title: Create a Static Website Proof using Workfront Proof

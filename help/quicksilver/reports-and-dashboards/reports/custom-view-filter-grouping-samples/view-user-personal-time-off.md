@@ -72,7 +72,7 @@ You must have the following access to perform the steps in this article:
    >We recommend adding a grouping for the User object, to make the report easier to read.
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Add"></a>Add Time Off information to a user report</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Add Time Off information to a user report</h2>
 -->
 
 <!--

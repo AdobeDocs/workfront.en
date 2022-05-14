@@ -1,6 +1,6 @@
 ---
 filename: create-a-request-in-wf-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Create a request in Workfront Library

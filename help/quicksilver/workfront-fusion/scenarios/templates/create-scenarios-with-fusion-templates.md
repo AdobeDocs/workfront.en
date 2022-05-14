@@ -1,6 +1,6 @@
 ---
 filename: create-scenarios-with-fusion-templates
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Create scenarios with Adobe Workfront Fusion templates

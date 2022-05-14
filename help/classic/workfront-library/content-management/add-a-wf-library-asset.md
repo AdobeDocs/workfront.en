@@ -1,6 +1,6 @@
 ---
 filename: add-a-wf-library-asset
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Add a Workfront Library asset to Workfront

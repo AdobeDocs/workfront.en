@@ -1,6 +1,6 @@
 ---
 filename: sycn-box-folder
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
 title: Sync Box Folders With Workfront Proof

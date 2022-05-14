@@ -1,6 +1,6 @@
 ---
 filename: sso-in-wp-adfs-configuration
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: "Single Sign-On in Workfront Proof: AD FS configuration"

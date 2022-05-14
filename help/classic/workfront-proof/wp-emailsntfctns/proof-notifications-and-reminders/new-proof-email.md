@@ -1,7 +1,7 @@
 ---
 filename: new-proof-email
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
 title: New proof email

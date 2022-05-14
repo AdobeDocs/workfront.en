@@ -86,7 +86,7 @@ Consider the following when assigning multiple resources to a work item:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Remove"></a> </h2>
+<h2> </h2>
 <h2>Considerations about removing assignments from issues</h2> 
 -->
 

@@ -1,7 +1,7 @@
 ---
 filename: _wp-api
 content-type: api;reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
 title: Workfront Proof API

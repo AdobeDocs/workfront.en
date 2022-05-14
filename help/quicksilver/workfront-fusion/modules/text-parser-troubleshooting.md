@@ -1,7 +1,7 @@
 ---
 filename: text-parser-troubleshooting
 content-type: tips-tricks-troubleshooting
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Text parser troubleshooting in Adobe Workfront Fusion

@@ -1,7 +1,7 @@
 ---
 filename: _troubleshooting
 content-type: tips-tricks-troubleshooting;reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: tech-corner
 title: Troubleshooting in Workfront Proof

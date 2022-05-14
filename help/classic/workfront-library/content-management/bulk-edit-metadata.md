@@ -1,6 +1,6 @@
 ---
 filename: bulk-edit-metadata
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Bulk edit metadata in Workfront Library

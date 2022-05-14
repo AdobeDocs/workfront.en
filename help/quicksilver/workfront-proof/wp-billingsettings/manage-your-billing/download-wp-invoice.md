@@ -1,6 +1,6 @@
 ---
 filename: download-wp-invoice
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: Downloading Your Workfront Proof Invoice

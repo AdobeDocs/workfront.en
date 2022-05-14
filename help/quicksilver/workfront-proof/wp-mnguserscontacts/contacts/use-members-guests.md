@@ -1,7 +1,7 @@
 ---
 filename: use-members-guests
 content-type: overview
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
 title: Understand Users, Members, and Guests in Workfront Proof

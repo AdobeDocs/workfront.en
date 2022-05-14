@@ -1,6 +1,6 @@
 ---
 filename: edit-results-and-activities
-product: workfront-goals
+product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Edit results and activities in Adobe Workfront Goals

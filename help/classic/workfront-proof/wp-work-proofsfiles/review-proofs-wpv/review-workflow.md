@@ -1,6 +1,6 @@
 ---
 filename: review-workflow
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Review a Workflow in the proofing viewer

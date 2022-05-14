@@ -141,7 +141,7 @@ To create a new version of a proof in Workfront Proof:
      The selections made in this section will be shown in the Proof details page (where some fields can be edited). For more information, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Creating"></a>Create a new version of a proof from the proofing viewer</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Create a new version of a proof from the proofing viewer</h2>
 -->
 
 <!--

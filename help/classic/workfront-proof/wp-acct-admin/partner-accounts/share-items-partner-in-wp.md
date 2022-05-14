@@ -1,6 +1,6 @@
 ---
 filename: share-items-partner-in-wp
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: partner-accounts
 title: Share items with a partner in Workfront Proof

@@ -1,7 +1,7 @@
 ---
 filename: wp-mobile-app-phones
 content-type: overview;reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-mobile-apps
 title: Workfront Proof mobile app

@@ -104,7 +104,7 @@ The left panel is available for the following areas:
 * Default sections in the Goals area
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Default2"></a> </h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"> </h3>
 -->
 
 ### Default sections in the Dashboards area {#default-sections-in-the-dashboards-area}

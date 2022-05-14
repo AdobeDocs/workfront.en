@@ -1,7 +1,7 @@
 ---
 filename: _send-messages-to-reviewers
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: emails-and-notifications-workfront-proof
 title: Send messages to reviewers

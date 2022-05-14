@@ -1,6 +1,6 @@
 ---
 filename: generate-proofs
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
 title: Generate Proofs in Workfront Proof

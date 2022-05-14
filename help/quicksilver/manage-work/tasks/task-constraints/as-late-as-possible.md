@@ -23,7 +23,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="as-late-as-possible"></a>Use the As Late As Possible Task Constraint</h2>
+<h2>Use the As Late As Possible Task Constraint</h2>
 <p>(NOTE: replaced with new article linked above) </p>
 <p>To update the Task Constraint to As Late As Possible:&nbsp;</p>
 <ol>

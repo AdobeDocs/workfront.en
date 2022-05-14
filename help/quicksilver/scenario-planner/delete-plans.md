@@ -104,7 +104,7 @@ To delete a scenario:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Delete2"></a>Delete initiatives</h2>
+<h2>Delete initiatives</h2>
 <p>(NOTE: moved this section to its own article about deleting initiatives)&nbsp;</p> <note type="important">
 <p>Consider the following when deleting initiatives:</p>
 <ul>

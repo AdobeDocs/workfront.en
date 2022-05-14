@@ -181,7 +181,7 @@ For instructions on associating an approval process with a work item, see [Assoc
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="configuring-approval-settings"></a>Configuring settings for all approval processes in the system </h2>
+<h2>Configuring settings for all approval processes in the system </h2>
 <p>(NOTE: this moved to the general Approval overview article)</p>
 <p>You can configure global settings for all of the approval processes in your system. For more information about approval process settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configure global approval settings</a>.</p>
 </div>

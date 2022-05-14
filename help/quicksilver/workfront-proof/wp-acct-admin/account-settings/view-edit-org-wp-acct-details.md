@@ -1,6 +1,6 @@
 ---
 filename: view-edit-org-wp-acct-details
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: View and edit your organization's Workfront Proof account details

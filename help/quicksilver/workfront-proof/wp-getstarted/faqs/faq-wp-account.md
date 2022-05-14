@@ -1,7 +1,7 @@
 ---
 filename: faq-wp-account
 content-type: faq
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
 title: FAQ - Workfront Proof account

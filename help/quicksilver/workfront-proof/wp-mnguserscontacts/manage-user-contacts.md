@@ -1,6 +1,6 @@
 ---
 filename: manage-user-contacts
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: workfront-proof-navigation-topic
 title: Managing users and contacts in Workfront Proof

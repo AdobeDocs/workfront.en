@@ -1,7 +1,7 @@
 ---
 filename: error-handling
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Error handling in Adobe Workfront Fusion

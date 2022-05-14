@@ -323,7 +323,7 @@ The following table describes the default for what happens to project fields whe
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <div>
-<h2><a name="Understa"></a> </h2>
+<h2> </h2>
 <h2>Understand changes to project fields when attaching a template</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and replaced with the table above, per Anna)</p>
 -->

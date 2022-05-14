@@ -1,7 +1,7 @@
 ---
 filename: integrations-account-setup
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;setup
 navigation-topic: account-settings-workfront-proof
 title: Account setup for integrations in Workfront Proof

@@ -1,6 +1,6 @@
 ---
 filename: goals-apr-5
-product: workfront-goals
+product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
 title: "Adobe Workfront Goals 21.2 release activity: Week of April 5, 2021"

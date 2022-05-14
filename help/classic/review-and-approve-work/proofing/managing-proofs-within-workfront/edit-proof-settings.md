@@ -1,6 +1,6 @@
 ---
 filename: edit-proof-settings
-product: workfront-proof;workfront
+product-previous: workfront-proof;workfront
 product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
 title: Edit proof settings

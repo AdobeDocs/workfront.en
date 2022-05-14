@@ -43,7 +43,7 @@ You must have the following to perform the steps described in this article:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="access-limitations"></a>Considerations when adding templates to projects</h2>
+<h2>Considerations when adding templates to projects</h2>
 <p>(NOTE: moved this to an Overview article of its own) </p>
 <p>Consider the following when adding templates to projects:</p>
 <ul>

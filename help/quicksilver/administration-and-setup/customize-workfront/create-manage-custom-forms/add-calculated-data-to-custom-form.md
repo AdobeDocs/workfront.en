@@ -84,7 +84,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
       <td>Type a label for the field. This is what users will see when they use the custom form. The field <b>Name</b>, which fills in automatically, is referenced by Workfront in reports.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader" id="instructions"><a name="Instructions"></a>Instructions</td> 
+      <td role="rowheader" id="instructions">Instructions</td> 
       <td> By default, the formula you create for the field is stored here. You can add text to provide additional information about the field and the formula in it. This can be useful in two ways: 
        <ul> 
         <li> <p>As a reminder of what the formula is and how it works. This is especially helpful if you plan to use this calculated custom field on multiple forms.</p> </li> 
@@ -168,7 +168,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
       <td>When you are editing an existing calculated custom field, you can select this option to trigger an update in the calculation when you save the custom form. This happens only once when you save the custom form. The option returns to its disabled state after you do so.</td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><a name="Display_formula_in_instructions"></a>Display formula in instructions</td> 
+      <td role="rowheader">Display formula in instructions</td> 
       <td>Leave this option enabled if you want the users who fill out the custom form to see the field's formula when they hover over the field. For more information, see the information about <a href="#instructions" class="MCXref xref">Instructions</a> earlier in this table.</td> 
      </tr> 
     </tbody> 

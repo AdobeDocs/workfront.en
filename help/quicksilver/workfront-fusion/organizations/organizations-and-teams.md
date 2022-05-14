@@ -1,7 +1,7 @@
 ---
 filename: organizations-and-teams
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Adobe Workfront Fusion organizations and teams

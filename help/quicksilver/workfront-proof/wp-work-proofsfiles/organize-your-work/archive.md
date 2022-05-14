@@ -1,6 +1,6 @@
 ---
 filename: archive
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Archive in Workfront Proof

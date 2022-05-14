@@ -1,7 +1,7 @@
 ---
 filename: internal-external-review
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
 title: Internal Then External Review in Workfront Proof

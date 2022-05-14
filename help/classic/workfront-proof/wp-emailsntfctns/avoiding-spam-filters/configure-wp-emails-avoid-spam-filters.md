@@ -1,6 +1,6 @@
 ---
 filename: configure-wp-emails-avoid-spam-filters
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: Configure Workfront Proof emails to avoid spam filters

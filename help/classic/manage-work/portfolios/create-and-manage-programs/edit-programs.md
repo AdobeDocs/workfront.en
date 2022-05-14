@@ -173,7 +173,7 @@ This is not available when you selected more than one program.
 </table> </li>
 <li value="3"> <p>Click <strong>Save Changes</strong> or continue editing the following sections.</p> </li>
 </ol>
-<h3><a name="Custom&nbsp;F"></a>Custom&nbsp;Forms</h3>
+<h3>Custom&nbsp;Forms</h3>
 <ol>
 <li value="1"> <p>Begin editing the program as described above. </p> </li>
 <li value="2"> <p>Click the <strong>Add Forms</strong> drop-down menu to select a custom forms and add it to the program. </p> <p>You must create program custom forms before they are available to add. </p> <note type="note">

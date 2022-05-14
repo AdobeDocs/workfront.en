@@ -1,6 +1,6 @@
 ---
 filename: move-users-between-accounts
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
 title: Move Users Between Accounts using Workfront Proof

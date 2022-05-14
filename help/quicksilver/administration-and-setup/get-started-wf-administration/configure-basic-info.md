@@ -93,7 +93,7 @@ To&nbsp;configure your Basic Info section in your Customer Info area:
       <td>The cluster number for your instance.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><a name="Admin_Email"></a>Admin Email</td> 
+      <td role="rowheader">Admin Email</td> 
       <td> <p>The email address of your Workfront administrator. You can edit this field to match the email address of one of your Workfront administrators. The user associated with this email address is considered the main Workfront administrator of your Workfront system. Any site-wide communication from Workfront is directed&nbsp;to this email address, so it is important to keep it updated.</p> <p>Note:  You cannot deactivate, delete, or change the Access Level of the user associated with the Admin Email.</p> </td> 
      </tr> 
      <tr> 

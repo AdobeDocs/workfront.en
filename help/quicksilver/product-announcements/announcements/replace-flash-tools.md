@@ -112,7 +112,7 @@ For more information, see the following resources:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3><a name="Addition"></a>Additional features to be removed</h3>
+<h3>Additional features to be removed</h3>
 <ul>
 <li>The Legacy Portfolio Optimizer<br>For more information, see <a href="../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md" class="MCXref xref">Portfolio Optimizer overview</a>.<br></li>
 <li>The Legacy financial fields in the Business Case of the project and the Portfolio Optimizer</li>

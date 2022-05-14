@@ -1,6 +1,6 @@
 ---
 filename: create-users
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
 title: Create Users using Workfront Proof

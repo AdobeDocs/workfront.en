@@ -1,6 +1,6 @@
 ---
 filename: update-goals-in-goal-details-panel
-product: workfront-goals
+product-previous: workfront-goals
 navigation-topic: goal-management
 title: Update goals in the Goal Details panel in Adobe Workfront Goals
 description: You can update information for individual goals by accessing the Goal Details panel.

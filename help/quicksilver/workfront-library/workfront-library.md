@@ -1,7 +1,7 @@
 ---
 filename: _workfront-library
 content-type: reference
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: workfront-library-navigation-topic
 title: Workfront Library

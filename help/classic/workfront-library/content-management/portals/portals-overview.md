@@ -1,7 +1,7 @@
 ---
 filename: portals-overview
 content-type: overview
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: portals
 title: Overview of Workfront Library portals

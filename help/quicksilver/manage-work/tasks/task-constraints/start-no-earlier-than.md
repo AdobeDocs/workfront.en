@@ -40,7 +40,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="using-SNET"></a>Use the Start No Earlier Than Task Constraint</h2>
+<h2>Use the Start No Earlier Than Task Constraint</h2>
 <p>(NOTE:&nbsp;replaced with new article linked above)&nbsp;</p>
 <p>To update the Task Constraint to Start No Later Than:</p>
 <ol>

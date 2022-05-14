@@ -1,6 +1,6 @@
 ---
 filename: access-goals-in-wf-goals
-product: workfront-goals
+product-previous: workfront-goals
 navigation-topic: goal-management
 title: Access and open goals in Adobe Workfront Goals
 description: This article describes how you can find and manage goals in Adobe Workfront.

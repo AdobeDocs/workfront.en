@@ -1,7 +1,7 @@
 ---
 filename: proofing-viewer
 content-type: tips-tricks-troubleshooting
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Troubleshooting - Workfront Proof proofing viewer

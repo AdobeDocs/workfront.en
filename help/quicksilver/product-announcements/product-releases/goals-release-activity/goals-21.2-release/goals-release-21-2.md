@@ -1,6 +1,6 @@
 ---
 filename: goals-release-21-2
-product: workfront-goals
+product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
 title: Adobe Workfront Goals with the 21.2 release

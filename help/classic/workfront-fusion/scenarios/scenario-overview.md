@@ -1,7 +1,7 @@
 ---
 filename: scenario-overview
 content-type: overview
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion scenario overview

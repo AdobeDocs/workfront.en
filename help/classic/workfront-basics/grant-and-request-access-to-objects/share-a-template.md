@@ -61,7 +61,7 @@ Permissions are specific to one item in Workfront and define what actions one ca
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Share"></a>Share a template</h2>
+<h2>Share a template</h2>
 <p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)&nbsp;</p>
 <ol>
 <li value="1"> <p>Go to the template you want to share with other entities, click <strong>Template Actions</strong>, then <strong>Template Sharing</strong>.<br>Or</p> <p>Navigate to a list of templates, and select multiple templates from the list, then click <strong>Share Template</strong>.</p> <note type="note">
@@ -79,7 +79,7 @@ You can share an object only with active users, teams,
 <li value="4">(Optional) Click <strong>Advanced Settings</strong> to fine-tune your settings for each level of permissions.</li>
 <li value="5">Click <strong>Save</strong>.</li>
 </ol>
-<h2><a name="sharing-project"></a>Share a project at the template level</h2>
+<h2>Share a project at the template level</h2>
 <p>You can share the future projects that are created using a template with users at the template level.</p>
 <ol>
 <li value="1"> <p>Go to the template whose future projects you want to share with other entities, click <strong>Template Actions</strong>, then <strong>Project Sharing</strong>.</p> <p>Or</p> <p>Navigate to a list of templates, and select multiple templates from the list, then click <strong>Share Project</strong>.</p> <note type="note">

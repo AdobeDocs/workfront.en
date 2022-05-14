@@ -1,6 +1,6 @@
 ---
 filename: upload-new-version-of-content
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-versioning
 title: Upload a new version of content in Workfront Library

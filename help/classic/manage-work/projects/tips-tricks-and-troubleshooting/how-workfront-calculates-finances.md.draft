@@ -125,12 +125,12 @@ For more information, also see the following articles:
 <li> EAC for the parent task and project are determined by summing up the EAC for each <em> direct </em> child task </li>
 <li><em> Excludes </em> Actual Hours and expenses added directly to the parent task or project </li>
 </ul>
-<h2><a name="Formulas"></a>Formulas</h2>
+<h2>Formulas</h2>
 <ul>
 <li><a href="#PIM-Hour-Based" class="MCXref xref">How Adobe Workfront calculates finances </a> </li>
 <li><a href="#PIM-Cost-Based" class="MCXref xref">How Adobe Workfront calculates finances </a> </li>
 </ul>
-<h3><a name="PIM-Hour-Based_section-1"></a>PIM= Hour-Based</h3>
+<h3>PIM= Hour-Based</h3>
 <h4><strong>TotalBudgetedCostWorkPerformed</strong> </h4>
 <ul>
 <li><strong>For a non-parent task</strong>: <code>TotalBudgetedCostWorkPerformed = Planned Hours * (Percent Complete/100)</code></li>
@@ -146,7 +146,7 @@ This includes only first level parents, not secondary level parents, etc.
 <p><strong>EAC</strong> </p>
 <p><em> IF </em> CPI <> 0 <em> THEN </em> EAC = Planned Hours / CPI </p>
 <p><em> ELSE </em> EAC = Planned Hours + Actual Hours </p>
-<h3><a name="PIM-Cost-Based_section-1"></a>PIM= Cost-Based</h3>
+<h3>PIM= Cost-Based</h3>
 <h4><strong>TotalBudgetedCostWorkPerformed</strong> </h4>
 <p><strong>For a non parent task</strong> : <code>TotalBudgetedCostWorkPerformed = Planned Labor Cost * (Percent Complete/100)</code></p>
 <p><strong>For a parent task:</strong> <code>TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed field for all direct child tasks</code></p>

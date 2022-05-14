@@ -1,6 +1,6 @@
 ---
 filename: review-workflow-lpv
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-legacy-proofing-viewer
 title: Review a Workflow in the Legacy proofing viewer

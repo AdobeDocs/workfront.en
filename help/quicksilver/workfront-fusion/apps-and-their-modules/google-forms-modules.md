@@ -1,7 +1,7 @@
 ---
 filename: google-forms-modules
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
@@ -230,7 +230,7 @@ When you are configuring this module, the following fields display.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4 id="select-responses"><a name="Select"></a>Select Responses</h4>
+<h4 id="select-responses">Select Responses</h4>
 <p>This module returns response rows that match the criteria specified on a selected worksheet.</p>
 <table>
 <col data-mc-conditions="">

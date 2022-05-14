@@ -1,6 +1,6 @@
 ---
 filename: Search for items in Workfront Library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Search for items in Workfront Library

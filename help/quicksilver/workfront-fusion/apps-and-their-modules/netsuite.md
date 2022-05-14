@@ -1,7 +1,7 @@
 ---
 filename: netsuite
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
@@ -75,7 +75,7 @@ To use NetSuite modules, you must have a NetSuite account.
 <li> <p><a href="#enable-features" class="MCXref xref">Enable Features</a> </p> </li>
 <li> <p><a href="#assign-permissions" class="MCXref xref">Assign permissions</a> </p> </li>
 </ul>
-<h4 id="enable-features"><a name="Enable"></a>Enable Features</h4>
+<h4 id="enable-features">Enable Features</h4>
 <p>Enable the following features</p>
 <table>
 <col>
@@ -108,7 +108,7 @@ To use NetSuite modules, you must have a NetSuite account.
 <p>To access the REST Record Service, REST&nbsp;Query Service, Record Customization, or SuiteScript Workbook API beta features, you must complete the Oracle NetSuite Umbrella Beta Program Recruitment Form. On this form, you must identify an authorized user who can sign to accept the Oracle Cloud Services Beta Trial License Agreement. After this agreement is fully executed by an authorized user through completion of this form, the requested features are available for enablement on this page.</p>
 <p>To locate the Oracle NetSuite Umbrella Beta Program Recruitment Form, search the Oracle NetSuite documentation.</p>
 </note>
-<h4 id="assign-permissions"><a name="Assign"></a>Assign permissions</h4>
+<h4 id="assign-permissions">Assign permissions</h4>
 <p>Assign the following permissions:</p>
 <ul>
 <li> <p>REST Web Services</p> </li>
@@ -268,7 +268,7 @@ When you are configuring this module, the following fields display.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4 id="create-a-record"><a name="Create"></a>Create a record</h4>
+<h4 id="create-a-record">Create a record</h4>
 <p>This action module creates a new record.</p>
 <p>You specify the type of record and field values for the new record.</p>
 <p>The module returns the ID of the record. You can map this information in subsequent modules in the scenario.</p>
@@ -293,7 +293,7 @@ When you are configuring this module, the following fields display.
 </tr>
 </tbody>
 </table>
-<h4 id="update-a-record"><a name="Update"></a>Update a record</h4>
+<h4 id="update-a-record">Update a record</h4>
 <p>This action module updates an existing record.</p>
 <p>When you are configuring this module, the following fields display.</p>
 <table>
@@ -318,7 +318,7 @@ When you are configuring this module, the following fields display.
 </tr>
 </tbody>
 </table>
-<h4 id="delete-a-record"><a name="Delete"></a>Delete a Record</h4>
+<h4 id="delete-a-record">Delete a Record</h4>
 <p>This action module deletes a single record from NetSuite.</p>
 <p>You specify the ID of the record.</p>
 <p>The module returns the internal ID of the deleted record.</p>
@@ -341,7 +341,7 @@ When you are configuring this module, the following fields display.
 </tr>
 </tbody>
 </table>
-<h4 id="read-a-record"><a name="Read"></a>Read a Record</h4>
+<h4 id="read-a-record">Read a Record</h4>
 <p>This action module reads data from a single record in NetSuite.</p>
 <p>You specify the ID of the record.</p>
 <p>The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>

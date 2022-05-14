@@ -1,6 +1,6 @@
 ---
 filename: comment-on-proofs-ios
-product: mobile
+product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Comment on proofs in iOS
 description: You can review and resolve existing comments on a proof, and add new comments and annotations to the proof document.

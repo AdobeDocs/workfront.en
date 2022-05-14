@@ -1,6 +1,6 @@
 ---
 filename: create-a-folder-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: folders
 title: Create a folder in Workfront Library

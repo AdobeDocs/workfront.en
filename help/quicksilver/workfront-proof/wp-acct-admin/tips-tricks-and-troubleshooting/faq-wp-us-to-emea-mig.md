@@ -1,7 +1,7 @@
 ---
 filename: faq-wp-us-to-emea-mig
 content-type: tips-tricks-troubleshooting
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: tips-tricks-and-troubleshooting-account-administration-workfront-proof
 title: "FAQ: Workfront Proof - US to EMEA migration"

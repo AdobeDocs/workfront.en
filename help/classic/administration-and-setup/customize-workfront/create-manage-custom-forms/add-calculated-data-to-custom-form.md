@@ -71,7 +71,7 @@ You must have the following to perform the steps in this article:
       <td>Type a label for the field. This is what users will see when they use the custom form. The field <b>Name</b>, which fills in automatically, is referenced by Workfront in reports.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><a name="Instructions"></a>Instructions</td> 
+      <td role="rowheader">Instructions</td> 
       <td> <p>By default, the formula you create for the field is stored here. You can add text to provide additional information about the field and the formula in it. This can be useful in 2 ways:</p> 
        <ul> 
         <li> <p>You can use it as a reminder of what the formula is and how it works. This can be especially helpful if you plan to use this calculated custom field on multiple forms.</p> </li> 

@@ -1,6 +1,6 @@
 ---
 filename: send-reminder-to-proof-reviewers
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: messaging-reviewers
 title: Send a reminder message to the reviewers on a proof

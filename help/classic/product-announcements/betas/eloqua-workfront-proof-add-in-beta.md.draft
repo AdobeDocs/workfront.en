@@ -21,7 +21,7 @@ The process for signing up for the Oracle Eloqua Workfront Proof&nbsp;Add-In Bet
 1. You are contacted by the Oracle Eloqua Workfront Proof&nbsp;Add-In team, who then add your Eloqua instance to the allowlist and provide you with a link where you can install the integration.
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="testing-the-integration"></a>Testing the Integration</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Testing the Integration</h2>
 -->
 
 <!--
@@ -58,7 +58,7 @@ You can submit feedback on the Oracle Eloqua Workfront Proof&nbsp;Add-In Beta in
 You can use [this survey](http://survey.qualtrics.com/jfe/form/SV_1GOYsN7XJytpxTT) to submit feedback around the Workfront Proof Eloqua Add-In.
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="limitations"></a>Limitations</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Limitations</h2>
 -->
 
 The Oracle Eloqua Workfront Proof&nbsp;Add-In does not currently support emails created within Eloqua with dynamic content.

@@ -1,6 +1,6 @@
 ---
 filename: manage-assets-for-other-users
-product: workfront-library
+product-previous: workfront-library
 product-area: documents;user-management
 navigation-topic: manage-assets
 title: Manage assets for other users

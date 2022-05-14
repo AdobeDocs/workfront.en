@@ -1,7 +1,7 @@
 ---
 filename: item-data-types
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Item data types in Adobe Workfront Fusion
@@ -65,7 +65,7 @@ For information on which types of items Workfront Fusion allows for conversion b
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><a name="Text"></a>Text</p> </td> 
+   <td role="rowheader"> <p>Text</p> </td> 
    <td> <p>The most common item type. For some text items, Adobe Workfront Fusion checks whether the maximum or minimum allowed length is met or whether the item performs format validation (email, URL or file name).</p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ For information on which types of items Workfront Fusion allows for conversion b
     </ul> <p>You can click <strong>Map</strong> if you need to map the value to an item from another module.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><a name="Date"></a>Date</p> </td> 
+   <td role="rowheader"> <p>Date</p> </td> 
    <td> <p>Dates are entered in the ISO 8601 date format, for example, <code>2015-09-18T11:58Z</code>. You can change the time zone in your profile settings, as explained in <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Change profile settings in Adobe Workfront Fusion</a>. </p> <p>If you click a field that requires a date, a pop-up calendar displays in the module settings. The time is not required for some items.</p> <p>Values of Date items are formatted using the local and Web timezone selected in your profile. You can display the ISO 8601 version of a date item's value by hovering over the item.</p> <p>Note: If the ISO value does not display, the item is probably text, not a date.</p> <p>The time is entered in the <code>hours:minutes:seconds</code> format, for example,<code>14:03:52</code>.</p> </td> 
   </tr> 
   <tr> 

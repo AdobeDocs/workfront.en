@@ -1,7 +1,7 @@
 ---
 filename: microsoft-onedrive-modules
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules

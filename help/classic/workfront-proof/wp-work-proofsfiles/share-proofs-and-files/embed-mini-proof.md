@@ -1,6 +1,6 @@
 ---
 filename: embed-mini-proof
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Embed a Mini proof

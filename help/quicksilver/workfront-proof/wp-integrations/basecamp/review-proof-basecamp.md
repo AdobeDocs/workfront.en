@@ -1,6 +1,6 @@
 ---
 filename: review-proof-basecamp
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp
 title: Review a Proof in Basecamp

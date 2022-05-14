@@ -1,7 +1,7 @@
 ---
 filename: electronic-sigs-in-wp
 content-type: overview
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: manage-security-workfront-proof
 title: Understanding electronic signatures in Workfront Proof

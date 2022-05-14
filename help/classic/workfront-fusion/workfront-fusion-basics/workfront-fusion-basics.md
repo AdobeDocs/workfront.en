@@ -1,7 +1,7 @@
 ---
 filename: _workfront-fusion-basics
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Adobe Workfront Fusion basics

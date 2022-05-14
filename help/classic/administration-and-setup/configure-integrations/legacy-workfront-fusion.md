@@ -20,7 +20,7 @@ description: Legacy Workfront Fusion is not available as of March 31, 2021.
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>The Legacy Workfront Fusion integration platform enables you to connect Workfront to multiple third-party applications. For example, you can create a new project in Workfront once your marketing budget is approved in another application.</p>
 <p>For information about the 2020 version of this product, Workfront Fusion, see the <a href="https://www.workfront.com/products/fusion/">Workfront Fusion product page</a>.</p>
-<h2><a name="using-workfront-fusion"></a>About Legacy Workfront Fusion</h2>
+<h2>About Legacy Workfront Fusion</h2>
 <p>Designer is the core tool for building connections in Legacy Workfront Fusion, and contains a few basic elements. Every connector you build within Designer contains the following elements:</p>
 <ul>
 <li> <p><strong>FLO:</strong> Integrations in Legacy Workfront Fusion are built using FLOs. A FLO is a process with a series of steps that is kicked off by a singular event (for example, a record is added or updated or a period of time has elapsed).</p> </li>
@@ -39,7 +39,7 @@ When you create a FLO that contains a Workfront custom field, you need to make s
 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a> in the article
 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a>.
 </note>
-<h2><a name="connecting-applications-with-workfront-fusion"></a>Connect applications with Legacy Workfront Fusion</h2>
+<h2>Connect applications with Legacy Workfront Fusion</h2>
 <p>For detailed information about each connector and how to configure it, see the <a href="https://learn.fusion.workfront.com/connector-reference/">Legacy Workfront Fusion Help Center</a>.</p> <note type="note">
 If a connection fails when you create it, delete it and create a new one instead of trying to reauthorize it.
 </note>

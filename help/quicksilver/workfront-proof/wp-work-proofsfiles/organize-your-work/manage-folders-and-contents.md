@@ -1,6 +1,6 @@
 ---
 filename: manage-folders-and-contents
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Manage Folders and their Contents in Workfront Proof

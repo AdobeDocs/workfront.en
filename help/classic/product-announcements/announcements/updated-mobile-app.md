@@ -1,6 +1,6 @@
 ---
 filename: updated-mobile-app
-product: mobile
+product-previous: mobile
 content-type: reference
 navigation-topic: announcements
 title: Updated Mobile App for iOS and Android (Early August, 2017)

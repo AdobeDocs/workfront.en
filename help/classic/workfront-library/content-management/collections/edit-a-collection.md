@@ -1,6 +1,6 @@
 ---
 filename: edit-a-collection
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: collections
 title: Edit a Workfront Library collection

@@ -1,6 +1,6 @@
 ---
 filename: configure-sat-acct-in-wp
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;setup
 navigation-topic: satellite-accounts
 title: Configure a satellite account in Workfront Proof

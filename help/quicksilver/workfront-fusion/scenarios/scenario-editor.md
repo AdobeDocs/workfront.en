@@ -1,6 +1,6 @@
 ---
 filename: scenario-editor
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: The scenario editor in Adobe Workfront Fusion

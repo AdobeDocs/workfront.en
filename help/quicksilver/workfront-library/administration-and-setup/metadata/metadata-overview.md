@@ -1,7 +1,7 @@
 ---
 filename: metadata-overview
 content-type: overview
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Overview of metadata in Workfront Library

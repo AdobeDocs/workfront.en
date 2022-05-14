@@ -72,7 +72,7 @@ Before you begin, you must
 1. &nbsp;
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Video"></a>Video walk-through - Leave this section drafted for now</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Video walk-through - Leave this section drafted for now</h2>
 -->
 
 <!--

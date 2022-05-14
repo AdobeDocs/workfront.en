@@ -1,6 +1,6 @@
 ---
 filename: create-and-manage-custom-fields
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Create and manage custom fields in Workfront Proof

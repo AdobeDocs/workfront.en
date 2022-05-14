@@ -1,7 +1,7 @@
 ---
 filename: scenario-execution-flow
 content-type: overview
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Scenario execution flow in Adobe Workfront Fusion

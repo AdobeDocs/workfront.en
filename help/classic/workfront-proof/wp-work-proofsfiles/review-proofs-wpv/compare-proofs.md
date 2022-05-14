@@ -1,6 +1,6 @@
 ---
 filename: compare-proofs
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Compare proofs in the proofing viewer

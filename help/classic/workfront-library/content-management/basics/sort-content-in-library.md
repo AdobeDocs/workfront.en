@@ -1,6 +1,6 @@
 ---
 filename: sort-content-in-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Sort content in Workfront Library

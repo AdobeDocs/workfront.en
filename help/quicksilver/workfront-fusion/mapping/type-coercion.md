@@ -1,7 +1,7 @@
 ---
 filename: type-coercion
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Type coercion in Adobe Workfront Fusion

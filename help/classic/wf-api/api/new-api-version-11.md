@@ -33,7 +33,7 @@ description: ReportableBudgedHour has been added to the Adobe Workfront API as a
 * [ReportableBudgetedHour](#reportablebudgetedhour)
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasaccessrule"><a name="LoginAsA"></a>LoginAsAccessRule</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasaccessrule">LoginAsAccessRule</h3>
 -->
 
 <table> <!--
@@ -74,7 +74,7 @@ description: ReportableBudgedHour has been added to the Adobe Workfront API as a
 </table>
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasadditionalrule"><a name="LoginAsA2"></a>LoginAsAdditionalRule</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasadditionalrule">LoginAsAdditionalRule</h3>
 -->
 
 <table> <!--
@@ -113,7 +113,7 @@ description: ReportableBudgedHour has been added to the Adobe Workfront API as a
 </table>
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginassettings"><a name="LoginAsS"></a>LoginAsSettings</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginassettings">LoginAsSettings</h3>
 -->
 
 <table> <!--
@@ -1264,7 +1264,7 @@ Work Items in Workfront can be updated to keep users informed of the current sta
 </table>
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="user"><a name="User"></a>User</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="user">User</h3>
 -->
 
 <!--

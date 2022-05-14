@@ -1,6 +1,6 @@
 ---
 filename: share-a-goal
-product: workfront-goals
+product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
 title: Share a goal in Workfront Goals
 description: When you share a goal you give Manage permissions to a goal to someone who did not create it.

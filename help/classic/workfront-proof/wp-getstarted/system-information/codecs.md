@@ -1,7 +1,7 @@
 ---
 filename: codecs
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
 title: Codecs in Workfront Proof

@@ -279,7 +279,7 @@ The report creator must allow for filters to be edited in order to view the&nbsp
 </ul> </li>
 </ol>
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-<h2><a name="Create2"></a>Create or edit a filter in the beta builder</h2>
+<h2>Create or edit a filter in the beta builder</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: yellow div and it stays NWE only)</p>
 <div>
 <p>Consider the following when creating filters using the different interfaces:</p>

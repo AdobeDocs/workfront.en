@@ -1,6 +1,6 @@
 ---
 filename: manage-proof-versions
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Managing Proof Versions in Workfront Proof

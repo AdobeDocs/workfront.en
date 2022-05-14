@@ -1,6 +1,6 @@
 ---
 filename: lpv-removed
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Legacy proofing viewer Removed

@@ -120,7 +120,7 @@ To share future projects created from a template with users:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3><a name="project-sharing-from-other-sources"></a>Overview of project sharing from other sources</h3>
+<h3>Overview of project sharing from other sources</h3>
 <p>You may already have been assigned access to projects from other areas of Workfront. <br>You may have been assigned access to projects from the following areas: </p>
 <ul>
 <li>When a project is created<br>For more information about sharing projects when the project is created, see the "Access" section in <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</li>

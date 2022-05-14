@@ -57,7 +57,7 @@ The progress icons can appear in the following colors to indicate certain inform
 * **Red**: Not&nbsp;complete and past the deadline.
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Levels-of-Proof-Progress"></a>Levels of proof progress</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Levels of proof progress</h3>
 -->
 
 <!--
@@ -105,7 +105,7 @@ The standard status options are as follows:
 If custom decisions are configured in your account, the status options reflect your&nbsp;custom decision&nbsp;settings.
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="viewing-proof-progress-and-status"></a>Viewing proof progress and status</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Viewing proof progress and status</h2>
 -->
 
 <!--
@@ -121,7 +121,7 @@ If custom decisions are configured in your account, the status options reflect y
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="view-proof-progress-and-status-for-a-document"><a name="viewing-proof-progress-and-status-for-an-individual-document"></a>View proof progress and status&nbsp;for a document</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="view-proof-progress-and-status-for-a-document">View proof progress and status&nbsp;for a document</h3>
 -->
 
    <!--
@@ -137,7 +137,7 @@ If custom decisions are configured in your account, the status options reflect y
    -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="view-proof-approval-information-in-home"><a name="viewing-proof-approval-information-for-all-documents-you-submit-for-approval"></a>View proof approval information&nbsp;in Home</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="view-proof-approval-information-in-home">View proof approval information&nbsp;in Home</h3>
 -->
 
 <!--

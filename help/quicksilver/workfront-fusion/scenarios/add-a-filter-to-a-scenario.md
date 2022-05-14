@@ -1,6 +1,6 @@
 ---
 filename: add-a-filter-to-a-scenario
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Add a filter to a scenario in Adobe Workfront Fusion

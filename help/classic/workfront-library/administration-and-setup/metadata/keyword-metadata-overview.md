@@ -1,7 +1,7 @@
 ---
 filename: keyword-metadata-overview
 content-type: overview
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Overview of keyword metadata in Workfront Library

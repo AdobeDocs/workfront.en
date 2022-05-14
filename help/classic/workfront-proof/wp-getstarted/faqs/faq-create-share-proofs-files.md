@@ -1,7 +1,7 @@
 ---
 filename: faq-create-share-proofs-files
 content-type: faq
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
 title: FAQ - Create and share proofs and files

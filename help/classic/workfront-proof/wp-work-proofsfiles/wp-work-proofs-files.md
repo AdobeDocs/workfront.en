@@ -1,7 +1,7 @@
 ---
 filename: _wp-work-proofs-files
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
 title: Work with proofs and files in Workfront Proof

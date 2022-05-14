@@ -89,7 +89,7 @@ For information about the Planned Start&nbsp;Date of a task, see [Overview of th
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="understanding-planned-completion-of-task"></a> </h2>
+<h2> </h2>
 <p>(NOTE: drafted and this content was moved to the article linked in the above paragraph)</p>
 <p>The Planned Start Date of a task</p>
 <p>You can either specify the Planned Start Date of a task, or you can leave it up to Workfront to calculate it depending on certain criteria.&nbsp;</p>

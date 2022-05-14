@@ -1,7 +1,7 @@
 ---
 filename: _proof-types
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: tech-corner
 title: Proof types

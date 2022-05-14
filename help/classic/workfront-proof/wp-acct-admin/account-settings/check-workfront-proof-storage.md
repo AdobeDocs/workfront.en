@@ -1,7 +1,7 @@
 ---
 filename: check-workfront-proof-storage
 title: Check your Workfront Proof storage
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Check your Workfront Proof storage

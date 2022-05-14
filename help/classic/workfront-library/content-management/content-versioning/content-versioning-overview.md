@@ -1,7 +1,7 @@
 ---
 filename: content-versioning-overview
 content-type: overview
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-versioning
 title: Overview of content versioning in Workfront Library

@@ -1,6 +1,6 @@
 ---
 filename: my-work-section-mobile
-product: mobile
+product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: My Work section in the mobile app
 description: The My Work section of the Home area displays your tasks, issues, projects, approvals, requests, and timesheets.

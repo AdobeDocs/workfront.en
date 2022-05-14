@@ -1,6 +1,6 @@
 ---
 filename: fusion-templates-adminstration
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion Templates administration

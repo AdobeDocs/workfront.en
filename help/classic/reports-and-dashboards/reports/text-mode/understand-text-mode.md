@@ -115,7 +115,7 @@ For information about accessing the text mode interface for custom prompts, see 
   -->
 
 <!--
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><a name="Editing"></a><strong>Edit text mode in a view</strong> </h4>
+<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><strong>Edit text mode in a view</strong> </h4>
 -->
 
 <!--
@@ -324,7 +324,7 @@ We recommend that you build as much of the view as possible in standard mode, th
    -->
 
 <!--
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-filter"><a name="Editing2"></a><strong>Edit text mode in a filter</strong> </h4>
+<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-filter"><strong>Edit text mode in a filter</strong> </h4>
 -->
 
 <!--
@@ -410,7 +410,7 @@ We recommend that you build as much of the filter of the report as possible in s
    -->
 
 <!--
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-grouping"><a name="Editing3"></a><strong>Edit text mode in a grouping</strong> </h4>
+<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-grouping"><strong>Edit text mode in a grouping</strong> </h4>
 -->
 
 <!--
@@ -595,7 +595,7 @@ We recommend that you build as much of the grouping as possible in standard mode
    -->
 
 <!--
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-a-custom-prompt"><a name="editing-a-custom-prompt"></a>Edit a custom prompt</h4>
+<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-a-custom-prompt">Edit a custom prompt</h4>
 -->
 
 <!--

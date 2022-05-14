@@ -1,7 +1,7 @@
 ---
 filename: search
 content-type: overview
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
 title: Searching Workfront Proof

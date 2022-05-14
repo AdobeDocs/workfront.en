@@ -1,6 +1,6 @@
 ---
 filename: manage-sat-acct-in-wp
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: satellite-accounts
 title: Manage a satellite account in Workfront Proof

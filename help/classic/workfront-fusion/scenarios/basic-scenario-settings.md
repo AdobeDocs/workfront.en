@@ -1,7 +1,7 @@
 ---
 filename: basic-scenario-settings
 content-type: overview
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Basic scenario settings in Adobe Workfront Fusion

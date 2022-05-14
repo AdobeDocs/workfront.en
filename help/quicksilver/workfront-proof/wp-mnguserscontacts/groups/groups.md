@@ -1,7 +1,7 @@
 ---
 filename: _groups
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: Groups

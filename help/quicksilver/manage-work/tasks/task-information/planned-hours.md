@@ -349,7 +349,7 @@ You cannot edit the Planned Hours of projects manually, as they are a calculatio
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3><a name="plan-hours-on-edit-task-or-issue"></a> </h3>
+<h3> </h3>
 <p>The Planned Hours in the Edit box of a task, issue, or project are the total Planned Hours of the respective item. </p>
 <p>Finding the Planned Hours while editing a task or an issue is identical. </p> <note type="tip">
 You cannot edit the Planned Hours of projects manually, as they are a calculation of all Planned Hours of all the tasks on the project.

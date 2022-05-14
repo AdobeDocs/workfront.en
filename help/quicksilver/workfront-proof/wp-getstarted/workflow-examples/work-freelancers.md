@@ -1,7 +1,7 @@
 ---
 filename: work-freelancers
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;user-management
 navigation-topic: workflow-examples
 title: Working with Freelancers in Workfront Proof

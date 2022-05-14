@@ -1,6 +1,6 @@
 ---
 filename: about-connecting-wf-fusion-to-app-or-service
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: About connecting Adobe Workfront Fusion to an app or service

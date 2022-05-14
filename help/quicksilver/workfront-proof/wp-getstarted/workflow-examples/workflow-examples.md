@@ -1,6 +1,6 @@
 ---
 filename: _workflow-examples
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: basics-workfront-proof
 title: Workflow examples

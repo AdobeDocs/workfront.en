@@ -1,7 +1,7 @@
 ---
 filename: user-access-overview
 content-type: overview
-product: workfront-library
+product-previous: workfront-library
 product-area: documents;user-management;system-administration
 navigation-topic: user-access
 title: Overview of user access to Workfront Library

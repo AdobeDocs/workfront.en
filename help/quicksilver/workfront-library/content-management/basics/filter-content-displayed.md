@@ -1,6 +1,6 @@
 ---
 filename: filter-content-displayed
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Filter content displayed in Workfront Library

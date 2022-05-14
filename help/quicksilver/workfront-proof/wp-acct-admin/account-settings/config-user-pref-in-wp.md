@@ -1,6 +1,6 @@
 ---
 filename: config-user-pref-in-wp
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: Configure a user's Proof Permission Profile in Workfront Proof

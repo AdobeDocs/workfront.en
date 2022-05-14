@@ -1,7 +1,7 @@
 ---
 filename: _content-management
 content-type: reference
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Content management in Workfront Library

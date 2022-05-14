@@ -1,6 +1,6 @@
 ---
 filename: _basic-features
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Basic features in Workfront Proof

@@ -1,6 +1,6 @@
 ---
 filename: publish-and-share-fusion-templates
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Publish and share Adobe Workfront Fusion templates

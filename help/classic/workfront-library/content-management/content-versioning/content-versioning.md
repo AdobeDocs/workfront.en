@@ -1,7 +1,7 @@
 ---
 filename: _content-versioning
 content-type: reference
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Content Versioning in Workfront Library

@@ -324,7 +324,7 @@ This article describes all areas where you can apply filters in&nbsp;Workfront, 
 </tr>
 </tbody>
 </table>
-<h2><a name="permanent-filters"></a>Permanent filters</h2>
+<h2>Permanent filters</h2>
 <p>You can build filters one time and reuse them in several lists and reports. These are permanent filters.</p>
 <p>You can create and save permanent filters in the following Workfront areas:</p>
 <ul>
@@ -335,10 +335,10 @@ This article describes all areas where you can apply filters in&nbsp;Workfront, 
 <li>Home <br>For information about filtering items in the Home area, see the <a href="../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type" class="MCXref xref">Filter the Work List</a> section in the article <a href="../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md" class="MCXref xref">Display items in the Work List in the Home area</a>.</li>
 </ul>
 <p>For information about removing a permanent filter, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md" class="MCXref xref">Remove filters, views, and groupings</a>. </p>
-<h2><a name="temporary-filters"></a>Temporary filters</h2>
+<h2>Temporary filters</h2>
 <p>You can use a one-time quick filter to quickly jump to an item in a list. This is a temporary filter and you cannot save it. </p>
 <p>For information about quick filters, see <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Apply the quick filter to a list</a>. </p>
-<h2><a name="creating-filters-in-lists-reports"></a>Overview of filters in lists and reports</h2>
+<h2>Overview of filters in lists and reports</h2>
 <p>When working with lists and reports, you can customize existing filters, create filters based on existing filters, or create filters from scratch.<br>For information about Workfront Lists, see the article <a href="../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref">Get started with lists in&nbsp;Adobe Workfront</a>.<br>For information about Workfront reports, see the article <a href="../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Get started with reports in Adobe Workfront</a>.</p>
 <p>Consider the following when working with filters: </p>
 <ul>
@@ -357,7 +357,7 @@ When creating or editing filters in reports, you must edit the report in order f
 <br>For information about editing a report, see the article
 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.
 </note>
-<h2><a name="Create"></a> </h2>
+<h2> </h2>
 <div>
 <h2>Filter operators</h2>
 <p>Workfront has 2 filter operators that connect each filter statement:</p>
@@ -392,7 +392,7 @@ When changing your AND statements to OR statements, the number of the items in y
 </ul>
 <p>For information about creating or editing a filter using the standard interface, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/create-filters.md" class="MCXref xref">Create or edit filters in Adobe Workfront</a>.</p> 
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3><a name="Customizing_an_Existing_Filter"></a><strong>Customize an existing filter</strong> </h3>
+<h3><strong>Customize an existing filter</strong> </h3>
 <p>(NOTE: points to the Create filters article above) </p>
 <ol>
 <li value="1">Go to the report or list that contains the Filter that you want to customize. </li>
@@ -408,7 +408,7 @@ When changing your AND statements to OR statements, the number of the items in y
 <li value="6">Click <strong>Save Filter</strong> to replace the current Filter with your changes.</li>
 </ol>
 </div>
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Creating_a_New_Filter_Based_on_an_Existing_Filter."></a><strong>Create a Filter based on an existing Filter</strong> </h4>
+<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Create a Filter based on an existing Filter</strong> </h4>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;drafted section and replaced with the new video article reference link)</p>
 <ol>
 <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Go to the report that contains the Filter that you want to use as the basis for your new Filter.</li>
@@ -423,7 +423,7 @@ When changing your AND statements to OR statements, the number of the items in y
 </ul></li>
 <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save as New Filter</strong> to save your changes as a new Filter.</li>
 </ol>
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Creating_a_new_Filter_from_Scratch"></a>Create a Filter from scratch</h4>
+<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode">Create a Filter from scratch</h4>
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <li value="1">Go to the report where you want to create your new report.</li>
 <li value="2">Click the <strong>Filter</strong> drop-down list.<br><img src="assets/screen-shot-2013-09-05-at-9.55.17-am-2.png" alt=""></li>
@@ -436,15 +436,15 @@ When changing your AND statements to OR statements, the number of the items in y
 </ul></li>
 <li value="5">Click <strong>Save Filter</strong>.</li>
 </ol>
-<h2><a name="creating-filter-in-text-mode"></a>Create filters using the Text Mode interface</h2>
+<h2>Create filters using the Text Mode interface</h2>
 <p>You can build filters using the text mode interface. We recommend to build most of the filter statements using the standard interface, and to edit the code of the filter only as a final step. Building a filter from scratch using the text mode interface alone is not recommended. </p>
 <p>For more information about creating a filter using the text mode interface, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>. </p>
-<h2><a name="complex-fields"></a>Create filters for complex fields</h2>
+<h2>Create filters for complex fields</h2>
 <ul>
 <li><a href="#create-filters-for-fields-whose-values-contain-commas" class="MCXref xref">Create filters for fields whose values contain commas</a> </li>
 <li><a href="#create-filters-for-whose-values-are-a-multi-select-custom-field" class="MCXref xref">Create filters for whose values are a multi-select custom field</a> </li>
 </ul>
-<h4><a name="filter-for-fields-with-commas"></a><strong>Create a filter for fields that contain commas</strong> </h4>
+<h4><strong>Create a filter for fields that contain commas</strong> </h4>
 <p>When building a filter in text mode and filtering for field values that contain commas, you must add a slash ("/") before the commas separating the values, to ensure that the value is read as one filter option. This only applies for the following field types:</p>
 <ul>
 <li>Drop-downs</li>
@@ -461,17 +461,17 @@ When changing your AND statements to OR statements, the number of the items in y
 <pre>DE:Color=red/, blue<br>DE:Color_Mod=in</pre>
 <p>This syntax ensures that the values are read together, as one option. If you omit the slash, Workfront reads the comma as an 'OR', in which case only the projects that have either the first or the second option would be selected. </p>
 <p>This syntax also applies when building prompts. For more information about using prompts, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p>
-<h4><a name="filter-for-multi-select"></a>Create a filter for multi-select custom fields</h4>
+<h4>Create a filter for multi-select custom fields</h4>
 <p>You can report on multi-select custom fields. For example, Checkboxes.</p>
 <p> However, when you want to exclude results that have only one of the options selected, the report will display any objects that have that option and any other option selected. </p>
 <p> For example, if you have a field with 3 options (A, B, and C), and select 2 of the 3 options (A and B, but not C) on an object, you can create a report with a filter with a qualifier of Not Equal for options A and B, and it will only filter out projects that have both A and B, but not only A, and not only B selected. If you create a filter with a qualifier for Not Equal for option A, it will only filter out objects with only A selected, but if A and B are selected, those objects still display in the report. </p>
 <div>
-<h2><a name="limittions-of-OR-filters"></a>Limitations about joining multiple filter rules</h2>
+<h2>Limitations about joining multiple filter rules</h2>
 <p>You can reference only five objects, excluding the object of the report, when you build a filter in Workfront. </p>
 <p> When you reach this limit within the builder, you can select fields that belong only to these six objects. You receive a warning when you have reached this limit. </p>
 <p> You cannot overcome this limitation when you build your filter in text mode. </p>
 </div> 
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="removing-a-filter"></a>Removing a Filter from a list </h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Removing a Filter from a list </h3>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This section is drafted and replaced by the standalone "Remove reporting elements" article - with video) </p>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can remove a filter from a list of filters that appears in the <strong>Filter</strong> drop-down menu in a list. Removing a filter from a list functions differently depending on whether you initially created the filter, or the filter was shared with you. You cannot remove a default filter.</p>
 <ul>

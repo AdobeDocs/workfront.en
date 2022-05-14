@@ -1,6 +1,6 @@
 ---
 filename: set-up-a-portal-in-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents;system-administration;setup
 navigation-topic: workfront-library-setup
 title: Set up a portal in Workfront Library

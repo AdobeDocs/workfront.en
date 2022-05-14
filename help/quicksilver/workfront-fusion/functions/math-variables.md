@@ -1,7 +1,7 @@
 ---
 filename: math-variables
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Math variables in Adobe Workfront Fusion

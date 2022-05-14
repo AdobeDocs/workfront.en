@@ -1,6 +1,6 @@
 ---
 filename: configure-approval-decision-in-wp
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Configure approval decision options in Workfront Proof

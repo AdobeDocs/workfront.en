@@ -1,7 +1,7 @@
 ---
 filename: text-parser
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 navigation-topic: apps-and-their-modules
 title: Text parser

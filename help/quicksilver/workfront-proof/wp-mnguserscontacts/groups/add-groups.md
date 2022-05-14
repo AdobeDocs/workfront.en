@@ -1,6 +1,6 @@
 ---
 filename: add-groups
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
 title: Add Groups to a Proof

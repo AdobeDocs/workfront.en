@@ -271,7 +271,7 @@ For more information about how Costs are calculated in the Resource Planner for 
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Using"></a>Use the User View to view Available, Planned, and Actual Hours or FTE </h2>
+<h2>Use the User View to view Available, Planned, and Actual Hours or FTE </h2>
 <p>(this information is repeated from above where it exists in shorter form. Drafted to simplify the amount of info of this article.) </p>
 <p>You can use the User View of the Resource Planner to display information about the Planned, Available, and Actual Hours or FTE values for projects and resources. </p>
 <p>For information about using the Resource Planner to review the Available, Planned, and Actual Hours and FTE for resources, see the article <a href="../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md" class="MCXref xref">View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view</a>.</p>

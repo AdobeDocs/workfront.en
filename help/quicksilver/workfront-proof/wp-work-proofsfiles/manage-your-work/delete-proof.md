@@ -1,6 +1,6 @@
 ---
 filename: delete-proof
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Delete a Proof in Workfront Proof

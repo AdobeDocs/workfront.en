@@ -1,6 +1,6 @@
 ---
 filename: sp-release-20-3
-product: enterprise-scenario-planner
+product-previous: enterprise-scenario-planner
 content-type: release-notes
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: scenario-planner-release-activity

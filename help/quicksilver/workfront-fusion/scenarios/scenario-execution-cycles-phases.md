@@ -1,6 +1,6 @@
 ---
 filename: scenario-execution-cycles-phases
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Scenario execution, cycles, and phases in Adobe Workfront Fusion

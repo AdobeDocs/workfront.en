@@ -1,7 +1,7 @@
 ---
 filename: google-sheets-modules
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
@@ -67,7 +67,7 @@ To use Google Sheets modules, you must have a Google account.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Connecti2"></a>Connecting Instant Triggers (Perform a Function, Watch Changes) using the Workfront Fusion Google Sheets Add-on</h2>
+<h2>Connecting Instant Triggers (Perform a Function, Watch Changes) using the Workfront Fusion Google Sheets Add-on</h2>
 <p>In order to use instant triggers, the Workfront Fusion add-on must be installed in your spreadsheet and a connection between the Workfront Fusion module and Google Sheets must be established.</p>
 <ul>
 <li><a href="#workfront-fusion-add-on-installation" class="MCXref xref">Workfront Fusion Add-on Installation</a> </li>

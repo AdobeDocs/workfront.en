@@ -1,7 +1,7 @@
 ---
 filename: _proof-notifications-and-reminders
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
 title: Proof notifications and reminders

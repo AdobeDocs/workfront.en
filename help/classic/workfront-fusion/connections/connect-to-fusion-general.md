@@ -1,6 +1,6 @@
 ---
 filename: connect-to-fusion-general
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: connections-annd-webhooks

@@ -1,6 +1,6 @@
 ---
 filename: change-email-alert-settings-wp
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: Change email alert settings for a proof in Workfront Proof

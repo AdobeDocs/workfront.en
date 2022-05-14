@@ -1,6 +1,6 @@
 ---
 filename: change-user-access
-product: workfront-library
+product-previous: workfront-library
 product-area: documents;user-management;system-administration
 navigation-topic: user-access
 title: Change a user's access to Workfront Library

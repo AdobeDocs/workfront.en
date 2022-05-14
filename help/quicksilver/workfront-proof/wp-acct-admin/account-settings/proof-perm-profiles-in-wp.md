@@ -1,7 +1,7 @@
 ---
 filename: proof-perm-profiles-in-wp
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: Proof Permissions Profiles in Workfront Proof

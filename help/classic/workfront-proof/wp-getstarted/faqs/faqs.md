@@ -1,7 +1,7 @@
 ---
 filename: _faqs
 content-type: faq;reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
 title: Workfront Proof - frequently asked questions

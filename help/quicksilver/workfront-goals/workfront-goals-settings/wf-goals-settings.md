@@ -1,7 +1,7 @@
 ---
 filename: _wf-goals-settings
 content-type: reference
-product: workfront-goals
+product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
 title: Adobe Workfront Goals settings
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.

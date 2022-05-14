@@ -1,6 +1,6 @@
 ---
 filename: create-and-manage-tags
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Create and Manage Tags in Workfront Proof

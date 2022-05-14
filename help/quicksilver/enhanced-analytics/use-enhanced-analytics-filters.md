@@ -231,7 +231,7 @@ To add a Custom Form filter:
    To adjust the date range, see [Change the date range filter](#change-the-date-range-filter).
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><a name="Add2"></a>Add a Job roles filter</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Add a Job roles filter</h3>
 -->
 
 <!--

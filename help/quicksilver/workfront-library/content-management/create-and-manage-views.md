@@ -1,6 +1,6 @@
 ---
 filename: create-and-manage-views
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Create and manage views in Workfront Library

@@ -1,6 +1,6 @@
 ---
 filename: manage-items-on-views-page
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Manage Items on the Views Page in Workfront Proof

@@ -50,7 +50,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="using-MSO-constraint"></a>Use the Must Start On Task Constraint</h2>
+<h2>Use the Must Start On Task Constraint</h2>
 <p>(NOTE: replaced with new article linked above) </p>
 <p>To update the Task Constraint to Must Start On:</p>
 <ol>

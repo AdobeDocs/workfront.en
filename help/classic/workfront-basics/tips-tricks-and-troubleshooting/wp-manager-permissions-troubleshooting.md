@@ -1,7 +1,7 @@
 ---
 filename: wp-manager-permissions-troubleshooting
 content-type: tips-tricks-troubleshooting
-product: workfront;workfront-proof
+product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Workfront Proof Manager permissions troubleshooting

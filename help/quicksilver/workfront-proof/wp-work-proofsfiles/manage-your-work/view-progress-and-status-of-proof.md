@@ -1,6 +1,6 @@
 ---
 filename: view-progress-and-status-of-proof
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: View the Progress and Status of a Proof in Workfront Proof

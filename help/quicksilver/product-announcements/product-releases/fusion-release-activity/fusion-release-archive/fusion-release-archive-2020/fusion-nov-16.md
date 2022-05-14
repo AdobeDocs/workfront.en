@@ -1,6 +1,6 @@
 ---
 filename: fusion-nov-16
-product: workfront-fusion
+product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity

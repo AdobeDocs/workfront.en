@@ -1,6 +1,6 @@
 ---
 filename: configure-user-info
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management;setup
 navigation-topic: users-workfront-proof
 title: Configure User Information using Workfront Proof

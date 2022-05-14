@@ -1,7 +1,7 @@
 ---
 filename: set-timezones-in-wp
 content-type: faq
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
 title: Setting time zones in Workfront Proof

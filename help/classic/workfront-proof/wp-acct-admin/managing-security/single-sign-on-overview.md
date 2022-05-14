@@ -1,7 +1,7 @@
 ---
 filename: single-sign-on-overview
 content-type: overview
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: manage-security-workfront-proof
 title: Single Sign-On in Workfront Proof

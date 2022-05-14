@@ -1,6 +1,6 @@
 ---
 filename: share-proof-links
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Share proof links in Workfront Proof

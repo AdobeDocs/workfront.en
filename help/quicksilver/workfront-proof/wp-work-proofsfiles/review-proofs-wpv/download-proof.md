@@ -1,6 +1,6 @@
 ---
 filename: download-proof
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Downloading a Proof in the proofing viewer

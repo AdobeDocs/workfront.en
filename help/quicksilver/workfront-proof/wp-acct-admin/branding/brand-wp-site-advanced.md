@@ -1,6 +1,6 @@
 ---
 filename: brand-wp-site-advanced
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
 title: Brand the Workfront Proof site - advanced
@@ -139,7 +139,7 @@ For an additional charge, customers on Enterprise plans also have the option to 
 Please contact us at sales.team@workfront.com to find out more about the additional branding options.
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Custom-domains"></a>Custom Domains</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom Domains</h2>
 -->
 
 <!--
@@ -151,7 +151,7 @@ Please contact us at sales.team@workfront.com to find out more about the additio
 -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Custom-page-branding"></a>Custom Page Branding</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom Page Branding</h2>
 -->
 
 <!--

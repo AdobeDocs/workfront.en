@@ -184,7 +184,7 @@ When you designate someone as the Portfolio Manager, they automatically gain&nbs
 </table> </li>
 <li value="3"> <p>Click <strong>Save Changes</strong> or continue editing the following sections.</p> </li>
 </ol>
-<h3><a name="Custom&nbsp;F"></a>Custom&nbsp;Forms</h3>
+<h3>Custom&nbsp;Forms</h3>
 <ol>
 <li value="1"> <p>Begin editing the portfolio as described above. </p> </li>
 <li value="2"> <p>Click the <strong>Add Forms</strong> drop-down menu to select a custom forms and add it to the portfolio. </p> <p>You must create portfolio custom forms before they are available to add. </p> <note type="note">

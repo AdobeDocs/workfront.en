@@ -1,6 +1,6 @@
 ---
 filename: fusion-nov-30
-product: workfront-fusion
+product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 keywords: fusion

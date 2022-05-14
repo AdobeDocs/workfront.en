@@ -1,7 +1,7 @@
 ---
 filename: faq-review-proofs
 content-type: faq
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
 title: FAQ - Review proofs

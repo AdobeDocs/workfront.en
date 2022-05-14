@@ -1,6 +1,6 @@
 ---
 filename: give-users-access-portal
-product: workfront-library
+product-previous: workfront-library
 product-area: documents;user-management;system-administration
 navigation-topic: user-access
 title: Give users access to a Workfront Library portal

@@ -1,7 +1,7 @@
 ---
 filename: enable-users-access-mobile-app
 title: Enable users to access the mobile application
-product: mobile
+product-previous: mobile
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations

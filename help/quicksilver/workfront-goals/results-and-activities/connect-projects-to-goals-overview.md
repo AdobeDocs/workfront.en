@@ -1,7 +1,7 @@
 ---
 filename: connect-projects-to-goals-overview
 content-type: overview
-product: workfront-goals
+product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Overview of connecting projects to goals in Adobe Workfront Goals

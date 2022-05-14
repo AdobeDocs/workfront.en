@@ -12,7 +12,7 @@ New functionality also allows you more control over what displays when you view 
 -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Reportin"></a>Reporting elements</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Reporting elements</h2>
 -->
 
 <!--

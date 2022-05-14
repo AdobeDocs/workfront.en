@@ -1,7 +1,7 @@
 ---
 filename: data-structures
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Data structures in Adobe Workfront Fusion

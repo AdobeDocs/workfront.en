@@ -1,6 +1,6 @@
 ---
 filename: add-items-to-a-folder-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: folders
 title: Add items to a folder in Workfront Library

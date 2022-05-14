@@ -1,7 +1,7 @@
 ---
 filename: _tips-tricks-and-troubleshooting
 content-type: tips-tricks-troubleshooting;reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Tips, tricks, and troubleshooting for Workfront Proof account administration

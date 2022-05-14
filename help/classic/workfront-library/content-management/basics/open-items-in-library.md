@@ -1,6 +1,6 @@
 ---
 filename: open-items-in-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Open items in Workfront Library

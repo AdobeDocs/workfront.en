@@ -1,10 +1,7 @@
 ---
-cloud: ad-cloud
-product: adobe
-archtype: end-user
-user-guide: null
+user-guide-title: Workfront Classic
+user-guide-description: Workfront
 ---
-
 # Workfront Classic {#classic}
 
 * [Product announcements](product-announcements/product-announcements.md)

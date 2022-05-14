@@ -1,6 +1,6 @@
 ---
 filename: manage-proof-details
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Manage Proof Details in Workfront Proof

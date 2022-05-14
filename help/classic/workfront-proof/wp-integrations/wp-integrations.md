@@ -1,7 +1,7 @@
 ---
 filename: _wp-integrations
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof integrations

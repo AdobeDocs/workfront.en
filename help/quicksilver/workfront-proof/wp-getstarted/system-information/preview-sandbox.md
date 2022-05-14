@@ -1,7 +1,7 @@
 ---
 filename: preview-sandbox
 content-type: overview;how-to-procedural
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
 title: Preview Sandbox Testing Environment- Workfront Proof

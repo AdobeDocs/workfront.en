@@ -38,7 +38,7 @@ You must associate job roles with the project before you can budget the resource
 -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="prerequisites"></a>Prerequisites for budgeting resources on a project</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for budgeting resources on a project</h2>
 -->
 
 <!--
@@ -111,7 +111,7 @@ You must associate job roles with the project before you can budget the resource
   -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="applying-resource-pools-to-the-business-case"></a>Apply Resource Pools to a project and budget resources in the Business Case</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Apply Resource Pools to a project and budget resources in the Business Case</h2>
 -->
 
 <!--

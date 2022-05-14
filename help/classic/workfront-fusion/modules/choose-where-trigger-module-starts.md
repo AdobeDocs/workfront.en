@@ -1,6 +1,6 @@
 ---
 filename: choose-where-trigger-module-starts
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Choose where a trigger module starts in Adobe Workfront Fusion

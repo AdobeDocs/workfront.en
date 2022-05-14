@@ -1,6 +1,6 @@
 ---
 filename: configure-dropzone-in-wp
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Configure the dropzone in Workfront Proof

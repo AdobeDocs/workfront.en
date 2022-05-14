@@ -1,6 +1,6 @@
 ---
 filename: change-cover-image-of-folder
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Change the cover image on an item in Workfront Library

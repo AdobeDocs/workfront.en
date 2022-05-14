@@ -1,6 +1,6 @@
 ---
 filename: add-keywords-to-metadata
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Add keywords to metadata in Workfront Library

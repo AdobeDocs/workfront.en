@@ -1,6 +1,6 @@
 ---
 filename: download-content-from-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Download items from Workfront Library

@@ -92,7 +92,7 @@ To schedule a project from Start Date:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="understanding-planned-completion-of-task"></a>The Planned Completion Date of a task</h2>
+<h2>The Planned Completion Date of a task</h2>
 <p>(NOTE: drafted because I created a new article, here: /Content/Manage work/Tasks/Task information/task-planned-completion-date.htm)</p>
 <p>You can either specify the Planned Completion Date of a task, or you can leave it up to Workfront to calculate it depending on certain criteria.&nbsp;</p>
 <ul>

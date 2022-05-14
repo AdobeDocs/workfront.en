@@ -1,7 +1,7 @@
 ---
 filename: proof-security-in-workfront-proof
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-security-workfront-proof
 title: Proof security in Workfront Proof

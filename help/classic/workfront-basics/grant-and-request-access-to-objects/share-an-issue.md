@@ -76,7 +76,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="automatically-sharin-an-issue"></a>Automatically share an issue at the project level</h2>
+<h2>Automatically share an issue at the project level</h2>
 <p>(NOTE: this info duplicates in Edit projects - linked there instead (above).)&nbsp;</p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are added to a project.</p>
 <ol>
@@ -110,7 +110,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="automatically-sharin-an-issue"></a>Automatically share an issue in request queues</h2>
+<h2>Automatically share an issue in request queues</h2>
 <p>(NOTE: drafted because it's duplicated from Create a Request Queue which is linked above)&nbsp;</p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are submitted to a request queue.</p>
 <ol>

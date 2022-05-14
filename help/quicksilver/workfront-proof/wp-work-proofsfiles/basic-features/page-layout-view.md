@@ -1,7 +1,7 @@
 ---
 filename: page-layout-view
 content-type: overview
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
 title: Page Layout on the Views Tab in Workfront Proof

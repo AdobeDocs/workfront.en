@@ -1,7 +1,7 @@
 ---
 filename: salesforce-modules
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
@@ -253,7 +253,7 @@ This trigger module starts a scenario when a field is updated in Salesforce.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4 id="create-a-record-static-fields"><a name="Create2"></a>Create a Record (Static Fields)</h4>
+<h4 id="create-a-record-static-fields">Create a Record (Static Fields)</h4>
 <p>This action module creates a new record in an object.</p>
 <p>You specify the type of record.</p>
 <p>The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
@@ -506,7 +506,7 @@ When you are configuring this module, the following fields display.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4 id="update-a-record-static-fields"><a name="Update3"></a>Update a Record
+<h4 id="update-a-record-static-fields">Update a Record
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (Static Fields)
 </MadCap:conditionalText>

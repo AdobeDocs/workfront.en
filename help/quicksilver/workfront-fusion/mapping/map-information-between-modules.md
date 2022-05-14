@@ -1,6 +1,6 @@
 ---
 filename: map-information-between-modules
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Map information from one module to another in Adobe Workfront Fusion

@@ -1,6 +1,6 @@
 ---
 filename: create-and-manage-custom-views
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Create and Manage Custom Views in Workfront Proof Proof

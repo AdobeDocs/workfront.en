@@ -1,6 +1,6 @@
 ---
 filename: configure-spam-settings-clients
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: Configure spam settings for common email clients

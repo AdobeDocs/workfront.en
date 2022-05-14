@@ -1,7 +1,7 @@
 ---
 filename: _manage-security
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Manage security

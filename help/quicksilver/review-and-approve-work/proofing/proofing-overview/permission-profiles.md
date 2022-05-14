@@ -152,7 +152,7 @@ Managers have the following permissions:
 </table>
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Observer"></a>Observer</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Observer</h3>
 -->
 
 <!--
@@ -220,7 +220,7 @@ Managers have the following permissions:
 >  -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Guest"></a>Guest</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Guest</h3>
 -->
 
 <!--

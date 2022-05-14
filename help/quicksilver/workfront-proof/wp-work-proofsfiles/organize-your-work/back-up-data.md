@@ -1,6 +1,6 @@
 ---
 filename: back-up-data
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Back Up Your Workfront Proof Data

@@ -1,6 +1,6 @@
 ---
 filename: view-activity-on-a-proof
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: View activity on a proof in the proofing viewer

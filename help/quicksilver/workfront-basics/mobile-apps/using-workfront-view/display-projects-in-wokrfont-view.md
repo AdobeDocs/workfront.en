@@ -1,6 +1,6 @@
 ---
 filename: display-projects-in-wokrfont-view
-product: mobile
+product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
 title: Display projects in Adobe Workfront View

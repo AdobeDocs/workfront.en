@@ -1,6 +1,6 @@
 ---
 filename: configure-access-subscription-settings-proof
-product: workfront-proof;workfront
+product-previous: workfront-proof;workfront
 product-area: documents;system-administration;setup
 navigation-topic: manage-proofs-within-workfront
 title: Configure access and subscription settings for a proof

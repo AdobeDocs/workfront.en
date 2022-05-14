@@ -34,7 +34,7 @@ The following are types of views that you can apply in lists or reports in&nbsp;
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Customizing_an_Existing_View"></a>Create or customize a view</h2>
+<h2>Create or customize a view</h2>
 <p>(NOTE: drafted, because it has been moved to its own article: create-edit-views.htm) </p>
 <p>The process for creating or customizing a view differs depending on whether you are creating or customizing a standard view or an agile view.</p>
 <ul>
@@ -53,7 +53,7 @@ The following are types of views that you can apply in lists or reports in&nbsp;
 <li>Add a column by clicking <strong>Add Column</strong>, begin typing the name of the column that you want to add, then click it when it appears in the drop-down list.</li>
 <li>Adjust the order that columns appear by dragging the column title to a new location.
 <ul>
-<li>(Optional) In the <strong>Column Settings</strong> area, click the <a name="summarize-this-column-by"></a><strong>Summarize this column by</strong> drop-down list, then select one of the available options for summarizing the information. When you choose this option, the information in your column is aggregated in the groupings of the report.<br>For date fields, you can summarize the values by the following options:
+<li>(Optional) In the <strong>Column Settings</strong> area, click the <strong>Summarize this column by</strong> drop-down list, then select one of the available options for summarizing the information. When you choose this option, the information in your column is aggregated in the groupings of the report.<br>For date fields, you can summarize the values by the following options:
 <ul>
 <li>Maximum</li>
 <li>Minimum</li>

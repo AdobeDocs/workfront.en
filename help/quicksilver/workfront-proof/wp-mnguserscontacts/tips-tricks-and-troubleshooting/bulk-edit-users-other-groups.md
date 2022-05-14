@@ -1,7 +1,7 @@
 ---
 filename: bulk-edit-users-other-groups
 content-type: tips-tricks-troubleshooting
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-users-and-contacts
 title: Bulk edit user's Other Groups

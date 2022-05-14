@@ -1,6 +1,6 @@
 ---
 filename: create-and-manage-custom-profiles
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
 title: Create and Manage Custom Profiles using Workfront Proof

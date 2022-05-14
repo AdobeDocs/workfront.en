@@ -1,6 +1,6 @@
 ---
 filename: view-previous-proof-versions
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: View previous proof versions in the Web Proofing Viewer

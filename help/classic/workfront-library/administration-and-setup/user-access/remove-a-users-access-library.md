@@ -1,6 +1,6 @@
 ---
 filename: remove-a-users-access-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents;user-management;system-administration
 navigation-topic: user-access
 title: Remove a user's access to Workfront Library

@@ -1,6 +1,6 @@
 ---
 filename: access-content
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Access content in Workfront Library

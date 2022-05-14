@@ -1,6 +1,6 @@
 ---
 filename: required-configuration-to-authenticate-to-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents;system-administration;setup
 navigation-topic: workfront-library-setup
 title: Required configuration to authenticate to Workfront Library

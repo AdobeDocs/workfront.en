@@ -1,6 +1,6 @@
 ---
 filename: receive-a-webhook-from-a-web-service
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
 title: Receive a webhook from a web service

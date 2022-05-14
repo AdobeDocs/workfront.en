@@ -1,6 +1,6 @@
 ---
 filename: remove-items-from-a-collection
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: collections
 title: Remove items from a collection in Workfront Library

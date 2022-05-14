@@ -1,6 +1,6 @@
 ---
 filename: integrate-workfront-proof-with-basecamp
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp
 title: Integrate Workfront Proof with Basecamp

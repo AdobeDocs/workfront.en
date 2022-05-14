@@ -1,6 +1,6 @@
 ---
 filename: manage-wp-users
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: Manage Workfront Proof users

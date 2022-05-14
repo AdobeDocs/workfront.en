@@ -1,6 +1,6 @@
 ---
 filename: navigate-goal-alignment-chart
-product: workfront-goals
+product-previous: workfront-goals
 navigation-topic: goal-alignment
 title: Navigate the Goal Alignment section in Adobe Workfront Goals
 description: Use the Goal Alignment section to display a holistic view of goal alignment across the entire organization in a flowchart. Aligned goals display on cards that interconnect in a hierarchical tree.

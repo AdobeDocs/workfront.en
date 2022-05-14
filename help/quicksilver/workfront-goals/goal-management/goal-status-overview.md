@@ -1,7 +1,7 @@
 ---
 filename: goal-status-overview
 content-type: overview;reference
-product: workfront-goals
+product-previous: workfront-goals
 navigation-topic: goal-management
 title: Goal status overview in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.

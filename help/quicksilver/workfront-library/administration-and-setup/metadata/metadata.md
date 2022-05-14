@@ -1,7 +1,7 @@
 ---
 filename: _metadata
 content-type: reference
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: administration-and-setup-for-workfront-library
 title: Metadata in Workfront Library

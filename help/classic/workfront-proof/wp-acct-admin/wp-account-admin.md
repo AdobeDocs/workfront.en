@@ -1,7 +1,7 @@
 ---
 filename: _wp-account-admin
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof account administration

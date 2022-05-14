@@ -1,7 +1,7 @@
 ---
 filename: basic-terms
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Basic terms in Adobe Workfront Fusion

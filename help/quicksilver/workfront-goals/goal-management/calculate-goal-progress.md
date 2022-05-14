@@ -1,6 +1,6 @@
 ---
 filename: calculate-goal-progress
-product: workfront-goals
+product-previous: workfront-goals
 navigation-topic: goal-management
 title: Calculate goal progress in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.

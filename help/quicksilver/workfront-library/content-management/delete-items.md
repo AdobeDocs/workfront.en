@@ -1,6 +1,6 @@
 ---
 filename: delete-items
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Delete items from Workfront Library

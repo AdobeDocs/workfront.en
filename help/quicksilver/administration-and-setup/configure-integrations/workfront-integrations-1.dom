@@ -8,7 +8,7 @@
     <h1 aemmigrated="true">Adobe Workfront integrations</h1> 
     <p aemmigrated="true">You can integrate Adobe Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.</p> 
     <p aemmigrated="true">The integrations for Workfront fall into the following categories:</p> 
-    <h2 aemmigrated="true"><a name="built-in-integrations" aemmigrated="true"></a>Built-in (native) integrations</h2> 
+    <h2 aemmigrated="true">Built-in (native) integrations</h2> 
     <p aemmigrated="true">Workfront provides various integrations you can configure either directly from the Workfront application, or directly from another application by installing the Workfront add-in for that application.</p> 
     <p aemmigrated="true">Some of these integrations are available at no additional&nbsp;cost, while other integrations require an additional purchase:</p> 
     <ul aemmigrated="true"> 
@@ -264,10 +264,10 @@
      <li aemmigrated="true"> <p aemmigrated="true">Workfront Fusion <br aemmigrated="true"> </p> <p aemmigrated="true">For more information, see <a href="../../workfront-fusion/get-started/workfront-fusion-overview.md" class="MCXref xref" aemmigrated="true">Adobe Workfront Fusion overview</a>.</p> </li> 
      <li aemmigrated="true"> <p aemmigrated="true">Adobe Experience Manager Assets<br aemmigrated="true"></p> <p aemmigrated="true">For more information, see <a href="../../administration-and-setup/configure-integrations/configure-workfront-aem.md" class="MCXref xref" aemmigrated="true">Configure Workfront with Adobe Experience Manager legacy connector</a>.</p> </li> 
     </ul> 
-    <h2 aemmigrated="true"><a name="partner-integrations" aemmigrated="true"></a>Partner integrations</h2> 
+    <h2 aemmigrated="true">Partner integrations</h2> 
     <p aemmigrated="true">Workfront has a rich partner ecosystem that includes dozens of integrations that enrich your Workfront experience.</p> 
     <p aemmigrated="true">Examples of existing partner offerings&nbsp;include integrations with Salesforce.com, Oracle Responsys, and Microsoft Visual Studio. For more information about these and other exciting integrations, see the <a href="https://www.workfront.com/enterprise/marketplace/apps/" aemmigrated="true">Workfront Marketplace</a>.</p> 
-    <h2 aemmigrated="true"><a name="workfront-api" aemmigrated="true"></a>Workfront API</h2> 
+    <h2 aemmigrated="true">Workfront API</h2> 
     <p aemmigrated="true">The Workfront API enables you to extend and enhance your Workfront experience by leveraging our public API. You can create your own integrations using our open API. For a detailed list of available objects in the Workfront API, see the Workfront <a href="../../wf-api/general/api-explorer.md" class="MCXref xref" aemmigrated="true">API Explorer</a>.</p> 
    </div> 
   </div>

@@ -1,6 +1,6 @@
 ---
 filename: config-email-notification-settings-wp
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: Configure email notification settings in Workfront Proof

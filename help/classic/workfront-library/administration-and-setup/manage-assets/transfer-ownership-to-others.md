@@ -1,6 +1,6 @@
 ---
 filename: transfer-ownership-to-others
-product: workfront-library
+product-previous: workfront-library
 product-area: documents;user-management
 navigation-topic: manage-assets
 title: Transfer ownership assets to another user

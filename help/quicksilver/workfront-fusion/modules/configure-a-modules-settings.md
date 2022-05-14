@@ -1,6 +1,6 @@
 ---
 filename: configure-a-modules-settings
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Configure a module's settings in Adobe Workfront Fusion

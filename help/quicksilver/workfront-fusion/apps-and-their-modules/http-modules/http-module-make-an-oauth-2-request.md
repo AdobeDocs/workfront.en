@@ -1,7 +1,7 @@
 ---
 filename: http-module-make-an-oauth-2-request
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules

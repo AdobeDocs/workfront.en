@@ -1,7 +1,7 @@
 ---
 filename: active-campaign-modules
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
@@ -1157,7 +1157,7 @@ When you are configuring this module, the following fields display.
 </table>
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Events"></a>ActiveCampaign Event modules</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">ActiveCampaign Event modules</h2>
 -->
 
   <!--
@@ -1165,7 +1165,7 @@ When you are configuring this module, the following fields display.
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="watch-events"><a name="Watch5"></a>Watch Events</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="watch-events">Watch Events</h3>
 -->
 
 <!--
@@ -1589,7 +1589,7 @@ When you are configuring this module, the following fields display.
 </table>
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Other"></a>Other ActiveCampaign modules</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Other ActiveCampaign modules</h2>
 -->
 
   <!--

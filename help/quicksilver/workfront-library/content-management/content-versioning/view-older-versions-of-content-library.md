@@ -1,6 +1,6 @@
 ---
 filename: view-older-versions-of-content-library
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: content-versioning
 title: Access older versions of content in Workfront Library

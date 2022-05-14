@@ -1,6 +1,6 @@
 ---
 filename: edit-keyword-pick-list
-product: workfront-library
+product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Rename a keyword in Workfront Library

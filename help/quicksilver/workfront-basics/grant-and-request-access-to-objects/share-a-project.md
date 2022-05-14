@@ -103,7 +103,7 @@ You can share a project in the following ways:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Configuring_Default_Permissions_for_Access_Levels_in_a_Project"></a>Configure default permissions for a project</h2>
+<h2>Configure default permissions for a project</h2>
 <p>(NOTE: drafted because I added one more way to automatically share the project above in the bullet list and linked it to Edit Projects) </p>
 <p>As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing&nbsp;the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in <a title="Project Permissions" href="#ways-to-share-a-project" class="MCXref xref">Ways to share a project</a>. </p>
 <p>To configure the default permissions that are included with each access level:</p>

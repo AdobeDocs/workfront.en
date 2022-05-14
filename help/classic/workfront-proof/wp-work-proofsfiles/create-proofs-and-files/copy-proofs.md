@@ -1,6 +1,6 @@
 ---
 filename: copy-proofs
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
 title: Copying Proofs in Workfront Proof

@@ -1,6 +1,6 @@
 ---
 filename: share-public-url
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Share the Public URL in Workfront Proof

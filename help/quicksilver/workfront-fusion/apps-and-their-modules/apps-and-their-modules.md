@@ -1,7 +1,7 @@
 ---
 filename: _apps-and-their-modules
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: workfront-fusion-2-0

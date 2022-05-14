@@ -1,6 +1,6 @@
 ---
 filename: map-using-functions
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Map items using functions in Adobe Workfront Fusion

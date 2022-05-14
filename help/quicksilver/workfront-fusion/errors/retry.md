@@ -1,6 +1,6 @@
 ---
 filename: retry
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Retry error handling in Adobe Workfront Fusion

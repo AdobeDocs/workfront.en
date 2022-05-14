@@ -178,7 +178,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 <li> <p><a href="#merge-data-from-two-columns-with-a-line-break" class="MCXref xref">Merge data from two columns with a line break </a> </p> </li>
 <li> <p><a href="#merge-data-from-two-columns-with-no-line-break" class="MCXref xref">Merge data from two columns with no line break </a> </p> </li>
 </ul>
-<h4 id="merge-data-from-two-columns-with-a-line-break"><a name="Merge"></a>Merge data from two columns with a line break </h4>
+<h4 id="merge-data-from-two-columns-with-a-line-break">Merge data from two columns with a line break </h4>
 <p>Do the following to share the data from multiple columns to display it in one common column with a line break between the values from each column:</p>
 <ol>
 <li value="1"> <p>Add a third column between the two columns you want to merge. </p> </li>
@@ -190,7 +190,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4 id="merge-data-from-two-columns-with-no-line-break"><a name="Merge2"></a>Merge data from two columns with no line break </h4>
+<h4 id="merge-data-from-two-columns-with-no-line-break">Merge data from two columns with no line break </h4>
 <p>You can share the data from multiple separate columns to display it in one column with no breaks or spaces between the values from each column. </p>
 <p>To do this:</p>
 <ol>
@@ -270,11 +270,11 @@ Avoid using images that are uploaded to Workfront. Because images stored in Work
 <li><a href="#calculate-the-time-and-date-difference-between-two-date-fields-on-the-same-object" class="MCXref xref">Calculate the time and date difference between two date fields on the same object</a> </li>
 <li><a href="#calculate-the-time-and-date-difference-between-the-field-on-an-object-and-another-field-on-the-parent-object" class="MCXref xref">Calculate the time and date difference between the field on an object and another field on the parent object</a> </li>
 </ul>
-<h4 id="calculate-the-time-and-date-difference-between-two-date-fields-on-the-same-object"><a name="difference-between-two-dates-on-the-same-object"></a><strong>Calculate the time and date difference between two date fields on the same object</strong> </h4>
+<h4 id="calculate-the-time-and-date-difference-between-two-date-fields-on-the-same-object"><strong>Calculate the time and date difference between two date fields on the same object</strong> </h4>
 <p>For example, to calculate the difference between the Planned Completion Date and the Actual Completion Date of a task add the following column to a task report:</p>
 <pre>displayname=Planned-Actual Completion Date<br>linkedname=direct<br>querysort=plannedCompletionDate<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{actualCompletionDate}),2)<br>valueformat=HTML</pre>
 <p>The result displays in days. The timestamp on the date field is also taken into account, and the number of days might be followed by decimals if the timestamps don't match.</p>
-<h4 id="calculate-the-time-and-date-difference-between-the-field-on-an-object-and-another-field-on-the-parent-object"><a name="calculate-time-and-date-difference-between-object-and-parent-object-field"></a><strong>Calculate the time and date difference between the field on an object and another field on the parent object</strong> </h4>
+<h4 id="calculate-the-time-and-date-difference-between-the-field-on-an-object-and-another-field-on-the-parent-object"><strong>Calculate the time and date difference between the field on an object and another field on the parent object</strong> </h4>
 <p>For a list of objects and their parents, see the "Understanding the Interdependency and Hierarchy of Objects" section in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.<br>For example, you can calculate the difference between the Planned Completion Date of a task and the Planned Completion Date of its parent task, or of the project that the task is on.</p>
 <ul>
 <li>Add the following column to a task view or report to calculate the difference between the Planned Completion Date of the task and that of the parent task:<br><pre>valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{parent}.{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion</pre></li>
@@ -426,7 +426,7 @@ For examples of the most common reasons for using text mode in a grouping, see t
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="examples-of-text-mode"></a>Examples of views, filters, and groupings built in text mode</h2>
+<h2>Examples of views, filters, and groupings built in text mode</h2>
 <p>You can use the text mode of complex views, filters and groupings which have been built by Workfront.</p>
 <p>For more examples of already built text mode views, groupings and filters, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md" class="MCXref xref">Custom View, Filter, and Grouping samples</a>.</p>
 </div>

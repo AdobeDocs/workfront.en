@@ -1,6 +1,6 @@
 ---
 filename: map-an-array
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Map an array in Adobe Workfront Fusion

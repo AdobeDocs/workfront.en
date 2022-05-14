@@ -90,7 +90,7 @@ We recommend the following approaches:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p><strong><a name="creating-a-resource-pool"></a>Create a Resource Pool</strong></p>
+<p><strong>Create a Resource Pool</strong></p>
 <p>(NOTE: Alina: **^^ Linked to messaging from emails/ AC/ Pendo, possibly. Do not rename or change the anchor. << this comment is old.</p>
 <p>***Feb 2022: moved this section to its own article and drafted it here. Consider undrafting the section with a short intro to point to the new article IF there are any complaints.) </p>
 <ol>
@@ -142,7 +142,7 @@ There is no limit to how many users you can have in a Resource Pool. However, we
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="removing-users-from-resource-pools"></a>Remove users from a Resource Pool</h2>
+<h2>Remove users from a Resource Pool</h2>
 <p>(NOTE: moved to its own article. Drafted here.) </p>
 <p>You can remove users from a Resource Pool when those users are no longer needed in that pool. </p>
 <p>To remove a user from a Resource Pool:</p>
@@ -161,11 +161,11 @@ There is no limit to how many users you can have in a Resource Pool. However, we
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="pools-and-users"></a>Associate Resource Pools with users</h2>
+<h2>Associate Resource Pools with users</h2>
 <p>You must have administrative rights to editing users in order to edit or create users. <br>For more information about the access needed to edit or create users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p>
 <ul>
 <li><a href="#associate-resource-pools-with-one-user" class="MCXref xref">Associate Resource Pools with one user</a> </li>
-<li><a href="#associate-resource-pools-with-users-in-bulk" class="MCXref xref">Associate Resource Pools with users in bulk</a><a name="structuring-resource-pools"></a> </li>
+<li><a href="#associate-resource-pools-with-users-in-bulk" class="MCXref xref">Associate Resource Pools with users in bulk</a> </li>
 </ul>
 <p><strong>Associate Resource Pools with one user</strong></p>
 <p>You can associate users with Resource Pools when you are creating your Resource Pools. <br>For more information about creating a Resource Pool, see the section <a href="#create-a-resource-pool" target="_blank" rel="noopener noreferrer" class="MCXref xref">Create a Resource Pool</a> in this article.</p>
@@ -201,7 +201,7 @@ Only the Resource Pools that are common to all the users selected appear in this
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="pools-and-projects"></a>Associate resource pools with projects and templates</h2>
+<h2>Associate resource pools with projects and templates</h2>
 <p>(NOTE: moved to its own article) </p>
 <p> After you create Resource Pools, you can associate them with projects or templates so you can later budget your resources on the projects. </p>
 <p>You must have the following rights to associate Resource Pools with Projects and Templates: </p>

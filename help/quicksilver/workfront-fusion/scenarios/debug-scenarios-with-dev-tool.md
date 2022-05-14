@@ -1,6 +1,6 @@
 ---
 filename: debug-scenarios-with-dev-tool
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Debug scenarios with the Adobe Workfront Fusion DevTool

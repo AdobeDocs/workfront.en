@@ -1,6 +1,6 @@
 ---
 filename: create-and-compare-scenarios-for-a-plan
-product: enterprise-scenario-planner
+product-previous: enterprise-scenario-planner
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Create and compare plan scenarios in the Scenario Planner

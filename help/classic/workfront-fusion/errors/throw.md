@@ -1,7 +1,7 @@
 ---
 filename: throw
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Throw error handling in Adobe Workfront Fusion

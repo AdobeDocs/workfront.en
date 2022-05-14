@@ -1,6 +1,6 @@
 ---
 filename: share-an-asset-with-users
-product: workfront-library
+product-previous: workfront-library
 product-area: documents;user-management
 navigation-topic: content-management
 title: Share a Workfront Library item with other users

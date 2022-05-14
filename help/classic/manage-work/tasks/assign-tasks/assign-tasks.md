@@ -86,7 +86,7 @@ Consider the following when assigning multiple resources to a work item:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="assign-multiple-users"></a>Considerations for multiple user assignments and using schedules</h2>
+<h2>Considerations for multiple user assignments and using schedules</h2>
 <p>(NOTE: moved to the Modify task assignments overview standalone article)</p>
 <p>You can assign multiple resources to a task. When you assign a user to a task, Workfront uses the user's schedule to calculate the planned dates for the task which ultimately determine the timeline of the project. Using the schedule of the user takes into account their time off, holidays, and weekend days which are considered non-working days when task activity cannot occur. </p>
 <p>When you assign multiple users to a task, your Workfront administrator <span>or a group administrator</span> determines which one of the following schedules Workfront uses to determine the planned dates of the tasks, based on schedules: </p>
@@ -211,7 +211,7 @@ To assign tasks in a list:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Remove"></a>Considerations about unassigning tasks</h2>
+<h2>Considerations about unassigning tasks</h2>
 <p>(NOTE:&nbsp;moved this to the new article: /Content/Manage work/Tasks/Assign tasks/modify-task-assignments-overview.htm)</p>
 <p>You can remove assignments from one task at a time, or you can remove assignments from multiple tasks in bulk.</p>
 <p>For more information about removing assignments from tasks in bulk, see <a href="../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md" class="MCXref xref">Modify multiple user assignments in a task list</a>. </p>

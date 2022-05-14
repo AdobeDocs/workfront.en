@@ -1,7 +1,7 @@
 ---
 filename: use-mtls-in-http-modules
 content-type: reference
-product: workfront-fusion
+product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules

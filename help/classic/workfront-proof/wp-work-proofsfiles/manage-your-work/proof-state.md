@@ -1,6 +1,6 @@
 ---
 filename: proof-state
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Understand Proof State in Workfront Proof

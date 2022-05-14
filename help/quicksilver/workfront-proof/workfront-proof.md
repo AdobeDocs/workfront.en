@@ -1,7 +1,7 @@
 ---
 filename: _workfront-proof
 content-type: reference
-product: workfront-proof
+product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof
