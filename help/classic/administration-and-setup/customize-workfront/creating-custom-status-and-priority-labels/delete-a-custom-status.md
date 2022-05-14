@@ -1,5 +1,8 @@
-
-
+---
+title: Delete a custom status
+description: Delete a custom status
+draft: Probably
+---
 # Delete a custom status
 
 >[!IMPORTANT]

@@ -1,5 +1,8 @@
-
-
+---
+title: DocuSign modules
+description: DocuSign modules
+draft: Probably
+---
 # DocuSign modules
 
 The Adobe Workfront Fusion DocuSign modules enable you to monitor and retrieve envelope status, search and retrieve envelopes, or download and send a document to sign in your DocuSign account.

@@ -1,5 +1,8 @@
-
-
+---
+title: New Adobe Workfront experience release activity
+description: New Adobe Workfront experience release activity
+draft: Probably
+---
 # New Adobe Workfront experience release activity
 
 Following are some key enhancements made in the new Adobe Workfront experience, many of which are based on your feedback. This list does not include all bug fixes and enhancements.

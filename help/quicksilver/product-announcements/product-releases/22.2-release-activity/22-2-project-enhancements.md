@@ -1,5 +1,8 @@
-
-
+---
+title: 22.2&nbsp;Project enhancements
+description: 22.2&nbsp;Project enhancements
+draft: Probably
+---
 # 22.2&nbsp;Project enhancements
 
 This page describes all Project enhancements made with the 22.2 release to the Preview environment. These enhancements will be made available in the Production environment 

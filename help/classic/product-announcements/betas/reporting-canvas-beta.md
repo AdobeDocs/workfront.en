@@ -1,5 +1,8 @@
-
-
+---
+title: Reporting Canvas beta
+description: Reporting Canvas beta
+draft: Probably
+---
 # Reporting Canvas beta
 
 ## Reporting Canvas Overview

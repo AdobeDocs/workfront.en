@@ -1,5 +1,8 @@
-
-
+---
+title: Reporting Canvas beta: known issues
+description: Reporting Canvas beta: known issues
+draft: Probably
+---
 # Reporting Canvas beta: known issues
 
 This page contains issues currently identified in the Reporting Canvas beta. For more information on the beta, see [Reporting Canvas beta](../../product-announcements/betas/reporting-canvas-beta.md).

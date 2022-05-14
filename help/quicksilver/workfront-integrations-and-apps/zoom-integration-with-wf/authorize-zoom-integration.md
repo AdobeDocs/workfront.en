@@ -1,5 +1,8 @@
-
-
+---
+title: Authorize the Zoom integration
+description: Authorize the Zoom integration
+draft: Probably
+---
 # Authorize the Zoom integration
 
 After your Adobe Workfront administrator enables the Zoom integration, you need to authorize the connection between Workfront and your Zoom account. This is necessary for each Workfront user.

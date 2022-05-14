@@ -1,5 +1,8 @@
-
-
+---
+title: Access needed to use the Scenario Planner
+description: Access needed to use the Scenario Planner
+draft: Probably
+---
 # Access needed to use the Scenario Planner
 
 >[!IMPORTANT]

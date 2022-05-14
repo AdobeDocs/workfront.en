@@ -1,5 +1,8 @@
-
-
+---
+title: Workfront Fusion release activity:&nbsp;Week of November 2, 2020
+description: Workfront Fusion release activity:&nbsp;Week of November 2, 2020
+draft: Probably
+---
 # Workfront Fusion release activity:&nbsp;Week of November 2, 2020
 
 This page describes all enhancements made in Adobe Workfront Fusion the week of November 2, 2020.

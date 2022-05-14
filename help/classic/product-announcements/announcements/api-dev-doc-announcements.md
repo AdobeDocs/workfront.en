@@ -1,5 +1,8 @@
-
-
+---
+title: API and developer documentation announcements
+description: API and developer documentation announcements
+draft: Probably
+---
 # API and developer documentation announcements
 
 Starting on July 15, 2020 the new Adobe Workfront API and developer documentation site officially launches for open beta testing.

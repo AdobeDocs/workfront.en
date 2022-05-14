@@ -1,5 +1,8 @@
-
-
+---
+title: Tips, Tricks, and Troubleshooting for Adobe Workfront Basics
+description: Tips, Tricks, and Troubleshooting for Adobe Workfront Basics
+draft: Probably
+---
 # Tips, Tricks, and Troubleshooting for Adobe Workfront Basics
 
 This section contains the following articles:

@@ -1,5 +1,8 @@
-
-
+---
+title: Delete a custom status
+description: Delete a custom status
+draft: Probably
+---
 # Delete a custom status
 
 You can delete a custom system status if it is no longer useful to your organization.

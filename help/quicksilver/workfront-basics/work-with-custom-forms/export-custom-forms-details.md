@@ -1,5 +1,8 @@
-
-
+---
+title: Export custom forms and object details
+description: Export custom forms and object details
+draft: Probably
+---
 # Export custom forms and object details
 
 You can export the Overview and the custom form information from the Details section of an object to a PDF file. You can then print or share the PDF with other users.

@@ -1,5 +1,8 @@
-
-
+---
+title: nwe-classic-endpoints
+description: nwe-classic-endpoints
+draft: Probably
+---
 # nwe-classic-endpoints
 
 [Introduction]

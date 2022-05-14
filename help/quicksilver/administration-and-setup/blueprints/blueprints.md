@@ -1,5 +1,8 @@
-
-
+---
+title: Blueprints
+description: Blueprints
+draft: Probably
+---
 # Blueprints
 
 * [Blueprints overview](../../administration-and-setup/blueprints/blueprints-overview.md) 

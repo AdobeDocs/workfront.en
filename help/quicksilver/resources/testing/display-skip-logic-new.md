@@ -1,5 +1,8 @@
-
-
+---
+title: Add display logic and skip logic to a custom form
+description: Add display logic and skip logic to a custom form
+draft: Probably
+---
 # Add display logic and skip logic to a custom form
 
 You can use smart rules to make a custom form dynamic and more relevant for the users who fill it out. When a user responds a certain way to a multiple-choice field on a form, a smart rule shows them what you want them to see next, based on that response.

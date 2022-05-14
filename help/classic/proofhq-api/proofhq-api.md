@@ -1,5 +1,8 @@
-
-
+---
+title: ProofHQ API
+description: ProofHQ API
+draft: Probably
+---
 # ProofHQ API
 
 >[!IMPORTANT]

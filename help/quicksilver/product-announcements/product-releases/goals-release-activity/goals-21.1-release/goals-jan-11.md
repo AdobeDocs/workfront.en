@@ -1,5 +1,8 @@
-
-
+---
+title: Adobe Workfront Goals 21.1 release activity:&nbsp;Week of January 11, 2021
+description: Adobe Workfront Goals 21.1 release activity:&nbsp;Week of January 11, 2021
+draft: Probably
+---
 # Adobe Workfront Goals 21.1 release activity:&nbsp;Week of January 11, 2021
 
 This page describes all enhancements made with the 21.1 release for Adobe Workfront Goals to the Preview environment the week of January 11, 2021. These enhancements will be made available in the Production environment in the first quarter of 21.1.

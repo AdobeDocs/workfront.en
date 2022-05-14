@@ -1,5 +1,8 @@
-
-
+---
+title: Widen modules
+description: Widen modules
+draft: Probably
+---
 # Widen modules
 
 >[!IMPORTANT]

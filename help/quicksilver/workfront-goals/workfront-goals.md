@@ -1,5 +1,8 @@
-
-
+---
+title: Adobe Workfront Goals
+description: Adobe Workfront Goals
+draft: Probably
+---
 # Adobe Workfront Goals
 
 Your organization must have the following to use the functionality described in this article:

@@ -1,5 +1,8 @@
-
-
+---
+title: HubSpot CRM modules
+description: HubSpot CRM modules
+draft: Probably
+---
 # HubSpot CRM modules
 
 The Adobe Workfront Fusion HubSpot CRM modules enable you to monitor events, records, contacts, engagements, file and form submissions, or create, retrieve, update and delete records, contacts, engagements, events, or files in your HubSpot CRM account.

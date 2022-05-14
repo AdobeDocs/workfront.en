@@ -1,5 +1,8 @@
-
-
+---
+title: Encryptor
+description: Encryptor
+draft: Probably
+---
 # Encryptor
 
 Adobe Workfront Fusion Encryptor modules allow you to encrypt any text data. They currently support message encryption via AES256 and PGP (OpenPGP).

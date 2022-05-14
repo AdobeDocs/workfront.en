@@ -25,11 +25,9 @@ The locale change does not affect the start day of the week on the Resource Grid
 
 Following are the directions for changing language and locale settings for various browsers that are supported with Workfront.
 
-* **Chrome:**&nbsp;Copy and paste the following link into your Chrome browser: [chrome://settings/languages](chrome://settings/languages) then go to Languages.
-
-* **Firefox:**Copy and paste the following link into your Firefox browser: [about:preferences#content](about:preferences#content) then go to Languages.
-
-* **IE 11:** &nbsp;Tools -> Internet Options -> General -> Languages
+* **Chrome:**&nbsp;Copy and paste the following link into your Chrome browser: `chrome://settings/languages` then go to Languages.
+* **Firefox:**Copy and paste the following link into your Firefox browser: `about:preferences#content` then go to Languages.
+* **IE 11:** Tools -> Internet Options -> General -> Languages
 * **Safari:** Unfortunately, Safari does not allow changing web browsing languages without also changing your entire operating system language. It is probably easier to simply install another browser like Chrome or Firefox.
 
 &nbsp;

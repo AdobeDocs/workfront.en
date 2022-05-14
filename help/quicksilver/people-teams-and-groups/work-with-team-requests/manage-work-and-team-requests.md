@@ -1,5 +1,8 @@
-
-
+---
+title: Manage work and team requests
+description: Manage work and team requests
+draft: Probably
+---
 # Manage work and team requests
 
 A request represents a pending task or issue assignment. Work requests are made to individuals, and team requests are made to&nbsp;teams.

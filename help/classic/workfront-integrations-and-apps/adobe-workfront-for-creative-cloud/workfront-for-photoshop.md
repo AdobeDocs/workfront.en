@@ -1,5 +1,8 @@
-
-
+---
+title: Adobe Workfront for Photoshop
+description: Adobe Workfront for Photoshop
+draft: Probably
+---
 # Adobe Workfront for Photoshop
 
 >[!IMPORTANT]

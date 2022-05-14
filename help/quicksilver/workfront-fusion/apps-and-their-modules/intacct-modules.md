@@ -1,5 +1,8 @@
-
-
+---
+title: Intacct modules
+description: Intacct modules
+draft: Probably
+---
 # Intacct modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Intacct, as well as connect it to to multiple third-party applications and services.

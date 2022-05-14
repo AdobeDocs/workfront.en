@@ -1,5 +1,8 @@
-
-
+---
+title: Encryptor
+description: Encryptor
+draft: Probably
+---
 # Encryptor
 
 >[!IMPORTANT]

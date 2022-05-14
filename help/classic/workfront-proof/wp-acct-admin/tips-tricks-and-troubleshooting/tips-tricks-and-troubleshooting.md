@@ -1,5 +1,8 @@
-
-
+---
+title: Tips, tricks, and troubleshooting for Workfront Proof account administration
+description: Tips, tricks, and troubleshooting for Workfront Proof account administration
+draft: Probably
+---
 # Tips, tricks, and troubleshooting for Workfront Proof account administration
 
 >[!IMPORTANT]

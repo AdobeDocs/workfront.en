@@ -1,5 +1,8 @@
-
-
+---
+title: Export a report in Reporting Canvas
+description: Export a report in Reporting Canvas
+draft: Probably
+---
 # Export a report in Reporting Canvas
 
 You can export an entire report—or a specific block—into a file format to fit your needs. You can export to:

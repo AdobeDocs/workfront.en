@@ -1,5 +1,8 @@
-
-
+---
+title: ```Workfront Tools for AEM User Guide : Map Property```  {#title-heading}
+description: ```Workfront Tools for AEM User Guide : Map Property```  {#title-heading}
+draft: Probably
+---
 # ```Workfront Tools for AEM User Guide : Map Property```  {#title-heading}
 
 This workflow step will allow a user to map a property to a Adobe Workfront custom form on a project, task, issue, or document. The Workfront artifact this step affects will be looked up using a relative path from the payload. Which properties to map are controlled within the steps dialog configuration.

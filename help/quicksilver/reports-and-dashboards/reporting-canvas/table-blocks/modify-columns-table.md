@@ -1,5 +1,8 @@
-
-
+---
+title: Configure a table column in Reporting Canvas
+description: Configure a table column in Reporting Canvas
+draft: Probably
+---
 # Configure a table column in Reporting Canvas
 
 The columns in a table can be configured to display . You can modify the following aspects of a column:

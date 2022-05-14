@@ -1,5 +1,8 @@
-
-
+---
+title: 21.1 Mobile enhancements
+description: 21.1 Mobile enhancements
+draft: Probably
+---
 # 21.1 Mobile enhancements
 
 This page describes all Mobile enhancements coming with the 21.1 release. These enhancements will be made available in the mobile stores the week of February 15, 2021.

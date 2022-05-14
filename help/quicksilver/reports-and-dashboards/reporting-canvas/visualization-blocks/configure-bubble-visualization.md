@@ -1,5 +1,8 @@
-
-
+---
+title: Configure a bubble visualization in the Reporting Canvas
+description: Configure a bubble visualization in the Reporting Canvas
+draft: Probably
+---
 # Configure a bubble visualization in the Reporting Canvas
 
 A bubble visualization can help you quickly tell a story about your data by highlighting relationships between 3 or more numeric variables.

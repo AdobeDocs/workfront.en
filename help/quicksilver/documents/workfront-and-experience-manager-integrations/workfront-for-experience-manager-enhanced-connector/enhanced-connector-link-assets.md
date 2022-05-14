@@ -1,5 +1,8 @@
-
-
+---
+title: Link assets and folders from Experience Manager Assets
+description: Link assets and folders from Experience Manager Assets
+draft: Probably
+---
 # Link assets and folders from Experience Manager Assets
 
 You can link an asset or folder from Experience Manager Assets to any Workfront object that supports documents. Assets sent from Experience Manager Assets don't count towards your overall document storage in Workfront. Documents uploaded and sent from Workfront to Experience Manager Assets do count towards overall storage.

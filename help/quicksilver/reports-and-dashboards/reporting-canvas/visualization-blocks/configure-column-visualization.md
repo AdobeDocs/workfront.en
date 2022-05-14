@@ -1,5 +1,8 @@
-
-
+---
+title: Configure a column visualization in Reporting Canvas
+description: Configure a column visualization in Reporting Canvas
+draft: Probably
+---
 # Configure a column visualization in Reporting Canvas
 
 A column visualization can help you quickly tell a story about your data by highlighting important information using vertical columns.

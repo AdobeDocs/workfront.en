@@ -1,5 +1,8 @@
-
-
+---
+title: The new Adobe Workfront experience FAQ
+description: The new Adobe Workfront experience FAQ
+draft: Probably
+---
 # The new Adobe Workfront experience FAQ
 
 Following is a list of frequently asked questions regarding the new Adobe Workfront experience.

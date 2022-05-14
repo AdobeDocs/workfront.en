@@ -1,5 +1,8 @@
-
-
+---
+title: Add or edit a visualization block in Reporting Canvas
+description: Add or edit a visualization block in Reporting Canvas
+draft: Probably
+---
 # Add or edit a visualization block in Reporting Canvas
 
 A visualization can help you tell a story with your data by highlighting important information in an easy-to-understand way.

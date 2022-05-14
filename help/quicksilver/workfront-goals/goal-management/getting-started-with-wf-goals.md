@@ -1,5 +1,8 @@
-
-
+---
+title: Get started with Adobe Workfront Goals
+description: Get started with Adobe Workfront Goals
+draft: Probably
+---
 # Get started with Adobe Workfront Goals
 
 Your organization must have the following to use the functionality described in this article:

@@ -1,5 +1,8 @@
-
-
+---
+title: Adobe Workfront for Photoshop
+description: Adobe Workfront for Photoshop
+draft: Probably
+---
 # Adobe Workfront for Photoshop
 
 * [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md) 

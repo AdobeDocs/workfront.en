@@ -1,5 +1,8 @@
-
-
+---
+title: Update SAML 2.0 metadata in your IDP when using enhanced authentication
+description: Update SAML 2.0 metadata in your IDP when using enhanced authentication
+draft: Probably
+---
 # Update SAML 2.0 metadata in your IDP when using enhanced authentication
 
 >[!IMPORTANT]

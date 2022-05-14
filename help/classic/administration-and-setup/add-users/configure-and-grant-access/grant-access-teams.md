@@ -1,5 +1,8 @@
-
-
+---
+title: Grant access to teams
+description: Grant access to teams
+draft: Probably
+---
 # Grant access to teams
 
 >[!IMPORTANT]

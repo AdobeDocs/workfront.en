@@ -1,5 +1,8 @@
-
-
+---
+title: Grant access to Scenario Planner
+description: Grant access to Scenario Planner
+draft: Probably
+---
 # Grant access to Scenario Planner
 
 >[!IMPORTANT]

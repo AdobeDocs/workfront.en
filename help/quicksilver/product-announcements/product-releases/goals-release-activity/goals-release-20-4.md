@@ -1,5 +1,8 @@
-
-
+---
+title: Workfront Goals with the 20.4 release
+description: Workfront Goals with the 20.4 release
+draft: Probably
+---
 # Workfront Goals with the 20.4 release
 
 This page provides information about functionality for Workfront Goals in the new Adobe Workfront experience that is releasing to the Production environment with the 20.4 release.

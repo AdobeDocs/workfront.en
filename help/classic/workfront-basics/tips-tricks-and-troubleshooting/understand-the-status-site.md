@@ -1,5 +1,8 @@
-
-
+---
+title: The Adobe Workfront Status site
+description: The Adobe Workfront Status site
+draft: Probably
+---
 # The Adobe Workfront Status site
 
 ## Overview of the Status site

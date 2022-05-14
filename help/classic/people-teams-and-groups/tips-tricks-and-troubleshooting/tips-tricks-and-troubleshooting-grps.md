@@ -1,5 +1,8 @@
-
-
+---
+title: Tips, Tricks, and Troubleshooting for People, Teams, and Groups
+description: Tips, Tricks, and Troubleshooting for People, Teams, and Groups
+draft: Probably
+---
 # Tips, Tricks, and Troubleshooting for People, Teams, and Groups
 
 >[!IMPORTANT]

@@ -1,5 +1,8 @@
-
-
+---
+title: View and manage a group’s details
+description: View and manage a group’s details
+draft: Probably
+---
 # View and manage a group’s details
 
 You can view and edit the Group Details page for a group or subgroup that you manage. This page includes:

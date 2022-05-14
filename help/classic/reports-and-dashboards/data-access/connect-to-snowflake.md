@@ -1,5 +1,8 @@
-
-
+---
+title: Connect to Snowflake
+description: Connect to Snowflake
+draft: Probably
+---
 # Connect to Snowflake
 
 <!--

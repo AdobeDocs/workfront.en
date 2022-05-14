@@ -1,5 +1,8 @@
-
-
+---
+title: Tips, tricks, and troubleshooting for agile
+description: Tips, tricks, and troubleshooting for agile
+draft: Probably
+---
 # Tips, tricks, and troubleshooting for agile
 
 This section contains the following articles:

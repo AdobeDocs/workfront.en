@@ -1,5 +1,8 @@
-
-
+---
+title: Adobe PDF&nbsp;Services
+description: Adobe PDF&nbsp;Services
+draft: Probably
+---
 # Adobe PDF&nbsp;Services
 
 With the Adobe Workfront Fusion Adobe PDF Services, you can extract data from a PDF file, or generate a new PDF file from data you supply. In addition, you can convert a variety of file types to PDFs, or PDFs to other file types. PDF&nbsp;Services also allow you to combine, compress, or read metadata for a PDF&nbsp;file, as well as control password protection on the file.

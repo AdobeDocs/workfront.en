@@ -1,5 +1,8 @@
-
-
+---
+title: Get started with the Scenario Planner
+description: Get started with the Scenario Planner
+draft: Probably
+---
 # Get started with the Scenario Planner
 
 The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../scenario-planner/scenario-planner-overview.md).

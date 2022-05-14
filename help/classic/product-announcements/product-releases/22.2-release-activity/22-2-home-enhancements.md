@@ -1,5 +1,8 @@
-
-
+---
+title: 22.2 Home enhancements
+description: 22.2 Home enhancements
+draft: Probably
+---
 # 22.2 Home enhancements
 
 This page describes all Home enhancements made with the 22.2 release to the Preview environment. These enhancements will be made available in the Production environment 

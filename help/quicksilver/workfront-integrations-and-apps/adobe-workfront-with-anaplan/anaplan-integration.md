@@ -1,5 +1,8 @@
-
-
+---
+title: Adobe Workfront with Anaplan
+description: Adobe Workfront with Anaplan
+draft: Probably
+---
 # Adobe Workfront with Anaplan
 
 Adobe Workfront Fusion allows you to integrate Workfront with your Anaplan account. For example, you can create campaigns in Anaplan, then create a Workfront project or program linked to the campaign. Any costs tracked in Workfront can then be uploaded back to Anaplan to review campaign performance.

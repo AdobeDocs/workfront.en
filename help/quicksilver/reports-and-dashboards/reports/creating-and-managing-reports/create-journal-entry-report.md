@@ -1,5 +1,8 @@
-
-
+---
+title: Report on the Updates area
+description: Report on the Updates area
+draft: Probably
+---
 # Report on the Updates area
 
 The Journal Entry report surfaces system updates from the Updates area of projects, tasks, issues, and other objects that were previously only available through the Adobe Workfront API. While this is an advanced report intended for specific use cases, the more digestible format makes it easier for you to report on project activity and system updates within Workfront.

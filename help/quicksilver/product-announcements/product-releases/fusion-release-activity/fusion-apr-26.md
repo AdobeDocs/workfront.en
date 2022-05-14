@@ -1,5 +1,8 @@
-
-
+---
+title: Workfront Fusion release activity:&nbsp;Week of April 26, 2021
+description: Workfront Fusion release activity:&nbsp;Week of April 26, 2021
+draft: Probably
+---
 # Workfront Fusion release activity:&nbsp;Week of April 26, 2021
 
 This page describes all enhancements made in Adobe Workfront Fusion the week of April 26, 2021.

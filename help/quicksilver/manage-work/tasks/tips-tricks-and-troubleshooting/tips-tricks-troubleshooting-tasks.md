@@ -1,5 +1,8 @@
-
-
+---
+title: Tips, tricks, and troubleshooting for tasks
+description: Tips, tricks, and troubleshooting for tasks
+draft: Probably
+---
 # Tips, tricks, and troubleshooting for tasks
 
 This section contains the following articles:

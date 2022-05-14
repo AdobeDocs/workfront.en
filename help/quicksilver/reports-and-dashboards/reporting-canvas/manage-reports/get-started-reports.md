@@ -1,5 +1,8 @@
-
-
+---
+title: Get started with Reporting Canvas
+description: Get started with Reporting Canvas
+draft: Probably
+---
 # Get started with Reporting Canvas
 
 With the Reporting Canvas, you can create highly customizable reports. The easy-to-use report builder displays a dynamic preview of your data and auto-saves as you make changes. And the responsive report layouts provide a better viewing experience on different devices.

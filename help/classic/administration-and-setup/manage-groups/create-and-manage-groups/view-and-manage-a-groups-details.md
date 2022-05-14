@@ -1,5 +1,8 @@
-
-
+---
+title: View and manage a group’s details
+description: View and manage a group’s details
+draft: Probably
+---
 # View and manage a group’s details
 
 >[!IMPORTANT]

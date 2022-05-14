@@ -1,5 +1,8 @@
-
-
+---
+title: Share a portfolio
+description: Share a portfolio
+draft: Probably
+---
 # Share a portfolio
 
 Your Adobe Workfront administrator can grant you access to view or edit portfolios when assigning your access level. You must have a Plan license to have access to edit a portfolio. For more information, see [Grant access to portfolios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).

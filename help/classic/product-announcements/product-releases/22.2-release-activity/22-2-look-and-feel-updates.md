@@ -1,5 +1,8 @@
-
-
+---
+title: Look-and-feel updates during the 22.2 release timeframe
+description: Look-and-feel updates during the 22.2 release timeframe
+draft: Probably
+---
 # Look-and-feel updates during the 22.2 release timeframe
 
 This page describes minor updates to the look and feel of various areas of the Adobe Workfront application that were made within the 22.2 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview.

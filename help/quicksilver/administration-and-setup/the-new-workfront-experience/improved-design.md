@@ -1,5 +1,8 @@
-
-
+---
+title: Feature comparison of Workfront Classic and the new Adobe Workfront experience
+description: Feature comparison of Workfront Classic and the new Adobe Workfront experience
+draft: Probably
+---
 # Feature comparison of Workfront Classic and the new Adobe Workfront experience
 
 Adobe Workfront now has an updated design, providing a more intuitive experience to help your users do their best work.

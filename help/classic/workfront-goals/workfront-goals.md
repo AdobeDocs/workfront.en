@@ -1,5 +1,8 @@
-
-
+---
+title: Adobe Workfront Goals
+description: Adobe Workfront Goals
+draft: Probably
+---
 # Adobe Workfront Goals
 
 >[!IMPORTANT]

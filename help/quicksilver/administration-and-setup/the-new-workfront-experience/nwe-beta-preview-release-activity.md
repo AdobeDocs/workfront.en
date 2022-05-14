@@ -1,5 +1,8 @@
-
-
+---
+title: The new Adobe Workfront experience: Beta release activity
+description: The new Adobe Workfront experience: Beta release activity
+draft: Probably
+---
 # The new Adobe Workfront experience: Beta release activity
 
 The new Adobe Workfront experience provides a fresh, modern design in addition to new functionality.

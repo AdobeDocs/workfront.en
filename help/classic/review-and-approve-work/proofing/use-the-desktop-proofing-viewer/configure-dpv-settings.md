@@ -1,5 +1,8 @@
-
-
+---
+title: Configure Desktop Proofing Viewer settings
+description: Configure Desktop Proofing Viewer settings
+draft: Probably
+---
 # Configure Desktop Proofing Viewer settings
 
 >[!IMPORTANT]

@@ -1,5 +1,8 @@
-
-
+---
+title: Configure pie visualization in Reporting Canvas
+description: Configure pie visualization in Reporting Canvas
+draft: Probably
+---
 # Configure pie visualization in Reporting Canvas
 
 A pie visualization can help you quickly tell a story about your data by highlighting important information in a circular graphic with wedges that illustrate their relative proportions.

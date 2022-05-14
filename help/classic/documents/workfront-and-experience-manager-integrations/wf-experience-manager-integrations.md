@@ -1,5 +1,8 @@
-
-
+---
+title: Workfront and Experience Manager Assets Integrations
+description: Workfront and Experience Manager Assets Integrations
+draft: Probably
+---
 # Workfront and Experience Manager Assets Integrations
 
 >[!IMPORTANT]

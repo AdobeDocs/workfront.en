@@ -1,5 +1,8 @@
-
-
+---
+title: Set up reminder notifications
+description: Set up reminder notifications
+draft: Probably
+---
 # Set up reminder notifications
 
 Reminder notifications send emails to recipients based on specified criteria. As an Adobe Workfront administrator or a user with a Planner access level and administrative access to reminder notifications, you can manually associate reminder notifications with your work items, such as projects, tasks, issues, and timesheets. 

@@ -1,5 +1,8 @@
-
-
+---
+title: Get started with the Scenario Planner
+description: Get started with the Scenario Planner
+draft: Probably
+---
 # Get started with the Scenario Planner
 
 >[!IMPORTANT]

@@ -54,6 +54,6 @@ In order to create proofs from pages that require authorization, your IT team mu
 * Workfront Proof captures web pages up to 195&nbsp;inches long after rasterizing. If the web page is longer than this,&nbsp;the proof fails.
 * Text extraction is available&nbsp;on all the text elements, but text placed as images is not extracted.
 * Text hyperlinks are clickable on the proofs,&nbsp;and the&nbsp;linked pages open in the new browser tabs.
-* Hyperlinks on the images are&nbsp;not be clickable if the&nbsp;style="display:block" elements are used inside the <a> tags.&nbsp;We recommend adjusting these parts of the page design.
+* Hyperlinks on the images are&nbsp;not be clickable if the&nbsp;style="display:block" elements are used inside the `<a>` tags. We recommend adjusting these parts of the page design.
 * For best results we recommend to creating the pages using the best coding practices and acknowledged standards.
 

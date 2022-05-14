@@ -1,5 +1,8 @@
-
-
+---
+title: Build a report in Reporting Canvas
+description: Build a report in Reporting Canvas
+draft: Probably
+---
 # Build a report in Reporting Canvas
 
 You can build a report by dragging unique blocks onto the canvas that represent your data in meaningful ways.

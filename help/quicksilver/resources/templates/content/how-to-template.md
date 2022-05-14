@@ -1,5 +1,8 @@
-
-
+---
+title: [Task title]
+description: [Task title]
+draft: Probably
+---
 # [Task title]
 
 [Introduction]

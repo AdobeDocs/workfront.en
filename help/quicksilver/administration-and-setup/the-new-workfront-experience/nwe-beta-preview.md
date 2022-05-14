@@ -1,5 +1,8 @@
-
-
+---
+title: The new Adobe Workfront experience Beta Preview
+description: The new Adobe Workfront experience Beta Preview
+draft: Probably
+---
 # The new Adobe Workfront experience Beta Preview
 
 The new Adobe Workfront experience provides a fresh, modern design in addition to new functionality. This page describes changes that were made available in the Preview environment from July 18, 2019 through September 12, 2019.

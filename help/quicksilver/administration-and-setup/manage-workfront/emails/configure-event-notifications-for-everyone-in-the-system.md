@@ -1,5 +1,8 @@
-
-
+---
+title: Configure event notifications for everyone in the system
+description: Configure event notifications for everyone in the system
+draft: Probably
+---
 # Configure event notifications for everyone in the system
 
 <!--

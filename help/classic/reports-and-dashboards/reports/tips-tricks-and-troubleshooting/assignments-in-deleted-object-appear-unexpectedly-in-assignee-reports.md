@@ -1,5 +1,8 @@
-
-
+---
+title: Assignments in a deleted object appear unexpectedly in assignee reports
+description: Assignments in a deleted object appear unexpectedly in assignee reports
+draft: Probably
+---
 # Assignments in a deleted object appear unexpectedly in assignee reports
 
 >[!IMPORTANT]

@@ -1,5 +1,8 @@
-
-
+---
+title: Remove items from a folder in Workfront Library
+description: Remove items from a folder in Workfront Library
+draft: Probably
+---
 # Remove items from a folder in Workfront Library
 
 >[!IMPORTANT]

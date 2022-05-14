@@ -1,5 +1,8 @@
-
-
+---
+title: 22.2 Mobile enhancements
+description: 22.2 Mobile enhancements
+draft: Probably
+---
 # 22.2 Mobile enhancements
 
 This page describes all Mobile enhancements made with the 22.2 release to the Preview environment. These enhancements will be made available in the Production environment 

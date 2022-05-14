@@ -1,5 +1,8 @@
-
-
+---
+title: View all reports that use a particular custom field or widget
+description: View all reports that use a particular custom field or widget
+draft: Probably
+---
 # View all reports that use a particular custom field or widget
 
 You can add a custom view in the Custom Forms area that shows which reports are using a particular custom field or widget. This is useful when you need to edit or delete the field or widget, because it might already be implemented in one or more reports. It’s important to assess whether those reports will need adjustments in order to keep working properly.

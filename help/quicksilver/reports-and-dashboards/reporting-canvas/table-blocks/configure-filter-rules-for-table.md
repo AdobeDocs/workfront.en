@@ -1,5 +1,8 @@
-
-
+---
+title: Filter a table in Reporting Canvas
+description: Filter a table in Reporting Canvas
+draft: Probably
+---
 # Filter a table in Reporting Canvas
 
 After you add a table block to a report, you can set up filters to limit the information that displays in the table.

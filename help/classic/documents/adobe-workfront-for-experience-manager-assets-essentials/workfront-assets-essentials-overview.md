@@ -1,5 +1,8 @@
-
-
+---
+title: Adobe Workfront for Experience Manager Assets Essentials overview
+description: Adobe Workfront for Experience Manager Assets Essentials overview
+draft: Probably
+---
 # Adobe Workfront for Experience Manager Assets Essentials overview
 
 Adobe Workfront for Experience Manager Assets Essentials is

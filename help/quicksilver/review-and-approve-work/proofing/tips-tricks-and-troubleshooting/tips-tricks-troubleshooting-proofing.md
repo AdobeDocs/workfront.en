@@ -1,5 +1,8 @@
-
-
+---
+title: Tips, tricks, and troubleshooting for Proofing within Adobe Workfront
+description: Tips, tricks, and troubleshooting for Proofing within Adobe Workfront
+draft: Probably
+---
 # Tips, tricks, and troubleshooting for Proofing within Adobe Workfront
 
 This section contains the following articles:

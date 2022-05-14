@@ -1,5 +1,8 @@
-
-
+---
+title: Link documents between Quip and Adobe Workfront
+description: Link documents between Quip and Adobe Workfront
+draft: Probably
+---
 # Link documents between Quip and Adobe Workfront
 
 <!--

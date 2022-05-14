@@ -1,5 +1,8 @@
-
-
+---
+title: Workfront Fusion release activity:&nbsp;Week of May 2, 2022
+description: Workfront Fusion release activity:&nbsp;Week of May 2, 2022
+draft: Probably
+---
 # Workfront Fusion release activity:&nbsp;Week of May 2, 2022
 
 This page describes all enhancements made in Adobe Workfront Fusion the week of May 2, 2022.

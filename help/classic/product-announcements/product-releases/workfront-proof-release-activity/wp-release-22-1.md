@@ -1,5 +1,8 @@
-
-
+---
+title: Workfront Proof release activity:&nbsp;Week of November 29, 2021
+description: Workfront Proof release activity:&nbsp;Week of November 29, 2021
+draft: Probably
+---
 # Workfront Proof release activity:&nbsp;Week of November 29, 2021
 
 This page describes changes made to the Workfront Proof (stand-alone proofing application). Changes described here are not applicable to the proofing functionality within the Adobe Workfront application.

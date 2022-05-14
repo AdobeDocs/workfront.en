@@ -1,5 +1,8 @@
-
-
+---
+title: Widen modules
+description: Widen modules
+draft: Probably
+---
 # Widen modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Widen, as well as connect it to to multiple third-party applications and services.

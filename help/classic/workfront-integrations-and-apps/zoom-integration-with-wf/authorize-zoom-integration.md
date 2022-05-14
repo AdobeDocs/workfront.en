@@ -1,5 +1,8 @@
-
-
+---
+title: Authorize the Zoom integration
+description: Authorize the Zoom integration
+draft: Probably
+---
 # Authorize the Zoom integration
 
 >[!IMPORTANT]

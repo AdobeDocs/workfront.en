@@ -1,5 +1,8 @@
-
-
+---
+title: Send a report in Reporting Canvas
+description: Send a report in Reporting Canvas
+draft: Probably
+---
 # Send a report in Reporting Canvas
 
 You have the following options for sending an Adobe Workfront report:

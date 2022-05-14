@@ -1,5 +1,8 @@
-
-
+---
+title: Projects FAQs
+description: Projects FAQs
+draft: Probably
+---
 # Projects FAQs
 
 >[!IMPORTANT]

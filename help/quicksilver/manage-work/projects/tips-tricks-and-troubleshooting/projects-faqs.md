@@ -1,5 +1,8 @@
-
-
+---
+title: Projects FAQs
+description: Projects FAQs
+draft: Probably
+---
 # Projects FAQs
 
 The following are frequently asked questions about projects.

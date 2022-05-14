@@ -1,5 +1,8 @@
-
-
+---
+title: Grant users administrative access to certain areas
+description: Grant users administrative access to certain areas
+draft: Probably
+---
 # Grant users administrative access to certain areas
 
 >[!IMPORTANT]

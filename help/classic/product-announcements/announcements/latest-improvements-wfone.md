@@ -1,5 +1,8 @@
-
-
+---
+title: Learn about the latest improvements in Adobe Workfront One
+description: Learn about the latest improvements in Adobe Workfront One
+draft: Probably
+---
 # Learn about the latest improvements in Adobe Workfront One
 
 <!--

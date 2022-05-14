@@ -1,5 +1,8 @@
-
-
+---
+title: Configurable access to functionality for each object type
+description: Configurable access to functionality for each object type
+draft: Probably
+---
 # Configurable access to functionality for each object type
 
 >[!IMPORTANT]

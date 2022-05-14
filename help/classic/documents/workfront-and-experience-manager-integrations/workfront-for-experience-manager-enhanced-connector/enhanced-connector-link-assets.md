@@ -1,5 +1,8 @@
-
-
+---
+title: Link assets and folders from Experience Manager Assets
+description: Link assets and folders from Experience Manager Assets
+draft: Probably
+---
 # Link assets and folders from Experience Manager Assets
 
 >[!IMPORTANT]

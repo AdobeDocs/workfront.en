@@ -1,5 +1,8 @@
-
-
+---
+title: Tips, tricks, and troubleshooting for projects
+description: Tips, tricks, and troubleshooting for projects
+draft: Probably
+---
 # Tips, tricks, and troubleshooting for projects
 
 This section contains the following articles:

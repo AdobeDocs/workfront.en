@@ -1,5 +1,8 @@
-
-
+---
+title: Grant a user full administrative access
+description: Grant a user full administrative access
+draft: Probably
+---
 # Grant a user full administrative access
 
 >[!IMPORTANT]

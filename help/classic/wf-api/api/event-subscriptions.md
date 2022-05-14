@@ -1,5 +1,8 @@
-
-
+---
+title: Event Subscriptions
+description: Event Subscriptions
+draft: Probably
+---
 # Event Subscriptions
 
 >[!IMPORTANT]

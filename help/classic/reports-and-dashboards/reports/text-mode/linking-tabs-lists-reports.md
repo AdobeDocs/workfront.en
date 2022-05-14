@@ -1,5 +1,8 @@
-
-
+---
+title: Link tabs from lists and reports
+description: Link tabs from lists and reports
+draft: Probably
+---
 # Link tabs from lists and reports
 
 >[!IMPORTANT]

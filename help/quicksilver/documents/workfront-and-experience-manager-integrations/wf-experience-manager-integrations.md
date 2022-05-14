@@ -1,5 +1,8 @@
-
-
+---
+title: Workfront and Experience Manager Assets Integrations
+description: Workfront and Experience Manager Assets Integrations
+draft: Probably
+---
 # Workfront and Experience Manager Assets Integrations
 
 * [Workfront for Experience Manager enhanced connector](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md) 

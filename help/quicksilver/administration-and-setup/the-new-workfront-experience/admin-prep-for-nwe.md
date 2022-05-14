@@ -1,5 +1,8 @@
-
-
+---
+title: Prepare to move your organization to the new Adobe Workfront experience
+description: Prepare to move your organization to the new Adobe Workfront experience
+draft: Probably
+---
 # Prepare to move your organization to the new Adobe Workfront experience
 
 As of March 31, 2022, Workfront will no longer support Adobe Workfront Classic. Because of this, you need to ensure that your organization is ready to move to the new Adobe Workfront experience. Your organization is unique, and it is difficult to predict how your network configuration and usage of Workfront will affect tthe new Adobe Workfront experience. To ensure a smooth transition, we highly recommend the following schedule:

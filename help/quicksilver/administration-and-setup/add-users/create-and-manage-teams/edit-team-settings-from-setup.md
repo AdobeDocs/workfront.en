@@ -1,5 +1,8 @@
-
-
+---
+title: Edit a team’s settings from the Setup area
+description: Edit a team’s settings from the Setup area
+draft: Probably
+---
 # Edit a team’s settings from the Setup area
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.

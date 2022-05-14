@@ -1,5 +1,8 @@
-
-
+---
+title: Replacement of Flash-based tools in Adobe Workfront
+description: Replacement of Flash-based tools in Adobe Workfront
+draft: Probably
+---
 # Replacement of Flash-based tools in Adobe Workfront
 
 We have removed all Flash-based tools from Adobe Workfront Classic.

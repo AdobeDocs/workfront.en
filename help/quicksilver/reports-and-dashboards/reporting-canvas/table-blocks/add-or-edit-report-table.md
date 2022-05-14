@@ -1,5 +1,8 @@
-
-
+---
+title: Add or edit a table block in Reporting Canvas
+description: Add or edit a table block in Reporting Canvas
+draft: Probably
+---
 # Add or edit a table block in Reporting Canvas
 
 A table displays field information in columns that can be filtered, grouped, and sorted.

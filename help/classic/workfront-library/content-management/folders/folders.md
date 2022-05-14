@@ -1,5 +1,8 @@
-
-
+---
+title: Folders in Workfront Library
+description: Folders in Workfront Library
+draft: Probably
+---
 # Folders in Workfront Library
 
 >[!IMPORTANT]

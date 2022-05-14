@@ -1,5 +1,8 @@
-
-
+---
+title: Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps
+description: Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps
+draft: Probably
+---
 # Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps
 
 >[!IMPORTANT]

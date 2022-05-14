@@ -1,5 +1,8 @@
-
-
+---
+title: View a report in Reporting Canvas
+description: View a report in Reporting Canvas
+draft: Probably
+---
 # View a report in Reporting Canvas
 
 The Reporting Canvas allows you more control over what displays when you view a report. For example, you can display it based on specific teams, date ranges, and other criteria. 

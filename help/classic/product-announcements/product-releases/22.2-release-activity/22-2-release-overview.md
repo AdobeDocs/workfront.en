@@ -1,5 +1,8 @@
-
-
+---
+title: 22.2 Release overview
+description: 22.2 Release overview
+draft: Probably
+---
 # 22.2 Release overview
 
 This page provides information about functionality that is included in the 22.2 release. All features listed are available in the new Adobe Workfront experience. Some features are also available in Adobe Workfront Classic; however, [Workfront Classic will be discontinued in March 2022](https://one.workfront.com/s/new-workfront-experience), followed shortly by the end-of-life date for Workfront Classic in July 2022.

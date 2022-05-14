@@ -1,5 +1,8 @@
-
-
+---
+title: Configure a line visualization in Reporting Canvas
+description: Configure a line visualization in Reporting Canvas
+draft: Probably
+---
 # Configure a line visualization in Reporting Canvas
 
 A line visualization can help you quickly tell a story about your data by enhancing the narrative and highlighting important information using a series of data horizontal points with a continuous line.

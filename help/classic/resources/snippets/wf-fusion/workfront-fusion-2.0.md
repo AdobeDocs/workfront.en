@@ -1,5 +1,8 @@
-
-
+---
+title: Workfront Fusion 2.0
+description: Workfront Fusion 2.0
+draft: Probably
+---
 # Workfront Fusion 2.0
 
 * [Get started with Adobe Workfront Fusion](../../../workfront-fusion/get-started/get-started.md) 
