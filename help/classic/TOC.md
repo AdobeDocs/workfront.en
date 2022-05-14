@@ -249,9 +249,9 @@ user-guide: null
     * [Reporting Canvas beta](product-announcements/betas/reporting-canvas-beta.md)
     * [Reporting Canvas beta: known issues](product-announcements/betas/reporting-canvas-known-issues.md)
 * Adminstration and setup {#administration-and-setup}
-  * [Administration and setup - Contents](administration-and-setup/administration-and-setup.md)
-  * Get started with Adobe Workfront administration {#get-started-with-wf-administration}
-    * [Get started with Adobe Workfront administration - Contents](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
+  * [Administration and setup](administration-and-setup/administration-and-setup.md)
+  * Get started with Adobe Workfront administration {#get-started}
+    * [Get started with Adobe Workfront administration ](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
     * [Defining objectives for your Adobe Workfront implementation](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
     * [Manage available licenses in your system](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
     * [Configure basic information for your system](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
@@ -261,10 +261,10 @@ user-guide: null
     * [Send announcements](administration-and-setup/get-started-wf-administration/view-send-announcements.md)
     * [Browser requirements for Workfront](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
     * [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-  * Set up Adobe Workfront {#set-up-workfront}
-    * [Set up Adobe Workfront - Contents](administration-and-setup/set-up-workfront/set-up-workfront.md)
+  * Set up Adobe Workfront {#set-up}
+    * [Set up Adobe Workfront](administration-and-setup/set-up-workfront/set-up-workfront.md)
     * Configure system defaults {#configure-system-defaults}
-      * [Configure system defaults - Contents](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
+      * [Configure system defaults](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
       * [Configure system-wide project preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
       * [Configure system-wide task and issue preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
       * [Lock or unlock project preferences for all groups in the system](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
@@ -278,8 +278,8 @@ user-guide: null
       * [Create a scorecard](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
       * [Configure timeline recalculations for projects](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
       * [Enable custom quarters for projects](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
-    * Configure timesheets and schedules {#configure-timesheets-and-schedules}
-      * [Configure timesheets and schedules - Contents](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
+    * Configure timesheets and schedules {#configure-timesheets-schedules}
+      * [Configure timesheets and schedules](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
       * [Schedules overview](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
       * [Configure users to log time in hours or days](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-users-log-time-in-hrs-or-days.md)
       * [Configure timesheet and hour preferences](administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
@@ -296,8 +296,8 @@ user-guide: null
       * [Delete job roles](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
       * [Deactivate job roles](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
       * [Override job role billing rates at the company level](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
-    * System-tracked updates feeds {#system-tracked-updates-feeds}
-      * [System-tracked updates feeds - Content](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
+    * System-tracked updates feeds {#system-tracked-updates}
+      * [System-tracked updates feeds](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
       * [System-tracked updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
       * [Configure system updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
     * Adobe Workfront testing environments {#wf-testing-environments}
@@ -305,7 +305,7 @@ user-guide: null
       * [The Adobe Workfront Preview Sandbox Environment](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
       * [The Adobe Workfront Custom Refresh Sandbox environment](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
   Add users {#add-users}
-    * [Add users - Contents](administration-and-setup/add-users/add-users.md)
+    * [Add users](administration-and-setup/add-users/add-users.md)
     Create and manage users {#create-and-manage-users}
       * [Create and manage users - Content](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
       * [Add users](administration-and-setup/add-users/create-and-manage-users/add-users.md)
@@ -326,7 +326,7 @@ user-guide: null
       * [View user login information](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Manage users in the Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
     * How access levels work {#access-levels}
-      * [How access levels work - Contents](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+      * [How access levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
       * [Access levels overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
       * [Adobe Workfront licenses overview](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
       * [How access levels and permissions work together](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
@@ -336,7 +336,7 @@ user-guide: null
       * [Built-in access levels in Adobe Workfront](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
       * [List your users’ access levels and licenses](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
     * Configure access to Adobe Workfront {#configure-access}
-      * [Configure access to Adobe Workfront - Contents](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
+      * [Configure access to Adobe Workfront](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
       * [Create or modify custom access levels](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
       * [Grant a user full administrative access](administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
       * [Grant users administrative access to certain areas](administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
@@ -367,26 +367,26 @@ user-guide: null
       * [Configure Adobe Workfront with SAML 1.1](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-1.1.md)
       * [Configure Adobe Workfront with Azure Active Directory](administration-and-setup/add-users/single-sign-on/configure-workfront-azure-ad.md)
       * [Deactivate single sign-on in Adobe Workfront](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-    * Create and manage teams {#create-and-manage-teams}
-      * [Create and manage teams - Contents](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
+    * Create and manage teams {#create-manage-teams}
+      * [Create and manage teams](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
       * [Create a team from the Setup area](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
       * [Edit a team’s settings from the Setup area](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
-  * Opt in to the new Adobe Workfront experienc {#opt-in-to-the-new-workfront-experience}
-    * [Opt in to the new Adobe Workfront experience - Contents](administration-and-setup/the-new-workfront-experience/opt-in-to-the-new-workfront-experience.md)
+  * Opt in to the new Adobe Workfront experienc {#opt-in-nwe}
+    * [Opt in to the new Adobe Workfront experiences](administration-and-setup/the-new-workfront-experience/opt-in-to-the-new-workfront-experience.md)
     * [Prepare to move your organization to the new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/admin-prep-for-nwe.md)
   * Customize Adobe Workfront {#customize-workfront}
-    * [Customize Adobe Workfront - Contents](administration-and-setup/customize-workfront/customize-workfront.md)
+    * [Customize Adobe Workfront](administration-and-setup/customize-workfront/customize-workfront.md)
     * Custom branding in Adobe Workfront {#brand-workfront}
-      * [Custom branding in Adobe Workfront - Contents](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
+      * [Custom branding in Adobe Workfront](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
       * [Brand your Adobe Workfront instance](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
       * [Configure a custom help URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
-    * Layout templates {#use-layout-templates-customize-ui}
-      * [Layout templates - Contents](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
+    * Layout templates {#layout-templates}
+      * [Layout templates](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
       * [About the default Adobe Workfront layout](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
       * [Create and manage layout templates](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
       * [Migrate your layout templates to the new Adobe Workfront experience](administration-and-setup/customize-workfront/use-layout-templates/migrate-layout-templates-to-nwe.md)
-    * Custom forms {#create-and-manage-custom-forms}
-      * [Custom forms - Content](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+    * Custom forms {#create-manage-custom-forms}
+      * [Custom forms](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
       * [Custom forms overview](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
       * [Create or edit a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
       * [Copy a custom form to create a new one](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
@@ -409,8 +409,8 @@ user-guide: null
       * [Edit properties of a custom field, section break, or widget in a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
       * [Delete a custom field or widget from the system](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
       * [Rich text field storage in the API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
-    * Statuses and priority labels {#create-custom-status-and-priority-labels} 
-      * [Statuses and priority labels - Contents](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
+    * Statuses and priority labels {#create-status-priority-labels} 
+      * [Statuses and priority labels](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
       * [Statuses overview](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
       * [Access the list of system project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
       * [System project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
@@ -424,15 +424,15 @@ user-guide: null
       * [Delete a custom status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
       * [Create and customize priorities](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md)
       * [Create or customize issue severities](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
-    * Approval processes and milestone paths {#config-approval-milestone-paths}
-      * [Approval processes and milestone paths - Contents](administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
+    * Approval processes and milestone paths {#approval-milestone-paths}
+      * [Approval processes and milestone paths](administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
       * [Create an approval process for work items](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
       * [Edit an approval process](administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)
       * [Configure global approval settings](administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
       * [How group and approval process changes affect assigned approval processes](administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
       * [Create a milestone path](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
     * Custom conditions {#custom-conditions}
-      * [Custom conditions - Contents](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
+      * [Custom conditions](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
       * [Create or edit a custom condition](administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
       * [Change the display order of conditions](administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
       * [Set a custom condition as the default for projects](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
@@ -440,8 +440,8 @@ user-guide: null
       * [Delete a custom condition](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * Manage Adobe Workfront {#manage-workfront}
     * [Manage Adobe Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
-    * Configure proofing functionality {#configuring-proofing-functionality}
-      * [Configure proofing functionality - Contents](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
+    * Configure proofing functionality {#configuring-proofing}
+      * [Configure proofing functionality](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [Configure proof settings for your organization](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
       * [User synchronization between Adobe Workfront and Workfront Proof](administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
       * [Access to proofing functionality in Workfront](administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
@@ -456,7 +456,7 @@ user-guide: null
       * [Hide built-in reports](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
       * [Edit list controls: filters, views, and groupings](administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md)
     * Emails {#emails}
-      * [Emails - Contents](administration-and-setup/manage-workfront/emails/emails.md)
+      * [Emails](administration-and-setup/manage-workfront/emails/emails.md)
       * [Email Notifications page](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
       * [Configure event notifications for everyone in the system](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
       * [Event notifications available in Adobe Workfront](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
@@ -469,7 +469,7 @@ user-guide: null
       * [Allowing emails from the Adobe Workfront application](administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
       * [Manage email invitations to new users](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
     * Security {#security}
-      * [Security - Contents](administration-and-setup/manage-workfront/security/security.md)
+      * [Security](administration-and-setup/manage-workfront/security/security.md)
       * [Configure system security preferences](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
       * [Enhanced Authentication overview](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
       * [Enhanced Authentication 1.0](administration-and-setup/manage-workfront/security/enhanced-authentication-1.0.md)
@@ -484,19 +484,19 @@ user-guide: null
       * [Set up Azure Active Directory with Enhanced Authentication](administration-and-setup/manage-workfront/security/set-up-azure-active-directory-enhanced-authentication.md)
       * [Adobe Workfront Privacy Policy](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
     * Exchange rates {#exchange-rates}
-      * [Exchange rates - Contents](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
+      * [Exchange rates](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [Set up exchange rates](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
     * Manage delete items {#deleted-items}
-      * [Manage deleted items - Contents](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
+      * [Manage deleted items](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
       * [Restore deleted items](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
       * [View restored item](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
       * [Configure affect on hours when an object is deleted and restored](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
       * [Restoring individual child objects](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
     * Diagnostics {#diagnostics}
-      * [Diagnostics - Contents](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
+      * [Diagnostics](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
       * [Use Diagnostics to trigger automated processes](administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)
     * Kick-starts {#kick-starts}
-      * [Kick-Starts - Contents](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
+      * [Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
       * [Export data from Adobe Workfront via Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
       * [Import data into Adobe Workfront using a Kick-Start template](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
       * [Kick-Starts data importer](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)
@@ -504,14 +504,14 @@ user-guide: null
       * [Kick-Starts scenario: simple project and task import preparation](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
       * [Frequently asked questions about Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)
   * Manage groups {#manage-groups}
-    * [Manage groups - Contents](administration-and-setup/manage-groups/manage-groups.md)
-    * Groups overview {#manage-groups}
-      * [Groups overview - Contents](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+    * [Manage groups](administration-and-setup/manage-groups/manage-groups.md)
+    * Groups overview {#groups-overview}
+      * [Groups overview](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
       * [Groups overview](administration-and-setup/manage-groups/groups-overview/groups.md)
       * [Subgroups overview](administration-and-setup/manage-groups/groups-overview/subgroups.md)
       * [Home Groups overview](administration-and-setup/manage-groups/groups-overview/home-groups.md)
-    * Create and manage groups {#create-and-manage-groups}
-      * [Create and manage groups - Contents](administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
+    * Create and manage groups {#create-manage-groups}
+      * [Create and manage groups](administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
       * [Create a group](administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
       * [Manage a group](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
       * [Actions allowed for different types of administrators](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
@@ -528,17 +528,17 @@ user-guide: null
       * [Delete a group](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
       * [Export a list of groups](administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)
       * [Actions allowed for different types of administrators](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
-    * Create and manage subgroups {#create-and-manage-subgroups}
-      * [Create and manage subgroups - Contents](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
+    * Create and manage subgroups {#create-manage-subgroups}
+      * [Create and manage subgroups](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
       * [Create a subgroup](administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
       * [Manage a subgroup](administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
     * Group roles {#group-roles}
-      * [Group roles - Contents](administration-and-setup/manage-groups/group-roles/group-roles.md)
+      * [Group roles](administration-and-setup/manage-groups/group-roles/group-roles.md)
       * [Group administrators](administration-and-setup/manage-groups/group-roles/group-administrators.md)
       * [Assign a user as a group administrator](administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
       * [Business Leader overview](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
     * Manage group statuses {#manage-group-statuses}
-      * [Manage group statuses - Contents](administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
+      * [Manage group statuses](administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
       * [Create or edit a group status](administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
       * [Reorder group statuses](administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md)
       * [Use a custom status as a default status for a group](administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md)
@@ -548,7 +548,7 @@ user-guide: null
       * [Custom statuses in a group that is moved or deleted](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
       * [Custom statuses on a task or issue that is moved or copied](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
   * Configure integrations {#workfront-integrations}
-    * [Configure integrations - Contents](administration-and-setup/configure-integrations/workfront-integrations.md)
+    * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations.md)
     * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations-1.md)
     * [Slack app for Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-fusion-slack-app.md)
     * [Configure Workfront with Adobe Experience Manager legacy connector](administration-and-setup/configure-integrations/configure-workfront-aem.md)
@@ -563,11 +563,10 @@ user-guide: null
     * [Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-workfront-fusion.md)
     * [Legacy Workfront Fusion service outages](administration-and-setup/configure-integrations/legacy-fusion-service-outages.md)
   * Administrator FAQs {#adminstrator-faqs}
-    * [Administrator FAQs - Contents](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
+    * [Administrator FAQs](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
     * [AtTask OnPremise support policy](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
-  * Workfront administration in the Adobe Admin Console {#wf-admin-in-admin-console}
   * Tips, tricks, and troubleshooting for administration and setup {#ttt-admin-setup}
-    * [Tips, tricks, and troubleshooting for administration and setup - Contents](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
+    * [Tips, tricks, and troubleshooting for administration and setup](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [Active and deactivated objects](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
     * [ADFS logout URL doesn't work](administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
     * [Administration and setup FAQs](administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md)
@@ -603,7 +602,7 @@ user-guide: null
       * [Adobe Workfront Search](workfront-basics/navigate-workfront/search/search.md)
       * [Search Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)
       * [Use the reference number of objects](workfront-basics/navigate-workfront/search/reference-number-of-objects.md)
-    *Recents and favorites in Adobe Workfront {#recents-and-favorites}
+    * Recents and favorites in Adobe Workfront {#recents-and-favorites}
       * [Recents and favorites in Adobe Workfront](workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
       * [View and manage favorites](workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)
       * [View recent items](workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md)
