@@ -22,5 +22,5 @@ This section contains the following articles:
 * [Create a request in Workfront Library](../../../workfront-library/content-management/basics/create-a-request-in-wf-library.md) 
 * [View Workfront Library work requests](../../../workfront-library/content-management/basics/view-work-requests-in-library.md) 
 * [Open a Workfront Library portal](../../../workfront-library/content-management/basics/open-a-portal.md) 
-* [Remove an asset from a folder](../../../workfront-library/content-management/basics/remove-asset-from-folder.md)
+<!--* [Remove an asset from a folder](../../../workfront-library/content-management/basics/remove-asset-from-folder.md)-->
 

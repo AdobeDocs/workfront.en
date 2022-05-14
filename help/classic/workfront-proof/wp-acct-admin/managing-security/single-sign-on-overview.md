@@ -28,7 +28,7 @@ This means that you will authenticate against your own log in system, not agains
 
 You must have a custom sub-domains or domains set up on your Workfront Proof account to enable SAML:
 
-* Custom sub-domains are free to set up. See our [Configure a branded domain in Workfront Proof](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md)&nbsp;for more information.
+<!--* Custom sub-domains are free to set up. See our [Configure a branded domain in Workfront Proof](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md)&nbsp;for more information.-->
 * You can read more about fully customized domains in&nbsp; [Brand the Workfront Proof site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 See [Configure Single Sign-On for Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)&nbsp;for information about setting up SSO on your account.
