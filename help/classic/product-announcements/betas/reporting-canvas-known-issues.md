@@ -1,6 +1,6 @@
 ---
-title: Reporting Canvas beta: known issues
-description: Reporting Canvas beta: known issues
+title: "Reporting Canvas beta: known issues"
+description: "Reporting Canvas beta: known issues"
 draft: Probably
 ---
 # Reporting Canvas beta: known issues

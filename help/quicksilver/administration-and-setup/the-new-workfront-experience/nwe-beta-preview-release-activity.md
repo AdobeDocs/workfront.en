@@ -1,6 +1,6 @@
 ---
-title: The new Adobe Workfront experience: Beta release activity
-description: The new Adobe Workfront experience: Beta release activity
+title: "The new Adobe Workfront experience: Beta release activity"
+description: "The new Adobe Workfront experience: Beta release activity"
 draft: Probably
 ---
 # The new Adobe Workfront experience: Beta release activity
