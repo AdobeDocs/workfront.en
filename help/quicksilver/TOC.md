@@ -642,7 +642,7 @@ user-guide-description: Workfront
   * Administrator FAQs {#admin-faq}
     * [Administrator FAQs](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
     * [AtTask OnPremise support policy](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
-  * Tips, tricks, and troubleshooting for administration and setup {#ttt-admin-setup}
+  * Tips, tricks, and troubleshooting for administration and setup {#admin-setup-tips}
     * [Tips, tricks, and troubleshooting for administration and setup](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [Active and deactivated objects](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
     * [ADFS logout URL doesn't work](administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
@@ -1474,14 +1474,6 @@ user-guide-description: Workfront
       * [Edit a view using text mode](reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
       * [Edit a filter using text mode](reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
       * [Edit text mode in a grouping](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
-      * [Calculated custom data in reports](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
-        * [Calculated data expressions](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
-        * [Calculated custom fields vs. calculated columns](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
-        * [Condition operators in calculated custom expressions](reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
-        * ["IF" statements overview](reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
-        * [Calculated custom field example: display the manager of an issue's creator on the issue custom form](reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
-        * [Calculated custom field example: display a Status timestamp in a Custom Form](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
-        * [Calculated custom field example: display a field's edit history](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
       * [Use conditional formatting in Text Mode](reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
       * [Format dates in text mode reports](reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
       * [Format numbers, currency and percentage values in text mode reports](reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
@@ -2246,7 +2238,6 @@ user-guide-description: Workfront
       * [Generate Proofs in Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
       * [Copying Proofs in Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)
       * [The Dropzone](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)
-      * [Create a multi-page proof](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
     * Manage your work {#manage-your-work}
       * [Manage your work](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
       * [Manage Files in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
@@ -2273,7 +2264,7 @@ user-guide-description: Workfront
       * [Archive in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
       * [Back Up Your Workfront Proof Data](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
       * [Print and Export Comments in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
-    * Review proofs in the Desktop Proofing Viewer
+    * Review proofs in the Desktop Proofing Viewer {#review-proofs-in-viewer}
       * [Review proofs in the Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
       * [Understand the Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
       * [Configure how hyperlinks open in the Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/configure-how-hyperlinks-open.md)
@@ -2342,7 +2333,8 @@ user-guide-description: Workfront
       * [FAQ: Workfront Proof - US to EMEA migration](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
   * Workfront Proof Billing Settings {#wf-proof-billing-settings}
     * [Workfront Proof Billing Settings](workfront-proof/wp-billingsettings/wp-billing-settings.md)
-    * [Manage your billing](workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
+    * Manage your billing {#manage-billing}
+      * [Manage your billing](workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
       * [The Workfront Proof Billing Page](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
       * [Choosing Your Payment Method in Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
       * [Downloading Your Workfront Proof Invoice](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
@@ -2472,9 +2464,7 @@ user-guide-description: Workfront
     * [Event Subscription API](wf-api/general/event-subs-api.md)
     * [Event subscription best practices](wf-api/general/event-sub-best-practice.md)
     * [Event Subscription delivery requirements](wf-api/general/setup-event-sub-endpoint.md)
-    * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
     * [Event subscription retries](wf-api/api/event-sub-retries.md)
-    * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
     * [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
     * [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
   * Document Webhooks API {#document-webhooks-api}
@@ -2498,7 +2488,7 @@ user-guide-description: Workfront
     * [Document Webhooks Error Handling](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
   * Workfront Object Descriptions {#workfrtont-object-descriptions}
     * [Category](wf-api/wf-objects/category.md)
-  * Tips, tricks, and troubleshooting for Adobe Workfront API {#tips-and-troubleshooting-for-APIs}
+  * Tips, tricks, and troubleshooting for Adobe Workfront API {#tips-troubleshooting-apis}
     * [API Error: “The remote server returned an error: (400) Bad Request”](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
     * [Duplicates returned during a large paginated search](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
     * [Sorting query results in the API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
@@ -2514,7 +2504,7 @@ user-guide-description: Workfront
 
 
 <!--
-Moved and commented out section from line 1477 - I believe the entire section is duped but need to verify
+Moved and commented out sections from line 1477 - I believe the entire section is duped but need to verify
 
       * Custom View, Filter, and Grouping samples {#no-dupes}
         * [Custom View, Filter, and Grouping samples](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
@@ -2586,4 +2576,24 @@ Moved and commented out section from line 1477 - I believe the entire section is
         * [View: external URL using custom data field](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
         * [View: user Job Role percentage of FTE availability](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
         * [View: user personal time off](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
+
+
+      * [Calculated custom data in reports](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
+        * [Calculated data expressions](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
+        * [Calculated custom fields vs. calculated columns](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
+        * [Condition operators in calculated custom expressions](reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
+        * ["IF" statements overview](reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
+        * [Calculated custom field example: display the manager of an issue's creator on the issue custom form](reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
+        * [Calculated custom field example: display a Status timestamp in a Custom Form](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
+        * [Calculated custom field example: display a field's edit history](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
+
+dupe from 2241 (create proofs)
+      * [Create a multi-page proof](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
+
+other dupes
+    * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
+
+    * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
+
+
 -->
