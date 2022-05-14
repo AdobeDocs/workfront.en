@@ -51,4 +51,4 @@ Prior to the 2018.3 release, the Legacy proofing viewer was supported.&nbsp;With
 
 For static and video proofs, the new Web Proofing Viewer is the default viewer. For interactive proofs, the Desktop Proofing Viewer is the default viewer.
 
-For more information, see [Legacy proofing viewer removed in 2018.3](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md)
+<!--For more information, see [Legacy proofing viewer removed in 2018.3](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md)-->

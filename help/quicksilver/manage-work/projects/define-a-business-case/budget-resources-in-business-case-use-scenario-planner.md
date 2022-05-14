@@ -18,7 +18,7 @@ For more information about creating a business case, see [Create a Business Case
 You can also budget resources in the business case using the Resource Planner. For more information, see the following:
 
 * [Budget resources in the Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md) 
-* [Budget resources by project in the Resource Planner](../../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md)
+<!--* [Budget resources by project in the Resource Planner](../../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md)-->
 
 >[!NOTE]
 >

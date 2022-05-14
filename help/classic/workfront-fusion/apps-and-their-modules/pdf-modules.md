@@ -110,11 +110,13 @@ For more information on the Adobe PDF&nbsp;Services Generate document functional
 
 #### Use the Generate document module with a Microsoft Word template {#use-the-generate-document-module-with-a-microsoft-word-template}
 
+<!--
 >[!NOTE]
 >
 >For a discussion of Microsoft Word templates, see [Microsoft Word Template modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md). 
 >
 >You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF&nbsp;Services Generate document module.
+-->
 
 To use the Generate document module with a Microsoft Word template, you must first create the template. For instructions, search for "Create a template" in the Microsoft Office documentation.
 

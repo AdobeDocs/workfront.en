@@ -41,8 +41,8 @@ The customization and flexibility of the Reporting Canvas let you elevate your r
 For information on creating or modifying a report in the new Reporting Canvas, see the following articles:
 
 * [Build a report in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-* [Add a table to a report in the Reporting Canvas](add-or-edit-report-table.md)
-* [Add a visualization to a report in the Reporting Canvas](add-or-edit-report-visualization.md)
+* [Add a table to a report in the Reporting Canvas](/help/quicksilver/reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+* [Add a visualization to a report in the Reporting Canvas](/help/quicksilver/reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
 * Embed an external source in a report
 * Add a Text block
 * Add a page filter

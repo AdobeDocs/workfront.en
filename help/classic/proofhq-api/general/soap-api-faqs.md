@@ -60,8 +60,8 @@ You do not need to obtain a new Session ID before every call to the API and it w
 The miniproof allows you to embed the proofing tool in your own page. A "referer" parameter can be included as part of the miniproof in order to provide a redirect URL when a user clicks on the close button in the miniproof. You can include any number of custom parameters as part of this redirect URL by appending them using the escaped '&' character e.g. %26.
 
 For example, the miniproof URL
-<pre>https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=</pre>must be encoded as&nbsp;
-<pre>https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=</pre>in order for the custom parameters to be passed through.
+`https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=` must be encoded as&nbsp;
+`https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=` in order for the custom parameters to be passed through.
 
 ## How to create a Java Web Service Client?
 

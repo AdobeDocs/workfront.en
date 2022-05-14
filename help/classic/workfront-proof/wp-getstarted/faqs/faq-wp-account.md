@@ -74,4 +74,4 @@ More information on the Trash folder is available in the [Restore and Empty the 
 
 ## How can I pay for my Workfront Proof subscription?
 
-Monthly subscriptions are paid by credit card only. Annual subscriptions have a choice between a credit card and a bank transfer.&nbsp;Visit the [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) help page for additional information.
+Monthly subscriptions are paid by credit card only. Annual subscriptions have a choice between a credit card and a bank transfer. <!--Visit the [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) help page for additional information.-->

@@ -35,7 +35,7 @@ These changes are available to test in Preview.
 
 Email is automatically disabled in all Preview environments. To enable email for testing purposes, see [Enable delivery of emails from the Preview Sandbox environment](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
-For more information, see [Enable users to email an issue into a Request Queue project](enable-email-issues-into-projects.md).
+For more information, see [Enable users to email an issue into a Request Queue project](/help/classic/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 For more information about why we are making this change, see [New Adobe Workfront managed system to replace POP email for Request Queues with 21.1](../../../product-announcements/announcements/pop-removal-request-queue.md).
 

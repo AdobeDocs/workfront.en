@@ -13,8 +13,8 @@ description: This section contains the following articles - EDIT ME.
 This section contains the following articles:
 
 * [Configure Pop-up Messages in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/configure-pop-up-messages.md) 
-* [Legacy proofing viewer removed in 2018.3](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md) 
-* [Legacy proofing viewer Overview](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/legacy-proofing-viewer.md) 
+<!--* [Legacy proofing viewer removed in 2018.3](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md) -->
+<!--* [Legacy proofing viewer Overview](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/legacy-proofing-viewer.md) -->
 * [Navigate the Legacy proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/navigate-lpv.md) 
 * [Review a Workflow in the Legacy proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/review-workflow-lpv.md) [View Interactive Proofs in Alternate Resolutions in the Legacy proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/view-interactive-proofs.md)
 

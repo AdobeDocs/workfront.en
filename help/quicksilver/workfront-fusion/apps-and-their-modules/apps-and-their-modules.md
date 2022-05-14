@@ -124,7 +124,7 @@ This section contains the following articles:
 * [Microsoft OneDrive modules](../../workfront-fusion/apps-and-their-modules/microsoft-onedrive-modules.md) 
 * [Microsoft OneDrive for Business](../../workfront-fusion/apps-and-their-modules/microsoft-onedrive-for-business-modules.md) 
 * [Microsoft SQL Server modules](../../workfront-fusion/apps-and-their-modules/microsoft-sql-server-modules.md) 
-* [Microsoft Word Template modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md) 
+<!--* [Microsoft Word Template modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md) -->
 * [MIME modules](../../workfront-fusion/apps-and-their-modules/mime.md) 
 * [NetSuite modules](../../workfront-fusion/apps-and-their-modules/netsuite.md) 
 * [Qualtrics modules](../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md) 

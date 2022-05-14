@@ -107,4 +107,4 @@ Other features on the proof window include:
 * **Zoom tools** (8): Allows you to magnify an area of the proof.
 * **Page navigation tools** (9): Allows you to scroll to other pages within the proof.
 
-For more information on reviewing proofs, see [Legacy proofing viewer Overview](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/legacy-proofing-viewer.md).
+<!--For more information on reviewing proofs, see [Legacy proofing viewer Overview](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/legacy-proofing-viewer.md).-->
