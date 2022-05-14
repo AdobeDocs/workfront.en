@@ -146,7 +146,6 @@ user-guide-description: Workfront
     * Workfront Proof release activity {#proof-release}
       * [Workfront Proof release activity: Week of May 17, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
       * [Workfront Proof release activity: Week of November 29, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
-      * [Workfront Proof release activity: Week of May 17, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
     * Quarterly release archive {#quarterly-release}
       * [Quarterly release archive](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
       * 20.4 release {#release-20-4}
@@ -169,14 +168,12 @@ user-guide-description: Workfront
         * [20.3 other enhancements](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
       * 20.2 release {#release-20-2}
         * [2020.2 release overview](product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)
-        * [2020.2 release overview](product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)
         * [2020.2 mobile enhancements](product-announcements/product-releases/2020.2.-release-activity/2020.2-mobile-enhancements.md)
         * [2020.2 other enhancements](product-announcements/product-releases/2020.2.-release-activity/2020.2-other-enhancements.md)
         * [2020.2 Project enhancements](product-announcements/product-releases/2020.2.-release-activity/2020.2-project-enhancements.md)
         * [2020.2 Proofing enhancements](product-announcements/product-releases/2020.2.-release-activity/2020.2-proofing-enhancements.md)
         * [2020.2 Resource Management enhancements: The Workload Balancer](product-announcements/product-releases/2020.2.-release-activity/2020.2-resource-management.md)
       * 20.1 release {#release-20-1}
-        * [2020.1 release overview](product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md)
         * [2020.1 release overview](product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md)
         * [2020.1 List enhancements](product-announcements/product-releases/2020.1-release-activity/2020.1-list-enhancements.md)
         * [2020.1 Mobile enhancements](product-announcements/product-releases/2020.1-release-activity/2020.1-mobile-enhancements.md)
@@ -187,14 +184,12 @@ user-guide-description: Workfront
         * [Other Workfront Classic features released to Production prior to the 2020.1 release](product-announcements/product-releases/2020.1-release-activity/prior-to-2020.1.md)
       * 2019.4 release {#release-19-4}
         * [2019.4 release overview](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md)
-        * [2019.4 release overview](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md)
         * [2019.4 List enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-list-enhancements.md)
         * [2019.4 Mobile enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-mobile-enhancements.md)
         * [2019.4 other enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-other-enhancements.md)
         * [2019.4 Resource Management enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-resource-management-enhancements.md)
         * [Other Workfront Classic features released to Production prior to the 2019.4 release](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19.4.md)
       * 2019.3 release {#release-19-3}
-        * [2019.3 release activity overview](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-release-activity-overview.md)
         * [2019.3 release activity overview](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-release-activity-overview.md)
         * [2019.3 Resource Planning enhancements](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-resource-planning-enhancements.md)
         * [2019.3 Home enhancements](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-home-enhancements.md)
@@ -268,7 +263,6 @@ user-guide-description: Workfront
         * [R1 Preview 4](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md)
         * [R1 Preview 5](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
         * [R1 release webinars](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
-        * [The Workfront R1 release](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)
   * Announcements {#announcements}
     * [Announcements](product-announcements/announcements/announcements.md)
     * [Learn about the latest improvements in Adobe Workfront One](product-announcements/announcements/latest-improvements-wfone.md)
@@ -332,9 +326,7 @@ user-guide-description: Workfront
     * Organizational setup {#organization-setup}
       * [Organizational setup](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
       * [Create and edit companies](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
-      * [Associate projects and templates with companies](administration-and-setup/set-up-workfront/organizational-setup/associate-projects-templates-with-companies.md)
       * [Deactivate or reactivate a company](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
-      * [Restrict request queue to users in the associated company](administration-and-setup/set-up-workfront/organizational-setup/restrict-request-q-to-users-in-company.md)
       * [Manage company memberships](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
       * [Job role overview](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
       * [Create and manage job roles](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
@@ -586,12 +578,10 @@ user-guide-description: Workfront
       * [Lock or unlock a project, task, or issue preference for subgroups](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)
       * [Configure timesheet and hour preferences for a group](administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)
       * [Lock or unlock a group timesheet and hour preference](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)
-      * [View and configure event notifications for a group](administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
       * [Move a group](administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)
       * [Deactivate or reactivate a group](administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)
       * [Delete a group](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
       * [Export a list of groups](administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)
-      * [Actions allowed for different types of administrators](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
     * Create and manage subgroups {#create-manage-subgroups}
       * [Create and manage subgroups](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
       * [Create a subgroup](administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
@@ -694,7 +684,7 @@ user-guide-description: Workfront
       * [Recents and favorites in Adobe Workfront](workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
       * [View and manage favorites](workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)
       * [View recent items](workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md)
-    * Lists in Adobe Workfront {lists-in-adobe-workfront}    
+    * Lists in Adobe Workfront {#lists-in-adobe-workfront}    
       * [Lists in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/lists.md)
       * [Get started with lists in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
       * [Apply the quick filter to a list](workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)
@@ -781,21 +771,21 @@ user-guide-description: Workfront
     * [Remove permissions from objects](workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
   * Manage your account and profile {#manage-account-profile}
     * [Manage your account and profile](workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
-    * Configure your User Profile {configure-user-profile}
+    * Configure your User Profile {#configure-user-profile}
       * [Configure your User Profile](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
       * [Configure My Settings](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
       * [Configure personal time off in Adobe Workfront](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
       * [Create custom tabs or sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
-    * Manage your Adobe Workfront account {manage-workfront-account}
+    * Manage your Adobe Workfront account {#manage-workfront-account}
       * [Manage your Adobe Workfront account](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
       * [Log in to Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
       * [Log out of Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
       * [Receive email invitations and create a password for Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
       * [Reset a user's password with Enhanced Authentication](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
       * [Reset your password](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
-  * Mobile Apps {mobile-apps}
+  * Mobile Apps {#mobile-apps}
     * [Mobile Apps](workfront-basics/mobile-apps/mobile-apps.md)
-    * Use the Adobe Workfront mobile apps {use-workfront-mobile-app}
+    * Use the Adobe Workfront mobile apps {#use-workfront-mobile-app}
       * [Use the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
       * [Adobe Workfront for Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
       * [Be an Android beta tester](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
@@ -811,17 +801,17 @@ user-guide-description: Workfront
       * [Configure Adobe Workfront for MobileIron](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
       * [Adobe Workfront mobile app virtual assistant](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
       * [Approvals in the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
-    * Use Adobe Workfront View {use-workfront-view}
+    * Use Adobe Workfront View {#use-workfront-view}
       * [Use Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
       * [Get started with Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
       * [Display projects in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
       * [Filter project lists in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
       * [Update widgets in the Project Details view](workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
       * [Add updates in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
-    * Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps {tips-tricks-for-mobile-apps}
+    * Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps {#tips-tricks-for-mobile-apps}
       * [Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
       * [Error Message on the Adobe Workfront Mobile App: "Your account is not API enabled."](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
-  * Redesigned functionality in the new Adobe Workfront experience {redesigned-new-workfront-experience}
+  * Redesigned functionality in the new Adobe Workfront experience {#redesigned-new-workfront-experience}
     * [Redesigned functionality in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/redesigned-features-in-nwe.md)
     * [Top navigation bar overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
     * [Simplified left navigation in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
@@ -835,7 +825,7 @@ user-guide-description: Workfront
     * [Pin pages to customize your workspace in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/pin-pages.md)
     * [New Layout Templates area in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/new-layout-templates.md)
     * [New Edit Object box](workfront-basics/the-new-workfront-experience/new-edit-object-box.md)
-  * Tips, Tricks, and Troubleshooting for Adobe Workfront Basics {tips-tricks-for-basics}
+  * Tips, Tricks, and Troubleshooting for Adobe Workfront Basics {#tips-tricks-for-basics}
     * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
     * [Your quick guide to finding help in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
     * [Contact Customer Support](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
@@ -956,7 +946,7 @@ user-guide-description: Workfront
     * [Managing Documents with Adobe Workfront DAM](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
     * [Adobe Workfront licensing role types vs. Adobe Workfront DAM role types](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
     * [Access Help for Adobe Workfront DAM](documents/workfront-dam-within-workfront/access-help--workfront-dam.md)
-  * Workfront and Experience Manager Assets Integrations {wf-aem-integrations}
+  * Workfront and Experience Manager Assets Integrations {#wf-aem-integrations}
     * [Workfront and Experience Manager Assets Integrations](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
     * Workfront for Experience Manager enhanced connector {#wf-aem-enhanced-connector}
       * [Workfront for Experience Manager enhanced connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
@@ -966,7 +956,7 @@ user-guide-description: Workfront
       * [Send a Document to Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
       * [Proof a linked asset for Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
       * [View or download a linked asset from Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
-    * Adobe Workfront for Experience Manager Assets Essentials {wf-aem-essentials}
+    * Adobe Workfront for Experience Manager Assets Essentials {#wf-aem-essentials}
       * [Adobe Workfront for Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
       * [Adobe Experience Manager Assets integrations](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
       * [Configure the Experience Manager Assets Essentials integration](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
@@ -1192,7 +1182,7 @@ user-guide-description: Workfront
       * [Enforce predecessors](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
       * [Overview of Lag Types](manage-work/tasks/use-prdcssrs/lag-types.md)
       * [Task dependency loop overview](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
-    * Tips, tricks, and troubleshooting for tasks {tips-tricks-and-troubleshooting-for-tasks}
+    * Tips, tricks, and troubleshooting for tasks {#tips-tricks-and-troubleshooting-for-tasks}
       * [Tips, tricks, and troubleshooting for tasks](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
       * [Tasks FAQs](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
       * [Projected Duration does not match Planned Duration](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
@@ -2156,7 +2146,7 @@ user-guide-description: Workfront
     * [Create Adobe Workfront tasks from Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
     * [Submit Adobe Workfront requests from Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
     * [Manage Adobe Workfront notifications in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
-  * Adobe Workfront for Salesforce {workfront-for-salesforce}
+  * Adobe Workfront for Salesforce {#workfront-for-salesforce}
     * [Adobe Workfront for Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md)
     * [Adobe Workfront for Salesforce overview](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)
     * [Install Adobe Workfront for Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
@@ -2432,7 +2422,7 @@ user-guide-description: Workfront
       * [Send messages to reviewers](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
       * [Remind a reviewer about assignments in Workfront Proof](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
       * [Send a reminder message to the reviewers on a proof](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-reminder-to-proof-reviewers.md)
-    * Proof notifications and reminders {proof-notifications-and-reminders}
+    * Proof notifications and reminders {#proof-notifications-and-reminders}
       * [Proof notifications and reminders](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
       * [Late proof email](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
       * [New proof email](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
