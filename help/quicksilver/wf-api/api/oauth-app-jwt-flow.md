@@ -30,7 +30,7 @@ To generate the public key, do **one** of the following.
 
 * Open your MacOS/Linux terminal and execute the following command, then upload `certificate_pub.crt` using the **Add public key** button in the OAuth2 application setup in Workfront.
 
-  [Copy](javascript:void(0);) 
+  <!-- [Copy](javascript:void(0);) --> 
   <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
 
 * Use the **Generate a public/private keypair** button in the OAuth2 application setup in Workfront to generate the RSA.
@@ -64,14 +64,14 @@ The following table contains information about fields that may be required when 
 
 1. Send a POST request to:
 
-   [Copy](javascript:void(0);) 
+   <!-- [Copy](javascript:void(0);) --> 
    <pre><code>https://yourdomain.my.workfront.com/integrations/oauth2/api/v1/jwt/exchange</code></pre>
 
 1. The body of the request should contain URL-encoded parameters with your Client ID, Client Secret, and JWT:
 
    &nbsp;
 
-   [Copy](javascript:void(0);) 
+   <!-- [Copy](javascript:void(0);) --> 
    <pre><code>client_id={client_id_value}&client_secret={client_secret_value}&jwt_token={base64_encoded_JWT}</code></pre>
 
 &nbsp;

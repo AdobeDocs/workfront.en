@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Server</td> 
-      <td> <p>The URL of the LDAP server where your directory service is running.</p> <p>For example, <a class="external" title="ldap://hostname.com" href="ldap://hostname.com">ldap://hostname.com</a>.<br>Or, if the LDAP server requires an SSL connection, <a class="external" title="ldaps://hostname.com" href="ldaps://hostname.com">ldaps://hostname.com</a>.</p> </td> 
+      <td> <p>The URL of the LDAP server where your directory service is running.</p> <p>For example, <code>ldap://hostname.com</code>.<br>Or, if the LDAP server requires an SSL connection, <a class="external" title="ldaps://hostname.com" href="ldaps://hostname.com">ldaps://hostname.com</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Port</td> 

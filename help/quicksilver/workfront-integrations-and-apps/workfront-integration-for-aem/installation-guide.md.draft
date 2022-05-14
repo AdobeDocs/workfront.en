@@ -63,20 +63,20 @@ Prior to installing/configuring the tools you’ll need to complete a few steps:
 
 The Workfront Tools packages will need to be referenced as a dependency in the pom.xml, as provided by the vendor.
 
-[Copy](javascript:void(0);) 
+<!-- [Copy](javascript:void(0);) --> 
 <pre><code><!-- Workfront Tools --><br><dependency><br>&nbsp;&nbsp;&nbsp;&nbsp;<groupId>digital.hoodoo</groupId><br>&nbsp;&nbsp;&nbsp;&nbsp;<artifactId>workfront-tools.tools.ui.apps</artifactId><br>&nbsp;&nbsp;&nbsp;&nbsp;<type>zip</type><br>&nbsp;&nbsp;&nbsp;&nbsp;<version>1.x.x</version><br></dependency></code></pre>
-[Copy](javascript:void(0);) 
+<!-- [Copy](javascript:void(0);) --> 
 <pre><code><!-- Workfront Tools --><br><dependency><br>&nbsp;&nbsp;&nbsp;&nbsp;<groupId>digital.hoodoo</groupId><br>&nbsp;&nbsp;&nbsp;&nbsp;<artifactId>workfront-tools.core.ui.apps</artifactId><br>&nbsp;&nbsp;&nbsp;&nbsp;<type>zip</type><br>&nbsp;&nbsp;&nbsp;&nbsp;<version>1.x.x</version><br></dependency></code></pre>Include the below repository configuration in the pom.xml within adobe-public profile, so the connector dependencies (above) can be resolved at build time (both locally, and by Cloud Manager). Credentials for repository access will be provided upon the purchase of a license. The credentials will need to be added to the settings.xml file in the servers section.
 
-[Copy](javascript:void(0);) 
+<!-- [Copy](javascript:void(0);) --> 
 <pre><code><repository><br>&nbsp;&nbsp;&nbsp;&nbsp;<id>hoodoo-maven</id><br>&nbsp;&nbsp;&nbsp;&nbsp;<name>Hoodoo Repository</name><br>&nbsp;&nbsp;&nbsp;&nbsp;<url>https://gitlab.com/api/v4/projects/12715200/packages/maven</url><br></repository></code></pre>Example settings.xml file
 
-[Copy](javascript:void(0);) 
+<!-- [Copy](javascript:void(0);) --> 
 <pre><code><server><br>&nbsp;&nbsp;&nbsp;&nbsp;<id>hoodoo-maven</id><br>&nbsp;&nbsp;&nbsp;&nbsp;<configuration><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<httpHeaders><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<property><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<name>Private-Token</name><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<value>*********************</value><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</property><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</httpHeaders><br>&nbsp;&nbsp;&nbsp;&nbsp;</configuration><br></server></code></pre>The Workfront Tools packages will also need to be added to the embeddeds section of the pom.xml of your ```all``` subproject like in the following example.
 
-[Copy](javascript:void(0);) 
+<!-- [Copy](javascript:void(0);) --> 
 <pre><code><!-- Workfront Tools --><br><embedded><br>&nbsp;&nbsp;&nbsp;&nbsp;<groupId>digital.hoodoo</groupId><br>&nbsp;&nbsp;&nbsp;&nbsp;<artifactId>workfront-tools.tools.ui.apps</artifactId><br>&nbsp;&nbsp;&nbsp;&nbsp;<type>zip</type><br>&nbsp;&nbsp;&nbsp;&nbsp;<target>/apps/<path-to-project-install-folder>/install</target><br></embedded></code></pre>
-[Copy](javascript:void(0);) 
+<!-- [Copy](javascript:void(0);) --> 
 <pre><code><!-- Workfront Tools --><br><embedded><br>&nbsp;&nbsp;&nbsp;&nbsp;<groupId>digital.hoodoo</groupId><br>&nbsp;&nbsp;&nbsp;&nbsp;<artifactId>workfront-tools.core.ui.apps</artifactId><br>&nbsp;&nbsp;&nbsp;&nbsp;<type>zip</type><br>&nbsp;&nbsp;&nbsp;&nbsp;<target>/apps/<path-to-project-install-folder>/install</target><br></embedded></code></pre>
 
 1. The connector will be available for download from the creator, Hoodoo Digital. The format will be two zip files, workfront-tools.tools.ui.apps-1.1.0.zip and workfront-tools.core.ui.apps-1.1.0.zip.

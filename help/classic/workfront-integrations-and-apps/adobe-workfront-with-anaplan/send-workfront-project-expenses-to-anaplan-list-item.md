@@ -74,7 +74,7 @@ You must have the following in Anaplan to use this scenario:
 
   Example CSV contents
 
-  [Copy](javascript:void(0);) 
+  <!-- [Copy](javascript:void(0);) --> 
   <pre><code>"Workfront Expense GUID","Workfront Project GUID","Actual Amount","Description","Expense Type","Effective Date","Campaign Name","Anaplan List Item ID"<br>"622aead400423eb2e4479fece9a72987","6218062a000d0442903fcfa21e11f556","2345","Expense 1","","2022-03-09","New Project 6","202000001030"</code></pre>
 
 * An **Anaplan Planned Expense Import** file that contains the following columns, in this order:
@@ -107,7 +107,7 @@ You must have the following in Anaplan to use this scenario:
 
   Example CSV contents
 
-  [Copy](javascript:void(0);) 
+  <!-- [Copy](javascript:void(0);) --> 
   <pre><code>"Workfront Expense GUID","Workfront Project GUID","Planned Amount","Description","Expense Type","Planned Date","Campaign Name","Anaplan List Item ID"<br>"622aead400423eb2e4479fece9a72987","6218062a000d0442903fcfa21e11f556","1234","Expense 1","Entertainment","2022-03-08","New Project 6","202000001030"</code></pre>
   &nbsp;  
 
@@ -173,12 +173,12 @@ Complete the following steps to deploy this integration scenario to your Fusion 
 1. Update all remaining Workfront modules with a Workfront connection, when prompted.
 1. On the **Build Actual Expense CSV** module, add a new data structure to map the project attributes to CSV columns.
 
-   [Copy](javascript:void(0);) 
+   <!-- [Copy](javascript:void(0);) --> 
    <pre><code>[<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Workfront Expense GUID":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Workfront Project GUID":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Actual Amount": 100.01,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Description":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Expense Type":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Effective Date":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Campaign Name":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Anaplan List Item ID": 10000001<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>]<br></code></pre>
 
 1. On the **Build Planned Expense CSV** module, add a new data structure to map the project attributes to CSV columns.
 
-   [Copy](javascript:void(0);) 
+   <!-- [Copy](javascript:void(0);) --> 
    <pre><code>[<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Workfront Expense GUID":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Workfront Project GUID":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Planned Amount": 100.01,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Description":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Expense Type":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Planned Date":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Campaign Name":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Anaplan List Item ID": 10000001<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>]<br></code></pre>
 
 ## Other Recommended Scenario Templates

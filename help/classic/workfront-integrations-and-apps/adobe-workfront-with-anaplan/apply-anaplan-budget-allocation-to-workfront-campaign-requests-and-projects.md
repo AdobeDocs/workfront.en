@@ -151,7 +151,7 @@ Complete the following steps to deploy this integration scenario to your Fusion 
 1. Update all remaining Anaplan modules with an Anaplan connection, when prompted.
 1. On the **Convert CSV to JSON Object** module, add a new data structure to map the CSV columns to a usable JSON object.
 
-   [Copy](javascript:void(0);) 
+   <!-- [Copy](javascript:void(0);) --> 
    <pre><code>[<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Anaplan Name":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Workfront Request GUID":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Workfront Project GUID":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Campaign Name":"text",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Budget": 100.01,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Estimated Revenue": 100.01,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Brand":"text"<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>]<br></code></pre>
 
 1. When prompted, select this data structure for other modules in this scenario deployment.

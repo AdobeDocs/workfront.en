@@ -31,7 +31,7 @@ Entry dates are stored utilizing ISO 8601 formatting. This standard includes dat
 
 **Example:** ISO 8601 date format
 
-[Copy](javascript:void(0);) 
+<!-- [Copy](javascript:void(0);) --> 
 &nbsp;  
 <pre><code>2020-05-18T17:00:00:000-0600</code></pre>&nbsp;
 
@@ -39,7 +39,7 @@ Both the date that an object is created and the last date that the object was mo
 
 **Example:** GET reqeust for an issue object, utilizing the **lastUpdateDate** field. This request would return all issues updated since that specified date.
 
-[Copy](javascript:void(0);) 
+<!-- [Copy](javascript:void(0);) --> 
 &nbsp;  
 <pre><code>GET&nbsp;<br>https://{{domain}}.my.workfront.com/attask/api/v11.0/OPTASK/search?fields=ID,name,lastUpdateDate&$$LIMIT=200&lastUpdateDate=2020-05-13T18:18:37.255Z&lastUpdateDate_Mod=gte</code></pre>
 
@@ -49,7 +49,7 @@ If you are interested in obtaining changes regarding a specific field on an obje
 
 When a field is setup to be logged as a part of the Journal Entry object a corresponding Journal Entry will be created every time that field is modified. Then, you can query the Journal Entry object using an API&nbsp;call similar to the following:
 
-[Copy](javascript:void(0);) 
+<!-- [Copy](javascript:void(0);) --> 
 <pre><code>GET https://{{domain}}.my.workfront.com/attask/api/v11.0/JRNLE/search?fields=newTextVal,oldTextVal,newDateVal,oldDateVal,newNumberVal,oldNumberVal,entryDate,objObjCode,objID,fieldName&fieldName=name&objObjCode=OPTASK&entryDate=2020-05-13T18:18:37.255Z&entryDate_Mod=gte</code></pre>
 
 >[!NOTE]

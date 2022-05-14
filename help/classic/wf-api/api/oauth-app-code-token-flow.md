@@ -65,7 +65,7 @@ The URL for the authorization page is therefore:
 <!--WRITER check code -->
 
 ```
-[Copy](javascript:void(0);) 
+<!-- [Copy](javascript:void(0);) --> 
 <pre><code>https://<span style="color: #63a35c; "><URL of your organization's domain></span>/integrations/oauth2/authorize?client_id=<span style="color: #63a35c; "><Your ClientID></span>&redirect_uri=<span style="color: #63a35c; "><Your redirect URL></span>&response_type=code<br></code></pre>
 ```
 
@@ -178,16 +178,16 @@ To log your users in with OAuth2, use the following process:
 
    The full token request URL is 
 
-   [Copy](javascript:void(0);) 
+   <!-- [Copy](javascript:void(0);) --> 
    <pre><code>https://<span style="color: #63a35c; "><URL of your organization's domain></span>/integrations/oauth2/api/v1/token</code></pre>
    **Examples:**  Example of CURL call to token endpoint:
 
    Example 1
 
-   [Copy](javascript:void(0);) 
+   <!-- [Copy](javascript:void(0);) --> 
    <pre><code>curl --location --request POST '**<workfront host>**/integrations/oauth2/api/v1/token' \<br>--header 'Authorization: Basic **<base64(client_id:client_secret)>**' \<br>--header 'Content-Type: application/json' \<br>--data-raw '{<br>"code": "**<code>**",<br>"grant_type": "**authorization_code**",<br>"redirect_uri": "**<redirect_url>**"<br>}'</code></pre>Example 2
 
-   [Copy](javascript:void(0);) 
+   <!-- [Copy](javascript:void(0);) --> 
    <pre><code>curl --location --request POST '**<workfront host>**/integrations/oauth2/api/v1/token' \<br>--header 'Content-Type: application/x-www-form-urlencoded' \<br>--data-urlencode 'grant_type=**authorization_code**' \<br>--data-urlencode 'redirect_uri=**<redirect_url>**' \<br>--data-urlencode 'code=**<code>**' \<br>--data-urlencode 'client_id=**<client_id>**' \<br>--data-urlencode 'client_secret=**<client_secret>**'</code></pre>
 
    >[!IMPORTANT]
@@ -198,7 +198,7 @@ To log your users in with OAuth2, use the following process:
 
    When all passed parameters are correct the token endpoint returns the following payload:
 
-   [Copy](javascript:void(0);) 
+   <!-- [Copy](javascript:void(0);) --> 
    <pre><code>{<br>&nbsp;&nbsp;<span style="color: #dd1144; ">"token_type"</span>: <span style="color: #dd1144; ">"sessionID"</span>,<br>&nbsp;&nbsp;<span style="color: #dd1144; ">"access_token"</span>: <span style="color: #dd1144; ">"string"</span>, <span style="color: #999988; font-style: italic; ">// the value of sessionID</span><br>&nbsp;&nbsp;<span style="color: #dd1144; ">"refresh_token"</span>: <span style="color: #dd1144; ">"string"</span>,<br>&nbsp;&nbsp;<span style="color: #dd1144; ">"expires_in"</span>: <span style="color: #008080; ">0</span>,<br>&nbsp;&nbsp;<span style="color: #dd1144; ">"wid"</span>: <span style="color: #dd1144; ">"string"</span><br>}</code></pre>&nbsp;
 
    The access token is the same as 
@@ -219,7 +219,7 @@ To log your users in with OAuth2, use the following process:
 
 1. Now when you have an access token you can make API calls to Workfront
 
-   [Copy](javascript:void(0);) 
+   <!-- [Copy](javascript:void(0);) --> 
    <pre><code>curl --request GET 'https://<workfront host>/attask/api/v14.0/proj/search \<br>--header 'sessionID: <access_token>'</code></pre>
 
 ## Set Up Refresh Access Token
@@ -228,12 +228,12 @@ To log your users in with OAuth2, use the following process:
 
 To refresh the access_token we again need to do a `POST` call to the token endpoint. This time we send a different form data as follows:
 
-[Copy](javascript:void(0);) 
+<!-- [Copy](javascript:void(0);) --> 
 <pre><code>curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/token' \<br>--header 'Authorization: Basic <base64(client_id:client_secret)>' \<br>--header 'Content-Type: application/json' \<br>--data-raw '{<br>&nbsp;&nbsp;&nbsp;"grant_type": "refresh_token",<br>&nbsp;&nbsp;&nbsp;"refresh_token": "<refresh_token>"<br>}'<br><br>###### OR<br><br>curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/token' \<br>--header 'Content-Type: application/x-www-form-urlencoded' \<br>--data-urlencode 'grant_type=refresh_token' \<br>--data-urlencode 'redirect_uri=<redirect_url>' \<br>--data-urlencode 'refresh_token=<refresh_token>' \<br>--data-urlencode 'client_id=<client_id>' \<br>--data-urlencode 'client_secret=<client_secret>'</code></pre>&nbsp;
 
 It will return the following result:
 
-[Copy](javascript:void(0);) 
+<!-- [Copy](javascript:void(0);) --> 
 <pre><code>{<br>&nbsp;&nbsp;"token_type": "sessionID",<br>&nbsp;&nbsp;"access_token": "string", // the value of sessionID<br>&nbsp;&nbsp;"refresh_token": "string",<br>&nbsp;&nbsp;"expires_in": 0,<br>&nbsp;&nbsp;"wid": "string"<br>}</code></pre>And again the access token is the 
 
 ```

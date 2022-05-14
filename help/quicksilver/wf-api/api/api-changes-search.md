@@ -39,7 +39,7 @@ Here is an example of a status search query being made to a task group that incl
 
 Using this format ensures that your response will include all of the following:
 
-[Copy](javascript:void(0);) 
+<!-- [Copy](javascript:void(0);) --> 
 
 <!--WRITER - fix code throughout this doc. for Bob-->
 
@@ -57,7 +57,7 @@ For example, this query (which does not follow the current recommended best prac
 
 Would have the following response under the legacy system, which includes all object statuses:
 
-[Copy](javascript:void(0);) 
+<!-- [Copy](javascript:void(0);) --> 
 
 ```
 <code>{<br>&nbsp;&nbsp;"data": [<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"color": "1C68FF",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"equatesWith": "NEW",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"groupID": "602d27640000bb3b779f770d5fb95d6d",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"label": "New",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"objCode": "CSTEM",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "NEW"<br>&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"color": "39FF39",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"equatesWith": "INP",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"groupID": "602d27640000bb3b779f770d5fb95d6d",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"label": "In Progress",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"objCode": "CSTEM",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "INP"<br>&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"color": "FF3939",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"equatesWith": "CPL",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"groupID": "602d27640000bb3b779f770d5fb95d6d",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"label": "Complete",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"objCode": "CSTEM",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "CPL"<br>&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"color": "8BC34A",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"equatesWith": "NEW",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"groupID": "602d27640000bb3b779f770d5fb95d6d",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"label": "Custom_1",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"objCode": "CSTEM",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "JET"<br>&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"color": "8BC34A",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"equatesWith": "NEW",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"groupID": "602d27640000bb3b779f770d5fb95d6d",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"label": "Custom_2",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"objCode": "CSTEM",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": "OGC"<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;]<br>}</code>
@@ -74,6 +74,6 @@ Here is an example of what this outdated request structure returns after the leg
 Notice that this response includes only group-specific statuses and leaves out those statuses which were declared at system-level:
 
 ```
-[Copy](javascript:void(0);) 
+<!-- [Copy](javascript:void(0);) --> 
 <code>{<br>&nbsp;&nbsp;<span style="color: #dd1144; ">"data"</span>: [<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"color"</span>: <span style="color: #dd1144; ">"8BC34A"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"equatesWith"</span>: <span style="color: #dd1144; ">"NEW"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"groupID"</span>: <span style="color: #dd1144; ">"602d286d000004fc8f53942de697a868"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"label"</span>: <span style="color: #dd1144; ">"Custom_2"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"objCode"</span>: <span style="color: #dd1144; ">"CSTEM"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"value"</span>: <span style="color: #dd1144; ">"MMI"</span><br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;]<br>}</code>
 ```

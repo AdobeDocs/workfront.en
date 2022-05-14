@@ -157,7 +157,7 @@ This site app must have Write permission to any site collections that users need
      <tr> 
       <td role="rowheader">Permission Request XML</td> 
       <td> <p>Copy the following XML to the Permission Request XML field. Make sure that it is added exactly as shown without additional spaces etc. in order to avoid errors.</p> 
-       <div class="codeSnippet"> <a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a> 
+       <div class="codeSnippet"> <a class="codeSnippetCopyButton" role="button">Copy</a> 
         <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"> 
          <pre><code><span style="color: #63a35c; ">&lt;AppPermissionRequests&gt;</span><br><span style="color: #63a35c; ">&lt;AppPermissionRequest <span style="color: #795da3; ">Scope</span><span style="color: #df5000; ">="http://sharepoint/content/sitecollection/web"</span> <span style="color: #795da3; ">Right</span><span style="color: #df5000; ">="Write"</span>/&gt;</span><br><span style="color: #63a35c; ">&lt;/AppPermissionRequests&gt;</span></code></pre> 
         </div> 

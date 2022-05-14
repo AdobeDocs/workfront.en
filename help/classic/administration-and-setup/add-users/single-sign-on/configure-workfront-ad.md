@@ -49,7 +49,7 @@ To connect&nbsp;Adobe Workfront with an Active Directory Server:
     <tbody> 
      <tr> 
       <td role="rowheader">Server</td> 
-      <td> <p>The&nbsp;URL of the Active Directory server where your directory service is running.</p> <p>For example, <i>ldap://hostname.com</i>. If the Active Directory server requires an SSL connection, the URL is, for example:&nbsp;<i>ldaps://hostname.com</i>.</p> </td> 
+      <td> <p>The&nbsp;URL of the Active Directory server where your directory service is running.</p> <p>For example, <code>ldap://hostname.com</code>. If the Active Directory server requires an SSL connection, the URL is, for example:&nbsp;<i>ldaps://hostname.com</i>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Port</td> 

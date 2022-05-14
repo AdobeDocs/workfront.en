@@ -103,7 +103,7 @@ You must have the following in Anaplan to use this scenario:
 
   Example CSV contents
 
-  [Copy](javascript:void(0);) 
+  <!-- [Copy](javascript:void(0);) --> 
   <pre><code>Workfront Project GUID,Hours,Hours Estimated Cost,Entry Date,Role Name,Workfront Project Name,Item ID<br>6218062a000d0442903fcfa21e11f556,2,0,3/7/22,Designer,New Project 6,202000001030</code></pre>
 
 * A **Project Actual Hours Import** process prepared to execute the import of data delivered in a file upload.
