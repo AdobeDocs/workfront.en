@@ -20,7 +20,7 @@ A webhook is an HTTP call that is triggered by an event. You can use webhooks to
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -87,7 +87,7 @@ Or you can follow the steps below to send the sample data via the HTTP > Make a 
 
 1. Configure the module with the following values: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -372,7 +372,7 @@ Timeout for sending a response is 40 seconds. If the response is not available w
 
 **Example:** Configure the Webhook Response module as follows:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -405,7 +405,7 @@ This will produce an HTML response that displays like this in a web browser:
 
 **Example:** Configure the Webhook Response module as follows:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

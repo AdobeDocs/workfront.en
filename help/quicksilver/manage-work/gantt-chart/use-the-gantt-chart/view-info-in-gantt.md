@@ -13,7 +13,7 @@ The task list Gantt Chart and project list Gantt Chart display information about
 
 You must have the following to follow the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -21,7 +21,7 @@ For information about proofing functionality available for basic and integrated 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -66,7 +66,7 @@ The permission profile you select is granted to the users for each proof that ex
    >
    >If you are on a legacy Workfront plan, make sure the **User can generate proofs** option is enabled, as explained above in the section [Enable and disable proofing for a user (legacy plans only)](#enable-and-disable-proofing-for-a-user-legacy-plans-only).&nbsp;
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

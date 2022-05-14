@@ -39,7 +39,7 @@ To configure your firewall for Workfront, your network administrator needs to kn
 
 Provide your network administrator with the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -21,7 +21,7 @@ If you are the owner of an object, you can grant or deny access to items from yo
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

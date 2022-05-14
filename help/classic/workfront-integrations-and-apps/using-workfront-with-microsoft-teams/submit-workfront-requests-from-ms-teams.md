@@ -22,7 +22,7 @@ After your team owner installs Adobe Workfront for Microsoft Teams, you can subm
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -78,7 +78,7 @@ Your Microsoft Teams team owner must install Workfront for Microsoft Teams befor
 
    (Depending on how the request queue was set up, the options and boxes you see might vary. For a complete list and description of possible fields, see [Create and submit Adobe Workfront requests](../../manage-work/requests/create-requests/create-submit-requests.md).)
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

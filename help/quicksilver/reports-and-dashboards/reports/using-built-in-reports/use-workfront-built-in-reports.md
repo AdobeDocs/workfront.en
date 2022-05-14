@@ -17,7 +17,7 @@ For more information about how to hide built-in reports, see [Hide built-in repo
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -48,7 +48,7 @@ You can customize a built-in report and save it as a new report. For more inform
 
 The following reports come with the Workfront package. The reports are available to all users who have at least View rights to built-in reports in their access level.
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <thead> 

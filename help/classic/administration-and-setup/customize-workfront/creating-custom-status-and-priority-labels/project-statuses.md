@@ -27,7 +27,7 @@ As a Workfront administrator, you configure the default status for all new proje
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

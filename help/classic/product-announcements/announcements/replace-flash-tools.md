@@ -136,7 +136,7 @@ Except where specified otherwise, all Legacy features have been replaced by new 
 >
 >The legacy Flash-based tools have been removed from all environments.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

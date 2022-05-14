@@ -17,7 +17,7 @@ Leveling your resources&nbsp;on a project&nbsp;has two purposes:
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

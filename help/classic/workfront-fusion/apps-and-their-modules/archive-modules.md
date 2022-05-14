@@ -43,7 +43,7 @@ This action module extracts a file you identify from an archive.
 
 The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -64,7 +64,7 @@ This aggregator module adds the desired files to a ZIP or TAR archive.
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -107,7 +107,7 @@ When you are configuring this module, the following fields display.
 
 This transformer module decompresses binary data using an inflation algorithm.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -122,7 +122,7 @@ This transformer module decompresses binary data using an inflation algorithm.
 
 This transformer module compresses binary data using a deflation algorithm.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

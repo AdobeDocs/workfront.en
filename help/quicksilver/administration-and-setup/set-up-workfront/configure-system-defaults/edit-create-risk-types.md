@@ -21,7 +21,7 @@ You can add risks to your projects in the planning phase to identify potential o
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

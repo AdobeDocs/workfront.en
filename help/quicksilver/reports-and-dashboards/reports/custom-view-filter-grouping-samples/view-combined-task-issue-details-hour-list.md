@@ -30,7 +30,7 @@ tag, see [View: merge information from multiple columns in one shared column](..
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -15,7 +15,7 @@ Without leaving G Suite, you can post a new update or a reply to an existing upd
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

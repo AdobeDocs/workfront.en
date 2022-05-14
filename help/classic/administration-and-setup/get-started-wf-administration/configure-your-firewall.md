@@ -64,7 +64,7 @@ The IP addresses that you must add to your allowlist on your firewall depend on 
 
 If your Production environment is on Cluster 1, 2, 3, 5, or 7 you must allow the following IP addresses.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -139,7 +139,7 @@ For information about the following IP addresses, see [New IP addresses for Adob
 
 If your Production environment is on Cluster 6, add the following IP addresses.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -176,7 +176,7 @@ If your Production environment is on Cluster 6, add the following IP addresses.
 
 ### IP addresses to allow for a Test Drive
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -208,7 +208,7 @@ If your Production environment is on Cluster 6, add the following IP addresses.
 
 For all environments, add the following IP addresses to receive payloads from Workfront event subscriptions.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -243,7 +243,7 @@ For all environments, add the following IP addresses to receive payloads from Wo
 
 Add the following IP addresses to use enhanced authentication for Preview or Production.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -307,7 +307,7 @@ Add the following IP addresses to use enhanced authentication for Preview or Pro
 
 Add the following IP addresses to your allowlist to enable Workfront Fusion to access your system.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -334,7 +334,7 @@ Add the following IP addresses to your allowlist to enable Workfront Fusion to a
 
 Also, if your organization uses outbound network filtering, add the following domain to your allowlist to enable your system to access Workfront Fusion. 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -359,7 +359,7 @@ Add the following IP addresses to your allowlist to use the Workfront for Jira i
 
 The jira.workfront.com domain must also be accessible from your corporate servers. This domain is required because it serves as middleware between Workfront and Jira.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -404,7 +404,7 @@ The jira.workfront.com domain must also be accessible from your corporate server
 
 ### IP addresses to add for using Workfront Ascent {#ip-addresses-to-add-for-using-workfront-ascent}
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -456,7 +456,7 @@ If your organization uses outbound network filtering, add the following domains 
 
 ## URLs to add for all clusters Workfront {#urls-to-add-for-all-clusters-workfront}
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -491,7 +491,7 @@ You must add the following IP addresses to your allowlist in order to use variou
 
 ### For callbacks and webcapture proofs {#for-callbacks-and-webcapture-proofs}
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -544,7 +544,7 @@ You must add the following IP addresses to your allowlist in order to use variou
 
 ### For outgoing email {#for-outgoing-email}
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

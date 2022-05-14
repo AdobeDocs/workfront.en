@@ -26,7 +26,7 @@ You can quickly locate text in a proof created for the following types of docume
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

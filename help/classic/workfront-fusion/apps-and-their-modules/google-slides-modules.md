@@ -25,7 +25,7 @@ You also need Google Slides in your Google Drive.
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -103,7 +103,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 Triggers when a new presentation is created or updated.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -130,7 +130,7 @@ Triggers when a new presentation is created or updated.
 
 Retrieves a list of all presentations.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -162,7 +162,7 @@ Retrieves a list of all presentations.
 
 Gets the latest version of a specified presentation.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -190,7 +190,7 @@ Gets the latest version of a specified presentation.
 
 Gets the latest version of the specified page or of the thumbnail of a page in the presentation.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -217,7 +217,7 @@ Gets the latest version of the specified page or of the thumbnail of a page in t
 
 Creates a new presentation by replacing all tags like {{Name}}, {{Email}} in a template with provided data.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -290,7 +290,7 @@ Creates a new presentation by replacing all tags like {{Name}}, {{Email}} in a t
 
 Uploads an image with provided data.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -334,7 +334,7 @@ Uploads an image with provided data.
 
 Refreshes the chart data stored in a presentation specified by ID.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -366,7 +366,7 @@ Refreshes the chart data stored in a presentation specified by ID.
 
 Creates an empty slide or deletes an existing slide on the specified presentation.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -411,7 +411,7 @@ Creates an empty slide or deletes an existing slide on the specified presentatio
 
 Performs an arbitrary authorized API call.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -463,7 +463,7 @@ In our example, the requested presentation details were returned:
 
 This module makes all links in a presentation clickable, or inserts a link into all matched input texts.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

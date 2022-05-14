@@ -12,7 +12,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -59,7 +59,7 @@ To create a connection for your DocuSign modules:
 1. Click **Add** next to the Connection box when you begin configuring the first DocuSign module.
 1. Enter the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -93,7 +93,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when an envelope is sent, delivered, signed, completed, or declined.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -219,7 +219,7 @@ In our example, 6 envelopes were returned:
 
 This action module downloads a single document.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -270,7 +270,7 @@ This action module downloads a single document.
 
 This action module reads information about an envelope in DocuSign using the envelope ID.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -297,7 +297,7 @@ This action module reads information about an envelope in DocuSign using the env
 
 This module uploads a specified file to an existing envelope in DocuSign.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -324,7 +324,7 @@ This module uploads a specified file to an existing envelope in DocuSign.
 
 This action module creates a new envelope from a template. It returns the new envelope's ID, as well as the status of the new envelope.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -362,7 +362,7 @@ This action module creates a new envelope from a template. It returns the new en
 
 This action module adds one or more recipients to an existing envelope. If the envelope has already been sent, the recipient is sent an email. This module is not valid for envelopes that have already been completed.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -444,7 +444,7 @@ This action module adds one or more recipients to an existing envelope. If the e
 
 This action module adds a custom field to the document
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -483,7 +483,7 @@ This action module adds a custom field to the document
 
 This action module modifies a custom field using the field name.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -526,7 +526,7 @@ This action module modifies a custom field using the field name.
 
 This action module sends a draft envelope to its recipients.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

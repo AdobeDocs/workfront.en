@@ -40,7 +40,7 @@ You specify the folder and the maximum number of files you want the module to wa
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -69,7 +69,7 @@ The module returns any standard fields associated with the record, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -114,7 +114,7 @@ The module returns the ID of the file and any associated fields, along with any 
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -143,7 +143,7 @@ The module returns the ID of the  file and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -172,7 +172,7 @@ The module returns the ID of the  file and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -197,7 +197,7 @@ The module returns the ID of the  file and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -234,7 +234,7 @@ The module returns the ID of the  file and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -269,7 +269,7 @@ You specify the file and the lock options.
 
 The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -306,7 +306,7 @@ The module returns the ID of the  file and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -339,7 +339,7 @@ The module returns the ID of the  file and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -372,7 +372,7 @@ The module returns the ID of the folder and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -401,7 +401,7 @@ The module returns the ID of the  folder and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -430,7 +430,7 @@ The module returns the ID of the  file or folder and any associated fields, alon
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -471,7 +471,7 @@ The module returns the ID of the  folder and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -512,7 +512,7 @@ The module returns the ID of the  folder and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -549,7 +549,7 @@ When you are configuring this module, the following fields display.
 >
 >You may need to extend your permissions in your connection between Workfront Fusion and Egnyte. If prompted, click Continue and grant access to your account by clicking **Allow Access**.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -598,7 +598,7 @@ The module returns the ID of the link and any associated fields, along with any 
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -623,7 +623,7 @@ The module returns the ID of the  file link and any associated fields, along wit
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -680,7 +680,7 @@ The module returns the ID of the  folder and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -725,7 +725,7 @@ The module returns the ID of the  link and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -753,7 +753,7 @@ You specify the folder.
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -778,7 +778,7 @@ The module returns the ID of the folder and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -793,7 +793,7 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td> <p>User permissions</p> </td> 
    <td> <p>Set user permissions for the folder.</p> <p style="font-weight: bold;">Username</p> <p>Select the user you want to set the folder permissions for.</p> <p style="font-weight: bold;">Permission</p> <p>Select the permission you want to assign.</p> <p>Note: If the user has NONE permissions that were set through Workfront Fusion, the group permissions will override the NONE user permission.</p> 
-    <table cellspacing="15"> 
+    <table> 
      <col> 
      <col> 
      <tbody> 
@@ -819,7 +819,7 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td> <p>Group permissions</p> </td> 
    <td> <p>Set group permissions for the folder.</p> <p style="font-weight: bold;">Group name</p> <p>Select the group you want to set the folder permissions for.</p> <p style="font-weight: bold;">Permission</p> <p>Select the permission you want to assign to the group.</p> 
-    <table cellspacing="15"> 
+    <table> 
      <col> 
      <col> 
      <tbody> 
@@ -863,7 +863,7 @@ The module returns all standard fields associated with the record or records, al
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -892,7 +892,7 @@ This action module lets you make a custom authenticated call to the Egnyte API. 
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

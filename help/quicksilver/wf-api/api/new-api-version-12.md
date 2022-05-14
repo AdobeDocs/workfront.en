@@ -23,7 +23,7 @@ A BreadCrumb object represents an element in the parent/child hierarchy of an Ad
 
 For more information on Breadcrumbs in Workfront, see [Breadcrumbs overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
-<table cellspacing="15"> <!--
+<table> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -45,7 +45,7 @@ Rich text fields are now available on more objects. The RichTextParameterValue o
 
 For more information, see [Rich text fields in the Adobe Workfront API](../../wf-api/general/rich-text-field-api.md).
 
-<table cellspacing="15"> <!--
+<table> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -77,7 +77,7 @@ No resources were removed for API version 12.
 
 The following resources were modified for Workfront API version 12.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -132,7 +132,7 @@ An AccessLevel object is associated with users, and describes the set of AccessL
 
 For more information on access levels, see [How access levels work](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
-<table cellspacing="15"> <!--
+<table> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -157,7 +157,7 @@ For more information on access levels, see [How access levels work](../../admini
 
 An AccessLevelPermissions object represents a specific permission to access, create, or modify a Workfront object. These permissions can then be associated with an Access Level.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -228,7 +228,7 @@ An AccessLevelPermissions object represents a specific permission to access, cre
 
 If a User does not have access to an object in Workfront that they need, they can request access to that object. The AccessRequest object represents this request.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -251,7 +251,7 @@ If a User does not have access to an object in Workfront that they need, they ca
 
 An AccessRule object represents a rule set in custom access levels that determines how users can share projects they create.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -286,7 +286,7 @@ An AccessRule object represents a rule set in custom access levels that determin
 
 An ActivityLog object is a complete list of all activity that has taken place in a given Workfront Proof account.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -306,7 +306,7 @@ An AnnouncementAttachment object represents a file that has been attached to a W
 
 For more about announcement attachments, see [Send announcements](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -329,7 +329,7 @@ For more about announcement attachments, see [Send announcements](../../administ
 
 A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -366,7 +366,7 @@ A Calendar Section is a calendar report.
 
 For more information on calendar reports, see [Calendar reports overview](../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -389,7 +389,7 @@ A Company object represents an organization consisting of a collection of people
 
 For more information on companies, see [Create and edit companies](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -414,7 +414,7 @@ For more information on companies, see [Create and edit companies](../../adminis
 
 A Customer object represents an organization that uses an instance of Workfront.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -432,7 +432,7 @@ A Customer object represents an organization that uses an instance of Workfront.
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -454,7 +454,7 @@ A CustomerPreferences object represents the set of preferences that a customer h
 
 A Document object represents a file (such as written material, images, or other forms of information).
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -474,7 +474,7 @@ A DocumentVersion object represents a specific version of a file (such as writte
 
 For more information about document versions, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -511,7 +511,7 @@ For more information about document versions, see [Upload a new version of a doc
 
 A Group object represents a set of users and teams. Groups often represent departmental structure. 
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -556,7 +556,7 @@ A LinkedFolder object represents a folder linked from an external document provi
 
 For more information on Linked Folders, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -577,7 +577,7 @@ For more information on Linked Folders, see [Link documents from external applic
 
 An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -612,7 +612,7 @@ The Parameter resource added the flag SHARABLE.
 
 For more information on custom fields, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -654,7 +654,7 @@ A Portfolio object is a collection of projects that compete for the same resourc
 
 For more information on portfolios, see [Portfolio overview in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -679,7 +679,7 @@ For more information on portfolios, see [Portfolio overview in Adobe Workfront](
 
 A Program object is a subset of projects within a portfolio, where similar projects can be grouped together.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -706,7 +706,7 @@ A QueueDef object represents a Queue, which is a Project that has been published
 
 For more information on Request Queues, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -734,7 +734,7 @@ For more information on Request Queues, see [Create a Request Queue](../../manag
 
 A ScheduledReport object represents a report that has been configured to be scheduled for delivery.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -759,7 +759,7 @@ A ScoreCardQuestion object represents a question that has been added to a Scorec
 
 For more information on Scorecard Questions, see [Create a scorecard](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -777,7 +777,7 @@ For more information on Scorecard Questions, see [Create a scorecard](../../admi
 
 A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -808,7 +808,7 @@ A Task object represents a work item that must be performed as a step toward ach
 
 A Team object is a collection of Users that can be assigned to a work item.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -846,7 +846,7 @@ A TemplateTask object represents a Task that is part of a Template. Template Tas
 
 For more information on Template Tasks, see [Edit a template task](../../manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -871,7 +871,7 @@ A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter
 
 For more information on Timesheets, see [Timesheets overview](../../timesheets/timesheets/timesheets-overview.md)
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -887,7 +887,7 @@ For more information on Timesheets, see [Timesheets overview](../../timesheets/t
 
 ### Update
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -909,7 +909,7 @@ For more information on Timesheets, see [Timesheets overview](../../timesheets/t
 
 A User object represents a person with an account in Workfront that can log in and interact with the system.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -944,7 +944,7 @@ A User object represents a person with an account in Workfront that can log in a
 
 A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 

@@ -19,7 +19,7 @@ If the service does not provide webhooks, you need to use polling triggers to pe
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -14,7 +14,7 @@ You can edit existing goals from any time period and in any status.
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -14,7 +14,7 @@ This integration scenario shares progress, status, and key schedule details from
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -66,7 +66,7 @@ You must have the following in Workfront to use this scenario:
 
   The following fields represent examples of fields that may be included on the custom form to aid in data mapping to Anaplan, but they are not required for this integration scenario:
 
-  <table cellspacing="0"> 
+  <table> 
    <col> 
    <col> 
    <thead> 
@@ -180,7 +180,7 @@ Complete the following steps to deploy this integration scenario to your Fusion 
 1. Navigate to the Templates menu in Workfront Fusion and click the **Send Workfront project updates to Anaplan list item** scenario template.
 1. Replace the variable values for the following Anaplan variables:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <thead> 

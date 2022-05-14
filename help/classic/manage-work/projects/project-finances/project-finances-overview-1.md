@@ -32,7 +32,7 @@ You can keep track of financial fields at the project and task level in Workfron
 
 The following table shows some of the finances that you can keep track of in Workfront and for which object:
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <col> 

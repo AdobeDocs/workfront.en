@@ -37,7 +37,7 @@ You can either export a report manually, from the Workfront interface, or you ca
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

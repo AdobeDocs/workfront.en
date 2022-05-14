@@ -25,7 +25,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -100,7 +100,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module begins a scenario when a new board is added.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -121,7 +121,7 @@ This trigger module begins a scenario when a new board is added.
 
 This action module creates a new board with the selected settings.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -213,7 +213,7 @@ This action module creates a new board with the selected settings.
 
 This action module edits the settings of an existing board.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -317,7 +317,7 @@ This action module edits the settings of an existing board.
 
 This action module retrieves a board's details.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -336,7 +336,7 @@ This action module retrieves a board's details.
 
 This search module retrieves information about a board that you specify .
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -369,7 +369,7 @@ This search module retrieves information about a board that you specify .
 
 This action module closes or re-opens a board that you specify .
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -392,7 +392,7 @@ This action module closes or re-opens a board that you specify .
 
 This action module assigns a member to a board that you specify .
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -428,7 +428,7 @@ This action module assigns a member to a board that you specify .
 
 This action module removes a member from a board.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -462,7 +462,7 @@ This trigger module activates when a card is moved to a specific list.
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">could use this snippet here: Snippets/WF Fusion/Apps/ALL APPS/this-trigger-module.flsnp</p>
 -->
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -491,7 +491,7 @@ This trigger module activates when a card is moved to a specific list.
 
 This action module creates a list on a board that you specify .
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -526,7 +526,7 @@ This action module creates a list on a board that you specify .
 
 This action module edits an existing list.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -563,7 +563,7 @@ This action module edits an existing list.
 
 This action module retrieves details about a specific list.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -592,7 +592,7 @@ This action module retrieves details about a specific list.
 
 This trigger module activated when a new card is added.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -620,7 +620,7 @@ This trigger module activated when a new card is added.
 
 This action module creates a card in a selected list.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -691,7 +691,7 @@ This action module creates a card in a selected list.
 
 This action module edits an existing card.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -758,7 +758,7 @@ This action module edits an existing card.
 
 This action module retrieves a selected card's details.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -785,7 +785,7 @@ This action module retrieves a selected card's details.
 
 This action module returns cards that match the search query.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -834,7 +834,7 @@ This action module returns cards that match the search query.
 
 This action module archives or sends a card back to the board.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -857,7 +857,7 @@ This action module archives or sends a card back to the board.
 
 This action module adds an attachment to the selected card.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -903,7 +903,7 @@ See [Unassign a Member from a Board](#unassign-a-member-from-a-board) in this ar
 
 This action module adds the specified member to the specified card.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -926,7 +926,7 @@ This action module adds the specified member to the specified card.
 
 This action module retrieves information about Trello members.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -959,7 +959,7 @@ This action module retrieves information about Trello members.
 
 This action module creates a checklist on the selected card.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -994,7 +994,7 @@ This action module creates a checklist on the selected card.
 
 This action module adds an item to a specific checklist.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1029,7 +1029,7 @@ This action module adds an item to a specific checklist.
 
 This action module edits an existing checklist.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1070,7 +1070,7 @@ This action module edits an existing checklist.
 
 This action module adds a label to a selected card.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1099,7 +1099,7 @@ This action module adds a label to a selected card.
 
 Retrieves comment details when there is a new comment in a specified location.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1129,7 +1129,7 @@ Retrieves comment details when there is a new comment in a specified location.
 
 This action module adds a comment to a selected card.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1154,7 +1154,7 @@ This action module adds a comment to a selected card.
 
 #### List Comments in a Card {#list-comments-in-a-card}
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

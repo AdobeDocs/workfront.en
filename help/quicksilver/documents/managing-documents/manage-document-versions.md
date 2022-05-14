@@ -14,7 +14,7 @@ You can manage multiple versions of a document in Workfront.
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

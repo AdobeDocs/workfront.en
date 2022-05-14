@@ -20,7 +20,7 @@ You can edit a program in the program page or you can edit programs in a list.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
 
 1. Consider updating the following fields in the Program Details tab or the Edit Program box: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -143,7 +143,7 @@ You must have the following access to perform the steps in this article:
 <ol>
 <li value="1">Begin editing a program as described above.</li>
 <li value="2"> <p>Click <strong>Overview</strong> and specify the following fields: </p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>

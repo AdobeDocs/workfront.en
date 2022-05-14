@@ -18,7 +18,7 @@ You can view calendar reports and event details that you created or were shared 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

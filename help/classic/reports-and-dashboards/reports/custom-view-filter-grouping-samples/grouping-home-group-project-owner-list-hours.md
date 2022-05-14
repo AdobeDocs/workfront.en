@@ -23,7 +23,7 @@ The grouping also groups the results by the name of the Project Owner and the Pr
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

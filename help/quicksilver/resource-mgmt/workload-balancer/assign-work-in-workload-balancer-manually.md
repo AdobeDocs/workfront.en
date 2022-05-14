@@ -16,7 +16,7 @@ For general information about assigning work to users using the Workload Balance
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -56,7 +56,7 @@ For information on how to get the best data for this visualization, see [Enhance
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

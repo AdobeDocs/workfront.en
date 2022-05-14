@@ -30,7 +30,7 @@ You can designate up to 30 users as Resource Managers for an individual project 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

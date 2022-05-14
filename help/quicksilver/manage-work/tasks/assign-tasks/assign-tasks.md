@@ -40,7 +40,7 @@ In addition to this article, we recommend that you read the following articles f
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

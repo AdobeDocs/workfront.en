@@ -16,7 +16,7 @@ You can customize the Main Menu to better fit your needs and your workflow.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

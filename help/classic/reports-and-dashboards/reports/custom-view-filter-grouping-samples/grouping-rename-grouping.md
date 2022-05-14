@@ -27,7 +27,7 @@ You can modify this grouping using text mode to display a name that is easier to
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

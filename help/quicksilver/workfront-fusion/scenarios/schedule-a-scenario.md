@@ -15,7 +15,7 @@ By default, a scenario runs every 15 minutes. You can change this by defining wh
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -61,7 +61,7 @@ You must have the following access to use the functionality in this article:
 
 1. Enter information into the following fields:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

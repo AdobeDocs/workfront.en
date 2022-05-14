@@ -18,7 +18,7 @@ You can mark a task or issue as Done if you are the task or issue assignee. When
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

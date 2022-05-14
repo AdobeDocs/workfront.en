@@ -22,7 +22,7 @@ For instructions on viewing and filtering what you want to see in these audit lo
 
 The following fields are recorded in every audit log entry:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

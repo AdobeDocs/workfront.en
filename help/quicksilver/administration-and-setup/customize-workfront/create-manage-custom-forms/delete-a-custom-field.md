@@ -23,7 +23,7 @@ To improve system performance and to make forms easier to use for users, you mig
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

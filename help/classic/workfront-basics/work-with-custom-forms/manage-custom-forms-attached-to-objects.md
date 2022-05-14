@@ -18,7 +18,7 @@ You can update the order in which the custom forms attached to one object displa
 
 You must have the following access to perform the actions described in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

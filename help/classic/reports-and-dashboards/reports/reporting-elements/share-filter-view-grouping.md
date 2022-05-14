@@ -37,7 +37,7 @@ For information about how to create a filter, view, or grouping, see the followi
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -95,7 +95,7 @@ Sharing filters, views, or groupings in Workfront is identical.
 
    You can select from the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

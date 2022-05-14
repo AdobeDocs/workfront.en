@@ -24,7 +24,7 @@ For more information about portfolios, see [Portfolio overview in Adobe Workfron
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

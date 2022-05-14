@@ -42,7 +42,7 @@ Assigning issues and tasks is similar in&nbsp;Adobe Workfront. For general infor
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

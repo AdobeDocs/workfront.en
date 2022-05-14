@@ -20,7 +20,7 @@ You can't delete your default calendar unless you have an existing alternative c
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

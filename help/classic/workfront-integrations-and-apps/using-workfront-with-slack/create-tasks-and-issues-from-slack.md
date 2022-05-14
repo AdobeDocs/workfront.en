@@ -24,7 +24,7 @@ For more information about Access Levels, see [Access levels overview](../../adm
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

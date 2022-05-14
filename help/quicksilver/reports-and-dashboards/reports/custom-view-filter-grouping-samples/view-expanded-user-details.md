@@ -17,7 +17,7 @@ This User&nbsp;view displays information about your users. In addition to their 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

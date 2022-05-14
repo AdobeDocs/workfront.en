@@ -19,7 +19,7 @@ You can edit information on a custom form after the form is attached to an objec
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

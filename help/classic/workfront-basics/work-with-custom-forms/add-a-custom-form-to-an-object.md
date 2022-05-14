@@ -33,7 +33,7 @@ You can add a custom form only to the type of object for which the form was crea
 
 You must have the following access to perform the actions described in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

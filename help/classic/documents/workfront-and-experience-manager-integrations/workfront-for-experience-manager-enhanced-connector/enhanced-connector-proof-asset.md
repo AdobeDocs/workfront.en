@@ -18,7 +18,7 @@ After you've linked an asset from Experience Manager Assets, you can create a pr
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -68,7 +68,7 @@ To create a proof:
 
 1. Choose one of the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

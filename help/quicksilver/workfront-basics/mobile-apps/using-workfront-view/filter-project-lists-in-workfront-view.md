@@ -17,7 +17,7 @@ You can filter the list of projects in Workfront View to only display projects t
 
 You must have the following access in Workfront to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

@@ -25,7 +25,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -87,7 +87,7 @@ You can create a connection to your Datadog account directly from inside a Datad
 1. In any Datadog module, click **Add** next to the Connection field.
 1. Fill the module's fields as follows:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -135,7 +135,7 @@ The module allows you to post time-series data that can be graphed on Datadog’
 
 The limit for compressed payloads is 3.2 megabytes (3200000), and 62 megabytes (62914560) for decompressed payloads.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -161,7 +161,7 @@ The limit for compressed payloads is 3.2 megabytes (3200000), and 62 megabytes (
 
 This action module allows you to perform a custom API call.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -16,7 +16,7 @@ Event subscription resource fields represent triggers for events that result in 
 
 The following table lists the fields available for event subscription resources:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

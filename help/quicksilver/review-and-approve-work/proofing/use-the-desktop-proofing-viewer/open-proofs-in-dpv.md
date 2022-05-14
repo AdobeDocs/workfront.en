@@ -14,7 +14,7 @@ If you cannot open a proof as described below, contact your Adobe Workfront admi
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

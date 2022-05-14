@@ -13,7 +13,7 @@ You can display users, job roles, and teams associated with objects in reports o
 
 You can display or filter by users, job roles, or teams associated with the following objects:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

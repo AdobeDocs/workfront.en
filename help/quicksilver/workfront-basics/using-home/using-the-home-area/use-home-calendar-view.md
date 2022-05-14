@@ -22,7 +22,7 @@ You can use the Calendar view in the Home area to manage your work day and work 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -96,7 +96,7 @@ You&nbsp;can make updates to work items that display in Home Calendar view. Your
 
    * In the&nbsp;**Start a new update**&nbsp;box, type your update, specify any of the following information, then click **Update**.
 
-     <table cellspacing="0">
+     <table>
       <col>
       <col>
       <tbody>
@@ -158,7 +158,7 @@ To update the integrated calendar events in your Home Calendar:
 
 1. Select from the following filter options to specify the types of items you want to display:: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

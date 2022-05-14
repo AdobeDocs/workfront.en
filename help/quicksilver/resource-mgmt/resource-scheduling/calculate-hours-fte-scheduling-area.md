@@ -57,7 +57,7 @@ This setting affects user availability in the following circumstances when sched
 <h2>Access requirements</h2>
 <p>(NOTE: the rest of this article is drafted because these steps are admin steps and live in the admin area) </p>
 <p>You must have the following:</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>

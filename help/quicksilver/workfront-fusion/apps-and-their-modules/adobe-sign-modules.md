@@ -17,7 +17,7 @@ With the Adobe Acrobat Sign modules, you can start an Adobe Workfront Fusion sce
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -84,7 +84,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when an agreement is created or updated.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -115,7 +115,7 @@ This trigger module starts a scenario when an agreement is created or updated.
 
 This trigger module starts a scenario when an event that you select occurs.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -191,7 +191,7 @@ This trigger module starts a scenario when an event that you select occurs.
 
 This action module creates a new record of the selected type.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -322,7 +322,7 @@ This action module creates an agreement, sends it out for signature, and returns
 >
 >We recommend uploading the document to sign as a transient document, then mapping it to the File to send field in the Create an agreement module. For an example, see [Upload document](#upload-document) in this article.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -461,7 +461,7 @@ This action module creates an agreement, sends it out for signature, and returns
 
 This action module creates records linked to a module you select.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -578,7 +578,7 @@ This action module creates records linked to a module you select.
 
 This module allows you to perform a custom API call.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -620,7 +620,7 @@ This module allows you to perform a custom API call.
 
 This action module lists all records of the selected type that the account has access to.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -671,7 +671,7 @@ This action module lists all records of the selected type that the account has a
 
 This action module retrieves information from a single record.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -698,7 +698,7 @@ This action module retrieves information from a single record.
 
 Read additional information related to a single record.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -735,7 +735,7 @@ This action module updates a single record in Adobe Acrobat Sign.
 >* Some updates feature required fields. As you configure your update, be sure to fill out all required fields. Required fields are bold in Workfront Fusion modules.
 >
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -792,7 +792,7 @@ This action module updates records related to a specific object.
 >* Some updates feature required fields. As you configure your update, be sure to fill out all required fields. Required fields are bold in Workfront Fusion modules.
 >
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -870,7 +870,7 @@ Upload a transient document. A transient document is available for 7 days after 
 >
 >We recommend uploading the document to sign as a transient document, then mapping it to the File to send field in the Create an agreement module.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -907,7 +907,7 @@ The Upload document modules gives the document an Adobe Acrobat Sign ID that can
 
 This search module searches for agreements based on criteria you provide.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

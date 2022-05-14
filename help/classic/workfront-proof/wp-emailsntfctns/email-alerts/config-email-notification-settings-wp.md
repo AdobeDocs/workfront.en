@@ -58,7 +58,7 @@ For information about proof settings the Workfront administrator or Workfront Pr
    >
    >If you do not choose one of the following options, Workfront Proof sends you a daily summary about activity on your proofs.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -95,7 +95,7 @@ For information about proof settings the Workfront administrator or Workfront Pr
 
 1. Change any of the following: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -150,7 +150,7 @@ If you are a Workfront Proof administrator, you can set proof defaults for users
    >
    >If you do not choose one of the following options for a user, Workfront Proof sends users a daily summary about activity on their proofs.
 
-   <table cellspacing="0">
+   <table>
     <col>
     <col>
     <tbody>
@@ -187,7 +187,7 @@ If you are a Workfront Proof administrator, you can set proof defaults for users
 
 1. In the remaining **Default email alert settings**, change any of the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

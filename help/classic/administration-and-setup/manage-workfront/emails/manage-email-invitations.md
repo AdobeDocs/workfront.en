@@ -39,7 +39,7 @@ For information about receiving email invitations, see [Receive email invitation
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -92,7 +92,7 @@ As a Workfront administrator, you can configure the message you include with the
 
 1. In the **General Options** section, make any of the following modifications:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

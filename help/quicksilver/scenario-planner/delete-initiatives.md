@@ -12,7 +12,7 @@ You can delete initiatives on a plan that you created or on a plan that someone 
 
 ## Access requirements
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

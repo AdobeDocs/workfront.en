@@ -18,7 +18,7 @@ When work tasks and issues&nbsp;are assigned to you, they are listed on the Work
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

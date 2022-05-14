@@ -18,7 +18,7 @@ As a project manager, you can determine how the&nbsp;Condition of a project is c
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

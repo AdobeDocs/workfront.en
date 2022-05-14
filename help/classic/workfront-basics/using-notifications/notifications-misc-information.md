@@ -22,7 +22,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
 >
 >You cannot enable or disable daily notifications and you do not receive daily digest emails for the events in this category. You can enable or disable individual instant notifications for the Miscellaneous category.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

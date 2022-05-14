@@ -22,7 +22,7 @@ You can edit project templates to reflect changes in project processes and setti
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -93,7 +93,7 @@ You must have the following access to perform the steps in this article:
 1. In the **Edit Template** box, click **Overview**.
 1. Update the following fields:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -176,7 +176,7 @@ You must have the following access to perform the steps in this article:
 1. In the **Edit Template** box, click **Finance**.
 1. Update the following fields:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -219,7 +219,7 @@ You must have the following access to perform the steps in this article:
 1. In the **Edit Template** box, click **Portfolio**.
 1. Update the following fields:
 
-   <table cellspacing="0">
+   <table>
      class="TableStyle-TableStyle-List-options-in-steps-Column-Column1" /&gt; 
     <col> 
     <tbody> 
@@ -250,7 +250,7 @@ You must have the following access to perform the steps in this article:
 1. In the **Edit Template** box, click **Settings**.
 1. Update the following fields: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -375,7 +375,7 @@ You must have the following access to perform the steps in this article:
 
    Specify the following **Access** information for the template:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -24,7 +24,7 @@ Risks can be associated with cost, but Actual Risk Cost does not impact the Actu
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

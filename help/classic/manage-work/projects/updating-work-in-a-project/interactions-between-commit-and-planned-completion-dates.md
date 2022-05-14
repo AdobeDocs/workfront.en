@@ -24,7 +24,7 @@ Planned Completion and Commit Dates exist on both tasks and issues.
 
 The following table contains information about the difference between the Commit and Planned Completion dates:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

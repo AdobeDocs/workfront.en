@@ -44,7 +44,7 @@ There are two sets of hour types:
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -89,7 +89,7 @@ To create new hour types:
 1. Click**New Hour Type.**
 1. Specify the following information on the **New Hour Type** form:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

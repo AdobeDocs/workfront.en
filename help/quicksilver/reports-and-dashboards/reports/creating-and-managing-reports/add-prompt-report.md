@@ -32,7 +32,7 @@ A filter can tell Adobe Workfront to show only those hours entered between June 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

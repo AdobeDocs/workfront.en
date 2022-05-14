@@ -28,7 +28,7 @@ While most objects displayed in lists or reports are inline editable in Adobe Wo
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

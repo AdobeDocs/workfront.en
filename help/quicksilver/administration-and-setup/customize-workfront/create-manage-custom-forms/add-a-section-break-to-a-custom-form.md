@@ -27,7 +27,7 @@ For information about custom fields and widgets in custom forms, see [Add a cust
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -59,7 +59,7 @@ You must have the following to perform the steps in this article:
 
 1. On the **Field Settings** tab, configure the options you want for the section:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     </col> 
     <col> 
@@ -150,7 +150,7 @@ and image widgets that are not placed in a defined section in the custom form. T
 <li> <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Associating multiple object types with your form can change the viewing and editing permissions that are available in these steps. For more information, see <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">How multiple object types can affect section break permissions in a custom form</a> in this article.</p> </li>
 </ul>
 </note>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>

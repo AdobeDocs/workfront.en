@@ -29,7 +29,7 @@ However, other columns (such as Status) can still be displayed in the matrix rep
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

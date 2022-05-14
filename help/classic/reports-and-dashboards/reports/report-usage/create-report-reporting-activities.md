@@ -19,7 +19,7 @@ When you create a report about reports, you can identify specific report informa
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

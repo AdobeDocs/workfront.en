@@ -23,7 +23,7 @@ For information about using G Suite to work with notification emails sent by Wor
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -77,7 +77,7 @@ Before you can create a Workfront task in G Suite, you must
 1. If you want to attach the task to a parent project, click **Project name**, start typing the name of the project where you want the task, then click the project name when it appears in the list below.
 1. Make any of these changes:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

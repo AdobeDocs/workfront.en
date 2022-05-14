@@ -36,7 +36,7 @@ The progress icons, S, O, C, and D, appear in the progress bar indicate proof pr
 
 They indicate the following information about a proof:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

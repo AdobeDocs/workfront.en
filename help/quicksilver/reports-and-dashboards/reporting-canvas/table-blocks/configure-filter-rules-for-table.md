@@ -6,7 +6,7 @@ After you add a table block to a report, you can set up filters to limit the inf
 
 There are 3 components in a filter rule:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -37,7 +37,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -88,7 +88,7 @@ You must have the following access to perform the steps in this article:
 
 1. Select the operator that you want from the drop-down menu:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -151,7 +151,7 @@ You must have the following access to perform the steps in this article:
    1. Repeat Steps 4-6.
    1. In the operator drop-down left of the new rule, select **AND** or **OR**.
 
-      <table cellspacing="0"> 
+      <table> 
        <col> 
        </col> 
        <col> 

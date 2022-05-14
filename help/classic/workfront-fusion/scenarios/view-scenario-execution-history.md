@@ -21,7 +21,7 @@ A scenario's execution history displays all of a scenario's executions for the l
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

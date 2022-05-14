@@ -22,7 +22,7 @@ You can configure a project to allow users to add issues to the project via emai
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

@@ -34,7 +34,7 @@ Workfront administrators can add a custom webhook integration for their company 
 
 When adding an integration, the administrator will enter values for the following fields:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -168,7 +168,7 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
 
 **Query Parameters** 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -212,7 +212,7 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
 
 **Response** 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -258,7 +258,7 @@ GET /metadata?id=[document or folder ID]
 
 **Query Parameters** 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -279,7 +279,7 @@ GET /metadata?id=[document or folder ID]
 
 **Response** 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -383,7 +383,7 @@ GET /search
 
 **Query Parameters** 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -433,7 +433,7 @@ GET /download
 
 **Query Parameters** 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -493,7 +493,7 @@ POST /uploadInit
 
 **Query Parameters** 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -577,7 +577,7 @@ None. In addition, calls to this endpoint should not require authentication.
 
 JSON containing information about this service
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -749,7 +749,7 @@ GET /customAction
 
 **Query Parameters**
 
-<table cellspacing="15">
+<table>
  <col>
  <col>
  <thead>

@@ -17,7 +17,7 @@ These IP addresses or IP address ranges should be provided by your network admin
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

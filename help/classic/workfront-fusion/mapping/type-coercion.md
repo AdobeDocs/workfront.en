@@ -19,7 +19,7 @@ description: This document describes how Adobe Workfront Fusion behaves in situa
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -59,7 +59,7 @@ You must have the following access to use the functionality in this article:
 
 This document describes how Adobe Workfront Fusion behaves in situations when it receives values in expected and unexpected data formats.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

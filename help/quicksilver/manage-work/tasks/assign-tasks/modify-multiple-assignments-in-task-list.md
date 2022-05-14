@@ -25,7 +25,7 @@ For information about assigning a task to one resource in a list, see [Assign ta
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

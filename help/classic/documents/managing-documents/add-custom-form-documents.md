@@ -18,7 +18,7 @@ You can add a custom form to a document or to a document version to capture addi
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

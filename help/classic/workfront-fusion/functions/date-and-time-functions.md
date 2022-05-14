@@ -18,7 +18,7 @@ description: The following date and time functions are available in the Adobe Wo
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -76,7 +76,7 @@ For more information, see [Date](../../workfront-fusion/mapping/item-data-types.
 
 ### Parameters
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -188,7 +188,7 @@ Aug 18, 2019 10:00 AM
 
 The second column indicates the expected type. If different type is provided, [Type coercion in Adobe Workfront Fusion](../../workfront-fusion/mapping/type-coercion.md) is applied.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -885,7 +885,7 @@ If you need to calculate a date corresponding to n-th day of week in month (for 
 You can copy and paste the formula's code into a field:
 <pre>{{addDays(setDate(1.date; 1); 1.n * 7 - formatDate(addDays(setDate(1.date; 1); "-" + 1.dow); "E"))}}</pre>The formula contains the following items:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

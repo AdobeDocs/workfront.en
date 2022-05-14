@@ -22,7 +22,7 @@ You can view or edit the financial information of a project by accessing the Fin
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -65,7 +65,7 @@ Consider the following when viewing or editing information in the Finance subtab
 
 1. View the following fields in the Finance subtab of the project:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -157,7 +157,7 @@ To edit information on the Project Finance subtab:
 
 1. Update any of the fields below. 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -24,7 +24,7 @@ This functionality is supported for the following objects:
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

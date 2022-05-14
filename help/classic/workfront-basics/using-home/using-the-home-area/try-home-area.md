@@ -20,7 +20,7 @@ Your Adobe Workfront administrator can enable a setting in the Layout Template t
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

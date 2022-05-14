@@ -18,7 +18,7 @@ The Duration Type of a task identifies the relationship between the number of re
 
 You must have the following to change the Duration&nbsp;Type of a task:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -23,7 +23,7 @@ As part of configuring your Adobe Workfront system, you can manage details about
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -83,7 +83,7 @@ To&nbsp;configure your Basic Info section in your Customer Info area:
 
 1. In the **Basic Info** section at the top of the **Customer Info** page, find the following information about your instance with Workfront:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

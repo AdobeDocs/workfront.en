@@ -22,7 +22,7 @@ As an Adobe Workfront administrator, you can create a team from the Setup area. 
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the **New Team** box that displays, specify the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

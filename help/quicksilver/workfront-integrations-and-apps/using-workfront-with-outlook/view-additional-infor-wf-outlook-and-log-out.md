@@ -14,7 +14,7 @@ You can view details about the version of the Adobe Workfront add-in for Outlook
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

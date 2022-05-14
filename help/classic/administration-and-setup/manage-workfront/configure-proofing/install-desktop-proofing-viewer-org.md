@@ -19,7 +19,7 @@ The Desktop Proofing Viewer, which is designed primarily for proofing interactiv
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

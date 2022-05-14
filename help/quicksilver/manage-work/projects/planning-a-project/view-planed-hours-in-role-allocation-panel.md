@@ -24,7 +24,7 @@ You can view role allocation for all job roles assigned to work items in a proje
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

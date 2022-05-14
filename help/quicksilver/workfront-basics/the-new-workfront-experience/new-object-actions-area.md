@@ -88,7 +88,7 @@ Consider the following when using the new actions areas in the new Adobe Workfro
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -145,7 +145,7 @@ The actions area generally includes the Favorites icon and the More menu. The op
 
 The following are examples of redesigned actions areas in the new Adobe Workfront experience:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

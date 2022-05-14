@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -99,7 +99,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts the scenario when a new message is added to a public channel.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -122,7 +122,7 @@ This trigger module starts the scenario when a new message is added to a public 
 
 This trigger module starts the scenario when a new message is added to a private channel (group).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -145,7 +145,7 @@ This trigger module starts the scenario when a new message is added to a private
 
 This trigger module starts the scenario when a new message is added to a direct message.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -168,7 +168,7 @@ This trigger module starts the scenario when a new message is added to a direct 
 
 This trigger module starts the scenario when a new message is added to a multiparty direct message channel.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -191,7 +191,7 @@ This trigger module starts the scenario when a new message is added to a multipa
 
 This search module returns messages matching a search query.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -214,7 +214,7 @@ This search module returns messages matching a search query.
 
 This action module retrieves the details of a message from a selected channel.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -237,7 +237,7 @@ This action module retrieves the details of a message from a selected channel.
 
 This action module returns a message with a given ID from a specified public channel..
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -260,7 +260,7 @@ This action module returns a message with a given ID from a specified public cha
 
 This action module retrieves a thread of messages posted to a conversation.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -287,7 +287,7 @@ This action module retrieves a thread of messages posted to a conversation.
 
 This action module creates a new message.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -375,7 +375,7 @@ This action module creates a new message.
 
 This action module allows you to edit an existing message.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -424,7 +424,7 @@ This action module allows you to edit an existing message.
 
 This action module deletes a specified message.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -462,7 +462,7 @@ This action module deletes a specified message.
 
 This trigger module starts a scenario when a new file is added.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -489,7 +489,7 @@ This trigger module starts a scenario when a new file is added.
 
 This action module returns a list of files based on the specified filter.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -528,7 +528,7 @@ This action module returns a list of files based on the specified filter.
 
 This action module returns details about the specified file.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -547,7 +547,7 @@ This action module returns details about the specified file.
 
 This action module downloads a file from a URL. It must follow the Slack > Get a File module in a scenario.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -566,7 +566,7 @@ This action module downloads a file from a URL. It must follow the Slack > Get a
 
 This action module creates or uploads a file to Slack
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -601,7 +601,7 @@ This action module creates or uploads a file to Slack
 
 This action module creates a text file.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -636,7 +636,7 @@ This action module creates a text file.
 
 This action module returns deletes the specified file.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -668,7 +668,7 @@ This action module returns deletes the specified file.
 
 This search module returns a list of all channels in a workspace.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -695,7 +695,7 @@ This search module returns a list of all channels in a workspace.
 
 This action module returns information about a workspace channel.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -714,7 +714,7 @@ This action module returns information about a workspace channel.
 
 This search module returns a list of users in the selected channel.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -750,7 +750,7 @@ This search module returns a list of users in the selected channel.
 
 This action module changes the topic of a channel
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -786,7 +786,7 @@ This action module changes the topic of a channel
 
 This action module changes the purpose of a channel
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -822,7 +822,7 @@ This action module changes the purpose of a channel
 
 This action module joins the user to a channel.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -841,7 +841,7 @@ This action module joins the user to a channel.
 
 This action module removes the user from a channel.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -860,7 +860,7 @@ This action module removes the user from a channel.
 
 This action module creates a new channel.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -883,7 +883,7 @@ This action module creates a new channel.
 
 This action module creates a new channel.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -902,7 +902,7 @@ This action module creates a new channel.
 
 This action module creates a new channel.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -927,7 +927,7 @@ This action module creates a new channel.
 
 This action module returns reactions that a user made.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -950,7 +950,7 @@ This action module returns reactions that a user made.
 
 This action module adds a reaction to an item.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -981,7 +981,7 @@ This action module adds a reaction to an item.
 
 This action module adds a reaction to an item.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1017,7 +1017,7 @@ This action module adds a reaction to an item.
 
 This action module makes a channel a starred channel.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1040,7 +1040,7 @@ This action module makes a channel a starred channel.
 
 This action module removed the star from a starred channel.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1068,7 +1068,7 @@ This action module removed the star from a starred channel.
 
 This action module adds an item to saved items.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1091,7 +1091,7 @@ This action module adds an item to saved items.
 
 This action module adds an item to saved items.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1119,7 +1119,7 @@ This action module adds an item to saved items.
 
 This action module pins an item, such as a file or file comment, to a channel.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1146,7 +1146,7 @@ This action module pins an item, such as a file or file comment, to a channel.
 
 This action module unpins an item from a channel. You can unpin files, file comments, channel messages, or group messages.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1182,7 +1182,7 @@ This action module unpins an item from a channel. You can unpin files, file comm
 
 This trigger module starts the scenario when a new user is added to the Slack workspace.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1201,7 +1201,7 @@ This trigger module starts the scenario when a new user is added to the Slack wo
 
 This action module retrieves details about a single user, by using their email address.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1220,7 +1220,7 @@ This action module retrieves details about a single user, by using their email a
 
 This action module returns a list of all users in a workspace.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1239,7 +1239,7 @@ This action module returns a list of all users in a workspace.
 
 This action module retrieves details about a member of a workspace.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1258,7 +1258,7 @@ This action module retrieves details about a member of a workspace.
 
 This action module invites 1-30 users to a public or private channel.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1285,7 +1285,7 @@ This action module invites 1-30 users to a public or private channel.
 
 This action module removes a user from a channel.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1320,7 +1320,7 @@ This action module removes a user from a channel.
 
 This action module returns a list of all reminders created by or given to the currently authenticated user.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1339,7 +1339,7 @@ This action module returns a list of all reminders created by or given to the cu
 
 This action module retrieves details about a specific reminder.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1358,7 +1358,7 @@ This action module retrieves details about a specific reminder.
 
 This action module creates a reminder.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1390,7 +1390,7 @@ This action module creates a reminder.
 
 This action module completes a specific reminder.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1409,7 +1409,7 @@ This action module completes a specific reminder.
 
 This action module deletes a specific reminder.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1430,7 +1430,7 @@ This action module deletes a specific reminder.
 
 This instant trigger starts a scenario when a new message or other event is created.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1454,7 +1454,7 @@ This instant trigger starts a scenario when a new message or other event is crea
 
 This action module updates a user's current status.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1488,7 +1488,7 @@ This action module updates a user's current status.
 
 This action module lets you make a custom authenticated call to the Slack API. This way, you can create a data flow automation that can't be accomplished by the other Slack modules. 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

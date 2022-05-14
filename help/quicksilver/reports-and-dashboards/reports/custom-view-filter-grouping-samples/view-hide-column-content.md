@@ -22,7 +22,7 @@ You might want to hide information in the column of a view. You can do this by m
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

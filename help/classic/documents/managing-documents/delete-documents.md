@@ -18,7 +18,7 @@ You can delete documents you upload. If you're given manage access to specific d
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -31,7 +31,7 @@ You can configure Adobe Workfront to allow tasks and issues to be assigned to an
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

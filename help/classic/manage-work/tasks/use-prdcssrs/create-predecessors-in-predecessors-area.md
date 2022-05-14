@@ -30,7 +30,7 @@ For information about predecessors, see [Overview of task predecessors](../../..
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

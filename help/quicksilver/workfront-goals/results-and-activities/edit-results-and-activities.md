@@ -22,7 +22,7 @@ For information about creating goals, results and activities, see the following 
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

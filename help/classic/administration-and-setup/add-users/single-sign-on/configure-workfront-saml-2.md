@@ -31,7 +31,7 @@ After you have configure SAML 2.0 in Workfront, as described in the following se
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -63,7 +63,7 @@ You must have the following access to perform the steps in this article:
 
 1. Specify the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

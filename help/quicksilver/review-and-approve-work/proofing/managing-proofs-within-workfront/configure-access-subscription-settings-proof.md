@@ -14,7 +14,7 @@ You can configure certain access and subscription settings for individual proofs
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -49,7 +49,7 @@ To set up access and subscription settings for a proof while you are creating it
 
 1. Configure the following settings:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -81,7 +81,7 @@ To set up access and subscription settings&nbsp;for a proof&nbsp;that already ex
 1. In the left panel, click **Proofing Viewer Settings**.
 1. Configure the following settings:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

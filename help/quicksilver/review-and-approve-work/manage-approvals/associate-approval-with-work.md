@@ -32,7 +32,7 @@ For information about creating a global approval process, see [Create an approva
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

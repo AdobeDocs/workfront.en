@@ -18,7 +18,7 @@ You can install the Workfront for Adobe XD plugin from the Adobe Marketplace.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

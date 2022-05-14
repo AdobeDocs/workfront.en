@@ -36,7 +36,7 @@ You can create a request in the following ways:
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -137,7 +137,7 @@ To create a request in the Workfront web app:&nbsp;
 
 1. Depending on what fields the Workfront administrator enabled in the **New Issue Fields** section of the **Queue Details**&nbsp;subtab on the project, you might find&nbsp;any of the following fields when you submit a new request:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

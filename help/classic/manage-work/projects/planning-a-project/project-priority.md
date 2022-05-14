@@ -19,7 +19,7 @@ There are several ways to use priorities for projects and they do not communicat
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

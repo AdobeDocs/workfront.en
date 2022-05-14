@@ -17,7 +17,7 @@ A connection must adhere to the requirements set by the API of the app or web se
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -92,7 +92,7 @@ For more information see:
 
 The following apps do not follow the basic configuration for Workfront Fusion connections. You can find instructions for connecting these apps in the article for that app.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 

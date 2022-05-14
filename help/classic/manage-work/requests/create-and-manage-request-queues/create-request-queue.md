@@ -22,7 +22,7 @@ You can set up a Request Queue where users can enter occasional requests that ar
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -53,7 +53,7 @@ You set up a request queue as a project. When you designate the project as a Req
 
 This article describes how to create a request queue from an existing project. However, to build consistency for your request intake process or to add multiple layers to it for reporting purposes and better management, you can also configure additional building blocks of a request queue which are described in the following table. 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

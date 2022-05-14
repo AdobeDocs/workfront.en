@@ -26,7 +26,7 @@ For a list of Jira versions that Workfront for Jira currently supports, see [Wor
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

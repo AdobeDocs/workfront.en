@@ -18,7 +18,7 @@ Resource pools are collections of users that help you manage resources easier in
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ You must have the following:
 1. Click **New Resource Pool**.
 1. Specify the following:
 
-   <table cellspacing="0">
+   <table>
     <col>
     <col>
     <tbody>

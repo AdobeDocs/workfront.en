@@ -20,7 +20,7 @@ Adobe Workfront can generate a unique URL for the User View of the Resource Plan
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

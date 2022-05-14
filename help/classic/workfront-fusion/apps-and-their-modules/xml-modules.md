@@ -20,7 +20,7 @@ The XML app enables you to parse an XML formatted text via the XML > Parse XML m
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -60,7 +60,7 @@ You must have the following access to use the functionality in this article:
 
 The XML > Parse XML module parses an XML formatted text and outputs a single bundle containing all the information extracted from the XML.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -106,7 +106,7 @@ The XML > Parse XML module parses an XML formatted text and outputs a single bun
 1. Click **OK**to save and close the module's configuration.
 1. Add XML > Parse XML module, connect it after the HTTP > Get a file module and configure it as follows:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -164,7 +164,7 @@ for the text content of the node.
 
 The XML > Create XML module converts a bundle to an XML formatted text.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

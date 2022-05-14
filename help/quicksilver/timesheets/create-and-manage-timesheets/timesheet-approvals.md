@@ -18,7 +18,7 @@ For information on submitting a timesheet, see [Submit a timesheet for approval]
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

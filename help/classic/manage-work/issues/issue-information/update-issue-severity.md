@@ -31,7 +31,7 @@ You can update the severity of issues in the following areas of Workfront:
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

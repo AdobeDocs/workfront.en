@@ -18,7 +18,7 @@ Iterations are a key component for Scrum agile teams in planning out work capaci
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -50,7 +50,7 @@ Use the Plan Iteration feature to create an iteration using tasks on your backlo
 
 1. Specify the following information:  
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -50,7 +50,7 @@ If you change the file format of the item and then upload it back to Workfront L
 
    You can specify the following download options for an image file:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -95,7 +95,7 @@ If you change the file format of the item and then upload it back to Workfront L
 
    You can specify the following download options for a document:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

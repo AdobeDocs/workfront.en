@@ -32,7 +32,7 @@ EAC Method = Calculate at project level ****
 1. Create Project A with three tasks (no child tasks) all assigned to User 1 whose cost/hr is $100.00. 
 1. Add Planned and Actual hours to each task and % Complete according to the table below: 
 
-   <table cellspacing="15">
+   <table>
     <col>
     <col>
     <col>
@@ -117,7 +117,7 @@ EAC Method = Calculate at project level
    >
    >For Tasks 1 and 3, you are only adding actual hours.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -239,7 +239,7 @@ EAC Method = Calculate at project level
 1. Create Project A with three tasks (no child tasks) all assigned to User 1 whose cost/hr is $100.00. 
 1. Add planned/ actual hours to each task and % Complete according to the table below:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -286,7 +286,7 @@ EAC Method = Calculate at project level
 
 1. Add expenses to each task according to the table below:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -329,7 +329,7 @@ EAC Method = Calculate at project level
 
 1. Add two expenses to the project (i.e. not tied to a task) as follows:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -356,7 +356,7 @@ EAC Method = Calculate at project level
 
 1. Based on the above values, the Incurred/ Not Incurred Costs are determined as follows:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -503,7 +503,7 @@ EAC Method = Calculate at project level
    >
    >For Tasks 1 and 3, you are only adding actual hours.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -575,7 +575,7 @@ EAC Method = Calculate at project level
 1. Add 50 hours directly to the project (More>Hours>Log Hours) so that there is $5,000.00 of actual labor cost recorded directly to the project. ****
 1. Add expenses to each task according to the table below (I’ve added a blank row in between each task to make it easier to read):
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -720,7 +720,7 @@ EAC Method = Calculate at project level
 
 1. Add two expenses to the project (i.e. not tied to a task) as follows:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -747,7 +747,7 @@ EAC Method = Calculate at project level
 
 1. Based on the above values, the Incurred/Not Incurred Costs are determined as follows:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

@@ -24,7 +24,7 @@ As an Adobe Workfront administrator, you can create custom statuses for projects
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -75,7 +75,7 @@ When you create a custom status for the entire organization, you can configure i
 
 1. Configure the status using the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

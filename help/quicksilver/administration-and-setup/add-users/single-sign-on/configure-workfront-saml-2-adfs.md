@@ -27,7 +27,7 @@ This guide focuses on setting up ADFS without auto provisioning or attribute map
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

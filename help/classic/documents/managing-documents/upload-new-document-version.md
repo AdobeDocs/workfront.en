@@ -24,7 +24,7 @@ For information about adding a new version of a document linked to Workfront fro
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

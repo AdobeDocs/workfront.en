@@ -20,7 +20,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## A - C
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -325,7 +325,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
     </ul> <p>For information about budgeting Users in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> 
     <div> 
      <p>The hours budgeted in the Resource Budgeting area of the Business Case or the Resource Planner display in the following areas of Workfront and under the following names:</p> 
-     <table cellspacing="15"> 
+     <table> 
       <col> 
       <col> 
       <tbody> 
@@ -709,7 +709,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## D - F
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -885,7 +885,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## G - I
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -1034,7 +1034,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## J - L
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -1179,7 +1179,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## M - O
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -1346,7 +1346,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## P - R
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -1827,7 +1827,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## S - U
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -2161,7 +2161,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## V - Z
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -24,7 +24,7 @@ If you have a license type different than Review, the Workfront or Group adminis
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -81,7 +81,7 @@ You must have the following before you begin:
 
 1. (Optional) Expand the **Filter** drop-down menu ![](assets/filter-nwepng.png) in the upper-right corner of the **My Updates** section and select from the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     </col> 
     <col> 

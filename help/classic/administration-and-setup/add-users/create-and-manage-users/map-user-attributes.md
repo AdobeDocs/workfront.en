@@ -24,7 +24,7 @@ Using single sign-on (SSO), you can pass attributes from your identity providerâ
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -84,7 +84,7 @@ Keep the following in mind when mapping attributes:
 
    The following table explains the fields you can use to map attributes:
 
-   <table cellspacing="0"> 
+   <table> 
     <col data-mc-conditions=""> 
     <col data-mc-conditions=""> 
     <tbody> 

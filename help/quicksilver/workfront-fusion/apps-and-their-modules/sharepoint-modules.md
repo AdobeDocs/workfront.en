@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -111,7 +111,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when an item is created or modified.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -142,7 +142,7 @@ This trigger module starts a scenario when an item is created or modified.
 
 This action module retrieves a list of all items in a specified list.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -169,7 +169,7 @@ This action module retrieves a list of all items in a specified list.
 
 This action module returns the data of a specified item.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -192,7 +192,7 @@ This action module returns the data of a specified item.
 
 This action module creates a new item in a SharePoint list.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -219,7 +219,7 @@ This action module creates a new item in a SharePoint list.
 
 This action module updates an existing item in a SharePoint list.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -246,7 +246,7 @@ This action module updates an existing item in a SharePoint list.
 
 This action module deletes an existing item in a SharePoint list.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -276,7 +276,7 @@ This action module deletes an existing item in a SharePoint list.
 
 This trigger module starts a scenario when a list is created or modified.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -307,7 +307,7 @@ This trigger module starts a scenario when a list is created or modified.
 
 This action module retrieves a list of all items in a specified list.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -334,7 +334,7 @@ This action module retrieves a list of all items in a specified list.
 
 This action module returns the data of a specified list.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -357,7 +357,7 @@ This action module returns the data of a specified list.
 
 This action module creates a new list in SharePoint.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -402,7 +402,7 @@ This action module creates a new list in SharePoint.
 
 This action module returns the data of a specified page.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -430,7 +430,7 @@ This action module returns the data of a specified page.
 
 This action module searches for sites by a parameter you specify.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -453,7 +453,7 @@ This action module searches for sites by a parameter you specify.
 
 This action module returns the data of a specified site.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -478,7 +478,7 @@ This action module returns the data of a specified site.
 
 This module allows you to perform a custom API call.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -535,7 +535,7 @@ This module allows you to perform a custom API call.
 <p><strong>Watch Records</strong></p>
 <p>This trigger module executes a scenario when the scheduled poll shows that an object has been added or updated in SharePoint. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses.You can map this information in subsequent modules in the scenario.This trigger module executes a scenario when an object is added or updated. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario. This is a scheduled trigger module.</p>
 <p>When you are configuring this module, the following fields display.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -564,7 +564,7 @@ This module allows you to perform a custom API call.
 <p><strong>Create a folder</strong></p>
 <p>This action module creates a new folder.</p>
 <p>When you are configuring this module, the following fields display.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -594,7 +594,7 @@ This module allows you to perform a custom API call.
 <p>This action module creates a new item in a SharePoint list.</p>
 <p>The module returns the ID of the new item and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
 <p>When you are configuring this module, the following fields display.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -619,7 +619,7 @@ This module allows you to perform a custom API call.
 <p><strong>Delete an item</strong></p>
 <p>This action module deletes an item that you identify.</p>
 <p>When you are configuring this module, the following fields display.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -646,7 +646,7 @@ This module allows you to perform a custom API call.
 <p>You specify the ID of the file.</p>
 <p>The module returns the file's content, filename, file extension, and file size. You can map this information in subsequent modules in the scenario.</p>
 <p>When you are configuring this module, the following fields display.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -671,7 +671,7 @@ This module allows you to perform a custom API call.
 <p><strong>Read a document</strong></p>
 <p>This action module reads a single document and returns a bundle of the document's fields.</p>
 <p>When you are configuring this module, the following fields display.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -696,7 +696,7 @@ This module allows you to perform a custom API call.
 <p><strong>Read an item</strong></p>
 <p>This action module reads a single item and returns a bundle of the item's fields.</p>
 <p>When you are configuring this module, the following fields display.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -721,7 +721,7 @@ This module allows you to perform a custom API call.
 <p><strong>Update an item</strong></p>
 <p>This action module updates an existing item in a SharePoint list.</p>
 <p>When you are configuring this module, the following fields display.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -748,7 +748,7 @@ This module allows you to perform a custom API call.
 <p>You specify the location for the file, the file you want to upload, and an optional new name for the file.</p>
 <p>The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
 <p>When you are configuring this module, the following fields display.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -776,7 +776,7 @@ This module allows you to perform a custom API call.
 </table>
 <p><strong>Search Documents</strong></p>
 <p>This search module searches for a file or folder inside a SharePoint drive.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>

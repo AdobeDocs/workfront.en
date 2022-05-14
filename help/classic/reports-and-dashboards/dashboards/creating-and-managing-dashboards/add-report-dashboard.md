@@ -18,7 +18,7 @@ You can add a report to a new or existing dashboard directly from a report. You 
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

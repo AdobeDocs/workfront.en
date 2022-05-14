@@ -23,7 +23,7 @@ For more information about trigger modules, see the section [Trigger modules](..
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

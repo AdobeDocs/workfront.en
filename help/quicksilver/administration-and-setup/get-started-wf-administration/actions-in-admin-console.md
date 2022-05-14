@@ -18,7 +18,7 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
 
 ## Users
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <col> 

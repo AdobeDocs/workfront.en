@@ -26,7 +26,7 @@ Users with a Plan license can also create and manage users. For information abou
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ You must have the following to perform the steps in this article:
 
 1. In the **Edit User** box that displays, change any of the following information, then click **Save Changes**: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -22,7 +22,7 @@ For information about layout templates for groups, see [Create and modify a grou
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -82,7 +82,7 @@ You must have the following access to perform the steps in this article:
 
 1. Hide and add list controls as follows:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -73,7 +73,7 @@ To create or modify an existing layout template:
 1. Begin creating your layout template, as described above, in [Create or modify a layout template](#create-or-modify-a-layout-template).
 1. On the **Set Details** tab, supply the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

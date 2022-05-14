@@ -23,7 +23,7 @@ For more details on specific incidents that could affect your FLOs, check our st
 
 The following table shows how each type of FLO is affected by a service outage:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

@@ -18,7 +18,7 @@ You can view and reply to proof comments made by other reviewers.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

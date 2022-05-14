@@ -34,7 +34,7 @@ The tabs and subtabs that we have removed have been replaced by either main area
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -92,7 +92,7 @@ When accessing the Projects area, you can use the filter to display only project
 
 1. From the **Filter** drop-down menu, select from the following built-in filters to display certain types of projects:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

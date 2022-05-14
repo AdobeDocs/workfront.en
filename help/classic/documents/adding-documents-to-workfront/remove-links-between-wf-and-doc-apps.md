@@ -22,7 +22,7 @@ Since the document service is the one allowing permission to link to Workfront, 
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

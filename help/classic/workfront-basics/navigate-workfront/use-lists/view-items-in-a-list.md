@@ -49,7 +49,7 @@ Below are some types of object lists that you can find in Workfront and some of 
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Might be useful to add a Description column that explains the objects that appear in each list.</p>
 -->
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -205,7 +205,7 @@ A list contains certain elements that define its format and the information that
 
 The following are the elements of a list:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -278,7 +278,7 @@ The following table shows some of the differences between the legacy and updated
 <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>
 -->
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -319,7 +319,7 @@ Both lists and reports are grids that contain information about a type of object
 
 The following table outlines the similarities and differences between lists and reports:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -430,7 +430,7 @@ For more information about building a report, see [Create a custom report](../..
 
 You can complete the following actions in a list:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

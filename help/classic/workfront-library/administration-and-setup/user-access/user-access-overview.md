@@ -71,7 +71,7 @@ Above the User table, you can:
 
 Each column in the table gives you additional options.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -113,7 +113,7 @@ Above each user grouping table, you can:
 
 In the Setup area for each type of user grouping, you can see the following columns:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -18,7 +18,7 @@ You can create work items from the Home area. You can create personal tasks for 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

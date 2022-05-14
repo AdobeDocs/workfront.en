@@ -25,7 +25,7 @@ Only organizations that require time entry can use CPI. Furthermore, cost-based 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

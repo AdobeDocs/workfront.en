@@ -52,7 +52,7 @@ As a Workfront administrator, you can brand Workfront with logos in the followin
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -79,7 +79,7 @@ You must have the following access to perform the steps in this article:
 
 1. Make any of the following changes to customize Workfront with your branding images.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

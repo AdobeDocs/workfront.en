@@ -35,7 +35,7 @@ Because GUID user names can be difficult to use, we recommend you first change a
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

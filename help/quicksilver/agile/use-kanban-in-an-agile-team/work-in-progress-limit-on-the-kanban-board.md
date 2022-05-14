@@ -16,7 +16,7 @@ The WIP limit is simply a visual warning and does not restrict your team from ha
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

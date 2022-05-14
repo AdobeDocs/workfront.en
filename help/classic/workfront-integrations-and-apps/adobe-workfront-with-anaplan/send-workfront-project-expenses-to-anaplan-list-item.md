@@ -126,7 +126,7 @@ Complete the following steps to deploy this integration scenario to your Fusion 
 1. Navigate to the Templates menu in Workfront Fusion and click the **Send Workfront expenses updates to Anaplan list item** scenario template.
 1. Replace the variable values for the following Anaplan variables:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     </col> 
     <col> 

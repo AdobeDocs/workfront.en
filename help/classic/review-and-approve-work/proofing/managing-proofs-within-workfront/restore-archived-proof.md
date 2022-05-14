@@ -18,7 +18,7 @@ A proof is automatically archived when it is not opened for 60 consecutive days.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

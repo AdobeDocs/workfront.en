@@ -26,7 +26,7 @@ For example, if your organization has a web-based document repository, wiki, or 
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

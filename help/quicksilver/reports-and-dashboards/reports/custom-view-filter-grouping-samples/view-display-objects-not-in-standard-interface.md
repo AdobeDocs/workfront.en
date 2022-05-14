@@ -36,7 +36,7 @@ You can determine which fields can be included in a view in either of the follow
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -17,7 +17,7 @@ For information about creating issues in Workfront, see [Create issues](../../..
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

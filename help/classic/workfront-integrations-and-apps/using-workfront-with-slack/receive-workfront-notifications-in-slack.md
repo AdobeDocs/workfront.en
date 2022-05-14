@@ -28,7 +28,7 @@ You can, however, disable Workfront notifications that you might receive in Slac
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

@@ -19,7 +19,7 @@ When you are finished building or editing a custom form, you can preview it to s
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

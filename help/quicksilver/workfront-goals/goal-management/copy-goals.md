@@ -14,7 +14,7 @@ You can copy goals in&nbsp;Adobe Workfront Goals to create a goal. Some of the o
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

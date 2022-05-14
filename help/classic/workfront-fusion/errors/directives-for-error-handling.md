@@ -18,7 +18,7 @@ description: This article describes directives that you can use for error handli
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ You must have the following access to use the functionality in this article:
 
 ## Directives for error handling
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

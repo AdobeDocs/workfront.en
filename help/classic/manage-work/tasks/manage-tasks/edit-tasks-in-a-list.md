@@ -18,7 +18,7 @@ You can edit task information in a list of tasks by editing the fields displayed
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -132,7 +132,7 @@ To edit tasks in a list and save changes automatically:
 
 1. (Optional) Select from the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -245,7 +245,7 @@ To edit tasks in a list when selecting the Manual save option:
 
 1. (Optional) Select from the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -347,7 +347,7 @@ To edit tasks in a list when using the Timeline Planning option:
 
 1. Select from the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

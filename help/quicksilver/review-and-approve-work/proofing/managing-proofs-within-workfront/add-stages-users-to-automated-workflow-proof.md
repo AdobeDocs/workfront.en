@@ -14,7 +14,7 @@ If you are the proof owner, you can add stages to an existing Automated Workflow
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
 1. Near the upper-right corner of Adobe Workfront, click **New stage**.
 1. Specify the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

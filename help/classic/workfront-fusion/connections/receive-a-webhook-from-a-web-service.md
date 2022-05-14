@@ -19,7 +19,7 @@ If a web service is not currently implemented as an app in Adobe Workfront Fusio
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

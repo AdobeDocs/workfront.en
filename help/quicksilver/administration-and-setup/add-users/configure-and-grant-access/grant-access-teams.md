@@ -18,7 +18,7 @@ As an Adobe Workfront administrator, you can use an access level to define a use
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
 
    1. **View**: If you are configuring how users with any license can view teams, change any of the following options:
 
-      <table cellspacing="0">
+      <table>
        <col>
        <col>
        <tbody>
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
 
    1. **Edit**: If you are configuring how users with a Plan license and Work license can manage teams, change any of the following options:
 
-      <table cellspacing="0">
+      <table>
        <col>
        <col>
        <tbody>

@@ -18,7 +18,7 @@ You can prioritize items from your Work List in Home.&nbsp;Items you add to My P
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

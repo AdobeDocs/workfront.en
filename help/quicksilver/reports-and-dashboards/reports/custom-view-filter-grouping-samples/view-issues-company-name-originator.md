@@ -17,7 +17,7 @@ This issue view displays the company name associated with the user who submitted
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -18,7 +18,7 @@ Task constraints determine when a task should start and end on a project. For mo
 
 You must have the following to change the Task Constraint of a task:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

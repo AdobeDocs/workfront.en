@@ -21,7 +21,7 @@ You cannot add updates to tasks or issues in Workfront View.
 
 You must have the following access in Workfront to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

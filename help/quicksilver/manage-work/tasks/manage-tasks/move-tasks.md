@@ -21,7 +21,7 @@ You can move a task at the task level or you can move a task from a list of task
 
 You must have the following access to perform the actions in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -131,7 +131,7 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
    >
    >Deselecting items in the Options list results in loss of data. Information from the existing task will be removed and cannot be recovered.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

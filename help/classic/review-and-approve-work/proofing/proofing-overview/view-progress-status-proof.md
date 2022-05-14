@@ -20,7 +20,7 @@ Proof progress indicates the work done on a proof from the time you send the pro
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

@@ -19,7 +19,7 @@ After exporting the Gantt chart to PDF, you can print or attach it to an email, 
 
 You must have the following to follow the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

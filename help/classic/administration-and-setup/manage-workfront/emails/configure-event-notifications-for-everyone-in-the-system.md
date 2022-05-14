@@ -37,7 +37,7 @@ For information about unlocking an event notification so that group administrato
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

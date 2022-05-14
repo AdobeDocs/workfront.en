@@ -21,7 +21,7 @@ For information about creating a template, see [Create a project template](../..
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -105,7 +105,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
 1. Update any of the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -221,7 +221,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
 1. Update any of the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -268,7 +268,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
 1. Update any of the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

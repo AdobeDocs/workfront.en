@@ -22,7 +22,7 @@ You can create plans as part of using the Workfront Scenario Planner, when prior
 
 You must have the following:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -104,7 +104,7 @@ To create or edit a plan:
 
 1. (Conditional) When you create a new plan, specify the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -179,7 +179,7 @@ To create or edit a plan:
 
 1. Update or review the following information for the job role:&nbsp;
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -225,7 +225,7 @@ To create or edit a plan:
 1. Type the name of a job role to add it to the plan in the **Start typing job role field**, then click&nbsp;Enter when it appears on the list. This adds the job role to the Job&nbsp;Roles column. 
 1. Update or review the following information for each month of the scenario: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -15,7 +15,7 @@ For more information about completing and submitting a Business Case, see the ar
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

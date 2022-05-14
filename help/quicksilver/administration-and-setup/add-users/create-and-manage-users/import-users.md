@@ -26,7 +26,7 @@ Before you create a new user, first ensure that you have created all objects tha
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

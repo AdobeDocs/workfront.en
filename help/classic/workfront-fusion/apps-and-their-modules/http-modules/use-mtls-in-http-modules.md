@@ -35,7 +35,7 @@ Mutual TLS allows this identity confirmation to go both ways. When the server se
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -20,7 +20,7 @@ You can manually update the Condition of a task or issue if you are assigned to 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

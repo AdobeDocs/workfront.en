@@ -198,7 +198,7 @@ In a list of issues, you can identify issues that are labeled as resolving objec
 You can display information about the Resolvable or Resolving Objects in the view or report for projects, tasks, or issues.  
 The following table shows what fields you can display and in which views you can display them:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

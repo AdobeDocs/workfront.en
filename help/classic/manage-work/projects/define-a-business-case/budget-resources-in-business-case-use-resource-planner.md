@@ -23,7 +23,7 @@ For more information about creating a business case, see [Create a Business Case
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

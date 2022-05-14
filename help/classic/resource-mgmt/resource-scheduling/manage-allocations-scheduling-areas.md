@@ -34,7 +34,7 @@ You can display user allocations in the following areas of Adobe Workfront:
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -210,7 +210,7 @@ To enable user allocations on the Scheduling timeline:
 
 1. Enable one or both of the following options to show user allocations on the Scheduling timeline:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

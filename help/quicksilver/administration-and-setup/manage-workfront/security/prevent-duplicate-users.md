@@ -15,7 +15,7 @@ When creating a new user in Adobe Workfront, you can no longer use an email addr
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

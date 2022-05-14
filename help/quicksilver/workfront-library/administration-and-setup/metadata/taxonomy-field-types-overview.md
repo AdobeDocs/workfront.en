@@ -18,7 +18,7 @@ Workfront Library supports known EXIF metadata, as well as a list of additional 
 
 Known EXIF metadata:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -245,7 +245,7 @@ Known EXIF metadata:
 
 Additional EXIF metadata supported:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -370,7 +370,7 @@ Workfront Library supports both IPTC and XMP metadata. The tables below show eac
 
 IPTC metadata:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -469,7 +469,7 @@ IPTC metadata:
 
 XMP:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

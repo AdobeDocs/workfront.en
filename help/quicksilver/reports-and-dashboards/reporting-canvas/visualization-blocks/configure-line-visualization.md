@@ -8,7 +8,7 @@ A line visualization can help you quickly tell a story about your data by enhanc
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -49,7 +49,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
    1. On the **Settings** tab:
 
-      <table cellspacing="0">
+      <table>
        <col>
        <col>
        <tbody>
@@ -72,7 +72,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
       <!--   
       <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Data</b> tab:</p>   
-      <table cellspacing="0">   
+      <table>   
       <col>   
       <col>   
       <tbody>   
@@ -90,7 +90,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
       <!--   
       <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Style</b> tab:</p>   
-      <table cellspacing="0">   
+      <table>   
       <col>   
       <col>   
       <tbody>   

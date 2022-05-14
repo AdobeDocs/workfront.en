@@ -20,7 +20,7 @@ The Workfront View app is supported only for iPads.
 
 You must have the following access in Workfront to access information in Workfront View and perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

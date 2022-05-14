@@ -17,7 +17,7 @@ You can add the following column in a project report to show the Actual Duration
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

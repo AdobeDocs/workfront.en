@@ -41,7 +41,7 @@ There are several types of filters in Workfront. All filters fulfill the same pu
 
 The following are types of filters that you can use in&nbsp;Workfront:
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -146,7 +146,7 @@ When you build a filter, you connect multiple elements together that make up fil
 
 A filter contains the following elements:
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

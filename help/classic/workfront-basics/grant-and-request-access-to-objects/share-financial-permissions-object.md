@@ -23,7 +23,7 @@ For information about what users in each access level can do with financial data
 
 You must have the following to share financial data information on objects:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -85,7 +85,7 @@ To grant financial permissions to an object:
 
 The following table displays what financial permissions users gain when you grant them View, Contribute, or Manage permissions on objects:&nbsp;
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

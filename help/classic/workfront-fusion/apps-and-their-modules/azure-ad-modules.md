@@ -23,7 +23,7 @@ If you need instructions on creating a scenario, see [Create a scenario in Adobe
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -90,7 +90,7 @@ since the last scheduled run in Azure Active Directory. It also returns all stan
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -138,7 +138,7 @@ You must have sufficient permissions to access the record in Azure Active Direct
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -171,7 +171,7 @@ The module returns the ID of the  record and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -196,7 +196,7 @@ This action module lets you make a custom authenticated call to the Azure Active
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -241,7 +241,7 @@ This search module looks for records in an object in Azure Active Directory that
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -268,7 +268,7 @@ When you are configuring this module, the following fields display.
 
 This search module looks for records in Azure AD that have been created, updated, or deleted.You can map this information in subsequent modules in the scenario.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

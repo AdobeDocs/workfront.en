@@ -43,7 +43,7 @@ In the new Adobe Workfront experience, this information displays under sections 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -131,7 +131,7 @@ To learn how to use the left panel in the Requests area, see the section [Use th
 
 The following sections display in the left panel for the **Resourcing** area:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

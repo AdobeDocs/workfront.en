@@ -16,7 +16,7 @@ For information about creating an Automated Workflow for a new proof, see [Creat
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -80,7 +80,7 @@ You must have the following access to perform the steps in this article:
    
    1. Use any of the following options to further configure the stage:
 
-      <table cellspacing="0">
+      <table>
        <col>
        <col>
        <tbody>

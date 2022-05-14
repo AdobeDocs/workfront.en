@@ -19,7 +19,7 @@ If you need instructions on creating a scenario, see [Create a scenario in Adobe
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -76,7 +76,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This instant trigger module starts a scenario when a file is added, moved, copied, deleted, locked, or unlocked.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -95,7 +95,7 @@ This instant trigger module starts a scenario when a file is added, moved, copie
 
 This trigger module starts a scenario when a new file is added or an existing file is updated in a folder being watched.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -135,7 +135,7 @@ The module returns the ID of the  file and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -168,7 +168,7 @@ The module returns the ID of the  file and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -197,7 +197,7 @@ The module returns the ID of the  file and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -226,7 +226,7 @@ The module returns the ID of the file and any associated fields, along with any 
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

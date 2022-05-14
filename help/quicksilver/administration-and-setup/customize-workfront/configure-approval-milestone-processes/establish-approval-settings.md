@@ -16,7 +16,7 @@ As an Adobe Workfront administrator, you can determine the global settings for a
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the **Approval Settings** box that appears, specify the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

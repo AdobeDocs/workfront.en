@@ -14,7 +14,7 @@ If you are the proof owner, you can convert the basic workflow on an existing pr
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 1. Click **New Stage** in the top-right corner of the screen.
 1. Specify the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

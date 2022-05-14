@@ -21,7 +21,7 @@ After you grant consent, you are redirected back to the Workfront Fusion adminis
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -86,7 +86,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module retrieves details of an event when the event is created, updated, deleted, started, or ended in the selected calendar.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -125,7 +125,7 @@ This trigger module retrieves details of an event when the event is created, upd
 
 This search module retreves details of an event when the event is created, updated, deleted, started, or ended in the selected calendar.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -172,7 +172,7 @@ This search module retreves details of an event when the event is created, updat
 
 This action module retrieves details of the specified event.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -191,7 +191,7 @@ This action module retrieves details of the specified event.
 
 This action module creates a new event.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -285,7 +285,7 @@ This action module creates a new event.
 
 Updates an existing event.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -383,7 +383,7 @@ Updates an existing event.
 
 Deletes an existing event.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -410,7 +410,7 @@ Deletes an existing event.
 
 Retrieves a list of all of the authenticated user's calendars.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -433,7 +433,7 @@ Retrieves a list of all of the authenticated user's calendars.
 
 Deletes an existing event.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -452,7 +452,7 @@ Deletes an existing event.
 
 Creates a new calendar in your Google account.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -471,7 +471,7 @@ Creates a new calendar in your Google account.
 
 Edits an existing calendar.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -494,7 +494,7 @@ Edits an existing calendar.
 
 Deletes an existing calendar.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -515,7 +515,7 @@ Deletes an existing calendar.
 
 This module allows you to perform a custom API call.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

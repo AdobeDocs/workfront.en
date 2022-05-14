@@ -42,7 +42,7 @@ Consider the following when applying quick filters to a list:
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

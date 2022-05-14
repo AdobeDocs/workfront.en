@@ -14,7 +14,7 @@ You can send documents from Workfront to Experience Manager Assets Essentials. D
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

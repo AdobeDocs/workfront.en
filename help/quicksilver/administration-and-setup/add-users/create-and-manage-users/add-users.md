@@ -37,7 +37,7 @@ For information about how to import multiple users simultaneously, see [Import u
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

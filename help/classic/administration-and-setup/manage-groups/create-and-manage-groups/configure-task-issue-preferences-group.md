@@ -36,7 +36,7 @@ For information about how the Workfront administrator unlocks preferences, see [
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -84,7 +84,7 @@ You must have the following to perform the steps in this article:
 
 ### New Task Defaults {#new-task-defaults}
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -109,7 +109,7 @@ You must have the following to perform the steps in this article:
 
 ### Issues {#issues}
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -146,7 +146,7 @@ You must have the following to perform the steps in this article:
 
 ### Deletion {#deletion}
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -166,7 +166,7 @@ You must have the following to perform the steps in this article:
 
 ### Actual Dates {#actual-dates}
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -224,7 +224,7 @@ You must have the following to perform the steps in this article:
 
 ### Access {#access}
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

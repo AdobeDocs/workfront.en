@@ -28,7 +28,7 @@ Before starting to budget information in the Resource Planner, see the following
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -249,7 +249,7 @@ To budget your resources in bulk:
 
    Depending on whether you clicked the More icon on a project or a role, the options for budgeting in bulk differ. The table below illustrates the options available for projects and roles:
 
-   <table cellspacing="15"> 
+   <table> 
     <col> 
     <col> 
     <col> 

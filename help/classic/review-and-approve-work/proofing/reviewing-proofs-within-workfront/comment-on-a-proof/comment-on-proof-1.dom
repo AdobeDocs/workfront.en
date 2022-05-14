@@ -16,7 +16,7 @@
     </ul> 
     <h2 aemmigrated="true">Access requirements</h2> 
     <p aemmigrated="true">You must have the following access to perform the steps in this article:</p> 
-    <table cellspacing="0" aemmigrated="true"> 
+    <table> 
      <col aemmigrated="true"> 
      <col aemmigrated="true"> 
      <tbody aemmigrated="true"> 
@@ -59,7 +59,7 @@
        </ol> 
       </note> </li> 
      <li value="5" aemmigrated="true"> <p aemmigrated="true">To draw attention to a specific location on the proof, click the markup tool you want in the toolbar, then mark the area of the proof that you want to comment on:</p> 
-      <table cellspacing="0" aemmigrated="true"> 
+      <table> 
        <col aemmigrated="true"> 
        <col aemmigrated="true"> 
        <col aemmigrated="true"> 

@@ -23,7 +23,7 @@ You can build a Time Off report to capture users' time off information.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -15,7 +15,7 @@ If you are an administrator, you have permission to view, modify, rename, publis
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

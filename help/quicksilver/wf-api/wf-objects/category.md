@@ -11,7 +11,7 @@ description: "Fieldsclass: `java.lang.IllegalArgumentException`, message: 'APIMo
 Fieldsclass: "java.lang.IllegalArgumentException",  
 message: "APIModel INTERNAL does not support field projectid (OpTask)"
 
-<table cellspacing="15"> 
+<table> 
  <col width="100"> 
  <col width="100"> 
  <col width="100"> 

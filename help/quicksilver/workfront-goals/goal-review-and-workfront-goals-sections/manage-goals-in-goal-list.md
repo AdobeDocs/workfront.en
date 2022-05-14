@@ -14,7 +14,7 @@ After you or other users create goals, you can review their progress and informa
 
 You must have the following access to perform the actions described in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -87,7 +87,7 @@ To review goals in the Goal List:
 
    The list of goals contains the following columns with information about each goal: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

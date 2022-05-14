@@ -57,7 +57,7 @@ For information about adding a date-based wildcard to a report, see the article 
 
 Choose from the following date-based wildcards:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -117,7 +117,7 @@ For information about adding a user-based wildcard to a report, see the article 
 
 Workfront provides the following user-based variables:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -200,7 +200,7 @@ Workfront provides the following user-based variables:
 
 ## Object-based wild card filter variables
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -21,7 +21,7 @@ Campaign in this article refers to the Anaplan object. Campaigns in Anaplan are 
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -119,7 +119,7 @@ Line Items
 
 * Load Campaigns to Adobe Workfront
 
-  <table cellspacing="0"> 
+  <table> 
    <col> 
    <col> 
    <tbody> 
@@ -151,7 +151,7 @@ Line Items
 
 * Update Campaigns to Adobe Workfront
 
-  <table cellspacing="0"> 
+  <table> 
    <col> 
    <col> 
    <tbody> 

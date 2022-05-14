@@ -22,7 +22,7 @@ You can modify an existing calendar by adding or deleting a link&nbsp;to a proje
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

@@ -24,7 +24,7 @@ You&nbsp;can add updates to an object from the following areas of Workfront:
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -117,7 +117,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Specify any of the following items:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

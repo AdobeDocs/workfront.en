@@ -33,7 +33,7 @@ For information about how a Workfront administrator unlocks a project preference
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -77,7 +77,7 @@ You must have the following to perform the steps in this article:
 
 Configure any of the following preferences for newly created projects associated with the group:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -131,7 +131,7 @@ Configure any of the following preferences for newly created projects associated
 
 Configure any of the following preferences for newly created projects associated with the group:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -210,7 +210,7 @@ After the Workfront administrator enables the sections on the Business Case, a P
 
 Configure any of the following preferences for newly created projects associated with the group:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

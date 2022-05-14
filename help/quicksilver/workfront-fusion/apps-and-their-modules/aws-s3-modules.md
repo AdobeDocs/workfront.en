@@ -17,7 +17,7 @@ The Adobe Workfront Fusion AWS S3 modules let you perform operations on your S3 
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -96,7 +96,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 #### Create Bucket {#create-bucket}
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -119,7 +119,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 Downloads a file from a bucket.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -144,7 +144,7 @@ Downloads a file from a bucket.
 
 #### Upload File {#upload-file}
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -198,7 +198,7 @@ For a detailed discussion of the Amazon S3 API, see [Amazon S3 REST API Introduc
   <tr> 
    <td>Headers</td> 
    <td> <p>Add a request header. You can use the following common request headers. For more request headers refer to <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonRequestHeaders.html">AWS S3 API Documentation</a>.</p> <p>You don't have to add authorization headers; Workfront Fusion 2.0 already did that for you.</p> 
-    <table cellspacing="0"> 
+    <table> 
      <col> 
      <col> 
      <thead> 
@@ -274,7 +274,7 @@ For a detailed discussion of the Amazon S3 API, see [Amazon S3 REST API Introduc
 
 Returns a list of files from a specified location.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -301,7 +301,7 @@ Returns a list of files from a specified location.
 
 Returns a list of folders from a specified location.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

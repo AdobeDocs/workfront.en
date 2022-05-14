@@ -14,7 +14,7 @@ You can print a list of goals from the Goal List section of Adobe Workfront Goal
 
 You must have the following access to perform the actions described in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

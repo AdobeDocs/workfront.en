@@ -21,7 +21,7 @@ You can add stories to an iteration in any of the following ways:
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

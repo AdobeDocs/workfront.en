@@ -19,7 +19,7 @@ If you need instructions on creating a scenario, see [Create a scenario in Adobe
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -96,7 +96,7 @@ The module returns all standard fields associated with the record or records, al
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -164,7 +164,7 @@ The module returns the ID of the email and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -213,7 +213,7 @@ The module returns the ID of the email draft and any associated fields, along wi
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -260,7 +260,7 @@ You specify the ID of the email and its folder.
 
 The module returns the ID of the  email and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -287,7 +287,7 @@ You specify the ID of the email and its folder.
 
 The module returns the ID of the  email and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -314,7 +314,7 @@ You specify the folder, the destination folder, and the ID of the email..
 
 The module returns the ID of the  email and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -345,7 +345,7 @@ You specify the folder, the destination folder, and the ID of the email..
 
 The module returns the ID of the email and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -376,7 +376,7 @@ The module returns the ID of the  email and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -403,7 +403,7 @@ The module returns the ID of the  email and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -436,7 +436,7 @@ When you are configuring this module, the following fields display.
 
 You can iterate email attachments. Each attachment is a separate bundle in the module's output. For more information, see [Iterator module in Adobe Workfront Fusion](../../workfront-fusion/modules/iterator-module.md).
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

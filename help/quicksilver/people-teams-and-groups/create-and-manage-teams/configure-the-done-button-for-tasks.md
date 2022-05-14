@@ -21,7 +21,7 @@ The Done button can automatically set the status of a task or an issue. By defau
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

@@ -16,7 +16,7 @@ Adobe Workfront Fusion’s Organization and Teams features make it possible for 
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -162,7 +162,7 @@ Email notification options are set on the team level.
 1. Select the Notification Options tab.
 1. Enable the notifications that you want the team to receive.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

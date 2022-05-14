@@ -19,7 +19,7 @@ You can use billing rates to calculate revenue on your projects when you multipl
 <p>(NOTE: drafted because the only procedure here was moved to a different article.&nbsp;This stays as an overview)</p>
 <h2>Access requirements</h2>
 <p>You must have the following access to perform the steps in this article:</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>

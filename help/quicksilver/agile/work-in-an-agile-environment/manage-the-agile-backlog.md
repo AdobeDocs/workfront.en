@@ -19,7 +19,7 @@ Tasks or issues can be&nbsp;assigned to the team (and subsequently added to the 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -122,7 +122,7 @@ To create a story from the backlog:
 
 1. Specify the following information:  
 
-   <table cellspacing="0">
+   <table>
     <col>
     <col>
     <tbody>

@@ -34,7 +34,7 @@ The extension is supported for both Adobe Cloud and desktop applications.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

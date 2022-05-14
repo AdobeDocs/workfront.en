@@ -21,7 +21,7 @@ GET /customAction
 
 ## Query Parameters
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

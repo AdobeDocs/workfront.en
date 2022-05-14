@@ -27,7 +27,7 @@ For information about planning and scheduling resources in Workfront, see [Get s
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

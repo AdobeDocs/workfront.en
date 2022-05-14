@@ -20,7 +20,7 @@ You can edit a portfolio in the portfolio page or you can edit portfolios in a l
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -60,7 +60,7 @@ You must have the following access to perform the steps in this article:
 
 1. Consider updating the following fields in the Portfolio Details tab or the Edit Portfolio box: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -148,7 +148,7 @@ You must have the following access to perform the steps in this article:
 <ol>
 <li value="1">Begin editing a portfolio as described above.</li>
 <li value="2"> <p>Click <strong>Overview</strong> and specify the following fields: </p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>

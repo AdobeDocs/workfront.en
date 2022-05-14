@@ -26,7 +26,7 @@ You can edit a grouping in a list or report using text mode to access fields tha
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -156,7 +156,7 @@ For information about creating a report, see [Create a custom report](../../../r
    </note>
    -->
 
-   <table cellspacing="15"> 
+   <table> 
     <col> 
     <col> 
     <thead> 

@@ -20,7 +20,7 @@ For more information about using the burndown chart, see the [Agile burndown cha
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

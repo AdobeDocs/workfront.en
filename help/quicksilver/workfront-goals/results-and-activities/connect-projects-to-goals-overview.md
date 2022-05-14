@@ -70,7 +70,7 @@ To this purpose, you can connect projects as activities (outputs or executed wor
 
 The following project information is visible at the goal level: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

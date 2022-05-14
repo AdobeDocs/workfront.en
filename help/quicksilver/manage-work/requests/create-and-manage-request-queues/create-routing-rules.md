@@ -16,7 +16,7 @@ Routing Rules send issues to specific users or job roles best equipped&nbsp;to r
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -48,7 +48,7 @@ You must have the following:
 1. Click **New Routing Rules**&nbsp;to add the new rule.&nbsp; 
 1. Specify the following information for the Routing Rule:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <thead> 

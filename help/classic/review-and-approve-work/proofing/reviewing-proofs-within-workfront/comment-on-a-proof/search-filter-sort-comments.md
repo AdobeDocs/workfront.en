@@ -18,7 +18,7 @@ You can search, filter, and sort proof comments to easily navigate feedback on c
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -74,7 +74,7 @@ You can filter the comments that display by defining filter parameter such as us
 
 1. Use the options that appear below the **Filter** icon to filter the comments by any of the following criteria:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -115,7 +115,7 @@ When you sort the comment list, the sort option you choose is remembered the nex
 
 1. Select one of the following sort options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <col> 

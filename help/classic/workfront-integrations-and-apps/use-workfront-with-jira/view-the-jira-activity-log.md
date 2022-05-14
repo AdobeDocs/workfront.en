@@ -20,7 +20,7 @@ You can see up to 500 items in the Activity Log, and they are listed starting wi
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

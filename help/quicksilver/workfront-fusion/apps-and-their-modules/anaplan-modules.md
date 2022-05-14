@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -70,7 +70,7 @@ To create a connection for your Anaplan modules:
 1. Click **Add** next to the Connection box.
 1. Select the connection type.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -104,7 +104,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when a record of the chosen type is created or updated.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -157,7 +157,7 @@ This action module adds a new item to a list in Anaplan.
 
 This module allows you to perform a custom API call to the Anaplan API.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -195,7 +195,7 @@ This module allows you to perform a custom API call to the Anaplan API.
 
 This action module deletes an existing record.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -243,7 +243,7 @@ This action module exports data from Anaplan. You can export into the following 
 
 This action module returns all accessible records of the selected type.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -291,7 +291,7 @@ This action module imports data into Anaplan using the Anaplan API. For example,
 
 This action module reads a single record.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -317,7 +317,7 @@ This action module reads a single record.
 
 This action module updates a single record in Anaplan.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -348,7 +348,7 @@ This action module updates a single record in Anaplan.
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h4>Upload a file</h4>
 <p>This action module uploads a file to Anaplan. The file must have already been uploaded to Anaplan. You can use this module to upload it to additional locations within Anaplan.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>

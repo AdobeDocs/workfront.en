@@ -21,7 +21,7 @@ For a list of the work item and announcement notifications you can receive, see 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

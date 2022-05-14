@@ -18,7 +18,7 @@ The Work List in the Home area displays all work items that are assigned to you.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -64,7 +64,7 @@ You can filter items in the Work List to see only specific types of items. For e
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this and the following step are also repeated in the following article: /Content/Workfront basics/Using Home/Using the Home Area/display-items-in-home-work-list.html) </p>
    -->
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -144,7 +144,7 @@ You can group and sort the Work List by Planned Completion Date, Commit Date, Pr
 
 1. Select from the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

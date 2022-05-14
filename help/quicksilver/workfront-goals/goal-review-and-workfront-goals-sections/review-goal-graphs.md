@@ -18,7 +18,7 @@ You can view the overall health of your goals and their progress trend in time i
 
 You must have the following access to perform the actions described in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -65,7 +65,7 @@ You must have the following before you can start:
 
 The following charts are available in the Graphs section or Workfront Goals: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -126,7 +126,7 @@ The following charts are available in the Graphs section or Workfront Goals:
 
    ![](assets/line-graph-wf-align-350x161.png)
 
-   <table cellspacing="3"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

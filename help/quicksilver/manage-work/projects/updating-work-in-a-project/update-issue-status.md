@@ -14,7 +14,7 @@ You can update the status of an issue to inform others about where the issue is 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -101,7 +101,7 @@ Workfront automatically updates the existing status of an issue to a different s
 >
 >The statuses in the following table are default system statuses. Your Workfront administrator or a group administrator can rename the statuses in your instance of Workfront. For information about creating and managing statuses in Workfront, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

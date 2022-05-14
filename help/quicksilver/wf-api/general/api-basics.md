@@ -303,7 +303,7 @@ When querying an object, special consideration should be taken concerning the re
 
 To ensure optimum performance the following table shows the limitations placed&nbsp;on search requests.&nbsp;
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

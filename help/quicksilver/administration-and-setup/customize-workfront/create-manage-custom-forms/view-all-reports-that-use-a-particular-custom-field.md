@@ -10,7 +10,7 @@ For information about custom fields and widgets in custom forms, see [Add a cust
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

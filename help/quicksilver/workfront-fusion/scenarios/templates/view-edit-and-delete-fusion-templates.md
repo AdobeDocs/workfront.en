@@ -15,7 +15,7 @@ Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ You must have the following access to use the functionality in this article:
 1. Click the Templates icon ![](assets/fusion-template-icon.png) in the side navigation menu.
 1. Select the tab that contains the template you want to view.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

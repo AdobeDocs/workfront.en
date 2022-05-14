@@ -71,7 +71,7 @@ To create, query, or delete an event subscription, your Workfront user needs the
 [Copy](javascript:void(0);) 
 <pre><code>[PUT]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD></code></pre>**Request Headers:** 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -119,7 +119,7 @@ The subscription resource&nbsp;contains the following fields.
 
    * **String** - The objCode of the object being subscribed to changes. The possible values for objCode are listed in the table below.
 
-     <table cellspacing="15"> 
+     <table> 
       <col> 
       <col> 
       <thead> 
@@ -224,7 +224,7 @@ Use the following syntax to construct the URL.
 [Copy](javascript:void(0);) 
 <pre><code>[POST] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions</code></pre>**Request Headers:** 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -292,7 +292,7 @@ The request syntax for listing all event subscriptions for a specific customer i
 [Copy](javascript:void(0);) 
 <pre><code>[GET] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions</code></pre>**Request Headers:** 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -344,7 +344,7 @@ You can query for event subscriptions by the event subscription’s ID. The requ
 [Copy](javascript:void(0);) 
 <pre><code>[GET] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID></code></pre>**Request Headers:** 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -421,7 +421,7 @@ When deleting Workfront’s HTTP use the DELETE method. The request syntax for d
 [Copy](javascript:void(0);) 
 <pre><code>[DELETE] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>&nbsp;</code></pre>**Request Headers:** 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -440,7 +440,7 @@ When deleting Workfront’s HTTP use the DELETE method. The request syntax for d
 
 **Response Codes:** 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -533,7 +533,7 @@ You can query all event subscriptions for a customer as specified by the apiKey 
 [Copy](javascript:void(0);) 
 <pre><code>[GET] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list</code></pre>**Request Headers:** 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -552,7 +552,7 @@ You can query all event subscriptions for a customer as specified by the apiKey 
 
 **Response Codes:** 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

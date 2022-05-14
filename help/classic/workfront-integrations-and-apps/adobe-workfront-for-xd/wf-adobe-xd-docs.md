@@ -18,7 +18,7 @@ You can upload your art boards as documents for a quick review and approval or s
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -71,7 +71,7 @@ You must have the following access to perform the steps in this article:
 
 1. Choose the **Asset Type** from the drop-down menu:  
 
-   <table cellspacing="0">
+   <table>
     <col>
     <col>
     <tbody>
@@ -124,7 +124,7 @@ You must have the following access to perform the steps in this article:
 
 1. Choose the **Asset Type** from the drop-down menu:  
 
-   <table cellspacing="0">
+   <table>
     <col>
     <col>
     <tbody>

@@ -22,7 +22,7 @@ For information about creating a new custom form from an existing one, see [Copy
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

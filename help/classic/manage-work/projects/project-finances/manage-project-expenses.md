@@ -20,7 +20,7 @@ The total amount of your expenses from all the tasks and the project contributes
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

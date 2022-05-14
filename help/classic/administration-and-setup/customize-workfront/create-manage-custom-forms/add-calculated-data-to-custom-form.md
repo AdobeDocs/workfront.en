@@ -27,7 +27,7 @@ For information about creating custom forms for your organization and understand
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -60,7 +60,7 @@ You must have the following to perform the steps in this article:
 
 1. Specify the following information for the calculated field:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     </col> 
     <col> 
@@ -104,7 +104,7 @@ You must have the following to perform the steps in this article:
 
 1. (Optional) Use any of the following options to further configure your calculated custom field:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -16,7 +16,7 @@ You can control the priorities for&nbsp;projects, tasks, and issues in the Setup
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -87,7 +87,7 @@ In addition to the default priorities provided in&nbsp;Workfront, you can add yo
 1. Click **Add a New Priority**.
 1. Specify&nbsp;the following information for the new priority:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

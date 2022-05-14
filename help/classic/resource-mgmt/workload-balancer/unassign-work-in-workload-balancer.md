@@ -18,7 +18,7 @@ You can unassign users from work items in the Assigned Work area of the Adobe Wo
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

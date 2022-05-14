@@ -25,7 +25,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -95,7 +95,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when a record is created or updated.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -127,7 +127,7 @@ This trigger module starts a scenario when a record is created or updated.
 
 This trigger module starts a scenario when a record is created or updated.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -159,7 +159,7 @@ This trigger module starts a scenario when a record is created or updated.
 
 This action module lets you make a custom authenticated call to the Marketo API. This way, you can create a data flow automation that can't be accomplished by the other Marketo modules. 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -201,7 +201,7 @@ This action module lets you make a custom authenticated call to the Marketo API.
 
 This action module creates a new record in Marketo
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -258,7 +258,7 @@ This action module creates a new record in Marketo
 
 This action module updates an existing record, using its ID.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -314,7 +314,7 @@ This action module updates an existing record, using its ID.
 
 This action module downloads a file by using the file ID.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -333,7 +333,7 @@ This action module downloads a file by using the file ID.
 
 This action module uploads a new file to Marketo.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -360,7 +360,7 @@ This action module uploads a new file to Marketo.
 
 This action module reads information about a record by using its ID.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -394,7 +394,7 @@ This action module reads information about a record by using its ID.
 
 This action module adds one or more leads to a list, by using the lead ID.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -417,7 +417,7 @@ This action module adds one or more leads to a list, by using the lead ID.
 
 This action module removes one or more leads from a list, by using the lead ID.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -440,7 +440,7 @@ This action module removes one or more leads from a list, by using the lead ID.
 
 This action module schedules an existing campaign for a certain date.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -463,7 +463,7 @@ This action module schedules an existing campaign for a certain date.
 
 This action module makes a copy of a program using the existing program's ID. 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -495,7 +495,7 @@ This action module makes a copy of a program using the existing program's ID.
 
 This action module retrieves all records of a specific type.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -531,7 +531,7 @@ This action module retrieves all records of a specific type.
 
 This search module retrieves a list of records that match specific search criteria.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

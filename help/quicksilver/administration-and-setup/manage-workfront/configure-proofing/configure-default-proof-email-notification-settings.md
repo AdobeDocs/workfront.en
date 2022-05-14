@@ -17,7 +17,7 @@ For information about configuring notification settings that are sent from Workf
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

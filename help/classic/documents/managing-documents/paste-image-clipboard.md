@@ -27,7 +27,7 @@ This feature is browser-specific,&nbsp;as follows:
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

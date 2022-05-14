@@ -22,7 +22,7 @@ Using a checklist on a card allows you to break down work into smaller increment
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -60,7 +60,7 @@ card with full details
 1. Click **Add card****> New card**.
 1. In the **Card Details** box, add the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

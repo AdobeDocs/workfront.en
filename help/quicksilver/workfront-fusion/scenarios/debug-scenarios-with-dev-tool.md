@@ -15,7 +15,7 @@ The Adobe Workfront Fusion DevTool allows you to understand and troubleshoot sce
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -78,7 +78,7 @@ To use the Workfront Fusion DevTool, you must add the Workfront Fusion DevTool e
 1. Open your Workfront Fusion scenario.
 1. Open Chrome Developer Tools:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -114,7 +114,7 @@ Live Stream displays what is happening in the background when you click Run once
 1. Click the **Live Stream** icon ![](assets/live-stream-icon.png) to open the Live Stream section.
 1. Do any of the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <thead> 
@@ -202,7 +202,7 @@ Opens settings of the specified module by ID.
 
 Allows you to search modules' values for a specified term. The output contains IDs of modules that contain the term you have searched for.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -232,7 +232,7 @@ Copies values from the source module to the target module.
 >
 >Make sure you set the correct source and target modules. If you select a different type of module, values in the target module will be deleted.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -255,7 +255,7 @@ Copies the filter settings from the source module to the target module.
 >
 >The copy action is performed on the filter placed on the left side of the selected module.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -285,7 +285,7 @@ Duplicates a connection from the source module to every module in the scenario o
 
 Searches for specified variables in the scenario and replaces them with a new variable.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -310,7 +310,7 @@ Replaces the selected app version in your scenario with another app version.
 
 This can be used, for example, to upgrade Gmail and Email apps' modules to the latest version.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -329,7 +329,7 @@ This can be used, for example, to upgrade Gmail and Email apps' modules to the l
 
 Allows you to encode the entered data to Base64 or to decode Base64. Some requests are encoded to Base64. This tool can be useful when you want to search for particular data in the encoded request.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -348,7 +348,7 @@ Allows you to encode the entered data to Base64 or to decode Base64. Some reques
 
 Copies the name of the selected module to your clipboard.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -365,7 +365,7 @@ Allows you to change the mapping source from one module to another.
 
 You must first add the module you want to use as a source module to the route in your scenario.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -388,7 +388,7 @@ You must first add the module you want to use as a source module to the route in
 
 Highlights modules of the specified app in your scenario.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

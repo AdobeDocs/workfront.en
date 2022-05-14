@@ -16,7 +16,7 @@ When you are configuring an API call in a module, you need to fill in the field 
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

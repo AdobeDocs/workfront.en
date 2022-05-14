@@ -28,7 +28,7 @@ The process for viewing approval delegations differs depending on whether you ar
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

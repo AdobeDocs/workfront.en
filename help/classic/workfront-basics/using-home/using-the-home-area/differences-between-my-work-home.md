@@ -22,7 +22,7 @@ The following sections describe the difference in current functionality between 
 
 ## Calendars
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -54,7 +54,7 @@ The following sections describe the difference in current functionality between 
 
 ## Approvals
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -96,7 +96,7 @@ The following sections describe the difference in current functionality between 
 
 ## Tasks and Issues
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -193,7 +193,7 @@ The following sections describe the difference in current functionality between 
 
 ## Requests
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -235,7 +235,7 @@ The following sections describe the difference in current functionality between 
 
 ## Filter and Sort
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -312,7 +312,7 @@ The following sections describe the difference in current functionality between 
 
 ## Other
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

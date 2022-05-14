@@ -24,7 +24,7 @@ Your group inherits statuses when any of the following things happen:
 
 The table below explains each of these circumstances.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

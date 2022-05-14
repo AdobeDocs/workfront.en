@@ -24,7 +24,7 @@ When a user is sharing a link to an object in Workfront with you, additional inf
 
 You must have the following access to use the functionality described in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -75,7 +75,7 @@ The following headers are available in Home:
 
 The project header displays the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -138,7 +138,7 @@ The project header displays the following information:
 
 The task header includes the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -201,7 +201,7 @@ The task header includes the following information:
 
 The issue header includes the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -264,7 +264,7 @@ The issue header includes the following information:
 
 The program header displays the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -323,7 +323,7 @@ The program header displays the following information:
 
 The portfolio header includes the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -386,7 +386,7 @@ The portfolio header includes the following information:
 
 The template header displays the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -433,7 +433,7 @@ The template header displays the following information:
 
 The template task header displays the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -480,7 +480,7 @@ The template task header displays the following information:
 
 The billing record header displays the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -535,7 +535,7 @@ The billing record header displays the following information:
 
 The user header displays the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -587,7 +587,7 @@ The user header displays the following information:
 
 The team header displays the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -630,7 +630,7 @@ The team header displays the following information:
 
 The iteration header displays the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -677,7 +677,7 @@ The iteration header displays the following information:
 
 The group header displays the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -729,7 +729,7 @@ The group header displays the following information:
 
 The document header displays the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -772,7 +772,7 @@ The document header displays the following information:
 
 The company header displays the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -813,7 +813,7 @@ Plans are the objects of the Workfront Scenario Planner. For information about t
 
 The plan header displays the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 

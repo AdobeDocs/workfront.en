@@ -14,7 +14,7 @@ When using the Adobe Workfront Scenario Planner, you can create initiatives in a
 
 You must have the following:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -108,7 +108,7 @@ To create initiatives from scratch:
 
    Specify or review the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

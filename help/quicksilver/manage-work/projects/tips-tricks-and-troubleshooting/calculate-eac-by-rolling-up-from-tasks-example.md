@@ -28,7 +28,7 @@ EAC Method = Roll up from tasks/ subtasks
 1. Create Project A with three tasks (no child tasks) all assigned to User 1 whose cost/hr is $100.00. 
 1. Add planned/ actual hours to each task and % Complete according to the table below:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -122,7 +122,7 @@ EAC Method = Roll up from tasks/ subtasks
    >
    >For Tasks 1 and 3, you are only adding actual hours.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -263,7 +263,7 @@ EAC Method = Roll up from tasks/ subtasks
 1. Create Project A with three tasks (no child tasks) all assigned to User 1 whose cost/ hr is $100.00. 
 1. Add planned/ actual hours to each task and % Complete according to the table below:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -310,7 +310,7 @@ EAC Method = Roll up from tasks/ subtasks
 
 1. Add expenses to each task according to the table below:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -353,7 +353,7 @@ EAC Method = Roll up from tasks/ subtasks
 
 1. Add two expenses to the project (i.e. not tied to a task) as follows:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -380,7 +380,7 @@ EAC Method = Roll up from tasks/ subtasks
 
 1. Based on the above values, the Incurred/ Not Incurred Costs are determined as follows:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

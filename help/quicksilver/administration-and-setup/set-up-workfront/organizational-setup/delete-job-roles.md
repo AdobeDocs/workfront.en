@@ -15,7 +15,7 @@ You can delete job roles that your organization no longer uses. We recommend tha
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

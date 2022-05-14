@@ -31,7 +31,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when an employee's job, personal, or time off is updated, or when a new employee is added.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -64,7 +64,7 @@ When you are configuring this module, the following fields display.
 
 The module returns the a status code, along with the headers and body of the API&nbsp;call.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

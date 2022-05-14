@@ -17,7 +17,7 @@ When a preference is unlocked and the group administrator modifies it, the proje
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

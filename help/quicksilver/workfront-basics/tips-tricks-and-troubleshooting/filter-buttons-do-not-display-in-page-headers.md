@@ -12,7 +12,7 @@ description: You must have the following access to perform the steps in this art
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
 
 The following filter buttons do not display in their respective areas:
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

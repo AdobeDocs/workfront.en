@@ -17,7 +17,7 @@ For information about deleting a subgroup, see [Manage a group](../../../adminis
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

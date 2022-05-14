@@ -33,7 +33,7 @@ You can edit user accounts in bulk. When bulk editing users, only the fields you
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -63,7 +63,7 @@ You must have the following to perform the steps in this article:
 1. Select more than one user, then click **Edit**.
 1. In the **Edit People** box that appears, change any of the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

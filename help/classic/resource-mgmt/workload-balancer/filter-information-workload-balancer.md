@@ -29,7 +29,7 @@ This article contains information about filters in the Workload Balancer. For in
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -94,7 +94,7 @@ The Workload Balancer displays information in two separate areas:
 
 Depending on where you access the Workload Balancer from, the Unassigned and&nbsp;Assigned areas are already filtered by certain criteria, as described in the following table:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <col> 

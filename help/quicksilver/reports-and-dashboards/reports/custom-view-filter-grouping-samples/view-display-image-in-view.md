@@ -21,7 +21,7 @@ You can replace the name of an object in a view with an image using text mode. Y
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

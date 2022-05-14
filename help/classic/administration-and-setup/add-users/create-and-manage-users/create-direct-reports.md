@@ -20,7 +20,7 @@ You can designate users as direct reports to another user. This allows you to cr
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

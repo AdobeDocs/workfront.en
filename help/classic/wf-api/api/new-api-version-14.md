@@ -49,7 +49,7 @@ For more information on billing records, see [Create billing records](../../mana
 
 The BillingRecord object added the flag **DATA_EXTENDIBLE**.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -88,7 +88,7 @@ The BillingRecord object added the flag **DATA_EXTENDIBLE**.
 
 A Category object is a custom form.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -116,7 +116,7 @@ A Category object is a custom form.
 
 The CustomEnum object aids with converting status codes into human-readable text.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -140,7 +140,7 @@ This is an internal object.
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -163,7 +163,7 @@ A DocumentVersion object represents a specific version of a file (such as writte
 
 For more information about document versions, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -183,7 +183,7 @@ A Group object represents a set of users and teams. Groups often represent depar
 
 For more information on groups, see [Groups vs. teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -203,7 +203,7 @@ A NoteTag object represents the act of tagging a user or team in an update to a 
 
 For more information on tagging in updates, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -224,7 +224,7 @@ For more information on tagging in updates, see [Tag others on updates](../../wo
 
 Projects are work items within Workfront, and are a main building block in the way Workfront helps people to do work. A Project object represents a group of tasks with a common, specific goal.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -244,7 +244,7 @@ A QueueDef object represents a Queue, which is a project that has been published
 
 For more information on Request Queues, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -270,7 +270,7 @@ A Role object (job role) represents a functional capacity or a skill set a user 
 
 For information on job roles, see [Job role overview](../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -295,7 +295,7 @@ For information on job roles, see [Job role overview](../../administration-and-s
 
 A Template object represents a pattern for a project. Projects can be created from templates to save time. A template contains a team and tasks, which will be copied to any project created from the template.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -321,7 +321,7 @@ A Template object represents a pattern for a project. Projects can be created fr
 <p><strong>Timesheet (TSHET)</strong></p>
 <p>A&nbsp;Timesheet object represents a virtual timecard that allows users to enter actual hours worked for tasks, projects, and overhead hour types.</p>
 <p>For more information, see <a href="../../timesheets/timesheets/timesheets-overview.md" class="MCXref xref">Timesheets overview</a>.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>

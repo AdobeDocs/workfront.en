@@ -16,7 +16,7 @@ Two smart folders are available to you by default the first time you access the 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

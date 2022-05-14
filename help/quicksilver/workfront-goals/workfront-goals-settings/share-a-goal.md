@@ -14,7 +14,7 @@ When you share a goal you give Manage permissions to a goal to someone who did n
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -61,7 +61,7 @@ Before you begin, you must have the following:
 
 * Users can have the following permissions to a goal:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

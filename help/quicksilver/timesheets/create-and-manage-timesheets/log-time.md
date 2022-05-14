@@ -18,7 +18,7 @@ For more information about the type of hours you can log in Workfront, see [Mana
 
 You must have the following access to perform the steps in this article and log Project&nbsp;Specific hours:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

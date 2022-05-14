@@ -17,7 +17,7 @@ You can remove this link using text mode in columns that display in all views.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

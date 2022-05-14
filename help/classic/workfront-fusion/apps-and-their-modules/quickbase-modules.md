@@ -25,7 +25,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -77,7 +77,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This module calls any available Quickbase RESTful API endpoint documented at [developer.quickbase.com](http://developer.quickbase.com/).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

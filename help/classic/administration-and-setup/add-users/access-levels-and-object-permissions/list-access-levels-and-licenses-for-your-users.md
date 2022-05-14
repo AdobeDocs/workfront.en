@@ -25,7 +25,7 @@ You can see which access level and license is assigned to each user in a user li
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

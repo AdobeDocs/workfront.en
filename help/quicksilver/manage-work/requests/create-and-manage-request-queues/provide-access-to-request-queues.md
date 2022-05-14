@@ -18,7 +18,7 @@ This is useful in organizations that invite external stakeholders into Workfront
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

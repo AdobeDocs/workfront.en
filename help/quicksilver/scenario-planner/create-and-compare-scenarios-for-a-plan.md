@@ -15,7 +15,7 @@ When you are planning your company's long-term strategy, there is a lot of infor
 
 You must have the following:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -101,7 +101,7 @@ After creating your scenarios, you can compare them to find the best one for you
 
    The following information displays on a scenario card:
 
-   <table cellspacing="3"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

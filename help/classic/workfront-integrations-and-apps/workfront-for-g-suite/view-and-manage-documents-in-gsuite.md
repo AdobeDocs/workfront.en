@@ -19,7 +19,7 @@ You can view and manage documents associated with a Adobe Workfront object witho
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

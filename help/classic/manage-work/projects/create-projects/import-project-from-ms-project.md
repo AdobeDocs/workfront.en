@@ -24,7 +24,7 @@ You can import projects from Microsoft Project into Adobe Workfront and manage a
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -18,7 +18,7 @@ You can view all iterations for a given team, or you can view an individual iter
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

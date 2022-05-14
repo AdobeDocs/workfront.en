@@ -18,7 +18,7 @@ You can display a Backlog column directly on your Kanban board. The Backlog colu
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

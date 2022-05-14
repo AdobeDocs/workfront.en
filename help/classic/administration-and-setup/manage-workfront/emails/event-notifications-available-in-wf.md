@@ -28,7 +28,7 @@ The following tables list all of the Adobe Workfront event notifications, a brie
 
 See also [Notifications: Action needed](../../../workfront-basics/using-notifications/notifications-action-needed.md).
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -145,7 +145,7 @@ See also [Notifications: Action needed](../../../workfront-basics/using-notifica
 
 See also [Notifications: Requests I have made](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -237,7 +237,7 @@ See also [Notifications: Requests I have made](../../../workfront-basics/using-n
 
 See also [Notifications: Communication](../../../workfront-basics/using-notifications/notifications-communication.md).
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -313,7 +313,7 @@ See also [Notifications: Communication](../../../workfront-basics/using-notifica
 
 See also [Notifications: Approval information](../../../workfront-basics/using-notifications/notifications-approval-information.md).
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -370,7 +370,7 @@ See also [Notifications: Approval information](../../../workfront-basics/using-n
 
 See also [Notifications: Information about work assigned to me](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -468,7 +468,7 @@ See also [Notifications: Information about work assigned to me](../../../workfro
 
 See also [Notifications: Information about projects I'm on](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -549,7 +549,7 @@ See also [Notifications: Information about projects I'm on](../../../workfront-b
 
 See also [Notifications: Information about projects I own](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md).
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -636,7 +636,7 @@ See also [Notifications: Information about projects I own](../../../workfront-ba
 
 See also [Notifications: Information about projects I sponsor](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md).
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -711,7 +711,7 @@ See also [Notifications: Information about projects I sponsor](../../../workfron
 
 See also [Notifications: Miscellaneous information](../../../workfront-basics/using-notifications/notifications-misc-information.md).
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

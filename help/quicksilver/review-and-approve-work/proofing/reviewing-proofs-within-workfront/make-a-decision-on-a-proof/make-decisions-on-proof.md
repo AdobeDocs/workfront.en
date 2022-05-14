@@ -14,7 +14,7 @@ You can make a decision on a proof directly in the proofing viewer.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the **Proof decision** box that appears, click one of the following decisions:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

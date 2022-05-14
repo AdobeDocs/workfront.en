@@ -20,7 +20,7 @@ As an Adobe Workfront administrator, you can use an access level to grant users 
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
 
    These options allow you to grant the following capabilities:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

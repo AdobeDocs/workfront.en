@@ -21,7 +21,7 @@ You can add and remove filters as needed and Adobe Workfront retains the filters
 
 To complete this task, you must have the following:
 
-<table cellspacing="15"> 
+<table> 
  <caption style="text-align: left;">
   *To find out what plan, license type, or access you have, contact your Workfront administrator.
  </caption> 

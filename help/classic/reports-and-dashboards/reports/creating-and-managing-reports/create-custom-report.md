@@ -20,7 +20,7 @@ For more information on built-in reports, see [Use Adobe Workfront built-in repo
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -64,7 +64,7 @@ To watch a video of how to create a report, see this [Video walk-through](#video
 
 1. In the report builder, add the following to your report:
 
-   <table cellspacing="15"> 
+   <table> 
     <col> 
     <col> 
     <thead> 
@@ -154,7 +154,7 @@ To watch a video of how to create a report, see this [Video walk-through](#video
 
 1. (Optional) Click **Advanced Options** to specify the following information for the column:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

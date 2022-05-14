@@ -19,7 +19,7 @@ As an Adobe Workfront administrator, you can configure the default proofing role
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

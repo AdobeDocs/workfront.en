@@ -19,7 +19,7 @@ You can share a plan that you created in the Adobe Workfront Scenario Planner wi
 
 You must have the following:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -118,7 +118,7 @@ For more information about access to the Scenario Planner for various license ty
 1. From the permissions drop-down menu to the right of the user name, select the level of permission you want to grant them to the plan. 
 1. Select from the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

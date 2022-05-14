@@ -32,7 +32,7 @@ Consider the following information when you are creating a new version of a proo
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

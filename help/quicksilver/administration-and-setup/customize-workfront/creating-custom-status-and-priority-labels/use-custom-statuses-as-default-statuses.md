@@ -15,7 +15,7 @@ When a custom status is set as a default status, the new default status is used 
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

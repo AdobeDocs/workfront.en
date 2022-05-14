@@ -27,7 +27,7 @@ You can create a new template in the following ways:
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

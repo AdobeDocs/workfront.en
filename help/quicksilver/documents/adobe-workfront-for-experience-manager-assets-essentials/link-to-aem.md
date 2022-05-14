@@ -14,7 +14,7 @@ You can link an asset or folder from Experience Manager Assets Essentials to any
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

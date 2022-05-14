@@ -26,7 +26,7 @@ You can use the Calendar view in the Home area to manage your work day and work 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -100,7 +100,7 @@ You&nbsp;can make updates to work items that display in Home Calendar view. Your
 
    * In the&nbsp;**Start a new update**&nbsp;box, type your update, specify any of the following information, then click **Update**.
 
-     <table cellspacing="0">
+     <table>
       <col>
       <col>
       <tbody>
@@ -158,7 +158,7 @@ To update the integrated calendar events in your Home Calendar:
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this and the following step are also repeated in this article: /Content/Workfront basics/Using Home/Using the Home Area/display-items-in-home-work-list.html)</p>
    -->
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

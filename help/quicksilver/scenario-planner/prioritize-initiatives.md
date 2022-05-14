@@ -18,7 +18,7 @@ For information about creating initiatives, see [Create and edit initiatives in 
 
 ## Access requirements
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -17,7 +17,7 @@ For information about creating a new company, see [Create and edit companies](..
 
 You must have the following in order to manage companies in Workfront:
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -58,7 +58,7 @@ You must have the following in order to manage companies in Workfront:
 1. Click the name of the company.
 1. With the **Company Members** section selected in the left panel, do any of the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -10,7 +10,7 @@ description: You can link documents and folders to Adobe Workfront from the foll
 
 You can link documents and folders to Adobe Workfront from the following sources:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -57,7 +57,7 @@ You can proof and approve documents linked to an external cloud provider the sam
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

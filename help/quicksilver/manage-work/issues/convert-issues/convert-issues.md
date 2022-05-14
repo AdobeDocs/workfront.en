@@ -49,7 +49,7 @@ When using a template, some fields that are populated on the template transfer t
 
 The following table lists project information and whether it transfers from the template or from the issue: 
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -19,7 +19,7 @@ As an Adobe Workfront administrator or Workfront Proof administrator, you can cu
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -98,7 +98,7 @@ To add a custom device:
 
 1. In the **Add new device** box that appears, specify the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -237,7 +237,7 @@ The Desktop Proofing Viewer is the recommended viewer for reviewing proofs conta
 
 The settings below let you specify whether your users open interactive content in the Desktop Proofing Viewer or the Web Proofing Viewer:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -290,7 +290,7 @@ Under **Advanced password settings**, you can enhance password security for your
 
 1. Click **Setup** to the right of the setting you want to configure:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

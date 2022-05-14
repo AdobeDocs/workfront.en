@@ -16,7 +16,7 @@ You can configure access for a custom form to control who—person, role, group,
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -57,7 +57,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 1. In the box that displays, under **Give custom form access to**, start typing the name of the user, team, job role, group, or company you want to share the custom form with, then press **Enter** when the name displays.
 1. To adjust access for the user, team, job role, group, or company you just added, click the drop-down menu to the right of the name, then configure one of the following available options and any of its advanced settings:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

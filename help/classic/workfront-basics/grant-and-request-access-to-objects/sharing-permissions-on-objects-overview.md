@@ -74,7 +74,7 @@ You can share an object with up to 100 entities (users, teams, groups, job roles
 
 The following table illustrates the level of permissions that you can select when sharing an object. Not all objects have all these settings available. You can grant another entity permissions to View or Manage an object. If you are sharing a project, task, or issue, you can also grant permissions to Contribute to it.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

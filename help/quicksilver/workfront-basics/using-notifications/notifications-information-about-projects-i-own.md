@@ -12,7 +12,7 @@ The following notifications alert you about activities taking place on a project
 
 See also [Event notifications](../../workfront-basics/using-notifications/event-notifications.md).
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

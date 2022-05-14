@@ -16,7 +16,7 @@ Only one item in Workfront can be linked to one item in Jira. You can never link
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

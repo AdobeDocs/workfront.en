@@ -16,7 +16,7 @@ Searching also helps you locate a specific card on the board.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

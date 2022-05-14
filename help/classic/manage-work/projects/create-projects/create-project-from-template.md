@@ -32,7 +32,7 @@ You have the following options for creating a project from a template:
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

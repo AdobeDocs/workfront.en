@@ -25,7 +25,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -72,7 +72,7 @@ You can create a connection to your Qualtrics account directly from inside a Qua
 1. In any Qualtrics module, click **Add** next to the Connection field.
 1. Enter the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

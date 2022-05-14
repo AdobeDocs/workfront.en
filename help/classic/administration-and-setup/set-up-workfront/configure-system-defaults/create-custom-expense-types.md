@@ -27,7 +27,7 @@ You can edit or delete any expense types that you create. You cannot delete or e
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -72,7 +72,7 @@ The Expense Types that are in Workfront by default cannot be deleted or edited i
 
 1. Specify the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

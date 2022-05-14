@@ -39,7 +39,7 @@ For information about how a Workfront administrator can lock or unlock a prefere
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

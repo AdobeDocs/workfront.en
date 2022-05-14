@@ -23,7 +23,7 @@ This article describes how you create tasks from scratch. You can also create ta
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

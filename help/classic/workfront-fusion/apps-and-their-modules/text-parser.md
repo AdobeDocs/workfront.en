@@ -20,7 +20,7 @@ You can use the Text parser tool to parse text for use in other Adobe Workfront 
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -76,7 +76,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 Retrieves the desired elements from HTML code.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -104,7 +104,7 @@ Retrieves the desired elements from HTML code.
 
 Parses elements from text based on the given pattern.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -125,7 +125,7 @@ Parses elements from text based on the given pattern.
 
 #### HTML to Text {#html-to-text}
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -156,7 +156,7 @@ A discussion of regular expressions is beyond the scope of this article. We reco
 * For a tutorial on how to create regular expressions, we recommend [RegexOne](https://regexone.com/).
 * For experimenting with regular expressions, we recommend the [Regular Expressions 101](https://regex101.com/) website. Select the ECMAScript (JavaScript) FLAVOR in the left panel.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -195,7 +195,7 @@ A discussion of regular expressions is beyond the scope of this article. We reco
 
 Searches the entered text for a specified value or regular expression and replaces the result with the new value. 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

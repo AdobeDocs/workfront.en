@@ -14,7 +14,7 @@ A new board contains the default columns New, In Progress, and Complete. You can
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

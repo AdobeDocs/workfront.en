@@ -18,7 +18,7 @@ You can check out&nbsp;a document to prevent other users from deleting it or upl
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

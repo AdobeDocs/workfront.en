@@ -32,7 +32,7 @@ The following grouping organizes projects by the percent complete value into one
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

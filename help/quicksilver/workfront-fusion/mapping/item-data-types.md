@@ -14,7 +14,7 @@ description: You must have the following access to use the functionality in this
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ You can contain the types of items listed below in a bundle.
 
 For information on which types of items Workfront Fusion allows for conversion between one other, see [Type coercion in Adobe Workfront Fusion](../../workfront-fusion/mapping/type-coercion.md).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

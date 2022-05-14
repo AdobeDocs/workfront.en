@@ -25,7 +25,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -87,7 +87,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module activates when a new file is added or updated in a folder being watched.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -118,7 +118,7 @@ This trigger module activates when a new file is added or updated in a folder be
 
 This trigger module activates when a new folder is added to the folder being watched.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -158,7 +158,7 @@ This trigger module activates when a new folder is added to the folder being wat
 
 This action module uploads a binary or text file to a specified folder
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -200,7 +200,7 @@ This action module uploads a binary or text file to a specified folder
 
 This action module moves the specified file to the recycle bin.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -227,7 +227,7 @@ This action module moves the specified file to the recycle bin.
 
 This action module retrieves the file with the given ID.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -254,7 +254,7 @@ This action module retrieves the file with the given ID.
 
 Creates a folder inside the specified parent folder.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -284,7 +284,7 @@ Creates a folder inside the specified parent folder.
 
 #### Delete a folder {#delete-a-folder}
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -311,7 +311,7 @@ Creates a folder inside the specified parent folder.
 
 This module retrieves a link that you can share to give access to the specified file.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

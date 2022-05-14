@@ -18,7 +18,7 @@ For information about teams, see [Teams overview](../../../people-teams-and-grou
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
 
 1. Make any of the following changes:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

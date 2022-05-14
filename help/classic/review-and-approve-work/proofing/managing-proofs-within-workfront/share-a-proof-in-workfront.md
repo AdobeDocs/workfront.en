@@ -24,7 +24,7 @@ If you share the proof, as explained in this article, your recipient has the sam
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -85,7 +85,7 @@ Sharing a proof link grants Workfront users viewing access. Users can comment on
 
       1. Select from the following options:
 
-         <table cellspacing="0">
+         <table>
           <col>
           <col>
           <tbody>

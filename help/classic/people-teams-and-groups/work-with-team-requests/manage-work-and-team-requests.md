@@ -22,7 +22,7 @@ A request represents a pending task or issue assignment. Work requests are made 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

@@ -19,7 +19,7 @@ You can view and manage the details of a work item without leaving G Suite. For 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

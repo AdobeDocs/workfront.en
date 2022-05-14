@@ -15,7 +15,7 @@ You cannot chart a report by a multi-select custom field. You need to create an 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -14,7 +14,7 @@ When you delete a card from a board, it is permanently deleted and can’t be re
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

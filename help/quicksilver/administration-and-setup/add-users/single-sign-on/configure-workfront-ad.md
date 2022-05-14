@@ -37,7 +37,7 @@ To connect&nbsp;Adobe Workfront with an Active Directory Server:
 
 1. Specify the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

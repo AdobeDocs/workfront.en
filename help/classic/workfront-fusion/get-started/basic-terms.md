@@ -16,7 +16,7 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

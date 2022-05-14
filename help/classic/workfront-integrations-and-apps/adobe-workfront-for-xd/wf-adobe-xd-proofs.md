@@ -18,7 +18,7 @@ You can upload your art boards as proofs directly to Adobe Workfront for a thoro
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -76,7 +76,7 @@ You must have the following access to perform the steps in this article:
 
 1. Choose the type of proof approval you want:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -147,7 +147,7 @@ You can create an interactive proof for your art boards with the Workfront for A
 
 1. Choose the type of proof approval you want:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -205,7 +205,7 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
 
 1. Choose the type of proof approval you want:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

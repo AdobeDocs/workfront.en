@@ -33,7 +33,7 @@ For information about approvals associated with documents or proofs, see the fol
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -69,7 +69,7 @@ You must have the following:
 1. Click **New Approval Process**.
 1. Specify the following information in the box that displays:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -100,7 +100,7 @@ You must have the following:
 
    A path is where you specify what needs to happen in the approval process. You create stages in a path to indicate who needs to do the approval work and in what order.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

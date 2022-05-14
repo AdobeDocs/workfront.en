@@ -21,7 +21,7 @@ In a Adobe Workfront Fusion scenario, you can connect your Email account to mult
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -110,7 +110,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 Triggers when a new email is received for processing according to specified criteria.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -174,7 +174,7 @@ Triggers when a new email is received for processing according to specified crit
 
 Sends a new email.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -267,7 +267,7 @@ Sends a new email.
 
 Creates and adds a new draft to a selected folder.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -360,7 +360,7 @@ Creates and adds a new draft to a selected folder.
 
 Marks an email or a draft in a selected folder as read by setting the Read flag.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -383,7 +383,7 @@ Marks an email or a draft in a selected folder as read by setting the Read flag.
 
 Marks an email or a draft in a selected folder as unread by setting the Unread flag.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -406,7 +406,7 @@ Marks an email or a draft in a selected folder as unread by setting the Unread f
 
 Moves a chosen email or a draft to a selected folder.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -433,7 +433,7 @@ Moves a chosen email or a draft to a selected folder.
 
 Copies an email or a draft into a selected folder.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -460,7 +460,7 @@ Copies an email or a draft into a selected folder.
 
 Removes an email or a draft from the selected folder.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -487,7 +487,7 @@ Removes an email or a draft from the selected folder.
 
 Returns emails that match the specified criteria.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -555,7 +555,7 @@ Returns emails that match the specified criteria.
 
 Sends a new email to your email address.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -578,7 +578,7 @@ Iterates received attachments one by one.
 
 The email iterator module lets you manage email attachments separately. For example, you can set up to watch emails to iterate the emails with attachments and receive alerts.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

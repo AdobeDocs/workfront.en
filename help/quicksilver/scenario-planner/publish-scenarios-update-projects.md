@@ -18,7 +18,7 @@ Publishing a scenario from the Adobe Workfront Scenario Planner accomplishes the
 
 You must have the following:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -94,7 +94,7 @@ Before you begin:
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Scenarios**
 1. (Optional and conditional) If you want to publish from an existing plan, click the **Filter** icon ![](assets/filter-nwepng.png) in the upper-right corner of the plan and select one of the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -145,7 +145,7 @@ Before you begin:
 
 1. (Optional and conditional) If you want to publish from an existing plan, click the **Filter** icon ![](assets/filter-nwepng.png) in the upper-right corner of the plan and select one of the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -198,7 +198,7 @@ Before you begin:
 
      The following initiative information is published in the Scenario Planner area of the Project&nbsp;Details section:
 
-     <table cellspacing="0"> 
+     <table> 
       <col> 
       <col> 
       <tbody> 

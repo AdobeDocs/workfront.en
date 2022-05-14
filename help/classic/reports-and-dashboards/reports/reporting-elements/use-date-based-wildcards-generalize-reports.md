@@ -28,7 +28,7 @@ You can use date-based wildcards when building the following reporting elements:
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

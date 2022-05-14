@@ -15,7 +15,7 @@ This table lists the administration activities available for:
 * A group administrator managing a top-level group
 * A group administrator managing a subgroup
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

@@ -18,7 +18,7 @@ You can generate a proof for non-website interactive content stored in a ZIP fil
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

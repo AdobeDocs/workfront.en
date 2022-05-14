@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -84,7 +84,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when a workbook is created.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -111,7 +111,7 @@ This trigger module starts a scenario when a workbook is created.
 
 This action module searches for Excel workbooks.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -138,7 +138,7 @@ This action module searches for Excel workbooks.
 
 This action module downloads the content of the specified Excel workbook.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -171,7 +171,7 @@ This action module downloads the content of the specified Excel workbook.
 
 This trigger module starts a scenario when a new row is added to the sheet.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -201,7 +201,7 @@ This trigger module starts a scenario when a new row is added to the sheet.
 
 This action module retrieves a list of worksheets in the specified workbook.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -226,7 +226,7 @@ This action module retrieves a list of worksheets in the specified workbook.
 
 This action module retrieves a list of rows in the specified worksheet.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -256,7 +256,7 @@ This action module retrieves a list of rows in the specified worksheet.
 
 This action module creates a new worksheet within the selected workbook.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -281,7 +281,7 @@ This action module creates a new worksheet within the selected workbook.
 
 This action module adds a new row to the selected worksheet.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -321,7 +321,7 @@ This action module adds a new row to the selected worksheet.
 
 This action module updates an existing worksheet row.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -365,7 +365,7 @@ This action module updates an existing worksheet row.
 
 This action module deletes a row from a worksheet.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -412,7 +412,7 @@ This trigger starts a scenario when a new row is added to a table.
 
 ![](assets/embedded-table-350x420.png)
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -445,7 +445,7 @@ This trigger starts a scenario when a new row is added to a table.
 
 This search module retrieves a list of all table objects.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -475,7 +475,7 @@ This search module retrieves a list of all table objects.
 
 This search module retrieves a list of all table rows in a workbook.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -510,7 +510,7 @@ This search module retrieves a list of all table rows in a workbook.
 
 This action module retrieves metadata for the specified table.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -537,7 +537,7 @@ This action module retrieves metadata for the specified table.
 
 This action module creates a table element within the Excel worksheet.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -568,7 +568,7 @@ This action module creates a table element within the Excel worksheet.
 
 This action module modifies an existing table.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -608,7 +608,7 @@ This action module modifies an existing table.
 
 This action module updates an existing table.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -651,7 +651,7 @@ This action module updates an existing table.
 
 This action module deletes the specified table from an Excel worksheet.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -679,7 +679,7 @@ This action module deletes the specified table from an Excel worksheet.
 
 This action retrieves data from the defined worksheet range, and returns a bundle for each row.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -706,7 +706,7 @@ This action retrieves data from the defined worksheet range, and returns a bundl
 
 This action module allows you to make a custom API call.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

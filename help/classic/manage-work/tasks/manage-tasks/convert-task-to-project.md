@@ -18,7 +18,7 @@ When a task in a project requires a larger amount of effort to complete than you
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

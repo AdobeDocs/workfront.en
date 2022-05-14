@@ -32,7 +32,7 @@ The changes you make in the View of the report take effect only in the Details t
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -78,7 +78,7 @@ For information on creating a report, see [Create a report](../../../reports-and
 
 1. Specify the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -109,7 +109,7 @@ For information on creating a report, see [Create a report](../../../reports-and
 1. In the**Show the field like this:**&nbsp;section specify what this field looks like when the condition defined above is met.  
    Specify the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -56,7 +56,7 @@ You can view the following financial indicators about an initiative by accessing
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: several instances drafted in the table below!) </p>
 -->
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -125,7 +125,7 @@ You can display initiative information in reports, as described in the table bel
 >
 >You can access the following report information from Adobe Workfront Classic as well as The new Adobe Workfront experience. However, you will not be able to access plans or initiatives from Adobe Workfront Classic.
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

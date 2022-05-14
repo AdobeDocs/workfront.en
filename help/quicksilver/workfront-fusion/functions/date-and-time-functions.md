@@ -14,7 +14,7 @@ description: You must have the following access to use the functionality in this
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -62,7 +62,7 @@ For more information, see [Date](../../workfront-fusion/mapping/item-data-types.
 
 <!-- WRITER Check for wonky stuff in this article -->
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -156,7 +156,7 @@ Use this function when you have a Text value representing a date (such as `12-10
 
 The second column indicates the expected type. If different type is provided, [Type coercion in Adobe Workfront Fusion](../../workfront-fusion/mapping/type-coercion.md) is applied.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -856,7 +856,7 @@ You can copy and paste the formula's code into a field:
 
 The formula contains the following items:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

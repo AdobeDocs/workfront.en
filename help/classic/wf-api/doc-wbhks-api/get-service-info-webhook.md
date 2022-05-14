@@ -30,7 +30,7 @@ None. In addition, calls to this endpoint should not require authentication.
 
 JSON containing information about this service
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

@@ -23,7 +23,7 @@ You can delete or deactivate a custom form from the system.
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

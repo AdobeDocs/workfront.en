@@ -20,7 +20,7 @@ The Adobe Workfront Fusion JSON app provides modules to process data in JSON for
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -132,7 +132,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This aggregator module aggregates output from a previous module into JSON. 
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -163,7 +163,7 @@ This aggregator module aggregates output from a previous module into JSON.
 
 This action module converts a JSON string to XML.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -178,7 +178,7 @@ This action module converts a JSON string to XML.
 
 This action module parses a JSON string into a data structure, which allows you to access the data inside the JSON&nbsp;string.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -197,7 +197,7 @@ This action module parses a JSON string into a data structure, which allows you 
 
 This action module creates JSON from a data structure.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -212,7 +212,7 @@ This action module creates JSON from a data structure.
 
 This action module transforms an object into a json string.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 

@@ -21,7 +21,7 @@ For information about custom fields and widgets in custom forms, see [Add a cust
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -67,7 +67,7 @@ You must have the following to perform the steps in this article:
 
       ![](assets/share-field-view-mng-options-350x457.jpg)
 
-      <table cellspacing="0"> 
+      <table> 
        <col> 
        <col> 
        <tbody> 

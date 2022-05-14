@@ -20,7 +20,7 @@ Adobe Workfront Fusion Image modules allow you get information about a specific 
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -68,7 +68,7 @@ When you are configuring this module, the following fields display. A bolded tit
 
 This transformer module changes an image's height and width according to criteria you specify.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -123,7 +123,7 @@ This transformer module changes the format of an image file. This module is comp
 
 Both the source file and the output must be in one of these formats. For example, the Image > Convert a format module can transform a PNG file into a BMP file, or a BMP&nbsp;into a JPG.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -150,7 +150,7 @@ Both the source file and the output must be in one of these formats. For example
 
 This transformer module returns basic information about a module.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 

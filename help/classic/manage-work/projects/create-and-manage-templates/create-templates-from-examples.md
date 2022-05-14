@@ -26,7 +26,7 @@ If your organization uses the new Adobe Workfront experience, we recommend that 
 
 You must have the following to perform the actions in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

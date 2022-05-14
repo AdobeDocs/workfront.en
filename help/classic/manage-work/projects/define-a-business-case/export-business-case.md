@@ -18,7 +18,7 @@ You can export the Business Case to a PDF file, in case you need to print it or 
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

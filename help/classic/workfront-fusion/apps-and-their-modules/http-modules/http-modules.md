@@ -49,7 +49,7 @@ See the following articles for specific request module instructions:
 
 This action module downloads a file from the specified URL. After the file is downloaded, you can further process the file (map the file data) using other modules in the scenario.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -64,7 +64,7 @@ This action module downloads a file from the specified URL. After the file is do
 
 This action module resolves a chain of HTTP redirects and returns a target URL.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -85,7 +85,7 @@ This action module resolves a chain of HTTP redirects and returns a target URL.
 
 This module returns each header (name and value) from the specified HTTP module in a separate bundle.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

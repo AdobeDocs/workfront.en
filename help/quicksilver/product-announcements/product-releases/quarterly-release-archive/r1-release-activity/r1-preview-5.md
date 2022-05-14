@@ -129,7 +129,7 @@ Several notifications have been moved from the “Action Needed” section of th
 
 For more information about configuring email notifications, see [Activate or deactivate your own event notifications](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

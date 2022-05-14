@@ -16,7 +16,7 @@ The following notifications alert you about communication, such as an update com
 
 See also [Event notifications](../../workfront-basics/using-notifications/event-notifications.md).
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

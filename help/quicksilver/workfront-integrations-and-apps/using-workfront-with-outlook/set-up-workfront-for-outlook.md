@@ -26,7 +26,7 @@ For information about how to enable the Outlook integration for your organizatio
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

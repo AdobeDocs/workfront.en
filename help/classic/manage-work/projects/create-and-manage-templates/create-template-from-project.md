@@ -24,7 +24,7 @@ After you save an existing project as a template, you can use the new template t
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
 
 1. Specify the following information for the template:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

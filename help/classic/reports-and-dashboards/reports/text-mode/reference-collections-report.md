@@ -24,7 +24,7 @@ For more information about building a report in Workfront, see [Create a custom 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -227,7 +227,7 @@ To add a collection column in a report view:
 
 The lines in a text mode view for a collection are outlined in the following table: 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

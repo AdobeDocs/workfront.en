@@ -27,7 +27,7 @@ The information in this report can also be found in the  Staffing tab  of the pr
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

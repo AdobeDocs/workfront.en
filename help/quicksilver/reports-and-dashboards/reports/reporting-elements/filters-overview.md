@@ -30,7 +30,7 @@ There are several types of filters in Workfront. All filters fulfill the same pu
 
 The following are types of filters that you can use in&nbsp;Workfront:
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -185,7 +185,7 @@ When you build a filter, you connect multiple elements together that make up fil
 
 A filter contains the following elements:
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -310,7 +310,7 @@ This article describes all areas where you can apply filters in&nbsp;Workfront, 
 <h2>Workfront filters</h2>
 <p>There are several types of filters in Workfront. All filters fulfill the same purpose of limiting the amount of information you display on the screen. </p>
 <p>The following are types of filters that you can use in&nbsp;Workfront:</p>
-<table cellspacing="3">
+<table>
 <col>
 <col>
 <tbody>

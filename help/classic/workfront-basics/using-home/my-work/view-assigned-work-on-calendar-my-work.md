@@ -24,7 +24,7 @@ A calendar is displayed at the top of the My Work area, enabling you to quickly 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

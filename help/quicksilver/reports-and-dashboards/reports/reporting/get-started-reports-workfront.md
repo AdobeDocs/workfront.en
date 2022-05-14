@@ -17,7 +17,7 @@ For information about understanding objects and how they can be reported on in t
 
 Reports are a combination of the following 3 elements in Workfront:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -286,7 +286,7 @@ For information about report usage, including how often they are viewed, by what
 
 The following terms are used in reference to Workfront reports: 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

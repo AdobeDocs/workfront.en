@@ -18,7 +18,7 @@ Connect your work with your content in Experience Manager Assets Essentials​:
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -50,7 +50,7 @@ You must have the following:
 1. Select **Add Experience Manager Integration**.
 1. Specify the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

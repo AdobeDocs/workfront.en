@@ -25,7 +25,7 @@ For information about layout templates for groups, see [Create and modify a grou
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
 1. Click the down arrow ![](assets/dropdown-arrow.png) under **Customize what users see**, then click **Branding**.
 1. Make any of the following changes to customize Workfront with branding images for those who are assigned this layout template.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

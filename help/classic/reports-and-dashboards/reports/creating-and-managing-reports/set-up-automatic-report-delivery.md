@@ -24,7 +24,7 @@ For more information, including size limitations that can affect the delivery of
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -78,7 +78,7 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
 1. (Conditional) To modify an existing repeating report delivery, select the report delivery in the **Repeating Deliveries** section.
 1. Specify the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

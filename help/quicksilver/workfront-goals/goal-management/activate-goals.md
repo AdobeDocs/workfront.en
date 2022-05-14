@@ -16,7 +16,7 @@ To keep track of how close you are to achieving a goal, you must activate it. Th
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

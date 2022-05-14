@@ -14,7 +14,7 @@ While there are no restrictions on the types and sizes of individual files that 
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

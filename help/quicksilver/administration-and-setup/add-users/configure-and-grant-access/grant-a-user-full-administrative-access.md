@@ -40,7 +40,7 @@ As an Adobe Workfront administrator, you can create another Workfront administra
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -101,7 +101,7 @@ Users with a Plan license who can edit functionality in one area have full acces
 
 ### Access to the Setup area {#access-to-the-setup-area}
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -353,7 +353,7 @@ Users with a Plan license who can edit functionality in one area have full acces
 
 ### Access to objects {#access-to-objects}
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

@@ -20,7 +20,7 @@ For more information about creating a project using a template, see [Create a pr
 
 You must have the following to perform the steps described in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -84,7 +84,7 @@ You must have the following to perform the steps described in this article:
 
 1. Click **Next Step** to navigate through the numbered options, as follows (or, select **Finish and Attach Template** at any time):
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

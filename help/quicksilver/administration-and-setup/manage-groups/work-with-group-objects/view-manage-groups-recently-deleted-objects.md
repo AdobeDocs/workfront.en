@@ -23,7 +23,7 @@ For more information about deleted items, see [Manage deleted items](../../../ad
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -73,7 +73,7 @@ You must have the following to perform the steps in this article:
 
 1. Do any of the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

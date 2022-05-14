@@ -114,7 +114,7 @@ For examples of the most common reasons for using text mode in a view, see the f
 <div>
 <h2>Access requirements</h2>
 <p>You must have the following access to perform the steps in this article:</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>

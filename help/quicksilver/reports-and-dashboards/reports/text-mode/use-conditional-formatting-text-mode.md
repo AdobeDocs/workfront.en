@@ -21,7 +21,7 @@ For more information about applying conditional formatting to a view, see [Use c
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -116,7 +116,7 @@ For more information, see [Format dates in text mode reports](../../../reports-a
 <p>If you wanted to show the Planned Completion Date as <em>Mth, DD, Year</em>, the code would look like:</p>
 <pre>valueformat=mediumAtdate<br>valuefield=plannedCompletionDate</pre>
 <p>You can format dates using the following <code>valueformat</code>&nbsp;text mode values:</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <col>

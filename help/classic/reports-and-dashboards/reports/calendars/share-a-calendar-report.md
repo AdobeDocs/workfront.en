@@ -18,7 +18,7 @@ You can share a calendar with other users and you can make it available publicly
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

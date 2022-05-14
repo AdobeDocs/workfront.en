@@ -12,7 +12,7 @@ Many&nbsp;Microsoft web services are accessed through the Microsoft Graph API. T
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -84,7 +84,7 @@ To create a connection to the Microsoft Graph REST&nbsp;API, you must first regi
 
    For specifics on locating and configuring these fields, see the "Configure permissions for Microsoft Graph" section in [Get access without a user](https://docs.microsoft.com/en-us/graph/auth-v2-service) in the Microsoft documentation.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -114,7 +114,7 @@ After you register Workfront Fusion as discussed in [Register Workfront Fusion i
 1. Click **Add** next to the connection field.
 1. Configure the connection fields as follows:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

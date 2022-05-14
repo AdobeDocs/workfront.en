@@ -22,7 +22,7 @@ As a Workfront administrator, instead of assigning a license to a user, you assi
 
 This table and diagram show the main levels of access to Workfront:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

@@ -57,7 +57,7 @@ You specify the URL of the website and other information, such as where you want
 
 The module returns the ID of the file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -96,7 +96,7 @@ The module returns the ID of the file and any associated fields, along with any 
 
 Converts a file into a selected output format.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -151,7 +151,7 @@ Converts a file into a selected output format.
 
 Enables you to add one or multiple files to the ZIP, RAR, 7Z, TAR, TAR.GZ or TAR.BZ2 archive.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -194,7 +194,7 @@ Enables you to add one or multiple files to the ZIP, RAR, 7Z, TAR, TAR.GZ or TAR
 
 Merges at least two files into one PDF. If input files are not PDFs, they are automatically converted to PDF.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -243,7 +243,7 @@ The module returns the ID of the  file and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -340,7 +340,7 @@ This module creates a job. A job can be one or multiple tasks that are identifie
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For further processing of the finished job created with the Create a Job module, please use the New Job Event (job.finished) module in another scenario.</p>
 -->
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -394,7 +394,7 @@ This module deletes a job, including all tasks and data.
 >
 >Jobs are deleted automatically 24 hours after they have ended.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -413,7 +413,7 @@ This module deletes a job, including all tasks and data.
 
 This module retrieves job details.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -432,7 +432,7 @@ This module retrieves job details.
 
 This module retrieves all jobs that have been run in your account.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -461,7 +461,7 @@ Triggers when a job in your account or task is created, finishes, or fails.
 >* The New Job Event trigger is also triggered when an *individual* task is created, has finished, or has failed.
 >
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -504,7 +504,7 @@ Triggers when a job in your account or task is created, finishes, or fails.
 
 This module cancels a task that has a status of waiting or processing.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -527,7 +527,7 @@ Delete a task, including all data.
 >
 >Tasks are deleted automatically 24 hours after they have ended.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -546,7 +546,7 @@ Delete a task, including all data.
 
 This module retrieves file name and file data from the specified task.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -565,7 +565,7 @@ This module retrieves file name and file data from the specified task.
 
 This module retrieves task details.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -584,7 +584,7 @@ This module retrieves task details.
 
 This module retrieves all tasks in your account based on filter settings.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -615,7 +615,7 @@ This module retrieves all tasks in your account based on filter settings.
 
 This module creates a new task, based on the settings (payload) of another task.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -643,7 +643,7 @@ Retrieves authenticated account details about the current user.
 
 Allows you to perform a custom API call.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -692,7 +692,7 @@ In our example, 6 tasks were returned:
 
 If the CloudConvert > Convert a File throws one of the following errors:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <thead> 

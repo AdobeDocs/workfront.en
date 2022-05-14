@@ -8,7 +8,7 @@ As a Workfront administrator, you determine who in your organization has access 
 
 The Alpha version of the new Adobe Workfront experience is currently available for select customers. Following are details about the updates included with the Alpha version, and the differences between the Workfront Classic and the new Adobe Workfront experience. 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

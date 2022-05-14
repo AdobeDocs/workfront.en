@@ -23,7 +23,7 @@ The Schedule Performance Index (SPI) describes the relationship between the plan
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

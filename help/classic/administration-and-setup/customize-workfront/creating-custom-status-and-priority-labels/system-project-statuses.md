@@ -22,7 +22,7 @@ Changing a project status is typically a manual process. However, there are some
 
 The following project statuses are provided with your Workfront instance:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  </col> 
  <col> 

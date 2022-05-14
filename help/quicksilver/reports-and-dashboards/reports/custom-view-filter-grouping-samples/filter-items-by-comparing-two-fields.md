@@ -15,7 +15,7 @@ You can filter items out of a list by comparing two of their fields. For example
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -23,7 +23,7 @@ You can use Diagnostics to manually trigger automated processes, such as time-ba
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -45,7 +45,7 @@ You must have the following to perform the steps in this article:
 1. Expand **System**, then click **Diagnostics**.
 1. Select from any of the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

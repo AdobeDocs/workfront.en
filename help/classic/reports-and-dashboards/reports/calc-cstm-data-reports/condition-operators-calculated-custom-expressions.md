@@ -37,7 +37,7 @@ Refer to the API Explorer to find the fields you want to reference in your calcu
 
 You can use the following condition modifiers in Workfront:
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <col> 

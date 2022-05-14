@@ -22,7 +22,7 @@ You can add a filter between two modules and check whether bundles received from
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

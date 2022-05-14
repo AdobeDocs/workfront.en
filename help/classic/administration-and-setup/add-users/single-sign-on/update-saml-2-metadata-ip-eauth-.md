@@ -26,7 +26,7 @@ For information about configuring SAML prior to your migration to the enhanced a
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

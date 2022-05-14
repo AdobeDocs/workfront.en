@@ -73,7 +73,7 @@ After you have reviewed the document proof, you can make a decision in the proof
 
    Some common decision options are shown below. The Adobe Workfront administrator or Workfront Proof administrator can configure the list of decision options. For more information about how administrators can configure decisions, see&nbsp; [Configure approval decision options in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

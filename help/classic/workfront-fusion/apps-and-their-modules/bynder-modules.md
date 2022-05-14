@@ -25,7 +25,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -133,7 +133,7 @@ When you are configuring this module, the following fields display.
 
 The module returns a status code, along with the headers and body of the API&nbsp;call.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -171,7 +171,7 @@ The module returns a status code, along with the headers and body of the API&nbs
 
 This action module reads the metadata of an asset.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -194,7 +194,7 @@ This action module reads the metadata of an asset.
 
 This action module updates the metadata of an existing asset.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -221,7 +221,7 @@ This action module updates the metadata of an existing asset.
 
 This action module adds one or more assets to a collection.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -244,7 +244,7 @@ This action module adds one or more assets to a collection.
 
 This action module removes one or more assets from a collection.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -267,7 +267,7 @@ This action module removes one or more assets from a collection.
 
 Add a tag to one or more assets
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -290,7 +290,7 @@ Add a tag to one or more assets
 
 Remove a tag from one or more assets
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -313,7 +313,7 @@ Remove a tag from one or more assets
 
 This action module downloads a single asset.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -336,7 +336,7 @@ This action module downloads a single asset.
 
 This action module uploads a single asset.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -368,7 +368,7 @@ This action module uploads a single asset.
 
 This search module retrieves all items of a specific type.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -400,7 +400,7 @@ This search module retrieves all items of a specific type.
 
 This search module searches for assets base on criteria you supply.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -446,7 +446,7 @@ This search module searches for assets base on criteria you supply.
 
 This trigger module starts a scenario when an asset is created or updated.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 

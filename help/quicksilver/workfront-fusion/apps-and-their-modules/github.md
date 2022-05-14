@@ -17,7 +17,7 @@ In an Adobe Workfront Fusion scenario, you can automate workflows that use GitHu
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -84,7 +84,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This module triggers when a new issue is added or an existing issue is modified.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -134,7 +134,7 @@ This module triggers when a new issue is added or an existing issue is modified.
 
 This module triggers when a repository is created or modified.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -157,7 +157,7 @@ This module triggers when a repository is created or modified.
 
 This module triggers when a new fork is created.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -180,7 +180,7 @@ This module triggers when a new fork is created.
 
 This module triggers when a new comment is added or an existing comment is modified.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -211,7 +211,7 @@ This module triggers when a new comment is added or an existing comment is modif
 
 This module triggers when a new pull request is added or an existing pull request is modified.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -255,7 +255,7 @@ This module triggers when a new pull request is added or an existing pull reques
 
 This module searches for issues that match your search criteria.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -292,7 +292,7 @@ This module searches for issues that match your search criteria.
 
 This module creates a new issue in the selected repository.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -331,7 +331,7 @@ This module creates a new issue in the selected repository.
 
 This module updates an existing GitHub issue.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -378,7 +378,7 @@ This module updates an existing GitHub issue.
 
 This module retrieves details about the specified issue
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -401,7 +401,7 @@ This module retrieves details about the specified issue
 
 This module adds assignees to the specified issue
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -428,7 +428,7 @@ This module adds assignees to the specified issue
 
 This module removes assignees from the specified issue.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -455,7 +455,7 @@ This module removes assignees from the specified issue.
 
 This module adds labels to an issue. Labels are defined on the repository level, and can only be created by someone with write access to the repository.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -482,7 +482,7 @@ This module adds labels to an issue. Labels are defined on the repository level,
 
 This module removes a single label from an issue.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -509,7 +509,7 @@ This module removes a single label from an issue.
 
 This module creates a comment on the specified issue.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -536,7 +536,7 @@ This module creates a comment on the specified issue.
 
 This module lists all comments on the specified issue.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

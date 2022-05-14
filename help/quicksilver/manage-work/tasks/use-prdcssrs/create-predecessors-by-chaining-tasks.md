@@ -18,7 +18,7 @@ By chaining tasks, you can allow the system to create the predecessor relationsh
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

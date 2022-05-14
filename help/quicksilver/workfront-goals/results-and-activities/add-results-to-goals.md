@@ -15,7 +15,7 @@ Results measure the progress of a goal. Without associating results, activities,
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

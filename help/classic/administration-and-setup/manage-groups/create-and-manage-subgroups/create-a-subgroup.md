@@ -23,7 +23,7 @@ Typically, however, group administrators manage groups and subgroups. They can u
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -52,7 +52,7 @@ You must have the following to perform the steps in this article:
 1. In the **New Subgroup** box that appears, type a **Group Name** for the subgroup.
 1. (Optional) specify any of the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

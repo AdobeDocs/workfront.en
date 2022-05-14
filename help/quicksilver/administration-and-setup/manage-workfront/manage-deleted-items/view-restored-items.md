@@ -21,7 +21,7 @@ For information about how to restore a project, task, issue, or document after i
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

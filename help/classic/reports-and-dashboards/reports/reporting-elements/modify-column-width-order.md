@@ -53,7 +53,7 @@ The following are guidelines about how column widths work in Adobe Workfront:
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

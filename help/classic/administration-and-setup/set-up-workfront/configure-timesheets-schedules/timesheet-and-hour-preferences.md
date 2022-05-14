@@ -25,7 +25,7 @@ Any changes you make to timesheets impact all timesheets that are created in the
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
 1. On the page that displays, in the **General Preferences** section, configure any of the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -100,7 +100,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the **Pre-Populate timesheets with**section, configure any of the following options: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -129,7 +129,7 @@ You must have the following access to perform the steps in this article:
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Better title would be Deleting projects, tasks, and issues</p>
    -->
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -24,7 +24,7 @@ This article describes how you can align goals to one another by connecting them
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

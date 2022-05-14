@@ -24,7 +24,7 @@ An ad&nbsp;hoc work item is a task or issue created in My Work.&nbsp; You have t
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

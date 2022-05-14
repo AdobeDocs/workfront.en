@@ -18,7 +18,7 @@ As a Resource Manager, you can assign work to users and manage their daily, week
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

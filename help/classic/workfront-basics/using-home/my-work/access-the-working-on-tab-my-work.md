@@ -17,7 +17,7 @@ You can navigate to your Working On and Work Request tabs from the My Work area 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

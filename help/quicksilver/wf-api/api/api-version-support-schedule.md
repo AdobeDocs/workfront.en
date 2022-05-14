@@ -14,7 +14,7 @@ description: API versioning and support schedule
 
 ```The following table shows the release and support schedule for the Workfront API.``` 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

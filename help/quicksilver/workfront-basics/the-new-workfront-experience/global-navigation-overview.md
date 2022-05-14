@@ -107,7 +107,7 @@ Each icon takes you to a different area of the new Adobe Workfront experience. T
 
 Below these options in the Main Menu, you can access:
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

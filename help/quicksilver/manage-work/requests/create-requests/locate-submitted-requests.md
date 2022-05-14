@@ -21,7 +21,7 @@ You can locate the following types of requests that you or someone else submitte
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -63,7 +63,7 @@ To locate requests that you or other users have submitted:
 
 1. The following columns display by default:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -112,7 +112,7 @@ To locate requests that you or other users have submitted:
 
 1. From the **Filter icon** ![](assets/filter-nwepng.png) in the top right of the list, select any of the following filters: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

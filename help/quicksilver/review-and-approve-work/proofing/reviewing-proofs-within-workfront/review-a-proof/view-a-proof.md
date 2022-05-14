@@ -12,7 +12,7 @@ description: You must have the following access to perform the steps in this art
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -49,7 +49,7 @@ You can view a static proof that contains multiple pages in a single view, in a 
 
 1. Click any of the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

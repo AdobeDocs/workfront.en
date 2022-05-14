@@ -18,7 +18,7 @@ You can use the Resource Planner to manage the allocation of your resources to p
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

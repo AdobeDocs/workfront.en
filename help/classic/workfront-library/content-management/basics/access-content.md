@@ -15,7 +15,7 @@ description: Depending on your access level, you can access content in the follo
 
 Depending on your access level, you can access content in the following areas of Workfront Library:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

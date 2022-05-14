@@ -33,7 +33,7 @@ For information about how to create a filter, view, or grouping, see the followi
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -112,7 +112,7 @@ Sharing filters, views, or groupings in Workfront is identical.
 
    You can select from the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -152,7 +152,7 @@ Sharing filters, views, or groupings in Workfront is identical.
 The header of the builder interface changes to blue when you enable the beta builder. After you enable the beta builder interface, Workfront keeps it enabled for all areas where it is available.
 </note> <p> <img src="assets/new-filters-my-filters-suggested-shared-filter-lists-nwe-350x234.png" style="width: 350;height: 234;"> </p> </li>
 <li value="3"> <p>Review the following lists of filters or groupings:</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>

@@ -23,7 +23,7 @@ You can view or edit the information of a project by accessing the Overview area
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

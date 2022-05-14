@@ -17,7 +17,7 @@ description: If Adobe Workfront Fusion doesn't offer an app for the web service 
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

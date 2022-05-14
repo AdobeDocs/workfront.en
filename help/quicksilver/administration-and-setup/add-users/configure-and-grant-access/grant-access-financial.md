@@ -19,7 +19,7 @@ As an Adobe Workfront administrator, you can define a user’s access to the fol
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -54,7 +54,7 @@ Consider the following when granting users access to financial data in Workfront
 
 1. (Optional) In the **Allow administrative access for** area, select the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

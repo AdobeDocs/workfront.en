@@ -21,7 +21,7 @@ As a setting, it allows you to define how the EAC value should be calculated.&nb
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

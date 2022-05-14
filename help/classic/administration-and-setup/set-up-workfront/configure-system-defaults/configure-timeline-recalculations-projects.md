@@ -23,7 +23,7 @@ This article describes how you, as a Workfront administrator, can determine how 
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

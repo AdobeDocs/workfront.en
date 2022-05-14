@@ -17,7 +17,7 @@ If there are any groups above the group you manage, their administrators can als
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -48,7 +48,7 @@ You must have the following to perform the steps in this article:
 1. In the left panel, click **Projects** to list the projects associated with the group (and any subgroups below it).
 1. Do any of the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

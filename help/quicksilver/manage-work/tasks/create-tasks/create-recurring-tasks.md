@@ -16,7 +16,7 @@ For general information about recurring tasks, including the impact of editing a
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -63,7 +63,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the **Frequency** drop-down list, select the number of time units when you want the task to occur and the type of time units.&nbsp;Select from the following options: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <thead> 

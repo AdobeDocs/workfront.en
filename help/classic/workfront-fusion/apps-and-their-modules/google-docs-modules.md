@@ -27,7 +27,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -93,7 +93,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module returns document details when a new document is created or modified in the selected folder.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -125,7 +125,7 @@ This trigger module returns document details when a new document is created or m
 
 This action module retrieves a list of documents from the selected folder.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -155,7 +155,7 @@ This action module retrieves a specified document.
 
 You may need to extend your permissions.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -192,7 +192,7 @@ You may need to extend your permissions.
 
 This action module allows you to create a new document in the selected folder.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -232,7 +232,7 @@ This action module allows you to create a new document in the selected folder.
 
 This action module creates a copy of an existing template document and replaces any tags. This module also allows users to replace images with new images by URL.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -294,7 +294,7 @@ This action module creates a copy of an existing template document and replaces 
 
 This action module appends or inserts a new paragraph to an existing document.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -349,7 +349,7 @@ This action module appends or inserts a new paragraph to an existing document.
 
 This action module inserts an image from the URL to the document.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -404,7 +404,7 @@ This action module inserts an image from the URL to the document.
 
 This action module replaces an existing image. The aspect ratio of the original image will be maintained.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -440,7 +440,7 @@ This action module replaces an existing image. The aspect ratio of the original 
 
 This action module replaces text in a document.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -480,7 +480,7 @@ This action module replaces text in a document.
 
 This action module converts and downloads the selected document.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -508,7 +508,7 @@ This action module converts and downloads the selected document.
 
 This action module deletes a document.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -545,7 +545,7 @@ This action module deletes a document.
 
 This action module allows you to perform a custom API call.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -599,7 +599,7 @@ Details of the retrieved document can be found in the module's Output under Bund
 
 This action module finds all links in the document and makes them clickable.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

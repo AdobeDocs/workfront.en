@@ -36,7 +36,7 @@ For information about how users access both regular Help and a custom help URL t
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

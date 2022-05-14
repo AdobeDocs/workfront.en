@@ -15,7 +15,7 @@ You can merge the information that displays in multiple separate columns and dis
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

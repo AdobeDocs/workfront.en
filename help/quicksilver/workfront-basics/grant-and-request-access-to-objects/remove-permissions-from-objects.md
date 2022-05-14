@@ -16,7 +16,7 @@ Similar considerations as for sharing objects apply for removing permissions fro
 
 You must have the following to share objects:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

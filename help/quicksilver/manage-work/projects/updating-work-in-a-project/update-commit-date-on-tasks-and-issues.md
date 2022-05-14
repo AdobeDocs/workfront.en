@@ -14,7 +14,7 @@ You can manually update the Commit date of a task or an issue that you are assig
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

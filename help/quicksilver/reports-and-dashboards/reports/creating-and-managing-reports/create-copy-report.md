@@ -15,7 +15,7 @@ You can create a copy of any report that you have access to. You can either crea
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -16,7 +16,7 @@ You can use Portfolios to group projects that belong to the same product lines, 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -60,7 +60,7 @@ You must have the following access to perform the steps in this article:
 1. Click **Portfolio Details** in the left panel.
 1. In the **Overview** area, change any of the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

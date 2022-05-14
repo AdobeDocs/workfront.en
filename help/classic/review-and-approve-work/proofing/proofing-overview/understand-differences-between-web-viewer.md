@@ -75,7 +75,7 @@ The following list can help you understand what Proofing Viewer you can use to p
 
 ## Comments
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -224,7 +224,7 @@ The following list can help you understand what Proofing Viewer you can use to p
 
 ## Compare proofs
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -251,7 +251,7 @@ The following list can help you understand what Proofing Viewer you can use to p
 
 ## Proof operations
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -364,7 +364,7 @@ The following list can help you understand what Proofing Viewer you can use to p
 
 ## Translations
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

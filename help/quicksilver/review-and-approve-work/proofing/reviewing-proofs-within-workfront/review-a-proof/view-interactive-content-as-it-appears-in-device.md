@@ -14,7 +14,7 @@ You can preview how an interactive proof looks on various devices, allowing you 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -20,7 +20,7 @@ These notifications contain Workfront actions that you can take within Microsoft
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -132,7 +132,7 @@ You receive approval notifications when you are asked to approve an object, such
 
 #### Actions available on specific approval notifications:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -269,7 +269,7 @@ You receive assignment notifications when you, or a team you are on, are assigne
 
 #### Actions available on specific assignment notifications:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -320,7 +320,7 @@ You receive a communication notification when someone comments on an item you ar
 
 #### Actions available on specific communication notifications:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -385,7 +385,7 @@ You receive an information notification when there is an update to an item you a
 
 #### Actions available on specific information notifications:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -422,7 +422,7 @@ You receive a date change notification when the date changes on a work item you 
 * **Comment**: Click to make a comment on the item. Your comment also appears in the item's update stream in Workfront.
 * **Status**: Click, then select the new status for the work item from the drop-down menu.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <col> 

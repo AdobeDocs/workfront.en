@@ -33,7 +33,7 @@ For information about adding updates to Workfront objects, see [Update work](../
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

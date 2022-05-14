@@ -23,7 +23,7 @@ Consider the following when adding projects to portfolios:&nbsp;
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
 
    Select from the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -15,7 +15,7 @@ You can configure whether the system automatically generates proofs when users y
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

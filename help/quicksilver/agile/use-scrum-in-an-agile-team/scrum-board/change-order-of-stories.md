@@ -16,7 +16,7 @@ When you reorder columns on the story board, any changes you make are saved on t
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

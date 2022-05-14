@@ -22,7 +22,7 @@ This Adobe Workfront Fusion module enables you to configure an HTTP request with
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -66,7 +66,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -25,7 +25,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -84,7 +84,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This Trigger type module returns file details when the file in a specified folder is modified.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -121,7 +121,7 @@ This search module looks for records in an object in Dropbox that match the sear
 
 You can map this information in subsequent modules in the scenario.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -170,7 +170,7 @@ The module returns the ID of the file and any associated fields, along with any 
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -199,7 +199,7 @@ The module returns the ID of the folder and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -224,7 +224,7 @@ The module returns the IDs of the files or foldes and any associated fields, alo
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -260,7 +260,7 @@ The module returns any standard fields associated with the record, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -304,7 +304,7 @@ The module returns the ID of the  file and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -337,7 +337,7 @@ The module returns the ID of the  folder and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -370,7 +370,7 @@ The module returns the ID of the  folder and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -403,7 +403,7 @@ The module returns the ID of the link and any associated fields, along with any 
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -444,7 +444,7 @@ The module returns the ID of the  version and any associated fields, along with 
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -477,7 +477,7 @@ The module returns the ID of the  file or folder and any associated fields, alon
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -522,7 +522,7 @@ The module returns the ID of the  file or folder and any associated fields, alon
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -555,7 +555,7 @@ The module returns the ID of the  record and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -582,7 +582,7 @@ This action module lets you make a custom authenticated call to the Dropbox API.
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -26,7 +26,7 @@ For instructions about connecting your Google Sheets account to Workfront Fusion
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -105,7 +105,7 @@ The module retrieves only new rows that have not been filled in before. The trig
 >
 >If the worksheet contains a blank row, no rows after the blank row will be processed.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -176,7 +176,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -235,7 +235,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This module allows you to change the cell content in a selected row.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -286,7 +286,7 @@ This module allows you to change the cell content in a selected row.
 
 Deletes values from a specified row.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -313,7 +313,7 @@ Deletes values from a specified row.
 
 Deletes a specified row.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -340,7 +340,7 @@ Deletes a specified row.
 
 Retrieves a value from a selected cell.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -373,7 +373,7 @@ Retrieves a value from a selected cell.
 
 ### Update a Cell {#update-a-cell}
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -408,7 +408,7 @@ Retrieves a value from a selected cell.
 
 Deletes a value from a specified cell.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -435,7 +435,7 @@ Deletes a value from a specified cell.
 
 Creates a new sheet in a selected spreadsheet.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -460,7 +460,7 @@ Creates a new sheet in a selected spreadsheet.
 
 ### Create a Spreadsheet {#create-a-spreadsheet}
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -504,7 +504,7 @@ Creates a new sheet in a selected spreadsheet.
 
 Deletes a specific sheet.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -527,7 +527,7 @@ Deletes a specific sheet.
 
 This action module allows you to perform a custom API call.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -572,7 +572,7 @@ This action module allows you to perform a custom API call.
 
 Searches rows using the filter options.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -627,7 +627,7 @@ Searches rows using the filter options.
 
 Returns results matching the given criteria.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -652,7 +652,7 @@ Returns results matching the given criteria.
 
 ### Get Range Values {#get-range-values}
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -695,7 +695,7 @@ Returns results matching the given criteria.
 
 This module returns a list of all sheets in a spreadsheet.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

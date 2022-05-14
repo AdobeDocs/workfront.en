@@ -32,7 +32,7 @@ Claims on the ADFS server are incorrect
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

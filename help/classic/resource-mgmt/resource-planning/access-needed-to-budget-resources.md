@@ -29,7 +29,7 @@ For additional information about prerequisites for using the budgeting tools in 
 
 In order to budget resources, manage Resource Pools, and see Cost information in the resource planning tools, your company and you must have the following access:&nbsp;
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

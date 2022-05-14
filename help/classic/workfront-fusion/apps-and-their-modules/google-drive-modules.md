@@ -27,7 +27,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -107,7 +107,7 @@ If you see the map button above a field or function, you can use it to set varia
 </ul>
 <h4 id="watch-files-in-folder"><a name="Watch"></a>Watch Files In Folder</h4>
 <p>This trigger module retrieves file details when a file is added or modified in the specified folder.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -154,7 +154,7 @@ If you see the map button above a field or function, you can use it to set varia
 </table>
 <h4 id="watch-all-files"><a name="Watch2"></a>Watch All Files</h4>
 <p>This trigger module retrieves file details when a file in your Google Drive is added or modified.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -197,7 +197,7 @@ If you see the map button above a field or function, you can use it to set varia
 </table>
 <h4 id="watch-folders"><a name="Watch5"></a>Watch Folders</h4>
 <p>This trigger module starts a scenario when a folder is created or modified.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -234,7 +234,7 @@ If you see the map button above a field or function, you can use it to set varia
 </table>
 <h4 id="search-for-files-folders"><a name="Search3"></a>Search for Files/Folders</h4>
 <p>This search module searches for files or folders based on search criteria.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -282,7 +282,7 @@ If you see the map button above a field or function, you can use it to set varia
 </table>
 <h4 id="download-a-file"><a name="Download"></a>Download a file</h4>
 <p>This action module downloads a file from your Google Drive.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -318,7 +318,7 @@ If you see the map button above a field or function, you can use it to set varia
 </table>
 <h4 id="create-a-file-from-text"><a name="Create2"></a>Create a File from Text</h4>
 <p>This action module creates a file from plain text.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -355,7 +355,7 @@ If you see the map button above a field or function, you can use it to set varia
 </table>
 <h4 id="create-a-folder"><a name="Create3"></a>Create a Folder</h4>
 <p>This action module creates a folder in the specified location.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -410,7 +410,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </table>
 <h4 id="upload-a-file"><a name="Upload2"></a>Upload a File</h4>
 <p>This action module uploads a file to your Google Drive.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -442,7 +442,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </table>
 <h4 id="update-a-file"><a name="Update2"></a>Update a File</h4>
 <p>This action module updates a file's metadata or content.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -478,7 +478,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </table>
 <h4 id="move-a-file-folder-to-trash"><a name="Move2"></a>Move a File/Folder to Trash</h4>
 <p>This action module moves a file or folder to the trash.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -498,7 +498,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </table>
 <h4 id="delete-a-file-folder"><a name="Delete2"></a>Delete a File/Folder</h4>
 <p>This action module permanently deletes a file or folder.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -518,7 +518,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </table>
 <h4 id="copy-a-file"><a name="Copy2"></a>Copy a File</h4>
 <p>This action module copies a file to the new location on Google Drive.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -542,7 +542,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </table>
 <h4 id="move-a-file-folder"><a name="Move3"></a>Move a File/Folder</h4>
 <p>This action module moves a file or folder to a different location on Google Drive.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -580,7 +580,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </table>
 <h4 id="get-a-share-link"><a name="Get3"></a>Get a share link</h4>
 <p>This action module retrieves the share link for a file in Google Drive.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -660,7 +660,7 @@ Google Shared Drive modules are for G Suite users only.
 <p>This trigger module starts a scenario when a shared drive is created.</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -690,7 +690,7 @@ The G Suite administrator privilege is required in order to use this module.
 <p>This search module searches for the Google shared drive</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -720,7 +720,7 @@ The G Suite administrator privilege is required in order to use this module.
 <p>This action module creates a new shared drive</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -738,7 +738,7 @@ The G Suite administrator privilege is required in order to use this module.
 <p>This action module retrieves shared drive details</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -756,7 +756,7 @@ The G Suite administrator privilege is required in order to use this module.
 <p>This action module updates an existing drive's name or restrictions.</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -788,7 +788,7 @@ The G Suite administrator privilege is required in order to use this module.
 <p>This action module deletes a shared drive. The shared drive cannot contain any content.</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -810,7 +810,7 @@ The G Suite administrator privilege is required in order to use this module.
 </ul>
 <h4 id="watch-comments"><a name="Watch7"></a>Watch Comments</h4>
 <p>This trigger module starts a scenario when a comment is added or modified on the selected file.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -847,7 +847,7 @@ The G Suite administrator privilege is required in order to use this module.
 </table>
 <h4 id="get-a-folder-id-for-a-path"><a name="Get5"></a>Get a Folder ID for a Path</h4>
 <p>This action module retrieves the Folder ID for a given path.</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <tbody>
@@ -863,7 +863,7 @@ The G Suite administrator privilege is required in order to use this module.
 </table>
 <h4 id="make-an-api-call"><a name="Make"></a>Make an API&nbsp;Call</h4>
 <p>This action module allows you to perform a custom API call.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -915,7 +915,7 @@ The G Suite administrator privilege is required in order to use this module.
 
 Retrieves file details when a file is added or modified in the specified folder.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -985,7 +985,7 @@ Retrieves file details when a file is added or modified in the specified folder.
 
 Retrieves file details when a file in your Google Drive is added or modified.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1035,7 +1035,7 @@ Retrieves file details when a file in your Google Drive is added or modified.
 
 Triggers when a new file is shared to you, or an existing shared file is updated.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1089,7 +1089,7 @@ Triggers when a new file is shared to you, or an existing shared file is updated
 
 Triggers when a comment is added or modified on the selected file.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1128,7 +1128,7 @@ Triggers when a comment is added or modified on the selected file.
 
 Uploads a file to your Google Drive.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1175,7 +1175,7 @@ Uploads a file to your Google Drive.
 
 Updates a file's metadata or content.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1226,7 +1226,7 @@ Updates a file's metadata or content.
 
 Copies a file to the new location.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1261,7 +1261,7 @@ Copies a file to the new location.
 
 Permanently deletes a file or folder.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1280,7 +1280,7 @@ Permanently deletes a file or folder.
 
 Moves a file or folder to the trash.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1299,7 +1299,7 @@ Moves a file or folder to the trash.
 
 Retrieves the file with the ID specified.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1334,7 +1334,7 @@ Retrieves the file with the ID specified.
 
 Searches for files or folders based on search criteria.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1393,7 +1393,7 @@ Searches for files or folders based on search criteria.
 
 Creates a folder in the specified location.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1428,7 +1428,7 @@ Creates a folder in the specified location.
 
 Retrieves the share link for a file in Google Drive.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -1507,7 +1507,7 @@ not
 
 ### Fields {#fields}
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -1706,7 +1706,7 @@ Consider the following about operators in these fields:
 
 ### Value types {#value-types}
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -1733,7 +1733,7 @@ Consider the following about operators in these fields:
 
 ### Operators {#operators}
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

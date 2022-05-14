@@ -16,7 +16,7 @@ You can copy or duplicate one or several tasks or parent tasks at a time.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -142,7 +142,7 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
 
    Deselect from the following options to not transfer them to the copied task. The following table describes what happens when the options are deselected: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

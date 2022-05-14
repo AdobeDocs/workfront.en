@@ -30,7 +30,7 @@ As you work with access levels, it is important to understand how they work toge
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -61,7 +61,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the box that displays, do any of the following to start configuring the custom access level:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -82,7 +82,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Conditional) If **Plan** is selected in the **License Type** box, scroll to the section **Allow administrative access for** and select administrative access permissions for those who will have this access level.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -147,7 +147,7 @@ You must have the following access to perform the steps in this article:
    >
    >For external users such as vendors (anyone not in your organization), we recommend that you restrict access to tasks, projects, updates, announcements, other companies, teams and groups.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

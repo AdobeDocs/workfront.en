@@ -27,7 +27,7 @@ For information on modifying the information that displays in your list, see [Re
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

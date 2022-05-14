@@ -29,7 +29,7 @@ Discover the key features that are available only in the new Adobe Workfront exp
 
 ## New features available with the new Adobe Workfront experience {#new-features-available-with-the-new-adobe-workfront-experience}
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

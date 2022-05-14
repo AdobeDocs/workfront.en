@@ -15,7 +15,7 @@ For more information about creating Custom Forms, see the article [Create or edi
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

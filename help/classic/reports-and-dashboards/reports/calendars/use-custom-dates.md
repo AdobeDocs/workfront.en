@@ -22,7 +22,7 @@ A calendar report is a dynamic report that provides a visual representation of y
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -72,7 +72,7 @@ You can choose how you want the group of items to display on your calendar.
 
 1. Specify the following:  
 
-   <table cellspacing="0">
+   <table>
     <col>
     <col>
     <tbody>

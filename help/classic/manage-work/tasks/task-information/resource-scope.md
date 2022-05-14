@@ -27,7 +27,7 @@ For information about the Fixed Dates Task Constraint, see [Task Constraint over
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

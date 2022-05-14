@@ -18,7 +18,7 @@ description: This article describes basic settings for your Adobe Workfront Fusi
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

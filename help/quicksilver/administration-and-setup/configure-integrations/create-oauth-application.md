@@ -27,7 +27,7 @@ When you create an OAuth2 application, you generate a Client ID and Client Secre
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -62,7 +62,7 @@ When you create an OAuth2 app for ClientApp, you are essentially telling Workfro
 
 When creating an OAuth2 application, choose the type of application that best meets the needs of your integration.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -128,7 +128,7 @@ When creating an OAuth2 application, choose the type of application that best me
 1. Click **Create**.
 1. Fill in the fields for the new app.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -177,7 +177,7 @@ For instructions on configuring and using the OAuth2 application with user crede
 1. Click **Create**.
 1. Fill in the fields for the new app.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -246,7 +246,7 @@ For instructions on configuring and using the OAuth2 application with user crede
 1. Click **Create**.
 1. Fill in the fields for the new app.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

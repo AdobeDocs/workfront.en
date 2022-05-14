@@ -19,7 +19,7 @@ You can access your Adobe Workfront Home content, including all tasks, issues, a
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

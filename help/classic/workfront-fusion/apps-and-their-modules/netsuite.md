@@ -25,7 +25,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -81,7 +81,7 @@ To use NetSuite modules, you must have a NetSuite account.
 </ul>
 <h4 id="enable-features"><a name="Enable"></a>Enable Features</h4>
 <p>Enable the following features</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -129,7 +129,7 @@ To use NetSuite modules, you must have a NetSuite account.
 </note>
 <ol>
 <li value="1"> <p>Begin creating a new integration record. </p> <p>When creating the new record, configure the following fields:</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -191,7 +191,7 @@ If you see the map button above a field or function, you can use it to set varia
 <p><strong>Triggers</strong></p>
 <h4>Watch records</h4>
 <p>This trigger module activates a scenario when a record is created or updated.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -236,7 +236,7 @@ The action is based on the entity type (Allocadia object type) you specify.
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -277,7 +277,7 @@ When you are configuring this module, the following fields display.
 <p>You specify the type of record and field values for the new record.</p>
 <p>The module returns the ID of the record. You can map this information in subsequent modules in the scenario.</p>
 <p>When you are configuring this module, the following fields display.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -300,7 +300,7 @@ When you are configuring this module, the following fields display.
 <h4 id="update-a-record"><a name="Update"></a>Update a record</h4>
 <p>This action module updates an existing record.</p>
 <p>When you are configuring this module, the following fields display.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -327,7 +327,7 @@ When you are configuring this module, the following fields display.
 <p>You specify the ID of the record.</p>
 <p>The module returns the internal ID of the deleted record.</p>
 <p>When you are configuring this module, the following fields display.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -350,7 +350,7 @@ When you are configuring this module, the following fields display.
 <p>You specify the ID of the record.</p>
 <p>The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
 <p>When you are configuring this module, the following fields display.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>
@@ -375,7 +375,7 @@ When you are configuring this module, the following fields display.
 <p><strong>Searches</strong></p>
 <h4>Search for records</h4>
 <p>This search module searches for records based on custom criteria.</p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <tbody>

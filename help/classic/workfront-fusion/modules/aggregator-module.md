@@ -22,7 +22,7 @@ For more information about module types, see [Types of modules](../../workfront-
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -69,7 +69,7 @@ The following image shows a typical setup of the aggregator module :
 
 ![](assets/array-aggregator-350x190.png)
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

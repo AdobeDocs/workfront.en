@@ -28,7 +28,7 @@ Reminder notifications send emails to recipients based on specified criteria. As
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -72,7 +72,7 @@ For information about how to create an email template, see [Configure email temp
 
 1. In the **New Reminder Notification** box that appears, specify the following information.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

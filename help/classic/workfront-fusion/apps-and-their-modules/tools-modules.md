@@ -22,7 +22,7 @@ Tools modules are available from the list of apps, or from the Tools icon ![](as
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -110,7 +110,7 @@ This module retrieves a value that was previously created by the Set Variable or
 
 This module can read variables that were set anywhere in the scenario, even if the variable was set in a different route than where the Get Multiple Variables module is located. The only requirement is that the Tools >Set Variable or Tools > Set Multiple Variable module is executed before the Tools > Get Variable module. For more information on the order in which modules are executed, see [Router module in Adobe Workfront Fusion](../../workfront-fusion/modules/router-module.md).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -125,7 +125,7 @@ This module can read variables that were set anywhere in the scenario, even if t
 
 This module returns a value incremented by 1 after each module's operation.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -380,7 +380,7 @@ This module merges values from the selected fields of received bundles into a si
 
 Converts any value to a string data type (text). It makes the mapping easier when mapping, for example, binary data.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

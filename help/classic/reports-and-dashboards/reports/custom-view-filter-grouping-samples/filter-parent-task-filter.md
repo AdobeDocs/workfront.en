@@ -25,7 +25,7 @@ You can apply the task filters below to display working tasks. Working tasks are
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

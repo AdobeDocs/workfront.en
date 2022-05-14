@@ -92,7 +92,7 @@ It can also track Actual Revenue automatically when Actual Hours are logged on t
 
 There following table shows the types of revenue associated with tasks, issues, and projects. 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -228,7 +228,7 @@ The following scenarios exist when calculating task revenue based on the Revenue
 
 * **The Revenue Type of the task is User Hourly** 
 
-  <table cellspacing="0"> 
+  <table> 
    <col> 
    <col> 
    <col> 
@@ -257,7 +257,7 @@ The following scenarios exist when calculating task revenue based on the Revenue
 
 * **The Revenue Type of the task is Role Hourly** 
 
-  <table cellspacing="0"> 
+  <table> 
    <col> 
    <col> 
    <col> 
@@ -287,7 +287,7 @@ The following scenarios exist when calculating task revenue based on the Revenue
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>Ideal table but does not come across Markdown</p>
-<table cellspacing="15">
+<table>
 <col>
 <col>
 <col>

@@ -36,7 +36,7 @@ For information on using data store modules, see [Data store modules](../../work
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -94,7 +94,7 @@ Before you can use a data store in a module, you must create the data store in W
 
    A bolded title on a field in a Workfront Fusion module indicates a required setting.
 
-   <table cellspacing="15"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -125,7 +125,7 @@ Before you can use a data store in a module, you must create the data store in W
 1. When creating or editing a data store, click **Add**.
 1. In the **Add data structure** box that displays, configure the following fields:
 
-   <table cellspacing="15"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

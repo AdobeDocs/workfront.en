@@ -24,7 +24,7 @@ We have merged all the subtabs located under the Details tab of an object into a
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -74,7 +74,7 @@ Accessing the Details page for an object is similar to all objects where this fu
 
    * The following areas display on the Details page by default:
 
-     <table cellspacing="0"> 
+     <table> 
       <col> 
       <col> 
       <tbody> 

@@ -22,7 +22,7 @@ With the Adobe Experience Manager Assets connector for Adobe Workfront Fusion, y
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -79,7 +79,7 @@ To create a connection for your Adobe Experience Manager Assets modules:
    >
    >For instructions on setting up Server-to-server flow on the Adobe Developer Console, see [Generating Access Tokens for Server Side APIs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -130,7 +130,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This action module copies a folder or asset to another location in your Adobe Experience Manager Assetsaccount.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -173,7 +173,7 @@ This action module copies a folder or asset to another location in your Adobe Ex
 
 This action module creates a folder or an asset comment.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -208,7 +208,7 @@ This action module creates a folder or an asset comment.
 
 This action module deletes a folder, asset, or rendition.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -236,7 +236,7 @@ This action module deletes a folder, asset, or rendition.
 
 This action module retrieves a representation of an existing folder and of its child entities (folders or assets).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -259,7 +259,7 @@ This action module retrieves a representation of an existing folder and of its c
 
 This action module makes a custom API call to the Adobe Experience Manager Assets API.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -297,7 +297,7 @@ This action module makes a custom API call to the Adobe Experience Manager Asset
 
 This action module moves the asset or folder at the given path to a new location.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -336,7 +336,7 @@ This action module moves the asset or folder at the given path to a new location
 
 This action module updates an existing record.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -371,7 +371,7 @@ This action module updates an existing record.
 
 This action module uploads an asset to your Adobe Experience Manager Assets account.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -19,7 +19,7 @@ The purpose of a dashboard is to provide quick access to information. You can ga
 
 You must have the following:
 
-<table cellspacing="15"> 
+<table> 
  <caption style="text-align: left;">
   *To find out what plan, license type, or access you have, contact your Workfront administrator.
  </caption> 

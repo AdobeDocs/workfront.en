@@ -23,7 +23,7 @@ The Planned Completion Date of a project can be set manually or automatically, d
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

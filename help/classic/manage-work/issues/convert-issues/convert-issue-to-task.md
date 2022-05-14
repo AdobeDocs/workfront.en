@@ -20,7 +20,7 @@ For general information about converting issues, see [Overview of converting iss
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

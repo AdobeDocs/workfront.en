@@ -16,7 +16,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -241,7 +241,7 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
 1. Click **Continue**.
 1. In the **Link applications** window, fill in the following fields:
 
-   <table cellspacing="0"> 
+   <table> 
     <col data-mc-conditions=""> 
     <col data-mc-conditions=""> 
     <tbody> 
@@ -272,7 +272,7 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
 1. In any Jira Server module in Workfront Fusion, click **Add** next to the connection field.
 1. In the Create a connection panel, fill in the following fields:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -315,7 +315,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when a record is added, updated, or deleted.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -354,7 +354,7 @@ This action module adds one or more issues to a sprint.
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -381,7 +381,7 @@ The module returns any standard fields associated with the record, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -410,7 +410,7 @@ This action module lets you make a custom authenticated call to the Jira Softwar
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -454,7 +454,7 @@ The module returns the ID of the  record and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -486,7 +486,7 @@ This action module downloads a particular attachment.
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -511,7 +511,7 @@ The module returns any standard fields associated with the record, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -551,7 +551,7 @@ The module returns the ID of the  record and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -590,7 +590,7 @@ You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -629,7 +629,7 @@ You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

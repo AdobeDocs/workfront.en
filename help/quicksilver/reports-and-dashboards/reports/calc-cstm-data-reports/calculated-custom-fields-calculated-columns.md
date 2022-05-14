@@ -51,7 +51,7 @@ For example:
 
 The differences between the two syntaxes are: 
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

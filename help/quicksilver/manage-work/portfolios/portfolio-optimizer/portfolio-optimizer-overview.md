@@ -58,7 +58,7 @@ The following financial fields display in the Portfolio Optimizer:
 
 Adobe Workfront calculates the financial fields in the portfolio header using information from projects with statuses that equate only with Approved or Current.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -95,7 +95,7 @@ Adobe Workfront calculates the financial fields in the portfolio header using in
 
 ![](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -147,7 +147,7 @@ You can customize only the project list area of the Portfolio Optimizer by using
 
 The following icons and options are available for the Portfolio Optimizer:
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <col> 

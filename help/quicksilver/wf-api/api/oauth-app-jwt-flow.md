@@ -41,7 +41,7 @@ A JSON Web Token for Service Account authentication requires a particular set of
 
 The following table contains information about fields that may be required when you are configuring the JWT token.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

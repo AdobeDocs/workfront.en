@@ -17,7 +17,7 @@ GET /metadata?id=[document or folder ID]
 
 ## Query Parameters
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -38,7 +38,7 @@ GET /metadata?id=[document or folder ID]
 
 ## Response
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

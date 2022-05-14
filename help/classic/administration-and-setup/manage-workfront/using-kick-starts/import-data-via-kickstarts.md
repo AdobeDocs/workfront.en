@@ -36,7 +36,7 @@ Each of these procedures is outlined in the proper order in this article.
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -85,7 +85,7 @@ To export a Kick-Start template:
 
    The template for each of the object types can be exported in the following file formats and contains the following sheets:
 
-   <table cellspacing="15"> 
+   <table> 
     <col> 
     <col> 
     <col> 
@@ -363,7 +363,7 @@ Workfront also accepts time values as part of the date (for example: 07/10/2022 
 
 You can use the following wildcards when populating your Kick-Start template spreadsheet:
 
-<table cellspacing="15" cellpadding="5"> 
+<table> 
  <col> 
  <col> 
  <thead> 

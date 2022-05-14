@@ -31,7 +31,7 @@ For information about custom fields and widgets in custom forms, see [Add a cust
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -59,7 +59,7 @@ You must have the following to perform the steps in this article:
 1. While still creating or editing the custom form, on the **Add a field** tab, click **Section Break**.
 1. On the **Field Settings** tab, configure the options you want for the section:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     </col> 
     <col> 

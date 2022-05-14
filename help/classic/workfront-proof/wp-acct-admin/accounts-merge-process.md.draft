@@ -69,7 +69,7 @@ During the migration, we move users along with the proofs they own. Proof owners
 
 ### Regarding any data lost during the migration
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

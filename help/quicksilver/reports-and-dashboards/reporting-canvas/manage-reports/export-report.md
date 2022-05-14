@@ -36,7 +36,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
    >
    >The PDF preview in the right pane updates as you configure each field.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

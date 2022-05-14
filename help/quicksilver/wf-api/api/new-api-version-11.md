@@ -32,7 +32,7 @@ description: ReportableBudgedHour has been added to the Adobe Workfront API as a
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasaccessrule"><a name="LoginAsA"></a>LoginAsAccessRule</h3>
 -->
 
-<table cellspacing="15"> <!--
+<table> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -73,7 +73,7 @@ description: ReportableBudgedHour has been added to the Adobe Workfront API as a
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasadditionalrule"><a name="LoginAsA2"></a>LoginAsAdditionalRule</h3>
 -->
 
-<table cellspacing="15"> <!--
+<table> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -112,7 +112,7 @@ description: ReportableBudgedHour has been added to the Adobe Workfront API as a
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginassettings"><a name="LoginAsS"></a>LoginAsSettings</h3>
 -->
 
-<table cellspacing="15"> <!--
+<table> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -157,7 +157,7 @@ description: ReportableBudgedHour has been added to the Adobe Workfront API as a
 
 ReportableBudgedHour has been added to the Adobe Workfront API as a resource for Reporting. It features reference fields, core fields, and default fields that are absent in BudgetedHour. 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -285,7 +285,7 @@ No resources were removed for API v11.
 
 An AccessLevelPermissions object represents a set of permissions. This set of permissions can then be associated with an Access Level.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -305,7 +305,7 @@ An AccessLevelPermissions object represents a set of permissions. This set of pe
 
 If a User does not have access to an object in Workfront that they need, they can request access to that object. The AccessRequest object represents this request.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -323,7 +323,7 @@ If a User does not have access to an object in Workfront that they need, they ca
 
 An AccessRule object represents a rule set in custom access levels that determines how users can share projects they create.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -343,7 +343,7 @@ An AccessRule object represents a rule set in custom access levels that determin
 
 A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -397,7 +397,7 @@ A given work item, such as a task, document, or timesheet, may require that a su
 
 An ApprovalPath object is a branch within an Approval Process. Approval Paths are based on the status of the object that the Approval Process is associated with.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -415,7 +415,7 @@ An ApprovalPath object is a branch within an Approval Process. Approval Paths ar
 
 An ApprovalProcess object is a multi-step Approval that can be associated with a Project, Task, or Issue.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -440,7 +440,7 @@ An ApprovalProcess object is a multi-step Approval that can be associated with a
 
 An assignment object represents the connection between a work item and the user, team, or group that is assigned to work on it.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -458,7 +458,7 @@ An assignment object represents the connection between a work item and the user,
 
 Baselines are snapshots of what the performance of a project looked like at a given moment in time. They store key pieces of information about the project, like key dates, progress, cost and revenue values. When you create a baseline, the task information is also captured on the baseline tasks of that baseline.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -476,7 +476,7 @@ Baselines are snapshots of what the performance of a project looked like at a gi
 
 A Category object is a custom form. You can build reports for this object and you can show it in other object reports, as well.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -501,7 +501,7 @@ A Category object is a custom form. You can build reports for this object and yo
 
 A Company object represents an organization consisting of a collection of people. Companies are associated with a user or a project.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -528,7 +528,7 @@ A Company object represents an organization consisting of a collection of people
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A CustomEnum object is an enumeration that is created in Workfront to be used in objects and fields throughout Workfront.</p>
 -->
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -557,7 +557,7 @@ A Company object represents an organization consisting of a collection of people
 
 A Customer object represents an organization that uses an instance of Workfront.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -596,7 +596,7 @@ A Customer object represents an organization that uses an instance of Workfront.
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
-<table cellspacing="15"> <!--
+<table> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -623,7 +623,7 @@ A CustomerPreferences object represents the set of preferences that a customer h
 
 ### DocMetadataLinkGroup {#docmetadatalinkgroup}
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -641,7 +641,7 @@ A CustomerPreferences object represents the set of preferences that a customer h
 
 A Document object represents a file (such as written material, images, or other forms of information).
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -665,7 +665,7 @@ A Document object represents a file (such as written material, images, or other 
 
 An Iteration object represents a single Agile Iteration. Iterations are discrete periods of time used to plan and complete Agile stories.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -685,7 +685,7 @@ An Iteration object represents a single Agile Iteration. Iterations are discrete
 
 A Layout Template object represents a particular arrangement of layout elements, such as the main menu, navigation panel, or the Home area. Layout templates can be assigned to users, teams, groups, or job roles.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -710,7 +710,7 @@ A Layout Template object represents a particular arrangement of layout elements,
 
 A milestone is a marker on a task indication that it is a key point in the Project. Generally used to denote a significant event such as the completion of a phase of the project or a set of critical activities. A MilestonePath object is a collection of milestones.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -735,7 +735,7 @@ A milestone is a marker on a task indication that it is a key point in the Proje
 
 A Note object is a comment or update made on a Workfront object.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -760,7 +760,7 @@ A Note object is a comment or update made on a Workfront object.
 
 An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -815,7 +815,7 @@ An OpTask object is commonly known as an Issue. An issue is a work item that usu
 
 A Parameter object is a custom field.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -834,7 +834,7 @@ A Parameter object is a custom field.
 
 A Portfolio object is a collection of projects that compete for the same resources, typically money or people to complete them.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -852,7 +852,7 @@ A Portfolio object is a collection of projects that compete for the same resourc
 
 A Program object is a subset within a portfolio, where similar projects can be grouped together.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -879,7 +879,7 @@ A Program object is a subset within a portfolio, where similar projects can be g
 
 Projects are work items within Workfront, and are a main building block in the way Workfront helps people to do work. A Project object represents a group of tasks with a common, specific goal.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -917,7 +917,7 @@ Projects are work items within Workfront, and are a main building block in the w
 
 A ProofApproval object represents an approval that is directly connected to a proof.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -935,7 +935,7 @@ A ProofApproval object represents an approval that is directly connected to a pr
 
 A QueueDef object represents a Queue, which is a Project that has been published to the Help Desk area to allow users to submit Issues to it.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -956,7 +956,7 @@ A ReservedTime object represents days specified on a User's Personal Time, indic
 
 The ReservedTime resource added the flag REPORTABLE.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -999,7 +999,7 @@ The ResourcePlannerFilter resource added the flag SHARABLE. There were no other 
 
 A Risk object represents a possible event that may prevent a project from finishing on time or within budget. Risks are added to projects in the planning phase to identify potential obstacles prior to the approval of any work.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -1028,7 +1028,7 @@ A Risk object represents a possible event that may prevent a project from finish
 
 A ScheduledReport object represents a report that has been configured to be scheduled for delivery.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -1051,7 +1051,7 @@ A ScheduledReport object represents a report that has been configured to be sche
 
 A ScoreCardQuestion object represents a question that has been added to a Scorecard. These questions are usually determined by the Portfolio manager, and their answers allow the manager to understand how well a project aligns with the goals of the portfolio.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -1069,7 +1069,7 @@ A ScoreCardQuestion object represents a question that has been added to a Scorec
 
 A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -1118,7 +1118,7 @@ A Task object represents a work item that must be performed as a step toward ach
 
 A Team object is a collection of Users that can be assigned to a work item.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -1141,7 +1141,7 @@ A Team object is a collection of Users that can be assigned to a work item.
 
 A Template object represents a pattern for a Project. Projects can be created from Templates to save time. A Template contains a Team and Tasks, which will be copied to a Project when the Template is used.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -1175,7 +1175,7 @@ A Template object represents a pattern for a Project. Projects can be created fr
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A TemplateAssignment object represents the connection between a Template and the User, Team, or Group it is assigned to.</p>
 -->
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -1193,7 +1193,7 @@ A Template object represents a pattern for a Project. Projects can be created fr
 
 A TemplateTask object represents a Task that is part of a Template. Template Tasks become Tasks in the Project where the Template is used.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -1219,7 +1219,7 @@ A TemplateTask object represents a Task that is part of a Template. Template Tas
 
 A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -1237,7 +1237,7 @@ A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter
 
 Work Items in Workfront can be updated to keep users informed of the current status. An Update object represents one of these updates. Updates can be entered by users or created by the Workfront system.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -1267,7 +1267,7 @@ Work Items in Workfront can be updated to keep users informed of the current sta
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A User object represents a person with an account in Workfront that can log in and interact with the system.</p>
 -->
 
-<table cellspacing="15"> <!--
+<table> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -1300,7 +1300,7 @@ Work Items in Workfront can be updated to keep users informed of the current sta
 
 ### UserNote {#usernote}
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -1326,7 +1326,7 @@ Work Items in Workfront can be updated to keep users informed of the current sta
 
 A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
 
-<table cellspacing="15"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 

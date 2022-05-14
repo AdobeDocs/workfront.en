@@ -14,7 +14,7 @@ Projects are listed in order of priority in the Resource Planner with the most i
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

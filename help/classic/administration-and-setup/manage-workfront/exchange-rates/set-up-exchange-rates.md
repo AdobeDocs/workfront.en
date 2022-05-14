@@ -40,7 +40,7 @@ The way that you set up exchange rates affects whether users can modify exchange
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

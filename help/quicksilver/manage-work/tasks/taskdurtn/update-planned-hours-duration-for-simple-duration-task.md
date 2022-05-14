@@ -20,7 +20,7 @@ This article describes how you can update the Planned Hours and Duration for a t
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

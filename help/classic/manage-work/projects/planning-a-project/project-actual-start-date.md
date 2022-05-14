@@ -19,7 +19,7 @@ Projects, tasks, and issues have an&nbsp;Actual Start&nbsp;Date in&nbsp;Adobe Wo
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

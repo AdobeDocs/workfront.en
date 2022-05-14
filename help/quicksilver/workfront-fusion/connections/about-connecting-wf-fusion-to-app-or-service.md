@@ -17,7 +17,7 @@ For example, if you want to create a scenario that retrieves information from Wo
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

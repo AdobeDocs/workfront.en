@@ -67,7 +67,7 @@ The URL for the authorization page is therefore:
 
 The third-party application may require configuration. The following table contains information about fields that may be required when you are configuring the third-party application.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

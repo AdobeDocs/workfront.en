@@ -35,7 +35,7 @@ A newly created scenario is inactive by default.
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

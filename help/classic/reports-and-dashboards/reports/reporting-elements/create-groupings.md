@@ -24,7 +24,7 @@ You can create a custom grouping from scratch or customize an existing grouping.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -97,7 +97,7 @@ See also:
 </ul>
 <h2>Types of grouping-building interfaces</h2>
 <p>You can create groupings using the types of grouping builders described in the table below.</p>
-<table cellspacing="15">
+<table>
 <col>
 </col>
 <col>
@@ -119,7 +119,7 @@ See also:
 </table>
 <h2>Access requirements</h2>
 <p>You must have the following access to perform the steps in this article:</p>
-<table cellspacing="0">
+<table>
 <col>
 </col>
 <col>

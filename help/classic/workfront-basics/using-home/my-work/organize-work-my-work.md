@@ -17,7 +17,7 @@ You can organize work in the My Work area and in the Team Requests list by sorti
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

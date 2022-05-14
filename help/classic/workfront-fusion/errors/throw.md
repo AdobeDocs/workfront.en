@@ -22,7 +22,7 @@ Currently the [Directives for error handling in Adobe Workfront Fusion](../../wo
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

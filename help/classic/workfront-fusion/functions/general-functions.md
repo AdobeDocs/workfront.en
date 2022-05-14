@@ -18,7 +18,7 @@ description: The following general functions are available in the Adobe Workfron
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

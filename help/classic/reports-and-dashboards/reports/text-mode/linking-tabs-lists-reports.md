@@ -22,7 +22,7 @@ You can create direct links to tabs by using text mode in Calculated Custom Fiel
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

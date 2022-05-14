@@ -24,7 +24,7 @@ You can use the Summary panel to review and update work item information directl
 
 The following table displays the areas where you can locate and use the Summary panel: 
 
-<table cellspacing="3"> 
+<table> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
@@ -83,7 +83,7 @@ For information about accessing the Summary for documents, see [Summary for docu
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

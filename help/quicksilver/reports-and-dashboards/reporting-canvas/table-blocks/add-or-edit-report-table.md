@@ -12,7 +12,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

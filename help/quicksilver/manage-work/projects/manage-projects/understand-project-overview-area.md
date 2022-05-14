@@ -19,7 +19,7 @@ You can view or edit the information of a project by accessing the Overview area
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -69,7 +69,7 @@ You must have the following access to perform the steps in this article:
    >
    >Depending on how your Workfront administrator configured your Layout Template, all fields might not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   <table cellspacing="0" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -158,7 +158,7 @@ You must have the following access to perform the steps in this article:
 
 1. If your company has purchased an additional license for the Adobe Workfront Scenario Planner, and the project has information published from a linked initiative, review the following initiative information in the Scenario Planner area:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

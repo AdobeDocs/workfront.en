@@ -22,7 +22,7 @@ You can edit a filter in a list or report using text mode to access fields that 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -82,7 +82,7 @@ For information about creating a report, see [Create a custom report](../../../r
 
 1. Add filter statements using text mode. Each filter statement may contain the following lines and additional information:
 
-   <table cellspacing="3"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

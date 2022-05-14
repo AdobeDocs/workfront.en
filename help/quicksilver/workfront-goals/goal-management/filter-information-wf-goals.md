@@ -14,7 +14,7 @@ You can view goals that you or anyone else added in&nbsp;Adobe Workfront Goals. 
 
 You must have the following access to perform the actions described in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -123,7 +123,7 @@ You can create a filter from scratch or edit one of the built-in filters.
 
    * Click any of the following predefined filters to display goals only for the following owners:
 
-     <table cellspacing="3"> 
+     <table> 
       <col> 
       <col> 
       <tbody> 
@@ -156,7 +156,7 @@ You can create a filter from scratch or edit one of the built-in filters.
 
    * Click **New Filter** to create a new filter, then select from the following options to customize the new filter:
 
-     <table cellspacing="0"> 
+     <table> 
       <col> 
       <col> 
       <tbody> 

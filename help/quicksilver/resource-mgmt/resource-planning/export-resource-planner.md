@@ -18,7 +18,7 @@ You can export information from any view of the Resource Planner to an Excel (.x
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

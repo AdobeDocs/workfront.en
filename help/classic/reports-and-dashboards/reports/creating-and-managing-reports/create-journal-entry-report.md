@@ -32,7 +32,7 @@ The Journal Entry report can show:
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -81,7 +81,7 @@ To learn more about the different object types in Workfront, see [Understand obj
 
 The default view for this report contains the following columns:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -175,7 +175,7 @@ This information can be used to help with auditing and to illustrate how well yo
 
 1. In the **Columns (View)** tab, add the following columns:
 
-   <table cellspacing="15"> 
+   <table> 
     <col> 
     <col> 
     <thead> 
@@ -289,7 +289,7 @@ To see when a task or issue was deleted:
 
 1. In the **Columns (View)** tab, add the following columns:
 
-   <table cellspacing="15"> 
+   <table> 
     <col> 
     <col> 
     <thead> 
@@ -372,7 +372,7 @@ To see how custom fields changed over the course of a project's life cycle:
 
 1. In the **Columns (View)** tab, add the following columns:
 
-   <table cellspacing="15"> 
+   <table> 
     <col> 
     <col> 
     <thead> 
@@ -474,7 +474,7 @@ You can set up the Journal Entry report to show how often the Planned Completion
 
 1. In the **Columns (View)** tab, add the following columns:
 
-   <table cellspacing="15"> 
+   <table> 
     <col> 
     <col> 
     <thead> 
@@ -575,7 +575,7 @@ You can set up the Journal Entry report to show how many times the project owner
 
 1. In the **Columns (View)** tab, add the following columns:
 
-   <table cellspacing="15"> 
+   <table> 
     <col> 
     <col> 
     <thead> 

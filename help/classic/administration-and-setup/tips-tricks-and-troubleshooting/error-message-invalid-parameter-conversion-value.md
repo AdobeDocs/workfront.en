@@ -25,7 +25,7 @@ This message occurs in the following scenario:
 
 For example, you have a Custom Field formatted as Text.&nbsp; Now, you want to change the Format of the Custom Field to Currency. Somewhere in your Adobe Workfront instance, this field is already attached to an object and it has information already specified in it. The existing information in at least one such field is already formatted as Text. Therefore, the Format of the field cannot be changed to Currency.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

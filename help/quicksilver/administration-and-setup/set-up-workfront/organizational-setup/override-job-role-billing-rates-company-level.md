@@ -17,7 +17,7 @@ At the project level, you can enable an option to allow company-level billing ra
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

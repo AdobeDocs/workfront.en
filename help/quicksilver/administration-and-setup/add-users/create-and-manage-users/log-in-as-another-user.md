@@ -49,7 +49,7 @@ Some users, such as executives, need to be able to control which administrators 
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

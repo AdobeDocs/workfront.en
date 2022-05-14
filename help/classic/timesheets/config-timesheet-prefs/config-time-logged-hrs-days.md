@@ -22,7 +22,7 @@ As a user with a Planner license, you can configure&nbsp;whether you log time in
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

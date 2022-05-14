@@ -22,7 +22,7 @@ Using filters, you can modify what information displays in the Resource Planner 
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

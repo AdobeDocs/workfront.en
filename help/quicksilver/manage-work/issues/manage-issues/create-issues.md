@@ -20,7 +20,7 @@ You can also add issues to projects as requests.&nbsp;For information, see [Crea
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

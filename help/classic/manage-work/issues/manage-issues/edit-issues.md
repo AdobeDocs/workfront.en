@@ -20,7 +20,7 @@ You can edit a single issue or you can edit issues in a list. For information ab
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -97,7 +97,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 1. Update or review any of the fields in the following table: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -195,7 +195,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
    Update the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -25,7 +25,7 @@ You can move a task at the task level or you can move a task from a list of task
 
 You must have the following access to perform the actions in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

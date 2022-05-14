@@ -21,7 +21,7 @@ For a practice exercise that walks you through this process using data that we p
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -153,7 +153,7 @@ To create a connection inside a Workfront Fusion module:
 
 1. Do any of the following to configure your scenario:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -193,7 +193,7 @@ To create a connection inside a Workfront Fusion module:
 
 1. Do any of the following to work with your scenario:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -236,7 +236,7 @@ For information about activating a scenario, see [Activate or deactivate a scena
 
 You can use the following keyboard shortcuts when creating or editing a scenario:
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 

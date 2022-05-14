@@ -17,7 +17,7 @@ description: You can use Adobe Workfront Fusion to connect to Google Services us
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -95,7 +95,7 @@ To create a project on Google Cloud Platform:
 
 1. Fill the required fields as follows:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -126,7 +126,7 @@ To create a project on Google Cloud Platform:
 1. Click **Add or remove scopes**.
 1. In the right panel, enable the following scopes:
 
-   <table cellspacing="15"> 
+   <table> 
     <col> 
     <col> 
     <thead> 
@@ -179,7 +179,7 @@ To create a project on Google Cloud Platform:
 
 1. Fill the required fields as follows:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

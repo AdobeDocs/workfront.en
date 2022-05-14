@@ -22,7 +22,7 @@ If you decide that a project is going to occur again sometime in the future, you
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
 
 1. Specify the following information for the template:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

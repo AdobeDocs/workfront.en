@@ -29,7 +29,7 @@ For information about creating resource pools, see [Create resource pools](../..
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

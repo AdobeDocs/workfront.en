@@ -15,7 +15,7 @@ You can update an existing project, task, or issue with information from a non-A
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -87,7 +87,7 @@ Before you can update a Workfront item using email content from G Suite, you mus
 
 1. Make any of these optional changes: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

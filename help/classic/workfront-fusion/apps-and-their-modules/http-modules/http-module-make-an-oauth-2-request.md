@@ -31,7 +31,7 @@ For more information on OAuth 2.0 authentication, see [The OAuth 2.0 Authorizati
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -177,7 +177,7 @@ You must have the following access to use the functionality in this article:
 
 1. Fill in the following fields to create a connection: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -215,7 +215,7 @@ You must have the following access to use the functionality in this article:
        <ul> 
         <li> <p><strong>response_type</strong> </p> <p> <code>code </code>for Authorization Code flow and <code>token </code>for Implicit flow</p> </li> 
         <li> <p><strong>redirect_uri</strong> </p> 
-         <table cellspacing="0"> 
+         <table> 
           <col> 
           <col> 
           <tbody> 
@@ -238,7 +238,7 @@ You must have the following access to use the functionality in this article:
        <ul> 
         <li><strong>grant_type</strong>: <code>authorization_code</code></li> 
         <li> <p><strong>redirect_uri:</strong> </p> 
-         <table cellspacing="0"> 
+         <table> 
           <col> 
           <col> 
           <tbody> 
@@ -298,7 +298,7 @@ The following example shows how to use the HTTP > Make an OAuth 2.0 request modu
 1. Click **Add** next to the connection box.
 1. Enter the following values:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -360,7 +360,7 @@ If you see the map button above a field or function, you can use it to set varia
 <img src="assets/map-toggle-350x74.png" style="width: 350;height: 74;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 -->
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

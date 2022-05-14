@@ -14,7 +14,7 @@ You can use the Portfolio Optimizer to prioritize your projects based on their s
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

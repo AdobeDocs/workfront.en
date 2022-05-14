@@ -16,7 +16,7 @@ You can also delete projects from a portfolio which also removes them from Adobe
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

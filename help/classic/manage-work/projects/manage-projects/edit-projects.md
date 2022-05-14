@@ -31,7 +31,7 @@ You can edit a project in Adobe Workfront as often as needed. We recommend that 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -130,7 +130,7 @@ Some settings mentioned in this article might be modified from their default sta
 
 1. Consider the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -220,7 +220,7 @@ Some settings mentioned in this article might be modified from their default sta
 
 1. Consider the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <thead> 
@@ -280,7 +280,7 @@ Some settings mentioned in this article might be modified from their default sta
 
 1. Specify the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -318,7 +318,7 @@ Some settings mentioned in this article might be modified from their default sta
 
 1. Consider the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <thead> 
@@ -437,7 +437,7 @@ Some settings mentioned in this article might be modified from their default sta
 
 1. Specify the following **Access** information for the project:  
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <thead> 

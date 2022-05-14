@@ -16,7 +16,7 @@ For more information about creating a project using a template, see [Create a pr
 
 You must have the following to perform the steps described in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -112,7 +112,7 @@ You can attach a template to a project in Workfront from the project page ```or 
 
 1. Update information in the following sections before attaching the template (or, click **Attach Template** at any time):
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

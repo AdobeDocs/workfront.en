@@ -18,7 +18,7 @@ After installing Adobe Workfront for Salesforce, you can define triggers that cr
 
 You must have the following access to use the functionality described in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

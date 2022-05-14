@@ -19,7 +19,7 @@ You can move issues between the following objects:
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -110,7 +110,7 @@ You can move one issue when viewing it.
    >
    >Deselecting items in the Options list results in loss of data. Information from the existing issue will be removed and cannot be recovered.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

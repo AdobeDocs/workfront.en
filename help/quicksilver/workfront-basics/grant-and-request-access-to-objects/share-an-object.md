@@ -50,7 +50,7 @@ For information about how to share all other objects in Workfront, also see the 
 
 You must have the following to share objects:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

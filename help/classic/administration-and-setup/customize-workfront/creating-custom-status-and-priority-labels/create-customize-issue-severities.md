@@ -28,7 +28,7 @@ Your users can use severities to define how serious an issue is. You can customi
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -91,7 +91,7 @@ As a Workfront administrator, you can create and edit issue severities to suit t
 1. If you are creating a new severity, click **Add a New Severity**.
 1. Configure the following options for the new severity or edit them for an existing one:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

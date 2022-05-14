@@ -21,7 +21,7 @@ If you decide that you should not be working on these requests, you can either s
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

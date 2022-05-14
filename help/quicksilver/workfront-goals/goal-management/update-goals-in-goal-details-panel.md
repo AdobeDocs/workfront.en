@@ -14,7 +14,7 @@ You can update information for individual goals by accessing the Goal Details pa
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

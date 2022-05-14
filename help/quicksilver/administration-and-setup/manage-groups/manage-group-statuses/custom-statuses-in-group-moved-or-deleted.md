@@ -17,7 +17,7 @@ Consider the following scenarios describing what happens to group custom statuse
 
 For information about moving a group, see [Move a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

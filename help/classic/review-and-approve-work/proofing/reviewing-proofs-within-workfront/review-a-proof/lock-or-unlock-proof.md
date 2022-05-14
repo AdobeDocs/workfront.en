@@ -18,7 +18,7 @@ You can manually lock and unlock a proof any time in the review process.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

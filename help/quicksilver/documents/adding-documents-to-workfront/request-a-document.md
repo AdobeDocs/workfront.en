@@ -14,7 +14,7 @@ You can request a document on any object that supports Documents.
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -22,7 +22,7 @@ For information about associating approvals with work in Workfront, see [Associa
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -132,7 +132,7 @@ To approve work directly from a project, task, or issue:
 
    The following approval information is available:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

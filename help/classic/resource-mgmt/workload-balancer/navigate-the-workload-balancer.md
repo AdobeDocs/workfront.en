@@ -33,7 +33,7 @@ For information about managing resources using the Workload Balancer, also consi
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -89,7 +89,7 @@ The Workload Balancer displays work items in two separate areas, depending on th
 
 The two areas of the Workload Balancer display the following information:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -168,7 +168,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
 1. Click one of the following options in the toolbar to display information by different time frames:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -253,7 +253,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
 1. Click the **Hours** or**Percentage icon** then select from the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

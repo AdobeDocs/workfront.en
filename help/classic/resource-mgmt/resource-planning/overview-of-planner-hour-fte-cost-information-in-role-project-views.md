@@ -95,7 +95,7 @@ The following tables show the allocation and availability information that displ
 
 ### The AVL (Available)&nbsp;column {#the-avl-available-column}
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -136,7 +136,7 @@ The following tables show the allocation and availability information that displ
 
 ### The PLN (Planned)&nbsp;column {#the-pln-planned-column}
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -184,7 +184,7 @@ Consider the following when viewing Planned Hours:
 
 ### The BDG (Budgeted)&nbsp;column {#the-bdg-budgeted-column}
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -236,7 +236,7 @@ Consider the following when working with Budgeted Hours:
 
 ### The VAR (Variance)&nbsp;column {#the-var-variance-column}
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -265,7 +265,7 @@ Consider the following when working with Budgeted Hours:
 
 ### The NET column  {#the-net-column}
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -318,7 +318,7 @@ Consider the following when working with Budgeted Hours:
 -->
 
 <!--
-<table cellspacing="3" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<table>
 <col>
 <col>
 <col>

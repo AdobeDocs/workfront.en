@@ -22,7 +22,7 @@ You can view or edit the financial information of a task by accessing the Overvi
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
 1. Review or click&nbsp;**Edit Finance** to edit information in the Finance subtab. 
 1. Review or edit the following information  in the **Finance** subtab : 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

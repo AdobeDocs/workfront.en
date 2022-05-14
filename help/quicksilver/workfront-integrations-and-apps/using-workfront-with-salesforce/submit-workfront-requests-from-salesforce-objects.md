@@ -14,7 +14,7 @@ After installing Adobe Workfront for Salesforce, you can submit Workfront reques
 
 You must have the following access to use the functionality described in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

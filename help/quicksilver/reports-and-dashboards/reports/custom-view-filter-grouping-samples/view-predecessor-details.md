@@ -19,7 +19,7 @@ For information about referencing collections in reports, see [Reference collect
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

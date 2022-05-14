@@ -168,7 +168,7 @@ We recommend that you build as much of the view as possible in standard mode, th
    -->
 
    <!--
-   <table cellspacing="15" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   <table>
    <col>
    <col>
    <thead>

@@ -20,7 +20,7 @@ description: Collections
 
 ### DocMetadataLink
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -401,7 +401,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 ### User
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

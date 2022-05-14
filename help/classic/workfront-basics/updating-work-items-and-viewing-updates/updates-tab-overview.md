@@ -48,7 +48,7 @@ As shown in the following table, replies made to updates on certain objects also
 
 For example, when you add an update to a task, the update appears on the Updates tab for the task and on the Updates tab for the project containing the task.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

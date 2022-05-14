@@ -14,7 +14,7 @@ This article describes how you can find and manage goals in Adobe Workfront.
 
 You must have the following to perform the activities described in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

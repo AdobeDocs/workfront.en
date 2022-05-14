@@ -25,7 +25,7 @@ After the appropriate hour types have been configured, you can log time from mul
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

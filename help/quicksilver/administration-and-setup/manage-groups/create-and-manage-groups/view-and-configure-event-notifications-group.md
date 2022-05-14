@@ -26,7 +26,7 @@ For information about the default notification setting for an event, see [Event 
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -57,7 +57,7 @@ You must have the following to perform the steps in this article:
 
 1. Do any of the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

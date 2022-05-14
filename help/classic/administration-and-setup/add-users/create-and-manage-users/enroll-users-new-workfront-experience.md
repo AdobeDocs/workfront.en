@@ -35,7 +35,7 @@ For more information about the new experience, see [the new Workfront experience
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

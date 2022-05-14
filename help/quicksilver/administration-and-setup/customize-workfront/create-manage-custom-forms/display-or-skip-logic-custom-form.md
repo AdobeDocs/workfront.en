@@ -16,7 +16,7 @@ You can decide which sections of a custom form should be displayed or skipped ba
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

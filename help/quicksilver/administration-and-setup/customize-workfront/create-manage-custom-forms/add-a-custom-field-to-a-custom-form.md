@@ -25,7 +25,7 @@ For information about adding an image or ```video``` widget to a custom form, wh
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -55,7 +55,7 @@ You must have the following to perform the steps in this article:
 
 1. With **New Field** ![](assets/new-field.jpg) selected, select one of the field types listed below:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     </col> 
     <col> 
@@ -110,7 +110,7 @@ You must have the following to perform the steps in this article:
 
 1. On the **Field Settings** tab, configure the options that are available for the type of custom field you are adding:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     </col> 
     <col> 

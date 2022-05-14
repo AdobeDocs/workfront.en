@@ -44,7 +44,7 @@ You can copy a project rather than create one from scratch. You can copy only on
 
 You must have the following:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

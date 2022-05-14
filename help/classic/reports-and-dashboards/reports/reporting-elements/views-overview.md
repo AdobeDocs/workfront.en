@@ -77,7 +77,7 @@ The following are types of views that you can apply in lists or reports in&nbsp;
 </ul>
 </note><p>For more information about using groupings in a report, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</p></li>
 <li>(Optional) Click <strong>Advanced Options</strong> to specify the following information for the column:<p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <thead>
@@ -131,7 +131,7 @@ Agile views are available only when viewing a project.
 <li value="4">(Conditional) To create a new Agile view, click <strong>New View</strong>.<br>The <strong>Customize Agile View</strong> dialog box displays.<br><img src="assets/agile-project-customize-350x436.png" alt="" style="width: 350;height: 436;" data-mc-conditions="QuicksilverOrClassic.Classic"></li>
 <li value="5">In the <strong>Customize Agile View</strong> dialog box, specify a name for the Agile view.<br>We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.<br>This name is displayed in the <strong>View</strong> drop-down menu when selecting a view.</li>
 <li value="6"> <p>Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the Workfront administrator, as described in <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> <p>Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.</p> <p>Users can move stories among these status columns on the Agile story board.<br>When defining status columns, you can do the following:</p> <p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <thead>
@@ -158,7 +158,7 @@ Agile views are available only when viewing a project.
 </tbody>
 </table> </p> <p> </p> <p> </p> </li>
 <li value="7"> <p>In the <strong>Associate Card Color to</strong> area, select from the following options: </p> <p>
-<table cellspacing="0">
+<table>
 <col>
 <col>
 <thead>

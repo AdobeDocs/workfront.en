@@ -20,7 +20,7 @@ You can customize the Global Navigation Bar to better fit your needs and your wo
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

@@ -144,7 +144,7 @@ If you are using screen-reading software or a plug-in, the screen reader reads t
 
 To learn more about the details of a specific feature within Enhanced analytics, the actions you can complete to get further insight, and what you can learn from this data, see the following articles:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

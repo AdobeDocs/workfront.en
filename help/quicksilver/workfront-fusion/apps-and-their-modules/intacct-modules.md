@@ -12,7 +12,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -93,7 +93,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This action module lets you make a custom authenticated call to the Intacct API. This way, you can create a data flow automation that can't be accomplished by the other Intacct modules. 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -112,7 +112,7 @@ This action module lets you make a custom authenticated call to the Intacct API.
 
 This search module retrieves a list of records that match specific search criteria.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

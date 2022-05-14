@@ -35,7 +35,7 @@ Consider the following when reviewing the values for the BCWP on a task or proje
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

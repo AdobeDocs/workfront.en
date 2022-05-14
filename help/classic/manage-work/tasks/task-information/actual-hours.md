@@ -27,7 +27,7 @@ For more information about how to set up your system to allow users to log time 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

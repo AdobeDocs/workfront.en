@@ -18,7 +18,7 @@ You can log time for projects, tasks, and issues you're working on directly in A
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

@@ -15,7 +15,7 @@ The Summary allows you to interact with important information directly from the 
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

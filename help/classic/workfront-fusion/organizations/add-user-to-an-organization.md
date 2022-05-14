@@ -17,7 +17,7 @@ description: Adobe Workfront Fusion administrators can add users to an organizat
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

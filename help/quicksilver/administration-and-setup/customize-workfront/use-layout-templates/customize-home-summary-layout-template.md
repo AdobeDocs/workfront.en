@@ -27,7 +27,7 @@ For information about layout templates for groups, see [Create and modify a grou
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the list that appears on the left, click the object type (**Tasks**, **Issues**,**Projects**, **Documents**, or **Document Versions**) that you want to customize in Home and Summary.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -99,7 +99,7 @@ You must have the following access to perform the steps in this article:
 1. Repeat steps 3-6 to customize Home area and the Summary panel for any other object types.
 1. Click **Global settings**, near the lower left corner, then enable or disable any of the following options related to Adobe Workfront objects in Home and Summary:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

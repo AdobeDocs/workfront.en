@@ -15,7 +15,7 @@ You can change information in your Adobe Workfront Fusion account profile.
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -58,7 +58,7 @@ To change information in your account profile:
 1. Click your avatar at the bottom of the left panel, then click **Profile**.
 1. Click: **General Options**, then change any of the following options:&nbsp;
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

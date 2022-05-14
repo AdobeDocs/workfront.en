@@ -27,7 +27,7 @@ You can share a folder and its contents from the Documents area.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -67,7 +67,7 @@ You must have the following access to perform the steps in this article:
 1. In the box that displays, under **Give folder access to**, start typing the name of the user, team, job role, group, or company you want to share the folder with, then press **Enter** when the name displays.
 1. To adjust access for the user, team, job role, group, or company you just added, click the drop-down menu to the right of the name, then configure one of the following available options and any of its advanced settings:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

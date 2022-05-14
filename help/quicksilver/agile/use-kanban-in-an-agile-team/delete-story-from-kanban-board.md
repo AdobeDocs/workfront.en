@@ -14,7 +14,7 @@ You can delete a story or issue from the Kanban board. When you delete a story o
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

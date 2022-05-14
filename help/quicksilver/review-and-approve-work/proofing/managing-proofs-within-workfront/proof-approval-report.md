@@ -14,7 +14,7 @@ You can use the proof approval report to view information about proofs in your e
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -85,7 +85,7 @@ Consider the following when associating activities with your goals:
 * They answer the question, “What will&nbsp;I achieve when the goal is complete?” 
 * You can associate the following activities with goals:
 
-  <table cellspacing="0"> 
+  <table> 
    <col> 
    <col> 
    <tbody> 
@@ -108,7 +108,7 @@ Results, activities and projects are goal progress indicators. Although you conn
 
 The following table displays similarities and differences between results, activities, and projects, as goal indicators: 
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <col> 

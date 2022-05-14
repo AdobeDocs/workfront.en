@@ -21,7 +21,7 @@ You can add this column to a task view to display the name of the parent tasks i
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

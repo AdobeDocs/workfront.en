@@ -18,7 +18,7 @@ You can filter a report by the time frame of a date that exists on an object.&nb
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -61,7 +61,7 @@ For more information on creating reports, see [Create a report](../../../reports
 
 1. In the following drop-down menu, select any of the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -117,7 +117,7 @@ For more information about how to&nbsp;filter a report by a time frame associate
 
 For example, if you are building an hour report and would like to display hours entered in a specific time frame, you can choose from the following built-in time frame filter options:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

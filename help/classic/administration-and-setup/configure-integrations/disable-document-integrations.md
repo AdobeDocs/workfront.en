@@ -22,7 +22,7 @@ When you disable the connection between Workfront and a document provider, the l
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

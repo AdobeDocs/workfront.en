@@ -21,7 +21,7 @@ This task view displays the total Planned Hours of a task,&nbsp;the number of Pl
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

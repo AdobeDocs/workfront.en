@@ -20,7 +20,7 @@ You can create a new custom form that is based on an existing one.
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -48,7 +48,7 @@ You must have the following to perform the steps in this article:
 1. Select the custom form that you want to use as the basis for a new custom form, then click **Copy**.
 1. In the **Custom Form Copy** box that appears, type the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

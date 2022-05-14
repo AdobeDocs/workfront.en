@@ -32,7 +32,7 @@ The Adobe PDF Services can read, convert, or modify your files, but neither Adob
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -113,7 +113,7 @@ To use the Generate document module with a Microsoft Word template, you must fir
 
 Fill in the Generate document module fields as follows:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -149,7 +149,7 @@ Fill in the Generate document module fields as follows:
 
 To use the Generate document module with JSON, fill in the fields as follows:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -180,7 +180,7 @@ To use the Generate document module with JSON, fill in the fields as follows:
 
 This action module allows you to extract data from a PDF file. The module outputs individual text elements, such as a paragraph or the text in a single cell of a table.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -215,7 +215,7 @@ This action module allows you to extract data from a PDF file. The module output
 
 This action module takes multiple PDF&nbsp;files and combines them into a single PDF&nbsp;file. For example, this module could combine all of the documents in a Workfront project into a single PDF upon completion of the project.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -240,7 +240,7 @@ This action module takes multiple PDF&nbsp;files and combines them into a single
 
 This action module takes a PDF&nbsp;file and compresses it. This can be useful for conserving bandwidth or memory.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -271,7 +271,7 @@ This tool converts a document to a PDF file. The source file must be one of the 
 * TXT
 * RTF
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -340,7 +340,7 @@ This tool converts a document to a PDF file. The source file must be one of the 
 
 This tool converts an HTML&nbsp;file to a PDF file. 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -385,7 +385,7 @@ This tool converts an HTML&nbsp;file to a PDF file.
 
 This tool converts an image to a PDF file. 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -412,7 +412,7 @@ This tool converts a PDF file to a document. You can select one of the following
 * XLSX
 * RTF
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -446,7 +446,7 @@ This tool converts a PDF to an image in PNG or JPEG format., which is then outpu
 
 For example, a file called "TestFile" with 8 pages would produce 8 images, named "TestFile_1" through "TestFile_8." The module's output is a ZIP file containing the 8 images.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -475,7 +475,7 @@ For example, a file called "TestFile" with 8 pages would produce 8 images, named
 
 This tool linearizes a PDF document to create a web-optimized PDF document. A linearized PDF document can be viewed page-by-page without needing to download the entire document.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -496,7 +496,7 @@ This tool linearizes a PDF document to create a web-optimized PDF document. A li
 
 This tool performs Optical Character Recognition (OCR) on a file and produces a PDF. 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -529,7 +529,7 @@ This tool performs Optical Character Recognition (OCR) on a file and produces a 
 
 This module allows you to selectively rotate or delete pages in a PDF document. For example, you can change portrait view to landscape view or remove certain pages from the PDF document.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -576,7 +576,7 @@ This tool extracts basic information about the document, such as:
 * Whether the file is linerarized
 * Whether the file contains embedded files
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -597,7 +597,7 @@ This tool extracts basic information about the document, such as:
 
 This tool secures a PDF document with a user or owner password. It also sets restrictions on certain features like printing, editing, and copying in the PDF document. You select the type of content to be encrypted and the encryption algorithm.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -653,7 +653,7 @@ This tool returns basic information (metadata) about the page.
 
 This tool removes security (password protection) from a PDF document.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

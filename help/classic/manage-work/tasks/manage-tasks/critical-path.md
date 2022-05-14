@@ -46,7 +46,7 @@ Any delay in the activity of a task on the Critical Path directly impacts the Pr
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

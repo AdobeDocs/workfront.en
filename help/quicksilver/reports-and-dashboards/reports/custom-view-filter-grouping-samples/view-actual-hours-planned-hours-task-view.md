@@ -17,7 +17,7 @@ In this task view,&nbsp;the actual amount of hours recorded on a task are displa
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

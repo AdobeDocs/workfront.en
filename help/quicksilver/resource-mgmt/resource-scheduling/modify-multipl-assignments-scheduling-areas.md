@@ -35,7 +35,7 @@ You can assign users to multiple tasks at the same time when using the Resource 
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

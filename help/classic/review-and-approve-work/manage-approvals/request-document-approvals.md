@@ -18,7 +18,7 @@ You can request approval from managers or other users for a document in Adobe Wo
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

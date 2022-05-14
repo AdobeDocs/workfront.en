@@ -22,7 +22,7 @@ For information about the filter, view, and grouping controls, see [Reporting el
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

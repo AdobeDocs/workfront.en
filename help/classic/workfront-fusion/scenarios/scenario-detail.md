@@ -21,7 +21,7 @@ It also provides you access to the [The scenario editor in Adobe Workfront Fusio
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -69,7 +69,7 @@ You must have the following access to use the functionality in this article:
 
    ![](assets/scenario-detail-350x207.png)
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -23,7 +23,7 @@ As an Adobe Workfront administrator, you can configure the default preferences f
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -67,7 +67,7 @@ You must have the following access to perform the steps in this article:
 
 Configure any of the following preferences for newly created projects throughout the system:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -120,7 +120,7 @@ Configure any of the following preferences for newly created projects throughout
 
 Configure any of the following preferences for newly created projects throughout the system:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -199,7 +199,7 @@ After the Workfront administrator enables the sections on the Business Case, a P
 
 Configure any of the following preferences for newly created projects throughout the system:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

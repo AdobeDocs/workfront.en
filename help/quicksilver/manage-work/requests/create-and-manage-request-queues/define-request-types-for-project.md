@@ -16,7 +16,7 @@ This organization is useful for reporting reasons and for helping users understa
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -31,7 +31,7 @@ You can configure the following settings for the Desktop Proofing Viewer:
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -91,7 +91,7 @@ To configure proofing viewer settings:
    
    * **Send me email notifications about** (always available in the Web Proofing Viewer and the Desktop Proofing Viewer): Click one of the options below. This setting affects only the proof you have open. For more information, see [Notifications for proof comments and decisions overview](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
-     <table cellspacing="0"> 
+     <table> 
       <col> 
       <col> 
       <tbody> 
@@ -134,7 +134,7 @@ To configure proofing viewer settings:
 
      This setting is in effect for all interactive proofs you open.
 
-     <table cellspacing="0"> 
+     <table> 
       <col> 
       <col> 
       <tbody> 

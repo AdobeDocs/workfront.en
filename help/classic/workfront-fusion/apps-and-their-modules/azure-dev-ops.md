@@ -25,7 +25,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -105,7 +105,7 @@ The module The module returns any standard fields associated with the record, al
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -132,7 +132,7 @@ This action module lets you make a custom authenticated call to the Azure DevOps
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -184,7 +184,7 @@ The module returns the ID of the record and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -217,7 +217,7 @@ This action module creates a new project or work item.
 
 The module outputs the object ID for the newly created work item, or the URL and status code of a newly created project.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -254,7 +254,7 @@ This action module updates an existing work item using its ID.
 
 The module returns the ID of the updated work item.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -287,7 +287,7 @@ This action module uploads a file and attaches it to a work item.
 
 The module returns the attachment ID and a download URL for the attachment.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -320,7 +320,7 @@ This action module downloads an attachment.
 
 The module returns the file content of the attachment.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -343,7 +343,7 @@ The module returns the ID of the main work item and any associated fields, along
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -380,7 +380,7 @@ The module returns the ID of the main work item and any associated fields, along
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

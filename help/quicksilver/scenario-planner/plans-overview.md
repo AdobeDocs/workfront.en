@@ -17,7 +17,7 @@ As a business manager, you can use the Adobe Workfront Scenario Planner to outli
 
 To use the Adobe Workfront Scenario Planner you must have the following access:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -107,7 +107,7 @@ You can review financial information about a plan, specifically its planned budg
 
 You can view the following in the Financial and&nbsp;Summary boxes on the plan: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

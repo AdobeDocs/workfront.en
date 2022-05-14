@@ -20,7 +20,7 @@ For more information about resolving and resolvable objects, see [Overview of Re
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

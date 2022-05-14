@@ -11,7 +11,7 @@ description: Various features are being phased out of the Adobe Workfront produc
 
 Various features are being phased out of the Adobe Workfront product. Following is a brief description of each feature, links to additional information, and key dates to be aware of.
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col data-mc-conditions=""> 
  <col> 

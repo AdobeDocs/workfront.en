@@ -19,7 +19,7 @@ If you no longer have use for a dashboard, you can remove it from Adobe Workfron
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

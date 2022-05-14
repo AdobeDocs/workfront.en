@@ -25,7 +25,7 @@ For a general understanding about what you can expect by installing Workfront fo
 
 You must have the following access to use the functionality described in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -72,7 +72,7 @@ Notice the following toolbar at the upper-right of the Legacy Gantt Chart:
 
 The following icons allow you to navigate the Legacy Gantt chart using the upper toolbar:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -143,7 +143,7 @@ The following icons allow you to navigate the Legacy Gantt chart using the lower
 
 The following indicators show additional information about the tasks on the project:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

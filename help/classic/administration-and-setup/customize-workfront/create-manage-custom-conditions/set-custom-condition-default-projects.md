@@ -24,7 +24,7 @@ You can set your custom conditions as default conditions instead of using these 
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

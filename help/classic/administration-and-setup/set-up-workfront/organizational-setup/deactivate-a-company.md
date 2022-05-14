@@ -19,7 +19,7 @@ You can deactivate a company that you no longer use while retaining all of its a
 
 You must have the following in order to manage companies in Workfront:
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 

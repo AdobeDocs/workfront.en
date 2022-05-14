@@ -36,7 +36,7 @@ You can view the utilization of your resources using the Utilization report.
 
 You must have the following to access the Utilization report: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -116,7 +116,7 @@ When tracking the progress of a project, program, or portfolio, progress against
 
 The following information is available in the Utilization report when tracking Hours: 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -207,7 +207,7 @@ The currency used on the utilization report is determined by the currency set on
 
 The following information is available in the Utilization report when tracking Cost: 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -253,7 +253,7 @@ For information on the specific fields and how Workfront calculates them, also s
 * [Track costs](../../manage-work/projects/project-finances/track-costs.md) 
 * [Overview of Billing and Revenue](../../manage-work/projects/project-finances/billing-and-revenue-overview.md)
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -327,7 +327,7 @@ You can view the Planned or Actual Cost alongside the Planned Revenue. The Margi
 
 The following information is available in the Utilization report when comparing Revenue against Planned and Actual Costs: 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

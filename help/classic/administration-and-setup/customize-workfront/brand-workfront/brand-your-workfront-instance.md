@@ -26,7 +26,7 @@ Branding of the Workfront instance enables you to modify the logo images on the 
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -97,7 +97,7 @@ For the best results, we recommend that you use background images that are 2 MB 
 
    ![](assets/login-screen-background-adobe-350x227.png)
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

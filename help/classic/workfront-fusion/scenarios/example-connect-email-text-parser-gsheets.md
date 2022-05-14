@@ -19,7 +19,7 @@ This scenario helps you create a log of all email messages and tag them for furt
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

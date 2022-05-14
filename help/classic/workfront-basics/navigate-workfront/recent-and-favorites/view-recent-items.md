@@ -18,7 +18,7 @@ The Recents menu is located on the Global Navigation Bar. This menu shows recent
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

@@ -14,7 +14,7 @@ You can quickly create a new story or issue directly from the Kanban board.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

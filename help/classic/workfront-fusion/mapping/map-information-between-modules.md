@@ -21,7 +21,7 @@ The mapping panel displays when you click a field where you want to insert a val
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

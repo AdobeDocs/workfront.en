@@ -26,7 +26,7 @@ You can edit information on tasks that you have created, or that you have Contri
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -158,7 +158,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
    >   
    >For information about setting task preferences for new tasks at the system ```or group level```, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) .
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -205,7 +205,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
           <li data-mc-conditions="QuicksilverOrClassic.Classic"> <p data-mc-conditions="QuicksilverOrClassic.Classic">Type the length of time followed by the abbreviation for the unit of time.</p> </li> 
          </ul> 
          <p> You can choose from the regular time or elapsed time options in the following table: </p> 
-         <table cellspacing="3"> 
+         <table> 
           <col> 
           <col data-mc-conditions=""> 
           <tbody> 
@@ -351,7 +351,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
 1. Update any of the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -392,7 +392,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
 1. Update any of the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

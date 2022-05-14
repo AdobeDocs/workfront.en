@@ -17,7 +17,7 @@ If there are any groups above your group, their administrators can also do these
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -51,7 +51,7 @@ You must have the following to perform the steps in this article:
 
 1. Do any of the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -108,7 +108,7 @@ When you create a project template, the settings listed in the tables below are 
 
 ### Project template settings configured by project and task preferences {#project-template-settings-configured-by-project-and-task-preferences}
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -162,7 +162,7 @@ For information about the task and issue preference, see [Configure system-wide 
 
 When you create a template task, some of its settings are configured automatically by a correlating task preference. These settings are listed in the table below. 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

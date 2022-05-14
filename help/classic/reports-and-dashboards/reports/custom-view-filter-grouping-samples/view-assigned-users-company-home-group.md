@@ -21,7 +21,7 @@ This task view displays the Company and Home Group of the Primary Owner of the t
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -20,7 +20,7 @@ As an Adobe Workfront administrator, you can use an access level to define a use
 
 You must have the following to grant users access to Workfront Goals:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

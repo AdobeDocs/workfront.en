@@ -15,7 +15,7 @@ You can configure details of the project template or organizational structure be
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -74,7 +74,7 @@ You can also designate template ownership before you install the blueprint. You 
 
    Click **See issue preferences** to review the specific preferences that will install with the blueprint. Projects created from the imported template use these preferences for new issues added in the Issues section.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -25,7 +25,7 @@ The Incomplete executions folder stores scenario executions that were not succes
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -81,7 +81,7 @@ For more information, see [Errors resulting into incomplete executions](#errors-
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

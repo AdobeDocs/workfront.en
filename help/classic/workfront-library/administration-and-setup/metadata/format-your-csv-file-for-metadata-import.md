@@ -35,7 +35,7 @@ The CSV file must match the same structure as the metadata schema in Workfront L
 
 The CSV file must also include these column headers:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -86,7 +86,7 @@ To learn what happens when an asset already has keywords selected in Workfront L
 
 If an asset already has metadata information in Workfront Library but the metadata listed in the CSV file is different, the metadata for the asset updates to match the information in the CSV file. The way this works varies for the different types of metadata fields in Workfront Library.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

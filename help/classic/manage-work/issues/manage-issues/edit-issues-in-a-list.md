@@ -20,7 +20,7 @@ For information about editing an individual issue, see [Edit issues](../../../ma
 
 You must have the following access to perform the actions in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

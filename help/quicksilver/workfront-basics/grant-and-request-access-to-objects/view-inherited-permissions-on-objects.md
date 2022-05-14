@@ -20,7 +20,7 @@ For information about the hierarchy of objects in Workfront, see [Understand obj
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

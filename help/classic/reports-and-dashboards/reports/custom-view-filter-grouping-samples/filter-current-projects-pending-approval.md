@@ -19,7 +19,7 @@ The following project filter displays projects in the Current - Pending Approval
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

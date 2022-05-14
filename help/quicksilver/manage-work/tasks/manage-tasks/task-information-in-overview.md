@@ -24,7 +24,7 @@ This article describes how to view or edit information in the Overview area of T
 
 You must have the following:
 
-<table cellspacing="15"> 
+<table> 
  <caption style="text-align: left;">
    *To find out what plan, license type, or access you have, contact your Workfront administrator. 
  </caption> 
@@ -73,7 +73,7 @@ You must have the following:
 
    Not all fields are editable. &nbsp;
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -131,7 +131,7 @@ You must have the following:
           <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> <p>Tip: When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </p> </li> 
          </ul> 
          <p> You can choose from the regular time or elapsed time options in the following table: </p> 
-         <table cellspacing="3"> 
+         <table> 
           <col> 
           <col data-mc-conditions=""> 
           <tbody> 

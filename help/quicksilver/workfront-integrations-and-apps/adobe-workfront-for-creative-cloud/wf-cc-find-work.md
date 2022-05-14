@@ -14,7 +14,7 @@ Find the work assigned to you in Adobe Workfront without leaving Adobe Photoshop
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

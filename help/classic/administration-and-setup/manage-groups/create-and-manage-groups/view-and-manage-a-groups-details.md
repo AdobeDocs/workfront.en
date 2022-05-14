@@ -14,7 +14,7 @@ For information about other ways you can manage a group, see [Create a group](..
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -42,7 +42,7 @@ You must have the following to perform the steps in this article:
 1. If you want to deactivate or reactivate the group, 
 1. In the box that displays, make any of the following changes:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

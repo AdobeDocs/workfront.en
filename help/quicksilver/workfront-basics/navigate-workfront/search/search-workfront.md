@@ -19,7 +19,7 @@ You must have permissions to View an object before you can find it in a search. 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -116,7 +116,7 @@ It also finds objects that might have "Marketing" in the name and "Demo" in the 
 
 However, you can do the following in the Search box to adjust the search results that appear:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

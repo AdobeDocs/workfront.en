@@ -34,7 +34,7 @@ Examples of applications that leverage the&nbsp;Workfront API are:
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

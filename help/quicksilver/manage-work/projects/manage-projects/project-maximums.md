@@ -14,7 +14,7 @@ Adobe Workfront has limits for how many objects can be associated with a project
 
 The following objects associated with projects have the following limits:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

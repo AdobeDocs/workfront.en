@@ -28,7 +28,7 @@ To resolve this conflict you must find the object that has the two forms in it a
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

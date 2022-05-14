@@ -12,7 +12,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -60,7 +60,7 @@ Before you can use the MailChimp connector, you must ensure that the following p
 
 #### Create a campaign
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -131,7 +131,7 @@ Before you can use the MailChimp connector, you must ensure that the following p
 
 This action module deletes a single campaign from MailChimp.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -152,7 +152,7 @@ This action module deletes a single campaign from MailChimp.
 
 This action module edits a defined content area of a custom HTML template.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -187,7 +187,7 @@ This action module edits a defined content area of a custom HTML template.
 
 This action module gets metadata of a specified campaign
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -206,7 +206,7 @@ This action module gets metadata of a specified campaign
 
 This action module gets a campaign report for the specified campaign.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -225,7 +225,7 @@ This action module gets a campaign report for the specified campaign.
 
 This action module performs a single campaign action.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -259,7 +259,7 @@ This action module performs a single campaign action.
 
 This search module searches for campaigns based on text you specify.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -282,7 +282,7 @@ This search module searches for campaigns based on text you specify.
 
 This action module updates a single campaign.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -357,7 +357,7 @@ This action module updates a single campaign.
 
 This trigger module starts a scenario when a new campaign is created or sent.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -409,7 +409,7 @@ This trigger module starts a scenario when a new campaign is created or sent.
 
 This action module adds or changes a contact's details.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -484,7 +484,7 @@ This action module adds or changes a contact's details.
 
 This action module archives or permanently deletes a subscriber.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -511,7 +511,7 @@ This action module archives or permanently deletes a subscriber.
 
 This action module edits an existing subscriber.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -586,7 +586,7 @@ This action module edits an existing subscriber.
 
 This action module gets metadata of a subscriber by email.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -609,7 +609,7 @@ This action module gets metadata of a subscriber by email.
 
 This search module searches for subscribers based on criteria you select.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -684,7 +684,7 @@ This search module searches for subscribers based on criteria you select.
 
 This trigger module starts a scenario when a new subscriber joins a list.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -727,7 +727,7 @@ This trigger module starts a scenario when a new subscriber joins a list.
 
 This trigger module starts a scenario when a subscriber unsubscribes from a campaign.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

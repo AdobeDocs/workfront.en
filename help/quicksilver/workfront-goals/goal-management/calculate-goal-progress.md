@@ -99,7 +99,7 @@ The table below lists the goal progress labels and the goal progress percentages
 >
 >```Goal progress labels match Workfront project Condition name and color.```
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <col> 

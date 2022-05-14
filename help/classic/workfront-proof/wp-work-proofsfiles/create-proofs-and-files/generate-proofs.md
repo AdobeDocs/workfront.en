@@ -90,7 +90,7 @@ Workfront Proof enables you to create proofs from documents or websites, and sha
 
 1. Select any of the following proof settings:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -186,7 +186,7 @@ To generate a proof for a URL:
 
 1. Select **Handle site contents** options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

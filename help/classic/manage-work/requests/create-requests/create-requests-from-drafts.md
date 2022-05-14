@@ -18,7 +18,7 @@ In addition to using the available drafts that Workfront suggests to you when yo
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

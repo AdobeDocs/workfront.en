@@ -19,7 +19,7 @@ In G&nbsp;Suite, when you open a notification email Adobe Workfront has sent, yo
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -72,7 +72,7 @@ Before you can manage notification details from G Suite, you must
 
    The options that might display relate to the type of email notification you have opened. For example, if it's an email notification asking you to approve a task, you see **Approve** and **Reject** instead of options such as **Work on It** or **Done**:
 
-   <table cellspacing="15"> 
+   <table> 
     <col> 
     <col> 
     <thead> 

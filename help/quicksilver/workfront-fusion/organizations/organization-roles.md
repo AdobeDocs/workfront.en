@@ -14,7 +14,7 @@ description: You must have the following access to use the functionality in this
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -54,7 +54,7 @@ You must have the following access to use the functionality in this article:
 
 ## Organization roles
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -119,7 +119,7 @@ You must have the following access to use the functionality in this article:
 
 ## Scenarios
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -238,7 +238,7 @@ You must have the following access to use the functionality in this article:
 
 ## Connections
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -287,7 +287,7 @@ You must have the following access to use the functionality in this article:
 
 ## Webhooks
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -336,7 +336,7 @@ You must have the following access to use the functionality in this article:
 
 ## Data stores
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -392,7 +392,7 @@ You must have the following access to use the functionality in this article:
 
 ## Data structures
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -441,7 +441,7 @@ You must have the following access to use the functionality in this article:
 
 ## Devices
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -490,7 +490,7 @@ You must have the following access to use the functionality in this article:
 
 ## Keys
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

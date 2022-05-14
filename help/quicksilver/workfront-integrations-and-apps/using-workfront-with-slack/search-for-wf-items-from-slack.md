@@ -16,7 +16,7 @@ For more information about configuring Workfront with Slack, see [Configure Adob
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

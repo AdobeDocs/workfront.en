@@ -19,7 +19,7 @@ For information about aligning goals, see the following articles:
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

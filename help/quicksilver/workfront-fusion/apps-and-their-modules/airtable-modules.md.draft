@@ -51,7 +51,7 @@ The module returns any standard fields associated with the record, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -103,7 +103,7 @@ The module returns the ID of the  record and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -126,7 +126,7 @@ When you are configuring this module, the following fields display.
 
 This action module retrieves record details.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -157,7 +157,7 @@ You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -198,7 +198,7 @@ The module returns any standard fields associated with the record, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -254,7 +254,7 @@ This trigger module executes a scenario when a new record is added or updated in
 >
 >In order to use this module, the Created Time field must be created in your table.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

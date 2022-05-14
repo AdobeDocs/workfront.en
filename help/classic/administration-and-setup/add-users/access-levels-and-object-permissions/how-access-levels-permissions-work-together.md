@@ -90,7 +90,7 @@ When someone shares an object, the recipient’s rights to the object are determ
 Or, if the recipient’s access level allows project editing, but the sharer granted view-only permissions to a project, the user cannot edit or delete the project.
 The following table compares a user's general access to objects (defined by the user’s access level) to permissions for a specific shared object:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

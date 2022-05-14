@@ -18,7 +18,7 @@ description: The following array functions are available in the Adobe Workfront 
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

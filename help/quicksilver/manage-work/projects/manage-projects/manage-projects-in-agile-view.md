@@ -46,7 +46,7 @@ If you want to work in an agile environment that uses&nbsp;a team backlog and al
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

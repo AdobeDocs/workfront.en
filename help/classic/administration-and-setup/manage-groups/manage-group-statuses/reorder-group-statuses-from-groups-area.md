@@ -34,7 +34,7 @@ If there are any groups above the group you manage, their administrators can als
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -55,7 +55,7 @@ You must have the following to perform the steps in this article:
 
 By default, statuses display in the following order:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

@@ -14,7 +14,7 @@ For information about all functionality available for an object type in each acc
 
 In each access level, you can configure the following options for projects:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -77,7 +77,7 @@ In each access level, you can configure the following options for projects:
 
 In each access level, you can configure the following options for tasks:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -143,7 +143,7 @@ In each access level, you can configure the following options for tasks:
 
 In each access level, you can configure the following options for issues:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -221,7 +221,7 @@ In each access level, you can configure the following options for issues:
 
 In each access level, you can configure the following options for portfolios:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -277,7 +277,7 @@ In each access level, you can configure the following options for portfolios:
 
 In each access level, you can configure the following options for programs:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -333,7 +333,7 @@ In each access level, you can configure the following options for programs:
 
 In each access level, you can configure the following options for reports, dashboards, and calendars:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -407,7 +407,7 @@ In each access level, you can configure the following options for reports, dashb
 
 In each access level, you can configure the following options for filters, views, and groupings:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -484,7 +484,7 @@ In each access level, you can configure the following options for filters, views
 
 In each access level, you can configure the following options for documents:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -567,7 +567,7 @@ In each access level, you can configure the following options for documents:
 
 In each access level, you can configure the following options for users:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -623,7 +623,7 @@ In each access level, you can configure the following options for users:
 
 In each access level, you can configure the following options for teams:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -705,7 +705,7 @@ In each access level, you can configure the following options for teams:
 
 In each access level, you can configure the following options for templates:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -762,7 +762,7 @@ In each access level, you can configure the following options for templates:
 
 In each access level, you can configure the following options for financial data:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -827,7 +827,7 @@ In each access level, you can configure the following options for financial data
 
 In each access level, you can configure the following options for Resource Management:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

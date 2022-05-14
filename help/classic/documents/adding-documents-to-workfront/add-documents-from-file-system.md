@@ -27,7 +27,7 @@ If you need information about uploading new versions of a document to Workfront,
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -59,7 +59,7 @@ You can add new documents to Workfront from the file system on your workstation.
 
 1. Depending on the type of document you want to add, do any of the following: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

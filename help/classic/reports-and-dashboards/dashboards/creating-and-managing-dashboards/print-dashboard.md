@@ -22,7 +22,7 @@ You can print or export a dashboard to a .PDF file. To print a dashboard, you mu
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

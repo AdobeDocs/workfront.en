@@ -14,7 +14,7 @@ You can view the current active stages on a proof that contains an Automated Wor
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

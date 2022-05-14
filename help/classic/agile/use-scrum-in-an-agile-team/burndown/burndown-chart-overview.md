@@ -39,7 +39,7 @@ The burndown chart adjusts based on the selected day. The current day is the def
 
 The burndown chart contains the following visual indicators:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

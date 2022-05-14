@@ -28,7 +28,7 @@ As an Adobe Workfront administrator, you can configure document integrations to 
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -124,7 +124,7 @@ After the custom document integration is built, you can make it available to use
 1. Click **Add Custom integration**.
 1. Specify the following information to configure the integration:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -149,7 +149,7 @@ After the custom document integration is built, you can make it available to use
 
 1. (Conditional) If you selected **OAuth**&nbsp;authentication for the **Authentication Type**, specify the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

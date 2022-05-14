@@ -26,7 +26,7 @@ If the problem persists, contact the administrator of this site and provide the 
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

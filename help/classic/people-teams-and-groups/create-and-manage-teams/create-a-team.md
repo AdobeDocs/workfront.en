@@ -22,7 +22,7 @@ For information on how an Adobe Workfront administrator can create a team from t
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

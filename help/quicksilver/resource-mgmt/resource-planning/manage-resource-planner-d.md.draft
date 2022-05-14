@@ -126,7 +126,7 @@ Alina: will use this draft to start the restructure of the RM files
 
   The following table shows the allocation and availability information that displays in the Resource Planner when applying either the Project or the Role&nbsp;view. You can view this information by Hours, FTE, or Cost&nbsp;values.&nbsp; 
 
-  <table cellspacing="3"> 
+  <table> 
    <col> 
    <col> 
    <col> 

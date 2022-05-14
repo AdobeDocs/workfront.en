@@ -18,7 +18,7 @@ You can add a Slack comment as an update to a specific project, task, or issue i
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

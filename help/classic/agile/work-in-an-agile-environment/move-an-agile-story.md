@@ -18,7 +18,7 @@ You can move an agile story either to a different iteration (for Scrum teams), o
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

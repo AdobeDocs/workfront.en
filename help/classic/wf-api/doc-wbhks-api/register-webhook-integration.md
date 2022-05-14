@@ -24,7 +24,7 @@ To add an integration, click **Add Custom Integration**.
 
 When adding an integration, the administrator will enter values for the following fields.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

@@ -19,7 +19,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -68,7 +68,7 @@ You must have the following access to perform the steps in this article:
 
 1. To configure a column, click the name of the column you want to modify in the header row of the table, then one of the following tabs on the right panel:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> class="TableStyle-TableStyle-List-options-in-steps-Column-Column1" /&gt;
     <tbody>
      <tr data-mc-conditions="">
@@ -93,7 +93,7 @@ You must have the following access to perform the steps in this article:
     </tbody>
    </table>
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

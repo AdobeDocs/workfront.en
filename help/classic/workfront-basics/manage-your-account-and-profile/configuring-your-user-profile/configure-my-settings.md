@@ -32,7 +32,7 @@ To find out what access level you have, contact your Workfront administrator.
 
 The following grid shows what sections in the My Settings area are visible&nbsp;or editable&nbsp;depending on your access level:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -223,7 +223,7 @@ This information should already be configured by your Workfront administrator. A
 
 You can change any of the following in this sub-section:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -287,7 +287,7 @@ Specify what you want to display in your Workfront interface in this section.
 
 You can change any of the following in this sub-section:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -334,7 +334,7 @@ Only a Workfront administrator can see and edit all of the fields in this sectio
 
 You can change any of the following in this sub-section:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -380,7 +380,7 @@ This information is usually configured by your Workfront administrator, when the
 
 You can change any of the following in this sub-section:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -421,7 +421,7 @@ Your resource planning information affects the timeline of work assignments, the
 
 Use any of the following in this section:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

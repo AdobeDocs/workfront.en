@@ -28,7 +28,7 @@ image/jpeg
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -70,7 +70,7 @@ You must have the following access to use the functionality in this article:
 
 This transformer module return the MIME&nbsp;type associated with a given name, path, or extension.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -92,7 +92,7 @@ This transformer module return the MIME&nbsp;type associated with a given name, 
 
 This transformer module returns the original file extension for a given MIME type.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

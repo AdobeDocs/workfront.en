@@ -23,7 +23,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -91,7 +91,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 Watches the form for new responses.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -148,7 +148,7 @@ This module appends a new response to the bottom of the form's spreadsheet.
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -193,7 +193,7 @@ This module updates the selected response.
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -232,7 +232,7 @@ When you are configuring this module, the following fields display.
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h4 id="select-responses"><a name="Select"></a>Select Responses</h4>
 <p>This module returns response rows that match the criteria specified on a selected worksheet.</p>
-<table cellspacing="0">
+<table>
 <col data-mc-conditions="">
 <col data-mc-conditions="">
 <tbody>
@@ -277,7 +277,7 @@ When you are configuring this module, the following fields display.
 
 This module deletes a selected response.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -309,7 +309,7 @@ This module deletes a selected response.
 
 This module returns responses matching the given criteria.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -372,7 +372,7 @@ This module returns responses matching the given criteria.
 
 This module performs a search using the [Google Charts Query Language](https://developers.google.com/chart/interactive/docs/querylanguage). This module does not return a row number.
 
-<table cellspacing="0"> 
+<table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 

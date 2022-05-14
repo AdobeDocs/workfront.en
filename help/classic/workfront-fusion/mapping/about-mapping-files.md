@@ -20,7 +20,7 @@ Some modules have the capability to process files. These modules can either retu
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

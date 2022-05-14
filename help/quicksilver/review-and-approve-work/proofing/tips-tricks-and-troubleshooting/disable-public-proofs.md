@@ -16,7 +16,7 @@ You can turn off the ability to share a proof with a public URL or embed code on
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

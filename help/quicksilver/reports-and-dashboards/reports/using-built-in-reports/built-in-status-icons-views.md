@@ -33,7 +33,7 @@ You cannot customize the look and feel of the icons that are included in the Sta
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -110,7 +110,7 @@ The following table lists all the Status Icons available in Workfront, the type 
 
 You must have permissions to at least View the objects in order to be able to click some of the following icons and access those objects. 
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <col> 

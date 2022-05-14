@@ -18,7 +18,7 @@ You can adjust the unit of measurement that is used in the video timeline. You c
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -54,7 +54,7 @@ You must have the following access to perform the steps in this article:
 
 1. Select from the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

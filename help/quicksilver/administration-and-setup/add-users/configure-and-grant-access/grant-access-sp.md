@@ -10,7 +10,7 @@ In addition to access to Scenario Planner, a user with a non-System Administrato
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

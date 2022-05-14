@@ -29,7 +29,7 @@ By default, these preferences are locked and group administrators cannot modify 
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -70,7 +70,7 @@ You must have the following access to perform the steps in this article:
 
 ### New Task Defaults {#new-task-defaults}
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -95,7 +95,7 @@ You must have the following access to perform the steps in this article:
 
 ### Issues {#issues}
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -147,7 +147,7 @@ You must have the following access to perform the steps in this article:
 
 ### Actual Dates {#actual-dates}
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -200,7 +200,7 @@ You must have the following access to perform the steps in this article:
 
 ### Access {#access}
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

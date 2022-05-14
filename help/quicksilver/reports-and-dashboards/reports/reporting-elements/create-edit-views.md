@@ -16,7 +16,7 @@ This article describes how to create and edit standard views for lists and repor
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -94,7 +94,7 @@ You can create a new standard view, or you can customize an existing standard vi
       
       * (Optional) Click **Advanced Options** to specify the following information for the column:
 
-        <table cellspacing="0"> 
+        <table> 
          <col> 
          <col> 
          <thead> 
@@ -178,7 +178,7 @@ To create or customize an Agile view:
    Users can move stories among these status columns on the Agile story board.  
    When defining status columns, you can do the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <thead> 
@@ -207,7 +207,7 @@ To create or customize an Agile view:
 
 1. In the **Associate Card Color to** area, select from the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <thead> 

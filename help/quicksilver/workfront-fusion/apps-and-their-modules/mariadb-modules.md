@@ -12,7 +12,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -59,7 +59,7 @@ You can create a connection to your MariaDB account directly from inside a Maria
 1. In any MariaDB module, click **Add** next to the Connection field.
 1. Configure the following fields:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -104,7 +104,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This action module retrieves information from your database, based on a query you supply.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -123,7 +123,7 @@ This action module retrieves information from your database, based on a query yo
 
 This module reads record from your database.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

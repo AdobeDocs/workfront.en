@@ -28,7 +28,7 @@ You can also budget resources in the business case using the Resource Planner. F
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -99,7 +99,7 @@ This trigger module executes a scenario when a new event is added, updated, dele
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -140,7 +140,7 @@ The module returns the ID of the  event and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -197,7 +197,7 @@ The module returns the ID of the event and all associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -226,7 +226,7 @@ The module returns the ID of the  event and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -324,7 +324,7 @@ The module returns the ID of the  event and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -355,7 +355,7 @@ The module returns the ID of the  event and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -395,7 +395,7 @@ The module returns the ID of the  calendar and any associated fields, along with
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -434,7 +434,7 @@ The module returns the ID of the record and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -459,7 +459,7 @@ The module returns the ID of the  calendar and any associated fields, along with
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -484,7 +484,7 @@ The module returns the ID of the  calendar and any associated fields, along with
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -513,7 +513,7 @@ The module returns the ID of the  calendar and any associated fields, along with
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -538,7 +538,7 @@ The module returns the ID of the  calendar and any associated fields, along with
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -563,7 +563,7 @@ This action module returns the rules in the access control list on a calendar.
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -588,7 +588,7 @@ This action module returns the metadata of an access control rule.
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -617,7 +617,7 @@ The module returns the ID of the  access control rule and any associated fields,
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -670,7 +670,7 @@ The module returns the ID of the  access control rule and any associated fields,
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -714,7 +714,7 @@ The module returns the ID of the  access control rule and any associated fields,
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -746,7 +746,7 @@ The iterate attachments and iterate attendees modules have been deprecated. To i
 
 This module allows you to perform a custom API call.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -788,7 +788,7 @@ The module returns the ID of the  calendar and any associated fields, along with
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

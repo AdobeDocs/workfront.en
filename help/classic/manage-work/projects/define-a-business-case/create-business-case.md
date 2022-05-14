@@ -17,7 +17,7 @@ You can use the Business Case to request a project and define the purpose, the b
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -22,7 +22,7 @@ For more information on Data Access, see [Data Access overview](../../reports-an
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -67,7 +67,7 @@ Before you begin, you must
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: connect with JDBC instructions to verify what's needed in the table.)</p>
    -->
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -45,7 +45,7 @@ To navigate the timeline:
 1. Click the back and forward arrows to move backwards and forwards on the timeline.
 1. Select from the following date range options in the Resource Planner by clicking the appropriate buttons:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

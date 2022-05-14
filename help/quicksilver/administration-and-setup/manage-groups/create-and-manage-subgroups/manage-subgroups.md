@@ -22,7 +22,7 @@ For more information about subgroups, see [Subgroups overview](../../../administ
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -57,7 +57,7 @@ You must have the following to perform the steps in this article:
 
 1. Do any of the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -24,7 +24,7 @@ Users can uninstall the Zoom integration any time. For more information, see [Un
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

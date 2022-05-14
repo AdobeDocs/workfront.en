@@ -31,7 +31,7 @@ For more information about understanding the information in the Resource Planner
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -86,7 +86,7 @@ To display Available Cost values in the Resource Planner you must have the follo
 
 The following table illustrates how Available Cost is calculated in the Resource Planner: 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -249,7 +249,7 @@ The following scenarios exist when calculating the Planned Cost for users, roles
 -->
 
 <!--
-<table cellspacing="15" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<table>
 <col>
 <col>
 <col>
@@ -312,7 +312,7 @@ To display Budgeted Cost values in the Resource Planner you must have the follow
 
 The following table illustrates how Budgeted Cost is calculated in the Resource Planner: 
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

@@ -66,7 +66,7 @@ However, we recommend that you set the Condition Type of the project to Progress
 
 In this case, the values for the Project Condition can be:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

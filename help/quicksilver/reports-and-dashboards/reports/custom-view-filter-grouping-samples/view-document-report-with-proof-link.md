@@ -21,7 +21,7 @@ In this document view, you can insert a link to a proof of the current version o
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

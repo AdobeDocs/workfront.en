@@ -22,7 +22,7 @@ Changing the status of a task is typically a manual process. However, there are 
 
 The following task statuses are provided with your Workfront instance:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

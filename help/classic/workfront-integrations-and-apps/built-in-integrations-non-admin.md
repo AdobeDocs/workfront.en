@@ -25,7 +25,7 @@ Your Workfront administrator must enable and configure built-in integrations bef
 
 The following built-in integrations are currently available in Workfront.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -14,7 +14,7 @@ From the boards dashboard, you can create a new board or edit an existing board.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

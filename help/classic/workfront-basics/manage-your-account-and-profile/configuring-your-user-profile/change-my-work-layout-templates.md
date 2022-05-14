@@ -26,7 +26,7 @@ For information about&nbsp;how you can customize the Working on and Work Request
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

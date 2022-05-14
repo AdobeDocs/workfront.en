@@ -18,7 +18,7 @@ You can configure the video to continuously loop (the video begins playing again
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -19,7 +19,7 @@ This can happen in any of the following cases:
 
 You must have the following:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -126,7 +126,7 @@ You must have the following:
 
      Review the following fields in the additional information box at the initiative's level:
 
-     <table cellspacing="0"> 
+     <table> 
       <col> 
       <col> 
       <tbody> 
@@ -184,7 +184,7 @@ You must have the following:
 
    The following fields display for each job role:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -234,7 +234,7 @@ You must have the following:
 
 1. (Optional) Click&nbsp;**Show details** under the cost information to see where the conflict appears and to highlight the conflicting months on the plan's chart.&nbsp;The following additional fields display for each type of cost: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

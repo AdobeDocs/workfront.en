@@ -30,7 +30,7 @@ You can assign work to the users on the project in the Staffing tab of a project
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

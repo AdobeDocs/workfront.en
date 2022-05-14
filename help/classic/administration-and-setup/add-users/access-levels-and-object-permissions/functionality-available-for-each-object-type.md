@@ -309,7 +309,7 @@ Users with a Plan license can have full access to reports. All other Access Leve
 
 ## Users
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -390,7 +390,7 @@ Users with a Plan license can have full access to reports. All other Access Leve
 
 ## Teams
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

@@ -13,7 +13,7 @@ Adobe Workfront determines the Progress Status of a project by looking at the pr
 
 The following are the Progress Statuses of projects in&nbsp;Workfront: 
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

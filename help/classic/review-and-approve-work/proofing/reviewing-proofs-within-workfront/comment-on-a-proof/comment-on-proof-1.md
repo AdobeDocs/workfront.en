@@ -23,7 +23,7 @@ When tagging users in comments on a proof, the users you are able to tag might d
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -69,7 +69,7 @@ You must have the following access to perform the steps in this article:
 
 1. To draw attention to a specific location on the proof, click the markup tool you want in the toolbar, then mark the area of the proof that you want to comment on:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <col> 

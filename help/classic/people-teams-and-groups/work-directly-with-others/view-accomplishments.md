@@ -18,7 +18,7 @@ The Accomplishments list is located on the profile page of each user. The Accomp
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

@@ -19,7 +19,7 @@ If your firewall or mail server is configured to allow access to only certain ve
 
 Add the following IP addresses to your allowlist to enable Workfront Fusion to access your system.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -46,7 +46,7 @@ Add the following IP addresses to your allowlist to enable Workfront Fusion to a
 
 Also, if your organization uses outbound network filtering, add the following domain to your allowlist to enable your system to access Workfront Fusion. 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

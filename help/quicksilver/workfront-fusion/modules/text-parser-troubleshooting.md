@@ -16,7 +16,7 @@ Use this information if you can not get text parser to produce any output.
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

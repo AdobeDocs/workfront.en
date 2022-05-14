@@ -14,7 +14,7 @@ You can edit proof settings any time after you create a proof.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -52,7 +52,7 @@ Some settings may be locked if your Workfront administrator disabled them at the
 1. In the left panel, click **Proofing Viewer Settings**. 
 1. Adjust the following settings:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

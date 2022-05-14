@@ -14,7 +14,7 @@ You can define personal proof default settings that apply to proofs you create. 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
 1. In the upper-right corner, click your avatar, and select **Personal Settings**. 
 1. Choose the **Proofing defaults** tab, then specify the following information:
 
-   <table cellspacing="3"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

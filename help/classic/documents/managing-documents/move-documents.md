@@ -26,7 +26,7 @@ When you move a document, any of the following will also move with the document:
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

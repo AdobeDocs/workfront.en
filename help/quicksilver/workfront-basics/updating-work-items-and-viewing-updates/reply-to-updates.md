@@ -14,7 +14,7 @@ When someone adds or replies to an update on a work object, their reply appears 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

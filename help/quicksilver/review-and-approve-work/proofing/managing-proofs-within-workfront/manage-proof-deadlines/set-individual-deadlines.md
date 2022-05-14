@@ -15,7 +15,7 @@ You can set different deadlines for different reviewers on a proof you have alre
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

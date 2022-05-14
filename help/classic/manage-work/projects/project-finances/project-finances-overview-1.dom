@@ -22,7 +22,7 @@
     <h2 aemmigrated="true">How Workfront calculates finances</h2> 
     <p aemmigrated="true">You can keep track of financial fields at the project and task level in Workfront. You can keep track of limited financial fields for issues.</p> 
     <p aemmigrated="true">The following table shows some of the finances that you can keep track of in Workfront and for which object:</p> 
-    <table cellspacing="3" aemmigrated="true"> 
+    <table> 
      <col aemmigrated="true"> 
      <col aemmigrated="true"> 
      <col aemmigrated="true"> 

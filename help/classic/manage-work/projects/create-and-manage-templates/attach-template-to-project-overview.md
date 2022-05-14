@@ -39,7 +39,7 @@ However, not all project fields are available to manage in the process of attach
 
 The following table describes the default for what happens to project fields when you attach a template and which fields you can manage during the attachment process to override the default behavior:
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <col> 

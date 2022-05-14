@@ -23,7 +23,7 @@ This article explains how to connect almost any web service to Workfront Fusion 
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -96,7 +96,7 @@ To connect a web service to your Workfront Fusion scenario, you need to use the 
    >
    >These module settings correspond to the Pushover web service API documentation. Settings may be different for other web services. For example, the API token may be inserted to the Header and not to the Body field.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -147,7 +147,7 @@ Specify parameters and values in the JSON format.
 "title":"The Push Notification"}
 ```
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

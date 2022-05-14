@@ -14,7 +14,7 @@ You must review your goals periodically and update their progress to ensure that
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

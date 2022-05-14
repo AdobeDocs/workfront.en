@@ -26,7 +26,7 @@ Permissions are specific to one item in Workfront and define what actions one ca
 
 You must have the following to share objects:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -82,7 +82,7 @@ Sharing one report or several reports from a list is identical.
 
 1. To adjust the level of access for a name you added, click the drop-down menu to the right of the name, then choose one of the options below.
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

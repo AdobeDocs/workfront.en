@@ -23,7 +23,7 @@ Using a calculated custom field, you can display the name of the manager of an i
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -16,7 +16,7 @@ The Adobe Workfront Fusion SFTP modules allow you to monitor file changes in a s
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -60,7 +60,7 @@ In order to use SFTP with Workfront Fusion, it is necessary to have an SFTP acco
 
 To connect your SFTP account to Workfront Fusion you need to enter the target Host and the SFTP credentials (user name and password or user name and key) to the module's Create a connection dialog.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

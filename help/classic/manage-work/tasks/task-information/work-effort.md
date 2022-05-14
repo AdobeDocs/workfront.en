@@ -19,7 +19,7 @@ description: Work Effort overview
 
 As a project manager, you can decide how you want to estimate the amount of work needed for tasks to complete in a project. Estimate the amount of work needed to complete tasks using one of the following indicators: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ This article describes what Work Effort is and how you should use it when estima
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -125,7 +125,7 @@ As a Workfront administrator, you define the Typical hours per work day in the P
 >
 >In the examples below, we assume that the Workfront administrator has set the Typical hours per work day amount to 8 hours.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

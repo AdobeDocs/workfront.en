@@ -20,7 +20,7 @@ You can use baseline to compare those pieces of information from the current pla
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

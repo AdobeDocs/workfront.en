@@ -18,7 +18,7 @@ A program represents a collection of projects that share a common strategy, obje
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -63,7 +63,7 @@ You must have the following access to perform the steps in this article:
 
 1. Specify the following information:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <thead> 
@@ -108,7 +108,7 @@ You can find limited information about the program in its header.
 
 The following information displays in the header of a program:
 
-<table cellspacing="0" data-mc-conditions="QuicksilverOrClassic.Classic"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

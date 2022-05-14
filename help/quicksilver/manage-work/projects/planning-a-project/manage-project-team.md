@@ -18,7 +18,7 @@ The Project&nbsp;Team consists of users who are associated with the project. The
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

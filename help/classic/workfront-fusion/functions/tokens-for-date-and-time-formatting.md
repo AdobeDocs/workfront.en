@@ -18,7 +18,7 @@ description: The following tokens for date and time formatting are available in 
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ You must have the following access to use the functionality in this article:
 
 ## Year, month, and day tokens
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -153,7 +153,7 @@ You must have the following access to use the functionality in this article:
 
 ## Week year, week, and weekday tokens
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 
@@ -250,7 +250,7 @@ You must have the following access to use the functionality in this article:
 
 ## Hour, minute, second, millisecond, and offset tokens
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

@@ -22,7 +22,7 @@ Individual users can also reset their own user preference settings.
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
 
 When you reset user preferences, some preferences are reverted to the system default, and others are cleared or removed:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <thead> 

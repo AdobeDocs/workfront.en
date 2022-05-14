@@ -14,7 +14,7 @@ You can move a story or issue from the Scrum board to another iteration or to th
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

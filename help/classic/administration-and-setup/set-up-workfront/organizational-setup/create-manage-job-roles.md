@@ -23,7 +23,7 @@ As an Adobe Workfront administrator or a user with administrative access to Job&
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -54,7 +54,7 @@ You must have the following:
 
 1. Update the following fields: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

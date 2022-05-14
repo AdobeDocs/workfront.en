@@ -14,7 +14,7 @@ You can manually align two goals or you can convert the results and activities o
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

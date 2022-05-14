@@ -17,7 +17,7 @@ You can enable or disable access to the Adobe Workfront mobile app.
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -30,7 +30,7 @@ This article describes the following actions that you can perform directly in th
 
 You must have the following to follow the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

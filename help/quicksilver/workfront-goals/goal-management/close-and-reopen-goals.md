@@ -17,7 +17,7 @@ You can close a goal when you want to indicate the following:
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

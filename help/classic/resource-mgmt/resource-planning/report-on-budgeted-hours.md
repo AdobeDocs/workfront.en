@@ -105,7 +105,7 @@ Budgeting resources means that you define (or budget) a certain number of hours 
 -->
 
 <!--
-<table cellspacing="0" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<table>
 <col>
 <col>
 <tbody>

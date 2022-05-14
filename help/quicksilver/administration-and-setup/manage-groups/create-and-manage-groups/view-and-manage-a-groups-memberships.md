@@ -18,7 +18,7 @@ If there are any groups above your group, their administrators can also do these
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -46,7 +46,7 @@ You must have the following to perform the steps in this article:
 1. Click the name of the group that you want to edit.
 1. On the page that appears, with **Group Members** selected in the left menu, do any of the following:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

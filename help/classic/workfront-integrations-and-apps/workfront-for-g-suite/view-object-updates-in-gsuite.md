@@ -19,7 +19,7 @@ Without leaving G Suite, you can view updates and replies to updates on a Adobe 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

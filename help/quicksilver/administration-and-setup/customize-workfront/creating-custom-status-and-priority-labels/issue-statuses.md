@@ -17,7 +17,7 @@ You can use the status of an issue to show users in the system in what stage of 
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -60,7 +60,7 @@ For users, changing the status of an issue is typically a manual process. Howeve
 
 The following issue statuses are provided with your Workfront instance:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

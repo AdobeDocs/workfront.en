@@ -37,7 +37,7 @@ The following table provides details about current and future functionality:
 >
 >All customers will be moving to Enhanced Authentication 2.0 by the end of 2021.
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

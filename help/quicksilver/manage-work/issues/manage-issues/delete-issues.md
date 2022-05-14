@@ -18,7 +18,7 @@ You can delete issues or requests in&nbsp;Adobe Workfront if you have the correc
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

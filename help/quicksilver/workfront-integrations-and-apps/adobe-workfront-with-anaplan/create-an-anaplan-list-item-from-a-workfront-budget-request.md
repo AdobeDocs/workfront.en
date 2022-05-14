@@ -14,7 +14,7 @@ This integration scenario links an Adobe Workfront project (campaign) with an An
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -66,7 +66,7 @@ You must have the following in Workfront to use this scenario:
 
   The following required fields must be included on the custom form to aid in data mapping to Anaplan:
 
-  <table cellspacing="0"> 
+  <table> 
    <col> 
    </col> 
    <col> 
@@ -104,7 +104,7 @@ You must have the following in Workfront to use this scenario:
 
   This form must contain the following fields:
 
-  <table cellspacing="0"> 
+  <table> 
    <col> 
    </col> 
    <col> 

@@ -24,7 +24,7 @@ In an interactive proof, reviewers can navigate and interact as they normally wo
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

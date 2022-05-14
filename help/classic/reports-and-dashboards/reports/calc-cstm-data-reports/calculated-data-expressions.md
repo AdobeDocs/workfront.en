@@ -55,7 +55,7 @@ For example:
 
 The differences between the two syntaxes are: 
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -90,7 +90,7 @@ The lists below define the available expressions you can use when you are buildi
 
 ### Date & time calculated custom fields {#date-time-calculated-custom-fields}
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -189,7 +189,7 @@ The lists below define the available expressions you can use when you are buildi
 
 ### Mathematical calculated custom fields {#mathematical-calculated-custom-fields}
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -276,7 +276,7 @@ The lists below define the available expressions you can use when you are buildi
 
 ### Text calculated custom fields {#text-calculated-custom-fields}
 
-<table cellspacing="3"> 
+<table> 
  <col> 
  <col> 
  <thead> 

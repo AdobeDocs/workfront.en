@@ -29,7 +29,7 @@ Use the following voice commands to manage work in the mobile app:
 
 Use the show me command to see information about the following objects:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

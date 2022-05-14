@@ -32,7 +32,7 @@ For information about how a Workfront administrator unlocks a timesheet and hour
 
 You must have the following to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -80,7 +80,7 @@ Consider the following information about configuring an unlocked timesheet or ho
 
 <!-- WRITER please check table with original. wonky conditional/draft text, so I just cleared it out-->
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -121,7 +121,7 @@ Consider the following information about configuring an unlocked timesheet or ho
 
 1. In the **Pre-Populate timesheets with**section, configure any of the following options: 
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

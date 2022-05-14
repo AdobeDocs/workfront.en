@@ -18,7 +18,7 @@ As a regular user, you can uninstall the Zoom integration in your own personal i
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

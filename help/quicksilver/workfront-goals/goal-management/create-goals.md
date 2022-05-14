@@ -14,7 +14,7 @@ Whether you are a CEO, a manager, or an individual contributor, you can create g
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

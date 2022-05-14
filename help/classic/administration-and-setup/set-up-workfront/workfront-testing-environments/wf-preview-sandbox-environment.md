@@ -25,7 +25,7 @@ There are two testing environments for Workfront that are replicas of your Workf
 
   The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain the Custom Refresh Sandbox. For more information about the Custom Refresh Sandbox, see [The Adobe Workfront Custom Refresh Sandbox environment](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

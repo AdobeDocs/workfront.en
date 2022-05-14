@@ -129,7 +129,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 The following table displays what permissions you can grant users when allowing them to View, Contribute, or Manage an issue:
 
-<table cellspacing="15"> 
+<table> 
  <col> 
  <col> 
  <col> 

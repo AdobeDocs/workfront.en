@@ -18,7 +18,7 @@ You can share the Workload Balancer with other users who might not have the Work
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

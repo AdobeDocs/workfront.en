@@ -12,7 +12,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -57,7 +57,7 @@ You must have the following access to perform the steps in this article:
 
    1. On the **Settings** tab:
 
-      <table cellspacing="0">
+      <table>
        <col>
        <col>
        <tbody>
@@ -95,7 +95,7 @@ You must have the following access to perform the steps in this article:
 
       <!--   
       <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Style</b> tab:&nbsp;Unavailable until further notice</p>   
-      <table cellspacing="0">   
+      <table>   
       <col>   
       <col>   
       <tbody>   

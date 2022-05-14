@@ -20,7 +20,7 @@ Any changes you make to the size or visibility of the burndown chart are visible
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

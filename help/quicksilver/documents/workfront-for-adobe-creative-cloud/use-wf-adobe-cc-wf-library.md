@@ -70,7 +70,7 @@ To accessWorkfront Library folders and single items from the Workfront extension
 
 1. Select from the following types of information about the content stored in Workfront Library to display only items meeting that criteria:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -20,7 +20,7 @@ This scenario watches for new campaign requests added to a request queue. As soo
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -81,7 +81,7 @@ You must have the following in Workfront to use this scenario:
 
   The following optional fields may be present on the form. This scenario maps only the above fields, but any additional fields on the campaign brief may be mapped.
 
-  <table cellspacing="0"> 
+  <table> 
    <col> 
    <col> 
    <thead> 

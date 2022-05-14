@@ -19,7 +19,7 @@ For more information about scorecards and how you can create one, see [Create a 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

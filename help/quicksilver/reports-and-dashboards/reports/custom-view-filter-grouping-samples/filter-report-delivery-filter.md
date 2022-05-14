@@ -15,7 +15,7 @@ This report filter displays all reports scheduled to be delivered automatically 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

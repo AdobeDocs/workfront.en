@@ -20,7 +20,7 @@ You can copy or duplicate one or several tasks or parent tasks at a time.
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

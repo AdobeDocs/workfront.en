@@ -25,7 +25,7 @@ The following sections describe how to configure and manage the Enhanced Authent
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

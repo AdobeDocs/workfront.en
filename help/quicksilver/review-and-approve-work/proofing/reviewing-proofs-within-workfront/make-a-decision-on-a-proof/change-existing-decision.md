@@ -14,7 +14,7 @@ As long as the proof is active (not locked or archived), you can change your dec
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

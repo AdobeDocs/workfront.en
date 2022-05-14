@@ -22,7 +22,7 @@ If a project is associated with a group, you can apply both system-level statuse
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

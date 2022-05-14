@@ -27,7 +27,7 @@ If your organization has been upgraded to the enhanced authentication experience
 
 You must have the following access to perform the steps in this article: 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

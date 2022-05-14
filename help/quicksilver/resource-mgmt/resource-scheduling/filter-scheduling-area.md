@@ -36,7 +36,7 @@ You can&nbsp;schedule resources or an individual team you are a member of or for
 
 You must have the following:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

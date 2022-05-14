@@ -42,7 +42,7 @@ The following table lists all the Workfront areas and objects that contain tabs 
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  </col> 
  <col> 

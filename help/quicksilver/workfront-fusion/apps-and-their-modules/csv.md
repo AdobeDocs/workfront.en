@@ -20,7 +20,7 @@ The Adobe Workfront Fusion CSV modules let you create CSV files and parse CSV te
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -75,7 +75,7 @@ The Create CSV (advanced) Aggregator lets you create a CSV text from received te
 
 For more information on aggregators, see [Aggregator module in Adobe Workfront Fusion](../../workfront-fusion/modules/aggregator-module.md).
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -131,7 +131,7 @@ For more information on aggregators, see [Aggregator module in Adobe Workfront F
 
 The Parse CSV transformer lets you parse CSV text from a received text value or a file. 
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 

@@ -30,7 +30,7 @@ This does this following:&nbsp;
 
 You must have the following:
 
-<table cellspacing="15"> 
+<table> 
  <caption style="text-align: left;"> 
   <p>*To find out what plan, license type, or access you have, contact your Workfront administrator.</p> 
  </caption> 

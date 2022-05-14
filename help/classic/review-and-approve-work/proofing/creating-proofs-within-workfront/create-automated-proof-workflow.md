@@ -18,7 +18,7 @@ An Automated Workflow makes it easier to manage the review process if your proce
 
 You must have the following access to perform the steps in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -91,7 +91,7 @@ You must have the following access to perform the steps in this article:
    
    1. Use any of the options below to further configure the stage.
 
-      <table cellspacing="0">
+      <table>
        <col>
        <col>
        <tbody>
@@ -161,7 +161,7 @@ We recommend switching to the new Workfront experience for the most optimized ex
 
 1. In the **Proof settings** section, select any of the following options:
 
-   <table cellspacing="0"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 

@@ -8,7 +8,7 @@ The Adobe Workfront Fusion HubSpot CRM modules enable you to monitor events, rec
 
 You must have the following access to use the functionality in this article:
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -75,7 +75,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This search module searches for CRM objects by custom properties or by query. To search for products or line items, use a special connection with a required custom scope.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -132,7 +132,7 @@ This search module searches for CRM objects by custom properties or by query. To
 
 This action module creates contact, a company, or a deal.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -155,7 +155,7 @@ This action module creates contact, a company, or a deal.
 
 This action module gets details of a contact, a company, or a deal.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -191,7 +191,7 @@ This action module gets details of a contact, a company, or a deal.
 
 This action module updates a contact, a company, or a deal.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -230,7 +230,7 @@ This action module updates a contact, a company, or a deal.
 
 This action module deletes a contact, a company, or a deal.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -253,7 +253,7 @@ This action module deletes a contact, a company, or a deal.
 
 This action module gets metadata for a specific record property by its (internal) name.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -280,7 +280,7 @@ This action module gets metadata for a specific record property by its (internal
 
 This trigger module starts a scenario when a contact, company, or deal has been modified or created within the last 30 days. Output is limited to 10,000 records.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -322,7 +322,7 @@ This trigger module starts a scenario when a contact, company, or deal has been 
 
 Creates a contact if it doesn't exist in a portal already, or updates it with the latest property values if it does exist in a portal.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -341,7 +341,7 @@ Creates a contact if it doesn't exist in a portal already, or updates it with th
 
 Creates a group of contacts or updates them if they already exist. Performance is best when batch size is limited to 100 contacts or fewer. Changes made through this endpoint are processed asynchronously, so it can take several minutes for changes to be applied to contact records.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -368,7 +368,7 @@ Creates a group of contacts or updates them if they already exist. Performance i
 
 This module adds contact records that have already been created in the system to a contact list.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -399,7 +399,7 @@ Removes a contact from a contact list.
 >
 >You cannot manually remove contacts from a dynamic list.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -420,7 +420,7 @@ Removes a contact from a contact list.
 
 #### Merge contacts {#merge-contacts}
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -443,7 +443,7 @@ Removes a contact from a contact list.
 
 Retrieves a list of contacts using the search query.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -466,7 +466,7 @@ Retrieves a list of contacts using the search query.
 
 Returns all contacts that have been created in the portal. The output is limited to 5000 contacts. To list previous or next contacts, you can use the advanced parameter to offset the list.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -494,7 +494,7 @@ Returns all contacts that have been created in the portal. The output is limited
 
 Retrieves a list of contacts in the company. The output is limited to 5000 contacts. To list previous or next contacts, you can use the advanced parameter to offset the list.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -522,7 +522,7 @@ Retrieves a list of contacts in the company. The output is limited to 5000 conta
 
 This trigger module starts a scenario when a new contact is added to a list. This is available only to users with a paid Marketing account.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -554,7 +554,7 @@ This trigger module starts a scenario when a new contact is added to a list. Thi
 
 Returns all deal and ticket pipelines for a given portal.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -573,7 +573,7 @@ Returns all deal and ticket pipelines for a given portal.
 
 Returns a specific deal pipeline..
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -598,7 +598,7 @@ Returns a specific deal pipeline..
 
 Retrieves a list of companies based on an exact match to the domain property.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -631,7 +631,7 @@ Retrieves a list of companies based on an exact match to the domain property.
 
 This module creates a folder.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -654,7 +654,7 @@ This module creates a folder.
 
 Marks a folder as deleted.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -673,7 +673,7 @@ Marks a folder as deleted.
 
 Moves a file to a different folder.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -702,7 +702,7 @@ Moves a file to a different folder.
 
 Deletes an existing ticket by its ID.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -721,7 +721,7 @@ Deletes an existing ticket by its ID.
 
 Allows you to perform a custom API call.
 
-<table cellspacing="0"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
