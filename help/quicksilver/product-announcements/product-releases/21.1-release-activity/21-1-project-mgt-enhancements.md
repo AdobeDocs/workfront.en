@@ -91,7 +91,7 @@ To bring consistency with the new Workfront experience and create efficiencies f
 
 Ability to share a link to the request queue, topic group, or queue topic as you enter the request.
 
-For information about submitting requests, see [Create and submit Workfront requests](create-submit-requests.md).
+For information about submitting requests, see [Create and submit Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 <!--WRITER
 <iframe class="vimeo-player_0" src="assets/500718803?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>

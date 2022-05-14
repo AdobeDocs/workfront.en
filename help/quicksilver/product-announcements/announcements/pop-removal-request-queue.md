@@ -16,7 +16,7 @@ POP technology is an unreliable, less secure email option. In addition, we see a
 
 ## What action do I&nbsp;need to take?
 
-You need to set up a new email address for each request queue you have set up with POP email in your Production environment and distribute the new email address as needed. For more information, see [Enable users to email an issue into a Request Queue project](enable-email-issues-into-projects.md).
+You need to set up a new email address for each request queue you have set up with POP email in your Production environment and distribute the new email address as needed. For more information, see [Enable users to email an issue into a Request Queue project](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 ## What is the transition plan?
 

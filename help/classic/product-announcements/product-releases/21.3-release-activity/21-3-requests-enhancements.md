@@ -22,7 +22,7 @@ To help you find the right request queue faster by referring to recently logged 
 
 A path includes the request queue and all the topic groups and queue topics that you have selected before when submitting a request.
 
-For more information, see [Create and submit Adobe Workfront requests](create-submit-requests.md).
+For more information, see [Create and submit Adobe Workfront requests](/help/classic/manage-work/requests/create-requests/create-submit-requests.md).
 
 <!--WRITER
 <iframe class="vimeo-player_0" src="assets/558570896?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>

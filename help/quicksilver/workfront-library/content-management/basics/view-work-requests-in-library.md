@@ -33,4 +33,4 @@ Users with Manager or higher access to Workfront Library can view requests other
 
    Click the **Complete** subtab to view requests that have been completed.
 
-For more information on work requests, see [Create and submit Workfront requests](create-submit-requests.md).
+For more information on work requests, see [Create and submit Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).

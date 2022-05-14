@@ -18,8 +18,10 @@ If an object such as a project, issue, or task contains rich text, it is stored 
 Requesting text information from a project object that contains rich text can be done using the field **parameterValues**.
 
 **Example:** A simple HTTP request could resemble the following:
-<pre>https://your-company.workfront.com/attask/api/v11.0/project?ID=your-project-ID&fields=parameterValues:*</pre>If this example project contained a custom form with 3 custom fields: calc field, paragraph text, and rich 1. Then the above request would return a response that resembles the following, where the field "rich 1" is a rich text parameter field and the text value is “**Hello** *World!*”:
-<pre>{
+`https://your-company.workfront.com/attask/api/v11.0/project?ID=your-project-ID&fields=parameterValues:*` If this example project contained a custom form with 3 custom fields: calc field, paragraph text, and rich 1. Then the above request would return a response that resembles the following, where the field "rich 1" is a rich text parameter field and the text value is “**Hello** *World!*”:
+
+```
+{
 	Data: {
 		ID: “xxxxxxxxxxxxxxxxxxxxxxx”,
 		name: “new project with rich text”,
@@ -57,4 +59,7 @@ Requesting text information from a project object that contains rich text can be
 		DE: calc field: “here is a calc field entry”,
 		}
 	}
-}</pre>For a more in depth look at how rich text information is stored and can be retrieved through the Adobe Workfront API, see [Rich text fields in the Adobe Workfront API](../../../wf-api/general/rich-text-field-api.md).
+}
+```
+
+For a more in depth look at how rich text information is stored and can be retrieved through the Adobe Workfront API, see [Rich text fields in the Adobe Workfront API](../../../wf-api/general/rich-text-field-api.md).

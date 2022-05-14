@@ -17,7 +17,7 @@ For example, you can find a request queue named “&#42;Workfront” by typing e
 
 All special characters are supported.
 
-For information about submitting requests, see [Create and submit Adobe Workfront requests](create-submit-requests.md).
+For information about submitting requests, see [Create and submit Adobe Workfront requests](/help/classic/manage-work/requests/create-requests/create-submit-requests.md).
 
 <!--WRITER
 <iframe class="vimeo-player_0" src="assets/601077860?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>

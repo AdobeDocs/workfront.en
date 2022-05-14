@@ -24,7 +24,7 @@ For more information, see [Share a calendar report](../../../reports-and-dashboa
 
 To give you more flexibility when working with requests, Workfront now automatically saves every request you create as a draft in the new Drafts area. If you don't have all the information needed to complete the new request, you can leave it as a draft, come back to it and finish it later. Workfront saves one request per queue topic in the new Drafts area. The draft requests can be saved for as long as you need them until you are ready to complete and submit them. You can also remove or reposition the Drafts area in the left panel using a Layout Template.
 
-For more information about creating requests, see [Create and submit Workfront requests](create-submit-requests.md).
+For more information about creating requests, see [Create and submit Workfront requests](/help/classic/manage-work/requests/create-requests/create-submit-requests.md).
 
 >[!NOTE]
 >

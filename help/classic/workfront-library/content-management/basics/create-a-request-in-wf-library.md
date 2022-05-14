@@ -22,9 +22,9 @@ Before users can create a request in Workfront Library, a Workfront system admin
 1. In the left panel, click **Requests** >**Make a Request**.
 1. Click in the **Select a Request Type** box, and in the drop-down list, select the request queue you want to send your request.
 
-   The options that display on the request form depend on how the request queue is configured. For information on populating the fields on the request form, see [Creating and Submitting Workfront Requests.](create-submit-requests.md)
+   The options that display on the request form depend on how the request queue is configured. For information on populating the fields on the request form, see [Creating and Submitting Workfront Requests.](/help/classic/manage-work/requests/create-requests/create-submit-requests.md)
 
 1. Complete the request form, then click **Submit Request**.
 
-   The request is submitted to the selected request queue in Workfront. For more information on work requests in Workfront, see [Creating and Submitting Workfront Requests](create-submit-requests.md).
+   The request is submitted to the selected request queue in Workfront. For more information on work requests in Workfront, see [Creating and Submitting Workfront Requests](/help/classic/manage-work/requests/create-requests/create-submit-requests.md).
 

@@ -22,7 +22,7 @@ Your Workfront maintenance window is dependent upon the cluster where&nbsp;your 
 
 >[!TIP]
 >
->If your organization is assigned a cluster that is outside your geographical region, you can request to be migrated to a different cluster. Migration to a different cluster requires a short service outage during the migration. For more information, see [Migrating to another cluster](../../administration-and-setup/administrator-faqs/migrate-to-another-cluster.md).
+>If your organization is assigned a cluster that is outside your geographical region, you can request to be migrated to a different cluster. Migration to a different cluster requires a short service outage during the migration. <!--For more information, see [Migrating to another cluster](../../administration-and-setup/administrator-faqs/migrate-to-another-cluster.md).-->
 
 The maintenance window schedule is as follows:
 

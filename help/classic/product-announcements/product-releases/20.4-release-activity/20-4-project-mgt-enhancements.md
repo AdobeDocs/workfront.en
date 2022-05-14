@@ -157,7 +157,7 @@ To give you more freedom when working with requests, there is no longer a limit 
 
 Prior to this enhancement, Workfront saved only one draft for each queue topic in your request queue.
 
-For information about submitting requests, see “ [Create and submit Workfront requests](create-submit-requests.md).
+For information about submitting requests, see “ [Create and submit Workfront requests](/help/classic/manage-work/requests/create-requests/create-submit-requests.md).
 
 <!--WRITER
 <iframe class="vimeo-player_0" src="assets/449464937?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>

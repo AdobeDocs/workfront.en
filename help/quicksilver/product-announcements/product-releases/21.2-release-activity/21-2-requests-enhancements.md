@@ -25,7 +25,7 @@ There is an indication in the Assignments field about which types of assignments
 
 For more information, see the following articles:
 
-* [Create and submit Adobe Workfront requests](create-submit-requests.md) 
+* [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) 
 * [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
 <!--WRITER
@@ -46,7 +46,7 @@ As we continue to incorporate your feedback about creating requests in the new W
 * Clearly indicate with an “x” icon that a choice for Request Type, Topic Group, or Queue Topic can be removed after it’s been selected.
 * Provide a Close button when creating a new request to leave the request without losing the draft. In addition to this change, the “Discard” button has been renamed to “Discard draft.”
 
-For information about creating new requests, see [Create and submit Adobe Workfront requests](create-submit-requests.md).
+For information about creating new requests, see [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 <!--WRITER
 <iframe class="vimeo-player_0" src="assets/534942833?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
@@ -66,7 +66,7 @@ As we continue to listen to and incorporate your feedback, we have added several
 
 * You can select where to place the Documents section for uploading files when creating a request queue as you are defining the Queue Setup. You can place this section either before or after the custom fields of the request form. For more information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 * Sorting the Submitted requests list by one of the columns is now preserved when you navigate away from the page. For more information, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
-* When creating a new request, the Submit and Cancel buttons are now located at the bottom of the New request form. For more information, see [Create and submit Workfront requests](create-submit-requests.md).
+* When creating a new request, the Submit and Cancel buttons are now located at the bottom of the New request form. For more information, see [Create and submit Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 <!--WRITER
 <iframe class="vimeo-player_0" src="assets/529398888?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
@@ -118,7 +118,7 @@ To bring consistency with the new Workfront experience and create efficiencies f
 
 Ability to share a link to the request queue, topic group, or queue topic as you enter the request.
 
-For information about submitting requests, see [Create and submit Workfront requests](create-submit-requests.md).
+For information about submitting requests, see [Create and submit Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 <!--WRITER
 <iframe class="vimeo-player_0" src="assets/500718803?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
