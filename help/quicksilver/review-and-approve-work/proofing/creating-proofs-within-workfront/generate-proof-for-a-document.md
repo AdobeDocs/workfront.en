@@ -12,7 +12,9 @@ You can generate a proof for a document at the time you are uploading it to Work
 
 You can also generate a proof for a document already uploaded in Adobe Workfront or for a new version of a proof already in Workfront.
 
+<!--
 If a proof fails to generate after following the steps described in the following sections, see [Troubleshoot proof creation failures](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/troubleshooting-proof-creation-failures.md).
+-->
 
 ## Access requirements
 

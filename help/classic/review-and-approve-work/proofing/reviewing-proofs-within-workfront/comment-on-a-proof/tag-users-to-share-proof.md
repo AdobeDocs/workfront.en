@@ -17,7 +17,7 @@ When you are commenting on a proof in the proofing viewer, you can tag other use
 When tagging users in comments on a proof, the users you are able to tag might differ depending on various factors, such as individual user permissions and your membership in the organization:
 
 * If you are the proof creator, owner, or have specific permissions enabled, you can tag users outside of the proof workflow and share the proof with them.
-* If you were added to the proof as an outside user and you are a member of another environment with a different proof account, you can tag only those users from your original environment. For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)
+* If you were added to the proof as an outside user and you are a member of another environment with a different proof account, you can tag only those users from your original environment. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Access requirements {#access-requirements}
 
