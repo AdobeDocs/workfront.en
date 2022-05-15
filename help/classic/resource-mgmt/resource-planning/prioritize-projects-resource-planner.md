@@ -113,7 +113,7 @@ To edit the Project Planning Priority:
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![](assets/rp-portfolio-priority-unordered-(1)-350x180.png)
+   ![](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    The portfolio priorities of the projects display only in the Project view of the Resource Planner.
 

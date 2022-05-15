@@ -305,7 +305,7 @@ To enable settings in the Resource Planner:
 1. Open the Resource Planner.
 1. Click the **Settings** icon.
 
-   ![](assets/rp-settings-icon-(1).png)
+   ![](assets/rp-settings-icon-edit-1.png)
 
    The Resource Planner Settings box displays.
 

@@ -321,7 +321,8 @@ To see when a task or issue was deleted:
    * **Change Type** > **Equal** > **Delete**
    * **Project ID** > **Equal** > **`<project>`**
 
-     [ ![](assets/qs-task-or-issue-deleted-350x94.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)
+     <!--WRITER check link 
+     [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
    For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

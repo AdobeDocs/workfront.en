@@ -83,7 +83,7 @@ You can view or manage approvals from the following areas:
 1. Select **Work List**, then click the **Filter** drop-down menu and select **Approvals**.
 1. Expand the **Approvals I've Submitted** section and find the approvals you submitted.
 
-   ![](assets/approvals-i've-submitted-section-in-home-nwe-350x401.png)
+   ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
 ## View the approval status of an object
 

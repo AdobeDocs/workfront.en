@@ -211,7 +211,7 @@ You can change the name of a filter without changing its criteria. We recommend 
 1. Expand the **Filter** drop-down menu. Locate the filter that you want to rename and hover over its name. 
 1. Select the **Rename filter** icon next to the name of the filter.
 
-   ![](assets/rp-filter-options--rename-(1)-350x154.png)
+   ![](assets/rp-filter-options-edit-350x154.png)
 
 1. Specify a new name for the filter in the **Filter Name** box.
 1. Click **Save**.  

@@ -78,7 +78,7 @@ Some settings mentioned in this article might be modified from their default sta
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Projects**. 
 1. (Optional) Click **Projects I'm On** or **Projects I Own** to display projects where you are the owner or projects where you are part of the project team.
 
-   ![](assets/projects-i'm-on-i-own-buttons-350x302.png)
+   ![](assets/projects-on-my-own-buttons-350x302.png)
 
 1. Click the project you want to edit to access it.
 
