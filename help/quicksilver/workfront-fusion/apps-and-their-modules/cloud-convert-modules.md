@@ -679,7 +679,9 @@ The following API call returns all tasks from your CloudFront account:
 
 URL:
 <pre>/v2/tasks</pre>Method:
-<pre>GET</pre> ![](assets/cloudconvert-api-example-input.png)
+<pre>GET</pre> 
+
+![](assets/cloudconvert-api-example-input.png)
 
 Matches of the search can be found in the module's Output under Bundle > Body > data.
 

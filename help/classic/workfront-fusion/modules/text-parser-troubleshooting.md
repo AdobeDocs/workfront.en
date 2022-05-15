@@ -72,7 +72,7 @@ As you will notice on the image above, the file extension was correctly matched.
 
 you will not get a match:
 
-![](assets/text-parser-you-don't-get-a-match-350x365.png)
+![](assets/text-parser-you-dont-get-a-match-350x365.png)
 
 The reason for this is that the "i" shows only the number of matches per match so in this case, we have 2 matches henceforth after the "i" there is a numerical value 1 and 2. The use case for this is that should you ever need to match or pass data through a filter only the second matched value you can specify which value that is represented by the numerical value.
 

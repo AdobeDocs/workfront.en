@@ -39,11 +39,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td>
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -68,25 +67,7 @@ To explore the output of a module:
 
    A log containing all of the module's phases displays. You can find the bundle or bundles outputted by a module's operation phase under the **Output** heading. Each bundle contains its items and each item's values.
 
-**Example:** This example shows the module Email > Watch emails. You can see that it performed 1 operation producing a single bundle that contains various items such as 
-
-```
-Date
-```
-
-, 
-
-```
-Email ID (UID)
-```
-
-, 
-
-```
-size
-```
-
-, and so on.
+**Example:** This example shows the module Email > Watch emails. You can see that it performed 1 operation producing a single bundle that contains various items such as `Date`, `Email ID (UID)`, `size`, and so on.
 
 ![](assets/watch-emails-350x298.png)
 
@@ -149,9 +130,9 @@ For more information on mapping items using functions, see [Map items using func
 <div class="examples" data-mc-autonum="<b>Examples: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <span class="autonumber"><span><b>Examples: </b></span></span>
 <p>Consider these common examples of formulas created using the mapping panel:</p>
-<p> <img src="assets/formula-examples-350x138.png" style="width: 350;height: 138;"><!--
+<p> <img src="assets/formula-examples-350x138.png" style="width: 350;height: 138;">
 <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Redo this so this it is bigger. Come back to training (Fusion 2.0 Enablement Training (Part 1) - Beyond Basic Mapping) 1:53 in video to see if I should type out how he explained a couple of these</span>
---> </p>
+</p>
 </div>
 -->
 
@@ -189,7 +170,7 @@ Recipient name
 
 item, it displays in the field like this:
 
-![](assets/map-array's-1st-element.png)
+![](assets/map-array-1st-element.png)
 
 The number in the square brackets is an index that determines which element of the array will be used. It is set to 1 by default.
 

@@ -43,9 +43,8 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td>
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
      --> </td> 
    </tr>
@@ -72,25 +71,7 @@ To explore the output of a module:
 
    A log containing all of the module's phases displays. You can find the bundle or bundles outputted by a module's operation phase under the **Output** heading. Each bundle contains its items and each item's values.
 
-**Example:** This example shows the module Email > Watch emails. You can see that it performed 1 operation producing a single bundle that contains various items such as 
-
-```
-Date
-```
-
-, 
-
-```
-Email ID (UID)
-```
-
-, 
-
-```
-size
-```
-
-, and so on.
+**Example:** This example shows the module Email > Watch emails. You can see that it performed 1 operation producing a single bundle that contains various items such as `Date`, `Email ID (UID)`, `size`, and so on.
 
 ![](assets/watch-emails-350x298.png)
 
@@ -193,7 +174,7 @@ Recipient name
 
 item, it displays in the field like this:
 
-![](assets/map-array's-1st-element.png)
+![](assets/map-array-1st-element.png)
 
 The number in the square brackets is an index that determines which element of the array will be used. It is set to 1 by default.
 
