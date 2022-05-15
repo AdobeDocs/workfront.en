@@ -98,11 +98,7 @@ The API uses the same cookie-based authentication that is used by the web UI to 
 
 >[!IMPORTANT]
 >
->Workfront no longer recommends the use of the >
->```>
->/login
->```>
->endpoint or API keys. Instead, use one of the following authentication methods:
+>Workfront no longer recommends the use of the `/login` endpoint or API keys. Instead, use one of the following authentication methods:
 >
 >* Server authentication with JWT
 >* User authentication with OAuth2
