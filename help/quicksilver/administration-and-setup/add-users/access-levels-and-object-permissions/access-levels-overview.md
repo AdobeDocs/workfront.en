@@ -19,7 +19,7 @@ As an Adobe Workfront administrator, you assign an access level to a user for 2 
 
 Each of the 6 built-in access levels except one (External User) is attached to one of the 4 Workfront licenses: Plan, Work, Review, or Request:
 
-![](assets/access-levels-and-licenses-(revers)-350x207.png)
+![](assets/access-levels-and-licenses-edit-350x207.png)
 
 For information on related topics, see the following articles:
 

@@ -38,11 +38,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td>
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -78,16 +77,12 @@ The Action type has four subtypes: Create, Read, Update, and Delete. The Update 
 
 >[!NOTE]
 >
->* If you do not see the >
->  ```>
->  erase
->  ```>
->  keyword in the mapping panel, the module is not an update module or it has not been updated to the latest specifications for the app.
+>* If you do not see the `erase` keyword in the mapping panel, the module is not an update module or it has not been updated to the latest specifications for the app.
 >* "Empty" doesn't change the field content. If it is necessary to erase the field, you can use the following formula:
 >
->  ![](assets/formula-ifempty-name-erase.png)>
->  Leaving a field unchanged when its content is evaluated as empty is currently not possible.
+>![](assets/formula-ifempty-name-erase.png)
 >
+>Leaving a field unchanged when its content is evaluated as empty is currently not possible.
 
 ## Search modules
 
@@ -97,7 +92,9 @@ You can place Searches at the beginning, middle, or end of a scenario.
 
 Scenarios can contain an unlimited number of Searches.
 
-**Example:****Monday > List pulses in all boards** returns all of an account's pulses
+**Example:**
+
+**Monday > List pulses in all boards** returns all of an account's pulses
 
 ## Trigger modules
 
@@ -166,6 +163,8 @@ You can place Iterators only in the middle of a scenario.
 
 Scenarios can contain an unlimited number of iterators.
 
-**Example:****Email > Retrieve attachments** breaks an array of attachments into separate bundles
+**Example:**
+
+**Email > Retrieve attachments** breaks an array of attachments into separate bundles
 
 For more information, see [Iterator module in Adobe Workfront Fusion](../../workfront-fusion/modules/iterator-module.md) and [Map an array in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-an-array.md).

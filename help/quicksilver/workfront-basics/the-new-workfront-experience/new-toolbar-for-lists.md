@@ -148,7 +148,7 @@ The following table lists many of the icons in the new toolbar and indicates wha
    <td> <p>Indent or outdent the selected task. </p> <p>This is available only for tasks. </p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../../Resources/Images/icons/Info icon.png"><img src="assets/more-icon.png"></a> </td> 
+   <td><img src="assets/more-icon.png"></a> </td> 
    <td>More</td> 
    <td>Open additional options for the selected item.</td> 
   </tr> 
@@ -245,7 +245,7 @@ For example, to manage a filter:
 
      The **Customize Filter** builder opens. Customizing filters is identical to creating them.
    
-   * Mouse over any of the filters listed and click the **More menu** ![](assets/more-icon.png), then click&nbsp;**Remove**.
+   * Mouse over any of the filters listed and click the **More menu** ![](assets/more-icon.png), then click **Remove**.
 
      The filter is removed from the list.
 

@@ -152,7 +152,7 @@ If a scenario terminates with the RuntimeError, its further behavior will depend
 
 ## Inconsistency Error
 
-<pre>InconsistencyError</pre>If any error described above occurs during the commit or rollback phase, a scenario will terminate with Inconsistency Error. For more information, see [Scenario execution, cycles, and phases in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+`InconsistencyError` If any error described above occurs during the commit or rollback phase, a scenario will terminate with Inconsistency Error. For more information, see [Scenario execution, cycles, and phases in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 If this error appears in a scenario, the execution of the scenario is immediately stopped.
 
