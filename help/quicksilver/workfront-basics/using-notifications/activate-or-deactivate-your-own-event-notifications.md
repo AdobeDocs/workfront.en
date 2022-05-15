@@ -81,7 +81,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Conditional and optional) When modifying email notifications settings in the Preview environment, enable the **Receive emails from this test environment** setting to receive emails. Emails are not automatically generated from the Preview environment.
 
-   ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png-350x223.png)
+   ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 1. Click **Save Changes**.
 
