@@ -3,7 +3,7 @@ filename: oauth-app-code-token-flow
 content-type: api
 navigation-topic: api-navigation-topic
 title: Configure and use your organization's custom OAuth 2 applications using authorization code flow
-description: In order to integrate with Workfront and allow your client app to communicate with Workfront on behalf of the user, you must - EDIT ME.
+description: This article covers the configuration and use of custom OAuth2 applications that use authorization code flow. Using this instructions, you can configure your third-party application, create a link to an authorization page for your users, and set up your Authorization Code and Refresh Token flows. 
 ---
 
 # Configure and use your organization's custom OAuth 2 applications using authorization code flow
@@ -36,27 +36,21 @@ Your users need to log in to authorize this integration in their own account. Th
   https://myorganization.my.workfront.com
   ```
 
-  ```
-  client_id
-  ```
+*  client_id
 
-  This is the client ID&nbsp;generated when you created the OAuth2 app in Workfront.
+   This is the client ID&nbsp;generated when you created the OAuth2 app in Workfront.
 
-  ```
-  redirect_uri
-  ```
+*  redirect_uri
 
-  This is the redirect URL that you entered when creating the app. Your users will be directed to this page after they authorize the app for their account.
+   This is the redirect URL that you entered when creating the app. Your users will be directed to this page after they authorize the app for their account.
 
-  ```
-  response_type
-  ```
+*  response_type
 
-  This must have the value 
+   This must have the value 
 
-  ```
-  code
-  ```
+   ```
+   code
+   ```
 
   .
 
@@ -65,8 +59,7 @@ The URL for the authorization page is therefore:
 <!--WRITER check code -->
 
 ```
-<!-- [Copy](javascript:void(0);) --> 
-<pre><code>https://<span style="color: #63a35c; "><URL of your organization's domain></span>/integrations/oauth2/authorize?client_id=<span style="color: #63a35c; "><Your ClientID></span>&redirect_uri=<span style="color: #63a35c; "><Your redirect URL></span>&response_type=code<br></code></pre>
+https://<URL of your organization's domain>/integrations/oauth2/authorize?client_id=<Your ClientID>&redirect_uri=<Your redirect URL>&response_type=code
 ```
 
 >[!NOTE]
