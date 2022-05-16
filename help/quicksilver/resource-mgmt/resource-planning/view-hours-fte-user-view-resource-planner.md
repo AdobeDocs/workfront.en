@@ -164,7 +164,7 @@ For more information about Planned Hours and FTE in the Resource Planner, see [O
     <ul> 
      <li>Tasks and issues that are assigned to the user but not associated with any job role.</li> 
      <li>Tasks and issues that are not on projects for which you have access to Manage. </li> 
-    </ul> <p>This does not include time logged directly on the project or on parent tasks. </p> </td> 
+    </ul> <p>This includes the time logged on the project only when the user is assigned to tasks or issues on that project.  </p> </td> 
   </tr> 
   <tr> 
    <td>Project </td> 
