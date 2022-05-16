@@ -16,12 +16,12 @@ You can assign issues to users, roles, and teams to indicate who is responsible 
 
 >[!TIP]
 >
->You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+>You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams.
 >
->```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
+>If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
 >
->* ```Reassign the work item to active resources.``` 
->* ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
+>* Reassign the work item to active resources. 
+>* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
 >
 
 In addition to this article, we recommend that you read the following articles for more information about assigning issues:
@@ -141,7 +141,7 @@ To assign issues in a list:
 1. To assign issues do one of the following:
 
    * Click inside the **Assigned To** or **Assigned** fields and start typing the name of an active user that you want to assign to the issue, then click it when it displays in the list.
-   * Click inside the **Assignments** field and start typing the name of an ```active``` user, ```job role```, or ```active``` team that you want to assign to the issue, then click it when it displays in the list.
+   * Click inside the **Assignments** field and start typing the name of an active user, job role, or active team that you want to assign to the issue, then click it when it displays in the list.
 
 1. (Conditional) When visible in the Assignments field, click the **People icon** in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
