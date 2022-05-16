@@ -62,7 +62,7 @@ To set the tracking mode:
    * Auto&nbsp;Complete
    * Predecessor
 
-   For more information about the tracking mode options, see the [Set Tracking Mode for tasks](#tracking-mode-options) section in this article. 
+   For more information about the tracking mode options, see [Task Tracking Mode overview](../../../manage-work/tasks/task-information/task-tracking-mode.md)
 
 1. Click&nbsp;**Save****.**
 
