@@ -5,7 +5,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Organization roles in Adobe Workfront Fusion
-description: You must have the following access to use the functionality in this article - EDIT ME.
+description: This article includes information about the access and permissions of the roles in Adobe Workfront Fusion.
 ---
 
 # Organization roles in Adobe Workfront Fusion

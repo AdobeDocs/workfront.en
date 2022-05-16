@@ -5,7 +5,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Math variables in Adobe Workfront Fusion
-description: You must have the following access to use the functionality in this article - EDIT ME.
+description: The following math variables are available in the Adobe Workfront Fusion mapping panel.
 ---
 
 # Math variables in Adobe Workfront Fusion

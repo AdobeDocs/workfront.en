@@ -5,7 +5,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-basics
 title: Adobe Workfront Fusion FAQ
-description: You must have the following access to use the functionality in this article - EDIT ME.
+description: This article addresses common questions related to Adobe Workfront Fusion, including information about object commonly used in Fusion workflows
 ---
 
 # Adobe Workfront Fusion FAQ

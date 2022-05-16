@@ -5,7 +5,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Item data types in Adobe Workfront Fusion
-description: You must have the following access to use the functionality in this article - EDIT ME.
+description: Your Adobe Workfront Fusion scenarios can contain the types of items listed below in a bundle.
 ---
 
 # Item data types in Adobe Workfront Fusion

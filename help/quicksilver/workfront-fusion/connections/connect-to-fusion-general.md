@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: connections-annd-webhooks
 title: Create a connection to Adobe Workfront Fusion - Basic instructions
-description: You must have the following access to use the functionality in this article - EDIT ME.
+description: Many Adobe Workfront Fusion connectors do not require custom configuration when creating a connection. This article describes the default connection creation process.
 ---
 
 # Create a connection to Adobe Workfront Fusion - Basic instructions
