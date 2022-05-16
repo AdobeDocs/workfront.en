@@ -13,7 +13,7 @@ You can add or edit the properties of any of the following asset widgets in a cu
 * Video
 * PDF file
 
-This is useful when you need to include visual content such as branding images, an instructional video, or an interactive prototype for an app you are designing.
+This is useful when you need to include visual content such as branding images, an instructional video, or an interactive prototype for an app you are designing.  
 
 >[!NOTE]
 >
