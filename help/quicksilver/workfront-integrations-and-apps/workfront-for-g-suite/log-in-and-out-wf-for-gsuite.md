@@ -4,7 +4,7 @@ product-area: workfront-integrations;user-management
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
 title: Log in and out of Adobe Workfront for G Suite
-description: You must have the following access to perform the steps in this article - EDIT ME.
+description: This article describes how to log into or out of the Adobe Workfront for G suite integration.
 ---
 
 # Log in and out of Adobe Workfront for G Suite
