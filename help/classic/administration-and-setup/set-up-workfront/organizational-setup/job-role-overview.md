@@ -56,8 +56,8 @@ You can use job roles for the following purposes:
   >
   >If users are assigned a layout template to their user profile that template takes precedence over the one assigned to their primary job role.&nbsp;For more information, see Assign users to a layout template.
 
-* ```You can override job role rates based on different currencies, when working with resources from different countries. This allows you to obtain more accurate Cost and Revenue amounts for work items.```
+* You can override job role rates based on different currencies, when working with resources from different countries. This allows you to obtain more accurate Cost and Revenue amounts for work items.
 
-  ```For more information, see``` [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  For more information, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 &nbsp;
