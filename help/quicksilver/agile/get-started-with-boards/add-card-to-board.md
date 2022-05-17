@@ -3,12 +3,10 @@ filename: add-card-to-board
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Add a card to a board
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: You can quickly add an ad hoc card to a board and assign it to a member on the board.
 ---
 
-# Add a card to a board
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+# Add an ad hoc card to a board
 
 You can quickly add a card to a board and assign it to a member on the board. The card can represent a task, issue, person, group, or any type of item that you want to include on the board.
 
@@ -16,7 +14,7 @@ Using a checklist on a card allows you to break down work into smaller increment
 
 >[!NOTE]
 >
->The cards on a board are not connected to work items in Adobe Workfront.
+>The ad hoc cards on a board are not connected to work items in Adobe Workfront. For details about connected cards, see [Connected cards on boards](help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Access requirements
 
@@ -29,11 +27,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -41,23 +39,13 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Add a
+## Add an ad hoc card with full details
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-n ad hoc
-</MadCap:conditionalText>
--->
-
-card with full details
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">An ad hoc card is not connected to a work item in Adobe Workfront.</p>
--->
+An ad hoc card is not connected to a work item in Adobe Workfront.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Click **Add card****> New card**.
+1. Click **Add card &gt; New card**.
 1. In the **Card Details** box, add the following information:
 
    <table> 
@@ -77,11 +65,11 @@ card with full details
       <td> <p>To assign the card, start typing a name in the search field, then select it when it displays in the list. You can assign more than one person to a card.</p> <p>Assignees must be members on the board or they will not appear in the selection list.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Tags</td> 
+      <td role="rowheader"><strong>Tags</strong></td> 
       <td>Search for and select tags for the card.<br>For information on creating new tags, see <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Add tags</a>.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Due date</td> 
+      <td role="rowheader"><strong>Due date</strong></td> 
       <td>Select a due date for the card. </td> 
      </tr> 
      <tr> 
@@ -116,25 +104,6 @@ You can add cards with only a title to quickly populate your board.
 1. Continue entering card names to add more cards.
 1. To stop adding cards, click outside of the column.
 1. To add more details, you must edit the card. For information, see [Edit an existing card](#edit-an-existing-card) in this article.
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Add a connected card</h2>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can add a card connected to existing tasks and issues in Workfront.</p>
--->
-
-<!--
-<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li value="1"> <p>Access the board you want to add a card to.</p> </li>
-<li value="2"> <p>Click <strong>Add card > Connected card</strong>.</p> </li>
-<li value="3"> <p>Choose a project, then choose a task or issue to add as a card on the board.</p> <note type="note">
-Only objects that you have permissions to are available in the search results.
-</note> </li>
-<li value="4"> <p>Click <strong>Add</strong>.</p> <p> <img src="assets/boards-tasksissues-350x94.png" style="width: 350;height: 94;"> </p> </li>
-</ol>
--->
 
 ## Edit an existing card {#edit-an-existing-card}
 
