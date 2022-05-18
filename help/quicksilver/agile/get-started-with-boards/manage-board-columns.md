@@ -3,12 +3,12 @@ filename: manage-board-columns
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Manage board columns
-description: A new board contains the default columns New, In Progress, and Complete. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don’t need.
+description: A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don’t need.
 ---
 
 # Manage board columns
 
-A new board contains the default columns New, In Progress, and Complete. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don’t need.
+A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don’t need.
 
 ## Access requirements
 
