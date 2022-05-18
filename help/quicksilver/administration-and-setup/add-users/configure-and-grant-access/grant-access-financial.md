@@ -5,7 +5,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront
 title: Grant access to financial data
-description: As an Adobe Workfront administrator, you can define a user’s access to the following through the user's access level, as explained in Access levels overview - EDIT ME.
+description: As an Adobe Workfront administrator, you can define a user’s access to Workfront through their access level.
 ---
 
 # Grant access to financial data
@@ -84,12 +84,10 @@ Consider the following when granting users access to financial data in Workfront
 You can share financial information on a project, task, or issue with other users by granting them permissions to it, as explained in [Share financial permissions on an object](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
 <!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:</p>
-<p style="color: #ff1493;">* reports, dashboards, and calendars</p>
-<p style="color: #ff1493;">* financial data</p>
-<p style="color: #ff1493;">* issue</p>
-</div>
+If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:
+* reports, dashboards, and calendars
+* financial data
+* issue
 -->
 
 When you share any object with another user, the recipient’s rights on it are determined by a combination of two things:

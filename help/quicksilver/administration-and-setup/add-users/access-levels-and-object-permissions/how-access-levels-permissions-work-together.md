@@ -18,7 +18,7 @@ Also, users gain access to individual objects when other users share and grant c
 
 So, the activities a user can do with an object are defined by a combination of their access level and the permissions given to them for that project.
 
-![](assets/security-model-hierachy-350x393.png)
+![](assets/security-model-hierachy.png)
 
 For example, if your access level says that you can create tasks, but the permissions you receive on a specific project don't allow you to add tasks to it, you can't add tasks on the project even though you can create tasks elsewhere in Workfront.
 
@@ -35,7 +35,6 @@ The default access levels are:
 * Worker (attached to the Work license)
 * Reviewer (attached to the Review license)
 * Requestor (attached to the Request license)
-
 * External User (attached to the External Email license)
 
 The Workfront license for each default access level determines what is available and configurable in the access level. For information about the Workfront licenses, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
@@ -81,9 +80,11 @@ When sharing an object with someone in the system, a user can grant the recipien
 
 When someone shares an object, the recipient’s rights to the object are determined by a combination of the recipient’s access level and the permissions to the object that were granted by the sharer. The lowest degree of access available in that combination is what determines what the recipient can do with the object.
 
-**Example:** If the recipient's access level doesn't allow project editing, that person can't edit or delete a project even if the sharer granted permissions to manage it.
-
-Or, if the recipient’s access level allows project editing, but the sharer granted view-only permissions to a project, the user cannot edit or delete the project.
+>[!INFO]
+>
+>**Example:** If the recipient's access level doesn't allow project editing, that person can't edit or delete a project even if the sharer granted permissions to manage it.
+>
+>Or, if the recipient’s access level allows project editing, but the sharer granted view-only permissions to a project, the user cannot edit or delete the project.
 The following table compares a user's general access to objects (defined by the user’s access level) to permissions for a specific shared object:
 
 <table> 

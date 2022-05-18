@@ -12,9 +12,7 @@ As an Adobe Workfront administrator, you can use an access level to define a use
 >This functionality, releasing with 2022.1, does not change your users' existing access to teams. For more information, see [How users' existing access to teams remains unchanged in the 2022.1 Teams access level setting](#how-users-existing-access-to-teams-remains-unchanged-in-the-2022-1-teams-access-level-setting) in this article.
 
 <!--
-><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
->Remove this note and the referenced section below a few months after the functionality releases>
-></MadCap:conditionalText>
+Remove this note and the referenced section below a few months after the functionality releases
 -->
 
 ## Access requirements
@@ -45,7 +43,7 @@ You must have the following access to perform the steps in this article:
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Teams, then select the abilities you want to grant under **Fine-tune your settings**.
 
-   1. **View**: If you are configuring how users with any license can view teams, change any of the following options:
+   * **View**: If you are configuring how users with any license can view teams, change any of the following options:
 
       <table>
        <col>
@@ -60,32 +58,32 @@ You must have the following access to perform the steps in this article:
           </ul></td>
         </tr>
         <tr>
-         <td role="rowheader"><b>View all teams</b></td>
+         <td role="rowheader">View all teams</td>
          <td><p>When this option is enabled and users look for teams in a Team type-ahead field, the users can see and select any team.</p><p>This option is enabled by default. </p></td>
         </tr>
        </tbody>
       </table>
 
-   1. **Edit**: If you are configuring how users with a Plan license and Work license can manage teams, change any of the following options:
+   * **Edit**: If you are configuring how users with a Plan license and Work license can manage teams, change any of the following options:
 
       <table>
        <col>
        <col>
        <tbody>
         <tr>
-         <td role="rowheader"><strong>Create</strong></td>
+         <td role="rowheader">Create</td>
          <td><p>Allows users with a Plan license or Work license to create teams.</p><p>This option is enabled by default.</p></td>
         </tr>
         <tr>
-         <td role="rowheader"><strong>Delete</strong></td>
+         <td role="rowheader">Delete</td>
          <td><p> Allows users with a Plan license to delete the teams that they have access to edit (unavailable for users with a Work license).</p><p>This option is enabled by default.</p></td>
         </tr>
         <tr>
-         <td role="rowheader"><strong>Edit teams in groups I manage (Group Admins only)</strong></td>
+         <td role="rowheader">Edit teams in groups I manage (Group Admins only)</td>
          <td><p>Allows Plan license users who are designated as group administrators to edit teams associated with the groups they manage.</p><p>This option is enabled by default.</p></td>
         </tr>
         <tr>
-         <td role="rowheader"><strong>Edit teams I'm on</strong></td>
+         <td role="rowheader">Edit teams I'm on</td>
          <td><p>Allows users Plan license or Work license to edit teams where they are a member.</p><p>This option is disabled by default.</p></td>
         </tr>
         <tr>
