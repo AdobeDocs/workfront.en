@@ -492,7 +492,7 @@ For information about how these settings affect creating new tasks, see the sect
 
    >[!TIP]
    >
-   >```When the project Update Type is set to Automatic and you select this setting, the Planned Hours of the tasks update according to the task Duration and the Work Effort percentage, if they are set to zero. For more information about using Work Effort to plan effort for a task, see``` [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md).
+   >When the project Update Type is set to Automatic and you select this setting, the Planned Hours of the tasks update according to the task Duration and the Work Effort percentage, if they are set to zero. For more information about using Work Effort to plan effort for a task, see [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md).
 
 1. (Optional) Continue editing the following sections, depending on the information you want to modify.
 
@@ -586,7 +586,7 @@ You can edit the following fields in the project header:
 
 * Project name
 * Project&nbsp;Owner
-* Planned Completion Date ```and time```
+* Planned Completion Date and time
 
   >[!NOTE]
   >
@@ -655,9 +655,9 @@ To edit projects in bulk:
 
      For information, see the [Task Settings](#task-settings) section in this article.
    
-   * ```Issues```
+   * **Issues**
 
-     For information, see the ``` ``` [Issue Settings](#issue-settings)``` section in this article.```
+     For information, see the   [Issue Settings](#issue-settings) section in this article.
    
    * Comment
 

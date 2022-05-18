@@ -65,7 +65,7 @@ Consider the following when editing tasks:
 
   ![](assets/edit-task-in-approval-process-nwe-350x148.png)
 
-* You can edit and add documents to tasks on a project that has a status of Complete, Dead, or is Pending Approval only when your Workfront administrator ```or a group administrator``` enabled this functionality in the Project Preferences area. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md). 
+* You can edit and add documents to tasks on a project that has a status of Complete, Dead, or is Pending Approval only when your Workfront administrator or a group administrator enabled this functionality in the Project Preferences area. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md). 
 
 * You can always edit the following information on a task when the project has been marked Complete, Dead, or is in an Approval Process:
 
@@ -312,17 +312,12 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    >[!TIP]
    >
-   >You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+   >You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams.
    >
+   >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
    >
-   >```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
-   >
-   >   
-   >   
-   >   * ```Reassign the work item to active resources.``` 
-   >   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
-   >   
-   >
+   >* Reassign the work item to active resources. 
+   >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
 
 1. (Optional) Indicate whether an assignee is the primary assignee on the task, by selecting the **Owner** radio button next to their name. A team cannot be the primary assignee of a task. 
 1. (Conditional and optional) Update the following fields: 
@@ -460,7 +455,7 @@ You can define default custom forms to be automatically attached to tasks when t
 
    >[!NOTE]
    >
-   >Depending on how your Workfront administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the task itself. ```For information about setting task permissions, see [Share a task](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).```
+   >Depending on how your Workfront administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the task itself. For information about setting task permissions, see [Share a task](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
 
 1. Click&nbsp;**Save** or continue with the following sections.
 
@@ -575,7 +570,7 @@ You can edit the following fields in the task header:
 * Task name
 * Percent complete
 * Assignments
-* Planned Completion Date ```and time```
+* Planned Completion Date and time
 
   >[!CAUTION]
   >

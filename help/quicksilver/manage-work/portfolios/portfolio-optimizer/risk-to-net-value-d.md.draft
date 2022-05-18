@@ -32,7 +32,7 @@ If you view the Portfolio Optimizer in the Production environment, the Risk to N
 
 In the Preview environment, depending on which Portfolio Optimizer you are using, the Risk to Net Value metric is calculated differently:
 
-* ```Portfolio Optimizer```
+* **Portfolio Optimizer**
 
   * The Risk indicator is calculated by the following formula:  
      *Risk value indicator = Risk / (Risk + Net Value)* 
@@ -42,7 +42,7 @@ In the Preview environment, depending on which Portfolio Optimizer you are using
      Or  
      Net Value indicator = Net Value / (Risk + Net Value)
 
-* ```Legacy Portfolio Optimizer```
+* **Legacy Portfolio Optimizer**
 
   * The Risk indicator is calculated by the following formula:
 

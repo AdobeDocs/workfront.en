@@ -92,15 +92,15 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+   >You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams.
    >
    >
-   >```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
+   >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
    >
    >   
    >   
-   >   * ```Reassign the work item to active resources.``` 
-   >   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
+   >   * Reassign the work item to active resources. 
+   >   * Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
    >   
    >
 
@@ -114,7 +114,7 @@ You must have the following access to perform the steps in this article:
 
      >[!IMPORTANT]
      >
-     >Depending on how your Workfront administrator ```or group administrator``` set up your project preferences, Workfront might use the schedule of the task owner to calculate the timeline of the task when you have multiple users assigned to the task. For information about multiple task assignees, see the "Assign multiple users to a task" section in the article [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+     >Depending on how your Workfront administrator or group administrator set up your project preferences, Workfront might use the schedule of the task owner to calculate the timeline of the task when you have multiple users assigned to the task. For information about multiple task assignees, see the "Assign multiple users to a task" section in the article [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
    * **Allocations** : When the Duration Type of a task is Simple, specify the number of hours each user or job role should be assigned to the task. The sum of all assigned hours for each user is equal to the number in the **Planned Hours** field at the bottom of the  Allocations  column. In all other cases, specify the percentage of time (or allocation)&nbsp;that you want the assignee to spend solving the task or issue.
 
@@ -127,7 +127,7 @@ You must have the following access to perform the steps in this article:
      >
      >   
      >   
-     >   * ```After you manually modify assignment allocations on tasks, the Planned Hours of the tasks might update accordingly. For more information, see the section "Update task Planned Hours when managing user allocations" in the article``` [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).
+     >   * After you manually modify assignment allocations on tasks, the Planned Hours of the tasks might update accordingly. For more information, see the section "Update task Planned Hours when managing user allocations" in the article [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * You cannot manually modify assignment allocations on issues. 
      >   * You cannot manually modify allocations for teams assigned to tasks.
      >   
