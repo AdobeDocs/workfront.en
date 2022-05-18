@@ -64,18 +64,22 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
       <td role="rowheader"><strong>Assignees</strong> </td> 
       <td> <p>To assign the card, start typing a name in the search field, then select it when it displays in the list. You can assign more than one person to a card.</p> <p>Assignees must be members on the board or they will not appear in the selection list.</p> </td> 
      </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>Tags</strong></td> 
-      <td>Search for and select tags for the card.<br>For information on creating new tags, see <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Add tags</a>.</td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>Due date</strong></td> 
-      <td>Select a due date for the card. </td> 
-     </tr> 
      <tr> 
       <td role="rowheader"><strong>Column</strong> </td> 
       <td>Select the column for the card. If you leave the <strong>Column</strong> field blank, the card is placed in the first column on the left of the board.</td> 
-     </tr> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Status</strong> </td> 
+      <td>Select a status for the card. If you click <strong>Mark Complete</strong> at the top of the card, the status automatically changes to Complete.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Due date</strong></td> 
+      <td>Select a due date for the card. </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Tags</strong></td> 
+      <td>Search for and select tags for the card.<br>For information on creating new tags, see <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Add tags</a>.</td> 
+     </tr>  
      <tr> 
       <td role="rowheader"><strong>Checklist Items</strong> </td> 
       <td> <p>Click <strong>Add checklist item</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>To delete an item, click the <strong>Delete</strong> icon <img src="assets/delete.png">.</p> </td> 
@@ -83,7 +87,7 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
     </tbody> 
    </table>
 
-   ![Card details](assets/boards-edit-card-350x370.png)
+   ![Ad hoc card details](assets/boards-edit-ad-hoc-card.png)
 
 1. Click **Close** to add the card to the board.
 
@@ -91,9 +95,9 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
 
    ![Card added to board](assets/boards-sample-card-on-board.png)
 
-## Quick add a card
+## Quick add an ad hoc card
 
-You can add cards with only a title to quickly populate your board.
+You can add ad hoc cards with only a title to quickly populate your board.
 
 1. Access the board you want to add cards to.
 1. Click the **Add** icon ![Add card](assets/addicon-spectrum.png) on the column where you want to add the card.
