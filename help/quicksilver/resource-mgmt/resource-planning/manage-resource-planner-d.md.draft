@@ -282,12 +282,12 @@ Alina: will use this draft to start the restructure of the RM files
    1. (Optional) Go to the Scheduling tab and assign work to users.  
       For more information about assigning work to users in the Scheduling tab, see [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
-  ```Budgeting allocations for your resources in the Resource Planner is done in the following ways:```
+  Budgeting allocations for your resources in the Resource Planner is done in the following ways:
 
-   * ```Manually  
-     Or```
-   * ```Automatically, by using the Project and Role Options in the **View by Project** and **View by Role** views. &nbsp;  
-     For more information about the Project and Role Options, see the "Project and Role Options" section in [Resource Planner navigation overview](../../resource-mgmt/resource-planning/resource-planner-navigation.md).```
+   * Manually  
+     Or
+   * Automatically, by using the Project and Role Options in the **View by Project** and **View by Role** views. &nbsp;  
+     For more information about the Project and Role Options, see the "Project and Role Options" section in [Resource Planner navigation overview](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
   You can budget&nbsp;your resource allocations in the Resource Planner by estimating how many hours, FTE, or how much cost would be necessary for your users or roles to complete a project. You can also reserve a bulk number of hours, FTE, or cost amount for a project, by budgeting hours, FTE, or cost for the project.&nbsp;
 
@@ -308,7 +308,7 @@ Alina: will use this draft to start the restructure of the RM files
 
   **Budgeting Resources in the Project View**
 
-  ```**^^```  
+  **^^  
   To budget allocations in the Resource Planner in the****Project****view:
 
    1. Go to the&nbsp;**People**&nbsp;area in the Global Navigation Bar. 
@@ -377,41 +377,41 @@ Alina: will use this draft to start the restructure of the RM files
    
    1. (Optional) Select the User view to notice any user overallocations or underutilization between the Available and the Planned Hours for each user. Budgeted Hours are not visible in the User view.&nbsp;
 
-  ```**Budgeting Resources in the Role View**```
+  **Budgeting Resources in the Role View**
 
-  ```To budget allocations in the Resource Planner in the****Role view:```
+  To budget allocations in the Resource Planner in the****Role view:
 
-   1. ```Go to the **People** area in the Global Navigation Bar.```
-   1. ```Select the **Planning** tab.```
-   1. ```Select the **Resource Planner** sub-tab.```
-   1. ```(Conditional) Select the **View by Role** view. ```
-   1. ```Expand the job roles and the projects to manage the allocation for the project, job roles, or users.```
-   1. ```To budget allocation for users, do one of the following:```
+   1. Go to the **People** area in the Global Navigation Bar.
+   1. Select the **Planning** tab.
+   1. Select the **Resource Planner** sub-tab.
+   1. (Conditional) Select the **View by Role** view. 
+   1. Expand the job roles and the projects to manage the allocation for the project, job roles, or users.
+   1. To budget allocation for users, do one of the following:
 
-      * ```In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the users.  
-        ```
-      * ```Click the **Options** icon for the project, then click **Set Users' Planned Hours as Budgeted**.```  
-        ```The Budgeted Hours of each user are calculated using the following formula:```  
-        ```*User Budgeted Hours = User Planned Hours*```
+      * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the users.  
+        
+      * Click the **Options** icon for the project, then click **Set Users' Planned Hours as Budgeted**.  
+        The Budgeted Hours of each user are calculated using the following formula:  
+        *User Budgeted Hours = User Planned Hours*
 
-   1. ```To budget allocation for job roles, do one of the following:```
+   1. To budget allocation for job roles, do one of the following:
 
-      * ```In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the job roles.```  
-        ```       
+      * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the job roles.  
+               
       
         >[!TIP]
         >
         >This adds the Role Budgeted Hours to the Project Budgeted Hours.
 
-        ```
+        
       
-      * ```Click the **Options** icon for the job role, then click **Set Projects' Planned Hours as Budgeted.**The Role Budgeted Hours are calculated using the following formula:```  
-        ```*Role Budgeted Hours = SUM(Project Budgeted Hours)  
-        *The Project Budgeted Hours are calculated using the following formula:```  
-        ```*Project Budgeted Hours = Project Planned Hours*```
+      * Click the **Options** icon for the job role, then click **Set Projects' Planned Hours as Budgeted.**The Role Budgeted Hours are calculated using the following formula:  
+        *Role Budgeted Hours = SUM(Project Budgeted Hours)  
+        *The Project Budgeted Hours are calculated using the following formula:  
+        *Project Budgeted Hours = Project Planned Hours*
       
-      * ```In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the projects listed under the job role.```  
-        ```This adds the number of Project Budgeted Hours to the role.&nbsp;* 
+      * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the projects listed under the job role.  
+        This adds the number of Project Budgeted Hours to the role.&nbsp;* 
       * 
       
         >[!TIP]
@@ -420,27 +420,27 @@ Alina: will use this draft to start the restructure of the RM files
 
         * 
         For more information about&nbsp;the **Percentage of FTE Availability** for job roles, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).** 
-        *```
+        *
 
-   1. ```To budget allocation for the project, do one of the following:```
+   1. To budget allocation for the project, do one of the following:
 
-      * ```In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the projects.```  
-        ```This also updates the Budgeted Hours for the roles under which the project is listed.```
+      * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the projects.  
+        This also updates the Budgeted Hours for the roles under which the project is listed.
       
-      * ```Click the **Options** icon for the job role, then click **Set Projects' Planned Hours as Budgeted**.```  
-        ```The Project Budgeted Hours are calculated by the following formula:```  
-        ```*Project Budgeted Hours = Project Planned Hours*```  
-        ```The Project Budgeted Hours are added to the Role Budgeted Hours.```
+      * Click the **Options** icon for the job role, then click **Set Projects' Planned Hours as Budgeted**.  
+        The Project Budgeted Hours are calculated by the following formula:  
+        *Project Budgeted Hours = Project Planned Hours*  
+        The Project Budgeted Hours are added to the Role Budgeted Hours.
       
-      * ```(Conditional) If you have budgeted the hours for the users, click the **Options** icon for the project, then click **Total Users' Budgeted Hours for Project**.```  
-        ```The Project Budgeted Hours is calculated using the following formula:```  
-        ```*Project Budgeted Hours = SUM(User Budgeted Hours)*```
+      * (Conditional) If you have budgeted the hours for the users, click the **Options** icon for the project, then click **Total Users' Budgeted Hours for Project**.  
+        The Project Budgeted Hours is calculated using the following formula:  
+        *Project Budgeted Hours = SUM(User Budgeted Hours)*
 
-   1. ```Click **Save**. ```  
-      ```After you budget your resources in the Resource Planner, the Budgeted Hours for your resources and any cost associated with them are listed in the Business Case of every project.  
-      For more information about understanding the Resource Budgeting area of the Business Case, see the "Resource Budgeting" section in  [Create a Business Case for a project](../../manage-work/projects/define-a-business-case/create-business-case.md).```
+   1. Click **Save**.   
+      After you budget your resources in the Resource Planner, the Budgeted Hours for your resources and any cost associated with them are listed in the Business Case of every project.  
+      For more information about understanding the Resource Budgeting area of the Business Case, see the "Resource Budgeting" section in  [Create a Business Case for a project](../../manage-work/projects/define-a-business-case/create-business-case.md).
    
-   1. ```(Optional) Select the **View by User** view to notice any user overallocations or underutilization between the Available and the Planned Hours for each user. Budgeted Hours are not visible in the View by User view. ```
+   1. (Optional) Select the **View by User** view to notice any user overallocations or underutilization between the Available and the Planned Hours for each user. Budgeted Hours are not visible in the View by User view. 
 
   **Adjusting Budgeting Dates**
 
@@ -469,7 +469,7 @@ Alina: will use this draft to start the restructure of the RM files
    1. (Conditional and Optional) Click **Save Changes**.
    1. Return to the Resource Planner and re-enter the Budgeted Hours, FTEs, or Costs in the time frame without budgeting conflicts.&nbsp;
    1. Click **Save**.&nbsp;* 
-   * ```(this will have to be changed when the full functionality is out and they actually click Done to move the hours).```
+   * (this will have to be changed when the full functionality is out and they actually click Done to move the hours).
 
   ## Understanding User Availability in the Resource Planner {#understanding-user-availability-in-the-resource-planner}
 
@@ -613,24 +613,24 @@ Alina: will use this draft to start the restructure of the RM files
   You can reduce the number of projects, roles, or users that display in the Resource Planner by creating a filter.   
   For more information, see [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md)
 
-  ```***```
+  ***
 
-  ```*** DO NOT DELETE OR CHANGE THIS ARTICLE. IT IS LINKED TO CONTEXTUAL HELP FOR THE RESOURCE PLANNER! ****```
+  *** DO NOT DELETE OR CHANGE THIS ARTICLE. IT IS LINKED TO CONTEXTUAL HELP FOR THE RESOURCE PLANNER! ****
 
-  ```**^^```
+  **^^
 
-  ```This section is linked to this: https://workfront.zendesk.com/knowledge/articles/115004285774/en-us?brand_id=662728```
+  This section is linked to this: https://workfront.zendesk.com/knowledge/articles/115004285774/en-us?brand_id=662728
 
-  ```***<font color="#ff00ff">Linked to MANY articles; also certain sections linked to other Res. Planning section articles - update when changing sections names: Understanding Areas of the Resource Planner, Calculating Costs in the Resource Planner. </font>```
+  ***<font color="#ff00ff">Linked to MANY articles; also certain sections linked to other Res. Planning section articles - update when changing sections names: Understanding Areas of the Resource Planner, Calculating Costs in the Resource Planner. </font>
 
-  ```Keep the following pink blurb for all articles in this NEW section:```
+  Keep the following pink blurb for all articles in this NEW section:
 
-  ```MORE EDITS AS THE FEATURE DEVELOPS:```
+  MORE EDITS AS THE FEATURE DEVELOPS:
 
-  ```***KEEP THIS TILL AFTER 18.2: The information about adjusting budgeted dates will need updating when this functionality releases in 18.2. (this will have to be changed when the full functionality is out and they actually click Done to move the hours).```
+  ***KEEP THIS TILL AFTER 18.2: The information about adjusting budgeted dates will need updating when this functionality releases in 18.2. (this will have to be changed when the full functionality is out and they actually click Done to move the hours).
 
-  ``````<font color="#ff00ff">***Rewrite this from the perspective of usability and budgeting. Notes when rewriting:</font>``````
+  <font color="#ff00ff">***Rewrite this from the perspective of usability and budgeting. Notes when rewriting:</font>
 
-  ``````<font color="#ff00ff">- if you manually enter the Budgeted hours for a project, they are distributed in accordance to the % needed for all the job roles under the project and update the role budgeted hours; this does NOT update the user budgeted hours</font>``````
+  <font color="#ff00ff">- if you manually enter the Budgeted hours for a project, they are distributed in accordance to the % needed for all the job roles under the project and update the role budgeted hours; this does NOT update the user budgeted hours</font>
 
 [Filtering in the Resource Planner](#filtering-in-the-resource-planner) 

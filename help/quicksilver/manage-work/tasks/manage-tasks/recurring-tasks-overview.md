@@ -43,7 +43,7 @@ Consider the following when creating recurring tasks in Workfront:
       * Must Start On for projects that are planned from Start Date. 
       * Must Complete On for projects that are planned from Completion Date.
 
-   * ```<li> <p>Documents attached to the parent do not transfer to the children. </p> </li>```
+   * Documents attached to the parent do not transfer to the children.
 
 * The following changes occur on the parent task after you indicate that the task is recurring:
 

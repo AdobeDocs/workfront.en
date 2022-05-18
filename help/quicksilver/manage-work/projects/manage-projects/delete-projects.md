@@ -54,9 +54,9 @@ You can delete a project in a project list or at the project level.
 
   For more information about restoring objects, see&nbsp;the article [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
-* ```If the project has tasks or issues with logged hours, the Workfront ```or group administrator``` must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance for you to be able to delete the project that contains the tasks.```
+* If the project has tasks or issues with logged hours, the Workfront or group administrator must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance for you to be able to delete the project that contains the tasks.
 
-  ```For more information about enabling the deletion of tasks, issues``` ```, or projects``` ```where hours are logged, see the "Deletion" section in``` [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  For more information about enabling the deletion of tasks, issues , or projects where hours are logged, see the "Deletion" section in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
