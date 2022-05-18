@@ -27,6 +27,8 @@ For a demonstration of how to use this feature, watch the following video:
 <iframe class="mt-media" src="assets/226008768?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
 -->
 
+
+
 ## Add New Entries to Timesheets
 
 Starting with the&nbsp;new version of the mobile app, you will be able to add new entries (projects, tasks, and issues) to your timesheets and log time for them.
