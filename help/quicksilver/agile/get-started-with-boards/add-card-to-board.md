@@ -14,7 +14,7 @@ Using a checklist on a card allows you to break down work into smaller increment
 
 >[!NOTE]
 >
->The ad hoc cards on a board are not connected to work items in Adobe Workfront. For details about connected cards, see [Connected cards on boards](help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+>The ad hoc cards on a board are not connected to work items in Adobe Workfront. For details about connected cards, see [Connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Access requirements
 
