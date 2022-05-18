@@ -71,9 +71,9 @@ When sharing an object with someone in the system, a user can grant the recipien
 
 * **View**: This level of permission allows the recipient to share the object in one of the following ways:
 
-   * System-wide so that all users can see it (not available for all objects)
-   * With external users who don’t have a Workfront license (not available for all objects)
-   * With an email address (available only for documents)
+  * System-wide so that all users can see it (not available for all objects)
+  * With external users who don’t have a Workfront license (not available for all objects)
+  * With an email address (available only for documents)
 
 * **Contribute** (not available for all objects)
 * **Manage**
@@ -85,6 +85,7 @@ When someone shares an object, the recipient’s rights to the object are determ
 >**Example:** If the recipient's access level doesn't allow project editing, that person can't edit or delete a project even if the sharer granted permissions to manage it.
 >
 >Or, if the recipient’s access level allows project editing, but the sharer granted view-only permissions to a project, the user cannot edit or delete the project.
+
 The following table compares a user's general access to objects (defined by the user’s access level) to permissions for a specific shared object:
 
 <table> 
@@ -110,7 +111,9 @@ The following table compares a user's general access to objects (defined by the 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Inherited from a higher-ranking shared object</p> <p>For information about the hierarchy of objects, see the <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects">Understanding the Interdependency and Hierarchy of Objects</a> section in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Inherited from a higher-ranking shared object 
+   <!--</p> <p>For information about the hierarchy of objects, see the section "Understanding the Interdependency and Hierarchy of Objects" in the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).</p> 
+   --></td> 
    <td>&nbsp;</td> 
    <td>✓</td> 
   </tr> 
