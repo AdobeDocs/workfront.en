@@ -6,6 +6,8 @@ title: Connected cards on boards
 description: You can add a card on your board that is connected to existing tasks and issues in Workfront.
 ---
 
+# Connected cards on boards
+
 You can add a card on your board that is connected to existing tasks and issues in Workfront.
 
 When the following information is updated in one location, it is automatically updated in the other location:
