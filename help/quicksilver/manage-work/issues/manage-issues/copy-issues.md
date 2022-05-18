@@ -85,7 +85,7 @@ You can copy one or multiple issues from a list of issues or from an issue repor
 
 You can copy one issue when viewing it.
 
-1. Go to an issue that you want to copy, then click the **More** menu ![](assets/more-icon.png) to the right of the issue name, then **Copy** ```to```.
+1. Go to an issue that you want to copy, then click the **More** menu ![](assets/more-icon.png) to the right of the issue name, then **Copy** to.
 
    ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
