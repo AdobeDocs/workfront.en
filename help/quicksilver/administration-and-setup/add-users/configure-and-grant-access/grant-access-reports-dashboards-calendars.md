@@ -12,7 +12,7 @@ description: As an Adobe Workfront administrator, you can use an access level to
 
 As an Adobe Workfront administrator, you can use an access level to define a user’s access to reports, dashboards, and calendars, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
 
-This access also includes access to External Pages. For information about External Pages, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+This access also includes access to External Pages. For information about External Pages, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md). 
 
 >[!NOTE]
 >
