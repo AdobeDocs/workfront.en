@@ -86,5 +86,5 @@ If you hide a default status (by enabling the Hide status option for it), the sy
 
 If there is no available status of the equivalent type, the status type displays as **Hidden** and is not available for work items.
 
-![](assets/when-hide-default-status-no-equivalent-350x245.png)
+![](assets/when-hide-default-status-no-equivalent.png)
 
