@@ -14,7 +14,7 @@ As an Adobe Workfront administrator, you can create a team from the Setup area. 
 
 >[!NOTE]
 >
->* A group administrator can create a team for a group they administer from the Setup area. For more information, see [Create and modify a group’s teams](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
+>* A group administrator can create a team for a group they administer from the Setup area. For more information, see [Create and modify a group's teams](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
 >* A user with a Plan license can also create a team from the People area. For more information, see [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 >
 
@@ -63,7 +63,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Team Members</td> 
-      <td> <p>Begin typing the name of a user to be on the team, then select the name when in appears in the drop-down list. Repeat this process to add multiple users to the team.</p> <p>There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team’s work management might become too complex.</p> </td> 
+      <td> <p>Begin typing the name of a user to be on the team, then select the name when in appears in the drop-down list. Repeat this process to add multiple users to the team.</p> <p>There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team's work management might become too complex.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 

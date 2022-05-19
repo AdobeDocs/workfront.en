@@ -145,7 +145,7 @@ Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of al
 
 .
 
-For example, you have the following expenses in the Expenses tab of a task: a Marketing expense with an Actual Cost of $110, and an Administrative expense with an Actual Cost of $40. You select the Role Hourly cost type and assign the Consultant job role to the task. The consultant job role’s rate is $15 per hour, and there are 6 hours logged on the task for the Consultant job role. There is also a Consulting expense associated with the project (in the Expenses tab), with an Actual Cost of $100 and a user with a Cost per Hour rate of $20 in their user profile logs 10 hours on the project.
+For example, you have the following expenses in the Expenses tab of a task: a Marketing expense with an Actual Cost of $110, and an Administrative expense with an Actual Cost of $40. You select the Role Hourly cost type and assign the Consultant job role to the task. The consultant job role's rate is $15 per hour, and there are 6 hours logged on the task for the Consultant job role. There is also a Consulting expense associated with the project (in the Expenses tab), with an Actual Cost of $100 and a user with a Cost per Hour rate of $20 in their user profile logs 10 hours on the project.
 
 The Actual Cost of the project is calculated as follows:
 

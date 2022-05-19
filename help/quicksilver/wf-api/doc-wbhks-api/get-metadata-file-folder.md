@@ -29,7 +29,7 @@ GET /metadata?id=[document or folder ID]
  <tbody> 
   <tr> 
    <td>id</td> 
-   <td> <p>The ID of file or folder, as referenced by the webhook provider. This is different than Adobe Workfront’s document ID. To get the metadata of the root directory, use the value ‘/’.</p> <p>Note: The maximum length for the ID is 255 characters.</p> </td> 
+   <td> <p>The ID of file or folder, as referenced by the webhook provider. This is different than Adobe Workfront's document ID. To get the metadata of the root directory, use the value ‘/'.</p> <p>Note: The maximum length for the ID is 255 characters.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ GET /metadata?id=[document or folder ID]
   <tr> 
    <td>kind&nbsp;</td> 
    <td>String&nbsp;</td> 
-   <td>Specifies if this item is a file or folder (‘file’ or ‘folder’)</td> 
+   <td>Specifies if this item is a file or folder (‘file' or ‘folder')</td> 
   </tr> 
   <tr> 
    <td>id</td> 

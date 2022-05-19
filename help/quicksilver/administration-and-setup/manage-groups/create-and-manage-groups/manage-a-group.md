@@ -41,13 +41,13 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
-## Manage a group’s memberships
+## Manage a group's memberships
 
 You can add to and remove users and other groups from a group you administer. You can also assign group members as administrators for the group and manage the user profile information of group members.
 
-For instructions, see [View and manage a group’s memberships](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
+For instructions, see [View and manage a group's memberships](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
 
-## Manage a group’s details
+## Manage a group's details
 
 You can view and edit the Group Details page for a group or subgroup that you manage. This page includes a description of the group, the names of the Business Leader and group administrators, and an option that allows you to make the group and all of its subgroups public or private
 
@@ -65,7 +65,7 @@ You can view and edit the Group Details page for a group or subgroup that you ma
 </MadCap:conditionalText>
 -->
 
-For instructions, see [View and manage a group’s details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
+For instructions, see [View and manage a group's details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
 
 ## Edit, copy, or delete a group
 
@@ -97,7 +97,7 @@ the group.
 
    If you need information about using the box that displays, see one of the following:
 
-   * **Edit**: [View and manage a group’s details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
+   * **Edit**: [View and manage a group's details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
    
    * **Copy**: [Create a top-level group by copying an existing group or subgroup](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) in the article [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
    
@@ -125,61 +125,61 @@ You can also customize system statuses for a top-level group if a Workfront admi
 
 For instructions, see [Create or edit a group status](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-## Work with a group’s projects
+## Work with a group's projects
 
 In the Groups area in Setup, when you are viewing the main page of a group you administer, you can do the following with projects:
 
 * List and work with (edit, copy, delete, and export) the projects that are associated with the group and its subgroups and that have been shared with you
 * Create a new project for the group
 
-For instructions, see [Create and modify a group’s projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+For instructions, see [Create and modify a group's projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-## View and manage a group’s approval processes
+## View and manage a group's approval processes
 
 When you are viewing a group that you manage in the Groups area, you can view and work with the approval processes for which the administrators of the group, or one of its subgroups, have administrative access.
 
 For instructions, see [Group-level approval processes](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
-## View and manage a group’s layout templates
+## View and manage a group's layout templates
 
 When you are viewing a group that you manage in the Groups area, you can view and work with the Layout Template for which the administrators of the group, or one of its subgroups, have administrative access.
 
-For instructions, see [Create and modify a group’s layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+For instructions, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-## View and manage group members’ schedules
+## View and manage group members' schedules
 
 A group administrator creating a schedule for a group has to specify the group whose administrators will manage the schedule. Typically, this is the group for which the schedule is being created, but it could be a different group if the group administrator manages multiple groups and specifies one of the others instead.
 
-When you are viewing the main page of a group you manage, if the group is designated as the one whose administrators can edit a schedule, you can view and manage the schedule from the group’s page.
+When you are viewing the main page of a group you manage, if the group is designated as the one whose administrators can edit a schedule, you can view and manage the schedule from the group's page.
 
-For instructions, see [Create and modify a group’s schedules](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
+For instructions, see [Create and modify a group's schedules](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
-## View and manage group members’ timesheet profiles
+## View and manage group members' timesheet profiles
 
-When you are viewing the main page of a group you administer, you can manage the timesheet profiles that you and the other administers of the group—or one of its subgroups—have permission to edit. For instructions, see [Create and manage a group’s timesheet profiles](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md).
+When you are viewing the main page of a group you administer, you can manage the timesheet profiles that you and the other administers of the group—or one of its subgroups—have permission to edit. For instructions, see [Create and manage a group's timesheet profiles](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md).
 
-## View and manage a group’s subgroup members
+## View and manage a group's subgroup members
 
-When you are viewing the main page of a group you administer, you can view and manage all of the users in the group’s subgroups. For instructions, see [View and manage subgroup members](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+When you are viewing the main page of a group you administer, you can view and manage all of the users in the group's subgroups. For instructions, see [View and manage subgroup members](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
-## View and manage a group’s teams
+## View and manage a group's teams
 
 When you are viewing a group that you manage in the Groups area, you can view and work with teams associated with the group or any of its subgroups.
 
-For instructions, see [Create and modify a group’s teams](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
+For instructions, see [Create and modify a group's teams](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
 
-## View and manage a group’s companies
+## View and manage a group's companies
 
-When you are viewing a group that you manage in the Groups area, you can view and work with companies associated with the group or any of its subgroups. For instructions, see [Create and modify a group’s companies](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md).
+When you are viewing a group that you manage in the Groups area, you can view and work with companies associated with the group or any of its subgroups. For instructions, see [Create and modify a group's companies](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md).
 
-## View and manage a group’s portfolios and programs
+## View and manage a group's portfolios and programs
 
 When you are viewing a group that you manage in the Groups area, you can view and work with portfolios and programs when both of the following are true:
 
 * They are associated with the group you are viewing or any of its subgroups
 * You have permissions to view them because you created them or they were shared with you
 
-For instructions, see [Create and modify a group’s projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) and [Create, modify, and view a group’s programs](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
+For instructions, see [Create and modify a group's projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) and [Create, modify, and view a group's programs](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
 
 ## Deactivate or reactivate a group
 

@@ -79,7 +79,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Delete the stage</td> 
-      <td> <p>Select the <strong>More</strong> menu in the upper-right corner of the stage section, the select <strong>Delete</strong> stage.</p> <p>Note: If there’s only one stage, the stage cannot be deleted.</p> </td> 
+      <td> <p>Select the <strong>More</strong> menu in the upper-right corner of the stage section, the select <strong>Delete</strong> stage.</p> <p>Note: If there's only one stage, the stage cannot be deleted.</p> </td> 
      </tr> 
     </tbody> 
    </table>

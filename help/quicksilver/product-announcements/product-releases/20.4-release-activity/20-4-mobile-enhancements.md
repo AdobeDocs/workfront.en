@@ -43,7 +43,7 @@ For more information, see
 * [Adobe Workfront for iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) 
 * [Adobe Workfront for Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 
-## Get help with Workfront mobile’s virtual assistant commands
+## Get help with Workfront mobile's virtual assistant commands
 
 While in the mobile app, you can ask the virtual assistant to help you with commands by saying:
 

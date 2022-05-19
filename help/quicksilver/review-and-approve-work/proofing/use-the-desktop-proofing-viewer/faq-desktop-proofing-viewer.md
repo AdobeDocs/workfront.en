@@ -9,7 +9,7 @@ description: No. The Desktop Proofing Viewer is specifically designed for real-t
 
 # FAQ - Desktop Proofing Viewer
 
-## **My organization doesn’t proof interactive content. Do I still need to install the Desktop Proofing Viewer?**
+## **My organization doesn't proof interactive content. Do I still need to install the Desktop Proofing Viewer?**
 
 No. The Desktop Proofing Viewer is specifically designed for real-time website proofing and for proofing interactive web content such as banner advertisements.
 

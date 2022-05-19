@@ -13,7 +13,7 @@ Uploading a file to a document storage provider is a two-step process that requi
 
 Added to version 1.1 of this spec, the document ID and document version ID can be used to retrieve extra information from Workfront.
 
-**Example:** If the document management system wants extra information about the document, the webhook implementation code could use the document ID to retrieve that information using Workfront’s RESTful API. As a good practice, this information could come from custom data fields on the document and it’s containing task, issue, or project.
+**Example:** If the document management system wants extra information about the document, the webhook implementation code could use the document ID to retrieve that information using Workfront's RESTful API. As a good practice, this information could come from custom data fields on the document and it's containing task, issue, or project.
 
 ## Part 1
 

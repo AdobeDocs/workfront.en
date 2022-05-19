@@ -35,7 +35,7 @@ For information about converting issues, see [Overview of Resolving and Resolvab
 
 ## New Submitted Requests list
 
-To allow you to manage your Submitted Requests in an easier, more consistent way, we have removed the Requests I’ve Submitted and All Requests sections in the Requests area and replaced them with a new Submitted list. The list has a familiar look and feel that matches all other lists in the system, allowing you to filter for different categories of submitted requests and quick search for a request that might be hard to find.
+To allow you to manage your Submitted Requests in an easier, more consistent way, we have removed the Requests I've Submitted and All Requests sections in the Requests area and replaced them with a new Submitted list. The list has a familiar look and feel that matches all other lists in the system, allowing you to filter for different categories of submitted requests and quick search for a request that might be hard to find.
 
 For information about how to locate submitted requests, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
@@ -121,9 +121,9 @@ For information about sharing a link to a request queue when submitting a reques
 
 It's now easier to make sure you identify the right group when you are assigning a group to a project. Hover over the name of a group you find in the Group box, then click the info icon that displays next to the name to view the Group Details tooltip.
 
-This tooltip includes the hierarchy of groups above the group, if any, and the group’s administrators.
+This tooltip includes the hierarchy of groups above the group, if any, and the group's administrators.
 
-Depending on the details configured for the group, you might also see the group’s Business Leader and description.
+Depending on the details configured for the group, you might also see the group's Business Leader and description.
 
 With this information, you can be assured that you are selecting the right group to assign to the project.
 

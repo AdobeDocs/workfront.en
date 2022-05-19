@@ -19,7 +19,7 @@ The following features are included in the 21.1 release:
 We have redesigned the experience for resolving job role and budget conflicts in the Scenario Planner. Some of the new features included in this redesign are:
 
 * Ability to update the initiative number of job roles and the amount of Fixed Costs by month.
-* More visibility in the plan’s timeline for where a conflict occurs, to give you faster insight about where you need to address possible insufficient resources.
+* More visibility in the plan's timeline for where a conflict occurs, to give you faster insight about where you need to address possible insufficient resources.
 * An improved user experience which includes new tooltips, informational boxes, and highlights to guide you faster and easier through resolving any conflicts between what resources your initiatives need and what budget your plan has available.
 
 For information about resolving conflicts in the Scenario Planner, see [Resolve initiative conflicts in the Scenario Planner](../../../scenario-planner/resolve-conflicts-in-sp.md).

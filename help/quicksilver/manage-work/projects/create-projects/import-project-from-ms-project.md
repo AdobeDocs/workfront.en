@@ -58,7 +58,7 @@ You can create a project from the Projects area in theMain Menu, or from the Pro
    * Click the **Main Menu** ![](assets/main-menu-icon.png), click **Projects**, then expand **New Project**.  
    * Go to a portfolio, then expand **New Project**. 
    * Go to a program, then expand **New Project**. 
-   * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [Create and modify a group’s projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [Create and modify a group's projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Choose the **Import MS Project** option.
 

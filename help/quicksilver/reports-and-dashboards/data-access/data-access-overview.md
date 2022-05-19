@@ -63,7 +63,7 @@ You can currently access the following data types:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Current data</strong> </td> 
-   <td> <p>Data that represents the view of the data at the time the data warehouse is loaded. Data will change over time to represent the current view. If a record was written to Workfront on Jan 7, 2020, but the values of the related dimension table have changed over time, the facts in the fact table will be for Jan 7, 2020, but the dimension values will be what they are currently. Example: If on Jan 7, 2020 project name = ‘Wonder’, but on July 7, 2020 the name changed to ‘Super’ the current dimension will reflect ‘Super’ as the name for the Jan 7, 2020 fact. Useful for trending dimensions over time. When joining to fact tables, the curr_dim_key will always represent the most current relationship</p> </td> 
+   <td> <p>Data that represents the view of the data at the time the data warehouse is loaded. Data will change over time to represent the current view. If a record was written to Workfront on Jan 7, 2020, but the values of the related dimension table have changed over time, the facts in the fact table will be for Jan 7, 2020, but the dimension values will be what they are currently. Example: If on Jan 7, 2020 project name = ‘Wonder', but on July 7, 2020 the name changed to ‘Super' the current dimension will reflect ‘Super' as the name for the Jan 7, 2020 fact. Useful for trending dimensions over time. When joining to fact tables, the curr_dim_key will always represent the most current relationship</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Historical data</strong> </td> 

@@ -5,7 +5,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
 title: FAQ - Review proofs
-description: Guest reviewers, who don’t have their own logins to ProofHQ, access their proofs using the Go to proof link in the emails they receive. Users can access their proofs from the emails and also have the advantage of using their dashboard in the account. From the dashboard view, they can take a look at a list of proofs that require their decision and access them with one click by clicking on the blue Go to proof icon.
+description: Guest reviewers, who don't have their own logins to ProofHQ, access their proofs using the Go to proof link in the emails they receive. Users can access their proofs from the emails and also have the advantage of using their dashboard in the account. From the dashboard view, they can take a look at a list of proofs that require their decision and access them with one click by clicking on the blue Go to proof icon.
 ---
 
 # FAQ - Review proofs
@@ -16,15 +16,15 @@ description: Guest reviewers, who don’t have their own logins to ProofHQ, acce
 
 ## How can I access a proof that was shared with me
 
-Guest reviewers, who don’t have their own logins to ProofHQ, access their proofs using the *Go to proof* link in the emails they receive. Users can access their proofs from the emails and also have the advantage of using their dashboard in the account. From the dashboard view, they can take a look at a list of proofs that require their decision and access them with one click by clicking on the blue *Go to proof* icon.
+Guest reviewers, who don't have their own logins to ProofHQ, access their proofs using the *Go to proof* link in the emails they receive. Users can access their proofs from the emails and also have the advantage of using their dashboard in the account. From the dashboard view, they can take a look at a list of proofs that require their decision and access them with one click by clicking on the blue *Go to proof* icon.
 
 ## How do I add comments to a proof?
 
-To add a comment to a proof, click on the *Add a comment* button available at the top of the page. If you don’t see that button, please contact the owner of the proof, it is possible that you were assigned the wrong proof role (for more information about proof roles, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+To add a comment to a proof, click on the *Add a comment* button available at the top of the page. If you don't see that button, please contact the owner of the proof, it is possible that you were assigned the wrong proof role (for more information about proof roles, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
 A comment box will open to the right of the screen, here you can type your comment and save it on the proof. This will leave a general comment on the proof, not connected to any specific area of the proof. If you would like to comment on something specific, use the markup tools available at the top of the page.
 
-To reply to someone’s comment on the proof, click on that comment in the list of comments and type your reply in the reply box. When you save, the reply will be posted on the proof.
+To reply to someone's comment on the proof, click on that comment in the list of comments and type your reply in the reply box. When you save, the reply will be posted on the proof.
 
 All comments and decisions appear on the proof almost immediately, so if anyone else is looking at the proof at the same time as you, they will see your comments straight away.
 
@@ -55,7 +55,7 @@ The text annotation tool available in the Proof Viewer allows you to quickly mar
 * delete - strikes through the text and adds [DELETE] to the comment box
 * insert after - lets you easily suggest text that needs to be inserted after the highlighted phrase
 
-If the text you’d like to use is saved in a separate document, you can use the keyboard shortcuts (ctrl+c and ctrl+v on a PC, cmd+c and cmd+v on a Mac) to copy and paste it into the comment box.
+If the text you'd like to use is saved in a separate document, you can use the keyboard shortcuts (ctrl+c and ctrl+v on a PC, cmd+c and cmd+v on a Mac) to copy and paste it into the comment box.
 
 ## What does it mean to make a decision on a proof?
 
@@ -67,9 +67,9 @@ Standard decision options available in ProofHQ are *Approved*, *Approved with ch
 
 No, it depends on what proof role each reviewer was assigned on a proof (for more information about proof roles, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)). *Approver*, *Reviewer and Approver*, *Moderator* and *Author* are roles that require a decision on the proof.
 
-Usually the person who creates the proof doesn’t need to make a decision, however this depends on the workflow in your organization. If a reviewer doesn’t need to make a decision on a proof, make sure that their role is set to reviewer, otherwise the system will wait for their decision before the overall status of the proof is updated.
+Usually the person who creates the proof doesn't need to make a decision, however this depends on the workflow in your organization. If a reviewer doesn't need to make a decision on a proof, make sure that their role is set to reviewer, otherwise the system will wait for their decision before the overall status of the proof is updated.
 
-If you are sending a proof to a group of reviewers, but you only need one person to sign off on the proof and it doesn’t matter who makes the decision, you can enable Only one decision required. The overall proof progress will be updated after the first decision on the proof is made, regardless of who makes the decision.
+If you are sending a proof to a group of reviewers, but you only need one person to sign off on the proof and it doesn't matter who makes the decision, you can enable Only one decision required. The overall proof progress will be updated after the first decision on the proof is made, regardless of who makes the decision.
 
 ## Can I generate a list of all comments that were made on a proof?
 

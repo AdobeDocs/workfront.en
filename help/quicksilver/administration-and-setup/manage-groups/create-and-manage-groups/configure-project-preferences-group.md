@@ -18,7 +18,7 @@ If there are any groups above the group you manage, their administrators can als
 >
 >* Typically, an unlocked preference remains unlocked indefinitely. If the Workfront administrator re-locks it, the system setting takes effect again and settings for the preference made by the group administrators are lost.
 >* The preferences set for the group that is associated with a project take precedence over the preferences set for the Home Group of the user who creates the project.
->* Some group-level preferences affect project templates that you create for the group. For more information, see the section [View, work with, and create templates for your group from the Groups area](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) in the article [Create and modify a group’s project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+>* Some group-level preferences affect project templates that you create for the group. For more information, see the section [View, work with, and create templates for your group from the Groups area](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) in the article [Create and modify a group's project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 >
 >* After a Workfront administrator unlocks a preference at the system level, you can configure it and then lock it to ensure that everyone in your group and in its subgroups is using the same configuration. This is parallel to the ability that a Workfront administrator has to configure and lock a preference for everyone in the system. For more information, see [Lock or unlock a project, task, or issue preference for subgroups](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
@@ -52,7 +52,7 @@ You must have the following to perform the steps in this article:
 
 >[!TIP]
 >
->If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Project Preferences > Projects, then searching for the group’s name in the box at the top of the page.
+>If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Project Preferences > Projects, then searching for the group's name in the box at the top of the page.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
@@ -87,9 +87,9 @@ Configure any of the following preferences for newly created projects associated
      </ul> 
      <ul> 
       <li data-mc-conditions="SnippetConditions-wf-groups.groups">For group project preferences, you can select only a locked status or a required status as the default status.</li> 
-      <li> <p>If a locked system or group status is set as the default status and later someone unlocks it, the system tries to replace it with a locked status of the same status type.</p> <p>If it can’t find one, it looks for a required status:</p> 
+      <li> <p>If a locked system or group status is set as the default status and later someone unlocks it, the system tries to replace it with a locked status of the same status type.</p> <p>If it can't find one, it looks for a required status:</p> 
        <ul> 
-        <li>If there is a required status that equates to the unlocked default status, the required status becomes the default status, even if it’s unlocked.</li> 
+        <li>If there is a required status that equates to the unlocked default status, the required status becomes the default status, even if it's unlocked.</li> 
         <li>If none of the required statuses equate to the unlocked default status, the first required status in the status list becomes the default status.</li> 
        </ul> <p>For information about required statuses, see the articles <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref" data-mc-variable-override="">Access the list of system project statuses</a>, <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md" class="MCXref xref" data-mc-variable-override="">Access the list of system task statuses</a>, and <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref" data-mc-variable-override="">Access the list of system issue statuses</a>.</p> </li> 
      </ul> </p> </td> 

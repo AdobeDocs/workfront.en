@@ -5,12 +5,12 @@ content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: The Adobe Workfront Custom Refresh Sandbox environment
-description: The Custom Refresh Sandbox is an environment where you can test and work using data from your production environment. It’s also ideal for running trainings and determining setup functionality.
+description: The Custom Refresh Sandbox is an environment where you can test and work using data from your production environment. It's also ideal for running trainings and determining setup functionality.
 ---
 
 # The Adobe Workfront Custom Refresh Sandbox environment
 
-The Custom Refresh Sandbox is an environment where you can test and work using data from your production environment. It’s also ideal for running trainings and determining setup functionality.
+The Custom Refresh Sandbox is an environment where you can test and work using data from your production environment. It's also ideal for running trainings and determining setup functionality.
 
 >[!NOTE]
 >
@@ -182,7 +182,7 @@ For more information about configuring Workfront with SSO, see [Overview of sing
 
 >[!NOTE]
 >
->This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 ## Intended use and availability
 

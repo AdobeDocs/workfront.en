@@ -490,7 +490,7 @@ This action module creates records linked to a module you select.
       <ul> 
        <li> <p><b>Recipient participant ID</b> </p> <p>For each participant that you want to receive a reminder, click Add item, and enter the ID&nbsp;of the participant.</p> </li> 
        <li> <p><b>Status</b> </p> <p>For new records, the status must be Active.</p> </li> 
-       <li> <p><b>First reminder delay</b> </p> <p>Enter the delay in hours before sending the first reminder. The minimum value allowed is 1 hour and the maximum value can’t be more than the difference of agreement creation and expiry time of the agreement in hours. If this delay is not set, the first reminder will be based on the frequency.</p> </li> 
+       <li> <p><b>First reminder delay</b> </p> <p>Enter the delay in hours before sending the first reminder. The minimum value allowed is 1 hour and the maximum value can't be more than the difference of agreement creation and expiry time of the agreement in hours. If this delay is not set, the first reminder will be based on the frequency.</p> </li> 
        <li> <p><b>Reminder frequency</b> </p> <p>Set the frequency at which you want the reminder sent. If frequency is not provided, the reminder will be sent once.</p> </li> 
        <li> <p><b>Last sent date</b> </p> <p>This field is set by the system.</p> </li> 
        <li> <p><b>Next sent date</b> </p> <p>This field must be blank or set to ONCE.</p> </li> 

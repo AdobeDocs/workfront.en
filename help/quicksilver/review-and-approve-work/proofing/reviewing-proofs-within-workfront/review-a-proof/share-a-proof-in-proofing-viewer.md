@@ -69,7 +69,7 @@ You can share a proof via a URL if the owner has configured the proof for sharin
 
          >[!NOTE]
          >
-         >If you see an alias email when sharing a proof, don’t create a new guest user by entering the original email if a corresponding alias email exists.
+         >If you see an alias email when sharing a proof, don't create a new guest user by entering the original email if a corresponding alias email exists.
 
       1. Select from the following options:
 

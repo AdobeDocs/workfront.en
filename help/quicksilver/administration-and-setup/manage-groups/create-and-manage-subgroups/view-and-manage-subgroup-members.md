@@ -4,12 +4,12 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: View and manage subgroup members
-description: When you are viewing a group that you manage, you can view and manage all of the users in the group’s subgroups.
+description: When you are viewing a group that you manage, you can view and manage all of the users in the group's subgroups.
 ---
 
 # View and manage subgroup members
 
-When you are viewing a group that you manage, you can view and manage all of the users in the group’s subgroups.
+When you are viewing a group that you manage, you can view and manage all of the users in the group's subgroups.
 
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 
@@ -53,7 +53,7 @@ You must have the following to perform the steps in this article:
 
 1. Do any of the following:
 
-   * Select a member in the list, then click Edit ![](assets/edit-icon.png) to modify that person’s user profile.
+   * Select a member in the list, then click Edit ![](assets/edit-icon.png) to modify that person's user profile.
 
      For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) or [Edit user profiles in bulk](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
    

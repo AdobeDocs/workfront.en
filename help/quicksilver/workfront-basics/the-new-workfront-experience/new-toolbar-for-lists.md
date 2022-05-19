@@ -200,7 +200,7 @@ The following table lists many of the icons in the new toolbar and indicates wha
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
    <td>Remove</td> 
-   <td>Remove something from the list. For example, as a group administrator managing group or subgroup memberships, remove a group member as explained in <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">View and manage a group’s memberships</a>.</td> 
+   <td>Remove something from the list. For example, as a group administrator managing group or subgroup memberships, remove a group member as explained in <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">View and manage a group's memberships</a>.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 

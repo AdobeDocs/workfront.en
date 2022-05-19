@@ -569,7 +569,7 @@ EAC Method = Calculate at project level
 </table>
 
 1. Add 50 hours directly to the project (More>Hours>Log Hours) so that there is $5,000.00 of actual labor cost recorded directly to the project. ****
-1. Add expenses to each task according to the table below (I’ve added a blank row in between each task to make it easier to read):
+1. Add expenses to each task according to the table below (I've added a blank row in between each task to make it easier to read):
 
 <table> 
  <col> 
@@ -832,7 +832,7 @@ EAC Method = Calculate at project level
    **EAC****Task 2** &nbsp;= $5,000.00 + $900.00  
    **EAC****Task 2** &nbsp;= $5,900.00
 
-1. The CPI/EAC for Tasks 4, 5, and 6 are determined the same way so I’ll just provide those values below:  
+1. The CPI/EAC for Tasks 4, 5, and 6 are determined the same way so I'll just provide those values below:  
    Task 4: .23 / $3,400.00  
    Task 5: .64 / $3,100.00  
    Task 6: 1.06 / $2,366.67

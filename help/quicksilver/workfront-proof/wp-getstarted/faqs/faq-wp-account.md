@@ -32,7 +32,7 @@ Go to the [login page](https://app.proofhq.com/login) and click on *Forgot passw
 
 ## Why are permission profiles important?
 
-Permission profiles define what access people have over different items in your account. This is important if you don’t want people to be able to see other people’s proofs or you don’t want them to have access to Account Settings or Billing. Please take a look at the [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) article&nbsp;to see what&nbsp;profiles are available in Workfront Proof.
+Permission profiles define what access people have over different items in your account. This is important if you don't want people to be able to see other people's proofs or you don't want them to have access to Account Settings or Billing. Please take a look at the [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) article&nbsp;to see what&nbsp;profiles are available in Workfront Proof.
 
 If you need to fine tune the permissions a bit more, you may want to consider Custom profiles. This is an Unlimited feature that allows you to create your own profiles with customized permissions. For details, please go to the [Create and Manage Custom Profiles using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) article.
 
@@ -40,7 +40,7 @@ If you need to fine tune the permissions a bit more, you may want to consider Cu
 
 Proof roles define what actions reviewers should be able to take on a proof (commenting, making decisions, etc).
 
-Permission profiles define what actions users should be able to take in your account (creating proofs, editing other people’s proofs, managing Account settings, etc).
+Permission profiles define what actions users should be able to take in your account (creating proofs, editing other people's proofs, managing Account settings, etc).
 
 ## How can I organize my proofs?
 
@@ -54,17 +54,17 @@ For example, you can create separate folders for each client and then different 
 
 You can set up a Satellite account for them. Satellites are separate accounts that are managed from within the hub account. You can have multiple satellites attached to the same hub.
 
-This setup lets you give your clients a dashboard without having to add them to your own account. It’s a great way of ensuring that your clients only see the information they are meant to see - satellite account users don’t see any details of the hub account (or any other satellites attached to the same hub). Satellite accounts are explained further in [Satellite accounts in Workfront Proof](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md).
+This setup lets you give your clients a dashboard without having to add them to your own account. It's a great way of ensuring that your clients only see the information they are meant to see - satellite account users don't see any details of the hub account (or any other satellites attached to the same hub). Satellite accounts are explained further in [Satellite accounts in Workfront Proof](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md).
 
 ## Can I create reports using Workfront Proof?
 
-Custom views available in Enterprise and Unlimited editions allow you to build your own views in the account. You can choose what information you want to include in that view, what filters you want to use and how to sort the information. It’s a great tool to keep track of the proofs and files in your account, but it can also be used as a reporting tool - Custom views can be exported to an Excel file, allowing you to process the data further.
+Custom views available in Enterprise and Unlimited editions allow you to build your own views in the account. You can choose what information you want to include in that view, what filters you want to use and how to sort the information. It's a great tool to keep track of the proofs and files in your account, but it can also be used as a reporting tool - Custom views can be exported to an Excel file, allowing you to process the data further.
 
 Detailed instructions are available on the [Create and Manage Custom Views in Workfront Proof Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) page.
 
 ## What can I do if someone deletes a proof by accident?
 
-When a proof is deleted, it’s moved to the Trash folder in the sidebar. Don’t worry if you deleted something by mistake - if you were able to delete a proof you can also recover it from Trash. Simply go to the Trash, pick the proof that you deleted and click on *Restore*.
+When a proof is deleted, it's moved to the Trash folder in the sidebar. Don't worry if you deleted something by mistake - if you were able to delete a proof you can also recover it from Trash. Simply go to the Trash, pick the proof that you deleted and click on *Restore*.
 
 More information on the Trash folder is available in the [Restore and Empty the Trash in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) article.
 

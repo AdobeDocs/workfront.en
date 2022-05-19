@@ -5,7 +5,7 @@ draft: Probably
 ---
 # Grant access to users
 
-As an Adobe Workfront administrator, you can use an access level to define a user’s access to other users in Workfront, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+As an Adobe Workfront administrator, you can use an access level to define a user's access to other users in Workfront, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Access requirements
 
@@ -48,7 +48,7 @@ You can manage what information users can view and edit for other users using a 
 
 * A user with a default Plan license who created a user can deactivate, delete, or edit the user they created. For information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-## Configure users’ access to edit users using a custom access level
+## Configure users' access to edit users using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. To change the ability of users with a Plan or Work license to view the profiles of other users:
@@ -67,11 +67,11 @@ You can manage what information users can view and edit for other users using a 
       <td role="rowheader"><strong>Create</strong> </td> 
       <td> <p>Allows users to create users.<br>This option is enabled by default.</p> <!--
         <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure this change is being made before undrafting these 2 notes. On 3/29, the req doc says that this depends on investigation results.</p>
-       --> <p>Note: This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
+       --> <p>Note: This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Delete</strong> </td> 
-      <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p>Note: This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
+      <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p>Note: This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>User Admin (All Users)</strong> </td> 
@@ -96,7 +96,7 @@ You can manage what information users can view and edit for other users using a 
 
    >[!TIP]
    >
-   >If you don’t want to grant group administrators access to all members of the groups they administer, disable both of the User Admin options above. Group administrators will still be able to access group members whom they add to Workfront, or who report to them in Workfront.
+   >If you don't want to grant group administrators access to all members of the groups they administer, disable both of the User Admin options above. Group administrators will still be able to access group members whom they add to Workfront, or who report to them in Workfront.
 
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. When you are finished, click **Save**.

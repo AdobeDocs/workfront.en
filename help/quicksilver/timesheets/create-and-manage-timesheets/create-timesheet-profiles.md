@@ -84,7 +84,7 @@ You must have the following to perform the steps in this article:
          <li> <p>If you are creating a system-level timesheet profile, leave this field blank.</p> <p>Any user who can edit user accounts can attach a system-level timesheet to other users.</p> <p>Only a Workfront administrator can edit a system-level timesheet profile.</p> </li> 
         </ul> 
         <ul> 
-         <li> <p>If you are creating a timesheet profile for a group you administer, identify the group here.</p> <p>This does not assign the timesheet profile to the users in the group; it only allows the group’s administrators to modify the timesheet profile. You will assign the profile to users in Step 6.</p> <p>Note: When users outside the group are attaching timesheet profiles to other user, they won’t be able to see or attach this timesheet profile.</p> </li> 
+         <li> <p>If you are creating a timesheet profile for a group you administer, identify the group here.</p> <p>This does not assign the timesheet profile to the users in the group; it only allows the group's administrators to modify the timesheet profile. You will assign the profile to users in Step 6.</p> <p>Note: When users outside the group are attaching timesheet profiles to other user, they won't be able to see or attach this timesheet profile.</p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -123,7 +123,7 @@ You must have the following to perform the steps in this article:
    >
    >* You can also associate a user with a timesheet profile by editing the user profile. For more information, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
    >* When you add a group, only the group name appears on the Assign People tab, not the list of group members. If you want to see the group members listed here, click Save Changes, then click the name of the timesheet profile you just created.
-   >* When you finish these steps, the timesheet profile generates timesheets only for the assigned users or group members who don’t have existing timesheets for the current period.
+   >* When you finish these steps, the timesheet profile generates timesheets only for the assigned users or group members who don't have existing timesheets for the current period.
 
 1. Click **Save Changes** .
 
@@ -136,9 +136,9 @@ If you are a group administrator and the administrative access option Timesheets
 * Groups you administer 
 * Individual users you have access to edit who are in a group you administer
 
-For these groups and users, you won’t have access to the timesheets that the timesheet profile generates.
+For these groups and users, you won't have access to the timesheets that the timesheet profile generates.
 
-Further, if the option User Admin (Group Users) is also disabled in your access level, you can assign the timesheet profile to a group you administer, but it affects only the users in the group that you have access to edit. If the group contains users that you don’t have access to edit, they are not assigned the timesheet profile along with the rest of the group.
+Further, if the option User Admin (Group Users) is also disabled in your access level, you can assign the timesheet profile to a group you administer, but it affects only the users in the group that you have access to edit. If the group contains users that you don't have access to edit, they are not assigned the timesheet profile along with the rest of the group.
 
 For information about the option Timesheets & hours in your access level, see [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 

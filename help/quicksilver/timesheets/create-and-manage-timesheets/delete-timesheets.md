@@ -17,7 +17,7 @@ The changes you make to a timesheet profile are not effective right away for the
 Adobe Workfront administrators or group administrators can generate timesheets for everyone in the system. For more information about manually generating timesheets, see:
 
 * [Manually generate timesheets](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
-* [Create and manage a group’s timesheet profiles](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
+* [Create and manage a group's timesheet profiles](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 
 >[!IMPORTANT]
 >
@@ -104,5 +104,5 @@ You must have the following to perform the steps in this article:
 
    * [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) 
    * [Manually generate timesheets](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md) 
-   * [Create and manage a group’s timesheet profiles](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
+   * [Create and manage a group's timesheet profiles](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 

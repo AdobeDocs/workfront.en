@@ -121,7 +121,7 @@ A Workfront administrator (or a user with a Planner access level and administrat
 
 >[!IMPORTANT]
 >
->If the deadline changes after a user receives a reminder notification for any of the objects mentioned above, the user doesn’t receive another reminder notification.
+>If the deadline changes after a user receives a reminder notification for any of the objects mentioned above, the user doesn't receive another reminder notification.
 
 Reminder notifications&nbsp;are sent from the email address that the Workfront administrator selected to handle outgoing emails.
 

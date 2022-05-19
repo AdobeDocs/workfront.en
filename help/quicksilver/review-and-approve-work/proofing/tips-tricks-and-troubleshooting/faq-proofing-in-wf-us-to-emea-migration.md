@@ -26,7 +26,7 @@ After the account migration has completed, we will start moving all your files f
 
 After the migration is complete, you and your users will be able to access files and proofs only from the EMEA data center.&nbsp;
 
-## What will happen to the URL I’m using to access Workfront Proof?
+## What will happen to the URL I'm using to access Workfront Proof?
 
 In order to make the migration possible, the URL you use to access the system must change from proofhq.com to proofhq.eu. Anyone who uses the old proofhq.com URL after the migration will receive a message providing the new login link:
 

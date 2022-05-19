@@ -37,7 +37,7 @@ For more information about navigating the Workload Balancer, see [Navigate the W
 
 ## Access Advanced Assignments in the Workload Balancer
 
-To make assigning work items easier and more accurate, you can now make advanced assignments when you assign work items manually in the Workload Balancer. Prior to this enhancement, you could access Advanced Assignments when editing items, from the items’ headers, or in lists.
+To make assigning work items easier and more accurate, you can now make advanced assignments when you assign work items manually in the Workload Balancer. Prior to this enhancement, you could access Advanced Assignments when editing items, from the items' headers, or in lists.
 
 For more information, see [Assign work manually using the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 

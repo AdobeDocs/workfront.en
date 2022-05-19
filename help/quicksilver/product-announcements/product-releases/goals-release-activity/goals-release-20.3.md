@@ -11,7 +11,7 @@ description: Workfront Goals is available with the 20.3 release to Production on
 
 Workfront Goals is available with the 20.3 release to Production only in the new Adobe Workfront experience.
 
-With Workfront Goals, you can align strategy, goals, and work to drive execution across the organization and deliver measurable business outcomes. Define what you’re going to accomplish and why it’s important.
+With Workfront Goals, you can align strategy, goals, and work to drive execution across the organization and deliver measurable business outcomes. Define what you're going to accomplish and why it's important.
 
 Workfront Goals enables you to:
 
@@ -27,7 +27,7 @@ Workfront Goals enables you to:
 
   Continuously update goal status to keep everyone focused on key initiatives.
 
-Workfront Goals helps to keep strategic goals connected to your work. Whether you own setting strategic goals for your company, or you’re planning and prioritizing work against company initiatives, Workfront Goals can help. Easily set goals and communicate them throughout your organization so teams can prioritize efforts and measure their work against those goals.
+Workfront Goals helps to keep strategic goals connected to your work. Whether you own setting strategic goals for your company, or you're planning and prioritizing work against company initiatives, Workfront Goals can help. Easily set goals and communicate them throughout your organization so teams can prioritize efforts and measure their work against those goals.
 
 With Workfront Goals, you can seamlessly set and manage goals in a single platform and measure work against those goals to provide answers to questions like:
 

@@ -94,7 +94,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#deactiva" class="MCXref xref" xrefformat="{para}">Deactivate a group</a> </p> <p>As your internal organizations change, you might need to stop using certain groups in Workfront and create new ones. To help with this, we have added the ability to deactivate a group without losing its historical data. For regular users who don’t need to see them, inactive groups are cleared from group type-ahead fields.</p> <p>You can still find and configure options, preferences, and object associations for inactive groups that you manage. And deactivating a group doesn’t change anything about the objects that the group is attached to.</p> <p>Previously, it wasn’t possible to deactivate a group.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#deactiva" class="MCXref xref" xrefformat="{para}">Deactivate a group</a> </p> <p>As your internal organizations change, you might need to stop using certain groups in Workfront and create new ones. To help with this, we have added the ability to deactivate a group without losing its historical data. For regular users who don't need to see them, inactive groups are cleared from group type-ahead fields.</p> <p>You can still find and configure options, preferences, and object associations for inactive groups that you manage. And deactivating a group doesn't change anything about the objects that the group is attached to.</p> <p>Previously, it wasn't possible to deactivate a group.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: March 10, 2022<br></p> </li> 
@@ -105,7 +105,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">New default access level configurations</a> </p> <p>To better suit the needs of most administrators who create access levels, we've changed the default configuration for several of the “Fine-tune your settings” options that display when you click the gear icon on an Edit button.</p> <p>The options, previously enabled by default, are now disabled. If this doesn’t suit the needs of your organization, you can enable them when you are setting up a new access level, or any time later.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">New default access level configurations</a> </p> <p>To better suit the needs of most administrators who create access levels, we've changed the default configuration for several of the “Fine-tune your settings” options that display when you click the gear icon on an Edit button.</p> <p>The options, previously enabled by default, are now disabled. If this doesn't suit the needs of your organization, you can enable them when you are setting up a new access level, or any time later.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: January 27, 2022<br></p> </li> 
@@ -257,7 +257,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#keep" class="MCXref xref" xrefformat="{para}">Keep users on the dashboard, list, or report after converting issue to project</a> </p> <p>To increase efficiency and eliminate the number of clicks, we have released an improvement when converting issues to projects from a list, report, or a dashboard.</p> <p>Users remain on the list, report or a dashboard after converting an issue to a project instead of being redirected to the project’s page. A success notification with the link to the project displays after the conversion is complete, to allow you to easily navigate to the project, if needed. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#keep" class="MCXref xref" xrefformat="{para}">Keep users on the dashboard, list, or report after converting issue to project</a> </p> <p>To increase efficiency and eliminate the number of clicks, we have released an improvement when converting issues to projects from a list, report, or a dashboard.</p> <p>Users remain on the list, report or a dashboard after converting an issue to a project instead of being redirected to the project's page. A success notification with the link to the project displays after the conversion is complete, to allow you to easily navigate to the project, if needed. </p> </td> 
    <td><strong>Available on these dates:</strong> 
     <ul> 
      <li> <p>Preview release: February 10, 2022<br></p> </li> 
@@ -328,7 +328,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-resource-management-enhancements.md#access" class="MCXref xref" xrefformat="{para}">Access Advanced Assignments in the Workload Balancer</a> </p> <p>To make assigning work items easier and more accurate, you can now make advanced assignments when you assign work items manually in the Workload Balancer. Prior to this enhancement, you could access Advanced Assignments when editing items, from the items’ headers, or in lists.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-resource-management-enhancements.md#access" class="MCXref xref" xrefformat="{para}">Access Advanced Assignments in the Workload Balancer</a> </p> <p>To make assigning work items easier and more accurate, you can now make advanced assignments when you assign work items manually in the Workload Balancer. Prior to this enhancement, you could access Advanced Assignments when editing items, from the items' headers, or in lists.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: March 10, 2022<br></p> </li> 

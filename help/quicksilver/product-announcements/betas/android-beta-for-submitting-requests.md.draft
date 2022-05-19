@@ -3,7 +3,7 @@ filename: android-beta-for-submitting-requests
 content-type: reference
 navigation-topic: betas
 title: Android Beta Program for Submitting Requests
-description: You will soon be able to submit requests from the Workfront mobile app! With this new feature, you’ll be able to use your Workfront app on your smartphone to submit a request to a request queue in Workfront. You will be able to immediately access the same information that you have access to see in the web application.
+description: You will soon be able to submit requests from the Workfront mobile app! With this new feature, you'll be able to use your Workfront app on your smartphone to submit a request to a request queue in Workfront. You will be able to immediately access the same information that you have access to see in the web application.
 hidefromtoc: true
 ---
 
@@ -13,7 +13,7 @@ hidefromtoc: true
 >
 >This beta program is currently closed.&nbsp;
 
-You will soon be able to submit requests from the Workfront mobile app! With this new feature, you’ll be able to use your Workfront app on your smartphone to submit a request to a request queue in Workfront. You will be able to immediately access the same information that you have access to see in the web application.
+You will soon be able to submit requests from the Workfront mobile app! With this new feature, you'll be able to use your Workfront app on your smartphone to submit a request to a request queue in Workfront. You will be able to immediately access the same information that you have access to see in the web application.
 
 This new functionality has not been generally&nbsp;released yet, but you can participate in our limited beta program to test this functionality. We have opened a beta testing window for gathering feedback from you about&nbsp;submitting requests using&nbsp; the mobile app.
 
@@ -25,7 +25,7 @@ If you would like to be part of this beta program and have this functionality en
 
 ## Submitting Requests&nbsp;on Android
 
-In the version of the Workfront mobile app that we have made available for the beta program, you’ll have access to submit requests , which will allow you to:
+In the version of the Workfront mobile app that we have made available for the beta program, you'll have access to submit requests , which will allow you to:
 
 * Submit a request to a request queue.&nbsp; 
 * Complete the custom form attached to the request. 

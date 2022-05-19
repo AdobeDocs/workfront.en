@@ -16,7 +16,7 @@ description: Basecamp is a leading web-based project management and collaboratio
 
 Basecamp is a leading web-based project management and collaboration tool. It provides to-do lists, file sharing, time tracking and messages, schedules and milestones in a simple and easy-to-use way.
 
-The Workfront Proof integration with Basecamp helps you significantly improve review and approval of creative assets in Basecamp by enabling online proofing functionality right inside your Basecamp account. When you create proofs in Workfront Proof account you can connect them to a project in Basecamp. Reviewers will be able to use Workfront Proof’s rich commenting and markup tools and make decisions directly inside Basecamp. Workfront Proof helps you to speed up your creative project delivery, reduce the time you spend managing approvals and reduce the number of design revisions.
+The Workfront Proof integration with Basecamp helps you significantly improve review and approval of creative assets in Basecamp by enabling online proofing functionality right inside your Basecamp account. When you create proofs in Workfront Proof account you can connect them to a project in Basecamp. Reviewers will be able to use Workfront Proof's rich commenting and markup tools and make decisions directly inside Basecamp. Workfront Proof helps you to speed up your creative project delivery, reduce the time you spend managing approvals and reduce the number of design revisions.
 
 [This video](https://vimeo.com/77216478) provides an overview of the Basecamp integration with Workfront Proof.
 

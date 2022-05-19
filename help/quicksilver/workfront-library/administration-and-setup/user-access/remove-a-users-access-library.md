@@ -90,7 +90,7 @@ Users who are members of the removed user grouping lose their access to Workfron
 >
 >* [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
 >* [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
->* [View and manage a group’s memberships](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
+>* [View and manage a group's memberships](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
 >* [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
 >
 

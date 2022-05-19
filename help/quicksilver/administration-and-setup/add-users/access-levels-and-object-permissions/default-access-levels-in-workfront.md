@@ -87,7 +87,7 @@ Users with this access level:
 * Can access and share reports
 * Can communicate with other users in the system  
 * Can access all the areas in the Main Menu ![](assets/main-menu-icon.png), but their  "Users"  area is named Teams. In the Teams area, users with this access level can view only teams that they belong to, along with the work assigned to those teams.
-* Have limited ability to create objects—they can’t create projects, portfolios, programs, or reports.
+* Have limited ability to create objects—they can't create projects, portfolios, programs, or reports.
 
 You can create a custom version of the Worker built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
 
@@ -120,7 +120,7 @@ Users with the Reviewer access level:
 
 * Cannot be assigned work items or approve time sheets
 * Can access requests and documents in the  Main Menu ![](assets/main-menu-icon.png).
-* Have limited ability to create objects—they can’t create projects, portfolios, programs, or reports.
+* Have limited ability to create objects—they can't create projects, portfolios, programs, or reports.
 
 You can create a custom version of the Reviewer built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
 
@@ -231,7 +231,7 @@ More limited for projects and tasks than the Worker access level, the following 
 
 Attached to the Request license, this built-in access level is designed for users who make and receive simple work requests in Workfront. By default, they are limited to the Requests area.
 
-For example, a user can log issues to your organization’s help desk request queue.
+For example, a user can log issues to your organization's help desk request queue.
 
 Users with this built-in access level:
 

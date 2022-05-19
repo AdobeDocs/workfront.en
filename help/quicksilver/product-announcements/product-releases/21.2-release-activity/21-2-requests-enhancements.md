@@ -43,7 +43,7 @@ For more information, see the following articles:
 As we continue to incorporate your feedback about creating requests in the new Workfront experience, we made several improvements to the new requests workflow. These include:
 
 * Clearly indicate with a Show options icon that the fields for Request Types, Topic Groups, and Queue Topics are drop-down lists from which you can choose an option that was previously defined.
-* Clearly indicate with an “x” icon that a choice for Request Type, Topic Group, or Queue Topic can be removed after it’s been selected.
+* Clearly indicate with an “x” icon that a choice for Request Type, Topic Group, or Queue Topic can be removed after it's been selected.
 * Provide a Close button when creating a new request to leave the request without losing the draft. In addition to this change, the “Discard” button has been renamed to “Discard draft.”
 
 For information about creating new requests, see [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).

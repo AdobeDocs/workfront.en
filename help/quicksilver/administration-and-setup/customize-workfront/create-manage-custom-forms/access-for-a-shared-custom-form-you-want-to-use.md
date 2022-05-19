@@ -30,7 +30,7 @@ For more information about how users configure sharing settings when sharing a c
      <li>View</li> 
      <li>Add to Custom Forms: Not selected</li> 
     </ul> </td> 
-   <td> <p>If you are viewing the Fields tab on the main Custom Forms page, you can see the field, but the Edit button isn’t available on the toolbar when you select the field.</p> </td> 
+   <td> <p>If you are viewing the Fields tab on the main Custom Forms page, you can see the field, but the Edit button isn't available on the toolbar when you select the field.</p> </td> 
   </tr> 
   <tr> 
    <td> 
@@ -40,7 +40,7 @@ For more information about how users configure sharing settings when sharing a c
     </ul> </td> 
    <td> <p>If you add the field to a custom form:</p> 
     <ul> 
-     <li>You can edit form-related settings for the field, such as its display logic, it’s order among other fields on the form, whether it’s a required field on the form, and the ability to remove it from the form.</li> 
+     <li>You can edit form-related settings for the field, such as its display logic, it's order among other fields on the form, whether it's a required field on the form, and the ability to remove it from the form.</li> 
      <li>You cannot edit field-related settings for the field, such as its label, name, and type.</li> 
     </ul> </td> 
   </tr> 

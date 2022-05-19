@@ -15,10 +15,10 @@ For a list of all changes available with the 21.4 release, see [21.4 Release ove
 >
 >Released to EMEA customers only. Functionality coming to US customers soon.
 
-To provide a more integrated experience between Workfront and Proof, we’ve made several improvements regarding proofing capabilities for Reviewers and Requestors:
+To provide a more integrated experience between Workfront and Proof, we've made several improvements regarding proofing capabilities for Reviewers and Requestors:
 
 * You can grant Moderator or Author roles to any user in Workfront, regardless of whether they have a Proofing license, giving them additional rights, like applying actions or resolving comments.
 * You can add Reviewers and Requestors to proofs that require a login or that need to be electronically signed.
-* All users also benefit from improved connectivity between Workfront and Proof. Now, when deactivating a user or updating a user’s email address, your updates are correctly reflected in proofing when changed in Workfront.
+* All users also benefit from improved connectivity between Workfront and Proof. Now, when deactivating a user or updating a user's email address, your updates are correctly reflected in proofing when changed in Workfront.
 
 For more information, see [Proof Roles overview](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).

@@ -65,7 +65,7 @@ You must have the following to perform the steps in this article:
    * **If it's locked**: One of the following is true:
 
       * If there are other locked, non-hidden statuses, only those are available.
-      * If there is no locked non-hidden status, the default Workfront status is available, even if it’s hidden or unlocked.
+      * If there is no locked non-hidden status, the default Workfront status is available, even if it's hidden or unlocked.
 
         For information about the default Workfront statuses, see [Access the list of system project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Access the list of system task statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md), and the information about the 4 required issue statuses in [Access the list of system issue statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 

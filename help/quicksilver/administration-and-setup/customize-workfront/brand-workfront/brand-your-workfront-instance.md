@@ -26,7 +26,7 @@ As a Workfront administrator, you can brand Workfront with logos in the followin
 
   >[!NOTE]
   >
-  >This is not available if your organization’s Workfront instance uses a custom SSO portal.  >
+  >This is not available if your organization's Workfront instance uses a custom SSO portal.  >
   >
   ><!--  >
   ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  >
@@ -121,7 +121,7 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >This is not available if your organization’s Workfront instance uses a custom SSO portal.   >
+   >This is not available if your organization's Workfront instance uses a custom SSO portal.   >
    >
    ><!--   >
    ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >

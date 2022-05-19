@@ -34,7 +34,7 @@ For information about adding a freelancer to your team, see [Create Users using 
 
 ## Set Up a Satellite Account for Your Freelancers
 
-If you don’t want clients and freelancers to see each other in Workfront Proof, you can set up satellite accounts for your freelancers.
+If you don't want clients and freelancers to see each other in Workfront Proof, you can set up satellite accounts for your freelancers.
 
 This means that they will have their own dashboard to view all the items they are working on in one place. Further, they will be able to send files to you via Workfront Proof, which you can convert to proofs&nbsp;(Enterprise and Unlimited plans only). For more information, see [Manage Files in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md).
 
@@ -57,7 +57,7 @@ For information about setting up a satellite account for your freelancers, see&n
 
 ## Use the Dropzone
 
-This option is useful if you don’t want clients and freelancers to see each other in Workfront Proof.&nbsp;You can give your freelancers access to your Dropzone&nbsp;(available on Enterprise and Unlimited plans only). For more information, see [The Dropzone](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
+This option is useful if you don't want clients and freelancers to see each other in Workfront Proof.&nbsp;You can give your freelancers access to your Dropzone&nbsp;(available on Enterprise and Unlimited plans only). For more information, see [The Dropzone](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
 
 ![freelancers_-_option_C_-_dropzone.png](assets/freelancers---option-c---dropzone-350x98.png)
 

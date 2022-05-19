@@ -68,7 +68,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Description</strong> </td> 
-      <td>Type a description for the access level. It’s helpful to list here what an user with this access level will be able to access.</td> 
+      <td>Type a description for the access level. It's helpful to list here what an user with this access level will be able to access.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>License Type</strong> </td> 

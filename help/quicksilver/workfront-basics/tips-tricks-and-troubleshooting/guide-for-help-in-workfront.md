@@ -16,7 +16,7 @@ Welcome to Adobe Workfront! We know you have questions and are not always sure w
 
 >[!TIP]
 >
->We encourage you to bookmark this page. We’ll be updating it with added resources as they become available. >
+>We encourage you to bookmark this page. We'll be updating it with added resources as they become available. >
 ><!--
 ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >(NOTE: from Luke: I wonder who added this. This article does containa lot of good information. I wonder if we should update the TOC so that it appears in a more prominent section?)>
@@ -44,7 +44,7 @@ To learn more about Workfront, you can:
   </tr> 
   <tr> 
    <td><strong>Ask an expert</strong> </td> 
-   <td> <p>Follow the 5-minute rule. If you can't find the answer after a few minutes, don't hesitate to reach out to Workfront Support! <strong>Workfront's Customer Support Team</strong> is dedicated to helping you with technical issues as well as accessing our community and training platform.</p> <p>Our live Support engineers—based in US and EMEA—will answer your phone call in seconds. Please don’t hesitate to call us!</p> 
+   <td> <p>Follow the 5-minute rule. If you can't find the answer after a few minutes, don't hesitate to reach out to Workfront Support! <strong>Workfront's Customer Support Team</strong> is dedicated to helping you with technical issues as well as accessing our community and training platform.</p> <p>Our live Support engineers—based in US and EMEA—will answer your phone call in seconds. Please don't hesitate to call us!</p> 
     <ul> 
      <li> <p>844-306-4357 (US)</p> </li> 
      <li>+44(0)-1256-274200 (EMEA)</li> 
@@ -109,7 +109,7 @@ These 3 steps can help you as a Workfront administrator stay on top of each new 
    <td><strong>Step 1: Learn what's coming</strong> </td> 
    <td> <p>These resources keep you informed on what updates are releasing to Workfront:</p> 
     <ul> 
-     <li> <p><a href="https://one.workfront.com/s/article/Product-announcements-1407560965" target="_blank">Product Announcements</a>: Looking for updates of Workfront’s product roadmap? The Product Announcements page is where you can find release updates and roadmap presentations.</p> </li> 
+     <li> <p><a href="https://one.workfront.com/s/article/Product-announcements-1407560965" target="_blank">Product Announcements</a>: Looking for updates of Workfront's product roadmap? The Product Announcements page is where you can find release updates and roadmap presentations.</p> </li> 
      <li> <p><strong>Announcement Center</strong>: Review your notifications and receive important updates from our Workfront Product team regarding information for all customers. Visit the <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">“Notifications”</a> section in Workfront, in your top navigation.</p> </li> 
     </ul> </td> 
   </tr> 

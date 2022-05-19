@@ -72,7 +72,7 @@ For information about viewing projects and work items in the Workload Balancer, 
 
 To give you an accurate perspective of the progress of your workload, we have introduced a new setting in the Workload Balancer that shows the timeline of tasks and issues according to their Projected Dates. You can enable the Show Projected Dates setting to view the projected timeline of the work item in addition to the planned timeline.
 
-Also, with this improvement, if a task or an issue is completed earlier than their Planned Completion Date, the allocated hours from the remaining days are struck through to indicate that they do not count towards the user’s overall allocation.
+Also, with this improvement, if a task or an issue is completed earlier than their Planned Completion Date, the allocated hours from the remaining days are struck through to indicate that they do not count towards the user's overall allocation.
 
 For information about navigating the Workload Balancer and enabling settings see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 

@@ -17,11 +17,11 @@ description: "Adobe Workfront document webhooks supports two different forms of 
 
 ```OAuth2 allows Workfront to make authorized API calls to a webhook provider on behalf of a user. Before doing so, the user must connect their external document provider account to Workfront and grant Workfront```
 
-access to act on their behalf. This handshaking process only happens once for each user. Here’s how it works:
+access to act on their behalf. This handshaking process only happens once for each user. Here's how it works:
 
 1. The user begins connecting the webhook integration to their account. Currently, this is done by&nbsp;clicking the “Add Document” dropdown > “Add Service” > Custom integration name.
 1. Workfront navigates the user the Authentication URL, which may prompt the user to login to the&nbsp;external document provider. This page is hosted by the webhook provider or the external document management system. When doing so Workfront adds a “state” parameter to the Authentication URL. This value must be passed back to Workfront by appending the same value to the Workfront Return URI in the step below.
-1. After logging to the external system (or if the user is already logged in), the user is taken to an&nbsp;“Authentication” page, which explains that Workfront is requesting access to perform a set of actions on the user’s behalf.
+1. After logging to the external system (or if the user is already logged in), the user is taken to an&nbsp;“Authentication” page, which explains that Workfront is requesting access to perform a set of actions on the user's behalf.
 1. If the user clicks the “Allow” button, the browser will redirect to the Workfront Redirect URI , adding “code=`<code>`” to the querystring. Per the OAuth2 spec, this token is short lived. The querystring must also have the following, “state=`<sent_by_workfront>`”.
 1. Workfront processes this request and makes an API call to the Token Endpoint URL with the&nbsp;authorization code.
 1. The Token Endpoint URL returns a refresh token and access token.

@@ -52,7 +52,7 @@ If you upload multiple files at the same time, you create multiple proofs that y
 
 Proof roles define what actions a reviewer needs to take on a proof. There are different role options you can use for reviewers when you create a proof, depending on whether you want them to be able to make comments, make decisions, and so on. For more information, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-Email alerts update reviewers on a proof's progress (they are different from new proof and late proof notifications). You can select different options for different reviewers, depending on each reviewer’s role on the proof. For more information, see [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+Email alerts update reviewers on a proof's progress (they are different from new proof and late proof notifications). You can select different options for different reviewers, depending on each reviewer's role on the proof. For more information, see [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
 ## Can I create a proof from multiple files?
 
@@ -71,7 +71,7 @@ Yes, you can create proofs from websites and other web content. When you add a U
 
 You can add multiple URLs at once if you separate them with a space. Note that combining is only available on Enterprise and Unlimited edition plans.
 
-## Can people who don’t have a login create proofs in my account?
+## Can people who don't have a login create proofs in my account?
 
 ### Answer
 
@@ -91,7 +91,7 @@ When you are creating a proof, you can add reviewers in the Workflow section of 
 
 If you have sufficient rights on a proof, you can use the proofing viewer, your Dashboard, or any of the list views to add reviewers to an existing proof (see [Share a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)&nbsp;and [Manage Items on the Views Page in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
-Adding reviewers is the most common way to share proofs. If you’d like to explore other available options, see:
+Adding reviewers is the most common way to share proofs. If you'd like to explore other available options, see:
 
 * [Share proof links in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)&nbsp;
 * [Share the Public URL in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)&nbsp;
@@ -132,7 +132,7 @@ For more information, see .
 
 ### Answer
 
-Yes. If you want to share something with other people, but you don't need them to view it as a proof (or if it’s a file type that’s not supported by Workfront Proof), you can upload it as a file to your Workfront Proof account. As with proofs, you can organize your files into folders, tag files, and add a custom message to the notification email when you share the file.&nbsp;For more information, see [Upload Files and Web Content to Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+Yes. If you want to share something with other people, but you don't need them to view it as a proof (or if it's a file type that's not supported by Workfront Proof), you can upload it as a file to your Workfront Proof account. As with proofs, you can organize your files into folders, tag files, and add a custom message to the notification email when you share the file.&nbsp;For more information, see [Upload Files and Web Content to Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
 When your recipients receive the email notification about a file you are sharing, they can download the file by clicking the link in the notification.
 

@@ -37,9 +37,9 @@ To get started with built-in (native) integrations, follow the following workflo
 
 1. **Identify your technology admin**
 
-   Identify your organization’s technology admin for the application you want to integrate with Workfront. For example, if you choose to integrate with Jira, you must connect with your company’s Jira admin and involve them in any configuration needs within their platform. You should also involve this admin in any conversation with Workfront Customer Support.
+   Identify your organization's technology admin for the application you want to integrate with Workfront. For example, if you choose to integrate with Jira, you must connect with your company's Jira admin and involve them in any configuration needs within their platform. You should also involve this admin in any conversation with Workfront Customer Support.
 
-   To get your admin started, you’ll need to provide them with the specific instructions for that integration. For links to these instructions, see [Integrations available at no additional cost](#integrations-available-at-no-additional-cost).
+   To get your admin started, you'll need to provide them with the specific instructions for that integration. For links to these instructions, see [Integrations available at no additional cost](#integrations-available-at-no-additional-cost).
 
 1. **Engage with Workfront Customer Support**
 

@@ -33,7 +33,7 @@ For information about managing your license count, see [Manage available license
 
 ## Eliminate the “My Teams” tab for users without teams
 
-To eliminate the confusion of displaying an empty tab, we have removed the "My Teams" tab from users who are not assigned to any teams. Prior to this change, if a user didn’t belong to any teams, the My Teams tab was empty.
+To eliminate the confusion of displaying an empty tab, we have removed the "My Teams" tab from users who are not assigned to any teams. Prior to this change, if a user didn't belong to any teams, the My Teams tab was empty.
 
 For information about what information displays in Workfront Goals, see [Filter information in Adobe Workfront Goals](../../../../workfront-goals/goal-management/filter-information-wf-goals.md).
 

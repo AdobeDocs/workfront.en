@@ -47,7 +47,7 @@ When adding an integration, the administrator will enter values for the followin
   </tr> 
   <tr> 
    <td>Base API URL</td> 
-   <td> <p>The location of the callback API. When making calls to the external system,Workfront will simply append the endpoint name to this address. For example, if the admin entered the Base API URL, “ https://www.mycompany.com/api/v1 ”, Workfront would using the following URL to get a document’s metadata: https://www.mycompany.com/api/v1/metadata?id=1234.</p> </td> 
+   <td> <p>The location of the callback API. When making calls to the external system,Workfront will simply append the endpoint name to this address. For example, if the admin entered the Base API URL, “ https://www.mycompany.com/api/v1 ”, Workfront would using the following URL to get a document's metadata: https://www.mycompany.com/api/v1/metadata?id=1234.</p> </td> 
   </tr> 
   <tr> 
    <td>Request parameters</td> 
@@ -94,11 +94,11 @@ Workfront document webhooks supports two different forms of authentication: OAut
 
 OAuth2 allows Workfront to make authorized API calls to a webhook provider on behalf of a user. Before doing so, the user must connect their external document provider account to Workfront and grant Workfront
 
-access to act on their behalf. This handshaking process only happens once for each user. Here’s how it works:
+access to act on their behalf. This handshaking process only happens once for each user. Here's how it works:
 
 1. The user begins connecting the webhook integration to their account. Currently, this is done by&nbsp;clicking the “Add Document” dropdown > “Add Service” > Custom integration name. 
 1. Workfront navigates the user the Authentication URL, which may prompt the user to login to the&nbsp;external document provider. This page is hosted by the webhook provider or the external document management system. When doing so Workfront adds a “state” parameter to the Authentication URL. This value must be passed back to Workfront by appending the same value to the Workfront Return URI in the step below. 
-1. After logging to the external system (or if the user is already logged in), the user is taken to an&nbsp;“Authentication” page, which explains that Workfront is requesting access to perform a set of actions on the user’s behalf. 
+1. After logging to the external system (or if the user is already logged in), the user is taken to an&nbsp;“Authentication” page, which explains that Workfront is requesting access to perform a set of actions on the user's behalf. 
 1. If the user clicks the “Allow” button, the browser will redirect to the Workfront Redirect URI , adding “code=`<code>`” to the querystring. Per the OAuth2 spec, this token is short lived. The querystring must also have the following, “state=`<sent_by_workfront>`”. 
 1. Workfront processes this request and makes an API call to the Token Endpoint URL with the&nbsp;authorization code. 
 1. The Token Endpoint URL returns a refresh token and access token. 
@@ -224,7 +224,7 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
   <tr> 
    <td>access_token&nbsp;</td> 
    <td>String</td> 
-   <td> <p>A token used to make authorized API calls on the user’s behalf. This should expire to prevent unauthorized API calls.</p> </td> 
+   <td> <p>A token used to make authorized API calls on the user's behalf. This should expire to prevent unauthorized API calls.</p> </td> 
   </tr> 
   <tr> 
    <td>refresh_token&nbsp;</td> 
@@ -270,7 +270,7 @@ GET /metadata?id=[document or folder ID]
  <tbody> 
   <tr> 
    <td>id</td> 
-   <td>&nbsp; <p>The ID of file or folder, as referenced by the webhook provider. This is different than Workfront’s document ID. To get the metadata of the root directory, use the value ‘/’.</p><p>Note: The maximum length for the ID is 255 characters.</p></td> 
+   <td>&nbsp; <p>The ID of file or folder, as referenced by the webhook provider. This is different than Workfront's document ID. To get the metadata of the root directory, use the value ‘/'.</p><p>Note: The maximum length for the ID is 255 characters.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -299,7 +299,7 @@ GET /metadata?id=[document or folder ID]
   <tr> 
    <td>kind&nbsp;</td> 
    <td>String&nbsp;</td> 
-   <td>Specifies if this item is a file or folder (‘file’ or ‘folder’)</td> 
+   <td>Specifies if this item is a file or folder (‘file' or ‘folder')</td> 
   </tr> 
   <tr> 
    <td>id</td> 
@@ -360,9 +360,9 @@ GET /files
 
 | Name&nbsp; |Description |
 |---|---|
-| parentId&nbsp; |The folder ID. To get the metadata of the root directory, use the value ‘/’. |
+| parentId&nbsp; |The folder ID. To get the metadata of the root directory, use the value ‘/'. |
 | max&nbsp; |The maximum number of items to return. Used for pagination. |
-| offset&nbsp; |&nbsp;The page offset, used in conjunction with ‘max’. |
+| offset&nbsp; |&nbsp;The page offset, used in conjunction with ‘max'. |
 
 **Response**
 
@@ -407,7 +407,7 @@ GET /search
   </tr> 
   <tr> 
    <td>offset</td> 
-   <td>&nbsp;The page offset, used in conjunction with ‘max’.</td> 
+   <td>&nbsp;The page offset, used in conjunction with ‘max'.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -485,7 +485,7 @@ The raw thumbnail bytes.
 
 Uploading a file to a document storage provider is a two-step process that requires two separate API endpoint. Workfront begins the upload process by calling /uploadInit . This endpoint returns a document ID which is then passed to /upload when uploading the document bytes. Depending on the underlying document storage system, it may be necessary to create a zero-length document then update the contents of the document later.
 
-Added to version 1.1 of this spec, the document ID and document version ID can be used to retrieve extra information from Workfront. For example, if the document management system wants extra information about the document, the webhook implementation code could use the document ID to retrieve that information using Workfront’s RESTful API. As a good practice, this information could come from custom data fields on the document and it’s containing task, issue, or project.
+Added to version 1.1 of this spec, the document ID and document version ID can be used to retrieve extra information from Workfront. For example, if the document management system wants extra information about the document, the webhook implementation code could use the document ID to retrieve that information using Workfront's RESTful API. As a good practice, this information could come from custom data fields on the document and it's containing task, issue, or project.
 
 **URL**
 
@@ -789,8 +789,8 @@ Problems may arise when processing API requests. This should handled in a consis
 
 * Include an error code in the response header. Error codes include:
 
-   * 403 - Forbidden. Indicates that either the request tokens are missing or invalid, or that credentials associated with the tokens don’t have access to the specified resource. For OAuth-based webhook providers, Workfront will attempt to retrieve new access tokens.
-   * 404 - Not found. Indicates that the specified file or folder doesn’t exist.
+   * 403 - Forbidden. Indicates that either the request tokens are missing or invalid, or that credentials associated with the tokens don't have access to the specified resource. For OAuth-based webhook providers, Workfront will attempt to retrieve new access tokens.
+   * 404 - Not found. Indicates that the specified file or folder doesn't exist.
    * 500 - Internal Server Error. Any other type of error.
 
 * Describe the error in the response body using the following format:
@@ -807,9 +807,9 @@ To run these tests you will need the following:
 
 * A Workfront account with Advanced Document Management (ADM) enabled
 * A Workfront user for this account with System Admin rights
-* A Document Webhook instance, who’s HTTP endpoints are accessible to Workfront
+* A Document Webhook instance, who's HTTP endpoints are accessible to Workfront
 
-These tests also assume that you’ve already registered your Document Webhook instance in Workfront under Setup > Documents > Custom Integrations.
+These tests also assume that you've already registered your Document Webhook instance in Workfront under Setup > Documents > Custom Integrations.
 
 ### Test 1: Provision the Document Webhook service for a user
 
@@ -817,8 +817,8 @@ Tests the Authentication URL and Token Endpoint URL for OAuth-based Webhook prov
 
 1. In Workfront, Go to the main Documents page by clicking on the Documents link in the top&nbsp;navigation bar. 
 1. Click on the Add Documents dropdown and select your Document Webhook service under Add&nbsp;Service. 
-1. (OAuth services only) After completing the previous step, you will see your service’s OAuth2&nbsp;authentication page load load in a popup window. (Note: you may be prompted to login to your service first.) From the authentication page, grant Workfront access to the user’s account by click the Trust or Allow button. 
-1. Verify your service has been added to the Add Documents dropdown. If you don’t see it initially, try&nbsp;refreshing your browser.
+1. (OAuth services only) After completing the previous step, you will see your service's OAuth2&nbsp;authentication page load load in a popup window. (Note: you may be prompted to login to your service first.) From the authentication page, grant Workfront access to the user's account by click the Trust or Allow button. 
+1. Verify your service has been added to the Add Documents dropdown. If you don't see it initially, try&nbsp;refreshing your browser.
 
 ### Test 2: Link a document into Workfront Tests the following endpoints: /files, /metadata
 
@@ -843,8 +843,8 @@ Tests the following endpoints: /metadata (specifically the viewLink)
 1. Ensure that you are logged out of the content management system. 
 1. Link a document into Workfront. 
 1. Select the document and click the Open link. 
-1. Verify that content management system’s login screen loads in a new tab. 
-1. Login and verify that you’re taken to the document
+1. Verify that content management system's login screen loads in a new tab. 
+1. Login and verify that you're taken to the document
 
 ### Test 5: Download the document from the content management system
 
@@ -896,12 +896,12 @@ Tests the following endpoints: /download
 Tests the following endpoints: Token Endpoint URL
 
 1. Provision a the Document Webhook service for a user 
-1. Invalidate the user’s access token by either 1 )waiting for it to timeout, or 2) invalidating it manually in&nbsp;the external system.
+1. Invalidate the user's access token by either 1 )waiting for it to timeout, or 2) invalidating it manually in&nbsp;the external system.
 1. Refresh the access token in Workfront. You can do this, for example, by linking a document into Workfront. You will know that the access token refreshed successfully if you were able to navigate to and link a document.
 
 >[!NOTE]
 >
->Currently, the Send To... isn’t available for linked documents. This will be added by Workfront. You can test the /download endpoint by hitting the endpoint manually using a REST client, such as Postman. Alternatively, the /download endpoint can be tested by generating a digital proof. To enable, digital proofing please contact Workfront.
+>Currently, the Send To... isn't available for linked documents. This will be added by Workfront. You can test the /download endpoint by hitting the endpoint manually using a REST client, such as Postman. Alternatively, the /download endpoint can be tested by generating a digital proof. To enable, digital proofing please contact Workfront.
 
 ## Versions
 

@@ -108,7 +108,7 @@ You can remove filters, views, and groupings, including most of the default ones
 
 >[!NOTE]
 >
->At least one filter, one view, and one grouping must remain in your Workfront instance at all times. Without at least one, your lists and reports do not display. In order to assure that a Workfront administrator does not inadvertently delete all of the filters, views, or groupings, the following defaults can’t be removed: Standard view, All filter, and Nothing grouping.
+>At least one filter, one view, and one grouping must remain in your Workfront instance at all times. Without at least one, your lists and reports do not display. In order to assure that a Workfront administrator does not inadvertently delete all of the filters, views, or groupings, the following defaults can't be removed: Standard view, All filter, and Nothing grouping.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 

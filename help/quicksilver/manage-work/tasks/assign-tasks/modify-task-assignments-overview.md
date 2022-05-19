@@ -64,7 +64,7 @@ Removing users can affect task hours and allocation percentages. The effect that
 
 When you delete a user from a task with the following Duration&nbsp;Types:
 
-* **Simple:** The planned hours assigned to that user are subtracted from the task’s total planned hours.
+* **Simple:** The planned hours assigned to that user are subtracted from the task's total planned hours.
 
   >[!IMPORTANT]
   >

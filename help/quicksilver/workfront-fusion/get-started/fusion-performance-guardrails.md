@@ -11,7 +11,7 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 # Adobe Workfront Fusion performance guardrails
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
-Work automation requires rapid processing, so Adobe Workfront Fusion is designed for high performance. Because long-running scenarios can slow down the pace of your work, we’ve designed Workfront Fusion with performance-preserving guardrails that limit execution time, data size, and other scenario parameters. Workfront Fusion designers should be aware of these guardrails and incorporate them into their design practices.
+Work automation requires rapid processing, so Adobe Workfront Fusion is designed for high performance. Because long-running scenarios can slow down the pace of your work, we've designed Workfront Fusion with performance-preserving guardrails that limit execution time, data size, and other scenario parameters. Workfront Fusion designers should be aware of these guardrails and incorporate them into their design practices.
 
 ## Scenarios
 

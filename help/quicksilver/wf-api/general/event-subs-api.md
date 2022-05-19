@@ -66,7 +66,7 @@ To create, query, or delete an event subscription, your Workfront user needs the
 
   >[!NOTE]
   >
-  >If your user is already utilizing Workfront’s API, your user should already have an apiKey. You can retrieve the apiKey via the following HTTP request:
+  >If your user is already utilizing Workfront's API, your user should already have an apiKey. You can retrieve the apiKey via the following HTTP request:
 
 **Request URL:** 
 
@@ -310,7 +310,7 @@ N/A
 
 ## Querying Event Subscriptions
 
-When querying Workfront’s HTTP use the GET method. There are two ways to query for event subscriptions: Query by subscription ID (see below) or query all event subscriptions.
+When querying Workfront's HTTP use the GET method. There are two ways to query for event subscriptions: Query by subscription ID (see below) or query all event subscriptions.
 
 ### Query All Events Subscriptions
 
@@ -410,7 +410,7 @@ Where
 
 ### Query By the Event Subscription ID
 
-You can query for event subscriptions by the event subscription’s ID. The request syntax for listing event subscriptions is as follows:
+You can query for event subscriptions by the event subscription's ID. The request syntax for listing event subscriptions is as follows:
 
 **Request URL:** 
 
@@ -527,7 +527,7 @@ You can make several AND or OR statements in a single filter by specifying a con
 
 ## Deleting Event Subscriptions
 
-When deleting Workfront’s HTTP use the DELETE method. The request syntax for deleting a single event subscription by subscription ID is as follows:
+When deleting Workfront's HTTP use the DELETE method. The request syntax for deleting a single event subscription by subscription ID is as follows:
 
 **Request URL:** 
 
@@ -551,7 +551,7 @@ When deleting Workfront’s HTTP use the DELETE method. The request syntax for d
  <tbody> 
   <tr> 
    <td> <p>Authorization</p> </td> 
-   <td> <p> User’s apiKey </p> </td> 
+   <td> <p> User's apiKey </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -793,7 +793,7 @@ You can query all event subscriptions for a customer as specified by the apiKey 
  <tbody> 
   <tr> 
    <td> <p>Authorization</p> </td> 
-   <td> <p> User’s apiKey </p> </td> 
+   <td> <p> User's apiKey </p> </td> 
   </tr> 
  </tbody> 
 </table>

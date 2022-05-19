@@ -5,7 +5,7 @@ draft: Probably
 ---
 # Grant access to teams
 
-As an Adobe Workfront administrator, you can use an access level to define a user’s access to teams in Workfront, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+As an Adobe Workfront administrator, you can use an access level to define a user's access to teams in Workfront, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-## Configure users’ access to edit users using a custom access level
+## Configure users' access to edit users using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Teams, then select the abilities you want to grant under **Fine-tune your settings**.
@@ -110,7 +110,7 @@ You must have the following access to perform the steps in this article:
 >* The following are true, regardless of access level settings:
 >
 >   * Team owners can always view and edit their teams
->   * Users always have access to view the teams they’re on
+>   * Users always have access to view the teams they're on
 >
 >* The configuration of any option available for both View and Edit (such as "View teams associated with my groups") is retained if you decide to select View instead of Edit or Edit instead of View in an access level.
 >

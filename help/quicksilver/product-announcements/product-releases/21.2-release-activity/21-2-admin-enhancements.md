@@ -103,9 +103,9 @@ For information about the Groups area, see [Manage groups](../../../administrati
 >
 >Available only in the new Adobe Workfront experience.
 
-We are continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with a group’s programs from the Groups area in Setup. This saves you from having to go to the Programs area to manage your group’s programs. And it keeps the list of group programs you’re working with separate from the other programs in the system.
+We are continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with a group's programs from the Groups area in Setup. This saves you from having to go to the Programs area to manage your group's programs. And it keeps the list of group programs you're working with separate from the other programs in the system.
 
-For more information, see [Create, modify, and view a group’s programs](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
+For more information, see [Create, modify, and view a group's programs](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
 
 <!--WRITER
 <iframe class="vimeo-player_0" src="assets/534956912?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
@@ -133,13 +133,13 @@ For more information about the Setup area, see [Administration and setup](../../
 >
 >This feature is available only in the new Adobe Workfront experience
 
-We are continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with your group’s companies, teams, and portfolios from the Groups area in Setup. This saves you from having to go to the various Setup pages for these objects to manage them for your group. And it keeps the list of group objects you’re looking at separate from those of the other groups in the system.
+We are continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with your group's companies, teams, and portfolios from the Groups area in Setup. This saves you from having to go to the various Setup pages for these objects to manage them for your group. And it keeps the list of group objects you're looking at separate from those of the other groups in the system.
 
 For more information, see the following articles:
 
-* [Create and modify a group’s companies](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md) 
-* [Create and modify a group’s projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) 
-* [Create and modify a group’s teams](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
+* [Create and modify a group's companies](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md) 
+* [Create and modify a group's projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) 
+* [Create and modify a group's teams](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
 
 <!--WRITER
 <iframe class="vimeo-player_0" src="assets/528565760?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
@@ -149,9 +149,9 @@ For more information, see the following articles:
 
 ## New for group administrators: Assign group timesheet profiles
 
-Now it’s easier to manage timesheet profiles for a group you administer. Not only can you create timesheet profiles, you can assign them to your groups or to individual members of your groups. This is true even when the Timesheets & hours option is not enabled in your access level.
+Now it's easier to manage timesheet profiles for a group you administer. Not only can you create timesheet profiles, you can assign them to your groups or to individual members of your groups. This is true even when the Timesheets & hours option is not enabled in your access level.
 
-Up until now, enabling Timesheets & hours option was required in order to assign timesheet profiles. But this might not be ideal for every group administrator because it grants view and edit access to all timesheet and hours information in the system. If you don’t need this level of access, now you can manage timesheet profiles for your groups.
+Up until now, enabling Timesheets & hours option was required in order to assign timesheet profiles. But this might not be ideal for every group administrator because it grants view and edit access to all timesheet and hours information in the system. If you don't need this level of access, now you can manage timesheet profiles for your groups.
 
 For more information, see [Create, edit, and assign timesheet profiles](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
@@ -167,9 +167,9 @@ For information about the Timesheets & hours option in an access level, see [Gra
 
 Using a layout template in the new Workfront experience, you can now set the default Filter, View, and Grouping that users see in object lists throughout Workfront.
 
-For example, instead of leaving the Filter list control set to All, you can change it to My Home Team. This way, whenever a user views a list of objects, it includes only the objects associated with the user’s team.
+For example, instead of leaving the Filter list control set to All, you can change it to My Home Team. This way, whenever a user views a list of objects, it includes only the objects associated with the user's team.
 
-Previously, these defaults couldn’t be customized, so they were always set as All for Filters, Standard for Views, and Nothing for Groupings. One added bonus of the new functionality is that you can hide these three settings from your users if they don’t need them.
+Previously, these defaults couldn't be customized, so they were always set as All for Filters, Standard for Views, and Nothing for Groupings. One added bonus of the new functionality is that you can hide these three settings from your users if they don't need them.
 
 For more information, see [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
@@ -187,7 +187,7 @@ This feature is now included in the [Administrator Fundamentals in the new Workf
 >
 >This feature was released to the Production environment on March 4, 2021.
 
-When you need to edit or delete a custom field that might already be implemented in some Adobe Workfront reports, it’s important to assess whether those reports will need adjustments in order to keep working properly after you make the change.
+When you need to edit or delete a custom field that might already be implemented in some Adobe Workfront reports, it's important to assess whether those reports will need adjustments in order to keep working properly after you make the change.
 
 You can add a custom view in the Custom Forms area with a new Reports column that shows which reports are using a particular custom field.
 
@@ -207,15 +207,15 @@ For more information, [View all reports that use a particular custom field or wi
 >
 >This feature is available only in the new Adobe Workfront experience
 
-Now it’s easier to manage a group when you are viewing a group in the Groups area in Setup. The new More menu lets you quickly edit, copy, or delete the group without going back out to the Groups page. For more information, see [Manage a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
+Now it's easier to manage a group when you are viewing a group in the Groups area in Setup. The new More menu lets you quickly edit, copy, or delete the group without going back out to the Groups page. For more information, see [Manage a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
-Also, you can view and work with your group’s layout templates, schedules, timesheet profiles, and subgroup members from the group’s page. This saves you from having to go to the various Setup pages for these objects to manage them for your group. And it keeps the list of your group’s objects separate from those of the other groups in the system.
+Also, you can view and work with your group's layout templates, schedules, timesheet profiles, and subgroup members from the group's page. This saves you from having to go to the various Setup pages for these objects to manage them for your group. And it keeps the list of your group's objects separate from those of the other groups in the system.
 
 For more information, see the following articles:
 
-* [Create and modify a group’s layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md) 
-* [Create and modify a group’s schedules](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md) 
-* [Create and manage a group’s timesheet profiles](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md) 
+* [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md) 
+* [Create and modify a group's schedules](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md) 
+* [Create and manage a group's timesheet profiles](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md) 
 * [View and manage subgroup members](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
 
 <!--WRITER

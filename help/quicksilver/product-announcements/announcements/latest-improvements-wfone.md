@@ -148,7 +148,7 @@ We monitor your feedback daily!
 
 ### Mark an article as helpful {#mark-an-article-as-helpful}
 
-Use the W**as this helpful** message at the bottom of each article to let us know whether we’re on the right track in helping you answer your questions.
+Use the W**as this helpful** message at the bottom of each article to let us know whether we're on the right track in helping you answer your questions.
 
 ![](assets/helpful-350x168.png)
 

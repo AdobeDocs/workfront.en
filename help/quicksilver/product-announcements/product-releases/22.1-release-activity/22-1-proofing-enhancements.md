@@ -27,13 +27,13 @@ For a list of all changes available with the 22.1 release, see [22.1 Release ove
 >* All U.S. customers
 >
 
-To provide a more integrated experience between Workfront and Proof, we’ve made several improvements regarding proofing capabilities for Reviewers and Requestors:
+To provide a more integrated experience between Workfront and Proof, we've made several improvements regarding proofing capabilities for Reviewers and Requestors:
 
 You can grant Moderator or Author roles to any user in Workfront, regardless of whether they have a Proofing license, giving them additional rights, like applying actions or resolving comments.
 
 You can add Reviewers and Requestors to proofs that require a login or that need to be electronically signed.
 
-All users also benefit from improved connectivity between Workfront and Proof. Now, when deactivating a user or updating a user’s email address, your updates are correctly reflected in proofing when changed in Workfront.
+All users also benefit from improved connectivity between Workfront and Proof. Now, when deactivating a user or updating a user's email address, your updates are correctly reflected in proofing when changed in Workfront.
 
 For more information, see
 
@@ -42,7 +42,7 @@ For more information, see
 
 ## Electronic Signature Enhancements for proofs
 
-We’ve made it easier for users to sign proofs electronically. Now, users can use their Workfront credentials to sign a decision on a proof.
+We've made it easier for users to sign proofs electronically. Now, users can use their Workfront credentials to sign a decision on a proof.
 
 >[!IMPORTANT]
 >
@@ -54,7 +54,7 @@ For more info, see [Proof security overview](../../../review-and-approve-work/pr
 
 ## Desktop Viewer Upgrade
 
-We’ve upgraded the Desktop Proofing Viewer to support up to Chrome version 91 for greater compatibility with interactive proofs.
+We've upgraded the Desktop Proofing Viewer to support up to Chrome version 91 for greater compatibility with interactive proofs.
 
 >[!IMPORTANT]
 >

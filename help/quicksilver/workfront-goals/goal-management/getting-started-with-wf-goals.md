@@ -17,7 +17,7 @@ Your organization must have the following to use the functionality described in 
 For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 Every organization needs to set and communicate clear goals to keep their teams productive, focused, and engaged. Truly knowing how work is aligned to strategy is key to success. Yet, without a system of record that connects your strategy and goals with the work in the organization, attaining alignment can be really difficult.
 
-Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone’s efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.
+Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone's efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.
 
 Workfront Goals is an add-on module for the core Workfront work management platform. It is intended to work together with Workfront platform and leverages many of the platform setup and configuration entities, such as users, teams, groups, and projects.
 
@@ -25,7 +25,7 @@ For information about Workfront Goals, see [Adobe Workfront Goals overview](../.
 
 ## Establish a vision and a strategy for your organization
 
-Typically, the mission and vision of an organization don’t change on a regular basis. But organizational goals often shift based on various factors. There are some key steps to follow to ensure you define and communicate clear and measurable goals to your teams, so that they can achieve what's important if focus does shift.
+Typically, the mission and vision of an organization don't change on a regular basis. But organizational goals often shift based on various factors. There are some key steps to follow to ensure you define and communicate clear and measurable goals to your teams, so that they can achieve what's important if focus does shift.
 
 We have identified the following steps for defining your vision and strategy for your organization:
 
@@ -67,7 +67,7 @@ Consider the following guidelines when creating and aligning goals:
 
 * Consider the question: “What must my teams and I achieve to drive the accomplishment of this top level goal?”
 * Cascaded goals should represent a necessary outcome that must be achieved to drive or enable the achievement of its parent. The scope of that achievement should be more narrow than that of its parent.
-* Don’t create complex goal hierarchies that are difficult to follow or have too many layers.
+* Don't create complex goal hierarchies that are difficult to follow or have too many layers.
 
 For information about creating and aligning goals, see the following articles:
 

@@ -96,7 +96,7 @@ viewalias=workrequired<br>displayname=Work Balance<br><br></pre>
    >aggregator.displayformat
    >```   >
    >
-   >used for the Planned Hours column converts minutes to hours. Because the Planned Hours field was used as a placeholder, this line doesn’t need to be adjusted.
+   >used for the Planned Hours column converts minutes to hours. Because the Planned Hours field was used as a placeholder, this line doesn't need to be adjusted.
    >
    >
    >The    >

@@ -31,7 +31,7 @@ For additional information about access to Workfront Goals, see [Requirements to
 
 ## Connect projects to goals
 
-To move your organization forward, you must create alignment between your outputs (executed work) and your outcomes (strategic goals). You can show how the work your groups, teams, and individual contributors are performing contributes to the progress of your organization’s goals.
+To move your organization forward, you must create alignment between your outputs (executed work) and your outcomes (strategic goals). You can show how the work your groups, teams, and individual contributors are performing contributes to the progress of your organization's goals.
 
 To this purpose, you can connect projects as activities (outputs or executed work) to your goals (outcomes).
 
@@ -56,7 +56,7 @@ To this purpose, you can connect projects as activities (outputs or executed wor
 * You can associate the same project with multiple goals. 
 * Although the project is connected to the goal as a type of activity, you cannot manually update the progress of a project when you check in on your goal. Instead, Workfront calculates the percent complete of the project and Workfront Goals calculates the goal progress using this percent complete. ```This updates the goal in real time after the project percent updates.``` 
 * The owner of the project becomes the owner of this activity.
-* The project duration can be outside the time period of a goal. If a project lasts longer than the goal’s deadline, you can still close your goal and consider it completed, but the goal percent complete will not be 100%. The percent complete of the project no longer updates on the goal. There is an indication on the goal list that the project no longer updates progress for the goal.
+* The project duration can be outside the time period of a goal. If a project lasts longer than the goal's deadline, you can still close your goal and consider it completed, but the goal percent complete will not be 100%. The percent complete of the project no longer updates on the goal. There is an indication on the goal list that the project no longer updates progress for the goal.
 
   ![](assets/goal-closed-project-active-warning-goal-list-350x94.png)
 

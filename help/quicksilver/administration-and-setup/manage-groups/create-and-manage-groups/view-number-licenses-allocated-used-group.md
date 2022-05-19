@@ -11,7 +11,7 @@ If there are any groups above the group you manage, their administrators can als
 
 >[!IMPORTANT]
 >
->A user’s license is counted in a particular group only if the group is the user’s Home Group.
+>A user's license is counted in a particular group only if the group is the user's Home Group.
 
 ## Access requirements
 

@@ -15,7 +15,7 @@ To give you greater control over who can edit, delete, and use custom fields you
 
 Up until now, when you created a custom field, it was editable by everyone in the system. This is still the default state of a custom field, but now you can limit the sharing of a custom field to certain users, roles, teams, groups, and companies. And you can determine whether your recipients can manage or only view the custom field.
 
-Also, to make this experience familiar for you, we’ve designed the user interface for this capability to be similar to other object areas sharing throughout Workfront.
+Also, to make this experience familiar for you, we've designed the user interface for this capability to be similar to other object areas sharing throughout Workfront.
 
 For more information, see [Configure sharing for custom fields and widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
@@ -89,7 +89,7 @@ This feature is now included in the [Planner Fundamentals, Part 3 learning path]
 
 ## New for administrators: Assign a business leader to a group
 
-To help you better organize and define your groups, we’ve added the ability to assign a user as a Business Leader for a group (or subgroup). A Business Leader is a Workfront user who makes business decisions for a group.
+To help you better organize and define your groups, we've added the ability to assign a user as a Business Leader for a group (or subgroup). A Business Leader is a Workfront user who makes business decisions for a group.
 
 The new Business Leader field can be used in report filters, views, and groupings. For example, you can filter by a certain Business Leader to list only the groups for whom that person is assigned in that role.
 
@@ -105,9 +105,9 @@ This feature is now included in the [Administrator Fundamentals, Part 1 learning
 
 ## New for administrators: Associate portfolios, programs, and companies with groups
 
-When Workfront administrators create or edit a portfolio, program, or company, they can assign it to a group. With groups assigned to these objects, it’s easy to identify your group’s responsibilities for them.
+When Workfront administrators create or edit a portfolio, program, or company, they can assign it to a group. With groups assigned to these objects, it's easy to identify your group's responsibilities for them.
 
-For example, you can list all of your organization’s portfolios in a report and look at the Group column to see which ones your group is working on.
+For example, you can list all of your organization's portfolios in a report and look at the Group column to see which ones your group is working on.
 
 For more information, see the section “About associating a group with an object” in the article [Groups overview](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
@@ -200,7 +200,7 @@ For information about using fields in lists and reports, see [Glossary of Adobe 
 
 ## New option to cancel your action when discarding a request draft
 
-When discarding a saved draft, you can now click Cancel on the confirmation message that informs you that your draft will be deleted. This way, you don’t lose the draft in case you change your mind about discarding it.
+When discarding a saved draft, you can now click Cancel on the confirmation message that informs you that your draft will be deleted. This way, you don't lose the draft in case you change your mind about discarding it.
 
 This feature is available only in the new Workfront experience. For information, see [Create and Submit Workfront requests](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FManage_work%2FRequests%2FCreate_Requests%2Fcreate-submit-requests.html).
 

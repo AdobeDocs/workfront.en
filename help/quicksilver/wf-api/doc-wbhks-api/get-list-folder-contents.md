@@ -19,9 +19,9 @@ GET /files
 
 | Name&nbsp; |Description |
 |---|---|
-| parentId&nbsp; |The folder ID. To get the metadata of the root directory, use the value ‘/’. |
+| parentId&nbsp; |The folder ID. To get the metadata of the root directory, use the value ‘/'. |
 | max&nbsp; |The maximum number of items to return. Used for pagination. |
-| offset&nbsp; |&nbsp;The page offset, used in conjunction with ‘max’. |
+| offset&nbsp; |&nbsp;The page offset, used in conjunction with ‘max'. |
 
 ## Response
 

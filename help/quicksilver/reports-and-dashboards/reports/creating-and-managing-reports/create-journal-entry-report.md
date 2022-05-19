@@ -456,7 +456,7 @@ To see how custom fields changed over the course of a project's life cycle:
 
 ## See how the Planned Completion Date changed over the course of a project's life cycle {#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle}
 
-You can set up the Journal Entry report to show how often the Planned Completion Date changes over the course of a project’s life.
+You can set up the Journal Entry report to show how often the Planned Completion Date changes over the course of a project's life.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**.
 1. Click **New Report**, then select **Journal Entry**.

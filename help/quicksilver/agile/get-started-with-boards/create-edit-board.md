@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >When you delete a board, it is permanently removed from Workfront and can’t be restored. Any cards on the board are also deleted along with the board.  
+   >When you delete a board, it is permanently removed from Workfront and can't be restored. Any cards on the board are also deleted along with the board.  
    >You can only delete boards that you created, not boards that you were added to.
 
 1. Click **All Boards** to return to the boards dashboard.

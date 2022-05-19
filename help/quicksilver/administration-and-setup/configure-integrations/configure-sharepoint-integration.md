@@ -184,7 +184,7 @@ When you have created a site app in SharePoint, you can now copy information fro
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Name</p> </td> 
-      <td> <p>Enter a name for the SharePoint integration. Users see this name when they click Add &gt; From ‘name of integration’. </p> </td> 
+      <td> <p>Enter a name for the SharePoint integration. Users see this name when they click Add &gt; From ‘name of integration'. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Sharepoint Host Instance</p> </td> 
@@ -298,7 +298,7 @@ For instructions on creating and editing permissions levels, see [How to create 
 
 Solutions:
 
-This can be caused by a number of things, originating in either Workfront or SharePoint’s configuration. Verify that:
+This can be caused by a number of things, originating in either Workfront or SharePoint's configuration. Verify that:
 
 * The Client ID, Client Secret, return URL and other configuration fields are correctly mapped between the Workfront SharePoint Integration instance and the SharePoint Site App.
 * The user has Full Control permission to the Site Collection used for authentication.

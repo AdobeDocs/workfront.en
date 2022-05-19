@@ -1,9 +1,9 @@
 ---
-title: View and manage a group’s details
-description: View and manage a group’s details
+title: View and manage a group's details
+description: View and manage a group's details
 draft: Probably
 ---
-# View and manage a group’s details
+# View and manage a group's details
 
 You can view and edit the Group Details page for a group or subgroup that you manage. This page includes:
 
@@ -54,7 +54,7 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
-## View and manage a group’s details
+## View and manage a group's details
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
@@ -89,8 +89,8 @@ You must have the following to perform the steps in this article:
         <li><strong>Group Administrators</strong>: Add or remove users with a Planner license as group administrators for the group. Begin typing the name of a user, then click the name when it appears in the drop-down menu.</li> 
         <li><strong>Business Leader</strong>: Do one of the following:
          <ul>
-          <li>If you have not yet assigned a Business Leader for the group, click <strong>Add</strong>, start typing the name of the user you want to assign, then click the person’s name when it appears.</li>
-          <li>If the group already has a Business Leader and you want to change it, double-click the name of the existing Business Leader. Delete the name, start typing the name of the user you want to assign, then click the person’s name when it appears.</li>
+          <li>If you have not yet assigned a Business Leader for the group, click <strong>Add</strong>, start typing the name of the user you want to assign, then click the person's name when it appears.</li>
+          <li>If the group already has a Business Leader and you want to change it, double-click the name of the existing Business Leader. Delete the name, start typing the name of the user you want to assign, then click the person's name when it appears.</li>
          </ul></li> 
        </ul> </td> 
      </tr> 

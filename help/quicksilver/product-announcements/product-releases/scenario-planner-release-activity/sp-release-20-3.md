@@ -22,17 +22,17 @@ Scenario Planner enables you to:
 
 * Highlight resource bottlenecks
 
-  See where you’ve already committed people or budget to existing or planned work.
+  See where you've already committed people or budget to existing or planned work.
 
 * Determine a path forward
 
   Create and compare scenarios, facilitate collaboration and consensus, execute, and then re-plan when necessary.
 
-Scenario Planner helps you be more agile in your planning. Whether you own the strategic plan for your company or you’re conducting quarterly planning for a single business unit, department, or team, Scenario Planner can help. Quickly and easily create and compare multiple scenarios based on constraints, such as budgets or team resources.
+Scenario Planner helps you be more agile in your planning. Whether you own the strategic plan for your company or you're conducting quarterly planning for a single business unit, department, or team, Scenario Planner can help. Quickly and easily create and compare multiple scenarios based on constraints, such as budgets or team resources.
 
 With Scenario Planner, you can model scenarios by objective or initiative in Scenario Planner to answer questions such as:
 
-* If we’re optimizing for growth vs. profitability, what are the differences in investment scenarios?
+* If we're optimizing for growth vs. profitability, what are the differences in investment scenarios?
 * To hit a growth optimization target, do we need additional resources within a specific skill set?
 * To hit a profitability target, do we need to push specific initiatives out to a later date
 

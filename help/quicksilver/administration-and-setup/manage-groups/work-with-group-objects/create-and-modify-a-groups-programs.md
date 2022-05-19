@@ -3,11 +3,11 @@ filename: create-and-modify-a-groups-programs
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Create, modify, and view a group’s programs
+title: Create, modify, and view a group's programs
 description: When you are viewing a group that you manage in the Groups area, you can view and work with its programs.
 ---
 
-# Create, modify, and view a group’s programs
+# Create, modify, and view a group's programs
 
 When you are viewing a group that you manage in the Groups area, you can view and work with its programs.
 
@@ -57,7 +57,7 @@ You must have the following to perform the steps in this article:
       <td> 
        <ol> 
         <li value="1"> <p>Click <strong>New Program</strong>, then configure the program in the screen that displays. </p> <p>The system fills in the <strong>Group</strong> field for the new program with the group you are viewing.</p> <p>For information about the configuration options, see <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Create a program</a>.</p> </li> 
-        <li value="2"> <p>Click <strong>Save</strong> to return to the group’s Programs list.</p> </li> 
+        <li value="2"> <p>Click <strong>Save</strong> to return to the group's Programs list.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 

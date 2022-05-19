@@ -160,7 +160,7 @@ This action module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td>URL</td> 
-   <td> <p>Type the address on the web server that you want the module to interact with.</p> <p>You can type a relative URL, which means that you don’t have to include the protocol (such as <code>http://</code>) at the beginning. This suggests to the web server that the interaction is occurring on the server.</p> <p>For example: <code>/api/conversations.create</code></p> <p>Tip: For a list of available endpoints, see the <a href="https://developers.docusign.com/esign-rest-api/reference">DocuSign API Reference</a>.</p> </td> 
+   <td> <p>Type the address on the web server that you want the module to interact with.</p> <p>You can type a relative URL, which means that you don't have to include the protocol (such as <code>http://</code>) at the beginning. This suggests to the web server that the interaction is occurring on the server.</p> <p>For example: <code>/api/conversations.create</code></p> <p>Tip: For a list of available endpoints, see the <a href="https://developers.docusign.com/esign-rest-api/reference">DocuSign API Reference</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Method</td> 
@@ -168,7 +168,7 @@ This action module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td>Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object. This determines the content type of the request.</p> <p>For example,<code> {“Content-type”:“application/json”}</code></p> <p>Note: If you’re getting errors and it's difficult to determine their origin, consider modifying headers based on the Workfront documentation. If your Custom API Call returns a 422 HTTP Request Error, try using a “Content-Type”:“text/plain” header.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object. This determines the content type of the request.</p> <p>For example,<code> {“Content-type”:“application/json”}</code></p> <p>Note: If you're getting errors and it's difficult to determine their origin, consider modifying headers based on the Workfront documentation. If your Custom API Call returns a 422 HTTP Request Error, try using a “Content-Type”:“text/plain” header.</p> </td> 
   </tr> 
   <tr> 
    <td>Query String</td> 

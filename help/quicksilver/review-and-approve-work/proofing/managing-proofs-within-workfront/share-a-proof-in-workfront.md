@@ -74,7 +74,7 @@ Sharing a proof link grants Workfront users viewing access. Users can comment on
 
          >[!NOTE]
          >
-         >If you see an alias email when sharing a proof, don’t create a new guest user by entering the original email if a corresponding alias email exists.
+         >If you see an alias email when sharing a proof, don't create a new guest user by entering the original email if a corresponding alias email exists.
 
       1. Select from the following options:
 
