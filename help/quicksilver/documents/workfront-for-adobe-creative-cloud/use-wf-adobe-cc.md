@@ -286,7 +286,7 @@ If your organization uses Automated Workflow templates, you can generate a proof
 
    Or
 
-   Upload an Abobe document to a Workfront object, as described in the section [Upload a file to a Workfront project, task, or issue](#upload-a-file-to-a-workfront-project-task-or-issue) in this article, then click the name of the document.
+   Upload an Adobe document to a Workfront object, as described in the section [Upload a file to a Workfront project, task, or issue](#upload-a-file-to-a-workfront-project-task-or-issue) in this article, then click the name of the document.
 
 1. In the **Click to select format** drop-down menu, click the format in which you want to save the file in Workfront.
 
