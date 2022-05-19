@@ -163,7 +163,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#addition" class="MCXref xref" xrefformat="{para}">Additional improvements to Workfront Boards</a> <span style="color: #ff0000; font-weight: bold;">New in Preview!</span></p> <p>The following additional improvements are now available for Workfront Boards:</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#addition" class="MCXref xref" xrefformat="{para}">Additional improvements to Workfront Boards</a></p> <p>The following additional improvements are now available for Workfront Boards:</p> 
     <ul> 
      <li> <p>Tag cards on Boards</p> </li> 
      <li> <p>Move cards</p> </li> 
@@ -388,7 +388,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-mobile-enhancements.md#drawings" class="MCXref xref" xrefformat="{para}">Drawings and comments on proof documents in the mobile app</a> <span style="color: #ff0000; font-weight: bold;">Coming soon!</span></p> <p>The Adobe Workfront mobile app now allows you to add drawings and comments on proof documents. A new toolbar on the proof contains drawing tools for shapes. You can choose settings such as color and line thickness for each shape. Drawing a shape on the proof connects your comment to that area of the proof document.</p> <p>You can also reply to comments that others have made on the proof.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-mobile-enhancements.md#drawings" class="MCXref xref" xrefformat="{para}">Drawings and comments on proof documents in the mobile app</a></p> <p>The Adobe Workfront mobile app now allows you to add drawings and comments on proof documents. A new toolbar on the proof contains drawing tools for shapes. You can choose settings such as color and line thickness for each shape. Drawing a shape on the proof connects your comment to that area of the proof document.</p> <p>You can also reply to comments that others have made on the proof.</p> </td> 
    <td><strong>Available on these dates:</strong> 
     <ul> 
      <li> <p>Preview release:&nbsp;N/A<br></p> </li> 
