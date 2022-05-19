@@ -211,7 +211,7 @@ Gets the latest version of the specified page or of the thumbnail of a page in t
 
 #### Create a Presentation From a Template {#create-a-presentation-from-a-template}
 
-Creates a new presentation by replacing all tags like {{Name}}, {{Email}} in a template with provided data.
+Creates a new presentation by replacing all tags like `{{Name}}`, `{{Email}}` in a template with provided data.
 
 <table> 
  <col> 
@@ -254,7 +254,7 @@ Creates a new presentation by replacing all tags like {{Name}}, {{Email}} in a t
    <td role="rowheader">Values </td> 
    <td> <p>Add the values:</p> 
     <ul> 
-     <li><strong>Tag</strong>: Enter the tag you want to replace in the presentation. For example, {{Name}}</li> 
+     <li><strong>Tag</strong>: Enter the tag you want to replace in the presentation. For example, <code>{{Name}}</code></li> 
      <li><strong>Replaced Value</strong>: Enter the value with which the existing tag is to be replaced. For example, if a string <code>{{Name}}</code> in the presentation and the replaced value is Sample, then the <code>{{Name}}</code> will be replaced by <code>Sample</code>.</li> 
     </ul> </td> 
   </tr> 

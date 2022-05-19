@@ -86,6 +86,6 @@ The output shown in the picture below, you will notice that the capturing group 
 
 Another workaround that also incorporates regex is using the replace function
 
-{{replace("abcdefghijklmno pqr stuvw xyz.docx"; "/.&#42;\./"; ".")}}
+`{{replace("abcdefghijklmno pqr stuvw xyz.docx"; "/.&#42;\./"; ".")}}`
 
 Then replace abcdefghijklmno pqr stuvw xyz.docx with your actual filename variable.
