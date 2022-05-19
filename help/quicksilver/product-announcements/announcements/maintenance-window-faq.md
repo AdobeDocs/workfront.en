@@ -26,8 +26,8 @@ Your Workfront maintenance window is dependent upon the cluster where&nbsp;your 
 
 The maintenance window schedule is as follows:
 
-* ```Clusters 1, 2, 3, 5, and 6:``` Saturdays from 8:00 pm to 12:00 am MT
-* ```Cluster 4:```&nbsp;Saturdays from 8:00 pm to 12:00 am GMT/BST
+* **Clusters 1, 2, 3, 5, and 6:** Saturdays from 8:00 pm to 12:00 am MT
+* **Cluster 4:** Saturdays from 8:00 pm to 12:00 am GMT/BST
 
 ## Can I be notified prior to a scheduled maintenance?
 

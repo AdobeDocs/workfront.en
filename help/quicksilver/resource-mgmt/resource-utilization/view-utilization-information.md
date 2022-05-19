@@ -482,7 +482,7 @@ To create or modify a filter:
 
      >[!IMPORTANT]
      >
-     >You must type the field name and not the field label. The field label displays on a custom form attached to an object. For information about the difference between the label and the name of a custom field, see ``` [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)```.
+     >You must type the field name and not the field label. The field label displays on a custom form attached to an object. For information about the difference between the label and the name of a custom field, see  [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
      For more information about the fields you see in the columns, see [Glossary of Adobe Workfront terminology](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).   
      Choose the filter and condition modifiers for the filter. The available modifiers are described in [Filter and condition modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -499,7 +499,7 @@ To create or modify a filter:
 
    Or
 
-   To apply a filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, **Resourcing**, **Utilization** in the left panel, then **Show**>**Programs** ```or```**Portfolios** ```or```**Projects**.
+   To apply a filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, **Resourcing**, **Utilization** in the left panel, then **Show**>**Programs** or**Portfolios** or**Projects**.
 
 1. Click **Saved Filters**, then select the filter you want to apply from the drop-down menu.
 

@@ -26,11 +26,11 @@ Workfront has several sets of tools used to manage resources. Although some of t
 
 * To plan how resources are allocated at a higher level, before the actual work on projects begins, use the following tools:
 
-   * **The Resource Planner**: You can use the Resource Planner in the first stage of resource management to budget project time for your resources according to their scheduled availability. During the planning of resources phase, you can organize users in&nbsp;resource pools and assign multiple resource pools to a project. * 
+   * **The Resource Planner**: You can use the Resource Planner in the first stage of resource management to budget project time for your resources according to their scheduled availability. During the planning of resources phase, you can organize users in&nbsp;resource pools and assign multiple resource pools to a project.
      *For more information about Resource Planning, see the section [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
-   * ```**The Scenario Planner**: This is a higher-level planning of resources that allows you to manage them across multiple initiatives and to use the best scenario for making the most out of their availability and your budget.```
+   * **The Scenario Planner**: This is a higher-level planning of resources that allows you to manage them across multiple initiatives and to use the best scenario for making the most out of their availability and your budget.
 
-     ```T``` ```his is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see``` [The Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
+     This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
@@ -38,11 +38,11 @@ Workfront has several sets of tools used to manage resources. Although some of t
 
 * To schedule or assign resources to actual work (tasks and issues), use the following tools:
 
-   * **The Workload Balancer** (recommended): This is a lower-level stage of resource management, where you can assign your resources to the actual work (tasks and issues) that they must complete, based on the amount of hours needed to complete them and their availability. Using the Workload Balancer you can assign to users actual work that is currently unassigned or assigned to job roles.
+  * **The Workload Balancer** (recommended): This is a lower-level stage of resource management, where you can assign your resources to the actual work (tasks and issues) that they must complete, based on the amount of hours needed to complete them and their availability. Using the Workload Balancer you can assign to users actual work that is currently unassigned or assigned to job roles.
 
      For information about the Workfront Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md). 
    
-   * **Scheduling** (deprecated): Refers to assigning actual work to users by matching the job roles assigned to the tasks and issues with the job roles they can fulfill, or assigning actual work to users on tasks and issues which are currently unassigned. This is a lower-level view of resource management, where you can assign your resources to the actual work (tasks and issues) that they must fulfill, according to the hours needed in the project plan to fulfill them.  
+  * **Scheduling** (deprecated): Refers to assigning actual work to users by matching the job roles assigned to the tasks and issues with the job roles they can fulfill, or assigning actual work to users on tasks and issues which are currently unassigned. This is a lower-level view of resource management, where you can assign your resources to the actual work (tasks and issues) that they must fulfill, according to the hours needed in the project plan to fulfill them.  
      For more information about resource scheduling, see the section [Resource Scheduling](../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
 
      >[!NOTE]

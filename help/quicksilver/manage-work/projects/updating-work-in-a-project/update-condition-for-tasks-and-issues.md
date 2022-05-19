@@ -47,9 +47,9 @@ You must have the following access to perform the steps in this article:
 
 ## Automatically update the Condition by updating the status
 
-When you are assigned a task or issue and you click **Work On It** ```, Start Task or Start Issue,``` or update its status, the Condition of the task or issue automatically changes to the default Condition associated with **Going Smoothly**.
+When you are assigned a task or issue and you click **Work On It** , Start Task or Start Issue, or update its status, the Condition of the task or issue automatically changes to the default Condition associated with **Going Smoothly**.
 
-For information about using a custom Condition as a default Condition, see the articles ``` [Set a custom condition as the default for tasks and issues](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)``` and [Set a custom condition as the default for projects](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
+For information about using a custom Condition as a default Condition, see the articles  [Set a custom condition as the default for tasks and issues](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) and [Set a custom condition as the default for projects](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
 
 For information about changing the task status, see [Update task status](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md).
 
@@ -82,7 +82,7 @@ To manually set the Condition of a task or an issue:
 
      >[!NOTE]
      >
-     >```Conditions can be customized for your environment, so you may find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).```
+     >Conditions can be customized for your environment, so you may find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
      For information about the additional functionality that is available when updating a work item, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

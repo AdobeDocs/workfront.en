@@ -42,7 +42,9 @@ You must have the following access to perform the steps in this article:
 
 1. Click **All Boards** to return to the boards dashboard.
 
-   You can also locate the drop-down menu labeled with **Select an option**, and click it to switch to another board.
+   You can also locate the drop-down menu labeled with the name of the current board, and click it to switch to another board.
+
+   ![List of boards](assets/boards-button-list-of-boards-350x188.png)
 
 ## Edit an existing board
 
@@ -62,6 +64,4 @@ You must have the following access to perform the steps in this article:
 1. Click **All Boards** to return to the boards dashboard.
 
    You can also locate the drop-down menu labeled with the name of the current board, and click it to switch to another board.
-
-   ![List of boards](assets/boards-button-list-of-boards-350x188.png)
 

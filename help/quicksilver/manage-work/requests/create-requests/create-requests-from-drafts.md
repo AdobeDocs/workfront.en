@@ -63,7 +63,7 @@ You must do the following before you can create a request from a draft:&nbsp;
 1. (Optional) Click **Filter by request type** in the upper-right corner of the list of drafts, then select the request queue that contains the drafts you want to display. 
 1. Click the name of a draft to open it. 
 1. Update the information for the request as described in [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
-1. (Optional and conditional) At any point during entering the request, click **Discard** ```draft``` if you want to delete the draft. This deletes the draft which cannot be recovered. For more information about deleting drafts, see [Delete a request draft](../../../manage-work/requests/create-requests/delete-request-draft.md). 
+1. (Optional and conditional) At any point during entering the request, click **Discard** draft if you want to delete the draft. This deletes the draft which cannot be recovered. For more information about deleting drafts, see [Delete a request draft](../../../manage-work/requests/create-requests/delete-request-draft.md). 
 
 1. (Optional) Click **Cancel** in the lower-left corner of the page if you want to revert your action and keep the ```draft.```
 

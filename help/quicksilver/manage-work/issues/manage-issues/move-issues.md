@@ -81,7 +81,7 @@ You can move one issue when viewing it.
 
 ### Move a single issue in the Preview environment
 
-1. Go to an issue that you want to copy, click the **More** menu ![](assets/more-icon.png)to the right of the issue name, then select **Move** ```to```.
+1. Go to an issue that you want to copy, click the **More** menu ![](assets/more-icon.png)to the right of the issue name, then select **Move** to.
 
    ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 

@@ -493,7 +493,7 @@ You can select from the following:
 
 * When you display the Resource Planner in the Role and Project view, the information displays in Hours, FTE, or Cost values. 
 * When you display the Resource Planner in the User view, the information displays in Hours or FTE values.  
-  Hours are displayed by default for all views. ```(some of the information in this area is also covered in Calculating Costs in the RP - https://workfront.zendesk.com/hc/en-us/articles/115004186433 - update this article also, when changes here occur)```
+  Hours are displayed by default for all views. (some of the information in this area is also covered in Calculating Costs in the RP - https://workfront.zendesk.com/hc/en-us/articles/115004186433 - update this article also, when changes here occur)
 
 To change the kind of information displayed in the Resource Planner:
 
@@ -578,25 +578,25 @@ To export the information in the Resource Planner:
 1. From any of the views of the Resource Planner, click **Export**. 
    ![RP_export_timeframe_box.png](assets/rp-export-timeframe-box-350x426.png)
 
-1. ```Specify the following:```
+1. Specify the following:
 
-   * ```**Start Date**: Indicates the start date of your export. The exported file contains allocation and availability information starting with the date specified here. ``` 
-   * ```**Number of Periods**: Indicates how many time periods you want to include in your report. The default is four periods, which is also the maximum number of time periods that you can include in an export. ``` 
-   * ```**Type**: Indicates whether you are exporting information displayed by weeks, months, or quarters. ```
+   * **Start Date**: Indicates the start date of your export. The exported file contains allocation and availability information starting with the date specified here.  
+   * **Number of Periods**: Indicates how many time periods you want to include in your report. The default is four periods, which is also the maximum number of time periods that you can include in an export.  
+   * **Type**: Indicates whether you are exporting information displayed by weeks, months, or quarters. 
 
-1. ```Click **Export**to downloads an Excel (.xlsx) file to your computer. ```   
-   ```Or```   
-   ``` (Conditional) If you have unsaved Budgeted Hours in the Role or Project views, click **Save and Continue**, then the Excel (.xlsx) file is exported to your computer.  
-   Only the information that you saved is exported.``` 
+1. Click **Export**to downloads an Excel (.xlsx) file to your computer.    
+   Or   
+    (Conditional) If you have unsaved Budgeted Hours in the Role or Project views, click **Save and Continue**, then the Excel (.xlsx) file is exported to your computer.  
+   Only the information that you saved is exported. 
 
 1. (Optional) Share the file with another user by attaching it to an email, storing it on a shared drive, or print the file from your Excel application.&nbsp;
 
-```***```
+***
 
-```ALWAYS READ THESE NOTES FOR 2018 - THERE ARE MODIFICATIONS FOR EACH BETA CAPTURED IN HERE:```
+ALWAYS READ THESE NOTES FOR 2018 - THERE ARE MODIFICATIONS FOR EACH BETA CAPTURED IN HERE:
 
-```&#42;&#42;&#42; This links to Planning in the Resource Planner, Calculating Costs in the Resource Planner, Understanding Project Priority, ```**Understanding Limitations in Displaying Information in the Resource Planner (when this one is deleted, updated this article, as well)**``` . ```
+&#42;&#42;&#42; This links to Planning in the Resource Planner, Calculating Costs in the Resource Planner, Understanding Project Priority, **Understanding Limitations in Displaying Information in the Resource Planner (when this one is deleted, updated this article, as well)** . 
 
-```*** Some pink caveats in this article will have to be removed when the performance is corrected and other features are added - later in 2018```
+*** Some pink caveats in this article will have to be removed when the performance is corrected and other features are added - later in 2018
 
-```^^^^^ READ ALL PINK NOTES WITH EVERY PRODUCTION RELEASE AND REMOVE THE CAVEATS FOR PRODUCTION/ PREVIEW.^^^^^``` 
+^^^^^ READ ALL PINK NOTES WITH EVERY PRODUCTION RELEASE AND REMOVE THE CAVEATS FOR PRODUCTION/ PREVIEW.^^^^^ 
