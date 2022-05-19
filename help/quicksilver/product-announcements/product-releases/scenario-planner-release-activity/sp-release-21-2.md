@@ -25,7 +25,7 @@ To enhance the value of the tools you use to manage your resources for strategic
 * In addition to planning resources by estimating their FTE availability or requirement, you can now use hours as well.
 * In addition to adjusting monthly job role requirements for initiatives, you can now also adjust monthly job roles availability for plans.
 * You can update the names of the Scenario Planner objects using Layout Templates. The objects of the Scenario Planner are: initiative, plan, and scenario.
-* You can now view the project’s portfolio priority value when importing projects in a plan.
+* You can now view the project's portfolio priority value when importing projects in a plan.
 
 For more information, see the following articles:
 
@@ -41,7 +41,7 @@ For more information, see the following articles:
 
 ## Connection between the Scenario Planner, Workload Balancer, and task list
 
-To help you with the strategic planning of your projects and ensure they align with the bigger-picture initiatives of the Scenario Planner, we have created a new area on the project that displays job role requirements from the initiatives as well as planned hours estimated on the project’s work items. This area is available for the project-level Workload Balancer as well as for the task list in the new Workfront experience. In the classic experience this is available only for the project Workload Balancer.
+To help you with the strategic planning of your projects and ensure they align with the bigger-picture initiatives of the Scenario Planner, we have created a new area on the project that displays job role requirements from the initiatives as well as planned hours estimated on the project's work items. This area is available for the project-level Workload Balancer as well as for the task list in the new Workfront experience. In the classic experience this is available only for the project Workload Balancer.
 
 For information, see the following articles:
 

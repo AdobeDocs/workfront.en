@@ -7,7 +7,7 @@ draft: Probably
 
 This workflow step will allow a user to assign objects in Adobe Workfront. This workflow step can be added to any workflow model. The Workfront artifact this step affects will be looked up using a relative path from the payload.
 
-Each workflow step can be added to any new or existing AEM Workflow Model. Workflow models can be conditionally triggered using AEM’s Workflow Launchers. See additional information on [Administering AEM Workflows](https://docs.adobe.com/help/en/experience-manager-65/administering/operations/workflows.html) and [AEM Launchers](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/workflows-starting.html).
+Each workflow step can be added to any new or existing AEM Workflow Model. Workflow models can be conditionally triggered using AEM's Workflow Launchers. See additional information on [Administering AEM Workflows](https://docs.adobe.com/help/en/experience-manager-65/administering/operations/workflows.html) and [AEM Launchers](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/workflows-starting.html).
 
 ## Access requirements
 

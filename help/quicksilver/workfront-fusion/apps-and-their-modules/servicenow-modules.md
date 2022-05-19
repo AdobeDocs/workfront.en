@@ -171,7 +171,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Relative URL</td> 
-   <td> <p>Type the address on the web server that you want the module to interact with.</p> <p>You can type a relative URL, which means that you don’t have to include the protocol (such as <code>http://</code>) at the beginning. This suggests to the web server that the interaction is occurring on the server.</p> <p>For example: <code>/api/conversations.create</code></p> </td> 
+   <td> <p>Type the address on the web server that you want the module to interact with.</p> <p>You can type a relative URL, which means that you don't have to include the protocol (such as <code>http://</code>) at the beginning. This suggests to the web server that the interaction is occurring on the server.</p> <p>For example: <code>/api/conversations.create</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 

@@ -371,7 +371,7 @@ This action module lets you make a custom authenticated call to the Salesforce A
 The module returns the following:
 
 * **Status Code** (number): This indicates the success or failure of your HTTP request. These are standard codes that you can look up on the internet.
-* **Headers** (object): A more detailed context for the response/status code that doesn’t relate to the output body. Not all headers that appear in a response header are response headers, so some might not be useful to you.
+* **Headers** (object): A more detailed context for the response/status code that doesn't relate to the output body. Not all headers that appear in a response header are response headers, so some might not be useful to you.
 
   The response headers depend on the HTTP request you chose when configuring the module.
 

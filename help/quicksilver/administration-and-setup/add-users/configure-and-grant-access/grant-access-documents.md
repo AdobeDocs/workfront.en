@@ -5,12 +5,12 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 title: Grant access to documents
-description: As an Adobe Workfront administrator, you can use an access level to define a user’s access to documents in Workfront, as explained in Access levels overview.
+description: As an Adobe Workfront administrator, you can use an access level to define a user's access to documents in Workfront, as explained in Access levels overview.
 ---
 
 # Grant access to documents
 
-As an Adobe Workfront administrator, you can use an access level to define a user’s access to documents, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
+As an Adobe Workfront administrator, you can use an access level to define a user's access to documents, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
 
 This access also applies to document folders.
 
@@ -104,8 +104,8 @@ If you make changes here, make them also in the "Grant access to" articles where
 * issue
 -->
 
-When you share any object with another user, the recipient’s rights on it are determined by a combination of two things:
+When you share any object with another user, the recipient's rights on it are determined by a combination of two things:
 
 * The permissions that you grant to your recipient for the object
-* The recipient’s access level settings for the object's type
+* The recipient's access level settings for the object's type
 

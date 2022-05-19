@@ -23,7 +23,7 @@ Adobe Workfront is changing the system management of users and passwords. These 
 
 >[!NOTE]
 >
->This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 The following table provides details about current and future functionality:
 

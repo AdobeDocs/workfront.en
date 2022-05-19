@@ -82,7 +82,7 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
   <tr>
    <td>access_token&nbsp;</td>
    <td>String</td>
-   <td><p>A token used to make authorized API calls on the user’s behalf. This should expire to prevent unauthorized API calls.</p></td>
+   <td><p>A token used to make authorized API calls on the user's behalf. This should expire to prevent unauthorized API calls.</p></td>
   </tr>
   <tr>
    <td>refresh_token&nbsp;</td>

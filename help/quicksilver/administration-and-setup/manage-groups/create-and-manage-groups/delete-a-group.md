@@ -44,7 +44,7 @@ You must have the following to perform the steps in this article:
 
    >[!IMPORTANT]
    >
-   >When you delete a group or subgroup, you need to preserve the users, work items, and any subgroups that are currently assigned to it. To help you make sure they are preserved, a prompt requires you to reassign the group’s objects to a different group in the step below.
+   >When you delete a group or subgroup, you need to preserve the users, work items, and any subgroups that are currently assigned to it. To help you make sure they are preserved, a prompt requires you to reassign the group's objects to a different group in the step below.
 
 1. In the **Delete Group** box that appears, starting typing and then select the name of the group where you want to move the members, work items, and subgroups of the group you are deleting.
 

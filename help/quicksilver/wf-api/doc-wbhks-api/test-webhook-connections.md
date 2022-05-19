@@ -27,8 +27,8 @@ Tests the Authentication URL and Token Endpoint URL for OAuth-based Webhook prov
 
 1. In Workfront, Go to the main Documents page by clicking on the Documents link in the top&nbsp;navigation bar.
 1. Click on the Add Documents drop-down and select your Document Webhook service under Add&nbsp;Service.
-1. (OAuth services only) After completing the previous step, you will see your service’s OAuth2&nbsp;authentication page load in a popup window. (Note: you may be prompted to log in to your service first.) From the authentication page, grant Workfront access to the user’s account by clicking the Trust or Allow button.
-1. Verify your service has been added to the Add Documents drop-down. If you don’t see it initially, try&nbsp;refreshing your browser.
+1. (OAuth services only) After completing the previous step, you will see your service's OAuth2&nbsp;authentication page load in a popup window. (Note: you may be prompted to log in to your service first.) From the authentication page, grant Workfront access to the user's account by clicking the Trust or Allow button.
+1. Verify your service has been added to the Add Documents drop-down. If you don't see it initially, try&nbsp;refreshing your browser.
 
 **Test 2: Link a document into Workfront Tests the following endpoints: /files, /metadata**
 
@@ -53,8 +53,8 @@ Tests the following endpoints: /metadata (specifically the viewLink)
 1. Ensure that you are logged out of the content management system.
 1. Link a document into Workfront.
 1. Select the document and click the Open link.
-1. Verify that content management system’s login screen loads in a new tab.
-1. Login and verify that you’re taken to the document
+1. Verify that content management system's login screen loads in a new tab.
+1. Login and verify that you're taken to the document
 
 **Test 5: Download the document from the content management system**
 
@@ -106,7 +106,7 @@ Tests the following endpoints: /download
 Tests the following endpoints: Token Endpoint URL
 
 1. Provision a the Document Webhook service for a user
-1. Invalidate the user’s access token by either 1 )waiting for it to timeout, or 2) invalidating it manually in&nbsp;the external system.
+1. Invalidate the user's access token by either 1 )waiting for it to timeout, or 2) invalidating it manually in&nbsp;the external system.
 1. Refresh the access token in Workfront. You can do this, for example, by linking a document into Workfront. You will know that the access token refreshed successfully if you were able to navigate to and link a document.
 
 >[!NOTE]

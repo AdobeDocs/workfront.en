@@ -50,7 +50,7 @@ Authentication options are displayed for all customers. Improved password manage
 
 >[!NOTE]
 >
->This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 To configure authentication preferences:
 

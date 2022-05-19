@@ -35,7 +35,7 @@ This feature is now included in the [Planner Fundamentals for the new Workfront 
 >
 >This feature is not yet available in Preview. It will release to the Preview environment on April 29, 2021.
 
-To allow you to quickly filter the list of projects on the Projects page, there are two new buttons in the header that allow you to quickly apply the Projects I’m On or Projects I Own filter.
+To allow you to quickly filter the list of projects on the Projects page, there are two new buttons in the header that allow you to quickly apply the Projects I'm On or Projects I Own filter.
 
 For more information on these filters, see [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md).
 
@@ -125,7 +125,7 @@ For information about filling out custom forms, see [Edit information in custom 
 >
 >This feature released to the Production environment on March 10, 2020.
 
-When converting an issue to a project, the issue’s requester is transferred to the project and visible in the Converted Issue Originator field. You can view this field in the Project Details area, as well as in project reports and lists. This information is also visible for tasks, only in reports and lists.
+When converting an issue to a project, the issue's requester is transferred to the project and visible in the Converted Issue Originator field. You can view this field in the Project Details area, as well as in project reports and lists. This information is also visible for tasks, only in reports and lists.
 
 You must enable this field in your Layout Template to be able to view it in the new Adobe Workfront experience for projects.
 
@@ -143,7 +143,7 @@ For information about converting issues, see [Overview of converting issues in A
 >
 >This feature is available only in the new Adobe Workfront experience.
 
-When you are assigning a group to a portfolio, program, or team, we’ve made it easier to ensure that you have the right group—you can click the info icon next to the name of the group to display a tooltip containing the hierarchy of groups above it, along with the group’s administrators. Depending on the details configured for the group, you might also see the group’s Business Leader and description.
+When you are assigning a group to a portfolio, program, or team, we've made it easier to ensure that you have the right group—you can click the info icon next to the name of the group to display a tooltip containing the hierarchy of groups above it, along with the group's administrators. Depending on the details configured for the group, you might also see the group's Business Leader and description.
 
 This is the same functionality that was released recently to help you identify a group that you need to assign to a project, as explained in [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 

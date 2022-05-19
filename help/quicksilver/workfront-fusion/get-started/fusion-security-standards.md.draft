@@ -25,13 +25,13 @@ Workfront Fusion includes a set of application connectors that enable administra
 
 Workfront Fusion uses AES encryption (PBKDF2-SHA512 with 200k iterations) to save credentials securely. Best practice authentication mechanisms include the use of OAuth2. When using OAuth2, usernames and passwords are never stored in Workfront Fusion.
 
-Connected applications that support OAuth2 can revoke Workfront Fusion’s access at any time without having access to Workfront Fusion. Additionally, Workfront Fusion users can also revoke Workfront Fusion’s access to the connected application at any time.
+Connected applications that support OAuth2 can revoke Workfront Fusion's access at any time without having access to Workfront Fusion. Additionally, Workfront Fusion users can also revoke Workfront Fusion's access to the connected application at any time.
 
 Administrators using Workfront Fusion can never retrieve any information related to credentials (such as usernames or the target URL of other systems).
 
 ## Connector Authorization
 
-Workfront Fusion uses the connected application's own authorization mechanisms to ensure that users have access only to the information and actions for which they are authorized. If a user’s credentials do not allow them to access information in the connecting application, they cannot access that information within Workfront Fusion.
+Workfront Fusion uses the connected application's own authorization mechanisms to ensure that users have access only to the information and actions for which they are authorized. If a user's credentials do not allow them to access information in the connecting application, they cannot access that information within Workfront Fusion.
 
 ## IP Allowlist
 

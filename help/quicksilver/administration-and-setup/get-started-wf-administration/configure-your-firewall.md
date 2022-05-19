@@ -16,7 +16,7 @@ If your firewall or mail server is configured to allow access to only certain ve
 
   >[!NOTE]
   >
-  >This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+  >This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 * Using document webhooks when configuring custom document integrations
 * Using Workfront Event Subscriptions
@@ -38,7 +38,7 @@ The IP addresses that you must add to your allowlist on your firewall depend on 
 
 >[!IMPORTANT]
 >
->Some Workfront integrations do not work when the allowlist is enabled because they can’t be configured with a static IP address. To use the following integrations, you must disable the allowlist.
+>Some Workfront integrations do not work when the allowlist is enabled because they can't be configured with a static IP address. To use the following integrations, you must disable the allowlist.
 >
 >* Workfront for G Suite 
 >* Workfront for Outlook 

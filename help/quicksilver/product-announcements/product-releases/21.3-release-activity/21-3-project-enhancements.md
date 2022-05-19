@@ -15,7 +15,7 @@ For a list of all changes available with the 21.3 release, see [21.3 Release ove
 >
 >This feature is available only in the new Adobe Workfront experience.
 
-To help you streamline the project creation process —and to help you more easily identify and report on which groups own which project templates—we’ve added the ability to assign a group to a project template.
+To help you streamline the project creation process —and to help you more easily identify and report on which groups own which project templates—we've added the ability to assign a group to a project template.
 
 When you assign a group to a project template, all projects created from the template are automatically associated with the template's group. For more information, see [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
@@ -166,7 +166,7 @@ For information about exporting custom forms from an object, see [Export custom 
 
 [View this video in full-screen mode.](https://vimeo.com/552598277/c5de0a5c63)
 
-## Added Planned Completion Date timestamp in the object’s header
+## Added Planned Completion Date timestamp in the object's header
 
 >[!NOTE]
 >

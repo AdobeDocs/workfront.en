@@ -16,7 +16,7 @@ This article explains the pros and cons of 4 options you can use to retrieve you
 
 AtAppStore, a Workfront certified partner, has an easy-to-use app that allows you to download your data. This app also includes a viewer that allows you to easily view your data.
 
-* **Pros:**&nbsp;All your Workfront objects are exported, including the custom fields. The interface of the Viewer is easy to use and read, and it’s easily importable in a MS Access Database.  
+* **Pros:**&nbsp;All your Workfront objects are exported, including the custom fields. The interface of the Viewer is easy to use and read, and it's easily importable in a MS Access Database.  
 
 * **Cons:**&nbsp;Documents are not exported. You will have to download them separately. For more information, go to&nbsp; [http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx.](http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx)
 
@@ -33,7 +33,7 @@ Your Account Executive can submit a request to our Database team to export a dat
 
 Whether you have remote consulting hours or not, you can use one of our consultants to export your data in the form of reports or kick-starts, or you can run these reports yourself:
 
-* **Pros**:&nbsp;The reports are easy to read and can be imported in a variety of applications; they can be customized to include any groupings and views you’d like.  
+* **Pros**:&nbsp;The reports are easy to read and can be imported in a variety of applications; they can be customized to include any groupings and views you'd like.  
 
 * **Cons**:&nbsp;Documents will have to be downloaded separately.  
 

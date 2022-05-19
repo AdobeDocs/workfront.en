@@ -58,7 +58,7 @@ The Workfront for AEM Assets connector allows your organization to do the follow
 
 Before you can install the Workfront connector for AEM Assets, ensure that the following prerequisites are met:
 
-* AEM Assets installed and configured, version 6.5 or later. For information about installing AEM Assets, see the [Adobe Experience Manager documentation](https://docs.adobe.com/docs/en/aem/6-2/deploy.html).
+* AEM Assets installed and configured, version 6.5 or later. For information about installing AEM Assets, see the [Adobe Experience Manager documentation](https://experienceleague.adobe.com/docs/experience-manager.html).
 * (Conditional) If your firewall rules don't allow traffic as expected, add your cluster's IP address and/or domain to your allowlist. For more information, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Install the Workfront for AEM Assets connector package {#install-the-workfront-for-aem-assets-connector-package}

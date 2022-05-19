@@ -22,7 +22,7 @@ The new Adobe Workfront experience helps you and your users to:
 * **Contribute:** Connect to the big picture and do work that matters.
 * **Engage:** Work across teams in a modern, intuitive system designed for you, by you.
 
-Discover the key features that are available only in the new Adobe Workfront experience, and what’s been removed.
+Discover the key features that are available only in the new Adobe Workfront experience, and what's been removed.
 
 * [New features available with the new Adobe Workfront experience](#new-features-available-with-the-new-adobe-workfront-experience) 
 * [Functionality removed from the new Adobe Workfront experience](#functionality-removed-from-the-new-adobe-workfront-experience)
@@ -53,7 +53,7 @@ Discover the key features that are available only in the new Adobe Workfront exp
   </tr> 
   <tr> 
    <td> <p><strong>Object header</strong> </p> <p>Connection to strategy</p> </td> 
-   <td> <p><strong>The new Workfront experience</strong> </p> <p>The object header is new and consistent across all object types. This provides improved visibility of the type of object as well as a consistent location for actions.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-headers.md" class="MCXref xref">New object headers</a>.</p> <p><strong>Classic experience</strong> </p> <p>When an object is selected, the information and actions in the header change depending on the object you’re viewing.</p> </td> 
+   <td> <p><strong>The new Workfront experience</strong> </p> <p>The object header is new and consistent across all object types. This provides improved visibility of the type of object as well as a consistent location for actions.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-headers.md" class="MCXref xref">New object headers</a>.</p> <p><strong>Classic experience</strong> </p> <p>When an object is selected, the information and actions in the header change depending on the object you're viewing.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Simplified, customizable left navigation</strong> </p> <p>An easier way to find your portfolios, make requests, and much more.</p> </td> 
@@ -68,7 +68,7 @@ Discover the key features that are available only in the new Adobe Workfront exp
    <td> <p><strong>The new Workfront experience</strong> </p> <p>View all information about an object on one page with a seamless design that includes both Workfront fields and custom fields in the same area.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/combined-pages-object-details.md" class="MCXref xref">Edit object details in the new Adobe Workfront experience</a>.</p> <p><strong>Classic experience</strong> </p> <p>Custom data is viewed and accessed differently from standard data. For example, custom data is available in a separate tab within a task.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Layout Templates</strong> </p> <p>Elevate your critical data and customize your users’ navigation with new layout templates.</p> </td> 
+   <td> <p><strong>Layout Templates</strong> </p> <p>Elevate your critical data and customize your users' navigation with new layout templates.</p> </td> 
    <td> <p><strong>The new Workfront experience</strong> </p> <p> New Layout Template functionality helps Workfront administrators customize the new Workfront experience for their users:</p> 
     <ul> 
      <li>Select secondary navigation in projects, tasks, and issues</li> 
@@ -103,7 +103,7 @@ Discover the key features that are available only in the new Adobe Workfront exp
   </tr> 
   <tr> 
    <td>Workfront Goals </td> 
-   <td>The new Adobe Workfront experience <p>Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone’s efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.</p> <p>For more information, see <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Adobe Workfront Goals overview</a>.</p> <p><strong>Classic experience</strong> </p> <p>This functionality is not available.</p> </td> 
+   <td>The new Adobe Workfront experience <p>Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone's efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.</p> <p>For more information, see <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Adobe Workfront Goals overview</a>.</p> <p><strong>Classic experience</strong> </p> <p>This functionality is not available.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Project Metrics</strong> </td> 

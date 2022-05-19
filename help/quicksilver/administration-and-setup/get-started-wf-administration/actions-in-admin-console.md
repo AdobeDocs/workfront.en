@@ -34,7 +34,7 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
     <td role="rowheader">View information about access levels and licenses for your users</td> 
     <td> 
      <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">List your users’ access levels and licenses</a> </p> </li> 
+      <li> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">List your users' access levels and licenses</a> </p> </li> 
      </ul> </td> 
     <td> 
      <ul> 

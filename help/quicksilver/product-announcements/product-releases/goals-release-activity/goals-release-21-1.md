@@ -55,7 +55,7 @@ For a list of all changes available for all areas of Workfront at this point in 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;November 20, 2020</p> <p>Production release:&nbsp;December 3, 2020</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-16.md#eliminat" class="MCXref xref" xrefformat="{para}">Eliminate the “My Teams” tab for users without teams</a> </p> <p>To eliminate the confusion of displaying an empty tab, we have removed the "My Teams" tab from users who are not assigned to any teams. Prior to this change, if a user didn’t belong to any teams, the My Teams tab was empty.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-16.md#eliminat" class="MCXref xref" xrefformat="{para}">Eliminate the “My Teams” tab for users without teams</a> </p> <p>To eliminate the confusion of displaying an empty tab, we have removed the "My Teams" tab from users who are not assigned to any teams. Prior to this change, if a user didn't belong to any teams, the My Teams tab was empty.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;November 20, 2020</p> <p>Production release:&nbsp;With the 21.1 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
  </tbody> 

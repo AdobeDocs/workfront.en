@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
 Where workfront-field can be one of the following:
 
 * A custom form field. These are identified by the prefix **DE:**
-* Any editable field. These fields are identified by their name, field names can be found in Workfront’s API Explorer ([https://experience.workfront.com/s/api-explorer](https://experience.workfront.com/s/api-explorer))
+* Any editable field. These fields are identified by their name, field names can be found in Workfront's API Explorer ([https://experience.workfront.com/s/api-explorer](https://experience.workfront.com/s/api-explorer))
 
 Where aem-mapped-property can be one of the following:
 

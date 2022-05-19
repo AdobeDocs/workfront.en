@@ -18,7 +18,7 @@ For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenan
 
 ## Updates to Microsoft 365 Email Connector
 
-To expand the ways you can use the Microsoft 365 Email connector, we’ve added some new modules:
+To expand the ways you can use the Microsoft 365 Email connector, we've added some new modules:
 
 * Search messages
 * Get a message

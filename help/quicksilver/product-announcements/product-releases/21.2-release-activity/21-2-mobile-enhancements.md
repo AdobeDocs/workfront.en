@@ -46,6 +46,6 @@ For more information, see [Create or edit a custom form](../../../administration
 >
 >This feature will be generally available in the Apple App Store on April 27, 2021. It will be generally available in the Google Play Store with the 21.2 Production release the week of May 10, 2021.
 
-You can now save partially filled requests as drafts in the mobile app. We’ve added a new Drafts section in the Request area for you to easily find any of your drafts.
+You can now save partially filled requests as drafts in the mobile app. We've added a new Drafts section in the Request area for you to easily find any of your drafts.
 
 For more info, see [Adobe Workfront for Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) or [Adobe Workfront for iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).

@@ -14,5 +14,5 @@ description: This section contains the following articles - EDIT ME.
 This section contains the following articles:
 
 * [Create a team from the Setup area](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md) 
-* [Edit a team’s settings from the Setup area](../../../administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
+* [Edit a team's settings from the Setup area](../../../administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
 

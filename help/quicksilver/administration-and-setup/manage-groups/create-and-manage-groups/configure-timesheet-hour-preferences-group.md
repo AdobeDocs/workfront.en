@@ -55,7 +55,7 @@ Consider the following information about configuring an unlocked timesheet or ho
 
 * If you are a group administrator and you configure a timesheet or hour preference for your group, it affects people who use the group as their Home Group.
 * Typically, an unlocked preference remains unlocked indefinitely. If the Workfront administrator re-locks it, the system setting takes effect again and settings for the preference made by the group administrators are lost.
-* A timesheet inherits the timesheet and hour preferences configured for the timesheet owner’s Home Group. 
+* A timesheet inherits the timesheet and hour preferences configured for the timesheet owner's Home Group. 
 
   <!--
   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Add example here?</span>
@@ -67,7 +67,7 @@ Consider the following information about configuring an unlocked timesheet or ho
 
 >[!TIP]
 >
->If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Timesheet &&nbsp;Hours > Preferences, then searching for the group’s name in the box at the top of the page.
+>If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Timesheet &&nbsp;Hours > Preferences, then searching for the group's name in the box at the top of the page.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
@@ -88,7 +88,7 @@ Consider the following information about configuring an unlocked timesheet or ho
       <td role="rowheader">Log time for future dates</td> 
       <td> <p>Allows users to log time for future dates throughout the system in:</p> 
        <ul> 
-       <li>Any projects, tasks, and issues where they have access to log time, regardless of project’s group</li> 
+       <li>Any projects, tasks, and issues where they have access to log time, regardless of project's group</li> 
        </ul> <p>This is useful when users plan to be away from the office and want to log that time beforehand.</p> <p>Note: You cannot prevent users from logging time on tasks or issues that are closed or canceled. You can only prevent users from logging time on complete or dead projects. We recommend that you use filters in lists of tasks and issues to exclude&nbsp;the ones that have been completed or canceled from being visible to users.</p> </td> 
      </tr> 
      <tr> 
@@ -105,7 +105,7 @@ Consider the following information about configuring an unlocked timesheet or ho
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Restrict timesheet editing to owners and admins</td> 
-      <td> <p>Restrict editing to timesheet owners, regardless of project’s group and Workfront administrators. When this option is disabled, timesheets can also be edited by:</p> 
+      <td> <p>Restrict editing to timesheet owners, regardless of project's group and Workfront administrators. When this option is disabled, timesheets can also be edited by:</p> 
        <ul> 
         <li> <p>Users with administrative access to timesheets and hours in their access level</p> </li> 
         <li> <p>Timesheet approvers if “Can edit hours” is enabled on the timesheet</p> </li> 

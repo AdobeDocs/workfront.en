@@ -145,7 +145,7 @@ The following table displays what permissions you can grant users when allowing 
    <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Add Documents</p> <p>Tip: Sometimes people add documents to a project template thinking that they’re adding them to a project. You can prevent this for your recipients by disabling this setting.</p> </td> 
+   <td> <p>Add Documents</p> <p>Tip: Sometimes people add documents to a project template thinking that they're adding them to a project. You can prevent this for your recipients by disabling this setting.</p> </td> 
    <td>&nbsp;</td> 
    <td>✓</td> 
   </tr> 

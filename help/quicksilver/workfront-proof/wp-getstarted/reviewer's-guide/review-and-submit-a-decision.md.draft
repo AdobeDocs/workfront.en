@@ -9,7 +9,7 @@ draft: Probably
 >
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-In this short instruction we present our new ProofHQ Viewer which highlights the benefits and new functionalities. You may still come across the proofs created in our Classic ProofHQ Viewer. If the proofs shared with you open in a viewer that looks different to the one presented here, check out our [Reviewer’s Guide for the Classic ProofHQ Viewer](http://www.proofhq.com/html/user-guide-for-reviewers.html).
+In this short instruction we present our new ProofHQ Viewer which highlights the benefits and new functionalities. You may still come across the proofs created in our Classic ProofHQ Viewer. If the proofs shared with you open in a viewer that looks different to the one presented here, check out our [Reviewer's Guide for the Classic ProofHQ Viewer](http://www.proofhq.com/html/user-guide-for-reviewers.html).
 
 ## View the proof
 
@@ -83,7 +83,7 @@ To view these comments and respond:
 
 ## Email alerts on the proofs
 
-When a proof is created, the proof creator sets your [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) so you can be notified of all the new actions made on the proof. Every new comment and decision made on a proof can generate an email notification that will be delivered to your inbox. If you feel that you’re receiving too many notifications or you’d like to receive these emails more frequently you can easily modify your email alert frequency on each of the proofs shared with you. To change your email alert on a proof:
+When a proof is created, the proof creator sets your [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) so you can be notified of all the new actions made on the proof. Every new comment and decision made on a proof can generate an email notification that will be delivered to your inbox. If you feel that you're receiving too many notifications or you'd like to receive these emails more frequently you can easily modify your email alert frequency on each of the proofs shared with you. To change your email alert on a proof:
 
 * Open the ProofHQ Viewer sidebar and select the email notifications icon
 * Select a new email alert type of your choice

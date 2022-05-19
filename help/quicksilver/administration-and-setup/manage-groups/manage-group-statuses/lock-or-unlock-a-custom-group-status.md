@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Locked and unlocked group statuses
-description: Locking a group’s custom statuses is a way to ensure that people in the group and its subgroups are using the same processes in their flow of work. When a group status is locked, it’s available to all users in the group and in lower groups. Though you (or a Workfront administrator) can edit or delete a status that you lock, administrators of subgroups below can’t do so for those groups; they can change only its display order in the Status list.
+description: Locking a group's custom statuses is a way to ensure that people in the group and its subgroups are using the same processes in their flow of work. When a group status is locked, it's available to all users in the group and in lower groups. Though you (or a Workfront administrator) can edit or delete a status that you lock, administrators of subgroups below can't do so for those groups; they can change only its display order in the Status list.
 ---
 
 # Locked and unlocked group statuses
 
-Locking a group’s custom statuses is a way to ensure that people in the group and its subgroups are using the same processes in their flow of work. When a group status is locked, it’s available to all users in the group and in lower groups. Though you (or a Workfront administrator) can edit or delete a status that you lock, administrators of subgroups below can’t do so for those groups; they can change only its display order in the Status list.
+Locking a group's custom statuses is a way to ensure that people in the group and its subgroups are using the same processes in their flow of work. When a group status is locked, it's available to all users in the group and in lower groups. Though you (or a Workfront administrator) can edit or delete a status that you lock, administrators of subgroups below can't do so for those groups; they can change only its display order in the Status list.
 
-Conversely, unlocking a group’s custom statuses allows the administrators of lower subgroups more flexibility to manage the unique workflows used in their groups. When a group status is unlocked, administrators of lower subgroups can change its attributes or delete it for those subgroups.
+Conversely, unlocking a group's custom statuses allows the administrators of lower subgroups more flexibility to manage the unique workflows used in their groups. When a group status is unlocked, administrators of lower subgroups can change its attributes or delete it for those subgroups.
 
 >[!IMPORTANT]
 >

@@ -17,9 +17,9 @@ the week of January 17, 2022.
 
 For a list of all changes available with the 22.1 release, see [22.1 Release overview](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
-## Interface improvement for users who don’t have access to create requests
+## Interface improvement for users who don't have access to create requests
 
-To improve users’ experience when working with requests, we have introduced an improvement to the interface that indicates to the logged-in user that they do not have access to create requests. With this improvement, the New request button is dimmed for users without access to create issues. Hovering over the dimmed button displays a tooltip that explains that the Workfront administrator restricted the current user’s access to create requests.
+To improve users' experience when working with requests, we have introduced an improvement to the interface that indicates to the logged-in user that they do not have access to create requests. With this improvement, the New request button is dimmed for users without access to create issues. Hovering over the dimmed button displays a tooltip that explains that the Workfront administrator restricted the current user's access to create requests.
 
 Prior to this enhancement, the New request button did not display in the Requests area for these users. Copying and submitting a request as new is also restricted.
 

@@ -37,7 +37,7 @@ As part of our efforts to create parity between Workfront Classic and the new Wo
 
 As a result of this update, Review users can find this area as their default landing page, unless they are assigned to a layout template.
 
-A Workfront or Group administrator can add this area to all users’ Main Menu and Top navigation by using a layout template.
+A Workfront or Group administrator can add this area to all users' Main Menu and Top navigation by using a layout template.
 
 When you open the My Updates area, you can now quickly find the following information:
 

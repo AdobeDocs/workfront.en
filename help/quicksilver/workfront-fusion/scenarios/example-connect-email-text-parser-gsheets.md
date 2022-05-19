@@ -73,7 +73,7 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
    ![](assets/save-max-as-1-350x304.png)
 
-   You can change this based on the volume of messages you receive. However, it’s recommended to set a low value and run the scenario more often.
+   You can change this based on the volume of messages you receive. However, it's recommended to set a low value and run the scenario more often.
 
 1. Now click **Show advanced settings** at the bottom to see these filters:
 
@@ -105,7 +105,7 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
 1. Add a Match Pattern transformer to search for a phrase in an email.
 
-   We will search for the phrase “text parser module” in all incoming emails to capture the body text and sender’s name of the ones that match that phrase.
+   We will search for the phrase “text parser module” in all incoming emails to capture the body text and sender's name of the ones that match that phrase.
 
    1. Write the Pattern as a Regular Expression:
 
@@ -139,9 +139,9 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
    >[!NOTE]
    >
-   >While it’s important to write your regex in accordance with the specification of the email addresses you accept, the one above takes care of most standard email addresses.
+   >While it's important to write your regex in accordance with the specification of the email addresses you accept, the one above takes care of most standard email addresses.
 
-   * If you’d like to search only for email address, you can use the regex below:
+   * If you'd like to search only for email address, you can use the regex below:
 
      ([\w.-]+@[\w.-]+)
    
@@ -159,7 +159,7 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
 Instead of Google Sheets, you can use another app like Airtable or a CRM such as InfusionSoft. For Sheets, we need to first create a spreadsheet with the requisite headers.
 
-1. Create a spreadsheet with the columns under which you’d like to capture the user data. (Feel free to use an existing file too).
+1. Create a spreadsheet with the columns under which you'd like to capture the user data. (Feel free to use an existing file too).
 
    For example, create one called “Email Data: Support Ticket” with Sender Name, Sender Email and Email Content as columns. Name the worksheet "contains: text parser module."
 
@@ -167,7 +167,7 @@ Instead of Google Sheets, you can use another app like Airtable or a CRM such as
 
    ![](assets/add-a-row-350x174.png)
 
-1. Connect your Google account (if you haven’t already). Choose the File you created earlier, followed by choosing the Worksheet in which you’re capturing the data.
+1. Connect your Google account (if you haven't already). Choose the File you created earlier, followed by choosing the Worksheet in which you're capturing the data.
 
    Your setup should look like this:
 

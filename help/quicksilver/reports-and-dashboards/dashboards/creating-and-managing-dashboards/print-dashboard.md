@@ -64,7 +64,7 @@ The following information is included in the printed or exported dashboard file:
 * Report titles
 * Timestamp of when the report was last generated
 * All objects on the dashboard, including list views, external web pages, reports, and calendars
-* Your company’s logo, if your Workfront administrator has customized it in your Global Navigation Bar. For more information about branding the Workfront site, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+* Your company's logo, if your Workfront administrator has customized it in your Global Navigation Bar. For more information about branding the Workfront site, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ### What is not displayed? {#what-is-not-displayed}
 

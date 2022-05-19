@@ -16,7 +16,7 @@ As an Adobe Workfront administrator, you can use a layout template to specify wh
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-For information about layout templates for groups, see [Create and modify a group’s layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Access requirements
 
@@ -68,13 +68,13 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) If you want to change the default filter, view, or grouping for the layout template, hover over the filter, view, or grouping, then click **Set as default**.
 
-   The defaults you choose determine which Filter, View, and Grouping users will see in lists throughout Workfront when the layout template is assigned to them. If you don’t change these defaults, users see all lists as follows:
+   The defaults you choose determine which Filter, View, and Grouping users will see in lists throughout Workfront when the layout template is assigned to them. If you don't change these defaults, users see all lists as follows:
 
    * **Filters**: All
    * **View**: Standard (where applicable; some lists do not have this view)
    * **Grouping**: Nothing
 
-   You can hide the options All, Standard, and Nothing after selecting different defaults (see Step 5), but they can’t be deleted.
+   You can hide the options All, Standard, and Nothing after selecting different defaults (see Step 5), but they can't be deleted.
 
    You can delete any other option being used as a default, but you have to select a different default first.
 
@@ -88,7 +88,7 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Hide a list control</td> 
-      <td> <p>Clear or check the box next to the list control you want to hide or show.</p> <p>If a checkbox is dimmed, you cannot hide that list control. The Default <img src="assets/default-pill.png"> setting for each list control is dimmed because you can’t hide the setting that is currently configured as the default.</p> </td> 
+      <td> <p>Clear or check the box next to the list control you want to hide or show.</p> <p>If a checkbox is dimmed, you cannot hide that list control. The Default <img src="assets/default-pill.png"> setting for each list control is dimmed because you can't hide the setting that is currently configured as the default.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Add a custom list control</td> 

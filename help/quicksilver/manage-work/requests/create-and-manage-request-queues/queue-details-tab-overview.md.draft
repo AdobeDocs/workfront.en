@@ -66,8 +66,8 @@ This indicates who has access to the Request Queue.&nbsp;
 
 * **Anyone** — Allows all active users with a license to submit requests to the queue. 
 * **People with view access to this project** &nbsp;— Users with View rights to&nbsp;the project can submit a request to the queue. 
-* **People in this project’s company** — Users in the same company as the project can submit requests. The company is shown in parentheses when this option has been selected and the company is associated with the project. 
-* **People in this project’s group** — Users in the group selected on the project can submit requests. The group is shown in parentheses.
+* **People in this project's company** — Users in the same company as the project can submit requests. The company is shown in parentheses when this option has been selected and the company is associated with the project. 
+* **People in this project's group** — Users in the group selected on the project can submit requests. The group is shown in parentheses.
 
 **Share with These Links:**
 

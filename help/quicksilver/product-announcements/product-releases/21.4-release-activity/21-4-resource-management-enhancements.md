@@ -11,7 +11,7 @@ For a list of all changes available with the 21.4 release, see [21.4 Release ove
 
 ## Make fast assignments in the Workload Balancer
 
-You can now efficiently balance resources in the Workload Balancer with minimum clicks by dragging an item from the Unassigned area and dropping it on a user’s line in the Assigned area. Using drag-and-drop, you can also unassign items from users and move them back to the Unassigned area, as well as move them to other users.
+You can now efficiently balance resources in the Workload Balancer with minimum clicks by dragging an item from the Unassigned area and dropping it on a user's line in the Assigned area. Using drag-and-drop, you can also unassign items from users and move them back to the Unassigned area, as well as move them to other users.
 
 Prior to this enhancement, you could only assign items by clicking the More menu of a task or an issue, then using the Assign option. Now, the Planned Hours allocated to the user update in real-time while dragging the tasks.
 
@@ -25,7 +25,7 @@ For information about assigning work items in the Workload Balancer, see [Overvi
 
 ## New default option for Workload Balancer
 
-As part of our effort to deprecate scheduling and make the Workload Balancer Workfront’s main resource assignment tool, we have made the Workfront Balancer the default option for all new users. Currently, Scheduling is the default option. This change applies to all areas where you can access Scheduling from which include the Resourcing area (in the new Adobe Workfront experience) or in the People area (in Adobe Workfront Classic), as well as at the project and team level.
+As part of our effort to deprecate scheduling and make the Workload Balancer Workfront's main resource assignment tool, we have made the Workfront Balancer the default option for all new users. Currently, Scheduling is the default option. This change applies to all areas where you can access Scheduling from which include the Resourcing area (in the new Adobe Workfront experience) or in the People area (in Adobe Workfront Classic), as well as at the project and team level.
 
 For information about deprecating Scheduling, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 

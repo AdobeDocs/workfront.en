@@ -50,7 +50,7 @@ The following additional improvements are now available for Workfront Boards:
 
 * Manage cards on Boards
 
-  We’ve added the following features to help you manage cards on your board:
+  We've added the following features to help you manage cards on your board:
 
    * Copy a card: Create a copy of an existing card on your board.
    * Move a card: Quickly move cards to either the top or bottom of a board with the new Top of column and Bottom of column menu options.
@@ -59,7 +59,7 @@ The following additional improvements are now available for Workfront Boards:
 
 * Search in Boards
 
-  We’ve added a search bar to help you search all of the cards on your board.
+  We've added a search bar to help you search all of the cards on your board.
 
   [View a demo video of this feature.](https://vimeo.com/691598058/6d15080636) 
 
@@ -144,7 +144,7 @@ For more information, see the following articles:
 
 To increase efficiency and eliminate the number of clicks, we have released an improvement when converting issues to projects from a list, report, or a dashboard.
 
-Users remain on the list, report or a dashboard after converting an issue to a project instead of being redirected to the project’s page. A success notification with the link to the project displays after the conversion is complete, to allow you to easily navigate to the project, if needed.
+Users remain on the list, report or a dashboard after converting an issue to a project instead of being redirected to the project's page. A success notification with the link to the project displays after the conversion is complete, to allow you to easily navigate to the project, if needed.
 
 For more information, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 

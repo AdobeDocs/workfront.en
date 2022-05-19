@@ -75,9 +75,9 @@ Configure any of the following preferences for newly created projects throughout
       <li>If you or another Workfront administrator hides the status selected here, the default status changes to the first status in the status list.</li> 
      </ul> 
      <ul> 
-      <li> <p>If a locked system or group status is set as the default status and later someone unlocks it, the system tries to replace it with a locked status of the same status type.</p> <p>If it can’t find one, it looks for a required status:</p> 
+      <li> <p>If a locked system or group status is set as the default status and later someone unlocks it, the system tries to replace it with a locked status of the same status type.</p> <p>If it can't find one, it looks for a required status:</p> 
        <ul> 
-        <li>If there is a required status that equates to the unlocked default status, the required status becomes the default status, even if it’s unlocked.</li> 
+        <li>If there is a required status that equates to the unlocked default status, the required status becomes the default status, even if it's unlocked.</li> 
         <li>If none of the required statuses equate to the unlocked default status, the first required status in the status list becomes the default status.</li> 
        </ul> <p>For information about required statuses, see the articles <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref" data-mc-variable-override="">Access the list of system project statuses</a>, <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md" class="MCXref xref" data-mc-variable-override="">Access the list of system task statuses</a>, and <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref" data-mc-variable-override="">Access the list of system issue statuses</a>.</p> </li> 
      </ul> </p> </td> 

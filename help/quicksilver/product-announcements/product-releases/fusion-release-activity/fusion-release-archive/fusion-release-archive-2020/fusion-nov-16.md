@@ -18,13 +18,13 @@ For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenan
 
 ## Updates to Jira Cloud connector
 
-To expand the ways you can use the Jira Cloud connector, we’ve added three new modules:
+To expand the ways you can use the Jira Cloud connector, we've added three new modules:
 
 * Add issue to sprint
 * List Records
 * Search for Records
 
-We’ve also updated existing modules to support the “Sprint” object type. Previously, the “Sprint” object could only be accessed through the Custom API Call module.
+We've also updated existing modules to support the “Sprint” object type. Previously, the “Sprint” object could only be accessed through the Custom API Call module.
 
 For more information, see [Jira Software modules](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
 
@@ -45,7 +45,7 @@ For more information on building Workfront Fusion 2.0 scenarios, see [Create a s
 
 ## Updates to Office 365 Excel connector
 
-To expand the ways you can use the Office 365 Excel connector, we’ve added some new modules. Now you can:
+To expand the ways you can use the Office 365 Excel connector, we've added some new modules. Now you can:
 
 * Trigger a module from changes to workbooks
 * Search or download workbooks
@@ -61,7 +61,7 @@ For more information, see [Microsoft Office 365 Excel modules](../../../../../wo
 
 ## Use OAuth 2.0 in your Workfront app connections
 
-We’ve updated the Workfront connector to use OAuth 2.0. This update means that it’s easier to make changes in your Workfront app connections. For example, if something about your connection changes (such as a password), you no longer need to update each individual connection in your scenarios. In addition, OAuth2 provides other benefits such as improved security and the ability to use Single Sign-on (SSO).
+We've updated the Workfront connector to use OAuth 2.0. This update means that it's easier to make changes in your Workfront app connections. For example, if something about your connection changes (such as a password), you no longer need to update each individual connection in your scenarios. In addition, OAuth2 provides other benefits such as improved security and the ability to use Single Sign-on (SSO).
 
 Existing connections do not require any changes at this time. You can, however, reauthorize existing connections if you want to take advantage of the benefits of OAuth 2.0.
 

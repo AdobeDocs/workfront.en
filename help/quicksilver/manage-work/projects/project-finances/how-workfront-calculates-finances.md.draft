@@ -44,15 +44,15 @@ You can measure how your project is performing, by referring to the following ca
   </tr> 
   <tr> 
    <td> <p>Actual Hours</p> </td> 
-   <td> <p>The hours recorded against the task. For more information about logging time, see <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref" xrefformat="{para}">Log time</a>.</p> <p>Parent Task Actual Hours = Hours Logged on the Parent + All Hours Logged on the Children Tasks.</p> <p>Project Actual Hours = Hours Logged on the Project + All Hours Logged on All Tasks in the Project.</p> <p> For example, i f from the Updates tab for Task 1, you click ‘Log Time’ and enter 25 hours, the Actual Hours = 25. </p> </td> 
+   <td> <p>The hours recorded against the task. For more information about logging time, see <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref" xrefformat="{para}">Log time</a>.</p> <p>Parent Task Actual Hours = Hours Logged on the Parent + All Hours Logged on the Children Tasks.</p> <p>Project Actual Hours = Hours Logged on the Project + All Hours Logged on All Tasks in the Project.</p> <p> For example, i f from the Updates tab for Task 1, you click ‘Log Time' and enter 25 hours, the Actual Hours = 25. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Actual Labor Cost</p> </td> 
-   <td> <p>The result of multiplying the actual hours by the rate of either the job role or the user, depending on how you decide to track your costs (either by job role or by user). </p> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref" xrefformat="{para}">Track costs</a>.</p> <p> For example, i f the task is set up to have the Cost Type = User Hourly and the user’s cost per hour on their profile is $100.00, then if you record 5 actual hours, the Actual Labor Cost = $500.00. </p> <p> For more information about setting up the cost for individual tasks, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref" xrefformat="{para}">Track costs</a>.</p> <p> For more information about editing user profile preferences, including cost, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" xrefformat="{para}">Edit a user's profile</a>.</p> </td> 
+   <td> <p>The result of multiplying the actual hours by the rate of either the job role or the user, depending on how you decide to track your costs (either by job role or by user). </p> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref" xrefformat="{para}">Track costs</a>.</p> <p> For example, i f the task is set up to have the Cost Type = User Hourly and the user's cost per hour on their profile is $100.00, then if you record 5 actual hours, the Actual Labor Cost = $500.00. </p> <p> For more information about setting up the cost for individual tasks, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref" xrefformat="{para}">Track costs</a>.</p> <p> For more information about editing user profile preferences, including cost, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" xrefformat="{para}">Edit a user's profile</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Planned Labor Cost</p> </td> 
-   <td> <p>The result of multiplying the Planned Hours by either the job role or the user billing rate. </p> <p> For example, if the task is set up to have the Cost Type = User Hourly and the user’s cost per hour on their profile is $100.00, and if you set the task to take 5 Planned Hours to complete, the Planned Labor Cost = $500.00. </p> <p> For more information about setting up the cost for individual tasks, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref" xrefformat="{para}">Track costs</a>.</p> <p> For more information about editing user profile preferences, including cost, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" xrefformat="{para}">Edit a user's profile</a>.</p> </td> 
+   <td> <p>The result of multiplying the Planned Hours by either the job role or the user billing rate. </p> <p> For example, if the task is set up to have the Cost Type = User Hourly and the user's cost per hour on their profile is $100.00, and if you set the task to take 5 Planned Hours to complete, the Planned Labor Cost = $500.00. </p> <p> For more information about setting up the cost for individual tasks, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref" xrefformat="{para}">Track costs</a>.</p> <p> For more information about editing user profile preferences, including cost, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" xrefformat="{para}">Edit a user's profile</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>IncurredActualExpenseCost</p> </td> 
@@ -909,7 +909,7 @@ Task 6
 
 &nbsp;
 
-1. Add expenses to each task according to the table below (I’ve added a blank row in between each task to make it easier to read):
+1. Add expenses to each task according to the table below (I've added a blank row in between each task to make it easier to read):
 
 &nbsp;
 
@@ -1192,7 +1192,7 @@ ELSE CPI_Labor = 1
 
 &nbsp;
 
-1. The CPI/EAC for Tasks 4, 5, and 6 are determined the same way so I’ll just provide those values below:
+1. The CPI/EAC for Tasks 4, 5, and 6 are determined the same way so I'll just provide those values below:
 
 Task 4: .23 / $3,400.00
 
@@ -2003,7 +2003,7 @@ Task 6
 
 &nbsp;
 
-1. Add expenses to each task according to the table below (I’ve added a blank row in between each task to make it easier to read):
+1. Add expenses to each task according to the table below (I've added a blank row in between each task to make it easier to read):
 
 &nbsp;
 
@@ -2284,7 +2284,7 @@ ELSE CPI_Labor = 1
 
 &nbsp;
 
-1. The CPI/EAC for Tasks 4, 5, and 6 are determined the same way so I’ll just provide those values below:
+1. The CPI/EAC for Tasks 4, 5, and 6 are determined the same way so I'll just provide those values below:
 
 Task 4: .23 / $3,400.00
 

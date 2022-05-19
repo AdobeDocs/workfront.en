@@ -20,7 +20,7 @@ For example, you can determine which of the following items users see in the lef
 >
 >Changes made to order and visibility are reflected in the mobile app.
 
-For information about layout templates for groups, see [Create and modify a group’s layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Access requirements
 

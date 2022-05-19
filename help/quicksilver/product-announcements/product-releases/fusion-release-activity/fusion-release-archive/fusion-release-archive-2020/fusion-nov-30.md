@@ -19,7 +19,7 @@ For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenan
 
 ## Rate limit for Workfront Fusion 2.0 webhooks.
 
-We’ve introduced a new performance guardrail for Workfront Fusion 2.0. Now, webhooks have a rate limit of 100 requests per second. When this limit is reached, Workfront Fusion 2.0 sends a 429 (Too Many Requests) status.
+We've introduced a new performance guardrail for Workfront Fusion 2.0. Now, webhooks have a rate limit of 100 requests per second. When this limit is reached, Workfront Fusion 2.0 sends a 429 (Too Many Requests) status.
 
 Previously, webhook requests were not limited.
 

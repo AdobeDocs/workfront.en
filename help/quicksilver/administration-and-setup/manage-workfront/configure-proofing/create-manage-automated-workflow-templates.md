@@ -4,12 +4,12 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
 title: Create and manage Automated Workflow templates
-description: As an Adobe Workfront administrator, if your organization’s content review process is often repeated or content is often reviewed by the same people, you can create Automated Workflow templates that contain those reviewers with proof roles and notification settings that you specify. An Automated Workflow template can be simple with just one or two reviewers or complex with many stages and dependencies.
+description: As an Adobe Workfront administrator, if your organization's content review process is often repeated or content is often reviewed by the same people, you can create Automated Workflow templates that contain those reviewers with proof roles and notification settings that you specify. An Automated Workflow template can be simple with just one or two reviewers or complex with many stages and dependencies.
 ---
 
 # Create and manage Automated Workflow templates
 
-As an Adobe Workfront administrator, if your organization’s content review process is often repeated or content is often reviewed by the same people, you can create Automated Workflow templates that contain those reviewers with proof roles and notification settings that you specify. An Automated Workflow template can be simple with just one or two reviewers or complex with many stages and dependencies.
+As an Adobe Workfront administrator, if your organization's content review process is often repeated or content is often reviewed by the same people, you can create Automated Workflow templates that contain those reviewers with proof roles and notification settings that you specify. An Automated Workflow template can be simple with just one or two reviewers or complex with many stages and dependencies.
 
 Automated Workflow templates make it easy to create a proof with an Automated Workflow. When a user creates a proof, they simply choose the template they need.
 

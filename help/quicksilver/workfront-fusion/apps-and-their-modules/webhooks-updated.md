@@ -140,7 +140,7 @@ If a webhook receives data and there is not an active scenario that is expecting
 
 Workfront Fusion supports 3 incoming data formats: Query String, Form Data and JSON.
 
-Workfront Fusion validates all incoming data against the selected data structure. Then, depending on the scenario’s settings, the data is either stored in the queue for processing, or it is processed immediately.
+Workfront Fusion validates all incoming data against the selected data structure. Then, depending on the scenario's settings, the data is either stored in the queue for processing, or it is processed immediately.
 
 If any part of the data does not pass the validation, Workfront Fusion returns a 400 HTTP status code and specifies, in the body of the HTTP response, the reason why the incoming data failed the validation checks. If the validation of the incoming data succeeds, Workfront Fusion returns a “200 Accepted” status.
 

@@ -239,7 +239,7 @@ Login Attempt Logs do not record when a Workfront administrator uses the Log In 
 
 >[!NOTE]
 >
->This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 ### Priority {#priority}
 
@@ -332,7 +332,7 @@ The system generates a User audit log entry when a user does one of the followin
 
   >[!NOTE]
   >
-  >This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+  >This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 * Deletes a user
 * Changes a user's access level, company, team, or group

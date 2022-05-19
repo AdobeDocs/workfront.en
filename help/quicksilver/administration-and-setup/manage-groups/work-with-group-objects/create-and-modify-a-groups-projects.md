@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: group,projects
 navigation-topic: work-with-a-groups-objects
-title: Create and modify a group’s projects
+title: Create and modify a group's projects
 description: When you are viewing a group that you manage in the Groups area, you can view and work with its projects in the following ways - EDIT ME.
 ---
 
-# Create and modify a group’s projects
+# Create and modify a group's projects
 
 When you are viewing a group that you manage in the Groups area, you can view and work with its projects in the following ways:
 
@@ -39,7 +39,7 @@ You must have the following to perform the steps in this article:
     <ul> 
      <li> <p>The project must be associated with the group or any of its subgroups. </p> <p>For information about assigning a group to a project, see <a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">Manage information in the project Overview area</a>.</p> </li> 
      <li> <p>Also, you must have permissions to edit the project, either because you created it or it was shared with you.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </li> 
-    </ul> <p>Note: When you create a project from a group’s page, the system assigns the project to that group. This is different from creating a project in other Workfront areas, where the system assigns the project to the Home Group of the user who creates it (the Project Owner).</p> </td> 
+    </ul> <p>Note: When you create a project from a group's page, the system assigns the project to that group. This is different from creating a project in other Workfront areas, where the system assigns the project to the Home Group of the user who creates it (the Project Owner).</p> </td> 
   </tr> 
  </tbody> 
 </table>

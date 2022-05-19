@@ -3,11 +3,11 @@ filename: create-and-modify-a-groups-portfolios
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Create and modify a group’s projects
+title: Create and modify group projects
 description: As a group administrator, when you are viewing a group that you manage in the Groups area, you can view and work with its projects.
 ---
 
-# Create and modify a group’s projects
+# Create and modify a group's projects
 
 As a group administrator, when you are viewing a group that you manage in the Groups area, you can view and work with its projects.
 
@@ -58,7 +58,7 @@ You must have the following to perform the steps in this article:
        <ol> 
         <li value="1"> <p>Click <strong>New Project</strong> and select an option in the drop-down menu to indicate how you want to add it.</p> <p>For more information, see the section <a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">Ways to create projects</a> in the article <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.</p> </li> 
         <li value="2"> <p>Configure the project in the screen that displays. </p> <p>The system fills in the <strong>Group</strong> field for the new project with the group you are viewing.</p> <p>For more information on the configuration options, see <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p> </li> 
-        <li value="3"> <p>Click <strong>Save</strong> to return to the group’s Projects list.</p> </li> 
+        <li value="3"> <p>Click <strong>Save</strong> to return to the group's Projects list.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 

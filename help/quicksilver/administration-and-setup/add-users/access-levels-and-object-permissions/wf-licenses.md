@@ -67,7 +67,7 @@ When you assign an access level to a user, your available license count is reduc
 
 For example, if you assign the Planner access level to a user, your number of available Plan licenses is reduced by 1.
 
-You can view the licenses and access levels assigned to your users. For more information, see [List your users’ access levels and licenses](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
+You can view the licenses and access levels assigned to your users. For more information, see [List your users' access levels and licenses](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
 For information about managing your licenses, see [Manage available licenses in your system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).  
 

@@ -4,7 +4,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
-title: Proof notifications and reminders
+title: Proof notifications and reminders overview
 description: This section contains the following subsections - EDIT ME.
 ---
 

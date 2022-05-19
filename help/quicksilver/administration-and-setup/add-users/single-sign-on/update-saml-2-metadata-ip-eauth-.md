@@ -19,7 +19,7 @@ For information about configuring SAML prior to your migration to the enhanced a
 
 >[!NOTE]
 >
->This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 ## Access requirements
 

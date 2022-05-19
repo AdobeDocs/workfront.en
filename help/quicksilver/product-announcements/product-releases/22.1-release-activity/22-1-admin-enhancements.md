@@ -29,7 +29,7 @@ For information about how Workfront logs automatic updates on objects, see [Syst
 
 ## Grant access to teams using access levels
 
-A new section in the Access Levels area gives you more granular controls for managing your users’ access to teams. Now you can determine who can create, edit, and view teams.
+A new section in the Access Levels area gives you more granular controls for managing your users' access to teams. Now you can determine who can create, edit, and view teams.
 
 This does not change your users' existing access to teams.
 
@@ -71,7 +71,7 @@ Creating calculated custom fields is now much easier with these additions in the
 * When you start typing an expression or field name, a list of available items displays so that you can choose the one you want. And, when you type an open parenthesis, the closing parenthesis is added automatically.
 * You can preview the result of your calculation using an existing object without leaving the calculation editor.
 
-Also, in the customizable “Instructions” hover text for a calculated custom field, you can display or hide the field’s formula. This is useful if you think that the users who will fill out the custom form won’t need that information.
+Also, in the customizable “Instructions” hover text for a calculated custom field, you can display or hide the field's formula. This is useful if you think that the users who will fill out the custom form won't need that information.
 
 For more information about creating a calculated custom field, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
@@ -114,7 +114,7 @@ In the Companies area, an updated toolbar makes it easy to add existing Workfron
 
 Previously, these actions were available only in the Edit Company box.
 
-The updated toolbar also contains all of the actions that were available in the previous toolbar, such as editing members’ user profile information and deactivating them in the system.
+The updated toolbar also contains all of the actions that were available in the previous toolbar, such as editing members' user profile information and deactivating them in the system.
 
 For more information, see [Manage company memberships](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
@@ -152,7 +152,7 @@ For information about how a group administrator configures unlocked task and iss
 
 ## Select multiple notifications that you want to unlock or re-lock for groups
 
-It's now faster and easier to unlock or re-lock email notifications for groups. Now you can select multiple notifications, check your selections to make sure they’re correct, then click the new Unlock or Lock button that displays in the toolbar.
+It's now faster and easier to unlock or re-lock email notifications for groups. Now you can select multiple notifications, check your selections to make sure they're correct, then click the new Unlock or Lock button that displays in the toolbar.
 
 Previously, you had to unlock and re-lock notifications one at a time. Workfront currently has 95 notifications, so this took a while if you had to do it for all or many of them.
 
@@ -166,9 +166,9 @@ For more information, see [Unlock or lock configuration of event notifications f
 
 ## For group administrators: Easier to select a replacement group when you delete a group
 
-When you are deleting a group, two improvements in the Delete Group box make it easier to select the replacement group that you want to preserve the deleted group’s users, work items, and subgroups:
+When you are deleting a group, two improvements in the Delete Group box make it easier to select the replacement group that you want to preserve the deleted group's users, work items, and subgroups:
 
-* You can start typing the name of the group to find it quickly. Previously, there was only a drop-down list that you couldn’t type in. This was problematic for organizations with many groups because you had to scroll through the list to find the group you wanted. Also, the drop-down list had an item limit, so it was possible that the group you wanted wasn’t displayed.
+* You can start typing the name of the group to find it quickly. Previously, there was only a drop-down list that you couldn't type in. This was problematic for organizations with many groups because you had to scroll through the list to find the group you wanted. Also, the drop-down list had an item limit, so it was possible that the group you wanted wasn't displayed.
 * You can use the new info icon to make sure you are selecting the replacement group you want. Hovering over the icon displays a tooltip listing information about the group, such as the hierarchy of groups above it and the names of its administrators.
 
 For more information, see [Delete a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
@@ -181,7 +181,7 @@ For more information, see [Delete a group](../../../administration-and-setup/man
 
 ## Larger area for creating calculated fields
 
-Now it’s easier to build complex calculated fields in a custom form. Click the new Maximize button to open a large editing window for building your calculation. When you are finished, click Minimize to continue working on your custom form.
+Now it's easier to build complex calculated fields in a custom form. Click the new Maximize button to open a large editing window for building your calculation. When you are finished, click Minimize to continue working on your custom form.
 
 For more information, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 

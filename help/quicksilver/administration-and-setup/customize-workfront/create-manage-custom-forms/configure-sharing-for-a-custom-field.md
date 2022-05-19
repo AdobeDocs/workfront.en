@@ -86,7 +86,7 @@ You must have the following to perform the steps in this article:
 
    * **Make this editable system-wide****so that everyone in Workfront can edit it** (the default option)
 
-     When you add a custom field or widget and you don’t limit sharing for it, everyone in the system who has access to custom forms can view it and edit its properties.
+     When you add a custom field or widget and you don't limit sharing for it, everyone in the system who has access to custom forms can view it and edit its properties.
    
    * **Remove system-wide edit access**
 

@@ -46,7 +46,7 @@ You can install your package in any of the following environments:
 
 >[!TIP]
 >
->We recommend first installing the blueprint in a sandbox environment. That way, you can test the blueprint's content and make sure it’s a good fit for your organization without making changes to live data.
+>We recommend first installing the blueprint in a sandbox environment. That way, you can test the blueprint's content and make sure it's a good fit for your organization without making changes to live data.
 
 >[!NOTE]
 >

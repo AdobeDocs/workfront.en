@@ -3,12 +3,12 @@ filename: workfront-community
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: The Adobe Workfront Community
-description: TheAdobe Workfront Community is an online group of over 10,000 Workfront users. Through the community you can to stay up-to-date on product releases, learn about customer events, and talk to other users about Workfront products and services. You’ll find answers to questions and establish connections with other Workfront customers.
+description: TheAdobe Workfront Community is an online group of over 10,000 Workfront users. Through the community you can to stay up-to-date on product releases, learn about customer events, and talk to other users about Workfront products and services. You'll find answers to questions and establish connections with other Workfront customers.
 ---
 
 # The Adobe Workfront Community
 
-TheAdobe Workfront Community is an online group of over 10,000 Workfront users. Through the community you can to stay up-to-date on product releases, learn about customer events, and talk to other users about Workfront products and services. You’ll find answers to questions and establish connections with other Workfront customers.
+TheAdobe Workfront Community is an online group of over 10,000 Workfront users. Through the community you can to stay up-to-date on product releases, learn about customer events, and talk to other users about Workfront products and services. You'll find answers to questions and establish connections with other Workfront customers.
 
 <!--
 <img src="assets/screen-shot-2018-09-06-at-11.38.27-am-350x112.png" alt="Screen_Shot_2018-09-06_at_11.38.27_AM.png" style="width: 350;height: 112;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -44,16 +44,16 @@ If you do not remember your password for the Community site, reach out to Workfr
 
 ## FAQ
 
-* [What’s my subdomain?](#what-s-my-subdomain) 
+* [What's my subdomain?](#what-s-my-subdomain) 
 * [I forgot my username or password. How do I reset my username or password?](#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password)
 
 ### What's the URL&nbsp;for the Workfront Community?
 
 The Workfront Community is available on the Workfront One website at the following URL:&nbsp; [https://one.workfront.com/s/community](https://one.workfront.com/s/community).
 
-### What’s my subdomain? {#what-s-my-subdomain}
+### What's my subdomain? {#what-s-my-subdomain}
 
-If you are unfamiliar with your subdomain, there is an easy way to find it. If you’re logged into Workfront, your subdomain is the text string or word prior to *.workfront.com*&nbsp; or *my.workfront.com*&nbsp;in the URL. For example, if your Workfront URL reads *appetite.workfront.com,*&nbsp;then *appetite* is your subdomain. See marker&nbsp;C in the diagram below.
+If you are unfamiliar with your subdomain, there is an easy way to find it. If you're logged into Workfront, your subdomain is the text string or word prior to *.workfront.com*&nbsp; or *my.workfront.com*&nbsp;in the URL. For example, if your Workfront URL reads *appetite.workfront.com,*&nbsp;then *appetite* is your subdomain. See marker&nbsp;C in the diagram below.
 
 ![community_5.png](assets/community-5-350x175.png)
 

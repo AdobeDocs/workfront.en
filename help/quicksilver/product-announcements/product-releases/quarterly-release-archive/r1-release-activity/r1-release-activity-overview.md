@@ -83,7 +83,7 @@ For more detailed information about changes we're making to our release process,
 * [New Email Digest Options for "Actions Needed"](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#new-email-digest-options) 
 * [Updated Event Notification Groupings in the Email Setup Area](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#updated-event-notifications-in-the-setup-area) 
 * [Opt Out of Instant Notifications: In-Context Digest Configuration](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#opt-out-of-instant-notifications-in-context-digest-configuration) 
-* [Various Email Notifications Moved from the ‘Action Needed’ Section to Other Project-Related Sections](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#various-email-notifications-moved-from-the-action-needed-section-to-other-project-related-sections) 
+* [Various Email Notifications Moved from the ‘Action Needed' Section to Other Project-Related Sections](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#various-email-notifications-moved-from-the-action-needed-section-to-other-project-related-sections) 
 * [Changes to Bulk Editing User Notifications](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#changes-to-bulk-editing-user-notifications)
 
 ## Mobile and Outlook Enhancements {#mobile-and-outlook-enhancements}

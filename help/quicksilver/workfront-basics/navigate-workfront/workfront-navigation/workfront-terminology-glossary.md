@@ -50,7 +50,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Actual Hours</td> 
-   <td> <p>In a project, task, or issue report, Actual Hours are the sum of all hours logged on the project, task, or issue.&nbsp;</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If from the Updates tab for Task 1, you click ‘Log Time’ and enter 25 hours, the Actual Hours of Task 1 = 25 hours. </p> <p>Workfront calculates Actual Hours for parent tasks or projects using the following formulas:</p> 
+   <td> <p>In a project, task, or issue report, Actual Hours are the sum of all hours logged on the project, task, or issue.&nbsp;</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If from the Updates tab for Task 1, you click ‘Log Time' and enter 25 hours, the Actual Hours of Task 1 = 25 hours. </p> <p>Workfront calculates Actual Hours for parent tasks or projects using the following formulas:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children Actual Hours + Actual Hours on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = Actual Hours logged on the project + Actual Hours logged on standalone or children tasks in the project</code> </p> </li> 

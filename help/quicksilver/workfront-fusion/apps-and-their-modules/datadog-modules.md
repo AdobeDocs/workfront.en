@@ -127,7 +127,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 #### Post Timeseries Points {#post-timeseries-points}
 
-The module allows you to post time-series data that can be graphed on Datadog’s dashboards.
+The module allows you to post time-series data that can be graphed on Datadog's dashboards.
 
 The limit for compressed payloads is 3.2 megabytes (3200000), and 62 megabytes (62914560) for decompressed payloads.
 

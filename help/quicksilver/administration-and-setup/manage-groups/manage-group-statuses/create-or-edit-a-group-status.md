@@ -61,7 +61,7 @@ You must have the following to perform the steps in this article:
    * Locked statuses belonging to the groups above the subgroup.
    * Unlocked statuses that belonged to the groups above the subgroup when it was created.
 
-     After a subgroup is created, unlocked statuses that are created in the groups above it are not included in the subgroup’s status list. However, if someone locks one of them later, it is then included in the subgroup’s status list. For more information, see [How groups inherit statuses](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
+     After a subgroup is created, unlocked statuses that are created in the groups above it are not included in the subgroup's status list. However, if someone locks one of them later, it is then included in the subgroup's status list. For more information, see [How groups inherit statuses](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
 
 1. Select the tab of the object type (**Project**, **Tasks**, or **Issues**) that you want to associate with the status.
 
@@ -153,9 +153,9 @@ You must have the following to perform the steps in this article:
 
 ## Create a custom status for multiple groups
 
-If you are a Workfront administrator, you can create a custom status for multiple groups by creating a system-wide status, then hiding that status from any groups that don’t need it.
+If you are a Workfront administrator, you can create a custom status for multiple groups by creating a system-wide status, then hiding that status from any groups that don't need it.
 
-If you are a group administrator (or a Workfront administrator), you can create a custom status for multiple subgroups within a group hierarchy you manage by creating a status for a higher level group, then hiding that status from any lower subgroups that don’t need it.
+If you are a group administrator (or a Workfront administrator), you can create a custom status for multiple subgroups within a group hierarchy you manage by creating a status for a higher level group, then hiding that status from any lower subgroups that don't need it.
 
 1. If you are a Workfront administrator, create a system-wide unlocked status as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 1. In the box in the upper-right corner, delete **System Statuses**, begin typing the name of a group where you want to hide the status, then click the name when it appears.

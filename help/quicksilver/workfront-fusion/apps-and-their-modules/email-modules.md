@@ -79,7 +79,7 @@ SMAP connection allows you to access your mailbox remotely and read or manipulat
 1. Enter a **Name** for the connection.
 1. Select your **Email provider** from the list. If your email provider is not on the list, select Other.
 1. Enter your **Email address**, **Your full name**, your **User name**, and your **Password**.
-1. (Conditional) If your provider is not on the list, enter your **SMTP server** and **Port**, and specify whether you want to **Use a secure connection (TLS)**. To find this information, check the Help section for your mailbox. If you don’t have this information available, contact your email service provider.
+1. (Conditional) If your provider is not on the list, enter your **SMTP server** and **Port**, and specify whether you want to **Use a secure connection (TLS)**. To find this information, check the Help section for your mailbox. If you don't have this information available, contact your email service provider.
 1. Click **Continue** to create the connection and go back to the module.
 
 ## Email modules and their fields

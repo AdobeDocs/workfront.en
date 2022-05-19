@@ -171,7 +171,7 @@ In developing Reporting Canvas, we have radically redesigned some features—and
 
 >[!NOTE]
 >
->The features listed here will be released as part of a tiered product release scheme. Features you have access to in this beta may not be available in the full release, based on your organization’s plan.
+>The features listed here will be released as part of a tiered product release scheme. Features you have access to in this beta may not be available in the full release, based on your organization's plan.
 
 ## Participate in the beta
 
@@ -185,10 +185,10 @@ The Reporting Canvas beta is completely optional, but may only be opted into by 
 
 1. Select the **Reporting (beta)** icon in the Main menu of your Workfront instance.
 1. Click **Accept** to accept the terms and conditions.
-1. Allow your organization’s data to be added to Reporting Canvas (this may take up to a few hours).
+1. Allow your organization's data to be added to Reporting Canvas (this may take up to a few hours).
 1. Start using Reporting Canvas.
 
-After your organization’s data is added to Reporting Canvas, other system administrators can choose to join on an individual basis in the same way (without waiting for data to be added again).
+After your organization's data is added to Reporting Canvas, other system administrators can choose to join on an individual basis in the same way (without waiting for data to be added again).
 
 To opt in other users that are not Workfront administrators:
 
@@ -222,7 +222,7 @@ To submit feedback about the beta:
 
 ### Can I migrate my legacy reports to Reporting Canvas?
 
-In short, migrating legacy reports won’t be available during the beta. However, it is a planned feature (with some caveats described below) for the official launch.
+In short, migrating legacy reports won't be available during the beta. However, it is a planned feature (with some caveats described below) for the official launch.
 
 While the barrier to building new reports has been significantly lowered with Reporting Canvas, we understand that bringing over some of your existing reports and dashboards will help accelerate the adoption process. As such, we want to provide the tools and resources necessary to make sure you can bring over any relevant legacy items to ensure you start off on the right foot in Reporting Canvas. Since Reporting Canvas is such a radical change to the way current reporting works, however, it would be impossible to migrate every report or dashboard exactly as it is today.
 
@@ -261,7 +261,7 @@ In order to provide the beta to our customers as early as possible, we have rele
 
 ### If something goes wrong in Reporting Canvas during the beta, will my organization's data be impacted?
 
-No. The beta uses a copy of your organization’s data that is populated into Reporting Canvas. While this means that you are safe to experiment during the beta without risk of impacting important data, it also means that in-line editing of data in Reporting Canvas will be unavailable until the official launch.
+No. The beta uses a copy of your organization's data that is populated into Reporting Canvas. While this means that you are safe to experiment during the beta without risk of impacting important data, it also means that in-line editing of data in Reporting Canvas will be unavailable until the official launch.
 
 ### Can I opt out of the beta once I've joined?
 

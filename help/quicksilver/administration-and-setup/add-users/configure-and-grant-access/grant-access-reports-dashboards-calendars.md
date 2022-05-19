@@ -5,19 +5,19 @@ user-type: administrator
 product-area: system-administration;dashboards;calendars
 navigation-topic: configure-access-to-workfront
 title: Grant access to reports, dashboards, and calendars
-description: As an Adobe Workfront administrator, you can use an access level to define a user’s access to reports, dashboards, and calendars in Workfront, as explained in Access levels overview.
+description: As an Adobe Workfront administrator, you can use an access level to define a user's access to reports, dashboards, and calendars in Workfront, as explained in Access levels overview.
 ---
 
 # Grant access to reports, dashboards, and calendars
 
-As an Adobe Workfront administrator, you can use an access level to define a user’s access to reports, dashboards, and calendars, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
+As an Adobe Workfront administrator, you can use an access level to define a user's access to reports, dashboards, and calendars, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
 
 This access also includes access to External Pages. For information about External Pages, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md). 
 
 >[!NOTE]
 >
 >* If you want grant users access to reports, dashboards, and calendars, you must also give those users access to filters, views, and groupings. For instructions, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
->* When someone shares a report, dashboard, or calendar with another user, the recipient’s rights on it are determined by a combination of two things: The recipient’s access level setting for reports, dashboards, and calendars _and_ any permissions that the sharer granted for the report, dashboard, or calendar
+>* When someone shares a report, dashboard, or calendar with another user, the recipient's rights on it are determined by a combination of two things: The recipient's access level setting for reports, dashboards, and calendars _and_ any permissions that the sharer granted for the report, dashboard, or calendar
 >
 >For information about permissions users can grant on a report, dashboard, or calendar when sharing it, see [Share reports, dashboards, and calendars](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
@@ -84,8 +84,8 @@ As the owner or creator of a report, dashboard, or calendar, you can share it wi
 </div>
 -->
 
-When you share any object with another user, the recipient’s rights on it are determined by a combination of two things:
+When you share any object with another user, the recipient's rights on it are determined by a combination of two things:
 
 * The permissions that you grant to your recipient for the object
-* The recipient’s access level settings for the object's type
+* The recipient's access level settings for the object's type
 

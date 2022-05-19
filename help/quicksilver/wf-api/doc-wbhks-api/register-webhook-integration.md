@@ -37,7 +37,7 @@ When adding an integration, the administrator will enter values for the followin
   </tr> 
   <tr> 
    <td>Base API URL</td> 
-   <td> <p>The location of the callback API. When making calls to the external system,Workfront will simply append the endpoint name to this address. For example, if the admin entered the Base API URL, “ https://www.mycompany.com/api/v1 ”, Workfront would using the following URL to get a document’s metadata: https://www.mycompany.com/api/v1/metadata?id=1234.</p> </td> 
+   <td> <p>The location of the callback API. When making calls to the external system,Workfront will simply append the endpoint name to this address. For example, if the admin entered the Base API URL, “ https://www.mycompany.com/api/v1 ”, Workfront would using the following URL to get a document's metadata: https://www.mycompany.com/api/v1/metadata?id=1234.</p> </td> 
   </tr> 
   <tr> 
    <td>Request parameters</td> 

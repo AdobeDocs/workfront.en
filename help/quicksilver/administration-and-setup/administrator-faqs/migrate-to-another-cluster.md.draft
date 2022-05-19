@@ -38,7 +38,7 @@ Workfront established very specific business reasons for which you can request y
 
 >[!NOTE]
 >
->If your organization’s Workfront instance uses SSO, ensure that all Workfront administrators can log in to Workfront using their Workfront credentials (not their SSO credentials). Your SSO login should work after the migration, but this will ensure that at least the Workfront administrators can log in, should the SSO configuration need to be reset.
+>If your organization's Workfront instance uses SSO, ensure that all Workfront administrators can log in to Workfront using their Workfront credentials (not their SSO credentials). Your SSO login should work after the migration, but this will ensure that at least the Workfront administrators can log in, should the SSO configuration need to be reset.
 
 * We recommend that you designate someone in your company to test important workflows in Workfront to make sure they are working correctly after the migration. 
 * Notify your users that there will be a disruption in service to ensure everyone is logged out of your environment before the migration occurs. Any users logged in during the migration will be automatically logged out.

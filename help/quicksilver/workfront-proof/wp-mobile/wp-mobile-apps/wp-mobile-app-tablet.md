@@ -5,7 +5,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-mobile-apps
 title: Workfront Proof mobile app for tablets
-description: The Workfront Proof tablet app lets you conveniently review and approve your proofs when you’re on the go. The app is available for download for everyone, you don’t have to be a Workfront Proof user to be able to review proofs on your tablet or your phone.
+description: The Workfront Proof tablet app lets you conveniently review and approve your proofs when you're on the go. The app is available for download for everyone, you don't have to be a Workfront Proof user to be able to review proofs on your tablet or your phone.
 ---
 
 # Workfront Proof mobile app for tablets
@@ -14,7 +14,7 @@ description: The Workfront Proof tablet app lets you conveniently review and app
 >
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-The Workfront Proof tablet&nbsp;app lets you conveniently review and approve your proofs when you’re on the go. The app is available for download for everyone, you don’t have to be a Workfront Proof user to be able to review proofs on your tablet or your phone.
+The Workfront Proof tablet&nbsp;app lets you conveniently review and approve your proofs when you're on the go. The app is available for download for everyone, you don't have to be a Workfront Proof user to be able to review proofs on your tablet or your phone.
 
 Guests can simply click the Go to proof button in the email notification they receive to open the proof in the app.
 
@@ -45,11 +45,11 @@ The Workfront Proof tablet&nbsp;app gives you access to the dashboard with the p
 
    * Log in using your Workfront Proof credentials.
 
-     If you get a proof invitation email and open in on your mobile device, the link will take you to the proof in the app. You don’t have to be a user to be able to review proofs; however, you do have to have the app installed on your device to be able to view them.
+     If you get a proof invitation email and open in on your mobile device, the link will take you to the proof in the app. You don't have to be a user to be able to review proofs; however, you do have to have the app installed on your device to be able to view them.
    
    * If Single Sign-On is enabled in your account, tap that option on the login screen.
 
-     You will be taken to the login page that will ask you for your email address. After typing your email address, you will be redirected to your Identity Provider’s page where you will be able to log in using your password.
+     You will be taken to the login page that will ask you for your email address. After typing your email address, you will be redirected to your Identity Provider's page where you will be able to log in using your password.
 
      ![Login_screen.png](assets/login-screen-350x261.png)
 
@@ -77,7 +77,7 @@ Similarly to the dashboard charts in our web application, in the mobile app we d
 
 These proofs are grouped into separate views, allowing you to conveniently prioritize your work, starting from the proofs that are already past the deadline.
 
-Another view that you may find useful is the *Recent* view - it shows you the proofs you recently accessed in the app, so if you’d like to see the same proof again, you can easily find it on that list.
+Another view that you may find useful is the *Recent* view - it shows you the proofs you recently accessed in the app, so if you'd like to see the same proof again, you can easily find it on that list.
 
 ![dashboard_views.gif](assets/dashboard-views-350x446.gif)
 
@@ -92,7 +92,7 @@ Another view that you may find useful is the *Recent* view - it shows you the pr
 
    >[!NOTE]
    >
-   >&nbsp;You must have the app installed on your device to be able to review proofs in Workfront Proof, even if you don’t have a Workfront Proof account.
+   >&nbsp;You must have the app installed on your device to be able to review proofs in Workfront Proof, even if you don't have a Workfront Proof account.
 
    When you open a proof for the first time, we will show you a tour helping you get started with reviewing proofs in the app.
 
@@ -114,7 +114,7 @@ Another view that you may find useful is the *Recent* view - it shows you the pr
 
 The video below shows you the basics of commenting in the mobile app. It shows how to make a comment, how to post a reply to a comment, how to use different markups and delete them, and how to edit and delete comments.
 
-You can edit and delete only comments if no reply has been posted. If you don’t see the trash icon, it&nbsp;is possible that this option was disabled by your Workfront Proof administrator.
+You can edit and delete only comments if no reply has been posted. If you don't see the trash icon, it&nbsp;is possible that this option was disabled by your Workfront Proof administrator.
 
 There are three comment viewing options in the app. You can switch between them by clicking on the comment button.
 
@@ -194,7 +194,7 @@ The compare tool displays the two most recent versions of the proof.
 
    ![decisions.png](assets/decisions-350x303.png)
 
-   If you don’t see the green **Finish review** button and you think you should make a decision on the proof, your Workfront Proof administrator can update your proof role, as explained in [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+   If you don't see the green **Finish review** button and you think you should make a decision on the proof, your Workfront Proof administrator can update your proof role, as explained in [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 ## The proofing viewer sidebar
 
@@ -207,7 +207,7 @@ The sidebar contains a lot of useful features and functionalities. Depending on 
 | Workflow |Shows you the details of the review stages, together with a list of reviewers, their deadlines, progress bars, decisions and the number of comments and replies. |
 | **Details** |Shows you information about the proof, additional sharing options and the activity audit trail. |
 | **Share** |Displays the Proof URL and the Embed code. |
-| **Notifications** |Lets you update your email alerts on the proof you’re currently reviewing. This doesn’t alter your default settings. |
+| **Notifications** |Lets you update your email alerts on the proof you're currently reviewing. This doesn't alter your default settings. |
 | **Lock** |Lets you lock the proof. You need to have edit rights on the proof to be able to see this option. |
 | **Delete** |Moves the proof to the Trash folder. You need to have edit rights on the proof to be able to delete it. |
 | **Settings** |You can decide to show pins and/or markups on the proof, you can also enable Keep me logged in to prevent you from getting logged out of the app. |

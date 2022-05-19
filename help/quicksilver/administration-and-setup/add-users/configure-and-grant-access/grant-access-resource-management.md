@@ -5,12 +5,12 @@ user-type: administrator
 product-area: system-administration;resource-management
 navigation-topic: configure-access-to-workfront
 title: Grant access to Resource Management
-description: As an Adobe Workfront administrator, you can use an access level to define a user’s access to Resource Management in Workfront, as explained in Access levels overview.
+description: As an Adobe Workfront administrator, you can use an access level to define a user's access to Resource Management in Workfront, as explained in Access levels overview.
 ---
 
 # Grant access to Resource Management
 
-As an Adobe Workfront administrator, you can use an access level to define a user’s access to Resource Management, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
+As an Adobe Workfront administrator, you can use an access level to define a user's access to Resource Management, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
 
 ## Access requirements
 
@@ -81,10 +81,10 @@ For information about what users in each access level can do with Resource Manag
 </div>
 -->
 
-When you share an object with another user, the recipient’s rights to budget or view resource allocation on it are determined by a combination of 3 things:
+When you share an object with another user, the recipient's rights to budget or view resource allocation on it are determined by a combination of 3 things:
 
-* The recipient’s access level setting for Resource Management
-* The user’s access to financial data, as explained in [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
+* The recipient's access level setting for Resource Management
+* The user's access to financial data, as explained in [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * Any permissions to financial data that the sharer granted for the object
 
 For information about permissions users can grant to financial data on an object when sharing the object, see [Share financial permissions on an object](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).

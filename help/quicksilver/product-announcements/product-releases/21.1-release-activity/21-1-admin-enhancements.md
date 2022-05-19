@@ -15,7 +15,7 @@ For a list of all changes available with the 21.1 release, see [21.1 release ove
 
 ## Introduce new Access Level setting for copying projects
 
-To give you more control, as a system administrator, to what Planners can do with a project, we have made the Edit access to projects in the access level more granular, by introducing a new setting that allows you to enable or disable their ability to copy projects. Prior to this change, when you enabled users’ access to Edit projects, they automatically had access to copy them. With the new feature, you can give someone access to edit projects without necessarily having access to copy them by disabling the new Copy setting.
+To give you more control, as a system administrator, to what Planners can do with a project, we have made the Edit access to projects in the access level more granular, by introducing a new setting that allows you to enable or disable their ability to copy projects. Prior to this change, when you enabled users' access to Edit projects, they automatically had access to copy them. With the new feature, you can give someone access to edit projects without necessarily having access to copy them by disabling the new Copy setting.
 
 If your users had access to Edit projects in their access level prior to this change, they will automatically have this setting enabled when this feature is released.
 
@@ -35,7 +35,7 @@ This feature is now included in the [Administrator Fundamentals in the new Workf
 
 >[!NOTE]
 >
->This functionality isn’t currently available when you are submitting a new Request.
+>This functionality isn't currently available when you are submitting a new Request.
 
 On the Details page for an object, when you are filling in a multi-select drop-down field on a Custom Form, you can click Select All if you need to select all of the available options.
 
@@ -49,7 +49,7 @@ For information about editing data on a Custom Form, see [Edit information in cu
 
 ## Recalculate all Custom Form fields for an object
 
-Now it’s easier to ensure that all data in calculated custom fields is current for an object. A new Recalculate Expressions menu option lets you quickly recalculate all data in these fields.
+Now it's easier to ensure that all data in calculated custom fields is current for an object. A new Recalculate Expressions menu option lets you quickly recalculate all data in these fields.
 
 This is especially useful after someone edits data in another object that is referenced by a calculated custom field in your object.
 
@@ -69,7 +69,7 @@ For more information, see [Edit information in custom form fields](../../../work
 >
 >Until June 24, 2021, this was available as part of a phased rollout only for customers who have the ability to unlock project preferences for groups. Now it is available for all customers.
 
-Adobe Workfront administrators can now give Group Administrators more autonomy by unlocking individual task and issue preferences. When a preference is unlocked, Group Administrators can configure it for their groups to serve each group’s unique needs and internal processes.
+Adobe Workfront administrators can now give Group Administrators more autonomy by unlocking individual task and issue preferences. When a preference is unlocked, Group Administrators can configure it for their groups to serve each group's unique needs and internal processes.
 
 For more information, see [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
@@ -83,9 +83,9 @@ This feature is now included in the [Administrator Fundamentals in the new Workf
 
 ## Configure access level settings for portfolios and programs separately
 
-Now it’s easier to manage user access to portfolios and programs because you can configure their access level settings separately.
+Now it's easier to manage user access to portfolios and programs because you can configure their access level settings separately.
 
-Previously, the access level settings for portfolios and programs were combined. This meant that you couldn’t configure access settings for programs without configuring them the same way for portfolios, and the same was true in reverse.
+Previously, the access level settings for portfolios and programs were combined. This meant that you couldn't configure access settings for programs without configuring them the same way for portfolios, and the same was true in reverse.
 
 For information about configuring an access level, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -103,7 +103,7 @@ This feature is now included in the [Administrator Fundamentals in the new Workf
 
 >[!NOTE]
 >
->This functionality isn’t currently available when you are submitting a new Request.
+>This functionality isn't currently available when you are submitting a new Request.
 
 On the Details page for an object, when you are filling in a Custom Form field containing checkboxes, you can click Select All if you need to select all of the checkboxes available.
 
@@ -177,11 +177,11 @@ This feature is now included in the [Email and In-App Notifications in the new W
 
 ## Work with group projects and approval processes in the Groups area
 
-If you are a Group Administrator, it’s easy to view and work with your group’s projects and approval processes now that they are listed in the Groups area. From a group’s main page, you can:
+If you are a Group Administrator, it's easy to view and work with your group's projects and approval processes now that they are listed in the Groups area. From a group's main page, you can:
 
-* Click Projects in the left menu to see the group’s projects and create new ones for the group. If a selected project has been shared with you, you can use the buttons in the toolbar to edit, export, copy, or delete it.
+* Click Projects in the left menu to see the group's projects and create new ones for the group. If a selected project has been shared with you, you can use the buttons in the toolbar to edit, export, copy, or delete it.
 
-  For more information, see [Create and modify a group’s projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+  For more information, see [Create and modify a group's projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 * Click Approvals in the left menu to see and manage all of the approval processes associated with the group.
 

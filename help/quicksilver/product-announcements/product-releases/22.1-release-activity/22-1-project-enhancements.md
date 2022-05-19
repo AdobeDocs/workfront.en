@@ -57,7 +57,7 @@ For more information, see [Create and manage dashboards](../../../reports-and-da
 
 You can now add and edit custom forms directly in the document Summary panel.
 
-With this change, you’ll also see a new look and feel in the document Summary. There is a new Overview section, which contains the image thumbnail as well as the document details. You can also check documents in and out in the document details section.
+With this change, you'll also see a new look and feel in the document Summary. There is a new Overview section, which contains the image thumbnail as well as the document details. You can also check documents in and out in the document details section.
 
 Previously, you had to go to the custom forms tab in the Document Details to make edits or add custom forms.
 
@@ -172,7 +172,7 @@ For more information, see the following information
 
 ## Limit the ability to add documents to a template you are sharing
 
-Sometimes people add documents to a project template thinking that they’re adding them to a project. Now you can help to prevent this—when you share a template with View access, you can disable the new advanced setting Add Documents. This disables your recipients’ ability to add documents to the template.
+Sometimes people add documents to a project template thinking that they're adding them to a project. Now you can help to prevent this—when you share a template with View access, you can disable the new advanced setting Add Documents. This disables your recipients' ability to add documents to the template.
 
 For instructions on sharing a template, see [Share project templates](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 

@@ -19,7 +19,7 @@ The following are the Progress Statuses of projects in&nbsp;Workfront:
  <tbody> 
   <tr> 
    <td>On&nbsp;Time</td> 
-   <td> <p>If both Projected and Estimated Completion Dates are earlier than or equal to the project’s Planned Completion Date, the Progress Status of the project is <strong>On Time</strong>.</p> <p> <img src="assets/project-on-time-progress-status-350x69.png" style="width: 350;height: 69;"> </p> </td> 
+   <td> <p>If both Projected and Estimated Completion Dates are earlier than or equal to the project's Planned Completion Date, the Progress Status of the project is <strong>On Time</strong>.</p> <p> <img src="assets/project-on-time-progress-status-350x69.png" style="width: 350;height: 69;"> </p> </td> 
   </tr> 
   <tr> 
    <td>At Risk</td> 

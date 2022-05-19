@@ -62,7 +62,7 @@ The table below describes the Workfront Scenario Planner objects. ```Your Workfr
 
 For information about Workfront objects, see [Understand objects in Adobe Workfront](../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md). 
 
-| Plan |A parent object where you can roadmap your organization’s high-level, upcoming strategy for the next one, three, or five years. You can set the budget and the number of people that might be available in carrying out the plan to completion. |
+| Plan |A parent object where you can roadmap your organization's high-level, upcoming strategy for the next one, three, or five years. You can set the budget and the number of people that might be available in carrying out the plan to completion. |
 |---|---|
 | Scenario |A version of the same plan. You can create multiple copies or versions of the same plan to plot your initiatives differently in each one and see what makes the best sense for the plan that will become final.  |
 | Initiative |A child object for a plan that defines, still at a high level, the actual work that needs to get done to achieve the strategy defined by the plan. You can add initiatives manually, or you can import them from existing projects. You can add the possible cost and number of people required to complete the initiatives. After you define all your initiatives, and associate them with cost and number of resources, should conflicts arise between the initiatives and the budget available for the plan, you can re-plan them to better align with each other and the plan. |

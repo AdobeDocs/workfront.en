@@ -68,7 +68,7 @@ When assigning users to work, their availability according to their schedules af
 <p>Removing users can affect task hours and allocation percentages. The effect that removing a user has on the task depends on the Duration Type that was selected for the task. For information about Duration&nbsp;Type, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p>
 <p>When you delete a user from a task with the following Duration&nbsp;Types:</p>
 <ul>
-<li> <p><strong>Simple:</strong> The planned hours assigned to that user are subtracted from the task’s total planned hours.</p> <note type="important">
+<li> <p><strong>Simple:</strong> The planned hours assigned to that user are subtracted from the task's total planned hours.</p> <note type="important">
 <span class="s1">This could negatively affect your project plan because it changes the total planned hours for the task and the project.</span>
 </note> </li>
 <li><span class="s1"><strong>Effort Driven:</strong> The allocation percentage does not change for other users.</span> </li>

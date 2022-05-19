@@ -41,7 +41,7 @@ GET /search
   </tr> 
   <tr> 
    <td>offset</td> 
-   <td>&nbsp;The page offset, used in conjunction with ‘max’.</td> 
+   <td>&nbsp;The page offset, used in conjunction with ‘max'.</td> 
   </tr> 
  </tbody> 
 </table>

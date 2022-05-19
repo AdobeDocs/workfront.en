@@ -36,7 +36,7 @@ The installation process does not associate the project template with any custom
 
 ### Update template task duration and effort estimates {#update-template-task-duration-and-effort-estimates}
 
-Every task in the template contains a planned duration and planned effort estimate. These estimates serve as a starting point for durations and time spent for these activities. However, your organization’s capabilities, skills, and pace are unique. You should review each task’s estimated duration and effort to adjust it to reflect your organization's needs. For information, see [Manage task information in the Task Details Overview area](../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
+Every task in the template contains a planned duration and planned effort estimate. These estimates serve as a starting point for durations and time spent for these activities. However, your organization's capabilities, skills, and pace are unique. You should review each task's estimated duration and effort to adjust it to reflect your organization's needs. For information, see [Manage task information in the Task Details Overview area](../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
 
 ### Associate a milestone path and milestones {#associate-a-milestone-path-and-milestones}
 

@@ -208,7 +208,7 @@ Please contact us at sales.team@workfront.com to find out more about the additio
 
 <!--
 <note type="note">
-&nbsp;The separate designs for the alerts are not required. If you’d like us to leave the default style of the messages, as shown on the screencasts above, please let us know. The team will match the colors with your design.
+&nbsp;The separate designs for the alerts are not required. If you'd like us to leave the default style of the messages, as shown on the screencasts above, please let us know. The team will match the colors with your design.
 </note>
 -->
 
@@ -257,7 +257,7 @@ The wording of the alerts cannot be changed as these are the system messages.
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">We support 1024x768 screen resolution (1366x768 for wide screens) and upwards. However, for the landing pages designs we do recommend using higher resolution for the better results on the various screens. The best practice would be to determine what screen resolution is the most common on your users’ machines and prepare a slightly bigger design.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">We support 1024x768 screen resolution (1366x768 for wide screens) and upwards. However, for the landing pages designs we do recommend using higher resolution for the better results on the various screens. The best practice would be to determine what screen resolution is the most common on your users' machines and prepare a slightly bigger design.</p>
 -->
 
 <!--
@@ -265,7 +265,7 @@ The wording of the alerts cannot be changed as these are the system messages.
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The newer browsers generally don’t require any custom code to display the pages properly. However, if your users have the older browser versions installed on their machines some code adjustments may be needed.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The newer browsers generally don't require any custom code to display the pages properly. However, if your users have the older browser versions installed on their machines some code adjustments may be needed.</p>
 -->
 
 <!--

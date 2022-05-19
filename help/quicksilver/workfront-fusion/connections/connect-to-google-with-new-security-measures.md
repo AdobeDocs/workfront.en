@@ -54,11 +54,11 @@ You must have the following access to use the functionality in this article:
 
 Google introduced restrictions on how users can use their API as of June 1st, 2020. These security measures protect Google users from leakage or misuse of their personal data on Google. The restrictions are related to the Gmail and Google Drive apps. For more information about these restrictions, see "Additional Requirements for Specific API Scopes" in the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes)
 
-To access restricted scopes, the connected service (Adobe Workfront Fusion or any other service that wants to access the user's data via the API) must be verified and must have a Letter of Assessment to prove that the service is secure and transparent about how they use the data. Workfront Fusion complies with all of Google’s requirements for access to restricted scopes. However, most of the third-party connected services in Workfront Fusion don't have the Letter of Assessment, and therefore don't comply with Google terms. Because of that, Workfront Fusion is not permitted to send data to these services.
+To access restricted scopes, the connected service (Adobe Workfront Fusion or any other service that wants to access the user's data via the API) must be verified and must have a Letter of Assessment to prove that the service is secure and transparent about how they use the data. Workfront Fusion complies with all of Google's requirements for access to restricted scopes. However, most of the third-party connected services in Workfront Fusion don't have the Letter of Assessment, and therefore don't comply with Google terms. Because of that, Workfront Fusion is not permitted to send data to these services.
 
 ## Exceptions to Google Services restrictions
 
-There are a few exceptions that make it possible to send data to an unapproved third-party service that doesn’t have the Letter of Assessment without violating any of the new restrictions. They differ based on G Suite with the Workfront Fusion OAuth client, G Suite with another OAuth client, or @gmail.com and @google.mail.com.
+There are a few exceptions that make it possible to send data to an unapproved third-party service that doesn't have the Letter of Assessment without violating any of the new restrictions. They differ based on G Suite with the Workfront Fusion OAuth client, G Suite with another OAuth client, or @gmail.com and @google.mail.com.
 
 * [G suite with Workfront Fusion OAuth client](#g-suite-with-workfront-fusion-oauth-client) 
 * [G suite with another OAuth client](#g-suite-with-another-oauth-client) 

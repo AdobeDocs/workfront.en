@@ -1,20 +1,20 @@
 ---
-title: Edit a team’s settings from the Setup area
-description: Edit a team’s settings from the Setup area
+title: Edit a team's settings from the Setup area
+description: Edit a team's settings from the Setup area
 draft: Probably
 ---
-# Edit a team’s settings from the Setup area
+# Edit a team's settings from the Setup area
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-As an Adobe Workfront administrator, you can edit a team’s settings from the Setup area. You can add users to a team, set a team’s layout template, and set how status is recorded when work items are completed by a team.
+As an Adobe Workfront administrator, you can edit a team's settings from the Setup area. You can add users to a team, set a team's layout template, and set how status is recorded when work items are completed by a team.
 
 For information about teams, see [Teams overview](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
 >[!NOTE]
 >
->* A group administrator can edit a team’s settings for a group they administer. For more information, see [Create and modify a group’s teams](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
->* A user with a Plan license can edit a team’s settings from the People area. For more information, see [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
+>* A group administrator can edit a team's settings for a group they administer. For more information, see [Create and modify a group's teams](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
+>* A user with a Plan license can edit a team's settings from the People area. For more information, see [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 >
 
 ## Access requirements
@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-## Edit a team’s settings
+## Edit a team's settings
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
@@ -72,7 +72,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Team Members</td> 
-      <td> <p>Add and team members. Start typing the name of a user, then select the name when it appears. Repeat this process to add multiple users to the team.</p> <p>Tip: There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team’s work management might become too complex.</p> </td> 
+      <td> <p>Add and team members. Start typing the name of a user, then select the name when it appears. Repeat this process to add multiple users to the team.</p> <p>Tip: There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team's work management might become too complex.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
