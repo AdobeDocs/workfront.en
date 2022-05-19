@@ -95,15 +95,36 @@ You can include links to Workfront fields by using the `$$` wildcard to tell the
 
 For example, the body of the email for a notification alerting the assignee of the task that the task is about to start can follow this structure:
 
-<!--WRITER
-<pre>
+```html
       <html>
-</pre><pre><p>$$assignedTo:firstName$$</p><br><p>You are assigned to work on <b><a href="https://<your domain>.my.workfront.com/task/view?ID=$$ID$$">$$name$$</a></b>, which is due to start on $$plannedStartDate$$.</p><br><table width="350" style="font-size:12px;"><br><tr><br><td><b><strong>HEADING</strong></b></td><br><td>$$<strong>WILDCARD</strong>$$</td><br></tr><br><tr><br><td><b><strong>HEADING</strong></b></td><br><td>$$<strong>WILDCARD</strong>$$</td><br></tr><br><tr><br><td><b><strong>HEADING</strong></b></td><br><td>$$<strong>WILDCARD</strong>$$</td><br></tr><br></table></pre><pre>
-      </html>
-</pre> To get the "wildcard" value for an object, do one of the following:
--->
+```
 
-<!--* Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+```html
+<p>$$assignedTo:firstName$$</p>
+<p>You are assigned to work on <b><a href="https://<your domain>.my.workfront.com/task/view?ID=$$ID$$">$$name$$</a></b>, which is due to start on $$plannedStartDate$$.</p>
+<table width="350" style="font-size:12px;">
+<tr>
+<td><b><strong>HEADING</b></td>
+<td>$$WILDCARD$$</td>
+</tr>
+<tr>
+<td><b>HEADING</b></td>
+<td>$$WILDCARD$$</td>
+</tr>
+<tr>
+<td><b>HEADING</b></td>
+<td>$$WILDCARD$$</td></tr>
+</table>
+```
+
+```html
+      </html>
+```
+
+To get the "wildcard" value for an object, do one of the following:
+
+* Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).
+
 * Use the "valuefield" value you find inside of a text mode view of a report. For more information about text mode values, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
   The "heading" value can be the name of the object, as you want it to appear in the email body.
@@ -119,7 +140,32 @@ To add custom fields using the same formatting, you can add this in your email n
 For example, this is an email template which includes a reference to a custom field named Delivery Date, and it's assuming that the field Delivery Date belongs to a task.
 
 Replace `<your domain>` with your company's Workfront domain, without the brackets:
-<pre><html><br><p>$$assignedTo:firstName$$</p><br><p>You are assigned to work on <b><a href="https://<em><your domain></em>.my.workfront.com/task/view?ID=$$ID$$">$$name$$</a></b>, which has a Delivery Date of <strong>$$DE:Task:Delivery Date$$</strong>.</p><br><table width="350" style="font-size:12px;"><br><tr><br><td><b>Project Name:</b></td><br><td>$$project:name$$</td><br></tr><br><tr><br><td><b>Description:</b></td><br><td>$$description$$</td><br><tr><br><td><b>Estimated Effort:</b></td><br><td>$$work$$ hours</td><br></tr><br><tr><br><td><b>Planned Completion Date:</b></td><br><td>$$plannedCompletionDate$$</td><br><strong><td><b>Delivery Date:</b></td></strong><br><strong><td>$$DE:Task:Delivery Date$$</td></strong><br></tr><br></table><br></html></pre>
+
+```html
+<html>
+<p>$$assignedTo:firstName$$</p>
+<p>You are assigned to work on <b><a href="https://<your domain>.my.workfront.com/task/view?ID=$$ID$$">$$name$$</a></b>, which has a Delivery Date of $$DE:Task:Delivery Date$$.</p>
+<table width="350" style="font-size:12px;">
+<tr>
+<td><b>Project Name:</b></td>
+<td>$$project:name$$</td>
+</tr>
+<tr>
+<td><b>Description:</b></td>
+<td>$$description$$</td>
+<tr>
+<td><b>Estimated Effort:</b></td>
+<td>$$work$$ hours</td>
+</tr>
+<tr>
+<td><b>Planned Completion Date:</b></td>
+<td>$$plannedCompletionDate$$</td>
+<td><b>Delivery Date:</b></td>
+<td>$$DE:Task:Delivery Date$$</td>
+</tr>
+</table>
+</html>
+```
 
 >[!NOTE]
 >
@@ -141,7 +187,26 @@ Replace `<your domain>` with your company's Workfront domain, without the bracke
 A Project You Manage Has Become Late
 
 **Content:** 
-<pre><html><br><p>The <b><a href="https://<em><your domain></em>.my.workfront.com/project/view?ID=$$ID$$">$$name$$</a></b> project you are assigned as the owner of just became late.</p><br><table width="350" style="font-size:12px;"><br><tr><br><td><b>Project Name:</b></td><br><td>$$project:name$$</td><br></tr><br></tr><br><tr><br><td><b>Planned Completion Date:</b></td><br><td>$$plannedCompletionDate$$</td><br></tr><br></table><br><p>Please review the task plan and bring it up to date to reflect the progress made so far. If it is necessary to update the plan to bring it reflect reality going forward, be sure to speak to $$sponsor:name$$ for approval before make these changes to the work breakdown structure.</p><br></html></pre>This produces an email similar&nbsp;to the following:&nbsp;
+
+```html
+<html>
+<p>The <b><a href="https://<your domain>.my.workfront.com/project/view?ID=$$ID$$">$$name$$</a></b> project you are assigned as the owner of just became late.</p>
+<table width="350" style="font-size:12px;">
+<tr>
+<td><b>Project Name:</b></td>
+<td>$$project:name$$</td>
+</tr>
+</tr>
+<tr>
+<td><b>Planned Completion Date:</b></td>
+<td>$$plannedCompletionDate$$</td>
+</tr>
+</table>
+<p>Please review the task plan and bring it up to date to reflect the progress made so far. If it is necessary to update the plan to bring it reflect reality going forward, be sure to speak to $$sponsor:name$$ for approval before make these changes to the work breakdown structure.</p>
+</html>
+```
+
+This produces an email similar&nbsp;to the following:&nbsp;
 
 ![](assets/screen-shot-2016-09-16-at-3.52.54-pm-350x103.png)
 
@@ -149,19 +214,50 @@ A Project You Manage Has Become Late
 
 You might&nbsp;also want to create a reminder notification for an upcoming task or issue.
 
-The following code can be included in an email template to be used for task and issue reminder notifications that are sent any number of days before the planned start date of the task or issue.  
+The following code can be included in an email template to be used for task and issue reminder notifications that are sent any number of days before the planned start date of the task or issue.
+
 Replace `<your domain>` with your company's Workfront domain, without the brackets.  
-To use this for an Issue email, change the **/task/view.**value in the link to the work item to**/issue/view**.
+
+To use this for an Issue email, change the **`/task/view.`** value in the link to the work item to **`/issue/view`**.
 
 **Subject:**
 
 $$name$$ to start on $$plannedStartDate$$
 
-<!--WRITER
-
-**Content:** 
-<pre><code class="plain"><</code><code class="keyword">html</code><code class="plain">><br></code><code class="plain"><</code><code class="keyword">p</code><code class="plain">>$$assignedTo:firstName$$</</code><code class="keyword">p</code><code class="plain">><br><code class="plain"><</code><code class="keyword">p</code><code class="plain">>You are assigned to work on <</code><code class="keyword">b</code><code class="plain">><</code><code class="keyword">a</code><code class="color1">href</code><code class="plain">=</code><code class="string"><a href="https://attask-ondemand.com/task/view?ID=">https://<your domain>.my.workfront.com/task/view?ID=</a>$$ID$$"</code><code class="plain">>$$name$$</</code><code class="keyword">a</code><code class="plain">></</code><code class="keyword">b</code><code class="plain">>, which is due to start on $$plannedStartDate$$.</</code><code class="keyword">p</code><code class="plain">></code></code><br><code class="plain"><</code><code class="keyword">table</code><code class="color1">width</code><code class="plain">=</code><code class="string">350"</code><code class="color1">style</code><code class="plain">=</code><code class="string">font-size:12px;"</code><code class="plain">></code><br><code class="plain"><</code><code class="keyword">tr><br><code class="plain"><</code>td<code class="plain">><</code>b<code class="plain">>Task Name:</</code>b<code class="plain">></</code>td<code class="plain">><br><td>$$name$$</td><br></tr></code></code><br><code class="plain"><</code><code class="keyword">td</code><code class="plain">><</code><code class="keyword">b</code><code class="plain">>Project Name:</</code><code class="keyword">b</code><code class="plain">></</code><code class="keyword">td</code><code class="plain">><br><code class="plain"><</code><code class="keyword">td</code><code class="plain">>$$project:name$$</</code><code class="keyword">td</code><code class="plain">></code><br><code class="plain"></</code><code class="keyword">tr</code><code class="plain">><br></code><code class="keyword"></tr></code><br><<code class="keyword">td</code>><<code class="keyword">b</code>>Created on:</<code class="keyword">b</code>></<code class="keyword">td</code>><br><<code class="keyword">td</code>>$$entryDate$$</<code class="keyword">td</code>><br></<code class="keyword">tr</code>><br><code class="plain"><</code><code class="keyword">tr</code><code class="plain">></code><br><code class="plain"><</code><code class="keyword">td</code><code class="plain">><</code><code class="keyword">b</code><code class="plain">>Project Manager:</</code><code class="keyword">b</code><code class="plain">></</code><code class="keyword">td</code><code class="plain">></code><br><code class="plain"><</code><code class="keyword">td</code><code class="plain">>$$project:owner:name$$</</code><code class="keyword">td</code><code class="plain">></code><br><code class="plain"><</code><code class="keyword">tr</code><code class="plain">></code><br><code class="plain"><</code><code class="keyword">td</code><code class="plain">><</code><code class="keyword">b</code><code class="plain">>Priority:</</code><code class="keyword">b</code><code class="plain">></</code><code class="keyword">td</code><code class="plain">></code><br><code class="plain"><</code><code class="keyword">td</code><code class="plain">>$$priority$$</</code><code class="keyword">td</code><code class="plain">></code><br><code class="plain"></</code><code class="keyword">tr</code><code class="plain">></code><br><code class="plain"><</code><code class="keyword">tr</code><code class="plain">></code><br><code class="plain"><</code><code class="keyword">td</code><code class="plain">><</code><code class="keyword">b</code><code class="plain">>Who is assigned to:</</code><code class="keyword">b</code><code class="plain">></</code><code class="keyword">td</code><code class="plain">></code><br><code class="plain"><</code><code class="keyword">td</code><code class="plain">>$$assignedTo:name$$</</code><code class="keyword">td</code><code class="plain">></code><br><code class="plain"></</code><code class="keyword">tr</code><code class="plain">><br><<code class="keyword">tr</code>><br><<code class="keyword">td</code>><<code class="keyword">b</code>>When it's due:</<code class="keyword">b</code>></<code class="keyword">td</code>><br><<code class="keyword">td</code>>$$estCompletionDate$$</<code class="keyword">td</code>><br></<code class="keyword">tr</code>></code><br></table><br></html><br></code></pre>This text returns an email similar to the following:
--->
+```html
+<html>
+<p>$$assignedTo:firstName$$</p>
+<p>You are assigned to work on <b><ahref=https://<your domain>.my.workfront.com/task/view?ID=$$ID$$">$$name$$</a></b>, which is due to start on $$plannedStartDate$$.</p>
+<tablewidth=350"style=font-size:12px;">
+<tr>
+<td><b>Task Name:</b></td>
+<td>$$name$$</td>
+</tr>
+<td><b>Project Name:</b></td>
+<td>$$project:name$$</td>
+</tr>
+</tr>
+<td><b>Created on:</b></td>
+<td>$$entryDate$$</td>
+</tr>
+<tr>
+<td><b>Project Manager:</b></td>
+<td>$$project:owner:name$$</td>
+<tr>
+<td><b>Priority:</b></td>
+<td>$$priority$$</td>
+</tr>
+<tr>
+<td><b>Who is assigned to:</b></td>
+<td>$$assignedTo:name$$</td>
+</tr>
+<tr>
+<td><b>When it's due:</b></td>
+<td>$$estCompletionDate$$</td>
+</tr>
+</table>
+</html>
+```
 
 ![email_template_delivered.png](assets/email-template-delivered-350x185.png)
 
