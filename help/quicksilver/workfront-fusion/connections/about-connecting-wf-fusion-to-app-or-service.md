@@ -36,15 +36,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-    </td> 
-   </tr>
-  --> 
+  </tr>
  </tbody> 
 </table>
 
@@ -68,7 +60,7 @@ Sam: Exclude until after GA release
 
 ## About administering connections
 
-You can administer all connections from one place in the Connections section. Here you can:
+You can administer all connections from the Connections area. Here you can:
 
 * See which permissions were given to Workfront Fusion for each connection
 * Rename connections 
@@ -76,11 +68,13 @@ You can administer all connections from one place in the Connections section. He
 * Delete existing connections
 * Verify that the connection to the service was established successfully
 
+To open the Connections area, click <b>Connections</b> in the left navigation.
+
 ## Renew a connection
 
 Workfront Fusion usually obtains access rights to a given service for an unlimited period of time. However, this is not always the case. With some services, the access permission must be renewed after a certain period of time. In these cases, Workfront Fusion notifies you via email shortly before its access rights expire.
 
 To renew a connection:
 
-1. Click the **Reauthorize** button in the **Connections** section.
+1. Click the **Reauthorize** button in the **Connections** area.
 
