@@ -58,7 +58,7 @@ A custom status that you set as a default group status is used in the following 
 
   For example, a project can be associated with the Marketing group, and the status of the project is set to Planning. The project is edited so that it is now associated with the Sales group. The Sales group has a custom default group status called Thinking (and this status equates with Planning). Because the Group on the project was changed, the status of the project changes now to Thinking.
 
-If you are a group administrator, see [Set a status as a default status for a group](/help/quicksilver/administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md). 
+If you are a group administrator, see [Set a status as a default status for a group](/help/quicksilver/administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
 
 ## Issue statuses
 
