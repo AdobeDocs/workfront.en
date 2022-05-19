@@ -77,7 +77,7 @@ If the custom status is an Issue status, all four issue types must be enabled fo
 1. Click **Save**.
 1. Associate the project with the group where the status resides. 
 
-   Users can use the custom status only if the group where the status resides is associated with the project.
+   Users can use the custom status only if the group where the status resides is associated with the project. 
 
    >[!NOTE]
    >
