@@ -40,11 +40,18 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
+## Issue statuses
+
+If the custom status is an Issue status, all four issue types must be enabled for it (Bug Report, Change Order, Issue, and Request). For example, in the issue status shown below, the status Reopened cannot be used as a default status because the Change Order issue type is not selected:
+
+![](assets/all-4-issue-types-enabled.png)
+
 ## Set a custom status as a default status for a group
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 1. In the left panel, click **Groups** ![](assets/groups-icon.png), then click the name of the group where you want to create or customize statuses.
-1. In the left panel, click **Statuses** ![](assets/gear-icon-settings.png). 
+1. In the left panel, click **Statuses** ![](assets/gear-icon-settings.png).
+1. Open the **Project**, **Tasks**, or **Issues** tab, depending on the type of status you want to set as a default status.
 1. Click **Set Default Statuses** near the upper-right corner.
 1. In the drop-down area that displays, next to the status where you want to set the default status, select the default status you want to set.
 1. Click **Save**.
