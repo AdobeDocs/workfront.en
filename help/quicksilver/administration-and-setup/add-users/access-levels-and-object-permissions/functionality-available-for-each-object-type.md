@@ -504,7 +504,7 @@ Only users with a Plan license can have full access to [select object or area]. 
 |---|---|---|---|---|---|
 | Edit priorities and budget hours in the Planner |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Create, edit, delete Resource Pools&#42;&#42; |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| Update Planned Hours in the Workload Balancer&#42;&#42;&#42; | ✓*  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| ```Update Planned Hours in the Workload Balancer```&#42;&#42;&#42; | ```✓*```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | View project priorities in the Resource Planner | ✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | View resource allocation in the Resource Planning tools | ✓&#42; |✓&#42; |✓&#42; |&nbsp; |&nbsp; |
 | View Resource Pools | ✓&#42; |✓&#42; |✓&#42; |&nbsp; |&nbsp; |
@@ -525,7 +525,8 @@ Only users with a Plan license can have full access to [select object or area]. 
 | Add or edit job role information on plans and initiatives&#42; |✓ |✓ |✓ |&nbsp; |&nbsp; |
 | Add or edit cost information on plans and initiatives&#42; |✓ |✓ |✓ |&nbsp; |&nbsp; |
 | Delete plans and initiatives | ✓ |✓ |✓ |&nbsp; |&nbsp; |
-| View Scenarios in the Main Menu ![](assets/esp-icon-in-main-menu.png) | ✓ |✓ |✓ |&nbsp; |&nbsp; |
+| View Scenarios in the Main Menu ![](assets/esp-icon-in-main-menu.png)
+| ✓ |✓ |✓ |&nbsp; |&nbsp; |
 | View plans and initiatives that the user created&#42; |✓ |✓ |✓ |&nbsp; |&nbsp; |
 
 >[!NOTE]
