@@ -7,11 +7,11 @@ title: Actions allowed for different types of administrators
 description: This table lists the administration activities available for - EDIT ME.
 ---
 
-# Actions allowed for different types of administrators
+# Actions allowed for group administrators
 
 This table lists the administration activities available for:
 
-* An Adobe Workfront administrator managing the Workfront system
+* An Adobe Workfront administrator managing the Workfront system (for comparisons)
 * A group administrator managing a top-level group
 * A group administrator managing a subgroup
 
