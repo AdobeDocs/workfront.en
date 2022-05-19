@@ -43,9 +43,9 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
-## View and configure a group’s event notifications
+## View and configure a group's event notifications
 
-1. (Conditional and optional) If you are a Workfront administrator and you are already on the Email Notifications page (Setup > Email > Notifications), you can do the following and then skip to step 6: Delete **System Event Notifications** in the box above the list , start typing the group’s name in the box, then click it when it appears.
+1. (Conditional and optional) If you are a Workfront administrator and you are already on the Email Notifications page (Setup > Email > Notifications), you can do the following and then skip to step 6: Delete **System Event Notifications** in the box above the list , start typing the group's name in the box, then click it when it appears.
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
@@ -65,7 +65,7 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">Activate or deactivate an unlocked event notification</td> 
       <td> <p>Click the button in the <strong>Active</strong> column to activate <img src="assets/email-notification-enabled-unlocked.png"> or deactivate <img src="assets/email-notification-disabled-unlocked.png"> it.</p> <p>For example, you could configure the top two Marketing group event notifications shown below that have been unlocked for groups.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/configure-group-event-notifications-350x193.png" style="width: 350;height: 193;"> </p> 
        <ul> 
-        <li>If a button in the <strong>Active</strong> column is grey and dimmed <img src="assets/email-notification-disabled-locked.png">, the event notification is deactivated for all users and group administrators can’t activate it<!--
+        <li>If a button in the <strong>Active</strong> column is grey and dimmed <img src="assets/email-notification-disabled-locked.png">, the event notification is deactivated for all users and group administrators can't activate it<!--
           <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
             or edit its email subject line
           </MadCap:conditionalText>
@@ -79,7 +79,7 @@ You must have the following to perform the steps in this article:
          --> for their groups.</li> 
        </ul> 
        <ul> 
-        <li>If a button in the <strong>Active</strong> column is blue and dimmed <img src="assets/email-notification-enabled-locked.png">, the event notification is activated for all users and group administrators can’t deactivate it<!--
+        <li>If a button in the <strong>Active</strong> column is blue and dimmed <img src="assets/email-notification-enabled-locked.png">, the event notification is activated for all users and group administrators can't deactivate it<!--
           <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
             or edit its email subject line
           </MadCap:conditionalText>

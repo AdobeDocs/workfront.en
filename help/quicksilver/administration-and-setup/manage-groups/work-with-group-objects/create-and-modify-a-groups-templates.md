@@ -3,11 +3,11 @@ filename: create-and-modify-a-groups-templates
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Create and modify a group’s project templates
+title: Create and modify a group's project templates
 description: When you are viewing a group that you manage in the Groups area, you can view and work with project templates associated with the group and any of its subgroups.
 ---
 
-# Create and modify a group’s project templates
+# Create and modify a group's project templates
 
 When you are viewing a group that you manage in the Groups area, you can view and work with project templates associated with the group and any of its subgroups.
 
@@ -96,7 +96,7 @@ When you create a project template, the settings listed in the tables below are 
 >* You specify a group when creating the template using a Kickstart file
 >* You specify a group when creating the template using the API
 >
->If you didn't associate the new template with a group, the system-level preference takes effect. This occurs when in the scenarios below. (If you later assign a group to the template or template task, the group’s preferences don’t affect it.) 
+>If you didn't associate the new template with a group, the system-level preference takes effect. This occurs when in the scenarios below. (If you later assign a group to the template or template task, the group's preferences don't affect it.) 
 >
 >* You create the template from the Templates area
 >* You don't specify a group when creating the template using a Kickstart file
@@ -155,7 +155,7 @@ For information about the task and issue preference, see [Configure system-wide 
 >
 >* When an administrator saves a project as a template, all settings for the template are inherited from the project, including the group.
 >
->  When an administrator converts a task or issue to a project using a template, all settings for the template are determined by what’s already saved on the template. 
+>  When an administrator converts a task or issue to a project using a template, all settings for the template are determined by what's already saved on the template. 
 >
 
 ### Template task settings configured by task preferences {#template-task-settings-configured-by-task-preferences}

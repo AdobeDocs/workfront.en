@@ -4,12 +4,12 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Use custom statuses as default statuses
-description: When a custom status is set as a default status, the new default status is used throughout the system in various ways. The ways in which it’s used depends on whether it is set as a default system-level status, or a default group-level status.
+description: When a custom status is set as a default status, the new default status is used throughout the system in various ways. The ways in which it's used depends on whether it is set as a default system-level status, or a default group-level status.
 ---
 
 # Use custom statuses as default statuses
 
-When a custom status is set as a default status, the new default status is used throughout the system in various ways. The ways in which it’s used depends on whether it is set as a default system-level status, or a default group-level status.
+When a custom status is set as a default status, the new default status is used throughout the system in various ways. The ways in which it's used depends on whether it is set as a default system-level status, or a default group-level status.
 
 ## Access requirements
 
@@ -76,8 +76,6 @@ If the custom status is an Issue status, all four issue types must be enabled fo
 1. In the drop-down area that displays, next to the status where you want to set the default status, select the default status you want.
 1. Click **Save**.
 1. Associate the project with the group where the status resides. 
-
-   Users can use the custom status only if the group where the status resides is associated with the project. 
 
    >[!NOTE]
    >

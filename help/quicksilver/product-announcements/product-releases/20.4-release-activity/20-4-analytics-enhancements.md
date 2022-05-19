@@ -11,7 +11,7 @@ For a list of all changes available with the 20.4 release, see [20.4 release ove
 
 ## Pagination and sorting added to Enhanced analytics
 
-To allow you to view the information you want to see without having to apply restrictive filters, we’ve made the following changes:
+To allow you to view the information you want to see without having to apply restrictive filters, we've made the following changes:
 
 * The project count in the top-right corner of the screen displays only the total amount of projects within the applied filters.
 * Each chart now allows you to view additional projects in groups of 50 (e.g., 51-100, 150-200, and so on) by selecting a page number to jump to a specific set of projects or using the arrows to navigate forward and backward between pages. Selecting a new page on one chart updates projects for the entire screen.

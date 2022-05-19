@@ -35,7 +35,7 @@ Workfront UUM provides the following benefits:
 
 ### What if I use the same email address for multiple Workfront instances?
 
-Typically, the email address associated with a user’s Workfront account is the user’s username. Workfront currently requires a unique email address for each instance of Workfront. Many users work around this requirement by utilizing a combination of uppercase and lowercase characters in their email address to create a unique username for each of their Workfront instances.
+Typically, the email address associated with a user's Workfront account is the user's username. Workfront currently requires a unique email address for each instance of Workfront. Many users work around this requirement by utilizing a combination of uppercase and lowercase characters in their email address to create a unique username for each of their Workfront instances.
 
 However, with the migration to Workfront UUM, users will need only one unique email address in order to access all Workfront products and services. Consequently, Workfront will no longer distinguish between uppercase and lowercase characters in email addresses.
 
@@ -63,9 +63,9 @@ Check with your email administrator to determine the best option for your organi
 
 Once migrated to Workfront UUM, all users within a Workfront instance, including non-SSO users, will be prompted to reset their Workfront password.
 
-Currently, a system administrator can reset a user’s password without notifying that user. Once the Workfront UUM migration takes place, Workfront will remove this functionality in order to ensure the most secure user access experience.
+Currently, a system administrator can reset a user's password without notifying that user. Once the Workfront UUM migration takes place, Workfront will remove this functionality in order to ensure the most secure user access experience.
 
-You can still manually reset a user’s password, but instead of you providing a temporary password, Workfront will send the user an email that requests the user to reset their password.&nbsp;
+You can still manually reset a user's password, but instead of you providing a temporary password, Workfront will send the user an email that requests the user to reset their password.&nbsp;
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ If your organization currently uses SAML 2.0 for SSO, your users will not need t
 |---|---|---|
 | Users are required to have a unique username for each Workfront instance. |Users need only one unique username across all Workfront instances. |Ensure each user has a username that meets the new requirements.&nbsp; |
 | Multiple users within the same Workfront instance can use the same email address (except for having varying combination of uppercase and lowercase letters). |Workfront no longer distinguishes between uppercase and lowercase letters. |Ensure each user has a unique email. If duplicating users within the same Workfront instance with one email address, try giving each user an email alias or a new, unique email address. |
-| System admins can reset a user’s password and provide a temporary password. |System admin can reset a user’s password manually, but Workfront provides the user with a temporary password. |Once Workfront UUM is functional reset passwords for all users, include non-SSO users. |
+| System admins can reset a user's password and provide a temporary password. |System admin can reset a user's password manually, but Workfront provides the user with a temporary password. |Once Workfront UUM is functional reset passwords for all users, include non-SSO users. |
 | Users can log in to Workfront by specifying the cluster to which they want to log in. |Users must log in to Workfront by specifying the domain to which they want to log in. |Ensure user's login URL specifies the domain to which the user is logging in. |
 | Workfront supports SSO integrations using Active Directory, LDAP, and SAML 1.0 protocols. |Work supports only SSO protocols that are SAML 2.0 compliant. |Ensure your IDP is SAML 2.0 compliant. |
 

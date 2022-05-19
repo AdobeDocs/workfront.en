@@ -57,7 +57,7 @@ For information about the release time frame and all functionality available wit
    <td> 
     <div> 
      <strong>Create time off calendars and reports</strong> 
-     <p>You can now see user’s time off for better planning and execution. You can also add new time off reports and calendars to your dashboards for a real-time view of user availability.</p> 
+     <p>You can now see user's time off for better planning and execution. You can also add new time off reports and calendars to your dashboards for a real-time view of user availability.</p> 
      <div class="workfront_plans"> 
       <p><strong>Available in these environments:</strong> </p> 
       <ul> 

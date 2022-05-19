@@ -28,7 +28,7 @@ Following are some key enhancements made in the new Adobe Workfront experience, 
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Layout Template in the new Adobe Workfront experiencehas a new look and feel. All functionality from the Classic experience has been carried over. In addition, we’ve added a few new things to help you customize the new experience for your users:</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Layout Template in the new Adobe Workfront experiencehas a new look and feel. All functionality from the Classic experience has been carried over. In addition, we've added a few new things to help you customize the new experience for your users:</p>
 -->
 
 <!--

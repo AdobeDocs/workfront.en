@@ -905,13 +905,13 @@ For information on fields, see [Delete project milestone](https://docs.gitlab.co
 
 #### List Variables {#list-variables}
 
-This search module retrieves a list of a project’s variables.
+This search module retrieves a list of a project's variables.
 
 For information on fields, see [List project variables](https://docs.gitlab.com/ee/api/project_level_variables.html#list-project-variables) in the GitLab documentation.
 
 #### Get a Variable {#get-a-variable}
 
-This module retrieves details of a project’s specific variable.
+This module retrieves details of a project's specific variable.
 
 For information on fields, see [Show variable details](https://docs.gitlab.com/ee/api/project_level_variables.html#show-variable-details) in the GitLab documentation.
 
@@ -923,13 +923,13 @@ For information on fields, see [Create variable](https://docs.gitlab.com/ee/api/
 
 #### Update a Variable {#update-a-variable}
 
-This action module updates a project’s variable.
+This action module updates a project's variable.
 
 For information on fields, see [Update variable](https://docs.gitlab.com/ee/api/project_level_variables.html#update-variable) in the GitLab documentation.
 
 #### Delete a Variable {#delete-a-variable}
 
-This action module removes a project’s variable.
+This action module removes a project's variable.
 
 For information on fields, see [Remove variable](https://docs.gitlab.com/ee/api/project_level_variables.html#remove-variable) in the GitLab documentation.
 

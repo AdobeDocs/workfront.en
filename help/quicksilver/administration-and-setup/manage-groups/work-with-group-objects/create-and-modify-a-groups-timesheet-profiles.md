@@ -3,11 +3,11 @@ filename: create-and-modify-a-groups-timesheet-profiles
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Create and manage a group’s timesheet profiles
+title: Create and manage a group's timesheet profiles
 description: Do this to other step articles about objects and groups? Remove steps and point to main article; add group or step in that article. Already done previously for approval processes.
 ---
 
-# Create and manage a group’s timesheet profiles
+# Create and manage a group's timesheet profiles
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Do this to other step articles about objects and groups? Remove steps and point to main article; add group or step in that article. Already done previously for approval processes.</p>

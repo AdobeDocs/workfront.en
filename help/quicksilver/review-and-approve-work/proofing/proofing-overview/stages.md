@@ -32,7 +32,7 @@ For instructions on creating stages for a proof with an automated workflow, see 
 
 >[!NOTE]
 >
->If a user isn’t included on any stages but has access to the document and opens the proof, the system creates a stage called *Workfront*. 
+>If a user isn't included on any stages but has access to the document and opens the proof, the system creates a stage called *Workfront*. 
 >
 >The user who opened the proof is assigned the role specified in Setup > Review and Approval > Roles for non-recipients that open a document proof.
 

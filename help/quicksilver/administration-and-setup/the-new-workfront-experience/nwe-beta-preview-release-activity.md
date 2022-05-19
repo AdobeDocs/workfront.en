@@ -43,11 +43,11 @@ For a list of new features that were made available in Workfront Classic, see [W
    <td> <p><strong>Release dates</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="#newer-layout-templates-created-in-workfront-classic-now-available-in-the-new-workfront-experience" class="MCXref xref" xrefformat="{para}">Newer Layout Templates created in Workfront Classic now available in the new Workfront experience</a> </p> <p>Layout Templates created in Workfront Classic after Fall 2019 are now available in the new Workfront experience. It’s a good idea to update these Layout Templates in the new Workfront experience to take advantage of new functionality and make them as useful as possible to users in that environment.</p> </td> 
+   <td> <p><a href="#newer-layout-templates-created-in-workfront-classic-now-available-in-the-new-workfront-experience" class="MCXref xref" xrefformat="{para}">Newer Layout Templates created in Workfront Classic now available in the new Workfront experience</a> </p> <p>Layout Templates created in Workfront Classic after Fall 2019 are now available in the new Workfront experience. It's a good idea to update these Layout Templates in the new Workfront experience to take advantage of new functionality and make them as useful as possible to users in that environment.</p> </td> 
    <td> <p>Beta Preview release:&nbsp;N/A</p> <p>Beta Production release:&nbsp;April 6, 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="#updates-to-event-subscriptions" class="MCXref xref" xrefformat="{para}">Updates to Event Subscriptions</a> </p> <p>To better enable users to triage, troubleshoot, and resolve issues, we’ve modified behavior and added more data to the Event Subscriptions API.</p> </td> 
+   <td> <p><a href="#updates-to-event-subscriptions" class="MCXref xref" xrefformat="{para}">Updates to Event Subscriptions</a> </p> <p>To better enable users to triage, troubleshoot, and resolve issues, we've modified behavior and added more data to the Event Subscriptions API.</p> </td> 
    <td> <p>Beta Preview release:&nbsp;April 1, 2020</p> <p>Beta Production release:&nbsp;April 17, 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -107,7 +107,7 @@ For a list of new features that were made available in Workfront Classic, see [W
    <td> <p>Beta Preview release:&nbsp;March 11, 2020</p> <p>Beta Production release:&nbsp;N/A</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="#more-easily-see-who-is-tagged-in-an-update" class="MCXref xref" xrefformat="{para}">More easily see who is tagged in an update</a> </p> <p>It's now easier to see which users are tagged in an update. Tagged users are now listed under the comment box.</p> <p>Tagged users are also listed under the comment box. Before this enhancement, the users previously tagged didn’t show up in the Notify box.</p> </td> 
+   <td> <p><a href="#more-easily-see-who-is-tagged-in-an-update" class="MCXref xref" xrefformat="{para}">More easily see who is tagged in an update</a> </p> <p>It's now easier to see which users are tagged in an update. Tagged users are now listed under the comment box.</p> <p>Tagged users are also listed under the comment box. Before this enhancement, the users previously tagged didn't show up in the Notify box.</p> </td> 
    <td> <p>Beta Preview release: March 9, 2020</p> <p>Beta Production release: March 12, 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -188,7 +188,7 @@ For a list of new features that were made available in Workfront Classic, see [W
    </tr>
   --> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="#external-proof-links-open-the-proof-inside-of-workfront" class="MCXref xref" xrefformat="{para}">External proof links open the proof inside of Workfront</a> </p> <p>To help you gain context relating to a proof you’ve been invited to review by email or URL, the proof opens directly in Workfront. This change does not apply to guest users.</p> </td> 
+   <td> <p><a href="#external-proof-links-open-the-proof-inside-of-workfront" class="MCXref xref" xrefformat="{para}">External proof links open the proof inside of Workfront</a> </p> <p>To help you gain context relating to a proof you've been invited to review by email or URL, the proof opens directly in Workfront. This change does not apply to guest users.</p> </td> 
    <td> <p>Beta Preview release: N/A</p> <p>This feature will not be made available in the Preview environment<br></p> <p>Beta Production release: With the 2020.1 release to Production</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -208,7 +208,7 @@ For a list of new features that were made available in Workfront Classic, see [W
    <td> <p>Beta Preview release: February 13, 2020</p> <p>Beta Production release: With the 2020.1 release to Production</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="#close-the-proofing-viewer" class="MCXref xref" xrefformat="{para}">Close the proofing viewer</a> </p> <p>To help you navigate out of the proofing viewer and return to your work faster, we’ve added an X icon in the upper-right corner to close the proofing viewer.</p> </td> 
+   <td> <p><a href="#close-the-proofing-viewer" class="MCXref xref" xrefformat="{para}">Close the proofing viewer</a> </p> <p>To help you navigate out of the proofing viewer and return to your work faster, we've added an X icon in the upper-right corner to close the proofing viewer.</p> </td> 
    <td> <p>Beta Preview release: February 13, 2020</p> <p>Beta Production release: With the 2020.1 release to Production</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -224,7 +224,7 @@ For a list of new features that were made available in Workfront Classic, see [W
    <td> <p>Beta Preview release: February 5, 2020</p> <p>Beta Production release: February 6, 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="#use-breadcrumbs-to-return-to-your-work-from-the-proofing-viewer" class="MCXref xref" xrefformat="{para}">Use breadcrumbs to return to your work from the proofing viewer</a> </p> <p>To help you navigate to the parent object of a proof, we’ve added breadcrumbs to the upper-left corner. Click a breadcrumb to return to any of the parent objects in Workfront.</p> </td> 
+   <td> <p><a href="#use-breadcrumbs-to-return-to-your-work-from-the-proofing-viewer" class="MCXref xref" xrefformat="{para}">Use breadcrumbs to return to your work from the proofing viewer</a> </p> <p>To help you navigate to the parent object of a proof, we've added breadcrumbs to the upper-left corner. Click a breadcrumb to return to any of the parent objects in Workfront.</p> </td> 
    <td> <p>Beta Preview release: January 29, 2020</p> <p>Beta Production release: With the 2020.1 release to Production</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -252,7 +252,7 @@ For a list of new features that were made available in Workfront Classic, see [W
    <td> <p>Beta Preview release: January 23, 2020</p> <p>Beta Production release: January 23, 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="#redesigned-predecessor-details-when-viewing-them-in-the-task-header" class="MCXref xref" xrefformat="{para}">Redesigned predecessor details when viewing them in the task header</a> </p> <p>To improve your experience when working with tasks, we have redesigned the predecessor details box when accessing it from the task header. The information is organized in a more streamlined fashion and there is a clear indication when you don’t have access to a project whose tasks are predecessors to your tasks. </p> </td> 
+   <td> <p><a href="#redesigned-predecessor-details-when-viewing-them-in-the-task-header" class="MCXref xref" xrefformat="{para}">Redesigned predecessor details when viewing them in the task header</a> </p> <p>To improve your experience when working with tasks, we have redesigned the predecessor details box when accessing it from the task header. The information is organized in a more streamlined fashion and there is a clear indication when you don't have access to a project whose tasks are predecessors to your tasks. </p> </td> 
    <td> <p>Beta Preview release: January 23, 2020</p> <p>Beta Production release: January 23, 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -336,10 +336,10 @@ For a list of new features that were made available in Workfront Classic, see [W
  <col> 
  <tbody>  
   <tr data-mc-conditions=""> 
-   <td>Newer Layout Templates created in Workfront Classic now available in the new Workfront experience <p>Layout Templates created in Workfront Classic after Fall 2019 are now available in the new Workfront experience. It’s a good idea to update these Layout Templates in the new Workfront experience to take advantage of new functionality and make them as useful as possible to users in that environment.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref" xrefformat="{para}">Create and manage layout templates</a>.</p> <p>For a summary of the changes in this area in the new Workfront experience, see <a href="../../workfront-basics/the-new-workfront-experience/new-layout-templates.md" class="MCXref xref" xrefformat="{para}">New Layout Templates area in the new Adobe Workfront experience</a>.</p> </td> 
+   <td>Newer Layout Templates created in Workfront Classic now available in the new Workfront experience <p>Layout Templates created in Workfront Classic after Fall 2019 are now available in the new Workfront experience. It's a good idea to update these Layout Templates in the new Workfront experience to take advantage of new functionality and make them as useful as possible to users in that environment.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref" xrefformat="{para}">Create and manage layout templates</a>.</p> <p>For a summary of the changes in this area in the new Workfront experience, see <a href="../../workfront-basics/the-new-workfront-experience/new-layout-templates.md" class="MCXref xref" xrefformat="{para}">New Layout Templates area in the new Adobe Workfront experience</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Updates to Event Subscriptions</strong></p> <p>To better enable users to triage, troubleshoot, and resolve issues, we’ve modified behavior and added more data to the Event Subscriptions API. We’ve also made the following changes:</p> 
+   <td> <p><strong>Updates to Event Subscriptions</strong></p> <p>To better enable users to triage, troubleshoot, and resolve issues, we've modified behavior and added more data to the Event Subscriptions API. We've also made the following changes:</p> 
     <ul> 
      <li>Migrated underlying messaging technologies</li> 
      <li>Rebuilt the service to have less complex dependencies and thus scale more efficiently</li> 
@@ -390,11 +390,11 @@ For a list of new features that were made available in Workfront Classic, see [W
      <li>Add to Favorites</li> 
     </ul> <p><strong>Removed</strong> </p> <p>The following functionality has been removed from the More menu in Home:</p> 
     <ul> 
-     <li> <p>Remove</p> <p>You can’t remove yourself from a work item with the Remove button. Instead, you can remove yourself directly from the assignments widget.</p> </li> 
-     <li> <p>Reply </p> <p>You can’t reply directly to the person who assigned the work item to you. Instead, you can view who assigned you to the task and reply in the Updates area.</p> </li> 
-     <li> <p>Reassign</p> <p>You can’t reassign someone to a work item with the Reassign button. Instead, you can remove yourself and assign someone else directly from the assignments widget.</p> </li> 
-     <li> <p>Propose new date</p> <p>You can’t propose a new Commit Date for a work item using the reply option as it no longer exists in the more menu. Instead, you can update the Commit Date in the Updates area.</p> </li> 
-     <li> <p>Convert to work request</p> <p>You can’t revert a work item to Ready to start once you’ve clicked Work on it. This change makes Home inline with current functionality in projects, tasks, and issues</p> </li> 
+     <li> <p>Remove</p> <p>You can't remove yourself from a work item with the Remove button. Instead, you can remove yourself directly from the assignments widget.</p> </li> 
+     <li> <p>Reply </p> <p>You can't reply directly to the person who assigned the work item to you. Instead, you can view who assigned you to the task and reply in the Updates area.</p> </li> 
+     <li> <p>Reassign</p> <p>You can't reassign someone to a work item with the Reassign button. Instead, you can remove yourself and assign someone else directly from the assignments widget.</p> </li> 
+     <li> <p>Propose new date</p> <p>You can't propose a new Commit Date for a work item using the reply option as it no longer exists in the more menu. Instead, you can update the Commit Date in the Updates area.</p> </li> 
+     <li> <p>Convert to work request</p> <p>You can't revert a work item to Ready to start once you've clicked Work on it. This change makes Home inline with current functionality in projects, tasks, and issues</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -441,7 +441,7 @@ For a list of new features that were made available in Workfront Classic, see [W
    <td> 
     <div> 
      <p><strong>More easily see who is tagged in an update</strong></p> 
-     <p>It’s now easier to see which users are tagged in an update. Tagged users name’s display in blue and link to the user profile.</p> 
+     <p>It's now easier to see which users are tagged in an update. Tagged users name's display in blue and link to the user profile.</p> 
      <p>Before this enhancement, the users previously tagged did not show up in the Notify box.</p> 
      <p>For more information, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref" xrefformat="{para}">Tag others on updates</a>.</p> 
      <!--<p><iframe class="vimeo-player_0" src="assets/396545752?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
@@ -513,7 +513,7 @@ For a list of new features that were made available in Workfront Classic, see [W
    </tr>
   --> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>External proof links open the proof inside of Workfront</strong></p> <p>To help you gain context relating to a proof you’ve been invited to review by email or URL, the proof opens directly in Workfront. This change does not apply to guest users.</p> <p>Previously, when you opened a proof from a URL or email, it opened the proofing viewer outside of Workfront and you had to check assigned object information separately in Workfront.</p> <p>For more information about opening the proofing viewer, see .</p> </td> 
+   <td> <p><strong>External proof links open the proof inside of Workfront</strong></p> <p>To help you gain context relating to a proof you've been invited to review by email or URL, the proof opens directly in Workfront. This change does not apply to guest users.</p> <p>Previously, when you opened a proof from a URL or email, it opened the proofing viewer outside of Workfront and you had to check assigned object information separately in Workfront.</p> <p>For more information about opening the proofing viewer, see .</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Left panel navigation available in Dashboards area</strong></p> <p>There is now left panel navigation in the Dashboards area, similar to the left panel navigation for other objects. In the left panel, you can select from the following options</p> 
@@ -542,7 +542,7 @@ For a list of new features that were made available in Workfront Classic, see [W
     --> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Close the proofing viewer</strong></p> <p>To help you navigate out of the proofing viewer and return to your work faster, we’ve added an X icon in the upper-right corner to close the proofing viewer.</p> <p>Previously, you had to use the Back button in your browser to close the proofing viewer.</p> </td> 
+   <td> <p><strong>Close the proofing viewer</strong></p> <p>To help you navigate out of the proofing viewer and return to your work faster, we've added an X icon in the upper-right corner to close the proofing viewer.</p> <p>Previously, you had to use the Back button in your browser to close the proofing viewer.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Combined Details pages for Portfolios and Programs</strong></p> <p>It's now easier to view and update the Program and Portfolio Details because the information is combined into a single page and the secondary left navigation was removed. Any custom forms associated with the Program or Portfolio are also available on this single page. The experience is now similar to the one in the Project Details area.</p> <p>For information about the Details pages for objects, see <a href="../../workfront-basics/the-new-workfront-experience/combined-pages-object-details.md" class="MCXref xref" xrefformat="{para}">Edit object details in the new Adobe Workfront experience</a>.</p> <!--<p><iframe class="vimeo-player_0" src="assets/390047645?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/390047645/93160615d0" target="_blank">View this video in full-screen mode.</a> </p>--> </td> 
@@ -560,7 +560,7 @@ For a list of new features that were made available in Workfront Classic, see [W
    <td> <p><strong>Recents tab added to the Favorites area</strong></p> <p>To better align with user expectations, you can now see recently viewed items in the Favorites area, similar to the experience in Workfront Classic. To access the Recents menu, click the Favorites icon in the Global Navigation Bar and click the Recents tab.</p> <p>For now, you can still see this information on the Search page in the Recent column.</p> <p>To learn more, see <a href="../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md" class="MCXref xref" xrefformat="{para}">View recent items</a> and <a href="../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md" class="MCXref xref" xrefformat="{para}">View and manage favorites</a>.</p> <!--<p><iframe class="vimeo-player_0" src="assets/389815565?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/389815565/4323d11da6" target="_blank">View this video in full-screen mode.</a> </p>--> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Use breadcrumbs to return to your work from the proofing viewer</strong></p> <p>To help you navigate to the parent object of a proof, we’ve added breadcrumbs to the upper-left corner. Click a breadcrumb to return to any of the parent objects in Workfront.</p> <p>Previously, you had to use the Back button in your browser to close the proofing viewer or return to the parent object.</p> </td> 
+   <td> <p><strong>Use breadcrumbs to return to your work from the proofing viewer</strong></p> <p>To help you navigate to the parent object of a proof, we've added breadcrumbs to the upper-left corner. Click a breadcrumb to return to any of the parent objects in Workfront.</p> <p>Previously, you had to use the Back button in your browser to close the proofing viewer or return to the parent object.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Improved navigation in the Workload Balancer</strong></p> <p>Now, you can navigate back and forth in the Workload Balancer one time period at a time. Prior to this enhancement when you clicked the back and forward icons, the timeframe shifted by four time periods at a time.</p> <p>For information about using the Workload Balancer, see <a href="../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref" xrefformat="{para}">Navigate the Workload Balancer</a>.</p> </td> 
@@ -590,7 +590,7 @@ For a list of new features that were made available in Workfront Classic, see [W
    <td> <p><strong>Updates on the Details page of all objects </strong></p> <p>We are continuing to improve the design of the new combined Details pages of all objects in the new Workfront experience. </p> <p>For information about the new Details page, see <a href="../../workfront-basics/the-new-workfront-experience/combined-pages-object-details.md" class="MCXref xref" xrefformat="{para}">Edit object details in the new Adobe Workfront experience</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Redesigned predecessor details when viewing them in the task header</strong></p> <p>To improve your experience when working with tasks, we have redesigned the predecessor details box when accessing it from the task header. The information is organized in a more streamlined fashion and there is a clear indication when you don’t have access to a project whose tasks are predecessors to your tasks. </p> <p>For information about accessing predecessor information on tasks, see <a href="../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref" xrefformat="{para}">Overview of task predecessors</a>.</p> </td> 
+   <td> <p><strong>Redesigned predecessor details when viewing them in the task header</strong></p> <p>To improve your experience when working with tasks, we have redesigned the predecessor details box when accessing it from the task header. The information is organized in a more streamlined fashion and there is a clear indication when you don't have access to a project whose tasks are predecessors to your tasks. </p> <p>For information about accessing predecessor information on tasks, see <a href="../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref" xrefformat="{para}">Overview of task predecessors</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>The Display Actual Hours setting removed from the Resource Planner</strong></p> <p>To make displaying Actual Hours in the Resource Planner easier, we have removed the Display Actual Hours setting from the Resource Planner. </p> <p>You can still display Actual Hours when viewing the Resource Planner in the User View by using the Customize view feature.</p> <p>For information about navigating the Resource Planner, see <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref" xrefformat="{para}">Resource Planner navigation overview </a>.</p> <!--<p><iframe class="vimeo-player_0" src="assets/385274768?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/385274768/0b829aabcb" target="_blank">View this video in full-screen mode.</a> </p>--> </td> 

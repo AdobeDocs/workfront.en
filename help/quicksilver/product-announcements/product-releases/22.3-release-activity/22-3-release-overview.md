@@ -64,7 +64,7 @@ later this year
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-11.md#for" class="MCXref xref" xrefformat="{para}">For administrators: Deactivate a group from the Groups page</a> </p> <p>Recently, we added the ability to deactivate and reactivate groups. To make that action quicker and easier, we have added it to a group’s page. Now, after you click a group’s name to go to its page, you can select the More menu <img src="assets/more-icon.png"> next to the group’s name, then select Deactivate or Reactivate.</p> <p>Previously, you could deactivate or reactivate a group only by using the Is active check box on its Details page. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-11.md#for" class="MCXref xref" xrefformat="{para}">For administrators: Deactivate a group from the Groups page</a> </p> <p>Recently, we added the ability to deactivate and reactivate groups. To make that action quicker and easier, we have added it to a group's page. Now, after you click a group's name to go to its page, you can select the More menu <img src="assets/more-icon.png"> next to the group's name, then select Deactivate or Reactivate.</p> <p>Previously, you could deactivate or reactivate a group only by using the Is active check box on its Details page. </p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: April 14, 2022<br></p> </li> 
@@ -99,7 +99,7 @@ later this year
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-may-2.md#new" class="MCXref xref" xrefformat="{para}">New syntax for calculations in custom fields</a> <span style="color: #ff0000; font-weight: bold;">New in Preview!</span></p> <p>To prepare for future enhancements that will help you add calculations to custom forms, we have standardized the syntax for referenced fields that you add to a calculation. It’s easy to use this new syntax because the system enters it for you when you start typing the name of a field and then select it.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-may-2.md#new" class="MCXref xref" xrefformat="{para}">New syntax for calculations in custom fields</a> <span style="color: #ff0000; font-weight: bold;">New in Preview!</span></p> <p>To prepare for future enhancements that will help you add calculations to custom forms, we have standardized the syntax for referenced fields that you add to a calculation. It's easy to use this new syntax because the system enters it for you when you start typing the name of a field and then select it.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: May 5, 2022<br></p> </li> 
@@ -110,7 +110,7 @@ later this year
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md#keep" class="MCXref xref" xrefformat="{para}">Keep accurate information when two users with a common role are involved in an approval process</a> </p> <p>To ensure accuracy of your data for approving work, we have made a change in the way approval information is recorded on an item when a multi-role approval process is associated with the item.</p> <p>Some approval processes require approval from two different roles, and two different approvers might have one of those roles in common. Now when this happens, after the approval decisions are made, Workfront records each approver and their respective role associated with the approval process.</p> <p>Prior to this change, both approvals were recorded for the second user because they shared one of the approval roles with the first approver. In this case, the second approver was overwriting the first approver’s information.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md#keep" class="MCXref xref" xrefformat="{para}">Keep accurate information when two users with a common role are involved in an approval process</a> </p> <p>To ensure accuracy of your data for approving work, we have made a change in the way approval information is recorded on an item when a multi-role approval process is associated with the item.</p> <p>Some approval processes require approval from two different roles, and two different approvers might have one of those roles in common. Now when this happens, after the approval decisions are made, Workfront records each approver and their respective role associated with the approval process.</p> <p>Prior to this change, both approvals were recorded for the second user because they shared one of the approval roles with the first approver. In this case, the second approver was overwriting the first approver's information.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: April 21, 2022<br></p> </li> 
@@ -185,7 +185,7 @@ later this year
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md#combine" class="MCXref xref" xrefformat="{para}">Combine multiple files in a single proof in the Creative Cloud plugin</a> <b style="color: #ff0000;">Coming soon to Production!</b></p> <p>You can now upload outside files with the content you’ve created in the Adobe Workfront for Creative Cloud plugin to create multi-file proofs in Workfront. Outside files appear as additional proof pages inside Workfront. With this enhancement, we’ve also updated the look and feel of the proof creation experience.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md#combine" class="MCXref xref" xrefformat="{para}">Combine multiple files in a single proof in the Creative Cloud plugin</a> <b style="color: #ff0000;">Coming soon to Production!</b></p> <p>You can now upload outside files with the content you've created in the Adobe Workfront for Creative Cloud plugin to create multi-file proofs in Workfront. Outside files appear as additional proof pages inside Workfront. With this enhancement, we've also updated the look and feel of the proof creation experience.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: N/A<br></p> </li> 
@@ -209,7 +209,7 @@ later this year
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md#global" class="MCXref xref" xrefformat="{para}">Global look and feel updates</a> </p> <p>To better align Adobe products and to improve consistency throughout the Workfront application, we’re releasing minor cosmetic styling changes throughout the Workfront user interface.</p> <p>Buttons, colors, and fonts are now updated throughout the Workfront application.</p> <p>These updates are solely visual changes; the underlying functionality remains unchanged.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md#global" class="MCXref xref" xrefformat="{para}">Global look and feel updates</a> </p> <p>To better align Adobe products and to improve consistency throughout the Workfront application, we're releasing minor cosmetic styling changes throughout the Workfront user interface.</p> <p>Buttons, colors, and fonts are now updated throughout the Workfront application.</p> <p>These updates are solely visual changes; the underlying functionality remains unchanged.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: April 21, 2022<br></p> </li> 

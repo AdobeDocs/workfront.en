@@ -41,5 +41,5 @@ Depending on whether a user with the same email address exists in Workfront Proo
 
   >[!IMPORTANT]
   >
-  >When a user with a matching email exists, in their own or in another proofing environment, Workfront creates an alias email address by adding the user’s account id as a suffix to their email. For example, *username+accountid@domain.com*. If your email provider does not support email aliases, this could impact proofing notifications.
+  >When a user with a matching email exists, in their own or in another proofing environment, Workfront creates an alias email address by adding the user's account id as a suffix to their email. For example, *username+accountid@domain.com*. If your email provider does not support email aliases, this could impact proofing notifications.
 

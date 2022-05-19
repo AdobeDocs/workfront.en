@@ -73,7 +73,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">Introduce new Access Level setting for copying projects</a> </p> <p>To give you more control, as a system administrator, to what Planners can do with a project, we have made the Edit access to projects in the access level more granular, by introducing a new setting that allows you to enable or disable their ability to copy projects. Prior to this change, when you enabled users’ access to Edit projects, they automatically had access to copy them. With the new feature, you can give someone access to edit projects without necessarily having access to copy them by disabling the new Copy setting.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">Introduce new Access Level setting for copying projects</a> </p> <p>To give you more control, as a system administrator, to what Planners can do with a project, we have made the Edit access to projects in the access level more granular, by introducing a new setting that allows you to enable or disable their ability to copy projects. Prior to this change, when you enabled users' access to Edit projects, they automatically had access to copy them. With the new feature, you can give someone access to edit projects without necessarily having access to copy them by disabling the new Copy setting.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;January 13, 2021</p> <p>Production release:&nbsp;With the 21.1 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -81,15 +81,15 @@ For specific release dates and times for each cluster, see the
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;January 13, 2021</p> <p>Production release:&nbsp;With the 21.1 release <span style="color: #dc143c; font-weight: bold;">(Not currently available when you are submitting a new Request.)</span></p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#recalcul" class="MCXref xref" xrefformat="{para}">Recalculate all Custom Form fields for an object</a> </p> <p>Now it’s easier to ensure that all data in calculated custom fields is current for an object. A new Recalculate Expressions menu option lets you quickly recalculate all data in these fields.</p> <p>This is especially useful after someone edits data in another object that is referenced by a calculated custom field in your object.</p> <p>Previously, users had to use workarounds to ensure that all data in calculated custom fields was current. For example, they edited the object along with other objects to use the recalculation option that is available for bulk editing.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#recalcul" class="MCXref xref" xrefformat="{para}">Recalculate all Custom Form fields for an object</a> </p> <p>Now it's easier to ensure that all data in calculated custom fields is current for an object. A new Recalculate Expressions menu option lets you quickly recalculate all data in these fields.</p> <p>This is especially useful after someone edits data in another object that is referenced by a calculated custom field in your object.</p> <p>Previously, users had to use workarounds to ensure that all data in calculated custom fields was current. For example, they edited the object along with other objects to use the recalculation option that is available for bulk editing.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;December 10, 2020</p> <p>Production release:&nbsp;With the 21.1 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#unlock" class="MCXref xref" xrefformat="{para}">Unlock task and issue preferences for Group Administrators</a> </p> <p>Workfront administrators can now give Group Administrators more autonomy by unlocking individual task and issue preferences. When a preference is unlocked, Group Administrators can configure it for their groups to serve each group’s unique needs and internal processes.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#unlock" class="MCXref xref" xrefformat="{para}">Unlock task and issue preferences for Group Administrators</a> </p> <p>Workfront administrators can now give Group Administrators more autonomy by unlocking individual task and issue preferences. When a preference is unlocked, Group Administrators can configure it for their groups to serve each group's unique needs and internal processes.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;December 2, 2020</p> <p>Production release:&nbsp;With the 21.1 release <span style="color: #dc143c; font-weight: bold;">(Before June 24, 2021, this was available as part of a phased rollout only for customers on Cluster 4 and 6 and a few other customers. Now it is available in Production for all customers.)</span></p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur" class="MCXref xref" xrefformat="{para}">Configure access level settings for portfolios and programs separately</a> </p> <p>Now it’s easier to manage user access to portfolios and programs because you can configure their access level settings separately.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur" class="MCXref xref" xrefformat="{para}">Configure access level settings for portfolios and programs separately</a> </p> <p>Now it's easier to manage user access to portfolios and programs because you can configure their access level settings separately.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;December 2, 2020</p> <p>Production release:&nbsp;With the 21.1 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -109,7 +109,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;November 20, 2020</p> <p>Production release:&nbsp;With the 21.1 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#work" class="MCXref xref" xrefformat="{para}">Work with group projects and approval processes in the Groups area</a> </p> <p>If you are a Group Administrator, it’s easy to view and work with your group’s projects and approval processes now that they are listed in the Groups area. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#work" class="MCXref xref" xrefformat="{para}">Work with group projects and approval processes in the Groups area</a> </p> <p>If you are a Group Administrator, it's easy to view and work with your group's projects and approval processes now that they are listed in the Groups area. </p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;November 20, 2020</p> <p>Production release:&nbsp;With the 21.1 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -175,7 +175,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;January 13, 2021</p> <p>Production release:&nbsp;With the 21.1 release <span style="color: #dc143c; font-weight: bold;">(Removed from release; will remain in Preview and release to Production with 21.2)</span></p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">New Submitted Requests list</a> </p> <p>To allow you to manage your Submitted Requests in an easier, more consistent way, we have removed the Requests I’ve Submitted and All Requests sections in the Requests area and replaced them with a new Submitted list. The list has a familiar look and feel that matches all other lists in the system, allowing you to filter for different categories of submitted requests and quick search for a request that might be hard to find.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">New Submitted Requests list</a> </p> <p>To allow you to manage your Submitted Requests in an easier, more consistent way, we have removed the Requests I've Submitted and All Requests sections in the Requests area and replaced them with a new Submitted list. The list has a familiar look and feel that matches all other lists in the system, allowing you to filter for different categories of submitted requests and quick search for a request that might be hard to find.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;December 2, 2020</p> <p>Production release:&nbsp;With the 21.1 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -356,15 +356,15 @@ For information about the maintenance updates made during the 21.1 release, see 
 
 ### New IP addresses for Workfront email with the 21.1 release {#new-ip-addresses-for-workfront-email-with-the-21-1-release}
 
-In an effort to increase successful email delivery, we’re adding new IP addresses with the 21.1 Production release for clusters 1, 2, 3, 4, and 5.
+In an effort to increase successful email delivery, we're adding new IP addresses with the 21.1 Production release for clusters 1, 2, 3, 4, and 5.
 
 For details about which IP addresses you need to add for your cluster, see [New IP addresses for Adobe Workfront email with the 21.1 release](../../../product-announcements/announcements/new-email-ip-21.1.md).
 
-To find out which cluster you’re instance is on, go to Setup > System > Customer Info.
+To find out which cluster you're instance is on, go to Setup > System > Customer Info.
 
 ### Allowlist of additional IP&nbsp;addresses for Event Subscriptions {#allowlist-of-additional-ip-addresses-for-event-subscriptions}
 
-In an effort to increase successful Event Subscription delivery, we’re adding 4 new IP addresses with the 21.1 Production release in the first quarter of 2021. You must add these IP addresses to your allowlist before February 2021 to ensure your users continue to receive Event Subscriptions.
+In an effort to increase successful Event Subscription delivery, we're adding 4 new IP addresses with the 21.1 Production release in the first quarter of 2021. You must add these IP addresses to your allowlist before February 2021 to ensure your users continue to receive Event Subscriptions.
 
 Contact your internal IT and/or security department for assistance in adding the new IPs found in the article, [Event Subscription API](../../../wf-api/general/event-subs-api.md).
 
@@ -395,6 +395,6 @@ For more information, see [Change in Workfront preview release cadence FAQ](http
 
 ### Workfront One {#workfront-one}
 
-With Workfront One, you’ll discover the most important content, resources, and news from Workfront —all in one place, with one login. We’ve unified the Experience, Community, and Training sites making it easier to find what you’re looking for.
+With Workfront One, you'll discover the most important content, resources, and news from Workfront —all in one place, with one login. We've unified the Experience, Community, and Training sites making it easier to find what you're looking for.
 
 [Learn more about Workfront One](https://www.workfront.com/campaigns/workfront-one).

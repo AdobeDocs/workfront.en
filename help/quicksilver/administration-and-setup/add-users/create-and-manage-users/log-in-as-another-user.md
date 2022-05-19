@@ -28,11 +28,11 @@ As the Adobe Workfront administrator, sometimes you might need to access Workfro
 
 Or, as a group administrator, you might need to access Workfront on behalf of a user who is a member of a group you manage.
 
-For example, if a task can’t progress until a user on vacation performs a certain action, you can log in as that user and perform the action instead.
+For example, if a task can't progress until a user on vacation performs a certain action, you can log in as that user and perform the action instead.
 
 <!--
 <note type="note">
-Some users, such as executives, need to be able to control which administrators can log in to their accounts, and for how long. Working with your organization, Workfront configures settings that allow this control for these users. When a Workfront administrator or group administrator (associated with one of the user’s groups) tries to log in as one of these users, an on-screen message prompts the administrator to contact the user for access. From the user profile area, the user can then grant access to the administrator and specify an expiration time for it. For more information on how the user does this, see
+Some users, such as executives, need to be able to control which administrators can log in to their accounts, and for how long. Working with your organization, Workfront configures settings that allow this control for these users. When a Workfront administrator or group administrator (associated with one of the user's groups) tries to log in as one of these users, an on-screen message prompts the administrator to contact the user for access. From the user profile area, the user can then grant access to the administrator and specify an expiration time for it. For more information on how the user does this, see
 <a href="../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#access" class="MCXref xref">Access</a> in
 <a href="../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configure My Settings</a>.
 <span class="PinkDraftNote">[Add a note about this being only for the Enterprise package if they decide to do it that way]</span>

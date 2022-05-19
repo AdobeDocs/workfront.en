@@ -123,7 +123,7 @@ Now, when you receive an instant email notification, you can either add that not
 
 These options are available within the email notification. For more information about receiving email notifications, see [Adobe Workfront notifications](../../../../workfront-basics/using-notifications/wf-notifications.md)
 
-## Various Email Notifications Moved from the ‘Action Needed’ Section to Other Project-Related Sections
+## Various Email Notifications Moved from the ‘Action Needed' Section to Other Project-Related Sections
 
 Several notifications have been moved from the “Action Needed” section of the user profile page to other sections, as follows:
 
@@ -147,7 +147,7 @@ For more information about configuring email notifications, see [Activate or dea
    <td> &nbsp; <p>Information about Projects I Own</p></td> 
   </tr> 
   <tr> 
-   <td>An issue is added to a project I’m on</td> 
+   <td>An issue is added to a project I'm on</td> 
    <td> &nbsp; <p>Action Needed</p><p>&nbsp;</p></td> 
    <td> <p> Information about Projects I Own </p> &nbsp; </td> 
   </tr> 
@@ -157,7 +157,7 @@ For more information about configuring email notifications, see [Activate or dea
    <td> &nbsp; <p>Information about Projects I Own</p></td> 
   </tr> 
   <tr> 
-   <td> <p> An unassigned issue is added to a project I’m on </p> </td> 
+   <td> <p> An unassigned issue is added to a project I'm on </p> </td> 
    <td> <p> Action Needed </p> &nbsp; </td> 
    <td> <p> Information about Projects I Own </p> &nbsp; </td> 
   </tr> 
@@ -172,17 +172,17 @@ For more information about configuring email notifications, see [Activate or dea
    <td> <p> Information about Projects I Own </p> &nbsp; </td> 
   </tr> 
   <tr> 
-   <td> <p> The due date changes on a task I’m assigned to </p> </td> 
+   <td> <p> The due date changes on a task I'm assigned to </p> </td> 
    <td> &nbsp; <p>Action Needed</p></td> 
    <td> &nbsp; <p>Information about Work Assigned to Me</p></td> 
   </tr> 
   <tr> 
-   <td> <p> The due date changes on an issue I’m assigned to </p> </td> 
+   <td> <p> The due date changes on an issue I'm assigned to </p> </td> 
    <td> <p> Action Needed </p> &nbsp; </td> 
    <td> &nbsp; <p>Information about Work Assigned to Me</p></td> 
   </tr> 
   <tr> 
-   <td> <p> The status changes on a task I’m assigned to </p> &nbsp; </td> 
+   <td> <p> The status changes on a task I'm assigned to </p> &nbsp; </td> 
    <td> <p> Action Needed </p> &nbsp; </td> 
    <td> <p> Information about Work Assigned to Me </p> &nbsp; </td> 
   </tr> 

@@ -4,12 +4,12 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Locked and unlocked system-level statuses
-description: Locking custom statuses is a way to ensure that people throughout your organization are using the same processes in their flow of work. When a status is locked, it’s available to all users in the system. Though you can edit or delete a status that you lock, group administrators can’t do so for their groups; they can change only its display order in the Status list.
+description: Locking custom statuses is a way to ensure that people throughout your organization are using the same processes in their flow of work. When a status is locked, it's available to all users in the system. Though you can edit or delete a status that you lock, group administrators can't do so for their groups; they can change only its display order in the Status list.
 ---
 
 # Locked and unlocked system-level statuses
 
-Locking custom statuses is a way to ensure that people throughout your organization are using the same processes in their flow of work. When a status is locked, it’s available to all users in the system. Though you can edit or delete a status that you lock, group administrators can’t do so for their groups; they can change only its display order in the Status list.
+Locking custom statuses is a way to ensure that people throughout your organization are using the same processes in their flow of work. When a status is locked, it's available to all users in the system. Though you can edit or delete a status that you lock, group administrators can't do so for their groups; they can change only its display order in the Status list.
 
 Conversely, unlocking custom statuses allows group administrators more flexibility to manage the unique workflows used in their groups. When a status is unlocked, group administrators can change its attributes or delete it for their groups.
 
@@ -30,7 +30,7 @@ For instructions on locking or unlocking a system-level status, see [Create or e
 <li>A user starts to edit an approval process that uses an unlocked status. A message alerts the user about the unlocked status so they can evaluate whether it would be a good idea to re-lock or replace it. </li>
 <li><p>A system-level approval process with an unlocked status is attached on an object, and the status was deleted for the group assigned to the object. When a group member goes to the Approvals section for the object, a message explains that the approval process can't be initiated for the object.
 <MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-Lilit says that this may become irrelevant as the team is trying to see if it’s possible to replace all approval processes on objects within the group, in which case we should not have any missing status cases.
+Lilit says that this may become irrelevant as the team is trying to see if it's possible to replace all approval processes on objects within the group, in which case we should not have any missing status cases.
 </MadCap:conditionalText>
 </p></li>
 </ul></li>

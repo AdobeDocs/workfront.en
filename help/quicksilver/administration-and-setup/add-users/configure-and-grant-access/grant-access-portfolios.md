@@ -5,12 +5,12 @@ user-type: administrator
 product-area: system-administration;portfolios
 navigation-topic: configure-access-to-workfront
 title: Grant access to portfolios
-description: As an Adobe Workfront administrator, you can use an access level to define a user’s access to portfolios in Workfront, as explained in Access levels overview.
+description: As an Adobe Workfront administrator, you can use an access level to define a user's access to portfolios in Workfront, as explained in Access levels overview.
 ---
 
 # Grant access to portfolios
 
-As an Adobe Workfront administrator, you can use an access level to define a user’s access to portfolios, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
+As an Adobe Workfront administrator, you can use an access level to define a user's access to portfolios, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
 
 ## Access requirements
 
@@ -68,9 +68,9 @@ As the owner or creator of an portfolio, you can share with other users by grant
 </div>
 -->
 
-When you share any object with another user, the recipient’s rights on it are determined by a combination of two things:
+When you share any object with another user, the recipient's rights on it are determined by a combination of two things:
 
 * The permissions that you grant to your recipient for the object
-* The recipient’s access level settings for the object's type
+* The recipient's access level settings for the object's type
 
 For information about permissions users can grant on a portfolio when sharing it, see [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).

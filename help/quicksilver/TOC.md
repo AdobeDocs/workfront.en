@@ -371,7 +371,7 @@ user-guide-description: Workfront
       * [Functionality for each object type](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
       * [Configurable access for each  object type](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
       * [Built-in access levels](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-      * [List users’ access levels and licenses](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+      * [List users' access levels and licenses](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
     * Configure access to Adobe Workfront {#configure-access}
       * [Configure access](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
       * [Manage custom access levels](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -409,7 +409,7 @@ user-guide-description: Workfront
     * Create and manage teams {#create-manage-teams}
       * [Manage teams](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
       * [Create a team](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
-      * [Edit a team’s settings](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
+      * [Edit a team's settings](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
   * Opt in to the new Adobe Workfront experience {#opt-in-nwe}
     * [Opt in to new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/opt-in-to-the-new-workfront-experience.md)
     * [Available only in new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/feature-list-and-release-timing-for-the-new-workfront-experience.md)
@@ -630,6 +630,7 @@ user-guide-description: Workfront
     * [Set up metadata mapping](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
     * [Create OAuth2 applications for Workfront integrations](administration-and-setup/configure-integrations/create-oauth-application.md)
     * [View and manage custom OAuth2 applications](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
+    * [Configure the JumpSeat integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
     * [Access Help for Adobe Workfront DAM](administration-and-setup/configure-integrations/access-help-workfront-dam.md)
     * [Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-workfront-fusion.md)
     * [Legacy Workfront Fusion service outages](administration-and-setup/configure-integrations/legacy-fusion-service-outages.md)
@@ -853,7 +854,7 @@ user-guide-description: Workfront
     * [Add or remove members from a board](agile/get-started-with-boards/add-members-to-board.md)
     * [Manage board columns](agile/get-started-with-boards/manage-board-columns.md)
     * [Add a card to a board](agile/get-started-with-boards/add-card-to-board.md)
-    * [Connected cards on boards](agile/get-started-with-boards/connected-cards.md)
+    * [Use connected cards on boards](agile/get-started-with-boards/connected-cards.md)
     * [Manage cards](agile/get-started-with-boards/move-board-items.md)
     * [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)
     * [Filter and search in a board](agile/get-started-with-boards/filter-search-in-board.md)

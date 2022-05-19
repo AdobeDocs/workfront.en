@@ -93,4 +93,4 @@ You must have the following:
 
 ## Template settings determined by group association
 
-A project template's association with a group (or lack thereof) affects how project, task, and issue preferences determine certain settings in the template. For more information, see the section [Create and modify a group’s project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#template2) in the article [Create and modify a group’s project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+A project template's association with a group (or lack thereof) affects how project, task, and issue preferences determine certain settings in the template. For more information, see the section [Create and modify a group's project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#template2) in the article [Create and modify a group's project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).

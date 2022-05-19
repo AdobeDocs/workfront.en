@@ -84,7 +84,7 @@ Some settings mentioned in this article might be modified from their default sta
 
    >[!NOTE]
    >
-   >If you are a group administrator, you can see and edit your group’s projects in the Groups area as well as in the Projects area. For more information, see [Create and modify a group’s projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   >If you are a group administrator, you can see and edit your group's projects in the Groups area as well as in the Projects area. For more information, see [Create and modify a group's projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. (Optional) To edit limited information about a project, click **Project Details** in the left panel.
 
@@ -229,7 +229,7 @@ Some settings mentioned in this article might be modified from their default sta
       <td> <p> <p>Specify the name of the group associated with the project. </p>This is a required field. You cannot have a project which is not associated with a group. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p>Note:   <p>By default, one of the following groups is automatically associated <span data-mc-edit-date="2020-12-02T17:06:08.1586452-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted, only in QS" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2020-12-02T17:06:00.8315301-05:00">with</span> a project when it is created, unless you specify a different group:</p> 
         <ul> 
          <li> <p><span>When the project is created from the Projects area, the Home Group of the project creator is associated with the project.</span> </p> <p>This is also true when the project is created from the Projects  section  in a portfolio or program.</p> </li> 
-         <li> <p>When the project is created from a group’s main page in the Setup area, that group is associated with the project.</p> </li> 
+         <li> <p>When the project is created from a group's main page in the Setup area, that group is associated with the project.</p> </li> 
         </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>Tip: If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level. Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group. For information about creating group-level approval processes, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>. For information about creating a group-level custom status, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a></p> </td> 
      </tr> 
      <tr> 

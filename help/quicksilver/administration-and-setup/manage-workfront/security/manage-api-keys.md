@@ -87,7 +87,7 @@ You can generate and manage API Keys for users in roles other than Workfront adm
 
 >[!NOTE]
 >
->This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 1. (Conditional) If your organization uses Single Sign-On (SSO) access management, temporarily disable the option requiring SSO authentication.
 
@@ -162,7 +162,7 @@ Third-party applications can communicate with Workfront through the API. To incr
 
 >[!NOTE]
 >
->This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 * [Obtain the X.509 certificate](#obtain-the-x-509-certificate) 
 * [Upload the certificate to Workfront](#upload-the-certificate-to-workfront) 

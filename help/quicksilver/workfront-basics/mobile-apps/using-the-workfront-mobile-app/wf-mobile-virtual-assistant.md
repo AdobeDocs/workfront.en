@@ -139,14 +139,14 @@ For a full list of virtual assistant commands, see
    <td> 
     <ul> 
      <li>Show me projects I own </li> 
-     <li>Show me projects I’m on </li> 
+     <li>Show me projects I'm on </li> 
      <li>Show me projects I own with status Planning </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Show me projects I’m on with condition On Target </li> 
+     <li>Show me projects I'm on with condition On Target </li> 
      <li>Show me projects I own for last week </li> 
-     <li>Show me projects I’m on with condition On Target for last March </li> 
+     <li>Show me projects I'm on with condition On Target for last March </li> 
     </ul> </td> 
   </tr> 
   <tr> 

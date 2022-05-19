@@ -89,7 +89,7 @@ The look and feel of the following email notifications has been updated with a n
 
 * Issue assignment
 * Commit date changes
-* A project I’m on becomes active
+* A project I'm on becomes active
 * Approval decision to interested parties
 * A predecessor task completion to task dependents
 * Pending approval (project, task, issues)
@@ -101,7 +101,7 @@ Remember&nbsp;to update the email address associated with your account to be abl
 
 The following notifications areas have had the "Daily Digest" option added:
 
-* Information about Projects I’m on
+* Information about Projects I'm on
 * Information about Projects I Sponsor
 * Approval Information
 * Information about Work Assigned to Me

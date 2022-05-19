@@ -5,16 +5,16 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Map user attributes and auto-provision new users
-description: Using single sign-on (SSO), you can pass attributes from your identity provider’s Active Directory to your Adobe Workfront users. You can also add new users to Workfront using the Auto-Provision option (also called Just In Time Provisioning or JIT).
+description: Using single sign-on (SSO), you can pass attributes from your identity provider's Active Directory to your Adobe Workfront users. You can also add new users to Workfront using the Auto-Provision option (also called Just In Time Provisioning or JIT).
 ---
 
 # Map user attributes and auto-provision new users
 
-Using single sign-on (SSO), you can pass attributes from your identity provider’s Active Directory to your Adobe Workfront users. You can also add new users to Workfront using the Auto-Provision option (also called Just In Time Provisioning or JIT).
+Using single sign-on (SSO), you can pass attributes from your identity provider's Active Directory to your Adobe Workfront users. You can also add new users to Workfront using the Auto-Provision option (also called Just In Time Provisioning or JIT).
 
 >[!NOTE]
 >
->This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 ## Access requirements
 
@@ -93,7 +93,7 @@ Keep the following in mind when mapping attributes:
       <td role="rowheader">Directory Attribute</td> 
       <td>Type the SSO attribute label you want to use.<!--
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-         <span class="PinkDraftNote">Is this right? I’d like to explain this and “Default Value” and their relationship. I’m trying to keep new/unexperienced sysadmins in mind.</span> 
+         <span class="PinkDraftNote">Is this right? I'd like to explain this and “Default Value” and their relationship. I'm trying to keep new/unexperienced sysadmins in mind.</span> 
         </MadCap:conditionalText>
        --></td> 
      </tr> 

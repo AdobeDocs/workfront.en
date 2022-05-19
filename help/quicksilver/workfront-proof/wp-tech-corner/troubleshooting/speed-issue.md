@@ -58,14 +58,14 @@ The web console available in the modern browsers gathers useful information abou
 
 To check the loading times for a webpage:
 
-1. Open your browser’s console and the Network tab.
+1. Open your browser's console and the Network tab.
 1. Re-load the page.
 1. Take screenshots or record a screencast of the results.
 1. Share the results with the Support Team.
 
 Please make sure the screenshot shows all the data—you can expand the console window when taking a screenshot or scroll down in a screencast.
 
-If you don’t know how to open the console in your browser, please see these recorded steps:
+If you don't know how to open the console in your browser, please see these recorded steps:
 
 * [Chrome](http://screencast.com/t/AgQU6JQQ) 
 * [Safari](http://screencast.com/t/f31GqQYm0w) 
@@ -73,7 +73,7 @@ If you don’t know how to open the console in your browser, please see these re
 * [Edge](http://www.screencast.com/t/epSwBiaD) 
 * [Internet Explorer](http://screencast.com/t/x5Q3eHczbc)
 
-You can also check your browser’s documentation for more detailed instructions.
+You can also check your browser's documentation for more detailed instructions.
 
 ## Check your connection on a different network and machine
 

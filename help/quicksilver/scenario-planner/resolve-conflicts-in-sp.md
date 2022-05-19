@@ -163,7 +163,7 @@ You must have the following:
 
    * Click the warning icon next to the initiative's name.
    * Click the bar of an initiative.
-   * Click the **More** icon ![](assets/more-icon.png) to the right of the initiative’s name, then click **Edit**.
+   * Click the **More** icon ![](assets/more-icon.png) to the right of the initiative's name, then click **Edit**.
 
      The initiative details panel displays on the right.
 

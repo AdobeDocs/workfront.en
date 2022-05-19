@@ -31,7 +31,7 @@ Our&nbsp;folder syncing functionality lets you&nbsp;synchronize a Box folder wit
 
 * Send your creative files to Workfront Proof directly from your Box account.
 * Notify your review team about new proof via email containing a link to the file in Box.
-* Provide your users with Workfront Proof’s rich markup, commenting and discussion tools.
+* Provide your users with Workfront Proof's rich markup, commenting and discussion tools.
 * Enable your project team to collaborate and make decisions in real time on different media formats including print, digital, web, video and interactive content.
 * Use Workfront Proof to meet regulatory requirements and identify process improvements.
 

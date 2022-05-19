@@ -62,7 +62,7 @@ The preview environment is ideal for running trainings, testing out new features
 >
 >When you access the Preview Sandbox, notice the blue banner at the top of the screen. The banner cannot be removed while you are working in this environment.
 >
->The name of the environment you are accessing (Preview) and the release version of the code display on the banner. Click **See what’s new** for information about that release.
+>The name of the environment you are accessing (Preview) and the release version of the code display on the banner. Click **See what's new** for information about that release.
 >
 >![](assets/preview-banner-nwe-350x161.png)
 

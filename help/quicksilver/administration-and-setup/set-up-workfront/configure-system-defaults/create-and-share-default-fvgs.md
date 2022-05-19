@@ -52,11 +52,11 @@ You must have the following access to perform the steps in this article:
    
    * Click **Interface** > **Groupings**.
 
-1. If you’re creating a filter, view, or grouping, click **New Filter**, **New View**, or **New Grouping,** then select the object type you want to associate the new filter, view, or grouping with.
+1. If you're creating a filter, view, or grouping, click **New Filter**, **New View**, or **New Grouping,** then select the object type you want to associate the new filter, view, or grouping with.
 
    Or
 
-   If you’re editing an existing filter, view, or grouping, select it, then click **Edit**.
+   If you're editing an existing filter, view, or grouping, select it, then click **Edit**.
 
 1. Configure the filter, view, or grouping.
 
@@ -95,7 +95,7 @@ These steps explain how to make filters, views, and groupings available from the
 
 >[!NOTE]
 >
->You can hide the options All, Standard, and Nothing after selecting different defaults (see Step 5), but they can’t be deleted.You can delete any other option being used as a default, but you have to select a different default first.
+>You can hide the options All, Standard, and Nothing after selecting different defaults (see Step 5), but they can't be deleted.You can delete any other option being used as a default, but you have to select a different default first.
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png), then click **Setup**.
 

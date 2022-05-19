@@ -32,7 +32,7 @@ Federated solutions allow users to log in to all their applications by entering 
 
 >[!NOTE]
 >
->This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 >[!NOTE]
 >

@@ -71,8 +71,8 @@ Workfront Fusion allows you to automate workflows. With the Workfront Fusion for
 
 Advantages to Workfront Fusion may include the following:
 
-* Workfront Fusion doesn’t require as much technical knowledge as the API because the visual interface aids in understanding and setting up the workflow. This means that it can be used by individuals outside of a development team, which may save your organization time and money.
-* Since Workfront Fusion works through the API, it can access most apps and web services. Many apps have modules to make API calls, or you can use the HTTP, SOAP, or JSON modules to interact with web services that don’t have a dedicated Workfront Fusion connector.
+* Workfront Fusion doesn't require as much technical knowledge as the API because the visual interface aids in understanding and setting up the workflow. This means that it can be used by individuals outside of a development team, which may save your organization time and money.
+* Since Workfront Fusion works through the API, it can access most apps and web services. Many apps have modules to make API calls, or you can use the HTTP, SOAP, or JSON modules to interact with web services that don't have a dedicated Workfront Fusion connector.
 
 **Example:** The following Workfront module in Workfront Fusion is set up to add a comment to the selected project. After the module is executed, the comment is visible in the update stream of the project in Workfront.
 

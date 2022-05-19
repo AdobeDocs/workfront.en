@@ -14,7 +14,7 @@ If your organization uses the WorkfrontEnterprise plan, you can create a Workfro
 * Which email domains are allowed to accept emails from Workfront.
 * Which email domains can be in the email address that users specify in their user profile.
 
-This is useful if your organization’s security policy restricts users from sending data stored in Workfront to external email addresses—you can include only your internal company domains in the allowlist to ensure that this policy is followed.
+This is useful if your organization's security policy restricts users from sending data stored in Workfront to external email addresses—you can include only your internal company domains in the allowlist to ensure that this policy is followed.
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ This is useful if your organization’s security policy restricts users from sen
 >```>
 >notifications@my.workfront.com
 >```>
->is not blocked in your organization’s system.
+>is not blocked in your organization's system.
 >
 >All email from Workfront is sent from that address to increase successful email delivery and to eliminate spoofing of emails. This includes both automated alerts and user-to-user communication.
 >

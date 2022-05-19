@@ -5,9 +5,9 @@ draft: Probably
 ---
 # ```Workfront Tools for AEM User Guide : Create Issues & Tasks```  {#title-heading}
 
-There workflow steps that will allow a user to create an issue or task in a Adobe Workfront Project. The Workfront project both steps affect will be looked up using a relative path from the payload. The issue or task name is determined from the payload’s jcr:title property.
+There workflow steps that will allow a user to create an issue or task in a Adobe Workfront Project. The Workfront project both steps affect will be looked up using a relative path from the payload. The issue or task name is determined from the payload's jcr:title property.
 
-Each workflow step can be added to any new or existing AEM Workflow Model. Workflow models can be conditionally triggered using AEM’s Workflow Launchers. See additional information on [Administering AEM Workflows](https://docs.adobe.com/help/en/experience-manager-65/administering/operations/workflows.html) and [AEM Launchers](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/workflows-starting.html).
+Each workflow step can be added to any new or existing AEM Workflow Model. Workflow models can be conditionally triggered using AEM's Workflow Launchers. See additional information on [Administering AEM Workflows](https://docs.adobe.com/help/en/experience-manager-65/administering/operations/workflows.html) and [AEM Launchers](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/workflows-starting.html).
 
 ## Access requirements
 

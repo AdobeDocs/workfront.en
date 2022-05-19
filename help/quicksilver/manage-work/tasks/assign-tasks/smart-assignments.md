@@ -69,7 +69,7 @@ Users are recommended in the smart assignments drop-down list based on a combina
 
      >[!TIP]
      >
-     >If you’re not part of any team and there is no role or team assigned on the task or issue, Workfront displays all the users assigned for the last 30 days, up to 50 users.
+     >If you're not part of any team and there is no role or team assigned on the task or issue, Workfront displays all the users assigned for the last 30 days, up to 50 users.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

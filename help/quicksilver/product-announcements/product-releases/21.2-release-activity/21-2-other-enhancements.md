@@ -54,7 +54,7 @@ For more information, see [Edit a user's profile](../../../administration-and-se
 To further reinforce the hierarchy of information and help users more clearly understand what page they are on, each object header now has:
 
 * Colorful, more modern icons for each object type
-* The object type listed above the object’s name
+* The object type listed above the object's name
 * An updated font style and text size
 * Other minor style changes
 

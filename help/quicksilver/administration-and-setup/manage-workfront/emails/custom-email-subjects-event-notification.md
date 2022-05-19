@@ -9,7 +9,7 @@ description: You can customize the subject line of the emails triggered by event
 
 You can customize the subject line of the emails triggered by event notifications:
 
-Changing the subject lines affects all the users in the system, regardless of the recipient’s access level. Users see all the objects and fields included in the email subject.
+Changing the subject lines affects all the users in the system, regardless of the recipient's access level. Users see all the objects and fields included in the email subject.
 
 Some event notifications have multiple subject lines, which means that those event notifications can have multiple email subjects based on their functionality.
 

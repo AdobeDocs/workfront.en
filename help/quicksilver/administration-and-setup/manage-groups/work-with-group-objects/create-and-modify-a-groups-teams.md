@@ -3,11 +3,11 @@ filename: create-and-modify-a-groups-teams
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Create and modify a group’s teams
+title: Create and modify a group's teams
 description: When you are viewing a group that you manage in the Groups area, you can view and work with teams associated with the group and any of its subgroups.
 ---
 
-# Create and modify a group’s teams
+# Create and modify a group's teams
 
 When you are viewing a group that you manage in the Groups area, you can view and work with teams associated with the group and any of its subgroups.
 
@@ -67,7 +67,7 @@ You must have the following to perform the steps in this article:
        </tr> 
        <tr> 
        <td role="rowheader">Team Members</td> 
-       <td> <p>Begin typing the name of a user to be on the team, then select the name when in appears in the drop-down list. Repeat this process to add multiple users to the team.</p> <p>There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team’s work management might become too complex.</p> </td> 
+       <td> <p>Begin typing the name of a user to be on the team, then select the name when in appears in the drop-down list. Repeat this process to add multiple users to the team.</p> <p>There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team's work management might become too complex.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Description</td> 
@@ -108,7 +108,7 @@ You must have the following to perform the steps in this article:
        </tr> 
        <tr> 
        <td role="rowheader">Team Members</td> 
-       <td> <p>Add and team members. Start typing the name of a user, then select the name when it appears. Repeat this process to add multiple users to the team.</p> <p>Tip: There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team’s work management might become too complex.</p> </td> 
+       <td> <p>Add and team members. Start typing the name of a user, then select the name when it appears. Repeat this process to add multiple users to the team.</p> <p>Tip: There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team's work management might become too complex.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Description</td> 

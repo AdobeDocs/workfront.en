@@ -60,7 +60,7 @@ For more information, see [Log time](../../../timesheets/create-and-manage-times
 >
 >This feature released to the Preview environment on June 5, 2020. It will be available in the Production environment on June 19, 2020.
 
-To give you more control over how objects display in Calendar Reports, you can opt to ignore actual dates even when they’re available.
+To give you more control over how objects display in Calendar Reports, you can opt to ignore actual dates even when they're available.
 
 Previously, the calendar would automatically use Actual dates once they were available.
 
@@ -135,9 +135,9 @@ For more information, see [Brand your Adobe Workfront instance](../../../adminis
 
 ## Group Administrators can create and manage approval processes
 
-To allow more autonomy and control of their groups’ workflows, a Group Administrator can now access the Approval Process area in Setup and create and edit approval processes for a group that he or she manages. These approval processes are based on that group’s statuses.
+To allow more autonomy and control of their groups' workflows, a Group Administrator can now access the Approval Process area in Setup and create and edit approval processes for a group that he or she manages. These approval processes are based on that group's statuses.
 
-To assure that Group Administrators don’t inadvertently edit approval processes that are used throughout the system or are created by other groups, they can access only the approval processes associated with the groups they manage.
+To assure that Group Administrators don't inadvertently edit approval processes that are used throughout the system or are created by other groups, they can access only the approval processes associated with the groups they manage.
 
 For more information, see [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
@@ -149,15 +149,15 @@ For more information, see [Create an approval process for work items](../../../a
 
 ## For administrators: New Groups page makes it easier to create and manage groups
 
-Group administrators can more easily manage groups now that everything they need is on the new Groups page. It’s no longer necessary to navigate between various overlay boxes and Setup pages to create and modify groups.
+Group administrators can more easily manage groups now that everything they need is on the new Groups page. It's no longer necessary to navigate between various overlay boxes and Setup pages to create and modify groups.
 
 Here are the main highlights:
 
-* Group Details: View and edit basic information about the group, such as the group’s name, description, Group Administrators’ names, and whether the group is public or private.
-* Group members list: View all group members and use the new toolbar to quickly add, remove, export, activate, and deactivate memberships. You can also edit members’ profiles and send them Update comments.
+* Group Details: View and edit basic information about the group, such as the group's name, description, Group Administrators' names, and whether the group is public or private.
+* Group members list: View all group members and use the new toolbar to quickly add, remove, export, activate, and deactivate memberships. You can also edit members' profiles and send them Update comments.
 * Group Administrator field in the header: When you are viewing a group you manage, quickly assign or unassign a group member as an administrator of the group. You can also do this in the list of group members using the new Group Role column.
 * Subgroups list: View, edit, copy, export, and delete the subgroups in a group that you manage.
-* Statuses list: View and manage your group’s statuses.
+* Statuses list: View and manage your group's statuses.
 
 For more information, see [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
@@ -169,7 +169,7 @@ For more information, see [Create a group](../../../administration-and-setup/man
 
 ## New for administrators: Create up to 14 levels of subgroups
 
-To make it easier to organize your Workfront groups to match your organization hierarchy, we’ve increased the levels of subgroups you can create within a group from 3 to 14.
+To make it easier to organize your Workfront groups to match your organization hierarchy, we've increased the levels of subgroups you can create within a group from 3 to 14.
 
 For more information, see [Groups overview](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
@@ -185,7 +185,7 @@ For more information, see [Groups overview](../../../administration-and-setup/ma
 >
 >This feature is available only in the new Adobe Workfront experience
 
-The left sidebar in Setup is now faster and easier to use and leverages the basic layout and functionality you already know. Along with a more modern look and feel, here’s what else is new:
+The left sidebar in Setup is now faster and easier to use and leverages the basic layout and functionality you already know. Along with a more modern look and feel, here's what else is new:
 
 * A new off-white background in the sidebar makes it easier to differentiate from the rest of the Setup area.
 * Icons in the sidebar are a bit larger and some are redesigned to suggest more clearly what the option does.

@@ -19,11 +19,11 @@ Following are some examples of how you can interact with projects through the AP
 
 ## General Requirements
 
-[This is where we’ll put boilerplate text that applies to all APIs (Documents API, Issues API, etc.) for information about how to authenticate, etc. Will reference the “Getting Started with the Workfront API” for this information.]
+[This is where we'll put boilerplate text that applies to all APIs (Documents API, Issues API, etc.) for information about how to authenticate, etc. Will reference the “Getting Started with the Workfront API” for this information.]
 
 ## API
 
-[This is where we’ll embed the actual Swagger-generated documentation. Each endpoint will contain more information than you see in this example.]
+[This is where we'll embed the actual Swagger-generated documentation. Each endpoint will contain more information than you see in this example.]
 
 ## JSON Format
 

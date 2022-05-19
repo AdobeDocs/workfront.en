@@ -27,7 +27,7 @@ This feature is now included in the [Project templates in the new Workfront expe
 
 ## New for group administrators: Create and manage statuses for a group at any level
 
-To make it easier for all levels of an organization to manage and control their workflows independently, we’ve introduced the ability to create and manage statuses for subgroups. Now, from the Groups section in Setup, you can do the following for groups you administer on any level:
+To make it easier for all levels of an organization to manage and control their workflows independently, we've introduced the ability to create and manage statuses for subgroups. Now, from the Groups section in Setup, you can do the following for groups you administer on any level:
 
 * Create, edit, delete, and hide a status for a group
 * Lock a status for any group so that all lower subgroups below it can use it in the same way

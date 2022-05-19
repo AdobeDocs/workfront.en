@@ -5,12 +5,12 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
 title: Grant access to issues
-description: As an Adobe Workfront administrator, you can use an access level to define a user’s access to issues in Workfront, as explained in Access levels overview.
+description: As an Adobe Workfront administrator, you can use an access level to define a user's access to issues in Workfront, as explained in Access levels overview.
 ---
 
 # Grant access to issues
 
-As an Adobe Workfront administrator, you can use an access level to define a user’s access to issues, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
+As an Adobe Workfront administrator, you can use an access level to define a user's access to issues, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
 
 For information about using custom access levels to manage users' access to other object types in Workfront, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -66,10 +66,10 @@ As the owner or creator of an issue, you can share with other users by granting 
 </div>
 -->
 
-When you share any object with another user, the recipient’s rights on it are determined by a combination of two things:
+When you share any object with another user, the recipient's rights on it are determined by a combination of two things:
 
 * The permissions that you grant to your recipient for the object
-* The recipient’s access level settings for the object's type
+* The recipient's access level settings for the object's type
 
 Also, if allowed by their access level, users can gain access to an issue through object hierarchy: if a user already has permission on an issue's parent project or task, they also have permission on the issue (see Step 3 above). When you are sharing an issue, you can see a list of the users who have inherited permission to it.
 

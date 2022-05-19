@@ -4,7 +4,7 @@ title: Access Help for Workfront DAM
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-title: Access Help for Adobe Workfront DAM
+title: Access Help for Workfront DAM
 description: Adobe Workfront DAM is a native Digital Asset Management (DAM) system within Workfront that allows you to store, organize, find, retrieve, and share digital files.
 ---
 

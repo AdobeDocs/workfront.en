@@ -1,6 +1,5 @@
 ---
 filename: add-users
-title: Add users
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users

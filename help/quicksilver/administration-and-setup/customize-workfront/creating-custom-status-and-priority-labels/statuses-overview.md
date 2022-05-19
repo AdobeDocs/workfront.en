@@ -12,7 +12,7 @@ description: To find out what the current state of development is for a project,
 
 To find out what the current state of development is for a project, task, or issue, a user can view its status.
 
-For example, in this project, the status Planning indicates that the project’s manager is currently planning aspects of the project such as its timeline, task assignments, and approvals.
+For example, in this project, the status Planning indicates that the project's manager is currently planning aspects of the project such as its timeline, task assignments, and approvals.
 
 ![](assets/statuses-overview-350x169.png)
 

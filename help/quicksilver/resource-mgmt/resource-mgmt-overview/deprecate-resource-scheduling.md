@@ -304,7 +304,7 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><span>Suggest assignments based on the user’s assignment pattern, existing Role or Team assignments</span> </td> 
+   <td><span>Suggest assignments based on the user's assignment pattern, existing Role or Team assignments</span> </td> 
    <td>&nbsp;</td> 
    <td><span>✓</span> </td> 
    <td>&nbsp;</td> 

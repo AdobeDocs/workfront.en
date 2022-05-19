@@ -29,7 +29,7 @@ For information, see [Navigate the Workload Balancer](../../../resource-mgmt/wor
 >
 >Available only in the new Adobe Workfront experience.
 
-To help you with the strategic planning of your projects and ensure they align with the bigger-picture initiatives of the Scenario Planner, we have created a new area on the project that displays job role requirements from the initiatives as well as planned hours estimated on the project’s work items. This area is available for the project-level Workload Balancer as well as for the task list in the new Workfront experience. In the classic experience this is available only for the project Workload Balancer.
+To help you with the strategic planning of your projects and ensure they align with the bigger-picture initiatives of the Scenario Planner, we have created a new area on the project that displays job role requirements from the initiatives as well as planned hours estimated on the project's work items. This area is available for the project-level Workload Balancer as well as for the task list in the new Workfront experience. In the classic experience this is available only for the project Workload Balancer.
 
 For information, see the following articles:
 
@@ -74,7 +74,7 @@ For information about viewing the Workload Balancer, see [Navigate the Workload 
 
 ## Change in the way the Job Role filter works in the Unassigned area of the Workload Balancer
 
-To improve the way the Job Role filter works in the Workload Balancer and to match users’ expectations, we have modified the functionality of the filter in the Unassigned area. You can now view only the hours allocated to the job roles you specify in the filter.
+To improve the way the Job Role filter works in the Workload Balancer and to match users' expectations, we have modified the functionality of the filter in the Unassigned area. You can now view only the hours allocated to the job roles you specify in the filter.
 
 Prior to this enhancement, when applying the Job Role filter to the Unassigned area the Workload Balancer displayed all hours associated with the work items assigned to the job roles .
 

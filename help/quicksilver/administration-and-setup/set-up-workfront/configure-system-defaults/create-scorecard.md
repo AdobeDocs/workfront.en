@@ -13,7 +13,7 @@ description: Create a scorecard
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-A scorecard is used to measure how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects an organization’s mission, values, and strategic goals.
+A scorecard is used to measure how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects an organization's mission, values, and strategic goals.
 
 Portfolio managers usually define the scorecard questions and answers to ensure they are meaningful and valuable during project prioritization and selection. An Adobe Workfront administrator builds the scorecards based on the recommendations from portfolio managers.
 

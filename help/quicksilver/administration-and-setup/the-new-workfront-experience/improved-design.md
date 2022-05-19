@@ -33,7 +33,7 @@ The Alpha version of the new Adobe Workfront experience is currently available f
   </tr> 
   <tr> 
    <td><strong>Search</strong> </td> 
-   <td> <p>The global search experience is separated between a ‘standard’ and ‘advanced’ search.</p> </td> 
+   <td> <p>The global search experience is separated between a ‘standard' and ‘advanced' search.</p> </td> 
    <td> <p data-mc-conditions="QuicksilverOrClassic.QuicksilverGA">A single, powerful search experience that combines the versatility of an advanced search with the simplicity of a standard search. </p> <p data-mc-conditions="QuicksilverOrClassic.QuicksilverAlpha">Updated interface to help you search within the context of your work. Some functionality available in the current experience will be added prior to the beta release based on your feedback. </p> <p data-mc-conditions="QuicksilverOrClassic.QuicksilverGA">Proofs are also included in search results.</p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ The Alpha version of the new Adobe Workfront experience is currently available f
   </tr> 
   <tr> 
    <td><strong>Objects header for</strong> <strong>various</strong> <strong>all</strong><strong>objects</strong> </td> 
-   <td> <p>When an object is selected, the information and actions in the header change depending on the object you’re viewing. It is not customizable.</p> </td> 
+   <td> <p>When an object is selected, the information and actions in the header change depending on the object you're viewing. It is not customizable.</p> </td> 
    <td> <p>Redesigned across objects. Applies to projects, portfolios, programs, templates, tasks, and issues for the Alpha releaseall objectsand can be customized.</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.QuicksilverGA"> 

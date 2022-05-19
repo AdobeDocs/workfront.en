@@ -246,7 +246,7 @@ You must have the following to perform the steps in this article:
    You can switch between the following field display types:
 
    * **Selection-type fields**: Checkboxes, Dropdown, Radio Buttons.
-   * **Text-type fields**: Single Line Text Field, Paragraph Text Field. (You can’t switch a Text Field with Formatting to a different display type. However, you can remove it and add another type of field.)
+   * **Text-type fields**: Single Line Text Field, Paragraph Text Field. (You can't switch a Text Field with Formatting to a different display type. However, you can remove it and add another type of field.)
 
    For example, if you have created a Checkboxes field, you can change it to a Dropdown field or a Radio Buttons field. Or, if you have created a Single Line Text Field, you can change it to a Paragraph Text field.
 

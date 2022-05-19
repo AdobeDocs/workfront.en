@@ -72,19 +72,19 @@ When sharing an object with someone in the system, a user can grant the recipien
 * **View**: This level of permission allows the recipient to share the object in one of the following ways:
 
   * System-wide so that all users can see it (not available for all objects)
-  * With external users who don’t have a Workfront license (not available for all objects)
+  * With external users who don't have a Workfront license (not available for all objects)
   * With an email address (available only for documents)
 
 * **Contribute**: (not available for all objects)
-* **Manage**: When someone shares an object, the recipient’s rights to the object are determined by a combination of the recipient’s access level and the permissions to the object that were granted by the sharer. The lowest degree of access available in that combination is what determines what the recipient can do with the object.
+* **Manage**: When someone shares an object, the recipient's rights to the object are determined by a combination of the recipient's access level and the permissions to the object that were granted by the sharer. The lowest degree of access available in that combination is what determines what the recipient can do with the object.
 
   >[!INFO]
   >
   >**Example:** If the recipient's access level doesn't allow project editing, that person can't edit or delete a project even if the sharer granted permissions to manage it.
   >
-  >Or, if the recipient’s access level allows project editing, but the sharer granted view-only permissions to a project, the user cannot edit or delete the project.
+  >Or, if the recipient's access level allows project editing, but the sharer granted view-only permissions to a project, the user cannot edit or delete the project.
 
-The following table compares a user's general access to objects (defined by the user’s access level) to permissions for a specific shared object:
+The following table compares a user's general access to objects (defined by the user's access level) to permissions for a specific shared object:
 
 <table> 
  <col> 
@@ -120,7 +120,7 @@ The following table compares a user's general access to objects (defined by the 
 >[!NOTE]
 >
 >* If a user shares an object with certain permissions and that object has any child objects below it, the recipient inherits the same permissions for those child objects. 
->* If an access level restricts users from deleting certain objects, this doesn’t keep them from deleting child objects that are contained in those objects.
+>* If an access level restricts users from deleting certain objects, this doesn't keep them from deleting child objects that are contained in those objects.
 >
 
 ## More example scenarios

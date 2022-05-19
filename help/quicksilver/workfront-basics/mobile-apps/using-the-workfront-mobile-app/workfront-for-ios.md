@@ -47,7 +47,7 @@ For more information, see [Home area widgets](../../../workfront-basics/mobile-a
 
 ## Projects
 
-The Projects area allows you to interact with and manage projects you own and projects you’re on. From the projects area of the app, you can:
+The Projects area allows you to interact with and manage projects you own and projects you're on. From the projects area of the app, you can:
 
 <table> 
  <col> 

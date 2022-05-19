@@ -21,7 +21,7 @@ A group administrator can also restore these objects for a group they manage.
 
 >[!IMPORTANT]
 >
->* If you delete a report, dashboard, user, template, group, or team, it can’t be restored.
+>* If you delete a report, dashboard, user, template, group, or team, it can't be restored.
 >* In a group, when someone other than the group administrator uploads a document directly to the Documents area of an object, only a Workfront administrator can restore the document.
 >
 

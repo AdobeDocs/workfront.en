@@ -11,7 +11,7 @@ description: If you are a group administrator, you can configure and then lock a
 
 If you are a group administrator, you can configure and then lock a timesheet and hour preference for your group after a Workfront administrator unlocks it at the system level.
 
-Locking an Adobe Workfront preference```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  at the group level</MadCap:conditionalText>``` ensures that everyone```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  in your group and in its subgroups</MadCap:conditionalText>``` is using the same setting for that preference. Though you can still reconfigure a preference that you lock, group administrators can’t do so for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> lower subgroups</MadCap:conditionalText>```.
+Locking an Adobe Workfront preference```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  at the group level</MadCap:conditionalText>``` ensures that everyone```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  in your group and in its subgroups</MadCap:conditionalText>``` is using the same setting for that preference. Though you can still reconfigure a preference that you lock, group administrators can't do so for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> lower subgroups</MadCap:conditionalText>```.
 
 Conversely, unlocking a preference```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  at the group level</MadCap:conditionalText>``` allows ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> sub</MadCap:conditionalText>```group administrators more flexibility to manage the way their groups work with those items. When a ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> group </MadCap:conditionalText>```preference is unlocked, group administrators```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  of lower subgroups</MadCap:conditionalText>``` can reconfigure it for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> those subgroups</MadCap:conditionalText>```.
 
@@ -27,7 +27,7 @@ For information about configuring a timesheet and hour preference for a group, s
 
 >[!NOTE]
 >
->* Configuring an unlocked preference for a group doesn’t affect that preference for any subgroups below the group.
+>* Configuring an unlocked preference for a group doesn't affect that preference for any subgroups below the group.
 >
 >  However, when a new subgroup is created, it inherits the preference settings and locked or unlocked state of the group immediately above it.
 >
@@ -62,7 +62,7 @@ You must have the following to perform the steps in this article:
 
 >[!TIP]
 >
->If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Timesheet &&nbsp;Hours > Preferences, then searching for the group’s name in the box at the top of the page.
+>If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Timesheet &&nbsp;Hours > Preferences, then searching for the group's name in the box at the top of the page.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 

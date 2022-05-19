@@ -47,7 +47,7 @@ This page provides information about functionality for both Adobe Workfront Clas
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">New for administrators: Control how a custom field is shared</a> </p> <p>To give you greater control over who can edit, delete, and use custom fields you create, we have added the ability to configure exactly how you want them shared.</p> <p>Up until now, when you created a custom field, it was editable by everyone in the system. This is still the default state of a custom field, but now you can limit the sharing of a custom field to certain users, roles, teams, groups, and companies. And you can determine whether your recipients can manage or only view the custom field.</p> <p>Also, to make this experience familiar for you, we’ve designed the user interface for this capability to be similar to other object areas sharing throughout Workfront.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">New for administrators: Control how a custom field is shared</a> </p> <p>To give you greater control over who can edit, delete, and use custom fields you create, we have added the ability to configure exactly how you want them shared.</p> <p>Up until now, when you created a custom field, it was editable by everyone in the system. This is still the default state of a custom field, but now you can limit the sharing of a custom field to certain users, roles, teams, groups, and companies. And you can determine whether your recipients can manage or only view the custom field.</p> <p>Also, to make this experience familiar for you, we've designed the user interface for this capability to be similar to other object areas sharing throughout Workfront.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;October 15, 2020</p> <p>Production release:&nbsp;With the 20.4 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -67,7 +67,7 @@ This page provides information about functionality for both Adobe Workfront Clas
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;October 8, 2020</p> <p>Production release:&nbsp;With the 20.4 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new" class="MCXref xref" xrefformat="{para}">New for administrators: Associate portfolios, programs, and companies with groups</a> </p> <p>When Workfront administrators create or edit a portfolio, program, or company, they can assign it to a group. With groups assigned to these objects, it’s easy to identify your group’s responsibilities for them. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new" class="MCXref xref" xrefformat="{para}">New for administrators: Associate portfolios, programs, and companies with groups</a> </p> <p>When Workfront administrators create or edit a portfolio, program, or company, they can assign it to a group. With groups assigned to these objects, it's easy to identify your group's responsibilities for them. </p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;September 25, 2020</p> <p>Production release:&nbsp;With the 20.4 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -75,7 +75,7 @@ This page provides information about functionality for both Adobe Workfront Clas
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;August 29, 2020</p> <p>Production release:&nbsp;With the 20.4 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">New for administrators: Assign a business leader to a group</a> </p> <p>To help you better organize and define your groups, we’ve added the ability to assign a user as a Business Leader for a group (or subgroup). A Business Leader is a Workfront user who makes business decisions for a group.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">New for administrators: Assign a business leader to a group</a> </p> <p>To help you better organize and define your groups, we've added the ability to assign a user as a Business Leader for a group (or subgroup). A Business Leader is a Workfront user who makes business decisions for a group.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;August 21, 2020</p> <p>Production release:&nbsp;With the 20.4 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -96,7 +96,7 @@ This page provides information about functionality for both Adobe Workfront Clas
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#plan" class="MCXref xref" xrefformat="{para}">Plan work using Work Effort instead of Planned Hours</a> </p> <p>To give you flexibility when you’re planning work on your projects, we have introduced the new concept of Work Effort for tasks. You can estimate whether the Work Effort for a task is small, medium, or large without manually estimating the Planned Hours for the task. Each level of effort is calculated based on a percentage of time from the typical hours per day as configured in your instance.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#plan" class="MCXref xref" xrefformat="{para}">Plan work using Work Effort instead of Planned Hours</a> </p> <p>To give you flexibility when you're planning work on your projects, we have introduced the new concept of Work Effort for tasks. You can estimate whether the Work Effort for a task is small, medium, or large without manually estimating the Planned Hours for the task. Each level of effort is calculated based on a percentage of time from the typical hours per day as configured in your instance.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;October 8, 2020</p> <p>Production release:&nbsp;With the 20.4 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -124,7 +124,7 @@ This page provides information about functionality for both Adobe Workfront Clas
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;September 11, 2020</p> <p>Production release:&nbsp;With the 20.4 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#user" class="MCXref xref" xrefformat="{para}">User allocation chart in the Workload Balancer</a> </p> <p>To allow you to have a high-level visual representation of users’ allocation within a given time frame, a new setting now enables a chart view for how allocations are displayed in the Workload Balancer. Enabling this setting displays the users’ allocation in a line chart that indicates the overallocations in red blocks, and the underallocations in blue. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#user" class="MCXref xref" xrefformat="{para}">User allocation chart in the Workload Balancer</a> </p> <p>To allow you to have a high-level visual representation of users' allocation within a given time frame, a new setting now enables a chart view for how allocations are displayed in the Workload Balancer. Enabling this setting displays the users' allocation in a line chart that indicates the overallocations in red blocks, and the underallocations in blue. </p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;August 29, 2020</p> <p>Production release:&nbsp;With the 20.4 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -166,7 +166,7 @@ This page provides information about functionality for both Adobe Workfront Clas
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;October 23, 2020</p> <p>Production release:&nbsp;With the 20.4 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">New option to cancel your action when discarding a request draft</a> <p>When discarding a saved draft, you can now click Cancel on the confirmation message that informs you that your draft will be deleted. This way, you don’t lose the draft in case you change your mind about discarding it.</p></td> 
+   <td><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">New option to cancel your action when discarding a request draft</a> <p>When discarding a saved draft, you can now click Cancel on the confirmation message that informs you that your draft will be deleted. This way, you don't lose the draft in case you change your mind about discarding it.</p></td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;September 25, 2020</p> <p>Production release:&nbsp;With the 20.4 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -195,7 +195,7 @@ This page provides information about functionality for both Adobe Workfront Clas
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md#paginati" class="MCXref xref" xrefformat="{para}">Pagination and sorting added to Enhanced analytics</a> </p> <p>To allow you to view the information you want to see without having to apply restrictive filters, we’ve added pagination and sorting options to each chart in the Enhanced analytics area.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md#paginati" class="MCXref xref" xrefformat="{para}">Pagination and sorting added to Enhanced analytics</a> </p> <p>To allow you to view the information you want to see without having to apply restrictive filters, we've added pagination and sorting options to each chart in the Enhanced analytics area.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;October 8, 2020</p> <p>Production release:&nbsp;With the 20.4 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -241,7 +241,7 @@ This page provides information about functionality for both Adobe Workfront Clas
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;TBD</p> <p>Production release:&nbsp;With the 20.4 release <strong>(Postponed to December 2020 or early 2021)</strong></p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#get" class="MCXref xref" xrefformat="{para}">Get help with Workfront mobile’s virtual assistant commands</a> </p> <p>While in the mobile app, you can ask the virtual assistant to help you with commands by saying What can I do?” an “Help me with commands.”</p> <p>These commands display a list of the different things you can ask the assistant about.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#get" class="MCXref xref" xrefformat="{para}">Get help with Workfront mobile's virtual assistant commands</a> </p> <p>While in the mobile app, you can ask the virtual assistant to help you with commands by saying What can I do?” an “Help me with commands.”</p> <p>These commands display a list of the different things you can ask the assistant about.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;N/A</p> <p>Production release:&nbsp;With the 20.4 release </p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -353,6 +353,6 @@ For more information, see [Configure your firewall's allowlist](../../../adminis
 
 ### Workfront One {#workfront-one}
 
-With Workfront One, you’ll discover the most important content, resources, and news from Workfront —all in one place, with one login. We’ve unified the Experience, Community, and Training sites making it easier to find what you’re looking for.
+With Workfront One, you'll discover the most important content, resources, and news from Workfront —all in one place, with one login. We've unified the Experience, Community, and Training sites making it easier to find what you're looking for.
 
 [Learn more about Workfront One](https://www.workfront.com/campaigns/workfront-one).

@@ -69,7 +69,7 @@ When you complete this workflow, you should be ready to use the new Resource Man
 
 1. **Align Roles.** Ensure that the roles associated with the Legacy Resource Pools are also associated with the users in the new Resource Pools. &nbsp;For information about comparing the roles between the Legacy Resource Pools and the ones associated with the users in the new Resource Pools see the&nbsp; [Match job roles between Legacy Resource Pools and Resource Pools](#match-job-roles-between-legacy-resource-pools-and-resource-pools)&nbsp; section in this article. 
 
-1. **Verify Users' Role Association.** Ensure that your users are associated with at least one Job Role. If a user is associated with more than one role, ensure that you have a valid percentage for the users’ FTE for each role.  
+1. **Verify Users' Role Association.** Ensure that your users are associated with at least one Job Role. If a user is associated with more than one role, ensure that you have a valid percentage for the users' FTE for each role.  
    For information about associating users with job roles and updating the percentage of FTE for each role, see " [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 
 1. **Create New Resource Pools** . Ensure that your users are organized in Resource Pools. Ideally, after running the reports referenced in step #1, populate your new Resource Pools with the users who can fulfill the job roles that your Legacy Resource Pools contained. For more information about populating Resource Pools with Users, see&nbsp; " [Resource pools overview](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
@@ -134,7 +134,7 @@ To budget your resources in the new Resource Management tools, do either of the 
 
    Or
 
-   For a fast way to assign Budgeted Hours, use the **Options** drop-down menu from the project line, then select **Set Roles’ Planned Hours as Budgeted** to match the Planned Hours to the Budgeted Hours for each Job Role. This applies the Planned Hours from the time periods you see on the screen to the Budgeted Hours columns for each role and for the project. If there are time periods with Planned Hours that are not displayed on the screen, you must scroll from left to right and use the **Set Roles’ Planned Hours as Budgeted** option to match Planned Hours to the Budgeted Hours for all the time periods for the life of the project.
+   For a fast way to assign Budgeted Hours, use the **Options** drop-down menu from the project line, then select **Set Roles' Planned Hours as Budgeted** to match the Planned Hours to the Budgeted Hours for each Job Role. This applies the Planned Hours from the time periods you see on the screen to the Budgeted Hours columns for each role and for the project. If there are time periods with Planned Hours that are not displayed on the screen, you must scroll from left to right and use the **Set Roles' Planned Hours as Budgeted** option to match Planned Hours to the Budgeted Hours for all the time periods for the life of the project.
 
    >[!IMPORTANT]
    >
@@ -154,7 +154,7 @@ To budget your resources in the new Resource Management tools, do either of the 
    >Ensure that the Budgeted Hours match the Estimated Hours from the Capacity Planner for the same projects and for the same roles.
 
    Or  
-   For a fast way to assign Budgeted Hours, use the **Options** drop-down menu from the project line, then select **Set Roles’ Planned Hours as Budgeted** to match the Planned Hours to the Budgeted Hours for each Job Role. &nbsp;This applies the Planned Hours from the time periods you see on the screen to the Budgeted Hours columns for each role and for the projects. If there are time periods with Planned Hours that are not displayed on the screen, you must scroll from left to right and use the **Set Roles’ Planned Hours as Budgeted** option to match Planned Hours to the Budgeted Hours for all the time periods for the life of the projects
+   For a fast way to assign Budgeted Hours, use the **Options** drop-down menu from the project line, then select **Set Roles' Planned Hours as Budgeted** to match the Planned Hours to the Budgeted Hours for each Job Role. &nbsp;This applies the Planned Hours from the time periods you see on the screen to the Budgeted Hours columns for each role and for the projects. If there are time periods with Planned Hours that are not displayed on the screen, you must scroll from left to right and use the **Set Roles' Planned Hours as Budgeted** option to match Planned Hours to the Budgeted Hours for all the time periods for the life of the projects
 
    >[!IMPORTANT]
    >
@@ -218,7 +218,7 @@ You can build the following Resource Estimates report to identify the Job Roles 
    The Sch. Hours (or Scheduled Hours) column displays the amount of Planned Hours associated with the tasks where the job role is assigned.  
    The Project: Resource Pools column displays the name of the Resource Pools associated with each project, if any.&nbsp; Consider adding Resource Pools to the projects that are not associated with them.&nbsp;
 
-#### **Build a Resource Pool report with users’ job roles information**
+#### **Build a Resource Pool report with users' job roles information**
 
 You can build a Resource Pool report to identify which users are associated with Resource Pools and what Job Role each user is associated with.
 

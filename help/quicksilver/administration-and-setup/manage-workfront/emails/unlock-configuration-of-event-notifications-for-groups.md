@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
 >[!IMPORTANT]
 >
->When you re-lock a notification, all groups in the system inherit the notification exactly as you set it. This overrides any changes that group administrators might have made for their groups, so it’s a good idea to consult with them first.
+>When you re-lock a notification, all groups in the system inherit the notification exactly as you set it. This overrides any changes that group administrators might have made for their groups, so it's a good idea to consult with them first.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
    If you want to unlock or lock multiple notifications all at once, select them, then click the Unlock ![](assets/unlock-icon-toolbar.png) or Lock ![](assets/lock-icon-locked-qs.png) button that displays in the toolbar above the list.
 
 1. Click **Save**.
-1. (Optional) If you want to configure the event notification for a top-level group instead of leaving this task to the group’s administrator, you can do one of the following:
+1. (Optional) If you want to configure the event notification for a top-level group instead of leaving this task to the group's administrator, you can do one of the following:
 
    * Delete **System Event Notifications** in the search box above the list of notifications, search for and select the name of the top-level group to list its notifications, then activate or inactivate the unlocked notifications in the list that displays.
    * Click **Groups** in the left menu, then click the name of the top-level group. Click **Event Notifications** in the left panel, then configure the unlocked event notification, as explained in [View and configure event notifications for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).

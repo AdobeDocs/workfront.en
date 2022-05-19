@@ -52,6 +52,6 @@ No, any access you had to previous US proof accounts will no longer be available
 
 If you have another US account you partner with and you are required to maintain this partnership, the owners of that account need to migrate with your account. Please discuss this with them before the migration to ensure that the correct accounts are migrated.
 
-## What if I’m using SSO on my account?
+## What if I'm using SSO on my account?
 
-If you’re using SSO on your proof account, you will need to re-configure the account to use the new proofhq.eu domain.
+If you're using SSO on your proof account, you will need to re-configure the account to use the new proofhq.eu domain.

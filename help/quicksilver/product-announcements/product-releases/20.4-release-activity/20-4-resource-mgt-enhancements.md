@@ -11,7 +11,7 @@ For a list of all changes available with the 20.4 release, see [20.4 release ove
 
 ## Plan work using Work Effort instead of Planned Hours
 
-To give you flexibility when you’re planning work on your projects, we have introduced the new concept of Work Effort for tasks. You can estimate whether the Work Effort for a task is small, medium, or large without manually estimating the Planned Hours for the task. Each level of effort is calculated based on a percentage of time from the typical hours per day as configured in your instance.
+To give you flexibility when you're planning work on your projects, we have introduced the new concept of Work Effort for tasks. You can estimate whether the Work Effort for a task is small, medium, or large without manually estimating the Planned Hours for the task. Each level of effort is calculated based on a percentage of time from the typical hours per day as configured in your instance.
 
 The following improvements are now available with this new feature:
 
@@ -80,7 +80,7 @@ To ensure a streamlined and user-friendly experience when you manage your resour
 
 * You can access the More menu to the left of an object bar rather than at the end of an object bar. This makes it easier to find when objects span a long period of time.
 * You can access the assignment features with a keyboard shortcut. Previously, this was available only from the More menu.
-* You can load all remaining items under a user’s name instead of just the following 20 items by clicking Load More.
+* You can load all remaining items under a user's name instead of just the following 20 items by clicking Load More.
 
 For more information about navigating the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
@@ -92,7 +92,7 @@ For more information about navigating the Workload Balancer, see [Navigate the W
 
 ## User allocation chart in the Workload Balancer
 
-To allow you to have a high-level visual representation of users’ allocation within a given time frame, a new setting now enables a chart view for how allocations are displayed in the Workload Balancer. Enabling this setting displays the users’ allocation in a line chart that indicates the overallocations in red blocks, and the underallocations in blue.
+To allow you to have a high-level visual representation of users' allocation within a given time frame, a new setting now enables a chart view for how allocations are displayed in the Workload Balancer. Enabling this setting displays the users' allocation in a line chart that indicates the overallocations in red blocks, and the underallocations in blue.
 
 For more information about configuring settings in the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 

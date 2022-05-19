@@ -39,7 +39,7 @@ Campaigns are a new object type in&nbsp;Adobe Workfront that you can use to capt
 
 ## Features
 
-The following features will release as part of a tiered product release plan. Features that you can access in this beta may not be available in the full release, based on your organization’s plan.
+The following features will release as part of a tiered product release plan. Features that you can access in this beta may not be available in the full release, based on your organization's plan.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

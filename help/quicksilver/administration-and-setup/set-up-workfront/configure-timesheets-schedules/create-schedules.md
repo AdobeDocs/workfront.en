@@ -22,7 +22,7 @@ For information about associating schedules with users and projects, see the fol
 * [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 
 * [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md)
 
-Group administrators can also create schedules that are associated with the groups they manage. For more information, see [Create and modify a group’s schedules](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
+Group administrators can also create schedules that are associated with the groups they manage. For more information, see [Create and modify a group's schedules](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
 For information about using schedules to help users collaborate in Workfront across time zones, see [Working across time zones](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
 

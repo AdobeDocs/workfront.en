@@ -55,7 +55,7 @@ You must have the following access to perform the steps in this article:
 ## Metadata Webhook
 
 1. Open a linked folder that contains sub-folders and assets.
-1. Verify that the folders correctly display the folder’s title.
+1. Verify that the folders correctly display the folder's title.
 1. Verify that the assets correctly display:
 
    1. Title
@@ -114,7 +114,7 @@ NOT IMPLEMENTED.
    1. Upload an image to the ```Documents``` tab of a Workfront Project.
    1. Attach ```Workfront Tools Document``` custom form to the document and fill in all fields.
    1. Attach ```Workfront Tools Project``` custom form to the project and fill in all fields.
-   1. Drag and drop the document into the Project’s linked folder.
+   1. Drag and drop the document into the Project's linked folder.
    1. Verify that the asset together with the document and project metadata have been sent correctly.
 
 1. Send a document from a Task:
@@ -132,7 +132,7 @@ NOT IMPLEMENTED.
    1. Attach ```Workfront Tools Document``` custom form to the document and fill in all fields.
    1. Attach ```Workfront Tools Issue``` custom form to the document and fill in all fields.
    1. Attach ```Workfront Tools Project``` custom form to the project and fill in all fields.
-   1. Drag and drop the document into the Issue’s linked folder.
+   1. Drag and drop the document into the Issue's linked folder.
    1. Verify that the asset together with the document, issue and project metadata have been sent correctly.
 
 ## Service Info Webhook
@@ -144,7 +144,7 @@ NOT IMPLEMENTED.
 1. Go to ```Documents``` tab in the top main menu.
 1. Click on ```Add New``` and select ```From <your AEM instance>```.
 1. Select a folder and click ```Link```.
-1. Open the linked folder and click ```Add New → Folder```. Type the new folder’s name.
+1. Open the linked folder and click ```Add New → Folder```. Type the new folder's name.
 1. Open the created folder and create another folder within it.
 1. Refresh the page in Workfront and verify both folders are correctly displayed.
 1. Upload an asset to one of the created folders.

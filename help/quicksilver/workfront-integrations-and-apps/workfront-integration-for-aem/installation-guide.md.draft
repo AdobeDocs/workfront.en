@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
 
 # 1 - Prerequisites {#installationguide1-x-x-1-prerequisites}
 
-Prior to installing/configuring the tools you’ll need to complete a few steps:
+Prior to installing/configuring the tools you'll need to complete a few steps:
 
 1. AEM Assets installed and configured, version 6.4 or later.
 
@@ -50,7 +50,7 @@ Prior to installing/configuring the tools you’ll need to complete a few steps:
       ![](assets/wf---customer-info-350x224.png)
 
 1. If there is an AEM dispatcher in front of the AEM Author instance that will be communicating with Workfront, it will need to be configured to allow HTTP headers named ```authorization```, ```username``` and ```apikey```. The dispatcher should allow GET, POST, and PUT to /bin/workfront-tools.
-1. Lastly, before installing Workfront Tools for AEM, you should check that none of the following paths already exist on your AEM instance because the package includes files on these paths and they won’t get updated properly.
+1. Lastly, before installing Workfront Tools for AEM, you should check that none of the following paths already exist on your AEM instance because the package includes files on these paths and they won't get updated properly.
 
    * /apps/dam/gui/coral/components/admin/schemaforms/formbuilder
    * /apps/dam/gui/coral/components/admin/folderschemaforms/formbuilder
@@ -104,13 +104,13 @@ To complete the setup process you will need to work with Hoodoo Digital to get a
 
 # 3 - Externalizer {#installationguide1-x-x-3-externalizer}
 
-Check that ```Day CQ Link Externalizer``` has been set properly. Day CQ Link Externalizer configuration can be found on AEM’s Web Console Configuration (<aem-server>/system/console/configMgr). Check that ```author``` domain is set to your AEM’s author instance domain.
+Check that ```Day CQ Link Externalizer``` has been set properly. Day CQ Link Externalizer configuration can be found on AEM's Web Console Configuration (<aem-server>/system/console/configMgr). Check that ```author``` domain is set to your AEM's author instance domain.
 
 ![](assets/externalizer-350x154.png)
 
 # 4 - System User Configuration {#installationguide1-x-x-4-systemuserconfiguration}
 
-1. Workfront service user creation is added by the connector package using ACS AEM Commons or Apache Sling Repository Initialization (AEMaaCS), you should check that “workfront-tools” service user has been correctly created. Search for “workfront-tools” user on “AEM Security | Permissions” menu (<aem-server>/security/permissions.html/principal/workfront-tools) and check the users’ permissions.
+1. Workfront service user creation is added by the connector package using ACS AEM Commons or Apache Sling Repository Initialization (AEMaaCS), you should check that “workfront-tools” service user has been correctly created. Search for “workfront-tools” user on “AEM Security | Permissions” menu (<aem-server>/security/permissions.html/principal/workfront-tools) and check the users' permissions.
 
    ![](assets/wf-tools-permissions-350x192.png)
 
@@ -120,12 +120,12 @@ Check that ```Day CQ Link Externalizer``` has been set properly. Day CQ Link Ext
    * jcr:all privilege to /content/dam
    * jcr:all privilege to /var/workflow
    * jcr:all privilege to /var/workfront-tools
-   * jcr:read privilege to /conf/global/settings/dam/adminui-extension (Take into account that this path might not exist in your AEM instance if there are no custom Asset Metadata Schemas. If that is the case, you’ll need to create the path manually.)
+   * jcr:read privilege to /conf/global/settings/dam/adminui-extension (Take into account that this path might not exist in your AEM instance if there are no custom Asset Metadata Schemas. If that is the case, you'll need to create the path manually.)
    * jcr:read privilege to /libs/dam/content/schemaeditors/forms
 
 1. Create ```workfront-tools``` user manually ```(if applicable)```
 
-   1. If you need to create ```workfront-tools``` system user manually. Click on ```User Administration``` on ```CRX Explorer``` menu (<aem-server>/crx/explorer/index.jsp). Click on ```Create System User```, enter ```workfront-tools``` as the system user’s ID and click on the green tick on the right hand side, then click on ```Close```.
+   1. If you need to create ```workfront-tools``` system user manually. Click on ```User Administration``` on ```CRX Explorer``` menu (<aem-server>/crx/explorer/index.jsp). Click on ```Create System User```, enter ```workfront-tools``` as the system user's ID and click on the green tick on the right hand side, then click on ```Close```.
    
    1. Search for ```workfront-tools``` user on ```AEM Security | Permissions``` menu (<aem-server>/security/permissions.html/principal/workfront-tools) and add the permissions described above.
 

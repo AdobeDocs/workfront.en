@@ -11,7 +11,7 @@ For a list of all changes available with the 21.4 release, see [21.4 Release ove
 
 ## For administrators: See which groups are associated with an approval process
 
-To help you find out which groups are associated with the approval processes in your system, we’ve added a Group Name column to the Standard view on the Approvals page in Setup. Now you can view this information without having to create a custom view.
+To help you find out which groups are associated with the approval processes in your system, we've added a Group Name column to the Standard view on the Approvals page in Setup. Now you can view this information without having to create a custom view.
 
 For information about approval processes, see [Approval process overview](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
@@ -45,7 +45,7 @@ For instructions on mapping user attributes, see [Map user attributes and auto-p
 
 ## New field displays the groups your users belong to
 
-Now it’s easy to find out which groups your users belong to. In a report or view that lists users, you can create a column using the new Other Groups field. This field lists the groups where each user is a member.
+Now it's easy to find out which groups your users belong to. In a report or view that lists users, you can create a column using the new Other Groups field. This field lists the groups where each user is a member.
 
 For information about using reports and views, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) and [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
@@ -79,13 +79,13 @@ For more information, see [Configure a blueprint](../../../administration-and-se
 
 [View this video in full-screen mode.](https://vimeo.com/601113312/f4561ecf28)
 
-## New for group administrators: View and manage a group’s recently deleted and restored items
+## New for group administrators: View and manage a group's recently deleted and restored items
 
 >[!NOTE]
 >
 >This feature is available only in the new Adobe Workfront experience.
 
-We are continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with a group’s recently deleted and restored items from the Groups area. This saves you from having to go to the Recently Deleted or Recently Restored area in Setup to manage those items. And it keeps the list of group items you’re working with separate from the other deleted and restored items in the system.
+We are continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with a group's recently deleted and restored items from the Groups area. This saves you from having to go to the Recently Deleted or Recently Restored area in Setup to manage those items. And it keeps the list of group items you're working with separate from the other deleted and restored items in the system.
 
 For more information, see [View and manage a group's recently deleted items](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) and [View and manage a group's recently restored items](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
 
@@ -97,7 +97,7 @@ For more information, see [View and manage a group's recently deleted items](../
 
 ## New for group administrators: Group preferences now affect group templates
 
-It’s now easier to make sure that your group’s project templates meet your group’s needs. When you assign a new project template to a group at the time when you create it, the template inherits the following settings from the group’s project and task preferences:
+It's now easier to make sure that your group's project templates meet your group's needs. When you assign a new project template to a group at the time when you create it, the template inherits the following settings from the group's project and task preferences:
 
 * Performance Index Method
 * Condition Type
@@ -106,7 +106,7 @@ It’s now easier to make sure that your group’s project templates meet your g
 * Update type
 * Access section settings
 
-When you create a new template task within a project template that is associated with a group, the template task inherits the following settings from the group’s task preferences:
+When you create a new template task within a project template that is associated with a group, the template task inherits the following settings from the group's task preferences:
 
 * Duration Type
 * Revenue Type
@@ -114,9 +114,9 @@ When you create a new template task within a project template that is associated
 
 Previously, project templates and project template tasks inherited these settings from the project and task preferences set at the system level.
 
-If you create a template or template task without a group—for example, from the main Templates page—the settings above are inherited from the system-level project and task preferences. However, if you later assign a group to the template or template task, the group’s preferences don’t affect it.
+If you create a template or template task without a group—for example, from the main Templates page—the settings above are inherited from the system-level project and task preferences. However, if you later assign a group to the template or template task, the group's preferences don't affect it.
 
-For more information, see the section How preferences apply to templates and template tasks in the article [Create and modify a group’s project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+For more information, see the section How preferences apply to templates and template tasks in the article [Create and modify a group's project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
 <!--WRITER
 <iframe class="vimeo-player_0" src="assets/592786526?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
@@ -126,7 +126,7 @@ For more information, see the section How preferences apply to templates and tem
 
 ## New for administrators: Find out which custom forms are using a custom field
 
-Now it’s easier to change a custom field in a custom form. With a single click in the custom form, you can find out about any other custom forms that are also using the field. It’s important to assess whether those forms will need adjustments in order to keep working properly after you make the change.
+Now it's easier to change a custom field in a custom form. With a single click in the custom form, you can find out about any other custom forms that are also using the field. It's important to assess whether those forms will need adjustments in order to keep working properly after you make the change.
 
 For more information, see [View all custom forms that use a particular custom field or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
 
@@ -140,13 +140,13 @@ For more information, see [View all custom forms that use a particular custom fi
 
 Now you can ensure that everyone in the subgroups below your group is using the same preference settings, or you can allow them to configure a preference setting for their unique workflows.
 
-* After a Workfront administrator unlocks a preference at the system level, you can configure and then lock it for all subgroups below your group. Though you can still reconfigure the locked preference, administrators of lower subgroups can’t do so for their groups.
+* After a Workfront administrator unlocks a preference at the system level, you can configure and then lock it for all subgroups below your group. Though you can still reconfigure the locked preference, administrators of lower subgroups can't do so for their groups.
 
-  Conversely, you can unlock a preference for your group. This allows subgroup administrators to configure it for their users’ unique project, task, or issue workflow needs.
+  Conversely, you can unlock a preference for your group. This allows subgroup administrators to configure it for their users' unique project, task, or issue workflow needs.
 
   For more information, see [Lock or unlock a project, task, or issue preference for subgroups](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
-* If you are a Workfront administrator, you don’t need to go to the Groups area to configure a subgroup’s preferences. From the main Project Preferences, Tasks & Issues Preferences, or Timesheets and Hours Preferences area, you can use the search box at the top of the page to find the subgroup and configure its preferences.
+* If you are a Workfront administrator, you don't need to go to the Groups area to configure a subgroup's preferences. From the main Project Preferences, Tasks & Issues Preferences, or Timesheets and Hours Preferences area, you can use the search box at the top of the page to find the subgroup and configure its preferences.
 
   For more information, see [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) and [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
@@ -162,9 +162,9 @@ Now you can ensure that everyone in the subgroups below your group is using the 
 >
 >This feature is available only in the new Workfront experience.
 
-We’re continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with a group’s templates from the Groups area in Setup. This saves you from having to go to the Templates area to manage a group’s templates. And it keeps the list of group templates you’re working on separate from the others throughout the system.
+We're continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with a group's templates from the Groups area in Setup. This saves you from having to go to the Templates area to manage a group's templates. And it keeps the list of group templates you're working on separate from the others throughout the system.
 
-For more information, see [Create and modify a group’s project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+For more information, see [Create and modify a group's project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
 <!--WRITER
 <iframe class="vimeo-player_0" src="assets/586023814?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
@@ -180,7 +180,7 @@ For more information, see [Create and modify a group’s project templates](../.
 
 It's now easier to supply information in the Details section for an object: Type and save information in a single custom field or expandable area (such as Overview and Finance), even if required fields in other custom forms on the object are not yet filled out.
 
-Previously, when you entered information in one custom form or expandable area for an object, all custom forms attached to the object went into edit mode and all their required fields had to be completed before you could save your changes. This was a problem if you couldn’t complete a required field because it was intended for another user.
+Previously, when you entered information in one custom form or expandable area for an object, all custom forms attached to the object went into edit mode and all their required fields had to be completed before you could save your changes. This was a problem if you couldn't complete a required field because it was intended for another user.
 
 If you do want to edit all custom forms and expandable areas in the Details section for an object, you can click Edit all on the new Edit menu that we added to the Edit icon. Or, on the same menu, you can click a name to scroll to the custom form or section where you want to make changes
 
@@ -198,7 +198,7 @@ For more information, see [Edit object details in the new Adobe Workfront experi
 >
 >This feature was originally released to Preview with the 21.3 release.
 
-To make it easier for all levels of an organization to manage and control their workflows independently, we’ve introduced the ability to create and manage statuses for subgroups. Now, from the Groups section in Setup, you can do the following for groups you administer on any level:
+To make it easier for all levels of an organization to manage and control their workflows independently, we've introduced the ability to create and manage statuses for subgroups. Now, from the Groups section in Setup, you can do the following for groups you administer on any level:
 
 * Create, edit, delete, and hide a status for a group
 * Lock a status for any group so that all lower subgroups below it can use it in the same way
@@ -238,8 +238,8 @@ For more information, see [Migrate your layout templates to the new Adobe Workfr
 
 ## When associating a template with a group, select a group approval process in Queue Details and Queue Topics
 
-We have added a new option to the process of associating a template with a group. Now you can select group-specific approval processes for issues in the template’s Queue Details or in one of its Queue Topics.
+We have added a new option to the process of associating a template with a group. Now you can select group-specific approval processes for issues in the template's Queue Details or in one of its Queue Topics.
 
-In 21.3, when we added the ability to associate a group template with a group, you could select a group-specific approval process in the template, but you couldn’t do so in the template’s Queue Details or Queue Topics.
+In 21.3, when we added the ability to associate a group template with a group, you could select a group-specific approval process in the template, but you couldn't do so in the template's Queue Details or Queue Topics.
 
 For more information, see [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).

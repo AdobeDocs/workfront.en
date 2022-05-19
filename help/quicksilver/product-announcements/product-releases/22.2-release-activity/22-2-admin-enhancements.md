@@ -29,7 +29,7 @@ For more information, see the section [Start creating a custom form](../../../ad
 >
 >* At the time of our initial Preview release of this functionality, we temporarily disabled the ability to copy a multi-object custom form. That ability was enabled on March 24. For information about copying a custom form, see [Copy a custom form to create a new one](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 >* In a calculated custom field, some fields that you reference might not be compatible with object types that are configured for the form. Our solution is a wild card that will allow the calculation to output different values, depending on the object that the form is attached to. We added the wild card on March 24. For information on how to use it, see the section [Calculated custom fields in multi-object custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) in the article [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
->* For section breaks in custom forms, we’ve created a set of common viewing and editing permissions that work for all object types that you can configure for a form. In one scenario, we found that one of these permissions, Limited Edit, might cause errors on a form. This was fixed on March 24. For more information about section breaks, see [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+>* For section breaks in custom forms, we've created a set of common viewing and editing permissions that work for all object types that you can configure for a form. In one scenario, we found that one of these permissions, Limited Edit, might cause errors on a form. This was fixed on March 24. For more information about section breaks, see [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 >
 
 <!--WRITER
@@ -74,7 +74,7 @@ For more information, see [Add or edit an asset widget in a custom form](../../.
 
 To better suit the needs of most administrators who create new access levels, we have changed the default configuration for the “Fine-tune your settings” options listed below. These display when you click the gear icon ![](assets/gear-icon-in-access-levels.png) on an Edit button.
 
-All of these changes disable an option that was previously enabled by default. If this doesn’t suit the needs of your organization, you can enable them when you are setting up a new access level, or any time later.
+All of these changes disable an option that was previously enabled by default. If this doesn't suit the needs of your organization, you can enable them when you are setting up a new access level, or any time later.
 
 >[!IMPORTANT]
 >
@@ -103,11 +103,11 @@ All of these changes disable an option that was previously enabled by default. I
 
 ## Deactivate a group
 
-As your internal organizations change, you might need to stop using certain groups in Workfront and create new ones. To help with this, we have added the ability to deactivate a group without losing its historical data. For regular users who don’t need to see them, inactive groups are cleared from group type-ahead fields.
+As your internal organizations change, you might need to stop using certain groups in Workfront and create new ones. To help with this, we have added the ability to deactivate a group without losing its historical data. For regular users who don't need to see them, inactive groups are cleared from group type-ahead fields.
 
-You can still find and configure options, preferences, and object associations for inactive groups that you manage. And deactivating a group doesn’t change anything about the objects that the group is attached to.
+You can still find and configure options, preferences, and object associations for inactive groups that you manage. And deactivating a group doesn't change anything about the objects that the group is attached to.
 
-Previously, it wasn’t possible to deactivate a group.
+Previously, it wasn't possible to deactivate a group.
 
 For more information, see [Deactivate or reactivate a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 

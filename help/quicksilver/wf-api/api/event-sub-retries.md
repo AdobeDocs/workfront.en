@@ -35,7 +35,7 @@ The following explanations correspond with the steps depicted in the flowchart:
 
 1. URL failures incremented. 
 1. Message attempt count is incremented. 
-1. Calculate the delay until this message’s delivery will be attempted again. 
+1. Calculate the delay until this message's delivery will be attempted again. 
 1. Message is placed onto the message retry queue.
 
    As shown in the preceding flowchart, the message queue used for processing message delivery retries is a separate queue from the one that processes the initial delivery attempt for each message. This allows the near real-time flow of messages to continue unimpeded by the failure of any subset of messages. 
