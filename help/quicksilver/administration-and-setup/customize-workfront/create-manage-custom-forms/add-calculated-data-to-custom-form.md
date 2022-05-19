@@ -10,7 +10,7 @@ description: In a custom form, you can build a calculated custom field that gene
 
 # Add calculated data to a custom form
 
-In a custom form, you can add a calculated custom field that generates new data using data that already exists in your system. The result is generated when the custom form is attached to an object. 
+In a custom form, you can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object. 
 
 A calculated custom field can contain:
 

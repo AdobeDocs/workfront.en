@@ -51,7 +51,7 @@ This table and diagram show the main levels of access to Workfront:
  </tbody> 
 </table>
 
-![](assets/licenses-and-access-levels-350x260.png)
+![](assets/licenses-and-access-levels.png)
 
 ## How a license defines an access level
 

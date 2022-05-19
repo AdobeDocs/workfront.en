@@ -51,7 +51,7 @@ You must have the following:
 
 1. In the **View** drop-down menu, select **Licenses**.
 
-   The **License** column displays the name of the license assigned to each user.
+   The License column displays the name of the license assigned to each user.
 
 1. In the **Grouping** drop-down menu, click **License Type**.
 

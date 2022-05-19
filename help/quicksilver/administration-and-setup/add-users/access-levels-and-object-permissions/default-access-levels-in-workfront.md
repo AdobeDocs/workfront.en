@@ -41,9 +41,7 @@ Attached to the Plan license, this built-in access level is designed for a user 
 
 Users with the System Administrator access level can do everything within Workfront. They can view and edit all Workfront objects and information entered in Workfront by all other users.
 
-They also have access to the complete Setup area, where they can change any setting at the system level. And they can access all areas in the  Main Menu ![](assets/main-menu-icon.png)
-
-.
+They also have access to the complete Setup area, where they can change any setting at the system level. And they can access all areas in the  Main Menu ![](assets/main-menu-icon.png).
 
 For more information, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
@@ -88,9 +86,7 @@ Users with this access level:
 * Can approve work and documents, but not timesheets
 * Can access and share reports
 * Can communicate with other users in the system  
-* Can access all the areas in the  Main Menu ![](assets/main-menu-icon.png)
-
-  , but their  "Users"  area is named Teams. In the Teams area, users with this access level can view only teams that they belong to, along with the work assigned to those teams.
+* Can access all the areas in the Main Menu ![](assets/main-menu-icon.png), but their  "Users"  area is named Teams. In the Teams area, users with this access level can view only teams that they belong to, along with the work assigned to those teams.
 * Have limited ability to create objects—they can’t create projects, portfolios, programs, or reports.
 
 You can create a custom version of the Worker built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
@@ -123,9 +119,7 @@ For example, a stakeholder with this access level could log in to Workfront to p
 Users with the Reviewer access level:
 
 * Cannot be assigned work items or approve time sheets
-* Can access requests and documents in the  Main Menu ![](assets/main-menu-icon.png)
-
-  .
+* Can access requests and documents in the  Main Menu ![](assets/main-menu-icon.png).
 * Have limited ability to create objects—they can’t create projects, portfolios, programs, or reports.
 
 You can create a custom version of the Reviewer built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
@@ -245,7 +239,7 @@ Users with this built-in access level:
 * Can upload and approve documents
 * Can review the status of issues they have submitted
 * Cannot be assigned to work items  
-* Can  access requests only from the Main Menu ![](assets/main-menu-icon.png) . For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Can  access requests only from the Main Menu ![](assets/main-menu-icon.png). For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 You can create a custom version of the Requester built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
 

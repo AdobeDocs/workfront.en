@@ -60,7 +60,7 @@ You must have the following to perform the steps in this article:
 
       ![](assets/share-field-give-access-to-350x456.jpg)
 
-   1. If you want to be more specific about how you want to share the item with a user, team, job role, group, or company you added in the previous step, click the drop-down list to the right of the name, then use any of the following options:
+   1. If you want to be more specific about how you want to share the item, click the drop-down list to the right of the name, then use any of the following options:
 
       ![](assets/share-field-view-mng-options-350x457.jpg)
 
@@ -114,8 +114,7 @@ You can find out who has inherited access to a custom field or widget and you ca
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left panel, click **Custom Forms**.
-1. Click the **Fields** tab, then select the field, image, or ```video```.
-
+1. Click the **Fields** tab, then select the field, image, or access widget.
 1. In the box that displays, click **Inherited Permissions** and view the names that display.
 1. Click **Cancel**.
 

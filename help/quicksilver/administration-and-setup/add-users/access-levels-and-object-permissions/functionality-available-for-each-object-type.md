@@ -526,7 +526,6 @@ Only users with a Plan license can have full access to [select object or area]. 
 | Add or edit cost information on plans and initiatives&#42; |✓ |✓ |✓ |&nbsp; |&nbsp; |
 | Delete plans and initiatives | ✓ |✓ |✓ |&nbsp; |&nbsp; |
 | View Scenarios in the Main Menu ![](assets/esp-icon-in-main-menu.png)
-
 | ✓ |✓ |✓ |&nbsp; |&nbsp; |
 | View plans and initiatives that the user created&#42; |✓ |✓ |✓ |&nbsp; |&nbsp; |
 

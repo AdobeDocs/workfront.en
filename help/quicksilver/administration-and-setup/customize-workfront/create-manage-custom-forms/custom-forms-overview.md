@@ -18,9 +18,9 @@ See this video overview of custom forms.
 
 ![](assets/video-icon-verysmall.png) [Custom Forms in the new Workfront experience](https://one.workfront.com/s/learningpath2/custom-forms-in-the-new-workfront-experience-final-MCC2AF4MH6NRHKHJJBXO6T65DHUU)
 
-You can build custom forms that users can attach to a Workfront objects and fill out to supply information about those objects.
+You can build a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
 
-For example, users can attach a custom form like the one pictured below to projects where they need to supply creative brief information:
+For example, a user can attach the following custom form to a project so that users on the project can supply creative brief information about the project:
 
 ![](assets/custom-form-350x269.png)
 
@@ -42,7 +42,7 @@ You can add the following types of custom fields to a custom form in Workfront:
 
 For more information, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
-You can also add image and ```video``` widgets to a custom form. This is useful when you need to include content such as branding images or visual instructions. For more information, see [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+You can also add visual asset widgets to a custom form. This is useful when you need to include content such as branding images or visual instructions. For more information, see [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 For instructions on creating a custom form, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

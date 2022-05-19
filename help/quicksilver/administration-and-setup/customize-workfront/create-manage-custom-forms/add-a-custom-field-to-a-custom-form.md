@@ -15,7 +15,7 @@ When you are working on a custom form, you can create a new custom field and add
 
 You can also add a custom field that was already added to another custom form. For instructions, see [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
-For information about adding an image or ```video``` widget to a custom form, which is a process similar to adding a custom field, see [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+For information about adding an asset widget to a custom form, which is a process similar to adding a custom field, see [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Text Field with Formatting</td> 
-      <td> <p>Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. This is available in Home, the Updates area, lists, and the Details area for Workfront objects. A character limit of 15,000 allows for plenty of text and formatting.</p> <p>For information about accessing this field through the API, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Rich text field storage in the API</a>.</p> <p>Note:  Text fields with formatting are not available for Workfront mobile apps (available in coming releases). </p> </td> 
+      <td>Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. This is available in Home, the Updates area, lists, and the Details area for Workfront objects. A character limit of 15,000 allows for plenty of text and formatting.</p> <p>For information about accessing this field through the API, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Rich text field storage in the API</a>.</p> <p>Note:  Text fields with formatting are not available for Workfront mobile apps (available in coming releases). </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dropdown</td> 
@@ -79,7 +79,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Typeahead </td> 
-      <td> <p>Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. </p> </td> 
+      <td>Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Calculated</td> 
@@ -103,7 +103,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Section Break</td> 
-      <td> <p>A section break is actually not a field. You can use a section break to organize your custom fields and widgets into sections and, if necessary, configure different viewing and editing permissions for each section. For information about adding and configuring section breaks, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md" class="MCXref xref">Add a section break to a custom form</a>.</p> </td> 
+      <td>A section break is actually not a field. You can use a section break to organize your custom fields and widgets into sections and, if necessary, configure different viewing and editing permissions for each section. For information about adding and configuring section breaks, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md" class="MCXref xref">Add a section break to a custom form</a>.</td> 
      </tr> 
     </tbody> 
    </table>

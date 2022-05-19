@@ -59,4 +59,4 @@ For additional information about access to Workfront Goals, see [Requirements to
 
 ## Access to Workfront Goals by license type
 
-A Workfront administrator can allow to users with a Plan, Work, Request, or Review license fill Edit access to Workfront Goals in an access level.
+A Workfront administrator can use an access level to grant access to Workfront Goals to users with a Plan, Work, Request, or Review license.
