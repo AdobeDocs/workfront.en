@@ -18,7 +18,7 @@ This access also includes access to External Pages. For information about Extern
 >
 >* If you want grant users access to reports, dashboards, and calendars, you must also give those users access to filters, views, and groupings. For instructions, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 >* When someone shares a report, dashboard, or calendar with another user, the recipient’s rights on it are determined by a combination of two things: The recipient’s access level setting for reports, dashboards, and calendars _and_ any permissions that the sharer granted for the report, dashboard, or calendar
-
+>
 >For information about permissions users can grant on a report, dashboard, or calendar when sharing it, see [Share reports, dashboards, and calendars](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 ## Access requirements
