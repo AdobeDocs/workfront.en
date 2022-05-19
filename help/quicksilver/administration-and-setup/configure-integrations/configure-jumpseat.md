@@ -4,12 +4,10 @@ user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 title: Configure the JumpSeat integration
-description: The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: You can integrate JumpSeat with Workfront to create custom, in-product guidance.
 ---
 
 # Configure the JumpSeat integration
-
-The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 You can integrate JumpSeat with Workfront to create custom, in-product guidance.
 

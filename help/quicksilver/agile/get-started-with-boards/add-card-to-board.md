@@ -121,7 +121,7 @@ You can add ad hoc cards with only a title to quickly populate your board.
 
 1. In the Card Details box, update the information as needed, and click **Close** to return to the board.
 
-## Complete checklist items
+## Complete checklist items {#complete-checklist}
 
 1. Access the board and locate the card the checklist is on.
 1. Click the card to open the Card Details box.
