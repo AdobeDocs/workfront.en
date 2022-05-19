@@ -23,7 +23,7 @@ This access also includes access to External Pages. For information about Extern
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
+You must have the following access to perform the steps in this article:
 
 <table> 
  <col> 
