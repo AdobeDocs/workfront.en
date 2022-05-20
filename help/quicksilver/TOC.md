@@ -321,7 +321,6 @@ user-guide-description: Workfront
       * [Manage hour types](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
       * [Manage timesheets](administration-and-setup/set-up-workfront/configure-timesheets-schedules/manage-timesheets-for-all-users.md)
       * [Create a schedule](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
-      * [Locking timesheet and hour preferences](administration-and-setup/set-up-workfront/configure-timesheets-schedules/lock-or-unlock-timesheet-hour-preference.md)
     * Organizational setup {#organization-setup}
       * [Organizational setup](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
       * [Manage companies](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
