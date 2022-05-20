@@ -10,7 +10,7 @@ description: Configure system security preferences
 # Configure system security preferences
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
 >[!IMPORTANT]
@@ -87,7 +87,7 @@ You must have the following access to perform the steps in this article:
         <li>Document request<br></li>
         <li>Document approval</li>
         <li>Calendar</li>
-       </ul><p>This option is enabled by default.</p></td> 
+       </ul><p>This option is enabled by default.</p> <p><b>Important</b>: The External User access level is unavailable in your Workfront instance if this option is disabled. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Built-in access levels in Workfront</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Require external users to register with a password</td> 
@@ -95,9 +95,9 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Automatically log users out after</td> 
-      <td> <p>Note: This is not currently available. We are working on authentication enhancements that will allow you to log out inactive users automatically after a period of time that you choose.<!--
-         <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in - Workfront basics/Manage your account and profile/Managing Your Workfront Account/log-out-of-workfront.html</span>
-        --></p> <p>Lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. </p> <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>Note: This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
+      <td> <p><b>Note</b>: This is not currently available. We are working on authentication enhancements that will allow you to log out inactive users automatically after a period of time that you choose.  <!--
+          TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in - Workfront basics/Manage your account and profile/Managing Your Workfront Account/log-out-of-workfront.html
+        --></p> <p>This option lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. </p> <p>This option also affects Workfront customers who are using a single sign-on solution.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Automatically log mobile users out after </td> 

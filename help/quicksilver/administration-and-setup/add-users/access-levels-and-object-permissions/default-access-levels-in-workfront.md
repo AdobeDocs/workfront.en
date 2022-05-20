@@ -20,8 +20,6 @@ All 6 of the built-in access levels are designed for a particular type of user:
 * Requestor
 * External User
 
-For general information about these access levels, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
-
 Depending on the access level, up to 3 settings are available for most of the Workfront object types:
 
 | Edit |Users can create, edit, delete, and share the Workfront object |
@@ -34,6 +32,8 @@ If you need a custom Planner, Worker, Requester, or Reviewer access level, you c
 >[!IMPORTANT]
 >
 >We strongly recommend that you leave the built-in access levels unchanged so that you can refer to them after you set up your users.
+
+For general information about these access levels, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## System Administrator access level
 
@@ -275,6 +275,10 @@ Users with the External User access level:
 * Approve the documents that are shared with them
 
 You cannot modify this access level.
+
+>[!IMPORTANT]
+>
+>External User is available only if the option "Collaborate with people without Workfront accounts by using their email address" is enabled in the System Preferences area in Setup. For more information, see [Configure system security preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md). 
 
 The following are the highest access settings available for objects in the External User access level.
 
