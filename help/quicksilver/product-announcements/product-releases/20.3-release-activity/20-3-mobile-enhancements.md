@@ -26,10 +26,6 @@ Make your video meetings a part of what you do in Workfront by starting Zoom mee
 
 For more information, see [Zoom integration overview](../../../workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/445059697?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/445059697/9a35e135a8)
 
 ## Introducing Workfront for MobileIron

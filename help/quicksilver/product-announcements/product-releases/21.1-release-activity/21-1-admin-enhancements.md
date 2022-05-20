@@ -23,10 +23,6 @@ For information about the Plan access level, see [Grant access to projects](../.
 
 For information about copying a project, see [Copy a project](../../../manage-work/projects/manage-projects/copy-project.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/500530877?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/500530877/958cb9ebec)
 
 This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) learning path on Workfront One.
@@ -41,10 +37,6 @@ On the Details page for an object, when you are filling in a multi-select drop-d
 
 For information about editing data on a Custom Form, see [Edit information in custom form fields](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/500509190?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/500509190/dd16c60166)
 
 ## Recalculate all Custom Form fields for an object
@@ -57,10 +49,6 @@ Previously, users had to use workarounds to ensure that all data in calculated c
 
 For more information, see [Edit information in custom form fields](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/486601498?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/486601498/fcd21c5042)
 
 ## Unlock task and issue preferences for Group Administrators
@@ -72,10 +60,6 @@ For more information, see [Edit information in custom form fields](../../../work
 Adobe Workfront administrators can now give Group Administrators more autonomy by unlocking individual task and issue preferences. When a preference is unlocked, Group Administrators can configure it for their groups to serve each group's unique needs and internal processes.
 
 For more information, see [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/486598651?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/486598651/5696df879e)
 
@@ -90,10 +74,6 @@ Previously, the access level settings for portfolios and programs were combined.
 For information about configuring an access level, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 For information about access settings that you can configure for programs and portfolios, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/486600620?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/486600620/908d93b6ee)
 
@@ -111,10 +91,6 @@ This option displays only if the field contains more than 2 checkboxes.
 
 For more information, see [Edit information in custom form fields](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/486602711?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/486602711/b66a6953d2)
 
 ## Configure your Workfront email allowlist
@@ -128,10 +104,6 @@ For example, if you want to protect sensitive data, such as a report listing you
 
 For more information, see the section [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) in the article [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/481767348?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature](https://vimeo.com/481767348/e3f72f418e).
 
 ## Assign a Group Administrator for a subgroup
@@ -141,10 +113,6 @@ To make it easier for the levels of your organization to operate independently, 
 Previously, only a top-level group could have Group Administrators, and those administrators managed all of the subgroups beneath the top-level group.
 
 For more information, see the section [Group administrators for subgroups](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) in the article [Subgroups overview](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/481764187?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature](https://vimeo.com/481764187/855b405a46).
 
@@ -164,10 +132,6 @@ For more information, see the following articles:
 
 * [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) 
 * [View and configure event notifications for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/502703858?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/502703858/b5cd50ed5d)
 
@@ -189,10 +153,6 @@ If you are a Group Administrator, it's easy to view and work with your group's p
 
 This functionality is also available for Workfront administrators.
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/482726141?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/482726141/a9cf241425)
 
 ## View the number of licenses used and allocated in a group
@@ -202,9 +162,5 @@ To determine how well your licenses are distributed, you can now view the number
 If you manage a top-level group, you can view both the number of licenses that are used in a group (and its subgroups) and the maximum number of licenses allocated for the group.
 
 For more information, see [View the number of licenses allocated and used in a group in the new Adobe Workfront experience](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/481775659?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature](https://vimeo.com/481775659/474d71d8ee).

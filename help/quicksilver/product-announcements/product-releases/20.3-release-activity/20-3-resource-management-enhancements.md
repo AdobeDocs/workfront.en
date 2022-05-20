@@ -18,10 +18,6 @@ To allow you to see a complete picture of all your people's workloads, we have i
 
 For information about working in the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/430815976?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/430815976/8c304e9fe7)
 
 ## Adjust allocations for non-working days in the Workload Balancer
@@ -29,10 +25,6 @@ For information about working in the Workload Balancer, see [Navigate the Worklo
 You can adjust allocations for your resources for non-working days using the Workload Balancer.
 
 For information about managing allocations in the Workload Balancer, see [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/430817953?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/430817953/738e8b3539)
 
@@ -50,10 +42,6 @@ When you apply one of these filters and then share the Workload Balancer or plac
 
 For information about applying filters to the Workload Balancer, see [Manage filters in the Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/425680462?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/425680462/5e65fb50f7)
 
 ## New sorting for projects in the Workload Balancer
@@ -61,10 +49,6 @@ For information about applying filters to the Workload Balancer, see [Manage fil
 The Workload Balancer now sorts the projects based first on the earliest Planned Start Date and secondly the latest Planned Completion Date of the tasks in the project which occur during the timeframe the user displays on the screen. This allows you to organize work in a tree-like hierarchy which helps you more easily identify work for a day.
 
 For information about viewing projects and work items in the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/425681656?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/425681656/50139ed937)
 
@@ -75,10 +59,6 @@ To give you an accurate perspective of the progress of your workload, we have in
 Also, with this improvement, if a task or an issue is completed earlier than their Planned Completion Date, the allocated hours from the remaining days are struck through to indicate that they do not count towards the user's overall allocation.
 
 For information about navigating the Workload Balancer and enabling settings see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/434808390?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/434808390/495d145726)
 
@@ -100,10 +80,6 @@ For information about managing allocations in the Workload Balancer, see [Manage
 
 * Adobe Workfront Classic 
 * The new Adobe Workfront experience
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/405985254?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/405985254/2012ee6036)
 
