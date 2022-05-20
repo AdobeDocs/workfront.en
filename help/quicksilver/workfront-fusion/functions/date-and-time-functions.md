@@ -370,7 +370,7 @@ Specify a number from 1 to 12. If the number is outside of this range, the funct
 >
 >   Returns 2016-05-07T11:36:39.138Z
 >
->* `setMonth(2015-08-07T11:36:39.138Z;january)
+>* `setMonth(2015-08-07T11:36:39.138Z;january)`
 >
 >   Returns 2015-01-07T12:36:39.138Z
 
@@ -404,15 +404,15 @@ If no unit is specified, the function returns the difference in milliseconds.
 
 >**Examples:**
 >
->  * `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z)`
+>* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z)`
 >
 >    Returns `600,000`
 >
->  * `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;hours)`
+>* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;hours)`
 >
 >    Returns `4`
 >
->  * `dateDifference2021-06-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;months)`
+>* `dateDifference2021-06-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;months)`
 >
 >    Returns `1`
 
@@ -466,19 +466,16 @@ The formula contains the following items:
 </table>
 
 In case you want to calculate only one specific case, for example, every second Wednesday, you can replace the items `1.n` and `2.dow` in the formula with corresponding numbers. For the second Wednesday in the current month, you would use the following values:
-
-  * `1.n` = `2`
-
-  * `1.dow` = `3`
-
-  * `1.date` = `now`
+* `1.n` = `2`
+* `1.dow` = `3`
+* `1.date` = `now`
 
 ![](assets/nth-day-variable-value-350x33.png)
 
 ### Explanation:
 
-  * `setDate(now;1)` returns first of current month 
-  * `formatDate(....;E)` returns day of week (1, 2, ... 6)
+* `setDate(now;1)` returns first of current month 
+* `formatDate(....;E)` returns day of week (1, 2, ... 6)
 
 ## How to calculate days between dates
 

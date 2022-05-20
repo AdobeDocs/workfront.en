@@ -111,19 +111,19 @@ Returns a new array containing only selected items.
 
 Sorts values of an array. The valid values of the ```order``` parameter are:
 
-  * ```asc```
+* ```asc```
 
     (default) - ascending order: 1, 2, 3, ... for type Number. A, B, C, a, b, c, ... for type Text
 
-  * ```desc```
+* ```desc```
 
     descending order: ..., 3, 2, 1 for type Number. ..., c, b, a, C, B, A for type Text.
 
-  * ```asc ci```
+* ```asc ci```
 
     case insensitive ascending order: A, a, B, b, C, c, ... for type Text.
 
-  * ```desc ci```
+* ```desc ci```
 
     case insensitive descending order: ..., C, c, B, b, A, a for type Text.
 
@@ -159,7 +159,7 @@ Returns the difference between two arrays.
 
 Enter one of the following values for the ```mode``` parameter.
 
- * ```classic```: Returns a new array that contains all elements of ```array1``` that do not exist in ```array2```.
+* ```classic```: Returns a new array that contains all elements of ```array1``` that do not exist in ```array2```.
 
 * ```symmetric```: Returns an array of elements that are not common to both arrays.
 
