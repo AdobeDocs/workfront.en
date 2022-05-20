@@ -25,7 +25,5 @@ Teams are typically created by a Workfront administrator, but a user with approp
 
 A Project Manager does not always know which individual will complete an assignment-simply that a particular work unit or team&nbsp;completes work of that specific nature.
 
-Members of an assigned team can also Go to the People > Teams and see the tasks assigned to their team. They can assess the impact of a task and volunteer to work on it.
-
-![](assets/team-requests--1-adobe-350x155.png)
+Members of an assigned team can also go to the Teams > Team Requests area and see the tasks assigned to their team. They can assess the impact of a task and volunteer to work on it.
 

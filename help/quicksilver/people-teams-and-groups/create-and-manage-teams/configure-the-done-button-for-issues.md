@@ -8,11 +8,11 @@ description: The Done button can automatically set the status of a task or an is
 
 # Configure the Done button for issues
 
-The Done button can automatically set the status of a task or an issue. By default, Adobe Workfront&nbsp;marks an issue as Resolved when an assignee clicks Done on their work item.
+The Done button can automatically set the status of a task or an issue. By default, Adobe Workfront marks an issue as Resolved when an assignee clicks Done on their work item.
 
 ## Overview
 
-&nbsp;Users with certain permissions can configure the Done button to reflect certain statuses in the system. There are 3 different ways the Done button works for issues in Workfront:
+Users with certain permissions can configure the Done button to reflect certain statuses in the system. There are 3 different ways the Done button works for issues in Workfront:
 
 * If the user has an assigned Home Team, a Workfront administrator or a user with a Plan license can configure the Done button to reflect certain statuses for team members. See [Configure the Done button for a Team](#configure-the-done-button-for-a-team) in this article.
 * If the user does not have a Home Team assigned, the Done button for issues is tied to a system-generated Resolved status that has the three-letter code RLV. There are no configuration options available in this scenario. The Done button automatically defaults to this status.
@@ -29,15 +29,15 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td>System administrator access is required to configure the Done button when the Resolved status is deleted</td> 
   </tr> 
  </tbody> 
@@ -71,11 +71,11 @@ You can change which status is applied to the work item with the Done button. Yo
    >* Issue types are customizable and they might have different names than listed below in your environment.  
    >  Following&nbsp;are the default tasks and issue types:
    >     
-   >  * Tasks
-   >  * Issue
-   >  * Request
-   >  * Change Order
-   >  * Bug Report
+   > * Tasks
+   > * Issue
+   > * Request
+   > * Change Order
+   > * Bug Report
 
    If the task or issue is assigned to multiple users, you see a "Done with my part" option in the drop-down menu, in addition to the multiple statuses chosen for your team.  
 
