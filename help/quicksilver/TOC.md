@@ -12,7 +12,7 @@ user-guide-description: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * 22.3 Release {#release-22-3}
       * [22.3 Release overview](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
-      * [22.3 release activity: Week of May 16, 2022] (product-announcements/product-releases/22.3-release-activity/22-3-may-16.md)
+      * [22.3 release activity: Week of May 16, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-16.md)
       * [22.3 release activity: Week of May 2, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-2.md)
       * [22.3 release activity: Week of April 18, 2022](product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md)
       * [22.3 release activity: Week of April 11, 2022](product-announcements/product-releases/22.3-release-activity/22-3-apr-11.md)
