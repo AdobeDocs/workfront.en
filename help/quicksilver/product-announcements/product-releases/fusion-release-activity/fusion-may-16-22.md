@@ -10,7 +10,7 @@ description: This page describes all enhancements made in Adobe Workfront Fusion
 
 # Workfront Fusion release activity:&nbsp;Week of May 16, 2022
 
-This page describes all enhancements made in Adobe Workfront Fusion the week of May 16, 2022.
+This page describes all enhancements made in Adobe Workfront Fusion the week of May 16, 2022. 
 
 For a list of all recent changes, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
