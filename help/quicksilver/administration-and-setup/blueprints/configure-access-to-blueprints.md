@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configure access to blueprints
-description: All Adobe Workfront users can browse the catalog of blueprints. As a system administrator, you can enable access for users to request installation of blueprints by setting up a request queue to store the requests. There, you have a single location to track and update requests.
+description: As a system administrator, you can enable access for users to request installation of blueprints by setting up a request queue to store the requests.
 ---
 
 # Configure access to blueprints
@@ -26,15 +26,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
    <td> <p>System Administrator</p> </td> 
   </tr> 
  </tbody> 
@@ -68,7 +68,7 @@ Before users can request that you install blueprints for them, you must select a
 
    The request queue preference is set, and users can now request blueprint installation.
 
-   ![Configure request queue](assets/blueprints-access-setup-request-queue-350x216.png)
+   ![Configure request queue](assets/Blueprints_access_setup_request_queue.png)
 
 1. (Optional) To make changes to the actual request queue, click **Edit this request queue**.
 
