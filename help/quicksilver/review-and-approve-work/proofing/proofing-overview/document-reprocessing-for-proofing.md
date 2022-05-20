@@ -18,7 +18,7 @@ All font text is extracted in its layer as long as you include the correct file 
 
 >[!NOTE]
 >
->```Workfront currently supports documents containing up to 2000 pages. This includes combined proofs. For more information, see [Create a multi-page proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)```.
+>Workfront currently supports documents containing up to 2000 pages. This includes combined proofs. For more information, see [Create a multi-page proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
 
 ## General tips
 
