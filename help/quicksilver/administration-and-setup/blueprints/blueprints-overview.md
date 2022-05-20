@@ -5,7 +5,7 @@ content-type: overview
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Blueprints overview
-description: Blueprints provide basic building blocks to help you create a work management system that grows with you. System administrators can browse the blueprints catalog and install ready-to-use project templates. Other users can browse the catalog and request installation of a blueprint. For more information, see Browse the blueprints catalog and request installation of blueprints.
+description: Blueprints provide basic building blocks to help you create a work management system that grows with you.
 ---
 
 # Blueprints overview
@@ -14,9 +14,9 @@ Blueprints provide basic building blocks to help you create a work management sy
 
 Each template is targeted to a department and specific maturity level to help you implement proven best practices in your system faster. The maturity levels detailed below are indicated in the blueprint catalog card and details.
 
-| ```Managed```  |Managed project templates help support the adoption of a new business process before activities and deliverables are fully accepted as a standard procedure. They contain tasks to ensure each step of the new process is being followed. |
-|---|---|
-| ```Integrated```  |Integrated project templates assume that business functions are supported through a standard operating procedure. Contributors to the process know the steps and tasks they need to complete to follow the process. The project templates to support this process contain fewer tasks to track only milestones and other key deliverables necessary for reporting purposes. |
+**Managed:** Managed project templates help support the adoption of a new business process before activities and deliverables are fully accepted as a standard procedure. They contain tasks to ensure each step of the new process is being followed.
+
+**Integrated:** Integrated project templates assume that business functions are supported through a standard operating procedure. Contributors to the process know the steps and tasks they need to complete to follow the process. The project templates to support this process contain fewer tasks to track only milestones and other key deliverables necessary for reporting purposes.
 
 ## Find the right blueprint
 
@@ -32,7 +32,7 @@ Each blueprint contains a details page. From this page, you can:
 * See role, team, company, and group descriptions
 * See a visual example of the project template (you can preview the full image in the browser or download it)
 
-![Blueprint Details page](assets/blueprint-detailspage-350x334.png)
+![Blueprint Details page](assets/Blueprint_DetailsPage.png)
 
 ### Blueprint types
 

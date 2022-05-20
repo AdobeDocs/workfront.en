@@ -20,15 +20,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
    <td> <p>System administrator</p> </td> 
   </tr> 
  </tbody> 
@@ -58,16 +58,17 @@ Choose how you want to install the template.
 
 You can also designate template ownership before you install the blueprint. You can make changes to these fields after the template is installed. For more information, see [Edit project templates](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-![Template Preferences section](assets/blueprints-templatepreferences-350x147.png)
+![Template Preferences section](assets/Blueprints_TemplatePreferences.png)
 
 1. In the Template Preferences section, specify a new template name.
 1. Specify the following:
 
-   | Template owner  |This person receives Manage permissions on the template and will become the Project owner when the template is used to create a project. |
+   | | |
    |---|---|
-   | Template sponsor  |This person is usually a manager, executive, or stakeholder who needs to know what is happening with the project. The Project Sponsor does not gain any additional access to the project but is added to the email notifications for the project. |
-   | Portfolio  |This is the portfolio the project will belong to when it's created. |
-   | Program  |This is the program the project will belong to when it's created. |
+   | **Template owner**  |This person receives Manage permissions on the template and will become the Project owner when the template is used to create a project. |
+   | **Template sponsor** |This person is usually a manager, executive, or stakeholder who needs to know what is happening with the project. The Project Sponsor does not gain any additional access to the project but is added to the email notifications for the project. |
+   | **Portfolio** |This is the portfolio the project will belong to when it's created. |
+   | **Program** |This is the program the project will belong to when it's created. |
 
 1. Select whether the template is installed as active or inactive.
 1. Select whether you want to use defined new issue preferences, if preferences are available.
@@ -79,27 +80,26 @@ You can also designate template ownership before you install the blueprint. You 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Queue topic groups</td> 
+      <td role="rowheader"><strong>Queue topic groups</strong></td> 
       <td> <p>Queue topic groups define the highest level of categories for the issues or requests. Users view topic groups as menu options when selecting where to submit requests. A topic group can contain multiple queue topics. For more information, see <a href="../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref">Create Topic Groups</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Queue topics </td> 
+      <td role="rowheader"><strong>Queue topics</strong></td> 
       <td> <p>Queue topics work in conjunction with routing rules to assign issues or requests. They are the menu options that users select when entering an issue or request, after selecting a topic group. For more information, see <a href="../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Create Queue Topics</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Routing rules </td> 
+      <td role="rowheader"><strong>Routing rules</strong></td> 
       <td>Routing rules send issues or requests to specific job roles , users, or teams. They can also send the requests to specific projects, other than the one associated with the request queue. For more information, see <a href="../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a>. </td> 
      </tr> 
     </tbody> 
    </table>
 
-   **Example:** The new issue preferences in this blueprint provide four queue topics. The user selects one of these topics when creating an issue. (Because only one topic group exists, it is automatically applied and the user does not have to select it.) When the user completes and submits the issue, routing rules determine which job role or team it is assigned to.
-
-   ![Sample new issue preferences](assets/blueprints-issueprefsdetails-350x202.png)
-
-   ![Queue topics for new issue](assets/blueprints-newissueqtopicsexample-350x204.png)
-
-   ![Issue routed to job role](assets/blueprints-projectshowsissueassignment-350x71.png)
+   >[!INFO]
+   >
+   >**Example:** The new issue preferences in this blueprint provide four queue topics. The user selects one of these topics when creating an issue. (Because only one topic group exists, it is automatically applied and the user does not have to select it.) When the user completes and submits the issue, routing rules determine which job role or team it is assigned to.
+   >![Sample new issue preferences](assets/Blueprints_IssuePrefsDetails.png)
+   >![Queue topics for new issue](assets/blueprints-newissueqtopicsexample-350x204.png)
+   >![Issue routed to job role](assets/Blueprints_ProjectShowsIssueAssignment.png)
 
    >[!TIP]
    >
@@ -117,7 +117,7 @@ Some templates include prescribed job roles. Job roles help you assign the right
 
 The blueprint searches by the role name to see if any existing roles match. The search is case sensitive, so names must be an exact match. If no existing roles match, you can have the blueprint create them for you.
 
-![Role Mapping section](assets/blueprints-rolemapping-350x123.png)
+![Role Mapping section](assets/Blueprints_RoleMapping.png)
 
 1. If a role exists, you can choose one of the following options:
 
@@ -148,7 +148,7 @@ Some templates include prescribed teams. Work assigned to a team can be complete
 
 The blueprint searches by the team name to see if any existing teams match. The search is case sensitive, so names must be an exact match. If no existing teams match, you can have the blueprint create them for you.
 
-![Team Mapping section](assets/blueprints-teammapping-350x121.png)
+![Team Mapping section](assets/Blueprints_TeamMapping.png)
 
 1. If a team exists, you can choose one of the following options:
 
@@ -179,7 +179,7 @@ Some blueprints include prescribed companies. A company is an organizational uni
 
 The blueprint searches by the company name to see if any existing companies match. The search is case sensitive, so names must be an exact match. If no existing companies match, you can have the blueprint create them for you. The primary company in the blueprint is mapped to the primary company in your environment, even if they do not have the same name.
 
-![Company Mapping section](assets/blueprints-companymapping-350x101.png)
+![Company Mapping section](assets/Blueprints_CompanyMapping.png)
 
 1. If a company exists, you can choose one of the following options:
 
@@ -213,7 +213,7 @@ Some blueprints include prescribed groups. A group is a group of users that coin
 
 The blueprint searches by the group name to see if any existing groups match. The search is case sensitive, so names must be an exact match. If no existing groups match, you can have the blueprint create them for you.
 
-![Group Mapping section](assets/blueprints-groupmapping-350x225.png)
+![Group Mapping section](assets/Blueprints_GroupMapping.png)
 
 1. If a group exists, you can select **Remap Group** and choose one of the following options:
 
