@@ -103,5 +103,4 @@ All corrupted files are removed within 24 hours of detection unless you remove i
 
 ### File name restrictions {#file-name-restrictions}
 
-Files that are uploaded to Workfront cannot contain certain&nbsp;characters in file names. If a file contains any of the following characters in the file name, the characters are removed from the file name when the file is uploaded:
-<pre>< > { }</pre>
+Files that are uploaded to Workfront cannot contain certain&nbsp;characters in file names. If a file contains any of the following characters in the file name, the characters are removed from the file name when the file is uploaded: `< > { }`
