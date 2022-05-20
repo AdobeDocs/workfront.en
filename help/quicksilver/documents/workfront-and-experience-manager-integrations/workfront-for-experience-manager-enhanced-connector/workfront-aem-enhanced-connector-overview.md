@@ -31,7 +31,6 @@ Workfront for Experience Manage enhanced connector now enables you to:
 
 ## Prerequisites and supported platforms
 
-* Adobe Workfront Classic 
 * the new Adobe Workfront experience 
 * [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-cloud-service.html) 
 * [Adobe Experience Manager 6.5 Assets on-premise](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html) 

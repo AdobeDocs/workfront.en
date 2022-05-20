@@ -207,8 +207,7 @@ Managers have the following permissions:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot delete contacts.&nbsp;</p>
 -->
 
->[!NOTE]
->
+
 ><!--
 ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited.&nbsp;</p>>
 >-->

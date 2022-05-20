@@ -91,7 +91,7 @@ Once you've created a proof, you can do things like
 * Update reviewers and deadlines
 * Edit the workflow
 
-For more information about how to manage an existing proof, see [Manage proofs within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+For more information about how to manage an existing proof, see [Manage proofs within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md).
 
 ## Review a proof
 
@@ -102,4 +102,4 @@ Assigned reviewers can do things like
 * Compare versions
 * Approve or reject the proof
 
-For more information about what you can do with the proofing tool, see [Review proofs within Adobe Workfront](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+For more information about what you can do with the proofing tool, see [Review proofs within Adobe Workfront](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
