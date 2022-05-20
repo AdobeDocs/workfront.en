@@ -28,7 +28,7 @@ For information about how a Workfront administrator creates text fields with for
 <iframe class="vimeo-player_0" src="assets/434818101?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/434818101/35b3eba8f7)
+[Watch a video demonstration of this feature.](https://vimeo.com/434818101/35b3eba8f7)
 
 ## Updated look and feel of several global headers
 
@@ -44,7 +44,7 @@ The Templates link from the Projects area has been removed. You can still access
 <iframe class="vimeo-player_0" src="assets/430816911?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/430816911/6a80ede459)
+[Watch a video demonstration of this feature.](https://vimeo.com/430816911/6a80ede459)
 
 ## New Edit Project box
 
@@ -70,7 +70,7 @@ For information about the new Edit Project box, see [Edit projects](../../../man
 <iframe class="vimeo-player_0" src="assets/430814318?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/430814318/4b5e8e2bbf)
+[Watch a video demonstration of this feature.](https://vimeo.com/430814318/4b5e8e2bbf)
 
 ## New Summary panel and Updates improvements for the documents list
 
@@ -88,7 +88,7 @@ For more information, see [Summary for documents overview](../../../documents/ma
 <iframe class="vimeo-player_0" src="assets/434793918?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/434793918/1fe4743845)
+[Watch a video demonstration of this feature.](https://vimeo.com/434793918/1fe4743845)
 
 ## Improvements in Document Details
 
@@ -109,7 +109,7 @@ For more information, see [Document Details overview](../../../documents/managin
 <iframe class="vimeo-player_0" src="assets/434794293?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/434794293/30304e155f)
+[Watch a video demonstration of this feature.](https://vimeo.com/434794293/30304e155f)
 
 ## For administrators:&nbsp;Set project preferences at the group level
 
@@ -127,7 +127,7 @@ For more information about Group Project Preferences, see [Configure project pre
 <iframe class="vimeo-player_0" src="assets/437230282?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/437230282/35f0020656)
+[Watch a video demonstration of this feature.](https://vimeo.com/437230282/35f0020656)
 
 ## New for administrators: Create Custom Form fields where users can format text
 
@@ -139,7 +139,7 @@ For more information, see Create a Custom Form in the new Workfront experience.
 <iframe class="vimeo-player_0" src="assets/430167004?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/430167004/473e27bf55)
+[Watch a video demonstration of this feature.](https://vimeo.com/430167004/473e27bf55)
 
 ## New for administrators: Create both an internal name and a user-facing label for a Custom Form field
 
@@ -153,4 +153,4 @@ For more information, see [Create or edit a custom form](../../../administration
 <iframe class="vimeo-player_0" src="assets/434803095?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/434803095/b6a32d6812) 
+[Watch a video demonstration of this feature.](https://vimeo.com/434803095/b6a32d6812) 

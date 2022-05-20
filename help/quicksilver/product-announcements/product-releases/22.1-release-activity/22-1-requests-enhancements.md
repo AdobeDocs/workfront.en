@@ -41,7 +41,7 @@ For more information, see [Copy and submit requests](../../../manage-work/reques
 <iframe class="vimeo-player_0" src="assets/647433535?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/647433535/32c681ac04)
+[Watch a video demonstration of this feature.](https://vimeo.com/647433535/32c681ac04)
 
 ## Updated Summary panel experience in the Submitted section of the Requests area
 

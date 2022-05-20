@@ -38,4 +38,4 @@ For more information on event filters in the Workfront > Watch events module, se
 <iframe class="vimeo-player_0" src="assets/594670449?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/594670449/76ee783470) 
+[Watch a video demonstration of this feature.](https://vimeo.com/594670449/76ee783470) 

@@ -30,7 +30,7 @@ For more information, see [Navigate the Workload Balancer](../../../resource-mgm
 <iframe class="vimeo-player_0" src="assets/652568021?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/652568021/b50f671736)
+[Watch a video demonstration of this feature.](https://vimeo.com/652568021/b50f671736)
 
 ## Assign work in bulk using the Workload Balancer
 
@@ -48,7 +48,7 @@ For information about the deprecation of the Scheduling tools, see [Deprecation 
 <iframe class="vimeo-player_0" src="assets/652571877?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/652571877/b334c56172)
+[Watch a video demonstration of this feature.](https://vimeo.com/652571877/b334c56172)
 
 ## Override currency when managing job roles
 
@@ -60,4 +60,4 @@ For information, see [Create and manage job roles](../../../administration-and-s
 <iframe class="vimeo-player_0" src="assets/652599823?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/652599823/847eb1bc31) 
+[Watch a video demonstration of this feature.](https://vimeo.com/652599823/847eb1bc31) 

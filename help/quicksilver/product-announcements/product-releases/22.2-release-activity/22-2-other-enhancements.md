@@ -31,7 +31,7 @@ For more information, see [Top navigation bar overview in the new Adobe Workfron
 <iframe class="vimeo-player_0" src="assets/686846367?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/686846367/1a3a08cc4e)
+[Watch a video demonstration of this feature.](https://vimeo.com/686846367/1a3a08cc4e)
 
 ## Redesigned timesheet lists
 
@@ -48,4 +48,4 @@ For more information about creating timesheets using the new lists, see [Create 
 <iframe class="vimeo-player_0" src="assets/686854773?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/686854773/ad09d5d435) 
+[Watch a video demonstration of this feature.](https://vimeo.com/686854773/ad09d5d435) 

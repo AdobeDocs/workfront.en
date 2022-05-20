@@ -36,7 +36,7 @@ For more information on filtering and sorting execution history, see [View a sce
 <iframe class="vimeo-player_0" src="assets/606779136?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/606779136/deaf2e810c)
+[Watch a video demonstration of this feature.](https://vimeo.com/606779136/deaf2e810c)
 
 ## Help links in Fusion now lead to specific articles
 

@@ -29,7 +29,7 @@ For more information, see [Display items in the Work List in the Home area](../.
 <iframe class="vimeo-player_0" src="assets/652578109?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/652578109/1397c75bf3)
+[Watch a video demonstration of this feature.](https://vimeo.com/652578109/1397c75bf3)
 
 ## Add the My Updates area for all licensed users
 
@@ -50,13 +50,13 @@ For more information, see [Use the My Updates area](../../../workfront-basics/us
 <iframe class="vimeo-player_0" src="assets/652562003?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/652562003/e10dfffff3)
+[Watch a video demonstration of this feature.](https://vimeo.com/652562003/e10dfffff3)
 
 <!--WRITER
 <iframe class="vimeo-player_0" src="assets/652564287?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/652564287/a303bc84d7)
+[Watch a video demonstration of this feature.](https://vimeo.com/652564287/a303bc84d7)
 
 ## Improvements to timesheets
 
@@ -78,7 +78,7 @@ For more information, see the following articles:
 <iframe class="vimeo-player_0" src="assets/652558251?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/652558251/3c194ca33a)
+[Watch a video demonstration of this feature.](https://vimeo.com/652558251/3c194ca33a)
 
 ## New toolbar for Users lists
 

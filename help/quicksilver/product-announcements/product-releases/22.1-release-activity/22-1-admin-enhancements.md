@@ -41,7 +41,7 @@ For more information, see [Grant access to teams](../../../administration-and-se
 <iframe class="vimeo-player_0" src="assets/652603175?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/652603175/5693e7dafa)
+[Watch a video demonstration of this feature.](https://vimeo.com/652603175/5693e7dafa)
 
 ## Group mapping now available in blueprints
 
@@ -53,7 +53,7 @@ For more information, see [Configure a blueprint](../../../administration-and-se
 <iframe class="vimeo-player_0" src="assets/652608333?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/652608333/804c3ab1f6)
+[Watch a video demonstration of this feature.](https://vimeo.com/652608333/804c3ab1f6)
 
 ## Styling updates in the Custom Forms area
 
@@ -79,7 +79,7 @@ For more information about creating a calculated custom field, see [Add calculat
 <iframe class="vimeo-player_0" src="assets/652968756?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/652968756/9f99cf0faf)
+[Watch a video demonstration of this feature.](https://vimeo.com/652968756/9f99cf0faf)
 
 ## View audit log information about statuses and companies
 
@@ -106,7 +106,7 @@ For more information, see [Configure a blueprint](../../../administration-and-se
 <iframe class="vimeo-player_0" src="assets/642333705?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/642333705/76d3ed60db)
+[Watch a video demonstration of this feature.](https://vimeo.com/642333705/76d3ed60db)
 
 ## Manage company memberships more easily
 
@@ -122,7 +122,7 @@ For more information, see [Manage company memberships](../../../administration-a
 <iframe class="vimeo-player_0" src="assets/642385873?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/642385873/bda6bec5ce)
+[Watch a video demonstration of this feature.](https://vimeo.com/642385873/bda6bec5ce)
 
 ## Select expressions and fields in the new calculated field window
 
@@ -148,7 +148,7 @@ For information about how a group administrator configures unlocked task and iss
 <iframe class="vimeo-player_0" src="assets/600488692?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/600488692/f2722950ee)
+[Watch a video demonstration of this feature.](https://vimeo.com/600488692/f2722950ee)
 
 ## Select multiple notifications that you want to unlock or re-lock for groups
 
@@ -162,7 +162,7 @@ For more information, see [Unlock or lock configuration of event notifications f
 <iframe class="vimeo-player_0" src="assets/631397855?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/631397855/4f9152ba44)
+[Watch a video demonstration of this feature.](https://vimeo.com/631397855/4f9152ba44)
 
 ## For group administrators: Easier to select a replacement group when you delete a group
 
@@ -177,7 +177,7 @@ For more information, see [Delete a group](../../../administration-and-setup/man
 <iframe class="vimeo-player_0" src="assets/631401157?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/631401157/fc78779cfc)
+[Watch a video demonstration of this feature.](https://vimeo.com/631401157/fc78779cfc)
 
 ## Larger area for creating calculated fields
 
@@ -201,7 +201,7 @@ For information about custom forms, see [Custom forms](../../../administration-a
 <iframe class="vimeo-player_0" src="assets/655513230?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/655513230/51811d7775)
+[Watch a video demonstration of this feature.](https://vimeo.com/655513230/51811d7775)
 
 ## Create OAuth2 apps to integrate applications with Workfront
 

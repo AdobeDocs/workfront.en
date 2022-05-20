@@ -32,7 +32,7 @@ For more information, see the following articles:
 <iframe class="vimeo-player_0" src="assets/534936462?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/534936462/5bc0cd18f2)
+[Watch a video demonstration of this feature.](https://vimeo.com/534936462/5bc0cd18f2)
 
 ## Improvements to creating requests and managing drafts
 
@@ -52,7 +52,7 @@ For information about creating new requests, see [Create and submit Adobe Workfr
 <iframe class="vimeo-player_0" src="assets/534942833?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/534942833/015c804c90)
+[Watch a video demonstration of this feature.](https://vimeo.com/534942833/015c804c90)
 
 This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
 
@@ -72,7 +72,7 @@ As we continue to listen to and incorporate your feedback, we have added several
 <iframe class="vimeo-player_0" src="assets/529398888?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/529398888/a1f8b351d2)
+[Watch a video demonstration of this feature.](https://vimeo.com/529398888/a1f8b351d2)
 
 This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
 
@@ -90,7 +90,7 @@ For information about the submitted requests, see [Locate submitted requests](..
 <iframe class="vimeo-player_0" src="assets/525633302?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/525633302/3a24c51f28)
+[Watch a video demonstration of this feature.](https://vimeo.com/525633302/3a24c51f28)
 
 This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
 
@@ -124,7 +124,7 @@ For information about submitting requests, see [Create and submit Workfront requ
 <iframe class="vimeo-player_0" src="assets/500718803?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/500718803/3cac0e333d)
+[Watch a video demonstration of this feature.](https://vimeo.com/500718803/3cac0e333d)
 
 This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
 
@@ -144,6 +144,6 @@ For information about sharing a link to a request queue when submitting a reques
 <iframe class="vimeo-player_0" src="assets/500718523?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/500718523/bc6600e610)
+[Watch a video demonstration of this feature.](https://vimeo.com/500718523/bc6600e610)
 
 This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.

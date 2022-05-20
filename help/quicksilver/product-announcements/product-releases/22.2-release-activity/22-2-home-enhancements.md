@@ -29,4 +29,4 @@ For more information, see [Display items in the Work List in the Home area](../.
 <iframe class="vimeo-player_0" src="assets/686849626?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/686849626/453a27f3ec) 
+[Watch a video demonstration of this feature.](https://vimeo.com/686849626/453a27f3ec) 

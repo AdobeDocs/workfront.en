@@ -27,7 +27,7 @@ For information about copying a project, see [Copy a project](../../../manage-wo
 <iframe class="vimeo-player_0" src="assets/500530877?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/500530877/958cb9ebec)
+[Watch a video demonstration of this feature.](https://vimeo.com/500530877/958cb9ebec)
 
 This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) learning path on Workfront One.
 
@@ -45,7 +45,7 @@ For information about editing data on a Custom Form, see [Edit information in cu
 <iframe class="vimeo-player_0" src="assets/500509190?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/500509190/dd16c60166)
+[Watch a video demonstration of this feature.](https://vimeo.com/500509190/dd16c60166)
 
 ## Recalculate all Custom Form fields for an object
 
@@ -61,7 +61,7 @@ For more information, see [Edit information in custom form fields](../../../work
 <iframe class="vimeo-player_0" src="assets/486601498?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/486601498/fcd21c5042)
+[Watch a video demonstration of this feature.](https://vimeo.com/486601498/fcd21c5042)
 
 ## Unlock task and issue preferences for Group Administrators
 
@@ -77,7 +77,7 @@ For more information, see [Configure task and issue preferences for a group](../
 <iframe class="vimeo-player_0" src="assets/486598651?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/486598651/5696df879e)
+[Watch a video demonstration of this feature.](https://vimeo.com/486598651/5696df879e)
 
 This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 2: Project Setup](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) learning path on Workfront One.
 
@@ -95,7 +95,7 @@ For information about access settings that you can configure for programs and po
 <iframe class="vimeo-player_0" src="assets/486600620?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/486600620/908d93b6ee)
+[Watch a video demonstration of this feature.](https://vimeo.com/486600620/908d93b6ee)
 
 This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) learning path on Workfront One.
 
@@ -115,7 +115,7 @@ For more information, see [Edit information in custom form fields](../../../work
 <iframe class="vimeo-player_0" src="assets/486602711?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/486602711/b66a6953d2)
+[Watch a video demonstration of this feature.](https://vimeo.com/486602711/b66a6953d2)
 
 ## Configure your Workfront email allowlist
 
@@ -132,7 +132,7 @@ For more information, see the section [Configure your firewall's allowlist](../.
 <iframe class="vimeo-player_0" src="assets/481767348?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode](https://vimeo.com/481767348/e3f72f418e).
+[Watch a video demonstration of this feature](https://vimeo.com/481767348/e3f72f418e).
 
 ## Assign a Group Administrator for a subgroup
 
@@ -146,7 +146,7 @@ For more information, see the section [Group administrators for subgroups](../..
 <iframe class="vimeo-player_0" src="assets/481764187?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode](https://vimeo.com/481764187/855b405a46).
+[Watch a video demonstration of this feature](https://vimeo.com/481764187/855b405a46).
 
 This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) learning path on Workfront One.
 
@@ -169,7 +169,7 @@ For more information, see the following articles:
 <iframe class="vimeo-player_0" src="assets/502703858?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/502703858/b5cd50ed5d)
+[Watch a video demonstration of this feature.](https://vimeo.com/502703858/b5cd50ed5d)
 
 This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) learning path on Workfront One.
 
@@ -193,7 +193,7 @@ This functionality is also available for Workfront administrators.
 <iframe class="vimeo-player_0" src="assets/482726141?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/482726141/a9cf241425)
+[Watch a video demonstration of this feature.](https://vimeo.com/482726141/a9cf241425)
 
 ## View the number of licenses used and allocated in a group
 
@@ -207,4 +207,4 @@ For more information, see [View the number of licenses allocated and used in a g
 <iframe class="vimeo-player_0" src="assets/481775659?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode](https://vimeo.com/481775659/474d71d8ee).
+[Watch a video demonstration of this feature](https://vimeo.com/481775659/474d71d8ee).

@@ -25,4 +25,4 @@ For more information, see [Notifications: Goals](../../../../workfront-basics/us
 <iframe class="vimeo-player_0" src="assets/486872553?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/486872553/4f503f1d66) 
+[Watch a video demonstration of this feature.](https://vimeo.com/486872553/4f503f1d66) 

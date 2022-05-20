@@ -25,4 +25,4 @@ For more information, see [Deactivate job roles](../../../administration-and-set
 <iframe class="vimeo-player_0" src="assets/555728654?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/555728654/ceb3bc26f1) 
+[Watch a video demonstration of this feature.](https://vimeo.com/555728654/ceb3bc26f1) 

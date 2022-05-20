@@ -35,7 +35,7 @@ For information about how a group administrator configures unlocked task and iss
 <iframe class="vimeo-player_0" src="assets/600488692?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/600488692/f2722950ee)
+[Watch a video demonstration of this feature.](https://vimeo.com/600488692/f2722950ee)
 
 ## New for Workfront administrators: Configure layout templates for auto-provisioned users in the new Workfront experience
 
@@ -53,7 +53,7 @@ For information about using reports and views, see [Create a custom report](../.
 <iframe class="vimeo-player_0" src="assets/600493894?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/600493894/16b96b33a5)
+[Watch a video demonstration of this feature.](https://vimeo.com/600493894/16b96b33a5)
 
 ## Blueprints details page now displays an image
 
@@ -77,7 +77,7 @@ For more information, see [Configure a blueprint](../../../administration-and-se
 <iframe class="vimeo-player_0" src="assets/601113312?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/601113312/f4561ecf28)
+[Watch a video demonstration of this feature.](https://vimeo.com/601113312/f4561ecf28)
 
 ## New for group administrators: View and manage a group's recently deleted and restored items
 
@@ -93,7 +93,7 @@ For more information, see [View and manage a group's recently deleted items](../
 <iframe class="vimeo-player_0" src="assets/592790676?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/592790676/ec5e69f70e)
+[Watch a video demonstration of this feature.](https://vimeo.com/592790676/ec5e69f70e)
 
 ## New for group administrators: Group preferences now affect group templates
 
@@ -122,7 +122,7 @@ For more information, see the section How preferences apply to templates and tem
 <iframe class="vimeo-player_0" src="assets/592786526?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/592786526/d1d6ded612)
+[Watch a video demonstration of this feature.](https://vimeo.com/592786526/d1d6ded612)
 
 ## New for administrators: Find out which custom forms are using a custom field
 
@@ -134,7 +134,7 @@ For more information, see [View all custom forms that use a particular custom fi
 <iframe class="vimeo-player_0" src="assets/588949432?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/588949432/c527dc4072)
+[Watch a video demonstration of this feature.](https://vimeo.com/588949432/c527dc4072)
 
 ## New for group administrators: Lock and unlock project, task, and issue preferences for a group
 
@@ -154,7 +154,7 @@ Now you can ensure that everyone in the subgroups below your group is using the 
 <iframe class="vimeo-player_0" src="assets/586020054?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/586020054/00090701bf)
+[Watch a video demonstration of this feature.](https://vimeo.com/586020054/00090701bf)
 
 ## New for group administrators: Create and edit templates from the Groups area
 
@@ -170,7 +170,7 @@ For more information, see [Create and modify a group's project templates](../../
 <iframe class="vimeo-player_0" src="assets/586023814?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/586023814/1f7230e263)
+[Watch a video demonstration of this feature.](https://vimeo.com/586023814/1f7230e263)
 
 ## Enter and save information in one attached custom form at a time
 
@@ -190,7 +190,7 @@ For more information, see [Edit object details in the new Adobe Workfront experi
 <iframe class="vimeo-player_0" src="assets/577660078?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/577660078/70db05b492)
+[Watch a video demonstration of this feature.](https://vimeo.com/577660078/70db05b492)
 
 ## New for group administrators: Create and manage statuses for a group at any level
 
@@ -216,7 +216,7 @@ For more information, see [Manage group statuses](../../../administration-and-se
 <iframe class="vimeo-player_0" src="assets/558294261?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/558294261/ed2ee01b99)
+[Watch a video demonstration of this feature.](https://vimeo.com/558294261/ed2ee01b99)
 
 ## New for Workfront administrators: Migrate layout templates from Workfront Classic to the new Workfront experience on your own
 
@@ -234,7 +234,7 @@ For more information, see [Migrate your layout templates to the new Adobe Workfr
 <iframe class="vimeo-player_0" src="assets/574937296?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/574937296/eb4fa79f0c)
+[Watch a video demonstration of this feature.](https://vimeo.com/574937296/eb4fa79f0c)
 
 ## When associating a template with a group, select a group approval process in Queue Details and Queue Topics
 

@@ -53,7 +53,7 @@ For more information, see [Configure timesheet and hour preferences](../../../ad
 <iframe class="vimeo-player_0" src="assets/503072105?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/503072105/3693d605ae)
+[Watch a video demonstration of this feature.](https://vimeo.com/503072105/3693d605ae)
 
 ## Improved filters and views in the Timesheets area
 
@@ -68,7 +68,7 @@ For more information, see [Log time](../../../timesheets/create-and-manage-times
 <iframe class="vimeo-player_0" src="assets/492165497?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/492165497/788e290e2f)
+[Watch a video demonstration of this feature.](https://vimeo.com/492165497/788e290e2f)
 
 ## Hide the overtime box in Timesheets
 
@@ -83,7 +83,7 @@ Previously, you could not hide the overtime box on timesheets.
 <iframe class="vimeo-player_0" src="assets/486452500?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/486452500/3a26bb615b)
+[Watch a video demonstration of this feature.](https://vimeo.com/486452500/3a26bb615b)
 
 ## Expand or collapse items in the breadcrumb navigation
 
@@ -101,7 +101,7 @@ To learn more, see [Breadcrumbs overview in the new Adobe Workfront experience](
 <iframe class="vimeo-player_0" src="assets/498066614?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/498066614/099bb49d44)
+[Watch a video demonstration of this feature.](https://vimeo.com/498066614/099bb49d44)
 
 ## New look and feel to breadcrumb navigation
 
@@ -118,4 +118,4 @@ To learn more about the breadcrumb navigation, see [Breadcrumbs overview in the 
 <iframe class="vimeo-player_0" src="assets/489471468?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/489471468/f4d97efe6a) 
+[Watch a video demonstration of this feature.](https://vimeo.com/489471468/f4d97efe6a) 

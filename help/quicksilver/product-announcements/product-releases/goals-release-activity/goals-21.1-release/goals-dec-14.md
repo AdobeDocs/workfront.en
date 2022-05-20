@@ -25,7 +25,7 @@ For information about aligning goals, see [Align goals by connecting them in Ado
 <iframe class="vimeo-player_0" src="assets/492156053?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/492156053/19a48b8339)
+[Watch a video demonstration of this feature.](https://vimeo.com/492156053/19a48b8339)
 
 ## Updated the color for the Draft status of goals
 

@@ -32,7 +32,7 @@ For more information, see the articles:
 <iframe class="vimeo-player_0" src="assets/655521623?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/655521623/a837f8cefa)
+[Watch a video demonstration of this feature.](https://vimeo.com/655521623/a837f8cefa)
 
 ## Updated toolbar on dashboard list and reports in dashboards
 
@@ -51,7 +51,7 @@ For more information, see [Create and manage dashboards](../../../reports-and-da
 <iframe class="vimeo-player_0" src="assets/655512195?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/655512195/8907676e19)
+[Watch a video demonstration of this feature.](https://vimeo.com/655512195/8907676e19)
 
 ## Add and edit custom forms Summary panel for documents
 
@@ -67,7 +67,7 @@ For more information, see [Summary for documents overview](../../../documents/ma
 <iframe class="vimeo-player_0" src="assets/647362235?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/647362235/d31257c503)
+[Watch a video demonstration of this feature.](https://vimeo.com/647362235/d31257c503)
 
 ## New experience when copying one or multiple tasks
 
@@ -85,7 +85,7 @@ For more information, see [Copy and duplicate tasks](../../../manage-work/tasks/
 <iframe class="vimeo-player_0" src="assets/647381042?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/647381042/d982eec1ce)
+[Watch a video demonstration of this feature.](https://vimeo.com/647381042/d982eec1ce)
 
 ## New experience when moving one or multiple tasks from a list
 
@@ -97,7 +97,7 @@ For more information, see [Move tasks](../../../manage-work/tasks/manage-tasks/m
 <iframe class="vimeo-player_0" src="assets/637948554?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/637948554/8766b69338)
+[Watch a video demonstration of this feature.](https://vimeo.com/637948554/8766b69338)
 
 ## New experience when moving a task at the task level
 
@@ -115,7 +115,7 @@ For more information, see [Move tasks](../../../manage-work/tasks/manage-tasks/m
 <iframe class="vimeo-player_0" src="assets/637948554?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/637948554/8766b69338)
+[Watch a video demonstration of this feature.](https://vimeo.com/637948554/8766b69338)
 
 ## New experience when converting an issue to a project using a template at the issue level
 
@@ -135,7 +135,7 @@ For more information, see [Convert an issue to a project in Adobe Workfront](../
 <iframe class="vimeo-player_0" src="assets/655515076?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/655515076/9eceb34c4b)
+[Watch a video demonstration of this feature.](https://vimeo.com/655515076/9eceb34c4b)
 
 ## Convert issues to projects using a template from lists, reports, and dashboards
 
@@ -153,7 +153,7 @@ For more information, see [Convert an issue to a project in Adobe Workfront](../
 <iframe class="vimeo-player_0" src="assets/655516670?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/655516670/c76c22c044)
+[Watch a video demonstration of this feature.](https://vimeo.com/655516670/c76c22c044)
 
 ## Filter by user list on agile boards shows users with most assignments first
 
@@ -182,7 +182,7 @@ For information about the new advanced setting Add Documents, see the section in
 <iframe class="vimeo-player_0" src="assets/631405681?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/631405681/b1834b7ab6)
+[Watch a video demonstration of this feature.](https://vimeo.com/631405681/b1834b7ab6)
 
 ## Share a document folder
 
@@ -194,4 +194,4 @@ For more information, see [Share a document folder](../../../workfront-basics/gr
 <iframe class="vimeo-player_0" src="assets/655509632?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/655509632/920d3db4fb) 
+[Watch a video demonstration of this feature.](https://vimeo.com/655509632/920d3db4fb) 

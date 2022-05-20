@@ -87,7 +87,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 <iframe class="vimeo-player_0" src="assets/677737747?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/677737747/8fe195bc17)
+[Watch a video demonstration of this feature.](https://vimeo.com/677737747/8fe195bc17)
 
 ## Google G Suite integration now uses OAuth2
 
