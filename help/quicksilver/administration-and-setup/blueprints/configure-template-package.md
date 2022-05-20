@@ -39,8 +39,9 @@ You must have the following access to perform the steps in this article:
 1. Find the blueprint you want to use.
 1. Click Install, then choose an environment:
 
-   | Production  |Production is your live environment.  |
+   | Environment | Description |
    |---|---|
+   | Production  |Production is your live environment.  |
    | Sandbox Preview  |The Sandbox Preview is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront.  |
    | Sandbox 1 & 2  |The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain a Custom Refresh Sandbox. |
 

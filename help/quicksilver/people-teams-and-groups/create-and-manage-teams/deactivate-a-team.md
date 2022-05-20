@@ -3,7 +3,7 @@ filename: deactivate-a-team
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Deactivate a team
-description: You can deactivate teams you no longer use while retaining the associated historical data. Adobe Workfront administrators can reactivate a team at any time from the Teams area in Setup. If you deactivate a team, the team no longer displays in the following areas - EDIT ME.
+description: You can deactivate teams you no longer use while retaining the associated historical data. Adobe Workfront administrators can reactivate a team at any time from the Teams area in Setup.
 ---
 
 # Deactivate a team
@@ -44,11 +44,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Plan</p> </td> 
   </tr> 
  </tbody> 
@@ -72,12 +72,14 @@ When using request queues, if you deactivate a team assigned as the default team
 
    ![](assets/edit-team-settings-350x205.png)
 
-1. Uncheck the ```Is Active``` box.
-1. Click ```Save changes```.
+1. Clear the **Is Active** check box.
+1. Click **Save changes**.
 
 ## Known limitations
 
 Deactivated teams display in the following areas:
 
-* The Owner field in Workfront Goals. This requires an additional license for Adobe Workfront Goals. <!--For more information, see [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).-->
+* The Owner field in Workfront Goals. This requires an additional license for Adobe Workfront Goals.
+
+<!-- For more information, see [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md). -->
 

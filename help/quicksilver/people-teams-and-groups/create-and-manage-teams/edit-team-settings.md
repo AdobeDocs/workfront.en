@@ -3,7 +3,7 @@ filename: edit-team-settings
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Edit team settings
-description: As an Adobe Workfront administrator or a user with a Plan or Work license, you can edit Team Settings.
+description: Workfront administrators and users with a Plan or Work license can edit Team Settings.
 ---
 
 # Edit team settings
@@ -23,11 +23,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -46,12 +46,12 @@ You must have the following access to perform the steps in this article:
    Only team members with either a Plan or Work license see this option.  
    If you should have the Edit option but you do not see it, ask your Workfront administrator to verify that Team Settings is visible in the layout template for Scrum Team, Kanban Team, or Waterfall Team.
 
-   ![](assets/edit-team-settings-adobe-350x154.png)
+   ![](assets/edit-team-settings-1.png)
 
 1. In team settings, you can make the following kinds of changes:
 
    * Modify the team name
-   * Deactivate the team 
+   * Deactivate the team
    * Associate the team with a group
 
      >[!NOTE]
@@ -74,8 +74,8 @@ You must have the following access to perform the steps in this article:
    * Change the Work On It button to a Start button. For more information on how to configure the Start button, see [Replace the Work On It button with a Start button](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Customize the **Done** button. For more information on how to customize the Done button, see:
 
-      * [Configure the Done button for tasks](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) 
-      * [Configure the Done button for issues](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+     * [Configure the Done button for tasks](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) 
+     * [Configure the Done button for issues](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
 
 1. Click **Save Changes**.
 

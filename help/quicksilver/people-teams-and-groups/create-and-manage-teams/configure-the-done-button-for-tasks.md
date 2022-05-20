@@ -8,11 +8,11 @@ description: The Done button can automatically set the status of a task or an is
 
 # Configure the Done button for tasks
 
-The Done button can automatically set the status of a task or an issue. By default, Adobe Workfront&nbsp;marks a task as Completed when an assignee clicks Done on their work item.
+The Done button can automatically set the status of a task or an issue. By default, Adobe Workfront marks a task as Completed when an assignee clicks Done on their work item.
 
 ## Overview
 
-&nbsp;Users with certain permissions can configure the Done button to reflect certain statuses in the system. There are two different ways the Done button works for tasks in Workfront:
+Users with certain permissions can configure the Done button to reflect certain statuses in the system. There are two different ways the Done button works for tasks in Workfront:
 
 * If the user has an assigned Home Team, a Workfront administrator or a user with a Plan license can configure the Done button to reflect certain statuses for team members. See [Configure the Done button for a Team](#configure-the-done-button-for-a-team) in this article.
 * If the user does not have a Home Team assigned, the Done button for tasks is tied to a complete status. There are no configuration options available in this scenario. The Done button automatically defaults to this status.
@@ -28,11 +28,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
  </tbody> 
@@ -56,7 +56,7 @@ You can change which status is applied to the work item with the Done button. Yo
    >
    >Consider the following when selecting statuses for tasks or issues:
    >
-   >* When you select one status for each type of work item, the task or issue status is set to that status when a user clicks Done on their&nbsp;item.&nbsp;If you set multiple statuses for each type of work item, a drop-down menu is added to the Done button and the user must pick a status to change the status on the work item.  
+   >* When you select one status for each type of work item, the task or issue status is set to that status when a user clicks Done on their item. If you set multiple statuses for each type of work item, a drop-down menu is added to the Done button and the user must pick a status to change the status on the work item.  
    >* You can associate only system-level statuses with the Done button. You cannot associate Group-specific statuses with work item statuses.
    >* When a user assigned to the item places the item in the status associated with the Done button, the item displays as Done for that user regardless of whether the status you select is a Completed or Closed status or a working status. 
    >   
@@ -64,13 +64,13 @@ You can change which status is applied to the work item with the Done button. Yo
    >  For example, associating the Done button with In Progress causes the work item to display as Done for the user who changes the status from New to In progress. 
    >   
    >* Issue types are customizable and they might have different names than listed below in your environment.  
-   >  Following&nbsp;are the default tasks and issue types:
+   >  Following are the default tasks and issue types:
    >     
-   >  * Tasks
-   >  * Issue
-   >  * Request
-   >  * Change Order
-   >  * Bug Report
+   > * Tasks
+   > * Issue
+   > * Request
+   > * Change Order
+   > * Bug Report
 
    If the task or issue is assigned to multiple users, you see a "Done with my part" option in the drop-down menu, in addition to the multiple statuses chosen for your team.  
 

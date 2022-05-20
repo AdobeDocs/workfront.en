@@ -3,7 +3,7 @@ filename: work-on-it-button-to-start-button
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Replace the Work On It button with a Start button
-description: Adobe Workfront's default configuration includes a Work On It button for tasks and issues that displays for items that you have been assigned to. When you click Work On It on items assigned to you, you signal to other users that you received the work and acknowledge that you'll work on it. However, the Work On It button doesn't update the task or issue status to signal that work has actually started.
+description: Adobe Workfront's default configuration includes a Work On It button for tasks and issues that displays for items that you have been assigned to.
 ---
 
 # Replace the Work On It button with a Start button
@@ -27,11 +27,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Plan</p> </td> 
   </tr> 
  </tbody> 
@@ -50,7 +50,8 @@ If you have a Plan license, you can configure the Start button for a team in the
 
 >[!NOTE]
 >
->This feature is not currently available in >
+>This feature is not currently available in
+>
 >* The Workfront mobile app
 >* Workfront for Office 365
 >* Workfront email notifications
