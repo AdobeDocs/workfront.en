@@ -119,9 +119,9 @@ You can use both built-in Workfront fields and custom fields that you already cr
 
    A calculation usually starts with an expression, followed by parentheses containing the fields you want to reference when the custom form is attached to an object. For information about the expressions that are available, see [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-   >[!IMPORTANT]
-   >
-   >Each field must use the syntax explained in the section in the section [Syntax required in calculated custom fields](#syntax-required-in-calculated-custom-fields) in this article. Surround each field with curly brackets. When you start typing the name of a field, the system makes suggestions and you can select one to insert it into your calculation.
+   Each field must be surrounded with curly brackets, as explained in the section [Syntax required in calculated custom fields](#syntax-required-in-calculated-custom-fields) in this article. When you start typing the name of a field, the system makes suggestions and you can select one to insert it into your calculation.
+
+   You can reference any type of custom field in a calculation except for two: Text Field with Formatting type and Descriptive Text. For information about the custom field types, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
 
 1. Click in the large text box, then click **Expressions** and **Fields** that are available to add them to your calculation.
 
