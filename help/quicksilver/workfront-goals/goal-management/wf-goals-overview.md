@@ -74,7 +74,7 @@ The following functionality is currently included with Workfront Goals:
 
   For information about Workfront Goals graphs, see [Review graphs to understand goal progress trends in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
-* ```Build goal reports and display goal information in project reports for projects that are associated to goals.``` For information about locating goal information on projects, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+* Build goal reports and display goal information in project reports for projects that are associated to goals. For information about locating goal information on projects, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 &nbsp;
 

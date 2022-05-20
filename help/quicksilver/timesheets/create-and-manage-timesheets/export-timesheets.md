@@ -72,7 +72,7 @@ You must have the following access to perform the steps in this article:
    >   
    >
 
-1. (Optional) Click ```the``` **View** ![](assets/view-icon.png) or **Grouping** ![](assets/grouping.png) ```icons``` to apply a different view or grouping or to create a new one.
+1. (Optional) Click the **View** ![](assets/view-icon.png) or **Grouping** ![](assets/grouping.png) icons to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
@@ -80,7 +80,7 @@ You must have the following access to perform the steps in this article:
    * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
    * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Select the timesheets that you want to export, then click ```the``` **Export** ``` ![](assets/export-38x15.png) icon```.
+1. Select the timesheets that you want to export, then click the **Export**  ![](assets/export-38x15.png) icon.
 
    ![](assets/all-timesheets-list-with-export-button-nwe-350x262.png)
 

@@ -36,11 +36,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td> 
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -56,23 +55,11 @@ Removes all non-ascii characters from a text string.
 
 **Examples:**
 
-* ```ascii(```
-
-  ```
-  Wěošrčkřfžrýoáníté
-  ```
-
-  ```)```
+* `ascii(` `Wěošrčkřfžrýoáníté` `)`
 
   Returns: Workfront
 
-* ```ascii(```
-
-  ```
-  ěščřž
-  ```
-
-  ```;``` [!DNL true] ```)```
+* `ascii(` `ěščřž` `;` `true` `)`
 
   Returns: escrz
 
@@ -80,13 +67,25 @@ Removes all non-ascii characters from a text string.
 
 Transforms text to base64.
 
-**Example:** <pre><span class="function">base64(</span>workfront<span class="function">)</span></pre>Returns: d29ya2Zyb250==  
+**Example:** 
+
+```
+base64( workfront )
+```
+
+Returns: d29ya2Zyb250==  
 
 ## capitalize (text)
 
 Converts the first character in a text string to uppercase.
 
-**Example:** <pre><span class="function">capitalize(</span>workfront<span class="function">)</span></pre>Returns: Workfront  
+**Example:** 
+
+```
+capitalize( workfront )
+```
+
+Returns: Workfront  
 
 ## contains (text; search string)
 
@@ -94,23 +93,11 @@ Verifies whether text contains the search string.
 
 **Examples:**
 
-* ```contains(```
-
-  ```
-  Hello World<span class="function">;</span>Hello
-  ```
-
-  ```)```
+* `contains( Hello World ; Hello )`
 
   Returns: true
 
-* ```contains(```
-
-  ```
-  Hello World<span class="function">;</span>Bye
-  ```
-
-  ```)```
+* `contains( Hello World ; Bye )`
 
   Returns: false
 
@@ -118,7 +105,13 @@ Verifies whether text contains the search string.
 
 Decodes special characters in a URL to text.
 
-**Example:** <pre><span class="function">decodeURL(</span>Automate%20your%20workflow<span class="function">)</span></pre>Returns: Automate your workflow  
+**Example:** 
+
+```
+decodeURL( Automate%20your%20workflow ) 
+```
+
+Returns: Automate your workflow  
 
 ## encodeURL (text)
 
@@ -128,21 +121,25 @@ Encodes special characters in some text to a valid URL address.
 
 Escapes all HTML tags in text.
 
-**Example:** <pre><span class="function">escapeHTML(</span><b>Hello</b><span class="function">)</span></pre>Returns: &lt;b&gt;Hello&lt;/b&gt;  
+**Example:** 
+
+```
+escapeHTML( <b>Hello</b> )
+```
+
+Returns: `&lt;b&gt;Hello&lt;/b&gt;`
 
 ## escapeMarkdown(text)
 
 Escapes all Markdown tags in text.
 
-**Example:** ```escapeMarkdown(```
+**Example:** 
 
 ```
-# Header
+escapeMarkdown( # Header )
 ```
 
-```)```
-
-Returns: &#35; Header
+Returns: `&#35; Header`
 
 ## indexOf (string; value; [start])
 
@@ -150,57 +147,15 @@ Returns the position of the first occurrence of a specified value in a string. T
 
 **Examples:**
 
-* ```indexOf(```
-
-  ```
-  Workfront
-  ```
-
-  ```;```
-
-  ```
-  o
-  ```
-
-  ```)```
+* `indexOf( Workfront ; o )`
 
   Returns: 1
 
-* ```indexOf(```
-
-  ```
-  Workfront
-  ```
-
-  ```;```
-
-  ```
-  x
-  ```
-
-  ```)```
+* `indexOf( Workfront ; x )`
 
   Returns: -1
 
-* ```indexOf(```
-
-  ```
-  Workfront
-  ```
-
-  ```;```
-
-  ```
-  o
-  ```
-
-  ```;```
-
-  ```
-  3
-  ```
-
-  ```)```
+* `indexOf( Workfront ; o ; 3 )`
 
   Returns: 6
 
@@ -208,13 +163,19 @@ Returns the position of the first occurrence of a specified value in a string. T
 
 Returns the length of text string (number of characters) or binary buffer (buffer size in bytes).
 
-**Example:** <pre><span class="function">length(</span>hello<span class="function">)</span></pre>Returns: 5  
+**Example:** 
+
+`length( hello )`  
+
+Returns: 5
 
 ## lower (text)
 
 Converts all alphabetical characters in a text string to lowercase.
 
-**Example:** ```lower(```Hello ```)```
+**Example:** 
+
+`lower( Hello )`
 
 Returns: hello
 
@@ -222,75 +183,48 @@ Returns: hello
 
 Calculates the md5 hash of a string.
 
-**Example:** ```md5(```Workfront ```)```
+**Example:** 
 
-Returns: 1448bbbeaa7a9b8091d426999f1f666b
+`md5( Workfront )`
+
+Returns: `1448bbbeaa7a9b8091d426999f1f666b`
 
 ## replace (text;search string; replacement string)
 
 Replaces the search string with the new string.
 
-**Example:** <pre><span class="function">replace(</span>Hello World<span class="function">;</span>Hello<span class="function">;</span>Hi<span class="function">)</span></pre>Returns: Hi World  Regular expressions (enclosed in
+**Example:** 
 
-```
-/.../
-```
+`replace( Hello World ; Hello ; Hi )`
 
-) can be used as search string with a combination of flags (such as 
+Returns: Hi World  Regular expressions (enclosed in `/.../`) can be used as search string with a combination of flags (such as `g`, `i`, `m`) appended:
 
-```
-g
-```
+**Example:**  
 
-, 
+![](assets/replace---1-350x31.png)
 
-```
-i
-```
+All of these numbers X X X X are replaced with X  
 
-, 
+The replacement string can include the following special replacement patterns:
 
-```
-m
-```
-
-) appended:
-
-**Example:**  ![](assets/replace---1-350x31.png)
-
-All of these numbers X X X X are replaced with X  The replacement string can include the following special replacement patterns:
-
-  ```
-  $&
-  ```
-
-  Inserts the matched substring.
-
-  ```
-  $n
-  ```
-
-  Where n is a positive integer less than 100, inserts the nth parenthesized submatch string. This is 1-indexed.
+* `$&` Inserts the matched substring.
+* `$n` Where n is a positive integer less than 100, inserts the nth parenthesized submatch string. This is 1-indexed.
 
 **Examples:**  
 
 ![](assets/variable-value-350x63.png)
 
-Returns: Phone number +420777111222
+Returns: Phone number `+420777111222`
 
 &nbsp;
 
 ![](assets/variable-value---2-350x55.png)
 
-Returns: Phone number: +420777111222
+Returns: Phone number: `+420777111222`
 
 >[!CAUTION]
 >
->Do not use named capture groups such as >
->```>
->/ is (?<number>\d+)/
->```>
->in the replacement string argument. Doing so results in an error.
+>Do not use named capture groups such as `/ is (?<number>\d+)/` in the replacement string argument. Doing so results in an error.
 
 For more information on regular expressions, see [Text parser](../../workfront-fusion/apps-and-their-modules/text-parser.md).
 
@@ -298,13 +232,23 @@ For more information on regular expressions, see [Text parser](../../workfront-f
 
 Calculates the sha1 hash of a string. If the key argument is specified, sha1 HMAC hash is returned instead. Supported encodings: "hex" (default), "base64" or "latin1."
 
-**Example:** <pre><span class="function">sha1(</span>workfront<span class="function">)</span></pre>Returns: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f  
+**Example:** 
+
+```
+sha1( workfront )
+```
+
+Returns: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f  
 
 ## sha256 (text; [encoding]; [key])
 
 Calculates the sha256 hash of a string. If the key argument is specified, sha256 HMAC hash is returned instead. Supported encodings: "hex" (default), "base64" or "latin1".
 
-**Example:** <pre><span class="function">sha256(</span>workfront<span class="function">)</span></pre>Returns: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc  
+```
+sha256( workfront )
+```
+
+Returns: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc  
 
 ## sha512 (text; [output encoding]; [key]; [key encoding])
 
@@ -324,25 +268,33 @@ Supported key encodings:
 
 When using "binary" key encoding, a key must be a buffer, not a string.
 
-**Example:** <pre><span class="function">sha512(</span>workfront<span class="function">)</span></pre>Returns: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19  
+**Example:** 
+
+```
+sha512(workfront)
+```
+
+Returns: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19  
 
 ## split (text; separator)
 
 Splits a string into an array of strings by separating the string into substrings.
 
-**Example:** <pre><span class="function">split(</span>John, George, Paul<span class="function">;</span>,<span class="function">)</span></pre>
+**Example:** 
+
+```
+split( John, George, Paul ; , )
+```
 
 ## startcase (text)
 
 Capitalizes the first letter of every word and lower cases all other letters.
 
-**Example:** ```startcase(```
+**Example:** 
 
 ```
-hello WORLD
+startcase( hello WORLD )
 ```
-
-```)```
 
 Returns: Hello World
 
@@ -350,13 +302,11 @@ Returns: Hello World
 
 Removes all HTML tags from text.
 
-**Example:** ```stripHTML(```
+**Example:** 
 
 ```
-<b>Hello</b>
+stripHTML( <b>Hello</b> )
 ```
-
-```)```
 
 Returns: Hello
 
@@ -366,23 +316,11 @@ Returns a portion of a text string between the "start" position and "end" positi
 
 **Examples:**
 
-* ```substring(```
-
-  ```
-  Hello<span class="function">;</span>0<span class="function">;</span>3
-  ```
-
-  ```)```
+* `substring( Hello ; 0 ; 3)`
 
   Returns: Hel
 
-* ```substring(```
-
-  ```
-  Hello<span class="function">;</span>1<span class="function">;</span>3
-  ```
-
-  ```)```
+* `substring( Hello ; 1 ; 3 )`
 
   Returns: el
 
@@ -394,27 +332,11 @@ You can also specify encoding as a second argument to apply binary conversions f
 
 **Examples:**
 
-* ```toBinary(```
-
-  ```
-  Workfront
-  ```
-
-  ```)```
+* `toBinary( Workfront )`
 
   Returns: 57 6f 72 6b 66 72 6f 6e 74
 
-* ```toBinary(```
-
-  ```
-  V29ya2Zyb250<span class="function">;</span>
-  ```
-
-  ```
-  base64
-  ```
-
-  ```)```
+* `toBinary( V29ya2Zyb250 ; base64 )`
 
   Returns: 57 6f 72 6b 66 72 6f 6e 74
 
@@ -430,12 +352,10 @@ Removes space characters at the start or end of the text.
 
 Converts all alphabetical characters in a text string to uppercase.
 
-**Example:** ```upper(```
+**Example:** 
 
 ```
-Hello
+upper( Hello )
 ```
-
-```)```
 
 Returns: HELLO

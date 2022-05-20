@@ -54,7 +54,7 @@ This article describes how to use the filters in the Home area to view items tha
 
    ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
-1. Click either or both of the following options ```for tasks```:
+1. Click either or both of the following options for tasks:
 
    **Ready to Start:** Displays only tasks and issues that are ready to start. Both of the following statements must be true:
 
@@ -66,7 +66,7 @@ This article describes how to use the filters in the Home area to view items tha
    * The tasks and their parents might have predecessors or task constraints that prevent them from being worked on.
    * The tasks or issues have a Planned Start Date that is more than two weeks in the future.
 
-1. Click **Working On** ```under Tasks or Issues``` to display tasks and issues that you are currently working on. 
+1. Click **Working On** under Tasks or Issues to display tasks and issues that you are currently working on. 
 1. Click **Requested** under Issues to display issues that have been requested from you (you are assigned to them), but you have not accepted to work on yet.
 
 ## Access a team request

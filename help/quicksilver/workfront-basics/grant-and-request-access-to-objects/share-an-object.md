@@ -40,9 +40,9 @@ For information about how to share all other objects in Workfront, also see the 
 
 * For filters, views, and groupings, see [Share a filter, view, or grouping](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 * For document folders, see [Share a document folder](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
-* ```For plans, see [Share a plan in the Scenario Planner](../../scenario-planner/share-a-plan.md).```
+* For plans, see [Share a plan in the Scenario Planner](../../scenario-planner/share-a-plan.md).
 
-  ```This requires an additional license.``` 
+  This requires an additional license. 
 
 * For goals, see [Share a goal in Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md). This requires an additional license.
 
@@ -80,7 +80,7 @@ You must have the following to share objects:
 1. Go to the object you want to share.
 
    For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-1. ```C```lick the **More** icon ![](assets/more-icon.png)next to the object name, then click&nbsp;**Sharing** or**Share.**
+1. Click the **More** icon ![](assets/more-icon.png)next to the object name, then click&nbsp;**Sharing** or**Share.**
 
    ![](assets/share-a-document-350x160.png)
 
@@ -90,7 +90,7 @@ You must have the following to share objects:
 
    >[!TIP]
    >
-   >You can share an object only with active users, teams, ```roles,``` or companies.
+   >You can share an object only with active users, teams, roles, or companies.
 
    ![](assets/nwe-project-sharing-modal-350x456.png)
 

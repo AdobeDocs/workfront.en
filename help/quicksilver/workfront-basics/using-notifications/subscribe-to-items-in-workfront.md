@@ -66,20 +66,10 @@ For example, to subscribe to an issue:
 
    >[!TIP]
    >
-   >
-   >
-   ><!--   >
-   ><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> this tip is for QS only </p>   >
-   >-->   >
-   >
    >To subscribe to projects, you can do one of the following:
    >
-   >   
-   >   
-   >   * Go to the project you want to subscribe to, click the **More** icon ![](assets/qs-more-menu.png) to the right of the project name, then **Subscribe**.
-   >   * ```Go to a project list or report and select a project, click the **More** icon ![](assets/qs-more-menu.png) at the top of the list, then click **Subscribe**. This is available only in a list of projects.``` 
-   >   
-   >
+   >* Go to the project you want to subscribe to, click the **More** icon ![](assets/qs-more-menu.png) to the right of the project name, then **Subscribe**.
+   >* Go to a project list or report and select a project, click the **More** icon ![](assets/qs-more-menu.png) at the top of the list, then click **Subscribe**. This is available only in a list of projects. 
 
 1. Click **More** ![](assets/more-icon.png), then click **Subscribe**.
 
@@ -103,20 +93,10 @@ For example, to unsubscribe from&nbsp;an issue:
 
    >[!TIP]
    >
-   >
-   >
-   ><!--   >
-   ><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">this top is for QS only</p>   >
-   >-->   >
-   >
    >To unsubscribe to projects, you can do one of the following:
    >
-   >   
-   >   
-   >   * Go to the project you want to unsubscribe from, click the **More** icon ![](assets/qs-more-menu.png) to the right of the project name, then **Unsubscribe**.
-   >   * ```Go to a project list or report and select a project, click the **More** icon ![](assets/qs-more-menu.png) at the top of the list, then click **Unsubscribe**. This is available only in a list of projects.``` 
-   >   
-   >
+   >* Go to the project you want to unsubscribe from, click the **More** icon ![](assets/qs-more-menu.png) to the right of the project name, then **Unsubscribe**.
+   >* Go to a project list or report and select a project, click the **More** icon ![](assets/qs-more-menu.png) at the top of the list, then click **Unsubscribe**. This is available only in a list of projects. 
 
 1. Click **More** ![](assets/more-icon.png), then click **Unsubscribe**.
 
@@ -181,26 +161,13 @@ When someone adds a comment to the Updates tab of the item, the subscriber recei
 
    >[!TIP]
    >
-   >
-   >
-   ><!--   >
-   ><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">this tip is for QS only</p>   >
-   >-->   >
-   >
    >To unsubscribe another user to projects, you can do one of the following:
    >
+   >1. Go to the project you want to unsubscribe others from
    >   
+   >   Or
    >   
-   >   1. Go to the project you want to unsubscribe others from
-   >   
-   >   
-   >      Or
-   >   
-   >   
-   >      ```Go to a project list or report and select a project.``` 
-   >   
-   >   
-   >
+   >1. Go to a project list or report and select a project. 
 
 1. Click **More** ![](assets/more-icon.png).
 1. Click the number bubble next to the&nbsp; or **Subscribe** or**Unsubscribe** link.

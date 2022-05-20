@@ -60,23 +60,11 @@ Returns the smallest integer greater than or equal to a specified number.
 
 **Examples:** 
 
-* ```ceil(```
-
-  ```
-  1.2
-  ```
-
-  ```)```
+* `ceil(` `1.2` `)`
 
   Returns 2
 
-* ```ceil(```
-
-  ```
-  4
-  ```
-
-  ```)```
+* `ceil(` `4` `)`
 
   Returns 4
 
@@ -86,33 +74,15 @@ Returns the largest integer less than or equal to a specified number.
 
 **Examples:** 
 
-* ```floor(```
-
-  ```
-  1.2
-  ```
-
-  ```)```
+* `floor(` `1.2` `)`
 
   Returns 1
 
-* ```floor(```
-
-  ```
-  1.9
-  ```
-
-  ```)```
+* `floor(` `1.9` `)`
 
   Returns 1
 
-* ```floor(```
-
-  ```
-  4
-  ```
-
-  ```)```
+* `floor(` `4` `)`
 
   Returns 4
 
@@ -120,13 +90,9 @@ Returns the largest integer less than or equal to a specified number.
 
 Returns a number in requested format. By default, the decimal point is a comma (,) and the thousands separator is a period (.).
 
-**Example:** ```formatNumber(```
+**Example:** 
 
-```
-123456789<span class="function">;</span>3<span class="function">;</span>,<span class="function">;</span>.
-```
-
-```)```
+`formatNumber( 123456789 ; 3 ; , ; . )`
 
 Returns 123.456.789,000
 
@@ -148,43 +114,19 @@ Rounds a numeric value to the nearest integer.
 
 **Examples:** 
 
-* ```round(```
-
-  ```
-  1.2
-  ```
-
-  ```)```
+* `round(` `1.2` `)`
 
   Returns 1
 
-* ```round(```
-
-  ```
-  1.5
-  ```
-
-  ```)```
+* `round(` `1.5` `)`
 
   Returns 2
 
-* ```round(```
-
-  ```
-  1.7
-  ```
-
-  ```)```
+* `round(` `1.7` `)`
 
   Returns 2
 
-* ```round(```
-
-  ```
-  2
-  ```
-
-  ```)```
+* `round(` `2` `)`
 
   Returns 2
 
