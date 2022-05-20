@@ -139,5 +139,5 @@ You can&nbsp;add any custom devices to your system, allowing users to review int
 For more information, see [Change interactive proof resolution in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
 
 1. From Workfront, access the Workfront Proof interface, as described in [Access Workfront Proof from Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
-1. Modify the Desktop Proofing Viewer settings, as described in [Configure custom devices for proofs](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs) in the article [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).****
+1. Modify the Desktop Proofing Viewer settings, as described in [Configure custom devices for proofs](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs) in the article [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 

@@ -6,7 +6,7 @@ title: Request a Document
 description: You can request a document on any object that supports Documents.
 ---
 
-# Request a Document
+# Request a document
 
 You can request a document on any object that supports Documents.
 
@@ -34,6 +34,8 @@ You must have the following:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+## Requst a document
 
 1. Go to the area where you want the document you are requesting to reside.
 1. Click the **Documents**&nbsp;tab.&nbsp;

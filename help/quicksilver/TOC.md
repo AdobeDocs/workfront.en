@@ -499,7 +499,7 @@ user-guide-description: Workfront
     * Configure proofing functionality {#configure-proofing}
       * [Configure proofing](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [Proof settings](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
-      * [Workfront and Workfront Proof](administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
+      * [User sync between Workfront and Workfront Proof](administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
       * [Access to proofing](administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
       * [Desktop Proofing Viewer](administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
       * [Proofing roles](administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)

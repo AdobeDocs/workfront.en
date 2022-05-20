@@ -67,7 +67,7 @@ You must have the following:
 ## Use the More menu to add a new version
 
 1. Select the document where you want to add a new version. 
-1. Click **Add New** > **Version** .
+1. Click **Add New** > **Version**.
 
    ![](assets/add-new-version-350x185.png)
 

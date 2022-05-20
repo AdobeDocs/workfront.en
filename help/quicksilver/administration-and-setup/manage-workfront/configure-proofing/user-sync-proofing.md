@@ -30,7 +30,7 @@ User information is synchronized from Workfront to Workfront Proof in the follow
 
 Depending on whether a user with the same email address exists in Workfront Proof, either of the following occurs:
 
-* **If no user with a matching email exists in Workfront Proof and ... :**&nbsp;
+* **If no user with a matching email exists in Workfront Proof and**&nbsp;
 
    * **Proofing is enabled for the user:** The user is created as a User in Workfront Proof.
    * **Proofing is not enabled for the user:** The user is created as a Contact in Workfront Proof.

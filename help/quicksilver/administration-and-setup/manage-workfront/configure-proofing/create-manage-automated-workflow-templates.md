@@ -82,7 +82,7 @@ You must have the following:
         <p>Warning: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof. <!--
           <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Test this. Andrzej thinks it's wrong info or a bug.</span>
          --><br></p>
-       --> </td> 
+      </td> 
      </tr> 
     </tbody> 
    </table>
