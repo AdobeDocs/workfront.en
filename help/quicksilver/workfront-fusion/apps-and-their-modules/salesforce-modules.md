@@ -46,15 +46,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-    </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -125,10 +117,6 @@ When you are configuring this module, the following fields display.
 
 This trigger module executes a scenario when someone sends a message. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-<!--
-<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Is this correct?</span>
--->
-
 This module requires some extra setup:
 
 1. Go to the Salesforce setup page.
@@ -146,41 +134,14 @@ This module requires some extra setup:
 
 1. Specify name, description, Endpoint URL, and fields you want to include in the new outbound message, then click **Save**.
 
-   The **Endpoint URL** field contains the URL provided on the Salesforce Outbound Message 
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   card
-   </MadCap:conditionalText>
-   -->
-
-   in Workfront Fusion.
+   The **Endpoint URL** field contains the URL provided on the Salesforce Outbound Message in Workfront Fusion.
 
 1. Configure a scenario beginning with the Outbound Message event. 
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   card
-   </MadCap:conditionalText>
-   -->
 
 1. Click the **</>** icon in the bottom right and copy the provided URL.
 1. Return to the **Workflow Rules** page, locate the newly created rule, then click **Activate**.
 
 When you are configuring this module, the following fields display.
-
-<!--
-<table data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection</td>
-<td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td>
-</tr>
-</tbody>
-</table>
--->
 
 <table> 
  <col> 
@@ -230,10 +191,6 @@ This trigger module starts a scenario when a field is updated in Salesforce.
 
 ### Actions {#actions}
 
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#create-a-record-static-fields" class="MCXref xref">Create a Record (Static Fields)</a> </li>
-  -->
-
 * [Create a Record](#create-a-record) 
 * [Read a Record](#read-a-record) 
 * [Delete a Record](#delete-a-record) 
@@ -241,35 +198,9 @@ This trigger module starts a scenario when a field is updated in Salesforce.
 * [Upload Attachment/Document](#upload-attachment-document) 
 * [Download Attachment/Document](#download-attachment-document)
 
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#update-a-record-static-fields" class="MCXref xref">Update a Record (Static Fields)</a> </li>
-  -->
 
 * [Create a Record](#create-a-record)
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4 id="create-a-record-static-fields">Create a Record (Static Fields)</h4>
-<p>This action module creates a new record in an object.</p>
-<p>You specify the type of record.</p>
-<p>The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
-<p>When you are configuring this module, the following fields display.</p>
-<table>
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection</td>
-<td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td>
-</tr>
-<tr>
-<td> <p>Record Type </p> </td>
-<td> <p>Select the type of Salesforce record that you want the module to create. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td>
-</tr>
-</tbody>
-</table>
-</div>
--->
 
 #### Create a Record  {#create-a-record}
 
@@ -310,7 +241,6 @@ The module returns the ID of the record and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<!--
 <table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
@@ -333,7 +263,6 @@ When you are configuring this module, the following fields display.
   </tr> 
  </tbody> 
 </table>
--->
 
 #### Delete a Record {#delete-a-record}
 
@@ -378,8 +307,6 @@ The module returns the following:
 * **Body** (object): Depending on the HTTP request you chose when configuring the module, you may receive some data back. That data, such as the data from a GET request, is contained in this object.
 
 When you are configuring this module, the following fields display.
-
-<!--WRITER - check to see if this renders-->
 
 <table> 
  <col> 
@@ -474,7 +401,6 @@ The module returns the ID of the  attachment or document and any associated fiel
 
 When you are configuring this module, the following fields display.
 
-<!--
 <table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
@@ -498,40 +424,7 @@ When you are configuring this module, the following fields display.
   </tr> 
  </tbody> 
 </table>
--->
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4 id="update-a-record-static-fields">Update a Record
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(Static Fields)
-</MadCap:conditionalText>
-</h4>
-<p>This action module edits a record in an object.</p>
-<p>You specify the ID of the record.</p>
-<p>The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
-<p>When you are configuring this module, the following fields display.</p>
-<table>
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection</td>
-<td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td>
-</tr>
-<tr>
-<td>ID</td>
-<td>Enter or map the unique Salesforce ID of the record that you want the module to update.<p>To get the ID, open the Salesforce object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/<object ID></code></p></td>
-</tr>
-<tr>
-<td>Record Type </td>
-<td> <p>Select the type of Salesforce record that you want the module to [action].update. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td>
-</tr>
-</tbody>
-</table>
-<p>See also the information about working with records in the Salesforce REST API Developer Guide.</p>
-</div>
--->
 
 #### Update a Record
 

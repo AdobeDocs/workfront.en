@@ -11,7 +11,6 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # HTTP > Make a Basic Authorization request module
 
-Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 This Adobe Workfront Fusion module enables you to configure an HTTP request with HTTP basic authorization and submit it to a server. The received HTTP response is then contained in the output bundle.
 
 ## Access requirements
@@ -37,15 +36,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
+  </tr> 
   --> 
  </tbody> 
 </table>

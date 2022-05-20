@@ -60,8 +60,6 @@ For more information, see [Date](../../workfront-fusion/mapping/item-data-types.
 
 ### Parameters
 
-<!-- WRITER Check for wonky stuff in this article -->
-
 <table> 
  <col> 
  <col> 
@@ -98,55 +96,25 @@ For more information, see [Date](../../workfront-fusion/mapping/item-data-types.
 
 The formatDate function returns a text representation of the given Date value according to the specified format and timezone. The data type is Text.
 
-**Examples:** The Scenario and Web timezone were both set to `Europe/Prague` in these examples.
-
-![](assets/date&time-functions-examples-350x61.png)
-
-* ```formatDate(``` ```1. Date created``` ```;```
-
-  ```
-  MM/DD/YYYY
-  ```
-
-  ```)```
-
-  Returns 10/01/2018
-
-* ```formatDate(``` ```1. Date created``` ```;```
-
-  ```
-  YYYY-MM-DD hh:mm A
-  ```
-
-  ```)```
-
-  Returns 2018-10-01 09:32 AM
-
-* ```formatDate(``` ```1. Date created``` ```;```
-
-  ```
-  DD.MM.YYYY HH:mm
-  ```
-
-  ```;```
-
-  ```
-  UTC
-  ```
-
-  ```)```
-
-  Returns 01.10.2018 07:32
-
-* ```formatDate(``` ```now``` ```;```
-
-  ```
-  DD.MM.YYYY HH:mm
-  ```
-
-  ```)```
-
-  Returns 19.03.2019 15:30
+>**Examples:** The Scenario and Web timezone were both set to `Europe/Prague` in these examples.
+>
+>![](assets/date&time-functions-examples-350x61.png)
+>
+>* `formatDate(1. Date created;MM/DD/YYYY)`
+>
+>    Returns 10/01/2018
+>
+>* `formatDate(1. Date created; YYYY-MM-DD hh:mm A)`
+>
+>   Returns 2018-10-01 09:32 AM
+>
+>* `formatDate(1. Date created;DD.MM.YYYY HH:mm;UTC)`
+>
+>    Returns 01.10.2018 07:32
+>
+>* `formatDate(now;DD.MM.YYYY HH:mm)`
+>
+>    Returns 19.03.2019 15:30
 
 ## parseDate (text; format; [timezone])
 
@@ -192,297 +160,107 @@ The second column indicates the expected type. If different type is provided, [T
 
 This function converts a text string to a date, according to the format and timezone that you specify. The data type of the value is Date.
 
-**Examples:** In the following examples, the returned Date value is expressed according to ISO 8601, but the data type of the result is Date.
-
-* ```parseDate(```
-
-  ```
-  2016-12-28
-  ```
-
-  ```;```
-
-  ```
-  YYYY-MM-DD
-  ```
-
-  ```)```
-
-  Returns 2016-12-28T00:00:00.000Z
-
-* ```parseDate(```
-
-  ```
-  2016-12-28 16:03
-  ```
-
-  ```;```
-
-  ```
-  YYYY-MM-DD HH:mm
-  ```
-
-  ```)```
-
-  Returns 2016-12-28T16:03:00.000Z
-
-* ```parseDate(```
-
-  ```
-  2016-12-28 04:03 pm
-  ```
-
-  ```;```
-
-  ```
-  YYYY-MM-DD hh:mm a
-  ```
-
-  ```)```
-
-  Returns 2016-12-28T16:03:06.000Z
-
-* ```parseDate(```
-
-  ```
-  1482940986
-  ```
-
-  ```;```
-
-  ```
-  X
-  ```
-
-  ```)```
-
-  Returns 2016-12-28T16:03:06.000Z
+>**Examples:** In the following examples, the returned Date value is expressed according to ISO 8601, but the data type of the result is Date.
+>
+>* `parseDate(2016-12-28;YYYY-MM-DD)`
+>
+>    Returns 2016-12-28T00:00:00.000Z
+>
+>* `parseDate(2016-12-28 16:03;YYYY-MM-DD HH:mm)`
+>
+>    Returns 2016-12-28T16:03:00.000Z
+>
+>* `parseDate(2016-12-28 04:03 pm; YYYY-MM-DD hh:mm a)`
+>
+>    Returns 2016-12-28T16:03:06.000Z
+>
+>*   `parseDate(1482940986;X)`
+>
+>  Returns 2016-12-28T16:03:06.000Z
 
 ## addDays (date; number) {#adddays-date-number}
 
 Returns a new date as a result of adding a given number of days to a date. To subtract days, enter a negative number.
 
-**Examples:**
-
-  ```
-  <span class="function">addDays(</span>2016-12-08T15:55:57.536Z
-  ```
-
-  ```;```
-
-  ```
-  2
-  ```
-
-  ```)```
-
-  Returns 2016-12-10T15:55:57.536Z
-
-* ```addDays(```
-
-  ```
-  2016-12-08T15:55:57.536Z
-  ```
-
-  ```;```
-
-  ```
-  -2
-  ```
-
-  ```)```&nbsp;
-
-  Returns 2016-12-6T15:55:57.536Z
+>**Examples:**
+>
+>*  `addDays(2016-12-08T15:55:57.536Z;2)`
+>
+>    Returns 2016-12-10T15:55:57.536Z
+>
+>* `addDays(2016-12-08T15:55:57.536Z;-2)`
+>
+>    Returns 2016-12-6T15:55:57.536Z
 
 ## addHours (date; number) {#addhours-date-number}
 
 Returns a new date as a result of adding a given number of hours to a date. To subtract hours, enter a negative number.
 
-**Examples:**
-
-* ```addHours(```
-
-  ```
-  2016-12-08T15:55:57.536Z
-  ```
-
-  ```;```
-
-  ```
-  2
-  ```
-
-  ```)```
-
-  Returns 2016-12-08T17:55:57.536Z
-
-* ```addHours(```
-
-  ```
-  2016-12-08T15:55:57.536Z
-  ```
-
-  ```;```
-
-  ```
-  -2
-  ```
-
-  ```)```&nbsp;
-
-  Returns 2016-12-08T13:55:57.536Z
+>**Examples:**
+>
+>* `addHours(2016-12-08T15:55:57.536Z; 2)`
+>
+>    Returns 2016-12-08T17:55:57.536Z
+>
+>* `addHours(2016-12-08T15:55:57.536Z;-2)`
+>
+>    Returns 2016-12-08T13:55:57.536Z
 
 ## addMinutes (date; number) {#addminutes-date-number}
 
 Returns a new date as a result of adding a given number of minutes to a date. To subtract minutes, enter a negative number.
 
-**Examples:**
-
-* ```addMinutes(```
-
-  ```
-  2016-12-08T15:55:57.536Z
-  ```
-
-  ```;```
-
-  ```
-  2
-  ```
-
-  ```)```
-
-  Returns 2016-12-08T15:57:57.536Z
-
-* ```addMinutes(```
-
-  ```
-  2016-12-08T15:55:57.536Z
-  ```
-
-  ```;```
-
-  ```
-  -2
-  ```
-
-  ```)```&nbsp;
-
-  Returns 2016-12-08T15:53:57.536Z
+>**Examples:**
+>
+>* `addMinutes(2016-12-08T15:55:57.536Z;2)`
+>
+>    Returns 2016-12-08T15:57:57.536Z
+>
+>* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
+>
+>    Returns 2016-12-08T15:53:57.536Z
 
 ## addMonths (date; number)
 
 Returns a new date as a result of adding a given number of months to a date. To subtract months, enter a negative number.
 
-**Examples:**
-
-* ```addMonths(```
-
-  ```
-  2016-08-08T15:55:57.536Z
-  ```
-
-  ```;```
-
-  ```
-  2
-  ```
-
-  ```)```
-
-  Returns 2016-10-08T15:55:57.536Z
-
-* ```addMonths(```
-
-  ```
-  2016-08-08T15:55:57.536Z
-  ```
-
-  ```;```
-
-  ```
-  -2
-  ```
-
-  ```)```&nbsp;
-
-  Returns 2016-06-08T15:55:57.536Z
+>**Examples:**
+>
+>* `addMonths(2016-08-08T15:55:57.536Z;2)`
+>
+>    Returns 2016-10-08T15:55:57.536Z
+>
+>* `addMonths(2016-08-08T15:55:57.536Z;-2)`
+>
+>    Returns 2016-06-08T15:55:57.536Z
 
 ## addSeconds (date; number) {#addseconds-date-number}
 
 Returns a new date as a result of adding a given number of seconds to a date. To subtract seconds, enter a negative number.
 
-**Examples:**
-
-* ```addSeconds(```
-
-  ```
-  2016-12-08T15:55:57.536Z
-  ```
-
-  ```;```
-
-  ```
-  2
-  ```
-
-  ```)```
-
-  Returns 2016-12-08T15:55:59.536Z
-
-* ```addSeconds(```
-
-  ```
-  2016-12-08T15:55:57.536Z
-  ```
-
-  ```;```
-
-  ```
-  -2
-  ```
-
-  ```)```&nbsp;
-
-  Returns 2016-12-08T15:55:55.536Z
+>**Examples:**
+>
+>* `addSeconds(2016-12-08T15:55:57.536Z;2)`
+>
+>   Returns 2016-12-08T15:55:59.536Z
+>
+>* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
+>
+>   Returns 2016-12-08T15:55:55.536Z
 
 ## addYears (date; number)
 
 Returns a new date as a result of adding a given number of years to a date. To subtract years, enter a negative number.
 
-**Examples:**
-
-* ```addYears(```
-
-  ```
-  2016-08-08T15:55:57.536Z
-  ```
-
-  ```;```
-
-  ```
-  2
-  ```
-
-  ```)```
-
-  Returns 2018-08-08T15:55:57.536Z
-
-* ```addYears(```
-
-  ```
-  2016-12-08T15:55:57.536Z
-  ```
-
-  ```;```
-
-  ```
-  -2
-  ```
-
-  ```)```&nbsp;
-
-  Returns 2014-08-08T15:55:57.536Z
+>**Examples:**
+>
+>* `addYears(2016-08-08T15:55:57.536Z;2)`
+>
+>    Returns 2018-08-08T15:55:57.536Z
+>
+>* `addYears(2016-12-08T15:55:57.536Z; -2)`
+>
+>    Returns 2014-08-08T15:55:57.536Z
 
 ## setSecond (date; number)
 
@@ -492,39 +270,15 @@ Specify a number from 0 to 59. If the number is outside of that range, the funct
 
 If you need to specify a number outside the range, we recommend that you use addSeconds, as described above in the section [addSeconds (date; number)](#addseconds-date-number).
 
-**Examples:**
-
-* ```setSecond(```
-
-  ```
-  2015-10-07T11:36:39.138Z
-  ```
-
-  ```;```
-
-  ```
-  10
-  ```
-
-  ```)```
-
-  Returns 2015-10-07T11:36:10.138Z
-
-* ```setSecond(```
-
-  ```
-  2015-10-07T11:36:39.138Z
-  ```
-
-  ```;```
-
-  ```
-  61
-  ```
-
-  ```)```&nbsp;
-
-  Returns 2015-10-07T11:37:01.138Z
+>**Examples:**
+>
+>* `setSecond(2015-10-07T11:36:39.138Z;10)`
+>
+>    Returns 2015-10-07T11:36:10.138Z
+>
+>* `setSecond(2015-10-07T11:36:39.138Z; 6)`
+>
+>    Returns 2015-10-07T11:37:01.138Z
 
 ## setMinute (date; number)
 
@@ -534,39 +288,15 @@ Specify a number from 0 to 59. If the number is outside of that range, the funct
 
 If you need to specify a number outside the range, we recommend that you use addMinutes, as described above in [addMinutes (date; number)](#addminutes-date-number). 
 
-**Examples:**
-
-* ```setMinute(```
-
-  ```
-  2015-10-07T11:36:39.138Z
-  ```
-
-  ```;```
-
-  ```
-  10
-  ```
-
-  ```)```
-
-  Returns 2015-10-07T11:10:39.138Z
-
-* ```setMinute(```
-
-  ```
-  2015-10-07T11:36:39.138Z
-  ```
-
-  ```;```
-
-  ```
-  61
-  ```
-
-  ```)```&nbsp;
-
-  Returns 2015-10-07T12:01:39.138Z
+>**Examples:**
+>
+>* `setMinute(2015-10-07T11:36:39.138Z;10)`
+>
+>    Returns 2015-10-07T11:10:39.138Z
+>
+>* `setMinute(2015-10-07T11:36:39.138Z;61)`
+>
+>    Returns 2015-10-07T12:01:39.138Z
 
 ## setHour (date; number)
 
@@ -576,39 +306,15 @@ Specify a number from 0 to 23. If the number is outside this range, the function
 
 If you need to specify a number outside the range, we recommend that you use addHours, as described above in [addHours (date; number)](#addhours-date-number). 
 
-**Examples:**
-
-* ```setHour(```
-
-  ```
-  2015-08-07T11:36:39.138Z
-  ```
-
-  ```;```
-
-  ```
-  6
-  ```
-
-  ```)```
-
-  Returns 2015-08-07T06:36:39.138Z
-
-* ```setHour(```
-
-  ```
-  2015-08-07T11:36:39.138Z
-  ```
-
-  ```;```
-
-  ```
-  -6
-  ```
-
-  ```)```&nbsp;
-
-  Returns 2015-08-06T18:36:39.138Z
+>**Examples:**
+>
+>* `setHour(2015-08-07T11:36:39.138Z;6)`
+>
+>   Returns 2015-08-07T06:36:39.138Z
+>
+>* `setHour(2015-08-07T11:36:39.138;-6)`
+>
+>    Returns 2015-08-06T18:36:39.138Z
 
 ## setDay (date; number/name of the day in English)
 
@@ -618,55 +324,19 @@ You can use this function to set the day of the week, with Sunday as 1 and Satur
 
 If you need to specify a number outside the range, we recommend that you use addDays, as described above in [addDays (date; number)](#adddays-date-number).
 
-**Examples:**
-
-* ```setDay(```
-
-  ```
-  2018-06-27T11:36:39.138Z
-  ```
-
-  ```;```
-
-  ```
-  Monday
-  ```
-
-  ```)```
-
-  Returns 2018-06-25T11:36:39.138Z
-
-* ```setDay(```
-
-  ```
-  2018-06-27T11:36:39.138Z
-  ```
-
-  ```;```
-
-  ```
-  1
-  ```
-
-  ```)```&nbsp;
-
-  Returns 2018-06-24T11:36:39.138Z
-
-* ```setDay(```
-
-  ```
-  2018-06-27T11:36:39.138Z;7
-  ```
-
-  ```;```
-
-  ```
-  7
-  ```
-
-  ```)```&nbsp;
-
-  Returns 2018-06-30T11:36:39.138Z
+>**Examples:**
+>
+>* `setDay(2018-06-27T11:36:39.138Z;Monday)`
+>
+>   Returns 2018-06-25T11:36:39.138Z
+>
+>* `setDay(2018-06-27T11:36:39.138Z;1)`
+>
+>   Returns 2018-06-24T11:36:39.138Z
+>
+>* `setDay(2018-06-27T11:36:39.138Z;7)`
+>
+>   Returns 2018-06-30T11:36:39.138Z
 
 ## setDate (date; number)
 
@@ -674,39 +344,15 @@ This function returns a new date with the day of the month specified in paramete
 
 Specify a number from 1 to 31. If the number is outside of this range, the function returns a day from the previous month (for a negative number) or subsequent month (for a positive number).
 
-**Examples:**
-
-* ```setDate(```
-
-  ```
-  2015-08-07T11:36:39.138Z
-  ```
-
-  ```;```
-
-  ```
-  5
-  ```
-
-  ```)```
-
-  Returns 2015-08-05T11:36:39.138Z
-
-* ```setDate(```
-
-  ```
-  2015-08-07T11:36:39.138Z
-  ```
-
-  ```;```
-
-  ```
-  32
-  ```
-
-  ```)```&nbsp;
-
-  Returns 2015-09-01T11:36:39.138Z
+>**Examples:**
+>
+>* `setDate(2015-08-07T11:36:39.138Z;5)`
+>
+>   Returns 2015-08-05T11:36:39.138Z
+>
+>* `setDate(2015-08-07T11:36:39.138Z;32)`
+>
+>   Returns 2015-09-01T11:36:39.138Z
 
 ## setMonth (date; number/name of the month in English)
 
@@ -714,75 +360,29 @@ This function returns a new date with the month specified in parameters.
 
 Specify a number from 1 to 12. If the number is outside of this range, the function returns the month in the previous year (for a negative number) or subsequent year (for a positive number).
 
-**Examples:**
-
-* ```setMonth(```
-
-  ```
-  2015-08-07T11:36:39.138Z
-  ```
-
-  ```;```
-
-  ```
-  5
-  ```
-
-  ```)```
-
-  Returns 2015-05-07T11:36:39.138Z
-
-* ```setMonth(```
-
-  ```
-  2015-08-07T11:36:39.138Z
-  ```
-
-  ```;```
-
-  ```
-  17
-  ```
-
-  ```)```&nbsp;
-
-  Returns 2016-05-07T11:36:39.138Z
-
-* ```setMonth(```
-
-  ```
-  2015-08-07T11:36:39.138Z
-  ```
-
-  ```;```
-
-  ```
-  january
-  ```
-
-  ```)```&nbsp;
-
-  Returns 2015-01-07T12:36:39.138Z
+>**Examples:**
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;5)`
+>
+>   Returns 2015-05-07T11:36:39.138Z
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;17)`
+>
+>   Returns 2016-05-07T11:36:39.138Z
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;january)`
+>
+>   Returns 2015-01-07T12:36:39.138Z
 
 ## setYear (date; number)
 
 Returns a new date with the year specified in parameters.
 
-**Example:** ```setMonth(```
-
-```
-2015-08-07T11:36:39.138Z
-```
-
-```;```
-
-```
-2017
-```
-
-```)```
-
-Returns 2017-08-07T11:36:39.138Z
+>**Example:** 
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;201)`
+>
+>   Returns 2017-08-07T11:36:39.138Z
 
 ## dateDifference (Date1; Date2; Unit)
 
@@ -790,13 +390,7 @@ Returns a number representing the difference in the two dates, expressed in the 
 
 Date2 is subtracted from Date1.
 
-Use one of the following time values for the 
-
-```
-unit
-```
-
-parameter:
+Use one of the following time values for the `unit` parameter:
 
 * milliseconds
 * seconds
@@ -808,37 +402,19 @@ parameter:
 
 If no unit is specified, the function returns the difference in milliseconds.
 
-**Examples:**
-
-  ```
-  dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z)
-  ```
-
-  Returns 
-
-  ```
-  600,000
-  ```
-
-  ```
-  dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;hours)
-  ```
-
-  Returns 
-
-  ```
-  4
-  ```
-
-  ```
-  dateDifference2021-06-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;months)
-  ```
-
-  Returns 
-
-  ```
-  1
-  ```
+>**Examples:**
+>
+>* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z)`
+>
+>    Returns `600,000`
+>
+>* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;hours)`
+>
+>    Returns `4`
+>
+>* `dateDifference2021-06-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;months)`
+>
+>    Returns `1`
 
 ## Additional examples
 
@@ -850,9 +426,9 @@ If you need to calculate a date corresponding to n-th day of week in month (for 
 
 ![](assets/date&time-functions-calc-nth-day-350x31.png)
 
-You can copy and paste the formula's code into a field:
-
-`{{addDays(setDate(1.date; 1); 1.n * 7 - formatDate(addDays(setDate(1.date; 1); "-" + 1.dow); "E"))}}` 
+```
+{{addDays(setDate(1.date; 1); 1.n * 7 - formatDate(addDays(setDate(1.date; 1); "-" + 1.dow); "E"))}}
+``` 
 
 The formula contains the following items:
 
@@ -884,70 +460,22 @@ The formula contains the following items:
   </tr> 
   <tr> 
    <td><code>1.date</code> </td> 
-   <td> <p> The date determines the month. To calculate n-th day of week in current month use the <code>now </code>variable.</p> </td> 
+   <td> <p> The date determines the month. To calculate n-th day of week in current month use the <code>now</code> variable.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-In case you want to calculate only one specific case, for example, every second Wednesday, you can replace the items 
-
-```
-1.n
-```
-
-and 
-
-```
-2.dow
-```
-
-in the formula with corresponding numbers. For the second Wednesday in the current month, you would use the following values:
-
-  ```
-  1.n
-  ```
-
-  = 
-
-  ```
-  2
-  ```
-
-  ```
-  1.dow
-  ```
-
-  = 
-
-  ```
-  3
-  ```
-
-  ```
-  1.date
-  ```
-
-  = 
-
-  ```
-  now
-  ```
+In case you want to calculate only one specific case, for example, every second Wednesday, you can replace the items `1.n` and `2.dow` in the formula with corresponding numbers. For the second Wednesday in the current month, you would use the following values:
+* `1.n` = `2`
+* `1.dow` = `3`
+* `1.date` = `now`
 
 ![](assets/nth-day-variable-value-350x33.png)
 
 ### Explanation:
 
-  ```
-  setDate(now;1)
-  ```
-
-  returns first of current month
-
-  ```
-  formatDate(....;E)
-  ```
-
-  returns day of week (1, 2, ... 6)
+* `setDate(now;1)` returns first of current month 
+* `formatDate(....;E)` returns day of week (1, 2, ... 6)
 
 ## How to calculate days between dates
 
@@ -955,8 +483,9 @@ One possibility is to employ the following expression:
 
 ![](assets/calculate-days-between-dates-350x68.png)
 
-You can copy and paste the following code:
-`{{round((2.value - 1.value) / 1000 / 60 / 60 / 24)}}`
+```
+{{round((2.value - 1.value) / 1000 / 60 / 60 / 24)}}
+```
 
 >[!NOTE]
 >
@@ -974,9 +503,9 @@ The formula below shows one way how to calculate last day of the previous month:
 
 ![](assets/last-day-prev-month.png)
 
-You can copy & paste the following code:
-
-`{{addDays(setDate(now; 1); -1)}}` 
+```
+{{addDays(setDate(now; 1); -1)}}
+``` 
 
 In some cases, you need to calculate not only the last day of month, but literally its last millisecond:
 
@@ -986,9 +515,9 @@ This formula shows one way how to calculate last millisecond of the previous mon
 
 ![](assets/last-millisecond-prev-month-350x45.png)
 
-You can copy and paste the following code:
-
-`{{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD"; "UTC") - 1; "x")}}`
+```
+{{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD"; "UTC") - 1; "x")}}
+```
 
 If you need the result to use your timezone setting, omit the UTC argument:
 
@@ -998,6 +527,6 @@ If you need the result to use your timezone setting, omit the UTC argument:
 
 However, it is preferable to use half-open interval instead (the interval that excludes one of its limit points), specifying the first day of the following month instead and replacing the "less or equal than" operator with "less than" as follows:
 
-2019-09-01 ≤ D < 2019-10-01
+`2019-09-01 ≤ D < 2019-10-01`
 
-2019-09-01T00:00:00.000Z ≤ D < 2019-10-01T00:00:00.000Z
+`2019-09-01T00:00:00.000Z ≤ D < 2019-10-01T00:00:00.000Z`
