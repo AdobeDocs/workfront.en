@@ -22,4 +22,4 @@ For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenan
 To simplify the Workfront Anaplan connector, we've created the Run an action module. This module contains the functionality of the Import data and Export data modules. You can also use this module to delete an Anaplan action or run an Anaplan process.
 Previously, importing and exporting data was controlled through separate modules, and deleting actions and running processes were not available.
 
-For more information, see [Anaplan Modules](../../../workfront-fusion/apps-and-their-modules/http-modules/anaplan-modules.md).
+For more information, see [Anaplan Modules](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
