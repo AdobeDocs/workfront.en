@@ -23,7 +23,7 @@ For more information, see [Update work](../../../workfront-basics/updating-work-
 <iframe class="vimeo-player_0" src="assets/601084561?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/601084561/921f0410de)
+[Watch a video demonstration of this feature.](https://vimeo.com/601084561/921f0410de)
 
 Before Workfront users can include images in updates, this feature must first be enabled by the Adobe Workfront administrator, as described in [Configure preferences for user updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
@@ -31,7 +31,7 @@ Before Workfront users can include images in updates, this feature must first be
 <iframe class="vimeo-player_0" src="assets/601089736?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/601089736/a96fc17e6d)
+[Watch a video demonstration of this feature.](https://vimeo.com/601089736/a96fc17e6d)
 
 ## Updated algorithm for smart assignments
 
@@ -56,7 +56,7 @@ For information, [Create a project using a template](../../../manage-work/projec
 <iframe class="vimeo-player_0" src="assets/601071667?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode](https://vimeo.com/601071667/5bca354ad1).
+[Watch a video demonstration of this feature](https://vimeo.com/601071667/5bca354ad1).
 
 ## New experience when attaching templates to projects
 
@@ -76,7 +76,7 @@ For information, see [Attach a template to a project](../../../manage-work/proje
 <iframe class="vimeo-player_0" src="assets/592767793?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/592767793/3f536585d5)
+[Watch a video demonstration of this feature.](https://vimeo.com/592767793/3f536585d5)
 
 ## Unified duration and duration unit values for tasks
 
@@ -107,7 +107,7 @@ For more information, see [Edit projects](../../../manage-work/projects/manage-p
 <iframe class="vimeo-player_0" src="assets/583120723?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/583120723/711fa5b4b4)
+[Watch a video demonstration of this feature.](https://vimeo.com/583120723/711fa5b4b4)
 
 ## Custom field display improvement for checkboxes and radio buttons
 
@@ -123,4 +123,4 @@ For information about creating a checkbox or radio button field in a custom form
 <iframe class="vimeo-player_0" src="assets/580326409?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode](https://vimeo.com/580326409/faccb1e558).
+[Watch a video demonstration of this feature](https://vimeo.com/580326409/faccb1e558).

@@ -23,7 +23,7 @@ For more information, see [Configure sharing for custom fields and widgets](../.
 <iframe class="vimeo-player_0" src="assets/468260023?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/468260023/5aa0e72e0f)
+[Watch a video demonstration of this feature.](https://vimeo.com/468260023/5aa0e72e0f)
 
 ## New for administrators: Standardized Custom Form sharing
 
@@ -35,7 +35,7 @@ For more information, see [Share a custom form](../../../administration-and-setu
 <iframe class="vimeo-player_0" src="assets/468263599?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/468263599/76731363ab)
+[Watch a video demonstration of this feature.](https://vimeo.com/468263599/76731363ab)
 
 ## Export custom forms and overview information from the Details section of a project, task, or issue
 
@@ -49,7 +49,7 @@ For information about exporting custom forms from an object, see [Export custom 
 <iframe class="vimeo-player_0" src="assets/475140925?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/475140925/d8b4af7df2)
+[Watch a video demonstration of this feature.](https://vimeo.com/475140925/d8b4af7df2)
 
 ## Quickly add an iteration
 
@@ -67,7 +67,7 @@ For more information, see [Create an iteration](../../../agile/use-scrum-in-an-a
 <iframe class="vimeo-player_0" src="assets/468254955?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/468254955/4793074696)
+[Watch a video demonstration of this feature.](https://vimeo.com/468254955/4793074696)
 
 ## New Metrics section available in projects
 
@@ -83,7 +83,7 @@ You can make selections on the charts to see different aspects of the tasks and 
 <iframe class="vimeo-player_0" src="assets/466352367?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/466352367/4d21ec5ee2)
+[Watch a video demonstration of this feature.](https://vimeo.com/466352367/4d21ec5ee2)
 
 This feature is now included in the [Planner Fundamentals, Part 3 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) on Workfront One.
 
@@ -99,7 +99,7 @@ For more information, see [Business Leader overview](../../../administration-and
 <iframe class="vimeo-player_0" src="assets/448953715?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/448953715/bcf80b1904)
+[Watch a video demonstration of this feature.](https://vimeo.com/448953715/bcf80b1904)
 
 This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
 
@@ -115,7 +115,7 @@ For more information, see the section “About associating a group with an objec
 <iframe class="vimeo-player_0" src="assets/461460332?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/461460332/1b2d6b6d40)
+[Watch a video demonstration of this feature.](https://vimeo.com/461460332/1b2d6b6d40)
 
 This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
 
@@ -131,7 +131,7 @@ For information about administrative access to companies, see [Grant users admin
 <iframe class="vimeo-player_0" src="assets/466659070?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/466659070/870bf7b974)
+[Watch a video demonstration of this feature.](https://vimeo.com/466659070/870bf7b974)
 
 This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
 
@@ -147,7 +147,7 @@ For more information on configuring this option, see [Replace the Work On It but
 <iframe class="vimeo-player_0" src="assets/449328676?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/449328676/39af5acaac)
+[Watch a video demonstration of this feature.](https://vimeo.com/449328676/39af5acaac)
 
 This feature is now included in the [Worker Fundamentals learning path](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) and the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
 
@@ -163,7 +163,7 @@ For information about submitting requests, see “ [Create and submit Workfront 
 <iframe class="vimeo-player_0" src="assets/449464937?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/449464937/4ad38b67f1)
+[Watch a video demonstration of this feature.](https://vimeo.com/449464937/4ad38b67f1)
 
 ## Assign a group to a team
 
@@ -177,7 +177,7 @@ For more information, see [Create a team](../../../people-teams-and-groups/creat
 <iframe class="vimeo-player_0" src="assets/452281329?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/452281329/7429cf3393)
+[Watch a video demonstration of this feature.](https://vimeo.com/452281329/7429cf3393)
 
 This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
 
@@ -196,7 +196,7 @@ For information about using fields in lists and reports, see [Glossary of Adobe 
 <iframe class="vimeo-player_0" src="assets/452280180?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/452280180/6599785cdd)
+[Watch a video demonstration of this feature.](https://vimeo.com/452280180/6599785cdd)
 
 ## New option to cancel your action when discarding a request draft
 
@@ -208,4 +208,4 @@ This feature is available only in the new Workfront experience. For information,
 <iframe class="vimeo-player_0" src="assets/461469587?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/461469587/4c6a154ac4) 
+[Watch a video demonstration of this feature.](https://vimeo.com/461469587/4c6a154ac4) 

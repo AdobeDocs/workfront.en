@@ -37,7 +37,7 @@ For more information, see the following articles:
 <iframe class="vimeo-player_0" src="assets/539863715?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/539863715/e851ec323a)
+[Watch a video demonstration of this feature.](https://vimeo.com/539863715/e851ec323a)
 
 ## Connection between the Scenario Planner, Workload Balancer, and task list
 
@@ -54,4 +54,4 @@ For information, see [Overview of reconciling resource allocations between proje
 <iframe class="vimeo-player_0" src="assets/539890235?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/539890235/7127d1d666) 
+[Watch a video demonstration of this feature.](https://vimeo.com/539890235/7127d1d666) 

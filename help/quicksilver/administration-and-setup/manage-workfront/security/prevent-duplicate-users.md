@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
 <iframe class="vimeo-player_0" src="assets/371505632?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/371505632/2e6938ce06)
+[Watch a video demonstration of this feature.](https://vimeo.com/371505632/2e6938ce06)
 
 ## Create users with unique email addresses
 

@@ -22,4 +22,4 @@ For information, see the following articles:
 <iframe class="vimeo-player_0" src="assets/600497231?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/600497231/06cce5cc96) 
+[Watch a video demonstration of this feature.](https://vimeo.com/600497231/06cce5cc96) 

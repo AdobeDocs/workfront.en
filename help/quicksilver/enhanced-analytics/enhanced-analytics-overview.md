@@ -33,7 +33,7 @@ View the following video to learn more about Enhanced analytics:
 <iframe class="vimeo-player_0" src="assets/448606544?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/448606544/d75dc842e4)
+[Watch a video demonstration of this feature.](https://vimeo.com/448606544/d75dc842e4)
 
 ## Prerequisites
 

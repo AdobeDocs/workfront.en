@@ -30,7 +30,7 @@ For more information, see [Configure Scrum](../../../agile/get-started-with-agil
 <iframe class="vimeo-player_0" src="assets/601336640?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/601336640/d519107145)
+[Watch a video demonstration of this feature.](https://vimeo.com/601336640/d519107145)
 
 ## Changes to agile view on projects
 
@@ -59,4 +59,4 @@ For more information, see [Add stories and issues from the Kanban board](../../.
 <iframe class="vimeo-player_0" src="assets/578094546?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/578094546/cbdd9b0d72) 
+[Watch a video demonstration of this feature.](https://vimeo.com/578094546/cbdd9b0d72) 

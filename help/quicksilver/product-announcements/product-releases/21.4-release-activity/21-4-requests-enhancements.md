@@ -23,7 +23,7 @@ For information about submitting requests, see [Create and submit Adobe Workfron
 <iframe class="vimeo-player_0" src="assets/601077860?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/601077860/d8c1f869c4)
+[Watch a video demonstration of this feature.](https://vimeo.com/601077860/d8c1f869c4)
 
 ## New look and feel for embedded request queues in the new Workfront experience
 
@@ -39,4 +39,4 @@ For information, see [Embed a request queue in a dashboard](../../../reports-and
 <iframe class="vimeo-player_0" src="assets/592770628?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/592770628/30397bbb82) 
+[Watch a video demonstration of this feature.](https://vimeo.com/592770628/30397bbb82) 

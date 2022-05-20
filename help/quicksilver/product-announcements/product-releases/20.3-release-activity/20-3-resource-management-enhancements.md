@@ -22,7 +22,7 @@ For information about working in the Workload Balancer, see [Navigate the Worklo
 <iframe class="vimeo-player_0" src="assets/430815976?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/430815976/8c304e9fe7)
+[Watch a video demonstration of this feature.](https://vimeo.com/430815976/8c304e9fe7)
 
 ## Adjust allocations for non-working days in the Workload Balancer
 
@@ -34,7 +34,7 @@ For information about managing allocations in the Workload Balancer, see [Manage
 <iframe class="vimeo-player_0" src="assets/430817953?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/430817953/738e8b3539)
+[Watch a video demonstration of this feature.](https://vimeo.com/430817953/738e8b3539)
 
 ## Variable filters available in the Workload Balancer
 
@@ -54,7 +54,7 @@ For information about applying filters to the Workload Balancer, see [Manage fil
 <iframe class="vimeo-player_0" src="assets/425680462?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/425680462/5e65fb50f7)
+[Watch a video demonstration of this feature.](https://vimeo.com/425680462/5e65fb50f7)
 
 ## New sorting for projects in the Workload Balancer
 
@@ -66,7 +66,7 @@ For information about viewing projects and work items in the Workload Balancer, 
 <iframe class="vimeo-player_0" src="assets/425681656?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/425681656/50139ed937)
+[Watch a video demonstration of this feature.](https://vimeo.com/425681656/50139ed937)
 
 ## Display actual work progress in the Workload Balancer
 
@@ -80,7 +80,7 @@ For information about navigating the Workload Balancer and enabling settings see
 <iframe class="vimeo-player_0" src="assets/434808390?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/434808390/495d145726)
+[Watch a video demonstration of this feature.](https://vimeo.com/434808390/495d145726)
 
 ## Workload Balancer features previously communicated as releasing with the 20.2 release
 
@@ -105,7 +105,7 @@ For information about managing allocations in the Workload Balancer, see [Manage
 <iframe class="vimeo-player_0" src="assets/405985254?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/405985254/2012ee6036)
+[Watch a video demonstration of this feature.](https://vimeo.com/405985254/2012ee6036)
 
 ### Update Task Planned Hours in the Workload Balancer {#update-task-planned-hours-in-the-workload-balancer}
 

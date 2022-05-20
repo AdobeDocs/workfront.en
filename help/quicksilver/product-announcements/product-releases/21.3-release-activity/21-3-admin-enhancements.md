@@ -21,7 +21,7 @@ For more information, see [Blueprints overview](../../../administration-and-setu
 <iframe class="vimeo-player_0" src="assets/566685401?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/566685401/de35d1c699)
+[Watch a video demonstration of this feature.](https://vimeo.com/566685401/de35d1c699)
 
 This feature is now included in the [Project templates in the new Workfront experience](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) learning path on Workfront One.
 
@@ -45,7 +45,7 @@ For more information, see [Manage group statuses](../../../administration-and-se
 <iframe class="vimeo-player_0" src="assets/558294261?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/558294261/ed2ee01b99)
+[Watch a video demonstration of this feature.](https://vimeo.com/558294261/ed2ee01b99)
 
 ## New for administrators: Create a billing record custom form
 
@@ -59,4 +59,4 @@ For information about attaching a billing record custom form to a project, see [
 <iframe class="vimeo-player_0" src="assets/552593932?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/552593932/b80cee516f) 
+[Watch a video demonstration of this feature.](https://vimeo.com/552593932/b80cee516f) 

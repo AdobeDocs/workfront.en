@@ -33,7 +33,7 @@ For more information about navigating the Workload Balancer, see [Navigate the W
 <iframe class="vimeo-player_0" src="assets/686852400?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/686852400/cea0d90d46)
+[Watch a video demonstration of this feature.](https://vimeo.com/686852400/cea0d90d46)
 
 ## Access Advanced Assignments in the Workload Balancer
 
@@ -45,7 +45,7 @@ For more information, see [Assign work manually using the Workload Balancer](../
 <iframe class="vimeo-player_0" src="assets/686857137?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/686857137/4c645c5354)
+[Watch a video demonstration of this feature.](https://vimeo.com/686857137/4c645c5354)
 
 ## New formula for calculating user availability when The Default Schedule preference is selected
 
@@ -63,4 +63,4 @@ For more information, see [Configure Resource Management preferences](../../../a
 <iframe class="vimeo-player_0" src="assets/686855756?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/686855756/688f5494a6) 
+[Watch a video demonstration of this feature.](https://vimeo.com/686855756/688f5494a6) 

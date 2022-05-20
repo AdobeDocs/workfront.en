@@ -29,7 +29,7 @@ For information about managing your license count, see [Manage available license
 <iframe class="vimeo-player_0" src="assets/481769970?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/481769970/14a32ce74d)
+[Watch a video demonstration of this feature.](https://vimeo.com/481769970/14a32ce74d)
 
 ## Eliminate the “My Teams” tab for users without teams
 

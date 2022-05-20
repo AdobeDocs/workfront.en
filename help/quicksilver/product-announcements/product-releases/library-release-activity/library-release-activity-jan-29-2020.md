@@ -37,7 +37,7 @@ For more information, see
 <iframe class="vimeo-player_0" src="assets/391362256?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/391362256/8c89677e28)
+[Watch a video demonstration of this feature.](https://vimeo.com/391362256/8c89677e28)
 
 ## Updates to removing users and user groupings from Workfront Library
 
@@ -61,4 +61,4 @@ For more information, see [Transfer ownership assets to another user](../../../w
 <iframe class="vimeo-player_0" src="assets/391362243?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/391362243/6581c1ef43) 
+[Watch a video demonstration of this feature.](https://vimeo.com/391362243/6581c1ef43) 

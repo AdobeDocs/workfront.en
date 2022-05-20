@@ -36,7 +36,7 @@ For more information, see [Boards overview](../../../agile/boards-overview.md).
 <iframe class="vimeo-player_0" src="assets/686493020?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/686493020/d8a5d11f0d)
+[Watch a video demonstration of this feature.](https://vimeo.com/686493020/d8a5d11f0d)
 
 ## Additional improvements to Workfront Boards
 
@@ -81,7 +81,7 @@ For more information, see [Update work](../../../workfront-basics/updating-work-
 <iframe class="vimeo-player_0" src="assets/686915058?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/686915058/eedb0e5a27)
+[Watch a video demonstration of this feature.](https://vimeo.com/686915058/eedb0e5a27)
 
 ## Updated experience when copying and moving issues
 
@@ -104,7 +104,7 @@ For more information about moving or copying issues, see the following articles:
 <iframe class="vimeo-player_0" src="assets/678338567?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/678338567/3b91b6d37e)
+[Watch a video demonstration of this feature.](https://vimeo.com/678338567/3b91b6d37e)
 
 ## New experience when copying a project
 
@@ -138,7 +138,7 @@ For more information, see the following articles:
 <iframe class="vimeo-player_0" src="assets/686876682?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/686876682/06ec05cd2b)
+[Watch a video demonstration of this feature.](https://vimeo.com/686876682/06ec05cd2b)
 
 ## Keep users on the dashboard, list, or report after converting issue to project
 
@@ -152,7 +152,7 @@ For more information, see [Convert an issue to a project in Adobe Workfront](../
 <iframe class="vimeo-player_0" src="assets/675972622?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/675972622/f1fa3093f5)
+[Watch a video demonstration of this feature.](https://vimeo.com/675972622/f1fa3093f5)
 
 ## Allocation hours will no longer be removed when making changes to assignments
 
@@ -174,7 +174,7 @@ For more information about Planned Hours, see [Planned Hours overview](../../../
 <iframe class="vimeo-player_0" src="assets/701739033?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/701739033/f3e79c6e4e)
+[Watch a video demonstration of this feature.](https://vimeo.com/701739033/f3e79c6e4e)
 
 ## Share folders only in the top five levels of a folder hierarchy
 
@@ -192,4 +192,4 @@ For more information about sharing folders, see [Share a document folder](../../
 <iframe class="vimeo-player_0" src="assets/675978565?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/675978565/1901e4a8a1) 
+[Watch a video demonstration of this feature.](https://vimeo.com/675978565/1901e4a8a1) 

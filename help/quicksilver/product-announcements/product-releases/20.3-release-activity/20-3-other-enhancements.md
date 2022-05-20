@@ -34,7 +34,7 @@ For more information about creating requests, see [Create and submit Workfront r
 <iframe class="vimeo-player_0" src="assets/434806684?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/434806684/ff57c4b715)
+[Watch a video demonstration of this feature.](https://vimeo.com/434806684/ff57c4b715)
 
 ## Expand or collapse items on the timesheet
 
@@ -52,7 +52,7 @@ For more information, see [Log time](../../../timesheets/create-and-manage-times
 <iframe class="vimeo-player_0" src="assets/434799001?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/434799001/3b5ad5ebe3)
+[Watch a video demonstration of this feature.](https://vimeo.com/434799001/3b5ad5ebe3)
 
 ## Ignore Actual Dates in Workfront Calendars
 
@@ -70,7 +70,7 @@ For more information, see [Calendar reports overview](../../../reports-and-dashb
 <iframe class="vimeo-player_0" src="assets/425518710?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/425518710/076503c510)
+[Watch a video demonstration of this feature.](https://vimeo.com/425518710/076503c510)
 
 ## Use custom date fields in calendar reports
 
@@ -115,7 +115,7 @@ For more information, see [Enroll users in the new Adobe Workfront experience](.
 <iframe class="vimeo-player_0" src="assets/434805153?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/434805153/b8d6061d09)
+[Watch a video demonstration of this feature.](https://vimeo.com/434805153/b8d6061d09)
 
 ## New for administrators: Brand Workfront for specific groups, teams, job roles, and users
 
@@ -131,7 +131,7 @@ For more information, see [Brand your Adobe Workfront instance](../../../adminis
 <iframe class="vimeo-player_0" src="assets/430811222?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/430811222/0ba29e6266)
+[Watch a video demonstration of this feature.](https://vimeo.com/430811222/0ba29e6266)
 
 ## Group Administrators can create and manage approval processes
 
@@ -145,7 +145,7 @@ For more information, see [Create an approval process for work items](../../../a
 <iframe class="vimeo-player_0" src="assets/434820239?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/434820239/9e5ef0c564)
+[Watch a video demonstration of this feature.](https://vimeo.com/434820239/9e5ef0c564)
 
 ## For administrators: New Groups page makes it easier to create and manage groups
 
@@ -165,7 +165,7 @@ For more information, see [Create a group](../../../administration-and-setup/man
 <iframe class="vimeo-player_0" src="assets/434800156?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/434800156/685b28ebb4)
+[Watch a video demonstration of this feature.](https://vimeo.com/434800156/685b28ebb4)
 
 ## New for administrators: Create up to 14 levels of subgroups
 
@@ -177,7 +177,7 @@ For more information, see [Groups overview](../../../administration-and-setup/ma
 <iframe class="vimeo-player_0" src="assets/430810856?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/430810856/4c7589d1f7)
+[Watch a video demonstration of this feature.](https://vimeo.com/430810856/4c7589d1f7)
 
 ## New for administrators: New Setup sidebar
 
@@ -200,7 +200,7 @@ For information about how to use the Setup area, see [Administration and setup](
 <iframe class="vimeo-player_0" src="assets/421243507?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/421243507/26ad60f0ef)
+[Watch a video demonstration of this feature.](https://vimeo.com/421243507/26ad60f0ef)
 
 ## Include cluster number in Customer Info area
 
@@ -212,7 +212,7 @@ For information about the Customer Info area, see [Configure basic information f
 <iframe class="vimeo-player_0" src="assets/437227061?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/437227061/2e33b9cc3d)
+[Watch a video demonstration of this feature.](https://vimeo.com/437227061/2e33b9cc3d)
 
 ## Base64 encoding for Event Subscriptions
 

@@ -58,4 +58,4 @@ For information about sharing goals, see [Share a goal in Workfront Goals](../..
 <iframe class="vimeo-player_0" src="assets/539894647?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/539894647/9d9ce20149) 
+[Watch a video demonstration of this feature.](https://vimeo.com/539894647/9d9ce20149) 

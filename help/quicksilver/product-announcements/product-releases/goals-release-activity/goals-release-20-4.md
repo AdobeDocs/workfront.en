@@ -67,7 +67,7 @@ For information, see the following articles:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://vimeo.com/461495600/87acace0fa">View this video in full-screen mode.</a> </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://vimeo.com/461495600/87acace0fa">Watch a video demonstration of this feature.</a> </p>
 -->
 
 >[!NOTE]
