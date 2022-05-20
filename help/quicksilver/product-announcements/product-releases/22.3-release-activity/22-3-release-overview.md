@@ -64,6 +64,22 @@ later this year
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-11.md#for" class="MCXref xref" xrefformat="{para}">For administrators: Control creating a blank project</a> <span style="color: #ff0000; font-weight: bold;">New in Preview!</span></p></p> <p>As a system or a group administrator, you can now control whether users can create blank projects, without using a template. We have introduced a new setting in the Project Preferences area of Setup that allows you to disable creating blank projects in the following areas:</p> 
+   <ul>
+   <li><p>From the New Project option in a list of projects</p></li>
+   <li><p>When converting an issue to a project from the issue page</p></li>
+   </ul>
+   <p>The new setting is “Allow users to create projects without using a template” and it is enabled by default.</p> </td> 
+   <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: May 19, 2022<br></p> </li> 
+     <li> <p>Production release:&nbsp;With the 22.3 release </p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr>
+  <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-11.md#for" class="MCXref xref" xrefformat="{para}">For administrators: Deactivate a group from the Groups page</a> </p> <p>Recently, we added the ability to deactivate and reactivate groups. To make that action quicker and easier, we have added it to a group's page. Now, after you click a group's name to go to its page, you can select the More menu <img src="assets/more-icon.png"> next to the group's name, then select Deactivate or Reactivate.</p> <p>Previously, you could deactivate or reactivate a group only by using the Is active check box on its Details page. </p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
@@ -99,7 +115,18 @@ later this year
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-may-2.md#new" class="MCXref xref" xrefformat="{para}">New syntax for calculations in custom fields</a> <span style="color: #ff0000; font-weight: bold;">New in Preview!</span></p> <p>To prepare for future enhancements that will help you add calculations to custom forms, we have standardized the syntax for referenced fields that you add to a calculation. It's easy to use this new syntax because the system enters it for you when you start typing the name of a field and then select it.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-may-16.md#new" class="MCXref xref" xrefformat="{para}">Smart tagging in the update stream</a> <span style="color: #ff0000; font-weight: bold;">New in Preview!</span></p> <p>We have improved tagging users in the update stream when you create a new update or reply to an existing one. Now, when you tag a user to include them in an update, in addition to their name and avatar, we also display their Primary Role and their email. This helps distinguish between multiple users with similar or identical names.</p> </td> 
+   <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: May 19, 2022<br></p> </li> 
+     <li> <p>Production release: With the 22.3 release</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-may-2.md#new" class="MCXref xref" xrefformat="{para}">New syntax for calculations in custom fields</a> </p> <p>To prepare for future enhancements that will help you add calculations to custom forms, we have standardized the syntax for referenced fields that you add to a calculation. It's easy to use this new syntax because the system enters it for you when you start typing the name of a field and then select it.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: May 5, 2022<br></p> </li> 
