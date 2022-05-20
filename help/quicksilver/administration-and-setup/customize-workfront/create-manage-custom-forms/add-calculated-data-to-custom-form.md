@@ -144,7 +144,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
    >![](assets/preview-calc-350x168.jpg)
 
    <!--
-   * data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Find out immediately what is causing errors in your calculations. Errors are highlighted in red. Hovering over an error displays a brief description of its cause.
+   Find out immediately what is causing errors in your calculations. Errors are highlighted in red. Hovering over an error displays a brief description of its cause.
    --> 
 
 1. Click **Minimize** when you are finished creating the calculation for the calculated custom field.
