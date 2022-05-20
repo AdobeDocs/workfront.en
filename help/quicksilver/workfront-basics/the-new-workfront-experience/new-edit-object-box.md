@@ -15,8 +15,8 @@ We have introduced a new design for the Edit Object box to match the new Adobe W
 >This is currently available for the following objects when editing an individual object or when editing a single object from a list:
 >
 >* Projects
->* ```Tasks``` 
->* ```Issues``` 
+>* Tasks 
+>* Issues 
 >
 
 ## Benefits of the new Edit Object box

@@ -259,9 +259,9 @@ You can report on the following objects when using the report builder in the Wor
 * Group
 * Grouping
 * Hour Type
-* ```Initiative```
+* Initiative
 
-  ```You can build a report for initiatives which are the children objects of a plan only if your company has purchased a Workfront Scenario Planner license. For information about initiatives, see``` [Initiatives overview in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2066&pubname=the-new-workfront-experience). 
+  You can build a report for initiatives which are the children objects of a plan only if your company has purchased a Workfront Scenario Planner license. For information about initiatives, see [Initiatives overview in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2066&pubname=the-new-workfront-experience). 
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -269,9 +269,9 @@ You can report on the following objects when using the report builder in the Wor
   </MadCap:conditionalText>
   -->
 
-* ```Initiative Job Role```
+* Initiative Job Role
 
-  ```You can build a report for the job roles associated with the initiatives in a plan only if your company has purchased a Workfront Scenario Planner license. For information about creating initiatives and associating them with job roles, see``` [Create and edit initiatives in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2061&pubname=the-new-workfront-experience). 
+  You can build a report for the job roles associated with the initiatives in a plan only if your company has purchased a Workfront Scenario Planner license. For information about creating initiatives and associating them with job roles, see [Create and edit initiatives in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2061&pubname=the-new-workfront-experience). 
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

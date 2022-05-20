@@ -36,11 +36,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td>
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -56,43 +55,10 @@ Returns the value path of an object or array. To access nested objects, use dot 
 
 **Examples:** 
 
-* ```get(``` ```array``` ```;```
-
-  ```
-  1
-  ```
-
-  ```+```
-
-  ```
-  1
-  ```
-
-  ```)``` 
-
-* ```get(``` ```array``` ```;```
-
-  ```
-  5.raw_name
-  ```
-
-  ```)``` 
-
-* ```get(``` ```object``` ```;```
-
-  ```
-  raw_name
-  ```
-
-  ```)``` 
-
-* ```get(``` ```object``` ```;```
-
-  ```
-  raw_name.sub_raw_name
-  ```
-
-  ```)```
+* `get( array ; 1 + 1 )`
+* `get( array ; 5.raw_name )`
+* `get( object ; raw_name )`
+* `get( object ; raw_name.sub_raw_name )`
 
 ## if (expression; value1; value2)
 
@@ -100,53 +66,11 @@ Returns the value 1 if the expression is evaluated to true; otherwise it returns
 
 **Examples:** 
 
-* ```if(```
-
-  ```
-  1
-  ```
-
-  ```=```
-
-  ```
-  1
-  ```
-
-  ```;```
-
-  ```
-  A
-  ```
-
-  ```;```
-
-  ```
-  B
-  ```
-
-  ```)```
+* `if( 1 = 1 ; A ; B )`
 
   Returns A
 
-* ```if(``` ```=```
-
-  ```
-  2
-  ```
-
-  ```;```
-
-  ```
-  A
-  ```
-
-  ```;```
-
-  ```
-  B
-  ```
-
-  ```)```
+* `if( = 2 ; A ; B )`
 
   Returns B
 
@@ -156,51 +80,15 @@ Returns the value 1 if this value is not empty; otherwise it returns the value 2
 
 **Examples:** 
 
-* ```ifempty(```
-
-  ```
-  A
-  ```
-
-  ```;```
-
-  ```
-  B
-  ```
-
-  )
+* `ifempty(` `A` `;` `B` )
 
   Returns A
 
-* ```ifempty(```
-
-  ```
-  unknown
-  ```
-
-  ```;```
-
-  ```
-  B
-  ```
-
-  )
+* `ifempty(` `unknown` `;` `B` )
 
   Returns B
 
-* ```ifempty(```
-
-  ```
-  ""
-  ```
-
-  ```;```
-
-  ```
-  B
-  ```
-
-  )
+* `ifempty(` `""` `;` `B` )
 
   Returns B
 
@@ -210,105 +98,15 @@ Evaluates one value (called the expression) against a list of values; returns th
 
 **Examples:** 
 
-* ```switch(```
-
-  ```
-  B
-  ```
-
-  ```;```
-
-  ```
-  A
-  ```
-
-  ```;```
-
-  ```
-  1
-  ```
-
-  ```;```
-
-  ```
-  B
-  ```
-
-  ```;```
-
-  ```
-  2
-  ```
-
-  ```;```
-
-  ```
-  C
-  ```
-
-  ```;```
-
-  ```
-  3
-  ```
-
-  ```)```
+* `switch( B ; A ; 1 ; B ; 2 ; C ; 3 )`
 
   Returns 2
 
-* ```switch(```
-
-  ```
-  C
-  ```
-
-  ```;```
-
-  ```
-  A
-  ```
-
-  ```;```
-
-  ```
-  1
-  ```
-
-  ;
-
-  ```
-  B
-  ```
-
-  ```;```
-
-  ```
-  2
-  ```
-
-  ```;```
-
-  ```
-  C
-  ```
-
-  ```;```
-
-  ```
-  3
-  ```
-
-  ```)```
+* `switch( C ; A ; 1 ; B ; 2 ; C ; 3 )`
 
   Returns 3
 
-* ```switch(```
-
-  ```
-  X<span class="function">;</span>A<span class="function">;</span>1<span class="function">;</span>B<span class="function">;</span>2<span class="function">;</span>C<span class="function">;</span>3<span class="function">;</span>4
-  ```
-
-  ```)```
+* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 
   Returns 4
 
@@ -316,7 +114,9 @@ Evaluates one value (called the expression) against a list of values; returns th
 
 Omits the given keys of the object and returns the rest.
 
-**Example:** ```omit(``` ```User``` ```;```password ```)```
+**Example:**
+
+`omit(` User `;` password `)`
 
 Returns a collection of the user's information, excluding the password.
 
@@ -324,7 +124,9 @@ Returns a collection of the user's information, excluding the password.
 
 Picks only the given keys from the object.
 
-**Example:** ```pick(``` ```User``` ```;```password ```;```email ```)```
+**Example:** 
+
+`pick(` User `;` password `;` email `)`
 
 Returns a collection of only the user's password and email address.
 &nbsp;

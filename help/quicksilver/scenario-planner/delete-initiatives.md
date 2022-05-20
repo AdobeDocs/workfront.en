@@ -45,16 +45,16 @@ Consider the following when deleting initiatives:
 
 * Deleting an initiative removes the required amount of job roles and the cost information associated with the initiative from the plan.
 * Deleting an initiative that was created by importing a project does not delete the project associated with the initiative.
-* ```Deleting an initiative that has been published to a project at least once results in the following:```
+* Deleting an initiative that has been published to a project at least once results in the following:
 
-   * ```The initiative is deleted from the scenario but the Scenario Planner area remains in the Project Details section.``` 
+   * The initiative is deleted from the scenario but the Scenario Planner area remains in the Project Details section. 
    * If the initiative you delete is the only published initiative on the scenario, the indicator that the plan has been published is also removed.
 
      For information about publishing initiatives to projects, see [Update or create projects by publishing initiatives in the Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md).
 
      For information about creating initiatives by importing projects, see [Import projects to plans in the Scenario Planner](../scenario-planner/import-projects-to-plans.md) .
 
-You can delete one initiative at a time, ```or you can delete multiple initiatives in bulk.```
+You can delete one initiative at a time, or you can delete multiple initiatives in bulk.
 
 * [Delete one initiative](#delete-one-initiative) 
 * [Delete initiatives in bulk](#delete-initiatives-in-bulk)

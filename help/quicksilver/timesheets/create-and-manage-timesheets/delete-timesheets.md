@@ -84,7 +84,7 @@ You must have the following to perform the steps in this article:
    >   
    >
 
-1. (Optional) Click ```the``` **View** ![](assets/view-icon.png) or **Grouping** ![](assets/grouping.png) ```icons``` to apply a different view or grouping or to create a new one.
+1. (Optional) Click the **View** ![](assets/view-icon.png) or **Grouping** ![](assets/grouping.png) icons to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
@@ -92,7 +92,7 @@ You must have the following to perform the steps in this article:
    * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
    * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Select one or several timesheets that you want to delete and click  the **Delete** ``` ![](assets/delete.png) icon```  at the top of the list of timesheets.
+1. Select one or several timesheets that you want to delete and click  the **Delete**  ![](assets/delete.png) icon  at the top of the list of timesheets.
 
 1. Click&nbsp;**Delete**.
 
