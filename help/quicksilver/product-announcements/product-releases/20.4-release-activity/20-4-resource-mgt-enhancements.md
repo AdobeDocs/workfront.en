@@ -22,11 +22,7 @@ The following improvements are now available with this new feature:
 
 For information about Work Effort, see [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/466596422?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/466596422/ec0cbb4207)
+[Watch a video demonstration of this feature.](https://vimeo.com/466596422/ec0cbb4207)
 
 This feature is now included in the [Planner Fundamentals, Part 2 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) on Workfront One.
 
@@ -36,11 +32,7 @@ For better visibility and increased customization of your experience in the Work
 
 For information about customizing the view in the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/466356013?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/466356013/bc6ca45519)
+[Watch a video demonstration of this feature.](https://vimeo.com/466356013/bc6ca45519)
 
 ## Adjust user allocation using percentage values in the Workload Balancer
 
@@ -48,11 +40,7 @@ You can now manage your users' allocations in the Workload Balancer using percen
 
 For information about managing allocations in the Workload Balancer, see [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/466356815?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/466356815/e98e15f5e6)
+[Watch a video demonstration of this feature.](https://vimeo.com/466356815/e98e15f5e6)
 
 ## Show or hide completed work in the Workload Balancer
 
@@ -62,11 +50,7 @@ Prior to this enhancement, completed work items always displayed in the Workload
 
 For more information about adjusting settings in the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/449692906?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/449692906/46bd75178c)
+[Watch a video demonstration of this feature.](https://vimeo.com/449692906/46bd75178c)
 
 ## Usability improvements in the Workload Balancer
 
@@ -84,11 +68,7 @@ To ensure a streamlined and user-friendly experience when you manage your resour
 
 For more information about navigating the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/449724331?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/449724331/dcf4496745)
+[Watch a video demonstration of this feature.](https://vimeo.com/449724331/dcf4496745)
 
 ## User allocation chart in the Workload Balancer
 
@@ -96,11 +76,7 @@ To allow you to have a high-level visual representation of users' allocation wit
 
 For more information about configuring settings in the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/453396263?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/453396263/be1033c77e)
+[Watch a video demonstration of this feature.](https://vimeo.com/453396263/be1033c77e)
 
 ## Visualize completed work in the Workload Balancer
 
@@ -108,11 +84,7 @@ To allow you to easily identify work that has already been completed so you can 
 
 For information about viewing information in the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/456734180?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/456734180/9cbac45fa3)
+[Watch a video demonstration of this feature.](https://vimeo.com/456734180/9cbac45fa3)
 
 ## New Default filter for the Assigned Work area in the Workload Balancer
 
@@ -122,11 +94,7 @@ Before this enhancement, all users that you had access to view displayed in this
 
 For information about using filters in the Workload Balancer, see [Manage filters in the Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/456735424?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/456735424/b331b63886)
+[Watch a video demonstration of this feature.](https://vimeo.com/456735424/b331b63886)
 
 ## New icon for switching between hours and percentage values, or allocated and remaining time in the Workload Balancer
 
@@ -136,11 +104,7 @@ This improvement eliminates clicks and makes navigating the Workload Balancer ea
 
 For information about managing settings for the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/461463204?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/461463204/4daec9d3dd)
+[Watch a video demonstration of this feature.](https://vimeo.com/461463204/4daec9d3dd)
 
 ## A new built-in filter for the Workload Balancer: Users on projects
 
@@ -148,8 +112,4 @@ To make your filtering experience in the Workload Balancer more efficient, we ha
 
 For information about using filters in the Workload Balancer, see [Filter information in the Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/461465895?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/461465895/0e567c9080) 
+[Watch a video demonstration of this feature.](https://vimeo.com/461465895/0e567c9080) 

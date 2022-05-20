@@ -21,7 +21,7 @@ For information about assigning work items in the Workload Balancer, see [Overvi
 <iframe class="vimeo-player_0" src="assets/601068019?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/601068019/12a45f567d)
+[Watch a video demonstration of this feature.](https://vimeo.com/601068019/12a45f567d)
 
 ## New default option for Workload Balancer
 
@@ -52,4 +52,4 @@ For more information, see [Manage filters in the Workload Balancer](../../../res
 <iframe class="vimeo-player_0" src="assets/600531468?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/600531468/314ff38a21) 
+[Watch a video demonstration of this feature.](https://vimeo.com/600531468/314ff38a21) 

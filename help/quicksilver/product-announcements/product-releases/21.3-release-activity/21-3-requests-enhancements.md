@@ -28,4 +28,4 @@ For more information, see [Create and submit Adobe Workfront requests](/help/qui
 <iframe class="vimeo-player_0" src="assets/558570896?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/558570896/d931cdef2c) 
+[Watch a video demonstration of this feature.](https://vimeo.com/558570896/d931cdef2c) 

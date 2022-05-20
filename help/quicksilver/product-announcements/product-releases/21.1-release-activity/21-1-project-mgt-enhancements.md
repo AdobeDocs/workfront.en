@@ -27,11 +27,7 @@ We have updated the way the percent complete of issues works for issues that hav
 
 For information about converting issues, see [Overview of Resolving and Resolvable Objects](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/500719034?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/500719034/87fc33b58d)
+[Watch a video demonstration of this feature.](https://vimeo.com/500719034/87fc33b58d)
 
 ## New Submitted Requests list
 
@@ -39,11 +35,7 @@ To allow you to manage your Submitted Requests in an easier, more consistent way
 
 For information about how to locate submitted requests, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/486869995?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/486869995/53b63d4053)
+[Watch a video demonstration of this feature.](https://vimeo.com/486869995/53b63d4053)
 
 This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
 
@@ -71,11 +63,7 @@ We have replaced the Assigned To, Job Role, and Team fields with the new Assignm
 
 For information about defining New Issue Fields for a project, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/500720751?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/500720751/63bdf6ac91)
+[Watch a video demonstration of this feature.](https://vimeo.com/500720751/63bdf6ac91)
 
 ## New experience when submitting requests in the Requests area
 
@@ -93,11 +81,7 @@ Ability to share a link to the request queue, topic group, or queue topic as you
 
 For information about submitting requests, see [Create and submit Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/500718803?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/500718803/3cac0e333d)
+[Watch a video demonstration of this feature.](https://vimeo.com/500718803/3cac0e333d)
 
 ## Share a link to a request queue when submitting a request
 
@@ -111,11 +95,7 @@ Before you submit a new request, you can copy a link to the request queue, topic
 
 For information about sharing a link to a request queue when submitting a request, see [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/500718523?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/500718523/bc6600e610)
+[Watch a video demonstration of this feature.](https://vimeo.com/500718523/bc6600e610)
 
 ## Search for a group you want to assign to a project and view its details
 
@@ -129,11 +109,7 @@ With this information, you can be assured that you are selecting the right group
 
 For more information, see [Manage information in the project Overview area](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/492153020?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/492153020/dfaa5b708a)
+[Watch a video demonstration of this feature.](https://vimeo.com/492153020/dfaa5b708a)
 
 ## New User Delegation report
 

@@ -19,11 +19,7 @@ In Workfront Classic, the option Switch to the new experience appears in the men
 
 For more information, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/466353836?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/466353836/c1f3faa632)
+[Watch a video demonstration of this feature.](https://vimeo.com/466353836/c1f3faa632)
 
 This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
 
@@ -43,11 +39,7 @@ To improve the readability and overall experience, the following email templates
 
 To enable email for testing purposes in your Preview environment, see the Managing emails in preview section in [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/468333260?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/468333260/3d58c57706)
+[Watch a video demonstration of this feature.](https://vimeo.com/468333260/3d58c57706)
 
 ## New email notifications for teams
 
@@ -66,11 +58,7 @@ Also, notice our modern styling now improving the experience of configuring even
 
 For information about configuring email notifications, see [Configure event notifications for everyone in the system](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/466660243?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/466660243/af773312e4)
+[Watch a video demonstration of this feature.](https://vimeo.com/466660243/af773312e4)
 
 This feature is now included in the [Email and in-app notifications learning path](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) on Workfront One.
 

@@ -19,11 +19,7 @@ Also, to make this experience familiar for you, we've designed the user interfac
 
 For more information, see [Configure sharing for custom fields and widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/468260023?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/468260023/5aa0e72e0f)
+[Watch a video demonstration of this feature.](https://vimeo.com/468260023/5aa0e72e0f)
 
 ## New for administrators: Standardized Custom Form sharing
 
@@ -31,11 +27,7 @@ We have standardized sharing for Custom Forms so you can use the same Workfront 
 
 For more information, see [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/468263599?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/468263599/76731363ab)
+[Watch a video demonstration of this feature.](https://vimeo.com/468263599/76731363ab)
 
 ## Export custom forms and overview information from the Details section of a project, task, or issue
 
@@ -45,11 +37,7 @@ In addition to exporting the custom forms of projects, tasks, and issues, you ca
 
 For information about exporting custom forms from an object, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/475140925?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/475140925/d8b4af7df2)
+[Watch a video demonstration of this feature.](https://vimeo.com/475140925/d8b4af7df2)
 
 ## Quickly add an iteration
 
@@ -63,11 +51,7 @@ You can still create an iteration on the backlog tag as before.
 
 For more information, see [Create an iteration](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/468254955?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/468254955/4793074696)
+[Watch a video demonstration of this feature.](https://vimeo.com/468254955/4793074696)
 
 ## New Metrics section available in projects
 
@@ -79,11 +63,7 @@ To save time and increase understanding of the overall health of a project, ther
 
 You can make selections on the charts to see different aspects of the tasks and issues in a project and click certain elements to display task information.
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/466352367?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/466352367/4d21ec5ee2)
+[Watch a video demonstration of this feature.](https://vimeo.com/466352367/4d21ec5ee2)
 
 This feature is now included in the [Planner Fundamentals, Part 3 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) on Workfront One.
 
@@ -95,11 +75,7 @@ The new Business Leader field can be used in report filters, views, and grouping
 
 For more information, see [Business Leader overview](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/448953715?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/448953715/bcf80b1904)
+[Watch a video demonstration of this feature.](https://vimeo.com/448953715/bcf80b1904)
 
 This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
 
@@ -111,11 +87,7 @@ For example, you can list all of your organization's portfolios in a report and 
 
 For more information, see the section “About associating a group with an object” in the article [Groups overview](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/461460332?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/461460332/1b2d6b6d40)
+[Watch a video demonstration of this feature.](https://vimeo.com/461460332/1b2d6b6d40)
 
 This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
 
@@ -127,11 +99,7 @@ For more information, see [Create and edit companies](../../../administration-an
 
 For information about administrative access to companies, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/466659070?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/466659070/870bf7b974)
+[Watch a video demonstration of this feature.](https://vimeo.com/466659070/870bf7b974)
 
 This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
 
@@ -143,11 +111,7 @@ Updated on September 24th: After clicking Start task or Start issue, you now hav
 
 For more information on configuring this option, see [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/449328676?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/449328676/39af5acaac)
+[Watch a video demonstration of this feature.](https://vimeo.com/449328676/39af5acaac)
 
 This feature is now included in the [Worker Fundamentals learning path](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) and the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
 
@@ -159,11 +123,7 @@ Prior to this enhancement, Workfront saved only one draft for each queue topic i
 
 For information about submitting requests, see “ [Create and submit Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/449464937?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/449464937/4ad38b67f1)
+[Watch a video demonstration of this feature.](https://vimeo.com/449464937/4ad38b67f1)
 
 ## Assign a group to a team
 
@@ -173,11 +133,7 @@ When you assign a team to a group, its Group Administrators can manage the team 
 
 For more information, see [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/452281329?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/452281329/7429cf3393)
+[Watch a video demonstration of this feature.](https://vimeo.com/452281329/7429cf3393)
 
 This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
 
@@ -192,11 +148,7 @@ For example, imagine that you manage a group called Marketing that has the subgr
 
 For information about using fields in lists and reports, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/452280180?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/452280180/6599785cdd)
+[Watch a video demonstration of this feature.](https://vimeo.com/452280180/6599785cdd)
 
 ## New option to cancel your action when discarding a request draft
 
@@ -204,8 +156,4 @@ When discarding a saved draft, you can now click Cancel on the confirmation mess
 
 This feature is available only in the new Workfront experience. For information, see [Create and Submit Workfront requests](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FManage_work%2FRequests%2FCreate_Requests%2Fcreate-submit-requests.html).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/461469587?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/461469587/4c6a154ac4) 
+[Watch a video demonstration of this feature.](https://vimeo.com/461469587/4c6a154ac4) 

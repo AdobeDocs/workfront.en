@@ -25,7 +25,7 @@ For more information, see [Salesforce modules](../../../workfront-fusion/apps-an
 <iframe class="vimeo-player_0" src="assets/580433094?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/580433094/fe81c38dc6)
+[Watch a video demonstration of this feature.](https://vimeo.com/580433094/fe81c38dc6)
 
 ## More clearly see details of account access when giving consent to Adobe Workfront Fusion connectors
 
@@ -37,4 +37,4 @@ For more information, see the [Connect the module's app or web service to Workfr
 <iframe class="vimeo-player_0" src="assets/580421677?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/580421677/ed98219259) 
+[Watch a video demonstration of this feature.](https://vimeo.com/580421677/ed98219259) 

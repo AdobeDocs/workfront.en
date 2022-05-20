@@ -26,7 +26,7 @@ For more information, see [Adobe Workfront modules](../../../../../workfront-fus
 <iframe class="vimeo-player_0" src="assets/462776752?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/462776752/b869edeb69)
+[Watch a video demonstration of this feature.](https://vimeo.com/462776752/b869edeb69)
 
 ## Updates to Workfront > Watch Fields module
 

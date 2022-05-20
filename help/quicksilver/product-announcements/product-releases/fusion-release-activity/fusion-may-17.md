@@ -26,7 +26,7 @@ For more information, see [Copy modules or scenarios in Adobe Workfront Fusion](
 <iframe class="vimeo-player_0" src="assets/551492029?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/551492029/711caab03b)
+[Watch a video demonstration of this feature.](https://vimeo.com/551492029/711caab03b)
 
 ## Select multiple modules in a Workfront Fusion scenario
 
@@ -48,7 +48,7 @@ To make it easier to create scenarios, we've made it possible for modules to pre
 <iframe class="vimeo-player_0" src="assets/551494114?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/551494114/426ca80e2d)
+[Watch a video demonstration of this feature.](https://vimeo.com/551494114/426ca80e2d)
 
 ## Azure AD connector now handles new and updated records separately
 

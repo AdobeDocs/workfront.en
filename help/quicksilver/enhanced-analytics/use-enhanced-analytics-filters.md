@@ -59,7 +59,7 @@ View the following video to learn more about the filters in the Enhanced analyti
 <iframe class="vimeo-player_0" src="assets/441153490?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/441153490/8d5303704c)
+[Watch a video demonstration of this feature.](https://vimeo.com/441153490/8d5303704c)
 
 ## Change the date range filter {#change-the-date-range-filter}
 

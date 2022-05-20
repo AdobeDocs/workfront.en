@@ -36,7 +36,7 @@ For more information, see the section [Start creating a custom form](../../../ad
 <iframe class="vimeo-player_0" src="assets/686898305?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/686898305/86fc383bc3)
+[Watch a video demonstration of this feature.](https://vimeo.com/686898305/86fc383bc3)
 
 ## Blueprints catalog is available to all users, and administrators can allow requests
 
@@ -48,7 +48,7 @@ Additionally, the system administrator can enable access for users to request in
 <iframe class="vimeo-player_0" src="assets/686442426?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/686442426/10adf97900)
+[Watch a video demonstration of this feature.](https://vimeo.com/686442426/10adf97900)
 
 ## Add an image to a custom form
 
@@ -68,7 +68,7 @@ For more information, see [Add or edit an asset widget in a custom form](../../.
 <iframe class="vimeo-player_0" src="assets/687162516?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/687162516/4f765595de)
+[Watch a video demonstration of this feature.](https://vimeo.com/687162516/4f765595de)
 
 ## New default access level configurations
 
@@ -99,7 +99,7 @@ All of these changes disable an option that was previously enabled by default. I
 <iframe class="vimeo-player_0" src="assets/670799553?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/670799553/3446ee44df)
+[Watch a video demonstration of this feature.](https://vimeo.com/670799553/3446ee44df)
 
 ## Deactivate a group
 
@@ -115,7 +115,7 @@ For more information, see [Deactivate or reactivate a group](../../../administra
 <iframe class="vimeo-player_0" src="assets/686912349?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/686912349/0333c2a15a)
+[Watch a video demonstration of this feature.](https://vimeo.com/686912349/0333c2a15a)
 
 ## Blueprints installation history enhancements
 

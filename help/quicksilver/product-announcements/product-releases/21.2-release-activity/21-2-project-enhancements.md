@@ -25,7 +25,7 @@ For more information, see [Create recurring tasks](../../../manage-work/tasks/cr
 <iframe class="vimeo-player_0" src="assets/539887494?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/539887494/5d6eb5bc04)
+[Watch a video demonstration of this feature.](https://vimeo.com/539887494/5d6eb5bc04)
 
 This feature is now included in the [Planner Fundamentals for the new Workfront experience, Part 2: Plan a Project](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) learning path on Workfront One.
 
@@ -43,7 +43,7 @@ For more information on these filters, see [Subtabs replaced by new main areas o
 <iframe class="vimeo-player_0" src="assets/539899695?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/539899695/71295bba4f)
+[Watch a video demonstration of this feature.](https://vimeo.com/539899695/71295bba4f)
 
 This feature is now included in the [Planner Fundamentals for the new Workfront experience, Part 1: Create a Project](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) learning path on Workfront One.
 
@@ -63,7 +63,7 @@ For more information, see [Manage stories and issues on the Scrum board](../../.
 <iframe class="vimeo-player_0" src="assets/540320334?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/540320334/bfa90eda56)
+[Watch a video demonstration of this feature.](https://vimeo.com/540320334/bfa90eda56)
 
 ## New Edit Issue Box
 
@@ -84,7 +84,7 @@ In addition to an updated look and feel, the following changes are also availabl
 <iframe class="vimeo-player_0" src="assets/539897635?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/539897635/47d032e7ec)
+[Watch a video demonstration of this feature.](https://vimeo.com/539897635/47d032e7ec)
 
 ## Relocated the Save and Cancel buttons for the Edit and New Object boxes
 
@@ -117,7 +117,7 @@ For information about filling out custom forms, see [Edit information in custom 
 <iframe class="vimeo-player_0" src="assets/522396709?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/522396709/91d3105bd5)
+[Watch a video demonstration of this feature.](https://vimeo.com/522396709/91d3105bd5)
 
 ## The Primary Contact of an Issue is now visible from the Project Details area
 
@@ -135,7 +135,7 @@ For information about converting issues, see [Overview of converting issues in A
 <iframe class="vimeo-player_0" src="assets/516275975?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/516275975/f775e74810)
+[Watch a video demonstration of this feature.](https://vimeo.com/516275975/f775e74810)
 
 ## View information about a group that you want to assign to a portfolio, program, or team
 
@@ -171,7 +171,7 @@ For information about displaying information in lists, see [Get started with lis
 <iframe class="vimeo-player_0" src="assets/516458707?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/516458707/519f4f9295)
+[Watch a video demonstration of this feature.](https://vimeo.com/516458707/519f4f9295)
 
 ## New Edit Task box
 
@@ -198,7 +198,7 @@ For information about the new Edit Task box, see [Edit tasks](../../../manage-wo
 <iframe class="vimeo-player_0" src="assets/532016466?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/532016466/43c460aa79)
+[Watch a video demonstration of this feature.](https://vimeo.com/532016466/43c460aa79)
 
 ## New Task box
 
@@ -224,7 +224,7 @@ For information about the new New Task box, see [Create tasks in a project](../.
 <iframe class="vimeo-player_0" src="assets/532017842?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/532017842/ce691dffdd)
+[Watch a video demonstration of this feature.](https://vimeo.com/532017842/ce691dffdd)
 
 ## Deactivate teams that are no longer in use
 
@@ -240,7 +240,7 @@ For more information, see [Deactivate a team](../../../people-teams-and-groups/c
 <iframe class="vimeo-player_0" src="assets/531482223?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/531482223/e4dacfe1b6)
+[Watch a video demonstration of this feature.](https://vimeo.com/531482223/e4dacfe1b6)
 
 ## Update to setting that allows users to delete tasks and issues with logged hours
 
@@ -258,4 +258,4 @@ For more information, see [Configure system-wide task and issue preferences](../
 <iframe class="vimeo-player_0" src="assets/532018749?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/532018749/1926533b87) 
+[Watch a video demonstration of this feature.](https://vimeo.com/532018749/1926533b87) 

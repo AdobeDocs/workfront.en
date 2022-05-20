@@ -32,7 +32,7 @@ For more information, see [Audit logs](../../../administration-and-setup/add-use
 <iframe class="vimeo-player_0" src="assets/539856733?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/539856733/e94e63570c)
+[Watch a video demonstration of this feature.](https://vimeo.com/539856733/e94e63570c)
 
 This feature is now included in the [Admin Fundamentals for the new Workfront experience, Part 2: Project Setup](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) learning path on Workfront One.
 
@@ -56,7 +56,7 @@ We have made the following improvements in the Subgroups area in Setup.
 <iframe class="vimeo-player_0" src="assets/539859377?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/539859377/84bd210185)
+[Watch a video demonstration of this feature.](https://vimeo.com/539859377/84bd210185)
 
 ## New for administrators: Updated look and feel on Timesheets & Hours Preferences page
 
@@ -72,7 +72,7 @@ For information about Timesheets & Hours Preference, see [Configure timesheet an
 <iframe class="vimeo-player_0" src="assets/539860918?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/539860918/3624741d0f)
+[Watch a video demonstration of this feature.](https://vimeo.com/539860918/3624741d0f)
 
 ## For group administrators: List improvements in the Groups area
 
@@ -95,7 +95,7 @@ For information about the Groups area, see [Manage groups](../../../administrati
 <iframe class="vimeo-player_0" src="assets/534946023?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/534946023/6d5d89d7b2)
+[Watch a video demonstration of this feature.](https://vimeo.com/534946023/6d5d89d7b2)
 
 ## For group administrators: Create and edit programs from the Groups area in Setup
 
@@ -145,7 +145,7 @@ For more information, see the following articles:
 <iframe class="vimeo-player_0" src="assets/528565760?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/528565760/e545487892)
+[Watch a video demonstration of this feature.](https://vimeo.com/528565760/e545487892)
 
 ## New for group administrators: Assign group timesheet profiles
 
@@ -161,7 +161,7 @@ For information about the Timesheets & hours option in an access level, see [Gra
 <iframe class="vimeo-player_0" src="assets/522034916?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/522034916/0905893b78)
+[Watch a video demonstration of this feature.](https://vimeo.com/522034916/0905893b78)
 
 ## For administrators: Set the Filter, View, and Grouping that users see in object lists
 
@@ -177,7 +177,7 @@ For more information, see [Customize Filters, Views, and Groupings using a layou
 <iframe class="vimeo-player_0" src="assets/522039391?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/522039391/3a27a9499a)
+[Watch a video demonstration of this feature.](https://vimeo.com/522039391/3a27a9499a)
 
 This feature is now included in the [Administrator Fundamentals in the new Workfront Experience, Part 3: Control and Interface Experience](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) learning path on Workfront One.
 
@@ -199,7 +199,7 @@ For more information, [View all reports that use a particular custom field or wi
 <iframe class="vimeo-player_0" src="assets/513506359?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/513506359/d243b2f5b8)
+[Watch a video demonstration of this feature.](https://vimeo.com/513506359/d243b2f5b8)
 
 ## For group administrators: View and manage a group and its objects in one place
 
@@ -222,7 +222,7 @@ For more information, see the following articles:
 <iframe class="vimeo-player_0" src="assets/513509456?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/513509456/8b32fd6314)
+[Watch a video demonstration of this feature.](https://vimeo.com/513509456/8b32fd6314)
 
 ## New for administrators: More text formatting options available in Custom Form fields
 
@@ -234,4 +234,4 @@ For more information, see [Create or edit a custom form](../../../administration
 <iframe class="vimeo-player_0" src="assets/513508726?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/513508726/a63186ec85) 
+[Watch a video demonstration of this feature.](https://vimeo.com/513508726/a63186ec85) 

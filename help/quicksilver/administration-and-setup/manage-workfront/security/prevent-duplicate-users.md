@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
 <iframe class="vimeo-player_0" src="assets/371505632?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/371505632/2e6938ce06)
+[Watch a video demonstration of this feature.](https://vimeo.com/371505632/2e6938ce06)
 
 ## Create users with unique email addresses
 
@@ -77,7 +77,11 @@ To fix duplicate email addresses within a Workfront instance:
       1. Click **Switch to Text Mode** in the upper-right corner of the page.
       1. Paste the following Text Mode code:
 
-      <pre>group.0.linkedname=direct</pre><pre>group.0.namekey=emailAddr</pre><pre>group.0.valueexpression=LOWER({emailAddr})</pre><pre>group.0.valueformat=string</pre><pre>textmode=true</pre>
+      `group.0.linkedname=direct`
+      `group.0.namekey=emailAddr`
+      `group.0.valueexpression=LOWER({emailAddr})`
+      `group.0.valueformat=string`
+      `textmode=true`
    
    1. Rename the Grouping and save it.
 
@@ -93,7 +97,10 @@ To fix duplicate email addresses within a Workfront instance:
       * johndoe+reviewer@workfront.com
 
    * Change the domain to use a fake domain by appending the following text to the email address:
-     <pre>.inactive</pre>For example,John Doe could have the following domains: (These must be unique.)
+     
+     `.inactive`
+     
+     For example,John Doe could have the following domains: (These must be unique.)
 
       * johndoe@workfront.inactive
       * johndoe@workfront.inactive2

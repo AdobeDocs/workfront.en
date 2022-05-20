@@ -91,7 +91,7 @@ For more information, see [View a scenario's execution history in Adobe Workfron
 <iframe class="vimeo-player_0" src="assets/499405293?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/499405293/16c7b06548)
+[Watch a video demonstration of this feature.](https://vimeo.com/499405293/16c7b06548)
 
 ## Updates to Fusion 2.0 Data Store
 
@@ -107,7 +107,7 @@ For more information on Data Stores, see [Data store modules](../../../workfront
 <iframe class="vimeo-player_0" src="assets/499406655?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/499406655/925cab56d5)
+[Watch a video demonstration of this feature.](https://vimeo.com/499406655/925cab56d5)
 
 ## Make an API Key authorization request through the HTTP connector
 

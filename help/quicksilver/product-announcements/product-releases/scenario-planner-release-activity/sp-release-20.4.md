@@ -35,7 +35,7 @@ Watch the following video to understand how you can create a project by publishi
 <iframe class="vimeo-player_0" src="assets/468341019?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/468341019/0af7269c51)
+[Watch a video demonstration of this feature.](https://vimeo.com/468341019/0af7269c51)
 
 Watch the following video to understand how you can update a project previously imported on a plan by publishing a scenario:
 
@@ -43,7 +43,7 @@ Watch the following video to understand how you can update a project previously 
 <iframe class="vimeo-player_0" src="assets/468342122?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/468342122/11bb642ac6)
+[Watch a video demonstration of this feature.](https://vimeo.com/468342122/11bb642ac6)
 
 ## Share plans in the Scenario Planner
 
@@ -55,4 +55,4 @@ For information about sharing a plan in the Scenario Planner, see [Share a plan 
 <iframe class="vimeo-player_0" src="assets/468347771?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/468347771/c38e5cd092) 
+[Watch a video demonstration of this feature.](https://vimeo.com/468347771/c38e5cd092) 

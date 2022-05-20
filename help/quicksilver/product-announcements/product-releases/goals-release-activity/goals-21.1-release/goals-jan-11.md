@@ -25,7 +25,7 @@ For information about how Workfront calculates goal progress, see [Calculate goa
 <iframe class="vimeo-player_0" src="assets/500529208?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/500529208/7cbd6e5435)
+[Watch a video demonstration of this feature.](https://vimeo.com/500529208/7cbd6e5435)
 
 ## Consistent navigation and toolbar with new filter experience in Workfront Goals
 
@@ -44,7 +44,7 @@ For information on filters in Workfront Goals, see [Filter information in Adobe 
 <iframe class="vimeo-player_0" src="assets/500513083?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/500513083/8bdeda1257)
+[Watch a video demonstration of this feature.](https://vimeo.com/500513083/8bdeda1257)
 
 ## Improvements to updating results in the Goal Details panel
 
@@ -63,7 +63,7 @@ For information about adding and editing results, see the following articles:
 <iframe class="vimeo-player_0" src="assets/500527458?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/500527458/c5805ad86d)
+[Watch a video demonstration of this feature.](https://vimeo.com/500527458/c5805ad86d)
 
 ## Redesigned Goal Alignment section
 
@@ -80,4 +80,4 @@ For information about navigating the Goal Alignment section, see [Navigate the G
 <iframe class="vimeo-player_0" src="assets/500518626?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/500518626/5adb573096) 
+[Watch a video demonstration of this feature.](https://vimeo.com/500518626/5adb573096) 

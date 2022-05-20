@@ -22,7 +22,7 @@ Now you can add a cover image to a collection to make it easier to identify its 
 <iframe class="vimeo-player_0" src="assets/343321838?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/343321838/791937546c)
+[Watch a video demonstration of this feature.](https://vimeo.com/343321838/791937546c)
 
 If you don't select a cover image for a collection, Workfront Library selects a cover image based on the items contained in the collection. You can change the cover image for collections to which you have Manage permissions. For more information, see [Change the cover image on an item in Workfront Library](../../../workfront-library/content-management/change-cover-image-of-folder.md).
 

@@ -21,7 +21,7 @@ To learn more about what you can do with Workfront for Adobe XD, see [Adobe Work
 <iframe class="vimeo-player_0" src="assets/542233908?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/542233908/c5a5ab87a7)
+[Watch a video demonstration of this feature.](https://vimeo.com/542233908/c5a5ab87a7)
 
 ## Search for folders in document integrations
 
@@ -43,4 +43,4 @@ Previously, files were accessed through a file dialog based in Workfront.
 <iframe class="vimeo-player_0" src="assets/521967892?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/521967892/ab11b067b4) 
+[Watch a video demonstration of this feature.](https://vimeo.com/521967892/ab11b067b4) 

@@ -25,7 +25,7 @@ Also, you can attach a group approval process to a template and its template tas
 <iframe class="vimeo-player_0" src="assets/558295130?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/558295130/1eca3f7378)
+[Watch a video demonstration of this feature.](https://vimeo.com/558295130/1eca3f7378)
 
 ## Easier editing of fields in the Details section
 
@@ -44,7 +44,7 @@ Prior to this enhancement it was not clear which fields were editable and you ha
 <iframe class="vimeo-player_0" src="assets/558564446?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/558564446/3c2245362f)
+[Watch a video demonstration of this feature.](https://vimeo.com/558564446/3c2245362f)
 
 ## Consider cross-project predecessors when calculating handoff dates
 
@@ -60,7 +60,7 @@ For more information about handoff dates, see [Task Handoff Date overview](../..
 <iframe class="vimeo-player_0" src="assets/559081014?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/559081014/62ba0a3fcb)
+[Watch a video demonstration of this feature.](https://vimeo.com/559081014/62ba0a3fcb)
 
 ## Add existing stories and issues from the Scrum board
 
@@ -86,7 +86,7 @@ For more information, see [Add stories and issues from the Scrum board](../../..
 <iframe class="vimeo-player_0" src="assets/558298576?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/558298576/02a56bff72)
+[Watch a video demonstration of this feature.](https://vimeo.com/558298576/02a56bff72)
 
 ## Delete story or issue from the Kanban board
 
@@ -117,7 +117,7 @@ For more information, see [Iterations overview](../../../agile/use-scrum-in-an-a
 <iframe class="vimeo-player_0" src="assets/558299624?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/558299624/9af1e4fdd9)
+[Watch a video demonstration of this feature.](https://vimeo.com/558299624/9af1e4fdd9)
 
 ## Group project, task, and issue preferences
 
@@ -144,7 +144,7 @@ For more information, see [Request document approvals](../../../review-and-appro
 <iframe class="vimeo-player_0" src="assets/552623152?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/552623152/acad14e57e)
+[Watch a video demonstration of this feature.](https://vimeo.com/552623152/acad14e57e)
 
 ## Export information from the Details section of a portfolio or program
 
@@ -164,7 +164,7 @@ For information about exporting custom forms from an object, see [Export custom 
 <iframe class="vimeo-player_0" src="assets/552598277?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/552598277/c5de0a5c63)
+[Watch a video demonstration of this feature.](https://vimeo.com/552598277/c5de0a5c63)
 
 ## Added Planned Completion Date timestamp in the object's header
 
@@ -182,7 +182,7 @@ For information about the object headers in the new Workfront experience, see [N
 <iframe class="vimeo-player_0" src="assets/552963773?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/552963773/42e8a756cd)
+[Watch a video demonstration of this feature.](https://vimeo.com/552963773/42e8a756cd)
 
 ## Add a custom form to an object without editing it
 
@@ -200,4 +200,4 @@ For information about adding a custom form to an object, see [Add a custom form 
 <iframe class="vimeo-player_0" src="assets/552596293?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/552596293/0aa3718e83) 
+[Watch a video demonstration of this feature.](https://vimeo.com/552596293/0aa3718e83) 

@@ -21,7 +21,7 @@ For information, see [Navigate the Workload Balancer](../../../resource-mgmt/wor
 <iframe class="vimeo-player_0" src="assets/539893609?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/539893609/a86dd40f4f)
+[Watch a video demonstration of this feature.](https://vimeo.com/539893609/a86dd40f4f)
 
 ## Connection between the Scenario Planner, Workload Balancer, and task list
 
@@ -44,7 +44,7 @@ For information, see the following articles:
 <iframe class="vimeo-player_0" src="assets/539890235?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/539890235/7127d1d666)
+[Watch a video demonstration of this feature.](https://vimeo.com/539890235/7127d1d666)
 
 ## Use Planned Hours when calculating Net values in the Resource Planner
 
@@ -58,7 +58,7 @@ For information, see [Overview of hours, FTE, and cost information in the Projec
 <iframe class="vimeo-player_0" src="assets/522026737?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/522026737/0cb6ce8144)
+[Watch a video demonstration of this feature.](https://vimeo.com/522026737/0cb6ce8144)
 
 ## 12-week view in the Workload Balancer
 
@@ -70,7 +70,7 @@ For information about viewing the Workload Balancer, see [Navigate the Workload 
 <iframe class="vimeo-player_0" src="assets/521971867?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/521971867/daebeb2c7f)
+[Watch a video demonstration of this feature.](https://vimeo.com/521971867/daebeb2c7f)
 
 ## Change in the way the Job Role filter works in the Unassigned area of the Workload Balancer
 

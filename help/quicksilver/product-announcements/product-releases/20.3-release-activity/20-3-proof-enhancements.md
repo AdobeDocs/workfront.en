@@ -55,8 +55,4 @@ Previously, you had to generate the proof, then go into the Proofing Workflow ar
 
 For more information, see [Create a proof for a document](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/434797920?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[View this video in full-screen mode.](https://vimeo.com/434797920/4710a33ec1) 
+[Watch a video demonstration of this feature.](https://vimeo.com/434797920/4710a33ec1) 
