@@ -10,7 +10,10 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # Get started with Adobe Workfront Fusion
 
-Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+>[!NOTE]
+>
+>Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+
 This section contains the following articles:
 
 * [Adobe Workfront Fusion overview](../../workfront-fusion/get-started/workfront-fusion-overview.md) 

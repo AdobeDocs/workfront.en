@@ -35,8 +35,6 @@ Every API request requires a session key. This session key identifies the Workfr
 
 All requests use the following envelope, header and body format:
 
-<!--WRITER - check code -->
-
 ```
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:proofhqapi">`
    <soapenv:Header/>
