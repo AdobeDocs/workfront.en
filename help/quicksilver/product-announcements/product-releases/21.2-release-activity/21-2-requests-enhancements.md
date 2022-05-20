@@ -28,10 +28,6 @@ For more information, see the following articles:
 * [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) 
 * [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/534936462?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/534936462/5bc0cd18f2)
 
 ## Improvements to creating requests and managing drafts
@@ -47,10 +43,6 @@ As we continue to incorporate your feedback about creating requests in the new W
 * Provide a Close button when creating a new request to leave the request without losing the draft. In addition to this change, the “Discard” button has been renamed to “Discard draft.”
 
 For information about creating new requests, see [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/534942833?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/534942833/015c804c90)
 
@@ -68,10 +60,6 @@ As we continue to listen to and incorporate your feedback, we have added several
 * Sorting the Submitted requests list by one of the columns is now preserved when you navigate away from the page. For more information, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 * When creating a new request, the Submit and Cancel buttons are now located at the bottom of the New request form. For more information, see [Create and submit Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/529398888?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/529398888/a1f8b351d2)
 
 This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
@@ -85,10 +73,6 @@ This feature is now included in the [Collaborator Fundamentals for the new Workf
 To make your experience consistent across all areas of Adobe Workfront, we have added the Open Summary icon to the Submitted section of the Requests area. Now, you can open the Summary panel for submitted issues and see more information about the issues, assign them, or add a document or a comment.
 
 For information about the submitted requests, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/525633302?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/525633302/3a24c51f28)
 
@@ -120,10 +104,6 @@ Ability to share a link to the request queue, topic group, or queue topic as you
 
 For information about submitting requests, see [Create and submit Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/500718803?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/500718803/3cac0e333d)
 
 This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
@@ -139,10 +119,6 @@ We have now made it possible to share a link to a request queue, topic group, or
 Before you submit a new request, you can copy a link to the request queue, topic group, or queue topic of the request and share it with other users, or embed it in a dashboard.
 
 For information about sharing a link to a request queue when submitting a request, see [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/500718523?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/500718523/bc6600e610)
 

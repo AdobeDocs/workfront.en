@@ -31,10 +31,6 @@ For information about how a Workfront administrator unlocks a timesheet and hour
 
 For information about how a group administrator configures unlocked task and issue preferences for a group, see [Configure timesheet and hour preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/600488692?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/600488692/f2722950ee)
 
 ## New for Workfront administrators: Configure layout templates for auto-provisioned users in the new Workfront experience
@@ -48,10 +44,6 @@ For instructions on mapping user attributes, see [Map user attributes and auto-p
 Now it's easy to find out which groups your users belong to. In a report or view that lists users, you can create a column using the new Other Groups field. This field lists the groups where each user is a member.
 
 For information about using reports and views, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) and [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/600493894?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/600493894/16b96b33a5)
 
@@ -73,10 +65,6 @@ Note that using these preferences does not make the projects created from the te
 
 For more information, see [Configure a blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/601113312?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/601113312/f4561ecf28)
 
 ## New for group administrators: View and manage a group's recently deleted and restored items
@@ -88,10 +76,6 @@ For more information, see [Configure a blueprint](../../../administration-and-se
 We are continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with a group's recently deleted and restored items from the Groups area. This saves you from having to go to the Recently Deleted or Recently Restored area in Setup to manage those items. And it keeps the list of group items you're working with separate from the other deleted and restored items in the system.
 
 For more information, see [View and manage a group's recently deleted items](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) and [View and manage a group's recently restored items](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/592790676?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/592790676/ec5e69f70e)
 
@@ -118,10 +102,6 @@ If you create a template or template task without a group—for example, from th
 
 For more information, see the section How preferences apply to templates and template tasks in the article [Create and modify a group's project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/592786526?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/592786526/d1d6ded612)
 
 ## New for administrators: Find out which custom forms are using a custom field
@@ -129,10 +109,6 @@ For more information, see the section How preferences apply to templates and tem
 Now it's easier to change a custom field in a custom form. With a single click in the custom form, you can find out about any other custom forms that are also using the field. It's important to assess whether those forms will need adjustments in order to keep working properly after you make the change.
 
 For more information, see [View all custom forms that use a particular custom field or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/588949432?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/588949432/c527dc4072)
 

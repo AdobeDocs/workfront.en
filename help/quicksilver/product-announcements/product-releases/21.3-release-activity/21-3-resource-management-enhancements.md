@@ -21,8 +21,4 @@ Tasks and issues assigned to a deactivated role as well as approval processes or
 
 For more information, see [Deactivate job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/555728654?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/555728654/ceb3bc26f1) 

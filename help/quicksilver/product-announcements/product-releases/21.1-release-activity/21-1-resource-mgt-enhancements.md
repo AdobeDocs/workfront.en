@@ -19,10 +19,6 @@ The Workload Balancer is now available within a project. Now, you have an option
 
 For information about where the Workload Balancer can be located in Adobe Workfront, see [Locate the Workload Balancer](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/492158522?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/492158522/5deb0a3832)
 
 ## Workfront Balancer available for a team
@@ -30,9 +26,5 @@ For information about where the Workload Balancer can be located in Adobe Workfr
 The Workload Balancer is now available within a team. Now, you have an option to select between using the Workload Balancer or the Scheduling tool to manage your team resources.
 
 For information about where the Workload Balancer can be located in Workfront, see [Locate the Workload Balancer](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/481773016?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature](https://vimeo.com/481773016/2f660f9f36).

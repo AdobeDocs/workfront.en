@@ -17,9 +17,6 @@ We're excited to announce the launch of our new plugin: Workfront for Adobe XD. 
 
 To learn more about what you can do with Workfront for Adobe XD, see [Adobe Workfront for XD](../../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/542233908?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/542233908/c5a5ab87a7)
 
@@ -38,9 +35,5 @@ The Google Drive integration now supports new Google security protocols.
 When linking to, uploading, or creating files on Google Drive from the Documents section of a Adobe Workfront object, Workfront now accesses your Google files through Google's file picker. This limits Workfront's access and visibility only to those Google files that you link to Workfront.
 
 Previously, files were accessed through a file dialog based in Workfront.
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/521967892?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/521967892/ab11b067b4) 

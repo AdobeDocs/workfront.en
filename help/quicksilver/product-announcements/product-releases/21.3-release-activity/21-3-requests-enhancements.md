@@ -24,8 +24,4 @@ A path includes the request queue and all the topic groups and queue topics that
 
 For more information, see [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/558570896?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/558570896/d931cdef2c) 
