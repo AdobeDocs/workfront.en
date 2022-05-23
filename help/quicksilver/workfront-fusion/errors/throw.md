@@ -18,7 +18,7 @@ Currently the [Directives for error handling in Adobe Workfront Fusion](../../wo
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -37,16 +37,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -57,10 +48,6 @@ You must have the following access to use the functionality in this article:
 ## Workaround for Throw
 
 To conditionally throw an error, you may configure a module to make it optionally purposely fail during its operation. One possibility is to employ the JSON >&nbsp;Parse JSON module (see [JSON modules](../../workfront-fusion/apps-and-their-modules/json-modules.md)), configured to optionally throw an error (BundleValidationError in this case):
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/json-350x217.png" style="width: 350;height: 217;"> </p>
--->
 
 You can then attach one of the [Directives for error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md) to the error handling route to:
 

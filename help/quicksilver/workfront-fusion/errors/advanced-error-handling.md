@@ -16,7 +16,7 @@ Advanced error handling techniques include filtering and nesting.
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -35,16 +35,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -63,13 +54,19 @@ There are two kinds of filtering that can take place on an error handler route.
 
 You can use a filter to control which errors are handled by the error handler route. This allows you to process only specific types of errors. If an error does not pass through the filter, it will be treated as if there is no error handler route defined for the given module.
 
-**Example:**  ![](assets/filter-error-handling-350x238.png)
+>[!INFO]
+>
+>**Example:**  
+>
+>![](assets/filter-error-handling-350x238.png)
 
 ### Adding a Router followed by filters to the error handler route {#adding-a-router-followed-by-filters-to-the-error-handler-route}
 
-![](assets/router-filter-error-handling-350x254.png)
-
-In this example, the error takes place at the Create a folder module (A), which has a regular route and an error handler route. The latter is followed by a router with one route that has a filter that defines a specific type of error (Data Error Takes Place), and the other which is the default route for all other errors. The first route ends with the Resume directive which contains substitute values for the scenario to resume from module A (Create a folder), while the second route ends with the Rollback directive which stops the scenario execution immediately.
+>[!INFO]
+>
+>![](assets/router-filter-error-handling-350x254.png)
+>
+>In this example, the error takes place at the Create a folder module (A), which has a regular route and an error handler route. The latter is followed by a router with one route that has a filter that defines a specific type of error (Data Error Takes Place), and the other which is the default route for all other errors. The first route ends with the Resume directive which contains substitute values for the scenario to resume from module A (Create a folder), while the second route ends with the Rollback directive which stops the scenario execution immediately.
 
 See [Error processing in Adobe Workfront Fusion](../../workfront-fusion/errors/error-processing.md) for further information on various error types and on how Workfront Fusion processes and evaluates them.
 
