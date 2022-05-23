@@ -184,7 +184,7 @@ To create a custom view:
       </tr>
       <tr>
       <td><strong>Proof version number</strong></td>
-      <td><i>The version number of the proof.<//i></td>
+      <td><i>The version number of the proof.</i></td>
       </tr> 
       </tbody>
       </table>
