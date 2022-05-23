@@ -136,7 +136,7 @@ When you import a project into a plan some project information is also imported 
 >  -->
 >* Changes to the initiative affect the information in the Scenario Planner area on the project only when you publish the initiative to the corresponding project. Otherwise, they do not affect the Planned Hours information for the tasks and issues of the project. 
 >
->  ```For information about how publishing initiatives affects the linked projects, see``` ``` [Update or create projects by publishing initiatives in the Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md)```. 
+>  For information about how publishing initiatives affects the linked projects, see  [Update or create projects by publishing initiatives in the Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md). 
 >
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click&nbsp;Scenarios to access the Scenario Planner.

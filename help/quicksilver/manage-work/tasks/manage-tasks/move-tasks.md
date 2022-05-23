@@ -96,11 +96,10 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
 
    >[!TIP]
    >
-   >This field is dimmed and not editable when selecting to move multiple tasks in ```a``` ```list. You can hover over the Task Name field and a list of all selected tasks displays.```
+   >This field is dimmed and not editable when selecting to move multiple tasks in a list. You can hover over the Task Name field and a list of all selected tasks displays.
    >
    >
-   >![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)   >
-   >
+   >![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
 
 1. Type the name of the **Destination Project**&nbsp;where you want the task to move&nbsp;in the **Select Destination Project** field.&nbsp;
 
@@ -191,7 +190,7 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
 
    >[!TIP]
    >
-   >```When selecting to move multiple tasks in a list, all selected tasks become the children of the selected parent.```
+   >When selecting to move multiple tasks in a list, all selected tasks become the children of the selected parent.
 
    Select a parent by doing one of the following:
 

@@ -71,7 +71,7 @@ To create or edit a plan:
 
    A list of existing plans that you created displays in the Workfront Scenario Planner. 
 
-1. ```(Optional)``` ```Click the **Filter** icon ![](assets/filter-icon-34x37.png)in the upper-right corner of the plan list, and select from the following:```
+1. (Optional) Click the **Filter** icon ![](assets/filter-icon-34x37.png)in the upper-right corner of the plan list, and select from the following:
 
    | All |Displays all plans that you created or that have been shared with you.  |
    |---|---|
@@ -171,9 +171,9 @@ To create or edit a plan:
 
    ![](assets/adding-people-to-plan-350x206.png)
 
-1. Click the **Start typing job role** field and select a role from the list or start typing the name of an ```active``` job role.
+1. Click the **Start typing job role** field and select a role from the list or start typing the name of an active job role.
 
-   All ```active``` job roles in the system are listed when you click this field.
+   All active job roles in the system are listed when you click this field.
 
    This adds the job role to the Job&nbsp;Roles column. 
 
