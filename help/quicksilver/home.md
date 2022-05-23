@@ -43,7 +43,7 @@ HTML tables by default (fixed) have equally spaced columns.
       <img alt="Reporting" src="assets/reporting.png">
     </a>
     <div>
-    <a href="validation.md"><strong>Reporting</strong></a>
+    <a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md"><strong>Reporting</strong></a>
     </div>
     <em>Learn to use report dashboards, enhanced analytics, and Reporting Canvas.</em>
     <br>
@@ -84,7 +84,7 @@ HTML tables with auto layout no longer have equally spaced columns.
       <img alt="Reporting" src="assets/reporting.png">
     </a>
     <div>
-    <a href="validation.md"><strong>Reporting</strong></a>
+    <a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md"><strong>Reporting</strong></a>
     </div>
     <em>Learn to use report dashboards, enhanced analytics, and Reporting Canvas.</em>
     <br>
