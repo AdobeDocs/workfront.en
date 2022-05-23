@@ -58,7 +58,7 @@ By default, only active cards are displayed on a board. You can filter the board
 
    The filter shows the number of archived cards.
 
-   ![Filter archived cards](assets/Boards_FilterArchivedCards.png)
+   ![Filter archived cards](assets/boards-filter-by-archived-cards.png)
 
 1. Select **Archived cards** again to clear the option and display only active cards.
 

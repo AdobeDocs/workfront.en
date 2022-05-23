@@ -79,7 +79,5 @@ When using request queues, if you deactivate a team assigned as the default team
 
 Deactivated teams display in the following areas:
 
-* The Owner field in Workfront Goals. This requires an additional license for Adobe Workfront Goals.
-
-<!-- For more information, see [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md). -->
+* The Owner field in Workfront Goals. This requires an additional license for Adobe Workfront Goals. For more information, see [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 

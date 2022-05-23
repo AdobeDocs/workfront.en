@@ -23,7 +23,7 @@ Goal alignment is an important part of goal management. You can ensure everyone 
 
 After the top level goals are established and reviewed, direct reports and team members must then create more focused goals that cascade from the top level. The scope of these goals should be more narrow and should take into consideration the individual who is designated as responsible for the goal and their scope of influence. The goal should answer the question of what they and their team must achieve to fulfill the parent goal to which it is aligned.
 
-<!--For more information about best practices when aligning goals, see [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).-->
+For more information about best practices when aligning goals, see [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 ## Considerations for aligning goals
 
