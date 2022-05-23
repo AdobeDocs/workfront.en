@@ -6,13 +6,140 @@ description: Documentation for [!DNL Adobe Workfront].
 
 Adobe Workfront is a unified work management application for sharing ideas, creating content, managing complex processes, and doing your best work.
 
-<!-- 
+## Experiments with tables
 
-This is the landing page of the user guide. It should be the first list item in the TOC.md file. 
-See other user landing pages to get ideas. 
+For demo purposes only. Remember to delete after training.
 
-QuickSilver vs. Classic?
+### HTML table with fixed layout (good)
 
-Links to other resources?
+HTML tables by default (fixed) have equally spaced columns.
 
--->
+`<table style="table-layout:fixed">` at start of table
+
+<table style="table-layout:fixed">
+<tr>
+  <td>
+    <a href="/help/quicksilver/workfront-basics/workfront-basics.md">
+    <img alt="Getting Started" src="assets/get-started.png"/>
+    </a>
+    <div>
+    <a href="/help/quicksilver/workfront-basics/workfront-basics.md"><strong>Getting Started</strong></a>
+    </div>
+    <em>Getting started with Adobe Workfront.</em>
+    <br>
+  </td>
+  <td>
+    <a href="/help/quicksilver/administration-and-setup/administration-and-setup.md">
+      <img alt="Administration and setup" src="assets/admin.png">
+    </a>
+    <div>
+    <a href="/help/quicksilver/administration-and-setup/administration-and-setup.md"><strong>Administration and Setup</strong></a>
+    </div>
+    <em>Manage users and groups, set up notifications, and customize settings.</em>
+    <br>
+  </td>
+  <td>
+    <a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">
+      <img alt="Reporting" src="assets/reporting.png">
+    </a>
+    <div>
+    <a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md"><strong>Reporting</strong></a>
+    </div>
+    <em>Learn to use report dashboards, enhanced analytics, and Reporting Canvas.</em>
+    <br>
+  </td>
+</tr>
+</table>
+
+### HTML table with auto layout (bad)
+
+HTML tables with auto layout no longer have equally spaced columns.
+
+`<table style="table-layout:auto">` at start of table
+
+<table style="table-layout:auto">
+<tr>
+  <td>
+    <a href="/help/quicksilver/workfront-basics/workfront-basics.md">
+    <img alt="Getting Started" src="assets/get-started.png"/>
+    </a>
+    <div>
+    <a href="/help/quicksilver/workfront-basics/workfront-basics.md"><strong>Getting Started</strong></a>
+    </div>
+    <em>Getting started with Adobe Workfront.</em>
+    <br>
+  </td>
+  <td>
+    <a href="/help/quicksilver/administration-and-setup/administration-and-setup.md">
+      <img alt="Administration and setup" src="assets/admin.png">
+    </a>
+    <div>
+    <a href="/help/quicksilver/administration-and-setup/administration-and-setup.md"><strong>Administration and Setup</strong></a>
+    </div>
+    <em>Manage users and groups, set up notifications, and customize settings.</em>
+    <br>
+  </td>
+  <td>
+    <a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">
+      <img alt="Reporting" src="assets/reporting.png">
+    </a>
+    <div>
+    <a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md"><strong>Reporting</strong></a>
+    </div>
+    <em>Learn to use report dashboards, enhanced analytics, and Reporting Canvas.</em>
+    <br>
+  </td>
+</tr>
+</table>
+
+### HTML table with fixed layout (bad)
+
+HTML tables have equally spaced columns, which isn't ideal for 2-column item/description tables.
+
+`<table style="table-layout:fixed">` at start of table
+
+<table style="table-layout:fixed"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">View</td> 
+   <td> <li>Defines the columns in your report and what information you can include in each column.</li> <li>For information about views, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</li> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Grouping</td> 
+   <td> <li>Categorizes information based on a common piece of information and lists the results of the report under blue headings.</li> <li>For information about groupings, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</li> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Filter</td> 
+   <td> <li>Controls the amount of information that appears in a report.</li> <li>For information about filters, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</li> <li>For information about filter modifiers, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Filter and condition modifiers</a>.</li> <li>You can filter by using wildcards, to make your filters more general and give them more flexibility of usage.</li> <li>For information about using wildcards in filters, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Wildcard filter variables</a>.</li> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+### HTML table with auto layout (good)
+
+HTML tables have equally spaced columns, which isn't ideal for 2-column item/description tables.
+
+`<table style="table-layout:auto">` at start of table
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">View</td> 
+   <td> <li>Defines the columns in your report and what information you can include in each column.</li> <li>For information about views, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</li> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Grouping</td> 
+   <td> <li>Categorizes information based on a common piece of information and lists the results of the report under blue headings.</li> <li>For information about groupings, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</li> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Filter</td> 
+   <td> <li>Controls the amount of information that appears in a report.</li> <li>For information about filters, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</li> <li>For information about filter modifiers, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Filter and condition modifiers</a>.</li> <li>You can filter by using wildcards, to make your filters more general and give them more flexibility of usage.</li> <li>For information about using wildcards in filters, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Wildcard filter variables</a>.</li> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
