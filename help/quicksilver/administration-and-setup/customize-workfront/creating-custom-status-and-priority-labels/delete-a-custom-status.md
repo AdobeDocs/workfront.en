@@ -9,8 +9,8 @@ You can delete a custom system status if it is no longer useful to your organiza
 
 Whether the status is locked or unlocked determines if the status is deleted for all groups in the system:
 
-* When you delete a system status that is currently locked, the status is removed for all groups in the system, regardless of whether the group has&nbsp;renamed it.
-* When you delete a system status that is currently unlocked, the status remains for all groups in the system.
+* When you delete a system status that is currently locked, the status is removed for all groups in the system, regardless of whether the group has renamed it.
+* Conversely, when you delete a system status that is currently unlocked, the status remains for all groups in the system.
 
 
 >[!NOTE]
