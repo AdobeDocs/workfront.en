@@ -83,29 +83,17 @@ To indicate various periods of time and various points in time (future or past),
 | **m** |month |
 | **y** |year |
 
-| **Qualifiers** |
-|---|
+| **Qualifiers** | |
+|---|---|
 | **b** |beginning of the week (Sunday) |
 | **e** |ending of the week (Saturday)  |
 
-| **Operators** |
-|---|
+| **Operators** | |
+|---|---|
 | **+** |add value to wildcard value |
 | **-** |subtract value from wildcard value |
 
-For example, the wildcard 
-
-```
-$$TODAYb+2w
-```
-
-refers to "2 weeks from the beginning of this week". The wildcard *
-
-```
-$$NOW+2h
-```
-
-* refers to '2 hours from now'.
+For example, the wildcard `$$TODAYb+2w` refers to "2 weeks from the beginning of this week". The wildcard *`$$NOW+2h` refers to '2 hours from now'.
 
 ## User-based wildcard filter variables
 

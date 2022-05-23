@@ -189,7 +189,7 @@ To create a request in the Workfront web app:&nbsp;
 
    >[!TIP]
    >
-   >If you selected a draft ```or a previous path```, the topic groups and queue topics are already selected. You can select a different one, if needed.
+   >If you selected a draft or a previous path, the topic groups and queue topics are already selected. You can select a different one, if needed.
 
 1. Depending on what fields the Workfront administrator enabled in the **New Issue Fields** section of the **Queue Details**&nbsp;subtab on the project, you might find&nbsp;any of the following fields when you submit a new request:
 
@@ -273,15 +273,15 @@ To create a request in the Workfront web app:&nbsp;
    Custom forms are different for every Workfront instance.&nbsp;
 1. (Optional and conditional)&nbsp;At any point during entering the request, click **Discard****Discard draft** if you want to delete the draft that is automatically created. This deletes the draft which cannot be recovered. A confirmation message displays to acknowledge that you are deleting the draft. 
 
-1. (Optional) Click **Cancel** on the confirmation message if you want to revert your action and keep the ```draft.```
+1. (Optional) Click **Cancel** on the confirmation message if you want to revert your action and keep the draft.
 
 1. Do one of the following:
 
-   * Click ```**Submit**``` if you are ready to submit the request. The request is saved in the  Submitted section  . Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated&nbsp;as a Request Queue. For information about routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Click **Submit** if you are ready to submit the request. The request is saved in the  Submitted section  . Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated&nbsp;as a Request Queue. For information about routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
      Or
 
-     ```C``` ```lick **Close** if you are not quite ready to submit it and you might come back and finish it later```. Your request is saved in the Drafts  section and it will be available to you next time you submit a request for this request queue.
+     Click **Close** if you are not quite ready to submit it and you might come back and finish it later. Your request is saved in the Drafts  section and it will be available to you next time you submit a request for this request queue.
 
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 

@@ -111,7 +111,7 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
 
    >[!TIP]
    >
-   >This field is dimmed and not editable when selecting to copy multiple tasks in ```a``` ```list. You can hover over the Task Name field and a list of all selected tasks displays.```
+   >This field is dimmed and not editable when selecting to copy multiple tasks in a list. You can hover over the Task Name field and a list of all selected tasks displays.
    >
    >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
@@ -197,7 +197,7 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
 
    >[!TIP]
    >
-   >```When selecting to copy multiple tasks in a list, all selected tasks become the children of the selected parent.```
+   >When selecting to copy multiple tasks in a list, all selected tasks become the children of the selected parent.
 
    Select a parent by doing one of the following:
 
