@@ -18,7 +18,11 @@ Whether the status is locked or unlocked determines if the status is deleted for
 >You cannot delete the following:
 >
 >* The built-in statuses Planning, Current, and Complete. You can update their names, edit their colors, and lock or unlock them, but they can't be deleted.
->* Statuses that are in a pending state of approval for at least one object in your system.
+>* Statuses used in approval processes that are currently pending approval for at least one object in your system.
+>
+><!--
+>  You can run a report to find the objects and resolve the pending approvals, then try again to delete the status. For instructions, see .
+>-->
 
 For instructions on deleting a group status, see [Delete a group status](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md).
 
