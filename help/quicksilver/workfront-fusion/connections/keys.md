@@ -16,7 +16,7 @@ The keychain in Adobe Workfront Fusion will help you to administer public and pr
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -35,16 +35,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -56,15 +47,6 @@ You must have the following access to use the functionality in this article:
 
 If a module requires a public or private key, you can add it to the keychain in the [Configure a module's settings in Adobe Workfront Fusion](../../workfront-fusion/modules/configure-a-modules-settings.md). 
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-To administer all created keys, go to the profile and click the Keys link.
-</MadCap:conditionalText>
--->
 
 For more information on public and private keys, see [Basic terms in Adobe Workfront Fusion](../../workfront-fusion/get-started/basic-terms.md).
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Securing user data is a top priority for Workfront Fusion. For detailed information on how Workfront Fusion protects data, see our Privacy Policy.</p>
--->
 

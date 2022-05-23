@@ -17,7 +17,7 @@ A connection must adhere to the requirements set by the API of the app or web se
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -36,16 +36,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  
  </tbody> 
 </table>
 
@@ -92,7 +83,7 @@ For more information see:
 
 The following apps do not follow the basic configuration for Workfront Fusion connections. You can find instructions for connecting these apps in the article for that app.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <thead> 
@@ -103,10 +94,17 @@ The following apps do not follow the basic configuration for Workfront Fusion co
  </thead> 
  <tbody> 
   <tr> 
+   <td role="rowheader"> <p>Adobe Workfront</p> </td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/workfront-modules.md#connect" class="MCXref xref">Connect Adobe Workfront to Workfront Fusion</a> in <a href="../../workfront-fusion/apps-and-their-modules/workfront-modules.md" class="MCXref xref">Adobe Workfront modules</a></td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"> <p>Allocadia</p> </td> 
    <td><a href="../../workfront-fusion/apps-and-their-modules/allocadia-modules.md#connect" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in <a href="../../workfront-fusion/apps-and-their-modules/allocadia-modules.md" class="MCXref xref">Allocadia modules</a></td> 
   </tr> 
   <tr> 
+   <td role="rowheader"> <p>Anaplan</p> </td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/anaplan-modules.md#connect" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in <a href="../../workfront-fusion/apps-and-their-modules/anaplan-modules.md" class="MCXref xref">Anaplan modules</a></td> 
+  </tr>   <tr> 
    <td role="rowheader"> <p>AWS S3</p> </td> 
    <td><a href="../../workfront-fusion/apps-and-their-modules/aws-s3-modules.md#connecti" class="MCXref xref">Connect AWS to Workfront Fusion</a> in <a href="../../workfront-fusion/apps-and-their-modules/aws-s3-modules.md" class="MCXref xref">AWS S3 modules</a></td> 
   </tr> 
@@ -119,6 +117,9 @@ The following apps do not follow the basic configuration for Workfront Fusion co
    <td><a href="../../workfront-fusion/apps-and-their-modules/bynder-modules.md#connect" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in <a href="../../workfront-fusion/apps-and-their-modules/bynder-modules.md" class="MCXref xref">Bynder modules</a></td> 
   </tr> 
   <tr> 
+   <td role="rowheader"> <p>CloudConvert</p> </td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in <a href="../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md" class="MCXref xref">CloudConvert modules</a></td> 
+  </tr>   <tr> 
    <td role="rowheader"> <p>Cvent</p> </td> 
    <td><a href="../../workfront-fusion/apps-and-their-modules/cvent-modules.md#connect" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in <a href="../../workfront-fusion/apps-and-their-modules/cvent-modules.md" class="MCXref xref">Cvent modules</a></td> 
   </tr> 
@@ -133,12 +134,7 @@ The following apps do not follow the basic configuration for Workfront Fusion co
   <tr> 
    <td role="rowheader"> <p>Email</p> </td> 
    <td><a href="../../workfront-fusion/apps-and-their-modules/email-modules.md#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in <a href="../../workfront-fusion/apps-and-their-modules/email-modules.md" class="MCXref xref">Email modules</a></td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Frame.io</td> 
-    <td><a href="../../workfront-fusion/apps-and-their-modules/frame-io-modules.md#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in <a href="../../workfront-fusion/apps-and-their-modules/frame-io-modules.md" class="MCXref xref">Frame.io modules</a></td> 
-   </tr>
-  --> 
+
   <tr> 
    <td role="rowheader"> <p>Gmail</p> </td> 
    <td><a href="../../workfront-fusion/apps-and-their-modules/gmail-modules.md#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in <a href="../../workfront-fusion/apps-and-their-modules/gmail-modules.md" class="MCXref xref">Gmail modules</a></td> 

@@ -10,7 +10,10 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # Connections in Adobe Workfront Fusion
 
-Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+>[!AVAILABILITY]
+>
+>Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+
 This section contains the following articles:
 
 * [About connecting Adobe Workfront Fusion to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md) 

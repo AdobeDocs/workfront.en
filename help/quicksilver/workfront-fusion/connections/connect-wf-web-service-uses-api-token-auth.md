@@ -19,7 +19,7 @@ This article explains how to connect almost any web service to Workfront Fusion 
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -38,16 +38,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -92,7 +83,7 @@ To connect a web service to your Workfront Fusion scenario, you need to use the 
    >
    >These module settings correspond to the Pushover web service API documentation. Settings may be different for other web services. For example, the API token may be inserted to the Header and not to the Body field.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -131,19 +122,21 @@ To connect a web service to your Workfront Fusion scenario, you need to use the 
 
 Specify parameters and values in the JSON format.
 
-**Example:** 
+>[!INFO]
+>
+>**Example:** 
+>
+>```
+>{"user":"12345c2ecu1hq42ypqzhswbyam34",
+>
+>"token":"123459evz8aepwtxydndydgyumbfx",
+>
+>"message":"Hello World!",
+>
+>"title":"The Push Notification"}
+>```
 
-```
-{"user":"12345c2ecu1hq42ypqzhswbyam34",
-
-"token":"123459evz8aepwtxydndydgyumbfx",
-
-"message":"Hello World!",
-
-"title":"The Push Notification"}
-```
-
-<table> 
+ <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

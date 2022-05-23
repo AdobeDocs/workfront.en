@@ -13,7 +13,7 @@ description: You can use Adobe Workfront Fusion to connect to Google Services us
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -32,16 +32,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -91,7 +82,7 @@ To create a project on Google Cloud Platform:
 
 1. Fill the required fields as follows:
 
-   <table> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -110,19 +101,13 @@ To create a project on Google Cloud Platform:
     </tbody> 
    </table>
 
-1. Under Authorized domains, click **Add domain**, and enter 
-
-   ```
-   workfrontfusion.com
-   ```
-
-   .
+1. Under Authorized domains, click **Add domain**, and enter `workfrontfusion.com`.
 
 1. Click **Save and continue**.
 1. Click **Add or remove scopes**.
 1. In the right panel, enable the following scopes:
 
-   <table> 
+<table style="table-layout:auto">
     <col> 
     <col> 
     <thead> 
@@ -169,7 +154,7 @@ To create a project on Google Cloud Platform:
 
 1. Fill the required fields as follows:
 
-   <table> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -186,17 +171,9 @@ To create a project on Google Cloud Platform:
 
 1. Under Authorized redirect URIs, click **Add URI** and enter **one** of the following:
 
-   * For Gmail or Google Drive:    
-   
-     ```   
-     https://app.workfrontfusion.com/oauth/cb/google-restricted
-     ```
+   * For Gmail or Google Drive: `https://app.workfrontfusion.com/oauth/cb/google-restricted`
 
-   * For other Google apps:    
-   
-     ```   
-     https://app.workfrontfusion.com/oauth/cb/google
-     ```
+   * For other Google apps: `https://app.workfrontfusion.com/oauth/cb/google`
 
 1. Click **Create**.
 
@@ -215,7 +192,7 @@ The process of creating a connection to Google differs depending on whether you 
 ### Connect to Google in a Google service module {#connect-to-google-in-a-google-service-module}
 
 1. In Workfront Fusion, locate the Google module that you need to create a connection for.
-1. Click **Create a connection**, then click**Show advanced settings**.
+1. Click **Create a connection**, then click **Show advanced settings**.
 
 1. Enter the Client ID and Client Secret you retrieved in [Create OAuth Credentials](#create-oauth-credentials) in the respective fields, then click **Continue**.
 

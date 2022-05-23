@@ -18,8 +18,6 @@ The following existing resources have been updated with this release of the Adob
 
 ### AgileWork
 
-<!--WRITER check tables-->
-
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | `opTaskID`<sup>2</sup> |  |   |  |   |   |  |
@@ -84,7 +82,7 @@ Assignment
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| `color`  | agileWork  |   |   | `convertToProject`  |   |   |
+| `color`  | `agileWork`  |   |   | `convertToProject`  |   |   |
 | `isReady`  |   |   |   | `convertToTask`  |   |   |
 | `storyBoardOrder`  |   |   |   | `linkExternalObject`  |   |   |
 |   |   |   |   | `unlinkExternalObject`  |   |   |
@@ -107,7 +105,7 @@ Assignment
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-|   | agileWork  |   |   | `convertToProject`  |   |   |
+|   | `agileWork`  |   |   | `convertToProject`  |   |   |
 |   |   |   |   | `linkExternalObject`  |   |   |
 |   |   |   |   | `unlinkExternalObject`  |   |   |
 
@@ -115,7 +113,7 @@ Assignment
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| includeIssues  |   |   |   |   |   |   |
+| `includeIssues`  |   |   |   |   |   |   |
 
 ### TimesheetProfile
 
@@ -146,5 +144,5 @@ Assignment
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| `storyBoardOrder`  |  agileWork  |   |   | `getWFHomeObjects`  |   |   |
+| `storyBoardOrder`  |  `agileWork`  |   |   | `getWFHomeObjects`  |   |   |
 
