@@ -17,10 +17,6 @@ Prior to this enhancement, you could only assign items by clicking the More menu
 
 For information about assigning work items in the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/601068019?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/601068019/12a45f567d)
 
 ## New default option for Workload Balancer
@@ -47,9 +43,5 @@ For more information, see [Manage filters in the Workload Balancer](../../../res
 >[!NOTE]
 >
 >With the filter updates, we have eliminated the **All work items** and **This project's work items** built-in filters in the Workload Balancer of a project.
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/600531468?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/600531468/314ff38a21) 

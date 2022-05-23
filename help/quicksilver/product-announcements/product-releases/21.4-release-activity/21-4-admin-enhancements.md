@@ -126,10 +126,6 @@ Now you can ensure that everyone in the subgroups below your group is using the 
 
   For more information, see [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) and [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/586020054?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/586020054/00090701bf)
 
 ## New for group administrators: Create and edit templates from the Groups area
@@ -141,10 +137,6 @@ Now you can ensure that everyone in the subgroups below your group is using the 
 We're continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with a group's templates from the Groups area in Setup. This saves you from having to go to the Templates area to manage a group's templates. And it keeps the list of group templates you're working on separate from the others throughout the system.
 
 For more information, see [Create and modify a group's project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/586023814?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/586023814/1f7230e263)
 
@@ -161,10 +153,6 @@ Previously, when you entered information in one custom form or expandable area f
 If you do want to edit all custom forms and expandable areas in the Details section for an object, you can click Edit all on the new Edit menu that we added to the Edit icon. Or, on the same menu, you can click a name to scroll to the custom form or section where you want to make changes
 
 For more information, see [Edit object details in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/combined-pages-object-details.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/577660078?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/577660078/70db05b492)
 
@@ -188,10 +176,6 @@ Previously, this functionality was available only for top-level groups.
 
 For more information, see [Manage group statuses](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/558294261?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/558294261/ed2ee01b99)
 
 ## New for Workfront administrators: Migrate layout templates from Workfront Classic to the new Workfront experience on your own
@@ -205,10 +189,6 @@ To help you manage layout templates while your users switch to using the new Wor
 Previously, only Workfront Customer Support could migrate your layout templates from Workfront Classic to the new Workfront experience.
 
 For more information, see [Migrate your layout templates to the new Adobe Workfront experience](../../../administration-and-setup/customize-workfront/use-layout-templates/migrate-layout-templates-to-nwe.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/574937296?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/574937296/eb4fa79f0c)
 

@@ -29,10 +29,6 @@ To improve your experience when using the Workload Balancer, we have introduced 
 
 For more information about navigating the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/686852400?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/686852400/cea0d90d46)
 
 ## Access Advanced Assignments in the Workload Balancer
@@ -40,10 +36,6 @@ For more information about navigating the Workload Balancer, see [Navigate the W
 To make assigning work items easier and more accurate, you can now make advanced assignments when you assign work items manually in the Workload Balancer. Prior to this enhancement, you could access Advanced Assignments when editing items, from the items' headers, or in lists.
 
 For more information, see [Assign work manually using the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/686857137?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/686857137/4c645c5354)
 
@@ -58,9 +50,5 @@ Prior to this update, Workfront used the following formula to calculate user ava
 User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off hours)) &#42; User FTE value
 
 For more information, see [Configure Resource Management preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/686855756?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/686855756/688f5494a6) 

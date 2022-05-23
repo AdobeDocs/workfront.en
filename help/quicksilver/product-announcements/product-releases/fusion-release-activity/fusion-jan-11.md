@@ -87,10 +87,6 @@ Previously, finding specific execution information required viewing each executi
 
 For more information, see [View a scenario's execution history in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/499405293?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/499405293/16c7b06548)
 
 ## Updates to Fusion 2.0 Data Store
@@ -102,10 +98,6 @@ To make it easier for you to customize your data stores, we've added some new fu
 * Add multiple rows
 
 For more information on Data Stores, see [Data store modules](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/499406655?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/499406655/925cab56d5)
 

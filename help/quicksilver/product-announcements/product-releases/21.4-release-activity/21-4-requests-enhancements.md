@@ -19,10 +19,6 @@ All special characters are supported.
 
 For information about submitting requests, see [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/601077860?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/601077860/d8c1f869c4)
 
 ## New look and feel for embedded request queues in the new Workfront experience
@@ -34,9 +30,5 @@ For information about submitting requests, see [Create and submit Adobe Workfron
 To keep the look and feel for submitting requests the same everywhere in the new Workfront experience, we have redesigned the interface for adding requests to an embedded request queue. Prior to this enhancement, the interface for adding requests from a dashboard matched the Workfront classic environment.
 
 For information, see [Embed a request queue in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/592770628?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/592770628/30397bbb82) 

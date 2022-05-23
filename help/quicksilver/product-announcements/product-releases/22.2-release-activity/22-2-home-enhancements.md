@@ -25,8 +25,4 @@ Prior to this experience, the filters in the Home area did not provide an accura
 
 For more information, see [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/686849626?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/686849626/453a27f3ec) 
