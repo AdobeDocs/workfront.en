@@ -160,7 +160,9 @@ Default or `{style="table-layout:fixed"}` below the table
 
 ### Native markdown table - Auto (better)
 
-Default or `{style="table-layout:fixed"}` below the table
+Default or `{style="table-layout:auto"}` below the table.
+
+Users need to scroll to view table, so beware of tables that are both wide AND tall.
 
 | Thing | String | Secondary string | Unit of measurement | Spirit animal |
 |--- |--- |--- |--- |--- |
