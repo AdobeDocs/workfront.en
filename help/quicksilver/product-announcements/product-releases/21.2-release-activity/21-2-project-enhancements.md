@@ -21,10 +21,6 @@ As part of the redesign of the New and Edit Task boxes, we have added the abilit
 
 For more information, see [Create recurring tasks](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/539887494?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/539887494/5d6eb5bc04)
 
 This feature is now included in the [Planner Fundamentals for the new Workfront experience, Part 2: Plan a Project](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) learning path on Workfront One.
@@ -38,10 +34,6 @@ This feature is now included in the [Planner Fundamentals for the new Workfront 
 To allow you to quickly filter the list of projects on the Projects page, there are two new buttons in the header that allow you to quickly apply the Projects I'm On or Projects I Own filter.
 
 For more information on these filters, see [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/539899695?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/539899695/71295bba4f)
 
@@ -59,10 +51,6 @@ You also have the option to delete a story or issue directly from your Scrum boa
 
 For more information, see [Manage stories and issues on the Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/540320334?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/540320334/bfa90eda56)
 
 ## New Edit Issue Box
@@ -79,10 +67,6 @@ In addition to an updated look and feel, the following changes are also availabl
 * Individual custom form names are now available on the left panel inside the Edit Issue box and you can quickly access each form from there.
 * We have added the Planned Hours field to the Assignments section to make it easier to update the time it might take resources to complete the issue.
 * We have removed the commenting functionality from the Edit Issue screen to eliminate redundancy with the Updates section.
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/539897635?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/539897635/47d032e7ec)
 
@@ -113,10 +97,6 @@ For a better experience when you fill out a custom form, we have improved the wa
 
 For information about filling out custom forms, see [Edit information in custom form fields](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/522396709?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/522396709/91d3105bd5)
 
 ## The Primary Contact of an Issue is now visible from the Project Details area
@@ -130,10 +110,6 @@ When converting an issue to a project, the issue's requester is transferred to t
 You must enable this field in your Layout Template to be able to view it in the new Adobe Workfront experience for projects.
 
 For information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/516275975?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/516275975/f775e74810)
 
@@ -167,10 +143,6 @@ For information about formatting text in a custom field, see [Create a custom fo
 
 For information about displaying information in lists, see [Get started with lists](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&_LANG=en).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/516458707?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/516458707/519f4f9295)
 
 ## New Edit Task box
@@ -194,10 +166,6 @@ In addition to an updated look and feel, the following changes are also availabl
 
 For information about the new Edit Task box, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/532016466?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/532016466/43c460aa79)
 
 ## New Task box
@@ -220,10 +188,6 @@ In addition to an updated look and feel, the following changes are also availabl
 
 For information about the new New Task box, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/532017842?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/532017842/ce691dffdd)
 
 ## Deactivate teams that are no longer in use
@@ -235,10 +199,6 @@ For information about the new New Task box, see [Create tasks in a project](../.
 You can now deactivate teams you no longer use. When you deactivate a team, it no longer shows up in most typeahead, search fields, or common menus within Workfront. However, historical data associated with the team is retained.
 
 For more information, see [Deactivate a team](../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/531482223?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/531482223/e4dacfe1b6)
 
@@ -253,9 +213,5 @@ To offer you a cohesive experience across all objects, we changed the way the â€
 Prior to this change, disabling the setting prevented users just from deleting tasks or issues, not projects.
 
 For more information, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/532018749?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/532018749/1926533b87) 

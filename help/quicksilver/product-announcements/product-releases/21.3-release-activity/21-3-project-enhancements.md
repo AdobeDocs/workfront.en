@@ -21,10 +21,6 @@ When you assign a group to a project template, all projects created from the tem
 
 Also, you can attach a group approval process to a template and its template tasks if the template is associated with your group. For more information, see [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/558295130?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/558295130/1eca3f7378)
 
 ## Easier editing of fields in the Details section
@@ -40,10 +36,6 @@ The following improvements allow you to more easily edit information in the Deta
 
 Prior to this enhancement it was not clear which fields were editable and you had to double-click to edit a field.
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/558564446?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/558564446/3c2245362f)
 
 ## Consider cross-project predecessors when calculating handoff dates
@@ -55,10 +47,6 @@ Previously, the handoff dates were calculated based only on the predecessors of 
 Now, to ensure you always have an accurate handoff date for a task with a cross-project predecessor, you must recalculate the timeline of the successor task's project. After recalculating the timeline, the handoff dates of the task calculates taking into account the cross-project dependencies of the tasks.
 
 For more information about handoff dates, see [Task Handoff Date overview](../../../manage-work/tasks/task-information/handoff-task-date.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/559081014?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/559081014/62ba0a3fcb)
 
@@ -81,10 +69,6 @@ For more information, see [Add stories and issues from the Scrum board](../../..
 You can now create a new story or issue directly from the Scrum board. This makes it easier to quickly add a new story to your current iteration.
 
 For more information, see [Add stories and issues from the Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/558298576?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/558298576/02a56bff72)
 
@@ -113,10 +97,6 @@ On Kanban and Scrum boards, the following enhancements are now available:
 
 For more information, see [Iterations overview](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/558299624?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/558299624/9af1e4fdd9)
 
 ## Group project, task, and issue preferences
@@ -140,10 +120,6 @@ Previously, you could add external users by email address only in Workfront Clas
 
 For more information, see [Request document approvals](../../../review-and-approve-work/manage-approvals/request-document-approvals.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/552623152?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/552623152/acad14e57e)
 
 ## Export information from the Details section of a portfolio or program
@@ -160,10 +136,6 @@ You can now export to a .pdf file information from the Details section of portfo
 
 For information about exporting custom forms from an object, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/552598277?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/552598277/c5de0a5c63)
 
 ## Added Planned Completion Date timestamp in the object's header
@@ -178,10 +150,6 @@ Prior to this enhancement, when you updated the Planned Completion Date of an ob
 
 For information about the object headers in the new Workfront experience, see [New object headers](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/552963773?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/552963773/42e8a756cd)
 
 ## Add a custom form to an object without editing it
@@ -195,9 +163,5 @@ We have made it easier to add a custom form that someone else will fill out—or
 Previously, when you added a custom form to an object, the page went into editing mode and you had to complete any required fields on the form before you could save it to the object. This was inconvenient when the form was meant for another user to fill out, or when you did not know yet what to put in a required field on the form.
 
 For information about adding a custom form to an object, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/552596293?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/552596293/0aa3718e83) 

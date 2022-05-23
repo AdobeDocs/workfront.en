@@ -17,10 +17,6 @@ Blueprints provides basic building blocks to help you create a work management s
 
 For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/566685401?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/566685401/de35d1c699)
 
 This feature is now included in the [Project templates in the new Workfront experience](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) learning path on Workfront One.
@@ -41,10 +37,6 @@ Previously, this functionality was available only for top-level groups.
 
 For more information, see [Manage group statuses](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/558294261?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/558294261/ed2ee01b99)
 
 ## New for administrators: Create a billing record custom form
@@ -54,9 +46,5 @@ Now you can improve how users capture billing information by creating a billing 
 For information about creating custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 For information about attaching a billing record custom form to a project, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/552593932?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/552593932/b80cee516f) 
