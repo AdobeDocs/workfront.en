@@ -14,7 +14,7 @@ description: The following math functions are available in the Adobe Workfront F
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -33,16 +33,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -58,43 +49,49 @@ Returns the average value of the numeric values in a specific array, or the aver
 
 Returns the smallest integer greater than or equal to a specified number.
 
-**Examples:** 
-
-* `ceil(` `1.2` `)`
-
-  Returns 2
-
-* `ceil(` `4` `)`
-
-  Returns 4
+>[!INFO]
+>
+>**Examples:** 
+>
+>* `ceil(` `1.2` `)`
+>
+>   Returns 2
+>
+>* `ceil(` `4` `)`
+>
+>   Returns 4
 
 ## floor (number)
 
 Returns the largest integer less than or equal to a specified number.
 
-**Examples:** 
-
-* `floor(` `1.2` `)`
-
-  Returns 1
-
-* `floor(` `1.9` `)`
-
-  Returns 1
-
-* `floor(` `4` `)`
-
-  Returns 4
+>[!INFO]
+>
+>**Examples:** 
+>
+>* `floor(` `1.2` `)`
+>
+>   Returns 1
+>
+>* `floor(` `1.9` `)`
+>
+>   Returns 1
+>
+>* `floor(` `4` `)`
+>
+>   Returns 4
 
 ## formatNumber (number; decimalPOINTS; [decimalSeparator]; [thousandsSeparator])
 
 Returns a number in requested format. By default, the decimal point is a comma (,) and the thousands separator is a period (.).
 
-**Example:** 
-
-`formatNumber( 123456789 ; 3 ; , ; . )`
-
-Returns 123.456.789,000
+>[!INFO]
+>
+>**Example:** 
+>
+>`formatNumber( 123456789 ; 3 ; , ; . )`
+>
+>Returns 123.456.789,000
 
 ## max ([array of values]), max(value1;value2; ...)
 
@@ -112,23 +109,25 @@ Parses a string with a number and returns the number. For example, parseNumber(1
 
 Rounds a numeric value to the nearest integer.
 
-**Examples:** 
-
-* `round(` `1.2` `)`
-
-  Returns 1
-
-* `round(` `1.5` `)`
-
-  Returns 2
-
-* `round(` `1.7` `)`
-
-  Returns 2
-
-* `round(` `2` `)`
-
-  Returns 2
+>[!INFO]
+>
+>**Examples:** 
+>
+>* `round(` `1.2` `)`
+>
+>   Returns 1
+>
+>* `round(` `1.5` `)`
+>
+>   Returns 2
+>
+>* `round(` `1.7` `)`
+>
+>   Returns 2
+> 
+>* `round(` `2` `)`
+>
+>   Returns 2
 
 ## sum ([array of values]), sum(value1; value2; ...)
 
