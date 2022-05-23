@@ -11,7 +11,7 @@ Many&nbsp;Microsoft web services are accessed through the Microsoft Graph API. T
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -30,16 +30,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr>
  </tbody> 
 </table>
 
@@ -57,13 +48,7 @@ To create a connection to the Microsoft Graph REST&nbsp;API, you must first regi
 
    | Application name |Enter a name for the application, such as "My Workfront Fusion application." |
    |---|---|
-   | Redirect URL |
-
-   ```
-   https://app.workfrontfusion.com/oauth/cb/oauth2
-   ```
-
-   |
+   | Redirect URL | `https://app.workfrontfusion.com/oauth/cb/oauth2`   |
 
 1. When you have completed the app registration, make note of the Application ID.
 
@@ -83,7 +68,7 @@ To create a connection to the Microsoft Graph REST&nbsp;API, you must first regi
 
    For specifics on locating and configuring these fields, see the "Configure permissions for Microsoft Graph" section in [Get access without a user](https://docs.microsoft.com/en-us/graph/auth-v2-service) in the Microsoft documentation.
 
-   <table> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -113,7 +98,7 @@ After you register Workfront Fusion as discussed in [Register Workfront Fusion i
 1. Click **Add** next to the connection field.
 1. Configure the connection fields as follows:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
