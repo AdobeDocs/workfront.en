@@ -24,7 +24,7 @@ Workfront Goals helps you define, communicate, and achieve strategic outcomes by
 
 Workfront Goals is an add-on module for the core Workfront work management platform. It is intended to work together with Workfront with which it shares many of the setup elements and configuration entities, such as users, teams, groups, and projects.
 
-<!--For more information about best practices for using Workfront Goals, see [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).-->
+For more information about best practices for using Workfront Goals, see [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 >[!IMPORTANT]
 >

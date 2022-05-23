@@ -1787,6 +1787,7 @@ user-guide-description: Workfront
   * [Adobe Workfront Goals overview](workfront-goals/goal-management/wf-goals-overview.md)
   * Goal management in Adobe Workfront Goals {#goal-management}
     * [Goal management in Adobe Workfront Goals](workfront-goals/goal-management/goal-management.md)
+    * [Get started with Adobe Workfront Goals](workfront-goals/goal-management/getting-started-with-wf-goals.md)
     * [Access and open goals in Adobe Workfront Goals](workfront-goals/goal-management/access-goals-in-wf-goals.md)
     * [Requirements to use Workfront Goals](workfront-goals/goal-management/access-needed-for-wf-goals.md)
     * [Activate goals in Adobe Workfront Goals](workfront-goals/goal-management/activate-goals.md)
