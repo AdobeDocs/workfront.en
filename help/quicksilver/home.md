@@ -92,7 +92,7 @@ HTML tables with auto layout no longer have equally spaced columns.
 </tr>
 </table>
 
-### HTML table with fixed layout (bad)
+### HTML table with fixed layout (too much space)
 
 HTML tables have equally spaced columns, which isn't ideal for 2-column item/description tables.
 
@@ -118,7 +118,7 @@ HTML tables have equally spaced columns, which isn't ideal for 2-column item/des
 </table>
 
 
-### HTML table with auto layout (good)
+### HTML table with auto layout (better)
 
 HTML tables have equally spaced columns, which isn't ideal for 2-column item/description tables.
 
@@ -147,7 +147,7 @@ HTML tables have equally spaced columns, which isn't ideal for 2-column item/des
 
 Using `fixed` or `auto` doesn't matter in most native markdown tables. The exception is wide tables with long strings of text in cells.
 
-### Native markdown table - Fixed (bad)
+### Native markdown table - Fixed (overlapping to fit)
 
 Default or `{style="table-layout:fixed"}` below the table
 
@@ -158,7 +158,7 @@ Default or `{style="table-layout:fixed"}` below the table
 
 {style="table-layout:fixed"}
 
-### Native markdown table - Auto (better)
+### Native markdown table - Auto (scrollable)
 
 Default or `{style="table-layout:auto"}` below the table.
 
