@@ -17,7 +17,7 @@ The functions available in Adobe Workfront Fusion are similar to functions in Ex
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -36,16 +36,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -84,15 +75,17 @@ To insert a function into a field:
 
    Drag the function into the field.
 
-**Example:** Some data types prevent users from entering more than a certain number of characters. You can use the substring function to limit a value to a certain number of characters.
-
-In this example, the substring function limits project name to 50 characters.
-
-![](assets/example-meet-length-restriction-350x184.png)
+>[!INFO]
+>
+>**Example:** Some data types prevent users from entering more than a certain number of characters. You can use the substring function to limit a value to a certain number of characters.
+>
+>In this example, the substring function limits project name to 50 characters.
+>
+>![](assets/example-meet-length-restriction-350x184.png)
 
 ## Nesting functions
 
-You can nest functions within each other to create limitless possibilities.
+You can nest functions within each other.
 
 ## Use Google Sheets functions
 

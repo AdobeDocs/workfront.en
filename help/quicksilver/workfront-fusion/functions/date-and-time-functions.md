@@ -14,7 +14,7 @@ description: The following date and time functions are available in the Adobe Wo
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -33,16 +33,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td>--> 
-    <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
+  </tr>
  </tbody> 
 </table>
 
@@ -60,7 +51,7 @@ For more information, see [Date](../../workfront-fusion/mapping/item-data-types.
 
 ### Parameters
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -96,6 +87,8 @@ For more information, see [Date](../../workfront-fusion/mapping/item-data-types.
 
 The formatDate function returns a text representation of the given Date value according to the specified format and timezone. The data type is Text.
 
+>[!INFO]
+>
 >**Examples:** The Scenario and Web timezone were both set to `Europe/Prague` in these examples.
 >
 >![](assets/date&time-functions-examples-350x61.png)
@@ -124,7 +117,7 @@ Use this function when you have a Text value representing a date (such as `12-10
 
 The second column indicates the expected type. If different type is provided, [Type coercion in Adobe Workfront Fusion](../../workfront-fusion/mapping/type-coercion.md) is applied.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -160,6 +153,8 @@ The second column indicates the expected type. If different type is provided, [T
 
 This function converts a text string to a date, according to the format and timezone that you specify. The data type of the value is Date.
 
+>[!INFO]
+>
 >**Examples:** In the following examples, the returned Date value is expressed according to ISO 8601, but the data type of the result is Date.
 >
 >* `parseDate(2016-12-28;YYYY-MM-DD)`
@@ -182,6 +177,8 @@ This function converts a text string to a date, according to the format and time
 
 Returns a new date as a result of adding a given number of days to a date. To subtract days, enter a negative number.
 
+>[!INFO]
+>
 >**Examples:**
 >
 >*  `addDays(2016-12-08T15:55:57.536Z;2)`
@@ -196,6 +193,8 @@ Returns a new date as a result of adding a given number of days to a date. To su
 
 Returns a new date as a result of adding a given number of hours to a date. To subtract hours, enter a negative number.
 
+>[!INFO]
+>
 >**Examples:**
 >
 >* `addHours(2016-12-08T15:55:57.536Z; 2)`
@@ -210,6 +209,8 @@ Returns a new date as a result of adding a given number of hours to a date. To s
 
 Returns a new date as a result of adding a given number of minutes to a date. To subtract minutes, enter a negative number.
 
+>[!INFO]
+>
 >**Examples:**
 >
 >* `addMinutes(2016-12-08T15:55:57.536Z;2)`
@@ -224,6 +225,8 @@ Returns a new date as a result of adding a given number of minutes to a date. To
 
 Returns a new date as a result of adding a given number of months to a date. To subtract months, enter a negative number.
 
+>[!INFO]
+>
 >**Examples:**
 >
 >* `addMonths(2016-08-08T15:55:57.536Z;2)`
@@ -238,6 +241,8 @@ Returns a new date as a result of adding a given number of months to a date. To 
 
 Returns a new date as a result of adding a given number of seconds to a date. To subtract seconds, enter a negative number.
 
+>[!INFO]
+>
 >**Examples:**
 >
 >* `addSeconds(2016-12-08T15:55:57.536Z;2)`
@@ -252,6 +257,8 @@ Returns a new date as a result of adding a given number of seconds to a date. To
 
 Returns a new date as a result of adding a given number of years to a date. To subtract years, enter a negative number.
 
+>[!INFO]
+>
 >**Examples:**
 >
 >* `addYears(2016-08-08T15:55:57.536Z;2)`
@@ -270,6 +277,8 @@ Specify a number from 0 to 59. If the number is outside of that range, the funct
 
 If you need to specify a number outside the range, we recommend that you use addSeconds, as described above in the section [addSeconds (date; number)](#addseconds-date-number).
 
+>[!INFO]
+>
 >**Examples:**
 >
 >* `setSecond(2015-10-07T11:36:39.138Z;10)`
@@ -288,6 +297,8 @@ Specify a number from 0 to 59. If the number is outside of that range, the funct
 
 If you need to specify a number outside the range, we recommend that you use addMinutes, as described above in [addMinutes (date; number)](#addminutes-date-number). 
 
+>[!INFO]
+>
 >**Examples:**
 >
 >* `setMinute(2015-10-07T11:36:39.138Z;10)`
@@ -306,6 +317,8 @@ Specify a number from 0 to 23. If the number is outside this range, the function
 
 If you need to specify a number outside the range, we recommend that you use addHours, as described above in [addHours (date; number)](#addhours-date-number). 
 
+>[!INFO]
+>
 >**Examples:**
 >
 >* `setHour(2015-08-07T11:36:39.138Z;6)`
@@ -324,6 +337,8 @@ You can use this function to set the day of the week, with Sunday as 1 and Satur
 
 If you need to specify a number outside the range, we recommend that you use addDays, as described above in [addDays (date; number)](#adddays-date-number).
 
+>[!INFO]
+>
 >**Examples:**
 >
 >* `setDay(2018-06-27T11:36:39.138Z;Monday)`
@@ -344,6 +359,8 @@ This function returns a new date with the day of the month specified in paramete
 
 Specify a number from 1 to 31. If the number is outside of this range, the function returns a day from the previous month (for a negative number) or subsequent month (for a positive number).
 
+>[!INFO]
+>
 >**Examples:**
 >
 >* `setDate(2015-08-07T11:36:39.138Z;5)`
@@ -360,6 +377,8 @@ This function returns a new date with the month specified in parameters.
 
 Specify a number from 1 to 12. If the number is outside of this range, the function returns the month in the previous year (for a negative number) or subsequent year (for a positive number).
 
+>[!INFO]
+>
 >**Examples:**
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;5)`
@@ -378,6 +397,8 @@ Specify a number from 1 to 12. If the number is outside of this range, the funct
 
 Returns a new date with the year specified in parameters.
 
+>[!INFO]
+>
 >**Example:** 
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;201)`
@@ -402,6 +423,8 @@ Use one of the following time values for the `unit` parameter:
 
 If no unit is specified, the function returns the difference in milliseconds.
 
+>[!INFO]
+>
 >**Examples:**
 >
 >* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z)`
@@ -432,7 +455,7 @@ If you need to calculate a date corresponding to n-th day of week in month (for 
 
 The formula contains the following items:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

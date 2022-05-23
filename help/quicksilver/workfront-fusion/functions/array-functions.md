@@ -14,7 +14,7 @@ description: The following array functions are available in the Adobe Workfront 
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -53,6 +53,8 @@ Verifies if an array contains the value.
 
 Removes duplicates inside an array. Use the "key" argument to access properties inside complex objects. To access nested properties, use dot notation. The first item in an array is index 1.
 
+  >[!INFO]
+  >
   >**Example:** ```distinct(Contacts[];name)``` 
   >
   >Removes duplicates inside an array of contacts by comparing the "name" property
@@ -78,7 +80,9 @@ Returns the number of items in an array.
 
 Returns a primitive array containing values of a complex array. This function allows filtering values. Use raw variable names for keys.
 
-  >**Examples:**
+  >[!INFO]
+  >
+  >  **Examples:**
   >
   >* ```map(Emails[];email)```
   >
@@ -135,6 +139,8 @@ To access nested properties, use dot notation.
 
 The first item in an array is index 1.
 
+  >[!INFO]
+  >
   >**Examples:**
   >
   >* ```sort(Contacts[];name)```
@@ -165,27 +171,29 @@ Enter one of the following values for the ```mode``` parameter.
 
    In other words, the function returns an array that contains all of the elements of ```array1``` that do not exist in ```array2```, and all of the elements of ```array2``` that do not exist in ```array1```.
 
->**Examples:** 
->
->Given the following arrays:
->
->```
->myArray = [1,2,3,4,5]
->```
->
->```
->yourArray = [3,4,5,6,7]
->```
->
->*  ```arrayDifference [myArray, yourArray, classic]```
->
->    Returns ```[1,2]```
->
->*  ```arrayDifference [yourArray, myArray, classic]```
->
->    Returns ```[6,7]```
->
->*  ```arrayDifference [myArray, yourArray, symmetric]```
->
->    Returns ```[1,2,6,7]```
+  >[!INFO]
+  >
+  >**Examples:** 
+  >
+  >Given the following arrays:
+  >
+  >```
+  >myArray = [1,2,3,4,5]
+  >```
+  >
+  >```
+  >yourArray = [3,4,5,6,7]
+  >```
+  >
+  >*  ```arrayDifference [myArray, yourArray, classic]```
+  >
+  >    Returns ```[1,2]```
+  >
+  >*  ```arrayDifference [yourArray, myArray, classic]```
+  >
+  >    Returns ```[6,7]```
+  >
+  >*  ```arrayDifference [myArray, yourArray, symmetric]```
+  >
+  >    Returns ```[1,2,6,7]```
 
