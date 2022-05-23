@@ -9,13 +9,13 @@ description: In some cases it is useful to re-execute a failing module for a cou
 
 # Retry error handling in Adobe Workfront Fusion
 
-In some cases it is useful to re-execute a failing module for a couple of times if there is a chance that the reason for the failure might pass over time.
+In some cases it is useful to re-execute a failing module if there is a chance that the reason for the failure might pass over time.
 
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -34,16 +34,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -78,54 +69,26 @@ Adobe Workfront Fusion currently does not offer the Retry error handling directi
 
 1. Link the **Ignore** directive after the **Tools > Sleep** module (see [Directives for error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md)).
 
-1. Link the **Tools > Set variable** module after the the potentially failing module and configure it to store the module's result in a variable named, for example, 
-
-   ```
-   Result
-   ```
-
-   .
+1. Link the **Tools > Set variable** module after the the potentially failing module and configure it to store the module's result in a variable named, for example, `Result`.
 
 1. Link the **Array aggregator** module after the **Tools > Set** variable and choose the **Repeater** module in its Source Module field.
 
-1. Link the **Tools > Get variable** module to the **Array aggregator** module and configure it to obtain the value of the 
+1. Link the **Tools > Get variable** module to the **Array aggregator** module and configure it to obtain the value of the `Result` variable.
 
-   ```
-   Result
-   ```
+1. Insert the **Tools > Get** variable module between the **Repeater** module and the potentially failing module and configure it obtain the value of the `Result` variable.
 
-   variable.
+1. Insert a filter between this **Tools > Get** variable module and the potentially failing module to continue only if the `Result` variable does not exist.
 
-1. Insert the **Tools > Get** variable module between the **Repeater** module and the potentially failing module and configure it obtain the value of the 
-
-   ```
-   Result
-   ```
-
-   variable.
-
-1. Insert a filter between this **Tools > Get** variable module and the potentially failing module to continue only if the 
-
-   ```
-   Result
-   ```
-
-   variable does not exist.
-
-**Example:** Here is a sample scenario where the HTTP > Make a request module represents the potentially failing module:
-
-![](assets/http-make-request-350x116.png)
-
-If the result of the potentially failing module is too complex to be stored in a simple variable, you may employ a data store to store/retrieve the result. The data store would contain just one record. The record's key can be, for example, 
-
-```
-Result
-```
-
-.
-
-For more information on data stores, see [Data Stores in Adobe Workfront Fusion](../../workfront-fusion/modules/data-stores.md)
+>[!INFO]
+>
+>**Example:** Here is a sample scenario where the HTTP > Make a request module represents the potentially failing module:
+>
+>![](assets/http-make-request-350x116.png)
+>
+>If the result of the potentially failing module is too complex to be stored in a simple variable, you may employ a data store to store/retrieve the result. The data store would contain just one record. The record's key can be, for example, `Result`.
+>
+>For more information on data stores, see [Data Stores in Adobe Workfront Fusion](../../workfront-fusion/modules/data-stores.md)
 
 #### Drawback
 
-This workaround might appear a bit too complex and it is also more demanding in terms of operations.
+This workaround might appear a bit too complex, and  is also more demanding in terms of operations.
