@@ -96,7 +96,7 @@ HTML tables with auto layout no longer have equally spaced columns.
 
 HTML tables have equally spaced columns, which isn't ideal for 2-column item/description tables.
 
-`<table style="table-layout:fixed">` at start of table
+`<table style="table-layout:fixed">` at start of table (default)
 
 <table style="table-layout:fixed"> 
  <col> 
