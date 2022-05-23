@@ -6,7 +6,7 @@ description: Documentation for [!DNL Adobe Workfront].
 
 Adobe Workfront is a unified work management application for sharing ideas, creating content, managing complex processes, and doing your best work.
 
-## Experiments with tables
+## Experiments with HTML tables
 
 For demo purposes only. Remember to delete after training.
 
@@ -92,7 +92,7 @@ HTML tables with auto layout no longer have equally spaced columns.
 </tr>
 </table>
 
-### HTML table with fixed layout (bad)
+### HTML table with fixed layout (too much space)
 
 HTML tables have equally spaced columns, which isn't ideal for 2-column item/description tables.
 
@@ -118,7 +118,7 @@ HTML tables have equally spaced columns, which isn't ideal for 2-column item/des
 </table>
 
 
-### HTML table with auto layout (good)
+### HTML table with auto layout (better)
 
 HTML tables have equally spaced columns, which isn't ideal for 2-column item/description tables.
 
@@ -143,3 +143,30 @@ HTML tables have equally spaced columns, which isn't ideal for 2-column item/des
  </tbody> 
 </table>
 
+## Experiments with native markdown tables
+
+Using `fixed` or `auto` doesn't matter in most native markdown tables. The exception is wide tables with long strings of text in cells.
+
+### Native markdown table - Fixed (overlapping to fit)
+
+Default or `{style="table-layout:fixed"}` below the table
+
+| Thing | String | Secondary string | Unit of measurement | Spirit animal |
+|--- |--- |--- |--- |--- |
+| Integrator ID | com.adobe.wired.283275292837sliexsefi3275208U1pasefa |`283275292837sliexsefi3275208U1pasefa` | Watts | Panda |
+| Nom de plat | com.adobe.duplex.xsefi3275208U1pasefa283275292837slie |`xsefi3275208U1pasefa283275292837slie` | MHz | Coyote |
+
+{style="table-layout:fixed"}
+
+### Native markdown table - Auto (scrollable)
+
+Default or `{style="table-layout:auto"}` below the table.
+
+Users need to scroll to view table, so beware of tables that are both wide AND tall.
+
+| Thing | String | Secondary string | Unit of measurement | Spirit animal |
+|--- |--- |--- |--- |--- |
+| Integrator ID | com.adobe.wired.283275292837sliexsefi3275208U1pasefa |`283275292837sliexsefi3275208U1pasefa` | Watts | Panda |
+| Nom de plat | com.adobe.duplex.xsefi3275208U1pasefa283275292837slie |`xsefi3275208U1pasefa283275292837slie` | MHz | Coyote |
+
+{style="table-layout:auto"}
