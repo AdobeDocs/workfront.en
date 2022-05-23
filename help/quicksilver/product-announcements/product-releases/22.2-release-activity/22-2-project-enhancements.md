@@ -32,10 +32,6 @@ A system administrator must enable Boards in layout templates to make the option
 
 For more information, see [Boards overview](../../../agile/boards-overview.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/686493020?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/686493020/d8a5d11f0d)
 
 ## Additional improvements to Workfront Boards
@@ -77,10 +73,6 @@ It is now easier to catch mistakes when posting an update. Finalizing a comment 
 
 For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/686915058?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/686915058/eedb0e5a27)
 
 ## Updated experience when copying and moving issues
@@ -99,10 +91,6 @@ For more information about moving or copying issues, see the following articles:
 
 * [Copy issues](../../../manage-work/issues/manage-issues/copy-issues.md) 
 * [Move issues](../../../manage-work/issues/manage-issues/move-issues.md)
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/678338567?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/678338567/3b91b6d37e)
 
@@ -134,10 +122,6 @@ For more information, see the following articles:
 * [Export a project to Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md) 
 * [Subscribe to items in Adobe Workfront](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/686876682?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/686876682/06ec05cd2b)
 
 ## Keep users on the dashboard, list, or report after converting issue to project
@@ -147,10 +131,6 @@ To increase efficiency and eliminate the number of clicks, we have released an i
 Users remain on the list, report or a dashboard after converting an issue to a project instead of being redirected to the project's page. A success notification with the link to the project displays after the conversion is complete, to allow you to easily navigate to the project, if needed.
 
 For more information, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/675972622?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/675972622/f1fa3093f5)
 
@@ -170,10 +150,6 @@ The following changes have been made to tasks with a Simple Duration Type:
 
 For more information about Planned Hours, see [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/701739033?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/701739033/f3e79c6e4e)
 
 ## Share folders only in the top five levels of a folder hierarchy
@@ -187,9 +163,5 @@ To ensure the best performance for users sharing folders, we are currently limit
 Each folder at the sixth level or below inherits its sharing configurations from the folder directly above it.
 
 For more information about sharing folders, see [Share a document folder](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/675978565?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/675978565/1901e4a8a1) 

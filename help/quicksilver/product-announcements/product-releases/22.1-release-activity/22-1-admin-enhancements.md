@@ -37,10 +37,6 @@ This does not change your users' existing access to teams.
 For more information, see [Grant access to teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md).
 -->
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/652603175?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/652603175/5693e7dafa)
 
 ## Group mapping now available in blueprints
@@ -48,10 +44,6 @@ For more information, see [Grant access to teams](../../../administration-and-se
 Some blueprints now include groups, which you can customize before installing the blueprint. You can map a group in the blueprint to an existing group in your Workfront instance, or create a new group if needed.
 
 For more information, see [Configure a blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/652608333?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/652608333/804c3ab1f6)
 
@@ -74,10 +66,6 @@ Creating calculated custom fields is now much easier with these additions in the
 Also, in the customizable “Instructions” hover text for a calculated custom field, you can display or hide the field's formula. This is useful if you think that the users who will fill out the custom form won't need that information.
 
 For more information about creating a calculated custom field, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/652968756?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/652968756/9f99cf0faf)
 
@@ -102,10 +90,6 @@ The following Blueprints enhancements are now available:
 
 For more information, see [Configure a blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/642333705?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/642333705/76d3ed60db)
 
 ## Manage company memberships more easily
@@ -117,10 +101,6 @@ Previously, these actions were available only in the Edit Company box.
 The updated toolbar also contains all of the actions that were available in the previous toolbar, such as editing members' user profile information and deactivating them in the system.
 
 For more information, see [Manage company memberships](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/642385873?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/642385873/bda6bec5ce)
 
@@ -144,10 +124,6 @@ For information about how a Workfront administrator unlocks a timesheet and hour
 
 For information about how a group administrator configures unlocked task and issue preferences for a group, see [Configure timesheet and hour preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/600488692?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/600488692/f2722950ee)
 
 ## Select multiple notifications that you want to unlock or re-lock for groups
@@ -157,10 +133,6 @@ It's now faster and easier to unlock or re-lock email notifications for groups. 
 Previously, you had to unlock and re-lock notifications one at a time. Workfront currently has 95 notifications, so this took a while if you had to do it for all or many of them.
 
 For more information, see [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/631397855?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/631397855/4f9152ba44)
 
@@ -172,10 +144,6 @@ When you are deleting a group, two improvements in the Delete Group box make it 
 * You can use the new info icon to make sure you are selecting the replacement group you want. Hovering over the icon displays a tooltip listing information about the group, such as the hierarchy of groups above it and the names of its administrators.
 
 For more information, see [Delete a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/631401157?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/631401157/fc78779cfc)
 
@@ -196,10 +164,6 @@ Custom forms are now supported for the Group object. This makes it easier for gr
 * Edit custom data from lists and, in the new Workfront experience, from the Group page
 
 For information about custom forms, see [Custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/655513230?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/655513230/51811d7775)
 

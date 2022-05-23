@@ -27,10 +27,6 @@ We have made several enhancements to the Adobe Workfront top navigation bar.
 
 For more information, see [Top navigation bar overview in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/686846367?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/686846367/1a3a08cc4e)
 
 ## Redesigned timesheet lists
@@ -43,9 +39,5 @@ Some of the highlights of this redesign are:
 * The filter experience now matches the filters in all other lists. You will have more flexibility to create your own filters with the fields and attributes that make the most sense to you as well as share them with other users.
 
 For more information about creating timesheets using the new lists, see [Create a single-use timesheet](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/686854773?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/686854773/ad09d5d435) 
