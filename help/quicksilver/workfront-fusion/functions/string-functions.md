@@ -206,7 +206,7 @@ Replaces the search string with the new string.
 
 Regular expressions (enclosed in `/.../`) can be used as search string with a combination of flags (such as `g`, `i`, `m`) appended:
 
->[!INFO]>
+>[!INFO]
 >
 >**Example:**  
 >

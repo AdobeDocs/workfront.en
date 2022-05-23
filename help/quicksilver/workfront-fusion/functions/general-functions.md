@@ -133,4 +133,3 @@ Picks only the given keys from the object.
 >`pick(` User `;` password `;` email `)`
 >
 >Returns a collection of only the user's password and email address.
-&nbsp;
