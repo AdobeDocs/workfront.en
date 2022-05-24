@@ -13,20 +13,19 @@ description: This article includes information about the access and permissions 
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+  </tr> 
+   <tr> 
     <td role="rowheader">Adobe Workfront license*</td> 
     <td> <p>Plan, Work</p> </td> 
    </tr>
-  --> 
-  <tr> 
+   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration,</p>  </td> 
   </tr> 
@@ -36,11 +35,10 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-    --> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-    --> </td> 
+   <td> 
+     <p>You must be a Workfront Fusion administrator for your organization.</p>
+     <p>You must be a Workfront Fusion administrator for your team.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,7 +77,7 @@ To add a user to the organization:
 
 1. Navigate to **Organizations** in the menu and select the organization you want to add a user to.
 1. Open the **Users** tab in your Dashboard.
-1. Click **Invite a new user**, fill the form (Email, Message, Role), and send the invitation by clicking **Send**.
+1. Click **Invite a new user**, fill out the form (Email, Message, Role), and send the invitation by clicking **Send**.
 
    <!--
    <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

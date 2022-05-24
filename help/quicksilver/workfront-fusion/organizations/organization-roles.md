@@ -14,15 +14,15 @@ description: This article includes information about the access and permissions 
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+  </tr> 
+   <tr> 
     <td role="rowheader">Adobe Workfront license*</td> 
     <td> <p>Plan, Work</p> </td> 
    </tr>
@@ -37,11 +37,10 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-    --> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-    --> </td> 
+   <td> 
+     <>You must be a Workfront Fusion administrator for your organization.</p>
+     <p>You must be a Workfront Fusion administrator for your team.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +53,7 @@ You must have the following access to use the functionality in this article:
 
 ## Organization roles
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <col> 
@@ -119,7 +118,7 @@ You must have the following access to use the functionality in this article:
 
 ## Scenarios
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -238,7 +237,7 @@ You must have the following access to use the functionality in this article:
 
 ## Connections
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <col> 
@@ -287,7 +286,7 @@ You must have the following access to use the functionality in this article:
 
 ## Webhooks
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -336,7 +335,7 @@ You must have the following access to use the functionality in this article:
 
 ## Data stores
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -392,7 +391,7 @@ You must have the following access to use the functionality in this article:
 
 ## Data structures
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <col> 
@@ -441,7 +440,7 @@ You must have the following access to use the functionality in this article:
 
 ## Devices
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -490,7 +489,7 @@ You must have the following access to use the functionality in this article:
 
 ## Keys
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <col> 
