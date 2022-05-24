@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-groups
 title: Username Already in Use
-description: You must have the following access to perform the steps in this article - EDIT ME.
+description: Read these tips when you get an error that the username is already taken.
 ---
 
 # Username Already in Use
@@ -18,15 +18,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
    <td> <p>System administrator</p> </td> 
   </tr> 
  </tbody> 
@@ -50,19 +50,16 @@ This can occur either because the username or email address is not unique in the
 
 Ensure that the username and email address is unique in the current Workfront instance:
 
-1. As the Workfront administrator, go to the **People** tab, then click the **People** subtab.
-
+1. As the Workfront administrator, click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users**.
 1. In the list of people, look in the **Email** column to ensure there are no duplicate emails.
 1. Add a column for username to the view.
 
-   1. In the **View** drop-down menu, click&nbsp;**Customize View**.
-   
-   1. Click&nbsp;**Add Column**.
+   1. In the **View** drop-down menu, click **Customize View**.
+   1. Click **Add Column**.
    1. In the search field, type *username*.
    1. Select **User** > **Username**.
-   
    1. Save the view.  
-      This results&nbsp;in a view to display the usernames where you can look for the duplicate.
+      This results in a view to display the usernames where you can look for the duplicate.
 
 1. In the list of people, look in the **Username** column to ensure there are no duplicate usernames.
 

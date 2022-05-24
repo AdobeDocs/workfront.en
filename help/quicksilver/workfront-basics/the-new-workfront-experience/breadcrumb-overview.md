@@ -3,7 +3,7 @@ filename: breadcrumb-overview
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Breadcrumbs overview in the new Adobe Workfront experience
-description: In Adobe Workfront Classic, breadcrumbs display only the level immediately above the current object you're viewing.
+description: Breadcrumbs in the new Adobe Workfront experience display the full navigational hierarchy for all object types.
 ---
 
 # Breadcrumbs overview in the new Adobe Workfront experience
@@ -16,7 +16,7 @@ In the following example, only the project (Fall 2021 Ad Campaign) is shown in t
 
 Unlike Adobe Workfront Classic, breadcrumbs in the new Adobe Workfront experience display the full navigational hierarchy for all object types. Each object in the breadcrumb path has a label that displays the object type. The page that you are currently on displays both in the page header and at the end of the breadcrumb path in italics. In the example below, this is the "Share with Brand Team" task.
 
-![](assets/nwe-collapsed-breadcrumb-350x133.png)
+![Collapsed breadcrumb](assets/NWE-collapsed-breadcrumb.png)
 
 When there are too many objects in the breadcrumb path or the screen width prohibits the full navigational hierarchy from displaying, the path collapses some of the breadcrumbs and groups these objects at the beginning of the breadcrumb path. Both the project and the current object page are always visible in the breadcrumb path.
 
@@ -24,7 +24,7 @@ For example, "3 more" in the image above indicates that 3 objects are not displa
 
 Clicking "more" allows you to expand the full hierarchy. You can click "Less" to collapse the breadcrumb path again.
 
-![](assets/nwe-expanded-breadcrumb-350x161.png)
+![Expanded breadcrumb](assets/NWE-expanded-breadcrumb.png)
 
 You can also use the following keys to navigate the breadcrumbs:
 
@@ -54,11 +54,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -68,7 +68,7 @@ You must have the following access to perform the steps in this article:
 
 ## Access a parent object in the breadcrumbs
 
-For information about parent objects in&nbsp;Adobe Workfront administrator, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+For information about parent objects in Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Conditional) If you don't see the object you want to navigate to in a collapsed breadcrumb path, click **more**, then locate the object.
 
