@@ -50,7 +50,7 @@ You must have the following to perform the steps in this article:
    >[!NOTE]
    >
    >* You can use the **Preview** button in the lower-right corner to get an idea of how the custom fields and widgets will display in the form.
-   >* Descriptive Text fields cannot share a row.
+   >* Descriptive Text fields cannot share a row. 
    >* Custom fields and widgets may not always display the same way in the form, depending on how much screen space is available when a user is viewing it. For example, the third field in a row of fields may wrap to the next row of fields if horizontal space is limited.
 
 1. (Optional)To position a custom field or widget above or below another one, drag it above or below until a horizontal blue line appears between the items.
