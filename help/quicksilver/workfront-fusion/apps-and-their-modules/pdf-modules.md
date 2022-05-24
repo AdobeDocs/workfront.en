@@ -142,7 +142,7 @@ Fill in the Generate document module fields as follows:
    <td role="rowheader">Data for merge</td> 
    <td> <p>For each value tag in your template that you want to replace with text, fill in the following:</p> 
     <ul> 
-     <li> <p>Key</p> <p>Enter a key. In the template, the key is the text shown in the value tag. For example, if you want to place text in the value tag <code>{{name}}</code>, enter <code>name </code>in the key field.</p> </li> 
+     <li> <p>Key</p> <p>Enter a key. In the template, the key is the text shown in the value tag. For example, if you want to place text in the value tag &lbrace;&lbrace;<code>name</code>&rbrace;&rbrace;, enter <code>name</code> in the key field.</p> </li> 
      <li> <p>Value Type</p> <p>Select whether the data in the value field is a value, an object, or an array of objects.</p> </li> 
      <li> <p>Value</p> <p>Enter or map the text that you want to appear in the generated document in place of the value tag.</p> </li> 
     </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 

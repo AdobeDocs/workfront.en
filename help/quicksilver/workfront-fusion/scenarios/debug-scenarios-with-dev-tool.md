@@ -285,24 +285,11 @@ Duplicates a connection from the source module to every module in the scenario o
 
 Searches for specified variables in the scenario and replaces them with a new variable.
 
-<table> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Variable to Find</td> 
-   <td> <p> Locate the variable pill that you want to replace from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: <code>{{5.value}}</code>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Replace With</p> </td> 
-   <td> <p>Locate the variable pill that you want to replace the variable with from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: <code>{{5.value}}</code>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Module</p> </td> 
-   <td> <p>Select the module in which you want to replace the variable. If no module is selected, the variable will be replaced in the entire scenario.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Variable | Description |
+|---|---|
+| Variable to Find |   Locate the variable pill that you want to replace from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: `5.value}}`.|
+|  Replace With    |  Locate the variable pill that you want to replace the variable with from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: `5.value}}`. |
+|  Module |  Select the module in which you want to replace the variable. If no module is selected, the variable will be replaced in the entire scenario.|
 
 #### Swap App {#swap-app}
 
