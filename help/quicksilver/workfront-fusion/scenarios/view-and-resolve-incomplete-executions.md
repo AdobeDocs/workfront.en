@@ -21,7 +21,7 @@ The Incomplete executions folder stores scenario executions that were not succes
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">  
  <col> 
  <col> 
  <tbody> 
@@ -35,21 +35,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+  <td> <p>Workfront Fusion for Work Automation and Integration </p><p>Workfront Fusion for Work Automation </p>  </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -69,49 +60,9 @@ For more information, see [Errors resulting into incomplete executions](#errors-
 >
 >The current size limit of the unresolved incomplete executions folder per organization is 500 MB. If your organization exceeds this limit, you may see the following error: 
 >
->"There is NOT ENOUGH SPACE to add a bundle to the IEQ. The reason is: Too many incomplete executions."
+>`"There is NOT ENOUGH SPACE to add a bundle to the IEQ. The reason is: Too many incomplete executions."`
 >
 >For more information, see [Enable data loss](../../workfront-fusion/scenarios/scenario-settings-panel.md#enable) in [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
-
-## Access requirements
-
-You must have the following access to use the functionality in this article:
-
-<table> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
- </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Resolve incomplete executions
 
@@ -120,9 +71,6 @@ When a new incomplete execution is stored, you can resolve it as follows:
 1. Click the **Incomplete Executions** tab.
 1. Locate the incomplete execution you would like to resolve and click **Detail**.
 
-   <!--
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">add screenshot when this works</p>
-   -->
 
    If you want to see the log of all module's operations before you attempt to resolve the incomplete execution, you can resolve the incomplete execution from the History folder:
 
@@ -154,7 +102,7 @@ If an error occurs on the first module in the scenario, the execution stops imme
 
 If an error occurs on any other module and there is no error handler route attached, one of the following occurs:
 
-* If the error type is ConnectionError, RateLimitError, OutOfSpaceError or ModuleTimeoutError, an incomplete execution record wit auto-retry is stored.
-* If the error type is DataError, InvalidConfigurationError, InvalidAccessTokenError, UnexpectedError, MaxFileSizeExceededError or MaxResultsExceededError, an incomplete execution record without auto-retry is stored.
+* If the error type is `ConnectionError`, `RateLimitError`, `OutOfSpaceError` or `ModuleTimeoutError`, an incomplete execution record with auto-retry is stored.
+* If the error type is `DataError`, `InvalidConfigurationError`, `InvalidAccessTokenError`, `UnexpectedError`, `MaxFileSizeExceededError`, or `MaxResultsExceededError`, an incomplete execution record without auto-retry is stored.
 * If the error type is anything other than the above, the execution fails.
 

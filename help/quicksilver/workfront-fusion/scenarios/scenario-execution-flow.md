@@ -16,7 +16,7 @@ This article explains how a scenario executes and how data flows through it. It 
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -30,21 +30,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p><p>Workfront Fusion for Work Automation </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -67,25 +58,29 @@ If the bundles process correctly throughout all of the modules, the scenario is 
 
 ### Example: Workfront Fusion for Work Automation
 
-**Example:** In a scenario that watches for incoming requests in Workfront and then converts them to Workfront projects, data would flow as follows.
-
-The scenario's first step, performed by the first module, is to watch for requests. Each request that comes in is considered one bundle. If the module runs without finding any bundles, the scenario ends after the first module.
-
-If the first module returns a bundle, the bundle passes through the rest of the scenario. In this example, the rest of the scenario consists of the second and last module, which converts the request to a project.
-
-![](assets/example-execution-flow-wf-only-350x157.png)
+>[!INFO]
+>
+>**Example:** In a scenario that watches for incoming requests in Workfront and then converts them to Workfront projects, data would flow as follows.
+>
+>The scenario's first step, performed by the first module, is to watch for requests. Each request that comes in is considered one bundle. If the module runs without finding any bundles, the scenario ends after the first module.
+>
+>If the first module returns a bundle, the bundle passes through the rest of the scenario. In this example, the rest of the scenario consists of the second and last module, which converts the request to a project.
+>
+>?![](assets/example-execution-flow-wf-only-350x157.png)
 
 ### Example: Workfront Fusion for Work Automation and Integration
 
-**Example:** In a scenario that downloads documents from Adobe Workfront and sends them to a folder in Dropbox, data would flow as follows.
-
-The scenario's first step, performed by the first module, is to watch for bundles (documents). In this example, the module watches for bundles in Workfront. If it does not return a bundle, the scenario ends after the first module.
-
-If a bundle is returned, the bundle passes through the rest of the scenario. In this example, the rest of the scenario consists of the second and last module, which uploads the bundle to the Dropbox folder.
-
-![](assets/example-wf-dropbox-scen-execution-flow-350x202.png)
-
-If the first module returns multiple bundles, the first bundle is uploaded to Dropbox before the second bundle is uploaded. Then the second bundle uploads, then the third, and so on.
+>[!INFO]
+>
+>**Example:** In a scenario that downloads documents from Adobe Workfront and sends them to a folder in Dropbox, data would flow as follows.
+>
+>The scenario's first step, performed by the first module, is to watch for bundles (documents). In this example, the module watches for bundles in Workfront. If it does not return a bundle, the scenario ends after the first module.
+>
+>If a bundle is returned, the bundle passes through the rest of the scenario. In this example, the rest of the scenario consists of the second and last module, which uploads the bundle to the Dropbox folder.
+>
+>![](assets/example-wf-dropbox-scen-execution-flow-350x202.png)
+>
+>If the first module returns multiple bundles, the first bundle is uploaded to Dropbox before the second bundle is uploaded. Then the second bundle uploads, then the third, and so on.
 
 ## Information about processed bundles
 
