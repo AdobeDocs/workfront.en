@@ -21,12 +21,6 @@ You can submit a request, assign it to the right resource, and update it when yo
 
 For more information about submitting requests on the mobile app, see the "Submitting Requests" section in&nbsp;.
 
-For a demonstration of how to use this feature, watch the following video:
-
-<!--WRITER
-<iframe class="mt-media" src="assets/226008768?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
-
 
 
 ## Add New Entries to Timesheets
@@ -34,12 +28,6 @@ For a demonstration of how to use this feature, watch the following video:
 Starting with the&nbsp;new version of the mobile app, you will be able to add new entries (projects, tasks, and issues) to your timesheets and log time for them.
 
 Prior to this update, you were able to only log General Hours to the timesheet, and to add time to items that were already on your timesheet.&nbsp;
-
-For more information about adding new entries to timesheets on the mobile app, see the "Working with Timesheets" section in&nbsp;.
-
-<!--WRITER
-<iframe class="mt-media" src="assets/229038077?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
---> 
 
 ## Edit Custom Forms
 
@@ -54,10 +42,6 @@ Prior to this update, you were able to only view information on custom forms on 
 
 For more information about editing custom forms on the mobile app, see the "Editing Custom Forms" section in&nbsp;.
 
-<!--WRITER
-<iframe class="mt-media" src="assets/229038756?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
---> 
-
 ## Proof Approvals Visibility in the Mobile App
 
 Starting with the&nbsp;new version of the mobile app, you will be able to approve proofs of documents on your mobile device. You will also receive a notification in the Notifications area when you are designated as an Approver on a proof.&nbsp;
@@ -65,9 +49,3 @@ Starting with the&nbsp;new version of the mobile app, you will be able to approv
 Prior to this update, you were able to perform project, task, issue, and document approvals using the mobile app. You will require a Proof HQ license to approve document proofs on the mobile app.&nbsp;
 
 For more information about proofing within Workfront, see the [Proofing](../../review-and-approve-work/proofing/proofing.md) section.&nbsp;
-
-For more information about approving a proof on the mobile app, see the "Managing Approvals" section in&nbsp;.
-
-<!--WRITER
-<iframe class="mt-media" src="assets/229038773?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
---> 

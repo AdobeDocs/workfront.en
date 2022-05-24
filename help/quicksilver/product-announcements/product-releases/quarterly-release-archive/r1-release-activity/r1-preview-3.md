@@ -22,10 +22,6 @@ Prior to these changes, the option to link&nbsp;files from an external source wa
 
 For more information, see&nbsp; [Link documents from external applications](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-<!--WRITER
-<iframe class="mt-media" src="assets/202056256?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
-
 ## Updated&nbsp;Team Working On Calendar
 
 The Working On calendar available for teams now contains additional functionality and an updated look and feel. The team Working On calendar now functions similar to the resource scheduling tool for projects.
@@ -51,12 +47,6 @@ Differences from the resource scheduling tool when scheduling resources for proj
 
 For more information about using the updated team Working On calendar, see [Resource Scheduling](../../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
 
-You can still access the legacy Working On Calendar, as described in .
-
-<!--WRITER
-<iframe class="mt-media" src="assets/200066372?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->&nbsp;&nbsp;
-
 ## Resource Scheduling Enhancements
 
 The scheduling timeline includes the following enhancements:
@@ -79,10 +69,6 @@ Users remain on the scheduling timeline after they are assigned a task or issue,
 Prior to this change, users would disappear from the scheduling timeline immediately after being assigned a task or issue if there were no remaining tasks or issue in the Unassigned area with a matching role assignment.
 
 For more information, see&nbsp; [Manually assign unassigned tasks and issues in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [Manually assign unassigned tasks and issues in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
-
-<!--WRITER
-<iframe class="mt-media" src="assets/201889347?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
 
 ## Customize Workfront Terminology by Changing Object Names
 
@@ -118,9 +104,7 @@ The following areas do not show the updated name of the objects:
 * Mobile Apps
 * Outlook Add-in
 
-For more information about how to customize the Workfront terminology using a Layout Template, see the "Customizing Terminology" section in "Creating and Managing Layout Templates" and the "Understanding the Implications of Customizing Object Names" section in [Understand objects in Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).&nbsp;<!--WRITER
-<iframe class="mt-media" src="assets/201701616?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->&nbsp;&nbsp;
+For more information about how to customize the Workfront terminology using a Layout Template, see the "Customizing Terminology" section in "Creating and Managing Layout Templates" and the "Understanding the Implications of Customizing Object Names" section in [Understand objects in Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Include Approval Start and End Dates in Reports
 
@@ -141,10 +125,6 @@ The following fields were removed from Workfront and can no longer be included i
 * Approval Projected Start Date
 * Approval Estimated Start Date
 
-<!--WRITER
-<iframe class="mt-media" src="assets/199878644?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->&nbsp;&nbsp;
-
 ## New Email Digest Options for "Requests I Have Made"
 
 The Daily Digest delivery option has been added to the "Requests I Have Made" area of your Notifications settings.
@@ -152,10 +132,6 @@ The Daily Digest delivery option has been added to the "Requests I Have Made" ar
 For more information, see [Activate or deactivate your own event notifications](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Remember to update the email address associated with your account to be able to test this functionality. This is required because the Preview Sandbox clears the email addresses on all users.
-
-<!--WRITER
-<iframe class="mt-media" src="assets/200094754?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
 
 ## Updated Look and Feel of Document Approval Email Notifications
 
@@ -175,7 +151,3 @@ The Milestone view that is available when viewing a project list or project repo
 Prior to this change, in order to edit the dates or view percent complete, you had to go to the individual task.
 
 For more information, see [Use the Milestone view](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
-
-<!--WRITER
-<iframe class="mt-media" src="assets/201707205?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
---> 

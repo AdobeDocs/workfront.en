@@ -33,10 +33,6 @@ For more information, see the following articles:
 * [Customize user interface terminology using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md) 
 * [Import projects to plans in the Scenario Planner](../../../scenario-planner/import-projects-to-plans.md)
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/539863715?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/539863715/e851ec323a)
 
 ## Connection between the Scenario Planner, Workload Balancer, and task list
@@ -49,9 +45,5 @@ For information, see the following articles:
 * [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
 For information, see [Overview of reconciling resource allocations between projects and initiatives](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/539890235?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/539890235/7127d1d666) 

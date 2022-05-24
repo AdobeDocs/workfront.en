@@ -88,10 +88,6 @@ You can now&nbsp;search for objects inside the mobile app, similarly to the way 
 
 For more information about the mobile app, see the "Searching in Mobile" section in&nbsp;&nbsp;
 
-<!--WRITER
-<iframe class="mt-media" src="assets/204243449?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
-
 ## Improved Help in the Mobile App: Tutorials (Workfront)
 
 Starting with the mobile release in April, you will see new tutorial screens to guide you through your mobile experience. When you log into the mobile app for the first time, and you are using a feature for the first time, you will see a brief tutorial that explains how the feature works. The tutorial displays only once, the first time you are using a specific feature.

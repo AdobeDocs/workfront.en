@@ -37,10 +37,6 @@ When associating an approval process with a project, task, or issue, the followi
 
 For more information about associating approvals with projects, tasks, and issues, see [Associate a new or existing approval process with work](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-<!--WRITER
-<iframe class="mt-media" src="assets/203901609?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->&nbsp;&nbsp;
-
 ## Change the Status of a Project Directly from the Project Page
 
 You no longer need to edit a project in order to change the project status. You can now change the status of a project directly from the main page of the project.
@@ -102,9 +98,3 @@ You can copy text in the following fields of all the objects that are visible in
 * Comments
 
 This functionality should be released to both the iOS and Android app stores the week of February 13th.
-
-For more information, see .
-
-<!--WRITER
-<iframe class="mt-media" src="assets/200086387?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->&nbsp;&nbsp;
