@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> <p><b>Note</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +50,8 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>Note
 ## Customize Home and Summary using a layout template
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Click the down arrow ![](assets/dropdown-arrow.png) under **Customize what users see**, then click **Home****and Summary**.
+
+1. Click the down arrow ![](assets/dropdown-arrow.png) under **Customize what users see**, then click **Home and Summary**.
 
 1. In the list that appears on the left, click the object type (**Tasks**, **Issues**,**Projects**, **Documents**, or **Document Versions**) that you want to customize in Home and Summary.
 
@@ -60,7 +61,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>Note
     <tbody> 
      <tr> 
       <td role="rowheader">Tasks</td> 
-      <td> <p>In Home, your configuration for this setting affects the area to the right of a task when a user clicks the task. And, in a list of tasks, it affects the Summary panel that displays on the right side of the page when a user selects a task, then clicks the Open Summary icon <img src="assets/summary-panel-icon.png">.</p> <p>For example, you can determine which fields users see in the Details area when users select tasks in Home:</p> <p> <img src="assets/home-details-adobe-branding-350x176.jpg" style="width: 350;height: 176;"> </p> <p>And when they select a task in the Summary:</p> <p> <img src="assets/summary-details-350x255.jpg" style="width: 350;height: 255;"> </p> </td> 
+      <td> <p>In Home, your configuration for this setting affects the area to the right of a task when a user clicks the task. And, in a list of tasks, it affects the Summary panel that displays on the right side of the page when a user selects a task, then clicks the Open Summary icon <img src="assets/summary-panel-icon.png">.</p> <p>For example, you can determine which fields users see in the Details area when users select tasks in Home:</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>And when they select a task in the Summary:</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Issues</td> 
@@ -85,13 +86,13 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>Note
    >
    >If a task is unassigned, the user assigned to the layout template will not see the field customizations in the Summary.
 
-1. (Conditional) If you clicked Tasks or Issues in the previous step, click the category of task or issue that you want to customize.
+1. (Conditional) If you clicked Tasks or Issues in the previous step, select the category of task or issue that you want to customize.
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding-350x226.png)
+   ![](assets/choose-cat-cstmz-nwe-adobe branding.png)
 
 1. (Conditional) If the **Set primary action button** drop-down menu appears (if you select **Tasks** or **Issues** in the list on the left), click the primary action (**Done** or **Status**) that you want available for users in the Home area and in the Summary panel when they view a task or an issue.
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding-350x219.png)
+   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
 1. Add ![](assets/add-item-plus-in-circle-blue.png) or hide ![](assets/close-or-hide---x.png) fields for the selected object type.
 

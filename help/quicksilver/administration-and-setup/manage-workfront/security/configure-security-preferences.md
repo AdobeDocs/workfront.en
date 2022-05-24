@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>Note</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Automatically log users out after</td> 
-      <td> <p><b>Note</b>: This is not currently available. We are working on authentication enhancements that will allow you to log out inactive users automatically after a period of time that you choose.  <!--
+      <td> <p><b>NOTE</b>: This is not currently available. We are working on authentication enhancements that will allow you to log out inactive users automatically after a period of time that you choose.  <!--
           TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in - Workfront basics/Manage your account and profile/Managing Your Workfront Account/log-out-of-workfront.html
         --></p> <p>This option lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. </p> <p>This option also affects Workfront customers who are using a single sign-on solution.</p> </td> 
      </tr> 

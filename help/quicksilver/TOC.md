@@ -373,7 +373,7 @@ user-guide-description: Workfront
       * [Configurable access for each  object type](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
       * [Built-in access levels](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
       * [List users' access levels and licenses](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-    * Configure access to Adobe Workfront {#configure-access}
+    * Configure access to Workfront {#configure-access}
       * [Configure access](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
       * [Manage custom access levels](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
       * [Administrative access](administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
@@ -424,9 +424,9 @@ user-guide-description: Workfront
     * Layout templates {#layout-templates}
       * [Layout templates](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
       * [Default Workfront layout](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
-      * [Manage layout templates](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
-      * [Customize Main Menu](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
-      * [Customize left panel](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+      * [Create and manage layout templates](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
+      * [Customize the Main Menu](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+      * [Customize the left panel](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
       * [Customize the Details view](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
       * [Customize Home and Summary](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
       * [Customize pinned pages](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
