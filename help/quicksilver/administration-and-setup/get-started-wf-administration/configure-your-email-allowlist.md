@@ -18,8 +18,7 @@ This is useful if your organization's security policy restricts users from sendi
 
 >[!IMPORTANT]
 >
->Your IT team should ensure that incoming email from ```
->notifications@my.workfront.com``` is not blocked in your organization's system.
+>Your IT team should ensure that incoming email from ```notifications@my.workfront.com``` is not blocked in your organization's system.
 >
 >All email from Workfront is sent from that address to increase successful email delivery and to eliminate spoofing of emails. This includes both automated alerts and user-to-user communication.
 >
