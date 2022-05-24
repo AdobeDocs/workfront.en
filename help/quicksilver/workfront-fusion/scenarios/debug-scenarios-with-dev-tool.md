@@ -291,11 +291,11 @@ Searches for specified variables in the scenario and replaces them with a new va
  <tbody> 
   <tr> 
    <td role="rowheader">Variable to Find</td> 
-   <td> <p> Locate the variable pill that you want to replace from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: <code>{{5.value}}</code>.</p> </td> 
+   <td> <p> Locate the variable pill that you want to replace from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Replace With</p> </td> 
-   <td> <p>Locate the variable pill that you want to replace the variable with from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: <code>{{5.value}}</code>.</p> </td> 
+   <td> <p>Locate the variable pill that you want to replace the variable with from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Module</p> </td> 

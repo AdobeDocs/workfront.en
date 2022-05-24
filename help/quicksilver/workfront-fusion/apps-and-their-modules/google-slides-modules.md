@@ -254,8 +254,8 @@ Creates a new presentation by replacing all tags like `{{Name}}`, `{{Email}}` in
    <td role="rowheader">Values </td> 
    <td> <p>Add the values:</p> 
     <ul> 
-     <li><strong>Tag</strong>: Enter the tag you want to replace in the presentation. For example, <code>{{Name}}</code></li> 
-     <li><strong>Replaced Value</strong>: Enter the value with which the existing tag is to be replaced. For example, if a string <code>{{Name}}</code> in the presentation and the replaced value is Sample, then the <code>{{Name}}</code> will be replaced by <code>Sample</code>.</li> 
+     <li><strong>Tag</strong>: Enter the tag you want to replace in the presentation. For example, <code>&#123;&#123;Name&#125;&#125;</code></li> 
+     <li><strong>Replaced Value</strong>: Enter the value with which the existing tag is to be replaced. For example, if a string <code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
     </ul> </td> 
   </tr> 
   <tr> 

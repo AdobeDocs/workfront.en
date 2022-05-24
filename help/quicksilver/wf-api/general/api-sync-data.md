@@ -50,7 +50,7 @@ If you are interested in obtaining changes regarding a specific field on an obje
 When a field is setup to be logged as a part of the Journal Entry object a corresponding Journal Entry will be created every time that field is modified. Then, you can query the Journal Entry object using an API&nbsp;call similar to the following:
 
 <!-- [Copy](javascript:void(0);) --> 
-<pre><code>GET https://{{domain}}.my.workfront.com/attask/api/v11.0/JRNLE/search?fields=newTextVal,oldTextVal,newDateVal,oldDateVal,newNumberVal,oldNumberVal,entryDate,objObjCode,objID,fieldName&fieldName=name&objObjCode=OPTASK&entryDate=2020-05-13T18:18:37.255Z&entryDate_Mod=gte</code></pre>
+<pre><code>GET https://&#123;&#123;domain&#125;&#125;.my.workfront.com/attask/api/v11.0/JRNLE/search?fields=newTextVal,oldTextVal,newDateVal,oldDateVal,newNumberVal,oldNumberVal,entryDate,objObjCode,objID,fieldName&fieldName=name&objObjCode=OPTASK&entryDate=2020-05-13T18:18:37.255Z&entryDate_Mod=gte</code></pre>
 
 >[!NOTE]
 >
