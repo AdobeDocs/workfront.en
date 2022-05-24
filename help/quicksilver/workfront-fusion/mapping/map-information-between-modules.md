@@ -17,7 +17,7 @@ The mapping panel displays when you click a field where you want to insert a val
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -36,15 +36,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-    </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -67,9 +59,11 @@ To explore the output of a module:
 
    A log containing all of the module's phases displays. You can find the bundle or bundles outputted by a module's operation phase under the **Output** heading. Each bundle contains its items and each item's values.
 
-**Example:** This example shows the module Email > Watch emails. You can see that it performed 1 operation producing a single bundle that contains various items such as `Date`, `Email ID (UID)`, `size`, and so on.
-
-![](assets/watch-emails-350x298.png)
+>[!INFO]
+>
+>**Example:** This example shows the module Email > Watch emails. You can see that it performed 1 operation producing a single bundle that contains various items such as `Date`, `Email ID (UID)`, `size`, and so on.
+>
+>![](assets/watch-emails-350x298.png)
 
 >[!NOTE]
 >
@@ -162,13 +156,7 @@ For more information about arrays, see [Item data types in Adobe Workfront Fusio
 
 ### Map an array's first element
 
-If you map an array's 
-
-```
-Recipient name
-```
-
-item, it displays in the field like this:
+If you map an array's `Recipient name` item, it displays in the field like this:
 
 ![](assets/map-array-1st-element.png)
 
@@ -194,29 +182,11 @@ The output from Jira looks like this:
 
 ![](assets/output-from-jira-350x261.png)
 
-The typical requirement is to look up an element by its given key value and obtain the corresponding value from the value item. This can be achieved with a formula employing a combination of the 
-
-```
-map()
-```
-
-and 
-
-```
-get()
-```
-
-functions.
+The typical requirement is to look up an element by its given key value and obtain the corresponding value from the value item. This can be achieved with a formula employing a combination of the `map()` and `get()` functions.
 
 The following is a detailed breakdown of the formula:
 
-1. The first parameter of the 
-
-   ```
-   map()
-   ```
-
-   function is the whole array item. 
+1. The first parameter of the `map()` function is the whole array item. 
 1. The second parameter is the raw name of the value item. To obtain the raw name, hover over the item in the mapping panel:
 
    ![](assets/obtain-raw-name-350x124.png)
@@ -231,49 +201,15 @@ The following is a detailed breakdown of the formula:
 
 1. The 4th parameter is the given key value.
 
-Because the 
+Because the `map()` function returns an array (as there could be more elements with the given key value), it is necessary to apply the `get()` function to get its first element:
 
-```
-map()
-```
-
-function returns an array (as there could be more elements with the given key value), it is necessary to apply the 
-
-```
-get()
-```
-
-function to get its first element:
-
-* The 1st parameter of the 
-
-  ```
-  get()
-  ```
-
-  function is the result of the 
-
-  ```
-  map()
-  ```
-
-  function.
+* The 1st parameter of the `get()` function is the result of the `map()` function.
 
 * The 2nd parameter is the element's index - one.
 
-For more information about the 
+For more information about the `map()` function, see [Array functions in Adobe Workfront Fusion](../../workfront-fusion/functions/array-functions.md). 
 
-```
-map()
-```
-
-function, see [Array functions in Adobe Workfront Fusion](../../workfront-fusion/functions/array-functions.md). For more information about the 
-
-```
-get()
-```
-
-function, see [General functions in Adobe Workfront Fusion](../../workfront-fusion/functions/general-functions.md).
+For more information about the `get()` function, see [General functions in Adobe Workfront Fusion](../../workfront-fusion/functions/general-functions.md).
 
 ## Converting elements to a series of bundles
 
