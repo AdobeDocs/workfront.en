@@ -13,11 +13,8 @@ description: Configure Adobe Workfront with LDAP
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
->
->If your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+{{important-admin-console-onboard}}
+
 
 >[!IMPORTANT]
 >

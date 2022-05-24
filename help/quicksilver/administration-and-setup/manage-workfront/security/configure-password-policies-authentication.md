@@ -9,11 +9,8 @@ description: The procedure described on this page applies only to organizations 
 
 # Configure password policies for authentication
 
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
->
->If your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+{{important-admin-console-onboard}}
+
 
 As an Adobe Workfront administrator, you can configure password policy options to customize the authentication experience to your Workfront system.
 
