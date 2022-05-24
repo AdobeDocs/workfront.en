@@ -16,7 +16,7 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 This section contains the following articles:
 
-* [Adobe Workfront Fusion overview](../../workfront-fusion/scenarios/scenario-ovreview.md) 
+* [Adobe Workfront Fusion overview](../../workfront-fusion/scenarios/scenario-overview.md) 
 * [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md) 
 * [The scenario editor in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-editor.md) 
 * [Basic scenario settings in Adobe Workfront Fusion](../../workfront-fusion/scenarios/basic-scenario-settings.md) 
