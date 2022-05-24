@@ -12,7 +12,7 @@ description: As an Adobe Workfront administrator or a group administrator, you c
 
 As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront:
 
-![](assets/main-menu-adobe-branding-350x219.png)
+![](assets/main-menu-adobe-branding.png)
 
 >[!NOTE]
 >

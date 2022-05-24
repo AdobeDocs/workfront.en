@@ -88,7 +88,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 
 1. (Conditional) If you clicked Tasks or Issues in the previous step, select the category of task or issue that you want to customize.
 
-   ![](assets/choose-cat-cstmz-nwe-adobe branding.png)
+   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. (Conditional) If the **Set primary action button** drop-down menu appears (if you select **Tasks** or **Issues** in the list on the left), click the primary action (**Done** or **Status**) that you want available for users in the Home area and in the Summary panel when they view a task or an issue.
 
@@ -96,7 +96,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 
 1. Add ![](assets/add-item-plus-in-circle-blue.png) or hide ![](assets/close-or-hide---x.png) fields for the selected object type.
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding-350x270.png)
+   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Repeat steps 3-6 to customize Home area and the Summary panel for any other object types.
 1. Click **Global settings**, near the lower left corner, then enable or disable any of the following options related to Adobe Workfront objects in Home and Summary:
