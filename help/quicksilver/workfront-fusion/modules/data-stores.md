@@ -12,10 +12,6 @@ description: A data store, similar to a database or a simple table, can store da
 
 A data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information on scenarios, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a></p>
--->
-
 The data store modules enable you to take the following actions on records in your Adobe Workfront Fusion data store:
 
 * Add
@@ -32,7 +28,7 @@ For information on using data store modules, see [Data store modules](../../work
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -51,16 +47,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -90,7 +77,7 @@ Before you can use a data store in a module, you must create the data store in W
 
    A bolded title on a field in a Workfront Fusion module indicates a required setting.
 
-   <table> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -121,7 +108,7 @@ Before you can use a data store in a module, you must create the data store in W
 1. When creating or editing a data store, click **Add**.
 1. In the **Add data structure** box that displays, configure the following fields:
 
-   <table> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 

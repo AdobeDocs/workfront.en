@@ -18,7 +18,7 @@ For more information, see [Types of modules](../../workfront-fusion/modules/modu
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -37,16 +37,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -62,51 +53,24 @@ You set up an iterator module the same you set up any other module. The Array fi
 
 For more information, see [Configure a module's settings in Adobe Workfront Fusion](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
-**Examples:** 
+>[!INFO]
+>
+>**Examples:** 
+>
+>* The below scenario shows how to retrieve emails with attachments and save the attachments as single files in a selected Dropbox folder.
+>
+>   Emails can contain an array of attachments. The iterator module inserted after the first module will enable you to handle each attachment separately. The iterator module splits the array of attachments into single bundles. Each bundle, with one attachment, is then saved one at a time in a selected Dropbox folder. The iterator module set-up is shown above: the Array field should contain the `Attachments` array.
+>
+>   ![](assets/attachments-array-350x154.jpg)
+>
+>* For your convenience, many Workfront Fusion apps offer specialized iterator modules with a simplified setup. For example, the Email app contains the special iterator module Email > Iterate attachments that will produce the same results as the general Iterator module.
+>
+>   ![](assets/specialized-iterators-350x135.jpg)
 
-* The below scenario shows how to retrieve emails with attachments and save the attachments as single files in a selected Dropbox folder.
-
-  Emails can contain an array of attachments. The iterator module inserted after the first module will enable you to handle each attachment separately. The iterator module splits the array of attachments into single bundles. Each bundle, with one attachment, is then saved one at a time in a selected Dropbox folder. The iterator module set-up is shown above: the Array field should contain the 
-
-  ```
-  Attachments[]
-  ```
-
-  array.
-
-  ![](assets/attachments-array-350x154.jpg)
-
-* For your convenience, many Workfront Fusion apps offer specialized iterator modules with a simplified setup. For example, the Email app contains the special iterator module Email > Iterate attachments that will produce the same results as the general It
-
-  ![](assets/specialized-iterators-350x135.jpg)
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Learn when to use an Iterator in your scenarios</h2>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The video below is module 1 of the 3 part lesson titled Iterator and Array Aggregator. It explains the purpose of the Iterator and the Array Aggregator and with the help of a sample scenario, explains when to use an Iterator and what to do with the output.</p>
--->
-
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">video</p>
--->
 
 ## Troubleshooting: Mapping panel does not display mappable items under iterator module
 
-When an iterator module does not have an information about the structure of the array's items, the mapping panel in the modules following the iterator module display only 2 items under the iterator module :
-
-```
-Total number of bundles
-```
-
-and 
-
-```
-Bundle order position
-```
-
-:
+When an iterator module does not have an information about the structure of the array's items, the mapping panel in the modules following the iterator module display only 2 items under the iterator module :`Total number of bundles` and `Bundle order position`:
 
 ![](assets/mapping-panel-doesnt-display-350x147.png)
 
