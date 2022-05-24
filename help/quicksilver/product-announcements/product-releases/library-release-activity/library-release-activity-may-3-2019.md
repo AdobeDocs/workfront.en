@@ -28,7 +28,3 @@ If your metadata taxonomy allows for content expiration, you can now specify an 
 
 * [Set up content expiration in Workfront Library](../../../workfront-library/administration-and-setup/workfront-library-setup/set-up-content-expiration-in-library.md) 
 * &nbsp;
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/334532647?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
---> 

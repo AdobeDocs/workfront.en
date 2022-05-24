@@ -32,10 +32,6 @@ We've also made it possible to sort the scenario execution history. You can sort
 
 For more information on filtering and sorting execution history, see [View a scenario's execution history in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/606779136?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/606779136/deaf2e810c)
 
 ## Help links in Fusion now lead to specific articles
