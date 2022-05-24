@@ -10,13 +10,40 @@ description: This article describes events that occur while an Adobe Workfront F
 # Scenario execution, cycles, and phases in Adobe Workfront Fusion
 
 Adobe Workfront Fusion is a transactional system, similar to relational databases. Each scenario execution starts with the initialization phase, continues with at least one cycle composed of the operation and commit/rollback phases, and ends with the finalization phase:
-```<blockquote>  <p>initialization</p>  <p>cycle #1<p>operation (reading or writing)</p><p>commit or rollback</p></p>  <p>cycle #2<p>operation (reading or writing)</p><p>commit or rollback</p></p>  <p>...</p>  <p>cycle #N<p>operation (reading or writing)</p><p>commit or rollback</p></p>  <p>finalization</p> </blockquote>``` 
+
+>[!INFO]
+>
+>**Example**
+>
+>Initialization
+>
+>Cycle #1
+>
+>Operation (reading or writing)
+>
+>Commit or rollback
+>
+>Cycle #2
+>
+>Operation (reading or writing)
+>
+>Commit or rollback
+>
+>...
+>
+>Cycle #N
+>
+>Operation (reading or writing)
+>
+>Commit or rollback
+>
+>Finalization 
 
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -30,21 +57,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+  <td> <p>Workfront Fusion for Work Automation and Integration </p><p>Workfront Fusion for Work Automation </p>  </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -87,7 +105,7 @@ All Workfront Fusion modules that support rollback (also known as transactionali
 
 ![](assets/acid-modules-350x189.png)
 
-Modules not marked with this tag cannot be reverted back to their initial state when errors occur in other modules. A typical example of a non-ACID module is the Email > Send an Email action. Once the email is sent you cannot undo the sending.
+Modules not marked with this tag cannot be reverted back to their initial state when errors occur in other modules. A typical example of a non-ACID module is the Email > Send an Email action. After the email is sent you cannot undo the sending.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -17,7 +17,7 @@ A scenario's execution history displays all of a scenario's executions for the l
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">  
  <col> 
  <col> 
  <tbody> 
@@ -31,21 +31,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+  <td> <p>Workfront Fusion for Work Automation and Integration </p><p>Workfront Fusion for Work Automation </p>  </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -127,39 +118,41 @@ You can sort the scenario execution history.
    If you are working on the scenario in the Scenario editor, click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
 
 1. Click the **History** tab near the upper-left corner of the screen.
-1. Click **Fulltext search** in the upper-right corner of the screen.
+1. Click **Fulltext search** at the top of the list of executions.
 
-   <!--
-   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click <strong>Fulltext search</strong> at the top of the list of executions.</p> <p>Or</p> <p>Type <b>Ctrl+Shift+F</b> (Windows) or <b>Cmd+Shift+F</b> (Mac)</p> <p>The Search in history window opens.</p> </li>
-   -->
+    Or
+    
+    Type **Ctrl+Shift+F** (Windows) or **Cmd+Shift+F** (Mac)
+The Search in history window opens.
 
 1. (Optional) To search for executions that contain specific text, enter the text in the search bar of the **Search in history** window.
 
-   **Example:** If you want to find the execution that created a specific project, enter the project ID into the Fulltext search bar.
+   >[!INFO]
+   >
+   >**Example:** If you want to find the execution that created a specific project, enter the project ID into the Fulltext search bar.
 
-   <!--
-   <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(Optional) To limit your search by date range, select the beginning and ending dates of your desired search in the <b>By date range</b> area. </p> <note type="note">
-   Executions are available only for the previous 30 days.
-   </note> </li>
-   -->
+1. (Optional) To limit your search by date range, select the beginning and ending dates of your desired search in the By date range area. 
 
-   <!--
-   <li value="7" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(Optional) To limit your search by status, select the desired status in the <b>By status</b> dropdown.</p> <p>Available statuses are:</p>
-   <ul>
-   <li> <p>All</p> </li>
-   <li> <p>Error</p> </li>
-   <li> <p>Warning</p> </li>
-   <li> <p>Success</p> </li>
-   </ul> </li>
-   -->
+    >    [!NOTE] 
+    >
+    > Executions are available only for the previous 30 days.
 
-   <!--
-   <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(Optional) Change the order that results display in the <b>Sort by dates</b> dropdown.</p> </li>
-   -->
+1. (Optional) To limit your search by status, select the desired status in the **By status** dropdown.
 
-   <!--
-   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(Optional) To copy a scenario execution ID, click the <b>Copy execution ID</b> icon <img src="assets/copy-fusion-execution-id-icon.png"> in the row of the desired execution. </p> </li>
-   -->
+
+    Available statuses are:
+
+      * All
+   
+      * Error
+
+      * Warning
+
+      * Success
+
+1. (Optional) Change the order that results display in the **Sort by dates** dropdown.
+
+1. (Optional) To copy a scenario execution ID, click the **Copy execution ID** icon <img src="assets/copy-fusion-execution-id-icon.png"> in the row of the desired execution
 
 1. (Optional) Click on a result of the Fulltext search to examine the scenario module output bundle that contains the information.
 
