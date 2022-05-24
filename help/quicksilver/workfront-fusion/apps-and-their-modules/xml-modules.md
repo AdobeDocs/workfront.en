@@ -124,7 +124,7 @@ The XML > Parse XML module parses an XML formatted text and outputs a single bun
      </tr> 
      <tr> 
       <td role="rowheader">XML</td> 
-      <td> <p>Map the <code>Data </code>item from the output of the HTTP &gt; Get a file module into the field. Use the <code>toString()</code> function to convert its value from the Buffer (binary data) type to Text data type.</p> <p>You may copy and paste the formula's code into the field: <code>{{toString(1.data)}}</code></p> <p>For more information the Buffer and Text data types, see <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Item data types in Adobe Workfront Fusion</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
+      <td> <p>Map the <code>Data </code>item from the output of the HTTP &gt; Get a file module into the field. Use the <code>toString()</code> function to convert its value from the Buffer (binary data) type to Text data type.</p> <p>You may copy and paste the formula's code into the field: <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>For more information the Buffer and Text data types, see <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Item data types in Adobe Workfront Fusion</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>
