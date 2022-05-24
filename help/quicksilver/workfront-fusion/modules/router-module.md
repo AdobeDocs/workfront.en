@@ -25,7 +25,7 @@ The Router module allows you to branch your flow into several routes and process
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -44,16 +44,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -79,7 +70,7 @@ A Router can be added to a scenario in one of the following ways:
 
 ## Filters
 
-To place a filter on a route after the Router module to filter bundles as on any other route:
+You can put a filter on a route after the Router module to filter bundles as on any other route:
 
 1. Click one of the dots in the route.
 
@@ -87,7 +78,7 @@ To place a filter on a route after the Router module to filter bundles as on any
 
 1. In the **Set up a filter** box that displays, add conditions, then click **OK** to save the filter setup.
 
-![](assets/set-up-a-filter-2-350x242.png)
+   ![](assets/set-up-a-filter-2-350x242.png)
 
 For more information, see [Add a filter to a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
 

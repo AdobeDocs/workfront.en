@@ -4,12 +4,12 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Add a filter to a scenario in Adobe Workfront Fusion
-description: In some scenarios, you need to work only with bundles that meet specific criteria. Filters can help you select those bundles easily.
+description: In some scenarios, you need to work only with bundles that meet specific criteria. Filters allow you to select those bundles.
 ---
 
 # Add a filter to a scenario in Adobe Workfront Fusion
 
-In some scenarios, you need to work only with bundles that meet specific criteria. Filters can help you select those bundles easily.
+In some scenarios, you need to work only with bundles that meet specific criteria. Filters allow you to select those bundles.
 
 For example, you could create a scenario with the Watch records trigger for Salesforce to capture only records containing a specific word written by a specific author.
 
@@ -22,7 +22,7 @@ You can add a filter between two modules and check whether bundles received from
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -36,21 +36,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+  <td> <p>Workfront Fusion for Work Automation and Integration </p><p>Workfront Fusion for Work Automation </p>  </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -64,7 +55,7 @@ You must add both modules to a scenario before you can add a filter between them
 
 ## Add a filter between two modules:
 
-1. Click Scenarios ![](assets/scenarios-icon.png) in the left panel, then click the scenario to open it.
+1. Click Scenarios ![](assets/scenarios-icon.png) in the left panel, then select the scenario to open it.
 1. In the upper-right corner of the window, click **Edit**.
 1. Click the connecting line between the modules. 
 1. In the box that displays, type a **Label** for the filter.
@@ -76,7 +67,7 @@ You must add both modules to a scenario before you can add a filter between them
    >
    >In the operand fields, you can enter values in the same way as you would map them, as described in [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
-   For example, if you wanted the filter to find files in Adobe Workfrontending with XML and pass them on to Dropbox, you would type **File name** in the first box and .**xml** in the second box. In the drop-down menu between them, you would select **Ends with (case insensitive)**. This filter would apply to incoming bundles from the first module (Workfront). Only bundles containing XML files would pass on to the next module (Dropbox).
+   For example, if you wanted the filter to find files in Adobe Workfront ending with XML and pass them on to Dropbox, you would enter **File name** in the first box and .**xml** in the second box. In the drop-down menu between them, you would select **Ends with (case insensitive)**. This filter would apply to incoming bundles from the first module (Workfront). Only bundles containing XML files would pass on to the next module (Dropbox).
 
    ![](assets/set-up-filter-box-350x368.jpg)
 

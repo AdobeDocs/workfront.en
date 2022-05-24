@@ -15,7 +15,7 @@ The Adobe Workfront Fusion DevTool allows you to understand and troubleshoot sce
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -29,21 +29,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+  <td> <p>Workfront Fusion for Work Automation and Integration </p><p>Workfront Fusion for Work Automation </p>  </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -58,13 +49,7 @@ To use the Workfront Fusion DevTool, you first need to install it.
 1. Click [this link](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool.zip) to download the extension.
 1. When the files have downloaded, extract them to a folder of your choice.
 1. Open a tab in Chrome
-1. In the search bar of the tab, enter 
-
-   ```
-   chrome://extensions
-   ```
-
-   .
+1. In the search bar of the tab, enter `chrome://extensions`.
 1. Click the **Developer mode** toggle at the upper-right of the screen to enable Developer mode. If the toggle to the right, developer mode is enabled.
 1. Click **Load unpacked**.
 1. Select the folder containing the DevTool (where you extracted the files in step 2).
@@ -78,7 +63,7 @@ To use the Workfront Fusion DevTool, you must add the Workfront Fusion DevTool e
 1. Open your Workfront Fusion scenario.
 1. Open Chrome Developer Tools:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -97,7 +82,7 @@ To use the Workfront Fusion DevTool, you must add the Workfront Fusion DevTool e
    >
    >We recommend docking the Chrome Developer Console to the bottom to maintain a better view of your modules.
 
-1. Click the**Workfront Fusion** tab in Chrome Dev Tools.
+1. Click the **Workfront Fusion** tab in Chrome Dev Tools.
 
 ## Use the Workfront Fusion DevTool
 
@@ -114,7 +99,7 @@ Live Stream displays what is happening in the background when you click Run once
 1. Click the **Live Stream** icon ![](assets/live-stream-icon.png) to open the Live Stream section.
 1. Do any of the following:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <thead> 
@@ -170,7 +155,7 @@ The Scenario Debugger is useful for more complex scenarios. It displays the hist
 
 The Workfront Fusion DevTool features tools that make setting up your scenario easier.
 
-1. ```<li> <li> <p>Click the <strong>Tools</strong> icon <img src="assets/console-tools-icon.png"> to open the Tools.</p> </li> </li>``` 
+1. Click the **Tools** icon ![](assets/console-tools-icon.png) to open the Tools. 
 1. Select the tool you want to use
 1. Configure the fields as detailed below.
 1. Click **Run**.
@@ -202,7 +187,7 @@ Opens settings of the specified module by ID.
 
 Allows you to search modules' values for a specified term. The output contains IDs of modules that contain the term you have searched for.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -232,7 +217,7 @@ Copies values from the source module to the target module.
 >
 >Make sure you set the correct source and target modules. If you select a different type of module, values in the target module will be deleted.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -255,7 +240,7 @@ Copies the filter settings from the source module to the target module.
 >
 >The copy action is performed on the filter placed on the left side of the selected module.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -285,11 +270,24 @@ Duplicates a connection from the source module to every module in the scenario o
 
 Searches for specified variables in the scenario and replaces them with a new variable.
 
-|Variable | Description |
-|---|---|
-| Variable to Find |   Locate the variable pill that you want to replace from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: `5.value}}`.|
-|  Replace With    |  Locate the variable pill that you want to replace the variable with from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: `5.value}}`. |
-|  Module |  Select the module in which you want to replace the variable. If no module is selected, the variable will be replaced in the entire scenario.|
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Variable to Find</td> 
+   <td> <p> Locate the variable pill that you want to replace from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Replace With</p> </td> 
+   <td> <p>Locate the variable pill that you want to replace the variable with from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Module</p> </td> 
+   <td> <p>Select the module in which you want to replace the variable. If no module is selected, the variable will be replaced in the entire scenario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### Swap App {#swap-app}
 
@@ -297,7 +295,7 @@ Replaces the selected app version in your scenario with another app version.
 
 This can be used, for example, to upgrade Gmail and Email apps' modules to the latest version.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -316,7 +314,7 @@ This can be used, for example, to upgrade Gmail and Email apps' modules to the l
 
 Allows you to encode the entered data to Base64 or to decode Base64. Some requests are encoded to Base64. This tool can be useful when you want to search for particular data in the encoded request.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -335,7 +333,7 @@ Allows you to encode the entered data to Base64 or to decode Base64. Some reques
 
 Copies the name of the selected module to your clipboard.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -352,7 +350,7 @@ Allows you to change the mapping source from one module to another.
 
 You must first add the module you want to use as a source module to the route in your scenario.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -375,7 +373,7 @@ You must first add the module you want to use as a source module to the route in
 
 Highlights modules of the specified app in your scenario.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

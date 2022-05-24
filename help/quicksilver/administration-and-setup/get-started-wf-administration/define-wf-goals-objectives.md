@@ -26,9 +26,11 @@ The following are examples of goals defined by a company and how they fit within
 You can achieve this in Workfront by configuring the following:
 
 * Create a Workfront Request Queue to manage specific requests within your organization.  
+  
   For more information about Request Queues, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 * Create a report to show any outstanding issues not closed within 5 days.  
+  
   For more information about creating reports, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Improve time spent on projects and improve budget spending in the coming year
@@ -36,17 +38,22 @@ You can achieve this in Workfront by configuring the following:
 You can achieve this in Workfront by configuring the following:
 
 * Develop a standard project methodology for your organization. This includes identifying the users who will be responsible for creating and managing projects, as well as granting any approvals.  
+  
   For more information about creating projects, see [Create a project](../../manage-work/projects/create-projects/create-project.md).  
+  
   For more information about creating approval processes, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 * Determine whether you should organize your projects in portfolios and programs, for more in-depth budget and resource management.  
+  
   For more information about creating portfolios, see [Create a portfolio](../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
 * Include a best-practices approach to deliver quality in every project.
 * Identify any repeatable projects that can be used to create templates.  
+  
   For more information about creating templates, see [Create a project template](../../manage-work/projects/create-and-manage-templates/create-template.md).
 
 * Create a dashboard that displays the progress of this year's portfolios of projects.  
+  
   For more information about creating a dashboard, see [Create a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Improve the quality of services with better management of internal processes

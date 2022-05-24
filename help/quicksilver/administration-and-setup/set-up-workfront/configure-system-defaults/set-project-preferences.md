@@ -33,7 +33,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>Note<>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>Note</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +70,7 @@ Configure any of the following preferences for newly created projects throughout
  <tbody> 
   <tr> 
    <td role="rowheader">Set new project's status to</td> 
-   <td> <p>Determine the status of new projects.</p> <p>Note:  
+   <td> <p>Determine the status of new projects.</p>  <p><b>NOTE</b>:  
      <ul> 
       <li>If you or another Workfront administrator hides the status selected here, the default status changes to the first status in the status list.</li> 
      </ul> 
@@ -91,12 +91,12 @@ Configure any of the following preferences for newly created projects throughout
    <td> <p>This preference allows users to set the Condition of a project manually (On Target, At Risk, In Trouble) or have Workfront set the Condition (Progress Status) automatically based on the project's progression on the timeline. For more information about the Condition of projects, see&nbsp;<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Overview of Project Condition and Condition Type</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>Create baselines automatically</strong> </p> </td> 
+   <td role="rowheader"> <p>Create baselines automatically</p> </td> 
    <td> <p>This preference automatically creates a baseline (snapshot) of task and project details when the status of the project changes to Current. For information about creating baselines, see <a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref" data-mc-variable-override="">Create project baselines</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Performance Index Method </p> </td> 
-   <td> <p>The Performance Index Method (PIM) for the project controls the method Workfront uses to calculate Earned Value metrics such as Cost Performance Index (CPI) and Estimate At Completion (EAC). For more information, see <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">Calculate Cost Performance Index (CPI)</a>and <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calculate Estimate At Completion (EAC)</a></p> 
+   <td> <p>The Performance Index Method (PIM) for the project controls the method Workfront uses to calculate Earned Value metrics such as Cost Performance Index (CPI) and Estimate At Completion (EAC). For more information, see <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">Calculate Cost Performance Index (CPI)</a> and <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calculate Estimate At Completion (EAC)</a></p> 
     <ul> 
      <li><strong>Hour-based</strong>: Workfront uses Planned Hours to calculate performance metrics like EAC and CPI. When the PIM is calculated based on hours, the EAC displays as a number of hours. Ensure that you have a value for Planned Hours, other than zero.</li> 
      <li> <p><strong>Cost-based</strong>: Workfront uses Planned Labor Cost to calculate performance metrics like EAC and CPI. Ensure that your job roles or users are associated with Cost per Hour rates. When the PIM is calculated based on Costs, the EAC displays as a currency value.</p> <p>The project manager can modify this setting at the project level, using the Finance area in Project Details.For more information, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Manage information in the project Finance area</a>.</p> </li> 
@@ -148,7 +148,7 @@ Configure any of the following preferences for newly created projects throughout
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>Project timelines will be automatically re-calculated</strong> </p> </td> 
+   <td role="rowheader"> <p>Project timelines will be automatically re-calculated</p> </td> 
    <td> <p>Determine when the timeline of a project is recalculated. For information about recalculating the project timeline, see <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalculate project timelines</a>.</p> <p>The following options are enabled by default. You can select one or more of the following settings:</p> 
     <ul> 
      <li> <p><strong>Every night</strong>: Select this to recalculate project timelines every night. Any changes you make to the project that might affect the timeline are not immediately visible. Workfront​​​ recalculates timelines at night only for projects where both of the following conditions are met:</p> <p> 
@@ -160,7 +160,7 @@ Configure any of the following preferences for newly created projects throughout
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>When multiple users are assigned to a task use the schedule of the</strong> </p> </td> 
+   <td role="rowheader"> <p>When multiple users are assigned to a task use the schedule of the</p> </td> 
    <td> <p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, Workfront uses the system default schedule to calculate the timeline of the tasks.</p> <p>If you assign multiple users to the same task in a project has an assigned schedule—and the users assigned to the tasks also have a schedule assigned to them—Workfront uses the following schedules:</p> 
     <ul> 
      <li><strong>Primary Assignment</strong>: Workfront uses the schedule of the Primary Assignment on the task to calculate timelines.</li> 
@@ -175,11 +175,11 @@ Configure any of the following preferences for newly created projects throughout
     </ul> 
     <ul> 
      <li><strong>Typical work days per week</strong>: Set the standard workweek for the users who will be working on projects. The default is 5 days.</li> 
-    </ul> <p>These 2 options convert days to hours, or weeks to days.</p> <p>For example, if you have a task with 8 Planned Hours and the duration is calculated based on Planned Hours, Workfront converts those hours into days in order to show the Duration as days.</p> <p>From the Typical work days per week field, Workfront calculates the Full Time Equivalent (FTE) value for your system. This is what Workfront uses when calculating allocations for users.</p> <p>These values are used when you are planning projects timelines, budgeting for resources, or logging time against projects. </p> <p>They are not used when you are establishing timesheets for users in the system, as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configure timesheet and hour preferences</a>.</p> <p>Note: Workfront administrators cannot unlock Timeline Calculations preferences.</p> </td> 
+    </ul> <p>These 2 options convert days to hours, or weeks to days.</p> <p>For example, if you have a task with 8 Planned Hours and the duration is calculated based on Planned Hours, Workfront converts those hours into days in order to show the Duration as days.</p> <p>From the Typical work days per week field, Workfront calculates the Full Time Equivalent (FTE) value for your system. This is what Workfront uses when calculating allocations for users.</p> <p>These values are used when you are planning projects timelines, budgeting for resources, or logging time against projects. </p> <p>They are not used when you are establishing timesheets for users in the system, as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configure timesheet and hour preferences</a>.</p> <p><b>NOTE</b>: Workfront administrators cannot unlock Timeline Calculations preferences.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p><strong>Custom Quarters</strong> </p> </td> 
-   <td> <p>Configure custom yearly quarters for the users who will be working on projects. Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. You can add multiple custom quarters. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters for projects</a>.</p> <p>Note: Workfront administrators cannot unlock Custom Quarters preferences.</p> </td> 
+   <td role="rowheader"> <p>Custom Quarters</p> </td> 
+   <td> <p>Configure custom yearly quarters for the users who will be working on projects. Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. You can add multiple custom quarters. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters for projects</a>.</p>  <p><b>NOTE</b>: Workfront administrators cannot unlock Custom Quarters preferences.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -199,7 +199,7 @@ Configure any of the following preferences for newly created projects throughout
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><strong>After a project has been marked as Complete, people can still</strong> </p> </td> 
+   <td role="rowheader"> <p>After a project has been marked as Complete, people can still </p> </td> 
    <td> <p>Determine the rules for your organization (or group, if you are configuring project preferences for a group) regarding whether a task or an issue can be deleted after the project status has been marked Complete.</p> 
     <ul> 
      <li><strong>Delete Tasks</strong>: Allows users to delete tasks from a&nbsp;project after the project has been marked Complete.<br></li> 
@@ -207,7 +207,7 @@ Configure any of the following preferences for newly created projects throughout
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>After a Project is marked Complete, Dead, or it is Pending Approval, people can still</strong> </p> </td> 
+   <td role="rowheader"> <p>After a Project is marked Complete, Dead, or it is Pending Approval, people can still</p> </td> 
    <td> <p>Determine the rules for your organization (or group, if you are configuring project preferences for a group) regarding what happens to tasks, issues, documents, and other objects in a project after the project status has been marked <strong>Complete</strong>, <strong>Dead</strong>, or is <strong>Pending Approval</strong>.</p> 
     <ul> 
      <li><strong>Add and edit tasks</strong> Allows users to:

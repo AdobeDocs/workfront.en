@@ -17,7 +17,7 @@ For information on creating a template, see [Create new templates in Adobe Workf
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -31,21 +31,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+  <td> <p>Workfront Fusion for Work Automation and Integration </p><p>Workfront Fusion for Work Automation </p>  </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -78,7 +69,7 @@ After you have published a template, you can share it.
 
    >[!NOTE]
    >
-   >* Once the template is approved, it becomes public. Public templates are visible for all Workfront Fusionusers, regardless of the organization or the team, in the Public templates tab. 
+   >* Once the template is approved, it becomes public. Public templates are visible in the Public templates tab for all Workfront Fusion users, regardless of the organization or the team. 
    >* Your administrator is not notified about receiving the template to review by email. If the approval is urgent, contact the administrator directly.
 
 ## Template statuses

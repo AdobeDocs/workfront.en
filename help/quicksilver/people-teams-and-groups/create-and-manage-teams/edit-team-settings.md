@@ -74,8 +74,8 @@ You must have the following access to perform the steps in this article:
    * Change the Work On It button to a Start button. For more information on how to configure the Start button, see [Replace the Work On It button with a Start button](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Customize the **Done** button. For more information on how to customize the Done button, see:
 
-     * [Configure the Done button for tasks](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) 
-     * [Configure the Done button for issues](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+      * [Configure the Done button for tasks](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) 
+      * [Configure the Done button for issues](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
 
 1. Click **Save Changes**.
 

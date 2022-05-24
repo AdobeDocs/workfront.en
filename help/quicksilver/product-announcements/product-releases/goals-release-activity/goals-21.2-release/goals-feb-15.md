@@ -23,8 +23,4 @@ Prior to this enhancement, there was an indication that some goals are removed b
 
 For information about the Alignment Chart, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/513512168?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/513512168/660456ba79) 

@@ -16,19 +16,14 @@ Adobe Workfront Fusion's Organization and Teams features make it possible for en
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Adobe Workfront license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  --> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration,</p>  </td> 
@@ -39,20 +34,18 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-    --> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-    --> </td> 
+   <td> 
+     <p>You must be a Workfront Fusion administrator for your organization.</p>
+     <p>You must be a Workfront Fusion administrator for your team.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**For information on Adobe Workfront Fusion licenses, see <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Adobe Workfront Fusion licenses</a></p>
--->
+<p>**For information on Adobe Workfront Fusion licenses, see <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Adobe Workfront Fusion licenses</a></p>
+
 
 ## Organizations
 
@@ -162,7 +155,7 @@ Email notification options are set on the team level.
 1. Select the Notification Options tab.
 1. Enable the notifications that you want the team to receive.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

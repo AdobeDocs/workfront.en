@@ -21,10 +21,6 @@ We have improved the way aligning a goal works. Now, you can see a new “Align 
 
 For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/492156053?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/492156053/19a48b8339)
 
 ## Updated the color for the Draft status of goals

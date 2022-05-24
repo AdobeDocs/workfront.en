@@ -16,7 +16,7 @@ Adobe Workfront Fusion distinguishes five types of modules: action modules, sear
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -35,15 +35,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-    </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -57,11 +49,13 @@ Action modules are the most common type of module. A typical action module retur
 
 Unlike trigger modules, action modules can be placed at the beginning, middle or end of a scenario. Scenarios can contain an unlimited number of action modules.
 
-**Examples:** 
-
-* **Dropbox > Upload a file** sends a file to a selected Dropbox folder and returns its identifier.
-* **Image > Resize** receives an image, resizes it to specified dimensions, and passes the resized image on to the next action.
-* **Google Analytics > Create a report** gets information about web traffic and passes it on for further processing.
+>[!INFO]
+>
+>**Examples:** 
+>
+>* **Workfront > Upload a file** sends a file to Workfront  and returns its identifier.
+>* **Image > Resize** receives an image, resizes it to specified dimensions, and passes the resized image on to the next action.
+>* **Google Analytics > Create a report** gets information about web traffic and passes it on for further processing.
 
 The Action type has four subtypes: Create, Read, Update, and Delete. The Update subtype enables the following three operations:
 
@@ -92,9 +86,11 @@ You can place Searches at the beginning, middle, or end of a scenario.
 
 Scenarios can contain an unlimited number of Searches.
 
-**Example:**
-
-**Monday > List pulses in all boards** returns all of an account's pulses
+>[!INFO]
+>
+>**Example:**
+>
+>**Workfront > Read Related Records**  reads records that match the search query you specify, in a particular parent object
 
 ## Trigger modules
 
@@ -118,22 +114,24 @@ Polling triggers allow you to select the first bundle that they should output vi
 >
 >Settings made in the epoch panel affect only the first execution of the module. Once the module is executed, it remembers the last outputted bundle and voids the settings made via the epoch panel.
 
-**Examples:** 
-
-* **Dropbox > Watch files** returns files that were newly added since the last time the scenario was run
-
-  ![](assets/dropbox-watch-files-350x380.png)
-
-* **Google Sheets > Watch Rows** returns new rows added by the user since the last time the scenario was run
+>[!INFO]
+>
+>**Examples:** 
+>
+>* **Workfront > Watch records** returns files that were newly added since the last time the scenario was run
+>
+>* **Google Sheets > Watch Rows** returns new rows added by the user since the last time the scenario was run
 
 ### Instant triggers
 
 Instant triggers enable the service to notify Workfront Fusion about a *change* immediately. We recommend that you schedule a scenario containing an instant trigger to run immediately. For instructions, see [Schedule a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md). See also [Instant triggers (webhooks) in Adobe Workfront Fusion](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) for details on how the incoming data is handled.
 
-**Examples:** 
-
-* **Workfront>Watch Events** returns information when a certain type of event occurs in Workfront, such as the creation of a task.
-* **Google Sheets>Watch Changes** returns information whenever a cell is updated.
+>[!INFO]
+>
+>**Examples:** 
+>
+>* **Workfront > Watch Events** returns information when a certain type of event occurs in Workfront, such as the creation of a task.
+>* **Google Sheets > Watch Changes** returns information whenever a cell is updated.
 
 ## Aggregators
 
@@ -145,11 +143,13 @@ You can place Aggregators only in the middle of a scenario.
 
 Scenarios can contain an unlimited number of aggregators.
 
-**Examples:** 
-
-* **Archive > Create an archive** compresses received files into a zip archive
-* **CSV > Aggregate to CSV** merges multiple strings from a CSV file into a single row
-* **Tools > Text aggregator** combines several strings together into one single string
+>[!INFO]
+>
+>**Examples:** 
+>
+>* **Archive > Create an archive** compresses received files into a zip archive
+>* **CSV > Aggregate to CSV** merges multiple strings from a CSV file into a single row
+>* **Tools > Text aggregator** combines several strings together into one single string
 
 For more information, see [Aggregator module in Adobe Workfront Fusion](../../workfront-fusion/modules/aggregator-module.md).
 
@@ -163,8 +163,10 @@ You can place Iterators only in the middle of a scenario.
 
 Scenarios can contain an unlimited number of iterators.
 
-**Example:**
-
-**Email > Retrieve attachments** breaks an array of attachments into separate bundles
+>[!INFO]
+>
+>**Example:**
+>
+>**Email > Retrieve attachments** breaks an array of attachments into separate bundles
 
 For more information, see [Iterator module in Adobe Workfront Fusion](../../workfront-fusion/modules/iterator-module.md) and [Map an array in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-an-array.md).

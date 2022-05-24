@@ -31,17 +31,9 @@ For information about publishing a plan, see [Update or create projects by publi
 
 Watch the following video to understand how you can create a project by publishing a scenario:
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/468341019?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/468341019/0af7269c51)
 
 Watch the following video to understand how you can update a project previously imported on a plan by publishing a scenario:
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/468342122?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/468342122/11bb642ac6)
 
@@ -50,9 +42,5 @@ Watch the following video to understand how you can update a project previously 
 To invite other users to collaborate with you when working in the Workfront Scenario Planner, you can now share plans that you created with other users. If you could access a plan you did not create with a link before this improvement, the plan must be shared with you now before you can access it.
 
 For information about sharing a plan in the Scenario Planner, see [Share a plan in the Scenario Planner](../../../scenario-planner/share-a-plan.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/468347771?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/468347771/c38e5cd092) 

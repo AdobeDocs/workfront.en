@@ -21,10 +21,6 @@ We have updated the names of the goal Progress field to match that of the Projec
 
 For information about how Workfront calculates goal progress, see [Calculate goal progress in Adobe Workfront Goals](../../../../workfront-goals/goal-management/calculate-goal-progress.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/500529208?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/500529208/7cbd6e5435)
 
 ## Consistent navigation and toolbar with new filter experience in Workfront Goals
@@ -39,10 +35,6 @@ To create a familiar experience across all Workfront products, we have redesigne
 For an overview of the Workfront Goals sections, see [Overview of the Adobe Workfront Goals sections](../../../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 For information on filters in Workfront Goals, see [Filter information in Adobe Workfront Goals](../../../../workfront-goals/goal-management/filter-information-wf-goals.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/500513083?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/500513083/8bdeda1257)
 
@@ -59,10 +51,6 @@ For information about adding and editing results, see the following articles:
 * [Add results to goals in Adobe Workfront Goals](../../../../workfront-goals/results-and-activities/add-results-to-goals.md) 
 * [Edit results and activities in Adobe Workfront Goals](../../../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/500527458?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/500527458/c5805ad86d)
 
 ## Redesigned Goal Alignment section
@@ -75,9 +63,5 @@ To improve your interaction with it and make it more user-friendly, we have rede
 * The name of the goal Progress and the color indicator above the goal progress bar.
 
 For information about navigating the Goal Alignment section, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/500518626?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/500518626/5adb573096) 

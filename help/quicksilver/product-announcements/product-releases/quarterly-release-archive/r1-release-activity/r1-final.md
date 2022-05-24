@@ -72,19 +72,11 @@ For more information, see the following information:
 
 * "Receiving Emails from the Custom Refresh Sandbox" in [The Adobe Workfront Custom Refresh Sandbox environment](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
-<!--WRITER
-<iframe class="mt-media" src="assets/214584374?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
---> 
-
 ## Outlook for Office 365 (Workfront)
 
 The Workfront Add-In for Outlook 365 is now available.&nbsp;
 
 For more information about using&nbsp;the add-in, see [Using the Workfront Add-In with Outlook for Office 365.](https://support.workfront.com/hc/en-us/sections/205046167)
-
-<!--WRITER
-<iframe class="mt-media" src="assets/194705031?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
---> 
 
 ## Search in the Mobile App (Workfront)
 
@@ -95,10 +87,6 @@ You can now&nbsp;search for objects inside the mobile app, similarly to the way 
 >This functionality will be available the first week of May, 2017.
 
 For more information about the mobile app, see the "Searching in Mobile" section in&nbsp;&nbsp;
-
-<!--WRITER
-<iframe class="mt-media" src="assets/204243449?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
 
 ## Improved Help in the Mobile App: Tutorials (Workfront)
 

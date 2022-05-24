@@ -17,7 +17,7 @@ It also provides you access to the [The scenario editor in Adobe Workfront Fusio
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">  
  <col> 
  <col> 
  <tbody> 
@@ -31,21 +31,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p><p>Workfront Fusion for Work Automation </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -65,7 +56,7 @@ You must have the following access to use the functionality in this article:
 
    ![](assets/scenario-detail-350x207.png)
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -118,11 +109,7 @@ You must have the following access to use the functionality in this article:
       <td>This area shows information related to the currently running execution.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>History (area)</p> <p>&nbsp;</p> <!--
-        <MadCap:conditionalText style="color: #ff1493; font-weight: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-         are we not including this as it is in alloy?
-        </MadCap:conditionalText>
-       --> </td> 
+      <td role="rowheader"> <p>History (area)</p> <p>&nbsp;</p> </td> 
       <td> <p>This area shows information related to the last runs of the scenario. For every run it displays:</p> 
        <ul> 
         <li>Run date</li> 
@@ -135,18 +122,9 @@ You must have the following access to use the functionality in this article:
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Stats</p> <p style="font-weight: normal;"> <!--
-         <MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-          are we not including this as it is in alloy?
-         </MadCap:conditionalText>
-        --> </p> </td> 
+      <td role="rowheader"> <p>Stats</p>  </td> 
       <td>This graph allows you to view the amount of data transfer and operations used throughout the runs of the scenario in a line graph.</td> 
-     </tr> <!--
-      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <td role="rowheader">&nbsp;</td> 
-       <td>&nbsp;</td> 
-      </tr>
-     --> 
+     </tr> 
     </tbody> 
    </table>
 

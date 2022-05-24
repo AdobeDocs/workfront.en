@@ -13,7 +13,7 @@ description: This article describes the settings available in the scenario setti
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -27,21 +27,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p><p>Workfront Fusion for Work Automation </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -76,7 +67,7 @@ For more information about displaying information, see [Scenario execution flow 
 
 >[!IMPORTANT]
 >
->If you enable this option, it is difficult to solve errors that may occur during the execution of a scenario.
+>If you enable this option, it may be difficult to solve errors that may occur during the execution of a scenario.
 
 ## Enable data loss
 
@@ -108,37 +99,37 @@ Setting more cycles can be useful when you want to prevent connection interrupti
 
 * If the scenario does not start with a trigger (instant/polling), the specified maximum number of cycles is always performed.
 
-**Examples:**  Workfront > Watch record watches for new issues that come in, and Workfront > Convert object converts the new request into a project and assigns it the appropriate template.
-
-![](assets/scenario-settings-ex-1-350x157.png)
-
->[!NOTE]
+>[!INFO]
+>
+>**Examples:**  Workfront > Watch record watches for new issues that come in, and Workfront > Convert object converts the new request into a project and assigns it the appropriate template.
+>
+>![](assets/scenario-settings-ex-1-350x157.png)
 >
 >A more cycles setting is applied only when you schedule your scenario execution. When you use the Run once button, cycle settings are taken into account.
-
-### Max number of cycles is set to 1 (default)
-
-![](assets/max-number-cycles-1-350x201.png)
-
-The Maximum number of returned files in the Dropbox > Watch files module is set to `10`.
-
-![](assets/max-number-cycles-10-350x175.png)
-
-If 100 requests are submitted to Workfront, and the Limit field is set to 10, then 90 files are left unprocessed after one scenario run. The next 10 files are processed in the next scheduled scenario execution.
-
-### Max number of cycles is set to 10
-
-The Maximum number of returned files in the Dropbox > Watch files module is set to `10`.
-
-If 100 files are added to the Dropbox folder and the Maximum number of returned files option is set to 10, then 10 files are processed during the first cycle, the next 10 files in the second cycle, the next 10 files in the third cycle and so on, until all files are processed.
-
-All files are processed within 1 scenario run.
-
-You can see the already-run cycles in the Scenario details:
-
-![](assets/scenario-detail-350x207.png)
-
-For more information about this page, see [Scenario details in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-detail.md).
+>
+>### Max number of cycles is set to 1 (default)
+>
+>![](assets/max-number-cycles-1-350x201.png)
+>
+>The Maximum number of returned files in the Dropbox > Watch files module is set to `10`.
+>
+>![](assets/max-number-cycles-10-350x175.png)
+>
+>If 100 requests are submitted to Workfront, and the Limit field is set to 10, then 90 files are left unprocessed after one scenario run. The next 10 files are processed in the next scheduled scenario execution.
+>
+>### Max number of cycles is set to 10
+>
+>The Maximum number of returned files in the Dropbox > Watch >files module is set to `10`.
+>
+>If 100 files are added to the Dropbox folder and the Maximum number of returned files option is set to 10, then 10 files are processed during the first cycle, the next 10 files in the second cycle, the next 10 files in the third cycle and so on, until all files are processed.
+>
+>All files are processed within 1 scenario run.
+>
+>You can see the already-run cycles in the Scenario details:
+>
+>![](assets/scenario-detail-350x207.png)
+>
+>For more information about this page, see [Scenario details in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-detail.md).
 
 ## Number of consecutive errors
 

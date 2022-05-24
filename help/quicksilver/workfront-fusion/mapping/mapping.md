@@ -10,7 +10,10 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # Mapping in Adobe Workfront Fusion
 
-Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+>[!AVAILABILITY]
+>
+>Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+
 This section contains the following articles:
 
 * [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md) 

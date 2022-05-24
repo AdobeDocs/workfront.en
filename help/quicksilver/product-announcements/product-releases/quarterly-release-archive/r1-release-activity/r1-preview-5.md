@@ -24,19 +24,11 @@ As a system&nbsp;administrator, you can configure whether the Utilization tab is
 
 For more information about configuring the location of the Utilization tab, see "Customize Tabs" in "Creating and Managing Layout Templates."
 
-<!--WRITER
-<iframe class="mt-media" src="assets/206632232?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
-
 ## Modify an Existing Global Approval Process for&nbsp;an Individual Object
 
 Now you can modify an existing global approval process when you associate that global approval process with an object. The modifications you make apply only to the approval process on the object where you are associating it.
 
 For more information, see [Associate a new or existing approval process with work](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) in [Associate a new or existing approval process with work](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
-
-<!--WRITER
-<iframe class="mt-media" src="assets/206629088?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
 
 ## Configure Reports to Show the New Gantt Chart by Default
 
@@ -46,10 +38,6 @@ For more information about configuring reports to show the new Gantt chart, see 
 
 For more information about viewing the Gantt chart in project reports and task reports, see [View information in the Gantt Chart](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)" in [View information in the Gantt Chart](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
-<!--WRITER
-<iframe class="mt-media" src="assets/206629107?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
-
 ## Recycle Bin Improvement: Tasks and Subtasks Are Restored to Their Previous&nbsp;Order
 
 Now when you restore a task or subtask after it is deleted, the task or subtask is restored to its previous location (either in the task list or beneath the parent task), in the same order as&nbsp;it appeared prior to being deleted.
@@ -57,10 +45,6 @@ Now when you restore a task or subtask after it is deleted, the task or subtask 
 Prior to this change, tasks and subtasks that were restored were always restored as the last task&nbsp;(either in the task list or beneath the parent task), regardless of the order they appeared prior to being deleted.
 
 For more information about restoring objects in Workfront, see [Restore deleted items](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
-
-<!--WRITER
-<iframe class="mt-media" src="assets/206629042?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
 
 ## Milestone View Improvements
 
@@ -71,10 +55,6 @@ The following improvements are now available when viewing a project list or proj
 
 * **Edit the Percent Complete directly from the Milestone view:** Now you can edit the Percent Complete of projects and tasks directly from the Milestone view.  
   For more information, see [Use the Milestone view](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)&nbsp;in [Use the Milestone view](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).&nbsp;
-
-<!--WRITER
-<iframe class="mt-media" src="assets/206629068?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
 
 ## Updated Look and Feel of Several System Setup Pages
 
@@ -90,27 +70,11 @@ The&nbsp;look and feel of the following pages in the System menu of the Setup ar
 
 * Update Users for SSO
 
-<!--WRITER
-<iframe class="mt-media" src="assets/206628233?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
-
-<!--WRITER
-<iframe class="mt-media" src="assets/206628243?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
-
-<!--WRITER
-<iframe class="mt-media" src="assets/206628228?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
-
 ## Updated Event Notification Groupings in the Email Setup Area
 
 The organizational headers of the Event Notifications in the Email Setup area now match the section headings that are used in the user profile settings area.
 
 For more information about event notifications, see&nbsp; [Configure event notifications for everyone in the system](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-
-<!--WRITER
-<iframe class="mt-media" src="assets/206631816?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
 
 ## Opt Out of Instant Notifications: In-Context Digest Configuration
 
@@ -189,10 +153,6 @@ For more information about configuring email notifications, see [Activate or dea
  </tbody> 
 </table>
 
-<!--WRITER
-<iframe class="mt-media" src="assets/206631816?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->
-
 ## New Resource Planning Functionality (Not Available in Production in R1)
 
 >[!NOTE]
@@ -222,7 +182,3 @@ The following changes were added to support the future Resource Planning functio
   >   * If you want to create a new report for the new (user-based) Resource Pools, you will need to select “Resource Pools” as your object for the report.
   >   
   >
-
-<!--WRITER
-<iframe class="mt-media" src="assets/206628847?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
---> 

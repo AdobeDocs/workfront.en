@@ -61,7 +61,7 @@ You can change which status is applied to the work item with the Done button. Yo
    >
    >Consider the following when selecting statuses for tasks or issues:
    >
-   >* When you select one status for each type of work item, the task or issue status is set to that status when a user clicks Done on their&nbsp;item.&nbsp;If you set multiple statuses for each type of work item, a drop-down menu is added to the Done button and the user must pick a status to change the status on the work item.  
+   >* When you select one status for each type of work item, the task or issue status is set to that status when a user clicks Done on their item. If you set multiple statuses for each type of work item, a drop-down menu is added to the Done button and the user must pick a status to change the status on the work item.  
    >* You can associate only system-level statuses with the Done button. You cannot associate Group-specific statuses with work item statuses.
    >* When a user assigned to the item places the item in the status associated with the Done button, the item displays as Done for that user regardless of whether the status you select is a Completed or Closed status or a working status. 
    >   
@@ -69,13 +69,13 @@ You can change which status is applied to the work item with the Done button. Yo
    >  For example, associating the Done button with In Progress causes the work item to display as Done for the user who changes the status from New to In progress. 
    >   
    >* Issue types are customizable and they might have different names than listed below in your environment.  
-   >  Following&nbsp;are the default tasks and issue types:
+   >  Following are the default tasks and issue types:
    >     
-   > * Tasks
-   > * Issue
-   > * Request
-   > * Change Order
-   > * Bug Report
+   >   * Tasks
+   >   * Issue
+   >   * Request
+   >   * Change Order
+   >   * Bug Report
 
    If the task or issue is assigned to multiple users, you see a "Done with my part" option in the drop-down menu, in addition to the multiple statuses chosen for your team.  
 
@@ -83,7 +83,7 @@ You can change which status is applied to the work item with the Done button. Yo
 
 ## Associate users with a Home Team
 
-To make the changes to the Done button functionality visible to users, you can make the team whose settings you changed the Home Team of the users.&nbsp;
+To make the changes to the Done button functionality visible to users, you can make the team whose settings you changed the Home Team of the users.
 
 To associate users with a Home Team:
 
@@ -96,8 +96,8 @@ To associate users with a Home Team:
 1. In the **Organization** section, select&nbsp;the **Home Team** field. Start typing the name of the team whose settings you want to associate with the&nbsp;users. Click the name of the team when you see it in the list.
 
 1. Click **Save Changes**.  
-   The&nbsp;users you selected are now associated with a&nbsp;Home Team. &nbsp;  
-   Any team settings, including the statuses associated with the Done button are now visible to these users.&nbsp;
+   The users you selected are now associated with a Home Team. 
+   Any team settings, including the statuses associated with the Done button, are now visible to these users.
 
 ## Configure the Done button when the Resolved status has been deleted {#configure-the-done-button-when-the-resolved-status-has-been-deleted}
 
