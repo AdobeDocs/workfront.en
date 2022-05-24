@@ -50,10 +50,6 @@ The new Workfront Recycle Bin helps you restore projects, tasks, issues, and all
 
 For more information see:&nbsp; [R1 Preview 1 and 2](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
 
-<!--WRITER
-<iframe style="position: absolute; width: 100%; height: 100%; left: 0;" src="assets/kb6wclis7l8?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
--->
-
 ### PROOFHQ ENHANCEMENTS {#proofhq-enhancements}
 
 ![](assets/mceclip4-350x201.png)   
@@ -71,10 +67,6 @@ For more information see:&nbsp; [R1 Final](../../../../product-announcements/pro
 **ProofHQ Preview** 
 ProofHQ now allows you to test new features in a Preview environment before releasing to all your users.
 
-<!--WRITER
-<iframe style="position: absolute; width: 100%; height: 100%; left: 0;" src="assets/2ul48s6oqoa?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
--->
-
 ## WORKFRONT DAM ENHANCEMENTS {#workfront-dam-enhancements}
 
 ![](assets/mceclip6-350x195.png)   
@@ -83,10 +75,6 @@ For marketing teams who need a better way to manage, publish, and track the usag
 
 **DAM Required Metadata Fields** 
 Improve digital asset categorization with required metadata fields which allow for increased control of asset sharing.
-
-<!--WRITER
-<iframe style="position: absolute; width: 100%; height: 100%; left: 0;" src="assets/1fryq71wcym?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
--->  
 
 **Keep everyone engaged and efficient with Workfront.** 
 Workfront is an Enterprise Work Management solution that allows modern knowledge workers and executives to:

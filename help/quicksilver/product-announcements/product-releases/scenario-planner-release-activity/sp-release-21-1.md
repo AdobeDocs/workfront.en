@@ -24,10 +24,6 @@ We have redesigned the experience for resolving job role and budget conflicts in
 
 For information about resolving conflicts in the Scenario Planner, see [Resolve initiative conflicts in the Scenario Planner](../../../scenario-planner/resolve-conflicts-in-sp.md).
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/500514710?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/500514710/16de07c8f6)
 
 >[!NOTE]
@@ -49,9 +45,5 @@ For more information, see the following articles:
 * [Delete initiatives in the Scenario Planner](../../../scenario-planner/delete-initiatives.md) 
 * [Copy initiatives in the Scenario Planner](../../../scenario-planner/copy-initiatives.md) 
 * [Update initiative priorities in the Scenario Planner](../../../scenario-planner/prioritize-initiatives.md)
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/492162384?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/492162384/cbde9317d9) 
