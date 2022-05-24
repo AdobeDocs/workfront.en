@@ -53,7 +53,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 
 1. Click the down arrow ![](assets/dropdown-arrow.png) under **Customize what users see**, then click **Home and Summary**.
 
-1. In the list that appears on the left, click the object type (**Tasks**, **Issues**,**Projects**, **Documents**, or **Document Versions**) that you want to customize in Home and Summary.
+1. In the list that appears on the left, click the object type (**Tasks**, **Issues**, **Projects**, **Documents**, or **Document Versions**) that you want to customize in Home and Summary.
 
    <table> 
     <col> 
