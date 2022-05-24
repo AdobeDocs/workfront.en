@@ -81,8 +81,6 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">Preferences </td> 
       <td> 
        <ul> 
-        <li><strong>When I log in, show</strong>: The default landing tab. This is also the tab associated with the Workfront logo in the upper-left corner of the Global Navigation Bar.</li> 
-        <li><strong>In the Global Nav bar, show:</strong> The tabs that are visible in the Global Navigation Bar.</li> 
         <li> <p><strong>Time Zone:</strong> The user's time zone.</p> <p>For information about helping users collaborate in Workfront across time zones, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Working across time zones</a>.</p> </li> 
         <li><strong>Locale</strong>: The user's preferred locale. This affects the format of numbers and dates in the emails that come from Workfront.</li> 
         <li><strong>Show percent complete on update status</strong>: Check this option if you want to display a percent complete bar inside the Update area of this user's tasks.</li> 
