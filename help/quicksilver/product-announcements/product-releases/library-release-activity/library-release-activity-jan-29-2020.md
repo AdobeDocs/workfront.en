@@ -33,10 +33,6 @@ For more information, see
 
 * [Change a user's access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/change-user-access.md)
 
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/391362256?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
 [Watch a video demonstration of this feature.](https://vimeo.com/391362256/8c89677e28)
 
 ## Updates to removing users and user groupings from Workfront Library
@@ -56,9 +52,5 @@ Workfront Library administrators can transfer these assets to a different user d
 Previously, when users with assets were removed from Workfront Library, these assets were no longer owned by any user.
 
 For more information, see [Transfer ownership assets to another user](../../../workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md).
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/391362243?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
 
 [Watch a video demonstration of this feature.](https://vimeo.com/391362243/6581c1ef43) 
