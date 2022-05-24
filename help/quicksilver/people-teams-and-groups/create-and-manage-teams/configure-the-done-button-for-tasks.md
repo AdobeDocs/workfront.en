@@ -66,11 +66,11 @@ You can change which status is applied to the work item with the Done button. Yo
    >* Issue types are customizable and they might have different names than listed below in your environment.  
    >  Following are the default tasks and issue types:
    >     
-   > * Tasks
-   > * Issue
-   > * Request
-   > * Change Order
-   > * Bug Report
+   >   * Tasks
+   >   * Issue
+   >   * Request
+   >   * Change Order
+   >   * Bug Report
 
    If the task or issue is assigned to multiple users, you see a "Done with my part" option in the drop-down menu, in addition to the multiple statuses chosen for your team.  
 
@@ -78,7 +78,7 @@ You can change which status is applied to the work item with the Done button. Yo
 
 ## Associate users with a Home Team
 
-To make the changes to the Done button functionality visible to users, you can make the team whose settings you changed the Home Team of the users.&nbsp;
+To make the changes to the Done button functionality visible to users, you can make the team whose settings you changed the Home Team of the users.
 
 To associate users with a Home Team:
 
@@ -88,9 +88,9 @@ To associate users with a Home Team:
 1. Click the **More** menu, then select **Edit**.  
    ![](assets/user-settings-nwe-350x291.png)
 
-1. In the **Organization** section, select&nbsp;the **Home Team** field. Start typing the name of the team whose settings you want to associate with the&nbsp;users. Click the name of the team when you see it in the list.
+1. In the **Organization** section, select&nbsp;the **Home Team** field. Start typing the name of the team whose settings you want to associate with the users. Click the name of the team when you see it in the list.
 
 1. Click **Save Changes**.  
-   The&nbsp;users you selected are now associated with a&nbsp;Home Team. &nbsp;  
-   Any team settings, including the statuses associated with the Done button are now visible to these users.&nbsp;
+   The users you selected are now associated with a Home Team. 
+   Any team settings, including the statuses associated with the Done button are now visible to these users.
 
