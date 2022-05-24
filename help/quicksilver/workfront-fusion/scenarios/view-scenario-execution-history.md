@@ -133,9 +133,9 @@ The Search in history window opens.
 
 1. (Optional) To limit your search by date range, select the beginning and ending dates of your desired search in the By date range area. 
 
-    >    [!NOTE] 
-    >
-    > Executions are available only for the previous 30 days.
+   >[!NOTE] 
+   >
+   > Executions are available only for the previous 30 days.
 
 1. (Optional) To limit your search by status, select the desired status in the **By status** dropdown.
 
