@@ -12,7 +12,7 @@ description: As an Adobe Workfront administrator, you can use a layout template 
 
 As an Adobe Workfront administrator, you can use a layout template to specify which list controls appear in the Filter, View, and Grouping drop-down menus. These menus appear above lists throughout Workfront, such as the list of tasks for a project:
 
-![](assets/filter-view-grouping---layout-templates-350x98.png)
+![](assets/filter-view-grouping-layout-templates.png)
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -59,11 +59,11 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
    >
    >* In the list of filters that displays when they click the filter icon ![](assets/filter-nwepng.png) above a list:
    >   
-   >![](assets/disable-filters-projects-im-on-or-own.png)
+   >  ![](assets/disable-filters-projects-im-on-or-own.png)
    >   
    >* In the header on the Projects area header:
    >   
-   >![](assets/disable-filter-pills.png)
+   >  ![](assets/disable-filter-pills.png)
    >   
    >For more information about these filters in the Projects area header, see the section [Project lists under a Portfolio](../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md#project) in the article [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md).
 
@@ -97,7 +97,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
         <ol> 
          <li value="1"> Click <strong>Add Filter</strong>, <strong>Add View</strong>, or <strong>Add Grouping</strong> at the bottom of the Filter, View, or Grouping list. In the box that displays, start typing the name of an existing custom list control previously created for your organization, then click the name when it appears.</li> 
          <li value="2"> If you want the new custom list control set as the default filter, view, or grouping for the layout template, click <strong>Set as Default</strong>. </li> 
-         <li value="3"> <p>Click <strong>Add</strong> when you are finished.</p> <p><b>NOTE</b>:   <p>Users can add custom list controls to their own lists. If you add custom list controls in a layout template, your list controls are added and theirs move to the bottom of the panel; yours do not replace theirs.</p> <p>This is also true if you assign the user to a new layout template that has custom list controls. </p> <p>For information about customizing list controls, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>, and <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</p> </p> </li> 
+         <li value="3"> <p>Click <strong>Add</strong> when you are finished.</p> <p><b>NOTE</b>: <p>Users can add custom list controls to their own lists. If you add custom list controls in a layout template, your list controls are added and theirs move to the bottom of the panel; yours do not replace theirs.</p> <p>This is also true if you assign the user to a new layout template that has custom list controls. </p> <p>For information about customizing list controls, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>, and <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</p> </p> </li> 
         </ol> </p> </td> 
      </tr> 
     </tbody> 
