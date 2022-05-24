@@ -12,7 +12,7 @@ description: As an Adobe Workfront administrator or a group administrator, you c
 
 As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront:
 
-![](assets/main-menu-adobe-branding-350x219.png)
+![](assets/main-menu-adobe-branding.png)
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> <p><b>Note</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +55,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>Note
 
      >[!TIP]
      >
-     >```By default, Home displays as My Updates ![](assets/my-updates-area-in-main-menu-reviewer-only-nwe.png) for Review-license users unless they have a layout template associated with their profile that includes the My Updates area in the Main Menu.```
+     >By default, Home displays as My Updates for Review-license users, unless they have a layout template associated with their profile that includes the My Updates area in the Main Menu.
 
    * Portfolios
    * Programs
@@ -94,8 +94,8 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>Note
 
 1. Do any of the following:
 
-   * Hide ![](assets/remove-icon---x-in-circle.png) **Active items** that you don't want to display and show ![](assets/add-icon-plus-in-circle.png) **Available items** that you do want to display on the Main Menu.
-   
+   * Hide ![](assets/remove-icon---x-in-circle.png) **Active items** that you don't want to display
+   * Show ![](assets/add-icon-plus-in-circle.png) **Available items** that you do want to display on the Main Menu.
    * Drag ![](assets/move-icon---dots.png) **Active items** to change their display order on the Main Menu.
 
 1. Click **Done**.

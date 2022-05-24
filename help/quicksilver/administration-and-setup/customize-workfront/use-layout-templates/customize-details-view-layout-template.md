@@ -15,9 +15,7 @@ The highlighted information on this page refers to functionality not yet general
 As an Adobe Workfront administrator, you can use a layout template to determine what information appears when a user clicks the Details icon ![](assets/project-details-icon.png) in the left panel while viewing a task, issue, document, program, or portfolio.
 
 <!--
-<MadCap:conditionalText class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 , or billing record
-</MadCap:conditionalText>
 -->
 
 You can also change the order of the information in which this information appears. For example, for all tasks that your users see, you can move Custom Forms information to the top of the Details view for all tasks that your users see.
@@ -26,15 +24,15 @@ The changes you make to the Details view for an object also determine the availa
 
 * "New object" boxes, such as New Task and New Issue
 
-  ![](assets/new-task-dialog-350x267.png)
+  ![](assets/new-task-dialog.png)
 
 * "Edit object" screens, such as Edit Task and Edit Issue
 
-  ![](assets/edit-task-screen-350x237.png)
+  ![](assets/edit-task-screen.png)
 
 * Summary ![](assets/summary-panel-icon.png) panel for lists of tasks and issues
 
-  ![](assets/summary-area-350x276.png)
+  ![](assets/summary-area.png)
 
   >[!NOTE]
   >
@@ -61,7 +59,7 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group</p> <p><b>Note</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+To perform them for a group, you must be a manager of that group</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +67,10 @@ To perform them for a group, you must be a manager of that group</p> <p><b>Note<
 ## Customize what users see in the Details view
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Click the down arrow ![](assets/dropdown-arrow-12x12.png) under **Customize what users see**, then click **Project, Task**, **Issue**, **Program**, or **Portfolio.****, or Billing Record**
+1. Click the down arrow ![](assets/dropdown-arrow-12x12.png) under **Customize what users see**, then click **Project**, **Task**, **Issue**, **Program**, or **Portfolio.**
+<!--
+, or billing record
+-->
 
 1. In the **Details** section, do any of the following to customize what users see in the Details view:
 

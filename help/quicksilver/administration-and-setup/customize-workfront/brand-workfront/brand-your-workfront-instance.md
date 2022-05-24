@@ -11,42 +11,36 @@ description: Brand your Adobe Workfront instance
 # Brand your Adobe Workfront instance
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 -->
 
 As a Workfront administrator, you can brand Workfront with logos in the following places:
 
 * Login screen
 
-  ![](assets/brand-login-screen-nwe-adobe-350x228.jpg)
-
-  You can also change the background image and color of the login screen:
-
-  ![](assets/wf-banner-on-login-screen-adobe-350x228.png)
-
-  >[!NOTE]
-  >
-  >This is not available if your organization's Workfront instance uses a custom SSO portal.  >
-  >
-  ><!--  >
-  ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  >
-  >or is enabled with Adobe IMS  >
-  ></MadCap:conditionalText>  >
-  >-->  >
-  >
-  >See your network or IT administrator if you need more information.
+  ![](assets/brand-login-screen-nwe-adobe.jpg)
 
 * Top navigation area
 
-  ![](assets/brand-top-nav-area-nwe-adobe-350x221.jpg)
+  ![](assets/brand-top-nav-area-nwe-adobe.jpg)
 
 * Main Menu
 
-  ![](assets/brand-main-menu-adobe-350x219.jpg)
+  ![](assets/brand-main-menu-adobe.jpg)
+
+You can also change the background image and color of the login screen:
+
+![](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >
->A Workfront administrator or group administrator can also brand Workfront for certain groups and users using a layout template. Branding in a layout template overrides the system-level branding explained in this article. For instructions on branding in a layout template, see [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
+>* Changing the login background image and color is not available if your organization's Workfront instance uses a custom SSO portal. See your network or IT administrator if you need more information.
+><!--
+>or is enabled with Adobe IMS  >
+></MadCap:conditionalText>  >
+>-->
+>
+>* A Workfront administrator or group administrator can also brand Workfront for certain groups and users using a layout template. Branding in a layout template overrides the system-level branding explained in this article. For instructions on branding in a layout template, see [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
 ## Access requirements
 
@@ -66,7 +60,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>Note</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,13 +115,11 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >This is not available if your organization's Workfront instance uses a custom SSO portal.   >
-   >
+   >This is not available if your organization's Workfront instance uses a custom SSO portal.
    ><!--   >
-   ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
    >or is enabled with Adobe IMS   >
    ></MadCap:conditionalText>   >
-   >-->   >
+   >-->   
    >
    >See your network or IT administrator if you need more information.
 

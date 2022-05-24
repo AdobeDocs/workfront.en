@@ -12,17 +12,12 @@ description: Create and manage layout templates
 # Create and manage layout templates
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
--->
-
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">NWE version of this content at the bottom</p>
+**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
 As a Workfront administrator or a group administrator, you can create and modify layout templates to customize the following layout elements in Workfront for your users:
 
-* Main Menu ![](assets/main-menu-icon.png)
-
+* Main Menu
 * Left navigation panel
 * Home area 
 * Views, filters, and groupings people use with lists and reports.
@@ -51,7 +46,7 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> <p><b>Note</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,6 +59,9 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>Note
   If you created a layout template recently in Workfront Classic and want it available for your users in the new Adobe Workfront experience, you can migrate it there. For instructions, see [Migrate your layout templates to the new Adobe Workfront experience](../../../administration-and-setup/customize-workfront/use-layout-templates/migrate-layout-templates-to-nwe.md).
 
   Keep in mind that the migrated version and the original version of each layout template are separate because they serve two different environments, so if you edit one version, your changes don't affect the other version.
+  <!--
+   **delete this bullet item soon
+  -->
 
 * Group administrators and users with a Plan license who can edit other users can add system-level and group-level layout templates to the users they can manage when editing their profile.
 * Group administrators cannot assign layout templates to job roles or teams.
