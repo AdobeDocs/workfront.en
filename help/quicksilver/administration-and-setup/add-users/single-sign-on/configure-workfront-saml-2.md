@@ -13,11 +13,8 @@ description: As an Adobe Workfront administrator, you can configure the Workfron
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ** </p>
 -->
 
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
->
->If your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+{{important-admin-console-onboard}}
+
 
 As an Adobe Workfront administrator, you can configure the Workfront web and mobile applications to integrate with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on (SSO).
 

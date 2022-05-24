@@ -17,11 +17,8 @@ description: Configure Adobe Workfront with Active Directory
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Since this is no longer supported, I am not going to update the article for NWE/phase 2</p>
 -->
 
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
->
->If your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+{{important-admin-console-onboard}}
+
 
 >[!IMPORTANT]
 >
