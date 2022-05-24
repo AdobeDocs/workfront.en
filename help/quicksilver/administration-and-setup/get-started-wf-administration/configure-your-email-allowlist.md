@@ -18,19 +18,14 @@ This is useful if your organization's security policy restricts users from sendi
 
 >[!IMPORTANT]
 >
->*Your IT team* should ensure that incoming email from >
->```>
->notifications@my.workfront.com
->```>
->is not blocked in your organization's system.
+>Your IT team should ensure that incoming email from ```notifications@my.workfront.com``` is not blocked in your organization's system.
 >
 >All email from Workfront is sent from that address to increase successful email delivery and to eliminate spoofing of emails. This includes both automated alerts and user-to-user communication.
 >
 >For example, the From line in a Workfront email you receive from a user named Joan Harris would look like this:
->
->```>
+>```
 >Joan Harris <notifications@my.workfront.com>
->```>
+>```
 
 For information about configuring your organization's firewall to open communication between your environment and the Adobe Workfront servers, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
@@ -70,13 +65,7 @@ Also, if your firewall or mail server is configured to allow access to only cert
 1. Click **System** > **Customer info**.
 
 1. In the **Email Allowlist** section, select **Enable Domain Allowlist**, then click **Add Domain**.
-1. In the box that displays, type a domain that you want to allow, such as 
-
-   ```
-   ourcompany.com
-   ```
-
-   , then click **Add Domain**.
+1. In the box that displays, type a domain that you want to allow, such as ```ourcompany.com```, then click **Add Domain**.
 
 1. Repeat the previous step to add any other domains you want to allow.
 1. When you are finished, click **Save**.
