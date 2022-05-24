@@ -4,12 +4,12 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: The scenario editor in Adobe Workfront Fusion
-description: Change this title to "Create or edit a scenario?
+description: The scenario editor allows you to create and edit scenarios in a visual interface.
 ---
 
 # The scenario editor in&nbsp;Adobe Workfront Fusion
 
-The scenario editor makes it easy to create and edit scenarios in a visual way.
+The scenario editor allows you to create and edit scenarios in a visual interface.
 
 ![](assets/scenario-editor-350x228.jpg)
 
@@ -17,7 +17,7 @@ The scenario editor makes it easy to create and edit scenarios in a visual way.
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -31,7 +31,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p><p>Workfront Fusion for Work Automation</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -70,8 +70,7 @@ You must have the following access to use the functionality in this article:
 
 ## Available scenario editor actions
 
-
-<table>
+<table style="table-layout:auto"> 
 <tbody>
   <tr>
      <td role="rowheader">Add the first module</td>

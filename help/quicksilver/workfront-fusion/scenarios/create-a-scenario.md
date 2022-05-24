@@ -11,7 +11,9 @@ description: The following tasks explain how to create a Adobe Workfront Fusion 
 
 The following tasks explain how to create a Adobe Workfront Fusion scenario.
 
-For a practice exercise that walks you through this process using data that we provide, see [Create a practice integration scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+For a practice exercise that walks you through creating an automation scenario, see [Create a practice automation scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md).
+
+For a practice exercise that walks you through creating an integration scenario using data that we provide, see [Create a practice integration scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
 >[!NOTE]
 >
@@ -21,7 +23,7 @@ For a practice exercise that walks you through this process using data that we p
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -40,15 +42,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-    </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -80,7 +74,7 @@ You must have the following access to use the functionality in this article:
 
 1. In the box that displays, find and click the app or service that you want to start with.
 
-   If you selected any apps in step 2, they are displayed in the box for easy access (and in the **Favorites** section at the bottom of the screen).
+   Any previously selected apps are displayed in the box for easy access, and in the **Favorites** section at the bottom of the screen.
 
    If you click **Add another module**, the modules that display depend on where in the scenario you are adding the module. Some modules can be placed only in between other modules, and others only at the beginning of the scenario.
 
@@ -117,6 +111,8 @@ To create a connection inside a Workfront Fusion module:
 1. Click **Continue**.
 1. In the sign-in window that displays, enter your credentials to log in to the app if you haven't already done so.
 1. (Conditional) If an **Allow** button displays, examine the actions that the connector will be able to take, then click the button to connect the app to Workfront Fusion.
+1. Continue on to [Configure the module](#configure-the-module).
+
 
 ## Configure the module {#configure-the-module}
 
@@ -153,7 +149,7 @@ To create a connection inside a Workfront Fusion module:
 
 1. Do any of the following to configure your scenario:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -193,13 +189,13 @@ To create a connection inside a Workfront Fusion module:
 
 1. Do any of the following to work with your scenario:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
       <td role="rowheader">View a log of the events that occur when the scenario runs</td> 
-      <td> <p>Click the Exit editing arrow <img src="assets/exit-editing-arrow.png"> in the scenario editor to view the Scenario detail page. The log displays at the bottom of the window, or in the lower-right corner. It contains information about the difficulty of each phase and any errors encountered during the execution of the scenario.</p> <p>To return to working with your scenario in the scenario editor, click anywhere on the Scenario detail page.</p> <p>For more information about the Scenario detail page, see <a href="../../workfront-fusion/scenarios/scenario-detail.md" class="MCXref xref">Scenario details in Adobe Workfront Fusion</a>.</p> </td> 
+      <td> <p>Click the Exit editing arrow <img src="assets/exit-editing-arrow.png"> in the scenario editor to view the Scenario detail page. The log displays at the bottom of the window, or in the lower-right corner. It contains information about each phase and any errors encountered during the execution of the scenario.</p> <p>To return to working with your scenario in the scenario editor, click anywhere on the Scenario detail page.</p> <p>For more information about the Scenario detail page, see <a href="../../workfront-fusion/scenarios/scenario-detail.md" class="MCXref xref">Scenario details in Adobe Workfront Fusion</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Access your most commonly used apps and services</td> 
@@ -236,7 +232,7 @@ For information about activating a scenario, see [Activate or deactivate a scena
 
 You can use the following keyboard shortcuts when creating or editing a scenario:
 
-<table> 
+<table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 

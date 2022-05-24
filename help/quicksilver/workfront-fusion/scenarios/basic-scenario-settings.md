@@ -14,7 +14,7 @@ description: This article describes basic settings for your Adobe Workfront Fusi
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">  
  <col> 
  <col> 
  <tbody> 
@@ -28,21 +28,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p><p>Workfront Fusion for Work Automation </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -64,11 +55,11 @@ For more information see [Schedule a scenario in Adobe Workfront Fusion](../../w
 
 ## Scenario name
 
-To rename a scenario, open the scenario, click on the scenario's name in the top left corner and edit it as you see fit. Pressing the Enter key or clicking outside the edited field will save the scenario under a new name.
+To rename a scenario, open the scenario, click on the scenario's name in the top left corner and edit it. Press Enter or click outside the edited field to save the scenario name.
 
 ## Selecting the first bundle
 
-Triggers allow you to select the first bundle that you want to process in the scenario.
+You can select the first bundle that you want to process in the scenario.
 
 For more information, see [Choose where a trigger module starts in Adobe Workfront Fusion](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
 
