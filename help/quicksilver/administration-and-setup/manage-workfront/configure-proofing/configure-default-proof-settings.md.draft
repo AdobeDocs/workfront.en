@@ -17,7 +17,7 @@ These settings allow you to set default values that apply to all new proofs crea
 1. In the left panel, click **Proofs** > **Proof settings**.
 1. In the **New proof defaults** section, configure the following settings:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

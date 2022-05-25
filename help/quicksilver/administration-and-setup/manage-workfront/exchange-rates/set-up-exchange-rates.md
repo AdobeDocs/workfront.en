@@ -36,7 +36,7 @@ The way that you set up exchange rates affects whether users can modify exchange
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

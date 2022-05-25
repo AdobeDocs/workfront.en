@@ -15,7 +15,7 @@ As an Adobe Workfront administrator or Workfront Proof administrator, you can co
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -73,7 +73,7 @@ To configure when proofs with an automated workflow are visible to users:
 
 1. In the&nbsp;**Sharing**&nbsp;section, enable or disable&nbsp;**Proof visibility based on stage activation**.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

@@ -23,7 +23,7 @@ Each of the 6 built-in access levels except one (External User) is attached to o
 
 For information on related topics, see the following articles:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 

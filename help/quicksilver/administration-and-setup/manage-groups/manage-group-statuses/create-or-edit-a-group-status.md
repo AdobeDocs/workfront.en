@@ -25,7 +25,7 @@ For general information about statuses, see [Statuses overview](../../../adminis
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -97,7 +97,7 @@ You must have the following to perform the steps in this article:
 
    If you are editing a status, only the first 3 settings can be changed.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

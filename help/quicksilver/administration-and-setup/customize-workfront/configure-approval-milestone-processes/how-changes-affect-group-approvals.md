@@ -38,7 +38,7 @@ For information about the 3 types of approval processes you can use in Workfront
 
 The following scenarios occur when a group-specific approval process is already being used on an object and someone reassigns it to a different group:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -87,7 +87,7 @@ The following scenarios occur when a group-specific approval process is already 
 
 When someone changes the group associated with a project to different group, the following occurs:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -136,7 +136,7 @@ When someone changes the group associated with a project to different group, the
 
 When someone changes the Group option in a group-specific approval process to "All groups," the approval process becomes system-wide and the following occurs:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -185,7 +185,7 @@ When someone changes the Group option in a group-specific approval process to "A
 
 When someone changes the availability of a system-wide approval process from "All groups" to a specific group, the approval process becomes group-specific and the following occurs:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

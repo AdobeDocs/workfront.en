@@ -24,7 +24,7 @@ For information about all the audit log types and what generates them, see [Audi
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -67,7 +67,7 @@ Above the User table, you can:
 
 Each column in the table gives you additional options.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -109,7 +109,7 @@ Above each user grouping table, you can:
 
 In the Setup area for each type of user grouping, you can see the following columns:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

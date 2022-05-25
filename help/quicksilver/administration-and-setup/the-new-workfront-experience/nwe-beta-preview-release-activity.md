@@ -34,7 +34,7 @@ For a list of new features that were made available in Workfront Classic, see [W
 
 ## Features recently added to the new Workfront experience {#features-recently-added-to-the-new-workfront-experience}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -332,7 +332,7 @@ For a list of new features that were made available in Workfront Classic, see [W
    </tr>
 -->
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <tbody>  
   <tr data-mc-conditions=""> 

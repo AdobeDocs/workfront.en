@@ -24,7 +24,7 @@ If you are a group administrator or a Workfront administrator, you can also crea
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -60,7 +60,7 @@ You must be a Workfront administrator to create a top-level group.
 1. In the **New Group** box that displays, type a name for the group.
 1. Specify the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -131,7 +131,7 @@ To create a new top-level group by copying a group or subgroup:
 
 1. Specify the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

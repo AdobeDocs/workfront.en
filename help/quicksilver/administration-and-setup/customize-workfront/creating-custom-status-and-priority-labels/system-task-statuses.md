@@ -18,7 +18,7 @@ Changing the status of a task is typically a manual process. However, there are 
 
 The following task statuses are provided with your Workfront instance:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

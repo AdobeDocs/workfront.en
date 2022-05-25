@@ -26,7 +26,7 @@ For information about layout templates for groups, see [Create and modify a grou
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -61,7 +61,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
    
    * Drag items ![](assets/move-icon---dots.png) to change their order on the left panel.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col data-mc-conditions=""> 
     <col> 

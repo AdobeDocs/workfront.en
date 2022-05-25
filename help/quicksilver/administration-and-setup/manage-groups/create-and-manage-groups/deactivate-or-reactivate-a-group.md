@@ -21,7 +21,7 @@ You can deactivate a group you manage that you no longer use.
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

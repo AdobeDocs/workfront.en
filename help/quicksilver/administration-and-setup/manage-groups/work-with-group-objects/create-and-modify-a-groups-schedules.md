@@ -23,7 +23,7 @@ For general information about creating and editing a schedule, see [Create a sch
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

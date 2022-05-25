@@ -25,7 +25,7 @@ If you enable SAML 2.0 authentication and you want your users to be able to log 
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

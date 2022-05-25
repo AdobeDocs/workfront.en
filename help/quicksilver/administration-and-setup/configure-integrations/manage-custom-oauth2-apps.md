@@ -25,7 +25,7 @@ As an Adobe Workfront administrator, you can view and manage the OAuth2 applicat
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

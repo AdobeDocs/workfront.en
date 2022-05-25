@@ -41,7 +41,7 @@ For information about configuring a timesheet and hour preference for a group, s
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

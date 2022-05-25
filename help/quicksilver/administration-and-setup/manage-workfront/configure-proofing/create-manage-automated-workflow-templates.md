@@ -27,7 +27,7 @@ For information about Automated Workflows, see [Automated Workflow overview](../
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ You must have the following:
 
 1. In the **Details** section, specify the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -91,7 +91,7 @@ You must have the following:
 
    You can add multiple stages and create between them.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -171,7 +171,7 @@ As a Workfront Proof administrator, you can modify an Automated Workflow templat
 1. In the **Workflow templates** list that appears, click the template you want to modify.
 1. In the **Details** section, specify the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -200,7 +200,7 @@ As a Workfront Proof administrator, you can modify an Automated Workflow templat
 
 1. In the **Workflow** section, change the name of any stage and expand it's settings ![](assets/arrow-button.png) to make any needed changes:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

@@ -15,7 +15,7 @@ On an existing custom form, you can delete object types that are associated with
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

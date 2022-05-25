@@ -17,7 +17,7 @@ If there are any groups above the group you manage, their administrators can als
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -48,7 +48,7 @@ You must have the following to perform the steps in this article:
 1. In the left panel, click **Programs** to list the programs associated with the group that you have access to view (and any subgroups below it).
 1. Do any of the following:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

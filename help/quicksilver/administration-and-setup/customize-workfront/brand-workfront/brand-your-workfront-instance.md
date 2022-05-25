@@ -46,7 +46,7 @@ You can also change the background image and color of the login screen:
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -73,7 +73,7 @@ You must have the following access to perform the steps in this article:
 
 1. Make any of the following changes to customize Workfront with your branding images.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

@@ -16,7 +16,7 @@ You can install a blueprint in your Production environment or a Sandbox environm
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -13,7 +13,7 @@ In addition to access to Scenario Planner, a user with a non-System Administrato
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

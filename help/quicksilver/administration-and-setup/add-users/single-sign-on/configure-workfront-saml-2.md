@@ -23,7 +23,7 @@ After you have configure SAML 2.0 in Workfront, as described in the following se
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
 
 1. Specify the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -104,7 +104,7 @@ You must have the following access to perform the steps in this article:
         <li>Last Name</li> 
         <li>Email Address</li> 
        </ul> <p>The following options display to allow you to do this:</p> <p> <img src="assets/saml-2.0-auto-provision-users-ui-350x258.png" alt="saml_2.0_auto-provision_users_ui.png" style="width: 350;height: 258;"> </p> <p>Select the Workfront User Attribute that you want to map from the drop-down list, then specify the corresponding Directory Attribute in the user directory.</p> <p>The <strong>Directory Attribute</strong> field should contain the Directory Attribute Name from the User Attribute table you saved when successfully testing your SAML 2.0 configuration.</p> <p>You can set a Default Workfront Value in the <strong>Default Value</strong> field. You can also set rules based on the values from your SAML 2.0 Identity Provider.</p> <p><b>WARNING</b>: Workfront attempts to map the attributes listed below every time a user logs into the system. Because of this, we do not recommend mapping access levels. You can easily remove administrative access if an attribute is mapped incorrectly. Click Add Mapping to add additional rules.<em><br></em></p> <p>You can map the following Workfront attributes:</p> 
-       <table> 
+       <table style="table-layout:auto"> 
         <col> 
         <col> 
         <tbody> 

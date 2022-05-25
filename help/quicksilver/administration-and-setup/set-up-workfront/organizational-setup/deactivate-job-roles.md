@@ -17,7 +17,7 @@ You can also reactivate job roles that have previously been deactivated.
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

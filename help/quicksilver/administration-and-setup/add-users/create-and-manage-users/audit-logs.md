@@ -18,7 +18,7 @@ For instructions on viewing and filtering what you want to see in these audit lo
 
 The following fields are recorded in every audit log entry:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

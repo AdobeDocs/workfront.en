@@ -11,7 +11,7 @@ As an Adobe Workfront administrator, you can use an access level to define a use
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -59,7 +59,7 @@ You can manage what information users can view and edit for other users using a 
 
 1. To modify the ability of users with a Plan license access to edit other users, click the gear icon ![](assets/gear-icon-settings.png) on the **Edit** button to the right of **Users**, then select the abilities you want to grant:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

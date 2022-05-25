@@ -22,7 +22,7 @@ This integration is compatible only with SharePoint Online. On-premise instances
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -92,7 +92,7 @@ To create and configure a Sharepoint Site:
    to the end of the URL in the search bar at the top of your browser window.
 1. Configure the following fields:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -138,7 +138,7 @@ This site app must have Write permission to any site collections that users need
 
 1. Configure the following fields
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -178,7 +178,7 @@ When you have created a site app in SharePoint, you can now copy information fro
 1. Click **Add SharePoint**.
 1. Configure the following fields:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -269,7 +269,7 @@ Users must be a member of a group that has appropriate permissions to the ShareP
 
 Users with Full Control access have all necessary permissions for your SharePoint integration. If you do not want to grant Full Control access to your users, you must grant the following permissions:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

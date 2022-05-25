@@ -61,7 +61,7 @@ We understand that the available built-in (native) integrations might not meet a
 
 Workfront provides the following built-in integrations at no additional cost:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

@@ -21,7 +21,7 @@ For information about how a Workfront administrator can create a team, see [Crea
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -53,7 +53,7 @@ You must have the following to perform the steps in this article:
 
    <!-- WRITER please check table below. I stripped out wonky conditions-->
 
-     <table> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -90,7 +90,7 @@ You must have the following to perform the steps in this article:
 
    * **Edit teams**: Select at least one team, click **the** Edit icon ![](assets/edit-icon.png), then use the following options to configure it:
 
-     <table> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 

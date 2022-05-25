@@ -36,7 +36,7 @@ For information about creating custom forms for your organization and understand
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -73,7 +73,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
 
 1. Specify the following information for the calculated field:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     </col> 
     <col> 
@@ -155,7 +155,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
 
 1. (Optional) Use any of the following options to further configure your calculated custom field:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

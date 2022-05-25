@@ -21,7 +21,7 @@ A company is an organizational unit in Adobe Workfront that can represent your o
 
 You must have the following in order to manage companies in Workfront:
 
-<table> 
+<table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -89,7 +89,7 @@ To add or edit a company:
 
 1. Use the options that display to configure the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

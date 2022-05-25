@@ -15,7 +15,7 @@ You can integrate JumpSeat with Workfront to create custom, in-product guidance.
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

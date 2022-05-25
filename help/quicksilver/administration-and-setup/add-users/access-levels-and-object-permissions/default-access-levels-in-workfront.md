@@ -126,7 +126,7 @@ You can create a custom version of the Reviewer built-in access level and determ
 
 More limited for projects and tasks than the Worker access level, the following are the highest access settings available for objects in the Reviewer access level:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

@@ -16,7 +16,7 @@ You can see how often users log in to Adobe Workfront, as well as the last time 
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

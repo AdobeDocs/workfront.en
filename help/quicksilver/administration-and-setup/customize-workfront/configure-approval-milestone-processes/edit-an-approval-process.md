@@ -29,7 +29,7 @@ For information about creating approval processes, see [Create an approval proce
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -71,7 +71,7 @@ You must have the following:
 
 1. Specify the following information in the box that displays:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -102,7 +102,7 @@ You must have the following:
 
    A path is where you specify what needs to happen in the approval process. You create stages in a path to indicate who needs to do the approval work and in what order.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

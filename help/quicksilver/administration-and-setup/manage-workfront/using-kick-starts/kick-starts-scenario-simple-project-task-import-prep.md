@@ -74,7 +74,7 @@ Parent tasks inherit the Duration, Work, and Percent Complete of children tasks.
 1. Configure.
 1. Import users.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col width="50%"> 
     <col width="50%"> 
     <tbody> 
@@ -103,7 +103,7 @@ Parent tasks inherit the Duration, Work, and Percent Complete of children tasks.
 
 1. Set permissions.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col width="50%"> 
     <col width="50%"> 
     <tbody> 
@@ -136,7 +136,7 @@ Parent tasks inherit the Duration, Work, and Percent Complete of children tasks.
 
 1. Build groups.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col width="50%"> 
     <col width="50%"> 
     <tbody> 
@@ -169,7 +169,7 @@ Parent tasks inherit the Duration, Work, and Percent Complete of children tasks.
 
 1. Prepare training.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col width="50%"> 
     <col width="50%"> 
     <tbody> 
@@ -194,7 +194,7 @@ Parent tasks inherit the Duration, Work, and Percent Complete of children tasks.
 
 1. Build ongoing support policies.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col width="50%"> 
     <col width="50%"> 
     <tbody> 
@@ -224,7 +224,7 @@ Parent tasks inherit the Duration, Work, and Percent Complete of children tasks.
 
 1. Train users.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col width="50%"> 
     <col width="50%"> 
     <tbody> 

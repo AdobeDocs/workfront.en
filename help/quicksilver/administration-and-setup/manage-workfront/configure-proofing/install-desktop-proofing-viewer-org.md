@@ -15,7 +15,7 @@ The Desktop Proofing Viewer, which is designed primarily for proofing interactiv
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

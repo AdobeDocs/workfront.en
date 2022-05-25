@@ -21,7 +21,7 @@ If there are any groups above your group, their administrators can also do these
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -57,7 +57,7 @@ You must have the following to perform the steps in this article:
 
 1. Do any of the following:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

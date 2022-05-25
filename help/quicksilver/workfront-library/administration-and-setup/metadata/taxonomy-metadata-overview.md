@@ -24,7 +24,7 @@ Some taxonomy fields can also be used as faceted filters in the Filter panel. Fo
 
 You can configure the following types of fields in your taxonomy:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

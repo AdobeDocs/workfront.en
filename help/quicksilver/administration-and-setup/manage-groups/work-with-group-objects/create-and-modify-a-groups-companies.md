@@ -17,7 +17,7 @@ If there are any groups above your group, their administrators can also do these
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -44,7 +44,7 @@ You must have the following to perform the steps in this article:
 1. In the left panel, click **Companies** to list the companies associated with the group and any subgroups it may have.
 1. (Optional) To add a company, click **Add Company**, then configure the company using the options listed below. When you are finished, click **Create Company**.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

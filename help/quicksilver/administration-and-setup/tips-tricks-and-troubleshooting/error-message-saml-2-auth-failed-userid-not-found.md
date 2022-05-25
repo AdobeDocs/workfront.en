@@ -24,7 +24,7 @@ In ADFS the **Relying Party Trust** needs to have a **Claim rule** that passes e
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

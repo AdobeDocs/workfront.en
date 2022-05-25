@@ -18,7 +18,7 @@ For information about creating a new custom form from an existing one, see [Copy
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

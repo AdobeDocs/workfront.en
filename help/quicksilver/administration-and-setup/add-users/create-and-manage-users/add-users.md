@@ -36,7 +36,7 @@ For information about how to import multiple users simultaneously, see [Import u
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

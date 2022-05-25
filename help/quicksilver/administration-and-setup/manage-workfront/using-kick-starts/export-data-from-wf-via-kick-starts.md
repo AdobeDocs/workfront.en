@@ -22,7 +22,7 @@ Exporting data through Kick-Starts is also helpful in understanding what fields 
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -53,7 +53,7 @@ There are two ways to export data within Workfront:
 
 The following table shows the advantages and disadvantages of each method:&nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -100,7 +100,7 @@ The following limitations exist&nbsp;when exporting data via kick-starts (data i
 
    For more information about importing data into Workfront via kick-starts, see [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)The following is a list of all objects that can be exported through kick-starts:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <col> 
@@ -266,7 +266,7 @@ The following limitations exist&nbsp;when exporting data via kick-starts (data i
 
    By default, the following objects&nbsp;are displayed under the **What to include**&nbsp;label (prior to clicking **More Options**):
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <col> 
@@ -321,7 +321,7 @@ The following limitations exist&nbsp;when exporting data via kick-starts (data i
     </tbody> 
    </table>
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <col> 

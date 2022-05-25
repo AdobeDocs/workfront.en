@@ -29,7 +29,7 @@ You can edit user accounts in bulk. When bulk editing users, only the fields you
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -60,7 +60,7 @@ You must have the following to perform the steps in this article:
 
 1. In the **Edit User** box that appears, change any of the following options:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

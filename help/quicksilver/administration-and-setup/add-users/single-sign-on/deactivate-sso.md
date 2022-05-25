@@ -27,7 +27,7 @@ After you deactivate single sign-on (SSO) in Adobe Workfront, users need to log 
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
