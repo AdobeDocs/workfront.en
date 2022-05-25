@@ -61,11 +61,11 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Allow embedding of <strong>Workfront</strong> in an iframe</p> </td> 
-      <td>Lets you embed Workfront in an iframe.<p>This option is disabled by default.</p><p>Important: Displaying a web-based application in an iframe makes the application susceptible to a click-jacking security vulnerability.</p></td> 
+      <td>Lets you embed Workfront in an iframe.<p>This option is disabled by default.</p><p><b>IMPORTANT</b>: Displaying a web-based application in an iframe makes the application susceptible to a click-jacking security vulnerability.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Allow SAML 2.0 authentication in Office 365 add-ins</td> 
-      <td> <p>Lets you embed Workfront in an iframe only for Office 365 add-ins when Workfront is integrated with a SAML 2.0 single sign-on solution. </p> <p>This option is enabled by default.</p> <p>Note:  If you enable the option above, <strong>Allow embedding of Workfront in an iframe</strong>, the option <strong>Allow SAML 2.0 authentication in Office 365 add-ins</strong> is enabled and dimmed.<br></p> </td> 
+      <td> <p>Lets you embed Workfront in an iframe only for Office 365 add-ins when Workfront is integrated with a SAML 2.0 single sign-on solution. </p> <p>This option is enabled by default.</p> <p><b>NOTE</b>:  If you enable the option above, <strong>Allow embedding of Workfront in an iframe</strong>, the option <strong>Allow SAML 2.0 authentication in Office 365 add-ins</strong> is enabled and dimmed.<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Enable the use of session information when creating External Page URLs</td> 

@@ -75,7 +75,7 @@ For information about how to create an email template, see [Configure email temp
      </tr> 
      <tr> 
       <td role="rowheader">Qualifying Period</td> 
-      <td> <p>Specify the number of hours, work days, days (calendar days), weeks, or months before or after the date in the <strong>Timing</strong> field.</p> <p>Note:  
+      <td> <p>Specify the number of hours, work days, days (calendar days), weeks, or months before or after the date in the <strong>Timing</strong> field.</p> <p><b>NOTE</b>:  
         <ul> 
          <li> <p>Reminder notifications begin 24 hours after the specified date and once all criteria are met.</p> </li> 
          <li> <p>Reminder notifications for projects, tasks, and issues trigger every night at midnight, US Mountain Time. All objects that qualify for a reminder notification from that day trigger a notification to the designated users shortly after that time.</p> </li> 

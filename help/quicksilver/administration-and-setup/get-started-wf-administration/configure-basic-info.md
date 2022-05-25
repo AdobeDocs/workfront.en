@@ -93,7 +93,7 @@ To configure your Basic Info section in your Customer Info area:
      </tr> 
      <tr> 
       <td role="rowheader">Admin Email</td> 
-      <td> <p>The email address of your Workfront administrator. You can edit this field to match the email address of one of your Workfront administrators. The user associated with this email address is considered the main Workfront administrator of your Workfront system. Any site-wide communication from Workfront is directed to this email address, so it is important to keep it updated.</p> <p>Note:  You cannot deactivate, delete, or change the Access Level of the user associated with the Admin Email.</p> </td> 
+      <td> <p>The email address of your Workfront administrator. You can edit this field to match the email address of one of your Workfront administrators. The user associated with this email address is considered the main Workfront administrator of your Workfront system. Any site-wide communication from Workfront is directed to this email address, so it is important to keep it updated.</p> <p><b>NOTE</b>:  You cannot deactivate, delete, or change the Access Level of the user associated with the Admin Email.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Domain</td> 

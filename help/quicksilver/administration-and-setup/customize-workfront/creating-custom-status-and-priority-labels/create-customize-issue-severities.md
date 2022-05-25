@@ -97,11 +97,11 @@ As a Workfront administrator, you can create and edit issue severities to suit t
      </tr> 
      <tr> 
       <td role="rowheader">Importance</td> 
-      <td> <p>When you create a severity, Workfront assigns a number to it. Edit this number, if it does not match your needs. The <strong>Importance</strong> number for each severity&nbsp;must be unique. The number of the severity reflects the seriousness of the issue: the highest number corresponds to the highest severity.</p> <p>Note: You cannot edit the <strong>Importance</strong> number, after you save the severity.</p> </td> 
+      <td> <p>When you create a severity, Workfront assigns a number to it. Edit this number, if it does not match your needs. The <strong>Importance</strong> number for each severity&nbsp;must be unique. The number of the severity reflects the seriousness of the issue: the highest number corresponds to the highest severity.</p> <p><b>NOTE</b>: You cannot edit the <strong>Importance</strong> number, after you save the severity.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Color</td> 
-      <td> <p>Choose a color for the severity.</p> <p>Note: The color of the severity is used in chart reports, when you group your results by <strong>Issue Severity</strong>. For more information on chart reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Add a chart to a report</a>.</p> </td> 
+      <td> <p>Choose a color for the severity.</p> <p><b>NOTE</b>: The color of the severity is used in chart reports, when you group your results by <strong>Issue Severity</strong>. For more information on chart reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Add a chart to a report</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Default Severity</td> 
@@ -113,7 +113,7 @@ As a Workfront administrator, you can create and edit issue severities to suit t
      </tr> 
      <tr> 
       <td role="rowheader">Hide</td> 
-      <td> <p>Select this box if you want to hide the severity.</p> <p>When you check the <strong>Hide</strong> option, the severity&nbsp;does not display anywhere in Workfront and users are not able to choose it for their issues.</p> <p>Important: We recommend that you hide the severities&nbsp;that you no longer want to use, rather than deleting them.&nbsp;By hiding them, you still keep all your historic data, of objects that have been completed with this severity, while preventing people from choosing this severity&nbsp;in the future.</p> </td> 
+      <td> <p>Select this box if you want to hide the severity.</p> <p>When you check the <strong>Hide</strong> option, the severity&nbsp;does not display anywhere in Workfront and users are not able to choose it for their issues.</p> <p><b>IMPORTANT</b>: We recommend that you hide the severities&nbsp;that you no longer want to use, rather than deleting them.&nbsp;By hiding them, you still keep all your historic data, of objects that have been completed with this severity, while preventing people from choosing this severity&nbsp;in the future.</p> </td> 
      </tr> 
     </tbody> 
    </table>

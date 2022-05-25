@@ -6,7 +6,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 title: Custom forms
-description: This section contains the following articles - EDIT ME.
+description: You can build a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
 ---
 
 # Custom forms

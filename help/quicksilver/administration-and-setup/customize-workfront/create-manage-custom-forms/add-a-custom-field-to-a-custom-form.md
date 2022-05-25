@@ -51,7 +51,7 @@ You must have the following to perform the steps in this article:
 1. Begin creating or editing a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. Open the **Add a field** tab.
 
-   ![](assets/add-a-field-350x189.jpg)
+   ![](assets/add-a-field.jpg)
 
 1. With **New Field** ![](assets/new-field.jpg) selected, select one of the field types listed below:
 
@@ -71,7 +71,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Text Field with Formatting</td> 
-      <td>Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. This is available in Home, the Updates area, lists, and the Details area for Workfront objects. A character limit of 15,000 allows for plenty of text and formatting.</p> <p>For information about accessing this field through the API, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Rich text field storage in the API</a>.</p> <p>Note:  Text fields with formatting are not available for Workfront mobile apps (available in coming releases). </p> </td> 
+      <td>Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. This is available in Home, the Updates area, lists, and the Details area for Workfront objects. A character limit of 15,000 allows for plenty of text and formatting.</p> <p>For information about accessing this field through the API, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Rich text field storage in the API</a>.</p> <p><b>NOTE</b>:  Text fields with formatting are not available for Workfront mobile apps (available in coming releases). </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dropdown</td> 
@@ -118,11 +118,11 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p>Important: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
+      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions.</p> <p>When you are configuring the custom field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p>Important:   
+      <td> <p>(Required) This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions.</p> <p>When you are configuring the custom field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p><b>IMPORTANT</b>:   
         <ul> 
          <li> <p><span>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.</span> </p> <p>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.</p> </li> 
          <li> <p>We recommend that you do not type a name that is already used for built-in Workfront fields.</p> </li> 
@@ -130,11 +130,11 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> <p> <img src="assets/custom-field-tooltip-350x83.png" alt="custom_field_tooltip.png" style="width: 350;height: 83;"> </img> </p> </td> 
+      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> <p> <img src="assets/custom-field-tooltip-350x83.png" alt="custom_field_tooltip.png"> </img> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>Select the type of data that will be captured in the custom field.</p> <p>Note:   
+      <td> <p>Select the type of data that will be captured in the custom field.</p> <p><b>NOTE</b>:   
         <ul> 
          <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
          <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li> 
@@ -154,7 +154,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Referenced Object Type</td> 
-      <td> <p>(Typeahead fields only) Select the object type that you want to associate with the field.</p> <p>Once you have clicked Apply or Save+Close, you cannot change the object type for the field.</p> <p>Note:   
+      <td> <p>(Typeahead fields only) Select the object type that you want to associate with the field.</p> <p>Once you have clicked Apply or Save+Close, you cannot change the object type for the field.</p> <p><b>NOTE</b>:   
         <ul> 
          <li>If your Workfront administrator customized the name for Portfolios, Programs, or Projects in the Workfront user interface, the default Workfront name for the object appears in this drop-down list, not the customized name. See your Workfront administrator if you need help with this.<br></li> 
          <li>The following object types are supported in the iOS and Android Workfront Mobile Apps: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</li> 
@@ -167,7 +167,7 @@ You must have the following to perform the steps in this article:
         <li>They belong to a group or groups that you specify</li> 
         <li>They are associated with a role or job title you specify</li> 
         <li>They belong to the same group as the person using the field</li> 
-       </ul> <p>You must define the filter for the object type you selected using Text Mode syntax. For instructions on creating a filter, see <a href="#add-a-custom-field-to-a-custom-form" class="MCXref xref">Add a custom field to a custom form</a> in the article <a href="#" class="MCXref xref" xrefformat="{para}">Add a custom field to a custom form</a>. For information about creating a filter using Text Mode, see the section <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Edit text mode in a filter</a> in the article <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Text Mode overview</a>. </p> <p>Note:   
+       </ul> <p>You must define the filter for the object type you selected using Text Mode syntax. For instructions on creating a filter, see <a href="#add-a-custom-field-to-a-custom-form" class="MCXref xref">Add a custom field to a custom form</a> in the article <a href="#" class="MCXref xref" xrefformat="{para}">Add a custom field to a custom form</a>. For information about creating a filter using Text Mode, see the section <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Edit text mode in a filter</a> in the article <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Text Mode overview</a>. </p> <p><b>NOTE</b>:   
         <ul> 
          <li>If you are editing an existing custom form, adding a filter to a Typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
          <li>This filter is not available on mobile devices. If you use the filter for a Typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 
@@ -187,19 +187,16 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Track field changes in update feeds</td> 
-      <td> <p>Note:   <p>This option is not available for the following:</p> 
+      <td> <p><b>NOTE</b>:   <p>This option is not available for the following:</p> 
         <ul> 
          <li>Custom forms associated with the following object types: Expense, Company, Iteration, Billing Record, and Group.</li> 
          <li>The following field types: Calculated , Descriptive Text , and Section Break</li> 
         </ul> </p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <p>Click the drop-down list, then select the object types where you want to automatically track the field's value changes.</p> 
-        <p>Important:   
+        <p><b>IMPORTANT</b>:   
          <ul> 
-          <li> <p>Selecting or deselecting an object type here affects all custom forms that are associated with the selected object type and that contain this field.</p> <p>For example, if you deselect an object type here and save the custom form, the field's value changes are no longer tracked for that object type in both of the following places:</p> 
-           <ul> 
-            <li> <p> The custom form you're working on</p> </li> 
-            <li>All other custom forms that are associated with the deselected object type and that contain this field</li> 
+          <li> <p>Selecting or deselecting an object type here affects all custom forms that are associated with the selected object type and that contain this field.</p> <p>For example, if you deselect an object type here and save the custom form, the field's value changes are no longer tracked for that object type in any custom form that contains the field.</li> 
            </ul> </li> 
           <li> <p>After you select an object type here for a field and save the custom form, the field displays on the Custom Fields tab in the Update Feeds area in Setup.</p> <p>Conversely, if this field is deleted in the Update Feeds area in Setup, the object type for this setting is deselected on all custom forms that are associated with the object type and that contain this field.</p> </li> 
          </ul> </p> 
@@ -213,29 +210,19 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">Choices </td> 
       <td> <p>(Dropdown, Checkboxes, or Radio Buttons only; optional)</p> 
        <ol> 
-        <li value="1"> <p> <!--
-           <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-             In Production, 
-           </MadCap:conditionalText>
-          -->Click <b>Options</b>, then select any of the following:</p> 
-         <ul> 
-          <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li> 
-          <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li> 
-         </ul> <!--
-          <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-           <p>Or, in Preview, enable any of the following:</p> 
+        <li> <p>Click <b>Options</b>, then enable any of the following:</p> 
            <ul> 
             <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li> 
             <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li> 
            </ul> 
-          </div>
-         --> </li> 
-        <li value="2"> <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
-         <ul> 
-          <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
-          <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
-          <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p>Warning:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
-         </ul> </li> 
+        </li> 
+        <li> <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
+           <ul> 
+            <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
+            <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
+            <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>WARNING</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
+           </ul> 
+        </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
@@ -265,9 +252,7 @@ You must have the following to perform the steps in this article:
 
    >[!NOTE]
    >
-   >You can add up to 500 fields and widgets on a single custom form. However, performance degradation can occur when more than 100 exist on a form, depending on its complexity.
-   >
-   >Examples of complex forms include forms with cascading parameters, calculated custom data fields, and multiple value options in a single field.
+   >You can add up to 500 fields and widgets on a single custom form. However, performance degradation can occur when more than 100 exist on a form, depending on its complexity. Examples of complex forms include forms with cascading parameters, calculated custom data fields, and multiple value options in a single field.
 
 1. Click **Apply**.
 1. If you want to continue building your custom form in other ways, continue on to one of the following articles:

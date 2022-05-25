@@ -106,7 +106,7 @@ You must have the following access to perform the steps in this article:
         <li>Expenses on projects, tasks or issues they manage</li>
         <li>Their own expenses</li>
         <li>The expenses of their subordinates</li>
-       </ul><p>Note: This does not allow the user to create new Expense Types.<br></p></td> 
+       </ul><p><b>NOTE</b>: This does not allow the user to create new Expense Types.<br></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Job roles</td> 
@@ -115,7 +115,7 @@ You must have the following access to perform the steps in this article:
         <li>View and edit existing job roles</li> 
         <li>Add new job roles</li> 
         <li>Edit role billing and cost rates</li> 
-       </ul> <p>Important:  <p>If you grant a Planner user administrative access to job roles, the Financial Data access setting Edit Role Billing &amp; Cost Rates is enabled for the user automatically.</p> <p>Later, if you disable administrative access to job roles for the Planner user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled. </p> <p>If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting.</p> <p>For instructions, see Grant access to financial data.</p> </p> </td> 
+       </ul> <p><b>IMPORTANT</b>:  <p>If you grant a Planner user administrative access to job roles, the Financial Data access setting Edit Role Billing &amp; Cost Rates is enabled for the user automatically.</p> <p>Later, if you disable administrative access to job roles for the Planner user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled. </p> <p>If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting.</p> <p>For instructions, see Grant access to financial data.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Milestones in my group</td> 
@@ -158,11 +158,11 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">View only updates in which they have been included in the conversation</td> 
-      <td> <p>Enables users to see only comments where their name or the name of their team has been included.</p> <p> <p>Note: This prevents&nbsp;users from subscribing to items in Workfront. For more information about subscribing to items, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a>.</p> </p> </td> 
+      <td> <p>Enables users to see only comments where their name or the name of their team has been included.</p> <p> <p><b>NOTE</b>: This prevents&nbsp;users from subscribing to items in Workfront. For more information about subscribing to items, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Never allow users to delete comments </td> 
-      <td> <p>Prevents users from deleting the comments they make on items. </p> <p>Note: No one can delete the comments of other users.</p> </td> 
+      <td> <p>Prevents users from deleting the comments they make on items. </p> <p><b>NOTE</b>: No one can delete the comments of other users.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">View only companies, groups &amp; teams they belong to</td> 

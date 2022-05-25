@@ -99,7 +99,7 @@ To create new hour types:
      </tr> 
      <tr> 
       <td role="rowheader">Scope</td> 
-      <td> <p>Define whether the hour type is a general or project-specific hour type by selecting the correct scope in the drop-down menu.</p> <p>General hour types are visible only in timesheets and cannot be associated with projects, tasks, or issues.</p> <p>Important: If you have a custom Hour Type that is&nbsp;Project Specific, then you change it to&nbsp;General, all the existing Task, Issues and Project hours are set to their system default types.</p> </td> 
+      <td> <p>Define whether the hour type is a general or project-specific hour type by selecting the correct scope in the drop-down menu.</p> <p>General hour types are visible only in timesheets and cannot be associated with projects, tasks, or issues.</p> <p><b>IMPORTANT</b>: If you have a custom Hour Type that is&nbsp;Project Specific, then you change it to&nbsp;General, all the existing Task, Issues and Project hours are set to their system default types.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Count As Revenue</td> 

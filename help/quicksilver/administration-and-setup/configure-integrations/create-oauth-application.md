@@ -138,7 +138,7 @@ When creating an OAuth2 application, choose the type of application that best me
      </tr> 
      <tr> 
       <td role="rowheader">Client secret</td> 
-      <td> <p>This field is automatically generated</p> <p>Important:  <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> <p>If you lose this key, delete it and create a new Client Secret.</p> 
+      <td> <p>This field is automatically generated</p> <p><b>IMPORTANT</b>:  <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> <p>If you lose this key, delete it and create a new Client Secret.</p> 
         <ol> 
          <li value="1"> <p>Click the <b>Delete</b> icon <img src="assets/delete.png"> to delete the current Client Secret.</p> </li> 
          <li value="2"> <p>Click <b>Add client secret</b> to generate a new Client Secret.</p> </li> 
@@ -187,7 +187,7 @@ For instructions on configuring and using the OAuth2 application with user crede
      </tr> 
      <tr> 
       <td role="rowheader">Client secret</td> 
-      <td> <p>This field is automatically generated</p> <p>Important:  <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> <p>If you lose this key, delete it and create a new Client Secret.</p> 
+      <td> <p>This field is automatically generated</p> <p><b>IMPORTANT</b>:  <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> <p>If you lose this key, delete it and create a new Client Secret.</p> 
         <ol> 
          <li value="1"> <p>Click the <b>Delete</b> icon <img src="assets/delete.png"> to delete the current Client Secret.</p> </li> 
          <li value="2"> <p>Click <b>Add client secret</b> to generate a new Client Secret.</p> </li> 

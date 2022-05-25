@@ -63,7 +63,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
     <tbody> 
      <tr> 
       <td role="rowheader">View it</td> 
-      <td> <p>Ability to view and fill out the custom form on objects.</p> <p>Note: For users with Work, Review, and Request licenses, this is the highest available option.</p> <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow the following:</p> 
+      <td> <p>Ability to view and fill out the custom form on objects.</p> <p><b>NOTE</b>: For users with Work, Review, and Request licenses, this is the highest available option.</p> <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow the following:</p> 
        <ul> 
         <li><strong>Attach to custom data</strong>: Ability to attach the custom form to projects, tasks, and issues for which they have Manage access</li> 
         <li> <p><strong>Share</strong>: Ability to share the custom form with others in the system</p> <p>Users with a Work, Review, or Request license can share a custom form only through the API or a custom forms report. For more information, see .</p> </li> 

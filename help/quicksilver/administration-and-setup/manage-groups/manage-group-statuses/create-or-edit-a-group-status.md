@@ -133,7 +133,7 @@ You must have the following to perform the steps in this article:
        <p>When this option is disabled, group administrators can customize the status for lower subgroups.</p> 
        <p>For more information about locking statuses, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Locked and unlocked group statuses</a>.</p> 
        </div>
-       <p>Note:  <p data-mc-conditions="SnippetConditions-wf-groups.groups">You can use both locked and unlocked statuses in a group approval process. If you create a group approval process with an unlocked group status, users can attach the approval process to any project, task, or issue that is associated with the group.</p> </p>
+       <p><b>NOTE</b>:  <p data-mc-conditions="SnippetConditions-wf-groups.groups">You can use both locked and unlocked statuses in a group approval process. If you create a group approval process with an unlocked group status, users can attach the approval process to any project, task, or issue that is associated with the group.</p> </p>
        </td> 
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 

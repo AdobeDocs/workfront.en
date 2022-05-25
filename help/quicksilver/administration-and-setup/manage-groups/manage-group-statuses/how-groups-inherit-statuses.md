@@ -48,7 +48,7 @@ The table below explains each of these circumstances.
   </tr> 
   <tr> 
    <td role="rowheader">When an administrator locks a status at a higher level</td> 
-   <td> <p>When a Workfront administrator locks a status at the system level, your group inherits it along with all other groups in the system.</p> <p>Similarly, when an administrator locks a status for a group above your group, your group inherits it along with any other subgroups below the higher group.</p> <p>Note: Later, if an administrator unlocks one of these statuses at the system level or in a group above your group, your group retains the status that it inherited earlier. Now it is a separate version of the status and you can customize it just for your group.</p> 
+   <td> <p>When a Workfront administrator locks a status at the system level, your group inherits it along with all other groups in the system.</p> <p>Similarly, when an administrator locks a status for a group above your group, your group inherits it along with any other subgroups below the higher group.</p> <p><b>NOTE</b>: Later, if an administrator unlocks one of these statuses at the system level or in a group above your group, your group retains the status that it inherited earlier. Now it is a separate version of the status and you can customize it just for your group.</p> 
     <div class="example" data-mc-autonum="<b>Example: </b>">
      <span class="autonumber"><span><b>Example: </b></span></span> 
      <p>The Marketing group administrator locks the Discovery status mentioned above to make sure that all 3 subgroups have it.</p> 

@@ -83,7 +83,7 @@ To configure when proofs with an automated workflow are visible to users:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Enabled</strong> </td> 
-      <td> <p>Proofs are visible to users only&nbsp;after the stage they are associated with becomes <strong>active.</strong></p> <p>Note:   
+      <td> <p>Proofs are visible to users only&nbsp;after the stage they are associated with becomes <strong>active.</strong></p> <p><b>NOTE</b>:   
         <ul> 
          <li><em style="font-style: normal;">After you enable this option, existing proofs are still visible to users who could view it when it was created.</em> </li> 
          <li><em style="font-style: normal;">After a user gains access to a version of a proof (because the stage the user is associated with becomes active), the user can see only the version where the stage is activated. If a previous version never reached the stage the user is associated with, the user cannot see that version of the proof.&nbsp;</em> </li> 
