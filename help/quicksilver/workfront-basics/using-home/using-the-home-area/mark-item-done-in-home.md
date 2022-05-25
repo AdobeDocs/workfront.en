@@ -74,7 +74,7 @@ Depending on how many statuses are associated with the Done button or how many r
 
 When the Done button is associated with one status and the work item is assigned to you only, the button reads **Done**. When you click it, the status of the task or the issue is changed to the status associated with the Done button.
 
-![Done button](assets/done.png)
+![Done button](assets/Done.png)
 
 To understand which status is associated with the Done button, check the Team Settings of your Home Team for the Done Button section, as described in [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
