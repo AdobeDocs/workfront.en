@@ -21,7 +21,7 @@ For more information on Workfront Fusion licenses, see [Adobe Workfront Fusion l
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
