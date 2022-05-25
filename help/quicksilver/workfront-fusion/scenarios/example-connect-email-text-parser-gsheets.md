@@ -15,7 +15,7 @@ This scenario helps you create a log of all email messages and tag them for furt
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -34,16 +34,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -55,17 +46,17 @@ You must have the following access to use the functionality in this article:
 
 This tutorial requires basic knowledge of regular expressions. To learn about Regex, visit [https://regexone.com](https://regexone.com/).
 
-## Task 1: Add the first module and configure it
+Add the first module and configure it
 
 1. Search for Email and choose **Watch emails** as the Trigger.
 
    >[!NOTE]
    >
-   >While you can connect a Google account using the Email module, you can also use the inbuilt Gmail module instead.
+   >While you can connect a Google account using the Email module, you can also use a Gmail module.
 
 1. Connect either a Google account or any other IMAP based email client (such as Outlook). 
 1. Once connected, select a Folder whose incoming emails you want to watch, such as Inbox.
-1. Under Criteria, choose All email (or narrow it down to read or unread emails).
+1. Under Criteria, choose **All email** (or narrow it down to read or unread emails).
 
    You can also choose to mark fetched emails as read or unread.
 
@@ -75,7 +66,7 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
    You can change this based on the volume of messages you receive. However, it's recommended to set a low value and run the scenario more often.
 
-1. Now click **Show advanced settings** at the bottom to see these filters:
+1. Click **Show advanced settings** at the bottom.
 
    ![](assets/show-adv-settings-350x332.png)
 
@@ -91,17 +82,17 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
    ![](assets/from-now-on-350x236.png)
 
-1. Continue to [Task 2: Search for Flow Control and add a Router](#task-2-search-for-flow-control-and-add-a-router)
+1. Continue to [Search for Flow Control and add a Router](#task-2-search-for-flow-control-and-add-a-router)
 
-## Task 2: Search for Flow Control and add a Router {#task-2-search-for-flow-control-and-add-a-router}
+## Search for Flow Control and add a Router {#task-2-search-for-flow-control-and-add-a-router}
 
 1. Add a router after any module to split or duplicate the data before sending it to the next module.
 
-   Here, we have used a Router to send the Email body text to 2 separate tables in a Google Sheet. More on that in the next step.
+   Here, we have used a Router to send the Email body text to 2 separate tables in a Google Sheet. 
 
    ![](assets/search-for-flow-control-350x220.png)
 
-## Task 3: Use the Text Parser Module
+## Use the Text Parser Module
 
 1. Add a Match Pattern transformer to search for a phrase in an email.
 
@@ -111,7 +102,7 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
       text\sparser\smodule
    
-   1. (Optional) Use any of the other Patter options.
+   1. (Optional) Use any of the other Pattern options.
 
       ![](assets/pattern-350x318.png)
 
@@ -129,17 +120,17 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
    ![](assets/clone.png)
 
-1. Now edit the pattern as follows:
+1. Edit the pattern as follows:
 
    text\sparser\smodule.+\s([\w.-]+@[\w.-]+)
 
    ![](assets/text-parser-350x202.png)
 
-   This pattern searches for the phrase “text parser module” and an email address like jim.morrison@gmail.com and returns only the email address.
+   This pattern searches for the phrase “text parser module” and an email address like john.doe@gmail.com and returns only the email address.
 
    >[!NOTE]
    >
-   >While it's important to write your regex in accordance with the specification of the email addresses you accept, the one above takes care of most standard email addresses.
+   >It's important to write your regex in accordance with the specification of the email addresses you accept, but the one above takes care of most standard email addresses.
 
    * If you'd like to search only for email address, you can use the regex below:
 
@@ -155,7 +146,7 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
    The rest of the configuration remains the same as the one before.
 
-## Task 4: Add the Google Sheets modules
+## Add the Google Sheets modules
 
 Instead of Google Sheets, you can use another app like Airtable or a CRM such as InfusionSoft. For Sheets, we need to first create a spreadsheet with the requisite headers.
 
