@@ -111,7 +111,7 @@ When you create a custom status for the entire organization, you can configure i
        <p>When this option is disabled, group administrators can customize the status for their individual groups.</p> 
        <p>For more information about locking statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Locked and unlocked system-level statuses</a>.</p> 
        <!--</div>--> 
-       <p>Note:  
+       <p><b>NOTE</b>:  
        <!--<ul data-mc-conditions="SnippetConditions-wf-groups.system-level">-->
        <li>You can use both locked and unlocked statuses in a system approval process. If you create a system approval process with an unlocked system status, users throughout the system can attach the approval process to any project, task, or issue in the system. </li> 
        <li>Warning messages display in the following scenarios to help you and your users make sure you understand outcomes of the following scenarios:

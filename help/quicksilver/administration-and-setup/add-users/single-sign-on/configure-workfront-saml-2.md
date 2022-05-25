@@ -83,7 +83,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader"><span style="font-weight: bold;">Sign-Out URL</span> </td> 
-      <td> <p>Specify the sign-out URL for the IDP server. Workfront sends an HTTP request to this URL before signing out of Workfront. This closes the user's session on the remote server when the Workfront session is closed.</p> <p>Note:  You are redirected to the sign-out URL only if you have the option Only Allow SAML 2.0 Authentication enabled in your user profile.</p> </td> 
+      <td> <p>Specify the sign-out URL for the IDP server. Workfront sends an HTTP request to this URL before signing out of Workfront. This closes the user's session on the remote server when the Workfront session is closed.</p> <p><b>NOTE</b>:  You are redirected to the sign-out URL only if you have the option Only Allow SAML 2.0 Authentication enabled in your user profile.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Change Password URL</strong> </td> 
@@ -104,7 +104,7 @@ You must have the following access to perform the steps in this article:
         <li>First Name</li> 
         <li>Last Name</li> 
         <li>Email Address</li> 
-       </ul> <p>The following options display to allow you to do this:</p> <p> <img src="assets/saml-2.0-auto-provision-users-ui-350x258.png" alt="saml_2.0_auto-provision_users_ui.png" style="width: 350;height: 258;"> </p> <p>Select the Workfront User Attribute that you want to map from the drop-down list, then specify the corresponding Directory Attribute in the user directory.</p> <p>The <strong>Directory Attribute</strong> field should contain the Directory Attribute Name from the User Attribute table you saved when successfully testing your SAML 2.0 configuration.</p> <p>You can set a Default Workfront Value in the <strong>Default Value</strong> field. You can also set rules based on the values from your SAML 2.0 Identity Provider.</p> <p>Warning: Workfront attempts to map the attributes listed below every time a user logs into the system. Because of this, we do not recommend mapping access levels. You can easily remove administrative access if an attribute is mapped incorrectly. Click Add Mapping to add additional rules.<em><br></em></p> <p>You can map the following Workfront attributes:</p> 
+       </ul> <p>The following options display to allow you to do this:</p> <p> <img src="assets/saml-2.0-auto-provision-users-ui-350x258.png" alt="saml_2.0_auto-provision_users_ui.png" style="width: 350;height: 258;"> </p> <p>Select the Workfront User Attribute that you want to map from the drop-down list, then specify the corresponding Directory Attribute in the user directory.</p> <p>The <strong>Directory Attribute</strong> field should contain the Directory Attribute Name from the User Attribute table you saved when successfully testing your SAML 2.0 configuration.</p> <p>You can set a Default Workfront Value in the <strong>Default Value</strong> field. You can also set rules based on the values from your SAML 2.0 Identity Provider.</p> <p><b>WARNING</b>: Workfront attempts to map the attributes listed below every time a user logs into the system. Because of this, we do not recommend mapping access levels. You can easily remove administrative access if an attribute is mapped incorrectly. Click Add Mapping to add additional rules.<em><br></em></p> <p>You can map the following Workfront attributes:</p> 
        <table> 
         <col> 
         <col> 
@@ -157,7 +157,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Confirm Configuration</strong> </td> 
-      <td> <p>Click <strong>Test Connection</strong> to verify that Workfront and the SAML 2.0 Identity Provider can communicate with each other. This connection is successful only if you exchanged the XML files.</p> <p>After you successfully test the link between your SAML 2.0 Identity Provider and Workfront, you see a screen similar to the one below.<br><p>Note:  This screen is displayed in a browser pop-up, so ensure that you disable pop-up blockers in your browser.<br></p>Save the information displayed in the table for later use.<br><img src="assets/2g-350x209.png" alt="" style="width: 350;height: 209;"></p> </td> 
+      <td> <p>Click <strong>Test Connection</strong> to verify that Workfront and the SAML 2.0 Identity Provider can communicate with each other. This connection is successful only if you exchanged the XML files.</p> <p>After you successfully test the link between your SAML 2.0 Identity Provider and Workfront, you see a screen similar to the one below.<br><p><b>NOTE</b>:  This screen is displayed in a browser pop-up, so ensure that you disable pop-up blockers in your browser.<br></p>Save the information displayed in the table for later use.<br><img src="assets/2g-350x209.png" alt="" style="width: 350;height: 209;"></p> </td> 
      </tr> 
     </tbody> 
    </table>

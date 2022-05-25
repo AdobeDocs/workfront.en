@@ -96,7 +96,7 @@ In addition to the default priorities provided in&nbsp;Workfront, you can add yo
      </tr> 
      <tr> 
       <td role="rowheader">Importance</td> 
-      <td> <p>When adding a new priority, a number is assigned to it&nbsp;by default. Edit this number, if it does not match your needs.</p> <p>The <strong>Importance</strong> number for each priority must be unique for the object you selected.<br>The number of the priority&nbsp;reflects the importance&nbsp;of the project, task or issue: the highest number corresponds to the highest priority.</p> <p>Note: &nbsp;You cannot edit the Importance number, after you save the priority.&nbsp;</p> </td> 
+      <td> <p>When adding a new priority, a number is assigned to it&nbsp;by default. Edit this number, if it does not match your needs.</p> <p>The <strong>Importance</strong> number for each priority must be unique for the object you selected.<br>The number of the priority&nbsp;reflects the importance&nbsp;of the project, task or issue: the highest number corresponds to the highest priority.</p> <p><b>NOTE</b>: &nbsp;You cannot edit the Importance number, after you save the priority.&nbsp;</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Color</td> 
@@ -112,7 +112,7 @@ In addition to the default priorities provided in&nbsp;Workfront, you can add yo
      </tr> 
      <tr> 
       <td role="rowheader">Hide</td> 
-      <td> <p>Select this box if you want to hide&nbsp;the priority.<br>When you select&nbsp;the <strong>Hide</strong> option, the priority does not display anywhere in Workfront and users are not able to choose it for their projects, tasks, and issues.</p> <p>Important: &nbsp;We recommend that you hide the priorities that you no longer want to use, rather than deleting them.&nbsp;By hiding them, you still keep all your historic data, of objects that have been completed with this priority, while preventing people from choosing this priority&nbsp;in the future.&nbsp;</p>(Optional) You can change the listing order of your priorities by&nbsp;dragging and dropping them in your desired order. This changes the order in which they display&nbsp;for projects, tasks, and issues. This does not change the <strong>Importance</strong> number.&nbsp;</td> 
+      <td> <p>Select this box if you want to hide&nbsp;the priority.<br>When you select&nbsp;the <strong>Hide</strong> option, the priority does not display anywhere in Workfront and users are not able to choose it for their projects, tasks, and issues.</p> <p><b>IMPORTANT</b>: &nbsp;We recommend that you hide the priorities that you no longer want to use, rather than deleting them.&nbsp;By hiding them, you still keep all your historic data, of objects that have been completed with this priority, while preventing people from choosing this priority&nbsp;in the future.&nbsp;</p>(Optional) You can change the listing order of your priorities by&nbsp;dragging and dropping them in your desired order. This changes the order in which they display&nbsp;for projects, tasks, and issues. This does not change the <strong>Importance</strong> number.&nbsp;</td> 
      </tr> 
     </tbody> 
    </table>

@@ -64,7 +64,7 @@ You must have the following to perform the steps in this article:
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
         <li value="1">Select one or more user name, then click <strong>Remove member</strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
-        <li value="2"> <p>Click <strong>Remove</strong> in the warning message that displays.</p> <p>You can find a user you want to remove from the list by clicking <strong>Search people and groups in the list</strong>, typing their name in the box, then clicking the name when it appears.</p> <p>Note:  
+        <li value="2"> <p>Click <strong>Remove</strong> in the warning message that displays.</p> <p>You can find a user you want to remove from the list by clicking <strong>Search people and groups in the list</strong>, typing their name in the box, then clicking the name when it appears.</p> <p><b>NOTE</b>:  
           <ul> 
            <li>If this group is the Home Group for a user you want to remove, you must first assign another Home Group in the user's profile. For more information, see <a href="../../../administration-and-setup/manage-groups/groups-overview/home-groups.md" class="MCXref xref">Home Groups overview</a> and <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</li> 
            <li>If the group has only one group administrator and you need to remove him or her from the group, you need to assign another group administrator to the group first.</li> 

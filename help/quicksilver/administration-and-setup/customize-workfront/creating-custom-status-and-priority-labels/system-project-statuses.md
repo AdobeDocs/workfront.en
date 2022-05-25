@@ -51,7 +51,7 @@ The following project statuses are provided with your Workfront instance:
     </ul> 
     <ul> 
      <li>If the Completion Mode of the project is set to Automatic, Workfront automatically marks a project as Complete when all the tasks and issues in the project are marked as Complete. </li> 
-    </ul> <p>Important: You can mark a project as Complete only when all the tasks, issues, and approvals on the project are resolved.</p> </td> 
+    </ul> <p><b>IMPORTANT</b>: You can mark a project as Complete only when all the tasks, issues, and approvals on the project are resolved.</p> </td> 
    <td>
     <ul>
      <li>Users on the project team cannot see the project on their Projects lists by default, in the Projects area of Workfront. The tasks and issues that are assigned to them on the project do not populate their Work Requests or Working On lists.</li>
@@ -68,7 +68,7 @@ The following project statuses are provided with your Workfront instance:
   <tr> 
    <td>On Hold</td> 
    <td>The project has not finished yet, but due to some delays, the project needs to be temporarily suspended. The project manager chooses to use this status to alert users in the project team to stop working on the project, at the current time.</td> 
-   <td> <p>Users on the project team cannot see the project on their Projects lists by default, in the Projects area of Workfront. The tasks and issues that are assigned to them on the project disappear from their Work List. </p> <p>Approval decisions cannot be granted to tasks or issues.</p> <p>Notifications about timeline changes, assignments, actions needed, approvals are not sent to users on the project team.</p> <p> <p>Note:  When you place a project On Hold, the timeline of the project does not stop. The project can still show as At Risk or In Trouble even if no one is actively working on the project. Some manual adjustments of the dates of the remaining open tasks might be needed when turning the project back to Current again, so that the project can show updated progress.</p> </p> </td> 
+   <td> <p>Users on the project team cannot see the project on their Projects lists by default, in the Projects area of Workfront. The tasks and issues that are assigned to them on the project disappear from their Work List. </p> <p>Approval decisions cannot be granted to tasks or issues.</p> <p>Notifications about timeline changes, assignments, actions needed, approvals are not sent to users on the project team.</p> <p> <p><b>NOTE</b>:  When you place a project On Hold, the timeline of the project does not stop. The project can still show as At Risk or In Trouble even if no one is actively working on the project. Some manual adjustments of the dates of the remaining open tasks might be needed when turning the project back to Current again, so that the project can show updated progress.</p> </p> </td> 
   </tr> 
   <tr> 
    <td>Requested</td> 

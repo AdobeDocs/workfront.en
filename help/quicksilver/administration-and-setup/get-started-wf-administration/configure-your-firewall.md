@@ -471,7 +471,7 @@ If your organization uses outbound network filtering, add the following domains 
      <li>*.workfront.com - Required to view proofs in Workfront</li> 
      <li>*.proofhq.com - Required to view proofs in Workfront Proof</li> 
      <li>*.proofhq.eu - Required to view proofs in Workfront Proof</li> 
-    </ul> <p>Note:  <p>We do not support adding IP addresses to your allowlist for Workfront Proof. They have been dynamic after Workfront moved to AWS. Instead, we recommend that you allow Workfront Proof domains only.</p> <p>If there is an issue with adding these domains to your allowlist and you need an IP address instead, contact Workfront Customer Support.</p> </p> </td> 
+    </ul> <p><b>NOTE</b>:  <p>We do not support adding IP addresses to your allowlist for Workfront Proof. They have been dynamic after Workfront moved to AWS. Instead, we recommend that you allow Workfront Proof domains only.</p> <p>If there is an issue with adding these domains to your allowlist and you need an IP address instead, contact Workfront Customer Support.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -533,7 +533,7 @@ You must add the following IP addresses to your allowlist in order to use variou
      <li>52.30.133.50</li> 
      <li>54.220.93.204</li> 
      <li>34.254.76.122</li> 
-    </ul> <p>Note: DNS server options are no longer supported.</p> </td> 
+    </ul> <p><b>NOTE</b>: DNS server options are no longer supported.</p> </td> 
   </tr> 
  </tbody> 
 </table>

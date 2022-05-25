@@ -45,7 +45,7 @@ This table and diagram show the main levels of access to Workfront:
    <td>Reviewer</td> 
   </tr> 
   <tr> 
-   <td> <p>External</p> <p>Note: This is not a paid license. It is designed primarily for sharing documents with collaborators who don't use Workfront. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Built-in access levels in Adobe Workfront</a>.</p> </td> 
+   <td> <p>External</p> <p><b>NOTE</b>: This is not a paid license. It is designed primarily for sharing documents with collaborators who don't use Workfront. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Built-in access levels in Adobe Workfront</a>.</p> </td> 
    <td> <p>External User</p> <p>&nbsp;</p> </td> 
   </tr> 
  </tbody> 

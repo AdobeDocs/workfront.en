@@ -26,7 +26,7 @@ These settings allow you to set default values that apply to all new proofs crea
      </tr> 
      <tr> 
       <td role="rowheader">Require login</td> 
-      <td> <p>Reviewers are required to log in using their email and password before they are allowed to view proofs created in your organization's account. When enabled, users cannot share the proof with Guest reviewers.</p> <p>Important: When enabled, login is required for all newly created proofs.</p> </td> 
+      <td> <p>Reviewers are required to log in using their email and password before they are allowed to view proofs created in your organization's account. When enabled, users cannot share the proof with Guest reviewers.</p> <p><b>IMPORTANT</b>: When enabled, login is required for all newly created proofs.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Copy owner from original proof for new versions</td> 
@@ -38,7 +38,7 @@ These settings allow you to set default values that apply to all new proofs crea
      </tr> 
      <tr> 
       <td role="rowheader">Require decisions to be electronically signed </td> 
-      <td> <p>Decision makers are prompted to enter their Workfront login credential when they make a decision on a proof.</p> <p>Important: When enabled, users cannot share the proof with Guest reviewers who don't have login credentials.</p> </td> 
+      <td> <p>Decision makers are prompted to enter their Workfront login credential when they make a decision on a proof.</p> <p><b>IMPORTANT</b>: When enabled, users cannot share the proof with Guest reviewers who don't have login credentials.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2">Deadline</td> 

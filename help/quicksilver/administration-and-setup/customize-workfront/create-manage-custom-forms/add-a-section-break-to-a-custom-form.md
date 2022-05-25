@@ -57,7 +57,7 @@ You must have the following to perform the steps in this article:
 
 1. While still creating or editing the custom form, on the **Add a field** tab, click **Section Break**.
 
-   ![](assets/click-section-break-350x200.jpg)
+   ![](assets/click-section-break.jpg)
 
 1. On the **Field Settings** tab, configure the options you want for the section:
 
@@ -69,7 +69,7 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the section. You can change the label at any time.</p> <p>Important: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
+      <td> <p>(Required) Type a descriptive label to display above the section. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
@@ -81,33 +81,30 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Grant access</p> </td> 
-      <td> <p> Select the permissions that users need on an object where the custom form is attached in order to view this section and edit its field values. For information about permissions on objects, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects</a>.</p> <p>Note:  
+      <td> <p> Select the permissions that users need on an object where the custom form is attached in order to view this section and edit its field values. 
+       <p>The following permissions are available under <b>Users with this access to the object can view field values</b>:</p> 
+         <ul>  
+          <li><p><b>Limited Edit</b>: (Available only if the object is a project, task, issue, or user):</p> 
+          <p>Allows users to contribute to the object if it's a project, task, or issue.</p>
+          <p>Allows users  to edit the profile or own the profile permission to the object if it's a user.</p></li> 
+          <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><b>Edit</b>: Manage permissions to the object </li> 
+          <li><b>Admin only</b>: System Administrator access level</li> 
+         </ul> </li> 
+        <p>The following permissions are available under <b>Users with this access to the object can edit field values</b>: </p> 
+         <ul> 
+          <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p><b>Limited Edit</b>: (Available only if the object is a project, task, issue, or user):</p> 
+           <p>If the object a project, task, or issue, this permission allows users to contribute to the object</p>
+          <p>If the object is a user, this permission allows users to edit the profile or own the profile permission to the object.</p> 
+          <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><b>Edit</b>: Manage permissions to the object </li> 
+          <li><b>Admin only</b>: System Administrator access level</li> 
+         </ul> </li> 
+       </ul> 
+       <p>For information about permissions on objects, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects</a>.</p> 
+       <p><b>NOTE</b>:  
         <ul> 
          <li> <p>Users without the permissions you specify here can't see the custom fields and widgets in the section. </p> <p>This is also true if you display the fields' values in reports or use them in calculated fields in text mode reporting.</p> </li> 
          <li> <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Associating multiple object types with your form can change the viewing and editing permissions that are available in these steps. For more information, see <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">How multiple object types can affect section break permissions in a custom form</a> in this article.</p> </li> 
-        </ul> </p> 
-       <ul> 
-        <li> <p role="rowheader"><b>Users with this access to the object can view field values</b> </p> 
-         <ul>  
-          <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p><b>Limited Edit</b>: (Available only if the object is a project, task, issue, or user):</p> 
-           <ul> 
-            <li> <p>Contribute permission to the object if it's a project, task, or issue</p> </li> 
-            <li> <p>Edit the profile or own the profile permission to the object if it's a user (profile)</p> </li> 
-           </ul> </li> 
-          <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><b>Edit</b>: Manage permissions to the object </li> 
-          <li><b>Admin only</b>: System Administrator access level</li> 
-         </ul> </li> 
-        <li> <p><b><span>Users with this access to the object can edit field values</span></b> </p> 
-         <ul> 
-          <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p><b>Limited Edit</b>: (Available only if the object is a project, task, issue, or user):</p> 
-           <ul> 
-            <li> <p>Contribute permission to the object if it's a project, task, or issue</p> </li> 
-            <li> <p>Edit the profile or own the profile permission to the object if it's a user (profile)</p> </li> 
-           </ul> </li> 
-          <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><b>Edit</b>: Manage permissions to the object </li> 
-          <li><b>Admin only</b>: System Administrator access level</li> 
-         </ul> </li> 
-       </ul> </td> 
+        </ul> </p> </td> 
      </tr> 
     </tbody> 
    </table>

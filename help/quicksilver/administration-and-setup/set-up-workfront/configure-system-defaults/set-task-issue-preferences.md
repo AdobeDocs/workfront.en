@@ -107,7 +107,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">When converting an issue to a task</td> 
    <td> <p>The settings in this section determine what happens during the conversion process from issue to task:</p> 
     <ul> 
-     <li> <p><strong>Keep the original issue and tie its resolution to the task</strong>: When you are converting the issue, it remains visible as an issue until the task is complete. The status of the issue automatically changes to Closed when the task completes. When this is deselected, the issue is deleted.</p> <p>Note:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
+     <li> <p><strong>Keep the original issue and tie its resolution to the task</strong>: When you are converting the issue, it remains visible as an issue until the task is complete. The status of the issue automatically changes to Closed when the task completes. When this is deselected, the issue is deleted.</p> <p><b>NOTE</b>:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li> 
@@ -122,7 +122,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">When converting an issue to a project</td> 
    <td> <p>The settings in this section determine what happens during the conversion process from issue to project:</p> 
     <ul> 
-     <li> <p><strong>Keep the original issue and tie its resolution to the project</strong>: When you are converting the issue, it remains visible as an issue until the project is complete. The status of the issue automatically changes to Closed when the project&nbsp;completes. When this is deselected, the issue is deleted. </p> <p>Note:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
+     <li> <p><strong>Keep the original issue and tie its resolution to the project</strong>: When you are converting the issue, it remains visible as an issue until the project is complete. The status of the issue automatically changes to Closed when the project&nbsp;completes. When this is deselected, the issue is deleted. </p> <p><b>NOTE</b>:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li> 

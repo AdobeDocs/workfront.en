@@ -33,7 +33,7 @@ You must have the following in order to manage companies in Workfront:
     <ul> 
      <li> <p>The System Administrator access level, which allows you to edit any company in the system. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
      <li> <p>Administrative access to manage companies, which allows you to edit any company in the system. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </li> 
-    </ul> <p>Note:  
+    </ul> <p><b>NOTE</b>:  
      <ul> 
       <li> <p>You can also manage companies associated with any group where you are assigned as a group administrator.</p> </li> 
       <li> <p>In order to add to and remove users from the Workfront system, you must have one of the following:</p> 

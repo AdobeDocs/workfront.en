@@ -99,7 +99,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Delete a subgroup</td> 
-      <td> <p>Important: When you delete a group or subgroup, you need to preserve the users, work items, and any subgroups that are currently assigned to it. To help you make sure they are preserved, a prompt requires you to reassign the group's objects to a different group in the step below.</p> 
+      <td> <p><b>IMPORTANT</b>: When you delete a group or subgroup, you need to preserve the users, work items, and any subgroups that are currently assigned to it. To help you make sure they are preserved, a prompt requires you to reassign the group's objects to a different group in the step below.</p> 
        <ol> 
         <li value="1">Select the subgroup, then click the Delete icon <img src="assets/delete.png">.</li> 
         <li value="2">In the <strong>Delete Group</strong> box that appears, starting typing and then select the name of the group where you want to move the members, work items, and subgroups of the group you are deleting.</li> 

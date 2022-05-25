@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
        <ul> 
         <li>Any projects, tasks, and issues where they have access to log time</li> 
         <li>Their timesheets as General Time</li> 
-       </ul> <p>This is useful when users plan to be away from the office and want to log that time beforehand.</p> <p>Note: You cannot prevent users from logging time on tasks or issues that are closed or canceled. You can only prevent users from logging time on complete or dead projects. We recommend that you use filters in lists of tasks and issues to exclude&nbsp;the ones that have been completed or canceled from being visible to users.</p> </td> 
+       </ul> <p>This is useful when users plan to be away from the office and want to log that time beforehand.</p> <p><b>NOTE</b>: You cannot prevent users from logging time on tasks or issues that are closed or canceled. You can only prevent users from logging time on complete or dead projects. We recommend that you use filters in lists of tasks and issues to exclude&nbsp;the ones that have been completed or canceled from being visible to users.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Add expenses from a timesheet</td> 
@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Assign Job Roles to hour entries manually</td> 
-      <td> <p>Allow users to manually select any Job Role assigned in their user profile or assigned to the object.</p> <p>Important:  
+      <td> <p>Allow users to manually select any Job Role assigned in their user profile or assigned to the object.</p> <p><b>IMPORTANT</b>:  
         <ul> 
          <li>If you disable this setting after assigning job roles to hour entries, users must adjust hours logged under various roles on the Hours tab of the project, task, or issue.</li> 
          <li>If the user does not have a job role assigned in their profile and there is a task assigned as the Task Owner in the Advanced Assignments dialog box, that job role appears when the user logs time on the task.</li> 

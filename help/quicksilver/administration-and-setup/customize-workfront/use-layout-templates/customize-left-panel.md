@@ -132,7 +132,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
      <tr data-mc-conditions=""> 
       <td>Dashboards</td> 
       <td> <p>The name of a dashboard</p> </td> 
-      <td> <p>My Dashboards, Shared Dashboards, All Dashboards</p> <p>Note: If you created custom tabs for the Reports area using a layout template in Adobe Workfront Classic, they display at the bottom of this list. For users, they display at the bottom of the left panel in the Dashboards area.</p> </td> 
+      <td> <p>My Dashboards, Shared Dashboards, All Dashboards</p> <p><b>NOTE</b>: If you created custom tabs for the Reports area using a layout template in Adobe Workfront Classic, they display at the bottom of this list. For users, they display at the bottom of the left panel in the Dashboards area.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td>Scrum Team</td> 

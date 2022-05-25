@@ -81,7 +81,7 @@ Configure any of the following preferences for newly created projects associated
  <tbody> 
   <tr> 
    <td role="rowheader">Set new project's status to</td> 
-   <td> <p>Determine the status of new projects.</p> <p>Note:   
+   <td> <p>Determine the status of new projects.</p> <p><b>NOTE</b>:   
      <ul> 
       <li>If you or another Workfront administrator hides the status selected here, the default status changes to the first status in the status list.</li> 
      </ul> 
@@ -145,7 +145,7 @@ Configure any of the following preferences for newly created projects associated
    <td role="rowheader">User Time Off</td> 
    <td> <p>Determine whether the time off of the Primary Assignee of a task adjusts the planned dates for that task on a project.</p> 
     <ul> 
-     <li> <p><strong>Consider user time off in task durations</strong>: Any time off scheduled for a task's Primary Assignee adjusts the task's planned dates if the time off occurs during the task's duration. This is the default setting. </p> <p>For example, if a task with a Constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 2 marked for Time-off, the task's planned dates adjust to June 1 through June 4.</p> <p>Important: The Duration of the task does not change when you select this setting. Only the planned dates change, depending on the Task Constraint.</p> </li> 
+     <li> <p><strong>Consider user time off in task durations</strong>: Any time off scheduled for a task's Primary Assignee adjusts the task's planned dates if the time off occurs during the task's duration. This is the default setting. </p> <p>For example, if a task with a Constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 2 marked for Time-off, the task's planned dates adjust to June 1 through June 4.</p> <p><b>IMPORTANT</b>: The Duration of the task does not change when you select this setting. Only the planned dates change, depending on the Task Constraint.</p> </li> 
      <li><strong>Ignore user time off in task durations</strong>: The planned dates of each task on a project remain as originally planned, even if the Primary Assignee of a task has time off during its duration.</li> 
     </ul> <p>Consider the following when selecting options for this setting:</p> 
     <ul> 
@@ -187,11 +187,11 @@ Configure any of the following preferences for newly created projects associated
     </ul> 
     <ul> 
      <li><strong>Typical work days per week</strong>: Set the standard workweek for the users who will be working on projects. The default is 5 days.</li> 
-    </ul> <p>These 2 options convert days to hours, or weeks to days.</p> <p>For example, if you have a task with 8 Planned Hours and the duration is calculated based on Planned Hours, Workfront converts those hours into days in order to show the Duration as days.</p> <p>From the Typical work days per week field, Workfront calculates the Full Time Equivalent (FTE) value for your system. This is what Workfront uses when calculating allocations for users.</p> <p>These values are used when you are planning projects timelines, budgeting for resources, or logging time against projects. </p> <p>They are not used when you are establishing timesheets for users in the system, as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configure timesheet and hour preferences</a>.</p> <p>Note: Workfront administrators cannot unlock Timeline Calculations preferences.</p> </td> 
+    </ul> <p>These 2 options convert days to hours, or weeks to days.</p> <p>For example, if you have a task with 8 Planned Hours and the duration is calculated based on Planned Hours, Workfront converts those hours into days in order to show the Duration as days.</p> <p>From the Typical work days per week field, Workfront calculates the Full Time Equivalent (FTE) value for your system. This is what Workfront uses when calculating allocations for users.</p> <p>These values are used when you are planning projects timelines, budgeting for resources, or logging time against projects. </p> <p>They are not used when you are establishing timesheets for users in the system, as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configure timesheet and hour preferences</a>.</p> <p><b>NOTE</b>: Workfront administrators cannot unlock Timeline Calculations preferences.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Custom Quarters</strong> </p> </td> 
-   <td> <p>Configure custom yearly quarters for the users who will be working on projects. Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. You can add multiple custom quarters. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters for projects</a>.</p> <p>Note: Workfront administrators cannot unlock Custom Quarters preferences.</p> </td> 
+   <td> <p>Configure custom yearly quarters for the users who will be working on projects. Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. You can add multiple custom quarters. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters for projects</a>.</p> <p><b>NOTE</b>: Workfront administrators cannot unlock Custom Quarters preferences.</p> </td> 
   </tr> 
  </tbody> 
 </table>

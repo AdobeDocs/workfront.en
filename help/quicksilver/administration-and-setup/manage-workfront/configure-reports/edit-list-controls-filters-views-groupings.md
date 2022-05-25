@@ -75,7 +75,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Custom Tabs</td> 
-      <td> <p>The tabs you see listed in this column can be found by&nbsp;all users in the system&nbsp;and they can add them to their own interface.&nbsp;</p> <p>Important:  <p>Only custom tabs built before 2012 (prior to the Anaconda release) can be shared with all the users in the system using list controls. Any custom tabs built after that release need to be shared with users using the layout template functionality. For more information about layout templates, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.<br></p> <p>Only the following object types allow for custom tabs to be added to list controls:</p> 
+      <td> <p>The tabs you see listed in this column can be found by&nbsp;all users in the system&nbsp;and they can add them to their own interface.&nbsp;</p> <p><b>IMPORTANT</b>:  <p>Only custom tabs built before 2012 (prior to the Anaconda release) can be shared with all the users in the system using list controls. Any custom tabs built after that release need to be shared with users using the layout template functionality. For more information about layout templates, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.<br></p> <p>Only the following object types allow for custom tabs to be added to list controls:</p> 
         <ul> 
          <li>Project</li> 
          <li>Task</li> 
@@ -137,7 +137,7 @@ You can remove filters, views, and groupings, including most of the default ones
      </tr> 
      <tr> 
       <td role="rowheader">Custom Tabs</td> 
-      <td> <p>The tabs you see listed in this column can be found by&nbsp;all users in the system&nbsp;and they can add them to their own interface.&nbsp;</p> <p>Important:  <p>Only custom tabs built before 2012 (prior to the Anaconda release) can be shared with all the users in the system using list controls. Any custom tabs built after that release need to be shared with users using the layout template functionality. For more information about layout templates, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.<br></p> <p>Only the following object types allow for custom tabs to be added to list controls:</p> 
+      <td> <p>The tabs you see listed in this column can be found by&nbsp;all users in the system&nbsp;and they can add them to their own interface.&nbsp;</p> <p><b>IMPORTANT</b>:  <p>Only custom tabs built before 2012 (prior to the Anaconda release) can be shared with all the users in the system using list controls. Any custom tabs built after that release need to be shared with users using the layout template functionality. For more information about layout templates, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.<br></p> <p>Only the following object types allow for custom tabs to be added to list controls:</p> 
         <ul> 
          <li>Project</li> 
          <li>Task</li> 

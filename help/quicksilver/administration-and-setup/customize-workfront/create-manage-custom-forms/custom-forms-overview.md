@@ -5,7 +5,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Custom forms overview
-description: The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
+description: You can build a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
 ---
 
 # Custom forms overview
@@ -20,9 +20,9 @@ See this video overview of custom forms.
 
 You can build a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
 
-For example, a user can attach the following custom form to a project so that users on the project can supply creative brief information about the project:
+For example, a user can attach the following custom form to a project so that users on the project can request marketing content for the project:
 
-![](assets/custom-form-350x269.png)
+![](assets/see-image-details-page.png)
 
 ## Custom fields and widgets
 

@@ -67,11 +67,11 @@ You can manage what information users can view and edit for other users using a 
       <td role="rowheader"><strong>Create</strong> </td> 
       <td> <p>Allows users to create users.<br>This option is enabled by default.</p> <!--
         <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure this change is being made before undrafting these 2 notes. On 3/29, the req doc says that this depends on investigation results.</p>
-       --> <p>Note: This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
+       --> <p><b>NOTE</b>: This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Delete</strong> </td> 
-      <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p>Note: This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
+      <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p><b>NOTE</b>: This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>User Admin (All Users)</strong> </td> 
@@ -88,7 +88,7 @@ You can manage what information users can view and edit for other users using a 
         <ul>
          <li><p>Edit, delete, or deactivate the user</p></li>
          <li>Log in as the user</li>
-         <li><p>Reset the user's password</p><p>Note:  A group administrator cannot log in as or reset the password of a Workfront administrator.<br></p></li>
+         <li><p>Reset the user's password</p><p><b>NOTE</b>:  A group administrator cannot log in as or reset the password of a Workfront administrator.<br></p></li>
         </ul><p>This option is disabled by default.</p></p> </td> 
      </tr> 
     </tbody> 
