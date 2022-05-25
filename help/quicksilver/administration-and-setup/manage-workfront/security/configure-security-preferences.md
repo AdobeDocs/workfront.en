@@ -28,7 +28,7 @@ We recommend that you configure your system security preferences during the Work
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -55,7 +55,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the **Security** section, select any of the following fields to establish the security settings for your organization:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

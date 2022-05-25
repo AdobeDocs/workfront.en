@@ -27,7 +27,7 @@ For more information, see [Reporting elements: filters, views, and groupings](..
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -57,7 +57,7 @@ You must have the following access to perform the steps in this article:
 
    Four columns display, containing the following:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -119,7 +119,7 @@ You can remove filters, views, and groupings, including most of the default ones
 
    Four columns display, containing the following:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

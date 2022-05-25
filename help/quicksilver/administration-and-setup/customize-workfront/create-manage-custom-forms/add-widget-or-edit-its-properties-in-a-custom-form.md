@@ -24,7 +24,7 @@ This is useful when you need to include visual content such as branding images, 
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -62,7 +62,7 @@ You must have the following to perform the steps in this article:
 
 1. Type or edit any of the following properties for the widget:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

@@ -19,7 +19,7 @@ Remove this note and the referenced section below a few months after the functio
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
 
    * **View**: If you are configuring how users with any license can view teams, change any of the following options:
 
-      <table>
+      <table style="table-layout:auto">
        <col>
        <col>
        <tbody>
@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
 
    * **Edit**: If you are configuring how users with a Plan license and Work license can manage teams, change any of the following options:
 
-      <table>
+      <table style="table-layout:auto">
        <col>
        <col>
        <tbody>

@@ -25,7 +25,7 @@ Each user's default layout depends on their access level. Some users might not s
 
 The following table shows what left panel items are displayed for each access level, by default. The default landing area for each access level is also indicated:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

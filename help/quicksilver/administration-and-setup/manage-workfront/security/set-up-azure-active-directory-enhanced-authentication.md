@@ -17,7 +17,7 @@ When Adobe Workfront expects a different signature method for the SAML response,
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

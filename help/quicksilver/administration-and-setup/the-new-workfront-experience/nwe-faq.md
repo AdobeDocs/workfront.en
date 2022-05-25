@@ -7,7 +7,7 @@ draft: Probably
 
 Following is a list of frequently asked questions regarding the new Adobe Workfront experience.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 

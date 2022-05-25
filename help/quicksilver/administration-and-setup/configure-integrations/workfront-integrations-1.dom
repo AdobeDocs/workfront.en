@@ -28,7 +28,7 @@
     <p aemmigrated="true">We understand that the available built-in (native) integrations might not meet all of your company needs. If this is the case, contact your Account Executive to discuss a custom integration.</p> 
     <p><strong>Integrations available at no additional cost</strong></p> 
     <p aemmigrated="true">Workfront provides the following built-in integrations at no additional cost:</p> 
-    <table> 
+    <table style="table-layout:auto"> 
      <col aemmigrated="true"> 
      <col aemmigrated="true"> 
      <col aemmigrated="true"> 

@@ -21,7 +21,7 @@ To transfer custom form data from an issue to a task or a project, you must comp
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

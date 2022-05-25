@@ -16,7 +16,7 @@ As an Adobe Workfront administrator, you can create or edit a custom condition f
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 1. Configure your custom condition using the following options:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

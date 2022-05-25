@@ -23,7 +23,7 @@ The questions and answers chosen for a scorecard must be quantifiable in order t
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -58,7 +58,7 @@ You must have the following to perform the steps in this article:
 
    Specify the following information for your question:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

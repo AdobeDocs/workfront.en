@@ -18,7 +18,7 @@ Individual users can also reset their own user preference settings.
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
 
 When you reset user preferences, some preferences are reverted to the system default, and others are cleared or removed:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 

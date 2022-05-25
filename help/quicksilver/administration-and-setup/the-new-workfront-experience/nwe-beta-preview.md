@@ -9,7 +9,7 @@ The new Adobe Workfront experience provides a fresh, modern design in addition t
 
 For the most recent enhancements in the new Workfront experience, see [The new Adobe Workfront experience: Beta release activity](../../administration-and-setup/the-new-workfront-experience/nwe-beta-preview-release-activity.md).
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -108,7 +108,7 @@ For the most recent enhancements in the new Workfront experience, see [The new A
  </tbody> 
 </table>
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 

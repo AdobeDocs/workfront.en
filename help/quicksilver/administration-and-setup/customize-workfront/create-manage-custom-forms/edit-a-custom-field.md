@@ -17,7 +17,7 @@ For information about custom fields and widgets in custom forms, see [Add a cust
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

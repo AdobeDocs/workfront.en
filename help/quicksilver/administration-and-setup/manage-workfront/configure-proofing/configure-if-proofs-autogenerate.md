@@ -15,7 +15,7 @@ You can configure whether the system automatically generates proofs when users y
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

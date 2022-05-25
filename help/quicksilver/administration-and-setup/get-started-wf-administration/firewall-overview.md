@@ -35,7 +35,7 @@ To configure your firewall for Workfront, your network administrator needs to kn
 
 Provide your network administrator with the following information:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

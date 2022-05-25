@@ -15,7 +15,7 @@ You can configure preferences that give users access to certain features when th
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

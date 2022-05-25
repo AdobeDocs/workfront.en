@@ -20,7 +20,7 @@ As an Adobe Workfront administrator, you can create milestone paths in the Setup
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -65,7 +65,7 @@ For more information on how you can associate a milestone path with a project an
 
 1. Specify the following information in the **Milestones** area:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

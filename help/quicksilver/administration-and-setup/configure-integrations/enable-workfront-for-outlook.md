@@ -18,7 +18,7 @@ For information about how to use Workfront for Outlook after it has been enabled
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -14,7 +14,7 @@ When someone shares a custom field with View or Manage access, they can configur
 
 For more information about how users configure sharing settings when sharing a custom form, see [Configure sharing for custom fields and widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 

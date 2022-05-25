@@ -24,7 +24,7 @@ For example, you could have Workfront track all changes users make to the names 
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -108,7 +108,7 @@ You can have Workfront track the following actions that users can perform on obj
 
 For example, you can have Workfront record an update every time a user changes an assignment to a task or issue. The change then appears as a system update in the Updates area for the task or issue.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

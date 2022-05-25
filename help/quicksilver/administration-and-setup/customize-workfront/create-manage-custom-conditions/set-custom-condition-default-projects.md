@@ -20,7 +20,7 @@ You can set your custom conditions as default conditions instead of using these 
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

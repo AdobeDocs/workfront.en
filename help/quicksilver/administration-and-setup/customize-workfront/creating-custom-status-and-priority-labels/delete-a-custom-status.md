@@ -30,7 +30,7 @@ For instructions on deleting a group status, see [Delete a group status](../../.
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

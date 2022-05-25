@@ -86,7 +86,7 @@ When sharing an object with someone in the system, a user can grant the recipien
 
 The following table compares a user's general access to objects (defined by the user's access level) to permissions for a specific shared object:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

@@ -31,7 +31,7 @@ As a Workfront administrator, you can change the order of project, task, and iss
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -52,7 +52,7 @@ You must have the following to perform the steps in this article:
 
 By default, statuses display in the following order:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

@@ -19,7 +19,7 @@ As an Adobe Workfront administrator or a user with administrative access to Job&
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -55,7 +55,7 @@ You must have the following:
 
 1. Update the following fields: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

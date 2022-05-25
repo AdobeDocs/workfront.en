@@ -20,7 +20,7 @@ For information about using custom access levels to manage users' access to othe
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
    You can allow users to do the following on projects, tasks, and issues that they have access to:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

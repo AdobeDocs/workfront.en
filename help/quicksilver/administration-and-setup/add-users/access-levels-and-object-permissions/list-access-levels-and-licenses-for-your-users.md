@@ -22,7 +22,7 @@ You can see which access level and license is assigned to each user in a user li
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

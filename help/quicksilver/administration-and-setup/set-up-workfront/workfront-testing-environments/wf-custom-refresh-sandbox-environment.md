@@ -28,7 +28,7 @@ The Custom Refresh Sandbox is an environment where you can test and work using d
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

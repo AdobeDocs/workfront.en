@@ -16,7 +16,7 @@ As an Adobe Workfront administrator, you can use an access level to define a use
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/resource-management-details-of-edit-in-the-access-level-350x68.png)
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

@@ -91,7 +91,7 @@ You must have the following access to perform the steps in this article:
 
 ### Issues {#issues}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

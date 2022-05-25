@@ -16,7 +16,7 @@ When you begin implementing Adobe Workfront, rather than manually inputting data
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
 
 The following table displays the Companies, Groups, and Roles to import:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

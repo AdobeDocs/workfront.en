@@ -21,7 +21,7 @@ Improved password management capabilities are coming soon or might already be av
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ To configure authentication preferences:
 
 1. Select any of the following fields to establish the authentication settings for your organization:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

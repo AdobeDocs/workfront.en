@@ -18,7 +18,7 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
 
 ## Users
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

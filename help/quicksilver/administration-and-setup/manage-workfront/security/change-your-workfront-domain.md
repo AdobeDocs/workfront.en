@@ -15,7 +15,7 @@ As an Adobe Workfront administrator and an authorized Workfront Support contact,
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

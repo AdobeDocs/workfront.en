@@ -37,7 +37,7 @@ For information about how you can deactivate or reactivate a group, see [Deactiv
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -66,7 +66,7 @@ You must have the following to perform the steps in this article:
 1. If you want to deactivate or reactivate the group, 
 1. In the left menu, click **Group Details**, then do any of the following:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

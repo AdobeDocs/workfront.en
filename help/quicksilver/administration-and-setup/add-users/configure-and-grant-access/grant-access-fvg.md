@@ -22,7 +22,7 @@ Maybe we need an article explaining how there are List Controls as a whole admin
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -71,7 +71,7 @@ You must have the following access to perform the steps in this article:
 
 This table lists what a Workfront administrator can allow users with each license type to do with filter, views, and groupings. For information about the Workfront license types, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
 
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <col>

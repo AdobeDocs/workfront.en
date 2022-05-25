@@ -15,7 +15,7 @@ You can move a group under another group that you manage.
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
