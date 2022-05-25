@@ -55,7 +55,7 @@ Removes duplicates inside an array. Use the "key" argument to access properties 
 
   >[!INFO]
   >
-  >**Example:** ```distinct(Contacts[];name)``` 
+  >**Example:** `distinct(Contacts[];name)` 
   >
   >Removes duplicates inside an array of contacts by comparing the "name" property
 
@@ -82,15 +82,15 @@ Returns a primitive array containing values of a complex array. This function al
 
   >[!INFO]
   >
-  >  **Examples:**
+  >**Examples:**
   >
-  >* ```map(Emails[];email)```
+  >* `map(Emails[];email)`
   >
-  >    Returns a primitive array with emails
+  >  Returns a primitive array with emails
   >
-  >* ```map(Emails[];email;label;work;home)```
+  >* `map(Emails[];email;label;work;home)`
   >
-  >    Returns a primitive array with ```emails``` having a label equal to work or home
+  >  Returns a primitive array with emails having a label equal to work or home
 
 For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md)
 
@@ -113,25 +113,25 @@ Returns a new array containing only selected items.
 
 ## sort (array; [order]; [key])
 
-Sorts values of an array. The valid values of the ```order``` parameter are:
+Sorts values of an array. The valid values of the `order` parameter are:
 
-* ```asc```
+* `asc`
 
     (default) - ascending order: 1, 2, 3, ... for type Number. A, B, C, a, b, c, ... for type Text
 
-* ```desc```
+* `desc`
 
     descending order: ..., 3, 2, 1 for type Number. ..., c, b, a, C, B, A for type Text.
 
-* ```asc ci```
+* `asc ci`
 
     case insensitive ascending order: A, a, B, b, C, c, ... for type Text.
 
-* ```desc ci```
+* `desc ci`
 
     case insensitive descending order: ..., C, c, B, b, A, a for type Text.
 
-Use the ```key``` parameter to access properties inside complex objects.
+Use the `key` parameter to access properties inside complex objects.
 
 Use raw variable names for keys.
 
@@ -143,19 +143,19 @@ The first item in an array is index 1.
   >
   >**Examples:**
   >
-  >* ```sort(Contacts[];name)```
+  >* `sort(Contacts[];name)`
   >
   >    Sorts an array of contacts by the "name" property in default ascending order
   >
-  >* ```sort(Contacts[];desc;name)```
+  >* `sort(Contacts[];desc;name)`
   >
   >   Sorts an array of contacts by the "name" property in descending order
   >
-  >* ```sort(Contacts[];asc ci;name)  ```
+  >* `sort(Contacts[];asc ci;name)`
   >
   >    Sorts an array of contacts by the "name" property in case-insensitive ascending order
   >
-  >* ```sort(Emails[];sender.name)```
+  >* `sort(Emails[];sender.name)`
   >
   >    Sorts an array of emails by the "sender.name" property
 
@@ -163,13 +163,13 @@ The first item in an array is index 1.
 
 Returns the difference between two arrays.
 
-Enter one of the following values for the ```mode``` parameter.
+Enter one of the following values for the `mode` parameter.
 
-* ```classic```: Returns a new array that contains all elements of ```array1``` that do not exist in ```array2```.
+* `classic`: Returns a new array that contains all elements of `array1` that do not exist in `array2`.
 
-* ```symmetric```: Returns an array of elements that are not common to both arrays.
+* `symmetric`: Returns an array of elements that are not common to both arrays.
 
-   In other words, the function returns an array that contains all of the elements of ```array1``` that do not exist in ```array2```, and all of the elements of ```array2``` that do not exist in ```array1```.
+   In other words, the function returns an array that contains all of the elements of `array1` that do not exist in `array2`, and all of the elements of `array2` that do not exist in `array1`.
 
   >[!INFO]
   >
@@ -185,15 +185,15 @@ Enter one of the following values for the ```mode``` parameter.
   >yourArray = [3,4,5,6,7]
   >```
   >
-  >*  ```arrayDifference [myArray, yourArray, classic]```
+  >*  `arrayDifference [myArray, yourArray, classic]`
   >
-  >    Returns ```[1,2]```
+  >    Returns `[1,2]`
   >
-  >*  ```arrayDifference [yourArray, myArray, classic]```
+  >*  `arrayDifference [yourArray, myArray, classic]`
   >
-  >    Returns ```[6,7]```
+  >    Returns `[6,7]`
   >
-  >*  ```arrayDifference [myArray, yourArray, symmetric]```
+  >*  `arrayDifference [myArray, yourArray, symmetric]`
   >
-  >    Returns ```[1,2,6,7]```
+  >    Returns `[1,2,6,7]`
 

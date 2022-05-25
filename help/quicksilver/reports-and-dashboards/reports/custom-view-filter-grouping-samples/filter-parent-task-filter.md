@@ -65,8 +65,10 @@ You can apply the following filter to a task report to display tasks with no chi
 
    Click&nbsp;**Switch to Text Mode**, and in the&nbsp;text editing window, copy and paste the following text:&nbsp;
 
-   
-   numberOfChildren=0<br>numberOfChildren_Mod=eq
+   ```
+   numberOfChildren=0
+   numberOfChildren_Mod=eq
+   ```
    
 
 1. Click **Save + Close**.
@@ -77,9 +79,25 @@ You can apply the following filter to a task report to display tasks with no chi
 
 You can apply the following filter to a task report to display tasks with parents, meaning they are children tasks. However, these tasks could also have children of their own because the filter does not exclude their children. Children tasks that are also parents for other tasks are not considered working tasks.
 
-<!--WRITER convert to markdown-->
-
-1. From the **Main Menu** ![](assets/main-menu-icon.png), click **Reports.** <li>Click <strong>New Report</strong>.</li> <li>Select a <strong>Task Report</strong>.</li> <li>Click <strong>Filters</strong>.</li> <li>Click <strong>Add a Filter Rule</strong>.</li> <li>In the <strong>Start typing field name ...</strong> line, start typing <strong>Parent ID</strong>.</li> <li> <p>Select <strong>Is Not Blank</strong> for your modifier.</p> <p> <img src="assets/filter-parent-id-not-blank-350x100.png" style="width: 350;height: 100;"> <br> </p> <p>Or</p> <p>Click&nbsp;<strong>Switch to Text Mode</strong>, and in the&nbsp;text editing window, copy and paste the following text:&nbsp;</p> <p><code>parentID_Mod=notblank</code> </p> </li> <li> <p>Click <strong>Save + Close</strong>.</p> <p>This pulls a report for all tasks in your system that have parents and are children tasks of those parents. Some of these tasks could be a parent themselves. </p> </li>
+1. From the **Main Menu** ![](assets/main-menu-icon.png), click **Reports.
+1. Click **New Report**.
+1. Select a **Task Report**.
+1. Click **Filters**.
+1. Click **Add a Filter Rule**.
+1. In the **Start typing field name ...** line, start typing **Parent ID**.
+1. Select **Is Not Blank** for your modifier.
+    
+    ![](assets/filter-parent-id-not-blank-350x100.png)  
+    
+    Or
+    
+    Click **Switch to Text Mode**, and in the text editing window, copy and paste the following text: 
+    
+    `parentID_Mod=notblank`
+    
+1. Click **Save + Close**.
+    
+    This pulls a report for all tasks in your system that have parents and are children tasks of those parents. Some of these tasks could be a parent themselves.
 
 ## Display tasks with no children and no parents (standalone tasks)
 
@@ -102,7 +120,11 @@ You can apply the following filter to a task report to display standalone workin
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure steps above stay accurate)</p>
    -->
 
-   <pre>numberOfChildren=0</pre><pre>numberOfChildren_Mod=eq</pre><pre>parentID_Mod=isblank</pre>
+   ```
+   numberOfChildren=0
+   numberOfChildren_Mod=eq
+   parentID_Mod=isblank
+   ```
 
 1. Click **Save + Close**.
 
