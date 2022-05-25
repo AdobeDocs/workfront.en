@@ -14,7 +14,7 @@ There are two ways to view your work in the Home area, either from the Work List
 
 The Work List allows you to view all of your assigned work in one place:
 
-![](assets/worklist-and-right-panel-home-copy-350x126.png)
+![Work List panels](assets/worklist-and-right-panel-home.png)
 
 A. Use the left panel to filter, sort, and select work assigned to you.
 

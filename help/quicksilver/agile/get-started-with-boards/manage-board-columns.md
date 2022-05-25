@@ -10,6 +10,8 @@ description: A new board contains three columns by default. You can add more col
 
 A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need.
 
+Column settings include policies, which allow you to define options for what happens to a card when it is moved into that column.
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -21,11 +23,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -45,7 +47,7 @@ You must have the following access to perform the steps in this article:
 ## Reorder columns on a board
 
 1. Access the board.
-1. Drag and drop the columns into the correct order. Be sure to select the top of the column before dragging it to another location. ```Is there a way to do this with the keyboard?```
+1. Drag and drop the columns into the correct order. Be sure to select the top of the column before dragging it to another location.
 
    ![Drag and drop column](assets/boards-dragdropcolumn.png)
 
@@ -53,6 +55,10 @@ You must have the following access to perform the steps in this article:
 
 1. Access the board.
 1. Click on the column name, type the new name, and press Enter.
+   
+   Or
+   
+   Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the column and select **Edit**. In the Settings area, type the new name in the **Column name** field, and click **Close**.
 
 ## Delete a board column
 
@@ -63,3 +69,38 @@ You must have the following access to perform the steps in this article:
    >
    >Columns that contain cards, including archived cards, can't be deleted. If you try to delete a column that contains cards, you must choose another column for those cards.
 
+## Define column settings and policies
+
+1. Access the board.
+1. Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the column, and select **Edit**.
+
+   The Settings area appears. The **Column name** lets you know which column you are defining settings for.
+
+1. Enable the **Update field values automatically** policy to change certain field values automatically when a card is moved to this column.
+1. (Optional) Set a value for the card status:
+
+   1. Select the **Status** check box.
+
+   1. Select the status to apply to a card when it is moved to this column.
+
+1. (Optional) Set a value for the card assignees:
+
+   1. Select the **Assignees** check box.
+   1. Select an action.
+
+      * **Add on assignees:** The assignee you select is added to the existing list of assignees on a card when it is moved to this column.
+      * **Override assignees:** The assignee you select overrides all other assignees, and becomes the only assignee on a card when it is moved to this column.
+
+   1. Select the assignee from the drop-down list. Only members on the board are available to choose from. For more information, see [Add or remove members from a board](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+
+1. (Optional) Set a value for the card tags:
+
+   1. Select the **Cards** check box.
+   1. Select an action.
+
+      * **Add on tags:** The tag you select is added to the existing list of tags on a card when it is moved to this column.
+      * **Override tags:** The tag you select overrides all other tags, and becomes the only tag on a card when it is moved to this column.
+
+   1. Select the tag from the drop-down list. Only tags already created in the Tag Manager are available to choose from. For information on adding new tags, see [Add tags](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+
+1. Click **Close** to exit the Settings area and view the column and its cards.

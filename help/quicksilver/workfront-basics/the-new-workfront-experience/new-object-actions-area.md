@@ -10,58 +10,6 @@ description: As part of the redesign in the new Adobe Workfront experience, we h
 
 As part of the redesign in the new Adobe Workfront experience, we have added new actions areas for several objects. Most objects that you can access individually have an actions area.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Most objects that you can access individually in Adobe Workfront have an actions area, including the following:</p>
--->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Projects</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Tasks</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Issues</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Portfolios</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Programs</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Templates</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Template Tasks</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Users</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Teams</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Iterations</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Documents</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Plans</li>
-  -->
-
 For information about Workfront objects, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 In Workfront classic, the actions area is located in the upper-right corner of the object page.
@@ -70,7 +18,7 @@ In Workfront classic, the actions area is located in the upper-right corner of t
 
 In the new Adobe Workfront experience, the actions area is located next to the name of the object.
 
-![](assets/nwe-project-more-menu-expanded-350x274.png)
+![Actions area](assets/NWE-project-more-menu-expanded.png)
 
 >[!NOTE]
 >
