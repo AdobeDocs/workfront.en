@@ -16,6 +16,7 @@ user-guide-description: Workfront
       * [22.3 release activity: Week of May 2, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-2.md)
       * [22.3 release activity: Week of April 18, 2022](product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md)
       * [22.3 release activity: Week of April 11, 2022](product-announcements/product-releases/22.3-release-activity/22-3-apr-11.md)
+      * [Look and feel updates during the 22.3 release timeframe](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
     * 22.2 Release {#release-22-2}
       * [22.2 Release overview](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
       * [22.2 Administrator enhancements](product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md)
