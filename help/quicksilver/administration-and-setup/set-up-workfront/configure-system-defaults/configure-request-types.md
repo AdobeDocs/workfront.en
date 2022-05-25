@@ -17,7 +17,7 @@ For information about creating issues in Workfront, see [Create issues](../../..
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<<table style="table-layout:auto">> 
  <col> 
  <col> 
  <tbody> 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
 </table>
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+THIS IS DRAFTED IN FLARE
 <h2>Set what issue or request types are allowed for a project</h2>
 <p>You can organize the kind&nbsp;of issues or requests that are logged in Workfront by Request Types. This organization is useful for reporting reasons and for helping users understand what kind&nbsp;of unexpected work&nbsp;might occur during the lifetime of a project.</p>
 <p>You can specify the&nbsp;type of requests that can be logged on a project when you configure the <strong>Queue Details</strong>&nbsp;area for the project.&nbsp;</p>
@@ -76,12 +76,12 @@ To customize the names of the request types:
 1. Click the **Issues** tab.
 1. At the top of the **Issues** tab, hover over the name of a request type, then click the **Edit** icon that appears.
 
-   ![](assets/edit-request-type-name-nwe-350x143.png)
+   ![](assets/edit-request-type-name-nwe.png)
 
 1. In the box that appears, type a new name, then press **Enter**.
 
 ## Configure issue statuses within different request types
 
-You can associate each request type with different issue statuses. You can also change&nbsp;the order in which the statuses display on an issue, depending on what type of issue it is.&nbsp;
+You can associate each request type with different issue statuses. You can also change the order in which the statuses display on an issue, depending on what type of issue it is.
 
 For more information about changing the default order of issue statuses and configuring issue statuses, see the [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) section in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
