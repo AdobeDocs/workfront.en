@@ -20,16 +20,20 @@ If your integrations require functionality that is not available in a versioned 
 
 You can determine the version of the API your integrations use by using REST to construct a URI that sends a call over HTTPS to Workfront and then returns a JSON response.
 
-<!--WRITER Check URLs below-->
-
 The following example shows a URI that calls API-Internal: 
 
-`https://<domainname>.my.workfront.com/attask/api/<strong>api-internal</strong><span style="font-weight: 400;">/proj/4c70…</span>`
+```
+https://<domainname>.my.workfront.com/attask/api/api-internal/proj/4c70…
+```
 
 The following example shows URI that calls API-Unsupported: 
 
-`https://<domainname>.my.workfront.com/attask/api/<strong>api-unsupported</strong><span style="font-weight: 400;">/proj/4c70...</span>`
+```
+https://<domainname>.my.workfront.com/attask/api/api-unsupported/proj/4c70...
+```
 
 The following example shows a URI that calls Version 7.0 of the API: 
 
-`https://<domainname>.my.workfront.com/attask/api/<strong>v7.0</strong><span style="font-weight: 400;">/proj/4c70…</span>`
+```
+https://<domainname>.my.workfront.com/attask/api/v7.0/proj/4c70…
+```
