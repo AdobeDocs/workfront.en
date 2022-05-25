@@ -25,7 +25,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -39,21 +39,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  <p>Workfront Fusion for Work Automation</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -91,7 +82,7 @@ You must have sufficient permissions to access the proof or proofs in Workfront 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -124,7 +115,7 @@ The module returns all standard fields associated with the proof, along with any
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -151,7 +142,7 @@ The module returns all standard fields associated with the proof, along with any
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -201,9 +192,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Proof Type</td> 
-   <td> <p>Specify whether you want the proof that is created to have a basic workflow or an Automated Workflow.</p> <p>Then fill out the fields that display for the proof type you chose. For example, if you chose Automated Workflow, fill out the <strong>Workflow Stages</strong> field to configure the stages.</p> <p>You can use output from the Build module here if you include and run that module earlier in the scenario. For more information, see <a href="#build" class="MCXref xref">Build</a> in this article. <!--
-      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Is this correct?</span>
-     --></p> </td> 
+   <td> <p>Specify whether you want the proof that is created to have a basic workflow or an Automated Workflow.</p> <p>Then fill out the fields that display for the proof type you chose. For example, if you chose Automated Workflow, fill out the <strong>Workflow Stages</strong> field to configure the stages.</p> <p>You can use output from the Build module here if you include and run that module earlier in the scenario. For more information, see <a href="#build" class="MCXref xref">Build</a> in this article.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Allow original file to be downloaded</td> 
@@ -218,11 +207,7 @@ When you are configuring this module, the following fields display.
    <td>Enable this option to combine all files into a single multi-page proof.</td> 
   </tr> 
   <tr> 
-   <td>Create a new proof version<!--
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-      ?
-     </MadCap:conditionalText>
-    --></td> 
+   <td>Create a new proof version</td> 
    <td>Select this option if you want the module to create a new version of an existing proof. Then, in the <strong>Existing Proof ID</strong> field that displays, map or enter the unique ID of the proof.</td> 
   </tr> 
   <tr> 
@@ -287,9 +272,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Notify recipients about this proof</td> 
-   <td>Select an option to indicate whether you want recipients notified when the proof is created.<!--
-     <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> If you select yes, select an option to indicate/include (?) a Custom message subject, Custom message body</span>
-    --></td> 
+   <td>Select an option to indicate whether you want recipients notified when the proof is created.></td> 
   </tr> 
   <tr> 
    <td>Proof name</td> 
@@ -333,7 +316,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Deadline</td> 
-   <td> <p>Specify the deadline you want for the proof that is created. Use the following date format:</p> <p>YYYY-MM-DD hh:mm</p> </td> 
+   <td> <p>Specify the deadline you want for the proof that is created. Use the following date format:</p> <p><code>YYYY-MM-DD hh:mm</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -346,7 +329,7 @@ The module returns the status code, headers and body. You can map this informati
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -368,7 +351,11 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-**Example:**  ![](assets/wfp-api-module-example-350x586.png)
+>[!INFO]
+>
+>**Example:**  
+>
+>![](assets/wfp-api-module-example-350x586.png)
 
 #### Download Proof {#download-proof}
 
@@ -382,7 +369,7 @@ You must have sufficient permissions to access the record in Workfront Proof in 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -409,7 +396,7 @@ You must have sufficient permissions to access the record in Workfront Proof in 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -428,12 +415,7 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td>ID</td> 
    <td>Enter or map the unique Workfront Proof ID of the record that you want the module to read.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>________</td> 
-    <td>Select the type of information you want the module to read: proof, proof comments, proof reviewers, or Automated Workflow template. After you choose one of these 4 options, select the fields you want to include for that option.</td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -464,21 +446,7 @@ When you are configuring this module, the following fields display.
   <tr data-mc-conditions=""> 
    <td>Callback URL</td> 
    <td>Enter or map the URL where you want the PDF&nbsp;summary sent.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Proof versions</td> 
-    <td>Specify whether you want to include all versions of the proof or a specific one.<!--
-      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> I'm guessing on this</span>
-     --></td> 
-   </tr>
-  --> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Webhook URL</td> 
-    <td> <p>You can create a separate scenario that uses the Watch for PDF Summary trigger module with a new webhook to retrieve the URL.<!--
-       <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Is this right?</span>
-      --></p> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -499,7 +467,7 @@ You must have sufficient permissions to access the record in Workfront Proof in 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -513,7 +481,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Deadline</td> 
-   <td> <p>Specify the deadline you want for the proof that is created. Use the following date format:</p> <p>YYYY-MM-DD hh:mm</p> </td> 
+   <td> <p>Specify the deadline you want for the proof that is created. Use the following date format:</p> <p><code>YYYY-MM-DD hh:mm</code></p> </td> 
   </tr> 
   <tr> 
    <td>Default email notifications for subscribers</td> 
@@ -586,7 +554,7 @@ The module returns a hash ID for the uploaded file. You can map this information
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -597,16 +565,7 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td>Source file</td> 
    <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Name</td> 
-    <td>(Optional) Type a new file name for the uploaded file if you don't want to use the existing one.
-      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Is this correct?</span>
-      </span>
-    </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -629,7 +588,7 @@ You must have sufficient permissions to access the record in Workfront Proof in 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -664,7 +623,7 @@ When you are configuring this module, the following fields display.
 
 This search module lists all available workflow templates.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -683,49 +642,3 @@ This search module lists all available workflow templates.
  </tbody> 
 </table>
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p><strong>Build</strong></p> 
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">From legacy Fusion doc. I don't see this in Fusion 2</p>
-<p>This action module creates a new proof recipient or stage in an Automated Workflow.</p>
-<p>The module returns reviewer or stage information (see the examples below the following table). You can map this information in subsequent modules in the scenario.</p>
-<p>When you are configuring this module, the following fields display.</p>
-<table>
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection</td>
-<td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td>
-</tr>
-<tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<td> 
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-________
-</MadCap:conditionalText>
-</td>
-<td>Select an option to specify whether you are adding a reviewer or a stage in an Automated Workflow.</td>
-</tr>
-<tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<td>Reviewer</td>
-<td>If you are adding a reviewer, select
-<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(or is it fill out?)</span>
-the fields containing the reviewer information you want to use.</td>
-</tr>
-<tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<td>Stage</td>
-<td>If you are adding a stage, select
-<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(or is it fill out?)</span>
-the fields containing the stage information you want to use.</td>
-</tr>
-</tbody>
-</table>
-<div class="examples" data-mc-autonum="<b>Examples: </b>">
-<span class="autonumber"><span><b>Examples: </b></span></span>
-<ul>
-<li> <p>For a reviewer, the module returns data such as the following:</p><pre>{</pre><pre>"primary_decision_maker": true,</pre><pre>"email_notification": 1,</pre><pre>"role": 3,</pre><pre>"email": "name@company.com"</pre><pre>}</pre> </li>
-<li> <p>For a stage, the module returns data such as the following:</p><pre>{</pre><pre>"stage_id": 0,</pre><pre>"start_dependent_time": "13.00",</pre><pre>"start_dependent_stage_id": "2",</pre><pre>"deadline_time": "",</pre><pre>"name": "Stage Name",</pre><pre>"stage_one_decision_only": true,</pre><pre>"deadline_date": "01.01.2020",</pre><pre>"stage_reviewers": [],</pre><pre>"start_trigger": 1,</pre><pre>"stage_locking": 4,</pre><pre>"start_dependent_date": "01.02.2020",</pre><pre>"stage_private": true,</pre><pre>"deadline_calculate_on": 1</pre><pre>}</pre> </li>
-</ul>
-</div>
-</div>
--->
