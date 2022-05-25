@@ -12,7 +12,7 @@ You can mark a task or issue as Done if you are the task or issue assignee. When
 
 >[!NOTE]
 >
->You do&nbsp;not see the Done&nbsp;button unless you are one of the resources assigned to the task or the issue.
+>You do not see the Done button unless you are one of the resources assigned to the task or the issue.
 
 ## Access requirements
 
@@ -72,9 +72,9 @@ Depending on how many statuses are associated with the Done button or how many r
 
 ### Done button associated with one status {#done-button-associated-with-one-status}
 
-When the Done button is associated with one status and the work item is assigned to you only, the button reads,&nbsp;**Done**. When you click it,&nbsp;the status of the task or the issue is changed to the status associated with the Done button.
+When the Done button is associated with one status and the work item is assigned to you only, the button reads **Done**. When you click it, the status of the task or the issue is changed to the status associated with the Done button.
 
-![](assets/done-350x127.png)
+![Done button](assets/done.png)
 
 To understand which status is associated with the Done button, check the Team Settings of your Home Team for the Done Button section, as described in [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
@@ -82,9 +82,9 @@ If you are not assigned to a Home Team,&nbsp;the default status is chosen when c
 
 ### Done button associated with multiple statuses {#done-button-associated-with-multiple-statuses}
 
-When the Done button is associated with more than one status, the button shows the word&nbsp;**Done** which is followed by a drop-down menu. In this scenario, you cannot simply click Done. You must select a status from the drop-down menu. Select the status that best fits the completion of the work item. By doing this, you are changing the status of the work item.
+When the Done button is associated with more than one status, the button shows the word **Done** which is followed by a drop-down menu. In this scenario, you cannot simply click Done. You must select a status from the drop-down menu. Select the status that best fits the completion of the work item. By doing this, you are changing the status of the work item.
 
-To understand how you can associate multiple&nbsp;statuses with the Done button, see&nbsp; [Configure the Done button for tasks](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) and [Configure the Done button for issues](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
+To understand how you can associate multiple statuses with the Done button, see [Configure the Done button for tasks](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) and [Configure the Done button for issues](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
 
 <!--
 <img src="assets/marking-an-item-done-multiple-statuses-350x171.png" style="width: 350;height: 171;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -92,8 +92,8 @@ To understand how you can associate multiple&nbsp;statuses with the Done button,
 
 ### Done button for items&nbsp;assigned to multiple resources {#done-button-for-items-assigned-to-multiple-resources}
 
-When the task or the issue is assigned to more than one resource,&nbsp;the button shows the word **Done** which is followed by a drop-down menu. In the drop-down menu, you have the option to chose between **Done with my part** (which lets team members know you are complete with your portion of the task), or the status associated with the Done button (which&nbsp;completes the item). After you select **Done with my part**, the work item is removed from your Work List, but remains in the Work List of those still assigned to the work item.  
-If the Done button is&nbsp;associated with multiple statuses, they are&nbsp;listed under **Done with my part**.
+When the task or the issue is assigned to more than one resource, the button shows the word **Done** which is followed by a drop-down menu. In the drop-down menu, you have the option to chose between **Done with my part** (which lets team members know you are complete with your portion of the task), or the status associated with the Done button (which&nbsp;completes the item). After you select **Done with my part**, the work item is removed from your Work List, but remains in the Work List of those still assigned to the work item.  
+If the Done button is associated with multiple statuses, they are listed under **Done with my part**.
 
 >[!NOTE]
 >

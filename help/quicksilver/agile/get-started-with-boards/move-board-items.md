@@ -10,6 +10,8 @@ description: You can move a card to any column on the board, or copy a card.
 
 You can move a card to any column on the board, or copy a card.
 
+If you have column policies enabled for updating field values, the status, assignees, and tags could be updated automatically when you move a card from one column to another. For more information, see "Define column settings and policies" in the article [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+
 >[!NOTE]
 >
 >You can't move a card from one board to another board.
@@ -25,11 +27,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
