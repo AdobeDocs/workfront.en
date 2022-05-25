@@ -15,22 +15,21 @@ If you are an administrator, you have permission to view, modify, rename, publis
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> <!--
+  </tr>
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Adobe Workfront license*</td> 
     <td> <p>Plan, Work</p> </td> 
    </tr>
-  --> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration,</p>  </td> 
+  <td> <p>Workfront Fusion for Work Automation and Integration </p><p>Workfront Fusion for Work Automation </p>  </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -38,18 +37,14 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must be a Workfront Fusion administrator for your organization.</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-    --> </td> 
+   <td> <p>You must be a Workfront Fusion administrator for your organization.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**For information on Adobe Workfront Fusion licenses, see <a href="../../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Adobe Workfront Fusion licenses</a></p>
--->
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## View Workfront Fusion templates as an administrator
 
