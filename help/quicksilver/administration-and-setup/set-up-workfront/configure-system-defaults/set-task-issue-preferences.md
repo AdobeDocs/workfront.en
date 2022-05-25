@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Configure system-wide task and issue preferences
-description: Configure system-wide task and issue preferences
+description: You can configure system-wide preferences for tasks and issues. These preferences impact the way that your users create tasks and issues in Workfront.
 ---
 
 # Configure system-wide task and issue preferences
@@ -25,7 +25,7 @@ By default, these preferences are locked and group administrators cannot modify 
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<<table style="table-layout:auto">> 
  <col> 
  <col> 
  <tbody> 
@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
 
 ### New Task Defaults {#new-task-defaults}
 
-<table> 
+<<table style="table-layout:auto">> 
  <col> 
  <col> 
  <tbody> 
@@ -156,7 +156,7 @@ You must have the following access to perform the steps in this article:
 
 ### Actual Dates {#actual-dates}
 
-<table> 
+<<table style="table-layout:auto">> 
  <col> 
  <col> 
  <tbody> 
@@ -210,7 +210,7 @@ You must have the following access to perform the steps in this article:
 
 ### Access {#access}
 
-<table> 
+<<table style="table-layout:auto">> 
  <col> 
  <col> 
  <tbody> 
