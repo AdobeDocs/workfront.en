@@ -17,7 +17,7 @@ The Project activity visualization shows an aggregate view of activities on the 
 >The Activity by team visualization behaves similarly to this visualization, but the Activity by team visualization shows home team activity for all projects.  
 >For information on the Activity by team visualization, see [View the Activity by team visualization in Enhanced analytics](../enhanced-analytics/activity-by-team-overview.md).
 
-<!--WRITER bad link no Activity by Team.png
+<!--WRITER bad link; there is no Activity by Team.png
 [![](assets/project-activity-350x114.png)](../Resources/Images/Analytics/Activity by Team.png)
 -->
 
