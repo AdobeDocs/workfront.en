@@ -11,7 +11,6 @@ description: The procedure described on this page applies only to organizations 
 
 {{important-admin-console-onboard}}
 
-
 After you deactivate single sign-on (SSO) in Adobe Workfront, users need to log in using their Workfront credentials. These are the credentials the user originally set up. (If you need to change user credentials, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).)
 
 >[!NOTE]

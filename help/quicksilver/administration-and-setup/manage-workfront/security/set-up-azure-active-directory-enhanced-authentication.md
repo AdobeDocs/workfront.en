@@ -11,7 +11,6 @@ description: The procedure described on this page applies only to organizations 
 
 {{important-admin-console-onboard}}
 
-
 When Adobe Workfront expects a different signature method for the SAML response, you need to change which parts of the SAML token are digitally signed by Azure Active Directory (AD).
 
 ## Access requirements

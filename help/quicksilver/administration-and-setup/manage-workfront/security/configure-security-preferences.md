@@ -15,7 +15,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 {{important-admin-console-onboard}}
 
-
 As an Adobe Workfront administrator, you can configure security preferences for your Workfront system:
 
 * Access to Workfront from mobile apps and other integrated applications

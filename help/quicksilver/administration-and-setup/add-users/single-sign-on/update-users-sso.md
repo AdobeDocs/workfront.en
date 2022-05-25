@@ -11,7 +11,6 @@ description: The procedure described on this page applies only to organizations 
 
 {{important-admin-console-onboard}}
 
-
 When single sign-on (SSO) is enabled in your Adobe Workfront instance, you can log into Workfront with your SSO credentials.
 
 If you have an existing system that is already populated with users associated with SSO credentials, you can import the users' IDs into Workfront by importing a comma-separated values (CSV) file into Workfront.

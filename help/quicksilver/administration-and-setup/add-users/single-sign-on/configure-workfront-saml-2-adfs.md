@@ -11,7 +11,6 @@ description: The procedure described on this page applies only to organizations 
 
 {{important-admin-console-onboard}}
 
-
 As an Adobe Workfront administrator, you can integrate Workfront with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on while using Active Directory Federation Services (ADFS).
 
 This guide focuses on setting up ADFS without auto provisioning or attribute mappings. We recommend that you complete the setup and test it prior to setting up any auto provisioning.

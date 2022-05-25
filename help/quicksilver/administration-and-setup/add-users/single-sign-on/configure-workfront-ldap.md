@@ -15,7 +15,6 @@ description: Configure Adobe Workfront with LDAP
 
 {{important-admin-console-onboard}}
 
-
 >[!IMPORTANT]
 >
 >Lightweight Directory Access Protocol (LDAP) is now supported only in a limited capacity as a single sign-on (SSO) option; it will be removed from the product in 2020. We recommend moving to Security Assertion Markup Language (SAML) 2.0. For more information, see [Configure Adobe Workfront with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).

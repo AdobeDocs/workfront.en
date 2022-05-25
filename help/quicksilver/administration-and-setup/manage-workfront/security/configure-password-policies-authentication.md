@@ -11,7 +11,6 @@ description: The procedure described on this page applies only to organizations 
 
 {{important-admin-console-onboard}}
 
-
 As an Adobe Workfront administrator, you can configure password policy options to customize the authentication experience to your Workfront system.
 
 We recommend that you configure authentication preferences during the Workfront implementation and only occasionally revisit them afterward.

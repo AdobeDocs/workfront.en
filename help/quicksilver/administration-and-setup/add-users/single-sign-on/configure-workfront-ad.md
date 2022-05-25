@@ -19,7 +19,6 @@ description: Configure Adobe Workfront with Active Directory
 
 {{important-admin-console-onboard}}
 
-
 >[!IMPORTANT]
 >
 >Active Directory is now supported only in a limited capacity as a Single Sign-On (SSO) option; it will be removed from the product in 2020. If you want to continue to use Active Directory as an SSO option, see [Configure Adobe Workfront with SAML 2.0 using ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).
