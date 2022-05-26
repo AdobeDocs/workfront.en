@@ -4,13 +4,14 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Create a schedule
-description: "Alina: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ***** Linked to Editing Users, Editing Projects, Creating and managing groups"
+description: You can define your users' work weeks by using schedules. You can associate a schedule with a user or a project. This allows Workfront to calculate timelines and user availability.
 ---
 
 # Create a schedule
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Alina: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ***** Linked to Editing Users, Editing Projects, Creating and managing groups</p>
+**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
+**Linked to Editing Users, Editing Projects, Creating and managing groups</p>
 -->
 
 As an Adobe Workfront administrator, you can define your work week by using schedules. You can associate a schedule with a user or a project. This allows Workfront to calculate timelines and user availability.
@@ -52,8 +53,8 @@ You must have the following access to perform the steps in this article:
 ## Create a schedule
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
-1. Click**Schedules**.
-1. Click**New Schedule**.
+1. Click **Schedules**.
+1. Click **New Schedule**.
 1. Specify a name for the schedule.
 1. (Optional) Select **Default Schedule** to identify this schedule as your default.
 
@@ -65,43 +66,46 @@ You must have the following access to perform the steps in this article:
    >
    >You cannot designate a schedule as the default schedule if you are a group administrator. Only a Workfront administrator can designate a schedule as the default for the system.
 
-   ![](assets/new-schedule-350x174.png)
+   ![](assets/new-schedule.png)
 
 1. In the **Schedule** tab, select a daily schedule by dragging the blue outline across hour blocks to highlight them.
 
    We recommend that you select 8 one-hour blocks over a 9 hour period of time. This accommodates for lunch or other breaks.
 
-   ![](assets/new-schedule-with-exceptions-350x167.png)
+   ![](assets/new-schedule-with-exceptions.png)
 
 1. On the **Details** tab, specify the following information:
 
-   * **Group with Administration Access**: Indicate the group whose Group Administrators have the permission to edit this schedule.
-
-     >[!IMPORTANT]
-     >
-     >* If you are a group administrator creating a schedule, this field is mandatory.
-     >  A group administrator can create a schedule only if it is designated for a group or subgroup for which they are designated as the administrator.
-     >   
-     >  If you manage only one group, that group is selected in this field, by default. 
-     >   
-     >  If you manage several groups, you must select a group in this field before you can save the schedule.
-     >
-     >* If you are a Workfront administrator creating a schedule, this field is optional. When you create a schedule without associating it with a group, it is saved as a system-level schedule and cannot be managed by a group administrator of any group.
-     >   
-     >  Schedules assigned to accounts or projects are visible to all users who can edit these objects. This is true for both system-level and group-level schedules.  
-
-     Specifying a **Group with Administration Access** for a schedule does not assign the schedule to the users in the group. Specifying a **Group with Administration Access** only allows the Group Administrators in the group to edit, delete, and copy the schedule.  
-     Group Administrators cannot edit, delete, or copy system-level schedules. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+   <table style="table-layout:auto">
+    <tr>
+     <td>Group with Administration Access</td>
+     <td><p>Indicate the group whose administrators have the permission to edit this schedule.</p>
+     <p><b>IMPORTANT</b>:</p>
+      <ul>
+       <li>
+       <p>If you are a group administrator creating a schedule, this field is mandatory.</p>
+       <p>As a group administrator, you can create a schedule only if it is designated for a group or subgroup for which you are designated as the administrator.</p>
+       <p>If you manage only one group, that group is selected in this field, by default.</p>
+       <p>If you manage several groups, you must select a group in this field before you can save the schedule.</p></li>
+       <li>If you are a Workfront administrator creating a schedule, this field is optional. When you create a schedule without associating it with a group, it is saved as a system-level schedule and cannot be managed by a group administrator of any group.
+       <p>Schedules assigned to accounts or projects are visible to all users who can edit these objects. This is true for both system-level and group-level schedules.</p>
+       </li>
+       <p>Specifying a Group with Administration Access for a schedule does not assign the schedule to the users in the group; it only allows the group administrators in the group to edit, delete, and copy the schedule.</p>
+       <p>Group Administrators cannot edit, delete, or copy system-level schedules. For more information, see <a href="../../../administration-and-setup/add-users/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.
+    </td>
+    </tr>
+    <tr>
+     <td>Groups with View Access</td>
+     <td><p>Select the groups with View access which this schedule is visible to.</p>
+     <p>Only the users in the groups specified here can find the schedule in the drop-down menu when they are assigning it to users or projects.</p></tr>
+    <tr>
+     <td>Time Zone</td>
+     <td><p>Select the time zone for your schedule.</p>
+     <p>If you associate the schedule with a user, we recommend that the Time Zone of the schedule matches that of the user.For information about user's time zones, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile.
+     </td>
+    </tr>
+   </table>
    
-   * Select the **Groups with View Access** to which this schedule is visible to.
-
-     Only the users in the groups specified here can find the schedule in the drop-down menu when they are assigning it to users or projects. 
-   
-   * Select the **Time Zone** for your schedule.
-
-     >[!NOTE]
-     >
-     >If you associate the schedule with a user, we recommend that the Time Zone of the schedule matches that of the user.&nbsp;For information about user's time zones, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 1. On the **Exceptions** tab, specify the exceptions to the schedule.
 
@@ -113,11 +117,11 @@ You must have the following access to perform the steps in this article:
 
    Full or partial days can be excluded from the work schedule. Click the date to select it as an exception, then select the **All day** field to indicate whether the exception is a full day or not.
 
-   ![](assets/schedule-adding-an-all-day-exception-350x177.png)
+   ![](assets/schedule-adding-an-all-day-exception.png)
 
 1. Specify the start and end time for the partial day exceptions.
 
-   ![partial_day_exception_on_schedules.png](assets/partial-day-exception-on-schedules-350x285.png)
+   ![partial_day_exception_on_schedules.png](assets/partial-day-exception-on-schedules.png)
 
 1. Click **Save**, then click **Save Changes**.
 
