@@ -91,8 +91,8 @@ You must have the following access to perform the steps in this article:
        <p>Schedules assigned to accounts or projects are visible to all users who can edit these objects. This is true for both system-level and group-level schedules.</p>
        </li>
        <p>Specifying a Group with Administration Access for a schedule does not assign the schedule to the users in the group; it only allows the group administrators in the group to edit, delete, and copy the schedule.</p>
-       <p>Group Administrators cannot edit, delete, or copy system-level schedules. For more information, see <a href="../../../administration-and-setup/add-users/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.
-    </td>
+       <p>Group Administrators cannot edit, delete, or copy system-level schedules. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.
+     </td>
     </tr>
     <tr>
      <td>Groups with View Access</td>
