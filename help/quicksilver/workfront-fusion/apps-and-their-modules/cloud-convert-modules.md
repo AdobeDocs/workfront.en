@@ -5,12 +5,30 @@ draft: Probably
 ---
 # CloudConvert modules
 
-Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 In an Adobe Workfront Fusion scenario, you can automate workflows that use CloudConvert, as well as connect it to to multiple third-party applications and services. The CloudConvert modules allow you to monitor and manage jobs, tasks, and import and export files in your CloudConvert account.
 
-* [Connect CloudConvert to Workfront Fusion](#connect-cloudconvert-to-workfront-fusion) 
-* [CloudConvert modules and their fields](#cloudconvert-modules-and-their-fields) 
-* [Troubleshooting](#troubleshooting)
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## Connect CloudConvert to Workfront Fusion {#connect-cloudconvert-to-workfront-fusion}
 
@@ -35,12 +53,12 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [CloudConvert modules](#Common2) 
+* [Common tasks](#common-tasks) 
 * [Jobs](#jobs) 
 * [Tasks](#tasks) 
 * [Other](#other)
 
-### Common tasks
+### Common tasks {#common-tasks}
 
 * [Capture a Website](#capture-a-website) 
 * [CloudConvert modules](#Convert) 
@@ -56,7 +74,7 @@ You specify the URL of the website and other information, such as where you want
 
 The module returns the ID of the file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -95,7 +113,7 @@ The module returns the ID of the file and any associated fields, along with any 
 
 Converts a file into a selected output format.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -150,7 +168,7 @@ Converts a file into a selected output format.
 
 Enables you to add one or multiple files to the ZIP, RAR, 7Z, TAR, TAR.GZ or TAR.BZ2 archive.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -193,7 +211,7 @@ Enables you to add one or multiple files to the ZIP, RAR, 7Z, TAR, TAR.GZ or TAR
 
 Merges at least two files into one PDF. If input files are not PDFs, they are automatically converted to PDF.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -242,7 +260,7 @@ The module returns the ID of the  file and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -335,11 +353,8 @@ When you are configuring this module, the following fields display.
 
 This module creates a job. A job can be one or multiple tasks that are identified in the Name field and linked between each other using the Input field.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For further processing of the finished job created with the Create a Job module, please use the New Job Event (job.finished) module in another scenario.</p>
--->
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -393,7 +408,7 @@ This module deletes a job, including all tasks and data.
 >
 >Jobs are deleted automatically 24 hours after they have ended.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -412,7 +427,7 @@ This module deletes a job, including all tasks and data.
 
 This module retrieves job details.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -431,7 +446,7 @@ This module retrieves job details.
 
 This module retrieves all jobs that have been run in your account.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -503,7 +518,7 @@ Triggers when a job in your account or task is created, finishes, or fails.
 
 This module cancels a task that has a status of waiting or processing.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -526,7 +541,7 @@ Delete a task, including all data.
 >
 >Tasks are deleted automatically 24 hours after they have ended.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -545,7 +560,7 @@ Delete a task, including all data.
 
 This module retrieves file name and file data from the specified task.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -564,7 +579,7 @@ This module retrieves file name and file data from the specified task.
 
 This module retrieves task details.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -583,7 +598,7 @@ This module retrieves task details.
 
 This module retrieves all tasks in your account based on filter settings.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -614,7 +629,7 @@ This module retrieves all tasks in your account based on filter settings.
 
 This module creates a new task, based on the settings (payload) of another task.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -677,9 +692,9 @@ Allows you to perform a custom API call.
 
 The following API call returns all tasks from your CloudFront account:
 
-URL:
-<pre>/v2/tasks</pre>Method:
-<pre>GET</pre> 
+URL: `/v2/tasks`
+
+Method: `GET` 
 
 ![](assets/cloudconvert-api-example-input.png)
 
@@ -691,9 +706,9 @@ In our example, 6 tasks were returned:
 
 ## Troubleshooting {#troubleshooting}
 
-If the CloudConvert > Convert a File throws one of the following errors:
+See the following table for possible errors and their solutions:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <thead> 
@@ -726,30 +741,34 @@ If the CloudConvert > Convert a File throws one of the following errors:
  </tbody> 
 </table>
 
-**Example:** Converting a video from MOV to MP4 format
+## Example workflow for CloudConvert connector
 
-1. Visit [https://cloudconvert.com/video-converter](https://cloudconvert.com/video-converter)
-1. Click **Select File** and choose your sample MOV file.
-1. Click the dropdown, next to **Convert to** and choose **MP4**.
-
-1. Click the **wrench** icon.
-1. Configure the MP4 compression settings as you see fit.
-1. Click **Convert**.
-1. Once the conversion is complete, click **Download**.
-1. Review the converted video.
-1. Repeat steps 1 to 8 until you have found the optimal conversion settings for step 5.
-1. Visit [https://cloudconvert.com/api/v2/convert#convert-tasks](https://cloudconvert.com/api/v2/convert#convert-tasks)
-1. Choose **mov** for the **input_format** field.
-
-1. Choose **mp4** for the **output_format** field.
-
-1. A list of all possible parameters like video_codec, crf, etc. will appear.
-1. In Workfront Fusion 2.0, insert the **CloudConvert** > **Convert a File** module in your scenario.
-
-1. Open the module's settings.
-1. Configure the module as shown below:
-
-   ![](assets/cloudconvert-mp4-example.png)
-
-1. Make sure to include all the settings in the Conversion and engine specific options field: for each setting from step 5, locate the corresponding parameter from step 13 and its corresponding value.
+>[!INFO]
+>
+>**Example:** Converting a video from MOV to MP4 format
+>
+>1. Visit [https://cloudconvert.com/video-converter](https://>cloudconvert.com/video-converter)
+>1. Click **Select File** and choose your sample MOV file.
+>1. Click the dropdown, next to **Convert to** and choose **MP4**.
+>
+>1. Click the **wrench** icon.
+>1. Configure the MP4 compression settings as you see fit.
+>1. Click **Convert**.
+>1. Once the conversion is complete, click **Download**.
+>1. Review the converted video.
+>1. Repeat steps 1 to 8 until you have found the optimal conversion settings for step 5.
+>1. Visit [https://cloudconvert.com/api/v2/convert#convert-tasks](https://cloudconvert.com/api/v2/convert#convert-tasks)
+>1. Choose **mov** for the **input_format** field.
+>
+>1. Choose **mp4** for the **output_format** field.
+>
+>1. A list of all possible parameters like video_codec, crf, etc. will appear.
+>1. In Workfront Fusion 2.0, insert the **CloudConvert** > **Convert a File** module in your scenario.
+>
+>1. Open the module's settings.
+>1. Configure the module as shown below:
+>
+>   ![](assets/cloudconvert-mp4-example.png)
+>
+>1. Make sure to include all the settings in the Conversion and engine specific options field: for each setting from step 5, locate the corresponding parameter from step 13 and its corresponding value.
 

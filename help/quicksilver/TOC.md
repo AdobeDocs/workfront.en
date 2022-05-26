@@ -75,6 +75,7 @@ user-guide-description: Workfront
       * [21.1 Project Management enhancements](product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md)
       * [21.1 Enhanced analytics improvements](product-announcements/product-releases/21.1-release-activity/21-1-enhanced-analytics-improvements.md)
       * [21.1 Integration enhancements](product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md)
+      * [21.1 Mobile enhancements](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)

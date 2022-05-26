@@ -13,7 +13,7 @@ For a list of all changes available with the 21.1 release, see [21.1 release ove
 
 We've added breadcrumb navigation to the Workfront mobile app. Now, you can use this feature to navigate to parent work items within a project.
 
-## Rich text supported in custom forms on the Workfront app
+## Rich text supported in custom forms on the Workfront app 
 
 You can now use rich text formatting in custom form text fields in the Workfront mobile app.
 
