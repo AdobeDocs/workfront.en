@@ -19,7 +19,7 @@ If you need instructions on creating a scenario, see [Create a scenario in Adobe
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -38,15 +38,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-    </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -74,37 +66,18 @@ If you see the map button above a field or function, you can use it to set varia
 
 #### Watch records (scheduled)
 
-This polling (scheduled) trigger module executes a scenario when a record in a selected object has been created
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-or updated
-</MadCap:conditionalText>
--->
-
-since the last scheduled run in Azure Active Directory. It also returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses.You can map this information in subsequent modules in the scenario.
+This polling (scheduled) trigger module executes a scenario when a record in a selected object has been created since the last scheduled run in Azure Active Directory. It also returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses.You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
    <td> <p>For instructions about connecting your Azure Active Directory account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Filter</td> 
-    <td> <p>Specify whether you want to include
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-         New Records Only, Updated Records Only, or both
-       </MadCap:conditionalText>
-       New and Updated Records.
-       <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Only "New or updated records" is visible.</span>
-      </p> </td> 
-   </tr>
-  --> 
+  </tr> 
   <tr> 
    <td role="rowheader">Type</td> 
    <td>Select whether you want to watch User records or Group records.</td> 
@@ -134,7 +107,7 @@ You must have sufficient permissions to access the record in Azure Active Direct
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -167,7 +140,7 @@ The module returns the ID of the  record and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -192,7 +165,7 @@ This action module lets you make a custom authenticated call to the Azure Active
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -237,7 +210,7 @@ This search module looks for records in an object in Azure Active Directory that
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -264,7 +237,7 @@ When you are configuring this module, the following fields display.
 
 This search module looks for records in Azure AD that have been created, updated, or deleted.You can map this information in subsequent modules in the scenario.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 

@@ -10,13 +10,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect an archive, s
 
 # Archive modules
 
-In a Adobe Workfront Fusion scenario, you can connect an archive, such as a zipped file, to multiple third-party applications and services.
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-For example, you can configure a scenario that
-</MadCap:conditionalText>
--->
+In a Adobe Workfront Fusion scenario, you can use an archive, such as a zipped file, in your scenario, allowing you to use it in your automations or integrations.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -39,20 +33,22 @@ This action module extracts a file you identify from an archive.
 
 The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td>Source file</td> 
-   <td> <p> Select the file you want to extract. This file can be mapped from a previous module (such as Dropbox, Gmail, and so on.)</p> <p> <img src="assets/extract-an-archive-350x116.gif" style="width: 350;height: 116;"> </p> </td> 
+   <td> <p> Select the file you want to extract. This file can be mapped from a previous module (such as the Workfront > Download a document module).</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Example:** Get the ZIP file from the defined Dropbox folder (for example, Archives), extract it using the Archive module and send extracted files to the desired email address as attachments with the Email or Gmail module.
-
-![](assets/example-dropbox-350x134.png)
+>[!INFO]
+>
+>**Example:** Get the ZIP file from the defined Dropbox folder (for example, Archives), extract it using the Archive module and send extracted files to the desired email address as attachments with the Email or Gmail module.
+>
+>![](assets/example-dropbox-350x134.png)
 
 ## Create an archive {#create-an-archive}
 
@@ -60,7 +56,7 @@ This aggregator module adds the desired files to a ZIP or TAR archive.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -95,15 +91,17 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-**Example:** Watch incoming emails using the Gmail > Watch emails module. If an email is received, its attachments are iterated into individual bundles then archived to the ZIP file and saved to the defined Dropbox folder.
-
-![](assets/example-gmail-350x102.png)
+>[!INFO]
+>
+>**Example:** Watch incoming emails using the Gmail > Watch emails module. If an email is received, its attachments are iterated into individual bundles then archived to the ZIP file and saved to the defined Dropbox folder.
+>
+>![](assets/example-gmail-350x102.png)
 
 ## Inflate {#inflate}
 
 This transformer module decompresses binary data using an inflation algorithm.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -118,7 +116,7 @@ This transformer module decompresses binary data using an inflation algorithm.
 
 This transformer module compresses binary data using a deflation algorithm.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 

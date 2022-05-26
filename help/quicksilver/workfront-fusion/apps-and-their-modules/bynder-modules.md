@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -40,16 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -87,15 +78,9 @@ For instructions for creating an app in Bynder, see [Oauth 2.0 Apps](https://dev
 
 >[!NOTE]
 >
->When creating the app in Bynder, enter the following as the>
->```>
->redirect uri
->```>
->: 
+>When creating the app in Bynder, enter the following as the `redirect uri`: 
 >
->```>
->https://app.workfrontfusion.com/oauth/cb/workfront-bynder
->```>
+>`https://app.workfrontfusion.com/oauth/cb/workfront-bynder`
 
 ## Bynder modules and their fields
 
@@ -129,7 +114,7 @@ When you are configuring this module, the following fields display.
 
 The module returns a status code, along with the headers and body of the API&nbsp;call.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -167,7 +152,7 @@ The module returns a status code, along with the headers and body of the API&nbs
 
 This action module reads the metadata of an asset.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -190,7 +175,7 @@ This action module reads the metadata of an asset.
 
 This action module updates the metadata of an existing asset.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -217,7 +202,7 @@ This action module updates the metadata of an existing asset.
 
 This action module adds one or more assets to a collection.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -240,7 +225,7 @@ This action module adds one or more assets to a collection.
 
 This action module removes one or more assets from a collection.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -263,7 +248,7 @@ This action module removes one or more assets from a collection.
 
 Add a tag to one or more assets
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -286,7 +271,7 @@ Add a tag to one or more assets
 
 Remove a tag from one or more assets
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -309,7 +294,7 @@ Remove a tag from one or more assets
 
 This action module downloads a single asset.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -332,7 +317,7 @@ This action module downloads a single asset.
 
 This action module uploads a single asset.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -364,7 +349,7 @@ This action module uploads a single asset.
 
 This search module retrieves all items of a specific type.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -396,7 +381,7 @@ This search module retrieves all items of a specific type.
 
 This search module searches for assets base on criteria you supply.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -442,7 +427,7 @@ This search module searches for assets base on criteria you supply.
 
 This trigger module starts a scenario when an asset is created or updated.
 
-<table> 
+<table style="table-layout:auto">
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
