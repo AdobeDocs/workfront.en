@@ -3,7 +3,7 @@ filename: add-tags
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Add tags
-description: You can add tags to cards to visually show that they are similar. Then you can filter by those tags to display related cards. Tags are not shared between boards.
+description: You can add tags to cards to visually show that they are similar. Then you can filter by those tags to display related cards.
 ---
 
 # Add tags
@@ -21,11 +21,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 

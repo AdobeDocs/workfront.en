@@ -8,7 +8,7 @@ description: The organizational chart feature allows you to to view the organiza
 
 # View the organizational chart
 
-The organizational chart feature allows you to to view the organizational chart associated with a particular Adobe Workfront user.&nbsp;Organizational charts are a great way to visualize the structure of a specific department.
+The organizational chart feature allows you to to view the organizational chart associated with a particular Adobe Workfront user. Organizational charts are a great way to visualize the structure of a specific department.
 
 ## Access requirements
 
@@ -21,11 +21,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Review or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -38,5 +38,5 @@ You must have the following access to perform the steps in this article:
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture.
 
 1. In the left panel, click **Org Chart**.  
-   ![](assets/org-chart-350x214.png)
+   ![Organization chart](assets/org-chart-350x214.png)
 

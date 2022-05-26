@@ -10,11 +10,12 @@ description: You can add a card on your board that is connected to existing task
 
 You can add a card on your board that is connected to existing tasks and issues in Workfront.
 
-When the following information is updated in one location, it is automatically updated in the other location:
+When the following information is updated for the card in one location, it is automatically updated in the other location:
 
 * Name
 * Description
 * Assignees
+* Status
 
 ## Access requirements
 
@@ -97,7 +98,8 @@ You must have the following access to perform the steps in this article:
   </tr>
   <tr>
    <td role="rowheader"><strong>Status</strong></td>
-   <td><p>Select a status for the card. If you click <strong>Mark Complete</strong> at the top of the card, the status automatically changes to Complete.</p></td>
+   <td><p>Select a status for the card. The defaults are New, In Progress, and Complete, but any custom statuses defined for the item in Workfront are also available.</p>
+   <p>If you click <strong>Mark Complete</strong> at the top of the card, the status automatically changes to Complete.</p></td>
   </tr>
   <tr>
    <td role="rowheader"><strong>Due date</strong></td>
