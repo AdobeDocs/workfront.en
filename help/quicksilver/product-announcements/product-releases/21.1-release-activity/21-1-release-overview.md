@@ -238,7 +238,6 @@ For specific release dates and times for each cluster, see the
 
 ### Mobile enhancements {#mobile-enhancements}
 
-<!--WRITER
 <table> 
  <col> 
  <col> 
