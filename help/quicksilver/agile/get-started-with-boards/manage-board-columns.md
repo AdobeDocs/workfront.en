@@ -77,6 +77,9 @@ You must have the following access to perform the steps in this article:
    The Settings area appears. The **Column name** lets you know which column you are defining settings for.
 
 1. Enable the **Update field values automatically** policy to change certain field values automatically when a card is moved to this column.
+
+   ![Column settings and policies](assets/boards-column-policies-enabled.png)
+
 1. (Optional) Set a value for the card status:
 
    1. Select the **Status** check box.
@@ -88,19 +91,23 @@ You must have the following access to perform the steps in this article:
    1. Select the **Assignees** check box.
    1. Select an action.
 
-      * **Add on assignees:** The assignee you select is added to the existing list of assignees on a card when it is moved to this column.
-      * **Override assignees:** The assignee you select overrides all other assignees, and becomes the only assignee on a card when it is moved to this column.
+      * **Add on assignees:** The assignees you select are added to the existing list of assignees on a card when it is moved to this column.
+      * **Override assignees:** The assignees you select override all other assignees, and become the only assignees on a card when it is moved to this column.
 
-   1. Select the assignee from the drop-down list. Only members on the board are available to choose from. For more information, see [Add or remove members from a board](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+   1. Select the assignees from the drop-down list. Only members on the board are available to choose from. For more information, see [Add or remove members from a board](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+
+      ![Assignees for column](assets/boards-column-assignees.png)
 
 1. (Optional) Set a value for the card tags:
 
    1. Select the **Cards** check box.
    1. Select an action.
 
-      * **Add on tags:** The tag you select is added to the existing list of tags on a card when it is moved to this column.
-      * **Override tags:** The tag you select overrides all other tags, and becomes the only tag on a card when it is moved to this column.
+      * **Add on tags:** The tags you select are added to the existing list of tags on a card when it is moved to this column.
+      * **Override tags:** The tags you select override all other tags, and become the only tags on a card when it is moved to this column.
 
-   1. Select the tag from the drop-down list. Only tags already created in the Tag Manager are available to choose from. For information on adding new tags, see [Add tags](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+   1. Select the tags from the drop-down list. Only tags already created in the Tag Manager are available to choose from. For information on adding new tags, see [Add tags](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+
+      ![Tags for column](assets/boards-column-tags.png)
 
 1. Click **Close** to exit the Settings area and view the column and its cards.

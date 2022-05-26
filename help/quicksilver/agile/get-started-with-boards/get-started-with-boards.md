@@ -3,7 +3,7 @@ filename: _get-started-with-boards
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Get started with boards in Adobe Workfront
-description: This section contains the following articles - EDIT ME.
+description: Review these articles to learn how to use boards in Workfront.
 ---
 
 # Get started with boards in Adobe Workfront

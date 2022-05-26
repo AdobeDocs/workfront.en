@@ -63,6 +63,8 @@ You must have the following access to perform the steps in this article:
 1. Access the board.
 1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the Statuses section, and select the status types you want to see.
 
+   You can also hide completed cards.
+
    ![Filter by status](assets/boards-filter-by-status.png)
 
 ## Filter a board by due date

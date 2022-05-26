@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting;reference
 product-area: user-management
 navigation-topic: people-teams-and-groups
 title: Tips, Tricks, and Troubleshooting for People, Teams, and Groups
-description: This section contains the following articles - EDIT ME.
+description: Review these article for troubleshooting tips on People, Teams, and Groups.
 ---
 
 # Tips, Tricks, and Troubleshooting for People, Teams, and Groups

@@ -1,11 +1,14 @@
 ---
+filename: send-direct-messages-to-other-users
+content-type: reference
+product-area: user-management
+navigation-topic: people-teams-and-groups
 title: Send direct messages to other users
-description: Send direct messages to other users
-draft: Probably
+description: Adobe Workfront enables you to quickly and easily send messages that are unrelated to any work item directly to other Workfront users.
 ---
 # Send direct messages to other users
 
-Adobe Workfront enables you to quickly and easily send messages that are unrelated to any work item directly&nbsp;to other Workfront users. Messages sent as described in this section appear in the Updates tab on the user's home&nbsp;page and are visible to all users. For additional information on updates, see [Update work items and view updates](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+Adobe Workfront enables you to quickly and easily send messages that are unrelated to any work item directly to other Workfront users. Messages sent as described in this section appear in the Updates tab on the user's home page and are visible to all users. For additional information on updates, see [Update work items and view updates](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 The user you are sending the message to receives the following types of notifications when you send a message as described in this section:
 
@@ -25,11 +28,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Review or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -44,15 +47,15 @@ You must have the following access to perform the steps in this article:
 
    * Click the linked name of the user as it appears anywhere in the Workfront interface. User names are displayed in many areas of the Workfront interface, such as in a comment made by the user.
 
-1. On the **Updates**&nbsp;tab, click in the text box field.
+1. On the **Updates** tab, click in the text box field.
 
    ![Message user on the Updates tab](assets/message-user-nwe-350x166.png)
 
 1. Type your message.
-1. (Optional) Click in the **Notify**&nbsp;field, then begin typing the name of another user you want to include in this message.  
+1. (Optional) Click in the **Notify** field, then begin typing the name of another user you want to include in this message.  
 
 1. (Optional) Select **Private to my company** to make this message visible only to other users in your company.  
 
 1. Click **Update.** 
-   The message is posted at the top of the list of messages on the **Updates**&nbsp;tab on the user's home page.
+   The message is posted at the top of the list of messages on the **Updates** tab on the user's home page.
 
