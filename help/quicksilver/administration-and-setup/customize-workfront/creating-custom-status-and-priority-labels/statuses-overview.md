@@ -26,7 +26,7 @@ Workfront comes with 9 project statuses, 3 task statuses, and 10 issue statuses.
 
 ## Custom statuses
 
-In addition to the default statuses that come with Workfront, a Workfront administrator can add custom project, task, and issue statuses to match the needs in your organization. You can create system-wide statuses used by everyone in your Workfront instance, or group statuses used by only certain groups. For more information, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+In addition to the default statuses that come with Workfront, a Workfront administrator can add custom project, task, and issue statuses to match the needs in your organization. You can create system-level statuses used by everyone in your Workfront instance, or group-level statuses used by only certain groups. For more information, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Group statuses
 
