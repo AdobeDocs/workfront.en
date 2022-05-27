@@ -11,10 +11,11 @@ description: You can associate hour types with your hour entries. Hour types are
 # Manage hour types
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **Linked to Creating Billing Record</p>
+**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
+**Linked to Creating Billing Record</p>
 -->
 
-You can associate hour types with your hour entries. Hour types are labels you use to define your hour entries. &nbsp;
+You can associate hour types with your hour entries. Hour types are labels you use to define your hour entries.  
 
 There are two sets of hour types:
 
@@ -32,9 +33,9 @@ There are two sets of hour types:
 
   >[!NOTE]
   >
-  >If you enable&nbsp;any project-specific hour types in your Workfront system, at least one project-specific hour type must be enabled on each project in your system. You cannot enable a project-specific hour type at the system level, and have no project-specific hour types available at the project level.
+  >If you enable any project-specific hour types in your Workfront system, at least one project-specific hour type must be enabled on each project in your system. You cannot enable a project-specific hour type at the system level, and have no project-specific hour types available at the project level.
 
-* **General Hour Types**: General hours cannot be associated with a project, task, or issue, and are logged directly into a timesheet. For more information about&nbsp;logging time, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* **General Hour Types**: General hours cannot be associated with a project, task, or issue, and are logged directly into a timesheet. For more information about logging time, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Access requirements
 
@@ -61,16 +62,16 @@ You must have the following access to perform the steps in this article:
 
 ## Built-in hour types
 
-Workfront comes with a set of built-in hour types. These hour types cannot be edited and cannot be hidden.&nbsp;
+Workfront comes with a set of built-in hour types. These hour types cannot be edited and cannot be hidden. 
 
-The hour types that come with Workfront are:&nbsp;
+The hour types that come with Workfront are: 
 
-* **Sick Time**: A&nbsp;general hour type that&nbsp;cannot be associated with hour entries on a project, task, or issue.
-* **Vacation Time**: A&nbsp;general hour type that&nbsp;cannot be associated with hour entries on a project, task, or issue.
-* **General Overhead**: A&nbsp;general hour type that&nbsp;cannot be associated with hour entries on a project, task, or issue. However, it can count as revenue in your project planning process.&nbsp;
+* **Sick Time**: A general hour type that cannot be associated with hour entries on a project, task, or issue.
+* **Vacation Time**: A general hour type that cannot be associated with hour entries on a project, task, or issue.
+* **General Overhead**: A general hour type that cannot be associated with hour entries on a project, task, or issue. However, it can count as revenue in your project planning process. 
 * **Project Time**: A general hour type that can be associated only with hour entries on a project.
-* **Task Time**: A general hour type that&nbsp;can be associated only with hour entries on&nbsp;a task.
-* **Issue Time**:A general hour type that can be associated only with hour entries on&nbsp;an issue.&nbsp;
+* **Task Time**: A general hour type that can be associated only with hour entries on a task.
+* **Issue Time**:A general hour type that can be associated only with hour entries on an issue. 
 
 ## Create hour types
 
@@ -80,9 +81,9 @@ To create new hour types:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
-1. Click **Timesheet & Hours** > **Hour Types**.&nbsp;
+1. Click **Timesheet & Hours** > **Hour Types**. 
 
-1. Click**New Hour Type.**
+1. Click **New Hour Type.**
 1. Specify the following information on the **New Hour Type** form:
 
    <table style="table-layout:auto"> 
@@ -99,22 +100,22 @@ To create new hour types:
      </tr> 
      <tr> 
       <td role="rowheader">Scope</td> 
-      <td> <p>Define whether the hour type is a general or project-specific hour type by selecting the correct scope in the drop-down menu.</p> <p>General hour types are visible only in timesheets and cannot be associated with projects, tasks, or issues.</p> <p><b>IMPORTANT</b>: If you have a custom Hour Type that is&nbsp;Project Specific, then you change it to&nbsp;General, all the existing Task, Issues and Project hours are set to their system default types.</p> </td> 
+      <td> <p>Define whether the hour type is a general or project-specific hour type by selecting the correct scope in the drop-down menu.</p> <p>General hour types are visible only in timesheets and cannot be associated with projects, tasks, or issues.</p> <p><b>IMPORTANT</b>: If you have a custom Hour Type that is Project Specific, then you change it to General, all the existing Task, Issues and Project hours are set to their system default types.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Count As Revenue</td> 
-      <td>Select this option if you want&nbsp;the hour entry associated with this hour type to affect your revenue calculations.</td> 
+      <td>Select this option if you want the hour entry associated with this hour type to affect your revenue calculations.</td> 
      </tr> 
     </tbody> 
    </table>
 
-   **Count As Revenue**:Select this option if you want&nbsp;the hour entry associated with this hour type to affect your revenue calculations.&nbsp;
+   **Count As Revenue**: Select this option if you want the hour entry associated with this hour type to affect your revenue calculations. 
 
 1. Click **Create Hour Type.**
 
 ## Deactivate hour types
 
-If hour types become obsolete and you no longer want users to associate their hour entries with them, you can deactivate the hour types.&nbsp;
+If hour types become obsolete and you no longer want users to associate their hour entries with them, you can deactivate the hour types. 
 
 Deactivating hour types hides the hour types from anywhere in Workfront where hour types are visible.
 
@@ -122,8 +123,9 @@ To deactivate an hour type:
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
-1. Expand&nbsp;**Timesheet & Hours Preferences**, then click**Hour Types**.&nbsp;
+1. Expand **Timesheet & Hours Preferences**, then click **Hour Types**.
 
 1. Select the hour type you want to deactivate.
-1. Click **Deactivate**.&nbsp;
+
+1. Click **Deactivate**.
 

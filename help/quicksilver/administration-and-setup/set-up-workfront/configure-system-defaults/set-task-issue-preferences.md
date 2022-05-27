@@ -25,7 +25,7 @@ By default, these preferences are locked and group administrators cannot modify 
 
 You must have the following access to perform the steps in this article: 
 
-<<table style="table-layout:auto">> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
 
 ### New Task Defaults {#new-task-defaults}
 
-<<table style="table-layout:auto">> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -156,7 +156,7 @@ You must have the following access to perform the steps in this article:
 
 ### Actual Dates {#actual-dates}
 
-<<table style="table-layout:auto">> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -210,7 +210,7 @@ You must have the following access to perform the steps in this article:
 
 ### Access {#access}
 
-<<table style="table-layout:auto">> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
