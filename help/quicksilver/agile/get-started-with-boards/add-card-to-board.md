@@ -121,6 +121,8 @@ You can add ad hoc cards with only a title to quickly populate your board.
 
 1. In the Card Details box, update the information as needed, and click **Close** to return to the board.
 
+   If you have column policies enabled for updating field values, changing the status on the card automatically moves the card to the corresponding column. For more information, see "Define column settings and policies" in the article [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+
 ## Complete checklist items {#complete-checklist}
 
 1. Access the board and locate the card the checklist is on.

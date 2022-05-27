@@ -99,6 +99,7 @@ You must have the following access to perform the steps in this article:
   <tr>
    <td role="rowheader"><strong>Status</strong></td>
    <td><p>Select a status for the card. The defaults are New, In Progress, and Complete, but any custom statuses defined for the item in Workfront are also available.</p>
+   <p>If you have column policies enabled for updating field values, changing the status on the card automatically moves the card to the corresponding column. For more information, see "Define column settings and policies" in the article <a href="/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">Manage board columns</a>.</p>
    <p>If you click <strong>Mark Complete</strong> at the top of the card, the status automatically changes to Complete.</p></td>
   </tr>
   <tr>
