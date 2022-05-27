@@ -13,7 +13,6 @@ This page provides information about functionality for Adobe Workfront Goals in 
 
 For a list of all changes available for all areas of Workfront at this point in the 21.1 release cycle, see [21.1 release overview](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
-<!-- WRITER
 <table> 
  <col> 
  <col> 
