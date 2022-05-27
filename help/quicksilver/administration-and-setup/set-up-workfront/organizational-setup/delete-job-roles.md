@@ -9,7 +9,9 @@ description: You can delete job roles that your organization no longer uses. We 
 
 # Delete job roles
 
-You can delete job roles that your organization no longer uses. We recommend that you do not delete job roles if they have been associated with work items in the past. ```To keep all your historical information about work assignments, we recommend that you deactivate roles, rather than delete them when they become obsolete. For information about deactivating roles, see [Deactivate job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).```
+You can delete job roles that your organization no longer uses. We recommend that you do not delete job roles if they have been associated with work items in the past.
+
+To keep all your historical information about work assignments, we recommend that you deactivate roles, rather than delete them when they become obsolete. For information about deactivating roles, see [Deactivate job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 
 ## Access requirements
 
@@ -44,17 +46,17 @@ You must have the following:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click**Job Roles.**
+1. Click **Job Roles.**
 1. Select the job role that you want to delete, then click **Delete.**
-1. If there are any objects (users, tasks, issues) that&nbsp;are assigned to the job role, do one of the following:
+1. If there are any objects (users, tasks, issues) that are assigned to the job role, do one of the following:
 
    * **Replace the job role with a different job role:** Select the new job role from the drop-down list.
 
-     Any current and past resource allocations that are&nbsp;associated with the deleted job role are transferred to the job role that you select.
+     Any current and past resource allocations that are associated with the deleted job role are transferred to the job role that you select.
 
-     Users who have only one job role assigned to&nbsp;them are reassigned to the job role that you select; users who have a secondary job role assigned to them are not reassigned to the job role that you select.
+     Users who have only one job role assigned to them are reassigned to the job role that you select; users who have a secondary job role assigned to them are not reassigned to the job role that you select.
    
-   * **Delete the job role and its resource allocation:** Select**None**&nbsp;from the drop-down list.
+   * **Delete the job role and its resource allocation:** Select**None** from the drop-down list.
 
      >[!IMPORTANT]
      >

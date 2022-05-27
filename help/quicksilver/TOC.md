@@ -329,10 +329,10 @@ user-guide-description: Workfront
     * Organizational setup {#organization-setup}
       * [Organizational setup](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
       * [Manage companies](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
-      * [Company activation](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
       * [Manage company memberships](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
+      * [Deactivate or reactivate a company](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
       * [Job role](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
-      * [Manage job roles](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
+      * [Create and manage job roles](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
       * [Delete job roles](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
       * [Deactivate job roles](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
       * [Override job role billing rates](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
