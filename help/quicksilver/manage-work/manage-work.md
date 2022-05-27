@@ -4,7 +4,7 @@ content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
 title: Manage work
-description: This section contains the following subsections - EDIT ME.
+description: This section contains the following subsections - EDIT ME. 
 ---
 
 # Manage work
