@@ -134,6 +134,7 @@ user-guide-description: Workfront
         * [Adobe Workfront Goals 21.2 release activity: Week of February 15, 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-feb-15.md)
       * Goals with 21.1 release {#goals-21-1}
         * [Adobe Workfront Goals with the 21.1 release](product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
+        * [Adobe Workfront Goals 21.1 release activity: Week of January 11, 2021](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-jan-11.md)
         * [Adobe Workfront Goals 21.1 release activity: Week of December 14, 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-dec-14.md)
         * [Adobe Workfront Goals 21.1 release activity: Week of November 30, 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-30.md)
         * [Adobe Workfront Goals 21.1 release activity: Week of November 16, 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-16.md)
