@@ -86,6 +86,18 @@ You must have the following access to perform the steps in this article:
 
    1. Select the status to apply to a card when it is moved to this column.
 
+      ![Status for columns](assets/boards-column-status.png)
+
+      The status translation options for connected cards are also displayed. (Status translation does not apply to ad hoc cards.) These options determine the status applied to the task or issue in Workfront when a connected card is moved to this column.
+
+   1. To change the default status translation selections, click the **Edit** icon ![Edit icon](assets/edit-icon-spectrum.png).
+   1. Select a status for tasks and a status for issues. Only the default Workfront statuses are available, not custom statuses.  
+
+   >[!NOTE]
+   >
+   >If you do use custom statuses in Workfront, the first time you move a connected card into this column you will be prompted to choose a status. For example, if the connected project has multiple status types that all correspond to Completed, you must choose which status to use in Workfront. You can set your choice as the default so you don't have to make the selection every time you move a card to the column.
+   >For more information on statuses, see [Statuses overview](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+
 1. (Optional) Set a value for the card assignees:
 
    1. Select the **Assignees** check box.
