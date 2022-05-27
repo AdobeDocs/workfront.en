@@ -317,13 +317,12 @@ user-guide-description: Workfront
       * [Create a scorecard](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
       * [Project timeline recalculations](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
       * [Custom quarters for projects](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
-    * Configure timesheets and schedules {#configure-timesheets-schedules}
-      * [Configure timesheets and schedules](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
+    * Configure schedules and timesheet preferences {#configure-timesheets-schedules}
+      * [Configure schedules and timesheet preferences](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
       * [Schedules overview](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
       * [Configure log time types](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-users-log-time-in-hrs-or-days.md)
       * [Timesheet and hour preferences](administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
       * [Manage hour types](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
-      * [Manage timesheets](administration-and-setup/set-up-workfront/configure-timesheets-schedules/manage-timesheets-for-all-users.md)
       * [Create a schedule](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
     * Organizational setup {#organization-setup}
       * [Organizational setup](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
