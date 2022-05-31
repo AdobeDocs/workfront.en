@@ -114,13 +114,12 @@ Your Microsoft Teams team owner must install Workfront for Microsoft Teams befor
 
    You can view the following information about your submitted requests in the My submitted requests area of the Requests tab:
 
-   | Subject |The name of the request |
-   |---|---|
-   | Reference number |&nbsp; |
-   | Request type |The name of the request queue where you submitted the request |
-   | Status |&nbsp; |
-   | Submitted on |The date when you submitted the request |
-   | Assigned to |&nbsp; |
+   * **Subject**: The name of the request
+   * **Reference number**
+   * **Request type**: The name of the request queue where you submitted the request
+   * **Status**
+   * **Submitted on**: The date when you submitted the request 
+   * **Assigned to** 
 
 1. (Optional) Click the header of any of the columns in the list to sort the list by that column. By default, Workfront sorts the list by the Submitted on date, starting with the most recently submitted request.
 

@@ -64,10 +64,25 @@ You must have the following access to use the functionality in this article:
 
    The options displayed depend on the possibilities of a given service. They may include the following:
 
-   | From now on (default) |Retrieves all bundles added or updated (depending on settings) from now on |
-   |---|---|
-   | From after a specific date |Retrieves all bundles added or updated (depending on settings) after a specified date/time |
-   | With ID greater than or equal to a specific value |Retrieves all bundles with an ID greater than or equal to a specified ID |
-   | All bundles |Retrieves all available bundles |
-   | Select the first bundle |Allows you to select the first bundle from which the retrieval of bundles is to start |
-
+    <table style="table-layout:auto">
+        <tr>
+            <td>From now on (default)</td>
+            <td>Retrieves all bundles added or updated (depending on settings) from now on</td>
+        </tr>
+        <tr>
+            <td>From after a specific date</td>
+            <td>Retrieves all bundles added or updated (depending on settings) after a specified date/time</td>
+        </tr>
+        <tr>
+            <td>With ID greater than or equal to a specific value</td>
+            <td>Retrieves all bundles with an ID greater than or equal to a specified ID</td> 
+        </tr>
+        <tr>
+            <td>All bundles</td>
+            <td>Retrieves all available bundles</td>
+        </tr>
+        <tr>
+            <td>Select the first bundle</td>
+            <td>Allows you to select the first bundle from which the retrieval of bundles is to start</td>
+        </tr>
+   </table>

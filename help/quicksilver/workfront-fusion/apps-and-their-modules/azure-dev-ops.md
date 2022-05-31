@@ -64,9 +64,16 @@ To use Azure DevOps modules, you must have an Azure DevOps account.
 
 1. Fill out the following fields:
 
-   | Connection name |Enter a name for the connection that you are creating. |
-   |---|---|
-   | Organization |Enter the name of the organization under which you created your Azure DevOps application. |
+    <table style="table-layout:auto">
+        <tr>
+            <td>Connection name</td>
+            <td>Enter a name for the connection that you are creating.</td>
+        </tr>
+      <tr>
+            <td>Organization</td>
+            <td>Enter the name of the organization under which you created your Azure DevOps application.</td>
+        </tr>
+    </table>
 
 1. Click **Continue** to finish setting up the connection and continue creating your scenario.
 
