@@ -49,12 +49,28 @@ The Create CSV Aggregator lets you create a csv text from received text values.
 
 For more information on aggregators, see [Aggregator module in Adobe Workfront Fusion](../../workfront-fusion/modules/aggregator-module.md).
 
-| Source Module |Select the module you are using to aggregate the fields you need. |
-|---|---|
-| Aggregated Fields  |Select the fields you want to aggregate from the list of available fields.  |
-| Include headers in the first row  |Select this option to include the headers in the result.  |
-| Group by  |Enter the filter to group the results. For example, enter a date.  |
-| Stop processing after an empty aggregation  |Select this option to stop the scenario when there are no results.  |
+<table style="table-layout:auto">
+    <tr>
+        <td>Source Module</td>
+        <td>Select the module you are using to aggregate the fields you need.</td>
+    </tr>
+    <tr>
+        <td>Aggregated Fields</td>
+        <td>Select the fields you want to aggregate from the list of available fields.</td>
+    </tr>
+    <tr>
+        <td>Include headers in the first row</td>
+        <td>Select this option to include the headers in the result.</td>
+    </tr>
+    <tr>
+        <td>Group by</td>
+        <td>Enter the filter to group the results. For example, enter a date.</td>
+    </tr>
+    <tr>
+        <td>Stop processing after an empty aggregation</td>
+        <td>Select this option to stop the scenario when there are no results.</td>
+    </tr>
+</table>
 
 ## Create CSV (advanced)
 

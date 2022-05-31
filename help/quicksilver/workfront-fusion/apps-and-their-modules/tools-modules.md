@@ -91,9 +91,16 @@ This module can read variables that were set anywhere in the scenario, even if t
 |---|---|
 | Variable name |For each variable you add, map the name of the variable you want to get. |
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/get-variable-350x240.png" style="width: 350;height: 240;"> </p>
--->
+<table>
+    <tr>
+        <td>Variables</td>
+        <td>Add the variables that you want the module to get.</td>
+    </tr>
+    <tr>
+        <td>Variable name</td>
+        <td>For each variable you add, map the name of the variable you want to get.</td>
+    </tr>
+</table>
 
 **Examples:**  The following are possible uses of the Set/Get (multiple) variable(s) modules:
 

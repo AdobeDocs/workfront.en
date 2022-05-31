@@ -46,9 +46,18 @@ To create a connection to the Microsoft Graph REST&nbsp;API, you must first regi
 
    As part of the registration, Microsoft requires the following information:
 
-   | Application name |Enter a name for the application, such as "My Workfront Fusion application." |
-   |---|---|
-   | Redirect URL | `https://app.workfrontfusion.com/oauth/cb/oauth2`   |
+   <table style="table-layout:auto">
+      <tr>
+        <td>Application name</td>
+        <td>Enter a name for the application, such as "My Workfront Fusion application."</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Redirect URL</td>
+        <td>`https://app.workfrontfusion.com/oauth/cb/oauth2`</td>
+      </tr>
+    </table>
 
 1. When you have completed the app registration, make note of the Application ID.
 

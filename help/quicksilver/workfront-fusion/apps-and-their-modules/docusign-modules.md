@@ -516,5 +516,3 @@ This action module sends a draft envelope to its recipients.
   </tr> 
  </tbody> 
 </table>
-
-&nbsp;

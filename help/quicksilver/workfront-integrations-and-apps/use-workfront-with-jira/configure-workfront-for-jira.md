@@ -175,10 +175,20 @@ To define what fields should automatically synchronize on items linked between t
 
    1. Select any of the following frequencies with which the fields are synchronized:
 
-      | On Creation |The fields you specify are synchronized between the linked Workfront and Jira items when the item is created in Workfront. |
-      |---|---|
-      | Always |The fields you specify are synchronized between the linked Workfront and Jira items when the fields are updated in Workfront.&nbsp; |
-      | Never |The fields you specify are never synchronized between the linked Workfront and Jira items. There is no indication in Jira that the field was updated in Workfront.&nbsp; |
+      <table>
+         <tr>
+              <td>On Creation</td>
+              <td>The fields you specify are synchronized between the linked Workfront and Jira items when the item is created in Workfront.</td>
+          </tr>
+          <tr>
+              <td>Always</td>
+              <td>The fields you specify are synchronized between the linked Workfront and Jira items when the fields are updated in Workfront.&amp;nbsp;</td>
+          </tr>
+          <tr>
+              <td>Never</td>
+              <td>The fields you specify are never synchronized between the linked Workfront and Jira items. There is no indication in Jira that the field was updated in Workfront.&amp;nbsp;</td>
+          </tr>
+      </table>
 
    1. Select to synchronize any of the following fields from Workfront to Jira:&nbsp;
 

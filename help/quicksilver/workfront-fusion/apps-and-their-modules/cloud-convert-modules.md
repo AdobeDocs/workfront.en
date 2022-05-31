@@ -475,7 +475,7 @@ Triggers when a job in your account or task is created, finishes, or fails.
 >* The New Job Event trigger is also triggered when an *individual* task is created, has finished, or has failed.
 >
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 

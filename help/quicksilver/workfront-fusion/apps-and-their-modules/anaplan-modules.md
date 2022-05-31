@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -40,15 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -70,7 +62,7 @@ To create a connection for your Anaplan modules:
 1. Click **Add** next to the Connection box.
 1. Select the connection type.
 
-   <table> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -104,7 +96,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when a record of the chosen type is created or updated.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -142,22 +134,50 @@ This trigger module starts a scenario when a record of the chosen type is create
 
 This action module adds a new item to a list in Anaplan.
 
-| Connection |For instructions on creating a connection to Anaplan, see [Connect Anaplan to Workfront Fusion](#connect-anaplan-to-workfront-fusion) in this article. |
-|---|---|
-| Workspace ID |Select or map the ID&nbsp;of the Anaplan Workspace that contains the list where you want to add an item. |
-| Model ID |Select or map the ID of the Model that contains the list where you want to add an item. |
-| List ID |Select or map the ID of the List where you want to create an item. |
-| Name |Enter a name for the new item. |
-| Code |Enter the code for the new item. Codes are user-generated codes that enable you to distinguish between line items with the same name. |
-| Parent |Enter the name of the parent item that you want to create the new item under. |
-| Properties |If the list you want to add an item to has custom properties, select the properties you want to add values for, then add the values. |
-| Subsets |If the list you want to add items to has custom subsets, select the subsets you want to add the item to, then select **Yes** to add the new item to that subset. |
+<table style="table-layout:auto">
+    <tr>
+        <td>Connection</td>
+        <td>For instructions on creating a connection to Anaplan, see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td>
+    </tr>
+    <tr>
+        <td>Workspace ID</td>
+        <td>Select or map the ID of the Anaplan Workspace that contains the list where you want to add an item.</td>
+    </tr>
+    <tr>
+        <td>Model ID</td>
+        <td>Select or map the ID of the Model that contains the list where you want to add an item.</td>
+    </tr>
+    <tr>
+        <td>List ID</td>
+        <td>Select or map the ID of the List where you want to create an item.</td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>Enter a name for the new item.</td>
+    </tr>
+    <tr>
+        <td>Code</td>
+        <td>Enter the code for the new item. Codes are user-generated codes that enable you to distinguish between line items with the same name.</td>
+    </tr>
+    <tr>
+        <td>Parent</td>
+        <td>Enter the name of the parent item that you want to create the new item under.</td>
+    </tr>
+    <tr>
+        <td>Properties</td>
+        <td>If the list you want to add an item to has custom properties, select the properties you want to add values for, then add the values.</td>
+    </tr>
+    <tr>
+        <td>Subsets</td>
+        <td>If the list you want to add items to has custom subsets, select the subsets you want to add the item to, then select <b>Yes</b> to add the new item to that subset.</td>
+    </tr>
+</table>
 
 #### Make a custom API Call {#make-a-custom-api-call}
 
 This module allows you to perform a custom API call to the Anaplan API.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -195,7 +215,7 @@ This module allows you to perform a custom API call to the Anaplan API.
 
 This action module deletes an existing record.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -216,9 +236,7 @@ This action module deletes an existing record.
    <td> <p>Select the type of object to delete.</p> 
     <ul> 
      <li> <p><b>Action</b> </p> <p>Select or map the action to delete.</p> </li> 
-     <li> <p><b>List item</b> </p> <p>Select the list that you want to delete an item from, then enter or map the ID or the code of the item that you want to delete</p> <!--
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Enter or map the ID of the list that you want to delete an item from, then enter or map the ID or the code of the item that you want to delete</p>
-      --> </li> 
+     <li> <p><b>List item</b> </p> <p>Select the list that you want to delete an item from, then enter or map the ID or the code of the item that you want to delete</p>  </li> 
      <li> <p><b>File</b> </p> <p>Select or map the file to delete.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -243,7 +261,7 @@ This action module exports data from Anaplan. You can export into the following 
 
 This action module returns all accessible records of the selected type.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -253,9 +271,7 @@ This action module returns all accessible records of the selected type.
   </tr> 
   <tr> 
    <td role="rowheader">Record types</td> 
-   <td> <!--
-     <div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-      <p>Select the type of record that you want to retrieve.</p> 
+   <td> <p>Select the type of record that you want to retrieve.</p> 
       <ul> 
        <li> <p><b>Workspaces</b> </p> </li> 
        <li> <p><b>Models</b> </p> </li> 
@@ -267,8 +283,7 @@ This action module returns all accessible records of the selected type.
        <li> <p><b>Users</b> </p> </li> 
        <li> <p><b>Views</b> </p> <p>Select whether you want to choose the view by Module or by Model, then select or map the ID&nbsp;of the Module or Model that contains the view you want to retrieve.</p> </li> 
       </ul> 
-     </div>
-    --> </td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Return workspace size</td> 
@@ -291,7 +306,7 @@ This action module imports data into Anaplan using the Anaplan API. For example,
 
 This action module reads a single record.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -334,7 +349,7 @@ This action module updates a single record in Anaplan.
       <ul> 
        <li> <p><b>Model ID</b> </p> <p>Select or map the Model that contains the cell you want to update.</p> </li> 
        <li> <p><b>Module ID</b> </p> <p>Select or map the Module that contains the cell you want to update</p> </li> 
-       <li> <p><b>Line item name</b> </p> <p style="font-weight: bold;">Select or map the line item of the cell you want to update</p> </li> 
+       <li> <p><b>Line item name</b> </p> <p>Select or map the line item of the cell you want to update</p> </li> 
        <li> <p style="font-weight: bold;">Dimension ID</p> <p>Select or map the dimension that is on the line item.</p> <p>For information on dimensions, search for Dimensions in the Anaplan Anapedia.</p> </li> 
        <li> <p><b>Value</b> </p> <p>Enter or map the new value for the cell.</p> </li> 
       </ul> </li> 
