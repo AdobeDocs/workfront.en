@@ -102,8 +102,6 @@ You can share a proof via a URL if the owner has configured the proof for sharin
 
 You can share a proof via embed code if the proof owner has configured it for this.
 
-For information about configuring a prof with an embedded code, see in .
-
 To share a proof via the embed code:
 
 1. In the toolbar on the left of the proofing viewer, click the **Share**&nbsp;icon.
