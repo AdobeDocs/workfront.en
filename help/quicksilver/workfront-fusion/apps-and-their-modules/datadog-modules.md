@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -40,16 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -83,7 +74,7 @@ You can create a connection to your Datadog account directly from inside a Datad
 1. In any Datadog module, click **Add** next to the Connection field.
 1. Fill the module's fields as follows:
 
-   <table> 
+  <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -131,7 +122,7 @@ The module allows you to post time-series data that can be graphed on Datadog's 
 
 The limit for compressed payloads is 3.2 megabytes (3200000), and 62 megabytes (62914560) for decompressed payloads.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -157,7 +148,7 @@ The limit for compressed payloads is 3.2 megabytes (3200000), and 62 megabytes (
 
 This action module allows you to perform a custom API call.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -167,7 +158,7 @@ This action module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>Enter a path relative to<code>https://api.datadoghq.com/api/</code>. Example:<code> /v1/org</code>.</td> 
+   <td>Enter a path relative to <code>https://api.datadoghq.com/api/</code>. Example:<code> /v1/org</code>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
@@ -193,17 +184,9 @@ This action module allows you to perform a custom API call.
 
 **Example:** The following API call returns the all dashboards in your Datadog account:
 
-URL:
+URL: `/v1/dashboard`
 
-```
-/v1/dashboard
-```
-
-Method:
-
-```
-GET
-```
+Method: `GET`
 
 ![](assets/datadog-api-example.png)
 

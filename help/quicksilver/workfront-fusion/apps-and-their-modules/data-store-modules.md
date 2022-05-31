@@ -20,7 +20,7 @@ For information on creating, editing, and troubleshooting data stores, see [Data
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -34,21 +34,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  <p>Workfront Fusion for Work Automation</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -95,7 +86,7 @@ The module returns the ID of the  record and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -128,7 +119,7 @@ The module returns the ID of the  record and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -159,7 +150,7 @@ You specify the data store and the record's key.
 
 The module returns the ID of the record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -180,11 +171,7 @@ This action module specifies whether a particular record exists.
 
 You specify the data store and the record's key.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The module returns the ID of the record and a True or False value. It also returns any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
--->
-
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -207,7 +194,7 @@ You specify the data store and the record's key.
 
 The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -228,11 +215,7 @@ This action module deletes all records from a particular data store.
 
 You specify the data store.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The module returns the IDs of the deleted records and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
--->
-
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -251,7 +234,7 @@ You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -261,9 +244,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td> <p>Filter</p> </td> 
-   <td> <p>Set the filter for the search.</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the column, operator and required value (search term) for the search.</p>
-    --> </td> 
+   <td> <p>Set the filter for the search.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Sort</p> </td> 
@@ -286,13 +267,9 @@ This action module numbers the records in a data store.
 
 You specify the data store.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The module returns the number of records and any associated fields, along with any custom fields and values that the connection accesses. </p>
--->
-
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
