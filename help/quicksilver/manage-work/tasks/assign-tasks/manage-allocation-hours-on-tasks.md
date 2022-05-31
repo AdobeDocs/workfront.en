@@ -14,7 +14,7 @@ When assigning users or roles to a task, they are allocated to work a certain nu
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

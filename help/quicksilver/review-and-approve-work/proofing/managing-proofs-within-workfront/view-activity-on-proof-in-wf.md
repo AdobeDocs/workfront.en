@@ -14,7 +14,7 @@ You can view activity that has occurred on the proof. Activity includes recent c
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

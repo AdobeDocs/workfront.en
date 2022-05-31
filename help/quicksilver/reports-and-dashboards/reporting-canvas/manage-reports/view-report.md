@@ -46,7 +46,7 @@ The Reporting Canvas allows you more control over what displays when you view a 
    -->
 
    <!--
-   <table>
+   <table style="table-layout:auto">
    <col>
    <col>
    <tbody>

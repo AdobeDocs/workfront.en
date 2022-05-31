@@ -26,7 +26,7 @@ Searching also helps you locate a specific card on the board.
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

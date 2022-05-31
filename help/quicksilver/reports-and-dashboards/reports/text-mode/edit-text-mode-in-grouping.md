@@ -22,7 +22,7 @@ You can edit a grouping in a list or report using text mode to access fields tha
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -150,7 +150,7 @@ For information about creating a report, see [Create a custom report](../../../r
    </note>
    -->
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <thead> 

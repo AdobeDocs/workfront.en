@@ -14,7 +14,7 @@ description: The role of Adobe Workfront Fusion is to automate your processes so
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

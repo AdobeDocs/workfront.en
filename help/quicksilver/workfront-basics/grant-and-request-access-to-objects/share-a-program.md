@@ -59,4 +59,6 @@ The following table displays what permissions you can grant users when allowing 
 | Share |✓ |✓ |
 | Share system-wide |&nbsp; |✓ |
 
+{style="table-layout:auto"}
+
 &#42; These permissions are controlled by the access level and permissions on other objects, like projects.&nbsp;

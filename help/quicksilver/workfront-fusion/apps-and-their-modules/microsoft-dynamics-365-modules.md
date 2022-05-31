@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -114,7 +114,7 @@ This happens on a regularly scheduled interval that you specify.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -147,7 +147,7 @@ This instant trigger module executes a scenario when a record (object) you speci
 
 A webhook is required in this module.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -174,7 +174,7 @@ The module returns the ID of the new entity and any associated fields, along wit
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -203,7 +203,7 @@ To learn more, see the Microsoft documentation about using the Dynamics 365 Cust
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -247,7 +247,7 @@ The module returns the ID of the  entity and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -276,7 +276,7 @@ The module returns the ID of the entity and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -309,7 +309,7 @@ The module returns the ID of the updated record and any associated fields, along
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -338,7 +338,7 @@ This search module looks for records in an object in Microsoft Dynamics 365 that
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

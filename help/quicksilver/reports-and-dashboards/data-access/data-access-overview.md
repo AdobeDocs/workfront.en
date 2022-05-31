@@ -57,7 +57,7 @@ Star schemas (facts, dimensions, etc.)
 
 You can currently access the following data types:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -80,7 +80,7 @@ You can currently access the following data types:
 
 Within the data types, there are 4 different dimensions:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -107,7 +107,7 @@ Within the data types, there are 4 different dimensions:
 
 There are 2 types of facts:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

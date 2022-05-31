@@ -21,7 +21,7 @@ You can request a project when you add a new project in the following areas of A
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -26,7 +26,7 @@ For example, you might have View permissions to a project, but you need to add t
 
 You must have the following to share objects:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -131,7 +131,7 @@ The order of the users in the "Request Access" or "Request More Access" drop-dow
 
 The owner of an object is defined as follows: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 

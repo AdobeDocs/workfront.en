@@ -14,7 +14,7 @@ You can combine multiple files into a single multi-page proof. Reviewers can use
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

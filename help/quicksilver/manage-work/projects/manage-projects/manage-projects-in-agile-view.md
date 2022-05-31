@@ -10,7 +10,7 @@ description: Required plans, license types, and access Adobe Workfront Plan Team
 
 Required plans, license types, and access
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -46,7 +46,7 @@ If you want to work in an agile environment that uses&nbsp;a team backlog and al
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

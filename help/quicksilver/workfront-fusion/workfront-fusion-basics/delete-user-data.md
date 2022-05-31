@@ -27,7 +27,7 @@ You can store and delete user data in the following areas in your Adobe Workfron
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

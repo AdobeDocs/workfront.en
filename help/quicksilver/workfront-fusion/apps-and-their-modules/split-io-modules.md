@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -100,7 +100,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This action module lets you make a custom authenticated call to the split.io API. This way, you can create a data flow automation that can't be accomplished by the other split.io modules. 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -142,7 +142,7 @@ This action module lets you make a custom authenticated call to the split.io API
 
 This action module retrieves the split.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -165,7 +165,7 @@ This action module retrieves the split.
 
 This action module retrieves a specific split definition from the designated environment.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -196,7 +196,7 @@ This action module creates a new split in your organization, given a traffic typ
 >
 >The API does not configure the split in any environment.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -227,7 +227,7 @@ This action module creates a new split in your organization, given a traffic typ
 
 This action module deletes a split from your organization. This automatically unconfigures the split definition from all environments.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -250,7 +250,7 @@ This action module deletes a split from your organization. This automatically un
 
 This action module configures a split definition for a specific environment.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -297,7 +297,7 @@ This action module configures a split definition for a specific environment.
 
 This action module unconfigures a split definition for a specific environment.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -328,7 +328,7 @@ This action module unconfigures a split definition for a specific environment.
 
 This action module updates a split definition for a specific environment.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -363,7 +363,7 @@ This action module updates a split definition for a specific environment.
 
 This action module adds tags to the specified object. 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -402,7 +402,7 @@ This action module adds tags to the specified object.
 
 This search module retrieves the workspaces for an organization.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -421,7 +421,7 @@ This search module retrieves the workspaces for an organization.
 
 This search module retrieves a list of environments.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -440,7 +440,7 @@ This search module retrieves a list of environments.
 
 This search module retrieves a list of splits.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -463,7 +463,7 @@ This search module retrieves a list of splits.
 
 This search module retrieves a list of split definitions in a given environment.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -490,7 +490,7 @@ This search module retrieves a list of split definitions in a given environment.
 
 This search module retrieves a list of traffic types.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

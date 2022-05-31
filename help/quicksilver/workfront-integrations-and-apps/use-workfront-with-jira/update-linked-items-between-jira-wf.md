@@ -20,7 +20,7 @@ For more information about synchronizing fields between linked Jira and Workfron
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -71,7 +71,7 @@ As long as your Workfront administrator has configured Workfront for Jira to syn
 
 The following list shows which Workfront fields synchronize with Jira fields on linked items:&nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -124,7 +124,7 @@ On condition that your Workfront administrator has configured Workfront for Jira
 
 The following list shows which Jira fields synchronize with Workfront fields on linked items:&nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 

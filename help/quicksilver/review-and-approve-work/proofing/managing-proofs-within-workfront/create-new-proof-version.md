@@ -27,7 +27,7 @@ Consider the following information when you are creating a new version of a proo
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -61,6 +61,8 @@ There are several ways to upload a new proof version in Workfront. Default proof
 | Create proof > Simple |Default proof settings do not carry over. If you choose Simple when creating a new proof version, default proof settings do not carry over from the previous version.  |
 | Add new > Version > Proof |Default proof settings carry over from the previous version.  |
 | Create proof > Advanced |Default proof settings carry over from the previous version.  |
+
+{style="table-layout:auto"}
 
 1. Open the document list that contains the proof.
 1. From your computer's file system, drag and drop a new file over the proof.

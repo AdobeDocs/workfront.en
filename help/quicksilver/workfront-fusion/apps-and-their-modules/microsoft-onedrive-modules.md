@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -95,7 +95,7 @@ This trigger module starts a scenario when a file or folder is created or update
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -142,7 +142,7 @@ This trigger module starts a scenario when a file or folder is created or update
 
 This search module returns files and folders based on criteria you set.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -179,7 +179,7 @@ This search module returns files and folders based on criteria you set.
 
 This action module gets the metadata of a specified file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -227,7 +227,7 @@ This action module gets the metadata of a specified file.
 
 This action module downloads the specified file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -271,7 +271,7 @@ This action module downloads the specified file.
   <tr> 
    <td role="rowheader">Convert to PDF</td> 
    <td> <p>Enable this option to convert the file to a PDF file. You can convert from the following file types:</p> 
-    <table> 
+    <table style="table-layout:auto"> 
      <col> 
      <col> 
      <col> 
@@ -315,7 +315,7 @@ This action module downloads the specified file.
 
 This action module uploads a file to the specified folder.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -363,7 +363,7 @@ This action module uploads a file to the specified folder.
 
 This action module creates a new folder in the specified drive.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -407,7 +407,7 @@ This action module creates a new folder in the specified drive.
 
 This action module returns a share link for the specified file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -463,7 +463,7 @@ This action module returns a share link for the specified file.
 
 This action module moves a file or folder to a new folder location
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -550,7 +550,7 @@ This action module moves a file or folder to a new folder location
 
 This action module copies a file into a new folder location
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -637,7 +637,7 @@ This action module copies a file into a new folder location
 
 This action module deletes the selected file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -691,7 +691,7 @@ This action module deletes the selected file.
 
 This module performs a custom API call.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

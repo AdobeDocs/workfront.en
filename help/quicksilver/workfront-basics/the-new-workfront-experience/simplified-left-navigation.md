@@ -43,7 +43,7 @@ In the new Adobe Workfront experience, this information displays under sections 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -105,6 +105,8 @@ The following sections display in the left panel for the **Dashboards** area:
 | Shared Dashboards |Displays the dashboards that have been created by other users and shared with you. |
 | All Dashboards |Displays the dashboards that you or other users have created, and which you have permissions to at least View. |
 
+{style="table-layout:auto"}
+
 To learn how to use the left panel in the Dashboards area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
 
 ### Default sections in the Requests area {#default-sections-in-the-requests-area}
@@ -114,13 +116,15 @@ To learn how to use the left panel in the Dashboards area, see the section [Use 
 | Submitted |Displays requests that you or other users have submitted, and which you have permissions to at least View. Use the filters in the upper-right corner of the request list to view your requests or requests others have submitted and you have access to view.  |
 | Drafts |Displays requests that you have started but you have not submitted them yet. Workfront automatically saves any new request in the Drafts folder, after you have selected your queue topic.  |
 
+{style="table-layout:auto"}
+
 To learn how to use the left panel in the Requests area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
 
 ### Default sections in the Resourcing area {#default-sections-in-the-resourcing-area}
 
 The following sections display in the left panel for the **Resourcing** area:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -153,6 +157,8 @@ The following sections display in the left panel for the **Projects** area:
 |---|---|
 | Custom sections |You can view all the custom sections that your Workfront administrator has added to the left panel for the Projects area in your Layout Template. Custom sections have names that have been customized for your environment. |
 
+{style="table-layout:auto"}
+
 To learn how to use the left panel in the Projects area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
 
 ### Default sections in the Timesheets area {#default-sections-in-the-timesheets-area}
@@ -163,6 +169,8 @@ The following sections display in the left panel for the **Timesheets** area:
 |---|---|
 | Timesheets I Approve |Displays timesheets that have been submitted for your approval, by default. To display active or all timesheets where you are the approver, select Active or App from the Filter drop-down menu. |
 | All Timesheets |Displays all timesheets that you have access to view, based on the filters selected in the left Filter area. |
+
+{style="table-layout:auto"}
 
 To learn how to use the left panel in the Timesheets area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
 
@@ -180,6 +188,8 @@ The following sections display in the left panel for the **Goals** area:
 | Goal Alignment |Displays the alignment of goals with each other in a hierarchy. For more information, see [Goal alignment overview in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md).  |
 | Pulse |Displays a quick overview of all active goals and their progress. For more information, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).  |
 | Check-in |Displays a quick overview of your active goals and their progress. For more information, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md) |
+
+{style="table-layout:auto"}
 
 To learn how to use the left panel in the Goals area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
 

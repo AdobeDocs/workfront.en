@@ -15,7 +15,7 @@ You cannot create billing records for tasks. You can only create billing records
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -65,7 +65,7 @@ Consider the following when planning to use billing records:
 1. With **Billing Record Details** selected in the left panel, click **New Billing Record**.
 1. In the **New Billing Record** box that displays, specify the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

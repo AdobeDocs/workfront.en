@@ -20,7 +20,7 @@ On the boards dashboard you can archive a board, filter the list of boards, and 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

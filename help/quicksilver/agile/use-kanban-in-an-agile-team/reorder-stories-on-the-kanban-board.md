@@ -24,7 +24,7 @@ When you reorder columns on the Kanban board, any changes you make are saved, so
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -52,6 +52,8 @@ Only users with a Plan license can be granted full access to projects.
 | Recalculate finance/timeline |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Set queue properties |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Tasks
@@ -82,6 +84,8 @@ Only users with a Plan license can be granted full access to projects.
 | View finance |✓ |✓ |✓ |&nbsp; |&nbsp; |
 | Updates/comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Issues
@@ -108,6 +112,8 @@ Only users with a Plan license can be granted full access to projects.
 | Make assignments |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
 | Updates and comments |✓ |✓ |✓ |✓ |&nbsp; |
 
+{style="table-layout:auto"}
+
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Portfolios
@@ -129,6 +135,8 @@ Only users with a Plan license can have full access to portfolios.
 | Portfolio optimization |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Add documents |✓ |✓ |✓ |&nbsp; |&nbsp; |
 | Updates and comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -152,6 +160,8 @@ Only users with a Plan license can have full access to programs.
 | Add documents |✓ |✓ |✓ |&nbsp; |&nbsp; |
 | Updates and comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Reports
@@ -169,6 +179,8 @@ Users with a Plan license can have full access to reports. All other Access Leve
 | View |✓&#42; |✓&#42; |✓&#42; |✓&#42; |✓&#42; |
 | Edit |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Copy |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -298,6 +310,8 @@ Users with a Plan license can have full access to reports. All other Access Leve
 | Rename&#42;&#42; |✓ |✓ |✓ |✓ |&nbsp; |
 | Link (with integration) |✓ |✓ |✓ |✓ |&nbsp; |
 | Unlink (with integration) |✓ |✓ |✓ |✓ |&nbsp; |
+
+{style="table-layout:auto"}
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -469,6 +483,8 @@ Users with a Plan license can have full access to reports. All other Access Leve
 | Copy |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Edit template details |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Financial data
@@ -492,6 +508,8 @@ The Request and External User license types are not included here because they d
 | Create risks on projects |✓ |&nbsp; |&nbsp; |
 | View risks on projects |✓ |✓ |✓ |
 
+{style="table-layout:auto"}
+
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 &#42;&#42;Requires additional access to Resource Management.
@@ -511,6 +529,8 @@ Only users with a Plan license can have full access to [select object or area]. 
 | Budget resources in the Resource Planning tools&#42;&#42; |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Attach Resource Pools to projects, templates, and users |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 &#42;&#42;Requires additional access to Financial Data and permissions to project finances. If you grant Resource Management access to a Planner user who doesn't have access to Financial Data, the user can still see the hourly allocations in the Resource Planner, but can't switch to Cost view or view the Business Case. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Share financial permissions on an object](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
@@ -528,6 +548,8 @@ Only users with a Plan license can have full access to [select object or area]. 
 | View Scenarios in the Main Menu ![](assets/esp-icon-in-main-menu.png)
 | ✓ |✓ |✓ |&nbsp; |&nbsp; |
 | View plans and initiatives that the user created&#42; |✓ |✓ |✓ |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

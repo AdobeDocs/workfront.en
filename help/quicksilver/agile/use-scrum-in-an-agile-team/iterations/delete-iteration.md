@@ -14,7 +14,7 @@ You can delete an iteration for your agile team if it is no longer needed.
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

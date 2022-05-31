@@ -12,7 +12,7 @@ The following features were made available to the Workfront Classic Production e
 
 For information about the release time frame and all functionality available with the 2019.4 release, see [2019.4 release overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md).
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 

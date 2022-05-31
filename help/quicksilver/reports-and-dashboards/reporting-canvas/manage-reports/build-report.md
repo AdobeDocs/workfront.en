@@ -15,7 +15,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -64,7 +64,7 @@ You must have the following access to perform the steps in this article:
 
    <!-- WRITER: Please check table for conditional/draft text. -->
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -93,7 +93,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Do any of the following with the blocks you add:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -118,7 +118,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) After you finish building your report, do any of the following:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

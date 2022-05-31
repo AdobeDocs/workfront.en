@@ -15,7 +15,7 @@ You can share a link to a request queue, a topic group, or a queue topic as you 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

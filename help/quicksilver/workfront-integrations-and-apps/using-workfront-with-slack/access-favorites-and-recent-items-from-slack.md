@@ -16,7 +16,7 @@ For more information about configuring Workfront with Slack, see [Configure Adob
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -11,7 +11,7 @@ You can link an asset or folder from Experience Manager Assets to any Workfront 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

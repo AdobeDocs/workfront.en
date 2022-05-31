@@ -13,7 +13,7 @@ This page provides information about functionality for Adobe Workfront Goals in 
 
 For a list of all changes available for all areas of Workfront at this point in the 21.2 release cycle, see [21.2 Release overview](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

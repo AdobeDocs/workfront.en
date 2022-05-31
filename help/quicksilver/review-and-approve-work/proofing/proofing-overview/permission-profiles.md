@@ -41,11 +41,13 @@ The following table displays the permissions available with each Proof Permissio
 | Manager | ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Observer |&nbsp; | ![](assets/cleaner2.png)|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ### Administrator
 
 Administrators have access to [Account settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) and have the following permissions:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -85,7 +87,7 @@ Administrators have access to [Account settings](https://support.workfront.com/h
 
 Supervisors have the following permissions:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -121,7 +123,7 @@ Supervisors have the following permissions:
 
 Managers have the following permissions:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -51,7 +51,7 @@ For example:
 
 The differences between the two syntaxes are: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

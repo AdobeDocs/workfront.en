@@ -57,7 +57,7 @@ For specific release dates and times for each cluster, see the
 
 ### Administrator enhancements {#administrator-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -149,7 +149,7 @@ For specific release dates and times for each cluster, see the
 
 ### Project enhancements {#project-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -206,7 +206,7 @@ For specific release dates and times for each cluster, see the
 
 ### Resource Management enhancements {#resource-management-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -235,7 +235,7 @@ For specific release dates and times for each cluster, see the
 
 ### Requests enhancements {#requests-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -260,7 +260,7 @@ For specific release dates and times for each cluster, see the
 
 ### Proofing enhancements {#proofing-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -290,7 +290,7 @@ For specific release dates and times for each cluster, see the
 
 ### Other enhancements {#other-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -333,7 +333,7 @@ For specific release dates and times for each cluster, see the
 
 ### Mobile enhancements {#mobile-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -22,7 +22,7 @@ For general information about reconciling resources between projects and initiat
 
 You need to following: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -73,7 +73,7 @@ If your company has purchased a Workfront Scenario Planner license, you can reco
 
 1. Review the following information in the **Project Totals** area of the Role Allocation panel: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

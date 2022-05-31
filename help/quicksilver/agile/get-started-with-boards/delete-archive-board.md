@@ -14,7 +14,7 @@ You can delete or archive a board in Workfront. Deleting a board permanently rem
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

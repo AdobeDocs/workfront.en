@@ -14,7 +14,7 @@ For information about configuring which notifications you receive, see [Activate
 
 See also [Event notifications](../../workfront-basics/using-notifications/event-notifications.md).
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

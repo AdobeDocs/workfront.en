@@ -17,7 +17,7 @@ You can permanently change the width of any column of any view by using text mod
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

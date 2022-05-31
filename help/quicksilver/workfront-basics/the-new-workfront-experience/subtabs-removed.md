@@ -34,7 +34,7 @@ The tabs and subtabs that we have removed have been replaced by either main area
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -92,7 +92,7 @@ When accessing the Projects area, you can use the filter to display only project
 
 1. From the **Filter** drop-down menu, select from the following built-in filters to display certain types of projects:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -134,6 +134,8 @@ When accessing the Portfolio area, you can use the filter to display only portfo
    |---|---|
    | Portfolios I Own |Displays all portfolios where you are designated as the Portfolio Manager.  |
 
+   {style="table-layout:auto"}
+
 ### Issue lists under a project or task {#issue-lists-under-a-project-or-task}
 
 When accessing the Issues area at the project level, you can use the filter to display only issues that are open, or issues that are closed.
@@ -153,4 +155,6 @@ When accessing the Issues area at the project level, you can use the filter to d
    |---|---|
    | Complete |Displays only completed issues on the project. |
    | Open |Displays only open issues on the project. |
+
+   {style="table-layout:auto"}
 

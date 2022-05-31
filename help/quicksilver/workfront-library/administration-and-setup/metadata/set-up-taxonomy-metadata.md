@@ -37,6 +37,8 @@ Use custom taxonomy to gather information tailored to your organization, such as
    | Single-select |Lists multiple options in a picklist from which users can choose one option |
    | Text field |Allows users to freely enter text |
 
+   {style="table-layout:auto"}
+
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

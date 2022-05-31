@@ -19,7 +19,7 @@ Workfront calculates these values using the following:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -64,6 +64,8 @@ You must have the following access to perform the steps in this article:
    | Hour-Based |Workfront uses the Planned Hours in calculating the CPI and EAC of the project, and the EAC of the project displays as a number, in hours.  |
    |---|---|
    | Cost-Based |Workfront uses the Planned Labor Cost in calculating the CPI and EAC of the project, and the EAC displays as a currency value. When you select this option, ensure that your task assignees (job roles or users) are associated with cost rates. |
+
+   {style="table-layout:auto"}
 
 1. Click **Save** **Changes**.
 

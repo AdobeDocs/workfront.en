@@ -21,6 +21,8 @@ description: What's New in API Version 6
 | templateID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search&nbsp; |
 
+{style="table-layout:auto"}
+
 ### Ews
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
@@ -28,6 +30,8 @@ description: What's New in API Version 6
 | fileName |&nbsp; |&nbsp; |&nbsp; |&nbsp; |upload |&nbsp; |
 | handle |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | objCode |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ### Custom Label
 
@@ -39,6 +43,8 @@ description: What's New in API Version 6
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Get |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
+
+{style="table-layout:auto"}
 
 &nbsp;
 
@@ -54,6 +60,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | updateType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`sinceDate`  |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |objectUpdatesByCommentID² |&nbsp; |
+
+{style="table-layout:auto"}
 
 ¹ Changes to possible values
 
@@ -71,6 +79,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | syncBurndownDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | workRequired² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ¹ Date validation added
 
 ² NOT_FILTERABLE flag added
@@ -83,6 +93,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|---|
 |   |  | `attachedApprovalPaths`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ### Approval Step
@@ -92,6 +104,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | approvalType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ¹ Changes to possible Values
 
@@ -112,6 +126,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | lastUpdateByID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | name² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ¹ Changed to Reportable
 
 ² Added Max Length Validator
@@ -124,6 +140,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | constraintDate¹ |&nbsp; |&nbsp; |&nbsp; |getMyWorkCountFiltered |&nbsp; |&nbsp; |
 | workRequired² |&nbsp; |&nbsp; |&nbsp; |workItemStatusLabels&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ¹ Date Validation Added
 
@@ -139,6 +157,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |swapUsersOnProjects |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |unassignUserFromProjects |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ### Baseline&nbsp;
@@ -146,6 +166,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | workRequired¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ¹ Not_Filterable Flag Added
 
@@ -157,6 +179,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | workRequired¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ¹ Not_Filterable Flag Added
 
 &nbsp;
@@ -167,6 +191,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | billingDate¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ¹ added NO_TIME field flag
 
 ### Burndown Event&nbsp;
@@ -176,6 +202,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | eventInitiator |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`ADD`  |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`DELETE`  |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ### Category&nbsp;
@@ -184,6 +212,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |getCascadingRules |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |reorderCategories |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 &nbsp;
 
@@ -195,6 +225,8 @@ Custom Enum&nbsp;
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |isPossibleToUnlockStatus |projectGroupStatuses |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |taskGroupStatuses |&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 Document&nbsp;
@@ -204,6 +236,8 @@ Document&nbsp;
 | `checkedOutByID`  |`checkedOutBy`&nbsp; |&nbsp; |&nbsp;isDir |&nbsp; |&nbsp; |&nbsp; |
 | `isDir`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 Exchange Rate&nbsp;
@@ -211,6 +245,8 @@ Exchange Rate&nbsp;
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | rate¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ¹ Changed PRECISION validator for 8 to 9
 
@@ -222,6 +258,8 @@ Exchange Rate&nbsp;
 |---|---|---|---|---|---|---|
 | syncBurndownDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ### Journal Entry
@@ -229,6 +267,8 @@ Exchange Rate&nbsp;
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | changeType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ¹ Changes to possible Values
 
@@ -239,6 +279,8 @@ Exchange Rate&nbsp;
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | workRequired² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ¹ Flagged as RESTORABLE
 
@@ -257,6 +299,8 @@ Exchange Rate&nbsp;
 | work |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | workRequired |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ¹ Flagged as RESTORABLE and RESOURCE_MANAGEABLE
 
 ² Not_Filterable Flag Added
@@ -269,6 +313,8 @@ Exchange Rate&nbsp;
 |---|---|---|---|---|---|---|
 | constraintDate² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | workRequired³ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ¹ Flagged as RESTORABLE
 
@@ -285,6 +331,8 @@ Exchange Rate&nbsp;
 | `myWorkViewID`  |&nbsp;`myWorkView` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `requestsViewID`&nbsp; |`myRequestsView`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ### Template¹&nbsp;
@@ -293,6 +341,8 @@ Exchange Rate&nbsp;
 |---|---|---|---|---|---|---|
 | &nbsp; |&nbsp; |resourceManagers |resourceManagerIDs |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ¹ Flagged as RESTORABLE and RESOURCE_MANAGEABLE
 
 ### Template Task¹&nbsp;
@@ -300,6 +350,8 @@ Exchange Rate&nbsp;
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | workRequired² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ¹ Flagged as RESTORABLE
 
@@ -313,6 +365,8 @@ Exchange Rate&nbsp;
 |---|---|---|---|---|---|---|
 | myInfo¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ¹ MAX_LENGTH violators
 
 &nbsp;
@@ -322,6 +376,8 @@ Exchange Rate&nbsp;
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | eventType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |myNotifications² |&nbsp; |
+
+{style="table-layout:auto"}
 
 ¹ Possible Values Changed
 

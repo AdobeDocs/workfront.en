@@ -90,7 +90,7 @@ Unless otherwise specified, all Resource Scheduling features have been or will b
 
 In addition to existing features, the Workload Balancer has or will have new functionality that did not exist in the Resource Scheduling tools, as shown in the following table: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

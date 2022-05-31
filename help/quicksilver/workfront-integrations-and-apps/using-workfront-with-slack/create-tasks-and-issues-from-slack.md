@@ -20,7 +20,7 @@ For more information about Access Levels, see [Access levels overview](../../adm
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

@@ -182,7 +182,7 @@ The module returns the ID of the new proof or proof version.You can map this inf
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -431,7 +431,7 @@ You must have sufficient permissions to access the record in Workfront Proof in 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

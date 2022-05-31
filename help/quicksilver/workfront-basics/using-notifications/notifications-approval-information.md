@@ -12,7 +12,7 @@ The following notifications alert you about approval activities happening on a w
 
 See also [Event notifications](../../workfront-basics/using-notifications/event-notifications.md).
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

@@ -17,7 +17,7 @@ Use this task grouping to group tasks by the portfolio, by program, and then by 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

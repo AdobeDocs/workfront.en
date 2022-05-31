@@ -15,7 +15,7 @@ You might want to view your tasks grouped by Percent Complete in ranges of 0-25,
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

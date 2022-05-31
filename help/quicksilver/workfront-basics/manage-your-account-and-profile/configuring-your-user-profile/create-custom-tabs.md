@@ -33,11 +33,13 @@ The following table lists all the Workfront areas and objects that contain secti
 | User |&nbsp;✓ |&nbsp;✓ |
 | Document |&nbsp;✓ |✓ |
 
+{style="table-layout:auto"}
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

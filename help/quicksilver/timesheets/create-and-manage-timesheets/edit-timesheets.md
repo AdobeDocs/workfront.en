@@ -16,7 +16,7 @@ You can edit information on a single timesheet, or you can edit multiple timeshe
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -81,7 +81,7 @@ You must have the following to perform the steps in this article:
 1. Select one or several timesheets, then click the **Edit** icon ![](assets/edit-icon.png) at the top of the timesheet list. 
 1. View or specify the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

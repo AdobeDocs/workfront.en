@@ -22,7 +22,7 @@ You can import existing projects into a plan. The imported projects are converte
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -77,7 +77,7 @@ When you import a project into a plan some project information is also imported 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: add what happens if you import a 5 year project to a 1 year plan - how does this display?) </p>
 -->
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -184,7 +184,7 @@ When you import a project into a plan some project information is also imported 
 
    In the **Initiative Duration** area review the following information: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

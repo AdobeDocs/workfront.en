@@ -131,6 +131,8 @@ The following default statuses for tasks trigger the following changes in the de
 | In Progress |In Progress |
 | Complete |Closed |
 
+{style="table-layout:auto"}
+
 The following default statuses for projects trigger the following changes in the default statuses for issues, when the issue is set as a Resolvable Object of a project. Some project statuses do not trigger changes to the status of the issues. The issues remain in the status they were before the project was turned into one of these statuses:
 
 | **PROJECT STATUS** |**ISSUE STATUS** |
@@ -144,6 +146,8 @@ The following default statuses for projects trigger the following changes in the
 | Idea |Does not trigger a change to the issue status  |
 | Dead |Closed |
 | Completed |Closed |
+
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -198,7 +202,7 @@ In a list of issues, you can identify issues that are labeled as resolving objec
 You can display information about the Resolvable or Resolving Objects in the view or report for projects, tasks, or issues.  
 The following table shows what fields you can display and in which views you can display them:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

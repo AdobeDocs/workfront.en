@@ -30,7 +30,7 @@ Using the scheduling timeline, you can manage user assignments, including how mu
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -16,7 +16,7 @@ Column settings include policies, which allow you to define options for what hap
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

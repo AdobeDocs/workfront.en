@@ -16,7 +16,7 @@ For general information about converting issues, see [Overview of converting iss
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -138,6 +138,8 @@ The following table illustrates which&nbsp;issue fields are visible from the con
 | Issue Name |Converted Issue Name |✔ |✔ |✔ |✔ |
 | Primary Contact | ```Converted Issue``` Originator Name |✔ | ```✔```  |✔ |&nbsp; |
 | Entry Date |Converted Issue Entry&nbsp;Date |✔ |&nbsp; |✔ |&nbsp; |
+
+{style="table-layout:auto"}
 
 >[!CAUTION]
 >

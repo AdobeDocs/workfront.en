@@ -94,7 +94,7 @@ You can view the following Budgeted Labor Cost information in Workfront:
 
 * The Budgeted Labor Cost as reflected in the Resource Budgeting area of the Business Case or the Resource Planner displays in the following areas of Workfront under the following names:
 
-  <table> 
+  <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 
@@ -145,7 +145,7 @@ You can view the Budgeted Hours in Workfront in the fields listed in the table b
 
 The hours budgeted in the Resource Budgeting area of the Business Case or the Resource Planner display in the following areas of Workfront and under the following names:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

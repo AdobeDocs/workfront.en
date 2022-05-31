@@ -31,6 +31,8 @@ Your permission profile also affects the rights you have over public folders:
 | &nbsp;**Manager &#42;** |&nbsp;No |Yes |Yes |No |Yes |No |Yes |
 | **Observer** |No |Yes |No |No |No |No |No |
 
+{style="table-layout:auto"}
+
 &#42; If the public folder is owned by a manager, he or she can delete the root folder and any sub-folders.
 
 For more information, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
@@ -47,6 +49,8 @@ If a folder is private, other users in the same account will not&nbsp;be able to
 | **Supervisor** |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
 | &nbsp;**Manager &#42;** |&nbsp;No&nbsp; |Yes |No |No |No |No |No |
 | **Observer &#42;&#42;** |No |Yes |No |No |No |No |No |
+
+{style="table-layout:auto"}
 
 If, for example, you would like your Project Manager and their teams to see specific folders only, the Project Manager can set up a private folder and then share the folder with specific users.
 

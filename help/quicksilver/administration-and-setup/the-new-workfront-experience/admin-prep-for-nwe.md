@@ -13,6 +13,8 @@ As of March 31, 2022, Workfront will no longer support Adobe Workfront Classic. 
 | 30% of your organization's users are using the the new Adobe Workfront experience |Mid-January 2022 |See [Aim for 30% adoption by mid-January 2022](#aim-for-30-adoption-by-mid-january-2022). |
 | 100% of your organization's users are using the new Adobe Workfront experience |March 31, 2022 |Workfront Classic will not be supported after this date. |
 
+{style="table-layout:auto"}
+
 ## Test your organization's readiness for the new Adobe Workfront experience
 
 These tests allow you to identify possible network or configuration issues in your organization that may affect performance in the new Workfront experience.

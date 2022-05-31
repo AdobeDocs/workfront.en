@@ -42,6 +42,8 @@ Projects are represented as JSON objects with the following attributes:
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ## Get a Project
 
 GET/proj/{JSON Format name }

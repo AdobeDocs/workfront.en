@@ -22,7 +22,7 @@ The Updates area of an object displays a maximum number of 200 updates by defaul
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

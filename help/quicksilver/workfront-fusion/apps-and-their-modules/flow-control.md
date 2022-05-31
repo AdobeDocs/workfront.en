@@ -16,7 +16,7 @@ When you are creating or editing a scenario, you can configure settings to contr
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -83,6 +83,8 @@ To use a Repeater module:
 | Initial value |Enter or map the number that you want the module to set as `i` in the first iteration. The default value is 1. |
 | Repeats |Enter or map the number of times that you want the module to repeat. This number must be greater than or equal to 0, and less than or equal to 10,000. |
 | Step |This is the number by which the module increases the value of `i`. The default value is 1. |
+
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

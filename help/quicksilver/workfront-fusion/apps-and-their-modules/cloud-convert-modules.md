@@ -657,7 +657,7 @@ Retrieves authenticated account details about the current user.
 
 Allows you to perform a custom API call.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -49,7 +49,7 @@ When using a template, some fields that are populated on the template transfer t
 
 The following table lists project information and whether it transfers from the template or from the issue: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -223,6 +223,8 @@ The following table illustrates which&nbsp;issue fields are visible from the con
 | Issue Name |Converted Issue Name |✔ |✔ |✔ |✔ |
 | Primary Contact | Converted Issue Originator Name |✔ | `✔`  |✔ |&nbsp; |
 | Entry Date |Converted Issue Entry&nbsp;Date |✔ |&nbsp; |✔ |&nbsp; |
+
+{style="table-layout:auto"}
 
 >[!CAUTION]
 >

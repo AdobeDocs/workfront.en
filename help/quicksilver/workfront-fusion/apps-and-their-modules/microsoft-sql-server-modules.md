@@ -17,7 +17,7 @@ You can use Adobe Workfront Fusion to connect to Microsoft SQL Server.
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

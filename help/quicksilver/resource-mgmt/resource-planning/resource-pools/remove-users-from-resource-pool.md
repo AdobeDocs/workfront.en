@@ -18,7 +18,7 @@ For more information about resource pools, see [Resource pools overview](../../.
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

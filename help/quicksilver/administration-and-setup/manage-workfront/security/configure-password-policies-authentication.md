@@ -110,5 +110,7 @@ To configure enhanced authentication preferences:
    | Numbers |Require at least one number |
    | Special Characters |Require at least one special character |
 
+   {style="table-layout:auto"}
+
 1. Click **Save**.
 

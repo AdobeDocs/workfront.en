@@ -27,7 +27,7 @@ Some modifiers are built-in and you can choose them from a drop-down menu inside
 
 You can use the following condition modifiers in filters and conditional formatting statements:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

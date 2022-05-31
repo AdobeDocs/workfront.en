@@ -52,7 +52,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ### Administrator enhancements {#administrator-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -143,7 +143,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ### Project enhancements {#project-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -301,7 +301,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ### Resource Management enhancements {#resource-management-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -355,7 +355,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ### Home enhancements {#home-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -379,7 +379,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ### Mobile enhancements {#mobile-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -421,7 +421,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ### Integrations enhancements {#integrations-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -519,7 +519,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ### Other enhancements {#other-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

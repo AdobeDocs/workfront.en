@@ -21,7 +21,7 @@ When the following information is updated for the card in one location, it is au
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
@@ -76,7 +76,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the **Card Details** box, add or update the following information:
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Name</strong></td> 

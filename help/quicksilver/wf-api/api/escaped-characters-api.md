@@ -12,7 +12,7 @@ The syntax of some API responses may contain the escape character, "\" (backslas
 
 Hexadecimal escaped sequences require the use of valid hexadecimal digits. The following table lists the escape sequences that are encoded in Adobe Workfront API responses:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

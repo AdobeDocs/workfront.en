@@ -14,7 +14,7 @@ You can update an existing project, task, or issue with information from an Outl
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

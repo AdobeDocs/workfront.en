@@ -14,7 +14,7 @@ You can edit the stages and reviewer details in a proof if you are the proof own
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 1. Make any of the following changes in the **Workflow** section:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -91,7 +91,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the **Edit reviewer** box that appears, edit any of the following details: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

@@ -12,7 +12,7 @@ description: When viewing a story tile on the story board, the information in th
 
 When viewing&nbsp;a story tile on the story board, the information in the following table is available. You can edit most information inline, directly from the story tile.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -66,7 +66,7 @@ When viewing&nbsp;a story tile on the story board, the information in the follow
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

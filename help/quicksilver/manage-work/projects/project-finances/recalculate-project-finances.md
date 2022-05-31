@@ -15,7 +15,7 @@ Finances are calculated on a project as changes occur in the hours logged for th
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

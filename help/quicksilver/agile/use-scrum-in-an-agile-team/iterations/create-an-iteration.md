@@ -14,7 +14,7 @@ Iterations are a key component for Scrum agile teams in planning out work capaci
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -46,7 +46,7 @@ Use the Add Iteration feature to quickly create an iteration and add tasks and i
 
 1. Specify the following:  
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -91,7 +91,7 @@ Use the Plan Iteration feature to create an iteration using tasks on your backlo
 
 1. Specify the following information:  
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

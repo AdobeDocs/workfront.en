@@ -57,7 +57,7 @@ For information about adding a date-based wildcard to a report, see the article 
 
 Choose from the following date-based wildcards:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -83,15 +83,21 @@ To indicate various periods of time and various points in time (future or past),
 | **m** |month |
 | **y** |year |
 
+{style="table-layout:auto"}
+
 | **Qualifiers** | |
 |---|---|
 | **b** |beginning of the week (Sunday) |
 | **e** |ending of the week (Saturday)  |
 
+{style="table-layout:auto"}
+
 | **Operators** | |
 |---|---|
 | **+** |add value to wildcard value |
 | **-** |subtract value from wildcard value |
+
+{style="table-layout:auto"}
 
 For example, the wildcard `$$TODAYb+2w` refers to "2 weeks from the beginning of this week". The wildcard *`$$NOW+2h` refers to '2 hours from now'.
 
@@ -105,7 +111,7 @@ For information about adding a user-based wildcard to a report, see the article 
 
 Workfront provides the following user-based variables:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -188,7 +194,7 @@ Workfront provides the following user-based variables:
 
 ## Object-based wild card filter variables
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

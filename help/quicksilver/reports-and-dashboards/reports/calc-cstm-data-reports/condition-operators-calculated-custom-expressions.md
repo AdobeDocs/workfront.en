@@ -33,7 +33,7 @@ Refer to the API Explorer to find the fields you want to reference in your calcu
 
 You can use the following condition modifiers in Workfront:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

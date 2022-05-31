@@ -16,7 +16,7 @@ You can edit a portfolio in the portfolio page or you can edit portfolios in a l
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -121,7 +121,7 @@ You must have the following access to perform the steps in this article:
    </note>
    -->
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

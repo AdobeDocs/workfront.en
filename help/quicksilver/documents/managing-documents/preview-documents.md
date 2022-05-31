@@ -14,7 +14,7 @@ You can preview a&nbsp;document from the Documents area. This is especially usef
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

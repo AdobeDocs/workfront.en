@@ -16,7 +16,7 @@ This scenario watches for new campaign requests added to a request queue. As soo
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -77,7 +77,7 @@ You must have the following in Workfront to use this scenario:
 
   The following optional fields may be present on the form. This scenario maps only the above fields, but any additional fields on the campaign brief may be mapped.
 
-  <table> 
+  <table style="table-layout:auto"> 
    <col> 
    <col> 
    <thead> 
@@ -148,6 +148,8 @@ Complete the following steps to deploy this integration scenario to your Fusion 
    | Anaplan Model ID  |The ID of a model from your Anaplan account and the selected workspace. |
    | Anaplan Module Name |The name of the module that describes the campaign attributes in the selected Anaplan List. |
    | Campaign List Name |The name of the list from your Anaplan account and the selected workspace & model. |
+
+   {style="table-layout:auto"}
 
    Details on how to set up the files and processes are provided in the Anaplan setup documentation.
 

@@ -29,7 +29,7 @@ You can add a custom form only to the types of objects for which the form was cr
 
 You must have the following access to perform the actions described in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

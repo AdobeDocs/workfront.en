@@ -11,7 +11,7 @@ Adobe Workfront Fusion Encryptor modules allow you to encrypt any text data. The
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -66,6 +66,8 @@ This module allows you to encrypt a message using public and private keys.
 | Public key |Enter the recipient's public key.  |
 | Message |Enter the message that you want to encrypt. |
 
+{style="table-layout:auto"}
+
 ### Decrypt a PGP message
 
 This module allows you to decrypt a message using public and private keys.
@@ -74,5 +76,7 @@ This module allows you to decrypt a message using public and private keys.
 |---|---|
 | Public key |Enter the recipient's public key. This can authenticate the sender's identity. |
 | Message |Map the message that you want to decrypt.  |
+
+{style="table-layout:auto"}
 
 &nbsp;

@@ -21,7 +21,7 @@ On the Kanban board, flags provide a visual indication of when a story is ready 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

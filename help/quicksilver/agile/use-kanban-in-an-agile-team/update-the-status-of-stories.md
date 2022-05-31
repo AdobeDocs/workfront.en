@@ -18,7 +18,7 @@ You can change the status of a story directly from the Kanban&nbsp;board in orde
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

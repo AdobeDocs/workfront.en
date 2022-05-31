@@ -21,7 +21,7 @@ To add an integration, click **Add Custom Integration**.
 
 When adding an integration, the administrator will enter values for the following fields.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 

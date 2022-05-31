@@ -58,7 +58,7 @@ You can remove a filter, view, or grouping from lists and reports if you created
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

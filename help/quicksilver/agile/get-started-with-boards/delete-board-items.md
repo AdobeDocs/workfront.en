@@ -14,7 +14,7 @@ When you delete a card from a board, it is permanently deleted and can't be rest
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

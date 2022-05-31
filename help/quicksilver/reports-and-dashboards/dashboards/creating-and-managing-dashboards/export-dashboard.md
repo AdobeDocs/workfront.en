@@ -19,7 +19,7 @@ You can export a dashboard to a .pdf file using the print options available in y
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -61,7 +61,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 
 1. Depending on your web browser, select the appropriate print options to complete the .pdf. file export:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <thead> 

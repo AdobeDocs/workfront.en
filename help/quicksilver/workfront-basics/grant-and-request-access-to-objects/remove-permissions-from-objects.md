@@ -16,7 +16,7 @@ Similar considerations as for sharing objects apply for removing permissions fro
 
 You must have the following to share objects:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

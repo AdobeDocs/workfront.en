@@ -24,7 +24,7 @@ When creating subtasks for existing stories, keep in mind the following:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -75,7 +75,7 @@ You must have the following access to perform the steps in this article:
 
 1. Specify the following information:  
 
-   <table>
+   <table style="table-layout:auto">
     <col>
     <col>
     <tbody>

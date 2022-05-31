@@ -14,7 +14,7 @@ You can move a story or issue from the Scrum board to another iteration or to th
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -53,6 +53,8 @@ You must have the following access to perform the steps in this article:
    | **Another iteration** |Select to move the item to another iteration, then choose which iteration the story or issue will move to. If no future iterations are defined, you cannot move the item. |
    |---|---|
    | **Backlog** |Select to move the story or issue to the team's backlog. |
+
+   {style="table-layout:auto"}
 
    >[!NOTE]
    >

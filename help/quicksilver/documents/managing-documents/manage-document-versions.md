@@ -14,7 +14,7 @@ You can manage multiple versions of a document in Workfront.
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -14,7 +14,7 @@ You can view or download an asset in Adobe Workfront that is linked from Experie
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

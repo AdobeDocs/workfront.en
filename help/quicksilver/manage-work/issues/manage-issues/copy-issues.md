@@ -25,7 +25,7 @@ You can copy issues from the following objects:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -114,7 +114,7 @@ You can copy one issue when viewing it.
    >
    >This impacts&nbsp;only the copied issues not the original issues.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

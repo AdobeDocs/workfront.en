@@ -22,6 +22,8 @@ POST /createFolder
 | parentId&nbsp; |The folder ID in which the folder should be created |
 | name&nbsp; |The name of the new folder |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 **Response**

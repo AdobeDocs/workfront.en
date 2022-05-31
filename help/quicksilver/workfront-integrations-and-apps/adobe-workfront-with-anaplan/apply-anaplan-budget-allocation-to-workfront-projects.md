@@ -14,7 +14,7 @@ This integration scenario syncs any budget allocations that have been made in An
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -107,7 +107,7 @@ Complete the following steps to deploy this integration scenario to your Fusion 
 1. Navigate to the Templates menu in Workfront Fusion and click the **Apply Anaplan budget allocations to Workfront projects** scenario template.
 1. Replace the variable values for the following Anaplan variables:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     </col> 
     <col> 

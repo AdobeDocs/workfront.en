@@ -18,7 +18,7 @@ For information about creating initiatives, see [Create and edit initiatives in 
 
 ## Access requirements
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

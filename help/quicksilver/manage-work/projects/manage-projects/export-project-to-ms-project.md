@@ -21,7 +21,7 @@ You can export Adobe Workfront projects to Microsoft Project.&nbsp;
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

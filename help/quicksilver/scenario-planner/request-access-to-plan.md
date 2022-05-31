@@ -15,7 +15,7 @@ You can request access to a plan in the Adobe Workfront Scenario Planner when th
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -14,7 +14,7 @@ You can use the filter on the scrum board to see which work items are associated
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

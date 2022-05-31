@@ -13,7 +13,7 @@ You can display up to 3 fields of one object in a bubble chart. This means you c
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -58,7 +58,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
    1. On the **Settings** tab:
 
-      <table>
+      <table style="table-layout:auto">
        <col>
        <col>
        <tbody>
@@ -88,7 +88,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
       <!--   
       <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Data</b> tab:</p>   
-      <table>   
+      <table style="table-layout:auto">   
       <col>   
       <col>   
       <tbody>   
@@ -106,7 +106,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
       <!--   
       <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Style</b> tab:</p>   
-      <table>   
+      <table style="table-layout:auto">   
       <col>   
       <col>   
       <tbody>   

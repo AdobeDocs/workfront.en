@@ -14,7 +14,7 @@ You can view additional information about the project after you have accessed it
 
 You must have the following access in Workfront to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

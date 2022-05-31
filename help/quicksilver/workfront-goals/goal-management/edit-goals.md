@@ -14,7 +14,7 @@ You can edit existing goals from any time period and in any status.
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

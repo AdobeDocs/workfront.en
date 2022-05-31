@@ -13,7 +13,7 @@ description: This article describes how to log into or out of the Adobe Workfron
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

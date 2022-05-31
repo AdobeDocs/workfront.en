@@ -45,6 +45,8 @@ You must have the following access to perform the steps in this article:
    | Sandbox Preview  |The Sandbox Preview is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront.  |
    | Sandbox 1 & 2  |The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain a Custom Refresh Sandbox. |
 
+   {style="table-layout:auto"}
+
 1. Continue with the following sections:
 
    * [Template preferences](#template-preferences) 
@@ -70,6 +72,8 @@ You can also designate template ownership before you install the blueprint. You 
    | **Template sponsor** |This person is usually a manager, executive, or stakeholder who needs to know what is happening with the project. The Project Sponsor does not gain any additional access to the project but is added to the email notifications for the project. |
    | **Portfolio** |This is the portfolio the project will belong to when it's created. |
    | **Program** |This is the program the project will belong to when it's created. |
+
+   {style="table-layout:auto"}
 
 1. Select whether the template is installed as active or inactive.
 1. Select whether you want to use defined new issue preferences, if preferences are available.

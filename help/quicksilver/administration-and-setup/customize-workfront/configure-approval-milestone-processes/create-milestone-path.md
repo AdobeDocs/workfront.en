@@ -63,6 +63,8 @@ For more information on how you can associate a milestone path with a project an
    | **Is Active** |Select this checkbox if you want the milestone path to be active. Other users can find this path and attach it to projects when creating or editing projects. Inactive milestone paths cannot be attached to projects. This is enabled by default. |
    | Groups |Select the groups listed to allow users in these groups to see and apply this milestone path to their projects. The home group&nbsp;of the user entering the milestone path is selected by default. |
 
+   {style="table-layout:auto"}
+
 1. Specify the following information in the **Milestones** area:
 
    <table style="table-layout:auto"> 

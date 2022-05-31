@@ -22,7 +22,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -69,9 +69,11 @@ You must have the following access to perform the steps in this article:
    | Move a column |To rearrange the order of columns in a table, click on a column name and drag it to a new location. |
    | Delete a column |To delete a column from a table, click on the column you want to delete then click the x at the right side of the column name. |
 
+   {style="table-layout:auto"}
+
 1. To configure a column, click the name of the column you want to modify in the header row of the table, then one of the following tabs on the right panel:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> class="TableStyle-TableStyle-List-options-in-steps-Column-Column1" /&gt;
     <tbody>
      <tr data-mc-conditions="">
@@ -96,7 +98,7 @@ You must have the following access to perform the steps in this article:
     </tbody>
    </table>
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

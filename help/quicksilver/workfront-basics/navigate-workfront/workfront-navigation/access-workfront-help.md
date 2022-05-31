@@ -13,7 +13,7 @@ Workfront offers a wide variety of content to help you find answers to questions
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

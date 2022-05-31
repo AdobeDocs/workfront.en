@@ -755,7 +755,7 @@ See a list of the Workfront objects types for which you can use this module in [
 
 ### Object types available for each Workfront trigger module {#object-types-available-for-each-workfront-trigger-module}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -1018,7 +1018,7 @@ See a list of the Workfront objects types for which you can use this module in [
 >
 >The Download Document module is not included in this table because Workfront object types are not part of its configuration.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -1405,7 +1405,7 @@ See a list of the Workfront objects types for which you can use this module in [
 
 ### Object types available for each Workfront search module {#object-types-available-for-each-workfront-search-module}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

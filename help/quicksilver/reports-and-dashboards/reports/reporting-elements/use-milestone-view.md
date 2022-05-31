@@ -18,7 +18,7 @@ The Milestone view is available when viewing a project list or&nbsp;project repo
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -141,7 +141,7 @@ To configure whether project status icons and completion percentage of projects 
 
 1. Select from the following options:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

@@ -24,7 +24,7 @@ You can use the Summary panel of a task ```or an issue``` to update important in
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

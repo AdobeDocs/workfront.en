@@ -33,6 +33,8 @@ This is a list of resources that are new to API&nbsp;Version 9, to see a list of
 | `nameKey`  |  |  |  |  |  |  |
 | `securityModelType`  |  |  |  |  |  |  |
 
+{style="table-layout:auto"}
+
 ### AccessLevelPermissions
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
@@ -44,11 +46,15 @@ This is a list of resources that are new to API&nbsp;Version 9, to see a list of
 | `objObjCode`  |  |  |  |  |  |  |
 | `secondaryActions`  |  |  |  |  |  |  |
 
+{style="table-layout:auto"}
+
 ### AccessRulePreference
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | `ID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ### BudgetedHour
 
@@ -62,6 +68,8 @@ This is a list of resources that are new to API&nbsp;Version 9, to see a list of
 | `roleID`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `userID`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ### CalendarPortalSection
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
@@ -74,6 +82,8 @@ This is a list of resources that are new to API&nbsp;Version 9, to see a list of
 | `name`  |  |  |  |  |  | `SEARCH`  |
 | `objID`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `objObjCode`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ### CalendarSection
 
@@ -89,6 +99,8 @@ This is a list of resources that are new to API&nbsp;Version 9, to see a list of
 | `name`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `plannedDate`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `startDate`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ### ExternalSection
 
@@ -115,6 +127,8 @@ This is a list of resources that are new to API&nbsp;Version 9, to see a list of
 | `scrolling`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `url`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `viewID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 &nbsp;
 

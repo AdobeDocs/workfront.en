@@ -22,7 +22,7 @@ For a list of Jira versions that Workfront for Jira currently supports, see [Wor
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -175,7 +175,7 @@ To define what fields should automatically synchronize on items linked between t
 
    1. Select any of the following frequencies with which the fields are synchronized:
 
-      <table>
+      <table style="table-layout:auto">
          <tr>
               <td>On Creation</td>
               <td>The fields you specify are synchronized between the linked Workfront and Jira items when the item is created in Workfront.</td>
@@ -192,7 +192,7 @@ To define what fields should automatically synchronize on items linked between t
 
    1. Select to synchronize any of the following fields from Workfront to Jira:&nbsp;
 
-      <table>
+      <table style="table-layout:auto">
        <col>
        <col>
        <tbody>
@@ -224,7 +224,7 @@ To define what fields should automatically synchronize on items linked between t
 
    1. Select any of the following frequencies with which the fields are synchronized:
 
-      <table>
+      <table style="table-layout:auto">
        <col>
        <col>
        <tbody>
@@ -241,7 +241,7 @@ To define what fields should automatically synchronize on items linked between t
 
    1. Select to synchronize any of the following fields from Jira to Workfront:
 
-      <table>
+      <table style="table-layout:auto">
        <col>
        <col>
        <tbody>
@@ -272,7 +272,7 @@ To define what fields should automatically synchronize on items linked between t
    
    1. Select from the following fields and updates:
 
-      <table>
+      <table style="table-layout:auto">
        <col>
        <col>
        <tbody>

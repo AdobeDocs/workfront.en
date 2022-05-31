@@ -23,6 +23,8 @@ GET /files
 | max&nbsp; |The maximum number of items to return. Used for pagination. |
 | offset&nbsp; |&nbsp;The page offset, used in conjunction with ‘max'. |
 
+{style="table-layout:auto"}
+
 ## Response
 
 JSON containing a list of files and folders. The metadata for each item is the same that returned by the /metadata endpoint.

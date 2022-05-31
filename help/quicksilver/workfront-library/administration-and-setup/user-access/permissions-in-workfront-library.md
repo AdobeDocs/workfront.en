@@ -42,4 +42,6 @@ The following table provides more detailed information about the permissions ava
 | Grant or remove users' access to a portal |✓ |✓ |&nbsp; |
 | Access expired assets |✓ |✓ |✓ (depending on expiration settings) |
 
+{style="table-layout:auto"}
+
 For more information on access levels, see [Overview of user access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md).

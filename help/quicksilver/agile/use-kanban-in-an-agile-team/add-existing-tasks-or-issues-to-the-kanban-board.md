@@ -17,7 +17,7 @@ You can add any task or issue to a Kanban board if you have Manage access to the
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

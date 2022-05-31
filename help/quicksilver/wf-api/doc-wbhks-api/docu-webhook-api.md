@@ -31,7 +31,7 @@ Workfront administrators can add a custom webhook integration for their company 
 
 When adding an integration, the administrator will enter values for the following fields:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -165,7 +165,7 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
 
 **Query Parameters** 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -209,7 +209,7 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
 
 **Response** 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -295,7 +295,7 @@ GET /metadata?id=[document or folder ID]
 
 **Query Parameters** 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -316,7 +316,7 @@ GET /metadata?id=[document or folder ID]
 
 **Response** 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -440,6 +440,8 @@ GET /files
 | max&nbsp; |The maximum number of items to return. Used for pagination. |
 | offset&nbsp; |&nbsp;The page offset, used in conjunction with ‘max'. |
 
+{style="table-layout:auto"}
+
 **Response**
 
 JSON containing a list of files and folders. The metadata for each item is the same that returned by the /metadata endpoint.
@@ -546,7 +548,7 @@ GET /search
 
 **Query Parameters** 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -611,7 +613,7 @@ GET /download
 
 **Query Parameters** 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -651,6 +653,8 @@ GET /thumbnail
 | id&nbsp; |The document ID. |
 | size&nbsp; |&nbsp;The width of the thumbnail |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 **Response**
@@ -671,7 +675,7 @@ POST /uploadInit
 
 **Query Parameters** 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -725,6 +729,8 @@ PUT /upload
 | Name&nbsp; |Description |
 |---|---|
 | id&nbsp; |&nbsp;The document ID, which was just created. |
+
+{style="table-layout:auto"}
 
 &nbsp;
 
@@ -792,7 +798,7 @@ None. In addition, calls to this endpoint should not require authentication.
 
 JSON containing information about this service
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -874,6 +880,8 @@ POST /createFolder
 | parentId&nbsp; |The folder ID in which the folder should be created |
 | name&nbsp; |The name of the new folder |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 **Response**
@@ -919,6 +927,8 @@ PUT /delete
 |---|---|
 | documentId&nbsp; |The document ID to delete |
 | folderId&nbsp; |&nbsp;The folder ID to delete |
+
+{style="table-layout:auto"}
 
 Response A JSON string indicating success or failure, as specified in the Error Handling section below.
 
@@ -970,6 +980,8 @@ PUT /rename
 | id |The document or folder ID to rename |
 | name&nbsp; |The new name of the document or folder |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 Response
@@ -1015,7 +1027,7 @@ GET /customAction
 
 **Query Parameters**
 
-<table>
+<table style="table-layout:auto">
  <col>
  <col>
  <thead>

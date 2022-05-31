@@ -45,6 +45,8 @@ You can install your package in any of the following environments:
 | Sandbox Preview |The Sandbox Preview is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront. All support packages have access to the Sandbox Preview. For more information, see [The Adobe Workfront Preview Sandbox Environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) |
 | Sandbox 1 & 2 |The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain the Custom Refresh Sandbox. For more information, see [The Adobe Workfront Custom Refresh Sandbox environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md). |
 
+{style="table-layout:auto"}
+
 >[!TIP]
 >
 >We recommend first installing the blueprint in a sandbox environment. That way, you can test the blueprint's content and make sure it's a good fit for your organization without making changes to live data.

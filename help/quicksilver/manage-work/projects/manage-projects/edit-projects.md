@@ -27,7 +27,7 @@ You can edit a project in Adobe Workfront as often as needed. We recommend that 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -168,7 +168,7 @@ Some settings mentioned in this article might be modified from their default sta
 
 1. Update the following information about the project:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -290,7 +290,7 @@ Some settings mentioned in this article might be modified from their default sta
 
 1. Update the following financial information for the project:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -347,7 +347,7 @@ Some settings mentioned in this article might be modified from their default sta
 
 1. Update the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -490,6 +490,8 @@ For information about how these settings affect creating new tasks, see the sect
    | Medium |50% |
    | Large |75% |
 
+   {style="table-layout:auto"}
+
    >[!TIP]
    >
    >When the project Update Type is set to Automatic and you select this setting, the Planned Hours of the tasks update according to the task Duration and the Work Effort percentage, if they are set to zero. For more information about using Work Effort to plan effort for a task, see [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md).
@@ -539,7 +541,7 @@ For information about how these settings affect creating new tasks, see the sect
 
 1. Specify the following **Access** information for the project:  
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

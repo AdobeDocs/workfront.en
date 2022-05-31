@@ -24,7 +24,7 @@ You can group by this type of field only by using text mode. For information abo
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

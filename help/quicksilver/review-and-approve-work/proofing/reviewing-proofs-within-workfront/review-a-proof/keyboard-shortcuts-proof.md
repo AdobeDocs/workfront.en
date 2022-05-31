@@ -10,7 +10,7 @@ description: The keyboard shortcuts described in this article are available in b
 
 The keyboard shortcuts described in this article are available in both the Web Proofing Viewer and the Desktop Proofing Viewer.&nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

@@ -22,7 +22,7 @@ You can edit information on tasks that you have created, or that you have Contri
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -189,7 +189,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
 1. Update the following information about the task: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -322,7 +322,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 1. (Optional) Indicate whether an assignee is the primary assignee on the task, by selecting the **Owner** radio button next to their name. A team cannot be the primary assignee of a task. 
 1. (Conditional and optional) Update the following fields: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -357,7 +357,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
           <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> <p>Tip: When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </p> </li> 
          </ul> 
          <p> You can choose from the regular time or elapsed time options in the following table: </p> 
-         <table> 
+         <table style="table-layout:auto"> 
           <col> 
           <col data-mc-conditions=""> 
           <tbody> 
@@ -468,7 +468,7 @@ You can define default custom forms to be automatically attached to tasks when t
 
 1. Update the following fields:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -511,7 +511,7 @@ You can define default custom forms to be automatically attached to tasks when t
 
 1. Update the following fields: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

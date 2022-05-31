@@ -22,7 +22,7 @@ If there are projects with a single currency in the report, the sums in grouping
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -30,7 +30,7 @@ You have the following options for creating a project from a template:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

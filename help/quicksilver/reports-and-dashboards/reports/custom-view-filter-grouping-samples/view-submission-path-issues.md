@@ -17,7 +17,7 @@ You can display the path through which an issue has been submitted in the view o
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

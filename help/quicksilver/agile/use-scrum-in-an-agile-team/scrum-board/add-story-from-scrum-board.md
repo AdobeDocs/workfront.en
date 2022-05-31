@@ -18,7 +18,7 @@ You can quickly create a new story or issue directly from the Scrum board, or ad
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -56,6 +56,8 @@ You must have the following access to perform the steps in this article:
    | **Description** |A description of the item. |
    | **Estimate** |The estimated number of hours or points for the item. |
    | **Parent Project** |(Required) The project where the new story or issue is stored. Start typing the name of a project, then select it when it displays in the list. |
+
+   {style="table-layout:auto"}
 
 1. Click **Add Story** or **Add Issue**.
 
