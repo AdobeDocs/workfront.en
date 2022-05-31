@@ -149,7 +149,7 @@ Using `fixed` or `auto` doesn't matter in most native markdown tables. The excep
 
 ### Native markdown table - Fixed (overlapping to fit)
 
-Default or `{style="table-layout:fixed"}` below the table
+`{style="table-layout:fixed"}` below the table (default)
 
 | Thing | String | Secondary string | Unit of measurement | Spirit animal |
 |--- |--- |--- |--- |--- |
@@ -160,7 +160,7 @@ Default or `{style="table-layout:fixed"}` below the table
 
 ### Native markdown table - Auto (scrollable)
 
-Default or `{style="table-layout:auto"}` below the table.
+`{style="table-layout:auto"}` below the table
 
 Users need to scroll to view table, so beware of tables that are both wide AND tall.
 
