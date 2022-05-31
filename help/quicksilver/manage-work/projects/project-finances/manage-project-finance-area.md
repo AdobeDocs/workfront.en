@@ -18,7 +18,7 @@ You can view or edit the financial information of a project by accessing the Fin
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -65,7 +65,7 @@ Consider the following when viewing or editing information in the Finance area:
 
 1. View the following fields in the Finance area of the project:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -157,7 +157,7 @@ To edit information on the Project Finance subtab:
    >
    >Depending on how your Workfront administrator sets up our Layout Template, the fields in the Project&nbsp;Details section might be different in your environment. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

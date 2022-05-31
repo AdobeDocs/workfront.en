@@ -14,7 +14,7 @@ Comments cannot be edited after a reply is added to the comment. This restrictio
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

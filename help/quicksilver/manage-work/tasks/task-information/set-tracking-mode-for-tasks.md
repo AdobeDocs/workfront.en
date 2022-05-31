@@ -16,7 +16,7 @@ For information about Tracking Mode on tasks, see [Task Tracking Mode overview](
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

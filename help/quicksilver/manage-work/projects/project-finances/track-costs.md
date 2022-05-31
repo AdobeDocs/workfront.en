@@ -58,7 +58,7 @@ Costs = Labor Costs + Expense Costs
 
 * **Labor Costs** are associated with the hours on tasks and projects and the Cost per Hour rates of the resources associated with tasks. Generally, Workfront calculates the following labor costs:
 
-  <table> 
+  <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 
@@ -229,7 +229,7 @@ Issues, can, however, have an **Actual Cost** which also affects the Actual Cost
 
 The following table explains how Actual Cost is calculated for issues, depending on the type of assignment on the issue:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 

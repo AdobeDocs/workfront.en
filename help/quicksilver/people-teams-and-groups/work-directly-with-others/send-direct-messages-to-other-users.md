@@ -21,7 +21,7 @@ The user you are sending the message to receives the following types of notifica
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

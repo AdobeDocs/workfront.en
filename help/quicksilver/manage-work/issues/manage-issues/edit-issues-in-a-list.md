@@ -16,7 +16,7 @@ For information about editing an individual issue, see [Edit issues](../../../ma
 
 You must have the following access to perform the actions in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -98,6 +98,8 @@ You can edit an issue in a list using the Summary.
    | ```Details```  |Click to update information about the issue. |
    | ```Hours```  |Click to log hours. |
    | ```Approvals```  |Click to add issue approvals.  |
+
+   {style="table-layout:auto"}
 
 1. (Optional) Click the **Open Summary** icon again, or the **X icon** in the upper-right of the Summary to close the panel and edit the issue inline.
 

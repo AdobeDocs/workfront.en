@@ -83,7 +83,7 @@ Consider the following rules when using EXISTS statements in a filter:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

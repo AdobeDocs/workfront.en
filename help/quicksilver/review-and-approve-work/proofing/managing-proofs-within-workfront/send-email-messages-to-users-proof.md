@@ -16,7 +16,7 @@ You can choose between sending a generic reminder email or sending a customized 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the **Message details** section, specify the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

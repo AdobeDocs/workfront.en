@@ -18,7 +18,7 @@ Since the document service is the one allowing permission to link to Workfront, 
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

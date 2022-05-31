@@ -16,7 +16,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## A - C
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -325,7 +325,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
     </ul> <p>For information about budgeting Users in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> 
     <div> 
      <p>The hours budgeted in the Resource Budgeting area of the Business Case or the Resource Planner display in the following areas of Workfront and under the following names:</p> 
-     <table> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -710,7 +710,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## D - F
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -890,7 +890,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## G - I
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -1039,7 +1039,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## J - L
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -1177,7 +1177,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## M - O
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -1348,7 +1348,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## P - R
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -1835,7 +1835,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## S - U
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -2173,7 +2173,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## V - Z
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">

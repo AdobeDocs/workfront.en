@@ -257,6 +257,8 @@ This action module exports data from Anaplan. You can export into the following 
 | Model ID |Enter or map the ID of the Model that contains the object you want to export. |
 | Export ID |Enter or map the ID&nbsp;of the export definition that you want to use. |
 
+{style="table-layout:auto"}
+
 #### Get record {#get-record}
 
 This action module returns all accessible records of the selected type.
@@ -302,6 +304,8 @@ This action module imports data into Anaplan using the Anaplan API. For example,
 | Model ID |Select or map the ID of the Model where you want to import data. |
 | Import ID |Enter or map the ID&nbsp;of the import definition that you want to use. |
 
+{style="table-layout:auto"}
+
 #### Read a record  {#read-a-record}
 
 This action module reads a single record.
@@ -332,7 +336,7 @@ This action module reads a single record.
 
 This action module updates a single record in Anaplan.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -363,7 +367,7 @@ This action module updates a single record in Anaplan.
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h4>Upload a file</h4>
 <p>This action module uploads a file to Anaplan. The file must have already been uploaded to Anaplan. You can use this module to upload it to additional locations within Anaplan.</p>
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <tbody>

@@ -18,7 +18,7 @@ Goals with a Progress of In Trouble are in danger of not being achieved and are 
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

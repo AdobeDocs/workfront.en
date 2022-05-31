@@ -82,6 +82,8 @@ The following table illustrates whether changes made to the parent trigger updat
 | Duration&nbsp;Type |Does not update the children |
 | Custom&nbsp;Form information |Does not update the children |
 
+{style="table-layout:auto"}
+
 &#42; The following scenarios exist when you update the&nbsp;Recurrence Frequency of a parent task:
 
 * If you change the Recurrence Frequency on an existing parent task, the existing subtasks are deleted and replaced with new subtasks that follow the new recurrence frequency if they don't show any progress and if you have not manually updated them. 

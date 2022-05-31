@@ -16,7 +16,7 @@ You can edit a single issue or you can edit issues in a list. For information ab
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -131,7 +131,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 1. Update or review any of the fields in the following table: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -247,7 +247,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 1. (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. 
 1. Update the following fields: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     </col> 
     <col> 
@@ -292,7 +292,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
    Update the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     </col> 
     <col> 

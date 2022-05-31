@@ -18,7 +18,7 @@ Using filters, you can modify what information displays in the Resource Planner 
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -26,6 +26,8 @@ To configure Workfront for MobileIron for Android:
 | Allow Screen Capture |When enabled, this option allows users to take screen captures within the Workfront for MobileIron app. |
 | Allow web |When enabled, this option allows users to navigate to a web browser from within the Workfront for MobileIron app. |
 
+{style="table-layout:auto"}
+
 ## iOS
 
 To configure Workfront for MobileIron for iOS:

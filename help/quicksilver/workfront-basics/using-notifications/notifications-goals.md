@@ -26,7 +26,7 @@ You can enable your email notifications for events occurring in&nbsp;Adobe Workf
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -81,7 +81,7 @@ The notifications listed in the following table alert you about events happening
 
 See also [Event notifications](../../workfront-basics/using-notifications/event-notifications.md).
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -78,6 +78,8 @@ You can start preparing your import file by building a report of all users in Wo
    | ID |The ID is the Workfront alphanumeric GUID. |
    | SSO Username |Select the SSO Username field to ensure there are no usernames you are overwriting with your import. This field should be blank for all users, if your users have not yet been updated for SSO. |
 
+   {style="table-layout:auto"}
+
 1. Save the report. 
 1. Click **Export** at the top of the report and export the report to Excel. 
 1. Open the exported Excel file, and start adding your SSO Usernames for each user in the report in the SSO Username column.

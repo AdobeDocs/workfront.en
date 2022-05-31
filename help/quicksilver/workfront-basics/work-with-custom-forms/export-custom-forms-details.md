@@ -27,7 +27,7 @@ This functionality is supported for the following objects:
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

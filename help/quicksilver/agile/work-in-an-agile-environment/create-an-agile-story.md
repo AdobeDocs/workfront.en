@@ -18,7 +18,7 @@ For information about how to manage the story after it is added to the iteration
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
 1. &nbsp;Click **New Story.**
 1. Specify the following information:  
 
-   <table>
+   <table style="table-layout:auto">
     <col>
     <col>
     <tbody>

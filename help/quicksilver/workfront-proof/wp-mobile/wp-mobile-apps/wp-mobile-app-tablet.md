@@ -139,6 +139,8 @@ Proofing text on the go is really in the Workfront Proof tablet app. The text an
    | **Delete** |Strikes through the text and adds [DELETE] to the comment box. |
    | **Insert after** |Adds [INSERT AFTER] into the comment box. |
 
+   {style="table-layout:auto"}
+
 1. (Optional)To paste text from another document you have saved on your tablet, tap and holding your finger on the comment box until you see an option to paste the text copied from the document.
 
    &nbsp;

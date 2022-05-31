@@ -52,7 +52,7 @@ You can view the following Budgeted Cost information in Workfront:
 
 * The Budgeted Cost as reflected in the Resource Budgeting area of the Business Case or the Resource Planner displays in the following areas of Workfront under the following names:
 
-  <table> 
+  <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 

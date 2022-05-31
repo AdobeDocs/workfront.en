@@ -27,7 +27,7 @@ For more information, also see [View: display original issue information on task
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

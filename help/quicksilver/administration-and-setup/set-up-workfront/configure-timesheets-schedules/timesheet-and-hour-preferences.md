@@ -90,7 +90,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the **Logging Time** section, configure any of the following options: 
 
-   <table>
+   <table style="table-layout:auto">
     <tr>
         <td>Log time directly on projects</td>
         <td>Allows users to log time on the project (both on the Updates tab and timesheet). If users do not record time at the project level, this options should remain unchecked.</td>

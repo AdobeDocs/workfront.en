@@ -14,7 +14,7 @@ An Automated Workflow makes it easier to manage the review process if your proce
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -87,7 +87,7 @@ You must have the following access to perform the steps in this article:
    
    1. Use any of the options below to further configure the stage.
 
-      <table>
+      <table style="table-layout:auto">
        <col>
        <col>
        <tbody>
@@ -149,13 +149,15 @@ You must have the following access to perform the steps in this article:
    |---|---|
    | Add custom message |Select this option to include a custom message in the notification. You can specify a subject and message body. The message body can include rich text formatting, such as bold, bullets, and hyperlinks. |
 
+   {style="table-layout:auto"}
+
 1. Continue with [Configure proof settings](#configure-proof-settings) below.
 
 ## Configure proof settings {#configure-proof-settings}
 
 1. In the **Proof settings** section, select any of the following options:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

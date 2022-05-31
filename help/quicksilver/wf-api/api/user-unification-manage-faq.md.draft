@@ -135,4 +135,6 @@ If your organization currently uses SAML 2.0 for SSO, your users will not need t
 | Users can log in to Workfront by specifying the cluster to which they want to log in. |Users must log in to Workfront by specifying the domain to which they want to log in. |Ensure user's login URL specifies the domain to which the user is logging in. |
 | Workfront supports SSO integrations using Active Directory, LDAP, and SAML 1.0 protocols. |Work supports only SSO protocols that are SAML 2.0 compliant. |Ensure your IDP is SAML 2.0 compliant. |
 
+{style="table-layout:auto"}
+
 &nbsp;

@@ -21,7 +21,7 @@ Only organizations that require time entry can use CPI. Furthermore, cost-based 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -60,6 +60,8 @@ Project managers understand that a CPI value of 1 means the project is exactly o
 | 1 |On plan or budget |
 | > 1 (greater than 1) |Under budget |
 | < 1 (less than 1) |Over budget |
+
+{style="table-layout:auto"}
 
 ### How CPI is calculated {#how-cpi-is-calculated}
 

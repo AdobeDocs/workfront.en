@@ -247,7 +247,7 @@ The module returns any standard fields associated with the record, along with an
 
 When you are configuring this module, the following fields display.
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -291,7 +291,7 @@ The module returns the ID of the  file and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -324,7 +324,7 @@ The module returns the ID of the  folder and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -357,7 +357,7 @@ The module returns the ID of the  folder and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -390,7 +390,7 @@ The module returns the ID of the link and any associated fields, along with any 
 
 When you are configuring this module, the following fields display.
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -464,7 +464,7 @@ The module returns the ID of the  file or folder and any associated fields, alon
 
 When you are configuring this module, the following fields display.
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -509,7 +509,7 @@ The module returns the ID of the  file or folder and any associated fields, alon
 
 When you are configuring this module, the following fields display.
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -542,7 +542,7 @@ The module returns the ID of the  record and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -569,7 +569,7 @@ This action module lets you make a custom authenticated call to the Dropbox API.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -58,6 +58,8 @@ When updating the Duration of tasks in a list, you can use the following abbrevi
 | Elapsed Weeks |EW |
 | Elapsed Months |ET |
 
+{style="table-layout:auto"}
+
 **Example:** If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list .  You can also select the preferred option for the Duration Unit of Time from the available drop-down menu when editing a task or in the Task&nbsp;Details section. For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 <!--

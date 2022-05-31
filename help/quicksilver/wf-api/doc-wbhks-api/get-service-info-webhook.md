@@ -27,7 +27,7 @@ None. In addition, calls to this endpoint should not require authentication.
 
 JSON containing information about this service
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

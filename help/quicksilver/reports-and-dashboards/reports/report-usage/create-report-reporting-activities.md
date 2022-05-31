@@ -15,7 +15,7 @@ When you create a report about reports, you can identify specific report informa
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -55,6 +55,8 @@ You must have the following access to perform the steps in this article:
    | **Shared With** |These are all the entities that the report is shared with. |
    | **Entered By** |This is the owner of the report. |
    | **Last Viewed Date** |This is the date and time the report was last viewed by a user. |
+
+   {style="table-layout:auto"}
 
 1. (Optional) To limit your list of reports to specific deactivated users:
 

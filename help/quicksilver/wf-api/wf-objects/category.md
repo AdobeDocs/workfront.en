@@ -11,7 +11,7 @@ description: "Fieldsclass: `java.lang.IllegalArgumentException`, message: 'APIMo
 Fieldsclass: "java.lang.IllegalArgumentException",  
 message: "APIModel INTERNAL does not support field projectid (OpTask)"
 
-<table> 
+<table style="table-layout:auto"> 
  <col width="100"> 
  <col width="100"> 
  <col width="100"> 
@@ -137,6 +137,8 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"
 | Group |group |Group |GROUP | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467)  |
 | Last Updated By |lastUpdatedBy |User |USER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467)  |
 
+{style="table-layout:auto"}
+
 ## Collections
 
 | Name |Label |Type |Type Object Code |URL |
@@ -146,6 +148,8 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"
 | Category Cascade Rules |categoryCascadeRules |Catagory Cascade Rules |CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467)  |
 | Category Parameters |categoryParameters |Category Parameters |CTGYPA | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467)  |
 | Other Groups |otherGroups |Group |GROUP | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467)  |
+
+{style="table-layout:auto"}
 
 ## Actions
 

@@ -31,7 +31,7 @@ Consider the following when reviewing the values for the BCWS on a task or proje
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -71,6 +71,8 @@ You can configure whether the BCWS is calculated in hours or costs by configurin
    |---|---|
    | Cost-Based |Workfront calculates the BCWS using the Planned Cost of the tasks. |
 
+   {style="table-layout:auto"}
+
 1. Click&nbsp;**Save Changes**.
 
    The BCWS of the tasks on the project is calculated using hours or costs.
@@ -92,6 +94,8 @@ The following values are used in this calculation:
 | Planned Percent Complete |This is what the percent complete of the task should be by looking at the amount of time passed between the beginning of the task and today. |
 |---|---|
 | Task Budget |This is the value for the Planned Hours or Planned Cost of the task. |
+
+{style="table-layout:auto"}
 
 For example, if it is February 12 today, and a task is scheduled to last from February 10 to February 20, the task should be 20% complete today. If the Task Budget (Planned Cost) is $10,000, then the BCWS for the task is:
 

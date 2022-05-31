@@ -14,7 +14,7 @@ You can upload your projects as documents for a quick review and approval or sim
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

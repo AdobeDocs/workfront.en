@@ -109,6 +109,8 @@ The 'workfront-service' user requires the following permissions to these locatio
 | > /home | jcr:read |
 | > /conf  |jcr:read |
 
+{style="table-layout:auto"}
+
 A separate package with the ACLs for the 'workfront-service' service user is provided. AC Handling has been set to 'merge' so the package can be uploaded through package share to install without interfering with existing ACLs.
 
 Please work with the customer to determine the best way to incorporate these ACLs to their environment.
@@ -180,4 +182,6 @@ In order to use custom form data from Workfront inside of AEM, you must
    | Property Type |Select **String**.  |
    | Property Path |This field populates automatically. |
    | Multifield |Check the box if the field is set up as a multi-select field in Workfront. |
+
+   {style="table-layout:auto"}
 

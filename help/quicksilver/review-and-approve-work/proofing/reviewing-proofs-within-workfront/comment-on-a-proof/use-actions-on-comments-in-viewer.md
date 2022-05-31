@@ -16,7 +16,7 @@ For information about how your Workfront administrator enables and configures ac
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

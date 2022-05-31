@@ -14,7 +14,7 @@ When you start working on a goal and it becomes irrelevant in your organization,
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

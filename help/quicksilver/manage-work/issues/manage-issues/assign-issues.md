@@ -37,7 +37,7 @@ Assigning issues and tasks is similar in&nbsp;Adobe Workfront. For general infor
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -130,6 +130,8 @@ Depending on which field is visible in the view you can assign the following ent
 |---|---|
 | **Assigned** |Assign one user |
 | **Assignments** |Assign users, job roles, or a team.  |
+
+{style="table-layout:auto"}
 
 To assign issues in a list:
 

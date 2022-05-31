@@ -28,7 +28,7 @@ Clicking "more" allows you to expand the full hierarchy. You can click "Less" to
 
 You can also use the following keys to navigate the breadcrumbs:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -47,7 +47,7 @@ You can also use the following keys to navigate the breadcrumbs:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

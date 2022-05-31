@@ -79,7 +79,7 @@ To create, query, or delete an event subscription, your Workfront user needs the
 
 **Request Headers:** 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -102,6 +102,8 @@ To create, query, or delete an event subscription, your Workfront user needs the
 |---|---|
 | 200 (OK) |The request was processed successfully, and the existing apiKey for the user should be returned in the response body. |
 | 401 (Unauthorized) |The server acknowledges the request but was unable to process it because the requesting apiKey/user does not have access to make this request. |
+
+{style="table-layout:auto"}
 
 **Response Body Example:** 
 
@@ -138,7 +140,7 @@ The subscription resource&nbsp;contains the following fields.
 
    * **String** - The objCode of the object being subscribed to changes. The possible values for objCode are listed in the table below.
 
-     <table> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -248,7 +250,7 @@ Use the following syntax to construct the URL.
 
 **Request Headers:** 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -289,6 +291,8 @@ Use the following syntax to construct the URL.
 | 401 (Unauthorized) |The apiKey provided was empty or deemed invalid. |
 | 403 (Forbidden) |The user, which matches the provided apiKey, does not have administrator access. |
 
+{style="table-layout:auto"}
+
 Passing a&nbsp;subscription resource&nbsp;as the body of a&nbsp;request (with the content-type being&nbsp;“application/json”) results in an event subscription being created for the object specified. A response code of 201 (Created) indicates the subscription was created. A response code other than 201 means the subscription was **NOT** created.
 
 >[!NOTE]
@@ -303,6 +307,8 @@ Passing a&nbsp;subscription resource&nbsp;as the body of a&nbsp;request (with th
 | Date |`→Wed, 05 Apr 2017 21:23:33 GMT` |
 | Location |`→https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/750a636c-5628-48f5-ba26-26b7ce537ac2` |
 | Server |`→Apache-Coyote/1.1` |
+
+{style="table-layout:auto"}
 
 **Response Body Example:**
 
@@ -331,7 +337,7 @@ The request syntax for listing all event subscriptions for a specific customer i
 
 **Request Headers:** 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -356,6 +362,8 @@ The request syntax for listing all event subscriptions for a specific customer i
 | 401 (Unauthorized) |The apiKey provided was empty. |
 | 403 (Forbidden) |The user, which matches the provided apiKey, does not have administrator access. |
 
+{style="table-layout:auto"}
+
 **Response Headers Example:** 
 
 | Response Header |Example |
@@ -364,6 +372,8 @@ The request syntax for listing all event subscriptions for a specific customer i
 | Date |`→Wed, 05 Apr 2017 21:29:32 GMT` |
 | Server |`→Apache-Coyote/1.1` |
 | Transfer-Encoding |`→chunked` |
+
+{style="table-layout:auto"}
 
 **Response Body Example:** 
 
@@ -422,7 +432,7 @@ You can query for event subscriptions by the event subscription's ID. The reques
 
 **Request Headers:** 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -446,6 +456,8 @@ You can query for event subscriptions by the event subscription's ID. The reques
 | 200 (OK) |The request returned with the event subscription matching the provided subscription ID.  |
 | 401 (Unauthorized)  |The apiKey provided was empty. |
 | 403 (Forbidden) |The user, which matches the provided apiKey, does not have administrator access. |
+
+{style="table-layout:auto"}
 
 **Response Body Example:** 
 
@@ -539,7 +551,7 @@ When deleting Workfront's HTTP use the DELETE method. The request syntax for del
 
 **Request Headers:**
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -558,7 +570,7 @@ When deleting Workfront's HTTP use the DELETE method. The request syntax for del
 
 **Response Codes:** 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -593,6 +605,8 @@ When deleting Workfront's HTTP use the DELETE method. The request syntax for del
 |---|---|
 | Date |`→Wed, 05 Apr 2017 21:33:41 GMT` |
 | Server |`→Apache-Coyote/1.1` |
+
+{style="table-layout:auto"}
 
 **Response Body Example:** N/A
 
@@ -781,7 +795,7 @@ You can query all event subscriptions for a customer as specified by the apiKey 
 
 **Request Headers:** 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -800,7 +814,7 @@ You can query all event subscriptions for a customer as specified by the apiKey 
 
 **Response Codes:** 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 

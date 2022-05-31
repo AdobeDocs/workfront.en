@@ -14,7 +14,7 @@ Find the work assigned to you in Adobe Workfront without leaving Adobe Photoshop
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -49,7 +49,7 @@ The Work List allows you to view all of the tasks and issues assigned to you in 
 
 Use the Sort by option to group similar items in the Work List. You can sort by:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -72,7 +72,7 @@ Use the Filter to narrow your focus to specific work items. There are a couple o
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -91,7 +91,7 @@ Use the Filter to narrow your focus to specific work items. There are a couple o
 
 Use the Search bar to locate projects, tasks, issues, and documents you need. 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

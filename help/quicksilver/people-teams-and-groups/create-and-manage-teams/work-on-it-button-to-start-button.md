@@ -20,7 +20,7 @@ You can replace the Work On It button with a Start button for a team you belong 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

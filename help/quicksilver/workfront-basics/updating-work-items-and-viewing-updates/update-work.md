@@ -21,7 +21,7 @@ You&nbsp;can add updates to an object from the following areas of Workfront:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -65,6 +65,8 @@ You must have the following access to perform the steps in this article:
    | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |&nbsp;Ctrl+Shift+7 |
    | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |Ctrl+Shift+9 |
+
+   {style="table-layout:auto"}
 
    To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
 
@@ -123,7 +125,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Specify any of the following items:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

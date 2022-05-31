@@ -81,7 +81,7 @@ This trigger module executes a scenario when objects of a specific type are adde
 
 When you are configuring this module, the following fields display.
 
-<table> <table style="table-layout:auto"> <col> 
+<table style="table-layout:auto"> <table style="table-layout:auto"> <col> 
  <col> 
  <tbody> 
   <tr> 

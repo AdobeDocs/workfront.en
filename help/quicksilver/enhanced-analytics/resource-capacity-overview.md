@@ -56,7 +56,7 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

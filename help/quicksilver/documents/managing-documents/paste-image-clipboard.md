@@ -23,7 +23,7 @@ This feature is browser-specific,&nbsp;as follows:
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

@@ -34,7 +34,7 @@ To learn more about delegating approvals, see [Delegate approval request](../../
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -74,6 +74,8 @@ You must have the following access to perform the steps in this article:
    | **To User** |This is the user that has task, issue, and project approvals delegated to them. |
    | **Start** |This is the beginning of the out of office time for the user that has made the delegations. |
    | **End** |This is the end of the out of office time for the user that has made the delegations. |
+
+   {style="table-layout:auto"}
 
 1. (Optional) In the report builder, modify the following:
 

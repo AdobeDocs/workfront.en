@@ -15,7 +15,7 @@ You can use the proofing viewer to compare two different proofs or two versions 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

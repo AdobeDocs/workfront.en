@@ -73,7 +73,7 @@ There are two areas in the Workload Balancer where you can view work items:
 
 The following table describes which items display in each area based on their assignments:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

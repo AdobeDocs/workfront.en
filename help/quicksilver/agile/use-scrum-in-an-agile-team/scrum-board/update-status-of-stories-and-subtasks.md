@@ -18,7 +18,7 @@ You can change the status of a story directly from the agile story board to refl
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

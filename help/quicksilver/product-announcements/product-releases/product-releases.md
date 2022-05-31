@@ -14,7 +14,7 @@ For release information in addition to product documentation about current relea
 
 For information about the Adobe Workfront release schedule, see [Adobe Workfront release schedule and process](../../product-announcements/product-releases/workfront-release-schedule.md).
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

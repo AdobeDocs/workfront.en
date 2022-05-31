@@ -34,6 +34,8 @@ The following table displays four Projects and their basic details that need to 
    | Group |Marketing |
    | Company |*YourCompany* |
 
+   {style="table-layout:auto"}
+
 1. Implement HR&nbsp;System.
 
    | Planned Start Date |July 14, 20XX |
@@ -42,6 +44,8 @@ The following table displays four Projects and their basic details that need to 
    | Project Sponsor |Marc Lewis |
    | Group |Marketing |
    | Company |*YourCompany* |
+
+   {style="table-layout:auto"}
 
 1. Implement Document Management System.
 
@@ -52,6 +56,8 @@ The following table displays four Projects and their basic details that need to 
    | Group |IT |
    | Company |*YourCompany* |
 
+   {style="table-layout:auto"}
+
 1. Implement New Calendar System.
 
    | Planned Start Date |September 6, 20XX |
@@ -60,6 +66,8 @@ The following table displays four Projects and their basic details that need to 
    | Project Sponsor |Ray Andrews |
    | Group |IT |
    | Company |*YourCompany* |
+
+   {style="table-layout:auto"}
 
 ### Task list {#task-list}
 
@@ -221,6 +229,8 @@ Parent tasks inherit the Duration, Work, and Percent Complete of children tasks.
 
    | Pred |1, 6, 7 |
    |---|---|
+
+   {style="table-layout:auto"}
 
 1. Train users.
 

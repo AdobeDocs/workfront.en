@@ -22,7 +22,7 @@ Workfront supports the following agile methodologies:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -85,7 +85,7 @@ The following functionality supports this methodology:
 
 1. Specify the following information on the New Team dialog:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

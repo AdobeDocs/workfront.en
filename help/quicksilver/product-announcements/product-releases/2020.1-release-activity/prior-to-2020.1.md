@@ -12,7 +12,7 @@ The following features were made available to the Workfront Classic Production e
 
 For information about the release time frame and all functionality available with the 2020.1 release, see [2020.1 release overview](../../../product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md).
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 

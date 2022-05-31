@@ -62,7 +62,7 @@ You can expand or refine your search in Workfront Library or in a portal by usin
 
 The following table lists the available search operators.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 

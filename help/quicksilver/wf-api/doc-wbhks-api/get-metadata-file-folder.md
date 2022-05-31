@@ -17,7 +17,7 @@ GET /metadata?id=[document or folder ID]
 
 ## Query Parameters
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -38,7 +38,7 @@ GET /metadata?id=[document or folder ID]
 
 ## Response
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

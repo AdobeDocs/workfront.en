@@ -27,7 +27,7 @@ For information about creating a timesheet profile that generates recurring time
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -92,7 +92,7 @@ You must have the following to perform the steps in this article:
 1. Click **New Timesheet** at the top of the list of timesheets.
 1. Specify the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

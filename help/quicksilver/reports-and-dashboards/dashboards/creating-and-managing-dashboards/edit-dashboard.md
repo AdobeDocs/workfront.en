@@ -32,7 +32,7 @@ When you share a dashboard with users, all the reports, calendars, and external 
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

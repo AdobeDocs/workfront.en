@@ -72,7 +72,7 @@ Each icon takes you to a different area of the new Adobe Workfront experience. T
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
 -->
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -107,7 +107,7 @@ Each icon takes you to a different area of the new Adobe Workfront experience. T
 
 Below these options in the Main Menu, you can access:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

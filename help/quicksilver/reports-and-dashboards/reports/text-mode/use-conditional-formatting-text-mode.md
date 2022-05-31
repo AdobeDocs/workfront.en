@@ -21,7 +21,7 @@ For more information about applying conditional formatting to a view, see [Use c
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -116,7 +116,7 @@ For more information, see [Format dates in text mode reports](../../../reports-a
 <p>If you wanted to show the Planned Completion Date as <em>Mth, DD, Year</em>, the code would look like:</p>
 <pre>valueformat=mediumAtdate<br>valuefield=plannedCompletionDate</pre>
 <p>You can format dates using the following <code>valueformat</code>&nbsp;text mode values:</p>
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <col>
@@ -310,16 +310,22 @@ The following lines must be modified to reflect the corresponding formatting nee
 | Red |<pre>d30519</pre> |
 | Yellow |<pre>e19503</pre> |
 
+{style="table-layout:auto"}
+
 | **Alignment** |**Line: align=** |
 |---|---|
 | Left alignment |<pre>left</pre> |
 | Right alignment |<pre>right</pre> |
 | Center Alignment |<pre>center</pre> |
 
+{style="table-layout:auto"}
+
 | Font |Line:&nbsp;***fontstyle=*** |
 |---|---|
 | Bold |<pre>bold</pre> |
 | Italic |<pre>italic</pre> |
+
+{style="table-layout:auto"}
 
 | **Background Color** |**Line: bgcolor=** |
 |---|---|
@@ -331,6 +337,8 @@ The following lines must be modified to reflect the corresponding formatting nee
 | Red |<pre>eac6c9</pre> |
 | Yellow |<pre>feecc8</pre> |
 | White |<pre>ffffff</pre> |
+
+{style="table-layout:auto"}
 
 #### Multiple conditional formats {#multiple-conditional-formats}
 
@@ -419,6 +427,8 @@ To use the images available, apply the following code and values:
 | Red Circle&nbsp; ![](assets/dot-red.png)|=`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
 | White Circle&nbsp; ![](assets/dot-white.png)|=`/interface/images/v4_redux/icons/casebuilder/light_white.gif&nbsp;` |
 | Yellow Circle&nbsp; ![](assets/dot-yellow.png)|=`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
+
+{style="table-layout:auto"}
 
 ### Conditionally format a 
 

@@ -11,7 +11,7 @@ Adobe Workfront Fusion Encryptor modules allow you to encrypt any text data. The
 
 You must have the following access to use the functionality in this article:
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -84,5 +84,3 @@ This module allows you to decrypt a message using public and private keys.
         <td>Map the message that you want to decrypt.</td>
     </tr>
 </table>
-
-&nbsp;

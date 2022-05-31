@@ -15,7 +15,7 @@ You can set a single deadline for a basic proof after it's been created.
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

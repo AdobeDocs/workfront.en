@@ -17,7 +17,7 @@ As an alternative to deleting a project, Adobe Workfront recommends&nbsp;editing
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

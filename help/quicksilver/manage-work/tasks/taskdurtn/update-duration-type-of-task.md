@@ -14,7 +14,7 @@ The Duration Type of a task identifies the relationship between the number of re
 
 You must have the following to change the Duration&nbsp;Type of a task:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -61,6 +61,8 @@ To update the Duration&nbsp;Type of a task:
    | Effort Driven |For information, see [Duration Type overview: Effort Driven](../../../manage-work/tasks/taskdurtn/effort-driven.md).  |
    | Calculated Assignment |For information, see [Duration Type overview: Calculated Assignment](../../../manage-work/tasks/taskdurtn/calculated-assignment.md).  |
    | Simple |For information, see [Duration Type overview: Simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).  |
+
+   {style="table-layout:auto"}
 
 1. Click **Save**&nbsp;**Changes**.
 

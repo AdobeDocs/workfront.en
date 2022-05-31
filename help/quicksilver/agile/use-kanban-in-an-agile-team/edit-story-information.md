@@ -12,7 +12,7 @@ description: When viewing a story tile on the Kanban board, the information in t
 
 When viewing&nbsp;a story tile on the Kanban board, the information in the following table is available. You can edit most information inline, directly from the story tile.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -70,7 +70,7 @@ When viewing&nbsp;a story tile on the Kanban board, the information in the follo
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

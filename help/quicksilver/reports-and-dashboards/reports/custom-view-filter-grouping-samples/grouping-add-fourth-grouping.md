@@ -21,7 +21,7 @@ For example, you might have a task report which is grouped by Project Name, Prog
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

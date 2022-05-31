@@ -27,6 +27,8 @@ Depending on the access level, up to 3 settings are available for most of the Wo
 | View |Users can review and share the Workfront object |
 | No Access |Users cannot access the Workfront object |
 
+{style="table-layout:auto"}
+
 If you need a custom Planner, Worker, Requester, or Reviewer access level, you can copy the built-in access level and determine the amount of access you want it to allow for the various Workfront object types. For information on creating a custom access level or modifying one of the built-in access levels, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
@@ -76,6 +78,8 @@ The following are the highest access settings available for objects in the Plann
 | Scenario Planner  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
 | Workfront Goals  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
 
+{style="table-layout:auto"}
+
 ## Worker access level
 
 Attached to the Work license, this built-in access level is designed for users who for perform the work in Workfront. They do not plan the work; they complete it.
@@ -109,6 +113,8 @@ The following are the highest access settings available for objects in the Worke
 | Resource Management |&nbsp; |✓ |&nbsp; |
 | Scenario Planner  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
 | Workfront Goals  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
+
+{style="table-layout:auto"}
 
 ## Reviewer access level
 
@@ -261,6 +267,8 @@ The following are the highest access settings available for objects in the Reque
 | Resource Management |✓ |&nbsp; |&nbsp; |
 | Scenario Planner  |✓ |&nbsp; |&nbsp; |
 | Workfront Goals  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
+
+{style="table-layout:auto"}
 
 ## External User access level
 

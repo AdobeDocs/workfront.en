@@ -18,7 +18,7 @@ You can view the overall health of your goals and their progress trend in time i
 
 You must have the following access to perform the actions described in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -65,7 +65,7 @@ You must have the following before you can start:
 
 The following charts are available in the Graphs section or Workfront Goals: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -122,11 +122,13 @@ The following charts are available in the Graphs section or Workfront Goals:
    | Average percent complete |At the top of the chart, this number indicates the average percent complete of active and closed goals in the selected time period. |
    | Goals and their progress |The number of goals for each progress status segment, when you hover over the segments of the chart. Only goals in a status of Active or Closed are counted in the segments.  |
 
+   {style="table-layout:auto"}
+
 1. Review the information in the table below when you review the Goal&nbsp;Progress Chart.
 
    ![](assets/line-graph-wf-align-350x161.png)
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

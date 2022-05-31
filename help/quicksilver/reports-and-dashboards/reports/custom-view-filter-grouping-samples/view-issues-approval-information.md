@@ -17,7 +17,7 @@ The following issue view shows the approval process, step, names of the approver
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

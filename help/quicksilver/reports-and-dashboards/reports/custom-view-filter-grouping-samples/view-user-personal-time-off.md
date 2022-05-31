@@ -19,7 +19,7 @@ You can build a Time Off report to capture users' time off information.
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -57,6 +57,8 @@ You must have the following access to perform the steps in this article:
    |---|---|
    | Start Date |The Start&nbsp;Date of the period of time off that the user indicated. |
    | End Date |The End Date of the period of time off that the user indicated. |
+
+   {style="table-layout:auto"}
 
 1. (Optional) Finish creating the report by editing any of the following tabs:
 

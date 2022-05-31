@@ -20,7 +20,7 @@ Using a checklist on a card allows you to break down work into smaller increment
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -48,7 +48,7 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
 1. Click **Add card &gt; New card**.
 1. In the **Card Details** box, add the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

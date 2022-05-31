@@ -25,7 +25,7 @@ Future availability in the Production environment varies by feature. After a fea
 <ul>
 <li><a href="#workfront-app-for-ipad" class="MCXref xref" xrefformat="{para}">Workfront app for iPad</a> </li>
 </ul>
-<table>
+<table style="table-layout:auto">
 <col>
 <tbody>
 <tr>
@@ -58,7 +58,7 @@ Future availability in the Production environment varies by feature. After a fea
 <ul>
 <li><a href="#navigation-in-android-mobile-app-more-closely-resembles-navigation-when-accessing-workfront-in-a-browser" class="MCXref xref" xrefformat="{para}">Navigation in Android mobile app more closely resembles navigation when accessing Workfront in a browser</a> </li>
 </ul>
-<table>
+<table style="table-layout:auto">
 <col>
 <tbody>
 <tr>
@@ -92,7 +92,7 @@ Future availability in the Production environment varies by feature. After a fea
 
 * [Resource Planner custom columns](#resource-planner-custom-columns)
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
@@ -125,7 +125,7 @@ Future availability in the Production environment varies by feature. After a fea
 * [New design applied to lists for Template tasks, Portfolios, and more](#new-design-applied-to-lists-for-template-tasks-portfolios-and-more) 
 * [The Workload Balancer beta](#the-workload-balancer-beta)
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
@@ -258,7 +258,7 @@ Future availability in the Production environment varies by feature. After a fea
 * [Delete objects using the Mobile app on Android](#delete-objects-using-the-mobile-app-on-android) (Available on October 8)
 * [Convert Tasks, Issues, and Requests to a Project using the mobile app on Android](#convert-tasks-issues-and-requests-to-a-project-using-the-mobile-app-on-android) (Available on October 8)
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
@@ -361,7 +361,7 @@ Future availability in the Production environment varies by feature. After a fea
 * [New design applied to additional lists](#new-design-applied-to-additional-lists) 
 * [New shortcuts for quick filters](#new-shortcuts-for-quick-filters)
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 

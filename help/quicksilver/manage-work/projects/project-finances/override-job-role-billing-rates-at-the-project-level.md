@@ -24,7 +24,7 @@ For more information about which job role is used to calculate revenue on the pr
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

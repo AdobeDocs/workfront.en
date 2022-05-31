@@ -14,7 +14,7 @@ The organizational chart feature allows you to to view the organizational chart 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

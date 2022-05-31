@@ -11,7 +11,7 @@ description: The Updates tab shows up to 200 of the most recent updates made wit
 
 The Updates tab shows up to 200 of the most recent updates made within the past 90 days.&nbsp;You can reply to updates on the following objects:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -44,7 +44,7 @@ As shown in the following table, replies made to updates on certain objects also
 
 For example, when you add an update to a task, the update appears on the Updates tab for the task and on the Updates tab for the project containing the task.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 

@@ -18,7 +18,7 @@ You can make comments on the following items in a timesheet:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

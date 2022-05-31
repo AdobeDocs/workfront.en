@@ -14,7 +14,7 @@ The Favorites menu allows you to access items quickly. Items remain on the Favor
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

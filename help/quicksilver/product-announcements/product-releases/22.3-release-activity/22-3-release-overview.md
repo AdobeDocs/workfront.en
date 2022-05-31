@@ -55,7 +55,7 @@ later this year
 
 ### Administrator enhancements {#administrator-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -106,7 +106,7 @@ later this year
 
 ### Project enhancements {#project-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -203,7 +203,7 @@ later this year
 
 ### Integration enhancements {#integration-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -227,7 +227,7 @@ later this year
 
 ### Other enhancements {#other-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

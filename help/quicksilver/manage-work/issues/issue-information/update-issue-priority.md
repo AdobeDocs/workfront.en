@@ -16,7 +16,7 @@ You must have Manage permissions to the issue to modify the Priority of the issu
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -54,7 +54,7 @@ For more information about customizing the names of priorities in your instance,
 
 Refer to the following table to understand each&nbsp;default priority label and its corresponding number: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 

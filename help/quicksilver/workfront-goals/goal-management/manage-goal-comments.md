@@ -18,7 +18,7 @@ You can add comments to all goals you can view in&nbsp;Adobe Workfront Goals.
 
 You must have the following access to perform the actions described in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

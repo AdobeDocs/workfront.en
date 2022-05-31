@@ -25,7 +25,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -83,7 +83,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 Returns file details when a new file is added and/or modified in the specified folder.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -145,7 +145,7 @@ Returns file details when a new file is added and/or modified in the specified f
 
 Uploads a file to the specified shared drive.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -180,7 +180,7 @@ Uploads a file to the specified shared drive.
 
 Allows you to change the file name and/or file content.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -219,7 +219,7 @@ Allows you to change the file name and/or file content.
 
 Copies a specified file to the selected folder.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -250,7 +250,7 @@ Copies a specified file to the selected folder.
 
 Deletes a specified file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -269,7 +269,7 @@ Deletes a specified file.
 
 Moves a specified file to the trash bin.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -288,7 +288,7 @@ Moves a specified file to the trash bin.
 
 Retrieves details about the specified file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -323,7 +323,7 @@ Retrieves details about the specified file.
 
 Retrieves files and/or folders details based on the search term.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -367,7 +367,7 @@ Retrieves files and/or folders details based on the search term.
 
 Creates a new folder.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

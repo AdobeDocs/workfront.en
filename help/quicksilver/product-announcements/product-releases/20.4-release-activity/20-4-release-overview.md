@@ -38,7 +38,7 @@ This page provides information about functionality for both Adobe Workfront Clas
 
 ### Administrator enhancements {#administrator-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -87,7 +87,7 @@ This page provides information about functionality for both Adobe Workfront Clas
 
 ### Resource Management enhancements {#resource-management-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -140,7 +140,7 @@ This page provides information about functionality for both Adobe Workfront Clas
 
 ### Project Management enhancements {#project-management-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -186,7 +186,7 @@ This page provides information about functionality for both Adobe Workfront Clas
 
 ### Enhanced analytics  {#enhanced-analytics}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -203,7 +203,7 @@ This page provides information about functionality for both Adobe Workfront Clas
 
 ### Proofing enhancements {#proofing-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -228,7 +228,7 @@ This page provides information about functionality for both Adobe Workfront Clas
 
 ### Mobile and integration enhancements {#mobile-and-integration-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -253,7 +253,7 @@ This page provides information about functionality for both Adobe Workfront Clas
 
 ### Other enhancements {#other-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

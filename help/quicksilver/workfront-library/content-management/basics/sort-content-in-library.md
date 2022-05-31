@@ -33,6 +33,8 @@ When you sort items in Workfront Library, you sort only your instance of Workfro
      | Folders |All folders are sorted by their creation dates. Changes made to a folder, such as items added or the folder renamed, are not considered when sorting by Last Modified. |
      | Collections |All collections are sorted by their creation dates. Changes made to a collection, such as items added or the collection renamed, are not considered when sorting by Last Modified. |
 
+     {style="table-layout:auto"}
+
 1. Click the sort arrows to select the desired sort order.
 
    ![](assets/ascendingarrow.png)

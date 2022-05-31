@@ -16,7 +16,7 @@ In an Adobe Workfront Fusion scenario, you can use the math module to calculate 
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ You must have the following access to use the functionality in this article:
 
 You can use this module to easily calculate math expressions. 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -20,7 +20,7 @@ You can reset your Adobe Workfront password. As an important security measure, w
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

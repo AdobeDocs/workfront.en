@@ -14,7 +14,7 @@ Topic Groups are associated with Request Queues. They allow you to layer your Re
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

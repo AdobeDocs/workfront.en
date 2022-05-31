@@ -14,7 +14,7 @@ You can delete plans that you created. You cannot delete plans that are shared w
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -18,7 +18,7 @@ You can manually update task statuses or you can let Workfront automatically upd
 
 You must have the following access to manually update tasks: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -68,7 +68,7 @@ Workfront automatically updates the existing status of a task to a different sta
 >
 >The statuses in the following table are default system statuses. Your Workfront administrator or a group administrator can rename the statuses in your instance of Workfront. For information about creating and managing statuses in Workfront, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

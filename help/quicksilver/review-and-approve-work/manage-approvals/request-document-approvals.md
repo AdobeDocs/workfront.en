@@ -14,7 +14,7 @@ You can request approval from managers or other users for a document in Adobe Wo
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

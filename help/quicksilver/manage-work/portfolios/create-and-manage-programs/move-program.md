@@ -14,7 +14,7 @@ You can add existing programs to a portfolio.&nbsp;Because programs cannot exist
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

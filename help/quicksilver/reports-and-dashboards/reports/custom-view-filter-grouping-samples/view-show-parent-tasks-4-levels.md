@@ -17,7 +17,7 @@ This task view shows the task name in the first column and (if they exist) up to
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

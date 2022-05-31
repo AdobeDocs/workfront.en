@@ -15,7 +15,7 @@ The Summary allows you to interact with important information directly from the 
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

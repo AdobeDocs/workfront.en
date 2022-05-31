@@ -32,7 +32,7 @@ You can do this for yourself or for any user that you have access to edit. For m
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

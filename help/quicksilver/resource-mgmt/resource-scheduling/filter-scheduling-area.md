@@ -36,7 +36,7 @@ You can&nbsp;schedule resources or an individual team you are a member of or for
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

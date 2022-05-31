@@ -30,7 +30,7 @@ Adobe Workfront administrators or group administrators can generate timesheets f
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

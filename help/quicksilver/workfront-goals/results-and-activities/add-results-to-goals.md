@@ -15,7 +15,7 @@ Results measure the progress of a goal. Without associating results, activities,
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -89,6 +89,8 @@ You must have the following before you can start:
    |---|---|
    | % |Percentage value |
    | $, CN¥, DKK, KR, Mex$, R, R$, zł, £ , ¥ , € , ₹, ฿, MYR, ₪  |Currency values |
+
+   {style="table-layout:auto"}
 
    For example, if you want to increase profit to 8%, and profit is currently at 4%, you can select % as the Measured Value.
 

@@ -27,7 +27,7 @@ Consider the following information when you are creating a new version of a proo
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -59,6 +59,17 @@ There are several ways to upload a new proof version in Workfront. Default proof
 * **Create proof > Simple**: Default proof settings do not carry over. If you choose Simple when creating a new proof version, default proof settings do not carry over from the previous version.
 * **Add new > Version > Proof**: Default proof settings carry over from the previous version.
 * **Create proof > Advanced**: Default proof settings carry over from the previous version.
+
+<!-- WRITER - Please check table below-->>
+
+|Setting| Description|
+|---|---|
+| Automatically generate proofs when uploading documents | Default proof settings do not carry over. If you have this setting enabled in your user profile, default proof settings do not carry over when you drag and drop a new version. |
+| Create proof > Simple | Default proof settings do not carry over. If you choose Simple when creating a new proof version, default proof settings do not carry over from the previous version.|
+| Add new > Version > Proof | Default proof settings carry over from the previous version. |
+| Create proof > Advanced | Default proof settings carry over from the previous version. |
+
+{style="table-layout:auto"}
 
 To create a new version of a proof:
 

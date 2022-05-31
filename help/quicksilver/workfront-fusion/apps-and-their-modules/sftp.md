@@ -16,7 +16,7 @@ The Adobe Workfront Fusion SFTP modules allow you to monitor file changes in a s
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -60,7 +60,7 @@ In order to use SFTP with Workfront Fusion, it is necessary to have an SFTP acco
 
 To connect your SFTP account to Workfront Fusion you need to enter the target Host and the SFTP credentials (user name and password or user name and key) to the module's Create a connection dialog.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -103,7 +103,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 Returns files with details when a file is created or changed in a specified folder.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -130,7 +130,7 @@ Returns files with details when a file is created or changed in a specified fold
 
 Returns folders with details when a folder is created or changed in a specified folder.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -153,7 +153,7 @@ Returns folders with details when a folder is created or changed in a specified 
 
 #### List a folder's content
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -196,7 +196,7 @@ Returns folders with details when a folder is created or changed in a specified 
 
 This module lists files from a specified folder.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -239,7 +239,7 @@ This module lists files from a specified folder.
 
 This module retrieves file details, including a file's data.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -262,7 +262,7 @@ This module retrieves file details, including a file's data.
 
 This module allows you to upload a file to the SFTP server.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -289,7 +289,7 @@ This module allows you to upload a file to the SFTP server.
 
 Renames a file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -310,7 +310,7 @@ Renames a file.
 
 #### Move a File
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -331,7 +331,7 @@ Renames a file.
 
 #### Delete a File
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -350,7 +350,7 @@ Renames a file.
 
 Allows you to change permissions of the file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -377,7 +377,7 @@ Creates a new folder in the specified location.
 >
 >If the folder already exists, the module will throw an error. To continue the flow uninterrupted, attach an error handler route to the module to catch the error and employ the Resume directive to continue the flow. For information about attaching an error handler route, see [Error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md). For information about the error handler route, see [Directives for error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md).
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -402,7 +402,7 @@ Creates a new folder in the specified location.
 
 #### Delete a Folder
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

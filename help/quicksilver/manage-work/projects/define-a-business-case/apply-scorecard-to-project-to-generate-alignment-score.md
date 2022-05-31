@@ -15,7 +15,7 @@ For more information about scorecards and how you can create one, see [Create a 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

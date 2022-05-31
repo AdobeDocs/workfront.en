@@ -18,7 +18,7 @@ Projects represent a large amount of work that needs to be done in Adobe Workfro
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

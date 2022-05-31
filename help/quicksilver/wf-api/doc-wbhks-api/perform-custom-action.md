@@ -21,7 +21,7 @@ GET /customAction
 
 ## Query Parameters
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 

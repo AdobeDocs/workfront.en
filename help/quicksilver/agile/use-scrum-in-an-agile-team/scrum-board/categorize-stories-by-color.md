@@ -20,7 +20,7 @@ The default color&nbsp;association&nbsp;of stories differs depending on whether 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

@@ -16,7 +16,7 @@ Overallocations can appear when the Budgeted Hours, FTE, or Costs of your resour
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
