@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -40,16 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr>
  </tbody> 
 </table>
 
@@ -113,7 +104,7 @@ When you are configuring this module, the following fields display.
 
 The module returns the a status code, along with the headers and body of the API&nbsp;call.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -136,7 +127,7 @@ The module returns the a status code, along with the headers and body of the API
 
 This action module reads information about a specific record.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -163,7 +154,7 @@ This action module reads information about a specific record.
 
 This action module registers an invitee for an event.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -186,7 +177,7 @@ This action module registers an invitee for an event.
 
 This action module invites a contact to an event.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -209,7 +200,7 @@ This action module invites a contact to an event.
 
 This action module deletes a single contact in Cvent.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -228,7 +219,7 @@ This action module deletes a single contact in Cvent.
 
 This action module updates an existing contact using its ID.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -255,7 +246,7 @@ This action module updates an existing contact using its ID.
 
 This action module adds a meeting request to your account.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -288,7 +279,7 @@ This action module adds a meeting request to your account.
 
 This search module retrieves information about all records of a specific type.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
