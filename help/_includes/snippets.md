@@ -23,6 +23,8 @@ The highlighted information on this page refers to functionality not yet general
 1. This is a snippet step, the first of two.
 1. This is a snippet step, the second of two.
 
+![image](assets/adobecclogo.png)
+
 <!--
 
 For each snippets, create a head 2 section and add an anchor, such as

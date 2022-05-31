@@ -4,12 +4,12 @@ content-type: reference
 product-area: requests
 navigation-topic: requests-navigation-topic
 title: Create requests
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: Requests and issues are interchangeable in Adobe Workfront. You can create requests by submitting a request in Workfront, submitting a request in another application, or emailing a request into a project which is set up as a Request Queue.
 ---
 
 # Create requests
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+{{highlighted-preview}}
 
 Requests and issues are interchangeable in Adobe Workfront. You can create requests by doing one of the following:
 

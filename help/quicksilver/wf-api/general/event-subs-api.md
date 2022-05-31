@@ -3,14 +3,14 @@ filename: event-subs-api
 content-type: api
 navigation-topic: general-api
 title: Event Subscription API
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: When an action occurs on a Adobe Workfront object that is supported by event subscriptions, you can configure Workfront to send a response to your desired endpoint. This means that third-party applications can receive updates from Workfront interactions via the Workfront API soon after they occur. In general, you can expect to receive webhook notifications in less than 5 seconds from the data change being logged. On average, customers receive webhook notifications in less than 1 second from the data change being logged.
 ---
 
 # Event Subscription API
 
 <!--BOB clean this up-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+{{highlighted-preview}}
 
 &nbsp;
 

@@ -13,7 +13,7 @@ description: You can add companies to Workfront and use them for financial plann
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.**
 -->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+{{highlighted-preview}}
 
 A company is an organizational unit in Adobe Workfront that can represent your organization, a department within the organization, or a client you work with. You can add companies to Workfront and use them for financial planning, reporting purposes, to define permissions around objects, and to keep information confidential.
 
