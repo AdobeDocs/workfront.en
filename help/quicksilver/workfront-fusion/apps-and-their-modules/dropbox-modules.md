@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -40,16 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -80,7 +71,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This Trigger type module returns file details when the file in a specified folder is modified.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -117,7 +108,7 @@ This search module looks for records in an object in Dropbox that match the sear
 
 You can map this information in subsequent modules in the scenario.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -166,7 +157,7 @@ The module returns the ID of the file and any associated fields, along with any 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -195,7 +186,7 @@ The module returns the ID of the folder and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -220,7 +211,7 @@ The module returns the IDs of the files or foldes and any associated fields, alo
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -256,7 +247,7 @@ The module returns any standard fields associated with the record, along with an
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -300,7 +291,7 @@ The module returns the ID of the  file and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -333,7 +324,7 @@ The module returns the ID of the  folder and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -366,7 +357,7 @@ The module returns the ID of the  folder and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -399,7 +390,7 @@ The module returns the ID of the link and any associated fields, along with any 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -440,7 +431,7 @@ The module returns the ID of the  version and any associated fields, along with 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -473,7 +464,7 @@ The module returns the ID of the  file or folder and any associated fields, alon
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -518,7 +509,7 @@ The module returns the ID of the  file or folder and any associated fields, alon
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -551,7 +542,7 @@ The module returns the ID of the  record and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -612,13 +603,29 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-**Example:** The following API call returns the first 10 files from the /Text files folder in your Dropbox account:
-
-URL:
-<pre>/2/files/list_folder</pre>Body:
-<pre>{</pre><pre>"path": "/Text files",</pre><pre>"limit": 10,</pre><pre>"recursive": false,</pre><pre>"include_deleted": false</pre><pre>}</pre>Matches of the search can be found in the module's Output under Bundle > Body > entries.
-
-In our example, 10 tickets were returned:
+>[!INFO]
+>
+>**Example:** The following API call returns the first 10 files from the /Text files folder in your Dropbox account:
+>
+>URL: `/2/files/list_folder`
+>
+>Body:
+> 
+>```{```
+>
+>```"path": "/Text files",```
+>
+>```"limit": 10,```
+>
+>```"recursive": false,```
+>
+>```"include_deleted": false```
+>
+>```}```
+>
+>Matches of the search can be found in the module's Output under Bundle > Body > entries.
+>
+>In our example, 10 tickets were returned:
 
 ## Common problems
 
@@ -634,40 +641,22 @@ There are several situations when uploading or updating a file fails:
 
 ### Image referenced via a shared link does not render {#image-referenced-via-a-shared-link-does-not-render}
 
-The URL returned by the Dropbox > Create a shared link does not link directly to an image, but to a Dropbox page. To force the image to download, replace the trailing 
-
-```
-?dl=0
-```
-
-with 
-
-```
-?dl=1
-```
-
-. To force the image to render (for example, in a Web browser or in Facebook Messenger), append 
-
-```
-&raw=1
-```
-
-to the URL.
+The URL returned by the Dropbox > Create a shared link does not link directly to an image, but to a Dropbox page. To force the image to download, replace the trailing `?dl=0` with `?dl=1`. To force the image to render (for example, in a Web browser or in Facebook Messenger), append `&raw=1` to the URL.
 
 If you need to get the direct or raw link of your image for your website or for other Workfront Fusion modules, you must modify the initial shared URL in the following way:
 
 Original URL:
 
-https://www.dropbox.com/s/ia8qtvs20f3a5ux/Screen%20Shot%202018-10-15%20at%204.21.11%20PM.png?dl=0
+`https://www.dropbox.com/s/ia8qtvs20f3a5ux/Screen%20Shot%202018-10-15%20at%204.21.11%20PM.png?dl=0`
 
-1. Replace www with dl.
-1. Remove ?dl=0.
+1. Replace `www` with `dl`.
+1. Remove `?dl=0`.
 
 Final URL:
 
-https://dl.dropbox.com/s/ia8qtvs20f3a5ux/Screen%20Shot%202018-10-15%20at%204.21.11%20PM.png
+`https://dl.dropbox.com/s/ia8qtvs20f3a5ux/Screen%20Shot%202018-10-15%20at%204.21.11%20PM.png`
 
-To automatically modify the URL, you can use the replace() function twice:
+To automatically modify the URL, you can use the `replace()` function twice:
 
 * Replace www with dl
 
@@ -681,13 +670,7 @@ To do it in one step, combine these functions:
 
 ![](assets/replace-both-350x47.png)
 
-You can also copy it and paste it into the field. Replace 
-
-```
-1.url
-```
-
-with the URL.
+You can also copy it and paste it into the field. Replace `1.url` with the URL.
 
 ```
 {{replace(replace(1.url; "?dl=0"; ""); "www"; "dl")}}
