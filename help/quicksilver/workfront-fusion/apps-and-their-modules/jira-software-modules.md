@@ -11,6 +11,8 @@ If you need instructions on creating a scenario, see [Create a scenario in Adobe
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
+<!-- Bob Fix this compared to original -->
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
@@ -215,8 +217,6 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
 
    | Request Token URL |
 
-   {style="table-layout:auto"}
-
    ```
    <Jira base url>/plugins/servlet/oauth/request-token
    ```
@@ -233,8 +233,6 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
 
    |
    | Access Token URL |
-
-   {style="table-layout:auto"}
 
    ```
    <Jira base url>/plugins/servlet/oauth/access-token
