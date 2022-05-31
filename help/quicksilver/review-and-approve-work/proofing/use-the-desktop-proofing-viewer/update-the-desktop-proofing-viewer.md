@@ -57,7 +57,7 @@ The Desktop Proofing Viewer can function without the non-critical updates. Howev
 
 1. Click&nbsp;**App update.**
 
-   The updates download.****
+   The updates download.
 
 1. Click&nbsp;**Relaunch.**
 

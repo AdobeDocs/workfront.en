@@ -48,9 +48,7 @@ You must have the following access to perform the steps in this article:
 
 ## Preview a previous proof version
 
->[!NOTE]
->
->Files that cannot be previewed (such as XLSX and DOC) are&nbsp;downloaded.
+Files that cannot be previewed (such as XLSX and DOC) are downloaded.
 
 1. Go to the document list, and select a proof.
 1. In the Summary, scroll down to **Versions**, click the **More** menu, then select **Preview**.
