@@ -3,12 +3,12 @@ filename: simplified-left-navigation
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Simplified left navigation in the new Adobe Workfront experience
-description: In the current version of Adobe Workfront the multi-level tabs make it sometimes difficult to navigate and require time-consuming clicks.
+description: The left navigation panel in Workfront makes it easy to navigate through the system.
 ---
 
 # Simplified left navigation in the new Adobe Workfront experience
 
-In the current version of Adobe Workfront the multi-level tabs make it sometimes difficult to navigate and require time-consuming clicks.
+In the Classic version of Adobe Workfront the multi-level tabs make it sometimes difficult to navigate and require time-consuming clicks.
 
 We made several changes in the way information displays in the new Adobe Workfront experience. Some of the former tabs have been removed and some of them have been moved to a simpler, less-intrusive left navigation panel for several areas and objects.
 
@@ -37,7 +37,7 @@ Currently, the information about an object displays in tabs under the object nam
 
 In the new Adobe Workfront experience, this information displays under sections listed in a navigation panel to the left of the object.
 
-![](assets/nwe-left-navigation-350x321.png)
+![Left navigation panel](assets/NWE-left-navigation-panel.png)
 
 ## Access requirements
 
@@ -50,11 +50,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -69,13 +69,6 @@ You can access more information about objects or areas from the left panel for v
 Depending on the object or the area you've navigated to, the sections that appear in the left panel are different.
 
 The left panel is available for the following objects:
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: See if there are others here - some things were missing from the Main menu when whis was written.</p>
-<p>MOVE THIS LIST TO THE OBJECTS SECTION)&nbsp;</p>
-</div>
--->
 
 * Project
 * Task
@@ -101,11 +94,7 @@ The left panel is available for the following areas:
 * [Default sections in the Resourcing area](#default-sections-in-the-resourcing-area) 
 * [Default sections in the Projects area](#default-sections-in-the-projects-area) 
 * [Default sections in the Timesheets area](#default-sections-in-the-timesheets-area) 
-* Default sections in the Goals area
-
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"> </h3>
--->
+* [Default sections in the Goals area](#default-sections-in-the-goals-area)
 
 ### Default sections in the Dashboards area {#default-sections-in-the-dashboards-area}
 
@@ -214,7 +203,7 @@ To learn what sections are available for specific areas, see [Default sections i
 
    You must have permissions to edit the object before you can edit the information.
 
-   ![](assets/left-panel-sections.png)
+   ![Left panel sections](assets/left-panel-sections.png)
 
 1. (Optional) Click **Show More** at the bottom of the left panel to display more sections.
 
@@ -222,22 +211,22 @@ To learn what sections are available for specific areas, see [Default sections i
    >
    >This option is not available if all sections display in the left panel by default.
 
-1. (Optional) At the bottom of the left panel, click **Add Custom Section** to add a custom section, then do the following:
+1. (Optional) At the bottom of the left panel, click **Add Dashboard** to add a dashboard quick link, then do the following:
 
-   1. Type a name for the custom section in the **Custom Section Title** field.
-   1. Start typing the name of an existing dashboard in the **Add a Dashboard** field, then click the dashboard when it displays in the list.
+   1. Type a name for the dashboard in the **Quick link name** field.
+   1. Start typing the name of an existing dashboard in the **Choose a Dashboard** field, then click the dashboard when it displays in the list.
 
       >[!TIP]
       >
       >You must build the dashboard before it appears in the list.
 
-   1. Click **Add new section**.
+   1. Click **Add**.
 
-      The custom section appears at the bottom of the left panel.
+      The dashboard link appears at the bottom of the left panel.
 
-1. (Optional) To change the order of a section in the left panel, click the **Drag** icon ![](assets/drag-icon.png) to the left of a section and drag it up or down.
+1. (Optional) To change the order of a section in the left panel, click the **Drag** icon ![](assets/drag-icon.png) to the right of a section and drag it up or down.
 
-   ![](assets/drag-section-350x301.png)
+   ![Drag a section](assets/drag-section-right.png)
 
 1. (Optional) To close the left panel, click the **Collapse** icon ![](assets/left-panel-collapse-icon.png).
 
