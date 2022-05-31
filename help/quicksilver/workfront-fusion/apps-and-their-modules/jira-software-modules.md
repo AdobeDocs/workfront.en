@@ -39,11 +39,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td>
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -120,73 +119,36 @@ To authorize a connection between Workfront Fusion and Jira Server, you need you
 
 To acquire a private key for your Workfront Fusion Jira connection, you need to generate public and private keys.
 
-1. In your terminal, run the following 
+1. In your terminal, run the following `openssl` commands.
 
-   ```
-   openssl
-   ```
-
-   commands.
-
-   * <pre>openssl genrsa -out jira_privatekey.pem 1024</pre>This command generates a 1024 bit private key.
+   * `openssl genrsa -out jira_privatekey.pem 1024`
    
-   * <pre>openssl req -newkey rsa:1024 -x509 -key jira_privatekey.pem -out jira_publickey.cer -days 365</pre>This command creates an X509 certificate.
+     This command generates a 1024 bit private key.
    
-   * <pre>openssl pkcs8 -topk8 -nocrypt -in jira_privatekey.pem -out jira_privatekey.pcks8</pre>This command extracts the private key (PKCS8 format) to the    
+   * `openssl req -newkey rsa:1024 -x509 -key jira_privatekey.pem -out jira_publickey.cer -days 365`
    
-     ```   
-     jira_privatekey.pcks8
-     ```   
+     This command creates an X509 certificate.
    
+   * `openssl pkcs8 -topk8 -nocrypt -in jira_privatekey.pem -out jira_privatekey.pcks8`
+   
+     This command extracts the private key (PKCS8 format) to the `jira_privatekey.pcks8` 
      file.
    
-   * <pre>openssl x509 -pubkey -noout -in jira_publickey.cer  > jira_publickey.pem</pre>This command extracts the public key from the certificate to the   
+   * `openssl x509 -pubkey -noout -in jira_publickey.cer  > jira_publickey.pem`
    
-     ```   
-     jira_publickey.pem
-     ```   
-   
-     file.
+     This command extracts the public key from the certificate to the `jira_publickey.pem` file.
 
      >[!NOTE]
      >
-     >If you are using Windows, you might need to save the public key to the      >
+     >If you are using Windows, you might need to save the public key to the `jira_publickey.pem` file manually:
      >
-     >```     >
-     >jira_publickey.pem
-     >```     >
-     >
-     >file manually:
-     >
+     >1. In your terminal, run the following command:
      >   
+     >   `openssl x509 -pubkey -noout -in jira_publickey.cer`
      >   
-     >   1. In your terminal, run the following command:
+     >1. Copy the terminal output (including `-------BEGIN PUBLIC KEY--------` and `-------END PUBLIC KEY--------`
      >   
-     >   
-     >      openssl x509 -pubkey -noout -in jira_publickey.cer 
-     >   
-     >   1. Copy the terminal output (including      >   
-     >   
-     >      ```     >   
-     >      -------BEGIN PUBLIC KEY--------
-     >      ```     >   
-     >   
-     >      and      >   
-     >   
-     >      ```     >   
-     >      -------END PUBLIC KEY--------
-     >      ```     >   
-     >   
-     >   
-     >   1. Paste the terminal output into a file named      >   
-     >   
-     >      ```     >   
-     >      jira_publickey.pem
-     >      ```     >   
-     >   
-     >      .
-     >   
-     >
+     >1. Paste the terminal output into a file named `jira_publickey.pem`.
 
 1. Continue to [Configure the client app as a consumer in Jira](#configure-the-client-app-as-a-consumer-in-jira)
 
@@ -215,30 +177,11 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
 
 1. Fill in the URL fields as follows:
 
-   | Request Token URL |
-
-   ```
-   <Jira base url>/plugins/servlet/oauth/request-token
-   ```
-
-   |
+   |Field | Description |
    |---|---|
-   | Authorization URL |
-
-   {style="table-layout:auto"}
-
-   ```
-   <Jira base url>/plugins/servlet/oauth/authorize
-   ```
-
-   |
-   | Access Token URL |
-
-   ```
-   <Jira base url>/plugins/servlet/oauth/access-token
-   ```
-
-   |
+   | Request Token URL |`<Jira base url>/plugins/servlet/oauth/request-token`|
+   | Authorization URL |`<Jira base url>/plugins/servlet/oauth/authorize`|
+   | Access Token URL |`<Jira base url>/plugins/servlet/oauth/access-token`|
 
 1. Select the **Create incoming link** checkbox.
 1. Click **Continue**.

@@ -66,8 +66,6 @@ This module allows you to encrypt a message using public and private keys.
         <td>Enter the message that you want to encrypt.</td>
     </tr>
 
-{style="table-layout:auto"}
-
 ### Decrypt a PGP message
 
 This module allows you to decrypt a message using public and private keys.
@@ -86,7 +84,3 @@ This module allows you to decrypt a message using public and private keys.
         <td>Map the message that you want to decrypt.</td>
     </tr>
 </table>
-
-{style="table-layout:auto"}
-
-&nbsp;
