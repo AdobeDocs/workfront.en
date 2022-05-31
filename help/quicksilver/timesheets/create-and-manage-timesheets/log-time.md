@@ -3,12 +3,12 @@ filename: log-time
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Log time
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: You can log time for work items in&nbsp;Adobe Workfront to indicate the amount of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 ---
 
 # Log time
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+{{highlighted-preview}}
 
 You can log time for work items in&nbsp;Adobe Workfront to indicate the amount of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 

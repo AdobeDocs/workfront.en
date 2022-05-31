@@ -4,12 +4,12 @@ content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Understand the Timesheet layout
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: This article describes the layout of timesheets in Adobe Workfront, allowing you to better understand how to customize and utilize timesheets to record time.
 ---
 
 # Understand the Timesheet layout
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+{{highlighted-preview}}
 
 This article describes the layout of timesheets in Adobe Workfront, allowing you to better understand how to customize and utilize timesheets to record time.&nbsp;
 

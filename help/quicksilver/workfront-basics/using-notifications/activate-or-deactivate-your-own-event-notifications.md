@@ -3,12 +3,12 @@ filename: activate-or-deactivate-your-own-event-notifications
 product-area: setup
 navigation-topic: notifications
 title: Activate or deactivate your own event notifications
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: Your Adobe Workfront administrator configures which event notifications users receive when events occur in Workfront.
 ---
 
 # Activate or deactivate your own event notifications
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+{{highlighted-preview}}
 
 Your Adobe Workfront administrator configures which event notifications users receive when events occur in Workfront (as described in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
