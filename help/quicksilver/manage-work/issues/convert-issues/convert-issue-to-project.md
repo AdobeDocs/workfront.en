@@ -57,7 +57,7 @@ You must have the following access to perform the steps in this article:
 
 You can convert an issue to a blank project or convert an issue to a project using a template.
 
-1. Go to a project and click&nbsp;**Issues** in the left panel. 
+1. Go to a project and click **Issues** in the left panel. 
 1. In the list of issues that displays, do one of the following:
 
    * To convert an issue to a blank project, click the name of the issue, click the **More** menu ![](assets/more-icon.png)to the right of the issue name, then click **Convert to a blank project**.
@@ -74,9 +74,7 @@ You can convert an issue to a blank project or convert an issue to a project usi
      >[!TIP]
      >   
      >* If the issue was created using a request queue, the new project inherits the request queue's Group. 
-     >* If the issue was created by adding it to the Issues section of the project, the new project inherits the Group if the issue's project. 
-     >
-
+     >* If the issue was created by adding it to the Issues section of the project, the new project inherits the Group if the issue's project.
 
    * To convert an issue to a project using a template, do one of the following:
 
