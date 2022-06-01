@@ -9,7 +9,7 @@ description: As an Adobe Workfront administrator or a user with administrative a
 
 # Deactivate job roles
 
-As an&nbsp;Adobe Workfront administrator or a user with administrative access to Job&nbsp;Roles, you can deactivate job roles that become obsolete in your system. When you deactivate a job role instead of deleting it, you can keep any historical information that is associated with it.
+As an Adobe Workfront administrator or a user with administrative access to Job Roles, you can deactivate job roles that become obsolete in your system. When you deactivate a job role instead of deleting it, you can keep any historical information that is associated with it.
 
 You can also reactivate job roles that have previously been deactivated.
 
@@ -52,10 +52,10 @@ If you deactivate a job role, it no longer displays in the following areas:
 
 * The Sharing dialog box for objects, including layout template assignment
 * Typeahead fields in custom forms
-* The Pool Members field in&nbsp;Resource Pools
-* The Job&nbsp;Role field of a Billing Rate edit screen when a user is overriding billing rates for projects
+* The Pool Members field in Resource Pools
+* The Job Role field of a Billing Rate edit screen when a user is overriding billing rates for projects
 * The Add assignment to Kanban board dialog box in a project
-* The Job&nbsp;Role field of a plan or an initiative when someone is using the Adobe Workfront Scenario Planner.
+* The Job Role field of a plan or an initiative when someone is using the Adobe Workfront Scenario Planner.
 
   The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
@@ -99,9 +99,9 @@ We recommend that you do the following before deactivating an unused job role:
 1. Click the name of the job role that you want to deactivate.
 1. In the **Is Active** drop-down menu, select **No**.
 
-   ![](assets/deactivate-job-role-edit-role-box-nwe-350x291.png)
+   ![](assets/deactivate-job-role-edit-role-box-nwe.png)
 
 1. Click **Save Changes**.
 
-   The job role is deactivated and can no longer be assigned to work, associated with layout templates, and so on. For information about all uses of job roles in&nbsp;Workfront, see [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
+   The job role is deactivated and can no longer be assigned to work, associated with layout templates, and so on. For information about all uses of job roles in Workfront, see [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
 

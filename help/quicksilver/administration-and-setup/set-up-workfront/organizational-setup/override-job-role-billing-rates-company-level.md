@@ -31,7 +31,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to Companies if you are not a System Administrator</p> <p>Edit access to&nbsp;Financial&nbsp;Data</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Administrative access to Companies if you are not a System Administrator</p> <p>Edit access to Financial Data</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -44,12 +44,10 @@ You must have the following:
 
 1. Click **Companies**.
 1. Locate the company where the job role is assigned.
-1. Click&nbsp;**Edit Company** in the upper-right corner.
-1. In the **Billing Rates** section, select the job role you want to edit, and enter the new billing rate for that job role in the&nbsp;**Company Billing Rate** box.
-
-   ![](assets/88-350x176.png)
+1. Click **Edit Company** in the upper-right corner.
+1. In the **Billing Rates** section, select the job role you want to edit, and enter the new billing rate for that job role in the **Company Billing Rate** box.
 
    >[!NOTE]
    >
-   >Job role rates changed&nbsp;on the project will only impact only that project. Rates changed at the company level will impact all projects. For more information, see [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+   >Job role rates changed on the project will only impact only that project. Rates changed at the company level will impact all projects. For more information, see [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 

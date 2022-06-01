@@ -55,51 +55,52 @@ You must have the following to perform the steps in this article:
 
    In the list that displays, the **Active** column on the left shows which notifications are active (blue) and inactive (grey) for the group.
 
-1. Do any of the following:
+1. To activate or deactivate an unlocked event notification: Click the button in the <strong>Active</strong> column to activate <img src="assets/email-notification-enabled-unlocked.png"> or deactivate <img src="assets/email-notification-disabled-unlocked.png"> it.
+   
+   >[!INFO]
+   >
+   >**Example:** You could configure the top two Marketing group event notifications shown below that have been unlocked for groups.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/configure-group-event-notifications-350x193.png"> 
+   >* If a button in the <strong>Active</strong> column is grey and dimmed <img src="assets/email-notification-disabled-locked.png">, the event notification is deactivated for all users and group administrators can't activate it or edit its email subject line
+   >* If a button in the <strong>Active</strong> column is grey and not dimmed <img src="assets/email-notification-disabled-unlocked.png">, the event notification is <strong>deactivated for all users and</strong> group administrators can activate it for their groups.
+   >* If a button in the <strong>Active</strong> column is blue and dimmed <img src="assets/email-notification-enabled-locked.png">, the event notification is activated for all users and group administrators can't deactivate it or edit its email subject line for their groups.
+   >* If a button in the <strong>Active</strong> column is blue and not dimmed <img src="assets/email-notification-enabled-unlocked.png">, the event notification is <strong>activated for all users and</strong> group administrators can deactivate it for their groups.
+     <!--
+     This step is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. IF WE'RE STICKING WITH TABLES, USE THE COMMENTED OUT TABLE BELOW.
+      1. To customize the email subject line of an event notification,
+       1. Click the name of the event notification.
+       1. In the <strong>Event Notification</strong> box that displays, in the <strong>Email Subject Line</strong> box, change the text and fields, including custom fields, then click <strong>Update</strong> to save the new subject lines for your emails.
+       IMPORTANT: The names of the fields added must match the camel case syntax of our database structure. For more information about how our objects and their fields are named in the Workfront database, see the <a href="../../../wf-api/workfront-api.md" class="MCXref xref">Adobe Workfront API</a>.
+       For more information about customizing the email subject line of an event notification, see <a href="../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md" class="MCXref xref">Customize email subjects for event notifications</a>. 
+     --> 
 
+
+
+<!--
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
       <td role="rowheader">Activate or deactivate an unlocked event notification</td> 
-      <td> <p>Click the button in the <strong>Active</strong> column to activate <img src="assets/email-notification-enabled-unlocked.png"> or deactivate <img src="assets/email-notification-disabled-unlocked.png"> it.</p> <p>For example, you could configure the top two Marketing group event notifications shown below that have been unlocked for groups.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/configure-group-event-notifications-350x193.png" style="width: 350;height: 193;"> </p> 
+      <td> <p>Click the button in the <strong>Active</strong> column to activate <img src="assets/email-notification-enabled-unlocked.png"> or deactivate <img src="assets/email-notification-disabled-unlocked.png"> it.</p> <p>For example, you could configure the top two Marketing group event notifications shown below that have been unlocked for groups.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/configure-group-event-notifications-350x193.png"> </p> 
        <ul> 
-        <li>If a button in the <strong>Active</strong> column is grey and dimmed <img src="assets/email-notification-disabled-locked.png">, the event notification is deactivated for all users and group administrators can't activate it<!--
-          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-            or edit its email subject line
-          </MadCap:conditionalText>
-         --> for their groups.<!--
-          <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Edit feature coming</span>
-         --></li> 
-        <li>If a button in the <strong>Active</strong> column is grey and not dimmed <img src="assets/email-notification-disabled-unlocked.png">, the event notification is <strong>deactivated for all users and</strong> group administrators can activate it<!--
-          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-            or edit its email subject line
-          </MadCap:conditionalText>
-         --> for their groups.</li> 
+        <li>If a button in the <strong>Active</strong> column is grey and dimmed <img src="assets/email-notification-disabled-locked.png">, the event notification is deactivated for all users and group administrators can't activate it or edit its email subject line</li> 
+        <li>If a button in the <strong>Active</strong> column is grey and not dimmed <img src="assets/email-notification-disabled-unlocked.png">, the event notification is <strong>deactivated for all users and</strong> group administrators can activate it for their groups.</li> 
        </ul> 
        <ul> 
-        <li>If a button in the <strong>Active</strong> column is blue and dimmed <img src="assets/email-notification-enabled-locked.png">, the event notification is activated for all users and group administrators can't deactivate it<!--
-          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-            or edit its email subject line
-          </MadCap:conditionalText>
-         --> for their groups.</li> 
-        <li>If a button in the <strong>Active</strong> column is blue and not dimmed <img src="assets/email-notification-enabled-unlocked.png">, the event notification is <strong>activated for all users and</strong> group administrators can deactivate it<!--
-          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-            or edit its email subject line
-          </MadCap:conditionalText>
-         --> for their groups.</li> 
+        <li>If a button in the <strong>Active</strong> column is blue and dimmed <img src="assets/email-notification-enabled-locked.png">, the event notification is activated for all users and group administrators can't deactivate it or edit its email subject line for their groups.</li> 
+        <li>If a button in the <strong>Active</strong> column is blue and not dimmed <img src="assets/email-notification-enabled-unlocked.png">, the event notification is <strong>activated for all users and</strong> group administrators can deactivate it for their groups.</li> 
        </ul> </td> 
-     </tr> <!--
+     </tr> 
+     <!--
+     This row is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added.
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader"><span class="preview">Customize the email subject line of an event notification</span> </td> 
        <td> 
         <ol class="preview"> 
          <li value="1">Click the name of the event notification.</li> 
-         <li value="2"> <p>In the <strong>Event Notification</strong> box that displays, in the <strong>Email Subject Line</strong> box, change the text and fields, including custom fields, then click <strong>Update</strong> to save the new subject lines for your emails.</p> <p><b>IMPORTANT</b>: The names of the fields added must match the camel case syntax of our database structure. <!--For more information about how our objects and their fields are named in the Workfront database, see the <a href="../../../wf-api/workfront-api.md" class="MCXref xref">Adobe Workfront API</a>.--></p> <p>For more information about customizing the email subject line of an event notification, see <a href="../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md" class="MCXref xref">Customize email subjects for event notifications</a>. </p> </li> 
+         <li value="2"> <p>In the <strong>Event Notification</strong> box that displays, in the <strong>Email Subject Line</strong> box, change the text and fields, including custom fields, then click <strong>Update</strong> to save the new subject lines for your emails.</p> <p><b>IMPORTANT</b>: The names of the fields added must match the camel case syntax of our database structure. <!--For more information about how our objects and their fields are named in the Workfront database, see the <a href="../../../wf-api/workfront-api.md" class="MCXref xref">Adobe Workfront API</a>.</p> <p>For more information about customizing the email subject line of an event notification, see <a href="../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md" class="MCXref xref">Customize email subjects for event notifications</a>. </p> </li> 
         </ol> </td> 
       </tr>
      --> 
-    </tbody> 
    </table>
-
