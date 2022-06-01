@@ -12,12 +12,14 @@ description: A Resolvable Object is an issue whose resolution is tied to a Resol
 A Resolvable Object is an issue whose resolution is tied to a Resolving Object. A Resolving Object is a project, task, or another issue.
 
 When you convert an issue to a task or a project, the issue becomes the Resolvable Object of the task or the project.   
+
 You can also manually link an issue to a Resolving Object, which can be a task, project, or issue.&nbsp;For information, see [Manually tie the resolution of an issue to other issues, tasks, or projects](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).   
+
 The original issue becomes the Resolvable Object of the task, project, or issue, in this scenario.
 
 ## Set up Adobe Workfront to handle Resolvable Objects {#set-up-adobe-workfront-to-handle-resolvable-objects}
 
-As a Workfront administrator ```or group administrator```, you can decide how you want to handle the Resolvable Objects in your system ```or for your group.```
+As a Workfront administrator or group administrator, you can decide how you want to handle the Resolvable Objects in your system or for your group.
 
 You can select to keep the Resolvable Object as you are converting it to a task or a project, or to delete it once the task or project are created. You can select to allow these settings to be changed in the process of converting issues, which will allow the user converting the issues to select whether to keep or to delete the issue as they are converting it.
 
@@ -66,9 +68,10 @@ The default status of the issue is controlled by the status of the project or ta
 ## Handle the Resolvable Object during the conversion to a project or a task
 
 Depending on the way the Workfront or group administrator configured the system or group level issue preferences, you might be able to handle the resolvable object during the conversion of an issue to a project or a task.   
+
 The following scenarios exist:
 
-* If the Workfront ```or group administrator``` has the **Keep the original issue and tie its resolution to the task** and the **Keep the original issue and tie its resolution to the project** selected and the **Allow these settings to be changed during conversion** unselected, you will not be able to change these settings as you are converting issues to tasks or projects.  
+* If the Workfront or group administrator has the **Keep the original issue and tie its resolution to the task** and the **Keep the original issue and tie its resolution to the project** selected and the **Allow these settings to be changed during conversion** unselected, you will not be able to change these settings as you are converting issues to tasks or projects.  
   ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * If the Workfront or group administrator has the **Keep the original issue and tie its resolution to the task** and the **Keep the original issue and tie its resolution to the project** either selected or unselected and the **Allow these settings to be changed during conversion** selected, you will be able to change these settings as you are converting issues to tasks or projects.  
@@ -121,7 +124,7 @@ When an issue is the Resolvable Object of a task or a project, the changes in th
 
 #### **Synchronize the Default Status of the Resolving Object with the Default Status of the Resolvable Object** {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
 
-Regardless of whether the **Automatically set issue statuses to match the resolvable object using the Status keys****** option is selected or not, every time the default status changes on the Resolving Objects (projects or tasks), the status of the Resolvable Object (issues) changes, accordingly. Only default statuses are already mapped to trigger such a change.
+Regardless of whether the "Automatically set issue statuses to match the resolvable object using the Status keys" option is selected, every time the default status changes on the Resolving Objects (projects or tasks), the status of the Resolvable Object (issues) changes, accordingly. Only default statuses are already mapped to trigger such a change.
 
 The following default statuses for tasks trigger the following changes in the default statuses for issues, when the issue is set as the resolving object of a task:
 
@@ -157,13 +160,14 @@ The following default statuses for projects trigger the following changes in the
 
 When you change the status of the task or project to a custom status, the status of the issue changes to a custom issue status only if the following two conditions are met:
 
-* The **Automatically****set issue statuses to match the resolvable object using the Status keys** option is selected. For more information about how to enable this setting, see [Set up Adobe Workfront to handle Resolvable Objects](#set-up-adobe-workfront-to-handle-resolvable-objects).
+* The "Automatically set issue statuses to match the resolvable object using the Status keys" option is selected. For more information about how to enable this setting, see [Set up Adobe Workfront to handle Resolvable Objects](#set-up-adobe-workfront-to-handle-resolvable-objects).
 
 * The custom status of the project or task has the same three letter code as the custom status of the issue.
 
 You can create custom statuses with the same key for both issues and projects or tasks. When the project or task (as a Resolving Object) are changed to the custom status, the change also reflects on the status of the issue. The status key must be the same for the issue and project or task statuses.
 
-For example, create a project custom status named "Launched" with the three letter code "LCD" which equates with "Current". Also, create an issue custom status named "Project Launched", also with the letter code "LCD" which equates with "In Progress". When you mark the project as "Launched", the issue will automatically change the status to "Project Launched". If the **Automatically****set issue statuses to match the resolvable object using the Status keys** setting were not enabled, the issue status would change to "In Progress" instead (the default status).  
+For example, create a project custom status named "Launched" with the three letter code "LCD" which equates with "Current". Also, create an issue custom status named "Project Launched", also with the letter code "LCD" which equates with "In Progress". When you mark the project as "Launched", the issue will automatically change the status to "Project Launched". If the "Automatically****set issue statuses to match the resolvable object using the Status keys" setting were not enabled, the issue status would change to "In Progress" instead (the default status).
+
 For more information about creating a custom status, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Synchronize the percent complete of a Resolving Object with that of the Resolvable Object
@@ -181,9 +185,6 @@ Locating the resolving object is identical for tasks and projects.
 
 1. Navigate to a project or a task which you created by converting an issue to the project or the task.
 1. Click the **Project Details** or the **Task Details** icon and click to expand it.
-
-   ![](assets/qs-details-icon-applies-to-all-objects.png)
-
 1. Click **Overview**.  
 1. At the bottom of the tab, locate to **This Resolves** field: the issue which is the Resolvable Object of the project or the task is listed in this field.
 
