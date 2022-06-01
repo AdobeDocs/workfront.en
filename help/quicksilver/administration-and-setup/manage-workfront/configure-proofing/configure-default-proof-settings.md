@@ -73,7 +73,7 @@ Users can use proof decisions to indicate the status of the proof after review.
 
 To configure proof decisions:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click**Setup**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup**.
 1. In the left panel, click **Proofs** > **Proof settings**.
 1. In the **Decisions**section, you can
 
