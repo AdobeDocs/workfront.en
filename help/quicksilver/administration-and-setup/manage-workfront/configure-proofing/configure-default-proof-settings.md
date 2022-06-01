@@ -22,7 +22,7 @@ These settings allow you to set default values that apply to all new proofs crea
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader" colspan="2">Recipients</td> 
+      <td role="rowheader" colspan="2"><b>Recipients</b></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Require login</td> 
@@ -41,7 +41,7 @@ These settings allow you to set default values that apply to all new proofs crea
       <td> <p>Decision makers are prompted to enter their Workfront login credential when they make a decision on a proof.</p> <p><b>IMPORTANT</b>: When enabled, users cannot share the proof with Guest reviewers who don't have login credentials.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader" colspan="2">Deadline</td> 
+      <td role="rowheader" colspan="2"><b>Deadline</b></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Set the default deadline</td> 
@@ -52,7 +52,7 @@ These settings allow you to set default values that apply to all new proofs crea
       <td>Recipients are notified via email before the proof is considered at-risk depending on the deadline specified above.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader" colspan="2">Email notifications</td> 
+      <td role="rowheader" colspan="2"><b>Email notifications</b></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Notify recipients when they are added to a proof</td> 

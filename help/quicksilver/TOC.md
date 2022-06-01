@@ -506,6 +506,7 @@ user-guide-description: Workfront
       * [Access to proofing](administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
       * [Desktop Proofing Viewer](administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
       * [Proofing roles](administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)
+      * [Configure default proof settings](administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)
       * [Proof email notification settings](administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-email-notification-settings.md)
       * [Configure a user's proofing access](administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)
       * [Proof sharing](administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)
