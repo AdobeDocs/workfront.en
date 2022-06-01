@@ -4,7 +4,7 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Burndown
-description: This section contains the following articles - EDIT ME.
+description: Review these articles to learn how to use the burndown chart.
 ---
 
 # Burndown
