@@ -21,11 +21,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Review or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -51,27 +51,27 @@ Use the Add Iteration feature to quickly create an iteration and add tasks and i
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Iteration Name</td> 
+      <td role="rowheader"><strong>Iteration Name</strong></td> 
       <td>Enter the name of the iteration.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Goal</td> 
+      <td role="rowheader"><strong>Goal</strong></td> 
       <td>Add any goals you have for the iteration.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Start Date</td> 
+      <td role="rowheader"><strong>Start Date</strong></td> 
       <td>Enter the date the iteration should start.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">End Date</td> 
-      <td><p>Enter the date the iteration should end. Workfront recommends setting an end date no longer than 4 weeks from the start date.</p><p>Tip: Make sure to choose a working day as the end date. The burndown chart uses only working days in its calculations.<br>By default, the burndown chart uses the&nbsp;default schedule to define working days (as described in&nbsp;<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>). Or, to incorporate team-specific non-working days,&nbsp;agile teams can choose to use an alternate schedule (as described in"Defining an Alternate Team Schedule for Burndown Charts" in&nbsp;<a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>).</p></td> 
+      <td role="rowheader"><strong>End Date</strong></td> 
+      <td><p>Enter the date the iteration should end. Workfront recommends setting an end date no longer than 4 weeks from the start date.</p><p>Tip: Make sure to choose a working day as the end date. The burndown chart uses only working days in its calculations.<br>By default, the burndown chart uses the default schedule to define working days (as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>). Or, to incorporate team-specific non-working days, agile teams can choose to use an alternate schedule (as described in"Defining an Alternate Team Schedule for Burndown Charts" in <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>).</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Capacity</td> 
+      <td role="rowheader"><strong>Capacity</strong></td> 
       <td> Specify the capacity for the iteration. This is the number of points or hours your team is able to accomplish in the iteration. The number you enter must be equal to or greater than the number of points or hours from the sum of all the stories in the iteration.<br>Workfront pre-populates this field with 50 capacity by default. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Focus</td> 
+      <td role="rowheader"><strong>Focus</strong></td> 
       <td>Specify the focus percentage of the team. If all members of the team will be focused completely on this iteration, the focus would be 100%.<br>Workfront pre-populates this field with 100% by default. </td> 
      </tr> 
     </tbody> 
@@ -96,37 +96,37 @@ Use the Plan Iteration feature to create an iteration using tasks on your backlo
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Iteration Name:</strong></td> 
+      <td role="rowheader"><strong>Iteration Name</strong></td> 
       <td>Specify a name for the iteration.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Start Date:</strong></td> 
+      <td role="rowheader"><strong>Start Date</strong></td> 
       <td> Specify the date the iteration should start.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>End Date:</strong>&nbsp;</td> 
-      <td><p>Specify the date the iteration should end. Workfront recommends setting an end date no longer than 4 weeks from the start date.</p><p>Tip: Make sure to choose a working day as the end date. The burndown chart uses only working days in its calculations.<br>By default, the burndown chart uses the&nbsp;default schedule to define working days (as described in&nbsp;<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>). Or, to incorporate team-specific non-working days,&nbsp;agile teams can choose to use an alternate schedule (as described in <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md" class="MCXref xref">Use an alternate team schedule for burndown charts</a>).</p></td> 
+      <td role="rowheader"><strong>End Date</strong>&nbsp;</td> 
+      <td><p>Specify the date the iteration should end. Workfront recommends setting an end date no longer than 4 weeks from the start date.</p><p>Tip: Make sure to choose a working day as the end date. The burndown chart uses only working days in its calculations.<br>By default, the burndown chart uses the default schedule to define working days (as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>). Or, to incorporate team-specific non-working days, agile teams can choose to use an alternate schedule (as described in <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md" class="MCXref xref">Use an alternate team schedule for burndown charts</a>).</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Focus:</strong></td> 
+      <td role="rowheader"><strong>Focus</strong></td> 
       <td>Specify the focus percentage of the team. If all members of the team will be focused completely on this iteration, the focus would be 100%.<br>Workfront pre-populates this field with the average value from your team's past iterations. If this is your team's first iteration, this field value is 0 by default.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><br><strong>Capacity:</strong></td> 
+      <td role="rowheader"><br><strong>Capacity</strong></td> 
       <td> Specify the capacity for the iteration. This is the number of points or hours your team is able to accomplish in the iteration. The number you enter must be equal to or greater than the number of points or hours from the sum of all the stories in the iteration.<br>Workfront pre-populates this field with the average value from your team's past iterations. If this is your team's first iteration, this field value is 0 by default.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><br><strong>Goal:</strong></td> 
-      <td> Specify a goal for the iteration.&nbsp;This field is not required.</td> 
+      <td role="rowheader"><br><strong>Goal</strong></td> 
+      <td> Specify a goal for the iteration. This field is not required.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Optional) Select stories to add them to&nbsp;the iteration now, or you can skip this step and add stories to an iteration at a later time. The stories at the top of the backlog are higher priority. Stories&nbsp;are highlighted in green when they fit in the capacity; they are highlighted in red if they do not.  
+1. (Optional) Select stories to add them to the iteration now, or you can skip this step and add stories to an iteration at a later time. The stories at the top of the backlog are higher priority. Stories are highlighted in green when they fit in the capacity; they are highlighted in red if they do not.  
    You can add both tasks and issues to a single iteration:
 
    * **To add tasks to the iteration:** On the **Backlog** tab, ensure that the **Stories** tab is selected (this tab is selected by default when viewing the backlog). Select the stories you want to add to the iteration.  
-     When you add tasks to an iteration, the start date of the task is calculated as described in&nbsp; [Understand how task start dates are calculated when added to an iteration](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+     When you add tasks to an iteration, the start date of the task is calculated as described in [Understand how task start dates are calculated when added to an iteration](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
    
    * **To add issues to the iteration:** On the **Backlog** tab, click the **Issues** tab. Select the issues you want to add to the iteration.
 
@@ -137,10 +137,10 @@ Use the Plan Iteration feature to create an iteration using tasks on your backlo
 
 ## Understand how task start dates are calculated when added to an iteration {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 
-When you add a task as a story to an iteration, the Must Finish On task constraint is used for&nbsp;each story. In most cases, the planned start date of the task is calculated based on the following formula:
+When you add a task as a story to an iteration, the Must Finish On task constraint is used for each story. In most cases, the planned start date of the task is calculated based on the following formula:
 
 Iteration End Date minus (-) Task Duration equals (=) Task Planned Start Date
 
-The Project End Date is used instead of the Iteration End Date if&nbsp;the&nbsp;project start date is after the iteration start date, and the project end date is after the iteration end date.
+The Project End Date is used instead of the Iteration End Date if the project start date is after the iteration start date, and the project end date is after the iteration end date.
 
 You can configure individual Scrum teams to use the project dates by default, rather than the iteration dates. For information, see the section [Configure how dates are applied when adding work items to an iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md). 

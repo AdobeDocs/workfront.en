@@ -23,11 +23,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Review or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -41,15 +41,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 
-1. Go to the iteration 
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   or project
-   </MadCap:conditionalText>
-   -->
-
-   that contains the burndown chart you want to resize.
+1. Go to the iteration that contains the burndown chart you want to resize.
 1. Hover over the bottom line of the burndown chart, then drag the chart to the desired size.  
    ![](assets/burndown-resize.png)
 
@@ -59,14 +51,6 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 
-1. Go to the iteration 
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   or project
-   </MadCap:conditionalText>
-   -->
-
-   that contains the burndown chart you want to collapse.
+1. Go to the iteration that contains the burndown chart you want to collapse.
 1. Click the arrow icon in the left of the Percent Complete status bar.
 

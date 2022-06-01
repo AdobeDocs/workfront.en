@@ -1,7 +1,10 @@
 ---
+filename: tips-tricks-troubleshooting-agile
+content-type: tips-tricks-troubleshooting
+product-area: agile-and-teams
+navigation-topic: agile
 title: Tips, tricks, and troubleshooting for agile
-description: Tips, tricks, and troubleshooting for agile
-draft: Probably
+description: Review these article for troubleshooting tips on agile.
 ---
 # Tips, tricks, and troubleshooting for agile
 

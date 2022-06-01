@@ -20,10 +20,6 @@ Using boards, you can:
 * Customize workflows with open-ended cards
 * Organize and manage work for a team in one place
 
->[!NOTE]
->
->Boards is currently a standalone tool. The cards that you add to a board are not connected to work items or objects in Workfront.
-
 >[!IMPORTANT]
 >
 >Boards does not appear in the Main Menu by default. Your Workfront administrator must add Boards to your layout template to make it available in the Main Menu. For information, see [Customize the Main Menu using a layout template](../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
