@@ -100,23 +100,35 @@ The left panel is available for the following areas:
 
 The following sections display in the left panel for the **Dashboards** area:
 
-| My Dashboards |Displays the dashboards that you have built. |
-|---|---|
-| Shared Dashboards |Displays the dashboards that have been created by other users and shared with you. |
-| All Dashboards |Displays the dashboards that you or other users have created, and which you have permissions to at least View. |
-
-{style="table-layout:auto"}
+<table style="table-layout:auto">
+    <tr>
+        <td><strong>My Dashboards</strong></td>
+        <td>Displays the dashboards that you have built.</td>
+    </tr>
+    <tr>
+        <td><strong>Shared Dashboards</strong></td>
+        <td>Displays the dashboards that have been created by other users and shared with you.</td>
+    </tr>
+    <tr>
+        <td><strong>All Dashboards</strong></td>
+        <td>Displays the dashboards that you or other users have created, and which you have permissions to at least View.</td>
+    </tr>
+</table>
 
 To learn how to use the left panel in the Dashboards area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
 
 ### Default sections in the Requests area {#default-sections-in-the-requests-area}
 
-| New |Displays the new request queue area where you can submit new requests. (NOTE: this was removed) |
-|---|---|
-| Submitted |Displays requests that you or other users have submitted, and which you have permissions to at least View. Use the filters in the upper-right corner of the request list to view your requests or requests others have submitted and you have access to view.  |
-| Drafts |Displays requests that you have started but you have not submitted them yet. Workfront automatically saves any new request in the Drafts folder, after you have selected your queue topic.  |
-
-{style="table-layout:auto"}
+<table style="table-layout:auto">
+    <tr>
+        <td><strong>Submitted</strong></td>
+        <td>Displays requests that you or other users have submitted, and which you have permissions to at least View. Use the filters in the upper-right corner of the request list to view your requests or requests others have submitted and you have access to view.</td>
+    </tr>
+    <tr>
+        <td><strong>Drafts</strong></td>
+        <td>Displays requests that you have started but you have not submitted them yet. Workfront automatically saves any new request in the Drafts folder, after you have selected your queue topic.</td>
+    </tr>
+</table>
 
 To learn how to use the left panel in the Requests area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
 
@@ -153,11 +165,16 @@ To learn how to use the left panel in the Resourcing area, see the section [Use 
 
 The following sections display in the left panel for the **Projects** area:
 
-| All Projects |Displays all projects that you have access to view. Use the Filter drop-down menu to change what projects you want to view |
-|---|---|
-| Custom sections |You can view all the custom sections that your Workfront administrator has added to the left panel for the Projects area in your Layout Template. Custom sections have names that have been customized for your environment. |
-
-{style="table-layout:auto"}
+<table style="table-layout:auto">
+    <tr>
+        <td><strong>All Projects</strong></td>
+        <td>Displays all projects that you have access to view. Use the Filter drop-down menu to change what projects you want to view</td>
+    </tr>
+    <tr>
+        <td><strong>Custom sections</strong></td>
+        <td>You can view all the custom sections that your Workfront administrator has added to the left panel for the Projects area in your Layout Template. Custom sections have names that have been customized for your environment.</td>
+    </tr>
+</table>
 
 To learn how to use the left panel in the Projects area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
 
@@ -165,12 +182,20 @@ To learn how to use the left panel in the Projects area, see the section [Use th
 
 The following sections display in the left panel for the **Timesheets** area:
 
-| My Timesheets |Displays all your active timesheets by default. To display submitted or closed timesheets, select Submitted or All from the Filter drop-down menu. |
-|---|---|
-| Timesheets I Approve |Displays timesheets that have been submitted for your approval, by default. To display active or all timesheets where you are the approver, select Active or App from the Filter drop-down menu. |
-| All Timesheets |Displays all timesheets that you have access to view, based on the filters selected in the left Filter area. |
-
-{style="table-layout:auto"}
+<table style="table-layout:auto">
+    <tr>
+        <td><strong>My Timesheets</strong></td>
+        <td>Displays all your active timesheets by default. To display submitted or closed timesheets, select Submitted or All from the Filter drop-down menu.</td>
+    </tr>
+    <tr>
+        <td><strong>Timesheets I Approve</strong></td>
+        <td>Displays timesheets that have been submitted for your approval, by default. To display active or all timesheets where you are the approver, select Active or App from the Filter drop-down menu.</td>
+    </tr>
+    <tr>
+        <td><strong>All Timesheets</strong></td>
+        <td>Displays all timesheets that you have access to view, based on the filters selected in the left Filter area.</td>
+    </tr>
+</table>
 
 To learn how to use the left panel in the Timesheets area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
 
@@ -182,14 +207,28 @@ To learn how to use the left panel in the Timesheets area, see the section [Use 
 
 The following sections display in the left panel for the **Goals** area:
 
-| Goal List |Displays all the goals that you have access to view. For more information, see [Manage goals in the Goal List of Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).  |
-|---|---|
-| Graphs |Displays the performance of your goals in charts. For more information, see [Review graphs to understand goal progress trends in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).  |
-| Goal Alignment |Displays the alignment of goals with each other in a hierarchy. For more information, see [Goal alignment overview in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md).  |
-| Pulse |Displays a quick overview of all active goals and their progress. For more information, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).  |
-| Check-in |Displays a quick overview of your active goals and their progress. For more information, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md) |
-
-{style="table-layout:auto"}
+<table style="table-layout:auto">
+    <tr>
+        <td><strong>Goal List</strong></td>
+        <td>Displays all the goals that you have access to view. For more information, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md">Manage goals in the Goal List of Adobe Workfront Goals</a>.</td>
+    </tr>
+    <tr>
+        <td><strong>Graphs</strong></td>
+        <td>Displays the performance of your goals in charts. For more information, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md">Review graphs to understand goal progress trends in Adobe Workfront Goals</a>.</td>
+    </tr>
+    <tr>
+        <td><strong>Goal Alignment</strong></td>
+        <td>Displays the alignment of goals with each other in a hierarchy. For more information, see <a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">Goal alignment overview in Adobe Workfront Goals</a>.</td>
+    </tr>
+    <tr>
+        <td><strong>Pulse</strong></td>
+        <td>Displays a quick overview of all active goals and their progress. For more information, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md">Review goals in the Adobe Workfront Goals Pulse section</a>.</td>
+    </tr>
+    <tr>
+        <td><strong>Check-in</strong></td>
+        <td>Displays a quick overview of your active goals and their progress. For more information, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md">Check in on goals in Adobe Workfront Goals</a>.</td>
+    </tr>
+</table>
 
 To learn how to use the left panel in the Goals area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
 

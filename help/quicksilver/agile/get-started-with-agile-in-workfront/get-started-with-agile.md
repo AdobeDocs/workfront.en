@@ -5,7 +5,7 @@ product-area: agile-and-teams
 keywords: agile
 navigation-topic: agile-navigation-topic
 title: Get started with agile in Adobe Workfront
-description: This section contains the following articles - EDIT ME.
+description: Review these articles to get started with agile in Workfront.
 ---
 
 # Get started with agile in Adobe Workfront
