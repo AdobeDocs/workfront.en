@@ -40,16 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -79,19 +70,11 @@ If you see the map button above a field or function, you can use it to set varia
 
 * [Watch events](#watch-events) 
 * [Search events](#search-events)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#Watch2" class="MCXref xref">Google Calendar modules</a> </li>
-  -->
-
 * [Get an event](#get-an-event) 
 * [Create an event](#create-an-event) 
 * [Update an event](#update-an-event) 
 * [Delete an event](#delete-an-event)
 
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#get-an-event" class="MCXref xref">Get an event</a> </li>
-  -->
 
 #### Watch events {#watch-events}
 
@@ -166,11 +149,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Query</td> 
-   <td> <p>Enter or map the search term that you want to search by. <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        The module does not search extended properies. 
-      </MadCap:conditionalText>
-     --></p> </td> 
+   <td> <p>Enter or map the search term that you want to search by. </p> </td> 
   </tr> 
   <tr> 
    <td>Order by</td> 
@@ -236,10 +215,10 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Create an Event</td> 
-   <td> <p>Select whether you would like to create the event.</p> 
+   <td> <p>Select how you would like to create the event.</p> 
     <ul> 
-     <li>In Detail<p>This option allows you to put in more detail about the event.<br></p></li> 
-     <li>Quickly<p>You only need to select the calendar and enter a name for the event. You can include time and place details in the name, and Google Calendar will schedule the event for that place and time.</p></li> 
+     <li><b>In Detail</b><p>This option allows you to put in more detail about the event.<br></p></li> 
+     <li><b>Quickly</b><p>You only need to select the calendar and enter a name for the event. You can include time and place details in the name, and Google Calendar will schedule the event for that place and time.</p></li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -294,9 +273,9 @@ When you are configuring this module, the following fields display.
    <td>Visibility </td> 
    <td> <p>Select the visibility of this event. </p> 
     <ul> 
-     <li> <p>Default</p> <p>The event has the visibility that you have set in your calendar settings.</p> </li> 
-     <li> <p>Public</p> <p>Anyone the calendar is shared with can see this event.</p> </li> 
-     <li> <p>Private</p> <p>Only attendees can see this event.</p> </li> 
+     <li> <p><b>Default</b></p> <p>The event has the visibility that you have set in your calendar settings.</p> </li> 
+     <li> <p><b>Public</b></p> <p>Anyone the calendar is shared with can see this event.</p> </li> 
+     <li> <p><b>Private</b></p> <p>Only attendees can see this event.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -833,13 +812,7 @@ You can trigger a scenario a specified time before an event with the help of sta
    
    1. In Workfront Fusion, switch to the new scenario that should finish its execution by receiving the confirmation email.
    1. Click the bubble above the module to inspect the module's output.
-   1. Expand the    
-   
-      ```   
-      Text
-      ```   
-   
-      item and copy the Confirmation code:
+   1. Expand the `Text` item and copy the Confirmation code:
 
       ![](assets/confirmation-code-350x252.png)
 
@@ -849,13 +822,7 @@ You can trigger a scenario a specified time before an event with the help of sta
 
    1. Open the **Filters and Blocked Addresses** tab.
    1. Click **Create a new filter**.
-   1. Setup a filter for all emails coming from    
-   
-      ```   
-      calendar-notification@google.com
-      ```   
-   
-      and click**Create a filter**:
+   1. Setup a filter for all emails coming from `     calendar-notification@google.com` and click**Create a filter**:
    1. Select **Forward it to** and choose the mailhooks's email address from the list.
    1. Click **Create filter** to create the filter.
 
@@ -863,17 +830,7 @@ You can trigger a scenario a specified time before an event with the help of sta
 
    For example, you could configure the module as follows to obtain the event's ID:
 
-   *Pattern*:
+   *Pattern*: `<meta itemprop="eventId/googleCalendar" content="(?<evenitID>.*?)"/>`
 
-   ```
-   <meta itemprop="eventId/googleCalendar" content="(?<evenitID>.*?)"/>
-   ```
-
-   *Text*: The 
-
-   ```
-   HTML content
-   ```
-
-   item outputted from the Webhooks > Custom mailhook module:
+   *Text*: The `HTML content` item outputted from the Webhooks > Custom mailhook module:
 
