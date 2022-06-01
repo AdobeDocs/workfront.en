@@ -3,12 +3,12 @@ filename: configure-scrum
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configure Scrum
-description: You can configure the following options for agile teams during or after the team is created. You create an agile team (Kanban or Scrum) in Adobe Workfront as described in Create an agile team.
+description: You can configure the following options for Scrum agile teams during or after the team is created.
 ---
 
 # Configure Scrum
 
-You can configure the following options for agile teams during or after the team is created. You create an agile&nbsp;team (Kanban or Scrum) in Adobe Workfront as described in&nbsp; [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+You can configure the following options for agile teams during or after the team is created. You create an agile team (Kanban or Scrum) in Adobe Workfront as described in [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 ## Access requirements
 
@@ -21,11 +21,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
 
 >[!NOTE]
 >
->This setting cannot be changed if the team has any&nbsp;iterations that are currently In Progress.
+>This setting cannot be changed if the team has any iterations that are currently In Progress.
 
 You can configure stories to be estimated either using points or hours.
 
@@ -46,21 +46,21 @@ To configure how stories are estimated for your agile team:
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**.
 
 1. Click the **Switch team** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
-1. Select the agile&nbsp;team that you want to manage.
+1. Select the agile team that you want to manage.
 1. Click the **More** menu, then select **Edit**.
 
    Only team members with either a Plan or Work license see this option.  
    ![](assets/edit-team-settings-350x205.png)
 
-1. In the&nbsp;**Agile**&nbsp;section, in the&nbsp;**Estimate Stories** in&nbsp;area,&nbsp;select whether you want to use points or hours for estimating the size (work load) of stories. If you select&nbsp;Points,&nbsp;specify how many hours are equal to 1 point. (The default is 1 point = 8 hours.) This is the number of Planned Hours that are added to the story.
+1. In the **Agile**&nbsp;section, in the **Estimate Stories** in area, select whether you want to use points or hours for estimating the size (work load) of stories. If you select Points, specify how many hours are equal to 1 point. (The default is 1 point = 8 hours.) This is the number of Planned Hours that are added to the story.
 
-   **Example:** If you have selected to estimate stories in points and 1 point equals 8 hours, and&nbsp;a story is estimated at 3 points, 24 Planned Hours are added to the story.
+   **Example:** If you have selected to estimate stories in points and 1 point equals 8 hours, and a story is estimated at 3 points, 24 Planned Hours are added to the story.
 
-1. Click&nbsp;**Save Changes**.
+1. Click **Save Changes**.
 
 ## Configure status columns on the agile story board
 
-You can configure which columns are displayed on the agile story board for all iterations assigned to your&nbsp;team, or for a given project.
+You can configure which columns are displayed on the agile story board for all iterations assigned to your team, or for a given project.
 
 * [Configure status columns for iterations](#configure-status-columns-for-iterations) 
 * [Configure status columns for projects](#configure-status-columns-for-projects)
@@ -69,27 +69,27 @@ You can configure which columns are displayed on the agile story board for all i
 
 You can define the statuses that exist on the story board for the agile team. These are the only statuses that display on the story board.
 
-To define the statuses that are available for the story board associated with&nbsp;the agile team:
+To define the statuses that are available for the story board associated with the agile team:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**.
 
 1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
-1. Select the agile&nbsp;team that you want to manage.
+1. Select the agile team that you want to manage.
 1. Click the **More** menu, then select **Edit**.
 
    Only team members with either a Plan or Work license see this option.
 
    ![](assets/edit-team-settings-350x205.png)
 
-1. In the **Agile**&nbsp;section, locate the **Story Board**&nbsp;area.
+1. In the **Agile** section, locate the **Story Board** area.
 
 1. (Optional) Click **Add Column** to add an additional status column to the story board.
 1. (Optional) Drag any status column using the drag-and-drop indicator to reorder the status columns on the story board. The first column can't be moved, and you cannot drag another column in front of the first column.
 
    ![](assets/agile-story-card-drag-and-drop.png)
 
-1. Select both task and issue statuses.&nbsp;Task statuses are displayed as the column title for each column on the story board. The issue statuses you select map to the task statuses. This means that when you move an issue to another column of the story board, the issue status changes to the issue statuses shown here, and not to the name of the column on the story board (which reflects the task status).
+1. Select both task and issue statuses. Task statuses are displayed as the column title for each column on the story board. The issue statuses you select map to the task statuses. This means that when you move an issue to another column of the story board, the issue status changes to the issue statuses shown here, and not to the name of the column on the story board (which reflects the task status).
 
    >[!IMPORTANT]
    >
@@ -117,7 +117,7 @@ When you add fields to story cards, fields are view-only and display-only when t
 
 By default, the following types of data is displayed on the story card for tasks and issues:
 
-* Story name with a&nbsp;link directly to the task or issue
+* Story name with a link directly to the task or issue
 * The project name with a link directly to the project
 * This link is displayed only for stories, not for subtasks
 * The task or issue description
@@ -125,7 +125,7 @@ By default, the following types of data is displayed on the story card for tasks
 * View and edit the percent complete either by adjusting the percent complete itself or by adjusting the number of points or hours that are complete
 * Assigned Users
 
-You can display additional data (including custom data) on story cards.&nbsp;You might want to display additional fields on story cards for any number of reasons.&nbsp;For example, you might want to&nbsp;display the Customer ID if you are working on stories for multiple customers within the&nbsp;iteration, or you might want to display&nbsp;the Project Start Date or Project Completion Date.
+You can display additional data (including custom data) on story cards. You might want to display additional fields on story cards for any number of reasons. For example, you might want to display the Customer ID if you are working on stories for multiple customers within the iteration, or you might want to display the Project Start Date or Project Completion Date.
 
 To configure story cards that are assigned to the agile team to display additional fields:
 
@@ -133,7 +133,7 @@ To configure story cards that are assigned to the agile team to display addition
 
 1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
-1. Select the agile&nbsp;team that you want to manage.
+1. Select the agile team that you want to manage.
 1. Click the **More** menu, then select **Edit**.  
    Only team members with either a Plan or Work license see this option.
 
@@ -149,7 +149,7 @@ To configure story cards that are assigned to the agile team to display addition
 
 ## Configure how color indicators are used for stories on the agile story board
 
-By default, story board tiles in an agile iteration are color-coded according to the project that the story is associated with. Each project is arbitrarily&nbsp;assigned a color on the story board. You can change this default behavior for each agile team. Colors for agile stories can be tied to&nbsp;story priority, owner, and so forth.
+By default, story board tiles in an agile iteration are color-coded according to the project that the story is associated with. Each project is arbitrarily assigned a color on the story board. You can change this default behavior for each agile team. Colors for agile stories can be tied to story priority, owner, and so forth.
 
 To change the behavior of how colors are assigned to stories for an agile team:
 
@@ -157,27 +157,27 @@ To change the behavior of how colors are assigned to stories for an agile team:
 
 1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
-1. Select the agile&nbsp;team that you want to manage.
+1. Select the agile team that you want to manage.
 1. Click the **More** menu, then select **Edit**.
 
    Only team members with either a Plan or Work license see this option.
 
    ![](assets/edit-team-settings-350x205.png)
 
-1. In the&nbsp;Agile&nbsp;section, in the&nbsp;Associate Card Color to&nbsp;area, select from the following options:
+1. In the Agile section, in the Associate Card Color to area, select from the following options:
 
-   * **Project**:&nbsp;Colors are associated with&nbsp;the project that the story is tied to. (When a story is created, it must be associated with a project, as described in&nbsp;"Creating an Agile Story.") All tasks from the same project are displayed with the same color.
-   * **Free Form**:&nbsp;All cards are displayed as blue by default until a user changes the color manually, as described in "Categorizing Stories by Color" in&nbsp;"Creating and Managing Agile Iterations."
-   * **Priority**:&nbsp;Colors are associated with the story priority, as follows:
+   * **Project**: Colors are associated with the project that the story is tied to. (When a story is created, it must be associated with a project, as described in [Create an Agile Story](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). All tasks from the same project are displayed with the same color.
+   * **Free Form**: All cards are displayed as blue by default until a user changes the color manually, as described in [Categorize stories by color on the Scrum board](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
+   * **Priority**: Colors are associated with the story priority, as follows:
 
       * High = Red
       * Medium = Yellow
       * Low = Green  
         If your system administrator has configured custom priorities for your Workfront system, the highest priority is red, the second-highest is yellow, and the third-highest is green.
 
-   * **Task Owner**:&nbsp;All stories with the same primary assignee are the same color. The primary assignee is the user who was first assigned to the task.
+   * **Task Owner**: All stories with the same primary assignee are the same color. The primary assignee is the user who was first assigned to the task.
 
-1. Click&nbsp;**Save Changes**.
+1. Click **Save Changes**.
 
 ## Configure how dates are applied when adding work items to an iteration
 
