@@ -718,17 +718,9 @@ This module allows you to perform a custom API call.
 
 **Example:** The following API call returns all teams and its details in your Frame.io account:
 
-URL: 
+URL: `/v2/teams`
 
-```
-/v2/teams
-```
-
-Method: 
-
-```
-GET
-```
+Method: `GET`
 
 ![](assets/api-call-example.png)
 
