@@ -150,7 +150,7 @@ To create pop-up messages for proofs:
 
 ## Configure proof defaults
 
-For information about configuring proof defaults for your organization, see [Configure default proof settings](administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+For information about configuring proof defaults for your organization, see [Configure default proof settings](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 
 ## Configure sharing defaults
