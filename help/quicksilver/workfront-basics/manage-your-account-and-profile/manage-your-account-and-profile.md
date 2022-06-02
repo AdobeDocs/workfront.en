@@ -4,7 +4,7 @@ content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
 title: Manage your account and profile
-description: This section contains the following subsections - EDIT ME.
+description: Review the articles in this section to learn how to manage your Workfront account and user profile.
 ---
 
 # Manage your account and profile
