@@ -149,6 +149,7 @@ To create pop-up messages for proofs:
 1. (Optional) If you customized the On load message and you want to also customize the confirmation button label, click&nbsp;**Edit** to the right of&nbsp;**Confirm button text**, specify a label, then click&nbsp;**Save**.&nbsp;
 
 ## Configure proof defaults
+
 For information about configuring proof defaults for your organization, see [Configure default proof settings](administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 
