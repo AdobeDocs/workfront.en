@@ -46,11 +46,11 @@ You can install your package in any of the following environments:
     </tr>
     <tr>
         <td><strong>Sandbox Preview</strong></td>
-        <td>The Sandbox Preview is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront. All support packages have access to the Sandbox Preview. For more information, see <a href="help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">The Adobe Workfront Preview Sandbox Environment</a>.</td>
+        <td>The Sandbox Preview is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront. All support packages have access to the Sandbox Preview. For more information, see <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">The Adobe Workfront Preview Sandbox Environment</a>.</td>
     </tr>
     <tr>
         <td><strong>Sandbox 1 &amp; 2</strong></td>
-        <td>The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain the Custom Refresh Sandbox. For more information, see <a href="help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md">The Adobe Workfront Custom Refresh Sandbox environment</a>.</td>
+        <td>The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain the Custom Refresh Sandbox. For more information, see <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md">The Adobe Workfront Custom Refresh Sandbox environment</a>.</td>
     </tr>
 </table>
 

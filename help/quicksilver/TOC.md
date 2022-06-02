@@ -856,6 +856,8 @@ user-guide-description: Workfront
     * [Get started with boards in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
     * [Use the boards dashboard](agile/get-started-with-boards/use-boards-page.md)
     * [Create or edit a board](agile/get-started-with-boards/create-edit-board.md)
+    * [Delete or archive a board](agile/get-started-with-boards/delete-archive-board.md
+)
     * [Add or remove members from a board](agile/get-started-with-boards/add-members-to-board.md)
     * [Manage board columns](agile/get-started-with-boards/manage-board-columns.md)
     * [Add a card to a board](agile/get-started-with-boards/add-card-to-board.md)
