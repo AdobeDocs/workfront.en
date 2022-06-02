@@ -3,14 +3,14 @@ filename: change-order-of-stories
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Change the order of stories on the Scrum board
-description: The order in which stories appear on the story board does not indicate priority. However, it can affect the perceived priority by making stories more visible. By default, stories are displayed in alphabetical order within each status column on the story board. (Stories with swimlanes are displayed at the top of the story board, and stories without swimlanes are displayed separately below any swimlanes.)
+description: The order in which stories appear on the story board does not indicate priority. However, it can affect the perceived priority by making stories more visible. By default, stories are displayed in alphabetical order within each status column on the story board.
 ---
 
 # Change the order of stories on the Scrum board
 
-The order in which stories appear on the story board does not indicate priority. However, it can affect the perceived priority by making stories more visible. By default, stories are displayed in alphabetical order within each status column on the story board. (Stories&nbsp;with swimlanes are displayed at the top of the story board, and stories without swimlanes are displayed separately below any swimlanes.)
+The order in which stories appear on the story board does not indicate priority. However, it can affect the perceived priority by making stories more visible. By default, stories are displayed in alphabetical order within each status column on the story board. (Stories with swimlanes are displayed at the top of the story board, and stories without swimlanes are displayed separately below any swimlanes.)
 
-When you reorder columns on the story board, any changes you make are saved on the iteration or project, so changes are retained the next time you or another user views the story board. (Changes you make are not reverted&nbsp;when clearing the browser cache.)
+When you reorder columns on the story board, any changes you make are saved on the iteration or project, so changes are retained the next time you or another user views the story board. (Changes you make are not reverted when clearing the browser cache.)
 
 ## Access requirements
 
@@ -23,15 +23,15 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 

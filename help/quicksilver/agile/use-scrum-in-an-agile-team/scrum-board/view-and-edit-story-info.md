@@ -3,14 +3,14 @@ filename: view-and-edit-story-info
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: View and edit story information on the Scrum board
-description: When viewing a story tile on the story board, the information in the following table is available. You can edit most information inline, directly from the story tile.
+description: When viewing a story tile on the Kanban board, certain information is available to edit inline, directly from the story tile.
 ---
 
 # View and edit story information on the Scrum board
 
 ## Understand what information can be viewed and edited
 
-When viewing&nbsp;a story tile on the story board, the information in the following table is available. You can edit most information inline, directly from the story tile.
+When viewing a story tile on the story board, the information in the following table is available. You can edit most information inline, directly from the story tile.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,19 +73,19 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>Edit access to the task or issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 

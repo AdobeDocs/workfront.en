@@ -39,13 +39,20 @@ You must have the following access to perform the steps in this article:
 1. Find the blueprint you want to use.
 1. Click Install, then choose an environment:
 
-   | Environment | Description |
-   |---|---|
-   | Production  |Production is your live environment.  |
-   | Sandbox Preview  |The Sandbox Preview is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront.  |
-   | Sandbox 1 & 2  |The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain a Custom Refresh Sandbox. |
-
-   {style="table-layout:auto"}
+   <table style="table-layout:auto">
+        <tr>
+        <td><strong>Production</strong></td>
+        <td>Production is your live environment.</td>
+    </tr>
+    <tr>
+        <td><strong>Sandbox Preview</strong></td>
+        <td>The Sandbox Preview is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront.</td>
+    </tr>
+    <tr>
+        <td><strong>Sandbox 1 &amp; 2</strong></td>
+        <td>The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain the Custom Refresh Sandbox.</td>
+    </tr>
+   </table>
 
 1. Continue with the following sections:
 
@@ -66,14 +73,24 @@ You can also designate template ownership before you install the blueprint. You 
 1. In the Template Preferences section, specify a new template name.
 1. Specify the following:
 
-   | | |
-   |---|---|
-   | **Template owner**  |This person receives Manage permissions on the template and will become the Project owner when the template is used to create a project. |
-   | **Template sponsor** |This person is usually a manager, executive, or stakeholder who needs to know what is happening with the project. The Project Sponsor does not gain any additional access to the project but is added to the email notifications for the project. |
-   | **Portfolio** |This is the portfolio the project will belong to when it's created. |
-   | **Program** |This is the program the project will belong to when it's created. |
-
-   {style="table-layout:auto"}
+   <table style="table-layout:auto">
+    <tr>
+        <td><strong>Template owner<strong></td>
+        <td>This person receives Manage permissions on the template and will become the Project owner when the template is used to create a project.</td>
+    </tr>
+    <tr>
+        <td><strong>Template sponsor</strong></td>
+        <td>This person is usually a manager, executive, or stakeholder who needs to know what is happening with the project. The Project Sponsor does not gain any additional access to the project but is added to the email notifications for the project.</td>
+    </tr>
+    <tr>
+        <td><strong>Portfolio</strong></td>
+        <td>This is the portfolio the project will belong to when it's created.</td>
+    </tr>
+    <tr>
+        <td><strong>Program</strong></td>
+        <td>This is the program the project will belong to when it's created.</td>
+    </tr>
+   </table>
 
 1. Select whether the template is installed as active or inactive.
 1. Select whether you want to use defined new issue preferences, if preferences are available.
