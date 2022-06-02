@@ -6,16 +6,15 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: HTTP > Other modules
-description: HTTP > Other moduleshow to", it is an overview; and according to the style guide the overview articles are titled "HTTP modules overview". Would this fit the bill for that title?)"
+description: The Adobe Workfront Fusion HTTP app provides various modules for communication based on Hypertext Transfer Protocol (HTTP) protocol. HTTP is the foundation of data communication for the World Wide Web. You can use the modules to download web pages and files, call webhooks and API endpoints, and so on.
 ---
 
 # HTTP > Other modules
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: from&nbsp;Alina: Just a suggestion: I think when an article is not a "how to", it is an overview; and according to the style guide the overview articles are titled "HTTP modules overview". Would this fit the bill for that title?)</p>
--->
+>[!AVAILABILITY]
+>
+>Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
-Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 The Adobe Workfront Fusion HTTP app provides various modules for communication based on Hypertext Transfer Protocol (HTTP) protocol. HTTP is the foundation of data communication for the World Wide Web. You can use the modules to download web pages and files, call webhooks and API endpoints, and so on.
 
 The right choice of the module depends on the authentication/ authorization mechanism the resource you want to access employs.&nbsp;The following are examples of modules
