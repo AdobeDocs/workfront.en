@@ -8,7 +8,7 @@ description: You can view issues that are associated with a project, task, or it
 
 # View issues
 
-You can view issues that are associated with&nbsp;a project, task, or iteration.
+You can view issues that are associated with a project, task, or iteration.
 
 ## Access requirements
 
@@ -39,13 +39,13 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## View issues based on&nbsp;Status
+## View issues based on Status
 
-To view issues on a project, task, or iteration:&nbsp;
+To view issues on a project, task, or iteration: 
 
 1. Open a project, task, or iteration that contains issues, then click **Issues** in the left panel.   
 
-1. &nbsp;To display all, open, or closed issues, click any of the filters listed below from the **Filter** drop-down menu.
+1.  To display all, open, or closed issues, click any of the filters listed below from the **Filter** drop-down menu.
 
    >[!TIP]
    >
@@ -57,14 +57,14 @@ To view issues on a project, task, or iteration:&nbsp;
 
      For information about Resolving Objects, see [Overview of Resolving and Resolvable Objects](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
    
-   * **Completed****:**&nbsp;Displays&nbsp;all issues that have an Actual&nbsp;Completion Date.&nbsp;
-   * **All****:**&nbsp;Displays&nbsp;all issues.
+   * **Completed:** Displays all issues that have an Actual Completion Date. 
+   * **All** Displays all issues.
 
 ## Understand information about issues
 
-You can view information about an issue when you access it.&nbsp;
+You can view information about an issue when you access it. 
 
-To access an issue and view information about it:&nbsp;
+To access an issue and view information about it: 
 
 1. Open a project, task, or iteration that contains issues, then click **Issues** in the left panel.  
 1. From the **Filter** drop-down menu, select the filter to display the issues you are trying to view.
@@ -77,13 +77,13 @@ To access an issue and view information about it:&nbsp;
 
 1. Click the name of an issue.
 
-   When you have manage permissions to the issue you can edit any editable field in the issue and add&nbsp;approvals, hours, or documents to the issue.
+   When you have manage permissions to the issue you can edit any editable field in the issue and add approvals, hours, or documents to the issue.
 
-1. &nbsp;From the left panel, click any of the following to view more information about the issue:
+1.  From the left panel, click any of the following to view more information about the issue:
 
-   * **Updates**:&nbsp;You can perform the following actions :
+   * **Updates**: You can perform the following actions :
 
-      * Comment on the issue, or reply to an existing comment.&nbsp;
+      * Comment on the issue, or reply to an existing comment. 
       * Log time.
       * Change the status of the issue.  
         For more information about updating work in Workfront, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -97,46 +97,45 @@ To access an issue and view information about it:&nbsp;
       * **Name**
       * **Path**: the path through which the issue was logged to the project.
 
-        &nbsp;If an issue was submitted as a request in&nbsp;a request queue, the names of the project, the Topic Group, and the Queue Topic are listed here. This field cannot be edited.
+         If an issue was submitted as a request in a request queue, the names of the project, the Topic Group, and the Queue Topic are listed here. This field cannot be edited.
 
         For more information about submitting requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
       
       * **Description**
       * **URL**: any web address related to the issue.
-      * **Priority**: a visual flag which allows you to prioritize issues.&nbsp;
-      * **Severity**:&nbsp;a visual flag which indicates&nbsp;how severe the problem described in the issue is.
+      * **Priority**: a visual flag which allows you to prioritize issues. 
+      * **Severity**: a visual flag which indicates how severe the problem described in the issue is.
       * **Primary Contact**: the default Primary Contact is the user who created the issue. This field can be edited.
       * **Planned Hours**: displays the amount of time that will take someone to complete the issue. The default is 8 hours. This field can be edited.
-      * **Actual Hours**: displays the amount of time that&nbsp;it took to complete the issue. This is the actual time that someone logs for the issue.&nbsp;
-      * **Planned Start Date**: the date when the issue is planned to start. The default is the date and the time when the issue was created.&nbsp;
+      * **Actual Hours**: displays the amount of time that it took to complete the issue. This is the actual time that someone logs for the issue. 
+      * **Planned Start Date**: the date when the issue is planned to start. The default is the date and the time when the issue was created. 
       * **Actual Start Date**: the date and the time when the issue status was changed to In Progress.
-      * **Planned Completion Date**: the date when the issue is planned to be completed.&nbsp;
-      * **Actual Completion Date**: the date when the issue is actually completed. This field is filled in automatically when the issue status changes to Closed or Resolved, or can be manually edited.&nbsp;
-      * **Actual Cost**: the cost based on the Actual Hours logged on the issue. This field is not editable. The Actual Cost of an issue is calculated based on the following formula:&nbsp;
+      * **Planned Completion Date**: the date when the issue is planned to be completed. 
+      * **Actual Completion Date**: the date when the issue is actually completed. This field is filled in automatically when the issue status changes to Closed or Resolved, or can be manually edited. 
+      * **Actual Cost**: the cost based on the Actual Hours logged on the issue. This field is not editable. The Actual Cost of an issue is calculated based on the following formula, where the User Cost Rate is the cost rate associated with the user logging the time to the issue: 
 
         ```      
         Issue Actual Cost = Hours Logged * User Cost Rate
         ```      
       
-        , where the User&nbsp;Cost Rate is the cost rate associated with the user logging the time to the issue.&nbsp;
-      
       * **Entered By**: this is the user who created the issue. This field is not editable.
-      * **Last Updated By**: this is the user who updated any field on the issue last. This field is not editable.&nbsp;
+      * **Last Updated By**: this is the user who updated any field on the issue last. This field is not editable. 
 
      In the **Custom Forms** area , view of select one or several custom forms to associate with the issue. 
    
    * **Hours**: Shows a list of hour entries on the issue.
    * **Approvals:** Shows the approval paths associated with the issue.  
+     
      For more information about associating approvals with an issue, see the [Associating an approval process with a work item](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object) section in [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## View which projects and&nbsp;tasks have issues
+## View which projects and tasks have issues
 
-You can add icons in the view of a project or task report or list to show whether they have issues attached. Adding icons to the view of a report or list is similar for projects and tasks.&nbsp;
+You can add icons in the view of a project or task report or list to show whether they have issues attached. Adding icons to the view of a report or list is similar for projects and tasks. 
 
 To add icons that display whether a project has issues in a project report:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click **Reporting**>**New Report**>**Project Report**. 
+1. Click **Reporting** > **New Report** > **Project Report**. 
 1. In the **Show in this column** field, start typing **Status Icons**, then select it when it appears in the list.
 
 1. Click **Save + Close** .

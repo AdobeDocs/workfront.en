@@ -3,7 +3,7 @@ filename: move-issues
 product-area: projects
 navigation-topic: manage-issues
 title: Move issues
-description: You can move issues between the following objects - EDIT ME.
+description: You can move issues between projects and tasks.
 ---
 
 # Move issues
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to&nbsp;Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,11 +46,11 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about moving issues
 
-Consider the following when moving&nbsp;issues that contain documents or are associated with a request queue:
+Consider the following when moving issues that contain documents or are associated with a request queue:
 
-* **When an issue is associated with a requests queue:** When you move&nbsp;an issue to another object&nbsp;and the issue&nbsp;is associated with a request queue, the moved&nbsp;issue is no longer associated with the original queue&nbsp;the first issue originated from.
-* **When a document is attached to the issue:**&nbsp;When you move&nbsp;an issue to another object&nbsp;and the issue has a document attached to it, the document, its versions and proofs also move to the new&nbsp;issue. Any approvals associated with the document do&nbsp;not move.
-* **When an issue is linked to a document or a folder:**&nbsp;When you move&nbsp;an issue which has documents or folders linked to a a third party service like Google Drive, the&nbsp;links to the documents move with the issue.&nbsp;
+* **When an issue is associated with a requests queue:** When you move an issue to another object and the issue is associated with a request queue, the moved issue is no longer associated with the original queue the first issue originated from.
+* **When a document is attached to the issue:** When you move an issue to another object and the issue has a document attached to it, the document, its versions and proofs also move to the new issue. Any approvals associated with the document do not move.
+* **When an issue is linked to a document or a folder:** When you move an issue which has documents or folders linked to a a third party service like Google Drive, the links to the documents move with the issue. 
 
 ## Move issues in a list
 
@@ -89,22 +89,22 @@ You can move one issue when viewing it.
 
    ![](assets/move-issue-box-nwe-350x280.png)
 
-1. In the **Select Destination Project** section, specify&nbsp;the name of the project where you want to move the issues. The name of the current project displays by default.
+1. In the **Select Destination Project** section, specify the name of the project where you want to move the issues. The name of the current project displays by default.
 
    >[!TIP]
    >
    >Only 100 projects display in the list.
 
-1. (Conditional) Click&nbsp;**request access** if you do not have access to move issues to the project. 
+1. (Conditional) Click **request access** if you do not have access to move issues to the project. 
 1. (Conditional) Continue to move the issue on the selected destination project without requesting access if you have access to add issues to one of the tasks on the destination project.
 
    ![](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >
-   >Similar messages display if the project selected is in pending approval, completed, or dead, when the Workfront administrator prevents adding issues to these projects.&nbsp;For more information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Similar messages display if the project selected is in pending approval, completed, or dead, when the Workfront administrator prevents adding issues to these projects. For more information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. (Optional) In the **Options** section, deselect any of the items listed in the table below to remove&nbsp;them&nbsp;from&nbsp;the moved issue. All options are selected by default.
+1. (Optional) In the **Options** section, deselect any of the items listed in the table below to remove them from the moved issue. All options are selected by default.
 
    >[!IMPORTANT]
    >
@@ -144,5 +144,5 @@ You can move one issue when viewing it.
 1. (Optional) In the **Select Task** section, select the task where you want to move the issue. 
 1. Click **Move issue** or **Move issues**, if you selected multiple issues in a list.
 
-   The moved issues are added to the specified project.&nbsp;
+   The moved issues are added to the specified project. 
 
