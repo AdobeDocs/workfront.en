@@ -42,15 +42,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -135,11 +127,6 @@ Watches the form for new responses.
 
 * [Add a Response](#add-a-response) 
 * [Update a Response](#update-a-response)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#select-responses" class="MCXref xref">Select Responses</a> </li>
-  -->
-
 * [Delete a Response](#delete-a-response)
 
 #### Add a Response {#add-a-response}
@@ -228,51 +215,6 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4 id="select-responses">Select Responses</h4>
-<p>This module returns response rows that match the criteria specified on a selected worksheet.</p>
-<table style="table-layout:auto">
-<col data-mc-conditions="">
-<col data-mc-conditions="">
-<tbody>
-<tr>
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
-<td> <p>For instructions about connecting your Google account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td>
-</tr>
-<tr>
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">File</td>
-<td> <p>Select the spreadsheet that contains the sheet where you want to update a response.</p> </td>
-</tr>
-<tr>
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet</td>
-<td> <p> Select the sheet that contains the form responses.</p> </td>
-</tr>
-<tr>
-<td role="rowheader"> <p>Row ID</p> </td>
-<td> <p>Enter or map the ID of the row you want to update.</p> </td>
-</tr>
-<tr>
-<td role="rowheader"> <p>Values</p> </td>
-<td> <p>Enter the new values to the desired columns.</p> </td>
-</tr>
-<tr data-mc-conditions="">
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Continue the execution of the route even if the module returns no results</td>
-<td> <p>Enable this option to ensure that the scenario is not stopped by this module.</p> </td>
-</tr>
-<tr data-mc-conditions="">
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Filtering</td>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Enter or map the filter by which you want to select responses.</td>
-</tr>
-<tr data-mc-conditions="">
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of returned rows</td>
-<td> <p> Set the maximum number of responses that Workfront Fusion returns during one cycle.</p> </td>
-</tr>
-</tbody>
-</table>
-</div>
--->
-
 #### Delete a Response {#delete-a-response}
 
 This module deletes a selected response.
@@ -313,38 +255,31 @@ This module returns responses matching the given criteria.
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
-  <tr data-mc-conditions=""> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
-   --> 
+    <td>Connection</td>
    <td> <p>For instructions about connecting your Google account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Spreadsheet</td>
-   --> 
+  <tr data-mc-conditions=""> 
+    <td>Spreadsheet</td>
    <td> <p>Select the form you want to search in.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sheet </td>
-   --> 
+  <tr data-mc-conditions="">
+    <td>Sheet </td>
    <td> <p>Select the sheet that contains the form responses.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Column range</td>
-   --> 
+  <tr data-mc-conditions=""> 
+    <td>Column range</td>
    <td> <p> Select the column range you want to search.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Filter</td> 
    <td> <p>Define the filter you want to search responses responses by.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sort Order </td>
-   --> 
+  <tr data-mc-conditions=""> 
+    <td>Sort Order </td>
    <td> <p>Select whether to sort returned responses in ascending or descending order.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Order By</td>
-   --> 
+  <tr data-mc-conditions=""> 
+    <td>Order By</td>
    <td> <p> Select the column you want to order returned responses by.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -356,10 +291,9 @@ This module returns responses matching the given criteria.
      <li> <p><strong>Formula</strong> </p> <p>Values are not calculated. The reply includes the formulas. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>=A1</code>.</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr data-mc-conditions=""> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Date and time render option</td>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select how you want dates, times, and duration to be represented in the output. This field is ignored if Value Render Option is set to Formatted Value. </td>
-  -->
+  <tr data-mc-conditions="">
+    <td>Date and time render option</td>
+    <td>Select how you want dates, times, and duration to be represented in the output. This field is ignored if Value Render Option is set to Formatted Value. </td>
   </tr> 
   <tr>
     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of returned responses</td>
@@ -376,28 +310,24 @@ This module performs a search using the [Google Charts Query Language](https://d
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
-  <tr> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
-   --> 
+  <tr> 
+    <td>Connection</td>
    <td> <p>For instructions about connecting your Google account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
-  <tr> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Spreadsheet</td>
-   --> 
+  <tr>
+    <td>Spreadsheet</td>
    <td> <p>Select the spreadsheet that contains the sheet you want to search.</p> </td> 
   </tr> 
-  <tr> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sheet</td>
-   --> 
+  <tr>
+    <td>Sheet</td>
    <td> <p> Select the sheet that contains the form responses.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Filter</td> 
    <td> <p>Define the search query using the <a href="https://developers.google.com/chart/interactive/docs/querylanguage">Google Charts Query Language</a>.</p> <p>Example: <code>select * where C = "John"</code> retrieves all values for the row where the C column is "John".</p> </td> 
   </tr> 
-  <tr> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of returned rows</td>
-   --> 
+  <tr>
+    <td>Maximum number of returned rows</td>
    <td> <p> Set the maximum number of responses that Workfront Fusion returns during one cycle.</p> </td> 
   </tr> 
  </tbody> 
