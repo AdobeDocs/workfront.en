@@ -8,7 +8,7 @@ description: You can delete issues or requests in Adobe Workfront if you have th
 
 # Delete issues
 
-You can delete issues or requests in&nbsp;Adobe Workfront if you have the correct access and permissions to do so.
+You can delete issues or requests in Adobe Workfront if you have the correct access and permissions to do so.
 
 >[!TIP]
 >
@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 
 * Your Workfront administrator or a group administrator must enable deleting issues in a project that has a status of Complete in your Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).   
 
-* If the issue has logged hours, the Workfront administrator or a group administrator must allow the deletion of these issues by configuring the Task & Issue Preferences in your Workfront instance. ```This also applies when you try to delete projects that have issues with hours logged on them.```
+* If the issue has logged hours, the Workfront administrator or a group administrator must allow the deletion of these issues by configuring the Task & Issue Preferences in your Workfront instance. This also applies when you try to delete projects that have issues with hours logged on them.
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -121,6 +121,7 @@ Depending on how your Workfront or group administrator configures the Project, T
 
 1. Click **Delete**. 
 1. If the deletion is allowed, click **Yes, Delete it**.  
+   
    Your Workfront administrator might not allow the deletion of issues where hours are logged.  
    For more information about the access and permissions needed to delete an issue, see [Delete issues](#access-and-permissions-needed).
 

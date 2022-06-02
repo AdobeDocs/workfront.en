@@ -71,6 +71,7 @@ Consider the following when assigning multiple resources to a work item:
 * Users can have more than one job role associated with their profile. For information about associating users with job roles, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Tasks or issues are usually first assigned to one or multiple job roles or to a team. When projects are ready to start, they might need to also be assigned to users.   
+  
   If a task or an issue is assigned to one or multiple roles and then you also assign a user, Adobe Workfront decides which job role to associate with the additional user (if any)&nbsp;according to the following rules:
 
    * If there is only one job role assigned and it matches the user's Primary Role, then the task or issue is assigned only to the user fulfilling their&nbsp;Primary Role. 
@@ -142,7 +143,7 @@ To assign issues in a list:
 
      ![](assets/assigned-to-field-task-list-nwe.png)
 
-   * Click inside the **Assignments** field and start typing the name of an ```active``` user, ```job role```, or ```active``` team that you want to assign to the issue, then click it when it displays in the list.
+   * Click inside the **Assignments** field and start typing the name of an active user, job role, or active team that you want to assign to the issue, then click it when it displays in the list.
 
      ![](assets/assignments-field-task-list-nwe.png)
 
