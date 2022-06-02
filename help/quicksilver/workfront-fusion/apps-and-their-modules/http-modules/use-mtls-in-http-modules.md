@@ -6,12 +6,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
 title: Use Mutual TLS in HTTP modules in Adobe Workfront Fusion
-description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+description: You can use Mutual TLS in your Adobe Workfront Fusion HTTP modules, allowing both sides of the information transaction to verify the other's identity. 
 ---
 
 # Use Mutual TLS in HTTP modules in Adobe Workfront Fusion
 
-Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+>[!AVAILABILITY]
+>
+>Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
 ## Mutual TLS overview
 
@@ -19,13 +21,15 @@ When you send data over the internet, it's important to ensure that it goes to o
 
 Mutual TLS allows this identity confirmation to go both ways. When the server sends its certificate to verify its identity to the client, it also requests the client's certificate. This ensures that the server does not send information to a site or user that would misuse it.
 
-**Example:**
-
-* **TLS**: When a person types "MyGreatBank.com" into a browser, they want to be sure that they are going to My Great Bank, not a website that might misuse or sell their banking information. They also want to be sure their bank account information is encrypted.
-
-  When the browser (the client) connects to MyGreatBank.com (the server), TLS requires a certificate from MyGreatBank.com to verify its identity. The certificate is provided by a certificate authority such as DigiCert or Thawte. Because the browser trusts the certificate authority, it allows the connection.
-
-* **Mutual TLS**: MySoftware.com is a software client that needs information from the MyGreatBank.com API. MyGreatBank allows only trusted clients to connect to their servers. So, in addition to the regular TLS verifying the identity of MyGreatBank.com, the TLS/certificate authority process also verifies the request from MySoftware.com.
+>[!INFO]
+>
+>**Example:**
+>
+>* **TLS**: When a person types "MyGreatBank.com" into a browser, they want to be sure that they are going to My Great Bank, not a website that might misuse or sell their banking information. They also want to be sure their bank account information is encrypted.
+>
+>   When the browser (the client) connects to MyGreatBank.com (the server), TLS requires a certificate from MyGreatBank.com to verify its identity. The certificate is provided by a certificate authority such as DigiCert or Thawte. Because the browser trusts the certificate authority, it allows the connection.
+>
+>* **Mutual TLS**: MySoftware.com is a software client that needs information from the MyGreatBank.com API. MyGreatBank allows only trusted clients to connect to their servers. So, in addition to the regular TLS verifying the identity of MyGreatBank.com, the TLS/certificate authority process also verifies the request from MySoftware.com.
 
 ## Access requirements
 
@@ -50,16 +54,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -69,9 +64,6 @@ You must have the following access to use the functionality in this article:
 
 ## Providing your Workfront Fusion public certificate
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">The Workfront Fusion 2.0 public certificate is like the certificates provided by certificate authorities such as DigiCert. When you connect to a web service with an HTTP request, the web service usually requires a Workfront Fusion 2.0 public certificate for verification.</p>
--->
 
 When you connect to a web service with an HTTP request, the web service usually requires a Workfront Fusion public certificate for verification. This allows the web service to compare the certificate presented in the HTTP request to the one on file, as a way to ensure that the certificate is on the web service's allowlist.
 
@@ -83,13 +75,6 @@ You can use the following links to download the Workfront Fusion public certific
 
 * [Download Workfront Fusion Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com_certificate-chain-2022.crt) 
 * [Download Workfront Fusion EU Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app-eu_workfrontfusion_com_certificate-chain-2022.crt)
-
-  For use in the EU
-
-### Certificates expiring November 16, 2021
-
-* [Download Workfront Fusion Certificate](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com_certificate-chain.crt) 
-* [Download Workfront Fusion EU Certificate](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app-eu_workfrontfusion_com_certificate-chain.crt)
 
   For use in the EU
 

@@ -6,12 +6,15 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
 title: HTTP > Make an OAuth 2.0 request module
-description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+description: In order to make an Adobe Workfront Fusion HTTP(S) request to servers that require an OAuth 2.0 authorization, you first need to create an OAuth connection. Adobe Workfront Fusion ensures that all calls made with this connection have the appropriate authorization headers and automatically refresh associated tokens when required.
 ---
 
 # HTTP > Make an OAuth 2.0 request module
 
-Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+>[!AVAILABILITY]
+>
+>Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+
 In order to make an Adobe Workfront Fusion HTTP(S) request to servers that require an OAuth 2.0 authorization, you first need to create an OAuth connection. Adobe Workfront Fusion ensures that all calls made with this connection have the appropriate authorization headers and automatically refresh associated tokens when required.
 
 Workfront Fusion supports the following OAuth 2.0 authentication flows:
@@ -27,7 +30,7 @@ For more information on OAuth 2.0 authentication, see [The OAuth 2.0 Authorizati
 
 You must have the following access to use the functionality in this article:
 
-<table style="table-layout:auto"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
@@ -46,16 +49,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr>
  </tbody> 
 </table>
 
@@ -65,10 +59,6 @@ You must have the following access to use the functionality in this article:
 
 ## Creating a connection for an OAuth request {#creating-a-connection-for-an-oauth-request}
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">SB: It seems strange that there is only 1 H2 in this article, but it has 3 subsections. Personally, I'd eliminate this H2, then turn the 3 H3s into H2s. I'd also update the "General instructions" to say "Creating a connection to <the thing/a general module> in the..." and change the others to "Create a" and "Connect to" to match our style guide.</p>
--->
-
 * [General instructions for creating a connection in the HTTP > Make an OAuth 2.0 request module](#general-instructions-for-creating-a-connection-in-the-http-make-an-oauth-2-0-request-module) 
 * [Instructions for creating a connection to Google in the HTTP > Make an OAuth 2.0 request module](#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-2-0-request-module) 
 * [Instructions for connecting to Microsoft Graph API via the HTTP > Make an OAuth 2.0 request module](#instructions-for-connecting-to-microsoft-graph-api-via-the-http-make-an-oauth-2-0-request-module)
@@ -77,105 +67,39 @@ You must have the following access to use the functionality in this article:
 
 1. Create an OAuth client in the target service with which you want Adobe Workfront Fusion to communicate. This option is most likely found in the Developer section of the given service.
 
-   <!--
-   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> SB: About "with which": I HATE writing around ending a sentence with a preposition. It always ends up sounding so unnatural. So, I'd change it to "that you...communicate with," but it's TOTALLY up to you. We have nothing in the style guide for or against this.</span>
-   -->
-
-   1. When creating a client, enter the appropriate URL in the    
-   
-      ```   
-      Redirect URL
-      ```   
-   
-      or    
-   
-      ```   
-      Callback URL
-      ```   
-   
-      field:
+   1. When creating a client, enter the appropriate URL in the `Redirect URL` or `Callback URL` field:
 
       | Americas / APAC |https://app.workfrontfusion.com/oauth/cb/oauth2 |
       |---|---|
       | EMEA  |https://app-eu.workfrontfusion.com/oauth/cb/oauth2 |
 
-      {style="table-layout:auto"}
+   1. After you create the client, the given service displays 2 keys: `Client ID` and `Client Secret`. Some services call these `App Key` and `App Secret` . Save the key and secret in a secure location, so you can provide them when creating the connection in Workfront Fusion.
 
-   1. After you create the client, the given service displays 2 keys:    
-   
-      ```   
-      Client ID
-      ```   
-   
-      and    
-   
-      ```   
-      Client Secret
-      ```   
-   
-      . Some services call these    
-   
-      ```   
-      App Key
-      ```   
-   
-      and    
-   
-      ```   
-      App Secret
-      ```   
-   
-      . Save the key and secret in a secure location, so you can provide them when creating the connection in Workfront Fusion.
-
-1. Find the 
-
-   ```
-   Authorize URI
-   ```
-
-   and 
-
-   ```
-   Token URI
-   ```
-
-   in the API documentation of the given service. These are URL addresses through which Workfront Fusion communicates with the target service. The addresses serve for OAuth authorization.
+1. Find the `Authorize URI` and `Token URI` in the API documentation of the given service. These are URL addresses through which Workfront Fusion communicates with the target service. The addresses serve for OAuth authorization.
 
    >[!NOTE]
    >
-   >If the service uses Implicit flow, you will need only the    >
-   >
-   >```   >
-   >Authorize URI
-   >```   >
-   >
-   >.
+   >If the service uses Implicit flow, you will need only the `Authorize URI`.
 
-   **Example:** Yahoo addresses:
-
-   * Authorize URI:    
-   
-     ```   
-     https://api.login.yahoo.com/oauth2/request_auth
-     ```   
-   
-   * Token URI:    
-   
-     ```   
-     https://api.login.yahoo.com/oauth2/get_token
-     ```
+   >[!INFO]
+   >
+   >**Example:** Yahoo addresses:
+   >
+   >* Authorize URI:    
+   >
+   >`https://api.login.yahoo.com/oauth2/request_auth`   
+   >
+   >* Token URI:    
+   >
+   >`https://api.login.yahoo.com/oauth2/get_token`
 
 1. (Conditional) If the target service uses scopes (access rights), check how the service separates individual scopes and make sure you set the separator in the advanced settings accordingly. If the separator is not set correctly, Workfront Fusion fails to create the connection, and you receive an invalid scope error.
 1. After you complete the steps above, you can start to create the OAuth connection in Workfront Fusion. Add the OAuth 2.0 HTTP(S) request and response processing module to your scenario.
 1. In the module's Connection field, click **Add**.
 
-   <!--
-   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> SB:&nbsp;I think following our style, that should say "then click Add in the Connection section" but I really like given the user the section before the field. I think it makes it easier to orient them.</span>
-   -->
-
 1. Fill in the following fields to create a connection: 
 
-   <table style="table-layout:auto"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -213,7 +137,7 @@ You must have the following access to use the functionality in this article:
        <ul> 
         <li> <p><strong>response_type</strong> </p> <p> <code>code </code>for Authorization Code flow and <code>token </code>for Implicit flow</p> </li> 
         <li> <p><strong>redirect_uri</strong> </p> 
-         <table style="table-layout:auto"> 
+         <table> 
           <col> 
           <col> 
           <tbody> 
@@ -236,7 +160,7 @@ You must have the following access to use the functionality in this article:
        <ul> 
         <li><strong>grant_type</strong>: <code>authorization_code</code></li> 
         <li> <p><strong>redirect_uri:</strong> </p> 
-         <table style="table-layout:auto"> 
+         <table> 
           <col> 
           <col> 
           <tbody> 
@@ -296,7 +220,7 @@ The following example shows how to use the HTTP > Make an OAuth 2.0 request modu
 1. Click **Add** next to the connection box.
 1. Enter the following values:
 
-   <table style="table-layout:auto"> 
+   <table> 
     <col> 
     <col> 
     <tbody> 
@@ -358,7 +282,7 @@ If you see the map button above a field or function, you can use it to set varia
 <img src="assets/map-toggle-350x74.png" style="width: 350;height: 74;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 -->
 
-<table style="table-layout:auto"> 
+<table> 
  <col> 
  <col> 
  <tbody> 
