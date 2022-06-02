@@ -71,11 +71,3 @@ After installing a blueprint that includes a company:
 
 For additional information on companies, see [Create and edit companies](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Groups</h3>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Next actions for groups - content to be provided</p>
--->
-

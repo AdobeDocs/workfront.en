@@ -4,14 +4,14 @@ content-type: overview
 product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Configure personal time off in Adobe Workfront
-description: Adobe Workfront is not designed to replicate or replace your existing systems for managing, accruing, and tracking personal time off.
+description: Adobe Workfront is not designed to replicate or replace your existing systems for managing, accruing, and tracking personal time off. However, it is important to indicate when approved time off happens, because this affects your schedule and impacts the Planned Completion Dates of the tasks you are assigned to.
 ---
 
 # Configure personal time off in Adobe Workfront
 
-Adobe Workfront is&nbsp;not designed to replicate or replace your existing systems for managing, accruing, and tracking personal time off.
+Adobe Workfront is not designed to replicate or replace your existing systems for managing, accruing, and tracking personal time off.
 
-However, it is important to indicate when approved time off happens, because this affects&nbsp;your schedule&nbsp;and impacts the Planned Completion Dates of the tasks you&nbsp;are assigned to.
+However, it is important to indicate when approved time off happens, because this affects your schedule and impacts the Planned Completion Dates of the tasks you are assigned to.
 
 For example, if you are assigned to a task that is scheduled to take two weeks, and you plan to take three days off during that time, Workfront adds three days to the task timeline to account for the time off.
 
@@ -36,15 +36,15 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Work or higher (to configure your personal time off)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td>Manager with Edit User access (to make changes to the Time-off calendar of other users)</td> 
   </tr> 
  </tbody> 
@@ -58,9 +58,9 @@ You must have the following access to perform the steps in this article:
 
 1. In the left panel, click **Time Off**.
 1. Select the desired date for your personal time off. 
-1. Select&nbsp;**All day**, if you are taking a full day off.  
-   Leave it unselected&nbsp;if you are taking less than a full day off and indicate the start and end times of your time off. 
+1. Select **All day**, if you are taking a full day off.  
+   Leave it unselected if you are taking less than a full day off and indicate the start and end times of your time off. 
 
 1. Click **Save**.  
-   Your time off is&nbsp;now visible across the Workfront system in scheduling tools like the Resource Grid. When you are assigned work during this time, a tool tip appears informing the user you have scheduled time off.
+   Your time off is now visible across the Workfront system in scheduling tools like the Resource Grid. When you are assigned work during this time, a tool tip appears informing the user you have scheduled time off.
 

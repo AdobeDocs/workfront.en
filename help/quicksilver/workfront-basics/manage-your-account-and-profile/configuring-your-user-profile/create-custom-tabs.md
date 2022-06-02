@@ -2,11 +2,11 @@
 filename: create-custom-tabs
 product-area: user-management
 navigation-topic: configure-your-user-profile
-title: Create custom tabs or sections
+title: Create custom sections
 description: The information you see in the Workfront web application is often displayed in the sections in the left panel by default. Each section contains different information about a Workfront area or object. For more information about the default areas of Workfront, see the article About the default Adobe Workfront layout.
 ---
 
-# Create custom tabs or sections
+# Create custom sections
 
 ## Adobe Workfront sections {#adobe-workfront-sections}
 
@@ -16,8 +16,6 @@ For more information about the default areas of Workfront, see the article [Abou
 In addition to the sections that come with Workfront by default, you can create custom sections on which you can display information relevant to your workflow. You cannot add custom sections to all areas and objects.
 
 The following table lists all the Workfront areas and objects that contain sections in the left panel and which of them can be customized:
-
-&nbsp;
 
 | **Workfront area or object** |**Default system sections** |**Custom sections** |
 |---|---|---|
@@ -31,7 +29,7 @@ The following table lists all the Workfront areas and objects that contain secti
 | Task |✓ |&nbsp;✓ |
 | Issue |&nbsp;✓ |&nbsp;✓ |
 | User |&nbsp;✓ |&nbsp;✓ |
-| Document |&nbsp;✓ |✓ |
+| Document |&nbsp;✓ |&nbsp;✓ |
 
 {style="table-layout:auto"}
 
@@ -46,19 +44,19 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td>Reviewer or higher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td>View access to the object type</td> 
   </tr> 
  </tbody> 
@@ -82,7 +80,7 @@ To add a custom tab:
    For more information about what areas and objects you can add custom sections to, see [Adobe Workfront sections](#adobe-workfront-sections).
 1. Click **Add custom section** in the left panel. 
 1. Specify the name of the section in the **Custom section title** field. This is visible only to you.&nbsp;
-1. In the **Add a Dashboard** field, start typing the name of the dashboard or external page you want to add and click it when it appears in the list.&nbsp;
+1. In the **Add a Dashboard** field, start typing the name of the dashboard or external page you want to add and click it when it appears in the list.
 1. Click **Add new section.**
 1. (Optional) Drag and drop the sections in the order in which you would like to display them.
 
@@ -94,7 +92,7 @@ To add a custom tab:
 
 For more information about adding a custom section under an object, see the section [Add a custom section in the left panel of a Workfront object or area](#add-a-custom-section-in-the-left-panel-of-a-workfront-object-or-area) in this article.
 
-When you add a dashboard to a custom section under an object, the object acts as a filter for the dashboard. For example, if you add a task report on a dashboard and you add the dashboard to a project, the custom section that contains the dashboard on the project displays only tasks on the project you are viewing.&nbsp;
+When you add a dashboard to a custom section under an object, the object acts as a filter for the dashboard. For example, if you add a task report on a dashboard and you add the dashboard to a project, the custom section that contains the dashboard on the project displays only tasks on the project you are viewing.
 
 The following objects are filtered for the object under which they display, if that object is higher in hierarchy than them:
 
@@ -109,6 +107,6 @@ For more information about the hierarchy and interdependency of objects, see the
 
 ## Customize sections in a Layout Template
 
-When you add custom sections to your Workfront instance, they are only visible to you.&nbsp;
+When you add custom sections to your Workfront instance, they are only visible to you.
 
-You can customize the sections in Workfront and share the new layout with several users by using Layout Templates. Only a system or a group administrator can share them with other users by using Layout Templates.&nbsp;
+You can customize the sections in Workfront and share the new layout with several users by using Layout Templates. Only a system or a group administrator can share them with other users by using Layout Templates.

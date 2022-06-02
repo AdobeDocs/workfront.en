@@ -12,7 +12,7 @@ This section contains the following articles:
 
 * [Use the boards dashboard](../../agile/get-started-with-boards/use-boards-page.md) 
 * [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md)
-* [Delete or archive a board] (/help/quicksilver/agile/get-started-with-boards/delete-archive-board.md)
+* [Delete or archive a board](/help/quicksilver/agile/get-started-with-boards/delete-archive-board.md)
 * [Add or remove members from a board](../../agile/get-started-with-boards/add-members-to-board.md) 
 * [Manage board columns](../../agile/get-started-with-boards/manage-board-columns.md) 
 * [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md)

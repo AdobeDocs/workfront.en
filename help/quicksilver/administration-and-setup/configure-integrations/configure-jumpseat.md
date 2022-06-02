@@ -20,19 +20,19 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Enterprise </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader"><strong>Product</strong></td> 
    <td>You must have an active JumpSeat plan.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ To configure the JumpSeat integration:
 
 1. Enter the **JumpSeat integration token**. You can find this on the **Configuration**page in JumpSeat.
 
-   **Example:**$2y$10$BevsKeQ8....OYR.LurSg2U64O
+   **Example:** $2y$10$BevsKeQ8....OYR.LurSg2U64O
 
 1. Click **Test configuration**.
 1. Choose if you want the integration to be **Active**or **Inactive**.

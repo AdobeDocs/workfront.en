@@ -39,13 +39,20 @@ You must have the following access to perform the steps in this article:
 
 You can install your package in any of the following environments:
 
-| Environment | Description |
-|---|---|
-| Production |Production is your live environment.  |
-| Sandbox Preview |The Sandbox Preview is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront. All support packages have access to the Sandbox Preview. For more information, see [The Adobe Workfront Preview Sandbox Environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) |
-| Sandbox 1 & 2 |The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain the Custom Refresh Sandbox. For more information, see [The Adobe Workfront Custom Refresh Sandbox environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md). |
-
-{style="table-layout:auto"}
+<table style="table-layout:auto">
+        <tr>
+        <td><strong>Production</strong></td>
+        <td>Production is your live environment.</td>
+    </tr>
+    <tr>
+        <td><strong>Sandbox Preview</strong></td>
+        <td>The Sandbox Preview is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront. All support packages have access to the Sandbox Preview. For more information, see <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">The Adobe Workfront Preview Sandbox Environment</a>.</td>
+    </tr>
+    <tr>
+        <td><strong>Sandbox 1 &amp; 2</strong></td>
+        <td>The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain the Custom Refresh Sandbox. For more information, see <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md">The Adobe Workfront Custom Refresh Sandbox environment</a>.</td>
+    </tr>
+</table>
 
 >[!TIP]
 >
@@ -58,7 +65,7 @@ You can install your package in any of the following environments:
 
 ## Install the blueprint
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click ```Blueprints```.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Blueprints**.
 1. Find the blueprint you want to install. You can filter by use case, maturity level, installation status, and type on the right-hand side.
 1. (Optional) Click **Details** to learn how the blueprint works.
 1. Click **Install**.

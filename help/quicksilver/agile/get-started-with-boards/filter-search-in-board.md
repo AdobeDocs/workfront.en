@@ -8,7 +8,7 @@ description: You can filter a board to only display only certain cards.
 
 # Filter and search in a board
 
-You can filter a board to only display:
+You can filter a board to display:
 
 * Cards assigned to certain people
 * Cards with certain tags

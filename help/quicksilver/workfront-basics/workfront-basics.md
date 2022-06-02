@@ -3,7 +3,7 @@ filename: _workfront-basics
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Adobe Workfront basics
-description: This section contains the following subsections - EDIT ME.
+description: Review these areas to get an understanding of the basics of Adobe Workfront.
 ---
 
 # Adobe Workfront basics
