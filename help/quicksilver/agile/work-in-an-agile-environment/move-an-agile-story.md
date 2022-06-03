@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
 
    The **Move Story** dialog box is displayed.
 
-   ![](assets/iteration-story-move-350x143.png)
+   ![Move Story dialog](assets/iteration-story-move.png)
 
 1. Select *team_name*'s Backlog.  
    In the above example, the team name is**Development.**
@@ -72,7 +72,7 @@ You can move a story to a different iteration for your Scrum team.
 
    The **Move Story** dialog box is displayed.
 
-   ![](assets/iteration-story-move-350x143.png)
+   ![Move Story dialog](assets/iteration-story-move.png)
 
 1. Select **Another Iteration**, then in the drop-down menu, select the iteration where you want to move the story.
 

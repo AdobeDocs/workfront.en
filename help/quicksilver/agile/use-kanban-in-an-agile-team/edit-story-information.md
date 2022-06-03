@@ -30,14 +30,12 @@ When viewing a story tile on the Kanban board, the information in the following 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p>The project name with a link directly to the project<br><!--
-      <span class="wysiwyg-color-pink" data-mc-conditions="QuicksilverOrClassic.Draft mode">This link is displayed only on stories (parent tasks, not subtasks) when using the agile view on an iteration; it is not displayed when using an agile view on a project.</span>
-     --></p> </td> 
+   <td> <p>The project name with a link directly to the project</p> </td> 
    <td>✓&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p>The number of points or hours complete on the story and the number of points or hours assigned&nbsp;to the story<br>These numbers are used to calculate and display the&nbsp;Percent Complete&nbsp;for each story.</p> </td> 
+   <td> <p>The number of points or hours complete on the story and the number of points or hours assigned to the story<br>These numbers are used to calculate and display the Percent Complete for each story.</p> </td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
   </tr> 
@@ -52,16 +50,14 @@ When viewing a story tile on the Kanban board, the information in the following 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>The color or category of the tile <!--
-      <span class="wysiwyg-color-pink" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Kanban]</span>
-     --></p> </td> 
+   <td> <p>The color or category of the tile</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Any additional fields (including custom fields) that might have been added to the agile view by modifying the agile view, as described in "Creating and Customizing an Agile View" in <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a></p> </td> 
    <td>✓</td> 
-   <td> <p>✓</p> <p>&nbsp;</p> </td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

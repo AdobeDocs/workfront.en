@@ -20,6 +20,10 @@ Using boards, you can:
 * Customize workflows with open-ended cards
 * Organize and manage work for a team in one place
 
+>[!NOTE]
+>
+>The ad hoc cards on a board are not connected to work items in Adobe Workfront. For details about connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
 >[!IMPORTANT]
 >
 >Boards does not appear in the Main Menu by default. Your Workfront administrator must add Boards to your layout template to make it available in the Main Menu. For information, see [Customize the Main Menu using a layout template](../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).

@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
 When a WIP limit is configured for your agile team, it is displayed in the upper-right corner of each column on the Kanban board (except for the Complete column).
 
 Any time the limit is exceeded for any column on the Kanban board, the limit is highlighted in red and a message is displayed.  
-![](assets/agile-kanban-wip-adobe-350x133.png)
+![WIP limit](assets/kanban-wip.png)
 
 ## Update the Work In Progress (WIP) limit from the Kanban board
 

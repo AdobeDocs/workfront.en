@@ -49,5 +49,5 @@ You must have the following access to perform the steps in this article:
 
 1. Navigate to an active iteration.
 1. Drag a story from one status column on the story board into another column.  
-   ![](assets/agile-storyboard-progress-2021-350x140.png)
+   ![Move story to another column](assets/agile-storyboard-progress.png)
 
