@@ -66,7 +66,7 @@ You can reorder stories in the backlog list by using the drag-and-drop method.
    >If a task or issue has an agile team assigned and the project is not in a status that equates with Current, they do not display on the backlog. However, they do still affect the backlog count in the Order column.
 
 1. Select one or more stories, then drag the stories to the order where you want them to appear in the backlog.  
-   ![Agile_backlog_drag-and-drop.png_Adobe](assets/agile-backlog-drag-and-drop-adobe-350x160.png)
+   ![Drag and drop backlog items](assets/agile-backlog-drag-and-drop.png)
 
 ### Break down stories {#break-down-stories}
 
@@ -84,7 +84,7 @@ To break down a story:
 1. Go to the backlog that contains the story you want to break down.
 1. Select the story you want to break down, then click **Breakdown Story**.  
    The Breakdown Story dialog box is displayed.  
-   ![backlog_breakdown_dialog.png](assets/backlog-breakdown-dialog-350x171.png)
+   ![Breakdown Story dialog](assets/backlog-breakdown-dialog.png)
 
 1. Specify a name and estimate for the story, and select whether the story is ready.
 1. Click **Add Story** to create another story from the original story.
@@ -114,9 +114,9 @@ To create a story from the backlog:
 1. Select **Backlog** from the left panel.
 1. Do either of the following, depending on whether you want to create a task or an issue:
 
-   * **To create a task:** Click the **Stories** tab.
+   * **To create a task:** Click **Stories**.
    
-   * **To Create an issue:** Click the **Issues** tab.
+   * **To Create an issue:** Click **Issues**.
 
 1. Click **New Story** or **New Issue**.
 
@@ -184,7 +184,7 @@ To assign a task or issue to an agile team:
 1. Select the stories you want to move to an iteration or Kanban board, then click **More** > **Move to**.  
    If moving the story to a Kanban board, the Move Story to the Kanban Board is displayed.  
    If moving the story to an iteration, the Move Story to an Iteration dialog box is displayed.  
-   ![agile_backlog_addtoiteration.png](assets/agile-backlog-addtoiteration-350x136.png)
+   ![Move Story dialog](assets/agile-backlog-addtoiteration.png)
 
 1. Do either of the following:
 

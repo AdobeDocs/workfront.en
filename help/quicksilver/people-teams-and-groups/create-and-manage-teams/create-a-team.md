@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the **New Team** box that displays, specify the following information:
 
-   * **Team Name:** Specify a name for the new team.
+   * **Team Name:** Type a name for the new team.
    * **Group**: If you want to assign the team to an associated group, start typing the name of the group, then select the name when it appears.
 
      You can make sure you are associating the right group with the team by hovering over it and clicking the information icon ![](assets/info-icon.png) that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.
@@ -56,17 +56,17 @@ You must have the following access to perform the steps in this article:
      >
      >When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow ![Switch team icon](assets/switch-team-icon.png) to list all of the teams that are assigned to the groups that they manage.
 
-   * **This is an Agile Team:**&nbsp;Select this option if you want to configure this new team to be an agile team.
+   * **This is an Agile Team:** Select this option if you want to configure this new team to be an agile team.
 
      For more information about agile teams, see [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
    
-   * **Team Members:** Begin typing the name of a user to be on the team, then select the name when it appears in the drop-down list.
+   * **Team Members:** Begin typing the name of a user to add to the team, then select the name when it appears in the drop-down list.
 
      Repeat this process to add multiple users to the team.
 
      There is no limit for how many users you can add to a team. However, we recommend to not have an excessively high number of users in one team, as your work management might become too complex for these teams.
    
-   * **Description:** Specify a description for the team.
+   * **Description:** Type a description for the team.
 
 1. Click **Create**.
 

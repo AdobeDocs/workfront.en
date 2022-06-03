@@ -8,7 +8,7 @@ description: You can view all iterations for a given team, or you can view an in
 
 # View an iteration
 
-You can view all iterations for a given team, or you can view an individual iteration.&nbsp;Iterations display data about the&nbsp;stories, issues, and documents that are contained in the iteration.
+You can view all iterations for a given team, or you can view an individual iteration. Iterations display data about the stories, issues, and documents that are contained in the iteration.
 
 ## Access requirements
 
@@ -41,10 +41,10 @@ You must have the following access to perform the steps in this article:
 
 1. In the left panel, select **Iterations** to choose a specific iteration, or select **Current Iteration**.
 
-   ![Iteration list](assets/viewiteration-nwe-350x109.png)
+   ![Iteration list](assets/view-iteration-NWE.png)
 
 1. (Optional) Click the name of the specific iteration that you want to view.  
    The iteration stories display.
 
-   ![Stories in iteration](assets/iterationstorieslist-nwe-350x117.png)
+   ![Stories in iteration](assets/iteration-stories-list-NWE.png)
 

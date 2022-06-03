@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
 ## Configure a project template blueprint
 
 1. Find the blueprint you want to use.
-1. Click Install, then choose an environment:
+1. Click **Install**, then choose an environment:
 
    <table style="table-layout:auto">
         <tr>

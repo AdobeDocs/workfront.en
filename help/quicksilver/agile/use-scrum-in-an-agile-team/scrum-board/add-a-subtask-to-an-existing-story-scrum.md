@@ -61,7 +61,7 @@ You must have the following access to perform the steps in this article:
 1. Go to the story tile on the story board where you want to add a subtask.
 1. Click **Add Subtask** on the main story card to create a subtask to the story.
 
-   ![](assets/agile-story-addsubtask-nwe-350x138.png)
+   ![Add subtask](assets/agile-story-addsubtask-NWE.png)
 
    Or
 
@@ -69,7 +69,7 @@ You must have the following access to perform the steps in this article:
 
    Workfront supports infinite levels of subtasks, but only two levels (subtasks of subtasks are displayed on the agile story board.
 
-   ![](assets/agile-story-addsubtask2-nwe-350x209.png)
+   ![Add subtask](assets/agile-story-addsubtask2-NWE.png)
 
    When adding a subtask to a story that currently does not have a swimlane, the parent task is promoted to the Parent Story column and the subtask moves inside the swimlane.
 

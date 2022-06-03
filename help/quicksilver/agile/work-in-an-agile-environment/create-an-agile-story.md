@@ -53,13 +53,12 @@ You must have the following access to perform the steps in this article:
    
    1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
    
-   1. In the left panel, select **Iterations**, then select **All Iteration**.
+   1. In the left panel, select **Iterations** to choose a specific iteration, or select **Current Iteration**.
    1. Click the name of the specific iteration where you want to create a story.
 
-1. Click the **Work Items** tab then **Stories**.  
-   ![Screen_Shot_2018-06-04_at_4.24.17_PM.png](assets/screen-shot-2018-06-04-at-4.24.17-pm-350x164.png)
+   ![Add new story to iteration](assets/iteration-add-story.png)
 
-1. &nbsp;Click **New Story.**
+1. Click **New Story.**
 1. Specify the following information:  
 
    <table style="table-layout:auto">

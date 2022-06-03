@@ -48,5 +48,5 @@ You must have the following access to perform the steps in this article:
 1. Go to the Kanban board where you want to update the status of a story.
 1. Drag a story from one status column on the Kanban board and into another column.  
    A story remains in the Complete column for two weeks after it is added.  
-   ![](assets/agile-storyboard-progress-2021-350x140.png)
+   ![Move story to another column](assets/agile-storyboard-progress.png)
 
