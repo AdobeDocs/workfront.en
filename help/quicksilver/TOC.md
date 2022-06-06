@@ -481,7 +481,8 @@ user-guide-description: Workfront
       * [Locked and unlocked system-level statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)
       * [Make custom statuses default statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)
       * [Delete a custom status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
-      * [Create and customize priorities](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md)
+      * [List objects with a pending approval processes using a certain status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
+      * [Create and customize priorities](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
       * [Create and customize issue severities](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
     * Approval processes and milestone pages {#approvals-milestones}
       * [Approval processes and milestone paths](administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)

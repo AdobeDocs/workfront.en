@@ -128,7 +128,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Normal</span> </p> </li> 
         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">High</span> </p> </li> 
         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Urgent</span> </p> </li> 
-       </ul> <p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md" class="MCXref xref">Create and customize priorities</a>.</p> </td> 
+       </ul> <p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Create and customize priorities</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Duration Type</strong> </td> 

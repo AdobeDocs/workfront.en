@@ -85,7 +85,7 @@ The system generates an Access Level log entry when a user does one of the follo
 
      >[!NOTE]
      >
-     >The system does not record any permission changes to&nbsp;Financial Data or within the following access types: View and Edit.
+     >The system does not record any permission changes to Financial Data or within the following access types: View and Edit.
      >
      >For example, if a user changes the Planner access type from View to Edit, the system will not display information contained in the Fine-tune your settings drop-down menu.
 
@@ -256,7 +256,7 @@ The system generates a Priority audit log entry when a user does one of the foll
 
 * Deletes a priority
 
-For more information about configuring priorities, see [Create and customize priorities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md).
+For more information about configuring priorities, see [Create and customize priorities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 ### Project Preferences {#project-preferences}
 
