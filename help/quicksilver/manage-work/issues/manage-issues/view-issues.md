@@ -83,16 +83,19 @@ To access an issue and view information about it:
 
 * **Updates**: You can perform the following actions :
 
-      * Comment on the issue, or reply to an existing comment. 
-      * Log time.
-      * Change the status of the issue.  
-        For more information about updating work in Workfront, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+  * Comment on the issue, or reply to an existing comment. 
+  * Log time.
+  * Change the status of the issue.
+
+    For more information about updating work in Workfront, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * **Documents**: Attach documents to the issue. For more information about adding documents to Workfront, see [Add documents to Adobe Workfront from your file system](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
    
 * **Issue Details**:  Expand this link to display the **Overview** and **Custom Forms** areas.  
-     If you have manage permissions to the issue and edit rights on the custom form, you can edit some of the information here.  
-     View or edit the following fields in the **Overview** area:
+  
+  If you have manage permissions to the issue and edit rights on the custom form, you can edit some of the information here.
+
+  View or edit the following fields in the **Overview** area:
 
     * **Name**
     * **Path**: the path through which the issue was logged to the project.
@@ -114,7 +117,7 @@ To access an issue and view information about it:
     * **Actual Completion Date**: the date when the issue is actually completed. This field is filled in automatically when the issue status changes to Closed or Resolved, or can be manually edited. 
     * **Actual Cost**: the cost based on the Actual Hours logged on the issue. This field is not editable. The Actual Cost of an issue is calculated based on the following formula, where the User Cost Rate is the cost rate associated with the user logging the time to the issue: 
     
-        Issue Actual Cost = Hours Logged * User Cost Rate     
+      Issue Actual Cost = Hours Logged * User Cost Rate     
       
     * **Entered By**: this is the user who created the issue. This field is not editable.
     * **Last Updated By**: this is the user who updated any field on the issue last. This field is not editable. 
