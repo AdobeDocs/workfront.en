@@ -35,6 +35,7 @@ If you try to delete a status, an error message might tell you that it can't be 
 
 
 ## In Text Mode
+
 1. Go to the Reporting area in the Global Navigation Bar, then select the Reports tab.
 1. Click the Main Menu icon  in the upper-right corner, then click Reports.
 1. Click New Report, then select Project Report, Task Report, or Issue Report.
