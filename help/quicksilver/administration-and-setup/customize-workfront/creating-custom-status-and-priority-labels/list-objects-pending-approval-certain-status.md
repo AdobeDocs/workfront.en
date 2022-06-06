@@ -50,8 +50,8 @@ If you try to delete a status, an error message might tell you that it can't be 
    ```approvalProcess:groupID_Mod=isblank```
 
    You can view the key in the list of statuses, as shown in these articles:
-   * [Access the list of system project statuses](/project-statuses)
-   * [Access the list of system task statuses](/task-statuses)
-   * [Access the list of system issue statuses](/issue-statuses)
+   * [Access the list of system project statuses](project-statuses)
+   * [Access the list of system task statuses](task-statuses)
+   * [Access the list of system issue statuses](issue-statuses)
 1. Click Save + Close to run the report and list any objects of the type you specified with approval processes in pending state based on the status you specified (Project, Task, or Issue).
 1. Repeat these steps to find the same information for the other two object types.
