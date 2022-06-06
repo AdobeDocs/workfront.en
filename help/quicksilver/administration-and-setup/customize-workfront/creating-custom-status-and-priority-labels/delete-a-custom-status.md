@@ -8,7 +8,7 @@ description: You can delete a custom system status if it is no longer useful to 
 ---
 # Delete a custom status
 
-You can delete a custom system status if it is no longer useful to your organization.
+You can delete a custom system status if it is no longer useful to your organization. 
 
 Whether the status is locked or unlocked determines if the status is deleted for all groups in the system:
 
