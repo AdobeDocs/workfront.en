@@ -1,10 +1,10 @@
 ---
-filename: delete-a-custom-status
+filename: list-objects-pending-approval-certain-status
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
-title: Delete a custom status
-description: You can delete a custom system status if it is no longer useful to your organization.
+title: List objects with a pending approval processes using a certain status
+description: If you try to delete a status, an error message might tell you that it can't be deleted because it's being used in pending approval processes on objects in your system. If you want to find and review those objects to decide what you need to do, you can run a report that lists them.
 ---
 
 # List objects with a pending approval processes using a certain status

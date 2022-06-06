@@ -22,10 +22,10 @@ Whether the status is locked or unlocked determines if the status is deleted for
 >
 >* A locked or unlocked system status used in a system approval process that is currently pending approval for at least one object in your system.
 >
->However, you can delete an unlocked system status used in a single-use or a group-level approval process that is currently pending approval.
+>  However, you can delete an unlocked system status used in a single-use or a group-level approval process that is currently pending approval.
 >
->You can run a report to find the objects and resolve the pending approvals, then try again to delete the status. For instructions, see [List objects with a pending approval processes using a certain status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md). 
-
+>  You can run a report to find the objects and resolve the pending approvals, then try again to delete the status. For instructions, see [List objects with a pending approval processes using a certain status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md). 
+>
 >* Statuses used in approval processes that are currently pending approval for at least one object in your system.
 
 For instructions on deleting a group status, see [Delete a group status](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md).
