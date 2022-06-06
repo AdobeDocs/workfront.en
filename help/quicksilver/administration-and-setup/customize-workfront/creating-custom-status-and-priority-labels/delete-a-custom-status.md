@@ -71,6 +71,7 @@ You must have the following access to perform the steps in this article:
 
    Projects that were using the status that you are deleting are set to the status you select.  
    Statuses are available in the drop-down list only if they equate with the same status as the status you are deleting.  
+   
    For example, if you are deleting a status that equates with Current, only statuses that also equate with Current are available to select.
 
 1. Click **Delete Status**.
