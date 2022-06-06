@@ -5,7 +5,7 @@ draft: Probably
 ---
 # Intacct modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Intacct, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Intacct, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -64,7 +64,7 @@ In your Intacct account, navigate to the **Company** tab.
 
 ### Set up a connection in Workfront Fusion {#set-up-a-connection-in-workfront-fusion}
 
-You can create a connection to your Intacct account directly from inside a Intacct module.
+You can create a connection to your Intacct account directly from inside an Intacct module.
 
 1. In any Intacct module, click **Add** next to the Connection field.
 1. Enter your Intacct credentials
@@ -97,7 +97,7 @@ This action module lets you make a custom authenticated call to the Intacct API.
   </tr> 
   <tr> 
    <td role="rowheader">Body XML</td> 
-   <td> <p>Include only the XML inside the body. The request will automatically include authentication headers.</p> </td> 
+   <td> <p>Include only the XML inside the body. The request automatically includes authentication headers.</p> </td> 
   </tr> 
  </tbody> 
 </table>
