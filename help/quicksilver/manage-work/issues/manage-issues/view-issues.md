@@ -86,7 +86,7 @@ To access an issue and view information about it:
       * Comment on the issue, or reply to an existing comment. 
       * Log time.
       * Change the status of the issue.  
-        For more information about updating work in Workfront, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+        For more information about updating work in Workfront, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * **Documents**: Attach documents to the issue. For more information about adding documents to Workfront, see [Add documents to Adobe Workfront from your file system](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
    
