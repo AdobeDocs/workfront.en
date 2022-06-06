@@ -6,10 +6,12 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365 Email
-description: In order to use Office 365 Email with Adobe Workfront Fusion, it is necessary to have an Office 365 account. You can create one at www.office.com.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Office 365 Email, as well as connect it to to multiple third-party applications and services.
 ---
 
 # Microsoft Office 365 Email
+
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Office 365 Email, as well as connect it to to multiple third-party applications and services.
 
 In order to use Office 365 Email with Adobe Workfront Fusion, it is necessary to have an Office 365 account. You can create one at www.office.com.
 
@@ -40,16 +42,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -173,7 +166,7 @@ Gets the metadata of a specific message
    <td> <p> Select or map the ID of the message you want to retrieve metadata for.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Get Mime contents</td> 
+   <td role="rowheader">Get MIME contents</td> 
    <td>Enable this option to retrieve data about the MIME content of the message. MIME content may include images, audio, video, or other types of files.</td> 
   </tr> 
  </tbody> 
