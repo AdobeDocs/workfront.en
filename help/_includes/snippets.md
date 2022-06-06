@@ -1,6 +1,10 @@
 # Snippets
 
-<!-- ADMIN -->
+<!-- Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
+
+<!-- General -->
+
+<!-- Admin and Setup -->
 
 ## Important note for Admin Console onboarding {#important-admin-console-onboard}
 
@@ -10,11 +14,55 @@
 >
 >If your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-<!-- AGILE -->
+<!-- Agile -->
 
 ## Highlighted Preview {#highlighted-preview}
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+
+<!-- Calendars -->
+
+<!-- Documents -->
+
+<!-- Home -->
+
+<!-- Integrations -->
+
+<!-- Log Time -->
+
+<!-- Manage Work -->
+
+<!-- Mobile -->
+
+<!-- Notifications -->
+
+<!-- People, Teams, and Groups -->
+
+<!-- Proofing -->
+
+<!-- Release -->
+
+<!-- Reports -->
+
+<!-- Resource Management -->
+
+<!-- Review and approve work -->
+
+<!-- Scenario Planner -->
+
+<!-- Teams -->
+
+<!-- Timesheets -->
+
+<!-- Workfront Goals -->
+
+<!-- Workfront Fusion -->
+
+<!-- Wokfront Library -->
+
+<!-- Workfront Basics -->
+
+<!-- Workfront Proof -->
 
 <!-- TEST -->
 
