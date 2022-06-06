@@ -1,7 +1,10 @@
 ---
+filename: delete-a-custom-status
+user-type: administrator
+product-area: system-administration
+navigation-topic: create-custom-status-and-priority-labels
 title: Delete a custom status
-description: Delete a custom status
-draft: Probably
+description: You can delete a custom system status if it is no longer useful to your organization.
 ---
 # Delete a custom status
 
@@ -21,10 +24,7 @@ Whether the status is locked or unlocked determines if the status is deleted for
 >
 >However, you can delete an unlocked system status used in a single-use or a group-level approval process that is currently pending approval.
 >
->**TIP**: You can run a report to find the objects and resolve the pending approvals, then try again to delete the status.
-><!--
->For instructions, see . CAN'T ADD THE NEW ARTICLE THIS LINKS TO UNTIL LILIT REVIEWS IT.
->-->
+>You can run a report to find the objects and resolve the pending approvals, then try again to delete the status. For instructions, see [List objects with a pending approval processes using a certain status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md). 
 
 >* Statuses used in approval processes that are currently pending approval for at least one object in your system.
 
