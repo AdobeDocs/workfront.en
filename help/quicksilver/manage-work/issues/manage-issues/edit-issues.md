@@ -155,7 +155,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
         <li> <p><strong>Normal</strong> </p> </li> 
         <li> <p><strong>High</strong> </p> </li> 
         <li> <p><strong>Urgent</strong> </p> </li> 
-       </ul> <p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md" class="MCXref xref">Create and customize priorities</a>.</p> </td> 
+       </ul> <p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Create and customize priorities</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Severity</td> 

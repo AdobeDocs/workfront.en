@@ -64,7 +64,7 @@ Consider the following when selecting a Priority for your projects:
 
 * Your Workfront administrator defines the Priorities available in Workfront. After they establish them, they are available for you to associate with projects in the Priority field.&nbsp;
 
-  For more information about creating Priorities in Workfront, see the article [Create and customize priorities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md).
+  For more information about creating Priorities in Workfront, see the article [Create and customize priorities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 * When you update the Priority field of a project, this Priority does not transfer to the Portfolio Optimizer or the Resource Planner.&nbsp;
 * The Priority value of a project is used primarily for reporting purposes.
