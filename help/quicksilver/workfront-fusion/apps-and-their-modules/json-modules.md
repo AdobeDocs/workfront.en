@@ -78,7 +78,7 @@ If the JSON string field contains a collection `{ ... }`, The output is a single
 >
 >![](assets/json-collection.png)
 
-If the JSON string field contains an array `[ ... ]`m The output is a series of bundles. each bundle contains one element of the array.
+If the JSON string field contains an array `[ ... ]`, the output is a series of bundles. each bundle contains one element of the array.
 
 >[!INFO]
 >
@@ -136,7 +136,7 @@ This aggregator module aggregates output from a previous module into JSON.
   </tr> 
   <tr> 
    <td role="rowheader">Group by</td> 
-   <td>Define an expression that you want to group the aggregated output by. This expression can contain one or more mapped items. The aggregated data will be then separated into groups using this expression's value. Each group outputs as a separate bundle with a key (the evaluated expression) and a value (the aggregated text). You can use the key as a filter in subsequent modules.</td> 
+   <td>Define an expression that you want to group the aggregated output by. This expression can contain one or more mapped items. The aggregated data is then separated into groups using this expression's value. Each group outputs as a separate bundle with a key (the evaluated expression) and a value (the aggregated text). You can use the key as a filter in subsequent modules.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Stop processing after an empty aggregation</td> 

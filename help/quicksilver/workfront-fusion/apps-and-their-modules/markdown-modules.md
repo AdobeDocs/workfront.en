@@ -5,12 +5,12 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Markdown modules
-description: In a Adobe Workfront Fusion scenario, you can use the Markdown modules to convert Markdown to HTML and HTML to Markdown.
+description: In an Adobe Workfront Fusion scenario, you can use the Markdown modules to convert Markdown to HTML and HTML to Markdown.
 ---
 
 # Markdown modules
 
-In a Adobe Workfront Fusion scenario, you can use the Markdown modules to convert Markdown to HTML and HTML to Markdown.
+In an Adobe Workfront Fusion scenario, you can use the Markdown modules to convert Markdown to HTML and HTML to Markdown.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
