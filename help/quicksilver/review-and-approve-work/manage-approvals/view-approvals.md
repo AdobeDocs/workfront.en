@@ -18,7 +18,7 @@ For information about associating approvals with work in Workfront, see [Associa
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -89,7 +89,7 @@ You can view or manage approvals from the following areas:
 
 You can view the approval status of an object in the following sections of the object:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

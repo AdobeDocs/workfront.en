@@ -15,7 +15,7 @@ You might be assigned to a Layout Template that has pages already pinned (as des
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

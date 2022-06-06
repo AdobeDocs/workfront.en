@@ -22,7 +22,7 @@ You can use the Calendar view in the Home area to manage your work day and work 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -96,7 +96,7 @@ You&nbsp;can make updates to work items that display in Home Calendar view. Your
 
    * In the&nbsp;**Start a new update**&nbsp;box, type your update, specify any of the following information, then click **Update**.
 
-     <table>
+     <table style="table-layout:auto">
       <col>
       <col>
       <tbody>
@@ -158,7 +158,7 @@ To update the integrated calendar events in your Home Calendar:
 
 1. Select from the following filter options to specify the types of items you want to display:: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -243,6 +243,8 @@ To update the integrated calendar events in your Home Calendar:
    | Commit Date |Tasks and issues sort in order of the Commit dates. To learn more about Commit dates, see [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md). |
    | Project |Work items sort by project. |
    | My Priority |Items display&nbsp;in an order you choose. For more information, see [Prioritize work in the Home area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md). |
+
+   {style="table-layout:auto"}
 
 ## Navigate to a different week
 

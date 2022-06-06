@@ -8,7 +8,7 @@ description: You can filter a board to only display only certain cards.
 
 # Filter and search in a board
 
-You can filter a board to only display:
+You can filter a board to display:
 
 * Cards assigned to certain people
 * Cards with certain tags
@@ -26,7 +26,7 @@ Searching also helps you locate a specific card on the board.
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -168,7 +168,7 @@ We recommend that you build as much of the view as possible in standard mode, th
    -->
 
    <!--
-   <table>
+   <table style="table-layout:auto">
    <col>
    <col>
    <thead>

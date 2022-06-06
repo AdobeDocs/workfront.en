@@ -180,8 +180,12 @@ Tools and their fields:
 
 Opens settings of the specified module by ID.
 
-| Module ID | Enter the ID of the module for which you want to open settings. |
-|---|---|
+<table style="table-layout:auto">
+    <tr>
+        <td>Module ID</td>
+        <td>Enter the ID of the module for which you want to open settings.</td>
+    </tr>
+</table>
 
 #### Find Modules by Mapping {#find-modules-by-mapping}
 
@@ -206,8 +210,12 @@ Allows you to search modules' values for a specified term. The output contains I
 
 Retrieves metadata of the app by the app's module name or ID. This is useful, for example, when you need to know the version of the app used in your scenario.
 
-| Source Module |Select the module for which you want to retrieve metadata. |
-|---|---|
+<table style="table-layout:auto">
+    <tr>
+        <td>Source Module</td>
+        <td>Select the module for which you want to retrieve metadata.</td>
+    </tr>
+</table>
 
 #### Copy Mapping {#copy-mapping}
 
@@ -263,8 +271,12 @@ Copies the filter settings from the source module to the target module.
 
 Duplicates a connection from the source module to every module in the scenario of the same app.
 
-| Source Module | Select the module or enter the ID of the module from which you want to duplicate the connection.  |
-|---|---|
+<table style="table-layout:auto">
+    <tr>
+        <td>Source Module</td>
+        <td>Select the module or enter the ID of the module from which you want to duplicate the connection.</td>
+    </tr>
+</table>
 
 #### Swap Variable {#swap-variable}
 

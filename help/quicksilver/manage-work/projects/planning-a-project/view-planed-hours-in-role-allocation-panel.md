@@ -24,7 +24,7 @@ You can view role allocation for all job roles assigned to work items in a proje
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -83,5 +83,7 @@ You must have the following:
    | Job Role |Job roles assigned to tasks and issues on the project. These can be job roles assigned directly to tasks and issues or job roles associated with users assigned to tasks and issues on the project.  |
    |---|---|
    | Planned Hours |The total number of Planned Hours from tasks and issues assigned to job roles or users associated with a job role on the project.  |
+
+   {style="table-layout:auto"}
 
 &nbsp;

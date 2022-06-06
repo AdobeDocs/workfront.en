@@ -25,7 +25,7 @@ Use the following voice commands to manage work in the mobile app:
 
 Use the show me command to see information about the following objects:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -104,7 +104,7 @@ Use the show me command to see information about the following objects:
 
 For a full list of virtual assistant commands, see 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -221,7 +221,7 @@ Use the delete command to delete the following object types:
 
 For a full list of virtual assistant commands, see 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

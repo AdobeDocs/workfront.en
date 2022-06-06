@@ -15,7 +15,7 @@ description: The information described in this section is available in both the 
 
 The information&nbsp;described in this section is available in both the Web Proofing Viewer and the Desktop Proofing Viewer.&nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

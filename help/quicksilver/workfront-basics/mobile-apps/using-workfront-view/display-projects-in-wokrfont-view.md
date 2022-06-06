@@ -15,7 +15,7 @@ By default, the list of projects displayed in Adobe Workfront View shows the mos
 
 You must have the following access in Workfront to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

@@ -62,7 +62,7 @@ To create a custom view:
    1. You can select from the standard columns, or you can choose Custom fields and Decision Reasons to be columns in your custom view. (If you have these configured in your account, they appear under the standard list of Available columns area.)
    1. Standard columns you can include
 
-      <table>
+      <table style="table-layout:auto">
       <thead>  
       <tr>   
       <th><strong>Column</strong></th>   

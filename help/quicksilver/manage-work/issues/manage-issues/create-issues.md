@@ -10,17 +10,17 @@ description: While working on a project, you might discover that unexpected even
 
 While working on a project, you might discover that unexpected events arise. You can log those unexpected events as issues for a particular project or of a task. Users with the appropriate access can view and monitor the status of issues as the project or the task progresses to completion, eliminating the need for lengthy email chains or status meetings. Unlike tasks, which are planned events, issues represent unplanned work items in Adobe Workfront.
 
-You can also add issues to projects as requests.&nbsp;For information, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
+You can also add issues to projects as requests. For information, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 >[!TIP]
 >
->"Issues" and "requests" are used interchangeably in Workfront. You can record issues on both projects and tasks to indicate unforeseen work that needs to be addressed. You can also submit requests which are recorded as issues on a project designated as a Request Queue.
+>Issues and requests are used interchangeably in Workfront. You can record issues on both projects and tasks to indicate unforeseen work that needs to be addressed. You can also submit requests which are recorded as issues on a project designated as a Request Queue.
 
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -111,7 +111,8 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 
 >[!IMPORTANT]
 >
->```The project owner must enable **Allow users to add issues inline** when defining issue settings for the project before you can add issues inline to the project or tasks. For information about configuring issue settings on a project, see``` [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+>The project owner must enable **Allow users to add issues inline** when defining issue settings for the project before you can add issues inline to the project or tasks. For information about configuring issue settings on a project, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+>
 
 When you want to add several issues quickly, you can create issues for a task or a project inline, by adding them to a list of issues.
 

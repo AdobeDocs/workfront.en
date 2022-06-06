@@ -76,6 +76,8 @@ This list is the second half of a larger list. The first half can be located at 
 | `viewID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `width`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ## PortalSectionLastViewer
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
@@ -85,6 +87,8 @@ This list is the second half of a larger list. The first half can be located at 
 | `ID`  | `viewer`  |  |  |  |  | `REPORT`  |
 | `reportID`  |  |  |  |  |  | `SEARCH`  |
 | viewerID  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ## PortalSectionStatisticInfo
 
@@ -101,6 +105,8 @@ This list is the second half of a larger list. The first half can be located at 
 | `viewsThisMonth`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `viewsThisQuarter`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `viewsThisYear`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ## PortalTab
 
@@ -122,6 +128,8 @@ This list is the second half of a larger list. The first half can be located at 
 | `tabname`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `userID`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ## PortalTabSection
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
@@ -137,6 +145,8 @@ This list is the second half of a larger list. The first half can be located at 
 | `portalSectionObjID`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `portalTabID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ## ReportFolder
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
@@ -144,6 +154,8 @@ This list is the second half of a larger list. The first half can be located at 
 | customerID  | `customer`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `ID`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | name  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ## ScheduleReport
 

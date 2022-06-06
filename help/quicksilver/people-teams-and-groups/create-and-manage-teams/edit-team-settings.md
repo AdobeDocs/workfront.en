@@ -16,7 +16,7 @@ You can add users to a team, set the team layout template, and set how status is
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -43,7 +43,8 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **More** menu ![](assets/more-icon.png), then select **Edit**.
 
-   Only team members with either a Plan or Work license see this option.  
+   Only team members with either a Plan or Work license see this option. 
+    
    If you should have the Edit option but you do not see it, ask your Workfront administrator to verify that Team Settings is visible in the layout template for Scrum Team, Kanban Team, or Waterfall Team.
 
    ![](assets/edit-team-settings-1.png)

@@ -16,7 +16,7 @@ You can't delete your default calendar unless you have an existing alternative c
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

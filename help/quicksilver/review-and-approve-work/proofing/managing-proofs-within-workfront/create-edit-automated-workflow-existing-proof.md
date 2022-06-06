@@ -16,7 +16,7 @@ For information about creating an Automated Workflow for a new proof, see [Creat
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -74,13 +74,15 @@ You must have the following access to perform the steps in this article:
       | **All decisions are Approved on parent stage** |Click the parent stage in the **Parent stage** drop-down list. |
       | All decisions are made |Click the parent stage in the **Parent stage** drop-down list. |
 
+      {style="table-layout:auto"}
+
    1. Enter a contact name or email address, and configure settings for reviewers for the stage.
 
       For information about adding reviewers, see [About adding reviewers to a stage](#about-adding-reviewers-to-a-stage) in this article.
    
    1. Use any of the following options to further configure the stage:
 
-      <table>
+      <table style="table-layout:auto">
        <col>
        <col>
        <tbody>

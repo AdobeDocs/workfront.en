@@ -15,7 +15,7 @@ You can view which users in Adobe Workfront currently have the option "User can 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

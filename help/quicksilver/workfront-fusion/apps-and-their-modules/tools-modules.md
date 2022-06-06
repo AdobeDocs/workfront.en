@@ -18,7 +18,7 @@ Tools modules are available from the list of apps, or from the Tools icon ![](as
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -72,6 +72,8 @@ You can use this module, for example, for contacts or any other list that is sch
 | Bundle |Create custom bundles by adding array items. The array consists of the name - value pairs. |
 |---|---|
 
+{style="table-layout:auto"}
+
 ### Actions {#actions}
 
 * [Get Multiple Variables](#get-multiple-variables) 
@@ -91,9 +93,18 @@ This module can read variables that were set anywhere in the scenario, even if t
 |---|---|
 | Variable name |For each variable you add, map the name of the variable you want to get. |
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/get-variable-350x240.png" style="width: 350;height: 240;"> </p>
--->
+{style="table-layout:auto"}
+
+<table style="table-layout:auto">
+    <tr>
+        <td>Variables</td>
+        <td>Add the variables that you want the module to get.</td>
+    </tr>
+    <tr>
+        <td>Variable name</td>
+        <td>For each variable you add, map the name of the variable you want to get.</td>
+    </tr>
+</table>
 
 **Examples:**  The following are possible uses of the Set/Get (multiple) variable(s) modules:
 
@@ -106,7 +117,7 @@ This module retrieves a value that was previously created by the Set Variable or
 
 This module can read variables that were set anywhere in the scenario, even if the variable was set in a different route than where the Get Multiple Variables module is located. The only requirement is that the Tools >Set Variable or Tools > Set Multiple Variable module is executed before the Tools > Get Variable module. For more information on the order in which modules are executed, see [Router module in Adobe Workfront Fusion](../../workfront-fusion/modules/router-module.md).
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -121,7 +132,7 @@ This module can read variables that were set anywhere in the scenario, even if t
 
 This module returns a value incremented by 1 after each module's operation.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -173,7 +184,7 @@ The increment function adds one every time the scenario runs. The filters check 
 
 This module creates variables that can be mapped by other modules in the route. The variable can also be mapped to the Get Variable or Get Multiple Variables modules for any route in the scenario.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -204,7 +215,7 @@ This module creates variables that can be mapped by other modules in the route. 
 
 This module creates a variable that can be mapped by other modules in the route. The variable can also be mapped to the Get Variable or Get Multiple Variables modules for any route in the scenario.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -233,7 +244,7 @@ This module allows you to delay the scenario flow for up to 300 seconds (5 minut
 
 This function can be useful, for example, if you want to lower the target service server load or to imitate human behavior when sending bulk SMS or emails.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -267,7 +278,7 @@ This function can be useful, for example, if you want to lower the target servic
 
 This module allows you to retrieve numerical values, then apply one of the selected functions (SUM, AVG, COUNT, MAX, MIN), and return the result in one bundle.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -302,7 +313,7 @@ This module allows you to retrieve numerical values, then apply one of the selec
 
 This module merges values from the selected fields of received bundles into a single bundle using a specified column and row separator (which allows you to create a table).
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -337,7 +348,7 @@ This module merges values from the selected fields of received bundles into a si
 
 This module merges values from the selected fields of received bundles into a single bundle.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -376,7 +387,7 @@ This module merges values from the selected fields of received bundles into a si
 
 Converts any value to a string data type (text). It makes the mapping easier when mapping, for example, binary data.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -391,7 +402,7 @@ Converts any value to a string data type (text). It makes the mapping easier whe
 
 Converts entered input text (or binary data) to the selected encoding.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -414,7 +425,7 @@ Converts entered input text (or binary data) to the selected encoding.
 
 Checks the input value for a match with the provided list of values. Returns output based on the result.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

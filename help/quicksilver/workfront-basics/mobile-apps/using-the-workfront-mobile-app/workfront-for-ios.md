@@ -17,7 +17,7 @@ For information about logging in to the mobile app, see the section [Log in to t
 
 The Home area allows you to work directly on tasks, issues, and approvals assigned to you. From the Home area of the app, you can:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -49,7 +49,7 @@ For more information, see [Home area widgets](../../../workfront-basics/mobile-a
 
 The Projects area allows you to interact with and manage projects you own and projects you're on. From the projects area of the app, you can:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -78,7 +78,7 @@ The Projects area allows you to interact with and manage projects you own and pr
 
 The Approvals area allows you to view and approve approvals assigned or delegated to you. From the approvals area, you can approve:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -114,7 +114,7 @@ The Notifications area allows you to view and respond to in-app notifications fo
 
 The Requests area allows you to view details about requests. From the Requests area of the app, you can:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

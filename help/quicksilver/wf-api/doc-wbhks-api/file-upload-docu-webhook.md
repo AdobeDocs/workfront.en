@@ -23,7 +23,7 @@ POST /uploadInit
 
 ## Query Parameters
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -75,6 +75,8 @@ PUT /upload
 | Name&nbsp; |Description |
 |---|---|
 | id&nbsp; |&nbsp;The document ID, which was just created. |
+
+{style="table-layout:auto"}
 
 **Request Body**
 

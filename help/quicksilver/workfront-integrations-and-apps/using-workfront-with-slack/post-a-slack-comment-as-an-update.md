@@ -14,7 +14,7 @@ You can add a Slack comment as an update to a specific project, task, or issue i
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

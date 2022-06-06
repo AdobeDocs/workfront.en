@@ -16,7 +16,7 @@ There is no limit to the number of Queue Topics that can be assigned to a Topic 
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -63,7 +63,7 @@ You must have the following:
 1. Click **New Queue Topic**.
 1. On the **New Queue Topic** form, specify the following:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

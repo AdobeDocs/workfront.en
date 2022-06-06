@@ -16,7 +16,7 @@ The Adobe Workfront Fusion JSON app provides modules to process data in JSON for
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -30,20 +30,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> <p>Workfront Fusion for Work Automation </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> 
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -70,45 +62,43 @@ For more information, see [Data structures in Adobe Workfront Fusion](../../work
 
 ### Collection vs. Array {#collection-vs-array}
 
-If the JSON string field contains a collection `{ ... }`
+If the JSON string field contains a collection `{ ... }`, The output is a single bundle containing the items of the collection.
 
-**Example:**
+>[!INFO]
+>
+>**Example:**
+>
+>```
+>{
+>    "name" : "Peter",
+>
+>    "ID" : 1
+>}
+>```
+>
+>![](assets/json-collection.png)
 
-```
-{
-    "name" : "Peter",
+If the JSON string field contains an array `[ ... ]`m The output is a series of bundles. each bundle contains one element of the array.
 
-    "ID" : 1
-}
-```
-
-The output is a single bundle containing the items of the collection:
-
-![](assets/json-collection.png)
-
-If the JSON string field contains an array `[ ... ]`
-
-:
-
-**Example:** 
-
-```
-[
-  {
-    "name" : "Peter",
-    "ID" : 1
-  },
-
-  {
-    "name" : "Mike",
-    "ID" : 2
-  }
-]
-```
-
-The output is a series of bundles. Each bundle contains one element of the array:
-
-![](assets/json-array.png)
+>[!INFO]
+>
+>**Example:** 
+>
+>```
+>[
+>  {
+>    "name" : "Peter",
+>    "ID" : 1
+>  },
+>
+>  {
+>    "name" : "Mike",
+>    "ID" : 2
+>  }
+>]
+>```
+>
+>![](assets/json-array.png)
 
 ## JSON modules and their fields
 
@@ -128,7 +118,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This aggregator module aggregates output from a previous module into JSON. 
 
-<table> 
+<table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -159,7 +149,7 @@ This aggregator module aggregates output from a previous module into JSON.
 
 This action module converts a JSON string to XML.
 
-<table> 
+<table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -174,7 +164,7 @@ This action module converts a JSON string to XML.
 
 This action module parses a JSON string into a data structure, which allows you to access the data inside the JSON&nbsp;string.
 
-<table> 
+<table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -193,7 +183,7 @@ This action module parses a JSON string into a data structure, which allows you 
 
 This action module creates JSON from a data structure.
 
-<table> 
+<table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -208,7 +198,7 @@ This action module creates JSON from a data structure.
 
 This action module transforms an object into a json string.
 
-<table> 
+<table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -221,53 +211,55 @@ This action module transforms an object into a json string.
 
 ## Transforming data records to JSON {#transforming-data-records-to-json}
 
-**Example:** The following example shows how to transform data records from Google Sheets to JSON format:
-
-1. Place the Google Sheets > Select rows module in your scenario to fetch the data. Set up the module to retrieve rows from your Google spreadsheet. Set the**Maximum number of returned rows** to a small number, but larger than one for testing purposes (Example, three). Execute the Google Sheets module by right-clicking it and choosing "**Run this module only**." Verify the output of the module.
-
-1. Connect the Array Aggregator module after the Google Sheets module. In the module's setup choose the Google Sheets module in the **Source node** field. Leave the other fields as they are for the moment.
-1. Connect JSON > Create JSON module after the Array Aggregator module. The module's setup requires a Data structure that describes the JSON format. Click **Add** to open the Data structure setup. The easiest way to create this Data structure is to generate it automatically from a JSON sample. Click **Generator** and paste your JSON sample to the **Sample data** field:
-
-   **Example:** 
-   
-   ```
-   {
-
-   "books": [
-
-   {
-
-   "id": "ID",
-
-   "title": "Title",
-
-   "author": "Author"
-
-   }
-
-   ]
-
-   }
-   ```
-
-1. Click **Save**. The Specification field in the Data structure now contains the generated structure.
-1. Change the name of your Data structure to something more specific and click **Save**. A field corresponding to the root array attribute appears as a mappable field in the JSON module's setup.
-1. Click the **Map** button next to the field and map the 
-
-   ```
-   Array[]
-   ```
-
-   item from the Array aggregator output to it:
-
-1. Click **OK** to close the JSON module's setup.
-1. Open the setup of the Array Aggregator module. Change the **Target structure** from Custom to the JSON module's field corresponding to the root array attribute. Map items from the Google Sheets module to the appropriate fields.
-1. Click **OK** to close the Array Aggregator module's setup.
-1. Run the scenario.
-
-   The JSON module outputs the correct JSON format. 
-
-1. Open the setup of the Google Sheets module and increase the Maximum number of returned rows number to be larger than the number of rows in your spreadsheet to process all the data.
+>[!INFO]
+>
+>**Example:** The following example shows how to transform data records from Google Sheets to JSON format:
+>
+>1. Place the Google Sheets > Select rows module in your scenario to fetch the data. Set up the module to retrieve rows from your Google spreadsheet. Set the**Maximum number of returned rows** to a small number, but larger than one for testing purposes (Example, three). Execute the Google Sheets module by right-clicking it and choosing "**Run this module only**." Verify the output of the module.
+>
+>1. Connect the Array Aggregator module after the Google Sheets module. In the module's setup choose the Google Sheets module in the **Source node** field. Leave the other fields as they are for the moment.
+>
+>1. Connect JSON > Create JSON module after the Array Aggregator module. The module's setup requires a Data structure that describes the JSON format. Click **Add** to open the Data structure setup. The easiest way to create this Data structure is to generate it automatically from a JSON sample. Click **Generator** and paste your JSON sample to the **Sample data** field:
+>
+>     **Example:** 
+>   
+>     ```
+>     {
+>
+>     "books": [
+>
+>     {
+>
+>     "id": "ID",
+>
+>     "title": "Title",
+>
+>     "author": "Author"
+>
+>     }
+>
+>     ]
+>
+>     }
+>
+>     ```
+>
+>1. Click **Save**. The Specification field in the Data structure now contains the generated structure.
+>1. Change the name of your Data structure to something more specific and click **Save**. A field corresponding to the root array attribute appears as a mappable field in the JSON module's setup.
+>
+>1. Click the **Map** button next to the field and map the `Array[]` item from the Array aggregator output to it.
+>
+>1. Click **OK** to close the JSON module's setup.
+>
+>1. Open the setup of the Array Aggregator module. Change the **Target structure** from Custom to the JSON module's field corresponding to the root array attribute. Map items from the Google Sheets module to the appropriate fields.
+>
+>1. Click **OK** to close the Array Aggregator module's setup.
+>
+>1. Run the scenario.
+>
+>     The JSON module outputs the correct JSON format. 
+>
+>1. Open the setup of the Google Sheets module and increase the Maximum number of returned rows number to be larger than the number of rows in your spreadsheet to process all the data.
 
 ## Troubleshooting
 
@@ -279,4 +271,8 @@ Make sure that the JSON content is properly mapped into the Parse JSON module an
 
 When using conditional statements such as `if` in your JSON, put the quotation marks outside of the conditional statement.
 
-**Example:**  ![](assets/quotes-in-json-350x120.png)
+>[!INFO]
+>
+>**Example:**  
+>
+>![](assets/quotes-in-json-350x120.png)

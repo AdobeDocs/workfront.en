@@ -14,26 +14,26 @@ You can move an agile story either to a different iteration (for Scrum teams), o
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>Manage access to the story</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -48,9 +48,9 @@ You must have the following access to perform the steps in this article:
 1. On the **Stories** tab, select the stories that you want to move.
 1. Click **More**&nbsp;> **Move to**.
 
-   The **Move Story**&nbsp;dialog box is displayed.
+   The **Move Story** dialog box is displayed.
 
-   ![](assets/iteration-story-move-350x143.png)
+   ![Move Story dialog](assets/iteration-story-move.png)
 
 1. Select *team_name*'s Backlog.  
    In the above example, the team name is**Development.**
@@ -68,13 +68,13 @@ You can move a story to a different iteration for your Scrum team.
 1. Go to the iteration that contains the story that you want to move.
 1. Click the iteration heading at the top of the page.
 1. On the **Stories** tab, select the stories that you want to move.
-1. Click **More**&nbsp;> **Move to**.
+1. Click **More** > **Move to**.
 
-   The **Move Story**&nbsp;dialog box is displayed.
+   The **Move Story** dialog box is displayed.
 
-   ![](assets/iteration-story-move-350x143.png)
+   ![Move Story dialog](assets/iteration-story-move.png)
 
-1. Select **Another Iteration**,&nbsp;then in the drop-down menu, select the iteration where you want to move the story.
+1. Select **Another Iteration**, then in the drop-down menu, select the iteration where you want to move the story.
 
    >[!NOTE]
    >

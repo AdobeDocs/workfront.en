@@ -28,7 +28,7 @@ We are excited to open Reporting Canvas for public beta beginning in April 2022.
 
 In developing Reporting Canvas, we have radically redesigned some features—and created some new ones from the ground up—for the purpose of streamlining report making. The following table outlines major features of Reporting Canvas in comparison to existing reporting tools, as well as their current release status:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

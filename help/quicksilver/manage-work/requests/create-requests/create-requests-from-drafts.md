@@ -14,7 +14,7 @@ In addition to using the available drafts that Workfront suggests to you when yo
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -59,6 +59,8 @@ You must do the following before you can create a request from a draft:&nbsp;
    | Path |The name of the request queue, topic groups, and queue topics where you originally intended to submit the request. |
    | Entry Date |The date when you initiated creating the request. |
    | Last Update Date |The last of your last update. If you did not update it since you first started the request the&nbsp;Entry Date and the Last Update Date should be the same.  |
+
+   {style="table-layout:auto"}
 
 1. (Optional) Click **Filter by request type** in the upper-right corner of the list of drafts, then select the request queue that contains the drafts you want to display. 
 1. Click the name of a draft to open it. 

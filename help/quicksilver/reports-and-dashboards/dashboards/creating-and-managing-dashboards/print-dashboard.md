@@ -18,7 +18,7 @@ You can print or export a dashboard to a .PDF file. To print a dashboard, you mu
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

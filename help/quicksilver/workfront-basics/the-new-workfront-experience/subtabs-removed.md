@@ -3,7 +3,7 @@ filename: subtabs-removed
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Subtabs replaced by new main areas or filters in the new Adobe Workfront experience
-description: In the current version of Adobe Workfront, the multiple-level tabs make it sometimes difficult to find information and require time-consuming clicks.
+description: In the Classic version of Adobe Workfront, the multiple-level tabs make it sometimes difficult to find information and require time-consuming clicks. Some of the former tabs have been removed and some of them have been moved to a simpler, less-intrusive left navigation panel for several areas and objects.
 ---
 
 # Subtabs replaced by new main areas or filters in the new Adobe Workfront experience
@@ -34,18 +34,18 @@ The tabs and subtabs that we have removed have been replaced by either main area
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -92,20 +92,20 @@ When accessing the Projects area, you can use the filter to display only project
 
 1. From the **Filter** drop-down menu, select from the following built-in filters to display certain types of projects:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">All</td> 
+      <td role="rowheader"><strong>All</strong></td> 
       <td>Displays all projects you have access to view.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Projects I'm On</td> 
+      <td role="rowheader"><strong>Projects I'm On</strong></td> 
       <td> <p>Displays projects for which you are part of the Project Team.</p> <p>For information about the Project Team, see the <a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a> article.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Projects I Own</td> 
+      <td role="rowheader"><strong>Projects I Own</strong></td> 
       <td>Displays projects for which you are designated as the Project Owner.</td> 
      </tr> 
     </tbody> 
@@ -115,10 +115,8 @@ When accessing the Projects area, you can use the filter to display only project
 >
 >You can also quickly apply the filters Projects I'm On or Projects I Own by clicking the respective button in the Projects area header.
 >
->This functionality is also available for the Timesheets area.&nbsp;For more information, see [Edit timesheet information](../../timesheets/create-and-manage-timesheets/edit-timesheets.md).   
+>This functionality is also available for the Timesheets area. For more information, see [Edit timesheet information](../../timesheets/create-and-manage-timesheets/edit-timesheets.md).   
 >![](assets/nwe-project-list-buttons-350x187.png)>
-
-&nbsp;
 
 ### Portfolio lists under the Portfolio area {#portfolio-lists-under-the-portfolio-area}
 
@@ -130,9 +128,16 @@ When accessing the Portfolio area, you can use the filter to display only portfo
 
 1. From the **Filter** drop-down menu, select from the following built-in filters to display certain types of portfolios:
 
-   | All |Displays all portfolios you have access to view. |
-   |---|---|
-   | Portfolios I Own |Displays all portfolios where you are designated as the Portfolio Manager.  |
+   <table style="table-layout:auto">
+    <tr>
+        <td><strong>All</strong></td>
+        <td>Displays all portfolios you have access to view.</td>
+    </tr>
+    <tr>
+        <td><strong>Portfolios I Own</strong></td>
+        <td>Displays all portfolios where you are designated as the Portfolio Manager.</td>
+    </tr>
+   </table>
 
 ### Issue lists under a project or task {#issue-lists-under-a-project-or-task}
 
@@ -149,8 +154,18 @@ When accessing the Issues area at the project level, you can use the filter to d
 
 1. From the **Filter** drop-down menu, select from the following built-in filters to displays certain types of issues:
 
-   | All |Displays all issues on the project, regardless of their status. |
-   |---|---|
-   | Complete |Displays only completed issues on the project. |
-   | Open |Displays only open issues on the project. |
+   <table style="table-layout:auto">
+    <tr>
+        <td><strong>All</strong></td>
+        <td>Displays all issues on the project, regardless of their status.</td>
+    </tr>
+    <tr>
+        <td><strong>Complete</strong></td>
+        <td>Displays only completed issues on the project.</td>
+    </tr>
+    <tr>
+        <td><strong>Open</strong></td>
+        <td>Displays only open issues on the project.</td>
+    </tr>
+   </table>
 

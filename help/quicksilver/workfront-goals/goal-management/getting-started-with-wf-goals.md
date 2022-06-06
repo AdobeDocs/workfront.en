@@ -135,15 +135,15 @@ Workfront Goals uses the following main objects:
 | Goal |The overall outcome you wish to achieve. You can create multiple goals for a defined period of time. Each goal has an owner, typically an individual or team (although you can also assign a goal to a group.) |
 |---|---|
 | Result |A metric indicator of goal success. Each goal can have one or more results and their progress indicate the progress of the goal. |
-| Activity |A primary action that needs to take place to gain a result. You can add one or more activities to a goal in order to indicate what work has been planned to achieve that goal. Activities are also important, as this is how you align work objects (i.e. projects) from Workfront to goals.
+| Activity |A primary action that needs to take place to gain a result. You can add one or more activities to a goal in order to indicate what work has been planned to achieve that goal. Activities are also important, as this is how you align work objects (i.e. projects) from Workfront to goals.|
+
+{style="table-layout:auto"}
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (NOTE: edit when more objects will come)
 </MadCap:conditionalText>
 -->
-
-|
 
 For information about goals, results, and activities, see:
 

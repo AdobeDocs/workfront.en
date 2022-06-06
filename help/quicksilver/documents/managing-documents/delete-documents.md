@@ -14,7 +14,7 @@ You can delete documents you upload. If you're given manage access to specific d
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -20,7 +20,7 @@ You can use user-based wildcards when building the following reporting elements:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

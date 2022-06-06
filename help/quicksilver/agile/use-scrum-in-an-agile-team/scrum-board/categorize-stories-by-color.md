@@ -3,39 +3,39 @@ filename: categorize-stories-by-color
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Categorize stories by color on the Scrum board
-description: The default color association of stories differs depending on whether the story board is located on an iteration or on a project - EDIT ME.
+description: The default color association of Scrum board stories differs depending on whether the story board is located on an iteration or on a project.
 ---
 
 # Categorize stories by color on the Scrum board
 
-## Change the default color&nbsp;association&nbsp;of stories
+## Change the default color association of stories
 
-The default color&nbsp;association&nbsp;of stories differs depending on whether the story board is located on an iteration or on a project:
+The default color association of stories differs depending on whether the story board is located on an iteration or on a project:
 
-* **Iteration**: On an iteration, story board tiles are color-coded according to the project the story is associated with. (Each project is arbitrarily&nbsp;assigned a color on the story board.)&nbsp;You can change this default behavior for each agile team. Colors for agile stories on an iteration can be tied to the project (default), story priority, owner, or free form. For more information, see&nbsp; [Configure how color indicators are used for stories on the agile story board](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+* **Iteration**: On an iteration, story board tiles are color-coded according to the project the story is associated with. (Each project is arbitrarily assigned a color on the story board.) You can change this default behavior for each agile team. Colors for agile stories on an iteration can be tied to the project (default), story priority, owner, or free form. For more information, see [Configure how color indicators are used for stories on the agile story board](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-* **Project**: On a project, any subtasks match the color of the parent task, so that the colors of all stories in any given swimlane are the same.&nbsp;Colors are randomly assigned to tasks when they are created if the task does not have any subtasks or does not have a parent task. You can change this default behavior by modifying the agile view. Colors for agile stories on a project can be tied to the parent story (default), story priority, owner, or free form. For more information, see [Create or customize an Agile view](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+* **Project**: On a project, any subtasks match the color of the parent task, so that the colors of all stories in any given swimlane are the same. Colors are randomly assigned to tasks when they are created if the task does not have any subtasks or does not have a parent task. You can change this default behavior by modifying the agile view. Colors for agile stories on a project can be tied to the parent story (default), story priority, owner, or free form. For more information, see [Create or customize an Agile view](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
 
 ## Change the color of stories when using free form
 
-If the agile team settings have&nbsp;been configured so the Associate Card Color to&nbsp;option is set to Free Form, users can manually change the color of individual story tiles. This can be useful to communicate other types of&nbsp;information that is important to the team or the organization:
+If the agile team settings have been configured so the Associate Card Color to option is set to Free Form, users can manually change the color of individual story tiles. This can be useful to communicate other types of information that is important to the team or the organization:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
 

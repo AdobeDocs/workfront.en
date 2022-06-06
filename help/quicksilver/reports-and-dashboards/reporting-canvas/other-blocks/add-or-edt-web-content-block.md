@@ -18,7 +18,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -97,6 +97,8 @@ You must have the following access to perform the steps in this article:
    |---|---|
    | Invalid URL |The entered URL does not return a valid site. |
    | Provider site restrictions |The site that you are trying to embed is not allowed. |
+
+   {style="table-layout:auto"}
 
 1. (Optional) Click the **Pass Parameters** toggle to open a list of available pass parameters.
 

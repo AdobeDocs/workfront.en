@@ -26,7 +26,7 @@ The following grouping organizes tasks by the percent complete value into 6 diff
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

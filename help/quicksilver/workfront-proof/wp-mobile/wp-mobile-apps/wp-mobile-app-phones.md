@@ -68,6 +68,8 @@ By default, the Dashboard will open the Total proofs view. This view shows all t
 | **Recent view** |Includes the proofs&nbsp;that have been recently accessed by you&nbsp;and that&nbsp;you own, have permissions to see as per your profile permissions and that were shared with you.&nbsp;This view shows&nbsp;only the proofs&nbsp;that you yourself have opened (either via&nbsp;the Workfront Proof Viewer or via the Proof details page). |
 | **Email link** |To open a proof from your email, simply open the email in your email app, click on the Go to proof button link in the email (1) and you will be taken to the proof in the Workfront Proof app. |
 
+{style="table-layout:auto"}
+
 ## Review a static proof in the app
 
 When you open a proof in the mobile&nbsp;app, you can do the following:

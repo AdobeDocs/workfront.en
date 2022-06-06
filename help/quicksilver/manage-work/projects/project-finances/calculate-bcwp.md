@@ -31,7 +31,7 @@ Consider the following when reviewing the values for the BCWP on a task or proje
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -71,6 +71,8 @@ You can configure whether the BCWP is calculated in hours or costs by configurin
    |---|---|
    | Cost-Based |Workfront calculates the BCWP using the Planned Cost of the tasks. |
 
+   {style="table-layout:auto"}
+
 1. Click&nbsp;**Save Changes**.
 
    The BCWP of the tasks on the project is calculated using hours or costs.
@@ -92,6 +94,8 @@ The following values are used in these calculation:
 | Actual Percent Complete |This is the actual percent complete of the task as it appears in Workfront. |
 |---|---|
 | Task Budget |This is the value for the Planned Hours or Planned Cost of the task. |
+
+{style="table-layout:auto"}
 
 For example, if the actual percent complete of the task is 25% and the Task Budget or the Planned Cost is $10,000, then the BCWP for the task is:
 

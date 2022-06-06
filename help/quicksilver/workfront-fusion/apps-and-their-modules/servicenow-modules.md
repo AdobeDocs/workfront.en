@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -68,7 +68,7 @@ To create a connection for your ServiceNow modules:
 1. Click **Add** next to the Connection box when you begin configuring the first ServiceNow module.
 1. Enter the following:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -120,7 +120,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module activates a scenario when a record is created or updated.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -161,7 +161,7 @@ This action module lets you make a custom authenticated call to the ServiceNow A
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -203,7 +203,7 @@ The module returns any standard fields associated with the record, along with an
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -238,7 +238,7 @@ When you are configuring this module, the following fields display.
 
 This action module deactivates a user in ServiceNow by using the system ID.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -257,7 +257,7 @@ This action module deactivates a user in ServiceNow by using the system ID.
 
 This action module downloads an attachment in a ServiceNow record.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -276,7 +276,7 @@ This action module downloads an attachment in a ServiceNow record.
 
 This action module uploads an attachment to a ServiceNow record.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -309,7 +309,7 @@ This action module creates a new ServiceNow record.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -334,7 +334,7 @@ This action module creates a new ServiceNow record.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -363,7 +363,7 @@ This action module deletes an incident or a user.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -388,7 +388,7 @@ This module searches for records using criteria you select.
 
 The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

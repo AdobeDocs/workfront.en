@@ -20,7 +20,7 @@ For information about the permissions you can give users when sharing a template
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

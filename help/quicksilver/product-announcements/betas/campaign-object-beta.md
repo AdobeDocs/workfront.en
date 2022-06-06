@@ -75,6 +75,8 @@ The following features will release as part of a tiered product release plan. Fe
 | &nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ## Participate in the beta
 
 ### Availability

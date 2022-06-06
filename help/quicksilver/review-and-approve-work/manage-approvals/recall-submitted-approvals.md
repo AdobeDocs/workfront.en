@@ -21,7 +21,7 @@ You can recall any of the following objects submitted for approval:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

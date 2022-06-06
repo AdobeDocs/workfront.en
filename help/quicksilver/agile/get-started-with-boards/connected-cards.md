@@ -21,7 +21,7 @@ When the following information is updated for the card in one location, it is au
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
@@ -76,47 +76,47 @@ You must have the following access to perform the steps in this article:
 
 1. In the **Card Details** box, add or update the following information:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>Name</strong></td> 
-   <td> <p>Changing the name also changes the name on the connected Workfront object.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Description</strong></td> 
-   <td> <p>Changing the description also changes the description on the connected Workfront object.</p> </td> 
-  </tr> 
-  <tr>
-   <td role="rowheader"><strong>Assignees</strong></td>
-   <td><p>To assign more people to the card, start typing a name in the search field, then select it when it displays in the list.</p>
-   <p>Assignees must be members on the board or they will not appear in the selection list.</p>
-   <p>Any assignees you select are also assigned to the task or issue in Workfront.</p></td>
-  </tr>
-  <tr>
-   <td role="rowheader"><strong>Column</strong></td>
-   <td><p>Select the column for the card.</p></td>
-  </tr>
-  <tr>
-   <td role="rowheader"><strong>Status</strong></td>
-   <td><p>Select a status for the card. The defaults are New, In Progress, and Complete, but any custom statuses defined for the item in Workfront are also available.</p>
-   <p>If you have column policies enabled for updating field values, changing the status on the card automatically moves the card to the corresponding column. For more information, see "Define column settings and policies" in the article <a href="/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">Manage board columns</a>.</p>
-   <p>If you click <strong>Mark Complete</strong> at the top of the card, the status automatically changes to Complete.</p></td>
-  </tr>
-  <tr>
-   <td role="rowheader"><strong>Due date</strong></td>
-   <td><p>Select a due date for the card.</p></td>
-  </tr>
-  <tr>
-   <td role="rowheader"><strong>Tags</strong></td>
-   <td><p>Search for and select tags for the card.</p>
-   <p>For information on creating new tags, see <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Add tags</a>.</p></td>
-  </tr>
-  <tr> 
-   <td role="rowheader"><strong>Checklist Items</strong> </td> 
-   <td> <p>Click <strong>Add checklist item</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>To delete an item, click the <strong>Delete</strong> icon <img src="assets/delete.png">.</p><p>For information about completing checklist items, see "Complete checklist items" in the article <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Add an ad hoc card to a board</a>.</p></td> 
-  </tr> 
- </tbody> 
-</table>
+   <table style="table-layout:auto"> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Name</strong></td> 
+      <td> <p>Changing the name also changes the name on the connected Workfront object.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Description</strong></td> 
+      <td> <p>Changing the description also changes the description on the connected Workfront object.</p> </td> 
+     </tr> 
+     <tr>
+      <td role="rowheader"><strong>Assignees</strong></td>
+      <td><p>To assign more people to the card, start typing a name in the search field, then select it when it displays in the list.</p>
+      <p>Assignees must be members on the board or they will not appear in the selection list.</p>
+      <p>Any assignees you select are also assigned to the task or issue in Workfront.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>Column</strong></td>
+      <td><p>Select the column for the card.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>Status</strong></td>
+      <td><p>Select a status for the card. The defaults are New, In Progress, and Complete, but any custom statuses defined for the item in Workfront are also available.</p>
+      <p>If you have column policies enabled for updating field values, changing the status on the card automatically moves the card to the corresponding column. For more information, see "Define column settings and policies" in the article <a href="/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">Manage board columns</a>.</p>
+      <p>If you click <strong>Mark Complete</strong> at the top of the card, the status automatically changes to Complete.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>Due date</strong></td>
+      <td><p>Select a due date for the card.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>Tags</strong></td>
+      <td><p>Search for and select tags for the card.</p>
+      <p>For information on creating new tags, see <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Add tags</a>.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Checklist Items</strong> </td> 
+      <td> <p>Click <strong>Add checklist item</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>To delete an item, click the <strong>Delete</strong> icon <img src="assets/delete.png">.</p><p>For information about completing checklist items, see "Complete checklist items" in the article <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Add an ad hoc card to a board</a>.</p></td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 1. Click **Close** to return to the board.
    The connected object, assignees, tags, due date, and checklist counter are displayed on the card.

@@ -3,16 +3,16 @@ filename: edit-story-information
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Edit story information
-description: When viewing a story tile on the Kanban board, the information in the following table is available. You can edit most information inline, directly from the story tile.
+description: When viewing a story tile on the Kanban board, certain information is available to edit inline, directly from the story tile.
 ---
 
 # Edit story information
 
 ## Understand what information can be viewed and edited {#understand-what-information-can-be-viewed-and-edited}
 
-When viewing&nbsp;a story tile on the Kanban board, the information in the following table is available. You can edit most information inline, directly from the story tile.
+When viewing a story tile on the Kanban board, the information in the following table is available. You can edit most information inline, directly from the story tile.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -30,14 +30,12 @@ When viewing&nbsp;a story tile on the Kanban board, the information in the follo
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p>The project name with a link directly to the project<br><!--
-      <span class="wysiwyg-color-pink" data-mc-conditions="QuicksilverOrClassic.Draft mode">This link is displayed only on stories (parent tasks, not subtasks) when using the agile view on an iteration; it is not displayed when using an agile view on a project.</span>
-     --></p> </td> 
+   <td> <p>The project name with a link directly to the project</p> </td> 
    <td>✓&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p>The number of points or hours complete on the story and the number of points or hours assigned&nbsp;to the story<br>These numbers are used to calculate and display the&nbsp;Percent Complete&nbsp;for each story.</p> </td> 
+   <td> <p>The number of points or hours complete on the story and the number of points or hours assigned to the story<br>These numbers are used to calculate and display the Percent Complete for each story.</p> </td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
   </tr> 
@@ -52,16 +50,14 @@ When viewing&nbsp;a story tile on the Kanban board, the information in the follo
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>The color or category of the tile <!--
-      <span class="wysiwyg-color-pink" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Kanban]</span>
-     --></p> </td> 
+   <td> <p>The color or category of the tile</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Any additional fields (including custom fields) that might have been added to the agile view by modifying the agile view, as described in "Creating and Customizing an Agile View" in <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a></p> </td> 
    <td>✓</td> 
-   <td> <p>✓</p> <p>&nbsp;</p> </td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,20 +66,20 @@ When viewing&nbsp;a story tile on the Kanban board, the information in the follo
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -97,7 +93,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Kanban team from the drop-down menu or search for a team in the search bar.
 
-1. Go to the Kanban&nbsp;board.
+1. Go to the Kanban board.
 1. Expand the story tile to view all fields associated with the story.  
   
    ![](assets/story-expanded-on-kanban-board-2021-350x405.png)

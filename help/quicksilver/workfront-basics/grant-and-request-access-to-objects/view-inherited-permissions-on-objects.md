@@ -20,7 +20,7 @@ For information about the hierarchy of objects in Workfront, see [Understand obj
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

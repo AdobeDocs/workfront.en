@@ -54,11 +54,7 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Add a user<!--
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       to Adobe Workfront
-     </MadCap:conditionalText>
-    --></td> 
+   <td role="rowheader">Add a user to Adobe Workfront</td> 
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a> </p> </li> 

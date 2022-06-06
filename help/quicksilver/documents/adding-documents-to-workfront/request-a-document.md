@@ -14,7 +14,7 @@ You can request a document on any object that supports Documents.
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

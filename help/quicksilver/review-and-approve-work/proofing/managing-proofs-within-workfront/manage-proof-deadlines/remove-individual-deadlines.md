@@ -15,7 +15,7 @@ You can remove a deadline for the stage the reviewer is on.
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

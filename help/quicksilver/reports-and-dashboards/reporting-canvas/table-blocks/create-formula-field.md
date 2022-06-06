@@ -15,7 +15,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -74,6 +74,8 @@ You must have the following access to perform the steps in this article:
    | LEN |Measure the length (in number of characters) of an argument field. |Number |
    | ROUND |&nbsp; |&nbsp; |
    | SUBSTR |Create a new string from a larger string, which contains the characters between one index number (Start) through another (End). |String |
+
+   {style="table-layout:auto"}
 
    <!--
    <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(Optional)&nbsp;You can edit, reorder, or delete multiple functions in a field.</p> </li>

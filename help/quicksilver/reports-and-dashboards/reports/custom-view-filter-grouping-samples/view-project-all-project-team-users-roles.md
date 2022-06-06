@@ -21,7 +21,7 @@ This project view shows a list of users and job roles assigned to the project te
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

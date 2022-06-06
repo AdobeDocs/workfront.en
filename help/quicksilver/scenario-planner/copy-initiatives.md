@@ -12,7 +12,7 @@ You can create initiatives by copying existing ones. You can copy initiatives on
 
 ## Access requirements
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -23,6 +23,8 @@ description: Updated Resources
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |GET |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |SEARCH |
 
+{style="table-layout:auto"}
+
 ### CalendarEntry
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
@@ -35,6 +37,8 @@ description: Updated Resources
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |REPORT&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |SEARCH |
 
+{style="table-layout:auto"}
+
 ### CalendarEntryExternalReference
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
@@ -43,6 +47,8 @@ description: Updated Resources
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |GET&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |REPORT&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |SEARCH&nbsp; |
+
+{style="table-layout:auto"}
 
 ### ExternalAuthToken
 
@@ -56,6 +62,8 @@ description: Updated Resources
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |REPORT&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |SEARCH&nbsp; |
 
+{style="table-layout:auto"}
+
 ### LicenseTypeGroupLimit
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
@@ -67,6 +75,8 @@ description: Updated Resources
 | worklimit |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ### UserHomeCalendarPreference
 
@@ -80,6 +90,8 @@ description: Updated Resources
 | startTime |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |REPORT |
 | userID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |SEARCH |
 | workDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 **Updated Resources**
 
@@ -101,6 +113,8 @@ The following existing resources have been updated with this release of the Work
 | projectRoi&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | resourcePlannerBudgetedLaborCost&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 `¹ Type changed from null to boolean`
 
 ### Assignment
@@ -110,6 +124,8 @@ The following existing resources have been updated with this release of the Work
 | assignmentPercent `¹` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | viewedByAssignedToUser |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 `¹`added validator LESS_THAN_EQUAL
 
 ### BudgetedHour
@@ -117,6 +133,8 @@ The following existing resources have been updated with this release of the Work
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | ID  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 &nbsp;
 
@@ -126,6 +144,8 @@ The following existing resources have been updated with this release of the Work
 |---|---|---|---|---|---|---|
 | name `¹` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ¹ Changes to possibleValues
 
 ### DocMetadataLinkGroup
@@ -134,17 +154,23 @@ The following existing resources have been updated with this release of the Work
 |---|---|---|---|---|---|---|
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |getMetadataForDocument |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ### Document
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | `masterTaskID`  |  |   |   |   |   |   |
 
+{style="table-layout:auto"}
+
 ### DocumentRequest
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | `masterTaskID`  |   |   |   |   |   |   |
+
+{style="table-layout:auto"}
 
 DocumentVersion 
 
@@ -155,6 +181,8 @@ DocumentVersion
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ¹ Changes to possibleValues
 
 Expense 
@@ -163,6 +191,8 @@ Expense
 |---|---|---|---|---|---|---|
 | `masterTaskID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ### Group
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
@@ -170,11 +200,15 @@ Expense
 | &nbsp; |licenseTypeLimit |&nbsp; |&nbsp; |addRemoveLicenseTypeLimits&nbsp; |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |setLicenseTypeLimit |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ### LinkedFolder
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 |  externalIntegrationType¹  |  |  |  |  |   |   |
+
+{style="table-layout:auto"}
 
 ¹ Changes to possibleValues
 
@@ -184,6 +218,8 @@ Expense
 |---|---|---|---|---|---|---|
 | priorityColor |   |  | pendingApproval¹   |   |   |   |
 
+{style="table-layout:auto"}
+
 ¹ Type changed from null to boolean
 
 ### PortalSection
@@ -192,12 +228,16 @@ Expense
 |---|---|---|---|---|---|---|
 |   |  |   |groupIDs  |   |   |   |
 
+{style="table-layout:auto"}
+
 ### Portfolio
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | portfolioNetValue  |   |   |   |  |  |   |
 | portfolioRoi |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ### Project
 
@@ -208,17 +248,23 @@ Expense
 | projectRoi |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | resourcePlannerBudgetedLaborCost |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ### ProofApproval
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | approverDecision |   |   |   |   |   |   |
 
+{style="table-layout:auto"}
+
 ### Rate
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | rateValue ¹ |  |  |  |  |  |   |
+
+{style="table-layout:auto"}
 
 ¹added validator CURRENCY
 
@@ -230,6 +276,8 @@ Expense
 | `masterTaskID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | priorityColor&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ### Team
@@ -237,6 +285,8 @@ Expense
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | hoursPerPoint ¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ¹ added validator LESS_THAN
 
@@ -246,11 +296,15 @@ Expense
 |---|---|---|---|---|---|---|
 | `masterTaskID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ### TeamTask
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | `masterTaskID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ### Timesheet
 
@@ -258,11 +312,15 @@ Expense
 |---|---|---|---|---|---|---|
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ### Update
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | updateType `¹` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |objectUpdatesWithNoteAndJournalEntryIndex&nbsp; |
+
+{style="table-layout:auto"}
 
 ¹ changes to possibleValues
 
@@ -272,11 +330,15 @@ Expense
 |---|---|---|---|---|---|---|
 | &nbsp; |accessLevel&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ### UserNote
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | eventType ¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ¹ changes to possibleValues
 
@@ -287,6 +349,8 @@ Expense
 | kanbanFlag |  |  |pendingApproval ¹&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `masterTaskID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | priorityColor&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ¹ Type changed from null to boolean
 
@@ -303,6 +367,8 @@ Expense
 | projectID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |GET&nbsp; |
 | roleID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |REPORT&nbsp; |
 | userID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |SEARCH |
+
+{style="table-layout:auto"}
 
 &nbsp;
 

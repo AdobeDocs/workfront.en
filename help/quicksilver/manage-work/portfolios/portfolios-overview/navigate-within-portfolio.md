@@ -20,7 +20,7 @@ For more information about portfolios, see [Portfolio overview in Adobe Workfron
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

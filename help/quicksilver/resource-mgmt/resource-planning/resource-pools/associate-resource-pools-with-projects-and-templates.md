@@ -29,7 +29,7 @@ For information about creating resource pools, see [Create resource pools](../..
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

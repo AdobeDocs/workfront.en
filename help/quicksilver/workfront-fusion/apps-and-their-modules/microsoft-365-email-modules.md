@@ -6,10 +6,12 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365 Email
-description: In order to use Office 365 Email with Adobe Workfront Fusion, it is necessary to have an Office 365 account. You can create one at www.office.com.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Office 365 Email, as well as connect it to to multiple third-party applications and services.
 ---
 
 # Microsoft Office 365 Email
+
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Office 365 Email, as well as connect it to to multiple third-party applications and services.
 
 In order to use Office 365 Email with Adobe Workfront Fusion, it is necessary to have an Office 365 account. You can create one at www.office.com.
 
@@ -21,7 +23,7 @@ After you grant consent, you are redirected back to the Workfront Fusion adminis
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -40,16 +42,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -87,7 +80,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 Triggers when a new email message is sent or received.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -123,7 +116,7 @@ Triggers when a new email message is sent or received.
 
 Searches for messages based on specific criteria.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -160,7 +153,7 @@ Searches for messages based on specific criteria.
 
 Gets the metadata of a specific message
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -173,7 +166,7 @@ Gets the metadata of a specific message
    <td> <p> Select or map the ID of the message you want to retrieve metadata for.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Get Mime contents</td> 
+   <td role="rowheader">Get MIME contents</td> 
    <td>Enable this option to retrieve data about the MIME content of the message. MIME content may include images, audio, video, or other types of files.</td> 
   </tr> 
  </tbody> 
@@ -183,7 +176,7 @@ Gets the metadata of a specific message
 
 Creates and sends an email message.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -259,7 +252,7 @@ Creates and sends an email message.
 
 Moves an email message to a selected folder in the mailbox.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -282,7 +275,7 @@ Moves an email message to a selected folder in the mailbox.
 
 Deletes an existing email message.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -307,7 +300,7 @@ Deletes an existing email message.
 
 Creates a new email message.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -375,7 +368,7 @@ Creates a new email message.
 
 Sends an email message that is currently in draft.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -394,7 +387,7 @@ Sends an email message that is currently in draft.
 
 Updates an existing message.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -475,7 +468,7 @@ Updates an existing message.
 
 This module retrieves a list of attachments belonging to the specified message.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -498,7 +491,7 @@ This module retrieves a list of attachments belonging to the specified message.
 
 This module downloads the specified attachment.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -526,7 +519,7 @@ This module downloads the specified attachment.
 
 This module allows you to perform a custom API call.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -564,7 +557,7 @@ This module allows you to perform a custom API call.
 
 This module adds a large attachment to a message.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

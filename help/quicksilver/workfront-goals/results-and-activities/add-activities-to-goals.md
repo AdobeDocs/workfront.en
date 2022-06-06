@@ -15,7 +15,7 @@ Activities measure the progress of a goal. Without associated results, activitie
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

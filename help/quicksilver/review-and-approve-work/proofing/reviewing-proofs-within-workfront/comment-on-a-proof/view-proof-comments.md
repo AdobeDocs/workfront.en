@@ -14,7 +14,7 @@ You can view and reply to proof comments made by other reviewers.
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

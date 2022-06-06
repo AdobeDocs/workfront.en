@@ -16,7 +16,7 @@ You can use baseline to compare those pieces of information from the current pla
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

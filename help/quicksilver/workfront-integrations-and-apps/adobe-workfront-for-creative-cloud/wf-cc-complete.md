@@ -14,7 +14,7 @@ You can stay in Adobe Photoshop and seamlessly complete your work in Adobe Workf
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

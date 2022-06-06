@@ -26,6 +26,8 @@ PUT /delete
 | documentId&nbsp; |The document ID to delete |
 | folderId&nbsp; |&nbsp;The folder ID to delete |
 
+{style="table-layout:auto"}
+
 &nbsp;&nbsp;
 
 Response A JSON string indicating success or failure, as specified in the Error Handling section below.

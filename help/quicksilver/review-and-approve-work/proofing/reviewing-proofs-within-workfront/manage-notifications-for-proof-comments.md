@@ -18,7 +18,7 @@ When you work on a proof, whether you are a Adobe Workfront user or an external 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
 
    The system default is **Daily summary**. If you or your reviewers do not make any other changes, all your proofs have this setting.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

@@ -20,7 +20,7 @@ For information about managing notifications in&nbsp;Adobe Workfront, see [Activ
 <h2>Access requirements</h2>
 <p>(NOTE: drafted, no longer available from WF Goals proper. Documented at the links above.) </p>
 <p>You must have the following access to perform the actions described in this article:</p>
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <tbody>
@@ -77,7 +77,7 @@ For information about managing notifications in&nbsp;Adobe Workfront, see [Activ
 <li value="2"> <p> <p>Click the <strong>Main Menu icon</strong> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <strong>Goals</strong>.</p> <p>This opens the Workfront Goals area. </p> </p> </li>
 <li value="3"> <p>Click <strong>Goal Settings</strong> in the left panel.</p> <p> <img src="assets/notifications-settings-list-highlighted-350x124.png" style="width: 350;height: 124;"> </p> </li>
 <li value="4"> <p>Select any of the check boxes below to enable notifications for the following events:</p>
-<table>
+<table style="table-layout:auto">
 <col>
 <thead>
 <tr>

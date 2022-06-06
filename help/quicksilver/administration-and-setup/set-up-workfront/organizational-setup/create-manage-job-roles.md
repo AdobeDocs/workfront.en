@@ -10,7 +10,7 @@ description: Create and manage job roles
 # Create and manage job roles
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 -->
 
 As an Adobe Workfront administrator or a user with administrative access to Job&nbsp;Roles, you can create job roles which can be assigned to users and delete default job roles that are not relevant to your organization. For information about administrative access in Workfront, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
@@ -46,14 +46,7 @@ You must have the following:
 
 1. In the left panel, click**Job Roles.**
 1. Click **New Job Role.**
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/new-job-role-box-nwe-350x309.png" style="width: 350;height: 309;"> </p>
-   -->
-
-   ![](assets/new-job-role-box-with-currency-override-nwe-350x312.png)
-
-1. Update the following fields: 
+1. Configure the following: 
 
    <table style="table-layout:auto"> 
     <col> 
@@ -67,8 +60,8 @@ You must have the following:
       <td role="rowheader"><span>Is Active</span> </td> 
       <td> 
        <ul> 
-        <li> <p>Select <strong>Yes</strong> if you want the role to be active and available everywhere in Workfront to be associated with users, work items, etc. </p> </li> 
-        <li> <p>Select <strong>No</strong>, if you want the role to be deactivated and not available to assign to users, work items, etc. </p> </li> 
+        <li> <p>Select <b>Yes</b> if you want the role to be active and available everywhere in Workfront to be associated with users, work items, etc. </p> </li> 
+        <li> <p>Select <b>No</b>, if you want the role to be deactivated and not available to assign to users, work items, etc. </p> </li> 
        </ul> <p><span>For information about deactivating job roles, see</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Deactivate job roles</a>. </p> </td> 
      </tr> 
      <tr> 

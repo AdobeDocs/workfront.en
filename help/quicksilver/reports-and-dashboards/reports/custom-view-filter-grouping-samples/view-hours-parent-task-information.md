@@ -17,7 +17,7 @@ This hour view displays the name of the task where the hours were logged as well
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -26,7 +26,7 @@ For information about creating goals, and adding results and activities to them,
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

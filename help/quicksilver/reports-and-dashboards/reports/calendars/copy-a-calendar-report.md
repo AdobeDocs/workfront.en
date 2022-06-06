@@ -16,7 +16,7 @@ Additionally, if you have Manage access to a calendar to which you are not the o
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

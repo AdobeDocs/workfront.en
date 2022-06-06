@@ -16,6 +16,7 @@ This section contains the following articles:
 
 * [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) 
 * [Manage company memberships](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md) 
+* [Deactivate or reactivate a company](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md) 
 * [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md) 
 * [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) 
 * [Deactivate job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md) 

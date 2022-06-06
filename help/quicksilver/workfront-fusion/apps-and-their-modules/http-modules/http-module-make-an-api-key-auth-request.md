@@ -6,19 +6,22 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
 title: HTTP > Make an API Key Authorization request
-description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+description: This Adobe Workfront Fusion action module sends an HTTPS request to a specified URL that requires an API Key Auth authorization, and processes the response.
 ---
 
 # HTTP > Make an API Key Authorization request
 
-Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
-This Adobe Workfront Fusion action module sends an HTTPS request to a specified URL that requires an API&nbsp;Key Auth authorization, and processes the response.
+>[!AVAILABILITY]
+>
+>Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+
+This Adobe Workfront Fusion action module sends an HTTPS request to a specified URL that requires an API Key Auth authorization, and processes the response.
 
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -37,16 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -60,11 +54,7 @@ When you configure the HTTP > Make an API Key Authorization request module, Adob
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
-<!--
-<img src="assets/map-toggle-350x74.png" style="width: 350;height: 74;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
-
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

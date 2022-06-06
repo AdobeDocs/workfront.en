@@ -22,6 +22,8 @@ PUT /rename
 | id |The document or folder ID to rename |
 | name&nbsp; |The new name of the document or folder |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ## Response

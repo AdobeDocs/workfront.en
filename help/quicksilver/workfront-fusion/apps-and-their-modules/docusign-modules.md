@@ -15,7 +15,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -34,16 +34,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -62,7 +53,7 @@ To create a connection for your DocuSign modules:
 1. Click **Add** next to the Connection box when you begin configuring the first DocuSign module.
 1. Enter the following:
 
-   <table> 
+  <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -96,7 +87,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when an envelope is sent, delivered, signed, completed, or declined.
 
-<table> 
+<table style="table-layout:auto">
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -146,7 +137,7 @@ This trigger module starts a scenario when an envelope is sent, delivered, signe
 
 This action module allows you to perform a custom API call.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -188,41 +179,37 @@ This action module allows you to perform a custom API call.
  </tbody> 
 </table>
 
-**Example:** List Envelopes
-
-The following API call returns envelopes from the specified date in your DocuSign account:
-
-**URL**:
-<pre>/v2.1/accounts/{accountId}/envelopes/</pre>**Method**:
-<pre>GET</pre>**Query String**:
-
-**Key**:
-
-```
-from_date
-```
-
-**Value**: 
-
-```
-YYYY-MM-DD
-```
-
-Specifies when the request begins checking for status changes for envelopes in the account.
-
-![](assets/example-docusign-setup-350x770.png)
-
-The result can be found in the module's Output under Bundle > Body > envelopes.
-
-In our example, 6 envelopes were returned:
-
-![](assets/docusign-example-output-350x677.png)
+>[!INFO]
+>
+>**Example:** List Envelopes
+>
+>The following API call returns envelopes from the specified date in your DocuSign account:
+>
+>**URL**: `/v2.1/accounts/{accountId}/envelopes/`
+>
+>**Method**: `GET`
+>
+>**Query String**:
+>
+>* **Key**: `from_date`
+>
+>* **Value**: `YYYY-MM-DD`
+>
+>   Specifies when the request begins checking for status changes for envelopes in the account.
+>
+>![](assets/example-docusign-setup-350x770.png)
+>
+>The result can be found in the module's Output under Bundle > Body > envelopes.
+>
+>In our example, 6 envelopes were returned:
+>
+>![](assets/docusign-example-output-350x677.png)
 
 #### Download a document {#download-a-document}
 
 This action module downloads a single document.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -273,7 +260,7 @@ This action module downloads a single document.
 
 This action module reads information about an envelope in DocuSign using the envelope ID.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -300,7 +287,7 @@ This action module reads information about an envelope in DocuSign using the env
 
 This module uploads a specified file to an existing envelope in DocuSign.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -327,36 +314,32 @@ This module uploads a specified file to an existing envelope in DocuSign.
 
 This action module creates a new envelope from a template. It returns the new envelope's ID, as well as the status of the new envelope.
 
-<table> 
+<table style="table-layout:auto">
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
-  <tr> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td>
-   --> 
+  <tr> 
+    <td role="rowheader">Connection </td>
+ 
    <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
-  <tr> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Account </td>
-   --> 
+  <tr> 
+    <td role="rowheader">Account </td>
    <td> <p>Select the account that contains the envelope where you want to upload a file.</p> </td> 
   </tr> 
-  <tr> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Template</td>
-   --> 
+  <tr> 
+    <td role="rowheader" >Template</td>
    <td> <p> Select the template that you want to create the new envelope from. Templates are available based on the Account you selected.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">After creation</p>
-    --> </td> 
+   <td role="rowheader">
+     After creation
+   </td> 
    <td> <p>Select whether you want to save the envelope as a draft or send it for signing.</p> </td> 
   </tr> 
-  <tr> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Template recipients</td>
-   --> <!--
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the recipient of this envelope</td>
-   --> 
+  <tr> 
+    <td role="rowheader" >Template recipients</td>
+    <td>Select the recipient of this envelope</td>
   </tr> 
  </tbody> 
 </table>
@@ -365,29 +348,24 @@ This action module creates a new envelope from a template. It returns the new en
 
 This action module adds one or more recipients to an existing envelope. If the envelope has already been sent, the recipient is sent an email. This module is not valid for envelopes that have already been completed.
 
-<table> 
+<table style="table-layout:auto">
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
-  <tr data-mc-conditions=""> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td>
-   --> 
+  <tr data-mc-conditions=""> 
+    <td>Connection </td>
    <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Account </td>
-   --> 
+  <tr data-mc-conditions="">
+    <td>Account </td>
    <td> <p>Select the account that contains the envelope where you want add recipients.</p> </td> 
   </tr> 
-  <tr> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Envelope ID</td>
-   --> <!--
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the or map the ID of the envelope where you want to add the recipient.</td>
-   --> 
+  <tr> 
+    <td>Envelope ID</td>
+    <td>Select the or map the ID of the envelope where you want to add the recipient.</td>
   </tr> 
-  <tr data-mc-conditions=""> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Recipient type</td>
-   --> 
+  <tr data-mc-conditions="">
+    <td role="rowheader">Recipient type</td>
    <td> <p> Select the type of recipient that you want to add to the envelope.</p> 
     <ul> 
      <li> <p>Agent</p> </li> 
@@ -398,40 +376,31 @@ This action module adds one or more recipients to an existing envelope. If the e
      <li> <p>Signer</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Email</p> </td>
-   --> 
+  <tr> 
+    <td>Email</td>
    <td> <p>Enter or map the email address of the recipient you want to add to the envelope.</p> </td> 
   </tr> 
-  <tr> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Name</p> </td>
-   --> 
+  <tr> 
+    <td>Name</td>
    <td>Enter or map the name of the recipient you want to add to the envelope.</td> 
   </tr> 
-  <tr> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Routing order</p> </td>
-   --> 
+  <tr>
+    <td>Routing order</td>
    <td> <p>Enter or map the routing number for the recipient. Routing number determines the order in which recipients receive and sign your documents.</p> </td> 
   </tr> 
-  <tr> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <li> <p>Email body</p> </li> </td>
-   --> 
+  <tr> 
+    <td role="rowheader">Email body</td>
    <td>Enter or map the body (content) of the email is sent to the recipent.</td> 
   </tr> 
-  <tr> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <li> <p>Email subject</p> </li> </td>
-   --> 
+  <tr>
+    <td role="rowheader">Email subject</td>
    <td>Enter or map the subject of the email that is sent to the recipient.</td> 
   </tr> 
-  <tr> <!--
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Private message</p> </td>
-   --> 
+    <td role="rowheader">Private message</td>
    <td> <li> <p>Only the selected recipient sees the private message, as well as the general message. The private message is limited to 1000 characters.</p> </li> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Authentication</p>
-    --> </td> 
+   <td role="rowheader">Authentication</td> 
    <td> <p>Select the authentication method that you want to use to confirm the recipient's identity.</p> 
     <ul> 
      <li> <p><strong>None</strong> </p> </li> 
@@ -447,7 +416,7 @@ This action module adds one or more recipients to an existing envelope. If the e
 
 This action module adds a custom field to the document
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -486,7 +455,7 @@ This action module adds a custom field to the document
 
 This action module modifies a custom field using the field name.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -529,7 +498,7 @@ This action module modifies a custom field using the field name.
 
 This action module sends a draft envelope to its recipients.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -547,5 +516,3 @@ This action module sends a draft envelope to its recipients.
   </tr> 
  </tbody> 
 </table>
-
-&nbsp;

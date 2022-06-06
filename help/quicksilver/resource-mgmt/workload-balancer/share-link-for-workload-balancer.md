@@ -14,7 +14,7 @@ You can share the Workload Balancer with other users who might not have the Reso
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

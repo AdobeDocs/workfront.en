@@ -50,6 +50,8 @@ First, you need to set up the Custom Field section to which you will add custom 
    | **Searchable** |Allows users to be able to find items by searching on the Custom field data. |
    | **Hidden** |Hides the custom field on the New proof, New guest, and New user pages |
 
+   {style="table-layout:auto"}
+
 1. Click **Save**.
 1. In the **Custom field** page that appears, click the **Custom fields settings** tab to refresh the page.&nbsp;
 

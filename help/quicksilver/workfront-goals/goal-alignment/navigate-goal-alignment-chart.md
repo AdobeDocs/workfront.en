@@ -19,7 +19,7 @@ For information about goal alignment and how to achieve it, also see the followi
 
 You must have the following to perform the activities described in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -70,7 +70,7 @@ You must have the following before you can start:
 
    The following information displays on a goal card:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -148,7 +148,7 @@ You must have the following before you can start:
 
    The following information displays:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

@@ -101,7 +101,7 @@ Budgeting resources means that you define (or budget) a certain number of hours 
 -->
 
 <!--
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <tbody>

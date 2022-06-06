@@ -14,7 +14,7 @@ You can view and add updates to a work item within the Home area in Adobe Workfr
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

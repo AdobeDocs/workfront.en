@@ -23,7 +23,7 @@ In order to use [Fusion App] with Workfront Fusion, it is necessary to have an F
 
 ## Creating the FTP Connection {#creating-the-ftp-connection}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -72,7 +72,7 @@ Watch files is the only trigger module for FTP. It monitors the file content of 
 
 2019-02-01_17_13_02-Window.png
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -107,7 +107,7 @@ Watch files is the only trigger module for FTP. It monitors the file content of 
 
 Uploads a file to the FTP server.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -138,7 +138,7 @@ Uploads a file to the FTP server.
 
 Deletes a file from the specified folder.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -161,7 +161,7 @@ Deletes a file from the specified folder.
 
 Retrieves information (id, file name, file size, MIME type, date path) about a searched file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -188,7 +188,7 @@ Retrieves information (id, file name, file size, MIME type, date path) about a s
 
 Retrieves file and/or folder information.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -219,7 +219,7 @@ Retrieves file and/or folder information.
 
 Retrieves a file from the FTP server which can be further processed, e.g. uploaded to the Dropbox.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -242,7 +242,7 @@ The file is retrieved from the FTP server and uploaded to your Dropbox.
 
 Change permissions
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

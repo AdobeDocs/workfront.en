@@ -56,6 +56,8 @@ If you are logged in as an Authorized Support Contact, you can contact Workfront
    | Environment: |Select the environment in which the issue occurs. If you are seeing the issue in both the Production and Sandbox&nbsp;environments, please select&nbsp;Production. |
    | Customer Region: |&nbsp; |
 
+   {style="table-layout:auto"}
+
 1. (Optional) Attach a file, such as an image or video file.
 
    1. At the bottom of the form, click **Upload File**.

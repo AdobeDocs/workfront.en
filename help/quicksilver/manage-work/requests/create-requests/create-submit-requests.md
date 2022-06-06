@@ -3,12 +3,12 @@ filename: create-submit-requests
 product-area: requests
 navigation-topic: create-requests
 title: Create and submit Adobe Workfront requests
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work—in the form of random requests—can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues.
 ---
 
 # Create and submit Adobe Workfront requests
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+{{highlighted-preview}}
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -35,7 +35,7 @@ You can create a request in the following ways:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -137,7 +137,7 @@ To create a request in the Workfront web app:&nbsp;
 
      The results of the search display under the following areas:
 
-     <table> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -193,7 +193,7 @@ To create a request in the Workfront web app:&nbsp;
 
 1. Depending on what fields the Workfront administrator enabled in the **New Issue Fields** section of the **Queue Details**&nbsp;subtab on the project, you might find&nbsp;any of the following fields when you submit a new request:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

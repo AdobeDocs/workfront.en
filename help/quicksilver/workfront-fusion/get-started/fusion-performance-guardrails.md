@@ -31,7 +31,10 @@ Work automation requires rapid processing, so Adobe Workfront Fusion is designed
 ## Operations
 
 * The default operation timeout is typically **40 seconds**.
+
+<!--
 * The operation timeout for calls to Adobe Workfront is **120 seconds**.
+-->
 
 ## Files
 

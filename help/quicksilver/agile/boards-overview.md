@@ -22,7 +22,7 @@ Using boards, you can:
 
 >[!NOTE]
 >
->Boards is currently a standalone tool. The cards that you add to a board are not connected to work items or objects in Workfront.
+>The ad hoc cards on a board are not connected to work items in Adobe Workfront. For details about connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 >[!IMPORTANT]
 >

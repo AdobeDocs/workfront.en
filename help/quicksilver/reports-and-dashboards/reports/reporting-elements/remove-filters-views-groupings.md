@@ -12,7 +12,7 @@ description: Remove filters, views, and groupings
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when this goes live, eidt or remove the original aricle: Sharing a Filter, View, or Grouping - see if anything from this old article can remain as a reference; the remove and share a grouping, etc have been turned into how tos) </p>
 -->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+{{highlighted-preview}}
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -58,7 +58,7 @@ You can remove a filter, view, or grouping from lists and reports if you created
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

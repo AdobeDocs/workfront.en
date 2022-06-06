@@ -37,7 +37,7 @@ You can configure the following settings for the Desktop Proofing Viewer:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -69,7 +69,7 @@ To configure proofing viewer settings:
 1. Open the Web Proofing Viewer or the Desktop Proofing Viewer in one of the following ways:
 
    * If you proof within Adobe Workfront, go to a document list containing a proof you want to view, hover over the document, then click&nbsp;**Open proof**.
-   * If you use Workfront Proof, click the **Go to Proof** icon for the proof in the Dashboard or a Views list. ![](assets/go-to-proof-blue-icon.png)
+   * If you use Workfront Proof, click the **Go to Proof** icon for the proof in the Dashboard or a Views list ![](assets/go-to-proof-blue-icon.png).
 
 1. If the left toolbar is not showing, click the&nbsp;**Menu**&nbsp;icon, located in the upper-left corner of the Web Proofing Viewer.
 
@@ -95,7 +95,7 @@ To configure proofing viewer settings:
    
    * **Send me email notifications about** (always available in the Web Proofing Viewer and the Desktop Proofing Viewer): Click one of the options below. This setting affects only the proof you have open. For more information, see [Notifications for proof comments and decisions overview](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
-     <table> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -138,7 +138,7 @@ To configure proofing viewer settings:
 
      This setting is in effect for all interactive proofs you open.
 
-     <table> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 

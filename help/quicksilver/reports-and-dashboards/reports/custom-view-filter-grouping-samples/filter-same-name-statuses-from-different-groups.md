@@ -18,7 +18,7 @@ Using the filter builder, you cannot identify between the 2 statuses that have t
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

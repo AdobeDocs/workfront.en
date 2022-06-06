@@ -14,7 +14,7 @@ You can edit task information in a list of tasks by editing the fields displayed
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -128,7 +128,7 @@ To edit tasks in a list and save changes automatically:
 
 1. (Optional) Select from the following options:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -243,7 +243,7 @@ To edit tasks in a list when selecting the Manual save Standard option:
 
 1. (Optional) Select from the following options:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -345,7 +345,7 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
 
 1. Select from the following options:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -411,6 +411,8 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
    | ```Custom Forms```  |Click to add or remove Custom Forms or update information on the forms.  |
    | ```Hours```  |Click to log hours. |
    | ```Approvals```  |Click to add task approvals.  |
+
+   {style="table-layout:auto"}
 
 1. Click the back button on your browser to return to the task list when you finish updating the task.
 

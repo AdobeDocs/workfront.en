@@ -23,7 +23,7 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
 
 ## Parameters
 
-<table>
+<table style="table-layout:auto">
  <col>
  <col>
  <col>
@@ -67,7 +67,7 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
 
 ## Response
 
-<table>
+<table style="table-layout:auto">
  <col>
  <col>
  <col>

@@ -23,6 +23,8 @@ The following existing resources have been updated with this release of the Adob
 | `opTaskID`<sup>2</sup> |  |   |  |   |   |  |
 | `taskID`<sup>2</sup>  |   |   |  |  |  |  |
 
+{style="table-layout:auto"}
+
 ¹ Flag removed: REPORTABLE   
 ² Flag removed: NOT_GROUPABLE
 
@@ -31,6 +33,8 @@ The following existing resources have been updated with this release of the Adob
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | `storyBoardOrder`  | `agileWork`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 Assignment
 
@@ -41,6 +45,8 @@ Assignment
 |   |   |   |   | `swapUsersOnProjects`<sup>1</sup>  |   |   |
 |   |   |   |   | `swapUsersOnTasks`<sup>1</sup>  |   |   |
 
+{style="table-layout:auto"}
+
 ¹ Added field: lockToRole
 
 ### CustomerPreferences
@@ -48,6 +54,8 @@ Assignment
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | `name`<sup>1</sup>  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 ¹ Changes to possibleValues
 
@@ -58,17 +66,23 @@ Assignment
 | `days`  |   |   |   |   |   |   |
 | `workHoursPerDay`  |   |   |   |   |   |   |
 
+{style="table-layout:auto"}
+
 ### Iteration
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 |   |   |   |   | `moveIssues`  |   |   |
 
+{style="table-layout:auto"}
+
 ### LayoutTemplates
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | `groupID`  | `group`  |   |   |   |   |   |
+
+{style="table-layout:auto"}
 
 ### Note
 
@@ -77,6 +91,8 @@ Assignment
 | `html`  |   |   |   |   |   |   |
 | `json`  |   |   |   |   |   |   |
 | `richTextNoteID`  |   |   |   |   |   |   |
+
+{style="table-layout:auto"}
 
 ### OpTask
 
@@ -87,11 +103,15 @@ Assignment
 | `storyBoardOrder`  |   |   |   | `linkExternalObject`  |   |   |
 |   |   |   |   | `unlinkExternalObject`  |   |   |
 
+{style="table-layout:auto"}
+
 ### ResourceBudget
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | `ID`  |   |   |   |   |   |   |
+
+{style="table-layout:auto"}
 
 ¹ Flag removed: REPORTABLE
 
@@ -101,6 +121,8 @@ Assignment
 |---|---|---|---|---|---|---|
 | `homeGroupID`  | `homeGroup`  |   |   |   |   |   |
 
+{style="table-layout:auto"}
+
 ### Task
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
@@ -109,11 +131,15 @@ Assignment
 |   |   |   |   | `linkExternalObject`  |   |   |
 |   |   |   |   | `unlinkExternalObject`  |   |   |
 
+{style="table-layout:auto"}
+
 ### Team
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | `includeIssues`  |   |   |   |   |   |   |
+
+{style="table-layout:auto"}
 
 ### TimesheetProfile
 
@@ -121,11 +147,15 @@ Assignment
 |---|---|---|---|---|---|---|
 | `groupID`  | `group`  |   |   |   |   |   |
 
+{style="table-layout:auto"}
+
 ### UIFilter
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   | `filtersForObjCode`  |   |
+
+{style="table-layout:auto"}
 
 ### UIView
 
@@ -133,12 +163,16 @@ Assignment
 |---|---|---|---|---|---|---|
 |   |   |   |   |   | `viewsForObjCode`  |   |
 
+{style="table-layout:auto"}
+
 ### User
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | `logTimeInDays`  |   |   |   |   |   |   |
 | `workHoursPerDay`  |   |   |   |   |   |   |
+
+{style="table-layout:auto"}
 
 ### Work
 

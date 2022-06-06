@@ -15,7 +15,7 @@ This task filter returns incomplete cross-project successors.
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

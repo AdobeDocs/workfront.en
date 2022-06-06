@@ -19,7 +19,7 @@ The Schedule Performance Index (SPI) describes the relationship between the plan
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -58,6 +58,8 @@ Project managers understand that a SPI&nbsp;value of 1 means the project is on p
 | 1 |On plan or on schedule |
 | > 1 (greater than 1) |Ahead of schedule |
 | < 1 (less than 1) |Behind schedule |
+
+{style="table-layout:auto"}
 
 ### How Workfront calculates SPI  {#how-workfront-calculates-spi}
 

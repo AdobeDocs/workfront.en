@@ -20,7 +20,7 @@ Automatic timeline recalculation happens without special access for any of the u
 
 However, you must have the following access to manually recalculate the timeline of a project: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

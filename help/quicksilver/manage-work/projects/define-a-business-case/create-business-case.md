@@ -13,7 +13,7 @@ You can use the Business Case to request a project and define the purpose, the b
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

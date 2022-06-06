@@ -18,7 +18,7 @@ We recommend that you deactivate templates that you are no longer using, instead
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

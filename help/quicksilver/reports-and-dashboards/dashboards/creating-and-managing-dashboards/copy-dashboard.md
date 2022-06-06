@@ -14,7 +14,7 @@ You can copy a dashboard and all of its contents (reports, calendars, and extern
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -36,7 +36,7 @@ You can measure how your project is performing, by referring to the following ca
 
 ## Understanding the Fields Which Impact Financial Calculations
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <p><strong>Term</strong> </p> </td> 
@@ -256,7 +256,7 @@ EAC Method = Calculate at project level
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <br> <p><strong>Task</strong> </p> </td> 
@@ -376,7 +376,7 @@ Task 6
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <br> <p><strong>Task</strong> </p> </td> 
@@ -545,7 +545,7 @@ EAC Method = Calculate at project level
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <br> <p><strong>Task</strong> </p> </td> 
@@ -588,7 +588,7 @@ EAC Method = Calculate at project level
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <p><strong>Task</strong> </p> </td> 
@@ -629,7 +629,7 @@ EAC Method = Calculate at project level
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <p><strong>Expense</strong> </p> </td> 
@@ -655,7 +655,7 @@ EAC Method = Calculate at project level
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <p><strong>Task</strong> </p> </td> 
@@ -842,7 +842,7 @@ Task 6
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <br> <p><strong>Task</strong> </p> </td> 
@@ -913,7 +913,7 @@ Task 6
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <p><strong>Task</strong> </p> </td> 
@@ -1054,7 +1054,7 @@ Task 6
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <p><strong>Expense</strong> </p> </td> 
@@ -1080,7 +1080,7 @@ Task 6
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <p><strong>Task</strong> </p> </td> 
@@ -1385,7 +1385,7 @@ EAC Method = Roll up from tasks/subtasks
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <br> <p><strong>Task</strong> </p> </td> 
@@ -1503,7 +1503,7 @@ Task 6
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <br> <p><strong>Task</strong> </p> </td> 
@@ -1668,7 +1668,7 @@ EAC Method = Roll up from tasks/subtasks
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <br> <p><strong>Task</strong> </p> </td> 
@@ -1711,7 +1711,7 @@ EAC Method = Roll up from tasks/subtasks
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <p><strong>Task</strong> </p> </td> 
@@ -1752,7 +1752,7 @@ EAC Method = Roll up from tasks/subtasks
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <p><strong>Expense</strong> </p> </td> 
@@ -1778,7 +1778,7 @@ EAC Method = Roll up from tasks/subtasks
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <p><strong>Task</strong> </p> </td> 
@@ -1936,7 +1936,7 @@ Task 6
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <br> <p><strong>Task</strong> </p> </td> 
@@ -2007,7 +2007,7 @@ Task 6
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <p><strong>Task</strong> </p> </td> 
@@ -2148,7 +2148,7 @@ Task 6
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <p><strong>Expense</strong> </p> </td> 
@@ -2174,7 +2174,7 @@ Task 6
 
 &nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
    <td> <p><strong>Task</strong> </p> </td> 

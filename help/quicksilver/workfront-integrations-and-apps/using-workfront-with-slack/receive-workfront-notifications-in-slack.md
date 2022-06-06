@@ -24,7 +24,7 @@ You can, however, disable Workfront notifications that you might receive in Slac
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

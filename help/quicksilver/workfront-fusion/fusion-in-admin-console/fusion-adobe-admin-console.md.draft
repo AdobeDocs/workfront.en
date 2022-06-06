@@ -32,6 +32,8 @@ As an Adobe Workfront Fusion administrator, your administration responsibilities
 | Login |&nbsp; |&nbsp; |
 | Logout |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ## SSO (Single Sign-On)
 
 Because the Adobe Business Platform controls Single Sign-On (SSO) for users, the following actions and functionality are handled automatically through the Adobe Business Platform. If your organization has not yet been onboarded to the Adobe Business Platform, you must perform these actions in Workfront Fusion. If your organization has been onboarded to the Adobe Business Platform, you can not see these options in your Workfront Fusion environment.

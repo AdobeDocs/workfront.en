@@ -3,12 +3,12 @@ filename: event-subs-faq
 content-type: api;faq
 navigation-topic: general-api
 title: FAQs - Event Subscriptions
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: FAQs - Event Subscriptions
 ---
 
 # FAQs - Event Subscriptions
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+{{highlighted-preview}}
 
 The following are frequently asked questions about Event Subscriptions:
 

@@ -16,7 +16,7 @@ You can see up to 500 items in the Activity Log, and they are listed starting wi
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

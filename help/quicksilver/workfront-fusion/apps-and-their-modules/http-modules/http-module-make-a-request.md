@@ -6,7 +6,7 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
 title: HTTP > Make a request module
-description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+description: The Adobe Workfront Fusion HTTP > Make a request module is a universal module that enables you to configure an HTTP request and submit it to a server. The received HTTP response is then contained in the output bundle.
 ---
 
 # HTTP > Make a request module
@@ -18,7 +18,7 @@ The Adobe Workfront Fusion HTTP > Make a request module is a universal module th
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -37,16 +37,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -62,7 +53,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -155,9 +146,11 @@ If you see the map button above a field or function, you can use it to set varia
  </tbody> 
 </table>
 
-**Example:** This example shows how to set up the module to submit a POST request with JSON payload:
-
-![](assets/make-a-request-example-350x522.png)
+>[!INFO]
+>
+>**Example:** This example shows how to set up the module to submit a POST request with JSON payload:
+>
+>![](assets/make-a-request-example-350x522.png)
 
 >[!NOTE]
 >

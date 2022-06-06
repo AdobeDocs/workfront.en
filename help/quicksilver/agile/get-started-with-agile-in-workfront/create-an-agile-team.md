@@ -22,18 +22,18 @@ Workfront supports the following agile methodologies:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Plan to create a new agile team; Work or higher to convert a team to an agile team</p> </td> 
   </tr> 
  </tbody> 
@@ -71,7 +71,7 @@ The Scrum agile methodology in Workfront enables you to add a set of stories to 
 The following functionality supports this methodology:
 
 * Include issues on the Scrum story board
-* Include issues on the backlog&nbsp;of an agile team
+* Include issues on the backlog of an agile team
 * Subtasks can be displayed on the Scrum story board
 * View a burndown chart to see progress against stories during the iteration  
   For more information, see [Agile burndown chart overview](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
@@ -85,7 +85,7 @@ The following functionality supports this methodology:
 
 1. Specify the following information on the New Team dialog:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -121,7 +121,7 @@ The following functionality supports this methodology:
 
 ## Convert an existing team into an agile team
 
-You can&nbsp;convert an existing team to be&nbsp;an agile team:
+You can convert an existing team to be an agile team:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
 1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
@@ -131,11 +131,11 @@ You can&nbsp;convert an existing team to be&nbsp;an agile team:
    Only team members with either a Plan or Work license see this option.  
    ![](assets/edit-team-settings-350x205.png)
 
-1. In the **Agile**&nbsp;section, select&nbsp;**This is an Agile Team**.
+1. In the **Agile** section, select **This is an Agile Team**.
 
-1. In the **Methodology** section, select whether the team will be using a&nbsp;**Scrum**&nbsp;or&nbsp;**Kanban**&nbsp;agile methodology.  
+1. In the **Methodology** section, select whether the team will be using a **Scrum** or **Kanban** agile methodology.  
 
-1. Click&nbsp;**Save Changes.**
+1. Click **Save Changes.**
 
    For information on configuring an Agile team, see the following articles:
 

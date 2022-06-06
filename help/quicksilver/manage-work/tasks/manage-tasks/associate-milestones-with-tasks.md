@@ -14,7 +14,7 @@ You can associate milestones with tasks to indicate when you reach important ste
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

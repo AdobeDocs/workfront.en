@@ -18,7 +18,7 @@ As a user with a Planner license, you can configure&nbsp;whether you log time in
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -57,6 +57,8 @@ You must have the following access to perform the steps in this article:
    | **Hours:** |Users specify hours when logging time in Workfront. |
    |---|---|
    | **Days:** | Users specify days when logging time in Workfront. |
+
+   {style="table-layout:auto"}
 
 1. (Conditional) If you selected to log time in days, in the **Equivalent Hours for Full Workday** field, type the number of hours that equal a full day. One day on a user's timesheet is the equivalent of the number of hours you enter here.
 

@@ -15,7 +15,7 @@ You can edit information on a custom form after the form is attached to an objec
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

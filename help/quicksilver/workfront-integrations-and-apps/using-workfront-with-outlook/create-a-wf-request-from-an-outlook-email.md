@@ -20,7 +20,7 @@ When you create a Workfront request based on an email, the&nbsp;content of the e
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
