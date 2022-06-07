@@ -9,8 +9,6 @@ description: If you try to delete a status, an error message might tell you that
 
 # List objects with a pending approval processes using a certain status
 
-<!-- Mini toc link to this is drafted and also needs to be added to vsc.  -->
-
 If you try to delete a status, an error message might tell you that it can't be deleted because it's in at least one pending approval processes in your system. You can run a report to list the objects where it is in an pending approval process, then decide what you need to do for each one.
 
 ## In Standard Mode
@@ -53,5 +51,6 @@ If you try to delete a status, an error message might tell you that it can't be 
    * [Access the list of system project statuses](project-statuses)
    * [Access the list of system task statuses](task-statuses)
    * [Access the list of system issue statuses](issue-statuses)
+
 1. Click Save + Close to run the report and list any objects of the type you specified with approval processes in pending state based on the status you specified (Project, Task, or Issue).
-1. Repeat these steps to find the same information for the other two object types. 
+1. Repeat these steps to find the same information for the other two object types.
