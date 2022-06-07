@@ -342,19 +342,26 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-**Example:** The following API call returns the list of all users in your Salesforce account:
+>[!INFO]
+>
+>**Example:** The following API call returns the list of all users in your Salesforce account:
+>
+>* **URL**: `query`
+>
+>* **Method**: GET
+>
+>* **Query String**:
+>
+>* **Key**: `q`
+>
+>* **Value**: `SELECT Id, Name, CreatedDate, LastModifiedDate FROM User LIMIT 10`
+>
+>Matches of the search can be found in the module's Output under **Bundle > Body > records**.
+>
+>In our example, 6 users were returned:
+>
+>![](assets/matches-of-the-search-350x573.png)
 
-* **URL**: `query`
-* **Method**: GET
-* **Query String**:
-* **Key**: `q`
-* **Value**: `SELECT Id, Name, CreatedDate, LastModifiedDate FROM User LIMIT 10`
-
-Matches of the search can be found in the module's Output under **Bundle > Body > records**.
-
-In our example, 6 users were returned:
-
-![](assets/matches-of-the-search-350x573.png)
 
 #### Upload Attachment/Document {#upload-attachment-document}
 
