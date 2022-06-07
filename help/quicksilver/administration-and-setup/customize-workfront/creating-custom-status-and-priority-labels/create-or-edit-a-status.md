@@ -59,7 +59,7 @@ When you create a custom status for the entire organization, you can configure i
 
    Or
 
-   If you are creating or editing a status for a group or subgroup, start typing the name of the group in the box in the upper-right corner, then select it when it appears.
+   If the status is for a group or subgroup, start typing the name of the group in the upper-right corner, then select it when it appears.
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
