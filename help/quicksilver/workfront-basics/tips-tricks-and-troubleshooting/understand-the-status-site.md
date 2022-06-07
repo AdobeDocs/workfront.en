@@ -26,20 +26,20 @@ You can view status updates on the Adobe Status site.
 
    Type [status.adobe.com](http://status.adobe.com/) in your browser to access the Status site.
 
-1. Select ```Experience Cloud```.
-1. Scroll down and select ```Adobe Workfront``` from the list of solutions.
+1. Select **Experience Cloud**.
+1. Scroll down and select **Adobe Workfront** from the list of solutions.
 
 ## Subscribe or Manage your subscription
 
 To subscribe to the Status site or to manage your subscription after you have already subscribed:&nbsp;
 
 1. Go to [status.adobe.com](http://status.adobe.com/).
-1. In the status bar, select ```Manage subscriptions```.
+1. In the status bar, select **Manage subscriptions**.
 1. If you have an existing account, log in to the account; otherwise, create a new account.
-1. Click the ```Create subscriptions``` button.
-1. Select ```Adobe Workfront``` under the ```Experience Cloud``` header, then click ```Continue```.
-1. Select your regional and event type preferences, then click ```Continue```.
-1. Click ```Done``` to confirm your subscription.
+1. Click the **Create subscriptions** button.
+1. Select **Adobe Workfront** under the **Experience Cloud** header, then click **Continue**.
+1. Select your regional and event type preferences, then click **Continue**.
+1. Click **Done** to confirm your subscription.
 
 ## Understand named vulnerabilities
 

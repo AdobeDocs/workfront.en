@@ -128,7 +128,7 @@ For information about configuring access to Workfront Goals, see [Requirements t
 
 ## Workfront Goals objects
 
-The table below describes the Workfront Goals objects. ```You can customize their name by modifying a layout template and assigning it to users, teams, or groups. For information about customizing object names using a layout template, see``` [Customize user interface terminology using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+The table below describes the Workfront Goals objects. You can customize their name by modifying a layout template and assigning it to users, teams, or groups. For information about customizing object names using a layout template, see [Customize user interface terminology using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 
 Workfront Goals uses the following main objects: 
 

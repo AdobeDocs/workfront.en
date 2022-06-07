@@ -218,7 +218,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 {style="table-layout:auto"}
 
-```¹ Changes to possible values```&nbsp;
+¹ Changes to possible values&nbsp;
 
 &nbsp;
 
@@ -236,7 +236,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 ### AccessRule¹
 
-```¹ Flagged as reportable```
+¹ Flagged as reportable
 
 &nbsp;
 
@@ -260,7 +260,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 {style="table-layout:auto"}
 
-```¹ Reportable Flag Removed```
+¹ Reportable Flag Removed
 
 &nbsp;
 
@@ -274,9 +274,9 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 {style="table-layout:auto"}
 
-```¹ Date Validation Added```
+¹ Date Validation Added
 
-```² Not_Filterable Flag Added```
+² Not_Filterable Flag Added
 
 &nbsp;
 
@@ -290,7 +290,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 {style="table-layout:auto"}
 
-```¹ Added field includeIssues```
+¹ Added field includeIssues
 
 &nbsp;
 
@@ -302,7 +302,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 {style="table-layout:auto"}
 
-```¹ Changes to possible values```&nbsp;
+¹ Changes to possible values&nbsp;
 
 &nbsp;
 
@@ -345,7 +345,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 {style="table-layout:auto"}
 
-```¹ Changed PRECISION validator for 8 to 9```
+¹ Changed PRECISION validator for 8 to 9
 
 &nbsp;
 
@@ -371,7 +371,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 {style="table-layout:auto"}
 
-```¹ Changes to possible Values```
+¹ Changes to possible Values
 
 &nbsp;
 
@@ -405,7 +405,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```allowedLegacyQueueTopicIDs```  |  |  |  |  ```getQueueDefTree``` |&nbsp; |&nbsp; |
+| allowedLegacyQueueTopicIDs  |  |  |  |  getQueueDefTree |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
@@ -451,7 +451,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 {style="table-layout:auto"}
 
-```¹ Type Changed from Int to Double```&nbsp;
+¹ Type Changed from Int to Double&nbsp;
 
 &nbsp;
 
@@ -558,4 +558,4 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 {style="table-layout:auto"}
 
-```¹ Changes to possible Values``` 
+¹ Changes to possible Values 

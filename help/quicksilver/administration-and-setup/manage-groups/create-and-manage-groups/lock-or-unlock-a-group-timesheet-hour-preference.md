@@ -11,9 +11,9 @@ description: If you are a group administrator, you can configure and then lock a
 
 If you are a group administrator, you can configure and then lock a timesheet and hour preference for your group after a Workfront administrator unlocks it at the system level.
 
-Locking an Adobe Workfront preference```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  at the group level</MadCap:conditionalText>``` ensures that everyone```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  in your group and in its subgroups</MadCap:conditionalText>``` is using the same setting for that preference. Though you can still reconfigure a preference that you lock, group administrators can't do so for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> lower subgroups</MadCap:conditionalText>```.
+Locking an Adobe Workfront preference ensures that everyone in your group and in its subgroups is using the same setting for that preference. Though you can still reconfigure a preference that you lock, group administrators can't do so for lower subgroups.
 
-Conversely, unlocking a preference```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  at the group level</MadCap:conditionalText>``` allows ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> sub</MadCap:conditionalText>```group administrators more flexibility to manage the way their groups work with those items. When a ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> group </MadCap:conditionalText>```preference is unlocked, group administrators```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  of lower subgroups</MadCap:conditionalText>``` can reconfigure it for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> those subgroups</MadCap:conditionalText>```.
+Conversely, unlocking a preference  at the group level allows subgroup administrators more flexibility to manage the way their groups work with those items. When a preference is unlocked, group administrators can reconfigure it for those subgroups.
 
 This is parallel to the ability that a Workfront administrator has to lock or unlock a preference for everyone in the system.
 

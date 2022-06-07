@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, ``` then click **Overview**```. This opens the Overview area for editing.
+   Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section,  then click **Overview**. This opens the Overview area for editing.
 
    >[!NOTE]
    >

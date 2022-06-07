@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
 ## Log In to Workfront for Adobe Photoshop
 
 1. From the **Plugins** menu at the top of the screen, select **Plugin Panel**.
-1. Select ```Workfront for Adobe Photoshop```.
+1. Select **Workfront for Adobe Photoshop**.
 1. Enter your domain, then click **Log in**. A browser page opens.
 
    >[!TIP]

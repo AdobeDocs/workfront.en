@@ -62,7 +62,8 @@ You must have an Apple Cloud account to be able to install applications on an iP
 1. Specify your **Workfront Username**.
 1. Specify your **Workfront Password**.
 1. Specify the **Workfront URL** of your company.  
-   The URL should be in this format: ```yourCompanyDomain.my.workfront.com```
+
+   The URL should be in this format: `yourCompanyDomain.my.workfront.com`
 
 1. Tap **LOG IN**.
 

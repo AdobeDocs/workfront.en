@@ -390,7 +390,7 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
 
    The list of tasks on the project displays. 
 
-1. Click the More menu ![](assets/more-icon-task-list.png) after the task name, then click **Open Summary**. Select the task you want to ```edit,``` then click the **Open Summary icon** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) in the upper-right corner of the list.
+1. Click the More menu ![](assets/more-icon-task-list.png) after the task name, then click **Open Summary**. Select the task you want to edit, then click the **Open Summary icon** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) in the upper-right corner of the list.
 
    The **Summary** opens.
 
@@ -405,12 +405,12 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
 1. (Optional) Type an update for the task in the **Updates** area. 
 1. Click any of the following icons or areas to go to the task and edit information at the task level:
 
-   | ```Documents```  |Click **Click here to add** to add documents to the task. |
+   | Documents  |Click **Click here to add** to add documents to the task. |
    |---|---|
-   | ```Details```  |Click to update information about the task. |
-   | ```Custom Forms```  |Click to add or remove Custom Forms or update information on the forms.  |
-   | ```Hours```  |Click to log hours. |
-   | ```Approvals```  |Click to add task approvals.  |
+   | Details  |Click to update information about the task. |
+   | Custom Forms  |Click to add or remove Custom Forms or update information on the forms.  |
+   | Hours  |Click to log hours. |
+   | Approvals  |Click to add task approvals.  |
 
    {style="table-layout:auto"}
 

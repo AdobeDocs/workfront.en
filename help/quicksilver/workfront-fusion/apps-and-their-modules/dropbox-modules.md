@@ -611,17 +611,17 @@ When you are configuring this module, the following fields display.
 >
 >Body:
 > 
->```{```
+>`{`
 >
->```"path": "/Text files",```
+>`"path": "/Text files",`
 >
->```"limit": 10,```
+>`"limit": 10,`
 >
->```"recursive": false,```
+>`"recursive": false,`
 >
->```"include_deleted": false```
+>`"include_deleted": false`
 >
->```}```
+>`}`
 >
 >Matches of the search can be found in the module's Output under Bundle > Body > entries.
 >
@@ -672,7 +672,7 @@ To do it in one step, combine these functions:
 
 You can also copy it and paste it into the field. Replace `1.url` with the URL.
 
-```
+`
 {{replace(replace(1.url; "?dl=0"; ""); "www"; "dl")}}
-```
+`
 

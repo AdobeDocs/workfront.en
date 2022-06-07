@@ -70,7 +70,7 @@ You must have the following to perform the steps in this article:
 
    >[!NOTE]
    >
-   >The Is Active option ```(Reactivate option in Preview)``` is unavailable if the group is a subgroup of a deactivated group. Before you can reactivate it, you must remove it from its parent group or move it under a group that is active, as described in the Important note above.
+   >The Is Active option (Reactivate option in Preview) is unavailable if the group is a subgroup of a deactivated group. Before you can reactivate it, you must remove it from its parent group or move it under a group that is active, as described in the Important note above.
 
 ## Considerations for inactive groups
 

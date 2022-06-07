@@ -92,7 +92,7 @@ You must have a request that you or someone in your organization previously subm
 
      >[!TIP]
      >
-     >```When you do not have access to create issues, you receive a warning that your administrator restricted you from creating requests.```
+     >When you do not have access to create issues, you receive a warning that your administrator restricted you from creating requests.
 
 1. (Optional) Update the following information, if needed:
 

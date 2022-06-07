@@ -73,7 +73,7 @@ The **Unassigned** area on the scheduling timeline displays only those tasks and
   If tasks or issues have additional job role assignments that are not being fulfilled by a user, they are also displayed.  
   For example, a task is assigned to 3 job roles: Designer, Product Manager, and Developer. You assign this task to User A who has a Designer job role, and to User B who has a Product Manager job role. In this scenario, the task is still visible in the Unassigned area on the scheduling timeline, because the Developer job role is not assigned to a user.
 
-#### ```**When scheduling resources as a member of the project team (from a project)**```  {#when-scheduling-resources-as-a-member-of-the-project-team-from-a-project}
+#### When scheduling resources as a member of the project team (from a project) {#when-scheduling-resources-as-a-member-of-the-project-team-from-a-project}
 
 The **Unassigned** area at the top of the scheduling timeline displays tasks and issues that meet the following criteria:
 

@@ -832,7 +832,7 @@ For compound clauses, you can use parentheses to group clauses together. For exa
 
 ### Examples {#examples}
 
-All examples on this page show the unencoded ```<q>q</q>``` parameter, where `title = 'hello'` is encoded as `title+%3d+%27hello%27`. Client libraries handle this encoding automatically.
+All examples on this page show the unencoded `<q>q</q>` parameter, where `title = 'hello'` is encoded as `title+%3d+%27hello%27`. Client libraries handle this encoding automatically.
 
 * Search for files with the name "hello"
   <pre>title = 'hello'</pre>

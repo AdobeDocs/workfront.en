@@ -8,13 +8,13 @@ description: The name of an issue appears as opTask in the Adobe Workfront datab
 
 # Use "opTask" and "issue" when referencing issues
 
-The name of an issue appears as ```opTask``` in the Adobe Workfront database. Although there are times when you need to use the ```issue```field name to refer to issues, most of the time you must use the ```opTask``` field name instead of ``` issue ``` when referencing issues.
+The name of an issue appears as `opTask` in the Adobe Workfront database. Although there are times when you need to use the `issue` field name to refer to issues, most of the time you must use the `opTask` field name instead of `issue` when referencing issues.
 
 For more information about how objects appear in the Workfront database, refer to the [API Explorer](https://one.workfront.com/s/api-explorer).
 
-## ```opTask``` filename
+## `opTask` filename
 
-Use the ``` opTask ``` field name when referencing issues in the following contexts:
+Use the `opTask` field name when referencing issues in the following contexts:
 
 * When you create a text mode custom report for issues, and you want to reference issues in views, filters, groupings, or prompts.  
  
@@ -27,9 +27,9 @@ Use the ``` opTask ``` field name when referencing issues in the following conte
 
   For more information about importing data in Workfront using a Kick-Start, see [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-## ```issue``` field ename 
+## `issue` field ename 
 
-Use the ```issue``` field name to reference issues in the following contexts:
+Use the `issue` field name to reference issues in the following contexts:
 
 * When you reference issues in a collection using text mode in a report. 
 * When you reference an issue collection using the Workfront API.

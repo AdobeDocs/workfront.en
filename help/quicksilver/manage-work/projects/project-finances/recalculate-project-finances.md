@@ -130,7 +130,7 @@ If your rates change during the life of a project and you want your cost and rev
 >
 >You can prevent revenue values from updating to reflect the new rates when you manually recalculate finance by following the steps in the section [Preserve financial data for tasks with existing hours](#preserve-financial-data-for-tasks-with-existing-hours) of this article. Cost values are always updated to reflect the new rates when you manually recalculate the finances on a project.
 
-You can recalculate the finances of projects in Workfront from the project page ```or from a project list or report```.
+You can recalculate the finances of projects in Workfront from the project page or from a project list or report.
 
 You can recalculate the finances while editing them in bulk. For information, see the [Manually recalculate finances in bulk in the Edit Projects box](#manually-recalculate-finances-in-bulk-in-the-edit-projects-box) section in this article.
 

@@ -194,7 +194,7 @@ You can group and sort the Work List by Planned Completion Date, Commit Date, Pr
 
 >[!NOTE]
 >
->```The default sorting is ascending.```. If you change the sorting to ```descending``` , the selected sorting options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the sorting does not change, but if you switch browsers or computers then the sorting changes to the default sorting.
+>The default sorting is ascending.. If you change the sorting to descending , the selected sorting options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the sorting does not change, but if you switch browsers or computers then the sorting changes to the default sorting.
 
 ## View late items
 

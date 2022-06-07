@@ -318,7 +318,7 @@ To enable settings in the Resource Planner:
 
      >[!IMPORTANT]
      >
-     >```When the issue Planned Start and Completion Dates are outside the timeline of the project, the Planned Hours for the issue display according to the dates of the issue. For example, if the project timeline is between January and March, but the timeline of the issues is in August, the Planned Hours for the issues appear in the August time period.```
+     >**When the issue Planned Start and Completion Dates are outside the timeline of the project, the Planned Hours for the issue display according to the dates of the issue. For example, if the project timeline is between January and March, but the timeline of the issues is in August, the Planned Hours for the issues appear in the August time period.**
 
 1. (Conditional and optional) If you selected the Project view, enable the Display Portfolio Priorities setting to display the project priorities according to the Portfolio they are assigned to. The priority of the projects according to their portfolios displays next to the Resource Planner priority. This setting is disabled by default.
 

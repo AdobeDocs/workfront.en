@@ -15,7 +15,7 @@ As Soon As Possible is a task constraint that places the start time of the task 
 
 * As Soon As Possible is the default constraint if a project uses a Schedule Mode of Schedule from Start Date and if the system default start date for a new task is set to Based on the Project Planned Date.  
 
-* If a project uses a schedule mode of Schedule from Start Date and if the system ```or group``` default Start Date for a new task is set to Today, then the default Task Constraint is Start No Earlier Than.
+* If a project uses a schedule mode of Schedule from Start Date and if the system or group default Start Date for a new task is set to Today, then the default Task Constraint is Start No Earlier Than.
 
   For information about where to set the default Constraint for a new task, refer to [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

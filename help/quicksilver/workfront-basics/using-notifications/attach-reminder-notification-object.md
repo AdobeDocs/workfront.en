@@ -13,7 +13,7 @@ Reminder notifications can be associated with several different object types: Pr
 
 Before you can attach reminder notifications to an object, an Adobe Workfront administrator must create the notification, as described in&nbsp; [Set up reminder notifications](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).&nbsp;
 
-The steps to attach a reminder ```notifications```&nbsp;are the same, regardless of the object type that you are attaching them to.
+The steps to attach a reminder notifications&nbsp;are the same, regardless of the object type that you are attaching them to.
 
 ## Access requirements
 

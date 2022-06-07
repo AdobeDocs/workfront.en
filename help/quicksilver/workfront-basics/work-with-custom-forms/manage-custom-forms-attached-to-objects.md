@@ -52,9 +52,9 @@ You must have the following access to perform the actions described in this arti
 
    **Example:** For example, to manage the custom forms of a project, go to the project,  click the **More** menu ![](assets/more-icon.png), then click **Edit** .
 
-1. In the **Custom Forms** section for projects, ```tasks, and issues```, click the ![](assets/move-icon---dots.png) icon next to the name of a custom form. For all other objects, click **Manage Forms**. This option displays only if at least one custom form is attached to the object.
+1. In the **Custom Forms** section for projects, tasks, and issues, click the ![](assets/move-icon---dots.png) icon next to the name of a custom form. For all other objects, click **Manage Forms**. This option displays only if at least one custom form is attached to the object.
 1. Drag a form ![](assets/move-icon---dots.png) to a new location in the list.
-1. For projects, ```tasks, and issues``` custom forms, click **Save**.
+1. For projects, tasks, and issues custom forms, click **Save**.
 
    For all other objects, click **I'm done managing** >&nbsp;**Save Changes**.
 
@@ -69,7 +69,7 @@ You must have the following access to perform the actions described in this arti
    For example, go to a project,  click the **More** menu ![](assets/more-icon.png), then click **Edit** .
 
 1. Click **Custom Forms**.
-1. For projects, ```tasks, and issues``` custom forms, click the **X**&nbsp;icon to the right of a form to remove it from the object.
+1. For projects, tasks, and issues custom forms, click the **X**&nbsp;icon to the right of a form to remove it from the object.
 
    For all other objects, click **Manage Forms**, then click the **X** icon to the right of a form to remove it from the object.
 

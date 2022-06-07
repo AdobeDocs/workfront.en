@@ -134,7 +134,7 @@ You can create an interactive proof for your art boards with the Workfront for A
 
 1. Click **New File** near the bottom of the plugin.
 1. Enable **Create a Proof**.
-1. In the ```Asset Type``` drop-down menu, choose the link you just created under the **Shared links** tab. For more information, see [Create an interactive link for your art board](#create-an-interactive-link-for-your-art-board).  
+1. In the **Asset Type** drop-down menu, choose the link you just created under the **Shared links** tab. For more information, see [Create an interactive link for your art board](#create-an-interactive-link-for-your-art-board).  
    ![](assets/shared-links-xd-350x870.png)
 
    <!--

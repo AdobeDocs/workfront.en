@@ -9,7 +9,7 @@ description: You can find the Portfolio Optimizer score in the Portfolio Optimiz
 
 # Overview of the Portfolio Optimizer Score
 
-You can find the Portfolio Optimizer score in the ```Portfolio Optimizer. It displays in the **Score** column for every project```. This represents a score for every project in the portfolio.
+You can find the Portfolio Optimizer score in the Portfolio Optimizer. It displays in the **Score** column for every project. This represents a score for every project in the portfolio.
 
 For information about locating the Portfolio Optimizer, see the article [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
@@ -77,7 +77,7 @@ For information about how to optimize projects in the portfolio, see [Optimize p
 
 Each criteria on the configuration panel (Cost, Alignment, ROI, Net Value, Risk to Benefit) are given their weights in the range 0-100 based on what you selected.
 
-For each project with a complete business case a score per criteria is generated using the folowing formula:&nbsp;
+For each project with a complete business case a score per criteria is generated using the following formula:&nbsp;
 
 ```
 Score Per Criteria = (Project Value For The Criteria - AVG(all the project values for this criteria)) / Standard Deviation of that value for that project
@@ -95,13 +95,7 @@ Once you have all the Score Per Criteria calculated, you can add them taking int
 Score = Cost Score * Cost Weight + Alignment Score * Alignment Weight + ROI Score * ROI Weight + Net Value Score * Net Value Weight + Risk Score * Risk Weight
 ```
 
-For the project cost and risk the logic works in reverse from the way the other criteria work: if you want the Low Cost to be important to you, it's not going to increase but decrease the overall score of the project by 
-
-```
-Cost Score * Cost Weight
-```
-
-.
+For the project cost and risk the logic works in reverse from the way the other criteria work: if you want the Low Cost to be important to you, it's not going to increase but decrease the overall score of the project by `Cost Score * Cost Weight`.
 
 After you have scores calculated for each project, the Optimization Score is defined for the projects the following way:
 

@@ -15,7 +15,7 @@ The Scenario Planner is available only in the new Adobe Workfront experience and
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: might need to add information about the permissions to plans/ initiatives if those will be coming later?) </p>
 -->
 
-Without correct access or ```permissions```, you may not be able to view the Scenarios area of Adobe Workfront nor manage plans or initiatives for your organization.&nbsp;Managing plans and initiatives includes creating, editing, and deleting them.
+Without correct access or permissions, you may not be able to view the Scenarios area of Adobe Workfront nor manage plans or initiatives for your organization.&nbsp;Managing plans and initiatives includes creating, editing, and deleting them.
 
 >[!IMPORTANT]
 >

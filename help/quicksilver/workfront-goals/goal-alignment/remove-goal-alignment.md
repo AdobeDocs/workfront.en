@@ -74,7 +74,7 @@ Consider the following when removing alignment between two goals:
 
 1. Go to a child goal aligned to a parent goal. 
 1. Click the goal name to open the **Goal Details** panel. 
-1. ```Click the **gear icon** ![](assets/gear-icon-settings.png) next to the parent goal.```
+1. Click the **gear icon** ![](assets/gear-icon-settings.png) next to the parent goal.
 
    ![](assets/edit-remove-alignment-350x88.png)
 

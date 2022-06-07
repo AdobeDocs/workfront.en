@@ -14,11 +14,11 @@ description: Update work items in the Workload Balancer using the Summary
 
 The information on this page refers to functionality available only in the new Adobe Workfront experience and after your Adobe Workfront administrator has enabled this experience for you.
 
-You can use the Summary panel of a task ```or an issue``` to update important information for that item. in the Workload Balancer.
+You can use the Summary panel of a task or an issue to update important information for that item. in the Workload Balancer.
 
 >[!TIP]
 >
->The Summary panel is available for tasks in both areas of the Workload Balancer ```and for issues in the Assigned Work area. Issues do not display in the Unassigned Work area.```
+>The Summary panel is available for tasks in both areas of the Workload Balancer and for issues in the Assigned Work area. Issues do not display in the Unassigned Work area.
 
 ## Access requirements
 
@@ -67,11 +67,11 @@ You must have the following:
 
    Go to the **Assigned Work** area, expand a user, and find a work item.
 
-1. ```Click the bar of a task or issue to open the Summary panel on the right```
+1. Click the bar of a task or issue to open the Summary panel on the right
 
-   ```Or```
+   Or
 
-   ```Click **Open Summary** icon ![](assets/summary-panel-icon.png), then click the bar of a task or issue to open the Summary panel```
+   Click **Open Summary** icon ![](assets/summary-panel-icon.png), then click the bar of a task or issue to open the Summary panel
 
    Or
 
@@ -79,7 +79,7 @@ You must have the following:
 
    >[!TIP]
    >
-   >This option is available for tasks in the Unassigned Work area and for tasks and ```issues``` in the Assigned Work area. This is not available for projects or users.
+   >This option is available for tasks in the Unassigned Work area and for tasks and issues in the Assigned Work area. This is not available for projects or users.
 
    The Summary panel opens on the right.
 

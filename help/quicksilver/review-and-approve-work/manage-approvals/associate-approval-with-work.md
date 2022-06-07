@@ -168,7 +168,7 @@ You can also associate a single-use approval process with a template or template
 
 >[!NOTE]
 >
->You can associate a single-use approval process with any system-level or ```group-level status``` for a project, task, issue, ```template, or template task```. For information about Workfront statuses, see [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>You can associate a single-use approval process with any system-level or group-level status for a project, task, issue, template, or template task. For information about Workfront statuses, see [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 Creating an approval process in this way enables you to create a custom approval process to meet your needs. However, the approval process cannot be associated with other work items in the future.
 

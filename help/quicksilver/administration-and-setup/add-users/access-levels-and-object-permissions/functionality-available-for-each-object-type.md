@@ -522,7 +522,7 @@ Only users with a Plan license can have full access to [select object or area]. 
 |---|---|---|---|---|---|
 | Edit priorities and budget hours in the Planner |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Create, edit, delete Resource Pools&#42;&#42; |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```Update Planned Hours in the Workload Balancer```&#42;&#42;&#42; | ```✓*```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | `✓*`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | View project priorities in the Resource Planner | ✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | View resource allocation in the Resource Planning tools | ✓&#42; |✓&#42; |✓&#42; |&nbsp; |&nbsp; |
 | View Resource Pools | ✓&#42; |✓&#42; |✓&#42; |&nbsp; |&nbsp; |

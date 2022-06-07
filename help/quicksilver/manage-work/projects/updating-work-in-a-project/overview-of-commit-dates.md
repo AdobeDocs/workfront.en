@@ -20,7 +20,7 @@ Consider the following when working with commit dates:
   When you create a task or issue, there is no commit date assigned to the task or issue.
 * If you are assigned to a task or issue, you can set the Commit Date by doing one of the following:
 
-   * Let Workfront set the Commit Date to match the existing Planned Completion Date of the task or issue by clicking Work On It, Start Issue, or Start Task on the task or issue. For information about replacing the Work On It button with a Start button, see ``` [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)```.
+   * Let Workfront set the Commit Date to match the existing Planned Completion Date of the task or issue by clicking Work On It, Start Issue, or Start Task on the task or issue. For information about replacing the Work On It button with a Start button, see  [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Manually set the Commit Date yourself according to when you believe the task or issue might be completed. This&nbsp;is your estimation&nbsp;and commitment, as the assignee, to the Project Manager&nbsp;that you will have the task or issue completed by a particular date.
 
 >[!NOTE]
@@ -45,9 +45,15 @@ When a task or issue assignee selects a Commit Date that is different than the P
 >Changes made to the Commit Date do not automatically change the planned dates, and changes made to the planned dates do not automatically change the Commit Date.&nbsp;
 
 Setting the Commit Date for a task or issue triggers the following changes:
-```<li>  <ul>   <li> <p>The Commit Date populates in the Update Stream of the task or issue.</p> <p> <img src="assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png" style="width: 350;height: 73;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <note type="tip">    The change of the Commit Date displays in the Updates area of the task or issue when the Workfront administrator enables this update in the Updates Feeds area in&nbsp;Setup.&nbsp;For information, see     <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md" class="MCXref xref">System-tracked updates</a>.   </note> </li>  </ul> </li>```
 
-* The Projected Completion Date of the task or issue is set to the same date because the task now has a more accurate indication of when it is likely to be completed.  
+* The Commit Date populates in the Update Stream of the task or issue.
+        
+  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
+        
+  The change of the Commit Date displays in the Updates area of the task or issue when the Workfront administrator enables this update in the Updates Feeds area in Setup. For information, see [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+* The Projected Completion Date of the task or issue is set to the same date because the task now has a more accurate indication of when it is likely to be completed.
+
   For more information about the Projected Completion Date, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)

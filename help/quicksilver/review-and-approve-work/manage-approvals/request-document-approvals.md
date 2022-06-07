@@ -59,7 +59,7 @@ Document approval decisions are not automatically reset when you upload a new ve
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
-1. Scroll down to the **Approvals** section in the Summary, click the ```More``` icon, then click ```Resubmit```.
+1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
    ![](assets/nwe-resubmit-approval-350x149.png)
 

@@ -13,7 +13,7 @@ The Simple Duration Type is a Duration Type that you can set for a task in Adobe
 
 ## Overview of the Simple Duration Type
 
-Your Workfront ```or a group administrator``` can set the default Duration&nbsp;Type of your system or group as Simple.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Your Workfront or a group administrator can set the default Duration&nbsp;Type of your system or group as Simple.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 The following things occur when a task has a Duration Type of Simple:
 

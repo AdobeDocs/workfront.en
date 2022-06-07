@@ -71,7 +71,7 @@ For information about attaching forms to objects, see [Add a custom form to an o
 
 Exporting information from the Details section of an object is identical for all objects where it is suppoorted.
 
-1. Go to a project, task, ```portfolio, program,``` or issue for which you have at least View permissions. 
+1. Go to a project, task, portfolio, program, or issue for which you have at least View permissions. 
 1. Click the **"Details" item** on the left panel, such as **Task Details**.
 1. (Optional) If there is no custom form attached to the object, start typing the name of a custom form in the **Add custom form field**, then click it when it appears in the list.
 

@@ -60,7 +60,7 @@ To grant financial permissions to an object:
 
    >[!TIP]
    >
-   >You can share an object only with active users, teams, ```roles,``` or companies.
+   >You can share an object only with active users, teams, roles, or companies.
 
 1. If a drop-down menu appears to the right of the name you selected, click one of the following options that is available:
 

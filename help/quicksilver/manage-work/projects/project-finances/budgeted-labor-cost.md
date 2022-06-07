@@ -125,7 +125,7 @@ You can view the following Budgeted Labor Cost information in Workfront:
 
 >[!NOTE]
 >
->```If you use the Adobe Workfront Scenario Planner to budget project resources, the Budgeted Labor Cost in the Resource Budgeting area of the Business Case is the same as the People Costs of the initiative linked to the project.``` The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). ```For information about budgeting resources using the Scenario Planner, see``` [Budget resources in the Business Case using the Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+>If you use the Adobe Workfront Scenario Planner to budget project resources, the Budgeted Labor Cost in the Resource Budgeting area of the Business Case is the same as the People Costs of the initiative linked to the project. The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). For information about budgeting resources using the Scenario Planner, see [Budget resources in the Business Case using the Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
 ## Locate the Budgeted Hours of a project
 

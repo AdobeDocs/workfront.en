@@ -49,7 +49,7 @@ You can remove entities (users, job roles, teams, groups, companies) from the sh
 
    For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. ```C```lick the **More** icon ![](assets/more-icon.png)next to the object name, then click&nbsp;**Sharing** or**Share.**
+1. Click the **More** icon ![](assets/more-icon.png)next to the object name, then click&nbsp;**Sharing** or**Share.**
 
    ![](assets/share-a-document-350x160.png)
 

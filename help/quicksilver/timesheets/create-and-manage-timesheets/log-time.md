@@ -73,7 +73,7 @@ You can log general hours or project-specific hours on a timesheet.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click **Timesheets**. ```Your current timesheet displays by default. If you don't have a current timesheet```, the My Timesheets section displays.
+1. Click **Timesheets**. Your current timesheet displays by default. If you don't have a current timesheet, the My Timesheets section displays.
 
    ![](assets/timesheet-layout-nwe-350x146.png)
 
@@ -128,7 +128,7 @@ You can log general hours or project-specific hours on a timesheet.
 
    The hour type cannot be changed after a timesheet is closed.
 
-1. Specify the amount of time you want to log on any given day. ```The timesheet row for which you log time is highlighted in light blue.```
+1. Specify the amount of time you want to log on any given day. The timesheet row for which you log time is highlighted in light blue.
 
    ![](assets/log-time-highlighted-row-nwe-350x47.png)
 

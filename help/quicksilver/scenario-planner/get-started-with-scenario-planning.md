@@ -58,7 +58,7 @@ The following are benefits of the Workfront Scenario Planner to help you achieve
 
 ## Workfront Scenario Planner objects
 
-The table below describes the Workfront Scenario Planner objects. ```Your Workfront administrator can customize their name in your system by modifying a layout template and assigning it to users, teams, or groups. For information about customizing object names using a layout template, see``` [Customize user interface terminology using a layout template](../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+The table below describes the Workfront Scenario Planner objects. Your Workfront administrator can customize their name in your system by modifying a layout template and assigning it to users, teams, or groups. For information about customizing object names using a layout template, see [Customize user interface terminology using a layout template](../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 
 For information about Workfront objects, see [Understand objects in Adobe Workfront](../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md). 
 
