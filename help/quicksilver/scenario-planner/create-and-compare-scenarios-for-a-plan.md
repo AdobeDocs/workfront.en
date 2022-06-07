@@ -56,7 +56,7 @@ A scenario is a copy of a plan. You can create as many scenarios as you need. Ho
 
    The first plan you create is automatically saved as the "Initial scenario."
 
-1. Click the down-pointing arrow next to an existing scenario, then ``` click the **Copy** icon.```
+1. Click the down-pointing arrow next to an existing scenario, then  click the **Copy** icon.
 
    ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 

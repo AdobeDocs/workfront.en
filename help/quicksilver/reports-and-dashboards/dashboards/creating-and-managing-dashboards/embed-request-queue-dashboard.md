@@ -90,7 +90,9 @@ When you share a link to a request type, the request type is selected for the us
 
    The code should look similar to the following:
 
-   ```<samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>```
+   ```
+   <samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>
+   ```
 
    This is the link to the request queue associated with the selected project.The Request Type is preselected.
 
@@ -111,15 +113,19 @@ When you share a link to a preselected request type, the request type is selecte
 
    The code should look similar to the following:
 
-   ```<samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>``` 
+   ```
+   <samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>
+   ``` 
 
 1. Edit the code to preserve only the information below:
 
-   ```<samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>```
+   ```
+   <samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>
+   ```
 
    >[!TIP]
    >
-   >You can preserve the ```<samp>iframe </samp>```tag when embedding the code in an application other than&nbsp;Workfront.
+   >You can preserve the `<samp>iframe </samp>` tag when embedding the code in an application other than&nbsp;Workfront.
 
    This is the link to the request queue associated with the selected project. The Request Type is preselected and cannot be changed.
 
@@ -143,7 +149,7 @@ You can embed a link to the requests queue or to a queue topic nested under a re
    * **Name**: enter the name of the request queue as you want it to appear on the dashboard. This is a required field.
 
    * **Description**: enter a description about that this external page displays. This is not a required field and it is important only for reporting purposes. It does not display in the dashboard.&nbsp;
-   * **URL**:```<MadCap:conditionalText data-mc-conditions="">  paste the URL you obtained using one of the methods described in Step 1. </MadCap:conditionalText>```   
+   * **URL**: paste the URL you obtained using one of the methods described in Step 1. 
    
      <!--   
      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   

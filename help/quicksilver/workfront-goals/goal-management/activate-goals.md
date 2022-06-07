@@ -108,7 +108,7 @@ You can activate goals you created or a goal that you have Manage permissions to
 
    Or
 
-   Click the ```**More icon** ![](assets/more-icon.png),``` then click **Activate**.
+   Click the **More icon** ![](assets/more-icon.png), then click **Activate**.
 
    The goal status changes to Active. You can now track progress on the goal and the goal displays in the Check-in section as well as is taken into account in the Graphs sections of Workfront Goals
 

@@ -228,7 +228,7 @@ For more information about Interactive content, see [Interactive content proofs 
 
 ### **Add interactive content as a URL** {#add-interactive-content-as-a-url}
 
-```For information about how to add an interactive URL proof, see  [Generate a proof for a URL](#generate-a-proof-for-a-url)```.
+For information about how to add an interactive URL proof, see  [Generate a proof for a URL](#generate-a-proof-for-a-url).
 
 ### **Add interactive content as a ZIP file** {#add-interactive-content-as-a-zip-file}
 

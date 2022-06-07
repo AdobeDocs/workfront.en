@@ -61,11 +61,11 @@ Updating the Commit Date is identical for tasks and issues.
 
 1. (Optional) If you clicked Start Task or Start Issue, click **Undo** in the lower-left corner of the screen. The Commit Date is removed.
 
-   For information about replacing the Work On It button with a Start button, see ``` [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)```.
+   For information about replacing the Work On It button with a Start button, see  [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
    >[!TIP]
    >
-   >The option to undo your selection to start your work is not available when you click ```Work on it```.
+   >The option to undo your selection to start your work is not available when you click **Work on it**.
 
 1. Click **Updates** in the left panel, then click the **Start a new update** >**Commit Date**
 

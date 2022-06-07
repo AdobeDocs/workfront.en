@@ -79,7 +79,7 @@ You must have the following before you can start:
    >
    >You cannot assign a team or group as a result owner.
 
-1. In the ```Value``` drop-down menu, select the type of value that you want to measure your success by.
+1. In the Value drop-down menu, select the type of value that you want to measure your success by.
 
    ![](assets/results-value-initial-target-boxes-350x49.png)
 
@@ -98,8 +98,8 @@ You must have the following before you can start:
    >
    >The result Type is always Metric and cannot be edited.
 
-1. In the ```Initial``` field, indicate the value that the result has in the beginning, before any progress on it has been recorded. For example, if you want to increase profit to 8%, and profit is currently at 4%, you can enter 4 as the Starting At value. 
-1. In the ```Target``` field, indicate the value that the result aims to achieve. For example, if you want to increase profit to 8%, and profit is currently at 4%, you can enter 8 as the Ending At value.
+1. In the Initial field, indicate the value that the result has in the beginning, before any progress on it has been recorded. For example, if you want to increase profit to 8%, and profit is currently at 4%, you can enter 4 as the Starting At value. 
+1. In the Target field, indicate the value that the result aims to achieve. For example, if you want to increase profit to 8%, and profit is currently at 4%, you can enter 8 as the Ending At value.
 1. Click **Save**.
 
    The result is saved for the selected goal. The progress of the goal automatically updates when you update the progress of a result.

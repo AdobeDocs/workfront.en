@@ -25,7 +25,7 @@ A user can have access to Workfront Library through the following sources:
 >
 >Before adding a user grouping to Workfront Library, be sure it is organized in such a way to coincide with how your organization uses digital content. You can't create user groupings in Workfront Library and changes to these user groupings can only be managed in Workfront, which includes adding and deleting users. For example, if you have a group of users in the Finance Department that needs access to specific documents, you can create a Workfront team that consists of those users. You can then add the team to Workfront Library and give team members access to content relevant to their work.
 
-```<li>You can give access to the following user groupings:</li>```
+You can give access to the following user groupings:
 
 * **Job roles**: Includes users assigned to a specified skill set or functional capacity, such as engineer, designer, or consultant. For information about job roles in Workfront, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 

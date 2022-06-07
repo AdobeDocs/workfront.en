@@ -59,7 +59,7 @@ To install the Workfront for Adobe XD plugin:
 
 ## Log In to Workfront for Adobe XD
 
-1. Ensure the Plugin panel is open, then click ```Workfront for Adobe XD```.
+1. Ensure the Plugin panel is open, then click **Workfront for Adobe XD**.
 1. Enter your domain, then click **Log in**. A browser page opens.
 
    >[!TIP]

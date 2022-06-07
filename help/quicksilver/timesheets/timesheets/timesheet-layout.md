@@ -83,7 +83,7 @@ You can make comments on a timesheet to communicate with your timesheet approver
 
 ![](assets/timesheet-recent-updates-area-and-new-comment-option-nwe-350x155.png)
 
-Any comments made on the timesheet display in this area, at the bottom of the timesheet. ```This area displays under the timesheet and above the timesheet's footer.``` For more information, see [View and manage comments on a timesheet](../../timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
+Any comments made on the timesheet display in this area, at the bottom of the timesheet. This area displays under the timesheet and above the timesheet's footer. For more information, see [View and manage comments on a timesheet](../../timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
 
 ## Work item comments
 

@@ -72,7 +72,7 @@ You must have the following access to perform the steps in this article:
    >   
    >
 
-1. (Optional) Click ```the``` **View** ![](assets/view-icon.png) or **Grouping** ![](assets/grouping.png) ```icons``` to apply a different view or grouping or to create a new one.
+1. (Optional) Click the **View** ![](assets/view-icon.png) or **Grouping** ![](assets/grouping.png) icons to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 

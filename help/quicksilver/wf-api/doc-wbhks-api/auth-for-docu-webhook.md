@@ -11,11 +11,11 @@ description: "Adobe Workfront document webhooks supports two different forms of 
 
 ## **Authentication**
 
-```Adobe Workfront document webhooks supports two different forms of authentication: OAuth2 and ApiKey. In both cases, Workfront passes authentication tokens in the header when making an API call.```
+Adobe Workfront document webhooks supports two different forms of authentication: OAuth2 and ApiKey. In both cases, Workfront passes authentication tokens in the header when making an API call.
 
 ### OAuth2
 
-```OAuth2 allows Workfront to make authorized API calls to a webhook provider on behalf of a user. Before doing so, the user must connect their external document provider account to Workfront and grant Workfront```
+OAuth2 allows Workfront to make authorized API calls to a webhook provider on behalf of a user. Before doing so, the user must connect their external document provider account to Workfront and grant Workfront
 
 access to act on their behalf. This handshaking process only happens once for each user. Here's how it works:
 

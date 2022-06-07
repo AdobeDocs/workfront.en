@@ -23,7 +23,7 @@ The implementation team would rather import project and task information for act
 
 The following table displays four Projects and their basic details that need to be mapped into the Kick Start file formats.
 
-```<font color="#666666">This scenario assumes users are already imported into </font>```Adobe Workfront```<font color="#666666">. If users are not already in </font>```Workfront```<font color="#666666">, subsitute different names or complete the Kick Start Scenario with users prior to this scenario.&nbsp;</font>```
+This scenario assumes users are already imported into Adobe Workfront. If users are not already in Workfront, subsitute different names or complete the Kick Start Scenario with users prior to this scenario.
 
 1. Implement Workfront.
 
@@ -77,7 +77,7 @@ Parent tasks inherit the Duration, Work, and Percent Complete of children tasks.
 
 >[!NOTE]
 >
->The instructions provided in this scenario are not as explicit as the step-by-step directions provided in ``` [Kick-Starts Scenario: Company, Group, Role, and User Kick-Starts Preparation](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)```. The assumption is you have already learned how to look up and copy values from the Company and Group sheets, so these steps will be mentioned, but not specifically outlined.&nbsp;
+>The instructions provided in this scenario are not as explicit as the step-by-step directions provided in [Kick-Starts Scenario: Company, Group, Role, and User Kick-Starts Preparation](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). The assumption is you have already learned how to look up and copy values from the Company and Group sheets, so these steps will be mentioned, but not specifically outlined.&nbsp;
 
 1. Configure.
 1. Import users.
@@ -335,7 +335,7 @@ Set the values for the following task fields:&nbsp;
 * **Set Users** 
   Go to the USER User sheet to look up the ID for the user assigned to each task and input these values in the respective cells in the setAssignedToID column.
 * **Identify Task relationships** 
-  For tasks 2 through 5, input a 1 in the setParentID column. For task 9, input a 8 in the setParentID column. In the  setPredecessorString column, input the task number for each predecessor task. In cases where a task has multiple predecessors, like task 8 in this scenario, you will need to use a comma to separate each predecessor task ID. Predecessors  can be defined with lags on non-Finish-Start relationships by using the shorthand described in the ```Creating Predecessor Relationships``` article.
+  For tasks 2 through 5, input a 1 in the setParentID column. For task 9, input a 8 in the setParentID column. In the  setPredecessorString column, input the task number for each predecessor task. In cases where a task has multiple predecessors, like task 8 in this scenario, you will need to use a comma to separate each predecessor task ID. Predecessors  can be defined with lags on non-Finish-Start relationships by using the shorthand described in the Creating Predecessor Relationships article.
 * **Set Duration** 
   Set the duration for each task by inputting number of hours, days, weeks, or months for the task in the setDuration field. Then input the duration unit in the setDurationUnit field.
 
@@ -363,7 +363,7 @@ Set the values for the following task fields:&nbsp;
 
   ![](assets/im5-350x35.png)
 
-* The setPlannedStartDate and setTaskConstraint columns are not used to build out the timeline of this project because we are relying on predecessor relationships. You can input a date for each task instead. If you do this, be sure you also provide a valid task constraint in the setTaskConstraint column. Reveiw the ```Task Constraint```and related articles for details on valid values for this field.
+* The setPlannedStartDate and setTaskConstraint columns are not used to build out the timeline of this project because we are relying on predecessor relationships. You can input a date for each task instead. If you do this, be sure you also provide a valid task constraint in the setTaskConstraint column. Review the Task Constraintand related articles for details on valid values for this field.
 
   In the case of this scenario, the easiest way to build out the tasks for the other projects you are importing is to copy the tasks you just defined and paste them below, starting on row 12. Then you will:
 

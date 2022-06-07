@@ -52,8 +52,13 @@ GET /search
 
 JSON containing a list of metadata for files and folders matching the query. What constitutes a “match” is determined by the webhook provider. Ideally, it should do a full-text search. Doing a filename-based search also works.
 
-**Example:** Example:  ```https://www.acme.com/api/search?query=test-query```
-<pre>[<br> 
-{ File/Folder Metadata },<br> 
-{ File/Folder Metadata }<br> 
-]</pre>
+**Example:** 
+
+Example:  `https://www.acme.com/api/search?query=test-query`
+
+```
+[ 
+{ File/Folder Metadata },
+{ File/Folder Metadata } 
+]
+```

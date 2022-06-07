@@ -168,7 +168,7 @@ Consider the following when changing your view to the Resource Planner:
 
    >[!TIP]
    >
-   >```This option is applied only when you select at least one option to customize the view in the Display selected items section.```
+   >**This option is applied only when you select at least one option to customize the view in the Display selected items section.**
 
 1. Click **Save**.
 

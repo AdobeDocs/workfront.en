@@ -53,7 +53,7 @@ When it is calculated automatically by the system, the following can influence t
 
 * The Start&nbsp;Date preference setting in the Tasks & Issues area in Setup
 
-  Your Workfront ```or group administrator``` can determine whether a new task starts on the same date as the project's Planned Start&nbsp;Date or on the day you create the task.
+  Your Workfront or group administrator can determine whether a new task starts on the same date as the project's Planned Start&nbsp;Date or on the day you create the task.
 
   For information about Tasks &&nbsp;Issues preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
@@ -72,7 +72,7 @@ When it is calculated automatically by the system, the following can influence t
 
   For example, if a task with a Constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 1 marked for Time-off, the task Planned Start Date becomes June 2.
 
-  For information about the **User Time Off** preference, see the articles ``` [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)``` or [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+  For information about the **User Time Off** preference, see the articles  [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) or [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 When set automatically, the Planned Start Date&nbsp;is determined based on the following calculation:&nbsp;
 

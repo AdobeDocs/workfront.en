@@ -89,7 +89,7 @@ Workfront Goals calculates the progress percentage of a goal using the following
 Goal progress percentage = Actual percent complete * 100 / Expected percent complete
 ```
 
-For example, if the Expected percent complete is 53% at the current time and the Actual percent complete is 30%, the Goal progress percent complete is 56%. Workfront Goals labels this goal with a Progress of ```"In Trouble."```
+For example, if the Expected percent complete is 53% at the current time and the Actual percent complete is 30%, the Goal progress percent complete is 56%. Workfront Goals labels this goal with a Progress of "In Trouble."
 
 The following chart illustrates the relationship between the progress labels and the progress percentage:
 
@@ -99,7 +99,7 @@ The table below lists the goal progress labels and the goal progress percentages
 
 >[!TIP]
 >
->```Goal progress labels match Workfront project Condition name and color.```
+>Goal progress labels match Workfront project Condition name and color.
 
 <table style="table-layout:auto"> 
  <col> 

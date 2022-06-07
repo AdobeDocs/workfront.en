@@ -117,9 +117,9 @@ You can update the view in the Workload Balancer to display exactly the informat
 After selecting the settings you want to apply to your view, the Workload Balancer remembers these settings every time you access it from any browser or device.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Resourcing**.
-1. ```Click Workload Balancer in the left panel.```
+1. Click **Workload Balancer** in the left panel.
 
-   You might need to click **Scheduling**, then select Workload Balancer in the upper-left corner. 
+   You might need to click **Scheduling**, then select **Workload Balancer** in the upper-left corner. 
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -127,7 +127,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    </MadCap:conditionalText>
    -->
 
-   The Workload Balancer displays work assignment information starting with the current week. The names of work items are listed on the left side as well as represented by bars on the right side of the of the Workload Balancer within their respective timelines. ```By default, blue bars represent the timelines of projects and tasks and maroon bars represent issues.```
+   The Workload Balancer displays work assignment information starting with the current week. The names of work items are listed on the left side as well as represented by bars on the right side of the of the Workload Balancer within their respective timelines. By default, blue bars represent the timelines of projects and tasks and maroon bars represent issues.
 
    >[!TIP]
    >
@@ -303,11 +303,11 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    
    * **Edit allocations**, then edit the daily or weekly allocations for the user. For information about managing user allocations, see [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-1. ```Click the bar of a task or issue to open the Summary panel on the right```
+1. Click the bar of a task or issue to open the Summary panel on the right
 
-   ```Or```
+   Or
 
-   ```Click **Open Summary** icon ![](assets/summary-panel-icon.png), then click the bar of a task or issue to open the Summary panel```
+   Click **Open Summary** icon ![](assets/summary-panel-icon.png), then click the bar of a task or issue to open the Summary panel
 
    Or
 
@@ -317,7 +317,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    >[!TIP]
    >
-   >This option is available for tasks in the Unassigned Work area and for tasks and ```issues``` in the Assigned Work area. This is not available for projects or users.
+   >This option is available for tasks in the Unassigned Work area and for tasks and issues in the Assigned Work area. This is not available for projects or users.
 
    The Summary panel opens on the right. 
 
@@ -325,7 +325,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    For more information, see [Assign work in bulk using the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md). 
 
-1. ```Click the **Full screen** icon ![](assets/full-screen.png) to display the Workload Balancer in full screen, then click the **Exit full screen** icon ![](assets/exit-full-screen.png) to return to the default screen.``` 
+1. Click the **Full screen** icon ![](assets/full-screen.png) to display the Workload Balancer in full screen, then click the **Exit full screen** icon ![](assets/exit-full-screen.png) to return to the default screen. 
 1. (Optional) Double-click a daily or weekly allocation for a user inside the bar of a work item to edit the number of allocated hours, then click the **Save** icon ![](assets/save-allocations-wb.png)to save the allocations or the **Cancel** icon ![](assets/cancel-allocations-wb.png) to remove the allocations you adjusted.
 
    >[!TIP]

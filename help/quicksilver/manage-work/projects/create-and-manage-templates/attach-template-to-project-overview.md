@@ -19,7 +19,7 @@ For information about how to attach a template to a project, see [Attach a templ
 Consider the following when adding templates to projects:
 
 * You can attach only active templates to projects.
-* You can attach a template to a project when the project is in a status of Complete, Dead, or in Pending Approval, only when your Adobe Workfront administrator ```or a group administrator``` has enabled this functionality in the Project&nbsp;Preferences area. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* You can attach a template to a project when the project is in a status of Complete, Dead, or in Pending Approval, only when your Adobe Workfront administrator or a group administrator has enabled this functionality in the Project&nbsp;Preferences area. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * Unless you exclude specific template tasks from being added in the attachment process, all template tasks are added to the existing project.
 * Most template settings are added to the project. Some project settings are preserved. For information, see the section [Understand changes to project fields when attaching a template](#understand-changes-to-project-fields-when-attaching-a-template) in this article.
 

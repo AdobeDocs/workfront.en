@@ -116,7 +116,7 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
    >   
    >
 
-1. (Optional) Change the view from ```planned hours``` to **duration**.
+1. (Optional) Change the view from planned hours to **duration**.
 
    Planned hours is selected by default.
 

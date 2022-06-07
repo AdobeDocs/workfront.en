@@ -19,9 +19,9 @@ As an Adobe Workfront administrator, you can set up currency exchange&nbsp;rates
 * Updating exchange rates in Workfront to match current exchange rates
 * Configuring the exchange rates for&nbsp;multiple currencies (doing so enables&nbsp;users to choose a default currency for individual projects)
 
-Exchange rates impact all financial elements in Workfront. The Base Currency is the default currency for all projects throughout the system, unless it is overridden for a given project ```or job role```. You can also select to display financial information in currencies available in your system that are different than the base currency or that of the project when viewing them in a report or list. For more information, see [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+Exchange rates impact all financial elements in Workfront. The Base Currency is the default currency for all projects throughout the system, unless it is overridden for a given project or job role. You can also select to display financial information in currencies available in your system that are different than the base currency or that of the project when viewing them in a report or list. For more information, see [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
-For more information about overriding the Base Currency in Workfront for projects ```and job roles```, see the following articles:
+For more information about overriding the Base Currency in Workfront for projects and job roles, see the following articles:
 
 * [Change the project currency](../../../manage-work/projects/project-finances/change-project-currency.md) 
 * [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)

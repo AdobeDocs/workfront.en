@@ -71,7 +71,7 @@ Before you begin:
 
   >[!TIP]
   >
-  >```When a project exists on multiple plans and you publish information to the project from all plans, the latest publish overwrites the existing Scenario Planner information on the project.```
+  >When a project exists on multiple plans and you publish information to the project from all plans, the latest publish overwrites the existing Scenario Planner information on the project.
 
 * If initiatives were created on the plan by importing projects to the plan, publishing the initiative also updates the linked projects with initiative information.
 

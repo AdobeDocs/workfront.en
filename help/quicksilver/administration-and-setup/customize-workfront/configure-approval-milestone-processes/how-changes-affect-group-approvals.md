@@ -246,7 +246,7 @@ Moving or copying a task or an issue from a project to another might affect exis
 
 | Original task or issue approval process |Groups of the two projects |Changes in the approval process after the task or issue is moved to another project |
 |---|---|---|
-| ```Single-use approval process associated with a system-wide status```  | ```Projects are in the same or different groups```  |No change |
+| Single-use approval process associated with a system-wide status  | Projects are in the same or different groups  |No change |
 | Single-use approval process associated with a group-specific status |Projects are in different groups |The approval remains a single-use approval process and the status associated with the approval updates to match a similar status for the new group. |
 | System-wide approval process |Projects are in the same or different groups |No change |
 | Group-specific approval process |Projects are in the same group |No change |

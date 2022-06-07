@@ -72,7 +72,8 @@ You must have the following access to perform the steps in this article:
    * Excel
    * Excel (xlsx)
    * Tab Delimited  
-     ```This exports a copy of the list to one of these formats and saves it on your computer.```
+   
+     This exports a copy of the list to one of these formats and saves it on your computer.
 
 1. (Optional) Open the exported list using the appropriate application.  
    All the items in the list display in the exported file, whether they are displayed on the screen in the web application or not.

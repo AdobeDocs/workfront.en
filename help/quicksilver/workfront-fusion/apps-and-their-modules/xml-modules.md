@@ -38,11 +38,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td> 
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -89,13 +88,7 @@ The XML > Parse XML module parses an XML formatted text and outputs a single bun
 1. Insert HTTP > Get a file module
 1. Open the module's configuration and configure it as follows:
 
-   **URL**: URL of the XML file (e.g. 
-
-   ```
-   https://siftrss.com/f/rqLy05ayMBJ
-   ```
-
-   )
+   **URL**: URL of the XML file (e.g. `https://siftrss.com/f/rqLy05ayMBJ`)
 
    ![](assets/url-of-xml-file-350x184.png)
 
@@ -131,28 +124,17 @@ The XML > Parse XML module parses an XML formatted text and outputs a single bun
 
 ## Parsing XML attributes
 
-By default, the XML > Parse XML module puts attributes in a special collection 
-
-```
-_attributes
-```
-
-as a child of the node that has these attributes. If the node is a text node and it has attributes, then two special properties are added: 
-
-```
-_attributes
-```
-
-for attributes and 
-
-```
-_value
-```
-
-for the text content of the node.
+By default, the XML > Parse XML module puts attributes in a special collection `_attributes` as a child of the node that has these attributes. If the node is a text node and it has attributes, then two special properties are added: `_attributes` for attributes and `_value` for the text content of the node.
 
 **Example:** This XML:
-<pre><root attr="1"></pre><pre><node attr="ABC">Hello, World</node></pre><pre></root></pre>is converted into this bundle:
+
+```
+<root attr="1">
+<node attr="ABC">Hello, World</node>
+</root>
+```
+
+is converted into this bundle:
 
 ![](assets/xml-converted-to-bundle.png)
 
@@ -195,10 +177,11 @@ The XML > Create XML module converts a bundle to an XML formatted text.
  </tbody> 
 </table>
 
-**Example:** A typical use case is to transform data from a Google spreadsheet into XML.
+**Example:** 
+
+A typical use case is to transform data from a Google spreadsheet into XML.
 
 1. Place the Google Sheets > Select rows module in your scenario to fetch the data. Set up the module to retrieve rows from your Google spreadsheet. Set the**Maximum number of returned rows** to a small number, but larger than one for testing purposes (Example, three). Execute the Google Sheets module by right-clicking it and choosing "**Run this module only**." Verify the output of the module.
-
 1. Connect the Array Aggregator module after the Google Sheets module. In the module's setup choose the Google Sheets module in the **Source node** field. Leave the other fields as they are for the moment.
 1. Connect the XML > Create XML module after the Array Aggregator module.
 
@@ -210,14 +193,7 @@ The XML > Create XML module converts a bundle to an XML formatted text.
 
 1. Click **Save**. The Specification field in the Data structure now contains the generated structure.
 1. Change the name of your Data structure to something more specific and click **Save**. A field corresponding to the root array attribute appears as a mappable field in the JSON module's setup.
-1. Click the **Map** button next to the field and map the 
-
-   ```
-   Array[]
-   ```
-
-   item from the Array aggregator output to it:
-
+1. Click the **Map** button next to the field and map the `Array[]` item from the Array aggregator output to it:
 1. Click **OK** to close the XML module's setup.
 1. Open the setup of the Array Aggregator module. Change the **Target structure** from Custom to an XML module's field corresponding to the parent XML element.Map items from the Google Sheets module to the appropriate fields.
 1. Click **OK** to close the Array Aggregator module's setup.
@@ -231,33 +207,30 @@ The XML > Create XML module converts a bundle to an XML formatted text.
 
 ## Adding XML attributes
 
-If you want to add attributes to a complex node (a node that will contain other nodes), you must add a collection with the name 
+If you want to add attributes to a complex node (a node that will contain other nodes), you must add a collection with the name `_attributes` for the complex note in your custom data structure. This collection will be mapped to node attributes. If you want to add attributes to a text node (for example: `<node attr="1">abc</node>`), you must add a collection `_attributes` for attributes and a text property `_value` for the node value for this node in your custom data structure.
 
 ```
-_attributes
+{
+   "name": "node",
+   "type": "collection",
+   "spec": [
+      {
+         "name": "_attributes",
+         "type": "collection"
+         "spec": [
+            {
+               "name": "attr1",
+               "type": "text"
+            }
+         ]
+      },
+      {
+         "name": "_value",
+         "type": "text"
+      }
+   ]
+}
 ```
-
-for the complex note in your custom data structure. This collection will be mapped to node attributes. If you want to add attributes to a text node (for example: 
-
-```
-<node attr="1">abc</node>
-```
-
-), you must add a collection 
-
-```
-_attributes
-```
-
-for attributes and a text property 
-
-```
-_value
-```
-
-for the node value for this node in your custom data structure.
-
-**Example:**<pre>{</pre> ```<blockquote> <pre>"name": "node",</pre> <pre>"type": "collection",</pre> <pre>"spec": [</pre>  <blockquote>  <pre>{</pre>   <blockquote>   <pre>"name": "_attributes",</pre>   <pre>"type": "collection"</pre>   <pre>"spec": [</pre>    <blockquote>    <pre>{</pre>     <blockquote>     <pre>"name": "attr1",</pre>     <pre>"type": "text"</pre>     </blockquote>    <pre>}</pre>    </blockquote>   <pre>]</pre>   </blockquote>  <pre>},</pre>  <pre>{</pre>   <blockquote>   <pre>"name": "_value",</pre>   <pre>"type": "text"</pre>   </blockquote>  <pre>}</pre>  </blockquote> <pre>]</pre> </blockquote>```<pre>}</pre>
 
 ## Troubleshooting: Cannot map data from the Parse XML module
 

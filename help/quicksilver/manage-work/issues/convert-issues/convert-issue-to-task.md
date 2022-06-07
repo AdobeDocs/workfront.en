@@ -135,7 +135,7 @@ The following table illustrates which&nbsp;issue fields are visible from the con
 | Issue fields |Project or task field |Project list or report |Project Details area |Task list or report |Task Details area |
 |---|---|---|---|---|---|
 | Issue Name |Converted Issue Name |✔ |✔ |✔ |✔ |
-| Primary Contact | ```Converted Issue``` Originator Name |✔ | ```✔```  |✔ |&nbsp; |
+| Primary Contact | `Converted Issue` Originator Name |✔ | `✔`  |✔ |&nbsp; |
 | Entry Date |Converted Issue Entry&nbsp;Date |✔ |&nbsp; |✔ |&nbsp; |
 
 {style="table-layout:auto"}

@@ -13,7 +13,7 @@ Effort Driven is a duration type that you can set for a task in Adobe Workfront.
 
 ## Overview of the Effort Driven Duration Type
 
-Your Workfront ```or a group administrator``` can set the default Duration&nbsp;Type of your system or group as Effort Driven.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Your Workfront or a group administrator can set the default Duration&nbsp;Type of your system or group as Effort Driven.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 In this scenario, there is a risk of arbitrarily shortening the project plan, unless you, as the project manager, take the time to consider whether the task is actually an Effort Driven task.
 
@@ -25,7 +25,7 @@ Use Effort Driven to:
 
 * Track the total number of hours spent on a task when multiple resources are assigned.
 
-  As resources are added, the Planned Duration of the task decreases. (The principle of "many hands make light work" illustrates the effect that this ```Duration Type has on the Planned Duration of a task.```)
+  As resources are added, the Planned Duration of the task decreases. (The principle of "many hands make light work" illustrates the effect that this Duration Type has on the Planned Duration of a task.)
 
 The following sections provide more detailed information about how Workfront calculates the Planned Duration of an Effort Driven task and the effect that adding resources has to the task with this Duration Type.
 

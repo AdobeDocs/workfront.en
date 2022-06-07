@@ -347,7 +347,11 @@ Workfront can process most date formats. However, you must ensure that the date 
 >Most people find it easiest to use the MM/DD/YYYY format (for example: 07/10/2022).
 
 Workfront also accepts time values as part of the date (for example: 07/10/2022 01:30 or 07/10/2022 1:00 PM).
-```<blockquote>  <p>If you omit a time in the date, Workfront does one of the following:</p>  <ul>   <li> <p>Assumes 12:00 AM.</p> <p>In order to see the date result you expect, the system timezone must match your time zone.</p> </li>   <li> <p>If it is on an object that is associated with a schedule, the time defers to the earliest time that the schedule allows.</p> </li>  </ul> </blockquote>``` 
+
+If you omit a time in the date, Workfront does one of the following:
+
+* Assumes 12:00 AM. In order to see the date result you expect, the system timezone must match your time zone.
+* If it is on an object that is associated with a schedule, the time defers to the earliest time that the schedule allows. 
 
 >[!NOTE]
 >

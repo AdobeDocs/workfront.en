@@ -146,7 +146,7 @@ The following changes have been made to tasks with a Simple Duration Type:
 
 * Planned Hours are preserved when removing all assignees.
 * Individual assignment allocations are preserved when replacing users and roles.
-* Individual assignment allocations are preserved on the role when removing the user. ```(Removed from release. Now, Planned Hours will be set to 0 after removing all assignees.)```
+* Individual assignment allocations are preserved on the role when removing the user. (Removed from release. Now, Planned Hours will be set to 0 after removing all assignees.)
 
 For more information about Planned Hours, see [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).
 

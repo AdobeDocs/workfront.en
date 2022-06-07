@@ -611,17 +611,17 @@ When you are configuring this module, the following fields display.
 >
 >Body:
 > 
->```{```
+>`{`
 >
->```"path": "/Text files",```
+>`"path": "/Text files",`
 >
->```"limit": 10,```
+>`"limit": 10,`
 >
->```"recursive": false,```
+>`"recursive": false,`
 >
->```"include_deleted": false```
+>`"include_deleted": false`
 >
->```}```
+>`}`
 >
 >Matches of the search can be found in the module's Output under Bundle > Body > entries.
 >

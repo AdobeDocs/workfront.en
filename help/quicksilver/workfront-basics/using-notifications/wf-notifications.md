@@ -58,7 +58,7 @@ For a complete list of what email notifications have been enabled for a daily di
 
 >[!NOTE]
 >
->Workfront does not send any Daily digest notifications for the Miscellaneous ```and Goals categories``` of events. You cannot disable the Daily notifications for ```these categories```.
+>Workfront does not send any Daily digest notifications for the Miscellaneous and Goals categories of events. You cannot disable the Daily notifications for these categories.
 
 There are several things to be aware of when receiving daily digest notifications:
 

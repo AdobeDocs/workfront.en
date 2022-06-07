@@ -36,7 +36,7 @@ For more information about how to enable user allocation options, see [Manage us
 
 ## Layout Template Determines Whether the New or&nbsp;Legacy Calendar Displays in the My Work Area
 
-```Preview Sandbox: Dec 7, 2016; Early Access: Dec 14, 2016```&nbsp;
+**Preview Sandbox: Dec 7, 2016; Early Access: Dec 14, 2016**&nbsp;
 
 The new calendar is displayed in the My Work area by default when no layout template is applied.
 
@@ -50,7 +50,7 @@ For more information about configuring the layout template, see [Create and mana
 
 ## Outlook 365 Beta
 
-```Beta: TBD; Public Availability: TBD```
+**Beta: TBD; Public Availability: TBD**
 
 You can use Workfront from Outlook for Office 365, as described in the following sections:
 
@@ -59,7 +59,7 @@ You can use Workfront from Outlook for Office 365, as described in the following
 
 ## Reorder Columns in Any List with Drag-and-Drop
 
-```Early Access: Feb 20, 2016```
+**Early Access: Feb 20, 2016**
 
 You can change the order of columns in any list by dragging a column from one location and dropping it in another.
 
@@ -75,7 +75,7 @@ For more information about dashboards, see [Create a dashboard](../../../../repo
 
 ## Control Access to Custom Forms
 
-```Preview Sandbox: Jan 23, 2016```
+**Preview Sandbox: Jan 23, 2016**
 
 You can now control who has access to a custom form by granting access to individual users, teams, roles, groups, or companies.&nbsp;
 
@@ -85,7 +85,7 @@ For more information, see [Create or edit a custom form](../../../../administrat
 
 ## Integration with Adobe Creative Cloud
 
-```Add-On available for download: April 2016```
+**Add-On available for download: April 2016**
 
 The Workfront Extension for&nbsp;Adobe Creative Cloud is designed to allow you to save and&nbsp;export assets you create&nbsp;in the Creative Cloud to Workfront, thereby&nbsp;speeding up the approval and review process.
 

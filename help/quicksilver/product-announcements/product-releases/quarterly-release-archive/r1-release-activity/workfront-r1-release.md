@@ -86,8 +86,8 @@ Workfront is an Enterprise Work Management solution that allows modern knowledge
 
 **FIND OUT MORE**
 
-* Download the R1 Datasheet here:&nbsp; [https://resources.w```<wbr>```orkfront.com/data-sheets/r1-re```<wbr>```lease-datasheet](https://resources.workfront.com/data-sheets/r1-release-datasheet)
-* Download the R1 Release FAQ here: [https://resources.w```<wbr>```orkfront.com/data-sheets/r1-fa```<wbr>```q-for-customers](https://resources.workfront.com/data-sheets/r1-faq-for-customers)
+* Download the R1 Datasheet here:&nbsp; [https://resources.workfront.com/data-sheets/r1-release-datasheet](https://resources.workfront.com/data-sheets/r1-release-datasheet)
+* Download the R1 Release FAQ here: [https://resources.workfront.com/data-sheets/r1-faq-for-customers](https://resources.workfront.com/data-sheets/r1-faq-for-customers)
 * For a complete list of improvements available in R1: [R1 release activity overview](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
 
 Workfront. Because Work Matters.

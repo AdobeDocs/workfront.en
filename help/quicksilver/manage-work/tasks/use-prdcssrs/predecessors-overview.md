@@ -19,7 +19,7 @@ A predecessor is the task another task (called a successor or dependent task) de
 
 Understanding predecessor functionality is important for understanding of the timelines in your projects.
 
-Predecessor relationships between ```tasks``` exist both within a single project and across multiple projects.
+Predecessor relationships between tasks exist both within a single project and across multiple projects.
 
 In the case of multi-project dependency, you can establish cross-project predecessors.
 

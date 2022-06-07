@@ -16,7 +16,7 @@ Use the Start No Earlier Than (SNET) Task Constraint to schedule a task to start
 Consider the following when using the Start No Earlier Than Task Constraint:
 
 * You should use the Start No Earlier Than constraint when the project is scheduled From Start Date. In this case, you can provide a soft constraint on a task before it forces other dependent tasks to show as At Risk.
-* Start No Earlier Than is the default constraint if a project is scheduled From Start Date and if the system ```or group``` default start date for a new task is set to Today. For information about configuring defaults for tasks, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Start No Earlier Than is the default constraint if a project is scheduled From Start Date and if the system or group default start date for a new task is set to Today. For information about configuring defaults for tasks, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 * If you schedule the project From Start Date and the system default start date for a new task is set to Based on the Project Planned Date, the default constraint for a new task is As Soon As Possible. 
 * If you schedule the project From Completion Date project and the system default start date for a new task is set to Today, then the Start No Earlier Than constraint schedules the task as it would an As Late As Possible task. 

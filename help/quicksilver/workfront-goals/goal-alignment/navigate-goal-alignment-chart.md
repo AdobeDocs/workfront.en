@@ -168,7 +168,7 @@ You must have the following before you can start:
    </table>
 
 1. Click a goal card to open the Goal&nbsp;Details panel and edit information about or check in on the goal. For information about editing existing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md). For information about checking in on goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
-1. Click the ```the upward-pointing arrow``` of the current-level goal to return to the previous level in the hierarchy of the chart.
+1. Click the the upward-pointing arrow of the current-level goal to return to the previous level in the hierarchy of the chart.
 
    Or
 
