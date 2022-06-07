@@ -5,7 +5,7 @@ draft: Probably
 ---
 # CloudConvert modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use CloudConvert, as well as connect it to to multiple third-party applications and services. The CloudConvert modules allow you to monitor and manage jobs, tasks, and import and export files in your CloudConvert account.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use CloudConvert, as well as connect it to multiple third-party applications and services. The CloudConvert modules allow you to monitor and manage jobs, tasks, and import and export files in your CloudConvert account.
 
 <table style="table-layout:auto">
  <col> 

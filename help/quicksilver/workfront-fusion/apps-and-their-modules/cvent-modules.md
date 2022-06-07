@@ -6,12 +6,12 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Cvent modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Cvent, as well as connect it to to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Cvent, as well as connect it to multiple third-party applications and services.
 ---
 
 # Cvent modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Cvent, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Cvent, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
