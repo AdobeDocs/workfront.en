@@ -672,7 +672,7 @@ To do it in one step, combine these functions:
 
 You can also copy it and paste it into the field. Replace `1.url` with the URL.
 
-`
+```
 {{replace(replace(1.url; "?dl=0"; ""); "www"; "dl")}}
-`
+```
 

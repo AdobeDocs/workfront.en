@@ -132,7 +132,7 @@ The following existing resources have been updated with this release of the Adob
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| <del>endorsementID</del>  |<del>endorsement</del>  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `endorsementID`  |`endorsement`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
@@ -286,7 +286,7 @@ Update
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| updateType¹ |<del>updateEndorsement</del>  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| updateType¹ |`updateEndorsement`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
@@ -306,8 +306,8 @@ Update
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| <del>endorsementID</del>  |<del>endorsement</del>  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| <del>endorsementShareID</del>  |<del>endorsementShare</del>  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `endorsementID`  |`endorsement`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `endorsementShareID`  |`endorsementShare`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | eventType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
