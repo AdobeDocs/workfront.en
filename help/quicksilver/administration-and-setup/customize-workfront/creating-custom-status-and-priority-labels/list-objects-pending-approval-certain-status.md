@@ -54,4 +54,4 @@ If you try to delete a status, an error message might tell you that it can't be 
    * [Access the list of system task statuses](task-statuses)
    * [Access the list of system issue statuses](issue-statuses)
 1. Click Save + Close to run the report and list any objects of the type you specified with approval processes in pending state based on the status you specified (Project, Task, or Issue).
-1. Repeat these steps to find the same information for the other two object types.
+1. Repeat these steps to find the same information for the other two object types. 
