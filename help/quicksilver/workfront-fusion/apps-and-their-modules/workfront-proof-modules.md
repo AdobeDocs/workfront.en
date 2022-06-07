@@ -6,12 +6,12 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Workfront Proof modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Workfront Proof, as well as connect it to to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Workfront Proof, as well as connect it to multiple third-party applications and services.
 ---
 
 # Workfront Proof modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Workfront Proof, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Workfront Proof, as well as connect it to multiple third-party applications and services.
 
 This is useful if you need to execute tasks currently not supported in proofing within Workfront or in Workfront Proof, such as updating proofs based on certain events and searching for a proof's recipients.
 

@@ -6,12 +6,12 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: GitHub modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use GitHub, as well as connect it to to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use GitHub, as well as connect it to multiple third-party applications and services.
 ---
 
 # GitHub modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use GitHub, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use GitHub, as well as connect it to multiple third-party applications and services.
 
 ## Access requirements
 

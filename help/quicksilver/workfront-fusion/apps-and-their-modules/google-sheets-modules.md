@@ -11,7 +11,7 @@ description: In order to use Google Sheets with Adobe Workfront Fusion,you need 
 
 # Google Sheets modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Google, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Google, as well as connect it to multiple third-party applications and services.
 
 For instructions about connecting your Google Sheets account to Workfront Fusion, see [Create a connection to Adobe Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 

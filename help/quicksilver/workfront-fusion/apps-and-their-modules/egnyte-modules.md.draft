@@ -6,13 +6,13 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Egnyte modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Egnyte, as well as connect it to to multiple third-party applications and services.This allows you to monitor, list, retrieve, upload, download, move, copy, lock, unlock, and delete files and folders, as well as create and manage links, or watch events in your Egnyte account.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Egnyte, as well as connect it to multiple third-party applications and services.This allows you to monitor, list, retrieve, upload, download, move, copy, lock, unlock, and delete files and folders, as well as create and manage links, or watch events in your Egnyte account.
 hidefromtoc: true
 ---
 
 # Egnyte modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Egnyte, as well as connect it to to multiple third-party applications and services.This allows you to monitor, list, retrieve, upload, download, move, copy, lock, unlock, and delete files and folders, as well as create and manage links, or watch events in your Egnyte account.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Egnyte, as well as connect it to multiple third-party applications and services.This allows you to monitor, list, retrieve, upload, download, move, copy, lock, unlock, and delete files and folders, as well as create and manage links, or watch events in your Egnyte account.
 
 ## File system modules
 

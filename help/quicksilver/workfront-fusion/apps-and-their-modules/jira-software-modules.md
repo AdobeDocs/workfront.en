@@ -1,11 +1,11 @@
 ---
 title: Jira Software modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Jira Software, as well as connect it to to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Jira Software, as well as connect it to multiple third-party applications and services.
 draft: Probably
 ---
 # Jira Software modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Jira Software, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Jira Software, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
