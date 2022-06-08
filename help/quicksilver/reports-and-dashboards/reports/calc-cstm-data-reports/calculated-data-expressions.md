@@ -86,6 +86,10 @@ The lists below define the available expressions you can use when you are buildi
 
 ### Date & time calculated custom fields {#date-time-calculated-custom-fields}
 
+>[!NOTE]
+>
+>If you create a date and time calculation that doesn’t include a time portion, or that uses the date wildcards $$TODAY or $$NOW, the system uses the date according to the Coordinated Universal Time (UTC) zone, not according your local timezone. This can cause an unexpected date result.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
