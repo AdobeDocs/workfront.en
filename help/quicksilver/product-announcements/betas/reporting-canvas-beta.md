@@ -106,7 +106,13 @@ In developing Reporting Canvas, we have radically redesigned some features—and
    <td>Table editing (column selected)</td> 
    <td>Released</td> 
   </tr> 
-  <tr> 
+   <tr> 
+   <td>External content</td> 
+   <td>External page</td> 
+   <td>Web content block</td> 
+   <td>Released</td> 
+  </tr> 
+   <tr> 
    <td>Exporting</td> 
    <td>Report actions</td> 
    <td><strong>More</strong> menu in viewer</td> 
@@ -123,12 +129,6 @@ In developing Reporting Canvas, we have radically redesigned some features—and
    <td>Text mode</td> 
    <td>Field builder</td> 
    <td>Partially Released</td> 
-  </tr> 
-  <tr> 
-   <td>External content</td> 
-   <td>External page</td> 
-   <td>Web content block</td> 
-   <td>Planned</td> 
   </tr> 
   <tr> 
    <td>Chart styling</td> 
