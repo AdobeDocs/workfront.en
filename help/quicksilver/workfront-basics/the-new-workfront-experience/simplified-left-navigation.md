@@ -2,42 +2,24 @@
 filename: simplified-left-navigation
 content-type: overview
 navigation-topic: the-new-workfront-experience
-title: Simplified left navigation in the new Adobe Workfront experience
+title: Left navigation in Adobe Workfront
 description: The left navigation panel in Workfront makes it easy to navigate through the system.
 ---
 
-# Simplified left navigation in the new Adobe Workfront experience
+# Left navigation in Adobe Workfront
 
-In the Classic version of Adobe Workfront the multi-level tabs make it sometimes difficult to navigate and require time-consuming clicks.
+Most areas and objects in WF use a simple navigation panel on the left side of the screen. The following are benefits of left panel navigation:
 
-We made several changes in the way information displays in the new Adobe Workfront experience. Some of the former tabs have been removed and some of them have been moved to a simpler, less-intrusive left navigation panel for several areas and objects.
+* It allows better management of screen space.
+* Your Workfront administrator can hide any section in the left panel except for the object's details using layout templates.
 
-For information about tabs that have been removed, see the article [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/subtabs-removed.md).
-
-## Benefits of the new left navigation
-
-Consider the following benefits of the new left panel navigation:
-
-* It is less intrusive and a better management of screen space.
-* Your Workfront administrator can hide any section in the left panel except for the object's Details using Layout Templates.
-
-  For information about using Layout Templates, see the article [Create and manage layout templates](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+  For information about using layout templates, see the article [Create and manage layout templates](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 * You can easily change the order of the sections in the left navigation without opening additional screens by dragging and dropping them in the order that you desire.
 
-  For more information, see the following section in this article: [Use the new left navigation panel](#use-the-new-left-navigation-panel).
+  For more information, see the following section in this article: [Use the left navigation panel](#use-the-left-navigation-panel).
 
-* You can customize the left panel by adding a custom section.
-
-## Left navigation panel replaced most tabs
-
-Currently, the information about an object displays in tabs under the object name in Workfront.
-
-![](assets/classic-tabs-on-projects-highlighted-350x145.png)
-
-In the new Adobe Workfront experience, this information displays under sections listed in a navigation panel to the left of the object.
-
-![Left navigation panel](assets/NWE-left-navigation-panel.png)
+* You can customize the left panel by adding a dashboard.
 
 ## Access requirements
 
@@ -64,7 +46,7 @@ You must have the following access to perform the steps in this article:
 
 ## Default sections in the left navigation panel {#default-sections-in-the-left-navigation-panel}
 
-You can access more information about objects or areas from the left panel for various objects or areas in the new Adobe Workfront experience.
+You can access more information about objects or areas from the left panel for various objects or areas in Adobe Workfront.
 
 Depending on the object or the area you've navigated to, the sections that appear in the left panel are different.
 
@@ -85,7 +67,7 @@ The left panel is available for the following objects:
 >[!IMPORTANT]
 >
 >If the left panel displays only one section by default—such as **All Projects** in the **Projects** area—a Workfront administrator must add at least one custom section to this area when building a Layout Template and assign you to that template before the left panel displays in that area.  
->For information about how a Workfront administrator customizes the left panel in a Layout Template, see [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>For information about how a Workfront administrator customizes the left panel in a layout template, see [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 The left panel is available for the following areas:
 
@@ -115,7 +97,7 @@ The following sections display in the left panel for the **Dashboards** area:
     </tr>
 </table>
 
-To learn how to use the left panel in the Dashboards area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
+To learn how to use the left panel in the Dashboards area, see the section [Use the left navigation panel](#use-the-left-navigation-panel) in this article.
 
 ### Default sections in the Requests area {#default-sections-in-the-requests-area}
 
@@ -130,7 +112,7 @@ To learn how to use the left panel in the Dashboards area, see the section [Use 
     </tr>
 </table>
 
-To learn how to use the left panel in the Requests area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
+To learn how to use the left panel in the Requests area, see the section [Use the left navigation panel](#use-the-left-navigation-panel) in this article.
 
 ### Default sections in the Resourcing area {#default-sections-in-the-resourcing-area}
 
@@ -159,7 +141,7 @@ The following sections display in the left panel for the **Resourcing** area:
  </tbody> 
 </table>
 
-To learn how to use the left panel in the Resourcing area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
+To learn how to use the left panel in the Resourcing area, see the section [Use the left navigation panel](#use-the-left-navigation-panel) in this article.
 
 ### Default sections in the Projects area {#default-sections-in-the-projects-area}
 
@@ -176,7 +158,7 @@ The following sections display in the left panel for the **Projects** area:
     </tr>
 </table>
 
-To learn how to use the left panel in the Projects area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
+To learn how to use the left panel in the Projects area, see the section [Use the left navigation panel](#use-the-left-navigation-panel) in this article.
 
 ### Default sections in the Timesheets area {#default-sections-in-the-timesheets-area}
 
@@ -197,9 +179,9 @@ The following sections display in the left panel for the **Timesheets** area:
     </tr>
 </table>
 
-To learn how to use the left panel in the Timesheets area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
+To learn how to use the left panel in the Timesheets area, see the section [Use the left navigation panel](#use-the-left-navigation-panel) in this article.
 
-### Default sections in the Goals area
+### Default sections in the Goals area {#default-sections-in-the-goals-area}
 
 >[!NOTE]
 >
@@ -230,9 +212,9 @@ The following sections display in the left panel for the **Goals** area:
     </tr>
 </table>
 
-To learn how to use the left panel in the Goals area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
+To learn how to use the left panel in the Goals area, see the section [Use the left navigation panel](#use-the-left-navigation-panel) in this article.
 
-## Use the new left navigation panel {#use-the-new-left-navigation-panel}
+## Use the left navigation panel {#use-the-left-navigation-panel}
 
 Finding and editing information in the left panel is similar for these objects. The options available in the left panel are different depending on what object you access.
 
@@ -252,7 +234,7 @@ To learn what sections are available for specific areas, see [Default sections i
 
    You must have permissions to edit the object before you can edit the information.
 
-   ![Left panel sections](assets/left-panel-sections.png)
+   ![Left panel sections](assets/NWE-left-navigation-panel.png)
 
 1. (Optional) Click **Show More** at the bottom of the left panel to display more sections.
 
@@ -260,7 +242,7 @@ To learn what sections are available for specific areas, see [Default sections i
    >
    >This option is not available if all sections display in the left panel by default.
 
-1. (Optional) At the bottom of the left panel, click **Add Dashboard** to add a dashboard quick link, then do the following:
+1. (Optional) To add a dashboard quick link, click **Add Dashboard** at the bottom of the left panel, then do the following:
 
    1. Type a name for the dashboard in the **Quick link name** field.
    1. Start typing the name of an existing dashboard in the **Choose a Dashboard** field, then click the dashboard when it displays in the list.
