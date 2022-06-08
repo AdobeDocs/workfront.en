@@ -17,7 +17,7 @@ You can search for Workfront items in any Adobe WorkfrontWorkfront channel in Mi
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

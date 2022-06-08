@@ -14,7 +14,7 @@ You can use conditional formatting to compare 2 different fields in a view and h
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

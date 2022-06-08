@@ -26,7 +26,7 @@ Consider the following when deleting filters:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -78,6 +78,8 @@ Deleting filters is possible only when the following conditions are met:
    |---|---|
    | Suggested |Filters that the Workfront administrator adds to your list of filters, either at the system level, or in your Layout Template.  |
    | Shared with me |Filters that others create and share with you or that are shared system-wide. |
+
+   {style="table-layout:auto"}
 
 1. Hover over a filter that you have permissions to manage, then click the **More** menu ![](assets/more-menu.png), then click&nbsp;**Delete**.
 

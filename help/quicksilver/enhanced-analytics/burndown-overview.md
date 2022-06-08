@@ -50,7 +50,7 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -116,7 +116,7 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
    >   
    >
 
-1. (Optional) Change the view from ```planned hours``` to **duration**.
+1. (Optional) Change the view from planned hours to **duration**.
 
    Planned hours is selected by default.
 

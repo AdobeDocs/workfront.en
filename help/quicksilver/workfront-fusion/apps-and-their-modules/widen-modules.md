@@ -5,7 +5,7 @@ draft: Probably
 ---
 # Widen modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Widen, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Widen, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -15,7 +15,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -82,7 +82,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when an asset is created or updated.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -125,7 +125,7 @@ This action module lets you make a custom authenticated call to the Widen API. T
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -167,7 +167,7 @@ When you are configuring this module, the following fields display.
 
 This action module retrieves an individual asset by its unique ID.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -194,7 +194,7 @@ This action module retrieves an individual asset by its unique ID.
 
 This action module adds one or more assets to collections.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -231,7 +231,7 @@ This action module adds one or more assets to collections.
 
 This action module removes one or more assets from collections.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -268,7 +268,7 @@ This action module removes one or more assets from collections.
 
 This action module updates the metadata fields of an asset.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -299,7 +299,7 @@ This action module updates the metadata fields of an asset.
 
 This action module downloads an asset from your Widen account.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -318,7 +318,7 @@ This action module downloads an asset from your Widen account.
 
 This action module uploads a file into your Widen account.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -362,7 +362,7 @@ This action module uploads a file into your Widen account.
 
 This action module retrieves a list of assets within a collection.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -401,7 +401,7 @@ This action module retrieves a list of assets within a collection.
 
 This search module retrieves a list of assets that match the specific search criteria.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -14,7 +14,7 @@ You can download documents from Adobe Workfront either individually or in bulk. 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

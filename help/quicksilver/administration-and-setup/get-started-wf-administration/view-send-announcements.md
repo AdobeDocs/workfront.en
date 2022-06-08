@@ -82,6 +82,8 @@ You can easily forward messages that you receive from Workfront to users in your
    | Type message here |Specify the content of your message. The message editor enables you to include common markup, including bold, italics, underline, bulleted and numbered lists, and hyperlinks. |
    | Attachments |Click**Add Attachment,** then browse to and select the file you want to attach to the message. |
 
+   {style="table-layout:auto"}
+
 1. (Optional) Click **Save As Draft** to save the message (including the recipient list, subject, and attachments) as a draft.  
 
 1. (Optional) To view a draft, in the **Announcements** area, click **Drafts**.

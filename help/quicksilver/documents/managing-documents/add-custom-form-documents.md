@@ -14,7 +14,7 @@ You can add a custom form to a document or to a document version to capture addi
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

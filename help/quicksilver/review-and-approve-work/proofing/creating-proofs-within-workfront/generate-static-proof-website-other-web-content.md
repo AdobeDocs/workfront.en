@@ -16,7 +16,7 @@ Consider the following when creating static proofs for a website or other web co
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -75,7 +75,7 @@ To create a static proof, the website needs to be publicly accessible (not behin
 1. (Optional) If you want to change the name of the proof from the website URL to something else, type a&nbsp;**Proof name.**
 1. Make sure&nbsp;**Capture screenshot**&nbsp;is selected and use any of the following options:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

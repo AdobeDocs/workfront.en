@@ -92,7 +92,7 @@ Workfront uses two variables to decide what Task Constraint is selected by defau
 
   For information about the Project Schedule From field, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-* The **Start Date** preference configured by your Workfront ```or group administrator``` in the **Tasks & Issues** area of **Setup**.
+* The **Start Date** preference configured by your Workfront or group administrator in the **Tasks & Issues** area of **Setup**.
 
   For information about Tasks & Issues Preferences, see the "New Task Defaults" section in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

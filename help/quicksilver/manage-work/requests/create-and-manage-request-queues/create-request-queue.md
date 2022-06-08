@@ -18,7 +18,7 @@ You can set up a Request Queue where users can enter occasional requests that ar
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -49,7 +49,7 @@ You set up a request queue as a project. When you designate the project as a Req
 
 This article describes how to create a request queue from an existing project. However, to build consistency for your request intake process or to add multiple layers to it for reporting purposes and better management, you can also configure additional building blocks of a request queue which are described in the following table. 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -98,6 +98,8 @@ To create a Request Queue:
      | People with view access to this project |Users with View permissions to the project can view and add requests to this queue |
      | People in this project's company |Users who belong to the company associated with this project can view and add requests to this queue. If there is a company associated with the project, the name of the company is listed in parentheses after this setting.  |
      | People in this project's group |Users who belong to the group associated with this project can view and add requests to this queue. If there is a group associated with the project, the name of the group is listed in parentheses after this setting.  |
+
+     {style="table-layout:auto"}
 
    * **Share with these links:** The following options enable you to provide direct access to the Request Queue and the forms associated with it to users outside of Workfront or to Workfront users using an external page. For information about embedding a request queue in a dashboard as an external page, see [Embed a request queue in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
@@ -215,7 +217,7 @@ To create a Request Queue:
    
    * **Documents**: If you select to display the Documents section in the new request form, select where the document uploading section should be positioned. Select from the following:
 
-     <table> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -238,6 +240,8 @@ To create a Request Queue:
      |---|---|
      | People with view access to this project (Plan License) |Those users with a Plan license that also have View rights to this project can see the selected as well as the unselected fields. The rest of the users who can submit requests to this project can see just the selected fields. |
      | No Users |No users can see the unselected fields. All users who can submit requests to this project can only see the fields selected.  |
+
+     {style="table-layout:auto"}
 
    * **Custom Forms**: Select a custom form to associate with the Request Queue. Only Issue Custom Forms are available to select from this drop-down menu. All issues submitted to the Request Queue will have the selected forms associated with them.  
      If you have multiple Queue Topics associated with a Request Queue, we recommend that you associate custom forms with the Queue Topics instead. For more information about creating sub-sections for the Request Queue, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

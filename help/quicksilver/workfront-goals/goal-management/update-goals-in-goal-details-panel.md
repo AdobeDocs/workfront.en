@@ -14,7 +14,7 @@ You can update information for individual goals by accessing the Goal Details pa
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -133,6 +133,8 @@ You can access an individual goal which opens the Goal Details panel of the goal
    |---|---|
    | Comments |Displays comments made by users on the goal.  |
    | Editing History |Displays information about creating and updating the goal, results, and activities.  |
+
+   {style="table-layout:auto"}
 
 1. (Optional)&nbsp;Click **Details** under a progress or an editing history update to display additional information about the update.
 

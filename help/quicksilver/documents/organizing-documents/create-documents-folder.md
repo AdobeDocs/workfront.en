@@ -18,7 +18,7 @@ Documents can be organized into folders. You can create personal folders in your
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

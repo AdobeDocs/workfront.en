@@ -52,10 +52,11 @@ For more information about creating users, see the article [Add users](../../../
 
 ### Job Role Billing Rates {#job-role-billing-rates}
 
-As an Adobe Workfront administrator, when you create a job role, you can associate it with a Billing Rate by specifying a value for the ```Billing/ Hour``` field.
+As an Adobe Workfront administrator, when you create a job role, you can associate it with a Billing Rate by specifying a value for the Billing/ Hour field.
 
-You can define the value of a job role billing rate using the Base Currency of your Workfront system ```or using another custom currency```.   
-For more information about creating job roles ```and overriding their currency```, see the article [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
+You can define the value of a job role billing rate using the Base Currency of your Workfront system or using another custom currency.
+
+For more information about creating job roles and overriding their currency, see the article [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
 
 ![](assets/billing-rate-for-role-1-350x294.png)
 
@@ -92,7 +93,7 @@ It can also track Actual Revenue automatically when Actual Hours are logged on t
 
 There following table shows the types of revenue associated with tasks, issues, and projects. 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -134,7 +135,7 @@ You can also mark your tasks as "Not Billable", in which case there is no Planne
 
 ## Overview of task Revenue Types {#overview-of-task-revenue-types}
 
-By default, the Revenue Type of all new tasks is set according to the Task & Issue Preferences specified by your Workfront ```or group administrator```.  
+By default, the Revenue Type of all new tasks is set according to the Task & Issue Preferences specified by your Workfront or group administrator.  
 For more information about defining the task and issue preferences for your Workfront instance, see the article [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 The Project Owner can modify the Revenue Type of tasks and the Fixed Revenue for projects.   
@@ -228,7 +229,7 @@ The following scenarios exist when calculating task revenue based on the Revenue
 
 * **The Revenue Type of the task is User Hourly** 
 
-  <table> 
+  <table style="table-layout:auto"> 
    <col> 
    <col> 
    <col> 
@@ -257,7 +258,7 @@ The following scenarios exist when calculating task revenue based on the Revenue
 
 * **The Revenue Type of the task is Role Hourly** 
 
-  <table> 
+  <table style="table-layout:auto"> 
    <col> 
    <col> 
    <col> 
@@ -287,7 +288,7 @@ The following scenarios exist when calculating task revenue based on the Revenue
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>Ideal table but does not come across Markdown</p>
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <col>

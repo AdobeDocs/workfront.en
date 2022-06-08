@@ -20,7 +20,7 @@ As part of creating a Business Case, you can create a set of goals to define the
 Consider the following when creating Business Case goals for your projects:
 
 * Business Case goals are project-specific. You cannot copy goals from one project to another, nor establish goals at the system level. They must be defined at the level of each project. 
-* Your Adobe Workfront administrator ```or group administrator``` must enable the Goals section for your projects before it displays in the Business Case of your projects. For information about enabling Business Case fields for projects, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Your Adobe Workfront administrator or group administrator must enable the Goals section for your projects before it displays in the Business Case of your projects. For information about enabling Business Case fields for projects, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Goals are not a mandatory section in the Business Case of a project.
 
@@ -34,7 +34,7 @@ Consider the following when creating Business Case goals for your projects:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

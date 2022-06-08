@@ -5,7 +5,7 @@ draft: Probably
 ---
 # MailChimp modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use MailChimp, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use MailChimp, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -15,7 +15,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -63,7 +63,7 @@ Before you can use the MailChimp connector, you must ensure that the following p
 
 #### Create a campaign
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -134,7 +134,7 @@ Before you can use the MailChimp connector, you must ensure that the following p
 
 This action module deletes a single campaign from MailChimp.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -155,7 +155,7 @@ This action module deletes a single campaign from MailChimp.
 
 This action module edits a defined content area of a custom HTML template.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -190,7 +190,7 @@ This action module edits a defined content area of a custom HTML template.
 
 This action module gets metadata of a specified campaign
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -209,7 +209,7 @@ This action module gets metadata of a specified campaign
 
 This action module gets a campaign report for the specified campaign.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -228,7 +228,7 @@ This action module gets a campaign report for the specified campaign.
 
 This action module performs a single campaign action.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -262,7 +262,7 @@ This action module performs a single campaign action.
 
 This search module searches for campaigns based on text you specify.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -285,7 +285,7 @@ This search module searches for campaigns based on text you specify.
 
 This action module updates a single campaign.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -360,7 +360,7 @@ This action module updates a single campaign.
 
 This trigger module starts a scenario when a new campaign is created or sent.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -412,7 +412,7 @@ This trigger module starts a scenario when a new campaign is created or sent.
 
 This action module adds or changes a contact's details.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -487,7 +487,7 @@ This action module adds or changes a contact's details.
 
 This action module archives or permanently deletes a subscriber.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -514,7 +514,7 @@ This action module archives or permanently deletes a subscriber.
 
 This action module edits an existing subscriber.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -589,7 +589,7 @@ This action module edits an existing subscriber.
 
 This action module gets metadata of a subscriber by email.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -612,7 +612,7 @@ This action module gets metadata of a subscriber by email.
 
 This search module searches for subscribers based on criteria you select.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -687,7 +687,7 @@ This search module searches for subscribers based on criteria you select.
 
 This trigger module starts a scenario when a new subscriber joins a list.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -730,7 +730,7 @@ This trigger module starts a scenario when a new subscriber joins a list.
 
 This trigger module starts a scenario when a subscriber unsubscribes from a campaign.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -13,7 +13,7 @@ hidefromtoc: true
 # Airtable modules
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Airtable, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Airtable, as well as connect it to multiple third-party applications and services.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see the tutorial .</p>
@@ -51,7 +51,7 @@ The module returns any standard fields associated with the record, along with an
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -103,7 +103,7 @@ The module returns the ID of the  record and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -126,7 +126,7 @@ When you are configuring this module, the following fields display.
 
 This action module retrieves record details.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -157,7 +157,7 @@ You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -198,7 +198,7 @@ The module returns any standard fields associated with the record, along with an
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -254,7 +254,7 @@ This trigger module executes a scenario when a new record is added or updated in
 >
 >In order to use this module, the Created Time field must be created in your table.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

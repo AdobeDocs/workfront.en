@@ -90,7 +90,7 @@ For information about creating a system-level approval process or a group-level 
 
   >[!NOTE]
   >
-  >You can use a single-use approval process only once for the specific item for which it was created. You can associate global statuses as well as ```group-level statuses``` for single-use approval processes for projects, tasks, issues, ```templates, and template tasks```.
+  >You can use a single-use approval process only once for the specific item for which it was created. You can associate global statuses as well as group-level statuses for single-use approval processes for projects, tasks, issues, templates, and template tasks.
 
 * When attaching a group-level approval process to an item using group-level custom statuses, changing the Group of the project might create a conflict between the approval statuses of the previous group and those existing at the system level. Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group. For information about creating group-level approval processes, see [Group-level approval processes](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md). For information about creating custom group statuses, see [Create or edit a group status](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md). For information about updating the Group of a project, see [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 

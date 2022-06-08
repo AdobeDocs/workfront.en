@@ -64,9 +64,9 @@ Some changes you make to a recurring task parent might not update on all existin
 
 The following table illustrates whether changes made to the parent trigger updates on the children that have not been individually edited or show progress:
 
-| ```Fields updated on the parent task```  |Updates transfer to unedited children or children with no progress recorded |
+| Fields updated on the parent task  |Updates transfer to unedited children or children with no progress recorded |
 |---|---|
-| ```Recurrence Frequency*```  |✔ |
+| Recurrence Frequency*  |✔ |
 | Assignments&#42;&#42; | ✔ |
 | Name | ✔ |
 | Description | ✔ |
@@ -81,6 +81,8 @@ The following table illustrates whether changes made to the parent trigger updat
 | Attach or remove Custom&nbsp;Forms |Does not update the children |
 | Duration&nbsp;Type |Does not update the children |
 | Custom&nbsp;Form information |Does not update the children |
+
+{style="table-layout:auto"}
 
 &#42; The following scenarios exist when you update the&nbsp;Recurrence Frequency of a parent task:
 

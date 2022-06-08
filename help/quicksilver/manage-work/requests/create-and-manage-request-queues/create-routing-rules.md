@@ -16,7 +16,7 @@ Routing Rules send issues to specific users or job roles best equipped&nbsp;to r
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -48,7 +48,7 @@ You must have the following:
 1. Click **New Routing Rules**&nbsp;to add the new rule.&nbsp; 
 1. Specify the following information for the Routing Rule:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <thead> 
@@ -83,7 +83,7 @@ You must have the following:
 
    >[!NOTE]
    >
-   >&#42;If a user, ```job role```, or team are deactivated after they are associated with a routing rule, the requests continue to be routed to them. You must periodically take an inventory of all routing rules and replace deactivated assignments with active ones.
+   >&#42;If a user, job role, or team are deactivated after they are associated with a routing rule, the requests continue to be routed to them. You must periodically take an inventory of all routing rules and replace deactivated assignments with active ones.
 
    When you route an issue to a project, users with permissions on the issue receive the permissions set on that project. For information about setting permissions on projects, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 

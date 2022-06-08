@@ -20,7 +20,7 @@ Automatic timeline recalculation happens without special access for any of the u
 
 However, you must have the following access to manually recalculate the timeline of a project: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -126,9 +126,9 @@ As a project owner, you can manually recalculate the timelines for individual pr
 * [Manually recalculate timelines in bulk in the Edit Projects box](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box) 
 * [Recalculate timelines for all projects in the system (Workfront administrators only)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
 
-### Recalculate timelines for individual projects ```or in bulk``` {#recalculate-timelines-for-individual-projects-or-in-bulk}
+### Recalculate timelines for individual projects or in bulk {#recalculate-timelines-for-individual-projects-or-in-bulk}
 
-You can recalculate the timeline of a project in Workfront from the project page ```or from a project list or report```.
+You can recalculate the timeline of a project in Workfront from the project page or from a project list or report.
 
 1. Go to the project for which you want to recalculate the timeline and click the **More** icon ![](assets/qs-more-menu.png) to the left of the project name
 

@@ -21,7 +21,7 @@ You can also budget resources in the business case using the Adobe Workfront Sce
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

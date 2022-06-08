@@ -13,7 +13,7 @@ You can use the Business Case to request a project and define the purpose, the b
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -42,7 +42,7 @@ You must have the following:
 
 Consider the following when requesting a project through a Business Case:
 
-* Your Adobe Workfront administrator ```or group administrator``` must enable the sections of the Business Case before they appear on your project.  
+* Your Adobe Workfront administrator or group administrator must enable the sections of the Business Case before they appear on your project.  
   For information about enabling the sections in the Business Case at the system level, see the article [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   For information about the areas of the Business Case, see the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).

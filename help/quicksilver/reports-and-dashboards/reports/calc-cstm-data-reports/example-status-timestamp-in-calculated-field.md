@@ -19,7 +19,7 @@ The following calculated field displays the date when the object status is marke
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <caption style="text-align: left;"> 
   <p>*To find out what plan, license type, or access you have, contact your Workfront administrator.</p> 
  </caption> 

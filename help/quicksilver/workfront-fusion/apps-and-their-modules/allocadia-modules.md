@@ -6,12 +6,12 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Allocadia modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Allocadia, as well as connect it to to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Allocadia, as well as connect it to multiple third-party applications and services.
 ---
 
 # Allocadia modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Allocadia, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Allocadia, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -40,16 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -90,8 +81,7 @@ This trigger module executes a scenario when objects of a specific type are adde
 
 When you are configuring this module, the following fields display.
 
-<table> 
- <col> 
+<table style="table-layout:auto"> <table style="table-layout:auto"> <col> 
  <col> 
  <tbody> 
   <tr> 
@@ -133,7 +123,7 @@ The action is based on the entity type (Allocadia object type) you specify.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -177,7 +167,7 @@ The module returns any standard fields associated with the record, along with an
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -204,13 +194,11 @@ When you are configuring this module, the following fields display.
 
 This action module creates a record.
 
-You specify the ID of the record.
-
 The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -247,7 +235,7 @@ The module returns the ID of the  record and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -277,7 +265,7 @@ The module returns the ID of the  record and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -308,7 +296,7 @@ You specify the type of the records you want.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 

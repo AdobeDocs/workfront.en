@@ -17,7 +17,7 @@ hidefromtoc: true
 -->
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
-In an Adobe Workfront Fusion scenario, you can automate workflows that use [Fusion app], as well as connect it to to multiple third-party applications and services.This allows you to download emails via IMAP, send emails via SMTP, create new drafts, move and copy emails from one folder to another folder, mark emails as read or unread, and delete emails.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use [Fusion app], as well as connect it to multiple third-party applications and services.This allows you to download emails via IMAP, send emails via SMTP, create new drafts, move and copy emails from one folder to another folder, mark emails as read or unread, and delete emails.
 
 ## Connect your email to Workfront Fusion
 

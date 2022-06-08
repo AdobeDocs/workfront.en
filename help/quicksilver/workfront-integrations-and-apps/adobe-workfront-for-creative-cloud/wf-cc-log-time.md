@@ -14,7 +14,7 @@ You can log time for projects, tasks, and issues you're working on directly in P
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -15,7 +15,7 @@ For more information about creating Custom Forms, see the article [Create or edi
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

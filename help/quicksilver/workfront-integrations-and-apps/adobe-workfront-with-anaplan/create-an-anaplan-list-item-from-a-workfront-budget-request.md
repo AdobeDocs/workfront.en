@@ -14,7 +14,7 @@ This integration scenario links an Adobe Workfront project (campaign) with an An
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -66,7 +66,7 @@ You must have the following in Workfront to use this scenario:
 
   The following required fields must be included on the custom form to aid in data mapping to Anaplan:
 
-  <table> 
+  <table style="table-layout:auto"> 
    <col> 
    </col> 
    <col> 
@@ -104,7 +104,7 @@ You must have the following in Workfront to use this scenario:
 
   This form must contain the following fields:
 
-  <table> 
+  <table style="table-layout:auto"> 
    <col> 
    </col> 
    <col> 
@@ -175,6 +175,8 @@ Complete the following steps to deploy this integration scenario to your Fusion 
    | Anaplan Model ID  |The ID of a model from your Anaplan account and the selected workspace. |
    | Anaplan Module Name |The name of the module that describes the campaign attributes in the selected Anaplan List. |
    | Campaign List Name |The name of the list from your Anaplan account and the selected workspace & model. |
+
+   {style="table-layout:auto"}
 
    Details on how to set up the files and processes are provided in the Anaplan setup documentation.
 

@@ -6,12 +6,12 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft OneDrive modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use OneDrive, as well as connect it to to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use OneDrive, as well as connect it to multiple third-party applications and services.
 ---
 
 # Microsoft OneDrive modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use OneDrive, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use OneDrive, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -40,16 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -93,9 +84,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when a file or folder is created or updated.
 
-&nbsp;
-
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -142,7 +131,7 @@ This trigger module starts a scenario when a file or folder is created or update
 
 This search module returns files and folders based on criteria you set.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -179,7 +168,7 @@ This search module returns files and folders based on criteria you set.
 
 This action module gets the metadata of a specified file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -227,7 +216,7 @@ This action module gets the metadata of a specified file.
 
 This action module downloads the specified file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -271,7 +260,7 @@ This action module downloads the specified file.
   <tr> 
    <td role="rowheader">Convert to PDF</td> 
    <td> <p>Enable this option to convert the file to a PDF file. You can convert from the following file types:</p> 
-    <table> 
+    <table style="table-layout:auto"> 
      <col> 
      <col> 
      <col> 
@@ -315,7 +304,7 @@ This action module downloads the specified file.
 
 This action module uploads a file to the specified folder.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -363,7 +352,7 @@ This action module uploads a file to the specified folder.
 
 This action module creates a new folder in the specified drive.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -407,7 +396,7 @@ This action module creates a new folder in the specified drive.
 
 This action module returns a share link for the specified file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -463,16 +452,13 @@ This action module returns a share link for the specified file.
 
 This action module moves a file or folder to a new folder location
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
    <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader" colspan="2">From</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Enter (File ID &amp; File Path)</td> 
@@ -512,9 +498,6 @@ This action module moves a file or folder to a new folder location
    <td> <p>If you selected Enter Manually, enter or map the ID&nbsp;or path of the file or folder that you want to move.</p> <p>If you selected Select from the list, select the file or folder that you want to move.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader" colspan="2">To</td> 
-  </tr> 
-  <tr> 
    <td role="rowheader">Enter a New Folder Location</td> 
    <td> <p>Select how you want to enter the location that you want to move the file or folder to:</p> 
     <ul> 
@@ -550,16 +533,13 @@ This action module moves a file or folder to a new folder location
 
 This action module copies a file into a new folder location
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
    <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader" colspan="2">From</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Enter (File ID &amp; File Path)</td> 
@@ -593,9 +573,6 @@ This action module copies a file into a new folder location
   <tr> 
    <td role="rowheader"> <p role="rowheader">File / File ID / File Path</p> </td> 
    <td> <p>If you selected Enter Manually, enter or map the ID&nbsp;or path of the file that you want to copy.</p> <p>If you selected Select from the list, select the file that you want to copy.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader" colspan="2">To</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Enter a New Folder Location</td> 
@@ -637,7 +614,7 @@ This action module copies a file into a new folder location
 
 This action module deletes the selected file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -691,7 +668,7 @@ This action module deletes the selected file.
 
 This module performs a custom API call.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

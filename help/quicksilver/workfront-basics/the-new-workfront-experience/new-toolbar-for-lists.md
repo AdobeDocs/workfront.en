@@ -14,7 +14,7 @@ The toolbar that displays above select lists in the new Adobe Workfront experien
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -92,7 +92,7 @@ In the new Adobe Workfront experience, most menus and links have been replaced w
 
 The following table lists many of the icons in the new toolbar and indicates what happens after you click them:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

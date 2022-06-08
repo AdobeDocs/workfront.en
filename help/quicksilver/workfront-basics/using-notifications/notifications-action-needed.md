@@ -12,7 +12,7 @@ The following notifications let you know if you need to take action on a work it
 
 See also [Event notifications](../../workfront-basics/using-notifications/event-notifications.md).
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

@@ -16,7 +16,7 @@ For information about editing an individual issue, see [Edit issues](../../../ma
 
 You must have the following access to perform the actions in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -73,7 +73,7 @@ To inline edit an issue:
    * Click the **More menu** ![](assets/more-icon-task-list.png) to the right of the issue name, then click **Open in a new tab**. This opens the issue page in a new tab. Click&nbsp;**More** > **Edit** from the issue page. 
    * Click the **More menu** ![](assets/more-icon-task-list.png) to the right of the issue name, then click **Edit**.
 
-     ```Any of these actions opens the Edit Issue box.```
+     Any of these actions opens the Edit Issue box.
 
      For information about editing issues in the Edit Issue box, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
 
@@ -93,11 +93,13 @@ You can edit an issue in a list using the Summary.
 1. (Optional) Start typing an update for the issue in the **Updates** area. 
 1. Click any of the following icons or areas to go to the issue and edit information at the issue level:
 
-   | ```Documents```  |Click **Click here to add** to add documents to the issue. |
+   | Documents  |Click **Click here to add** to add documents to the issue. |
    |---|---|
-   | ```Details```  |Click to update information about the issue. |
-   | ```Hours```  |Click to log hours. |
-   | ```Approvals```  |Click to add issue approvals.  |
+   | Details  |Click to update information about the issue. |
+   | Hours  |Click to log hours. |
+   | Approvals  |Click to add issue approvals.  |
+
+   {style="table-layout:auto"}
 
 1. (Optional) Click the **Open Summary** icon again, or the **X icon** in the upper-right of the Summary to close the panel and edit the issue inline.
 

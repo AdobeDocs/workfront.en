@@ -5,13 +5,13 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: Microsoft OneDrive for Business
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft OneDrive for Business, as well as connect it to to multiple third-party applications and services.
+title: Microsoft OneDrive for Business modules
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft OneDrive for Business, as well as connect it to multiple third-party applications and services.
 ---
 
-# Microsoft OneDrive for Business
+# Microsoft OneDrive for Business modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft OneDrive for Business, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft OneDrive for Business, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -40,16 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -83,7 +74,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module activates when a new file is added or updated in a folder being watched.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -114,7 +105,7 @@ This trigger module activates when a new file is added or updated in a folder be
 
 This trigger module activates when a new folder is added to the folder being watched.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -154,7 +145,7 @@ This trigger module activates when a new folder is added to the folder being wat
 
 This action module uploads a binary or text file to a specified folder
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -196,7 +187,7 @@ This action module uploads a binary or text file to a specified folder
 
 This action module moves the specified file to the recycle bin.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -223,7 +214,7 @@ This action module moves the specified file to the recycle bin.
 
 This action module retrieves the file with the given ID.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -250,7 +241,7 @@ This action module retrieves the file with the given ID.
 
 Creates a folder inside the specified parent folder.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -280,7 +271,7 @@ Creates a folder inside the specified parent folder.
 
 #### Delete a folder {#delete-a-folder}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -307,7 +298,7 @@ Creates a folder inside the specified parent folder.
 
 This module retrieves a link that you can share to give access to the specified file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

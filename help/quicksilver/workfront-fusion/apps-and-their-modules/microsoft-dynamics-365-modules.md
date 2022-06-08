@@ -6,12 +6,12 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Dynamics 365 modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Dynamics 365, as well as connect it to to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Dynamics 365, as well as connect it to multiple third-party applications and services.
 ---
 
 # Microsoft Dynamics 365 modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Dynamics 365, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Dynamics 365, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -40,16 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr>
  </tbody> 
 </table>
 
@@ -67,25 +58,14 @@ You can create a connection to your Microsoft Dynamics 365 account directly from
 
 1. In any Microsoft Dynamics 365 module, click **Add** next to the Connection field.
 1. Enter a name for the connection.
-1. In the **Resource** field, enter the address of your Dynamics 365 account, without 
-
-   ```
-   https://
-   ```
-
-   .
+1. In the **Resource** field, enter the address of your Dynamics 365 account, without `https://`.
 1. Click **Continue** to create the connection and go back to the module.
 
 >[!NOTE]
 >
 >When registering Workfront Fusion in your Microsoft Azure portal, use the following redirect URI:
 >
->* >
->  ```>
->  https://app.workfrontfusion.com/oauth/cb/workfront-microsoft-dynamics2
->  ```>
-
-&nbsp;
+>* `https://app.workfrontfusion.com/oauth/cb/workfront-microsoft-dynamics2`&nbsp;
 
 ## Microsoft Dynamics 365 modules and their fields
 
@@ -114,7 +94,7 @@ This happens on a regularly scheduled interval that you specify.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -147,7 +127,7 @@ This instant trigger module executes a scenario when a record (object) you speci
 
 A webhook is required in this module.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -174,7 +154,7 @@ The module returns the ID of the new entity and any associated fields, along wit
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -203,7 +183,7 @@ To learn more, see the Microsoft documentation about using the Dynamics 365 Cust
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -247,7 +227,7 @@ The module returns the ID of the  entity and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -276,7 +256,7 @@ The module returns the ID of the entity and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -309,7 +289,7 @@ The module returns the ID of the updated record and any associated fields, along
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -338,7 +318,7 @@ This search module looks for records in an object in Microsoft Dynamics 365 that
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

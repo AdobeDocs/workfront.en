@@ -21,7 +21,7 @@ Each grouping shows projects with an Entry Date within:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

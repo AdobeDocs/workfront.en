@@ -86,7 +86,7 @@ Workfront Proof enables you to create proofs from documents or websites, and sha
 
 1. Select any of the following proof settings:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -182,7 +182,7 @@ To generate a proof for a URL:
 
 1. Select **Handle site contents** options:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -228,7 +228,7 @@ For more information about Interactive content, see [Interactive content proofs 
 
 ### **Add interactive content as a URL** {#add-interactive-content-as-a-url}
 
-```For information about how to add an interactive URL proof, see  [Generate a proof for a URL](#generate-a-proof-for-a-url)```.
+For information about how to add an interactive URL proof, see  [Generate a proof for a URL](#generate-a-proof-for-a-url).
 
 ### **Add interactive content as a ZIP file** {#add-interactive-content-as-a-zip-file}
 

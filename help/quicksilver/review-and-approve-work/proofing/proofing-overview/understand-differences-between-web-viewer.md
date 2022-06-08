@@ -39,6 +39,8 @@ The following list can help you understand what Proofing Viewer you can use to p
 | Post comment on multiple pages |✓&nbsp;(available on all views) | ✓&#42; (available on all views) |
 | Advanced static proof shortcuts |✓&nbsp;(for more information, see [Keyboard shortcuts in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |✓&#42;(for more information, see [Keyboard shortcuts in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
+{style="table-layout:auto"}
+
 &#42; This functionality works only if your Workfront administrator has configured the Desktop Proofing Viewer as the default viewer for all proofs.
 
 ## Video proofs
@@ -56,6 +58,8 @@ The following list can help you understand what Proofing Viewer you can use to p
 | Loop video proofs (videos finish and start automatically) |✓ | ✓&#42;&nbsp; |
 | Advanced video shortcuts |✓&nbsp;(for more information, see [Keyboard shortcuts in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;&nbsp; |
 
+{style="table-layout:auto"}
+
 &#42; This functionality works only if the Desktop Proofing Viewer is configured as the default viewer for all proofs.
 
 ## Interactive proofs
@@ -69,9 +73,11 @@ The following list can help you understand what Proofing Viewer you can use to p
 | Review unsecured (HTTP) sites |Not supported |✓ |
 | Review iFrame-protected sites (sites that are protected from being viewed within an iFrame) |Not supported |✓ |
 
+{style="table-layout:auto"}
+
 ## Comments
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -218,9 +224,11 @@ The following list can help you understand what Proofing Viewer you can use to p
 | Make decisions |✓ |✓ |
 | Customize decisions |✓ |✓ |
 
+{style="table-layout:auto"}
+
 ## Compare proofs
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -247,7 +255,7 @@ The following list can help you understand what Proofing Viewer you can use to p
 
 ## Proof operations
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -358,9 +366,11 @@ The following list can help you understand what Proofing Viewer you can use to p
 |---|---|---|
 | Embedded code |Planned for future for static and native video proofs |Not supported&nbsp; |
 
+{style="table-layout:auto"}
+
 ## Translations
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

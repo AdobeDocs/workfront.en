@@ -14,7 +14,7 @@ Rather than creating a new project template from scratch, you can copy an existi
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

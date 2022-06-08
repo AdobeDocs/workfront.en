@@ -14,7 +14,7 @@ You can add additional approvers to a document approval directly from the Home a
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

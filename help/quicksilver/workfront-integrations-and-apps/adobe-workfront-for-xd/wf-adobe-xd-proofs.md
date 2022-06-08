@@ -14,7 +14,7 @@ You can upload your art boards as proofs directly to Adobe Workfront for a thoro
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -72,7 +72,7 @@ You must have the following access to perform the steps in this article:
 
 1. Choose the type of proof approval you want:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -134,7 +134,7 @@ You can create an interactive proof for your art boards with the Workfront for A
 
 1. Click **New File** near the bottom of the plugin.
 1. Enable **Create a Proof**.
-1. In the ```Asset Type``` drop-down menu, choose the link you just created under the **Shared links** tab. For more information, see [Create an interactive link for your art board](#create-an-interactive-link-for-your-art-board).  
+1. In the **Asset Type** drop-down menu, choose the link you just created under the **Shared links** tab. For more information, see [Create an interactive link for your art board](#create-an-interactive-link-for-your-art-board).  
    ![](assets/shared-links-xd-350x870.png)
 
    <!--
@@ -143,7 +143,7 @@ You can create an interactive proof for your art boards with the Workfront for A
 
 1. Choose the type of proof approval you want:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -201,7 +201,7 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
 
 1. Choose the type of proof approval you want:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

@@ -21,7 +21,7 @@ You can run any report that you have access to View.
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

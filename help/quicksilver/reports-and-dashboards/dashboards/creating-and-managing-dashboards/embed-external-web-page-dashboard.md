@@ -22,7 +22,7 @@ For example, if your organization has a web-based document repository, wiki, or 
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

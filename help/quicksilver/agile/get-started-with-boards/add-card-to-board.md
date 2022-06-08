@@ -3,7 +3,7 @@ filename: add-card-to-board
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Add a card to a board
-description: You can quickly add an ad hoc card to a board and assign it to a member on the board.
+description: You can quickly add an ad hoc card to a board and assign it to a member on the board. The card can represent a task, issue, person, group, or any type of item that you want to include on the board.
 ---
 
 # Add an ad hoc card to a board
@@ -20,7 +20,7 @@ Using a checklist on a card allows you to break down work into smaller increment
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -48,7 +48,7 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
 1. Click **Add card &gt; New card**.
 1. In the **Card Details** box, add the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -120,6 +120,8 @@ You can add ad hoc cards with only a title to quickly populate your board.
    Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card and select **Edit**.
 
 1. In the Card Details box, update the information as needed, and click **Close** to return to the board.
+
+   If you have column policies enabled for updating field values, changing the status on the card automatically moves the card to the corresponding column. For more information, see "Define column settings and policies" in the article [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 ## Complete checklist items {#complete-checklist}
 

@@ -20,7 +20,7 @@ For information about the permissions you can give users when sharing a template
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -66,7 +66,7 @@ To share a template:
 
    >[!TIP]
    >
-   >You can share an object only with active users, teams, ```roles,``` or companies.
+   >You can share an object only with active users, teams, roles, or companies.
 
 1. In the **Template Access** box, select the people, teams, roles, groups, or companies you want to share the template with.
 
@@ -105,7 +105,7 @@ To share future projects created from a template with users:
 
    >[!TIP]
    >
-   >You can share an object only with active users, teams, ```roles,``` or companies.
+   >You can share an object only with active users, teams, roles, or companies.
 
 1. From the drop-down menu for each entity, select from the following:
 
@@ -146,7 +146,7 @@ You can share multiple templates as well as projects from multiple templates at 
 
    >[!TIP]
    >
-   >You can share an object only with active users, teams, ```roles,``` or companies.
+   >You can share an object only with active users, teams, roles, or companies.
 
 1. Click **Template** to share the selected templates.
 

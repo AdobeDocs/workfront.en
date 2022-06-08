@@ -19,7 +19,7 @@ You can open the following items:
 
 * **Collections:** You can open collections that you created or that have been shared with you. For information on creating a collection, see [Edit a Workfront Library collection](../../../workfront-library/content-management/collections/edit-a-collection.md).
 
-```<li>For information on sharing items, see <a href="../../../workfront-library/content-management/share-an-asset-with-users.md" class="MCXref xref">Share a Workfront Library item with other users</a>.</li>```
+  For information on sharing items, see [Share a Workfront Library item with other users](../../../workfront-library/content-management/share-an-asset-with-users.md).
 
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. (Optional) Select the area where the item you want to open is located.

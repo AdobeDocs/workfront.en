@@ -20,7 +20,7 @@ For more information about resolving and resolvable objects, see [Overview of Re
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

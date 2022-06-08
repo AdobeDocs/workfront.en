@@ -5,7 +5,7 @@ draft: Probably
 ---
 # CloudConvert modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use CloudConvert, as well as connect it to to multiple third-party applications and services. The CloudConvert modules allow you to monitor and manage jobs, tasks, and import and export files in your CloudConvert account.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use CloudConvert, as well as connect it to multiple third-party applications and services. The CloudConvert modules allow you to monitor and manage jobs, tasks, and import and export files in your CloudConvert account.
 
 <table style="table-layout:auto">
  <col> 
@@ -475,7 +475,7 @@ Triggers when a job in your account or task is created, finishes, or fails.
 >* The New Job Event trigger is also triggered when an *individual* task is created, has finished, or has failed.
 >
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -657,7 +657,7 @@ Retrieves authenticated account details about the current user.
 
 Allows you to perform a custom API call.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

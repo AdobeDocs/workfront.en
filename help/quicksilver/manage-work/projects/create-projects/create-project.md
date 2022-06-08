@@ -18,7 +18,7 @@ Projects represent a large amount of work that needs to be done in Adobe Workfro
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -49,7 +49,7 @@ When you create a project, Workfront applies a set of default settings to it. Fo
 
 Consider the following:
 
-* As a Workfront administrator ```or a group administrator```, you can configure the default settings for a new project when configuring Project Preferences.
+* As a Workfront administrator or a group administrator, you can configure the default settings for a new project when configuring Project Preferences.
 * Workfront applies the settings of the group, if there are any, before it applies those set by the Workfront administrator. 
 * If you create a project using a template, the settings from the template take precedence over the settings established by the Workfront or group administrator.
 

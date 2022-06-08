@@ -102,7 +102,7 @@ You can share an object only with active users, teams,
 
 The following table displays what permissions you can grant users when allowing them to View or Manage a template. For the instructions on sharing a template, see the section [Share a template](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share) in the article [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

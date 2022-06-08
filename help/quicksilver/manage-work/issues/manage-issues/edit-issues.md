@@ -16,7 +16,7 @@ You can edit a single issue or you can edit issues in a list. For information ab
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -131,7 +131,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 1. Update or review any of the fields in the following table: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -155,7 +155,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
         <li> <p><strong>Normal</strong> </p> </li> 
         <li> <p><strong>High</strong> </p> </li> 
         <li> <p><strong>Urgent</strong> </p> </li> 
-       </ul> <p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md" class="MCXref xref">Create and customize priorities</a>.</p> </td> 
+       </ul> <p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Create and customize priorities</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Severity</td> 
@@ -247,7 +247,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 1. (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. 
 1. Update the following fields: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     </col> 
     <col> 
@@ -292,7 +292,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
    Update the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     </col> 
     <col> 

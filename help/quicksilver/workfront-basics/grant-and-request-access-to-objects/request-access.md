@@ -12,7 +12,7 @@ Your visibility to objects in&nbsp;Adobe Workfront depends on your access to tha
 
 >[!NOTE]
 >
->```This article describes how you can request permissions to all objects except for plans in the``` Adobe Workfront Scenario Planner. ```For information about requesting access to plans, see``` [Request access to a plan in the Scenario Planner](../../scenario-planner/request-access-to-plan.md). This requires an additional license.
+>This article describes how you can request permissions to all objects except for plans in the Adobe Workfront Scenario Planner. For information about requesting access to plans, see [Request access to a plan in the Scenario Planner](../../scenario-planner/request-access-to-plan.md). This requires an additional license.
 
 Your Workfront administrator configures your access to a type of object in your access level.&nbsp;For more information, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -26,7 +26,7 @@ For example, you might have View permissions to a project, but you need to add t
 
 You must have the following to share objects:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -131,7 +131,7 @@ The order of the users in the "Request Access" or "Request More Access" drop-dow
 
 The owner of an object is defined as follows: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 

@@ -14,7 +14,7 @@ You can print a proof summary, save it as a PDF, or export it as an XLS file or 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -57,7 +57,7 @@ You can print a proof summary directly from the document list.
 
 1. Use any of the following options:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

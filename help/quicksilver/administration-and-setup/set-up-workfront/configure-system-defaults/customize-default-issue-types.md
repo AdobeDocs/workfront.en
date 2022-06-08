@@ -48,7 +48,7 @@ If you have Adobe Workfront administrator access, there are four default issue t
 * **Issue** An object in Workfront that communicates unplanned work, a problem that arises, or something that must be resolved in order to continue a task.
 * **Request** An issue type that applies to a request queue where users make requests in Workfront.
 
-![](assets/screenshot-2016-05-10-16.56.24-350x202.png) 
+![](assets/default-issue-types.png) 
 
 ## Customize an issue type
 
@@ -71,7 +71,7 @@ To customize an issue type:
 
    * Hover over the issue type you want to customize, click the Edit icon ![](assets/edit-icon.png) that appears to the far right, then type a new name for the issue type.
 
-     ![](assets/customize-issue-type-350x187.png)
+     ![](assets/customize-issue-type.png)
 
    * Click an issue type to list its associated statuses, then drag the handles that appear when you hover over them and and drop them in the order you want them to appear in your users' issue **Status** drop-down menu.
 

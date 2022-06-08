@@ -45,6 +45,8 @@ The following are some of the most commonly used objects in Workfront and their 
 | Plans&#42;  |&nbsp; |Initiatives |
 | Goals&#42; |&nbsp; |Results,&nbsp;Activities |
 
+{style="table-layout:auto"}
+
 For a complete list of objects in Workfront, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
 &#42; Plans are the objects of the Workfront Scenario Planner. For information about the Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
@@ -158,6 +160,8 @@ The following is a list of objects and their corresponding icons in Workfront.
 | Team | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png)|  |
 | Template | ![](assets/template-icon-nwe.png)  , ![](assets/nwe-templates-icon.png)|  |
 
+{style="table-layout:auto"}
+
 ## Reference Numbers of objects
 
 Each object created in Workfront is assigned a unique reference number. Reference numbers are useful in distinguishing between two otherwise similar objects (such as tasks with the same name). You can search for objects using their reference numbers and you can include reference numbers in reports.
@@ -184,6 +188,8 @@ Not all objects are searchable in Workfront. You can run basic and advanced sear
 | Dashboards | ✓ | ✓ |
 | Companies | ✓ | ✓ |
 | Notes | ✓ |  |
+
+{style="table-layout:auto"}
 
 For more information about running basic and advanced searches in Workfront, see [Search Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 

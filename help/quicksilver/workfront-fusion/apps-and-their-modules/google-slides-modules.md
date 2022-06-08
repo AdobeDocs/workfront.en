@@ -21,7 +21,7 @@ You also need Google Slides in your Google Drive.
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -40,16 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -60,18 +51,6 @@ You must have the following access to use the functionality in this article:
 ## Prerequisites
 
 To use Google Slides modules, you must have a Google account.
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Connect Google Slides to Workfront Fusion</h2>
--->
-
-   <!--
-   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Go to Workfront Fusion and open the Google Slides module's Create a connection dialog.</li>
-   -->
-
-   <!--
-   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Continue</strong>, then click <strong>Allow</strong>.</li>
-   -->
 
 ## Google Slides modules and their fields
 
@@ -99,7 +78,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 Triggers when a new presentation is created or updated.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -126,7 +105,7 @@ Triggers when a new presentation is created or updated.
 
 Retrieves a list of all presentations.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -158,7 +137,7 @@ Retrieves a list of all presentations.
 
 Gets the latest version of a specified presentation.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -186,7 +165,7 @@ Gets the latest version of a specified presentation.
 
 Gets the latest version of the specified page or of the thumbnail of a page in the presentation.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -213,7 +192,7 @@ Gets the latest version of the specified page or of the thumbnail of a page in t
 
 Creates a new presentation by replacing all tags like `{{Name}}`, `{{Email}}` in a template with provided data.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -286,7 +265,7 @@ Creates a new presentation by replacing all tags like `{{Name}}`, `{{Email}}` in
 
 Uploads an image with provided data.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -330,7 +309,7 @@ Uploads an image with provided data.
 
 Refreshes the chart data stored in a presentation specified by ID.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -362,7 +341,7 @@ Refreshes the chart data stored in a presentation specified by ID.
 
 Creates an empty slide or deletes an existing slide on the specified presentation.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -407,7 +386,7 @@ Creates an empty slide or deletes an existing slide on the specified presentatio
 
 Performs an arbitrary authorized API call.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -441,25 +420,27 @@ Performs an arbitrary authorized API call.
  </tbody> 
 </table>
 
-**Example:** Using an API call you can get the presentation details for the presentation ID you have entered. You can find the presentation ID in the URL when you the open the presentation in Google Slides.
-
-![](assets/api-call-350x13.png)
-
-The following API call returns the presentation details:
-
-![](assets/presentation-details.png)
-
-Matches of the search can be found in the module's Output under Bundle > Body > presentationId.
-
-In our example, the requested presentation details were returned:
-
-![](assets/presentation-details-2.png)
+>[!INFO]
+>
+>**Example:** Using an API call you can get the presentation details for the presentation ID you have entered. You can find the presentation ID in the URL when you the open the presentation in Google Slides.
+>
+>![](assets/api-call-350x13.png)
+>
+>The following API call returns the presentation details:
+>
+>![](assets/presentation-details.png)
+>
+>Matches of the search can be found in the module's Output under Bundle > Body > presentationId.
+>
+>In our example, the requested presentation details were returned:
+>
+>![](assets/presentation-details-2.png)
 
 #### Insert Links in a Presentation {#insert-links-in-a-presentation}
 
 This module makes all links in a presentation clickable, or inserts a link into all matched input texts.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

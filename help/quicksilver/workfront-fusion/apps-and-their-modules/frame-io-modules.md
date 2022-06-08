@@ -17,7 +17,7 @@ The Adobe Workfront Fusion Frame.io modules enable you to monitor, create, updat
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -152,7 +152,7 @@ Create an Asset
 
 This action module creates a new asset.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -205,7 +205,7 @@ This action module creates a new asset.
 
 This action module deletes a specified asset.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -236,7 +236,7 @@ This action module deletes a specified asset.
 
 This action module retrieves asset details.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -267,7 +267,7 @@ This action module retrieves asset details.
 
 This search module retrieves all assets in the specified project's folder.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -300,7 +300,7 @@ This search module retrieves all assets in the specified project's folder.
 
 This action module allows you to update an existing asset's name, description, or custom fields.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -335,7 +335,7 @@ This action module allows you to update an existing asset's name, description, o
 
 This trigger module starts a scenario when an asset is deleted.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -358,7 +358,7 @@ This trigger module starts a scenario when an asset is deleted.
 
 This trigger module starts a scenario when an asset's status is set, changed, or removed.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -381,7 +381,7 @@ This trigger module starts a scenario when an asset's status is set, changed, or
 
 This trigger module starts a scenario when a new asset is created.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -414,7 +414,7 @@ This trigger module starts a scenario when a new asset is created.
 
 This action module adds a new comment or reply to the asset.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -461,7 +461,7 @@ This action module adds a new comment or reply to the asset.
 
 This action module deletes an existing comment.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -496,7 +496,7 @@ This action module deletes an existing comment.
 
 This action module retrieves details of the specified comment.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -531,7 +531,7 @@ This action module retrieves details of the specified comment.
 
 This search module retrieves all comments of the specified asset.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -566,7 +566,7 @@ This search module retrieves all comments of the specified asset.
 
 This action module edits an existing comment.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -609,7 +609,7 @@ This action module edits an existing comment.
 
 This trigger module starts a scenario when a comment is edited.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -632,7 +632,7 @@ This trigger module starts a scenario when a comment is edited.
 
 This trigger module starts a scenario when a new comment or reply is created.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -657,7 +657,7 @@ This trigger module starts a scenario when a new comment or reply is created.
 
 This search module retrieves all projects for the specified team.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -682,7 +682,7 @@ This search module retrieves all projects for the specified team.
 
 This module allows you to perform a custom API call.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -718,17 +718,9 @@ This module allows you to perform a custom API call.
 
 **Example:** The following API call returns all teams and its details in your Frame.io account:
 
-URL: 
+URL: `/v2/teams`
 
-```
-/v2/teams
-```
-
-Method: 
-
-```
-GET
-```
+Method: `GET`
 
 ![](assets/api-call-example.png)
 

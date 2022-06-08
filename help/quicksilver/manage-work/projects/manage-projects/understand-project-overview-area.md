@@ -19,7 +19,7 @@ You can view or edit the information of a project by accessing the Overview area
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, ``` then click **Overview**```. This opens the Overview area for editing.
+   Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section,  then click **Overview**. This opens the Overview area for editing.
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ You must have the following access to perform the steps in this article:
    >
    >Depending on how your Workfront administrator configured your Layout Template, all fields might not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -156,9 +156,11 @@ You must have the following access to perform the steps in this article:
    | Last Updated By |The name of the user who last updated the project.  |
    | Template |&nbsp; |
 
+   {style="table-layout:auto"}
+
 1. If your company has purchased an additional license for the Adobe Workfront Scenario Planner, and the project has information published from a linked initiative, review the following initiative information in the Scenario Planner area:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

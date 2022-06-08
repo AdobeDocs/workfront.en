@@ -13,7 +13,7 @@ hidefromtoc: true
 # GitLab modules
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
-In an Adobe Workfront Fusion scenario, you can automate workflows that use GitLab, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use GitLab, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -35,7 +35,7 @@ The procedure for connecting GitLab to Workfront Fusion is different based on wh
 1. In any Workfront Fusion Gitlab module, click **Add** next to the connection field.
 1. Configure the following fields:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -65,7 +65,7 @@ The procedure for connecting GitLab to Workfront Fusion is different based on wh
 1. In any Workfront Fusion Gitlab module, click **Add** next to the connection field.
 1. Configure the following fields:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -91,7 +91,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -182,7 +182,7 @@ For information on fields, see [Get single project](https://docs.gitlab.com/ee/a
 
 This trigger module starts a scenario when a new issue is created, or an existing issue is updated, closed, or reopened.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -205,7 +205,7 @@ This trigger module starts a scenario when a new issue is created, or an existin
 
 This action module retrieves issue details.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -278,7 +278,7 @@ For information on fields, see [Delete an issue](https://docs.gitlab.com/ee/api/
 
 This trigger module starts a scenario when a new comment is made on commits, merge requests, issues, and code snippets.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -327,7 +327,7 @@ For information on fields, see [Modify existing issue note](https://docs.gitlab.
 
 This trigger module starts a scenario when you push to the repository, except when pushing tags.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -410,7 +410,7 @@ For information on fields, see [Cherry pick a commit](https://docs.gitlab.com/ee
 
 This trigger module starts a scenario when a new merge request is created, an existing merge request was updated/merged/closed, or a commit is added in the source branch.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -615,7 +615,7 @@ For information on fields, see [Delete repository branch](https://docs.gitlab.co
 
 This trigger module starts a scenario when the status changes on a Pipeline.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -678,7 +678,7 @@ For information on fields, see [Cancel a pipeline's jobs](https://docs.gitlab.co
 
 This trigger module starts a scenario when the status of a job changes.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -745,7 +745,7 @@ For information on fields, see [Keep artifacts](https://docs.gitlab.com/ee/api/j
 
 This trigger module starts a scenario when you create (or delete) tags in the repository.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -939,7 +939,7 @@ For information on fields, see [Remove variable](https://docs.gitlab.com/ee/api/
 
 This trigger module starts a scenario when a wiki page is created, updated, or deleted.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1046,7 +1046,7 @@ For information on fields, see [List current user](https://docs.gitlab.com/ee/ap
 
 Allows you to perform a custom API call.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

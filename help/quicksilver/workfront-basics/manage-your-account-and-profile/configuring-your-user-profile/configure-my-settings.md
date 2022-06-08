@@ -28,7 +28,7 @@ To find out what access level you have, contact your Workfront administrator.
 
 The following grid shows what sections in the My Settings area are visible&nbsp;or editable&nbsp;depending on your access level:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -220,7 +220,7 @@ This information should already be configured by your Workfront administrator. A
 
 You can change any of the following in this sub-section:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -259,6 +259,8 @@ You can change any of the following in this sub-section:
 |---|---|
 | Talk to Me About |Specify your professional&nbsp;interests in this field. |
 
+{style="table-layout:auto"}
+
 #### Contact info {#contact-info}
 
 You can change any of the following in this sub-section:
@@ -274,6 +276,8 @@ You can change any of the following in this sub-section:
 | Country |&nbsp; |
 | Profile Picture |Your profile picture becomes your avatar and it is visible throughout the Workfront system, wherever your name is displayed. |
 
+{style="table-layout:auto"}
+
 ### Preferences {#preferences}
 
 Specify what you want to display in your Workfront interface in this section.
@@ -284,7 +288,7 @@ Specify what you want to display in your Workfront interface in this section.
 
 You can change any of the following in this sub-section:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -331,7 +335,7 @@ Only a Workfront administrator can see and edit all of the fields in this sectio
 
 You can change any of the following in this sub-section:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -377,7 +381,7 @@ This information is usually configured by your Workfront administrator, when the
 
 You can change any of the following in this sub-section:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -418,7 +422,7 @@ Your resource planning information affects the timeline of work assignments, the
 
 Use any of the following in this section:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

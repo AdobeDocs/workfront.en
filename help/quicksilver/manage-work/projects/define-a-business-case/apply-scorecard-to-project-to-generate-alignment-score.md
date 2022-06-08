@@ -15,7 +15,7 @@ For more information about scorecards and how you can create one, see [Create a 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -61,7 +61,7 @@ You can add scorecards to a project as part of building the business case for th
 
 For more information about building a business case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Your Adobe Workfront administrator ```or group administrator``` must enable the Scorecard section in the Business Case area of your projects before you can access scorecards from the Business Case. For information about setting up project preferences and enabling areas of the Business Case, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Your Adobe Workfront administrator or group administrator must enable the Scorecard section in the Business Case area of your projects before you can access scorecards from the Business Case. For information about setting up project preferences and enabling areas of the Business Case, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 To apply a scorecard to a project:
 

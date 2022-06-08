@@ -10,7 +10,7 @@ description: Configure timesheet and hour preferences
 # Configure timesheet and hour preferences
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
 As an Adobe Workfront administrator, you can specify preferences for timesheets and hours in Workfront in order to define what items the timesheets can pre-populate with and what items users can log time to.
@@ -90,10 +90,20 @@ You must have the following access to perform the steps in this article:
 
 1. In the **Logging Time** section, configure any of the following options: 
 
-   | Log time directly on projects |Allows users to log time on the project (both on the Updates tab and timesheet). If users do not record&nbsp;time at the project level, this options should remain unchecked. |
-   |---|---|
-   | Log time on projects that are complete |Allows users to record time on a project that has been marked complete. If this option is disabled, users cannot record time for the work they have completed on projects in the Complete status. |
-   | **Log time on projects that are dead** |When this option is enabled, users can log hours on projects with a Dead status. |
+   <table style="table-layout:auto">
+    <tr>
+        <td>Log time directly on projects</td>
+        <td>Allows users to log time on the project (both on the Updates tab and timesheet). If users do not record time at the project level, this options should remain unchecked.</td>
+    </tr>
+    <tr>
+        <td>Log time on projects that are complete</td>
+        <td>Allows users to record time on a project that has been marked complete. If this option is disabled, users cannot record time for the work they have completed on projects in the Complete status.</td>
+    </tr>
+    <tr>
+        <td>Log time on projects that are dead</td>
+        <td>When this option is enabled, users can log hours on projects with a Dead status.</td>
+    </tr>
+   </table>
 
 1. In the **Pre-Populate timesheets with**section, configure any of the following options: 
 

@@ -19,7 +19,7 @@ This can happen in any of the following cases:
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -58,7 +58,7 @@ You must have the following:
 
 >[!TIP]
 >
->By default, the Scenario Planner assumes that you have budgeted for 0 job roles and $0 or the equivalent of $0 in your system's currency for a scenario, unless you specified otherwise. The number of job roles indicates the number of FTEs (Full Time Equivalents) ```or hours``` budgeted for the job role . 
+>By default, the Scenario Planner assumes that you have budgeted for 0 job roles and $0 or the equivalent of $0 in your system's currency for a scenario, unless you specified otherwise. The number of job roles indicates the number of FTEs (Full Time Equivalents) or hours budgeted for the job role . 
 >
 >For all calculations in the Scenario Planner, Workfront uses the following value: 1 FTE = 8 Hours. 
 >
@@ -126,7 +126,7 @@ You must have the following:
 
      Review the following fields in the additional information box at the initiative's level:
 
-     <table> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -172,7 +172,7 @@ You must have the following:
    * Required Job&nbsp;Roles
    * Costs
 
-1. (Conditional) For initiatives that have job role conflicts, go to the **Required Job Roles** section to view all job roles required for your initiative. Identify which job roles might be overallocated. Review the number of FTE ```or hours``` needed for each job role for each month of the initiative. The box with the FTE ```or hours``` number for months that have overallocations displays in a red outline.
+1. (Conditional) For initiatives that have job role conflicts, go to the **Required Job Roles** section to view all job roles required for your initiative. Identify which job roles might be overallocated. Review the number of FTE or hours needed for each job role for each month of the initiative. The box with the FTE or hours number for months that have overallocations displays in a red outline.
 
    ![](assets/details-panel-overallocated-roles-350x275.png)
 
@@ -184,7 +184,7 @@ You must have the following:
 
    The following fields display for each job role:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -215,7 +215,7 @@ You must have the following:
    * Hover over the name of the job role and click the **delete icon** ![](assets/delete.png) to remove the job role from the initiative. 
    * Select **Add roles to the scenario's available resources**, then click **Apply**.
 
-     This adds the missing number of job role FTEs ```or hours``` to the scenario's Available field.
+     This adds the missing number of job role FTEs or hours to the scenario's Available field.
 
      >[!NOTE]
      >
@@ -234,7 +234,7 @@ You must have the following:
 
 1. (Optional) Click&nbsp;**Show details** under the cost information to see where the conflict appears and to highlight the conflicting months on the plan's chart.&nbsp;The following additional fields display for each type of cost: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

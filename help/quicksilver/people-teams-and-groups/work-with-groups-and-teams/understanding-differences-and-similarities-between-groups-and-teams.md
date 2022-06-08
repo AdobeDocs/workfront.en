@@ -33,7 +33,7 @@ For more information about creating and managing teams, see [Create and manage t
 
 ## Group and team functionality comparison
 
-The&nbsp;following table illustrates differences and similarities between groups and teams:
+The following table illustrates differences and similarities between groups and teams:
 
 | **Functionality** |**Group** |**Team** |
 |---|---|---|

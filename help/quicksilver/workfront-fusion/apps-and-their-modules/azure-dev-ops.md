@@ -6,12 +6,12 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Azure DevOps modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Azure DevOps, as well as connect it to to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Azure DevOps, as well as connect it to multiple third-party applications and services.
 ---
 
 # Azure DevOps modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Azure DevOps, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Azure DevOps, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -64,9 +64,16 @@ To use Azure DevOps modules, you must have an Azure DevOps account.
 
 1. Fill out the following fields:
 
-   | Connection name |Enter a name for the connection that you are creating. |
-   |---|---|
-   | Organization |Enter the name of the organization under which you created your Azure DevOps application. |
+    <table style="table-layout:auto">
+        <tr>
+            <td>Connection name</td>
+            <td>Enter a name for the connection that you are creating.</td>
+        </tr>
+      <tr>
+            <td>Organization</td>
+            <td>Enter the name of the organization under which you created your Azure DevOps application.</td>
+        </tr>
+    </table>
 
 1. Click **Continue** to finish setting up the connection and continue creating your scenario.
 

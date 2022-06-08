@@ -14,7 +14,7 @@ You cannot remove a template from a project. You can only manually remove inform
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -13,7 +13,7 @@ hidefromtoc: true
 # ActiveCampaign modules
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
-In an Adobe Workfront Fusion scenario, you can automate workflows that use ActiveCampaign, as well as connect it to to multiple third-party applications and services. You can create, update, list, and delete automations, campaigns, calendar feeds, contacts, deals, messages, notes, organizations, tags, and tasks in your ActiveCampaign account.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use ActiveCampaign, as well as connect it to multiple third-party applications and services. You can create, update, list, and delete automations, campaigns, calendar feeds, contacts, deals, messages, notes, organizations, tags, and tasks in your ActiveCampaign account.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -72,7 +72,7 @@ The module returns the ID of the  contact and any associated fields, along with 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -109,7 +109,7 @@ The module returns the ID of the  contact and any associated fields, along with 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -146,7 +146,7 @@ The module returns the ID of the  contact and any associated fields, along with 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -171,7 +171,7 @@ The module returns the ID of the contact and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -192,7 +192,7 @@ This action module creates or updates a custom field value for the given contact
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -229,7 +229,7 @@ The module returns the ID of the  status and any associated fields, along with a
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -267,7 +267,7 @@ The module returns the ID of the  tag and contact and any associated fields, alo
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -296,7 +296,7 @@ The module returns the ID of the  contact tag and any associated fields, along w
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -317,7 +317,7 @@ This action module retrieves a list of contacts.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -406,7 +406,7 @@ This action module gets information about the logged-in users.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -423,7 +423,7 @@ This trigger module executes a scenario when a new contact is created. The modul
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -509,7 +509,7 @@ The module returns the ID of the deal and any associated fields, along with any 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -582,7 +582,7 @@ The module returns the ID of the  deal and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -652,7 +652,7 @@ The module returns the ID of the deal and any associated fields, along with any 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -677,7 +677,7 @@ The module returns the ID of the  deal and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -702,7 +702,7 @@ The module returns the ID of the  stage and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -727,7 +727,7 @@ This action module retrieves a list of deals.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -796,7 +796,7 @@ This trigger module executes a scenario when a deal is created. The module retur
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -879,7 +879,7 @@ The module returns the ID of the campaign and any associated fields, along with 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -904,7 +904,7 @@ The module returns the ID of the  campaign and any associated fields, along with
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -929,7 +929,7 @@ The module returns the ID of the list and any associated fields, along with any 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -960,7 +960,7 @@ The module returns the ID of the  task and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1023,7 +1023,7 @@ The module returns the ID of the  task and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1044,7 +1044,7 @@ This trigger module executes a scenario when a new task is assigned to a deal. T
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1104,7 +1104,7 @@ The module returns the ID of the  note and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1137,7 +1137,7 @@ The module returns the ID of the  note and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1177,7 +1177,7 @@ When you are configuring this module, the following fields display.
 -->
 
 <!--
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <tbody>
@@ -1298,7 +1298,7 @@ You specify the highest number of records you want the module to list during eac
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1319,7 +1319,7 @@ This action module retrieves a list of organizations.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1349,7 +1349,7 @@ You specify the IDs of the contact and of the automation.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1378,7 +1378,7 @@ The module returns the ID of the automation and any associated fields, along wit
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1403,7 +1403,7 @@ The module returns the ID of the  contact and any associated fields, along with 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1426,7 +1426,7 @@ You specify the maximum number of automations you want to list.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1453,7 +1453,7 @@ The module returns the ID of the  message and any associated fields, along with 
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1500,7 +1500,7 @@ The module returns the ID of the  feed and any associated fields, along with any
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1548,7 +1548,7 @@ The module returns the ID of the  calendar feed and any associated fields, along
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1573,7 +1573,7 @@ You specify the maximum number of calendar feeds that you want listed.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -1619,7 +1619,7 @@ These steps seem really wonky in Alloy article. Test!
 1. Add a Watch events module to your scenario.
 1. Set up the webhook.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

@@ -16,7 +16,7 @@ You must have access to view the users whose workload you want to view or manage
 
 The following table illustrates the connection between the Workfront plan your company has and where in the system you can use the Workload Balancer: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -43,7 +43,7 @@ For information about where you can locate the Workload Balancer in Workfront, s
 
 You must have the following access to view the Workload Balancer: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -68,7 +68,7 @@ You must have the following access to view the Workload Balancer:
 
 You must have the following access to manage the Workload Balancer: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

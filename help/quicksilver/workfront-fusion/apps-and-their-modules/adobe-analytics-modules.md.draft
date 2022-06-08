@@ -6,13 +6,13 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Analytics Modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Adobe Analytics, as well as connect it to to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Adobe Analytics, as well as connect it to multiple third-party applications and services.
 hidefromtoc: true
 ---
 
 # Adobe Analytics Modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Adobe Analytics, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Adobe Analytics, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -22,7 +22,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -71,7 +71,7 @@ To create a connection for your Adobe Analytics modules:
 1. Click **Add** next to the Connection box.
 1. Fill in the following fields:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     </col> 
     <col> 
@@ -135,7 +135,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This action module deletes a single record from your Adobe Analytics account.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -175,7 +175,7 @@ This action module deletes a single record from your Adobe Analytics account.
 
 This module returns records based on the criteria you specify.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -310,7 +310,7 @@ This module returns records based on the criteria you specify.
 
 This action module reads a single record from your Adobe Analytics account.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -354,7 +354,7 @@ This action module reads a single record from your Adobe Analytics account.
 
 This action module reads records related to a specified record in your Adobe Analytics account.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -405,7 +405,7 @@ This action module reads records related to a specified record in your Adobe Ana
 
 This action module updates a single record in Adobe Analytics
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -463,7 +463,7 @@ This action module updates a single record in Adobe Analytics
 
 This action module validates a single record in Adobe Analytics
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -512,7 +512,7 @@ This action module validates a single record in Adobe Analytics
 
 This action module reads a single report from Adobe Analytics.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -549,7 +549,7 @@ This action module reads a single report from Adobe Analytics.
 
 This action module uploads a batch file for processing
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -580,7 +580,7 @@ This action module uploads a batch file for processing
 
 This action module uploads a batch file for validation.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -605,7 +605,7 @@ This action module uploads a batch file for validation.
 
 This module makes a custom API call to the Adobe Analytics API
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -19,7 +19,7 @@ For information about what users in each access level can do with financial data
 
 You must have the following to share financial data information on objects:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -60,7 +60,7 @@ To grant financial permissions to an object:
 
    >[!TIP]
    >
-   >You can share an object only with active users, teams, ```roles,``` or companies.
+   >You can share an object only with active users, teams, roles, or companies.
 
 1. If a drop-down menu appears to the right of the name you selected, click one of the following options that is available:
 
@@ -81,7 +81,7 @@ To grant financial permissions to an object:
 
 The following table displays what financial permissions users gain when you grant them View, Contribute, or Manage permissions on objects:&nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

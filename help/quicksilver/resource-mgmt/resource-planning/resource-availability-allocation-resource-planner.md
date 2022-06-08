@@ -14,7 +14,7 @@ You can view the availability of your resources and the amount of planned or bud
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -110,7 +110,7 @@ Consider the following when changing your view to the Resource Planner:
 
 1. Select from the following options:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -156,6 +156,8 @@ Consider the following when changing your view to the Resource Planner:
    | Difference |✔ |&nbsp; |&nbsp; |
    | Percent |✔ |&nbsp; |&nbsp; |
 
+   {style="table-layout:auto"}
+
 1. Select **Use Planned (PLN) values in NET calculations** to use Planned instead of Budgeted information when calculating the Net values in the Project and Role views.
 
    When selecting this option Workfront calculates the Net values using the following formula:
@@ -166,7 +168,7 @@ Consider the following when changing your view to the Resource Planner:
 
    >[!TIP]
    >
-   >```This option is applied only when you select at least one option to customize the view in the Display selected items section.```
+   >**This option is applied only when you select at least one option to customize the view in the Display selected items section.**
 
 1. Click **Save**.
 
@@ -198,7 +200,7 @@ To display the allocation of users in a chart:
 
 1. Click the **User allocation chart** icon ![RP_user_allocation_chart.png](assets/rp-user-allocation-chart.png) to display the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

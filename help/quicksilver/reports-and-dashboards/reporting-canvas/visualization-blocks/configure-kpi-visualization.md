@@ -15,7 +15,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
 
    1. On the **Settings** tab:
 
-      <table>
+      <table style="table-layout:auto">
        <col>
        <col>
        <tbody>
@@ -88,9 +88,11 @@ You must have the following access to perform the steps in this article:
       |---|---|
       | Show Data Source |Enable this option to show the source table for the visualization on the report canvas, or disable the option to hide it. |
 
+      {style="table-layout:auto"}
+
       <!--   
       <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Style</b> tab:</p>   
-      <table>   
+      <table style="table-layout:auto">   
       <col>   
       <col>   
       <tbody>   

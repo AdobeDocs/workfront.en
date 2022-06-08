@@ -22,7 +22,7 @@ Permissions are specific to one item in Workfront and define what actions one ca
 
 You must have the following to share objects:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

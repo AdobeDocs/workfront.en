@@ -19,7 +19,7 @@ When tagging users in comments on a proof, the users you are able to tag might d
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

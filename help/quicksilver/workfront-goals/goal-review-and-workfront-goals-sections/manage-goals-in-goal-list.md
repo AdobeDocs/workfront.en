@@ -14,7 +14,7 @@ After you or other users create goals, you can review their progress and informa
 
 You must have the following access to perform the actions described in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -87,7 +87,7 @@ To review goals in the Goal List:
 
    The list of goals contains the following columns with information about each goal: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -130,7 +130,7 @@ To review goals in the Goal List:
 1. Use the filters in the upper-right corner of the goal list to select only goals that are important to you. For information about using filters in Workfront Goals, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 1. Click any of the fields in the column headers to sort it by that field.
 
-   A ```n arrow``` displays to the right of the field by which the list is sorted.
+   An arrow displays to the right of the field by which the list is sorted.
 
    ![](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
 

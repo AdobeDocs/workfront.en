@@ -10,7 +10,7 @@ description: You can manage approvals assigned or delegated to you from the Appr
 
 You can manage approvals assigned or delegated to you from the Approvals area in the Adobe Workfront mobile app. From the approvals area, you can approve:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -58,6 +58,8 @@ Proofs follow a separate approval process. You cannot approve a proof from a wor
    |  ![Approve proof from task](assets/mobile-approveprooffromtask.png) |Approve |
    |  ![Approve proof with changes from task](assets/mobile-approveproofwithcommentsfromtask.png)|Approve with changes (only available for documents) |
    |  ![Reject proof from task](assets/mobile-rejectprooffromtask.png)|Reject |
+
+   {style="table-layout:auto"}
 
 1. (Optional) Select **Add comment** on the confirmation message at the bottom of the screen to add comments to the decision. These comments appear in the updates for the approval.  
    ![Add comment](assets/mobile-addcommenttoapproval-350x123.png)  

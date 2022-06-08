@@ -75,6 +75,8 @@ The following tables display the users to import and several user attributes for
 | **Home Group** |Marketing |
 | **Job Role** |Business Analyst |
 
+{style="table-layout:auto"}
+
 ### User 2
 
 | **First Name** |Jennifer |
@@ -86,6 +88,8 @@ The following tables display the users to import and several user attributes for
 | **Company** |<*Your Company>* |
 | **Home Group** |Marketing |
 | **Job Role** |Project Manager |
+
+{style="table-layout:auto"}
 
 ### User 3
 
@@ -99,6 +103,8 @@ The following tables display the users to import and several user attributes for
 | **Home Group** |Sales |
 | **Job Role** |Sales Rep |
 
+{style="table-layout:auto"}
+
 ### User 4
 
 | **First Name** |Marc |
@@ -110,6 +116,8 @@ The following tables display the users to import and several user attributes for
 | **Company** |<*Your Company>* |
 | **Home Group** |Finance |
 | **Job Role** |Controller |
+
+{style="table-layout:auto"}
 
 ### User 5
 
@@ -123,6 +131,8 @@ The following tables display the users to import and several user attributes for
 | **Home Group** |Marketing |
 | **Job Role** |IT |
 
+{style="table-layout:auto"}
+
 ### User 6
 
 | **First Name** |Ray |
@@ -134,6 +144,8 @@ The following tables display the users to import and several user attributes for
 | **Company** |*Your Company>* |
 | **Home Group** |Resource Manager |
 | **Job Role** |none |
+
+{style="table-layout:auto"}
 
 ## Download a Kick-Start Template
 

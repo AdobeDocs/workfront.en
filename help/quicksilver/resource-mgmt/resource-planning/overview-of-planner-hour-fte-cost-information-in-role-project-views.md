@@ -91,7 +91,7 @@ The following tables show the allocation and availability information that displ
 
 ### The AVL (Available)&nbsp;column {#the-avl-available-column}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -132,7 +132,7 @@ The following tables show the allocation and availability information that displ
 
 ### The PLN (Planned)&nbsp;column {#the-pln-planned-column}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -180,7 +180,7 @@ Consider the following when viewing Planned Hours:
 
 ### The BDG (Budgeted)&nbsp;column {#the-bdg-budgeted-column}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -232,7 +232,7 @@ Consider the following when working with Budgeted Hours:
 
 ### The VAR (Variance)&nbsp;column {#the-var-variance-column}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -261,7 +261,7 @@ Consider the following when working with Budgeted Hours:
 
 ### The NET column  {#the-net-column}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -307,14 +307,14 @@ Consider the following when working with Budgeted Hours:
 
 >[!NOTE]
 >
->```When the NET Hours, FTE, or Cost display in red, there is not enough Available time or budget to cover either the Budgeted``` or the Planned time or cost associated with the work. In this case, the resources are overallocated.
+>**When the NET Hours, FTE, or Cost display in red, there is not enough Available time or budget to cover either the Budgeted** or the Planned time or cost associated with the work. In this case, the resources are overallocated.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>
 -->
 
 <!--
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <col>

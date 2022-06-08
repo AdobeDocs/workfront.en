@@ -15,7 +15,7 @@ When you approach the limit, a counter appears. When you exceed the limit, exces
 
 The character limit differs depending on the field you are using. The limits shown below apply to languages that use a Latin alphabet (such as English). The limit might be lower for languages that contain extended or double-byte characters.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 

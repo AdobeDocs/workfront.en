@@ -20,7 +20,7 @@ If a proof fails to generate after following the steps described in the followin
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -96,7 +96,7 @@ To use drag-and-drop to generate a new proof or new proof version:
 
 1. Choose one of the following:  
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

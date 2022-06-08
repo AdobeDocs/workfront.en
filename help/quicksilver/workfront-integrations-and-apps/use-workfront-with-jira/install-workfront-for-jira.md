@@ -22,7 +22,7 @@ For a list of Jira versions that Workfront for Jira currently supports, see [Wor
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

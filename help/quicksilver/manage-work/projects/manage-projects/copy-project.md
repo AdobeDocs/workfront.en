@@ -40,7 +40,7 @@ You can copy a project rather than create one from scratch. You can copy only on
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -95,7 +95,7 @@ To copy a project:
 
 1. (Optional) Deselect the items that you don't want to copy to the new project.&nbsp;The following table describes what happens when you deselect the items:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

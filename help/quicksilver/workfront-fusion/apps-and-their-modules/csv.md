@@ -10,17 +10,13 @@ description: This is a transformer, not an app
 
 # CSV
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">This is a transformer, not an app</p>
--->
-
 The Adobe Workfront Fusion CSV modules let you create CSV files and parse CSV text from a received text value or a file.
 
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -34,21 +30,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  <p>Workfront Fusion for Work Automation</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -62,12 +49,28 @@ The Create CSV Aggregator lets you create a csv text from received text values.
 
 For more information on aggregators, see [Aggregator module in Adobe Workfront Fusion](../../workfront-fusion/modules/aggregator-module.md).
 
-| Source Module |Select the module you are using to aggregate the fields you need. |
-|---|---|
-| Aggregated Fields  |Select the fields you want to aggregate from the list of available fields.  |
-| Include headers in the first row  |Select this option to include the headers in the result.  |
-| Group by  |Enter the filter to group the results. For example, enter a date.  |
-| Stop processing after an empty aggregation  |Select this option to stop the scenario when there are no results.  |
+<table style="table-layout:auto">
+    <tr>
+        <td>Source Module</td>
+        <td>Select the module you are using to aggregate the fields you need.</td>
+    </tr>
+    <tr>
+        <td>Aggregated Fields</td>
+        <td>Select the fields you want to aggregate from the list of available fields.</td>
+    </tr>
+    <tr>
+        <td>Include headers in the first row</td>
+        <td>Select this option to include the headers in the result.</td>
+    </tr>
+    <tr>
+        <td>Group by</td>
+        <td>Enter the filter to group the results. For example, enter a date.</td>
+    </tr>
+    <tr>
+        <td>Stop processing after an empty aggregation</td>
+        <td>Select this option to stop the scenario when there are no results.</td>
+    </tr>
+</table>
 
 ## Create CSV (advanced)
 
@@ -75,7 +78,7 @@ The Create CSV (advanced) Aggregator lets you create a CSV text from received te
 
 For more information on aggregators, see [Aggregator module in Adobe Workfront Fusion](../../workfront-fusion/modules/aggregator-module.md).
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -102,11 +105,7 @@ For more information on aggregators, see [Aggregator module in Adobe Workfront F
  </tbody> 
 </table>
 
-<!--
-<div class="example" data-mc-autonum="<b>Example: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<span class="autonumber"><span><b>Example: </b></span></span> <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Not available yet, on maybe list</p>
--->
+
 <p>Let us assume you would like to export your Google contacts to a CSV file with two columns "Full Name" and "Email". The output bundle from the Google Contacts > Get contacts from a group module has the following structure. The email addresses are stored inside the <code>Emails[]</code> item, which is an array of collections, each collection containing two items: <code>Label</code> and <code>Email</code>.</p>
 <p> <img src="assets/transforming-350x546.png" style="width: 350;height: 546;"> </p>
 <p>If you employ the simple Create CSV module, you are offered a list of checkboxes corresponding to a bundle's top-level items. If you attempt to tick <code>Full name</code> and <code>Emails</code> items, the Create CSV module produces the following output, which is probably not what you want:</p>
@@ -125,13 +124,12 @@ For more information on aggregators, see [Aggregator module in Adobe Workfront F
 <li value="5"> <p>Execute the scenario. Since the item <code>Emails[1]: Email</code> mapped to column "Email" is of simple type Text, it exports correctly now:</p> <p>"Full Name","Email"</p> <p>"Shon Winer","Shon@Winer.com"</p> <p>"Lizeth Fulmore","Lizeth@Fulmore.com"</p> <p>"Hilario Gullatt","Hilario@Gullatt.com"</p> <p>"Abby Eisenbarth","Abby@Eisenbarth.com"</p> </li>
 </ol>
 </div>
--->
 
 ## Parse CSV
 
 The Parse CSV transformer lets you parse CSV text from a received text value or a file. 
 
-<table> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 

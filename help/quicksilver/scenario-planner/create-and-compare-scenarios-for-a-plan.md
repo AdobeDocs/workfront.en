@@ -15,7 +15,7 @@ When you are planning your company's long-term strategy, there is a lot of infor
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ A scenario is a copy of a plan. You can create as many scenarios as you need. Ho
 
    The first plan you create is automatically saved as the "Initial scenario."
 
-1. Click the down-pointing arrow next to an existing scenario, then ``` click the **Copy** icon.```
+1. Click the down-pointing arrow next to an existing scenario, then  click the **Copy** icon.
 
    ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
@@ -101,7 +101,7 @@ After creating your scenarios, you can compare them to find the best one for you
 
    The following information displays on a scenario card:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

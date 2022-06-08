@@ -17,7 +17,7 @@ The Duration Type of a task identifies the relationship between the number of re
 
 >[!NOTE]
 >
->When taking into account the Primary Assignee's time off on a project, the planned dates of the task might adjust, but the Duration of the task remains the same. For information about taking into account the time off of the Primary Assignee when planning a project, see ``` [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)```.
+>When taking into account the Primary Assignee's time off on a project, the planned dates of the task might adjust, but the Duration of the task remains the same. For information about taking into account the time off of the Primary Assignee when planning a project, see  [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 If the Actual Start and&nbsp;Actual Completion Dates of the task fall outside of the schedule of the project, primary assignee, or the Default Schedule, the task&nbsp;Duration is zero.
 
@@ -57,6 +57,8 @@ When updating the Duration of tasks in a list, you can use the following abbrevi
 | Elapsed Days |ED |
 | Elapsed Weeks |EW |
 | Elapsed Months |ET |
+
+{style="table-layout:auto"}
 
 **Example:** If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list .  You can also select the preferred option for the Duration Unit of Time from the available drop-down menu when editing a task or in the Task&nbsp;Details section. For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -125,7 +127,7 @@ Duration Type helps to answer the following questions:
 
 ## The Duration&nbsp;Type of new tasks
 
-The Duration Type of a new task matches the Duration Type set up in your system. The default Duration Type is Calculated Assignment. Your Workfront administrator ```or a group administrator``` can update the default Duration Type for your system ```or for the group associated with the project```.&nbsp;For information, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+The Duration Type of a new task matches the Duration Type set up in your system. The default Duration Type is Calculated Assignment. Your Workfront administrator or a group administrator can update the default Duration Type for your system or for the group associated with the project. For information, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## Change the Duration Type of a task
 

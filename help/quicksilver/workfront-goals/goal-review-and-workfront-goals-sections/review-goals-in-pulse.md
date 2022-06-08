@@ -16,7 +16,7 @@ You can use the Pulse section of Adobe Workfront Goals as a collaboration tool, 
 
 You must have the following access to perform the actions described in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -81,7 +81,7 @@ You must have the following before you can start:
 
    A list of goals displays. The list contains the following columns with information about each goal: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

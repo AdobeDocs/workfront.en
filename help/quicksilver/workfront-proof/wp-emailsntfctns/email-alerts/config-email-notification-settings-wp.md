@@ -54,7 +54,7 @@ For information about proof settings the Workfront administrator or Workfront Pr
    >
    >If you do not choose one of the following options, Workfront Proof sends you a daily summary about activity on your proofs.
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -91,7 +91,7 @@ For information about proof settings the Workfront administrator or Workfront Pr
 
 1. Change any of the following: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -111,6 +111,8 @@ For information about proof settings the Workfront administrator or Workfront Pr
    | **Proof subject template** |Displays on the New proof page, New version page, Message page and Remind page. Can be edited before it's sent. |
    |---|---|
    | **Proof message template** |Displays on the New proof page, New version page, Message page, and Remind page. Can be edited before it's sent. |
+
+   {style="table-layout:auto"}
 
 ## Change email alerts for a recipient  {#change-email-alerts-for-a-recipient}
 
@@ -146,7 +148,7 @@ If you are a Workfront Proof administrator, you can set proof defaults for users
    >
    >If you do not choose one of the following options for a user, Workfront Proof sends users a daily summary about activity on their proofs.
 
-   <table>
+   <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
@@ -183,7 +185,7 @@ If you are a Workfront Proof administrator, you can set proof defaults for users
 
 1. In the remaining **Default email alert settings**, change any of the following:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

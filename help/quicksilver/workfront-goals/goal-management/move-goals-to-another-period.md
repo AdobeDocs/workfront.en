@@ -14,7 +14,7 @@ You can move goals from one time period to another by editing their Period field
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

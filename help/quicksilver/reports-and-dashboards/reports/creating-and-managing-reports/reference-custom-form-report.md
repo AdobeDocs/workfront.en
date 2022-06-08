@@ -16,7 +16,7 @@ You can reference the content of custom forms to include in a report, or you can
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

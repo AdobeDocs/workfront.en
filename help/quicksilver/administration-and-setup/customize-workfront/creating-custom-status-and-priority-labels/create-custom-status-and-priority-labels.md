@@ -22,8 +22,9 @@ This section contains the following articles:
 * [Reorder system-level and group statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md) 
 * [Locked and unlocked system-level statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md) 
 * [Use custom statuses as default statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md) 
-* [Delete a custom status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md) 
-* [Create and customize priorities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md) 
+* [Delete a custom status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
+* [List objects with a pending approval processes using a certain status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md) 
+* [Create and customize priorities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) 
 * [Create or customize issue severities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
 
 For information about group-level statuses, see [Manage group statuses](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).

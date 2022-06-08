@@ -30,7 +30,7 @@ For information about creating and managing resource pools, see the following ar
 <h2>Access requirements</h2>
 <p>(NOTE: moved to the separate articles below) </p>
 <p>You must have the following:</p>
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <tbody>
@@ -96,7 +96,7 @@ We recommend the following approaches:
 <li value="4"> Click <strong>Resource Pools</strong> in the left panel. <br><img src="assets/resource-pools-tab-350x198.png" alt="resource_pools_tab.png" style="width: 350;height: 198;"></li>
 <li value="5">Click <strong>New Resource Pool</strong>.</li>
 <li value="6">Specify the following: <p>
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <tbody>

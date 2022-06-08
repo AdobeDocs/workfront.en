@@ -41,3 +41,5 @@ When using the Adobe Workfront Core API, the API Explorer is a legacy reference 
    | Arguments |The object's variables that can be passed between your application and Workfront. |
    | Result Type |Allowable data types that can be returned from a method. |
 
+   {style="table-layout:auto"}
+

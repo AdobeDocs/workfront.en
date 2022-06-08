@@ -14,7 +14,7 @@ You must review your goals periodically and update their progress to ensure that
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

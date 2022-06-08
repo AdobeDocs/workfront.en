@@ -24,7 +24,7 @@ You can use the Summary panel to review and update work item information directl
 
 The following table displays the areas where you can locate and use the Summary panel: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
@@ -83,7 +83,7 @@ For information about accessing the Summary for documents, see [Summary for docu
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -113,9 +113,9 @@ You must have the following access to perform the steps in this article:
 1. Go to a task or issue and select an item in the list. 
 1. Click the **Summary** icon ![](assets/qs-summary-in-new-toolbar-small.png)
 
-   ```or```
+   or
 
-   ```Click the **Open Summary** icon ![](assets/open-summary-with-text-nwe.png) in the Submitted section of the Requests area.```
+   Click the **Open Summary** icon ![](assets/open-summary-with-text-nwe.png) in the Submitted section of the Requests area.
 
    After you open the Summary, it stays open as you click or select other tasks or issues and remains open until you manually close it.
 

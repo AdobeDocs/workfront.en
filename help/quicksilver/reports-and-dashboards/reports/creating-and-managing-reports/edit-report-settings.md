@@ -14,7 +14,7 @@ You can edit the settings of a report to define how it displays for other users,
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
 1. Click **Report Settings** in the upper-right corner of the report builder.
 1. Configure the following report settings:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

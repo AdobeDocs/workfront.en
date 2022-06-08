@@ -22,7 +22,7 @@ Delegating approval requests allows you to assign another user to approve your r
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

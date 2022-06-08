@@ -14,7 +14,7 @@ You can share a folder and its contents from the Documents area.
 
 >[!NOTE]
 >
->* The folder must be in the ```top five levels``` of a folder hierarchy on an object. ```Each folder at the sixth level or below inherits its sharing configurations from the folder directly above it.``` 
+>* The folder must be in the top five levels of a folder hierarchy on an object. Each folder at the sixth level or below inherits its sharing configurations from the folder directly above it. 
 >
 >  For information about adding subfolders to create a folder hierarchy, see the section [Create folders and subfolders](../../documents/organizing-documents/create-documents-folder.md#creating-folders) in the article [Create document folders](../../documents/organizing-documents/create-documents-folder.md).
 >
@@ -27,7 +27,7 @@ You can share a folder and its contents from the Documents area.
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -62,12 +62,12 @@ You must have the following access to perform the steps in this article:
 
 1. Select the folder, then click the Share icon ![](assets/share-icon.png) in the toolbar.
 
-   The folder ```must be in the top five levels of a folder hierarchy on an object```, and cannot be a smart folder.
+   The folder must be in the top five levels of a folder hierarchy on an object, and cannot be a smart folder.
 
 1. In the box that displays, under **Give folder access to**, start typing the name of the user, team, job role, group, or company you want to share the folder with, then press **Enter** when the name displays.
 1. To adjust access for the user, team, job role, group, or company you just added, click the drop-down menu to the right of the name, then configure one of the following available options and any of its advanced settings:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

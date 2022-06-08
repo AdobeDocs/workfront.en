@@ -18,9 +18,11 @@ description: Collections
 | deadLine |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | name |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 ### DocMetadataLink
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -108,6 +110,8 @@ description: Collections
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
 
+{style="table-layout:auto"}
+
 ### ProofApproval
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
@@ -116,6 +120,8 @@ description: Collections
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Get |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
+
+{style="table-layout:auto"}
 
 &nbsp;
 
@@ -131,6 +137,8 @@ description: Collections
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ### UserGroups
@@ -140,6 +148,8 @@ description: Collections
 | groupID |group |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | isOwner&nbsp; |user&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | userID&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 &nbsp;
 
@@ -157,6 +167,8 @@ description: Collections
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Replace |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ### RsrcPool
@@ -173,6 +185,8 @@ description: Collections
 | lastUpdateByID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | name |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ### DocMetadataLinkGroup
@@ -183,6 +197,8 @@ description: Collections
 | articleName&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Get |
 | pageID&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report |
 | url&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
+
+{style="table-layout:auto"}
 
 &nbsp;
 
@@ -200,7 +216,9 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | updateType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Changes to possible values```&nbsp;
+{style="table-layout:auto"}
+
+¹ Changes to possible values&nbsp;
 
 &nbsp;
 
@@ -212,11 +230,13 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | approvalStartDate¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | workPerDayList |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp;&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ### AccessRule¹
 
-```¹ Flagged as reportable```
+¹ Flagged as reportable
 
 &nbsp;
 
@@ -225,6 +245,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | &nbsp; |&nbsp; |`AttachedApprovalPaths`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 &nbsp;&nbsp;
 
@@ -236,7 +258,9 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`Delete`  |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`Edit`  |
 
-```¹ Reportable Flag Removed```
+{style="table-layout:auto"}
+
+¹ Reportable Flag Removed
 
 &nbsp;
 
@@ -248,9 +272,11 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | approvalStartDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | workPerDayList |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Date Validation Added```
+{style="table-layout:auto"}
 
-```² Not_Filterable Flag Added```
+¹ Date Validation Added
+
+² Not_Filterable Flag Added
 
 &nbsp;
 
@@ -262,7 +288,9 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |swapUsersOnProjects¹ |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |unassignUserFromProjects¹ |&nbsp; |&nbsp; |
 
-```¹ Added field includeIssues```
+{style="table-layout:auto"}
+
+¹ Added field includeIssues
 
 &nbsp;
 
@@ -272,7 +300,9 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | bizRuleExclusions¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Changes to possible values```&nbsp;
+{style="table-layout:auto"}
+
+¹ Changes to possible values&nbsp;
 
 &nbsp;
 
@@ -282,6 +312,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | groupID&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ### Document&nbsp;
@@ -290,6 +322,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | checkOutTimestamp |&nbsp; |&nbsp; |&nbsp; |&nbsp;createProof |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ### DocumentVersion&nbsp;
@@ -297,6 +331,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp;getProofingTokens |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 &nbsp;
 
@@ -307,7 +343,9 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | isPublic |&nbsp;layoutTemplate |userGroups&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | layoutTemplateID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Changed PRECISION validator for 8 to 9```
+{style="table-layout:auto"}
+
+¹ Changed PRECISION validator for 8 to 9
 
 &nbsp;
 
@@ -321,6 +359,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |globalHourTypes&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |objectHourTypes&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ### Journal Entry
@@ -329,7 +369,9 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | changeType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Changes to possible Values```
+{style="table-layout:auto"}
+
+¹ Changes to possible Values
 
 &nbsp;
 
@@ -339,6 +381,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |&nbsp; |&nbsp; |&nbsp; |&nbsp;assignMultiple |&nbsp; |&nbsp; |
 | approvalStartDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 &nbsp;
 
@@ -351,6 +395,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | approvalCompletionDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | approvalStartDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 &nbsp;
@@ -359,7 +405,9 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```allowedLegacyQueueTopicIDs```  |  |  |  |  ```getQueueDefTree``` |&nbsp; |&nbsp; |
+| allowedLegacyQueueTopicIDs  |  |  |  |  getQueueDefTree |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 &nbsp;
 
@@ -369,6 +417,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp;queueTopicID |&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ### Recent
@@ -376,6 +426,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp;updateLastViewedObject |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
 
 &nbsp;
 
@@ -387,6 +439,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | approvalStartDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | workPerDayList |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 ### TemplateTask
@@ -395,13 +449,15 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | workRequired¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Type Changed from Int to Double```&nbsp;
+{style="table-layout:auto"}
+
+¹ Type Changed from Int to Double&nbsp;
 
 &nbsp;
 
 ### User
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
@@ -488,6 +544,8 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | ackDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | ackType |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+{style="table-layout:auto"}
+
 &nbsp;
 
 &nbsp;
@@ -498,4 +556,6 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | &nbsp;name |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Changes to possible Values``` 
+{style="table-layout:auto"}
+
+¹ Changes to possible Values 

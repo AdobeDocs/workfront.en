@@ -5,7 +5,7 @@ draft: Probably
 ---
 # Intacct modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Intacct, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Intacct, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -15,7 +15,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -34,16 +34,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr>
  </tbody> 
 </table>
 
@@ -73,7 +64,7 @@ In your Intacct account, navigate to the **Company** tab.
 
 ### Set up a connection in Workfront Fusion {#set-up-a-connection-in-workfront-fusion}
 
-You can create a connection to your Intacct account directly from inside a Intacct module.
+You can create a connection to your Intacct account directly from inside an Intacct module.
 
 1. In any Intacct module, click **Add** next to the Connection field.
 1. Enter your Intacct credentials
@@ -96,7 +87,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This action module lets you make a custom authenticated call to the Intacct API. This way, you can create a data flow automation that can't be accomplished by the other Intacct modules. 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -106,7 +97,7 @@ This action module lets you make a custom authenticated call to the Intacct API.
   </tr> 
   <tr> 
    <td role="rowheader">Body XML</td> 
-   <td> <p>Include only the XML inside the body. The request will automatically include authentication headers.</p> </td> 
+   <td> <p>Include only the XML inside the body. The request automatically includes authentication headers.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -115,7 +106,7 @@ This action module lets you make a custom authenticated call to the Intacct API.
 
 This search module retrieves a list of records that match specific search criteria.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

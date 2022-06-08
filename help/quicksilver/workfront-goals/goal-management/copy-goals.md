@@ -14,7 +14,7 @@ You can copy goals in&nbsp;Adobe Workfront Goals to create a goal. Some of the o
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -99,6 +99,8 @@ Consider the following when copying goals:
    | Period |The time period during which you want to achieve the goal. Select a time period from the drop-down menu or click **Define custom dates** to indicate a custom time period. By default, the Period is always the current quarter. |
    | Owner |The owner of the goal. It can be a user, team, group, or a company. The default is the owner of the original goal.  |
    | Description |Additional information about the goal.  |
+
+   {style="table-layout:auto"}
 
 1. (Conditional) Select **Copy results** if the original goal had results added to it and you want to copy them to the new goal. This duplicates the original results to the new goal. The results of the copied goal have the same owner, names and measured values as the results of the original goal.
 

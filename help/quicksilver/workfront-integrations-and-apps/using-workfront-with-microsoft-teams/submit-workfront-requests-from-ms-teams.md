@@ -18,7 +18,7 @@ After your team owner installs Adobe Workfront for Microsoft Teams, you can subm
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -74,7 +74,7 @@ Your Microsoft Teams team owner must install Workfront for Microsoft Teams befor
 
    (Depending on how the request queue was set up, the options and boxes you see might vary. For a complete list and description of possible fields, see [Create and submit Adobe Workfront requests](../../manage-work/requests/create-requests/create-submit-requests.md).)
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -114,13 +114,12 @@ Your Microsoft Teams team owner must install Workfront for Microsoft Teams befor
 
    You can view the following information about your submitted requests in the My submitted requests area of the Requests tab:
 
-   | Subject |The name of the request |
-   |---|---|
-   | Reference number |&nbsp; |
-   | Request type |The name of the request queue where you submitted the request |
-   | Status |&nbsp; |
-   | Submitted on |The date when you submitted the request |
-   | Assigned to |&nbsp; |
+   * **Subject**: The name of the request
+   * **Reference number**
+   * **Request type**: The name of the request queue where you submitted the request
+   * **Status**
+   * **Submitted on**: The date when you submitted the request 
+   * **Assigned to** 
 
 1. (Optional) Click the header of any of the columns in the list to sort the list by that column. By default, Workfront sorts the list by the Submitted on date, starting with the most recently submitted request.
 

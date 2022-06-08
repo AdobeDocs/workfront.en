@@ -20,7 +20,7 @@ For general information about assigning work to users using the Workload Balance
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -67,7 +67,7 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
 
    >[!IMPORTANT]
    >
-   >```You cannot view or assign issues from the Unassigned Work area. You can only reassign issues already assigned to users in the Assigned Work area. Otherwise,``` you can assign issues from a list or at the issue level. For information, see [Assign issues](../../manage-work/issues/manage-issues/assign-issues.md).
+   >**You cannot view or assign issues from the Unassigned Work area. You can only reassign issues already assigned to users in the Assigned Work area. Otherwise,** you can assign issues from a list or at the issue level. For information, see [Assign issues](../../manage-work/issues/manage-issues/assign-issues.md).
 
 1. Click the bar of a work item that indicates either the planned or the projected timeline and drag it over the name of a user in the **Assigned** area.
 

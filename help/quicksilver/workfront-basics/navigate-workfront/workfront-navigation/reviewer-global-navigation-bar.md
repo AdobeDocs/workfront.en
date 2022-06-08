@@ -20,7 +20,7 @@ The following areas are included in the default layout of a Reviewer:
 
   >[!TIP]
   >
-  >```Your Workfront or Group administrator may assign you a layout template that could change your default landing page. Using a layout template, you can also view both the Home and the Updates area as a Review-license user.```
+  >Your Workfront or Group administrator may assign you a layout template that could change your default landing page. Using a layout template, you can also view both the Home and the Updates area as a Review-license user.
 
 * **Requests**: You can submit and review requests you or other users from your company have submitted in this area.
 * **Documents**: You can upload documents, or review documents shared with you here.

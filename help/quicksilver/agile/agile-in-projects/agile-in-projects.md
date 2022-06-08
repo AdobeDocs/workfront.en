@@ -4,7 +4,7 @@ content-type: reference
 product-area: agile-and-teams;projects
 navigation-topic: agile-navigation-topic
 title: Agile in projects
-description: This section contains the following articles - EDIT ME.
+description: Review these articles to learn how to use agile in projects.
 ---
 
 # Agile in projects

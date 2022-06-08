@@ -23,7 +23,7 @@ You can review requested projects in the following areas of Adobe Workfront:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

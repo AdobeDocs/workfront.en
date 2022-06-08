@@ -15,7 +15,7 @@ You can use the proofing viewer to compare two different proofs or two versions 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
 
 ## Compare two different proofs
 
-You can compare two proofs within any single document list, such as within the Documents tab in a project, task, issue, portfolio, or within the main Documents area .&nbsp;
+You can compare two proofs within any single document list, such as within the Documents tab in a project, task, issue, portfolio, or within the main Documents area.
 
 1. Go to the document list that contains the two proofed documents you want to compare.
 1. Select the first document that you want to compare, then press and hold the Command key (on Mac) or the Ctrl key (on Windows) and select the second document that you want to compare.

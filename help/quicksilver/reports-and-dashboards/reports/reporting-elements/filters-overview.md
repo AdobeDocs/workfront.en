@@ -4,12 +4,12 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Filters overview in Adobe Workfront
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: You can use filters in Adobe Workfront to reduce the amount of information you display on the screen in lists, reports, or other areas.
 ---
 
 # Filters overview in Adobe Workfront
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+{{highlighted-preview}}
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -30,7 +30,7 @@ There are several types of filters in Workfront. All filters fulfill the same pu
 
 The following are types of filters that you can use in&nbsp;Workfront:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -185,7 +185,7 @@ When you build a filter, you connect multiple elements together that make up fil
 
 A filter contains the following elements:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -310,7 +310,7 @@ This article describes all areas where you can apply filters in&nbsp;Workfront, 
 <h2>Workfront filters</h2>
 <p>There are several types of filters in Workfront. All filters fulfill the same purpose of limiting the amount of information you display on the screen. </p>
 <p>The following are types of filters that you can use in&nbsp;Workfront:</p>
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <tbody>

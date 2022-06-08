@@ -14,7 +14,7 @@ Task constraints determine when a task should start and end on a project. For mo
 
 You must have the following to change the Task Constraint of a task:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -61,6 +61,8 @@ You must have the following to change the Task Constraint of a task:
    | Start No Earlier Than |For information, see [Task Constraint overview: Start No Earlier Than](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md).  |
    | Finish No Later Than |For information, see [Task Constraint overview: Finish No Later Than](../../../manage-work/tasks/task-constraints/finish-no-later-than.md).  |
    | Finish No&nbsp;Earlier Than |For information, see [Task Constraint overview: Finish No Earlier Than](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md).  |
+
+   {style="table-layout:auto"}
 
 1. Click **Save**&nbsp;**Changes**.
 

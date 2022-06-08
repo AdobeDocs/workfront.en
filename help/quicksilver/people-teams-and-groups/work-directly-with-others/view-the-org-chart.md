@@ -14,7 +14,7 @@ The organizational chart feature allows you to to view the organizational chart 
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -38,5 +38,5 @@ You must have the following access to perform the steps in this article:
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture.
 
 1. In the left panel, click **Org Chart**.  
-   ![Organization chart](assets/org-chart-350x214.png)
+   ![Organization chart](assets/org-chart.png)
 

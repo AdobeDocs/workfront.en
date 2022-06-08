@@ -16,7 +16,7 @@ You can use baseline to compare those pieces of information from the current pla
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
 
 You can create a baseline in the following ways:
 
-* **Automatically**: Your Workfront administrator ```or a group administrator``` sets the project preference for Workfront to automatically create a baseline when a project becomes Current. When this setting is enabled, a baseline is created when the project status becomes Current. When this setting is not enabled, you must manually create baselines.
+* **Automatically**: Your Workfront administrator or a group administrator sets the project preference for Workfront to automatically create a baseline when a project becomes Current. When this setting is enabled, a baseline is created when the project status becomes Current. When this setting is not enabled, you must manually create baselines.
 
   For more information about configuring project preferences and setting up automatic baseline creation, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 

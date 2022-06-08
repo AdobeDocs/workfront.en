@@ -16,7 +16,7 @@ You must have Manage permissions to the issue to modify the Priority of the issu
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -50,11 +50,11 @@ Adobe Workfront administrators can&nbsp;modify priority labels within Workfront 
 You should become familiar with the numbering sequence for priorities used in your&nbsp;organization.   
 For example, your organization might&nbsp;use the number 1 to refer to urgent tasks, if the label of the priority has been modified.
 
-For more information about customizing the names of priorities in your instance, see [Create and customize priorities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md).
+For more information about customizing the names of priorities in your instance, see [Create and customize priorities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 Refer to the following table to understand each&nbsp;default priority label and its corresponding number: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 

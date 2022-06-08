@@ -5,12 +5,12 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Markdown modules
-description: In a Adobe Workfront Fusion scenario, you can use the Markdown modules to convert Markdown to HTML and HTML to Markdown.
+description: In an Adobe Workfront Fusion scenario, you can use the Markdown modules to convert Markdown to HTML and HTML to Markdown.
 ---
 
 # Markdown modules
 
-In a Adobe Workfront Fusion scenario, you can use the Markdown modules to convert Markdown to HTML and HTML to Markdown.
+In an Adobe Workfront Fusion scenario, you can use the Markdown modules to convert Markdown to HTML and HTML to Markdown.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -20,7 +20,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -34,21 +34,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  <p>Workfront Fusion for Work Automation </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr>
  </tbody> 
 </table>
 
@@ -62,7 +53,7 @@ This module converts Markdown to HTML.
 
 When you are configuring this module, the following fields display.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -85,7 +76,7 @@ When you are configuring this module, the following fields display.
 
 This module converts HTML code to Markdown.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

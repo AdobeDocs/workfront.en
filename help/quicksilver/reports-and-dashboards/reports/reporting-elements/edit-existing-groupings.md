@@ -15,7 +15,7 @@ You can customize an existing grouping that you originally created or that was s
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

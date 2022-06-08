@@ -6,12 +6,12 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Marketo modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Marketo, as well as connect it to to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Marketo, as well as connect it to multiple third-party applications and services.
 ---
 
 # Marketo modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Marketo, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Marketo, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -40,16 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -91,7 +82,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when a record is created or updated.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -123,7 +114,7 @@ This trigger module starts a scenario when a record is created or updated.
 
 This trigger module starts a scenario when a record is created or updated.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -155,7 +146,7 @@ This trigger module starts a scenario when a record is created or updated.
 
 This action module lets you make a custom authenticated call to the Marketo API. This way, you can create a data flow automation that can't be accomplished by the other Marketo modules. 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -197,7 +188,7 @@ This action module lets you make a custom authenticated call to the Marketo API.
 
 This action module creates a new record in Marketo
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -254,7 +245,7 @@ This action module creates a new record in Marketo
 
 This action module updates an existing record, using its ID.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -310,7 +301,7 @@ This action module updates an existing record, using its ID.
 
 This action module downloads a file by using the file ID.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -329,7 +320,7 @@ This action module downloads a file by using the file ID.
 
 This action module uploads a new file to Marketo.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -356,7 +347,7 @@ This action module uploads a new file to Marketo.
 
 This action module reads information about a record by using its ID.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -390,7 +381,7 @@ This action module reads information about a record by using its ID.
 
 This action module adds one or more leads to a list, by using the lead ID.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -413,7 +404,7 @@ This action module adds one or more leads to a list, by using the lead ID.
 
 This action module removes one or more leads from a list, by using the lead ID.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -436,7 +427,7 @@ This action module removes one or more leads from a list, by using the lead ID.
 
 This action module schedules an existing campaign for a certain date.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -459,7 +450,7 @@ This action module schedules an existing campaign for a certain date.
 
 This action module makes a copy of a program using the existing program's ID. 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -491,7 +482,7 @@ This action module makes a copy of a program using the existing program's ID.
 
 This action module retrieves all records of a specific type.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -527,7 +518,7 @@ This action module retrieves all records of a specific type.
 
 This search module retrieves a list of records that match specific search criteria.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -18,7 +18,7 @@ You can view or edit the financial information of a task by accessing the Overvi
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -69,7 +69,7 @@ You must have the following access to perform the steps in this article:
 1. Edit any field that is available for editing, by single-clicking the field or click **+Add** to add information to an empty field.
 1. Review or edit the following information  in the **Finance** area : 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

@@ -14,7 +14,7 @@ You can convert emails to Adobe Workfront tasks or issues. After an email is con
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -82,10 +82,23 @@ Your Workfront administrator must enable Outlook for Office with Workfront befor
 1. (Optional) Specify the **Due by date**. This becomes the Planned Completion Date of the task or issue.
 1. (Optional) Update the following information from the email before it is saved as a task or issue ( required fields are preceded by an asterisk).
 
-   | Task or Issue Name |By default, the task name is the same as the email Subject. You can modify the task name as desired. |
-   |---|---|
-   | Description |By default, the description is the same as the email Body. You can modify the description&nbsp;as desired. |
-   | Attachments |Any email attachments are saved to the Documents area of the task or issue. You can delete any attachments before saving&nbsp;the email as a task or issue. |
+    <table style="table-layout:auto">
+      <tr>
+        <td>Task or Issue Name</td>
+        <td>By default, the task name is the same as the email Subject. You can modify the task name as desired.</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Description</td>
+        <td>By default, the description is the same as the email Body. You can modify the description&amp;nbsp;as desired.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Attachments</td>
+        <td>Any email attachments are saved to the Documents area of the task or issue. You can delete any attachments before saving&amp;nbsp;the email as a task or issue.</td>
+      </tr>
+   </table>
 
 1. Click **Add**.
 

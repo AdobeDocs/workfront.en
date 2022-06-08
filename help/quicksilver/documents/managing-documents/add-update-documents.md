@@ -14,7 +14,7 @@ You can add or reply to updates on a document to communicate with collaborators 
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

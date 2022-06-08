@@ -15,7 +15,7 @@ You can adjust the deadline for proofs you create or own.
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -53,6 +53,8 @@ You must have the following access to perform the steps in this article:
    |---|---|
    | Edit an existing deadline |Double-click the date and time in the upper-right corner of the stage,&nbsp;then&nbsp;specify a date and time for the deadline. |
    | Delete an existing deadline |Double-click the date and time in the upper-right corner of the stage,&nbsp;then click **Clear** at the bottom of the Calendar box that appears. |
+
+   {style="table-layout:auto"}
 
 1. To save your change, click outside the deadline box.
 1. In the prompt that appears, specify whether you want to send an email alert to reviewers.&nbsp;

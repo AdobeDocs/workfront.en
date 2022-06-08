@@ -14,7 +14,7 @@ You can use the proof approval report to view information about proofs in your e
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -56,7 +56,7 @@ You can add the following fields to the proof approval report:
 * **Decision Date**: Displays the date an approver makes a decision on a proof. You can also find this date on the Print Summary of the proof.
 * **Approver Stage**: Displays the current stage information.
 * **Workflow Template**: Displays any workflow templates attached to the proof. If there is no template attached, the column is blank.
-* **Awaiting decision**: Displays true to signal a decision has not been met when the following are true:
+* **Awaiting decision**: Displays true to signal a decision has not been met on the latest version when the following are true:
 
    * The proof has not been archived
    * The stage the approver is on is active

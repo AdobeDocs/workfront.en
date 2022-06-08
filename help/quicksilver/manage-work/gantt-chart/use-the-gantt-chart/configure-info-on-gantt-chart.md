@@ -15,7 +15,7 @@ You can configure what information displays&nbsp;in both the Task List Gantt Cha
 
 You must have the following to follow the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -44,7 +44,7 @@ You must have the following to follow the steps in this article:
 
 The following table details the display options for the Gantt chart: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

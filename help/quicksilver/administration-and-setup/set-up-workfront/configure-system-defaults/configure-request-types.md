@@ -17,7 +17,7 @@ For information about creating issues in Workfront, see [Create issues](../../..
 
 You must have the following access to perform the steps in this article: 
 
-<<table style="table-layout:auto">> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

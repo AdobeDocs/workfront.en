@@ -9,7 +9,7 @@ description: As a group administrator, you can change the order of project, task
 
 # Reorder group statuses
 
-As a ```group administrator```, you can change the order of project, task, and issue statuses for ```a group you manage```.
+As a group administrator, you can change the order of project, task, and issue statuses for a group you manage.
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.</p>
@@ -113,7 +113,7 @@ By default, statuses display in the following order:
 
    The new status order is saved automatically.
 
-1. To test the new status order, go to a task or project ```associated with the group```, click the status in the upper-right corner, and make sure the statuses that display are in the order that you configured.
+1. To test the new status order, go to a task or project associated with the group, click the status in the upper-right corner, and make sure the statuses that display are in the order that you configured.
 
 ## Reorder statuses for issues
 
@@ -133,5 +133,5 @@ By default, statuses display in the following order:
 
    The new status order is saved automatically.
 
-1. To test the new status order, go to an issue ```associated with the group```, click the status in the upper-right corner, and make sure the statuses that display are in the order that you configured.
+1. To test the new status order, go to an issue associated with the group, click the status in the upper-right corner, and make sure the statuses that display are in the order that you configured.
 

@@ -14,7 +14,7 @@ When you receive a Adobe Workfront email notification in your Outlook inbox, you
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

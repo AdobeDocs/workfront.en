@@ -6,13 +6,13 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Word Template modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use MIcrosoft Word Templates, as well as connect it to to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use MIcrosoft Word Templates, as well as connect it to multiple third-party applications and services.
 hidefromtoc: true
 ---
 
 # Microsoft Word Template modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use MIcrosoft Word Templates, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use MIcrosoft Word Templates, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -22,7 +22,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -164,7 +164,7 @@ These modules do not require a connection.
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">This transformer module lets you fill a document with data you specify. It can be used with simple values tags, conditional tags, or loop tags. </p>
 -->
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -222,7 +222,7 @@ The actual values are created and populated for each incoming bundle. The templa
 
 This aggregator module is especially useful for creating lists or reports.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

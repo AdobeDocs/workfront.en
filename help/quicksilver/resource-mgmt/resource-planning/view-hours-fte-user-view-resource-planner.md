@@ -59,7 +59,7 @@ Refer to the following tables for understanding the information displayed in the
 
 ### The AVL&nbsp;(Available) column {#the-avl-available-column}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -90,7 +90,7 @@ For more information about how user and role availability is calculated based on
 
 ### The PLN (Planned) column {#the-pln-planned-column}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -150,7 +150,7 @@ For more information about Planned Hours and FTE in the Resource Planner, see [O
 
 ### The&nbsp;ACT (Actual)&nbsp;column
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -197,7 +197,7 @@ For more information about Actual Hours, see [View Actual Hours](../../manage-wo
 
 ### The DIF (Difference) column {#the-dif-difference-column}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -226,7 +226,7 @@ For more information about Actual Hours, see [View Actual Hours](../../manage-wo
 
 ### The % (Planned Hours Allocation Percentage) column {#the-planned-hours-allocation-percentage-column}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -262,7 +262,7 @@ For more information about Planned Hours and FTE and how they are displayed in t
 -->
 
 <!--
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <col>

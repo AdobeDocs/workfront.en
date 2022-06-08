@@ -23,7 +23,7 @@ If you run a report with the access rights of another user who has higher access
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

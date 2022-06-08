@@ -25,6 +25,8 @@ You can share folders and collections that contain hidden content with another u
 | Manager or higher |View |User is notified of the content, and a thumbnail of the content displays in the user's Library area. The user can open and download the content, and add it to folders and collections. |
 | Manager or higher |Manage |User has full access to the content. |
 
+{style="table-layout:auto"}
+
 For more information on user access, see [Overview of user access to Workfront Library](../../workfront-library/administration-and-setup/user-access/user-access-overview.md).
 
 Hidden content is labeled in the title bar as "hidden."

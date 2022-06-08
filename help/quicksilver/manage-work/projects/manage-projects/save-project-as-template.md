@@ -18,7 +18,7 @@ If you decide that a project is going to occur again sometime in the future, you
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png), then **Save as Template**. 
 1. Specify the following information for the template:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

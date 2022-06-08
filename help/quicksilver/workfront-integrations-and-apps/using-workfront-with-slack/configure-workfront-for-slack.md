@@ -23,7 +23,7 @@ When you integrate your Slack instance with Workfront users can use Workfront wh
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

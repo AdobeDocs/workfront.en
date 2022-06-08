@@ -20,7 +20,7 @@ For more information about creating a timesheet manually, see [Create a single-u
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -73,7 +73,7 @@ You must have the following to perform the steps in this article:
 
 1. On the**Set Details** tab, type a **Name** and **Description** for the timesheet profile and supply the following information:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

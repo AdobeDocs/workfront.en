@@ -12,7 +12,7 @@ description: You must have the following access to perform the steps in this art
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
 
 The following filter buttons do not display in their respective areas:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -64,7 +64,7 @@ The following filter buttons do not display in their respective areas:
 
 ## Solution
 
-The filter buttons in the Projects and ```Timesheets``` area do not display because the corresponding filters are not included in the layout template applied to the user. The Workfront administrator must assign a layout template that includes the filters.
+The filter buttons in the Projects and Timesheets area do not display because the corresponding filters are not included in the layout template applied to the user. The Workfront administrator must assign a layout template that includes the filters.
 
 >[!NOTE]
 >
@@ -79,8 +79,8 @@ The filter buttons in the Projects and ```Timesheets``` area do not display beca
 
    1. Access the layout template.
    1. Select **Lists** under **Customize what users see**.
-   1. Select **Projects** or ```Timesheets``` under **Select a list to customize**.
-   1. In the **Filter** section, verify that **Projects I'm On**, **Projects I Own** (for projects) and ```**My Timesheet Approvals** and **My Timesheets** (for timesheets)``` are selected.
+   1. Select **Projects** or **Timesheets** under **Select a list to customize**.
+   1. In the **Filter** section, verify that **Projects I'm On**, **Projects I Own** (for projects) and **My Timesheet Approvals** and **My Timesheets** (for timesheets) are selected.
    1. Click **Save**.
 
    For more information, see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).

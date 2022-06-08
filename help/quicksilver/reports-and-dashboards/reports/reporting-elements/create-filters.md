@@ -34,7 +34,7 @@ You can apply the following types of filters in&nbsp;a list of objects:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -141,7 +141,7 @@ See also:
 </ul>
 <h2>Access requirements</h2>
 <p>You must have the following access to perform the steps in this article:</p>
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <tbody>
@@ -170,7 +170,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
 <h2>Types of filter-building interfaces</h2>
 <p>You can create filters using the types of filter builders described in the table below: </p>
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <col>
@@ -318,7 +318,7 @@ The report creator must allow for filters to be edited in order to view the&nbsp
 The header of the filter builder interface changes to blue when you enable the beta builder. After you enabled the beta builder interface, Workfront keeps it enabled for all areas where it is available.
 </note> <p> <img src="assets/new-filters-my-filters-suggested-shared-filter-lists-nwe-350x234.png" style="width: 350;height: 234;"> </p> </li>
 <li value="3"> <p>Review the following lists of filters:</p>
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <tbody>
@@ -344,7 +344,7 @@ The header of the filter builder interface changes to blue when you enable the b
 <li> <p>Hover over an existing filter that you have permissions to manage and click the <strong>Edit</strong> icon <img src="assets/edit-icon.png"> to edit an existing filter. </p> <p>Or</p> <p>Hover over an existing filter that you have permissions to manage and click&nbsp;<strong>Duplicate</strong> to copy the existing filter and edit a copy. </p> </li>
 </ul> <p> <img src="assets/new-filters-more-menu-options-wb-nwe.png"> </p> </li>
 <li value="5"> <p>(Conditional) Depending on whether you want to find objects that match all or any of the statements in a filter group select from the following options: </p>
-<table>
+<table style="table-layout:auto">
 <col>
 <col>
 <tbody>

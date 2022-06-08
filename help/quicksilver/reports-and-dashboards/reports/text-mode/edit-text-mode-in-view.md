@@ -18,7 +18,7 @@ You can edit a view in a list or report using text mode to access fields that ar
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -102,7 +102,7 @@ For information about creating a report, see [Create a custom report](../../../r
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make this a snippet and add it to the grouping article too)</p>
    -->
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <thead> 

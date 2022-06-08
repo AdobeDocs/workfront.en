@@ -17,8 +17,8 @@ In order for this automatic status change to occur, the following is required:
   For information about creating request queues, see the [Create and manage Request Queues](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) section. For information about creating requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 * The Queue Details in the request queue must have these settings:  
-  **When someone makes a request, automatically grant** is set to **Contribute Access** 
-  **Change Status** is selected under Advanced Settings
+  * **When someone makes a request, automatically grant** is set to **Contribute Access** 
+  * **Change Status** is selected under Advanced Settings
 
   ![Queue Details give Contribute Access and Change Status is selected.](assets/queuedetails-contributeaccess-changestatus.png)
 

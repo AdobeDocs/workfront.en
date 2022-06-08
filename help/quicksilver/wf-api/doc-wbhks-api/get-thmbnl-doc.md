@@ -22,6 +22,8 @@ GET /thumbnail
 | id&nbsp; |The document ID. |
 | size&nbsp; |&nbsp;The width of the thumbnail. |
 
+{style="table-layout:auto"}
+
 ## Response
 
 The raw thumbnail bytes.

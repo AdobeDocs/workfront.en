@@ -55,7 +55,7 @@ later this year
 
 ### Administrator enhancements {#administrator-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -106,7 +106,7 @@ later this year
 
 ### Project enhancements {#project-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -203,7 +203,7 @@ later this year
 
 ### Integration enhancements {#integration-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -227,7 +227,7 @@ later this year
 
 ### Other enhancements {#other-enhancements}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -236,15 +236,7 @@ later this year
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md#global" class="MCXref xref" xrefformat="{para}">Global look and feel updates</a> </p> <p>To better align Adobe products and to improve consistency throughout the Workfront application, we're releasing minor cosmetic styling changes throughout the Workfront user interface.</p> <p>Buttons, colors, and fonts are now updated throughout the Workfront application.</p> <p>These updates are solely visual changes; the underlying functionality remains unchanged.</p> </td> 
-   <td> <p><b>Available on these dates:</b> </p> 
-    <ul> 
-     <li> <p>Preview release: April 21, 2022<br></p> </li> 
-     <li> <p>Production release:&nbsp;May 5, 2022</p> </li> 
-    </ul> <p><strong>Available in these environments:</strong> </p> 
-    <ul> 
-     <li> <p>The new Adobe Workfront experience </p> </li> 
-    </ul> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md#global" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 22.3 release timeframe</a> </p> <p>Minor updates to the look and feel of various areas of the  application are being made within the 22.3 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview.</p>
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-may-2.md#enable" class="MCXref xref" xrefformat="{para}">Enable automatic refresh token rotation in your custom OAuth2 applications</a> <span style="color: #ff0000; font-weight: bold;">New in Preview!</span></p> <p>To allow you more control over the security of your custom OAuth2 applications, we've added to option to enable refresh token rotation. When this option is enabled, every time a refresh token is used, your application automatically creates and sends a new refresh token, and disables the old one.</p> <p>Your application must store the new refresh token after every refresh. Workfront does not store this refresh token.</p> <p>Previously, refresh tokens expired after a set amount of time configured in the custom OAuth2 application settings.</p> </td> 

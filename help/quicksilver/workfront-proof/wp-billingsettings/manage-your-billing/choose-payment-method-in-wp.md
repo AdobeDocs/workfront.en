@@ -22,6 +22,8 @@ The following payment options are available:
 | credit card |credit card |
 | bank transfer |
 
+{style="table-layout:auto"}
+
 We do not accept checks
 
 ## Changing your payment method and credit&nbsp;card details {#changing-your-payment-method-and-credit-card-details}

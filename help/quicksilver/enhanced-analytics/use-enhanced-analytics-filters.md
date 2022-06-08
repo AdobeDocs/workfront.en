@@ -21,7 +21,7 @@ You can add and remove filters as needed and Adobe Workfront retains the filters
 
 To complete this task, you must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <caption style="text-align: left;">
   *To find out what plan, license type, or access you have, contact your Workfront administrator.
  </caption> 
@@ -116,6 +116,8 @@ The following project field filter types are available:
 | **Status** |Displays data for only projects that most recently had the selected statuses (complete, current, on hold, cancelled, etc.) |
 | **Sponsor** |Displays data for only projects with the selected sponsor(s) |
 | **Project Owner** |Displays data for only projects with the selected project owner(s) |
+
+{style="table-layout:auto"}
 
 Custom Form filters work differently. For more information, see [Add a project field filter](#add-a-project-field-filter).
 

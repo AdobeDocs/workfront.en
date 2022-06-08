@@ -52,6 +52,8 @@ You must have the following to perform the steps in this article:
    |---|---|
    | Description |Specify a description for the scorecard. The description is displayed next to the scorecard name in the scorecard list. |
 
+   {style="table-layout:auto"}
+
 1. Click the **Add Question** drop-down menu to open the scorecard question section.
 
    ![](assets/3-350x76.png)
@@ -93,6 +95,8 @@ You must have the following to perform the steps in this article:
      | Value |Specify the value in percentage points of this answer, in case that it is fulfilled. If you choose 100%, the number of points allotted for this question is fully achieved. If you want to indicate that this answer carries only a portion of the total amount of points allotted to this question, select a lower percentage value for this answer. For example, if your question is valued at 10 points, and you want this answer to carry 5 of those points, choose 50% for your **Value**. |
      | Default |Specify whether this answer is the default one. |
      | Delete |You can&nbsp;delete an answer, if you consider it to no longer be pertinent. |
+
+     {style="table-layout:auto"}
 
    * **Radio Button:** If selected, the **Options** section is now displayed.
 

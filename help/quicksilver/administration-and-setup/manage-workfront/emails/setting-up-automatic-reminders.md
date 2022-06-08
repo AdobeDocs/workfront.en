@@ -64,6 +64,8 @@ You must have the following access to perform the steps in this article:
    | The manager's manager |Select this option if you want the immediate manager's manager&nbsp;to receive a late notification about a&nbsp;work item of one of their direct report's users being late. |
    | The 'Assigned To' user |(In he **Send deadline reminder to** area.) Select this option if you want the user assigned to a task or an issue to receive a notification about their work item approaching the&nbsp;due date. |
 
+   {style="table-layout:auto"}
+
 1. Select the time&nbsp;for the automatic reminder to send by selecting the amount of time before or after the due date of the work item.
 
    The time is calculated from the Planned Completion Date of the task or issue.

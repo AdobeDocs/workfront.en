@@ -6,10 +6,12 @@ product-area: workfront-integrations;calendars
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365 Calendar
-description: In order to use Office 365 Calendar with Adobe Workfront Fusion, it is necessary to have an Office 365 Excel account. You can create one at www.office.com.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Office 365 Calendar, as well as connect it to multiple third-party applications and services.
 ---
 
 # Microsoft Office 365 Calendar
+
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Office 365 Calendar, as well as connect it to multiple third-party applications and services.
 
 In order to use Office 365 Calendar with Adobe Workfront Fusion, it is necessary to have an Office 365 Excel account. You can create one at [www.office.com](http://www.office.com/).
 
@@ -21,7 +23,7 @@ After you grant consent, you are redirected back to the Workfront Fusion adminis
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -40,16 +42,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -86,7 +79,12 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module retrieves details of an event when the event is created, updated, deleted, started, or ended in the selected calendar.
 
-<table> 
+>[!NOTE]
+>
+>To watch for deleted occurrences of an event series, select By Updated Time in the Watch events field. This module does not watch for deleted single events or deleted event series.
+
+
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -125,7 +123,7 @@ This trigger module retrieves details of an event when the event is created, upd
 
 This search module retreves details of an event when the event is created, updated, deleted, started, or ended in the selected calendar.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -172,7 +170,7 @@ This search module retreves details of an event when the event is created, updat
 
 This action module retrieves details of the specified event.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -191,7 +189,7 @@ This action module retrieves details of the specified event.
 
 This action module creates a new event.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -209,7 +207,7 @@ This action module creates a new event.
   </tr> 
   <tr> 
    <td role="rowheader">End date</td> 
-   <td> Enter a single point of time when the event ends in a combined date and time representation. Use the format <code>({date}T{time}</code>; for example, <code>2017-08-29T04:00:00.0000000</code>. For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</td> 
+   <td> Enter a single point of time when the event ends in a combined date and time representation. Use the format <code>{date}T{time}</code>; for example, <code>2017-08-29T04:00:00.0000000</code>. For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Reminder on</td> 
@@ -283,9 +281,9 @@ This action module creates a new event.
 
 #### Update an Event {#update-an-event}
 
-Updates an existing event.
+This action module updates an existing event.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -303,7 +301,7 @@ Updates an existing event.
   </tr> 
   <tr> 
    <td role="rowheader">Start date</td> 
-   <td> Enter a single point of time when the event starts in a combined date and time representation. Use the format <code>({date}T{time}</code>; for example, <code>2017-08-29T04:00:00.0000000</code>. For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</td> 
+   <td> Enter a single point of time when the event starts in a combined date and time representation. Use the format <code>{date}T{time}</code>; for example, <code>2017-08-29T04:00:00.0000000</code>. For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">End date</td> 
@@ -381,9 +379,9 @@ Updates an existing event.
 
 #### Delete an Event {#delete-an-event}
 
-Deletes an existing event.
+This action module deletes an existing event.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -408,9 +406,9 @@ Deletes an existing event.
 
 #### List Calendars {#list-calendars}
 
-Retrieves a list of all of the authenticated user's calendars.
+This search module retrieves a list of all of the authenticated user's calendars.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -431,9 +429,9 @@ Retrieves a list of all of the authenticated user's calendars.
 
 #### Get a Calendar {#get-a-calendar}
 
-Deletes an existing event.
+This action module retrieves details about a single calendar.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -450,9 +448,9 @@ Deletes an existing event.
 
 #### Create a Calendar {#create-a-calendar}
 
-Creates a new calendar in your Google account.
+This action module creates a new calendar in your Google account.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -469,9 +467,9 @@ Creates a new calendar in your Google account.
 
 #### Update a Calendar {#update-a-calendar}
 
-Edits an existing calendar.
+This action module edits an existing calendar.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -492,9 +490,9 @@ Edits an existing calendar.
 
 #### Delete a Calendar {#delete-a-calendar}
 
-Deletes an existing calendar.
+This action module deletes an existing calendar.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -515,7 +513,7 @@ Deletes an existing calendar.
 
 This module allows you to perform a custom API call.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

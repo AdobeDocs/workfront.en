@@ -21,7 +21,7 @@ The user you are sending the message to receives the following types of notifica
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 
 1. On the **Updates** tab, click in the text box field.
 
-   ![Message user on the Updates tab](assets/message-user-nwe-350x166.png)
+   ![Message user on the Updates tab](assets/message-user-NWE.png)
 
 1. Type your message.
 1. (Optional) Click in the **Notify** field, then begin typing the name of another user you want to include in this message.  

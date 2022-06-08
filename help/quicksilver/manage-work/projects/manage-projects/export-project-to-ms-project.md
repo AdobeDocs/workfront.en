@@ -21,7 +21,7 @@ You can export Adobe Workfront projects to Microsoft Project.&nbsp;
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
 ## Export a project from Workfront to Microsoft Project
 
-You can export a project from Workfront from the project page ```or from a project list or report```.
+You can export a project from Workfront from the project page or from a project list or report.
 
 1. Go to the project you want to export and click the **More** icon ![](assets/qs-more-menu.png) to the right of the project name
 
@@ -56,7 +56,7 @@ You can export a project from Workfront from the project page ```or from a proje
 
    Or
 
-   ```Go to a project list or report and select a project, then click the More icon ![](assets/qs-more-menu.png) at the top of the list.```
+   Go to a project list or report and select a project, then click the More icon ![](assets/qs-more-menu.png) at the top of the list.
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 

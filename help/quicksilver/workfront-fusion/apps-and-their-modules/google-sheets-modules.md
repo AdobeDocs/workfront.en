@@ -11,14 +11,7 @@ description: In order to use Google Sheets with Adobe Workfront Fusion,you need 
 
 # Google Sheets modules
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">In order to use Google Sheets with Adobe Workfront Fusion,you need the Workfront Fusion Google Sheets extension (optional, but required for instant triggers).
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-</MadCap:conditionalText>
-</p>
--->
-
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Google, as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Google, as well as connect it to multiple third-party applications and services.
 
 For instructions about connecting your Google Sheets account to Workfront Fusion, see [Create a connection to Adobe Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
@@ -26,7 +19,7 @@ For instructions about connecting your Google Sheets account to Workfront Fusion
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -45,15 +38,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-    </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -64,34 +49,6 @@ You must have the following access to use the functionality in this article:
 ## Prerequisites
 
 To use Google Sheets modules, you must have a Google account.
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2>Connecting Instant Triggers (Perform a Function, Watch Changes) using the Workfront Fusion Google Sheets Add-on</h2>
-<p>In order to use instant triggers, the Workfront Fusion add-on must be installed in your spreadsheet and a connection between the Workfront Fusion module and Google Sheets must be established.</p>
-<ul>
-<li><a href="#workfront-fusion-add-on-installation" class="MCXref xref">Workfront Fusion Add-on Installation</a> </li>
-<li><a href="#connecting-the-instant-trigger-module-to-a-google-sheets-spreadsheet" class="MCXref xref">Connecting the Instant Trigger Module to a Google Sheets Spreadsheet</a> </li>
-</ul>
-<p><strong>Workfront Fusion Add-on Installation</strong></p>
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">There doesn't actually seem to be a Fusion add-on</p>
-<ol>
-<li value="1">Open the spreadsheet you want to install the extension to.</li>
-<li value="2">Click the <strong>Add-ons</strong> tab near the top of the screen and select <strong>Get add-ons</strong> from the dropdown menu.</li>
-<li value="3">Search for the Workfront Fusion add-on.</li>
-<li value="4">Click the <strong>+Free</strong> button to install the Workfront Fusion add-on.</li>
-<li value="5">Click the <strong>Allow</strong> button to grant access rights.</li>
-</ol>
-<p>The Workfront Fusion add-on is now installed.</p>
-<p><strong>Connecting the Instant Trigger Module to a Google Sheets Spreadsheet</strong></p>
-<p>In Workfront Fusion, open the Google Sheets Watch Changes Module. Make sure that you have webhook established.</p>
-<p>Copy the provided webhook address to the clipboard and click <strong>OK</strong>.</p>
-<p>Open your spreadsheet.</p>
-<p>Open the Workfront Fusion add-on settings.</p>
-<p>Paste the webhook URL you have copied in step 1 to the Webhook URL field in the Watch Updates settings section or Perform a Function section, depending upon which module you are using.</p>
-<p>Click the <strong>Save</strong> button to save the changes in the Workfront Fusion add-on.</p>
-</div>
--->
 
 ## Triggers
 
@@ -105,7 +62,7 @@ The module retrieves only new rows that have not been filled in before. The trig
 >
 >If the worksheet contains a blank row, no rows after the blank row will be processed.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -176,7 +133,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -235,7 +192,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This module allows you to change the cell content in a selected row.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -286,7 +243,7 @@ This module allows you to change the cell content in a selected row.
 
 Deletes values from a specified row.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -304,7 +261,7 @@ Deletes values from a specified row.
   </tr> 
   <tr> 
    <td>Row number</td> 
-   <td> <p>Enter the number of the row you want to clear data from. For example, <code> 23</code></p> </td> 
+   <td> <p>Enter the number of the row you want to clear data from. For example, <code> 23</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -313,7 +270,7 @@ Deletes values from a specified row.
 
 Deletes a specified row.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -340,7 +297,7 @@ Deletes a specified row.
 
 Retrieves a value from a selected cell.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -373,7 +330,7 @@ Retrieves a value from a selected cell.
 
 ### Update a Cell {#update-a-cell}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -408,7 +365,7 @@ Retrieves a value from a selected cell.
 
 Deletes a value from a specified cell.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -426,7 +383,7 @@ Deletes a value from a specified cell.
   </tr> 
   <tr> 
    <td>Cell </td> 
-   <td> <p>Enter the ID of the cell you want to clear. Example: <code>A5</code></p> </td> 
+   <td> <p>Enter the ID of the cell you want to clear. Example: <code>A5</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -435,7 +392,7 @@ Deletes a value from a specified cell.
 
 Creates a new sheet in a selected spreadsheet.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -460,7 +417,7 @@ Creates a new sheet in a selected spreadsheet.
 
 ### Create a Spreadsheet {#create-a-spreadsheet}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -504,7 +461,7 @@ Creates a new sheet in a selected spreadsheet.
 
 Deletes a specific sheet.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -527,7 +484,7 @@ Deletes a specific sheet.
 
 This action module allows you to perform a custom API call.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -572,7 +529,7 @@ This action module allows you to perform a custom API call.
 
 Searches rows using the filter options.
 
-<table> 
+<table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
@@ -627,7 +584,7 @@ Searches rows using the filter options.
 
 Returns results matching the given criteria.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -652,7 +609,7 @@ Returns results matching the given criteria.
 
 ### Get Range Values {#get-range-values}
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -695,7 +652,7 @@ Returns results matching the given criteria.
 
 This module returns a list of all sheets in a spreadsheet.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -712,13 +669,7 @@ This module returns a list of all sheets in a spreadsheet.
 
 ## Usage Limits
 
-If the error 
-
-```
-429: RESOURCE_EXHAUSTED
-```
-
-occurs, you have exceeded the API rate limit.
+If the error `429: RESOURCE_EXHAUSTED` occurs, you have exceeded the API rate limit.
 
 The Google Sheets API has a limit of 500 requests per 100 seconds per project, and 100 requests per 100 seconds per user. Limits for reads and writes are tracked separately. There is no daily usage limit.
 
@@ -746,27 +697,13 @@ Use the Search Rows (Advanced) module & use this formula to get the columns whic
 1. Design a button and click the **Save and Close** button in the top-right corner:
 1. The button will be placed in your worksheet. Click the three vertical dots in the button's top-right corner:
 1. Choose **Assign script...** from the menu.
-1. Enter the name of your script (function), e.g. 
-
-   ```
-   runScenario
-   ```
-
-   and click **OK**:
+1. Enter the name of your script (function), e.g. `runScenario` and click **OK**:
 1. Choose **Tools** > **Script editor** from the main menu bar.
 
 1. Insert the following code:
 
    * The name of the function must correspond to the name you specified in step 9.
-   * Replace the URL    
-   
-     <!--   
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     https://hook.workfrontfusion.com/xxx...xxx URL   
-     </MadCap:conditionalText>   
-     -->   
-   
-     with the webhook's URL you copied in step 2.
+   * Replace the URL with the webhook's URL you copied in step 2.
      <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
 
 1. Press **Ctrl+S** to save the script file, enter a project name and click **OK**.
@@ -777,13 +714,7 @@ Use the Search Rows (Advanced) module & use this formula to get the columns whic
 
 ## Storing dates in a spreadsheet
 
-If you store a Date value in a spreadsheet without any formatting, it will appear in the spreadsheet as text in ISO 8601 format. However, Google Sheets formulas or functions that work with dates that do not understand this text (Example: formula 
-
-```
-=A1+10
-```
-
-) will display the following error:
+If you store a Date value in a spreadsheet without any formatting, it will appear in the spreadsheet as text in ISO 8601 format. However, Google Sheets formulas or functions that work with dates that do not understand this text (Example: formula `=A1+10`) will display the following error:
 
 ![](assets/mceclip6-350x87.png)
 
@@ -797,13 +728,7 @@ To determine the correct format:
 
 1. To compose the correct format that should be passed to the formatDate() function, refer to the list of [Tokens for date and time formatting in Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md).
 
-**Example:** The use of 
-
-```
-M/D/YYYY HH:mm:ss
-```
-
-format for the United States locale:
+**Example:** The use of `MM/DD/YYYY HH:mm:ss` format for the United States locale:
 
 ![](assets/locale-time-350x83.png)
 

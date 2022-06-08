@@ -27,7 +27,7 @@ Welcome to Adobe Workfront! We know you have questions and are not always sure w
 
 To learn more about Workfront, you can:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -69,7 +69,7 @@ To learn more about Workfront, you can:
 
 The following resources can help you determine how you can use Workfront:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -101,7 +101,7 @@ The following resources can help you determine how you can use Workfront:
 
 These 3 steps can help you as a Workfront administrator stay on top of each new release:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -147,6 +147,8 @@ The following resources can help you learn more about the Workfront API&nbsp;and
 | [Workfront built-in integrations](https://www.workfront.com/integrations)  |Workfront's free built-in integrations allow you and your team to smoothly transition into the Workfront platform while maintaining the same workflows and processes. |
 | [Adobe Workfront Fusion](../../workfront-fusion/workfront-fusion-2.md)  |Connects Workfront to 100+ applications, making it easy to automate your business critical processes without code. |
 | [Adobe Workfront API Developer forum](../../wf-api/general/api-developer-forum.md)  |For those who are looking to access API documentation, participate in our development forum, or read our tech blog, this site is the place for you. |
+
+{style="table-layout:auto"}
 
 ## When does Workfront do maintenance? How do I find out if Workfront is down?
 

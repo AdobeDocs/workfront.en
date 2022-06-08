@@ -14,7 +14,7 @@ Submitting your timesheet for approval provides&nbsp;your manager with visibilit
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -109,7 +109,7 @@ To view the status of a timesheet:
 
    Timesheets may have the following statuses:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

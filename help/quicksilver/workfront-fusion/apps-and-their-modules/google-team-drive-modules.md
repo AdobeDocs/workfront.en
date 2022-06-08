@@ -15,7 +15,7 @@ The Adobe Workfront Fusion Google Team Drive modules enable you to monitor, uplo
 
 In order to use Google Team Drive with Adobe Workfront Fusion, it is necessary to have a G Suite account. If you do not have one, you can create a G Suite account at the [G Suite sign up site](https://gsuite.google.com/signup/businessstarter/welcome).
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use [Fusion app], as well as connect it to to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use [Fusion app], as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -25,7 +25,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -44,16 +44,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -83,7 +74,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 Returns file details when a new file is added and/or modified in the specified folder.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -145,7 +136,7 @@ Returns file details when a new file is added and/or modified in the specified f
 
 Uploads a file to the specified shared drive.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -180,7 +171,7 @@ Uploads a file to the specified shared drive.
 
 Allows you to change the file name and/or file content.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -219,7 +210,7 @@ Allows you to change the file name and/or file content.
 
 Copies a specified file to the selected folder.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -250,7 +241,7 @@ Copies a specified file to the selected folder.
 
 Deletes a specified file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -269,7 +260,7 @@ Deletes a specified file.
 
 Moves a specified file to the trash bin.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -288,7 +279,7 @@ Moves a specified file to the trash bin.
 
 Retrieves details about the specified file.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -323,7 +314,7 @@ Retrieves details about the specified file.
 
 Retrieves files and/or folders details based on the search term.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -367,7 +358,7 @@ Retrieves files and/or folders details based on the search term.
 
 Creates a new folder.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

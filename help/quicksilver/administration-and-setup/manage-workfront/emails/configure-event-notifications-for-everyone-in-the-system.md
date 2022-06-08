@@ -56,7 +56,7 @@ You must enable notifications in the Setup area of Workfront before users can en
 
 >[!TIP]
 >
->```You cannot activate notifications for Workfront Goals from the Setup area.``` Users ```can activate these notifications only in their profiles. Users with Plan licenses can activate them for other users. For information about enabling Workfront Goals notifications for users, see``` [Notifications: Goals](../../../workfront-basics/using-notifications/notifications-goals.md).
+>You cannot activate notifications for Workfront Goals from the Setup area. Users can activate these notifications only in their profiles. Users with Plan licenses can activate them for other users. For information about enabling Workfront Goals notifications for users, see [Notifications: Goals](../../../workfront-basics/using-notifications/notifications-goals.md).
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 

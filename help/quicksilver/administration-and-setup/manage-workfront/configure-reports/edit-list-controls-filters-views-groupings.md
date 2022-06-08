@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 1. In the left panel, click **Interface** > **List Controls**.  
 
 1. Click **Edit List Controls**.
-1. In the **Object Type** drop-down ```menu```, click the object ```type for which you want to filters, views, and groupings```.
+1. In the **Object Type** drop-down menu, click the object type for which you want to filters, views, and groupings.
 
    Four columns display, containing the following:
 

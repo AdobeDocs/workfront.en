@@ -16,7 +16,7 @@ For information about timesheet profiles, see [Create, edit, and assign timeshee
 
 You must have the following to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

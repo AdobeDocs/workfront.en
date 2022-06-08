@@ -16,7 +16,7 @@ To learn more about dashboards, see [Get started with dashboards](../../../repor
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <caption style="text-align: left;">
   *To find out what plan, license type, or access you have, contact your Workfront administrator.
  </caption> 
@@ -66,7 +66,7 @@ You must create any of the following objects before you can add them to a dashbo
 
 1. Specify the following: 
 
-   <table>
+   <table style="table-layout:auto">
     <col>
     <col>
     <tbody>

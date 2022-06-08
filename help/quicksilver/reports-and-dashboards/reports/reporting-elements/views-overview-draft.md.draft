@@ -89,7 +89,7 @@ You can create a new standard view, or you can customize an existing standard vi
       
       * (Optional) Click **Advanced Options** to specify the following information for the column:
 
-        <table> 
+        <table style="table-layout:auto"> 
          <col> 
          <col> 
          <thead> 
@@ -173,7 +173,7 @@ To create or customize an Agile view:
    Users can move stories among these status columns on the Agile story board.  
    When defining status columns, you can do the following:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <thead> 
@@ -202,7 +202,7 @@ To create or customize an Agile view:
 
 1. In the **Associate Card Color to** area, select from the following options:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <thead> 

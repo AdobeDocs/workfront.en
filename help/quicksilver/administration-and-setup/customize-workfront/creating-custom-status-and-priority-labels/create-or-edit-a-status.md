@@ -11,7 +11,7 @@ description: As an Adobe Workfront administrator, you can create custom statuses
 # Create or edit a status
 
 <!--
-***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
+***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.
 -->
 
 As an Adobe Workfront administrator, you can create custom statuses for projects, tasks, and issues. These can be for users throughout the entire Workfront system or for specific groups or subgroups. For more information about statuses, see [Statuses overview](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
@@ -53,15 +53,15 @@ When you create a custom status for the entire organization, you can configure i
 
 1. In the left panel, click **Project Preferences** > **Statuses**.
 
-1. (Conditional) If you are creating or editing a status for use system wide, ensure that**System Statuses** is selected in the box in the upper-right corner.
+1. (Conditional) If you are creating or editing a status for use system wide, ensure that **System Statuses** is selected in the box in the upper-right corner.
 
-   ![](assets/system-statuses-in-upper-rt-corner-350x140.jpg)
+   ![](assets/system-statuses-in-upper-rt-corner.jpg)
 
    Or
 
-   If you are creating or editing a status for a group or subgroup, start typing the name of the group in the box in the upper-right corner, then select it when it appears.
+   If the status is for a group or subgroup, start typing the name of the group in the upper-right corner, then select it when it appears.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group-350x139.jpg)
+   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Select the tab of the object type (**Project**, **Tasks**, or **Issues**) that you want to associate with the status.
 
@@ -71,7 +71,7 @@ When you create a custom status for the entire organization, you can configure i
 
    If you are editing an existing status, hover over it, then click the **Edit** icon that displays to the far-right.
 
-   ![](assets/custom-status-edit-350x178.png)
+   ![](assets/custom-status-edit.png)
 
 1. Configure the status using the following options:
 
@@ -89,7 +89,7 @@ When you create a custom status for the entire organization, you can configure i
      </tr> 
      <tr> 
       <td role="rowheader">Color</td> 
-      <td> <p>Customize the color of the status by clicking the color field and selecting a color from the swatch panel. You can also enter a hex number in the field.</p> <p>The status color displays in the upper-right corner of Workfront when a user views the object.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/status-color-350x211.png" style="width: 350;height: 211;"> </p> </td> 
+      <td> <p>Customize the color of the status by clicking the color field and selecting a color from the swatch panel. You can also enter a hex number in the field.</p> <p>The status color displays in the upper-right corner of Workfront when a user views the object.</p> <img src="assets/status-color.png" style="width: 350;height: 211;"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Equates With</td> 
@@ -101,36 +101,16 @@ When you create a custom status for the entire organization, you can configure i
      </tr> 
      <tr> 
       <td role="rowheader">Hide Status</td> 
-      <td> <p>(Project and Task statuses only)</p> <p>Enable this option if you want the status hidden from users. When it is disabled (the default setting), all <!--<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level">-->users in the system <!--</MadCap:conditionalText>--> can use the status.</p> <p>Tip: You can hide an Issue status by disabling all 4 issue types (Bug Report, Change Order, Issue, Request).</p> </td> 
+      <td> <p>(Project and Task statuses only)</p> <p>Enable this option if you want the status hidden from users. When it is disabled (the default setting), all users in the system can use the status.</p> <p>You can hide an Issue status by disabling all 4 issue types (Bug Report, Change Order, Issue, Request).</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lock for all groups</td> 
-      <td> 
-       <!--<div data-mc-conditions="SnippetConditions-wf-groups.system-level">--> 
-       <p>If you leave this enabled, users throughout the system can see and use the status and group administrators cannot customize it for their groups.</p> 
+      <td><p>If you leave this enabled, users throughout the system can see and use the status and group administrators cannot customize it for their groups.</p> 
        <p>When this option is disabled, group administrators can customize the status for their individual groups.</p> 
-       <p>For more information about locking statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Locked and unlocked system-level statuses</a>.</p> 
-       <!--</div>--> 
-       <p><b>NOTE</b>:  
-       <!--<ul data-mc-conditions="SnippetConditions-wf-groups.system-level">-->
-       <li>You can use both locked and unlocked statuses in a system approval process. If you create a system approval process with an unlocked system status, users throughout the system can attach the approval process to any project, task, or issue in the system. </li> 
-       <li>Warning messages display in the following scenarios to help you and your users make sure you understand outcomes of the following scenarios:
-       <!--<ul data-mc-conditions="SnippetConditions-wf-groups.system-level">-->
-       <li>An administrator unlocks a system-level status that is used in an approval process. A message warns that group administrators might delete the unlocked status for their groups, which would prevent group members from using that approval process properly for objects assigned to their group. </li>
-       <li>A user starts to edit an approval process that uses an unlocked status. A message alerts the user about the unlocked status so they can evaluate whether it would be a good idea to re-lock or replace it. </li>
-       <li><p>A system-level approval process with an unlocked status is attached on an object, and the status was deleted for the group assigned to the object. When a group member goes to the Approvals section for the object, a message explains that the approval process can't be initiated for the object.
-       <!--<MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-                 Lilit says that this may become irrelevant as the team is trying to see if it's possible to replace all approval processes on objects within the group, in which case we should not have any missing status cases.
-               </MadCap:conditionalText>-->
-       </p></li>
-       </ul></li> 
-       </ul> </p>
-       </td> 
+       <p>For more information about locking statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Locked and unlocked system-level statuses</a>.</p>  
      </tr> 
-     <!--<tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <td role="rowheader"><span class="preview">Users can select this status only if required fields on the object are completed</span> </td> 
-       <td> <p><span class="preview">(Applies only if you selected Tasks in Step 3) Assures that users can select this status for an object only if all required fields on the object are completed.</span> </p>
-         <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This story is on the back burner</p>
+     <!-- [This story is on the back burner]
+       Users can select this status only if required fields on the object are completed -- (Applies only if you selected Tasks in Step 3) Assures that users can select this status for an object only if all required fields on the object are completed.
       --> 
       </td> 
       </tr>

@@ -10,7 +10,7 @@ description: You can update your work in the following areas - EDIT ME.
 
 You can update your work in the following areas:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -34,7 +34,7 @@ You can update your work in the following areas:
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

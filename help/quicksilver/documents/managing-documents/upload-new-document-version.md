@@ -20,7 +20,7 @@ For information about adding a new version of a document linked to Workfront fro
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 

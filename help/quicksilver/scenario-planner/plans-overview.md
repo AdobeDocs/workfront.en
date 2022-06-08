@@ -17,7 +17,7 @@ As a business manager, you can use the Adobe Workfront Scenario Planner to outli
 
 To use the Adobe Workfront Scenario Planner you must have the following access:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -97,6 +97,8 @@ You can view the following in the job role box:
 | Available |The number of job role FTEs or hours that are available for the current scenario.  |
 | Required |The number of job role FTEs or hours that are required by all the initiatives in the current scenario so that they can be completed.  |
 
+{style="table-layout:auto"}
+
 For information about accessing a plan and viewing detailed information about job roles, see [Create and edit plans in the Scenario Planner](../scenario-planner/create-and-edit-plans.md).
 
 ## Financial information for plans
@@ -107,7 +109,7 @@ You can review financial information about a plan, specifically its planned budg
 
 You can view the following in the Financial and&nbsp;Summary boxes on the plan: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

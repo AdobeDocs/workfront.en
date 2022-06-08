@@ -18,7 +18,7 @@ This is useful in organizations that invite external stakeholders into Workfront
 
 You must have the following:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

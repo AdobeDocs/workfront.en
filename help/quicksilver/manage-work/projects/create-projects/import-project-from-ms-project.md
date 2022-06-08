@@ -20,7 +20,7 @@ You can import projects from Microsoft Project into Adobe Workfront and manage a
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -77,5 +77,5 @@ You can create a project from the Projects area in theMain Menu, or from the Pro
 
 1. (Optional) Continue editing the project in Workfront. For information about editing projects, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   The status of a new project created from a template corresponds with the status defined by your Workfront administrator in the Project Preferences area or by a group administrator ```in the Group Project Preferences area.``` For information about configuring project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   The status of a new project created from a template corresponds with the status defined by your Workfront administrator in the Project Preferences area or by a group administrator in the Group Project Preferences area. For information about configuring project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 

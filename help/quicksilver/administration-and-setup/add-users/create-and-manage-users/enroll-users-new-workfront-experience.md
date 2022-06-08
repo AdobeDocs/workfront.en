@@ -85,7 +85,7 @@ To see the New Experience screen, you must meet the following conditions:
 
    >[!NOTE]
    >
-   >```If you are a Group administrator, you can only see names of users in groups that you manage.```
+   >If you are a Group administrator, you can only see names of users in groups that you manage.
 
 1. (Optional) Click **User details** inline with a user to see the user's:
 

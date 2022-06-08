@@ -44,13 +44,13 @@ Or are you only interested in results pertaining to Workfront Fusion? Select tha
 
    ![](assets/editpref-350x152.png)
 
-1. Click the ```Search Preferences``` tab.
+1. Click the Search Preferences tab.
 
    ![](assets/search-preferences-tab-350x224.png)
 
 1. Enable any options that you want to see prioritized in your search results.
 
-   For example, if you enable ```Workfront Classic``` in the ```Version``` section, the main link of each search result will display articles for Workfront Classic, and users will have to click the subordinate link of each result to view documentation for the new Workfront experience.
+   For example, if you enable Workfront Classic in the Version section, the main link of each search result will display articles for Workfront Classic, and users will have to click the subordinate link of each result to view documentation for the new Workfront experience.
 
    Your changes are saved automatically.
 

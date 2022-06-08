@@ -18,7 +18,7 @@ You can edit project templates to reflect changes in project processes and setti
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the template you want to edit.
 1. (Conditional) To edit limited information about the template,  click **Template Details** in the left panel, then go to the areas listed in the left panel to edit information for each area. 
-1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), ```then select from any of the areas below, or click **Edit all** to edit information in all areas```:
+1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
 
    * Overview
    * Custom Forms
@@ -89,7 +89,7 @@ You must have the following access to perform the steps in this article:
 
 1. Update the following fields:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -134,7 +134,7 @@ You must have the following access to perform the steps in this article:
         <li><p><strong>Normal</strong></p></li> 
         <li><p><strong>High</strong></p></li> 
         <li><p><strong>Urgent</strong></p></li> 
-       </ul><p><p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md" class="MCXref xref">Create and customize priorities</a>.</p></p></td> 
+       </ul><p><p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Create and customize priorities</a>.</p></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Template Owner</strong></td> 
@@ -184,7 +184,7 @@ You must have the following access to perform the steps in this article:
 
 1. Update the following fields:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -230,7 +230,7 @@ You must have the following access to perform the steps in this article:
 
 1. Update the following fields:
 
-   <table>
+   <table style="table-layout:auto">
      class="TableStyle-TableStyle-List-options-in-steps-Column-Column1" /&gt; 
     <col> 
     <tbody> 
@@ -264,7 +264,7 @@ You must have the following access to perform the steps in this article:
 
 1. Update the following fields: 
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -391,7 +391,7 @@ You must have the following access to perform the steps in this article:
 
    Specify the following **Access** information for the template:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -473,6 +473,8 @@ For information about how these settings affect creating new tasks, see [Create 
    |---|---|
    | Medium |50% |
    | Large |75% |
+
+   {style="table-layout:auto"}
 
    For information about using Work Effort to manage the effort on tasks on projects, see [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md).
 

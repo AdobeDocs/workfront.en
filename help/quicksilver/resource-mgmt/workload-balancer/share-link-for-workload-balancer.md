@@ -14,7 +14,7 @@ You can share the Workload Balancer with other users who might not have the Reso
 
 You must have the following access to perform the steps in this article: 
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -67,7 +67,7 @@ The following options are available to the user viewing the Workload Balancer fr
    * Back and forward icons
    * Calendar selection
 
-* The Day, Week, ```and Month``` icons 
+* The Day, Week, and Month icons 
 * The Settings icon
 * The Show allocations icon
 
@@ -100,7 +100,7 @@ You need the following access to view information in the Workload Balancer from 
 1. (Optional) Do one or more of the following:
 
    * Update the time period selection.
-   * Click **Day, Week**, or **Month** to view daily, weekly, ```or monthly``` information.
+   * Click **Day, Week**, or **Month** to view daily, weekly, or monthly information.
 
      ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 

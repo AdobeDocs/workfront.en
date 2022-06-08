@@ -14,7 +14,7 @@ With a basic workflow, you can several reviewers to a proof, but they are not or
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -193,7 +193,7 @@ You must have the following access to perform the steps in this article:
 1. Users on new Workfront plans can grant author or moderator roles to any users in the system. Users on legacy plans can grant author or moderator roles to any user with a proof license in the system.
 1. (Optional) With the drop-down menu still open, select any additional permissions available at the bottom of the menu:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -215,7 +215,7 @@ You must have the following access to perform the steps in this article:
 1. Repeat steps 1-3 for any other users you have added to the proof.
 1. For each user you are sharing with, in the **Email alerts**&nbsp;drop-down list, select the type of email alerts this user receives when people make comments and decisions on the proof:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -260,13 +260,15 @@ You must have the following access to perform the steps in this article:
    |---|---|
    | Add custom message |Select this option to include a custom message in the notification. You can specify a subject and message body. The message body can include rich text formatting, such as bold, bullets, and hyperlinks. |
 
+   {style="table-layout:auto"}
+
 1. Continue with [Configure proof settings](#configure-proof-settings) below.
 
 ## Configure proof settings {#configure-proof-settings}
 
 1. In the **Proof settings** section, select any of the following options:
 
-   <table> 
+   <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 

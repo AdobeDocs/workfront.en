@@ -191,6 +191,8 @@ The following table lists some of the modifiers you can use with the Workfront A
 | contains |returns results where name contains "Workfront" |<pre>...name=Workfront&name_Mod=contains...</pre> |
 | between |returns results that have an entry date within the last 7 days |<pre>...entryDate=$$TODAY-7d&entryDate_Range=$$TODAY&entryDate_Mod=between...</pre> |
 
+{style="table-layout:auto"}
+
 >[!NOTE]
 >
 >Search requests are case-sensitive. If you receive an error, ensure&nbsp;&nbsp;**_Mod** and **_Range** have the correct capitalization.
@@ -299,7 +301,7 @@ When querying an object, special consideration should be taken concerning the re
 
 To ensure optimum performance the following table shows the limitations placed&nbsp;on search requests.&nbsp;
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 

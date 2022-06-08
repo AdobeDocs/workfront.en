@@ -14,7 +14,7 @@ You can install the Workfront for Adobe XD plugin from the Adobe Marketplace.
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  </col> 
  <col> 
@@ -59,7 +59,7 @@ To install the Workfront for Adobe XD plugin:
 
 ## Log In to Workfront for Adobe XD
 
-1. Ensure the Plugin panel is open, then click ```Workfront for Adobe XD```.
+1. Ensure the Plugin panel is open, then click **Workfront for Adobe XD**.
 1. Enter your domain, then click **Log in**. A browser page opens.
 
    >[!TIP]

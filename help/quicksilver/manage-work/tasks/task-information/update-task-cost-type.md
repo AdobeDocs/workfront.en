@@ -18,7 +18,7 @@ For information about tracking costs in&nbsp;Adobe Workfront, see [Track costs](
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -22,7 +22,7 @@ You can configure various settings to customize how and what information display
 
 You must have the following access to perform the steps in this article::
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -191,6 +191,8 @@ The following table outlines when the parent tasks display in the Scheduling tab
 | Enabled |Manual |Manual |Subtasks and Parent Tasks |
 | Enabled |Manual |Automatic |Subtasks only |
 
+{style="table-layout:auto"}
+
 For information about configuring&nbsp;the**Completion Mode** and the **Summary Completion Mode** fields for each project, see the section "Settings"&nbsp;in&nbsp;the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
 You can manually configure the Show Parent Tasks setting in the Scheduling  section  for multiple projects.&nbsp;
@@ -227,6 +229,8 @@ The following table outlines when the Parent Tasks display in the Staffing  sect
 | Automatic |Automatic |Subtasks only |Subtasks only |
 | Manual |Manual |Subtasks and Parent Tasks |Subtasks only |
 | Manual |Automatic |Subtasks only |Subtasks only |
+
+{style="table-layout:auto"}
 
 ## Configure whether daily Planned Hours are displayed on the scheduling timeline
 

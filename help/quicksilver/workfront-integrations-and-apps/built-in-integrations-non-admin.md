@@ -21,7 +21,7 @@ Your Workfront administrator must enable and configure built-in integrations bef
 
 The following built-in integrations are currently available in Workfront.
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

@@ -41,6 +41,8 @@ When performing such imports of data, it is important to understand how informat
 | Task Note |Task Description |
 | Predecessor |Predecessor |
 
+{style="table-layout:auto"}
+
 ## Overview of data that is not included
 
 There are a number of project fields that are&nbsp;not imported to or exported from Workfront.

@@ -29,7 +29,7 @@ When you want to share Budgeted Hour information with other users who do not hav
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -97,7 +97,7 @@ You must have the following access to perform the steps in this article:
 
 The following information is available in the Budgeted Hour report by default:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 

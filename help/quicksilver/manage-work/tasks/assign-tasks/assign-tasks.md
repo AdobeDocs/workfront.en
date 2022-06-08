@@ -40,7 +40,7 @@ In addition to this article, we recommend that you read the following articles f
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -128,6 +128,8 @@ Depending on which field is visible in the view, you can assign the following en
 | **Assigned** |Assign one user |
 | **Assignments** |Assign users, job roles, or a team |
 
+{style="table-layout:auto"}
+
 To assign tasks in a list:
 
 1. Go to a list of tasks that has the Assigned To, Assigned, or Assignments fields in the view.
@@ -137,6 +139,8 @@ To assign tasks in a list:
    |---|---|
    | Manual save |You must manually save your changes. You can revert your changes before you save them.  |
    | Timeline Planning |You must manually save your changes.&nbsp;You can revert your changes before you save them.&nbsp;Saving your changes and all the project dependencies is faster than when selecting Manual save.  |
+
+   {style="table-layout:auto"}
 
    For more information about saving tasks as you edit them in a list, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 

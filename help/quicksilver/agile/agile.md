@@ -4,7 +4,7 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Agile
-description: This section contains the following subsections - EDIT ME.
+description: Review these articles to learn how to use Agile in Adobe Workfront.
 ---
 
 # Agile

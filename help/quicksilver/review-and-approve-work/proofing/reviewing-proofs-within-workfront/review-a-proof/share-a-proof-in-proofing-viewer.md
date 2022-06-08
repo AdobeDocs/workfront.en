@@ -18,7 +18,7 @@ You can share a proof from the proofing viewer if sharing is enabled by the proo
 
 You must have the following access to perform the steps in this article:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -73,7 +73,7 @@ You can share a proof via a URL if the owner has configured the proof for sharin
 
       1. Select from the following options:
 
-         <table>
+         <table style="table-layout:auto">
           <col>
           <col>
           <tbody>
@@ -101,8 +101,6 @@ You can share a proof via a URL if the owner has configured the proof for sharin
 ## Share the embed code
 
 You can share a proof via embed code if the proof owner has configured it for this.
-
-For information about configuring a prof with an embedded code, see in .
 
 To share a proof via the embed code:
 
@@ -146,7 +144,7 @@ To share a proof with individual users:
    
    * **Email alerts**:&nbsp;Select one of the following options to specify how the person will be notified about activity on the proof.
 
-     <table> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 

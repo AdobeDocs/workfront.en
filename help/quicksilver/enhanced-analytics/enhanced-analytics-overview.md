@@ -132,13 +132,15 @@ You can use the following keys on your keyboard to navigate or complete specific
 | **Arrow keys** |Navigate to dates on the calendar widget, through filter options when adding a filter, and through options in all drop-down menus on the visualizations |
 | **Spacebar** |Select dates in the calendar widget, select a filter type when adding a filter, select an export option from the drop-down menu on each visualization, and select options from the drop-down menus on the Burndown, Tasks in flight, and Project treemap visualizations |
 
+{style="table-layout:auto"}
+
 If you are using screen-reading software or a plug-in, the screen reader reads the information on the screen aloud and describes the actions you are completing as you use the keys listed above.
 
 ## Enhanced analytics views and features
 
 To learn more about the details of a specific feature within Enhanced analytics, the actions you can complete to get further insight, and what you can learn from this data, see the following articles:
 
-<table> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
