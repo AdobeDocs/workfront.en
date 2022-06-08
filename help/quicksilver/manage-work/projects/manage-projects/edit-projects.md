@@ -135,7 +135,7 @@ Some settings mentioned in this article might be modified from their default sta
    >
    >Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Conditional) If you clicked the **More** menu and then **Edit**, consider specifying information in any of the following areas listed in the left panel:
+1. (Conditional) If you clicked the **More** menu and then **Edit**, consider updating information in any of the following areas listed in the left panel:
 
    * [Project Name](#project-name) 
    * [Overview](#overview) 
@@ -251,7 +251,7 @@ Some settings mentioned in this article might be modified from their default sta
     </tbody> 
    </table>
 
-1. (Optional) Continue editing the following sections, depending on the information you want to modify.
+1. (Optional) Continue editing the following sections, depending on the information you want to modify. 
 
    Or
 
