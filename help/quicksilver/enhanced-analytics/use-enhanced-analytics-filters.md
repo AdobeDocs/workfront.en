@@ -51,16 +51,6 @@ To complete this task, you must have the following:
 
 For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-analytics/enhanced-analytics-overview.md#prerequi) in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Video walk-through
-
-View the following video to learn more about the filters in the Enhanced analytics area:
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/441153490?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[Watch a video demonstration of this feature.](https://vimeo.com/441153490/8d5303704c)
-
 ## Change the date range filter {#change-the-date-range-filter}
 
 By default, the visualizations in the Enhanced analytics area show data for the last 60 days and the next 15 days. You can select a new date range and apply it to all visualizations in the Enhanced analytics area. If you navigate away from the page, the default date range is applied the next time you navigate back.
@@ -225,6 +215,11 @@ To add a Custom Form filter:
 1. Locate the teams you want to see data for by entering at least 3 characters of text in the **Search** field, then select each team you want to include in the filter. To select all teams, click **Select All**.
 
    ![](assets/select-team-value-350x253.png)
+
+   >[!NOTE]
+   >
+   >All teams are included as filter options, regardless of your access level.
+
 
 1. After you select all desired teams, click **Apply Filter**.
 
