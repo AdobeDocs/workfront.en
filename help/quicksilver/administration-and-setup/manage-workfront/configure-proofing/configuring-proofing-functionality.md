@@ -6,7 +6,7 @@ navigation-topic: manage-workfront
 title: Configure proofing functionality
 description: This section contains the following articles - EDIT ME.
 feature: "System Setup and Administration, Digital Content and Documents"
-role: Administrator
+role: Admin
 ---
 
 # Configure proofing functionality

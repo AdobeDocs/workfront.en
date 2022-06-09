@@ -6,7 +6,7 @@ navigation-topic: manage-groups
 title: Create and manage subgroups
 description: WRITER
 feature: "System Setup and Administration, People, Teams, and Groups"
-role: Administrator
+role: Admin
 ---
 
 # Create and manage subgroups

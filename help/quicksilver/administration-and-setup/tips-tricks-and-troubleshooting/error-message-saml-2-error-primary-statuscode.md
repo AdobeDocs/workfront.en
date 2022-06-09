@@ -6,7 +6,7 @@ navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Error message: SAML 2.0 error: Primary StatusCode"
 description: You are unable to establish a successful connection to ADFS.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Error message: SAML 2.0 error: Primary StatusCode

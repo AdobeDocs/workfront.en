@@ -6,7 +6,7 @@ navigation-topic: manage-workfront
 title: Exchange rates
 description: This section contains the following articles - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Exchange rates

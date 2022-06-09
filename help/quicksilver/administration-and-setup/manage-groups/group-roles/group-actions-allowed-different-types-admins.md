@@ -5,7 +5,7 @@ navigation-topic: create-and-manage-groups
 title: Actions allowed for different types of administrators
 description: This table lists the administration activities available for - EDIT ME.
 feature: "System Setup and Administration, People, Teams, and Groups"
-role: Administrator
+role: Admin
 ---
 
 # Actions allowed for group administrators

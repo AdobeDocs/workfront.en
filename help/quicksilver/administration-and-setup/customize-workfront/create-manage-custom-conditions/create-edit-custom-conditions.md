@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: As an Adobe Workfront administrator, you can create or edit a custom condition for projects, tasks, and issues to match the needs of your organization.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Create or edit a custom condition

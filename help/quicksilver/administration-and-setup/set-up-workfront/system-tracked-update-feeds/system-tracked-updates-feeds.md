@@ -6,7 +6,7 @@ navigation-topic: set-up-workfront
 title: System-tracked updates feeds
 description: This section contains the following articles - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # System-tracked updates feeds

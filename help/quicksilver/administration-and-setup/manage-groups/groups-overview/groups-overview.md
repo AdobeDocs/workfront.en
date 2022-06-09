@@ -6,7 +6,7 @@ navigation-topic: manage-groups
 title: Groups overview
 description: This section contains the following articles - EDIT ME.
 feature: "System Setup and Administration, People, Teams, and Groups"
-role: Administrator
+role: Admin
 ---
 
 # Groups overview

@@ -5,7 +5,7 @@ navigation-topic: organization-setup
 title: Create and edit companies
 description: You can add companies to Workfront and use them for financial planning, reporting purposes, to define permissions around objects, and to keep information confidential.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Create and edit companies

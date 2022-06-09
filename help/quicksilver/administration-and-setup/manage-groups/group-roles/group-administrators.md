@@ -6,7 +6,7 @@ product-area: system-administration;user-management
 navigation-topic: group-roles
 description: Adobe Workfront administrators in a large organization with many departments might not want to manage all the organization's departments and groups within those departments. Instead, they can create a group for each department and subgroups within that group, each managed by a group administrator.
 feature: "System Setup and Administration, People, Teams, and Groups"
-role: Administrator
+role: Admin
 ---
 
 # Group administrators

@@ -5,7 +5,7 @@ navigation-topic: configure-timesheets-and-schedules
 title: Configure timesheet and hour preferences
 description: Configure timesheet and hour preferences
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Configure timesheet and hour preferences

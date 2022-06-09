@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can configure access for a custom form to control who—person, role, group, team, company—can view, share, and edit it.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Share a custom form

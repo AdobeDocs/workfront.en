@@ -5,7 +5,7 @@ navigation-topic: work-with-a-groups-objects
 title: View and manage a group's recently deleted items
 description: When you are viewing a group that you manage in the Groups area, you can view and work with its recently deleted projects, tasks, issues, documents, and templates in the following ways - EDIT ME.
 feature: "System Setup and Administration, People, Teams, and Groups"
-role: Administrator
+role: Admin
 ---
 
 # View and manage a group's recently deleted items

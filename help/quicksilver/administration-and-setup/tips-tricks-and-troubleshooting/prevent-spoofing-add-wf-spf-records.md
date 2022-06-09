@@ -6,7 +6,7 @@ navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Prevent spoofing and add Adobe Workfront SPF records
 description: If users are not receiving Adobe Workfront email notifications, you need to add Workfront SPF records to your firewall. You must work with your IT team to add SPF records.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Prevent spoofing and add Adobe Workfront SPF records

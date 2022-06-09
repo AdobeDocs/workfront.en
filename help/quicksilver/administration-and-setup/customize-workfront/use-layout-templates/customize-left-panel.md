@@ -5,7 +5,7 @@ product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: In a layout template, you can customize what users see in the left panel area throughout Adobe Workfront.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Customize the left panel using a layout template

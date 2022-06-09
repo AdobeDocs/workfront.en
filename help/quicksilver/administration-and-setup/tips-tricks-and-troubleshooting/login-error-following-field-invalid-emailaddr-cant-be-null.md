@@ -6,7 +6,7 @@ navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Login Error: The following fields are invalid: emailAddr cannot be null"
 description: When I try to log into Adobe Workfront with my URL (https://customerdomain.my.workfront.com), I am redirected to the SAML login portal and then redirected back to Workfront with the following error - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Login Error: The following fields are invalid: emailAddr cannot be null

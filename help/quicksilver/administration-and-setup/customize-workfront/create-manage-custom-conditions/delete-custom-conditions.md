@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: You must have the following access to perform the steps in this article - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Delete a custom condition

@@ -5,7 +5,7 @@ navigation-topic: create-and-manage-groups
 title: Export a list of groups
 description: When you are viewing groups that you manage, you can export a list of those groups.
 feature: "System Setup and Administration, People, Teams, and Groups"
-role: Administrator
+role: Admin
 ---
 
 # Export a list of groups

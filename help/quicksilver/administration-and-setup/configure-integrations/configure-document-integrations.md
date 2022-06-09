@@ -5,7 +5,7 @@ product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 description: Configure document integrations
 feature: "System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents"
-role: Administrator
+role: Admin
 ---
 
 # Configure document integrations

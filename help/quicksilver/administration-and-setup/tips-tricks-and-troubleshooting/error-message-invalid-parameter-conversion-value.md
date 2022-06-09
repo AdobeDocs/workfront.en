@@ -6,7 +6,7 @@ navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Error message: Invalid Parameter: conversion value"
 description: "You receive the following error message when attempting to change the Format of a Custom Field on an existing Custom Form: 'Invalid Parameter: conversion value `<...>`'"
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Error message: Invalid Parameter: conversion value

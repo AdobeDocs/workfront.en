@@ -6,7 +6,7 @@ navigation-topic: configure-proofing-functionality
 title: Access to proofing functionality in Workfront
 description: The proofing functionality available to your users depends on which Workfront plan your organization purchased.
 feature: "System Setup and Administration, Digital Content and Documents"
-role: Administrator
+role: Admin
 ---
 
 # Access to proofing functionality in Workfront

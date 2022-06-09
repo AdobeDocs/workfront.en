@@ -3,7 +3,7 @@ title: Grant a user full administrative access
 description: Grant a user full administrative access
 draft: Probably
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 # Grant a user full administrative access
 

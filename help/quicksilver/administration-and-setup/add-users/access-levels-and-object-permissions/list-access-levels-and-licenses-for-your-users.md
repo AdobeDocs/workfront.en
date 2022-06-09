@@ -7,7 +7,7 @@ keywords: access,level,license
 navigation-topic: access-levels
 description: You can see which access level and license is assigned to each user in a user list or report.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # List your users' access levels and licenses

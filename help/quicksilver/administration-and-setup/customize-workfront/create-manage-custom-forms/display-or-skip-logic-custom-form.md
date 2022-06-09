@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Add display logic and skip logic to a custom form

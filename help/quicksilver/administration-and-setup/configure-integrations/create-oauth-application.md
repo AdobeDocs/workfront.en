@@ -5,7 +5,7 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: As an Adobe Workfront administrator, you can create OAuth2 applications for your instance of Workfront, which allow other applications to access Workfront. Your users can then give permission to those other applications to access their Workfront data. In this way, you can integrate Workfront with applications of your choice, including your own in-house applications.
 feature: "System Setup and Administration, Workfront Integrations and Apps"
-role: Administrator
+role: Admin
 ---
 
 # Create OAuth2 applications for Workfront integrations

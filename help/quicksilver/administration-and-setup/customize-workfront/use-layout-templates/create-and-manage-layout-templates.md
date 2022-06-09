@@ -6,7 +6,7 @@ product-area: system-administration;templates
 navigation-topic: layout-templates
 description: Create and manage layout templates
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Create and manage layout templates

@@ -6,7 +6,7 @@ navigation-topic: set-up-workfront
 title: Organizational setup
 description: As a part of organizing your users in Adobe Workfront, you can associate them with job roles or companies.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Organizational setup

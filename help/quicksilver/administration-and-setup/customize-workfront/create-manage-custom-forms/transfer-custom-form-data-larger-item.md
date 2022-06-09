@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Depending on the business needs of your organization, the work defined in a task or an issue might become too large to manage it within the task or the issue. In this case, you can convert them to a larger work item - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Transfer custom form data when converting an object

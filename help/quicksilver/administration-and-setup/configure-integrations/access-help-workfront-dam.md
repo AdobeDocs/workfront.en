@@ -5,7 +5,7 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Adobe Workfront DAM is a native Digital Asset Management (DAM) system within Workfront that allows you to store, organize, find, retrieve, and share digital files.
 feature: "System Setup and Administration, Workfront Integrations and Apps"
-role: Administrator
+role: Admin
 ---
 
 # Access Help for Adobe Workfront DAM

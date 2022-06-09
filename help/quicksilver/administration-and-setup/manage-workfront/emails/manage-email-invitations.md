@@ -5,7 +5,7 @@ navigation-topic: emails-administration
 title: Manage email invitations to new users
 description: Manage email invitations to new users
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Manage email invitations to new users

@@ -5,7 +5,7 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Legacy Workfront Fusion is not available as of March 31, 2021.
 feature: "System Setup and Administration, Workfront Integrations and Apps"
-role: Administrator
+role: Admin
 ---
 
 # Legacy Workfront Fusion

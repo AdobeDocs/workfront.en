@@ -6,7 +6,7 @@ navigation-topic: best-practices-catalog
 title: Actions to take after installing a blueprint
 description: This article outlines what you should do after you install a blueprint in Adobe Workfront to fully deploy the blueprint to your system users.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Actions to take after installing a blueprint

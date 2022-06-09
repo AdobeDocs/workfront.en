@@ -5,7 +5,7 @@ product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: As an Adobe Workfront administrator, you can use a layout template to change the labels of some objects that appear throughout Workfront to match terms used in your organization.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Customize user interface terminology using a layout template

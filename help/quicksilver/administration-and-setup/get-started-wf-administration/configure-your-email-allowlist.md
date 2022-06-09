@@ -5,7 +5,7 @@ navigation-topic: start-with-workfront-administration
 title: Configure your email allowlist
 description: If your organization uses the WorkfrontEnterprise plan, you can create a Workfront email allowlist to control - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Configure your email allowlist

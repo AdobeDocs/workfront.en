@@ -6,7 +6,7 @@ navigation-topic: use-kick-starts
 title: "Kick-Starts Scenario: Company, Group, Role, and User Kick-Starts Preparation"
 description: When you begin implementing Adobe Workfront, rather than manually inputting data, you can import your customer list, internal departments, job roles, and user information.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Kick-Starts Scenario: Company, Group, Role, and User Kick-Starts Preparation

@@ -6,7 +6,7 @@ navigation-topic: administration-and-setup
 title: Set up Adobe Workfront
 description: This section contains the following subsections - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Set up Adobe Workfront

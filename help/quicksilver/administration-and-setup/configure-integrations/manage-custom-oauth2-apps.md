@@ -5,7 +5,7 @@ navigation-topic: administrator-integrations
 title: View and manage custom OAuth2 applications
 description: As an Adobe Workfront administrator, you can view and manage the OAuth2 applications for your instance of Workfront, which allow other applications to access Workfront.
 feature: "System Setup and Administration, Workfront Integrations and Apps"
-role: Administrator
+role: Admin
 ---
 
 # View and manage custom OAuth2 applications

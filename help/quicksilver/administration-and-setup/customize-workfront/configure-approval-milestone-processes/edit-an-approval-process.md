@@ -5,7 +5,7 @@ navigation-topic: configure-approval-and-milestone-processes
 title: Edit an approval process
 description: If you are an Adobe Workfront administrator, or you have administrative access to approval processes, you can see and edit all approval processes in the system.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Edit an approval process

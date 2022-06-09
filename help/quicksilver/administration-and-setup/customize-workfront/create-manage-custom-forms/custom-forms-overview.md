@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can build a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Custom forms overview

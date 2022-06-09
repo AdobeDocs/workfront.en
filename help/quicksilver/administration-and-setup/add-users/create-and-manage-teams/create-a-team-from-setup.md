@@ -5,7 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-teams-admin
 description: As an Adobe Workfront administrator, you can create a team from the Setup area. For information about teams, see Teams overview.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Create a team from the Setup area

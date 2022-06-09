@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: configure-access-to-workfront
 description: As an Adobe Workfront administrator, you can define a user's access to Workfront through their access level.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Grant access to financial data

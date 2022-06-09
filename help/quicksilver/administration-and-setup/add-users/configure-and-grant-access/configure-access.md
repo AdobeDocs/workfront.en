@@ -6,7 +6,7 @@ product-area: system-administration
 navigation-topic: add-users-to-workfront
 description: These articles explain how you, as an Adobe Workfront administrator, can grant users access to view or edit objects by assigning them an access level.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Configure access to Adobe Workfront

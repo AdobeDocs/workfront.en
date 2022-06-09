@@ -6,7 +6,7 @@ navigation-topic: create-and-manage-custom-forms
 title: Copy a custom form to create a new one
 description: You can create a new custom form that is based on an existing one.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Copy a custom form to create a new one

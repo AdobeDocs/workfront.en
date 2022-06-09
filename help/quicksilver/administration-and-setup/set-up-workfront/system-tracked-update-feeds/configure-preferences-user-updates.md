@@ -5,7 +5,7 @@ navigation-topic: system-tracked-update-feeds
 title: Configure preferences for user updates
 description: You can configure preferences that give users access to certain features when they are adding comments in an object's Updates area.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Configure preferences for user updates

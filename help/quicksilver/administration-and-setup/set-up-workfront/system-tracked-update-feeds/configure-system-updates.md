@@ -5,7 +5,7 @@ navigation-topic: system-tracked-update-feeds
 title: Configure system updates
 description: Adobe Workfront generates automatic system updates in an object's Updates area to record the following events - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Configure system updates

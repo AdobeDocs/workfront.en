@@ -6,7 +6,7 @@ product-area: system-administration
 navigation-topic: administrator-faqs
 description: Adobe Workfront moved to a 100% Software-As-A-Service model and stopped selling on-premise software on December 31, 2011. As of 2014, AtTask OnPremise is no longer supported, with the exception of license key-related problems. The on-premise application is no longer available to download or install.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # AtTask OnPremise support policy

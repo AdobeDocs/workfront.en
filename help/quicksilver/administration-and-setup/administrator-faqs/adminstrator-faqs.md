@@ -6,7 +6,7 @@ product-area: system-administration
 navigation-topic: administration-and-setup
 description: This section contains the following articles - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Administrator FAQs

@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: If the Condition Type of a project is set to Progress Status instead of Manual, Adobe Workfront automatically displays one of three built-in default conditions on the project (On Target, At Risk, or In Trouble) as it progresses, as explained in Overview of Project Condition and Condition Type.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Set a custom condition as the default for projects

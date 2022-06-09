@@ -6,7 +6,7 @@ navigation-topic: opt-in-to-the-new-workfront-experience
 title: Discover the features available only with the new Adobe Workfront experience
 description: Welcome to the new Workfront experience—a modern and streamlined interface designed to help individuals, teams, and organizations get work done faster.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Discover the features available only with the new Adobe Workfront experience

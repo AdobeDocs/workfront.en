@@ -5,7 +5,7 @@ navigation-topic: single-sign-on-in-workfront
 title: Configure Adobe Workfront with SAML 2.0
 description: As an Adobe Workfront administrator, you can configure the Workfront web and mobile applications to integrate with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on (SSO).
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Configure Adobe Workfront with SAML 2.0

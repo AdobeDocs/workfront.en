@@ -6,7 +6,7 @@ product-area: system-administration
 navigation-topic: customize-workfront
 description: This section contains the following articles - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Statuses and priority labels

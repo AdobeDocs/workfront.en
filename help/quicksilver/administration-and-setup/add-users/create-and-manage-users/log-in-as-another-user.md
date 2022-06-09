@@ -5,7 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: As the Adobe Workfront administrator, sometimes you might need to access Workfront on behalf of another user.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Log in as another user

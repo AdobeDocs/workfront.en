@@ -6,7 +6,7 @@ product-area: system-administration;user-management
 navigation-topic: administration-and-setup
 description: This section contains the following subsections - EDIT ME.
 feature: "System Setup and Administration, People, Teams, and Groups"
-role: Administrator
+role: Admin
 ---
 
 # Manage groups

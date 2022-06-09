@@ -5,7 +5,7 @@ navigation-topic: manage-deleted-items
 title: Restore deleted items
 description: Restore deleted items
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Restore deleted items

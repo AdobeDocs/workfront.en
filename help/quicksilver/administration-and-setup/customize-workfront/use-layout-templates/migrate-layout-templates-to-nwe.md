@@ -5,7 +5,7 @@ product-area: system-administration;templates
 navigation-topic: layout-templates
 description: You can manually migrate your layout templates created in Workfront Classic to the new Adobe Workfront experience.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Migrate your layout templates to the new Adobe Workfront experience

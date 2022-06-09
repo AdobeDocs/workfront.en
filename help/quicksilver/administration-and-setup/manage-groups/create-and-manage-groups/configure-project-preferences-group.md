@@ -5,7 +5,7 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 description: If you are a group administrator and an Adobe Workfront administrator unlocks a project preference for all groups in the system, you can configure that preference for your group to affect all subsequent projects that your group creates.
 feature: "System Setup and Administration, People, Teams, and Groups"
-role: Administrator
+role: Admin
 ---
 
 # Configure project preferences for a group

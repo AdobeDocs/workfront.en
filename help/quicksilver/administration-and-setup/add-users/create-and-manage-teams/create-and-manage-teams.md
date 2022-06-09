@@ -6,7 +6,7 @@ product-area: system-administration;user-management
 navigation-topic: add-users-to-workfront
 description: This section contains the following articles - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Create and manage teams

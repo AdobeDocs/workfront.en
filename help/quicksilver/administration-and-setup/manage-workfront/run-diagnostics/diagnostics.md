@@ -6,7 +6,7 @@ navigation-topic: manage-workfront
 title: Diagnostics
 description: This section contains the following articles - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Diagnostics

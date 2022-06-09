@@ -5,7 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: View and export audit logs
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # View and export audit logs

@@ -7,7 +7,7 @@ keywords: license,type
 navigation-topic: access-levels
 description: Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of 4 types of paid Workfront licenses to each user when you assign the user an access level.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Adobe Workfront licenses overview

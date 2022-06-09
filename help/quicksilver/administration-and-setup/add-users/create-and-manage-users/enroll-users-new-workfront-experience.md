@@ -5,7 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: "Note: The weekly refresh of the Preview environment does not affect user enrollment in the new Adobe Workfront experience."
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Enroll users in the new Adobe Workfront experience

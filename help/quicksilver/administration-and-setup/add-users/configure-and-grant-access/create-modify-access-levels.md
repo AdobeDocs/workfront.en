@@ -5,7 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
 description: As an Adobe Workfront administrator, you can create custom access levels and apply them to users.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Create or modify custom access levels

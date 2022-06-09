@@ -5,7 +5,7 @@ navigation-topic: manage-deleted-items
 title: View restored item
 description: View restored item
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # View restored item

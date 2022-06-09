@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: brand-workfront
 description: Configure a custom help URL
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Configure a custom help URL

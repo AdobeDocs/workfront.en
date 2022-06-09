@@ -5,7 +5,7 @@ navigation-topic: workfront-integrations-navigation-topic
 title: Configure integrations
 description: This section contains the following articles - EDIT ME.
 feature: "System Setup and Administration, Workfront Integrations and Apps"
-role: Administrator
+role: Admin
 ---
 
 # Configure integrations

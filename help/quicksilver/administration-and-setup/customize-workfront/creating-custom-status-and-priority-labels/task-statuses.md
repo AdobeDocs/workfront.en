@@ -6,7 +6,7 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: You can use the status of a task to show users what stage of development a task is in at a given time.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Access the list of system task statuses

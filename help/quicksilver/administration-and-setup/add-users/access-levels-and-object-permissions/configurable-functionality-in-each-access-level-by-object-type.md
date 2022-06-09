@@ -3,7 +3,7 @@ title: Configurable access to functionality for each object type
 description: Configurable access to functionality for each object type
 draft: Probably
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 # Configurable access to functionality for each object type
 

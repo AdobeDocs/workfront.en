@@ -5,7 +5,7 @@ navigation-topic: create-and-manage-subgroups
 title: Create a subgroup
 description: The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
 feature: "System Setup and Administration, People, Teams, and Groups"
-role: Administrator
+role: Admin
 ---
 
 # Create a subgroup

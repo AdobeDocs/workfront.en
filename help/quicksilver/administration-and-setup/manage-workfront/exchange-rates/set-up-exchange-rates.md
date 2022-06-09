@@ -5,7 +5,7 @@ navigation-topic: exchange-rates
 title: Set up exchange rates
 description: Set up exchange rates
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Set up exchange rates

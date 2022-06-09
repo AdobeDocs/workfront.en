@@ -3,7 +3,7 @@ title: View the number of licenses allocated and used in a group in the new Adob
 description: View the number of licenses allocated and used in a group in the new Adobe Workfront experience
 draft: Probably
 feature: "System Setup and Administration, People, Teams, and Groups"
-role: Administrator
+role: Admin
 ---
 # View the number of licenses allocated and used in a group in the new Adobe Workfront experience
 

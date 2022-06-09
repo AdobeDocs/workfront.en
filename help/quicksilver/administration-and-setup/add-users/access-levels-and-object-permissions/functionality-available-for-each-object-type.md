@@ -7,7 +7,7 @@ navigation-topic: access-levels
 title: Functionality available for each object type
 description: The following tables lists the functionality available for each object type in the various access levels.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Functionality available for each object type

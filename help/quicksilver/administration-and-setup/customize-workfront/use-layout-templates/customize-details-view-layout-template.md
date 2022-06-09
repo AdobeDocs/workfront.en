@@ -5,7 +5,7 @@ product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Customize the Details view using a layout template

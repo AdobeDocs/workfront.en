@@ -6,7 +6,7 @@ navigation-topic: best-practices-catalog
 title: Install a blueprint
 description: You can install a blueprint in your Production environment or a Sandbox environment.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Install a blueprint

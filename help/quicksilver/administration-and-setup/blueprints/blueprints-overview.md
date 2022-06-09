@@ -6,7 +6,7 @@ navigation-topic: best-practices-catalog
 title: Blueprints overview
 description: Blueprints provide basic building blocks to help you create a work management system that grows with you.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Blueprints overview

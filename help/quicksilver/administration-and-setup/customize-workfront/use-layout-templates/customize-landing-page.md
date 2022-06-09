@@ -5,7 +5,7 @@ product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: As an Adobe Workfront administrator, you can use a layout template to specify the area you want users to see each time they log in to Workfront.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Customize the landing page using a layout template

@@ -6,7 +6,7 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: You can use the status of an issue to show users in the system in what stage of development an issue is at a given time.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Access the list of system issue statuses

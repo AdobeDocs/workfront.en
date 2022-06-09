@@ -3,7 +3,7 @@ title: Set up reminder notifications
 description: Set up reminder notifications
 draft: Probably
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 # Set up reminder notifications
 

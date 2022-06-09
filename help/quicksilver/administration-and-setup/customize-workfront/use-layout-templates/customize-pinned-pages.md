@@ -5,7 +5,7 @@ product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: In a layout template, you can pin the pages that you want users to always have available at the top of Adobe Workfront. These can be either pages accessed via the Main Menu or dashboards.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Customize pinned pages using a layout template

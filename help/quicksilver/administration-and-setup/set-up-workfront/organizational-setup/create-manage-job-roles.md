@@ -5,7 +5,7 @@ navigation-topic: organization-setup
 title: Create and manage job roles
 description: Create and manage job roles
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Create and manage job roles

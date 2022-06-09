@@ -6,7 +6,7 @@ navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: External user license type missing from access levels
 description: I can no longer see External User license type under Access Levels in Setup.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # External user license type missing from access levels

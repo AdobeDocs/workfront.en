@@ -5,7 +5,7 @@ navigation-topic: configure-system-defaults
 title: Create custom expense types
 description: Create custom expense types
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Create custom expense types

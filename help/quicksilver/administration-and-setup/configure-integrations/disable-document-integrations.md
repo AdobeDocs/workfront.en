@@ -5,7 +5,7 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: As anAdobe Workfront administrator, you can disable the connection between Workfront and any of the third-party document providers.
 feature: "System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents"
-role: Administrator
+role: Admin
 ---
 
 # Disable document integrations

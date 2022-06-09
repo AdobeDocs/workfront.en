@@ -5,7 +5,7 @@ navigation-topic: work-with-a-groups-objects
 title: Create and modify a group's teams
 description: When you are viewing a group that you manage in the Groups area, you can view and work with teams associated with the group and any of its subgroups.
 feature: "System Setup and Administration, People, Teams, and Groups"
-role: Administrator
+role: Admin
 ---
 
 # Create and modify a group's teams

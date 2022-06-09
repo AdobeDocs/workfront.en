@@ -5,7 +5,7 @@ navigation-topic: single-sign-on-in-workfront
 title: Configure Adobe Workfront with LDAP
 description: Configure Adobe Workfront with LDAP
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Configure Adobe Workfront with LDAP

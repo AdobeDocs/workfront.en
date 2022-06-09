@@ -6,7 +6,7 @@ navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Administration and setup FAQs
 description: Can I create a report that shows users' access to different objects?
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Administration and setup FAQs

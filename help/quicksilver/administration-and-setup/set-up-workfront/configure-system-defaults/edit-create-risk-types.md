@@ -5,7 +5,7 @@ navigation-topic: configure-system-defaults
 title: Edit and create risk types
 description: "**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ****Linked here: https://workfront.zendesk.com/hc/en-us/articles/216673908"
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Edit and create risk types

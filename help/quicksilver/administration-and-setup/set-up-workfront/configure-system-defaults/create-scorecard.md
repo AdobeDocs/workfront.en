@@ -5,7 +5,7 @@ navigation-topic: configure-system-defaults
 title: Create a scorecard
 description: Create a scorecard
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Create a scorecard

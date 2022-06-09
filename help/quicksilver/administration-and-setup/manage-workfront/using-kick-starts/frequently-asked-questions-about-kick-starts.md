@@ -7,7 +7,7 @@ navigation-topic: use-kick-starts
 title: Frequently asked questions about Kick-Starts
 description: The following are frequently asked questions about Kick-Starts - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Frequently asked questions about Kick-Starts

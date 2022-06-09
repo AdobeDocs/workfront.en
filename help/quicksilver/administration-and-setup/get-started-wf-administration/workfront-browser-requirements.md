@@ -4,7 +4,7 @@ navigation-topic: get-started-with-workfront
 title: Browser requirements for Workfront
 description: "Note: The information in this article has moved. Please see Adobe Workfront browser requirements."
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Browser requirements for Workfront

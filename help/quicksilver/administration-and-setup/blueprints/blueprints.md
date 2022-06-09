@@ -5,7 +5,7 @@ navigation-topic: administration-and-setup
 title: Blueprints
 description: Review these articles to learn how to use Blueprints in Adobe Workfront.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 # Blueprints
 

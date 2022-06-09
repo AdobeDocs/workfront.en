@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: brand-workfront
 description: Brand your Adobe Workfront instance
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Brand your Adobe Workfront instance

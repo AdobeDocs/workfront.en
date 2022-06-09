@@ -6,7 +6,7 @@ navigation-topic: add-users-to-workfront
 title: Single sign-on in Adobe Workfront
 description: This section contains the following articles - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Single sign-on in Adobe Workfront

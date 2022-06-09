@@ -6,7 +6,7 @@ navigation-topic: manage-groups
 title: Manage group statuses
 description: This section contains the following articles - EDIT ME.
 feature: "System Setup and Administration, People, Teams, and Groups"
-role: Administrator
+role: Admin
 ---
 
 # Manage group statuses

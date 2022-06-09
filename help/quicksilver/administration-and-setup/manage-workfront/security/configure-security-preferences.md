@@ -5,7 +5,7 @@ navigation-topic: security
 title: Configure system security preferences
 description: Configure system security preferences
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Configure system security preferences

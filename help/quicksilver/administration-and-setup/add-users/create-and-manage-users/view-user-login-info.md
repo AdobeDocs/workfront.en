@@ -5,7 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: You can see how often users log in to Adobe Workfront, as well as the last time they logged in, by indicating that you want to include this information in the view of a list of users, or in a report for users.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # View user login information

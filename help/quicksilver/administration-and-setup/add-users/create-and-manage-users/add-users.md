@@ -5,7 +5,7 @@ navigation-topic: create-and-manage-users
 title: Add users
 description: The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Add users

@@ -7,7 +7,7 @@ navigation-topic: access-levels
 title: Built-in access levels in Adobe Workfront
 description: All 6 of the built-in access levels are designed for a particular type of user - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Built-in access levels in Adobe Workfront

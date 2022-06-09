@@ -5,7 +5,7 @@ product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Create a milestone path
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Create a milestone path

@@ -6,7 +6,7 @@ navigation-topic: administration-and-setup
 title: Administration and setup
 description: This section contains the following subsections - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Administration and setup

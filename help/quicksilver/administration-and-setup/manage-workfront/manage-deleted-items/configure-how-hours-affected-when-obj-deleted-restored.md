@@ -5,7 +5,7 @@ navigation-topic: manage-deleted-items
 title: Configure affect on hours when an object is deleted and restored
 description: You can configure what happens to hours when someone deletes a project, task, or issue that the hours are logged against. The option you choose also determines what happens to the hours if the project, task, or issue is restored at a later time. (For more information about restoring items in Workfront, see Restore deleted items.)
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Configure affect on hours when an object is deleted and restored

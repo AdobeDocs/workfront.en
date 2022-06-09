@@ -6,7 +6,7 @@ navigation-topic: set-up-workfront
 title: Get started with Adobe Workfront administration
 description: This section contains the following articles - EDIT ME.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Get started with Adobe Workfront administration

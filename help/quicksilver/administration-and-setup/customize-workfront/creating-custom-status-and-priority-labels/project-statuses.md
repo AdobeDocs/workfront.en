@@ -6,7 +6,7 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Users can specify the status of a project so that other users can see the project's current stage of development at a given time.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Access the list of system project statuses

@@ -5,7 +5,7 @@ navigation-topic: configure-timesheets-and-schedules
 title: Configure users to log time in hours or days
 description: Users with a Planner license can configure whether they log time in Adobe Workfront in hours or days. As a Workfront administrator, you can configure this setting for individual users or full multiple users in your organization. By default, users log time in hours.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Configure users to log time in hours or days

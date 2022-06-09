@@ -5,7 +5,7 @@ navigation-topic: organization-setup
 title: Job role overview
 description: A job role represents a functional capacity or a skill set a user might fill. This article describes the various uses of job roles in Adobe Workfront.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Job role overview

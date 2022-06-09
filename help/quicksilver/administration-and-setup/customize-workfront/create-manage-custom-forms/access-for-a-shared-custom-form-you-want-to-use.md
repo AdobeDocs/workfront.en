@@ -6,7 +6,7 @@ navigation-topic: create-and-manage-custom-forms
 title: Access for a shared custom field you want to use
 description: When someone shares a custom field with View or Manage access, they can configure several other settings to further define that access. If you are a recipient of the field, those settings impact what you can do with the field. You might see the following when you view the field.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Access for a shared custom field you want to use

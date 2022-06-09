@@ -6,7 +6,7 @@ keywords: group,preferences,task,issue,unlock
 navigation-topic: create-and-manage-groups
 description: If groups in your organization need to configure a task or issue preference independently from the way it is configured at the system level, an Adobe Workfront administrator can unlock the preference. Then, as a group administrator, you can configure the preference for your group and it will affect all tasks or issues associated with your group.
 feature: "System Setup and Administration, People, Teams, and Groups"
-role: Administrator
+role: Admin
 ---
 
 # Configure task and issue preferences for a group

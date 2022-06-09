@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: For information on referencing custom forms in a report, see Reference a custom form in a report.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # Referencing custom forms in a report

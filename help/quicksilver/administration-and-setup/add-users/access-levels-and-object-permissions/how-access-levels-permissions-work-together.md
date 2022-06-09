@@ -7,7 +7,7 @@ keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
 description: The Adobe Workfront administrator determines what access level each user should have. That access level defines what users can see and do with object types and areas in the system.
 feature: System Setup and Administration
-role: Administrator
+role: Admin
 ---
 
 # How access levels and permissions work together
