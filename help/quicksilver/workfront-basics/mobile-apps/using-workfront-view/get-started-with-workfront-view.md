@@ -27,11 +27,11 @@ You must have the following access in Workfront to access information in Workfro
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Review or higher</p> </td> 
   </tr> 
  </tbody> 

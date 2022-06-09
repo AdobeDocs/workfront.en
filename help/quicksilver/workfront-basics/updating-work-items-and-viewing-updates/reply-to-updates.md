@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
    * Click the&nbsp;**Preview** icon ![](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
    * Click the&nbsp;**Download** icon ![](assets/downloadimageicon.png) on the image thumbnail to download the image.
 
-   In addition to seeing the users who are actively engaged in the conversation, you can see who is tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   In addition to seeing the users who are actively engaged in the conversation, you can see who is tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    ![](assets/tagging-transparency-350x192.png)
 

@@ -84,7 +84,7 @@ When you are updating an issue status, you can also add an explanation about the
 
      ![](assets/nwe-issue-update-stream-message-box-350x125.png)
 
-   * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update.
+   * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update. For more information, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
    * To update the condition of the issue, click **Condition**, then select the condition that best reflects the current condition of the issue. Select from the following options:
 
       * Going Smoothly

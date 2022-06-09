@@ -21,11 +21,11 @@ You must have the following access in Workfront to perform the steps in this art
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Review or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -56,10 +56,10 @@ You must have the following access in Workfront to perform the steps in this art
    * **Costs**: Displays the Actual and the Planned Cost of the project in a combined bar chart.
    * **Revenue**: Displays the Actual and the Planned Revenue of the project in a combined bar chart.
    * **Task Progress**: Displays all the tasks in the project by Progress Status in a pie chart.
-   * **Upcoming Tasks**: Displays up to 6 upcoming tasks.&nbsp;The widget sorts the project tasks in the following order:
+   * **Upcoming Tasks**: Displays up to 6 upcoming tasks. The widget sorts the project tasks in the following order:
 
       * first, by the Estimated Due Date
-      * secondly, by Work Breakdown Structure
+      * second, by Work Breakdown Structure
 
      It displays the last two complete tasks (if applicable) and next 4 tasks. To understand what tasks will be displayed in the Workfront View mobile app, you can build a task report for the project you are viewing and sort it by the Estimated Due Date and then by the Workfront Breakdown Structure. The first 6 tasks will be the tasks listed in the Workfront View mobile app in the Upcoming Tasks widget.
    
@@ -70,7 +70,7 @@ You must have the following access in Workfront to perform the steps in this art
       * all text files
       * .pdf
       * image files (.jpg, .jpeg, .png, etc)
-      * .xls&nbsp;
+      * .xls
 
    * **Details**: Displays the following details about the project:
 

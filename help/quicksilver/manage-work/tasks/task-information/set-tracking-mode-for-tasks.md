@@ -64,5 +64,5 @@ To set the tracking mode:
 
    For more information about the tracking mode options, see [Task Tracking Mode overview](../../../manage-work/tasks/task-information/task-tracking-mode.md)
 
-1. Click&nbsp;**Save****.**
+1. Click **Save**.
 
