@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Edit team settings
 description: Workfront administrators and users with a Plan or Work license can edit Team Settings.
-# feature: "People, Teams, and Groups"
+feature: 'People, Teams, and Groups'
 ---
 
 # Edit team settings
