@@ -3,7 +3,7 @@ product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: Configure the Done button for issues
 description: The Done button can automatically set the status of a task or an issue. By default, Adobe Workfront marks an issue as Resolved when an assignee clicks Done on their work item.
-feature: "People\, Teams\, and Groups"
+# feature: "People, Teams, and Groups"
 ---
 
 # Configure the Done button for issues

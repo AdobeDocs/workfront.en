@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Create and manage Agile teams
 description: For information about how to create and manage agile teams, see Create an agile team.
-feature: "People\, Teams\, and Groups"
+# feature: "People, Teams, and Groups"
 ---
 
 # Create and manage Agile teams
