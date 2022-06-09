@@ -53,7 +53,7 @@ When you are updating a task status, you can also type an explanation about the 
 
    * To add a note about the update, go to the **Updates** area and click **Start a new update**, then type your note.  
 
-   * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update.
+   * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update. For more information, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
    * To update the condition of the task, click **Select Condition** to the right of the **Notify** box (these appear when you type a note about the update), then select the condition that best reflects the current condition of the task.
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 

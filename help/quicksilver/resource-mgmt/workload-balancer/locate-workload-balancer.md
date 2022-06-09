@@ -7,11 +7,11 @@ description: You can use the Workload Balancer to schedule resources for work or
 feature: Resource Management
 ---
 
-# Locate the&nbsp;Workload Balancer
+# Locate the Workload Balancer
 
 You can use the Workload Balancer to schedule resources for work or review their availability and current allocations.
 
-You can access the&nbsp;Workload Balancer in the following ways:
+You can access the Workload Balancer in the following ways:
 
 * From several areas predefined by Adobe Workfront 
 * By adding it to a custom  section
@@ -101,7 +101,9 @@ For a project:
 
 ## Add the&nbsp;Workload Balancer to a custom section
 
-You can add the Workload Balancer to any custom  section .
+You can add the Workload Balancer to any custom  section.
+
+Most customizations that you have already applied to the Workload Balancer are preserved when adding it to a custom section. 
 
 1. Access the Workload Balancer by going to any of the following areas:
 
@@ -113,20 +115,16 @@ You can add the Workload Balancer to any custom  section .
 1. Create a dashboard with an external page as described in [Embed an external web page in a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Use the shareable link you obtained in Step 2 for the external page. 
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: ensure this stays correct)
-   </MadCap:conditionalText>
-   -->
+      (NOTE: ensure this stays correct)
+      -->
 
 1. Create a custom tab as described in [Create custom tabs or sections](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) to place the dashboard on the custom tab.
 
    When accessing the Workload Balancer from the custom tab, you can view it as if you were accessing it directly from one of its original areas listed in Step 1. 
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: ensure this stays correct)
-   </MadCap:conditionalText>
-   -->
+      (NOTE: ensure this stays correct)
+     -->
 
 1. (Optional) Share the custom tab in a Layout Template as described in  [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
 

@@ -6,7 +6,7 @@ feature: Reports and Dashboards
 ---
 # Configure a table column in Reporting Canvas
 
-The columns in a table can be configured to display . You can modify the following aspects of a column:
+The columns in a table can be configured for display. You can modify the following aspects of a column:
 
 * Name
 * Sorting

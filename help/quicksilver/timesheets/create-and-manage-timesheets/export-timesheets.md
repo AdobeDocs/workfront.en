@@ -88,10 +88,10 @@ You must have the following access to perform the steps in this article:
 
    * PDF Ladscape
    * PDF Portrait
-   * PDF&nbsp;Other Sizes
+   * PDF Other Sizes
    * Excel
    * Excel (xlsx)
-   * Tab&nbsp;Delimited
+   * Tab Delimited
 
    A list of timesheets is downloaded to your computer in the selected format and includes the following timesheet information:
 
