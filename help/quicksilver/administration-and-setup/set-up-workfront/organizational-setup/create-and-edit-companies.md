@@ -1,10 +1,11 @@
 ---
-filename: create-and-edit-companies
 user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: Create and edit companies
 description: You can add companies to Workfront and use them for financial planning, reporting purposes, to define permissions around objects, and to keep information confidential.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Create and edit companies

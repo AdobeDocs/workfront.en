@@ -1,11 +1,11 @@
 ---
-filename: create-milestone-path
 title: Create a milestone path
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-title: Create a milestone path
 description: Create a milestone path
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Create a milestone path

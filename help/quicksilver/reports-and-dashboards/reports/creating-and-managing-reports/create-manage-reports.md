@@ -1,10 +1,10 @@
 ---
-filename: _create-manage-reports
 content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Create and manage reports
 description: This section contains the following articles - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Create and manage reports

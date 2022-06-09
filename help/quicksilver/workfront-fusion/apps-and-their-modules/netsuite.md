@@ -1,5 +1,4 @@
 ---
-filename: netsuite
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
@@ -7,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: NetSuite modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use NetSuite, as well as connect it to multiple third-party applications and services.
+feature: Workfront Fusion
 ---
 
 # NetSuite modules

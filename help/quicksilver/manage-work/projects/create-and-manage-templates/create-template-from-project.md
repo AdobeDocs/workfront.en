@@ -1,9 +1,9 @@
 ---
-filename: create-template-from-project
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Create template from project
 description: Create template from project
+feature: Work Management
 ---
 
 # Create template from project

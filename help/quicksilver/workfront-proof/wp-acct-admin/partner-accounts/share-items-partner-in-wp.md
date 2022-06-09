@@ -1,10 +1,10 @@
 ---
-filename: share-items-partner-in-wp
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: partner-accounts
 title: Share items with a partner in Workfront Proof
 description: If you have a Workfront Proof partner relationship with another organization (such as a client or another department in your company), you can share proofs, files, folders, and contact details with the partner. For more information about partner relationships, see Manage a partner relationship between Workfront Proof accounts.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Share items with a partner in Workfront Proof

@@ -1,9 +1,9 @@
 ---
-filename: review-requested-projects
 product-area: portfolios;projects
 navigation-topic: create-and-manage-portfolios
 title: Review Requested Projects
 description: When multiple project requests are submitted for review, the project management office or portfolio committee can meet to review submitted requests and determine project request approvals. To submit a project request for review, do one of the following - EDIT ME.
+feature: "Work Management, Strategic Planning"
 ---
 
 # Review Requested Projects

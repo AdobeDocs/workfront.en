@@ -1,9 +1,9 @@
 ---
-filename: copy-initiatives
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Copy initiatives in the Scenario Planner
 description: You can create initiatives by copying existing ones. You can copy initiatives on a plan that you create or on a plan that someone shares with you.
+feature: Workfront Scenario Planner
 ---
 
 # Copy initiatives in the Scenario Planner

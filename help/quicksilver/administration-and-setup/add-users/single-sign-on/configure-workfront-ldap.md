@@ -1,10 +1,11 @@
 ---
-filename: configure-workfront-ldap
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
 title: Configure Adobe Workfront with LDAP
 description: Configure Adobe Workfront with LDAP
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Configure Adobe Workfront with LDAP

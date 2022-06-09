@@ -1,9 +1,9 @@
 ---
-filename: designate-resource-managers-for-projects-and-templates
 product-area: projects;templates
 navigation-topic: plan-a-project
 title: Designate Resource Managers for a project or template
 description: Designate Resource Managers for a project or template
+feature: Work Management
 ---
 
 # Designate Resource Managers for a project or template

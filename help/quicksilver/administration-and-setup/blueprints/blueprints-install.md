@@ -1,11 +1,12 @@
 ---
-filename: blueprints-install
 user-type: administrator
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Install a blueprint
 description: You can install a blueprint in your Production environment or a Sandbox environment.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Install a blueprint

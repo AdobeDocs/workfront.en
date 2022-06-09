@@ -1,10 +1,11 @@
 ---
-filename: configure-workfront-saml-2-adfs
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
 title: Configure Adobe Workfront with SAML 2.0 using ADFS
 description: The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Configure Adobe Workfront with SAML 2.0 using ADFS

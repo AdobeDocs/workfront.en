@@ -1,10 +1,10 @@
 ---
-filename: scenario-editor
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: The scenario editor in Adobe Workfront Fusion
 description: The scenario editor allows you to create and edit scenarios in a visual interface.
+feature: Workfront Fusion
 ---
 
 # The scenario editor in&nbsp;Adobe Workfront Fusion

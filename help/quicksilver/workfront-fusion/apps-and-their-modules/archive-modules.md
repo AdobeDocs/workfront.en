@@ -1,11 +1,11 @@
 ---
-filename: archive-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Archive modules
 description: In a Adobe Workfront Fusion scenario, you can connect an archive, such as a zipped file, to multiple third-party applications and services. For example, you can configure a scenario that
+feature: Workfront Fusion
 ---
 
 # Archive modules

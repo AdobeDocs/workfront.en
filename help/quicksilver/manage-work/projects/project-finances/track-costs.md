@@ -1,10 +1,10 @@
 ---
-filename: track-costs
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Track costs
 description: You can track costs for projects, tasks, and issues in Adobe Workfront.
+feature: Work Management
 ---
 
 # Track costs

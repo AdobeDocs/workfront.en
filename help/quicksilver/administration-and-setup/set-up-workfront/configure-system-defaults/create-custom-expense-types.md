@@ -1,10 +1,11 @@
 ---
-filename: create-custom-expense-types
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Create custom expense types
 description: Create custom expense types
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Create custom expense types

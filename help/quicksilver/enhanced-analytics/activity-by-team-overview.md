@@ -1,11 +1,10 @@
 ---
-filename: activity-by-team-overview
-title: Activity by team overview
+title: View the Activity by team visualization in Enhanced analytics
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-title: View the Activity by team visualization in Enhanced analytics
 description: The Activity by team visualization shows activities that happen during a specific time frame for a home team, allowing you to understand how different home teams spent their time in Adobe Workfront. Depending on how your home team is set up in Workfront, this visualization can give you different insights and answer different questions.
+feature: Reports and Dashboards
 ---
 
 # View the Activity by team visualization in Enhanced analytics

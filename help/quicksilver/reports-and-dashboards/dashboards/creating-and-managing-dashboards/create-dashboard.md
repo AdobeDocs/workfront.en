@@ -1,9 +1,9 @@
 ---
-filename: create-dashboard
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Create a dashboard
 description: You can create dashboards to quickly access information in reports, calendars, and external pages.
+feature: Reports and Dashboards
 ---
 
 # Create a dashboard

@@ -1,11 +1,11 @@
 ---
-filename: display-or-skip-logic-custom-form
-title: Display or skip logic on a Custom Form
+title: Add display logic and skip logic to a custom form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Add display logic and skip logic to a custom form
 description: You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Add display logic and skip logic to a custom form

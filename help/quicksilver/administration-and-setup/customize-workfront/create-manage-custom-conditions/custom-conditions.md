@@ -1,12 +1,12 @@
 ---
-filename: _custom-conditions
-title: Custom Conditions
+title: Custom conditions
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-title: Custom conditions
 description: A condition is a visual representation of how a project, task, or issue is progressing. As an Adobe Workfront administrator, you can use the conditions created by Workfront for use in projects, tasks, and issues, or you can create custom conditions to more closely match the needs of your organization.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Custom conditions

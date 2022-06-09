@@ -1,9 +1,9 @@
 ---
-filename: tls-1-disabled
 content-type: reference
 navigation-topic: announcements
 title: TLS 1.2 to be required in Adobe Workfront
 description: In order to provide optimal security, Adobe Workfront is requiring that all browser connections and API integrations that rely on TLS 1.0 or earlier be upgraded to use TLS 1.2. In the Preview environment, TLS 1.0 is already disabled.
+feature: Product Announcements
 ---
 
 # TLS 1.2 to be required in Adobe Workfront

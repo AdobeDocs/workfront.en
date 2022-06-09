@@ -1,11 +1,12 @@
 ---
-filename: create-and-modify-a-groups-projects
 user-type: administrator
 product-area: system-administration;user-management
 keywords: group,projects
 navigation-topic: work-with-a-groups-objects
 title: Create and modify a group's projects
 description: When you are viewing a group that you manage in the Groups area, you can view and work with its projects in the following ways - EDIT ME.
+feature: "System Setup and Administration, People, Teams, and Groups"
+role: Administrator
 ---
 
 # Create and modify a group's projects

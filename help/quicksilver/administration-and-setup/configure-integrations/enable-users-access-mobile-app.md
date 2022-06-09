@@ -1,12 +1,12 @@
 ---
-filename: enable-users-access-mobile-app
 title: Enable users to access the mobile application
 product-previous: mobile
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-title: Enable users to access the mobile application
 description: You can enable or disable access to the Adobe Workfront mobile app.
+feature: "System Setup and Administration, Workfront Integrations and Apps"
+role: Administrator
 ---
 
 # Enable users to access the mobile application

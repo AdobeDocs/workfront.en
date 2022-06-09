@@ -1,10 +1,10 @@
 ---
-filename: 21-1-other-enhancements
 content-type: release-notes
 keywords: notes,quarterly,update
 navigation-topic: product-releases
 title: 21.1 Other enhancements
 description: This page describes all other enhancements made with the 21.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
+feature: Product Announcements
 ---
 
 # 21.1 Other enhancements

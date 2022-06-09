@@ -2,6 +2,7 @@
 title: Build a report in Reporting Canvas
 description: Build a report in Reporting Canvas
 draft: Probably
+feature: Reports and Dashboards
 ---
 # Build a report in Reporting Canvas
 

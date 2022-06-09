@@ -1,9 +1,9 @@
 ---
-filename: summary-overview
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Summary overview in the new Adobe Workfront experience
 description: The Summary allows you to interact with important work item information from the following areas - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Summary overview in the new Adobe Workfront experience

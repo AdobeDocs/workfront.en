@@ -1,12 +1,12 @@
 ---
-filename: configure-task-issue-preferences-group
-title: Configure project preferences for your group
+title: Configure task and issue preferences for a group
 user-type: administrator
 product-area: system-administration;user-management;setup
 keywords: group,preferences,task,issue,unlock
 navigation-topic: create-and-manage-groups
-title: Configure task and issue preferences for a group
 description: If groups in your organization need to configure a task or issue preference independently from the way it is configured at the system level, an Adobe Workfront administrator can unlock the preference. Then, as a group administrator, you can configure the preference for your group and it will affect all tasks or issues associated with your group.
+feature: "System Setup and Administration, People, Teams, and Groups"
+role: Administrator
 ---
 
 # Configure task and issue preferences for a group

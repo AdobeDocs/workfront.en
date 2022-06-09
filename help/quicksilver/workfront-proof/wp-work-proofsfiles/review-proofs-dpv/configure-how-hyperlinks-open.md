@@ -1,10 +1,10 @@
 ---
-filename: configure-how-hyperlinks-open
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-desktop-proofing-viewer
 title: Configure how hyperlinks open in the Desktop Proofing Viewer
 description: Some links in interactive web content are set to open in a new browser tab or window. You can configure Workfront to open all such links within the Desktop Proofing Viewer, allowing reviewers to proof the newly opened content. For more information, see Configure proofing viewer settings.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Configure how hyperlinks open in the Desktop Proofing Viewer

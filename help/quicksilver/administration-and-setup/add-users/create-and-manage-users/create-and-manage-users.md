@@ -1,12 +1,12 @@
 ---
-filename: _create-and-manage-users
 title: Create and manage users
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: add-users-to-workfront
-title: Create and manage users
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Create and manage users

@@ -1,10 +1,10 @@
 ---
-filename: share-public-url
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Share the Public URL in Workfront Proof
 description: You can share a proof by providing the desired recipient with the Public proof URL.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Share the Public URL in Workfront Proof

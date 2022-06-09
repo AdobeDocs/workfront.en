@@ -1,9 +1,9 @@
 ---
-filename: delete-tasks
 product-area: projects
 navigation-topic: manage-tasks
 title: Delete tasks
 description: You can delete tasks that might be duplicates, or have been created in error.
+feature: Work Management
 ---
 
 # Delete tasks

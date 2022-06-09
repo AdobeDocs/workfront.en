@@ -1,11 +1,12 @@
 ---
-filename: _opt-in-to-the-new-workfront-experience
 user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: Opt in to the new Adobe Workfront experience
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Opt in to the new Adobe Workfront experience

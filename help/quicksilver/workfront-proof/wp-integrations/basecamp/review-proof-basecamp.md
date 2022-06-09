@@ -1,10 +1,10 @@
 ---
-filename: review-proof-basecamp
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp
 title: Review a Proof in Basecamp
 description: The Basecamp integration with Workfront Proof makes it easy for you to review and approve proofs without leaving Basecamp.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Review a Proof in Basecamp

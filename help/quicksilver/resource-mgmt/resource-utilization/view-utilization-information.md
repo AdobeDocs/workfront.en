@@ -1,9 +1,9 @@
 ---
-filename: view-utilization-information
 product-area: resource-management
 navigation-topic: resource-utilization
 title: View resource utilization information
 description: View resource utilization information
+feature: Resource Management
 ---
 
 # View resource utilization information

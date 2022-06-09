@@ -1,10 +1,10 @@
 ---
-filename: import-metadata-for-content
 product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Use Workfront Library's import tool to add metadata to content
 description: If you're new to Workfront Library and have just uploaded hundreds or thousands of assets, there's no need to manually add metadata to each asset individually. A Workfront Library Administrator can easily import metadata to these assets using a CSV file. To learn more about metadata, see Overview of metadata in Workfront Library.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Use Workfront Library's import tool to add metadata to content

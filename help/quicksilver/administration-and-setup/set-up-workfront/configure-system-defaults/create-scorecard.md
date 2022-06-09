@@ -1,10 +1,11 @@
 ---
-filename: create-scorecard
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Create a scorecard
 description: Create a scorecard
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Create a scorecard

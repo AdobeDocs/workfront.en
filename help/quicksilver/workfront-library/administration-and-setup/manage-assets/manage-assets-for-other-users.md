@@ -1,10 +1,10 @@
 ---
-filename: manage-assets-for-other-users
 product-previous: workfront-library
 product-area: documents;user-management
 navigation-topic: manage-assets
 title: Manage assets for other users
 description: As a Workfront administrator, you can access and manage all of the assets in Workfront Library. You can perform basic actions, such as sharing, renaming, or deleting, for all user content. You can also transfer ownership of individual assets. For information on how to transfer individual assets, see the sectionTransfer individual assets in Transfer ownership assets to another user.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Manage assets for other users

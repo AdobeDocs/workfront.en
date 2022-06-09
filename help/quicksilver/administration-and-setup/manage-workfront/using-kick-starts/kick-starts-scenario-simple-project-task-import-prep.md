@@ -1,11 +1,12 @@
 ---
-filename: kick-starts-scenario-simple-project-task-import-prep
 user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: "Kick-Starts scenario: simple project and task import preparation"
 description: Describes in detail the available settings and controls for a basic Project and Task Import using the Kick Start method.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Kick-Starts scenario: simple project and task import preparation

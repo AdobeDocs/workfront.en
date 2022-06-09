@@ -1,5 +1,4 @@
 ---
-filename: trello-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
@@ -7,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Trello modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Trello, as well as connect it to multiple third-party applications and services.
+feature: Workfront Fusion
 ---
 
 # Trello modules

@@ -1,11 +1,11 @@
 ---
-filename: throw
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Throw error handling in Adobe Workfront Fusion
 description: In some cases you may want to forcibly stop the scenario execution followed by Rollback or Commit phase or to stop the processing of a route and optionally store it in the queue of View and resolve incomplete executions in Adobe Workfront Fusion.
+feature: Workfront Fusion
 ---
 
 # Throw error handling in Adobe Workfront Fusion

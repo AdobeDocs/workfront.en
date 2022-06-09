@@ -1,10 +1,11 @@
 ---
-filename: view-send-announcements
 user-type: administrator
 product-area: system-administration
 navigation-topic: start-with-workfront-administration
 title: Send announcements
 description: As a Adobe Workfront administrator, you can use the Announcements page to send announcements to users.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Send announcements

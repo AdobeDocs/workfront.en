@@ -2,6 +2,7 @@
 title: Report on the Updates area
 description: Report on the Updates area
 draft: Probably
+feature: Reports and Dashboards
 ---
 # Report on the Updates area
 

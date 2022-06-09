@@ -1,10 +1,10 @@
 ---
-filename: iteration-completion-status-overview
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: burndown
 title: Iteration completion status overview
 description: The completion information described in this article is displayed above the burndown chart.
+feature: Agile
 ---
 
 # Iteration completion status overview

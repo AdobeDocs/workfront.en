@@ -1,11 +1,11 @@
 ---
-filename: _automated-workflow
 content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Automated Workflow in Workfront Proof
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Automated Workflow in Workfront Proof

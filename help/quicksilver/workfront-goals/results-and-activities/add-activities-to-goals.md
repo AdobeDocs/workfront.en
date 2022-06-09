@@ -1,10 +1,10 @@
 ---
-filename: add-activities-to-goals
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Add activities to goals in Adobe Workfront Goals
 description: Activities measure the progress of a goal. Without associated results, activities, or aligned goals, a goal cannot be activated and progress cannot be recorded on it.
+feature: Workfront Goals
 ---
 
 # Add activities to goals in&nbsp;Adobe Workfront Goals

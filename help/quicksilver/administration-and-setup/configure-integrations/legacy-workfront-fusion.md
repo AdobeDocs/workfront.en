@@ -1,11 +1,11 @@
 ---
-filename: legacy-workfront-fusion
 title: Legacy Workfront Fusion
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-title: Legacy Workfront Fusion
 description: Legacy Workfront Fusion is not available as of March 31, 2021.
+feature: "System Setup and Administration, Workfront Integrations and Apps"
+role: Administrator
 ---
 
 # Legacy Workfront Fusion

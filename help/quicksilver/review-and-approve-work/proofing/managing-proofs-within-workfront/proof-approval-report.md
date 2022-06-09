@@ -1,9 +1,9 @@
 ---
-filename: proof-approval-report
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Use the proof approval report
 description: You can use the proof approval report to view information about proofs in your environment.
+feature: Digital Content and Documents
 ---
 
 # Use the proof approval report

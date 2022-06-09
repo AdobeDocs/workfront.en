@@ -1,10 +1,10 @@
 ---
-filename: 21-2-reporting-management-enhancements
 content-type: release-notes
 keywords: notes,quarterly,update,release
 navigation-topic: 2021-2-release-activity
 title: 21. 2 Reporting enhancements
 description: This page describes all Reporting enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see 21.2 Release overview.
+feature: Product Announcements
 ---
 
 # 21. 2 Reporting enhancements

@@ -1,10 +1,10 @@
 ---
-filename: _manage-documents
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
 title: Manage documents
 description: You can organize and manage documents in Workfront in the Documents area.
+feature: Digital Content and Documents
 ---
 
 # Manage documents

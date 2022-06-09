@@ -1,12 +1,12 @@
 ---
-filename: about-the default-wf-layout
-title: About the default Workfront layout
+title: About the default Adobe Workfront layout
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
-title: About the default Adobe Workfront layout
 description: The default layout is the arrangement of the Main Menu , the left panel, and the views, groupings, and filters before an Adobe Workfront administrator makes any changes using a layout template.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # About the default Adobe Workfront layout

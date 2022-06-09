@@ -1,11 +1,11 @@
 ---
-filename: log-in-as-another-user
 title: Log in as another user
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Log in as another user
 description: As the Adobe Workfront administrator, sometimes you might need to access Workfront on behalf of another user.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Log in as another user

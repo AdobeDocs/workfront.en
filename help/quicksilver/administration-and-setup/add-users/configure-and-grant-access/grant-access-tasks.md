@@ -1,11 +1,11 @@
 ---
-filename: grant-access-tasks
 title: Grant access to tasks
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
-title: Grant access to tasks
 description: As an Adobe Workfront administrator, you can use an access level to define a user's access to tasks in Workfront, as explained in Access levels overview.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Grant access to tasks

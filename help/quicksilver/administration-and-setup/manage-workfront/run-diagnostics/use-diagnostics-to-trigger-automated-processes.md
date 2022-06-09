@@ -1,10 +1,11 @@
 ---
-filename: use-diagnostics-to-trigger-automated-processes
 user-type: administrator
 product-area: system-administration
 navigation-topic: run-diagnostics
 title: Use Diagnostics to trigger automated processes
 description: Use Diagnostics to trigger automated processes
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Use Diagnostics to trigger automated processes

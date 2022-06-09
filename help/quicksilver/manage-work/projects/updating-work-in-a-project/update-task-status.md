@@ -1,9 +1,9 @@
 ---
-filename: update-task-status
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Update task status
 description: You can update a task's status to inform others about where the task is (and the overall project) and how it is progressing.
+feature: Work Management
 ---
 
 # Update task status

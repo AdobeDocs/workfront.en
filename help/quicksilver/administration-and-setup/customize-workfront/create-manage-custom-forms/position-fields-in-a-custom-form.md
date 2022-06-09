@@ -1,10 +1,11 @@
 ---
-filename: position-fields-in-a-custom-form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Position custom fields and widgets in a custom form
 description: You can reposition custom fields and widgets in a custom form.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Position custom fields and widgets in a custom form

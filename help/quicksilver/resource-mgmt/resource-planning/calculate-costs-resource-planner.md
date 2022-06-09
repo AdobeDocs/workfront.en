@@ -1,9 +1,9 @@
 ---
-filename: calculate-costs-resource-planner
 product-area: resource-management
 navigation-topic: resource-planning
 title: Calculate costs in the Resource Planner
 description: "(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)"
+feature: Resource Management
 ---
 
 # Calculate costs in the Resource Planner

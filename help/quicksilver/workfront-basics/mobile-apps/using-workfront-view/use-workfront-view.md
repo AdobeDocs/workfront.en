@@ -1,10 +1,10 @@
 ---
-filename: _use-workfront-view
 content-type: reference
 product-previous: mobile
 navigation-topic: mobile-apps
 title: Use Adobe Workfront View
 description: This section contains the following articles - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Use Adobe Workfront View

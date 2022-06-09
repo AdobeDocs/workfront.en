@@ -1,9 +1,9 @@
 ---
-filename: move-issues
 product-area: projects
 navigation-topic: manage-issues
 title: Move issues
 description: You can move issues between projects and tasks.
+feature: Work Management
 ---
 
 # Move issues

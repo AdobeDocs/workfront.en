@@ -1,11 +1,11 @@
 ---
-filename: delete-a-user
-title: Delete a user
+title: Delete users
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Delete users
 description: When a user leaves your organization, can remove that user from Adobe Workfront.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Delete users

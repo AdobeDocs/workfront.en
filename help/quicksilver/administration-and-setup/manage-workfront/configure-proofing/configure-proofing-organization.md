@@ -1,10 +1,11 @@
 ---
-filename: configure-proofing-organization
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
 title: Configure proof settings for your organization
 description: As an Adobe Workfront administrator or Workfront Proof administrator, you can customize the default proof settings for your organization. These settings include default sharing options, branding, and more.
+feature: "System Setup and Administration, Digital Content and Documents"
+role: Administrator
 ---
 
 # Configure proof settings for your organization

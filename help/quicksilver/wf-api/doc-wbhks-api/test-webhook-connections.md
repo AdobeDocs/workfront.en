@@ -1,10 +1,10 @@
 ---
-filename: test-webhook-connections
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
 title: Test Webhook connections
 description: To verify that your document webhook implementation works correctly, run the manual tests in this section. These steps go through the Adobe Workfront web interface and indirectly hit the endpoints for your webhook implementation.
+feature: "Workfront API, Digital Content and Documents"
 ---
 
 # Test Webhook connections

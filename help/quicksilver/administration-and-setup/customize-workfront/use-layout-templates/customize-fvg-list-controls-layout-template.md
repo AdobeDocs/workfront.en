@@ -1,11 +1,11 @@
 ---
-filename: customize-fvg-list-controls-layout-template
-title: Customize Filter, View, and Grouping list controls using a Layout Template
+title: Customize Filters, Views, and Groupings using a layout template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-title: Customize Filters, Views, and Groupings using a layout template
 description: As an Adobe Workfront administrator, you can use a layout template to specify which list controls appear in the Filter, View, and Grouping drop-down menus. These menus appear above lists throughout Workfront, such as the list of tasks for a project - EDIT ME.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Customize Filters, Views, and Groupings using a layout template

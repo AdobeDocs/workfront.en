@@ -1,10 +1,10 @@
 ---
-filename: workfront-ms-project-duration-types
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: Duration Types in Adobe Workfront and Microsoft Project
 description: The Duration Types available in Adobe Workfront are different than their counterparts in Microsoft Project which are called Task Types. This can be sometimes confusing when exporting or importing projects between Workfront and Microsoft Project.
+feature: Work Management
 ---
 
 # Duration Types in Adobe Workfront and Microsoft Project

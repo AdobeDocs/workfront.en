@@ -1,11 +1,11 @@
 ---
-filename: delete-custom-conditions
-title: Delete a custom Condition
+title: Delete a custom condition
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
-title: Delete a custom condition
 description: You must have the following access to perform the steps in this article - EDIT ME.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Delete a custom condition

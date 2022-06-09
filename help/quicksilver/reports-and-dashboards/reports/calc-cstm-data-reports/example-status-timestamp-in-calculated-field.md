@@ -1,10 +1,10 @@
 ---
-filename: example-status-timestamp-in-calculated-field
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: "Calculated custom field example: display a Status timestamp in a Custom Form"
 description: The following calculated field displays the date when the object status is marked as In Progress (INP.) You can use the same information for calculated custom fields for issues, tasks, or projects.
+feature: Reports and Dashboards
 ---
 
 # Calculated custom field example: display a Status timestamp in a custom form

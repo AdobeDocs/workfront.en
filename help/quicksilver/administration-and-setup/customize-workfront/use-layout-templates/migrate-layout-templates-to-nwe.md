@@ -1,11 +1,11 @@
 ---
-filename: migrate-layout-templates-to-nwe
-title: Test a new Layout Template
+title: Migrate your layout templates to the new Adobe Workfront experience
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
-title: Migrate your layout templates to the new Adobe Workfront experience
 description: You can manually migrate your layout templates created in Workfront Classic to the new Adobe Workfront experience.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Migrate your layout templates to the new Adobe Workfront experience

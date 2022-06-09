@@ -1,11 +1,11 @@
 ---
-filename: create-or-edit-a-custom-form
-title: Create a Custom Form
+title: Create or edit a custom form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Create or edit a custom form
 description: You can create or edit new custom form. Both tasks are explained in this article.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Create or edit a custom form

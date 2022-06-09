@@ -2,6 +2,7 @@
 title: 20.4 Mobile and integration enhancements
 description: 20.4 Mobile and integration enhancements
 draft: Probably
+feature: "Product Announcements, Workfront Integrations and Apps"
 ---
 # 20.4 Mobile and integration enhancements
 

@@ -1,9 +1,9 @@
 ---
-filename: _product-releases
 content-type: release-notes
 navigation-topic: product-announcements
 title: Product releases
 description: Following are links to the release notes for current and past releases.
+feature: Product Announcements
 ---
 
 # Product releases

@@ -1,11 +1,11 @@
 ---
-filename: import-users
 title: Import users
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Import users
 description: The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Import users

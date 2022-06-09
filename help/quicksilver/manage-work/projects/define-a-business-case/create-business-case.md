@@ -1,8 +1,8 @@
 ---
-filename: create-business-case
 navigation-topic: business-case-and-scorecards
 title: Create a Business Case for a project
 description: You can use the Business Case to request a project and define the purpose, the budget, and the potential benefit for the project. The Portfolio Manager or Project Sponsor uses the information from the Business Case to analyze and prioritize the project before they approve it.
+feature: Work Management
 ---
 
 # Create a Business Case for a project

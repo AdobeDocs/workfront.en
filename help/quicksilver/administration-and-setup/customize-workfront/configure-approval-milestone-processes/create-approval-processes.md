@@ -1,11 +1,11 @@
 ---
-filename: create-approval-processes
-title: Create approval processes
+title: Create an approval process for work items
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-title: Create an approval process for work items
 description: You can create an approval process that users can attach to a work item (project, task, issue, template, or template task), a document, or a proof. An approval process ensures that designated assignees on the object review certain changes before the object progresses in the system.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Create an approval process for work items

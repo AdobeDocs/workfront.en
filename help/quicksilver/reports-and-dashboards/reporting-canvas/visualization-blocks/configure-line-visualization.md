@@ -2,6 +2,7 @@
 title: Configure a line visualization in Reporting Canvas
 description: Configure a line visualization in Reporting Canvas
 draft: Probably
+feature: Reports and Dashboards
 ---
 # Configure a line visualization in Reporting Canvas
 

@@ -1,9 +1,9 @@
 ---
-filename: library-release-activity-apr-18-2019
 content-type: release-notes
 navigation-topic: library-release-activity
 title: Workfront Library release activity - April 18, 2019
 description: This page describes all changes made available to Workfront Library with the release to the Production environment on April 18.
+feature: "Product Announcements, Workfront Library"
 ---
 
 # Workfront Library release activity - April 18, 2019

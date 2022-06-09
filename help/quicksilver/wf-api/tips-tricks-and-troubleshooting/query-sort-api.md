@@ -1,9 +1,9 @@
 ---
-filename: query-sort-api
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
 title: Sorting query results in the API
 description: You can sort your results by any field if you append the following to your API call - EDIT ME.
+feature: Workfront API
 ---
 
 # Sorting query results in the API

@@ -1,8 +1,8 @@
 ---
-filename: budget-resources-in-business-case
 navigation-topic: business-case-and-scorecards
 title: Budget resources in the Business Case
 description: As part of resource planning, you can budget the job roles necessary for completing the work in a project when you build the business case. For more information about creating a Business Case, see Create a Business Case for a project .
+feature: Work Management
 ---
 
 # Budget resources in the Business Case

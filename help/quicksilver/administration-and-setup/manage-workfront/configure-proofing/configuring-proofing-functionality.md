@@ -1,11 +1,12 @@
 ---
-filename: _configuring-proofing-functionality
 user-type: administrator
 content-type: reference
 product-area: system-administration;documents;setup
 navigation-topic: manage-workfront
 title: Configure proofing functionality
 description: This section contains the following articles - EDIT ME.
+feature: "System Setup and Administration, Digital Content and Documents"
+role: Administrator
 ---
 
 # Configure proofing functionality

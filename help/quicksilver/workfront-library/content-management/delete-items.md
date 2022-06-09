@@ -1,10 +1,10 @@
 ---
-filename: delete-items
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Delete items from Workfront Library
 description: As a Workfront Library administrator, you can delete assets, folders, and collections in Workfront Library.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Delete items from Workfront Library

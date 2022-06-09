@@ -1,10 +1,10 @@
 ---
-filename: view-document-report-with-proof-link
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: document report with link to a proof"
 description: "View: document report with link to a proof"
+feature: Reports and Dashboards
 ---
 
 # View: document report with link to a proof

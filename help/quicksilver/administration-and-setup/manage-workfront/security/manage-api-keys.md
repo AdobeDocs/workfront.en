@@ -1,10 +1,11 @@
 ---
-filename: manage-api-keys
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
 title: Manage API keys
 description: In order to minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront&nbsp;on behalf of a user.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Manage API keys

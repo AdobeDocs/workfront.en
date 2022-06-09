@@ -1,10 +1,10 @@
 ---
-filename: give-users-access-to-library
 product-previous: workfront-library
 product-area: documents;user-management;system-administration
 navigation-topic: user-access
 title: Give users access to Workfront Library
 description: Before users can open Workfront Library, they must be given access. As a Workfront Library administrator, you can give your users the following types of access - EDIT ME.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Give users access to Workfront Library

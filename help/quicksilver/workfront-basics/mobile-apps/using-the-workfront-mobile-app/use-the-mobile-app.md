@@ -1,9 +1,9 @@
 ---
-filename: use-the-mobile-app
 product-previous: mobile
 navigation-topic: mobile-apps
 title: Use the Adobe Workfront mobile app
 description: This section contains the following articles - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Use the Adobe Workfront mobile app

@@ -2,6 +2,7 @@
 title: Look-and-feel updates during the 22.2 release timeframe
 description: Look-and-feel updates during the 22.2 release timeframe
 draft: Probably
+feature: Product Announcements
 ---
 # Look-and-feel updates during the 22.2 release timeframe
 

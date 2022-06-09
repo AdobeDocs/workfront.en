@@ -1,10 +1,10 @@
 ---
-filename: calculate-cpi
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Cost Performance Index (CPI)
 description: Calculate Cost Performance Index (CPI)
+feature: Work Management
 ---
 
 # Calculate Cost Performance Index (CPI)

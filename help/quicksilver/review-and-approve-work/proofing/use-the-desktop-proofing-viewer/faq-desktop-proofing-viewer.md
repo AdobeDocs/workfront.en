@@ -1,10 +1,10 @@
 ---
-filename: faq-desktop-proofing-viewer
 content-type: faq
 product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
 title: FAQ - Desktop Proofing Viewer
 description: No. The Desktop Proofing Viewer is specifically designed for real-time website proofing and for proofing interactive web content such as banner advertisements.
+feature: Digital Content and Documents
 ---
 
 # FAQ - Desktop Proofing Viewer

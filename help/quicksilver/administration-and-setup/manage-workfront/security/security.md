@@ -1,11 +1,12 @@
 ---
-filename: _security
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Security
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Security

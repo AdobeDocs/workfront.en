@@ -1,10 +1,10 @@
 ---
-filename: send-documents-from-wf-to-library
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Send documents from Workfront to Workfront Library
 description: With Manager or higher access to Workfront Library, you can send a copy of a document that is uploaded to a project, task, or issue in Workfront to folders that you own or folders that you have access to Manage.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Send documents from Workfront to Workfront Library

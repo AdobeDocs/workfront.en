@@ -1,10 +1,10 @@
 ---
-filename: view-org-wp-acct-history
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: View your organization's Workfront Proof administrator account history
 description: As a Workfront Proof administrator, you can view usage statistics and a log of the changes made to your organization's Workfront Proof account.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # View your organization's Workfront Proof administrator account history

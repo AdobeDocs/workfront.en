@@ -1,10 +1,10 @@
 ---
-filename: config-user-pref-in-wp
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: Configure a user's Proof Permission Profile in Workfront Proof
 description: As a Workfront administrator or Workfront Proof administrator, you can grant permissions to users by assigning them user profiles. When you do this, those permissions are available to the user for all proofs in the system.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Configure a user's Proof Permission Profile in Workfront Proof

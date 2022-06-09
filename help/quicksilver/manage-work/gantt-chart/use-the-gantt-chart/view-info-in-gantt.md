@@ -1,8 +1,8 @@
 ---
-filename: view-info-in-gantt
 navigation-topic: use-the-gantt-chart
 title: View information in the Gantt Chart
 description: The task list Gantt Chart and project list Gantt Chart display information about projects and tasks.
+feature: Work Management
 ---
 
 # View information in the Gantt Chart

@@ -1,11 +1,12 @@
 ---
-filename: firewall-overview
 user-type: administrator
 content-type: overview
 product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Firewall overview
 description: Because Adobe Workfront communicates with your organization's network, your organization's firewall must be configured to allow that communication. Firewalls are highly effective security measures that function by separating an organization's network from the internet. They ensure that only selected data and network traffic can move into or out of the organization's network. The firewall allows or blocks data based on the site that is sending or receiving the data. As an Adobe Workfront administrator, you must ensure that data sent to or from Workfront can pass through your organization's firewall.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Firewall overview

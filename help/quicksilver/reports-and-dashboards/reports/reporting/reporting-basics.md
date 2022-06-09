@@ -1,10 +1,10 @@
 ---
-filename: _reporting-basics
 content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Reporting basics
 description: This section contains the following articles - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Reporting basics

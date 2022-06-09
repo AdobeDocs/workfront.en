@@ -1,9 +1,9 @@
 ---
-filename: navigate-within-portfolio
 product-area: portfolios
 navigation-topic: portfolios-overview
 title: Navigate within a portfolio
 description: Navigate within a portfolio
+feature: "Work Management, Strategic Planning"
 ---
 
 # Navigate within a portfolio

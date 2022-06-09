@@ -1,9 +1,9 @@
 ---
-filename: print-proof-summary-in-wf
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Print a proof summary within Adobe Workfront
 description: You can print a proof summary, save it as a PDF, or export it as an XLS file or PDF file that is optimized for Adobe Reader.
+feature: Digital Content and Documents
 ---
 
 # Print a proof summary within Adobe Workfront

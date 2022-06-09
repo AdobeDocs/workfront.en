@@ -1,9 +1,9 @@
 ---
-filename: send-email-messages-to-users-proof
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Send email messages to reviewers on a proof
 description: During the review and approval process, you can send a message to one or all of the reviewers on a proof. Messages are an easy way to remind reviewers to complete their review of a proof or to provide other information related to the proof.
+feature: Digital Content and Documents
 ---
 
 # Send email messages to reviewers on a proof

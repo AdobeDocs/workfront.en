@@ -1,9 +1,9 @@
 ---
-filename: move-documents
 product-area: documents
 navigation-topic: manage-documents
 title: Move documents
 description: A user with manage rights on a document can move the document to another object.
+feature: Digital Content and Documents
 ---
 
 # Move documents

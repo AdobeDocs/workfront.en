@@ -1,11 +1,12 @@
 ---
-filename: copy-custom-form-to-create-a-new-one
 user-type: administrator
 product-area: system-administration
 keywords: create,custom,form,copy,base,another
 navigation-topic: create-and-manage-custom-forms
 title: Copy a custom form to create a new one
 description: You can create a new custom form that is based on an existing one.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Copy a custom form to create a new one

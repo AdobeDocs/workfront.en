@@ -1,11 +1,11 @@
 ---
-filename: create-or-edit-a-status
-title: Create and customize statuses
+title: Create or edit a status
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
-title: Create or edit a status
 description: As an Adobe Workfront administrator, you can create custom statuses for projects, tasks, and issues.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Create or edit a status

@@ -1,11 +1,12 @@
 ---
-filename: kick-starts-data-importer
 user-type: administrator
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: Kick-Starts data importer
 description: Kick-Starts enable Adobe Workfront administrators to import data from external data sources into Workfront and to export existing data in Workfront to be used in other systems.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Kick-Starts data importer

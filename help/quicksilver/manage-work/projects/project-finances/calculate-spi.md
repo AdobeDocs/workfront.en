@@ -1,10 +1,10 @@
 ---
-filename: calculate-spi
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Schedule Performance Index (SPI)
 description: Calculate Schedule Performance Index (SPI)
+feature: Work Management
 ---
 
 # Calculate Schedule Performance Index (SPI)

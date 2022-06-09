@@ -1,9 +1,9 @@
 ---
-filename: remove-users-from-projects
 product-area: projects;user-management
 navigation-topic: manage-projects
 title: Remove users from projects
 description: Remove users from projects
+feature: Work Management
 ---
 
 # Remove users from projects

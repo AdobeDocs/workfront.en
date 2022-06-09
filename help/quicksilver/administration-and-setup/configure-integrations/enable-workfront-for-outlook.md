@@ -1,11 +1,11 @@
 ---
-filename: enable-workfront-for-outlook
-title: Enable Workfront for Outlook
+title: Enable Adobe Workfront for Outlook
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-title: Enable Adobe Workfront for Outlook
 description: Before users can begin using Adobe Workfront for Outlook, you first need to enable it for your system.
+feature: "System Setup and Administration, Workfront Integrations and Apps"
+role: Administrator
 ---
 
 # Enable Adobe Workfront for Outlook

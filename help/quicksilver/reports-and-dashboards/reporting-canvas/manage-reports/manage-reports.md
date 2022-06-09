@@ -1,10 +1,10 @@
 ---
-filename: _manage-reports
 content-type: reference
 product-area: reporting
 navigation-topic: reporting-canvas
 title: Manage Reports
 description: This section contains the following articles - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Manage Reports

@@ -1,10 +1,10 @@
 ---
-filename: task-dependency-types
 content-type: overview;reference
 product-area: projects
 navigation-topic: use-predecessors
 title: Overview of task dependency types
 description: Dependency Types refer to the predecessor relationships between tasks. They define when the dependent task can start or finish based on the start or finish of its predecessor.
+feature: Work Management
 ---
 
 # Overview of task dependency types

@@ -1,11 +1,12 @@
 ---
-filename: error-sso-users-unable-log-in-various-errors
 user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Error: SSO Users are Unable to Log In to Adobe Workfront Due to Various Errors"
 description: I am unable to log in to Workfront and received one of the following errors - EDIT ME.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Error: SSO Users are Unable to Log In to Adobe Workfront Due to Various Errors

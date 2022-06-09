@@ -1,12 +1,12 @@
 ---
-filename: _create-custom-status-and-priority-labels
-title: Create custom status and priority labels
+title: Statuses and priority labels
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-title: Statuses and priority labels
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Statuses and priority labels

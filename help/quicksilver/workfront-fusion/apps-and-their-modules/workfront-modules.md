@@ -1,5 +1,4 @@
 ---
-filename: workfront-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
@@ -7,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront modules
 description: You can use the Adobe Workfront Fusion Adobe Workfront connector to automate your processes within Workfront. If you have a Workfront Fusion for Work Automation and Integration license, you can also use it to connect to third-party apps and services.
+feature: "Workfront Fusion, Workfront Integrations and Apps"
 ---
 
 # Adobe Workfront modules

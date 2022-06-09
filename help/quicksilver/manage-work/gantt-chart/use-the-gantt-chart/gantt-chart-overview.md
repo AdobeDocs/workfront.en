@@ -1,9 +1,9 @@
 ---
-filename: _gantt-chart-overview
 content-type: overview
 navigation-topic: gantt-chart
 title: Gantt Chart overview
 description: This section contains the following articles - EDIT ME.
+feature: Work Management
 ---
 
 # Gantt Chart overview

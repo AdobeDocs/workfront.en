@@ -1,10 +1,10 @@
 ---
-filename: receive-a-webhook-from-a-web-service
 product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
 title: Receive a webhook from a web service
 description: If a web service is not currently implemented as an app in Adobe Workfront Fusion, but it supports sending webhooks, you can add the service to a scenario using the Custom webhook module as an instant trigger.
+feature: Workfront Fusion
 ---
 
 # Receive a webhook from a web service

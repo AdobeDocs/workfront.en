@@ -1,9 +1,9 @@
 ---
-filename: reply-to-updates
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Reply to updates
 description: When someone adds or replies to an update on a work object, their reply appears in the communication thread on the Updates tab for the object. You can add a reply to an update or Like it if you have View access to the object.
+feature: Get Started with Workfront
 ---
 
 # Reply to updates

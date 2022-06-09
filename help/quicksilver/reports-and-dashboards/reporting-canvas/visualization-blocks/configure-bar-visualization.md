@@ -2,6 +2,7 @@
 title: Configure a bar visualization in the Reporting Canvas
 description: Configure a bar visualization in the Reporting Canvas
 draft: Probably
+feature: Reports and Dashboards
 ---
 # Configure a bar visualization in the Reporting Canvas
 

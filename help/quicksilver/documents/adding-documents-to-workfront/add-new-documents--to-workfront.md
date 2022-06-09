@@ -1,10 +1,10 @@
 ---
-filename: _add-new-documents- to-workfront
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
 title: Add new documents to Adobe Workfront
 description: This section contains the following articles - EDIT ME.
+feature: Digital Content and Documents
 ---
 
 # Add new documents to Adobe Workfront

@@ -1,11 +1,11 @@
 ---
-filename: brand-wf-using-a-layout-template
-title: Brand Workfront using a Layout Template
+title: Brand Adobe Workfront using a layout template
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
-title: Brand Adobe Workfront using a layout template
 description: As an Adobe Workfront administrator or a group administrator, you can use a layout template to customize the logos in the top navigation area and on the Main Menu for certain groups, teams, job roles, and users. This is especially useful for groups in a large organization that have their own branding.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Brand Adobe Workfront using a layout template

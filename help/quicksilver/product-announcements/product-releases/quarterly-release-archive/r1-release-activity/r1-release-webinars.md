@@ -1,9 +1,9 @@
 ---
-filename: r1-release-webinars
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: R1 release webinars
 description: These webinars were focused on functionality included in the R1 release.
+feature: Product Announcements
 ---
 
 # R1 release webinars

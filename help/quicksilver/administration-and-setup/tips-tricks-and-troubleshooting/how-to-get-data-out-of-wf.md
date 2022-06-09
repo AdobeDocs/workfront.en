@@ -1,11 +1,12 @@
 ---
-filename: how-to-get-data-out-of-wf
 user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Retrieving historical data from Adobe Workfront: pros and cons"
 description: This article explains the pros and cons of 4 options you can use to retrieve your historical data from Workfront.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Retrieving historical data from Adobe Workfront: pros and cons

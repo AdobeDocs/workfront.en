@@ -1,10 +1,10 @@
 ---
-filename: get-started-reports-workfront
 content-type: overview;reference
 product-area: reporting
 navigation-topic: reporting-navigation-topic
 title: Get started with reports in Adobe Workfront
 description: Reports provide visibility into what is happening with users and work. Using reports, you can display information about objects in Adobe Workfront.
+feature: Reports and Dashboards
 ---
 
 # Get started with reports in Adobe Workfront

@@ -1,11 +1,11 @@
 ---
-filename: create-a-team-from-setup
-title: Grant administrator access
+title: Create a team from the Setup area
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-teams-admin
-title: Create a team from the Setup area
 description: As an Adobe Workfront administrator, you can create a team from the Setup area. For information about teams, see Teams overview.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Create a team from the Setup area

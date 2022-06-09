@@ -1,11 +1,11 @@
 ---
-filename: _account-settings
 content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Account settings in Workfront Proof
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Account settings in Workfront Proof

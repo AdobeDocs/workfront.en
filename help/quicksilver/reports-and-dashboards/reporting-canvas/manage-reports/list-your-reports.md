@@ -2,6 +2,7 @@
 title: List your reports in Reporting Canvas
 description: List your reports in Reporting Canvas
 draft: Probably
+feature: Reports and Dashboards
 ---
 # List your reports in Reporting Canvas
 

@@ -1,11 +1,12 @@
 ---
-filename: error-message-saml-2-error-user-identifier-not-found
 user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Error Message: SAML 2.0 Error: User Identifier Not Found"
 description: You are unable to establish a successful connection to ADFS.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Error Message: SAML 2.0 Error: User Identifier Not Found

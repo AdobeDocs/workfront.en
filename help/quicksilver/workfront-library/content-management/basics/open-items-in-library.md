@@ -1,10 +1,10 @@
 ---
-filename: open-items-in-library
 product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Open items in Workfront Library
 description: You can open any Workfront Library item to which you have permissions. For information on access and permissions, see Overview of user access to Workfront Library
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Open items in Workfront Library

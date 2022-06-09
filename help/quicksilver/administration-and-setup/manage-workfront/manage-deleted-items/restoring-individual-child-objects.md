@@ -1,10 +1,11 @@
 ---
-filename: restoring-individual-child-objects
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Restoring individual child objects
 description: This document describes how you can get help recovering individual child objects that have been deleted from your Adobe Workfront Production or Preview environments fewer than 30 days previously.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Restoring individual child objects

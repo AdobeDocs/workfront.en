@@ -1,9 +1,9 @@
 ---
-filename: create-issues
 product-area: projects
 navigation-topic: manage-issues
 title: Create issues
 description: While working on a project, you might discover that unexpected events arise. You can log those unexpected events as issues for a particular project or of a task. Users with the appropriate access can view and monitor the status of issues as the project or the task progresses to completion, eliminating the need for lengthy email chains or status meetings. Unlike tasks, which are planned events, issues represent unplanned work items in Adobe Workfront.
+feature: Work Management
 ---
 
 # Create issues

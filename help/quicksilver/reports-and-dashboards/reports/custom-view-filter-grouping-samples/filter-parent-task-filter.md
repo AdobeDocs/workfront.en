@@ -1,10 +1,10 @@
 ---
-filename: filter-parent-task-filter
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Filter: display parent tasks"
 description: You can apply the task filters below to display working tasks. Working tasks are tasks that can be worked independently and are not parent tasks to other tasks. In one example, a filter identifies children tasks that could be parents themselves. In this case, they are not working tasks.
+feature: Reports and Dashboards
 ---
 
 # Filter: display parent tasks

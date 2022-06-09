@@ -1,10 +1,10 @@
 ---
-filename: _goal-management
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
 title: Goal management in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+feature: Workfront Goals
 ---
 
 # Goal management in Adobe Workfront Goals

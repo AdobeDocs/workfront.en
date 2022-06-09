@@ -2,6 +2,8 @@
 title: Create and customize priorities
 description: Create and customize priorities
 draft: Probably
+feature: System Setup and Administration
+role: Administrator
 ---
 # Create and customize priorities
 

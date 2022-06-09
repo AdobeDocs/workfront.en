@@ -1,10 +1,11 @@
 ---
-filename: configure-workfront-ad
 user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: Configure Adobe Workfront with Active Directory
 description: Configure Adobe Workfront with Active Directory
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Configure Adobe Workfront with Active Directory

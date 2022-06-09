@@ -1,10 +1,10 @@
 ---
-filename: _mobile-apps
 content-type: reference
 product-previous: mobile
 navigation-topic: get-started-with-workfront
 title: Mobile Apps
 description: This section contains the following subsections - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Mobile Apps

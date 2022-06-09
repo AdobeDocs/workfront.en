@@ -1,9 +1,9 @@
 ---
-filename: create-work-items-in-home
 product-area: projects
 navigation-topic: use-the-home-area
 title: Create work items from the Home area
 description: Create work items from the Home area
+feature: "Get Started with Workfront, Work Management"
 ---
 
 # Create work items from the Home area

@@ -1,10 +1,10 @@
 ---
-filename: _scenario-planning
 content-type: reference
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Adobe Workfront Scenario Planner
 description: This section contains the following articles - EDIT ME.
+feature: Workfront Scenario Planner
 ---
 
 # Adobe Workfront Scenario Planner

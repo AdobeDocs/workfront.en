@@ -1,11 +1,12 @@
 ---
-filename: wf-user-credentials-vs-saml-user-credentials
 user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Adobe Workfront user credentials vs. SAML user credentials
 description: This article focuses specifically on Adobe Workfront and SAML and does not cover other SSO authentication methods such as AD and LDAP.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Adobe Workfront user credentials vs. SAML user credentials

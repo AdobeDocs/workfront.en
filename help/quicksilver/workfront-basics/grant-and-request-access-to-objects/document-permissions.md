@@ -1,11 +1,10 @@
 ---
-filename: document-permissions
-title: Document permissions
+title: Share a document
 content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
-title: Share a document
 description: Your Adobe Workfront administrator grants users access to view or edit documents when they assign access levels, as explained in Grant access to documents.
+feature: Get Started with Workfront
 ---
 
 # Share a document

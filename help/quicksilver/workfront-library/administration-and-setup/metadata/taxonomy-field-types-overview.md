@@ -1,11 +1,11 @@
 ---
-filename: taxonomy-field-types-overview
 content-type: overview
 product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Overview of taxonomy field types
 description: Workfront Library supports a set list of EXIF and XMP metadata. If you have an EXIF or XMP metadata field that needs to be added to Workfront Library, reach out to your customer success manager or account representative.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Overview of taxonomy field types

@@ -1,10 +1,10 @@
 ---
-filename: download-wp-invoice
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: Downloading Your Workfront Proof Invoice
 description: On the first day of a new billing period, your subscription invoice is sent to the main Billing contact on your account and to the Billing CC email address, if you have one defined.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Downloading Your Workfront Proof Invoice

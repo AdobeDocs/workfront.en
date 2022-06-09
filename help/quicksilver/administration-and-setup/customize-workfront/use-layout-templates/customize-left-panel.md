@@ -1,11 +1,11 @@
 ---
-filename: customize-left-panel
-title: Customize the left panel using a Layout Template
+title: Customize the left panel using a layout template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-title: Customize the left panel using a layout template
 description: In a layout template, you can customize what users see in the left panel area throughout Adobe Workfront.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Customize the left panel using a layout template

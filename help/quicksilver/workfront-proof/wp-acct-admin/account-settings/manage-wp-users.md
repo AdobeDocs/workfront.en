@@ -1,10 +1,10 @@
 ---
-filename: manage-wp-users
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: Manage Workfront Proof users
 description: As a Workfront Proof administrator, you can view user settings and manage proof users in the Account Settings area.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Manage Workfront Proof users

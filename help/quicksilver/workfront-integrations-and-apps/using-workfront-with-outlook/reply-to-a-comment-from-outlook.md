@@ -1,9 +1,9 @@
 ---
-filename: reply-to-a-comment-from-outlook
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
 title: Reply to a comment from Outlook
 description: When you receive a Adobe Workfront email notification in your Outlook inbox, you can quickly post a comment to Workfront simply by replying to the notification within Outlook.
+feature: Workfront Integrations and Apps
 ---
 
 # Reply to a comment from Outlook

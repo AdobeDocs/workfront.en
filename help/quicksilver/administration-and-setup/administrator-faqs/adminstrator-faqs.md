@@ -1,12 +1,12 @@
 ---
-filename: _adminstrator-faqs
 title: Administrator FAQs
 user-type: administrator
 content-type: faq;reference
 product-area: system-administration
 navigation-topic: administration-and-setup
-title: Administrator FAQs
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Administrator FAQs

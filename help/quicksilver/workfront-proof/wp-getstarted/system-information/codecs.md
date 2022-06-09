@@ -1,11 +1,11 @@
 ---
-filename: codecs
 content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
 title: Codecs in Workfront Proof
 description: Codecs in Workfront Proof
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Codecs in Workfront Proof

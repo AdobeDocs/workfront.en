@@ -1,9 +1,9 @@
 ---
-filename: update-info-task-list-gantt
 product-area: projects
 navigation-topic: use-the-gantt-chart
 title: Update information in the task list Gantt Chart
 description: The task list Gantt Chart shows details about tasks that are on a project or template.
+feature: Work Management
 ---
 
 # Update information in the task list Gantt Chart

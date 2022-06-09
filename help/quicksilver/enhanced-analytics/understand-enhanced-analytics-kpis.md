@@ -1,11 +1,10 @@
 ---
-filename: understand-enhanced-analytics-kpis
-title: Understand Analytics KPIs
+title: Understand Enhanced analytics KPIs
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-title: Understand Enhanced analytics KPIs
 description: At the top of the screen in the Enhanced analytics area, 4 key performance indicators (KPIs) display. These metrics allow you to quickly understand how long projects are taking, how big the projects are, and how many projects are being completed within a specific time frame. These numbers are not limited to the 50-project maximum that displays for the visualizations on this page. Instead, this data is based on all projects that apply to any set filters, and these numbers adjust if you change the selected date range or any of the filters.
+feature: Reports and Dashboards
 ---
 
 # Understand Enhanced analytics KPIs

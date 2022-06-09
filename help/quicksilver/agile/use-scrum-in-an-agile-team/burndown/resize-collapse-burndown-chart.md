@@ -1,9 +1,9 @@
 ---
-filename: resize-collapse-burndown-chart
 product-area: agile-and-teams
 navigation-topic: burndown
 title: Resize and collapse the burndown chart
 description: You can resize or collapse the burndown chart to adjust how much room it occupies on the story board.
+feature: Agile
 ---
 
 # Resize and collapse the burndown chart

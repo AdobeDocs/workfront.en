@@ -1,11 +1,12 @@
 ---
-filename: sharing-shows-more-than-1-permission
 user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Sharing shows more than one permission
 description: The Sharing window shows two different permissions for one user, which one is being used?
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Sharing shows more than one permission

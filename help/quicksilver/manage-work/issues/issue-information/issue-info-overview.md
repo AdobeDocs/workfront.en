@@ -1,10 +1,10 @@
 ---
-filename: _issue-info-overview
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
 title: Issue information
 description: This section contains the following articles - EDIT ME.
+feature: Work Management
 ---
 
 # Issue information

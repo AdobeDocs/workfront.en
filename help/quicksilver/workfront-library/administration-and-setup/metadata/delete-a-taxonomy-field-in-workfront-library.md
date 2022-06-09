@@ -1,10 +1,10 @@
 ---
-filename: delete-a-taxonomy-field-in-workfront-library
 product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Delete a taxonomy field in Workfront Library
 description: On rare occasion you might need to delete a taxonomy field. When you delete a taxonomy field, the metadata related to that field is deleted from all content and cannot be restored.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Delete a taxonomy field in Workfront Library

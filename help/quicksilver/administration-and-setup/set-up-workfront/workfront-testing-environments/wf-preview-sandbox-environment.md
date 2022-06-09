@@ -1,11 +1,12 @@
 ---
-filename: wf-preview-sandbox-environment
 user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: The Adobe Workfront Preview Sandbox Environment
 description: There are two testing environments for Workfront that are replicas of your Workfront production environment - EDIT ME.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # The Adobe Workfront Preview Sandbox Environment

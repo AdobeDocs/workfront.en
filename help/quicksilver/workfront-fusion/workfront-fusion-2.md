@@ -1,11 +1,11 @@
 ---
-filename: workfront-fusion-2
 product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: fusion
 navigation-topic: workfront-fusion-navigation-topic
 title: Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+feature: Workfront Fusion
 ---
 
 # Adobe Workfront Fusion

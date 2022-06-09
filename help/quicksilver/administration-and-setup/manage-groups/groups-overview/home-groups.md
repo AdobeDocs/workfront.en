@@ -1,11 +1,11 @@
 ---
-filename: home-groups
-title: Home Groups
+title: Home Groups overview
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-title: Home Groups overview
 description: A Home Group is assigned in the user's profile. All users are required to have a Home Group. A user can belong to more than one group, but they can have only one Home Group. For more information about Groups, see Groups overview.
+feature: "System Setup and Administration, People, Teams, and Groups"
+role: Administrator
 ---
 
 # Home Groups overview

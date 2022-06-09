@@ -1,10 +1,10 @@
 ---
-filename: archive
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Archive in Workfront Proof
 description: Workfront Proof archives proofs after a period of 60 days of inactivity.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Archive in Workfront Proof

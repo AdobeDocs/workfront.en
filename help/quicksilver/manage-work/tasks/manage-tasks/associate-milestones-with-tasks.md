@@ -1,9 +1,9 @@
 ---
-filename: associate-milestones-with-tasks
 product-area: projects
 navigation-topic: manage-tasks
 title: Associate milestones with tasks
 description: You can associate milestones with tasks to indicate when you reach important steps in the lifetime of the project.
+feature: Work Management
 ---
 
 # Associate milestones with tasks

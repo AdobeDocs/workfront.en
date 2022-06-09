@@ -1,10 +1,10 @@
 ---
-filename: calculate-hours-fte-for-users-roles-resource-planner
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
 title: Overview of calculating hours and FTE for users and roles in the Resource Planner
 description: Overview of calculating hours and FTE for users and roles in the Resource Planner
+feature: Resource Management
 ---
 
 # Overview of calculating hours and FTE for users and roles in the Resource Planner

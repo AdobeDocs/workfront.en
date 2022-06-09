@@ -1,10 +1,11 @@
 ---
-filename: manage-email-invitations
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Manage email invitations to new users
 description: Manage email invitations to new users
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Manage email invitations to new users

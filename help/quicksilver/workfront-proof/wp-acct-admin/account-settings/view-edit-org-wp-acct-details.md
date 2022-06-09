@@ -1,10 +1,10 @@
 ---
-filename: view-edit-org-wp-acct-details
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: View and edit your organization's Workfront Proof account details
 description: As the Workfront Proof administrator, you can view the account settings for your organization's Workfront Proof account.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # View and edit your organization's Workfront Proof account details

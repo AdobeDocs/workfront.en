@@ -1,11 +1,10 @@
 ---
-filename: project-maximums
-title: Overview of Project Condition and Condition Type
+title: Project limits overview
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
-title: Project limits overview
 description: Adobe Workfront has limits for how many objects can be associated with a project. Project limits are in place to improve product performance and enhance your experience with Workfront.
+feature: Work Management
 ---
 
 # Project limits overview

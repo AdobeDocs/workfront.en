@@ -2,6 +2,7 @@
 title: 21.3 Administrator enhancements
 description: 21.3 Administrator enhancements
 draft: Probably
+feature: "Product Announcements, System Setup and Administration"
 ---
 # 21.3 Administrator enhancements
 

@@ -1,10 +1,10 @@
 ---
-filename: _team-requests-overview
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: Team requests overview
 description: Team requests are found in the Teams area in the Main Menu.
+feature: "People, Teams, and Groups"
 ---
 # Team requests overview
 

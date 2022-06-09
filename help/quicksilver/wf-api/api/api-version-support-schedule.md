@@ -1,9 +1,9 @@
 ---
-filename: api-version-support-schedule
 content-type: api
 navigation-topic: api-navigation-topic
 title: API versioning and support schedule
 description: API versioning and support schedule
+feature: Workfront API
 ---
 
 # API versioning and support schedule

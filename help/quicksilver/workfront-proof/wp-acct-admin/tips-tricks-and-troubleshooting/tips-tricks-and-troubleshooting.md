@@ -1,11 +1,11 @@
 ---
-filename: _tips-tricks-and-troubleshooting
 content-type: tips-tricks-troubleshooting;reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Tips, tricks, and troubleshooting for Workfront Proof account administration
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Tips, tricks, and troubleshooting for Workfront Proof account administration

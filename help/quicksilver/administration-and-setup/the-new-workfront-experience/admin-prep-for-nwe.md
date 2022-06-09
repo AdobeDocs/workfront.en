@@ -2,6 +2,8 @@
 title: Prepare to move your organization to the new Adobe Workfront experience
 description: Prepare to move your organization to the new Adobe Workfront experience
 draft: Probably
+feature: System Setup and Administration
+role: Administrator
 ---
 # Prepare to move your organization to the new Adobe Workfront experience
 

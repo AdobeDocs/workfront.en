@@ -1,9 +1,9 @@
 ---
-filename: duplicates-paginated-search
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
 title: Duplicates returned during a large paginated search
 description: When performing a large paginated search in the API for an object, the customer is receiving duplicate entries and missing records.
+feature: Workfront API
 ---
 
 # Duplicates returned during a large paginated search

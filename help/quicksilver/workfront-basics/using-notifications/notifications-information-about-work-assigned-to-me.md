@@ -1,9 +1,9 @@
 ---
-filename: notifications-information-about-work-assigned-to-me
 content-type: reference
 navigation-topic: notifications
 title: "Notifications: Information about work assigned to me"
 description: The following notifications alert you about activities happening on a work item assigned to you.
+feature: Get Started with Workfront
 ---
 
 # Notifications: Information about work assigned to me

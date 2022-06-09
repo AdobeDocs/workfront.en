@@ -1,9 +1,9 @@
 ---
-filename: remind-approvers-submitted-approvals
 product-area: projects
 navigation-topic: approvals
 title: Remind approvers about submitted approvals
 description: You can remind approvers about pending approvals for the following objects - EDIT ME.
+feature: Work Management
 ---
 
 # Remind approvers about submitted approvals

@@ -1,11 +1,11 @@
 ---
-filename: fusion-performance-guardrails
 product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: scenario,performance
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion performance guardrails
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+feature: Workfront Fusion
 ---
 
 # Adobe Workfront Fusion performance guardrails

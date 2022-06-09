@@ -1,12 +1,12 @@
 ---
-filename: _manage-groups
 title: Manage groups
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
-title: Manage groups
 description: This section contains the following subsections - EDIT ME.
+feature: "System Setup and Administration, People, Teams, and Groups"
+role: Administrator
 ---
 
 # Manage groups

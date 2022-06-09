@@ -1,9 +1,9 @@
 ---
-filename: set-up-automatic-report-delivery
 product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: Schedule an automatic report delivery
 description: Schedule an automatic report delivery
+feature: Reports and Dashboards
 ---
 
 # Schedule an automatic report delivery

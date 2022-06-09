@@ -1,11 +1,12 @@
 ---
-filename: renew-wf-saml-2-certificate
 user-type: administrator
 product-area: system-administration
 keywords: SAML 2.0,security,certificate,Admin,Exemption,configure,metadata
 navigation-topic: security
 title: Renew the Adobe Workfront SAML 2.0 metadata certificate
 description: The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Renew the Adobe Workfront SAML 2.0 metadata certificate

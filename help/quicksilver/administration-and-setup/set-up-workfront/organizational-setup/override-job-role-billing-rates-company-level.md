@@ -1,10 +1,11 @@
 ---
-filename: override-job-role-billing-rates-company-level
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Override job role billing rates at the company level
 description: When a job role is created, you have the option to select an hourly billing rate for that role. You can create an hourly billing rate that is specific to a company.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Override job role billing rates at the company level

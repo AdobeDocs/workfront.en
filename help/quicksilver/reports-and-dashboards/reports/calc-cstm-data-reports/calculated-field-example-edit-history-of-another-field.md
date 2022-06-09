@@ -1,11 +1,11 @@
 ---
-filename: calculated-field-example-edit-history-of-another-field
 content-type: reference
 product-area: reporting
 keywords: audit,trail,custom,field
 navigation-topic: calculate-custom-data-reports
 title: "Calculated custom field example: display a field's edit history"
 description: If users update custom fields on a regular basis and you want to capture a log of all the changes made to a field as well as a date when the changes happen, you can capture this information in a calculated custom field.
+feature: Reports and Dashboards
 ---
 
 # Calculated custom field example: display a field's edit history

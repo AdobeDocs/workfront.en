@@ -1,9 +1,9 @@
 ---
-filename: manage-notifications-for-proof-comments
 product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Manage notifications for proof comments and decisions
 description: When you work on a proof, whether you are a Adobe Workfront user or an external collaborator, you can specify which email notifications you want to receive about comments and decisions made on the proof. For more information, see Notifications for proof comments and decisions overview.
+feature: Digital Content and Documents
 ---
 
 # Manage notifications for proof comments and decisions

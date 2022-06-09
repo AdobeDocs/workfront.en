@@ -1,9 +1,9 @@
 ---
-filename: new-api-version-6
 content-type: api
 navigation-topic: api-navigation-topic
 title: What's New in API Version 6
 description: What's New in API Version 6
+feature: Workfront API
 ---
 
 # What's New in API Version 6

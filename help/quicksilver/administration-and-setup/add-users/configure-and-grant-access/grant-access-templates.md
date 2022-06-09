@@ -1,11 +1,11 @@
 ---
-filename: grant-access-templates
 title: Grant access to templates
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: configure-access-to-workfront
-title: Grant access to templates
 description: As an Adobe Workfront administrator, you can use an access level to define a user's access to templates in Workfront, as explained in Access levels overview.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Grant access to templates

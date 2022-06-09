@@ -1,10 +1,10 @@
 ---
-filename: project-planned-completion-date
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
 title: Set the project Planned Completion Date
 description: The Planned Completion Date of a project is the date by which the project is set to complete.
+feature: Work Management
 ---
 
 # Set the project Planned Completion Date

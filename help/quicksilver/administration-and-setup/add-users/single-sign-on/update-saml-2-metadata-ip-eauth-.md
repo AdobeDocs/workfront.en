@@ -2,6 +2,8 @@
 title: Update SAML 2.0 metadata in your IDP when using enhanced authentication
 description: Update SAML 2.0 metadata in your IDP when using enhanced authentication
 draft: Probably
+feature: System Setup and Administration
+role: Administrator
 ---
 # Update SAML 2.0 metadata in your IDP when using enhanced authentication
 

@@ -1,9 +1,9 @@
 ---
-filename: view-and-manage-favorites
 product-area: projects
 navigation-topic: recent-and-favorites
 title: View and manage favorites
 description: The Favorites menu allows you to access items quickly. Items remain on the Favorites menu until you remove them. You can have up to 40 items on the Favorites menu.
+feature: Get Started with Workfront
 ---
 
 # View and manage favorites

@@ -1,11 +1,11 @@
 ---
-filename: reset-a-users-preferences
 title: Reset a user's preferences
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Reset a user's preferences
 description: As the Adobe Workfront administrator, you can reset or remove the user preference settings for any user in the Workfront system.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Reset a user's preferences

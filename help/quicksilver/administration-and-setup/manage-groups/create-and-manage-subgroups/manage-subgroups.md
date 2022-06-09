@@ -1,11 +1,12 @@
 ---
-filename: manage-subgroups
 user-type: administrator
 product-area: system-administration;user-management
 keywords: manage,subgroup,edit
 navigation-topic: create-and-manage-subgroups
 title: Manage a subgroup
 description: As an group administrator of a subgroup, you can create, move, view, edit, copy, rename, export, and delete the subgroup.
+feature: "System Setup and Administration, People, Teams, and Groups"
+role: Administrator
 ---
 
 # Manage a subgroup

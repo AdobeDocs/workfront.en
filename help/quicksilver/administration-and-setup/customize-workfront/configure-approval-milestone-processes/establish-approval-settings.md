@@ -1,11 +1,11 @@
 ---
-filename: establish-approval-settings
-title: Establish approval settings
+title: Configure global approval settings
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-title: Configure global approval settings
 description: As an Adobe Workfront administrator, you can determine the global settings for approval processes in Workfront. These settings impact all work item approval processes in your system.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Configure global approval settings

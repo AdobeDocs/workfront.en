@@ -1,10 +1,10 @@
 ---
-filename: _visualization-blocks
 content-type: reference
 product-area: reporting
 navigation-topic: reporting-canvas
 title: Visualization Blocks
 description: This section contains the following articles - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Visualization Blocks

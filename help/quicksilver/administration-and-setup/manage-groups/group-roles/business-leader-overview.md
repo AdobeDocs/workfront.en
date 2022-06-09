@@ -1,10 +1,11 @@
 ---
-filename: business-leader-overview
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: group-roles
 title: Business Leader overview
 description: In a group, the Business Leader is the person who makes decisions for the group regarding goals, strategies, budget, and hiring and so on. For example, in an organization that has a Chief Marketing Officer, that person would likely be the Business Leader for Marketing.
+feature: "System Setup and Administration, People, Teams, and Groups"
+role: Administrator
 ---
 
 # Business Leader overview

@@ -1,11 +1,11 @@
 ---
-filename: set-up-metadata-mapping
 title: Set up metadata mapping
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-title: Set up metadata mapping
 description: Metadata is descriptive information associated with a document. You can set up Adobe Workfront to include metadata with documents sent to Workfront applications.
+feature: "System Setup and Administration, Workfront Integrations and Apps"
+role: Administrator
 ---
 
 # Set up metadata mapping

@@ -1,9 +1,9 @@
 ---
-filename: proofhq-domain-change-workfront
 content-type: reference
 navigation-topic: announcements
 title: Change required for adding proofs to your allowlist
 description: The proofing domain is changing from proofhq.com to workfront.com.
+feature: Product Announcements
 ---
 
 # Change required for adding proofs to your allowlist

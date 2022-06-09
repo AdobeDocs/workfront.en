@@ -1,10 +1,11 @@
 ---
-filename: enable-outlook-for-use-w-wf-and-saml-2
 user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: Enable Outlook for use with Workfront and SAML 2.0
 description: If you enable SAML 2.0 authentication and you want your users to be able to log in to Workfront from Microsoft Outlook using their SAML 2.0 credentials, you must enable SAML 2.0 to authenticate in Office add-ins.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Enable Outlook for use with Workfront and SAML 2.0

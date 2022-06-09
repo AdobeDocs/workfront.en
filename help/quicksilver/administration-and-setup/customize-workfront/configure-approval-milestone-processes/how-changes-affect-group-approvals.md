@@ -1,12 +1,12 @@
 ---
-filename: how-changes-affect-group-approvals
-title: How approval process and group changes affect assigned approval processes
+title: How group and approval process changes affect assigned approval processes
 user-type: administrator
 content-type: reference
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-title: How group and approval process changes affect assigned approval processes
 description: This article explains what happens when an approval process is already associated with tasks, issues, projects, templates, or template tasks and a Workfront administrator (or a user with administrative access to approval processes) does one of the following - EDIT ME.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # How group and approval process changes affect assigned approval processes

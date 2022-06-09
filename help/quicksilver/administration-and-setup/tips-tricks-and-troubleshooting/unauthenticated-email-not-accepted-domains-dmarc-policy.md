@@ -1,11 +1,12 @@
 ---
-filename: unauthenticated-email-not-accepted-domains-dmarc-policy
 user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Unauthenticated email is not accepted due to domain's DMARC policy
 description: Test - I received the following bounce back email - EDIT ME.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Unauthenticated email is not accepted due to domain's DMARC policy

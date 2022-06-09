@@ -1,11 +1,11 @@
 ---
-filename: configure-sharepoint-integration
 title: Configure the SharePoint integration
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-title: Configure the SharePoint integration
 description: Configure the SharePoint integration
+feature: "System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents"
+role: Administrator
 ---
 
 # Configure the SharePoint integration

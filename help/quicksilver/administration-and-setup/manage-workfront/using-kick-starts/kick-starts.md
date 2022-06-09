@@ -1,5 +1,4 @@
 ---
-filename: _kick-starts
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -7,6 +6,8 @@ keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: manage-workfront
 title: Kick-Starts
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Kick-Starts

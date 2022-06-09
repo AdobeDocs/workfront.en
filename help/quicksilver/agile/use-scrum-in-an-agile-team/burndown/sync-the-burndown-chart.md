@@ -1,9 +1,9 @@
 ---
-filename: sync-the-burndown-chart
 product-area: agile-and-teams
 navigation-topic: burndown
 title: Synchronize data in the burndown chart
 description: The burndown chart is synchronized automatically with data in your project or iteration. If the burndown chart ever becomes out of sync with data in the project or iteration, you can manually synchronize it.
+feature: Agile
 ---
 
 # Synchronize data in the burndown chart

@@ -1,10 +1,11 @@
 ---
-filename: configure-access-to-blueprints
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configure access to blueprints
 description: As a system administrator, you can enable access for users to request installation of blueprints by setting up a request queue to store the requests. There, you have a single location to track and update requests.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Configure access to blueprints

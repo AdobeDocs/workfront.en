@@ -1,10 +1,10 @@
 ---
-filename: _manage-proofs-in-wf
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Manage proofs within Adobe Workfront
 description: This section contains the following articles - EDIT ME.
+feature: Digital Content and Documents
 ---
 
 # Manage proofs within Adobe Workfront

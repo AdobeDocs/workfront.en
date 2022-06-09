@@ -1,9 +1,9 @@
 ---
-filename: remove-filters-views-groupings
 product-area: reporting
 navigation-topic: reporting-elements
 title: Remove filters, views, and groupings
 description: Remove filters, views, and groupings
+feature: Reports and Dashboards
 ---
 
 # Remove filters, views, and groupings

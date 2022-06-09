@@ -1,11 +1,11 @@
 ---
-filename: customize-pinned-pages
-title: Customize pinned pages using a Layout Template
+title: Customize pinned pages using a layout template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-title: Customize pinned pages using a layout template
 description: In a layout template, you can pin the pages that you want users to always have available at the top of Adobe Workfront. These can be either pages accessed via the Main Menu or dashboards.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Customize pinned pages using a layout template

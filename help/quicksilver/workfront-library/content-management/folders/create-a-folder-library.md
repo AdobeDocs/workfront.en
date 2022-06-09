@@ -1,10 +1,10 @@
 ---
-filename: create-a-folder-library
 product-previous: workfront-library
 product-area: documents
 navigation-topic: folders
 title: Create a folder in Workfront Library
 description: If you have Manager or higher access to Workfront Library you can create folders to organize content. By nesting folders, you can create a folder structure that makes finding content quick and easy.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Create a folder in Workfront Library

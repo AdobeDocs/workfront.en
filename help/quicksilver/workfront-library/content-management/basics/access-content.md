@@ -1,10 +1,10 @@
 ---
-filename: access-content
 product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Access content in Workfront Library
 description: Depending on your access level, you can access content in the following areas of Workfront Library - EDIT ME.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Access content in Workfront Library

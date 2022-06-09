@@ -1,11 +1,12 @@
 ---
-filename: _Add users
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
 title: Add users overview
 description: This section contains the following subsections - EDIT ME.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Add users

@@ -2,6 +2,8 @@
 title: Grant access to teams
 description: Grant access to teams
 draft: Probably
+feature: System Setup and Administration
+role: Administrator
 ---
 # Grant access to teams
 

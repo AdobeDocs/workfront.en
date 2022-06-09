@@ -1,11 +1,11 @@
 ---
-filename: activity-audit-trail
 content-type: overview
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
 title: Understanding the Workfront Proof Activity Audit Trail
 description: The Activity Audit Trail page provides you with a complete list of all activity that has taken place in your account.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Understanding the Workfront Proof Activity Audit Trail

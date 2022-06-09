@@ -1,11 +1,11 @@
 ---
-filename: set-custom-condition-default-tasks-issues
-title: Set a custom Condition as the default for tasks and issues
+title: Set a custom condition as the default for tasks and issues
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
-title: Set a custom condition as the default for tasks and issues
 description: When a user clicks Work on It or adds an update comment to a new task they have been assigned to (without manually setting a condition for the task), Adobe Workfront displays the default condition for tasks, which is configured in Setup. The same is true for issues.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Set a custom condition as the default for tasks and issues

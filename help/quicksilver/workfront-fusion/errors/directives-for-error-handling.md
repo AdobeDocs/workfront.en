@@ -1,11 +1,11 @@
 ---
-filename: directives-for-error-handling
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Directives for error handling in Adobe Workfront Fusion
 description: This article describes directives that you can use for error handling in your Adobe Workfront Fusion scenarios.
+feature: Workfront Fusion
 ---
 
 # Directives for error handling in Adobe Workfront Fusion

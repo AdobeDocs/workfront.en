@@ -1,12 +1,12 @@
 ---
-filename: project-statuses
-title: Project statuses
+title: Access the list of system project statuses
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Access the list of system project statuses
 description: Users can specify the status of a project so that other users can see the project's current stage of development at a given time.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Access the list of system project statuses

@@ -1,10 +1,11 @@
 ---
-filename: deactivate-sso
 user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: Deactivate single sign-on in Adobe Workfront
 description: The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Deactivate single sign-on in Adobe Workfront

@@ -1,11 +1,12 @@
 ---
-filename: _single-sign-on
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
 title: Single sign-on in Adobe Workfront
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Single sign-on in Adobe Workfront

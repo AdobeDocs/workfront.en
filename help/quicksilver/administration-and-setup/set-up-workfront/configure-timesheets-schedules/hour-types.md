@@ -1,11 +1,12 @@
 ---
-filename: hour-types
 user-type: administrator
 content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Manage hour types
 description: You can associate hour types with your hour entries. Hour types are labels you use to define your hour entries.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Manage hour types

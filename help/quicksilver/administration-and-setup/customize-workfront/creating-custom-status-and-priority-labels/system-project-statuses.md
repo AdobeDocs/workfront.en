@@ -1,11 +1,12 @@
 ---
-filename: system-project-statuses
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: System project statuses
 description: Workfront has 9 built-in system project statuses.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # System project statuses

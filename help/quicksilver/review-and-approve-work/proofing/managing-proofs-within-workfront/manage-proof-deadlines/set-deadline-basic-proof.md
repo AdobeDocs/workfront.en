@@ -1,10 +1,10 @@
 ---
-filename: set-deadline-basic-proof
 content-type: reference
 product-area: documents
 navigation-topic: manage-proof-deadlines
 title: Set a deadline for an existing basic proof
 description: You can set a single deadline for a basic proof after it's been created.
+feature: Digital Content and Documents
 ---
 
 # Set a deadline for an existing basic proof

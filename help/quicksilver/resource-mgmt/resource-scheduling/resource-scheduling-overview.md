@@ -1,10 +1,10 @@
 ---
-filename: _resource-scheduling-overview
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Resource Scheduling
 description: Resource Scheduling
+feature: Resource Management
 ---
 
 # Resource Scheduling

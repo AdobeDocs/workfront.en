@@ -1,9 +1,9 @@
 ---
-filename: reporting-canvas-beta
 content-type: reference
 navigation-topic: betas
 title: Reporting Canvas beta
 description: A complete reimagination of reporting in Workfront, the new Reporting Canvas tool is nearing completion and will soon be available for public testing. In developing Reporting Canvas, we have worked hard to provide an experience that offers maximal flexibility coupled with an intuitive, modular design—so that users like you can most effectively leverage your own data in making and sharing reports. Through a new, unified report type that allows you to drag-and-drop nearly every element onto a limitless canvas, creating a visual data masterpiece will soon be easier than ever before.
+feature: Product Announcements
 ---
 
 # Reporting Canvas beta

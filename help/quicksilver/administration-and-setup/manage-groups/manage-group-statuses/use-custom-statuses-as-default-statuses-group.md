@@ -1,10 +1,11 @@
 ---
-filename: use-custom-statuses-as-default-statuses-group
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Use a custom status as a default status for a group
 description: As a group administrator, you can configure a custom status as a default status for a group or subgroup that you manage. This is useful when the system needs to automatically assign a Workfront status to a project, task, or issue. A project, task, or issue always displays the custom status that you set as a default status instead of displaying the Workfront status that it equates to.
+feature: "System Setup and Administration, People, Teams, and Groups"
+role: Administrator
 ---
 
 # Use a custom status as a default status for a group

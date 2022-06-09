@@ -1,10 +1,11 @@
 ---
-filename: deactivate-a-company
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Deactivate or reactivate a company
 description: You can deactivate a company that you no longer use while retaining all of its associated historical data. If you deactivate a company already in use somewhere in the system, it continues to function just like it always has. It is not removed or blocked.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Deactivate or reactivate a company

@@ -1,10 +1,11 @@
 ---
-filename: create-or-edit-a-group-status
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Create or edit a group status
 description: As a group administrator, you can create custom statuses for a group that you manage. This helps to eliminate the need for dozens of company-wide custom statuses and allows more autonomy in your group hierarchies.
+feature: "System Setup and Administration, People, Teams, and Groups"
+role: Administrator
 ---
 
 # Create or edit a group status

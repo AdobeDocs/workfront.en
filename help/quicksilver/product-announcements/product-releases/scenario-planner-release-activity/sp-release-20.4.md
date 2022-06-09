@@ -1,11 +1,11 @@
 ---
-filename: sp-release-20.4
 product-previous: enterprise-scenario-planner
 content-type: release-notes
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: scenario-planner-release-activity
 title: Workfront Scenario Planner with the 20.4 release - October 14, 2020
 description: Workfront Scenario Planner is available only with the new Adobe Workfront experience.
+feature: "Product Announcements, Workfront Scenario Planner"
 ---
 
 # Workfront Scenario Planner with the 20.4 release - October 14, 2020

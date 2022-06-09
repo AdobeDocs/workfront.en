@@ -1,9 +1,9 @@
 ---
-filename: create-goals
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Create goals in Adobe Workfront Goals
 description: Whether you are a CEO, a manager, or an individual contributor, you can create goals in Adobe Workfront Goals to align your work with your goals and the goals that outline the strategy of your organization.
+feature: Workfront Goals
 ---
 
 # Create goals in Adobe Workfront Goals

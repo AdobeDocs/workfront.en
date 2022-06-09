@@ -1,11 +1,12 @@
 ---
-filename: _exchange-rates
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Exchange rates
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Exchange rates

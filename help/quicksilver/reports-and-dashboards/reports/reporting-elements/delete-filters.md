@@ -1,9 +1,9 @@
 ---
-filename: delete-filters
 product-area: reporting
 navigation-topic: reporting-elements
 title: Delete filters
 description: Delete filtersDelete filters, views, and groupings" and be updated to illustrate this?! I think we should keep this separate from "Remove FVG" because there are two separate functions - ?!)"
+feature: Reports and Dashboards
 ---
 
 # Delete filters

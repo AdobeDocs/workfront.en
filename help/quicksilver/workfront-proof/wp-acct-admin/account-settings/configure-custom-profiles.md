@@ -1,10 +1,10 @@
 ---
-filename: configure-custom-profiles
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Configure custom profiles in Workfront Proof
 description: As a Workfront Proof Billing Administrator or Workfront Proof Administrator, you can configure custom profiles for other users.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Configure custom profiles in Workfront Proof

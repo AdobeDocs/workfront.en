@@ -1,9 +1,9 @@
 ---
-filename: reviewer-global-navigation-bar
 product-area: user-management
 navigation-topic: workfront-navigation
 title: Understand the navigation for a Review-license user
 description: The Main Menu changes with the access level you have been assigned by your Adobe Workfront administrator. By default, you are given access only to the areas that include functionality allowed by your access level. To understand the components of the default layout of each access level, see About the default Adobe Workfront layout.
+feature: Get Started with Workfront
 ---
 
 # Understand the navigation for a Review-license user

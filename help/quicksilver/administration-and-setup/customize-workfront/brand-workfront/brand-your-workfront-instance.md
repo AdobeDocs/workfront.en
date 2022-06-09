@@ -1,11 +1,11 @@
 ---
-filename: brand-your-workfront-instance
-title: Brand your Workfront instance
+title: Brand your Adobe Workfront instance
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-title: Brand your Adobe Workfront instance
 description: Brand your Adobe Workfront instance
+feature: System Setup and Administration
+role: Administrator
 ---
 
 # Brand your Adobe Workfront instance

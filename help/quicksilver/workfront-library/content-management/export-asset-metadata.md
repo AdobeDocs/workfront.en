@@ -1,10 +1,10 @@
 ---
-filename: export-asset-metadata
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Export asset metadata from Workfront Library
 description: You can export Workfront Library asset metadata from the list view. Consider the following when exporting metadata - EDIT ME.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Export asset metadata from Workfront Library

@@ -1,11 +1,11 @@
 ---
-filename: user-access-overview
 content-type: overview
 product-previous: workfront-library
 product-area: documents;user-management;system-administration
 navigation-topic: user-access
 title: Overview of user access to Workfront Library
 description: By default, when a system administrator integratesWorkfront with Workfront Library, only users with administrative rights within Workfront can access Workfront Library. For information on setting up Workfront to integrate with Workfront Library, see Configure document integrations.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Overview of user access to Workfront Library

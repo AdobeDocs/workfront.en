@@ -1,9 +1,9 @@
 ---
-filename: wf-cc-update
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Update your work in Adobe Photoshop
 description: You can update your work in the following areas - EDIT ME.
+feature: "Workfront Integrations and Apps, Digital Content and Documents"
 ---
 
 # Update your work in Adobe Photoshop
