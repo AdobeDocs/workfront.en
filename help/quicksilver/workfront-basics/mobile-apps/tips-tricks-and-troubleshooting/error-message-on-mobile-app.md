@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-previous: mobile
 navigation-topic: tips-tricks-and-troubleshooting-mobile-apps
 title: "Error Message on the Adobe Workfront Mobile App: 'Your account is not API enabled.'"
-description: You must have the following access to perform the steps in this article - EDIT ME.
+description: If you see the error "Your account is not API enabled" on the mobile app, talk to your system administrator.
 ---
 
 # Error Message on the Adobe Workfront Mobile App: "Your account is not API enabled."
@@ -18,15 +18,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
    <td> <p>System administrator </p> </td> 
   </tr> 
  </tbody> 
