@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
 
 ## New project default settings
 
-When you create a project, Workfront applies a set of default settings to it. For example, the Status, Group, or Schedule Mode are preset when you create the project.
+When you create a project, Workfront applies a set of default settings to it. For example, the Status, Group, or Schedule Mode are preset when you create a project.
 
 Consider the following:
 

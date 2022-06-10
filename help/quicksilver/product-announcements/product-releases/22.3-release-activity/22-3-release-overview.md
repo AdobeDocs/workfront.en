@@ -20,7 +20,7 @@ to help you unlock productivity and collaboration.
 </MadCap:conditionalText>
 -->
 
-These enhancements are currently available in the Preview environment and will be made available in the Production environment in July 2022. As the 22.3 release nears its planned Production release, this page will be updated with all functionality included with 22.3.
+These enhancements are currently available in the Preview environment and will be made available in the Production environment the week of July 11, 2022. As the 22.3 release nears its planned Production release, this page will be updated with all functionality included with 22.3.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
