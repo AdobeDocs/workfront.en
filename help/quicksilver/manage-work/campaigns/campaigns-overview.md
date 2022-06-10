@@ -19,8 +19,9 @@ For example, you can capture the work necessary to complete a marketing campaign
 
 Because you can associate the same project with multiple campaigns, Adobe Workfront allows you to organize work both vertically and horizontally in your strategic roadmap and move away from the linear hierarchy you have been used to so far.
 
+<!--
 For information about creating campaigns, see [Create campaigns](create-campaigns.md).
-
+-->
 
 ## Benefits of using campaigns
 

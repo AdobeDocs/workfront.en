@@ -15,9 +15,9 @@ description: (NOTE:The name of the object might change - update the titles when/
 This section contains the following articles:
 
 * [Campaigns overview](campaigns-overview.md) 
-* [Create campaigns](create-campaigns.md) 
 * [Edit campaigns](edit-campaigns.md)
 <!--
+* [Create campaigns](create-campaigns.md)
 * [Delete campaigns](delete-campaigns.md) 
 * [Add objects to a campaign](add-objects-to-a-campaign.md) 
 * [Manage campaign finances](manage-campaign-finances.md) 
