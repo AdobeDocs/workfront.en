@@ -3,7 +3,7 @@ filename: ios-beta-tester
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Be an iOS beta tester
-description: There are a couple of ways to become a beta tester for the Adobe Workfront app - EDIT ME.
+description: Review this article to become an iOS beta tester for the Adobe Workfront mobile app.
 ---
 
 # Be an iOS beta tester
