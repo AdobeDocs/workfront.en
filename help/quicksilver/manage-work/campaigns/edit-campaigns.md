@@ -8,7 +8,7 @@ description: You can edit information about a campaign.
 
 # Edit Campaigns
 
- >[!NOTE]
+>[!NOTE]
 >
 >You can opt in to access Campaigns by enrolling in the beta program. The functionality described in this article might not be fully available yet. For more information about current available functionality and how to enroll, see [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
 
@@ -57,14 +57,14 @@ Before you begin:
     * [Overview](#overview)
 
 
-### Campaign Name {#campaign-name}
+### Campaign Name 
 
 1. Begin editing your campaign as described above.
 1. Click Campaign Name in the left panel.
 1. Update the name of the campaign.
 1. Click **Save**.
 
-### Overview {#overview}
+### Overview
 
 1. Begin editing your campaign as described above.
 1. Click Overview in the left panel.
