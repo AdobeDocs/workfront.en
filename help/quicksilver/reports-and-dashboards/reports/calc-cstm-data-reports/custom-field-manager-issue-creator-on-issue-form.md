@@ -58,7 +58,7 @@ The following steps show how you can create a calculated field for an issue cust
 1. Copy and paste the following text mode code into the **Calculation** field of the custom form:
 
    ```
-   Owner.Manager.Name
+  {owner}.{manager}.{name}
    ```
 
    >[!TIP]
