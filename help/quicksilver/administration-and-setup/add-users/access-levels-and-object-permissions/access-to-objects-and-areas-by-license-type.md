@@ -37,8 +37,6 @@ The table below tells you the highest level of access (Edit or View) that each o
 | Scenario Planner |Edit |Edit |Edit |No access |No access |
 | Workfront Goals  |Edit |Edit |Edit |Edit |No access |
 
-{style="table-layout:auto"}
-
 &#42; Users with a Request license can view only reports, dashboards, and calendars that are shared with them.
 
 >[!NOTE]

@@ -64,14 +64,14 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>Type a name for your access level. </p> <p>If you just copied an access level to create a new one, the default name is <strong>Access Level Name (Copy),</strong> where <strong>Access Level Name</strong> is the access level you copied.</p> <p>Tip: We recommend that you include the original name of the access level in the name of the copy. For example, at ACME company, a copy of the Planner access level might be named ACME Planner.</p> </td> 
+      <td> <p>Type a name for your access level. </p> <p>If you just copied an access level to create a new one, the default name is Access Level Name (Copy), where Access Level Name is the access level you copied.</p> <p><strong>Tip</strong>: We recommend that you include the original name of the access level in the name of the copy. For example, at ACME company, a copy of the Planner access level might be named ACME Planner.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Description</strong> </td> 
+      <td role="rowheader">Description </td> 
       <td>Type a description for the access level. It's helpful to list here what an user with this access level will be able to access.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>License Type</strong> </td> 
+      <td role="rowheader">License Type</td> 
       <td>Make sure that the license selected here is the one that is most closely associated with the type of access level you are creating or editing. The selected license determines what settings are available for the access level. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</td> 
      </tr> 
     </tbody> 
@@ -101,7 +101,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Expenses</td> 
-      <td>View all expenses on objects in Workfront.<br><p>Without this access, the user can only view the following:</p>
+      <td>View all expenses on objects in Workfront.<p>Without this access, the user can only view the following:</p>
        <ul>
         <li>Expenses on projects, tasks or issues they manage</li>
         <li>Their own expenses</li>
@@ -115,11 +115,13 @@ You must have the following access to perform the steps in this article:
         <li>View and edit existing job roles</li> 
         <li>Add new job roles</li> 
         <li>Edit role billing and cost rates</li> 
-       </ul> <p><b>IMPORTANT</b>:  <p>If you grant a Planner user administrative access to job roles, the Financial Data access setting Edit Role Billing &amp; Cost Rates is enabled for the user automatically.</p> <p>Later, if you disable administrative access to job roles for the Planner user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled. </p> <p>If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting.</p> <p>For instructions, see Grant access to financial data.</p> </p> </td> 
+       </ul> 
+       For important information about access to financial data that is available to a Planner user with administrative access to job roles, see the section [Planner users with administrative access to job roles](#planner-job-roles) in this article.
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Milestones in my group</td> 
-      <td>View all the milestone paths in the system under the Milestone Paths menu in Setup. Users can also edit or&nbsp;delete any milestone paths belonging to any of their&nbsp;groups. Users cannot manage (edit or delete) milestone paths that are not assigned to their of groups.<br><p>Without this access, users can only view existing milestone paths and apply them to projects they have access to manage.</p></td> 
+      <td>View all the milestone paths in the system under the Milestone Paths menu in Setup. Users can also edit or&nbsp;delete any milestone paths belonging to any of their&nbsp;groups. Users cannot manage (edit or delete) milestone paths that are not assigned to their of groups.<p>Without this access, users can only view existing milestone paths and apply them to projects they have access to manage.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Reminder notifications</td> 
@@ -138,7 +140,7 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click **Set additional restrictions**, then set any restrictions you want for the access level.
+1. Click **Set additional restrictions**, then set any of the following restrictions for the access level.
 
    >[!IMPORTANT]
    >
@@ -150,7 +152,7 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Never give access to the whole project when assigned to a task or issue</td> 
-      <td> Prevents users assigned to tasks or issues to also gain permissions to the parent project, even if the project permissions allow that.<br><p>For more information about configuring the permissions on a project, see the section <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> in the article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p></td> 
+      <td> Prevents users assigned to tasks or issues to also gain permissions to the parent project, even if the project permissions allow that.<p>For more information about configuring the permissions on a project, see the section <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> in the article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Never inherit document access from projects, tasks, issues, etc...</td> 
@@ -192,7 +194,14 @@ You must have the following access to perform the steps in this article:
 
    After the access level is created, you can assign it to a user (unless it is a System Administrator access level). 
    
-   dFor more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). 
+   For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). 
    
    For information about how an Adobe administrator assigns a System Administrator access level to a users, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
+## Planner users with administrative access to job roles {#planner-job-roles}
+
+If you grant a Planner user administrative access to job roles, the Edit Role Billing &amp; Cost Rates setting is automatically enabled for the user automatically.
+
+Later, if you disable administrative access to job roles for the user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled.
+
+If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see [Grant access to financial data](grant-access-financial.md).

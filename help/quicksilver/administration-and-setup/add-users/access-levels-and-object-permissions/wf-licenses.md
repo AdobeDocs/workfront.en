@@ -22,34 +22,16 @@ As a Workfront administrator, instead of assigning a license to a user, you assi
 
 This table and diagram show the main levels of access to Workfront:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th>License</th> 
-   <th>Associated access level</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>Plan </td> 
-   <td> <p> System Administrator</p> <p>Planner</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Work </td> 
-   <td>Worker</td> 
-  </tr> 
-  <tr> 
-   <td>Review </td> 
-   <td>Reviewer</td> 
-  </tr> 
-  <tr> 
-   <td> <p>External</p> <p><b>NOTE</b>: This is not a paid license. It is designed primarily for sharing documents with collaborators who don't use Workfront. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Built-in access levels in Adobe Workfront</a>.</p> </td> 
-   <td> <p>External User</p> <p>&nbsp;</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|License|Associated access level|
+|--- |--- |
+|Plan|System Administrator, Planner|
+|Work|Worker|
+|Review|Reviewer|
+|External*|External User|
+
+
+
+*The External license is not a paid license. It is designed primarily for sharing documents with collaborators who don't use Workfront. For more information, see [Built-in access levels in Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md").
 
 ![](assets/licenses-and-access-levels.png)
 
