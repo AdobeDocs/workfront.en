@@ -49,7 +49,7 @@ For example:
   >
   >The same syntax applies to all text-mode reporting elements where calculated expressions are used: views, filters, groupings, prompts.
 
-The differences between the two syntaxes are: 
+The differences between the two syntaxes are:  
 
 <table style="table-layout:auto"> 
  <col> 
