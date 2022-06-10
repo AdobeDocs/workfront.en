@@ -14,10 +14,13 @@ description: (NOTE:The name of the object might change - update the titles when/
 
 This section contains the following articles:
 
-* [Campaigns overview](../../manage-work/campaigns/campaigns-overview.md) 
-* [Create campaigns](../../manage-work/campaigns/create-campaigns.md) 
-* [Delete campaigns](../../manage-work/campaigns/delete-campaigns.md) 
-* [Add objects to a campaign](../../manage-work/campaigns/add-objects-to-a-campaign.md) 
-* [Manage campaign finances](../../manage-work/campaigns/manage-campaign-finances.md) 
-* [Share a campaign](../../manage-work/campaigns/share-a-campaign.md)
+* [Campaigns overview](campaigns-overview.md) 
+* [Create campaigns](create-campaigns.md) 
+* [Edit campaigns](edit-campaigns.md)
+<!--
+* [Delete campaigns](delete-campaigns.md) 
+* [Add objects to a campaign](add-objects-to-a-campaign.md) 
+* [Manage campaign finances](manage-campaign-finances.md) 
+* [Share a campaign](share-a-campaign.md)
+-->
 
