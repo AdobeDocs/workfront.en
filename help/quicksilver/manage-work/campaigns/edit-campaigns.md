@@ -16,7 +16,7 @@ description: You can edit information about a campaign.
 
 You must have the following access to perform the steps in this article:
 
-| Requirements             |                   |
+| Requirements            |                   |
 |--------------------------|-------------------|
 | Adobe Workfront plan*    | Any               |
 | Adobe Workfront license* | Request or higher |
