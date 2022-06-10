@@ -5,7 +5,7 @@ keywords: view,group,event,notifications,configure,enable,disable
 navigation-topic: create-and-manage-groups
 title: View and configure event notifications for a group
 description: As an group administrator, you can view the event notifications that are activated for a group you manage.
-feature: "System Setup and Administration, People, Teams, and Groups"
+feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---
 

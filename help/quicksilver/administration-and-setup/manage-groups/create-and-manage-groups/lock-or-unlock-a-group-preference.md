@@ -4,7 +4,7 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Lock or unlock a project, task, or issue preference for subgroups
 description: As a group administrator, you can configure and then lock a project, task, or issue preference if a Workfront administrator has unlocked it at the system level.
-feature: "System Setup and Administration, People, Teams, and Groups"
+feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---
 

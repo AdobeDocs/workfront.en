@@ -5,7 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Work with a group's objects
 description: When new objects are added to the Groups page, don't forget to update the article Manage groups/Groups overview/groups.html
-feature: "System Setup and Administration, People, Teams, and Groups"
+feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---
 

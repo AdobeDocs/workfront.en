@@ -5,7 +5,7 @@ keywords: create,group,subgroup,new
 navigation-topic: create-and-manage-groups
 title: Create a group
 description: DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT-SENSITIVE HELP LINKS.
-feature: "System Setup and Administration, People, Teams, and Groups"
+feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---
 

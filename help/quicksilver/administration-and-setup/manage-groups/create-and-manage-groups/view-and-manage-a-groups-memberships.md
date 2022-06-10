@@ -5,7 +5,7 @@ keywords: add,users,group,add,another,assign,administrator,remove,user,view,role
 navigation-topic: create-and-manage-groups
 title: View and manage a group's memberships
 description: As an Adobe Workfront administrator, you can view, add, remove, export, activate, and deactivate members of any group that you manage. You can also edit their profiles, add Updates to their profiles, and assign them as additional group administrators for the group.
-feature: "System Setup and Administration, People, Teams, and Groups"
+feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---
 
