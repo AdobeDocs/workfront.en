@@ -75,7 +75,7 @@ To add a calculated field that displays a field's edit history to a custom form,
    1. Specify a **Label** for the custom field, such as *Instructions*.
    1. Click&nbsp;**Applye**.
 
-1. Select **Calculated** to add a calculated custom field to the form.
+1. Select **Add a field**, then select **Calculated** to add a calculated custom field to the form.
 1. Specify a **Label** for the calculated custom field, such as *Instructions Edit History*.
 
    This is the field that will capture any changes made to the first field you created (*Instructions*).
