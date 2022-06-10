@@ -56,16 +56,11 @@ The differences between the two syntaxes are:
  <col> 
  <tbody> 
   <tr> 
-   <td>Calculated custom field</td> 
-   <td>Calculated custom reporting element</td> 
+   <td><strong>Calculated custom field</strong></td> 
+   <td><strong>Calculated custom reporting element</strong></td> 
   </tr> 
-  <tr> 
-   <td> <p>Use the name of the fields as they appear in&nbsp;the Workfront interface.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom field:&nbsp;<code>Planned Completion Date</code>.</p> </td> 
-   <td> <p>Use the name of the objects or fields as they appear in the Workfront database. The names of objects and fields are spelled in lower case or camel case, if they are compound names. </p> <p>For an inventory of all&nbsp;Workfront objects and fields as they appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom reporting element:&nbsp;<code>plannedCompletionDate</code>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Do not enclose field names in parentheses or curly brackets.</td> 
-   <td> <p>Do not enclose field names in brackets or parentheses when using them in a <code>valuefield </code>line.</p> <p>Enclose field names in curly brackets when using them in a <code>valueexpression</code> line.</p> </td> 
+   <td>Enclose field names in parentheses or curly brackets.</td> 
+   <td>Do not enclose field names in brackets or parentheses when using them in a <code>valuefield </code>line. <p>Enclose field names in curly brackets when using them in a <code>valueexpression</code> line.</p> </td> 
   </tr> 
   <tr> 
    <td>Separate the fields by periods.</td> 

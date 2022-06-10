@@ -115,7 +115,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
    >SUB({actualRevenue},{actualCost})
    >```
    >
-   >In this example, `SUB` is the expression, and the referenced fields are `actualRevenue` and `actualCost.`
+   >In this example, `SUB` is the expression, and the referenced fields are `actualRevenue` and `actualCost`.
 
    A calculation usually starts with an expression, followed by parentheses containing the fields you want to reference when the custom form is attached to an object. For information about the expressions that are available, see [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
@@ -134,18 +134,14 @@ You can use both built-in Workfront fields and custom fields that you already cr
    >You can do any of the following to get help with your calculation:
    > 
    >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a "Learn More" link to more information in the article [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-   >* Use the color coding to identify the components you have added. Expressions display in blue and fields display in green:
-   >
-   >![](assets/colors-fields-expressions-350x209.jpg)
-   >
-   >* Reference expressions in a long calculation using the line numbers that display on the left.
+   >  ![](assets/hover-expression-help-text.jpg)
+   >* Use the color coding to identify the components you have added. Expressions display in blue and fields display in green.
+   >  ![](assets/colors-fields-expressions.jpg)
+   >* Find calculation errors, highlighted in pink, as you go. You can hover over a highlighted error to display a brief description of its cause.
+   >  ![](assets/error-help.png) 
    >* In the area below your calculation, preview the results on an existing Workfront object.
-   >
-   >![](assets/preview-calc-350x168.jpg)
-
-   <!--
-   Find out immediately what is causing errors in your calculations. Errors are highlighted in red. Hovering over an error displays a brief description of its cause.
-   --> 
+   >  ![](assets/preview-calc.jpg)
+   >* Reference expressions in a long calculation using the line numbers that display on the left.
 
 1. Click **Minimize** when you are finished creating the calculation for the calculated custom field.
 
@@ -212,10 +208,7 @@ Each field must use the syntax explained below, with curly brackets around each 
 
   >[!INFO]
   >
-  >**Example:**
-  >
-  >`{DE:profit}`
-
+  >**Example:** `{DE:profit}`
 
   The system lists all of the custom fields you can choose from when you type when you type `DE:`.
 
@@ -225,13 +218,17 @@ Each field must use the syntax explained below, with curly brackets around each 
 
   >[!INFO]
   >
-  >**Example:**
+  >**Example:** 
   >
-  >`{project}.{actualRevenue}`
+  >```
+  >{project}.{actualRevenue}
+  >```
   >
-  >Or, if it's a custom field:
+  >Or, if it's a custom field: 
   >
-  >`{project}.{DE:profit}`
+  >```
+  >{project}.{DE:profit}
+  >```
 
   If you're not sure what the object type of the parent object will be because the custom for is configured for multiple object types, you can use the wildcard filter variable `$$OBJCODE` to allow the calculation to work for each of the possible types. For more information, see [Calculated custom fields in multi-object custom forms](#calculated-custom-fields-in-multi-object-custom-forms) in this article.
 
@@ -245,7 +242,9 @@ When you reference a related object in a calculated custom field, you must separ
   >
   >In a task-type custom form, to display the name of the Portfolio Owner in a calculated custom field, you would type the following:
   >
-  >`{project}.{porfolio}.{owner}`
+  >```
+  >{project}.{porfolio}.{owner}
+  >```
   >
   >This would determine the following: From the object of the custom form (a task), you can access the next object related to the task (a project). From there, you can access the next related object to the project (a portfolio), then the next related object to the portfolio (the owner).
 
@@ -257,7 +256,7 @@ When you reference another custom field in a calculated custom field, you need t
 >
 >**Example:**
 >
->To reference the selected option in a custom field labeled Executive sponsor, you would enter the following
+>To reference the selected option in a custom field labeled Executive sponsor, you would enter the following:
 >
 >```
 >{DE:Executive sponsor}
@@ -273,22 +272,26 @@ In a multi-object custom form, the selected object types must be compatible with
 >
 >In a custom form configured to work with the Task object type, you create a calculated custom field named In Charge. You configure it to reference the built-in field so that it can show the name of the primary assignee in charge whenever the form is attached to a task:
 >
->`Assigned To: Name{assignedTo}.{name}`
+>```
+>{assignedTo}.{name}
+>```
 >
->Later, you add the Project object type to the custom form. A warning message tells you that the Project object type is incompatible with the calculated custom field. 
+>Later, you add the Project object type to the custom form. A warning message tells you that the Project object type is incompatible with the calculated custom field.
 
 When this occurs, you can do one of the following:
 
-* Remove one of the two incompatible items from the custom form—either the object type or the referenced field.
+* Remove one of the two incompatible items from the custom form—either the object type or the referenced calculated custom field.
 * Keep both items and use the wildcard filter variable `$$OBJCODE` as a condition in an IF expression to create two different versions of the In Charge field. This allows the field to function successfully, no matter which type of object the form is attached to. 
 
 >[!INFO]
 >
 >**Example:** Though there is no Assigned To: Name field in projects, there is a built-in Owner field (which fills in automatically with the name of the person who created the project, unless someone manually changes this).
 >
->So, in your custom In Charge field, you could use `$$OBJCODE`as shown below to reference the Owner field when the custom form is attached to a project, and the Assigned To: Name field when the form is attached to a task:
+>So, in your custom In Charge field, you could use `$$OBJCODE` as shown below to reference the Owner field when the custom form is attached to a project, and the Assigned To: Name field when the form is attached to a task:
 >
->`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
+>```
+>IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
+>```
 
 For more information about variables like `$$OBJCODE,` see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
