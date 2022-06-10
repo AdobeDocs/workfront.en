@@ -29,9 +29,7 @@ This table and diagram show the main levels of access to Workfront:
 |Review|Reviewer|
 |External*|External User|
 
-
-
-*The External license is not a paid license. It is designed primarily for sharing documents with collaborators who don't use Workfront. For more information, see [Built-in access levels in Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md").
+*The External license is not a paid license. It is designed primarily for sharing documents with collaborators who don't use Workfront. For more information, see [Built-in access levels in Adobe Workfront](default-access-levels-in-workfront.md).
 
 ![](assets/licenses-and-access-levels.png)
 
