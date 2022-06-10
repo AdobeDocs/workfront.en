@@ -3,6 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-previous: mobile
 navigation-topic: tips-tricks-and-troubleshooting-mobile-apps
 title: "Error Message on the Adobe Workfront Mobile App: 'Your account is not API enabled.'"
+description: "Error Message on the Adobe Workfront Mobile App: 'Your account is not API enabled.'"
 feature: Get Started with Workfront
 ---
 
