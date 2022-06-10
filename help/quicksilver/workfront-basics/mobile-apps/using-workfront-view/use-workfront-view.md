@@ -3,6 +3,7 @@ content-type: reference
 product-previous: mobile
 navigation-topic: mobile-apps
 title: Use Adobe Workfront View
+description: Get started with Adobe Workfront
 feature: Get Started with Workfront
 ---
 
