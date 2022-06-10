@@ -49,7 +49,7 @@ Before you begin:
 
     >[!TIP]
     >
-    >    To edit limited information about the campaign, click **Campaign Details** and update any of the available fields. To update all information about a campaign, continue to follow these instructions.
+    >To edit limited information about the campaign, click **Campaign Details** and update any of the available fields. To update all information about a campaign, continue to follow these instructions.
 
     ![](assets/campaign-edit-box.png)
 1. Update or review information in the following areas:
@@ -73,7 +73,7 @@ Before you begin:
     * **Campaign Owner**: By default, the Campaign Owner is the user who created the campaign. When you replace the original owner of the campaign with another user, the user you specify is automatically given permissions to edit the campaign. The user who is designated as the Campaign Owner must be a Workfront active user. 
     >[!TIP]
     >
-    >    You can update the Campaign Owner in the campaign header.
+    > You can update the Campaign Owner in the campaign header.
     * **Entry Date**: This is the date when the campaign was created. You cannot edit the Entry Date.
     * **Entered By**: This is the name of the user who created the campaign. You cannot edit the Entered By field.
     * **Last Update Date**: This is the date when the campaign was last updated. You cannot edit the Last Update Date.
