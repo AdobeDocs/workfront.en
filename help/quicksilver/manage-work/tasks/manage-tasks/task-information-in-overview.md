@@ -1,9 +1,9 @@
 ---
-filename: task-information-in-overview
 product-area: projects
 navigation-topic: manage-tasks
 title: Manage task information in the Task Details Overview area
 description: Manage task information in the Task Details Overview area
+feature: Work Management
 ---
 
 # Manage task information in the Task Details Overview area

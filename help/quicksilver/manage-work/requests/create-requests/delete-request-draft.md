@@ -1,9 +1,9 @@
 ---
-filename: delete-request-draft
 product-area: requests
 navigation-topic: create-requests
 title: Delete a request draft
 description: You can delete request drafts as you are creating them, by discarding them.
+feature: Work Management
 ---
 
 # Delete a request draft

@@ -1,11 +1,10 @@
 ---
-filename: flight-plan-overview
-title: Flight plan overview
+title: View the Flight plan visualization in Enhanced analytics
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-title: View the Flight plan visualization in Enhanced analytics
 description: The Flight plan visualization shows how many projects (within the applied filter criteria) were in flight, what condition changes happened throughout the life of these projects, and how closely these projects adhered to their planned completion deadlines.
+feature: Reports and Dashboards
 ---
 
 # View the Flight plan visualization in Enhanced analytics

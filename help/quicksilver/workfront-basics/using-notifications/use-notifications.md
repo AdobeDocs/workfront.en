@@ -1,9 +1,9 @@
 ---
-filename: _use-notifications
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Use notifications
 description: This section contains the following articles - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Use notifications

@@ -1,9 +1,9 @@
 ---
-filename: check-out-documents
 product-area: documents
 navigation-topic: manage-documents
 title: Check out documents
 description: You can check out a document to prevent other users from deleting it or uploading a new version of it. Only one user can check out a document at a time. You can check out any document uploaded to Adobe Workfront as well as documents linked to third-party document providers (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint, or any other custom provider).
+feature: Digital Content and Documents
 ---
 
 # Check out documents

@@ -1,10 +1,10 @@
 ---
-filename: get-started-resource-planning
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
 title: Get started with Resource Planning
 description: (**** THIS WILL BE LINKED TO THE PRODUCT UI IN THE PLANNER AREA***DO NOT DELETE OR CHANGE URL FOR THIS ARTICLE****)
+feature: Resource Management
 ---
 
 # Get started with Resource Planning

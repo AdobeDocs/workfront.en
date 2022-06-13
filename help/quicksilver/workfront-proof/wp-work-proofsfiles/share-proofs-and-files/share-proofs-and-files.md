@@ -1,11 +1,11 @@
 ---
-filename: _share-proofs-and-files
 content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Share proofs and files
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Share proofs and files

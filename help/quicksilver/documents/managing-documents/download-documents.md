@@ -1,9 +1,9 @@
 ---
-filename: download-documents
 product-area: documents
 navigation-topic: manage-documents
 title: Download Documents
 description: You can download documents from Adobe Workfront either individually or in bulk. Documents can be downloaded from any area that contains documents in Workfront.
+feature: Digital Content and Documents
 ---
 
 # Download Documents

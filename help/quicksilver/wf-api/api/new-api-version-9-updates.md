@@ -1,9 +1,9 @@
 ---
-filename: new-api-version-9-updates
 content-type: api
 navigation-topic: api-navigation-topic
 title: Updates to API Version 9
 description: Updated Resources
+feature: Workfront API
 ---
 
 # Updates to API Version 9

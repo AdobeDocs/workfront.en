@@ -1,11 +1,12 @@
 ---
-filename: _get-started-with-wf-administration
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: Get started with Adobe Workfront administration
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Get started with Adobe Workfront administration

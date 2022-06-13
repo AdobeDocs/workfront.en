@@ -1,9 +1,9 @@
 ---
-filename: 20-3-mobile-enhancements
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
 title: 20.3 Integration and mobile enhancements
 description: This page describes all integration and mobile enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
+feature: "Product Announcements, Workfront Integrations and Apps"
 ---
 
 # 20.3 Integration and mobile enhancements

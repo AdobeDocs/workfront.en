@@ -1,10 +1,10 @@
 ---
-filename: _review-a-proof
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Review a proof
 description: View content in a proof
+feature: Digital Content and Documents
 ---
 
 # Review a proof

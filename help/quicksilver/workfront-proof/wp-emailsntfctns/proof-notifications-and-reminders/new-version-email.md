@@ -1,11 +1,11 @@
 ---
-filename: new-version-email
 content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
 title: The New Version email
 description: Does this apply to PiW?
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # The New Version email

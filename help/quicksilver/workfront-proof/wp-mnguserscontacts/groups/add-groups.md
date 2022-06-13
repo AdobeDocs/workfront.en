@@ -1,10 +1,10 @@
 ---
-filename: add-groups
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
 title: Add Groups to a Proof
 description: Add a group to a proof to automatically send the content to all group members.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Add Groups to a Proof

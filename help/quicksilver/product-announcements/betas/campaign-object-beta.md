@@ -1,9 +1,9 @@
 ---
 title: Campaigns beta
-description: Information about participating in the Campaigns beta program.
+Information about participating in the Campaigns beta program.
+draft: Probably
+feature: Product Announcements
 ---
-<!-- Yay, no errors, warnings, or alerts! -->
-
 
 # Campaigns beta
 

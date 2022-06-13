@@ -1,10 +1,10 @@
 ---
-filename: _basic-features
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Basic features in Workfront Proof
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Basic features in Workfront Proof

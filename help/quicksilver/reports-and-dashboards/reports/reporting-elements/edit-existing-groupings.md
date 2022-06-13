@@ -2,6 +2,7 @@
 title: Edit existing groupings
 description: Edit existing groupings
 draft: Probably
+feature: Reports and Dashboards
 ---
 # Edit existing groupings
 

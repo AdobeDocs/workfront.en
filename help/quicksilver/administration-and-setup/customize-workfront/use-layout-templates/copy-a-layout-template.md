@@ -1,11 +1,11 @@
 ---
-filename: copy-a-layout-template
-title: Copy a Layout Template
+title: Copy a layout template
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
-title: Copy a layout template
 description: You can copy an existing layout template. This is helpful when your organization needs multiple layout templates that share many of the same settings.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Copy a layout template

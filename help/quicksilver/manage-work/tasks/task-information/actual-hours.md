@@ -1,10 +1,10 @@
 ---
-filename: actual-hours
 content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: View Actual Hours
 description: The hours you log on your work items in Adobe Workfront are considered Actual Hours.
+feature: Work Management
 ---
 
 # View Actual Hours

@@ -1,11 +1,11 @@
 ---
-filename: _modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Modules in Adobe Workfront Fusion
 description: The artilcles listed here describe specific modules and their functionality in Adobe Workfront Fusion.
+feature: Workfront Fusion
 ---
 
 # Modules in Adobe Workfront Fusion

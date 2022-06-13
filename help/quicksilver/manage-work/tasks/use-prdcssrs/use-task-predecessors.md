@@ -1,10 +1,10 @@
 ---
-filename: _use-task-predecessors
 content-type: reference
 product-area: projects
 navigation-topic: tasks
 title: Use task predecessors
 description: This section contains the following articles - EDIT ME.
+feature: Work Management
 ---
 
 # Use task predecessors

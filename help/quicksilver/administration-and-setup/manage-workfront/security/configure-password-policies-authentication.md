@@ -1,10 +1,11 @@
 ---
-filename: configure-password-policies-authentication
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
 title: Configure password policies for authentication
 description: The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Configure password policies for authentication

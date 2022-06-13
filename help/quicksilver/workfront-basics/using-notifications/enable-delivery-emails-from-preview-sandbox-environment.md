@@ -1,8 +1,8 @@
 ---
-filename: enable-delivery-emails-from-preview-sandbox-environment
 navigation-topic: notifications
 title: Enable delivery of emails from the Preview Sandbox environment
 description: Keep the text in this article highlighted in yellow always
+feature: Get Started with Workfront
 ---
 
 # Enable delivery of emails from the Preview Sandbox environment

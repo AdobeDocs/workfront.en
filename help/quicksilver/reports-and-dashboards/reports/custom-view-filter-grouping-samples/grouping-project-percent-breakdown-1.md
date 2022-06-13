@@ -1,10 +1,10 @@
 ---
-filename: grouping-project-percent-breakdown-1
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Grouping: project percent breakdown 1"
 description: In this custom project grouping, you can display projects grouped by a range of their percent complete values.
+feature: Reports and Dashboards
 ---
 
 # Grouping: project percent breakdown 1

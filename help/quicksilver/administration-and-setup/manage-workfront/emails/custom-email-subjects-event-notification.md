@@ -1,8 +1,9 @@
 ---
-filename: custom-email-subjects-event-notification
 navigation-topic: notifications
 title: Customize email subjects for event notifications
 description: You can customize the subject line of the emails triggered by event notifications - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Customize email subjects for event notifications

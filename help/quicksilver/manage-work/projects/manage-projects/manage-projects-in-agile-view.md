@@ -1,9 +1,9 @@
 ---
-filename: manage-projects-in-agile-view
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: Manage a project in the Agile View
 description: Required plans, license types, and access Adobe Workfront Plan Team, Pro, Business, or Enterprise Workfront License Type Review, Work, or Plan Permissions in the access model Edit access and ability to create reports, dashboards, and calendars
+feature: Work Management
 ---
 
 # Manage a project in the Agile View

@@ -1,9 +1,9 @@
 ---
-filename: access-workfront-from-ms-teams
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: Access Adobe Workfront from Microsoft Teams
 description: You can access Adobe Workfront from Microsoft Teams and perform several actions in Workfront by typing commands in either the Workfront bot channel or any other team channel.
+feature: Workfront Integrations and Apps
 ---
 
 # Access Adobe Workfront from Microsoft Teams

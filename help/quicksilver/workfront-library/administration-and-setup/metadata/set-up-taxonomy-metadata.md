@@ -1,10 +1,10 @@
 ---
-filename: set-up-taxonomy-metadata
 product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Set up taxonomy metadata for Workfront Library
 description: As a Workfront Library administrator, you can set up your organization's taxonomy to gather the information your users search for and to track content. For more information about the different types of taxonomy you can collect, see Overview of taxonomy metadata in Workfront Library.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Set up taxonomy metadata for Workfront Library

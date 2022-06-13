@@ -1,10 +1,10 @@
 ---
-filename: configure-dropzone-in-wp
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Configure the dropzone in Workfront Proof
 description: As a Workfront Proof administrator, you can set, view, and edit your users' Dropzone settings. For information about Dropzone, see The Dropzone.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Configure the dropzone in Workfront Proof

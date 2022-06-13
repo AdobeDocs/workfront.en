@@ -1,10 +1,11 @@
 ---
-filename: reorder-system-statuses
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Reorder system-level and group statuses
 description: As a Workfront administrator, you can change the order of project, task, and issue statuses for everyone in the system or for a single group.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Reorder system-level and group statuses

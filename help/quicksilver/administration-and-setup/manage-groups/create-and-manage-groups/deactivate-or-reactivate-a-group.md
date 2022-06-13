@@ -1,10 +1,11 @@
 ---
-filename: deactivate-or-reactivate-a-group
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Deactivate or reactivate a group
 description: The information on this page refers to functionality available only in the new Workfront experience beta.
+feature: "System Setup and Administration, People Teams and Groups"
+role: Admin
 ---
 
 # Deactivate or reactivate a group

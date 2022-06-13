@@ -1,10 +1,10 @@
 ---
-filename: view-display-objects-not-in-standard-interface
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: display objects that are not included in the standard interface"
 description: You can display in a view objects that are not included in the standard mode interface. You can do this only by referencing them via text mode. You can determine which fields can be included in a view in either of the following ways - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # View:&nbsp;display objects that are not included in the standard interface

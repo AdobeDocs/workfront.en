@@ -1,9 +1,9 @@
 ---
-filename: event-sub-resource-fields
 content-type: api
 navigation-topic: api-navigation-topic
 title: Event subscription resource fields
 description: Event subscription resource fields represent triggers for events that result in an event subscription sending an outbound message to a configured endpoint. When a resource field is edited, an UPDATE event is triggered.
+feature: Workfront API
 ---
 
 # Event subscription resource fields

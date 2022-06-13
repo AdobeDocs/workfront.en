@@ -1,10 +1,10 @@
 ---
-filename: view-resolvable-objects-task-project-report
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: Resolvable Objects in a task or project report"
 description: You can display a list of all Resolvable Objects in a project or task view or report.
+feature: Reports and Dashboards
 ---
 
 # View: Resolvable Objects in a task or project report

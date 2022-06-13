@@ -1,9 +1,9 @@
 ---
-filename: create-new-proof-version
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Create a new version of a proof
 description: Managing feedback across multiple versions or revisions of a piece of work can be a huge challenge. Workfront simplifies this process by letting you create and compare multiple versions of a proof.
+feature: Digital Content and Documents
 ---
 
 # Create a new version of a proof

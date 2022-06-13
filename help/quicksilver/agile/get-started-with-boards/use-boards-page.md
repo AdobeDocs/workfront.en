@@ -1,9 +1,9 @@
 ---
-filename: use-boards-page
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Use the boards dashboard
 description: The boards dashboard shows the list of boards that you have access to, including boards you have created and boards that you have been added to.
+feature: Agile
 ---
 
 # Use the boards dashboard

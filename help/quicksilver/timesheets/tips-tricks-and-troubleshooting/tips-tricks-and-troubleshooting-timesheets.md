@@ -1,10 +1,10 @@
 ---
-filename: _tips-tricks-and-troubleshooting-timesheets
 content-type: tips-tricks-troubleshooting;reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Tips, tricks, and troubleshooting for timesheets
 description: This section contains the following articles - EDIT ME.
+feature: Timesheets
 ---
 
 # Tips, tricks, and troubleshooting for timesheets

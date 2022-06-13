@@ -2,6 +2,7 @@
 title: Folders in Workfront Library
 description: Folders in Workfront Library
 draft: Probably
+feature: "Workfront Library, Digital Content and Documents"
 ---
 # Folders in Workfront Library
 

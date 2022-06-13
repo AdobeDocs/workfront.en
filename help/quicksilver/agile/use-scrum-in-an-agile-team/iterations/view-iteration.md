@@ -1,9 +1,9 @@
 ---
-filename: view-iteration
 product-area: agile-and-teams
 navigation-topic: iterations
 title: View an iteration
 description: You can view all iterations for a given team, or you can view an individual iteration. Iterations display data about the stories, issues, and documents that are contained in the iteration.
+feature: Agile
 ---
 
 # View an iteration

@@ -1,11 +1,11 @@
 ---
-filename: _tips-tricks-troubleshooting-wfproof
 content-type: tips-tricks-troubleshooting;reference
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: Tips, tricks, and troubleshooting for Workfront Proof users and contacts
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Tips, tricks, and troubleshooting for Workfront Proof users and contacts

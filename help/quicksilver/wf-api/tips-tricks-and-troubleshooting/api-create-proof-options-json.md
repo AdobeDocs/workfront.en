@@ -1,9 +1,9 @@
 ---
-filename: api-create-proof-options-json
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
 title: Add advanced proofing options when creating a proof through the Adobe Workfront API
 description: When creating a proof in the Workfront API, you can add advanced proofing options.
+feature: "Workfront API, Workfront Proof"
 ---
 
 # Add advanced proofing options when creating a proof through the Adobe Workfront API

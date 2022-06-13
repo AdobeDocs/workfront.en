@@ -1,10 +1,10 @@
 ---
-filename: remove-results-activities-from-goals
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Remove results, activities, and projects from goals in Adobe Workfront Goals
 description: Remove results, activities, and projects from goals in Adobe Workfront Goals
+feature: Workfront Goals
 ---
 
 # Remove results, activities, and projects from goals in Adobe Workfront Goals

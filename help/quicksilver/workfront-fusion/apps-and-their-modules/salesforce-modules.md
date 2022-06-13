@@ -1,5 +1,4 @@
 ---
-filename: salesforce-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
@@ -7,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Salesforce modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Salesforce, as well as connect it to to multiple third-party applications and services.
+feature: Workfront Fusion
 ---
 
 # Salesforce modules

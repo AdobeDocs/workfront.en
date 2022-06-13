@@ -1,9 +1,9 @@
 ---
-filename: view-proof-versions
 product-area: documents
 navigation-topic: manage-proof-versions
 title: View proof versions
 description: You can view past versions of a proof.
+feature: Digital Content and Documents
 ---
 
 # View proof versions

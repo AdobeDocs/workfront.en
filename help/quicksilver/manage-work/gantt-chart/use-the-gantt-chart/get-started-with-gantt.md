@@ -1,9 +1,9 @@
 ---
-filename: get-started-with-gantt
 content-type: overview
 navigation-topic: use-the-gantt-chart
 title: Get started with the Gantt Chart
 description: In Adobe Workfront, there are two Gantt charts with similar functionality - EDIT ME.
+feature: Work Management
 ---
 
 # Get started with the Gantt Chart

@@ -1,10 +1,11 @@
 ---
-filename: change-your-workfront-domain
 user-type: administrator
 product-area: system-administration
 navigation-topic: security
 title: Change your Adobe Workfront domain
 description: As an Adobe Workfront administrator and an authorized Workfront Support contact, you can request help from the Workfront Support team to change your organization's Workfront domain.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Change your Adobe Workfront domain

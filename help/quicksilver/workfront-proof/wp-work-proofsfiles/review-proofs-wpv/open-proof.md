@@ -1,10 +1,10 @@
 ---
-filename: open-proof
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Opening a Proof in Workfront Proof
 description: Opening a Proof in Workfront Proof
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Opening a Proof in Workfront Proof

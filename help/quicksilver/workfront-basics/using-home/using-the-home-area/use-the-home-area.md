@@ -1,9 +1,9 @@
 ---
-filename: _use-the-home-area
 content-type: reference
 navigation-topic: home-navigation-topic
 title: Use the Home area
 description: This section contains the following articles - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Use the Home area

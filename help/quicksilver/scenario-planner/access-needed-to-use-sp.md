@@ -1,10 +1,10 @@
 ---
-filename: access-needed-to-use-sp
 content-type: reference
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Access needed to use the Scenario Planner
 description: The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
+feature: Workfront Scenario Planner
 ---
 
 # Access needed to use the Scenario Planner

@@ -1,10 +1,11 @@
 ---
-filename: timesheet-and-hour-preferences
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Configure timesheet and hour preferences
 description: Configure timesheet and hour preferences
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Configure timesheet and hour preferences

@@ -1,11 +1,11 @@
 ---
-filename: _user-access
 content-type: reference
 product-previous: workfront-library
 product-area: documents;user-management;system-administration
 navigation-topic: administration-and-setup-for-workfront-library
 title: User access in Workfront Library
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # User access in Workfront Library

@@ -1,9 +1,9 @@
 ---
-filename: update-items-in-summary-panel-in-workload-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Update work items in the Workload Balancer using the Summary
 description: Update work items in the Workload Balancer using the Summary
+feature: Resource Management
 ---
 
 # Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience

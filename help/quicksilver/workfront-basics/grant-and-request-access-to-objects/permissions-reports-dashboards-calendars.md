@@ -1,11 +1,10 @@
 ---
-filename: permissions-reports-dashboards-calendars
-title: Permissions on reports, dashboards, and calendars
+title: Share reports, dashboards, and calendars
 content-type: reference
 product-area: user-management;reports;dashboards;calendars
 navigation-topic: grant-and-request-access-to-objects
-title: Share reports, dashboards, and calendars
 description: Your Adobe Workfront administrator grants users access to view or edit reports, dashboards, and calendars when they assign access levels. For more information about granting access to reports, dashboards, and calendars, see Grant access to reports, dashboards, and calendars.
+feature: Get Started with Workfront
 ---
 
 # Share reports, dashboards, and calendars

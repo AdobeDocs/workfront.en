@@ -1,10 +1,10 @@
 ---
-filename: edit-template-task
 product-area: templates
 keywords: task,defaults,automate,creation
 navigation-topic: templates-navigation-topic
 title: Edit a template task
 description: After creating a template, you can edit information on the template tasks. The information you update on a template task is associated with project tasks after you use the template to create a project or you attach the template to a project.
+feature: Work Management
 ---
 
 # Edit a template task

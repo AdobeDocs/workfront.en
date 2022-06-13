@@ -1,10 +1,11 @@
 ---
-filename: reuse-an-existing-field
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Reuse a custom field or widget in a custom form
 description: When you are creating or editing a custom form, you can add a custom field or widget that has already been added to another custom form.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Reuse a custom field or widget in a custom form

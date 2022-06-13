@@ -1,9 +1,9 @@
 ---
-filename: remove-template-from-project
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Remove template information from a project
 description: You cannot remove a template from a project. You can only manually remove information that was added to the project after a template was attached to the project. For information about attaching templates, see Attach a template to a project.
+feature: Work Management
 ---
 
 # Remove template information from a project

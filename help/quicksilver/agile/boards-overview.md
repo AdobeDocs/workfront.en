@@ -1,10 +1,10 @@
 ---
-filename: boards-overview
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Boards overview
 description: Adobe Workfront Boards are flexible tools that allow team collaboration by providing access to a shared board that contains columns and cards.
+feature: Agile
 ---
 
 # Boards overview

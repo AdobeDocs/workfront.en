@@ -1,9 +1,9 @@
 ---
-filename: use-conditional-formatting-text-mode
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Use conditional formatting in Text Mode
 description: Use conditional formatting in Text Mode
+feature: Reports and Dashboards
 ---
 
 # Use conditional formatting in Text Mode

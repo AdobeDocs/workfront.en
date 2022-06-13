@@ -1,10 +1,10 @@
 ---
-filename: scenario-execution-cycles-phases
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Scenario execution, cycles, and phases in Adobe Workfront Fusion
 description: This article describes events that occur while an Adobe Workfront Fusion scenario is running, such as initialization, operations, commits, and rollbacks.
+feature: Workfront Fusion
 ---
 
 # Scenario execution, cycles, and phases in Adobe Workfront Fusion

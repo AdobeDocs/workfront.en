@@ -1,9 +1,9 @@
 ---
-filename: add-update-documents
 product-area: documents
 navigation-topic: manage-documents
 title: Add an update to a document
 description: You can add or reply to updates on a document to communicate with collaborators and create an audit trail. For information about adding updates to work items, see Update work.
+feature: Digital Content and Documents
 ---
 
 # Add an update to a document

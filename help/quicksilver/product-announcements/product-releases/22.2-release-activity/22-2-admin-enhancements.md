@@ -2,6 +2,7 @@
 title: 22.2 Administrator enhancements
 description: 22.2 Administrator enhancements
 draft: Probably
+feature: "Product Announcements, System Setup and Administration"
 ---
 # 22.2 Administrator enhancements
 

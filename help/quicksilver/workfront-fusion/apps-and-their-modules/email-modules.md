@@ -1,5 +1,4 @@
 ---
-filename: email-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
@@ -7,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Email modules
 description: In a Adobe Workfront Fusion scenario, you can connect your Email account to multiple third-party applications and services.This allows you to download emails via IMAP, send emails via SMTP, create new drafts, move and copy emails from one folder to another folder, mark emails as read or unread, and delete emails.
+feature: Workfront Fusion
 ---
 
 # Email modules

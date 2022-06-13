@@ -1,10 +1,10 @@
 ---
-filename: project-team-overview
 content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Project Team overview
 description: Project Team overview
+feature: Work Management
 ---
 
 # Project Team overview

@@ -1,10 +1,10 @@
 ---
-filename: proof-security-overview
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
 title: Proof security overview
 description: You can add extra security measures to proofs.
+feature: Digital Content and Documents
 ---
 
 # Proof security overview

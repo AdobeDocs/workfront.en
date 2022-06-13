@@ -1,9 +1,9 @@
 ---
-filename: view-report-usage
 product-area: reporting
 navigation-topic: report-usage
 title: View report usage
 description: View report usage
+feature: Reports and Dashboards
 ---
 
 # View report usage

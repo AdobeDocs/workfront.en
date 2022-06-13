@@ -1,9 +1,9 @@
 ---
-filename: create-routing-rules
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Create Routing Rules
 description: Routing Rules control what Adobe Workfront does with issues when they are submitted to a Request Queue. For more information about creating Request Queues, see Create a Request Queue.
+feature: Work Management
 ---
 
 # Create Routing Rules

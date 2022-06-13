@@ -1,9 +1,9 @@
 ---
-filename: access-needed-manage-resources-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Access needed to manage resources in the Workload Balancer
 description: Without correct access or permissions, you may not be able to view or manage your work assignments in the Workload Balancerr.
+feature: Resource Management
 ---
 
 # Access needed to manage resources in the Workload Balancer

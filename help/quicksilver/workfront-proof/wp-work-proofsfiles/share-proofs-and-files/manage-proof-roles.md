@@ -1,10 +1,10 @@
 ---
-filename: manage-proof-roles
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Manage Proof Roles in Workfront Proof
 description: Proof roles enable you to grant permissions to users who are limited by the permission profile that is configured on their user profile. (For more information about permission profiles, see Proof Permissions Profiles in Workfront Proof.)
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Manage Proof Roles in Workfront Proof

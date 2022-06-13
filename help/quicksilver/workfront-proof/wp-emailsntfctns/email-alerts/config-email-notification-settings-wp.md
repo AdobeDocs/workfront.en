@@ -1,10 +1,10 @@
 ---
-filename: config-email-notification-settings-wp
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: Configure email notification settings in Workfront Proof
 description: Email notifications inform collaborators about recent activity on proofs, such as comments, replies, decisions.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Configure email notification settings in Workfront Proof

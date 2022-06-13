@@ -1,11 +1,11 @@
 ---
-filename: faq-review-proofs
 content-type: faq
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
 title: FAQ - Review proofs
 description: Guest reviewers, who don't have their own logins to ProofHQ, access their proofs using the Go to proof link in the emails they receive. Users can access their proofs from the emails and also have the advantage of using their dashboard in the account. From the dashboard view, they can take a look at a list of proofs that require their decision and access them with one click by clicking on the blue Go to proof icon.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # FAQ - Review proofs

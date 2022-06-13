@@ -1,10 +1,10 @@
 ---
-filename: _timesheets-all
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Timesheets
 description: This section contains the following subsections - EDIT ME.
+feature: Timesheets
 ---
 
 # Timesheets

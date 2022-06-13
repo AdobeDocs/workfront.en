@@ -1,10 +1,10 @@
 ---
-filename: enhanced-connector-metadata-overview
 content-type: overview
 product-area: documents;workfront-integrations
 navigation-topic: workfront-for-experience-manager-enhanced-connector
 title: Workfront for Experience Manager enhanced connector metadata overview
 description: Workfront for Experience Manager enhanced connector can capture the metadata from ideation to delivery automatically. Increase your content velocity by improving searchability within your asset repository. Users can easily find all assets associated with a particular Workfront project by searching the project title, reference number, date, or any other associated metadata properties.
+feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---
 
 # Workfront for Experience Manager enhanced connector metadata overview

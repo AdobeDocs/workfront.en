@@ -1,10 +1,11 @@
 ---
-filename: how-groups-inherit-statuses
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: How groups inherit statuses
 description: When you list the statuses available for a group, you see the following
+feature: "System Setup and Administration, People Teams and Groups"
+role: Admin
 ---
 
 # How groups inherit statuses

@@ -1,9 +1,9 @@
 ---
-filename: edit-story-information
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Edit story information
 description: When viewing a story tile on the Kanban board, certain information is available to edit inline, directly from the story tile.
+feature: Agile
 ---
 
 # Edit story information

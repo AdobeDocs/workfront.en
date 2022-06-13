@@ -1,9 +1,9 @@
 ---
-filename: modify-column-width-order
 product-area: reporting
 navigation-topic: reporting-elements
 title: Modify column width and order
 description: The following are guidelines about how column widths work in Adobe Workfront - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Modify column width and order

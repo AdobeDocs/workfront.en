@@ -1,10 +1,10 @@
 ---
-filename: choose-where-trigger-module-starts
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Choose where a trigger module starts in Adobe Workfront Fusion
 description: Some trigger modules allow you to select the first bundle from which you want the retrieving of bundles to start.
+feature: Workfront Fusion
 ---
 
 # Choose where a trigger module starts in Adobe Workfront Fusion

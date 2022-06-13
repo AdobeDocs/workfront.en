@@ -1,9 +1,9 @@
 ---
-filename: update-widgets-in-workfront-view
 product-previous: mobile
 navigation-topic: use-workfront-view
 title: Update widgets in the Project Details view
 description: You can view additional information about the project after you have accessed it from the project list by adding widgets to your Project Details screen. Each user can customize their own widgets.
+feature: Get Started with Workfront
 ---
 
 # Update widgets in the Project Details view

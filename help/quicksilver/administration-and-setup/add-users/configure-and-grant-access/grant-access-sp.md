@@ -2,6 +2,8 @@
 title: Grant access to Scenario Planner
 description: Grant access to Scenario Planner
 draft: Probably
+feature: System Setup and Administration
+role: Admin
 ---
 # Grant access to Scenario Planner
 

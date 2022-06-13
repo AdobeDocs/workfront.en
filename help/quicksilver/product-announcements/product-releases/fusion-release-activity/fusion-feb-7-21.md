@@ -2,6 +2,7 @@
 title: Workfront Fusion release activity:&nbsp;Week of February 7, 2022
 description: Workfront Fusion release activity:&nbsp;Week of February 7, 2022
 draft: Probably
+feature: "Product Announcements, Workfront Fusion"
 ---
 # Workfront Fusion release activity:&nbsp;Week of February 7, 2022
 

@@ -1,11 +1,11 @@
 ---
-filename: math-module
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Math
 description: In an Adobe Workfront Fusion scenario, you can use the math module to calculate math expressions.
+feature: Workfront Fusion
 ---
 
 # Math

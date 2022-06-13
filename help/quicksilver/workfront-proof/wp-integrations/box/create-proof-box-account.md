@@ -1,10 +1,10 @@
 ---
-filename: create-proof-box-account
 product-previous: workfront-proof
 product-area: documents;workfront-integrations;setup
 navigation-topic: box
 title: Create a Proof via Your Box Account
 description: It's easy to create proofs and new proof versions via your Box account.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Create a Proof via Your Box Account

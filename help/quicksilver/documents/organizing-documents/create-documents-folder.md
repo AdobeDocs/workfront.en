@@ -1,9 +1,9 @@
 ---
-filename: create-documents-folder
 product-area: documents
 navigation-topic: organize-documents
 title: Create document folders
 description: Documents can be organized into folders. You can create personal folders in your personal Documents area.
+feature: Digital Content and Documents
 ---
 
 # Create document folders

@@ -1,10 +1,10 @@
 ---
-filename: keyboard-shortcuts
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Keyboard shortcuts in the Workfront Proof proofing viewer
 description: The information described in this section is available in both the Web Proofing Viewer and the Desktop Proofing Viewer.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Keyboard shortcuts in the Workfront Proof proofing viewer

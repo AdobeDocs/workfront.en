@@ -1,10 +1,10 @@
 ---
-filename: _create-manage-request-queues
 content-type: reference
 product-area: requests
 navigation-topic: requests-navigation-topic
 title: Create and manage Request Queues
 description: This section contains the following articles - EDIT ME.
+feature: Work Management
 ---
 
 # Create and manage Request Queues

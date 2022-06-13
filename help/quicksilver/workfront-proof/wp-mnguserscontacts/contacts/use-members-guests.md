@@ -1,11 +1,11 @@
 ---
-filename: use-members-guests
 content-type: overview
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
 title: Understand Users, Members, and Guests in Workfront Proof
 description: Users, Members, and Guests are the three types of contacts you can work with on the Contacts page.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Understand Users, Members, and Guests in Workfront Proof

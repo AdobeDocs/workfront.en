@@ -1,10 +1,10 @@
 ---
-filename: 21-2-release-overview
 content-type: release-notes
 keywords: notes,quarterly,update
 navigation-topic: product-releases
 title: 21.2 Release overview
 description: The 21.2 release was made available in the Production environment the week of May 10, 2021.
+feature: Product Announcements
 ---
 
 # 21.2 Release overview

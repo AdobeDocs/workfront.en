@@ -1,10 +1,10 @@
 ---
-filename: wf-goals-notifications
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
 title: Enable Adobe Workfront Goals notifications
 description: Adobe Workfront Goals comes with a set of predefined event notifications that you can enable for your account. These event notifications trigger email communication every time the condition defined by the event is met.
+feature: Workfront Goals
 ---
 
 # Enable Adobe Workfront Goals notifications

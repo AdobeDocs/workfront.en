@@ -1,9 +1,9 @@
 ---
-filename: copy-project
 product-area: projects
 navigation-topic: manage-projects
 title: Copy a project
 description: Copy a project
+feature: Work Management
 ---
 
 # Copy a project

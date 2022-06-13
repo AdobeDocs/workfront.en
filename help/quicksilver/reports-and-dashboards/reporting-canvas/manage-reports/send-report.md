@@ -2,6 +2,7 @@
 title: Send a report in Reporting Canvas
 description: Send a report in Reporting Canvas
 draft: Probably
+feature: Reports and Dashboards
 ---
 # Send a report in Reporting Canvas
 

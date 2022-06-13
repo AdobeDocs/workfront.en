@@ -1,11 +1,11 @@
 ---
-filename: flow-control
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Flow control in Adobe Workfront Fusion
 description: When you are creating or editing a scenario, you can configure settings to control the way data flows through it.
+feature: Workfront Fusion
 ---
 
 # Flow control in Adobe Workfront Fusion

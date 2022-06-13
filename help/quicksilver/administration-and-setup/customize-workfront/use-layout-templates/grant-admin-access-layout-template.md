@@ -1,11 +1,11 @@
 ---
-filename: grant-admin-access-layout-template
-title: Grant administrative access for a Layout Template
+title: Grant administrative access for a layout template
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
-title: Grant administrative access for a layout template
 description: As an Adobe Workfront administrator, you can grant administrative access for a layout template to the group administrators of a particular group so that they can edit the template. This does not assign the template to the users in the group.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Grant administrative access for a layout template

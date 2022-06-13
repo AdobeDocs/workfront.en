@@ -1,9 +1,9 @@
 ---
-filename: share-an-object
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Share an object
 description: Your Adobe Workfront administrator grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see Create or modify custom access levels.
+feature: Get Started with Workfront
 ---
 
 # Share an object

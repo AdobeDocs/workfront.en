@@ -1,10 +1,10 @@
 ---
-filename: project-priority
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
 title: Understand and update project priorities
 description: There are several ways to use priorities for projects and they do not communicate with one another. We recommend that you select one of the priorities for projects that matches your needs and refer to it when you categorize the importance of your projects.
+feature: Work Management
 ---
 
 # Understand and update project priorities

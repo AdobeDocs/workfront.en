@@ -1,11 +1,11 @@
 ---
-filename: enable-zoom-integration
-title: Enable the Zoom integration
+title: Install the Zoom integration
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-title: Install the Zoom integration
 description: As an Adobe Workfront administrator, you need to enable the Zoom integration in Workfront before users can use it in the Updates area.
+feature: "System Setup and Administration, Workfront Integrations and Apps"
+role: Admin
 ---
 
 # Install the Zoom integration

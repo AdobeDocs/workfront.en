@@ -1,10 +1,10 @@
 ---
-filename: date-edits-shift-calendar
 content-type: tips-tricks-troubleshooting
 product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: Inline editing dates shifts calendar display outside of box
 description: When inline editing dates in a list of objects, the calendar displays more dates than it should. This causes the days to display outside the calendar box.
+feature: Reports and Dashboards
 ---
 
 # Inline editing dates shifts calendar display outside of box

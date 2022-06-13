@@ -1,10 +1,10 @@
 ---
-filename: manage-proof-details
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Manage Proof Details in Workfront Proof
 description: The Proof details page lets you manage an existing proof. For example, you can add new reviewers, amend the deadline, change the settings you originally set for the proof, and check what activity has occurred on that proof.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Manage Proof Details in Workfront Proof

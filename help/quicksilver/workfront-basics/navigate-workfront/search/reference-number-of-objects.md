@@ -1,9 +1,9 @@
 ---
-filename: reference-number-of-objects
 content-type: reference
 navigation-topic: search
 title: Use the reference number of objects
 description: In Adobe Workfront, items are identified as objects. Objects correspond with the database and are used to correlate data with an item.
+feature: Get Started with Workfront
 ---
 
 # Use the reference number of objects

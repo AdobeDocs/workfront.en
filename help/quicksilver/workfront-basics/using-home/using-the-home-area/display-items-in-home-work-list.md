@@ -1,9 +1,9 @@
 ---
-filename: display-items-in-home-work-list
 product-area: projects
 navigation-topic: use-the-home-area
 title: Display items in the Work List in the Home area
 description: The Work List in the Home area displays all work items that are assigned to you. You can control which items display in the Work List as described below.
+feature: "Get Started with Workfront, Work Management"
 ---
 
 # Display items in the Work List in the Home area

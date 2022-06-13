@@ -1,11 +1,11 @@
 ---
-filename: _review-proofs-in-wpv
 content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Review proofs in the Web Proofing Viewer
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Review proofs in the Web Proofing Viewer

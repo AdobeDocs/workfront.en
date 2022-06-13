@@ -1,10 +1,10 @@
 ---
-filename: remove-a-users-access-library
 product-previous: workfront-library
 product-area: documents;user-management;system-administration
 navigation-topic: user-access
 title: Remove a user's access to Workfront Library
 description: As a Workfront Library administrator, you can remove a user's access to Workfront Library. When you remove a user from Workfront Library, only their access to Workfront Library is removed. Their Workfront account remains active. Any content that they owned in Workfront Library remains in Workfront Library.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Remove a user's access to Workfront Library

@@ -1,9 +1,9 @@
 ---
-filename: measure-an-area-proof
 product-area: documents
 navigation-topic: review-a-proof
 title: Measure an area within a proof
 description: You can measure an area within a proof.
+feature: Digital Content and Documents
 ---
 
 # Measure an area within a proof

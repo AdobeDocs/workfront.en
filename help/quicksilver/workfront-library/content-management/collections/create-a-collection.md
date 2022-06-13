@@ -1,10 +1,10 @@
 ---
-filename: create-a-collection
 product-previous: workfront-library
 product-area: documents
 navigation-topic: collections
 title: Create a collection in Workfront Library
 description: You can organize content by adding it to collections that you have created or that have been shared with you. For information on sharing collections, see Share a Workfront Library item with other users.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Create a collection in Workfront Library

@@ -1,9 +1,9 @@
 ---
-filename: new-edit-object-box
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: New Edit Object box
 description: We have introduced a new design for the Edit Object box to match the new Adobe Workfront experience style and to more closely resemble the Details section of an object.
+feature: Get Started with Workfront
 ---
 
 # New Edit Object box

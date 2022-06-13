@@ -2,6 +2,7 @@
 title: Link assets and folders from Experience Manager Assets
 description: Link assets and folders from Experience Manager Assets
 draft: Probably
+feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---
 # Link assets and folders from Experience Manager Assets
 

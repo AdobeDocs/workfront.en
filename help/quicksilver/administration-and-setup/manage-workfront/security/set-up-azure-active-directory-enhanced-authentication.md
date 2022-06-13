@@ -1,10 +1,11 @@
 ---
-filename: set-up-azure-active-directory-enhanced-authentication
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: security
 title: Set up Azure Active Directory with Enhanced Authentication
 description: The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Set up Azure Active Directory with Enhanced Authentication

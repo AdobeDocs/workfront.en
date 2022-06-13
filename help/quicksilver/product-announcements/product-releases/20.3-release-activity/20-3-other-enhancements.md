@@ -1,9 +1,9 @@
 ---
-filename: 20-3-other-enhancements
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
 title: 20.3 other enhancements
 description: This page describes all other enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
+feature: Product Announcements
 ---
 
 # 20.3 other enhancements

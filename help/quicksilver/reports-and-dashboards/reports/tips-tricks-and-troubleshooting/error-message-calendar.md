@@ -1,10 +1,10 @@
 ---
-filename: error-message-calendar
 content-type: tips-tricks-troubleshooting
 product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: "Error message on calendar: 'This calendar has the view rights of a deactivated user.'"
 description: You must have the following access to perform the steps in this article - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Error message on calendar: "This calendar has the view rights of a deactivated user."

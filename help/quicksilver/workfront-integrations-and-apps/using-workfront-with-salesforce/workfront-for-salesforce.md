@@ -2,6 +2,7 @@
 title: Adobe Workfront for Salesforce
 description: Adobe Workfront for Salesforce
 draft: Probably
+feature: Workfront Integrations and Apps
 ---
 # Adobe Workfront for Salesforce
 

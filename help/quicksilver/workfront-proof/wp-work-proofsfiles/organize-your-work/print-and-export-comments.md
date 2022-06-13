@@ -1,10 +1,10 @@
 ---
-filename: print-and-export-comments
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Print and Export Comments in Workfront Proof
 description: The Comments summary can be accessed directly from the following areas - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Print and Export Comments in Workfront Proof

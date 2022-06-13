@@ -1,9 +1,9 @@
 ---
-filename: add-prompt-report
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Add a prompt to a report
 description: Filters and prompts are similar in the sense that they both restrict the amount of information which you display in a report.
+feature: Reports and Dashboards
 ---
 
 # Add a prompt to a report

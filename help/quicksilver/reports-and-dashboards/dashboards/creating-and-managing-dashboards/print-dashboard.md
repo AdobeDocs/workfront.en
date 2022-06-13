@@ -1,9 +1,9 @@
 ---
-filename: print-dashboard
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Print a dashboard
 description: You can print or export a dashboard to a .PDF file. To print a dashboard, you must have permission to View it.
+feature: Reports and Dashboards
 ---
 
 # Print a dashboard

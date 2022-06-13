@@ -1,9 +1,9 @@
 ---
-filename: export-timesheets
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Export a list of timesheets
 description: As a people manager or timesheet approver, you might need to download a list of timesheets to quickly view information about the timesheets of the people you are responsible for. You can do this by exporting a list of timesheets.
+feature: Timesheets
 ---
 
 # Export a list of timesheets

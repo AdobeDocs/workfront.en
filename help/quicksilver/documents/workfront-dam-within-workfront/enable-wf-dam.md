@@ -1,9 +1,9 @@
 ---
-filename: enable-wf-dam
 product-area: documents
 navigation-topic: workfront-dam-within-workfront
 title: Enabling Adobe Workfront DAM
 description: Adobe Workfront administrators must enable Workfront DAM before Workfront users can begin using it.
+feature: Digital Content and Documents
 ---
 
 # Enabling Adobe Workfront DAM

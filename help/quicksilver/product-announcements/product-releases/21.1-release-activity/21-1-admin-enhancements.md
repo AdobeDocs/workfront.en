@@ -1,10 +1,10 @@
 ---
-filename: 21-1-admin-enhancements
 content-type: release-notes
 keywords: notes,quarterly,update
 navigation-topic: product-releases
 title: 21.1 Administrator enhancements
 description: This page describes all Administrator enhancements made with the 21.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
+feature: "Product Announcements, System Setup and Administration"
 ---
 
 # 21.1 Administrator enhancements

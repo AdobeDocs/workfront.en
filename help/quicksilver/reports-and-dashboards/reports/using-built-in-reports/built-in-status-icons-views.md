@@ -1,9 +1,9 @@
 ---
-filename: built-in-status-icons-views
 product-area: reporting
 navigation-topic: using-built-in-reports
 title: Built-in Status Icons in Views
 description: Built-in Status Icons in Views
+feature: Reports and Dashboards
 ---
 
 # Built-in Status Icons in Views

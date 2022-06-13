@@ -1,10 +1,10 @@
 ---
-filename: workfront-for-microsoft-teams
 content-type: overview
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: Adobe Workfront for Microsoft Teams Overview
 description: As a team owner, you can install the Adobe Workfront for Microsoft Teams app for your team.
+feature: Workfront Integrations and Apps
 ---
 
 # Adobe Workfront for Microsoft Teams Overview

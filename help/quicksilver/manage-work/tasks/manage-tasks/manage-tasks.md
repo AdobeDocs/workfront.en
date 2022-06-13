@@ -1,10 +1,10 @@
 ---
-filename: _manage-tasks
 content-type: reference
 product-area: projects
 navigation-topic: tasks
 title: Manage tasks
 description: This section contains the following articles - EDIT ME.
+feature: Work Management
 ---
 
 # Manage tasks

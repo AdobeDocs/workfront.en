@@ -1,10 +1,11 @@
 ---
-filename: delete-a-group
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Delete a group
 description: You can delete a group that you manage. If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
+feature: "System Setup and Administration, People Teams and Groups"
+role: Admin
 ---
 
 # Delete a group

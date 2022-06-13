@@ -1,9 +1,9 @@
 ---
-filename: new-api-version-7
 content-type: api
 navigation-topic: api-navigation-topic
 title: What's New in API Version 7
 description: Collections
+feature: Workfront API
 ---
 
 # What's New in API Version 7

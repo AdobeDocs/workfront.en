@@ -1,10 +1,10 @@
 ---
-filename: report-budgeted-hour
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Report: Budgeted Hour"
 description: "Report: Budgeted Hour"
+feature: Reports and Dashboards
 ---
 
 # Report: Budgeted Hour

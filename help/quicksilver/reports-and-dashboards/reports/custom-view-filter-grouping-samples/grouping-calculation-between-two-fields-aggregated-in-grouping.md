@@ -1,11 +1,11 @@
 ---
-filename: grouping-calculation-between-two-fields-aggregated-in-grouping
 content-type: reference
 product-area: reporting;projects
 keywords: calculated,aggregates,advanced,views
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Grouping: display the result of aggregating multiple calculated values in a grouping"
 description: You can use text mode in a column to display a calculation between two fields in the view of a report or list. Each line displays the calculation for each object in the report or list.
+feature: Reports and Dashboards
 ---
 
 # Grouping: display the result of aggregating multiple calculated values in a grouping

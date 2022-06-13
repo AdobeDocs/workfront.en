@@ -1,9 +1,9 @@
 ---
-filename: _search
 content-type: reference
 navigation-topic: navigate-workfront
 title: Adobe Workfront Search
 description: This section contains the following articles - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Adobe Workfront Search

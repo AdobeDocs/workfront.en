@@ -1,9 +1,9 @@
 ---
-filename: filter-buttons-do-not-display-in-page-headers
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Filter buttons do not display in page headers
 description: You must have the following access to perform the steps in this article - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Filter buttons do not display in page headers
