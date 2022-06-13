@@ -10,7 +10,7 @@ description: You can associate your projects with campaigns to centralize and al
 
 >[!NOTE]
 >
->You can opt in to access Campaigns by enrolling in the beta program. The functionality described in this article might not be fully available yet. For more information about current available functionality and how to enroll, see [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
+>You can opt in to access [!UICONTROL Campaigns] by enrolling in the beta program. The functionality described in this article might not be fully available yet. For more information about current available functionality and how to enroll, see [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
 
 
 To centralize and align the work happening across multiple portfolios or programs, you can associate your projects with campaigns. You can manage the dependencies, resources, and finances of all projects in one place.
@@ -19,9 +19,7 @@ For example, you can capture the work necessary to complete a marketing campaign
 
 Because you can associate the same project with multiple campaigns, Adobe Workfront allows you to organize work both vertically and horizontally in your strategic roadmap and move away from the linear hierarchy you have been used to so far.
 
-<!--
 For information about creating campaigns, see [Create campaigns](create-campaigns.md).
--->
 
 ## Benefits of using campaigns
 
@@ -34,7 +32,7 @@ The following are some of the benefits of campaigns:
 
 ## Considerations when using campaigns
 
-* Only system or group administrators can see the Campaigns area in a Layout Template and can add it for other users. No users can see the Campaigns area in the Main Menu by default.
+* Only system or group administrators can see the [!UICONTROL Campaigns] area in a [!UICONTROL Layout Template] and can add it for other users. No users can see the Campaigns area in the [!UICONTROL Main Menu] by default.
 * All users, regardless of their access level, can create a campaign.
-* All users, regardless of their access level, can see all campaigns when they access the Campaigns area from the Main Menu.
+* All users, regardless of their access level, can see all campaigns when they access the [!UICONTROL Campaigns] area from the [!UICONTROL Main Menu].
 * You can edit or delete a campaign only when you are the owner of the campaign or when you are the system administrator.
