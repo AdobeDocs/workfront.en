@@ -1142,7 +1142,7 @@ This action module unpins an item from a channel. You can unpin files, file comm
 * [Invite Users](#invite-users) 
 * [Kick a User](#kick-a-user)
 
-#### Watch Users {watch-users}
+#### Watch Users {#watch-users}
 
 This trigger module starts the scenario when a new user is added to the Slack workspace.
 
