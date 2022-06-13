@@ -1228,7 +1228,10 @@ feature-set: Workfront
   * Campaigns {#campaigns}
     * [Campaigns](manage-work/campaigns/campaigns-section-toc.md)
     * [Campaigns overview](manage-work/campaigns/campaigns-overview.md)
-    * [Edit campaigns](manage-work/campaigns/edit-campaigns.md)    
+    * [Edit campaigns](manage-work/campaigns/edit-campaigns.md)
+    * [Create campaigns](manage-work/campaigns/create-campaigns.md)
+    * [Add objects to a campaign](manage-work/campaigns/add-objects-to-a-campaign.md)
+    * [Delete campaigns](manage-work/campaigns/delete-campaigns.md)
   * The Gantt Chart {#the-gantt-chart} 
     * The Gantt Chart {#the-gantt-chart}
     * [The Gantt Chart](manage-work/gantt-chart/the-gantt-chart.md)
