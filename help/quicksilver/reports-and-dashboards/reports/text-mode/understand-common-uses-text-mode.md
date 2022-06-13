@@ -1,9 +1,9 @@
 ---
-filename: understand-common-uses-text-mode
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Overview of common uses for Text Mode
 description: Overview of common uses for Text Mode
+feature: Reports and Dashboards
 ---
 
 # Overview of common uses for Text Mode

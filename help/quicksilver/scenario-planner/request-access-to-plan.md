@@ -1,10 +1,10 @@
 ---
-filename: request-access-to-plan
 product-area: enterprise-scenario-planner-product-area
 keywords: plan,permissions,share,initiatives,,scenarios,scenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Request access to a plan in the Scenario Planner
 description: You can request access to a plan in the Adobe Workfront Scenario Planner when the link to the plan is shared with you.
+feature: Workfront Scenario Planner
 ---
 
 # Request access to a plan in the Scenario Planner

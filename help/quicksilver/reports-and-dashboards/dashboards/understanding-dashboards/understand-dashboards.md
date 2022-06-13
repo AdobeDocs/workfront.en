@@ -1,10 +1,10 @@
 ---
-filename: _understand-dashboards
 content-type: reference
 product-area: dashboards
 navigation-topic: dashboards-navigation-topic
 title: Understand dashboards
 description: This section contains the following articles - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Understand dashboards

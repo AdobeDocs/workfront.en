@@ -1,9 +1,9 @@
 ---
-filename: plan-project
 product-area: projects
 navigation-topic: plan-a-project
 title: Plan a project overview
 description: Plan a project overview
+feature: Work Management
 ---
 
 # Plan a project overview

@@ -1,11 +1,11 @@
 ---
-filename: configure-project-preferences-group
-title: Configure project preferences for your group
+title: Configure project preferences for a group
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Configure project preferences for a group
 description: If you are a group administrator and an Adobe Workfront administrator unlocks a project preference for all groups in the system, you can configure that preference for your group to affect all subsequent projects that your group creates.
+feature: "System Setup and Administration, People Teams and Groups"
+role: Admin
 ---
 
 # Configure project preferences for a group

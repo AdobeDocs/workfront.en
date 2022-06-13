@@ -1,9 +1,9 @@
 ---
-filename: delete-initiatives
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Delete initiatives in the Scenario Planner
 description: You can delete initiatives on a plan that you created or on a plan that someone shared with you. You cannot recover initiatives that you deleted.
+feature: Workfront Scenario Planner
 ---
 
 # Delete initiatives in the Scenario Planner

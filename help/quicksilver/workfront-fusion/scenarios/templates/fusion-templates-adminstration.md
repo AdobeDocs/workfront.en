@@ -1,10 +1,10 @@
 ---
-filename: fusion-templates-adminstration
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion Templates administration
 description: If you are an administrator, you have permission to view, modify, rename, publish, approve, and delete templates created by others. You can perform these actions from the Templates page in the Adobe Workfront Fusion Administration area.
+feature: Workfront Fusion
 ---
 
 # Adobe Workfront Fusion Templates administration

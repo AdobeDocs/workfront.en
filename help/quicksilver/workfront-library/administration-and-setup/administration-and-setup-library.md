@@ -1,11 +1,11 @@
 ---
-filename: _administration-and-setup-library
 content-type: reference
 product-previous: workfront-library
 product-area: documents;system-administration;setup
 navigation-topic: workfront-library-navigation-topic
 title: Administration and setup of Workfront Library
 description: This section contains the following subsections - EDIT ME.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Administration and setup of Workfront Library

@@ -1,11 +1,11 @@
 ---
-filename: destop-proofing-viewer
 content-type: overview
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-desktop-proofing-viewer
 title: Understand the Desktop Proofing Viewer
 description: The Desktop Proofing Viewer is designed for proofing interactive content, but you can also use it to proof static and video content.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Understand the Desktop Proofing Viewer

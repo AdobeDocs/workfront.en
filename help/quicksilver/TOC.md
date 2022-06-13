@@ -1,6 +1,7 @@
 ---
 user-guide-title: Workfront
 user-guide-description: Workfront
+feature-set: Workfront
 ---
 # Workfront {#using}
 

@@ -1,10 +1,10 @@
 ---
-filename: wf-goals-overview
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Adobe Workfront Goals overview
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+feature: Workfront Goals
 ---
 
 # Adobe Workfront Goals overview

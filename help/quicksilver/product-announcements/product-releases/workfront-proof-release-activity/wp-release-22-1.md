@@ -2,6 +2,7 @@
 title: Workfront Proof release activity:&nbsp;Week of November 29, 2021
 description: Workfront Proof release activity:&nbsp;Week of November 29, 2021
 draft: Probably
+feature: "Product Announcements, Workfront Proof"
 ---
 # Workfront Proof release activity:&nbsp;Week of November 29, 2021
 

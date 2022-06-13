@@ -1,11 +1,12 @@
 ---
-filename: _set-up-workfront
 user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: Set up Adobe Workfront
 description: This section contains the following subsections - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Set up Adobe Workfront

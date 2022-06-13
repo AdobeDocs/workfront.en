@@ -1,10 +1,10 @@
 ---
-filename: _update-work-items-and-view-updates
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
 title: Update work items and view updates
 description: This section contains the following articles - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Update work items and view updates

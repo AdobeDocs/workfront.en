@@ -1,10 +1,10 @@
 ---
-filename: view-display-program-portfolio-info-task-view
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: display Program and Portfolio information in a task view"
 description: This task view displays the Program and Portfolio that are associated with the project of the task. This information is not available in the report builder when building a task view. This is information is available only in text mode.
+feature: Reports and Dashboards
 ---
 
 # View: display Program and Portfolio information in a task view

@@ -1,10 +1,10 @@
 ---
-filename: understand-project-overview-area
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
 title: Manage information in the project Overview area
 description: Manage information in the project Overview area
+feature: Work Management
 ---
 
 # Manage information in the project Overview area

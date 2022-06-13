@@ -1,10 +1,10 @@
 ---
-filename: update-wf-item-using-email-content
 product-area: workfront-integrations;projects
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
 title: Update an Adobe Workfront item from G Suite using email content
 description: You can update an existing project, task, or issue with information from a non-Adobe Workfront email.
+feature: Workfront Integrations and Apps
 ---
 
 # Update an Adobe Workfront item from G&nbsp;Suite using email content

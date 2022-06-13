@@ -2,6 +2,7 @@
 title: 21.4 Administrator enhancements
 description: 21.4 Administrator enhancements
 draft: Probably
+feature: "Product Announcements, System Setup and Administration"
 ---
 # 21.4 Administrator enhancements
 

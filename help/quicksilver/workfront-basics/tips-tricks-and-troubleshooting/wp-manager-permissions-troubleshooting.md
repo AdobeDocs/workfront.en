@@ -1,11 +1,11 @@
 ---
-filename: wp-manager-permissions-troubleshooting
 content-type: tips-tricks-troubleshooting
 product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Workfront Proof Manager permissions troubleshooting
 description: Following are the permission profiles available in Adobe Workfront for proofing users - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Workfront Proof Manager permissions troubleshooting

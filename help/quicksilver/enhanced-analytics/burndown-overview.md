@@ -1,11 +1,10 @@
 ---
-filename: burndown-overview
-title: Burndown overview
+title: View the Burndown visualization in Enhanced analytics
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-title: View the Burndown visualization in Enhanced analytics
 description: The Burndown visualization shows a specific project's burndown over time and helps you understand the relationship between project condition, velocity, and remaining hours—or days.
+feature: Reports and Dashboards
 ---
 
 # View the Burndown visualization in Enhanced analytics

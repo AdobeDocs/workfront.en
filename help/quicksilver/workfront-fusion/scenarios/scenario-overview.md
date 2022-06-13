@@ -1,11 +1,11 @@
 ---
-filename: scenario-overview
 content-type: overview
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion scenario overview
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+feature: Workfront Fusion
 ---
 
 # Adobe Workfront Fusion scenario overview

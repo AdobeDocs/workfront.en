@@ -1,11 +1,12 @@
 ---
-filename: _group-roles
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Group roles
 description: This section contains the following articles - EDIT ME.
+feature: "System Setup and Administration, People Teams and Groups"
+role: Admin
 ---
 
 # Group roles

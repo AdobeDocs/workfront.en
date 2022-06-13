@@ -1,10 +1,10 @@
 ---
-filename: _iterations
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Iterations
 description: Review these articles to learn how to use iterations.
+feature: Agile
 ---
 
 # Iterations

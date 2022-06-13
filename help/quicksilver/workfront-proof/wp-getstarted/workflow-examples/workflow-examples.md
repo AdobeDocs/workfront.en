@@ -1,10 +1,10 @@
 ---
-filename: _workflow-examples
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: basics-workfront-proof
 title: Workflow examples
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Workflow examples

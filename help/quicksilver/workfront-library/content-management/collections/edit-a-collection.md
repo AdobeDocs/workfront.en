@@ -1,10 +1,10 @@
 ---
-filename: edit-a-collection
 product-previous: workfront-library
 product-area: documents
 navigation-topic: collections
 title: Edit a Workfront Library collection
 description: You can make the following changes to a collection that you have Manage access to - EDIT ME.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Edit a Workfront Library collection

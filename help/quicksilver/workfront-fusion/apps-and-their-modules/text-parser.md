@@ -1,11 +1,11 @@
 ---
-filename: text-parser
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 navigation-topic: apps-and-their-modules
 title: Text parser
 description: You can use the Text parser tool to parse text for use in other Adobe Workfront Fusion scenario modules. The Text parser does not require a connection.
+feature: "Workfront Fusion, Digital Content and Documents"
 ---
 
 # Text parser

@@ -1,12 +1,12 @@
 ---
-filename: _create-and-manage-teams
-title: Create and manage users
+title: Create and manage teams
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: add-users-to-workfront
-title: Create and manage teams
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Create and manage teams

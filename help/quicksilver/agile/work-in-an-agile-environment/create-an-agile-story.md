@@ -1,9 +1,9 @@
 ---
-filename: create-an-agile-story
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Create an agile story
 description: You can create an agile story on an iteration in various ways. After you create an agile story, you can add subtasks to the story.
+feature: Agile
 ---
 
 # Create an agile story

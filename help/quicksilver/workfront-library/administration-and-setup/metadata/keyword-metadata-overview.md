@@ -1,11 +1,11 @@
 ---
-filename: keyword-metadata-overview
 content-type: overview
 product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Overview of keyword metadata in Workfront Library
 description: Keywords are a type of metadata that uses specific terms to describe the content of an asset. Applying consistent keyword metadata to content allows users to quickly find and filter the assets they need for their work. For information about metadata and how it is used in Workfront Library, see Overview of metadata in Workfront Library.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Overview of keyword metadata in Workfront Library

@@ -1,9 +1,9 @@
 ---
-filename: export-project-to-ms-project
 product-area: projects
 navigation-topic: manage-projects
 title: Export a project to Microsoft Project
 description: You can export Adobe Workfront projects to Microsoft Project.
+feature: Work Management
 ---
 
 # Export a project to Microsoft Project

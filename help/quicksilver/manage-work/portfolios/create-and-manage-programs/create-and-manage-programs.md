@@ -1,10 +1,10 @@
 ---
-filename: _create-and-manage-programs
 content-type: reference
 product-area: programs
 navigation-topic: portfolios-navigation-topic
 title: Create and manage programs
 description: Programs represent a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. Programs cannot exist outside of a portfolio.
+feature: "Work Management, Strategic Planning"
 ---
 
 # Create and manage programs

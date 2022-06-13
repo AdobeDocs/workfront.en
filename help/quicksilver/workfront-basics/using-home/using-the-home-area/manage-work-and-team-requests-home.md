@@ -1,9 +1,9 @@
 ---
-filename: manage-work-and-team-requests-home
 product-area: projects;agile-and-teams
 navigation-topic: use-the-home-area
 title: Manage work and team requests in the Home area
 description: When work tasks and issues are assigned to you, they are listed on the Work List in the Home area. You can view, reassign, reply to, work on, or remove a request. Work requests in the Home area are not limited to issues associated with request queues.
+feature: "Get Started with Workfront, Work Management"
 ---
 
 # Manage work and team requests in the Home area

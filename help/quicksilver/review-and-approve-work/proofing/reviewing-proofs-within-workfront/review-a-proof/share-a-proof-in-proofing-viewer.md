@@ -1,9 +1,9 @@
 ---
-filename: share-a-proof-in-proofing-viewer
 product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Share a proof from the proofing viewer
 description: You can share a proof from the proofing viewer if sharing is enabled by the proof owner or creator.
+feature: Digital Content and Documents
 ---
 
 # Share a proof from the proofing viewer

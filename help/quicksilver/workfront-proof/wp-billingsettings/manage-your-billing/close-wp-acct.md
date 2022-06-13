@@ -1,10 +1,10 @@
 ---
-filename: close-wp-acct
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: Close your Workfront Proof account
 description: After completing the steps in this section, your account will be closed immediately. All data in your account will be deleted and cannot be restored.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Close your Workfront Proof account

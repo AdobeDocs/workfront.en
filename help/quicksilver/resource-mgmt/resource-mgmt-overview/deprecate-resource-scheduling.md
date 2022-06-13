@@ -1,11 +1,11 @@
 ---
-filename: deprecate-resource-scheduling
 content-type: reference
 product-area: resource-management
 keywords: workload,balancer
 navigation-topic: resource-management-overview
 title: Deprecation of Resource Scheduling tools in Adobe Workfront
 description: We are currently in the process of deprecating all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
+feature: Resource Management
 ---
 
 # Deprecation of Resource Scheduling tools in Adobe Workfront

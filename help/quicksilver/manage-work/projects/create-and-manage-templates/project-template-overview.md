@@ -1,9 +1,9 @@
 ---
-filename: project-template-overview
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Project template overview
 description: You can use project templates to capture most of the repeatable processes, information, and settings associated with the projects in your organization.
+feature: Work Management
 ---
 
 # Project template overview

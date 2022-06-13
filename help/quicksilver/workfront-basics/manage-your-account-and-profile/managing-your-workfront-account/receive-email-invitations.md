@@ -1,9 +1,9 @@
 ---
-filename: receive-email-invitations
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Receive email invitations and create a password for Adobe Workfront
 description: You must have the following access to perform the steps in this article - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Receive email invitations and create a password for Adobe Workfront

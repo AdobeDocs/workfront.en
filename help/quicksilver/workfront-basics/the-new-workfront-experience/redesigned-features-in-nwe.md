@@ -1,9 +1,9 @@
 ---
-filename: _redesigned-features-in-nwe
 content-type: overview;reference
 navigation-topic: get-started-with-workfront
 title: Redesigned functionality in the new Adobe Workfront experience
 description: Redesigned functionality in the new Adobe Workfront experience
+feature: Get Started with Workfront
 ---
 
 # Redesigned functionality in the new Adobe Workfront experience

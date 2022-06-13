@@ -1,9 +1,9 @@
 ---
-filename: send-workfront-project-updates-to-anaplan-list-item
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: Send Adobe Workfront project updates to an Anaplan list item
 description: This integration scenario shares progress, status, and key schedule details from an Adobe Workfront project with an Anaplan budget list item. Sharing this information allows you to take better advantage of the spend optimization and financial analysis that Anaplan provides.
+feature: "Workfront Integrations and Apps, Workfront Fusion"
 ---
 
 # Send Adobe Workfront project updates to an Anaplan list item

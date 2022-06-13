@@ -2,6 +2,7 @@
 title: Replacement of Flash-based tools in Adobe Workfront
 description: Replacement of Flash-based tools in Adobe Workfront
 draft: Probably
+feature: Product Announcements
 ---
 # Replacement of Flash-based tools in Adobe Workfront
 

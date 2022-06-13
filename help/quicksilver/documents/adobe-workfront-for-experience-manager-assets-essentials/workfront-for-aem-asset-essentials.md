@@ -1,10 +1,10 @@
 ---
-filename: _workfront-for-aem-asset-essentials
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
 title: Adobe Workfront for Experience Manager Assets Essentials
 description: Adobe Workfront for Experience Manager Assets Essentials
+feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---
 
 # Adobe Workfront for Experience Manager Assets Essentials

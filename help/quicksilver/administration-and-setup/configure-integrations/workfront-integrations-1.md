@@ -1,12 +1,12 @@
 ---
-filename: workfront-integrations
-title: Workfront integrations
+title: Adobe Workfront integrations
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-title: Adobe Workfront integrations
 description: You can integrate Adobe Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.
+feature: "System Setup and Administration, Workfront Integrations and Apps"
+role: Admin
 ---
 
 # Adobe Workfront integrations

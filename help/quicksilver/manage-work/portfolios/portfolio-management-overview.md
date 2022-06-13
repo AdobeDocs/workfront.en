@@ -1,10 +1,10 @@
 ---
-filename: _portfolio-management-overview
 content-type: overview;reference
 product-area: portfolios
 navigation-topic: projects-navigation-topic
 title: Portfolio Management
 description: This section contains the following subsections - EDIT ME.
+feature: "Work Management, Strategic Planning"
 ---
 
 # Portfolio Management

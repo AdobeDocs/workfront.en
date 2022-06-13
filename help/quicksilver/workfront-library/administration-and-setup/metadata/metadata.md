@@ -1,11 +1,11 @@
 ---
-filename: _metadata
 content-type: reference
 product-previous: workfront-library
 product-area: documents
 navigation-topic: administration-and-setup-for-workfront-library
 title: Metadata in Workfront Library
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Metadata in Workfront Library

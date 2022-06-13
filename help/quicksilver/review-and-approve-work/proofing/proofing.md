@@ -1,10 +1,10 @@
 ---
-filename: _proofing
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
 title: Proofing
 description: This section contains the following subsections - EDIT ME.
+feature: Digital Content and Documents
 ---
 
 # Proofing

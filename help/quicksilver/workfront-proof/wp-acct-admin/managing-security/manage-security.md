@@ -1,11 +1,11 @@
 ---
-filename: _manage-security
 content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Manage security
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Manage security

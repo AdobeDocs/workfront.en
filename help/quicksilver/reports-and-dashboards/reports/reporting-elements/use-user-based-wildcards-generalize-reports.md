@@ -1,9 +1,9 @@
 ---
-filename: use-user-based-wildcards-generalize-reports
 product-area: reporting
 navigation-topic: reporting-elements
 title: Use user-based wildcards to generalize reports
 description: You can generalize a report by using wildcards instead of specific information when building certain reporting elements. For example, if you want to create a report that shows the tasks assigned to a specific user, you can use the user's name in the Assigned To field of the filter. However, if you want to create a report that shows tasks assigned to the logged in user, regardless of who that user is, you can use a wildcard that indicates that when someone views the report it displays information pertaining only to them. This way, you build the report once but because you use a wildcard in the filter it produces different results every time someone else reads it.
+feature: Reports and Dashboards
 ---
 
 # Use user-based wildcards to generalize reports

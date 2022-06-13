@@ -2,6 +2,7 @@
 title: View a report in Reporting Canvas
 description: View a report in Reporting Canvas
 draft: Probably
+feature: Reports and Dashboards
 ---
 # View a report in Reporting Canvas
 

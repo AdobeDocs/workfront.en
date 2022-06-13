@@ -1,9 +1,9 @@
 ---
-filename: use-workfront-built-in-reports
 product-area: reporting
 navigation-topic: using-built-in-reports
 title: Use Adobe Workfront built-in reports
 description: Adobe Workfront has an extensive list of built-in reports that you can use.
+feature: Reports and Dashboards
 ---
 
 # Use Adobe Workfront built-in reports

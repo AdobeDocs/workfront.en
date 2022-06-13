@@ -1,10 +1,10 @@
 ---
-filename: upload-new-content
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Upload content to Workfront Library
 description: If you have Manager or higher access to Workfront Library, you can upload new content.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Upload content to Workfront Library

@@ -1,11 +1,11 @@
 ---
-filename: _wp-emails-and-notifications
 content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
 title: Proof notifications and reminders overview
 description: This section contains the following subsections - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Proof notifications and reminders

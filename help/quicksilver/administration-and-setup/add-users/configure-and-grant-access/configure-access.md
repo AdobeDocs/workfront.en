@@ -1,12 +1,12 @@
 ---
-filename: _configure-access
-title: Configure access to Workfront
+title: Configure access to Adobe Workfront
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-title: Configure access to Adobe Workfront
 description: These articles explain how you, as an Adobe Workfront administrator, can grant users access to view or edit objects by assigning them an access level.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Configure access to Adobe Workfront

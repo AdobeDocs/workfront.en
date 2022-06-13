@@ -1,10 +1,10 @@
 ---
-filename: view-combined-task-issue-details-hour-list
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: combined task and issue details in an Hour list"
 description: This hour view combines the Task and Issue Name columns, as well as the Task and Issue Planned Hours using the sharecol tag. Because an hour entry can only belong to either a task or issue, both objects cannot appear in the same column at the same time. Each line of the view populates with the information from either a Task or an Issue.
+feature: Reports and Dashboards
 ---
 
 # View: combined task and issue details in an Hour list

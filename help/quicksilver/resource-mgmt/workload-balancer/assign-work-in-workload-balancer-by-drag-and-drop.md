@@ -1,9 +1,9 @@
 ---
-filename: assign-work-in-workload-balancer-by-drag-and-drop
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Assign work in the Workload Balancer by dragging and dropping
 description: Assign work in the Workload Balancer by dragging and dropping
+feature: Resource Management
 ---
 
 # Assign work in the Workload Balancer by dragging and dropping

@@ -1,11 +1,11 @@
 ---
-filename: organizations-and-teams
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Adobe Workfront Fusion organizations and teams
 description: Adobe Workfront Fusion's Organization and Teams features make it possible for enterprises to control access to scenarios and other features within Fusion.
+feature: Workfront Fusion
 ---
 
 # Adobe Workfront Fusion organizations and teams

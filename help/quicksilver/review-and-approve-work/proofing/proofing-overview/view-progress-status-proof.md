@@ -1,9 +1,9 @@
 ---
-filename: view-progress-status-proof
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Proof progress and status overview
 description: You can view information about how a proof is progressing through the review process and see an overall summary of the proof's decision status from the Documents area.
+feature: Digital Content and Documents
 ---
 
 # Proof progress and status overview

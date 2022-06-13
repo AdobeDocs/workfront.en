@@ -1,10 +1,10 @@
 ---
-filename: view-auth-logs-in-wp
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: View authentication logs in Workfront Proof
 description: As a Workfront Proof administrator, you can view the usage information for every user that has logged into Workfront Proof.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # View authentication logs in Workfront Proof

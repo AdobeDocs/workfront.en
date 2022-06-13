@@ -1,9 +1,9 @@
 ---
-filename: select-project-update-type
 product-area: projects
 navigation-topic: manage-projects
 title: Select the project Update Type
 description: By selecting an Update Type for a project, you can control how frequently the changes you make to the timeline of the project are saved on the parent tasks or the project.
+feature: Work Management
 ---
 
 # Select the project Update Type

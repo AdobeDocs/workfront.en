@@ -1,10 +1,10 @@
 ---
-filename: project-owners-and-sponsors
 content-type: overview
 product-area: projects;user-management
 navigation-topic: plan-a-project
 title: Overview of project owners and sponsors
 description: You can designate a Project Owner and a Project Sponsor for a project.
+feature: Work Management
 ---
 
 # Overview of project owners and sponsors

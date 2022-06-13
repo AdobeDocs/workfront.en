@@ -1,9 +1,9 @@
 ---
-filename: r1-preview-5
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: R1 Preview 5
 description: This page describes all changes available in the Preview environment with the R1 Preview 5 release. The functionality on this page was made available in the Preview environment on March 16, 2017.
+feature: Product Announcements
 ---
 
 # R1 Preview 5

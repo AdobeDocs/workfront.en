@@ -1,9 +1,9 @@
 ---
-filename: post-a-slack-comment-as-an-update
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Post a Slack comment as an update
 description: "You can add a Slack comment as an update to a specific project, task, or issue in Adobe Workfront."
+feature: Workfront Integrations and Apps
 ---
 
 # Post a Slack comment as an update

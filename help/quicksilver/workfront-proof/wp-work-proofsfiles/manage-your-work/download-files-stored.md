@@ -1,10 +1,10 @@
 ---
-filename: download-files-stored
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Download Files Stored in Workfront Proof
 description: You can download the original files from active, locked, and archived proofs to your local machine. You can then print and open them in the software application used to create them (if you have the application). You can download original files from a single proof or from multiple proofs.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Download Files Stored in Workfront Proof

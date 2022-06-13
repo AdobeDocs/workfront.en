@@ -1,11 +1,11 @@
 ---
-filename: reference-custom-forms-in-report
-title: Reference Custom Forms in a report
+title: Referencing custom forms in a report
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Referencing custom forms in a report
 description: For information on referencing custom forms in a report, see Reference a custom form in a report.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Referencing custom forms in a report

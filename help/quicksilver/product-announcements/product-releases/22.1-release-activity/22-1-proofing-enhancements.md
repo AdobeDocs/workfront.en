@@ -2,6 +2,7 @@
 title: 22.1 Proofing enhancements
 description: 22.1 Proofing enhancements
 draft: Probably
+feature: "Product Announcements, Workfront Proof, Digital Content and Documents"
 ---
 # 22.1 Proofing enhancements
 

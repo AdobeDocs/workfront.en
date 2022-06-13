@@ -1,11 +1,12 @@
 ---
-filename: manage-a-group
 user-type: administrator
 product-area: system-administration;user-management
 keywords: manage,group,edit,
 navigation-topic: create-and-manage-groups
 title: Manage a group
 description: Even though this might not seem that helpful because it is more of a catalog/TOC, it's the only article to link to for editing a group. Don't remove it.
+feature: "System Setup and Administration, People Teams and Groups"
+role: Admin
 ---
 
 # Manage a group

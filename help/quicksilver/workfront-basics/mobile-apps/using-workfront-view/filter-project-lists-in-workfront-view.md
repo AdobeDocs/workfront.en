@@ -1,9 +1,9 @@
 ---
-filename: filter-project-lists-in-workfront-view
 product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
 title: Filter project lists in Adobe Workfront View
+feature: Get Started with Workfront
 description: By default, Adobe Workfront View displays the All Projects list in Workfront, so all the projects you have access to view are listed, regardless of their status.
 ---
 

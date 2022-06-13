@@ -1,11 +1,11 @@
 ---
-filename: configure-custom-help-url
 title: Configure a custom help URL
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-title: Configure a custom help URL
 description: Configure a custom help URL
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Configure a custom help URL

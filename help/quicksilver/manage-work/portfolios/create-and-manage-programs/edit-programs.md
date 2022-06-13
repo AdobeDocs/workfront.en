@@ -1,9 +1,9 @@
 ---
-filename: edit-programs
 product-area: programs
 navigation-topic: create and manage programs
 title: Edit programs
 description: You can edit information on programs that you have created, or that other users have created if they shared them with you.
+feature: "Work Management, Strategic Planning"
 ---
 
 # Edit programs

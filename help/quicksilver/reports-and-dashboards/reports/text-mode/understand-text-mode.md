@@ -1,9 +1,9 @@
 ---
-filename: understand-text-mode
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Text Mode overview
 description: Text Mode overview
+feature: Reports and Dashboards
 ---
 
 # Text Mode overview

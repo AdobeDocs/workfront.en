@@ -1,9 +1,9 @@
 ---
-filename: search-in-a-proof
 product-area: documents
 navigation-topic: review-a-proof
 title: Search content within a proof
 description: You can quickly locate text in a proof created for the following types of documents - EDIT ME.
+feature: Digital Content and Documents
 ---
 
 # Search content within a proof

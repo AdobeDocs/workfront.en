@@ -1,10 +1,11 @@
 ---
-filename: view-restored-items
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: View restored item
 description: View restored item
+feature: System Setup and Administration
+role: Admin
 ---
 
 # View restored item

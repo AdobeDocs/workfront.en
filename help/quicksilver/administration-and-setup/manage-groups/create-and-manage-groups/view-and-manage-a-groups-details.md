@@ -2,6 +2,8 @@
 title: View and manage a group's details
 description: View and manage a group's details
 draft: Probably
+feature: "System Setup and Administration, People Teams and Groups"
+role: Admin
 ---
 # View and manage a group's details
 

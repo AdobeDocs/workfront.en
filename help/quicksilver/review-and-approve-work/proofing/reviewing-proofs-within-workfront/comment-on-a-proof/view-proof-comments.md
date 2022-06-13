@@ -1,9 +1,9 @@
 ---
-filename: view-proof-comments
 product-area: documents
 navigation-topic: comment-on-a-proof
 title: View and reply to proof comments
 description: You can view and reply to proof comments made by other reviewers.
+feature: Digital Content and Documents
 ---
 
 # View and reply to proof comments

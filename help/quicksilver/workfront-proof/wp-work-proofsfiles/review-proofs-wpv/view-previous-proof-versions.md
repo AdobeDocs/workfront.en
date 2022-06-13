@@ -1,10 +1,10 @@
 ---
-filename: view-previous-proof-versions
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: View previous proof versions in the Web Proofing Viewer
 description: "Note: The information described in this section is available only with the Web Proofing Viewer and only when reviewing video or static (not interactive) proofs."
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # View previous proof versions in the Web Proofing Viewer

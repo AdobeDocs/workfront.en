@@ -1,10 +1,11 @@
 ---
-filename: set-task-issue-preferences
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Configure system-wide task and issue preferences
 description: You can configure system-wide preferences for tasks and issues. These preferences impact the way that your users create tasks and issues in Workfront.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Configure system-wide task and issue preferences

@@ -1,8 +1,8 @@
 ---
-filename: budget-resources-in-business-case-use-resource-planner
 navigation-topic: business-case-and-scorecards
 title: Budget resources in the Business Case using the Resource Planner
 description: As part of resource planning, you can use the project-level Resource Planner to budget the job roles necessary for completing the work in a project when you build the business case.
+feature: Work Management
 ---
 
 # Budget resources in the Business Case using the Resource Planner

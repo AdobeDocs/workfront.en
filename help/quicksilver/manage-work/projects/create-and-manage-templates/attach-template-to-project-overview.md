@@ -1,11 +1,11 @@
 ---
-filename: attach-template-to-project-overview
 content-type: overview
 product-area: templates
 keywords: overwrite,field,overwritten
 navigation-topic: templates-navigation-topic
 title: Overview of attaching a template to a project
 description: When you attach a template to an existing project, you are modifying some of the information on the project according to that of the template. Some of the information on the project remains unchanged.
+feature: Work Management
 ---
 
 # Overview of attaching a template to a project

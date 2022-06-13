@@ -2,6 +2,7 @@
 title: Authorize the Zoom integration
 description: Authorize the Zoom integration
 draft: Probably
+feature: Workfront Integrations and Apps
 ---
 # Authorize the Zoom integration
 

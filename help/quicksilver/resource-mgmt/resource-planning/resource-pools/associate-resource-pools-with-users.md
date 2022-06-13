@@ -1,9 +1,9 @@
 ---
-filename: associate-resource-pools-with-users
 product-area: resource-management
 navigation-topic: resource-pools
 title: Associate resource pools with users
 description: Associate resource pools with users
+feature: Resource Management
 ---
 
 # Associate resource pools with users

@@ -1,10 +1,10 @@
 ---
-filename: automated-workflow
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
 title: Automated Workflow overview
 description: Automated Workflows allow you to create a series of sequential or parallel review stages, establish dependencies between these stages, and limit their visibility to certain users. If there are interdependent stages in your review process, Automated Workflows move your proof through the stages automatically, notifying the relevant reviewers and approvers along the way. For information on setting up an Automated Workflow, see Create an advanced proof with an Automated workflow.
+feature: Digital Content and Documents
 ---
 
 # Automated Workflow overview

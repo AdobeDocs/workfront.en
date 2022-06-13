@@ -1,10 +1,10 @@
 ---
-filename: unable-to-log-time-future-dates
 content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Unable to Log Time for Future Dates
 description: You are unable to log hours for future dates on projects, tasks, or issues because the fields are disabled.
+feature: Timesheets
 ---
 
 # Unable to Log Time for Future Dates

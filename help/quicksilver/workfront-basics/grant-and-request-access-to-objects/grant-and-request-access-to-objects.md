@@ -1,10 +1,10 @@
 ---
-filename: _grant-and-request-access-to-objects
 content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
 title: Grant and request permissions to objects
 description: This section contains the following articles about you can grant and request permission to objects - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Grant and request permissions to objects

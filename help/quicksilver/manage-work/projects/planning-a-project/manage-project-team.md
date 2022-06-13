@@ -1,9 +1,9 @@
 ---
-filename: manage-project-team
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Manage the Project Team
 description: Manage the Project Team
+feature: Work Management
 ---
 
 # Manage the Project Team

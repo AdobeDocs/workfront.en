@@ -1,9 +1,9 @@
 ---
-filename: workfront-browser-requirements
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Adobe Workfront browser requirements
 description: Both Adobe Workfront and Workfront Proof require the use of an internet browser. The supported browser versions are as follows - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Adobe Workfront browser requirements

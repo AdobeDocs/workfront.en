@@ -2,6 +2,7 @@
 title: Widen modules
 description: Widen modules
 draft: Probably
+feature: Workfront Fusion
 ---
 # Widen modules
 

@@ -2,6 +2,7 @@
 title: Export a report in Reporting Canvas
 description: Export a report in Reporting Canvas
 draft: Probably
+feature: Reports and Dashboards
 ---
 # Export a report in Reporting Canvas
 

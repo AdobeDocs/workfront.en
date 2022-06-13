@@ -1,9 +1,9 @@
 ---
-filename: create-groupings
 product-area: reporting
 navigation-topic: reporting-elements
 title: Create groupings in Adobe Workfront
 description: Create groupings in Adobe Workfront
+feature: Reports and Dashboards
 ---
 
 # Create groupings in Adobe Workfront

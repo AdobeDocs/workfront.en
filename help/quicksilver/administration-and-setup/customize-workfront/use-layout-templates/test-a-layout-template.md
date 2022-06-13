@@ -1,11 +1,11 @@
 ---
-filename: test-a-layout-template
-title: Test a new Layout Template
+title: Testing a new layout template
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
-title: Testing a new layout template
 description: It's important to test the newly or layout template before assigning it to users.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Testing a new layout template

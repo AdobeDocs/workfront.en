@@ -1,9 +1,9 @@
 ---
-filename: update-an-existing-object-from-an-outlook-email
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
 title: Update an existing object from an Outlook email
 description: You can update an existing project, task, or issue with information from an Outlook email.
+feature: Workfront Integrations and Apps
 ---
 
 # Update an existing object from an Outlook email

@@ -1,9 +1,9 @@
 ---
-filename: set-pim
 product-area: projects
 navigation-topic: financials
 title: Set the Performance Index Method (PIM)
 description: The Performance Index Method (PIM) for the project controls the method Adobe Workfront uses to calculate project performance metrics such as Cost Performance Index (CPI), Cost Schedule Performance Index (CSI), Schedule Performance Index (SPI), and Estimate At Completion (EAC).
+feature: Work Management
 ---
 
 # Set the Performance Index Method (PIM)

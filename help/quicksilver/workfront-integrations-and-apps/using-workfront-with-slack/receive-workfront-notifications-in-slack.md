@@ -1,9 +1,9 @@
 ---
-filename: receive-workfront-notifications-in-slack
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
 title: Receive Adobe Workfront notifications in Slack
 description: Receive Adobe Workfront notifications in Slack
+feature: Workfront Integrations and Apps
 ---
 
 # Receive Adobe Workfront notifications in Slack

@@ -1,9 +1,9 @@
 ---
-filename: delete-timesheet-profiles
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Delete timesheet profiles
 description: You can delete a timesheet profile.
+feature: Timesheets
 ---
 
 # Delete timesheet profiles

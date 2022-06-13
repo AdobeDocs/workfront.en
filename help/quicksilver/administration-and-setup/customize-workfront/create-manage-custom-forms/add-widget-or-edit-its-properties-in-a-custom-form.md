@@ -2,6 +2,8 @@
 title: Add or edit an asset widget in a custom form
 description: Add or edit an asset widget in a custom form
 draft: Probably
+feature: System Setup and Administration
+role: Admin
 ---
 # Add or edit an image or other asset widget in a custom form
 

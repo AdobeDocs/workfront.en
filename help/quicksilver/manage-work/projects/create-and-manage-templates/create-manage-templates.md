@@ -1,10 +1,10 @@
 ---
-filename: _create-manage-templates
 content-type: reference
 product-area: templates
 navigation-topic: create-and-manage-projects
 title: Create and manage project templates
 description: This section contains the following articles - EDIT ME.
+feature: Work Management
 ---
 
 # Create and manage project templates

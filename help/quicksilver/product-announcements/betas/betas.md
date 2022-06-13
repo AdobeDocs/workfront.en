@@ -1,8 +1,8 @@
 ---
-filename: _betas
 navigation-topic: betas
 title: Beta programs
 description: This section contains the following articles - EDIT ME.
+feature: Product Announcements
 ---
 
 # Beta programs

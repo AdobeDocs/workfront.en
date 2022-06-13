@@ -1,9 +1,9 @@
 ---
-filename: view-issues
 product-area: projects
 navigation-topic: manage-issues
 title: View issues
 description: You can view issues that are associated with a project, task, or iteration.
+feature: Work Management
 ---
 
 # View issues

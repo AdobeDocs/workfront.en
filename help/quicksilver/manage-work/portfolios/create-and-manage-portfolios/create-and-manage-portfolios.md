@@ -1,10 +1,10 @@
 ---
-filename: _create-and-manage-portfolios
 content-type: reference
 product-area: portfolios
 navigation-topic: portfolios-navigation-topic
 title: Create and manage portfolios
 description: A Portfolio is a collection of projects competing for the same resources, budget, and schedule. The projects in a Portfolio are similar enough that they would use the same Resource Pool and be measured against the same scorecard.
+feature: "Work Management, Strategic Planning"
 ---
 
 # Create and manage portfolios

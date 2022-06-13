@@ -1,10 +1,10 @@
 ---
-filename: calculate-bcws
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Budgeted Cost of Work Scheduled (BCWS)
 description: Also known as the Planned Value, the Budgeted Cost of Work Scheduled (BCWS) is a project performance metric that represents the amount of the task that should have completed at the time when this metric is calculated.
+feature: Work Management
 ---
 
 # Calculate Budgeted Cost of Work Scheduled (BCWS)

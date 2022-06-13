@@ -1,9 +1,9 @@
 ---
-filename: view-all-updates-in-a-report
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: View all updates in a Note report
 description: View all updates in a Note report
+feature: Get Started with Workfront
 ---
 
 # View all updates in a Note report

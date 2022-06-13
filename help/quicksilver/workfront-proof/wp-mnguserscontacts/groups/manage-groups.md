@@ -1,10 +1,10 @@
 ---
-filename: manage-groups
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
 title: Manage Groups using Workfront Proof
 description: As a Workfront Proof administrator, you can manage your public and private Groups on the Groups page.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Manage Groups using Workfront Proof

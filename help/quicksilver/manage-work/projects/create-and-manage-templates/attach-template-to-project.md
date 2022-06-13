@@ -1,9 +1,9 @@
 ---
-filename: attach-template-to-project
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Attach a template to a project
 description: You can attach a template to a project either during the initial creation phase of the project or after it has been created.
+feature: Work Management
 ---
 
 # Attach a template to a project

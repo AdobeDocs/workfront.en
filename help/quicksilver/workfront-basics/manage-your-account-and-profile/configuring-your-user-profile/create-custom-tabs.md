@@ -1,9 +1,9 @@
 ---
-filename: create-custom-tabs
 product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Create custom sections
 description: The information you see in the Workfront web application is often displayed in the sections in the left panel by default. Each section contains different information about a Workfront area or object. For more information about the default areas of Workfront, see the article About the default Adobe Workfront layout.
+feature: Get Started with Workfront
 ---
 
 # Create custom sections

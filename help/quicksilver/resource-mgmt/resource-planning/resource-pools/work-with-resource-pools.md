@@ -1,9 +1,9 @@
 ---
-filename: work-with-resource-pools
 product-area: resource-management
 navigation-topic: resource-planning
 title: Resource pools overview
 description: Resource pools overview
+feature: Resource Management
 ---
 
 # Resource pools overview

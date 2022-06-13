@@ -1,11 +1,11 @@
 ---
-filename: introduction-to-box
 content-type: overview
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
 title: Introduction to the Workfront Proof and Box integration
 description: Our integration with the Box online file sharing and content management system allows you to create new proofs and new proof versions directly from files in your Box account. For information about Box, see www.box.com.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Introduction to the Workfront Proof and Box integration

@@ -1,11 +1,11 @@
 ---
-filename: wp-billing-page
 content-type: overview
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: The Workfront Proof Billing Page
 description: To access the Billing page, open the Settings menu it the top right of the screen and choose Billing in the drop-down menu.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # The Workfront Proof Billing Page

@@ -2,6 +2,7 @@
 title: 20.4 Project management enhancements
 description: 20.4 Project management enhancements
 draft: Probably
+feature: Product Announcements
 ---
 # 20.4 Project management enhancements
 

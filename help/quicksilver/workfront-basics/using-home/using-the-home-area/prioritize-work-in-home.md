@@ -1,9 +1,9 @@
 ---
-filename: prioritize-work-in-home
 product-area: projects
 navigation-topic: use-the-home-area
 title: Prioritize work in the Home area
 description: You can prioritize items from your Work List in Home. Items you add to My Priority are priorities for you only. They are not prioritized for anyone else, and no one can prioritize them for you. You can add up to 20 items under the My Priority Sort By option.
+feature: "Get Started with Workfront, Work Management"
 ---
 
 # Prioritize work in the Home area

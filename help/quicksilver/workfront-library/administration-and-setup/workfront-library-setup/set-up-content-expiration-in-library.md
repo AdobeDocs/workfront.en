@@ -1,10 +1,10 @@
 ---
-filename: set-up-content-expiration-in-library
 product-previous: workfront-library
 product-area: documents;system-administration;setup
 navigation-topic: workfront-library-setup
 title: Set up content expiration in Workfront Library
 description: As a Workfront Library administrator, you can set up content expiration to either restrict or eliminate users' access to expired content.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Set up content expiration in Workfront Library

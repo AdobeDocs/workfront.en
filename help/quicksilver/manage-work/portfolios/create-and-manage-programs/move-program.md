@@ -1,9 +1,9 @@
 ---
-filename: move-program
 product-area: programs
 navigation-topic: create and manage programs
 title: Add an existing program to a portfolio
 description: You can add existing programs to a portfolio. Because programs cannot exist in two different portfolios, adding an existing program permanently moves it from one portfolio to another.
+feature: "Work Management, Strategic Planning"
 ---
 
 # Add an existing program to a portfolio

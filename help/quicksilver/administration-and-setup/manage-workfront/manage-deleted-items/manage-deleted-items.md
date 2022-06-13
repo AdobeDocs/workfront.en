@@ -1,11 +1,12 @@
 ---
-filename: _manage-deleted-items
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Manage deleted items
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Manage deleted items

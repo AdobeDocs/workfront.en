@@ -1,9 +1,9 @@
 ---
-filename: comment-on-proof
 product-area: documents
 navigation-topic: comment-on-a-proof
 title: Comment on a proof
 description: Comments enable you to provide feedback on content and collaborate with other users in the proofing viewer.
+feature: Digital Content and Documents
 ---
 
 # Comment on a proof

@@ -1,10 +1,10 @@
 ---
-filename: _organize-documents
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
 title: Organize documents
 description: You can organize documents with folders. You can create traditional folders or smart folders.
+feature: Digital Content and Documents
 ---
 
 # Organize documents

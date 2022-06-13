@@ -1,9 +1,9 @@
 ---
-filename: change-existing-decision
 product-area: documents
 navigation-topic: make-a-decision-on-a-proof
 title: Change an existing decision on a proof
 description: As long as the proof is active (not locked or archived), you can change your decision at any time.
+feature: Digital Content and Documents
 ---
 
 # Change an existing decision on a proof

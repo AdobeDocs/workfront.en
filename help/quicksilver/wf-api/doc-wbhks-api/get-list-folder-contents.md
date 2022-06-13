@@ -1,10 +1,10 @@
 ---
-filename: get-list-folder-contents
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
 title: Get item list of folder contents
 description: Returns metadata for the files and folders for a given folder.
+feature: "Workfront API, Digital Content and Documents"
 ---
 
 # Get item list of folder contents

@@ -1,11 +1,12 @@
 ---
-filename: access-to-proofing-functionality
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;setup;user-management
 navigation-topic: configure-proofing-functionality
 title: Access to proofing functionality in Workfront
 description: The proofing functionality available to your users depends on which Workfront plan your organization purchased.
+feature: "System Setup and Administration, Digital Content and Documents"
+role: Admin
 ---
 
 # Access to proofing functionality in Workfront

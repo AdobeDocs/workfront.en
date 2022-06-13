@@ -1,11 +1,11 @@
 ---
-filename: faq
 content-type: faq
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-basics
 title: Adobe Workfront Fusion FAQ
 description: This article addresses common questions related to Adobe Workfront Fusion, including information about object commonly used in Fusion workflows
+feature: Workfront Fusion
 ---
 
 # Adobe Workfront Fusion FAQ

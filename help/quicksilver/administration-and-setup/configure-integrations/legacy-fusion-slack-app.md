@@ -1,11 +1,11 @@
 ---
-filename: legacy-fusion-slack-app
 title: Slack app for Legacy Workfront Fusion
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-title: Slack app for Legacy Workfront Fusion
 description: Legacy Workfront Fusion is not available as of March 31, 2021.
+feature: "System Setup and Administration, Workfront Integrations and Apps"
+role: Admin
 ---
 
 # Slack app for Legacy Workfront Fusion

@@ -1,10 +1,10 @@
 ---
-filename: hide-and-unhide-content
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Hide and unhide content in Workfront Library
 description: You can limit who has access to content in Workfront Library by hiding it. To use the Hide feature you must have Manage permission to the content you want to hide.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Hide and unhide content in Workfront Library

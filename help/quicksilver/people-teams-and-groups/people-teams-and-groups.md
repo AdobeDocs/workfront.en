@@ -1,10 +1,10 @@
 ---
-filename: _people-teams-and-groups
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: People, teams, and groups
 description: This section contains the following subsections - EDIT ME.
+feature: "People Teams and Groups"
 ---
 
 # People, teams, and groups

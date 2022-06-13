@@ -1,10 +1,10 @@
 ---
-filename: built-in-integrations-non-admin
 product-area: workfront-integrations
 keywords: adobe,box,dropbox,gsuite,google,jira,microsoft,salesforce,sharepoint,slack,webdam,zoom
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront built-in integrations overview
 description: You can integrate Adobe Workfront with third-party applications. These integrations can extend the utility of Workfront and tailor it to the needs of your organization. For example, if you are a creative worker in the marketing industry, you can use the Adobe Creative Cloud add-in to export assets directly from Photoshop to Workfront.
+feature: Workfront Integrations and Apps
 ---
 
 # Adobe Workfront built-in integrations overview

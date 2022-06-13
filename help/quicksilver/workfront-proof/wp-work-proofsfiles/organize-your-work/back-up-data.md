@@ -1,10 +1,10 @@
 ---
-filename: back-up-data
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Back Up Your Workfront Proof Data
 description: You can request a backup of all of your data in Workfront Proof using the backup function.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Back Up Your Workfront Proof Data

@@ -2,6 +2,7 @@
 title: Campaigns beta
 description: Campaigns beta
 draft: Probably
+feature: Product Announcements
 ---
 # Campaigns beta
 

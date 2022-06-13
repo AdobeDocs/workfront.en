@@ -1,10 +1,11 @@
 ---
-filename: configure-timeline-recalculations-projects
 user-type: administrator
 product-area: system-administration;projects;setup
 navigation-topic: configure-system-defaults
 title: Configure timeline recalculations for projects
 description: Recalculating timelines allows managers to see how forces outside of the project are impacting the project's timeline. A project's timeline refers to the planned and projected dates for the project.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Configure timeline recalculations for projects

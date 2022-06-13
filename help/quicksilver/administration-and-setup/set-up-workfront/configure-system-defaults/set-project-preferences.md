@@ -1,10 +1,11 @@
 ---
-filename: set-project-preferences
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Configure system-wide project preferences
 description: As an Adobe Workfront administrator, you can configure the default preferences for all projects created throughout the system. These preferences impact project, task, and issue behavior.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Configure system-wide project preferences

@@ -1,10 +1,10 @@
 ---
-filename: _calculated-custom-data-reports
 content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Calculated custom data in reports
 description: This section contains the following articles - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Calculated custom data in reports

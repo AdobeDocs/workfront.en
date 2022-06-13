@@ -1,9 +1,9 @@
 ---
-filename: breadcrumb-overview
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Breadcrumbs overview in the new Adobe Workfront experience
 description: Breadcrumbs in the new Adobe Workfront experience display the full navigational hierarchy for all object types.
+feature: Get Started with Workfront
 ---
 
 # Breadcrumbs overview in the new Adobe Workfront experience

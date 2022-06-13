@@ -1,9 +1,9 @@
 ---
-filename: use-conditional-formatting-views
 product-area: reporting
 navigation-topic: reporting-elements
 title: Use conditional formatting in views
 description: As you share your reports with other users in Adobe Workfront, consider customizing the View of the reports, to make certain information easier to read, or just stand out.
+feature: Reports and Dashboards
 ---
 
 # Use conditional formatting in views

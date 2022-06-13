@@ -1,11 +1,11 @@
 ---
-filename: _errors
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Errors in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+feature: Workfront Fusion
 ---
 
 # Errors in Adobe Workfront Fusion

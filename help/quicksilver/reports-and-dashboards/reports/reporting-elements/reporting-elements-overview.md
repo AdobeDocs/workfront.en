@@ -1,10 +1,10 @@
 ---
-filename: _reporting-elements-overview
 content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Reporting elements overview
 description: All Adobe Workfront reports and lists are a combination of 3 essential elements - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Reporting elements overview

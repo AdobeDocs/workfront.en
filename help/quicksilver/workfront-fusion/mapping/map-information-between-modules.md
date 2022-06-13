@@ -1,10 +1,10 @@
 ---
-filename: map-information-between-modules
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Map information from one module to another in Adobe Workfront Fusion
 description: Mapping is the process of assigning a module's outputs, structured into items, to another module's input fields.
+feature: Workfront Fusion
 ---
 
 # Map information from one module to another in Adobe Workfront Fusion

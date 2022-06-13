@@ -1,9 +1,9 @@
 ---
-filename: override-role-billing-rates-and-calculate-project-revenue
 product-area: projects
 navigation-topic: financials
 title: Overview of overriding Job Role Billing Rates and calculating Revenue on a project
 description: You can use billing rates to calculate revenue on your projects when you multiply them by the hours spent on the project. For more information about billing rates and revenue, see the article Overview of Billing and Revenue.
+feature: Work Management
 ---
 
 # Overview of overriding Job Role Billing Rates and calculating Revenue on a project

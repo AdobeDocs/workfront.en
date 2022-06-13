@@ -1,11 +1,11 @@
 ---
-filename: sftp
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: SFTP modules
 description: The Adobe Workfront Fusion SFTP modules allow you to monitor file changes in a selected folder/subfolder, upload new files to the desired folder, modify, or delete existing files that are already in a folder, or change file permissions.
+feature: Workfront Fusion
 ---
 
 # SFTP modules

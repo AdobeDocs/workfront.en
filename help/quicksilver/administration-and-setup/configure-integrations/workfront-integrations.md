@@ -1,10 +1,11 @@
 ---
-filename: _workfront-integrations
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Configure integrations
 description: This section contains the following articles - EDIT ME.
+feature: "System Setup and Administration, Workfront Integrations and Apps"
+role: Admin
 ---
 
 # Configure integrations

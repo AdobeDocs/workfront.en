@@ -1,10 +1,10 @@
 ---
-filename: Search for items in Workfront Library
 product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Search for items in Workfront Library
 description: If your Workfront Library administrator set up content metadata, you can quickly find the content you want by searching for names and metadata. For more information about metadata, see Overview of metadata in Workfront Library.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Search for items in Workfront Library

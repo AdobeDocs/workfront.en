@@ -1,10 +1,10 @@
 ---
-filename: designate-temp-proof-owners
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: personal-settings
 title: Designating Temporary Proof Owners in Workfront Proof
 description: If you are going to be out of the office for an extended period of time, you can delegate ownership of your proofs to another user in your account.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Designating Temporary Proof Owners in Workfront Proof

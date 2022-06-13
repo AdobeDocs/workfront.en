@@ -1,11 +1,11 @@
 ---
-filename: work-designers-project-managers
 content-type: reference
 product-previous: workfront-proof
 product-area: documents;user-management
 navigation-topic: workflow-examples
 title: Working with Designers and Project Managers in Workfront Proof
 description: You can enhance the proofing workflow for the project manager (the person managing the reviewing process) and the designer who work together on a project in the two ways described below.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Working with Designers and Project Managers in Workfront Proof

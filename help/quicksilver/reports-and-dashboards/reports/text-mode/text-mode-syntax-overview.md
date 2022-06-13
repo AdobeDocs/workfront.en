@@ -1,9 +1,9 @@
 ---
-filename: text-mode-syntax-overview
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Text mode syntax overview
 description: You can use the text mode interface to create more complex views, filters, groupings, and customized prompts in lists and reports. By using text mode, you can access fields and their attributes that are not available in the standard mode interface.
+feature: Reports and Dashboards
 ---
 
 # Text mode syntax overview

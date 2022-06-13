@@ -1,9 +1,9 @@
 ---
-filename: new-toolbar-for-lists
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Toolbar for lists in the new Adobe Workfront experience
 description: The toolbar that displays above select lists in the new Adobe Workfront experience is designed with a modern look and feel that makes list management easier. The functionality is largely the same as what is available in Adobe Workfront Classic.
+feature: Get Started with Workfront
 ---
 
 # Toolbar for lists in the new Adobe Workfront experience

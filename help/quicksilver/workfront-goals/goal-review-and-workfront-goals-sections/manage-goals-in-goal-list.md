@@ -1,9 +1,9 @@
 ---
-filename: manage-goals-in-goal-list
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
 title: Manage goals in the Goal List of Adobe Workfront Goals
 description: After you or other users create goals, you can review their progress and information in the Goal List. For information about creating goals, see Create goals in Adobe Workfront Goals.
+feature: Workfront Goals
 ---
 
 # Manage goals in the Goal List of Adobe Workfront Goals

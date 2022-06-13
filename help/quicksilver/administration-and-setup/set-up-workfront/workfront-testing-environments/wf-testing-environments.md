@@ -1,11 +1,12 @@
 ---
-filename: _wf-testing-environments
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: Adobe Workfront testing environments
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Adobe Workfront testing environments

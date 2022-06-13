@@ -1,11 +1,11 @@
 ---
-filename: integrations-user-setup
 content-type: overview;reference
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: personal-settings
 title: Integrations - User Setup
 description: This section shows you the options you have for setting up pre-built integration links with third-party applications.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Integrations - User Setup
