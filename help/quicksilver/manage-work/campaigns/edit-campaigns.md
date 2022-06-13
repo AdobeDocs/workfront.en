@@ -37,7 +37,7 @@ Before you begin:
 
 ## Edit a campaign
 
-1. Click the Main Menu icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Campaigns**. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Campaigns**. 
 
     A list of all campaigns in the system displays.
 1. (Optional) Click the **search** icon ![](assets/search-icon.png)   to quickly search for a campaign using a keyword.
@@ -60,20 +60,22 @@ Before you begin:
 ### Campaign Name 
 
 1. Begin editing your campaign as described above.
-1. Click Campaign Name in the left panel.
+1. Click **Campaign Name** in the left panel.
 1. Update the name of the campaign.
 1. Click **Save**.
 
 ### Overview
 
 1. Begin editing your campaign as described above.
-1. Click Overview in the left panel.
+1. Click **Overview** in the left panel.
 1. Update or review the following information:
     * **Description**: Add additional information about the campaign.
     * **Campaign Owner**: By default, the Campaign Owner is the user who created the campaign. When you replace the original owner of the campaign with another user, the user you specify is automatically given permissions to edit the campaign. The user who is designated as the Campaign Owner must be a Workfront active user. 
+    
     >[!TIP]
     >
     > You can update the Campaign Owner in the campaign header.
+
     * **Entry Date**: This is the date when the campaign was created. You cannot edit the Entry Date.
     * **Entered By**: This is the name of the user who created the campaign. You cannot edit the Entered By field.
     * **Last Update Date**: This is the date when the campaign was last updated. You cannot edit the Last Update Date.
