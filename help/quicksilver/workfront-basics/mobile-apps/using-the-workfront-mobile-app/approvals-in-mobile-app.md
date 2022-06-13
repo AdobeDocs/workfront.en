@@ -2,7 +2,7 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Approvals in the Adobe Workfront mobile app
-description: You can manage approvals assigned or delegated to you from the Approvals area in the Adobe Workfront mobile app. From the approvals area, you can approve - EDIT ME.
+description: You can manage approvals assigned or delegated to you from the Approvals area in the Adobe Workfront mobile app.
 feature: Get Started with Workfront
 ---
 
@@ -36,7 +36,7 @@ Proofs follow a separate approval process. You cannot approve a proof from a wor
 
 1. Select **Show all approvals** in the Approvals area of My Work.
 
-   For information about My&nbsp;Work in the mobile app, see [My Work section in the mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+   For information about My Work in the mobile app, see [My Work section in the mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 1. Select an approval in the list.
 

@@ -589,7 +589,7 @@ In each access level, you can configure the following options for users:
        <li> <p>Delete</p> </li> 
        <li>User Admin (All Users)</li> 
        <li> <p>User Admin (Group Users)</p> </li> 
-      </ul> <p>For information about the two User Admin options, see the section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Configure users' access to edit users using a custom access level</a>in the article <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
+      </ul> <p>For information about the two User Admin options, see the section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Configure users' access to edit users using a custom access level</a> in the article <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

@@ -12,7 +12,7 @@ You can share a proof document with internal and external recipients directly fr
 
 >[!NOTE]
 >
->All recipients must have access in Workfront to review proofs. For information about licenses and access levels, see .
+>All recipients must have access in Workfront to review proofs. For information about licenses and access levels, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 ## Share the proof
 
