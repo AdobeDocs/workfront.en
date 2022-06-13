@@ -16,8 +16,8 @@ This section contains the following articles:
 
 * [Campaigns overview](campaigns-overview.md) 
 * [Edit campaigns](edit-campaigns.md)
-<!--
 * [Create campaigns](create-campaigns.md)
+<!--
 * [Delete campaigns](delete-campaigns.md) 
 * [Add objects to a campaign](add-objects-to-a-campaign.md) 
 * [Manage campaign finances](manage-campaign-finances.md) 
