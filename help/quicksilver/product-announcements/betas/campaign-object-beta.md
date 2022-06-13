@@ -1,6 +1,6 @@
 ---
 title: Campaigns beta
-Information about participating in the Campaigns beta program.
+description: Information about participating in the Campaigns beta program.
 draft: Probably
 feature: Product Announcements
 ---
