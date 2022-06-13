@@ -1,7 +1,8 @@
 ---
+content-type: reference
+navigation-topic: betas
 title: Campaigns beta
 description: Information about participating in the Campaigns beta program.
-draft: Probably
 feature: Product Announcements
 ---
 
