@@ -40,16 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -721,16 +712,7 @@ This search module returns a list of users in the selected channel.
   <tr> 
    <td role="rowheader">Connection </td> 
    <td> <p>For instructions about connecting your Slack account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
-    <td> <p>Choose how you want to select the channel where you want to create a message.</p> 
-     <ul> 
-      <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Channel ID or name</strong> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
-      <li> <p><strong>Select from the list</strong> </p> <p>Select the type of channel, then select the channel.</p> </li> 
-     </ul> </td> 
-   </tr>
-  --> 
+  </tr> 
   <tr> 
    <td role="rowheader">Channel type</td> 
    <td>Select the type of channel that contains the list of members you want to list.</td> 
@@ -757,16 +739,7 @@ This action module changes the topic of a channel
   <tr> 
    <td role="rowheader">Connection </td> 
    <td> <p>For instructions about connecting your Slack account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
-    <td> <p>Choose how you want to select the channel that you want to change the topic for.</p> 
-     <ul> 
-      <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Channel ID or name</strong> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
-      <li> <p><strong>Select from the list</strong> </p> <p>Select the type of channel, then select the channel.</p> </li> 
-     </ul> </td> 
-   </tr>
-  --> 
+  </tr> 
   <tr> 
    <td role="rowheader">Channel type</td> 
    <td>Select the type of channel that you want to change the topic for.</td> 
@@ -793,16 +766,7 @@ This action module changes the purpose of a channel
   <tr> 
    <td role="rowheader">Connection </td> 
    <td> <p>For instructions about connecting your Slack account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
-    <td> <p>Choose how you want to select the channel where you want to create a message.</p> 
-     <ul> 
-      <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Channel ID or name</strong> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
-      <li> <p><strong>Select from the list</strong> </p> <p>Select the type of channel, then select the channel.</p> </li> 
-     </ul> </td> 
-   </tr>
-  --> 
+  </tr> 
   <tr> 
    <td role="rowheader">Channel type</td> 
    <td>Select the type of channel that you want to change the topic for.</td> 
@@ -1171,14 +1135,14 @@ This action module unpins an item from a channel. You can unpin files, file comm
 
 ### Users {#users}
 
-* [Watch Multiparty Direct Messages](#watch-multiparty-direct-messages) 
+* [Watch Users](#watch-users) 
 * [Search for User](#search-for-user) 
 * [List Users](#list-users) 
 * [Get a User](#get-a-user) 
 * [Invite Users](#invite-users) 
 * [Kick a User](#kick-a-user)
 
-#### Watch Users
+#### Watch Users {#watch-users}
 
 This trigger module starts the scenario when a new user is added to the Slack workspace.
 
@@ -1498,7 +1462,7 @@ This action module lets you make a custom authenticated call to the Slack API. T
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>Enter a path relative to <code>https://slack.com/api/</code>. Example: <code>/users.identity</code>.</td> 
+   <td>Enter a path relative to <code>https://slack.com/api/</code>. Example: <code>/users/identity</code>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
