@@ -1,10 +1,9 @@
 ---
-filename: share-a-project
-title: Share a project
+title: Share a project in Adobe Workfront
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-title: Share a project in Adobe Workfront
 description: Your Adobe Workfront administrator can grant you access to view or edit projects when assigning your access level. For more information, see Grant access to projects.
+feature: Get Started with Workfront
 ---
 
 # Share a project in Adobe Workfront

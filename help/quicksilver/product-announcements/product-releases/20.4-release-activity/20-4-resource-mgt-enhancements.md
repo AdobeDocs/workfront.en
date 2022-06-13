@@ -2,6 +2,7 @@
 title: 20.4 Resource Management enhancements
 description: 20.4 Resource Management enhancements
 draft: Probably
+feature: Product Announcements
 ---
 # 20.4 Resource Management enhancements
 

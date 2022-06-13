@@ -1,8 +1,8 @@
 ---
-filename: modify-list-display
 navigation-topic: use-lists
 title: Modify how a list displays
 description: In Adobe Workfront, you can customize how a list displays for you. Other users who view the list do not see your changes.
+feature: Get Started with Workfront
 ---
 
 # Modify how a list displays

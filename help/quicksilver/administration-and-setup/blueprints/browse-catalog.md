@@ -1,10 +1,10 @@
 ---
-filename: browse-catalog
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
 title: Browse the blueprints catalog and request installation of blueprints
 description: Blueprints provide basic building blocks to help you create a work management system that grows with you. All Adobe Workfront users can browse the catalog of blueprints. You can additionally make a request to have your Workfront administrator install a specific blueprint for you, if your administrator has enabled blueprint requests.
+feature: "System Setup and Administration, Work Management"
 ---
 
 # Browse the blueprints catalog and request installation of blueprints

@@ -1,10 +1,10 @@
 ---
-filename: _update-work-on-project
 content-type: reference
 product-area: projects
 navigation-topic: create-and-manage-projects
 title: Update work on a project
 description: To update the status and the progress of a project you must update the status and progress on its tasks. That eventually rolls up to show the progress on the project.
+feature: Work Management
 ---
 
 # Update work on a project

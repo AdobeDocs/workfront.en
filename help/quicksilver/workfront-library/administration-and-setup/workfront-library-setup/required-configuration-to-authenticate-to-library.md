@@ -1,10 +1,10 @@
 ---
-filename: required-configuration-to-authenticate-to-library
 product-previous: workfront-library
 product-area: documents;system-administration;setup
 navigation-topic: workfront-library-setup
 title: Required configuration to authenticate to Workfront Library
 description: In order to access Workfront Library, your users must login using the enhanced Workfront authentication experience. For more information on the enhanced authentication experience, see Enhanced Authentication overview.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Required configuration to authenticate to Workfront Library

@@ -1,9 +1,9 @@
 ---
-filename: view-the-org-chart
 product-area: user-management
 navigation-topic: collaboration
 title: View the organizational chart
 description: The organizational chart feature allows you to to view the organizational chart associated with a particular Adobe Workfront user. Organizational charts are a great way to visualize the structure of a specific department.
+feature: "People Teams and Groups"
 ---
 
 # View the organizational chart

@@ -1,10 +1,10 @@
 ---
-filename: filters-overview
 content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Filters overview in Adobe Workfront
 description: You can use filters in Adobe Workfront to reduce the amount of information you display on the screen in lists, reports, or other areas.
+feature: Reports and Dashboards
 ---
 
 # Filters overview in Adobe Workfront

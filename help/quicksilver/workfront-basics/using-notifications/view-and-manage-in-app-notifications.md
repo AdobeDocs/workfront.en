@@ -1,8 +1,8 @@
 ---
-filename: view-and-manage-in-app-notifications
 navigation-topic: notifications
 title: View and manage in-app notifications
 description: "In-app notifications keep you informed about two types of information: announcement notifications and work item notifications. They are available from both the web application and the mobile application."
+feature: Get Started with Workfront
 ---
 
 # View and manage in-app notifications

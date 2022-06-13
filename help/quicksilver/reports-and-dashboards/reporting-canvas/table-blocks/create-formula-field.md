@@ -2,6 +2,7 @@
 title: Build a formula field in Reporting Canvas
 description: Build a formula field in Reporting Canvas
 draft: Probably
+feature: Reports and Dashboards
 ---
 # Build a formula field in Reporting Canvas
 

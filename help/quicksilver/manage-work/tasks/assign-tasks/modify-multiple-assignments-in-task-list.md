@@ -1,9 +1,9 @@
 ---
-filename: modify-multiple-assignments-in-task-list
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Modify multiple user assignments in a task list
 description: Modify multiple user assignments in a task list
+feature: Work Management
 ---
 
 # Modify multiple user assignments in a task list

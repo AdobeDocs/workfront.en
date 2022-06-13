@@ -1,10 +1,11 @@
 ---
-filename: create-and-modify-a-groups-portfolios
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Create and modify group projects
 description: As a group administrator, when you are viewing a group that you manage in the Groups area, you can view and work with its projects.
+feature: "System Setup and Administration, People Teams and Groups"
+role: Admin
 ---
 
 # Create and modify a group's projects

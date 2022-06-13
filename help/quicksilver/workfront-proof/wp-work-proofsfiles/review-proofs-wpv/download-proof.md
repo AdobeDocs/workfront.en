@@ -1,10 +1,10 @@
 ---
-filename: download-proof
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Downloading a Proof
 description: You can download files from an existing proof. However, only the files are downloaded; comments and other information associated with the proof are not included in the download.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Downloading a Proof in the proofing viewer

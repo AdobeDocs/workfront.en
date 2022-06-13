@@ -2,6 +2,7 @@
 title: Adobe Workfront with Anaplan
 description: Adobe Workfront with Anaplan
 draft: Probably
+feature: "Workfront Integrations and Apps, Workfront Fusion"
 ---
 # Adobe Workfront with Anaplan
 

@@ -1,9 +1,9 @@
 ---
-filename: upload-new-document-version
 product-area: documents
 navigation-topic: manage-documents
 title: Upload a new version of a document
 description: You can add a new version of a document you have previously uploaded to Adobe Workfront.
+feature: Digital Content and Documents
 ---
 
 # Upload a new version of a document

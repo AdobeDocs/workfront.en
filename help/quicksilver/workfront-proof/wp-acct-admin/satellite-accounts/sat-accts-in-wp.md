@@ -1,11 +1,11 @@
 ---
-filename: sat-accts-in-wp
 content-type: overview;reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: satellite-accounts
 title: Satellite accounts in Workfront Proof
 description: Satellite accounts are paid accounts that you set up and manage from within your own Workfront Proof account.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Satellite accounts in Workfront Proof

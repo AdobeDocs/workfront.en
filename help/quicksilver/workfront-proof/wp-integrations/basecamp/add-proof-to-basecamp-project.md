@@ -1,10 +1,10 @@
 ---
-filename: add-proof-to-basecamp-project
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp
 title: Add a Proof to a Basecamp Project
 description: After you set up your Basecamp integration, you can start adding proofs to projects within your Basecamp account.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Add a Proof to a Basecamp Project

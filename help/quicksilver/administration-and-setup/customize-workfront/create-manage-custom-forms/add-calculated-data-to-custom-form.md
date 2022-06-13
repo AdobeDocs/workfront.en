@@ -1,11 +1,11 @@
 ---
-filename: add-calculated-data-to-custom-form
-title: Add calculated data to a Custom Form
+title: Add calculated data to a custom form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Add calculated data to a custom form
-description: In a custom form, you can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object.
+description: In a custom form, you can build a calculated custom field that generates calculations. To do this, you create a statement that uses data expressions and the names of existing fields, which can be custom fields, calculated custom data fields, and built-in Workfront fields. This statement calculates the data you enter and displays the result in the new calculated custom field.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Add calculated data to a custom form

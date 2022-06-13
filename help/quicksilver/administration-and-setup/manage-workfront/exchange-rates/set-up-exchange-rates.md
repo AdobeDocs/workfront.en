@@ -1,10 +1,11 @@
 ---
-filename: set-up-exchange-rates
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: exchange-rates
 title: Set up exchange rates
 description: Set up exchange rates
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Set up exchange rates

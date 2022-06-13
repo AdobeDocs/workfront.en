@@ -1,9 +1,9 @@
 ---
-filename: filter-resource-planner
 product-area: resource-management
 navigation-topic: resource-planning
 title: Filter information in the Resource Planner
 description: "(AL:*Iterate on this article: filtering by custom data. Other enhancements? Special characters caveat might change - follow the story to know when. It originally came in Beta 3 17.3.)"
+feature: Resource Management
 ---
 
 # Filter information in the Resource Planner

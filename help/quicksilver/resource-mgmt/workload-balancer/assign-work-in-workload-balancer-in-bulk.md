@@ -1,9 +1,9 @@
 ---
-filename: assign-work-in-workload-balancer-in-bulk
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Assign work in bulk using the Workload Balancer
 description: Assign work in bulk using the Workload Balancer
+feature: Resource Management
 ---
 
 # Assign work in bulk using theWorkload Balancer

@@ -1,9 +1,9 @@
 ---
-filename: remove-permissions-from-objects
 product-area: user-management;portfolios
 navigation-topic: grant-and-request-access-to-objects
 title: Remove permissions from objects
 description: You can remove other users' permissions on objects that you have access to Share. Removing permissions from objects is identical for all objects that can be shared.
+feature: Get Started with Workfront
 ---
 
 # Remove permissions from objects

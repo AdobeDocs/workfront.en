@@ -1,10 +1,10 @@
 ---
-filename: attach-reminder-notification-object
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Attach a reminder notification to an object
 description: "Reminder notifications can be associated with several different object types: Projects, Tasks, Issues, Timesheets, Templates, Template Tasks, and Recurring Timesheet Profiles."
+feature: Get Started with Workfront
 ---
 
 # Attach a reminder notification to an object

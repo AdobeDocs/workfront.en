@@ -1,9 +1,9 @@
 ---
-filename: change-owner-report
 product-area: reporting;user-management
 navigation-topic: create-and-manage-reports
 title: Change the owner of a report
 description: You cannot change the owner of a report. However, when you copy a report, you automatically become the owner of the copied report.
+feature: Reports and Dashboards
 ---
 
 # Change the owner of a report

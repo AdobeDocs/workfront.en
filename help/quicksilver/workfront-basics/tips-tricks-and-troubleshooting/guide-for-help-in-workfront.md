@@ -1,9 +1,9 @@
 ---
-filename: guide-for-help-in-workfront
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Your quick guide to finding help in Adobe Workfront
 description: Your quick guide to finding help in Adobe Workfront
+feature: Get Started with Workfront
 ---
 
 # Your quick guide to finding help in Adobe Workfront

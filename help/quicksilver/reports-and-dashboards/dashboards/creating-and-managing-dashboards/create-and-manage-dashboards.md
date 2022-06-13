@@ -1,10 +1,10 @@
 ---
-filename: _create-and-manage-dashboards
 content-type: reference
 product-area: dashboards
 navigation-topic: dashboards-navigation-topic
 title: Create and manage dashboards
 description: This section contains the following articles - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Create and manage dashboards

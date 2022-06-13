@@ -1,9 +1,9 @@
 ---
-filename: manage-your-work-and-approvals-from-slack
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Manage your work and approvals from Slack
 description: You can access your Home Work List, review and agree to work on tasks and issues, and review or make decisions on approvals directly from Slack.
+feature: Workfront Integrations and Apps
 ---
 
 # Manage your work and approvals from Slack

@@ -1,9 +1,9 @@
 ---
-filename: use-built-in-reports
 product-area: reporting
 navigation-topic: reports
 title: Use built-in reports
 description: This section contains the following articles - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Use built-in reports

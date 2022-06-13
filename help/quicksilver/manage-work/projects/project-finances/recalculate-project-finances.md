@@ -1,10 +1,9 @@
 ---
-filename: recalculate-project-finances
 title: Recalculate project finances
 product-area: projects
 navigation-topic: financials
-title: Recalculate project finances
 description: Finances are calculated on a project as changes occur in the hours logged for the project or in the rates used to calculate costs and revenue.
+feature: Work Management
 ---
 
 # Recalculate project finances

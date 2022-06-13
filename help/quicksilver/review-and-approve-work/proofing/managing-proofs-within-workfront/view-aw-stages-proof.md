@@ -1,9 +1,9 @@
 ---
-filename: view-aw-stages-proof
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: View Automated Workflow stages on a proof
 description: You can conveniently track the progress of a proof configured with an Automated Worklow. You can view, modify, add, start, and lock the work already done on stages on the proof.
+feature: Digital Content and Documents
 ---
 
 # View Automated Workflow stages on a proof

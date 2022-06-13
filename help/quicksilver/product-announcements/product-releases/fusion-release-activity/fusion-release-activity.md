@@ -1,11 +1,11 @@
 ---
-filename: fusion-release-activity
 product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: product-releases
 title: Adobe Workfront Fusion release activity
 description: Adobe Workfront Fusion connects your apps and web services seamlessly so that you can concentrate on new tasks rather than repeating the same tasks again and again.
+feature: "Product Announcements, Workfront Fusion"
 ---
 
 # Adobe Workfront Fusion release activity

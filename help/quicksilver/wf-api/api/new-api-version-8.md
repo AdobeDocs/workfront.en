@@ -1,9 +1,9 @@
 ---
-filename: new-api-version-8
 content-type: api
 navigation-topic: api-navigation-topic
 title: What's New in API Version 8
 description: This is a list of resources that are new to API Version 9. For a list of updates that have been made to the resources of version 8 please visit Updates to API Version 8
+feature: Workfront API
 ---
 
 # What's New in API Version 8

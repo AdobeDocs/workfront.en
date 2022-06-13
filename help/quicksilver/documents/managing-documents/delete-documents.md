@@ -1,9 +1,9 @@
 ---
-filename: delete-documents
 product-area: documents
 navigation-topic: manage-documents
 title: Delete Documents
 description: You can delete documents you upload. If you're given manage access to specific documents, you can delete those as well.
+feature: Digital Content and Documents
 ---
 
 # Delete Documents

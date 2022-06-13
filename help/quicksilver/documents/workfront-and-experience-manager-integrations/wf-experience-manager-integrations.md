@@ -2,6 +2,7 @@
 title: Workfront and Experience Manager Assets Integrations
 description: Workfront and Experience Manager Assets Integrations
 draft: Probably
+feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---
 # Workfront and Experience Manager Assets Integrations
 

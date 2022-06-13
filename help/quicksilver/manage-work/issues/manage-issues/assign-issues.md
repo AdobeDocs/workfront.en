@@ -1,9 +1,9 @@
 ---
-filename: assign-issues
 product-area: projects
 navigation-topic: manage-issues
 title: Assign issues
 description: You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see Modify issue assignments overview.
+feature: Work Management
 ---
 
 # Assign issues

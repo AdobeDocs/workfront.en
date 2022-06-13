@@ -1,9 +1,9 @@
 ---
-filename: create-a-team
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Create a team
 description: When you create a team you become the Team Owner, by default.
+feature: "People Teams and Groups"
 ---
 
 # Create a team

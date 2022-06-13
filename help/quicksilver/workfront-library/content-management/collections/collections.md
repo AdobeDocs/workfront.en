@@ -1,11 +1,11 @@
 ---
-filename: _collections
 content-type: reference
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Collections in Workfront Library
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Collections in Workfront Library

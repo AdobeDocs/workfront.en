@@ -1,9 +1,9 @@
 ---
-filename: add-outlook-email-as-task-to-your-work-list
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
 title: Add an Outlook email as a task to your work list
 description: You can convert Outlook emails to Adobe Workfront tasks. After an email is converted, the task is available in your Work List in the Home area.
+feature: Workfront Integrations and Apps
 ---
 
 # Add an Outlook email as a task to your work list

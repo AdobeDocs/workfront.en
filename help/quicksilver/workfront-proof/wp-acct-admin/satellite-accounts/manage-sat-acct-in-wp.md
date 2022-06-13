@@ -1,10 +1,10 @@
 ---
-filename: manage-sat-acct-in-wp
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: satellite-accounts
 title: Manage a satellite account in Workfront Proof
 description: As a Workfront Proof administrator, you can manage a satellite account set up on your organization's account.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Manage a satellite account in Workfront Proof

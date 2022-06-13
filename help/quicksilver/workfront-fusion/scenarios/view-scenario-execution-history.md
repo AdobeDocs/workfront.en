@@ -1,10 +1,10 @@
 ---
-filename: view-scenario-execution-history
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: View a scenario's execution history in Adobe Workfront Fusion
 description: You can display information about all the runs for a scenario, or you can search all executions of the scenario for specific data.
+feature: Workfront Fusion
 ---
 
 # View a scenario's execution history in Adobe Workfront Fusion

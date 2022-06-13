@@ -1,9 +1,9 @@
 ---
-filename: viewsubmitted-proof-approvals
 product-area: documents
 navigation-topic: approvals
 title: View submitted proof approvals
 description: Proofing approvals display in the Home area only if your Adobe Workfront environment is integrated with a Workfront Proof Premium account. If you cannot use proofing as discussed here, contact your Workfront administrator.
+feature: Work Management
 ---
 
 # View submitted proof approvals

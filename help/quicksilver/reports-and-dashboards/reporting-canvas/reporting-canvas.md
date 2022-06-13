@@ -1,10 +1,10 @@
 ---
-filename: _reporting-canvas
 content-type: overview;reference
 product-area: reporting
 navigation-topic: reports-and-dashboards
 title: Reporting Canvas
 description: This section contains the following articles - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Reporting Canvas

@@ -1,12 +1,12 @@
 ---
-filename: _config-approval-milestone-paths
-title: Configure approval processes and milestone paths
+title: Approval processes and milestone paths
 user-type: administrator
 content-type: reference
 product-area: system-administration;projects
 navigation-topic: customize-workfront
-title: Approval processes and milestone paths
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Approval processes and milestone paths

@@ -1,10 +1,10 @@
 ---
-filename: _agile
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Agile
 description: Review the articles in these areas to learn how to use Agile in Adobe Workfront.
+feature: Agile
 ---
 
 # Agile

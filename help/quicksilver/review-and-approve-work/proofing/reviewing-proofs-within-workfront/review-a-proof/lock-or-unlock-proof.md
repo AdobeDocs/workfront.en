@@ -1,9 +1,9 @@
 ---
-filename: lock-or-unlock-proof
 product-area: documents
 navigation-topic: review-a-proof
 title: Lock or unlock a proof
 description: You can manually lock and unlock a proof any time in the review process.
+feature: Digital Content and Documents
 ---
 
 # Lock or unlock a proof

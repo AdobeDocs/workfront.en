@@ -1,9 +1,9 @@
 ---
-filename: budget-resources-project-role-views-resource-planner
 product-area: resource-management
 navigation-topic: resource-planning
 title: Budget resources in the Resource Planner using the Project and Role views
 description: Budget resources in the Resource Planner using the Project and Role views
+feature: Resource Management
 ---
 
 # Budget resources in the Resource Planner using the Project and Role views

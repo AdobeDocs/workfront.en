@@ -1,9 +1,9 @@
 ---
-filename: filter-scheduling-area
 product-area: resource-management
 navigation-topic: resource-scheduling
 title: Filter information in the Scheduling area
 description: Filter information in the Scheduling area
+feature: Resource Management
 ---
 
 # Filter information in the Scheduling area

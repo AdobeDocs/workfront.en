@@ -1,10 +1,10 @@
 ---
-filename: overview-of-wf-goals-sections
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
 title: Overview of the Adobe Workfront Goals sections
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+feature: Workfront Goals
 ---
 
 # Overview of the Adobe Workfront Goals sections

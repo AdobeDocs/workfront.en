@@ -1,9 +1,9 @@
 ---
-filename: create-and-edit-initiatives
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Create and edit initiatives in the Scenario Planner
 description: When using the Adobe Workfront Scenario Planner, you can create initiatives in a plan that you created or that was shared with you. By creating initiatives you can show how smaller organizational units contribute to the completion of the plan. For example, if your organization has a plan for the next three years to expand into a new market, you can create initiatives within this plan for each department to estimate each department's need for people and budget to accomplish this plan.
+feature: Workfront Scenario Planner
 ---
 
 # Create and edit initiatives in the Scenario Planner

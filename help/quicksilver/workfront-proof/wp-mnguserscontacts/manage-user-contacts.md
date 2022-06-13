@@ -1,10 +1,10 @@
 ---
-filename: manage-user-contacts
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: workfront-proof-navigation-topic
 title: Managing users and contacts in Workfront Proof
 description: This section contains the following subsections - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Managing users and contacts in Workfront Proof

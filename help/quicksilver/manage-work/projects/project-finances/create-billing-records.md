@@ -1,8 +1,8 @@
 ---
-filename: create-billing-records
 navigation-topic: financials
 title: Create billing records
 description: In addition to setting up revenue and tracking expenses, you can create billing records on a project for information that needs to be billed.
+feature: Work Management
 ---
 
 # Create billing records

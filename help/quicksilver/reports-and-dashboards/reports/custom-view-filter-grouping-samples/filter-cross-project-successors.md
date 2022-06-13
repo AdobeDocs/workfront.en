@@ -1,10 +1,10 @@
 ---
-filename: filter-cross-project-successors
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Filter: display incomplete cross-project successors"
 description: This task filter returns incomplete cross-project successors.
+feature: Reports and Dashboards
 ---
 
 # Filter: display incomplete cross-project successors

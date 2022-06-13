@@ -1,10 +1,10 @@
 ---
-filename: upload-files-web-content
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
 title: Upload Files and Web Content to Workfront Proof
 description: You can upload files to Workfront Proof without creating a proof. You can also add URLs for websites and other web content to Workfront Proof.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Upload Files and Web Content to Workfront Proof

@@ -1,9 +1,9 @@
 ---
-filename: new-object-headers
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: New object headers
 description: New object headersEdit information in the object headers", or some other "overview"-type of article)"
+feature: Get Started with Workfront
 ---
 
 # New object headers

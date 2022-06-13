@@ -2,6 +2,7 @@
 title: Get started with the Scenario Planner
 description: Get started with the Scenario Planner
 draft: Probably
+feature: Workfront Scenario Planner
 ---
 # Get started with the Scenario Planner
 

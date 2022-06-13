@@ -1,10 +1,10 @@
 ---
-filename: duplicate-apprval-processes-home
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Duplicate approval processes showing in the Home Work List
 description: You see more than one of the same approval in your Home Work List.
+feature: Get Started with Workfront
 ---
 
 # Duplicate approval processes showing in the Home Work List

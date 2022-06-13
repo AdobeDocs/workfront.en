@@ -1,11 +1,12 @@
 ---
-filename: error-message-couldnt-validate-xml-digital-signature
 user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Error message: Couldn't validate XML digital signature"
 description: You are unable to establish a successful connection to ADFS.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Error message: Couldn't validate XML digital signature

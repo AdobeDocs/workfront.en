@@ -1,10 +1,9 @@
 ---
-filename: delete-projects
 title: Delete projects
 product-area: projects
 navigation-topic: manage-projects
-title: Delete projects
 description: You can delete a project if the project and its data are no longer needed.
+feature: Work Management
 ---
 
 # Delete projects

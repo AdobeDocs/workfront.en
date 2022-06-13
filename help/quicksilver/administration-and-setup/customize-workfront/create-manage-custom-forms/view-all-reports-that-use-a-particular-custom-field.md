@@ -2,6 +2,8 @@
 title: View all reports that use a particular custom field or widget
 description: View all reports that use a particular custom field or widget
 draft: Probably
+feature: System Setup and Administration
+role: Admin
 ---
 # View all reports that use a particular custom field or widget
 

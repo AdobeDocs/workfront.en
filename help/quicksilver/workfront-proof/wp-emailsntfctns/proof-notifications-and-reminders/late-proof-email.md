@@ -1,11 +1,11 @@
 ---
-filename: late-proof-email
 content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
 title: Late proof email
 description: The Late Proof email is sent to recipients when a proof is close to deadline or reaching deadline. These types of emails are not possible to disable on a proof level, but are configurable on account and user personal settings level.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Late proof email

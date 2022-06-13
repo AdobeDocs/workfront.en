@@ -1,5 +1,4 @@
 ---
-filename: frequently-asked-questions-about-kick-starts
 user-type: administrator
 content-type: faq
 product-area: system-administration
@@ -7,6 +6,8 @@ keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: Frequently asked questions about Kick-Starts
 description: The following are frequently asked questions about Kick-Starts - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Frequently asked questions about Kick-Starts

@@ -1,10 +1,10 @@
 ---
-filename: _comment-on-proof
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Comment on a proof overview
 description: Comment on a proof
+feature: Digital Content and Documents
 ---
 
 # Comment on a proof

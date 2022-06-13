@@ -1,9 +1,9 @@
 ---
-filename: 20-4-release-overview
 content-type: release-notes
 navigation-topic: product-releases
 title: 20.4 release overview
 description: The 20.4 release was made available in the Production environment the week of November 9, 2020. For specific release dates and times for each cluster, see the Workfront Status Site.
+feature: Product Announcements
 ---
 
 # 20.4 release overview

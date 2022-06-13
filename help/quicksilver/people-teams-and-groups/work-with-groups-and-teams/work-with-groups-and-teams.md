@@ -1,10 +1,10 @@
 ---
-filename: _work-with-groups-and-teams
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: Work with groups and teams
 description: Review these articles to learn how to work with groups and teams in Workfront.
+feature: "People Teams and Groups"
 ---
 
 # Work with groups and teams

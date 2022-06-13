@@ -1,9 +1,9 @@
 ---
-filename: interactive-content-in-web-viewer
 product-area: documents
 navigation-topic: review-a-proof
 title: Set up interactive content proofing in Web Proofing Viewer
 description: We recommend that you review all interactive content using the Desktop Proofing Viewer. However, if your organization's policies prevent this, your Workfront administrator can configure your system to use the Web Proofing Viewer for interactive proofing. For comparative information about these two viewers, see Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview.
+feature: Digital Content and Documents
 ---
 
 # Set up interactive content proofing in Web Proofing Viewer

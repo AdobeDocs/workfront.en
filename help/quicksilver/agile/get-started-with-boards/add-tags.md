@@ -1,9 +1,9 @@
 ---
-filename: add-tags
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Add tags
 description: You can add tags to cards to visually show that they are similar. Then you can filter by those tags to display related cards.
+feature: Agile
 ---
 
 # Add tags

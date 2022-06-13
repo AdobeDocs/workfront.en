@@ -1,10 +1,10 @@
 ---
-filename: username-already-in-use
 content-type: tips-tricks-troubleshooting
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-groups
 title: Username Already in Use
 description: Read these tips when you get an error that the username is already taken.
+feature: "People Teams and Groups"
 ---
 
 # Username Already in Use

@@ -2,6 +2,7 @@
 title: Get started with Adobe Workfront Goals
 description: Get started with Adobe Workfront Goals
 draft: Probably
+feature: Workfront Goals
 ---
 # Get started with Adobe Workfront Goals
 

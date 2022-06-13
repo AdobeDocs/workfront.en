@@ -1,10 +1,10 @@
 ---
-filename: _configure-user-profile
 content-type: reference
 product-area: user-management;setup
 navigation-topic: manage-your-account-and-profile
 title: Configure your User Profile
 description: Review the articles in this section to learn how to configure your Workfront user profile.
+feature: Get Started with Workfront
 ---
 
 # Configure your User Profile

@@ -1,10 +1,11 @@
 ---
-filename: create-and-modify-a-groups-programs
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Create, modify, and view a group's programs
 description: When you are viewing a group that you manage in the Groups area, you can view and work with its programs.
+feature: "System Setup and Administration, People Teams and Groups"
+role: Admin
 ---
 
 # Create, modify, and view a group's programs

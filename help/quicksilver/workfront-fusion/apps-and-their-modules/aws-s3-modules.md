@@ -1,5 +1,4 @@
 ---
-filename: aws-s3-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
@@ -7,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: AWS S3 modules
 description: The Adobe Workfront Fusion AWS S3 modules let you perform operations on your S3 buckets.
+feature: Workfront Fusion
 ---
 
 # AWS S3 modules

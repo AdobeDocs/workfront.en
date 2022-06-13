@@ -1,11 +1,11 @@
 ---
-filename: _review-proofs-in-desktop-proofing-viewer
 content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Review proofs in the Desktop Proofing Viewer
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Review proofs in the Desktop Proofing Viewer

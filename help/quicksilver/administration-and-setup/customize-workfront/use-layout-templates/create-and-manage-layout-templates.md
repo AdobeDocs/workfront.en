@@ -1,12 +1,12 @@
 ---
-filename: create-and-manage-layout-templates
-title: Layout Templates overview
+title: Create and manage layout templates
 user-type: administrator
 content-type: overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
-title: Create and manage layout templates
 description: Create and manage layout templates
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Create and manage layout templates

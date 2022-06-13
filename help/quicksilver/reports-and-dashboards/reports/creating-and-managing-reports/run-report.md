@@ -1,9 +1,9 @@
 ---
-filename: run-report
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Run a report
 description: You can run any report that you have access to View.
+feature: Reports and Dashboards
 ---
 
 # Run a report

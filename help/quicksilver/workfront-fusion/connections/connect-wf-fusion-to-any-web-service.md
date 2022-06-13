@@ -1,10 +1,10 @@
 ---
-filename: connect-wf-fusion-to-any-web-service
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Connect Adobe Workfront Fusion to any web service
 description: If Adobe Workfront Fusion doesn't offer an app for the web service you would like to use in your scenario, you can connect to the web service using Workfront Fusion HTTP and Webhooks modules, as described in this article.
+feature: Workfront Fusion
 ---
 
 # Connect Adobe Workfront Fusion to any web service

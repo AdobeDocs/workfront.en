@@ -1,9 +1,9 @@
 ---
-filename: using-api-explorer
 content-type: api
 navigation-topic: general-api
 title: Using the API Explorer
 description: When using the Adobe Workfront Core API, the API Explorer is a legacy reference tool that catalogs the relationships between supported resources, parameters, and variables.
+feature: Workfront API
 ---
 
 # Using the API Explorer

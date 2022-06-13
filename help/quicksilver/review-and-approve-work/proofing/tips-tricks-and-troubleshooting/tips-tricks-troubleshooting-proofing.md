@@ -2,6 +2,7 @@
 title: Tips, tricks, and troubleshooting for Proofing within Adobe Workfront
 description: Tips, tricks, and troubleshooting for Proofing within Adobe Workfront
 draft: Probably
+feature: Digital Content and Documents
 ---
 # Tips, tricks, and troubleshooting for Proofing within Adobe Workfront
 

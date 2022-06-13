@@ -2,6 +2,7 @@
 title: 21.4 Agile enhancements
 description: 21.4 Agile enhancements
 draft: Probably
+feature: "Product Announcements, Agile"
 ---
 # 21.4 Agile enhancements
 

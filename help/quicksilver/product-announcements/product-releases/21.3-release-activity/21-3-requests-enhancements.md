@@ -2,6 +2,7 @@
 title: 21.3 Requests enhancements
 description: 21.3 Requests enhancements
 draft: Probably
+feature: Product Announcements
 ---
 # 21.3 Requests enhancements
 

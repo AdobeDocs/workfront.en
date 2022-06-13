@@ -1,5 +1,4 @@
 ---
-filename: http-module-make-a-request
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
@@ -7,6 +6,7 @@ keywords: connector
 navigation-topic: http-modules
 title: HTTP > Make a request module
 description: The Adobe Workfront Fusion HTTP > Make a request module is a universal module that enables you to configure an HTTP request and submit it to a server. The received HTTP response is then contained in the output bundle.
+feature: Workfront Fusion
 ---
 
 # HTTP > Make a request module

@@ -1,10 +1,10 @@
 ---
-filename: add-items-to-a-collection
 product-previous: workfront-library
 product-area: documents
 navigation-topic: collections
 title: Add items to a collection in Workfront Library
 description: You can add content and folders to a collection that you create or that has been shared with you. When you add content to a collection, the content remains in its original location, and you simply create a link to the content file.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Add items to a collection in Workfront Library

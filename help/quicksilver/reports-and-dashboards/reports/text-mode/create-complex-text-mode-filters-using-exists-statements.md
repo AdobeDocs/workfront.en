@@ -1,9 +1,9 @@
 ---
-filename: create-complex-text-mode-filters-using-exists-statements
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Create complex Text Mode filters using EXISTS statements
 description: Create complex Text Mode filters using EXISTS statements
+feature: Reports and Dashboards
 ---
 
 # Create complex Text Mode filters using EXISTS statements

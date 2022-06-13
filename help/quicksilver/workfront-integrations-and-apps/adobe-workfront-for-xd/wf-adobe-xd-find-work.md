@@ -1,9 +1,9 @@
 ---
-filename: wf-adobe-xd-find-work
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
 title: Find your work in Adobe XD
 description: Find the work assigned to you in Adobe Workfront without leaving Adobe XD.
+feature: "Workfront Integrations and Apps, Digital Content and Documents"
 ---
 
 # Find your work in Adobe XD

@@ -1,10 +1,11 @@
 ---
-filename: rich-text-field-storage-in-the-api
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Rich text field storage in the API
 description: If an object such as a project, issue, or task contains rich text, it is stored and accessible as a parameter value through the Workfront API.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Rich text field storage in the API

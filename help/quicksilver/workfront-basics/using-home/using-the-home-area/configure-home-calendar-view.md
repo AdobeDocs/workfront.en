@@ -1,9 +1,9 @@
 ---
-filename: configure-home-calendar-view
 product-area: calendars;setup
 navigation-topic: use-the-home-area
 title: Configure your Home Calendar view settings
 description: You can configure the Home Calendar settings to do the following - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Configure your Home Calendar view settings

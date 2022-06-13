@@ -2,6 +2,7 @@
 title: Adobe Workfront Goals 21.1 release activity:&nbsp;Week of January 11, 2021
 description: Adobe Workfront Goals 21.1 release activity:&nbsp;Week of January 11, 2021
 draft: Probably
+feature: "Product Announcements, Workfront Goals"
 ---
 # Adobe Workfront Goals 21.1 release activity:&nbsp;Week of January 11, 2021
 

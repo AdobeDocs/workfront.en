@@ -1,5 +1,4 @@
 ---
-filename: _apps-and-their-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
@@ -7,6 +6,7 @@ keywords: connector
 navigation-topic: workfront-fusion-2-0
 title: Apps and their modules
 description: Adobe Workfront Fusion currently offers dedicated connectors for the apps on this list. If the app you want to work with is not on this list, you can connect to it using the HTTP, SOAP, or JSON modules.
+feature: Workfront Fusion
 ---
 
 # Apps and their modules

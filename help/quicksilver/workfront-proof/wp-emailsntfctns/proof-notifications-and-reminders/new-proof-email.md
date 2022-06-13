@@ -1,11 +1,11 @@
 ---
-filename: new-proof-email
 content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
 title: New proof email
 description: Make this article work better for PiW.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # New proof email

@@ -1,10 +1,10 @@
 ---
-filename: connect-wf-web-service-uses-api-token-auth
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Connect Adobe Workfront Fusion to a web service that uses API token authorization
 description: Some services do not allow integration solutions such as Adobe Workfront Fusion to create an app that you can easily use in your scenario.
+feature: Workfront Fusion
 ---
 
 # Connect Adobe Workfront Fusion to a web service that uses API token authorization

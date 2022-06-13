@@ -1,9 +1,9 @@
 ---
-filename: _workfront-for-aem-enhanced-connector
 product-area: documents;workfront-integrations
 navigation-topic: workfront-and-experience-manager-integrations
 title: Workfront for Experience Manager enhanced connector
 description: Workfront for Experience Manager enhanced connector
+feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---
 
 # Workfront for Experience Manager enhanced connector

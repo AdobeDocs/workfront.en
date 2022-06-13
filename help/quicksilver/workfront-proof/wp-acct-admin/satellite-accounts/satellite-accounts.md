@@ -1,11 +1,11 @@
 ---
-filename: _satellite-accounts
 content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Satellite accounts in Workfront Proof overview
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Satellite accounts in Workfront Proof

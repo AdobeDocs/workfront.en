@@ -1,10 +1,10 @@
 ---
-filename: proof-roles
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
 title: Proof Roles overview
 description: Proof roles allow you to grant permissions on individual proofs. Proof roles are different from Proof permission profiles. For more information about Proof Permission Profiles, see Proof Permission Profile overview.
+feature: Digital Content and Documents
 ---
 
 # Proof Roles overview

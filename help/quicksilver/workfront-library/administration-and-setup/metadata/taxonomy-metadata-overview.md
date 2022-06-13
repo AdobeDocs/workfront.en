@@ -1,11 +1,11 @@
 ---
-filename: taxonomy-metadata-overview
 content-type: overview
 product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Overview of taxonomy metadata in Workfront Library
 description: Taxonomy is a type of metadata used to describe and categorize the factual attributes of content uploaded to Workfront Library. For information about metadata, see Overview of metadata in Workfront Library.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Overview of taxonomy metadata in Workfront Library

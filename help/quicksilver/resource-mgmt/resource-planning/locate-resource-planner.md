@@ -1,9 +1,9 @@
 ---
-filename: locate-resource-planner
 product-area: resource-management
 navigation-topic: resource-planning
 title: Locate the Resource Planner
 description: "(This came off this article: draft that content in the article when this comes live: /Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html)"
+feature: Resource Management
 ---
 
 # Locate the Resource Planner

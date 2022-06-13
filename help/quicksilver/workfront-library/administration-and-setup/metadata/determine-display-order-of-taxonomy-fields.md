@@ -1,10 +1,10 @@
 ---
-filename: determine-display-order-of-taxonomy-fields
 product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Determine the display order of taxonomy fields in Workfront Library
 description: When a user uploads new content to Workfront Library or opens an existing content file, the taxonomy associated with the content displays in the Details panel.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Determine the display order of taxonomy fields in Workfront Library

@@ -1,9 +1,9 @@
 ---
-filename: submit-timesheet-for-approval
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Submit a timesheet for approval
 description: Submitting your timesheet for approval provides your manager with visibility into your work hours. Approvers can verify that all time recorded has been allocated in the correct areas and that a sufficient number of hours have been recorded for the time period.
+feature: Timesheets
 ---
 
 # Submit a timesheet for approval

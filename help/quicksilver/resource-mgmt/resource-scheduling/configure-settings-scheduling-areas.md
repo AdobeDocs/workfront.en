@@ -1,9 +1,9 @@
 ---
-filename: configure-settings-scheduling-areas
 product-area: resource-management;setup
 navigation-topic: resource-scheduling
 title: Configure settings in the Scheduling areas
 description: We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources.
+feature: Resource Management
 ---
 
 # Configure settings in the Scheduling areas

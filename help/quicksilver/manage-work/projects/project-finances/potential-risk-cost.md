@@ -1,10 +1,10 @@
 ---
-filename: potential-risk-cost
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Potential Risk Cost
 description: The Potential Risk Cost of a project takes into account the Potential Costs of the project risks and their probability of occurring.
+feature: Work Management
 ---
 
 # Calculate Potential Risk Cost

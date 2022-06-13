@@ -1,11 +1,12 @@
 ---
-filename: _diagnostics
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Diagnostics
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Diagnostics

@@ -1,9 +1,9 @@
 ---
-filename: filter-search-in-board
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Filter and search in a board
 description: You can filter a board to only display only certain cards.
+feature: Agile
 ---
 
 # Filter and search in a board

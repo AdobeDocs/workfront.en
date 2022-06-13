@@ -1,10 +1,10 @@
 ---
-filename: map-using-functions
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Map items using functions in Adobe Workfront Fusion
 description: When you map items, you can use functions to create simple or complex formulas.
+feature: Workfront Fusion
 ---
 
 # Map items using functions in Adobe Workfront Fusion

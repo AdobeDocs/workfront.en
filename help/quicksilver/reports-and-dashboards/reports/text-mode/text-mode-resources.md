@@ -1,10 +1,10 @@
 ---
-filename: _text-mode-resources
 content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Text Mode resources
 description: Text Mode resources
+feature: Reports and Dashboards
 ---
 
 # Text Mode resources

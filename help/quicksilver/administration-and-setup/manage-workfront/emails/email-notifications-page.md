@@ -1,10 +1,11 @@
 ---
-filename: email-notifications-page
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Email Notifications page
 description: As an Adobe Workfront administrator, you can configure the event notifications, reminder notifications, and email templates for your users.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Email Notifications page

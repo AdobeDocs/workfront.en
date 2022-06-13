@@ -1,10 +1,10 @@
 ---
-filename: access-proofs-shared-with-you
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Access a proof shared with you
 description: When you receive an email about a proof, it contains a personal URL to access the proof. For more information, see New proof email.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Access a proof shared with you

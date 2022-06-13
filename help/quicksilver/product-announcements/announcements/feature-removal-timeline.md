@@ -1,10 +1,10 @@
 ---
-filename: feature-removal-timeline
 content-type: faq
 keywords: removal,deprecate,deprecation,unsupported,flash,resource,scheduling
 navigation-topic: announcements
 title: Schedule of features no longer supported
 description: Various features are being phased out of the Adobe Workfront product. Following is a brief description of each feature, links to additional information, and key dates to be aware of.
+feature: Product Announcements
 ---
 
 # Schedule of features no longer supported

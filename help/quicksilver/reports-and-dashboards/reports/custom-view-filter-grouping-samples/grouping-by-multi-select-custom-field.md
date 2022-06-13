@@ -1,10 +1,10 @@
 ---
-filename: grouping-by-multi-select-custom-field
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Group a report by a multi-select custom field
 description: You can group by the value in a multi-select custom field in a Adobe Workfront report. Examples of multi-select custom fields are - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Group a report by a multi-select custom field

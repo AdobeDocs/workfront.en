@@ -1,10 +1,10 @@
 ---
-filename: view-multi-row-project-view
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: multi-row project View"
 description: In this project view you can - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # View: multi-row project View

@@ -1,11 +1,12 @@
 ---
-filename: sso-in-workfront
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: Overview of single sign-on in Adobe Workfront
 description: The functionality described on this page applies only to organizations that are not yet onboarded to the Adobe Business Platform.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Overview of single sign-on in Adobe Workfront

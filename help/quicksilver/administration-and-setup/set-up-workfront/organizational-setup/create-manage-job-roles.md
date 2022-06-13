@@ -1,10 +1,11 @@
 ---
-filename: create-manage-job-roles
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Create and manage job roles
 description: Create and manage job roles
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Create and manage job roles

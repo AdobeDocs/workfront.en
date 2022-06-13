@@ -1,10 +1,10 @@
 ---
-filename: task-original-duration-and-original-planned-hours
 content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Overview of task Original Duration and Original Planned Hours
 description: As part of planning a project, you should determine the values for the Planned Hours and for the Duration (or Planned Duration) of every task in the project.
+feature: Work Management
 ---
 
 # Overview of task Original Duration and Original Planned Hours

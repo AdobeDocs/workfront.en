@@ -1,12 +1,12 @@
 ---
-filename: _brand-workfront
-title: Brand Workfront
+title: Custom branding in Adobe Workfront
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-title: Custom branding in Adobe Workfront
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Custom branding in Adobe Workfront

@@ -1,9 +1,9 @@
 ---
-filename: task-leveling-delay
 product-area: projects
 navigation-topic: task-information
 title: Update task Leveling Delay
 description: At times, there might be conflicts between task schedules on a project. You can level resources or address resource conflicts by rescheduling resources and tasks so that all tasks can be completed within a realistic schedule. For information about leveling tasks, see Level Resources in the Gantt Chart .
+feature: Work Management
 ---
 
 # Update task Leveling Delay

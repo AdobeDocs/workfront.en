@@ -2,6 +2,7 @@
 title: 20. 4 Analytics enhancements
 description: 20. 4 Analytics enhancements
 draft: Probably
+feature: Product Announcements
 ---
 # 20. 4 Analytics enhancements
 

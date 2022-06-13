@@ -1,9 +1,9 @@
 ---
-filename: approving-work
 product-area: projects
 navigation-topic: approvals
 title: Approving work
 description: Approving work
+feature: Work Management
 ---
 
 # Approving work

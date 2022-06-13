@@ -2,6 +2,7 @@
 title: Configure a KPI visualization in Reporting Canvas
 description: Configure a KPI visualization in Reporting Canvas
 draft: Probably
+feature: Reports and Dashboards
 ---
 # Configure a KPI visualization in Reporting Canvas
 

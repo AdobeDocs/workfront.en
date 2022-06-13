@@ -1,9 +1,9 @@
 ---
-filename: create-filters
 product-area: reporting
 navigation-topic: reporting-elements
 title: Create or edit filters in Adobe Workfront
 description: Create or edit filters in Adobe Workfront
+feature: Reports and Dashboards
 ---
 
 # Create or edit filters in Adobe Workfront

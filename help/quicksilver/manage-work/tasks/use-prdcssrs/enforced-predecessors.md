@@ -1,9 +1,9 @@
 ---
-filename: enforced-predecessors
 product-area: projects
 navigation-topic: use-predecessors
 title: Enforce predecessors
 description: Predecessors are tasks on which other tasks are dependent for completion. Predecessor relationships affect the Start and Completion Dates of the tasks and ultimately impact the timeline of the project.
+feature: Work Management
 ---
 
 # Enforce predecessors

@@ -1,10 +1,10 @@
 ---
-filename: run-reports
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Run Reports in Workfront Proof
 description: Workfront Proof enables you to view reports so you can track the work progress and efficiencies of your teams.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Run Reports in Workfront Proof

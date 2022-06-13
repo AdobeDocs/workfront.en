@@ -1,9 +1,9 @@
 ---
-filename: wf-cc-view-work-info
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: View work item information in Adobe Photoshop
 description: You can see information about projects, tasks, issues, and documents from Adobe Photoshop.
+feature: "Workfront Integrations and Apps, Digital Content and Documents"
 ---
 
 # View work item information in Adobe Photoshop

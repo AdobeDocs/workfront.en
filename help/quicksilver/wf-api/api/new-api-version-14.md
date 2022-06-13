@@ -1,9 +1,9 @@
 ---
-filename: new-api-version-14
 content-type: api
 navigation-topic: api-navigation-topic
 title: What's new in API version 14
 description: Adobe Workfront released API version 14 on September 9, 2021. API version 14 features the following changes from version 14.
+feature: Workfront API
 ---
 
 # What's new in API version 14

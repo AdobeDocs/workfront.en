@@ -1,11 +1,11 @@
 ---
-filename: type-coercion
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Type coercion in Adobe Workfront Fusion
 description: This document describes how Adobe Workfront Fusion behaves in situations when it receives values in expected and unexpected data formats.
+feature: Workfront Fusion
 ---
 
 # Type coercion in Adobe Workfront Fusion

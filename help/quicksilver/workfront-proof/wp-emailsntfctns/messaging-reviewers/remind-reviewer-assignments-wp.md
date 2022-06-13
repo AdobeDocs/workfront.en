@@ -1,10 +1,10 @@
 ---
-filename: remind-reviewer-assignments-wp
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: messaging-reviewers
 title: Remind a reviewer about assignments in Workfront Proof
 description: You can send a single message to a reviewer reminding them about multiple items that have been shared with them.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Remind a reviewer about assignments in Workfront Proof

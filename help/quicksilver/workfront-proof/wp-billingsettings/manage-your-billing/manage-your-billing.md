@@ -1,11 +1,11 @@
 ---
-filename: _manage-your-billing
 content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: billing-settings
 title: Manage your billing
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Manage your billing

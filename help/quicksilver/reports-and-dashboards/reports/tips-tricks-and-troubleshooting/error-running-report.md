@@ -1,10 +1,10 @@
 ---
-filename: error-running-report
 content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: "Error message when running a report: 'You are not currently logged in.'"
 description: You must have the following access to perform the steps in this article - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Error message when running a report: "You are not currently logged in."

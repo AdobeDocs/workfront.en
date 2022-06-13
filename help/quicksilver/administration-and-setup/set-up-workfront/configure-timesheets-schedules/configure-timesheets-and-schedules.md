@@ -1,5 +1,4 @@
 ---
-filename: _configure-timesheets-and-schedules
 user-type: administrator
 content-type: reference
 product-area: system-administration;timesheets
@@ -7,6 +6,8 @@ navigation-topic: set-up-workfront
 title: Configure schedules and timesheet preferences
 description: As a Workfront administrator, you can define your work week using schedules and associate a schedule with a user or a project. This allows Adobe Workfront to calculate timelines and user availability. You can also configure timesheet and hour preferences.
 
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Configure schedules and timesheet preferences

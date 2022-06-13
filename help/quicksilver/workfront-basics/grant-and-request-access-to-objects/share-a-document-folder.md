@@ -1,9 +1,9 @@
 ---
-filename: share-a-document-folder
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Share a document folder
 description: The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
+feature: Get Started with Workfront
 ---
 
 # Share a document folder

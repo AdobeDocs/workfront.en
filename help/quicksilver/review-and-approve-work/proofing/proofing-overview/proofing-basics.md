@@ -1,10 +1,10 @@
 ---
-filename: _proofing-basics
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Proofing overview
 description: Proof Permission Profile overview
+feature: Digital Content and Documents
 ---
 
 # Proofing overview

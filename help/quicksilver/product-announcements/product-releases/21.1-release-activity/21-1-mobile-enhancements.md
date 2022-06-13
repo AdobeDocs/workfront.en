@@ -2,6 +2,7 @@
 title: 21.1 Mobile enhancements
 description: 21.1 Mobile enhancements
 draft: Probably
+feature: Product Announcements
 ---
 # 21.1 Mobile enhancements
 

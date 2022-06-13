@@ -1,9 +1,9 @@
 ---
-filename: create-request-queue
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Create a Request Queue
 description: Create a Request Queue
+feature: Work Management
 ---
 
 # Create a Request Queue

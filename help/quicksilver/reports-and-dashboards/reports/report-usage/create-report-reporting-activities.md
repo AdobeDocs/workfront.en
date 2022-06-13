@@ -1,10 +1,10 @@
 ---
-filename: create-report-reporting-activities
 product-area: reporting
 keywords: change,owner,shared,report,share,run,user,access,rights,entered,last,viewed,date,reporting,activities
 navigation-topic: report-usage
 title: Create a report on reporting activities
 description: When you create a report about reports, you can identify specific report information, which can include if reports are assigned to deactivated users, if reports are set to run with access rights of a deactivated user, if users are accessing a report you plan to delete, and so forth.
+feature: Reports and Dashboards
 ---
 
 # Create a report on reporting activities

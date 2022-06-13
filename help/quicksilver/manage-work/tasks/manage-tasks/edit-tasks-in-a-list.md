@@ -1,9 +1,9 @@
 ---
-filename: edit-tasks-in-a-list
 product-area: projects
 navigation-topic: manage-tasks
 title: Edit tasks in a list
 description: You can edit task information in a list of tasks by editing the fields displayed in the list. For information about other ways to edit tasks, see Edit tasks.
+feature: Work Management
 ---
 
 # Edit tasks in a list {#edit-tasks-in-a-list}

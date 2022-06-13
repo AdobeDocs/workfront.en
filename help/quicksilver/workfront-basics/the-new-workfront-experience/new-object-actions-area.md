@@ -1,9 +1,9 @@
 ---
-filename: new-object-actions-area
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: New object actions area
 description: As part of the redesign in the new Adobe Workfront experience, we have added new actions areas for several objects. Most objects that you can access individually have an actions area.
+feature: Get Started with Workfront
 ---
 
 # New object actions area

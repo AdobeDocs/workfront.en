@@ -1,10 +1,11 @@
 ---
-filename: restore-deleted-items
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Restore deleted items
 description: Restore deleted items
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Restore deleted items

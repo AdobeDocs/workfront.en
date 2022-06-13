@@ -1,10 +1,11 @@
 ---
-filename: lock-or-unlock-a-custom-system-level-status
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Locked and unlocked system-level statuses
 description: Locking custom statuses is a way to ensure that people throughout your organization are using the same processes in their flow of work. When a status is locked, it's available to all users in the system. Though you can edit or delete it, group administrators can't do so for their groups. Conversely, unlocking custom statuses allows group administrators more flexibility to manage the unique workflows used in their groups. They can change the attributes of an unlocked status or delete it for their groups.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Locked and unlocked system-level statuses

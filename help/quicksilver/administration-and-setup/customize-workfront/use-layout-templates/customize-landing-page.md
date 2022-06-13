@@ -1,11 +1,11 @@
 ---
-filename: customize-landing-page
-title: Customize the landing page using a Layout Template
+title: Customize the landing page using a layout template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-title: Customize the landing page using a layout template
 description: As an Adobe Workfront administrator, you can use a layout template to specify the area you want users to see each time they log in to Workfront.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Customize the landing page using a layout template

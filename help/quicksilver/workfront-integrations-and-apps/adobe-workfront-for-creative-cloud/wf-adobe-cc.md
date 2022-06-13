@@ -1,10 +1,10 @@
 ---
-filename: wf-adobe-cc
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront for Creative Cloud
 description: Adobe Workfront for Photoshop
+feature: "Workfront Integrations and Apps, Digital Content and Documents"
 ---
 
 # Adobe Workfront for Creative Cloud

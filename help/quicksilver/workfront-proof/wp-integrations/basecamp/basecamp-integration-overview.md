@@ -1,11 +1,11 @@
 ---
-filename: basecamp-integration-overview
 content-type: overview
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp
 title: Understand the Basecamp Integration with Workfront Proof
 description: Basecamp is a leading web-based project management and collaboration tool. It provides to-do lists, file sharing, time tracking and messages, schedules and milestones in a simple and easy-to-use way.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Understand the Basecamp Integration with Workfront Proof

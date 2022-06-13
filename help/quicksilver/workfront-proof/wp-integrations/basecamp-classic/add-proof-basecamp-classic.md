@@ -1,10 +1,10 @@
 ---
-filename: add-proof-basecamp-classic
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
 title: Add a Proof to a Basecamp Classic Project
 description: After you set up your Basecamp Classic integration you can start adding proofs to projects within your Basecamp Classic account.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Add a Proof to a Basecamp Classic Project

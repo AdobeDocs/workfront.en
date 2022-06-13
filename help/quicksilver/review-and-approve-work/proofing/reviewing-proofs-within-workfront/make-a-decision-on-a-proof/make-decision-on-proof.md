@@ -1,10 +1,10 @@
 ---
-filename: _make-decision-on-proof
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Make a decision on a proof
 description: Approve a proof
+feature: Digital Content and Documents
 ---
 
 # Make a decision on a proof

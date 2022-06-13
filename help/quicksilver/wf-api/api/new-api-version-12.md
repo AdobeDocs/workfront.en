@@ -1,9 +1,9 @@
 ---
-filename: new-api-version-12
 content-type: api
 navigation-topic: api-navigation-topic
 title: What's new in API version 12
 description: Workfront released API version 12 on November 12, 2020. API version 12 features the following changes from version 11
+feature: Workfront API
 ---
 
 # What's new in API version 12

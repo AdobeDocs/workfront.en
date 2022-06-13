@@ -1,10 +1,10 @@
 ---
-filename: calculate-eac
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Estimate At Completion (EAC)
 description: Calculate Estimate At Completion (EAC)
+feature: Work Management
 ---
 
 # Calculate Estimate At Completion (EAC)

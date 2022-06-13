@@ -1,9 +1,9 @@
 ---
-filename: filter-event-sub-messages
 content-type: api
 navigation-topic: api-navigation-topic
 title: Filter event subscription messages
 description: You can build intermediary processing components that can help you filter and process only the event subscription messages that your business needs.
+feature: Workfront API
 ---
 
 # Filter event subscription messages

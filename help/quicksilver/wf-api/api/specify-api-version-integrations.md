@@ -1,9 +1,9 @@
 ---
-filename: specify-api-version-integrations
 content-type: api
 navigation-topic: api-navigation-topic
 title: Specify an API Version in your integrations
 description: All Adobe Workfront URIs are required to reference a specific version of the API after the “attask/api” portion of the URI. The following example calls Version 7.0 - EDIT ME.
+feature: Workfront API
 ---
 
 # Specify an API Version in your integrations

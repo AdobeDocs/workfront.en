@@ -1,9 +1,9 @@
 ---
-filename: category
 content-type: api
 navigation-topic: workfront-objects
 title: Category
 description: "Fieldsclass: `java.lang.IllegalArgumentException`, message: 'APIModel INTERNAL does not support field projectid (OpTask)'"
+feature: Workfront API
 ---
 
 # Category

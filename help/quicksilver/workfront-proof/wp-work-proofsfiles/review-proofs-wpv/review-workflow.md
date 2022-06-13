@@ -1,10 +1,10 @@
 ---
-filename: review-workflow
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Review a Workflow in the proofing viewer
 description: The Workflow panel displays the workflow of your proof as it appears on the Proof Details page and in your email notifications. For more information about proof details, see Manage Proof Details in Workfront Proof. All assigned reviewers, including users and guests, can view the Workflow panel.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Review a Workflow in the proofing viewer

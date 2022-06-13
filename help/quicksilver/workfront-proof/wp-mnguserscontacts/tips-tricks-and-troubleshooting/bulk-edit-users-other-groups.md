@@ -1,11 +1,11 @@
 ---
-filename: bulk-edit-users-other-groups
 content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-users-and-contacts
 title: Bulk edit user's Other Groups
 description: When bulk editing I attempted to add a single Other Groups to numerous users. After Saving Changes, all the existing Other Groups were removed and only the new Other Group remained.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Bulk edit user's Other Groups

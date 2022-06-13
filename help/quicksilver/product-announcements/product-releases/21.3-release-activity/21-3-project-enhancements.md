@@ -2,6 +2,7 @@
 title: 21.3 Project enhancements
 description: 21.3 Project enhancements
 draft: Probably
+feature: Product Announcements
 ---
 # 21.3 Project enhancements
 

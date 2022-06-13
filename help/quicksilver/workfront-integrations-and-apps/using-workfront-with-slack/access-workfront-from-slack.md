@@ -1,9 +1,9 @@
 ---
-filename: access-workfront-from-slack
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
 title: Access Adobe Workfront from Slack
 description: Integrating Adobe Workfront with Slack allows you to access Workfront from Slack, or perform certain actions in Workfront using a slash command. The integration can be used from any Slack environment, including the Slack mobile app.
+feature: Workfront Integrations and Apps
 ---
 
 # Access Adobe Workfront from Slack

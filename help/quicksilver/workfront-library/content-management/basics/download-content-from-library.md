@@ -1,10 +1,10 @@
 ---
-filename: download-content-from-library
 product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Download items from Workfront Library
 description: You can download any item to which you have permissions. For information on access and permissions, see Overview of user access to Workfront Library
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Download items from Workfront Library
