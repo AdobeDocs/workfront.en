@@ -97,8 +97,7 @@ After your system or group administrator has added the Campaigns area to your Ma
 
 >[!TIP]
 >
->For information about known beta issues or frequently-asked questions, see the [Beta FAQs](#beta-faqs) section in this article.
-To submit a bug rather than general feedback, please use the standard Workfront issue reporting process. For more information, see [Contact customer support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
+>For information about known beta issues or frequently-asked questions, see the [Beta FAQs](#beta-faqs) section in this article. To submit a bug rather than general feedback, please use the standard Workfront issue reporting process. For more information, see [Contact customer support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
 
 To submit feedback that you have learned about campaigns during the beta period:
 
