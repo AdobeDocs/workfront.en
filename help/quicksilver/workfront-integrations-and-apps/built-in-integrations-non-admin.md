@@ -11,10 +11,6 @@ feature: Workfront Integrations and Apps
 
 You can integrate Adobe Workfront with third-party applications. These integrations can extend the utility of Workfront and tailor it to the needs of your organization. For example, if you are a creative worker in the marketing industry, you can use the Adobe Creative Cloud add-in to export assets directly from Photoshop to Workfront.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront provides various integrations you can configure either directly from the Workfront application, or directly from another application by installing the Workfront add-in for that application.</p>
--->
-
 Your Workfront administrator must enable and configure built-in integrations before you can use them. To learn which built-in integrations are used within your organization, contact your Workfront administrator.
 
 ## Available built-in integrations
@@ -32,12 +28,7 @@ The following built-in integrations are currently available in Workfront.
      <li>Integrate Workfront comments and approvals with InDesign, Illustrator, and Photoshop </li> 
      <li>Download/install from Adobe Exchange or manually</li> 
     </ul> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Adobe Experience Manager</td> 
-    <td>&nbsp;</td> 
-   </tr>
-  --> 
+  </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
    <td> 
@@ -82,8 +73,8 @@ The following built-in integrations are currently available in Workfront.
    <td> 
     <ul> 
      <li> <p>Integrate with a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live. </p> </li> 
-     <li> <p>Display all events from your Outlook calendar and any associated calendars you select, such as Birthdays and Holidays calendars, in your Home Calendar.</p> </li> 
-    </ul> <p>Note: The Outlook calendar configuration is completely separate from the Outlook Add-in (Outlook Integration or Workfront for Outlook). There's no installation required to configure the calendar.</p> </td> 
+     <li> <p>Display all events from your Outlook calendar and any associated calendars you select, such as Birthdays and Holidays calendars, in your Home Calendar.</p>  <p>Note: The Outlook calendar configuration is completely separate from the Outlook Add-in (Outlook Integration or Workfront for Outlook). There's no installation required to configure the calendar.</p></li> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Microsoft OneDrive</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
@@ -146,18 +137,15 @@ The following built-in integrations are currently available in Workfront.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront DAM*<!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><img src="assets/wf-logo-orange-30-px.png"></p>
-    --></td> 
+   <td role="rowheader">Workfront DAM*</td> 
    <td> 
     <ul> 
      <li> <p class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Link digital assets to Workfront</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Workfront Fusion*</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/wf-logo-orange-30-px.png"> </p>
-    --> </td> 
+   <td role="rowheader"> <p>Workfront Fusion*</p> 
+ </td> 
    <td> 
     <ul> 
      <li> <p>Automate workflows within Workfront</p> </li> 

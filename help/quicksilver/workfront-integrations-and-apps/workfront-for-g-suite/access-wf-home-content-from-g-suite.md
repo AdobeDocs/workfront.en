@@ -26,27 +26,7 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Work, Plan</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <p>[Insert any access level configurations needed]
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Example: Edit access to Documents
-       </MadCap:conditionalText>
-      </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
-     </td> 
-   </tr>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>[Insert permissions needed and specify the object]
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Example: View access or higher on Documents
-       </MadCap:conditionalText>
-      </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -85,7 +65,7 @@ Before you can access Home content from G Suite, you must
    
    * ![](assets/issue-icon.png) **Issues** display the parent project name, issue name, and planned completion date.
    
-   * **Approvals** display the requester's name, document name, and submission date.
+   * ![](assets/document-icon.png)  **Approvals** display the requester's name, document name, and submission date.
    * **Access requests** display the requester's name, object name, and submission date. The icon for the object type displays on the left.
 
 1. Click anywhere on a work item to see its details, updates, and documents.
