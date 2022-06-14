@@ -93,26 +93,15 @@ When you reset user preferences, some preferences are reverted to the system def
 1. **Log In As**.
 1. Begin typing the name of the user whose preferences you want to reset, then click the name when it appears in the drop-down list.
 1. Click **Log In**.
-1. In the URL field at the top of your web browser, add the following to the end of 
-
-   ```
-   workfront.com
-   ```
-
-   in the current URL:
-
-   ```
-   /resetUser
-   ```
+1. In the URL field at the top of your web browser, add `/resetUser` after `workfront.com`.
 
    >[!NOTE]
    >
-   >This is case sensitive. The U must be capitalized, and the remaining characters must be lowercase. For example:    >
+   >This is case sensitive. The U must be capitalized, and the remaining characters must be lowercase. For example:
    >
-   >```   >
+   >```
    >https://company_domain.my.workfront.com/resetUser
-   >```   >
-   >
+   >```
 
 1. Press **Enter**.
 1. To reset all user preferences, click **Reset**.

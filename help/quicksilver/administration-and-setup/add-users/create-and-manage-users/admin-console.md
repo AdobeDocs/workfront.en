@@ -48,13 +48,13 @@ Before using the Admin Console for Workfront, you should receive a receive an em
 
 1. From the [Adobe Admin Console page](https://adminconsole.adobe.com/), select the **Products** tab in the top navigation bar, and then select the **Workfront** product tile.
 
-   ![](assets/admin-product-350x184.png)
+   ![](assets/admin-product.png)
 
 1. In the list that displays, select the link at the top.
 
    This is your Production instance where your users work.
 
-   ![](assets/instances-350x232.png)
+   ![](assets/instances.png)
 
    >[!TIP]
    >
@@ -65,7 +65,7 @@ Before using the Admin Console for Workfront, you should receive a receive an em
 
 1. In the list that displays, with the **Product Profiles** tab selected, click the name of the Workfront Product Profile link.
 
-   ![](assets/prod-profile-350x127.png)
+   ![](assets/prod-profile.png)
 
    This list includes all users that are already assigned to your Production instance of Workfront.
 
@@ -107,7 +107,7 @@ You must add a user to your Production instance of Workfront before you can make
 1. Select **Add Admin**.
 1. In the **Add product profile administrators** box, enter the email addresses or names of the administrators you want to add, then select **Save**.
 
-   ![](assets/add-admin-350x124.png)
+   ![](assets/add-admin.png)
 
    The system administrators are created in Workfront.
 

@@ -7,14 +7,6 @@ draft: Probably
 
 As an Adobe Workfront administrator, you can use an access level to define a user's access to teams in Workfront, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
->[!NOTE]
->
->This functionality, releasing with 2022.1, does not change your users' existing access to teams. For more information, see [How users' existing access to teams remains unchanged in the 2022.1 Teams access level setting](#how-users-existing-access-to-teams-remains-unchanged-in-the-2022-1-teams-access-level-setting) in this article.
-
-<!--
-Remove this note and the referenced section below a few months after the functionality releases
--->
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 
@@ -52,10 +44,9 @@ You must have the following access to perform the steps in this article:
         <tr>
          <td role="rowheader">View teams associated with my groups</td>
          <td>
-          <ul>
-           <li><p>Enabled: When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups whether or not they are team members. </p></li>
-           <li><p>Disabled: When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups only where they are team members</p><p>This option is enabled by default.</p></li>
-          </ul></td>
+          <p><b>Enabled</b>: When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups whether or not they are team members. </p>
+          <p><b>Disabled</b>: When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups only where they are team members</p><p>This option is enabled by default.</p>
+          </td>
         </tr>
         <tr>
          <td role="rowheader">View all teams</td>
@@ -89,10 +80,9 @@ You must have the following access to perform the steps in this article:
         <tr>
          <td role="rowheader">View teams associated with my groups</td>
          <td>
-          <ul>
-           <li><p>Enabled: When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups whether or not they are team members. </p></li>
-           <li><p>Disabled: When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups only where they are team members</p><p>This option is enabled by default.</p></li>
-          </ul></td>
+         <p><b>Enabled</b> When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups whether or not they are team members. </p>
+         <p><b>Disabled</b>: When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups only where they are team members</p><p>This option is enabled by default.</p>
+         </td>
         </tr>
         <tr>
          <td role="rowheader">View all teams</td>
@@ -118,21 +108,3 @@ You must have the following access to perform the steps in this article:
 ## Access to teams by license type
 
 For information about what users in each access level can do with issues, see the section [Teams](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
-
-## How users' existing access to teams remains unchanged in the 2022.1 Teams access level setting {#how-users-existing-access-to-teams-remains-unchanged-in-the-2022-1-teams-access-level-setting}
-
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Remove this section a few months after the functionality releases</p>
--->
-
-In an access level, when you click the gear icon ![](assets/gear-icon-in-access-levels.png) on the View or Edit button for the new Teams setting, the options "View all teams" and "View teams associated with my groups," are:
-
-* Disabled if "View only companies, groups & teams they belong to" was enabled previously under "Set additional restrictions." 
-* Enabled if "View only companies, groups & teams they belong to" was *not* enabled previously under "Set additional restrictions."
-
->[!TIP]
->
->To view the restriction "View only companies, groups & teams they belong to," click **Set additional restrictions** at the bottom of the Edit Access Level box.
->
->With the addition of the Teams feature in access levels, this restriction is renamed "View only companies & groups they belong to."
-

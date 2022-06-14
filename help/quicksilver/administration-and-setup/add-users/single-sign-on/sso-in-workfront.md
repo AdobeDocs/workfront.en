@@ -21,20 +21,18 @@ description: The functionality described on this page applies only to organizati
 Workfront provides a centrally managed single sign-on (SSO) configuration that easily integrates Workfront with your existing corporate SSO solution. This configuration is easy to set up and manage, and is available for both OnDemand and OnPremise Enterprise customers. 
 
 <!--
-<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">What are OnDemand and OnPremise Enterprise customers?</span>
+What are OnDemand and OnPremise Enterprise customers?
 -->
 
 In order to use the SSO functionality in Workfront, your organization needs to setup an SSO application, such as LDAP or Active Directory. You can then configure Workfront so that it can communicate with your SSO solution.
 
 Federated solutions allow users to log in to all their applications by entering their username and password in a centralized login portal.
 
-![](assets/overview-sso-wf-350x256.png)
+![](assets/overview-sso-wf.png)
 
 >[!NOTE]
 >
 >This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
-
->[!NOTE]
 >
 >Although Adobe Workfront supports integration with an SSO system, it is outside of the scope of Workfront Support and the Workfront Customer Support team to assist in the configuration of your internal authentication system.
 

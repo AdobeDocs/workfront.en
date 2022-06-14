@@ -57,7 +57,7 @@ Keep the following in mind when mapping attributes:
 
 1. Click **Map User Attributes**.
 
-   ![](assets/map-user-attributes-350x253.png)
+   ![](assets/map-user-attributes.png)
 
 1. (Optional) If you want Workfront to create new users from your Active Directory automatically, click **Auto-Provision User**.
 
@@ -91,17 +91,11 @@ Keep the following in mind when mapping attributes:
      </tr> 
      <tr> 
       <td role="rowheader">Directory Attribute</td> 
-      <td>Type the SSO attribute label you want to use.<!--
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-         <span class="PinkDraftNote">Is this right? I'd like to explain this and “Default Value” and their relationship. I'm trying to keep new/unexperienced sysadmins in mind.</span> 
-        </MadCap:conditionalText>
-       --></td> 
+      <td>Type the SSO attribute label you want to use./td> 
      </tr> 
      <tr> 
       <td role="rowheader">Default Value</td> 
-      <td> <p>After you choose a Workfront User Attribute, if the value is NULL during the connection, this field fills in with the corresponding default value in the system. Type a value here only if you plan to apply attribute mapping rules (see step 7). The default value acts as an exception to those rules. <!--
-         <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Is this right?</span>
-        --></p> </td> 
+      <td> <p>After you choose a Workfront User Attribute, if the value is NULL during the connection, this field fills in with the corresponding default value in the system. Type a value here only if you plan to apply attribute mapping rules (see step 7). The default value acts as an exception to those rules.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -111,7 +105,7 @@ Keep the following in mind when mapping attributes:
    1. In the drop-down, choose the attribute modifier you want to use.
    1. In the 2 fields to the right, type the directory attribute value and the value you want to replace it with.
 
-      ![](assets/rule-fields-350x64.png)
+      ![](assets/rule-fields.png)
 
    You can click **Add Rule** to add more rules to the attribute.
 

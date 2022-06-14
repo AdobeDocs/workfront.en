@@ -11,7 +11,7 @@ description: As an Adobe Workfront administrator, you can create custom access l
 # Create or modify custom access levels
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">** Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.</p>
+Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.
 -->
 
 As an Adobe Workfront administrator, you can create custom access levels and apply them to users, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
@@ -93,7 +93,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Custom forms</td> 
-      <td>Create and manage all custom forms within their group. <br><p>Without this access, users can only&nbsp;attach existing forms to the objects they have access to contribute or manage.</p></td> 
+      <td>Create and manage all custom forms within their group. <br><p>Without this access, users can only attach existing forms to the objects they have access to contribute or manage.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exchange rates</td> 
@@ -121,11 +121,11 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Milestones in my group</td> 
-      <td>View all the milestone paths in the system under the Milestone Paths menu in Setup. Users can also edit or&nbsp;delete any milestone paths belonging to any of their&nbsp;groups. Users cannot manage (edit or delete) milestone paths that are not assigned to their of groups.<p>Without this access, users can only view existing milestone paths and apply them to projects they have access to manage.</p></td> 
+      <td>View all the milestone paths in the system under the Milestone Paths menu in Setup. Users can also edit or delete any milestone paths belonging to any of their groups. Users cannot manage (edit or delete) milestone paths that are not assigned to their of groups.<p>Without this access, users can only view existing milestone paths and apply them to projects they have access to manage.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Reminder notifications</td> 
-      <td>Create and manage reminder notifications in Workfront.<br>Without this access, users are limited to receiving and viewing notifications.</td> 
+      <td>Create and manage reminder notifications in Workfront.<p>Without this access, users are limited to receiving and viewing notifications.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Timesheets &amp; hours</td> 
@@ -160,7 +160,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">View only updates in which they have been included in the conversation</td> 
-      <td> <p>Enables users to see only comments where their name or the name of their team has been included.</p> <p> <p><b>NOTE</b>: This prevents&nbsp;users from subscribing to items in Workfront. For more information about subscribing to items, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a>.</p> </p> </td> 
+      <td> <p>Enables users to see only comments where their name or the name of their team has been included.</p> <p> <p><b>NOTE</b>: This prevents users from subscribing to items in Workfront. For more information about subscribing to items, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Never allow users to delete comments </td> 

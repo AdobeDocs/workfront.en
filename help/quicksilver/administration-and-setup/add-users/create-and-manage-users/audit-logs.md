@@ -39,7 +39,7 @@ The following fields are recorded in every audit log entry:
    <td> Action performed by the user, such as Change, Create, and Delete. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Object</strong> </td> 
+   <td role="rowheader">Object</td> 
    <td> Name of the object affected as a result of the action. </td> 
   </tr> 
   <tr> 

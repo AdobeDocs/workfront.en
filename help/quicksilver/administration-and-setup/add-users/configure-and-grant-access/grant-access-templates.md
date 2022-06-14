@@ -60,12 +60,10 @@ For information about what users in each access level can do with templates, see
 As the owner or creator of an issue, you can share with other users by granting them permissions to it, as explained in [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 <!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:</p>
-<p style="color: #ff1493;">* reports, dashboards, and calendars</p>
-<p style="color: #ff1493;">* financial data</p>
-<p style="color: #ff1493;">* issue</p>
-</div>
+If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:
+* reports, dashboards, and calendars
+* financial data
+* issue
 -->
 
 When you share any object with another user, the recipient's rights on it are determined by a combination of two things:
