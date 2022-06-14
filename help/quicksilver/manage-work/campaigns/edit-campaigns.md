@@ -12,6 +12,12 @@ description: You can edit information about a campaign.
 >
 >The information in this article is available when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
 
+You can edit information about a campaign after it is created. 
+
+A campaign is a new object in Adobe Workfront that allows you to organize work across multiple projects. A campaign is a larger work object than projects, similar but not identical to portfolios or programs.  A campaign can be  associated with multiple projects that may or may not belong to different portfolios or programs.
+
+For information about creating campaigns, see [Create campaigns](create-campaigns.md). 
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -76,14 +82,14 @@ Before you begin you must have the following:
 1. Click [!UICONTROL **Overview**] in the left panel.
 1. Update or review the following information:
     * [!UICONTROL **Description**]: Add additional information about the campaign.
-    * [!UICONTROL **Campaign Owner**]: By default, the Campaign Owner is the user who created the campaign. When you replace the original owner of the campaign with another user, the user you specify is automatically given permissions to edit the campaign. The user who is designated as the Campaign Owner must be a Workfront active user. 
+    * [!UICONTROL **Campaign Owner**]: By default, the [!UICONTROL Campaign Owner] is the user who created the campaign. When you replace the original owner of the campaign with another user, the user you specify is automatically given permissions to edit the campaign. The user who is designated as the [!UICONTROL Campaign Owner] must be a Workfront active user. 
     
     >[!TIP]
     >
     > You can update the Campaign Owner in the campaign header.
 
-    * [!UICONTROL **Entry Date**]: This is the date when the campaign was created. You cannot edit the Entry Date.
-    * [!UICONTROL **Entered By**]: This is the name of the user who created the campaign. You cannot edit the Entered By field.
-    * [!UICONTROL **Last Update Date**]: This is the date when the campaign was last updated. You cannot edit the Last Update Date.
-    * [!UICONTROL **Last Updated By**]: This is the name of the user who updated the campaign last. You cannot edit the Last Updated By field.
+    * [!UICONTROL **Entry Date**]: This is the date when the campaign was created. You cannot edit the [!UICONTROL Entry Date].
+    * [!UICONTROL **Entered By**]: This is the name of the user who created the campaign. You cannot edit the [!UICONTROL Entered By ]field.
+    * [!UICONTROL **Last Update Date**]: This is the date when the campaign was last updated. You cannot edit the [!UICONTROL Last Update Date].
+    * [!UICONTROL **Last Updated By**]: This is the name of the user who updated the campaign last. You cannot edit the [!UICONTROL Last Updated By] field.
 1. Click [!UICONTROL **Save**].

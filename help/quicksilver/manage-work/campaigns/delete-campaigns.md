@@ -11,7 +11,9 @@ description: You can delete campaigns.
 >
 >The information in this article is available when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
 
-You can delete  that are no longer needed. Deleted  cannot be recovered. 
+You can delete campaigns that are no longer needed.
+
+For information about creating campaigns, see [Create campaigns](create-campaigns.md).
 
 ## Access requirements
 
@@ -33,9 +35,9 @@ When the access, permissions will be implemented for above, replace that *senten
 
 ## Prerequisites
 
-Before you begin you must have the following:
+Before you begin, you must have the following:
 
-* A System or Group administrator must add the Campaigns area to the layout template associated with you.
+* A System or Group administrator must add the [!UICONTROL Campaigns] area to the layout template associated with you.
 * You are the owner of the campaign 
 
     Or 

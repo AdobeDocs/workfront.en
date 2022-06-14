@@ -17,7 +17,11 @@ To centralize and align the work happening across multiple portfolios or program
 
 For example, you can capture the work necessary to complete a marketing campaign called "Summer campaign" that includes various projects across the organization. Each project might cover a limited scope (Social media project, Product readiness project, Stream advertising project, for example), but all of them are ultimately responsible for delivering the larger initiative of completing the Summer campaign. Associating all projects with the one campaign allows you to manage everything in one place.
 
-Because you can associate the same project with multiple campaigns, Adobe Workfront allows you to organize work both vertically and horizontally in your strategic roadmap and move away from the linear hierarchy you have been used to so far.
+>[!NOTE]
+>
+>A campaign is a new object in Adobe Workfront that allows you to organize work across multiple projects. A campaign is a larger work object than projects, similar but not identical to portfolios or programs. A campaign can be  associated with multiple projects that may or may not belong to different portfolios or programs.
+
+Because you can associate the same project with multiple campaigns, Workfront allows you to organize work both vertically and horizontally in your strategic roadmap and move away from the linear hierarchy you have been used to so far.
 
 For information about creating campaigns, see [Create campaigns](create-campaigns.md).
 
