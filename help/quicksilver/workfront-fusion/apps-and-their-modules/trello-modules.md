@@ -40,16 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -106,9 +97,7 @@ This trigger module begins a scenario when a new board is added.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>The maximum number of boards Workfront Fusion will return during one execution cycle.</p> <!--
-     <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">There's a snippet for this kind of row:Snippets/WF Fusion/Apps/ALL APPS/Field-Max Records.flsnp</p>
-    --> </td> 
+   <td> <p>The maximum number of boards Workfront Fusion will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,20 +130,11 @@ This action module creates a new board with the selected settings.
    <td role="rowheader"> <p>Permission level</p> </td> 
    <td> <p>Boards have different voting and commenting rules for each permission level. For example: if your board is Private and you set the voting and commenting rules as All, you receive an error. </p> <p>Voting and commenting is limited to the following groups for each permission level:</p> 
     <ul> 
-     <li><strong>Private</strong>: <!--
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Nobody, 
-       </MadCap:conditionalText>
+     <li><strong>Private</strong>: 
       -->Members, Members and Observers</li> 
-     <li><strong>For organization</strong>: <!--
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Nobody, 
-       </MadCap:conditionalText>
+     <li><strong>For organization</strong>: 
       -->Members, Members and Observers, Organization Members</li> 
-     <li><strong>Public</strong>: <!--
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Nobody, 
-       </MadCap:conditionalText>
+     <li><strong>Public</strong>: 
       -->Members, Members and Observers, Organization Members, All</li> 
     </ul> </td> 
   </tr> 
@@ -241,20 +221,11 @@ This action module edits the settings of an existing board.
    <td role="rowheader"> <p>Permission level</p> </td> 
    <td> <p>Boards have different voting and commenting rules for each permission level. For example: if your board is Private and you set the voting and commenting rules as All, you receive an error. </p> <p>Voting and commenting is limited to the following groups for each permission level:</p> 
     <ul> 
-     <li><strong>Private</strong>: <!--
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Nobody, 
-       </MadCap:conditionalText>
+     <li><strong>Private</strong>: 
       -->Members, Members and Observers</li> 
-     <li><strong>For organization</strong>: <!--
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Nobody, 
-       </MadCap:conditionalText>
+     <li><strong>For organization</strong>: 
       -->Members, Members and Observers, Organization Members</li> 
-     <li><strong>Public</strong>: <!--
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Nobody, 
-       </MadCap:conditionalText>
+     <li><strong>Public</strong>: 
       -->Members, Members and Observers, Organization Members, All</li> 
     </ul> </td> 
   </tr> 
@@ -346,9 +317,7 @@ This search module retrieves information about a board that you specify .
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned boards</td> 
-   <td> <p> Enter the maximum number of boards Workfront Fusion will return during one execution cycle. This value must be less than or equal to 1000.</p> <!--
-     <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Could use the snippet Resources/Snippets/WF Fusion/Apps/ALL APPS/Field-Max Records.flsnp here. You insert the snippet, right-click it, click Snippet Variables, then type “boards” and “return” directly into the fields for the variables “Fusion-Record” and “FusionAction.”</p>
-    --> </td> 
+   <td> <p> Enter the maximum number of boards Workfront Fusion will return during one execution cycle. This value must be less than or equal to 1000.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Partial </p> </td> 
@@ -454,10 +423,6 @@ This action module removes a member from a board.
 
 This trigger module activates when a card is moved to a specific list.
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">could use this snippet here: Snippets/WF Fusion/Apps/ALL APPS/this-trigger-module.flsnp</p>
--->
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -476,9 +441,7 @@ This trigger module activates when a card is moved to a specific list.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>The maximum number of cards Workfront Fusion will return during one execution cycle.</p> <!--
-     <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">could this snippet here: Snippets/WF Fusion/Apps/ALL APPS/Field-Max Records.flsnp</p>
-    --> </td> 
+   <td> <p>The maximum number of cards Workfront Fusion will return during one execution cycle.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -532,9 +495,7 @@ This action module edits an existing list.
   </tr> 
   <tr> 
    <td role="rowheader">List ID</td> 
-   <td> <p> Enter or map the ID of the list you want to update.</p> <!--
-     <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Snippets/WF Fusion/Apps/ALL APPS/Field-ID.flsnp</p>
-    --> </td> 
+   <td> <p> Enter or map the ID of the list you want to update.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name </td> 
@@ -797,18 +758,18 @@ This action module returns cards that match the search query.
    <td role="rowheader"> <p>Query</p> </td> 
    <td> <p>Enter the search query. You can refine your search using the following search operators:</p> 
     <ul> 
-     <li><pre><strong>-operator</strong></pre> <p>You can add “-” to any operator to do a negative search, such as <code>-has:members</code> to search for cards without any members assigned.</p> </li> 
-     <li><pre><strong>@name</strong></pre> <p>Returns cards assigned to a member. You can also use <code>member:</code>. Use <code>@me</code> to include only your cards.</p> </li> 
-     <li><pre><strong>#label</strong></pre> <p>Returns labeled cards. You can also use <code>label:</code>. For example, <code>label:"FIX IT"</code> will return cards with the label named “FIX IT”.</p> </li> 
-     <li><pre><strong>board:id</strong></pre> <p>Returns cards within a specific board. For example, <code>board:Trello</code> will return cards on boards with Trello in the board name.</p> </li> 
-     <li><pre><strong>list:name</strong></pre> <p>Returns cards within the list named “name”.</p> </li> 
-     <li><pre><strong>has:attachments</strong></pre> <p>Returns cards with attachments. The <code>has</code>: operator can also be used with other attributes, such as <code>has:description</code>, <code>has:cover</code>, <code>has:members</code>, or <code>has:stickers</code>.</p> </li> 
-     <li><pre><strong>due:day</strong></pre> <p>Returns cards due within 24 hours. The <code>due:</code> operator can also be used with other timeframes, such as <code>due:week</code>, <code>due:month</code>, or <code>due:overdue</code>. You can also search for a specific day range. For example, adding <code>due:14</code> to search includes cards due in the next 14 days.</p> </li> 
-     <li><pre><strong>created:day</strong></pre> <p>Returns cards created in the last 24 hours. The<code> created:</code> operator can also be used with other timeframes such as <code>created:week</code> or <code>created:month</code>. You can also search for a specific day range. For example, adding <code>created:14</code> to the search includes cards created in the last 14 days.</p> </li> 
-     <li><pre><strong>edited:day</strong></pre> <p>Returns cards edited in the last 24 hours. The <code>edited:</code> operator can also be used with other timeframes, such as <code>edited:week</code> or <code>edited:month</code>. You can also search for a specific day range. For example, adding <code>edited:21</code> to the search includes cards edited in the last 21 days.</p> </li> 
-     <li><pre><strong>description:</strong>, <strong>checklist:</strong>, <strong>comment:</strong>, and <strong>name:</strong></pre> <p>Returns cards matching the text of card descriptions, checklists, comments, or names. For example, comment:"FIX IT" will return cards with “FIX IT” in a comment.</p> </li> 
-     <li><pre><strong>is:open</strong> and <strong>is:archived</strong></pre> <p>Returns cards that are open or archived. If neither is specified, Trello returns both types.</p> </li> 
-     <li><pre><strong>is:starred</strong> </pre> <p>Only includes cards on starred boards.</p> </li> 
+     <li><code><strong>-operator</strong></code> <p>You can add “-” to any operator to do a negative search, such as <code>-has:members</code> to search for cards without any members assigned.</p> </li> 
+     <li><code><strong>@name</strong></code> <p>Returns cards assigned to a member. You can also use <code>member:</code>. Use <code>@me</code> to include only your cards.</p> </li> 
+     <li><code><strong>#label</strong></code> <p>Returns labeled cards. You can also use <code>label:</code>. For example, <code>label:"FIX IT"</code> will return cards with the label named “FIX IT”.</p> </li> 
+     <li><code><strong>board:id</strong></code> <p>Returns cards within a specific board. For example, <code>board:Trello</code> will return cards on boards with Trello in the board name.</p> </li> 
+     <li><code><strong>list:name</strong></code> <p>Returns cards within the list named “name”.</p> </li> 
+     <li><code><strong>has:attachments</strong></code> <p>Returns cards with attachments. The <code>has</code>: operator can also be used with other attributes, such as <code>has:description</code>, <code>has:cover</code>, <code>has:members</code>, or <code>has:stickers</code>.</p> </li> 
+     <li><code><strong>due:day</strong></code> <p>Returns cards due within 24 hours. The <code>due:</code> operator can also be used with other timeframes, such as <code>due:week</code>, <code>due:month</code>, or <code>due:overdue</code>. You can also search for a specific day range. For example, adding <code>due:14</code> to search includes cards due in the next 14 days.</p> </li> 
+     <li><code><strong>created:day</strong></code> <p>Returns cards created in the last 24 hours. The<code> created:</code> operator can also be used with other timeframes such as <code>created:week</code> or <code>created:month</code>. You can also search for a specific day range. For example, adding <code>created:14</code> to the search includes cards created in the last 14 days.</p> </li> 
+     <li><code><strong>edited:day</strong></code> <p>Returns cards edited in the last 24 hours. The <code>edited:</code> operator can also be used with other timeframes, such as <code>edited:week</code> or <code>edited:month</code>. You can also search for a specific day range. For example, adding <code>edited:21</code> to the search includes cards edited in the last 21 days.</p> </li> 
+     <li><code><strong>description:</strong>, <strong>checklist:</strong>, <strong>comment:</strong>, and <strong>name:</strong></code> <p>Returns cards matching the text of card descriptions, checklists, comments, or names. For example, comment:"FIX IT" will return cards with “FIX IT” in a comment.</p> </li> 
+     <li><code><strong>is:open</strong> and <strong>is:archived</strong></code> <p>Returns cards that are open or archived. If neither is specified, Trello returns both types.</p> </li> 
+     <li><code><strong>is:starred</strong> </code> <p>Only includes cards on starred boards.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1188,13 +1149,7 @@ This action module adds a comment to a selected card.
 
 ### How to find the ID or the shortlink of a card in Trello {#how-to-find-the-id-or-the-shortlink-of-a-card-in-trello}
 
-If you want to edit a card or create a new comment, you need to know the ID of the card or its shortlink. You can get this information from the output of the New Card trigger. The shortlink for a card can also be obtained by opening the card and clicking on the Share button. The shortlink can be found in the Link to this card box, at the end of the URL after 
-
-```
-https://trello.com/c/
-```
-
-.
+If you want to edit a card or create a new comment, you need to know the ID of the card or its shortlink. You can get this information from the output of the New Card trigger. The shortlink for a card can also be obtained by opening the card and clicking on the Share button. The shortlink can be found in the Link to this card box, at the end of the URL after `https://trello.com/c/`.
 
 ![](assets/share-and-more-350x575.png)
 
