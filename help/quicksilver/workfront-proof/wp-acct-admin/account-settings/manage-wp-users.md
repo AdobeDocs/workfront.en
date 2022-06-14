@@ -33,5 +33,3 @@ As a Workfront Proof administrator, you can view user settings and manage proof 
    {style="table-layout:auto"}
 
 1. (Optional) Click the **More** icon ![More_button_small.png](assets/more-button-small.png) to the right of the user's name, then click an option to view the user's details or to delete the user.
-
-For more information about managing users in Workfront Proof, see [Users.](https://support.workfront.com/hc/en-us/sections/115000911887-Users)
