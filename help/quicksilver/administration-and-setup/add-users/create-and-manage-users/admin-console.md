@@ -48,13 +48,13 @@ Before using the Admin Console for Workfront, you should receive a receive an em
 
 1. From the [Adobe Admin Console page](https://adminconsole.adobe.com/), select the **Products** tab in the top navigation bar, and then select the **Workfront** product tile.
 
-   ![](assets/admin-product.png)
+   ![](assets/admin-product-1.png)
 
 1. In the list that displays, select the link at the top.
 
    This is your Production instance where your users work.
 
-   ![](assets/instances.png)
+   ![](assets/instances-1.png)
 
    >[!TIP]
    >
@@ -65,7 +65,7 @@ Before using the Admin Console for Workfront, you should receive a receive an em
 
 1. In the list that displays, with the **Product Profiles** tab selected, click the name of the Workfront Product Profile link.
 
-   ![](assets/prod-profile.png)
+   ![](assets/prod-profile-1.png)
 
    This list includes all users that are already assigned to your Production instance of Workfront.
 
