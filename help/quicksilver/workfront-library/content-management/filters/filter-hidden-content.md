@@ -1,10 +1,10 @@
 ---
-filename: filter-hidden-content
 product-previous: workfront-library
 product-area: documents
 navigation-topic: filters
 title: Filter for hidden content in Workfront Library
 description: As a user with Manager or higher access to Workfront Library, you can enable a filter to display hidden content to which you have Manage permission. Users with Viewer access to Workfront Library cannot view hidden content.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Filter for hidden content in Workfront Library

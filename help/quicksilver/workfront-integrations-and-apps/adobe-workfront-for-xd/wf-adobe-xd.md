@@ -1,10 +1,10 @@
 ---
-filename: _wf-adobe-xd
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront for XD
 description: The Adobe Workfront plugin for XD allows you to - EDIT ME.
+feature: "Workfront Integrations and Apps, Digital Content and Documents"
 ---
 
 # Adobe Workfront for XD

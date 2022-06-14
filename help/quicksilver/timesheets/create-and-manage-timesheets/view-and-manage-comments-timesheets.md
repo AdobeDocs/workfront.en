@@ -1,9 +1,9 @@
 ---
-filename: view-and-manage-comments-timesheets
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: View and manage comments on a timesheet
 description: You can make comments on the following items in a timesheet - EDIT ME.
+feature: Timesheets
 ---
 
 # View and manage comments on a timesheet

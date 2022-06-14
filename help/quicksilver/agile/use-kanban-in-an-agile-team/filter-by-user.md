@@ -1,9 +1,9 @@
 ---
-filename: filter-by-user
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: Filter by user on the Kanban board
 description: You can use the filter on a Kanban board to see which work items are associated with other users and which are unassigned.
+feature: Agile
 ---
 
 # Filter by user on the Kanban board

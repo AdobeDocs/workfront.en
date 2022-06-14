@@ -1,9 +1,9 @@
 ---
-filename: create-templates-from-examples
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Create project templates from examples
 description: Create project templates from examples
+feature: Work Management
 ---
 
 # Create project templates from examples

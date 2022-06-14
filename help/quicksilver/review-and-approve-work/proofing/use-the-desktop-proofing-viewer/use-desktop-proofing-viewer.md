@@ -1,10 +1,10 @@
 ---
-filename: _use-desktop-proofing-viewer
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Use the Desktop Proofing Viewer
 description: Install the Desktop Proofing Viewer
+feature: Digital Content and Documents
 ---
 
 # Use the Desktop Proofing Viewer

@@ -1,11 +1,11 @@
 ---
-filename: log-in-change-password
 content-type: faq
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: faqs-workfront-proof
 title: Logging in and changing your password and email for Workfront Proof
 description: The Workfront Proof administrator can set up personalized branding for the Login page. See Brand the Workfront Proof site. Or, if you are using an Enterprise or Unlimited edition plan, see Brand the Workfront Proof site - advanced .
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Logging in and changing your password and email for Workfront Proof

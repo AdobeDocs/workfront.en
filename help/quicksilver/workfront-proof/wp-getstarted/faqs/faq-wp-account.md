@@ -1,11 +1,11 @@
 ---
-filename: faq-wp-account
 content-type: faq
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
 title: FAQ - Workfront Proof account
 description: To open a new account, go to the trial signup page and open a trial account. A member of our team will then get in touch with you to help you get started with Workfront Proof.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # FAQ - Workfront Proof account

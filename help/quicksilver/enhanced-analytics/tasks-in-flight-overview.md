@@ -1,11 +1,10 @@
 ---
-filename: tasks-in-flight-overview
-title: Tasks in flight overview
+title: View the Tasks in flight visualization in Enhanced analytics
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-title: View the Tasks in flight visualization in Enhanced analytics
 description: The Tasks in flight visualization shows how many tasks (within the applied filter criteria) are in progress for a project, the percentage of work completed for each task, and how on schedule the tasks are.
+feature: Reports and Dashboards
 ---
 
 # View the Tasks in flight visualization in Enhanced analytics

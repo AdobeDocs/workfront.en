@@ -1,5 +1,4 @@
 ---
-filename: box-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;documents
@@ -7,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Box modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Box, as well as connect it to multiple third-party applications and services. monitors a specified folder to check for file changes, to modify and delete existing files, or to upload new files to a folder.
+feature: Workfront Fusion
 ---
 
 # Box modules

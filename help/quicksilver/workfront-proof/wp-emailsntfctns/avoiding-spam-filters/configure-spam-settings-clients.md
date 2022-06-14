@@ -1,10 +1,10 @@
 ---
-filename: configure-spam-settings-clients
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: Configure spam settings for common email clients
 description: You can configure your email client to ensure that Workfront Proof emails are not sent to the spam folder.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Configure spam settings for common email clients

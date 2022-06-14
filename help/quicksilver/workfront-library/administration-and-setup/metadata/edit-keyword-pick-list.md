@@ -1,10 +1,10 @@
 ---
-filename: edit-keyword-pick-list
 product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Rename a keyword in Workfront Library
 description: As a Workfront Library administrator you can rename a keyword in the keyword picklist. For information about keywords, see Overview of keyword metadata in Workfront Library
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Rename a keyword in Workfront Library

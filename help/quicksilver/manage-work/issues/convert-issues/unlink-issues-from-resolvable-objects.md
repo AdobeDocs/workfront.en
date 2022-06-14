@@ -1,9 +1,9 @@
 ---
-filename: unlink-issues-from-resolvable-objects
 product-area: projects
 navigation-topic: convert-issues
 title: Unlink issues from their Resolving Objects
 description: When you create a project or a task by converting an issue to the project or task, you have the option to keep the original issue. Your Adobe Workfront administrator must enable this preference for you to have this option during the conversion of the issue. For more information about converting issues to projects and tasks, see Overview of converting issues in Adobe Workfront.
+feature: Work Management
 ---
 
 # Unlink issues from their Resolving Objects

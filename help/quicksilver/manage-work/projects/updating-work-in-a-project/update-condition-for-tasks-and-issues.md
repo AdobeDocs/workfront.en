@@ -1,9 +1,9 @@
 ---
-filename: update-condition-for-tasks-and-issues
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Update Condition for tasks and issues
 description: The Condition of a task or issue is a flag placed on it to indicate how it's going. This is different than the Status of the work item, which indicates the current stage of the development of the item.
+feature: Work Management
 ---
 
 # Update Condition for tasks and issues

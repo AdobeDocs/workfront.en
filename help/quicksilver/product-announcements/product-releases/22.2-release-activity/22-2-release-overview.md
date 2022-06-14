@@ -2,6 +2,7 @@
 title: 22.2 Release overview
 description: 22.2 Release overview
 draft: Probably
+feature: Product Announcements
 ---
 # 22.2 Release overview
 

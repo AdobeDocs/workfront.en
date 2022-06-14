@@ -1,10 +1,10 @@
 ---
-filename: relocate-assets
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Relocate assets in Workfront Library
 description: When you no longer want an item in a folder or in your My Content area, you can relocate it by first adding it to a new location and then removing it from its original location. You can relocate only items to which you have Manage access.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Relocate assets in Workfront Library

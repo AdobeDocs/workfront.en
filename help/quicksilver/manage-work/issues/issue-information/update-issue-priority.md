@@ -1,9 +1,9 @@
 ---
-filename: update-issue-priority
 product-area: projects
 navigation-topic: issue-information
 title: Update issue Priority
 description: You can define a priority for an issue to indicate how important the issue is.
+feature: Work Management
 ---
 
 # Update issue Priority

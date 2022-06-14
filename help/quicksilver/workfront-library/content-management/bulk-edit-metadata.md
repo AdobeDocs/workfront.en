@@ -1,10 +1,10 @@
 ---
-filename: bulk-edit-metadata
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Bulk edit metadata in Workfront Library
 description: Metadata consists of information that describes the attributes and content of an asset. Users can edit the metadata of multiple assets at once. For more information about metadata, see Overview of Metadata in Workfront Library.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Bulk edit metadata in Workfront Library

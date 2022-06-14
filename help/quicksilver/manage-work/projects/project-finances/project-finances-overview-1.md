@@ -1,10 +1,10 @@
 ---
-filename: project-finances-overview
 content-type: overview
 product-area: projects
 navigation-topic: financials
 title: Project finances fields
 description: Keeping track of project finances is critical to managing your projects.
+feature: Work Management
 ---
 
 # Project finances fields

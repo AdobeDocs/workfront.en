@@ -1,10 +1,10 @@
 ---
-filename: filter-content-displayed
 product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Filter content displayed in Workfront Library
 description: You can use filters to reduce the amount of content that displays in the Library and My Content areas. You can also use filters to narrow Search results. For information on using Search, see Search for items in Workfront Library.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Filter content displayed in Workfront Library

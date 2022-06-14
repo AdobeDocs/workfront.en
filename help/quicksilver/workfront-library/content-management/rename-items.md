@@ -1,10 +1,10 @@
 ---
-filename: rename-items
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Rename items in Workfront Library
 description: You can change the name of content, folders, and collections that you have access to.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Rename items in Workfront Library

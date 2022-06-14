@@ -1,10 +1,10 @@
 ---
-filename: grouping_home-group-project-owner-list-hours
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Grouping: Home Group of Project Owner in a list of hours"
 description: You can display the name of the Home Group of the Project Owner in an Hour list or report.
+feature: Reports and Dashboards
 ---
 
 # Grouping: Home Group of Project Owner in a list of hours

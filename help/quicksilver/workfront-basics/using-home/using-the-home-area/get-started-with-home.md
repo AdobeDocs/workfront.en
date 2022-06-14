@@ -1,9 +1,9 @@
 ---
-filename: get-started-with-home
 content-type: overview
 navigation-topic: use-the-home-area
 title: Get started with Home
 description: There are two ways to view your work in the Home area, either from the Work List or the Calendar.
+feature: Get Started with Workfront
 ---
 
 # Get started with Home

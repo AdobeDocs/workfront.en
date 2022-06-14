@@ -1,9 +1,9 @@
 ---
-filename: manage-user-allocations-workload-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Manage user allocations in the Workload Balancer
 description: As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
+feature: Resource Management
 ---
 
 # Manage user allocations in the Workload Balancer

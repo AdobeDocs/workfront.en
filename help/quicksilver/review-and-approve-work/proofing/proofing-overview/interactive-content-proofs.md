@@ -1,9 +1,9 @@
 ---
-filename: interactive-content-proofs
 product-area: documents
 navigation-topic: proofing-overview
 title: Interactive content proofs overview
 description: Interactive content provides multiple methods of engaging viewers. Agencies can measure the success of their campaigns using analytics gathered from responses to this content.
+feature: Digital Content and Documents
 ---
 
 # Interactive content proofs overview

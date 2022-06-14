@@ -1,10 +1,11 @@
 ---
-filename: configure-security-preferences
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
 title: Configure system security preferences
 description: Configure system security preferences
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Configure system security preferences

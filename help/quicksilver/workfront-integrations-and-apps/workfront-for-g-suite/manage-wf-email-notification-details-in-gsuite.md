@@ -1,10 +1,10 @@
 ---
-filename: manage-wf-email-notification-details-in-gsuite
 product-area: workfront-integrations
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
 title: Manage Adobe Workfront notification details from G Suite
 description: In G Suite, when you open a notification email Adobe Workfront has sent, you can view the associated work item details and respond without leaving your Inbox. If actions are available, such as approving a request, you can perform those actions directly from Workfront for G Suite.
+feature: Workfront Integrations and Apps
 ---
 
 # Manage Adobe Workfront notification details from G Suite

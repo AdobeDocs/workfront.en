@@ -1,9 +1,9 @@
 ---
-filename: communicate-with-project-team-members
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: Communicate with Project Team members
 description: You can easily communicate with the members of your project team through Adobe Workfront.
+feature: Work Management
 ---
 
 # Communicate with Project Team members

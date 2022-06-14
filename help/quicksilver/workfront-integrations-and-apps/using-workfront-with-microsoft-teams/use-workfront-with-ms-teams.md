@@ -1,10 +1,10 @@
 ---
-filename: _use-workfront-with-ms-teams
 content-type: reference
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront for Microsoft Teams
 description: Adobe Workfront Fusion offers an integration with Microsoft Teams. This article links to instructions for installing and configuring this integrations, as well as how to use it in your day-to-day work.
+feature: Workfront Integrations and Apps
 ---
 
 # Adobe Workfront for Microsoft Teams

@@ -1,10 +1,10 @@
 ---
-filename: open-a-collection
 product-previous: workfront-library
 product-area: documents
 navigation-topic: collections
 title: Open a collection in Workfront Library
 description: The Collections area in Workfront Library allows you to view and open all the collections that you have access to.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Open a collection in Workfront Library

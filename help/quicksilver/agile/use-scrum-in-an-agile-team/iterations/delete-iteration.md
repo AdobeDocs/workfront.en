@@ -1,9 +1,9 @@
 ---
-filename: delete-iteration
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Delete an iteration
 description: You can delete an iteration for your agile team if it is no longer needed.
+feature: Agile
 ---
 
 # Delete an iteration

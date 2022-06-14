@@ -1,9 +1,9 @@
 ---
-filename: remove-goal-alignment
 product-previous: workfront-goals
 navigation-topic: goal-alignment
 title: Remove goal alignment in Adobe Workfront Goals
 description: You can remove the alignment between two goals if it no longer makes sense for them to be connected.
+feature: Workfront Goals
 ---
 
 # Remove goal alignment in&nbsp;Adobe Workfront Goals

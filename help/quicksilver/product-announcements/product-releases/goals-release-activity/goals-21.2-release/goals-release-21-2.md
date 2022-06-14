@@ -1,10 +1,10 @@
 ---
-filename: goals-release-21-2
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
 title: Adobe Workfront Goals with the 21.2 release
 description: This page provides information about functionality for Adobe Workfront Goals in the new Adobe Workfront experience that is releasing to the Production environment with the 21.2 release.
+feature: "Product Announcements, Workfront Goals"
 ---
 
 # Adobe Workfront Goals with the 21.2 release

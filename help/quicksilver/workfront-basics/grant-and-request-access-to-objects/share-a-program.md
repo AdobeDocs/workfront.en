@@ -1,11 +1,10 @@
 ---
-filename: share-a-program
-title: Share a project
+title: Share a program
 product-area: projects
 keywords: share,program,permissions
 navigation-topic: grant-and-request-access-to-objects
-title: Share a program
 description: Your Adobe Workfront administrator can grant you access to view or edit programs when assigning your access level. You must have a Plan license to have access to edit a program. For more information, see Grant access to programs.
+feature: Get Started with Workfront
 ---
 
 # Share a program

@@ -1,10 +1,10 @@
 ---
-filename: share-an-asset-with-users
 product-previous: workfront-library
 product-area: documents;user-management
 navigation-topic: content-management
 title: Share a Workfront Library item with other users
 description: If you have Manage permission to a Workfront Library item, you can share it with other users and organizational units in Workfront Library and with external users.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Share a Workfront Library item with other users

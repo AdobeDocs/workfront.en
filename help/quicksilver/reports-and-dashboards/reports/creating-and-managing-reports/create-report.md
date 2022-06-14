@@ -1,9 +1,9 @@
 ---
-filename: create-report
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Create a report
 description: The information in this article has moved.
+feature: Reports and Dashboards
 ---
 
 # Create a report

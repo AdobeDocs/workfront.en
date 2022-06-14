@@ -1,9 +1,9 @@
 ---
-filename: remove-custom-smtp
 content-type: reference
 navigation-topic: announcements
 title: Remove custom SMTP as an outgoing email option
 description: With the 20.3 release (targeted for August 2020), Adobe Workfront is moving to a new email system that will greatly enhance the reliability of your email delivery for Workfront updates and notifications. As a result of this, customers will no longer be able to use their own SMTP email server to relay their email from the Workfront platform to the intended recipient. All email will be sent directly from the Workfront Mail Server.
+feature: Product Announcements
 ---
 
 # Remove custom SMTP as an outgoing email option

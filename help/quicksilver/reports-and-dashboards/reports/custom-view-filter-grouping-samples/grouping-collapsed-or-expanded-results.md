@@ -1,10 +1,10 @@
 ---
-filename: grouping-collapsed-or-expanded-results
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode"
 description: "Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode"
+feature: Reports and Dashboards
 ---
 
 # Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode

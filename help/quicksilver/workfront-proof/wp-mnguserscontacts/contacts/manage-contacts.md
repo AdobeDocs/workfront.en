@@ -1,10 +1,10 @@
 ---
-filename: manage-contacts
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
 title: Manage Your Contacts in Workfront Proof
 description: You can manage your colleagues, members, and guests on the Contacts page.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Manage Your Contacts in Workfront Proof

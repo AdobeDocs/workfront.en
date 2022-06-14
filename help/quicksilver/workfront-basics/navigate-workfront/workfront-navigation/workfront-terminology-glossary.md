@@ -1,9 +1,9 @@
 ---
-filename: workfront-terminology-glossary
 content-type: reference
 navigation-topic: workfront-navigation
 title: Glossary of Adobe Workfront terminology
 description: The following table is a list of commonly used terms in Adobe Workfront - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Glossary of Adobe Workfront terminology

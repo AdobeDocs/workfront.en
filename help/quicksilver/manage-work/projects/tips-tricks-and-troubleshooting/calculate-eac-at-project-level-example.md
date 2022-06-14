@@ -1,10 +1,10 @@
 ---
-filename: calculate-eac-at-project-level-example
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: Calculation example - calculate EAC at the Project Level
 description: PIM = Hour-Based
+feature: Work Management
 ---
 
 # Calculation example - calculate EAC at the Project Level

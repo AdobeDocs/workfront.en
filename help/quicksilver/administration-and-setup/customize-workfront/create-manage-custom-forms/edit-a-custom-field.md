@@ -1,10 +1,11 @@
 ---
-filename: edit-a-custom-field
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Edit properties of a custom field, section break, or widget in a custom form
 description: You can edit the properties of a custom field, section break, or widget that is used in custom form in your Adobe Workfront instance. These include the item's label, name, instructions, and so on.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Edit properties of a custom field, section break, or widget in a custom form

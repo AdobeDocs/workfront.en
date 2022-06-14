@@ -1,10 +1,10 @@
 ---
-filename: get-metadata-file-folder
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
 title: Get metadata for a file or folder
 description: Returns metadata for the specified file or folder.
+feature: "Workfront API, Digital Content and Documents"
 ---
 
 # Get metadata for a file or folder

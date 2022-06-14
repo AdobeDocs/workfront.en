@@ -1,11 +1,11 @@
 ---
-filename: share-access-to-a-custom-form
-title: Share a Custom Form
+title: Share a custom form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Share a custom form
 description: You can configure access for a custom form to control who—person, role, group, team, company—can view, share, and edit it.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Share a custom form

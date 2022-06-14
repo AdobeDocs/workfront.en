@@ -1,9 +1,9 @@
 ---
-filename: unassign-work-in-workload-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Unassign work in the Workload Balancer
 description: You can unassign users from work items in the Assigned Work area of the Adobe Workfront Workload Balancer, or reassign them to other users, roles, or teams.
+feature: Resource Management
 ---
 
 # Unassign work in the Workload Balancer

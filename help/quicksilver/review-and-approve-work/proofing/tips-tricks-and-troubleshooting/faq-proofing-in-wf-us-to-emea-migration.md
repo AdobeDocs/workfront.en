@@ -1,10 +1,10 @@
 ---
-filename: faq-proofing-in-wf-us-to-emea-migration
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: "FAQ: proofing within Adobe Workfront - US to EMEA migration"
 description: Adobe Workfront is directly contacting all organizations affected by the Workfront Proof US to EMEA migration.
+feature: Digital Content and Documents
 ---
 
 # FAQ: proofing within Adobe Workfront - US to EMEA migration

@@ -1,10 +1,10 @@
 ---
-filename: set-individual-deadlines
 content-type: reference
 product-area: documents
 navigation-topic: manage-proof-deadlines
 title: Set individual reviewer deadlines
 description: You can set different deadlines for different reviewers on a proof you have already created. This requires creating a separate stage for each reviewer for whom you want to set an individual deadline.
+feature: Digital Content and Documents
 ---
 
 # Set individual reviewer deadlines

@@ -1,10 +1,10 @@
 ---
-filename: tips-troubleshooting-reports
 content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: reports
 title: Tips, tricks, and troubleshooting for reports
 description: This section contains the following articles - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Tips, tricks, and troubleshooting for reports

@@ -1,9 +1,9 @@
 ---
-filename: simplified-left-navigation
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Left navigation in Adobe Workfront
 description: The left navigation panel in Workfront makes it easy to navigate through the system.
+feature: Get Started with Workfront
 ---
 
 # Left navigation in Adobe Workfront

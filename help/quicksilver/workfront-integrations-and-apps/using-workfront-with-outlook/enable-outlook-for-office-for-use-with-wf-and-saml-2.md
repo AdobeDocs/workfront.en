@@ -1,9 +1,9 @@
 ---
-filename: enable-outlook-for-office-for-use-with-wf-and-saml-2
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: Enable Outlook for Office for use with Adobe Workfront and SAML 2.0
 description: If your Adobe Workfront system is integrated with SAML 2.0, you must enable SAML 2.0 authentication for Office add-ins in order for users to be able to authenticate using their SAML 2.0 credentials.
+feature: Workfront Integrations and Apps
 ---
 
 # Enable Outlook for Office for use with Adobe Workfront and SAML 2.0

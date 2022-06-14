@@ -1,10 +1,10 @@
 ---
-filename: _manage-your-account-and-profile
 content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
 title: Manage your account and profile
 description: Review the articles in this section to learn how to manage your Workfront account and user profile.
+feature: Get Started with Workfront
 ---
 
 # Manage your account and profile

@@ -1,5 +1,4 @@
 ---
-filename: google-sheets-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;documents
@@ -7,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Sheets modules
 description: In order to use Google Sheets with Adobe Workfront Fusion,you need the Workfront Fusion Google Sheets extension (optional, but required for instant triggers).
+feature: "Workfront Fusion, Digital Content and Documents"
 ---
 
 # Google Sheets modules

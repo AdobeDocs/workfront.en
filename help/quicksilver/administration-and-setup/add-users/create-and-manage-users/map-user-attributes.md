@@ -1,11 +1,12 @@
 ---
-filename: map-user-attributes
 user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Map user attributes and auto-provision new users
 description: Using single sign-on (SSO), you can pass attributes from your identity provider's Active Directory to your Adobe Workfront users. You can also add new users to Workfront using the Auto-Provision option (also called Just In Time Provisioning or JIT).
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Map user attributes and auto-provision new users

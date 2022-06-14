@@ -1,9 +1,9 @@
 ---
-filename: enable-loop-video
 product-area: documents
 navigation-topic: review-a-proof
 title: Enable loop in a video proof
 description: You can configure the video to continuously loop (the video begins playing again after it finishes).
+feature: Digital Content and Documents
 ---
 
 # Enable loop in a video proof

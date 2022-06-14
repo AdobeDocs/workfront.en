@@ -1,11 +1,12 @@
 ---
-filename: user-sync-proofing
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
 title: User synchronization between Adobe Workfront and Workfront Proof
 description: User information is synchronized from Adobe Workfront to Workfront Proof; it is not synchronized from Workfront Proof to Workfront. Because of this, any time you create or modify users, you must make those changes within Workfront. You cannot make changes to users within Workfront Proof.
+feature: "System Setup and Administration, Digital Content and Documents"
+role: Admin
 ---
 
 # User synchronization between Adobe Workfront and Workfront Proof

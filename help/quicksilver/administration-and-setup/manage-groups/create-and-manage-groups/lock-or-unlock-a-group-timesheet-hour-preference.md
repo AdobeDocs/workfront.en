@@ -1,10 +1,11 @@
 ---
-filename: lock-or-unlock-a-group-timesheet-hour-preference
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Lock or unlock a group timesheet and hour preference
 description: If you are a group administrator, you can configure and then lock a timesheet and hour preference for your group after a Workfront administrator unlocks it at the system level.
+feature: "System Setup and Administration, People Teams and Groups"
+role: Admin
 ---
 
 # Lock or unlock a group timesheet and hour preference

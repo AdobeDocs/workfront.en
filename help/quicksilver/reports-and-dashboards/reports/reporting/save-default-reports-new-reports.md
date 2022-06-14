@@ -1,9 +1,9 @@
 ---
-filename: save-default-reports-new-reports
 product-area: reporting
 navigation-topic: reporting-navigation-topic
 title: Save default reports as new reports
 description: You can modify a copy of a default report that is included with your instance of Adobe Workfront and save it as a new report.
+feature: Reports and Dashboards
 ---
 
 # Save default reports as new reports

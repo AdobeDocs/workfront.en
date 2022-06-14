@@ -1,11 +1,11 @@
 ---
-filename: configure-document-integrations
 title: Configure document integrations
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-title: Configure document integrations
 description: Configure document integrations
+feature: "System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents"
+role: Admin
 ---
 
 # Configure document integrations

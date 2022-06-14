@@ -1,10 +1,10 @@
 ---
-filename: edit-proof-profile-bulk
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: Edit the Proof Permission Profile field in Bulk
 description: You must have the following access to perform the steps in this article - EDIT ME.
+feature: Digital Content and Documents
 ---
 
 # Edit the Proof Permission Profile field in Bulk

@@ -1,10 +1,10 @@
 ---
-filename: sso-in-wp-adfs-configuration
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: "Single Sign-On in Workfront Proof: AD FS configuration"
 description: If you are an administrator on your AD server, you can install and configure AD FS.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Single Sign-On in Workfront Proof: AD FS configuration

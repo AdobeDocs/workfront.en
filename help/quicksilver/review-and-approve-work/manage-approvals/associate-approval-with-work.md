@@ -1,9 +1,9 @@
 ---
-filename: associate-approval-with-work
 product-area: projects
 navigation-topic: approvals
 title: Associate a new or existing approval process with work
 description: This article describes how you can associate approval processes with work items. For information about associating approvals with proofs or documents, see the following articles - EDIT ME.
+feature: Work Management
 ---
 
 # Associate a new or existing approval process with work

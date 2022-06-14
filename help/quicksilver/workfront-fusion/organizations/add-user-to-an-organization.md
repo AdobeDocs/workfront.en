@@ -1,10 +1,10 @@
 ---
-filename: add-user-to-an-organization
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Add a user to an organization in Adobe Workfront Fusion
 description: This article includes information about the access and permissions of the roles in Adobe Workfront Fusion.
+feature: Workfront Fusion
 ---
 
 # Add a user to an organization in Adobe Workfront Fusion

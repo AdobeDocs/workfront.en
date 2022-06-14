@@ -2,6 +2,7 @@
 title: Share a link to a request queue
 description: Share a link to a request queue
 draft: Probably
+feature: Work Management
 ---
 # Share a link to a request queue
 

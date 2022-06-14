@@ -1,11 +1,11 @@
 ---
-filename: integrations-account-setup
 content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration;setup
 navigation-topic: account-settings-workfront-proof
 title: Account setup for integrations in Workfront Proof
 description: As a Workfront Proof administrator, you can configure Workfront Proof to integrate with Basecamp, Basecamp Classic, NetSuite, and Workfront.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Account setup for integrations in Workfront Proof

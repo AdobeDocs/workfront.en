@@ -1,5 +1,4 @@
 ---
-filename: frame-io-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
@@ -7,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Frame.io modules
 description: The Adobe Workfront Fusion Frame.io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your Frame.io account.
+feature: Workfront Fusion
 ---
 
 # Frame.io modules

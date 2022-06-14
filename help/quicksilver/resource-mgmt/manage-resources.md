@@ -1,10 +1,10 @@
 ---
-filename: _manage-resources
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Manage resources
 description: This section contains the following subsections - EDIT ME.
+feature: Resource Management
 ---
 
 # Manage resources

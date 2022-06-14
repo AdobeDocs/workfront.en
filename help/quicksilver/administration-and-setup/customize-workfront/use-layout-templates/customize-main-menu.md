@@ -1,11 +1,11 @@
 ---
-filename: customize-main-menu
-title: Customize the Main Menu using a Layout Template
+title: Customize the Main Menu using a layout template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-title: Customize the Main Menu using a layout template
 description: As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Customize the Main Menu using a layout template

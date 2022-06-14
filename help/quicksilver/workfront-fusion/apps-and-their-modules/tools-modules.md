@@ -1,11 +1,11 @@
 ---
-filename: tools-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Tools
 description: The Adobe Workfront Fusion Tools section includes several useful modules that can enhance your scenario.
+feature: Workfront Fusion
 ---
 
 # Tools
@@ -32,21 +32,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> <p>Workfront Fusion for Work Automation </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr>
  </tbody> 
 </table>
 
@@ -69,10 +60,16 @@ This module allows you to create a custom trigger and define its input bundles.
 
 You can use this module, for example, for contacts or any other list that is scheduled to be sent to a specified email address (such as Email > Send an Email, or Gmail > Send an Email modules), or as a simple reminder to be triggered whenever you want.
 
-| Bundle |Create custom bundles by adding array items. The array consists of the name - value pairs. |
-|---|---|
-
-{style="table-layout:auto"}
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bundle</td> 
+   <td> <p>Create custom bundles by adding array items. The array consists of the name - value pairs.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### Actions {#actions}
 
@@ -89,12 +86,6 @@ This module retrieves values that were previously created by the Set Variable or
 
 This module can read variables that were set anywhere in the scenario, even if the variable was set in a different route than where the Get Multiple Variables module is located. The only requirement is that the Tools >Set Variable or Tools > Set Multiple Variable module is executed before the Tools > Get Variable module. For more information on the order in which modules are executed, see [Router module in Adobe Workfront Fusion](../../workfront-fusion/modules/router-module.md).
 
-| Variables |Add the variables that you want the module to get. |
-|---|---|
-| Variable name |For each variable you add, map the name of the variable you want to get. |
-
-{style="table-layout:auto"}
-
 <table style="table-layout:auto">
     <tr>
         <td>Variables</td>
@@ -106,10 +97,12 @@ This module can read variables that were set anywhere in the scenario, even if t
     </tr>
 </table>
 
-**Examples:**  The following are possible uses of the Set/Get (multiple) variable(s) modules:
-
-* To store a calculated value for later use, even in a different route. This is useful in cases when the value is used in multiple modules and the formula to calculate the value is overly complex.
-* To debug a formula. If a formula used in a module does not seemingly provide a correct result, copy the formula and paste it into a Set Variable module that you insert before the relevant module. Disconnect the module(s) after the Set Variable module and execute the scenario. Verify the Set Variable module's output, adjust or simplify the formula, execute the scenario again, and continue to do so until the issue has been resolved.
+>[!INFO]
+>
+>**Examples:**  The following are possible uses of the Set/Get (multiple) variable(s) modules:
+>
+>* To store a calculated value for later use, even in a different route. This is useful in cases when the value is used in multiple modules and the formula to calculate the value is overly complex.
+>* To debug a formula. If a formula used in a module does not seemingly provide a correct result, copy the formula and paste it into a Set Variable module that you insert before the relevant module. Disconnect the module(s) after the Set Variable module and execute the scenario. Verify the Set Variable module's output, adjust or simplify the formula, execute the scenario again, and continue to do so until the issue has been resolved.
 
 #### Get Variable {#get-variable}
 
@@ -148,37 +141,27 @@ This module returns a value incremented by 1 after each module's operation.
  </tbody> 
 </table>
 
-**Example:** One of the module's uses is to implement a "round robin" assignment of tasks, leads, emails, and so on, to users in a group. The algorithm chooses the assignees from a group in some rational order, usually going from the top to the bottom of a list. When the algorithm reaches the end of the list, it would then give the next assignment to the user at the top of the list and continue to make assignments down the list.
-
-The following scenario sends an email to the first recipient after every odd-numbered scenario run, and to the second recipient after every even-numbered scenario run.
-
-![](assets/example-email-350x246.gif)
-
-1. To create this scenario: 
-1. Set the module's **Reset a value** field to Never.
-1. Set the route for odd values. Set the filter for this route using the modulus math function that equals 
-
-   ```
-   1
-   ```
-
-   :
-
-   ![](assets/odd-350x459.png)
-
-   >[!NOTE]
-   >
-   >Do not forget to change the Equal to operator from the default Text operator to the Numeric operator.
-
-1. Set the route for even values using the modulus math function that equals 
-
-   ```
-   0
-   ```
-
-   :
-
-The increment function adds one every time the scenario runs. The filters check the increment and act on its value, ensuring that the emails are evenly distributed.
+>[!INFO]
+>
+>**Example:** 
+>
+>One of the module's uses is to implement a "round robin" assignment of tasks, leads, emails, and so on, to users in a group. The algorithm chooses the assignees from a group in some rational order, usually going from the top to the bottom of a list. When the algorithm reaches the end of the list, it would then give the next assignment to the user at the top of the list and continue to make assignments down the list.
+>
+>The following scenario sends an email to the first recipient after every odd-numbered scenario run, and to the second recipient after every even-numbered scenario run.
+>
+>![](assets/example-email-350x246.gif)
+>
+>1. To create this scenario: 
+>1. Set the module's **Reset a value** field to Never.
+>1. Set the route for odd values. Set the filter for this route using the modulus math function that equals `1`:
+>
+>   ![](assets/odd-350x459.png)
+>
+>  **Note**: Do not forget to change the Equal to operator from the default Text operator to the Numeric operator.
+>
+>1. Set the route for even values using the modulus math function that equals `0`:
+>
+>The increment function adds one every time the scenario runs. The filters check the increment and act on its value, ensuring that the emails are evenly distributed.
 
 #### Set Multiple Variables {#set-multiple-variables}
 
@@ -305,10 +288,6 @@ This module allows you to retrieve numerical values, then apply one of the selec
  </tbody> 
 </table>
 
-**Example:** The module sums up values under the number parameter.
-
-![](assets/module-sums-up-values-350x186.gif)
-
 #### Table aggregator {#table-aggregator}
 
 This module merges values from the selected fields of received bundles into a single bundle using a specified column and row separator (which allows you to create a table).
@@ -375,7 +354,9 @@ This module merges values from the selected fields of received bundles into a si
  </tbody> 
 </table>
 
-**Example:** You can use the text aggregator to insert more values (for example, customer names or notes)into a single bundle and send an email containing all the values in the email body or the email subject.
+>[!INFO]
+>
+>**Example:** You can use the text aggregator to insert more values (for example, customer names or notes)into a single bundle and send an email containing all the values in the email body or the email subject.
 
 ### Transformers {#transformers}
 
@@ -460,32 +441,4 @@ Checks the input value for a match with the provided list of values. Returns out
   </tr> 
  </tbody> 
 </table>
-
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Execute a scenario</h3>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Status: PLANNED - see the Workaround section below.</p>
--->
-
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Workaround</h3>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Employ the HTTP modules >&nbsp;Make a request module in the main scenario to call the other scenario. Employ the <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref">Webhooks</a> > Custom webhook module in the other scenario to receive the call. Employ the <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref">Webhooks</a> > Webhook response module in the other scenario to return the response.</p>
--->
-
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Stop / Throw (an error)</h3>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">In some cases you may want to forcibly stop the scenario execution after the rollback or commit phase or stop the processing of a route and optionally store it in the queue of incomplete executions.</p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Status: PLANNED - see the Throw module.</p>
--->
 

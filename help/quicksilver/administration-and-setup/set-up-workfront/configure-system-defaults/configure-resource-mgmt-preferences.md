@@ -1,10 +1,11 @@
 ---
-filename: configure-resource-mgmt-preferences
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Configure Resource Management preferences
 description: "(CO: Linked to lots of articles for resource planning."
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Configure Resource Management preferences

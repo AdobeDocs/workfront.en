@@ -1,11 +1,11 @@
 ---
-filename: set-timezones-in-wp
 content-type: faq
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
 title: Setting time zones in Workfront Proof
 description: Workfront Proof displays the time when a proof was created and when any activity has taken place on the proof, such as deadlines, decisions, and comments. By default the time is displayed in GMT.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Setting time zones in Workfront Proof

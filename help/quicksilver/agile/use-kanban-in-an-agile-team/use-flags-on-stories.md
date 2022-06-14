@@ -1,9 +1,9 @@
 ---
-filename: use-flags-on-stories
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Use flags on stories on the Kanban board
 description: On the Kanban board, flags provide a visual indication of when a story is ready to move to the next status. This enables Kanban teams to use a "pull" approach rather than a "push" approach when moving stories across statuses.
+feature: Agile
 ---
 
 # Use flags on stories on the Kanban board

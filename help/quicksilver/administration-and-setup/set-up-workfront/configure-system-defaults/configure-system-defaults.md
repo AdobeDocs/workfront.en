@@ -1,11 +1,12 @@
 ---
-filename: _configure-system-defaults
 user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: Configure system defaults
 description: This section contains the following articles - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Configure system defaults

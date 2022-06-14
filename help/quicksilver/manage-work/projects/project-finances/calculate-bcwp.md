@@ -1,10 +1,10 @@
 ---
-filename: calculate-bcwp
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Budgeted Cost of Work Performed (BCWP)
 description: Also known as the Earned Value, the Budgeted Cost of Work Performed (BCWP) is a project performance metric that represents the amount of the task that has actually completed at the time when this metric is calculated.
+feature: Work Management
 ---
 
 # Calculate Budgeted Cost of Work Performed (BCWP)

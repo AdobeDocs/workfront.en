@@ -1,11 +1,11 @@
 ---
-filename: assign-user-as-group-administrator
-title: Assign a user as a Group Administrator
+title: Assign a user as a group administrator
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: group-roles
-title: Assign a user as a group administrator
 description: As a group administrator of a group, you can assign other users as group administrators for that group. Adobe Workfront administrators can also do this.
+feature: "System Setup and Administration, People Teams and Groups"
+role: Admin
 ---
 
 # Assign a user as a group administrator

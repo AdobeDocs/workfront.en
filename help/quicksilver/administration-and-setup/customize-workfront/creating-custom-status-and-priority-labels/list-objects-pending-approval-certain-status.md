@@ -1,10 +1,11 @@
 ---
-filename: list-objects-pending-approval-certain-status
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: List objects with a pending approval processes using a certain status
 description: If you try to delete a status, an error message might tell you that it can't be deleted because it's being used in pending approval processes on objects in your system. If you want to find and review those objects to decide what you need to do, you can run a report that lists them.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # List objects with a pending approval processes using a certain status

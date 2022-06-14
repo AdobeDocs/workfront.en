@@ -1,10 +1,10 @@
 ---
-filename: change-profile-settings
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
 title: Change profile settings in Adobe Workfront Fusion
 description: You can change information in your Adobe Workfront Fusion account profile.
+feature: Workfront Fusion
 ---
 
 # Change profile settings in Adobe Workfront Fusion

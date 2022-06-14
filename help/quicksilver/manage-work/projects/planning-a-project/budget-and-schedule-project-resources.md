@@ -1,9 +1,9 @@
 ---
-filename: budget-and-schedule-project-resources
 product-area: projects;resource-management
 navigation-topic: plan-a-project
 title: Budget and schedule project resources
 description: Budget and schedule project resources
+feature: Work Management
 ---
 
 # Budget and schedule project resources

@@ -1,9 +1,9 @@
 ---
-filename: add-a-subtask-to-an-existing-story
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Add a subtask to an existing story on the Kanban board
 description: Review this article to learn how to create subtasks for existing stories on the Kanban board.
+feature: Agile
 ---
 
 # Add a subtask to an existing story on the Kanban board

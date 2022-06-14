@@ -1,11 +1,11 @@
 ---
-filename: create-customize-issue-severities
-title: Create and customize issue severities
+title: Create or customize issue severities
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Create or customize issue severities
 description: Your users can use severities to define how serious an issue is. You can customize any of the five default severities existing in Adobe Workfront, or create a new severity for your users.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Create or customize issue severities

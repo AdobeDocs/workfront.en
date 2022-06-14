@@ -1,10 +1,10 @@
 ---
-filename: _use-workfront-for-slack
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront for Slack
 description: Adobe Workfront offers an integration with Slack. This article links to instructions about common use cases for this scenario, as well as instruction for configuration.
+feature: Workfront Integrations and Apps
 ---
 
 # Adobe Workfront for Slack

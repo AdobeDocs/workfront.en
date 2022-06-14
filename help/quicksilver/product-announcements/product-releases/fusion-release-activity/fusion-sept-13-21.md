@@ -2,6 +2,7 @@
 title: Workfront Fusion release activity:&nbsp;Week of September 13, 2021
 description: Workfront Fusion release activity:&nbsp;Week of September 13, 2021
 draft: Probably
+feature: "Product Announcements, Workfront Fusion"
 ---
 # Workfront Fusion release activity:&nbsp;Week of September 13, 2021
 

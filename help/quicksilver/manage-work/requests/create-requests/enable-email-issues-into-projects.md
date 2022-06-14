@@ -1,9 +1,9 @@
 ---
-filename: enable-email-issues-into-projects
 product-area: requests
 navigation-topic: create-requests
 title: Enable users to email an issue into a Request Queue project
 description: Enable users to email an issue into a Request Queue project
+feature: Work Management
 ---
 
 # Enable users to email an issue into a Request Queue project

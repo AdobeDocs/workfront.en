@@ -1,12 +1,12 @@
 ---
-filename: _customize-workfront
-title: Customize Workfront
+title: Customize Adobe Workfront
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: administration-and-setup
-title: Customize Adobe Workfront
 description: This section contains the following subsections - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Customize Adobe Workfront

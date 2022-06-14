@@ -1,10 +1,10 @@
 ---
-filename: _task-information
 content-type: reference
 product-area: projects
 navigation-topic: tasks
 title: Task information
 description: This section contains the following articles - EDIT ME.
+feature: Work Management
 ---
 
 # Task information

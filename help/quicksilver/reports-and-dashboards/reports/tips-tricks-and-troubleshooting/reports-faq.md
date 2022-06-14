@@ -1,10 +1,10 @@
 ---
-filename: reports-faq
 content-type: faq
 product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: Reports FAQs
 description: Reports FAQs
+feature: Reports and Dashboards
 ---
 
 # Reports FAQs

@@ -1,10 +1,10 @@
 ---
-filename: add-items-to-a-folder-library
 product-previous: workfront-library
 product-area: documents
 navigation-topic: folders
 title: Add items to a folder in Workfront Library
 description: You can add folders and content to any folder that you create or to a folder that has been shared with you. When you use the Add To feature to add items to a folder, you don't actually add the item to the folder. Instead, you add a link to the item. The item remains in its original location.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Add items to a folder in Workfront Library

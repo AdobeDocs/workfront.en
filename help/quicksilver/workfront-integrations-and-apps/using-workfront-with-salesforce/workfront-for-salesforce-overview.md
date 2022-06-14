@@ -1,10 +1,10 @@
 ---
-filename: workfront-for-salesforce-overview
 content-type: overview
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
 title: Adobe Workfront for Salesforce overview
 description: A Pro Workfront Plan is required to use this feature. For more information about the various plans available, see Workfront Plans.
+feature: Workfront Integrations and Apps
 ---
 
 # Adobe Workfront for Salesforce overview

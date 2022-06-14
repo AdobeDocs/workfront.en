@@ -1,10 +1,10 @@
 ---
-filename: create-and-manage-tags
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Create and Manage Tags in Workfront Proof
 description: You can create and edit tags and apply them to your proofs and files. This is great for when you have lots of different Workfront Proof items, such as projects, divisions, and clients, and you want to identify and find them easily.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Create and Manage Tags in Workfront Proof

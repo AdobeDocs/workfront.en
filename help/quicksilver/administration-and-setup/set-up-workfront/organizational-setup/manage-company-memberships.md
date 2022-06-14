@@ -1,10 +1,11 @@
 ---
-filename: manage-company-memberships
 user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: Manage company memberships
 description: In the Companies area in Setup, you can add and remove a company's members. You can also edit their user profiles, remind them to register in Workfront, deactivate them in Workfront, and remove them from the Workfront system.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Manage company memberships

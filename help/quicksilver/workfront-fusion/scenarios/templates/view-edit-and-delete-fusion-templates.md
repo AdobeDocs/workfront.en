@@ -1,10 +1,10 @@
 ---
-filename: view-edit-and-delete-fusion-templates
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: View, edit, and delete Adobe Workfront Fusion templates
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+feature: Workfront Fusion
 ---
 
 # View, edit, and delete Adobe Workfront Fusion templates

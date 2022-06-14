@@ -1,10 +1,10 @@
 ---
-filename: home-calendar-view
 content-type: overview
 product-area: calendars
 navigation-topic: use-the-home-area
 title: Home Calendar view
 description: Updated for QS except for section about expanding a work item in the list--this isn't working yet in QS.
+feature: Get Started with Workfront
 ---
 
 # Home Calendar view

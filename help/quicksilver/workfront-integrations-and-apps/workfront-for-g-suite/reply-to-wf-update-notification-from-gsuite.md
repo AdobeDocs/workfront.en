@@ -1,10 +1,10 @@
 ---
-filename: reply-to-wf-update-notification-from-gsuite
 product-area: workfront-integrations
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
 title: Reply to a Adobe Workfront update notification from G Suite
 description: When you receive a notification about an update in Adobe Workfront, you can quickly post a reply from Workfront for G Suite.
+feature: Workfront Integrations and Apps
 ---
 
 # Reply to a Adobe Workfront update notification from G Suite

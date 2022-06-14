@@ -1,10 +1,10 @@
 ---
-filename: _custom-view-filter-grouping-samples
 content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Custom View, Filter, and Grouping samples
 description: Custom View, Filter, and Grouping samplesTOC-proper article". I did not see much value in organizing this by objects.)"
+feature: Reports and Dashboards
 ---
 
 # Custom View, Filter, and Grouping samples

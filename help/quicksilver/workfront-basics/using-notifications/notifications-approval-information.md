@@ -1,9 +1,9 @@
 ---
-filename: notifications-approval-information
 content-type: reference
 navigation-topic: notifications
 title: "Notifications: Approval information"
 description: The following notifications alert you about approval activities happening on a work item you are involved with. For information about configuring which notifications you receive, see Activate or deactivate your own event notifications.
+feature: Get Started with Workfront
 ---
 
 # Notifications: Approval information

@@ -1,10 +1,10 @@
 ---
-filename: display-projects-in-wokrfont-view
 product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
 title: Display projects in Adobe Workfront View
 description: By default, the list of projects displayed in Adobe Workfront View shows the most recent 100 active projects. The list of projects is not grouped by any criteria.
+feature: Get Started with Workfront
 ---
 
 # Display projects in Adobe Workfront View

@@ -1,10 +1,10 @@
 ---
-filename: open-a-portal
 product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Open a Workfront Library portal
 description: When a Workfront Library administrator adds you to a portal, Workfront sends you an email invitation with a link that opens the portal.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Open a Workfront Library portal

@@ -1,9 +1,9 @@
 ---
-filename: my-updates-area
 product-area: projects
 navigation-topic: use-the-home-area
 title: Use the My Updates area
 description: Use the My Updates areaMy Work" folder that is conditioned for Classic only)"
+feature: Get Started with Workfront
 ---
 
 # Use the My Updates area

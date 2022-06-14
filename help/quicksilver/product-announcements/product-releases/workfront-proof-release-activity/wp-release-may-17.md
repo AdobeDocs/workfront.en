@@ -1,10 +1,10 @@
 ---
-filename: wp-release-may-17
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
 title: "Workfront Proof release activity: Week of May 17, 2021"
 description: This page describes changes made to the Workfront Proof (stand-alone proofing application). Changes described here are not applicable to the proofing functionality within the Adobe Workfront application.
+feature: "Product Announcements, Workfront Proof"
 ---
 
 # Workfront Proof release activity:&nbsp;Week of May 17, 2021

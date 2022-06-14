@@ -1,10 +1,10 @@
 ---
-filename: fusion-templates-faqs
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion templates FAQs
 description: This article addresses common questions about Adobe Workfront Fusion scenario templates.
+feature: Workfront Fusion
 ---
 
 # Adobe Workfront Fusion templates FAQs

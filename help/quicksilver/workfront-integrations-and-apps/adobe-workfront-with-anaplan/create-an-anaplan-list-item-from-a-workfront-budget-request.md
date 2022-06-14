@@ -1,9 +1,9 @@
 ---
-filename: create-an-anaplan-list-item-from-a-workfront-budget-request
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: Create an Anaplan list item from an Adobe Workfront budget request
 description: This integration scenario links an Adobe Workfront project (campaign) with an Anaplan budget list item. This is accomplished by adding a budget request to the Workfront project that needs to receive funding. This scenario watches for unprocessed budget requests, then executes a process to create an empty budget list item in Anaplan to kick off budget allocation processes in Anaplan.
+feature: "Workfront Integrations and Apps, Workfront Fusion"
 ---
 
 # Create an Anaplan list item from an Adobe Workfront budget request

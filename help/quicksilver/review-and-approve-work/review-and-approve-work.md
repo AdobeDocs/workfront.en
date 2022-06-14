@@ -1,10 +1,10 @@
 ---
-filename: _review-and-approve-work
 content-type: reference
 product-area: projects
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Review and approve work
 description: This section contains the following subsections - EDIT ME.
+feature: "Work Management, Digital Content and Documents"
 ---
 
 # Review and approve work

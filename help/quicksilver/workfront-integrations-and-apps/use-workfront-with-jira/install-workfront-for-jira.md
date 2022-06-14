@@ -1,9 +1,9 @@
 ---
-filename: install-workfront-for-jira
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-jira
 title: Install Adobe Workfront for Jira
 description: You can use Adobe Workfront for Jira to integrate your Jira and Workfront systems.
+feature: Workfront Integrations and Apps
 ---
 
 # Install Adobe Workfront for Jira

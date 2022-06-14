@@ -1,10 +1,10 @@
 ---
-filename: overview-scheduling-areas
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-scheduling
 title: Overview of the Scheduling areas
 description: Overview of the Scheduling areas
+feature: Resource Management
 ---
 
 # Overview of the Scheduling areas

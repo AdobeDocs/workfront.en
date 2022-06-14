@@ -1,9 +1,9 @@
 ---
-filename: determine-project-work-breakdown-structure
 product-area: projects
 navigation-topic: plan-a-project
 title: Determine Work Breakdown Structure in a project
 description: Defining a Work Breakdown Structure (WBS) for a project is a set of activities that ultimately outlines the project plan. The WBS divides the outcome of the project into manageable work elements, which can be used to define milestones and organize work assignments.
+feature: Work Management
 ---
 
 # Determine Work Breakdown Structure in a project

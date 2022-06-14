@@ -1,9 +1,9 @@
 ---
-filename: require-time-approval-for-projects
 product-area: projects
 navigation-topic: manage-projects
 title: Require time to be approved for a project
 description: Require time to be approved for a project
+feature: Work Management
 ---
 
 # Require time to be approved for a project

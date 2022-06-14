@@ -2,6 +2,8 @@
 title: Grant access to users
 description: Grant access to users
 draft: Probably
+feature: System Setup and Administration
+role: Admin
 ---
 # Grant access to users
 

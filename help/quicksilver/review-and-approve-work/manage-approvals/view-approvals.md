@@ -1,9 +1,9 @@
 ---
-filename: view-approvals
 product-area: projects
 navigation-topic: approvals
 title: View approvals
 description: Approval processes provide the flexibility to create multistep approvals for projects, tasks, and issues. Adobe Workfront administrators define approval processes to provide consistency throughout the system.
+feature: Work Management
 ---
 
 # View approvals

@@ -1,10 +1,11 @@
 ---
-filename: create-and-modify-a-groups-companies
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Create and modify a group's companies
 description: When you are viewing a group that you manage in the Groups area, you can view and work with companies associated with the group and any of its subgroups.
+feature: "System Setup and Administration, People Teams and Groups"
+role: Admin
 ---
 
 # Create and modify a group's companies

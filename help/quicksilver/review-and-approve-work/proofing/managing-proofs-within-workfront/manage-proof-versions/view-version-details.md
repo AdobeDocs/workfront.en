@@ -2,6 +2,7 @@
 title: View and manage proof version details
 description: View and manage proof version details
 draft: Probably
+feature: Digital Content and Documents
 ---
 # View and manage proof version details
 

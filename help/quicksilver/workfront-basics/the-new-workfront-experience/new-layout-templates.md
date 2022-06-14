@@ -1,10 +1,10 @@
 ---
-filename: new-layout-templates
 content-type: overview
 product-area: templates
 navigation-topic: the-new-workfront-experience
 title: New Layout Templates area in the new Adobe Workfront experience
 description: As a user with administrative access, you can create and edit Layout Templates to customize what your users see in Adobe Workfront. This process was completely redesigned with the new Adobe Workfront experience. The following information explains the key differences and new customization options.
+feature: Get Started with Workfront
 ---
 
 # New Layout Templates area in the new Adobe Workfront experience

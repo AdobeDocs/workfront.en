@@ -1,11 +1,11 @@
 ---
-filename: grant-access-projects
 title: Grant access to projects
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
-title: Grant access to projects
 description: As an Adobe Workfront administrator, you can use an access level to define a user's access to projects in Workfront, as explained in Access levels overview.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Grant access to projects

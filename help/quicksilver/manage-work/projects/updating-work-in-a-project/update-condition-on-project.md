@@ -1,9 +1,9 @@
 ---
-filename: update-condition-on-project
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Update Condition for a project
 description: The Condition of a project is a flag placed on it to indicate whether the work associated with it is going smoothly or whether you have encountered any roadblocks. This is different than the Status of the project, which indicates whether you are actively working on it or not.
+feature: Work Management
 ---
 
 # Update Condition for a project

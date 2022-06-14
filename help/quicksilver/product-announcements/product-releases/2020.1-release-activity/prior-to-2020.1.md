@@ -1,9 +1,9 @@
 ---
-filename: prior-to-2020.1
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
 title: Other Workfront Classic features released to Production prior to the 2020.1 release
 description: The following features were made available to the Workfront Classic Production environment prior to the 2020.1 release to Production.
+feature: Product Announcements
 ---
 
 # Other Workfront Classic features released to Production prior to the 2020.1 release

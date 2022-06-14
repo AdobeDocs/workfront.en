@@ -1,11 +1,11 @@
 ---
-filename: fusion-jan-4
 product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
 title: "Workfront Fusion release activity: Week of January 4, 2021"
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of January 4, 2021.
+feature: "Product Announcements, Workfront Fusion"
 ---
 
 # Workfront Fusion release activity:&nbsp;Week of January 4, 2021

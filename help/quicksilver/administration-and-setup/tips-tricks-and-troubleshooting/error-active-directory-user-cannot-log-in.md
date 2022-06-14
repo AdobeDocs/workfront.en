@@ -1,11 +1,12 @@
 ---
-filename: error-active-directory-user-cannot-log-in
 user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Error: Active Directory User Cannot Log In"
 description: A single user or only a few users are unable to Login to Adobe Workfront. They are receiving the following error - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Error: Active Directory User Cannot Log In

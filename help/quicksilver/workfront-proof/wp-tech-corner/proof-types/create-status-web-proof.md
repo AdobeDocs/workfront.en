@@ -1,10 +1,10 @@
 ---
-filename: create-status-web-proof
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: proof-types
 title: Create a Static Website Proof using Workfront Proof
 description: You can create static proofs from your web pages. In addition, you can simulate various devices by defining screen resolution of the captures.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Create a Static Website Proof using Workfront Proof

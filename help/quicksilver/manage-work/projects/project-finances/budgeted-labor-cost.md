@@ -1,10 +1,10 @@
 ---
-filename: budgeted-labor-cost
 content-type: reference
 product-area: projects
 navigation-topic: financials
 title: Understand Budgeted Labor Cost and Budgeted Hours for projects
 description: Understand Budgeted Labor Cost and Budgeted Hours for projects
+feature: Work Management
 ---
 
 # Understand Budgeted Labor Cost and Budgeted Hours for projects

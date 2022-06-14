@@ -1,9 +1,9 @@
 ---
-filename: filter-information-workload-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Manage filters in the Workload Balancer
 description: "NOTE: when they add custom fields to fitlering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down >> ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER)"
+feature: Resource Management
 ---
 
 # Manage filters in the Workload Balancer

@@ -1,9 +1,9 @@
 ---
-filename: make-decisions-on-proof
 product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Make a decision on a proof in the proofing viewer
 description: You can make a decision on a proof directly in the proofing viewer.
+feature: Digital Content and Documents
 ---
 
 # Make a decision on a proof in the proofing viewer

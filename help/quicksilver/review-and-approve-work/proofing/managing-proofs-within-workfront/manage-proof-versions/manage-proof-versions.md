@@ -1,10 +1,10 @@
 ---
-filename: _manage-proof-versions
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Manage proof versions
 description: Create a new version of a proof
+feature: Digital Content and Documents
 ---
 
 # Manage proof versions

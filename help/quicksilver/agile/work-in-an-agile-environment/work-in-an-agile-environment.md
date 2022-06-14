@@ -1,10 +1,10 @@
 ---
-filename: _work-in-an-agile-environment
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Work in an agile environment
 description: Review these articles to learn how to work in an agile environment.
+feature: Agile
 ---
 
 # Work in an agile environment

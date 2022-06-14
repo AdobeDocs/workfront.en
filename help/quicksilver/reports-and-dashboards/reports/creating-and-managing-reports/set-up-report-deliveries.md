@@ -1,9 +1,9 @@
 ---
-filename: set-up-report-deliveries
 product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: Report delivery overview
 description: Report delivery overview
+feature: Reports and Dashboards
 ---
 
 # Report delivery overview

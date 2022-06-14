@@ -1,9 +1,9 @@
 ---
-filename: event-subs-faq
 content-type: api;faq
 navigation-topic: general-api
 title: FAQs - Event Subscriptions
 description: FAQs - Event Subscriptions
+feature: Workfront API
 ---
 
 # FAQs - Event Subscriptions

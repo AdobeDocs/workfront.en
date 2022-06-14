@@ -1,9 +1,9 @@
 ---
-filename: manage-project-finance-area
 product-area: projects
 navigation-topic: financials
 title: Manage information in the project Finance area
 description: Manage information in the project Finance area
+feature: Work Management
 ---
 
 # Manage information in the project Finance area

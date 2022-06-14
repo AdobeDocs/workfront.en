@@ -1,9 +1,9 @@
 ---
-filename: create-and-edit-plans
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Create and edit plans in the Scenario Planner
 description: You can create plans as part of using the Workfront Scenario Planner, when prioritizing your company's higher-level strategy. For more information about plans, see Plans overview in the Scenario Planner.
+feature: Workfront Scenario Planner
 ---
 
 # Create and edit plans in the Scenario Planner

@@ -1,10 +1,10 @@
 ---
-filename: planned-hours
 content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Planned Hours overview
 description: The Planned Hours associated with a task, issue, or project represent the amount of time required for the assigned users to complete the task, issue, or project.
+feature: Work Management
 ---
 
 # Planned Hours overview

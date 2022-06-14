@@ -1,10 +1,10 @@
 ---
-filename: add-a-filter-to-a-scenario
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Add a filter to a scenario in Adobe Workfront Fusion
 description: In some scenarios, you need to work only with bundles that meet specific criteria. Filters allow you to select those bundles.
+feature: Workfront Fusion
 ---
 
 # Add a filter to a scenario in Adobe Workfront Fusion

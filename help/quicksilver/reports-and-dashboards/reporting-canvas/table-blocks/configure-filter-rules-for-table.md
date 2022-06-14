@@ -2,6 +2,7 @@
 title: Filter a table in Reporting Canvas
 description: Filter a table in Reporting Canvas
 draft: Probably
+feature: Reports and Dashboards
 ---
 # Filter a table in Reporting Canvas
 

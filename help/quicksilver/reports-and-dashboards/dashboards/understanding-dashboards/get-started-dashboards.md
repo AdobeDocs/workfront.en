@@ -1,10 +1,10 @@
 ---
-filename: get-started-dashboards
 content-type: overview
 product-area: dashboards
 navigation-topic: understand-dashboards
 title: Get started with dashboards
 description: The purpose of a dashboard is to provide quick access to information. You can gather information in reports and you can then place them on dashboards to make the information easier to access.
+feature: Reports and Dashboards
 ---
 
 # Get started with dashboards

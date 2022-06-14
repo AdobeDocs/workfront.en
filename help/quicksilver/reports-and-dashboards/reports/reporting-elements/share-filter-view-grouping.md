@@ -1,9 +1,9 @@
 ---
-filename: share-filter-view-grouping
 product-area: reporting
 navigation-topic: reporting-elements
 title: Share a filter, view, or grouping
 description: Share a filter, view, or grouping
+feature: Reports and Dashboards
 ---
 
 # Share a filter, view, or grouping

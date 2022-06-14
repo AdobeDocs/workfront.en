@@ -1,10 +1,11 @@
 ---
-filename: setting-up-automatic-reminders
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Set up automatic reminders
 description: Set up automatic reminders
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Set up automatic reminders

@@ -1,9 +1,9 @@
 ---
-filename: wf-cc-docs
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Upload documents from Adobe Photoshop
 description: You can upload your projects as documents for a quick review and approval or simply to store in Adobe Workfront.
+feature: "Workfront Integrations and Apps, Digital Content and Documents"
 ---
 
 # Upload documents from Adobe Photoshop

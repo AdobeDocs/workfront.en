@@ -1,11 +1,11 @@
 ---
-filename: license-automation-vs-integration
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion licenses
 description: Adobe Workfront Fusion offers two different licenses that determine the functionality you are able to access. Your organization chose one of these licenses when it purchased Workfront Fusion.
+feature: Workfront Fusion
 ---
 
 # Adobe Workfront Fusion licenses
