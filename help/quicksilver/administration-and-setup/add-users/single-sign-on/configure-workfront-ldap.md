@@ -21,7 +21,7 @@ description: Configure Adobe Workfront with LDAP
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
