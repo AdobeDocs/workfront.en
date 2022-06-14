@@ -1,10 +1,10 @@
 ---
-filename: manage-folders
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Manage Folders in Workfront Proof
 description: All of your folders are allocated in the left navigation sidebar on in the Folders tab. If a user from a different Workfront Proof account shares a folder with you (or shares proofs that are in a folder), the folder is also listed on the Folders tab.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Manage Folders in Workfront Proof

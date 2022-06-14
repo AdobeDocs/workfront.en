@@ -1,10 +1,10 @@
 ---
-filename: task-tracking-mode
 content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Task Tracking Mode overview
 description: You can adjust the Tracking Mode setting of a task when creating or editing a task to control how and when the Progress Status indicators of a task display. Adobe Workfront displays Progress Status flags when you configure certain settings for tracking progress on tasks.
+feature: Work Management
 ---
 
 # Task Tracking Mode overview

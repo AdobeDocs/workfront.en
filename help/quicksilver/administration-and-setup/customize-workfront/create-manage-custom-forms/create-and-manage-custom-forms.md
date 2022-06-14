@@ -1,12 +1,12 @@
 ---
-filename: _create-and-manage-custom-forms
-title: Create and manage Custom Forms
+title: Custom forms
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-title: Custom forms
 description: You can build a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Custom forms

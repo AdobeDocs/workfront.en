@@ -1,11 +1,11 @@
 ---
-filename: internal-external-review
 content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
 title: Internal Then External Review in Workfront Proof
 description: If your organization completes internal reviews before sharing proofs with clients, we suggest two ways you can use Workfront Proof to enhance your workflow - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Internal Then External Review in Workfront Proof

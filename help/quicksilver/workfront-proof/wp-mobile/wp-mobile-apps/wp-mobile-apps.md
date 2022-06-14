@@ -1,10 +1,10 @@
 ---
-filename: _wp-mobile apps
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: mobile-workfront-proof
 title: Workfront Proof mobile apps
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Workfront Proof mobile apps

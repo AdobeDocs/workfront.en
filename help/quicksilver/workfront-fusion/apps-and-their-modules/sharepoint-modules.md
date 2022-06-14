@@ -1,5 +1,4 @@
 ---
-filename: sharepoint-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
@@ -7,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: SharePoint modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use SharePoint, as well as connect it to multiple third-party applications and services.
+feature: Workfront Fusion
 ---
 
 # SharePoint modules
@@ -40,16 +40,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -392,11 +383,7 @@ This action module creates a new list in SharePoint.
 
 >[!NOTE]
 >
->APIs in the >
->```>
->beta
->```>
->version in Microsoft Graph are subject to change. The use of these APIs in production applications is not supported.
+>APIs in the `beta` version in Microsoft Graph are subject to change. The use of these APIs in production applications is not supported.
 
 #### Get a Page
 
@@ -465,7 +452,7 @@ This action module returns the data of a specified site.
    <td role="rowheader">Get a Site</td> 
    <td> <p>Select how you want to identify the page that you want to retrieve.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong>..</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong>.</p> </li> 
      <li> <p><strong>Select from the list</strong> </p> <p>Select the site that you want to retrieve.</p> </li> 
     </ul> </td> 
   </tr> 

@@ -1,9 +1,9 @@
 ---
-filename: task-finances-in-details
 product-area: projects
 navigation-topic: manage-tasks
 title: Manage task finances in the Task Details section
 description: Manage task finances in the Task Details section
+feature: Work Management
 ---
 
 # Manage task finances in the Task Details  section

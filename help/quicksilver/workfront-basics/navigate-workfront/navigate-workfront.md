@@ -1,9 +1,9 @@
 ---
-filename: _navigate-workfront
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Navigate Adobe Workfront
 description: This section contains the following subsections - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Navigate Adobe Workfront

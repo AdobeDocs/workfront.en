@@ -1,11 +1,11 @@
 ---
-filename: grant-access-goals
-title: Grant access to documents
+title: Grant access to Adobe Workfront Goals
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
-title: Grant access to Adobe Workfront Goals
 description: As an Adobe Workfront administrator, you can use an access level to define a user's access to Adobe Workfront Goals, as explained in Access levels overview.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Grant access to Adobe Workfront Goals

@@ -1,11 +1,11 @@
 ---
-filename: create-modify-access-levels
-title: Create or modify access levels
+title: Create or modify custom access levels
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
-title: Create or modify custom access levels
 description: As an Adobe Workfront administrator, you can create custom access levels and apply them to users.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Create or modify custom access levels

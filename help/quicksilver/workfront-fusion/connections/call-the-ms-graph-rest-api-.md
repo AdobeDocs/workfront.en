@@ -2,6 +2,7 @@
 title: Call the MS Graph REST API via the Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module
 description: Call the MS Graph REST API via the Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module
 draft: Probably
+feature: Workfront Fusion
 ---
 # Call the MS Graph REST API via the Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module
 

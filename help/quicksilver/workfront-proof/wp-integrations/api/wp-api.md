@@ -1,11 +1,11 @@
 ---
-filename: _wp-api
 content-type: api;reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
 title: Workfront Proof API
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Workfront Proof API

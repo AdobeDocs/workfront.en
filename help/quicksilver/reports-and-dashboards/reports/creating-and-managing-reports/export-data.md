@@ -1,9 +1,9 @@
 ---
-filename: export-data
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Export data
 description: Some of the reasons to export data are - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Export data

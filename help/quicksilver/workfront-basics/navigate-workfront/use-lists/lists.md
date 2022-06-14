@@ -1,8 +1,8 @@
 ---
-filename: _lists
 navigation-topic: navigate-workfront
 title: Lists in Adobe Workfront
 description: This section contains the following articles - EDIT ME.
+feature: Get Started with Workfront
 ---
 
 # Lists in Adobe Workfront

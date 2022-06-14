@@ -1,10 +1,10 @@
 ---
-filename: _task-duration-duration-type
 content-type: reference
 product-area: projects
 navigation-topic: tasks
 title: Task Duration and Duration Types
 description: This section contains the following articles - EDIT ME.
+feature: Work Management
 ---
 
 # Task Duration and Duration Types

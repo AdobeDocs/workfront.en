@@ -1,9 +1,9 @@
 ---
-filename: install-workfront-ms-teams
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-microsoft-teams
 title: Install Adobe Workfront for Microsoft Teams
 description: The Adobe Workfront for Microsoft Teams app allows you to perform basic actions in Workfront without leaving your Microsoft Teams chat channels.
+feature: Workfront Integrations and Apps
 ---
 
 # Install Adobe Workfront for Microsoft Teams

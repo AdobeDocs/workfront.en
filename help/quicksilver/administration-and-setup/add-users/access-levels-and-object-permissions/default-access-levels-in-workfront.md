@@ -1,5 +1,4 @@
 ---
-filename: default-access-levels-in-workfront
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -7,6 +6,8 @@ keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
 title: Built-in access levels in Adobe Workfront
 description: All 6 of the built-in access levels are designed for a particular type of user - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Built-in access levels in Adobe Workfront

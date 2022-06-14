@@ -1,11 +1,11 @@
 ---
-filename: portals-overview
 content-type: overview
 product-previous: workfront-library
 product-area: documents
 navigation-topic: portals
 title: Overview of Workfront Library portals
 description: Your organization can portals to gather, share, and manage related content while providing a branding experience for internal and external users. One of the advantages of using a portal is that you can distribute specific assets to users without giving them access to Workfront Library.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Overview of Workfront Library portals

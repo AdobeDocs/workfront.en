@@ -1,10 +1,10 @@
 ---
-filename: character-limits-in-fields
 content-type: reference
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Character limits in fields
 description: Certain fields in Adobe Workfront limit the number of characters that can be included in the field. Workfront indexes content so that it can be searched at a later time. A character limit is enforced in order to ensure high-quality performance of the Workfront system.
+feature: Get Started with Workfront
 ---
 
 # Character limits in fields

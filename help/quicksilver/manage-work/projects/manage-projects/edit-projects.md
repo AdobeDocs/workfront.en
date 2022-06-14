@@ -1,9 +1,9 @@
 ---
-filename: edit-projects
 product-area: projects
 navigation-topic: manage-projects
 title: Edit projects
 description: Edit projects
+feature: Work Management
 ---
 
 # Edit projects

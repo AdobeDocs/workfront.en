@@ -1,10 +1,10 @@
 ---
-filename: calculate-csi
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Cost Schedule Performance Index (CSI)
 description: Calculate Cost Schedule Performance Index (CSI)
+feature: Work Management
 ---
 
 # Calculate Cost Schedule Performance Index (CSI)

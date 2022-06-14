@@ -1,9 +1,9 @@
 ---
-filename: view-recent-items
 product-area: projects
 navigation-topic: recent-and-favorites
 title: View recent items
 description: The Recents menu is located on the top navigation bar. This menu shows recently viewed projects, reports, dashboards, tasks, issues, etc.
+feature: Get Started with Workfront
 ---
 
 # View recent items

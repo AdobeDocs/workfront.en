@@ -1,10 +1,9 @@
 ---
-filename: prioritize-projects-in-portfolio-optimizer
 title: Prioritize projects in the Portfolio Optimizer
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: Prioritize projects in the Portfolio Optimizer
 description: You can prioritize your projects in the Portfolio Optimizer, to establish the order in which they should be completed.
+feature: "Work Management, Strategic Planning"
 ---
 
 # Prioritize projects in the Portfolio Optimizer

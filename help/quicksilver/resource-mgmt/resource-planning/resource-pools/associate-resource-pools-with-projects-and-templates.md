@@ -1,9 +1,9 @@
 ---
-filename: associate-resource-pools-with-projects-and-templates
 product-area: resource-management
 navigation-topic: resource-pools
 title: Associate resource pools with projects and templates
 description: Associate resource pools with projects and templates
+feature: Resource Management
 ---
 
 # Associate resource pools with projects and templates

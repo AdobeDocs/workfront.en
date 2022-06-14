@@ -1,9 +1,9 @@
 ---
-filename: view-planed-hours-in-role-allocation-panel
 product-area: projects
 navigation-topic: plan-a-project
 title: View project Planned Hours in the Role Allocation panel
 description: You can view role allocation for all job roles assigned to work items in a project in the Role Allocation panel of the project.
+feature: Work Management
 ---
 
 # View project Planned Hours in the Role Allocation panel

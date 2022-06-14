@@ -1,11 +1,11 @@
 ---
-filename: assign-users-to-layout-template
-title: Assign users to a Layout Template
+title: Assign users to a layout template
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
-title: Assign users to a layout template
 description: As an Adobe Workfront administrator, you can assign a layout template you have created to any user, job role, team, or group who needs to use it.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Assign users to a layout template

@@ -1,10 +1,11 @@
 ---
-filename: preview-and-complete-a-custom-form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Preview and complete a custom form
 description: When you are finished building or editing a custom form, you can preview it to see how it will look to users, then save and close it.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Preview and complete a custom form

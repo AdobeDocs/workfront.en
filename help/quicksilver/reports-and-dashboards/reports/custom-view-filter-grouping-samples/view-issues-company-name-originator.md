@@ -1,10 +1,10 @@
 ---
-filename: view-issues-company-name-originator
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: issues with the company name of the originator"
 description: This issue view displays the company name associated with the user who submitted the issue.
+feature: Reports and Dashboards
 ---
 
 # View: issues with the company name of the originator

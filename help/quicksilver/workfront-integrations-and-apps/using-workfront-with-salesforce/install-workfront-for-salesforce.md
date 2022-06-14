@@ -1,9 +1,9 @@
 ---
-filename: install-workfront-for-salesforce
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
 title: Install Adobe Workfront for Salesforce
 description: To install the app before it becomes available in the Salesforce AppExchange, see Installing Workfront for Salesforce before It Becomes Available in the AppExchange Marketplace.
+feature: Workfront Integrations and Apps
 ---
 
 # Install Adobe Workfront for Salesforce

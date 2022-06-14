@@ -1,10 +1,10 @@
 ---
-filename: configure-sso-for-wp-users
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: Configure Single Sign-On for Workfront Proof users
 description: If you have the Select or Premium plan, you can provide Single Sign-On (SSO) capability that allows you to use your existing organization's username and password to access your Workfront Proof account.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Configure Single Sign-On for Workfront Proof users

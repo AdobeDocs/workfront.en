@@ -1,5 +1,4 @@
 ---
-filename: http-module-make-a-basic-auth-request
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
@@ -7,6 +6,7 @@ keywords: connector
 navigation-topic: http-modules
 title: HTTP > Make a Basic Authorization request module
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+feature: Workfront Fusion
 ---
 
 # HTTP > Make a Basic Authorization request module

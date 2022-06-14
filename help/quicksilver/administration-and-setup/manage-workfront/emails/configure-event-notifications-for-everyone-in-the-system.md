@@ -2,6 +2,8 @@
 title: Configure event notifications for everyone in the system
 description: Configure event notifications for everyone in the system
 draft: Probably
+feature: System Setup and Administration
+role: Admin
 ---
 # Configure event notifications for everyone in the system
 

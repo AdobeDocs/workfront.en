@@ -1,9 +1,9 @@
 ---
-filename: export-business-case
 product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Export the Business Case of a project
 description: You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format.
+feature: Work Management
 ---
 
 # Export the Business Case of a project

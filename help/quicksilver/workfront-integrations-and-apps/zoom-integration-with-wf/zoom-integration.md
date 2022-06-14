@@ -1,10 +1,10 @@
 ---
-filename: _zoom-integration
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Zoom integration
 description: This article links to information and instructions about using Zoom in Adobe Workfront. 
+feature: Workfront Integrations and Apps
 ---
 
 # Zoom integration

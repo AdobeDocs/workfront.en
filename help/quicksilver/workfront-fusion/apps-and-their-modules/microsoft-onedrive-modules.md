@@ -1,5 +1,4 @@
 ---
-filename: microsoft-onedrive-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;documents
@@ -7,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft OneDrive modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use OneDrive, as well as connect it to multiple third-party applications and services.
+feature: Workfront Fusion
 ---
 
 # Microsoft OneDrive modules

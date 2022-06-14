@@ -1,10 +1,10 @@
 ---
-filename: copy-proofs
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
 title: Copying Proofs in Workfront Proof
 description: Reviewers with edit rights on a proof can create a copy of the proof, either as a new version of the existing proof or as a new proof. (For more information, see . For information about edit rights, see Proof Permissions Profiles in Workfront Proof.)
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Copying Proofs in Workfront Proof

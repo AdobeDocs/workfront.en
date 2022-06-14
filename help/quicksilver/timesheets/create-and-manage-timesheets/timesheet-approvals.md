@@ -1,9 +1,9 @@
 ---
-filename: timesheet-approvals
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Approve a timesheet
 description: The process of approving timesheets provides managers with visibility into the work hours of their direct reports. Approvers can verify that all time recorded has been allocated in the correct areas and that a sufficient number of hours have been recorded for the period.
+feature: Timesheets
 ---
 
 # Approve a timesheet

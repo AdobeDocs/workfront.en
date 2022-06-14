@@ -2,6 +2,7 @@
 title: 22.2 Integration enhancements
 description: 22.2 Integration enhancements
 draft: Probably
+feature: "Product Announcements, Workfront Integrations and Apps"
 ---
 # 22.2 Integration enhancements
 

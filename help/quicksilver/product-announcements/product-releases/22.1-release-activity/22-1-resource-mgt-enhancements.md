@@ -2,6 +2,7 @@
 title: 22.1 Resource Management enhancements
 description: 22.1 Resource Management enhancements
 draft: Probably
+feature: Product Announcements
 ---
 # 22.1 Resource Management enhancements
 

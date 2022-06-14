@@ -1,10 +1,10 @@
 ---
-filename: sort-content-in-library
 product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Sort content in Workfront Library
 description: You can sort the items that display in an area in Workfront Library. You can sort only similar types of items. For example, when you sort content, all the content in the active area is sorted together. Folders are sorted together, separately from content. In the Collections area, collections in the My Collections section are sorted together, separately from the collections in the Collections Shared with Me section.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Sort content in Workfront Library

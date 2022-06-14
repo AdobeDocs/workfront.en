@@ -1,10 +1,10 @@
 ---
-filename: rename-docu-or-folder
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
 title: Rename a document or folder (not yet implemented)
 description: Renames a document or folder with the given ID in the external system.
+feature: "Workfront API, Digital Content and Documents"
 ---
 
 # Rename a document or folder (not yet implemented)

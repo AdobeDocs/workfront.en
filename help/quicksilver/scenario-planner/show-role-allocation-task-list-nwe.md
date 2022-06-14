@@ -1,9 +1,9 @@
 ---
-filename: show-role-allocation-task-list-nwe
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Show role allocation for projects and initiatives in the task list
 description: After you connect projects and initiatives, you can manage their resource allocation side-by-side to ensure they match. This avoids overallocating or underutilizing them.
+feature: Workfront Scenario Planner
 ---
 
 # Show role allocation for projects and initiatives in the task list

@@ -1,11 +1,11 @@
 ---
-filename: array-functions
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Array functions in Adobe Workfront Fusion
 description: The following array functions are available in the Adobe Workfront Fusion mapping panel.
+feature: Workfront Fusion
 ---
 
 # Array functions in Adobe Workfront Fusion

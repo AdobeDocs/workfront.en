@@ -2,6 +2,7 @@
 title: 21.4 Integration enhancements
 description: 21.4 Integration enhancements
 draft: Probably
+feature: "Product Announcements, Workfront Integrations and Apps"
 ---
 # 21.4 Integration enhancements
 

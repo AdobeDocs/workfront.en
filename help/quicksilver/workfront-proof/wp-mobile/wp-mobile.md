@@ -1,11 +1,11 @@
 ---
-filename: _wp-mobile
 content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof mobile
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Workfront Proof mobile

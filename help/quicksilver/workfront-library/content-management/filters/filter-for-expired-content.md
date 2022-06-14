@@ -1,10 +1,10 @@
 ---
-filename: filter-for-expired-content
 product-previous: workfront-library
 product-area: documents
 navigation-topic: filters
 title: Filter for expired content in Workfront Library
 description: Depending on how your Workfront Library administrator setup the Expiration feature, you might be able to view expired content by enabling the Show Expired filter. For more information on expired content, see Set up content expiration in Workfront Library.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Filter for expired content in Workfront Library

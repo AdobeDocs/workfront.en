@@ -1,11 +1,11 @@
 ---
-filename: _wp-integrations
 content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof integrations
 description: This section contains the following subsections - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Workfront Proof integrations

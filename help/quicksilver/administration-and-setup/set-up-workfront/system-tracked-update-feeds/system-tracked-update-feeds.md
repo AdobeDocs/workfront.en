@@ -1,11 +1,12 @@
 ---
-filename: system-tracked-update-feeds
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
 title: System-tracked updates
 description: Adobe Workfront captures the activity taking place on certain objects by logging status information in the object's Updates area.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # System-tracked updates

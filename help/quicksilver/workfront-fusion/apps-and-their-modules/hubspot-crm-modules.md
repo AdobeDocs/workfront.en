@@ -2,6 +2,7 @@
 title: HubSpot CRM modules
 description: HubSpot CRM modules
 draft: Probably
+feature: Workfront Fusion
 ---
 # HubSpot CRM modules
 

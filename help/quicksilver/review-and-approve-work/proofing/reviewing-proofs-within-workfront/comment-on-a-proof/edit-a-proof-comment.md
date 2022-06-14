@@ -1,9 +1,9 @@
 ---
-filename: edit-a-proof-comment
 product-area: documents
 navigation-topic: comment-on-a-proof
 title: Edit proof comments
 description: Comments cannot be edited after a reply is added to the comment. This restriction maintains the integrity of the comment thread. When you edit a comment, the time the comment was made is not affected.
+feature: Digital Content and Documents
 ---
 
 # Edit proof comments

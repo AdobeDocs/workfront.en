@@ -2,6 +2,7 @@
 title: Configure a table column in Reporting Canvas
 description: Configure a table column in Reporting Canvas
 draft: Probably
+feature: Reports and Dashboards
 ---
 # Configure a table column in Reporting Canvas
 

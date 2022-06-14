@@ -1,10 +1,10 @@
 ---
-filename: _burndown
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Burndown
 description: Review these articles to learn how to use the burndown chart.
+feature: Agile
 ---
 
 # Burndown

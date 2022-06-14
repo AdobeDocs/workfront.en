@@ -1,9 +1,9 @@
 ---
-filename: remove-project-from-program
 product-area: programs;projects
 navigation-topic: create and manage programs
 title: Remove a project from a program
 description: You may remove a project from a program and do one of the following - EDIT ME.
+feature: "Work Management, Strategic Planning"
 ---
 
 # Remove a project from a program

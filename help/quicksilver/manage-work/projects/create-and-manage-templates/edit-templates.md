@@ -1,9 +1,9 @@
 ---
-filename: edit-templates
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Edit project templates
 description: Edit project templatesWorking with Resource Pools" article)"
+feature: Work Management
 ---
 
 # Edit project templates

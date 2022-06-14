@@ -1,10 +1,10 @@
 ---
-filename: lag-types
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
 title: Overview of Lag Types
 description: Lag is the amount of time that must pass after the completion of an enforced predecessor until the dependent task can begin (Positive Lag), or the amount of time that a dependent task could start before the predecessor starts (Negative Lag).
+feature: Work Management
 ---
 
 # Overview of Lag Types

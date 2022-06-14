@@ -1,10 +1,10 @@
 ---
-filename: summary-for-documents
 content-type: reference
 product-area: documents
 navigation-topic: manage-documents
 title: Summary for documents overview
 description: The Summary allows you to interact with important information directly from the documents list.
+feature: Digital Content and Documents
 ---
 
 # Summary for documents overview

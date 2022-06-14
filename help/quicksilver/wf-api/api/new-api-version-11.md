@@ -1,9 +1,9 @@
 ---
-filename: new-api-version-11
 content-type: api
 navigation-topic: api-navigation-topic
 title: What's new in API version 11
 description: ReportableBudgedHour has been added to the Adobe Workfront API as a resource for Reporting. It features reference fields, core fields, and default fields that are absent in BudgetedHour.
+feature: Workfront API
 ---
 
 # What's new in API version 11

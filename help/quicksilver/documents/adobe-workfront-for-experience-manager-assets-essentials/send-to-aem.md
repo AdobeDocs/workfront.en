@@ -1,9 +1,9 @@
 ---
-filename: send-to-aem
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Send a Document to Experience Manager Assets Essentials
 description: You can send documents from Workfront to Experience Manager Assets Essentials. Documents uploaded and sent from Workfront to Assets Essentials still count against your overall document storage. Assets linked from Assets Essentials don't count towards overall storage.
+feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---
 
 # Send a Document to Experience Manager Assets Essentials

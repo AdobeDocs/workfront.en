@@ -1,11 +1,11 @@
 ---
-filename: content-versioning-overview
 content-type: overview
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-versioning
 title: Overview of content versioning in Workfront Library
 description: As a user with Manage permission to content, you can use Workfront Library to view and download all iterations of content through the versioning feature. Access older versions of content in Workfront Library
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Overview of content versioning in Workfront Library

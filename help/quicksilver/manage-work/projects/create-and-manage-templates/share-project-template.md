@@ -1,9 +1,9 @@
 ---
-filename: share-project-template
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Share project templates
 description: You can share a template with users, or you can define how the projects that are created from a template will be shared with users by using the following sharing options at the template level.
+feature: Work Management
 ---
 
 # Share project templates

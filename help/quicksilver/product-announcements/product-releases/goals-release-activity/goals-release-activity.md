@@ -1,10 +1,10 @@
 ---
-filename: goals-release-activity
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: product-releases
 title: Adobe Workfront Goals release activity
 description: With Adobe Workfront Goals, you can align strategy, goals, and work to drive execution across the organization and deliver measurable business outcomes. Define what you're going to accomplish and why it's important.
+feature: "Product Announcements, Workfront Goals"
 ---
 
 # Adobe Workfront Goals release activity

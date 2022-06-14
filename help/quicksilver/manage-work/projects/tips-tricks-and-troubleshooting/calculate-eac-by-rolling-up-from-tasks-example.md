@@ -1,10 +1,10 @@
 ---
-filename: calculate-eac-by-rolling-up-from tasks-example
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: Calculation example - Calculate EAC as a roll up from tasks
 description: PIM = Hour-Based
+feature: Work Management
 ---
 
 # Calculation example - Calculate EAC as a roll up from tasks

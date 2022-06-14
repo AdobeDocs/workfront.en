@@ -1,11 +1,11 @@
 ---
-filename: _troubleshooting
 content-type: tips-tricks-troubleshooting;reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tech-corner
 title: Troubleshooting in Workfront Proof
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Troubleshooting in Workfront Proof

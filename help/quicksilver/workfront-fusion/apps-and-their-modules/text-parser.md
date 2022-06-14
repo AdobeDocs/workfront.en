@@ -1,11 +1,11 @@
 ---
-filename: text-parser
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 navigation-topic: apps-and-their-modules
 title: Text parser
 description: You can use the Text parser tool to parse text for use in other Adobe Workfront Fusion scenario modules. The Text parser does not require a connection.
+feature: "Workfront Fusion, Digital Content and Documents"
 ---
 
 # Text parser
@@ -30,21 +30,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> <p>Workfront Fusion for Work Automation</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -232,10 +223,5 @@ Data scraping, sometimes called web scraping, data extraction, or web harvesting
 
 * [Apify](https://apify.com/) 
 * [Best Data Scraping Tools for 2019](https://www.octoparse.com/blog/best-data-scraping-tools-for-2019-top-10-reviews) 
-* [Web Data Extractors 2019](http://whitepapers.virtualprivatelibrary.net/Web Data Extractors.pdf)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="https://www.integromat.com/en/requests/feature-requests/p/email-text-parser-visual-tool">Email/Text Parser visual tool</a> (request)</p> </li>
-  -->
 
 If the data scraping tool provides a REST API, you can connect to it via our universal [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) and [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) modules. 

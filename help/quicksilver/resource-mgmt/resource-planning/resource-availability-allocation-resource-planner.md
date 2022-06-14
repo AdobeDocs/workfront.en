@@ -1,9 +1,9 @@
 ---
-filename: resource-availability-allocation-resource-planner
 product-area: resource-management
 navigation-topic: resource-planning
 title: Review resource availability and allocation using the Adobe Workfront Resource Planner
 description: You can view the availability of your resources and the amount of planned or budgeted work for your projects in the Resource Planner. These values are displayed in Hours, FTE (Full Time Equivalent), or Cost amounts and are organized in columns.
+feature: Resource Management
 ---
 
 # Review resource availability and allocation using the Adobe Workfront Resource Planner

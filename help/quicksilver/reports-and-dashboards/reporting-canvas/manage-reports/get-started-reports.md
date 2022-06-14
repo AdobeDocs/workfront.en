@@ -2,6 +2,7 @@
 title: Get started with Reporting Canvas
 description: Get started with Reporting Canvas
 draft: Probably
+feature: Reports and Dashboards
 ---
 # Get started with Reporting Canvas
 

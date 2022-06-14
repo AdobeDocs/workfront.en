@@ -1,9 +1,9 @@
 ---
-filename: document-reprocessing-for-proofing
 product-area: documents
 navigation-topic: proofing-overview
 title: Document reprocessing for proofing overview
 description: When you submit a document (DOCX, PDF, XLSX, AI) for proofing, Adobe Workfront reprocesses it so that it can display in the proofing viewer without the software application you used to create it.
+feature: Digital Content and Documents
 ---
 
 # Document reprocessing for proofing overview

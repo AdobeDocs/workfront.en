@@ -1,9 +1,9 @@
 ---
-filename: delete-plans
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Delete plans in the Scenario Planner
 description: You can delete plans that you created. You cannot delete plans that are shared with you.
+feature: Workfront Scenario Planner
 ---
 
 # Delete plans in the Scenario Planner

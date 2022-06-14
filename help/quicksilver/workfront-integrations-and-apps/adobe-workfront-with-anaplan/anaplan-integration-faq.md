@@ -1,9 +1,9 @@
 ---
-filename: anaplan-integration-faq
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: Adobe Workfront with Anaplan Integration FAQs
 description: Do I have to use Adobe Workfront Fusion?
+feature: "Workfront Integrations and Apps, Workfront Fusion"
 ---
 
 # Adobe Workfront with Anaplan Integration FAQs

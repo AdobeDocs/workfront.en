@@ -1,10 +1,10 @@
 ---
-filename: stages
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
 title: Automated Workflow Stages overview
 description: Proof stages are segments of time in which different users review a proof. As the proof moves from one stage to the next, Adobe Workfront notifies the reviewers to tell them when it's time to work on it.
+feature: Digital Content and Documents
 ---
 
 # Automated Workflow Stages overview

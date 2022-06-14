@@ -1,9 +1,9 @@
 ---
-filename: subtabs-removed
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Subtabs replaced by new main areas or filters in the new Adobe Workfront experience
 description: In the Classic version of Adobe Workfront, the multiple-level tabs make it sometimes difficult to find information and require time-consuming clicks. Some of the former tabs have been removed and some of them have been moved to a simpler, less-intrusive left navigation panel for several areas and objects.
+feature: Get Started with Workfront
 ---
 
 # Subtabs replaced by new main areas or filters in the new Adobe Workfront experience

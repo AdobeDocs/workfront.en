@@ -1,10 +1,10 @@
 ---
-filename: _manage-issues-overview
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
 title: Manage issues
 description: This section contains the following articles - EDIT ME.
+feature: Work Management
 ---
 
 # Manage issues

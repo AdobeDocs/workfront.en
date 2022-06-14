@@ -1,10 +1,10 @@
 ---
-filename: give-users-access-portal
 product-previous: workfront-library
 product-area: documents;user-management;system-administration
 navigation-topic: user-access
 title: Give users access to a Workfront Library portal
 description: Before users can open a Workfront Library portal, they must be given access to the portal. As a user with Manage access or higher to a portal, you can grant users the following types of access to the portal.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Give users access to a Workfront Library portal

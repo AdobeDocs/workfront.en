@@ -1,11 +1,11 @@
 ---
-filename: dashboard
 content-type: overview
 product-previous: workfront-proof
 product-area: documents;dashboard
 navigation-topic: basic-features-workfront-proof
 title: The Dashboard in Workfront Proof
 description: The Dashboard is the first page you see when you log in to your Workfront Proof account. It summarizes the activity in your Workfront Proof account and provides quick links to other sections and functions within Workfront Proof.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # The Dashboard in Workfront Proof

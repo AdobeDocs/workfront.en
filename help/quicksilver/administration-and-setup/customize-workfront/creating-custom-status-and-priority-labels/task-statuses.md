@@ -1,12 +1,12 @@
 ---
-filename: task-statuses
-title: Task statuses
+title: Access the list of system task statuses
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Access the list of system task statuses
 description: You can use the status of a task to show users what stage of development a task is in at a given time.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Access the list of system task statuses

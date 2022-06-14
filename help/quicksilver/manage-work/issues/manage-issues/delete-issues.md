@@ -1,9 +1,9 @@
 ---
-filename: delete-issues
 product-area: projects
 navigation-topic: manage-issues
 title: Delete issues
 description: You can delete issues or requests in Adobe Workfront if you have the correct access and permissions to do so.
+feature: Work Management
 ---
 
 # Delete issues

@@ -1,10 +1,10 @@
 ---
-filename: overview-of-planner-hour-fte-cost-information-in-role-project-views
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
 title: Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner
 description: Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner
+feature: Resource Management
 ---
 
 # Overview of hours, FTE, and cost information in the Project and&nbsp;Role views of the Resource Planner

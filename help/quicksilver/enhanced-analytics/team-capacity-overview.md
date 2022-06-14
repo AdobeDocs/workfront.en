@@ -1,11 +1,10 @@
 ---
-filename: team-capacity-overview
-title: Team capacity overview
+title: View the Team capacity visualization in Enhanced analytics
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-title: View the Team capacity visualization in Enhanced analytics
 description: The Team capacity visualization shows the total amount of capacity a home team has, whether they are overallocated or underallocated, and how dynamic the capacity is over time.
+feature: Reports and Dashboards
 ---
 
 # View the Team capacity visualization in Enhanced analytics

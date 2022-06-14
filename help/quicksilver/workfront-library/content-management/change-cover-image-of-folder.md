@@ -1,10 +1,10 @@
 ---
-filename: change-cover-image-of-folder
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Change the cover image on an item in Workfront Library
 description: If you have Manage permissions to a folder or a collection, you can change the image that displays on its cover with an image of an item to which you have access.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Change the cover image on an item in Workfront Library

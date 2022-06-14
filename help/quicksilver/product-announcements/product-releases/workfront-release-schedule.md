@@ -1,10 +1,10 @@
 ---
-filename: workfront-release-schedule
 content-type: release-notes
 keywords: release
 navigation-topic: product-announcements
 title: Adobe Workfront release schedule and process
 description: The Preview environment is updated once a week with new features. These features are communicated in the release notes for the upcoming quarterly release.
+feature: Product Announcements
 ---
 
 # Adobe Workfront release schedule and process

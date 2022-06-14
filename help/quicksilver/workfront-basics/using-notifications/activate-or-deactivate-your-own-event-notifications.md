@@ -1,9 +1,9 @@
 ---
-filename: activate-or-deactivate-your-own-event-notifications
 product-area: setup
 navigation-topic: notifications
 title: Activate or deactivate your own event notifications
 description: Your Adobe Workfront administrator configures which event notifications users receive when events occur in Workfront.
+feature: Get Started with Workfront
 ---
 
 # Activate or deactivate your own event notifications

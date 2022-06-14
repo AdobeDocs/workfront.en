@@ -1,10 +1,10 @@
 ---
-filename: create-a-request-in-wf-library
 product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
 title: Create a request in Workfront Library
 description: You can create a work request, such as a request for content to be created, and submit the request to a Request Queue in Workfront. You can then assign it to another user or convert it into a task in Workfront. For more information on requests, see Overview of converting issues in Adobe Workfront.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Create a request in Workfront Library

@@ -1,5 +1,4 @@
 ---
-filename: combined-pages-object-details
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Edit object details in the new Adobe Workfront experience

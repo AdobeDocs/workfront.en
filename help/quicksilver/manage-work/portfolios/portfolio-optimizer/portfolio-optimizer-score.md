@@ -1,10 +1,10 @@
 ---
-filename: portfolio-optimizer-score
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
 title: Overview of the Portfolio Optimizer Score
 description: You can find the Portfolio Optimizer score in the Portfolio Optimizer. It displays in the Score column for every project. This represents a score for every project in the portfolio.
+feature: "Work Management, Strategic Planning"
 ---
 
 # Overview of the Portfolio Optimizer Score

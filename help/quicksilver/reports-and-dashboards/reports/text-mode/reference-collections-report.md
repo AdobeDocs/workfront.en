@@ -1,9 +1,9 @@
 ---
-filename: reference-collections-report
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Reference collections in a report
 description: Reference collections in a report
+feature: Reports and Dashboards
 ---
 
 # Reference collections in a report

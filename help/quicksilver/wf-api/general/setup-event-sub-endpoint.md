@@ -1,9 +1,9 @@
 ---
-filename: setup-event-sub-endpoint
 content-type: api
 navigation-topic: general-api
 title: Event Subscription delivery requirements
 description: Event subscription messages are notifications that can be setup to notify users when certain events occur. To learn more about what Event Subscriptions are see FAQs - Event Subscriptions.
+feature: Workfront API
 ---
 
 # Event Subscription delivery requirements

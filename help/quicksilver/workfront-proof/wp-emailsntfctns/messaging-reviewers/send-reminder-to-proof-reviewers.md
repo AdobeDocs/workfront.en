@@ -1,10 +1,10 @@
 ---
-filename: send-reminder-to-proof-reviewers
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: messaging-reviewers
 title: Send a reminder message to the reviewers on a proof
 description: Make this work for PiW
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Send a reminder message to the reviewers on a proof

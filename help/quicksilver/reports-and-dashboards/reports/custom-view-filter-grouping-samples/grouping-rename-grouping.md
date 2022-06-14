@@ -1,10 +1,10 @@
 ---
-filename: grouping-rename-grouping
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Grouping: edit the display name in a grouping"
 description: You can rename groupings to something more familiar to your users.
+feature: Reports and Dashboards
 ---
 
 # Grouping: edit the display name in a grouping

@@ -1,9 +1,9 @@
 ---
-filename: create-or-statements-in-filters-text-mode
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Create "OR" statements in text mode filters
 description: You can include multiple statements when you create a filter in lists and reports.
+feature: Reports and Dashboards
 ---
 
 # Create "OR" statements in text mode filters

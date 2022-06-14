@@ -1,9 +1,9 @@
 ---
-filename: link-items-between-wf-jira
 product-area: workfront-integrations
 navigation-topic: workfront-for-jira
 title: Link items between Adobe Workfront and Jira
 description: You can link Jira issues to Adobe Workfront tasks or issues either automatically or manually.
+feature: Workfront Integrations and Apps
 ---
 
 # Link items between Adobe Workfront and Jira

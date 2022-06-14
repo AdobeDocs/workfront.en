@@ -1,11 +1,11 @@
 ---
-filename: _proof-types
 content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tech-corner
 title: Proof types
 description: This section contains the following articles - EDIT ME.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Proof types

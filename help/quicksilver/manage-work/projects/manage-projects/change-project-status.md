@@ -1,9 +1,9 @@
 ---
-filename: change-project-status
 product-area: projects
 navigation-topic: manage-projects
 title: Change the status of a project
 description: You can manually change the status of a project.
+feature: Work Management
 ---
 
 # Change the status of a project

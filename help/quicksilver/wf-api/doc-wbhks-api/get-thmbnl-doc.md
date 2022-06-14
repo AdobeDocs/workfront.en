@@ -1,10 +1,10 @@
 ---
-filename: Get thmbnl-doc
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
 title: Get a thumbnail for a document
 description: Returns the raw thumbnail bytes for a document.
+feature: "Workfront API, Digital Content and Documents"
 ---
 
 # Get a thumbnail for a document

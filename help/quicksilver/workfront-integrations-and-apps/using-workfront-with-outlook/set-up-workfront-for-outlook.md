@@ -1,9 +1,9 @@
 ---
-filename: set-up-workfront-for-outlook
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: Set up Adobe Workfront for Outlook
 description: Adobe Workfront Fusion offers an integration with Outlook. This article describes how you can start using this integration in your own workflows.
+feature: Workfront Integrations and Apps
 ---
 
 # Set up Adobe Workfront for Outlook

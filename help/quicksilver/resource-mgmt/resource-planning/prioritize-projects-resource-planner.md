@@ -1,9 +1,9 @@
 ---
-filename: prioritize-projects-resource-planner
 product-area: resource-management;projects
 navigation-topic: resource-planning
 title: Prioritize projects in the Resource Planner
 description: Projects are listed in order of priority in the Resource Planner with the most important project at the top.
+feature: Resource Management
 ---
 
 # Prioritize projects in the Resource Planner

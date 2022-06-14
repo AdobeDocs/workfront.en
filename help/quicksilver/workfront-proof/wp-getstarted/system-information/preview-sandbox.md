@@ -1,11 +1,11 @@
 ---
-filename: preview-sandbox
 content-type: overview;how-to-procedural
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
 title: Preview Sandbox Testing Environment- Workfront Proof
 description: The Preview Sandbox is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront Proof.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Preview Sandbox Testing Environment- Workfront Proof

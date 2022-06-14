@@ -1,9 +1,9 @@
 ---
-filename: manually-tie-resolution-of-issue-to-ptis
 product-area: projects
 navigation-topic: convert-issues
 title: Manually tie the resolution of an issue to other issues, tasks, or projects
 description: You can manually tie the resolution of an issue to the resolution of a project, task, or issue without converting the issue. The issue becomes one of the Resolvable Objects of the project, task, or issue you select. When you do this, a change in the status of the project, task, or issue triggers a change in the status of the original issue.
+feature: Work Management
 ---
 
 # Manually tie the resolution of an issue to other issues, tasks, or projects

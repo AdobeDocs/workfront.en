@@ -1,9 +1,9 @@
 ---
-filename: assign-work-in-workload-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Overview of assigning work in the Workload Balancer
 description: As a resource manager, you can use the Adobe Workfront Workload Balancer to view work items that have not yet been assigned to users as well as assign these items to them.
+feature: Resource Management
 ---
 
 # Overview of assigning work in the Workload Balancer

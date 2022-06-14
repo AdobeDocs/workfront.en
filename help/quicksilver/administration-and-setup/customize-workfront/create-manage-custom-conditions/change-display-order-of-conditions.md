@@ -1,11 +1,11 @@
 ---
-filename: change-display-order-of-conditions
-title: Change display order of Conditions
+title: Change the display order of conditions
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
-title: Change the display order of conditions
 description: You can change the order in which Conditions display in projects, tasks and issues - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Change the display order of conditions

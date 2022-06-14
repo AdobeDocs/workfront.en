@@ -1,9 +1,9 @@
 ---
-filename: notifications-goals
 content-type: reference
 navigation-topic: notifications
 title: "Notifications: Goals"
 description: "Notifications: Goals"
+feature: Get Started with Workfront
 ---
 
 # Notifications: Goals

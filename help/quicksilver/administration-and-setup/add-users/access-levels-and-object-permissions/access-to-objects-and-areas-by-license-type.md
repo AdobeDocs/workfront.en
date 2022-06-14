@@ -1,11 +1,12 @@
 ---
-filename: access-to objects-and-areas-by-license-type
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
 title: Access to objects and areas by license type
 description: The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Access to objects and areas by license type

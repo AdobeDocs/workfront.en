@@ -1,11 +1,11 @@
 ---
-filename: electronic-sigs-in-wp
 content-type: overview
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: manage-security-workfront-proof
 title: Understanding electronic signatures in Workfront Proof
 description: Electronic signatures allow you to enhance security on your proofs and comply with industry standards such as ISO.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Understanding electronic signatures in Workfront Proof

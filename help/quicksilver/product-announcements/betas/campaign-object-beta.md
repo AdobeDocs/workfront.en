@@ -1,146 +1,132 @@
 ---
+content-type: reference
+navigation-topic: betas
 title: Campaigns beta
-description: Campaigns beta
-draft: Probably
+description: Information about participating in the Campaigns beta program.
+feature: Product Announcements
 ---
+
 # Campaigns beta
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;I copied this article from the Reporting canvas beta article to keep it consistent. More information needs to be added here for campaigns)</p>
--->
+>[!NOTE]
+>
+>The information on this page refers to functionality not yet generally available. It will be available for the first time with the 22.3 release and it will remain in beta for a longer period of time.
 
-The new Campaigns area is nearing completion.
 
-We are excited to open the Campaigns area for public beta beginning in 
+[!DNL Adobe Workfront Campaigns] offer a new way to manage your work. As a new object in Workfront, a campaign enables you to organize projects from different portfolios and programs in a new work container that will evolve and which will eventually include all work objects that you are currently managing in separate silos.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<Date>
-</MadCap:conditionalText>
--->
+We are excited to open the [!UICONTROL Campaigns] area for public beta beginning with the 22.3 release.
 
-.
+The new [!UICONTROL Campaigns] area is currently under development.
 
-Campaigns are a new object type in&nbsp;Adobe Workfront that you can use to capture all information related to a larger work endeavor.&nbsp;A campaign may include several projects, portfolios, programs that have a common purpose of completing a larger unit of work.
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: add more information from the epic one pager or from marketing about what this object is/ is not; and how people should use it)</p>
--->
+For general information about campaigns, see [Campaigns overview](../../manage-work/campaigns/campaigns-overview.md).
 
 ## Release schedule
 
 * Public beta launch:
-
-  >[!NOTE]
-  >
-  >The beta is being launched in phases, beginning in `<Date>` and targeted for completion by `<Date>`.
-
-* Official release:&nbsp;Late 2022 `<or replace with the actual date for Campaigns>`
+  * Preview beta launch: June 2022 (tentative)
+  * Production beta launch: July 2022
+  * Beta completion: December 2022 (tentative)
+* Final official release:
+  * Will be announced at a later date
 
 ## Features
 
-The following features will release as part of a tiered product release plan. Features that you can access in this beta may not be available in the full release, based on your organization's plan.
+The following features will release as part of a tiered product release plan. Features that you can access in this beta may not be available in the full release, based on your organization’s plan or the input we receive during the beta phase.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(is the last statement correct for Campaigns?!)
-</MadCap:conditionalText>
--->
+| Feature description or name                                                                               | Status                |
+|-----------------------------------------------------------------------------------------------------------|-----------------------|
+| Add the [!UICONTROL Campaigns] areas to the [!UICONTROL Main Menu], pins, and the landing page using a [!UICONTROL Layout Template] | With the 22.3 release |
+| Customize the Campaigns name using a [!UICONTROL Layout Template]                                                      | With the 22.3 release |
+| [!UICONTROL Campaigns] area in the [!UICONTROL Main Menu] of any user                                                               | With the 22.3 release |
+| Create campaigns                                                                                          | With the 22.3 release |
+| Edit campaigns                                                                                            | With the 22.3 release |
+| Delete campaigns                                                                                          | With the 22.3 release |
+| Add projects to a campaign                                                                                | With the 22.3 release |
+| Share campaigns                                                                                           | Planned               |
+| Manage campaign finances                                                                                  | Planned               |
+| Add custom forms to a campaign                                                                            | Planned               |
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the statuses in the table are tentative - just examples of what we did for Canvas so we can be consistent)</p>
--->
-
-|  Feature description or name  | Status  |
-|---|---|
-| Create campaigns |Released |
-| Delete campaigns |Released |
-| Share campaigns |Planned  |
-| Manage campaign finances |Planned |
-| Add objects to a campaign |Partially released |
-| Add custom forms to a campaign |Planned  |
-| Integrate campaigns with other Adobe Experience Cloud applications |Not planned |
-| &nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |
-
-{style="table-layout:auto"}
 
 ## Participate in the beta
 
+
 ### Availability
 
-The Campaigns object beta will be available to all organizations that are on AWS, regardless of region. Involvement is completely optional.
+>[!NOTE]
+>
+>The [!UICONTROL Campaigns Beta] is available for all customers. Involvement and participation in this beta program is completely voluntary and optional.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is an example, from Canvas, specify who will be eligible for Campaigns here)</p>
--->
+The [!UICONTROL Campaigns] beta will be available to all customers. The [!UICONTROL Campaigns] area will be available in the [!UICONTROL Layout Templates ] and any system or group administrator can add it in the [!UICONTROL Set Main Menu] area of the layout template for other users. Once added, all users assigned to the layout template will be able to see the [!UICONTROL Campaigns] area in their [!UICONTROL Main Menu] and will be able to create campaigns.
 
-### Join the beta
+For more information, see the [Participate in the beta](#participate-in-beta) section in this article.
 
-### Workfront administrators
+### Participate in the beta
 
-Only Workfront administrators can&nbsp;opt in to the beta on their own. The Reporting Canvas beta is completely optional, but may only be opted into by a Workfront administrator.
+Only system or group administrators can opt in to the beta on their own. All other users will be able to access the [!UICONTROL Campaigns] area after a system or group administrator has added it to their layout template.
 
-To opt in as a System Administrator:
+* [Participate as a system or group administrator](#participate-as-a-system-or-group-administrator) 
+* [Participate as a regular user](#participate-as-a-regular-user)
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: tentative steps, copied from&nbsp;Canvas - ensure they are still correct for Campaigns)</p>
--->
+#### **Participate as a system or group administrator**
 
-1. In the Main Menu ![](assets/main-menu-icon.png), select the **Campaigns (beta)** icon. 
-1. Click **Accept** to accept the terms and conditions.
-1. Start using the Campaigns area.
+As a system or group administrator, you can participate in the beta, or enable others to participate.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: who can opt in?&nbsp;Admins only?&nbsp;Everyone with Plan license? all licenses?&nbsp;- add these before these steps; write another set of steps if admins vs regular users opt in in different ways)</p>
--->
+1. In the [!UICONTROL **Main Menu**] ![](assets/main-menu-icon.png) , click [!UICONTROL **Setup**] > [!UICONTROL **Interface**] > [!UICONTROL **Layout Templates**].
+1. Click an existing layout template to edit it, or click [!UICONTROL **New Layout Template**] to create a new one.
+1. Click [!UICONTROL **Set Main Menu**], then click the **+** icon for the [!UICONTROL **Campaigns**] area  in the [!UICONTROL **Available items**] section to add it to the template.
+1. Click [!UICONTROL **Assign this to**] and add users, job roles, teams, or groups to assign users to the layout template, then click [!UICONTROL **Done**].
+1. (Conditional) Click [!UICONTROL **Create** ] or [!UICONTROL **Save**].
+
+    The [!UICONTROL Campaigns] area is now available to all users that you specified in the previous step.
+1. In the [!UICONTROL **Main Menu**], click the [!UICONTROL **Campaigns (beta)**] icon. 
+
+    The [!UICONTROL Campaigns] list displays.
+1. Start using the [!UICONTROL **Campaigns**] area.
+
+#### **Participate as a regular user**
+
+After your system or group administrator has added the Campaigns area to your Main Menu, do the following:
+
+1. In the [!UICONTROL **Main Menu**] ![](assets/main-menu-icon.png), click the [!UICONTROL **Campaigns (beta)**] icon.
+
+    The [!UICONTROL Campaigns] list displays.
+1. Start using the [!UICONTROL **Campaigns**] area.
+
 
 ## Submit feedback
 
-For information about known beta issues, see
+>[!TIP]
+>
+>For information about known beta issues or frequently-asked questions, see the [Beta FAQs](#beta-faqs) section in this article. To submit a bug rather than general feedback, please use the standard Workfront issue reporting process. For more information, see [Contact customer support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<do we need another article here for known issues?? or limitations?)
-</MadCap:conditionalText>
--->
+To submit feedback that you have learned about campaigns during the beta period:
 
-To submit feedback about the beta:
+1. Check the list of currently-known beta issues or frequently-asked questions in this article. For information, see the [Beta FAQs](#beta-faqs) section in this article.
+1. While in the [!UICONTROL Campaigns] area in Workfront, click the [!UICONTROL Feedback] button in the upper-right corner of the page, then fill out the form. 
 
-1. Check the list of currently known beta issues above to make sure that your feedback it hasn't already been submitted.
+    After you finish completing all the questions and you see the confirmation message, the survey is submitted to our [!DNL Product Management] team.
 
-   For the list of known beta issues, see 
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   <do we need another article here for known issues?? or limitations?)
-   </MadCap:conditionalText>
-   -->
+## Beta FAQs
 
-   . 
+**Question**: How do I know if my organization has joined the beta?
 
-1. While in the Campaigns area in Workfront, click the **Send Feedback** button.
-1. Fill out the form, then click **Submit**.
+**Answer**: When your system or group administrator enabled the [!UICONTROL Campaigns] area for you, you can access it from the Main Menu.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To submit a bug rather than general feedback, please use the standard Workfront&nbsp;issue reporting process. For more information, see <link here>.</p>
--->
 
-## Beta FAQ
+ **Question**: Can I opt out of the beta?
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Add some FAQs here according to the research and the PM input. Look for the Canvas FAQ as an example</p>
--->
+**Answer**: As a system or group administrator, you can opt out of the beta or remove the beta access from other users by removing the [!UICONTROL Campaigns] area from the layout template. If you are a regular user and you do not want to see the [!UICONTROL Campaigns] area in your [!UICONTROL Main Menu], talk to your system or group administrator to remove it from your layout template.
+
+
+**Question**: I cannot edit or delete a campaign, although I am able to access it.
+
+**Answer**: Ensure you are the [!UICONTROL Campaign Owner] or a system administrator. You can edit or delete campaigns only when you are the system administrator or when you are the owner of a campaign.
+
+## Additional resources
+
+For more information about campaigns, also see the following resources:
+
+* [Campaigns](../../manage-work/campaigns/campaigns-section-toc.md)
 

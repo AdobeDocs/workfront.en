@@ -1,9 +1,9 @@
 ---
-filename: wf-cc-find-work
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Find your work in Adobe Photoshop
 description: Find the work assigned to you in Adobe Workfront without leaving Adobe Photoshop.
+feature: "Workfront Integrations and Apps, Digital Content and Documents"
 ---
 
 # Find your work in Adobe Photoshop

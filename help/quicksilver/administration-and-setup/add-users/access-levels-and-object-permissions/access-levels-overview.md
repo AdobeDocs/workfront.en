@@ -1,13 +1,13 @@
 ---
-filename: access-levels-overview
-title: Access levels by license type
+title: Access levels overview
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: access,level,system,administrator,planner,worker,reviewer,requestor,external,user
 navigation-topic: access-levels
-title: Access levels overview
 description: As an Adobe Workfront administrator, you assign an access level to a user for 2 purposes - EDIT ME.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Access levels overview

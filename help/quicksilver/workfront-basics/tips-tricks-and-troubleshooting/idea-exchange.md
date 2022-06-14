@@ -1,9 +1,9 @@
 ---
-filename: idea-exchange
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: The Innovation Lab
 description: The Innovation Lab enables authenticated users to submit, vote on, and discuss ideas with fellow customers.
+feature: Get Started with Workfront
 ---
 
 # The Innovation Lab

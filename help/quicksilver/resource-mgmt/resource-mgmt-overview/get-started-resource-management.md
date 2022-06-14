@@ -1,10 +1,10 @@
 ---
-filename: get-started-resource-management
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-management-overview
 title: Get started with Resource Management
 description: Get started with Resource Management
+feature: Resource Management
 ---
 
 # Get started with Resource Management

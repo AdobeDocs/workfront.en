@@ -1,9 +1,9 @@
 ---
-filename: copy-template
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Copy a project template
 description: Rather than creating a new project template from scratch, you can copy an existing template and make changes to that, if needed.
+feature: Work Management
 ---
 
 # Copy a project template

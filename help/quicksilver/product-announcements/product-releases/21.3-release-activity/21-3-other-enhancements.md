@@ -2,6 +2,7 @@
 title: 21.3 Other enhancements
 description: 21.3 Other enhancements
 draft: Probably
+feature: Product Announcements
 ---
 # 21.3 Other enhancements
 

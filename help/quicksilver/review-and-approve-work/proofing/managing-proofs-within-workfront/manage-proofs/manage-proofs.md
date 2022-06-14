@@ -1,10 +1,10 @@
 ---
-filename: _manage-proofs
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Manage proofs
 description: Edit proof settings
+feature: Digital Content and Documents
 ---
 
 # Manage proofs

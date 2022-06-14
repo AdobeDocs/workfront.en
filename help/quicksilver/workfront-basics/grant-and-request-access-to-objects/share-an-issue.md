@@ -1,9 +1,9 @@
 ---
-filename: share-an-issue
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Share an issue
 description: Your Adobe Workfront administrator grants users access to view or edit issues when they assign access levels. For more information about granting access to issues, see Grant access to issues.
+feature: Get Started with Workfront
 ---
 
 # Share an issue

@@ -1,10 +1,10 @@
 ---
-filename: map-an-array
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Map an array in Adobe Workfront Fusion
 description: You can map an array to a module field in Adobe Workfront Fusion.
+feature: Workfront Fusion
 ---
 
 # Map an array in Adobe Workfront Fusion

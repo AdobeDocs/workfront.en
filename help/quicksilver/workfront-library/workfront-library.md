@@ -1,11 +1,11 @@
 ---
-filename: _workfront-library
 content-type: reference
 product-previous: workfront-library
 product-area: documents
 navigation-topic: workfront-library-navigation-topic
 title: Workfront Library
 description: This section contains the following subsections - EDIT ME.
+feature: "Workfront Library, Digital Content and Documents"
 ---
 
 # Workfront Library

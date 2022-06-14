@@ -1,11 +1,12 @@
 ---
-filename: _create-and-manage-groups
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Create and manage groups
 description: This section contains the following articles - EDIT ME.
+feature: "System Setup and Administration, People Teams and Groups"
+role: Admin
 ---
 
 # Create and manage groups

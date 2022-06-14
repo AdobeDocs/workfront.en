@@ -1,9 +1,9 @@
 ---
-filename: set-proof-defaults
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Configure personal proofing defaults
 description: You can define personal proof default settings that apply to proofs you create. These defaults are applied each time you generate a first-time proof or upload a new proof version in Workfront.
+feature: Digital Content and Documents
 ---
 
 # Configure personal proofing defaults

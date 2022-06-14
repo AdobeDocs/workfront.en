@@ -1,11 +1,10 @@
 ---
-filename: _enhanced-analytics
-title: Analytics
+title: Enhanced analytics
 content-type: reference
 product-area: enhanced-analytics
 navigation-topic: reports-and-dashboards
-title: Enhanced analytics
 description: This section contains the following articles - EDIT ME.
+feature: Reports and Dashboards
 ---
 
 # Enhanced analytics

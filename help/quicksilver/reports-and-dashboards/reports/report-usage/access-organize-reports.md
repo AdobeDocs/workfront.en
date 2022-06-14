@@ -1,9 +1,9 @@
 ---
-filename: access-organize-reports
 product-area: reporting
 navigation-topic: report-usage
 title: Access and organize reports
 description: You can use reports in Adobe Workfront to review or edit information about objects in the system. You can create your own reports, organize the reports that you create, and view reports that have been shared with you or shared publicly.
+feature: Reports and Dashboards
 ---
 
 # Access and organize reports

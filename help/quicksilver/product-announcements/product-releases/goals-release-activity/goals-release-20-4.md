@@ -2,6 +2,7 @@
 title: Workfront Goals with the 20.4 release
 description: Workfront Goals with the 20.4 release
 draft: Probably
+feature: "Product Announcements, Workfront Goals"
 ---
 # Workfront Goals with the 20.4 release
 

@@ -1,10 +1,10 @@
 ---
-filename: compare-proofs
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Compare proofs in the proofing viewer
 description: You can view side-by-side comparisons of two proofs. These can be two versions of the same proof, or two completely separate proofs.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Compare proofs in the proofing viewer

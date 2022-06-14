@@ -2,6 +2,7 @@
 title: Group table rows in Reporting Canvas
 description: Group table rows in Reporting Canvas
 draft: Probably
+feature: Reports and Dashboards
 ---
 # Group table rows in Reporting Canvas
 

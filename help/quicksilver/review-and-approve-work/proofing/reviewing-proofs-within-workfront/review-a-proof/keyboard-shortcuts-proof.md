@@ -1,9 +1,9 @@
 ---
-filename: keyboard-shortcuts-proof
 product-area: documents
 navigation-topic: review-a-proof
 title: Keyboard shortcuts in the proofing viewer
 description: The keyboard shortcuts described in this article are available in both the Web Proofing Viewer and the Desktop Proofing Viewer.
+feature: Digital Content and Documents
 ---
 
 # Keyboard shortcuts in the proofing viewer

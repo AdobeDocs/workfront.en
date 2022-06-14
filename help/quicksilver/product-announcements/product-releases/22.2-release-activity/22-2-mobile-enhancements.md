@@ -2,6 +2,7 @@
 title: 22.2 Mobile enhancements
 description: 22.2 Mobile enhancements
 draft: Probably
+feature: Product Announcements
 ---
 # 22.2 Mobile enhancements
 

@@ -1,10 +1,11 @@
 ---
-filename: configure-template-package
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configure a blueprint
 description: You can configure details of the project template or organizational structure before you install the blueprint.
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Configure a blueprint

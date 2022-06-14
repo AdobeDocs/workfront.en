@@ -1,9 +1,9 @@
 ---
-filename: enhanced-connector-proof-asset
 product-area: documents;workfront-integrations
 navigation-topic: workfront-for-experience-manager-enhanced-connector
 title: Proof a linked asset for Experience Manager Assets
 description: After you've linked an asset from Experience Manager Assets, you can create a proof and assign users to review and add comments to the asset.
+feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---
 
 # Proof a linked asset for Experience Manager Assets

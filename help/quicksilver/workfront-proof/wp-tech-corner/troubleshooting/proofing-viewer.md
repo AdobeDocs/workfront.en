@@ -1,11 +1,11 @@
 ---
-filename: proofing-viewer
 content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Troubleshooting - Workfront Proof proofing viewer
 description: If your proof content is not loading and you can only see an empty proofing viewer, it's most likely because something is blocking this action locally. Try the possible solutions below.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Troubleshooting - Workfront Proof proofing viewer

@@ -2,6 +2,7 @@
 title: Add or edit a table block in Reporting Canvas
 description: Add or edit a table block in Reporting Canvas
 draft: Probably
+feature: Reports and Dashboards
 ---
 # Add or edit a table block in Reporting Canvas
 

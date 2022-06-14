@@ -1,5 +1,4 @@
 ---
-filename: http-module-make-an-oauth-2-request
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
@@ -7,6 +6,7 @@ keywords: connector
 navigation-topic: http-modules
 title: HTTP > Make an OAuth 2.0 request module
 description: In order to make an Adobe Workfront Fusion HTTP(S) request to servers that require an OAuth 2.0 authorization, you first need to create an OAuth connection. Adobe Workfront Fusion ensures that all calls made with this connection have the appropriate authorization headers and automatically refresh associated tokens when required.
+feature: Workfront Fusion
 ---
 
 # HTTP > Make an OAuth 2.0 request module

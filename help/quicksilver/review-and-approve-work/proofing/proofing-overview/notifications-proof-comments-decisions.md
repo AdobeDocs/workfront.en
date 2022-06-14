@@ -1,9 +1,9 @@
 ---
-filename: notifications-proof-comments-decisions
 product-area: documents
 navigation-topic: proofing-overview
 title: Notifications for proof comments and decisions overview
 description: You can receive email notifications about comments and decisions made on proofs you work on in one of the following ways - EDIT ME.
+feature: Digital Content and Documents
 ---
 
 # Notifications for proof comments and decisions overview

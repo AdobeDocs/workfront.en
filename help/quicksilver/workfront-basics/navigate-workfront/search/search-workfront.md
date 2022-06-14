@@ -1,8 +1,8 @@
 ---
-filename: search-workfront
 navigation-topic: search
 title: Search Adobe Workfront
 description: You can easily locate items in Adobe Workfront by searching for them when you cannot remember their exact location.
+feature: Get Started with Workfront
 ---
 
 # Search Adobe Workfront

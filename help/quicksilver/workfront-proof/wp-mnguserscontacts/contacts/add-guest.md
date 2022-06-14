@@ -1,10 +1,10 @@
 ---
-filename: add-guest
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
 title: Add a Guest to Workfront Proof
 description: Contacts are shared in an organization by default. So if you add a Guest, your Colleagues will see that person in their contacts list as well. For information about Guests and Collegues, see Understand Users, Members, and Guests in Workfront Proof.
+feature: "Workfront Proof, Digital Content and Documents"
 ---
 
 # Add a Guest to Workfront Proof

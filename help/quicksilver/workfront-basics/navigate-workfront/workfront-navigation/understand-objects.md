@@ -1,9 +1,9 @@
 ---
-filename: understand-objects
 content-type: overview;reference
 navigation-topic: workfront-navigation
 title: Understand objects in Adobe Workfront
 description: Understand objects in Adobe Workfront
+feature: Get Started with Workfront
 ---
 
 # Understand objects in Adobe Workfront

@@ -1,11 +1,11 @@
 ---
-filename: permission-profiles
 content-type: overview
 product-area: documents
 keywords: proof,permission
 navigation-topic: proofing-overview
 title: Proof Permission Profile overview
 description: Proof Permission Profiles determine what overall permissions users have over all proofs in your account. Proof Permission Profiles are assigned to users in their User Profile. Proof Permission Profiles are different from proof roles. For more information about proof roles, see Proof Roles overview.
+feature: Digital Content and Documents
 ---
 
 # Proof Permission Profile overview

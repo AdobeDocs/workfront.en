@@ -2,6 +2,7 @@
 title: Configure a column visualization in Reporting Canvas
 description: Configure a column visualization in Reporting Canvas
 draft: Probably
+feature: Reports and Dashboards
 ---
 # Configure a column visualization in Reporting Canvas
 

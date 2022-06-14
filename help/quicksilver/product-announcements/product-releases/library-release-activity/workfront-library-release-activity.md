@@ -1,9 +1,9 @@
 ---
-filename: _workfront-library-release-activity
 content-type: release-notes
 navigation-topic: product-releases
 title: Workfront Library release activity
 description: Workfront Library release activity
+feature: "Product Announcements, Workfront Library"
 ---
 
 # Workfront Library release activity

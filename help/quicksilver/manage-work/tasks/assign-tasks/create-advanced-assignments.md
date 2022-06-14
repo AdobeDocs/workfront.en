@@ -1,9 +1,9 @@
 ---
-filename: create-advanced-assignments
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Create advanced assignments
 description: You can manage task or issue assignments by using Advanced Assignments.
+feature: Work Management
 ---
 
 # Create advanced assignments

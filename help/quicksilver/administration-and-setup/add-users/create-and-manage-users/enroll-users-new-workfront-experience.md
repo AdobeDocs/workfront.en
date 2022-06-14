@@ -1,11 +1,11 @@
 ---
-filename: enroll-users-new-workfront-experience
-title: Enroll users in the new Workfront experience
+title: Enroll users in the new Adobe Workfront experience
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Enroll users in the new Adobe Workfront experience
 description: "Note: The weekly refresh of the Preview environment does not affect user enrollment in the new Adobe Workfront experience."
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Enroll users in the new Adobe Workfront experience

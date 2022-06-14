@@ -1,9 +1,9 @@
 ---
-filename: areas-of-business-case
 content-type: overview
 navigation-topic: business-case-and-scorecards
 title: Overview of the Areas of the Business Case
 description: This article describes the areas of the Business Case of a project.
+feature: Work Management
 ---
 
 # Overview of the Areas of the Business Case
