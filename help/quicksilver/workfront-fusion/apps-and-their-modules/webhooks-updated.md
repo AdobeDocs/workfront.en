@@ -35,16 +35,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr>
  </tbody> 
 </table>
 
@@ -150,87 +141,61 @@ If any part of the data does not pass the validation, Workfront Fusion returns a
 
 ### Query String {#query-string}
 
-<pre>GET https://app.workfrontfusion.com/wh/<yourunique32characterslongstring>?name=<yourname>&job=automate</pre>
+```
+GET https://app.workfrontfusion.com/wh/<yourunique32characterslongstring>?name=<yourname>&job=automate
+```
 
 ### Form Data {#form-data}
 
-<pre>POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring></pre><pre>Content-Type: application/x-www-form-urlencoded</pre><pre>name=<yourname>&job=automate</pre>
+```
+POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring>
+
+Content-Type: application/x-www-form-urlencoded
+
+name=<yourname>&job=automate
+```
 
 #### Multipart form data
 
-<pre>POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring></pre><pre>Content-Type: multipart/form-data; boundary=---generatedboundary</pre><pre>---generatedboundary</pre><pre>Content-Disposition: form-data; name="file"; filename="file.txt"</pre><pre>Content-Type: text/plain</pre><pre>Content of file.txt</pre><pre>---generatedboundary</pre><pre>Content-Disposition: form-data; name="name"</pre><pre>Workfront Fusion</pre><pre>---generatedboundary</pre>In order to receive files encoded with 
-
 ```
-multipart/form-data
-```
+POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring>
 
-, you must configure a data structure with a 
 
-```
-collection
-```
+Content-Type: multipart/form-data; boundary=---generatedboundary
 
-type field that contains the nested fields 
+---generatedboundary
 
-```
-name
-```
+Content-Disposition: form-data; name="file"; filename="file.txt"
 
-, 
 
-```
-mime
-```
+Content-Type: text/plain
 
-, and 
 
-```
-data
+Content of file.txt
+
+
+---generatedboundary
+
+Content-Disposition: form-data; name="name"
+
+Workfront Fusion
+
+---generatedboundary
 ```
 
-. The field 
-
-```
-name
-```
-
-is a 
-
-```
-text
-```
-
-type and contains the name of the uploaded file. The 
-
-```
-mime
-```
-
-is a 
-
-```
-text
-```
-
-type and contains a file in MIME format. The field 
-
-```
-data
-```
-
-is a 
-
-```
-buffer
-```
-
-type and contains binary data for the file being transferred.
+In order to receive files encoded with `multipart/form-data`, you must configure a data structure with a `collection` type field that contains the nested fields `name`, `mime`, and `data`. The field `name` is a `text` type and contains the name of the uploaded file. The `mime` is a `text` type and contains a file in MIME format. The field `data` is a `buffer` type and contains binary data for the file being transferred.
 
 For more information on MIME format, see [MIME modules](../../workfront-fusion/apps-and-their-modules/mime.md).
 
 ### JSON {#json}
 
-<pre>POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring></pre><pre>Content-Type: application/json</pre><pre>{"name": "Workfront Fusion", "job": "automate"}</pre>
+```
+POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring>
+
+Content-Type: application/json
+
+{"name": "Workfront Fusion", "job": "automate"}
+```
 
 >[!TIP]
 >
@@ -249,37 +214,17 @@ To access the webhook's headers, enable Get request headers when setting up the 
 1. Click **Show advanced settings**.
 1. Click **Get request headers**.
 
-You can extract a particular header value with the combination of 
+You can extract a particular header value with the combination of `map()` and `get()` functions. 
 
-```
-map()
-```
-
-& 
-
-```
-get()
-```
-
-functions. 
-
-**Example:** The example below shows a formula that extracts the value of the 
-
-```
-authorization
-```
-
-header from the 
-
-```
-Headers[]
-```
-
-array. The formula is used in a filter that compares the extracted value with the given text to pass only webhooks if there is a match.
-
-![](assets/set-up-a-filter-350x169.png)
-
-For further information on obtaining an array's element with a given key, see [Map an array's element with a given key](../../workfront-fusion/mapping/map-information-between-modules.md#mapping) in the article [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+>[!INFO]
+>
+>**Example:** 
+>
+>The example below shows a formula that extracts the value of the `authorization` header from the `Headers[]` array. The formula is used in a filter that compares the extracted value with the given text to pass only webhooks if there is a match.
+>
+>![](assets/set-up-a-filter-350x169.png)
+>
+>For further information on obtaining an array's element with a given key, see [Map an array's element with a given key](../../workfront-fusion/mapping/map-information-between-modules.md#mapping) in the article [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ## Responding to webhooks
 
@@ -306,121 +251,79 @@ If you want to customize the webhook's response, employ the module Webhook Respo
 
 The configuration of the module contains two fields: Status and Body.
 
-* The Status field contains HTTP response status codes such as 2xx for Success (for example, 
-
-  ```
-  200
-  ```
-
-  for OK), 3xx for Redirection (for example, 
-
-  ```
-  307
-  ```
-
-  for Temporary Redirect), 4xx for Client errors (for example, 
-
-  ```
-  400
-  ```
-
-  for Bad Request), and so on. 
+* The Status field contains HTTP response status codes such as 2xx for Success (for example, `200` for OK), 3xx for Redirection (for example, `307` for Temporary Redirect), 4xx for Client errors (for example, `400` for Bad Request), and so on. 
 
 * The Body field contains anything that will be accepted by the webhook's call. It can be simple text, HTML, XML, JSON, and so on.
 
   >[!TIP]
   >
-  >We recommend setting the   >
-  >
-  >```  >
-  >Content-Type
-  >```  >
-  >
-  >header to the corresponding MIME type:   >
-  >
-  >```  >
-  >text/plain
-  >```  >
-  >
-  >for plain text,   >
-  >
-  >```  >
-  >text/html
-  >```  >
-  >
-  >for HTML,   >
-  >
-  >```  >
-  >application/json
-  >```  >
-  >
-  >for JSON,   >
-  >
-  >```  >
-  >application/xml
-  >```  >
-  >
-  >for XML, and so on. For more information on MIME&nbsp;types, see [MIME modules](../../workfront-fusion/apps-and-their-modules/mime.md).
+  >We recommend setting the `Content-Type` header to the corresponding MIME type: `text/plain` for plain text, `text/html` for HTML, `application/json` for JSON, `application/xml` for XML, and so on. For more information on MIME types, see [MIME modules](../../workfront-fusion/apps-and-their-modules/mime.md).
 
 Timeout for sending a response is 40 seconds. If the response is not available within that period, Workfront Fusion returns a '200 Accepted' status.
 
 ### HTML Response example {#html-response-example}
 
-**Example:** Configure the Webhook Response module as follows:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Status </td> 
-   <td> <p>2xx success HTTP status code, e.g. 200</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Body </td> 
-   <td> <p>HTML code</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Custom headers</p> </td> 
-   <td> 
-    <ul> 
-     <li><strong>Key</strong>: Content-type</li> 
-     <li><strong>Value</strong>: text/html</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-![](assets/custom-headers-350x235.png)
-
-This will produce an HTML response that displays like this in a web browser:
-
-![](assets/html-response-350x70.png)
+>[!INFO]
+>
+>**Example:** 
+>
+>Configure the Webhook Response module as follows:
+>
+><table style="table-layout:auto"> 
+> <col> 
+> <col> 
+> <tbody> 
+>  <tr> 
+>   <td role="rowheader">Status </td> 
+>   <td> <p>2xx success HTTP status code, e.g. 200</p> </td> 
+>  </tr> 
+>  <tr> 
+>   <td role="rowheader">Body </td> 
+>   <td> <p>HTML code</p> </td> 
+>  </tr> 
+>  <tr> 
+>   <td role="rowheader"> <p>Custom headers</p> </td> 
+>   <td> 
+>    <ul> 
+>     <li><strong>Key</strong>: Content-type</li> 
+>     <li><strong>Value</strong>: text/html</li> 
+>    </ul> </td> 
+>  </tr> 
+> </tbody> 
+></table>
+>
+>![](assets/custom-headers-350x235.png)
+>
+>This will produce an HTML response that displays in a web browser:
+>
+>![](assets/html-response-350x70.png)
 
 ### Redirect example {#redirect-example}
 
-**Example:** Configure the Webhook Response module as follows:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Status </td> 
-   <td> <p>3xx redirection HTTP status code, e.g. 303</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Custom headers</p> </td> 
-   <td> 
-    <ul> 
-     <li><strong>Key</strong>: Location</li> 
-     <li><strong>Value</strong>: The URL you would like to redirect to.</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-![](assets/webhook-response-350x279.png)
+>[!INFO]
+>
+>**Example:** Configure the Webhook Response module as follows:
+>
+><table style="table-layout:auto"> 
+> <col> 
+> <col> 
+> <tbody> 
+>  <tr> 
+>   <td role="rowheader">Status </td> 
+>   <td> <p>3xx redirection HTTP status code, e.g. 303</p> </td> 
+>  </tr> 
+>  <tr> 
+>   <td role="rowheader"> <p>Custom headers</p> </td> 
+>   <td> 
+>    <ul> 
+>     <li><strong>Key</strong>: Location</li> 
+>     <li><strong>Value</strong>: The URL you would like to redirect to.</li> 
+>    </ul> </td> 
+>  </tr> 
+> </tbody> 
+></table>
+>
+>![](assets/webhook-response-350x279.png)
 
 ## Troubleshooting
 

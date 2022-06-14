@@ -55,27 +55,29 @@ The SOAP module is currently in beta and does not support:
 * Multiple parts in input and output messages. Only single part messages are supported
 * Custom XML Schema elements defined with the help of SOAP Encoding (http://schemas.xmlsoap.org) schemas and elements.
 
-**Example:** 
-  
-The following would not be recognized correctly by Workfront Fusion:
-
-```
-<complexType name="ArrayOfFloat">
-
-   <complexContent>
-
-      <restriction base="soapenc:Array">
-
-         <attribute ref="soapenc:arrayType"
-
-            wsdl:arrayType="xsd:integer[]"/>
-
-      </restriction>
-
-   </complexContent>
-
-</complexType>
-```
+>[!INFO]
+>
+>**Example:** 
+>  
+>The following would not be recognized correctly by Workfront Fusion:
+>
+>```
+><complexType name="ArrayOfFloat">
+>
+>   <complexContent>
+>
+>      <restriction base="soapenc:Array">
+>
+>         <attribute ref="soapenc:arrayType"
+>
+>            wsdl:arrayType="xsd:integer[]"/>
+>
+>      </restriction>
+>
+>   </complexContent>
+>
+></complexType>
+>```
 
 It includes the `soapenc:Array`, `soapenc:arrayType` and `wsdl:arrayType` references, which are not yet supported in Workfront Fusion.
 
@@ -85,7 +87,30 @@ If the SOAP module refuses to process the WSDL file or throws various errors in 
 
 1. In Workfront Fusion, create a new scenario.
 1. Insert the **HTTP > Make a request** module in the scenario.
-1. Open the module's configuration and configure it like shown below:
+1. Open the module's configuration and fill in the follwoing fields:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Method</td> 
+      <td> <p>POST</p> </td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Body type</td> 
+      <td> <p>Raw</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Content type</td> 
+      <td> <p>XML (application/xml)</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Parse response</td> 
+      <td>Enabled</td> 
+     </tr> 
+    </tbody> 
+   </table>
 
    ![](assets/workaround-350x443.png)
 
