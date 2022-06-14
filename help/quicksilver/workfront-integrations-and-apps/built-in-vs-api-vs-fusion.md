@@ -29,6 +29,7 @@ Advantages of built-in integrations may include the following:
 >**Example:** 
 >
 >With the Workfront for Microsoft integration, you can receive notifications in Microsoft Teams about your Workfront work items. Without leaving Microsoft Teams, you can perform actions like approving, commenting on, or changing the status of work items. Any changes you make to work items from Microsoft Teams are reflected in Workfront as well.
+>
 For more information about built-in integrations, including a list of currently available built-in integrations, see [Adobe Workfront built-in integrations overview](../workfront-integrations-and-apps/built-in-integrations-non-admin.md).
 
 ## Custom OAuth2 applications
