@@ -11,6 +11,12 @@ description: You can add other objects to a campaign.
 >
 >The information in this article is available when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
 
+You can associate other objects with campaigns to indicate that multiple work endeavors contribute to a larger effort. For this purpose, you can associate projects with campaigns. 
+
+You must create the campaign before you can add projects to it. 
+
+For information about creating campaigns, see [Create campaigns](create-campaigns.md).
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
