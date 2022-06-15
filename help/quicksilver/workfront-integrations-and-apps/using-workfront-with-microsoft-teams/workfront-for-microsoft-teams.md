@@ -17,10 +17,12 @@ For more information about installing Workfront for Microsoft Teams, see [Instal
 
 After you have installed Workfront for Microsoft Teams, you can do the following without leaving your instance of Microsoft Teams:
 
-* Search for Workfront projects, tasks, and issues, and share them with other users.  
+* Search for Workfront projects, tasks, and issues, and share them with other users. 
+ 
   For information about searching for and sharing Workfront items from Microsoft Teams, see [Search for and share Adobe Workfront items in Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
 * Create Workfront personal tasks.  
+
   For information about creating Workfront personal tasks from Microsoft Teams, see [Create Adobe Workfront tasks from Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
 * Submit Workfront requests and review the progress of your submitted requests.
