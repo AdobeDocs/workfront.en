@@ -71,12 +71,25 @@ Consider the following when assigning multiple resources to a work item:
 
 * Users can have more than one job role associated with their profile. For information about associating users with job roles, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* Tasks or issues are usually first assigned to one or multiple job roles or to a team. When projects are ready to start, they might need to also be assigned to users.   
-  If a task or an issue is assigned to one or multiple roles and then you also assign a user, Adobe Workfront decides which job role to associate with the additional user (if any)&nbsp;according to the following rules:
+* If you assign more than one user to a task or issue, the first one user you select is designated automatically as the owner of the task or issue.
+  For instructions on changing this, see the information about the Make Primary button in the article [Create advanced assignments](create-advanced-assignments.md).
 
-   * If there is only one job role assigned and it matches the user's Primary Role, then the task or issue is assigned only to the user fulfilling their&nbsp;Primary Role. 
-   * If there are multiple roles assigned and at least one of the roles matches the user's secondary roles, then the task or issue is assigned to the user fulfilling one of their Other Roles — which Workfront selects at random if there are multiple matches — as well as any additional roles that are assigned.
-   * If there is one or more job roles assigned and there are no matches to the user's roles, then the task or issue is assigned to both&nbsp;the role or roles as well as to the user.
+* If you assign more than one team to a task, the first one you select is designated automatically as the primary team in charge of the task. If you remove that team from the task, the next team you assigned becomes the primary team in charge.
+  
+> [!INFO]
+>
+> **Example:** 
+> A task is assigned to two agile teams—Marketing and then Sales:
+>
+> * The task can be added only to the iteration of the Marketing team. For more information, see [Iterations](../../../agile/use-scrum-in-an--agile-team/iterations.md).
+> * When someone clicks the Work on It or Done button on the task, Workfront set the status for the task according to the Done Button setting configured for the Marketing team. For more information about this setting, see [Edit a team’s settings from the Setup area](../../../administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md). 
+
+* Tasks or issues are usually first assigned to one or multiple job roles or to a team. When projects are ready to start, they might need to also be assigned to users.   
+  If a task or an issue is assigned to one or multiple roles and then you also assign a user, Adobe Workfront decides which job role to associate with the additional user (if any) according to the following rules:
+
+   * If there is only one job role assigned and it matches the user's primary role (configured in their profile), the task or issue is assigned only to that user. 
+   * If multiple roles are assigned and at least one of them matches one of the user's other roles, the task or issue is assigned to the user (with the role selected randomly if there are multiple matches), along with any additional roles that are assigned.
+   * If at least one job role is assigned and there are no matches to the user's roles, the task or issue is assigned to the role or roles and to the user.
 
 * If a task or an issue is assigned to a team and you also assign a user, the task or issue remains assigned to both the team and the user.
 
@@ -119,7 +132,7 @@ Consider the following when assigning multiple resources to a work item:
 
 ## Assign a task in a list
 
-You can assign tasks in a list or a report when any of the assignments fields are visible in the list's view. This is a faster way to assign tasks. This article describes how to modify assignments for one task in a list.&nbsp;For information about modifying multiple assignments for multiple tasks in a list, see [Modify multiple user assignments in a task list](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+You can assign tasks in a list or a report when any of the assignments fields are visible in the list's view. This is a faster way to assign tasks. This article describes how to modify assignments for one task in a list. For information about modifying multiple assignments for multiple tasks in a list, see [Modify multiple user assignments in a task list](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
 Depending on which field is visible in the view, you can assign the following entities to the task: 
 
@@ -133,12 +146,12 @@ Depending on which field is visible in the view, you can assign the following en
 To assign tasks in a list:
 
 1. Go to a list of tasks that has the Assigned To, Assigned, or Assignments fields in the view.
-1. (Optional)&nbsp;Click the **Autosave** drop-down menu and select from the following options: 
+1. (Optional) Click the **Autosave** drop-down menu and select from the following options: 
 
    | Autosave |Changes you make to the tasks are automatically saved and you cannot revert them |
    |---|---|
    | Manual save |You must manually save your changes. You can revert your changes before you save them.  |
-   | Timeline Planning |You must manually save your changes.&nbsp;You can revert your changes before you save them.&nbsp;Saving your changes and all the project dependencies is faster than when selecting Manual save.  |
+   | Timeline Planning |You must manually save your changes. You can revert your changes before you save them. Saving your changes and all the project dependencies is faster than when selecting Manual save.  |
 
    {style="table-layout:auto"}
 
@@ -152,7 +165,7 @@ To assign tasks in a list:
 1. (Conditional) When visible in the **Assignments** field, click the **People** icon  in the upper-right corner of the assignments box to open the **Advanced Assignments** box and create advanced assignments.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;there is a People icon in NWE&nbsp;but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up)</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up)</p>
    -->
 
    For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
@@ -212,7 +225,7 @@ To assign tasks in a list:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Considerations about unassigning tasks</h2>
-<p>(NOTE:&nbsp;moved this to the new article: /Content/Manage work/Tasks/Assign tasks/modify-task-assignments-overview.htm)</p>
+<p>(NOTE: moved this to the new article: /Content/Manage work/Tasks/Assign tasks/modify-task-assignments-overview.htm)</p>
 <p>You can remove assignments from one task at a time, or you can remove assignments from multiple tasks in bulk.</p>
 <p>For more information about removing assignments from tasks in bulk, see <a href="../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md" class="MCXref xref">Modify multiple user assignments in a task list</a>. </p>
 <p>Consider the following when removing assignments from tasks: </p>
