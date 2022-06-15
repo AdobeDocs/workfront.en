@@ -109,7 +109,7 @@ You must add a user to your Production instance of Workfront before you can make
 1. Select **Add Admin**.
 1. In the **Add product profile administrators** box, enter the email addresses or names of the administrators you want to add, then select **Save**.
 
-   ![](assets/add-admin.png)
+   ![](assets/add-admin-1.png)
 
    The system administrators are created in Workfront.
 
