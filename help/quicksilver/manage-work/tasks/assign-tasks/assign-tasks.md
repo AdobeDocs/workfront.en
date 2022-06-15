@@ -93,7 +93,7 @@ Consider the following when assigning multiple resources to a work item:
   >**Example:** 
   >A task is assigned to two agile teams—Marketing and then Sales:
   >
-  >* The task can be added only to the iteration of the Marketing team. For more information, see [Iterations](../../../agile/use-scrum-in-an--agile-team/iterations.md).
+  >* The task can be added only to the iteration of the Marketing team. For more information, see [Iterations](../../../agile/use-scrum-in-an-agile-team/iterations/iterations.md).
   >* When someone clicks the Work on It or Done button on the task, Workfront set the status for the task according to the Done Button setting configured for the Marketing team. For more information about this setting, see [Edit a team’s settings from the Setup area](../../../administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md). 
 
 <!--
