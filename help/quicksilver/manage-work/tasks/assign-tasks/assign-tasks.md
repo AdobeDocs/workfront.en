@@ -74,24 +74,27 @@ Consider the following when assigning multiple resources to a work item:
 * If you assign more than one user to a task or issue, the first one user you select is designated automatically as the owner of the task or issue.
   For instructions on changing this, see the information about the Make Primary button in the article [Create advanced assignments](create-advanced-assignments.md).
 
-* If you assign more than one team to a task, the first one you select is designated automatically as the primary team in charge of the task. If you remove that team from the task, the next team you assigned becomes the primary team in charge.
-  
-> [!INFO]
->
-> **Example:** 
-> A task is assigned to two agile teams—Marketing and then Sales:
->
-> * The task can be added only to the iteration of the Marketing team. For more information, see [Iterations](../../../agile/use-scrum-in-an--agile-team/iterations.md).
-> * When someone clicks the Work on It or Done button on the task, Workfront set the status for the task according to the Done Button setting configured for the Marketing team. For more information about this setting, see [Edit a team’s settings from the Setup area](../../../administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md). 
+* If a task or an issue is assigned to a team and you also assign a user, the task or issue remains assigned to both the team and the user.
 
-* Tasks or issues are usually first assigned to one or multiple job roles or to a team. When projects are ready to start, they might need to also be assigned to users.   
-  If a task or an issue is assigned to one or multiple roles and then you also assign a user, Adobe Workfront decides which job role to associate with the additional user (if any) according to the following rules:
+* Tasks and issues on a project might be assigned first to one or more teams or job roles. When the project is ready to start, they might need to also be assigned to users. 
+
+  **Teams**: If you assign a task or issue to a one or more teams and you also assign a user, the task or issue remains assigned to the teams and to the user, even if the user is not a member of any of the teams.
+
+  **Job roles**: If you assign a task or issue to one or multiple roles and then you also assign a user, Adobe Workfront decides which job role to associate with the additional user (if any) according to the following rules:
 
    * If there is only one job role assigned and it matches the user's primary role (configured in their profile), the task or issue is assigned only to that user. 
    * If multiple roles are assigned and at least one of them matches one of the user's other roles, the task or issue is assigned to the user (with the role selected randomly if there are multiple matches), along with any additional roles that are assigned.
    * If at least one job role is assigned and there are no matches to the user's roles, the task or issue is assigned to the role or roles and to the user.
 
-* If a task or an issue is assigned to a team and you also assign a user, the task or issue remains assigned to both the team and the user.
+* If you assign more than one team to a task or issue, the first one you select is designated automatically as the primary team in charge. If you remove that team from the task or issue, the next team you assigned becomes the primary team in charge.  
+
+  >[!INFO]
+  >
+  >**Example:** 
+  >A task is assigned to two agile teams—Marketing and then Sales:
+  >
+  >* The task can be added only to the iteration of the Marketing team. For more information, see [Iterations](../../../agile/use-scrum-in-an--agile-team/iterations.md).
+  >* When someone clicks the Work on It or Done button on the task, Workfront set the status for the task according to the Done Button setting configured for the Marketing team. For more information about this setting, see [Edit a team’s settings from the Setup area](../../../administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md). 
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -140,8 +143,6 @@ Depending on which field is visible in the view, you can assign the following en
 |---|---|
 | **Assigned** |Assign one user |
 | **Assignments** |Assign users, job roles, or a team |
-
-{style="table-layout:auto"}
 
 To assign tasks in a list:
 
