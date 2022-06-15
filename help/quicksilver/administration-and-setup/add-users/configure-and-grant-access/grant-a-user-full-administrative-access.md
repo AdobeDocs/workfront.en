@@ -22,15 +22,11 @@ role: Admin
 As an Adobe Workfront administrator, you can create another Workfront administrator by assigning them the System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Replace first paragraph with the following for IMS:</p>
--->
+Replace first paragraph with the following for IMS:
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">As an Adobe administrator, you can create a Workfront administrator by assigning a user the Workfront System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves. </p>
--->
+As an Adobe administrator, you can create a Workfront administrator by assigning a user the Workfront System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For instructions, see the section <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create" class="MCXref xref">Create users in Workfront with the Adobe Admin Console</a>in the article <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.</p>
+For instructions, see the section <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create" class="MCXref xref">Create users in Workfront with the Adobe Admin Console</a>in the article <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.
 -->
 
 >[!NOTE]

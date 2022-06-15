@@ -11,7 +11,7 @@ role: Admin
 # View and export audit logs
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 -->
 
 You can view all audit logs in the system, or those that meet certain filtering criteria. You can also export audit logs.
@@ -56,7 +56,7 @@ You must have the following to perform the steps in this article:
    >
    >The options in the Action Type drop-down menu vary depending on the audit log selected.
 
-   ![](assets/audit-logs-350x276.jpg)
+   ![](assets/audit-logs.jpg)
 
 1. Click **Apply**.
 1. (Optional) Click **Clear Filters** to reset changes made to the filters.

@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Documents, then select the abilities you want to grant under **Fine-tune your settings**.
 
-   ![document_access.png](assets/document-access-350x171.png)
+   ![document_access.png](assets/document-access.png)
 
    You can allow users to do the following on projects, tasks, and issues that they have access to:
 

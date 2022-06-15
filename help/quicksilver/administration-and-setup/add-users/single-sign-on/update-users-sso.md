@@ -72,14 +72,12 @@ You can start preparing your import file by building a report of all users in Wo
 
 1. Select the following fields in your report:
 
-   ![](assets/users-with-sso-username-and-no-sso-access-only-field-350x47.png)
-
    | Name |The full name of the Workfront user. |
    |---|---|
    | ID |The ID is the Workfront alphanumeric GUID. |
    | SSO Username |Select the SSO Username field to ensure there are no usernames you are overwriting with your import. This field should be blank for all users, if your users have not yet been updated for SSO. |
 
-   {style="table-layout:auto"}
+   ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. Save the report. 
 1. Click **Export** at the top of the report and export the report to Excel. 
@@ -99,7 +97,7 @@ You can start preparing your import file by building a report of all users in Wo
    * The second column should contain the SSO Username, as it displays in your SSO system.
    * The columns should have no headers, and there should not be any empty rows at the top of the list of names.
 
-     ![](assets/update-users-for-sso-csv-file-for-import-350x47.png)
+     ![](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. Save the report as a CSV or TSV file on your computer.
 
@@ -132,7 +130,7 @@ For instructions on building a user report containing SSO Username information, 
 1. Ensure that the values for the SSO Username column match the SSO Username on your SSO server.
 1. If the SSO Username column is blank, update your users' SSO Usernames.
 
-   ![](assets/users-with-sso-field-updated-350x45.png)
+   ![](assets/users-with-sso-field-updated.png)
 
    For instructions on updating your users for SSO, see [Update your users for SSO](#update-your-users-for-sso).
 
