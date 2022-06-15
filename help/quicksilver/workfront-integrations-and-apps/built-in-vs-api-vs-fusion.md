@@ -24,7 +24,12 @@ Advantages of built-in integrations may include the following:
 * Built-in integrations cover many of the most common apps used by businesses, such as Slack, Google Drive, or Adobe products such as the Adobe Creative Cloud or Adobe Experience Manager Assets. If your company uses these apps already, the integration will go smoothly into your users' existing workflow. 
 * Integrating Workfront with a frequently-used application can increase adoption among your users.
 
-**Example:** With the Workfront for Microsoft integration, you can receive notifications in Microsoft Teams about your Workfront work items. Without leaving Microsoft Teams, you can perform actions like approving, commenting on, or changing the status of work items. Any changes you make to work items from Microsoft Teams are reflected in Workfront as well.
+>[!INFO]
+>
+>**Example:** 
+>
+>With the Workfront for Microsoft integration, you can receive notifications in Microsoft Teams about your Workfront work items. Without leaving Microsoft Teams, you can perform actions like approving, commenting on, or changing the status of work items. Any changes you make to work items from Microsoft Teams are reflected in Workfront as well.
+>
 For more information about built-in integrations, including a list of currently available built-in integrations, see [Adobe Workfront built-in integrations overview](../workfront-integrations-and-apps/built-in-integrations-non-admin.md).
 
 ## Custom OAuth2 applications
@@ -55,11 +60,15 @@ Advantages to using the Workfront API may include the following:
 * The Workfront API's flexibility also extends to your business's proprietary software. You can use and modify Workfront data from inside your own software.
 * Since APIs are so common to software, your in-house developers are likely familiar with them. Workfront uses a REST-ful API, the most common type of API, making it even easier for your developers to come up to speed quickly.
 
-**Example:** The following API call puts a comment into the update stream of the task with the specified ID.
-
-```
-https://`<your domain>`.workfront.com/attask/api-internal/note?noteText=<text of comment>&noteObjCode=TASK&objID=<task ID>&apiKey=<your API key>
-```
+>[!INFO]
+>
+>**Example:** 
+>
+>The following API call puts a comment into the update stream of the task with the specified ID.
+>
+>```
+>https://`<your domain>`.workfront.com/attask/api-internal/note?noteText=<text of comment>&noteObjCode=TASK&objID=<task ID>&apiKey=<your API key>
+>```
 
 For more information about the Workfront API, see [API basics](../wf-api/general/api-basics.md).
 
@@ -74,8 +83,12 @@ Advantages to Workfront Fusion may include the following:
 * Workfront Fusion doesn't require as much technical knowledge as the API because the visual interface aids in understanding and setting up the workflow. This means that it can be used by individuals outside of a development team, which may save your organization time and money.
 * Since Workfront Fusion works through the API, it can access most apps and web services. Many apps have modules to make API calls, or you can use the HTTP, SOAP, or JSON modules to interact with web services that don't have a dedicated Workfront Fusion connector.
 
-**Example:** The following Workfront module in Workfront Fusion is set up to add a comment to the selected project. After the module is executed, the comment is visible in the update stream of the project in Workfront.
-
-![](assets/fusion-example-comment-350x416.png)
+>[!INFO]
+>
+>**Example:** 
+>
+>The following Workfront module in Workfront Fusion is set up to add a comment to the selected project. After the module is executed, the comment is visible in the update stream of the project in Workfront.
+>
+>![](assets/fusion-example-comment-350x416.png)
 
 For more information about Workfront Fusion, see [Adobe Workfront Fusion](../workfront-fusion/workfront-fusion-2.md).
