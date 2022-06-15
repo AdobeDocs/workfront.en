@@ -8,16 +8,6 @@ feature: Work Management
 
 # Convert an issue to a project in Adobe Workfront
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below, is no longer the case - drafted)</p>
--->
-
-<!--
-<note type="note">
-The ability to convert an issue to a project using a template as described in this article was temporarily removed from the Production environment on March 4 and it was reverted to the previous experience. Converting issues to a project using a template as described in this article is currently being re-released to Production in a phased roll-out that started on April 28, 2022. Some customers might not see this functionality in their Production environment until the roll-out is completed. The functionality described in this article is available to all customers in the Preview environment.
-</note>
--->
-
 If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project.
 
 You can convert an issue to a new project or you can convert it to a project using a template. This article describes both ways for converting issues to projects.
@@ -51,26 +41,35 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Convert an issue to a project
 
 You can convert an issue to a blank project or convert an issue to a project using a template.
 
-1. Go to a project and click **Issues** in the left panel. 
+1. Go to a project and click **[!UICONTROL Issues]** in the left panel. 
 1. In the list of issues that displays, do one of the following:
 
-   * To convert an issue to a blank project, click the name of the issue, click the **More** menu ![](assets/more-icon.png)to the right of the issue name, then click **Convert to a blank project**.
+   * To convert an issue to a blank project, click the name of the issue, click the **[!UICONTROL More]** menu ![](assets/more-icon.png) to the right of the issue name, then click **[!UICONTROL Convert to a blank project]**.
 
-     <!--   
-     <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <p>Or</p>   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and in yellow - this is NOT possible yet in a list (in 22.1), but will be released later!) </p>   
-     <p>Select the issue in the list of issue, click the <strong>More</strong> menu <img src="assets/more-icon.png"> at the top of the list, then click <strong>Convert to a blank project</strong>. </p>   
-     </div>   
-     <blockquote>  <p>You must manually add tasks to the project or attach a template to the project after you convert the issue. </p>  <p>Continue with Step 3e below. <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">    (is this accurate?)   </MadCap:conditionalText></p> </blockquote>    
-     -->   
-   
+        
+     Or   
+      
+     Select the issue in the list of issue, click the **[!UICONTROL More]** menu ![](assets/more-icon.png) at the top of the list, then click **[!UICONTROL Convert to a blank project]**. 
+
+      >[!IMPORTANT]
+      >
+      >The Convert to a blank project option displays only when your system or group administrator enabled the [!UICONTROL Allow users to create projects without using a template] preference in the [!UICONTROL Setup] area. For more information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+
+     You must manually add tasks to the project or attach a template to the project after you convert the issue.
+     
+     Continue with Step 3e below. 
+     
+     <!--
+     Is this accurate?
+     -->
+       
      >[!TIP]
      >   
      >* If the issue was created using a request queue, the new project inherits the request queue's Group. 
@@ -78,7 +77,7 @@ You can convert an issue to a blank project or convert an issue to a project usi
 
    * To convert an issue to a project using a template, do one of the following:
 
-      * Click the name of an issue, then click the **More** menu ![](assets/more-icon.png) to the right of the issue name
+      * Click the name of an issue, then click the [!UICONTROL **More**] menu ![](assets/more-icon.png) to the right of the issue name
 
         ![](assets/issue-more-menu-expanded-with-convert-to-project-options-nwe-350x213.png)
 
@@ -87,16 +86,14 @@ You can convert an issue to a blank project or convert an issue to a project usi
       * Select the issue in the list of issues, in a report, or dashboard, click the **More** menu ![](assets/more-icon.png) at the top of the list, then click **Convert to project from Template** and start typing the name of a template in the **Search Template** box, then click the name of the template when it displays in the list. Continue with Step 3.       
       
         <!--      
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
         (is this accurate?)      
-        </MadCap:conditionalText>      
         -->
 
      >[!TIP]
      >
-     >If you have added templates to your Favorites list, you can hover over the **Favorite templates** menu and click the template you want to use.
+     >If you added templates to your Favorites list, you can mouse over the [!UICONTROL **Favorite templates**] menu and click the template you want to use.
 
-     The New Project from Template box displays
+     The New Project from Template box displays. 
 
      ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
