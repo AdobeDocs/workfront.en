@@ -21,13 +21,13 @@ Because GUID user names can be difficult to use, we recommend you first change a
 >
 >You can find a user's GUID in the following ways: 
 >
->* Go to the user's profile and copy the GUID from the URL in your browser. For example, in the URL *https://acme.workfront.com/user/61941ab1000af22d7104628efa1c738b/details*, you would copy the string of numbers and letters between the last two forward slashes: *61941ab1000af22d7104628efa1c738b*.
+>* Go to the user's profile and copy the GUID from the URL in your browser. 
+>
+>  For example, in the URL `https://acme.workfront.com/user/61941ab1000af22d7104628efa1c738b/details`, you would copy the string of numbers and letters between the last two forward slashes: `61941ab1000af22d7104628efa1c738b`.
 >
 >  For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 >
->* Create a user report with a User > GUID column.
->
->  For more information, see [Create a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+>* Create a user report with a User > GUID column. For more information, see [Create a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 >
 >* Query the Workfront API.
 >
@@ -63,7 +63,7 @@ You must have the following access to perform the steps in this article:
 
    You receive a response similar to the following:
 
-   ![](assets/getguid-350x105.png)
+   ![](assets/get-guid.png)
 
    The return for "username" is the user's GUID.
 
@@ -75,7 +75,9 @@ You must have the following access to perform the steps in this article:
 
 1. With the user logged in to Workfront, navigate to:
 
-   https://`<your domain>`.my.workfront.com/login/convertUsername
+   ```
+   https://<your domain>.my.workfront.com/login/convertUsername
+   ```
 
 1. In the **Your login email address** box, verify that user's email address is correct, then click **Update Account**.
 

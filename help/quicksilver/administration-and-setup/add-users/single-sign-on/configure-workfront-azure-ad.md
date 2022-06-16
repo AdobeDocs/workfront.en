@@ -96,7 +96,7 @@ To configure the integration of Workfront SSO with Azure Active Directory, you n
    * **Sign-on URL**: your Workfront URL using the following pattern: https://`<companyname>`.my.workfront.com  
    * **Identifier**: your Workfront SAML 2.0 URL using the following pattern: https://`<companyname>`.my.workfront.com/SAML2
 
-   ![](assets/tutorial-workfront-url-350x47.png)
+     ![](assets/tutorial-workfront-url-350x47.png)
 
 1. In the **SAML Signing Certificate** section, click **Certificate(Base64)** and then save the Certificate file on your computer.
 
