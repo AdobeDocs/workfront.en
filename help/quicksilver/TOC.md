@@ -478,7 +478,7 @@ feature-set: Workfront
       * [Task statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
       * [List issue statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
       * [Create or edit a status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
-      * [Reorder statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md)
+      * [Change display order of statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md)
       * [Locked and unlocked system-level statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)
       * [Make custom statuses default statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)
       * [Delete a custom status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)

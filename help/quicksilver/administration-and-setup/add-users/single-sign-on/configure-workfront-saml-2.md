@@ -104,37 +104,44 @@ You must have the following access to perform the steps in this article:
         <li>First Name</li> 
         <li>Last Name</li> 
         <li>Email Address</li> 
-       </ul> <p>The following options display to allow you to do this:</p> <p> <img src="assets/saml-2.0-auto-provision-users-ui.png" alt="saml_2.0_auto-provision_users_ui.png"> </p> <p>Select the Workfront User Attribute that you want to map from the drop-down list, then specify the corresponding Directory Attribute in the user directory.</p> <p>The <strong>Directory Attribute</strong> field should contain the Directory Attribute Name from the User Attribute table you saved when successfully testing your SAML 2.0 configuration.</p> <p>You can set a Default Workfront Value in the <strong>Default Value</strong> field. You can also set rules based on the values from your SAML 2.0 Identity Provider.</p> <p><b>WARNING</b>: Workfront attempts to map the attributes listed below every time a user logs into the system. Because of this, we do not recommend mapping access levels. You can easily remove administrative access if an attribute is mapped incorrectly. Click Add Mapping to add additional rules.<em><br></em></p> <p>You can map the following Workfront attributes:</p> 
-       
-           <ul> 
-            <li> <p>Access Level</p> </li> 
-            <li> <p>Address</p> </li> 
-            <li> <p>Address2</p> </li> 
-            <li> <p>Billing Per Hour</p> </li> 
-            <li> <p>City</p> </li> 
-            <li> <p>Company</p> </li> 
-            <li> <p>Cost Per Hour</p> </li> 
-            <li> <p>Email Address</p> </li> 
-            <li> <p>Extension</p> </li> 
-            <li> <p>First Name</p> </li> 
-            <li> <p>Home Group</p> </li> 
-            <li> <p>Home Team</p> </li> 
-            <li> <p>Job Role</p> </li> 
-            <li> <p>Last Name</p> </li> 
-            <li> <p>Layout Template</p> </li> 
-            <li> <p>Manager</p> </li> 
-            <li> <p>Mobile Phone</p> </li> 
-            <li> <p>Phone Number</p> </li> 
-            <li> <p>Postal Code</p> </li> 
-            <li> <p>Schedule</p> </li> 
-            <li> <p>State</p> </li> 
-            <li> <p>Timesheet Profile</p> </li> 
-            <li> <p>Title</p> </li> 
-           </ul> </td> 
+       </ul> 
+       <p>The following options display to allow you to do this:</p> 
+       <p> <img src="assets/saml-2.0-auto-provision-users-ui.png"> </p> 
+       <p>Select the Workfront User Attribute that you want to map from the drop-down list, then specify the corresponding Directory Attribute in the user directory.</p> 
+       <p>The <strong>Directory Attribute</strong> field should contain the Directory Attribute Name from the User Attribute table you saved when successfully testing your SAML 2.0 configuration.</p> 
+       <p>You can set a Default Workfront Value in the <strong>Default Value</strong> field. You can also set rules based on the values from your SAML 2.0 Identity Provider.</p> 
+       <p><b>WARNING</b>: Workfront attempts to map the attributes listed below every time a user logs into the system. Because of this, we do not recommend mapping access levels. You can easily remove administrative access if an attribute is mapped incorrectly. Click Add Mapping to add additional rules.
+       </p> 
+       <p>You can map the following Workfront attributes:</p> 
+      <ul> 
+      <li> <p>Access Level</p> </li> 
+      <li> <p>Address</p> </li> 
+      <li> <p>Address2</p> </li> 
+      <li> <p>Billing Per Hour</p> </li> 
+      <li> <p>City</p> </li> 
+      <li> <p>Company</p> </li> 
+      <li> <p>Cost Per Hour</p> </li> 
+      <li> <p>Email Address</p> </li> 
+      <li> <p>Extension</p> </li> 
+      <li> <p>First Name</p> </li> 
+      <li> <p>Home Group</p> </li> 
+      <li> <p>Home Team</p> </li> 
+      <li> <p>Job Role</p> </li> 
+      <li> <p>Last Name</p> </li> 
+      <li> <p>Layout Template</p> </li> 
+      <li> <p>Manager</p> </li> 
+      <li> <p>Mobile Phone</p> </li> 
+      <li> <p>Phone Number</p> </li> 
+      <li> <p>Postal Code</p> </li> 
+      <li> <p>Schedule</p> </li> 
+      <li> <p>State</p> </li> 
+      <li> <p>Timesheet Profile</p> </li> 
+      <li> <p>Title</p> </li> 
+      </ul> </td> 
           <td> </td> 
          </tr> 
         </tbody> 
-       </table> <p>Click <strong>Save</strong> when you are finished mapping user attributes.</p> </td> 
+        <p>Click <strong>Save</strong> when you are finished mapping user attributes.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Certificate </td> 
@@ -142,7 +149,9 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Admin Exemption </td> 
-      <td> <p>Allows Workfront administrators to access Workfront using their Workfront login. If this option is not selected, Workfront administrators must use their SAML 2.0 username and password.</p> <p>Workfront first attempts to log in to Workfront via SAML 2.0 for users with the Workfront System Administrator access level. If the SAML 2.0 authentication fails, Workfront uses local authentication for Workfront administrators.<br></p> <p>We recommend that you always have this option selected so that your Workfront administrator can log in to Workfront if your SAML 2.0 provider is ever temporarily unavailable.<br></p> </td> 
+      <td> <p>Allows Workfront administrators to access Workfront using their Workfront login. If this option is not selected, Workfront administrators must use their SAML 2.0 username and password.</p> 
+      <p>Workfront first attempts to log in to Workfront via SAML 2.0 for users with the Workfront System Administrator access level. If the SAML 2.0 authentication fails, Workfront uses local authentication for Workfront administrators.</p> 
+      <p>We recommend that you always have this option selected so that your Workfront administrator can log in to Workfront if your SAML 2.0 provider is ever temporarily unavailable.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Enable </td> 
@@ -150,7 +159,13 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Confirm Configuration </td> 
-      <td> <p>Click <strong>Test Connection</strong> to verify that Workfront and the SAML 2.0 Identity Provider can communicate with each other. This connection is successful only if you exchanged the XML files.</p> <p>After you successfully test the link between your SAML 2.0 Identity Provider and Workfront, you see a screen similar to the one below.<br><p><b>NOTE</b>:  This screen is displayed in a browser pop-up, so ensure that you disable pop-up blockers in your browser.<br></p>Save the information displayed in the table for later use.<img src="assets/2g.png"></p> </td> 
+      <td> 
+      <p>Click <strong>Test Connection</strong> to verify that Workfront and the SAML 2.0 Identity Provider can communicate with each other. This connection is successful only if you exchanged the XML files.
+      </p> 
+      <p>After you successfully test the link between your SAML 2.0 Identity Provider and Workfront, you see a screen similar to the one below.</p>
+      <p><b>NOTE</b>:  This screen is displayed in a browser pop-up, so ensure that you disable pop-up blockers in your browser.</p>
+      <p>Save the information displayed in the table for later use.</p>
+      <p><img src="assets/success-table-saml-2.png"></p></td> 
      </tr> 
     </tbody> 
    </table>

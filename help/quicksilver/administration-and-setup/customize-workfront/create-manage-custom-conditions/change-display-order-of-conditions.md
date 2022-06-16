@@ -14,11 +14,11 @@ You can change the order in which Conditions display in projects, tasks and issu
 
 * When a user is editing a project
 
-  ![](assets/change-condition-edit-project-350x96.png)
+  ![](assets/change-condition-edit-project.png)
 
 * When a user is changing the condition for a task or issue
 
-  ![](assets/change-conditions-list-drop-down-only-350x172.png)
+  ![](assets/change-conditions-list-dropdown-only.png)
 
 ## Access requirements
 

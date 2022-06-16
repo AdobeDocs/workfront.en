@@ -71,11 +71,11 @@ Complete the following sections to configure Okta as your identity provider in W
    1. Without exiting the browser tab where the Okta interface is displayed, open a separate browser tab or window.
    1. Specify the following URL in the browser:
 
-      *https://[your_customer_subdomain].my.workfront.com/auth/saml2/metadata*
+      `https://[your_customer_subdomain].my.workfront.com/auth/saml2/metadata`
    
    1. In the resulting XML file, identify the values for **entityID** and **Location**.
 
-      ![sso-okta.png](assets/sso-okta-350x108.png)
+      ![sso-okta.png](assets/sso-okta.png)
 
    1. Copy the value from the **entityID** field to your system clipboard. Do not close this browser tab.
 
@@ -107,7 +107,7 @@ This procedure provides essential information for configuring Okta as an identit
    1. Click the Workfront app that you created, as described in the section, [Create a Workfront app in Okta](#create-a-workfront-app-in-okta)
    1. On the **Sign On** tab, click **Identity Provider metadata**.
 
-      ![idp_okta_metadata.png](assets/idp-okta-metadata-350x243.png)
+      ![idp_okta_metadata.png](assets/idp-okta-metadata.png)
 
       The metadata is opened as XML in a new browser tab.
    

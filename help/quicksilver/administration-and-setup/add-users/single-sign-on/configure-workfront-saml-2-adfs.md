@@ -112,27 +112,34 @@ To enable authentication to the Workfront web application and the Workfront mobi
 
 1. Specify the following minimum requirements to configure the claim rule: (This will go in the **Federation ID** on the user setup and is used to distinguish who is logging in.)
     
-**Claim rule name:**
-    
-1. Specify a name for the claim rule. For example, "Workfront."
-    
-   Attribute store
-    
-    Select **Active Directory** from the drop-down menu.
-    
-    LDAP Attribute
-    
-    This can be any type of attribute. We recommend using **SAM-Account-Name** for this attribute.
-    
-    Outgoing Claim Type
-    
-    You must select **Name ID** as the outgoing claim type
-    
+
+   <table >                
+      <tbody>
+            <tr>
+               <td>Claim rule name
+               </td>
+               <td>Specify a name for the claim rule. For example, "Workfront."</td>
+            </tr>
+            <tr>
+               <td>Attribute store</td>
+               <td >Select <b>Active Directory</b> from the drop-down menu.</td>
+            </tr>
+            <tr>
+               <td>LDAP Attribute</td>
+               <td>This can be any type of attribute. We recommend using <b>SAM-Account-Name</b> for this attribute.</td>
+            </tr>
+            <tr>
+               <td>Outgoing Claim Type</td>
+               <td>You must select <b>Name ID</b> as the outgoing claim type</td>
+            </tr>
+      </tbody>
+   </table>
+
 1. (Optional) In order to establish auto provisioning, add the following additional claims in both the LDAP Attribute and Outgoing Claim Type:
     
-    *   **Given Name**
-    *   **Surname**
-    *   **E-Mail Address**
+    * Given Name
+    * Surname
+    * E-Mail Address
 
 1. Click **Finish**, then click **OK** on the next screen.
 1. Right-click the new **Relying Party Trust**, then select **Properties**.
@@ -151,7 +158,7 @@ To enable authentication to the Workfront web application and the Workfront mobi
 
 ### Upload the metadata file and test the connection {#upload-the-metadata-file-and-test-the-connection}
 
-1. Open a browser and navigate to https://`<yourserver>`/FederationMetadata/2007-06/FederationMetadata.xml.
+1. Open a browser and navigate to `https://<yourserver>/FederationMetadata/2007-06/FederationMetadata.xml` .
 
    This should download a Metadata file FederationMetadata.xml file.
 
@@ -161,7 +168,7 @@ To enable authentication to the Workfront web application and the Workfront mobi
 
 1. Click **Test Connection**. If set up correctly, you should see a page similar to the one shown below:
 
-   ![](assets/screen-shot-2014-10-22-at-3.09.17-pm-adobe-branding-350x120.png)
+   ![](assets/success-saml-2.png)
 
    >[!NOTE]
    >

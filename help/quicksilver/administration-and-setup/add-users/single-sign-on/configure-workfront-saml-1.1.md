@@ -11,16 +11,12 @@ role: Admin
 # Configure Adobe Workfront with SAML 1.1
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***&nbsp;DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
 {{important-admin-console-onboard}}
 
->[!IMPORTANT]
->
->Security Assertion Markup Language (SAML) 1.1 is now supported only in a limited capacity as a single sign-on (SSO) option; it will be removed from the product in 2020. We recommend moving to SAML 2.0. For more information, see [Configure Adobe Workfront with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
-
-The following sections provide information about using SAML 1.1 with Adobe Workfront.
+You can use SAML 1.1 with Adobe Workfront.
 
 ## Access requirements
 
@@ -53,7 +49,7 @@ Unlike other single sign-on solutions, auto-provisioning users and attribute-map
 
 ## Configure the SAML 1.1 server to communicate with Workfront
 
-In order to have home page landing preferences honored when implementing a Federated ID (SAML) SSO environment, you need to make sure the federated server is set up to point to *https://[Assigned Company Sub-domain].Workfront-ondemand.com/Workfront/.*
+In order to have home page landing preferences honored when implementing a Federated ID (SAML) SSO environment, you need to make sure the federated server is set up to point to `https://[Assigned Company Sub-domain].Workfront-ondemand.com/Workfront/.`
 
 ## Configure Workfront with SAML 1.1
 

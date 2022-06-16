@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 
    To edit an existing condition, hover over the condition you want to edit, then click the **Edit** icon that appears to the far right.
 
-   ![](assets/custom-condition-edit-nwe-350x137.jpg)
+   ![](assets/custom-condition-edit-nwe.jpg)
 
 1. Configure your custom condition using the following options:
 
@@ -71,15 +71,20 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Equates With </td> 
-      <td>(Required, for projects only) Click the option in the drop-down list that best describes the function of your new condition. For example, for a condition named Tracking Well, you would click On Target. This determines how your default conditions work. Every condition you create must equate with one of the options in the drop-down menu.<p> For information about default conditions, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Set a custom condition as the default for projects</a> and <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">Set a custom condition as the default for tasks and issues</a>.</p><p>This option cannot be modified after you finish creating the condition.</p></td> 
+      <td>(Required, for projects only) Click the option in the drop-down list that best describes the function of your new condition. For example, for a condition named Tracking Well, you would click On Target. This determines how your default conditions work. Every condition you create must equate with one of the options in the drop-down menu.
+      <p>For information about default conditions, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Set a custom condition as the default for projects</a> and <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">Set a custom condition as the default for tasks and issues</a>.</p>
+      <p>This option cannot be modified after you finish creating the condition.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Key</td> 
-      <td>(Required) For a project condition, type an alphanumeric abbreviation that users will be able to recognize. For a task or issue condition, type a two-digit numeric code from 01 to 99. <p>This key, which is used in the API and can be used for reporting purposes, must&nbsp;be unique for each object.</p><p>You cannot change the key for a condition after you save the condition. </p></td> 
+      <td>(Required) For a project condition, type an alphanumeric abbreviation that users will be able to recognize. For a task or issue condition, type a two-digit numeric code from 01 to 99. 
+      <p>This key, which is used in the API and can be used for reporting purposes, must be unique for each object.</p>
+      <p>You cannot change the key for a condition after you save the condition. </p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Hide Condition</td> 
-      <td>(Optional) This option is available for custom conditions that you no longer want people to use, but want to keep for historical reasons. <p>If you hide a custom condition that has been used on work items, it continues to appear on those work items after you hide it. </p></td> 
+      <td>(Optional) This option is available for custom conditions that you no longer want people to use, but want to keep for historical reasons. 
+      <p>If you hide a custom condition that has been used on work items, it continues to appear on those work items after you hide it. </p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -94,15 +99,15 @@ You must have the following access to perform the steps in this article:
 
    * When a user is editing a project
 
-     ![](assets/change-condition-edit-project-350x96.png)
+     ![](assets/change-condition-edit-project.png)
 
    * When a user is changing the condition for a task or issue on the Updates tab:
 
-     ![](assets/change-condition-update-comment-350x141.png)
+     ![](assets/change-condition-update-comment.png)
 
    * When a user is changing the condition for a task or issue in a list view:
 
-     ![](assets/change-conditions-list-drop-down-only-350x172.png)
+     ![](assets/change-conditions-list-dropdown-only.png)
 
 1. Click **Save**.
 
