@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: convert-issues
 title: Convert an issue to a task in Adobe Workfront
-description: If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a task.
+description: If more work must be done to complete an issue after the issue is submitted, you can convert the issue to a task.
 feature: Work Management
 ---
 
 # Convert an issue to a task in&nbsp;Adobe Workfront
 
-If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a task.
+If more work must be done to complete an issue after the issue is submitted, you can convert the issue to a task.
 
 For general information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >If the issue is associated with an approval process or it is already associated with a resolving object, Workfront displays a warning at the top of the Convert to Project box to notify you that the approval will be removed or the resolving object will be overwritten during the conversion. For more information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+   >If the issue is associated with an approval process or it is already associated with a resolving object, Workfront displays a warning at the top of the [!UICONTROL Convert to Project] box to notify you that the approval is removed or the resolving object is overwritten during the conversion. For more information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 1. Update the task name in the [!UICONTROL Task Name] section. By default, the name of the task will be the same name as that of the original issue.
 
@@ -69,7 +69,7 @@ You must have the following access to perform the steps in this article:
 
    The Workfront administrator or group administrator must enable these preferences before they are visible during the conversion of issues:
 
-   * [!UICONTROL **Keep the original issue and tie its resolution to the this task**]
+   * [!UICONTROL **Keep the original issue and tie its resolution to this task**]
 
      If unselected, the original issue is deleted.
 
