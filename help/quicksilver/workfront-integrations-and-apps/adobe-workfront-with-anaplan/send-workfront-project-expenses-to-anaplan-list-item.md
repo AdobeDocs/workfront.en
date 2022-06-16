@@ -42,7 +42,7 @@ You must have the following in Anaplan to use this scenario:
 * The List within the Anaplan Model that you want capture campaign budgets.
 * An **Anaplan Actual Expense Import** file that contains the following columns, in this order:
 
-1. Workfront Expense GUID
+   1. Workfront Expense GUID
 
   2. Workfront Project GUID
 
@@ -75,7 +75,7 @@ You must have the following in Anaplan to use this scenario:
 
 * An **Anaplan Planned Expense Import** file that contains the following columns, in this order:
 
-1. Workfront Expense GUID
+  1. Workfront Expense GUID
 
   2. Workfront Project GUID
 
