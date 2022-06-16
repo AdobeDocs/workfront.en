@@ -31,27 +31,8 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Work, Plan</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <p>[Insert any access level configurations needed]
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Example: Edit access to Documents
-       </MadCap:conditionalText>
-      </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> 
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
-     </td> 
-   </tr>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>[Insert permissions needed and specify the object]
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Example: View access or higher on Documents
-       </MadCap:conditionalText>
-      </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> </tbody> 
+  </tr> 
+ </tbody> 
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
@@ -87,7 +68,7 @@ To manage the Workfront notifications that you can receive in Microsoft Teams:
    ![](assets/ms-teams-more-added-apps-icon.png)
 
 1. Click Workfront in the list that appears.
-1. Select the **Settings**tab.
+1. Select the **Settings** tab.
 
    ![](assets/ms-teams-settings-tab-350x552.png)
 
@@ -106,7 +87,7 @@ To manage the Workfront notifications that you can receive in Microsoft Teams:
 1. Log in to Workfront from Microsoft Teams.  
    For information about logging in to Workfront, see [Install Adobe Workfront for Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).  
 
-1. Go to the **Chat** area and click the&nbsp;**Workfront**bot&nbsp;channel.  
+1. Go to the **Chat** area and click the&nbsp;**Workfront** bot&nbsp;channel.  
    This channel is for your personal chat with the Workfront bot. All Workfront notifications display here.&nbsp;
 1. Depending on what type of notification you receive, proceed&nbsp;to the relevant section:
 

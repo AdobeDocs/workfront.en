@@ -32,27 +32,7 @@ You must have the following access to use the functionality described in this ar
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <p>[Insert any access level configurations needed]
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Example: Edit access to Documents
-       </MadCap:conditionalText>
-      </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> 
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
-     </td> 
-   </tr>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>[Insert permissions needed and specify the object]
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Example: View access or higher on Documents
-       </MadCap:conditionalText>
-      </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> </tbody> 
+  </tr>  </tbody> 
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
@@ -78,21 +58,17 @@ The following subsections describe how to install Workfront for your Salesforce 
 
 ### Installing Workfront for Salesforce before It Becomes Available in the AppExchange Marketplace {#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace}
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This section needs to be removed when our app is accepted by Salesforce and added to their store.</p>
--->
-
 Workfront for Salesforce will be available in the Salesforce AppExchange soon.
 
 To install the app before it's available:
 
 1. In your Production environment, go to
 
-   https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002aUZY
+   `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002aUZY`
 
    In your Sandbox environment, go to
 
-   https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002aUZY
+   `https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002aUZY`
 
 1. Check the **Yes, grant access to these third-party web sites** box.
 
@@ -124,7 +100,7 @@ To install the app before it's available:
 
 1. Log in to Salesforce as a system administrator.
 1. Go to **Setup.**
-1. In the**Build** section, click **AppExchange Marketplace**.
+1. In the **Build** section, click **AppExchange Marketplace**.
 
 1. In the **Search AppExchange Apps** box, type **Workfront**. 
 
@@ -162,7 +138,7 @@ To install the app before it's available:
 1. Log in to Salesforce as a system administrator.
 1. Click the&nbsp;**Setup icon**, then click **Setup**.
 
-1. In the**PLATFORM TOOLS** section, expand **Apps.**
+1. In the **PLATFORM TOOLS** section, expand **Apps.**
 
 1. Click **AppExchange Marketplace**.
 1. In the **Search AppExchange Apps** box, type **Workfront**. 
@@ -172,7 +148,7 @@ To install the app before it's available:
    You must sign in with your Workfront administrator account for Salesforce. 
 
 1. Click **Allow**. 
-1. In the **Install in This Org** box, click **Install Here**to install Workfront in your Salesforce Production environment.&nbsp;(recommended) 
+1. In the **Install in This Org** box, click **Install Here** to install Workfront in your Salesforce Production environment.&nbsp;(recommended) 
 
 1. Select the **I have read and agree to the terms and conditions** field after you have read and agreed with the terms and conditions. 
 1. Click **Confirm and Install**. 
@@ -187,7 +163,7 @@ To install the app before it's available:
    &nbsp; ![salesforce_lightning_Installed_packages.png](assets/salesforce-lightning-installed-packages-350x171.png)
 
 1. Navigate to **Setup.**
-1. In the **SETTINGS**section, expand**Security.**
+1. In the **SETTINGS** section, expand**Security.**
 
 1. Click **Remote Site Settings**.
 1. (Conditional) If you do not see your Workfront URL listed in the **All Remote Sites** list, click **New Remote Site**.

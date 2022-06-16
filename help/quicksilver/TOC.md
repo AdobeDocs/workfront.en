@@ -359,7 +359,7 @@ feature-set: Workfront
       * [Log in as another user](administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
       * [Reset a user's preferences](administration-and-setup/add-users/create-and-manage-users/reset-a-users-preferences.md)
       * [Change a username](administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
-      * [Password for auto-provisioned user](administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
+      * [Change the password for an auto-provisioned user](administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
       * [Map user attributes](administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
       * [Deactivate a user](administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
       * [Delete users](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
