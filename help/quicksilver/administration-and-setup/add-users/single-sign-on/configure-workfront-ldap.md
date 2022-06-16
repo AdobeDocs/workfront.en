@@ -59,7 +59,7 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Server</td> 
-      <td> <p>The URL of the LDAP server where your directory service is running.</p> <p>For example, <code>ldap://hostname.com</code>.<br>Or, if the LDAP server requires an SSL connection, <code>ldaps://hostname.com</code>.</p> </td> 
+      <td> <p>The URL of the LDAP server where your directory service is running.</p> <p>For example, <code>ldap://hostname.com</code>.</p><p>Or, if the LDAP server requires an SSL connection, <code>ldaps://hostname.com</code>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Port</td> 
@@ -124,7 +124,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Confirm Configuration</td> 
-      <td>Verify that your Workfront account can connect to the LDAP server using the connection information and credentials provided.<p>Click <strong>Test Connection</strong>, then specify the <strong>Username</strong> and <strong>Password</strong> for accessing the directory service, then click <strong>Test Connection</strong>.</p><p><img src="assets/sso-active-directory-and-ladap-test-connection-350x166.png" alt="sso_active_directory_and_ladap_test_connection.png" style="width: 350;height: 166;"></p><p>You should receive an on-screen notification that the connection was successful.</p></td> 
+      <td>Verify that your Workfront account can connect to the LDAP server using the connection information and credentials provided.<p>Click <strong>Test Connection</strong>, then specify the <strong>Username</strong> and <strong>Password</strong> for accessing the directory service, then click <strong>Test Connection</strong>.</p><p><img src="assets/sso-active-directory-and-ladap-test-connection-350x166.png" alt="sso_active_directory_and_ladap_test_connection.png"></p><p>You should receive an on-screen notification that the connection was successful.</p></td> 
      </tr> 
     </tbody> 
    </table>

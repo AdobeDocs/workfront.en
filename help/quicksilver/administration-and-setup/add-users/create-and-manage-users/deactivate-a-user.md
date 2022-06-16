@@ -53,7 +53,7 @@ You must have the following to perform the steps in this article:
    <td> <p>You must have one of the following:</p> 
     <ul> 
      <li> <p>The System Administrator access level. For information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
-     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b><img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if User <b>Admin (Group Users)</b> is enabled, you must be a group administrator of a group where the user is a member.</p> <p>For more information about the <b>Users</b> setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
+     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if User <b>Admin (Group Users)</b> is enabled, you must be a group administrator of a group where the user is a member.</p> <p>For more information about the <b>Users</b> setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -84,7 +84,7 @@ To schedule a user for deactivation:
    (Optional) Select multiple users to schedule them for deactivation in bulk.
 
 1. Click the Edit icon ![](assets/edit-icon.png).
-1. In the Edit User box that displays, click **Resource Planning** to go to that area.;
+1. In the Edit User box that displays, click **Resource Planning** to go to that area.
 1. Enable the **Schedule Deactivation** option.  
 
 1. In the calendar that displays, specify the date and the time for the **Scheduled Deactivation Date**.
@@ -110,9 +110,9 @@ We recommend that you build a report for users that you have scheduled for deact
 
 ### Proofing impact when you reactivate a user
 
-Deactivated users lose their assigned default proofing role and their proof license (if you are on a Workfront Premium Legacy Plan). If you choose to reactivate the user, you must
+Deactivated users lose their assigned default proofing role and their proof license (if you are on a Workfront Premium Legacy Plan). If you choose to reactivate the user, you must:
 
-* Reassign the license (if you are on a Workfront Premium Legacy Plan). For more information about Workfront proofing plans, see [Access to proofing functionality in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
+* Reassign the license (if you are on a Workfront Premium Legacy Plan). For more information about Workfront proofing plans, see [Access to proofing functionality in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 * Verify they have the correct proof role. Reactivated proof users are assigned whatever is specified as the default proof role for new users. See [Configure default proofing roles](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) for more information.
 
 ## About deactivating Workfront administrators and Plan license users
