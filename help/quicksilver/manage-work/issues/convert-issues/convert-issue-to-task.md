@@ -39,13 +39,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Convert an issue to a task
 
-1. Go to a project and click **Issues** in the left panel.  
+1. Go to a project and click [!UICONTROL **Issues** ] in the left panel.  
 1. Click the issue you want to convert to go to the issue's landing page. 
-1. Click the **More** menu on the issue, then **Convert to Task**.
+1. Click the [!UICONTROL **More**] menu on the issue, then [!UICONTROL **Convert to Task**].
 
    ![](assets/qs-issue-more-menu-highlighted-350x469.png)
 
@@ -53,41 +53,42 @@ You must have the following access to perform the steps in this article:
    >
    >If the issue is associated with an approval process or it is already associated with a resolving object, Workfront displays a warning at the top of the Convert to Project box to notify you that the approval will be removed or the resolving object will be overwritten during the conversion. For more information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Name the task.
-1. Identify the project where the task will reside.
+1. Update the task name in the [!UICONTROL Task Name] section. By default, the name of the task will be the same name as that of the original issue.
 
-   You can select a different project from the project that the issue is on.
+   ![](assets/convert-to-task-box-nwe.png)
 
-1. In the **Project** box, start typing the name of the project where you want to put the new task, then press **Enter** when it appears.
+1. Click [!UICONTROL **Destination Project**], then start typing the name of the project where you want to place the new task in the [!UICONTROL **Destination Project**] field and select it when it displays in the list. The issue's project is selected by default.
 
-   By default, this box the name of the project containing the issue that you are converting.
+1. Click [!UICONTROL **Overview**], then type a [!UICONTROL **Description**] for the task. 
 
-1. (Optional and conditional) Under **Options**, select any of the following options.
+   >[!TIP]
+   >
+   >   A system or group administrator might change the order of the sections in the left panel of the conversion box by modifying your layout template.
+
+1. (Optional and conditional) Click [!UICONTROL **Options**], select any of the options below.
 
    The Workfront administrator or group administrator must enable these preferences before they are visible during the conversion of issues:
 
-   * **Keep the original issue and tie its resolution to the this task**
+   * [!UICONTROL **Keep the original issue and tie its resolution to the this task**]
 
      If unselected, the original issue is deleted.
 
      >[!NOTE]
      >
      >Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:
-     >
-     >   
      >   
      >   * [Grant access to issues](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md) 
      >   * [Share an issue](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) 
      >   
      >
 
-   * **Allow `<User Name>` to have access to this task**
+   * [!UICONTROL **Allow (User Name) to have access to this task**]
 
      If unselected, the issue's Primary Contact has no access to the new task.
    
-   * **Keep the planned completion date of the issue**
+   * [!UICONTROL **Keep the planned completion date of the issue**]
 
-     If unselected, the Planned Completion Date of the new task is calculated from the Planned Start Date of the task. The Planned Start Date of the new task is set according to the system preferences for new tasks.
+     If unselected, the [!UICONTROL Planned Completion Date] of the new task is calculated from the [!UICONTROL Planned Start Date] of the task. The [!UICONTROL Planned Start Date] of the new task is set according to the system preferences for new tasks.
 
      >[!NOTE]
      >
@@ -96,25 +97,15 @@ You must have the following access to perform the steps in this article:
      >
      >Or, if the top-level groups in your organization configured them separately, the options that display here depend on which group is associated with the project you selected in step 6. For more information, see [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-1. (Optional) Attach custom forms.
-
-   If you want to transfer custom form information from the issue you are converting to the project, add the project custom form that contains the same fields whose information you want to transfer from the issue.
-
-   For more information about transferring information from the custom form of the issue to that of the new task, see [Transfer custom form data when converting an object](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
-
-   ![](assets/qs-issue-convert-to-task-before-saving-ui-350x367.png)
+1. (Optional) Click [!UICONTROL **Custom Forms**] and attach a custom form for the new task.
 
    >[!TIP]
    >
+   >If a multi-object custom form attached to the issue is configured for use with both issues and tasks, the form is attached by default. All information saved in the issue form is retained for the task when you make the conversion.
    >
-   >
-   ><!--   >
-   ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can transfer custom form information from the issue to the task by adding a duplicate project-type custom form (with the same fields that are on the issue-type custom form) to the new project. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md" class="MCXref xref">Transfer custom form data when converting an object</a>. (NOTE:&nbsp;drafted, no longer the case for NWE)</p>   >
-   >-->   
-   >
-   >If a multi-object custom form attached to the issue is configured for use with both issues and tasks, all information saved in the form is retained when you make the conversion.
+   >If the destination project has any default forms defined in the Task Default Custom Forms field when editing the project, those task forms are also added to the new task. Any custom fields that are common between the original issue and the fields on the default task forms are pre-populated with information from the issue fields. 
 
-1. Click **Save Changes** when all task settings are set.
+1. Click [!UICONTROL **Convert to task**]. 
 
    The issue is now a task on the designated project, if you decided to delete the original issue.
 
@@ -124,23 +115,22 @@ You must have the following access to perform the steps in this article:
 
    Some issue fields transfer to the task. For information, see the [View original issue information on projects and tasks](#view-original-issue-information-on-projects-and-tasks) section in this article.
 
-1. (Optional) Continue editing the task (assignments, dates) as necessary.
+1. (Optional) Continue editing the task as necessary.
 
 ## View original issue information on projects and tasks {#view-original-issue-information-on-projects-and-tasks}
 
 You can view the original issue information in project and task lists and reports or in the Project Details area. For information about building reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-The following table illustrates which&nbsp;issue fields are visible from the converted projects and tasks. 
+The following table illustrates which issue fields are visible from the converted projects and tasks. 
 
 | Issue fields |Project or task field |Project list or report |Project Details area |Task list or report |Task Details area |
 |---|---|---|---|---|---|
-| Issue Name |Converted Issue Name |✔ |✔ |✔ |✔ |
-| Primary Contact | `Converted Issue` Originator Name |✔ | `✔`  |✔ |&nbsp; |
-| Entry Date |Converted Issue Entry&nbsp;Date |✔ |&nbsp; |✔ |&nbsp; |
+| [!UICONTROL Issue Name] |[!UICONTROL Converted Issue Name] |✔ |✔ |✔ |✔ |
+| [!UICONTROL Primary Contact] | [!UICONTROL Converted Issue Originator Name] |✔ | ✔  |✔ |
+| [!UICONTROL Entry Date] |[!UICONTROL Converted Issue Entry Date] |✔ ||✔ |
 
-{style="table-layout:auto"}
 
 >[!CAUTION]
 >
->If the Primary&nbsp;Contact of an issue changes or if the issue becomes unlinked from the project or task after the issue has been converted, the Converted Issue Originator Name does not update and it displays the original&nbsp;Primary&nbsp;Contact of the issue at the time the issue was converted.
+>If the [!UICONTROL Primary Contact] of an issue changes or if the issue becomes unlinked from the project or task after the issue has been converted, the [!UICONTROL Converted Issue Originator Name ]does not update and it displays the original [!UICONTROL Primary Contact] of the issue at the time the issue was converted.
 

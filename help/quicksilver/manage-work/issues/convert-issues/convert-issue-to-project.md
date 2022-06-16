@@ -113,27 +113,29 @@ You can convert an issue to a blank project or convert an issue to a project usi
       * The number of all tasks in the template
       * The names of the template custom forms
 
-   1. (Optional) Hover over the name of a template and click the Favorites icon ![](assets/favorites-icon-small.png) to mark it as a favorite for future use.
+   1. (Optional) Mouse over the name of a template and click the Favorites icon ![](assets/favorites-icon-small.png) to mark it as a favorite for future use.
 
       >[!TIP]
       >
       >You can have up to 40 Workfront items marked as favorites. This includes templates and other items.
 
-   1. Click **Use template** to select a template.
+   1. Click [!UICONTROL **Use template**] to select a template.
 
-      The Convert to Project box opens.
+      The [!UICONTROL Convert to Project] box opens.
 
       ![](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
-   1. If a field is already populated in the template, the field is pre-populated in the **Convert to project** box. You can edit the pre-populated values to better match your project. For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+   1. If a field is already populated in the template, the field is pre-populated in the [!UICONTROL Convert to project] box. You can edit the pre-populated values to better match your project. For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
       >[!TIP]
       >
-      >To update fields in the Finance section in the Convert to Project box you must have Edit access to Financial Data in your access level. If you have View access to Financial Data in your access level all financial information from the template transfers to the new project and you cannot edit it while you convert the issue. For information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+      >* Your system or group administrator can add or remove fields in the [!UICONTROL Convert to Project box] by updating the Project Details information in your [!UICONTROL Layout Template]. 
+      >
+      >* To update fields in the [!UICONTROL Finance] section in the [!UICONTROL Convert to Project] box you must have [!UICONTROL Edit] access to [!UICONTROL Financial Data] in your access level. If you have [!UICONTROL View] access to [!UICONTROL Financial Data] in your access level all financial information from the template transfers to the new project and you cannot edit it while you convert the issue. For information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   1. (Optional and conditional) Click **Options**, then select from the options that are available:
+   1. (Optional and conditional) Click [!UICONTROL **Options**] in the left panel, then select from the options that are available:
 
-      * **Keep the original issue and tie its resolution to the this project**
+      * [!UICONTROL **Keep the original issue and tie its resolution to the this project**]
 
         When deselected, the original issue is deleted.
 
@@ -141,12 +143,13 @@ You can convert an issue to a blank project or convert an issue to a project usi
         >
         >Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:
         >
-        >* [Grant access to issues](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md) 
+        >* [Grant access to issues](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+        > 
         >* [Share an issue](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) 
 
-      * **Allow `<User Name>` to have access to this project**
+      * [!UICONTROL **Allow (User Name) to have access to this project**]
 
-        If unselected, the issue's Primary Contact has no access to the new task.
+        If unselected, the issue's [!UICONTROL Primary Contact] has no access to the new task.
 
         >[!NOTE]
         >
@@ -155,34 +158,36 @@ You can convert an issue to a blank project or convert an issue to a project usi
         >
         >Or, if the top-level groups in your organization configured them separately, the options available here depend on which group you selected for the new project in step 6. For more information, see [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-   1. Click **Custom Forms** and do any of the following:
+   1. Click [!UICONTROL **Custom Forms**] and do any of the following:
 
       * Review the custom forms attached to the template. They will transfer to the new project.
       * Ensure all required fields have valid information. 
       * Rearrange the custom forms by dragging them ![](assets/drag-object-icon.png) where you want them. 
-      * Click the **x icon** to the right of any form that you do not want to transfer to the project. 
+      * Click the **x** icon to the right of any form that you do not want to transfer to the project. 
       * If necessary, transfer custom form information from the issue to the project.
 
         >[!TIP]
         >
-        >If a multi-object custom form attached to the issue is configured for use with both issues and projects, all information saved in the form is retained when you make the conversion.
+        >* If a multi-object custom form attached to the issue is configured for use with both issues and projects, all information saved in the form is retained when you make the conversion.
         >
-        >If you are using a template for the conversion and a custom form attached to the template contains a custom field also found in a custom form attached to the issue, the field value from the issue is used for the new project. However, if the custom field is blank on the issue, the value from the template is used.
+        >* If you are using a template for the conversion and a custom form attached to the template contains a custom field also found in a custom form attached to the issue, the field value from the issue is used for the new project. However, if the custom field is blank on the issue, the value from the template is used.
 
-   1. Click **Convert to project**.
+   1. Click [!UICONTROL **Convert to project**].
 
       >[!TIP]
       >
-      >If you decided to delete the original issue, the issue is now a project.   
-      >Or  
+      >If you decided to delete the original issue, the issue is now a project.
+      >   
+      >Or
+      >  
       >If you decided to keep the original issue, the issue is now linked to the new project and it will complete when the project completes. 
       >
       >Some issue fields transfer to the project. Most fields defined in the template automatically transfer to the newly created project if you didn't change them in previous steps. For information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 1. (Optional) Set any further project details ​(project owner, project dates) and tasks as necessary.
-1. Click **Convert to project**.
+1. Click [!UICONTROL **Convert to project**].
 
    The issue is now converted to a project. 
 
-1. Click **Go to project** inside the Success notification in the upper-right corner of the page. This opens the project page.
+1. Click [!UICONTROL **Go to project**] inside the [!UICONTROL Success] notification in the upper-right corner of the page. This opens the project page.
 
