@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
 title: Configure Adobe Workfront with LDAP
-description: Configure Adobe Workfront with LDAP
+description: You can use LDAP with Adobe Workfront.
 feature: System Setup and Administration
 role: Admin
 ---
@@ -16,9 +16,7 @@ role: Admin
 
 {{important-admin-console-onboard}}
 
->[!IMPORTANT]
->
->Lightweight Directory Access Protocol (LDAP) is now supported only in a limited capacity as a single sign-on (SSO) option; it will be removed from the product in 2020. We recommend moving to Security Assertion Markup Language (SAML) 2.0. For more information, see [Configure Adobe Workfront with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+You can use LDAP with Adobe Workfront.
 
 ## Access requirements
 
@@ -59,7 +57,11 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Server</td> 
-      <td> <p>The URL of the LDAP server where your directory service is running.</p> <p>For example, <code>ldap://hostname.com</code>.</p><p>Or, if the LDAP server requires an SSL connection, <code>ldaps://hostname.com</code>.</p> </td> 
+      <td> <p>The URL of the LDAP server where your directory service is running.</p> 
+      <p>For example, <code>ldap://hostname.com</code>.</p>
+      <p>Or, if the LDAP server requires an SSL connection, <code>ldaps://hostname.com</code>.
+      </p> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Port</td> 
@@ -67,7 +69,10 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Search Base</td> 
-      <td>Specify where in the LDAP directory tree Workfront should find and synchronize initial user information from User objects. This is the container where Workfront begins searching for users on the LDAP server.<br>Use the following format: ou=people,dc=example,dc=com</td> 
+      <td>Specify where in the LDAP directory tree Workfront should find and synchronize initial user information from User objects. This is the container where Workfront begins searching for users on the LDAP server.
+      <p>Use the following format: <code>ou=people,dc=example,dc=com</code>
+      </p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">SSL/TLS</td> 
@@ -79,36 +84,40 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Attribute Synchronization</td> 
-      <td>Click <strong>Map User Attributes</strong>, select the Workfront User Attribute that you want to map from the drop-down list, then specify the corresponding Directory Attribute in the Active Directory server. You can also specify a Default Value for the attribute if you want one to be set. Click <strong>Add Mapping</strong> to include additional attributes, then click <strong>Save</strong> when you are finished.<p><b>IMPORTANT</b>:  Workfront attempts to map these attributes every time a user with these attributes logs into the system. If you have existing users in the system, make sure you are not overwriting their current access level, or any other attributes, by applying this mapping. </p><p>You can map the following Workfront attributes:</p> 
-       <ul> 
-        <li>Access Level</li> 
-        <li>Address</li> 
-        <li>Address2</li> 
-        <li>Billing Per Hour</li> 
-        <li>City</li> 
-        <li>Company</li> 
-        <li>Cost Per Hour</li> 
-        <li>Email Address</li> 
-        <li>Extension</li> 
-        <li>First Name</li> 
-        <li>Home Group</li> 
-        <li>Home Team</li> 
-        <li>Job Role</li> 
-        <li>Last Name</li> 
-        <li>Layout Template</li> 
-        <li>Manager</li> 
-        <li>Mobile Phone</li> 
-        <li>Phone Number</li> 
-        <li>Postal Code</li> 
-        <li>Schedule</li> 
-        <li>State</li> 
-        <li>Timesheet Profile</li> 
-        <li>Title</li> 
+      <td>Click <strong>Map User Attributes</strong>, select the Workfront User Attribute that you want to map from the drop-down list, then specify the corresponding Directory Attribute in the Active Directory server. You can also specify a Default Value for the attribute if you want one to be set. Click <strong>Add Mapping</strong> to include additional attributes, then click <strong>Save</strong> when you are finished.
+      <p>When a discrepancy exists between user information in Workfront and Active Directory, and Active Directory is enabled, the information in the Active Directory updates the user information in Workfront.
+      </p>
+      <p><b>IMPORTANT</b>:  Workfront attempts to map these attributes every time a user with these attributes logs into the system. If you have existing users in the system, make sure you are not overwriting their current access level, or any other attributes, by applying this mapping. </p><p>You can map the following Workfront attributes:</p> 
+      <ul> 
+       <li>Access Level</li> 
+       <li>Address</li> 
+       <li>Address2</li> 
+       <li>Billing Per Hour</li> 
+       <li>City</li> 
+       <li>Company</li> 
+       <li>Cost Per Hour</li> 
+       <li>Email Address</li> 
+       <li>Extension</li> 
+       <li>First Name</li> 
+       <li>Home Group</li> 
+       <li>Home Team</li> 
+       <li>Job Role</li> 
+       <li>Last Name</li> 
+       <li>Layout Template</li> 
+       <li>Manager</li> 
+       <li>Mobile Phone</li> 
+       <li>Phone Number</li> 
+       <li>Postal Code</li> 
+       <li>Schedule</li> 
+       <li>State</li> 
+       <li>Timesheet Profile</li> 
+       <li>Title</li> 
        </ul><p>If a user attempts to log in without using SSO and was created using auto-provisioning, it will appear that the their login is not working, or that their username/password combination is wrong. The user will either need to log in using their email address and Workfront password, or obtain the correct credentials for logging in using LDAP.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Change Password URL</td> 
-      <td>Specify a URL that will take users to a site where they can reset their user name or password.<br>This URL is used when Workfront users attempt to change their password through the Workfront interface. Because the LDAP credentials are used to access Workfront, users need to be redirected to a page where they can change their LDAP password instead of completing this activity through Workfront.</td> 
+      <td>Specify a URL that will take users to a site where they can reset their user name or password.
+      <p>This URL is used when Workfront users attempt to change their password through the Workfront interface. Because the LDAP credentials are used to access Workfront, users need to be redirected to a page where they can change their LDAP password instead of completing this activity through Workfront.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Certificate</td> 
@@ -124,7 +133,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Confirm Configuration</td> 
-      <td>Verify that your Workfront account can connect to the LDAP server using the connection information and credentials provided.<p>Click <strong>Test Connection</strong>, then specify the <strong>Username</strong> and <strong>Password</strong> for accessing the directory service, then click <strong>Test Connection</strong>.</p><p><img src="assets/sso-active-directory-and-ladap-test-connection-350x166.png" alt="sso_active_directory_and_ladap_test_connection.png"></p><p>You should receive an on-screen notification that the connection was successful.</p></td> 
+      <td>Verify that your Workfront account can connect to the LDAP server using the connection information and credentials provided.<p>Click <strong>Test Connection</strong>, then specify the <strong>Username</strong> and <strong>Password</strong> for accessing the directory service, then click <strong>Test Connection</strong>.</p><p><img src="assets/sso-active-directory-and-ladap-test-connection.png"></p><p>You should receive an on-screen notification that the connection was successful.</p></td> 
      </tr> 
     </tbody> 
    </table>

@@ -68,7 +68,7 @@ By default, ADFS is configured to automatically check for updates to all of its 
    
    1. Copy the **Metadata URL**, which should be similar to the following:
 
-      https://`<yourdomain>`.my.workfront.com/sso/downloadSAML2MetaData
+      `https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData`
    
    1. On the ADFS server, right-click on the relying party trust that you previously configured, then click **Properties.**
    1. Click the **Monitoring** tab, then paste the URL that you copied from Workfront into the **Relying party's federation metadata URL** field.
@@ -82,7 +82,7 @@ By default, ADFS is configured to automatically check for updates to all of its 
 1. Open **Windows Powershell Modules.**
 1. After all the modules load, run the following command in powershell:
 
-   **Get-ADFSProperties** 
+   `Get-ADFSProperties`
 
 1. Look for the value next to **Monitoring Interval.**
 
@@ -90,7 +90,8 @@ By default, ADFS is configured to automatically check for updates to all of its 
 
 1. Set a new value by running the following command in powershell:
 
-   **Set-ADFSProperties -MonitoringInterval 1** 
+   `Set-ADFSProperties -MonitoringInterval 1`
+   
    This changes the monitoring interval from every 24 hours to every minute. You can change the 1 to another larger value if you want it to poll less frequently.
 
 1. To verify that this is working correctly, use the **Event Viewer** to look for the following information in the ADFS2.0 logs:
@@ -127,7 +128,7 @@ To force metadata to be exchanged between Workfront and your SAML 2.0 provider w
       1. Click **Edit Configuration**, then select **SAML 2.0** in the **Type** drop-down list.
       1. Copy the **Metadata URL**, which should be similar to the following:
 
-         *https://`<yourdomain>`.my.workfront.com/sso/downloadSAML2MetaData*
+         `https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData`
 
    1. On the ADFS server, right-click on the relying party trust that you previously configured, then click **Properties.**
    1. Click the **Monitoring** tab, then paste the URL that you copied from Workfront into the **Relying party's federation metadata URL** field.
@@ -138,7 +139,7 @@ To force metadata to be exchanged between Workfront and your SAML 2.0 provider w
 1. Click **OK** to ignore the message about some of the content in the federation metadata not being supported by ADFS 2.0.
 1. Click **Update** to complete updating your federation metadata.
 
-Users who are allowed to access Workfront via the native login screen using Workfront login credentials (this can be configured from each user's profile page in the **Access** section) can log in using their Workfront user name and password by navigating to the following URL: *https://`<yourdomain>`.my.workfront.com/Workfront/login.cmd*.
+Users who are allowed to access Workfront via the native login screen using Workfront login credentials (this can be configured from each user's profile page in the **Access** section) can log in using their Workfront user name and password by navigating to the following URL: `https://<yourdomain>.my.workfront.com/Workfront/login.cmd`.
 
 ## Using other identity providers
 

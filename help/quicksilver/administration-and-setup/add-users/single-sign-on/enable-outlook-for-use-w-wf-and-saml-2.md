@@ -16,9 +16,7 @@ If you enable SAML 2.0 authentication and you want your users to be able to log 
 >
 >This is not available if your organization's Workfront instance uses a custom SSO portal.>
 ><!--
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >or is enabled with Adobe IMS>
-></MadCap:conditionalText>>
 >-->
 >See your network or IT administrator if you need more information.
 
@@ -60,8 +58,7 @@ You must have the following access to perform the steps in this article:
    >
    >If you enable **Allow embedding of Workfront in an iframe**, the **Allow SAML 2.0 authentication in Office 365 add-ins** is dimmed and enabled.
    >
-   >
-   >![](assets/o365-iframe-grayed-out-and-general-iframe-checked-350x43.png)   >
+   >![](assets/if-you-enable.png)
    >
 
 1. Click **Save**.
