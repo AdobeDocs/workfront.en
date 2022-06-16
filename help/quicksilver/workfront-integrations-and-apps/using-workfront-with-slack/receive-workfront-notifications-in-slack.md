@@ -33,12 +33,7 @@ You must have the following:
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-    <td> <p>Plan</p> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -57,8 +52,14 @@ Before you can receive Workfront notifications in Slack, you must
    For information about logging into Workfront from Slack, see [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. From any channel, start typing one of the following commands in the message field:&nbsp;  
-   <pre>/workfront settings</pre> Or  
-   <pre>/wf settings</pre><pre><img src="assets/slack-configuring-settings-350x302.png" style="width: 350;height: 302;"></pre>  
+
+   `/workfront settings`
+   
+   Or  
+
+   `/wf settings`
+   
+   <img src="assets/slack-configuring-settings-350x302.png" style="width: 350;height: 302;"> 
 
 1. All notifications are enabled, by default.   
    Disable any of the following notifications:&nbsp;

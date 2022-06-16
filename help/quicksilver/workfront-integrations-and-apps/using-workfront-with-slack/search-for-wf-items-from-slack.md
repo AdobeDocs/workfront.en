@@ -25,12 +25,7 @@ You must have the following:
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-    <td> <p>Plan</p> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -50,15 +45,11 @@ Before you can search for Workfront items from Slack, you must
 
 1. From any channel, start typing either of the following commands in the message field:&nbsp;
 
-   ```
-   /workfront search <keyword>
-   ```
+   `/workfront search <keyword>`
 
    Or
 
-   ```
-   /wf search <keyword>
-   ```
+   `/wf search <keyword>`
 
    >[!NOTE]
    >
@@ -69,7 +60,7 @@ Before you can search for Workfront items from Slack, you must
 1. In the field that appears, select an object type from the following:
 
    * Project 
-   * Task&nbsp;
+   * Task
    * Issue
    * Report
    * People
@@ -79,7 +70,8 @@ Before you can search for Workfront items from Slack, you must
    * Program
    * Dashboard
    * Company
-   * Note&nbsp;  
+   * Note
+   
      You can only select one object type at a time.  
      A list of items that match the search criteria displays.
 

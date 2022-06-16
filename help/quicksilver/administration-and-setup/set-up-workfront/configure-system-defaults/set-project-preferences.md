@@ -70,6 +70,19 @@ Configure any of the following preferences for newly created projects throughout
  <col> 
  <tbody> 
   <tr> 
+   <td role="rowheader">Allow users to create projects without using a template</td> 
+   <td>  <p>This preference allows users to create projects without using a template when creating a project from the following areas: </p>
+      <ul>
+        <li>
+        <p>Use the New Project option in a list of projects</p>
+        </li>
+          <li>
+          <p>Convert an issue to a project from the issue's page</p>
+          </li>
+         </ul>
+        <p>This preference is enabled by default. </p> </td> 
+  </tr>
+  <tr> 
    <td role="rowheader">Set new project's status to</td> 
    <td> <p>Determine the status of new projects.</p>  <p><b>NOTE</b>:  
      <ul> 

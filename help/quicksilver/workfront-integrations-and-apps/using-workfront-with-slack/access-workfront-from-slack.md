@@ -22,8 +22,8 @@ Remember the following when using a slash command in Slack to access Workfront:
 
 * Slash commands are case sensitive. 
 * The commands for Workfrontare only visible to you, regardless of which channel you are typing them in.
-* The command should always start with the following:  
-  `/workfront` Or&nbsp; `/wf` followed by a space and the name of an action you want to perform in Workfront.  
+* The command should always start with `/workfront` or `/wf`, followed by a space and the name of an action you want to perform in Workfront.  
+
   This indicates that your command is meant for the Workfront app. The commands for Workfront work only when you have already configured the Workfront app with your Slack instance.
 
 For a list of all the commands you can run from Slack for Workfront, see [Access Workfront from a slash command in Slack](#access-workfront-from-a-slash-command-in-slack).
@@ -37,7 +37,10 @@ To log in to Workfront from Slack:
 
 1. Log in to your Slack instance.
 1. From any channel, type one of the following commands:  
-   `/workfront log in` Or  
+   `/workfront log in` 
+   
+   Or  
+
    `/wf log in`
 
 1. Click the Workfront **Log In** link displayed in the response.  
@@ -53,9 +56,11 @@ To log in to Workfront from Slack:
    The configuration page for Workfront notifications in Slack opens.
 
 1. (Optional) Disable any Workfront notifications that you do not want to receive in Slack.  
+
    For information about configuring Workfront settings for Slack, see the [Configure settings](#configure-settings) section in this article
 
-1. Navigate back to your Slack channel.  
+1. Navigate back to your Slack channel.
+  
    You are logged in to Workfront from your Slack instance.&nbsp;
 
 ## Access Workfront from Slack
@@ -69,61 +74,58 @@ To log in to Workfront from Slack:
    For more information about logging in to Workfront from Slack, see [Log in to Workfront from Slack](#log-in-to-workfront-from-slack)
 
 1. From any channel, start typing the following command in the message field:&nbsp;  
-   `/workfront help` Or&nbsp;  
+
+   `/workfront help` 
+   
+   Or
+     
    `/wf help`
 
 1. Select from the following commands:&nbsp;
 
-   * `/wf home`Displays buttons from which you can access lists of your tasks, issues, and approvals. Clicking one of the buttons displays the first 20 items of each list in Slack.
+   * `/wf home` 
+   
+     Displays buttons from which you can access lists of your tasks, issues, and approvals. Clicking one of the buttons displays the first 20 items of each list in Slack.
 
      ![](assets/slack-home-buttons-350x80.png)
 
      For more information about managing Workfront work items from Slack, see [Manage your work and approvals from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
    
-     ```   
-     /wf add task <TaskName>
-     ```
+   * `/wf add task <TaskName>`
 
      Include the name of the task as it will appear in the Workfront interface.
 
-     Adds a task to Workfront.  
+     Adds a task to Workfront.
+
      For more information about adding tasks to Workfront from Slack, see the "Creating Tasks from Slack" section in [Create tasks and issues from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
    
-     ```   
-     /wf add issue <Issue Name>
-     ```
+   * `/wf add issue <Issue Name>`
 
-     Include the name of the issue as it will appear in the Workfront interface.  
+     Include the name of the issue as it will appear in the Workfront interface.   
+     
      Adds an issue to Workfront  
+
      For more information about adding issues to Workfront from Slack, see the "Creating Issues from Slack" section in [Create tasks and issues from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
    
-     ```   
-     /wf favorites
-     ```
+   * `/wf favorites`
 
      Displays the list of your Workfront Favorites.  
+
      For more information about accessing your Favorites from Slack, see the [Accessing Your Favorites List from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-favorites) section in the [Accessing Your Favorites and Recent Items from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) article.
    
-     ```   
-     /wf recent
-     ```
+   * `/wf recent`
 
      Displays the list of your most recently accessed items in Workfront.  
+
      For more information about accessing your Recent Items from Slack, see the [Accessing Your Recent Items List from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-recent-items) section in the [Access your favorites and recent items from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) article.
 
-   * /   
-   
-     ```   
-     wf tasks
-     ```
+   * `wf tasks`
 
      Displays a list of your tasks.
 
      For more information about managing your tasks from Slack, see the "Managing Your Tasks from Slack" section in [Managing Your Work and Approvals from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
    
-     ```   
-     /wf issues
-     ```
+   * `/wf issues`
 
      Displays a list of your issues.
 
@@ -132,12 +134,10 @@ To log in to Workfront from Slack:
    * `/wf approvals` Displays your Workfront approvals.  
      For more information about managing your approvals from Slack, see the "Managing Your Approvals from Slack" section in [Manage your work and approvals from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).  
 
+   * `/wf search <keyword>`   
    
-     ```   
-     /wf search <keyword>
-     ```   
-   
-     (include keyword)
+     Include keyword.
+
      Search for a specific keyword. You can search for the following types objects:
 
       * Project 
@@ -154,13 +154,24 @@ To log in to Workfront from Slack:
       * Note &nbsp;  
         For more information about searching in Slack, see [Search for Adobe Workfront items from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
 
-   * `/wf log in` Logs you in to Workfront from Slack.&nbsp; 
-   * `/wf log out ` Logs you out of Workfront from Slack. You remain logged in to Workfront if you have a separate Workfront instance open in another browser tab on in another application.&nbsp; 
-   * `/wf settings` Gives you access to configuring your Workfront settings in Slack.  
+   * `/wf log in` 
+   
+     Logs you in to Workfront from Slack.&nbsp; 
+
+   * `/wf log out ` 
+   
+     Logs you out of Workfront from Slack. You remain logged in to Workfront if you have a separate Workfront instance open in another browser tab on in another application.&nbsp; 
+   * `/wf settings` 
+   
+     Gives you access to configuring your Workfront settings in Slack.
+
      For information about configuring Workfront settings in Slack, see [Configure settings](#configure-settings).
    
-   * `/wf help` Displays a complete list of commands for Workfront.&nbsp; 
-   * * Visit Workfront Help:&nbsp; * Opens the Slack section on the Workfront Help Site in a new browser tab.&nbsp;
+   * `/wf help` 
+     Displays a complete list of commands for Workfront.&nbsp; 
+
+
+   * `Visit Workfront Help`: Opens the Slack section on the Workfront Help Site in a new browser tab.&nbsp;
 
 1. (Optional) To delete the message of any command, mouse over the upper-right corner of the Slack message containing the command and click**Show message actions**, then click **Delete message**. 
 
@@ -175,8 +186,14 @@ For more information about accessing Workfront from a shared link, see [Access A
 ## Configure settings {#configure-settings}
 
 1. Inside a Slack message field, type the following command:  
-   `/workfront settings` Or  
-   `/wf settings` ![](assets/slack-configuring-settings-350x302.png)
+
+   `/workfront settings` 
+   
+   Or  
+
+   `/wf settings` 
+   
+   ![](assets/slack-configuring-settings-350x302.png)
 
    All settings are enabled by default.
 

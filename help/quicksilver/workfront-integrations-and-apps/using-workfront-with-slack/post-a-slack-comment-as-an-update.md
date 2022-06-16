@@ -23,12 +23,7 @@ You must have the following:
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-    <td> <p>Plan</p> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -55,15 +50,15 @@ Before you can post a Slack comment as an update, you must
    >
    >
    >![](assets/slack-more-message-shortcuts.png)
-   >
-   >![](assets/slack-post-an-update-ui-350x309.png)
-
+   
 1. In the **Project, task or issue** box, start typing the name of a project, task, or issue where you want to add the update then click the name of the project, task, or issue when it appears on the list. You must have access to view an object before it appears in the list.&nbsp;
 1. (Optional) In the **Include another user** box, start typing the name of a user you can view that you want to include in your update, then click it when it appears on the list.&nbsp;
 1. Click **Submit**.  
+
    A confirmation displays in Slack to notify you that your update was posted.
 
-1. (Optional) Click the name of the project, task, or issue where you posted the update to access it in Workfront.  
+1. (Optional) Click the name of the project, task, or issue where you posted the update to access it in Workfront. 
+
    There is an indication in Workfront that the update originated in Slack.&nbsp;
 
    ![](assets/slack-update-posted-from-slack-350x112.png)

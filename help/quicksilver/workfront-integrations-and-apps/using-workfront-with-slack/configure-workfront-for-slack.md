@@ -32,12 +32,7 @@ You must have the following:
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-    <td> <p>Plan</p> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -102,10 +97,12 @@ You can install the Workfront app directly from the Slack application:
 1. Start typing *Workfront* in the search field.
 1. Press Enter.
 1. Select the **Workfront** app.
-1. Click **Settings**.&nbsp;****The App Directory page is displayed.
+1. Click **Settings**.
+
+   The App Directory page is displayed.
 
 1. Click **Visit App Site**.
-1. Click**Add to Slack**.
+1. Click **Add to Slack**.
 1. Follow the steps to finish the installation.&nbsp;
 1. When the installation completes, you can access Workfront from Slack, as described in the [Access Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
