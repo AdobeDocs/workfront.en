@@ -44,7 +44,7 @@ Follow the steps below to determine when the best time to migrate is for you:
 
 1. Determine whether your team manages user allocations on assignments. Adjusting or modifying user allocations means modifying the planned hours per day for each user across the duration of a work item. By default, the system equally distributes the total Planned Hours of a work item across the entire duration of the item. For information about managing allocations in the Resource Scheduler, see the “Modify user allocations” section of the article [Manage user allocations in the [!UICONTROL Scheduling] areas](../../resource-mgmt/resource-[!UICONTROL Scheduling]/manage-allocations-[!UICONTROL Scheduling]-areas.md).
 
-<!-->
+<!--
 1. Using the information gathered from Steps 1 and Step 2, decide which version of Step 3 you should continue with based on the needs of your organization.
 -->
 
