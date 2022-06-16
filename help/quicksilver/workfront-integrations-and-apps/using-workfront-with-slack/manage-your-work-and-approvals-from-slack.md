@@ -27,12 +27,7 @@ You must have the following:
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-    <td> <p>Plan</p> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -50,7 +45,7 @@ Before you can manage your work and approvals from Slack, you must
 1. Log in to your Slack instance and log in to Workfront from Slack.  
    For more information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
-1. From any channel, start typing the following command in the message field:&nbsp;
+1. From any channel, start typing the following command in the message field: 
 
    `/workfront home`
 
