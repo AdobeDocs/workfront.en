@@ -11,7 +11,7 @@ description: We want you to experience as little work disruption as possible by 
 >[!IMPORTANT]
 >
 >The information in this article applies to you only if you have managed the scheduling of your resources in the Resource [!UICONTROL Scheduling] areas of Adobe Workfront. Workfront started the deprecation of the [!UICONTROL Scheduling] tools in November 2020 and plans to replace them with the [!UICONTROL Workload Balancer].   
->For information about the deprecation plan for the [!UICONTROL Resource Scheduling] tools and the timeline for their replacement with the [!UICONTROL Workload Balancer], see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-[!UICONTROL Scheduling].md).
+>For information about the deprecation plan for the [!UICONTROL Resource Scheduling] tools and the timeline for their replacement with the [!UICONTROL Workload Balancer], see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 We want you to experience as little work disruption as possible by helping you design a migration plan. The steps below will help you get your team trained and determine the best time for you to switch to the [!UICONTROL Workload Balancer].
 
@@ -38,11 +38,11 @@ If you experience difficulty logging in or accessing the course, contact our Cus
 
 Follow the steps below to determine when the best time to migrate is for you:
 
-1. Determine which features in the Resource [!UICONTROL Scheduling] tools your team uses most and make sure those features are available in the [!UICONTROL Workload Balancer]. For information about which features are currently available in the [!UICONTROL Workload Balancer], see the "Feature availability" section in the article [Deprecation of Resource [!UICONTROL Scheduling] tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-[!UICONTROL Scheduling].md).
+1. Determine which features in the Resource [!UICONTROL Scheduling] tools your team uses most and make sure those features are available in the [!UICONTROL Workload Balancer]. For information about which features are currently available in the [!UICONTROL Workload Balancer], see the "Feature availability" section in the article [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
    If the features you need are not available yet, you might want to wait to migrate (see Step 3a below).
 
-1. Determine whether your team manages user allocations on assignments. Adjusting or modifying user allocations means modifying the planned hours per day for each user across the duration of a work item. By default, the system equally distributes the total Planned Hours of a work item across the entire duration of the item. For information about managing allocations in the Resource Scheduler, see the “Modify user allocations” section of the article [Manage user allocations in the [!UICONTROL Scheduling] areas](../../resource-mgmt/resource-[!UICONTROL Scheduling]/manage-allocations-[!UICONTROL Scheduling]-areas.md).
+1. Determine whether your team manages user allocations on assignments. Adjusting or modifying user allocations means modifying the planned hours per day for each user across the duration of a work item. By default, the system equally distributes the total Planned Hours of a work item across the entire duration of the item. For information about managing allocations in the Resource Scheduler, see the “Modify user allocations” section of the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
 
 <!--
 1. Using the information gathered from Steps 1 and Step 2, decide which version of Step 3 you should continue with based on the needs of your organization.
