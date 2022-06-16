@@ -31,27 +31,8 @@ You must have the following access to use the functionality described in this ar
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <p>[Insert any access level configurations needed]
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Example: Edit access to Documents
-       </MadCap:conditionalText>
-      </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> 
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
-     </td> 
-   </tr>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>[Insert permissions needed and specify the object]
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Example: View access or higher on Documents
-       </MadCap:conditionalText>
-      </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> </tbody> 
+  </tr> 
+ </tbody> 
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
@@ -176,14 +157,10 @@ Before you can access your favorites and recent items from Slack, you must
    >
    >The user who is sharing the link must have at least View permissions to the portfolio in order for you to see additional information about it.
 
-   <!--
-   <img src="assets/slack-portfolio-details-350x233.png" alt="slack_portfolio_details.png" style="width: 350;height: 233;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   -->
-
-1. (Optional) Click the name of the portfolio to open it in Workfront in a new browser tab.&nbsp;
+  1. (Optional) Click the name of the portfolio to open it in Workfront in a new browser tab.&nbsp;
 1. Consider reviewing the&nbsp;following additional information about the portfolio:
 
-   * Portfolio**Manager** Name
+   * **Portfolio Manager Name**
    * **On Time**
    * **ROI**
    * **Net Value**
@@ -205,16 +182,12 @@ Before you can access your favorites and recent items from Slack, you must
    >
    >&nbsp;The user who is sharing the link must have at least View permissions to the program in order for you to see additional information about it.
 
-   <!--
-   <img src="assets/slack-program-details-350x124.png" alt="slack_program_details.png" style="width: 350;height: 124;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   -->
-
 1. (Optional) Click the name of the program to open it in Workfront in a new browser tab.&nbsp;
 1. Consider reviewing the&nbsp;following additional information about the program:
 
    * **Description**
-   * **Portfolio** Name
-   * Program**Manager** Name
+   * **Portfolio Name**
+   * **Program Manager Name**
 
      For more information about programs, see [Create and manage Programs.](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
 
@@ -229,12 +202,6 @@ Before you can access your favorites and recent items from Slack, you must
    >[!NOTE]
    >
    >The user who is sharing the link must have at least View permissions to the report in order for you to see additional information about it.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   <img src="assets/slack-report-details.png" alt="slack_report_details.png" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   <br> </p>
-   -->
-
+   
 1. (Optional) Click the name of the report to open it in Workfront in a new browser tab.&nbsp;
 
