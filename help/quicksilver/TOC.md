@@ -1292,6 +1292,10 @@ feature-set: Workfront
       * [Share a link to a request queue](manage-work/requests/create-requests/share-link-to-request-queue.md)
       * [Delete a request draft](manage-work/requests/create-requests/delete-request-draft.md)
       * [Copy and submit requests](manage-work/requests/create-requests/copy-and-submit-requests.md)
+  * Delegate work {#delegate-work}
+    * [Delegate work](manage-work/delegate-work/delegate-work.md)
+    * [Delegate tasks and issues overview](manage-work/delegate-work/delegate-work-overview.md)
+    * [Manage task and issue delegation](manage-work/delegate-work/how-to-delegate-work.md)
 * People, teams, and groups {#people-teams-groups}
   * [People, teams, and groups](people-teams-and-groups/people-teams-and-groups.md)
   * Create and manage teams {#create-manage-teams}
