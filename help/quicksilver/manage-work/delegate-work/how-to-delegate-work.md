@@ -23,10 +23,7 @@ For general information about delegating work, see [Delegate work overview](../.
 
 >[!IMPORTANT]
 >
->The users that you select as delegates receive the same  permissions as your permissions on the tasks and issues you delegate to them. The permissions must work within their access levels, and sometimes their access levels might be lower than yours. 
-For example, if a user has only View access to tasks in their access level and you have Manage permissions on the tasks you delegate to them, they receive Manage permissions to the tasks you delegate to them. 
-However, they will not be able to perform the same actions as you on the delegated tasks. They must request Edit access to Tasks from the system administrator to be able to update tasks in your absence. 
-For information on how a  can modify your access level, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>The users that you select as delegates receive the same  permissions as your permissions on the tasks and issues you delegate to them. The permissions must work within their access levels, and sometimes their access levels might be lower than yours. For example, if a user has only View access to tasks in their access level and you have Manage permissions on the tasks you delegate to them, they receive Manage permissions to the tasks you delegate to them. However, they will not be able to perform the same actions as you on the delegated tasks. They must request Edit access to Tasks from the system administrator to be able to update tasks in your absence. For information on how a  can modify your access level, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 You must have the following access to perform the steps in this article:
 
