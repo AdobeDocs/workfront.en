@@ -43,7 +43,7 @@ Consider the following when you delegate tasks and issues:
 
 * Your Workfront or group administrator must enable the Delegation preferences in the Setup area before you can delegate your work to others.
 
-  For information, see [Configure Delegation preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-delegation-preferences.md). 
+  For information, see [Configure system-wide task and issue preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * You can delegate tasks and issues only from the [!UICONTROL Home] area.
 * Exceptions exist for the following license types:
   
