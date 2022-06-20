@@ -31,11 +31,13 @@ The character limit differs depending on the field you are using. The limits sho
   </tr> 
   <tr> 
    <td> <p>Status update</p> </td> 
-   <td> <p>None*</p> </td> 
+   <td> <p>15,000</p>
+   <p> 4,000 when using the API</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Update</p> </td> 
-   <td> <p>None*</p> </td> 
+   <td> <p>15,000</p> 
+   <p> 4,000 when using the API</p></td> 
   </tr> 
   <tr> 
    <td> <p>Description (documents, tasks, issues, portfolios, programs, and projects)</p> </td> 
@@ -64,4 +66,3 @@ The character limit differs depending on the field you are using. The limits sho
  </tbody> 
 </table>
 
-&#42; Status update and Update have a 4,000 character limit through the API
