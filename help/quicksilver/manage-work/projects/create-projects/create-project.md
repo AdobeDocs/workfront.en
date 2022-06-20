@@ -43,27 +43,12 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## New project default settings
-
-When you create a project, Workfront applies a set of default settings to it. For example, the Status, Group, or Schedule Mode are preset when you create a project.
-
-Consider the following:
-
-* As a Workfront administrator or a group administrator, you can configure the default settings for a new project when configuring Project Preferences.
-* Workfront applies the settings of the group, if there are any, before it applies those set by the Workfront administrator. 
-* If you create a project using a template, the settings from the template take precedence over the settings established by the Workfront or group administrator.
-
->[!NOTE]
->
->We recommend that the default status for a new project is Planning. As you are making changes to the new project, this ensures that notifications do not trigger to the users assigned to the project.
-
-For more information about setting up the default status and other default settings for a new project, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
 ## Ways to create projects
 
 You can create a project in Workfront by using one of the following methods:
 
-* Create a project from scratch. This article describes how to create a project from scratch. 
+* Create a project from scratch without using a template. This article describes how to create a project from scratch. 
+
 * Copy an existing project.  
   For more information about copying project, see [Copy a project](../../../manage-work/projects/manage-projects/copy-project.md).
 
@@ -81,7 +66,33 @@ You can create a project in Workfront by using one of the following methods:
 
   For information about importing projects using kick-starts, see [Kick-Starts scenario: simple project and task import preparation](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md) .
 
-* Publish an initiative from a scenario in the Adobe Workfront Scenario Planner. The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). For information about creating projects from publishing initiatives, see  [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md) .
+* Publish an initiative from a scenario in the Adobe Workfront Scenario Planner. The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). For information about creating projects from publishing initiatives, see  [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+
+## Prerequisites
+
+Before you begin, ensure you have the following:
+
+* Your system or group administrator enabled the Allow users to create projects without using a template preference in the Setup area. 
+  
+  For more information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+## New project default settings
+
+When you create a project, Workfront applies a set of default settings to it. For example, the Status, Group, or Schedule Mode are preset when you create a project.
+
+Consider the following:
+
+* As a Workfront administrator or a group administrator, you can configure the default settings for a new project when configuring Project Preferences.
+* Workfront applies the settings of the group, if there are any, before it applies those set by the Workfront administrator. 
+* If you create a project using a template, the settings from the template take precedence over the settings established by the Workfront or group administrator.
+
+>[!NOTE]
+>
+>We recommend that the default status for a new project is Planning. As you are making changes to the new project, this ensures that notifications do not trigger to the users assigned to the project.
+
+For more information about setting up the default status and other default settings for a new project, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+
 
 ## Create a project from scratch
 
