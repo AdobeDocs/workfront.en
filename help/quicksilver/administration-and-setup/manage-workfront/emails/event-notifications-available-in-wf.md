@@ -802,6 +802,8 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
 
 ## Delegation
 
+See also [Notifications: Delegation](../../../workfront-basics/using-notifications/notifications-delegation.md).
+
 | Object Type      | Event                                       | Description                                                  | Default state |
 |------------------|---------------------------------------------|--------------------------------------------------------------|---------------|
 | Tasks and issues | Task and issue delegation to assignee       | I delegate my tasks and issues (confirmation)                | Active        |
