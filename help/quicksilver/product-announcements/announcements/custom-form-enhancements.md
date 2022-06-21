@@ -94,7 +94,7 @@ However, if a calculated field in the form references a field that is not compat
 >[!INFO]
 >
 >**Example:** In a custom form associated with the Task object type, you create a calculated custom field that references the built-in field Assigned To: Name so that it can show the name of the primary assignee in charge whenever the form is attached to a task:
-
+>
 >```
 >Assigned To: Name{assignedTo}.{name}
 >```
