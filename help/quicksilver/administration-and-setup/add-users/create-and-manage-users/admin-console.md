@@ -137,7 +137,7 @@ You must add a user to your Production instance of Workfront before you can make
 * Editing a user who is a system admin to any other access level must be done through the Admin Console first.
 
   <!--
-  <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> This is not clear</span>
+   This is not clear
   -->
 
 * To remove System Administrator access from a user in Workfront, you need to use the Adobe Admin Console to remove the user as Product Profile Administrator. This changes the user's Workfront access level from System Administrator to Requestor.

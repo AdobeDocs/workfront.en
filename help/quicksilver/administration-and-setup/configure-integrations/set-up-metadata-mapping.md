@@ -62,7 +62,7 @@ Before you can map fields for the metadata mapping process, you must enable the 
 
 1. In the left panel, click **Documents** > **Metadata Mapping**.
 
-   ![](assets/metadata-mapping-350x193.png)
+   ![](assets/metadata-mapping.png)
 
 1. In the **Select Source Field for Mapping** box, begin typing the name of the Workfront field you want to map to Workfront Library or Workfront DAM, then select it when you see it in the list.
 1. In the **Select Target Field for Mapping** box, select the field you want to populate with the information in the selected Workfront field.  

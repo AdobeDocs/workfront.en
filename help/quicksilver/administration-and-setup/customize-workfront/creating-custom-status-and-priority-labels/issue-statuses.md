@@ -48,7 +48,7 @@ To access system-level issue statuses:
 
 1. Click the **Issues** tab to see the issue statuses available in Workfront.
 
-   ![](assets/issue-status-350x212.png)
+   ![](assets/issue-status.png)
 
 ## System issue statuses
 
@@ -67,8 +67,8 @@ The following issue statuses are provided with your Workfront instance:
  <thead> 
   <tr> 
    <th>System issue status</th> 
-   <th>This issue status occurs when</th> 
-   <th>What happens in this status</th> 
+   <th>How you can use the status</th> 
+   <th>What happens in the status</th> 
   </tr> 
  </thead> 
  <tbody> 
