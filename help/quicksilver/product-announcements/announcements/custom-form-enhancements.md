@@ -126,4 +126,4 @@ You can delete an object type on a custom form at any time, but this should be d
 
 Also, there is no notification system to alert people who use the custom form that it was deleted.
 
-For more information, see [Delete a custom field or widget from the system](../../help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
+For more information, see [Delete a custom field or widget from the system](../../help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md). 
