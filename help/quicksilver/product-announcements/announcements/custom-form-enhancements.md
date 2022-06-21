@@ -81,7 +81,7 @@ In a custom form associated with object types from both of these groups, the sys
 
 When you associate an object type that uses different permission options than the other object types already on a custom form, a message displays and allows you to switch to the common set of permission options will be used for the form. This change will apply to all fields, even if they are not under a section break.
 
-For more information, see [Add a section break to a custom form](help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+For more information, see [Add a section break to a custom form](../../help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 
 ### Calculated custom field compatibility
 
@@ -126,4 +126,4 @@ You can delete an object type on a custom form at any time, but this should be d
 
 Also, there is no notification system to alert people who use the custom form that it was deleted.
 
-For more information, see [Delete a custom field or widget from the system](help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
+For more information, see [Delete a custom field or widget from the system](../../help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
