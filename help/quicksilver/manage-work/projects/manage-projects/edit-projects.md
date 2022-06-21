@@ -491,7 +491,7 @@ For information about how these settings affect creating new tasks, see the sect
    | Medium |50% |
    | Large |75% |
 
-     >[!TIP]
+   >[!TIP]
    >
    >When the project Update Type is set to Automatic and you select this setting, the Planned Hours of the tasks update according to the task Duration and the Work Effort percentage, if they are set to zero. For more information about using Work Effort to plan effort for a task, see [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md).
 
