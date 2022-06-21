@@ -98,7 +98,7 @@ However, if a calculated field in the form references a field that is not compat
 >```
 >Assigned To: Name{assignedTo}.{name}
 >```
-
+>
 >Later, you add the Project object type to the custom form. A warning message tells you that the Project object type is incompatible with the calculated custom field. This is because the Assigned To field is not available for projects.
 
 When this occurs, you can do one of the following:
