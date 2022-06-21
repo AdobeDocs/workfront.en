@@ -29,7 +29,7 @@ Currently, users cannot see the widget in the following areas:​
 * The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
 * ​The Workfront Mobile app
 
-For more information about adding widgets to custom forms, see [Add or edit an image or other asset widget in a custom form](help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+For more information about adding widgets to custom forms, see [Add or edit an image or other asset widget in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Associate a custom form with multiple object types
 
@@ -59,7 +59,7 @@ This is especially helpful when you convert an issue or task because you can car
 >
 >When the conversion takes place, the custom form must already be associated with the object type you are converting to.
 
-For instructions on adding an asset widget to a custom form, see [Add or edit an image or other asset widget in a custom form](help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+For instructions on adding an asset widget to a custom form, see [Add or edit an image or other asset widget in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 Consider the following when you create or edit a multi-object custom form:
 
@@ -81,7 +81,7 @@ In a custom form associated with object types from both of these groups, the sys
 
 When you associate an object type that uses different permission options than the other object types already on a custom form, a message displays and allows you to switch to the common set of permission options will be used for the form. This change will apply to all fields, even if they are not under a section break.
 
-For more information, see [Add a section break to a custom form](../../help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+For more information, see [Add a section break to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 
 ### Calculated custom field compatibility
 
@@ -116,9 +116,9 @@ When this occurs, you can do one of the following:
 >
 >  If you add an object type in front of a field name, it references to the object's parent object, so you cannot use `{project}.{name}` with a project, but you can use it with a task.
 
-For instructions on adding a calculated custom field to a custom form, see [Add calculated data to a custom form](help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+For instructions on adding a calculated custom field to a custom form, see [Add calculated data to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-For more information about variables like `$$OBJCODE`, see [Wildcard filter variables](help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+For more information about variables like `$$OBJCODE`, see [Wildcard filter variables](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### Caution about deleting an object type from a custom form
 
@@ -126,4 +126,4 @@ You can delete an object type on a custom form at any time, but this should be d
 
 Also, there is no notification system to alert people who use the custom form that it was deleted.
 
-For more information, see [Delete a custom field or widget from the system](help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
+For more information, see [Delete a custom field or widget from the system](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
