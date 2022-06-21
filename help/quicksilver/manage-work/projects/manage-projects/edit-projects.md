@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Projects</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -178,7 +178,7 @@ Some settings mentioned in this article might be modified from their default sta
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 
-      <td> <p>Select the status of the project. You cannot mark a project Complete before all tasks and issues complete. For information about project statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Access the list of system project statuses</a></p> <p>Tip: You can update the Status in the project header. </p> </td> 
+      <td> <p>Select the status of the project. You cannot mark a project Complete before all tasks and issues complete. For information about project statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Access the list of system project statuses</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Priority</strong> </td> 
@@ -198,7 +198,7 @@ Some settings mentioned in this article might be modified from their default sta
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Condition</strong> </td> 
-      <td> <p> <p>(Appears only after you select <strong>Manual</strong> for the <strong>Condition Type</strong>): Select a Condition to indicate how the project is going. </p> <p>Tip: If the Condition Type is set to Manual, you can also update the Condition in the project header.</p> <p>For information how project Conditions can be set automatically or manually, see <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a></p> </p> </td> 
+      <td> <p> <p>(Appears only after you select <strong>Manual</strong> for the <strong>Condition Type</strong>): Select a Condition to indicate how the project is going. </p> <p>For information how project Conditions can be set automatically or manually, see <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a></p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Schedule Mode</strong> </td> 
@@ -226,11 +226,11 @@ Some settings mentioned in this article might be modified from their default sta
      </tr> 
      <tr> 
       <td role="rowheader">Group</td> 
-      <td> <p> <p>Specify the name of the group associated with the project. </p>This is a required field. You cannot have a project which is not associated with a group. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p>Note:   <p>By default, one of the following groups is automatically associated <span data-mc-edit-date="2020-12-02T17:06:08.1586452-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted, only in QS" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2020-12-02T17:06:00.8315301-05:00">with</span> a project when it is created, unless you specify a different group:</p> 
+      <td> <p> <p>Specify the name of the group associated with the project. </p>This is a required field. You cannot have a project which is not associated with a group. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> By default, one of the following groups is automatically associated <span data-mc-edit-date="2020-12-02T17:06:08.1586452-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted, only in QS" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2020-12-02T17:06:00.8315301-05:00">with</span> a project when it is created, unless you specify a different group:</p> 
         <ul> 
          <li> <p><span>When the project is created from the Projects area, the Home Group of the project creator is associated with the project.</span> </p> <p>This is also true when the project is created from the Projects  section  in a portfolio or program.</p> </li> 
          <li> <p>When the project is created from a group's main page in the Setup area, that group is associated with the project.</p> </li> 
-        </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>Tip: If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level. Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group. For information about creating group-level approval processes, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>. For information about creating a group-level custom status, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a></p> </td> 
+        </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level. Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group. For information about creating group-level approval processes, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>. For information about creating a group-level custom status, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Company</strong> </td> 
@@ -238,7 +238,7 @@ Some settings mentioned in this article might be modified from their default sta
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Project Owner</strong> </td> 
-      <td> <p>The user specified in this field is added to the project team and is automatically given manage permissions to the project. The user who is designated as the Project Owner must be a Workfront active user.</p> <p>Tip: You can update the Project Owner in the project header. <br></p> </td> 
+      <td> <p>The user specified in this field is added to the project team and is automatically given manage permissions to the project. The user who is designated as the Project Owner must be a Workfront active user.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Project Sponsor</strong> </td> 
@@ -359,7 +359,7 @@ Some settings mentioned in this article might be modified from their default sta
       <td role="rowheader"><strong>Completion Mode</strong> </td> 
       <td> <p>Controls how the project is marked as Complete. Select from the following options: 
         <ul> 
-         <li><p><strong>Automatic</strong>: The project is marked Complete when all the tasks and issues are completed.</p><p>Note: The project Status is automatically changed to Complete only when the project status is Current when the tasks are completed. </p></li> 
+         <li><p><strong>Automatic</strong>: The project is marked Complete when all the tasks and issues are completed.</p><p>The project Status is automatically changed to Complete only when the project status is Current when the tasks are completed. </p></li> 
          <li><strong>Manual</strong>: You have to manually select the Complete status for the project, when all the tasks and issues are completed.</li> 
         </ul></p> </td> 
      </tr> 
@@ -377,21 +377,21 @@ Some settings mentioned in this article might be modified from their default sta
         <ul> 
          <li>Update the dates of tasks</li> 
          <li>Change predecessor relationships of tasks</li> 
-         <li><p>Change parent-child relationships, adding or removing assignments in addition to changing the task constraint or duration type.</p><p>When the tasks update, their parent objects (parent tasks or the project) update at the time indicated by the Update Type. </p><p>Note: If the parent objects do not update immediately after the change when selecting "Automatic and On Change" or "Change Only" Update Type, refresh the page</p><p>Select from the following options: </p><p>- <strong>Automatic and On Change</strong> (Default setting): The project timeline is updated each time a change occurs in the project or in another project that the project is dependent on (On Change). The project timeline is also updated each night (Automatic).</p><p>This is the recommended setting for this field because it ensures that the project is always up to date.</p><p>When you perform an action on a task or project that triggers a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer recalculations display briefly as a question mark (between 1 and 5 seconds, or up to a minute for large projects). This indicates that the recalculation is not yet finished, and the dates are subject to change.</p><p>- <strong>Change Only</strong>: The project timeline is updated each time a change occurs in the project or in another project that the project is dependent on. You might want to select this option if changes rarely occur in the project or in other projects that the timeline is dependent on.</p><p>- <strong>Automatic Only</strong>: The project timeline is updated each night; the timeline is not updated immediately after changes are made.</p><p>You might want to select this option if many changes occur each day in the project or in other projects that the timeline is dependent on. However, be aware that you chose this setting, as the project will not update at the same time that the changes are made.</p><p>- <strong>Manual Only</strong>: The project timeline is updated only when you select the option to Recalculate Timeline. For more information about manually recalculating the project timeline, see <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculate project timelines</a>. </p><p>You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).</p></li> 
+         <li><p>Change parent-child relationships, adding or removing assignments in addition to changing the task constraint or duration type.</p><p>When the tasks update, their parent objects (parent tasks or the project) update at the time indicated by the Update Type. </p><p>If the parent objects do not update immediately after the change when selecting "Automatic and On Change" or "Change Only" Update Type, refresh the page</p><p>Select from the following options: </p><p>- <strong>Automatic and On Change</strong> (Default setting): The project timeline is updated each time a change occurs in the project or in another project that the project is dependent on (On Change). The project timeline is also updated each night (Automatic).</p><p>This is the recommended setting for this field because it ensures that the project is always up to date.</p><p>When you perform an action on a task or project that triggers a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer recalculations display briefly as a question mark (between 1 and 5 seconds, or up to a minute for large projects). This indicates that the recalculation is not yet finished, and the dates are subject to change.</p><p>- <strong>Change Only</strong>: The project timeline is updated each time a change occurs in the project or in another project that the project is dependent on. You might want to select this option if changes rarely occur in the project or in other projects that the timeline is dependent on.</p><p>- <strong>Automatic Only</strong>: The project timeline is updated each night; the timeline is not updated immediately after changes are made.</p><p>You might want to select this option if many changes occur each day in the project or in other projects that the timeline is dependent on. However, be aware that you chose this setting, as the project will not update at the same time that the changes are made.</p><p>- <strong>Manual Only</strong>: The project timeline is updated only when you select the option to Recalculate Timeline. For more information about manually recalculating the project timeline, see <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculate project timelines</a>. </p><p>You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).</p></li> 
         </ul></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Schedule </td> 
+      <td role="rowheader"><strong>Schedule</strong> </td> 
       <td> <p>Select a schedule for your project. This should be the same schedule assigned to most people that are working on the project. You must create a schedule before you can assign it to a project or a user. If you have not created custom schedules in your system, the Default Schedule is selected.</p> <p>For more information about creating schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">User Time Off </td> 
-      <td> <p>Determines whether the time off of the Primary Assignee of a task adjusts the task planned dates on the project. </p><p>Your Workfront administrator<span> or a group administrator</span> selects the default for this setting for your system <span>or your group</span>. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p><p>Select from the following options:<br>- <strong>Consider user time off in task durations</strong>: When selecting this option, the planned dates of the tasks adjust according to the time off of the Primary Assignee of the task, if the time off occurs during the duration of the task. </p><p>For example, if a task with a constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 2 marked for Time-off, when this selection is enabled the task planned dates are June 1 to June 4. Depending on the Task&nbsp;Constraint, the following scenarios exist: </p> 
+      <td role="rowheader"><strong>User Time Off</strong> </td> 
+      <td> <p>Determines whether the time off of the Primary Assignee of a task adjusts the task planned dates on the project. </p><p>Your Workfront administrator<span> or a group administrator</span> selects the default for this setting for your system <span>or your group</span>. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p><p>Select from the following options:<br>- <strong>Consider user time off in task durations</strong>: When selecting this option, the planned dates of the tasks adjust according to the time off of the Primary Assignee of the task, if the time off occurs during the duration of the task. </p><p>For example, if a task with a constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 2 marked for Time-off, when this selection is enabled the task planned dates are June 1 to June 4. Depending on the Task Constraint, the following scenarios exist: </p> 
        <ul> 
         <li>For task constraints that relate to planning from a start date (As Soon As Possible, Earliest Available Time, Start No Earlier Than, Start No Later Than, Must Start On) the Planned Start Date does not change but the Planned Completion Date changes.</li> 
         <li>For task constraints that relate to planning from a completion date (As Late As Possible, Latest Available Time,&nbsp;Finish No Earlier Than, Finish No Later Than, Must&nbsp;Finish On), the Planned Completion Date does not change, but the Planned Start&nbsp;Date changes.</li> 
         <li>For tasks with a constraint of Fixed&nbsp;Dates, neither the Planned Start nor Completion Date changes. </li> 
-       </ul><p>Important: The Duration of the task does not change when you select this setting. Only the planned dates change, depending on the Task Constraint. For information about task constraint, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a>. </p><p>- <strong>Ignore user time off in task durations</strong>: When selecting this option, the planned dates of the tasks on the project remain as originally planned, even if the Primary Assignee of the task has time off during the duration of the task. </p><p>Consider the following when selecting options for this setting:</p> 
+       </ul><p>The Duration of the task does not change when you select this setting. Only the planned dates change, depending on the Task Constraint. For information about task constraint, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a>. </p><p>- <strong>Ignore user time off in task durations</strong>: When selecting this option, the planned dates of the tasks on the project remain as originally planned, even if the Primary Assignee of the task has time off during the duration of the task. </p><p>Consider the following when selecting options for this setting:</p> 
        <ul> 
         <li><p>The default option for this setting for a new project is the same as the system-level project preference. </p><p>For information about the project preferences at the System level, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p></li> 
         <li>When you attach a template to an existing project, the setting on the project is updated to match the one of the template. </li> 
@@ -399,27 +399,27 @@ Some settings mentioned in this article might be modified from their default sta
        </ul></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Resource Leveling Mode </td> 
+      <td role="rowheader"><strong>Resource Leveling Mode</strong> </td> 
       <td> <p> <p>Select from the following options:</p> <p>- <strong>Manual</strong>: you must manually level your resources (this is the default setting)</p> <p>- <strong>Automatic</strong>: Workfront levels your resources.</p> <p>For more information about Resource Leveling, see <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Level Resources in the Gantt Chart </a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Risk </td> 
-      <td> <p> <p>Define the level of risk of your project. The risk is just an indicator of how risky a project can be. You can prioritize the execution of your projects based on the level of risk.</p> <p> <p>Consider selecting from the following levels of risk:</p> <p>- Very Low</p> <p>- Low</p> <p>- Medium</p> <p>- High</p> <p>- Very High</p> <p>The levels of risks you indicate here cannot be customized.</p> <p>Note: These are not related to the potential Risks that could occur during the life of a project and which you should record in the Risks tab of the project, or in the Business Case. For information about potential project Risks, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Edit and create risk types</a>. </p> </p> </p> </td> 
+      <td role="rowheader"><strong>Risk</strong> </td> 
+      <td> <p> <p>Define the level of risk of your project. The risk is just an indicator of how risky a project can be. You can prioritize the execution of your projects based on the level of risk.</p> <p> <p>Consider selecting from the following levels of risk:</p> <p>- Very Low</p> <p>- Low</p> <p>- Medium</p> <p>- High</p> <p>- Very High</p> <p>The levels of risks you indicate here cannot be customized.</p> <p>These are not related to the potential Risks that could occur during the life of a project and which you should record in the Risks tab of the project, or in the Business Case. For information about potential project Risks, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Edit and create risk types</a>. </p> </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Resource Pools </td> 
-      <td> <p> <p>Specify the Resource Pools associated with the project. Resource Pools are collections of users that are needed at the same time for the completion of a project and allow for project budgeting in the Resource Planner. For more information about Resource Pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>. </p> <p>Note: When you edit projects in bulk, only the Resource Pools that are common to all the projects selected appear in this field. If the projects selected have no shared Resource Pools, this field will be empty. The Resource Pools you specify here will overwrite the projects' individual Resource Pools.</p> </p> </td> 
+      <td role="rowheader"><strong>Resource Pools</strong> </td> 
+      <td> <p> <p>Specify the Resource Pools associated with the project. Resource Pools are collections of users that are needed at the same time for the completion of a project and allow for project budgeting in the Resource Planner. For more information about Resource Pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>. </p> <p>When you edit projects in bulk, only the Resource Pools that are common to all the projects selected appear in this field. If the projects selected have no shared Resource Pools, this field will be empty. The Resource Pools you specify here will overwrite the projects' individual Resource Pools.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> Allow company-level billing rates to override project-level billing rates</td> 
+      <td role="rowheader"> <strong>Allow company-level billing rates to override project-level billing rates</strong></td> 
       <td>Select this option to allow company-level billing rates to override historical job role rates unless those rates are marked as billed. Enabling this option overrides historical job role rates unless they are marked as billed. <br>For more information, see <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Override Project-Level Billing Rates with Company-Level Billing Rates</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Require time to be approved for this project</td> 
+      <td role="rowheader"><strong>Require time to be approved for this project</strong></td> 
       <td> <p> Select this option to require the Project Owner to approve time logged on the project. If you are using Billing Records and you select this option, only the approved hours on the project appear as available billable hours for the Billing Records. Approving time on the project is independent of approving timesheets. </p> <p>For more information about requiring time to be approved on a project, see <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Require time to be approved for a project</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Filter Hour Types</strong><span style="font-weight: normal;"> and</span> Hour Types</td> 
+      <td role="rowheader"><strong>Filter Hour Types</strong> and</span> <strong>Hour Types</strong></td> 
       <td> <p> <p>Consider the following:</p> 
         <ul> 
          <li> <p>Select <strong>No</strong> to make all project-specific hour types available on the project. (This is the default selection)</p> <p>Or</p> </li> 
@@ -431,11 +431,11 @@ Some settings mentioned in this article might be modified from their default sta
       <td> <p> <p>Select the Reminder Notification that should be associated with the project. You must configure Reminder Notifications for projects for this field to appear during editing a project. For more information about configuring Reminder Notifications, see <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md"><a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Set up reminder notifications</a> .</a></p> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Approval Process</td> 
+      <td role="rowheader"><strong>Approval Process</strong></td> 
       <td> <p>Select the approval process you want to associate with the project. Your Workfront administrator must define system-level Approval Processes before you can associate them with projects. <span>A user with administrative access to Approval processes can also create group-specific approval processes.</span> For more information about creating approval processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>.</p> <p>Consider the following when adding approval processes: </p> 
        <ul> 
         <li>Only active approval processes display in the list. </li> 
-        <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.</p> <p>Important: If the group associated with the project changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
+        <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.</p> <p>If the group associated with the project changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
         <li> <!--
           <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>
          --> </li> 
@@ -485,12 +485,11 @@ For information about how these settings affect creating new tasks, see the sect
 
 1. (Conditional and optional) If you selected Use Work Effort to automatically calculate task Planned Hours, click the drop-down menu for each level of effort and select a percentage for each level. The following percentage values are defaults:
 
-   | Small |25% |
+   | Size |Percentage |
    |---|---|
+   | Small |25% |
    | Medium |50% |
    | Large |75% |
-
-   {style="table-layout:auto"}
 
    >[!TIP]
    >
@@ -550,7 +549,7 @@ For information about how these settings affect creating new tasks, see the sect
       <td><p>Select from <strong>View</strong>, <strong>Contribute,</strong> or <strong>Manage</strong> access to a task. The user assigned to a task is automatically granted this access to the task.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Also grant access to the project</td> 
+      <td role="rowheader"><strong>Also grant access to the project</strong></td> 
       <td><p>Select from <strong>View</strong>, <strong>Contribute</strong>, or <strong>Manage</strong> access to the project. The user assigned to a task is automatically granted this access to the project, as well.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -558,11 +557,11 @@ For information about how these settings affect creating new tasks, see the sect
       <td><p>Select from <strong>View</strong>, <strong>Contribute,</strong> or <strong>Manage</strong> access to an issue. The user assigned to an issue is automatically granted this access to the issue. For more information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Also grant access to the project</td> 
+      <td role="rowheader"><strong>Also grant access to the project</strong></td> 
       <td><p>Select from <strong>View</strong>, <strong>Contribute</strong>, or <strong>Manage</strong> access to the project. The user assigned to an issue is automatically granted this access to the project, as well.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">When someone submits a request: Give them access</td> 
+      <td role="rowheader"><strong>When someone submits a request: Give them access</strong></td> 
       <td><p>Select from <strong>View</strong>, <strong>Contribute</strong>, or <strong>Manage</strong> access to the request. When the project is also a request queue and a user submits a request to the project, they are granted this access to the request they submitted. For information about setting up a project as a request queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -571,7 +570,7 @@ For information about how these settings affect creating new tasks, see the sect
      </tr> 
      <tr> 
       <td role="rowheader"><strong>When someone is given access to this project: Give them access to ...</strong></td> 
-      <td><p>Select the access options that you want users to have on the project, if the project is shared with them. Select the specific options for their access if they are designated as <strong>Viewers</strong>, <strong>Contributors</strong>, or <strong>Managers</strong> when sharing the project with them. </p><p>Note:  The <strong>Delete</strong> access in the <strong>Manage</strong> permission level determines whether users can&nbsp;delete the project itself. Users with <strong>Manage</strong> access to the project can delete tasks and issues within the project regardless of whether this option is selected, if they have <strong>Manage</strong> permissions to the tasks and issues.&nbsp;</p></td> 
+      <td><p>Select the access options that you want users to have on the project, if the project is shared with them. Select the specific options for their access if they are designated as <strong>Viewers</strong>, <strong>Contributors</strong>, or <strong>Managers</strong> when sharing the project with them. </p><p>The <strong>Delete</strong> access in the <strong>Manage</strong> permission level determines whether users can&nbsp;delete the project itself. Users with <strong>Manage</strong> access to the project can delete tasks and issues within the project regardless of whether this option is selected, if they have <strong>Manage</strong> permissions to the tasks and issues.&nbsp;</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -582,17 +581,19 @@ For information about how these settings affect creating new tasks, see the sect
 
 You can edit a limited amount of information in the project header.
 
+Your system or group administrator can customize the fields you see in the project header. 
+
 ![](assets/project-header-350x18.png)
 
-You can edit the following fields in the project header:
+The following fields are included in the project header, by default.
 
 * Project name
-* Project&nbsp;Owner
+* Project Owner
 * Planned Completion Date and time
 
   >[!NOTE]
   >
-  >You can edit this field only when the project is scheduled from Completion Date. When the project is scheduled from Start Date, Workfront calculates the Planned Completion&nbsp;Date and time based on the duration oft he tasks.
+  >You can edit this field only when the project is scheduled from Completion Date. When the project is scheduled from Start Date, Workfront calculates the Planned Completion Date and time based on the duration of the tasks.
 
 * Condition
 
@@ -625,27 +626,27 @@ To edit projects in bulk:
 
 1. Specify the information on all selected projects in the following sections:
 
-   * Overview
+   * **Overview**
 
      For information, see the [Overview](#overview) section in this article.
    
-   * Finance
+   * **Finance**
 
      For information, see the [Finance](#finance) section in this article.
    
-   * Portfolio
+   * **Portfolio**
 
      For information, see the "Project association" section in the [Overview](#overview) section in this article.
    
-   * Settings
+   * **Settings**
 
      For information, see the [Project Settings](#project-settings) section in this article.
    
-   * Access
+   * **Access**
 
      For information, see the [Access](#access) section in this article.
    
-   * Custom Forms
+   * **Custom Forms**
 
      For information, continue with step 7 below.
 
@@ -653,7 +654,7 @@ To edit projects in bulk:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;make sure this stays accurate)</p>   
      -->
 
-   * Tasks
+   * **Tasks**
 
      For information, see the [Task Settings](#task-settings) section in this article.
    
@@ -661,7 +662,7 @@ To edit projects in bulk:
 
      For information, see the   [Issue Settings](#issue-settings) section in this article.
    
-   * Comment
+   * **Comment**
 
      For information, continue with step 9 below.
 

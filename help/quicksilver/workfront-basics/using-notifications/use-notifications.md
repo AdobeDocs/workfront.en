@@ -28,8 +28,9 @@ This section contains the following articles:
 * [Notifications: Goals](../../workfront-basics/using-notifications/notifications-goals.md) 
 * [Notifications: Information about projects I own](../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md) 
 * [Notifications: Information about projects I sponsor](../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md) 
-* [ [Notifications: Information about projects I'm on](../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md)](../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md) 
+* [Notifications: Information about projects I'm on](../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md) 
 * [Notifications: Information about work assigned to me](../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md) 
 * [Notifications: Miscellaneous information](../../workfront-basics/using-notifications/notifications-misc-information.md) 
 * [Notifications: Requests I have made](../../workfront-basics/using-notifications/notifications-requests-i-have-made.md)
+* [Notifications: Delegation](../../workfront-basics/using-notifications/notifications-delegation.md)
 
