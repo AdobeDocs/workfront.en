@@ -55,7 +55,7 @@ Workfront has five built-in issue severities:
 * Bug with no workaround
 * Fatal error
 
-<p>You can edit the following for these severities:</p>
+<p>You can edit the following for these severities:</p> 
 
 * Name
 * Color
