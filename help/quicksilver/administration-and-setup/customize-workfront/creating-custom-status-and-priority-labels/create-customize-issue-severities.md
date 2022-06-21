@@ -55,26 +55,24 @@ Workfront has five built-in issue severities:
 * Bug with no workaround
 * Fatal error
 
-
 <p>You can edit the following for these severities:</p>
 
-   * Name
-   * Color
+* Name
+* Color
      
      The color of a severity is preserved in a chart report, if you group your results by Issue Severity. For information on chart reports, see [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-   * Which severity is the default
+* Which severity is the default
      
      For more information about default severities, see [Create or edit an issue severity](#create-or-edit-an-issue-severity) in this article.
-   * Description
-   * Whether a severity is hidden in Workfront
+* Description
+* Whether a severity is hidden in Workfront
      
      For more information about hiding a severity, see [Create or edit an issue severity](#create-or-edit-an-issue-severity")
 
-   * Delete a severity
+* Delete a severity
      
      When you do this, you must select a replacement severity.
-
 
 ## Create or edit an issue severity {#create-or-edit-an-issue-severity}
 
