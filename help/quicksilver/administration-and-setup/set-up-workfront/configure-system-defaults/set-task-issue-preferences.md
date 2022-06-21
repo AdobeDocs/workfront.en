@@ -58,6 +58,7 @@ You must have the following access to perform the steps in this article:
 * [Issues](#issues) 
 * [Deletion](#deletion) 
 * [Actual Dates](#actual-dates)
+* [Delegation](#delegation)
 
   <!--
   <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
@@ -179,6 +180,22 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
+### Delegation
+
+Enabling the [!UICONTROL Allow users to delegate their tasks & issues] setting allows all users in  to temporarily delegate their work to others. 
+
+When this setting is enabled, users can see the following:
+
+* The [!UICONTROL Delegate] link in their [!UICONTROL Home] area. They can delegate approvals, or task and issue assignments from here. 
+* An indication that a task or issue is delegated to another user in the [!UICONTROL Assignments and delegations] area in the task or issue header. 
+
+If you disable the [!UICONTROL Allow users to delegate their tasks & issues] setting, the delegations that are currently scheduled will stop and the users delegated will receive an email notification that the delegation was stopped. 
+
+For information about delegating work to others, see the following articles:
+
+* [Delegate work overview](../../../manage-work/delegate-work/delegate-work-overview.md)
+* [Manage task and issue delegation](../../../manage-work/delegate-work/how-to-delegate-work.md)
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">

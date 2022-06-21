@@ -54,7 +54,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Tag others on updates
 
@@ -65,7 +65,14 @@ You must have the following access to perform the steps in this article:
 
    Type the @ symbol in the **Start a new update** area, begin typing the name of the user or team you want to include on the update, then click the name when it appears in the drop-down list.
 
-   ![](assets/tag-user-in-update-qs-350x142.png)
+   >[!TIP]
+   >
+   >   To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address. Users must be associated with at least one job role to view it as you tag them in an update.
+
+
+   ![](assets/tag-users-in-update.png)
+
+1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company.   
 
 1. (Optional) To add multiple users and teams, repeat step 2.
 

@@ -10,6 +10,6 @@ description: The articles in this section contain information about how you can 
 
 The articles in this section contain information about how you can delegate work while you are temporarily out of the office.
 
-* [Delegate work overview](../../manage-work/delegate-work/delegate-work-overview.md) 
-* [Delegate tasks and issues](../../manage-work/delegate-work/how-to-delegate-work.md)
+* [Delegate tasks and issues overview](../../manage-work/delegate-work/delegate-work-overview.md) 
+* [Manage task and issue delegation](../../manage-work/delegate-work/how-to-delegate-work.md)
 
