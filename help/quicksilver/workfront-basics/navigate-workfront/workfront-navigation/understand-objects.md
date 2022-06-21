@@ -97,7 +97,7 @@ As a Workfront administrator, you can customize the names of the following objec
 
 * Campaigns
   
-  Campaigns are available when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md.). 
+  Campaigns are available when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md). 
 
 For example, if the larger amount of work in your organization is known as a 'Engagement', you can replace the name 'Project' with 'Engagement'. Your Workfront interface shows 'Engagement' instead of 'Project' everywhere where the name 'Project' would appear.
 
