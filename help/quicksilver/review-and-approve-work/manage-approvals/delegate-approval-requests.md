@@ -8,7 +8,7 @@ feature: Work Management
 
 # Delegate approval request
 
-Delegating approval requests allows you to assign another user to approve your requests for a period of time, for example, if you will be out of the office on vacation.
+You can temporarily delegate the work you are assigned to while you are out of the office. You can delegate task and issue assignments or you can delegate approval requests. This article describes how to delegate approval requests. For information about delegating tasks and issues, see [Manage task and issue delegation](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 >[!NOTE]
 >
@@ -103,9 +103,13 @@ To delegate approvals to another user:
 
 1. (Optional and conditional) In the Home area, click the **Filter** drop-down menu, then click **Approvals**.
 
-1. Click **Delegate My Approvals**.
+1. (Conditional) Click **Delegate My Approvals**
 
-   ![](assets/delegate-approvals-nwe-350x339.png)
+   Or
+
+   If your system or group administrator enabled the task and issue delegation, click **Delegate**, then click **Delegate approvals**.
+
+   ![](assets/delegate-approvals-nwe.png)
 
 1. Specify the following information:
 
@@ -132,14 +136,19 @@ To delegate approvals to another user:
 
 1. Click the **Filter** drop-down menu, then click **Approvals**.
 
-1. Click **Edit delegation**.
-1. Do either of the following:
+1. (Conditional) Click **Edit delegation**
 
-   * **To update the existing approval delegation:** Change the information displayed, then click **Save**.
+   Or
+
+   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.   
+
+1. (Conditional) Do either of the following:
+
+   * To update the existing approval delegation: Change the information displayed, then click **Save**.
    
-   * **To stop the existing delegation:** Click **Stop Delegation**, then click **Confirm**.
+   * To stop the existing delegation: Click **Stop delegation**, then click **Stop delegation** to confirm.
 
-     ![](assets/stop-delegation-nwe-350x329.png)
+     ![](assets/stop-delegation-nwe.png)
 
 ### View delegated approvals {#view-delegated-approvals}
 
