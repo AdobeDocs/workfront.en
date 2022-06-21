@@ -9,7 +9,7 @@ feature: Get Started with Workfront
 # Understand objects in Adobe Workfront
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***Linked to several articles, do not remove/ change.</p>
+<***Linked to several articles, do not remove/ change. 
 -->
 
 The information you display in Adobe Workfront is represented by objects which are stored in the Workfront database. The objects are what drives the information in Workfront.
@@ -42,16 +42,17 @@ The following are some of the most commonly used objects in Workfront and their 
 | Users |Groups, Teams, Companies |Job Roles |
 | Companies |  |Users |
 | Documents |Tasks, Issues, Projects, Portfolios, Programs, Users |  |
-| Plans&#42;  |&nbsp; |Initiatives |
-| Goals&#42; |&nbsp; |Results,&nbsp;Activities |
-
-{style="table-layout:auto"}
+| Plans*  | |Initiatives |
+| Goals* | |Results, Activities |
+| Campaigns** |Portfolios, Programs |Projects |
 
 For a complete list of objects in Workfront, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
-&#42; Plans are the objects of the Workfront Scenario Planner. For information about the Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+*Plans are the objects of the Workfront Scenario Planner. For information about the Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
-&#42;&nbsp;Goals are the objects of Workfront Goals.&nbsp;For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
+*Goals are the objects of Workfront Goals. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
+
+**Campaigns are available when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md).
 
 ## Customize object names
 
@@ -82,13 +83,23 @@ As a Workfront administrator, you can customize the names of the following objec
 * Project
 * Task
 * Issue
-* Goal&#42;
-* Result&#42;
-* Activity&#42;
+* Goal*
+* Result*
+* Activity*
 
-  &#42;Goals, results, and activities are only available if your company purchased Workfront Goals.&nbsp;For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
+  *Goals, results, and activities are only available if your company purchased Workfront Goals. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-For example, if the larger amount of work in your organization is known as a 'Campaign', you can replace the name 'Project' with 'Campaign'. Your Workfront interface shows 'Campaign' instead of 'Project' everywhere where the name 'Project' would appear.
+* Initiative**
+* Scenario**
+* Plan**
+
+  Initiatives, scenarios, and plans are available only if your company purchased the Workfront Scenario Planner. For information about the Scenario Planner, see [Get started with the Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md).
+
+* Campaigns
+  
+  Campaigns are available when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md.). 
+
+For example, if the larger amount of work in your organization is known as a 'Engagement', you can replace the name 'Project' with 'Engagement'. Your Workfront interface shows 'Engagement' instead of 'Project' everywhere where the name 'Project' would appear.
 
 For more information about how you can customize object names using Layout Templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -104,7 +115,7 @@ The following areas show the updated name of the objects:
 * All  sections in the left panel navigation 
 * All menus
 * In-app notifications
-* Report builder and reporting elements (views, filters and groupings)
+* Report builder and reporting elements (views, filters, and groupings)
 * Save buttons
 * Exported files
 * Emails
@@ -145,6 +156,7 @@ The following is a list of objects and their corresponding icons in Workfront.
 
 | **Object** |**Icon** |**Customizable object name** |
 |---|---|---|
+|Campaign |![](assets/campaing-icon-without-beta-in-color.png),![](assets/campaing-icon-without-beta-black-and-white.png) |✔ |
 | Company | ![](assets/company-icon-nwe.png)  , ![](assets/nwe-company-icon-54x54.png)|  |
 | Dashboard | ![](assets/dashboard-icon-nwe.png)  , ![](assets/nwe-dashboards-icon.png)|  |
 | Goal | ![](assets/nwe-goal-icon.png)|✔ |
@@ -159,8 +171,6 @@ The following is a list of objects and their corresponding icons in Workfront.
 | Task | ![](assets/task-icon-new.png)  , ![](assets/nwe-tasks-icon.png)|✔ |
 | Team | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png)|  |
 | Template | ![](assets/template-icon-nwe.png)  , ![](assets/nwe-templates-icon.png)|  |
-
-{style="table-layout:auto"}
 
 ## Reference Numbers of objects
 
@@ -353,7 +363,9 @@ You can report on the following objects when using the report builder in the Wor
 * Timesheet Profile
 * Topic Group
 * User Delegation  
+
   You can report on users who have been delegated to perform others' tasks and issues while they are out of the office. This report displays the user who is out of the office as well as the user who fulfills their duties while they are out. 
+  
 * View
 * Work Item (this refers to tasks and issues)
 

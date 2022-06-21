@@ -178,7 +178,7 @@ Some settings mentioned in this article might be modified from their default sta
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 
-      <td> <p>Select the status of the project. You cannot mark a project Complete before all tasks and issues complete. For information about project statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Access the list of system project statuses</a></p> <p>Tip: You can update the Status in the project header. </p> </td> 
+      <td> <p>Select the status of the project. You cannot mark a project Complete before all tasks and issues complete. For information about project statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Access the list of system project statuses</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Priority</strong> </td> 
@@ -198,7 +198,7 @@ Some settings mentioned in this article might be modified from their default sta
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Condition</strong> </td> 
-      <td> <p> <p>(Appears only after you select <strong>Manual</strong> for the <strong>Condition Type</strong>): Select a Condition to indicate how the project is going. </p> <p>Tip: If the Condition Type is set to Manual, you can also update the Condition in the project header.</p> <p>For information how project Conditions can be set automatically or manually, see <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a></p> </p> </td> 
+      <td> <p> <p>(Appears only after you select <strong>Manual</strong> for the <strong>Condition Type</strong>): Select a Condition to indicate how the project is going. </p> <p>For information how project Conditions can be set automatically or manually, see <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a></p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Schedule Mode</strong> </td> 
@@ -238,7 +238,7 @@ Some settings mentioned in this article might be modified from their default sta
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Project Owner</strong> </td> 
-      <td> <p>The user specified in this field is added to the project team and is automatically given manage permissions to the project. The user who is designated as the Project Owner must be a Workfront active user.</p> <p>Tip: You can update the Project Owner in the project header. <br></p> </td> 
+      <td> <p>The user specified in this field is added to the project team and is automatically given manage permissions to the project. The user who is designated as the Project Owner must be a Workfront active user.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Project Sponsor</strong> </td> 
@@ -582,17 +582,19 @@ For information about how these settings affect creating new tasks, see the sect
 
 You can edit a limited amount of information in the project header.
 
+Your system or group administrator can customize the fields you see in the project header. 
+
 ![](assets/project-header-350x18.png)
 
-You can edit the following fields in the project header:
+The following fields are included in the project header, by default.
 
 * Project name
-* Project&nbsp;Owner
+* Project Owner
 * Planned Completion Date and time
 
   >[!NOTE]
   >
-  >You can edit this field only when the project is scheduled from Completion Date. When the project is scheduled from Start Date, Workfront calculates the Planned Completion&nbsp;Date and time based on the duration oft he tasks.
+  >You can edit this field only when the project is scheduled from Completion Date. When the project is scheduled from Start Date, Workfront calculates the Planned Completion Date and time based on the duration of the tasks.
 
 * Condition
 

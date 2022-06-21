@@ -57,7 +57,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click a category to view the notification settings related to that category.
 
-   ![](assets/my-profile-notifications-350x212.png)
+   ![](assets/my-profile-notifications.png)
 
 1. Select or deselect the check boxes on the right to specify whether you want to receive or not receive notifications daily, instantly, or both.
 

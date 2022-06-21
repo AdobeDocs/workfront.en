@@ -111,15 +111,15 @@ To delegate approvals to another user:
 
    ![](assets/delegate-approvals-nwe.png)
 
-1. Specify the following information:
+1. Specify the following information in the Delegate My Approvals section:
 
-   * **Delegate My Approvals To:** Begin typing the name of the user who you want to forward approvals to, then click the name when it appears in the drop-down menu.
-   * **Start:** Select the date for approvals to begin being forwarded. Forwarding begins at 12:00 A.M. on the date that you select.  
+   * **Name**: Begin typing the name of the user who you want to delegate approvals to, then click the name when it appears in the drop-down menu.
+   * **Start date**: Select the date for approvals to begin being forwarded. Forwarding begins at 12:00 A.M. on the date that you select.  
      The Start Date must be the current date or a future date.
-   * **End:**Do one of the following:
+   * **End date**:Do one of the following:
 
       * Select the date for approvals to stop being forwarded. Forwarding ends at 11:59 P.M. on the date that you select.
-      * Select&nbsp;**No end date**&nbsp;to configure Workfront to forward approvals indefinitely.
+      * Select **No end date** to configure Workfront to delegate approvals indefinitely.
 
 1. Click **Save**.
 

@@ -800,3 +800,11 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
  </tbody> 
 </table>
 
+## Delegation
+
+| Object Type      | Event                                       | Description                                                  | Default state |
+|------------------|---------------------------------------------|--------------------------------------------------------------|---------------|
+| Tasks and issues | Task and issue delegation to assignee       | I delegate my tasks and issues (confirmation)                | Active        |
+| Tasks and issues | Stop task and issue delegation to assignee  | I stop the delegation of my tasks and issues (confirmation)  | Active        |
+| Tasks and issues | Task and issue delegation to delegate       | Someone delegates their tasks and issues to me               | Active        |
+| Tasks and issues | Stop tasks and issue delegation to delegate | Someone stops the delegation of their tasks and issues to me | Active        |
