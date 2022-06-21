@@ -93,7 +93,7 @@ As a Workfront administrator, you can customize the names of the following objec
 * Scenario**
 * Plan**
 
-  Initiatives, scenarios, and plans are available only if your company purchased the Workfront Scenario Planner. For information about the Scenario Planner, see [Get started with the Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md).
+  **Initiatives, scenarios, and plans are available only if your company purchased the Workfront Scenario Planner. For information about the Scenario Planner, see [Get started with the Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md).
 
 * Campaigns
   
