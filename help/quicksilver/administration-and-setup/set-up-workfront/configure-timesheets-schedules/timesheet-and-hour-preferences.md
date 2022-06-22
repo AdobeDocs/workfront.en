@@ -61,10 +61,7 @@ You must have the following access to perform the steps in this article:
         <li>Their timesheets as General Time</li> 
        </ul> <p>This is useful when users plan to be away from the office and want to log that time beforehand.</p> <p><b>NOTE</b>: You cannot prevent users from logging time on tasks or issues that are closed or canceled. You can only prevent users from logging time on complete or dead projects. We recommend that you use filters in lists of tasks and issues to exclude&nbsp;the ones that have been completed or canceled from being visible to users.</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Add expenses from a timesheet</td> 
-      <td> <p>Enables users to record both time and expenses in the timesheet.</p> </td> 
-     </tr> 
+   
      <tr> 
       <td role="rowheader">Assign Job Roles to hour entries manually</td> 
       <td> <p>Allow users to manually select any Job Role assigned in their user profile or assigned to the object.</p> <p><b>IMPORTANT</b>:  

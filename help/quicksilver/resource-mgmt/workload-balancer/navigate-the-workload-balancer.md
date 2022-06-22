@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
      <li> <p>Projects</p> </li> 
      <li> <p>Tasks</p> </li> 
      <li> <p>Issues</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -58,13 +58,29 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations for viewing items in the Workload Balancer
 
 Consider the following when viewing the Workload Balancer:
 
 * Projects display in the Workload Balancer only when the Group by Project setting is enabled. This setting is enabled by default.
+* Mousing over a task or an issue displays the following additional information about the task or issue:
+
+  * Project name
+
+  * Task or issue name
+
+  * Parent task
+
+  * Planned Start and Completion Dates
+
+  * Number of Planned Hours
+
+  * Ready to start or Not ready status
+
+  ![task-pop-up-with-additional-info-in-workload-balancer](assets/task-pop-up-with-additional-info-in-global-wb.png)
+
 * When a project has no tasks during a period of time, the bar at the project level becomes a dimmed color.
 
   ![](assets/wb-break-in-project-timeline-with-no-tasks-highlight-350x80.png)
@@ -119,13 +135,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Resourcing**.
 1. Click **Workload Balancer** in the left panel.
 
-   You might need to click **Scheduling**, then select **Workload Balancer** in the upper-left corner. 
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: take this out when Scheduling is removed)
-   </MadCap:conditionalText>
-   -->
+   You might need to click **Scheduling**, then select **Workload Balancer** in the upper-left corner. <!--(NOTE: take this out when Scheduling is removed)-->
 
    The Workload Balancer displays work assignment information starting with the current week. The names of work items are listed on the left side as well as represented by bars on the right side of the of the Workload Balancer within their respective timelines. By default, blue bars represent the timelines of projects and tasks and maroon bars represent issues.
 
@@ -212,7 +222,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    The Settings panel displays.
 
-   ![](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe-350x365.png)
+   ![](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
    Select from the options listed below to update the information you view in the Workload Balancer, then click the **X icon** in the upper-right of the Settings box to close it.
 
@@ -230,8 +240,8 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    * **Show Projected Dates**: When this is selected, the projected timeline of work items displays in addition to the planned timeline. Notice the following:
 
-      * The projected timeline of tasks and projects displays in light blue bars with a line underneath. 
-      * The projected timeline of issues displays in light maroon bars with a line underneath. 
+      * The projected timeline of project, tasks, and issues displays as a dark blue line above the task, issue, and project bars.
+      * The projected timeline that is outside of the planned timeline displays in light blue, even when you update the color theme, as described below.
       * The projected timeline for the items that you have no access to view displays in light gray with a line underneath.
       * When a task or issue completes before the due Planned Completion Date the allocation numbers for the remaining days are struck through and do not count towards the user's allocation. This displays only when both the Show Projected Dates setting and the Show allocation icon are enabled.
 
@@ -241,15 +251,16 @@ After selecting the settings you want to apply to your view, the Workload Balanc
      >
      >Notice that work items display in the Workload Balancer when either their planned or the projected timelines (not necessarily both at the same time) occur during the timeframe selected.
 
-   * **Show completed work**:&nbsp;When this is enabled, tasks and issues that are completed display in the Assigned Work area. This is enabled by default.
+   * **Show completed work**: When this is enabled, tasks and issues that are completed display in the Assigned Work area. This is enabled by default.
 
      A green checkmark icon ![](assets/green-checkmark-icon.png) displays to the upper-right corner of a task or issue bar when they are completed. The same icon displays for a project when the tasks or issues for the selected time frame of the project are completed. 
    
    * **Show remaining time**: When this is enabled, Workfront displays the difference between the daily time for which the user is available to work based on their schedules and the hours for which they are allocated in the Assigned Work area for the users. This is disabled by default and allocated time displays by default.
+
    * In the **Select color theme section**, select from the following:
 
       * **Default**: The bars for all projects and their work items display in blue. 
-      * **Project**: The bars associated with each project and its work items change according to the name of the project. All tasks that belong to the project display in bars that match the color of the project.
+      * **Project**: The bars associated with each project and its work items change according to the name of the project. All tasks that belong to the project display in bars that match the color of the project. The project bars display in a lighter shade to distinguish them from the tasks. The project bars also include a project icon when choosing not to display allocations.
       * **Project Status**: The bars associated with each project and its work items change to the color of the status of the project.
 
         >[!TIP]
@@ -261,7 +272,20 @@ After selecting the settings you want to apply to your view, the Workload Balanc
       * **Hours**: Displays allocated time as hours. This is the default. 
       * **Percentage**: Displays allocated time as a percentage of the total available time
 
-1. (Optional and conditional) If you changed the color theme to Project&nbsp;Status, hover over the name of a project on the left to view the status of the project.
+   * In the **Sorting preferences** section, select how you want the items to be sorted in the Workload Balancer. Select from the following options: 
+
+      * **Sort users by Primary Role**: Users display in the alphabetical order of their Primary Roles in the Assigned Work area.
+
+      * **Sort users alphabetically**: Users display in the alphabetical order of their first names in the Assigned Work area.
+
+      * **Sort projects by**: Select a project field from the drop-down menu to sort projects alphabetically by that field in the Unassigned or Assigned Work areas. 
+
+      >[!TIP]
+      >
+      >You can sort by projects only when the Group by Project setting is enabled. Otherwise, this setting is dimmed.
+
+
+1. (Optional and conditional) If you changed the color theme to Project Status, hover over the name of a project on the left to view the status of the project.
 
    ![](assets/hover-over-project-status-tooltip-350x115.png)
 
@@ -275,7 +299,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    >[!TIP]
    >
-   >* The Show allocations setting only affects what displays for projects, tasks, `issues` and inaccessible items. Daily Planned Hours for users display by default and cannot be hidden.
+   >* The Show allocations setting only affects what displays for projects, tasks, issues and inaccessible items. Daily Planned Hours for users display by default and cannot be hidden.
    >* You must enable the Group by Project setting to display daily Planned Hours for projects. 
    >* When you view the Workload Balancer by week, the hours displayed are the weekly Planned Hours. 
 
@@ -285,7 +309,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    ![](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
-1. (Optional)&nbsp;Click the **Hide allocations icon** ![](assets/show-allocations-icon-small.png) to display the name of the tasks in the bars of the work items. 
+1. (Optional) Click the **Hide allocations icon** ![](assets/show-allocations-icon-small.png) to display the name of the tasks in the bars of the work items. 
 1. Click the **More menu** icon ![](assets/more-icon.png) to the right of a task or issue name, then click one of the following:
 
    * **Assign this to**, then start typing the name of a user, role, or team you want to assign the work item to.

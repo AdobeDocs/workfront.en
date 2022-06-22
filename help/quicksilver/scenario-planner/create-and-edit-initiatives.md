@@ -32,7 +32,7 @@ You must have the following:
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access or higher to the Scenario Planner</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access or higher to the Scenario Planner</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
@@ -41,7 +41,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -77,7 +77,9 @@ To create initiatives from scratch:
 
    The initiative displays on the timeline of the plan, as a blue bar. By default, the duration of an initiative is one month and it always starts on the first month of the plan. 
 
-1. (Optional)&nbsp;Drag the end of the initiative bar to extend its duration to more than one month and release it where you want the end month of the initiative to be. 
+1. (Optional) Drag the separation bar between the left panel and the timeline to resize the left panel. 
+
+1. (Optional) Drag the end of the initiative bar to extend its duration to more than one month and release it where you want the end month of the initiative to be. 
 1. (Optional and conditional) If the duration of the initiative is shorter than that of the plan, drag and drop the initiative bar in a different position on the timeline of the plan, to move it to another time frame.
 
    ![](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)

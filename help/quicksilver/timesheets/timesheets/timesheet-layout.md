@@ -9,122 +9,134 @@ feature: Timesheets
 
 # Understand the Timesheet layout
 
-{{highlighted-preview}}
+This article describes the layout of timesheets in Adobe Workfront, allowing you to better understand how to customize and utilize timesheets to record time.
 
-This article describes the layout of timesheets in Adobe Workfront, allowing you to better understand how to customize and utilize timesheets to record time.&nbsp;
-
-Timesheet and Hour Preferences control what appears on a timesheet. This provides an overview of all available options.&nbsp;For information, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Timesheet and Hour Preferences control what appears on a timesheet. This article provides an overview of all available options. For information, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 For information about how to log time on a time sheet, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-<!--
-<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> ***first shot - make it classic only at release and draft it; the changes of the new UI affect both classic and NWE; delete the first shot after a while ****the second shot stays yellow for now and always NWE</span>
--->
+![Timesheet layout](assets/timesheet-layout-nwe.png)
 
-![Timesheet layout for the new Workfront experience](assets/timesheet-layout-nwe-350x146.png)
+The following are the areas of a timesheet:
 
-## Title
+* [Timesheet header](#timesheet-header)
+* [The left panel](#the-left-panel)
+* [Work items](#work-items)
+* [Toolbar](#toolbar)
+* [Timesheet footer](#timesheet-footer)
+* [Job role](#job-role)
+* [Hour Type](#hour-type)
+* [Updates area in the left panel](#updates-area-in-the-left-panel)
+* [Summary panel](#summary-panel)
+* [Hour entry comments](#hour-entry-comments)
+* [Hours](#hours)
+* [Totals](#totals)
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Above - make the second shot NWE only and keep yellow; make the first one classic only</p>
--->
+### Timesheet header
 
-![](assets/timesheet-title-nwe-350x137.png)
+![](assets/timesheet-title-unshimmed-redesign.png)
 
-Identifies the start and end dates of the timesheet and includes the status of the timesheet.&nbsp;
+The timesheet header includes the following information:
 
-## Work items
+* The time frame of the timesheet.
+* The Actions area that includes the following:
+    * A star icon to add the timesheets to your list of Favorites.
+    * The More icon with a Delete option from where you can delete the timesheet.
+* The name of the timesheet's owner.
+* The Total Hours number for hours logged for items displayed in the timesheet.
+* The number of overtime hours. This is a manual entry and it is visible only when the **Overtime** setting is enabled on a timesheet. For more information, see [Edit timesheet information](../create-and-manage-timesheets/edit-timesheets.md).
+* The timesheet status.
 
-![](assets/timesheet-object-names-nwe-350x518.png)
+### The left panel
 
-The work items are the projects, tasks and issues that you want to log time for. Clicking the blue header row collapses the projects and the tasks and issues listed underneath.
+![](assets/timesheet-left-panel-unshimmed-redesign.png)
+
+You can access the following sections in the left panel:
+
+* **Timesheet**: Displays the actual timesheet.
+* **Updates**: Displays comments and system updates for the timesheet. For more information, see the [Updates area in the left panel](#updates-area-in-the-left-panel) section in this article.
+
+### Work items
+
+![](assets/timesheet-object-names-unshimmed-redesign.png)
+
+The work items are the projects, tasks and issues that you want to log time for. Clicking the downward-pointing arrow in the header row collapses the projects and the tasks and issues listed underneath. Clicking the downward-pointing arrow in next to a project's name collapses the work items for that project.
 
 Tasks, issues, and projects where time is recorded outside the timesheet or items planned during the timeframe of the timesheet appear here automatically.
 
-## Toolbar
+### Toolbar
 
-![](assets/timesheet-toolbar-nwe-350x17.png)
+![](assets/timesheet-toolbar-unshimmed-redesign.png)
 
-Using the toolbar you can add work items to the timesheet, filter, the timesheet, and show hour entry comments. You can also navigate between weeks within the timesheet, if it contains more than one week.
+The toolbar includes the following options:
 
-For more information, see the [Timesheet](../../timesheets/create-and-manage-timesheets/log-time.md#timesheet) section in [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
+* The Add item button from where you can add projects, tasks, or issues.
+* The quick filter icon to search for tasks or issues in the timesheet.
+* The **Show Comments** setting that allows you to view or hide hour comments that are logged for project, task, or issue hour entries.
+* Full screen icon from where you can display the timesheet in full-screen mode.
+* **Open Summary** (or **Close Summary**) button from where you can open or close the Summary panel to see additional information for tasks or issues. This is not available for projects.
 
-## Footer
+For more information, see [Log time](../create-and-manage-timesheets/log-time.md).
 
-![](assets/timesheet-footer-nwe-350x20.png)
+### Timesheet footer
 
-You can use the Save, Save + Close, Submit for Approval, Cancel and Back to top buttons in this area to either save, recall, reopen the timesheet, or to navigate back to the top of the timesheet. This area remains sticky as you scroll vertically within the timesheet. For more information, see the [Timesheet](../../timesheets/create-and-manage-timesheets/log-time.md#timesheet) section in [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
+![](assets/timesheet-footer-unshimmed-redesign.png)
 
-## Job&nbsp;Roles
+You can click the Submit for Approval, Close, Approve, and Reject buttons in this area to close or reject a timesheet approval.
 
-![](assets/timesheet-job-role-area-nwe.png)
+This area also contains information about when the timesheet was last saved. All changes you make to information in the timesheet are automatically saved.
 
-You can select a different job role to associate with the hour entries. Your Workfront administrator must enable the **Assign job roles to hour entries manually** setting. The job role specified for you when you are assigned to the task or the issue displays by default. If you are not assigned a job role on the task or the issue, your Primary Role displays as the default. For more information, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+### Job Role
 
-You can log multiple hour entries for the same work item for different roles.&nbsp;For more information, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
+![](assets/timesheet-job-role-area-unshimmed-redesign.png)
 
-## Hour Type
+You can select a different job role to associate with the hour entries. Your Workfront administrator must enable the Assign job roles to hour entries manually setting. The job role specified for you when you are assigned to the task or the issue displays by default. If you are not assigned a job role on the task or the issue, your Primary Role displays as the default. For more information, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-![](assets/timsheet-hour-type-nwe.png)
+You can log multiple hour entries for the same work item for different roles. For more information, see [Log time](../create-and-manage-timesheets/log-time.md).
 
-You can select different hour types to associate with your hour entries on each item. This field displays only when the Workfront administrator enables it for your environment. For information, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+### Hour Type
 
-You can log multiple hour entries for the same work item for different hour types.&nbsp;For more information, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
+![](assets/timesheet-hour-type-unshimmed-redesign.png)
 
-## Expenses
+You can select different hour types to associate with your hour entries on each item. This field displays only when the Workfront administrator enables it for your environment. For information, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-![](assets/timesheet-expenses-area-nwe.png)
+You can log multiple hour entries for the same work item for different hour types. For more information, see [Log time](../create-and-manage-timesheets/log-time.md).
 
-You can add expenses to tasks from the timesheet. Your Workfront administrator must enable the Add expenses from a timesheet setting in the Timesheets and Hours Preferences area.&nbsp;For information, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+### Updates area in the left panel
 
-## Timesheet comments
+![](assets/timesheet-updates-section-unshimmed-redesign.png)
 
-You can make comments on a timesheet to communicate with your timesheet approvers or other users.
+You can make comments on a timesheet to communicate with your timesheet approvers or other users in the Updates section in the left panel.
 
-![](assets/timesheet-recent-updates-area-and-new-comment-option-nwe-350x155.png)
+Any comments made on the timesheet display in this area, at the bottom of the timesheet. This area displays under the timesheet and above the timesheet's footer. For more information, see [View and manage comments on a timesheet](../create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
 
-Any comments made on the timesheet display in this area, at the bottom of the timesheet. This area displays under the timesheet and above the timesheet's footer. For more information, see [View and manage comments on a timesheet](../../timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
+### Summary panel
 
-## Work item comments
+![](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
-![](assets/timesheet-item-comments-area-nwe.png)
+You can comment access the Summary panel for tasks or issues displayed in a timesheet. From here, you can comment on tasks and issues, or update their information. For more information, see [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md). 
 
-You can comment on individual tasks or issues displayed in a timesheet. You cannot comment on projects.
+The comments you enter for work items in the timesheet Summary panel display in the Updates area of the task or the issue. The Summary panel is not available for projects.
 
-The comments you enter in the timesheet display in the Updates area of the task or the issue.
+### Hour entry comments
 
-You cannot comment on projects or General Time hour entries.
-
-For more information, see [View and manage comments on a timesheet](../../timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
-
-## Hour entry comments
-
-![](assets/hour-entry-comment-orange-triangle-classic.png)
+![](assets/timesheet-hour-entry-comment-button-unshimmed-redesign.png)
 
 You can add a comment for every hour entry that you add to your timesheet.
 
-The comments you enter in the hour entry comment box display in the timesheet, under each work item where you logged the time.
+The comments you enter in the hour entry comment box display in the timesheet, under each work item where you logged the time when the **Show Comments** setting is enabled in the toolbar.
 
-![](assets/hour-entry-comment-under-task-in-timesheet-classic-350x51.png)
+![](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
 
-You must click Show Comments in the toolbar to display hour entry comments under work items.
+### Hours
 
-## Hours
+![](assets/timesheet-hours-area-unshimmed-redesign.png)
 
-![](assets/timesheet-hours-area-nwe-350x377.png)
+The timesheet provides input fields for each work item and day of the timesheet range to record time spent working on the item. As you are logging time, the item that you log time for highlights in light blue and the hour box is outlined in dark blue.
 
-The timesheet provides input fields for each task item and day of the timesheet range to record time spent working on the item.&nbsp;You can also input any overtime hours or general hours in this area.
+### Totals
 
->[!NOTE]
->
->The creator of the timesheet or of the timesheet profile associated with you must disable the Hide overtime setting for the Overtime field to display in the timesheet.&nbsp;For more information, see the following articles:
->
->* [Create a single-use timesheet](../../timesheets/create-and-manage-timesheets/create-tmshts.md) 
->* [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) 
->
+![](assets/timesheet-totals-column-and-header-unshimmed-redesign.png)
 
-## Totals
+Review the sum of all hours entered on the timesheet, summarized by day (in the header of the timesheet) as well as by object (in the last column).
 
-![](assets/timesheet-totals-highlighted-nwe-350x381.png)
-
-Review the sum of all hours entered on the timesheet, summarized by day as well as by object.
