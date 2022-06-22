@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 ---
 
-# Create or modify custom access levels
+# Create and modify custom access levels
 
 <!--
 Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.
@@ -116,7 +116,7 @@ You must have the following access to perform the steps in this article:
         <li>Add new job roles</li> 
         <li>Edit role billing and cost rates</li> 
        </ul> 
-       For important information about access to financial data that is available to a Planner user with administrative access to job roles, see the section [Planner users with administrative access to job roles](#planner-users-with-administrative-access-to-job-roles) in this article.
+       <p>For important information about access to financial data that is available to a Planner user with administrative access to job roles, see <a href="#planner-users-with-administrative-access-to-job-roles">Planner users with administrative access to job roles</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -198,7 +198,7 @@ You must have the following access to perform the steps in this article:
    
    For information about how an Adobe administrator assigns a System Administrator access level to a users, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Planner users with administrative access to job roles
+## Planner users with administrative access to job roles {#planner-users}
 
 If you grant a Planner user administrative access to job roles, the Edit Role Billing &amp; Cost Rates setting is automatically enabled for the user automatically.
 
