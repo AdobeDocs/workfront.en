@@ -32,7 +32,7 @@ The following are the areas of a timesheet:
 * [Hours](#hours)
 * [Totals](#totals)
 
-### Timesheet header
+## Timesheet header
 
 ![](assets/timesheet-title-unshimmed-redesign.png)
 
@@ -47,7 +47,7 @@ The timesheet header includes the following information:
 * The number of overtime hours. This is a manual entry and it is visible only when the **Overtime** setting is enabled on a timesheet. For more information, see [Edit timesheet information](../create-and-manage-timesheets/edit-timesheets.md).
 * The timesheet status.
 
-### The left panel
+## The left panel
 
 ![](assets/timesheet-left-panel-unshimmed-redesign.png)
 
@@ -56,7 +56,7 @@ You can access the following sections in the left panel:
 * **Timesheet**: Displays the actual timesheet.
 * **Updates**: Displays comments and system updates for the timesheet. For more information, see the [Updates area in the left panel](#updates-area-in-the-left-panel) section in this article.
 
-### Work items
+## Work items
 
 ![](assets/timesheet-object-names-unshimmed-redesign.png)
 
@@ -64,7 +64,7 @@ The work items are the projects, tasks and issues that you want to log time for.
 
 Tasks, issues, and projects where time is recorded outside the timesheet or items planned during the timeframe of the timesheet appear here automatically.
 
-### Toolbar
+## Toolbar
 
 ![](assets/timesheet-toolbar-unshimmed-redesign.png)
 
@@ -78,7 +78,7 @@ The toolbar includes the following options:
 
 For more information, see [Log time](../create-and-manage-timesheets/log-time.md).
 
-### Timesheet footer
+## Timesheet footer
 
 ![](assets/timesheet-footer-unshimmed-redesign.png)
 
@@ -86,7 +86,7 @@ You can click the Submit for Approval, Close, Approve, and Reject buttons in thi
 
 This area also contains information about when the timesheet was last saved. All changes you make to information in the timesheet are automatically saved.
 
-### Job Role
+## Job Role
 
 ![](assets/timesheet-job-role-area-unshimmed-redesign.png)
 
@@ -94,7 +94,7 @@ You can select a different job role to associate with the hour entries. Your Wor
 
 You can log multiple hour entries for the same work item for different roles. For more information, see [Log time](../create-and-manage-timesheets/log-time.md).
 
-### Hour Type
+## Hour Type
 
 ![](assets/timesheet-hour-type-unshimmed-redesign.png)
 
@@ -102,7 +102,7 @@ You can select different hour types to associate with your hour entries on each 
 
 You can log multiple hour entries for the same work item for different hour types. For more information, see [Log time](../create-and-manage-timesheets/log-time.md).
 
-### Updates area in the left panel
+## Updates area in the left panel
 
 ![](assets/timesheet-updates-section-unshimmed-redesign.png)
 
@@ -110,7 +110,7 @@ You can make comments on a timesheet to communicate with your timesheet approver
 
 Any comments made on the timesheet display in this area, at the bottom of the timesheet. This area displays under the timesheet and above the timesheet's footer. For more information, see [View and manage comments on a timesheet](../create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
 
-### Summary panel
+## Summary panel
 
 ![](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
@@ -118,7 +118,7 @@ You can comment access the Summary panel for tasks or issues displayed in a time
 
 The comments you enter for work items in the timesheet Summary panel display in the Updates area of the task or the issue. The Summary panel is not available for projects.
 
-### Hour entry comments
+## Hour entry comments
 
 ![](assets/timesheet-hour-entry-comment-button-unshimmed-redesign.png)
 
@@ -128,13 +128,13 @@ The comments you enter in the hour entry comment box display in the timesheet, u
 
 ![](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
 
-### Hours
+## Hours
 
 ![](assets/timesheet-hours-area-unshimmed-redesign.png)
 
 The timesheet provides input fields for each work item and day of the timesheet range to record time spent working on the item. As you are logging time, the item that you log time for highlights in light blue and the hour box is outlined in dark blue.
 
-### Totals
+## Totals
 
 ![](assets/timesheet-totals-column-and-header-unshimmed-redesign.png)
 
