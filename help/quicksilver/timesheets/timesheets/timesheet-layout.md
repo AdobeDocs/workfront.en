@@ -15,8 +15,6 @@ Timesheet and Hour Preferences control what appears on a timesheet. This article
 
 For information about how to log time on a time sheet, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![](assets/timesheet-layout-nwe.png)
-
 The following are the areas of a timesheet:
 
 * [Timesheet header](#timesheet-header)
