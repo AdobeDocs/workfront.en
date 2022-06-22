@@ -35,8 +35,7 @@ A PKCE flow has the following steps. The steps in this section are presented for
 1.  The resource server validates the token before responding to the request.
     
 
-Configure your application
---------------------------
+## Configure your application
 
 Before you can implement authorization, you need to register your app in OAuth2 by creating an app integration from Workfront.
 
@@ -119,8 +118,7 @@ Note the parameters that are being passed:
 *   `code_challenge` is the code challenge used for PKCE.
     
 
-Exchange the code for tokens
-----------------------------
+## Exchange the code for tokens
 
 To exchange the authorization code for an access token, pass it to your Authorization Server's `/token` endpoint along with the `code_verifier`.
 
@@ -159,17 +157,21 @@ Note the parameters that are being passed:
 
 If the code is still valid, and the code verifier matches, your application receives an access token.
 
-**Example:**
-
-{
-
-    "access\_token": "eyJhd\[...\]Yozv",
-
-    "expires\_in": 3600,
-
-    "token\_type": "Bearer"
-
-}
+>[!INFO]
+>
+>**Example:**
+>
+>```
+>{
+>
+>    "access\_token": "eyJhd\[...\]Yozv",
+>
+>    "expires\_in": 3600,
+>
+>    "token\_type": "Bearer"
+>
+>}
+>```
 
 ## Validate the access token
 
