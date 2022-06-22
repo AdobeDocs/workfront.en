@@ -3,7 +3,7 @@ title: Configure the SharePoint integration
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: Configure the SharePoint integration
+description: You can integrate Workfront with SharePoint Online, providing users with the ability to navigate to, link, and add SharePoint documents within Workfront. The functionality provided is similar to that of other Workfront integrations, such as Google Drive, Box, and Dropbox.
 feature: "System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents"
 role: Admin
 ---
@@ -13,6 +13,20 @@ role: Admin
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+>[!IMPORTANT]
+>
+>The new SharePoint integration was released to production with the 22.3 release (July 2022.) Although your users can still access documents linked through the legacy SharePoint integration, you must use the new SharePoint integration to link documents from SharePoint.
+>
+>1.  Disable the legacy SharePoint integration so that your users do not use it to link to new documents.
+>    
+>     For instructions, see [Disable linking to the legacy SharePoint integration](#disable-linking) in this article.
+>    
+>2.  Link documents that are currently linked through the legacy SharePoint integration through the new integration.
+>    
+>     For instructions, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+>    
+>The procedure described in this document will be deprecated with the 22.3 release, and is here for your information only.
 
 You can integrate Workfront with SharePoint Online, providing users with the ability to navigate to, link, and add SharePoint documents within Workfront. The functionality provided is similar to that of other Workfront integrations, such as Google Drive, Box, and Dropbox.
 
@@ -253,6 +267,19 @@ For instructions, see [Link an external document to Workfront](../../documents/a
 >
 >If the user who linked a folder no longer has access to the external application, Workfront can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company. To ensure continued access, a user with access to the folder must re-link the folder.
 >&nbsp;
+
+
+## Disable linking to the legacy SharePoint integration{#disable-linking}
+
+*   Click the Main Menu icon ![Main menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click Setup ![Setup](../get-started-wf-administration/assets/gear-icon-settings.png).
+    
+*   Select **Documents** in the left navigation, then select **Cloud Providers**.
+    
+*   Uncheck the **Legacy SharePoint** option.
+    
+*   Click **Save**.
+    
+
 
 ## Troubleshooting
 
