@@ -182,12 +182,12 @@ As part of assigning work to users, you can modify user allocations in the Workl
 
 1. Click the **More** menu ![](assets/qs-more-menu.png) for a work item, then click **Edit allocations**.
 
+![](assets/more-menu-on-task-wb-nwe.png)
+
    Or
 
    Double-click the day, week, or month in the bar of a task or issue.
-
-   ![](assets/classic-balancer-edit-allocations-link-on-task-350x71.png)
-
+   
    The allocation boxes become editable. 
 
 1. Click inside the box of each daily, weekly, or monthly allocation to manually update the amount of hours or the percentage value for which you want the user to be allocated each day, week, or month then click the **Save** icon ![](assets/checkmark-icon.png).

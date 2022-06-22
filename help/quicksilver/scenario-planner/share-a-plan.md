@@ -37,28 +37,20 @@ You must have the following:
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access or higher to the Scenario Planner</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access or higher to the Scenario Planner</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>You must be the creator of the plan. <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (NOTE: this might change if they have permissions for initiatives/ scenarios, etc) 
-      </MadCap:conditionalText>
-     --></p> <p>Plan creators have Manage permissions to the plan <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (NOTE: this might change if they have permissions for initiatives/ scenarios, etc) 
-      </MadCap:conditionalText>
-     --></p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Scenario Planner</a>.</p> </td> 
+   <td> <p> Manage permissions to the plan.
+     <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Scenario Planner</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
-* You must be the creator of the plan to be able to share it with another user and grant permissions for what that user can do with the plan.
 * The users given the access to the plan must have access to the Scenario Planner area in their Access Levels, as granted by your Workfront administrator in order to receive permissions to a plan.
 
   For example, Requestors cannot view, create, or edit plans. You should keep this in mind when sharing a plan with a user who has a Requestor license. 
@@ -75,18 +67,9 @@ For more information about access to the Scenario Planner for various license ty
 
 * You can share a single plan, or you can share multiple plans, in bulk. 
 * You cannot view plans that you did not create or that are not shared with you.
-* You must be the creator of the plan 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  or a plan must be shared with you (NOTE: drafted because this is not available right now; will be in the future; when this comes, edit the next sentence as well.)
-  </MadCap:conditionalText>
-  -->
-
-  to share it with other users. You cannot share plans that are shared with you. 
 * You can only share a plan with other users. You cannot share plans with groups, teams, or companies. 
 * You must first save a plan before you can share it. 
-* You can share a URL to a plan with another user. If the user does not have permissions to at least view the plan, they can request access to the plan from the plan creator when they receive the URL.&nbsp;For information about requesting access to a plan, see [Request access to a plan in the Scenario Planner](../scenario-planner/request-access-to-plan.md). 
+* You can share a URL to a plan with another user. If the user does not have permissions to at least view the plan, they can request access to the plan from another user when they receive the URL. For information about requesting access to a plan, see [Request access to a plan in the Scenario Planner](../scenario-planner/request-access-to-plan.md). 
 * When sharing multiple plans in bulk, they must all be plans that you created. If you select a plan that you created and a plan shared with you, the Share icon does not display on the list of plans.
 * When sharing multiple plans that have already been shared with others, the users you share with do not replace but are added to the existing users on each plan you selected.
 

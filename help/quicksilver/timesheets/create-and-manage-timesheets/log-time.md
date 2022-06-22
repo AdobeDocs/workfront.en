@@ -2,21 +2,19 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Log time
-description: You can log time for work items in&nbsp;Adobe Workfront to indicate the amount of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
+description: You can log time for work items in&nbsp;Adobe Workfront to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 feature: Timesheets
 ---
 
 # Log time
 
-{{highlighted-preview}}
-
-You can log time for work items in&nbsp;Adobe Workfront to indicate the amount of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
+You can log time for work items in Adobe Workfront to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 
 For more information about the type of hours you can log in Workfront, see [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article and log Project&nbsp;Specific hours:
+You must have the following access to perform the steps in this article and log Project Specific hours:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +30,7 @@ You must have the following access to perform the steps in this article and log 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to the type of work item you log time for </p> <p>For example, you need Edit access to Issues, to log time for issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to the type of work item you log time for </p> <p>For example, you need Edit access to Issues, to log time for issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,7 +39,7 @@ You must have the following access to perform the steps in this article and log 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations when logging time in Workfront
 
@@ -50,9 +48,11 @@ You must have the following access to perform the steps in this article and log 
   For information about creating timesheets, see [Create a single-use timesheet](../../timesheets/create-and-manage-timesheets/create-tmshts.md). 
 
 * All time logged through tools other than the timesheet appear in the timesheet for the corresponding time period.
+* Tasks and issues on a project that is not current are not pre-populated into a timesheet.
 * Time logged in the timesheet is immediately applied to the task, issue, or project.
 * Timesheets include the total time for all logged dates. Weekends are always included, even when timeline calculations have been configured to exclude them (as described in [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)).
-* The maximum number of items displayed in a timesheet is 45. If there are more than 45 items whose dates match the timesheet timeframe, only the most recently updated items display.
+* The maximum number of items displayed in a timesheet is 45. If there are more than 45 items whose dates match the timesheet time frame, only the most recently updated items display.
+* Hour entries that are included in billed billing records are dimmed and cannot be edited in the timesheet. For more information, see [Create billing records](../../manage-work/projects/project-finances/create-billing-records.md). 
 
 ## Log time
 
@@ -61,6 +61,7 @@ You can log time in the following areas in Workfront:
 * [Timesheet](#timesheet) 
 * [Home](#home) 
 * [Project, task, or issue](#project-task-or-issue) 
+* [Summary panel](#summary-panel)
 * [Mobile app](#mobile-app)
 
 ### Timesheet {#timesheet}
@@ -73,77 +74,75 @@ You can log general hours or project-specific hours on a timesheet.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click **Timesheets**. Your current timesheet displays by default. If you don't have a current timesheet, the My Timesheets section displays.
+1. Click **Timesheets**. Your current timesheet displays by default. 
+   ![](assets/timesheet-redesigned-nwe.png)
 
-   ![](assets/timesheet-layout-nwe-350x146.png)
+   The timesheet is pre-populated with items assigned to you during the timesheet's time frame. For information about how timesheets are prepopulated, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). If you do not see an item on the timesheet, you can add it. 
 
-1. (Optional) To add a project, task, or issue to the timesheet, click the **Add** drop-down menu in the upper-left corner of the timesheet, then select whether you want to add a project, task, or issue to the timesheet.
+1. (Optional) To add a project, task, or issue to the timesheet, click the **Add item** drop-down menu in the upper-left corner of the timesheet, then click **Add Projects**, **Add Tasks**, or **Add Issues**. 
 
-   1. In the Search dialog box, in the **Quick Search** field, specify the name of the project, task, or issue you want to add, then click **Search**.  
-      Or  
-      Click **More** options, and select options from the fields to find the objects you need.
+A list of projects, tasks, or issues displays. 
+
+1. (Optional) Click the search icon ![](assets/search-icon.png) to search for a specific item  using a keyword to add to the timesheet.
+
+1. (Optional) Expand the filter, view, or grouping drop-down menus to apply or customize one and to view the item information that you want. 
+
+1. Select an item in the list when it displays, then click **Add**. 
+
+   The item is added to the timesheet and it is pinned. You must manually unpin it to remove it from the timesheet. For information about unpinning items to remove them from the timesheet, continue with Step 6. <!--(ensure this stays accurate)-->
    
-   1. In the search results, click the **Plus** icon ![](assets/plus-icon-to-add-items-to-timesheet-classic.png) next to any projects, tasks, or issues you want to add.  
-      The selected, projects, tasks, or issues are displayed in the area on the right side of the dialog box. For example, when selecting tasks, the selected tasks appear in the **Selected Tasks** area.  
-      ![timesheets_add_search.png](assets/timesheets-add-search-350x182.png)   
-   
-      <!--   
-      <img src="assets/timesheets-quick-search-350x151.png" style="width: 350;height: 151;" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-      -->
+   When you add tasks or issues to the timesheet, the project is also added. 
 
-   1. (Optional) Click the (x) icon next to any items in the **Selected Projects**, **Selected Tasks**, or **Selected Issues** area if you do not want to add the item to the timesheet.  
-   
-   1. Click **Save**.
+1. (Optional) Click the **full-screen** icon ![](assets/full-screen.png) to display the timesheet in full-screen mode, then click the **exit-full-screen** ![](assets/exit-full-screen.png) icon to return to the timesheet. 
 
-      >[!IMPORTANT]
-      >
-      >The selected items display in the timesheet.&nbsp;The items you manually add to the timesheet are pinned by default and are not automatically removed from the timesheet. Workfront removes only unpinned items that do not have hours logged when the dates of the items exceed the work range of the timesheet.&nbsp;For information about the timesheet work range, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. (Optional) Click the search icon ![](assets/search-icon.png) and start typing a keyword to find a project, task, or an issue on the timesheet. 
 
-1. (Optional) You can remove an item (project, task, or issue) from the timesheet if you manually added the item (as described in Step 2), and if you have not yet logged time against it.
+1. (Optional) You can remove an item (project, task, or issue) from the timesheet if you manually added the item (as described in Step 3), and if you have not yet logged time against it by unpinning it. <!--ensure this step stays accurate-->
 
-   If the item is included in the timesheet because the timesheet preferences in your Workfront system or group are configured to pre-populate the timesheet (as described in [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)), the items cannot be removed from the timesheet.
+   You cannot remove items that are included in the timesheet because the timesheet preferences in your Workfront system or group are configured to pre-populate the timesheets (as described in [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). 
 
    To remove an item from the timesheet that was manually added:
 
    1. Ensure that no time is logged against the item.
-   1. Click the **Pin** icon next to the item to unpin the item from the timesheet.
-   1. Refresh the page.  
-      The item is removed from the timesheet.
+   1. Click the **pin** icon ![](assets/pin-icon.png) next to the item to unpin the item from the timesheet.
 
+   The item is immediately removed from the timesheet.
+  
 1. (Conditional) If your Workfront administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-   ![Log time for multiple roles in timesheet](assets/log-time-for-multiple-roles-in-timesheet-nwe-350x79.png)
+   ![Log time for multiple roles in timesheet](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
 
-   >[!NOTE]
-   >
-   >If you change roles during a timesheet period, a blank line with attached hours appears on the timesheet because hours were reported under both roles. Continue reporting hours and submitting your timesheet as usual, and the blank line will no longer appear in the next timesheet period.
+1. Click the **delete** icon  ![](assets/delete.png) next to the job role to remove it. Any time logged for the role is also removed. 
 
-1. (Optional)&nbsp;Click the **new hour entry** icon ![](assets/new-hour-entry-icon-classic.png)to add hours on the same work item for a different role or with a different Hour&nbsp;Type than the previous hour entry.
+1. (Optional) Click the **+** icon, then select a new hour type from the drop-down menu in the Hour Type column to log time for a different hour type.
 
-   ![](assets/multiple-hour-entries-for-the-same-task-different-roles-hour-types-timesheet-classic-350x22.png)
+   ![](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
-1. Click the drop-down menu next to the item on the timesheet where you want to add time, then select the appropriate hour type.
+   Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability for timesheets](define-hour-types-and-availability.md).
 
-   Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability for timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+   The hour type cannot be changed after a timesheet is closed. 
 
-   The hour type cannot be changed after a timesheet is closed.
+1. Specify the amount of time you want to log on any given day in the timeline section of the timesheet, then click outside the hour box to save the hour entry. The row for which you log time is highlighted in light blue and the hour entry box is outlined in dark blue.
 
-1. Specify the amount of time you want to log on any given day. The timesheet row for which you log time is highlighted in light blue.
-
-   ![](assets/log-time-highlighted-row-nwe-350x47.png)
+   ![](assets/log-time-with-blue-hightlight-redesigned-timesheet.png)
 
    You log time in either hours or days. This setting is configured by users with a Plan license or the system administrator, as described in [Configure whether time is logged in hours or days](../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
 
-1. (Optional)&nbsp;Click the hour entry comment icon to add a comment to an hour entry, then click&nbsp;**Save**.
+1. (Optional) Click **Comment** to add a comment for your hour entry, then click **Done**.
 
-   ![](assets/hour-entry-comment-orange-triangle-classic.png)
+   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
 1. (Optional) Click **Show Comments** in the toolbar to display hour entry comments under the work item.
 
-   ![](assets/hour-entry-comment-under-task-in-timesheet-classic-350x51.png)
+   ![](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
 
-1. Click the **Update Status** icon to include a comment for the work item, update the condition, or update the status of the work item, then click **Done**. You may also include others in your comment or lock it so that only users in your Company can see it.   
-   ![timesheet_commentstatus.png](assets/timesheet-commentstatus-350x67.png)
+   >[!TIP]
+   >
+   >   All changes you make to the timesheet are saved automatically.
+
+1. (Optional) Click the row of a task or issue, then click **Open Summary** in the upper-right corner of the timesheet to add an update or to update information on the task or issue. The Summary panel opens on the right. 
+
+   ![summary-panel-for-task-opened-in-timesheet](assets/summary-panel-for-task-opened-in-timesheet-redesigned-timesheet.png)
 
    Your update displays in the Updates area of the work item associated with the logged time.
 
@@ -151,25 +150,23 @@ You can log general hours or project-specific hours on a timesheet.
    >
    >You cannot comment on projects or General Time hour entries.
 
-1. (Optional) Click **Include a comment** to include a comment on the timesheet below the timesheet.
+1. Click [!UICONTROL **Close Summary**] to close the Summary panel and return to the timesheet. 
 
-   Comments display in the Recent Updates section below the timesheet. For more information about comments on timesheets, see [View and manage comments on a timesheet](../../timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
+1. (Optional) Click [!UICONTROL **Updates**] in the left panel, then add an update to the timesheet. For more information about Workfront updates, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional)&nbsp;Click&nbsp;**Back to top** in the lower-right corner to return to the top of the timesheet.
-1. Click any of the following options:
+![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
 
-   * **Save**:&nbsp;Save your changes and keep the timesheet open.
-   * **Save + Close:** Save the timesheet and close it so that it can no longer be edited. You can open the timesheet after closing it by clicking **Re-Open**.
+* **Close**: Close the timesheet when you are done updating it. This option is only available when your timesheet is not associated with an approver.
 
-     >[!TIP]
-     >
-     >The hour type cannot be changed after a timesheet is closed.
-
-   * **Submit for Approval:** This option is available only if there is an approver on the timesheet. Save your changes and submit for approval. You can open the timesheet after closing it by clicking **Recall**, if an approval has not been granted yet. For more information, see [Submit a timesheet for approval](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
+* **Submit for approval:** This option is available only if there is an approver on the timesheet. Save your changes and submit for approval. You can open the timesheet after closing it by clicking **Recall**, if an approval has not been granted yet. For more information, see [Submit a timesheet for approval](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
    
-   * **Cancel**: Clicking Cancel before saving the timesheet removes all currently entered time that has not been saved. The timesheet remains open. 
-   * **Reject**: This option displays when you are a timesheet approver and the timesheet has been submitted to you for approval. Clicking it changes the status of the timesheet to&nbsp;Rejected and the timesheet remains open. 
-   * **Approve**: This option displays when you are a timesheet approver and the timesheet has been submitted to you for approval.&nbsp;Clicking it changes the status of the timesheet to Approved and closes the timesheet.
+* **Reject**: This option displays when you are a timesheet approver and the timesheet has been submitted to you for approval. Clicking it changes the status of the timesheet to Rejected and the timesheet remains open. 
+
+* **Approve**: This option displays when you are a timesheet approver and the timesheet has been submitted to you for approval. Clicking it changes the status of the timesheet to Approved and closes the timesheet.
+
+>[!TIP]
+>
+>The Reject and Approve options also display on your timesheet when you are a system administrator and the timesheet is associated with an approver.
 
 1. (Conditional) If you have either closed or submitted your timesheet for approval, click one of the following options:
 
@@ -205,7 +202,7 @@ In order to log hours on a project, task, or issue, you need to have specific pe
 * [Updates tab](#updates-tab) 
 * [Hours tab](#hours-tab)
 
-Updates tab
+##### Updates tab{#updates-tab} 
 
 The following are required before you can log hours on the Updates tab of a project, task, or issue:
 
@@ -216,7 +213,7 @@ The following are required before you can log hours on the Updates tab of a proj
 * If you want to log time directly to a project, your Workfront administrator must enable the Log time directly on projects setting under Timesheet & Hours > Preferences.  
   For more information about allowing users to log hours directly to projects, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Hours tab
+##### Hours tab{#hours-tab}
 
 The following are required before you can log hours on the Hours tab of a project, task, or issue:
 
@@ -226,7 +223,7 @@ Or you must have all of the following:
 
 * You must have a Plan license with administrative access to Timesheets & hours. For more information about granting administrative access to Timesheets & hours, see [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 * You must have at least Contribute permissions to the project with access to Log Hours. For more information about granting permissions on projects, see [Share a project in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* If you want to log time directly to a project, your Workfront administratormust enable the Log time directly on projects setting under Timesheet & Hours > Preferences. For more information about allowing users to log hours directly to projects, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* If you want to log time directly to a project, your Workfront administrator must enable the Log time directly on projects setting under Timesheet & Hours > Preferences. For more information about allowing users to log hours directly to projects, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 To log time on a project, task, or issue:
 
@@ -242,15 +239,23 @@ To log time on a project, task, or issue:
      If you are logging the hours for another user, specify their name.
    
    * **Hours**: Enter the number of hours for the project, task, or issue.
-   * **Hour Type**: Select an Hour Type from the drop-down menu, if it is different than the one displayed by default.
+   * **Hour Type**: Select an Hour Type from the drop-down menu, if it is different from the one displayed by default.
 
      Depending on what hour types are configured in your system, the options here might vary. For more information about configuring hour types, see [Define hour types and availability for timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
-   * **Job Role**: (Conditional) If your Workfront administrator has enabled the **Assign job roles to hour entries manually** setting, select a **Job Role** from the drop-down menu.The Role specified when you are assigned to the object displays by default. If you are not assigned a Role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **Job Role**: (Conditional) If your Workfront administrator has enabled the **Assign job roles to hour entries manually** setting, select a **Job Role** from the drop-down menu. The Role specified when you are assigned to the object displays by default. If you are not assigned a Role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
      ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
 
 1. Click **Log Hours**.
+
+### Summary panel
+
+You can log time for tasks and issues in the Summary panel. 
+For more information, see [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+![](assets/summary-hour-log.png)
+
 
 ### Mobile app {#mobile-app}
 
