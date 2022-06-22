@@ -28,7 +28,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to Tasks and Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to Tasks and Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+*To find out what plan or license type you have, contact your Workfront administrator.
 
 ## Export a list of timesheets
 
@@ -46,6 +46,8 @@ You must have the following access to perform the steps in this article:
 1. Click **Timesheets**. The **All** filter is selected by default.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+
+1. (Optional) Click the **search** icon ![](assets/search-icon.png) and type a keyword and search for a speicific timesheet. For example, you can search for a timehsset time frame or owner name. 
 
 1. (Optional) Do one of the following to update the filter in the list of timesheets:
 

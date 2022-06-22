@@ -8,7 +8,7 @@ feature: Timesheets
 
 # View total hours on the timesheet
 
-You can view&nbsp;the total number of hours on&nbsp;your timesheet. The total number of timesheet hours includes hours logged for projects, tasks, issues, and all general hours.
+You can view the total number of hours on your timesheet. The total number of timesheet hours includes hours logged for projects, tasks, issues, and all general hours.
 
 The total hours reflect hours submitted through the timesheet, the Updates area, or in the Hours area for projects, tasks, or issues.
 
@@ -30,7 +30,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to Tasks and Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to Tasks and Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,9 +39,15 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+*To find out what plan or license type you have, contact your Workfront administrator.
 
-## View the total hours on your timesheet
+## View the total hours of a timesheet in the timesheet header
+
+You can view a timesheet's Total Hours in the timesheet header.
+
+![](assets/timesheet-total-hours-in-header-highlighted-redesigned.png)
+
+## View the total hours on your timesheet in a list of timesheets
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Timesheets**. The **All** filter is selected by default and it displays all the timesheets you have access to view.
 

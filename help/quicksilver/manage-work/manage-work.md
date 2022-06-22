@@ -17,8 +17,4 @@ This section contains the following subsections:
 * [The Gantt Chart](../manage-work/gantt-chart/the-gantt-chart.md) 
 * [Portfolio Management](../manage-work/portfolios/portfolio-management-overview.md) 
 * [Requests](../manage-work/requests/requests-overview.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../manage-work/delegate-work/delegate-work.md" class="MCXref xref" xrefformat="{para}">Delegate work</a> </li>
-  -->
-
+* [Delegate work](../manage-work/delegate-work/delegate-work.md)
