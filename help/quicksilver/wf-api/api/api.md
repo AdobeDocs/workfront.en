@@ -22,7 +22,8 @@ This section contains the following articles:
 * [Escaped characters in API Responses](../../wf-api/api/escaped-characters-api.md) 
 * [API versioning and support schedule](../../wf-api/api/api-version-support-schedule.md) 
 * [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md)
-
+* [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md)
+* [Configure and use your organization's custom OAuth 2 applications using PKCE flow](../../wf-api/api/oauth-app-pkce-flow.md)
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../wf-api/api/oauth-app-jwt-flow.md" class="MCXref xref" xrefformat="{para}">Configure and use your organization's custom OAuth 2 applications using JWT flow</a> </li>
   -->
