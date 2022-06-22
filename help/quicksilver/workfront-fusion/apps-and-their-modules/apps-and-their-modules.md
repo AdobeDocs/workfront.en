@@ -28,13 +28,10 @@ This section contains the following articles:
 * [Workfront Proof modules](../../workfront-fusion/apps-and-their-modules/workfront-proof-modules.md) 
 * [Adobe PDF Services](../../workfront-fusion/apps-and-their-modules/pdf-modules.md) 
 * [Adobe Acrobat Sign modules](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
+* [Adobe Experience Manager Assets modules](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/adobe-analytics-modules.md" class="MCXref xref" xrefformat="{para}">Adobe Analytics Modules</a> </li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager Assets modules</a> </li>
   -->
 
   <!--

@@ -37,16 +37,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -65,54 +56,105 @@ You must have the following access to use the functionality in this article:
 
 To create a connection for your Adobe Experience Manager Assets modules:
 
-1. Click **Add** next to the Connection box.
-1. Fill in the following fields.
+1.  Click Add next to the Connection box.
+    
+2.  Select the type of connection that you are creating:
+    
+    *   **AEM Assets as a Cloud Service**
+        
+        This configuration requires information from the Adobe Admin Console
+        
+    *   **AEM Assets Basic**
+        
+        This configuration requires a username and password.
+        
+3.  Fill in the fields for the type of connection that you are creating.
+    
+    For AEM Assets as a Cloud Service, see [Configure the connection for AEM Assets as a Cloud Service](#Configur).
+    
+    For AEM Assets Basic, see [Configure the connection for AEM Assets Basic](#Configur2).
+    
+4.  Click **Continue** to save the connection and return to the module.
+    
 
-   >[!NOTE]
-   >
-   >The information for these fields is generated as part of setting up Server-to-server flow on the Adobe Developer Console. You can find these values in the service credentials JSON file generated as part of that setup.
-   >
-   >
-   >For instructions on setting up Server-to-server flow on the Adobe Developer Console, see [Generating Access Tokens for Server Side APIs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+### Configure the connection for AEM Assets as a Cloud Service
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Connection name</td> 
-      <td> <p>Enter a name for this connection</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Instance URL without a trailing slash</td> 
-      <td>Enter the URL for your Adobe Experience Manager instance. Do not include a slash <code>/</code> at the end of the URL.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Client ID</td> 
-      <td>Enter the Client ID generated in the Server-to-server setup.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Client Secret</td> 
-      <td>Enter the Client Secret generated in the Server-to-server setup.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Technical account ID</td> 
-      <td>Enter the ID&nbsp;of the technical account. This is the "id" field in the client credentials JSON file.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Org ID</td> 
-      <td>Enter the ID&nbsp;of your organization. This is the "org" field in the client credentials JSON file.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Meta Scopes</td> 
-      <td>Enter the Meta Scopes generated in the service-to-service setup.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Private key</td> 
-      <td>Enter the Private Key generated win the Server-to-server setup. To extract the private key, click Extrace, then enter the</td> 
-     </tr> 
-    </tbody> 
-   </table>
+>[!NOTE]
+>
+>The information for these fields is generated as part of setting up Server-to-server flow on the Adobe Developer Console. You can find these values in the service credentials JSON file generated as part of that setup.
+>
+>For instructions on setting up Server-to-server flow on the Adobe Developer Console, see [Generating Access Tokens for Server Side APIs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+
+ 
+  <table>
+          <col/>
+          <col/>
+          <tbody>
+              <tr>
+                  <td role="rowheader">Connection name</td>
+                  <td>
+                      <p>Enter a name for this connection</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td role="rowheader">Instance URL without a trailing slash</td>
+                  <td>Enter the URL for your Adobe Experience Manager instance. Do not include a slash <code>/</code> at the end of the URL.</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">Client ID</td>
+                  <td>Enter the Client ID generated in the Server-to-server setup.</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">Client Secret</td>
+                  <td>Enter the Client Secret generated in the Server-to-server setup.</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">Technical account ID</td>
+                  <td>Enter the ID&#160;of the technical account. This is the "id" field in the client credentials JSON file.</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">Org ID</td>
+                  <td class=>Enter the ID&#160;of your organization. This is the "org" field in the client credentials JSON file.</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">Meta Scopes</td>
+                  <td>Enter the Meta Scopes generated in the service-to-service setup.</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">Private key</td>
+                  <td>Enter the Private Key generated win the Server-to-server setup. To extract the private key, click Extract, then enter the file to extract and the password for the file.</td>
+              </tr>
+          </tbody>
+      </table>
+
+
+### Configure the connection for AEM Assets Basic
+
+   <table>
+        <col/>
+        <col />
+        <tbody>
+            <tr>
+                <td role="rowheader">Connection name</td>
+                <td>
+                    <p>Enter a name for this connection</p>
+                </td>
+            </tr>
+            <tr>
+                <td role="rowheader">Instance URL without a trailing slash</td>
+                <td>Enter the URL for your Adobe Experience Manager instance. Do not include a slash <code>/</code> at the end of the URL.</td>
+            </tr>
+            <tr>
+                <td role="rowheader">Username</td>
+                <td>Enter the username for the AEM&#160;Assets account that this connection uses.</td>
+            </tr>
+            <tr>
+                <td role="rowheader">Password</td>
+                <td>Enter the password for the AEM Assets account that this connection uses.</td>
+            </tr>
+        </tbody>
+    </table>
+
 
 ## Adobe Experience Manager Assets modules and their fields
 
@@ -158,10 +200,6 @@ This action module copies a folder or asset to another location in your Adobe Ex
    <td role="rowheader">Overwrite</td> 
    <td>Enable this option to overwrite any folder or asset in the destination location that has the same name as the folder or asset being copied.</td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
-  </tr> 
  </tbody> 
 </table>
 
@@ -193,10 +231,6 @@ This action module creates a folder or an asset comment.
       </ul> </li> 
     </ul> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
-  </tr> 
  </tbody> 
 </table>
 
@@ -221,14 +255,10 @@ This action module deletes a folder, asset, or rendition.
      <li> <p>Rendition</p> <p>Select the rendition by selecting the folders in its path.</p> <p>Enter or map the name of the rendition.</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
-  </tr> 
  </tbody> 
 </table>
 
-### Get folder listing
+### Get a folder listing
 
 This action module retrieves a representation of an existing folder and of its child entities (folders or assets).
 
@@ -241,12 +271,8 @@ This action module retrieves a representation of an existing folder and of its c
    <td> <p>For instructions about connecting your Adobe Experience Manager Assets account to Workfront Fusion, see <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect Adobe Experience Manager Assets to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Folder selection</td> 
+   <td role="rowheader">Folder</td> 
    <td>Select or map the folder that you want to retrieve. To add subfolders to the path, click the plus icon and select the subfolder.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -289,7 +315,7 @@ This action module makes a custom API call to the Adobe Experience Manager Asset
  </tbody> 
 </table>
 
-### Move a record
+### Move a folder or asset
 
 This action module moves the asset or folder at the given path to a new location.
 
@@ -306,7 +332,7 @@ This action module moves the asset or folder at the given path to a new location
    <td> <p>Select whether you want to move a folder or an asset.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Folder / Asset selection</td> 
+   <td role="rowheader">Folder / Asset</td> 
    <td>Select or map the folder or asset that you want to move.</td> 
   </tr> 
   <tr> 
@@ -320,10 +346,6 @@ This action module moves the asset or folder at the given path to a new location
   <tr> 
    <td role="rowheader">Overwrite</td> 
    <td>Enable this option to overwrite any folder or asset in the destination location that has the same name as the folder or asset being copied.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -356,10 +378,6 @@ This action module updates an existing record.
       </ul> </li> 
     </ul> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
-  </tr> 
  </tbody> 
 </table>
 
@@ -382,10 +400,6 @@ This action module uploads an asset to your Adobe Experience Manager Assets acco
   <tr> 
    <td role="rowheader">Source file</td> 
    <td>Enter or map the source file's name and data.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
