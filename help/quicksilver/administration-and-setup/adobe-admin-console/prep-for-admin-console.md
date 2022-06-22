@@ -45,7 +45,7 @@ To ensure that your organization can migrate to the Adobe Admin Console, you mus
     >
     >If your organization does not use Single Sign-on, any users migrated to the Adobe Admin Console will receive an email to create their account and password.
 
-5.  Ensure that user email addresses are ready for migration:
+1.  Ensure that user email addresses are ready for migration:
     
     1.  Remove duplicate emails from Workfront
         
