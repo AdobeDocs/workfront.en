@@ -13,10 +13,10 @@ role: Admin
 As a Workfront administrator, you can change the order of project, task, and issue statuses for everyone in the system or for a single group.
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.</p>
+The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.
 -->
 
-![](assets/statuses-350x116.png)
+![](assets/statuses.png)
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ By default, statuses display in the following order:
 1. In the left panel, click **Project Preferences > Statuses**.
 1. (Conditional) If you are reordering statuses for a group, start typing the name of the group in the box in the upper-right corner, then click the name when it appears.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group-350x139.jpg)
+   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Above the Statuses list that displays, click the **Projects** or **Tasks** tab.
 
@@ -125,7 +125,7 @@ By default, statuses display in the following order:
 1. Click **Project Preferences > Statuses.**
 1. (Conditional) If you are reordering statuses for a group, start typing the name of the group in the box in the upper-right corner, then click the name when it appears.
 
-   ![](assets/issue-statuses-group-name-350x162.png)
+   ![](assets/issue-statuses-group-name.png)
 
 1. Click the **Issues** tab.
 1. (Optional) Select an issue type (**Bug Report**, **Change Order**, **Issue**, or **Request**).

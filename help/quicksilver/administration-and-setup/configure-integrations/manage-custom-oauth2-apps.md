@@ -14,9 +14,7 @@ As an Adobe Workfront administrator, you can view and manage the OAuth2 applicat
 
 >[!NOTE]
 >
->In the context of OAuth2, "Oauth2 application" refers to this sort of access link between an app and a server such asWorkfront. 
->
->For more information, see [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>In the context of OAuth2, "Oauth2 application" refers to this sort of access link between an app and a server such as Workfront. For more information, see [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 * For information on creating custom OAuth2 applications, see [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 * For instructions on configuring and using the OAuth2 application with user credentials (authorization code flow), see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md).
@@ -32,19 +30,17 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Proor higher</p> </td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Planor higher</p> </td> 
+   <td> <p>Plan or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be aWorkfront administrator. </p>
-    --> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
-    --> </td> 
+   <td> You must be a Workfront administrator. </p>
+    <p>For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+     </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,7 +64,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
-1. Hover over the application and click**Edit** ![](assets/edit-icon.png) when it appears on the far right.
+1. Hover over the application and click **Edit** ![](assets/edit-icon.png) when it appears on the far right.
 1. (Optional) Edit any details of the application.
 
    For fields related to OAuth2 and JWT apps, see [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md).
@@ -79,7 +75,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
-1. Hover over the application and click**Delete** ![](assets/delete.png) when it appears on the far right.
+1. Hover over the application and click **Delete** ![](assets/delete.png) when it appears on the far right.
 
 ## Manage Client Secrets in OAuth2 applications
 

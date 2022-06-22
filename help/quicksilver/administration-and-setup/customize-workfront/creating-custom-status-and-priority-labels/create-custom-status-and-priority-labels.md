@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 ---
 
-# Statuses and priority labels
+# Create custom statuses and priority labels
 
 This section contains the following articles:
 

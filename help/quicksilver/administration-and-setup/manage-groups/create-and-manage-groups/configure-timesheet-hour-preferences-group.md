@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 keywords: group,preferences,task,groups,issue,unlock
 navigation-topic: create-and-manage-groups
 title: Configure timesheet and hour preferences for a group
-description: An Adobe Workfront administrator can unlock the following sections of timesheet and hour preferences at the system level so that group administrators can configure them independently for their own groups - EDIT ME.
+description: At the system level, an Adobe Workfront administrator can unlock the timesheet and hour preference sections General Preferences and Pre-Populate timesheets with. This allows group administrators to configure the options in those sections independently for their own groups.
 feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---
@@ -59,7 +59,7 @@ Consider the following information about configuring an unlocked timesheet or ho
 * A timesheet inherits the timesheet and hour preferences configured for the timesheet owner's Home Group. 
 
   <!--
-  <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Add example here?</span>
+  Add example here?
   -->
 
 * After a Workfront administrator unlocks a preference at the system level and you configure it for your group, you can then lock it to ensure that everyone in the groups below yours is using the same configuration. This is parallel to the ability that a Workfront administrator has to configure and lock a preference for everyone in the system. For more information, see [Lock or unlock a group timesheet and hour preference](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
@@ -68,7 +68,7 @@ Consider the following information about configuring an unlocked timesheet or ho
 
 >[!TIP]
 >
->If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Timesheet &&nbsp;Hours > Preferences, then searching for the group's name in the box at the top of the page.
+>If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Timesheet & Hours > Preferences, then searching for the group's name in the box at the top of the page.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
@@ -79,7 +79,9 @@ Consider the following information about configuring an unlocked timesheet or ho
 
 1. On the page that displays, in the **General Preferences** section, configure any of the following options:
 
-<!-- WRITER please check table with original. wonky conditional/draft text, so I just cleared it out-->
+   >[!TIP]
+   >
+   >If you hover over a preference and a tool tip displays to tell you that it is locked, you can ask your Workfront administrator to unlock it for all groups in the organization.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -90,11 +92,16 @@ Consider the following information about configuring an unlocked timesheet or ho
       <td> <p>Allows users to log time for future dates throughout the system in:</p> 
        <ul> 
        <li>Any projects, tasks, and issues where they have access to log time, regardless of project's group</li> 
-       </ul> <p>This is useful when users plan to be away from the office and want to log that time beforehand.</p> <p><b>NOTE</b>: You cannot prevent users from logging time on tasks or issues that are closed or canceled. You can only prevent users from logging time on complete or dead projects. We recommend that you use filters in lists of tasks and issues to exclude&nbsp;the ones that have been completed or canceled from being visible to users.</p> </td> 
+       <li>Their timesheets as General Time</li>
+       </ul> 
+       <p>This is useful when users plan to be away from the office and want to log that time beforehand.</p> 
+       <p><b>NOTE</b>: You cannot prevent users from logging time on tasks or issues that are closed or canceled. You can only prevent users from logging time on complete or dead projects. We recommend that you use filters in lists of tasks and issues to exclude the ones that have been completed or canceled from being visible to users.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Add expenses from a timesheet</td> 
-      <td> <p>Enables users to record both time and expenses in the timesheet.</p> <p>When this preference is enabled for a group and the group is set as the home group for certain users, an expense icon displays next to projects and tasks on those users' timesheets. The users can click this icon to add or edit expenses for the project or task.</p></td> 
+      <td> <p>Enables users to record both time and expenses in the timesheet.</p> 
+      <p>When this preference is enabled for a group and the group is set as the home group for certain users, an expense icon displays next to projects and tasks on those users' timesheets. The users can click this icon to add or edit expenses for the project or task.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Assign Job Roles to hour entries manually</td> 
@@ -120,7 +127,7 @@ Consider the following information about configuring an unlocked timesheet or ho
     </tbody> 
    </table>
 
-1. In the **Pre-Populate timesheets with**section, configure any of the following options: 
+1. In the **Pre-Populate timesheets with** section, configure any of the following options: 
 
    <table style="table-layout:auto"> 
     <col> 
@@ -128,7 +135,7 @@ Consider the following information about configuring an unlocked timesheet or ho
     <tbody> 
      <tr> 
       <td role="rowheader">Work that is within &lt;number of weeks&gt; of the timesheet's work range</td> 
-      <td> <p>Defines the number of weeks before and after the date range&nbsp;of the timesheet that contains dates of tasks and issues assigned to the user. The default setting is 1 week, and you can extend this range to 4 weeks. This means that the timesheet is pre-populated with tasks and issues which have dates anywhere between four weeks before the date range of the timesheet up to four weeks after the date range of the timesheet, if you select 4 weeks for your range. </p> </td> 
+      <td> <p>Defines the number of weeks before and after the date range of the timesheet that contains dates of tasks and issues assigned to the user. The default setting is 1 week, and you can extend this range to 4 weeks. This means that the timesheet is pre-populated with tasks and issues which have dates anywhere between four weeks before the date range of the timesheet up to four weeks after the date range of the timesheet, if you select 4 weeks for your range. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tasks &amp; Issues that have been completed</td> 
