@@ -472,7 +472,7 @@ feature-set: Workfront
       * [Rich text field storage in the API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
       * [Delete object types on a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
     * Statuses and priority labels {#statuses-priority-labels}
-      * [Statuses and priority labels](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
+      * [Create custom statuses and priority labels](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
       * [Statuses overview](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
       * [List all project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
       * [Project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
@@ -494,12 +494,12 @@ feature-set: Workfront
       * [Global approval process settings](administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
       * [How changes affect assigned approval processes](administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
       * [Create a milestone path](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
-    * Custom conditions {#custom-conditions}
+    * Create and manage custom conditions {#custom-conditions}
       * [Custom conditions](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
       * [Create or edit a condition](administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
-      * [Re-order conditions](administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
-      * [Make a condition the default for projects](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
-      * [Make a condition the default for tasks and issues](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
+      * [Change display order of conditions](administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
+      * [Set a condition as the default for projects](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
+      * [Set a condition as the default for tasks and issues](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
       * [Delete a custom condition](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * Manage Adobe Workfront {#manage-wf}
     * [Manage Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
@@ -582,8 +582,8 @@ feature-set: Workfront
       * [Group details](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
       * [Group memberships](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
       * [Group licenses](administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md)
-      * [Group project preferences](administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
-      * [Group task and issue preferences](administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
+      * [Configure group project preferences](administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+      * [Configure group task and issue preferences](administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
       * [Unlock configuration of subgroup preferences](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)
       * [Group timesheet and hour preferences](administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)
       * [Unlock timesheet and hour preference](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)
