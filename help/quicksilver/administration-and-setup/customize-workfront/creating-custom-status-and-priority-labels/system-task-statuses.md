@@ -25,9 +25,9 @@ The following task statuses are provided with your Workfront instance:
  <col> 
  <thead> 
   <tr> 
-   <th>System Task Status</th> 
-   <th>When this Task Status Actions that Happen when the Task Is in This Status Occurs</th> 
-   <th>Actions that Happen when the Task Is in This Status</th> 
+   <th>System task status</th> 
+   <th>When this status occurs</th> 
+   <th>Actions that happen when a task is in this status</th> 
   </tr> 
  </thead> 
  <tbody> 

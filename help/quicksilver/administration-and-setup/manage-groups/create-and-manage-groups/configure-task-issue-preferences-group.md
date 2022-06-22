@@ -126,7 +126,7 @@ You must have the following to perform the steps in this article:
         <li><strong>Keep the original issue and tie its resolution to the task</strong>: When you are converting the issue, it remains visible as an issue until the task is complete. The status of the issue automatically changes to Closed when the task completes.</li> 
         <li><strong>Allow Primary Contact to have access to the task</strong>: Gives the primary contact (issue creator)&nbsp;access to the task to review the task, make updates, and stay informed of its progress</li> 
         <li> <p><strong>Allow these settings to be changed during conversion</strong>: Allows the user who is converting the issue to change these options during the conversion of an issue to a task.</p> <!--
-          <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot when possible</p>
+          Screenshot when possible</p>
          --> </li> 
        </ul> </td> 
      </tr> 
@@ -152,11 +152,11 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">Allow users to delete tasks &amp; issues with logged hours</td> 
       <td> <p> Lets you determine whether you allow the deletion of tasks or issues where hours are logged. This option is selected by default.</p> 
        <div> 
-        <p>Tip: <span>This setting also applies to deleting projects that have tasks or issues with hours logged on them. This setting does not apply to deleting projects where time is logged directly for the project.</span> </p> 
+        <p><b>Tip</b>: This setting also applies to deleting projects that have tasks or issues with hours logged on them. This setting does not apply to deleting projects where time is logged directly for the project. </p> 
         <p>Consider the following:</p> 
         <ul> 
          <li> <p>When it is selected, you receive an informational warning when you delete a task or issue. The warning reminds you that if the task or issue has logged hours, they will either be moved to the project or deleted. You can configure whether the hours are deleted or moved to the project in the Timesheet &amp; Hours Preferences area of the Setup. After you confirm that you have seen the warning, the task or issue is deleted. For more information about configuring Timesheet &amp; Hours Preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configure timesheet and hour preferences</a>. </p> <p>Tip: <span>When you delete a project with tasks and issues that have logged hours, the logged hours are either deleted or they are preserved according to the settings in the Timesheet &amp; Hours Preferences area of Setup</span>. </p> </li> 
-         <li><span>When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours</span> <span>, or when you delete a project with hours logged for its tasks or issues</span> <span>.</span> The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted. The tasks, issues<span>, or projects that have hours logged for tasks and issues</span> cannot be deleted. </li> 
+         <li><span>When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours, or when you delete a project with hours logged for its tasks or issues</span> <span>.</span> The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted. The tasks, issues<span>, or projects that have hours logged for tasks and issues</span> cannot be deleted. </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -189,36 +189,27 @@ You must have the following to perform the steps in this article:
    </table>
 
    <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   <p><strong>Work On It</strong></p> 
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This was a Ninja story in Summer/Fall 2020 that may never be implemented Leaving it here drafted in case Ninja decides to add it.</p>
-   --> 
-   <!--
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Here's what Jeremy Flores says on 12/1/20:</p>
-   --> 
-   <!--
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">I have not had a chance to follow up with customers to verify if this is still a need. It has not come up organically. I can follow up with a few customers, but overall I would say that we're probably safe to move on and just mark what we've done to support this as complete. It could still come up but I don't want to push it unless customers really want it.</p>
-   <p>You can replace the Work On It button with a Start button. When a user assigned to a task or issue clicks Start, the status and Actual Start Date of the work item update automatically, letting others know that the user started work.</p>
-   <p>Workfront's default Work On It button also signals that a user started work on a task or issue, but it doesn't update the status and Actual Start Date.</p>
-   <p>To switch to the Start button:</p>
-   <ol>
-   <li value="1"> <p>Select <strong>Change the Work On It button to a Start button to automatically update the status of an item</strong>.</p> </li>
-   <li value="2"> <p>In the lists of check boxes that display below this option, select one or more statuses for each work item type.</p> <p>With multiple statuses selected here, when a user clicks Start on a work item, a drop-down menu lets the user choose a status for the item.</p> </li>
-   </ol> <note type="note">
-   <ul class="preview">
-   <li>Making this change does not affect tasks and issues where the Actual Start Date was already updated. For these, the button displays as Work On It even if it is replaced with the Start button.</li>
-   <li>If you select New as a status for a work item type (in step 2 above), the Actual Start Date does not update when a user clicks the Start button and then chooses New. This is because a Workfront item is not yet in progress (therefore not yet started) when New is its current status.</li>
-   <li>This setting is not currently available in
-   <ul>
-   <li>The Workfront Mobile App</li>
-   <li>Workfront for Office 365</li>
-   <li>Workfront email notifications</li>
-   </ul></li>
-   <li>This setting can be configured both at the system level and at the Team level. Enabling the Start button for everyone in the system automatically disables the same setting at the Team level.</li>
-   <li>If the Work On It setting is enabled, then disabled, tasks and issues function with a Work On It button the way they did before.</li>
-   </ul>
-   </note>
-   </div>
+   This was a Ninja story in Summer/Fall 2020 that may never be implemented Leaving it here drafted in case Ninja decides to add it. Here's what Jeremy Flores says on 12/1/20:
+   
+   I have not had a chance to follow up with customers to verify if this is still a need. It has not come up organically. I can follow up with a few customers, but overall I would say that we're probably safe to move on and just mark what we've done to support this as complete. It could still come up but I don't want to push it unless customers really want it.
+   You can replace the Work On It button with a Start button. When a user assigned to a task or issue clicks Start, the status and Actual Start Date of the work item update automatically, letting others know that the user started work.
+   Workfront's default Work On It button also signals that a user started work on a task or issue, but it doesn't update the status and Actual Start Date.
+
+   To switch to the Start button:
+   
+   Select Change the Work On It button to a Start button to automatically update the status of an item. 
+   In the lists of check boxes that display below this option, select one or more statuses for each work item type. With multiple statuses selected here, when a user clicks Start on a work item, a drop-down menu lets the user choose a status for the item. 
+     
+   Making this change does not affect tasks and issues where the Actual Start Date was already updated. For these, the button displays as Work On It even if it is replaced with the Start button.
+   If you select New as a status for a work item type (in step 2 above), the Actual Start Date does not update when a user clicks the Start button and then chooses New. This is because a Workfront item is not yet in progress (therefore not yet started) when New is its current status.
+   This setting is not currently available in
+   
+   The Workfront Mobile App
+   Workfront for Office 365
+   Workfront email notifications
+   
+   This setting can be configured both at the system level and at the Team level. Enabling the Start button for everyone in the system automatically disables the same setting at the Team level.
+   If the Work On It setting is enabled, then disabled, tasks and issues function with a Work On It button the way they did before.
    -->
 
 ### Access {#access}
@@ -231,7 +222,7 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">When someone is assigned to a task</td> 
       <td> 
        <ul> 
-        <li><strong>Give them ... access to a task</strong>: Defines the default permission a user has to the task they are assigned to. For more information about task permissions, see<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</li> 
+        <li><strong>Give them ... access to a task</strong>: Defines the default permission a user has to the task they are assigned to. For more information about task permissions, see<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> Grant access to users</a>.</li> 
         <li> <p><strong>Also grant them ... access to the project</strong>: Defines the default permission a user has to the project on which they have a task assigned to them. For more information about project permissions, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </li> 
        </ul> </td> 
      </tr> 
@@ -239,7 +230,7 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">When someone is assigned to an issue</td> 
       <td> 
        <ul> 
-        <li><strong>Give them ... access to a task</strong>: Defines the default permission a user has to the task they are assigned to. For more information about task permissions, see<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</li> 
+        <li><strong>Give them ... access to a task</strong>: Defines the default permission a user has to the task they are assigned to. For more information about task permissions, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</li> 
         <li> <p><strong>Also grant them ... access to the project</strong>: Defines the default permission a user has to the project on which they have a task assigned to them. For more information about project permissions, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </li> 
        </ul> </td> 
      </tr> 
@@ -247,7 +238,7 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">When someone submits a request</td> 
       <td> 
        <ul> 
-        <li><strong>Give them ... access to the issue</strong>: Defines the default permission a user has on a request they submitted. For more information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a>.</li> 
+        <li><strong>Give them ... access to the issue</strong>: Defines the default permission a user has on a request they submitted. For more information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue</a>.</li> 
         <li> <p><strong>People from the same company will inherit the same permissions for all requests</strong>: Allows users to see requests submitted by other users from the same company as them. They have the same permissions on those requests as they have on their own submitted requests.</p> </li> 
        </ul> </td> 
      </tr> 

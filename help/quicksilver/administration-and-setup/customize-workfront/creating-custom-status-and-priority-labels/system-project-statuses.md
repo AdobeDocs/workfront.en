@@ -96,7 +96,8 @@ The following project statuses are provided with your Workfront instance:
 
 >[!NOTE]
 >
->The following project statuses cannot be changed to a Dead, On Hold, or Complete status:>
+>The following project statuses cannot be changed to a Dead, On Hold, or Complete status:
+>
 >* Requested
 >* Idea
 >* Approved

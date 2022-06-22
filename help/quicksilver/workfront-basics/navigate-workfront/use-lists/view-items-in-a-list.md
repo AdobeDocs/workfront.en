@@ -20,7 +20,7 @@ The following are some characteristics of lists in Workfront:
 * Lists are object specific: one list can reference only one type of object. Other objects that are directly connected to the object of the list can also be referenced in the same list. 
 
   <!--
-  <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Suggested edit: I would remove this and the sentence below if you use the alternative first paragrap above.</span>
+  Suggested edit: I would remove this and the sentence below if you use the alternative first paragrap above.
   -->
 
   For example, a list of tasks includes task information like Assignments, Start and Due Date, but it can also include project information like Project Name or the name of the Project Owner.

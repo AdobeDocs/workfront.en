@@ -11,7 +11,9 @@ role: Admin
 # Create or customize issue severities
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **Linked to Understanding Issue Severity.</p>
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+
+Linked to Understanding Issue Severity.
 -->
 
 Your users can use severities to define how serious an issue is. You can customize any of the five default severities existing in Adobe Workfront, or create a new severity for your users.
@@ -45,7 +47,7 @@ You must have the following access to perform the steps in this article:
 
 ## Built-in issue severities
 
-Workfront has five built-in issue&nbsp;severities:
+Workfront has five built-in issue severities:
 
 * Cosmetic
 * Causes Confusion
@@ -53,32 +55,28 @@ Workfront has five built-in issue&nbsp;severities:
 * Bug with no workaround
 * Fatal error
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>You can edit the following for these severities:</p>
-<ul>
-<li>Name</li>
-<li> <p>Color</p> <note type="note">
-The color of your severity is preserved in a chart report, if you group your results by
-<strong>Issue Severity</strong>. For more information on chart reports, see
-<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Add a chart to a report</a>.
-</note> </li>
-<li> <p>Change the default severity
--->
+<p>You can edit the following for these severities:</p> 
 
-<!--
-<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">STOPPED&nbsp;HERE</span>
-</p> <p>For more information about default severities, see <a href="#create-or-edit-an-issue-severity" class="MCXref xref">Create or edit an issue severity</a> in this article.</p> </li>
-<li>Edit the description of the severities</li>
-<li> <p>Hide a severity</p> <p>For more information about&nbsp;hiding a severity, see <a href="#create-or-edit-an-issue-severity" class="MCXref xref">Create or edit an issue severity</a> in this article.</p> </li>
-<li> <p>Delete a severity</p> <p>When you delete an existing severity, you must select a replacement one.</p> </li>
-</ul>
-</div>
--->
+* Name
+* Color
+     
+     The color of a severity is preserved in a chart report, if you group your results by Issue Severity. For information on chart reports, see [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+
+* Which severity is the default
+     
+     For more information about default severities, see [Create or edit an issue severity](#create-or-edit-an-issue-severity) in this article.
+* Description
+* Whether a severity is hidden in Workfront
+     
+     For more information about hiding a severity, see [Create or edit an issue severity](#create-or-edit-an-issue-severity")
+
+* Delete a severity
+     
+     When you do this, you must select a replacement severity.
 
 ## Create or edit an issue severity {#create-or-edit-an-issue-severity}
 
-As a Workfront administrator, you can create and edit issue severities to suit the needs of your users.&nbsp;
+As a Workfront administrator, you can create and edit issue severities to suit the needs of your users. 
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
@@ -93,27 +91,32 @@ As a Workfront administrator, you can create and edit issue severities to suit t
     <tbody> 
      <tr> 
       <td role="rowheader">Severity Name</td> 
-      <td>Type a name</td> 
+      <td>Type a name for the severity</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Importance</td> 
-      <td> <p>When you create a severity, Workfront assigns a number to it. Edit this number, if it does not match your needs. The <strong>Importance</strong> number for each severity&nbsp;must be unique. The number of the severity reflects the seriousness of the issue: the highest number corresponds to the highest severity.</p> <p><b>NOTE</b>: You cannot edit the <strong>Importance</strong> number, after you save the severity.</p> </td> 
+      <td>Increase or decrease the level of seriousness, originally assigned by Workfront, for the severity.
+      <p>The Importance number for each severity must be unique. The highest number corresponds to the highest level of severity.</p> <p>You cannot edit this number after you save the severity.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Color</td> 
-      <td> <p>Choose a color for the severity.</p> <p><b>NOTE</b>: The color of the severity is used in chart reports, when you group your results by <strong>Issue Severity</strong>. For more information on chart reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Add a chart to a report</a>.</p> </td> 
+      <td> <p>Choose a color for the severity.</p> 
+      <p>The color of the severity is used in chart reports when you group your results by Issue Severity. For  information on chart reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Add a chart to a report</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Default Severity</td> 
-      <td>Decide whether this should be a default severity&nbsp;or not, by selecting the radio button.<br>If a severity is designated as the default severity, it is automatically selected for all newly created issues in Workfront. <strong>Cosmetic</strong>&nbsp;is the default severity for issues in Workfront.</td> 
+      <td>Select the severity you want Workfront to select automatically all newly created issues.</p>
+      <p>Cosmetic is the default severity for issues in Workfront.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
-      <td>Type a description for the severity&nbsp;to explain its function.</td> 
+      <td>Type a description for the severity to explain its function.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Hide</td> 
-      <td> <p>Select this box if you want to hide the severity.</p> <p>When you check the <strong>Hide</strong> option, the severity&nbsp;does not display anywhere in Workfront and users are not able to choose it for their issues.</p> <p><b>IMPORTANT</b>: We recommend that you hide the severities&nbsp;that you no longer want to use, rather than deleting them.&nbsp;By hiding them, you still keep all your historic data, of objects that have been completed with this severity, while preventing people from choosing this severity&nbsp;in the future.</p> </td> 
+      <td> Hide a severity that is no longer needed. 
+      <p>A hidden severity does not display anywhere in Workfront, so users can't choose it for their issues.</p> 
+      <p><b>IMPORTANT</b>: Instead of deleting severities that you no longer want to use, we suggest that you hide them. This way, you keep all your historic data on objects already completed with the severity, while preventing people from using the severity in the future.</p> </td> 
      </tr> 
     </tbody> 
    </table>

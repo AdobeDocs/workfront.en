@@ -103,7 +103,7 @@ Configure any of the following preferences for newly created projects associated
    <td> <p>This preference allows users to set the Condition of a project manually (On Target, At Risk, In Trouble) or have Workfront set the Condition (Progress Status) automatically based on the project's progression on the timeline. For more information about the Condition of projects, see&nbsp;<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Overview of Project Condition and Condition Type</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>Create baselines automatically</strong> </p> </td> 
+   <td role="rowheader"> <p>Create baselines automatically</p> </td> 
    <td> <p>This preference automatically creates a baseline (snapshot) of task and project details when the status of the project changes to Current. For information about creating baselines, see <a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref" data-mc-variable-override="">Create project baselines</a>.</p> </td> 
   </tr> 
   <tr> 
