@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 keywords: create,group,subgroup,new
 navigation-topic: create-and-manage-groups
 title: Create a group
-description: DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT-SENSITIVE HELP LINKS.
+description: As an Adobe Workfront administrator, you can create groups to organize users and projects and to assign access rights within Workfront.
 feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---
@@ -12,7 +12,7 @@ role: Admin
 # Create a group
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT-SENSITIVE HELP LINKS.</p>
+DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT-SENSITIVE HELP LINKS.
 -->
 
 As an Adobe Workfront administrator, you can create groups to organize users and projects and to assign access rights within Workfront. For more information, see [Groups overview](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
@@ -97,8 +97,9 @@ You must be a Workfront administrator to create a top-level group.
       <td role="rowheader">Group Members and Group Administrators</td> 
       <td> 
        <ul> 
-        <li> <p>Group members: To add users and groups to the group, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
-        <li> <p data-mc-conditions="SnippetConditions-wf-groups.groups">A top-level group must have at least 1 group administrator.</p> </li> 
+        <p>To add group members, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> 
+        <p>Users and groups that you add have access to all objects shared with the group.</p>
+        <p>A top-level group must have at least one group administrator. </p> 
        </ul> </td> 
      </tr> 
      <tr> 

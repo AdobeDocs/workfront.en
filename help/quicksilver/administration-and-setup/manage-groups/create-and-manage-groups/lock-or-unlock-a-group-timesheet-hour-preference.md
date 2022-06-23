@@ -23,7 +23,7 @@ For information about how a Workfront administrator can lock or unlock a timeshe
 For information about configuring a timesheet and hour preference for a group, see [Configure timesheet and hour preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Unlike other Lock/Unlock articles that start just like this one, we need the steps here. In other areas, the lock/unlock step is part of the article about setting preferences or creating statuses.</p>
+Unlike other Lock/Unlock articles that start just like this one, we need the steps here. In other areas, the lock/unlock step is part of the article about setting preferences or creating statuses.</p>
 -->
 
 >[!NOTE]
@@ -69,7 +69,7 @@ You must have the following to perform the steps in this article:
 
 1. In the left panel, click **Groups**.
 1. Click the name of the group where you want to lock or unlock a timesheets and hours preference.
-1. In the left panel, click **Timesheets and Hour****s Preferences**.
+1. In the left panel, click **Timesheets and Hours Preferences**.
 
 1. On the page that appears, do any of the following:
 

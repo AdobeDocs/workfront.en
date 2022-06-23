@@ -13,7 +13,7 @@ role: Admin
 The information on this page refers to functionality available only in the new Workfront experience beta.
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">If Callisto adds the <b>Is active</b> checkbox to the Details page for groups you view, add that info to Manage groups/Create and manage groups/<b>manage-a-group</b> and to Manage groups/Create and manage groups/<b>view-and-manage-a-groups-details</b></p>
+If Callisto adds the <b>Is active</b> checkbox to the Details page for groups you view, add that info to Manage groups/Create and manage groups/**manage-a-group** and to Manage groups/Create and manage groups/**view-and-manage-a-groups-details**
 -->
 
 You can deactivate a group you manage that you no longer use.
@@ -58,16 +58,9 @@ You must have the following to perform the steps in this article:
 
    In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
-1. Do one of the following:
-
-   1. If you are in Production, select the group, then click the Edit icon ![](assets/edit-icon.png). In the **Edit Group** box that displays, disable the **Is Active** option to deactivate the group, or enable the **Is Active** option to activate the group. Then click **Save**.
-   1. If you are in Preview, click the name of the group to open its page. Click the More menu ![](assets/more-icon.png) next to the name of the group, then click **Deactivate** or **Reactivate**. If you are deactivating the group, click **Deactivate** in the **Deactivate group** box that displays.   
-   
-      <!--   
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-      <span style="color: #ff1493;"> (Eliminate step a and break this step up on Prod day)</span>   
-      </MadCap:conditionalText>   
-      -->
+1. Click the name of the group to open its page. Click the More menu ![](assets/more-icon.png) next to the name of the group, then click **Deactivate** or **Reactivate**.    
+  
+1. (Conditional) If you are deactivating the group, click **Deactivate** in the **Deactivate group** box that displays.
 
    >[!NOTE]
    >
