@@ -1873,6 +1873,11 @@ feature-set: Workfront
     * [Change profile settings in Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
     * [Delete user data In Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/delete-user-data.md)
     * [Adobe Workfront Fusion FAQ](workfront-fusion/workfront-fusion-basics/faq.md)
+  * Adobe Workfront Fusion in the Adobe Admin Console {#workfront-fusion-admin-console}
+    * [Adobe Workfront Fusion in the Adobe Admin Console](workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md)
+    * [Add users to Adobe Workfront Fusion through the Adobe Admin Console](workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+    * [Delete users in Adobe Workfront Fusion through the Adobe Admin Console](workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
+    * [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
   * Connections in Adobe Workfront Fusion {#connections-in-fusion}
     * [Connections in Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
     * [About connecting Adobe Workfront Fusion to an app or service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
@@ -1927,6 +1932,7 @@ feature-set: Workfront
     * [Organizations in Adobe Workfront Fusion](workfront-fusion/organizations/organizations.md)
     * [Adobe Workfront Fusion organizations and teams](workfront-fusion/organizations/organizations-and-teams.md)
     * [Add a user to an organization in Adobe Workfront Fusion](workfront-fusion/organizations/add-user-to-an-organization.md)
+    * [Manage users in Adobe Workfront Fusion](workfront-fusion/organizations/manage-fusion-users.md)
     * [Organization roles in Adobe Workfront Fusion](workfront-fusion/organizations/organization-roles.md)
   * Scenarios in Adobe Workfront Fusion {#scenarios-in-fusion}
     * [Scenarios in Adobe Workfront Fusion](workfront-fusion/scenarios/scenarios.md)
