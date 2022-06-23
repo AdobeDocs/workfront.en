@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Navigate Adobe Workfront
-description: This section contains the following subsections - EDIT ME.
+description: Review these areas to get an understanding of how to navigate Workfront.
 feature: Get Started with Workfront
 ---
 

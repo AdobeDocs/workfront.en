@@ -3,7 +3,7 @@ content-type: reference
 product-area: projects
 navigation-topic: navigate-workfront
 title: Recents and favorites in Adobe Workfront
-description: This section contains the following articles - EDIT ME.
+description: Review the following articles to learn about using favorites and recents in Workfront.
 feature: Get Started with Workfront
 ---
 
