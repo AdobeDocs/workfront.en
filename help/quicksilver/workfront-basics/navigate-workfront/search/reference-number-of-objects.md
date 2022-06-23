@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: search
 title: Use the reference number of objects
-description: In Adobe Workfront, items are identified as objects. Objects correspond with the database and are used to correlate data with an item.
+description: In Adobe Workfront, items are identified as objects. Objects correspond with the database and are used to correlate data with an item. Reference numbers are useful in distinguishing between two otherwise similar objects (such as tasks with the same name). You can search for reference numbers and include them in reports.
 feature: Get Started with Workfront
 ---
 
@@ -21,7 +21,7 @@ Reference numbers are useful in distinguishing between two otherwise similar obj
 
 >[!IMPORTANT]
 >
->* Workfront assigns reference numbers continuously across all customers and all objects.&nbsp;For example, when you create a task, Workfront might assign it a reference number of 00005. If another customer creates a project next, their project might receive the next available reference number, for example 00006. If you create an issue next, your issue might receive the reference number 00007, and so forth. 
+>* Workfront assigns reference numbers continuously across all customers and all objects. For example, when you create a task, Workfront might assign it a reference number of 00005. If another customer creates a project next, their project might receive the next available reference number, for example 00006. If you create an issue next, your issue might receive the reference number 00007, and so forth. 
 >* You cannot control the sequence of reference numbers for any objects in Workfront. The sequence is always controlled by our database. 
 >
 

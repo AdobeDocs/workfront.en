@@ -21,11 +21,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
 
 ## View recent items
 
-1. Click the **Recents** icon ![Recents](assets/recents-icon-40x43.png) in the upper-right corner of any page in the new Adobe Workfront experience.
+1. Click the **Recents** icon ![Recents](assets/recents-icon-40x43.png) in the upper-right corner of any page.
 
    ![Recents list](assets/recents-list-2022-350x319.png)
 
