@@ -1932,6 +1932,7 @@ feature-set: Workfront
     * [Organizations in Adobe Workfront Fusion](workfront-fusion/organizations/organizations.md)
     * [Adobe Workfront Fusion organizations and teams](workfront-fusion/organizations/organizations-and-teams.md)
     * [Add a user to an organization in Adobe Workfront Fusion](workfront-fusion/organizations/add-user-to-an-organization.md)
+    * [Manage users in Adobe Workfront Fusion](../../workfront-fusion/organizations/manage-fusion-users.md)
     * [Organization roles in Adobe Workfront Fusion](workfront-fusion/organizations/organization-roles.md)
   * Scenarios in Adobe Workfront Fusion {#scenarios-in-fusion}
     * [Scenarios in Adobe Workfront Fusion](workfront-fusion/scenarios/scenarios.md)
