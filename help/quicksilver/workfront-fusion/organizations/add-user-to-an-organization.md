@@ -3,11 +3,23 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Add a user to an organization in Adobe Workfront Fusion
-description: This article includes information about the access and permissions of the roles in Adobe Workfront Fusion.
+description: You can add users to organizations in Adobe Workfront Fusion.
 feature: Workfront Fusion
 ---
 
 # Add a user to an organization in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>
+>For instructions on adding a user in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+
+<!--
+
+For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md.draft). 
+
+-->
 
 ## Access requirements
 
@@ -49,7 +61,6 @@ You must have the following access to use the functionality in this article:
 
 ## Add users to an organization
 
-<!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>The procedure to add a user to your Fusion organization differs based on whether your organization has been onboarded to the Adobe Business Platform. </p>
 <ul>
@@ -69,7 +80,6 @@ You must have the following access to use the functionality in this article:
 </div>
 <p><strong>Add a user to an organization that has not been onboarded to the Adobe Business Console</strong></p>
 </div>
--->
 
 To add users to the organization, you must be an administrator at the organization you want to add users to. For information about roles, see [Organization roles in Adobe Workfront Fusion](../../workfront-fusion/organizations/organization-roles.md).
 
@@ -79,12 +89,12 @@ To add a user to the organization:
 1. Open the **Users** tab in your Dashboard.
 1. Click **Invite a new user**, fill out the form (Email, Message, Role), and send the invitation by clicking **Send**.
 
-   <!--
-   <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+>[!NOTE]
+>
+>   <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
    <p>If you do not see the Invite a new user button, your organization has been onboarded to the Adobe Business Platform. </p>
    <p>For instructions on adding a user to an organization that has been onboarded to the Adobe Business Platform, see <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Add a user to an organization that has been onboarded to the Adobe Business Platform</a></p>
    </div>
-   -->
 
    The user receives an invitation email where they can accept the invitation by clicking an Accept the Role button.
 

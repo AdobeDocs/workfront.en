@@ -89,6 +89,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 * [Triggers](#triggers) 
 * [Actions](#actions)
+* [Searches](#searches)
 
 ### Triggers {#triggers}
 
@@ -125,10 +126,11 @@ This trigger module starts a scenario when a record of the chosen type is create
 * [Make a custom API Call](#make-a-custom-api-call) 
 * [Delete a record](#delete-a-record) 
 * [Export data](#export-data) 
-* [Get record](#get-record) 
 * [Import Data](#import-data) 
 * [Read a record](#read-a-record) 
+* [Run an action](#run-an-action)
 * [Update a record](#update-a-record)
+* [Upload a file](#upload-a-file)
 
 #### Create a list item {#create-a-list-item}
 
@@ -243,25 +245,166 @@ This action module deletes an existing record.
  </tbody> 
 </table>
 
-#### Export data {#export-data}
+#### Read a record  {#read-a-record}
 
-This action module exports data from Anaplan. You can export into the following file formats:
+This action module reads a single record.
 
-* XLS
-* XLSX
-* CSV
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record type</td> 
+   <td> <p>Select the type of record to read.</p> 
+    <ul> 
+     <li> <p><b>Model</b> </p> <p>Select or map the ID&nbsp;of the Model you want to read</p> </li> 
+     <li> <p><b>Model list</b> </p> <p>Select or map the IDs of the Workspace and Model that contain the List you want to read, then select the List. In the Data type field, select whether you want to read data or metadata.</p> </li> 
+     <li> <p><b>Model version</b> </p> <p>Select or map the ID of the Model you want to read.</p> </li> 
+     <li> <p><b>User</b> </p> <p>Select whether you want to return data about the owner of the account being used, or another user. If you select another user, select the name of the user.</p> </li> 
+     <li> <p><b>Workspace</b> </p> <p>Select or map the ID of the Workspace you want to read.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
-| Connection |For instructions on creating a connection to Anaplan, see [Connect Anaplan to Workfront Fusion](#connect-anaplan-to-workfront-fusion) in this article. |
-|---|---|
-| Workspace ID |Select or map the ID of the Anaplan Workspace that contains the object you want to export. |
-| Model ID |Enter or map the ID of the Model that contains the object you want to export. |
-| Export ID |Enter or map the ID&nbsp;of the export definition that you want to use. |
+#### Run an action {#run-an-action}
 
-{style="table-layout:auto"}
+This action module imports, exports, deletes, or processes an action.
+
+<table>
+     <col/>
+     <col/>
+     <tbody>
+      <tr>
+        <td role="rowheader">Connection</td>
+        <td>For instructions on creating a connection to Anaplan, see <a href="#Connect" class="MCXref_0">Connect Anaplan to Workfront Fusion</a> in this article.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">Workspace ID</td>
+        <td>Select or map the ID of the Anaplan Workspace where you want to perform the action</td>
+      </tr>
+      <tr >
+        <td role="rowheader">Model ID</td>
+        <td>Select or map the ID of the Model where you want to perform the action.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">Action type</td>
+        <td>
+          <p>Select the action that you want to perform</p>
+            <ul>
+              <li>
+                <p><b>Delete</b>
+                </p>
+                <p>Enter or map the ID&#160;of the action you want to delete.</p>
+              </li>
+              <li>
+                <p><b>Export</b>
+                </p>
+                <p>Enter or map the ID&#160;of the export definition that you want to use. You can export into the following file formats:</p>
+                  <ul>
+                    <li>
+                      <p>XLS</p>
+                    </li>
+                    <li>
+                      <p>XLSX</p>
+                    </li>
+                    <li>
+                      <p>CSV</p>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <p><b>Import </b>
+                  </p>
+                  <p style="font-weight: normal;">Enter or map the ID&#160;of the import definition that you want to use.</p>
+                </li>
+                <li>
+                 <p><b>Process</b>
+                 </p>
+                  <p>Enter or map the ID&#160;of the process you want to use. </p>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+
+#### Update a record  {#update-a-record}
+
+This action module updates a single record in Anaplan.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record type</td> 
+   <td> <p>Select the type of record you want to update.</p> 
+    <ul> 
+     <li> <p><b>List item</b> </p> <p>For fields, see <a href="#create-a-list-item" class="MCXref xref">Create a list item</a> in this article.</p> </li> 
+     <li> <p><b>Module cell data</b> </p> <p>When you update cell data, all downstream calculations that use that data are also updated.</p> <p>Fill in the following fields:</p> 
+      <ul> 
+       <li> <p><b>Model ID</b> </p> <p>Select or map the Model that contains the cell you want to update.</p> </li> 
+       <li> <p><b>Module ID</b> </p> <p>Select or map the Module that contains the cell you want to update</p> </li> 
+       <li> <p><b>Line item name</b> </p> <p>Select or map the line item of the cell you want to update</p> </li> 
+       <li> <p style="font-weight: bold;">Dimension ID</p> <p>Select or map the dimension that is on the line item.</p> 
+       <p><b>Note: </b> 
+       <ul>
+       <li> Dimension key (value) must be either <code>dimensionName</code> (next) or <code>dimensionId</code> (ID).</li>
+       <li>Item key (value) must be <code>itemName</code> (text), <code>itemCode</code> (text), or <code>itemId</code> (ID).</li>
+       <li>Dimension and item keys must be the same type (text or ID).
+       </ul>
+        </p> 
+        <p>For information on dimensions, search for Dimensions in the Anaplan Anapedia.</p> </li> 
+       <li> <p><b>Value</b> </p> <p>Enter or map the new value for the cell.</p> </li> 
+      </ul> </li> 
+     <li> <p><b>Model current fiscal year</b> </p> <p>Enter the Workspace ID and Model ID of the Model for which you want to update the fiscal year, then enter or map the new year for the model.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Upload a file {#upload-a-file}
+
+This action module uploads a file to Anaplan. The file must have already been uploaded to Anaplan. You can use this module to upload it to additional locations within Anaplan.
+<table style="table-layout:auto">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">Connection</td>
+<td>For instructions on creating a connection to Anaplan, see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td>
+</tr>
+<tr>
+<td role="rowheader">Workspace ID</td>
+<td>Select or map the ID of the Anaplan Workspace where you want to upload a file.</td>
+</tr>
+<tr>
+<td role="rowheader">Model ID</td>
+<td>Select or map the ID of the Model where you want to upload a file.</td>
+</tr>
+<tr>
+<td role="rowheader">File ID</td>
+<td>Select or map the ID&nbsp;of the file you want to upload.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+### Searches {#searches}
 
 #### Get record {#get-record}
 
-This action module returns all accessible records of the selected type.
+This search module returns all accessible records of the selected type.
 
 <table style="table-layout:auto">
  <col> 
@@ -294,109 +437,4 @@ This action module returns all accessible records of the selected type.
  </tbody> 
 </table>
 
-#### Import Data {#import-data}
-
-This action module imports data into Anaplan using the Anaplan API. For example, you can import a file that you have uploaded.
-
-| Connection |For instructions on creating a connection to Anaplan, see [Connect Anaplan to Workfront Fusion](#connect-anaplan-to-workfront-fusion) in this article. |
-|---|---|
-| Workspace ID |Select or map the ID of the Anaplan Workspace where you want to import data. |
-| Model ID |Select or map the ID of the Model where you want to import data. |
-| Import ID |Enter or map the ID&nbsp;of the import definition that you want to use. |
-
-{style="table-layout:auto"}
-
-#### Read a record  {#read-a-record}
-
-This action module reads a single record.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Anaplan, see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Record type</td> 
-   <td> <p>Select the type of record to read.</p> 
-    <ul> 
-     <li> <p><b>Model</b> </p> <p>Select or map the ID&nbsp;of the Model you want to read</p> </li> 
-     <li> <p><b>Model list</b> </p> <p>Select or map the IDs of the Workspace and Model that contain the List you want to read, then select the List. In the Data type field, select whether you want to read data or metadata.</p> </li> 
-     <li> <p><b>Model version</b> </p> <p>Select or map the ID of the Model you want to read.</p> </li> 
-     <li> <p><b>User</b> </p> <p>Select whether you want to return data about the owner of the account being used, or another user. If you select another user, select the name of the user.</p> </li> 
-     <li> <p><b>Workspace</b> </p> <p>Select or map the ID of the Workspace you want to read.</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Update a record  {#update-a-record}
-
-This action module updates a single record in Anaplan.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Anaplan, see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Record type</td> 
-   <td> <p>Select the type of record you want to update.</p> 
-    <ul> 
-     <li> <p><b>List item</b> </p> <p>For fields, see <a href="#create-a-list-item" class="MCXref xref">Create a list item</a> in this article.</p> </li> 
-     <li> <p><b>Module cell data</b> </p> <p>When you update cell data, all downstream calculations that use that data are also updated.</p> <p>Fill in the following fields:</p> 
-      <ul> 
-       <li> <p><b>Model ID</b> </p> <p>Select or map the Model that contains the cell you want to update.</p> </li> 
-       <li> <p><b>Module ID</b> </p> <p>Select or map the Module that contains the cell you want to update</p> </li> 
-       <li> <p><b>Line item name</b> </p> <p>Select or map the line item of the cell you want to update</p> </li> 
-       <li> <p style="font-weight: bold;">Dimension ID</p> <p>Select or map the dimension that is on the line item.</p> <p>For information on dimensions, search for Dimensions in the Anaplan Anapedia.</p> </li> 
-       <li> <p><b>Value</b> </p> <p>Enter or map the new value for the cell.</p> </li> 
-      </ul> </li> 
-     <li> <p><b>Model current fiscal year</b> </p> <p>Enter the Workspace ID and Model ID of the Model for which you want to update the fiscal year, then enter or map the new year for the model.</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4>Upload a file</h4>
-<p>This action module uploads a file to Anaplan. The file must have already been uploaded to Anaplan. You can use this module to upload it to additional locations within Anaplan.</p>
-<table style="table-layout:auto">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Connection</td>
-<td>For instructions on creating a connection to Anaplan, see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td>
-</tr>
-<tr>
-<td role="rowheader">Workspace ID</td>
-<td>Select or map the ID of the Anaplan Workspace
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-where you want to upload a file
-</MadCap:conditionalText>
-.</td>
-</tr>
-<tr>
-<td role="rowheader">Model ID</td>
-<td>Select or map the ID of the Model
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-where you want to upload a file
-</MadCap:conditionalText>
-.</td>
-</tr>
-<tr>
-<td role="rowheader">File ID</td>
-<td>Select or map the ID&nbsp;of the file you want to upload.</td>
-</tr>
-</tbody>
-</table>
-</div>
--->
 

@@ -8,7 +8,7 @@ feature: "System Setup and Administration, Workfront Integrations and Apps, Digi
 role: Admin
 ---
 
-# Configure the SharePoint integration
+# Configure the Legacy SharePoint integration
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -210,7 +210,7 @@ When you have created a site app in SharePoint, you can now copy information fro
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Site Collections Authentication</p> </td> 
-      <td> 
+      <td> <b>Important</b> Site collections are used only in the Legacy Sharepoint Integration.
        <ul> 
         <li> <p><b>If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
         <li> <p><b>If you are using a master site and subsites:</b> </p> <p><b>IMPORTANT</b>: Microsoft SharePoint no longer recommends the use of subsites.</p> <p>Enter the URL stem for the site collection that you created in the section above.</p> <p>This is the section of the URL after .com.</p> <p>Example: for the URL <code>https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> </li> 
@@ -226,7 +226,7 @@ When you have created a site app in SharePoint, you can now copy information fro
      </tr> 
      <tr> 
       <td role="rowheader">Visible Site Collections</td> 
-      <td> 
+      <td> <b>Important</b> Site collections are used only in the Legacy Sharepoint integration.
        <ul> 
         <li> <p><b> If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
         <li> <p><b>If you are using a master site and subsites:</b> </p> <p><b>IMPORTANT</b>: Microsoft SharePoint no longer recommends the use of subsites.</p> <p>For each subsite you want to add to your SharePoint integration, enter the stem of the subsite.</p> <p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p> <p><b>NOTE</b>:   <p>If you want to test your configuration only (no subsites), enter the stem of the master site. </p> <p>Example: for the URL <code> https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> <p>When you have tested your configuration as described in <a href="#complete-your-integration" class="MCXref xref">Complete your integration</a>, you must remove the master site and enter the subsites.</p> 
