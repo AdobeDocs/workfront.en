@@ -8,7 +8,7 @@ description: You can add a user to the Adobe Admin Console and assign them to Ad
 feature: Workfront Fusion
 ---
 
-Add users to Adobe Workfront Fusion through the Adobe Admin Console
+# Add users to Adobe Workfront Fusion through the Adobe Admin Console
 
 >[!IMPORTANT]
 >
@@ -80,11 +80,11 @@ Before using the Admin Console for Workfront, you should receive a receive an em
     
     ![Fusion instance in Admin Console](assets/fusion-instances-admin-console.png)
     
-    >[!TIP]
-	>   
-    >Your Preview instance, the second link in the list, is a testing environment that replicates your live Production environment. For more information, see The Adobe Workfront Preview Sandbox Environment.
-    >
-    >You might also see links to sandbox environments in the list. For more information, see The Adobe Workfront Preview Sandbox Environment.
+    > [!TIP]
+    > 
+    > Your Preview instance, the second link in the list, is a testing environment that replicates your live Production environment. For more information, see The Adobe Workfront Preview Sandbox Environment.
+    >    
+    > You might also see links to sandbox environments in the list. For more information, see The Adobe Workfront Preview Sandbox Environment.
     
 1.  In the list that displays, with the Product Profiles tab selected, click the name of the Workfront Product Profile link.
     
@@ -93,8 +93,8 @@ Before using the Admin Console for Workfront, you should receive a receive an em
     This list includes all users that are already assigned to your Production instance of Workfront.
     
     >[!IMPORTANT]
-	>
-	> Do not make any changes to the Product Profile itself.
+    >
+    > Do not make any changes to the Product Profile itself.
     
 1.  Go to the user and admin area in the Admin Console, as described in [Add users to Adobe Workfront Fusion through the Adobe Admin Console](#Access) in this article.
 1.  With the Users tab selected above the list, select **Add User**.
@@ -104,8 +104,8 @@ Before using the Admin Console for Workfront, you should receive a receive an em
     The user is created in Workfront with the Requestor access level.
     
     >[!IMPORTANT]
-	>
-	> Do not make any changes to the Product Profile itself.
+    >
+    > Do not make any changes to the Product Profile itself.
     
 1.  In Workfront, change the user's access level.
     
