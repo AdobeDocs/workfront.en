@@ -80,7 +80,7 @@ Before using the Admin Console for Workfront, you should receive a receive an em
     
     ![Fusion instance in Admin Console](assets/fusion-instances-admin-console.png)
     
-    > [!TIP]
+    >[!TIP]
     > 
     > Your Preview instance, the second link in the list, is a testing environment that replicates your live Production environment. For more information, see The Adobe Workfront Preview Sandbox Environment.
     >    
