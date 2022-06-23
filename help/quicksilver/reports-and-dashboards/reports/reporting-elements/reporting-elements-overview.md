@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Reporting elements overview
-description: All Adobe Workfront reports and lists are a combination of 3 essential elements - EDIT ME.
+description: All Adobe Workfront reports and lists are a combination of three essential elements - views, filters, and groupings.
 feature: Reports and Dashboards
 ---
 
 # Reporting elements overview
 
-All Adobe Workfront reports and lists are a combination of 3 essential elements:
+All Adobe Workfront reports and lists are a combination of three essential elements:
 
 * A view
 * A filter
@@ -25,20 +25,10 @@ This section contains the following articles:
 
 * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
 * [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview-draft.md" class="MCXref xref" xrefformat="{para}">Filters overview in Adobe Workfront (draft)</a> </li>
-  -->
-
 * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
 * [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
 * [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) 
 * [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview-draft.md" class="MCXref xref" xrefformat="{para}">Views overview in&nbsp;Adobe Workfront (draft)</a> </li>
-  -->
-
 * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
 * [Create or edit views in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
 * [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

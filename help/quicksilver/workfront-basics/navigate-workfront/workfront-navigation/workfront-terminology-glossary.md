@@ -10,7 +10,7 @@ feature: Get Started with Workfront
 
 >[!IMPORTANT]
 >
->This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application, in the Workfront documentation, or when generally speaking about planning and managing work. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+>This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application, in the Workfront documentation, or when generally speaking about planning and managing work. We are currently updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.
 
 The following table is a list of commonly used terms in Adobe Workfront:
 
@@ -21,8 +21,8 @@ The following table is a list of commonly used terms in Adobe Workfront:
  <col> 
  <thead> 
   <tr> 
-   <th>Object Name</th> 
-   <th>Description</th> 
+   <th><strong>Object Name</strong></th> 
+   <th><strong>Description</strong></th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -39,18 +39,18 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>In Workfront Goals, an activity is a progress indicator for a goal. It can be a progress bar that you update manually, or a project that is associated with the goal. You cannot display activities in a report and you cannot access them through the Workfront API. For information about activities, see <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Get started with results and activities in Adobe Workfront Goals</a>.</td> 
   </tr> 
   <tr> 
-   <td>Actual&nbsp;Cost</td> 
-   <td> <p>For tasks and issues, this is the cost associated with the actual hours logged in relation to the Cost per hour rate of the resource assigned to the task or issue. For projects, this is a total of all Actual&nbsp;Costs from tasks and issues on the project. For information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
+   <td>Actual Cost</td> 
+   <td> <p>For tasks and issues, this is the cost associated with the actual hours logged in relation to the Cost per hour rate of the resource assigned to the task or issue. For projects, this is a total of all Actual Costs from tasks and issues on the project. For information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Actual&nbsp;Expense Cost</td> 
-   <td> <p>The sum of the Actual Amounts for all expenses logged for a project or a task.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If you create an expense for Task 1 and enter $600.00 in the Actual Amount field, the Actual Expense Cost for this task is $600.00. </p> <p>For a project, Workfront uses the following formula to calculate Actual&nbsp;Expense Cost:</p> <p><code>Project&nbsp;Actual&nbsp;Expense Cost = SUM (All Project&nbsp;Actual Expense Costs) + SUM (All&nbsp;Tasks Actual Expense Costs)</code> <br> </p> <!--
+   <td>Actual Expense Cost</td> 
+   <td> <p>The sum of the Actual Amounts for all expenses logged for a project or a task.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If you create an expense for Task 1 and enter $600.00 in the Actual Amount field, the Actual Expense Cost for this task is $600.00. </p> <p>For a project, Workfront uses the following formula to calculate Actual Expense Cost:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs)</code> <br> </p> <!--
      <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
     --> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Actual Hours</td> 
-   <td> <p>In a project, task, or issue report, Actual Hours are the sum of all hours logged on the project, task, or issue.&nbsp;</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If from the Updates tab for Task 1, you click ‘Log Time' and enter 25 hours, the Actual Hours of Task 1 = 25 hours. </p> <p>Workfront calculates Actual Hours for parent tasks or projects using the following formulas:</p> 
+   <td> <p>In a project, task, or issue report, Actual Hours are the sum of all hours logged on the project, task, or issue.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If from the Updates tab for Task 1, you click ‘Log Time' and enter 25 hours, the Actual Hours of Task 1 = 25 hours. </p> <p>Workfront calculates Actual Hours for parent tasks or projects using the following formulas:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children Actual Hours + Actual Hours on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = Actual Hours logged on the project + Actual Hours logged on standalone or children tasks in the project</code> </p> </li> 
@@ -58,11 +58,11 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Actual Labor Cost</td> 
-   <td> <p>The Actual Cost associated with the labor invested in a task or a project. </p> <p>For a task, Workfront calculates the Actual Labor Cost using the following formula:</p> <p><code>Task Actual Labor Cost = Number of Actual Hours on the task * User or Job Role Hourly Cost Rate</code> </p> <p>Note: If the task has a Cost Type of User Hourly, Workfront uses the user rate. If the task has a Cost Type of Role Hourly, Workfront uses the job role rate to calculate Actual Labor Cost. </p> <p>For a project, Workfront uses the following formula to calculate the Actual&nbsp;Labor Cost:</p> <p><code>Project Actual Labor&nbsp;Cost = SUM(All Tasks Actual Labor Cost) </code> </p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>For example, if a user logs 5 hours for a task with a User Hourly&nbsp;Cost Type and their hourly rate is $100, the Actual Labor&nbsp;Cost is $500.</p> <p> <br> </p> </td> 
+   <td> <p>The Actual Cost associated with the labor invested in a task or a project. </p> <p>For a task, Workfront calculates the Actual Labor Cost using the following formula:</p> <p><code>Task Actual Labor Cost = Number of Actual Hours on the task * User or Job Role Hourly Cost Rate</code> </p> <p>Note: If the task has a Cost Type of User Hourly, Workfront uses the user rate. If the task has a Cost Type of Role Hourly, Workfront uses the job role rate to calculate Actual Labor Cost. </p> <p>For a project, Workfront uses the following formula to calculate the Actual Labor Cost:</p> <p><code>Project Actual Labor Cost = SUM(All Tasks Actual Labor Cost) </code> </p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>For example, if a user logs 5 hours for a task with a User Hourly Cost Type and their hourly rate is $100, the Actual Labor Cost is $500.</p></td> 
   </tr> 
   <tr> 
-   <td>Actual&nbsp;Revenue </td> 
-   <td> <p>The Actual Revenue of a project or a task is the amount of money associated with the Actual Hours of the project or the task. </p> <p>For information about tracking revenue in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>. </p> </td> 
+   <td>Actual Revenue </td> 
+   <td> <p>The Actual Revenue of a project or a task is the amount of money associated with the Actual Hours of the project or the task. </p> <p>For information about tracking revenue in Workfront, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Actual Start</td> 
@@ -108,12 +108,12 @@ The following table is a list of commonly used terms in Adobe Workfront:
          how resources are budgeted for work, or 
        </MadCap:conditionalText>
       --> the amount of Planned Hours that is assigned to your resources.</li> 
-     <li> <p>The Allocation Date is the first day (Sunday) of a week in which the allocation of a Job Role to a task starts. A resource (Job Role) can have as many Allocation Dates as it has weeks during the Duration of the tasks that it is assigned to. If tasks span over multiple months, then the first day of a month can also become an Allocation Date, if it falls within the Duration of the task.&nbsp;</p> <p>For example, you can have a Job Role assigned to a task that spans over 3 weeks and has 90 Planned Hours. These hours are spread evenly during the duration of the task, which makes every day assign 6 Planned Hours to your job role:</p> <p><em> Daily Planned Hours = Total Planned Hours/ Number of Work Days during the Duration of the task </em> </p> <p>As a result, there are three Allocation Dates, one for every Sunday of every week during the Duration of the task, each with a certain number of Planned Hours associated with them.<br>If the task starts in the middle of the last week of a month and ends two weeks after the beginning of a new month, the task will have four Allocation Dates: one for every Sunday of every week during the Duration of the task, and one for the first day of the new month.</p> <p>To make the most use of this information, we recommend that you build a <!--
+     <li> <p>The Allocation Date is the first day (Sunday) of a week in which the allocation of a Job Role to a task starts. A resource (Job Role) can have as many Allocation Dates as it has weeks during the Duration of the tasks that it is assigned to. If tasks span over multiple months, then the first day of a month can also become an Allocation Date, if it falls within the Duration of the task.</p> <p>For example, you can have a Job Role assigned to a task that spans over 3 weeks and has 90 Planned Hours. These hours are spread evenly during the duration of the task, which makes every day assign 6 Planned Hours to your job role:</p> <p><em> Daily Planned Hours = Total Planned Hours/ Number of Work Days during the Duration of the task </em> </p> <p>As a result, there are three Allocation Dates, one for every Sunday of every week during the Duration of the task, each with a certain number of Planned Hours associated with them.<br>If the task starts in the middle of the last week of a month and ends two weeks after the beginning of a new month, the task will have four Allocation Dates: one for every Sunday of every week during the Duration of the task, and one for the first day of the new month.</p> <p>To make the most use of this information, we recommend that you build a <!--
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           Resource Estimates or a 
         </MadCap:conditionalText>
        --> Project (Financial Data) report and add a matrix grouping for Allocation Date, then group the results weekly, monthly, quarterly, or yearly for the most accurate data.<br>For information about building a matrix grouping, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</p> </li> 
-    </ul> <p>Warning: Financial information populates in Project (Financial&nbsp;Data) reports only when the data associated with it is less than 5 years old. For example, if a job role was allocated to a task in January 2015 and today is September 2021, a financial filed like the Allocation Date for the job role does not populate in the Project (Financial&nbsp;Data) report. </p> 
+    </ul> <p>Warning: Financial information populates in Project (Financial Data) reports only when the data associated with it is less than 5 years old. For example, if a job role was allocated to a task in January 2015 and today is September 2021, a financial filed like the Allocation Date for the job role does not populate in the Project (Financial Data) report. </p> 
     <div> 
      <p>For a Budgeted Hour report:</p> 
      <ul> 
@@ -152,7 +152,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Assigned To</td> 
-   <td> <p>In a Task or Issue report, this field displays the Owner of the task or the issue, or the Primary Assignee. You can filter or group by this field, as well.&nbsp;</p> </td> 
+   <td> <p>In a Task or Issue report, this field displays the Owner of the task or the issue, or the Primary Assignee. You can filter or group by this field, as well.</p> </td> 
   </tr> 
   <tr> 
    <td>Assignment</td> 
@@ -160,24 +160,24 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Assignments</td> 
-   <td> <p>In a Task or Issue report, this field displays a list of all entities (users, job roles, teams) that are assigned to the task or issue. You can filter by this field using the fields Assignment Users and&nbsp;Assignment Roles. You can filter by the team assigned to the task or issue using the Team field. You cannot group a report by this field.</p> <p>Note: Work items that have been placed in the Recycle Bin will continue to display in some reports that refer to the Assignment object where an OR filter modifier is used.</p> </td> 
+   <td> <p>In a Task or Issue report, this field displays a list of all entities (users, job roles, teams) that are assigned to the task or issue. You can filter by this field using the fields Assignment Users and Assignment Roles. You can filter by the team assigned to the task or issue using the Team field. You cannot group a report by this field.</p> <p>Note: Work items that have been placed in the Recycle Bin will continue to display in some reports that refer to the Assignment object where an OR filter modifier is used.</p> </td> 
   </tr> 
   <tr> 
    <td>Assignment Roles</td> 
-   <td>In a Task or Issue report, this field displays information about the job roles assigned to the tasks or issues.&nbsp;This field displays Primary&nbsp;Owners, as well as other job roles assigned to tasks or issues. </td> 
+   <td>In a Task or Issue report, this field displays information about the job roles assigned to the tasks or issues. This field displays Primary Owners, as well as other job roles assigned to tasks or issues. </td> 
   </tr> 
   <tr> 
    <td>Assignment Status</td> 
    <td> <p>In an assignment, task, or issue report, the Assignment Status displays whether the users assigned to a work item have clicked the Work On It or the Done button to accept or complete the work. The following Assignment Statuses exist:</p> 
     <ul> 
      <li><b>Requested</b>: the user has been assigned to the task or issue, but they have not clicked the Work On It button to start working on it yet.</li> 
-     <li><b>Working</b>: the user has clicked the Work On&nbsp;It button and is currently working on the item. </li> 
+     <li><b>Working</b>: the user has clicked the Work On It button and is currently working on the item. </li> 
      <li><b>Done</b>: the user has clicked the Done button and has completed their work on the item. </li> 
     </ul> <p>For more information, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md" class="MCXref xref">Work On It and Done button overview</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>Assignment Users</td> 
-   <td>In a Task or Issue report, this field displays information about the users assigned to the tasks or issues.&nbsp;This field displays Primary&nbsp;Owners, as well as other users assigned to tasks or issues. </td> 
+   <td>In a Task or Issue report, this field displays information about the users assigned to the tasks or issues. This field displays Primary Owners, as well as other users assigned to tasks or issues. </td> 
   </tr> 
   <tr> 
    <td>Attribute</td> 
@@ -208,7 +208,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Automatic Only</td> 
-   <td> <p>One of the Project Update types. This will recalculate Projected and Planned timelines when the nightly recalculation process runs.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
+   <td> <p>One of the Project Update types. This will recalculate Projected and Planned timelines when the nightly recalculation process runs.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>BAU</td> 
