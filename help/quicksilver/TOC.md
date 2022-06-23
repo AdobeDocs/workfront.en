@@ -1873,6 +1873,11 @@ feature-set: Workfront
     * [Change profile settings in Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
     * [Delete user data In Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/delete-user-data.md)
     * [Adobe Workfront Fusion FAQ](workfront-fusion/workfront-fusion-basics/faq.md)
+  * Adobe Workfront Fusion in the Adobe Admin Console {#workfront-fusion-admin-console}
+    * [Adobe Workfront Fusion in the Adobe Admin Console](workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md)
+    * [Add users to Adobe Workfront Fusion through the Adobe Admin Console](workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+    * [Delete users in Adobe Workfront Fusion through the Adobe Admin Console](workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
+    * [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
   * Connections in Adobe Workfront Fusion {#connections-in-fusion}
     * [Connections in Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
     * [About connecting Adobe Workfront Fusion to an app or service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
