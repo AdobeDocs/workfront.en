@@ -12,7 +12,7 @@ role: Admin
 # Manage a group
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Even though this might not seem that helpful because it is more of a catalog/TOC, it's the only article to link to for editing a group. Don't remove it.</p>
+Even though this might not seem that helpful because it is more of a catalog/TOC, it's the only article to link to for editing a group. Don't remove it.
 -->
 
 As a group administrator, you can manage a group that you administer from the Groups area in Setup. If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
@@ -50,20 +50,12 @@ For instructions, see [View and manage a group's memberships](../../../administr
 
 ## Manage a group's details
 
-You can view and edit the Group Details page for a group or subgroup that you manage. This page includes a description of the group, the names of the Business Leader and group administrators, and an option that allows you to make the group and all of its subgroups public or private
+You can view and edit the Group Details page for a group or subgroup that you manage. This page includes a description of the group, the names of the Business Leader and group administrators, and an option that allows you to make the group and all of its subgroups public or private. And, if your access level allows you to manage custom forms, you can attach a custom form to a group.
 
 <!--
-<span data-mc-conditions="QuicksilverOrClassic.Draft mode">, and an option that allows you to deactivate or reactivate the group</span>
--->
+"and an option that allows you to deactivate or reactivate the group"
 
-. And, if your access level allows you to manage custom forms, you can attach a custom form to a group. 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<span style="color: #ff1493;">Make this change when they add the </span>
-<b style="color: #ff1493;">Is active</b>
-<span style="color: #ff1493;"> option to the Details page!</span>
-</MadCap:conditionalText>
+Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **Is active** option to the Details page!
 -->
 
 For instructions, see [View and manage a group's details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
