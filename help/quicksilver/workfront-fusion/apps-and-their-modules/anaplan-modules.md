@@ -243,22 +243,6 @@ This action module deletes an existing record.
  </tbody> 
 </table>
 
-#### Export data {#export-data}
-
-This action module exports data from Anaplan. You can export into the following file formats:
-
-* XLS
-* XLSX
-* CSV
-
-| Connection |For instructions on creating a connection to Anaplan, see [Connect Anaplan to Workfront Fusion](#connect-anaplan-to-workfront-fusion) in this article. |
-|---|---|
-| Workspace ID |Select or map the ID of the Anaplan Workspace that contains the object you want to export. |
-| Model ID |Enter or map the ID of the Model that contains the object you want to export. |
-| Export ID |Enter or map the ID&nbsp;of the export definition that you want to use. |
-
-{style="table-layout:auto"}
-
 #### Get record {#get-record}
 
 This action module returns all accessible records of the selected type.
@@ -293,18 +277,6 @@ This action module returns all accessible records of the selected type.
   </tr> 
  </tbody> 
 </table>
-
-#### Import Data {#import-data}
-
-This action module imports data into Anaplan using the Anaplan API. For example, you can import a file that you have uploaded.
-
-| Connection |For instructions on creating a connection to Anaplan, see [Connect Anaplan to Workfront Fusion](#connect-anaplan-to-workfront-fusion) in this article. |
-|---|---|
-| Workspace ID |Select or map the ID of the Anaplan Workspace where you want to import data. |
-| Model ID |Select or map the ID of the Model where you want to import data. |
-| Import ID |Enter or map the ID&nbsp;of the import definition that you want to use. |
-
-{style="table-layout:auto"}
 
 #### Read a record  {#read-a-record}
 
