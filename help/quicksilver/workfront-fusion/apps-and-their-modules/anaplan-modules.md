@@ -386,19 +386,11 @@ This action module uploads a file to Anaplan. The file must have already been up
 </tr>
 <tr>
 <td role="rowheader">Workspace ID</td>
-<td>Select or map the ID of the Anaplan Workspace
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-where you want to upload a file
-</MadCap:conditionalText>
-.</td>
+<td>Select or map the ID of the Anaplan Workspace where you want to upload a file.</td>
 </tr>
 <tr>
 <td role="rowheader">Model ID</td>
-<td>Select or map the ID of the Model
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-where you want to upload a file
-</MadCap:conditionalText>
-.</td>
+<td>Select or map the ID of the Model where you want to upload a file.</td>
 </tr>
 <tr>
 <td role="rowheader">File ID</td>
