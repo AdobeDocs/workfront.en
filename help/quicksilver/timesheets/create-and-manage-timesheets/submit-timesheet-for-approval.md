@@ -8,7 +8,7 @@ feature: Timesheets
 
 # Submit a timesheet for approval
 
-Submitting your timesheet for approval provides&nbsp;your manager with visibility into your work hours. Approvers can verify that&nbsp;all time recorded has been allocated in the correct areas and that&nbsp;a sufficient number of hours have been recorded for the time period.
+Submitting your timesheet for approval provides your manager with visibility into your work hours. Approvers can verify that&nbsp;all time recorded has been allocated in the correct areas and that&nbsp;a sufficient number of hours have been recorded for the time period.
 
 ## Access requirements
 
@@ -28,7 +28,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to Tasks and Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to Tasks and Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Submit a timesheet for approval
 
@@ -54,16 +54,16 @@ To submit a timesheet for approval:
 1. Log time, as described in [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 1. Click **Submit for Approval** to launch the timesheet approval process.
 
-   ![](assets/submit-for-approval-button-on-timesheet-nwe-350x493.png)
+   ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   The **Save**and **Submit for Approval** buttons are replaced by the **Approve**,**Reject**,****and**Recall** buttons. The status of the timesheet changes to **Submitted**.
+   The **Submit for Approval** button is replaced by the **Approve**,**Reject**,****and**Recall** buttons. The status of the timesheet changes to **Submitted**.
 
    When your timesheet is submitted for approval, the approver sees the timesheet listed in the **Approvals**&nbsp;area on the **Home** page. The following things might occur:
 
    * If they approve it, the **Recall** button changes to **Re-Open** and the timesheet status updates to **Closed**.
    * If they reject it, **Save** and **Submit for Approval** buttons replace the **Recall** button and the timesheet status updates to **Rejected**.
 
-1. (Optional)&nbsp;Click&nbsp;**Recall** if you need to reopen the timesheet and update your time. For information, see [Recall a timesheet](#recall-a-timesheet).
+1. (Optional) Click **Recall** if you need to reopen the timesheet and update your time. For information, see the [Recall a timesheet](#recall-a-timesheet) section in this article.
 
 ### View the status of a submitted timesheet {#view-the-status-of-a-submitted-timesheet}
 

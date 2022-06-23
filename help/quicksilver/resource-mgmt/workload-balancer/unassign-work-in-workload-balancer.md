@@ -65,7 +65,7 @@ To unassign work items from users:
    * Find the item you want to unassign in a user's area, click it, and drag and drop it in the Unassigned area or in another user's area. 
    * Click the **More** icon ![](assets/more-icon-task-list.png) to the right of the name of a work item, click&nbsp;**Assign this to**, then remove the name of the entities assigned to the work item or enter another name, and click&nbsp;**Save**.
 
-     ![](assets/workload-balancer-assign-this-to-link-from-task-350x117.png)
+     ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    The item displays in the Unassigned Work area if it matches the filtering criteria for that area and it is not assigned to any other users, or it displays in the user area if it is assigned to another user.
 

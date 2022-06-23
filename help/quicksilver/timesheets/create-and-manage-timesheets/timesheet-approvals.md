@@ -8,7 +8,7 @@ feature: Timesheets
 
 # Approve a timesheet
 
-The process of approving timesheets provides&nbsp;managers with visibility into the work hours of their direct reports. Approvers can verify that&nbsp;all time recorded has been allocated in the correct areas and that&nbsp;a sufficient number of hours have been recorded for the period.
+The process of approving timesheets provides&nbsp;managers with visibility into the work hours of their direct reports. Approvers can verify that all time recorded has been allocated in the correct areas and that a sufficient number of hours have been recorded for the period.
 
 Adobe Workfront provides the ability to configure timesheet approvals to support in this area.
 
@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+*To find out what plan or license type you have, contact your Workfront administrator.
 
 ## Designate timesheet approvers
 
@@ -74,14 +74,21 @@ To approve a timesheet:
    >   
    >
 
+1. (Optional) Click the **search** icon ![](assets/search-icon.png) at the top of the timesheet list and type a keyword to locate a specific timesheet. You can search for a time frame, or an owner or approver's name. 
 1. Click the time frame for the timesheet you want to approve. The timesheet opens. 
+
+   >[!TIP]
+   >
+   >Timesheets awaiting approval have a status of [!UICONTROL Submitted].
+
+
 1. Click **Approve**
 
    Or
 
    If you want to reject the timesheet, click **Reject** in the lower-left corner of the timesheet.
 
-   If approved, the timesheet status changes to&nbsp;**Closed**.
+   If approved, the timesheet status changes to **Closed**.
 
    If rejected, the timesheet status changes to **Rejected**.
 
