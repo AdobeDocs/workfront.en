@@ -64,9 +64,21 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+*To find out what plan or license type you have, contact your Workfront administrator.
 
-## Access a parent object in the breadcrumbs
+## Multi-object breadcrumbs
+
+Some objects can belong to multiple parent objects. For example, a project can belong to multiple campaigns. In this case, all the campaigns that the project belongs to display in the breadcrumb.
+
+The multi-object listing in the breadcrumb (for example, the campaigns) displays the number of parent objects which expands into a list to display all the campaigns that the project is associated with. For more information, see [Add objects to a campaign](../../manage-work/campaigns/add-objects-to-a-campaign.md).
+
+>[!NOTE]
+>
+>The information in this article is available when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
+
+![Project with multiple campaigns in the breadcrumb](assets/project-with-multiple-campaigns-in-breadcrumb.png)
+
+## Access a parent object from the breadcrumbs
 
 For information about parent objects in Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 

@@ -43,7 +43,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Understand user allocations
 
@@ -76,11 +76,30 @@ Consider the following when locating daily, weekly or monthly allocations for ta
   >We recommend that you make a decision which time frame (daily, weekly, or monthly) you want to always use when managing user allocations and not switch between them for the same work items. Updating weekly allocations for the same user for which you previously updated daily allocations changes the daily allocation for the user.
 
 * You can update allocations for both working and non-working days. 
-* The time stamps for the Planned Start and Planned Completion Dates of the work items as well as the Schedule of the project are important when Adobe Workfront automatically calculates the daily allocation for the task. For example, a task may have a Duration of 2 days and 8 Planned Hours and it has a Planned Start time of 4:30 PM with a Project Schedule that ends at 5:00 PM. In this case, the daily allocation for one user is 0.50 hours for the first day of the task and 7.50 hours for the second day.
+* The time stamps for the Planned Start and Planned Completion Dates of the work items as well as the Schedule of the project are important when Workfront automatically calculates the daily allocation for the task.
 
-  >[!TIP]
-  >
-  >Two users in different timezones or Schedules in different timezones than those of the assigned users can cause the allocation amounts to appear differently to two users viewing the same work items.
+>[!INFO]
+>
+> For example, a task might have a Duration of 2 days and 2 Planned Hours and it has a Planned Start time of 12:00 PM on the first day of the duration with a user and a Project Schedule that ends at 5 PM. The user's capacity for the first day is 5 hours. The user's capacity for the second day is 8 hours (if the schedule starts at 9 AM).   
+>
+>Workfront calculates the allocation of the 2 hours over the 2 days of the duration using the following formula: 
+>
+>``` 
+>
+>  `Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
+>```
+>
+>  For our example, the daily allocation hours for each day are: 
+>   
+>  (2 / 13) * 5 = 0.77 allocation hours for the first day
+>
+>  (2 / 13) * 8 = 1.23 allocation hours for the second day
+>
+>  In the calculations above, 13 is the total available hours for the task: 5 + 8 = 13
+
+
+
+* Two users in different timezones or Schedules in different timezones than those of the assigned users can cause the allocation amounts to appear differently to two users viewing the same work items.
 
 * When a user has scheduled time off, the day or the portion of the day displays in a gray background. If the Workfront administrator enabled the User Time Off setting in the Setup area to take into consideration the user's time off, the allocated hours move to the next available day in the timeline. If the setting is disabled, the allocated hours remain on the day marked for time off and the user displays as overallocated. For more information, see [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 

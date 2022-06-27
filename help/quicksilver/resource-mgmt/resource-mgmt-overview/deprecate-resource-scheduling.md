@@ -16,7 +16,7 @@ We are currently in the process of deprecating all Scheduling tools from Adobe W
 >
 >The deprecation of the Scheduling tools means that as of now, we are no longer implementing new feature functionality for the current Scheduling solution and we consider and prioritize only High and Critical severity defects for a fix.
 
-This article describes the deprecation timeline and it outlines the functionality you are now using in the Scheduling tools in comparison to what is currently available in the Workload Balancer and what will become available soon. 
+This article describes a tentative timeline for this deprecation and it compares the functionality of the Scheduling tools and that of the Workload Balancer. 
 
 A more exact timeline will be announced through the Announcement Center and this article will be updated as this process continues during the following months.
 
@@ -30,17 +30,20 @@ For detailed information about how you should prepare for the transition between
 
 If you currently use Scheduling tools we recommend that you consider discontinuing them and start using the Workload Balancer. 
 
-![](assets/resource-scheduler-global-350x127.png)
+![The global Resource Scheduling area](assets/resource-scheduler-global-350x127.png)
 
 Most of the functionality previously available in the Scheduling areas is now available in the Workload Balancer. For information, see the section [Feature availability](#feature-availability) in this article.
 
-![](assets/workload-balancer-pti-350x111.png)
+![The global Workload Balancer area](assets/workload-balancer-pti-350x111.png)
 
 Over time, you can continue using the Workload Balancer for all your scheduling needs, as more capabilities become available in the near future.
 
->[!IMPORTANT]
->
->You should not use both Scheduling and the Workload Balancer at the same time to adjust user allocations to avoid confusion. If you have managed user allocations in the Scheduling tools, the adjusted daily allocations do not transfer to the Workload Balancer. Similarly, if you have adjusted user allocations in the Workload Balancer, they do not transfer to the Scheduling tools. You strongly encourage you to ensure that the daily user allocations are accurate in the Workload Balancer to prepare for the transition. 
+## Information that will not transfer to the Workload Balancer
+
+The following information will not transfer from the Scheduling tools to the Workload Balancer:
+
+* **Daily allocations for users**: You should not use both Scheduling and the Workload Balancer at the same time to adjust the same user allocations. If you have managed user allocations in the Scheduling tools, the adjusted daily allocations do not transfer to the Workload Balancer. Similarly, if you have adjusted user allocations in the Workload Balancer, they do not transfer to the Scheduling tools. We strongly encourage you to ensure that the daily allocations are accurate in the Workload Balancer to prepare for this transition.
+* **Filters**: If you have saved filters in the Scheduling areas, they do not transfer to the Workload Balancer. You must recreate the filters in the Workload Balancer.
 
 ## Deprecation timeline highlights
 
@@ -67,8 +70,8 @@ The following is a tentative timeline for the deprecation process of Resource Sc
 
 ### 2022.4 release (October 2022) (tentative)
 
-* All Scheduling areas are removed from Workfront.
-* The Workload Balancer is the only resource scheduling tool available in Workfront. 
+* All Scheduling areas are removed from Workfront
+* The Workload Balancer is the only resource scheduling tool available in Workfront
 
 ## Feature availability {#feature-availability}
 
