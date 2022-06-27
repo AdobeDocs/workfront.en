@@ -5,7 +5,7 @@ product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Manage Adobe Workfront Fusion users in your organization
 description: Manage Adobe Workfront Fusion users in your organization
-hidefromtoc: true
+feature: Workfront Fusion
 ---
 
 # Manage Adobe Workfront Fusion users in your organization

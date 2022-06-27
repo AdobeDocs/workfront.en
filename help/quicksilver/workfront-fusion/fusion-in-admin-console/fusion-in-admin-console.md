@@ -6,7 +6,7 @@ product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Adobe Workfront Fusion in the Adobe Admin Console
 description: Delete this text and replace it with your own content.
-hidefromtoc: true
+feature: Workfront Fusion
 ---
 
 # Adobe Workfront Fusion in the Adobe Admin Console
