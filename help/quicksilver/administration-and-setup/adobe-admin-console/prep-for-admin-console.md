@@ -6,7 +6,8 @@ product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
 title: Prepare to onboard your organization to the Adobe Admin Console
 description: Because Adobe Workfront is an Adobe product, you can access it through the Adobe Admin Console. This enables you to manage Workfront along with other Adobe accounts and products for your users in a central place.
-hidefromtoc: true
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Prepare to onboard your organization to the Adobe Admin Console
