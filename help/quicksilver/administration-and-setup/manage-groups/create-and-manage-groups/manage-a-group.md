@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 keywords: manage,group,edit,
 navigation-topic: create-and-manage-groups
 title: Manage a group
-description: Even though this might not seem that helpful because it is more of a catalog/TOC, it's the only article to link to for editing a group. Don't remove it.
+description: As a group administrator, you can manage a group that you administer from the Groups area in Setup. If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---
@@ -12,7 +12,7 @@ role: Admin
 # Manage a group
 
 <!--
-Even though this might not seem that helpful because it is more of a catalog/TOC, it's the only article to link to for editing a group. Don't remove it.
+Though this might not seem that helpful because it is more of a catalog/TOC, it's the only article to link to for editing a group. Don't remove it.
 -->
 
 As a group administrator, you can manage a group that you administer from the Groups area in Setup. If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
