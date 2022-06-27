@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: navigate-workfront
 title: Adobe Workfront Search
-description: This section contains the following articles - EDIT ME.
+description: Review these articles to learn how to search in Workfront.
 feature: Get Started with Workfront
 ---
 

@@ -24,7 +24,7 @@ hidefromtoc: true
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md).
 
-## View or edit user roles
+## View or edit user roles {#view}
 
 Adobe Workfront Fusion administrators can view and update user roles.
 
@@ -32,7 +32,7 @@ Adobe Workfront Fusion administrators can view and update user roles.
 1. Click **Details** in the row of the user that you want to view.
 1. (Optional) To update the role of the user, click the dropdown in the **Role** column in the row of the organization where you want to change the user's role, then select the new role.
 
-## View or edit user details
+## View or edit user details {#view2}
 
 Adobe Workfront Fusion administrators can view and update user details.
 
@@ -40,7 +40,7 @@ Adobe Workfront Fusion administrators can view and update user details.
 1. Click **Details** in the row of the user that you want to view.
 1. (Optional) To update the user's details, click **Options** in the upper-right corner of the screen, then select **Change Details**.
 
-## Delete a user
+## Delete a user {#delete}
 
 Adobe Workfront Fusion administrators can delete users.
 

@@ -653,6 +653,9 @@ feature-set: Workfront
   * Administrator FAQs {#admin-faq}
     * [Administrator FAQs](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
     * [AtTask OnPremise support policy](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
+  * Administration in the Adobe Admin Console {#admin-in-admin-console}
+    * [Workfront Administration in the Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+    * [Prepare for the Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)    
   * Tips, tricks, and troubleshooting for administration and setup {#admin-setup-tips}
     * [Tips, tricks, and troubleshooting](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [Active and deactivated objects](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
@@ -1870,6 +1873,11 @@ feature-set: Workfront
     * [Change profile settings in Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
     * [Delete user data In Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/delete-user-data.md)
     * [Adobe Workfront Fusion FAQ](workfront-fusion/workfront-fusion-basics/faq.md)
+  * Adobe Workfront Fusion in the Adobe Admin Console {#workfront-fusion-admin-console}
+    * [Adobe Workfront Fusion in the Adobe Admin Console](workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md)
+    * [Add users to Adobe Workfront Fusion through the Adobe Admin Console](workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+    * [Delete users in Adobe Workfront Fusion through the Adobe Admin Console](workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
+    * [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
   * Connections in Adobe Workfront Fusion {#connections-in-fusion}
     * [Connections in Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
     * [About connecting Adobe Workfront Fusion to an app or service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
@@ -1924,6 +1932,7 @@ feature-set: Workfront
     * [Organizations in Adobe Workfront Fusion](workfront-fusion/organizations/organizations.md)
     * [Adobe Workfront Fusion organizations and teams](workfront-fusion/organizations/organizations-and-teams.md)
     * [Add a user to an organization in Adobe Workfront Fusion](workfront-fusion/organizations/add-user-to-an-organization.md)
+    * [Manage users in Adobe Workfront Fusion](workfront-fusion/organizations/manage-fusion-users.md)
     * [Organization roles in Adobe Workfront Fusion](workfront-fusion/organizations/organization-roles.md)
   * Scenarios in Adobe Workfront Fusion {#scenarios-in-fusion}
     * [Scenarios in Adobe Workfront Fusion](workfront-fusion/scenarios/scenarios.md)
@@ -2467,6 +2476,7 @@ feature-set: Workfront
     * [Escaped characters in API Responses](wf-api/api/escaped-characters-api.md)
     * [Configure and use your organization's custom OAuth 2 applications using authorization code flow](wf-api/api/oauth-app-code-token-flow.md)
     * [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
+    * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](wf-api/api/oauth-app-pkce-flow.md)    
     * [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
     * [What's new in API version 14](wf-api/api/new-api-version-14.md)
     * [What's new in API version 13](wf-api/api/new-api-version-13.md)

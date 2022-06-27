@@ -18,10 +18,6 @@ This section contains the following articles:
 
 * [Adobe Workfront Fusion organizations and teams](../../workfront-fusion/organizations/organizations-and-teams.md) 
 * [Add a user to an organization in Adobe Workfront Fusion](../../workfront-fusion/organizations/add-user-to-an-organization.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/organizations/manage-fusion-users.md" class="MCXref xref" xrefformat="{para}">Manage Adobe Workfront Fusion users in your organization</a> </li>
-  -->
-
+* [Manage users in Adobe Workfront Fusion](../../workfront-fusion/organizations/manage-fusion-users.md)
 * [Organization roles in Adobe Workfront Fusion](../../workfront-fusion/organizations/organization-roles.md)
 

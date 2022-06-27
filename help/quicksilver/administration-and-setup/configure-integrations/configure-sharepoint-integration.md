@@ -3,16 +3,30 @@ title: Configure the SharePoint integration
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: Configure the SharePoint integration
+description: You can integrate Workfront with SharePoint Online, providing users with the ability to navigate to, link, and add SharePoint documents within Workfront. The functionality provided is similar to that of other Workfront integrations, such as Google Drive, Box, and Dropbox.
 feature: "System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents"
 role: Admin
 ---
 
-# Configure the SharePoint integration
+# Configure the Legacy SharePoint integration
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+>[!IMPORTANT]
+>
+>The new SharePoint integration was released to production with the 22.3 release (July 2022.) Although your users can still access documents linked through the legacy SharePoint integration, you must use the new SharePoint integration to link documents from SharePoint.
+>
+>1.  Disable the legacy SharePoint integration so that your users do not use it to link to new documents.
+>    
+>     For instructions, see [Disable linking to the legacy SharePoint integration](#disable-linking) in this article.
+>    
+>2.  Link documents that are currently linked through the legacy SharePoint integration through the new integration.
+>    
+>     For instructions, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+>    
+>The procedure described in this document will be deprecated with the 22.3 release, and is here for your information only.
 
 You can integrate Workfront with SharePoint Online, providing users with the ability to navigate to, link, and add SharePoint documents within Workfront. The functionality provided is similar to that of other Workfront integrations, such as Google Drive, Box, and Dropbox.
 
@@ -196,7 +210,7 @@ When you have created a site app in SharePoint, you can now copy information fro
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Site Collections Authentication</p> </td> 
-      <td> 
+      <td> <b>Important</b> Site collections are used only in the Legacy Sharepoint Integration.
        <ul> 
         <li> <p><b>If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
         <li> <p><b>If you are using a master site and subsites:</b> </p> <p><b>IMPORTANT</b>: Microsoft SharePoint no longer recommends the use of subsites.</p> <p>Enter the URL stem for the site collection that you created in the section above.</p> <p>This is the section of the URL after .com.</p> <p>Example: for the URL <code>https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> </li> 
@@ -212,7 +226,7 @@ When you have created a site app in SharePoint, you can now copy information fro
      </tr> 
      <tr> 
       <td role="rowheader">Visible Site Collections</td> 
-      <td> 
+      <td> <b>Important</b> Site collections are used only in the Legacy Sharepoint integration.
        <ul> 
         <li> <p><b> If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
         <li> <p><b>If you are using a master site and subsites:</b> </p> <p><b>IMPORTANT</b>: Microsoft SharePoint no longer recommends the use of subsites.</p> <p>For each subsite you want to add to your SharePoint integration, enter the stem of the subsite.</p> <p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p> <p><b>NOTE</b>:   <p>If you want to test your configuration only (no subsites), enter the stem of the master site. </p> <p>Example: for the URL <code> https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> <p>When you have tested your configuration as described in <a href="#complete-your-integration" class="MCXref xref">Complete your integration</a>, you must remove the master site and enter the subsites.</p> 
@@ -253,6 +267,19 @@ For instructions, see [Link an external document to Workfront](../../documents/a
 >
 >If the user who linked a folder no longer has access to the external application, Workfront can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company. To ensure continued access, a user with access to the folder must re-link the folder.
 >&nbsp;
+
+
+## Disable linking to the legacy SharePoint integration{#disable-linking}
+
+*   Click the Main Menu icon ![Main menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click Setup ![Setup](../get-started-wf-administration/assets/gear-icon-settings.png).
+    
+*   Select **Documents** in the left navigation, then select **Cloud Providers**.
+    
+*   Uncheck the **Legacy SharePoint** option.
+    
+*   Click **Save**.
+    
+
 
 ## Troubleshooting
 

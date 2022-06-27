@@ -8,7 +8,7 @@ feature: Timesheets
 
 # Create a single-use timesheet
 
-You can manually create a single-use&nbsp;timesheet if you want a timesheet that is not recurring.&nbsp;When the end date of the timesheet is reached and you need more timesheets are needed, you must create new ones.
+You can manually create a single-use timesheet if you want a timesheet that is not recurring. When the end date of the timesheet is reached and you need more timesheets are needed, you must create new ones.
 
 For information about creating a timesheet profile that generates recurring timesheets for your users without any further intervention from you (recommended), see [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
@@ -46,7 +46,7 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Create a single-use timesheet
 
@@ -80,6 +80,8 @@ You must have the following to perform the steps in this article:
    >   * [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
    >   
    >
+
+1. (Optional) Click the **search** icon ![](assets/search-icon.png) to type a keyword and search for a specific timesheet. For example, you can search for a timesheet time frame of owner name. 
 
 1. (Optional) Click the **View** ![](assets/view-icon.png) or **Grouping** ![](assets/grouping.png) icons to apply a different view or grouping or to create a new one.
 
