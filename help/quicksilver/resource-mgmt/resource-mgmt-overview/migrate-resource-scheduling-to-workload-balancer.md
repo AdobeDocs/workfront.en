@@ -17,9 +17,9 @@ We want you to experience as little work disruption as possible by helping you d
 
 ## Locate the Resource Scheduling tools
 
-You and your teams may be using some of the Resource [!UICONTROL Scheduling] tools in the following areas of Adobe Workfront:
+You and your teams may be using some of the Resource [!UICONTROL Scheduling] tools in the following areas of Workfront:
 
-* The [!UICONTROL Scheduling] section in the Resourcing area
+* The [!UICONTROL Scheduling] section in the [!UICONTROL Resourcing] area
 * The [!UICONTROL Scheduling] section of a project
 * The [!UICONTROL Schedule] section of a team
 
@@ -30,9 +30,9 @@ With this deprecation, the [!UICONTROL Workload Balancer] replaces all the  [!UI
 Take the training [Resource Management Program for the new Adobe Workfront experience](https://one.workfront.com/s/resource-management-program-nwe) (75 minutes) on Workfront One.
 
 <!--If you use Adobe Workfront Classic, take the training [Resource Manager Training Program](https://customer-sso.workfront.com/training?SAMLRequest=fVJdb9swDPwrftOT448ZqyPEAYIEAwJ0Q5B2fdjLwMh0K1SWNJFes38%2FKW22DOjyJIA8nu6OXBCMxsvVxE92jz8mJM5WRBhYO7t2lqYRwx2Gn1rh1%2F1tJ56YPcmiUBOxi738xYXnITjLs0PQ%2FSOC9zPlxgIiZZHYCwXGHEA9i2wT6bWFxP0OE5Gb%2FWVLHBxAW20fRbbddOK76ufz9jBv83YYPuYN1nU%2B76HJq1q10H6o2rq%2FiVCiCbeWGCx3oi7rMq%2BqvGzu60qWN7JpvonsAQOdRNSzUmTH0ViSSWsnpmClA9IkLYxIkpW8W32%2BlREo4RzM5Yi%2FPuODY6ecEctFQsuTurBM5qP3fyJbFJeIxetmvkTG7WbnjFa%2FspUx7mUdEBg7wWFCkX1yYQS%2BriFVdJ8PJ6j0yTsxWhbF%2BZe31WN%2FOoS4d8YjZ2s3egiaUlB4BMVnE5eotYmx7HFYXk1OSZVwsbyLT9xyv4vBoIpf3gew5F3gN%2F%2Fvkr%2F2%2FiP0T%2FfyjJe%2FAQ%3D%3D) (120 minutes) in Workfront Ascent. You must sign in to Workfront Ascent to access the course.
-<
-If you experience difficulty logging in or accessing the course, contact our Customer Support.&nbsp;For information, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 -->
+
+If you experience difficulty logging in or accessing the course, contact Customer Support. For information, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Step 2: Determine the best time to migrate {#step-2-determine-the-best-time-to-migrate}
 
@@ -40,9 +40,11 @@ Follow the steps below to determine when the best time to migrate is for you:
 
 1. Determine which features in the Resource [!UICONTROL Scheduling] tools your team uses most and make sure those features are available in the [!UICONTROL Workload Balancer]. For information about which features are currently available in the [!UICONTROL Workload Balancer], see the "Feature availability" section in the article [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
-   If the features you need are not available yet, you might want to wait to migrate (see Step 3a below).
+   If the features you need are not available yet, you might want to wait to migrate (see Step 3a in the following section in this article).
 
 1. Determine whether your team manages user allocations on assignments. Adjusting or modifying user allocations means modifying the planned hours per day for each user across the duration of a work item. By default, the system equally distributes the total Planned Hours of a work item across the entire duration of the item. For information about managing allocations in the Resource Scheduler, see the “Modify user allocations” section of the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+
+1. Any saved filters in the Scheduling area will not automatically transfer to the Workload Balancer. Make time to create any filters you might need in the Workload Balancer. For information about creating filters in the Workload Balancer, see [Manage filters in the Workload Balancer](../workload-balancer/filter-information-workload-balancer.md).
 
 <!--
 1. Using the information gathered from Steps 1 and Step 2, decide which version of Step 3 you should continue with based on the needs of your organization.
@@ -57,7 +59,7 @@ We have identified the following versions for this step, depending on your findi
 
 ### Step 3a: You or your teams use the [!UICONTROL Scheduling] tools, but do not modify user allocation
 
-If you or your teams do not modify the daily hour allocations on work assignments, then you are ready to switch from [!UICONTROL Scheduling] to the [!UICONTROL Workload Balancer].
+If you or your teams do not modify the daily hour allocations on work assignments, then you are ready to switch scheduling resources to the [!UICONTROL Workload Balancer].
 
 ![](assets/nwe-workload-balancer-global-350x125.png)
 
@@ -107,4 +109,4 @@ Consider the following when making the transition to the [!UICONTROL Workload Ba
 
 ## Need more assistance
 
-If you need additional information with this migration, contact Custom Support. For information about contacting Support, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) . 
+If you need additional information with this migration, contact Custom Support. For information about contacting Support, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md). 

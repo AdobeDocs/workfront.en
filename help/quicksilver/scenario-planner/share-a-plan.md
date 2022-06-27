@@ -9,7 +9,7 @@ feature: Workfront Scenario Planner
 
 # Share a plan in the Scenario Planner
 
-You can share a plan that you created in the Adobe Workfront Scenario Planner with other users.
+You can share a plan in the Adobe Workfront Scenario Planner with other users, so they can collaborate on the same work that you do. 
 
 >[!TIP]
 >
@@ -41,7 +41,7 @@ You must have the following:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p> Manage permissions to the plan.
+   <td> <p> Manage permissions to the plan
      <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Scenario Planner</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -51,33 +51,26 @@ You must have the following:
 
 ## Prerequisites
 
-* The users given the access to the plan must have access to the Scenario Planner area in their Access Levels, as granted by your Workfront administrator in order to receive permissions to a plan.
+* The users given permissions to the plan must have access to the Scenario Planner area in their Access Levels, as granted by your Workfront administrator, in order to receive permissions to a plan.
 
   For example, Requestors cannot view, create, or edit plans. You should keep this in mind when sharing a plan with a user who has a Requestor license. 
 
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: ensure this stays this way and they don't restrict Workers from SP as well?? OR ensure you can even SEE Requestors as an option or they are not grayed out??)
-  </MadCap:conditionalText>
+ <!--
+  NOTE: ensure this stays this way and they don't restrict Workers from SP as well?? OR ensure you can even SEE Requestors as an option or they are not grayed out??)
   -->
 
 For more information about access to the Scenario Planner for various license types, see [Grant access to Scenario Planner](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 ## Considerations about plan sharing
 
-* You can share a single plan, or you can share multiple plans, in bulk. 
+* You can share a single plan, or you can share multiple plans, in bulk.
 * You cannot view plans that you did not create or that are not shared with you.
-* You can only share a plan with other users. You cannot share plans with groups, teams, or companies. 
-* You must first save a plan before you can share it. 
+* You can only share a plan with other users. You cannot share plans with groups, teams, or companies.
+* You must first save a plan before you can share it.
 * You can share a URL to a plan with another user. If the user does not have permissions to at least view the plan, they can request access to the plan from another user when they receive the URL. For information about requesting access to a plan, see [Request access to a plan in the Scenario Planner](../scenario-planner/request-access-to-plan.md). 
-* When sharing multiple plans in bulk, they must all be plans that you created. If you select a plan that you created and a plan shared with you, the Share icon does not display on the list of plans.
 * When sharing multiple plans that have already been shared with others, the users you share with do not replace but are added to the existing users on each plan you selected.
 
 ## Share plans
-
->[!TIP]
->
->You can share the plan by clicking the avatars of users with whom the plan is shared from the plan header.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Scenarios**.
 1. Click the name of a plan to open it
@@ -85,6 +78,10 @@ For more information about access to the Scenario Planner for various license ty
    Or
 
    Select several plans to share them in bulk. 
+
+   >[!TIP]
+   >
+   >You can share a plan by clicking the avatars of users with whom the plan is shared in the upper-right corner of the plan header. 
 
 1. (Conditional) If you opened a plan, click the **More** icon ![](assets/more-icon.png) to the right of the Plan name, then click **Share**
 
@@ -120,7 +117,7 @@ For more information about access to the Scenario Planner for various license ty
    >
    >You can delete a plan only when you created it. You cannot delete plans that are shared with you.
 
-1. Click&nbsp;**Save**.
+1. Click **Save**.
 
    The plan is now shared with the users you specified.
 
@@ -204,9 +201,9 @@ The following table lists the permissions that you can grant when sharing a plan
  </tbody> 
 </table>
 
-&#42;You must have access to financial data to be able to view or manage financial information on plans, even if you have manage permissions to plans. For information about access to financial data, see [Grant access to financial data](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+*You must have access to Financial Data to be able to view or manage financial information on plans, even if you have manage permissions to plans. For information about access to financial data, see [Grant access to financial data](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-&#42;&#42; You must have access to create and permissions to manage projects to be able to publish scenarios.
+**You must have access to create and permissions to manage projects to be able to publish scenarios.
 
 For information about project access level, see [Grant access to projects](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
