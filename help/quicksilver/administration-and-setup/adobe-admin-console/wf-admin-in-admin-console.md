@@ -6,7 +6,8 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administration-and-setup
 title: Workfront administration in the Adobe Admin Console
 description: Prepare to onboard your organization to the Adobe Admin Console
-hidefromtoc: true
+feature: System Setup and Administration
+role: Admin
 ---
 
 # Workfront administration in the Adobe Admin Console

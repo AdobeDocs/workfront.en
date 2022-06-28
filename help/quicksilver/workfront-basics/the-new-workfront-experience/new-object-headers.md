@@ -9,7 +9,7 @@ feature: Get Started with Workfront
 # New object headers
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I think we should keep this article even after NWE will become standard but rename it to something like "Edit information in the object headers", or some other "overview"-type of article) </p>
+(NOTE: I think we should keep this article even after NWE will become standard but rename it to something like "Edit information in the object headers", or some other "overview"-type of article) </p>
 -->
 
 You can view information at a glance about objects in Adobe Workfront when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
@@ -70,6 +70,10 @@ The following headers are available in Home:
 
 * Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
 * Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.
+
+## Customizable headers
+
+Your Workfront  or group administrator  can customize the header of projects by using a layout template. This article describes the default headers for all objects, including projects. For information about customizing information on the header of an object, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). 
 
 ## Project header overview {#project-header-overview}
 

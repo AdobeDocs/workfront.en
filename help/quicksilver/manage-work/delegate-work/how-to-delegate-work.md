@@ -204,6 +204,6 @@ If a task or an issue is delegated and the [!UICONTROL Delegations] subtab is em
 
     >[!TIP]
     >
-    >    If the delegation is set to start at a date after today's date, the start date of the delegation also displays in the [!UICONTROL Work List]. The delegated items display in the grouping you select for the Work List, according to the type of the grouping. For example, if you group by [!UICONTROL Planned Completion Date], the delegated items display in the grouping that matches their planned completion dates.
+    >    If the delegation is set to start at a date after today's date, the start date of the delegation also displays in the [!UICONTROL Work List]. The delegated items display in the grouping you select for the [!UICONTROL Work List], according to the type of the grouping. For example, if you group by [!UICONTROL Planned Completion Date], the delegated items display in the grouping that matches their planned completion dates.
 
 
