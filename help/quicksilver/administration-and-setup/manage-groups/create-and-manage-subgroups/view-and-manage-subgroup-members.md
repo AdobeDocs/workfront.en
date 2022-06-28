@@ -58,7 +58,7 @@ You must have the following to perform the steps in this article:
 
      For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) or [Edit user profiles in bulk](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
    
-   * Select any number of members in the list, then click Update ![](assets/comment-icon.png) t o add a comment to their user profiles.
+   * Select any number of members in the list, then click Update ![](assets/comment-icon.png) to add a comment to their user profiles.
 
      The user or users receive an in-app notification as well as an email notification with your comment. The comment shows in the Updates area in the user's profile.
    

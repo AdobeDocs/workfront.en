@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 keywords: manage,subgroup,edit
 navigation-topic: create-and-manage-subgroups
 title: Manage a subgroup
-description: As an group administrator of a subgroup, you can create, move, view, edit, copy, rename, export, and delete the subgroup.
+description: As an group administrator of a subgroup, you can create, move, view, edit, copy, rename, export, and delete the subgroup. You can also make a subgroup a top-level group by removing it from its parent group.
 feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---
@@ -118,9 +118,10 @@ You must have the following to perform the steps in this article:
 >
 >In Workfront, this Marketing department is represented by a group called Marketing, with 3 subgroups called Field Marketing, Product Marketing, and Digital Marketing. To list the projects that belong to the entire Marketing department (all 4 groups), you could create a Filter for the Projects area with the following Filter Rule:
 >
->```>
+>```
 >Group: Top Parent ID > Equal > Marketing
->```>
+>```
+>
 >You can also use the Top Parent Name field to identify data associated with a top-level group, but only in Views, not in Filters or Groupings.
 
 ## Remove a subgroup from its parent group and make it a top-level group
@@ -151,7 +152,9 @@ Consider the following when you copy a subgroup.
 
 * If a subgroup you copy has its own subgroups, they are included in the copy and their names are formatted as follows:
 
-  *Original subgroup name* (Copy)
+  ```
+  Original subgroup name (Copy)
+  ```
 
 * Any subgroup that belongs to a public group is also public, so any user with edit-user access, in or out of the group, can add users to the subgroup.
 

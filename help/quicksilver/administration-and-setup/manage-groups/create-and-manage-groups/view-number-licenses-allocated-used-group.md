@@ -1,11 +1,11 @@
 ---
-title: View the number of licenses allocated and used in a group in the new Adobe Workfront experience
-description: View the number of licenses allocated and used in a group in the new Adobe Workfront experience
+title: View the number of licenses allocated and used in a group
+description: As an Adobe Workfront administrator, you can view counts of the individual types of licenses currently used in your group and its subgroups. This is useful when you need to assess whether to redistribute licenses.
 draft: Probably
 feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---
-# View the number of licenses allocated and used in a group in the new Adobe Workfront experience
+# View the number of licenses allocated and used in a group
 
 As an Adobe Workfront administrator, you can view counts of the individual types of licenses currently used in your group and its subgroups. This is useful when you need to assess whether to redistribute licenses.
 
@@ -47,7 +47,7 @@ You must have the following to perform the steps in this article:
 
    If you are viewing a top-level group and the Workfront administrator defined a maximum number of each license type for the group, these numbers are also displayed. For example, in the group below, a maximum of 10 users can have a Plan license and a 15 can have a Work license:
 
-   ![](assets/licenses-used-allocated-350x210.png)
+   ![](assets/licenses-used-allocated.png)
 
    For information about how a Workfront administrator defines a maximum number of allocated licenses for a group, see the section [Set the maximum license count for a Home Group](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) in the article [Manage available licenses in your system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
@@ -55,17 +55,16 @@ You must have the following to perform the steps in this article:
    >
    >If the group you are looking at is a subgroup, you can view only the numbers of licenses being used, not the maximum number of licenses allocated for the group. This is because Workfront administrators do not define a maximum license count for a subgroup.
    >
-   >
-   >![](assets/subgroup-used-licenses-only-350x210.png)   >
+   >![](assets/subgroup-used-licenses-only.png)
    >
 
 1. For separate counts of each type of license currently used in the group (including Review and Request), click the text area directly below **Licenses in use:**
 
-   ![](assets/click-text-to-see-more-350x208.png)
+   ![](assets/click-text-to-see-more.png)
 
-   The box that displays provides the same information for all 4 Workfront license types: Plan, Work, Review, and Request. At the bottom of the box, you can see the total number of licenses being used by members of this group or one of its subgroups:
+   The box that displays provides the same information for all four Workfront license types: Plan, Work, Review, and Request. At the bottom of the box, you can see the total number of licenses being used by members of this group or one of its subgroups:
 
-   ![](assets/more-license-info-350x269.png)
+   ![](assets/more-license-info.png)
 
    For Review and Request licenses, the Max column always displays Unlimited.
 
