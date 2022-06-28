@@ -4,7 +4,7 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: groups-overview
 title: Subgroups overview
-description: You can create up to 14 levels of subgroups under one group. On any one of these levels, you can create an unlimited number of parallel subgroups. For instructions, see Create a subgroup.
+description: You can create up to 14 levels of subgroups under one group. On any one of these levels, you can create an unlimited number of parallel subgroups.
 feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---
@@ -44,7 +44,7 @@ Any group you add to an existing group automatically becomes a subgroup and is n
 ## Group administrators for subgroups
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
+Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
 You can assign subgroup members as group administrators to the subgroup when you create it or edit it. For instructions, see [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) in the article [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).

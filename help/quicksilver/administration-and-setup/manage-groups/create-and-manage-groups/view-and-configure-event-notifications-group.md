@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 keywords: view,group,event,notifications,configure,enable,disable
 navigation-topic: create-and-manage-groups
 title: View and configure event notifications for a group
-description: As an group administrator, you can view the event notifications that are activated for a group you manage.
+description: As an group administrator, you can view the event notifications that are activated for a group you manage. Also, if a Adobe Workfront administrator unlocks an event notification, you can configure it for a top-level group that you manage. Configuration of an event notification consists of activating or deactivating it.
 feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---
@@ -46,7 +46,7 @@ You must have the following to perform the steps in this article:
 
 ## View and configure a group's event notifications
 
-1. (Conditional and optional) If you are a Workfront administrator and you are already on the Email Notifications page (Setup > Email > Notifications), you can do the following and then skip to step 6: Delete **System Event Notifications** in the box above the list , start typing the group's name in the box, then click it when it appears.
+1. (Conditional and optional) If you are a Workfront administrator and you are already on the Email Notifications page (Setup > Email > Notifications), you can do the following and then skip to step 6: Delete **System Event Notifications** in the box above the list, start typing the group's name in the box, then click it when it appears.
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
@@ -60,7 +60,7 @@ You must have the following to perform the steps in this article:
    
    >[!INFO]
    >
-   >**Example:** You could configure the top two Marketing group event notifications shown below that have been unlocked for groups.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/configure-group-event-notifications-350x193.png"> 
+   >**Example:** You could configure the top two Marketing group event notifications shown below that have been unlocked for groups.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/configure-group-event-notifications.png"> 
    >* If a button in the <strong>Active</strong> column is grey and dimmed <img src="assets/email-notification-disabled-locked.png">, the event notification is deactivated for all users and group administrators can't activate it or edit its email subject line
    >* If a button in the <strong>Active</strong> column is grey and not dimmed <img src="assets/email-notification-disabled-unlocked.png">, the event notification is <strong>deactivated for all users and</strong> group administrators can activate it for their groups.
    >* If a button in the <strong>Active</strong> column is blue and dimmed <img src="assets/email-notification-enabled-locked.png">, the event notification is activated for all users and group administrators can't deactivate it or edit its email subject line for their groups.

@@ -103,13 +103,11 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Activate a user in Workfront</td> 
-      <td>Select one or more inactive users, then click <strong>Activate user</strong>, to activate them in Workfront. <!--
-        <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[I don't see this yet in Storm or mocks]</span>
-       --></td> 
+      <td>Select one or more inactive users, then click <strong>Activate user</strong> to activate them in Workfront. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Deactivate a user in Workfront</td> 
-      <td>Select one or more active users, then click <strong>Deactivate user</strong><img src="assets/deactivate-user.png">, to deactivate them in Workfront.</td> 
+      <td>Select one or more active users, then click <strong>Deactivate user</strong><img src="assets/deactivate-user.png"> to deactivate them in Workfront.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Sort by column</td> 

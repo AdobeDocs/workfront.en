@@ -68,7 +68,7 @@ You must have the following to perform the steps in this article:
 
 1. (Conditional) If the status is an issue status, make sure that **Master List** is selected.
 
-   ![](assets/screenshot-2016-05-10-17.29.08-350x185.png)
+   ![](assets/master-list.png)
 
    For information about customizing the other issue types (Bug Report, Change Order, Issue, Request), see [Customize default issue types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
@@ -78,7 +78,7 @@ You must have the following to perform the steps in this article:
 
    To edit an existing status, mouse over the status you want to edit, then click the **Edit** option that displays to the far right.
 
-   ![](assets/group-statuses-edit-350x201.jpg)
+   ![](assets/group-statuses-edit.jpg)
 
    >[!NOTE]
    >You can edit a status for your group only if:
@@ -112,7 +112,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Color</td> 
-      <td> <p>Customize the color of the status by clicking the color field and selecting a color from the swatch panel. You can also enter a hex number in the field.</p> <p>The status color displays in the upper-right corner of Workfront when a user views the object.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/status-color-350x211.png" style="width: 350;height: 211;"> </p> </td> 
+      <td> <p>Customize the color of the status by clicking the color field and selecting a color from the swatch panel. You can also enter a hex number in the field.</p> <p>The status color displays in the upper-right corner of Workfront when a user views the object.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/status-color.png"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Equates With</td> 
@@ -129,18 +129,16 @@ You must have the following to perform the steps in this article:
      <tr> 
       <td role="rowheader">Lock for all groups</td> 
       <td> 
-       <div data-mc-conditions="SnippetConditions-wf-groups.groups"> 
        <p>If you leave this option enabled, the users in your group and its subgroups can see and use the status and group administrators cannot customize it for lower subgroups.</p> 
        <p>When this option is disabled, group administrators can customize the status for lower subgroups.</p> 
        <p>For more information about locking statuses, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Locked and unlocked group statuses</a>.</p> 
-       </div>
-       <p><b>NOTE</b>:  <p data-mc-conditions="SnippetConditions-wf-groups.groups">You can use both locked and unlocked statuses in a group approval process. If you create a group approval process with an unlocked group status, users can attach the approval process to any project, task, or issue that is associated with the group.</p> </p>
+       <p><b>NOTE</b>: You can use both locked and unlocked statuses in a group approval process. If you create a group approval process with an unlocked group status, users can attach the approval process to any project, task, or issue that is associated with the group.</p> </p>
        </td> 
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader"><span class="preview">Users can select this status only if required fields on the object are completed</span> </td> 
        <td> <p><span class="preview">(Applies only if you selected Tasks in Step 3) Assures that users can select this status for an object only if all required fields on the object are completed.</span> </p>
-       <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This story is on the back burner</p>
+       <!-- This story is on the back burner -->
        </td> 
       </tr>
     </tbody> 
@@ -162,15 +160,15 @@ If you are a group administrator (or a Workfront administrator), you can create 
 1. In the box in the upper-right corner, delete **System Statuses**, begin typing the name of a group where you want to hide the status, then click the name when it appears.
 1. Hover over the status you want to hide from the group, then click **Edit** when it appears.
 
-   ![](assets/hover-click-edit-350x148.jpg)
+   ![](assets/hover-click-edit.jpg)
 
 1. Enable the **Hide Status** option that appears.
 
-   ![](assets/hide-group-status-350x114.png)
+   ![](assets/hide-group-status.png)
 
 1. Click **Save**.
 
    The status is dimmed and no longer visible to all users in that group.
 
-1. Repeat steps 5 through Step 8 to hide the custom status from any other groups who don't need it.
+1. Repeat steps 3 through Step 5 to hide the custom status from any other groups who don't need it.
 

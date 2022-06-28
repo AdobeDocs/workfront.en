@@ -30,14 +30,14 @@ For information about moving a group, see [Move a group](../../../administration
   </tr> 
   <tr> 
    <td role="rowheader">When a status in both groups has the same key but different attributes</td> 
-   <td> <p>Suppose that 2 different subgroups inherit the same unlocked status from a parent group. The group administrators of the 2 groups then customize the status for their groups in different ways.</p> <p>Later, one of the 2 groups is moved under the other one. Now they both have a status with the same key, but it has different attributes in the two groups.</p> <p>In this case, one of the following is true:</p> 
+   <td> <p>Suppose that two different subgroups inherit the same unlocked status from a parent group. The group administrators of the 2 groups then customize the status for their groups in different ways.</p> <p>Later, one of the two groups is moved under the other one. Now they both have a status with the same key, but it has different attributes in the two groups.</p> <p>In this case, one of the following is true:</p> 
     <ul> 
      <li>If the status in the new parent group is unlocked, the status in the moved group retains its attributes, unaffected by the move.</li> 
      <li>If the status in the new parent group is locked, the attributes of the status in the parent group override those of the status in the moved group.</li> 
     </ul> <p>For information about status keys, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">When a moved group has statuses inherited from its previous parent group </td> 
+   <td>When a moved group has statuses inherited from its previous parent group </td> 
    <td> <p>All custom statuses inherited from the previous parent group come with the moved group and become its own custom statuses. They are no longer connected with the previous parent group.</p> 
     <ul> 
      <li>If the previous parent group edits a locked custom status after the move, the changes do not affect the moved subgroup's status.</li> 
@@ -63,13 +63,16 @@ When you delete a group or subgroup, you reassign the information associated wit
 
 If one of the deleted group's statuses was also being used by the destination group (the status in both groups has the same key), and the destination group customized the status in different ways, the settings of the destination group's version override the settings of the moved group's version.
 
-**Example:** The group administrator of Group A renames an unlocked system-level status for her group. The group administrator of a Group B also renames that status for his group. Though the status has different names in the two groups, it has the same key.
-
-Later, Group A is deleted and all of its information is reassigned to Group B.
-
-* The name of Group B version of the status overrides the name of the Group A version.
-* If the status was applied to an object by someone in Group A before that group was deleted, the status name on the object updates to the name for the status used by Group B.
-
-For information about the key for a status, see the table in this article under [Create or edit a custom status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) [Create or edit a status for a group](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create).
-
-For information about deleting a group, see [Delete a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
+>[!INFO]
+>
+>**Example:** 
+>The group administrator of Group A renames an unlocked system-level status for her group. The group administrator of a Group B also renames that status for his group. Though the status has different names in the two groups, it has the same key.
+>
+>Later, Group A is deleted and all of its information is reassigned to Group B.
+>
+>* The name of Group B version of the status overrides the name of the Group A version.
+>* If the status was applied to an object by someone in Group A before that group was deleted, the status name on the object updates to the name for the status used by Group B.
+>
+>For information about the key for a status, see the table in this article under [Create or edit a custom status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) [Create or edit a status for a group](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create).
+>
+>For information about deleting a group, see [Delete a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
