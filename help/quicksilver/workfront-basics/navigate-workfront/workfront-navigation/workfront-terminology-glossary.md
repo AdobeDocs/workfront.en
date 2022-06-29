@@ -58,7 +58,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Actual Labor Cost</td> 
-   <td> <p>The Actual Cost associated with the labor invested in a task or a project. </p> <p>For a task, Workfront calculates the Actual Labor Cost using the following formula:</p> <p><code>Task Actual Labor Cost = Number of Actual Hours on the task * User or Job Role Hourly Cost Rate</code> </p> <p>Note: If the task has a Cost Type of User Hourly, Workfront uses the user rate. If the task has a Cost Type of Role Hourly, Workfront uses the job role rate to calculate Actual Labor Cost. </p> <p>For a project, Workfront uses the following formula to calculate the Actual Labor Cost:</p> <p><code>Project Actual Labor Cost = SUM(All Tasks Actual Labor Cost) </code> </p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>For example, if a user logs 5 hours for a task with a User Hourly Cost Type and their hourly rate is $100, the Actual Labor Cost is $500.</p></td> 
+   <td> <p>The Actual Cost associated with the labor invested in a task or a project. </p> <p>For a task, Workfront calculates the Actual Labor Cost using the following formula:</p> <p><code>Task Actual Labor Cost = Number of Actual Hours on the task * User or Job Role Hourly Cost Rate</code> </p> <p>If the task has a Cost Type of User Hourly, Workfront uses the user rate. If the task has a Cost Type of Role Hourly, Workfront uses the job role rate to calculate Actual Labor Cost. </p> <p>For a project, Workfront uses the following formula to calculate the Actual Labor Cost:</p> <p><code>Project Actual Labor Cost = SUM(All Tasks Actual Labor Cost) </code> </p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>For example, if a user logs 5 hours for a task with a User Hourly Cost Type and their hourly rate is $100, the Actual Labor Cost is $500.</p></td> 
   </tr> 
   <tr> 
    <td>Actual Revenue </td> 
@@ -113,7 +113,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
           Resource Estimates or a 
         </MadCap:conditionalText>
        --> Project (Financial Data) report and add a matrix grouping for Allocation Date, then group the results weekly, monthly, quarterly, or yearly for the most accurate data.<br>For information about building a matrix grouping, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</p> </li> 
-    </ul> <p>Warning: Financial information populates in Project (Financial Data) reports only when the data associated with it is less than 5 years old. For example, if a job role was allocated to a task in January 2015 and today is September 2021, a financial filed like the Allocation Date for the job role does not populate in the Project (Financial Data) report. </p> 
+    </ul> <p>Financial information populates in Project (Financial Data) reports only when the data associated with it is less than 5 years old. For example, if a job role was allocated to a task in January 2015 and today is September 2021, a financial filed like the Allocation Date for the job role does not populate in the Project (Financial Data) report. </p> 
     <div> 
      <p>For a Budgeted Hour report:</p> 
      <ul> 
@@ -160,7 +160,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Assignments</td> 
-   <td> <p>In a Task or Issue report, this field displays a list of all entities (users, job roles, teams) that are assigned to the task or issue. You can filter by this field using the fields Assignment Users and Assignment Roles. You can filter by the team assigned to the task or issue using the Team field. You cannot group a report by this field.</p> <p>Note: Work items that have been placed in the Recycle Bin will continue to display in some reports that refer to the Assignment object where an OR filter modifier is used.</p> </td> 
+   <td> <p>In a Task or Issue report, this field displays a list of all entities (users, job roles, teams) that are assigned to the task or issue. You can filter by this field using the fields Assignment Users and Assignment Roles. You can filter by the team assigned to the task or issue using the Team field. You cannot group a report by this field.</p> <p>Work items that have been placed in the Recycle Bin will continue to display in some reports that refer to the Assignment object where an OR filter modifier is used.</p> </td> 
   </tr> 
   <tr> 
    <td>Assignment Roles</td> 
@@ -250,13 +250,23 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Budgeted Completion Date</td> 
-   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <!--
+   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p>
+   <p> This field is still visible in project and tasks reports and lists.</p>  <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">This is a deprecated field that shows the date when the budgeting of resources ends, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner. The field is available in project and task reports.&nbsp;</p>
     --> </td> 
   </tr> 
   <tr> 
    <td>Budgeted Cost</td> 
-   <td> <p>This is the cost associated with budgeting resources for a project. </p> <p>The Budgeted Cost for the project is calculated using the following formula:<br></p> <p><code>Budgeted Cost =&nbsp;Budgeted Expense Cost + Budgeted Labor Cost + Fixed Cost of the project</code> </p> <p>For more information about calculating Budgeted Cost and to understand various names for this concept in Workfront, see the article <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a>. </p> <!--
+   <td> <p>This is the cost associated with budgeting resources for a project. </p> 
+   <p> The field displays in the following areas:</p>
+   <ul>
+   <li>Budgeted Cost: in the Business Case Summary panel.
+   <li>Cost: in the Utilization areas when viewing information by Cost.
+   <li>Project Budgeted Cost: in lists and reports
+   </li>
+   </ul>
+
+   <p>The Budgeted Cost or the Project Budgeted Cost for the project is calculated using the following formula:<br></p> <p><code>Budgeted Cost = Budgeted Expense Cost + Budgeted Labor Cost + Fixed Cost of the project</code> </p> <p>For more information about calculating Budgeted Cost and to understand various names for this concept in Workfront, see the article <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a>. </p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Budgeted Labor Cost in the calculation above may refer to either of the following fields:</p>
     --> 
     <ul> 
@@ -315,14 +325,14 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Budgeted Hours</td> 
-   <td> <p>These are the hours budgeted for resources for the work they need to complete on projects. This field refers to the Hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner) for the project or for the project resources.</p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>. </p> 
-    <ul> 
-     <li> <!--
+   <td> <p>The hours budgeted for resources for the work they need to complete on projects. This field refers to the Hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner) for the project or for the project resources.</p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>. </p> 
+    <!--<ul> 
+     <li> 
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Hours that were formerly budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)</p>
       --> <!--
        <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-      --> </li> 
-    </ul> <p>For information about budgeting Users in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> 
+       </li> 
+    </ul>--> <p>For information about budgeting Users in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> 
     <div> 
      <p>The hours budgeted in the Resource Budgeting area of the Business Case or the Resource Planner display in the following areas of Workfront and under the following names:</p> 
      <table style="table-layout:auto"> 
@@ -330,8 +340,8 @@ The following table is a list of commonly used terms in Adobe Workfront:
       <col> 
       <tbody> 
        <tr> 
-        <td>Budgeted Hours display name</td> 
-        <td>Areas of Workfront</td> 
+        <td><strong>Budgeted Hours display name</strong></td> 
+        <td><strong>Areas of Workfront</strong></td> 
        </tr> 
        <tr> 
         <td>Hours</td> 
@@ -347,11 +357,24 @@ The following table is a list of commonly used terms in Adobe Workfront:
        </tr> 
        <tr> 
         <td>Bud. Hours</td> 
-        <td> <p>Budgeted Hour report</p> <p>For more information about creating a report, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </td> 
+        <td> <p>Budgeted Hour report</p><p>The Budgeted Hour object in the Budgeted Hour report refers to information related to a deprecated resource management tool. Only the "Bud. Hours" field in this report refers to the hours budgeted in the Resource Planner or the Resource Budgeting area of the project's Business Case. </p> <p>For more information about creating a report, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </td> 
+       </tr> 
+       <tr> 
+        <td>Resource Planner Budgeted Hours </td> 
+        <td> <p>Found in the following reports:</p>
+        <ul>
+        <li>Project report
+        <li>Project (Financial Data) report
+        <li>Task report
+        <li>Issue report
+        <li>Budgeted Hour report</li>
+        </ul>
+         <p>For more information about creating a report, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </td> 
        </tr> 
       </tbody> 
      </table> 
-    </div> <p>Note:  Any other mention of Budgeted Hours in Adobe Workfront refers to hours budgeted using deprecated features that have been removed from Workfront . These are view-only fields and do not update with current information when you use current resource budgeting tools. </p> <!--
+    </div> <p>Any other mention of Budgeted Hours in Adobe Workfront refers to hours budgeted using deprecated features that have been removed from Workfront . These are view-only fields and do not update with current information when you use current resource budgeting tools. </p>
+     <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can locate the Budgeted Hours from theResource Planner in the areas and reports listed below. </p>
     --> 
     <ul> <!--
@@ -391,11 +414,29 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Budgeted Labor Cost</td> 
-   <td> <p>This is the cost associated with the hours that you, as the Resource Manager, budget for your resources for the work they need to complete on projects. </p> <p>The Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Budgeted Labor Cost = SUM(Job Role Cost per Hour * Budgeted Hours per Job Role)</code> </p> <p>This field  may refer to the following:</p> 
+   <td> <p>This is the cost associated with the hours that you, as the Resource Manager, budget for your job roles for the work they need to complete on projects. </p> <p>The Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Budgeted Labor Cost = SUM(Job Role Cost per Hour * Budgeted Hours per Job Role)</code> </p> <p>This field  may refer to the following:</p> 
     <ul> 
-     <li> <p>Labor costs displayed in the Resource Budgeting area of the Business Case or in the Resource Planner that are associated with the cost of job roles on a project. For information about calculating the Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>&nbsp;.&nbsp;</p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Labor costs displayed in the Resource Budgeted area of the Business Case that reflect the People Costs estimated in an initiative linked to the project from the Scenario Planner when you use the Scenario Planner to budget your project resources. For information about initiatives, see <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Scenario Planner</a>. </p> <p>Note: The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> </li> 
-     <li> <!--
+     <li> <p>Labor costs displayed in the Resource Budgeting area of the Business Case or in the Resource Planner that are associated with the cost of job roles on a project. For information about calculating the Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a></p> </li> 
+     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Labor costs displayed in the Resource Budgeting area of the Business Case that reflect the People Costs estimated in an initiative linked to the project from the Scenario Planner when you use the Scenario Planner to budget your project resources. For information about initiatives, see <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Scenario Planner</a>. </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> </li> 
+     <p>It displays in the following areas of  under the following names:</p>
+   <ul>
+   <li><strong>Budgeted Labor Cost</strong>: in the Resource Budgeting area of the Business Case.
+   <li><strong>Budgeted Cost</strong>: in the Utilization report Cost view
+   <p>For more information, see <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">View resource utilization information </a>.</p>
+   <li><strong>BDG</strong>: in the Resource Planner Project or Role views, when viewing by Cost
+   <li><strong>Budgeted Labor Cost</strong>: in the following reports: 
+   <ul>
+    <li>Project report
+    <li>Project (Financial Data) report
+    <li>Task report
+    <li>Issue report
+    <li>Budgeted Hour report</li> 
+    </ul>
+    </li> 
+    </ul>
+    </li> 
+    </ul>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner). This was available only in Adobe Workfront Classic. </p>
       --> <!--
        <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
@@ -439,10 +480,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
     </ul> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about calculating the Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>&nbsp;.&nbsp;</p>
     --> </td> 
-  </tr> 
-  <tr> 
+   </tr> 
+   <tr> 
    <td>Budgeted Start Date</td> 
-   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.&nbsp;</p> <p>Important: These areas have been removed from&nbsp;Workfront. </p> <p>The field is still visible in project and task reports.&nbsp;</p> </td> 
+   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> <!--<p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.&nbsp;</p> -->  <p>These areas have been removed from Workfront. </p> <p>The field is still visible in project and task reports and lists.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Burndown Chart</td> 
@@ -451,6 +492,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
   <tr data-mc-conditions=""> 
    <td>Business Case</td> 
    <td> <p>A tool used to evaluate whether a project should be moved forward from the Idea status to the Planning status. In other words, a business case helps the organization decide whether it is worthwhile to launch and complete the project or not, especially when comparing projects with others in a portfolio.</p> <p>For more information, see <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project </a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Business Case Budgeted Hours</td> 
+   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated.</p> <p>This field is still visible in project and task lists and reports. </td> 
   </tr> 
   <tr> 
    <td>Calculated Assignment</td> 
@@ -783,7 +828,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc,QuicksilverOrClassic.Quicksilver"> 
    <td>Duration per Occurrence</td> 
-   <td> <p>This displays in the Task&nbsp;Details and the Edit Task boxes of a parent of recurring tasks. It displays the duration of each recurring task. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p>Note: <span>Durations modified in individual recurring tasks do not display the value indicated in this field.</span> </p> </td> 
+   <td> <p>This displays in the Task&nbsp;Details and the Edit Task boxes of a parent of recurring tasks. It displays the duration of each recurring task. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p> <span>Durations modified in individual recurring tasks do not display the value indicated in this field.</span> </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Duration Type</td> 
@@ -922,7 +967,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td><span>Goal Hierarchy</span> </td> 
    <td> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays in both QS and classic)</p>
-    --> <p>In Goal and Project reports, this is a collection field that displays the goals in the hierarchy that a strategic goal belongs to when it aligns to other goals. The goals are separated by a ▸ delimiter. </p> <p>Only the parents of the goal and the goal display in this field. Children goals do not display. </p> <p>For information about aligning goals in Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_alignment%2Fgoal-alignment-overview.htm&amp;_LANG=en" target="_blank">Goal alignment overview in Workfront Goals</a>. </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. (NOTE: Link is hard coded to work both in QS and classic)</p> </td> 
+    --> <p>In Goal and Project reports, this is a collection field that displays the goals in the hierarchy that a strategic goal belongs to when it aligns to other goals. The goals are separated by a ▸ delimiter. </p> <p>Only the parents of the goal and the goal display in this field. Children goals do not display. </p> <p>For information about aligning goals in Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_alignment%2Fgoal-alignment-overview.htm&amp;_LANG=en" target="_blank">Goal alignment overview in Workfront Goals</a>. </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. <!--(NOTE: Link is hard coded to work both in QS and classic)--></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Goal Success Score</td> 
@@ -932,7 +977,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td><span>Goals</span> </td> 
    <td> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays in both QS and classic)</p>
-    --> <p><span>In a Project report, this is a collection field that displays all the goals that are associated with a project. The goals are separated by commas.</span> </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. (NOTE: Link is hard coded to work both in QS and classic)</p> </td> 
+    --> <p><span>In a Project report, this is a collection field that displays all the goals that are associated with a project. The goals are separated by commas.</span> </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. <!--(NOTE: Link is hard coded to work both in QS and classic)--></p> </td> 
   </tr> 
   <tr> 
    <td>Global Interface Preferences</td> 
@@ -1016,7 +1061,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
     --> </td> 
    <td> <p>In goal reports, this displays a "True/ False"&nbsp;value for each strategic goal to indicate whether your organization is assigned to the goal as its owner. </p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;link in the second snippet below is hard-coded for Goals)</p>
-    --> <p>This requires an additional license. For information about Workfront Goals, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>. </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. (NOTE: Link is hard coded to work both in QS and classic)</p> </td> 
+    --> <p>This requires an additional license. For information about Workfront Goals, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>. </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. <!--(NOTE: Link is hard coded to work both in QS and classic)--></p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Issue</td> 
@@ -1099,7 +1144,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Last Note</td> 
    <td> <p>This field displays the update last entered on an object by any user. This is the most recent activity or interaction on an object.</p> <p>The Last Note column is empty if the text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.</p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Follow up and see if this is fixed after New Reporting releases.) </p>
-    --> <p>Note: When this field is added to a Task report, any updates left on child objects—such as issues, subtasks, documents, etc.—of the task do not display in this column.</p> </td> 
+    --> <p>When this field is added to a Task report, any updates left on child objects—such as issues, subtasks, documents, etc.—of the task do not display in this column.</p> </td> 
   </tr> 
   <tr> 
    <td>Last Viewed By</td> 
@@ -1121,18 +1166,17 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Legacy Budgeted Cost</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </p> <p>See <i>Budgeted Cost</i>. </p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <!--<tr data-mc-conditions=""> 
    <td>Legacy Budgeted Hours</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </p> <p>See <i>Budgeted Hours</i>. </p> <p><!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         This field shows the number of hours budgeted for the project in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner. 
        <br>If there&nbsp;are multiple job roles, this is a summary of the budgeted hours for all job roles. The Legacy Budgeted Hours are calculated after you have used the "Set budget to schedule" feature, or after you have defined how many of the Planned Hours should be budgeted, in the Resource Estimates area of the Business Case of the project or in the Capacity Planner.&nbsp; 
       </MadCap:conditionalText>
-     --></p> </td> 
-  </tr> 
+     </p> </td> </tr> -->
   <tr data-mc-conditions=""> 
    <td>Legacy Budgeted Labor Cost</td> 
-   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </p> <p>See <i>Budgeted Labor Cost</i>. </p> <!--
+   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> <p>The field is still visible in some reports and lists. </p> <p>See <i>Budgeted Labor Cost</i>. </p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">In a project report, this field shows the labor cost associated with the project, taking into account the Cost per Hour rate of every job role and the amount of Legacy Budgeted Hours estimated in the Legacy Resource Estimates area of the Business Case that is needed for each role to complete the project.&nbsp;</p>
     --> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Legacy Budgeted Labor Cost in a project report is calculated using the following formula:</p>
@@ -1144,7 +1188,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Legacy Resource Pool</td> 
-   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>Although not recommended, you may update the information in this report using the API.</p> <p>See <i>Resource Pools</i>. </p> <!--
+   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> <p>Although not recommended, you may update the information in this report using the API.</p> <p>See <i>Resource Pools</i>. </p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
   </tr> 
@@ -1253,7 +1297,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td><span>Number of Linked Goals</span> </td> 
    <td> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;stays in both NWE and classic - visible in both) </p>
-    --> <p><span>In a Project report, this is the number of strategic goals that are associated with the project. For information about associating projects with strategic goals, see</span><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FResults_and_activities%2Fconnect-projects-to-goals-overview.htm&amp;_LANG=en" target="_blank"><span>Overview of connecting projects to goals in Workfront Goals</span></a><span>.</span> </p> <p>For information about strategic goals, also see "Goal" in this table. </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. (NOTE: Link is hard coded to work both in QS and classic)</p> </td> 
+    --> <p><span>In a Project report, this is the number of strategic goals that are associated with the project. For information about associating projects with strategic goals, see</span><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FResults_and_activities%2Fconnect-projects-to-goals-overview.htm&amp;_LANG=en" target="_blank"><span>Overview of connecting projects to goals in Workfront Goals</span></a><span>.</span> </p> <p>For information about strategic goals, also see "Goal" in this table. </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. <!--(NOTE: Link is hard coded to work both in QS and classic)--></p> </td> 
   </tr> 
   <tr> 
    <td>Object</td> 
@@ -1450,7 +1494,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Planned Hours</td> 
-   <td> <p>This field appears in the projects, tasks, and issues areas, reports for projects, tasks, or issues, and resource management tools like the Resource Planner, Workload Balancer and the Utilization report. </p> <p>It shows the amount of hours that the Project Owner estimates that each task or issue should take to complete. For projects, it is generally a roll-up of the Planned Hours from the tasks on the project. </p> <p>The Planned Hours field might display different information depending on where you view it from. For information about Planned Hours, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</p> <p>Note:  Planned Hours are stored in minutes in the Workfront database. When writing calculations using this field, ensure you account for the fact that the hours display as minutes.<br></p> <p>By default, Planned Hours are distributed equally to all the days within the duration of a work item and also equally for all resources assigned to the task. Users can update the daily amount of Planned Hours for a work item or the individual Planned Hours for each assignee.</p> <p>Updating this field differs for projects, tasks, and issues: </p> 
+   <td> <p>This field appears in the projects, tasks, and issues areas, reports for projects, tasks, or issues, and resource management tools like the Resource Planner, Workload Balancer and the Utilization report. </p> <p>It shows the amount of hours that the Project Owner estimates that each task or issue should take to complete. For projects, it is generally a roll-up of the Planned Hours from the tasks on the project. </p> <p>The Planned Hours field might display different information depending on where you view it from. For information about Planned Hours, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</p> <p>Planned Hours are stored in minutes in the Workfront database. When writing calculations using this field, ensure you account for the fact that the hours display as minutes.<br></p> <p>By default, Planned Hours are distributed equally to all the days within the duration of a work item and also equally for all resources assigned to the task. Users can update the daily amount of Planned Hours for a work item or the individual Planned Hours for each assignee.</p> <p>Updating this field differs for projects, tasks, and issues: </p> 
     <ul> 
      <li> <p>For issues, you can manually update this field.&nbsp;Issue Planned Hours are not added to the Project Planned Hours.&nbsp;</p> <p>Tip: In an issue report, one of the Planned Hours fields is replaced by the Work field.&nbsp;The field displays the number of Planned Hours on the issue. For more information, see the "work" or "Work" fields in this table. </p> </li> 
     </ul> 
@@ -1475,7 +1519,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Planned Revenue</td> 
    <td> <p>Tasks and projects can display a value for Planned Revenue in&nbsp;Workfront. Planned Revenue represents the amount of money associated with the Planned Hours of the tasks on the project. For projects, it can also include the Fixed Revenue of the project. </p> <p>For tasks, this is the revenue associated with the Planned Hours of tasks. The Planned Hours from all tasks roll up to the Planned Hours of the project to contribute to the calculation of the project Planned Hours. </p> <p>Workfront calculates Planned Revenue for tasks and projects using the following formulas:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) +&nbsp;Fixed Revenue</code> </p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
-    --> <p>Note:   <p>The project Planned Revenue that displays in the Project&nbsp;Details area and in project reports differs from the Planned Revenue that displays in the Utilization&nbsp;report. </p> <p>The Planned Revenue in the Project Details area reflects the task revenue as well as the Fixed&nbsp;Revenue of the project. The Planned Revenue in the Utilization&nbsp;Report displays Planned Revenue associated only with the tasks in the project. </p> 
+    --> <p><p>The project Planned Revenue that displays in the Project&nbsp;Details area and in project reports differs from the Planned Revenue that displays in the Utilization&nbsp;report. </p> <p>The Planned Revenue in the Project Details area reflects the task revenue as well as the Fixed&nbsp;Revenue of the project. The Planned Revenue in the Utilization&nbsp;Report displays Planned Revenue associated only with the tasks in the project. </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p>If the project has 1 task with 10 hours, assigned to a Consultant with $20 hourly rate, and the project has $100 Fixed Revenue, the Utilization report displays $200 for Planned Revenue (the Planned Revenue associated with the hours on the task). The Project&nbsp;Details section displays $300 (the Planned Revenue from the task and the Fixed Revenue for the project.) </p> 
      </div> </p> <p>For information about tracking revenue in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>. </p> <p>For information about Planned Revenue calculations in the Utilization report, see <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">View resource utilization information </a>. </p> <p>&nbsp;</p> </td> 
@@ -1554,7 +1598,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td><span>Progress</span> </td> 
    <td> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays in both QS and classic) </p>
-    --> <p><span>In a Goal report, this displays the percent of how close a strategic goal is to completing. The percent of progress displays as a number. For information about strategic goals, also see "Goal" in this table.</span> </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. (NOTE: Link is hard coded to work both in QS and classic)</p> </td> 
+    --> <p><span>In a Goal report, this displays the percent of how close a strategic goal is to completing. The percent of progress displays as a number. For information about strategic goals, also see "Goal" in this table.</span> </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. <!--(NOTE: Link is hard coded to work both in QS and classic)--></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Progress Status</td> 
@@ -1587,7 +1631,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Project Budgeted Cost</td> 
-   <td>See <i>Budgeted&nbsp;Cost</i></td> 
+   <td> <p> This is the Budgeted Cost of a project as it displays in lists and reports.</p><p>See <i>Budgeted Cost</i></p></td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Project Management</td> 
@@ -1768,8 +1812,8 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>An advanced Workfront tool that lets you view and manage resources across projects, job roles, or users. For information, see <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>. </td> 
   </tr> 
   <tr> 
-   <td>Resource Planner Budgeted Labor&nbsp;Cost</td> 
-   <td> <p>These are the hours budgeted for project resources using the Resource Planner. </p> <p>See <i>Budgeted Labor&nbsp;Cost</i>. </p> </td> 
+   <td>Resource Planner Budgeted Labor Cost</td> 
+   <td> <p>These are the hours budgeted for project job roles using the Resource Planner. </p> <p>See <i>Budgeted Labor Cost</i>. </p> </td> 
   </tr> 
   <tr> 
    <td>Resource Pools</td> 
@@ -1801,7 +1845,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Risk</td> 
    <td> <p>This may refer to the following concepts in&nbsp;Workfront:</p> 
     <ul> 
-     <li> <p>A field on a project that indicates how risky a project can be. You can prioritize the execution of your projects based on the level of risk. Projects can have the following levels of risk:</p> <p>- Very Low</p> <p>- Low</p> <p>- Medium</p> <p>- High</p> <p>- Very High</p> <p>Note: The levels of risks you indicate for a project cannot be customized. </p> <p> For information about updating the Risk of a project, see the " Project  Settings" section of the article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>. You can display the risk field of a project in reports. </p> </li> 
+     <li> <p>A field on a project that indicates how risky a project can be. You can prioritize the execution of your projects based on the level of risk. Projects can have the following levels of risk:</p> <p>- Very Low</p> <p>- Low</p> <p>- Medium</p> <p>- High</p> <p>- Very High</p> <p>The levels of risks you indicate for a project cannot be customized. </p> <p> For information about updating the Risk of a project, see the " Project  Settings" section of the article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>. You can display the risk field of a project in reports. </p> </li> 
      <li> <p>An event that might occur during the life of a project that identifies a potential impact to the cost, scope, or schedule of the project. You define potential risks to a project and associate a probability of them occurring or a cost as you build the project's Business Case. For information about adding risks to the Business Case of the project, see <a href="../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md" class="MCXref xref">Create and edit risks on projects</a>. </p> <p>Tip: You cannot display risks defined in the Business Case in reports. You can only display several types of Risk&nbsp;Costs in reports and lists. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -1960,7 +2004,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <p>For more information about strategic goals, also see "Goal" or "Goals" in this table. </p> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Link below is hard coded. Leave in both classic and NWE, as this is abailable in both)</p>
      --> 
-     <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. (NOTE: Link is hard coded to work both in QS and classic)</p> 
+     <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. <!--(NOTE: Link is hard coded to work both in QS and classic)--></p> 
     </div> </td> 
   </tr> 
   <tr> 
