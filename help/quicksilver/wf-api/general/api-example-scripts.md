@@ -23,6 +23,8 @@ Following are examples of different programming languages that are used to inter
 
 You can download these examples at Workfront's Github page:&nbsp; [https://github.com/Workfront](https://github.com/Workfront)
 
+To locate examples in the repository, enter `example` into the **Find a repository...** box.
+
 >[!NOTE]
 >
 >Any use of the API should be tested in Workfront's beta environment prior to being run in the production environment. If any customer uses the API for a process that Workfront reasonably believes to be burdensome to the On-Demand Software (i.e. the process is causing a materially negative effect on the performance of the software for other customers), Workfront reserves the right to request that the customer discontinue that process and, if the customer does not comply and the problem persists, Workfront reserves the right to terminate the process.
