@@ -175,12 +175,8 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
 1. Click the **time frame drop-down menu** on the toolbar, then click the beginning date of the period you want to display. By default, the first week selected on the calendar is the week you navigated to.
 
-   ![](assets/calendar-date-picker-balancer-350x208.png)
+   ![](assets/calendar-date-picker-wb.png)
 
-   >[!TIP]
-   >
-   >* When you view the Workload Balancer on smaller screens the time frame drop-down menu is replaced by the calendar icon ![](assets/calendar-icon-wb.png). 
-   >* A dual calendar displays only when you select to view 12 weeks at a time. 
 
 1. Click one of the following options in the toolbar to display information by different time frames:
 
@@ -205,18 +201,11 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
 1. Select the number of weeks you want to display at one time in the Workload Balancer from the following options:
 
+   * 1 week 
    * 2 weeks
-   * 4 weeks.&nbsp;This is the default setting.
+   * 4 weeks. This is the default setting.
    * 6 weeks
-   * 12 weeks
-
-     >[!TIP]
-     >
-     >* When you display the Workload Balancer by month, the option for 12 weeks becomes 3 months.
-     >   
-     >![](assets/3-months-12-weeks-drop-down-wb-350x140.png)
-     >   
-     >* When you display the Workload Balancer by a time frame shorter than 3 months or 12 weeks, the time frame switches automatically from Month to Week.
+   * 3 months
 
 1. Click the **Settings** icon ![](assets/settings-gear-icon.png).
 
