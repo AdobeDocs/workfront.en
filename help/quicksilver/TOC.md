@@ -1988,6 +1988,7 @@ feature-set: Workfront
     * [Encryptor](workfront-fusion/apps-and-their-modules/encryptor-modules.md)
     * [Flow control in Adobe Workfront Fusion](workfront-fusion/apps-and-their-modules/flow-control.md)
     * [Frame.io modules](workfront-fusion/apps-and-their-modules/frame-io-modules.md)
+    * [FTP modules](workfront-fusion/apps-and-their-modules/ftp-modules.md)
     * [GitHub modules](workfront-fusion/apps-and-their-modules/github.md)
     * [Gmail modules](workfront-fusion/apps-and-their-modules/gmail-modules.md)
     * [Google Calendar modules](workfront-fusion/apps-and-their-modules/google-calendar-modules.md)

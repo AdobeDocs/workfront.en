@@ -75,11 +75,8 @@ This section contains the following articles:
 * [Email modules](../../workfront-fusion/apps-and-their-modules/email-modules.md) 
 * [Encryptor](../../workfront-fusion/apps-and-their-modules/encryptor-modules.md) 
 * [Flow control in Adobe Workfront Fusion](../../workfront-fusion/apps-and-their-modules/flow-control.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/ftp-modules.md" class="MCXref xref" xrefformat="{para}">FTP modules</a> </li>
-  -->
-
+* [Frame.io modules](../../workfront-fusion/apps-and-their-modules/frame-io-modules.md)
+* [FTP modules](../../workfront-fusion/apps-and-their-modules/ftp-modules.md)
 * [GitHub modules](../../workfront-fusion/apps-and-their-modules/github.md)
 
   <!--
