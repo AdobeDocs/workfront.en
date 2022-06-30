@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Manage filters in the Workload Balancer
-description: "NOTE: when they add custom fields to fitlering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down >> ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER)"
+description: "NOTE: when they add custom fields to filtering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down >> ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER)"
 feature: Resource Management
 ---
 
@@ -181,7 +181,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
 
-   1. (Optional)Click the **Delete** icon ![](assets/delete.png) to remove a filter criteria.
+   1. (Optional) Click the **Delete** icon ![](assets/delete.png) to remove a filter criteria.
 
 1. (Optional) Click **Add filter** to add another filter criteria, then repeat the actions from step 4. 
 
@@ -243,11 +243,11 @@ You can duplicate and edit a filter to create a new one.
 
 1. Hover over an existing filter, click the **More** menu ![](assets/more-menu.png), then click **Duplicate**.
 
-   ![](assets/new-filters-duplicate-option-highlighted-wb.png)
+   ![](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
-   >   When editing a filter, you can also click the [!UICONTROL More] icon in the lower-left corner of the [!UICONTROL Edit] filter box, then click [!UICONTROL Duplicate].
+   >   When editing a filter, you can also click the **[!UICONTROL More]** icon in the lower-left corner of the [!UICONTROL Edit] filter box, then click **[!UICONTROL Duplicate]**.
 
 
 1. Edit the following information for the duplicated filter:
@@ -260,7 +260,7 @@ You can duplicate and edit a filter to create a new one.
    * Description
    * Any of the fields, modifiers, or values.
 
-1. (Optional)&nbsp;Click&nbsp;**Add filter** to add more statements to the duplicated filter. 
+1. (Optional) Click **Add filter** to add more statements to the duplicated filter. 
 1. Click **Save** to save the duplicated filter in the **My filters** area.
 
    The original filter remains unchanged and the duplicated filter is saved as a new filter.
@@ -280,9 +280,9 @@ You can edit a saved filter in the Workload Balancer.
 1. Click the **Filter icon** ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned** or **Assigned Work** areas.   
    The filter builder displays on the right. 
 
-1. In the **My filters** area in the filter builder, mouse over the filter you want to edit, then click the **Edit icon** ![](assets/wb-edit-filter-icon.png) or click the **More** menu ![](assets/more-icon.png), then click **Edit**.
+1. Mouse over the filter you want to edit, then click **Edit** ![](assets/wb-edit-filter-icon.png).
 
-   ![](assets/new-filters-more-menu-options-wb-nwe.png)
+   ![](assets/filter-more-menu-options-wb.png)
 
 1. Do one of the following:
 
@@ -316,9 +316,9 @@ Consider the following before deleting a filter:
 1. Click the **Filter icon** ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or **Assigned Work** areas.   
    The filter builder box displays on the right. 
 
-1. Mouse ver over a filter in the My filters area, then click the **More** menu ![](assets/more-menu.png), then click **Delete**.
+1. Mouse over a filter, then click the **More** menu ![](assets/more-menu.png), then click **Delete**.
 
-   ![](assets/new-filters-delete-option-highlighted-wb.png)
+   ![](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -346,9 +346,9 @@ To share a filter:
 1. Click the **Filter icon** ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or **Assigned Work** areas.   
    The filter builder box displays on the right. 
 
-1. Hover over a filter in the My filters area, then click the **More** menu ![](assets/more-menu.png), then click&nbsp;**Share.**
+1. Mouse over a filter, then click the **More** menu ![](assets/more-menu.png), then click **Share.**
 
-   ![](assets/new-filters-share-option-highlighted-wb.png)
+   ![](assets/filter-more-menu-options-wb.png)
 
    The Filter sharing box displays. 
 
@@ -356,7 +356,7 @@ To share a filter:
    >
    >When editing a filter, you can also click the More icon in the lower-left corner of the Edit filter box, then click Share.
 
-1. Enable the **View system wide** setting. This gives anyone in Workfront permission to view the filter.
+1. Enable the **View system-wide** setting. This gives anyone in Workfront permission to view the filter.
 
    Or
 
@@ -383,4 +383,21 @@ To share a filter:
    The filters you shared display in the **Shared with me** area of the filter box.
 
    ![](assets/new-filters-shared-with-me-area-wb-350x236.png)
+
+<!--   
+
+## Add a filter to your favorites list
+
+You can mark a filter as a favorite for quicker access to it. 
+
+The filters that you mark as a favorite do not count towards your system Favorites list. There is no limit for how many filters you can favorite. 
+
+1. Go to the Workload Balancer
+1. Click the **Filter** icon ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or **Assigned Work** areas. The filter builder box displays on the right. 
+1. Mouse over a filter, then click the **Favorite** ![](assets/favorites-icon-small.png). 
+(NOTE: insert screen shot here with Favorite as part of this menu - same as above ones but with Favorite)
+1. The filter is listed in the **Favorited** section inside the filter panel. 
+1. (Optional) Click the **Favorite** icon again to remove the filter from the list of favorite filters
+(I logged bugs for "Favorited" and "Unfavorite" wordings - make sure these have not updated)
+--> 
 
