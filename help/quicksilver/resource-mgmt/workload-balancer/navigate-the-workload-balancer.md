@@ -18,7 +18,7 @@ Use the Workload Balancer to understand the availability of your resources as we
 >
 >We recommend that you use the Workload Balancer for scheduling your resources.
 
-The Workload Balancer is available in multiple areas of Adobe Workfront. Navigating it is similar in all areas.&nbsp;This article describes how to navigate the Workload Balancer for multiple projects in the Resourcing area.&nbsp;For more information about where the Workload Balancer is located, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+The Workload Balancer is available in multiple areas of Adobe Workfront. Navigating it is similar in all areas.&nbsp;This article describes how to navigate the Workload Balancer for multiple projects in the Resourcing area. For more information about where the Workload Balancer is located, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 For information about managing resources using the Workload Balancer, also consider reading the following articles:
 
@@ -175,7 +175,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
 1. Click the **time frame drop-down menu** on the toolbar, then click the beginning date of the period you want to display. By default, the first week selected on the calendar is the week you navigated to.
 
-   ![](assets/calendar-date-picker-balancer-350x208.png)
+   ![](assets/calendar-date-picker-wb.png)
 
    >[!TIP]
    >
@@ -205,18 +205,13 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
 1. Select the number of weeks you want to display at one time in the Workload Balancer from the following options:
 
+   * 1 week
    * 2 weeks
-   * 4 weeks.&nbsp;This is the default setting.
+   * 4 weeks. This is the default setting.
    * 6 weeks
-   * 12 weeks
+   * 3 months
 
-     >[!TIP]
-     >
-     >* When you display the Workload Balancer by month, the option for 12 weeks becomes 3 months.
-     >   
-     >![](assets/3-months-12-weeks-drop-down-wb-350x140.png)
-     >   
-     >* When you display the Workload Balancer by a time frame shorter than 3 months or 12 weeks, the time frame switches automatically from Month to Week.
+   ![](assets/3-months-12-weeks-drop-down-wb.png)     
 
 1. Click the **Settings** icon ![](assets/settings-gear-icon.png).
 
@@ -310,21 +305,25 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    ![](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (Optional) Click the **Hide allocations icon** ![](assets/show-allocations-icon-small.png) to display the name of the tasks in the bars of the work items. 
-1. Click the **More menu** icon ![](assets/more-icon.png) to the right of a task or issue name, then click one of the following:
+1. Click the **More menu** icon ![](assets/more-icon.png) to the right of a task or issue name, then click one of options below. 
 
-   * **Assign this to**, then start typing the name of a user, role, or team you want to assign the work item to.
+   ![](assets/more-menu-right-of-task-350x104.png)
 
-     ![](assets/more-menu-right-of-task-350x104.png)
+      * **Assign this to**, then start typing the name of a user, role, or team you want to assign the work item to in the **Search people, role, or teams** field.
+    
+      >[!TIP]
+      >
+      >You can also use the following shortcuts to assign tasks or issues:
+      >
+      >* In Windows: CTRL+click the task or issue bar.
+      >* In Mac: CMD+click the task or issue bar.
 
-     >[!TIP]
-     >
-     >You can also use the following shortcuts to assign tasks or issues:
-     >
-     >* In Windows: CTRL+click the task or issue bar.
-     >* In Mac: CMD+click the task or issue bar.
+      For more information about assigning work items to users in the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md). 
 
-     For more information about assigning work items to users in the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md). 
-   
+      >[!TIP]
+      >
+      >If your Workfront or group administrator enabled delegations in your environment, use the Assignments tab to assign users to the task or issue. For information about delegating work, see [Manage task and issue delegation](../../manage-work/delegate-work/how-to-delegate-work.md).
+
    * **Edit allocations**, then edit the daily or weekly allocations for the user. For information about managing user allocations, see [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 1. Click the bar of a task or issue to open the Summary panel on the right

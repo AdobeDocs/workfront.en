@@ -242,7 +242,9 @@ You can report on the following objects when using the report builder in the Wor
 * Billing Record
 * Budgeted Hour
 
-  This is the Budgeted Hours, as they appear in the Resource Planner.
+  This is the Budgeted Hours, as they appear in the in older, deprecated resource management tools.
+  
+  The "Bud. Hours" field in the Budgeted Hour report refers to the hours budgeted for job roles in the Resource Planner . For more information, see [Understand Budgeted Labor Cost and Budgeted Hours for projects](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
 
 * Calendar Event
 * Category (or Custom Form)
