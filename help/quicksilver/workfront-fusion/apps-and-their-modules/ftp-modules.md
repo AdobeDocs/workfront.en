@@ -348,4 +348,4 @@ Uploads a file to the FTP server.
 
 ## Troubleshooting {#troubleshooting}
 
-If you are experiencing issues with the FTP app either during the connection creation or during a module's operation, try to use one of the popular FTP clients, such as [WinSCP](https://winscp.net/eng/download.php), and try to perform the same action (for example, create a connection or list files in a folder). with the FTP client. If you are experiencing the same issues also with the FTP client, the reason might be a misconfiguration of the FTP server.
+If you are experiencing issues with the FTP app either during the connection creation or during a module's operation, try to use one of the popular FTP clients, and try to perform the same action (for example, create a connection or list files in a folder). with the FTP client. If you are experiencing the same issues also with the FTP client, the reason might be a misconfiguration of the FTP server.
