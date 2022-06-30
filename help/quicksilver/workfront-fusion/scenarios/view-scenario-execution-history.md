@@ -127,9 +127,13 @@ The Search in history window opens.
 
 1. (Optional) To search for executions that contain specific text, enter the text in the search bar of the **Search in history** window.
 
+   To search for exact text, surround the text with double quotation marks ("example").
+
    >[!INFO]
    >
    >**Example:** If you want to find the execution that created a specific project, enter the project ID into the Fulltext search bar.
+   >
+   >"625ef2ef0006036bd1794b6e52d737c5"
 
 1. (Optional) To limit your search by date range, select the beginning and ending dates of your desired search in the By date range area. 
 
