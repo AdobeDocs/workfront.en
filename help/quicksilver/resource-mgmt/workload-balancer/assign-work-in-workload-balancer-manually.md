@@ -80,7 +80,12 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
    * Start typing the name of a user, job role, or team that you want to assign to the item in the **Search people, role or teams** field, select it when it displays in the list, then click&nbsp;**Save**.
 
-     ![](assets/assignments-box-with-advanced-assignments-wb-nwe-350x373.png)
+     ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
+
+      >[!TIP]
+      >
+      > If your Workfront or group administrator enabled delegations in your environment, use the Assignments tab to assign users to the task or issue. For information about delegating work, see [Manage task and issue delegation](../../manage-work/delegate-work/how-to-delegate-work.md). 
+
 
      This assigns or reassigns the work item to the specified assignees.
 

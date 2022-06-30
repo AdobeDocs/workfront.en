@@ -10,8 +10,9 @@ feature: Product Announcements
 
 >[!NOTE]
 >
->The information on this page refers to functionality not yet generally available. It will be available for the first time with the 22.3 release and it will remain in beta for a longer period of time.
+>The information on this page refers to functionality not yet generally available. This functionality was made available to all customers in the Preview environment in June 2022 (with the 22.3 release) and it will remain in beta for a longer period of time.
 
+<!--the note above needs to be updated with Production 22.3 and 22.4??? -->
 
 [!DNL Adobe Workfront Campaigns] offer a new way to manage your work. As a new object in Workfront, a campaign enables you to organize projects from different portfolios and programs in a new work container that will evolve and which will eventually include all work objects that you are currently managing in separate silos.
 
@@ -24,8 +25,12 @@ For general information about campaigns, see [Campaigns overview](../../manage-w
 ## Release schedule
 
 * Public beta launch:
-  * Preview beta launch: June 2022 (tentative)
-  * Production beta launch: July 2022
+  * Preview beta launch: June 2022
+  * Production beta launch (for select customers): July 2022
+    
+    Contact your account representative if you would like to opt in for the Campaigs Beta in your Production environment. 
+  
+  * Production beta launch (for all customers): October 2022 (tentative)   
   * Beta completion: December 2022 (tentative)
 * Final official release:
   * Will be announced at a later date
@@ -34,15 +39,18 @@ For general information about campaigns, see [Campaigns overview](../../manage-w
 
 The following features will release as part of a tiered product release plan. Features that you can access in this beta may not be available in the full release, based on your organization’s plan or the input we receive during the beta phase.
 
+Unless mentioned otherwise, the features listed in this table are available to everyone in the environment specified. 
+
 | Feature description or name                                                                               | Status                |
 |-----------------------------------------------------------------------------------------------------------|-----------------------|
-| Add the [!UICONTROL Campaigns] areas to the [!UICONTROL Main Menu], pins, and the landing page using a [!UICONTROL Layout Template] | With the 22.3 release |
-| Customize the Campaigns name using a [!UICONTROL Layout Template]                                                      | With the 22.3 release |
-| [!UICONTROL Campaigns] area in the [!UICONTROL Main Menu] of any user                                                               | With the 22.3 release |
-| Create campaigns                                                                                          | With the 22.3 release |
-| Edit campaigns                                                                                            | With the 22.3 release |
-| Delete campaigns                                                                                          | With the 22.3 release |
-| Add projects to a campaign                                                                                | With the 22.3 release |
+| Add the [!UICONTROL Campaigns] areas to the [!UICONTROL Main Menu], pins, and the landing page using a [!UICONTROL Layout Template] | Currently in Preview |
+| Customize the Campaigns name using a [!UICONTROL Layout Template]                                                      | Currently in Preview |
+| [!UICONTROL Campaigns] area in the [!UICONTROL Main Menu] of any user                                                               | Currently in Preview |
+| Create campaigns                                                                                          | Currently in Preview|
+| Edit campaigns                                                                                            | Currently in Preview |
+| Delete campaigns                                                                                          | Currently in Preview |
+| Add existing projects to a campaign                                                                                | Currently in Preview |
+| Add new projects to a campaign                                                                                | Planned |
 | Share campaigns                                                                                           | Planned               |
 | Manage campaign finances                                                                                  | Planned               |
 | Add custom forms to a campaign                                                                            | Planned               |
@@ -50,12 +58,14 @@ The following features will release as part of a tiered product release plan. Fe
 
 ## Participate in the beta
 
+>[!NOTE]
+>
+>The Campagns Beta is available for all customers in the Preview environment. Involvement and participation in this beta program is completely voluntary and optional. 
+
 
 ### Availability
 
->[!NOTE]
->
->The [!UICONTROL Campaigns Beta] is available for all customers. Involvement and participation in this beta program is completely voluntary and optional.
+<!--With production, add here that it will be available in preview for everyone but they need to call to get in in Prod if they want or wait till 22.4 / Oct to get it there-->
 
 The [!UICONTROL Campaigns] beta will be available to all customers. The [!UICONTROL Campaigns] area will be available in the [!UICONTROL Layout Templates ] and any system or group administrator can add it in the [!UICONTROL Set Main Menu] area of the layout template for other users. Once added, all users assigned to the layout template will be able to see the [!UICONTROL Campaigns] area in their [!UICONTROL Main Menu] and will be able to create campaigns.
 

@@ -160,23 +160,37 @@ You can let a delegation expire, if you selected an End Date, or you can manuall
 
 When tasks and issues are delegated, there are several areas in Workfront where you can see the delegated work or who the delegates are.
 
-* [Locate delegates in the [!UICONTROL Assignments and delegations] area](#locate-delegates-in-the-assignments-and-delegations-area)
+* [Locate delegates in the Assignments box](#locate-delegates-in-the-assignments-box)
 * [Locate delegated work in [!UICONTROL Home]](#locate-delegated-work-in-home)
 
 
-### Locate delegates in the [!UICONTROL Assignments and delegations area]
+### Locate delegates in the [!UICONTROL Assignments] box
 
-When your system or group administrator enables work delegation in your system, the Assignments field in a task or issue header changes to Assignments and delegations and contains the following subtabs:
+When your system or group administrator enables work delegation in your system, the Assignments box displays the following tabs everywhere you can access it: 
 
 * [!UICONTROL **Assignments**]: Users assigned to the task or issue display here.
 * [!UICONTROL **Delegations**]: Users designated as delegates by the assignees on the task or issue display here.
+
+You can access the Assignments box in the following areas:
+
+* The task or issue header
+
+    ![](assets/assignments-and-delegates-panel-in-task-header.png)
+
+    The [!UICONTROL Assignments] field in the task or issue header changes to [!UICONTROL Assignments and delegations].
+
+* The Workload Balancer when manually assigning tasks or issues
+
+    ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+
+>[!NOTE]
+>
+> You cannot view delegates in the Assignments section of a task or issue Edit box. 
 
 If a task or an issue is delegated and the [!UICONTROL Delegations] subtab is empty, one of the following scenarios might exist:
 
 * You are not assigned to the task or issue.
 * The task or issue dates are outside of the delegation time frame.
-
-![](assets/assignments-and-delegates-panel-in-task-header.png)
 
 >[!TIP]
 >
@@ -205,5 +219,3 @@ If a task or an issue is delegated and the [!UICONTROL Delegations] subtab is em
     >[!TIP]
     >
     >    If the delegation is set to start at a date after today's date, the start date of the delegation also displays in the [!UICONTROL Work List]. The delegated items display in the grouping you select for the [!UICONTROL Work List], according to the type of the grouping. For example, if you group by [!UICONTROL Planned Completion Date], the delegated items display in the grouping that matches their planned completion dates.
-
-
