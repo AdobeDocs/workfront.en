@@ -33,9 +33,7 @@ Workfront uses the Budgeted Labor Cost of the job roles on the project to calcul
 
 The **Budgeted Labor Cost** (or Resource Planner Budgeted Labor Cost) of a project is calculated by the following formula:
 
-`
-Resource Planner Budgeted Labor Cost = SUM ( Resource Planner Budgeted Hours for each job role on the project * Cost per Hour rate of each job role on the project)
-`
+`Resource Planner Budgeted Labor Cost = SUM ( Resource Planner Budgeted Hours for each job role on the project * Cost per Hour rate of each job role on the project)`
 
 The fields used in the calculation above refer to the following:
 
@@ -89,9 +87,7 @@ Users display in the Resource Budgeting area of the Business Case under their re
 
 The Budgeted Labor Cost of a user is calculated by the following formula:
 
-`
-User Budgeted Labor Cost = Budgeted hours for the user on the project * Cost per Hour rate of the user
-`
+`User Budgeted Labor Cost = Budgeted hours for the user on the project * Cost per Hour rate of the user`
 
 ## Locate the Budgeted Labor Cost of a project
 

@@ -168,7 +168,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
       >
       >You can select a field from the following sections:
       >
-       >* **Recent selections**: the fields you have recently filtered for.
+      >* **Recent selections**: the fields you have recently filtered for.
       >* **Suggested fields**: the fields most commonly used.
       
 
