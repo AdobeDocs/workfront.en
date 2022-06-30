@@ -75,7 +75,7 @@ Consider the following when working with filters in the Workload Balancer:
 * When you save and apply a new filter then navigate away from the Workload Balancer, the filter is preserved even after you log off and log back on. 
 * When you create filters in the Workload Balancer in one area, they are not available in other areas. 
 
-  **Example:** Filters created in the Resourcing area are not available in the Workload Balancer of a project or a team.
+  For example, filters created in the Resourcing area are not available in the Workload Balancer of a project or a team.
 
   For information about where to locate the Workload Balancer, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
@@ -102,7 +102,7 @@ Depending on where you access the Workload Balancer from, the Unassigned and Ass
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront area where you access the Workload Balancer </td> 
+   <td role="rowheader"><strong>Workfront area where you access the Workload Balancer</strong></td> 
    <td><b>Items that display in the Unassigned Work area by default</b> </td> 
    <td><b>Items that display in the Assigned Work area by default</b> </td> 
   </tr> 
@@ -219,12 +219,6 @@ You can create a filter from scratch or edit one of the predefined filters. For 
 
    For information about applying saved filters, see the section [Delete a saved filter in the Workload Balancer](#delete-a-saved-filter-in-the-workload-balancer) in this article. 
 
-1. (Optional) Enable **Stack filters**, then select as many saved filters as you need to apply all of them at the same time. The filters rules are applied in the order that the filters are listed. 
-
-   >[!TIP]
-   >
-   >   When the Stack filters setting is not enabled you can only select one filter. 
-
 1. (Conditional) Mouse over the **Filter icon** ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or the **Assigned Work** areas to display a tooltip with the name or the number of filters that are currently applied.
 
    ![](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
@@ -241,20 +235,19 @@ You can duplicate and edit a filter to create a new one.
 
    The filter builder box displays to the right. The name of the area you create the filter for displays in the header of the box.
 
-1. Hover over an existing filter, click the **More** menu ![](assets/more-menu.png), then click **Duplicate**.
+1. Mouse over an existing filter, click the **More** menu ![](assets/more-menu.png), then click **Duplicate**.
 
    ![](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
-   >   When editing a filter, you can also click the **[!UICONTROL More]** icon in the lower-left corner of the [!UICONTROL Edit] filter box, then click **[!UICONTROL Duplicate]**.
-
+   > While editing a filter, you may click the **More** menu in the lower-left corner of the Edit Filter box then click **Duplicate**.
 
 1. Edit the following information for the duplicated filter:
 
    * Name
 
-     By default, the new filter name is "`<Original filter name>` Copy."
+     By default, the new filter name is "(Original filter name) Copy."
    
    * Icon
    * Description
@@ -280,7 +273,7 @@ You can edit a saved filter in the Workload Balancer.
 1. Click the **Filter icon** ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned** or **Assigned Work** areas.   
    The filter builder displays on the right. 
 
-1. Mouse over the filter you want to edit, then click **Edit** ![](assets/wb-edit-filter-icon.png).
+1. Mouse over the filter you want to edit, then click the **Edit** ![](assets/wb-edit-filter-icon.png).
 
    ![](assets/filter-more-menu-options-wb.png)
 
@@ -317,13 +310,11 @@ Consider the following before deleting a filter:
    The filter builder box displays on the right. 
 
 1. Mouse over a filter, then click the **More** menu ![](assets/more-menu.png), then click **Delete**.
-
    ![](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
-   >When editing a filter, you can also click the More icon in the lower-left corner of the Edit filter box, then click Delete.
-
+   >While editing a filter, you may click the **More** menu in the lower-left corner of the Edit Filter box then click **Delete**.
 
 1. (Optional) Click **Cancel** to avoid the deletion and return to the list of filters. 
 1. Click **Delete** to confirm the deletion.
@@ -350,11 +341,11 @@ To share a filter:
 
    ![](assets/filter-more-menu-options-wb.png)
 
-   The Filter sharing box displays. 
-
    >[!TIP]
    >
-   >When editing a filter, you can also click the More icon in the lower-left corner of the Edit filter box, then click Share.
+   > While editing a filter, you may click the **More** menu in the lower-left corner of the Edit Filter box then click **Share**.
+
+   The Filter sharing box displays. 
 
 1. Enable the **View system-wide** setting. This gives anyone in Workfront permission to view the filter.
 

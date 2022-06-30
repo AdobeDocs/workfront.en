@@ -177,10 +177,6 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    ![](assets/calendar-date-picker-wb.png)
 
-   >[!TIP]
-   >
-   >* When you view the Workload Balancer on smaller screens the time frame drop-down menu is replaced by the calendar icon ![](assets/calendar-icon-wb.png). 
-   >* A dual calendar displays only when you select to view 12 weeks at a time. 
 
 1. Click one of the following options in the toolbar to display information by different time frames:
 
@@ -210,7 +206,6 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    * 4 weeks. This is the default setting.
    * 6 weeks
    * 3 months
-
    ![](assets/3-months-12-weeks-drop-down-wb.png)     
 
 1. Click the **Settings** icon ![](assets/settings-gear-icon.png).
