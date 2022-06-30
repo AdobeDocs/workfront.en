@@ -229,7 +229,7 @@ This action module permanently deletes the specified folder.
             <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref_0">Create a connection in an FTP module</a> in this article.</td>
          </tr>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">
-            <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Folder	</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Folder</td>
             <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray">
                <p>Select the FTP folder you want to delete a file from.</p>
             </td>
@@ -302,13 +302,13 @@ This action module moves a file or folder to a different location.
          <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">Old file path</td>
             <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">
-               <p>	Enter the path that you want to move the file from. Example: <code>/folder1/document.txt</code>.</p>
+               <p>Enter the path that you want to move the file from. Example: <code>/folder1/document.txt</code>.</p>
             </td>
          </tr>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">New file path</td>
             <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray">
-               <p>	Enter the path that you want to move the file to. Example: <code>/folder2/document.txt</code>.</p>
+               <p>Enter the path that you want to move the file to. Example: <code>/folder2/document.txt</code>.</p>
             </td>
          </tr>
    </tbody>
@@ -337,7 +337,7 @@ Uploads a file to the FTP server.
   </tr> 
   <tr> 
    <td>Append to an already existing file</td> 
-   <td> <p>	If this option is enabled and the file already exists on the FTP server, the contents of the file are appended to the existing file. If this option is not enabled, the content of the file will be overwritten.</p> </td> 
+   <td> <p>If this option is enabled and the file already exists on the FTP server, the contents of the file are appended to the existing file. If this option is not enabled, the content of the file will be overwritten.</p> </td> 
   </tr> 
   <tr> 
    <td>Create folders if don't exist </td> 
