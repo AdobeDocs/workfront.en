@@ -124,7 +124,7 @@ The following information is available in the Utilization report when tracking H
  <tbody> 
   <tr> 
    <td scope="col"><strong>Budgeted Hours</strong> </td> 
-   <td scope="col"> <p>The total budgeted hours on the included projects. You can view the total budgeted hours for the overall life of the included projects, or you can view total budgeted hours only for the specified date range (you can specify an individual week or month). </p> <p>Note: Budgeted Hours are populated from information available in the new Resource Budgeting area of the Business Case<em>.</em></p> <p>Budgeted Hours appear on the Utilization report in any of the following rows:</p> 
+   <td scope="col"> <p>The total budgeted hours on the included projects. You can view the total budgeted hours for the overall life of the included projects, or you can view total budgeted hours only for the specified date range (you can specify an individual week or month). </p> <p>Budgeted Hours are populated from information available in the new Resource Budgeting area of the Business Case or the Resource Planner<em>.</em></p> <p>Budgeted Hours appear on the Utilization report in any of the following rows:</p> 
     <ul> 
      <li> Budgeted hours are summarized by job role and by individual user in the Utilization report, as follows:<br><strong>Individual User:</strong> Budgeted Hours are summarized for each user in the utilization report. These Budgeted Hours are associated with the tasks and issues that the user is assigned to on the included projects. (You can expand the row of the corresponding job role to view a list of users with that job role.)<br><strong>Job Role:</strong> Budgeted Hours are summarized by job role in the utilization report.<br>Budgeted Hours appear in a particular job role as a result of any of the following scenarios: 
       <ul> 
@@ -215,7 +215,7 @@ The following information is available in the Utilization report when tracking C
  <tbody> 
   <tr> 
    <td scope="col"><strong>Budgeted Cost</strong> </td> 
-   <td scope="col"> <p>The total Budgeted Cost on the included projects. You can view the total Budgeted Cost for the overall life of the included projects, or you can view the total Budgeted Cost only for the specified date range (you can specify an individual week or month).</p> <p>Because the Budgeted Cost in the Utilization Report is focused on cost by role, the calculation is the same as the Budgeted Labor Cost within other areas of Workfront. For information about how Budgeted Labor Cost is calculated, see <a href="../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.</p> </td> 
+   <td scope="col"> <p>The Budgeted Cost on the included projects. You can view the total Budgeted Cost for the overall life of the included projects, or you can view the total Budgeted Cost only for the specified date range (you can specify an individual week or month).</p> <p>Because the Budgeted Cost in the Utilization Report is focused on cost by role, the calculation is the same as the Budgeted Labor Cost within other areas of Workfront. For information about how Budgeted Labor Cost is calculated, see <a href="../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Planned Cost</strong> </td> 

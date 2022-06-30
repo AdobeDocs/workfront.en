@@ -10,32 +10,32 @@ feature: Work Management
 # Understand Budgeted Labor Cost and Budgeted Hours for projects
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update this for the Workload Balancer, if needed) </p>
+<(NOTE: Keep the structure of this article similar to Calculating Budgeted Cost)</p>
 -->
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Keep the structure of this article similar to Calculating Budgeted Cost)</p>
--->
+You can budget your resources for work using the Adobe Workfront Resource Planner. 
 
-As you budget your resources for work on projects, Adobe Workfront calculates the Budgeted Labor Cost for the roles, projects, and users based on cost per hour values.
+As you budget your resources for work on projects, Workfront calculates the Budgeted Labor Cost for the roles, projects, and users based on cost per hour values.
 
-The Budgeted Labor Cost of a project is a calculation between the cost associated with the job roles assigned to complete the work on the project and the amount of hours estimated (Budgeted Hours) that might take each role to complete the work.
+The Resource Planner Budgeted Labor Cost of a project is a calculation between the cost associated with the job roles assigned to complete the work on the project and the amount of hours estimated (Resource Planner Budgeted Hours) that might take each role to complete the work.
 
 >[!IMPORTANT]
 >
->The Budgeted Labor Cost for users does not affect that of the project.
+>The Resource Planner Budgeted Labor Cost for users does not affect that of the project. Only the labor cost for job roles affects the cost of the project. 
 
 ## Overview of the Budgeted Labor Cost for Job Roles and the Project
 
 Workfront uses the Budgeted Labor Cost of the job roles on the project to calculate the Budgeted Labor Cost of the project.
 
-The **Budgeted Labor Cost** of a project is calculated by the following formula:
+>[!TIP]
+>
+>The Budgeted Labor Cost of a project in the Business Case displays as Resource Planner Budgeted Labor Cost in reports and lists.
 
-```
-Budgeted Labor Cost = SUM(Budgeted Hours for each job role on the project * Cost per Hour rate of each job role on the project)
-```
+The **Budgeted Labor Cost** (or Resource Planner Budgeted Labor Cost) of a project is calculated by the following formula:
 
-The **Budgeted Hours** in the calculation above refers to the following:
+`Resource Planner Budgeted Labor Cost = SUM ( Resource Planner Budgeted Hours for each job role on the project * Cost per Hour rate of each job role on the project)`
+
+The fields used in the calculation above refer to the following:
 
 * The hours budgeted for job roles in the Resource Budgeting area of the project or the Resource Planner.
 
@@ -59,16 +59,19 @@ The **Budgeted Hours** in the calculation above refers to the following:
 
 >[!IMPORTANT]
 >
->The User Budgeted Labor Cost does not affect the Budgeted Labor Cost of the project. Only the Budgeted Labor Cost of the job roles on a project affects the Budgeted Labor Cost of the project.  
->The total of all Budgeted Labor Costs of all users may or may not equal the Budgeted Labor Cost of the job roles associated with the users.
+>The User Budgeted Labor Cost does not affect the Budgeted Labor Cost of the project. Only the labor cost of the job roles on a project affects the Resource Planner Budgeted Labor Cost of the project. 
+> 
+>The total of all labor costs of all users may or may not equal the Resource Planner Budgeted Labor Cost of the job roles associated with the users.
+>
+>If you estimate Budgeted Hours for users in the Resource Planner, the costs associated with them are those of the job roles associated with the users. They are not costs associated with the users or their rates.
 
-If users are associated with the job roles on the project and their hours are budgeted in the Resource Planner, their Budgeted Labor Cost displays in the following areas in Workfront:
+If users are associated with the job roles on the project and their hours are budgeted in the Resource Planner, their Budgeted Labor Cost displays by the following names, depending on where you view them in Workfront:
 
-* The Resource Budgeting area of the Business Case under their respective roles.
+* [!UICONTROL **Budgeted Labor Cost**]: The Resource Budgeting area of the Business Case under their respective roles.
 
   ![](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
-* The Resource Planner when viewing information in the Project and Role view by Cost.
+* [!UICONTROL **BDG**]: The Resource Planner when viewing information in the Project and Role view by Cost.
 
   ![](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
@@ -80,27 +83,23 @@ Users display in the Resource Budgeting area of the Business Case under their re
 
   For more information about adding Cost per Hour rates to users, see the article [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* The user is part of one of the Resource Planner associated with the project.
+* The user is part of one of the Resource Pools associated with the project.
 
 The Budgeted Labor Cost of a user is calculated by the following formula:
 
-```
-User Budgeted Labor Cost = Budgeted hours for the user on the project * Cost per Hour rate of the user
-```
+`User Budgeted Labor Cost = Budgeted hours for the user on the project * Cost per Hour rate of the user`
 
 ## Locate the Budgeted Labor Cost of a project
 
-You can view the following Budgeted Labor Cost information in Workfront:
-
-* The Budgeted Labor Cost as reflected in the Resource Budgeting area of the Business Case or the Resource Planner displays in the following areas of Workfront under the following names:
+The Budgeted Labor Cost as reflected in the Resource Budgeting area of the Business Case or the Resource Planner displays in the following areas of Workfront under the following names:
 
   <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 
     <tr> 
-     <td>Budgeted Labor Cost display name</td> 
-     <td>Area of Workfront</td> 
+     <td><strong>Budgeted Labor Cost display name</strong></td> 
+     <td><strong>Area of Workfront</strong></td> 
     </tr> 
     <tr> 
      <td>Budgeted Labor Cost</td> 
@@ -108,7 +107,7 @@ You can view the following Budgeted Labor Cost information in Workfront:
     </tr> 
     <tr> 
      <td>Budgeted Cost</td> 
-     <td>Utilization report Cost view</td> 
+     <td><p>Utilization report Cost view</p><p>For more information, see <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md">View utilization information</a> .</p></td> 
     </tr> 
     <tr> 
      <td>BDG </td> 
@@ -116,9 +115,7 @@ You can view the following Budgeted Labor Cost information in Workfront:
     </tr> 
     <tr> 
      <td>Resource Planner Project Budgeted Labor Cost</td> 
-     <td> <!--
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report</p>
-      --> <p>Project report</p> <p>Project (Financial Data) report</p> <p>Task report</p> <p>Issue report</p> <p>Budgeted Hour report</p> <p>For information about creating a report, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </td> 
+     <td> <p>Project report</p> <p>Project (Financial Data) report</p> <p>Task report</p> <p>Issue report</p> <p>Budgeted Hour report</p> <p>For information about creating a report, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </td> 
     </tr> 
    </tbody> 
   </table>
@@ -130,10 +127,10 @@ You can view the following Budgeted Labor Cost information in Workfront:
 ## Locate the Budgeted Hours of a project
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Keep the structure of this article similar to Calculating Budgeted Cost)</p>
+(NOTE: Keep the structure of this article similar to Calculating Budgeted Cost)
 -->
 
-Budgeted Hours affect the value of the Budgeted Labor Cost of the project.
+Budgeted Hours affect the value of the Budgeted Labor Cost (or the Resource Planner Budgeted Cost) of the project.
 
 The Budgeted Labor Cost of a project is the cost associated with the job roles assigned to complete the work on the project and the amount of hours estimated (Budgeted Hours) that might take each role to complete the work.
 
@@ -141,34 +138,24 @@ You can view the Budgeted Hours in Workfront in the fields listed in the table b
 
 >[!NOTE]
 >
->Any other mention of Budgeted Hours in Adobe Workfront refers to hours budgeted using deprecated features that have been removed from Workfront . These are view-only fields and do not update with current information when you use current resource budgeting tools.
+>Any other mention of "Budgeted Hours" in Workfront refers to hours budgeted using deprecated features that have been removed from Workfront. These are view-only fields and do not update with current information when you use current resource budgeting tools.
 
 The hours budgeted in the Resource Budgeting area of the Business Case or the Resource Planner display in the following areas of Workfront and under the following names:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Budgeted Hours display name</td> 
-   <td>Areas of Workfront</td> 
-  </tr> 
-  <tr> 
-   <td>Hours</td> 
-   <td>Resource Budgeting area of the Business Case</td> 
-  </tr> 
-  <tr> 
-   <td>BDG</td> 
-   <td>Resource Planner viewed by Hours</td> 
-  </tr> 
-  <tr> 
-   <td>Budgeted Hours</td> 
-   <td> <p>Utilization report Hours view</p> <p>For more information about the Utilization report, see the article <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Overview of the Resource Utilization report</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Bud. Hours</td> 
-   <td> <p>Budgeted Hour report</p> <p>For more information about creating a report, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **Hours**: Resource Budgeting area of the Business Case
+* **BDG**:Resource Planner viewed by Hours
+* **Budgeted Hours**: Utilization report Hours view 
+For information, see [View resource utilization information](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+* **Bud. Hours**: Budgeted Hour report 
+
+  The Budgeted Hour object in the Budgeted Hour report refers to information related to a deprecated resource management tool. Only the "Bud. Hours" field in this report refers to the hours budgeted in the Resource Planner or the Resource Budgeting area of the project's Business Case.
+  
+  For more information about creating a report, see the article **Create a custom report**.
+* **Resource Planner Budgeted Hours**: in the following reports:
+   
+  * Project report
+  * Project (Financial Data) report
+  * Task report
+  * Issue report
+  * Budgeted Hour report
 
