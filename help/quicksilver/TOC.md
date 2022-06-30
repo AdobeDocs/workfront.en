@@ -577,7 +577,6 @@ feature-set: Workfront
       * [Create and manage groups](administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
       * [Create a group](administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
       * [Manage a group](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
-      * [Group administrator capabilities](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
       * [Group event notifications](administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
       * [View and manage a group's details](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
       * [View and manage a group's memberships](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
