@@ -72,7 +72,7 @@ You can provide updates on any work item in the Work List:
    **Commit Date:** Select a date from the date picker when you commit to complete the work item.  
    **How's it going?:**&nbsp;Select a new condition for the task or issue. For more information about task and issue conditions, see [Update Condition for tasks and issues](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).  
    **Status:**&nbsp;Select a new status for the task or issue. For more information about task statuses, see [Update task status](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). For more information about issue statuses, see [Access the list of system issue statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).  
-   **Completion Bar:**Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete. 
+   **Completion Bar:** Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete. 
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
