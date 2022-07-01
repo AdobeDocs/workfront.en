@@ -74,7 +74,7 @@ This article describes how to use the filters in the Home area to view items tha
 You can access a request assigned to your team directly from the Home area. For more information about team requests, see [Team requests overview](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
-1. In the **Work List**area, click to expand the&nbsp;**Team Requests**grouping.
+1. In the **Work List** area, click to expand the **Team Requests** grouping.
 
    If there are no requests assigned to your team, the grouping does not display.
 
@@ -140,11 +140,11 @@ If you decide that you should not be working on the request, you can either conv
 
 1. Select from the following options:
 
-   * **Convert to work request:**&nbsp;Select this option to convert the work item back to a work request.   
+   * **Convert to work request:** Select this option to convert the work item back to a work request.   
      The work item is transitioned back to a request, and you remain assigned to the request.  
      You can accept the request at a later time by clicking **Work on It** again.
    
-   * **Remove:**Select this option&nbsp;to remove a request from your Work List.  
+   * **Remove:** Select this option&nbsp;to remove a request from your Work List.  
      You are unassigned from the&nbsp;request and the&nbsp;request is&nbsp;no longer associated with your name in Adobe Workfront.  
      If the request is not assigned to anyone else or to another team or job role, the request is&nbsp;left unassigned.
 
