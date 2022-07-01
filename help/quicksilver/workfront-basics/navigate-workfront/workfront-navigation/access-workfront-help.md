@@ -46,5 +46,5 @@ In addition to searching for help documentation, you can also access the followi
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click **Help** ![](assets/help-icon-32x33.png).
+1. Click **Help** ![](assets/help-icon.png).
 

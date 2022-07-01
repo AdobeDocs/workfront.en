@@ -278,8 +278,8 @@ The following table shows some of the differences between the legacy and updated
  <col> 
  <tbody> 
   <tr> 
-   <td>Legacy lists</td> 
-   <td>Updated lists</td> 
+   <td><b>Legacy lists</b></td> 
+   <td><b>Updated lists</b></td> 
   </tr> 
   <tr> 
    <td> <p>Legacy fonts, column headers, blue grouping color scheme</p> </td> 
