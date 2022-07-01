@@ -349,7 +349,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <li><strong>Budgeted Cost</strong>: in the Utilization report Cost view
    <p>For more information, see <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">View resource utilization information </a>.</p>
    <li><strong>BDG</strong>: in the Resource Planner Project or Role views, when viewing by Cost
-   <li><strong>Budgeted Labor Cost</strong>: in the following reports: 
+   <li><strong>Resource Planner Budgeted Labor Cost</strong>: in the following reports: 
    <ul>
     <li>Project report</li>
     <li>Project (Financial Data) report</li>
@@ -389,8 +389,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
    </tr> 
    <tr> 
    <td>Budgeted Start Date</td> 
-  <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> <!--<p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.&nbsp;</p> <p>These areas have been removed from Workfront. </p> <p>The field is still visible in project and task reports and lists.</p> -->   
-  </td> 
+  <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated.</p>
+  <p>These areas have been removed from Workfront. </p> 
+  <p>The field is still visible in project and task reports and lists.</p>
+   <!--
+   <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
+   -->   
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Burndown Chart</td> 
