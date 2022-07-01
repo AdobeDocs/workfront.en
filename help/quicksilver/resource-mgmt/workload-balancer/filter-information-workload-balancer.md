@@ -52,22 +52,20 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, issues<span data-mc-conditions="QuicksilverOrClassic.Quicksilver">,<span data-mc-edit-date="2021-08-31T17:08:19.1487558-04:00" data-mc-editor="alinaw" data-mc-comment="drafted, yellow" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2021-08-31T17:08:16.2246621-04:00">filters</span></span></p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Manage permissions to the filters you want to edit or delete <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       (NOTE: stays NWE)
-      </MadCap:conditionalText>
-     --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher permissions to the projects, tasks, issues</p>
+   <p>Manage permissions to the filters you want to edit or delete</p>
+     </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Overview of filters in the Workload Balancer
 
 Consider the following when working with filters in the Workload Balancer:
 
-* Depending on where you access the Workload Balancer from, Workfront might already be filtering the information for you.&nbsp;For information about pre-applied filters, see the section [Pre-applied filters in the Workload Balancer](#pre-applied-filters-in-the-workload-balancer) in this article. 
+* Depending on where you access the Workload Balancer from, Workfront might already be filtering the information for you. For information about pre-applied filters, see the section [Pre-applied filters in the Workload Balancer](#pre-applied-filters-in-the-workload-balancer) in this article. 
 * You can create and apply a filter without saving it, or you can save a filter to reuse at a later time. 
 * When you apply a filter without saving it, you can revert to the original lists by refreshing your page. 
 * You can view filters you created or filters that other users created and shared with you. 
