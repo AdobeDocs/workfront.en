@@ -263,60 +263,19 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <li><strong>Cost</strong>: in the Utilization areas when viewing information by Cost</li>
    <li><strong>Project Budgeted Cost</strong>: in lists and reports</li>
    </ul>   
-    <p>The Budgeted Cost for the project is calculated using the following formula:<br></p> <p><code>Project Budgeted Cost (or Budgeted Cost) = Budgeted Expense Cost + Budgeted Labor Cost + Fixed Cost of the project</code> </p> <p>For more information about calculating Budgeted Cost and to understand various names for this concept in Workfront, see the article <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Project Budgeted Cost</a>. </p> <!--
-
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Budgeted Labor Cost in the calculation above may refer to either of the following fields:</p>
-    --> 
-    <!--
-    <ul> 
-     <li> 
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Labor costs for hours budgeted in the Resource Budgeting area of the Business Case of the project (or in the Resource Planner). </p>
-       </li> 
-     <li> 
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)</p>
-             <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-      </li> 
-    </ul> 
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can locate the Budgeted Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in&nbsp;Workfront: </p>
-        <ul> 
-      <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Business Case Summary</li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Portfolio Optimizer (in the Cost field)</li>
-          <li> 
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">In the following reports, in the Project Budgeted Cost field: </p>
-            <ul> 
-        <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report</li>
-               <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Budgeted Hour report </li>
-               <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Project report</li>
-               <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Project (Financial&nbsp;Data)</li>
-               <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Task&nbsp;report</li>
-               <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Issue report</li>
-            </ul> </li> 
-    </ul> 
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can locate the Budgeted Cost field based on the hours formerly budgeted in the Capacity Planner or Legacy&nbsp;Resource Estimates area of the Business Case in the reports listed below. </p>
-         <p>Important: The Capacity Planner and Legacy&nbsp;Resource Estimates areas have been removed from&nbsp;Workfront. You cannot update any information that might display in these fields.</p>
-        <ul> 
-      <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (in the Project: Budgeted Cost field)</li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Budgeted Hour report </li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Project report</li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Project (Financial Data) report</li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Task&nbsp;report</li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Issue report</li>
-        </ul> -->
-        </td> 
+    <p>The Budgeted Cost for the project is calculated using the following formula:</p> 
+    <p><code>Project Budgeted Cost (or Budgeted Cost) = Budgeted Expense Cost + Budgeted Labor Cost + Fixed Cost of the project</code> </p> 
+    <p>For more information about calculating Budgeted Cost and to understand various names for this concept in Workfront, see <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Project Budgeted Cost</a>. </p>
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Budgeted Hours</td> 
-   <td> <p>The hours budgeted for resources for the work they need to complete on projects. This field refers to the Hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner) for the project or for the project resources.</p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>. </p> 
-    <!--<ul> 
-     <li> 
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Hours that were formerly budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)</p>
-      --> <!--
-       <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-       </li> 
-    </ul>
+   <td> <p>The hours budgeted for resources for the work they need to complete on projects. This field refers to the hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner) for the project or for the project resources.</p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>. </p> 
+    <!-- 
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Hours that were formerly budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)</p>
+    <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
+  -->
     <p> For information about budgeting Users in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> 
-    <div> 
-     <p>The hours budgeted in the Resource Budgeting area of the Business Case or the Resource Planner display in the following areas of Workfront and under the following names:</p> 
+    <p>The hours budgeted in the Resource Budgeting area of the Business Case or the Resource Planner display in the following areas of Workfront and under the following names:</p> 
      <table style="table-layout:auto"> 
       <col> 
       <col> 
@@ -355,8 +314,8 @@ The following table is a list of commonly used terms in Adobe Workfront:
        </tr> 
       </tbody> 
      </table> 
-    </div> <p>Any other mention of Budgeted Hours in Adobe Workfront refers to hours budgeted using deprecated features that have been removed from Workfront . These are view-only fields and do not update with current information when you use current resource budgeting tools. </p>
-         <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can locate the Budgeted Hours from theResource Planner in the areas and reports listed below. </p>
+    <p>Any other mention of Budgeted Hours in Adobe Workfront refers to hours budgeted using deprecated features that have been removed from Workfront . These are view-only fields and do not update with current information when you use current resource budgeting tools. </p>
+    <!--<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can locate the Budgeted Hours from theResource Planner in the areas and reports listed below. </p>
      <ul> 
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Planner Hours view (in the BDG column)</li>
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Utilization report Hours view</li>
@@ -392,16 +351,14 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <li><strong>BDG</strong>: in the Resource Planner Project or Role views, when viewing by Cost
    <li><strong>Budgeted Labor Cost</strong>: in the following reports: 
    <ul>
-    <li>Project report
-    <li>Project (Financial Data) report
-    <li>Task report
-    <li>Issue report
+    <li>Project report</li>
+    <li>Project (Financial Data) report</li>
+    <li>Task report</li>
+    <li>Issue report</li>
     <li>Budgeted Hour report</li> 
     </ul>
-    </li> 
-    </ul>
-    </li> 
-    </ul>
+    <p>For more information about creating a report, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p>
+    <!--
           <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner). This was available only in Adobe Workfront Classic. </p>
            <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
        </li> 
@@ -427,11 +384,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
            <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Task&nbsp;report</li>
            <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Issue report</li>
          </ul>      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about calculating the Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>&nbsp;.&nbsp;</p>
-    --> </td> 
+    --> 
+    </td> 
    </tr> 
    <tr> 
    <td>Budgeted Start Date</td> 
-  <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> <!--<p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.&nbsp;</p> -->  <p>These areas have been removed from Workfront. </p> <p>The field is still visible in project and task reports and lists.</p> </td> 
+  <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> <!--<p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.&nbsp;</p> <p>These areas have been removed from Workfront. </p> <p>The field is still visible in project and task reports and lists.</p> -->   
+  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Burndown Chart</td> 
@@ -1110,10 +1069,11 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Layout Type</td> 
    <td>In conjunction with Custom Views, the Layout Type specifies the type of Custom View. Currently, only List is available. In the future, Detail (the Detail view of an object) may become available.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <!--<tr data-mc-conditions=""> 
    <td>Legacy Budgeted Cost</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </p> <p>See <i>Budgeted Cost</i>. </p> </td> 
-  </tr> 
+  </tr>
+  --> 
   <!--<tr data-mc-conditions=""> 
    <td>Legacy Budgeted Hours</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </p> <p>See <i>Budgeted Hours</i>. </p> <p>
@@ -1121,9 +1081,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
         This field shows the number of hours budgeted for the project in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner. 
        <br>If there&nbsp;are multiple job roles, this is a summary of the budgeted hours for all job roles. The Legacy Budgeted Hours are calculated after you have used the "Set budget to schedule" feature, or after you have defined how many of the Planned Hours should be budgeted, in the Resource Estimates area of the Business Case of the project or in the Capacity Planner.&nbsp; 
      </p> </td> </tr> -->
-  <tr data-mc-conditions=""> 
+  <!--<tr data-mc-conditions=""> 
    <td>Legacy Budgeted Labor Cost</td> 
-   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> <p>The field is still visible in some reports and lists. </p> <p>See <i>Budgeted Labor Cost</i>. </p> <!--
+   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> <p>The field is still visible in some reports and lists. </p> <p>See <i>Budgeted Labor Cost</i>. </p> 
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">In a project report, this field shows the labor cost associated with the project, taking into account the Cost per Hour rate of every job role and the amount of Legacy Budgeted Hours estimated in the Legacy Resource Estimates area of the Business Case that is needed for each role to complete the project.&nbsp;</p>
     --> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Legacy Budgeted Labor Cost in a project report is calculated using the following formula:</p>
@@ -1135,8 +1095,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Legacy Resource Pool</td> 
-   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> <p>Although not recommended, you may update the information in this report using the API.</p> <p>See <i>Resource Pools</i>. </p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
+   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> 
+   <p>Although not recommended, you may update the information in this report using the API.</p> 
+   <p>See <i>Resource Pools</i> for updated fields. </p> 
+   <!-- <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
   </tr> 
   <tr> 
@@ -1765,7 +1727,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Resource Planner Budgeted Labor Cost</td> 
-   <td> <p>These are the hours budgeted for project job roles using the Resource Planner. </p> <p>See <i>Budgeted Labor Cost</i>. </p> </td> 
+   <td> <p>These are the cost associated with the hours budgeted for project job roles using the Resource Planner. </p> <p>See <i>Budgeted Labor Cost</i>. </p> </td> 
 
   </tr> 
   <tr> 
