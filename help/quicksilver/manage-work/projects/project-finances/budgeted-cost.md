@@ -22,9 +22,7 @@ The Budgeted Cost of a project is the total cost associated with the project as 
 
 You cannot manually change the Budgeted Cost of a project. Adobe Workfront calculates the Budgeted Cost using the following formula:
 
-```
-Budgeted Cost = Resource Planner Budgeted Labor Cost + Budgeted Expenses Cost + Fixed Cost of the project
-```
+`Budgeted Cost = Resource Planner Budgeted Labor Cost + Budgeted Expenses Cost + Fixed Cost of the project`
 
 * The **Resource Planner Budgeted Labor Cost** in the calculation above is the cost associated with the job roles in the project.
 
@@ -50,17 +48,15 @@ Budgeted Cost = Resource Planner Budgeted Labor Cost + Budgeted Expenses Cost + 
 
 ## Locate the Budgeted Cost of a project
 
-You can view the following Budgeted Cost information in Workfront:
-
-* The Budgeted Cost as reflected in the Resource Budgeting area of the Business Case or the Resource Planner displays in the following areas of Workfront under the following names:
+The Budgeted Cost as reflected in the Resource Budgeting area of the Business Case or the Resource Planner displays in the following areas of Workfront under the following names:
 
   <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 
     <tr> 
-     <td>Budgeted Cost display name</td> 
-     <td>Area of Workfront</td> 
+     <td><strong>Budgeted Cost display name</strong></td> 
+     <td><strong>Area of Workfront</strong></td> 
     </tr> 
     <tr> 
      <td>Budgeted Cost</td> 
