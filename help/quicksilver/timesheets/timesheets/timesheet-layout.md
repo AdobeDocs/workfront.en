@@ -15,9 +15,7 @@ Timesheet and Hour Preferences control what appears on a timesheet. This article
 
 For information about how to log time on a time sheet, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-<!--
-![](assets/timesheet-layout-nwe.png) - this picture would just NOT link. Every time I make it live, I get git errors and cannot commit pull request. I have no idea why. 
--->
+![Timesheet layout](assets/timesheet-layout-unshimmed.png)
 
 The following are the areas of a timesheet:
 
