@@ -22,15 +22,15 @@ The Budgeted Cost of a project is the total cost associated with the project as 
 
 You cannot manually change the Budgeted Cost of a project. Adobe Workfront calculates the Budgeted Cost using the following formula:
 
-```
-Budgeted Cost = Budgeted Labor Cost + Budgeted Expenses Cost + Fixed Cost of the project
-```
+`Budgeted Cost = Resource Planner Budgeted Labor Cost + Budgeted Expenses Cost + Fixed Cost of the project`
 
-* The **Budgeted Labor Cost** in the calculation above is the cost associated with the job roles in the project.
+* The **Resource Planner Budgeted Labor Cost** in the calculation above is the cost associated with the job roles in the project.
 
-  You can track the Budgeted Labor Cost of a project in the following area of Workfront:
+  You can track the Budgeted Labor Cost of a project in Resource Budgeting area of the Business Case or the Resource Planner. 
 
-   * Resource Budgeting area of the Business Case or the Resource Planner
+  >[!TIP]
+  >
+  >  The Budgeted Labor Cost of a project in the Business Case displays as Resource Planner Budgeted Labor Cost in reports and lists.
 
   For information about Budgeted Labor Costs, see the article [Understand Budgeted Labor Cost and Budgeted Hours for projects](../../../manage-work/projects/project-finances/budgeted-labor-cost.md). 
 
@@ -48,17 +48,15 @@ Budgeted Cost = Budgeted Labor Cost + Budgeted Expenses Cost + Fixed Cost of the
 
 ## Locate the Budgeted Cost of a project
 
-You can view the following Budgeted Cost information in Workfront:
-
-* The Budgeted Cost as reflected in the Resource Budgeting area of the Business Case or the Resource Planner displays in the following areas of Workfront under the following names:
+The Budgeted Cost as reflected in the Resource Budgeting area of the Business Case or the Resource Planner displays in the following areas of Workfront under the following names:
 
   <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 
     <tr> 
-     <td>Budgeted Cost display name</td> 
-     <td>Area of Workfront</td> 
+     <td><strong>Budgeted Cost display name</strong></td> 
+     <td><strong>Area of Workfront</strong></td> 
     </tr> 
     <tr> 
      <td>Budgeted Cost</td> 

@@ -55,7 +55,7 @@ You must have the following before you begin:
 
 * If you have a Workfront license other than Review, your Workfront or Group administrator must add the My&nbsp;Updates area to the Main&nbsp;Menu using a layout template and assign you to that template.
 
-  Review-license users can view the My Updates area in their Main Menu by default.
+* Review-license users can view the My Updates area in their Main Menu by default.
 
 ## Access the My Updates area
 

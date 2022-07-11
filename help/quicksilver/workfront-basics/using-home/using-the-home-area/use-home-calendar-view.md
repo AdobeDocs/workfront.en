@@ -144,13 +144,7 @@ To update the integrated calendar events in your Home Calendar:
 ## Filter and sort work items  {#filter-and-sort-work-items}
 
 1. Go to the Home Calendar view, as explained in [View the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
-1. Click the **Filter** 
-
-   <!--
-   <img src="assets/filter-nwepng.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-   -->
-
-   drop-down menu.
+1. Click the **Filter** drop-down menu.
 
    >[!NOTE]
    >
@@ -229,7 +223,7 @@ To update the integrated calendar events in your Home Calendar:
 
    ![](assets/calendar-filters-nwe-350x392.png)
 
-1. To group and sort your list of work, click the Group by drop-down menu, then select the criteria you want to use.
+1. To group and sort your list of work, click the **Group by** drop-down menu, then select the criteria you want to use.
 
    The items are listed on the left side of the calendar according to the criteria and in the order that you specify.
 
