@@ -23,6 +23,7 @@ You can link documents and folders to Adobe Workfront from the following sources
      <li>Dropbox Business</li> 
      <li>WebDAM</li> 
      <li>Microsoft OneDrive</li> 
+     <li>Microsoft SharePoint</li> 
      <li>Google Drive</li> 
     </ul></td> 
   </tr> 
@@ -36,10 +37,6 @@ You can link documents and folders to Adobe Workfront from the following sources
   </tr> 
   <tr> 
    <td role="rowheader">Workfront DAM </td> 
-   <td>This requires an additional purchase. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Microsoft SharePoint</td> 
    <td>This requires an additional purchase. </td> 
   </tr> 
   <tr> 

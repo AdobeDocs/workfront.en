@@ -271,11 +271,15 @@ For instructions, see [Link an external document to Workfront](../../documents/a
 
 ## Disable linking to the legacy SharePoint integration{#disable-linking}
 
+>[!NOTE]
+>
+>The legacy SharePoint integration is labeled "SharePoint." The new SharePoint integration is labeled "SharePoint (Graph API)." To disable the legacy SharePoint integration, be sure to disable the integration labeled "SharePoint."
+
 *   Click the Main Menu icon ![Main menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click Setup ![Setup](../get-started-wf-administration/assets/gear-icon-settings.png).
     
 *   Select **Documents** in the left navigation, then select **Cloud Providers**.
     
-*   Uncheck the **Legacy SharePoint** option.
+*   Uncheck the **SharePoint** option.
     
 *   Click **Save**.
     
