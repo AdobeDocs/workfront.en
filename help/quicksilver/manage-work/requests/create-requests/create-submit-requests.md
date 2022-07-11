@@ -8,8 +8,6 @@ feature: Work Management
 
 # Create and submit Adobe Workfront requests
 
-{{highlighted-preview}}
-
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
@@ -17,8 +15,6 @@ feature: Work Management
 <p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
 </div>
 -->
-
-&nbsp;
 
 Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work—in the form of random requests—can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues.&nbsp;
 
@@ -49,12 +45,12 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites for using Request Queues
 
@@ -91,7 +87,7 @@ You can continue submitting the request, or you can complete as much information
 >Consider the following when working with drafts:
 >
 >* Workfront does not create draft requests when you submit them from a third-party application, like emailing them into Workfront, or creating them using any another application. When you submit a request from outside the Workfront web app the request is saved in  the Submitted section.  
->* If the structure of a request queue changes, you can no longer access existing drafts.&nbsp;For example, if a queue topic is removed, or a topic group is added, the saved drafts are no longer accessible. 
+>* If the structure of a request queue changes, you can no longer access existing drafts. For example, if a queue topic is removed, or a topic group is added, the saved drafts are no longer accessible. 
 >
 
 For information about creating requests from existing drafts, see [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). For information about deleting request drafts, see also [Delete a request draft](../../../manage-work/requests/create-requests/delete-request-draft.md).
@@ -236,11 +232,11 @@ To create a request in the Workfront web app:&nbsp;
       <td>The Primary Contact of a request defaults to you, as you are the point person to address any questions pertaining to the request. However, you can change this to any other Workfront user.</td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><span>Assignments*</span> </td> 
-      <td> <p><span>Specify the name of an active user, job role, or a team that the request should be assigned to.&nbsp;</span> </p> <p>Tip: <span>You can specify only one team.</span> </p> <p><span>Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three.</span> </p> <p><span>We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources.</span> </p> </td> 
+      <td role="rowheader"><strong>Assignments</strong> </td> 
+      <td> <p><span>Specify the name of an active user, job role, or a team that the request should be assigned to.</span> </p> <p>You can specify only one team.</p> <p><span>Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three.</span> </p> <p><span>We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources.</span> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader" colspan="2"> <p>Note:   <p style="font-weight: normal;">* Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team.) </p> <p style="font-weight: normal;">For more information, see the following articles:</p> 
+      <td role="rowheader" colspan="2"> <p> Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team.) </p>For more information, see the following articles:</p> 
         <ul> 
          <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a> </p> </li> 
          <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a> <br> </p> </li> 
@@ -260,20 +256,20 @@ To create a request in the Workfront web app:&nbsp;
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 
-      <td>The default status of a new request is "New." Your system administrator might have changed the name of this&nbsp;status. You can also change the status to something else from this drop-down menu.</td> 
+      <td>The default status of a new request is "New." Your system administrator might have changed the name of this status. You can also change the status to something else from this drop-down menu.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Documents</strong> </td> 
-      <td> <p>Add documents to your request. </p> <p>Tip: Depending on how the request queue was set up, the Documents section might display before or after the custom fields. </p> <p>Documents that you upload to Workfront are stored for 24 hours in a drafted request. After that, you must reattach them when you return to edit and submit the draft. Documents that are linked from other drives are saved on the draft permanently. </p> </td> 
+      <td> <p>Add documents to your request. </p> <p> Depending on how the request queue was set up, the Documents section might display before or after the custom fields. </p> <p>Documents that you upload to Workfront are stored for 24 hours in a drafted request. After that, you must reattach them when you return to edit and submit the draft. Documents that are linked from other drives are saved on the draft permanently. </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. (Optional) If your Workfront administrator associated a custom form with the Request Queue or with the Queue Topic, specify the fields inside the custom form.   
    Custom forms are different for every Workfront instance.&nbsp;
-1. (Optional and conditional)&nbsp;At any point during entering the request, click **Discard****Discard draft** if you want to delete the draft that is automatically created. This deletes the draft which cannot be recovered. A confirmation message displays to acknowledge that you are deleting the draft. 
+1. (Optional and conditional) At any point during entering the request, click [!UICONTROL **Discard draft**] if you want to delete the draft that is automatically created. This deletes the draft which cannot be recovered. A confirmation message displays to acknowledge that you are deleting the draft. 
 
-1. (Optional) Click **Cancel** on the confirmation message if you want to revert your action and keep the draft.
+1. (Optional) Click [!UICONTROL **Undo**] on the confirmation message if you want to revert your action and keep the draft.
 
 1. Do one of the following:
 
