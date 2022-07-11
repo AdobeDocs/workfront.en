@@ -605,15 +605,6 @@ This action module lets you make a custom authenticated call to the Figma API wi
   </tbody>
 </table>
 
-
-**Note:**
-
-When using conditional statements such as `if` in your JSON, put the quotation marks outside of the conditional statement.
-
-**Example:**
-
-![](../../Resources/Images/WF Fusion/Apps/Docs/quotes in JSON.png)
-
 #### Watch events
 
 This trigger module starts a scenario when one of the following events occur for a specific team in your Figma team space
