@@ -46,6 +46,10 @@ You must have the following to perform the steps in this article:
 
 1. (Optional) To position custom fields and widgets on the same row, drag one next to the other until a line appears between them.
 
+   You can drag multiple items. Press the following keys while you select the items, then drag the items together to the new row:
+   * Mac: Command+Shift
+   * Windows: Ctrl+Shift
+
    When you drop the custom field or widget, a gray box displays around the two items to indicate that they share a row.
 
    >[!NOTE]
