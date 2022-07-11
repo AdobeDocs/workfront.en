@@ -417,8 +417,10 @@ This action module retrieves a single file or image from a Figma library
     </tr>
   </tbody>
 </table>
-<h4><a name="List2"></a>List file version history</h4>
-<p>This search module returns the version history of a single file in Figma.</p>
+
+### List file version history
+
+This search module returns the version history of a single file in Figma.
 <table>
   <col/>
   <col/>
