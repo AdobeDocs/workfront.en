@@ -12,6 +12,14 @@ role: Admin
 
 You can manually migrate your layout templates created in Workfront Classic to the new Adobe Workfront experience.
 
+<!--
+Remove below paragraph and bullets sometime not too long after Classic is deprecated
+-->
+For other helpful information about migrating layout templates to the new Workfront experience, see the following:
+
+* Learning path: [Setup considerations for the new Workfront experience](https://one.workfront.com/s/learningpath5/setup-considerations-for-the-new-workfront-experience-MCR7YOFX3WVRCLPHYWQ4ELA7SQWE)
+* Webinar: [System Admin Essentials: Designing an Ideal User Experience](https://event.on24.com/wcc/r/3683653/48456C5ED2DC97F00ADA7183A4FC669A?partnerref=WFOne)
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 
@@ -52,6 +60,3 @@ You must have the following access to perform the steps in this article:
    If they do already exist in the new Adobe Workfront experience, these layout templates will replace them. 
 
 1. (Optional) Switch to the new Workfront experience to make sure the layout templates you migrated from Workfront Classic are available there.
-
-   If you need information about switching between Workfront Classic and the new Adobe Workfront experience, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
-

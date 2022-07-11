@@ -83,14 +83,5 @@ You must have the following to perform the steps in this article:
 
    For information about editing a company, see the section [Create or edit a company in Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) in the article [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-1. (Optional) To export the list of companies, click **Export**
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   the Export icon
-   <img src="assets/export.png">
-   </MadCap:conditionalText>
-   -->
-
-   , then select the file format you want for the exported list.
+1. (Optional) To export the list of companies, click the Export icon ![](assets/export.png), then select the file format you want for the exported list.
 
