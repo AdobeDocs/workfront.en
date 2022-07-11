@@ -1,4 +1,4 @@
-s---
+---
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;documents
