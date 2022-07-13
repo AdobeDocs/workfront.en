@@ -862,7 +862,7 @@ feature-set: Workfront
     * [Configure Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
   * Get started with boards in Adobe Workfront {#boards-in-workfront}
     * [Get started with boards in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
-    * [Boards early feature opt-in](../../agile/get-started-with-boards/boards-early-feature-opt-in.md)
+    * [Boards early feature opt-in](agile/get-started-with-boards/boards-early-feature-opt-in.md)
     * [Use the boards dashboard](agile/get-started-with-boards/use-boards-page.md)
     * [Create or edit a board](agile/get-started-with-boards/create-edit-board.md)
     * [Delete or archive a board](agile/get-started-with-boards/delete-archive-board.md
