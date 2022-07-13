@@ -21,19 +21,19 @@ You can use calculated data expressions in:
 
   For more information about using text mode in reports and views, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-## The syntax of calculated custom fields vs the syntax of calculated custom columns
+## Syntax of calculated custom fields vs. calculated custom columns
 
-Although the data expressions used are the same, the syntax for building a calculated custom field is different than that of building a calculated custom column.
+Although the functions that you use are the same, the syntax for building an expression in a calculated custom field can be different than it is for  building a calculated custom column.
 
 For example:
 
-* To add a calculated data expression to a custom field on a task form for the Project Name, you use the following text:
+* In a custom field, on a custom form for tasks, you would use the following to generate the name of the parent project of the task where the custom form is attached:
 
   ```
-  Project.Name
+  {project}.{name}
   ```
 
-* To add a calculated data expression to a custom column on a task report for the Project Name, you use the following text:
+* In a custom column in a report, you would use the following to add a Project Name custom column on a task report:
 
   ```
   valuefield=project:name
@@ -59,7 +59,7 @@ The differences between the two syntaxes are:
    <td><strong>Calculated custom field</strong></td> 
    <td><strong>Calculated custom reporting element</strong></td> 
   </tr> 
-   <td>Enclose field names in parentheses or curly brackets.</td> 
+   <td>Enclose field names in curly brackets.</td> 
    <td>Do not enclose field names in brackets or parentheses when using them in a <code>valuefield </code>line. <p>Enclose field names in curly brackets when using them in a <code>valueexpression</code> line.</p> </td> 
   </tr> 
   <tr> 

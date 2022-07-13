@@ -17,23 +17,23 @@ To aggregate several fields in Adobe Workfront and display that aggregate value 
 * A calculated column in a View  
   For more information about using calculations in a View, see the section [Use Text Mode in views](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#using-text-mode-in-views) in the article [Overview of common uses for Text Mode](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-Although you use text mode to build both calculated fields and calculated columns, the syntax for building them differs. Refer to the articles listed above to learn how to build calculated fields and calculated columns. For information about the different syntax used in calculated data expressions such as calculated custom fields and columns, see the [You can use the same calculations in both calculated fields as well as a calculated column. However, depending on what your purpose for these calculations is you might want to consider building one versus the other.](#you-can-use-the-same-calculations-in-both-calculated-fields-as-well-as-a-calculated-column-however-depending-on-what-your-purpose-for-these-calculations-is-you-might-want-to-consider-building-one-versus-the-other) section in this article.
+Although you use text mode to build both calculated fields and calculated columns, the syntax for building them differs. Refer to the articles listed above to learn how to build calculated fields and calculated columns. For information about the different syntax used in calculated data expressions such as calculated custom fields and columns, see the section [Syntax of calculated custom fields vs. calculated custom columns](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns-syntax) in this article.
 
 You can use the same calculations in both calculated fields as well as a calculated column. However, depending on what your purpose for these calculations is you might want to consider building one versus the other.
 
-## The syntax of calculated custom fields vs the syntax of calculated custom columns
+## Syntax of calculated custom fields vs. calculated custom columns
 
-Although the data expressions used are the same, the syntax for building a calculated custom field is different than that of building a calculated custom column.
+Although the functions that you use are the same, the syntax for building an expression in a calculated custom field can be different than it is for  building a calculated custom column.
 
 For example:
 
-* To add a calculated data expression to a custom field on a task form for the Project Name, you use the following text:
+* In a custom field, on a custom form for tasks, you would use the following to generate the name of the parent project of the task where the custom form is attached:
 
   ```
-  Project.Name
+  {project}.{name}
   ```
 
-* To add a calculated data expression to a custom column on a task report for the Project Name, you use the following text:
+* In a custom column in a report, you would use the following to add a Project Name custom column on a task report:
 
   ```
   valuefield=project:name
@@ -60,15 +60,15 @@ The differences between the two syntaxes are:
    <td>Calculated custom reporting element</td> 
   </tr> 
   <tr> 
-   <td> <p>Use the name of the fields as they appear in&nbsp;the Workfront interface.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom field:&nbsp;<code>Planned Completion Date</code>.</p> </td> 
-   <td> <p>Use the name of the objects or fields as they appear in the Workfront database. The names of objects and fields are spelled in lower case or camel case, if they are compound names. </p> <p>For an inventory of all&nbsp;Workfront objects and fields as they appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom reporting element:&nbsp;<code>plannedCompletionDate</code>.</p> </td> 
+   <td> <p>Use the name of the fields as they appear in the Workfront interface.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom field: <code>Planned Completion Date</code>.</p> </td> 
+   <td> <p>Use the name of the objects or fields as they appear in the Workfront database. The names of objects and fields are spelled in lower case or camel case, if they are compound names. </p> <p>For an inventory of all Workfront objects and fields as they appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom reporting element: <code>plannedCompletionDate</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Do not enclose field names in parentheses or curly brackets.</td> 
+   <td>Enclose field names in parentheses or curly brackets</td> 
    <td> <p>Do not enclose field names in brackets or parentheses when using them in a <code>valuefield </code>line.</p> <p>Enclose field names in curly brackets when using them in a <code>valueexpression</code> line.</p> </td> 
   </tr> 
   <tr> 
-   <td>Separate the fields by periods.</td> 
+   <td>Separate the fields by periods</td> 
    <td> <p>Separate the fields by colons when using them in a <code>valuefield </code>line</p> <p>Separate the fields by periods when using them in a <code>valueexpression </code>line. </p> </td> 
   </tr> 
  </tbody> 
