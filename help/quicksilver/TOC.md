@@ -862,6 +862,7 @@ feature-set: Workfront
     * [Configure Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
   * Get started with boards in Adobe Workfront {#boards-in-workfront}
     * [Get started with boards in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+    * [Boards early feature opt-in](agile/get-started-with-boards/boards-early-feature-opt-in.md)
     * [Use the boards dashboard](agile/get-started-with-boards/use-boards-page.md)
     * [Create or edit a board](agile/get-started-with-boards/create-edit-board.md)
     * [Delete or archive a board](agile/get-started-with-boards/delete-archive-board.md
@@ -1965,9 +1966,11 @@ feature-set: Workfront
     * [Apps and their modules](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
     * [Adobe Workfront modules](workfront-fusion/apps-and-their-modules/workfront-modules.md)
     * [Workfront Proof modules](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
-    * [Adobe PDF Services](workfront-fusion/apps-and-their-modules/pdf-modules.md)
     * [Adobe Acrobat Sign modules](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
+    * [Adobe Creative Cloud Libraries modules](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
     * [Adobe Experience Manager Assets modules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)    
+    * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
+    * [Adobe Target modules](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
     * [Allocadia modules](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
     * [Anaplan Modules](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
     * [Archive modules](workfront-fusion/apps-and-their-modules/archive-modules.md)
@@ -1985,6 +1988,7 @@ feature-set: Workfront
     * [Dropbox modules](workfront-fusion/apps-and-their-modules/dropbox-modules.md)
     * [Email modules](workfront-fusion/apps-and-their-modules/email-modules.md)
     * [Encryptor](workfront-fusion/apps-and-their-modules/encryptor-modules.md)
+    * [Figma modules](workfront-fusion/apps-and-their-modules/figma-modules.md)
     * [Flow control in Adobe Workfront Fusion](workfront-fusion/apps-and-their-modules/flow-control.md)
     * [Frame.io modules](workfront-fusion/apps-and-their-modules/frame-io-modules.md)
     * [FTP modules](workfront-fusion/apps-and-their-modules/ftp-modules.md)
@@ -2039,6 +2043,7 @@ feature-set: Workfront
     * [Trello modules](workfront-fusion/apps-and-their-modules/trello-modules.md)
     * [Webhooks](workfront-fusion/apps-and-their-modules/webhooks-updated.md)
     * [Widen modules](workfront-fusion/apps-and-their-modules/widen-modules.md)
+    * [Workday modules](workfront-fusion/apps-and-their-modules/workday-modules.md)
     * [XML](workfront-fusion/apps-and-their-modules/xml-modules.md)
   * Webhooks in Adobe Workfront Fusion {#webhooks-in-fusion}
     * [Webhooks in Adobe Workfront Fusion](workfront-fusion/webhooks/webhooks.md)

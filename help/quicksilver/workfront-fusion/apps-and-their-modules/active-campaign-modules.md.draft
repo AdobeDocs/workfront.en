@@ -181,7 +181,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>Select the type of [Fusion app] record from which you want the module to retrieve details.</p> </td> 
+   <td> <p>Select the type of ActiveCampaign record from which you want the module to retrieve details.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -206,7 +206,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td><strong>Field ID</strong> </td> 
-   <td> <p> Enter the unique [Fusion app] ID of the record that you want the module to update.</p> </td> 
+   <td> <p> Enter the unique ActiveCampaign ID of the record that you want the module to update.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Field Value</strong> </td> 

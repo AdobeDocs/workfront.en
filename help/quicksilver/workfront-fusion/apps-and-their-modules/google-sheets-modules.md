@@ -127,7 +127,7 @@ The module retrieves only new rows that have not been filled in before. The trig
 
 This module appends adds a row to a sheet.
 
-When you configure [Fusion app] modules, Workfront Fusion displays the fields listed below. Along with these, additional [Fusion app] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Google Sheets modules, Workfront Fusion displays the fields listed below. Along with these, additional Google Sheets fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
