@@ -10,6 +10,7 @@ feature: Agile
 
 This section contains the following articles:
 
+* [Boards early feature opt-in](../../agile/get-started-with-boards/boards-early-feature-opt-in.md)
 * [Use the boards dashboard](../../agile/get-started-with-boards/use-boards-page.md) 
 * [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md)
 * [Delete or archive a board](/help/quicksilver/agile/get-started-with-boards/delete-archive-board.md)
