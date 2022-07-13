@@ -107,14 +107,8 @@ To create a connection for your Adobe Target modules:
       <tr>
         <td role="rowheader">Tenant</td>
         <td>
-          <p> To locate your Tenant, log in to the Adobe Experience Cloud, open Target, and click the Target card. Use the Tenant ID value as noted in the URL subdomain.
-
-</p>
-          <p>For example, if your URL when logged in to Adobe Target is
-
-<code>&lt;https://mycompany.experiencecloud.adobe.com/...&gt;</code>
-
-then your Tenant ID is “mycompany.”</p>
+          <p> To locate your Tenant, log in to the Adobe Experience Cloud, open Target, and click the Target card. Use the Tenant ID value as noted in the URL subdomain.</p>
+          <p>For example, if your URL when logged in to Adobe Target is <code>&lt;https://mycompany.experiencecloud.adobe.com/...&gt;</code> then your Tenant ID is “mycompany.”</p>
         </td>
       </tr>
       <tr>
@@ -144,7 +138,7 @@ then your Tenant ID is “mycompany.”</p>
     </tbody>
   </table>
     
-3.  Click **Continue** to save the connection and return to the module.
+1.  Click **Continue** to save the connection and return to the module.
     
 ## Adobe Target modules and their fields
 
