@@ -10,9 +10,9 @@ feature: Product Announcements
 
 >[!NOTE]
 >
->The information on this page refers to functionality not yet generally available. This functionality was made available to all customers in the Preview environment in June 2022 (with the 22.3 release) and it will remain in beta for a longer period of time.
+>The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaign] beta program. The functionality described here might not be fully available yet. 
 
-<!--the note above needs to be updated with Production 22.3 and 22.4??? -->
+<!--the note above needs to be updated with Production 22.4 - this was released to Preview in 22.3; notice that the note says PREVIEW BETA - it might remain in BETA for a while (Production) but you might be able to remove "Preview" after 22.4 - ???  -->
 
 [!DNL Adobe Workfront Campaigns] offer a new way to manage your work. As a new object in Workfront, a campaign enables you to organize projects from different portfolios and programs in a new work container that will evolve and which will eventually include all work objects that you are currently managing in separate silos.
 
