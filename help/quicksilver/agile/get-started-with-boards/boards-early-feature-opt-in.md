@@ -72,7 +72,7 @@ Only Workfront administrators can opt in to early features for boards. When a W
 
 >[!IMPORTANT]
 >
->If you are not already using boards, the Boards option might not appear in the Main Menu. A Workfront administrator must add Boards to your layout template to make it available in the Main Menu. For information, see [Customize the Main Menu using a layout template](help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+>If you are not already using boards, the Boards option might not appear in the Main Menu. A Workfront administrator must add Boards to your layout template to make it available in the Main Menu. For information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
 1. Click **Early feature opt-in** at the top of the dashboard screen.
@@ -94,7 +94,7 @@ When your Workfront administrator has has enabled early features for boards, you
 
 When the Workfront administrator enables early features for boards, all users in the organization are opted in.
 
-However, the Workfront administrator can hide the Boards option from the Main Menu for individual users or groups of users with a layout template. For information, see [Customize the Main Menu using a layout template](help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+However, the Workfront administrator can hide the Boards option from the Main Menu for individual users or groups of users with a layout template. For information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 >[!NOTE]
 >
