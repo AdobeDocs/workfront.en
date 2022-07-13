@@ -56,7 +56,7 @@ For instructions about connecting your OneDrive for Business account to Workfron
 
 ## Microsoft OneDrive for Business modules and their fields
 
-When you configure [Fusion app] modules, Workfront Fusion displays the fields listed below. Along with these, additional [Fusion app] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Microsoft OneDrive for Business modules, Workfront Fusion displays the fields listed below. Along with these, additional Microsoft OneDrive for Business fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 

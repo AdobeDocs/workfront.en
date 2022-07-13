@@ -1985,6 +1985,7 @@ feature-set: Workfront
     * [Dropbox modules](workfront-fusion/apps-and-their-modules/dropbox-modules.md)
     * [Email modules](workfront-fusion/apps-and-their-modules/email-modules.md)
     * [Encryptor](workfront-fusion/apps-and-their-modules/encryptor-modules.md)
+    * [Figma modules](workfront-fusion/apps-and-their-modules/figma-modules.md)
     * [Flow control in Adobe Workfront Fusion](workfront-fusion/apps-and-their-modules/flow-control.md)
     * [Frame.io modules](workfront-fusion/apps-and-their-modules/frame-io-modules.md)
     * [FTP modules](workfront-fusion/apps-and-their-modules/ftp-modules.md)
@@ -2039,6 +2040,7 @@ feature-set: Workfront
     * [Trello modules](workfront-fusion/apps-and-their-modules/trello-modules.md)
     * [Webhooks](workfront-fusion/apps-and-their-modules/webhooks-updated.md)
     * [Widen modules](workfront-fusion/apps-and-their-modules/widen-modules.md)
+    * [Workday modules](workfront-fusion/apps-and-their-modules/workday-modules.md)
     * [XML](workfront-fusion/apps-and-their-modules/xml-modules.md)
   * Webhooks in Adobe Workfront Fusion {#webhooks-in-fusion}
     * [Webhooks in Adobe Workfront Fusion](workfront-fusion/webhooks/webhooks.md)

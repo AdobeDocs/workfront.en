@@ -15,7 +15,7 @@ The Adobe Workfront Fusion Google Team Drive modules enable you to monitor, uplo
 
 In order to use Google Team Drive with Adobe Workfront Fusion, it is necessary to have a G Suite account. If you do not have one, you can create a G Suite account at the [G Suite sign up site](https://gsuite.google.com/signup/businessstarter/welcome).
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use [Fusion app], as well as connect it to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Google Team Drive, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
