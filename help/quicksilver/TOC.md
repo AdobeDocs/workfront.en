@@ -830,7 +830,6 @@ feature-set: Workfront
     * [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/subtabs-removed.md)
     * [Summary overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/summary-overview.md)
     * [Breadcrumbs overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
-    * [Edit object details in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/combined-pages-object-details.md)
     * [New object headers](workfront-basics/the-new-workfront-experience/new-object-headers.md)
     * [New object actions area](workfront-basics/the-new-workfront-experience/new-object-actions-area.md)
     * [Toolbar for lists in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md)
