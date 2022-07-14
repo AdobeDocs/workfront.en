@@ -217,15 +217,15 @@ Some settings mentioned in this article might be modified from their default sta
       <td> <p>Specify the date when you select <strong>Schedule from Completion Date</strong>. </p> <p>This is a read-only field when you select <strong>Schedule from Start Date</strong>.<br></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Portfolio</td> 
+      <td role="rowheader"><strong>Portfolio</strong></td> 
       <td>Indicate a Portfolio that the project belongs to. You must create a Portfolio first, before it appears in the drop-down list. Only active portfolios can be associated with a project. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio </a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Program</td> 
+      <td role="rowheader"><strong>Program</strong></td> 
       <td> <p>If you selected a Portfolio for the project, specify a Program for the project. Some Portfolios might not have Programs. You must create a Program first, before it appears in this drop-down list. Only active programs can be associated with a project. </p> <p>For more information about creating programs, see <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Create a program</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Group</td> 
+      <td role="rowheader"><strong>Group</strong></td> 
       <td> <p> <p>Specify the name of the group associated with the project. </p>This is a required field. You cannot have a project which is not associated with a group. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> By default, one of the following groups is automatically associated <span data-mc-edit-date="2020-12-02T17:06:08.1586452-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted, only in QS" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2020-12-02T17:06:00.8315301-05:00">with</span> a project when it is created, unless you specify a different group:</p> 
         <ul> 
          <li> <p><span>When the project is created from the Projects area, the Home Group of the project creator is associated with the project.</span> </p> <p>This is also true when the project is created from the Projects  section  in a portfolio or program.</p> </li> 
@@ -323,7 +323,7 @@ Some settings mentioned in this article might be modified from their default sta
       <td> <p>Specify the Fixed Revenue for the project.<br></p> </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader">Cost section</td> 
+      <td colspan="2" role="rowheader"><strong>Cost section</strong></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Fixed Cost</strong> </td> 
@@ -347,110 +347,111 @@ Some settings mentioned in this article might be modified from their default sta
 
 1. Update the following information:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>Milestone Path</strong> </td> 
-      <td> <p>Select a Milestone Path for the project. Only active milestone paths display in the list.</p> <p>For more information about Milestone Paths, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Create a milestone path</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Completion Mode</strong> </td> 
-      <td> <p>Controls how the project is marked as Complete. Select from the following options: 
-        <ul> 
-         <li><p><strong>Automatic</strong>: The project is marked Complete when all the tasks and issues are completed.</p><p>The project Status is automatically changed to Complete only when the project status is Current when the tasks are completed. </p></li> 
-         <li><strong>Manual</strong>: You have to manually select the Complete status for the project, when all the tasks and issues are completed.</li> 
-        </ul></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Summary Completion Mode </td> 
-      <td> <p>Controls how the parent tasks are marked as Complete. Select from the following options: 
-        <ul> 
-         <li><strong>Automatic</strong>: The parent tasks are marked Complete and they update their percent complete automatically, as the children tasks are completed and the percent complete of the children is updated. </li> 
-         <li><strong>Manual</strong>: You have to manually update the percent complete and the status of the parent tasks, independently of what changes are made to the children tasks.</li> 
-        </ul></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Update Type </td> 
-      <td> <p>Controls when the changes you make to the project timeline are saved on the project or the parent tasks. For example, the following changes to the project trigger an update to the timeline of the project: 
-        <ul> 
-         <li>Update the dates of tasks</li> 
-         <li>Change predecessor relationships of tasks</li> 
-         <li><p>Change parent-child relationships, adding or removing assignments in addition to changing the task constraint or duration type.</p><p>When the tasks update, their parent objects (parent tasks or the project) update at the time indicated by the Update Type. </p><p>If the parent objects do not update immediately after the change when selecting "Automatic and On Change" or "Change Only" Update Type, refresh the page</p><p>Select from the following options: </p><p>- <strong>Automatic and On Change</strong> (Default setting): The project timeline is updated each time a change occurs in the project or in another project that the project is dependent on (On Change). The project timeline is also updated each night (Automatic).</p><p>This is the recommended setting for this field because it ensures that the project is always up to date.</p><p>When you perform an action on a task or project that triggers a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer recalculations display briefly as a question mark (between 1 and 5 seconds, or up to a minute for large projects). This indicates that the recalculation is not yet finished, and the dates are subject to change.</p><p>- <strong>Change Only</strong>: The project timeline is updated each time a change occurs in the project or in another project that the project is dependent on. You might want to select this option if changes rarely occur in the project or in other projects that the timeline is dependent on.</p><p>- <strong>Automatic Only</strong>: The project timeline is updated each night; the timeline is not updated immediately after changes are made.</p><p>You might want to select this option if many changes occur each day in the project or in other projects that the timeline is dependent on. However, be aware that you chose this setting, as the project will not update at the same time that the changes are made.</p><p>- <strong>Manual Only</strong>: The project timeline is updated only when you select the option to Recalculate Timeline. For more information about manually recalculating the project timeline, see <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculate project timelines</a>. </p><p>You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).</p></li> 
-        </ul></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Schedule</strong> </td> 
-      <td> <p>Select a schedule for your project. This should be the same schedule assigned to most people that are working on the project. You must create a schedule before you can assign it to a project or a user. If you have not created custom schedules in your system, the Default Schedule is selected.</p> <p>For more information about creating schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>User Time Off</strong> </td> 
-      <td> <p>Determines whether the time off of the Primary Assignee of a task adjusts the task planned dates on the project. </p><p>Your Workfront administrator<span> or a group administrator</span> selects the default for this setting for your system <span>or your group</span>. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p><p>Select from the following options:<br>- <strong>Consider user time off in task durations</strong>: When selecting this option, the planned dates of the tasks adjust according to the time off of the Primary Assignee of the task, if the time off occurs during the duration of the task. </p><p>For example, if a task with a constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 2 marked for Time-off, when this selection is enabled the task planned dates are June 1 to June 4. Depending on the Task Constraint, the following scenarios exist: </p> 
-       <ul> 
-        <li>For task constraints that relate to planning from a start date (As Soon As Possible, Earliest Available Time, Start No Earlier Than, Start No Later Than, Must Start On) the Planned Start Date does not change but the Planned Completion Date changes.</li> 
-        <li>For task constraints that relate to planning from a completion date (As Late As Possible, Latest Available Time,&nbsp;Finish No Earlier Than, Finish No Later Than, Must&nbsp;Finish On), the Planned Completion Date does not change, but the Planned Start&nbsp;Date changes.</li> 
-        <li>For tasks with a constraint of Fixed&nbsp;Dates, neither the Planned Start nor Completion Date changes. </li> 
-       </ul><p>The Duration of the task does not change when you select this setting. Only the planned dates change, depending on the Task Constraint. For information about task constraint, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a>. </p><p>- <strong>Ignore user time off in task durations</strong>: When selecting this option, the planned dates of the tasks on the project remain as originally planned, even if the Primary Assignee of the task has time off during the duration of the task. </p><p>Consider the following when selecting options for this setting:</p> 
-       <ul> 
-        <li><p>The default option for this setting for a new project is the same as the system-level project preference. </p><p>For information about the project preferences at the System level, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p></li> 
-        <li>When you attach a template to an existing project, the setting on the project is updated to match the one of the template. </li> 
-        <li><p>Workfront decides which planned task dates to adjust according to the Task Constraint value of the task. Depending on what that is, either the Planned Start or the Planned Completion Date, or both could be affected, or might even remain the same. For example, if a task has a Constraint of Fixed Dates, the dates do not adjust when the Primary Assignee has time off, even when <strong>Consider user time off in task durations</strong> is selected. </p></li> 
-       </ul></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Resource Leveling Mode</strong> </td> 
-      <td> <p> <p>Select from the following options:</p> <p>- <strong>Manual</strong>: you must manually level your resources (this is the default setting)</p> <p>- <strong>Automatic</strong>: Workfront levels your resources.</p> <p>For more information about Resource Leveling, see <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Level Resources in the Gantt Chart </a>.</p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Risk</strong> </td> 
-      <td> <p> <p>Define the level of risk of your project. The risk is just an indicator of how risky a project can be. You can prioritize the execution of your projects based on the level of risk.</p> <p> <p>Consider selecting from the following levels of risk:</p> <p>- Very Low</p> <p>- Low</p> <p>- Medium</p> <p>- High</p> <p>- Very High</p> <p>The levels of risks you indicate here cannot be customized.</p> <p>These are not related to the potential Risks that could occur during the life of a project and which you should record in the Risks tab of the project, or in the Business Case. For information about potential project Risks, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Edit and create risk types</a>. </p> </p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Resource Pools</strong> </td> 
-      <td> <p> <p>Specify the Resource Pools associated with the project. Resource Pools are collections of users that are needed at the same time for the completion of a project and allow for project budgeting in the Resource Planner. For more information about Resource Pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>. </p> <p>When you edit projects in bulk, only the Resource Pools that are common to all the projects selected appear in this field. If the projects selected have no shared Resource Pools, this field will be empty. The Resource Pools you specify here will overwrite the projects' individual Resource Pools.</p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> <strong>Allow company-level billing rates to override project-level billing rates</strong></td> 
-      <td>Select this option to allow company-level billing rates to override historical job role rates unless those rates are marked as billed. Enabling this option overrides historical job role rates unless they are marked as billed. <br>For more information, see <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Override Project-Level Billing Rates with Company-Level Billing Rates</a>.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Require time to be approved for this project</strong></td> 
-      <td> <p> Select this option to require the Project Owner to approve time logged on the project. If you are using Billing Records and you select this option, only the approved hours on the project appear as available billable hours for the Billing Records. Approving time on the project is independent of approving timesheets. </p> <p>For more information about requiring time to be approved on a project, see <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Require time to be approved for a project</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Filter Hour Types</strong> and</span> <strong>Hour Types</strong></td> 
-      <td> <p> <p>Consider the following:</p> 
-        <ul> 
-         <li> <p>Select <strong>No</strong> to make all project-specific hour types available on the project. (This is the default selection)</p> <p>Or</p> </li> 
-         <li>Select <strong>Yes</strong> to make only a subset of the project-specific hour types available on the project, then select the hour types you want to make available. (Hold the Shift key to select multiple hour types.)</li> 
-        </ul> <p>If you select this option, only the hour types you select are made available to select when logging hours on the project (or on tasks and issues within the project). You must select at least one hour type; if you select this option and you do not select any hour types, all hour types are made available on the project.</p> <p>The same hour type selections must be made at the individual user level in order for the user to see these hour type options on the project. For more information about defining hour types at the user level, see <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>. </p> </p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>Reminder Notification</strong> </td> 
-      <td> <p> <p>Select the Reminder Notification that should be associated with the project. You must configure Reminder Notifications for projects for this field to appear during editing a project. For more information about configuring Reminder Notifications, see <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md"><a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Set up reminder notifications</a> .</a></p> </p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>Approval Process</strong></td> 
-      <td> <p>Select the approval process you want to associate with the project. Your Workfront administrator must define system-level Approval Processes before you can associate them with projects. <span>A user with administrative access to Approval processes can also create group-specific approval processes.</span> For more information about creating approval processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>.</p> <p>Consider the following when adding approval processes: </p> 
-       <ul> 
-        <li>Only active approval processes display in the list. </li> 
-        <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.</p> <p>If the group associated with the project changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
-        <li> <!--
-          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>
-         --> </li> 
-        <li> <p>When bulk-editing projects, the following scenarios exist:</p> 
+      <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader"><strong>Milestone Path</strong> </td> 
+         <td> <p>Select a Milestone Path for the project. Only active milestone paths display in the list.</p> <p>For more information about Milestone Paths, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Create a milestone path</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Completion Mode</strong> </td> 
+         <td> <p>Controls how the project is marked as Complete. Select from the following options: 
          <ul> 
-          <li> <p>When you select projects from the same group, both system-level and group-level approval processes display in this field.</p> </li> 
-          <li> <p>When you select projects from different groups, only system-level approval processes display in this field.</p> </li> 
-          <li> <p>When any of the projects have a single-use approval process attached, it is replaced by the system-level or group-level approval process you select. </p> </li> 
-         </ul> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-     </tr> 
-    </tbody> 
-   </table>
+            <li><p><strong>Automatic</strong>: The project is marked Complete when all the tasks and issues are completed.</p><p>The project Status is automatically changed to Complete only when the project status is Current when the tasks are completed. </p></li> 
+            <li><strong>Manual</strong>: You have to manually select the Complete status for the project, when all the tasks and issues are completed.</li> 
+         </ul></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Summary Completion Mode</strong></td> 
+         <td> <p>Controls how the parent tasks are marked as Complete. Select from the following options: 
+         <ul> 
+            <li><strong>Automatic</strong>: The parent tasks are marked Complete and they update their percent complete automatically, as the children tasks are completed and the percent complete of the children is updated. </li> 
+            <li><strong>Manual</strong>: You have to manually update the percent complete and the status of the parent tasks, independently of what changes are made to the children tasks.</li> 
+         </ul></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Update Type</strong></td> 
+         <td> <p>Controls when the changes you make to the project timeline are saved on the project or the parent tasks. For example, the following changes to the project trigger an update to the timeline of the project: 
+         <ul> 
+            <li>Update the dates of tasks</li> 
+            <li>Change predecessor relationships of tasks</li> 
+            <li><p>Change parent-child relationships, adding or removing assignments in addition to changing the task constraint or duration type.</p><p>When the tasks update, their parent objects (parent tasks or the project) update at the time indicated by the Update Type. </p><p>If the parent objects do not update immediately after the change when selecting "Automatic and On Change" or "Change Only" Update Type, refresh the page</p><p>Select from the following options: </p><p>- <strong>Automatic and On Change</strong> (Default setting): The project timeline is updated each time a change occurs in the project or in another project that the project is dependent on (On Change). The project timeline is also updated each night (Automatic).</p><p>This is the recommended setting for this field because it ensures that the project is always up to date.</p><p>When you perform an action on a task or project that triggers a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer recalculations display briefly as a question mark (between 1 and 5 seconds, or up to a minute for large projects). This indicates that the recalculation is not yet finished, and the dates are subject to change.</p><p>- <strong>Change Only</strong>: The project timeline is updated each time a change occurs in the project or in another project that the project is dependent on. You might want to select this option if changes rarely occur in the project or in other projects that the timeline is dependent on.</p><p>- <strong>Automatic Only</strong>: The project timeline is updated each night; the timeline is not updated immediately after changes are made.</p><p>You might want to select this option if many changes occur each day in the project or in other projects that the timeline is dependent on. However, be aware that you chose this setting, as the project will not update at the same time that the changes are made.</p><p>- <strong>Manual Only</strong>: The project timeline is updated only when you select the option to Recalculate Timeline. For more information about manually recalculating the project timeline, see <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculate project timelines</a>. </p><p>You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).</p></li> 
+         </ul></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Schedule</strong> </td> 
+         <td> <p>Select a schedule for your project. This should be the same schedule assigned to most people that are working on the project. You must create a schedule before you can assign it to a project or a user. If you have not created custom schedules in your system, the Default Schedule is selected.</p> <p>For more information about creating schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>User Time Off</strong> </td> 
+         <td> <p>Determines whether the time off of the Primary Assignee of a task adjusts the task planned dates on the project. </p><p>Your Workfront administrator<span> or a group administrator</span> selects the default for this setting for your system <span>or your group</span>. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p><p>Select from the following options:<br>- <strong>Consider user time off in task durations</strong>: When selecting this option, the planned dates of the tasks adjust according to the time off of the Primary Assignee of the task, if the time off occurs during the duration of the task. </p><p>For example, if a task with a constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 2 marked for Time-off, when this selection is enabled the task planned dates are June 1 to June 4. Depending on the Task Constraint, the following scenarios exist: </p> 
+         <ul> 
+         <li>For task constraints that relate to planning from a start date (As Soon As Possible, Earliest Available Time, Start No Earlier Than, Start No Later Than, Must Start On) the Planned Start Date does not change but the Planned Completion Date changes.</li> 
+         <li>For task constraints that relate to planning from a completion date (As Late As Possible, Latest Available Time,&nbsp;Finish No Earlier Than, Finish No Later Than, Must&nbsp;Finish On), the Planned Completion Date does not change, but the Planned Start&nbsp;Date changes.</li> 
+         <li>For tasks with a constraint of Fixed&nbsp;Dates, neither the Planned Start nor Completion Date changes. </li> 
+         </ul><p>The Duration of the task does not change when you select this setting. Only the planned dates change, depending on the Task Constraint. For information about task constraint, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a>. </p><p>- <strong>Ignore user time off in task durations</strong>: When selecting this option, the planned dates of the tasks on the project remain as originally planned, even if the Primary Assignee of the task has time off during the duration of the task. </p><p>Consider the following when selecting options for this setting:</p> 
+         <ul> 
+         <li><p>The default option for this setting for a new project is the same as the system-level project preference. </p><p>For information about the project preferences at the System level, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p></li> 
+         <li>When you attach a template to an existing project, the setting on the project is updated to match the one of the template. </li> 
+         <li><p>Workfront decides which planned task dates to adjust according to the Task Constraint value of the task. Depending on what that is, either the Planned Start or the Planned Completion Date, or both could be affected, or might even remain the same. For example, if a task has a Constraint of Fixed Dates, the dates do not adjust when the Primary Assignee has time off, even when <strong>Consider user time off in task durations</strong> is selected. </p></li> 
+         </ul></td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Resource Leveling Mode</strong> </td> 
+         <td> <p> <p>Select from the following options:</p> <p>- <strong>Manual</strong>: you must manually level your resources (this is the default setting)</p> <p>- <strong>Automatic</strong>: Workfront levels your resources.</p> <p>For more information about Resource Leveling, see <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Level Resources in the Gantt Chart </a>.</p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Risk</strong> </td> 
+         <td> <p> <p>Define the level of risk of your project. The risk is just an indicator of how risky a project can be. You can prioritize the execution of your projects based on the level of risk.</p> <p> <p>Consider selecting from the following levels of risk:</p> <p>- Very Low</p> <p>- Low</p> <p>- Medium</p> <p>- High</p> <p>- Very High</p> <p>The levels of risks you indicate here cannot be customized.</p> <p>These are not related to the potential Risks that could occur during the life of a project and which you should record in the Risks tab of the project, or in the Business Case. For information about potential project Risks, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Edit and create risk types</a>. </p> </p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Resource Pools</strong> </td> 
+         <td> <p> <p>Specify the Resource Pools associated with the project. Resource Pools are collections of users that are needed at the same time for the completion of a project and allow for project budgeting in the Resource Planner. For more information about Resource Pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>. </p> <p>When you edit projects in bulk, only the Resource Pools that are common to all the projects selected appear in this field. If the projects selected have no shared Resource Pools, this field will be empty. The Resource Pools you specify here will overwrite the projects' individual Resource Pools.</p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"> <strong>Allow company-level billing rates to override project-level billing rates</strong></td> 
+         <td>Select this option to allow company-level billing rates to override historical job role rates unless those rates are marked as billed. Enabling this option overrides historical job role rates unless they are marked as billed. <br>For more information, see <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Override Project-Level Billing Rates with Company-Level Billing Rates</a>.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Require time to be approved for this project</strong></td> 
+         <td> <p> Select this option to require the Project Owner to approve time logged on the project. If you are using Billing Records and you select this option, only the approved hours on the project appear as available billable hours for the Billing Records. Approving time on the project is independent of approving timesheets. </p> <p>For more information about requiring time to be approved on a project, see <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Require time to be approved for a project</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Filter Hour Types</strong> and</span> <strong>Hour Types</strong></td> 
+         <td> <p> <p>Consider the following:</p> 
+         <ul> 
+            <li> <p>Select <strong>No</strong> to make all project-specific hour types available on the project. (This is the default selection)</p> <p>Or</p> </li> 
+            <li>Select <strong>Yes</strong> to make only a subset of the project-specific hour types available on the project, then select the hour types you want to make available. (Hold the Shift key to select multiple hour types.)</li> 
+         </ul> <p>If you select this option, only the hour types you select are made available to select when logging hours on the project (or on tasks and issues within the project). You must select at least one hour type; if you select this option and you do not select any hour types, all hour types are made available on the project.</p> <p>The same hour type selections must be made at the individual user level in order for the user to see these hour type options on the project. For more information about defining hour types at the user level, see <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>. </p> </p> </td> 
+      </tr> 
+      <tr data-mc-conditions=""> 
+         <td role="rowheader"><strong>Reminder Notification</strong> </td> 
+         <td> <p> <p>Select the Reminder Notification that should be associated with the project. You must configure Reminder Notifications for projects for this field to appear during editing a project. For more information about configuring Reminder Notifications, see <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md"><a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Set up reminder notifications</a> .</a></p> </p> </td> 
+      </tr> 
+      <tr data-mc-conditions=""> 
+         <td role="rowheader"><strong>Approval Process</strong></td> 
+         <td> <p>Select the approval process you want to associate with the project. Your Workfront administrator must define system-level Approval Processes before you can associate them with projects. <span>A user with administrative access to Approval processes can also create group-specific approval processes.</span> For more information about creating approval processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>.</p> <p>Consider the following when adding approval processes: </p> 
+         <ul> 
+         <li>Only active approval processes display in the list. </li> 
+         <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.</p> <p>If the group associated with the project changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
+         
+   <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
+         
+   <p>When bulk-editing projects, the following scenarios exist:</p> 
+            
+   <ul> 
+   <li> <p>When you select projects from the same group, both system-level and group-level approval processes display in this field.</p> </li> 
+   <li> <p>When you select projects from different groups, only system-level approval processes display in this field.</p> </li> 
+   <li> <p>When any of the projects have a single-use approval process attached, it is replaced by the system-level or group-level approval process you select. </p> </li> 
+   </ul> 
+      </ul> </td> 
+      </tr> 
+      <tr> 
+      </tr> 
+      </tbody> 
+      </table>
 
 1. (Optional) Continue editing the following sections, depending on the information you want to modify.
 
