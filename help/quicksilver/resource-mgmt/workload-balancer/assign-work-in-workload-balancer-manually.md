@@ -78,7 +78,7 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
 1. Do one of the following:
 
-   * Start typing the name of a user, job role, or team that you want to assign to the item in the **Search people, role or teams** field, select it when it displays in the list, then click&nbsp;**Save**.
+   * Start typing the name of a user, job role, or team that you want to assign to the item in the **Search people, role or teams** field, select it when it displays in the list, then click **Save**.
 
      ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 

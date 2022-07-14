@@ -10,7 +10,7 @@ description: (NOTE:The name of the object might change - update the titles when/
 
 >[!NOTE]
 >
->The information in this article is available when you participate in the Campaigns beta program. The functionality described in the following articles might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
+>The information in this article is available only in the Preview environemnt when you participate in the [!UICONTROL Campaigns] beta program. The functionality described in the following articles might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
 
 This section contains the following articles:
 
