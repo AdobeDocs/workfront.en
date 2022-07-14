@@ -62,8 +62,6 @@ The options that are available in the Main Menu are dependent on:
 
 * **License type**: To learn the default configurations for different license types, see [Understand the navigation for a Review-license user](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand the navigation for a Work-license user](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
-* **User customization**: To learn how to change your own Main menu configuration, see [Customize the Adobe Workfront navigation](../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
-
 ![Main menu options](assets/main-menu-options-350x481.png)
 
 Each icon takes you to a different area of the new Adobe Workfront experience. To learn more about each area, see:
