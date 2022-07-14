@@ -146,6 +146,11 @@ You can create a filter from scratch or edit one of the predefined filters. For 
    >
    >The Default filter displays users that belong to any of your teams and their work items. You can edit a copy of this filter.
 
+   If you access the [!UICONTROL Workload Balancer] from a project, the "[!UICONTROL This project's work items]" might already be applied. This displays only work items assigned to users in this project. You can duplicate and save a copy of this filter. 
+   
+   By default, the [!UICONTROL Workload Balancer] of a project displays all work items assigned to all users on the project.
+
+
 1. Click **New filter.**
 
    ![](assets/new-filters-empty-panel-workload-balancer-350x460.png)
@@ -175,7 +180,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
    
       >[!NOTE]
       >
-      > When you want to display work objects from a specific portfolio, you can apply the following filter: "Portfolio:&nbsp;name contains marketing." This displays work items that belong to any portfolio that contains "marketing" in the name.
+      > When you want to display work objects from a specific portfolio, you can apply the following filter: "Portfolio name contains marketing." This displays work items that belong to any portfolio that contains "marketing" in the name.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
 
