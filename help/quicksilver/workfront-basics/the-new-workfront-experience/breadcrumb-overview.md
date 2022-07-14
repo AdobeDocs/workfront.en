@@ -1,20 +1,13 @@
 ---
 content-type: overview
-navigation-topic: the-new-workfront-experience
-title: Breadcrumbs overview in the new Adobe Workfront experience
-description: Breadcrumbs in the new Adobe Workfront experience display the full navigational hierarchy for all object types.
+title: Breadcrumbs overview
+description: Breadcrumbs display the full navigational hierarchy for all object types.
 feature: Get Started with Workfront
 ---
 
-# Breadcrumbs overview in the new Adobe Workfront experience
+# Breadcrumbs overview
 
-In Adobe Workfront Classic, breadcrumbs display only the level immediately above the current object you're viewing.
-
-In the following example, only the project (Fall 2021 Ad Campaign) is shown in the breadcrumb, and there is no way to see which portfolio the project belongs to.
-
-![](assets/breadcrumb-classic-350x329.png)
-
-Unlike Adobe Workfront Classic, breadcrumbs in the new Adobe Workfront experience display the full navigational hierarchy for all object types. Each object in the breadcrumb path has a label that displays the object type. The page that you are currently on displays both in the page header and at the end of the breadcrumb path in italics. In the example below, this is the "Share with Brand Team" task.
+Breadcrumbs display the full navigational hierarchy for all object types. Each object in the breadcrumb path has a label that displays the object type. The page that you are currently on displays both in the page header and at the end of the breadcrumb path in italics. In the example below, this is the "Share with Brand Team" task.
 
 ![Collapsed breadcrumb](assets/NWE-collapsed-breadcrumb.png)
 
