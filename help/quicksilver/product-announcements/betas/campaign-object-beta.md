@@ -28,7 +28,7 @@ For general information about campaigns, see [Campaigns overview](../../manage-w
   * Preview beta launch: June 2022
   * Production beta launch (for select customers): July 2022
     
-    Contact your account representative if you would like to opt in for the Campaigs Beta in your Production environment. 
+    Contact your account representative if you would like to opt in for the Campaigns Beta in your Production environment. 
   
   * Production beta launch (for all customers): October 2022 (tentative)   
   * Beta completion: December 2022 (tentative)
@@ -60,7 +60,7 @@ Unless mentioned otherwise, the features listed in this table are available to e
 
 >[!NOTE]
 >
->The Campagns Beta is available for all customers in the Preview environment. Involvement and participation in this beta program is completely voluntary and optional. 
+>The Campaigns Beta is available for all customers in the Preview environment. Involvement and participation in this beta program is voluntary and optional. 
 
 
 ### Availability
