@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: dashboards
 navigation-topic: reports-and-dashboards
 title: Dashboards
-description: This section contains the following subsections - EDIT ME.
+description: Review these areas to get an understanding of dashboards in Adobe Workfront.
 feature: Reports and Dashboards
 ---
 
