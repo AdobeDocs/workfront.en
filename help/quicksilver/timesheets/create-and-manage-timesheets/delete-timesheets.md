@@ -112,6 +112,8 @@ You must have the following to perform the steps in this article:
 2. Click the timesheet you want to delete to open it.
 3. Click the [!UICONTROL **More**] icon ![](assets/more-icon.png) to the right of the timesheet name, then click **Delete**.
 
-   ![](assets/delete-timesheet-from-timesheet-page.png)
+   ![Delete timesheet from timesheet page](assets/delete-timesheet-from-timesheet-page.png)
+
+1. Click [!UICONTROL **Delete**] to confirm. 
 
    The timesheet is deleted and cannot be recovered.
