@@ -10,8 +10,6 @@ role: Admin
 
 # Create OAuth2 applications for Workfront integrations
 
-{{highlighted-preview}}
-
 As an Adobe Workfront administrator, you can create OAuth2 applications for your instance of Workfront, which allow other applications to access Workfront. Your users can then give permission to those other applications to access their Workfront data. In this way, you can integrate Workfront with applications of your choice, including your own in-house applications.
 
 When you create an OAuth2 application, you generate a Client ID and Client Secret. Your users can then use the Client ID in API calls to integrate with the application you have created.
@@ -41,11 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. </p>
-    --> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
-    --> </td> 
+   <td> You must be a Workfront administrator. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -328,12 +322,6 @@ Further configuration and use of the created OAuth2 application requires some te
 
 For security, access tokens expire after a short amount of time. To get new access tokens without having to enter credentials every time, OAuth2 uses refresh tokens. Refresh tokens are stored by the client.
 
-The process for acquiring a refresh token is the same as the procedure discussed in the section [Authorizing with an authorization code and access token](#authorizing-with-an-authorization-code-and-access-token). The request for the authorization code includes the scope 
-
-```
-offline_access
-```
-
-, which indicates that the request should return a request token along with the authorization code.
+The process for acquiring a refresh token is the same as the procedure discussed in the section [Authorizing with an authorization code and access token](#authorizing-with-an-authorization-code-and-access-token). The request for the authorization code includes the scope `offline_access`, which indicates that the request should return a request token along with the authorization code.
 
 &nbsp;
