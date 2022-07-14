@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Manage user allocations in the Workload Balancer
-description: As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
+description: As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer.
 feature: Resource Management
 ---
 
@@ -47,7 +47,7 @@ You must have the following:
 
 ## Understand user allocations
 
-User allocations are amounts of hours that indicate the time that a user should spend on one given day or week day, week, or month to complete the work item. They are included in the Planned Hours of the work item.
+User allocations are amounts of hours that indicate the time that a user should spend on one given day or weekday, week, or month to complete the work item. They are included in the Planned Hours of the work item.
 
 This article describes how to update daily, weekly, or monthly hourly allocations for users assigned to tasks or issues. For information about managing overall allocations for users and job roles to tasks, see [Manage user and role allocation hours on tasks](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
 
