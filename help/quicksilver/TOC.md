@@ -700,7 +700,6 @@ feature-set: Workfront
       * [Modify how a list displays](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
     * [Access Adobe Workfront help](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
     * [Understand objects in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-    * [Customize the Adobe Workfront navigation](workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md)
     * [Understand the navigation for a Work-license user](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
     * [Understand the navigation for a Review-license user](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
     * [Overview of the Project, Task, and Issue dates in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
@@ -853,6 +852,7 @@ feature-set: Workfront
     * [Configure Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
   * Get started with boards in Adobe Workfront {#boards-in-workfront}
     * [Get started with boards in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+    * [Boards early feature opt-in](agile/get-started-with-boards/boards-early-feature-opt-in.md)
     * [Use the boards dashboard](agile/get-started-with-boards/use-boards-page.md)
     * [Create or edit a board](agile/get-started-with-boards/create-edit-board.md)
     * [Delete or archive a board](agile/get-started-with-boards/delete-archive-board.md
@@ -1960,6 +1960,7 @@ feature-set: Workfront
     * [Adobe Creative Cloud Libraries modules](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
     * [Adobe Experience Manager Assets modules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)    
     * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
+    * [Adobe Target modules](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
     * [Allocadia modules](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
     * [Anaplan Modules](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
     * [Archive modules](workfront-fusion/apps-and-their-modules/archive-modules.md)

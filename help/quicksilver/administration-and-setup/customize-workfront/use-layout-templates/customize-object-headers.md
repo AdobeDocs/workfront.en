@@ -55,7 +55,10 @@ If you still don't have access, ask your Workfront administrator if they set add
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. In the **Customize what users see** drop-down menu, select **Projects**.
-1. In the Header fields section, mouse over the fields displayed and do one of the following:
+
+    <!--(NOTE: when more objects are supported, update this to say "select an object you want to customize in the Customize what users see drop-down menu). -->
+
+1. In the [!UICONTROL Header fields] section, mouse over the fields displayed and do one of the following:
     * Click the **x** icon to remove a field
         
         Or
@@ -69,6 +72,9 @@ If you still don't have access, ask your Workfront administrator if they set add
 1. You can have up to five fields in the header of an object.
 If you already have five fields selected, you must remove a field before you can add a new one.
 1. In the **Add field** box, start typing the name of a non-editable Workfront field that you want to add, then select it when it displays in the list. 
+
+    <!--(update the tip below when editable fields will come)
+    -->
 
     >[!TIP]
     >
@@ -86,8 +92,6 @@ If you already have five fields selected, you must remove a field before you can
     >[!TIP]
     >
     >You can click Save at any time to save your progress, then continue to modify the template later.
-
- <!--remove or edit the tip above when we can add editable custom fields.-->
 
 
  

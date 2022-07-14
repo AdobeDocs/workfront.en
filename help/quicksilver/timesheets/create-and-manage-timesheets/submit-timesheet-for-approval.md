@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 
 ### Submit a timesheet for approval
 
-After&nbsp;a timesheet approver is set&nbsp;(as described in the section [Designate timesheet approvers](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) in the article [Approve a timesheet](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), the **Save and Close Timesheet**&nbsp;button at the bottom of the timesheet changes to a **Submit for Approval**&nbsp;button.
+After a timesheet approver is set (as described in the section [Designate timesheet approvers](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) in the article [Approve a timesheet](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), the **Close** button at the bottom of the timesheet changes to a **Submit for Approval** button.
 
 To submit a timesheet for approval:
 
@@ -56,12 +56,12 @@ To submit a timesheet for approval:
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   The **Submit for Approval** button is replaced by the **Approve**,**Reject**,****and**Recall** buttons. The status of the timesheet changes to **Submitted**.
+   The **Submit for Approval** button is replaced by the **Approve**, **Reject**, and **Recall** buttons. The status of the timesheet changes to **Submitted**.
 
-   When your timesheet is submitted for approval, the approver sees the timesheet listed in the **Approvals**&nbsp;area on the **Home** page. The following things might occur:
+   When your timesheet is submitted for approval, the approver sees the timesheet listed in the **Approvals** area on the **Home** page. The following things might occur:
 
-   * If they approve it, the **Recall** button changes to **Re-Open** and the timesheet status updates to **Closed**.
-   * If they reject it, **Save** and **Submit for Approval** buttons replace the **Recall** button and the timesheet status updates to **Rejected**.
+   * If they approve it, the **Recall** button changes to **Re-open** and the timesheet status updates to **Open**.
+   * If they reject it, the **Submit for Approval** button replaces the **Recall** button and the timesheet status updates to **Rejected**.
 
 1. (Optional) Click **Recall** if you need to reopen the timesheet and update your time. For information, see the [Recall a timesheet](#recall-a-timesheet) section in this article.
 
@@ -96,7 +96,7 @@ To view the status of a timesheet:
 
    >[!NOTE]
    >
-   >The My Timesheet Approvals and My&nbsp;Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My&nbsp;Timesheet Approvals and the My&nbsp;Timesheets filters from either the List Controls in the Setup area or from your Layout Template.&nbsp;For more information see the following articles:
+   >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My Timesheet Approvals and the My Timesheets filters from either the List Controls in the Setup area or from your Layout Template. For more information see the following articles:
    >
    >   
    >   
@@ -115,11 +115,11 @@ To view the status of a timesheet:
     <tbody> 
      <tr> 
       <td role="rowheader">Open</td> 
-      <td> <p>Your timesheet is currently open and you may log time. </p> <p>Tip: A recalled timesheet displays with a status of Open. For information, see the <a href="#recall-a-timesheet" class="MCXref xref">Recall a timesheet</a> section in this article. </p> </td> 
+      <td> <p>Your timesheet is currently open and you may log time. </p> <p>A recalled timesheet displays with a status of Open. For information, see the <a href="#recall-a-timesheet" class="MCXref xref">Recall a timesheet</a> section in this article. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Submitted</td> 
-      <td>You submitted your timesheet for approval but it has not been approved yet. You may recall a submitted timesheet to continue editing it.&nbsp;For information, see the <a href="#recall-a-timesheet" class="MCXref xref">Recall a timesheet</a> section in this article. </td> 
+      <td>You submitted your timesheet for approval but it has not been approved yet. You may recall a submitted timesheet to continue editing it. For information, see the <a href="#recall-a-timesheet" class="MCXref xref">Recall a timesheet</a> section in this article. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Closed</td> 
