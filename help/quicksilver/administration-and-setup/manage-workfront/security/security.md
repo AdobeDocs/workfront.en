@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Security
-description: This section contains the following articles - EDIT ME.
+description: As an Adobe Workfront administrator, you can configure security preferences for your Workfront system.
 feature: System Setup and Administration
 role: Admin
 ---

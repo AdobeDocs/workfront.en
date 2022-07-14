@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;reporting;setup
 navigation-topic: manage-workfront
 title: Configure reports
-description: This section contains the following articles - EDIT ME.
+description: You can configure list controls and built-in Workfront reports.
 feature: System Setup and Administration
 role: Admin
 ---

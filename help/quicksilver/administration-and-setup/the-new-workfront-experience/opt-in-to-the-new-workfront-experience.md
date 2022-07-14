@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: Opt in to the new Adobe Workfront experience
-description: This section contains the following articles - EDIT ME.
+description: How to opt into the new Workfront experience
 feature: System Setup and Administration
 role: Admin
 ---

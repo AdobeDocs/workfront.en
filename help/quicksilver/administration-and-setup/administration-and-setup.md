@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: Administration and setup
-description: This section contains the following subsections - EDIT ME.
+description: Find the information you need to manage the Workfront system in this section.
 feature: System Setup and Administration
 role: Admin
 ---
