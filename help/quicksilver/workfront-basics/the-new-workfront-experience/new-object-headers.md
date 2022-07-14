@@ -109,7 +109,7 @@ The project header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the task</td> 
-   <td> <p>Next to the name of the project, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> <p>To learn more about the new actions area, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-actions-area.md" class="MCXref xref">New object actions area</a>.</p> </td> 
+   <td> <p>Next to the name of the project, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Percent Complete</td> 
@@ -125,7 +125,7 @@ The project header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader"><span>Condition</span> </td> 
-   <td> <p>When you set the Condition Type of the project to Manual, you can update the project Condition in the header.</p> <p>To learn more, see <a href="../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a>.</p> </td> 
+   <td> <p>When you set the Condition Type of the project to Manual, you can update the project Condition in the header.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Status</td> 
@@ -172,7 +172,7 @@ The task header includes the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the task</td> 
-   <td> <p>Next to the name of the task, the actions area displays.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>If the Dependency icon displays, you can click the icon to see any predecessors or successors for the task.</p> <p>To learn more about the new actions area, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-actions-area.md" class="MCXref xref">New object actions area</a>.</p> </td> 
+   <td> <p>Next to the name of the task, the actions area displays.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>If the Dependency icon displays, you can click the icon to see any predecessors or successors for the task.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Percent Complete</td> 
@@ -235,7 +235,7 @@ The issue header includes the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the issue</td> 
-   <td> <p>Next to the name of the issue, the actions area displays.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>If the Dependency icon displays, you can click the icon to see any predecessors or successors for the issue.</p> <p>To learn more about the new actions area, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-actions-area.md" class="MCXref xref">New object actions area</a>.</p> </td> 
+   <td> <p>Next to the name of the issue, the actions area displays.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>If the Dependency icon displays, you can click the icon to see any predecessors or successors for the issue.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Percent Complete</td> 
@@ -302,7 +302,7 @@ The program header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the program</td> 
-   <td> <p>Next to the name of the program, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> <p>To learn more about the new actions area, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-actions-area.md" class="MCXref xref">New object actions area</a>.</p> </td> 
+   <td> <p>Next to the name of the program, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Percent Complete</td> 
@@ -357,7 +357,7 @@ The portfolio header includes the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the portfolio</td> 
-   <td> <p>Next to the name of the portfolio, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> <p>To learn more about the new actions area, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-actions-area.md" class="MCXref xref">New object actions area</a>.</p> </td> 
+   <td> <p>Next to the name of the portfolio, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Portfolio Manager</td> 
@@ -420,7 +420,7 @@ The template header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the template</td> 
-   <td> <p>Next to the name of the template, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> <p>To learn more about the new actions area, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-actions-area.md" class="MCXref xref">New object actions area</a>.</p> </td> 
+   <td> <p>Next to the name of the template, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Template Owner</td> 
@@ -467,7 +467,7 @@ The template task header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the template task</td> 
-   <td> <p>Next to the name of the template task, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> <p>To learn more about the new actions area, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-actions-area.md" class="MCXref xref">New object actions area</a>.</p> </td> 
+   <td> <p>Next to the name of the template task, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Assignments</td> 
@@ -570,7 +570,7 @@ The user header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the user</td> 
-   <td> <p>Next to the name of the user, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> <p>To learn more about the new actions area, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-actions-area.md" class="MCXref xref">New object actions area</a>.</p> </td> 
+   <td> <p>Next to the name of the user, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Email address</td> 
@@ -617,7 +617,7 @@ The team header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the team</td> 
-   <td> <p>Next to the name of the team, the actions area displays.</p> <p> <img src="assets/nwe-switch-team-actions-area.png"> </p> <p>To learn more about the new actions area, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-actions-area.md" class="MCXref xref">New object actions area</a>.</p> </td> 
+   <td> <p>Next to the name of the team, the actions area displays.</p> <p> <img src="assets/nwe-switch-team-actions-area.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team member profile pictures</td> 
@@ -660,7 +660,7 @@ The iteration header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the iteration</td> 
-   <td> <p>In the upper-right corner of the header, the actions area displays.</p> <p> <img src="assets/nwe-iteration-action-area.png"> </p> <p>To learn more about the new actions area, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-actions-area.md" class="MCXref xref">New object actions area</a>.</p> </td> 
+   <td> <p>In the upper-right corner of the header, the actions area displays.</p> <p> <img src="assets/nwe-iteration-action-area.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Owner</td> 
@@ -763,7 +763,7 @@ The document header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the document</td> 
-   <td> <p>Next to the name of the document, the actions area displays.</p> <p> <img src="assets/nwe-doc-version-actions-area.png"> </p> <p>To learn more about the new actions area, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-actions-area.md" class="MCXref xref">New object actions area</a>.</p> </td> 
+   <td> <p>Next to the name of the document, the actions area displays.</p> <p> <img src="assets/nwe-doc-version-actions-area.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">The approval Decision area</td> 
@@ -847,7 +847,7 @@ The plan header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the plan</td> 
-   <td> <p>Next to the name of the plan, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> <p>To learn more about the new actions area, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-actions-area.md" class="MCXref xref">New object actions area</a>.</p> </td> 
+   <td> <p>Next to the name of the plan, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Additional plan actions</td> 

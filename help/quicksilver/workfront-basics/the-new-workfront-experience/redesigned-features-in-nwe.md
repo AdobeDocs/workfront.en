@@ -19,14 +19,9 @@ The following list contains links to articles reviewing key areas that have been
 
 * [Top navigation bar overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md) 
 * [Simplified left navigation in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) 
-* [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/subtabs-removed.md) 
 * [Summary overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/summary-overview.md) 
 * [Breadcrumbs overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md) 
-* [Edit object details in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/combined-pages-object-details.md) 
 * [New object headers](../../workfront-basics/the-new-workfront-experience/new-object-headers.md) 
-* [New object actions area](../../workfront-basics/the-new-workfront-experience/new-object-actions-area.md) 
 * [Toolbar for lists in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md) 
 * [Pin pages to customize your workspace in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/pin-pages.md) 
-* [New Layout Templates area in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/new-layout-templates.md) 
-* [New Edit Object box](../../workfront-basics/the-new-workfront-experience/new-edit-object-box.md)
 
