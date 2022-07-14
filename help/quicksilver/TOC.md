@@ -704,7 +704,6 @@ feature-set: Workfront
       * [Modify how a list displays](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
     * [Access Adobe Workfront help](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
     * [Understand objects in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-    * [Customize the Adobe Workfront navigation](workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md)
     * [Understand the navigation for a Work-license user](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
     * [Understand the navigation for a Review-license user](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
     * [Overview of the Project, Task, and Issue dates in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
