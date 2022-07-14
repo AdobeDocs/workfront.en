@@ -146,7 +146,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
    >
    >The Default filter displays users that belong to any of your teams and their work items. You can edit a copy of this filter.
 
-   If you access the [!UICONTROL Workload Balancer] from a project, the "[!UICONTROL This project's work items]" might already be applied. This displays only work items assigned to users in this project. You can duplicate and save a copy of this filter. 
+   If you access the [!UICONTROL Workload Balancer] from a project, the "[!UICONTROL This project's work items]" filter might already be applied. This displays only work items assigned to users in this project. You can duplicate and save a copy of this filter. 
    
    By default, the [!UICONTROL Workload Balancer] of a project displays all work items assigned to all users on the project.
 
