@@ -61,8 +61,6 @@ The areas that you can access from the Main Menu in the new Adobe Workfront expe
 
 * **License type**: To learn the default configurations for different license types, see [Understand the navigation for a Review-license user](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand the navigation for a Work-license user](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
-* **User customization**: To learn how to change your own main menu configuration, see [Customize the Adobe Workfront navigation](../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
-
 To learn more about an option in the Main Menu, see [Top navigation bar overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 
 To access the new areas in the new Adobe Workfront experience:
