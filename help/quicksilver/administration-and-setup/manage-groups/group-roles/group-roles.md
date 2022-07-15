@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Group roles
-description: This section contains the following articles - EDIT ME.
+description: The Workfront administrator grants groups the access to the Workfront areas where they need to work and communicate. Each group can then keep their Workfront information such as users, templates, and custom forms, and projects separate from those of other departments. At least one group administrator is required for every group. Up to 14 levels of subgroups can exist under one group.
 feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---

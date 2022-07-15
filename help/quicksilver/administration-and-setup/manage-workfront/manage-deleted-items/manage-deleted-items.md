@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Manage deleted items
-description: This section contains the following articles - EDIT ME.
+description: As a Workfront administrator, you can restore Workfront projects, tasks, issues, documents, and templates if they have been deleted in the past 30 days. When you restore an object, all of its child objects and fields are also restored. 
 feature: System Setup and Administration
 role: Admin
 ---

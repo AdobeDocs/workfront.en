@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: Configure system defaults
-description: This section contains the following articles - EDIT ME.
+description: As an Adobe Workfront administrator, you can configure the system defaults, such as the preferences for all projects that your users create.
 feature: System Setup and Administration
 role: Admin
 ---

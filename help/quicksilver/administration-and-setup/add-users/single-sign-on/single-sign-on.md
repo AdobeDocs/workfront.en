@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
 title: Single sign-on in Adobe Workfront
-description: This section contains the following articles - EDIT ME.
+description: Workfront provides a centrally managed single sign-on (SSO) configuration that easily integrates Workfront with your existing corporate SSO solution. This configuration is easy to set up and manage, and is available for both OnDemand and OnPremise Enterprise customers.
 feature: System Setup and Administration
 role: Admin
 ---

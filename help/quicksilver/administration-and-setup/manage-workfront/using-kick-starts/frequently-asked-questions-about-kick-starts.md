@@ -5,7 +5,7 @@ product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: Frequently asked questions about Kick-Starts
-description: The following are frequently asked questions about Kick-Starts - EDIT ME.
+description: Find answers to frequently asked questions about importing and exporting Workfront data using Kick-Starts.
 feature: System Setup and Administration
 role: Admin
 ---

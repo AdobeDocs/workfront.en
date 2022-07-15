@@ -3,14 +3,14 @@ title: Change the display order of conditions
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
-description: You can change the order in which Conditions display in projects, tasks and issues - EDIT ME.
+description: You can change the order in which conditions display when a user edits project or changes the condition for a task or issue.
 feature: System Setup and Administration
 role: Admin
 ---
 
 # Change the display order of conditions
 
-You can change the order in which Conditions display in projects, tasks and issues:
+You can change the order in which conditions display in projects, tasks and issues:
 
 * When a user is editing a project
 
