@@ -37,6 +37,9 @@ The following project financial information is accessible from the Baseline obje
 * Actual Labor Cost
 * Budgeted Cost
 * Resource Planner Budgeted Labor Cost
+
+    The Resource Planner Budgeted Labor Cost is the Labor Cost of the project based on the hours budgeted for the project in the Resource Planner at the time when the baseline was created. 
+    
 * Fixed Cost
 * Planned Revenue
 * Actual Revenue

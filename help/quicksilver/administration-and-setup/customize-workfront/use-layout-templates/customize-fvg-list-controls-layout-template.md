@@ -64,8 +64,6 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
    >* In the header on the Projects area header:
    >   
    >  ![](assets/disable-filter-pills.png)
-   >   
-   >For more information about these filters in the Projects area header, see the section [Project lists under a Portfolio](../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md#project) in the article [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md).
 
 1. (Optional) If you want to change the default filter, view, or grouping for the layout template, hover over the filter, view, or grouping, then click **Set as default**.
 

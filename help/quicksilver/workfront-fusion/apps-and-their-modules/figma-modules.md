@@ -12,9 +12,9 @@ description: With the Adobe Workfront Fusion Figma modules, you can retrieve lis
 
 With the Adobe Workfront Fusion Figma modules, you can retrieve lists of comments, files, file versions, or projects. You can also post a comment or make a call to the Figma API.
 
-If you need instructions on creating a scenario, see Create a scenario.
+If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see Modules.
+For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 

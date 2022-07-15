@@ -1,20 +1,13 @@
 ---
 content-type: overview
-navigation-topic: the-new-workfront-experience
-title: Breadcrumbs overview in the new Adobe Workfront experience
-description: Breadcrumbs in the new Adobe Workfront experience display the full navigational hierarchy for all object types.
+title: Breadcrumbs overview
+description: Breadcrumbs display the full navigational hierarchy for all object types.
 feature: Get Started with Workfront
 ---
 
-# Breadcrumbs overview in the new Adobe Workfront experience
+# Breadcrumbs overview
 
-In Adobe Workfront Classic, breadcrumbs display only the level immediately above the current object you're viewing.
-
-In the following example, only the project (Fall 2021 Ad Campaign) is shown in the breadcrumb, and there is no way to see which portfolio the project belongs to.
-
-![](assets/breadcrumb-classic-350x329.png)
-
-Unlike Adobe Workfront Classic, breadcrumbs in the new Adobe Workfront experience display the full navigational hierarchy for all object types. Each object in the breadcrumb path has a label that displays the object type. The page that you are currently on displays both in the page header and at the end of the breadcrumb path in italics. In the example below, this is the "Share with Brand Team" task.
+Breadcrumbs display the full navigational hierarchy for all object types. Each object in the breadcrumb path has a label that displays the object type. The page that you are currently on displays both in the page header and at the end of the breadcrumb path in italics. In the example below, this is the "Share with Brand Team" task.
 
 ![Collapsed breadcrumb](assets/NWE-collapsed-breadcrumb.png)
 
@@ -68,13 +61,14 @@ You must have the following access to perform the steps in this article:
 
 ## Multi-object breadcrumbs
 
+>[!NOTE]
+>
+>The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
+
 Some objects can belong to multiple parent objects. For example, a project can belong to multiple campaigns. In this case, all the campaigns that the project belongs to display in the breadcrumb.
 
 The multi-object listing in the breadcrumb (for example, the campaigns) displays the number of parent objects which expands into a list to display all the campaigns that the project is associated with. For more information, see [Add objects to a campaign](../../manage-work/campaigns/add-objects-to-a-campaign.md).
 
->[!NOTE]
->
->The information in this article is available when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
 
 ![Project with multiple campaigns in the breadcrumb](assets/project-with-multiple-campaigns-in-breadcrumb.png)
 

@@ -153,8 +153,6 @@ Previously, when you entered information in one custom form or expandable area f
 
 If you do want to edit all custom forms and expandable areas in the Details section for an object, you can click Edit all on the new Edit menu that we added to the Edit icon. Or, on the same menu, you can click a name to scroll to the custom form or section where you want to make changes
 
-For more information, see [Edit object details in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/combined-pages-object-details.md).
-
 [Watch a video demonstration of this feature.](https://vimeo.com/577660078/70db05b492)
 
 ## New for group administrators: Create and manage statuses for a group at any level

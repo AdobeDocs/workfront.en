@@ -3,14 +3,14 @@ filename: campaigns-section-toc
 content-type: reference
 navigation-topic: projects-navigation-topic
 title: Campaigns
-description: (NOTE:The name of the object might change - update the titles when/ if that happens. )
+description: These articles contain information about campaigns. 
 ---
 
 # Campaigns
 
 >[!NOTE]
 >
->The information in this article is available when you participate in the Campaigns beta program. The functionality described in the following articles might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
+>The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described in the following articles might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
 
 This section contains the following articles:
 
@@ -23,4 +23,4 @@ This section contains the following articles:
 * [Manage campaign finances](manage-campaign-finances.md) 
 * [Share a campaign](share-a-campaign.md)
 -->
-
+<!--the name of the object might change - change it everywhere and in the metadata. -->
