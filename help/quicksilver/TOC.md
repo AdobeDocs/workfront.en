@@ -416,10 +416,6 @@ feature-set: Workfront
       * [Manage teams](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
       * [Create a team](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
       * [Edit a team's settings](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
-  * Opt in to the new Adobe Workfront experience {#opt-in-nwe}
-    * [Opt in to new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/opt-in-to-the-new-workfront-experience.md)
-    * [Available only in new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/feature-list-and-release-timing-for-the-new-workfront-experience.md)
-    * [Move to new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/admin-prep-for-nwe.md)
   * Customize Adobe Workfront {#customize}
     * [Customize Workfront](administration-and-setup/customize-workfront/customize-workfront.md)
     * Custom branding in Adobe Workfront {#custom-branding}
@@ -704,7 +700,6 @@ feature-set: Workfront
       * [Modify how a list displays](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
     * [Access Adobe Workfront help](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
     * [Understand objects in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-    * [Customize the Adobe Workfront navigation](workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md)
     * [Understand the navigation for a Work-license user](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
     * [Understand the navigation for a Review-license user](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
     * [Overview of the Project, Task, and Issue dates in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
@@ -827,16 +822,11 @@ feature-set: Workfront
     * [Redesigned functionality in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/redesigned-features-in-nwe.md)
     * [Top navigation bar overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
     * [Simplified left navigation in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
-    * [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/subtabs-removed.md)
     * [Summary overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/summary-overview.md)
     * [Breadcrumbs overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
-    * [Edit object details in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/combined-pages-object-details.md)
     * [New object headers](workfront-basics/the-new-workfront-experience/new-object-headers.md)
-    * [New object actions area](workfront-basics/the-new-workfront-experience/new-object-actions-area.md)
     * [Toolbar for lists in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md)
     * [Pin pages to customize your workspace in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/pin-pages.md)
-    * [New Layout Templates area in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/new-layout-templates.md)
-    * [New Edit Object box](workfront-basics/the-new-workfront-experience/new-edit-object-box.md)
   * Tips, Tricks, and Troubleshooting for Adobe Workfront Basics {#tips-tricks-for-basics}
     * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
     * [Your quick guide to finding help in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
@@ -862,6 +852,7 @@ feature-set: Workfront
     * [Configure Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
   * Get started with boards in Adobe Workfront {#boards-in-workfront}
     * [Get started with boards in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+    * [Boards early feature opt-in](agile/get-started-with-boards/boards-early-feature-opt-in.md)
     * [Use the boards dashboard](agile/get-started-with-boards/use-boards-page.md)
     * [Create or edit a board](agile/get-started-with-boards/create-edit-board.md)
     * [Delete or archive a board](agile/get-started-with-boards/delete-archive-board.md
@@ -1965,9 +1956,11 @@ feature-set: Workfront
     * [Apps and their modules](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
     * [Adobe Workfront modules](workfront-fusion/apps-and-their-modules/workfront-modules.md)
     * [Workfront Proof modules](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
-    * [Adobe PDF Services](workfront-fusion/apps-and-their-modules/pdf-modules.md)
     * [Adobe Acrobat Sign modules](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
+    * [Adobe Creative Cloud Libraries modules](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
     * [Adobe Experience Manager Assets modules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)    
+    * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
+    * [Adobe Target modules](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
     * [Allocadia modules](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
     * [Anaplan Modules](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
     * [Archive modules](workfront-fusion/apps-and-their-modules/archive-modules.md)

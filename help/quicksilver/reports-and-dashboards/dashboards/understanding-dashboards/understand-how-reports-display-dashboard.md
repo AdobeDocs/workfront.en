@@ -17,15 +17,15 @@ You can select which report columns should display on a dashboard when you are c
 
 For more information about selecting which columns of a report should display on a dashboard, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-![](assets/qs-show-in-dashboard-350x172.png)
+![Show in dashboard option](assets/show-in-dashboard.png)
 
 ## Show all columns of the report on a dashboard
 
 When the report is selected for an area of the dashboard that takes up the full width of the dashboard, then by default all columns of the report display on the dashboard.  
-![](assets/qs-dashboard-full-reports-350x118.png)
+![Show all columns options](assets/qs-dashboard-full-reports-350x118.png)
 
 ## Show only the first column of the report on a dashboard
 
 When the report is selected for an area of the dashboard that takes up less than the full width of the dashboard, then by default only the first column of the report displays on the dashboard.  
-![](assets/qs-dashboard-truncated-reports-350x118.png)
+![Show first column options](assets/qs-dashboard-truncated-reports-350x118.png)
 

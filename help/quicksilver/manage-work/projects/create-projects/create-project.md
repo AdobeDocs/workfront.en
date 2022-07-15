@@ -70,9 +70,9 @@ You can create a project in Workfront by using one of the following methods:
 
 ## Prerequisites
 
-Before you begin, ensure you have the following:
+Before you begin you must ensure that
 
-* Your system or group administrator enabled the Allow users to create projects without using a template preference in the Setup area. 
+* Your system or group administrator enabled the "Allow users to create projects without using a template" preference in the Setup area. 
   
   For more information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 

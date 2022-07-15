@@ -55,7 +55,7 @@ To show comments on a timesheet:
 
 1. Click **Timesheets**.
 1. Open the timesheet where you want to display comments.
-1. Click **Show Comments** in the upper-right corner of the timesheet.
+1. Click **Show comments** in the upper-right corner of the timesheet.
    Comments display under the item where the hour entry and the comment were logged.
 
    ![](assets/comments-expanded-under-tasks-redesigned-timesheet.png)

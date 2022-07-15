@@ -33,8 +33,6 @@ This feature is now included in the [Planner Fundamentals for the new Workfront 
 
 To allow you to quickly filter the list of projects on the Projects page, there are two new buttons in the header that allow you to quickly apply the Projects I'm On or Projects I Own filter.
 
-For more information on these filters, see [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md).
-
 [Watch a video demonstration of this feature.](https://vimeo.com/539899695/71295bba4f)
 
 This feature is now included in the [Planner Fundamentals for the new Workfront experience, Part 1: Create a Project](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) learning path on Workfront One.

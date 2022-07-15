@@ -26,9 +26,11 @@ This section contains the following articles:
 
 * [Adobe Workfront modules](../../workfront-fusion/apps-and-their-modules/workfront-modules.md) 
 * [Workfront Proof modules](../../workfront-fusion/apps-and-their-modules/workfront-proof-modules.md) 
-* [Adobe PDF Services](../../workfront-fusion/apps-and-their-modules/pdf-modules.md) 
 * [Adobe Acrobat Sign modules](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
+* [Adobe Creative Cloud Libraries moduels](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md) 
 * [Adobe Experience Manager Assets modules](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
+* [Adobe PDF Services modules](../../workfront-fusion/apps-and-their-modules/pdf-modules.md) 
+* [Adobe Target modules](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md) 
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/adobe-analytics-modules.md" class="MCXref xref" xrefformat="{para}">Adobe Analytics Modules</a> </li>
