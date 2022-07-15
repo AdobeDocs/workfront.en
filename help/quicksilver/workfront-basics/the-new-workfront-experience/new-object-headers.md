@@ -1,8 +1,8 @@
 ---
 content-type: overview
 navigation-topic: the-new-workfront-experience
-title: New object headers
-description: New object headersEdit information in the object headers", or some other "overview"-type of article)"
+title: New object headers overview
+description: You can view information at a glance about objects in Adobe Workfront when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
 feature: Get Started with Workfront
 ---
 

@@ -1,7 +1,7 @@
 ---
 navigation-topic: the-new-workfront-experience
-title: Pin pages to customize your workspace in the new Adobe Workfront experience
-description: You can pin your most important work in the new Adobe Workfront experience for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in the new Adobe Workfront experience.
+title: Pin pages to customize your workspace
+description: You can pin your most important work Adobe Workfront for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in Workfront.
 feature: Get Started with Workfront
 ---
 
