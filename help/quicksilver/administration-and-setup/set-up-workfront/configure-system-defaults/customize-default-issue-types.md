@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Customize default issue types
-description: Issue types are useful in the following circumstances - EDIT ME.
+description: You can customize the labels for each default issue type to better match the terminology used in your organization. Issue types are useful for customizing issue statuses and creating request queues.
 feature: System Setup and Administration
 role: Admin
 ---

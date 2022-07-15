@@ -3,7 +3,7 @@ title: Delete a custom condition
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
-description: You must have the following access to perform the steps in this article - EDIT ME.
+description: You can delete a custom condition.
 feature: System Setup and Administration
 role: Admin
 ---

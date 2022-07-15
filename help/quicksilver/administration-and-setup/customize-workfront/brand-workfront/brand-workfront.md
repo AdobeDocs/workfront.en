@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: This section contains the following articles - EDIT ME.
+description: As a Workfront administrator, you can customize the branding in your Workfront instance and create a custom help URL.
 feature: System Setup and Administration
 role: Admin
 ---

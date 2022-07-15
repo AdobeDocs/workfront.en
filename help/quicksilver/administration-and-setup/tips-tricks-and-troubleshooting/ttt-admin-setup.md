@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Tips, tricks, and troubleshooting for administration and setup
-description: This section contains the following articles - EDIT ME.
+description: Find miscellaneous helps for administrating your organization's Workfront system in this section.
 feature: System Setup and Administration
 role: Admin
 ---

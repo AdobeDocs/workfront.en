@@ -53,7 +53,7 @@ Only users with a Plan license can be granted full access to projects.
 | Recalculate finance/timeline |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Set queue properties |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-{style="table-layout:auto"}
+
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -113,7 +113,7 @@ Only users with a Plan license can be granted full access to projects.
 | Make assignments |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
 | Updates and comments |✓ |✓ |✓ |✓ |&nbsp; |
 
-{style="table-layout:auto"}
+
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -137,7 +137,7 @@ Only users with a Plan license can have full access to portfolios.
 | Add documents |✓ |✓ |✓ |&nbsp; |&nbsp; |
 | Updates and comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
 
-{style="table-layout:auto"}
+
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -161,7 +161,7 @@ Only users with a Plan license can have full access to programs.
 | Add documents |✓ |✓ |✓ |&nbsp; |&nbsp; |
 | Updates and comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
 
-{style="table-layout:auto"}
+
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 

@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: administration-and-setup
 title: Manage Adobe Workfront
-description: This section contains the following subsections - EDIT ME.
+description: As a Workfront administrator, you can configure proofing Workfront functionality, reports, emails, security, exchange rates, deleted items, diagnostics.
 feature: System Setup and Administration
 role: Admin
 ---
