@@ -820,9 +820,9 @@ feature-set: Workfront
       * [Error Message on the Adobe Workfront Mobile App: "Your account is not API enabled."](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
   * Redesigned functionality in the new Adobe Workfront experience {#redesigned-new-workfront-experience}
     * [Redesigned functionality in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/redesigned-features-in-nwe.md)
-    * [Top navigation bar overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
+    * [Top navigation bar overview](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
     * [Simplified left navigation in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
-    * [Summary overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/summary-overview.md)
+    * [Summary overview](workfront-basics/the-new-workfront-experience/summary-overview.md)
     * [Breadcrumbs overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
     * [New object headers](workfront-basics/the-new-workfront-experience/new-object-headers.md)
     * [Toolbar for lists in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md)

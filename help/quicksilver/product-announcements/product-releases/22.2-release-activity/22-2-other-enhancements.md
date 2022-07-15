@@ -26,7 +26,7 @@ We have made several enhancements to the Adobe Workfront top navigation bar.
 * The look and feel of both pins and the main menu was updated to Adobe design standards, including colors and fonts. The way you add and remove pins and the areas you have access to in your main menu have not changed.
 * The icons on the right of the top navigation bar were re-ordered to be more intuitive. The icon order is: help link, notifications, favorites, recents, search, main menu.
 
-For more information, see [Top navigation bar overview in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
+For more information, see [Top navigation bar overview](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 
 [Watch a video demonstration of this feature.](https://vimeo.com/686846367/1a3a08cc4e)
 

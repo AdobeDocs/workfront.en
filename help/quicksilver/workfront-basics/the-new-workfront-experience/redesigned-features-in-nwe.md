@@ -17,11 +17,11 @@ For information about the current releases for the new Adobe Workfront experienc
 
 The following list contains links to articles reviewing key areas that have been redesigned for the new Adobe Workfront experience:
 
-* [Top navigation bar overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md) 
+* [Top navigation bar overview](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md) 
 * [Simplified left navigation in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) 
-* [Summary overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/summary-overview.md) 
+* [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md) 
 * [Breadcrumbs overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md) 
 * [New object headers](../../workfront-basics/the-new-workfront-experience/new-object-headers.md) 
 * [Toolbar for lists in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md) 
-* [Pin pages to customize your workspace in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/pin-pages.md) 
+* [Pin pages to customize your workspace](../../workfront-basics/the-new-workfront-experience/pin-pages.md) 
 
