@@ -20,7 +20,6 @@ This section contains the following subsections:
 * [Use notifications](../workfront-basics/using-notifications/use-notifications.md) 
 * [Grant and request permissions to objects](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) 
 * [Manage your account and profile](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md) 
-* [Mobile Apps](../workfront-basics/mobile-apps/mobile-apps.md) 
-* [Redesigned functionality in the new Adobe Workfront experience](../workfront-basics/the-new-workfront-experience/redesigned-features-in-nwe.md) 
+* [Mobile Apps](../workfront-basics/mobile-apps/mobile-apps.md)
 * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
 

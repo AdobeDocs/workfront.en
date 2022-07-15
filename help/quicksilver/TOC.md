@@ -703,6 +703,12 @@ feature-set: Workfront
     * [Understand the navigation for a Work-license user](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
     * [Understand the navigation for a Review-license user](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
     * [Overview of the Project, Task, and Issue dates in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+    * [Top navigation bar overview](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
+    * [Simplified left navigation](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
+    * [Summary overview](workfront-basics/the-new-workfront-experience/summary-overview.md)
+    * [Breadcrumbs overview](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+    * [New object headers overview](workfront-basics/the-new-workfront-experience/new-object-headers.md)
+    * [Pin pages to customize your workspace](workfront-basics/the-new-workfront-experience/pin-pages.md)
   * Home {#home}
     * [Home](workfront-basics/using-home/home.md)
     * Use the Home area {#use-home-area}
@@ -818,15 +824,6 @@ feature-set: Workfront
     * Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps {#tips-tricks-for-mobile-apps}
       * [Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
       * [Error Message on the Adobe Workfront Mobile App: "Your account is not API enabled."](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
-  * Redesigned functionality in the new Adobe Workfront experience {#redesigned-new-workfront-experience}
-    * [Redesigned functionality in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/redesigned-features-in-nwe.md)
-    * [Top navigation bar overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
-    * [Simplified left navigation in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
-    * [Summary overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/summary-overview.md)
-    * [Breadcrumbs overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
-    * [New object headers](workfront-basics/the-new-workfront-experience/new-object-headers.md)
-    * [Toolbar for lists in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md)
-    * [Pin pages to customize your workspace in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/pin-pages.md)
   * Tips, Tricks, and Troubleshooting for Adobe Workfront Basics {#tips-tricks-for-basics}
     * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
     * [Your quick guide to finding help in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
