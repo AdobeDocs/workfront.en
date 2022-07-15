@@ -1,57 +1,14 @@
 ---
 content-type: overview
 navigation-topic: the-new-workfront-experience
-title: New object headers
-description: New object headersEdit information in the object headers", or some other "overview"-type of article)"
+title: New object headers overview
+description: You can view information at a glance about objects in Adobe Workfront when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
 feature: Get Started with Workfront
 ---
 
-# New object headers
-
-<!--
-(NOTE: I think we should keep this article even after NWE will become standard but rename it to something like "Edit information in the object headers", or some other "overview"-type of article) </p>
--->
+# New object headers overview
 
 You can view information at a glance about objects in Adobe Workfront when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
-
-The look and feel of the headers—as well as what information is included—has changed in the new Adobe Workfront experience for some objects. This redesign allows you to quickly understand an object's state or to access additional editing and sharing options for that object.
-
-The headers of the following objects have been redesigned:
-
-| Object type |Section in this article |
-|---|---|
-| Home | [Home header overview](#home-header-overview)  |
-| Project | [Project header overview](#project-header-overview)  |
-| Task | [Task header overview](#task-header-overview)  |
-| Issue | [Issue header overview](#issue-header-overview)  |
-| Program | [Program header overview](#program-header-overview)  |
-| Portfolio | [Portfolio header overview](#portfolio-header-overview)  |
-| Template | [Template header overview](#template-header-overview)  |
-| Template Task | [Template Task header overview](#template-task-header-overview)  |
-| Billing Record | [Billing Record header overview](#billing-record-header-overview)  |
-| User | [User header overview](#user-header-overview)  |
-| Team | [Team header overview](#team-header-overview)  |
-| Iteration | [Iteration header overview](#iteration-header-overview)  |
-| Group | [Group header overview](#group-header-overview)  |
-| Document | [Document header overview](#document-header-overview)  |
-| Company | [Company header overview](#company-header-overview)  |
-| Plan | [Plan header overview](#plan-header-overview)  |
-
-{style="table-layout:auto"}
-
-For more information on objects, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-
-## Benefits of the new object headers
-
-Consider the following benefits as you view the new object headers in the new Adobe Workfront experience:
-
-* Streamlined design which is cohesive for all objects
-* Improved breadcrumbs allow for a deeper hierarchy of objects to display at one time
-* The name of the object type displays to add clarity
-* Colorful, more modern icons that are larger for easier viewing
-* Improved discoverability as more relevant information displays in the header
-
-  For example, the Planned Completion Date field now displays in the header of projects, tasks, and issues.
 
 ## Access the header of an object
 
@@ -156,7 +113,7 @@ The task header includes the following information:
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb with parent objects</td> 
-   <td> <p>The parent objects of the task display in the breadcrumb. Clicking the name of the parent opens that parent object.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview in the new Adobe Workfront experience</a>.</p> </td> 
+   <td> <p>The parent objects of the task display in the breadcrumb. Clicking the name of the parent opens that parent object.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Object icon </td> 
@@ -219,7 +176,7 @@ The issue header includes the following information:
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb with parent objects</td> 
-   <td> <p>The parent objects of the issue display in the breadcrumb. Clicking the name of the parent opens that parent object.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview in the new Adobe Workfront experience</a>.</p> </td> 
+   <td> <p>The parent objects of the issue display in the breadcrumb. Clicking the name of the parent opens that parent object.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object icon </td> 
@@ -282,7 +239,7 @@ The program header displays the following information:
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb with the name of the Portfolio</td> 
-   <td> <p>You can access the Portfolio from the header of the Program. Clicking the name of the parent opens that parent object.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview in the new Adobe Workfront experience</a>.</p> </td> 
+   <td> <p>You can access the Portfolio from the header of the Program. Clicking the name of the parent opens that parent object.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object icon </td> 
@@ -451,7 +408,7 @@ The template task header displays the following information:
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb to parent objects</td> 
-   <td> <p>The parent objects of the template task display in the breadcrumb. Clicking the name of a parent object opens that parent object.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview in the new Adobe Workfront experience</a>.</p> </td> 
+   <td> <p>The parent objects of the template task display in the breadcrumb. Clicking the name of a parent object opens that parent object.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object icon </td> 
@@ -498,7 +455,7 @@ The billing record header displays the following information:
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb to parent objects</td> 
-   <td> <p>The parent objects of the billing record display in the breadcrumb. Clicking the name of a parent object opens that parent object.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview in the new Adobe Workfront experience</a>.</p> </td> 
+   <td> <p>The parent objects of the billing record display in the breadcrumb. Clicking the name of a parent object opens that parent object.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object icon </td> 
@@ -747,7 +704,7 @@ The document header displays the following information:
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb with parent objects</td> 
-   <td> <p>The parent objects of the document display in the breadcrumb. Clicking the name of a parent object opens that parent object.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview in the new Adobe Workfront experience</a>.</p> </td> 
+   <td> <p>The parent objects of the document display in the breadcrumb. Clicking the name of a parent object opens that parent object.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object icon </td> 

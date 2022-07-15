@@ -47,7 +47,7 @@ You can locate the Work On&nbsp;it and Done button in the following areas of Wor
 
 * In the task or issue Summary panel in a list or in the Workload Balancer
 
-  For information about using the Summary panel, see [Summary overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+  For information about using the Summary panel, see [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Overview of fields that automatically update when you click the Work On It and Done button
 
