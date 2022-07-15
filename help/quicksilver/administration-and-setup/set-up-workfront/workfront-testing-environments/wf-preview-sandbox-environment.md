@@ -4,7 +4,7 @@ content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: The Adobe Workfront Preview Sandbox Environment
-description: There are two testing environments for Workfront that are replicas of your Workfront production environment - EDIT ME.
+description: The Preview Sandbox is a testing environment that serves as a replica of your live environment. It is refreshed each weekend by Workfront. Data added to your live environment on Friday appears in your Preview Sandbox by the following Monday. All support packages have access to this sandbox.
 feature: System Setup and Administration
 role: Admin
 ---
@@ -15,12 +15,13 @@ There are two testing environments for Workfront that are replicas of your Workf
 
 * The Preview Sandbox
 
-  The Preview Sandbox is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront. For example, data added to your live environment on Friday appears in your Preview Sandbox by the following Monday.  
+  The Preview Sandbox is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront. Data added to your live environment on Friday appears in your Preview Sandbox by the following Monday.  
+  
   All support packages have access to the Preview Sandbox.
 
 * The Custom Refresh Sandbox
 
-  The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain the Custom Refresh Sandbox. For more information about the Custom Refresh Sandbox, see [The Adobe Workfront Custom Refresh Sandbox environment](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain the Custom Refresh Sandbox. For more information about this environment, see [The Adobe Workfront Custom Refresh Sandbox environment](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 

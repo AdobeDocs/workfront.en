@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Error: Active Directory User Cannot Log In"
-description: A single user or only a few users are unable to Login to Adobe Workfront. They are receiving the following error - EDIT ME.
+description: If someone receives the message "Invalid Username or Password" when trying to log in to Adobe Workfront, it's possible that the user's name in Active Directory doesn't match their Federation. Compare the user's name in the Active Directory to the name in the Federation ID field in the individual user's profile.
 feature: System Setup and Administration
 role: Admin
 ---

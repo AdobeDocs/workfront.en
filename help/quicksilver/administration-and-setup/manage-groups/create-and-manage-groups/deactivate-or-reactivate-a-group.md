@@ -10,8 +10,6 @@ role: Admin
 
 # Deactivate or reactivate a group
 
-The information on this page refers to functionality available only in the new Workfront experience beta.
-
 <!--
 If Callisto adds the <b>Is active</b> checkbox to the Details page for groups you view, add that info to Manage groups/Create and manage groups/**manage-a-group** and to Manage groups/Create and manage groups/**view-and-manage-a-groups-details**
 -->
@@ -58,13 +56,15 @@ You must have the following to perform the steps in this article:
 
    In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
-1. Click the name of the group to open its page. Click the More menu ![](assets/more-icon.png) next to the name of the group, then click **Deactivate** or **Reactivate**.    
-  
-1. (Conditional) If you are deactivating the group, click **Deactivate** in the **Deactivate group** box that displays.
+1. Click the name of the group to open its page. 
 
+1. Click the More menu ![](assets/more-icon.png) next to the name of the group, then click **Deactivate** or **Reactivate**.    
+  
    >[!NOTE]
    >
    >The Is Active option (Reactivate option in Preview) is unavailable if the group is a subgroup of a deactivated group. Before you can reactivate it, you must remove it from its parent group or move it under a group that is active, as described in the Important note above.
+
+1. (Conditional) If you are deactivating the group, click **Deactivate** in the **Deactivate group** box that displays.  
 
 ## Considerations for inactive groups
 

@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Diagnostics
-description: This section contains the following articles - EDIT ME.
+description: You can use Diagnostics to manually trigger automated processes, such as time-based scripts, recalculations, and email notifications.
 feature: System Setup and Administration
 role: Admin
 ---
