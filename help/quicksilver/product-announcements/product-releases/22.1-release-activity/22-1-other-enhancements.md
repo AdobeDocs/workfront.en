@@ -71,8 +71,6 @@ A more modern and intuitive toolbar makes it easier to manage users in a Users l
 
 For more information about these actions, see [Create and manage users](../../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md).
 
-For information about the new toolbar in lists throughout Workfront, see [Toolbar for lists in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md).
-
 ## Updated Help menu
 
 Now when you click the Help link in the top navigation bar, an updated, more streamlined menu appears. The new menu provides the same information, but with fewer levels of navigation, requiring fewer clicks to see relevant content.
