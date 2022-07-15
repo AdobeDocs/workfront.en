@@ -8,7 +8,7 @@ description: Boards with ad hoc cards are available to all users, and we are exc
 
 # Early feature opt-in for Adobe Workfront Boards
 
-Boards with ad hoc cards are available to all users, and we are excited to open additional features for early feature opt-in beginning in July 2022.
+Boards with ad hoc and connected cards are available to all users, and we are excited to open additional boards features for early feature opt-in beginning in July 2022.
 
 Adobe Workfront Boards are flexible tools that allow team collaboration by providing access to a shared board that contains columns and cards.
 

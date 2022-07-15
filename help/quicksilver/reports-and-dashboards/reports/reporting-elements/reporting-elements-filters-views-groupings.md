@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: "Reporting elements: filters, views, and groupings"
-description: "AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have - EDIT ME."
+description: The main elements that every list and report must have in Workfront are a filter, a view, and a grouping. Each element provides different information within any report.
 feature: Reports and Dashboards
 ---
 

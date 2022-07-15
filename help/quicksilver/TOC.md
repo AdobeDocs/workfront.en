@@ -1293,8 +1293,8 @@ feature-set: Workfront
     * [Delegate work](manage-work/delegate-work/delegate-work.md)
     * [Delegate tasks and issues overview](manage-work/delegate-work/delegate-work-overview.md)
     * [Manage task and issue delegation](manage-work/delegate-work/how-to-delegate-work.md)
-* People, teams, and groups {#people-teams-groups}
-  * [People, teams, and groups](people-teams-and-groups/people-teams-and-groups.md)
+* Teams and groups {#teams-groups}
+  * [Teams and groups](people-teams-and-groups/people-teams-and-groups.md)
   * Create and manage teams {#create-manage-teams}
     * [Create and manage teams](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
     * [Teams overview](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
@@ -1374,7 +1374,6 @@ feature-set: Workfront
       * [Use user-based wildcards to generalize reports](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
       * [Share a filter, view, or grouping](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
       * [Remove filters, views, and groupings](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
-      * [Delete filters](reports-and-dashboards/reports/reporting-elements/delete-filters.md)
       * [Use the Milestone view](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
       * [Modify column width and order](reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
     * Use built-in reports {#built-in-reports}
