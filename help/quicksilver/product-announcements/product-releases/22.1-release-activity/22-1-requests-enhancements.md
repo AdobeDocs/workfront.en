@@ -50,4 +50,4 @@ To improve visibility and interaction with the Summary panel, we have added a la
 
 When opening the Summary panel without first selecting a request, a more user-friendly image now displays to clearly instruct the user to select an item before opening the panel. For more information, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-With this change, the Summary panel for tasks, issues, and documents has also been updated. For information about the Summary panel, see [Summary overview in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+With this change, the Summary panel for tasks, issues, and documents has also been updated. For information about the Summary panel, see [Summary overview](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).

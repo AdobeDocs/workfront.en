@@ -195,7 +195,7 @@ The following table lists many of the icons in the new toolbar and indicates wha
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>Summary</td> 
-   <td> <p>Display or hide the Summary box for the selected item.</p> <p>This is available only for tasks and issues.</p> <p>For information about the Summary panel in the new Adobe Workfront experience, see <a href="../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview in the new Adobe Workfront experience</a>.</p> </td> 
+   <td> <p>Display or hide the Summary box for the selected item.</p> <p>This is available only for tasks and issues.</p> <p>For information about the Summary panel in the new Adobe Workfront experience, see <a href="../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
