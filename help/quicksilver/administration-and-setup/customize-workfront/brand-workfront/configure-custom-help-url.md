@@ -18,7 +18,7 @@ This does not affect the main Help link in the Main Menu and the context-sensiti
 
  ![](assets/custom-help-url.png)
 
-For information about how users access both a custom help URL that you configure in Workfront and the regular Workfront help site, see [Accessing Workfront Help in the new Adobe Workfront experience](help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+For information about how users access both a custom help URL that you configure in Workfront and the regular Workfront help site, see [Accessing Workfront Help in the new Adobe Workfront experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Access requirements
 
