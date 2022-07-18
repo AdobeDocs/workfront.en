@@ -81,14 +81,14 @@ You can share views and groupings only in the standard interface.
 Sharing filters, views, and groupings in the standard interface is identical.
 
 1. Go to a list of objects or a report.
-1. (Conditional) From a list, click the **Filter**, **View**, or **Grouping** icon, then hover over the filter, view, or grouping you want to share, click the **More** icon ![](assets/more-icon.png), then **Share**.
+1. (Conditional) From a list, click the **Filter**, **View**, or **Grouping** icon, then hover over the filter, view, or grouping you want to share, click the **More** icon ![More icon](assets/more-icon.png), then **Share**.
 
    From a report, click the **Filter**, **View**, or **Grouping** drop-down menu, then select the filter, view, or grouping you want to share.
 
 1. (Conditional) If sharing from a report, click the **Filter**, **View**, or **Grouping** drop-down menu again, then click **Share Filter**, **Share View**, or **Share Grouping**.  
    The **Filter Access**, **View Access**, or **Grouping Access** dialog box displays.
 
-   ![](assets/share-filter-people-box-nwe-350x458.png)
+   ![Share filter](assets/share-filter-people-box-nwe-350x458.png)
 
 1. Complete either of the following, depending on who you want to share with:
 
@@ -163,7 +163,7 @@ Share a filter using the beta builder interface:
 <td>Filters that you marked as favorites. When you favorite a filter, its original location is shown below the filter name, and it is hidden from the original list unless you remove it as a favorite.</td>
 </tr>
 <tr>
-<td role="rowheader"><strong>Saved</trong></td>
+<td role="rowheader"><strong>Saved</strong></td>
 <td>Filters that you built and saved yourself.</td>
 </tr>
 <tr>
