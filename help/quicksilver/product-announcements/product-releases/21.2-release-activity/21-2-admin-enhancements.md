@@ -46,8 +46,6 @@ We have made the following improvements in the Subgroups area in Setup.
 
 * The toolbar in the Subgroups area now makes lists consistent with other modernized lists in the new Workfront experience. When you select groups, icons represent available functions in the toolbar.
 
-  For information about the modernized toolbars in the new Workfront experience, see [Toolbar for lists in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md).
-
 [Watch a video demonstration of this feature.](https://vimeo.com/539859377/84bd210185)
 
 ## New for administrators: Updated look and feel on Timesheets & Hours Preferences page
@@ -72,8 +70,6 @@ Two improvements in the Groups area in Setup make lists consistent with other mo
 
 * When you select groups, icons represent available functions in the toolbar.
 * In the list of groups, columns, sorting, and hierarchy have the newer look and feel you are used to in other lists. Also, by default, lists display up to 2,000 items on a single page instead of 100.
-
-For information about the modernized toolbars in the new Workfront experience, see [Toolbar for lists in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md).
 
 For information about the modernized lists throughout Workfront, see [Modify how a list displays](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
 
