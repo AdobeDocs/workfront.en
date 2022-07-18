@@ -387,17 +387,17 @@ The following table lists many of the icons available in the toolbar and indicat
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
    <td> <p>Plan mode</p> </td> 
-   <td> <p>Choose whether you want to save the changes you make in a task list automatically or manually. </p> <p>For information about editing tasks in a list, see <a href="../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Edit tasks in a list</a>. </p> <p>This is available only for tasks.</p> </td> 
+   <td> <p>Choose whether you want to save the changes you make in a task list automatically or manually. </p> <p>For information about editing tasks in a list, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Edit tasks in a list</a>. </p> <p>This is available only for tasks.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>Summary</td> 
-   <td> <p>Display or hide the Summary box for the selected item.</p> <p>This is available only for tasks and issues.</p> <p>For information about the Summary panel in the new Adobe Workfront experience, see <a href="../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview</a>.</p> </td> 
+   <td> <p>Display or hide the Summary box for the selected item.</p> <p>This is available only for tasks and issues.</p> <p>For information about the Summary panel in the new Adobe Workfront experience, see <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
    <td>Remove</td> 
-   <td>Remove something from the list. For example, as a group administrator managing group or subgroup memberships, remove a group member as explained in <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">View and manage a group's memberships</a>.</td> 
+   <td>Remove something from the list. For example, as a group administrator managing group or subgroup memberships, remove a group member as explained in <a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">View and manage a group's memberships</a>.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
