@@ -15,6 +15,8 @@ This section contains the following articles:
 * [Adobe Workfront integrations](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) 
 * [Slack app for Legacy Workfront Fusion](../../administration-and-setup/configure-integrations/legacy-fusion-slack-app.md) 
 * [Configure Workfront with Adobe Experience Manager legacy connector](../../administration-and-setup/configure-integrations/configure-workfront-aem.md) 
+* [Configure the Experience Manager Assets as a Cloud Service integration](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
+* [Configure the Experience Manager Assets Essentials integration](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 * [Workfront and Experience Manager Assets Integrations](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md) 
 * [Enable Adobe Workfront for Outlook](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md) 
 * [Configure document integrations](../../administration-and-setup/configure-integrations/configure-document-integrations.md) 

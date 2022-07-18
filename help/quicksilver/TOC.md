@@ -626,6 +626,8 @@ feature-set: Workfront
     * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations-1.md)
     * [Slack app for Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-fusion-slack-app.md)
     * [Configure Workfront with Adobe Experience Manager legacy connector](administration-and-setup/configure-integrations/configure-workfront-aem.md)
+    * [Configure the Experience Manager Assets as a Cloud Service integration](administration-and-setup/configure-integrations/configure-aacs-integration.md)
+    * [Configure the Experience Manager Assets Essentials integration](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
     * [Enable users to access the mobile application](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
     * [Enable Adobe Workfront for Outlook](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
     * [Configure document integrations](administration-and-setup/configure-integrations/configure-document-integrations.md)
@@ -962,7 +964,6 @@ feature-set: Workfront
     * Adobe Workfront for Experience Manager Assets Essentials {#wf-aem-essentials}
       * [Adobe Workfront for Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
       * [Adobe Experience Manager Assets integrations](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-      * [Configure the Experience Manager Assets Essentials integration](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [Link assets and folders from Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
       * [View or download a linked asset from Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
       * [Send a Document to Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
