@@ -15,7 +15,7 @@ For information about understanding objects and how they can be reported on in t
 
 ## Report elements
 
-Reports are a combination of the following 3 elements in Workfront:
+Reports are a combination of the following three elements in Workfront:
 
 <table style="table-layout:auto"> 
  <col> 

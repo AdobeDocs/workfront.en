@@ -1,13 +1,13 @@
 ---
 content-type: reference
 product-area: user-management;agile-and-teams
-navigation-topic: people-teams-and-groups
-title: People, teams, and groups
-description: This section contains the following subsections - EDIT ME.
-feature: "People Teams and Groups"
+navigation-topic: teams-and-groups
+title: Teams and groups
+description: Review these areas to learn about working with teams and groups.
+feature: "Teams and Groups"
 ---
 
-# People, teams, and groups
+# Teams and groups
 
 This section contains the following subsections:
 
