@@ -131,7 +131,6 @@ You can use either built-in filters or build custom filters in the following are
 When working with lists and reports, you can filter information on the screen by using the following types of filters:
 
 * built-in filters
-
 * new filters you or others create from scratch
 * customized existing filters that others created and shared with you
 * copied and edited filters based on existing filters
@@ -230,7 +229,7 @@ For more information about filter modifiers, see [Filter and condition modifiers
 
 ## **Create filters in the builder interface**
 
-You can create a filter using the standard builder interface in the following ways:
+You can create a filter using the standard or beta builder interface in the following ways:
 
 * From scratch
 * Modify an existing filter
