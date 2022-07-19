@@ -8,13 +8,13 @@ feature: Product Announcements
 
 # 22.3 Administrator enhancements
 
-This page describes all Administrator enhancements made with the 22.3 release to the Preview environment. These enhancements were made available the week of July 11, 2022. For a list of all changes available with the 22.3 release, see [22.3 Release overview](help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+This page describes all Administrator enhancements made with the 22.3 release to the Preview environment. These enhancements were made available the week of July 11, 2022. For a list of all changes available with the 22.3 release, see [22.3 Release overview](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Integrate Adobe Workfront with JumpSeat
 
 You now can integrate JumpSeat with Workfront to create custom, in-product guidance for your users. You must have an Adobe Workfront enterprise license and an active JumpSeat subscription to enable the integration.
 
-For more information, see [Configure the JumpSeat integration](help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
+For more information, see [Configure the JumpSeat integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
 [View a video demonstration of this feature.](https://vimeo.com/716397888/980ecc717e)
 
