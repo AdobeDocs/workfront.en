@@ -13,9 +13,7 @@ role: Admin
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->For instructions on performing this action in the Adobe Admin Console, see "The digital signature in the SAML response did not validate with the identity provider's certificate" in [Troubleshooting errors](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html), or reach out to your Adobe Admin Console Administrator.
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -78,8 +76,8 @@ To review the warning message and acknowledge the update of the SAML 2.0 metadat
    >
    >If the ACS URL changes after you upload the Workfront metadata, this means that the metadata might contain an incorrect ACS URL. You must change it back to the one you copied in order to avoid breaking your Single Sign-On connection. Your updated certificate will still be correct after you do this.
 
-1. Go to your identity provider server and update the new certiﬁcate you downloaded from Workfront on that server, as explained in [Update SAML 2.0 metadata in your identity provider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
-1. In Workfront, on the **Single Sign-on (SSO) page**, make sure that **Admin Exemption** is selected.
+1. Go to your identity provider server and update the new certiﬁcate you downloaded.
+1. In Workfront, on the **Single Sign-on (SSO) page**, make sure that this option is selected: **The new Workfront certificate has already been uploaded to the Identity Provider**.
 
    When this ﬁeld is selected, Workfront administrators can log in to Workfront with their SSO credentials or their Workfront credentials.
 
