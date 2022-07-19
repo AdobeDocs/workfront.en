@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Link documents from external applications
 description: You can link documents and folders to Adobe Workfront from the following sources - EDIT ME.
+author: Courtney
 feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---
 

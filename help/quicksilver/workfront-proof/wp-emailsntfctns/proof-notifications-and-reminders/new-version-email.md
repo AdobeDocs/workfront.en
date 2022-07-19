@@ -5,6 +5,7 @@ product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
 title: The New Version email
 description: Does this apply to PiW?
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

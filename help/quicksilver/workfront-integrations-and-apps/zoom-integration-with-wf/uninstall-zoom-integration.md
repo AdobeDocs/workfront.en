@@ -3,6 +3,7 @@ product-area: workfront-integrations;setup
 navigation-topic: zoom-integration-in-workfront
 title: Uninstall the Zoom integration
 description: As a regular user, you can uninstall the Zoom integration in your own personal instance of Adobe Workfront.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

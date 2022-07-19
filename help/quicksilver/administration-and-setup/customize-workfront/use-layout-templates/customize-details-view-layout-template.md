@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

@@ -5,6 +5,7 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: The Adobe Workfront Preview Sandbox Environment
 description: The Preview Sandbox is a testing environment that serves as a replica of your live environment. It is refreshed each weekend by Workfront. Data added to your live environment on Friday appears in your Preview Sandbox by the following Monday. All support packages have access to this sandbox.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

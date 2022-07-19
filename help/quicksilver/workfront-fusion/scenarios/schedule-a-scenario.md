@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: Schedule a scenario in Adobe Workfront Fusion
 description: By default, a scenario runs every 15 minutes. You can change this by defining when and how often an activated scenario runs.
+author: Becky
 feature: Workfront Fusion
 ---
 

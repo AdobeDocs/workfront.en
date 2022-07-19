@@ -3,6 +3,7 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Add ad-hoc events to a calendar report
 description: You can add ad-hoc events to a calendar. An ad-hoc event simply serves as a reminder in your calendar and is not associated with a project, task, or issue.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

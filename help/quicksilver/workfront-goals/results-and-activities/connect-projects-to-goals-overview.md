@@ -5,6 +5,7 @@ product-area: projects
 navigation-topic: results-and-activities
 title: Overview of connecting projects to goals in Adobe Workfront Goals
 description: Overview of connecting projects to goals in Adobe Workfront Goals
+author: Alina
 feature: Workfront Goals
 ---
 

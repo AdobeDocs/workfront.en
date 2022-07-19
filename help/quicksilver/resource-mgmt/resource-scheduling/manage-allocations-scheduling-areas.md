@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: resource-scheduling
 title: Manage user allocations in the Scheduling areas
 description: We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources.
+author: Alina
 feature: Resource Management
 ---
 

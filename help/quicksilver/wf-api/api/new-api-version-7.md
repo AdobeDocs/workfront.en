@@ -3,6 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: What's New in API Version 7
 description: Collections
+author: John
 feature: Workfront API
 ---
 

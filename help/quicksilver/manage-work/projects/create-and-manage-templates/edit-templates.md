@@ -3,6 +3,7 @@ product-area: templates
 navigation-topic: templates-navigation-topic
 title: Edit project templates
 description: Edit project templatesWorking with Resource Pools" article)"
+author: Alina
 feature: Work Management
 ---
 

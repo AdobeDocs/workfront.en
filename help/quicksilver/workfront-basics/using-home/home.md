@@ -3,6 +3,7 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: Home
 description: This section contains the following subsections - EDIT ME.
+author: Lisa
 feature: Get Started with Workfront
 ---
 

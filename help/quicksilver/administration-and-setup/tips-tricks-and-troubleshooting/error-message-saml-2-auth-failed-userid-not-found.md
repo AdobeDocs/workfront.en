@@ -5,6 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Error message: SAML 2.0 Authentication Failed: User Identifier Not Found"
 description: "I am receiving this error when using SAML 2.0: 'SAML 2.0 Authentication Failed: User Identifier Not Found.'"
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

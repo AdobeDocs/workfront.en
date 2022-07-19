@@ -3,6 +3,7 @@ content-type: api;tips-tricks-troubleshooting
 navigation-topic: workfront-api
 title: Update to emailAddr does not update the username
 description: Normally, the emailAddr and username are the same attribute. Therefore, if you change a user's emailAddr attribute, the username attribute is automatically updated to match.
+author: John
 feature: Workfront API
 ---
 

@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: manage-tasks
 title: Manage task information in the Task Details Overview area
 description: Manage task information in the Task Details Overview area
+author: Alina
 feature: Work Management
 ---
 

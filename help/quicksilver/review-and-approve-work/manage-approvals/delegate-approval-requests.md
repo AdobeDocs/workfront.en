@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: approvals
 title: Delegate approval request
 description: Delegating approval requests allows you to assign another user to approve your requests for a period of time, for example, if you will be out of the office on vacation.
+author: Courtney
 feature: Work Management
 ---
 

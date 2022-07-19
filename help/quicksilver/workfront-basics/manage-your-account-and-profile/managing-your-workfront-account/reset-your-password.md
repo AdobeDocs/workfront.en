@@ -3,6 +3,7 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Reset your password
 description: You can reset your Adobe Workfront password. As an important security measure, we recommend that you do this regularly.
+author: Lisa
 feature: Get Started with Workfront
 ---
 

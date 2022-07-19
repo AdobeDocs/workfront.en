@@ -3,6 +3,7 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: Adobe Workfront with Anaplan Integration FAQs
 description: Do I have to use Adobe Workfront Fusion?
+author: Becky
 feature: "Workfront Integrations and Apps, Workfront Fusion"
 ---
 

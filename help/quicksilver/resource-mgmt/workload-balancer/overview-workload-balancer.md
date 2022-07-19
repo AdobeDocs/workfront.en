@@ -4,6 +4,7 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Overview of the Workload Balancer
 description: Overview of the Workload Balancer
+author: Alina
 feature: Resource Management
 ---
 

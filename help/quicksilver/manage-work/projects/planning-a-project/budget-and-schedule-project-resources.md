@@ -3,6 +3,7 @@ product-area: projects;resource-management
 navigation-topic: plan-a-project
 title: Budget and schedule project resources
 description: Budget and schedule project resources
+author: Alina
 feature: Work Management
 ---
 

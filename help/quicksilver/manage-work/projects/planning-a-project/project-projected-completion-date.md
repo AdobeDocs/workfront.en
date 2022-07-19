@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: plan-a-project
 title: Overview of the Projected Completion Date for projects, tasks, and issues
 description: The Projected Completion Date is a real-time, calculated indicator of when the project, task, or issue will be completed. When the project, task, or issue is marked as Completed, the Projected Completion Date changes to the date of the Actual Completion Date.
+author: Alina
 feature: Work Management
 ---
 

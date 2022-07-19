@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Create or edit an Automated Workflow for an existing proof
 description: Automated Workflows make it easier to manage the review process if your process is complex or if you regularly send content for review to the same groups of people. When you create a proof with an Automated Workflow, the proof moves from stage to stage until final approval. Participants are notified when it's their turn to review the document.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

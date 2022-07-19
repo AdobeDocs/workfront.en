@@ -4,6 +4,7 @@ product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Configure approval decision options in Workfront Proof
 description: As a Workfront Proof administrator using a Select or Premium edition plan, you can configure approval decision options in the following ways for all proofs created by Workfront Proof users in your organization - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

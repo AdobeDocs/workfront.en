@@ -3,6 +3,7 @@ product-area: projects;templates
 navigation-topic: manage-projects
 title: Save a project as a template
 description: Save a project as a templateSave as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)"
+author: Alina
 feature: Work Management
 ---
 

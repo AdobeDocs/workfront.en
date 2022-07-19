@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: share-proofs-and-files
 title: Share Files in Workfront Proof
 description: You can use Workfront Proof for more than just managing proofs. It is also an ideal solution for storing and sharing files.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

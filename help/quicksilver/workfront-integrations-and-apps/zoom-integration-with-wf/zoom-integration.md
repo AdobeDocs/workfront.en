@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Zoom integration
 description: This article links to information and instructions about using Zoom in Adobe Workfront. 
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

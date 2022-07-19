@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Budget resources in the Resource Planner using the Project and Role views
 description: Budget resources in the Resource Planner using the Project and Role views
+author: Alina
 feature: Resource Management
 ---
 

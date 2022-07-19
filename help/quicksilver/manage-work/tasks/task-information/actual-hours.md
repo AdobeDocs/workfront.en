@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: task-information
 title: View Actual Hours
 description: The hours you log on your work items in Adobe Workfront are considered Actual Hours.
+author: Alina
 feature: Work Management
 ---
 

@@ -4,6 +4,7 @@ product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: Change email alert settings for a proof in Workfront Proof
 description: You can also change the Workfront Proof email alerts you receive for a proof on which you are a reviewer.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

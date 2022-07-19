@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Format numbers, currency and percentage values in text mode reports
 description: Numeric values including currency can be configured to display in a variety of formats in reports and lists in Adobe Workfront.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

@@ -4,6 +4,7 @@ product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: Users
 description: This section contains the following articles - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

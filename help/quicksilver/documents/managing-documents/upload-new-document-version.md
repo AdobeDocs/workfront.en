@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: manage-documents
 title: Upload a new version of a document
 description: You can add a new version of a document you have previously uploaded to Adobe Workfront.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

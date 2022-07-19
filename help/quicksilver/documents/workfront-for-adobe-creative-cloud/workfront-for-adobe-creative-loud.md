@@ -4,6 +4,7 @@ product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
 title: Workfront Extension for Illustrator and InDesign
 description: The Workfront Extension is an Adobe Extension designed to allow you to save and export assets you create in Illustrator or InDesign to Workfront, thereby speeding up the approval and review process.
+author: Courtney
 feature: "Workfront Integrations and Apps, Digital Content and Documents"
 ---
 

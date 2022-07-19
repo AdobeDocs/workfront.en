@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Opening a Proof in Workfront Proof
 description: Opening a Proof in Workfront Proof
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

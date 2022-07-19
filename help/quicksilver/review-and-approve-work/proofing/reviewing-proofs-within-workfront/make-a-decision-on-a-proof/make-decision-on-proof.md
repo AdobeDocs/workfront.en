@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Make a decision on a proof
 description: Approve a proof
+author: Courtney
 feature: Digital Content and Documents
 ---
 

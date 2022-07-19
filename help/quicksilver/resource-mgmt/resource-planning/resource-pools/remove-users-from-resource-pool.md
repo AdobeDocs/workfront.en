@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: resource-pools
 title: Remove users from resource pools
 description: Although there is no limit to how many users you can have in a resource pool, the list of users only displays the first 2000 users, listed alphabetically.
+author: Alina
 feature: Resource Management
 ---
 

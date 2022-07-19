@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Create and Manage Custom Views in Workfront Proof Proof
 description: You can create custom views of your files and proofs to list the items you want in the ways you want them displayed. You can also export the information in your Custom view as a report (in CSV, comma separated value, file format).
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

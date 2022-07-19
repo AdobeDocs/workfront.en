@@ -4,6 +4,7 @@ product-area: reporting
 navigation-topic: reports-and-dashboards
 title: Reporting Canvas
 description: This section contains the following articles - EDIT ME.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

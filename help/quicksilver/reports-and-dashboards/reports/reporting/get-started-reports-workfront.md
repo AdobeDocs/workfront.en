@@ -4,6 +4,7 @@ product-area: reporting
 navigation-topic: reporting-navigation-topic
 title: Get started with reports in Adobe Workfront
 description: Reports provide visibility into what is happening with users and work. Using reports, you can display information about objects in Adobe Workfront.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

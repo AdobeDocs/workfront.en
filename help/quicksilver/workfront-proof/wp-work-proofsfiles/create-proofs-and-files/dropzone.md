@@ -4,6 +4,7 @@ product-area: documents;workfront-integrations
 navigation-topic: create-proofs-and-files
 title: The Dropzone
 description: If you have the Enterprise plan, you can use the Dropzone to submit new proofs and new versions of proofs to your account without having to log in to your account.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

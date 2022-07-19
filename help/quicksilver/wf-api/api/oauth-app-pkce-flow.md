@@ -3,6 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Configure and use your organization's custom OAuth 2 applications using PKCE flow
 description: PKCE is a secure authorization flow that works well with dynamically refreshing applications such as mobile apps, but is valuable across all OAuth2 clients. Instead of a static client secret, PKCE uses a dynamically generated string, eliminating the risk of a leaked client secret.
+author: John
 feature: Workfront API
 ---
 

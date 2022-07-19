@@ -4,6 +4,7 @@ keywords: API,data,sync,journal,entry,object
 navigation-topic: general-api
 title: Using the API to sync data for programs and services
 description: These are some common ways for you to utilize the API to sync data for programs and services.
+author: John
 feature: Workfront API
 ---
 

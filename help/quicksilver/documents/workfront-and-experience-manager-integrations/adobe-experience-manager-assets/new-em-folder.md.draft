@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: adobe-experience-manager-assets
 title: Create a new linked folder in Workfront
 description: You can create a new linked folder in Workfront. The folder automatically creates in Experience Manger. The folder name will be the project name. If the project is associated with a program or portfolio, those details will be included in the folder name. You can't change the folder name after it's created. if you create an additional folder, the name will be the same as the first folder but Workfront will add a number after.
+author: Courtney
 ---
 
 # Create a new linked folder in Workfront

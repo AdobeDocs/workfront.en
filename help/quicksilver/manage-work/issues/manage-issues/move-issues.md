@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: manage-issues
 title: Move issues
 description: You can move issues between projects and tasks.
+author: Alina
 feature: Work Management
 ---
 

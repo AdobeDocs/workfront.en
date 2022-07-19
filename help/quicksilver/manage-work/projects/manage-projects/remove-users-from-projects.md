@@ -3,6 +3,7 @@ product-area: projects;user-management
 navigation-topic: manage-projects
 title: Remove users from projects
 description: Remove users from projects
+author: Alina
 feature: Work Management
 ---
 

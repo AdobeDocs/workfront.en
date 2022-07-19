@@ -3,6 +3,7 @@ product-previous: workfront-goals
 navigation-topic: goal-management
 title: Activate goals in Adobe Workfront Goals
 description: When you create a goal, Adobe Workfront Goals saves it with a status of Draft. Drafted goals are not part of goal management.
+author: Alina
 feature: Workfront Goals
 ---
 

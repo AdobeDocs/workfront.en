@@ -4,6 +4,7 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Resource Planner display limitations
 description: To improve performance, Adobe Workfront is limiting the amount of information you can display as well as the amount of information you can export from the Resource Planner.
+author: Alina
 feature: Resource Management
 ---
 

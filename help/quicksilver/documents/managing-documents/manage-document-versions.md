@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: manage-documents
 title: Manage document versions
 description: You can manage multiple versions of a document in Workfront.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

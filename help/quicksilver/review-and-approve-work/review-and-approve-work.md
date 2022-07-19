@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Review and approve work
 description: This section contains the following subsections - EDIT ME.
+author: Courtney
 feature: "Work Management, Digital Content and Documents"
 ---
 

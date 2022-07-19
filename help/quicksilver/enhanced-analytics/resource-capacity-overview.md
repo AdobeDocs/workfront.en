@@ -4,6 +4,7 @@ content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
 description: The Resource capacity visualization shows whether a team is over, under, or at capacity. This calculation is based on - EDIT ME.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

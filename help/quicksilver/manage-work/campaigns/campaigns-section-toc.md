@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: projects-navigation-topic
 title: Campaigns
 description: These articles contain information about campaigns. 
+author: Alina
 ---
 
 # Campaigns

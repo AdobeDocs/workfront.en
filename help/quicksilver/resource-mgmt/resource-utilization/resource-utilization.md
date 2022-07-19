@@ -4,6 +4,7 @@ product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Resource Utilization
 description: This section contains the following articles - EDIT ME.
+author: Alina
 feature: Resource Management
 ---
 

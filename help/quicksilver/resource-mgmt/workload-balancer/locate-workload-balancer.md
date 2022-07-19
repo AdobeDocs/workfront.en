@@ -4,6 +4,7 @@ keywords: working,team,staffing,resources
 navigation-topic: the-workload-balancer
 title: Locate the Workload Balancer
 description: You can use the Workload Balancer to schedule resources for work or review their availability and current allocations.
+author: Alina
 feature: Resource Management
 ---
 

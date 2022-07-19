@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Create a report
 description: The information in this article has moved.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

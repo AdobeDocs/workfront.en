@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: basics-workfront-proof
 title: Workflow examples
 description: This section contains the following articles - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

@@ -4,6 +4,7 @@ product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
 title: Move Users Between Accounts using Workfront Proof
 description: If you are a Workfront Proof administrator and you have one or more satellite accounts connected to your main account, you can move the users between all these accounts.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

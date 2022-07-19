@@ -5,6 +5,7 @@ product-area: workfront-integrations
 navigation-topic: functions
 title: Array functions in Adobe Workfront Fusion
 description: The following array functions are available in the Adobe Workfront Fusion mapping panel.
+author: Becky
 feature: Workfront Fusion
 ---
 

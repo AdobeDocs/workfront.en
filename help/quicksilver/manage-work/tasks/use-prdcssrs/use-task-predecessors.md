@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: tasks
 title: Use task predecessors
 description: This section contains the following articles - EDIT ME.
+author: Alina
 feature: Work Management
 ---
 

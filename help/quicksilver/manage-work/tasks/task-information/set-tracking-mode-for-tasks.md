@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: task-information
 title: Set Tracking Mode for tasks
 description: The Tracking Mode of a task determines how the task Progress Status is updated in Adobe Workfront.
+author: Alina
 feature: Work Management
 ---
 

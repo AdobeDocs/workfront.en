@@ -4,6 +4,7 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Calculated data expressions
 description: You can use data expressions to define calculated custom data fields in Adobe Workfront. They connect existing Workfront fields in statements that generate a new field.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

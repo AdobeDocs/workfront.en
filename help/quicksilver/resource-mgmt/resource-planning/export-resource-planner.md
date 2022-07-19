@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Export information from the Resource Planner
 description: You can export information from any view of the Resource Planner to an Excel (.xlsx) file which is saved on your computer.
+author: Alina
 feature: Resource Management
 ---
 

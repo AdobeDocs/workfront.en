@@ -5,6 +5,7 @@ product-area: workfront-integrations
 navigation-topic: modules
 title: Text parser troubleshooting in Adobe Workfront Fusion
 description: Use this information if you can not get text parser to produce any output.
+author: Becky
 feature: Workfront Fusion
 ---
 

@@ -3,6 +3,7 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Make smart assignments
 description: You can use smart assignments to identify who the best user is to complete the work. Smart assignments are suggestions for users that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job. For information about smart assignments, see Smart assignments overview.
+author: Alina
 feature: Work Management
 ---
 

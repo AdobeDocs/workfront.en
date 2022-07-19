@@ -4,6 +4,7 @@ product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: The Scenario Planner overview
 description: The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
+author: Alina
 feature: Workfront Scenario Planner
 ---
 

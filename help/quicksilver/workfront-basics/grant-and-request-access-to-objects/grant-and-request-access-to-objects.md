@@ -4,6 +4,7 @@ product-area: user-management
 navigation-topic: get-started-with-workfront
 title: Grant and request permissions to objects
 description: This section contains the following articles about you can grant and request permission to objects - EDIT ME.
+author: Alina
 feature: Get Started with Workfront
 ---
 

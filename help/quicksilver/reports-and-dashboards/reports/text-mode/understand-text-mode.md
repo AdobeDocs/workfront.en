@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Text Mode overview
 description: Text Mode overview
+author: Nolan
 feature: Reports and Dashboards
 ---
 

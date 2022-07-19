@@ -1,6 +1,7 @@
 ---
 title: Share a portfolio
 description: Share a portfolio
+author: Alina
 draft: Probably
 feature: Get Started with Workfront
 ---

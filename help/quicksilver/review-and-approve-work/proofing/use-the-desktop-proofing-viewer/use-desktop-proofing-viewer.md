@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Use the Desktop Proofing Viewer
 description: Install the Desktop Proofing Viewer
+author: Courtney
 feature: Digital Content and Documents
 ---
 

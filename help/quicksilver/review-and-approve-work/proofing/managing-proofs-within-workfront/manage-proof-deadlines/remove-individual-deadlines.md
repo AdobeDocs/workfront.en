@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-proof-deadlines
 title: Remove individual reviewer deadlines
 description: You can remove a deadline for the stage the reviewer is on.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

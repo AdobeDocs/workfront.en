@@ -4,6 +4,7 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: Reports FAQs
 description: Reports FAQs
+author: Nolan
 feature: Reports and Dashboards
 ---
 

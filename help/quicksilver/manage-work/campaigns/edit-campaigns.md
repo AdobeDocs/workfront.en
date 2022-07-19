@@ -4,6 +4,7 @@ product-area: campaigns
 navigation-topic: campaigns
 title: Edit campaigns
 description: You can edit information about a campaign.
+author: Alina
 ---
 
 # Edit Campaigns

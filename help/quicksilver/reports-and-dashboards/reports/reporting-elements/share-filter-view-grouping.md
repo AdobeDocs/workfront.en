@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Share a filter, view, or grouping
 description: You can share filters, views, and groupings that you have access to view with other users.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

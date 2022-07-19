@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Reference collections in a report
 description: Reference collections in a report
+author: Nolan
 feature: Reports and Dashboards
 ---
 

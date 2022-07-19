@@ -1,6 +1,7 @@
 ---
 title: Manage users in the Adobe Admin Console
 description: As an Adobe administrator, you can create Adobe Workfront users and system administrators using the Adobe Admin Console.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

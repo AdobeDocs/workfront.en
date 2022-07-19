@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Add documents to Adobe Workfront from your file system
 description: You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront - EDIT ME.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

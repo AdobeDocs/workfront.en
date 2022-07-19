@@ -2,6 +2,7 @@
 navigation-topic: use-the-gantt-chart
 title: Export the Gantt Chart to PDF
 description: You can export the Gantt chart to a PDF.
+author: Alina
 feature: Work Management
 ---
 

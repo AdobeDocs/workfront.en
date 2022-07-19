@@ -1,6 +1,7 @@
 ---
 title: Folders in Workfront Library
 description: Folders in Workfront Library
+author: Courtney
 draft: Probably
 feature: "Workfront Library, Digital Content and Documents"
 ---

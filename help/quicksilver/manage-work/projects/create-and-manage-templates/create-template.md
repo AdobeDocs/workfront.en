@@ -3,6 +3,7 @@ product-area: templates
 navigation-topic: templates-navigation-topic
 title: Create a project template
 description: You can create and delete templates from the Templates area. When building a new template, you can enter the information for all of the tasks and all information for your future project settings. This information will then transfer to the project, when you create it from the template.
+author: Alina
 feature: Work Management
 ---
 

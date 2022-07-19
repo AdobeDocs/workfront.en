@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: Project status will not change from Complete to Current
 description: (Although this can be added as an FAQ, I have left this as its own article for search-ability reasons)
+author: Alina
 feature: Work Management
 ---
 

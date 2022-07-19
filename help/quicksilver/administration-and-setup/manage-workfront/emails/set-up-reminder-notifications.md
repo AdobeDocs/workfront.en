@@ -1,6 +1,7 @@
 ---
 title: Set up reminder notifications
 description: Set up reminder notifications
+author: Lisa
 draft: Probably
 feature: System Setup and Administration
 role: Admin

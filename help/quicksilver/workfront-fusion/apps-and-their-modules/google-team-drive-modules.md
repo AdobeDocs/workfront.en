@@ -6,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Team Drive modules
 description: The Adobe Workfront Fusion Google Team Drive modules enable you to monitor, upload, update, copy, delete, or retrieve files and create folders in your Google Shared Drive.
+author: Becky
 feature: Workfront Fusion
 ---
 

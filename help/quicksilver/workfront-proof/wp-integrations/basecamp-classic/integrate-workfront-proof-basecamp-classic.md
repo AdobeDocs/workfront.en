@@ -4,6 +4,7 @@ product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
 title: Integrate Workfront Proof with Basecamp Classic
 description: If you use Basecamp for project management you can offer your project team richer review and approval tools using Workfront Proof.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

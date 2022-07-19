@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: As an Adobe Workfront administrator, you can grant administrative access for a layout template to the group administrators of a particular group so that they can edit the template. This does not assign the template to the users in the group.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

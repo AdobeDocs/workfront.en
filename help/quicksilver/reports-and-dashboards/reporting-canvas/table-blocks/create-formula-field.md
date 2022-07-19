@@ -1,6 +1,7 @@
 ---
 title: Build a formula field in Reporting Canvas
 description: Build a formula field in Reporting Canvas
+author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 ---

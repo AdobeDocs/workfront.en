@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: review-a-proof
 title: View content in a proof
 description: You must have the following access to perform the steps in this article - EDIT ME.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

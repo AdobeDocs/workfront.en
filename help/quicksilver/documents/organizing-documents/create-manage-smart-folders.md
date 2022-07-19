@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: organize-documents
 title: Create and Manage Smart Folders
 description: Smart folders are used to manage documents outside of a project, task, or issue, and are found in the main Documents area in the Main Menu . You can set up a smart folder to filter assets and display only those important to you, rather than searching through all of your assets.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

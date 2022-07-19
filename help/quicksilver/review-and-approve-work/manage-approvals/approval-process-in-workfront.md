@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: approvals
 title: Approval process overview
 description: You can create an approval process and attach it to an object to make sure that designated users review certain changes before the object progresses.
+author: Courtney
 feature: Work Management
 ---
 

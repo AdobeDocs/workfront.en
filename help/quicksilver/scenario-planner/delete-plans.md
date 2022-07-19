@@ -3,6 +3,7 @@ product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Delete plans in the Scenario Planner
 description: You can delete plans that you created. You cannot delete plans that are shared with you.
+author: Alina
 feature: Workfront Scenario Planner
 ---
 

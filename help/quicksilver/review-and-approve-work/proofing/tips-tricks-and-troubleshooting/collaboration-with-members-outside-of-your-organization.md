@@ -1,6 +1,7 @@
 ---
 title: Proofing collaboration limitations with people outside of your organization
 description: Proofing collaboration limitations with people outside of your organization
+author: Courtney
 draft: Probably
 ---
 # Proofing collaboration limitations with people outside of your organization

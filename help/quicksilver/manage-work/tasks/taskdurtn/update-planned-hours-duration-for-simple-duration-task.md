@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: task-duration
 title: Update the Planned Hours and Duration of a task with a Simple Duration Type
 description: By default, Adobe Workfront calculates the Duration of a task with a Simple Duration Type based on the amount of Planned Hours. However, you can also manually edit the amount of Planned Hours and the Duration of a Simple Duration task in certain areas of Workfront.
+author: Alina
 feature: Work Management
 ---
 

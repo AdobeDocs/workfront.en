@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: File upload via Document Webhooks
 description: Uploading a file to a document storage provider is a two-step process that requires two separate API endpoints. Adobe Workfront begins the upload process by calling /uploadInit . This endpoint returns a document ID which is then passed to /upload when uploading the document bytes. Depending on the underlying document storage system, it might be necessary to create a zero-length document, then update the contents of the document later.
+author: John
 feature: "Workfront API, Digital Content and Documents"
 ---
 

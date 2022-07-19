@@ -4,6 +4,7 @@ product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
 title: Configure default proofing roles
 description: As an Adobe Workfront administrator, you can configure the default proofing roles for users and guest users who access proofs created in Workfront. Any person adding users to a proof can adjust these roles for them.
+author: Courtney
 feature: "System Setup and Administration, Digital Content and Documents"
 role: Admin
 ---

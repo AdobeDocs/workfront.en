@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: financials
 title: Manage project expenses
 description: The process for creating and managing expenses is the same for both project and task-related expenses. Any expenses that are added to the project in the Business Case are added to the Expenses tab as planned expenses. For more information on the Business Case, see the article Create a Business Case for a project .
+author: Alina
 feature: Work Management
 ---
 

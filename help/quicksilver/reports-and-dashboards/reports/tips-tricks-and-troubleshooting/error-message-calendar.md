@@ -4,6 +4,7 @@ product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: "Error message on calendar: 'This calendar has the view rights of a deactivated user.'"
 description: You must have the following access to perform the steps in this article - EDIT ME.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

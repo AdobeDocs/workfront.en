@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Compare fields in conditional formatting
 description: You can use conditional formatting to compare 2 different fields in a view and highlight them when certain criteria are met between the fields.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Adobe Workfront for Salesforce
 description: You can use Adobe Workfront for Salesforce to integrate your Salesforce and Workfront systems. The articles in this section describe how to install, configure, and use Workfront for Salesforce.
+author: Becky
 draft: Probably
 feature: Workfront Integrations and Apps
 ---

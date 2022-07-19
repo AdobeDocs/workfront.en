@@ -4,6 +4,7 @@ product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Configure your email allowlist
 description: If your organization uses the WorkfrontEnterprise plan, you can create a Workfront email allowlist to control which email domains are allowed to accept emails from Workfront and which email domains can be in the email address that users specify in their user profile. This is useful if your organization's security policy restricts users from sending data stored in Workfront to external email addresses—you can include only your internal company domains in the allowlist to ensure that this policy is followed..
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

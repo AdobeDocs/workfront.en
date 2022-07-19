@@ -5,6 +5,7 @@ product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
 title: New proof email
 description: Make this article work better for PiW.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

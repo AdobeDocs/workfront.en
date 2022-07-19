@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: About connecting Adobe Workfront Fusion to an app or service
 description: For most apps, it is necessary to create a connection, through which Adobe Workfront Fusion can communicate with the given third-party service according to the settings of the specific scenario.
+author: Becky
 feature: Workfront Fusion
 ---
 

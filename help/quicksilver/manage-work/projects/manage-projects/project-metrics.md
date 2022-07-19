@@ -5,6 +5,7 @@ keywords: analytics,metrics,project,enhanced,tasks,assignee,complete,status,over
 navigation-topic: manage-projects
 title: Overview of project metrics
 description: To access the Metrics area from the left panel of a project, you must - EDIT ME.
+author: Alina
 feature: Work Management
 ---
 

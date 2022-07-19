@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-documents
 title: Summary for documents overview
 description: The Summary allows you to interact with important information directly from the documents list.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

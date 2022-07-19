@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Share a proof from the proofing viewer
 description: You can share a proof from the proofing viewer if sharing is enabled by the proof owner or creator.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

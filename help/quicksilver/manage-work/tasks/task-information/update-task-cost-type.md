@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: task-information
 title: Update task Cost Type
 description: The Planned and Actual Cost of the tasks and their Labor Costs are determined by the Cost Type of each task.
+author: Alina
 feature: Work Management
 ---
 
