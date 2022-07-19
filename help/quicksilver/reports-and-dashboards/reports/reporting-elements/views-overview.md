@@ -3,7 +3,7 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Views overview in Adobe Workfront
-description: You can customize the type of information you display in a list or report by managing the view of the list or report. You can display objects and their attributes in a view. For information about the objects of Adobe Workfront, see Understand objects in Adobe Workfront.
+description: You can customize the type of information you display in a list or report by managing the view of the list or report. You can display objects and their attributes in a view.
 feature: Reports and Dashboards
 ---
 
@@ -25,14 +25,22 @@ You can customize existing views, create new views based on existing views, or c
 
 ## Types of views in Workfront
 
-The following are types of views that you can apply in lists or reports in&nbsp;Workfront: 
+The following are types of views that you can apply in lists or reports in Workfront: 
 
-| Standard views |You can apply them to any list or report of objects.&nbsp;Standard views are highly customizable. You can customize and share a standard view with others. For information see, [Create or edit views in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).  |
-|---|---|
-| Agile view |You can apply it to a list of tasks in the Tasks  section of a project. You can customize and share an agile view with others. For information see, [Create or edit views in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).  |
-| Gantt view |You can apply it to a list of tasks in the Tasks  section of a project, a list of projects, or add it to a task or project report. You can customize what information you view in the Gantt view using predefined built-in options.&nbsp;All users with access to view tasks or projects can view them in the Gantt view. For information, see [Get started with the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).  |
-
-{style="table-layout:auto"}
+<table style="table-layout:auto">
+    <tr>
+        <td><strong>Standard views</strong></td>
+        <td>You can apply them to any list or report of objects. Standard views are highly customizable. You can customize and share a standard view with others. For information see, <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Create or edit views in Adobe Workfront</a>.</td>
+    </tr>
+    <tr>
+        <td><strong>Agile view</strong></td>
+        <td>You can apply it to a list of tasks in the Tasks section of a project. You can customize and share an agile view with others. For information, see <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Create or edit views in Adobe Workfront</a>.</td>
+    </tr>
+    <tr>
+        <td><strong>Gantt view</strong></td>
+        <td>You can apply it to a list of tasks in the Tasks section of a project, a list of projects, or add it to a task or project report. You can customize what information you view in the Gantt view using predefined built-in options. All users with access to view tasks or projects can view them in the Gantt view. For information, see <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">Get started with the Gantt Chart</a>.</td>
+    </tr>
+</table>
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

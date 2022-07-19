@@ -1,7 +1,7 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: "Reporting elements: filters, views, and groupings"
+title: Reporting elements: filters, views, and groupings
 description: The main elements that every list and report must have in Workfront are a filter, a view, and a grouping. Each element provides different information within any report.
 feature: Reports and Dashboards
 ---
@@ -28,7 +28,7 @@ Consider the following when working with filters, views, and groupings:
 * Reports in Workfront are specific to one object. You must define your main object for a report before you can build the report. Thus, all the reporting elements are object specific.
 * Your Workfront administrator must grant you access to filters, views, and groupings in your access level to be able to view or edit them in lists and reports.
 
-  For information about granting access to filters, views, and groupings see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  For information about granting access to filters, views, and groupings, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Your Workfront administrator must grant you access to reports, dashboards, and calendars in your access level to be able to view or edit reports.
 
@@ -38,16 +38,18 @@ Consider the following when working with filters, views, and groupings:
 
 ## Filters
 
-The filter controls the results that appear in a report, typically narrowing results from general to specific. It works like a sieve only grabbing the information that you need and bringing that information back to your report.  
-For example, if you only want to see tasks that are assigned to the logged-in user, you can create a filter titled 'My Tasks', define the criteria that must be met for the filter and run the report to only view tasks assigned to the logged in user.
+The filter controls the results that appear in a report, typically narrowing results from general to specific. It works like a sieve only grabbing the information that you need and bringing that information back to your report.
+
+For example, if you only want to see tasks that are assigned to the logged-in user, you can create a filter titled "My Tasks," define the criteria that must be met for the filter and run the report to only view tasks assigned to the logged in user.
 
 Some attributes of filters are:
 
 * Workfront provides a number of filters for various objects by default.
-* You can customize filters that you own or manage.  
+* You can customize filters that you own or manage.
+  
   For more information about filters, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-![](assets/projects-list-with-filter-drop-down-highlighted-nwe-350x99.png)
+![Filter icon](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
 
 ## Views
 
