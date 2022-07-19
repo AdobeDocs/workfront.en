@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Create groupings in Adobe Workfront
-description: Create groupings in Adobe Workfront
+description: You can create a custom grouping from scratch or customize an existing grouping.
 feature: Reports and Dashboards
 ---
 
