@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: create-projects
 title: Create a project
 description: (NOTE:this is linked from the UI from the Projects global nav section in classic. Do not change/ remove)
+author: Alina
 feature: Work Management
 ---
 

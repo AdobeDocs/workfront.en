@@ -3,6 +3,7 @@ content-type: reference
 navigation-topic: notifications
 title: "Notifications: Information about projects I own"
 description: The following notifications alert you about activities taking place on a project you own. For information about configuring which notifications you receive, see Activate or deactivate your own event notifications.
+author: Lisa
 feature: Get Started with Workfront
 ---
 

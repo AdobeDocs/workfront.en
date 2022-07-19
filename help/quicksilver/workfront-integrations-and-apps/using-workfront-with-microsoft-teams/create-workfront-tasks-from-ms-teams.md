@@ -3,6 +3,7 @@ product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: Create Adobe Workfront tasks from Microsoft Teams
 description: You can create personal tasks in Adobe Workfront from Microsoft Teams if a team owner has installed and configured Workfront for Microsoft Teams for your team, and you are logged into Workfront from Microsoft Teams.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

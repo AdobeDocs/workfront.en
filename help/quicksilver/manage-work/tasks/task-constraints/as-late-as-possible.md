@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: task-constraints
 title: "Task Constraint overview: As Late As Possible"
 description: As Late As Possible (ALAP) is a Adobe Workfront Task Constraint which places the completion time of the task as close to the end of the project as possible.
+author: Alina
 feature: Work Management
 ---
 

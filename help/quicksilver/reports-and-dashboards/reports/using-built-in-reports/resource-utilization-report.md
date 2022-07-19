@@ -4,6 +4,7 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: Overview of the Resource Utilization report
 description: CONTEXT SENSITIVE HELP - this is linked to the product. It is about a Resource reporting built-in report, so we need to keep it in both areas.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

@@ -5,6 +5,7 @@ keywords: calculated,aggregates,advanced,views
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Grouping: display the result of aggregating multiple calculated values in a grouping"
 description: You can use text mode in a column to display a calculation between two fields in the view of a report or list. Each line displays the calculation for each object in the report or list.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

@@ -3,6 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: What's New in API Version 9
 description: This is a list of resources that are new to API Version 9, to see a list of updates that have been made to the resources of version 9, please visit Updates to API Version 9
+author: John
 feature: Workfront API
 ---
 

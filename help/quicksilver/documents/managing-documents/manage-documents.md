@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: documents-navigation-topic
 title: Manage documents
 description: You can organize and manage documents in Workfront in the Documents area.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

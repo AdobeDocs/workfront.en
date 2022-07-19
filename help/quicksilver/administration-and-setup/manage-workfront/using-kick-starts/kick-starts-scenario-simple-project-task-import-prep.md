@@ -5,6 +5,7 @@ keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: "Kick-Starts scenario: simple project and task import preparation"
 description: Describes in detail the available settings and controls for a basic Project and Task Import using the Kick Start method.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

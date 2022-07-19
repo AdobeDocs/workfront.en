@@ -3,6 +3,7 @@ product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: Edit portfolios
 description: You can edit information on portfolios that you have created, or that other users have created if they shared them with you.
+author: Alina
 feature: "Work Management, Strategic Planning"
 ---
 

@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: review-a-proof
 title: Lock or unlock a proof
 description: You can manually lock and unlock a proof any time in the review process.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-documents
 title: Document Details overview
 description: The Document Details page lets you view, communicate about, and manage the properties of a document attached to a Adobe Workfront object.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

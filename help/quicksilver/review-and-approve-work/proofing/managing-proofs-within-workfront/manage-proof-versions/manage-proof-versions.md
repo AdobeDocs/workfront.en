@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Manage proof versions
 description: Create a new version of a proof
+author: Courtney
 feature: Digital Content and Documents
 ---
 

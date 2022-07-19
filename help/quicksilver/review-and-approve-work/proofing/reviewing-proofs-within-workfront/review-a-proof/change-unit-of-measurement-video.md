@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: review-a-proof
 title: Change the unit of measurement of the timeline in a video proof
 description: You can adjust the unit of measurement that is used in the video timeline. You can view the timeline in Time, Frame, or Timecode.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

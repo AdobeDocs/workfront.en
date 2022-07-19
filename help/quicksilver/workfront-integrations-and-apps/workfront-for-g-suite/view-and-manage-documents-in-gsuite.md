@@ -4,6 +4,7 @@ keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
 title: View and manage documents from G Suite
 description: You can view and manage documents associated with a Adobe Workfront object without leaving G Suite.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

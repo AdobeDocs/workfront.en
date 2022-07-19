@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Navigate the Workload Balancer
 description: Use the Workload Balancer to understand the availability of your resources as well as to assign work to your users. This article walks you through using the icons and settings available to update the view for and navigate the Workload Balancer.
+author: Alina
 feature: Resource Management
 ---
 

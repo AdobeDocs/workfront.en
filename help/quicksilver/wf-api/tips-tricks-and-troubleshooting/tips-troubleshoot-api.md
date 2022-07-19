@@ -4,6 +4,7 @@ content-type: api;tips-tricks-troubleshooting
 navigation-topic: workfront-api
 title: Tips, tricks, and troubleshooting for Adobe Workfront API
 description: This section contains the following articles - EDIT ME.
+author: John
 ---
 
 # Tips, tricks, and troubleshooting for Adobe Workfront API

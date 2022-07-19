@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Create financial data reports with unique exchange rates
 description: If multiple exchange rates have been configured in Adobe Workfront, you can set financial values in reports and lists to display in a currency other than the default currency.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

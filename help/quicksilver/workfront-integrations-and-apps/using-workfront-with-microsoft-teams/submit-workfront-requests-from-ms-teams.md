@@ -3,6 +3,7 @@ product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: Submit Adobe Workfront requests from Microsoft Teams
 description: After your team owner installs Adobe Workfront for Microsoft Teams, you can submit Workfront requests from your Microsoft Teams account. To do so, you must have a Workfront account with access to submit requests. For information about installing Workfront for Microsoft Teams, see Installing Workfront for Microsoft Teams.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

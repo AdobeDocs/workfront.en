@@ -3,6 +3,7 @@ product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
 title: Edit proof settings
 description: You can edit proof settings any time after you create a proof.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

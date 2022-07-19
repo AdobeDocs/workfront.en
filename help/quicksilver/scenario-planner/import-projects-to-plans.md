@@ -3,6 +3,7 @@ product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Import projects to plans in the Scenario Planner
 description: You can import existing projects into a plan. The imported projects are converted to initiatives and you can manage them within the plan as you would manage a new initiative. The original project remains linked to the new initiative.
+author: Alina
 feature: Workfront Scenario Planner
 ---
 

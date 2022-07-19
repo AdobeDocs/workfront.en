@@ -6,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Azure DevOps modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Azure DevOps, as well as connect it to multiple third-party applications and services.
+author: Becky
 feature: Workfront Fusion
 ---
 

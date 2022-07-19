@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Comment on a proof overview
 description: Comment on a proof
+author: Courtney
 feature: Digital Content and Documents
 ---
 

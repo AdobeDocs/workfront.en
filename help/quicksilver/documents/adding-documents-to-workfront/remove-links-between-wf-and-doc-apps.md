@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Remove links between Adobe Workfront and external document storage providers
 description: When uploading a document from any service for the first time, Adobe Workfront requests permission from the user to access their document service. When the user provides their document service credentials to log in, the document service links itself to Workfront.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

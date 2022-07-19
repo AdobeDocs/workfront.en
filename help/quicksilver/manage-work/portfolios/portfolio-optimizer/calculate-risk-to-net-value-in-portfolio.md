@@ -3,6 +3,7 @@ product-area: portfolios
 navigation-topic: portfolio-optimizer
 title: Calculate the Risk to Net Value in a portfolio
 description: In the Portfolio Optimizer, the Risk to Net Value indicator measures the Potential Risk taking into account the Net Value provided by all projects displayed in the Portfolio Optimizer.
+author: Alina
 feature: "Work Management, Strategic Planning"
 ---
 

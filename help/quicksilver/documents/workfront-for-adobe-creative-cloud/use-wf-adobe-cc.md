@@ -3,6 +3,7 @@ product-area: documents;workfront-integrations
 navigation-topic: workfront-for-adobe-creative-cloud
 title: Use the Workfront Extension for Illustrator and InDesign
 description: You can use the Workfront Extension to export digital content you save and create in Adobe Illustrator and Adobe InDesign to Workfront. This speeds up the document review and approval process.
+author: Courtney
 feature: "Workfront Integrations and Apps, Digital Content and Documents"
 ---
 

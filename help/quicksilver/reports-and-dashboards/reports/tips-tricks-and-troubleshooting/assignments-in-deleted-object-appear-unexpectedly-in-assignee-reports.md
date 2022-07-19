@@ -1,6 +1,7 @@
 ---
 title: Assignments in a deleted object appear unexpectedly in assignee reports
 description: Assignments in a deleted object appear unexpectedly in assignee reports
+author: Nolan
 draft: Probably
 ---
 # Assignments in a deleted object appear unexpectedly in assignee reports

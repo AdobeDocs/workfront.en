@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: create-and-manage-projects
 title: Plan a project
 description: For information about project information, the Project Team, and how to plan a project, see the following articles - EDIT ME.
+author: Alina
 feature: Work Management
 ---
 

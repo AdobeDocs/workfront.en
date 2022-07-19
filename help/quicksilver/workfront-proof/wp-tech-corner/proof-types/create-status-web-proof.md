@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: proof-types
 title: Create a Static Website Proof using Workfront Proof
 description: You can create static proofs from your web pages. In addition, you can simulate various devices by defining screen resolution of the captures.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

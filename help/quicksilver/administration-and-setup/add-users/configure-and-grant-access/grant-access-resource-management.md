@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;resource-management
 navigation-topic: configure-access-to-workfront
 description: As an Adobe Workfront administrator, you can use an access level to define a user's access to Resource Management in Workfront, as explained in Access levels overview.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

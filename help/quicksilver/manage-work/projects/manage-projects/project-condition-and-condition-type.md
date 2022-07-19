@@ -4,6 +4,7 @@ content-type: overview
 product-area: projects
 navigation-topic: manage-projects
 description: The project Condition is a visual representation of how the project is progressing. It is a reportable variable determined by the relationship between the planned, projected, and estimated dates of the project.
+author: Alina
 feature: Work Management
 ---
 

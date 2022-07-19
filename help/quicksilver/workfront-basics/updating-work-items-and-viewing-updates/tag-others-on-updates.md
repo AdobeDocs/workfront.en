@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Tag others on updates
 description: When providing update comments on a Adobe Workfront object, all users on the project can see the information submitted. However, there may be times when users who are not on the project would benefit from viewing this information. Rather than include those users on the project, you can tag them on the update to share it with them. Tagged users receive an event notification.
+author: Lisa and Alina
 feature: Get Started with Workfront
 ---
 

@@ -4,6 +4,7 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Set up automatic reminders
 description: Set up automatic reminders
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 ---

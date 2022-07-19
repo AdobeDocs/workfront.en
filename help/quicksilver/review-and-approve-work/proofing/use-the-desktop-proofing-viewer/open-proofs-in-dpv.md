@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: proofing-overview
 title: Open proofs in the Desktop Proofing Viewer
 description: If you cannot open a proof as described below, contact your Adobe Workfront administrator or your Workfront Proof administrator.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

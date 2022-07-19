@@ -3,6 +3,7 @@ product-area: documents;setup
 navigation-topic: use-the-desktop-proofing-viewer
 title: Install the Desktop Proofing Viewer
 description: The Desktop Proofing Viewer, which is designed primarily for proofing interactive content, is an application that must be installed on your local machine.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

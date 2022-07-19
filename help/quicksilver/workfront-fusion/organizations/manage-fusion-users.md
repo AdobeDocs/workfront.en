@@ -5,6 +5,7 @@ product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Manage Adobe Workfront Fusion users in your organization
 description: Manage Adobe Workfront Fusion users in your organization
+author: Becky
 feature: Workfront Fusion
 ---
 

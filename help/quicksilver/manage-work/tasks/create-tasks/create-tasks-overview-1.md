@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: tasks
 title: Create tasks
 description: You can create tasks in a specific project, or you can create tasks from the Home area.
+author: Alina
 feature: Work Management
 ---
 

@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Assign work in the Workload Balancer by dragging and dropping
 description: Assign work in the Workload Balancer by dragging and dropping
+author: Alina
 feature: Resource Management
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: View the number of licenses allocated and used in a group
 description: As an Adobe Workfront administrator, you can view counts of the individual types of licenses currently used in your group and its subgroups. This is useful when you need to assess whether to redistribute licenses.
+author: Caroline
 draft: Probably
 feature: "System Setup and Administration, People Teams and Groups"
 role: Admin

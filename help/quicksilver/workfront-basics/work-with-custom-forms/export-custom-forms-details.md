@@ -1,6 +1,7 @@
 ---
 title: Export custom forms and object details
 description: Export custom forms and object details
+author: Alina
 draft: Probably
 feature: Get Started with Workfront
 ---

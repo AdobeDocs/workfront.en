@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: report-usage
 title: View report usage
 description: View report usage
+author: Nolan
 feature: Reports and Dashboards
 ---
 

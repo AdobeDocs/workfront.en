@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: comment-on-a-proof
 title: Comment on a proof
 description: Comments enable you to provide feedback on content and collaborate with other users in the proofing viewer.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

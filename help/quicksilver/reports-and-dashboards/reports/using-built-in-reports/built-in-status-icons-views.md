@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: Built-in Status Icons in Views
 description: Built-in Status Icons in Views
+author: Nolan
 feature: Reports and Dashboards
 ---
 

@@ -3,6 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Add or remove members from a board
 description: People must be added to the board as members before they can view the board and be assigned to cards.
+author: Lisa
 feature: Agile
 ---
 

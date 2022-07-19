@@ -5,6 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Change a username
 description: You can edit a user's username (email address) by editing their user profile. 
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

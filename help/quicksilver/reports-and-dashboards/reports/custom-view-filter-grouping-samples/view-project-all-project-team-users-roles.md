@@ -4,6 +4,7 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: project with all project team users and roles"
 description: This project view shows a list of users and job roles assigned to the project team.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

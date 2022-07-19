@@ -3,6 +3,7 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: Create an Anaplan list item from an Adobe Workfront campaign request
 description: This integration scenario links an Adobe Workfront project with an Anaplan budget list item.
+author: Becky
 feature: "Workfront Integrations and Apps, Workfront Fusion"
 ---
 

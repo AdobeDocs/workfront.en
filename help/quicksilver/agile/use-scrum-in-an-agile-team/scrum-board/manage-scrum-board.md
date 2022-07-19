@@ -3,6 +3,7 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: Manage stories and issues on the Scrum board
 description: You can move a story or issue from the Scrum board to another iteration or to the backlog, or delete it from the Scrum board. When you delete a story or issue, it is moved to the Recycle Bin for 30 days and can be recovered only by the system administrator.
+author: Lisa
 feature: Agile
 ---
 

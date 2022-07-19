@@ -4,6 +4,7 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: document report with link to a proof"
 description: "View: document report with link to a proof"
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

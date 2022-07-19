@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: View and resolve incomplete executions in Adobe Workfront Fusion
 description: The Incomplete executions folder stores scenario executions that were not successfully finalized due to an error. Each stored incomplete execution can be resolved either manually or automatically.
+author: Becky
 feature: Workfront Fusion
 ---
 

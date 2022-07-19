@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: financials
 title: Calculate Potential Risk Cost
 description: The Potential Risk Cost of a project takes into account the Potential Costs of the project risks and their probability of occurring.
+author: Alina
 feature: Work Management
 ---
 

@@ -4,6 +4,7 @@ product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Create and manage custom fields in Workfront Proof
 description: A Select or Premium Workfront Plan is required to use this feature. For more information about the various plans available, see Workfront Plans.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

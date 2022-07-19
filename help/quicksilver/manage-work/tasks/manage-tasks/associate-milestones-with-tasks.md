@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: manage-tasks
 title: Associate milestones with tasks
 description: You can associate milestones with tasks to indicate when you reach important steps in the lifetime of the project.
+author: Alina
 feature: Work Management
 ---
 

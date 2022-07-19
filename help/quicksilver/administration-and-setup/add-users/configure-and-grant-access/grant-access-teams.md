@@ -1,6 +1,7 @@
 ---
 title: Grant access to teams
 description: Grant access to teams
+author: Caroline
 draft: Probably
 feature: System Setup and Administration
 role: Admin

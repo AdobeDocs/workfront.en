@@ -5,6 +5,7 @@ product-area: documents
 navigation-topic: workflow-examples
 title: Basic Proofing Process in Workfront Proof
 description: This example explains the basic workflow between a designer or project manager and one or more reviewers, such as a client.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

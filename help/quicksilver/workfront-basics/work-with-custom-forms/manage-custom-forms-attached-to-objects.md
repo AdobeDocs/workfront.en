@@ -3,6 +3,7 @@ product-area: projects;user-management
 navigation-topic: work-with-custom-forms
 title: Manage custom forms attached to objects
 description: You can update the order in which the custom forms attached to one object display, remove them, or bulk-edit the way custom forms display on multiple objects.
+author: Alina
 feature: Get Started with Workfront
 ---
 

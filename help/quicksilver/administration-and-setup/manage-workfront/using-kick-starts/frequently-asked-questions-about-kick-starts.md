@@ -6,6 +6,7 @@ keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: Frequently asked questions about Kick-Starts
 description: Find answers to frequently asked questions about importing and exporting Workfront data using Kick-Starts.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

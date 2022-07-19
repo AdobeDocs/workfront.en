@@ -6,6 +6,7 @@ keywords: connector
 navigation-topic: http-modules
 title: HTTP > Make an API Key Authorization request
 description: This Adobe Workfront Fusion action module sends an HTTPS request to a specified URL that requires an API Key Auth authorization, and processes the response.
+author: Becky
 feature: Workfront Fusion
 ---
 

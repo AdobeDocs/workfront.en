@@ -3,6 +3,7 @@ content-type: reference
 navigation-topic: notifications
 title: "Notifications: Delegation"
 description: The following notifications let you know about task and issue delegations you have made or others made for you in Adobe Workfront. 
+author: Lisa
 feature: Get Started with Workfront
 ---
 

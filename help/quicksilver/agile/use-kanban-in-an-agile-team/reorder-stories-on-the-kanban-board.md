@@ -3,6 +3,7 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Reorder stories on the Kanban board
 description: You might want to change the order in which stories are displayed within status columns on the Kanban board.
+author: Lisa
 feature: Agile
 ---
 

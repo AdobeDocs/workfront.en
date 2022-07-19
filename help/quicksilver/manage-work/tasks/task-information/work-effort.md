@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: task-information
 title: Work Effort overview
 description: Work Effort overview
+author: Alina
 feature: Work Management
 ---
 

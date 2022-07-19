@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Manage Folders and their Contents in Workfront Proof
 description: One of the benefits of organizing your projects and proofs into folders is the ability to manage them on the Folder details page. This page is a control center for your project, from here you can conveniently manage individual proofs and files as well as perform bulk actions.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

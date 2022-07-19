@@ -5,6 +5,7 @@ product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Understand How Cache and Cookies Affect Workfront Proof
 description: Clearing your browser's cookies and cache can improve performance in Workfront Proof.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

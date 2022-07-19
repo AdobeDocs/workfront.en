@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Create "OR" statements in text mode filters
 description: You can include multiple statements when you create a filter in lists and reports.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

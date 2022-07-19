@@ -3,6 +3,7 @@ product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Overview of reconciling resource allocations between projects and initiatives
 description: Overview of reconciling resource allocations between projects and initiatives
+author: Alina
 feature: Workfront Scenario Planner
 ---
 

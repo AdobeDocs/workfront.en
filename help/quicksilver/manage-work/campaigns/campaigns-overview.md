@@ -4,6 +4,7 @@ content-type: overview
 navigation-topic: campaigns
 title: Campaigns overview
 description: You can associate your projects with campaigns to centralize and align the work happening across multiple portfolios or programs. You can manage the dependencies, resources, and finances of all projects in one place.
+author: Alina
 ---
 
 # Campaigns overview

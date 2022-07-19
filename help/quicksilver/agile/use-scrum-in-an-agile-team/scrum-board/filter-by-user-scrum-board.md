@@ -3,6 +3,7 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: Filter by user on the Scrum board
 description: You can use the filter on the scrum board to see which work items are associated with other users and which are unassigned.
+author: Lisa
 feature: Agile
 ---
 

@@ -4,6 +4,7 @@ product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
 title: Add a Proof to a Basecamp Classic Project
 description: After you set up your Basecamp Classic integration you can start adding proofs to projects within your Basecamp Classic account.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

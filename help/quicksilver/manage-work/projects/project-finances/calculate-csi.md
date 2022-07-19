@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: financials
 title: Calculate Cost Schedule Performance Index (CSI)
 description: Calculate Cost Schedule Performance Index (CSI)
+author: Alina
 feature: Work Management
 ---
 

@@ -3,6 +3,7 @@ product-area: documents;workfront-integrations
 navigation-topic: workfront-and-experience-manager-integrations
 title: Workfront for Experience Manager enhanced connector
 description: Workfront for Experience Manager enhanced connector
+author: Courtney
 feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---
 

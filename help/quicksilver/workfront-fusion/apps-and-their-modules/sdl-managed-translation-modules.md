@@ -6,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: SDL Managed Translation modules
 description: In an Adobe Workfront Fusion scenario, you can connect your SDL Managed Translation account to multiple third-party applications and services.
+author: Becky
 feature: Workfront Fusion
 ---
 

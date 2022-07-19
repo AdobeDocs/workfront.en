@@ -1,6 +1,7 @@
 ---
 title: Intacct modules
 description: Intacct modules
+author: Becky
 draft: Probably
 feature: Workfront Fusion
 ---

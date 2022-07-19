@@ -4,6 +4,7 @@ product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
 title: Add Groups to a Proof
 description: Add a group to a proof to automatically send the content to all group members.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

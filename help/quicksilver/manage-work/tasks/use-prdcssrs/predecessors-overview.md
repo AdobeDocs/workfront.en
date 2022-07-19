@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: use-predecessors
 title: Overview of task predecessors
 description: CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE!
+author: Alina
 feature: Work Management
 ---
 

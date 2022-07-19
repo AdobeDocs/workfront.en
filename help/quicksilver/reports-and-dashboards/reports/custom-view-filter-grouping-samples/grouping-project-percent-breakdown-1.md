@@ -4,6 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Grouping: project percent breakdown 1"
 description: In this custom project grouping, you can display projects grouped by a range of their percent complete values.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

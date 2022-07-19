@@ -5,6 +5,7 @@ product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Share proofs and files
 description: This section contains the following articles - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

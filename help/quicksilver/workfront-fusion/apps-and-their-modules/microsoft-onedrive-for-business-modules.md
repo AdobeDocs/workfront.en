@@ -6,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft OneDrive for Business modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft OneDrive for Business, as well as connect it to multiple third-party applications and services.
+author: Becky
 feature: Workfront Fusion
 ---
 

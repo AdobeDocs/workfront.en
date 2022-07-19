@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Run and deliver a report with the access rights of another user
 description: By default, users can only see the objects in a report that they have permissions to View.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

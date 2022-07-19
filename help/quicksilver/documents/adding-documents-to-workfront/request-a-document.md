@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Request a Document
 description: You can request a document on any object that supports Documents.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

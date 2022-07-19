@@ -4,6 +4,7 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: Use Adobe Workfront View
 description: Get started with Adobe Workfront
+author: Lisa
 feature: Get Started with Workfront
 ---
 

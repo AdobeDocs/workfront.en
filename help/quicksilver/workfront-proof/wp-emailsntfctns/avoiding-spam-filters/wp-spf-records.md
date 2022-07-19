@@ -4,6 +4,7 @@ product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: Workfront Proof SPF records
 description: Workfront Proof sends email notifications to your reviewers from a Workfront Proof email address such as notification@proofing.yourdomain.com. In order to ensure that your recipients' mail servers trust all Workfront Proof email notifications, you need to set up a Sender Policy Framework (SPF) record for your customized domain connected to the Workfront Proof account (for example, proofing.yourdomain.com).
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

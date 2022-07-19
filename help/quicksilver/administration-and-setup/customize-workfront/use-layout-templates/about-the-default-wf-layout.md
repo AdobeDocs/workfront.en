@@ -5,6 +5,7 @@ content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: The default layout is the arrangement of the Main Menu , the left panel, and the views, groupings, and filters before an Adobe Workfront administrator makes any changes using a layout template.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

@@ -3,6 +3,7 @@ content-type: reference
 navigation-topic: betas
 title: Campaigns beta
 description: Information about participating in the Campaigns beta program.
+author: Luke
 feature: Product Announcements
 ---
 

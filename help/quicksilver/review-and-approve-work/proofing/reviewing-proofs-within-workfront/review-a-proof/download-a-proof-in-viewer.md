@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: review-a-proof
 title: Downloading a Proof in the proofing viewer
 description: You can download files from an existing proof. Comments and other information associated with the proof are not included in the download.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

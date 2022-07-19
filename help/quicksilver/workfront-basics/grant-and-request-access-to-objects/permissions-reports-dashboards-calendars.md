@@ -4,6 +4,7 @@ content-type: reference
 product-area: user-management;reports;dashboards;calendars
 navigation-topic: grant-and-request-access-to-objects
 description: Your Adobe Workfront administrator grants users access to view or edit reports, dashboards, and calendars when they assign access levels. For more information about granting access to reports, dashboards, and calendars, see Grant access to reports, dashboards, and calendars.
+author: Alina
 feature: Get Started with Workfront
 ---
 

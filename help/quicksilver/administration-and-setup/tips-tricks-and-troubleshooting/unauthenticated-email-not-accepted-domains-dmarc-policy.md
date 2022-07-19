@@ -5,6 +5,7 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: When an authenticated email is not accepted due to domain's DMARC policy
 description: If an email sent from the Workfront system is not accepted due to domain's DMARC policy, your email administrator can fix the problem by configuring your email system to allow all email from workfront.com.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

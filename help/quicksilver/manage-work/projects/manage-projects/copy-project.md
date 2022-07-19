@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: manage-projects
 title: Copy a project
 description: Copy a project
+author: Alina
 feature: Work Management
 ---
 

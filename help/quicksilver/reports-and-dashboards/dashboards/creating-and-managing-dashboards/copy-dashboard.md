@@ -3,6 +3,7 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Copy a dashboard
 description: You can copy a dashboard and all of its contents (reports, calendars, and external pages). When you copy the contents of a dashboard, you can choose to keep them as they appear on the original dashboard, or create new items which are copies of those on the original dashboard. You can also choose to not transfer or copy items on the new dashboard.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

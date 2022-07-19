@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: Scenario details in Adobe Workfront Fusion
 description: Scenario details in Adobe Workfront Fusion
+author: Becky
 feature: Workfront Fusion
 ---
 

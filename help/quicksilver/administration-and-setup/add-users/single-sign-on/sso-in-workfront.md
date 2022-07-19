@@ -5,6 +5,7 @@ product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: Overview of single sign-on in Adobe Workfront
 description: The functionality described on this page applies only to organizations that are not yet onboarded to the Adobe Business Platform.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

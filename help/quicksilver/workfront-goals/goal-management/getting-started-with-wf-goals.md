@@ -1,6 +1,7 @@
 ---
 title: Get started with Adobe Workfront Goals
 description: Get started with Adobe Workfront Goals
+author: Alina
 draft: Probably
 feature: Workfront Goals
 ---

@@ -5,6 +5,7 @@ product-area: workfront-integrations
 navigation-topic: errors
 title: Error handling in Adobe Workfront Fusion
 description: When errors occur during the execution of a scenario, it's usually because a service is unavailable due to a failure, a service responds with unexpected data, or the validation of input data fails.
+author: Becky
 feature: Workfront Fusion
 ---
 

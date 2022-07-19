@@ -3,6 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Event subscription retries
 description: When implementing a message delivery system there are a few caveats that must be addressed in order to ensure stability, consistency, and good user experience. One of the shortcomings of a message delivery system is ensuring messages reach their destination successfully and knowing what to do when messages fail to arrive.
+author: John
 feature: Workfront API
 ---
 

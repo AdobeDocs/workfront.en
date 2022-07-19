@@ -3,6 +3,7 @@ product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: Schedule an automatic report delivery
 description: Schedule an automatic report delivery
+author: Nolan
 feature: Reports and Dashboards
 ---
 

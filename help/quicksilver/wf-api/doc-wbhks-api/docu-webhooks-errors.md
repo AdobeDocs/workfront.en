@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Document Webhooks Error Handling
 description: Problems can arise when processing API requests. This should be handled in a consistent way across all API endpoints. When an error occurs, the webhook provider should do the following - EDIT ME.
+author: John
 feature: "Workfront API, Digital Content and Documents"
 ---
 

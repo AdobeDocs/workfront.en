@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: organize-documents
 title: Create document folders
 description: Documents can be organized into folders. You can create personal folders in your personal Documents area.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Event Subscriptions
 description: Event Subscriptions
+author: John
 draft: Probably
 ---
 # Event Subscriptions

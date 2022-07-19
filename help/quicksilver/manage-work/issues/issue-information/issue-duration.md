@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: issue-information
 title: Issue Duration overview
 description: The Duration of an issue is the number of days between the Planned Start Date and the Planned Completion Date of the issue.
+author: Alina
 feature: Work Management
 ---
 

@@ -2,6 +2,7 @@
 navigation-topic: business-case-and-scorecards
 title: Approve a Business Case
 description: After you complete and submit the Business Case for a project request, the Business Case must be approved. This depends on the workflow in your organization. A project can start without the Business Case having to be approved, but your Adobe Workfront administrator and project owners might not consider it ideal to do so.
+author: Alina
 feature: Work Management
 ---
 

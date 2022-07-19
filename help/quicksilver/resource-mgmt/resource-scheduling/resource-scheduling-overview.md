@@ -4,6 +4,7 @@ product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Resource Scheduling
 description: Resource Scheduling
+author: Alina
 feature: Resource Management
 ---
 

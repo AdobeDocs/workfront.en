@@ -3,6 +3,7 @@ product-area: projects;templates
 navigation-topic: plan-a-project
 title: Designate Resource Managers for a project or template
 description: Designate Resource Managers for a project or template
+author: Alina
 feature: Work Management
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Configure a KPI visualization in Reporting Canvas
 description: Configure a KPI visualization in Reporting Canvas
+author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 ---

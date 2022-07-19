@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: Calculation example - Calculate EAC as a roll up from tasks
 description: PIM = Hour-Based
+author: Alina
 feature: Work Management
 ---
 

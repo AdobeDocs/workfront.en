@@ -6,6 +6,7 @@ product-area: system-administration
 keywords: access,level,license
 navigation-topic: access-levels
 description: You can see which access level and license is assigned to each user in a user list or report.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

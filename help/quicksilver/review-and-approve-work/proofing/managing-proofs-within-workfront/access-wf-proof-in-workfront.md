@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Access Workfront Proof from Adobe Workfront
 description: You can quickly access your Workfront Proof account directly from the Adobe Workfront interface without needing log in to Workfront Proof when the following conditions are met - EDIT ME.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

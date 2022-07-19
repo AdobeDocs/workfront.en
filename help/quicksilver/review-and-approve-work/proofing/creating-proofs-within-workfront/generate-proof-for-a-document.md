@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Create a proof for a document
 description: You can generate a proof for a document at the time you are uploading it to Workfront.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

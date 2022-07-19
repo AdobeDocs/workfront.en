@@ -2,6 +2,7 @@
 navigation-topic: notifications
 title: Subscribe to items in Adobe Workfront
 description: Adobe Workfront sends notifications about items you are assigned to or that you own. If you want to follow the communication on items that are not assigned to you but might impact your work, you can subscribe to them.
+author: Lisa
 feature: Get Started with Workfront
 ---
 
