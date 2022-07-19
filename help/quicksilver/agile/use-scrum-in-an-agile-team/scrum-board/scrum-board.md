@@ -4,6 +4,7 @@ product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Scrum board
 description: Review the articles in this section to learn about using the Scrum board in Workfront.
+author: Lisa
 feature: Agile
 ---
 

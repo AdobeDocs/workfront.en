@@ -1,6 +1,7 @@
 ---
 title: Grant access to Scenario Planner
 description: Grant access to Scenario Planner
+author: Caroline
 draft: Probably
 feature: System Setup and Administration
 role: Admin

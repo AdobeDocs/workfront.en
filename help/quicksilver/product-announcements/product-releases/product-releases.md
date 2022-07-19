@@ -3,6 +3,7 @@ content-type: release-notes
 navigation-topic: product-announcements
 title: Product releases
 description: Following are links to the release notes for current and past releases.
+author: Luke
 feature: Product Announcements
 ---
 

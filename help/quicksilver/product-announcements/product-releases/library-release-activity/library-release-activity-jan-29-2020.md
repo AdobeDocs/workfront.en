@@ -3,6 +3,7 @@ content-type: release-notes
 navigation-topic: library-release-activity
 title: Workfront Library release activity - January 29, 2020
 description: This page describes all changes made available to Workfront Library with the release to the Production environment on January 22.
+author: Luke
 feature: "Product Announcements, Workfront Library"
 ---
 

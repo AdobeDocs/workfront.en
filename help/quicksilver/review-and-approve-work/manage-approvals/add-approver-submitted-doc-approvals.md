@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: approvals
 title: Add additional approvers to submitted document approvals
 description: You can add additional approvers to a document approval directly from the Home area.
+author: Courtney
 feature: Work Management
 ---
 

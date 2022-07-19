@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: manage-issues
 title: Modify issue assignments overview
 description: You can assign issues to or unassign issues from users, teams, or job roles. You can assign multiple resources at the same time, or just one resource. You can assign one issue at a time, or multiple issues in bulk.
+author: Alina
 feature: Work Management
 ---
 

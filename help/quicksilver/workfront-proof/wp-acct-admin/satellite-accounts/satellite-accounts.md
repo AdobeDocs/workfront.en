@@ -5,6 +5,7 @@ product-area: documents;system-administration
 navigation-topic: account-administration
 title: Satellite accounts in Workfront Proof overview
 description: This section contains the following articles - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

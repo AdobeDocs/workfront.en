@@ -3,6 +3,7 @@ product-area: workfront-integrations
 navigation-topic: workfront-for-jira
 title: Update linked items between Jira and Adobe Workfront
 description: When you link Jira issues to Adobe Workfront tasks or issues, your users can update items in one application and the counterpart of that item also updates for the users working in the second application.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

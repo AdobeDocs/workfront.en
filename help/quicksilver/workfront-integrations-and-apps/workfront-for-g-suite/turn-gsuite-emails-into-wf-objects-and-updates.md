@@ -4,6 +4,7 @@ keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
 title: Turn G Suite emails into Adobe Workfront objects and updates
 description: You can turn regular non-Workfront emails into Adobe Workfront objects and updates without leaving G Mail. 
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

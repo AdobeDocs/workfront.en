@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: manage-projects
 title: Manage information in the project Overview area
 description: Manage information in the project Overview area
+author: Alina
 feature: Work Management
 ---
 

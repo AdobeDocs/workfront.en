@@ -5,6 +5,7 @@ product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Folders in Workfront Proof
 description: Folders are the best way to organize your work in your Workfront Proof account. You can create a folder structure to mirror the way folders are organized on your computer, with separate folder structures for each client, job or campaign.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

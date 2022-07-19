@@ -3,6 +3,7 @@ content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
 title: "API Error: “The remote server returned an error: (400) Bad Request”"
 description: You get the following error while attempting to use the API to import a custom field to an issue - EDIT ME.
+author: John
 feature: Workfront API
 ---
 

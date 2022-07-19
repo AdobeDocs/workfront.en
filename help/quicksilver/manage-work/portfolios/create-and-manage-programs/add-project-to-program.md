@@ -3,6 +3,7 @@ product-area: programs;projects
 navigation-topic: create and manage programs
 title: Add a project to a program
 description: You can organize your projects by adding them to programs within portfolios. You can have multiple projects inside of one program, but you can associate only one program with a project.
+author: Alina
 feature: "Work Management, Strategic Planning"
 ---
 

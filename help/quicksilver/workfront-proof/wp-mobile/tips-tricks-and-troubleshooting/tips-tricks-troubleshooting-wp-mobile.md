@@ -5,6 +5,7 @@ product-area: documents
 navigation-topic: mobile-workfront-proof
 title: Tips, tricks, and troubleshooting for the Workfront Proof mobile app
 description: This section contains the following articles - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

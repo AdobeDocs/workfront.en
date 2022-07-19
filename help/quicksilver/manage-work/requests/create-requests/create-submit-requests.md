@@ -3,6 +3,7 @@ product-area: requests
 navigation-topic: create-requests
 title: Create and submit Adobe Workfront requests
 description: Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work—in the form of random requests—can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues.
+author: Alina
 feature: Work Management
 ---
 

@@ -4,6 +4,7 @@ product-area: system-administration;templates;setup
 navigation-topic: emails-administration
 title: Configure email templates
 description: As an Adobe Workfront administrator, you can configure email templates to support reminder notifications.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 ---

@@ -4,6 +4,7 @@ product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
 title: Create Users using Workfront Proof
 description: As a Workfront Proof administrator, you can create new users.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

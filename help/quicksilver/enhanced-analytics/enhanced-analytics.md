@@ -4,6 +4,7 @@ content-type: reference
 product-area: enhanced-analytics
 navigation-topic: reports-and-dashboards
 description: This section contains the following articles - EDIT ME.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

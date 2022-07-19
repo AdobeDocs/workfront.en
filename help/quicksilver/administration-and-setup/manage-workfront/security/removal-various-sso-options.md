@@ -5,6 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: security
 title: Removal of various single sign-on options
 description: Adobe Workfront is removing support for various single sign-on (SSO) options. The end result will be a consistent and more secure sign-in experience across all Workfront products and services.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

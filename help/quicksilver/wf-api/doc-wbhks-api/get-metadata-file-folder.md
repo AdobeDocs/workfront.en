@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Get metadata for a file or folder
 description: Returns metadata for the specified file or folder.
+author: John
 feature: "Workfront API, Digital Content and Documents"
 ---
 

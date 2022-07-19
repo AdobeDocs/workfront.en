@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: resource-pools
 title: Associate resource pools with users
 description: Associate resource pools with users
+author: Alina
 feature: Resource Management
 ---
 

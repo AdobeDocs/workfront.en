@@ -3,6 +3,7 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: Assign users to a story on the Scrum board
 description: Review this article to learn how to assign users to a story on the Scrum board.
+author: Lisa
 feature: Agile
 ---
 

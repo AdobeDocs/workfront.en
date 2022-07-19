@@ -1,6 +1,7 @@
 ---
 title: List your reports in Reporting Canvas
 description: List your reports in Reporting Canvas
+author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 ---

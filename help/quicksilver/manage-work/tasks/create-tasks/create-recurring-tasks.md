@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: create-tasks
 title: Create recurring tasks
 description: You can create recurring tasks for tasks you have to repeat as part of a single project.
+author: Alina
 feature: Work Management
 ---
 

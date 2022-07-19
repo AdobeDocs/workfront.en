@@ -4,6 +4,7 @@ keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
 title: Update a Adobe Workfront object from G Suite
 description: Without leaving G Suite, you can post a new update or a reply to an existing update on an Adobe Workfront object.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

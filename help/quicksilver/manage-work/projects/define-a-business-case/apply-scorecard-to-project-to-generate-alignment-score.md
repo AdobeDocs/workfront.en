@@ -2,6 +2,7 @@
 navigation-topic: business-case-and-scorecards
 title: Apply a scorecard to a project and generate an Alignment Score
 description: You can use a scorecard to measure how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects the mission, values, and strategic goals of an organization.
+author: Alina
 feature: Work Management
 ---
 

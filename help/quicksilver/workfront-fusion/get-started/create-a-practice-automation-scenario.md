@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Create a practice automation scenario in Adobe Workfront Fusion
 description: This article describes how to create an automation scenario with Adobe Workfront Fusion. Automation scenarios automate Workfront processes, including data manipulation and transformation. This example takes you through the process of creating a scenario that searches for a project and then returns all of the tasks associated with that project.
+author: Becky
 feature: Workfront Fusion
 ---
 

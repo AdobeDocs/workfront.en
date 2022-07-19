@@ -3,6 +3,7 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Reset a user's password with Enhanced Authentication
 description: When Enhanced Authentication (eAuth) is enabled for your Workfront Environment, a Workfront administrator can't reset login credentials for another user. This differs from Workfront environments without eAuth or those environments for which Single Sign On (SSO) is enabled.
+author: Lisa
 feature: Get Started with Workfront
 ---
 

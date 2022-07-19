@@ -1,6 +1,7 @@
 ---
 title: Grant users administrative access to certain areas
 description: Grant users administrative access to certain areas
+author: Caroline
 draft: Probably
 feature: System Setup and Administration
 role: Admin

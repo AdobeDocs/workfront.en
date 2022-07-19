@@ -4,6 +4,7 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: add a list of task successors in a column"
 description: You can add a column to a task view to show a list of the successors of the tasks. The Task Successors column includes the number of the successor as well as the name.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

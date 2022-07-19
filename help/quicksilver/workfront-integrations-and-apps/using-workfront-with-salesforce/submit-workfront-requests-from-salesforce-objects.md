@@ -3,6 +3,7 @@ product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
 title: Submit Adobe Workfront requests from Salesforce objects
 description: After installing Adobe Workfront for Salesforce, you can submit Workfront requests from Salesforce Opportunities and Accounts. This functionality exists in both the Classic and Lightning Experience frameworks.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

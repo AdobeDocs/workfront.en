@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Assign work manually using the Workload Balancer
 description: You can manually assign work items to users using the Adobe Workfront Workload Balancer.
+author: Alina
 feature: Resource Management
 ---
 

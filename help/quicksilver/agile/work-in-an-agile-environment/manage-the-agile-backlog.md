@@ -3,6 +3,7 @@ product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: Manage the agile backlog
 description: Tasks and issues can be assigned to an agile team and added to that team's backlog as stories, depending on the agile methodology the team is using.
+author: Lisa
 feature: Agile
 ---
 

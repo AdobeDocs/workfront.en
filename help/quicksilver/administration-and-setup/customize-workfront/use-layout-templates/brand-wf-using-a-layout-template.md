@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: As an Adobe Workfront administrator or a group administrator, you can use a layout template to customize the logos in the top navigation area and on the Main Menu for certain groups, teams, job roles, and users. This is especially useful for groups in a large organization that have their own branding.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

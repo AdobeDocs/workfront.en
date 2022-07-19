@@ -3,6 +3,7 @@ product-area: workfront-integrations
 navigation-topic: workfront-for-slack
 title: Access your favorites and recent items from Slack
 description: After you have installed and configured Adobe Workfront for Slack, you can view your Workfront Favorites and Recent Items and access items from either list from Slack.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

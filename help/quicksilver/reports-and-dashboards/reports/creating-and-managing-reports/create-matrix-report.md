@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Create a matrix report
 description: Matrix reports present summary information in an aggregated table format, making it easier to view than if it were displayed in a list like in a traditional report.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

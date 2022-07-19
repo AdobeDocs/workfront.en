@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Create a static proof for a website or other web content
 description: You can generate a new static proof or a new version of an existing static proof for web content. Web content can include things like ads with streaming video, HTML animations, or interactive banners, but it will be cut into multiple screenshots to allow for static proofing.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

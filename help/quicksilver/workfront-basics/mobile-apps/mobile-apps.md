@@ -4,6 +4,7 @@ product-previous: mobile
 navigation-topic: get-started-with-workfront
 title: Mobile Apps
 description: Review the articles in these areas to learn how to use the Adobe Workfront mobile apps.
+author: Lisa
 feature: Get Started with Workfront
 ---
 

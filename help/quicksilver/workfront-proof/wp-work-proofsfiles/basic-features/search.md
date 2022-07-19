@@ -5,6 +5,7 @@ product-area: documents
 navigation-topic: basic-features-workfront-proof
 title: Searching Workfront Proof
 description: You can search for the following types of content across the Workfront Proof site - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

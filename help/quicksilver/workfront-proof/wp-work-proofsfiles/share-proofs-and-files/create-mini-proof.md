@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: share-proofs-and-files
 title: Create a Mini proof in Workfront Proof
 description: The Miniproof is a widget that lets you embed a proof in a web page, blog, or wiki.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

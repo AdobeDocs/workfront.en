@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: approvals
 title: Approving work
 description: Approving work
+author: Courtney
 feature: Work Management
 ---
 

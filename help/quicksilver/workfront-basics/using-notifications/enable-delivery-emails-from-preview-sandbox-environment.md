@@ -2,6 +2,7 @@
 navigation-topic: notifications
 title: Enable delivery of emails from the Preview Sandbox environment
 description: Keep the text in this article highlighted in yellow always
+author: Lisa
 feature: Get Started with Workfront
 ---
 

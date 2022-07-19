@@ -3,6 +3,7 @@ content-type: reference
 navigation-topic: announcements
 title: Customers on Clusters 1, 2, and 3 must update any allowlist IP blocks to prevent the blocking of Adobe Workfront services
 description: To enhance and improve our core infrastructure, we will soon migrate Adobe Workfront customers on Clusters 01, 02, and 03 to the AWS public cloud.
+author: Luke
 feature: Product Announcements
 ---
 

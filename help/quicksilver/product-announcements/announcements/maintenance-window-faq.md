@@ -3,6 +3,7 @@ content-type: faq
 navigation-topic: announcements
 title: Maintenance Window FAQ
 description: Maintenance windows are blocks of time reserved for Workfront to make updates to infrastructure and other platform-related issues. Occasionally Sandbox environments are included in the maintenance.
+author: Luke
 feature: Product Announcements
 ---
 

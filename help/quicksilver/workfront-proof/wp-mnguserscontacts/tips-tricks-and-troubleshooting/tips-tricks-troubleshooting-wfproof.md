@@ -5,6 +5,7 @@ product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: Tips, tricks, and troubleshooting for Workfront Proof users and contacts
 description: This section contains the following articles - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

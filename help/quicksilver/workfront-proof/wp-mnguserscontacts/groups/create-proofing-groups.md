@@ -4,6 +4,7 @@ product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
 title: Create Proofing Groups using Workfront Proof
 description: A Select or Premium Plan is required to use this feature. For more information about the various plans available, see Workfront Plans.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

@@ -4,6 +4,7 @@ product-area: workfront-integrations;setup
 navigation-topic: workfront-for-adobe-experience-manager
 title: Set up the AEM cloud connector
 description: This document explains how to include the Workfront Connector as a Maven dependency in AEM projects deployed to an AEM as a Cloud Service environment. The steps in this document refers to an AEM project called 'sample-site,' which acts as a stand-in for a client's site. The sample-site AEM project is based on Adobe's Maven archetype.
+author: Courtney
 hidefromtoc: true
 ---
 

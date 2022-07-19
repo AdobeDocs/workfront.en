@@ -3,6 +3,7 @@ content-type: release-notes
 navigation-topic: product-releases-archive
 title: R1 Final
 description: The following functionality is not currently available in Preview or Beta, but is releasing to the Production environment in R1 - EDIT ME.
+author: Luke
 feature: Product Announcements
 ---
 

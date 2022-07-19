@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: manage-tasks
 title: Move tasks
 description: You can move tasks in Adobe Workfront between the following objects - EDIT ME.
+author: Alina
 feature: Work Management
 ---
 

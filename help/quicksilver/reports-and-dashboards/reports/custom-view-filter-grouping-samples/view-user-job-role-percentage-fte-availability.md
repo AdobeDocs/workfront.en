@@ -4,6 +4,7 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: user Job Role percentage of FTE availability"
 description: You can add a column to the view of a user list to display a list of the Job Roles the user is associated with as well as the percentage of FTE availability for each job role, as defined in the user profile.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

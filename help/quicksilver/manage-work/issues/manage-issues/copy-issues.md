@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: manage-issues
 title: Copy issues
 description: You can copy an issue or a request and save them on the same or another project. You can also copy an issue from a task to another project.
+author: Alina
 feature: Work Management
 ---
 

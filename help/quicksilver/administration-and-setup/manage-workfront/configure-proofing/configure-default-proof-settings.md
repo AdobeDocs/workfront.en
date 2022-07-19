@@ -4,6 +4,7 @@ product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
 title: Configure default proof settings
 description: These settings allow you to set default values that apply to all new proofs created by your users. However, users can override most of these settings when creating a proof.
+author: Courtney
 feature: "System Setup and Administration, Digital Content and Documents"
 role: Admin
 ---

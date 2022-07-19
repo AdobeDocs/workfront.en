@@ -4,6 +4,7 @@ content-type: overview
 product-area: projects
 navigation-topic: manage-projects
 description: Adobe Workfront has limits for how many objects can be associated with a project. Project limits are in place to improve product performance and enhance your experience with Workfront.
+author: Alina
 feature: Work Management
 ---
 

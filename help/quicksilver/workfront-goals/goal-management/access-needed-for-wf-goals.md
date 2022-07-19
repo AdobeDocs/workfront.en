@@ -4,6 +4,7 @@ product-previous: workfront-goals
 navigation-topic: goal-management
 title: Requirements to use Workfront Goals
 description: Your Adobe Workfront administrator or your Group administrator must ensure all of the following conditions are met before you can access Adobe Workfront Goals - EDIT ME.
+author: Alina
 feature: Workfront Goals
 ---
 

@@ -4,6 +4,7 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: expanded user details"
 description: This User view displays information about your users. In addition to their name, access levels, and Company, it also shows lists of their Groups, Teams, and Job Roles.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

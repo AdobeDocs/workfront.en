@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: manage-issues
 title: Edit issues in a list
 description: You can edit an individual issue or you can edit issues in an issue list or report. This article describes how to edit issues in lists.
+author: Alina
 feature: Work Management
 ---
 

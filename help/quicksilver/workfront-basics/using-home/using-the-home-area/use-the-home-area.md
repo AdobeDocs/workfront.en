@@ -3,6 +3,7 @@ content-type: reference
 navigation-topic: home-navigation-topic
 title: Use the Home area
 description: This section contains the following articles - EDIT ME.
+author: Lisa
 feature: Get Started with Workfront
 ---
 

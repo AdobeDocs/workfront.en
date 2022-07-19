@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: resource-scheduling
 title: Filter information in the Scheduling area
 description: Filter information in the Scheduling area
+author: Alina
 feature: Resource Management
 ---
 

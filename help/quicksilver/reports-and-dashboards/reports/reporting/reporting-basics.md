@@ -4,6 +4,7 @@ product-area: reporting
 navigation-topic: reports
 title: Reporting basics
 description: Review these articles to understand reporting basics in Adobe Workfront.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

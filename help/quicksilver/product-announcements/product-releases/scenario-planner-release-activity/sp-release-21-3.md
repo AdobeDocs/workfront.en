@@ -1,6 +1,7 @@
 ---
 title: Adobe Workfront Scenario Planner with the 21.3 release
 description: Adobe Workfront Scenario Planner with the 21.3 release
+author: Luke
 draft: Probably
 feature: "Product Announcements, Workfront Scenario Planner"
 ---

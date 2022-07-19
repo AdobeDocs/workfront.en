@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: financials
 title: Calculate Net Value
 description: The Net Value of a project is the total expected value of the project after calculating its benefit and removing the costs.
+author: Alina
 feature: Work Management
 ---
 

@@ -3,6 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: What's New in API Version 9 (continued)
 description: This list is the second half of a larger list. The first half can be located at What's New in API Version 9. You will find the list of updates to version 9 at Updates to API Version 9.
+author: John
 feature: Workfront API
 ---
 

@@ -4,6 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: security
 title: Enhanced Authentication overview
 description: The highlighted information on this page refers to functionality not yet generally available. It will be available at some point in the future.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

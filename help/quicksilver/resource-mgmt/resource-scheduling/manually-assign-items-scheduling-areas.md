@@ -3,6 +3,7 @@ product-area: resource-management;user-management
 navigation-topic: resource-scheduling
 title: Manually assign unassigned tasks and issues in the Scheduling areas
 description: "NOTE: Alina: several sections ask for the screen shot to be updated - check into those notes; Alina: broken off article, needs formatting, restructuring, new linking)"
+author: Alina
 feature: Resource Management
 ---
 

@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Get document content via Webhooks
 description: Returns the raw bytes for a document
+author: John
 feature: "Workfront API, Digital Content and Documents"
 ---
 

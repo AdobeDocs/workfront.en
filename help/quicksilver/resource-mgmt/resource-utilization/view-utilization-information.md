@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: resource-utilization
 title: View resource utilization information
 description: View resource utilization information
+author: Alina
 feature: Resource Management
 ---
 

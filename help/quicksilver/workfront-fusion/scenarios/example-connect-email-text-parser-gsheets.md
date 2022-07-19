@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: "Adobe Workfront Fusion scenario example: Connect email, Text Parser, and Google Sheets"
 description: This scenario helps you create a log of all email messages and tag them for further action in a spreadsheet. It captures an email body in two separate tables in a spreadsheet using Regular Expressions (Regex) as search patterns. The first pattern searches for a phrase and the second searches for the same phrase and an email address.
+author: Becky
 feature: Workfront Fusion
 ---
 

@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: financials
 title: Manage information in the project Finance area
 description: Manage information in the project Finance area
+author: Alina
 feature: Work Management
 ---
 

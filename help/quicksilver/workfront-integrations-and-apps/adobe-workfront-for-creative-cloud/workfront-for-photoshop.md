@@ -1,6 +1,7 @@
 ---
 title: Adobe Workfront for Photoshop
 description: Adobe Workfront for Photoshop
+author: Courtney
 draft: Probably
 feature: "Workfront Integrations and Apps, Digital Content and Documents"
 ---

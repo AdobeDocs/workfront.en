@@ -4,6 +4,7 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Event notifications available in Adobe Workfront
 description: Event notifications are emails triggered by various types of events on objects such as projects, tasks, and issues, as explained in Event notifications.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 ---

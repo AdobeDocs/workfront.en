@@ -4,6 +4,7 @@ content-type: api
 navigation-topic: workfront-api
 title: Adobe Workfront Objects
 description: This section contains the following articles - EDIT ME.
+author: John
 ---
 
 # Adobe Workfront Objects

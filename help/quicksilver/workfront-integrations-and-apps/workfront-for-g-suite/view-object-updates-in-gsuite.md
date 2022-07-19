@@ -4,6 +4,7 @@ keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
 title: View Adobe Workfront object updates from G Suite
 description: Without leaving G Suite, you can view updates and replies to updates on a Adobe Workfront object.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

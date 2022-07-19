@@ -4,6 +4,7 @@ product-area: system-administration;user-management;setup
 navigation-topic: security
 title: Configure system security preferences
 description: Configure system security preferences
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

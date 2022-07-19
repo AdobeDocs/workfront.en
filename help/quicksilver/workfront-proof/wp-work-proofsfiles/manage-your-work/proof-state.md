@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Understand Proof State in Workfront Proof
 description: In Workfront Proof, proofs exist in different states. These states determine what actions you can take on the proof, such as commenting or making decisions.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

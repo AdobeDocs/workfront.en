@@ -3,6 +3,7 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Create custom sections
 description: The information you see in the Workfront web application is often displayed in the sections in the left panel by default. Each section contains different information about a Workfront area or object.
+author: Lisa
 feature: Get Started with Workfront
 ---
 

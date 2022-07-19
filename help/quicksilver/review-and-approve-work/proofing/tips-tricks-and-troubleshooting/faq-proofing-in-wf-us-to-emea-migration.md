@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: "FAQ: proofing within Adobe Workfront - US to EMEA migration"
 description: Adobe Workfront is directly contacting all organizations affected by the Workfront Proof US to EMEA migration.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

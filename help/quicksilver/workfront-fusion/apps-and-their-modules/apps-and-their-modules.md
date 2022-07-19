@@ -6,6 +6,7 @@ keywords: connector
 navigation-topic: workfront-fusion-2-0
 title: Apps and their modules
 description: Adobe Workfront Fusion currently offers dedicated connectors for the apps on this list. If the app you want to work with is not on this list, you can connect to it using the HTTP, SOAP, or JSON modules.
+author: Becky
 feature: Workfront Fusion
 ---
 

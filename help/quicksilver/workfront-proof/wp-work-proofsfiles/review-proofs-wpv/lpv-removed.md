@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Legacy proofing viewer Removed
 description: Prior to the 2018.3 release, the Legacy proofing viewer was supported. With the 2018.3 release (in November 2018), the Legacy proofing viewer and all other applications that rely on Flash have been removed and are no longer available.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

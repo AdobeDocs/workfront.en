@@ -5,6 +5,7 @@ product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
 title: The Proof Made email
 description: A Proof Made email is sent to the proof creator only when he or she has created a proof. If a person has created a proof and made another person the Owner, only the new Owner also receives the Proof made email. The Creator and/or Owner will not get one; they receive only the Proof Made email. For more information about the New Proof email, see New proof email.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

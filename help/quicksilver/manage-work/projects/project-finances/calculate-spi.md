@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: financials
 title: Calculate Schedule Performance Index (SPI)
 description: Calculate Schedule Performance Index (SPI)
+author: Alina
 feature: Work Management
 ---
 

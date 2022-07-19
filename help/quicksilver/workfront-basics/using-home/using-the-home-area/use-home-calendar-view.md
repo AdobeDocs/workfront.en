@@ -3,6 +3,7 @@ product-area: calendars
 navigation-topic: use-the-home-area
 title: Use the Home Calendar view
 description: You can use the Calendar view in the Home area to manage your work day and work assignments. Only you can view and manage your Home Calendar.
+author: Lisa
 feature: Get Started with Workfront
 ---
 

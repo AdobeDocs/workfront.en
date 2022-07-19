@@ -1,6 +1,7 @@
 ---
 title: Edit a team's settings from the Setup area
 description: Edit a team's settings from the Setup area
+author: Caroline
 draft: Probably
 feature: System Setup and Administration
 role: Admin

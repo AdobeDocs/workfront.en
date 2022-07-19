@@ -5,6 +5,7 @@ product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Mapping in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+author: Becky
 feature: Workfront Fusion
 ---
 

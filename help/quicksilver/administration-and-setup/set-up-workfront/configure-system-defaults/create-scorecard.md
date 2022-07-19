@@ -4,6 +4,7 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Create a scorecard
 description: Create a scorecard
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: automated-workflow-workfront-proof
 title: Set up a proof with an Automated Workflow in Workfront Proof
 description: This repeats information found in Configuring proofs in Workfront. Consolidate here or there. Maybe better here.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

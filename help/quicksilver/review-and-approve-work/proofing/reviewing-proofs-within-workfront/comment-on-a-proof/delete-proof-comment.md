@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: comment-on-a-proof
 title: Delete proof comments
 description: You can delete a comment or a reply to a comment as long as no one has already replied to it. It is usually better to resolve a comment rather than delete it. For more information, see Resolve proof comments.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

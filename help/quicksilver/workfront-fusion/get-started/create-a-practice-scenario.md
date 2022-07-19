@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Create a practice integration scenario in Adobe Workfront Fusion
 description: This article describes how to create an integration scenario with Adobe Workfront Fusion. Integration scenarios connect separate apps together, allowing your data to flow through different applications.
+author: Becky
 feature: Workfront Fusion
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Adobe Workfront with Anaplan
 description: Adobe Workfront with Anaplan
+author: Becky
 draft: Probably
 feature: "Workfront Integrations and Apps, Workfront Fusion"
 ---

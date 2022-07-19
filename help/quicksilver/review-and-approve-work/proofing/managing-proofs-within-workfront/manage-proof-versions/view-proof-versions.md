@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: manage-proof-versions
 title: View proof versions
 description: You can view past versions of a proof.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

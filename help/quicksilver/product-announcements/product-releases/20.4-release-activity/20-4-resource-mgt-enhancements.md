@@ -1,6 +1,7 @@
 ---
 title: 20.4 Resource Management enhancements
 description: 20.4 Resource Management enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
 ---

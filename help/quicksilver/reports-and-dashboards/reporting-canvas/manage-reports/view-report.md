@@ -1,6 +1,7 @@
 ---
 title: View a report in Reporting Canvas
 description: View a report in Reporting Canvas
+author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 ---

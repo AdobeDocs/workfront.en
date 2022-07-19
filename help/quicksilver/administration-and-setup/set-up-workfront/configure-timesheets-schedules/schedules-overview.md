@@ -6,6 +6,7 @@ keywords: user,schedule
 navigation-topic: configure-timesheets-and-schedules
 title: Schedules overview
 description: You can define your work week by using schedules. You can associate a schedule with a user or a project. This allows Adobe Workfront to calculate timelines and user availability. For instructions, see Create a schedule.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

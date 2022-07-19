@@ -3,6 +3,7 @@ product-area: documents;setup
 navigation-topic: create-proofs-within-workfront
 title: Create an advanced proof with an Automated workflow
 description: An Automated Workflow makes it easier to manage the review process if your process is complex, or if you send content for review to the same people regularly. The proof moves from stage to stage and Adobe Workfront notifies each user when it is their turn to review it. For more information about Automated workflows, see Automated Workflow overview.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

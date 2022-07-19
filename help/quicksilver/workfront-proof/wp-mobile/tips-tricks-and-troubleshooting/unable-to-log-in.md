@@ -5,6 +5,7 @@ product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-mobile
 title: Unable to Log In to the Workfront Proof Mobile App
 description: When trying to log in to the Workfront Proof Mobile App it returns - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

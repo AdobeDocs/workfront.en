@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Use conditional formatting in Text Mode
 description: Use conditional formatting in Text Mode
+author: Nolan
 feature: Reports and Dashboards
 ---
 

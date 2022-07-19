@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Review a proof
 description: View content in a proof
+author: Courtney
 feature: Digital Content and Documents
 ---
 

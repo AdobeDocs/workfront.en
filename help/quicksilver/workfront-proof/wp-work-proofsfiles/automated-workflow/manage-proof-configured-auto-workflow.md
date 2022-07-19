@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: automated-workflow-workfront-proof
 title: Manage a proof configured with an Automated Workflow in Workfront Proof
 description: You can conveniently track the progress of your Automated Workflow proofs in the Workflow section of the Proof details page. You can view the work done on each stage and modify, add, start and lock the stages on your proof.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 
