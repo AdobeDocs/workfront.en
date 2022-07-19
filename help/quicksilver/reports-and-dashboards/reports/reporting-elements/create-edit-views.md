@@ -22,19 +22,19 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to create a view in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>Manage permissions to a report to create or edit a view in a report</p> <p>Manage permissions to a view to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -53,10 +53,10 @@ The process for creating or customizing a view differs depending on whether you 
 
 You can create a new standard view, or you can customize an existing standard view that you previously created.
 
-1. Click the**View** drop-down menu on any list where you want to create or customize a view.
+1. Click the **View** drop-down menu on any list where you want to create or customize a view.
 1. (Optional) To customize an existing view, select the standard View you want to customize.  
    Standard Views are available on any type of list in Workfront, such as a report, project list, or task list.
-1. Click the **View** drop-down menu, then click **Customize View** or**New View**.  
+1. Click the **View** drop-down menu, then click **Customize View** or **New View**.  
    The **Customize View** dialog box displays.  
 
 1. In the **Column Preview** section, do any of the following:
@@ -82,8 +82,6 @@ You can create a new standard view, or you can customize an existing standard vi
         >[!NOTE]
         >
         >The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
-        >
-        >   
         >   
         >   * All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
         >   * Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
@@ -98,12 +96,6 @@ You can create a new standard view, or you can customize an existing standard vi
         <table style="table-layout:auto"> 
          <col> 
          <col> 
-         <thead> 
-          <tr> 
-           <th> </th> 
-           <th> </th> 
-          </tr> 
-         </thead> 
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>Custom Column Label</strong></td> 
@@ -128,9 +120,9 @@ You can create a new standard view, or you can customize an existing standard vi
 
 1. (Conditional) If you clicked **Advanced Options**, click **Done**.
 
-1. Click **Save View** to create a new View or to replace the current View with your changes.  
+1. Click **Save View** to create a new view or to replace the current view with your changes.  
    Or  
-   Click **Save as New View** to save your changes as a new View.
+   Click **Save as New View** to save your changes as a new view.
 
    >[!TIP]
    >
@@ -155,11 +147,11 @@ For more information about Agile views, see the article [Manage a project in the
 To create or customize an Agile view:
 
 1. Go to the list of tasks on a project.
-1. Click the **Agile Storyboard**icon ![](assets/agile-storyboard-nwe.png).  
+1. Click the **Agile Storyboard** icon ![](assets/agile-storyboard-nwe.png).  
 
 1. (Conditional) To customize an existing Agile view:
 
-   1. Click the **View** drop-down menu, then select the Agile View you want to customize.  
+   1. Click the **View** drop-down menu, then select the Agile view you want to customize.  
       You cannot customize the default Agile view.
    
    1. Click the **View** drop-down menu again, then click **Customize View**.  
@@ -181,13 +173,7 @@ To create or customize an Agile view:
 
    <table style="table-layout:auto"> 
     <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> </th> 
-      <th> </th> 
-     </tr> 
-    </thead> 
+    <col>
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Reorder status columns:</strong> </td> 
@@ -199,24 +185,20 @@ To create or customize an Agile view:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Add status columns:</strong> </td> 
-      <td> <p>Click the <strong>Plus</strong> icon, then select the status you want to add.<br>All default system statuses are displayed, as well as any custom statuses that have been shared with you.<br>You can configure up to 10 statuses to display.</p> <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
-       --> </td> 
+      <td> <p>Click the <strong>Plus</strong> icon, then select the status you want to add.<br>All default system statuses are displayed, as well as any custom statuses that have been shared with you.<br>You can configure up to 10 statuses to display.</p></td> 
      </tr> 
     </tbody> 
    </table>
+
+   <!--
+        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
+       -->
 
 1. In the **Associate Card Color to** area, select from the following options:
 
    <table style="table-layout:auto"> 
     <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> </th> 
-      <th> </th> 
-     </tr> 
-    </thead> 
+    <col>
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Story:</strong> </td> 
@@ -243,7 +225,7 @@ To create or customize an Agile view:
    </table>
 
 1. In the **Agile** section, in the **Additional Fields** area, click **Add Field**, then select the field you want to add to story cards. (These are the same fields you can add when creating customizing a view or creating columns for a report.)  
-   Repeat this process to add up to 3 additional fields to the story cards.  
+   Repeat this process to add up to three additional fields to the story cards.  
    When you add fields to story cards, fields are view-only and display only when the field is populated.
 
    By default, the following types of data is displayed on the story card:
@@ -259,8 +241,7 @@ To create or customize an Agile view:
    You can display additional data (including custom data) on story cards. You might want to display additional fields on story cards for any number of reasons. For example, you might want to display the Customer ID if you are working on stories for multiple customers within the project, or you might want to display the Task Start Date.
 
 1. Click **Save**.  
-   Your access dictates how the View is saved. If you created the View originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the View impact users with whom the View has been shared.
+   Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
-1. (Optional)&nbsp;Click the **List View** icon ![](assets/list-view-in-agile-view-for-tasks.png) to return to the list of tasks.
+1. (Optional) Click the **List View** icon ![](assets/list-view-in-agile-view-for-tasks.png) to return to the list of tasks.
 
-&nbsp;

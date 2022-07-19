@@ -104,7 +104,7 @@ To indicate various periods of time and various points in time (future or past),
 
 {style="table-layout:auto"}
 
-For example, the wildcard `$$TODAYb+2w` refers to "2 weeks from the beginning of this week". The wildcard *`$$NOW+2h` refers to '2 hours from now'.
+For example, the wildcard `$$TODAYb+2w` refers to "2 weeks from the beginning of this week." The wildcard *`$$NOW+2h` refers to "2 hours from now."
 
 ## User-based wildcard filter variables
 

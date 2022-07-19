@@ -4,7 +4,6 @@ navigation-topic: reporting-elements
 title: Filter and condition modifiers
 description: The filter and condition modifiers allow you to build filters and establish conditions for formatting your report results.
 author: Nolan
-req doc: "https://docs.google.com/document/d/1WA0zZ_wws-2qb908i53BFQ8zDwL3nPJHyIybtJvvnqU/edit)"
 feature: Reports and Dashboards
 ---
 

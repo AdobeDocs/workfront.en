@@ -4,6 +4,10 @@
 
 <!-- General -->
 
+## Highlighted Preview {#highlighted-preview}
+
+<div class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</div>
+
 <!-- Admin and Setup -->
 
 ## Important note for Admin Console onboarding {#important-admin-console-onboard}
@@ -15,10 +19,6 @@
 >If your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 <!-- Agile -->
-
-## Highlighted Preview {#highlighted-preview}
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 <!-- Calendars -->
 
