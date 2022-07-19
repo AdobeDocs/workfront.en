@@ -3,6 +3,7 @@ content-type: release-notes
 navigation-topic: product-releases-archive
 title: The Workfront R1 release
 description: KEEP EVERYONE ENGAGED AND EFFICIENT Workfront releases new product functionality to all product lines three times a year (Release 1, Release 2, and Release 3.) In the first release of the 2017 year (R1,) several enhancements to core functionality in Workfront, ProofHQ and Workfront DAM allow knowledge workers to be more productive, engaged and spend less time managing work, and more getting things done.
+author: Luke
 feature: Product Announcements
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Workfront Fusion release activity:&nbsp;Week of January 3, 2022
 description: Workfront Fusion release activity:&nbsp;Week of January 3, 2022
+author: Luke
 draft: Probably
 feature: "Product Announcements, Workfront Fusion"
 ---

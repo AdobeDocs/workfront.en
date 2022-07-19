@@ -4,6 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: issues with resolving object details"
 description: This issue view displays the name and percentage complete of the resolving object of the Issue, allowing the issue originator to have insight into the progress of the issue even without access to the resolving task or project.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

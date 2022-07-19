@@ -1,6 +1,7 @@
 ---
 title: Learn about the latest improvements in Adobe Workfront One
 description: Learn about the latest improvements in Adobe Workfront One
+author: Luke
 draft: Probably
 feature: Product Announcements
 ---

@@ -3,6 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Manage cards
 description: You can move a card to any column on the board, or copy a card.
+author: Lisa
 feature: Agile
 ---
 
