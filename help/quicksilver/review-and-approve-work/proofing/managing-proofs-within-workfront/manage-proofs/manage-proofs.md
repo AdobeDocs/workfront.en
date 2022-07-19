@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Manage proofs
 description: Edit proof settings
+author: Courtney
 feature: Digital Content and Documents
 ---
 

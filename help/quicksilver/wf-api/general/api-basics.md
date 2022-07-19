@@ -3,6 +3,7 @@ content-type: api
 navigation-topic: general-api
 title: API basics
 description: The goal for the Adobe Workfront API is to simplify building integrations with Workfront by introducing a REST-ful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses and describes the approach taken by the Workfront API.
+author: John
 feature: Workfront API
 ---
 

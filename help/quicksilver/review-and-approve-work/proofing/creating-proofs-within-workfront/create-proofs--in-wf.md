@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Create proofs
 description: This section contains the following articles - EDIT ME.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

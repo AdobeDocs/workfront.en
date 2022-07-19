@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: resource-pools
 title: Create resource pools
 description: Resource pools are collections of users that help you manage resources easier in Adobe Workfront. For more information about resource pools, see Resource pools overview .
+author: Alina
 feature: Resource Management
 ---
 

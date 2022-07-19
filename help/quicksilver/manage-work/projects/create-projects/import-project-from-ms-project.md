@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: create-projects
 title: Import a project from Microsoft Project
 description: You can import projects from Microsoft Project into Adobe Workfront and manage all your projects in one application. Every time you import a project from Microsoft Project, a new project is created in Workfront.
+author: Alina
 feature: Work Management
 ---
 

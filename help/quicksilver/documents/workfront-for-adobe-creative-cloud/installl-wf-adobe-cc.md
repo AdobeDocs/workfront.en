@@ -3,6 +3,7 @@ product-area: documents;workfront-integrations
 navigation-topic: workfront-for-adobe-creative-cloud
 title: Install the Workfront Extension for Illustrator and InDesign
 description: The following sections describe how to download and install the Workfront Extension for Illustrator and InDesign. For information about how to use the extension, see Use the Workfront Extension for Illustrator and InDesign.
+author: Courtney
 feature: "Workfront Integrations and Apps, Digital Content and Documents"
 ---
 

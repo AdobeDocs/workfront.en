@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: approvals
 title: Request document approvals
 description: You can request approval from managers or other users for a document in Adobe Workfront. You can also request document approvals from people without Workfront accounts if your Workfront administrator has enabled this capability, as described in Configure system security preferences.
+author: Courtney
 feature: Work Management
 ---
 

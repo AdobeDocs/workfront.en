@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: View a scenario's execution history in Adobe Workfront Fusion
 description: You can display information about all the runs for a scenario, or you can search all executions of the scenario for specific data.
+author: Becky
 feature: Workfront Fusion
 ---
 
@@ -139,7 +140,9 @@ The Search in history window opens.
 
    >[!NOTE] 
    >
-   > Executions are available only for the previous 30 days.
+   >* Executions are available only for the previous 30 days.
+   >
+   >* Workfront Fusion stores webhook payloads for 30 days. Accessing a webhook payload more than 30 days after it was created results in the error "Failed to read file from storage."
 
 1. (Optional) To limit your search by status, select the desired status in the **By status** dropdown.
 

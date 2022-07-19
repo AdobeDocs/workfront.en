@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: review-a-proof
 title: View previous proof versions in the proofing viewer
 description: You can view a previous version of a proof if one exists. Previous versions are locked by default. You cannot add comments or change a decision on a locked version.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

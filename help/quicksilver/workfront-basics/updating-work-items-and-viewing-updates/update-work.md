@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Update work
 description: You can add an update on a Adobe Workfront object (project, task, or issue) to communicate about progress on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update.
+author: Lisa and Alina
 feature: Get Started with Workfront
 ---
 

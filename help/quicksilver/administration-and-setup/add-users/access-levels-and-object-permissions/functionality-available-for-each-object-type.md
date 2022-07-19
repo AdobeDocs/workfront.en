@@ -6,6 +6,7 @@ keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
 title: Functionality available for each object type
 description: The following tables lists the functionality available for each object type in the various access levels.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

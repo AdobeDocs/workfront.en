@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: Calculation example - calculate EAC at the Project Level
 description: PIM = Hour-Based
+author: Alina
 feature: Work Management
 ---
 

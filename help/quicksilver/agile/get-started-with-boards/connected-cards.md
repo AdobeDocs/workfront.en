@@ -3,6 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Connected cards on boards
 description: You can add a card on your board that is connected to existing tasks and issues in Workfront.
+author: Lisa
 feature: Agile
 ---
 

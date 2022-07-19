@@ -4,6 +4,7 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: permanently edit the width of a column"
 description: You can temporarily modify to width of columns by dragging and dropping their margins to match the desired width. For more information, see Modify column width and order.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

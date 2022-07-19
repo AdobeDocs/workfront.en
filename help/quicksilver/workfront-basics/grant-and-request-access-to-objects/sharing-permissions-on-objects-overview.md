@@ -3,6 +3,7 @@ content-type: overview
 navigation-topic: grant-and-request-access-to-objects
 title: Overview of sharing permissions on objects
 description: Redundancy here with the article Permissions for shared objects?
+author: Alina
 feature: Get Started with Workfront
 ---
 

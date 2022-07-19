@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: update-work-in-a-project
 title: Interactions between the Commit Date and the Planned Completion Date
 description: Interactions between the Commit Date and the Planned Completion Date
+author: Alina
 feature: Work Management
 ---
 

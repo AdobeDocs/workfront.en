@@ -3,6 +3,7 @@ content-type: release-notes
 navigation-topic: product-announcements
 title: Product announcements
 description: This section contains the following subsections - EDIT ME.
+author: Luke
 feature: Product Announcements
 ---
 

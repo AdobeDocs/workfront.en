@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Create or edit filters in Adobe Workfront
 description: Create or edit filters in Adobe Workfront
+author: Nolan
 feature: Reports and Dashboards
 ---
 

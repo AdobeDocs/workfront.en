@@ -6,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Workfront Proof modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Workfront Proof, as well as connect it to multiple third-party applications and services.
+author: Becky
 feature: "Workfront Fusion, Workfront Proof, Digital Content and Documents"
 ---
 

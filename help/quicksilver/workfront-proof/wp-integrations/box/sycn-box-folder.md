@@ -4,6 +4,7 @@ product-area: documents;workfront-integrations
 navigation-topic: box
 title: Sync Box Folders With Workfront Proof
 description: You can synchronize a Box folder with a folder in Workfront Proof. Every change you make to your files in the Box folder will be reflected in Workfront Proof (so uploading a new file, adding a new version, renaming of a file, etc).
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

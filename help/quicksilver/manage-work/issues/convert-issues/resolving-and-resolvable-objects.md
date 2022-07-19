@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: convert-issues
 title: Overview of Resolving and Resolvable Objects
 description: A Resolvable Object is an issue whose resolution is tied to a Resolving Object. A Resolving Object is a project, task, or another issue.
+author: Alina
 feature: Work Management
 ---
 

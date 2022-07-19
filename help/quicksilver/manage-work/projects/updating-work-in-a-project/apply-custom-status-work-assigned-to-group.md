@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: update-work-in-a-project
 title: Apply statuses to work that is associated with a group
 description: "CO: Alina, I moved this out of an admin article about statuses (Create and customize statuses)"
+author: Alina
 feature: Work Management
 ---
 

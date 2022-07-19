@@ -4,6 +4,7 @@ product-area: reporting;dashboards
 navigation-topic: reports-and-dashboards
 title: Reporting
 description: Review these areas to get an understanding of reporting in Adobe Workfront.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

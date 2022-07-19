@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Remove filters, views, and groupings
 description: Remove filters, views, and groupings
+author: Nolan
 feature: Reports and Dashboards
 ---
 

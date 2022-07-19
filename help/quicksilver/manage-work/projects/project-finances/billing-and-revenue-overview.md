@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: financials
 title: Overview of Billing and Revenue
 description: As a project manager, you can use billing rates to capture revenue on your projects.
+author: Alina
 feature: Work Management
 ---
 

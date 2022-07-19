@@ -1,6 +1,7 @@
 ---
 title: Get started with the Scenario Planner
 description: Get started with the Scenario Planner
+author: Alina
 draft: Probably
 feature: Workfront Scenario Planner
 ---

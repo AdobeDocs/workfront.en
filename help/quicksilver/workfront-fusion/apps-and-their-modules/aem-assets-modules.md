@@ -7,6 +7,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Assets modules
 description: With the Adobe Experience Manager Assets connector for Adobe Workfront Fusion, you can start a scenario based on events in your Adobe Experience Manager Assets account, create, upload, and update assets, and copy or move folders and assets.
+author: Becky
 feature: "Workfront Fusion, Digital Content and Documents"
 ---
 

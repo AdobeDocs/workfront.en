@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: Tasks FAQs
 description: By default, a task requester/ assigner does not receive email notifications for the changes on the tasks that they assign to other users. The amount of notifications on these tasks would be overwhelming for someone who assigns a large number of tasks routinely.
+author: Alina
 feature: Work Management
 ---
 

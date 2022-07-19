@@ -5,6 +5,7 @@ product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: JSON modules
 description: The Adobe Workfront Fusion JSON app provides modules to process data in JSON format so that Adobe Workfront Fusion can further work with the data content, or create new JSON content.
+author: Becky
 feature: Workfront Fusion
 ---
 

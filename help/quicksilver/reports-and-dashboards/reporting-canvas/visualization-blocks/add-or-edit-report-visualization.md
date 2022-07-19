@@ -1,6 +1,7 @@
 ---
 title: Add or edit a visualization block in Reporting Canvas
 description: Add or edit a visualization block in Reporting Canvas
+author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 ---

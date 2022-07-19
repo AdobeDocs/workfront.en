@@ -3,6 +3,7 @@ product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
 title: Create an Adobe Workfront request from an Outlook email
 description: You can create a Adobe Workfront request from an email in Outlook.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

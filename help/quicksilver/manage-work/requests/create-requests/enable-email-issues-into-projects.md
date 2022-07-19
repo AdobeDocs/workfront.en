@@ -3,6 +3,7 @@ product-area: requests
 navigation-topic: create-requests
 title: Enable users to email an issue into a Request Queue project
 description: Enable users to email an issue into a Request Queue project
+author: Alina
 feature: Work Management
 ---
 

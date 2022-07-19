@@ -3,6 +3,7 @@ content-type: release-notes
 navigation-topic: product-releases-archive
 title: R1 Preview 1 and 2
 description: This page describes all changes available in the Preview environment with the R1.1 and R1.2 releases. The functionality on this page was made available in the Preview environment on January 19, 2017.
+author: Luke
 feature: Product Announcements
 ---
 

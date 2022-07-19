@@ -3,6 +3,7 @@ product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: View additional information about Adobe Workfront for Outlook and log out
 description: You can view details about the version of the Adobe Workfront add-in for Outlook, navigate directly to the web version, submit feedback, or log out.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

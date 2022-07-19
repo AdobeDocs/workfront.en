@@ -4,6 +4,7 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner
 description: Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner
+author: Alina
 feature: Resource Management
 ---
 

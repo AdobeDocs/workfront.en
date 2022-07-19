@@ -4,6 +4,7 @@ product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
 title: Goal review and the Adobe Workfront Goals sections
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+author: Alina
 feature: Workfront Goals
 ---
 

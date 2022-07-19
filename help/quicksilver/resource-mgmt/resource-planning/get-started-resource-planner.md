@@ -4,6 +4,7 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Resource Planner overview
 description: "(Alina: this used to be the beginning of Planning in the Resource Planner - consider restructuring it further? Merging some of this information with information about Understanding Navigation in the RP?!)"
+author: Alina
 feature: Resource Management
 ---
 

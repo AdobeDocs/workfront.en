@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: financials
 title: Calculate Cost Performance Index (CPI)
 description: Calculate Cost Performance Index (CPI)
+author: Alina
 feature: Work Management
 ---
 

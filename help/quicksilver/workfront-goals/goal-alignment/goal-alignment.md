@@ -4,6 +4,7 @@ product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
 title: Goal alignment in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+author: Alina
 feature: Workfront Goals
 ---
 

@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: use-predecessors
 title: Create predecessor relationships by chaining tasks
 description: You can create predecessor relationships in multiple ways in Adobe Workfront. One method is by chaining tasks.
+author: Alina
 feature: Work Management
 ---
 

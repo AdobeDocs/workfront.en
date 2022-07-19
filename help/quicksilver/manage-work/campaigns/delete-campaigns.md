@@ -3,6 +3,7 @@ filename: delete-campaigns
 navigation-topic: campaigns
 title: Delete campaigns
 description: You can delete campaigns. 
+author: Alina
 ---
 
 # Delete campaigns

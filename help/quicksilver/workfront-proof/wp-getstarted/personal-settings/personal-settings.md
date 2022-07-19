@@ -5,6 +5,7 @@ product-area: documents;system-administration;user-management
 navigation-topic: basics-workfront-proof
 title: Personal settings in Workfront Proof
 description: This section contains the following articles - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

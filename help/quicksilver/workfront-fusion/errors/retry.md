@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: errors
 title: Retry error handling in Adobe Workfront Fusion
 description: In some cases it is useful to re-execute a failing module for a couple of times if there is a chance that the reason for the failure might pass over time.
+author: Becky
 feature: Workfront Fusion
 ---
 

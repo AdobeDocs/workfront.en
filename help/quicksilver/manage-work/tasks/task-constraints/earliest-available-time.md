@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: task-constraints
 title: "Task Constraint overview: Earliest Available Time"
 description: Earliest Available Time is a Task Constraint that schedules a task to begin at the earliest available time after considering any predecessor relationships.
+author: Alina
 feature: Work Management
 ---
 

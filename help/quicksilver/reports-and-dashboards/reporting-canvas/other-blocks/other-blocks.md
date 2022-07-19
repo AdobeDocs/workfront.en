@@ -4,6 +4,7 @@ product-area: reporting
 navigation-topic: reporting-canvas
 title: Other Blocks
 description: This section contains the following articles - EDIT ME.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

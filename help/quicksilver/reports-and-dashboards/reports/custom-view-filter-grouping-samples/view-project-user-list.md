@@ -4,6 +4,7 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: list of project users with job roles"
 description: You can apply this view in a project list or report to display a list of users that are associated with the project, as well as a list of the job roles they are performing on the project.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

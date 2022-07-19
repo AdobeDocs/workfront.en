@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Manage user allocations in the Workload Balancer
 description: As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer.
+author: Alina
 feature: Resource Management
 ---
 

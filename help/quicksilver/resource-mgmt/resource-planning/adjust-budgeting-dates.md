@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Adjust budgeting dates in the Resource Planner
 description: If you find that there are overallocations of your resources after you have budgeted them in the Resource Planner, you can explore what-if scenarios by moving the Budgeted Hours, FTE, or Costs to another time frame. Based on the findings in these scenarios, you can then adjust your budgeted Hours, FTE, or Cost.
+author: Alina
 feature: Resource Management
 ---
 

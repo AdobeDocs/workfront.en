@@ -5,6 +5,7 @@ product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
 title: Getting started with Workfront Proof
 description: This section contains the following subsections - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

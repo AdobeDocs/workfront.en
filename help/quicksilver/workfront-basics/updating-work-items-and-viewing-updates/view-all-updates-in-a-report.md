@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: View all updates in a Note report
 description: View all updates in a Note report
+author: Lisa and Alina
 feature: Get Started with Workfront
 ---
 

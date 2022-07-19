@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Create and edit risks on projects
 description: Risks are possible events or factors that prevent a project from finishing on time or within budget. Risks can be recorded as part of creating the Business Case of a project or by using the Risks tab. Risks are created only on a project. You cannot associate risks with tasks or issues.
+author: Alina
 feature: Work Management
 ---
 
@@ -78,7 +79,7 @@ To create or edit a risk in the Business Case:
 
 ## Create and edit risks in the Risks area
 
-In addition to creating and editing risks in the Business Case, you can do so using the **Risks** sectionof a project.
+In addition to creating and editing risks in the Business Case, you can do so using the **Risks** section of a project.
 
 * [Create risks in the Risks area](#create-risks-in-the-risks-area) 
 * [Edit risks in the Risks area](#edit-risks-in-the-risks-area)
@@ -88,7 +89,11 @@ In addition to creating and editing risks in the Business Case, you can do so us
 1. Go to the project you want to create risks for.
 1. Click **Risks** in the left panel.
 
+   Production environment:
    ![](assets/risks-section-on-project-nwe-350x76.png)
+
+   Preview environment:
+   ![Risks section of task](assets/risks-section-on-project-2022.png)
 
 1. Click **Start Adding Risks** and create risks by in-line editing their information.
 

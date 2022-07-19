@@ -1,6 +1,7 @@
 ---
 title: Workfront Fusion release activity:&nbsp;Week of November 15, 2021
 description: Workfront Fusion release activity:&nbsp;Week of November 15, 2021
+author: Luke
 draft: Probably
 feature: "Product Announcements, Workfront Fusion"
 ---

@@ -4,6 +4,7 @@ product-area: reporting
 navigation-topic: reports
 title: Text Mode resources
 description: Text Mode resources
+author: Nolan
 feature: Reports and Dashboards
 ---
 

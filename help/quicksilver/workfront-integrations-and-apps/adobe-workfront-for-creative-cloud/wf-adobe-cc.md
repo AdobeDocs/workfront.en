@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront for Creative Cloud
 description: Adobe Workfront for Photoshop
+author: Courtney
 feature: "Workfront Integrations and Apps, Digital Content and Documents"
 ---
 

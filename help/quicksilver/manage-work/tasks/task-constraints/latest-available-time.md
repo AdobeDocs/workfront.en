@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: task-constraints
 title: "Task Constraint overview: Latest Available Time"
 description: Latest Available Time (LAT) is a type of Task Constraint in Adobe Workfront.
+author: Alina
 feature: Work Management
 ---
 

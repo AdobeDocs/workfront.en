@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: manage-proof-versions
 title: Download proof versions
 description: You can download a single version or all versions of a proof.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

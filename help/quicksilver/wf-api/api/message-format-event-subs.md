@@ -3,6 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Outbound message format for event subscriptions
 description: With the release of Adobe Workfront 2017.3, the format for outbound messages for event subscriptions will change to allow for improved performance and better use of event subscriptions for your integrations.
+author: John
 feature: Workfront API
 ---
 

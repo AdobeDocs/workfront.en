@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Change interactive proof resolution in the proofing viewer
 description: You can preview how an interactive proof looks on various devices, allowing you to see how content displays and responds based on different resolutions.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

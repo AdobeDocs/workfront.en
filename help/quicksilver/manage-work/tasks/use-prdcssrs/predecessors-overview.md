@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: use-predecessors
 title: Overview of task predecessors
 description: CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE!
+author: Alina
 feature: Work Management
 ---
 
@@ -67,9 +68,13 @@ To find the predecessors of a task do one of the following:
 
       The number in the **#** column shows the predecessor task number. For example "6" means the sixth task in the project.
 
+      Production environment:
+
       ![](assets/nwe-predecessors-tab-with-task-header-350x56.png)
 
-  &nbsp;
+      Preview environment:
+
+      ![Predecessors section of task](assets/predecessors-area-with-task-header.png)
 
 * Go to the project you are working on and do the following:
 

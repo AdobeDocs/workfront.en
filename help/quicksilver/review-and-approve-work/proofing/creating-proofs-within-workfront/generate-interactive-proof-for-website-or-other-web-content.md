@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Create an interactive proof for a website or other web content
 description: You can generate a new interactive proof or a new version of an existing interactive proof for web content. This can be a website or other kinds of interactive content such as ads with streaming video or audio, HTML animations, and interactive banners.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

@@ -5,6 +5,7 @@ product-area: workfront-integrations
 navigation-topic: functions
 title: Math functions in Adobe Workfront Fusion
 description: The following math functions are available in the Adobe Workfront Fusion mapping panel.
+author: Becky
 feature: Workfront Fusion
 ---
 

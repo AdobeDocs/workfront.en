@@ -4,6 +4,7 @@ product-area: agile-and-teams
 navigation-topic: agile
 title: Tips, tricks, and troubleshooting for agile
 description: Review these article for troubleshooting tips on agile.
+author: Lisa
 feature: Agile
 ---
 # Tips, tricks, and troubleshooting for agile

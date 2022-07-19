@@ -4,6 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: merge information from multiple columns in one shared column"
 description: You can merge the information that displays in multiple separate columns and display it in one shared column.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

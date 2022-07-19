@@ -6,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: AWS S3 modules
 description: The Adobe Workfront Fusion AWS S3 modules let you perform operations on your S3 buckets.
+author: Becky
 feature: Workfront Fusion
 ---
 

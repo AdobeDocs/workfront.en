@@ -3,6 +3,7 @@ product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
 title: Add stages and users to an Automated Workflow on a proof
 description: If you are the proof owner, you can add stages to an existing Automated Workflow.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

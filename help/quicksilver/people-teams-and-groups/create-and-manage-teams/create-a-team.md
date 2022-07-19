@@ -3,6 +3,7 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Create a team
 description: When you create a team you become the Team Owner, by default.
+author: Lisa
 feature: "People Teams and Groups"
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: 21.3 Resource Management enhancements
 description: 21.3 Resource Management enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
 ---

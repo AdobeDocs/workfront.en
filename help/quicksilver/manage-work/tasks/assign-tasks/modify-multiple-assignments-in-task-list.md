@@ -3,6 +3,7 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Modify multiple user assignments in a task list
 description: Modify multiple user assignments in a task list
+author: Alina
 feature: Work Management
 ---
 

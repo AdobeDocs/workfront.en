@@ -6,6 +6,7 @@ product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Figma modules
 description: With the Adobe Workfront Fusion Figma modules, you can retrieve lists of comments, files, file versions, or projects. You can also post a comment or make a call to the Figma API.
+author: Becky
 ---
 
 # Figma Modules

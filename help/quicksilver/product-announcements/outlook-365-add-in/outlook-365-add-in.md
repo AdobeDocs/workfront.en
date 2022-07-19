@@ -4,6 +4,7 @@ content-type: release-notes
 navigation-topic: announcements
 title: Outlook 365 Add-In
 description: This section contains the following articles - EDIT ME.
+author: Luke
 ---
 
 # Outlook 365 Add-In

@@ -1,6 +1,7 @@
 ---
 title: Authorize the Zoom integration
 description: Authorize the Zoom integration
+author: Becky
 draft: Probably
 feature: Workfront Integrations and Apps
 ---

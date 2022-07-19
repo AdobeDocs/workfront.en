@@ -5,6 +5,7 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Blueprints overview
 description: Blueprints provide basic building blocks to help you create a work management system that grows with you.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 ---

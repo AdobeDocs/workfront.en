@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion templates FAQs
 description: This article addresses common questions about Adobe Workfront Fusion scenario templates.
+author: Becky
 feature: Workfront Fusion
 ---
 

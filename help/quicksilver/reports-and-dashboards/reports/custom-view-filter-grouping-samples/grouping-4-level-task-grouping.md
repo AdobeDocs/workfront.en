@@ -4,6 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Grouping: 4-level task grouping for Portfolio Owner, Program Owner, Project Owner, and Project Status"
 description: This task Grouping provides 4 levels of Grouping. In this case, tasks are grouped by Portfolio Owner, Program Owner, Project Owner, and Project Status. You can only have up to 3 levels of Grouping using the standard interface. To add a fourth level, you must use Text Mode. You cannot group reports by more than 4 criteria at the same time.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

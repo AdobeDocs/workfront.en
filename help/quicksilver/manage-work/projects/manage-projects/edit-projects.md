@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: manage-projects
 title: Edit projects
 description: Edit projects
+author: Alina
 feature: Work Management
 ---
 

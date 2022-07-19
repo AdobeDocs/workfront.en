@@ -4,6 +4,7 @@ content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
 description: Enhanced analytics is a powerful tool in Adobe Workfront with prebuilt visualizations that allows you to look at project data and identify trends with planning and completion. This insight into your projects helps you manage your current work and enables you to plan more accurately for future work.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

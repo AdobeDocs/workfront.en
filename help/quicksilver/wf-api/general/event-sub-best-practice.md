@@ -3,6 +3,7 @@ content-type: api
 navigation-topic: general-api
 title: Event subscription best practices
 description: Adobe Workfront Event Subscription messages automatically send from Workfront after you have correctly configured your service and created an Event Subscription to trigger those message deliveries. To learn more about properly setting up Event Subscriptions, see Event Subscription delivery requirements.
+author: John
 feature: Workfront API
 ---
 

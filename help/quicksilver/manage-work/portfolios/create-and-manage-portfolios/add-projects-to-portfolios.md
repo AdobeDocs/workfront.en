@@ -3,6 +3,7 @@ product-area: portfolios;projects
 navigation-topic: create-and-manage-portfolios
 title: Add projects to a portfolio
 description: We recommend that you add projects to portfolios when you initiate them. However, you can add them to a portfolio at any time during their lifetime.
+author: Alina
 feature: "Work Management, Strategic Planning"
 ---
 

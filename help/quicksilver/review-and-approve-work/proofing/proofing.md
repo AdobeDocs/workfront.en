@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: documents-navigation-topic
 title: Proofing
 description: This section contains the following subsections - EDIT ME.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

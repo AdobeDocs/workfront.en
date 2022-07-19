@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: manage-issues
 title: Modify user assignments for multiple issues in a list
 description: Modify user assignments for multiple issues in a list
+author: Alina
 feature: Work Management
 ---
 

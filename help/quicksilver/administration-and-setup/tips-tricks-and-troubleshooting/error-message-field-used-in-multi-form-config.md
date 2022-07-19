@@ -5,6 +5,7 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Error message: There is a slight problem. That field is used in a multi-form configuration"
 description: When you change a calculation in a calculated custom field on a custom form and an error message tells you that the field is used in a multi-form configuration, you need to replace the field with a new field containing the calculation you want to use.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

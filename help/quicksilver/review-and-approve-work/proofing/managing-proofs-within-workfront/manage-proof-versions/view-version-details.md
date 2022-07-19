@@ -1,6 +1,7 @@
 ---
 title: View and manage proof version details
 description: View and manage proof version details
+author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 ---

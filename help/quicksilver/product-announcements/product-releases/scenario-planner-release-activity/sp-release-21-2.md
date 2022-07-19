@@ -5,6 +5,7 @@ product-area: enterprise-scenario-planner-product-area
 navigation-topic: scenario-planner-release-activity
 title: Adobe Workfront Scenario Planner with the 21.2 release
 description: Adobe Workfront Scenario Planner is available only with the new Adobe Workfront experience.
+author: Luke
 feature: "Product Announcements, Workfront Scenario Planner"
 ---
 

@@ -4,6 +4,7 @@ product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: Configure Workfront Proof emails to avoid spam filters
 description: "Your email client's spam filter serves an important purpose: protecting you from annoying and possibly malicious spam emails. But, if you don't have the correct settings in the spam filter, it can keep you from seeing the following important Workfront Proof emails: proof email notifications, newsletters, and special communications."
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

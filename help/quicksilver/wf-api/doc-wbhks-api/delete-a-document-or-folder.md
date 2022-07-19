@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Delete a document or folder (Not yet implemented)
 description: "Note: The release date for this feature is yet to be determined."
+author: John
 feature: "Workfront API, Digital Content and Documents"
 ---
 

@@ -5,6 +5,7 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: The Adobe Workfront Custom Refresh Sandbox environment
 description: The Custom Refresh Sandbox is an environment where you can test and work using data from your production environment. It's also ideal for running trainings and determining setup functionality.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

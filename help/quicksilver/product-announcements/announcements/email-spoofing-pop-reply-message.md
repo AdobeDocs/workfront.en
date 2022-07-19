@@ -3,6 +3,7 @@ content-type: reference
 navigation-topic: announcements
 title: Email spoofing and POP reply removal
 description: We are making two changes to the way Adobe Workfront sends and receives email with the 20.3 release (targeted August 2020).
+author: Luke
 feature: Product Announcements
 ---
 

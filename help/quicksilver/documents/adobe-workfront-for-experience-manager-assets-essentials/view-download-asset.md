@@ -3,6 +3,7 @@ product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: View or download a linked asset from Experience Manager Assets Essentials
 description: You can view or download an asset in Adobe Workfront that is linked from Experience Manager Assets Essentials.
+author: Courtney
 feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---
 

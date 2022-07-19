@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-proof-deadlines
 title: Set a deadline for an existing basic proof
 description: You can set a single deadline for a basic proof after it's been created.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

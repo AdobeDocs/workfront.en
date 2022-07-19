@@ -4,6 +4,7 @@ product-area: resource-management
 navigation-topic: resource-management-overview
 title: Get started with Resource Management
 description: Get started with Resource Management
+author: Alina
 feature: Resource Management
 ---
 

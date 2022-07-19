@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: financials
 title: Understand Budgeted Labor Cost and Budgeted Hours for projects
 description: Understand Budgeted Labor Cost and Budgeted Hours for projects
+author: Alina
 feature: Work Management
 ---
 

@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: plan-a-project
 title: Update project owners and sponsors
 description: When you create a project in Adobe Workfront, you are automatically set as the Project Owner of the project. You can update this field with another user. You can also update the Project Sponsor field of a project.
+author: Alina
 feature: Work Management
 ---
 

@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: review-a-proof
 title: Measure an area within a proof
 description: You can measure an area within a proof.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

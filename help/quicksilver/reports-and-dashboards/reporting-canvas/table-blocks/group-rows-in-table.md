@@ -1,6 +1,7 @@
 ---
 title: Group table rows in Reporting Canvas
 description: Group table rows in Reporting Canvas
+author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 ---

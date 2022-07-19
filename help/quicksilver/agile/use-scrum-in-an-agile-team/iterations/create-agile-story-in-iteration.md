@@ -3,6 +3,7 @@ product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Create an agile story in an iteration
 description: This article describes how to create a new agile story when you are already in the iteration.
+author: Lisa
 feature: Agile
 ---
 

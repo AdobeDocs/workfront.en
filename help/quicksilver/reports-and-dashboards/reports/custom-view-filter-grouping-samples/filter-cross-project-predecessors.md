@@ -4,6 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Filter: display incomplete cross-project predecessors"
 description: This task filter returns incomplete cross-project predecessors.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

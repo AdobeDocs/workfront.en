@@ -3,6 +3,7 @@ product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: Manage Adobe Workfront notifications in Microsoft Teams
 description: You can receive notifications from Adobe Workfront about items you need to approve, assignments you've been given, or comments and changes to items you're associated with.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

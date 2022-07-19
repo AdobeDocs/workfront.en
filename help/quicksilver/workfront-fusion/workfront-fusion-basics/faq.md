@@ -5,6 +5,7 @@ product-area: workfront-integrations
 navigation-topic: workfront-fusion-basics
 title: Adobe Workfront Fusion FAQ
 description: This article addresses common questions related to Adobe Workfront Fusion, including information about object commonly used in Fusion workflows
+author: Becky
 feature: Workfront Fusion
 ---
 

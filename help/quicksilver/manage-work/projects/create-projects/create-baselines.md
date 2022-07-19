@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: create-projects
 title: Create project baselines
 description: A baseline is a project snapshot that represents key pieces of information included in the initial project plan or at any given time during the life of the project.
+author: Alina
 feature: Work Management
 ---
 

@@ -4,6 +4,7 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Create a schedule
 description: You can define your users' work weeks by using schedules. You can associate a schedule with a user or a project. This allows Workfront to calculate timelines and user availability.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

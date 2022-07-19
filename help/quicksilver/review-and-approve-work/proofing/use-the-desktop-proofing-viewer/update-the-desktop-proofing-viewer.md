@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
 title: Update the Desktop Proofing Viewer
 description: Occasionally, new software updates containing improvements and bug fixes become available for the Desktop Proofing Viewer. Users can run these updates without the help of an Adobe Workfront administrator.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

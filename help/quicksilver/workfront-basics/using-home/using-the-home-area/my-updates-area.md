@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Use the My Updates area
 description: Use the My Updates areaMy Work" folder that is conditioned for Classic only)"
+author: Lisa
 feature: Get Started with Workfront
 ---
 

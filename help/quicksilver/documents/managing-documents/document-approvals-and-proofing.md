@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: manage-documents
 title: Document approvals and proofing
 description: You can ask users to approve a document you upload to Workfront. For information, see Request document approvals.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

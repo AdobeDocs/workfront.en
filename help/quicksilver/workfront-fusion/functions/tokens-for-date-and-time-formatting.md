@@ -5,6 +5,7 @@ product-area: workfront-integrations
 navigation-topic: functions
 title: Tokens for date and time formatting in Adobe Workfront Fusion
 description: The following tokens for date and time formatting are available in the Adobe Workfront Fusion mapping panel.
+author: Becky
 feature: Workfront Fusion
 ---
 

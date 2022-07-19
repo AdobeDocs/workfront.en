@@ -4,6 +4,7 @@ product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: Close your Workfront Proof account
 description: After completing the steps in this section, your account will be closed immediately. All data in your account will be deleted and cannot be restored.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

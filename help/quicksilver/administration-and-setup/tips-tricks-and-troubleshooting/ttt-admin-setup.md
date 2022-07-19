@@ -5,6 +5,7 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Tips, tricks, and troubleshooting for administration and setup
 description: Find miscellaneous helps for administrating your organization's Workfront system in this section.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---
