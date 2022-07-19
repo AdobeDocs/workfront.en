@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: financials
 title: Override Project-Level Billing Rates with Company-Level Billing Rates
 description: Override Project-Level Billing Rates with Company-Level Billing Rates
+author: Alina
 feature: Work Management
 ---
 

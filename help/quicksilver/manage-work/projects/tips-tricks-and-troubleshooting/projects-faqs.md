@@ -1,6 +1,7 @@
 ---
 title: Projects FAQs
 description: Projects FAQs
+author: Alina
 draft: Probably
 feature: Work Management
 ---

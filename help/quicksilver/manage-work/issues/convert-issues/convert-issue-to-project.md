@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: convert-issues
 title: Convert an issue to a project in Adobe Workfront
 description: Convert an issue to a project in Adobe Workfront
+author: Alina
 feature: Work Management
 ---
 

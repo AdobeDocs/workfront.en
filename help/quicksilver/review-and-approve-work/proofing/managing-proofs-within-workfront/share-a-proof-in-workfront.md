@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Share a proof within Adobe Workfront
 description: You can share a proofed document within Adobe Workfront by sharing the document or by adding users to the proof.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

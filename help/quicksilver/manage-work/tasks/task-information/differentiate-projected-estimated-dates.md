@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: task-information
 title: Differentiate between Projected and Estimated Dates
 description: There are several types of dates that show the timeline of tasks between when they can start and when they can complete.
+author: Alina
 feature: Work Management
 ---
 

@@ -4,6 +4,7 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Agile overview
 description: Agile is a work methodology that allows teams to complete small, manageable amounts of work at a consistent cadence. In agile, teams manage stories on a backlog or story board and not tasks in a project. Adobe Workfront provides tools that help teams work in an agile way.
+author: Lisa
 feature: Agile
 ---
 

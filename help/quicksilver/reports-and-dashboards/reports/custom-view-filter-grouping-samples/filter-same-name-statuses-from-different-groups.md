@@ -4,6 +4,7 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Filter: display items by same-name statuses when the statuses are associated with different groups"
 description: You can have a task status assigned to Group A named New Status with the 3-letter key NST. You may have another task status assigned to Group B also named New Status with the 3-letter key NES. Although the names for the 2 statuses can be identical, the 3-letter code is always unique. For more information about group statuses, see Create or edit a group status.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

@@ -4,6 +4,7 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Lock or unlock project preferences for all groups in the system
 description: Groups in your organization might need a project preference configured differently for their unique workflows. You can unlock the preference for all groups throughout the organization so that they can configure it on their own.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

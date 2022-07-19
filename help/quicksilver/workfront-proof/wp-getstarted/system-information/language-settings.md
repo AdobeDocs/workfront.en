@@ -5,6 +5,7 @@ product-area: documents;system-administration
 navigation-topic: system-information
 title: Language Settings in Workfront Proof
 description: As a Workfront Proof administrator, you can choose the language to be used in Workfront Proof for all the users in your account.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

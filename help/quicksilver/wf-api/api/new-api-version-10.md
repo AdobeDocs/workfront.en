@@ -3,6 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: What's New in API Version 10
 description: Updated Resources
+author: John
 feature: Workfront API
 ---
 

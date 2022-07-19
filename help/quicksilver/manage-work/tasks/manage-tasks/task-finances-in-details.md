@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: manage-tasks
 title: Manage task finances in the Task Details section
 description: Manage task finances in the Task Details section
+author: Alina
 feature: Work Management
 ---
 

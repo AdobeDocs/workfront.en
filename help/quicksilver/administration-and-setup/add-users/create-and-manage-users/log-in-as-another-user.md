@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: As the Adobe Workfront administrator, sometimes you might need to access Workfront on behalf of another user.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

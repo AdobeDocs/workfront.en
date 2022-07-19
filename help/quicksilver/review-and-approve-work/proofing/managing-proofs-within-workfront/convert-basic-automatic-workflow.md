@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Convert a basic workflow to an Automated Workflow on a proof
 description: If you are the proof owner, you can convert the basic workflow on an existing proof to an Automated Workflow.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

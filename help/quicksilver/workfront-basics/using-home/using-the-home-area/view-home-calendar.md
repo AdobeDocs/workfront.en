@@ -3,6 +3,7 @@ product-area: calendars
 navigation-topic: use-the-home-area
 title: View the Home Calendar
 description: You can use the Calendar view in Adobe Workfront Home to manage all your assigned work items in one place. Your Home Calendar view is visible only to you, and only you can manage your Home Calendar.
+author: Lisa
 feature: Get Started with Workfront
 ---
 

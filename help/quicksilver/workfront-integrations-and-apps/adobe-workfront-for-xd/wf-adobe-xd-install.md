@@ -3,6 +3,7 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
 title: Install Workfront for Adobe XD
 description: You can install the Workfront for Adobe XD plugin from the Adobe Marketplace.
+author: Courtney
 feature: "Workfront Integrations and Apps, Digital Content and Documents"
 ---
 

@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: financials
 title: Overview of project Planned Benefit
 description: The Planned Benefit is the estimated amount of money that an organization might benefit from if a project is completed.
+author: Alina
 feature: Work Management
 ---
 

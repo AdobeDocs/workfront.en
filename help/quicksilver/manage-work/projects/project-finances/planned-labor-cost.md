@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: financials
 title: Calculate Planned Labor Cost
 description: As you plan the work on your projects, Adobe Workfront calculates the Planned Labor Cost for the roles and users assigned to this work based on their Cost Per Hour values.
+author: Alina
 feature: Work Management
 ---
 

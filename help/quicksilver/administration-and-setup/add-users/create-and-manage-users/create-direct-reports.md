@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: You can designate users as direct reports to another user. This allows you to create an organization chart that displays the management structure of your organization. For more information, see View the organizational chart.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

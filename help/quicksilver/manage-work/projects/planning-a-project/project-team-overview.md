@@ -4,6 +4,7 @@ product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Project Team overview
 description: Project Team overview
+author: Alina
 feature: Work Management
 ---
 

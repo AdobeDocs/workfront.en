@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: financials
 title: Project finances fields
 description: Keeping track of project finances is critical to managing your projects.
+author: Alina
 feature: Work Management
 ---
 

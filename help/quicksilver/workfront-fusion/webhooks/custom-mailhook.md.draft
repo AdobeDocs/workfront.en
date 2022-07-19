@@ -6,6 +6,7 @@ product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Create a custom mailhook
 description: Yo a mailhook that monitors your arriving emails without the need to have a scheduled run.
+author: Becky
 hidefromtoc: true
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: View and manage a group's details
 description: View and manage a group's details
+author: Caroline
 draft: Probably
 feature: "System Setup and Administration, People Teams and Groups"
 role: Admin

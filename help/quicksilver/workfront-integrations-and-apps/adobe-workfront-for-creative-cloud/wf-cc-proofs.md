@@ -3,6 +3,7 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Upload proofs from Adobe Photoshop
 description: You can upload your art boards as proofs directly to Adobe Workfront for a thorough review and approval.
+author: Courtney
 feature: "Workfront Integrations and Apps, Digital Content and Documents"
 ---
 

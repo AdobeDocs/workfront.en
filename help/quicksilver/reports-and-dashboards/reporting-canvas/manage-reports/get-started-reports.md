@@ -1,6 +1,7 @@
 ---
 title: Get started with Reporting Canvas
 description: Get started with Reporting Canvas
+author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 ---

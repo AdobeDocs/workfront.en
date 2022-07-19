@@ -5,6 +5,7 @@ product-area: documents
 navigation-topic: review-proofs-desktop-proofing-viewer
 title: Understand the Desktop Proofing Viewer
 description: The Desktop Proofing Viewer is designed for proofing interactive content, but you can also use it to proof static and video content.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

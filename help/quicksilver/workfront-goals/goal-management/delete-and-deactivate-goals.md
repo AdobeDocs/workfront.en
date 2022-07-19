@@ -3,6 +3,7 @@ product-previous: workfront-goals
 navigation-topic: old-workfront-goals-articles
 title: Delete and deactivate goals in Adobe Workfront Goals
 description: When you start working on a goal and it becomes irrelevant in your organization, we recommend deactivating it, instead of deleting it. Deactivating a goal keeps its historical information and gives you a chance to reactivate it at a later time. There are times, however, when deleting a goal might make sense, to keep your goal list accurate.
+author: Alina
 feature: Workfront Goals
 ---
 

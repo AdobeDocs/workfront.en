@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: manage-projects
 title: Change the status of a project
 description: You can manually change the status of a project.
+author: Alina
 feature: Work Management
 ---
 

@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Modify column width and order
 description: Review this article to learn about column width guidelines and how to chang the column width and order in Workfront.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

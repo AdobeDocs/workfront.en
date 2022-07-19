@@ -3,6 +3,7 @@ product-area: workfront-integrations
 navigation-topic: workfront-for-slack
 title: Search for Adobe Workfront items from Slack
 description: You can search for Adobe Workfront items from Slack, if your instance of Slack has had the Workfront app installed.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

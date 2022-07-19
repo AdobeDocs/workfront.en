@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: use-the-gantt-chart
 title: Level Resources in the Gantt Chart
 description: Leveling your resources on a project has two purposes - EDIT ME.
+author: Alina
 feature: Work Management
 ---
 

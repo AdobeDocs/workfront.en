@@ -4,6 +4,7 @@ product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
 title: View the Project treemap visualization in Enhanced analytics
 description: The Project treemap visualization is a view of hours—or days—that have been worked in a specific window of time compared against other work efforts in size. This helps you understand how much time people have dedicated to a project.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

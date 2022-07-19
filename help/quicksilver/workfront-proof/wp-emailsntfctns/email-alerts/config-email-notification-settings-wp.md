@@ -4,6 +4,7 @@ product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: Configure email notification settings in Workfront Proof
 description: Email notifications inform collaborators about recent activity on proofs, such as comments, replies, decisions.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

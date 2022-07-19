@@ -5,6 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Error: Auto-provisioned user can't log in"
 description: If an auto-provisioned user tries to log in for the first time and receives an error saying that the system is not assigning them an access level, this might be because your system lacks access levels that are associated with the Request license. Auto-provisioning uses the Request license type, so you can fix this problem by creating an access level that is associated with a Request license.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

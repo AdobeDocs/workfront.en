@@ -5,6 +5,7 @@ product-area: documents
 navigation-topic: workfront-proof-mobile-apps
 title: Workfront Proof mobile app for tablets
 description: The Workfront Proof tablet app lets you conveniently review and approve your proofs when you're on the go. The app is available for download for everyone, you don't have to be a Workfront Proof user to be able to review proofs on your tablet or your phone.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

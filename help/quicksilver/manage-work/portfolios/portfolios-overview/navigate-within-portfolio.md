@@ -3,6 +3,7 @@ product-area: portfolios
 navigation-topic: portfolios-overview
 title: Navigate within a portfolio
 description: Navigate within a portfolio
+author: Alina
 feature: "Work Management, Strategic Planning"
 ---
 

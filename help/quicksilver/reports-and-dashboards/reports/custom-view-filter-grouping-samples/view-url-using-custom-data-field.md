@@ -4,6 +4,7 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: external URL using custom data field"
 description: You can display a link to an internal custom URL by using a Calculated Custom Field named "Custom URL" in a Task View.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

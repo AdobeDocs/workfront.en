@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Archive in Workfront Proof
 description: Workfront Proof archives proofs after a period of 60 days of inactivity.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

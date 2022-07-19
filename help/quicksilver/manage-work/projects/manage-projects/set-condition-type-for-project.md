@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: manage-projects
 title: Set the Condition Type of a project
 description: As a project manager, you can determine how the Condition of a project is calculated by updating the Condition Type of the project. The project Condition is a visual representation of how the project is progressing.
+author: Alina
 feature: Work Management
 ---
 

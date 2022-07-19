@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Manage automated proofs
 description: View Automated Workflow stages on a proof
+author: Courtney
 feature: Digital Content and Documents
 ---
 

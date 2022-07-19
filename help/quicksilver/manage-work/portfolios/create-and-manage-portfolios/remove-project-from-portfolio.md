@@ -3,6 +3,7 @@ product-area: portfolios;projects
 navigation-topic: create-and-manage-portfolios
 title: Remove a project from a portfolio
 description: You can remove a project from a portfolio and associate it with a different portfolio or you can completely remove the association between a project and a portfolio.
+author: Alina
 feature: "Work Management, Strategic Planning"
 ---
 

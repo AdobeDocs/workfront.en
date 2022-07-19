@@ -5,6 +5,7 @@ product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Understand Folder Permissions in Workfront Proof
 description: If a person has permission to see an item in a folder, they can also see the folder itself. However, they can see only the items in the folder that have been explicitly shared with them.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

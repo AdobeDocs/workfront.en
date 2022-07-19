@@ -1,6 +1,7 @@
 ---
 title: Tips, tricks, and troubleshooting for projects
 description: Tips, tricks, and troubleshooting for projects
+author: Alina
 draft: Probably
 feature: Work Management
 ---

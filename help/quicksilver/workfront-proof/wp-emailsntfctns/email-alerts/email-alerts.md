@@ -5,6 +5,7 @@ product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
 title: Email alerts
 description: This section contains the following articles - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

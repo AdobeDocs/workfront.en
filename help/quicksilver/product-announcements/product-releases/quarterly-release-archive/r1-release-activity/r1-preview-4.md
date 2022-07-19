@@ -3,6 +3,7 @@ content-type: release-notes
 navigation-topic: product-releases-archive
 title: R1 Preview 4
 description: This page describes all changes available in the Preview environment with the R1.4 release. The functionality on this page was made available in the Preview environment on February 15, 2017.
+author: Luke
 feature: Product Announcements
 ---
 

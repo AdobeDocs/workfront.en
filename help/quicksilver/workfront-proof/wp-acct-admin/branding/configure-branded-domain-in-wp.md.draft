@@ -5,6 +5,7 @@ product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
 title: Configure a branded domain in Workfront Proof
 description: All Workfront Proof plans allow you to configure a branded sub-domain on your account. This means that you can customize your account URL to include your brand name.
+author: Courtney
 hidefromtoc: true
 ---
 

@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Update work items in the Workload Balancer using the Summary
 description: Update work items in the Workload Balancer using the Summary
+author: Alina
 feature: Resource Management
 ---
 

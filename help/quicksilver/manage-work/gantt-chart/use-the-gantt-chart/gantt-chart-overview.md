@@ -3,6 +3,7 @@ content-type: overview
 navigation-topic: gantt-chart
 title: Gantt Chart overview
 description: This section contains the following articles - EDIT ME.
+author: Alina
 feature: Work Management
 ---
 

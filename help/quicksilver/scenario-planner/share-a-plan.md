@@ -4,6 +4,7 @@ keywords: plan,permissions,share,initiatives,scenarios,scenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Share a plan in the Scenario Planner
 description: You can share a plan that you created in the Adobe Workfront Scenario Planner with other users.
+author: Alina
 feature: Workfront Scenario Planner
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Configure a bubble visualization in the Reporting Canvas
 description: Configure a bubble visualization in the Reporting Canvas
+author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 ---

@@ -5,6 +5,7 @@ product-area: documents;system-administration;user-
 navigation-topic: manage-security-workfront-proof
 title: Single Sign-On in Workfront Proof
 description: An Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see Workfront Plans.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

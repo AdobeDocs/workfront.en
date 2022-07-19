@@ -4,6 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: multi-row project View"
 description: In this project view you can - EDIT ME.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

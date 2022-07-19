@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Remove filters, views, and groupings
 description: You can remove a filter, view, or grouping from lists and reports if you created them or they have been shared with you. You cannot remove default filters, views, or groupings.
+author: Lisa
 feature: Reports and Dashboards
 ---
 

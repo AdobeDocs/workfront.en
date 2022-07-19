@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: task-duration
 title: "Duration Type overview: Effort Driven"
 description: Effort Driven is a duration type that you can set for a task in Adobe Workfront. For general information about Duration Types in Workfront, see Overview of Task Duration and Duration Type.
+author: Alina
 feature: Work Management
 ---
 

@@ -4,6 +4,7 @@ content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 description: Your Adobe Workfront administrator grants users access to view or edit documents when they assign access levels, as explained in Grant access to documents.
+author: Alina
 feature: Get Started with Workfront
 ---
 

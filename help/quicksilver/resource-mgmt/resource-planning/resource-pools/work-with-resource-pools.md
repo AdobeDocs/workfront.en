@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Resource pools overview
 description: Resource pools overview
+author: Alina
 feature: Resource Management
 ---
 

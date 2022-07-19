@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Compare proofs in the proofing viewer
 description: You can view side-by-side comparisons of two proofs. These can be two versions of the same proof, or two completely separate proofs.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

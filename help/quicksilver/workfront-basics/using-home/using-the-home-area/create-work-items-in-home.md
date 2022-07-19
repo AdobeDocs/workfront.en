@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Create work items from the Home area
 description: Create work items from the Home area
+author: Lisa
 feature: "Get Started with Workfront, Work Management"
 ---
 

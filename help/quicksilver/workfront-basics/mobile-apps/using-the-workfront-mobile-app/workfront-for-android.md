@@ -4,6 +4,7 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront for Android
 description: The Adobe Workfront app allows you to access your work on any Android device. You can install and use the Workfront mobile app on phones and tablets running Android 5.0 or later.
+author: Lisa
 feature: Get Started with Workfront
 ---
 

@@ -4,6 +4,7 @@ keywords: release
 navigation-topic: product-announcements
 title: Adobe Workfront release schedule and process
 description: The Preview environment is updated once a week with new features. These features are communicated in the release notes for the upcoming quarterly release.
+author: Luke
 feature: Product Announcements
 ---
 

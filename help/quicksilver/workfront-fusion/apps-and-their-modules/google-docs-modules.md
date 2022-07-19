@@ -6,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Docs modules
 description: The Adobe Workfront Fusion Google Docs modules enable you to monitor, create, edit and retrieve documents in your Google Docs and Google Shared Drive (for G Suite users).
+author: Becky
 feature: "Workfront Fusion, Digital Content and Documents"
 ---
 

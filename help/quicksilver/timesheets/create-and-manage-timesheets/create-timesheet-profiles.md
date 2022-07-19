@@ -3,6 +3,7 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Create, edit, and assign timesheet profiles
 description: You can create, edit, and assign timesheet profiles that generate recurring timesheets for your users without any further intervention from you. This saves you time and ensures that the following are consistent between users - EDIT ME.
+author: Lisa
 feature: Timesheets
 ---
 

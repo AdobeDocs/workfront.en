@@ -4,6 +4,7 @@ product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Resource Planning in Adobe Workfront
 description: The articles in this section contain information about functionality in the Planner and Resource Pools sections of the Resourcing area of Adobe Workfront.
+author: Alina
 feature: Resource Management
 ---
 

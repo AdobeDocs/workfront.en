@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: manage-tasks
 title: Convert a task to a project
 description: When a task in a project requires a larger amount of effort to complete than you originally planned, you can convert it to a project.
+author: Alina
 feature: Work Management
 ---
 

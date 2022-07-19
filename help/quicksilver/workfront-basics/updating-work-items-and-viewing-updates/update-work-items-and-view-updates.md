@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: get-started-with-workfront
 title: Update work items and view updates
 description: This section contains the following articles - EDIT ME.
+author: Lisa and Alina
 feature: Get Started with Workfront
 ---
 

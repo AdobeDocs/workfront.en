@@ -5,6 +5,7 @@ product-area: workfront-integrations
 navigation-topic: fusion-release-activity
 title: "Workfront Fusion release activity: Week of December 7, 2020"
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of December 7, 2020.
+author: Luke
 feature: "Product Announcements, Workfront Fusion"
 ---
 

@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: financials
 title: Calculate Estimate At Completion (EAC)
 description: Calculate Estimate At Completion (EAC)
+author: Alina
 feature: Work Management
 ---
 

@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: results-and-activities
 title: Get started with results and activities in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+author: Alina
 feature: Workfront Goals
 ---
 

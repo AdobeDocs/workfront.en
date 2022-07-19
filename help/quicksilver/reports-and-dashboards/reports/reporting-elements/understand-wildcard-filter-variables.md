@@ -4,6 +4,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Wildcard filter variables
 description: Wildcard filter variablesoverview/ reference" article for those articles. Consider renaming this when that is allowed.)"
+author: Nolan
 feature: Reports and Dashboards
 ---
 

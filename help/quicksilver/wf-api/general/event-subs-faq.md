@@ -3,6 +3,7 @@ content-type: api;faq
 navigation-topic: general-api
 title: FAQs - Event Subscriptions
 description: FAQs - Event Subscriptions
+author: John
 feature: Workfront API
 ---
 

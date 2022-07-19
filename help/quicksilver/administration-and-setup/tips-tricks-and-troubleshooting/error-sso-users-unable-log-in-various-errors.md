@@ -5,6 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Error: SSO Users are Unable to Log In to Adobe Workfront Due to Various Errors"
 description: When you receive a login error about federated single sign-on, your username/password combination, or your access to Workfront, the problem might be that your Workfront instance uses SSO and you are trying to log in using an incorrect URL. Make sure you're logging in using the correct URL without anything after ".com".
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

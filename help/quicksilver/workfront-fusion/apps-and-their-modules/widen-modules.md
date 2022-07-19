@@ -1,6 +1,7 @@
 ---
 title: Widen modules
 description: Widen modules
+author: Becky
 draft: Probably
 feature: Workfront Fusion
 ---

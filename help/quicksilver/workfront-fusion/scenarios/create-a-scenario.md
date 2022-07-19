@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: Create a scenario in Adobe Workfront Fusion
 description: The following tasks explain how to create a Adobe Workfront Fusion scenario.
+author: Becky
 feature: Workfront Fusion
 ---
 

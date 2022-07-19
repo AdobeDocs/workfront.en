@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: financials
 title: Project finances included in project baselines
 description: Baselines are snapshots of what the performance of a project looked like at a given moment in time. They store key pieces of information about the project, like key dates, progress, cost and revenue values.
+author: Alina
 feature: Work Management
 ---
 

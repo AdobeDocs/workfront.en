@@ -3,6 +3,7 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Create a Request Queue
 description: Create a Request Queue
+author: Alina
 feature: Work Management
 ---
 

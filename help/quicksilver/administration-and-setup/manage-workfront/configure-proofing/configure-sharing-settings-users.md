@@ -4,6 +4,7 @@ product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
 title: Configure sharing settings for your users
 description: As an Adobe Workfront administrator or Workfront Proof administrator, you can configure the user accounts with which proofs can be shared, whether users can see all versions of a proof, and the timing when users gain access to shared items.
+author: Courtney
 feature: "System Setup and Administration, Digital Content and Documents"
 role: Admin
 ---

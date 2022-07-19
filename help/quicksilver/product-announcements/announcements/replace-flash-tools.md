@@ -1,6 +1,7 @@
 ---
 title: Replacement of Flash-based tools in Adobe Workfront
 description: Replacement of Flash-based tools in Adobe Workfront
+author: Luke
 draft: Probably
 feature: Product Announcements
 ---

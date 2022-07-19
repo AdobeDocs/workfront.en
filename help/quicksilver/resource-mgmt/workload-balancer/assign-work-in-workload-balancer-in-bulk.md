@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Assign work in bulk using the Workload Balancer
 description: Assign work in bulk using the Workload Balancer
+author: Alina
 feature: Resource Management
 ---
 

@@ -4,6 +4,7 @@ product-area: setup
 navigation-topic: use-the-gantt-chart
 title: Configure how information displays on the Gantt Chart
 description: You can configure what information displays in both the Task List Gantt Chart and the Project List Gantt Chart.
+author: Alina
 feature: Work Management
 ---
 

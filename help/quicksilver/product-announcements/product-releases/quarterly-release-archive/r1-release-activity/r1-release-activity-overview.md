@@ -3,6 +3,7 @@ content-type: release-notes
 navigation-topic: product-releases-archive
 title: R1 release activity overview
 description: This page provides information about the functionality included in the R1 release.
+author: Luke
 feature: Product Announcements
 ---
 

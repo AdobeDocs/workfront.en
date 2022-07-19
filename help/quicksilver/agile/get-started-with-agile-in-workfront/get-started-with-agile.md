@@ -5,6 +5,7 @@ keywords: agile
 navigation-topic: agile-navigation-topic
 title: Get started with agile in Adobe Workfront
 description: Review these articles to get started with agile in Workfront.
+author: Lisa
 feature: Agile
 ---
 

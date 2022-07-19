@@ -4,6 +4,7 @@ content-type: api;reference
 navigation-topic: api-navigation-topic
 title: API
 description: This section contains the following articles - EDIT ME.
+author: John
 ---
 
 # API

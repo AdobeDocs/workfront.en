@@ -5,6 +5,7 @@ product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Add users to Adobe Workfront Fusion through the Adobe Admin Console
 description: You can add a user to the Adobe Admin Console and assign them to Adobe Workfront Fusion, or assign an existing user in the Adobe Admin Console to Workfront Fusion.
+author: Becky
 feature: Workfront Fusion
 ---
 

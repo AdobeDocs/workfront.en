@@ -3,6 +3,7 @@ product-previous: workfront-goals
 navigation-topic: goal-management
 title: Copy goals in Adobe Workfront Goals
 description: You can copy goals in Adobe Workfront Goals to create a goal. Some of the original goal information transfers to the new goal.
+author: Alina
 feature: Workfront Goals
 ---
 

@@ -4,6 +4,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Groupings overview in Adobe Workfront
 description: Groupings overview in Adobe WorkfrontGroupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)"
+author: Nolan
 feature: Reports and Dashboards
 ---
 

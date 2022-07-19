@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: View and export audit logs
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

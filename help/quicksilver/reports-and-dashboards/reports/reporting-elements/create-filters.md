@@ -2,7 +2,8 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Create or edit filters in Adobe Workfront
-description: You can use filters to reduce the amount of information you display on the screen. Filters display in various areas of Adobe Workfront. The information in this article refers to filters in lists of objects.
+description: Create or edit filters in Adobe Workfront
+author: Lisa
 feature: Reports and Dashboards
 ---
 

@@ -4,6 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: View and manage a group's recently restored items
 description: When you are viewing a group that you manage in the Groups area, you can view, vilter, group, and restore its recently restored work items, documents, and templates.
+author: Caroline
 feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---

@@ -3,6 +3,7 @@ title: Share a task
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: Your Adobe Workfront administrator can grant you access to view or edit tasks when they assign access levels. For more information about granting access to tasks, see Grant access to tasks.
+author: Alina
 feature: Get Started with Workfront
 ---
 

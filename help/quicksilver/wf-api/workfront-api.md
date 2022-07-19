@@ -1,6 +1,7 @@
 ---
 title: Adobe Workfront API
 description: Adobe Workfront API
+author: John
 draft: Probably
 ---
 # Adobe Workfront API

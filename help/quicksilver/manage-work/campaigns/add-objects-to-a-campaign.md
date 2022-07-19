@@ -3,6 +3,7 @@ filename: add-objects-to-a-campaign
 navigation-topic: campaigns
 title: Add objects to a campaign
 description: You can add other objects to a campaign. 
+author: Alina
 ---
 
 # Add objects to a campaign

@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: create-projects
 title: Request a project
 description: You can request a project for approval before you start working on it. This creates a project with a status of Idea. We recommend building a Business Case for your project to outline some of the key points you want to achieve by completing it, as well as to present to your management your labor and expense budget.
+author: Alina
 feature: Work Management
 ---
 

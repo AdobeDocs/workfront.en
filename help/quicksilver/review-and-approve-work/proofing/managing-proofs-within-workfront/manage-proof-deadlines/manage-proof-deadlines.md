@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Manage proof deadlines
 description: Add, edit, or delete a deadline for a stage
+author: Courtney
 feature: Digital Content and Documents
 ---
 

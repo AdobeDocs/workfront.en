@@ -3,6 +3,7 @@ product-area: documents;system-administration;setup
 navigation-topic: manage-proofs-within-workfront
 title: Configure access and subscription settings for a proof
 description: You can configure certain access and subscription settings for individual proofs, such as whether to require users to log in and whether to allow users to subscribe to the proof. You can set up access and subscription settings for a proof while you are creating it, or you can set them up for a proof that already exists in Workfront.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

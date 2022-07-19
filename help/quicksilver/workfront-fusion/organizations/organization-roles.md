@@ -5,6 +5,7 @@ product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Organization roles in Adobe Workfront Fusion
 description: This article includes information about the access and permissions of the roles in Adobe Workfront Fusion.
+author: Becky
 feature: Workfront Fusion
 ---
 

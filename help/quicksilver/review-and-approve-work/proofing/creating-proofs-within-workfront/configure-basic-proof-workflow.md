@@ -3,6 +3,7 @@ product-area: documents;setup
 navigation-topic: create-proofs-within-workfront
 title: Create an advanced proof with a Basic workflow
 description: With a basic workflow, you can several reviewers to a proof, but they are not organized into stages. All of the reviewers you add can access the proof immediately after you create it.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

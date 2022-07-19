@@ -3,6 +3,7 @@ product-previous: workfront-goals
 navigation-topic: goal-management
 title: Review in-trouble goals in Adobe Workfront Goals
 description: Review in-trouble goals in Adobe Workfront Goalsred" used to be called At Risk. Now, it is "in trouble")"
+author: Alina
 feature: Workfront Goals
 ---
 

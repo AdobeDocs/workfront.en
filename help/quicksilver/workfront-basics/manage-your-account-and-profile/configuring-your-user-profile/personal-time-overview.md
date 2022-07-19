@@ -4,6 +4,7 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Configure personal time off in Adobe Workfront
 description: Adobe Workfront is not designed to replicate or replace your existing systems for managing, accruing, and tracking personal time off. However, it is important to indicate when approved time off happens, because this affects your schedule and impacts the Planned Completion Dates of the tasks you are assigned to.
+author: Lisa
 feature: Get Started with Workfront
 ---
 

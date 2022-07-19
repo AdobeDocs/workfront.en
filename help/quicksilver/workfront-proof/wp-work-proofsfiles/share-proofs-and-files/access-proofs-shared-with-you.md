@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: share-proofs-and-files
 title: Access a proof shared with you
 description: When you receive an email about a proof, it contains a personal URL to access the proof. For more information, see New proof email.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

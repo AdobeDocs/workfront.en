@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Use the Milestone view
 description: The Milestone view is available when viewing a project list or project report.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

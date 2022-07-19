@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: As an Adobe Workfront administrator, you can track user-changes triggered in the system during the past 90 days using the audit logs described below.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

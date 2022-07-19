@@ -4,6 +4,7 @@ product-area: dashboards
 navigation-topic: dashboards-navigation-topic
 title: Create and manage dashboards
 description: Review these articles to learn how to create dashboards in Adobe Workfront.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

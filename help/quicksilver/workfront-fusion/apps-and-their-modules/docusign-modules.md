@@ -1,6 +1,7 @@
 ---
 title: DocuSign modules
 description: DocuSign modules
+author: Becky
 draft: Probably
 feature: "Workfront Fusion, Digital Content and Documents"
 ---
