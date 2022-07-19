@@ -92,6 +92,10 @@ The current rate limit is 5 webhooks per second. If the limit is exceeded, 429 s
 
 A webhook that has not been assigned to any scenario for more than 120 hours is removed.
 
+## Webhook payloads
+
+Workfront Fusion stores webhook payloads for 30 days. Accessing a webhook payload more than 30 days after it was created results in the error "Failed to read file from storage."
+
 ## Error handling
 
 When there is an error in your scenario with an instant trigger, the scenario:
