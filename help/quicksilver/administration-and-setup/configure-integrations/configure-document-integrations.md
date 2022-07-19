@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 description: Configure document integrations
+author: Courtney, Caroline
 feature: "System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents"
 role: Admin
 ---

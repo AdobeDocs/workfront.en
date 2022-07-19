@@ -3,7 +3,7 @@ title: View and export audit logs
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: View and export audit logs
+description: You can view all audit logs in the system, or those that meet certain filtering criteria. You can also export audit logs. Audit logs list user-changes triggered in the system during the past 90 days.
 author: Caroline
 feature: System Setup and Administration
 role: Admin

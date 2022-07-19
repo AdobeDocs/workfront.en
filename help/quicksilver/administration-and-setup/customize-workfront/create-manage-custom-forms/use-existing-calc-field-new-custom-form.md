@@ -4,6 +4,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Reuse an existing calculated custom field in a custom form
 description: You can use the same calculated custom field on custom forms that belong to different objects. For example, you can use the Profit calculated field that you created for the project custom form on a task custom form.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---
