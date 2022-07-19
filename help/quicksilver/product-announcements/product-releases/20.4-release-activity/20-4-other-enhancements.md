@@ -19,8 +19,6 @@ In the new Workfront experience, the option Switch to Classic appears in the Mai
 
 In Workfront Classic, the option Switch to the new experience appears in the menu that displays when clicking the profile picture in the top-right corner of the Global Navigation Bar.
 
-For more information, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
-
 [Watch a video demonstration of this feature.](https://vimeo.com/466353836/c1f3faa632)
 
 This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.

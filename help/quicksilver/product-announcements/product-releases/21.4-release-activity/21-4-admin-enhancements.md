@@ -188,8 +188,6 @@ To help you manage layout templates while your users switch to using the new Wor
 
 Previously, only Workfront Customer Support could migrate your layout templates from Workfront Classic to the new Workfront experience.
 
-For more information, see [Migrate your layout templates to the new Adobe Workfront experience](../../../administration-and-setup/customize-workfront/use-layout-templates/migrate-layout-templates-to-nwe.md).
-
 [Watch a video demonstration of this feature.](https://vimeo.com/574937296/eb4fa79f0c)
 
 ## When associating a template with a group, select a group approval process in Queue Details and Queue Topics
