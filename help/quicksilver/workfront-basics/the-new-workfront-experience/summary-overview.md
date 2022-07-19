@@ -1,24 +1,11 @@
 ---
 content-type: overview
-navigation-topic: the-new-workfront-experience
-title: Summary overview in the new Adobe Workfront experience
-description: The Summary allows you to interact with important work item information from the following areas - EDIT ME.
+title: Summary overview
+description: ou can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of Adobe Workfront that display tasks and issues.
 feature: Get Started with Workfront
 ---
 
-# Summary overview in the new Adobe Workfront experience
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Summary allows you to interact with important work item information from the following areas:</p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;from&nbsp;Courtney: May need to rethink this for beta doc depending when Summary will be in Home.)</p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/summary-overview-summary-areas-350x145.png" style="width: 350;height: 145;"> </p>
--->
+# Summary overview
 
 You can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of Adobe Workfront that display tasks and issues.
 

@@ -120,6 +120,6 @@ You can comment only on tasks and issues in a timesheet. You cannot comment on p
 The update displays in the Updates section of the task and issue.
 1. (Optional) Click [!UICONTROL **Close Summary**] to close the Summary panel. 
 
-   For more information about updating tasks and issues in the Summary panel, see [Summary overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   For more information about updating tasks and issues in the Summary panel, see [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 

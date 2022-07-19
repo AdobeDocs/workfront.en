@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Create and manage groups
-description: This section contains the following articles - EDIT ME.
+description:  A Workfront administrator can create groups of users that coincide with your organization's departmental structure. Groups are similar to but distinct from teams and companies.
 feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---

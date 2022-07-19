@@ -75,6 +75,4 @@ The toolbars on the following lists and reports now have a modern look and feel,
 * Project:&nbsp;Hours list
 * Project: People list
 
-For information about the new toolbar in lists throughout Workfront, see [Toolbar for lists in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md).
-
 &nbsp;

@@ -23,19 +23,19 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>View access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong>/td> 
    <td> <p>View permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -58,7 +58,7 @@ When printing a dashboard or saving it as a .PDF file, some information from the
 
 ### What is displayed? {#what-is-displayed}
 
-The following information is included in the printed or exported dashboard file:&nbsp;
+The following information is included in the printed or exported dashboard file:
 
 * Dashboard title
 * Report titles
@@ -68,11 +68,11 @@ The following information is included in the printed or exported dashboard file:
 
 ### What is not displayed? {#what-is-not-displayed}
 
-The following information is not included in the printed or exported dashboard file:&nbsp;
+The following information is not included in the printed or exported dashboard file:
 
 * The Workfront navigation bar
 * Any other formatting that is specific to Workfront
-* Depending on the size of your reports and the number and width of individual columns, exporting and printing a dashboard might&nbsp;result in some columns being cut off.
+* Depending on the size of your reports and the number and width of individual columns, exporting and printing a dashboard might result in some columns being cut off.
 
 ## Print a dashboard
 
@@ -85,13 +85,8 @@ The following information is not included in the printed or exported dashboard f
 
      >[!TIP]
      >
-     >
-     >   
-     >   
-     >   * The Dashboard Actions link is not available when the dashboard is embedded in a custom tab. For information about creating custom tabs, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md). 
-     >   * The keyboard shortcut option is not available when using the Internet Explorer browser.
-     >   
-     >
+     >* The Dashboard Actions link is not available when the dashboard is embedded in a custom tab. For information about creating custom tabs, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md). 
+     >* The keyboard shortcut option is not available when using the Internet Explorer browser.
 
 1. In the **Destination** field, select from the various printing options available.  
    The printing options vary depending on the browser and browser version you use.

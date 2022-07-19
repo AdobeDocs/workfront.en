@@ -3,7 +3,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Reporting basics
-description: This section contains the following articles - EDIT ME.
+description: Review these articles to understand reporting basics in Adobe Workfront.
 feature: Reports and Dashboards
 ---
 

@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: Get started with Adobe Workfront administration
-description: This section contains the following articles - EDIT ME.
+description: You can configure the Workfront system defaults, timesheets and schedules, organizational setup, system-tracked update information, and testing environments for your organizationl
 feature: System Setup and Administration
 role: Admin
 ---

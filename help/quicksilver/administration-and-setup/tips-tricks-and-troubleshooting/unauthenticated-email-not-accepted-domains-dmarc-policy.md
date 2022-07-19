@@ -3,8 +3,8 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Unauthenticated email is not accepted due to domain's DMARC policy
-description: Test - I received the following bounce back email - EDIT ME.
+title: When an authenticated email is not accepted due to domain's DMARC policy
+description: If an email sent from the Workfront system is not accepted due to domain's DMARC policy, your email administrator can fix the problem by configuring your email system to allow all email from workfront.com.
 feature: System Setup and Administration
 role: Admin
 ---
@@ -23,7 +23,7 @@ role: Admin
 
 ## Solution
 
-DMARC is configured in your company's email system and is not part of Adobe Workfront. If you receive&nbsp;this email, you need to contact your email administrator.
+DMARC is configured in your company's email system and is not part of Adobe Workfront. If you receive this email, you need to contact your email administrator.
 
 Your email administrator should configure your email system to allow/trust email from noreply@workfront.com or preferably all email from workfront.com.
 

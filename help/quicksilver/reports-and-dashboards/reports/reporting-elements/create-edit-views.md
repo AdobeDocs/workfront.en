@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 
 # Create or edit views in Adobe Workfront
 
-You can customize the type of information you display on the screen using views. You can use several types of views in&nbsp;Adobe Workfront.
+You can customize the type of information you display on the screen using views. You can use several types of views in Adobe Workfront.
 
 This article describes how to create and edit standard views for lists and reports, and how to create Agile views. For more information, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
