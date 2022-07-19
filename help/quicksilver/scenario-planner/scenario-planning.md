@@ -4,6 +4,7 @@ product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Adobe Workfront Scenario Planner
 description: This section contains the following articles - EDIT ME.
+author: Alina
 feature: Workfront Scenario Planner
 ---
 

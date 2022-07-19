@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: financials
 title: Track costs
 description: You can track costs for projects, tasks, and issues in Adobe Workfront.
+author: Alina
 feature: Work Management
 ---
 

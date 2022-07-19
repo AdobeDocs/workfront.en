@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: Create scenarios with Adobe Workfront Fusion templates
 description: Adobe Workfront FusionTemplates feature allow you to create and use existing templates as a starting point for your Workfront Fusion scenarios.
+author: Becky
 feature: Workfront Fusion
 ---
 

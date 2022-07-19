@@ -1,6 +1,7 @@
 ---
 title: Grant a user full administrative access
 description: Grant a user full administrative access
+author: Caroline
 draft: Probably
 feature: System Setup and Administration
 role: Admin

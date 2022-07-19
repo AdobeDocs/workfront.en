@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Mark an item as Done in the Home area
 description: You can mark a task or issue as Done if you are the task or issue assignee. When you mark a task or issue as Done, the status of the task or issue is changed to Complete.
+author: Lisa
 feature: "Get Started with Workfront, Work Management"
 ---
 

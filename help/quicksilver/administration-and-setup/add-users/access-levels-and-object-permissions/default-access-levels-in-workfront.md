@@ -6,6 +6,7 @@ keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
 title: Built-in access levels in Adobe Workfront
 description: Each of the six built-in access levels is designed for a particular type of user, including System Administrator, Planner, Worker, Reviewer, Requestor, and External User. These access levels let you control what users can edit and view in the system. If you need a custom access level, you can copy e built-in access level and determine the amount of access you want it to allow for the various Workfront object types.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

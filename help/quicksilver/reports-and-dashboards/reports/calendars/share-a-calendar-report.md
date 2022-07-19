@@ -3,6 +3,7 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Share a calendar report
 description: You can share a calendar with other users and you can make it available publicly, allowing someone without an Adobe Workfront license to view it.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

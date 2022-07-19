@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: betas
 title: Oracle Eloqua Workfront Proof Add-In Beta
 description: The Oracle Eloqua Workfront Proof Add-In enables you to generate proofs for emails you create within Eloqua. You can create new proofs, new versions of existing proofs, and view the status of proofs you submit, without leaving the Eloqua interface. Workfront Proof users can then review the proof within Workfront Proof.
+author: Luke
 hidefromtoc: true
 ---
 

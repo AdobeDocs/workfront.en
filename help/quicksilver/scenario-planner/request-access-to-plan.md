@@ -4,6 +4,7 @@ keywords: plan,permissions,share,initiatives,,scenarios,scenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Request access to a plan in the Scenario Planner
 description: You can request access to a plan in the Adobe Workfront Scenario Planner when the link to the plan is shared with you.
+author: Alina
 feature: Workfront Scenario Planner
 ---
 

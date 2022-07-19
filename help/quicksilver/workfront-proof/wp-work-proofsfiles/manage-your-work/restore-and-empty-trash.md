@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Restore and Empty the Trash in Workfront Proof
 description: As a Workfront Proof administrator, you can list and restore proofs, files, and folders users have deleted in the Trash in Workfront Proof. You can also empty the Trash, which permanently deletes those items from the system.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

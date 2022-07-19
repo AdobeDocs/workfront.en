@@ -4,6 +4,7 @@ product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Resource Management
 description: Resource Management allows resource managers to make business decisions that ensure the individual workers available today are budgeted against the highest priority work. While it may begin at the job role level, eventually Resource Management is concerned with users and their under-utilization or over-commitment.
+author: Alina
 feature: Resource Management
 ---
 

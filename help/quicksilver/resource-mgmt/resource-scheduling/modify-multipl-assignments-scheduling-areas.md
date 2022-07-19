@@ -3,6 +3,7 @@ product-area: resource-management
 navigation-topic: resource-scheduling
 title: Modify multiple users assignments to tasks in the Scheduling areas
 description: Modify multiple users assignments to tasks in the Scheduling areas
+author: Alina
 feature: Resource Management
 ---
 

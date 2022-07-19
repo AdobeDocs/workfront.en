@@ -3,6 +3,7 @@ content-type: release-notes
 navigation-topic: product-releases-archive
 title: Functionality made available in Preview in 2016
 description: The following features were made available in the Preview environment in 2016. These features are planned to release to the production environment with the R1 release.
+author: Luke
 feature: Product Announcements
 ---
 

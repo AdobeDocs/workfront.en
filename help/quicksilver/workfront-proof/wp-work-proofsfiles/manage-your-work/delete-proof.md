@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Delete a Proof in Workfront Proof
 description: Users who have edit rights on a proof can delete it.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

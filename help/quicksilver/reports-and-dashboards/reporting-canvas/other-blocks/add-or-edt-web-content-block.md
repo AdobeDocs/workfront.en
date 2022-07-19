@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: other-blocks
 title: Add or edit a web content block in Reporting Canvas
 description: Web content blocks allow you to display information from external websites directly within your report.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

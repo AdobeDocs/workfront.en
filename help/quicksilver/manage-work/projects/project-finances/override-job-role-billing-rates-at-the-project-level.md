@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: financials
 title: Override Job Role Billing Rates at the project level
 description: As a project manager, you can specify what the billing rate is for a job role on a specific project. This project-level billing rate overrides the billing rate at the system level for this job role. Workfront uses the project-level billing rate of the job role to calculate revenue, instead of using the system-level billing rate.
+author: Alina
 feature: Work Management
 ---
 

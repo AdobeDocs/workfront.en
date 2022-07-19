@@ -4,6 +4,7 @@ product-area: Workfront Proof
 navigation-topic: proof-release-activity
 title: "Workfront Proof release activity: Week of May 17, 2021"
 description: This page describes changes made to the Workfront Proof (stand-alone proofing application). Changes described here are not applicable to the proofing functionality within the Adobe Workfront application.
+author: Luke
 feature: "Product Announcements, Workfront Proof"
 ---
 

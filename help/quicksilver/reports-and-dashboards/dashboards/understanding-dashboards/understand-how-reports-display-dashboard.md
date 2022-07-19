@@ -4,6 +4,7 @@ product-area: dashboards
 navigation-topic: understand-dashboards
 title: Understand how reports display on a dashboard
 description: You can manage how reports added to dashboards display on the dashboards.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

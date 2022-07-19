@@ -3,6 +3,7 @@ title: Share a project in Adobe Workfront
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: Your Adobe Workfront administrator can grant you access to view or edit projects when assigning your access level. For more information, see Grant access to projects.
+author: Alina
 feature: Get Started with Workfront
 ---
 

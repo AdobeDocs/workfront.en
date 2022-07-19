@@ -6,6 +6,7 @@ keywords: connector
 navigation-topic: connections-annd-webhooks
 title: Create connections in Adobe Workfront Fusion
 description: A connection must adhere to the requirements set by the API of the app or web service it connects to. For this reason, instructions for setting up a connection vary based on the app or web service. This article can help you identify and locate the instructions for connecting Adobe Workfront Fusion to your chosen app or web service.
+author: Becky
 feature: Workfront Fusion
 ---
 

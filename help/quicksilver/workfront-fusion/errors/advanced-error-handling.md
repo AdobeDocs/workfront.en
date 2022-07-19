@@ -5,6 +5,7 @@ product-area: workfront-integrations
 navigation-topic: errors
 title: Advanced error handling in Adobe Workfront Fusion
 description: Advanced error handling techniques include filtering and nesting.
+author: Becky
 feature: Workfront Fusion
 ---
 

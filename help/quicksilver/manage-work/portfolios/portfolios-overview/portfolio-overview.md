@@ -4,6 +4,7 @@ product-area: portfolios
 navigation-topic: portfolios-overview
 title: Portfolio overview in Adobe Workfront
 description: A Portfolio is a collection of projects that have unifying characteristics. Those projects usually compete for the same resources, budget, or time slot. You can divide Portfolios into Programs and associate the projects with the Programs before they are added to a Portfolio.
+author: Alina
 feature: "Work Management, Strategic Planning"
 ---
 

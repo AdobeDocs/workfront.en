@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: Restore a scenario version in Adobe Workfront Fusion
 description: You can restore a previous version of a scenario. This allows you to make changes to a scenario, then easily revert those changes if you prefer the previous functionality.
+author: Becky
 feature: Workfront Fusion
 ---
 

@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: comment-on-a-proof
 title: Resolve proof comments
 description: You can mark comments resolved after they been addressed. You can re-open a comment that you or another reviewer has resolved.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Export a report in Reporting Canvas
 description: Export a report in Reporting Canvas
+author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 ---

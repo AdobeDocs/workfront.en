@@ -3,6 +3,7 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Log in to Adobe Workfront
 description: You need the following information to log in to Adobe Workfront - EDIT ME.
+author: Lisa
 feature: Get Started with Workfront
 ---
 

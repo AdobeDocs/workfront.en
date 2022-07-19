@@ -2,6 +2,7 @@
 navigation-topic: use-the-home-area
 title: Home area for Reviewers
 description: Home area for ReviewersHome" area which was their default page. Since now they created a "My Updates" area which is their new default, not sure if this makes much sense to still keep. The "My Updates" article is linked from this one, right at the top.)"
+author: Lisa
 feature: Get Started with Workfront
 ---
 

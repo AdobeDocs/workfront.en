@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Restore an archived proof
 description: A proof is automatically archived when it is not opened for 60 consecutive days. Archived proofs still display in the Document list the same way as it did prior to the proof being archived.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

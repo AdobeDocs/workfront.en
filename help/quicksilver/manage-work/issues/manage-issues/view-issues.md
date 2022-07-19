@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: manage-issues
 title: View issues
 description: You can view issues that are associated with a project, task, or iteration.
+author: Alina
 feature: Work Management
 ---
 

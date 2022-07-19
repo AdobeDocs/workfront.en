@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: manage-documents
 title: Preview documents
 description: You can preview a document from the Documents area. This is especially useful for images.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

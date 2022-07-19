@@ -3,6 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Updates to API Version 9
 description: Updated Resources
+author: John
 feature: Workfront API
 ---
 

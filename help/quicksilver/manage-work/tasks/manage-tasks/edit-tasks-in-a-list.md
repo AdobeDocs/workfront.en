@@ -3,6 +3,7 @@ product-area: projects
 navigation-topic: manage-tasks
 title: Edit tasks in a list
 description: You can edit task information in a list of tasks by editing the fields displayed in the list. For information about other ways to edit tasks, see Edit tasks.
+author: Alina
 feature: Work Management
 ---
 

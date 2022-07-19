@@ -4,6 +4,7 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Configure timesheet and hour preferences
 description: Configure timesheet and hour preferences
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: View active stages on a proof
 description: You can view the current active stages on a proof that contains an Automated Workflow.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

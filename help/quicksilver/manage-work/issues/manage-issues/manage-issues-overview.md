@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: issues
 title: Manage issues
 description: This section contains the following articles - EDIT ME.
+author: Alina
 feature: Work Management
 ---
 

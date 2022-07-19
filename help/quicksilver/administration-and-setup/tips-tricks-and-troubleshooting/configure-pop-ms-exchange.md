@@ -5,6 +5,7 @@ product-area: system-administration;setup
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Configure POP in Microsoft Exchange
 description: A POP email account in Microsoft Exchange is disabled.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

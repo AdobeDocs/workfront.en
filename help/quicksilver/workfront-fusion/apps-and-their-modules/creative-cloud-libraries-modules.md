@@ -6,6 +6,7 @@ product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Creative Cloud Libraries modules
 description: With the Adobe Workfront Fusion Adobe Creative Cloud Libraries modules, you can start a scenario when an element or library is created or updated. You can also upload, retrieve, archive, or list elements, or make a call to the Adobe Creative Cloud Libraries API.
+author: Becky
 ---
 
 # Figma Modules

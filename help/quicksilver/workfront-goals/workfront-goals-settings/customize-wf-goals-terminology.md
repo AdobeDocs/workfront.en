@@ -3,6 +3,7 @@ product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
 title: Customize Adobe Workfront Goals terminology
 description: Customize Adobe Workfront Goals terminology
+author: Alina
 feature: Workfront Goals
 ---
 

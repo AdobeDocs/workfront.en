@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: View, edit, and delete Adobe Workfront Fusion templates
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+author: Becky
 feature: Workfront Fusion
 ---
 

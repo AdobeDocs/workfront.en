@@ -3,6 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Manage board columns
 description: A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need.
+author: Lisa
 feature: Agile
 ---
 

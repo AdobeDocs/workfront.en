@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: As an Adobe Workfront administrator, you can assign a layout template you have created to any user, job role, team, or group who needs to use it.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

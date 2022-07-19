@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: create-and-manage-projects
 title: Project finances
 description: For information about areas where you can find project financial information and about how to manage project finances, see the following articles - EDIT ME.
+author: Alina
 feature: Work Management
 ---
 

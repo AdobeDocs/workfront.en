@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: task-information
 title: Update Task Priority
 description: You can define a priority for a task to indicate how important the task is.
+author: Alina
 feature: Work Management
 ---
 

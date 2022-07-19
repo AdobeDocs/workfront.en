@@ -4,6 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: issues with approval information"
 description: The following issue view shows the approval process, step, names of the approvers, and the status of the issue before the approval was granted. Some of these fields are not accessible through the standard interface builder.
+author: Lisa and Nolan
 feature: Reports and Dashboards
 ---
 

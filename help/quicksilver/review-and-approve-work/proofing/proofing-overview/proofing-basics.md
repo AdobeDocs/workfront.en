@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Proofing overview
 description: Proof Permission Profile overview
+author: Courtney
 feature: Digital Content and Documents
 ---
 

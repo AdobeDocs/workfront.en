@@ -3,6 +3,7 @@ product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
 title: Locate the Portfolio Optimizer
 description: You must have the following access to perform the steps in this article - EDIT ME.
+author: Alina
 feature: "Work Management, Strategic Planning"
 ---
 

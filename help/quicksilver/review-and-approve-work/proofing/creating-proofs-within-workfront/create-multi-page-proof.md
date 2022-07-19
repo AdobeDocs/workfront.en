@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Create a multi-page proof
 description: You can combine multiple files into a single multi-page proof. Reviewers can use the navigation tools in the proofing viewer to browse through the pages in a multi-page proof.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

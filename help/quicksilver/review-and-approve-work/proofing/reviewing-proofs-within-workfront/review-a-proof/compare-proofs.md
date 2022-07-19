@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Compare proofs
 description: You can use the proofing viewer to compare two different proofs or two versions of the same proof.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

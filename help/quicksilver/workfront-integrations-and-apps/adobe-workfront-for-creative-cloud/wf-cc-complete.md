@@ -3,6 +3,7 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Mark work items complete in Adobe Photoshop
 description: You can stay in Adobe Photoshop and seamlessly complete your work in Adobe Workfront.
+author: Courtney
 feature: "Workfront Integrations and Apps, Digital Content and Documents"
 ---
 

@@ -4,6 +4,7 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
 title: Log time in Adobe XD
 description: You can log time for projects, tasks, and issues you're working on directly in Adobe XD. The Workfront administrator determines which project-specific hour types are available as described in Manage hour types.
+author: Courtney
 ---
 
 # Log time in Adobe XD

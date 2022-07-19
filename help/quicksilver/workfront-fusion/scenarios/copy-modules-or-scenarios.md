@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: Copy modules or scenarios in Adobe Workfront Fusion
 description: Copy modules or scenarios in Adobe Workfront Fusion
+author: Becky
 feature: Workfront Fusion
 ---
 

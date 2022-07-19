@@ -4,6 +4,7 @@ keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
 title: Update an Adobe Workfront item from G Suite using email content
 description: You can update an existing project, task, or issue with information from a non-Adobe Workfront email.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

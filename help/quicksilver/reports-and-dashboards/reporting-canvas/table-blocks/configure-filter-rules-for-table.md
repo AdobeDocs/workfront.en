@@ -1,6 +1,7 @@
 ---
 title: Filter a table in Reporting Canvas
 description: Filter a table in Reporting Canvas
+author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 ---

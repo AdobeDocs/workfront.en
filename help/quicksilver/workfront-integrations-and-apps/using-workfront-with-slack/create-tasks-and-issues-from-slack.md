@@ -3,6 +3,7 @@ product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Create tasks and issues from Slack
 description: After you have installed and configured Adobe Workfront for Slack, you can create tasks and issues from Slack and associate them with projects in Workfront.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

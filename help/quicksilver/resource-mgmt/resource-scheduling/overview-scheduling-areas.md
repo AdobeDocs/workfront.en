@@ -4,6 +4,7 @@ product-area: resource-management
 navigation-topic: resource-scheduling
 title: Overview of the Scheduling areas
 description: Overview of the Scheduling areas
+author: Alina
 feature: Resource Management
 ---
 

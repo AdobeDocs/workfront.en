@@ -3,6 +3,7 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Embed an external web page in a dashboard
 description: You can embed an external web page in a dashboard to provide access to related information from other systems within Adobe Workfront or to other Workfront pages.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

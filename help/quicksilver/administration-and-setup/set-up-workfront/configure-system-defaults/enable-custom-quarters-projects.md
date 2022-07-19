@@ -4,6 +4,7 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Enable custom quarters for projects
 description: For reporting purposes, you might want to create custom quarters if your organization's quarters are based on specific criteria other than calendar dates (such as business days or shopping days).
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

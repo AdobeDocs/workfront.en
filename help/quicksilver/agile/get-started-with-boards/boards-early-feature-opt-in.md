@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: boards
 title: Boards beta
 description: Boards with ad hoc cards are available to all users, and we are excited to open additional features for early feature optin-in beginning in July 2022.
+author: Lisa
 ---
 
 # Early feature opt-in for Adobe Workfront Boards

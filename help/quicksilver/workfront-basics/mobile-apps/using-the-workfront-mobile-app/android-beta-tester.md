@@ -3,6 +3,7 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Be an Android beta tester
 description: Review this article to become an Android beta tester for the Adobe Workfront mobile app.
+author: Lisa
 feature: Get Started with Workfront
 ---
 

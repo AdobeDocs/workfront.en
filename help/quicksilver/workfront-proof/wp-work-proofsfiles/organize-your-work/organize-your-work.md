@@ -5,6 +5,7 @@ product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Organize your work
 description: This section contains the following articles - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

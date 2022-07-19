@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: proofing-overview
 title: Supported proofing file types and size limits overview
 description: You can share and review various types of files with your reviewers, even if they do not have the software used to create the files (such as Photoshop or Illustrator) installed on their machines. We support static, video, audio, web captures, and interactive file types up to 4 GB in size.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

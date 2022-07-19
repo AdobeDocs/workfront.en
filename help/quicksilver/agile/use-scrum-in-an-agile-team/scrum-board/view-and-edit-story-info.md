@@ -3,6 +3,7 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: View and edit story information on the Scrum board
 description: When viewing a story tile on the Kanban board, certain information is available to edit inline, directly from the story tile.
+author: Lisa
 feature: Agile
 ---
 

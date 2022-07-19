@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Get item list of folder contents
 description: Returns metadata for the files and folders for a given folder.
+author: John
 feature: "Workfront API, Digital Content and Documents"
 ---
 

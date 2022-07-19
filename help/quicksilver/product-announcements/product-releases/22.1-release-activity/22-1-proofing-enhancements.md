@@ -1,6 +1,7 @@
 ---
 title: 22.1 Proofing enhancements
 description: 22.1 Proofing enhancements
+author: Luke
 draft: Probably
 feature: "Product Announcements, Workfront Proof, Digital Content and Documents"
 ---

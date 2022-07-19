@@ -5,6 +5,7 @@ product-area: workfront-integrations
 navigation-topic: modules
 title: Aggregator module in Adobe Workfront Fusion
 description: An aggregator module is a type of module designed to merge several bundles of data into a single bundle.
+author: Becky
 feature: Workfront Fusion
 ---
 

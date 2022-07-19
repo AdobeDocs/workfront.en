@@ -2,6 +2,7 @@
 navigation-topic: business-case-and-scorecards
 title: Attach a Custom Form to a Business Case
 description: Custom Forms are used to collect information that is not displayed in existing Adobe Workfront fields.
+author: Alina
 feature: Work Management
 ---
 

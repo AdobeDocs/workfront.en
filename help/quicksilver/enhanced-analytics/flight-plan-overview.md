@@ -4,6 +4,7 @@ content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
 description: The Flight plan visualization shows how many projects (within the applied filter criteria) were in flight, what condition changes happened throughout the life of these projects, and how closely these projects adhered to their planned completion deadlines.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

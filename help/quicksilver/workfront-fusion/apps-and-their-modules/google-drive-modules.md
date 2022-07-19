@@ -6,6 +6,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Drive modules
 description: The Adobe Workfront Fusion Google Drive modules enable you to monitor, search, create, update, delete, and manage your files, folder, or shared drives in your Google Drive.
+author: Becky
 feature: "Workfront Fusion, Digital Content and Documents"
 ---
 

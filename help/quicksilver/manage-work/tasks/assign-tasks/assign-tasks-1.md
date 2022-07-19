@@ -4,6 +4,7 @@ product-area: projects;user-management
 navigation-topic: tasks
 title: Assigning tasks
 description: You can manage task assignments in various ways in Adobe Workfront. The methods in this section describe the different ways you can assign tasks to users, teams, and job roles.
+author: Alina
 feature: Work Management
 ---
 

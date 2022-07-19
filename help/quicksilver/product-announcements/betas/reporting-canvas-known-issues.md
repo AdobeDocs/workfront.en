@@ -3,6 +3,7 @@ content-type: reference
 navigation-topic: betas
 title: "Reporting Canvas beta: known issues"
 description: This page contains issues currently identified in the Reporting Canvas beta. For more information on the beta, see Reporting Canvas beta.
+author: Luke
 feature: Product Announcements
 ---
 

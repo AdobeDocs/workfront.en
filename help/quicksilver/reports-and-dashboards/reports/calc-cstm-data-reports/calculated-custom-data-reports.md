@@ -4,6 +4,7 @@ product-area: reporting
 navigation-topic: reports
 title: Calculated custom data in reports
 description: This section contains the following articles - EDIT ME.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

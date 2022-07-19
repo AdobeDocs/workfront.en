@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: share-proofs-and-files
 title: Subscribe to a Proof in Workfront Proof
 description: When another user sends you open a Proof URL and you open it in your browser, it launches the proofing viewer in Read Only mode. Before you can work on the proof, you need to identify yourself by subscribing to it.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

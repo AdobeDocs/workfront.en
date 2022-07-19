@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Modify column width and order
 description: The following are guidelines about how column widths work in Adobe Workfront - EDIT ME.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

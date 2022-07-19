@@ -4,6 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Delete job roles
 description: You can delete job roles that your organization no longer uses. We recommend that you do not delete job roles if they have been associated with work items in the past. To keep all your historical information about work assignments, we recommend that you deactivate roles, rather than delete them when they become obsolete. For information about deactivating roles, see Deactivate job roles.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-proof-deadlines
 title: Add, edit, or delete a deadline for a stage
 description: You can adjust the deadline for proofs you create or own.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

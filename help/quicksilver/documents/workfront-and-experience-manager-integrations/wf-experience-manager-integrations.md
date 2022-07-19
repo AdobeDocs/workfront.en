@@ -1,6 +1,7 @@
 ---
 title: Workfront and Experience Manager Assets Integrations
 description: Workfront and Experience Manager Assets Integrations
+author: Courtney
 draft: Probably
 feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---

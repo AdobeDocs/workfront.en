@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Create a proof for interactive content in a ZIP file
 description: You can generate a proof for non-website interactive content stored in a ZIP file. Examples of this type of web content include ads with streaming video or audio, HTML animations, Interactive banners.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

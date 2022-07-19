@@ -5,6 +5,7 @@ product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
 title: Configure whether proofs are automatically generated
 description: You can configure whether the system automatically generates proofs when users you specify add documents to Workfront. This setting is disabled by default.
+author: Courtney
 ---
 
 # Configure whether proofs are&nbsp;automatically generated

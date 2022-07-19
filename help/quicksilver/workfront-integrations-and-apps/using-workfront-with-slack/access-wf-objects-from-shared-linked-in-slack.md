@@ -3,6 +3,7 @@ product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Access Adobe Workfront objects from a shared link in Slack
 description: When links to Adobe Workfront objects are shared with you in a Slack channel, you can view additional information about them in Slack, after you have installed and configured Workfront for Slack.
+author: Becky
 feature: Workfront Integrations and Apps
 ---
 

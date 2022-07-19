@@ -3,6 +3,7 @@ product-area: programs
 navigation-topic: create and manage programs
 title: Create a program
 description: A program represents a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. Programs cannot exist outside of a portfolio.
+author: Alina
 feature: "Work Management, Strategic Planning"
 ---
 

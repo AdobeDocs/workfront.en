@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: comment-on-a-proof
 title: Search, filter, and sort proof comments
 description: You can search, filter, and sort proof comments to easily navigate feedback on content.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

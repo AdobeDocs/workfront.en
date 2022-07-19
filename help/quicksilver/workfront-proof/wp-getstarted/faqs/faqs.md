@@ -5,6 +5,7 @@ product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
 title: Workfront Proof - frequently asked questions
 description: This section contains the following articles - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

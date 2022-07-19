@@ -4,6 +4,7 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Configure Resource Management preferences
 description: "(CO: Linked to lots of articles for resource planning."
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

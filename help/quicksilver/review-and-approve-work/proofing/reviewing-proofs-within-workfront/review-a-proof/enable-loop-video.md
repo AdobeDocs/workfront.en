@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: review-a-proof
 title: Enable loop in a video proof
 description: You can configure the video to continuously loop (the video begins playing again after it finishes).
+author: Courtney
 feature: Digital Content and Documents
 ---
 

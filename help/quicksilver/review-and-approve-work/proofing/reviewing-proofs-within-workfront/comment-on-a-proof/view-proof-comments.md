@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: comment-on-a-proof
 title: View and reply to proof comments
 description: You can view and reply to proof comments made by other reviewers.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

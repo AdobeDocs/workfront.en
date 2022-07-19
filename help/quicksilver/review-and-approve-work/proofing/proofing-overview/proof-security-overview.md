@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: proofing-overview
 title: Proof security overview
 description: You can add extra security measures to proofs.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

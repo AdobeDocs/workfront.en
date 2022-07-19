@@ -4,6 +4,7 @@ product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: Manage work and team requests
 description: A request represents a pending task or issue assignment. Work requests are made to individuals, and team requests are made to teams.
+author: Lisa
 feature: "People Teams and Groups, Work Management"
 ---
 # Manage work and team requests

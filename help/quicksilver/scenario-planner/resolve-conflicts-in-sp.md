@@ -3,6 +3,7 @@ product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Resolve initiative conflicts in the Scenario Planner
 description: When initiatives conflict with one another they are competing for the same resources. The resources you have available for a scenario are not enough to cover all of the resources required by all initiatives in the scenario.
+author: Alina
 feature: Workfront Scenario Planner
 ---
 

@@ -4,6 +4,7 @@ product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Configure the dropzone in Workfront Proof
 description: As a Workfront Proof administrator, you can set, view, and edit your users' Dropzone settings. For information about Dropzone, see The Dropzone.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

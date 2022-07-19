@@ -1,6 +1,7 @@
 ---
 title: HubSpot CRM modules
 description: HubSpot CRM modules
+author: Becky
 draft: Probably
 feature: Workfront Fusion
 ---

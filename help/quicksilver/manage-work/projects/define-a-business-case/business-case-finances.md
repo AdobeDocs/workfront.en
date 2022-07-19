@@ -3,6 +3,7 @@ content-type: overview
 navigation-topic: business-case-and-scorecards
 title: Overview of Business Case financial fields
 description: The Business Case sub-tab includes financial fields for the project. In order for some of the financial fields to have values, corresponding areas of the Business Case must be completed.
+author: Alina
 feature: Work Management
 ---
 

@@ -5,6 +5,7 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Retrieving historical data from Adobe Workfront: pros and cons"
 description: This article explains the pros and cons of 4 options you can use to retrieve your historical data from Workfront.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

@@ -4,6 +4,7 @@ product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
 title: Brand the Workfront Proof site - advanced
 description: Advanced branding is available on Select and Premium plans and is included in the cost of the plan.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

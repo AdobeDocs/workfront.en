@@ -4,6 +4,7 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Timesheet details in Adobe Workfront
 description: This section contains the following articles - EDIT ME.
+author: Lisa
 feature: Timesheets
 ---
 

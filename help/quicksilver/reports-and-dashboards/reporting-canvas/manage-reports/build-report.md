@@ -1,6 +1,7 @@
 ---
 title: Build a report in Reporting Canvas
 description: Build a report in Reporting Canvas
+author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 ---

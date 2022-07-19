@@ -4,6 +4,7 @@ product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: The Workload Balancer
 description: The Workload Balancer is a resource scheduling tool that will eventually replace the current resource scheduling tools which are currently deprecated.
+author: Alina
 feature: Resource Management
 ---
 

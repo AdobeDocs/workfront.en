@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Edit a view using text mode
 description: "NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article)"
+author: Nolan
 feature: Reports and Dashboards
 ---
 

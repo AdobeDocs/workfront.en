@@ -4,6 +4,7 @@ product-area: projects
 navigation-topic: use-predecessors
 title: Task dependency loop overview
 description: When adding predecessor relationships to tasks you might encounter dependency loops. For information about predecessors, see Overview of task predecessors.
+author: Alina
 feature: Work Management
 ---
 

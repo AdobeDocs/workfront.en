@@ -4,6 +4,7 @@ product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
 title: Adobe Workfront for Experience Manager Assets Essentials
 description: Adobe Workfront for Experience Manager Assets Essentials
+author: Courtney
 feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---
 

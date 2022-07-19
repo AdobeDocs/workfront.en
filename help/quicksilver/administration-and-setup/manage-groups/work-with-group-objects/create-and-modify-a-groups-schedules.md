@@ -4,6 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Create and modify a group's schedules
 description: When you are viewing a group that you manage in the Groups area, you can view and work with the schedules for which the administrators of the group, or one of its subgroups, have administrative access.
+author: Caroline
 feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---

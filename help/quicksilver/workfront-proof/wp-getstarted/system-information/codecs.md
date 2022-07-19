@@ -5,6 +5,7 @@ product-area: documents;system-administration
 navigation-topic: system-information
 title: Codecs in Workfront Proof
 description: Codecs in Workfront Proof
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

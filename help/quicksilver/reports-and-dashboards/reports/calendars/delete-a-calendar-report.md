@@ -3,6 +3,7 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Delete a calendar report
 description: You can delete a calendar that you own or that others shared with you. Once deleted, the calendar becomes inaccessible to users with whom you have shared it.
+author: Nolan
 feature: Reports and Dashboards
 ---
 

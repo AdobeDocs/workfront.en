@@ -5,6 +5,7 @@ product-area: documents;system-administration
 navigation-topic: account-administration
 title: Account settings in Workfront Proof
 description: This section contains the following articles - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

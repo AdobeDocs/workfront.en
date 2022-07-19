@@ -5,6 +5,7 @@ product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
 title: Basecamp Classic
 description: This section contains the following articles - EDIT ME.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

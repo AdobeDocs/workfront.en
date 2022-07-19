@@ -3,6 +3,7 @@ product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
 title: Optimize projects in the Portfolio Optimizer
 description: You can use the Portfolio Optimizer to prioritize your projects based on their scores and other values. The Optimizer takes into account important project information like the cost, alignment, risk and ROI to prioritize the projects according to what is more important to you.
+author: Alina
 feature: "Work Management, Strategic Planning"
 ---
 

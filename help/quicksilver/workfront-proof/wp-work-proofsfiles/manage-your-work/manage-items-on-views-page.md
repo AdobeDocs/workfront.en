@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Manage Items on the Views Page in Workfront Proof
 description: The Views page allows you to see and work with all of your proofs, files and folders in one place.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

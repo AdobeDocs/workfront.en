@@ -4,6 +4,7 @@ product-area: documents;workfront-integrations;setup
 navigation-topic: box
 title: Create a Proof via Your Box Account
 description: It's easy to create proofs and new proof versions via your Box account.
+author: Courtney
 feature: "Workfront Proof, Digital Content and Documents"
 ---
 

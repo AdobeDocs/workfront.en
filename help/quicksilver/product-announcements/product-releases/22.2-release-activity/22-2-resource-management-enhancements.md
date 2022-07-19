@@ -1,6 +1,7 @@
 ---
 title: 22.2 Resource Management enhancements
 description: 22.2 Resource Management enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
 ---

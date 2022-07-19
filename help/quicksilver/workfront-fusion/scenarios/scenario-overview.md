@@ -5,6 +5,7 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion scenario overview
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+author: Becky
 feature: Workfront Fusion
 ---
 

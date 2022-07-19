@@ -4,6 +4,7 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Create, edit, and share default filters, views, and groupings
 description: You can create default filters, views, and groupings, then make them available to users in your organization.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

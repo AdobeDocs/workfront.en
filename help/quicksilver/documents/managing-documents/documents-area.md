@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: manage-documents
 title: The Documents area
 description: In the Documents area, you can organize, manage, and view metadata for documents uploaded to Adobe Workfront. You can also see the proof decision.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

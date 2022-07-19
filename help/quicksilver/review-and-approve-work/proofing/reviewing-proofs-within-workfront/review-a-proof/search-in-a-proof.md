@@ -3,6 +3,7 @@ product-area: documents
 navigation-topic: review-a-proof
 title: Search content within a proof
 description: You can quickly locate text in a proof created for the following types of documents - EDIT ME.
+author: Courtney
 feature: Digital Content and Documents
 ---
 

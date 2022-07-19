@@ -3,6 +3,7 @@ content-type: release-notes
 navigation-topic: product-releases
 title: Workfront Library release activity
 description: Workfront Library release activity
+author: Luke
 feature: "Product Announcements, Workfront Library"
 ---
 

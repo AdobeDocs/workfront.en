@@ -3,6 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Use date-based wildcards to generalize reports
 description: You can generalize a report by using wildcards instead of specific information when building certain reporting elements.
+author: Nolan
 feature: Reports and Dashboards
 ---
 
