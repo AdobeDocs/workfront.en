@@ -8,6 +8,10 @@
 
 <div class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</div>
 
+## Highlighted Preview for full article {#highlighted-preview-article-level}
+
+<div class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</div>
+
 <!-- Admin and Setup -->
 
 ## Important note for Admin Console onboarding {#important-admin-console-onboard}
