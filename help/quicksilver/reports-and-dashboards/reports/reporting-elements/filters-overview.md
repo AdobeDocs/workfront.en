@@ -4,13 +4,14 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Filters overview in Adobe Workfront
 description: You can use filters in Adobe Workfront to reduce the amount of information you display on the screen in lists, reports, or other areas.
-author: Nolan
+author: Lisa
 feature: Reports and Dashboards
 ---
 
 # Filters overview in Adobe Workfront
 
 {{highlighted-preview}}
+
 
 You can use filters in Adobe Workfront to reduce the amount of information you display on the screen in lists, reports, or other areas.
 
@@ -169,9 +170,11 @@ This is an example of the standard filter builder in all environments:
 ![Standard filter builder](assets/filter-statements-with-or-and-and-nwe.png)
 
 <div class="preview">
+
 This is an example of the beta filter builder, available in the Preview environment only.
 
 ![Beta filter builder](assets/filter-sample-with-or.png)
+
 </div>
 
 A filter contains the following elements:
