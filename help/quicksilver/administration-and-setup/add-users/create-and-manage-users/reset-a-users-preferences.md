@@ -91,9 +91,9 @@ When you reset user preferences, some preferences are reverted to the system def
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. **Log In As**.
+1. Select **Log In As**.
 1. Begin typing the name of the user whose preferences you want to reset, then click the name when it appears in the drop-down list.
-1. Click **Log In**.
+1. Select  **Log In**.
 1. In the URL field at the top of your web browser, add `/resetUser` after `workfront.com`.
 
    >[!NOTE]
@@ -105,9 +105,9 @@ When you reset user preferences, some preferences are reverted to the system def
    >```
 
 1. Press **Enter**.
-1. To reset all user preferences, click **Reset**.
+1. To reset all user preferences, select **Reset**.
 
    Or
 
-   To reset only custom tabs, click **Reset Tabs**.
+   To reset only custom tabs, select **Reset Tabs**.
 

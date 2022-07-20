@@ -10,6 +10,11 @@
 
 <!-- Admin and Setup -->
 
+## Step 1 - Getting to Setup {#step-1-to-setup}
+
+Click the Main Menu icon in the upper-right corner of Adobe Workfront ![](assets/main-menu-icon.png), or (if available), click the Main Menu icon in the upper-left corner ![](assets/main-menu-icon-left-nav.png), then click Setup ![](assets/ger-icon-setup.png).
+
+
 ## Important note for Admin Console onboarding {#important-admin-console-onboard}
 
 >[!IMPORTANT]

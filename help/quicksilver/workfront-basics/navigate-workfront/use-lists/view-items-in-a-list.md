@@ -7,6 +7,8 @@ feature: Get Started with Workfront
 
 # Get started with lists in Adobe Workfront
 
+{{#highlighted-preview}}
+
 You can view lists of objects in Adobe Workfront to get information about them, such as their start and due dates, users assigned to them, and other objects that are associated with them.
 
 The following are some characteristics of lists in Workfront:
@@ -38,7 +40,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View or higher access to filters, views, groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to filters, views, groupings</p> <P>For items in the Setup area, you need administrative access for the item or the System Administrator access level.</P> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -55,8 +57,8 @@ Below are some types of object lists that you can find in Workfront and some of 
 
 >[!NOTE]
 >
->This list is not comprehensive. Each of these object lists can also appear on a report or a dashboard.  
->For example, a Project report or a dashboard that contains a Project report also displays a list of projects.
+>* This list is not comprehensive. Each of these object lists can also appear on a report or a dashboard. For example, a Project report or a dashboard that contains a Project report also displays a list of projects.
+>* In this list, "select" means that you need to click the name of the item, not the checkbox to the left of the name.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -194,7 +196,50 @@ Below are some types of object lists that you can find in Workfront and some of 
      <li> <p>Projects &gt; select a project &gt; Tasks &gt; select a task &gt; Hours</p> </li> 
      <li> <p>Projects &gt; select a project &gt; Issues &gt; select an issue &gt; Hours</p> </li> 
     </ul> </td> 
+  </tr>
+  <tr> 
+   <td class="preview">List of custom forms</td> 
+   <td> 
+    <ul> 
+     <li class="preview"> <p>Setup &gt; Custom Forms</p> </li> 
+    </ul> </td> 
   </tr> 
+  <tr> 
+    <td>List of groups or subgroups</td> 
+   <td> 
+    <ul> 
+     <li> <p>Setup &gt; Groups</p> </li>
+     <li> <p>Setup &gt; Groups &gt; select the parent group &gt; Subgroups </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>List of teams</td> 
+   <td> 
+    <ul> 
+     <li> <p>Setup &gt; Teams</p> </li> 
+    </ul> </td> 
+  </tr>
+  <tr> 
+   <td>List of companies</td> 
+   <td> 
+    <ul> 
+     <li> <p>Setup &gt; Companies</p> </li> 
+    </ul> </td> 
+  </tr>
+  <tr> 
+   <td>List of schedules</td> 
+   <td> 
+    <ul> 
+     <li> <p>Setup &gt; Schedules</p> </li> 
+    </ul> </td> 
+  </tr>
+  <tr> 
+   <td>List of layout templates</td> 
+   <td> 
+    <ul> 
+     <li> <p>Setup &gt; Layout Templates</p> </li> 
+    </ul> </td> 
+  </tr>
  </tbody> 
 </table>
 
