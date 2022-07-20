@@ -4,6 +4,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Delete or deactivate a custom form
 description: You can delete or deactivate a custom form from the system.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

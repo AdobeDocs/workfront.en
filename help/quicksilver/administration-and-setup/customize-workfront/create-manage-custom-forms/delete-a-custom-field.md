@@ -4,6 +4,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Delete a custom field or widget from the system
 description: To improve system performance and to make forms easier to use for users, you might want to remove custom fields and widgets from your system when they are no longer being used.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

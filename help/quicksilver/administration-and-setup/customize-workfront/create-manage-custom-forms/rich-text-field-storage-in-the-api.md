@@ -4,6 +4,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Rich text field storage in the API
 description: If an object such as a project, issue, or task contains rich text, it is stored and accessible as a parameter value through the Workfront API.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

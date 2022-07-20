@@ -1,14 +1,12 @@
 ---
 title: Edit a team's settings from the Setup area
-description: Edit a team's settings from the Setup area
-author: Caroline
+description: As an Adobe Workfront administrator, you can edit a team's settings from the Setup area. You can add users to a team, set a team's layout template, and set how status is recorded when work items are completed by a team.
+author: Caroline, Courtney
 draft: Probably
 feature: System Setup and Administration
 role: Admin
 ---
 # Edit a team's settings from the Setup area
-
-{{highlighted-preview}}
 
 As an Adobe Workfront administrator, you can edit a team's settings from the Setup area. You can add users to a team, set a team's layout template, and set how status is recorded when work items are completed by a team.
 

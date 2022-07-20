@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: As an Adobe Workfront administrator, you need to enable the Zoom integration in Workfront before users can use it in the Updates area.
+author: Becky
 feature: "System Setup and Administration, Workfront Integrations and Apps"
 role: Admin
 ---
