@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 description: You can integrate Workfront with SharePoint Online, providing users with the ability to navigate to, link, and add SharePoint documents within Workfront. The functionality provided is similar to that of other Workfront integrations, such as Google Drive, Box, and Dropbox.
+author: Becky, Caroline
 feature: "System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents"
 role: Admin
 ---

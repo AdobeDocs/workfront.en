@@ -16,7 +16,6 @@ This section contains the following articles:
 
 * [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) 
 * [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md) 
-* [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md) 
 * [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 
 * [Edit user profiles in bulk](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md) 
 * [Create direct reports](../../../administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md) 

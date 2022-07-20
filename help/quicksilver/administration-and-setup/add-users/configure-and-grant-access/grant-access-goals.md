@@ -31,7 +31,7 @@ You must have the following to grant users access to Workfront Goals:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Workfront Goals <p>Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p>Workfront Goals is available only in the new Adobe Workfront experience. For information about enrolling users in the new Adobe Workfront experience, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md" class="MCXref xref" data-mc-variable-override="">Enroll users in the new Adobe Workfront experience</a>.</p> </td> 
+   <td>Workfront Goals <p>Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p>Workfront Goals is available only in the new Adobe Workfront experience.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configuration*</td> 

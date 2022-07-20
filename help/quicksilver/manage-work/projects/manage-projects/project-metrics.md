@@ -15,9 +15,6 @@ feature: Work Management
 >
 >To access the Metrics area from the left panel of a project, you must:
 >
->* Be enrolled in the new Adobe Workfront experience.  
->  To learn how an Adobe Workfront administrator or group administrator can enroll you in the new Adobe Workfront experience, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
->
 >* Have View access to a project.  
 >  To learn how to request access to an object, see [Request access to objects](../../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 >

@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: You can delete a custom condition.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

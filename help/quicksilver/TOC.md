@@ -354,7 +354,6 @@ feature-set: Workfront
       * [Manage users](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
       * [Add users](administration-and-setup/add-users/create-and-manage-users/add-users.md)
       * [Import users](administration-and-setup/add-users/create-and-manage-users/import-users.md)
-      * [Enroll users in new Workfront experience](administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md)
       * [Edit a user's profile](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
       * [Edit user profiles in bulk](administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
       * [Create direct reports](administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md)
@@ -441,7 +440,6 @@ feature-set: Workfront
       * [Administrative access for layout templates](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
       * [Assign users to layout templates](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
       * [Copy a layout template](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-      * [Move layout templates to new Adobe Workfront experience](administration-and-setup/customize-workfront/use-layout-templates/migrate-layout-templates-to-nwe.md)
     * Custom forms {#custom-forms}
       * [Custom forms](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
       * [Custom forms overview](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)

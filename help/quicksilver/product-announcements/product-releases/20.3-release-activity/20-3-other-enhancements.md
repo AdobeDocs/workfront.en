@@ -98,8 +98,6 @@ There is also now a User details link that displays the following user informati
 * Email address
 * Profile picture
 
-For more information, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
-
 [Watch a video demonstration of this feature.](https://vimeo.com/434805153/b8d6061d09)
 
 ## New for administrators: Brand Workfront for specific groups, teams, job roles, and users
