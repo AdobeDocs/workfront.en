@@ -8,6 +8,10 @@
 
 <div class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</div>
 
+## Highlighted Preview for full article {#highlighted-preview-article-level}
+
+<div class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</div>
+
 <!-- Admin and Setup -->
 
 ## Step 1 - Getting to Setup {#step-1-to-setup}
@@ -28,6 +32,25 @@ Click the Main Menu icon in the upper-right corner of Adobe Workfront ![](assets
 <!-- Calendars -->
 
 <!-- Documents -->
+
+## setup linked folders {#setup-linked-folder}
+
+You can allow users to create folders linked to Experience Manager while in a Workfront project. When a folder is linked, any asset added  to the folder automatically shows up in both Workfront and Experience Manger. When an asset is added to the linked folder in Workfront for the first time, the asset's metadata is pushed to Experience Manager Assets.
+
+In the steps below, you indicate where you want the linked folders created. Each integration can have only one location for all linked folders.
+
+To set up linked folders:
+
+1. Toggle **Enabled linked folder** on.
+1. Choose a folder path to indicate where you want all linked folders associated with this integration to live.
+![linked folders setup screen](assets/linked-folder-setup.png)
+
+    >[!NOTE]
+    >
+    >Users need write access in Adobe Experience Manager Assets to the folder specified to create a linked folder.
+
+1. Click **Save**.
+
 
 <!-- Home -->
 
