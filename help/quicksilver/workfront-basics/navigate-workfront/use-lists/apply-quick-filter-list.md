@@ -7,6 +7,8 @@ feature: Get Started with Workfront
 
 # Apply the quick filter to a list
 
+{{highlighted-preview}}
+
 You can use the quick filter in a list of objects to help you locate only items that are important to you, so you can quickly review, update, or share them with others.
 
 >[!IMPORTANT]
@@ -18,9 +20,9 @@ For information about how to build filters in Adobe Workfront, see the article [
 
 You can use temporary quick filters in all lists, except the following:
 
-* The Setup area
 * The Reports area
 * Document lists and reports
+* Several Setup areas (the quick filter is currently available in <span class ="preview">Custom Forms, </span>Groups, Teams, Companies, Schedules, and Layout Templates)
 
 Consider the following when applying quick filters to a list:
 
