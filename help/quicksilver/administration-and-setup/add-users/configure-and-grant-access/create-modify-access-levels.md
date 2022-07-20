@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
 ## Create or edit a custom access level
 
-1. {{step-1-to-setup}}
+{{step-1-to-setup}}
 
 1. Click **Access Levels** in the left panel.
 1. Select the access level you want to copy and customize, then click **Copy**.
