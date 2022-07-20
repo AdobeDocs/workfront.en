@@ -74,14 +74,11 @@ Before you begin,
 
 1. Choose a repository from the **Experience Manager Assets repository** drop-down menu. The system automatically populates any Experience Manager repositories associated with the Organization ID that your user profile is assigned to.
 
-1. Click **Save** or move on to the [Set up metadata (Optional)](set-up-metadata-(optional)) section in this article.
+1. Click **Save** or move on to the [Set up metadata (Optional)](#set-up-metadata-optional) section in this article.
 
     >[!NOTE]
     >
     >Due to the complexity of the integration, you can't change the repository after you save the initial configuration.
-
-
-
 
 ## Set up metadata (Optional)
 
@@ -112,8 +109,7 @@ Metadata maps when an asset is pushed from Workfront for the first time. Documen
 
 1. In the Experience Manager Assets field, search through the pre-populated categories or enter at least two letters in the search field to access additional categories.
 1. Repeat steps 2 and 3 as needed.
-1. Click Save or move on to the [Folders](folders) section in this article.
-
+1. Click Save or move on to the [Folders](#folders) section in this article.
 
 ### Folders
 
@@ -128,7 +124,7 @@ When users create a linked folder on a project, the associated project, portfoli
 
 1. In the **Experience Manager Assets** field, search through the pre-populated categories or enter at least two letters in the search field to access additional categories.
 1. Repeat steps 2 and 3 as needed.
-1. Click **Save** or move on to the [Project metadata sync](project-metadata-sync) section in this article.
+1. Click **Save** or move on to the [Project metadata sync](#project-metadata-sync) section in this article.
 
 
 ### Project metadata sync
@@ -143,8 +139,7 @@ An Experience Manager fields that is mapped to Workfront project fields update a
 
 
 1. Enable the **Sync project metadata** field.
-1. Click Save or move on to the [Set up linked folders (Optional)](set-up-linked-folders-(optional)) section in this article.
-
+1. Click Save or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
 
 ## Set up linked folders (Optional)
 
