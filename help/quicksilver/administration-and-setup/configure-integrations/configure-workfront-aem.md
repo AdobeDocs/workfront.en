@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 description: As an Adobe Workfront administrator, you can integrate Workfront with Adobe Experience Manager (AEM) Assets and provide your organization with a comprehensive content management solution for the creation, sharing, and maintenance of assets within your workflow.
+author: Courtney
 feature: "System Setup and Administration, Workfront Integrations and Apps"
 role: Admin
 ---

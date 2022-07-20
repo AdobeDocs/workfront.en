@@ -4,6 +4,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Delete object types on a custom form
 description: On an existing custom form, you can delete object types that are associated with the form. After you do this, users can no longer attach the form to objects of that type.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

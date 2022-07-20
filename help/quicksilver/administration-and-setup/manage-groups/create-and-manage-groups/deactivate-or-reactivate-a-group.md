@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Deactivate or reactivate a group
-description: The information on this page refers to functionality available only in the new Workfront experience beta.
+description: You can deactivate a group you manage that you no longer use.
 author: Caroline
 feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
@@ -12,7 +12,7 @@ role: Admin
 # Deactivate or reactivate a group
 
 <!--
-If Callisto adds the <b>Is active</b> checkbox to the Details page for groups you view, add that info to Manage groups/Create and manage groups/**manage-a-group** and to Manage groups/Create and manage groups/**view-and-manage-a-groups-details**
+If Callisto adds the <b>Is active</b> checkbox to the Details page for groups you view, add that info to Manage groups/Create and manage groups/manage-a-group and to Manage groups/Create and manage groups/view-and-manage-a-groups-details
 -->
 
 You can deactivate a group you manage that you no longer use.
