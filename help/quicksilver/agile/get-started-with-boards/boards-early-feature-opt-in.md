@@ -3,11 +3,14 @@ filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
 title: Boards beta
-description: Boards with ad hoc cards are available to all users, and we are excited to open additional features for early feature optin-in beginning in July 2022.
+description: Boards with ad hoc cards are available to all users, and we are excited to open additional features for early feature opt-in.
 author: Lisa
 ---
 
 # Early feature opt-in for Adobe Workfront Boards
+
+{{highlighted-preview-article-level}}
+
 
 Boards with ad hoc and connected cards are available to all users, and we are excited to open additional boards features for early feature opt-in beginning in July 2022.
 
@@ -57,6 +60,14 @@ The following table outlines major features of boards along with their current r
   <tr>
    <td>Use column automation</td>
    <td>Released</td>
+  </tr>
+  <tr>
+   <td>Work in Progress limits</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Manual estimations on cards</td>
+   <td>Partially released</td>
   </tr>
  </tbody> 
 </table> 
