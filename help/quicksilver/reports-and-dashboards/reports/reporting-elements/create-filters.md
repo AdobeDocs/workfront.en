@@ -3,11 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Create or edit filters in Adobe Workfront
 description: Create or edit filters in Adobe Workfront
-author: Nolan
+author: Lisa
 feature: Reports and Dashboards
 ---
 
 # Create or edit filters in Adobe Workfront
+
+{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***IMPORTANT: this DIV will need to be drafted/ hidden when the following DIV (that includes new filters) will be live)</p>

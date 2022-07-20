@@ -83,10 +83,6 @@ For information about updating the Layout Template see the following articles:
 * [Customize the landing page using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) 
 * [Assign users to a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
-## Enroll users in the new Adobe Workfront experience {#enroll-users-in-the-new-adobe-workfront-experience}
-
-For information about enrolling users in the new Adobe Workfront experience, see [Enroll users in the new Adobe Workfront experience](../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
-
 ## Share individual goals with other users {#share-individual-goals-with-other-users}
 
 By default, all users that have at least View access to Goals in their access level can view all goals in Workfront. Any user with Edit access to&nbsp;Goals can create goals and they automatically gain Manage access to the goals they create. If they must edit other users' goals, someone with Manage permissions to those goals must share with them the goals they did not create. For information about sharing goals with users and giving them Manage permissions, see [Share a goal in Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md). 

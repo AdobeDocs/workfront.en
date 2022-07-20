@@ -77,7 +77,6 @@ As a group administrator, you can carry out the tasks below to manage the groups
   >
   >Workfront administrators can override changes to group memberships made by a group administrator.
 
-* Enroll users of the groups and subgroups you manage in the new Adobe Workfront experience. You can also un-enroll users to allow them to return to Adobe Workfront Classic. For more information, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
 * Reset passwords for users that are members of the groups you manage. For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 * Log in as users that are members of the groups you manage. For more information, see [Log in as another user](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 * View the number of available licenses available for your group and the subgroups below it. For more information, see [Manage available licenses in your system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

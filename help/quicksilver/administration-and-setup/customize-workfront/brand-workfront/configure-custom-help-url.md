@@ -3,7 +3,8 @@ title: Configure a custom help URL
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: Configure a custom help URL
+description: If you create a custom  internal help site  containing information about how your organization uses Workfront, you can configure the Main Menu Help icon to go to that site. This does not affect the main Help link in the Main Menu and the context-sensitive help links throughout Workfront, which take users to the Workfront Help site.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

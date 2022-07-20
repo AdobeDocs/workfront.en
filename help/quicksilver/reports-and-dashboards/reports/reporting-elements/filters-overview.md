@@ -168,9 +168,11 @@ This is an example of the standard filter builder in all environments:
 
 ![Standard filter builder](assets/filter-statements-with-or-and-and-nwe.png)
 
+<div class="preview">
 This is an example of the beta filter builder, available in the Preview environment only.
 
 ![Beta filter builder](assets/filter-sample-with-or.png)
+</div>
 
 A filter contains the following elements:
 

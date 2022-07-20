@@ -4,6 +4,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Add a custom field to a custom form
 description: The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

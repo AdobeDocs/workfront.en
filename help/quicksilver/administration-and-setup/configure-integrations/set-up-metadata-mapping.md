@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Metadata is descriptive information associated with a document. You can set up Adobe Workfront to include metadata with documents sent to Workfront applications.
+author: Caroline
 feature: "System Setup and Administration, Workfront Integrations and Apps"
 role: Admin
 ---

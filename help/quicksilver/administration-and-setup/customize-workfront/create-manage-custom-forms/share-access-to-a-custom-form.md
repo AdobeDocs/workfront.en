@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can configure access for a custom form to control who—person, role, group, team, company—can view, share, and edit it.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---

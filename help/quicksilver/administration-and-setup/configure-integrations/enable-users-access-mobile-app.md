@@ -5,6 +5,7 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: You can enable or disable access to the Adobe Workfront mobile app.
+author: Lisa
 feature: "System Setup and Administration, Workfront Integrations and Apps"
 role: Admin
 ---
