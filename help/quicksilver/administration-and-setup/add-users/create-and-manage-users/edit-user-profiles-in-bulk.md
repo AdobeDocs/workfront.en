@@ -90,11 +90,7 @@ You must have the following to perform the steps in this article:
         </p> 
         <p>When you assign an access level to users, you can assign a level equal to or less than your own access level. (For example, if your access level is Planner, you cannot assign the Administrator access level.) However, you cannot assign an access level that by default is less than your own access level if the Workfront administrator has enabled non-default permissions on the access level that are not also enabled in your own access level (via the Fine-Tune settings, as described in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>).</p> 
         <!--
-          <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Replace the above paragraph with IMS info when the time comes:</p>
-         --> 
-         <!--
-          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">When you assign an access level to a user, ...</p>
-         --> 
+
          <p>For more information about access levels, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configure access to Adobe Workfront</a>.</p> 
          </li> 
         <li> 

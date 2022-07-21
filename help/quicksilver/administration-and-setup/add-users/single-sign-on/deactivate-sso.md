@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: Deactivate single sign-on in Adobe Workfront
-description: You can deactivate single sign-on in Workfront,
+description: You can deactivate single sign-on in Workfront.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -15,15 +15,6 @@ role: Admin
 
 After you deactivate single sign-on (SSO) in Adobe Workfront, users need to log in using their Workfront credentials. These are the credentials the user originally set up. (If you need to change user credentials, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).)
 
->[!NOTE]
->
->This is not available if your organization's Workfront instance uses a custom SSO portal.>
-><!--
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
->or is enabled with Adobe IMS>
-></MadCap:conditionalText>>
->-->
->See your network or IT administrator if you need more information.
 
 ## Access requirements
 
