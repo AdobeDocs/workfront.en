@@ -46,10 +46,6 @@ You must have the following access to perform the steps in this article:
 
 Authentication options are displayed for all customers. Improved password management capabilities are coming soon or might already be available for your organization, as described in the section [Configure enhanced authentication (coming soon)](#configure-enhanced-authentication-coming-soon) in this article.
 
->[!NOTE]
->
->This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
-
 To configure authentication preferences:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
