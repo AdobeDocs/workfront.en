@@ -126,7 +126,7 @@ You must have the following access to perform the steps in this article:
 
       ![Tags for column](assets/boards-column-tags.png)
 
-<div class="preview">
+   <div class="preview">
 
 1. Enable the **Work in progress** limit policy to limit the number of cards that can be added to the column.
 1. Type the limit number in the **Set limit** field.
@@ -135,6 +135,6 @@ You must have the following access to perform the steps in this article:
 
    ![WIP limit counter](assets/boards-wip-limit-counter.png)
 
-</div>
+   </div>
 
 1. Click **Close** to exit the Settings area and view the column and its cards.
