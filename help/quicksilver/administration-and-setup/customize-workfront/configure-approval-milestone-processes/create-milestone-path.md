@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Create a milestone path
+author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
 ---
@@ -11,10 +12,10 @@ role: Admin
 # Create a milestone path
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.)</p>
+NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-As an Adobe Workfront administrator, you can create milestone paths in the Setup area of Workfront which can then be applied to any project in the system. The changes you make to milestone paths in this area affect the entire Workfront system.
+As an Adobe Workfront administrator, you can create milestone paths which can then be applied to any project in the system. The changes you make to milestone paths in this area affect the entire Workfront system.
 
 ## Access requirements
 

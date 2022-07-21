@@ -12,11 +12,7 @@ role: Admin
 # Log in as another user
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
--->
-
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Linked to other articles: Creating and Managing Groups, etc</p>
+**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
 >[!IMPORTANT]

@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: single-sign-on-in-workfront
 title: Update users for single sign-on
-description: The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+description: You can update users for single sign-on in Workfront.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
