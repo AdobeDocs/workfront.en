@@ -27,9 +27,9 @@ You must have Workfront and Adobe Experience Manager Assets or Assets Essentials
 
 For information about configuring the integration, see
 
-*   Configure the Experience Manager Assets as a Cloud Service integration
-    
-*   Configure the Experience Manager Assets Essentials integration
+* [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
+
+* [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
     
 
 For information about using the integration, see Adobe Workfront for Experience Manager Assets Essentials.
@@ -42,7 +42,7 @@ You will not lose access to documents that are currently linked through the lega
 
 Workfront Administrators can enable and disable SharePoint and legacy SharePoint integrations separately, based on the needs of their organization.
 
-For more information see Configure the Legacy SharePoint integration.
+For more information see [Configure the Legacy SharePoint integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 [View a video demonstration of this feature.](https://vimeo.com/716405303/a3fdff19ea)
 
@@ -52,6 +52,6 @@ You can now upload outside files with the content you’ve created in the Adobe 
 
 For more information, see
 
-*   Upload proofs from Adobe Photoshop
+*   [Upload proofs from Adobe Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs.md)
     
-*   Upload XD art boards as proofs to Workfront
+*   [Upload XD art boards as proofs to Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-proofs.md)
