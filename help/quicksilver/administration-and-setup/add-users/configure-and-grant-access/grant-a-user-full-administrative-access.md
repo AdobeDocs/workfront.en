@@ -2,7 +2,6 @@
 title: Grant a user full administrative access
 description: You can grant users full administrative access to Workfront.
 author: Caroline
-draft: Probably
 feature: System Setup and Administration
 role: Admin
 ---
@@ -21,14 +20,6 @@ role: Admin
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 As an Adobe Workfront administrator, you can create another Workfront administrator by assigning them the System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
-
-<!--
-Replace first paragraph with the following for IMS:
-
-As an Adobe administrator, you can create a Workfront administrator by assigning a user the Workfront System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
-
-For instructions, see the section <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create" class="MCXref xref">Create users in Workfront with the Adobe Admin Console</a>in the article <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.
--->
 
 >[!NOTE]
 >
@@ -61,15 +52,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This ^ will need to change for IMS, not sure how</p>
--->
-
 ## Grant full System Administrator access to a single user
-
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Remove this entire section for IMS</p>
--->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png).   
 

@@ -17,10 +17,6 @@ As an Adobe Workfront administrator, you can integrate Workfront with a Security
 
 This guide focuses on setting up ADFS without auto provisioning or attribute mappings. We recommend that you complete the setup and test it prior to setting up any auto provisioning.
 
->[!NOTE]
->
->This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 
