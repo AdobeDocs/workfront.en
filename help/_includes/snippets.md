@@ -6,11 +6,11 @@
 
 ## Highlighted Preview {#highlighted-preview}
 
-<div class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</div>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 ## Highlighted Preview for full article {#highlighted-preview-article-level}
 
-<div class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</div>
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 <!-- Admin and Setup -->
 

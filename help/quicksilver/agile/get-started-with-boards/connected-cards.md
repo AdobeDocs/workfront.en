@@ -14,7 +14,7 @@ feature: Agile
 
 You can add a card on your board that is connected to existing tasks and issues in Workfront.
 
-When the following information is updated for the card in one location, it is automatically updated in the other location:
+When any one of the following details is updated for the card in one location, it is automatically updated in the other location:
 
 * Name
 * Description
