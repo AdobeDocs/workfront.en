@@ -21,6 +21,9 @@ When any one of the following details is updated for the card in one location, i
 * Assignees
 * Status
 
+>[!NOTE]
+>A single connected task or issue can only be added once per board. The same task or issue can be connected to multiple boards.
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -55,9 +58,11 @@ You must have the following access to perform the steps in this article:
 1. Click **Add card &gt; Connected card**.
 1. Choose a project, then choose a task or issue to add as a card on the board.
 
+   You can select multiple objects and they will all be added as separate cards.
+
    >[!NOTE]
    >
-   >Only objects that you have permissions to are available in the search results.
+   >Only objects that you have permissions to are available in the search results. If an item is dimmed, it has already been added to the board.
 
 1. Click **Add**.
 
@@ -127,7 +132,7 @@ You must have the following access to perform the steps in this article:
    </table>
 
 1. Click **Close** to return to the board.
-   The connected object, assignees, tags, due date, and checklist counter are displayed on the card.
+   The connected object, assignees, tags, due date, checklist counter, <span class="preview">and estimated hours</span> are displayed on the card.
    
    Sample card on a board in the Production environment:
    ![Connected card on board showing details](assets/boards-connected-card-details.png)
