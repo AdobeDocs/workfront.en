@@ -1,8 +1,7 @@
 ---
 title: Add or edit an asset widget in a custom form
-description: Add or edit an asset widget in a custom form
+description: You can add or edit the properties of any of the following asset widgets such as images, videos, and PDF files in a custom form. This is useful when you need to include visual content such as branding images, an instructional video, or an interactive prototype for an app you are designing.  
 author: Caroline
-draft: Probably
 feature: System Setup and Administration
 role: Admin
 ---

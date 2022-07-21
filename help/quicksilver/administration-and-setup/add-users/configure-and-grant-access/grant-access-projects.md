@@ -3,7 +3,7 @@ title: Grant access to projects
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
-description: As an Adobe Workfront administrator, you can use an access level to define a user's access to projects in Workfront, as explained in Access levels overview.
+description: As an Adobe Workfront administrator, you can use an access level to define a user's access to projects in Workfront.
 author: Caroline
 feature: System Setup and Administration
 role: Admin

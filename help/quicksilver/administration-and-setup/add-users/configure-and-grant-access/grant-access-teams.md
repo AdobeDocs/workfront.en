@@ -1,6 +1,6 @@
 ---
 title: Grant access to teams
-description: Grant access to teams
+description: As an Adobe Workfront administrator, you can use an access level to define a user's access to teams in Workfront
 author: Caroline
 draft: Probably
 feature: System Setup and Administration

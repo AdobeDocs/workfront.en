@@ -3,8 +3,8 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
 title: Configure Adobe Workfront with Azure Active Directory
-description: The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
-author: Caroline
+description: You can configure Workfront Single Sign-On with Azure Active Directory.
+author: Becky, Caroline
 feature: System Setup and Administration
 role: Admin
 ---

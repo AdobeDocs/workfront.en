@@ -1,6 +1,6 @@
 ---
 title: Grant access to users
-description: Grant access to users
+description: As an Adobe Workfront administrator, you can use an access level to define a user's access to other users in Workfront.
 author: Caroline
 draft: Probably
 feature: System Setup and Administration

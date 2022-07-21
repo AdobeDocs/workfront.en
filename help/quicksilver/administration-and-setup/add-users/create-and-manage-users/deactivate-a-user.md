@@ -3,7 +3,7 @@ title: Deactivate or reactivate a user
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+description: As a Workfront administrator, you can deactivate or reactivate a user.
 author: Caroline
 feature: System Setup and Administration
 role: Admin

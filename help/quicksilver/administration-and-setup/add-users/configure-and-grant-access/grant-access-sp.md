@@ -1,6 +1,6 @@
 ---
 title: Grant access to Scenario Planner
-description: Grant access to Scenario Planner
+description: As an Adobe Workfront administrator, you can use an access level to define a user's access to Scenario Planner.
 author: Caroline
 draft: Probably
 feature: System Setup and Administration

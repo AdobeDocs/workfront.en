@@ -3,7 +3,7 @@ title: Import users
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+description: You can import users to the Adobe Workfront site by synchronizing users from a network directory service (such as Active Directory or another LDAP directory), or you can import users using a spreadsheet import file.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -19,7 +19,7 @@ role: Admin
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-You can import users to the Adobe Workfront site by synchronizing users from network directory service (such as Active Directory or another LDAP directory), or you can import users using a spreadsheet import file.
+You can import users to the Adobe Workfront site by synchronizing users from a network directory service (such as Active Directory or another LDAP directory), or you can import users using a spreadsheet import file.
 
 Before you create a new user, first ensure that you have created all objects that you want to associate with the user. For example, if you have not created a schedule, you cannot assign a schedule to the new user, and the field you use to associate a schedule with the new user does not appear in the New User screen.
 

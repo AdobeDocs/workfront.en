@@ -4,7 +4,8 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-description: This article explains what happens when an approval process is already in use when a Workfront administrator (or a user with administrative access to approval processes) changes its association with a group. 
+description: This article explains what happens when an approval process is already in use when a Workfront administrator (or a user with administrative access to approval processes) changes its association with a group.
+author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
 ---
