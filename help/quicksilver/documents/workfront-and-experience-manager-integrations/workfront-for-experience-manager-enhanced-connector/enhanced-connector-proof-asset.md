@@ -9,7 +9,7 @@ feature: "Digital Content and Documents, Workfront Integrations and Apps"
 
 # Proof a linked asset for Experience Manager Assets
 
-After you've linked an asset from Experience Manager Assets, you can create a proof and assign users to review and add comments to the asset.
+After you've linked an asset from Experience Manager Assets, you can create a proof and assign users to review and add comments to the asset. Proofs created from linked assets count towards your proof storage quota.
 
 ## Access requirements
 

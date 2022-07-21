@@ -29,7 +29,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Proof role</td> 
-   <td>Read only or higher</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof Permission Profile </td> 
