@@ -20,4 +20,3 @@ The Adobe Workfront plugin for XD allows you to:
 * [Update your work in Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-update.md) 
 * [Mark work items complete in Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-complete.md)
 * [Log time in Adobe XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-xd/wf-xd-log-time.md)
-
