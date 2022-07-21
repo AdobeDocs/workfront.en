@@ -126,15 +126,11 @@ You must have the following access to perform the steps in this article:
 
       ![Tags for column](assets/boards-column-tags.png)
 
-<div class="preview">
+1. <span class="preview">Enable the **Work in progress** limit policy to limit the number of cards that can be added to the column.</span>
+1. <span class="preview">Type the limit number in the **Set limit** field.</span>
 
-1. Enable the **Work in progress** limit policy to limit the number of cards that can be added to the column.
-1. Type the limit number in the **Set limit** field.
+   <span class="preview">The number of cards and the limit display at the top of the column. If the column contains more cards than the limit, the counter turns red. Note that the WIP limit is simply a visual warning and does not restrict you from having more items in each column than the limit you set.</span>
 
-   The number of cards and the limit display at the top of the column. If the column contains more cards than the limit, the counter turns red. Note that the WIP limit is simply a visual warning and does not restrict you from having more items in each column than the limit you set.
-
-   ![WIP limit counter](assets/boards-wip-limit-counter.png)
-
-</div>
+   <span class="preview">![WIP limit counter](assets/boards-wip-limit-counter.png)</span>
 
 1. Click **Close** to exit the Settings area and view the column and its cards.

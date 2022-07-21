@@ -50,17 +50,11 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 
 ### Approvals
 
-* ![](assets/prjneedsapprvl.png)
-
-  Project needs your approval - [sender's name] 
+* ![](assets/prjneedsapprvl.png) Project needs your approval - [sender's name] 
 * ![](assets/icon-taskassngdtoyou.png) Task needs your approval - [sender's name]
 * ![](assets/issue.png) Issue needs your approval - [sender's name]
-* ![](assets/document.png)
-
-  Document needs your approval - [sender's name]
-* ![](assets/proof.png)
-
-  Proof needs your approval - [sender's name]
+* ![](assets/document.png) Document needs your approval - [sender's name]
+* ![](assets/proof.png) Proof needs your approval - [sender's name]
 * ![](assets/timesheet.png) Timesheet needs your approval - [sender's name]
 
   <!--
@@ -75,34 +69,18 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 * ![](assets/timesheet.png) Timesheet rejected - [approver's name]
 * ![](assets/timesheet.png) Timesheet reopened - [opener's name]
 * ![](assets/timesheet.png) Timesheet comment - [commenter's name]
-* ![](assets/document.png)
-
-  Document approval completed - [sender's name]
-* ![](assets/document.png)
-
-  Document approved - [sender's name]
-* ![](assets/document.png)
-
-  Document approved with changes - [sender's name]
-* ![](assets/document.png)
-
-  Document rejected - [sender's name]
-* ![](assets/document.png)
-
-  Document approval request cancelled - [sender's name]
+* ![](assets/document.png) Document approval completed - [sender's name]
+* ![](assets/document.png) Document approved - [sender's name]
+* ![](assets/document.png) Document approved with changes - [sender's name]
+* ![](assets/document.png) Document rejected - [sender's name]
+* ![](assets/document.png) Document approval request cancelled - [sender's name]
 
 ### Requests
 
-* ![](assets/document.png)
-
-  [user icon] Asked you to upload a document - [requester's name]
-* ![](assets/document.png)
-
-  Document upload request fulfilled - [fulfiller's name]
+* ![](assets/document.png) [user icon] Asked you to upload a document - [requester's name]
+* ![](assets/document.png) Document upload request fulfilled - [fulfiller's name]
 * ![](assets/user.png) Request comment - Sender name
-* ![](assets/document.png)
-
-  Document upload request canceled - [sender's name]
+* ![](assets/document.png) Document upload request canceled - [sender's name]
 * [Object name] access requested - [sender's name]
 
   The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.
@@ -152,12 +130,8 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 
 ### Share
 
-* ![](assets/document.png)
-
-  Document shared with you - [sharer's name]
-* ![](assets/document.png)
-
-  Document shared with [team name] - [sharer's name]
+* ![](assets/document.png) Document shared with you - [sharer's name]
+* ![](assets/document.png) Document shared with [team name] - [sharer's name]
 * ![](assets/proof.png) Proof shared with you - [sharer's name]
 
 ### Other
