@@ -16,9 +16,6 @@ The following sections describe the integration process when your Workfront acco
 
 For information about configuring SAML prior to your migration to the enhanced authentication experience, see [Update SAML 2.0 metadata in your identity provider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
 
->[!NOTE]
->
->This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 ## Access requirements
 
