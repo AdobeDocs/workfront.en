@@ -3,7 +3,7 @@ title: Create or edit a custom form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: You can create or edit new custom form. Both tasks are explained in this article.
+description: You can create or edit new custom form.
 author: Caroline
 feature: System Setup and Administration
 role: Admin

@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Edit user profiles in bulk
-description: The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+description: As an Adobe Workfront administrator, you can edit user accounts in bulk. 
 author: Caroline
 feature: System Setup and Administration
 role: Admin

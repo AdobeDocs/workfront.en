@@ -1,6 +1,6 @@
 ---
 title: Grant a user full administrative access
-description: Grant a user full administrative access
+description: You can grant users full administrative access to Workfront.
 author: Caroline
 draft: Probably
 feature: System Setup and Administration

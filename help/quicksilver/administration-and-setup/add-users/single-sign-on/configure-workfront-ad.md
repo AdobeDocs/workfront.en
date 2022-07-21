@@ -3,8 +3,8 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: Configure Adobe Workfront with Active Directory
-description: Configure Adobe Workfront with Active Directory
-author: Caroline
+description: You can connect  Workfront with an Active Directory Server.
+author: Becky, Caroline
 feature: System Setup and Administration
 role: Admin
 ---
@@ -14,7 +14,6 @@ role: Admin
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
 
 {{important-admin-console-onboard}}
 

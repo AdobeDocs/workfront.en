@@ -1,6 +1,6 @@
 ---
 title: Grant users administrative access to certain areas
-description: Grant users administrative access to certain areas
+description: As an Adobe Workfront administrator, you can use an access level to grant users with a Plan license administrative access to certain areas of the system.
 author: Caroline
 draft: Probably
 feature: System Setup and Administration
@@ -9,7 +9,7 @@ role: Admin
 # Grant users administrative access to certain areas
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">*** Linked in several places, do not rename or change URL.</p>
+Linked in several places, do not rename or change URL.
 -->
 
 As an Adobe Workfront administrator, you can use an access level to grant users with a Plan license administrative access to certain areas of the system.

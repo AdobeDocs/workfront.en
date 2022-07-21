@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Change the password for an auto-provisioned user
-description: When you create users through auto provisioning, Adobe Workfront assigns them a GUID (Globally Unique Identifier) for a user name. A GUID is a unique string of random numbers and letters, for example, 5489cb430012526e1ea635e8c29f377f.
+description: Often, when a new user attempts to change their temporary password, they enter their email address and receive an error for an incorrect user name. They must enter their system-assigned user name, which is their Globally Unique Identifier (GUID). Because a GUID is hard to remember and use, we recommend that you change a new suser's user name to their Workfront mail address, then allow them to change their password. 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
