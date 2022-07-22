@@ -12,7 +12,7 @@ role: Admin
 
 # User synchronization between Adobe Workfront and Workfront Proof
 
-User information is&nbsp;synchronized from Adobe Workfront to Workfront Proof; it is not synchronized from Workfront Proof to Workfront. Because of this, any time you create or modify users, you must make those changes within Workfront. You cannot make changes to users within Workfront Proof.
+User information is synchronized from Adobe Workfront to Workfront Proof; it is not synchronized from Workfront Proof to Workfront. Because of this, any time you create or modify users, you must make those changes within Workfront. You cannot make changes to users within Workfront Proof.
 
 The following sections provide information about user synchronization from Workfront to Workfront Proof:
 
@@ -27,17 +27,17 @@ Workfront synchronizes the following user information to Workfront Proof:
 
 User information is synchronized from Workfront to Workfront Proof in the following circumstances:
 
-* A&nbsp;user's information is updated in Workfront
-* A&nbsp;user is created in Workfront
+* A user's information is updated in Workfront
+* A user is created in Workfront
 
 Depending on whether a user with the same email address exists in Workfront Proof, either of the following occurs:
 
-* **If no user with a matching email exists in Workfront Proof and**&nbsp;
+* **If no user with a matching email exists in Workfront Proof and** 
 
    * **Proofing is enabled for the user:** The user is created as a User in Workfront Proof.
    * **Proofing is not enabled for the user:** The user is created as a Contact in Workfront Proof.
 
-* **If a user with a matching email exists in Workfront Proof:** Proofing is enabled for that user in Workfront (if it was not already enabled) and information is&nbsp;synchronized between the two users.
+* **If a user with a matching email exists in Workfront Proof:** Proofing is enabled for that user in Workfront (if it was not already enabled) and information is synchronized between the two users.
 
   For more information, see [Configure a user's proofing access](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md) in [Configure a user's proofing access](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 

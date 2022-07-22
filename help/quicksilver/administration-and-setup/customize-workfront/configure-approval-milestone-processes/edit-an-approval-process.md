@@ -37,11 +37,11 @@ You must have the following:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -63,7 +63,7 @@ You must have the following:
 
    1. In the left panel, click **Groups** ![](assets/groups-icon.png).
    1. Click the name of the group for which you want to list or manage group approval processes.
-   1. In the left panel, click **Approvals**. You might need to click&nbsp;**Show More** first.
+   1. In the left panel, click **Approvals**. You might need to click **Show More** first.
 
 1. Click the **Project Approvals**, **Task Approvals**, or **Issue Approvals** tab, depending on the type of approval process you want to edit.
 
@@ -132,7 +132,7 @@ You must have the following:
          <li> <p>When you assign an approval to a role and the <strong>Approver not required to be on the project team (for approval processes that include a role)</strong> is disabled but there are no roles in the project team that match the role on the approval, the approval is reassigned to the Project Owner. For information about approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configure global approval settings</a>.</p> </li> 
         </ul> 
         <ul> 
-         <li> <p>When you assign an approval to the Project Owner and no one is designated as the owner of a project, the approval is reassigned to the main Workfront administrator as indicated in the Customer Info section in the Setup area. For information, see <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configure basic information for your system</a>.&nbsp;&nbsp;<br></p> </li> 
+         <li> <p>When you assign an approval to the Project Owner and no one is designated as the owner of a project, the approval is reassigned to the main Workfront administrator as indicated in the Customer Info section in the Setup area. For information, see <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configure basic information for your system</a>.  <br></p> </li> 
         </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>You can repeat this process to add multiple approvers to the stage. A single stage can include a combination of users, teams, and job roles as approvers. There is no limit to the number of approvers you can add to a stage.</p> <p><b>IMPORTANT</b>:  <p>When you assign job roles as approvers, all users associated with that job role that are also on the project team can make a decision on the approval. <br></p> <p>When you assign a team as an approver, any user in that team can make a decision on the approval. <br></p> <p>For more information about the project team, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a>. For more information about approving work, see <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work </a>.</p> </p> </td> 
      </tr> 
      <tr> 
@@ -151,7 +151,7 @@ You must have the following:
         <li> <p><strong>Set Status to</strong>: Choose one of the following:</p> 
          <ul> 
           <li><strong>Previous Status</strong>: The rejected project, task, or issue reverts to the status prior to the status that activates the approval process.</li> 
-          <li> <p>Any other status in the list: The rejected object moves to the status you choose, such as On Hold. You can choose one of the default statuses or a custom statuses you added to your Workfront system.</p> <p>Tip:  <p>If you select a status associated with an approval process as the rejection status, the rejected object moves to the selected status bypassing the approval process for the rejection status.</p> <p> For example, if you select On Hold for the rejection status and the On&nbsp;Hold status is associated with an approval process, the rejected object is placed in the On&nbsp;Hold status without requiring the approval. </p> </p> <!--
+          <li> <p>Any other status in the list: The rejected object moves to the status you choose, such as On Hold. You can choose one of the default statuses or a custom statuses you added to your Workfront system.</p> <p>Tip:  <p>If you select a status associated with an approval process as the rejection status, the rejected object moves to the selected status bypassing the approval process for the rejection status.</p> <p> For example, if you select On Hold for the rejection status and the On Hold status is associated with an approval process, the rejected object is placed in the On&nbsp;Hold status without requiring the approval. </p> </p> <!--
             <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the caveat about the rejection status in an approval below might change &gt;&gt; this is on the Product roadmap and might be fixed. Right now, this is a bug but we had to document it due to a request from customers - September 2021) </p>
            --> <p>For a system-wide approval process, only system-wide statuses are available.</p> <p>For a group-specific approval process, all group statuses are available. This includes any custom statuses that the group administrator created specifically for the group, as well as any system-wide statuses. </p> <p>For information about how approval process work with statuses, see the section <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">How approval processes rely on statuses</a> in the article <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </li> 
          </ul> </li> 

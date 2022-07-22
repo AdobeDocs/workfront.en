@@ -40,7 +40,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 

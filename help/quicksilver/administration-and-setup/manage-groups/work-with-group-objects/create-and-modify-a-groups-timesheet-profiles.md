@@ -29,11 +29,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -54,7 +54,7 @@ You can delete timesheet profiles in use by a group you manage. For instructions
 
 ## Manually generate group timesheets
 
-To enable changes that you made to group timesheet profiles to reflect&nbsp;in current group timesheets, you have to first delete the existing timesheets and then manually generate new ones. For instructions, see [Manually generate timesheets from the Timesheets & Hours area](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually) in [Manually generate timesheets](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+To enable changes that you made to group timesheet profiles to reflect in current group timesheets, you have to first delete the existing timesheets and then manually generate new ones. For instructions, see [Manually generate timesheets from the Timesheets & Hours area](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually) in [Manually generate timesheets](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 For information about on deleting group timesheets, see [Delete timesheets in Adobe Workfront](../../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
 

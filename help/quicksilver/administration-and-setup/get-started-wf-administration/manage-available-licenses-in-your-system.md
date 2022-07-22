@@ -23,11 +23,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -80,7 +80,7 @@ If an organization has other paid add-on products, their license information als
 >
 >Users without administrative access can use a Group report to view license count. In the Report tab, create a new group report and add the following columns:>
 >* License Type Limit: Worker Limit
->* License Type Limit: Planner Limit&nbsp;
+>* License Type Limit: Planner Limit 
 >
 >To learn more about creating a report, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 >

@@ -33,11 +33,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -79,10 +79,10 @@ You and other Workfront administrators can assign multiple different layout temp
 * To a certain team the user is on
 * To a certain group the user is in
 
-However, only one layout template is visible to the user at any given time.&nbsp;The template that is visible is determined by the following priority hierarchy:
+However, only one layout template is visible to the user at any given time. The template that is visible is determined by the following priority hierarchy:
 
 * **Individual user**: The layout template assigned to the person as an individual user overrides all others. You can override a previous assignment made so an individual user by making a new assignment; the most recent one takes precedence. 
-* **Primary job role**:&nbsp;If the person is not assigned a layout template as a single user, they see the&nbsp;template assigned for their primary job role.
+* **Primary job role**: If the person is not assigned a layout template as a single user, they see the template assigned for their primary job role.
 
   Only the layout template assigned to the primary job role of a user is visible to the user. Templates assigned to any secondary job roles held by the user are not visible.
 
@@ -90,13 +90,13 @@ However, only one layout template is visible to the user at any given time.&nbsp
 
   Only the template assigned to the Home team of a user is visible to the user. Templates assigned to other teams where the a user is a member are not visible.
 
-* **Home group**:&nbsp;If the person is not assigned a layout template as an individual user, nor as a user with a primary job role, nor as a member of a Home team, they see the template assigned to their Home group.
+* **Home group**: If the person is not assigned a layout template as an individual user, nor as a user with a primary job role, nor as a member of a Home team, they see the template assigned to their Home group.
 
-  Only the template assigned to the Home group&nbsp;of a user is visible to the user. Templates assigned to any of their other groups are not visible.&nbsp;
+  Only the template assigned to the Home group of a user is visible to the user. Templates assigned to any of their other groups are not visible. 
 
 ## Large numbers of users assigned to a layout template
 
-If you edit a&nbsp;layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
 
 If you have more than 2000 users to assign to a layout template, we recommend that you do one of the following:
 

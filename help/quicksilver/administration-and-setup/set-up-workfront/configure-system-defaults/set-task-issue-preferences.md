@@ -12,7 +12,7 @@ role: Admin
 # Configure system-wide task and issue preferences
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **&nbsp;** This is linked to Converting Issues.</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ** ** This is linked to Converting Issues.</p>
 -->
 
 As an Adobe Workfront administrator, you can configure system-wide preferences for tasks and issues. These preferences impact the way that your users create tasks and issues in Workfront.
@@ -20,7 +20,7 @@ As an Adobe Workfront administrator, you can configure system-wide preferences f
 By default, these preferences are locked and group administrators cannot modify them at the group level unless you unlock them for all groups throughout the system. For more information, see the section [Lock task and issue preferences for groups](#lock-task-and-issue-preferences-for-groups) in this article.
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">SPLIT&nbsp;OUT&nbsp;BOTTOM SECTION TO NEW ARTICLE?</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">SPLIT OUT BOTTOM SECTION TO NEW ARTICLE?</p>
 -->
 
 ## Access requirements
@@ -33,11 +33,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -103,7 +103,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>When someone converts an issue into a project or task, both the original issue and the converted project or task become resolving objects. This setting lets you correlate the resolution of the original issue to the resolution of its resolvable object. For more information on resolving objects, see <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> <p>In order for this setting to have any effect, the option to <strong>Keep the original issue and tie its resolution to the task</strong> must be selected.</p> 
     <ul> 
      <li>When this setting is enabled, you can create custom statuses with the same key for both issues and projects or tasks. When the project or task (as a resolvable object) turns into the custom status, the change also reflects on the status of the issue. The status key must be the same for the issue and project or task statuses.</li> 
-     <li>When this setting is disabled, resolving&nbsp;object statuses are automatically set to the default status, instead of the custom ones. For more information about the default statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Access the list of system issue statuses</a>.</li> 
+     <li>When this setting is disabled, resolving object statuses are automatically set to the default status, instead of the custom ones. For more information about the default statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Access the list of system issue statuses</a>.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -115,7 +115,7 @@ You must have the following access to perform the steps in this article:
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>Allow Primary Contact to have access to the task</strong>: Gives the primary contact (issue creator)&nbsp;access to the task to review the task, make updates, and stay informed of its progress</li> 
+     <li><strong>Allow Primary Contact to have access to the task</strong>: Gives the primary contact (issue creator) access to the task to review the task, make updates, and stay informed of its progress</li> 
      <li> <p><strong>Allow these settings to be changed during conversion</strong>: Allows the user who is converting the issue to change these options during the conversion of an issue to a task.</p> <!--
        <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot when possible</p>
       --> </li> 
@@ -125,12 +125,12 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">When converting an issue to a project</td> 
    <td> <p>The settings in this section determine what happens during the conversion process from issue to project:</p> 
     <ul> 
-     <li> <p><strong>Keep the original issue and tie its resolution to the project</strong>: When you are converting the issue, it remains visible as an issue until the project is complete. The status of the issue automatically changes to Closed when the project&nbsp;completes. When this is deselected, the issue is deleted. </p> <p><b>NOTE</b>:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
+     <li> <p><strong>Keep the original issue and tie its resolution to the project</strong>: When you are converting the issue, it remains visible as an issue until the project is complete. The status of the issue automatically changes to Closed when the project completes. When this is deselected, the issue is deleted. </p> <p><b>NOTE</b>:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>Allow Primary Contact to have access to the project</strong>: Gives the primary contact (issue creator)&nbsp;access to the project to review the project, make updates, and stay informed of its progress.</li> 
+     <li><strong>Allow Primary Contact to have access to the project</strong>: Gives the primary contact (issue creator) access to the project to review the project, make updates, and stay informed of its progress.</li> 
      <li><strong>Allow these settings to be changed during conversion</strong>: Allows the user who is converting the issue to change the listed options during the conversion of an issue to a project.</li> 
     </ul> </td> 
   </tr> 
@@ -173,10 +173,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">When a task or issue is completed, set the Actual Completion Date to</td> 
-   <td> <p>Select one of the following options for when the Actual Completion Date is&nbsp;recorded in Workfront when a task or issue is completed:</p> 
+   <td> <p>Select one of the following options for when the Actual Completion Date is recorded in Workfront when a task or issue is completed:</p> 
     <ul> 
      <li><strong>Now:</strong> The Actual Completion Date is set to the current date.</li> 
-     <li> <p><strong>The Planned Completion Date:</strong> The Actual Completion Date is set to&nbsp;the Planned Completion Date of the task or issue.</p> </li> 
+     <li> <p><strong>The Planned Completion Date:</strong> The Actual Completion Date is set to the Planned Completion Date of the task or issue.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

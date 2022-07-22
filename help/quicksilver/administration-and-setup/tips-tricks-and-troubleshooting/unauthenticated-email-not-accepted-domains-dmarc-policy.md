@@ -20,7 +20,7 @@ role: Admin
 550-5.7.1 domain's DMARC policy. Please contact administrator of "customer domain.com"  
 550-5.7.1 domain if this was a legitimate mail. Please visit  
 550-5.7.1 [*https://support.google.com/mail/answer/2451690*](https://support.google.com/mail/answer/2451690) to learn about DMARC  
-550 5.7.1 initiative.&nbsp;
+550 5.7.1 initiative. 
 
 ## Solution
 
@@ -28,4 +28,4 @@ DMARC is configured in your company's email system and is not part of Adobe Work
 
 Your email administrator should configure your email system to allow/trust email from noreply@workfront.com or preferably all email from workfront.com.
 
-For more information about DMARC, see&nbsp; [https://support.google.com/mail/answer/2451690.](https://support.google.com/mail/answer/2451690)
+For more information about DMARC, see [https://support.google.com/mail/answer/2451690.](https://support.google.com/mail/answer/2451690)

@@ -25,11 +25,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan</p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -46,7 +46,7 @@ To configure proof email notification settings that are sent from Workfront:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
-1. Expand **Email**, then click&nbsp;**Review and Approval**.  
+1. Expand **Email**, then click **Review and Approval**.  
 
 1. In the **Proof Notifications in Workfront** section, decide whether to enable or disable the option, Send emails from Workfront when a comment is made on a proof.
 

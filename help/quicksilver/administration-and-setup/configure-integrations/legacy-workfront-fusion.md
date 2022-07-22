@@ -25,9 +25,9 @@ role: Admin
 <p>Designer is the core tool for building connections in Legacy Workfront Fusion, and contains a few basic elements. Every connector you build within Designer contains the following elements:</p>
 <ul>
 <li> <p><strong>FLO:</strong> Integrations in Legacy Workfront Fusion are built using FLOs. A FLO is a process with a series of steps that is kicked off by a singular event (for example, a record is added or updated or a period of time has elapsed).</p> </li>
-<li><strong>Card:</strong> A unit of functionality, either an Action or Event. Each step in a FLO is called a card.&nbsp;An Event card triggers a series of Actions that manipulate data or connect Legacy Workfront Fusion to your desired application.</li>
+<li><strong>Card:</strong> A unit of functionality, either an Action or Event. Each step in a FLO is called a card. An Event card triggers a series of Actions that manipulate data or connect Legacy Workfront Fusion to your desired application.</li>
 <li><strong>Input Field:</strong> A field that accepts a value of a certain type that is user-defined.</li>
-<li><strong>Output Field:</strong> A field that contains a value that is defined at the runtime of the FLO.&nbsp;Each card accepts data as an input&nbsp;and returns new data as an output.</li>
+<li><strong>Output Field:</strong> A field that contains a value that is defined at the runtime of the FLO. Each card accepts data as an input and returns new data as an output.</li>
 </ul>
 <p>Legacy Workfront Fusion offers a library of prebuilt cloud applications that allow you to activate a FLO when events occur inside a selected cloud application. Legacy Workfront Fusion has over 150 available connectors.</p>
 <p>Each Legacy Workfront Fusion package contains a certain number of tables per connector and days of Execution History.</p>

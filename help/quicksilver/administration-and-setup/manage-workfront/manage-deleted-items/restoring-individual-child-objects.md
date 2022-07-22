@@ -33,7 +33,7 @@ For more information about the windows of maintenance for the Preview Sandbox en
 
 >[!IMPORTANT]
 >
->Documents are an exception to these methods of restoration. You can manually download them from the Preview Environment, and re-upload them into the Production environment. If you want to download and upload documents in bulk, you will need to request a data restore from Workfront.&nbsp;
+>Documents are an exception to these methods of restoration. You can manually download them from the Preview Environment, and re-upload them into the Production environment. If you want to download and upload documents in bulk, you will need to request a data restore from Workfront. 
 
 ## Information needed for a data restore
 
@@ -55,7 +55,7 @@ Once you have gathered this information or if you require assistance, please cal
 1. After our Customer Support Team receives your information, they will escalate it to our Customer Support Team. 
 1. Our Customer Support Team will contact our Database Team.
 1. Once the Database Team has had a chance to review the data being restored, a more accurate estimate for the ETA can be provided. A restore will generally take three days but can take longer depending on the type and volume of data being restored. 
-1. The Database Team will restore the information to your Preview Sandbox environment where you will have the chance to review the restored data. Our Customer Support Team will let you know when the data can be found&nbsp;in the Preview Sandbox. 
-1. Once you are satisfied with the restore in the sandbox, let our Customer Support Team know &nbsp;and they will contact our&nbsp;Database Team to notify them that they can restore the data to your production environment. 
+1. The Database Team will restore the information to your Preview Sandbox environment where you will have the chance to review the restored data. Our Customer Support Team will let you know when the data can be found in the Preview Sandbox. 
+1. Once you are satisfied with the restore in the sandbox, let our Customer Support Team know  and they will contact our Database Team to notify them that they can restore the data to your production environment. 
 1. You will have a chance to review the restored data before the request is closed.
 

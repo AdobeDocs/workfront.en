@@ -29,7 +29,7 @@ You must have the following in order to manage companies in Workfront:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"><strong>Access level configurations*</strong> </td> 

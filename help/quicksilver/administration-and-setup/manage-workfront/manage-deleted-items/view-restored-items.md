@@ -28,11 +28,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +49,7 @@ You must have the following to perform the steps in this article:
 
 1. Click the **Projects**, **Tasks**, **Issues**, or **Documents** tab, depending on the type of item that was restored.
 
-1. Click the linked name of the item&nbsp;that you want to view.
+1. Click the linked name of the item that you want to view.
 
    The project, task, issue, or document is displayed.
 

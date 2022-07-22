@@ -3,7 +3,7 @@ title: Customize the Details view using a layout template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: As a Workfront administrator, you can use a layout template to determine what information appears when a user selects the Details section in the left panel while viewing a task, issue, document, program, or portfolio.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -55,11 +55,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

@@ -35,7 +35,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -67,7 +67,7 @@ You must have the following to perform the steps in this article:
    1. Add the custom fields to the new form that you want to remove from the original custom form, as described in [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
    1. Save the new custom form.
 
-1. Limit access to the custom form to only users with&nbsp;administrative access, as described in [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).&nbsp;
+1. Limit access to the custom form to only users with administrative access, as described in [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md). 
 1. Apply the new custom form to the objects where the original custom form is already applied, as described in [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
    Applying the new custom form to these objects ensures that historical reporting data is not affected.

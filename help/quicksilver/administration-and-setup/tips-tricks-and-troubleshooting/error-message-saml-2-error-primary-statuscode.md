@@ -32,11 +32,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -55,7 +55,7 @@ You must have the following access to perform the steps in this article:
 1. Select **Trust Relationship** > **Relying Party Trusts** in the left-hand pane.
 
 1. Right-click on the relying party trust related to Adobe Workfront, then select **Properties**.
-1. Click on the **Advanced**&nbsp;tab, then select **SHA-1** from&nbsp;the **Secure hash algorithm** drop-down menu.  
+1. Click on the **Advanced** tab, then select **SHA-1** from the **Secure hash algorithm** drop-down menu.  
    ![](assets/1-350x287.png)
 
 ## Cause 2: ADFS Signing Certificate is about to expire and has been replaced by a new Certificate with overlapping dates

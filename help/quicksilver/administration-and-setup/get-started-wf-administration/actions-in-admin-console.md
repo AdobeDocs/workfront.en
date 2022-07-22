@@ -175,4 +175,4 @@ Because the Adobe Business Platform controls Single Sign-On (SSO) for users, the
 * [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) 
 * [Set up Azure Active Directory with Enhanced Authentication](../../administration-and-setup/manage-workfront/security/set-up-azure-active-directory-enhanced-authentication.md)
 
-&nbsp;
+ 

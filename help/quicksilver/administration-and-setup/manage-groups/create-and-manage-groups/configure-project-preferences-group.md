@@ -38,7 +38,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -101,7 +101,7 @@ Configure any of the following preferences for newly created projects associated
   </tr> 
   <tr> 
    <td role="rowheader">Automatically set the project's Condition based on the Progress Status</td> 
-   <td> <p>This preference allows users to set the Condition of a project manually (On Target, At Risk, In Trouble) or have Workfront set the Condition (Progress Status) automatically based on the project's progression on the timeline. For more information about the Condition of projects, see&nbsp;<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Overview of Project Condition and Condition Type</a>.</p> </td> 
+   <td> <p>This preference allows users to set the Condition of a project manually (On Target, At Risk, In Trouble) or have Workfront set the Condition (Progress Status) automatically based on the project's progression on the timeline. For more information about the Condition of projects, see <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Overview of Project Condition and Condition Type</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Create baselines automatically</p> </td> 
@@ -215,7 +215,7 @@ Configure any of the following preferences for newly created projects associated
    <td role="rowheader"> <p><strong>After a project has been marked as Complete, people can still</strong> </p> </td> 
    <td> <p>Determine the rules for your organization (or group, if you are configuring project preferences for a group) regarding whether a task or an issue can be deleted after the project status has been marked Complete.</p> 
     <ul> 
-     <li><strong>Delete Tasks</strong>: Allows users to delete tasks from a&nbsp;project after the project has been marked Complete.<br></li> 
+     <li><strong>Delete Tasks</strong>: Allows users to delete tasks from a project after the project has been marked Complete.<br></li> 
      <li><strong>Delete Issues</strong>: Allows users to delete issues from a project after the project has been marked Complete.</li> 
     </ul> </td> 
   </tr> 

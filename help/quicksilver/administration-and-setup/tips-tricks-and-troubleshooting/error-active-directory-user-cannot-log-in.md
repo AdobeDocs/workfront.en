@@ -28,5 +28,5 @@ Check the user's name in the Active Directory and compare it to the name in the 
 
 >[!NOTE]
 >
->Please note that this must be a case-sensitive match.&nbsp;
+>Please note that this must be a case-sensitive match. 
 
