@@ -4,7 +4,9 @@ description: Documentation for [!DNL Adobe Workfront].
 ---
 # [!DNL Workfront] documentation
 
-Adobe Workfront is a unified work management application for sharing ideas, creating content, managing complex processes, and doing your best work.
+Welcome to the Adobe Workfront product and technical documentation home page. Adobe Workfront is a marketing work management application that helps you manage the entire lifecycle of work in one place.
+
+Use the following Adobe Workfront docs, tutorials, and additional resources to learn how to implement and effectively use Adobe Workfront in your organization.
 
 The following sections point you to useful links in this guide, arranged by intended audience based on typical job functions:
 
