@@ -2060,6 +2060,7 @@ feature-set: Workfront
       * [Upload XD art boards as documents to Workfront](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-docs.md)
       * [Update your work in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-update.md)
       * [Mark work items complete in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-complete.md)
+      * [Log time in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-xd-log-time.md)
     * Workfront Extension for Illustrator and InDesign {#workfront-for-illustrator-indesign}
       * [Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md)
       * [Install the Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md)
