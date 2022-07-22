@@ -11,7 +11,7 @@ role: Admin
 
 # Configure Workfront with Adobe Experience Manager legacy connector
 
-As an Adobe Workfront administrator, you can integrate Workfront with Adobe Experience Manager (AEM)&nbsp;Assets and provide your organization with a comprehensive content management solution for the creation,&nbsp;sharing, and maintenance of assets within your workflow.&nbsp;&nbsp;
+As an Adobe Workfront administrator, you can integrate Workfront with Adobe Experience Manager (AEM) Assets and provide your organization with a comprehensive content management solution for the creation, sharing, and maintenance of assets within your workflow.  
 
 ## Access requirements
 
@@ -23,11 +23,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan</p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -44,14 +44,14 @@ The Workfront for AEM Assets connector allows your organization to do the follow
 
 * Collaborate and manage creative content by linking AEM assets and folders to projects, tasks, issues, and requests in Workfront.
 
-  For more information about configuring documentation integrations with third-party applications, see&nbsp; [Configure document integrations](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+  For more information about configuring documentation integrations with third-party applications, see  [Configure document integrations](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 * Integrate with the AEM Digital Asset Management (DAM) repository, allowing you to use Workfront to manage and share digital assets stored in the DAM.
 
-  For more information about linking documents and asset folders, see &nbsp; [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+  For more information about linking documents and asset folders, see   [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 * Combine and apply metadata from both applications to an asset.
-* View an all-inclusive communication stream for an asset.&nbsp;Updates and comments made to an asset either in Workfront or AEM Assets are synchronized to the&nbsp;other application, establishing a comprehensive history of communications made to the&nbsp;asset.
+* View an all-inclusive communication stream for an asset. Updates and comments made to an asset either in Workfront or AEM Assets are synchronized to the other application, establishing a comprehensive history of communications made to the asset.
 
   For more information about making comments in Workfront, see [Add an update to a document](../../documents/managing-documents/add-update-documents.md).
 
@@ -68,11 +68,11 @@ Before you can install the Workfront connector for AEM Assets, ensure that the f
 >
 >The following instructions are for a Workfront with AEM Assets legacy connector which has been replaced by the [Workfront for Experience Manager enhanced connector](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md). Please contact your Account Rep for more information.
 
-To install the Workfront for AEM Assets connector, you must import the connector into AEM&nbsp;as a package using the CRX Package Manager.
+To install the Workfront for AEM Assets connector, you must import the connector into AEM as a package using the CRX Package Manager.
 
 1. On a workstation where you have already installed AEM, download the Workfront for AEM Assets Connector installation file.
 
-   You can get&nbsp;the Workfront for AEM Assets connector from your Workfront representative.
+   You can get the Workfront for AEM Assets connector from your Workfront representative.
 
 1. Log in to AEM using an administrator account.
 1. Click **Tools** > **Deployment** > **Packages**.
@@ -103,7 +103,7 @@ To install the Workfront for AEM Assets connector, you must import the connector
 
 After you install the connector, import the connector package to AEM and configure AEM to link with documents in Workfront.
 
-For information on installing the connector, see&nbsp; [Install the Workfront for AEM Assets connector package](#install-the-workfront-for-aem-assets-connector-package).
+For information on installing the connector, see  [Install the Workfront for AEM Assets connector package](#install-the-workfront-for-aem-assets-connector-package).
 
 * [Prerequisites](#prerequisites) 
 * [Integrate AEM with Workfront](#integrate-aem-with-workfront) 
@@ -128,10 +128,10 @@ Before you begin, you must enable permissions for workfront-service:
 
 1. (Conditional) If you have not yet done so, create a Workfront cloud configuration file.
 
-   1. Click&nbsp;&nbsp;**Create** in the upper-right corner of the Global-Workfront page.
+   1. Click  **Create** in the upper-right corner of the Global-Workfront page.
    1. In the **Workfront URL** box, specify the URL for your Workfront instance.
 
-      For example, https://`<account>`.my.workfront.com,&nbsp;where `<account>` is the account you use for integrations with AEM.&nbsp;
+      For example, https://`<account>`.my.workfront.com, where `<account>` is the account you use for integrations with AEM. 
    
    1. In the**Base Folder** field, select the checkbox icon, then in the drop-down menu select the path where documents that are linked to Workfront objects are stored.
    1. In the AEM modal that appears, follow the path to the folder with the documents that are connected to Workfront objects. Choose the folder and press **Select**in the top-right corner.
@@ -168,7 +168,7 @@ Before you begin, you must enable permissions for workfront-service:
 
       **User Federated ID:** Select this option if your organization is using Federated IDs or Single Sign-On (SSO) when logging into Workfront.
 
-      **Ignore Email Domain:** Select this option if your AEM users do not use the domain name in their user ID.&nbsp;
+      **Ignore Email Domain:** Select this option if your AEM users do not use the domain name in their user ID. 
 
       **Restrict Access:** Select this option to specify the appropriate Workfront IP addresses that need to be added to the allowlist. For more information about the allowlist, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
    
@@ -178,7 +178,7 @@ Before you begin, you must enable permissions for workfront-service:
       >
       >Changes may take some time to apply. Restarting the bundle may speed up the process.
 
-1. (Conditional) If you already created a Workfront cloud configuration file, select&nbsp;**Global-Workfront**, and then in the upper-left corner, click **Properties**.
+1. (Conditional) If you already created a Workfront cloud configuration file, select **Global-Workfront**, and then in the upper-left corner, click **Properties**.
 
 1. Generate the AEM API Key by clicking **Generate Key,** then copy the AEM API key to your clipboard.
 
@@ -186,11 +186,11 @@ Before you begin, you must enable permissions for workfront-service:
 
 1. In the upper-right corner, click **Save**.
 
-   The&nbsp;Global-Workfront window displays.
+   The Global-Workfront window displays.
 
    ![Properties.png](assets/properties-350x117.png)
 
-1. (Optional) Synchronize&nbsp;bi-directional communication between AEM and Workfront.
+1. (Optional) Synchronize bi-directional communication between AEM and Workfront.
 
    1. Click **Global-Workfront.**
    1. In the upper-left corner of the window, click **Properties**.
@@ -209,7 +209,7 @@ Before you begin, you must enable permissions for workfront-service:
 
       Or
 
-      Delete the&nbsp;NOTE CREATE event subscription registered to your AEM instance.
+      Delete the NOTE CREATE event subscription registered to your AEM instance.
 
       For information on event subscriptions, see [Event Subscription API](../../wf-api/general/event-subs-api.md).
 
@@ -242,7 +242,7 @@ The AEM Externalizer allows AEM to pass URLs in a format that can be used in Wor
 
 ## Configure Workfront to integrate with AEM assets {#configure-workfront-to-integrate-with-aem-assets}
 
-After you install the Workfront for AEM Assets Connector (as described in [Install the Workfront for AEM Assets connector package](#install-the-workfront-for-aem-assets-connector-package))&nbsp;and configure AEM Assets (as described in [Configure AEM Assets to integrate with Workfront](#configure-aem-assets-to-integrate-with-workfront)), you need to configure Workfront to link documents between&nbsp;Workfront and AEM Assets.
+After you install the Workfront for AEM Assets Connector (as described in [Install the Workfront for AEM Assets connector package](#install-the-workfront-for-aem-assets-connector-package)) and configure AEM Assets (as described in [Configure AEM Assets to integrate with Workfront](#configure-aem-assets-to-integrate-with-workfront)), you need to configure Workfront to link documents between Workfront and AEM Assets.
 
 1. Log in to Workfront as a Workfront administrator.
 
@@ -252,20 +252,20 @@ After you install the Workfront for AEM Assets Connector (as described in [Insta
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click&nbsp;**Documents**>&nbsp;**Custom Integration.**
+1. Click **Documents**> **Custom Integration.**
 
 1. Click **Add Custom Integration**.
-1. In the&nbsp;**Name** box, specify the name of the custom integration.
+1. In the **Name** box, specify the name of the custom integration.
 
-   This is the name users see when using the integration within Workfront; for example, you could enter *"AEM Assets"* for the name.&nbsp;
+   This is the name users see when using the integration within Workfront; for example, you could enter *"AEM Assets"* for the name. 
 
-1. In the&nbsp;**Base API URL** box, specify the URL for your AEM instance.
+1. In the **Base API URL** box, specify the URL for your AEM instance.
 
    The base API URL consists of the URL for your AEM instance followed by the path: /bin/webhooks/api/
 
    ![mceclip3.png](assets/mceclip3-350x130.png)
 
-1. In the&nbsp;**Authentication Type** drop-down menu,&nbsp;select **ApiKey.**
+1. In the **Authentication Type** drop-down menu, select **ApiKey.**
 
 1. In the**API Key** box, paste the AEM API Key you copied when you configured AEM Assets.
 1. Click **Save**.
@@ -274,7 +274,7 @@ After you install the Workfront for AEM Assets Connector (as described in [Insta
 
    Workfront is now configured to work with AEM Assets.
 
-   In order to access assets in AEM, each Workfront user who needs to use the connector must be set up as a user in AEM. For information on creating users, see&nbsp; [Set up users to use the connector](#set-up-users-to-use-the-connector).
+   In order to access assets in AEM, each Workfront user who needs to use the connector must be set up as a user in AEM. For information on creating users, see  [Set up users to use the connector](#set-up-users-to-use-the-connector).
 
 ## Set up users to use the connector {#set-up-users-to-use-the-connector}
 
@@ -287,7 +287,7 @@ For more information about Workfront permissions, see [Create or modify custom a
 ### Set up users in AEM assets {#set-up-users-in-aem-assets}
 
 1. Log in to AEM Assets as a Workfront administrator.
-1. Click&nbsp;**Tools** >******Security** >**Users**.
+1. Click **Tools** >******Security** >**Users**.
 
 1. (Conditional) If the user does not have a user profile in AEM, create an AEM user profile.
 
@@ -296,9 +296,9 @@ For more information about Workfront permissions, see [Create or modify custom a
 
       ![64NewUser.png](assets/64newuser-350x524.png)
 
-      The only required field is the ID field.&nbsp;The user's AEM ID must match their Workfront ID, which is the user's Workfront email address.
+      The only required field is the ID field. The user's AEM ID must match their Workfront ID, which is the user's Workfront email address.
 
-      If you selected the&nbsp;Ignore Email Domain option when you configured AEM to integrate with Workfront, then the AEM ID will not match the Workfront email address.&nbsp;
+      If you selected the Ignore Email Domain option when you configured AEM to integrate with Workfront, then the AEM ID will not match the Workfront email address. 
 
 1. (Conditional) If the user has an AEM profile, open the user's AEM profile.
 

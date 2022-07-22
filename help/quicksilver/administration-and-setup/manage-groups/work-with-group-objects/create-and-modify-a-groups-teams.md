@@ -29,7 +29,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -85,7 +85,7 @@ You must have the following to perform the steps in this article:
        </tr> 
        <tr> 
        <td role="rowheader">Done Button</td> 
-       <td>Select the status that you want set for&nbsp;items when the Done button is clicked.</td> 
+       <td>Select the status that you want set for items when the Done button is clicked.</td> 
        </tr> 
       </tbody> 
      </table>
@@ -118,7 +118,7 @@ You must have the following to perform the steps in this article:
        </tr> 
        <tr> 
        <td role="rowheader">Layout Template</td> 
-       <td> <p>Start typing the name of the layout template you want the team to use, then click it when it appears.</p> <p>When you designate the team with this layout template as the Home Team of users, all users in this team will see the customizations in this layout template.<br>Their individual layout template settings will override the settings of the home team layout template.&nbsp;</p> </td> 
+       <td> <p>Start typing the name of the layout template you want the team to use, then click it when it appears.</p> <p>When you designate the team with this layout template as the Home Team of users, all users in this team will see the customizations in this layout template.<br>Their individual layout template settings will override the settings of the home team layout template. </p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Agile</td> 

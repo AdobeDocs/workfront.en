@@ -43,11 +43,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -63,7 +63,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 1. Click **Set Terminology** near the upper-right corner of the page.
 1. Do any of the following:
 
-   * To use an alternative term provided by Workfront, click the down arrow&nbsp; ![](assets/dropdown-arrow.png) next to the label, then click the alternative label you want in the drop-down list.
+   * To use an alternative term provided by Workfront, click the down arrow  ![](assets/dropdown-arrow.png) next to the label, then click the alternative label you want in the drop-down list.
 
      >[!NOTE]
      >

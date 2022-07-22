@@ -33,11 +33,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -98,11 +98,9 @@ You must have the following to perform the steps in this article:
       <td> 
        <ul> 
         <li><b>Is Active:</b> Select this box to indicate that the user is active. Active users use a Workfront license. Clearing the box deactivates the user.</li> 
-        <li> <p><b>Access Level:</b> Select the access level to assign to this user.<br></p> <p>When you assign an access level to a user, you can assign a level equal to or less than your own access level. (For example, if your access level is Planner, you cannot assign the Administrator access level.) However, you cannot assign an access level that by default is less than your own access level if the Workfront administrator has enabled non-default permissions on the access level that are not also enabled in your own access level (via the Fine-Tune settings, as described in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>). </p> <!--
-          <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Replace the above paragraph with IMS info when the time comes:</p>
-         --> <!--
-          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">When you assign an access level to a user, ...<br></p>
-         --> <p>For more information about access levels, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configure access to Adobe Workfront</a>.</p> </li> 
+        <li> <p><b>Access Level:</b> Select the access level to assign to this user.<br></p> 
+        <p>When you assign an access level to a user, you can assign a level equal to or less than your own access level. (For example, if your access level is Planner, you cannot assign the Administrator access level.) However, you cannot assign an access level that by default is less than your own access level if the Workfront administrator has enabled non-default permissions on the access level that are not also enabled in your own access level (via the Fine-Tune settings, as described in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>). </p> 
+        <p>For more information about access levels, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configure access to Adobe Workfront</a>.</p> </li> 
         <li> <p><b>Layout Template</b>: Choose a Layout Template for the user. This Layout Template takes precedence over any Layout Template assigned to the user's Home Group, Home Team or primary job role. For more information about the assignment priority of Layout Templates, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p> <p><b>NOTE</b>:  <p>The list of templates you have available in this field depends on your access:</p> 
           <ul> 
            <li>As a Workfront administrator, you can see all system-level and group-level Layout Templates.</li> 

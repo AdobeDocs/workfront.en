@@ -36,11 +36,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -93,9 +93,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Automatically log users out after</td> 
-      <td> <p><b>NOTE</b>: This is not currently available. We are working on authentication enhancements that will allow you to log out inactive users automatically after a period of time that you choose.  <!--
-          TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in - Workfront basics/Manage your account and profile/Managing Your Workfront Account/log-out-of-workfront.html
-        --></p> <p>This option lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. </p> <p>This option also affects Workfront customers who are using a single sign-on solution.</p> </td> 
+      <td> <p><b>NOTE</b>: <p>This option lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. </p> <p>This option also affects Workfront customers who are using a single sign-on solution.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Automatically log mobile users out after </td> 

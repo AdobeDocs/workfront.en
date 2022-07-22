@@ -3,7 +3,7 @@ title: Customize the landing page using a layout template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: As an Adobe Workfront administrator, you can use a layout template to specify the area you want users to see each time they log in to Workfront.
+description: As a Workfront administrator, you can use a layout template to specify the area you want users to see each time they log in to Workfront.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -27,11 +27,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -47,7 +47,6 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 1. In the **Top Navigation area**, click **Select landing page**, then select the area you want users to see when they log in.
 
    >[!IMPORTANT]
-   >
    >
    >To view the Scenarios and Goals areas requires additional licenses. For information about Workfront Goals, see [Adobe Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en) or for information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 

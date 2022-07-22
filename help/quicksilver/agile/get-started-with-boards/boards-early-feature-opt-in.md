@@ -2,15 +2,12 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Boards beta
+title: Early feature opt-in for Adobe Workfront Boards
 description: Boards with ad hoc cards are available to all users, and we are excited to open additional features for early feature opt-in.
 author: Lisa
 ---
 
 # Early feature opt-in for Adobe Workfront Boards
-
-{{highlighted-preview-article-level}}
-
 
 Boards with ad hoc and connected cards are available to all users, and we are excited to open additional boards features for early feature opt-in beginning in July 2022.
 
@@ -20,7 +17,7 @@ For general information about boards, see [Boards overview](/help/quicksilver/ag
 
 ## Release schedule
 
-* Early feature opt-in launch in Preview: July 2022
+* Early feature opt-in launch in Preview: July 22, 2022
 * Official release: TBD
 
 ## Features

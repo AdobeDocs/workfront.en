@@ -5,6 +5,7 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Users can specify the status of a project so that other users can see the project's current stage of development at a given time.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---
@@ -29,11 +30,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -62,6 +63,6 @@ For information about editing a system status and creating custom statuses, see 
 
 ## Creating custom project statuses and customize system statuses
 
-As a Workfront administrator you can add system project statuses to Workfront. As a group owner, you can add a custom status specific to one group. For more information about creating custom statuses or editing the system&nbsp;ones, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+As a Workfront administrator you can add system project statuses to Workfront. As a group owner, you can add a custom status specific to one group. For more information about creating custom statuses or editing the system ones, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 When you create a custom project status, you must always equate the new status with an existing system status. You must understand the behavior of the system statuses to know which status is appropriate to equate your custom status with. After you have selected your equal status this selection cannot be changed. For more information about the system project statuses, see [System project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).

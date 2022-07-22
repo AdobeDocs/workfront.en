@@ -15,16 +15,6 @@ role: Admin
 
 Adobe Workfront single sign-on (SSO) supports the integration with Azure Active Directory. You configure Workfront SSO with Azure Active Directory using the Security Assertion Markup Language (SAML) 2.0 option in Workfront.
 
->[!NOTE]
->
->This is not available if your organization's Workfront instance uses a custom SSO portal.>
-><!--
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
->or is enabled with Adobe IMS>
-></MadCap:conditionalText>>
->-->
->See your network or IT administrator if you need more information.
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 
@@ -35,11 +25,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

@@ -11,7 +11,7 @@ role: Admin
 
 # Enable Outlook for use with Workfront and SAML 2.0
 
-If you enable SAML 2.0 authentication and you want your users to be able to log in to Workfront from Microsoft Outlook using their SAML 2.0 credentials,&nbsp;you must enable SAML 2.0 to authenticate in Office add-ins.
+If you enable SAML 2.0 authentication and you want your users to be able to log in to Workfront from Microsoft Outlook using their SAML 2.0 credentials, you must enable SAML 2.0 to authenticate in Office add-ins.
 
 >[!NOTE]
 >
@@ -31,11 +31,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -64,5 +64,5 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Save**.
 
-   The changes that you saved here affect the experience of all the users in Workfront.&nbsp;
+   The changes that you saved here affect the experience of all the users in Workfront. 
 

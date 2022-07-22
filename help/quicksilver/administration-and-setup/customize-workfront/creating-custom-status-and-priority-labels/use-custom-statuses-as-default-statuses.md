@@ -4,6 +4,7 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Use custom statuses as default statuses
 description: When a custom status is set as a default status, the new default status is used throughout the system in various ways. The ways in which it's used depends on whether it is set as a default system-level status, or a default group-level status.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---
@@ -22,11 +23,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -49,7 +50,7 @@ A custom status that you set as a default group status is used in the following 
 
 * **When the Workfront system chooses a status automatically, the default group status is used:** The custom status that you set as the default group status is used when the Workfront system automatically assigns a status to an object.
 
-  For example, a task can be&nbsp;configured to automatically change to Complete status when the percent complete reaches 100%. If you create a custom status that equates with Complete and you set that custom status as a default status, Workfront changes the status of the task to the new default status.
+  For example, a task can be configured to automatically change to Complete status when the percent complete reaches 100%. If you create a custom status that equates with Complete and you set that custom status as a default status, Workfront changes the status of the task to the new default status.
 
   Custom statuses are used in this way only with group statuses that are associated with a task or issue. Custom statuses cannot be used in this way for statuses associated with a project.
 

@@ -35,11 +35,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -61,7 +61,7 @@ You must have the following to perform the steps in this article:
    * **The Default Schedule**: Workfront uses the Default Schedule of the system and the individual FTE of the user to calculate the Available Hours of the user in resource management tools.   
      For more information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-     For more information about the value of the user FTE, see&nbsp; [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+     For more information about the value of the user FTE, see  [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
    
      Workfront calculates the Available Hours of a user using the following formula when the Workfront administrator chooses The Default Schedule:
 
@@ -79,7 +79,7 @@ You must have the following to perform the steps in this article:
      ```
 
         <!--      
-        <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>In the Production environment: (NOTE:&nbsp;this is the old way it was working, before the 22.2 release)</p><p><code>User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off hours)) * User FTE value</code></p>      
+        <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>In the Production environment: (NOTE: this is the old way it was working, before the 22.2 release)</p><p><code>User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off hours)) * User FTE value</code></p>      
         <div class="example" data-mc-autonum="<b>Example: </b>">      
         <span class="autonumber"><span><b>Example: </b></span></span>      
         <div>      
@@ -102,7 +102,7 @@ You must have the following to perform the steps in this article:
      User Available FTE = (Hours from the Schedule of the User - Time off hours) / Default Schedule Hours
      ```
 
-     **Example:** For example, if the Default Schedule is 40 hours a week and the schedule of the user is 30 hours a week,&nbsp;the FTE of the user is 0.75.&nbsp;
+     **Example:** For example, if the Default Schedule is 40 hours a week and the schedule of the user is 30 hours a week, the FTE of the user is 0.75. 
 
      If the user has 2 hours of Time off one day, their Weekly Available FTE will be calculated as follows:
 

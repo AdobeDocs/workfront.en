@@ -4,6 +4,7 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Reorder system-level and group statuses
 description: As a Workfront administrator, you can change the order of project, task, and issue statuses for everyone in the system or for a single group.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---
@@ -12,9 +13,7 @@ role: Admin
 
 As a Workfront administrator, you can change the order of project, task, and issue statuses for everyone in the system or for a single group.
 
-<!--
-The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.
--->
+<!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
 ![](assets/statuses.png)
 
@@ -38,7 +37,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan* </td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
    <td role="rowheader">Adobe Workfront license*</td> 

@@ -22,7 +22,7 @@ role: Admin
 <p class="workfront_plans"> This is available only for customers who have aLegacy Workfront Fusion license.</p>
 <p>For more information about Legacy Workfront Fusion, see <a href="../../administration-and-setup/configure-integrations/legacy-workfront-fusion.md" class="MCXref xref" xrefformat="{para}">Legacy Workfront Fusion</a>.</p>
 <h2>Enable the Slack integration</h2>
-<p>The first time you add a Slack card to a FLO, you must set up a connection for that connector.&nbsp;</p>
+<p>The first time you add a Slack card to a FLO, you must set up a connection for that connector. </p>
 <p>To set up a connection with Slack:</p>
 <div>
 <ol>
@@ -32,13 +32,13 @@ role: Admin
 <li value="4">Do either of the following, depending on whether a connection is already configured:
 <ul>
 <li>If a connection is already configured, click <strong>New connection</strong> in the top right corner of the card to create a new connection.</li>
-<li>If you don't have any connections configured, click <strong>New Connection</strong>&nbsp;be taken to the next step.</li>
+<li>If you don't have any connections configured, click <strong>New Connection</strong> be taken to the next step.</li>
 </ul></li>
 <li value="5">Name your connection. Choose something unique, because you might need to distinguish between multiple connections in the future.</li>
 <li value="6">Click <strong>Create</strong>.</li>
-<li value="7">(Conditional)&nbsp;Sign in to Slack if you are not currently signed in.&nbsp;</li>
-<li value="8">In the dialog box, select the Slack account you want to connect to.&nbsp;</li>
-<li value="9">Click&nbsp;<strong>Authorize</strong>&nbsp;to give Legacy Workfront Fusion access to your Slack data. This allows Legacy Workfront Fusion to send messages on your behalf.&nbsp;You can reuse this connection any time you use Slack in a FLO.&nbsp;</li>
+<li value="7">(Conditional) Sign in to Slack if you are not currently signed in. </li>
+<li value="8">In the dialog box, select the Slack account you want to connect to. </li>
+<li value="9">Click <strong>Authorize</strong> to give Legacy Workfront Fusion access to your Slack data. This allows Legacy Workfront Fusion to send messages on your behalf. You can reuse this connection any time you use Slack in a FLO. </li>
 </ol>
 <p>After you have set up a connection, you can use that connection again or set up a new one.</p>
 <h2>What you can do with the Slack integration</h2>
@@ -49,7 +49,7 @@ role: Admin
 <li><strong>New Pinned Message:</strong> Start FLO when a message is pinned in a certain channel</li>
 <li><strong>Slash Command:</strong> Start FLO when someone sends a slash command to a custom bot. Use with "Respond to Command" action.</li>
 </ul>
-<p>After&nbsp;a FLO&nbsp;is triggered, you can configure it to perform the following Actions in Slack:&nbsp;</p>
+<p>After a FLO is triggered, you can configure it to perform the following Actions in Slack: </p>
 <ul>
 <li><strong>Archive Channel:</strong> Archive a channel with name or channel ID</li>
 <li><strong>Create Channel:</strong> Create a public or private slack channel</li>
@@ -66,8 +66,8 @@ role: Admin
 <li><strong>Send Message to Channel:</strong> Send a message to a channel</li>
 <li><strong>Send Slackbot Message:</strong> Send a message to a user's slackbot channel using their username</li>
 </ul>
-<p>For more information, please access the in-application help within Legacy Workfront Fusion.&nbsp;</p>
-<p>To view the Workfront Privacy Policy, see&nbsp;<a href="https://www.workfront.com/privacy-policy/">https://www.workfront.com/privacy-policy/</a>.&nbsp;</p>
+<p>For more information, please access the in-application help within Legacy Workfront Fusion. </p>
+<p>To view the Workfront Privacy Policy, see <a href="https://www.workfront.com/privacy-policy/">https://www.workfront.com/privacy-policy/</a>. </p>
 </div>
 </div>
 -->

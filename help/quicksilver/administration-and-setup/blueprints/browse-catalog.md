@@ -52,7 +52,7 @@ The catalog displays all of the blueprints that are available for your organizat
 
 ## Request installation of a blueprint
 
-You can request the installation of a blueprint if a system administrator configures blueprint requests.&nbsp;For more information, see [Configure access to blueprints](../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
+You can request the installation of a blueprint if a system administrator configures blueprint requests. For more information, see [Configure access to blueprints](../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
 When you request to have a blueprint installed, the request is sent to the system administrator. You are notified when the request is completed, according to your notification preferences.
 

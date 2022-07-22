@@ -2,13 +2,13 @@
 title: Grant access to Scenario Planner
 description: As an Adobe Workfront administrator, you can use an access level to define a user's access to Scenario Planner.
 author: Caroline
-draft: Probably
+
 feature: System Setup and Administration
 role: Admin
 ---
 # Grant access to Scenario Planner
 
-As an Adobe Workfront administrator, you can use an access level to define a user's access to Scenario Planner, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
+As an Adobe Workfront administrator, you can use an access level to define a user's access to Scenario Planner, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
 
 In addition to access to Scenario Planner, a user with a non-System Administrator access level must also have access to financial data in order to see any financial information contained in a plan, such as budgets, costs, and job role rates. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 

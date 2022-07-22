@@ -33,16 +33,15 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> To perform these steps at the system level, you need the System Administrator access level.<p>To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +63,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 
    <table style="table-layout:auto"> 
     <col> 
-    <col data-mc-conditions=""> 
+    <col> 
     <col> 
     <thead> 
      <tr> 
@@ -99,81 +98,86 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
       <td>The name of a program</td> 
       <td>Projects, Program Details, Updates, Documents</td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td>Template</td> 
       <td>The name of a project template</td> 
       <td>Template Tasks, Template Details, Updates, Documents, Risks, Expenses, People, Approvals, Billing Rates, Queue Details, Routing Rules, Queue Topic, Topic Group</td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td>Template Task</td> 
       <td>The name of a template task</td> 
-      <td>Updates, Documents, Template Task Details, Subtasks, Expenses, Approvals, Predecessors</td> 
-     </tr> <!--
-      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+      <td>Updates, Documents, Template Task Details, Subtasks, Expenses, Approvals, Predecessors</td>
+     </tr>
+     <!--
+      <tr> 
        <td>Document</td> 
        <td>Document Details (for a document uploaded to Workfront)</td> 
        <td>Updates, Approvals, All Versions, Custom Forms</td> 
       </tr>
      --> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td> Billing Record</td> 
       <td>The name of a billing record for a project</td> 
       <td>Billing Record Details, Billable Hours, Billable Expenses, Fixed Revenues</td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td>Projects</td> 
       <td>Projects <img src="assets/projects-in-main-menu.png"> in the Main menu <img src="assets/main-menu-icon.png"></td> 
-      <td> <p>Projects</p> </td> 
+      <td>Projects</td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td>Requests</td> 
       <td>The name of a request</td> 
-      <td>New Request, Submitted requests, All Requests, <span>Drafts</span></td> 
+      <td>New Request, Submitted requests, All Requests, Drafts</td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td>Dashboards</td> 
-      <td> <p>The name of a dashboard</p> </td> 
-      <td> <p>My Dashboards, Shared Dashboards, All Dashboards</p> <p><b>NOTE</b>: If you created custom tabs for the Reports area using a layout template in Adobe Workfront Classic, they display at the bottom of this list. For users, they display at the bottom of the left panel in the Dashboards area.</p> </td> 
+      <td>The name of a dashboard</td> 
+      <td>My Dashboards, Shared Dashboards, All Dashboards<p><b>NOTE</b>: If you created custom tabs for the Reports area using a layout template in Adobe Workfront Classic, they display at the bottom of this list. For users, they display at the bottom of the left panel in the Dashboards area.</p> </td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td>Scrum Team</td> 
       <td>The name of a Scrum team</td> 
       <td>Iterations, Current iteration, Backlog, Schedule, Updates, Team Settings </td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td>Kanban Team</td> 
       <td>The name of a Kanban team</td> 
       <td>Schedule, Kanban board, Backlog, Updates, Team Settings</td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td>Waterfall Team</td> 
       <td>The name of a Waterfall team</td> 
       <td>Schedule, Updates, Team Requests, Team Settings</td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td>Iteration</td> 
       <td>The name of an iteration</td> 
       <td>Stories, Issues, Story Board, Overview, Custom Forms, Updates </td> 
-     </tr> <!--
-      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+     </tr> 
+     <!--
+      <tr> 
        <td>Company</td> 
        <td>The name of the company</td> 
        <td> <p>People (cannot be hidden), Billing Rates, Custom Forms </p> </td> 
       </tr>
-     --> <!--
-      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+     --> 
+     <!--
+      <tr> 
        <td>Timesheets</td> 
        <td>The name of the timesheet</td> 
        <td>My Timesheets, Timesheets I Approve, All Timesheets (cannot be hidden) </td> 
       </tr>
-     --> <!--
-      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+     --> 
+     <!--
+      <tr> 
        <td>Resourcing</td> 
        <td>The name of the resource</td> 
        <td>Planner (cannot be hidden), Scheduling, Utilization, Resource Pools </td> 
       </tr>
-     --> <!--
-      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+     --> 
+     <!--
+      <tr> 
        <td>User Details</td> 
        <td>____________</td> 
        <td>Details (cannot be hidden), Org Chart, Time Off, Custom Forms </td> 
@@ -185,14 +189,10 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
    >[!NOTE]
    >
    >The last 3 items in the **Customize what users see** drop-down list (Lists, Home and Summary, and Branding) are for configuring areas other than the left panel. For information about them, see these articles:
-   >
-   >   
    >   
    >   * [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
    >   * [Customize Home and Summary using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) 
    >   * [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md) 
-   >   
-   >
 
 1. (Optional) If you want to add a left panel item that links to one of your organization's dashboards, click **Add custom section**, type a **Custom section title** for the item, then add the dashboard.
 

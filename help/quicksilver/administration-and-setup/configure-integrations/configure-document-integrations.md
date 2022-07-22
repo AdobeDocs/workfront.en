@@ -31,11 +31,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -150,7 +150,7 @@ After the custom document integration is built, you can make it available to use
     </tbody> 
    </table>
 
-1. (Conditional) If you selected **OAuth**&nbsp;authentication for the **Authentication Type**, specify the following information:
+1. (Conditional) If you selected **OAuth** authentication for the **Authentication Type**, specify the following information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -158,7 +158,7 @@ After the custom document integration is built, you can make it available to use
     <tbody> 
      <tr> 
       <td role="rowheader">Authentication URL</td> 
-      <td>The full URL used for user authentication. Workfront&nbsp;navigates users to this address as part of the OAuth provisioning process.</td> 
+      <td>The full URL used for user authentication. Workfront navigates users to this address as part of the OAuth provisioning process.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Token Endpoint URL</td> 
@@ -166,11 +166,11 @@ After the custom document integration is built, you can make it available to use
      </tr> 
      <tr> 
       <td role="rowheader">Client ID</td> 
-      <td>The OAut&nbsp;Client ID for this integration.</td> 
+      <td>The OAut Client ID for this integration.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Client Secret</td> 
-      <td>The OAut&nbsp;Client Secret for this integration.</td> 
+      <td>The OAut Client Secret for this integration.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Request Parameters</td> 
@@ -181,7 +181,7 @@ After the custom document integration is built, you can make it available to use
 
    >[!TIP]
    >
-   >The Workfront&nbsp;Redirect URI that displays at the bottom of the Custom Integration page lists the URI used to register this integration with the external document provider.
+   >The Workfront Redirect URI that displays at the bottom of the Custom Integration page lists the URI used to register this integration with the external document provider.
 
 1. (Conditional) If you selected **ApiKey** authentication for the **Authentication Type**, specify the API key that was issued by the custom document provider.
 
@@ -197,7 +197,7 @@ For information about how users can use Workfront DAM, see [Managing Documents w
 
 For information about how users can use proofing, see [Create proofs](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
 
-For information about how users can use third-party&nbsp;document integrations after you have configured them, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+For information about how users can use third-party document integrations after you have configured them, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ### Configure Workfront to send metadata to Workfront DAM {#configure-workfront-to-send-metadata-to-workfront-dam}
 
@@ -208,14 +208,14 @@ For information about how users can use third-party&nbsp;document integrations a
 When sending a document from Workfront to Workfront DAM, you can also send information associated with that document. Information about the document is mapped to Workfront DAM as metadata.
 
 Information is mapped one-way only, from Workfront to Workfront DAM and it is transferred only when the document is uploaded to Workfront DAM. Any future changes in the Workfront fields will not update metadata fields in Workfront DAM after the document has already been uploaded.  
-You can map the same Workfront field to various Workfront DAM fields, but you cannot use the same Workfront DAM field for multiple Workfront fields.&nbsp;
+You can map the same Workfront field to various Workfront DAM fields, but you cannot use the same Workfront DAM field for multiple Workfront fields. 
 
 If you must configure multiple Workfront fields to export to one Workfront DAM field, first create a calculated custom field in Workfront to display all the individual custom fields of an object. Then, map the calculated Workfront field to one Workfront DAM field.  
 For more information about calculated custom fields, see [Add calculated data to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-The mapping affects all the documents uploaded&nbsp;by any user from Workfront to Workfront DAM.
+The mapping affects all the documents uploaded by any user from Workfront to Workfront DAM.
 
-As a Workfront administrator, you must enable Workfront DAM in Workfront before you can map the fields for the metadata mapping process. For more information about how to&nbsp;enable Workfront DAM, see [Configure Workfront to send metadata to Workfront DAM](#configure-workfront-to-send-metadata-to-workfront-dam). &nbsp;
+As a Workfront administrator, you must enable Workfront DAM in Workfront before you can map the fields for the metadata mapping process. For more information about how to enable Workfront DAM, see [Configure Workfront to send metadata to Workfront DAM](#configure-workfront-to-send-metadata-to-workfront-dam).  
 
 To configure Workfront to send metadata to Workfront DAM:
 
@@ -223,16 +223,16 @@ To configure Workfront to send metadata to Workfront DAM:
 
 1. Click **Documents** > **Metadata Mapping**.   
 
-1. In the **Select Source Field for Mapping** field, begin&nbsp;typing the name of the Workfront field you want to map to Workfront DAM, then select it when you see it in the list.&nbsp;
-1. In&nbsp;the **Select Target Field for Mapping**, select the Workfront DAM field you want to populate with the information in the selected Workfront field.
+1. In the **Select Source Field for Mapping** field, begin typing the name of the Workfront field you want to map to Workfront DAM, then select it when you see it in the list. 
+1. In the **Select Target Field for Mapping**, select the Workfront DAM field you want to populate with the information in the selected Workfront field.
 
    >[!NOTE]
    >
-   >&nbsp;All&nbsp;documents sent to Workfront DAM by users who have the rights to do so have their metadata updated with the Workfront fields mapped here, when they upload to Workfront DAM.
+   > All documents sent to Workfront DAM by users who have the rights to do so have their metadata updated with the Workfront fields mapped here, when they upload to Workfront DAM.
 
 1. Click **Add Mapping**.  
 
-1. Continue adding more Workfront fields and&nbsp;corresponding Workfront DAM fields.&nbsp;
+1. Continue adding more Workfront fields and corresponding Workfront DAM fields. 
 
 ### Delete mapped fields
 
@@ -243,5 +243,5 @@ To configure Workfront to send metadata to Workfront DAM:
 1. In the list of fields, select any of the fields you want to remove from metadata mapping.
 1. Click **Delete**.
 
-   The fields are removed from metadata mapping and the information contained in them is not transferred to Workfront DAM with the uploaded documents.&nbsp;
+   The fields are removed from metadata mapping and the information contained in them is not transferred to Workfront DAM with the uploaded documents. 
 

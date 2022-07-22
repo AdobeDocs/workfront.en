@@ -159,7 +159,6 @@ The following emails can only be configured at the user profile level. They cann
 </div>
 <p>If you are a Workfront Goals user, you can configure notifications for yourself to receive communication about events happening in that area. For information, see <a href="../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md" class="MCXref xref" xrefformat="{para}">Enable Adobe Workfront Goals notifications</a>.</p>
 </div>
--->
 
 ## In-app notifications
 

@@ -2,7 +2,7 @@
 title: Configurable access to functionality for each object type
 description: Configurable access to functionality for each object type
 author: Caroline
-draft: Probably
+
 feature: System Setup and Administration
 role: Admin
 ---

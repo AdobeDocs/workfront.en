@@ -17,7 +17,7 @@ You can quickly locate text in a proof created for the following types of docume
 
 >[!NOTE]
 >
->&nbsp;Proofs created prior to April 26, 2017 might not be searchable.
+>Proofs created prior to April 26, 2017 might not be searchable.
 
 ## Access requirements
 

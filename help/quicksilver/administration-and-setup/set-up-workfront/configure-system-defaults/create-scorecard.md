@@ -35,7 +35,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +50,7 @@ You must have the following to perform the steps in this article:
 
 1. Specify the following information for the new scorecard:
 
-   | Scorecard Name |The name of the scorecard. This name is displayed&nbsp;when you are associating the scorecard with the project. |
+   | Scorecard Name |The name of the scorecard. This name is displayed when you are associating the scorecard with the project. |
    |---|---|
    | Description |Specify a description for the scorecard. The description is displayed next to the scorecard name in the scorecard list. |
 
@@ -72,11 +72,11 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Points</td> 
-      <td>Specify the maximum points possible for this&nbsp;question.</td> 
+      <td>Specify the maximum points possible for this question.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Negative Points</td> 
-      <td>Select this option&nbsp;to indicate that Workfront should subtract from the total possible points. Negative scores cannot be added to the maximum possible points of a scorecard.</td> 
+      <td>Select this option to indicate that Workfront should subtract from the total possible points. Negative scores cannot be added to the maximum possible points of a scorecard.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Display Type</td> 
@@ -86,7 +86,7 @@ You must have the following to perform the steps in this article:
    </table>
 
    * **Value(0-100)**: This is a numerical value. If selected, a numeric field is displayed in the scorecard where users can specify any value between 0-100.
-   * **Drop Down:**&nbsp;If selected, the **Options** section is now displayed.
+   * **Drop Down:** If selected, the **Options** section is now displayed.
 
      ![drop_down_menu_with_answers_UI_for_scorecards.png](assets/drop-down-menu-with-answers-ui-for-scorecards-350x40.png)
 
@@ -96,7 +96,7 @@ You must have the following to perform the steps in this article:
      |---|---|
      | Value |Specify the value in percentage points of this answer, in case that it is fulfilled. If you choose 100%, the number of points allotted for this question is fully achieved. If you want to indicate that this answer carries only a portion of the total amount of points allotted to this question, select a lower percentage value for this answer. For example, if your question is valued at 10 points, and you want this answer to carry 5 of those points, choose 50% for your **Value**. |
      | Default |Specify whether this answer is the default one. |
-     | Delete |You can&nbsp;delete an answer, if you consider it to no longer be pertinent. |
+     | Delete |You can delete an answer, if you consider it to no longer be pertinent. |
 
      {style="table-layout:auto"}
 
@@ -109,7 +109,7 @@ You must have the following to perform the steps in this article:
      **Value**: Specify the value in percentage points of this answer, in case that it is fulfilled. If you choose 100%, the number of points allotted for this question is fully achieved. If you want to indicate that this answer carries only a portion of the total amount of points allotted to this question, select a lower percentage value for this answer. For example, if your question is valued at 10 points, and you want this answer to carry 5 of those points, choose 50% for your **Value**.
 
      **Default**: Specify whether this answer is the default one.  
-     **Delete**: You can&nbsp;delete an answer, if you consider it to no longer be pertinent.
+     **Delete**: You can delete an answer, if you consider it to no longer be pertinent.
 
 1. Click **Add Question** to add more questions and answers to your scorecard, following the same steps.
 
@@ -124,7 +124,7 @@ You must have the following to perform the steps in this article:
 ## Apply a scorecard to a project
 
 A user with manage permissions to a project can apply a scorecard to a project, after the scorecard has been created by the Workfront administrator.  
-For more information about&nbsp;creating scorecards, see [Create a scorecard](#create-a-scorecard).  
+For more information about creating scorecards, see [Create a scorecard](#create-a-scorecard).  
 For more information about project permissions, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-A scorecard is added to a project as part of creating a business case for the project. For more information about&nbsp;adding a scorecard to a project, see [Apply a scorecard to a project and generate an Alignment Score](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+A scorecard is added to a project as part of creating a business case for the project. For more information about adding a scorecard to a project, see [Apply a scorecard to a project and generate an Alignment Score](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).

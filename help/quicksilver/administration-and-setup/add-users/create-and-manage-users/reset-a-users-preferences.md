@@ -25,11 +25,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -62,7 +62,7 @@ When you reset user preferences, some preferences are reverted to the system def
   </tr> 
   <tr> 
    <td>Groupings</td> 
-   <td> <p>Reverted to the system default</p> <p>Existing Groupings&nbsp;are not&nbsp;deleted. You can select them again.</p> </td> 
+   <td> <p>Reverted to the system default</p> <p>Existing Groupings are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
    <td>Recent Items list</td> 

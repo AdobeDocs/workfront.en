@@ -44,8 +44,7 @@ The IP addresses that you must add to your allowlist on your firewall depend on 
 >
 >* Workfront for G Suite 
 >* Workfront for Outlook 
->* Workfront for Salesforce 
->
+>* Workfront for Salesforce
 
 * [IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9) 
 * [IP addresses to allow for Cluster 4](#ip-addresses-to-allow-for-cluster-4) 

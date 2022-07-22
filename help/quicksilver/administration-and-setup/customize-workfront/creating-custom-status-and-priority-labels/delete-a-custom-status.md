@@ -4,6 +4,7 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Delete a custom status
 description: You can delete a custom system status if it is no longer useful to your organization.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---
@@ -41,11 +42,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
