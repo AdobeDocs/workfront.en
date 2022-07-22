@@ -26,7 +26,6 @@ For information about the Adobe Workfront release schedule, see [Adobe Workfront
   <tr data-mc-conditions=""> 
    <td> <p>Releases in 2022</p> 
     <ul> 
-     <li> <p><a href="../../product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md" class="MCXref xref" xrefformat="{para}">22.4 Release overview</a> </p> </li>
     <li> <p><a href="../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md" class="MCXref xref" xrefformat="{para}">22.3 Release overview</a> </p> </li>
      <li> <p><a href="../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md" class="MCXref xref" xrefformat="{para}">22.2 Release overview</a> </p> </li> 
      <li> <p><a href="../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md" class="MCXref xref" xrefformat="{para}">22.1 Release overview</a> </p> </li> 
