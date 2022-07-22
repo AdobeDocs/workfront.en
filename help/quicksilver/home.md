@@ -6,175 +6,64 @@ description: Documentation for [!DNL Adobe Workfront].
 
 Adobe Workfront is a unified work management application for sharing ideas, creating content, managing complex processes, and doing your best work.
 
-## This is Snippet number test
+The following sections point you to useful links in this guide, arranged by intended audience based on typical job functions:
 
-1. This is natural step one.
-1. Step 2.
-1. Step 3, last of the non-snippets.
+## Administrators
 
-{{snippet-number-test}}
+### Get started for Workfront administrators
 
-## Experiments with HTML tables
+Start learning about Adobe Workfront administration.
 
-For demo purposes only. Remember to delete after training.
+See [Get started with Adobe Workfront administration](/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md).
 
-### HTML table with fixed layout (good)
+### Adobe Workfront Fusion
 
-HTML tables by default (fixed) have equally spaced columns.
+Workfront Fusion connects your apps and web services seamlessly so that you can concentrate on new tasks rather than repeating the same tasks again and again.
 
-`<table style="table-layout:fixed">` at start of table
+See [Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/workfront-fusion-2.md).
 
-<table style="table-layout:fixed">
-<tr>
-  <td>
-    <a href="/help/quicksilver/workfront-basics/workfront-basics.md">
-    <img alt="Getting Started" src="assets/get-started.png"/>
-    </a>
-    <div>
-    <a href="/help/quicksilver/workfront-basics/workfront-basics.md"><strong>Getting Started</strong></a>
-    </div>
-    <em>Getting started with Adobe Workfront.</em>
-    <br>
-  </td>
-  <td>
-    <a href="/help/quicksilver/administration-and-setup/administration-and-setup.md">
-      <img alt="Administration and setup" src="assets/admin.png">
-    </a>
-    <div>
-    <a href="/help/quicksilver/administration-and-setup/administration-and-setup.md"><strong>Administration and Setup</strong></a>
-    </div>
-    <em>Manage users and groups, set up notifications, and customize settings.</em>
-    <br>
-  </td>
-  <td>
-    <a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">
-      <img alt="Reporting" src="assets/reporting.png">
-    </a>
-    <div>
-    <a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md"><strong>Reporting</strong></a>
-    </div>
-    <em>Learn to use report dashboards, enhanced analytics, and Reporting Canvas.</em>
-    <br>
-  </td>
-</tr>
-</table>
+## End users
 
-### HTML table with auto layout (bad)
+### The basics for users
 
-HTML tables with auto layout no longer have equally spaced columns.
+Get started with Workfront by mastering the basics. 
 
-`<table style="table-layout:auto">` at start of table
+See [Adobe Workfront basics](/help/quicksilver/workfront-basics/workfront-basics.md).
 
-<table style="table-layout:auto">
-<tr>
-  <td>
-    <a href="/help/quicksilver/workfront-basics/workfront-basics.md">
-    <img alt="Getting Started" src="assets/get-started.png"/>
-    </a>
-    <div>
-    <a href="/help/quicksilver/workfront-basics/workfront-basics.md"><strong>Getting Started</strong></a>
-    </div>
-    <em>Getting started with Adobe Workfront.</em>
-    <br>
-  </td>
-  <td>
-    <a href="/help/quicksilver/administration-and-setup/administration-and-setup.md">
-      <img alt="Administration and setup" src="assets/admin.png">
-    </a>
-    <div>
-    <a href="/help/quicksilver/administration-and-setup/administration-and-setup.md"><strong>Administration and Setup</strong></a>
-    </div>
-    <em>Manage users and groups, set up notifications, and customize settings.</em>
-    <br>
-  </td>
-  <td>
-    <a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">
-      <img alt="Reporting" src="assets/reporting.png">
-    </a>
-    <div>
-    <a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md"><strong>Reporting</strong></a>
-    </div>
-    <em>Learn to use report dashboards, enhanced analytics, and Reporting Canvas.</em>
-    <br>
-  </td>
-</tr>
-</table>
+### Agile in Workfront
 
-### HTML table with fixed layout (too much space)
+Agile functionality in Workfront allows teams to complete small, manageable amounts of work at a consistent cadence.
 
-HTML tables have equally spaced columns, which isn't ideal for 2-column item/description tables.
+See [Agile overview](/help/quicksilver/agile/agile-overview.md).
 
-`<table style="table-layout:fixed">` at start of table (default)
+### Text Mode reporting
 
-<table style="table-layout:fixed"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">View</td> 
-   <td> <li>Defines the columns in your report and what information you can include in each column.</li> <li>For information about views, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</li> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Grouping</td> 
-   <td> <li>Categorizes information based on a common piece of information and lists the results of the report under blue headings.</li> <li>For information about groupings, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</li> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Filter</td> 
-   <td> <li>Controls the amount of information that appears in a report.</li> <li>For information about filters, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</li> <li>For information about filter modifiers, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Filter and condition modifiers</a>.</li> <li>You can filter by using wildcards, to make your filters more general and give them more flexibility of usage.</li> <li>For information about using wildcards in filters, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Wildcard filter variables</a>.</li> </td> 
-  </tr> 
- </tbody> 
-</table>
+If you can't figure out how to create the report you need in Workfront, the solution you're looking for might be found using Text Mode. 
 
+See [Text Mode resources](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
 
-### HTML table with auto layout (better)
+### The Workload Balancer
 
-HTML tables have equally spaced columns, which isn't ideal for 2-column item/description tables.
+Use the Workload Balancer as an alternative to scheduling resources in Workfront.
 
-`<table style="table-layout:auto">` at start of table
+See [The Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">View</td> 
-   <td> <li>Defines the columns in your report and what information you can include in each column.</li> <li>For information about views, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</li> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Grouping</td> 
-   <td> <li>Categorizes information based on a common piece of information and lists the results of the report under blue headings.</li> <li>For information about groupings, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</li> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Filter</td> 
-   <td> <li>Controls the amount of information that appears in a report.</li> <li>For information about filters, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</li> <li>For information about filter modifiers, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Filter and condition modifiers</a>.</li> <li>You can filter by using wildcards, to make your filters more general and give them more flexibility of usage.</li> <li>For information about using wildcards in filters, see the article <a href="/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Wildcard filter variables</a>.</li> </td> 
-  </tr> 
- </tbody> 
-</table>
+### Workfront release information
 
-## Experiments with native markdown tables
+Learn all the details about what's new in Workfront!
 
-Using `fixed` or `auto` doesn't matter in most native markdown tables. The exception is wide tables with long strings of text in cells.
+See [Workfront product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
-### Native markdown table - Fixed (overlapping to fit)
+## Developers
 
-`{style="table-layout:fixed"}` below the table (default)
+### API basics
 
-| Thing | String | Secondary string | Unit of measurement | Spirit animal |
-|--- |--- |--- |--- |--- |
-| Integrator ID | com.adobe.wired.283275292837sliexsefi3275208U1pasefa |`283275292837sliexsefi3275208U1pasefa` | Watts | Panda |
-| Nom de plat | com.adobe.duplex.xsefi3275208U1pasefa283275292837slie |`xsefi3275208U1pasefa283275292837slie` | MHz | Coyote |
+Learn the basics of the Workfront API.
 
-{style="table-layout:fixed"}
+See [API basics](/help/quicksilver/wf-api/general/api-basics.md).
 
-### Native markdown table - Auto (scrollable)
+### API Explorer
 
-`{style="table-layout:auto"}` below the table
+You can view all of the objects that are available through the Adobe Workfront API in the API explorer. 
 
-Users need to scroll to view table, so beware of tables that are both wide AND tall.
-
-| Thing | String | Secondary string | Unit of measurement | Spirit animal |
-|--- |--- |--- |--- |--- |
-| Integrator ID | com.adobe.wired.283275292837sliexsefi3275208U1pasefa |`283275292837sliexsefi3275208U1pasefa` | Watts | Panda |
-| Nom de plat | com.adobe.duplex.xsefi3275208U1pasefa283275292837slie |`xsefi3275208U1pasefa283275292837slie` | MHz | Coyote |
-
-{style="table-layout:auto"}
+See the [Workfront API Explorer on developer.adobe.com](https://developer.adobe.com/workfront/api-explorer/).
