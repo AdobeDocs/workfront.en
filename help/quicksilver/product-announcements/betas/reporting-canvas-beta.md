@@ -2,8 +2,8 @@
 content-type: reference
 navigation-topic: betas
 title: Reporting Canvas beta
-description: A complete reimagination of reporting in Workfront, the new Reporting Canvas tool is nearing completion and will soon be available for public testing. In developing Reporting Canvas, we have worked hard to provide an experience that offers maximal flexibility coupled with an intuitive, modular design—so that users like you can most effectively leverage your own data in making and sharing reports. Through a new, unified report type that allows you to drag-and-drop nearly every element onto a limitless canvas, creating a visual data masterpiece will soon be easier than ever before.
-author: Luke
+description: Information on the beta program for the upcomming Adobe Workfront Reporting Canvas feature
+author: Nolan
 feature: Product Announcements
 ---
 
@@ -17,13 +17,13 @@ We are excited to open Reporting Canvas for public beta beginning in April 2022.
 
 ### Release schedule
 
-* Public beta launch:&nbsp;April-June 2022
+* Public beta launch: Starting Q3 2022
 
   >[!NOTE]
   >
-  >The beta is being launched in phases, beginning in April and targeted for completion by June.
+  >We are excited to be starting a roll-out of the Reporting Canvas Beta. Over the past few weeks, we have had tremendous interest to join the Reporting Canvas Beta. Due to the volume of customers joining the beta, we are going to limit the ability for any additional customers to join at this time. Starting July 19, 2022, any customers who have not already joined the Reporting Canvas beta by accepting terms will have the beta icon removed from their Workfront production instance. We will ensure more customers can join this beta later in 2022 and will announce updates as the beta becomes available to more customers.
 
-* Official release:&nbsp;Late 2022
+* Official release: TBD
 
 ### Features
 
@@ -193,7 +193,7 @@ After your organization's data is added to Reporting Canvas, other system admini
 
 To opt in other users that are not Workfront administrators:
 
-1. Select the **Reporting (beta)** icon in the Main menu of your Workfront&nbsp;instance..
+1. Select the **Reporting (beta)** icon in the Main menu of your Workfront instance.
 1. Click on **Reporting Canvas permissions**.
 1. Search for and select the specific users you want to participate.
 
@@ -215,10 +215,6 @@ To submit feedback about the beta:
 1. While in Reporting Canvas in Workfront, click the **Send Feedback** button.
 1. Fill out the form, then click **Submit**.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To submit a bug rather than general feedback, please use the standard Workfront&nbsp;issue reporting process. For more information, see <link here>.</p>
--->
-
 ## Beta FAQ
 
 ### Can I migrate my legacy reports to Reporting Canvas?
@@ -234,7 +230,7 @@ Our current strategy for migration in the official releaseis to enable you to do
    1. Give you the ability to export a CSV of all the reports and dashboards in the system along with any relevant tracking information (number of views, when and by whom).
    1. Provide an export of reports that are set up with scheduled deliveries along with the recipients.
 
-1. Select the reports and dashboards that you want to migrate, then click** Migrate**
+1. Select the reports and dashboards that you want to migrate, then click **Migrate**
 
    This is a one-way migration. It creates a copy of the selected reports and dashboards to Reporting Canvas, leaving the legacy report or dashboard intact in the current reporting tool.
 
@@ -244,7 +240,7 @@ Our current strategy for migration in the official releaseis to enable you to do
 
 ### Why can't I see all the objects I normally do?
 
-In order to provide the beta to our customers as early as possible, we have released it with only a subset of the many object types available in Workfront&nbsp;today. Below are the object types currently supported in the beta:
+In order to provide the beta to our customers as early as possible, we have released it with only a subset of the many object types available in Workfront today. Below are the object types currently supported in the beta:
 
 * Assignment
 * Document
@@ -270,33 +266,6 @@ A Workfront administrator cannot opt out of the beta; however, non-system admini
 
 1. Log in as a System administrator.
 1. Navigate to Reporting Canvas.
-1. Click Reporting Canvas** permissions**.
+1. Click Reporting Canvas **permissions**.
 1. Remove the users you want to opt out of the beta from the list that have been opted in.
 1. Click **Save**.
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Resources</h2>
--->
-
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Getting started</h3>
--->
-
-<!--
-<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li> <p><span style="background-color: #ffd700;">Get Started with </span>Reporting Canvas </p> </li>
-<li> <p>Reporting Canvas<span style="background-color: #ffd700;">help articles</span> </p> </li>
-</ul>
--->
-
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Support</h3>
--->
-
-<!--
-<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li> <p><span style="background-color: #ffd700;">Beta support contact</span> </p> </li>
-<li> <p><span style="background-color: #ffd700;">Known issues</span> </p> </li>
-</ul>
--->
-
