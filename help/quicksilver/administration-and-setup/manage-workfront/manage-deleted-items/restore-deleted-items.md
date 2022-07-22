@@ -36,11 +36,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,19 +77,19 @@ When you restore a project, task, or issue, the following associated information
 
 * Baselines
 
-  Task baselines are recovered when you restore their parent project or task, but not&nbsp;when you restore individually deleted tasks.
+  Task baselines are recovered when you restore their parent project or task, but not when you restore individually deleted tasks.
 
 * Hours (and hour IDs)
 
   Whether hours are restored to the deleted item depends on the settings you chose when configuring preferences for timesheets and hours. For more information, see [Configure affect on hours when an object is deleted and restored](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
 
-* The URL of the&nbsp;item
+* The URL of the item
 
-  When restored, the URL of the item&nbsp;remains the same. If people have created browser bookmarks for the item, they&nbsp;remain valid.
+  When restored, the URL of the item remains the same. If people have created browser bookmarks for the item, they remain valid.
 
 * Access and permissions
 
-  Users who had access to the item&nbsp;before it was deleted regain access after it is restored.
+  Users who had access to the item before it was deleted regain access after it is restored.
 
 * Documents (including proofed documents)
 

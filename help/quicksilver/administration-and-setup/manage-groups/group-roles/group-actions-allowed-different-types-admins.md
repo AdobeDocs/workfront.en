@@ -24,7 +24,7 @@ This table lists the administration activities available for:
  <col> 
  <thead> 
   <tr> 
-   <th>&nbsp;</th> 
+   <th> </th> 
    <th>Workfront administrator </th> 
    <th>Group administrator (actions are limited to the groups the administrator manages)</th> 
    <th>Subgroup administrator (actions are limited to the groups the administrator manages)</th> 

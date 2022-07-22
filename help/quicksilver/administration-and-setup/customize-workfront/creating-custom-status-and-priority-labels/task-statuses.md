@@ -5,6 +5,7 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: You can use the status of a task to show users what stage of development a task is in at a given time.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---
@@ -23,11 +24,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

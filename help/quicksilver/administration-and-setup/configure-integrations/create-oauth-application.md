@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -324,4 +324,4 @@ For security, access tokens expire after a short amount of time. To get new acce
 
 The process for acquiring a refresh token is the same as the procedure discussed in the section [Authorizing with an authorization code and access token](#authorizing-with-an-authorization-code-and-access-token). The request for the authorization code includes the scope `offline_access`, which indicates that the request should return a request token along with the authorization code.
 
-&nbsp;
+ 

@@ -33,7 +33,7 @@ When establishing Home Groups, consider how your organization divides your Adobe
 
 When you assign a Layout Template to a group, all users that have the group assigned as their Home Group can see the settings specified in the Layout Template.
 
-If a Layout Template is assigned to a Home Group, it is only visible to users assigned&nbsp;to that Home Group.
+If a Layout Template is assigned to a Home Group, it is only visible to users assigned to that Home Group.
 
 For more information, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 

@@ -40,7 +40,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan* </td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConditions-wf-groups.groups"> 
    <td role="rowheader">Adobe Workfront license*</td> 

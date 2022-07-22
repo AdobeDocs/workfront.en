@@ -59,12 +59,12 @@ The order in which the schedules are used by the system when more than one exist
 
   For more information about personal time, see [Configure personal time off in Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-* When multiple users are assigned to a task, and the users have different schedules during the time frame of the task, Workfront uses either one of the following schedules, as defined in the Project Preferences area of Setup:&nbsp;
+* When multiple users are assigned to a task, and the users have different schedules during the time frame of the task, Workfront uses either one of the following schedules, as defined in the Project Preferences area of Setup: 
 
    * The schedule of the user who is designated as the Primary Assignee 
-   * The schedule associated with the project.&nbsp;
+   * The schedule associated with the project. 
 
-     For more information about project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).&nbsp;&nbsp;
+     For more information about project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).  
 
 * If the user assigned to the task has no schedule, or the task is assigned only to a job role, a team, or is unassigned, Workfront uses the project schedule for the timeline calculations.
 * If the user assigned to the task has no schedule, or the task is assigned only to a job role, a team, or is unassigned, and the project has no schedule, then Workfront uses the schedule in the system designated as the Default Schedule for timeline calculations.

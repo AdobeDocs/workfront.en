@@ -27,7 +27,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -90,7 +90,7 @@ The best way to learn how to add display and skip logic to a custom form is thro
 
 1. Select the new **Sample custom form - Learning display logic and skip logic** custom form, then click **Edit**. 
 
-1. Add a new single line text field called *Other Research* by clicking **Single Line Text Field**, then typing&nbsp;**Other Research** in the **Label** box.
+1. Add a new single line text field called *Other Research* by clicking **Single Line Text Field**, then typing **Other Research** in the **Label** box.
 
 1. Click **Add Logic** near the lower-left side of the **Edit Custom Form** screen.  
 
@@ -126,6 +126,6 @@ To learn about this, continue working on the sample custom form you created in t
    Now, when someone selects **No more research** in the **Issue field** drop-down field, the form will skip directly to the end of the form without displaying the **Other Research** field.
 
 1. Click **Save**. 
-1. Click **Preview** &nbsp;to make sure the logic applies&nbsp;the way you want it. 
+1. Click **Preview**  to make sure the logic applies the way you want it. 
 1. Click **Done** in the lower left side of the form.
 

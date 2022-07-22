@@ -39,11 +39,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -61,7 +61,7 @@ You must have the following access to perform the steps in this article:
 
 1. On the **Edit Person** box that appears, click **Access**.
 
-1. In the **Access Level** drop-down list, select the **System Administrator**&nbsp;access level.
+1. In the **Access Level** drop-down list, select the **System Administrator** access level.
 
    Depending on changes made in your system, the name of this access level might have changed.
 
@@ -166,7 +166,7 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <td>Groups</td> 
    <td>Full access</td> 
-   <td> <p>No access to create Groups.</p> <p>Only group administrators can manage group membership, subgroups, and group-level statuses for the groups they manage.&nbsp;</p> </td> 
+   <td> <p>No access to create Groups.</p> <p>Only group administrators can manage group membership, subgroups, and group-level statuses for the groups they manage. </p> </td> 
   </tr> 
   <tr> 
    <td>Companies</td> 
@@ -175,18 +175,18 @@ Users with a Plan license who can edit functionality in one area have full acces
   </tr> 
   <tr> 
    <td>Log in As</td> 
-   <td>Full access&nbsp;</td> 
+   <td>Full access </td> 
    <td> <p>If their group administrative access is enabled on their Access Level and they are designated as a group administrator, they can log in as the users in the group they administer and their subgroups. They cannot log in as a System Administrator.<br>For more information about enabling group administrative access for users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Schedules</td> 
    <td>Full access</td> 
-   <td> <p>No access to edit Schedules.</p> <p>Access to add existing schedules to other users, at the user level.&nbsp;</p> </td> 
+   <td> <p>No access to edit Schedules.</p> <p>Access to add existing schedules to other users, at the user level. </p> </td> 
   </tr> 
   <tr> 
    <td>Timesheet &amp; Hours: Timesheet Profiles</td> 
    <td>Full access</td> 
-   <td> <p>Access to assign existing Timesheet Profiles to users, at the user level.</p> <p>Users who are group administrators can create Timesheet Profiles for the groups they administer and their subgroups.&nbsp;</p> </td> 
+   <td> <p>Access to assign existing Timesheet Profiles to users, at the user level.</p> <p>Users who are group administrators can create Timesheet Profiles for the groups they administer and their subgroups. </p> </td> 
   </tr> 
   <tr> 
    <td>Timesheet &amp; Hours: Hour Types</td> 
@@ -251,7 +251,7 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <td>Interface: Layout Templates</td> 
    <td>Full access</td> 
-   <td> <p>Access to assign existing Layout Templates to other users, at the user level. </p> <p>Users designated as&nbsp;group administrators can create Layout Templates for groups and subgroups they manage.</p> </td> 
+   <td> <p>Access to assign existing Layout Templates to other users, at the user level. </p> <p>Users designated as group administrators can create Layout Templates for groups and subgroups they manage.</p> </td> 
   </tr> 
   <tr> 
    <td>Interface: Update Feeds</td> 
@@ -296,7 +296,7 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <td>Documents: Custom Integration</td> 
    <td>Full access</td> 
-   <td> <p>No access to configure a Custom Integration.</p> <p>Access to link&nbsp;documents to and from third-party providers from the Documents tab, after the third-party providers have been integrated with Workfront.</p> </td> 
+   <td> <p>No access to configure a Custom Integration.</p> <p>Access to link documents to and from third-party providers from the Documents tab, after the third-party providers have been integrated with Workfront.</p> </td> 
   </tr> 
   <tr> 
    <td>System: Branding</td> 

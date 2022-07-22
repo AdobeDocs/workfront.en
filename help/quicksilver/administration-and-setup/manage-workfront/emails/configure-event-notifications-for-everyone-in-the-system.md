@@ -2,7 +2,7 @@
 title: Configure event notifications for everyone in the system
 description: Configure event notifications for everyone in the system
 author: Lisa
-draft: Probably
+
 feature: System Setup and Administration
 role: Admin
 ---
@@ -38,11 +38,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 

@@ -114,7 +114,7 @@ The following table shows what left panel items are displayed for each access le
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <tr> 
     <td><strong>Legacy Resource Planning</strong> </td> 
     <td>✔ </td> 
     <td>✔ </td> 

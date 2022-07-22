@@ -12,7 +12,7 @@ role: Admin
 
 # Kick-Starts scenario: simple project and task import preparation
 
-Describes in detail the available settings and controls for a &nbsp;basic Project and Task Import using the Kick Start method.&nbsp;
+Describes in detail the available settings and controls for a  basic Project and Task Import using the Kick Start method. 
 
 ## **Scenario**
 
@@ -38,7 +38,7 @@ This scenario assumes users are already imported into Adobe Workfront. If users 
 
    {style="table-layout:auto"}
 
-1. Implement HR&nbsp;System.
+1. Implement HR System.
 
    | Planned Start Date |July 14, 20XX |
    |---|---|
@@ -73,13 +73,13 @@ This scenario assumes users are already imported into Adobe Workfront. If users 
 
 ### Task list {#task-list}
 
-The following task list displays overly simplified task lists for the projects. The only difference between projects is the start dates and progress made on each project.&nbsp;
+The following task list displays overly simplified task lists for the projects. The only difference between projects is the start dates and progress made on each project. 
 
-Parent tasks inherit the Duration, Work, and Percent Complete of children tasks. It is not necessary to set those values for that&nbsp;will become summary tasks.
+Parent tasks inherit the Duration, Work, and Percent Complete of children tasks. It is not necessary to set those values for that will become summary tasks.
 
 >[!NOTE]
 >
->The instructions provided in this scenario are not as explicit as the step-by-step directions provided in [Kick-Starts Scenario: Company, Group, Role, and User Kick-Starts Preparation](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). The assumption is you have already learned how to look up and copy values from the Company and Group sheets, so these steps will be mentioned, but not specifically outlined.&nbsp;
+>The instructions provided in this scenario are not as explicit as the step-by-step directions provided in [Kick-Starts Scenario: Company, Group, Role, and User Kick-Starts Preparation](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). The assumption is you have already learned how to look up and copy values from the Company and Group sheets, so these steps will be mentioned, but not specifically outlined. 
 
 1. Configure.
 1. Import users.
@@ -265,11 +265,11 @@ Parent tasks inherit the Duration, Work, and Percent Complete of children tasks.
 
 ## **Download Template**
 
-Go to the Kick-Starts page. Select the Company, Group, Project, Task, and User objects.&nbsp;Select the Include existing data checkbox &nbsp;(do this to quickly reference Company, Group and User IDs).&nbsp;Click the Download button.
+Go to the Kick-Starts page. Select the Company, Group, Project, Task, and User objects. Select the Include existing data checkbox (do this to quickly reference Company, Group and User IDs). Click the Download button.
 
 ## Input Project Details
 
-Open the Workfront.xlsx file you just downloaded.&nbsp;Go to the PROJ Project sheet.
+Open the Workfront.xlsx file you just downloaded. Go to the PROJ Project sheet.
 
 ![](assets/im2-350x14.png)   
 Unless you have already created projects in Workfront, it should be empty.  
@@ -277,11 +277,11 @@ Unless you have already created projects in Workfront, it should be empty.
 
 >[!NOTE]
 >
->Consider using the spreadsheet's Freeze Panes tool and/ or hiding or removing unneeded columns to make the sheet easier to use. However, be careful not to remove any required columns or columns &nbsp;to use later.
+>Consider using the spreadsheet's Freeze Panes tool and/ or hiding or removing unneeded columns to make the sheet easier to use. However, be careful not to remove any required columns or columns to use later.
 
 ![](assets/im10-350x42.png)
 
-Set the values for the following project fields:&nbsp;
+Set the values for the following project fields: 
 
 * **Set isNew column** 
   Input TRUE into rows 3 through 6 for the isNew column.
@@ -302,7 +302,7 @@ Set the values for the following project fields:&nbsp;
 * **Provide project dates.** 
   Input the Planned Start Date for each project in the setPlannedStartDate column.
 * **Set other needed details.** 
-  Fill in other details, such as a description or current status, as needed.&nbsp;Look up the Group IDs for each project on the GROUP Group sheet and input them into the setGroupID column for the respective projects.&nbsp;Look up the Company ID for the projects on the CMPY Company sheet and input it into the setCompanyID column.&nbsp;Look up the User ID for each project owner on the USER User sheet and input it into the setOwnerID column.&nbsp;Look up the User ID for each project sponsor on the USER User sheet and input it into the setSponsorID column.
+  Fill in other details, such as a description or current status, as needed. Look up the Group IDs for each project on the GROUP Group sheet and input them into the setGroupID column for the respective projects. Look up the Company ID for the projects on the CMPY Company sheet and input it into the setCompanyID column. Look up the User ID for each project owner on the USER User sheet and input it into the setOwnerID column. Look up the User ID for each project sponsor on the USER User sheet and input it into the setSponsorID column.
 
 ![](assets/im9-350x24.png)
 
@@ -314,9 +314,9 @@ Set the values for the following project fields:&nbsp;
 
 You can add information about the tasks on the project, as you import the project using kick-starts.
 
-Open the Workfront.xlsx file you just downloaded.&nbsp;**Go to the TASK Task sheet.**
+Open the Workfront.xlsx file you just downloaded. **Go to the TASK Task sheet.**
 
-Unless you have already created tasks in&nbsp;Workfront, this sheet should be empty.
+Unless you have already created tasks in Workfront, this sheet should be empty.
 
 ![](assets/im8-350x14.png)
 
@@ -326,7 +326,7 @@ Unless you have already created tasks in&nbsp;Workfront, this sheet should be em
 
 The easiest way to map tasks is one project at a time (especially when the tasks are the same on each project). You can then copy the task plan for the first project and make small adjustments to the task plan for the subsequent projects. The remaining steps will assume you are creating tasks for just the Implement Workfront project. According to the scenario, you will be importing 9 tasks per project, so input TRUE into rows 3 through 11 for the isNew column.
 
-Set the values for the following task fields:&nbsp;
+Set the values for the following task fields: 
 
 * **Set IDs** 
   Input a unique ID in each row for the ID column.
@@ -341,7 +341,7 @@ Set the values for the following task fields:&nbsp;
 * **Set Duration** 
   Set the duration for each task by inputting number of hours, days, weeks, or months for the task in the setDuration field. Then input the duration unit in the setDurationUnit field.
 
-  | &nbsp; |Acceptable value |
+  |   |Acceptable value |
   |---|---|
   | Minutes |M |
   | Hours |H |
@@ -349,7 +349,7 @@ Set the values for the following task fields:&nbsp;
   | Weeks |W |
   | Months |T |
 
-  Minutes can also be represented &nbsp;as fraction of an hour (eg., minutets = 5 hours)
+  Minutes can also be represented  as fraction of an hour (eg., minutets = 5 hours)
 
 * Set the amount of effort for each task in the setWorkRequired field. Then input the work unit in the setWorkUnit field. If the Work Required value is different from the duration, you will also need to input an A into the setDurationType field.
 

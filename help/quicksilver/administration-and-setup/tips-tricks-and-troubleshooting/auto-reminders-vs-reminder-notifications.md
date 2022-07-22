@@ -19,11 +19,11 @@ This article describes the differences between automatic reminders and reminder 
 The following characteristics are specific to automatic reminders:
 
 * Can only be turned on and edited by a Workfront administrator
-* Are triggered on all tasks and issues when they are&nbsp;due, late ,or near the planned completion date
-* Can only be sent to the assignee, assignee's manager, or the&nbsp;manager of the immediate manager.
+* Are triggered on all tasks and issues when they are due, late ,or near the planned completion date
+* Can only be sent to the assignee, assignee's manager, or the manager of the immediate manager.
 * Cannot not have an email template attached to them.
 
-Scenario:&nbsp;If you want reminders to be triggered on all tasks and issues throughout the system, then configure the automatic reminder settings. For more information, see [Set up automatic reminders](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md).
+Scenario: If you want reminders to be triggered on all tasks and issues throughout the system, then configure the automatic reminder settings. For more information, see [Set up automatic reminders](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md).
 
 ## Reminder notifications
 

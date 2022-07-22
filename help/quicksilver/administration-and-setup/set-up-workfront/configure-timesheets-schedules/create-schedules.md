@@ -39,11 +39,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -131,7 +131,7 @@ You must have the following access to perform the steps in this article:
 
    For information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. (Optional)&nbsp;Associate the schedule with a project.
+1. (Optional) Associate the schedule with a project.
 
    For information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 

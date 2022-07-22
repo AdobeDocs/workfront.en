@@ -23,7 +23,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -52,7 +52,7 @@ Logging in to Workfront in any of the following ways counts as a login to Workfr
 * The Workfront Web Application
 * The Workfront Mobile Apps (iOS or Android devices)
 * Any supported Workfront integration with another third party application (Slack, Jira)
-* Any custom integration between Workfront and another third party application.&nbsp;
+* Any custom integration between Workfront and another third party application. 
 * The Workfront API
 
   >[!NOTE]

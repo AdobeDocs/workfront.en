@@ -29,11 +29,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -60,7 +60,7 @@ You must have the following access to perform the steps in this article:
        <ul> 
         <li>Any projects, tasks, and issues where they have access to log time</li> 
         <li>Their timesheets as General Time</li> 
-       </ul> <p>This is useful when users plan to be away from the office and want to log that time beforehand.</p> <p><b>NOTE</b>: You cannot prevent users from logging time on tasks or issues that are closed or canceled. You can only prevent users from logging time on complete or dead projects. We recommend that you use filters in lists of tasks and issues to exclude&nbsp;the ones that have been completed or canceled from being visible to users.</p> </td> 
+       </ul> <p>This is useful when users plan to be away from the office and want to log that time beforehand.</p> <p><b>NOTE</b>: You cannot prevent users from logging time on tasks or issues that are closed or canceled. You can only prevent users from logging time on complete or dead projects. We recommend that you use filters in lists of tasks and issues to exclude the ones that have been completed or canceled from being visible to users.</p> </td> 
      </tr> 
    
      <tr> 
@@ -112,7 +112,7 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Work that is within &lt;number of weeks&gt; of the timesheet's work range</td> 
-      <td> <p>Defines the number of weeks before and after the date range&nbsp;of the timesheet that contains dates of tasks and issues assigned to the user. The default setting is 1 week, and you can extend this range to 4 weeks. This means that the timesheet is pre-populated with tasks and issues which have dates anywhere between four weeks before the date range of the timesheet up to four weeks after the date range of the timesheet, if you select 4 weeks for your range. </p> </td> 
+      <td> <p>Defines the number of weeks before and after the date range of the timesheet that contains dates of tasks and issues assigned to the user. The default setting is 1 week, and you can extend this range to 4 weeks. This means that the timesheet is pre-populated with tasks and issues which have dates anywhere between four weeks before the date range of the timesheet up to four weeks after the date range of the timesheet, if you select 4 weeks for your range. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tasks &amp; Issues that have been completed</td> 

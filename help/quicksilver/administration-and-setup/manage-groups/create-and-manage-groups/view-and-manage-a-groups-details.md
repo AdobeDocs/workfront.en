@@ -2,7 +2,7 @@
 title: View and manage a group's details
 description: View and manage a group's details
 author: Caroline
-draft: Probably
+
 feature: "System Setup and Administration, People Teams and Groups"
 role: Admin
 ---
@@ -46,7 +46,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 

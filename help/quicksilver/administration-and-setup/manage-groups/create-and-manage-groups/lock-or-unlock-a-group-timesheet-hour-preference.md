@@ -49,7 +49,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -64,7 +64,7 @@ You must have the following to perform the steps in this article:
 
 >[!TIP]
 >
->If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Timesheet &&nbsp;Hours > Preferences, then searching for the group's name in the box at the top of the page.
+>If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Timesheet & Hours > Preferences, then searching for the group's name in the box at the top of the page.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
