@@ -57,7 +57,7 @@ Workfront appears in the list of Adobe Experience Cloud products you have access
 
 ![Select Workfront to access the application](assets/aec-product-switcher.png)
 
-##Navigate Workfront
+## Navigate Workfront
 
 Use the Main Menu icon ![](assets/main-menu-icon-left-nav.png) on the left of the Workfront navigation bar to navigate to any pages that you have access to. The options that are available in the Main Menu are dependent on:
 
