@@ -19,5 +19,6 @@ This section contains the following articles:
 * [API example scripts](../../wf-api/general/api-example-scripts.md) 
 * [Using the API to sync data for programs and services](../../wf-api/general/api-sync-data.md) 
 * [Deactivate a User via the API](../../wf-api/general/deactivate-user-api.md) 
+<!--
 * [Projects API](../../wf-api/general/projects-api.md)
-
+-->
