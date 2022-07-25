@@ -2461,6 +2461,7 @@ feature-set: Workfront
       * [Review a Proof in Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
 * Adobe Workfront API {#adobe-workfront-api}
   * API Notes {#api-notes}
+    * [API Notes](wf-api/api/api.md)
     * [Uploading files via the API](wf-api/api/uploading-files-api.md)
     * [Ending support for JSONP](wf-api/api/ending-support-jsonp.md)
     * [Update integrations that use default API versioning](wf-api/api/update-default-api-versioning.md)
