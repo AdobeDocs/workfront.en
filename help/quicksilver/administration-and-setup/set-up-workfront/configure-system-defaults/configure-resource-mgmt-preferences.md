@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Configure Resource Management preferences
-description: "(CO: Linked to lots of articles for resource planning."
+description: As an Adobe Workfront administrator you can configure the Resource Management Preferences for your system. These Resource Management preferences determine how user availability or capacity and FTE are calculated for the Workfront resource scheduling and planning tools.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -11,17 +11,11 @@ role: Admin
 
 # Configure Resource Management preferences
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(CO: Linked to lots of articles for resource planning.</p>
-<p>LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
-<p>Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the)</p>
-</div>
+<!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
+Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
 
-As an Adobe Workfront administrator you can configure the Resource Management Preferences for your system.
-
-The Resource Management preferences determine how user availability or capacity and FTE are calculated for the Workfront resource scheduling and planning tools.
+As an Adobe Workfront administrator you can configure the Resource Management Preferences for your system. These Resource Management preferences determine how user availability or capacity and FTE are calculated for the Workfront resource scheduling and planning tools.
 
 For information about planning and scheduling resources in Workfront, see [Get started with Resource Management](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
