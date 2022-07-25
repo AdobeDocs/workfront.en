@@ -88,10 +88,6 @@ You can add filters based on default project fields, Custom Form fields, and hom
 * [Add a project field filter](#add-a-project-field-filter) 
 * [Add a Team filter](#add-a-team-filter)
 
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Add job roles filter link</li>
-  -->
-
 ### Add a project field filter {#add-a-project-field-filter}
 
 Project field filters allow you to filter data for projects and tasks based on the values entered in fields that are included on projects by default.
@@ -226,20 +222,6 @@ To add a Custom Form filter:
    As you add filters, data displays in the visualizations below.
 
    To adjust the date range, see [Change the date range filter](#change-the-date-range-filter).
-
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Add a Job roles filter</h3>
--->
-
-<!--
-<ol data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-<li value="1"> <p> Click the Main Menu icon <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then select <b>Analytics</b>.</p> </li>
-<li value="2"> <p>In the left panel, click <b>People</b>.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/people-area-cropped-qs-350x276.png" style="width: 350;height: 276;"> </p> </li>
-<li value="3"> <p>In the top-left corner of the screen, click <b>Add Filter</b>, then select the <b>Job roles</b> filter.</p> </li>
-<li value="4"> <p style="font-weight: normal;">Locate the job roles you want to see data for by entering at least 3 characters of text in the <b>Search</b> field, then select each job role you want to include in the filter. To select all job roles, click <b>Select All</b>.</p> <p><b>[Insert image here]</b> </p> </li>
-<li value="5"> <p>After you select all desired teams, click <b>Apply Filter</b>.</p> <p>As you add filters, data displays in the visualizations below.</p> <p>To adjust the date range, see <a href="#change-the-date-range-filter" class="MCXref xref">Change the date range filter</a>.</p> </li>
-</ol>
--->
 
 ## Remove a filter
 

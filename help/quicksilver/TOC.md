@@ -15,6 +15,8 @@ feature-set: Workfront
       * [22.3 Release overview](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
       * [22.3 Administrator enhancements](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
       * [22.3 Integration enhancements](product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md)
+      * [22.3 Mobile enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
+      * [22.3 Other enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
       * [22.3 release activity: Week of May 23, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-23.md)
       * [22.3 release activity: Week of May 16, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-16.md)
       * [22.3 release activity: Week of May 2, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-2.md)
@@ -829,6 +831,7 @@ feature-set: Workfront
   * Tips, Tricks, and Troubleshooting for Adobe Workfront Basics {#tips-tricks-for-basics}
     * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
     * [Your quick guide to finding help in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
+    * [Change the date format in Adobe Workfront when using Chrome](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
     * [Contact Customer Support](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
     * [The Adobe Workfront Community](workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
     * [The Adobe Workfront Status site](workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
@@ -2459,6 +2462,7 @@ feature-set: Workfront
       * [Review a Proof in Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
 * Adobe Workfront API {#adobe-workfront-api}
   * API Notes {#api-notes}
+    * [API Notes](wf-api/api/api.md)
     * [Uploading files via the API](wf-api/api/uploading-files-api.md)
     * [Ending support for JSONP](wf-api/api/ending-support-jsonp.md)
     * [Update integrations that use default API versioning](wf-api/api/update-default-api-versioning.md)

@@ -9,9 +9,6 @@ feature: Agile
 
 # Add an ad hoc card to a board
 
-{{highlighted-preview}}
-
-
 You can quickly add a card to a board and assign it to a member on the board. The card can represent a task, issue, person, group, or any type of item that you want to include on the board.
 
 Using a checklist on a card allows you to break down work into smaller increments or add notes to the card.
@@ -78,7 +75,7 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview"><strong>Estimation</strong></span></td> 
-      <td><span class="preview">Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</span></td> 
+      <td><p><span class="preview">Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</span></p> <p><span class="preview">This field is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</span></p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>Due date</strong></td> 
@@ -98,12 +95,8 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
    Sample card in the Production environment:
    ![Ad hoc card details](assets/boards-edit-ad-hoc-card.png)
 
-   <div class="preview">
-
-   Sample card in the Preview environment:
-   ![Ad hoc card details](assets/boards-edit-ad-hoc-card-071822.png)
-   
-   </div>
+   <span class="preview">Sample card in the Preview environment:</span>
+   <span class="preview">![Ad hoc card details](assets/boards-edit-ad-hoc-card-071822.png)</span>
 
 1. Click **Close** to add the card to the board.
 
@@ -112,12 +105,8 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
    Sample card on a board in the Production environment:
    ![Card added to board](assets/boards-sample-card-on-board.png)
 
-   <div class="preview">
-
-   Sample card on a board in the Preview environment:
-   ![Card added to board](assets/boards-sample-card-on-board-071822.png)
-
-   </div>
+   <span class="preview">Sample card on a board in the Preview environment:</span>
+   <span class="preview">![Card added to board](assets/boards-sample-card-on-board-071822.png)</span>
 
 ## Quick add an ad hoc card
 

@@ -54,7 +54,7 @@ As the Workfront administrator, you must update existing users who have matching
 
 To fix duplicate email addresses within a Workfront instance:
 
-1.  Examine any duplicate users and decide which user is no longer needed.
+1. Examine any duplicate users and decide which user is no longer needed.
 
    1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Users**. ![](assets/users-icon-in-main-menu.png)
 
@@ -87,7 +87,7 @@ To fix duplicate email addresses within a Workfront instance:
    
    1. Rename the Grouping and save it.
 
-1.  Do any of the following:
+1. Do any of the following:
 
    * (Preferred method) Add a + address to the user's email address for each additional account.
 
@@ -104,8 +104,8 @@ To fix duplicate email addresses within a Workfront instance:
      
      For example,John Doe could have the following domains: (These must be unique.)
 
-      * johndoe@workfront.inactive
-      * johndoe@workfront.inactive2
+     * johndoe@workfront.inactive
+     * johndoe@workfront.inactive2
 
      You can no longer log in to these accounts because password resets require a valid email address. These accounts can be accessed only by using the Login As feature.
    

@@ -133,6 +133,9 @@ Sharing filters, views, and groupings in the standard interface is identical.
 
 ### Sharing filters using the beta builder interface {#share-with-beta-builder-interface}
 
+>[!NOTE]
+>The beta builder for filters is only available in the Preview environment.
+
 When sharing filters from lists of projects, tasks, or issues, you can share them using the beta builder interface instead of the standard interface.
 
 The beta builder interface is not available for any other objects in Workfront.

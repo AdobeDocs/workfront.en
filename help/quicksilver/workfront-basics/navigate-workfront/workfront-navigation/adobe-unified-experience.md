@@ -3,6 +3,7 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Adobe Unified Experience for Wokfront
 description: Accessing Workfront through Adobe Experience Cloud gives you a seamless, unified experience for managing all of your Adobe applications.
+author: Lisa
 feature: Workfront navigation
 ---
 
@@ -56,7 +57,7 @@ Workfront appears in the list of Adobe Experience Cloud products you have access
 
 ![Select Workfront to access the application](assets/aec-product-switcher.png)
 
-##Navigate Workfront
+## Navigate Workfront
 
 Use the Main Menu icon ![](assets/main-menu-icon-left-nav.png) on the left of the Workfront navigation bar to navigate to any pages that you have access to. The options that are available in the Main Menu are dependent on:
 
