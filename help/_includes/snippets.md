@@ -36,7 +36,7 @@
 
 ## Step 1 - Getting to Setup {#step-1-to-setup}
 
-1. Click the **Main Menu** icon in the upper-right corner of Adobe Workfront ![](assets/main-menu-icon.png), or (if available), click the **Main Menu** icon in the upper-left corner ![](assets/main-menu-icon-left-nav.png), then click Setup ![](assets/gear-icon-setup.png).
+1. Click the **Main Menu** icon in the upper-right corner of Adobe Workfront ![](assets/main-menu-icon.png), or (if available), click the **Main Menu** icon in the upper-left corner ![](assets/main-menu-icon-left-nav.png), then click **Setup** ![](assets/gear-icon-setup.png).
 
 
 ## Important note for Admin Console onboarding {#important-admin-console-onboard}
@@ -46,6 +46,10 @@
 >The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
 >
 >If your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+## Step 1 - Getting to Users {#step-1-to-users}
+
+1. Click the **Main Menu** icon in the upper-right corner of Adobe Workfront ![](assets/main-menu-icon.png), or (if available), click the **Main Menu** icon in the upper-left corner ![](assets/main-menu-icon-left-nav.png), then click **Users** ![](assets/users-icon-in-main-menu.png).
 
 <!-- Agile -->
 
