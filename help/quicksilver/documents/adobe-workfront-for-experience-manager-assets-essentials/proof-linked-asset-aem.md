@@ -1,13 +1,13 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Proof a linked asset for Experience Manager Assets Essentials
+title: Proof a linked asset for Experience Manager Assets or Assets Essentials
 description: After you've linked an asset from Experience Manager Assets Essentials, you can create a proof and assign users to review and add comments to the asset.
 author: Courtney
 feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---
 
-# Proof a linked asset for Experience Manager Assets Essentials
+# Proof a linked asset for Experience Manager Assets or Assets Essentials
 
 After you've linked an asset from Experience Manager Assets Essentials, you can create a proof and assign users to review and add comments to the asset.
 
@@ -25,11 +25,13 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td> <p>Work or higher</p>
+   <p>You must have proofing enabled for your user.</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have Experience Manager Assets Essentials.</td> 
+   <td>You must have Experience Manager as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -43,6 +45,12 @@ You must have the following:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+## Prerequissites
+
+Before you begin, 
+
+* Your Workfront Administrator must configure an Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) or [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Create a Proof
 

@@ -1,15 +1,15 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Send a Document to Experience Manager Assets Essentials
-description: You can send documents from Workfront to Experience Manager Assets Essentials. Documents uploaded and sent from Workfront to Assets Essentials still count against your overall document storage. Assets linked from Assets Essentials don't count towards overall storage.
+title: Send a Document to Experience Manager Assets or Assets Essentials
+description: You can send documents from Workfront to Experience Manager Assets or Assets Essentials. Documents uploaded and sent from Workfront to Assets Essentials still count against your overall document storage. Assets linked from Assets Essentials don't count towards overall storage.
 author: Courtney
 feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---
 
-# Send a Document to Experience Manager Assets Essentials
+# Send a Document to Experience Manager Assets or Assets Essentials
 
-You can send documents from Workfront to Experience Manager Assets Essentials. Documents uploaded and sent from Workfront to Assets Essentials still count against your overall document storage. Assets linked from Assets Essentials don't count towards overall storage.
+You can send documents from Workfront to Experience Manager Assets or Assets Essentials. Documents uploaded and sent from Workfront to Assets Essentials still count against your overall document storage. Assets linked from Assets Essentials don't count towards overall storage.
 
 ## Access requirements
 
@@ -29,13 +29,9 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have Experience Manager Assets Essentials.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Experience Manager User Permissions</td> 
-    <td>Administrator</td> 
-   </tr>
-  --> 
+   <td>You must have Experience Manager as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.
+</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
@@ -49,18 +45,25 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
+## Prerequissites
+
+Before you begin, 
+
+* Your Workfront Administrator must configure an Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) or [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+
+
 ## Send a Document from Workfront
 
-When a user sends a document from Workfront to Assets Essentials, mapped metadata transfers along the document. After the document is sent, changes made to the document's metadata in Workfront are not reflected in Assets Essentials. If a mapped field in Workfront is changed, you must send a new version of the document with the updated metadata to Assets Essentials. To set up or edit metadata, see [Configure the Experience Manager Assets Essentials integration](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+When a user sends a document from Workfront to Experience Manager Assets or Assets Essentials, mapped metadata transfers along the document. After the document is sent, changes made to the document's metadata in Workfront are not reflected in Assets or Assets Essentials. If a mapped field in Workfront is changed, you must send a new version of the document with the updated metadata to Assets or Assets Essentials. To set up or edit metadata, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) or [Configure the Experience Manager Assets Essentials integration](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 To send a document:
 
 1. Go to the **Documents** area in Workfront, and select the document you want to send.
-1. Click **Send to**, then choose the Assets Essentials integration your administrator set up.
+1. Click **Send to**, then choose the Experience Manager integration your administrator set up.
 
    >[!NOTE]
    >
-   >The Workfront administrator can choose any name for this integration, so it may not specifically mention Assets Essentials.
+   >The Workfront administrator can choose any name for this integration, so it may not specifically mention Assets or Assets Essentials.
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
@@ -73,16 +76,16 @@ You can add a new version to a document you have previously uploaded to Workfron
 
 >[!IMPORTANT]
 >
->Before you upload a new version to Workfront, we recommend renaming the file. If you upload a new version with the exact same file name as a previous version, only the most recent version can be downloaded from Workfront. All versions can be downloaded from AEM Assets Essentials regardless of the file name.
+>Before you upload a new version to Workfront, we recommend renaming the file. If you upload a new version with the exact same file name as a previous version, only the most recent version can be downloaded from Workfront. All versions can be downloaded from Experience Manager Assets or Assets Essentials regardless of the file name.
 
 To send the most recent version:
 
 1. Go to the **Documents** area in Workfront, and locate the document.
-1. Select **Send to**, then choose the Assets Essentials integration your administrator set up.
+1. Select **Send to**, then choose the Experience Manager integration your administrator set up.
 
    >[!NOTE]
    >
-   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets Essentials.
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
