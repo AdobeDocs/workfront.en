@@ -8,11 +8,12 @@ author: Courtney
 feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---
 
-# Adobe Workfront for Experience Manager Assets Essentials
+# Adobe Workfront for Experience Manager Assets and Assets Essentials
 
-* [Configure the Experience Manager Assets Essentials integration](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md) 
-* [Link assets and folders from Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md) 
-* [Send a Document to Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md) 
-* [Proof a linked asset for Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md) 
-* [View or download a linked asset from Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
-
+* [Adobe Experience Manager Assets integrations overview](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
+* [Link assets and folders from Experience Manager Assets or Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md) 
+* View mapped metadata - insert link
+* [Send a Document to Experience Manager Assets or Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md) 
+* [Proof a linked asset for Experience Manager Assets or Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md) 
+* [View or download a linked asset from Experience Manager Assets or Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
+* Create a linked folder - insert link
