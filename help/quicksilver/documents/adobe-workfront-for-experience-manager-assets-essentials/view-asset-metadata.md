@@ -84,7 +84,7 @@ To open the Metadata panel in the Summary panel:
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
-1. Click the **Summary icon** ![summary icon](assets/Summary%20panel%20icon.png), then expand the Metadata section.
+1. Click the **Summary icon** ![summary icon](assets/Summary%20panel%20icon.png), then expand the **Metadata** section.
     >[!NOTE]
     >
     >You can't edit fields in this section. They are view-only.
