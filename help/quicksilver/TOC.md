@@ -1,6 +1,6 @@
 ---
 user-guide-title: Workfront
-user-guide-description: Workfront
+user-guide-description: Use the following Adobe Workfront docs, tutorials, and additional resources to learn how to implement and effectively use Adobe Workfront in your organization.
 feature-set: Workfront
 ---
 # Workfront {#using}
@@ -831,6 +831,7 @@ feature-set: Workfront
   * Tips, Tricks, and Troubleshooting for Adobe Workfront Basics {#tips-tricks-for-basics}
     * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
     * [Your quick guide to finding help in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
+    * [Change the date format in Adobe Workfront when using Chrome](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
     * [Contact Customer Support](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
     * [The Adobe Workfront Community](workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
     * [The Adobe Workfront Status site](workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
@@ -2460,7 +2461,9 @@ feature-set: Workfront
       * [Integrate Workfront Proof with Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
       * [Review a Proof in Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
 * Adobe Workfront API {#adobe-workfront-api}
+  * [Workfront API](wf-api/workfront-api.md)
   * API Notes {#api-notes}
+    * [API Notes](wf-api/api/api.md)
     * [Uploading files via the API](wf-api/api/uploading-files-api.md)
     * [Ending support for JSONP](wf-api/api/ending-support-jsonp.md)
     * [Update integrations that use default API versioning](wf-api/api/update-default-api-versioning.md)
@@ -2487,6 +2490,7 @@ feature-set: Workfront
     * [What's New in API Version 7](wf-api/api/new-api-version-7.md)
     * [What's New in API Version 6](wf-api/api/new-api-version-6.md)
   * API General Information {#api-general-information}
+    * [API general information](wf-api/general/api-general.md)
     * [API basics](wf-api/general/api-basics.md)
     * [API Explorer](wf-api/general/api-explorer.md)
     * [Using the API Explorer](wf-api/general/using-api-explorer.md)
@@ -2503,6 +2507,7 @@ feature-set: Workfront
     * [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
     * [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
   * Document Webhooks API {#document-webhooks-api}
+    * [Document Webhooks API articles](wf-api/doc-wbhks-api/document-webhooks-api.md)
     * [Webhooks Overview](wf-api/doc-wbhks-api/webhooks-overview.md)
     * [Register a Webhook Integration](wf-api/doc-wbhks-api/register-webhook-integration.md)
     * [Authentication for Document Webhooks](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
@@ -2522,8 +2527,10 @@ feature-set: Workfront
     * [Test Webhook connections](wf-api/doc-wbhks-api/test-webhook-connections.md)
     * [Document Webhooks Error Handling](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
   * Workfront Object Descriptions {#workfrtont-object-descriptions}
+    * [Workfront object descriptions](wf-api/wf-objects/workfront-objects.md)
     * [Category](wf-api/wf-objects/category.md)
   * Tips, tricks, and troubleshooting for Adobe Workfront API {#tips-troubleshooting-apis}
+    * [Tips, tricks, and troubleshooting for Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
     * [API Error: “The remote server returned an error: (400) Bad Request”](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
     * [Duplicates returned during a large paginated search](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
     * [Sorting query results in the API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)

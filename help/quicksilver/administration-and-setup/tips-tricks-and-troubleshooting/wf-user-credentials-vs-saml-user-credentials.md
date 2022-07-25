@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Adobe Workfront user credentials vs. SAML user credentials
-description: This article focuses specifically on Adobe Workfront and SAML and does not cover other SSO authentication methods such as AD and LDAP.
+description: After user creation, you can edit the user and enable "Only Allow SAML 2.0 Authentication" so that their user and password are controlled by the SAML system. With this option enabled, the user is only allowed to log in via SAML. When they go to the Workfront URL, they are automatically redirected to the SAML system and prompted for their SAML username and password.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -14,14 +14,12 @@ role: Admin
 
 This article focuses specifically on Adobe Workfront and SAML and does not cover other SSO authentication methods such as AD and LDAP.
 
-Workfront credentials are stored in the Workfront database, where the user's email address is their Workfront username. Their Workfront password is also stored. These credentials are replicated in the Preview and Custom Refresh Sandboxes.
+In a database, Workfront stores eawch user's email address as their Workfront username, along with their Workfront password. These credentials are replicated in the Preview and Custom Refresh Sandboxes.
 
-SAML credentials are stored in an external SAML system, such as Microsoft's ADFS. They are not stored in Workfront.
+During user creation, if Workfront detects that SAML 2.0 is configured, it defaults to "Only Allow SAML 2.0 Authentication"" for the user. If the "Send an invite email to this person" box is enabled, Workfront disables "Only Allow SAML 2.0 Authentication" and hides this option. Once "Send an invite email to this person" is enabled, the user becomes a non-SAML Workfront user. 
 
-During user creation, Workfront detects if SAML 2.0 is configured and if it is, defaults to **Only Allow SAML 2.0 Authentication** for the user.
+After user creation, you can edit the user and enable **Only Allow SAML 2.0 Authentication** so that their user and password are controlled by the SAML system.
 
-If during user creation the **Send an invite email to this person** box is checked, Workfront disables **Only Allow SAML 2.0 Authentication** and hides this option. Once **Send an invite email to this person** is checked, this is a non-SAML Workfront user.
+With this done, the user is can log in only via SAML. When they go to the Workfront URL, they are automatically redirected to the SAML system and prompted for their SAML username and password.
 
-After user creation, you have the option to edit the user and check **Only Allow SAML 2.0 Authentication** where the user and password are controlled by the SAML system and the user is no longer using Workfront credentials.
-
-With this option checked, the user is only allowed to log in via SAML. When they go to the Workfront URL, they are automatically redirected to the SAML system asking for their SAML username and password.
+SAML credentials are stored in an external SAML system, such as Microsoft's ADFS, not in Workfront.

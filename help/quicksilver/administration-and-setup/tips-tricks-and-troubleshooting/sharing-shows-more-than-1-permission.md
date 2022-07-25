@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Sharing shows more than one permission
-description: The Sharing window shows two different permissions for one user, which one is being used?
+description: The Sharing window shows two different permissions for one user. Which one is being used?
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -14,7 +14,7 @@ role: Admin
 
 ## Question
 
-The Sharing window shows two different permissions for one user, which one is being used?
+The Sharing window shows two different permissions for one user. Which one is being used?
 
 ## Answer
 
