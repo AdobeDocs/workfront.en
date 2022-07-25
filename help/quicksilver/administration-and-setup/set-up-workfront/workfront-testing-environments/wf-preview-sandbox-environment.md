@@ -139,6 +139,7 @@ Workfront disables all email communication from the Preview Sandbox environment.
 >
 >For more information about report deliveries for the production environment, see [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 >
+
 ## Single Sign-On (SSO)
 
 If you are using SSO, work with our Customer Support team to ensure it is properly configured so that you can use your SSO credentials to log in to the Preview Sandbox. If your initial login fails, please contact your regular support contact or Workfront administrator for assistance.
