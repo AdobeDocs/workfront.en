@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Use notifications
-description: This section contains the following articles - EDIT ME.
+description: Review these articles to learn how to use notifications in Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
 ---
