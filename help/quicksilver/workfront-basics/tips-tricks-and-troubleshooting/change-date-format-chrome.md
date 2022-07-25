@@ -4,7 +4,6 @@ content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Change the date format in Adobe Workfront when using Chrome
 description: (Drafted this article, per consensus from the team)
-hidefromtoc: true
 ---
 
 # Change the date format in Adobe Workfront when using Chrome

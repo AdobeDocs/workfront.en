@@ -1,15 +1,15 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: View or download a linked asset from Experience Manager Assets Essentials
-description: You can view or download an asset in Adobe Workfront that is linked from Experience Manager Assets Essentials.
+title: View or download a linked asset from Experience Manager Assets or Assets Essentials
+description: You can view or download an asset in Adobe Workfront that is linked from Experience Manager Assets or Assets Essentials.
 author: Courtney
 feature: "Digital Content and Documents, Workfront Integrations and Apps"
 ---
 
-# View or download a linked asset from Experience Manager Assets Essentials
+# View or download a linked asset from Experience Manager Assets or Assets Essentials
 
-You can view or download an asset in Adobe Workfront that is linked from Experience Manager Assets Essentials.
+You can view or download an asset in Adobe Workfront that is linked from Experience Manager Assets or Assets Essentials.
 
 ## Access requirements
 
@@ -29,7 +29,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an Experience Manager Assets Essentials instance.</td> 
+   <td>You must have Experience Manager as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -44,6 +44,12 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
+## Prerequissites
+
+Before you begin, 
+
+* Your Workfront Administrator must configure an Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) or [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+
 ## View or download a linked asset
 
 1. Locate the document that you want to view or download. 
@@ -51,7 +57,3 @@ You must have the following:
 1. In the Document Summary on the right, hover over the thumbnail at the top and choose **Preview** or **Download**.
 
    ![](assets/preview-or-download-350x107.png)
-
-&nbsp;
-
-&nbsp;
