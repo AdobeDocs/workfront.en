@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Work with custom forms
-description: This section contains the following articles - EDIT ME.
+description: Review these articles to learn how to work with custom forms in Adobe Workfront.
 author: Alina
 feature: Get Started with Workfront
 ---

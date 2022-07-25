@@ -3,7 +3,7 @@ content-type: reference
 product-area: user-management
 navigation-topic: manage-your-account-and-profile
 title: Manage your Adobe Workfront account
-description: This section contains the following articles - EDIT ME.
+description: Review these articles to learn how to manage your Workfront account.
 author: Lisa
 feature: Get Started with Workfront
 ---

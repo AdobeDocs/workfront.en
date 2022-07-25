@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Home
-description: This section contains the following subsections - EDIT ME.
+description: Review these areas to get an understanding the Home area in Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
 ---
