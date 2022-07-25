@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 
 # Create or edit filters in Adobe Workfront
 
-{{highlighted-preview}}
+{{highlighted-preview}} 
 
 
 You can limit the amount of information you display on the screen in a list of items with a filter. You can define certain criteria based on particular pieces of information about an object and only display the objects that meet those criteria.
@@ -95,7 +95,7 @@ You can create filters using the types of filter builders described in the table
 <ul>
 <li> <p>The Projects list in the Scenario Planner</p> <p>The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md">The Scenario Planner overview</a>. </p> </li>
 </ul>
-<p>NOTE: Beta builders for filters are not available in reports.
+<p>NOTE: Beta builders for filters are not available in reports, and the beta builder is available only in the Preview environment.
 </div> </td>
 </tr>
 </tbody>
@@ -181,6 +181,9 @@ Regardless of the method you use to create filters, creating a filter from scrat
 <div class="preview">
 
 ## Create or edit a filter in the beta builder
+
+>[!NOTE]
+>The beta builder for filters is only available in the Preview environment.
 
 Consider the following when creating filters using the different interfaces:
 

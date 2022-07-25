@@ -34,7 +34,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View or higher access to&nbsp;Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -80,6 +80,9 @@ The following scenarios exist when you remove a grouping:
 <div class="preview">
 
 ## Remove or delete a filter using the beta builder
+
+>[!NOTE]
+>The beta builder for filters is only available in the Preview environment.
 
 You can remove a filter that was shared with you from lists of projects, tasks, or issues using the beta builder interface. The beta builder interface is not available for any other objects, or for views or groupings.
 

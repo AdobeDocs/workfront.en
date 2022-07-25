@@ -9,9 +9,6 @@ feature: Agile
 
 # Connected cards on boards
 
-{{highlighted-preview}}
-
-
 You can add a card on your board that is connected to existing tasks and issues in Workfront.
 
 When any one of the following details is updated for the card in one location, it is automatically updated in the other location:
@@ -117,7 +114,7 @@ You must have the following access to perform the steps in this article:
      </tr>
       <tr>
       <td role="rowheader"><span class="preview"><strong>Estimation</strong></span></td>
-      <td><p><span class="preview">Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</span></p></td>
+      <td><p><span class="preview">Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</span></p> <p><span class="preview">This field is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</span></p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Tags</strong></td>
@@ -137,12 +134,8 @@ You must have the following access to perform the steps in this article:
    Sample card on a board in the Production environment:
    ![Connected card on board showing details](assets/boards-connected-card-details.png)
 
-   <div class="preview">
-
-   Sample card on a board in the Preview environment:
-   ![Connected card on board showing details](assets/boards-connected-card-details-071822.png)
-
-   </div>
+   <span class="preview">Sample card on a board in the Preview environment:</span>
+   <span class="preview">![Connected card on board showing details](assets/boards-connected-card-details-071822.png)</span>
 
 ## Disconnect a connected card
 

@@ -9,9 +9,6 @@ feature: Agile
 
 # Manage board columns
 
-{{highlighted-preview}}
-
-
 A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need.
 
 Column settings include policies, which allow you to define options for what happens to a card when it is moved into that column.
@@ -125,6 +122,9 @@ You must have the following access to perform the steps in this article:
    1. Select the tags from the drop-down list. Only tags already created in the Tag Manager are available to choose from. For information on adding new tags, see [Add tags](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
       ![Tags for column](assets/boards-column-tags.png)
+
+>[!NOTE]
+>The WIP limit policy below is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 1. <span class="preview">Enable the **Work in progress** limit policy to limit the number of cards that can be added to the column.</span>
 1. <span class="preview">Type the limit number in the **Set limit** field.</span>
