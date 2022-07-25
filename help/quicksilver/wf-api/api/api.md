@@ -16,7 +16,9 @@ This section contains the following articles:
 * [Filter event subscription messages](../../wf-api/api/filter-event-sub-messages.md) 
 * [Event subscription retries](../../wf-api/api/event-sub-retries.md) 
 * [Specify an API Version in your integrations](../../wf-api/api/specify-api-version-integrations.md) 
+<!--
 * [Access Project Allocation Information via the API](../../wf-api/api/access-proj-allocation-info-api.md) 
+-->
 * [Core API changes: Status search responses](../../wf-api/api/api-changes-search.md) 
 * [Update integrations that use default API versioning](../../wf-api/api/update-default-api-versioning.md) 
 * [Deprecation of API-Internal](../../wf-api/api/deprecation-api-internal.md) 
