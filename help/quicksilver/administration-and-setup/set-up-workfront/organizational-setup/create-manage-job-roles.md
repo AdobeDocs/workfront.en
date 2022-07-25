@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Create and manage job roles
-description: Create and manage job roles
+description: As an Adobe Workfront administrator or a user with administrative access to Job Roles, you can create job roles which can be assigned to users and delete default job roles that are not relevant to your organization.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -11,9 +11,7 @@ role: Admin
 
 # Create and manage job roles
 
-<!--
-**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
--->
+<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
 As an Adobe Workfront administrator or a user with administrative access to Job Roles, you can create job roles which can be assigned to users and delete default job roles that are not relevant to your organization. For information about administrative access in Workfront, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 

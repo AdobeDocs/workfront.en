@@ -9,7 +9,9 @@ feature: Reports and Dashboards
 
 # Share a filter, view, or grouping
 
+<!--
 {{highlighted-preview}}
+-->
 
 
 <!--

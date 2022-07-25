@@ -9,7 +9,9 @@ feature: Work Management
 
 # Create and edit risks on projects
 
+<!--
 {{highlighted-preview}}
+-->
 
 Risks are possible events or factors that prevent a project from finishing on time or within budget. Risks can be recorded as part of creating the Business Case of a project or by using the Risks tab. Risks are created only on a project. You cannot associate risks with tasks or issues.
 
