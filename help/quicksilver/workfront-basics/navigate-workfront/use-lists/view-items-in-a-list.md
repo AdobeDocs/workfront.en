@@ -7,7 +7,9 @@ feature: Get Started with Workfront
 
 # Get started with lists in Adobe Workfront
 
+<!--
 {{highlighted-preview}}
+-->
 
 You can view lists of objects in Adobe Workfront to get information about them, such as their start and due dates, users assigned to them, and other objects that are associated with them.
 
