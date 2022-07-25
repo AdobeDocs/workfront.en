@@ -9,7 +9,9 @@ feature: Reports and Dashboards
 
 # Create or edit filters in Adobe Workfront
 
-{{highlighted-preview}} 
+<!--
+{{highlighted-preview}}
+--> 
 
 
 You can limit the amount of information you display on the screen in a list of items with a filter. You can define certain criteria based on particular pieces of information about an object and only display the objects that meet those criteria.

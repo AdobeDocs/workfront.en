@@ -58,7 +58,7 @@ You must have the following:
 
      Users who have only one job role assigned to them are reassigned to the job role that you select; users who have a secondary job role assigned to them are not reassigned to the job role that you select.
    
-   * **Delete the job role and its resource allocation:** Select**None** from the drop-down list.
+   * **Delete the job role and its resource allocation:** Select **None** from the drop-down list.
 
      >[!IMPORTANT]
      >

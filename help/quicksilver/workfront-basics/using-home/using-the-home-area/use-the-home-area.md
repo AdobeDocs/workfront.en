@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: home-navigation-topic
 title: Use the Home area
-description: This section contains the following articles - EDIT ME.
+description: Review these articles to learn how to use the Home area in Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
 ---

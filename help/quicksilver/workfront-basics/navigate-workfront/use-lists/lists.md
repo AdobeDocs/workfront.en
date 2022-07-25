@@ -1,7 +1,8 @@
 ---
 navigation-topic: navigate-workfront
 title: Lists in Adobe Workfront
-description: This section contains the following articles - EDIT ME.
+description: Review these articles to learn how to use lists in Adobe Workfront.
+author: Lisa
 feature: Get Started with Workfront
 ---
 

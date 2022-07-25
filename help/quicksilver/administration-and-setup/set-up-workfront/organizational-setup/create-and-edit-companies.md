@@ -11,11 +11,11 @@ role: Admin
 
 # Create and edit companies
 
-<!--
-**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.**
--->
+<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
+<!--
 {{highlighted-preview}}
+-->
 
 A company is an organizational unit in Adobe Workfront that can represent your organization, a department within the organization, or a client you work with. You can add companies to Workfront and use them for financial planning, reporting purposes, to define permissions around objects, and to keep information confidential.
 
@@ -36,7 +36,7 @@ You must have the following in order to manage companies in Workfront:
    <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Access level configurations*</strong> </td> 
+   <td role="rowheader">Access level configurations*</td> 
    <td> <p>One of the following:</p> 
     <ul> 
      <li> <p>The System Administrator access level, which allows you to edit any company in the system. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 

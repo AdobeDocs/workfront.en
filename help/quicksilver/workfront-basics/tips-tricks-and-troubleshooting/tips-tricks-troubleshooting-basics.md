@@ -1,7 +1,7 @@
 ---
 title: Tips, Tricks, and Troubleshooting for Adobe Workfront Basics
 description: Tips, Tricks, and Troubleshooting for Adobe Workfront Basics
-draft: Probably
+author: Lisa
 feature: Get Started with Workfront
 ---
 # Tips, Tricks, and Troubleshooting for Adobe Workfront Basics

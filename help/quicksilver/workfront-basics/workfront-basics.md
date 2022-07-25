@@ -3,6 +3,7 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: Adobe Workfront basics
 description: Review these areas to get an understanding of the basics of Adobe Workfront.
+author: Lisa
 feature: Get Started with Workfront
 ---
 
