@@ -123,8 +123,8 @@ You must have the following access to perform the steps in this article:
 
       ![Tags for column](assets/boards-column-tags.png)
 
->[!NOTE]
->The WIP limit policy below is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+   >[!NOTE]
+   >The WIP limit policy below is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 1. <span class="preview">Enable the **Work in progress** limit policy to limit the number of cards that can be added to the column.</span>
 1. <span class="preview">Type the limit number in the **Set limit** field.</span>

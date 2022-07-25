@@ -10,7 +10,9 @@ feature: Work Management
 
 # Create requests
 
+<!--
 {{highlighted-preview}}
+-->
 
 Requests and issues are interchangeable in Adobe Workfront. You can create requests by doing one of the following:
 
