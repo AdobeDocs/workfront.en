@@ -2461,6 +2461,7 @@ feature-set: Workfront
       * [Integrate Workfront Proof with Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
       * [Review a Proof in Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
 * Adobe Workfront API {#adobe-workfront-api}
+  * [Workfront API](wf-api/workfront-api.md)
   * API Notes {#api-notes}
     * [API Notes](wf-api/api/api.md)
     * [Uploading files via the API](wf-api/api/uploading-files-api.md)
@@ -2489,6 +2490,7 @@ feature-set: Workfront
     * [What's New in API Version 7](wf-api/api/new-api-version-7.md)
     * [What's New in API Version 6](wf-api/api/new-api-version-6.md)
   * API General Information {#api-general-information}
+    * [API general information](wf-api/general/api-general.md)
     * [API basics](wf-api/general/api-basics.md)
     * [API Explorer](wf-api/general/api-explorer.md)
     * [Using the API Explorer](wf-api/general/using-api-explorer.md)
@@ -2505,6 +2507,7 @@ feature-set: Workfront
     * [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
     * [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
   * Document Webhooks API {#document-webhooks-api}
+    * [Document webhooks API](wf-api/doc-wbhks-api/docu-webhook-api.md)
     * [Webhooks Overview](wf-api/doc-wbhks-api/webhooks-overview.md)
     * [Register a Webhook Integration](wf-api/doc-wbhks-api/register-webhook-integration.md)
     * [Authentication for Document Webhooks](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
@@ -2526,6 +2529,7 @@ feature-set: Workfront
   * Workfront Object Descriptions {#workfrtont-object-descriptions}
     * [Category](wf-api/wf-objects/category.md)
   * Tips, tricks, and troubleshooting for Adobe Workfront API {#tips-troubleshooting-apis}
+    * [Tips, tricks, and troubleshooting for Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
     * [API Error: “The remote server returned an error: (400) Bad Request”](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
     * [Duplicates returned during a large paginated search](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
     * [Sorting query results in the API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
