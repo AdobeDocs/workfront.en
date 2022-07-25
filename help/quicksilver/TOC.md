@@ -19,6 +19,7 @@ feature-set: Workfront
       * [22.3 Other enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
       * [22.3 Project enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
       * [22.3 Resource Management enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
+      * [22.3 Reporting enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
       * [22.3 release activity: Week of May 23, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-23.md)
       * [22.3 release activity: Week of May 16, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-16.md)
       * [22.3 release activity: Week of May 2, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-2.md)
