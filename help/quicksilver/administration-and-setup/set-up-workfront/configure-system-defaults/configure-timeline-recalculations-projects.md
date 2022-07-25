@@ -50,10 +50,7 @@ As an Adobe Workfront administrator, you can configure when Workfront automatica
 
 1. In the **Timelines** section, enable or disable one or both of the settings below. By default, both settings are enabled.
 
-   * **Every night:** Workfront​​​ recalculates timelines at night only for projects where both of the following conditions are met:
-
-      * Have a status of Current
-      * Have had an update in the past three months
+   * **Every night:** Workfront​​​ recalculates timelines at night only for projects that have a status of Current and were updated in the past three months.
 
      In this case, Workfront recalculates the timeline for all projects that have an Update Type of Automatic or Automatic and On Change. 
    

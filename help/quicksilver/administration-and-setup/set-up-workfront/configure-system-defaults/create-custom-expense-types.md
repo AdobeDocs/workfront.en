@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Create custom expense types
-description: Create custom expense types
+description: As an Adobe Workfront administrator, you can create custom expense types to define and track the expenses associated with your tasks and projects. Expenses are non-labor costs that can be associated with tasks or projects.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -11,15 +11,11 @@ role: Admin
 
 # Create custom expense types
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
--->
+<!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-You can keep track of expenses on projects and tasks. Expenses are non-labor costs and can be associated with tasks or projects.
+As an Adobe Workfront administrator, you can create custom expense types to define and track the expenses associated with your tasks and projects. Expenses are non-labor costs that can be associated with tasks or projects.
 
-As the Adobe Workfront administrator, you can create custom expense types, to define the expenses associated with your tasks and projects. Some expense types are already in Workfront by default.
-
-You can edit or delete any expense types that you create. You cannot delete or edit default expense types.
+You can edit or delete any expense types that you create. You cannot delete or edit the built-in Workfront expense types.
 
 ## Access requirements
 
@@ -60,9 +56,7 @@ The Expense Types that are in Workfront by default cannot be deleted or edited i
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 1. Click **Expense Types**.
 1. Click **New Expense Type**.  
-   The **New Expense Type** dialog box is displayed.
-
-1. Specify the following information:
+1. In the **New Expense Type** box that displays, specify the following information:
 
    <table style="table-layout:auto"> 
     <col> 

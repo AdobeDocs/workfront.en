@@ -42,7 +42,7 @@ You must have the following:
    </td>
   </tr>
   <tr>
-   <td><strong>Access level configurations</strong>
+   <td>Access level configurations*
    </td>
    <td>You must be a Workfront administrator. For information on Workfront administrators, see <strong>Grant a user full administrative access</strong>.
    </td>
@@ -73,6 +73,7 @@ Before you begin,
     >You can change the end of the populated URL to direct users into a specific folder from the Assets icon in the Main Menu.
 
 1. Choose a repository from the **Experience Manager Assets repository** drop-down menu. The system automatically populates any Experience Manager repositories associated with the Organization ID that your user profile is assigned to.
+![choose experience manager repository](assets/setup-information.png)
 
 1. Click **Save** or move on to the [Set up metadata (Optional)](#set-up-metadata-optional) section in this article.
 
@@ -109,6 +110,7 @@ Metadata maps when an asset is pushed from Workfront for the first time. Documen
 
 1. In the Experience Manager Assets field, search through the pre-populated categories or enter at least two letters in the search field to access additional categories.
 1. Repeat steps 2 and 3 as needed.
+![metadata fields](assets/asset-metadata.png)
 1. Click Save or move on to the [Folders](#folders) section in this article.
 
 ### Folders
@@ -124,6 +126,7 @@ When users create a linked folder on a project, the associated project, portfoli
 
 1. In the **Experience Manager Assets** field, search through the pre-populated categories or enter at least two letters in the search field to access additional categories.
 1. Repeat steps 2 and 3 as needed.
+![folder metadata](assets/folder-metadata.png)
 1. Click **Save** or move on to the [Project metadata sync](#project-metadata-sync) section in this article.
 
 
@@ -135,10 +138,8 @@ An Experience Manager fields that is mapped to Workfront project fields update a
 >
 >Users must have write access in Experience Manager for assets living in the project in order for the metadata to sync when it's updated.
 
-
-
-
 1. Enable the **Sync project metadata** field.
+![sync project metadata toggle](assets/sync-project-metadata.png)
 1. Click Save or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
 
 ## Set up linked folders (Optional)

@@ -9,7 +9,9 @@ feature: Workfront API
 
 # FAQs - Event Subscriptions
 
+<!--
 {{highlighted-preview}}
+-->
 
 The following are frequently asked questions about Event Subscriptions:
 
