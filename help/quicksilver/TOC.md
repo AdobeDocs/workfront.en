@@ -2507,7 +2507,7 @@ feature-set: Workfront
     * [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
     * [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
   * Document Webhooks API {#document-webhooks-api}
-    * [Document webhooks API](wf-api/doc-wbhks-api/docu-webhook-api.md)
+    * [Document Webhooks API articles](wf-api/doc-wbhks-api/document-webhooks-api.md)
     * [Webhooks Overview](wf-api/doc-wbhks-api/webhooks-overview.md)
     * [Register a Webhook Integration](wf-api/doc-wbhks-api/register-webhook-integration.md)
     * [Authentication for Document Webhooks](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
@@ -2527,6 +2527,7 @@ feature-set: Workfront
     * [Test Webhook connections](wf-api/doc-wbhks-api/test-webhook-connections.md)
     * [Document Webhooks Error Handling](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
   * Workfront Object Descriptions {#workfrtont-object-descriptions}
+    * [Workfront object descriptions](wf-api/wf-objects/workfront-objects.md)
     * [Category](wf-api/wf-objects/category.md)
   * Tips, tricks, and troubleshooting for Adobe Workfront API {#tips-troubleshooting-apis}
     * [Tips, tricks, and troubleshooting for Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
