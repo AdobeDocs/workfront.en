@@ -29,7 +29,7 @@ This article contains information about how the beta will function and how your 
 
 In developing Reporting Canvas, we have radically redesigned some features—and created some new ones from the ground up—for the purpose of streamlining report making. The following table outlines major features of Reporting Canvas in comparison to existing reporting tools, as well as their current release status:
 
->[!Note]
+>[!NOTE]
 >
 >For a chronological list of added features and resolved issues, see [Reporting Canvas beta: release activity](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md). 
 
