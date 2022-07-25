@@ -54,35 +54,35 @@ You must have the following:
 
 ## Set up the integration
 
-1. Click the Main Menu icon  in the upper-right corner of Adobe Workfront, then click Setup .
-1. Select  Documents in the left panel, then select Experience Manager Integration.
-1. Select Add Experience Manager Integration.
+1. Click the **Main Menu** icon in the upper-right corner of Adobe Workfront, then click **Setup**.
+1. Select  **Documents** ![documents icon](assets/document-icon.png) in the left panel, then select **Experience Manager Integration**.
+1. Select **Add Experience Manager Integration**.
 1. Specify the following:
 
-<table>
-  <tr>
-   <td><strong>Name</strong>
-   </td>
-   <td>Enter the name you want users to see in the Add new button in the Documents area.
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Navigation URL</strong>
-   </td>
-   <td>The system automatically populates the Navigation URL. This URL is used to link to your organization's Assets Essentials instance from the Main Menu for quick access.
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <strong>Experience Manager Assets repository</strong>
-   </td>
-   <td>
-    The system automatically populates the Experience Manager repository associated with your Organization ID.
-   </td>
-  </tr>
-</table>
+   <table>
+   <tr>
+      <td><strong>Name</strong>
+      </td>
+      <td>Enter the name you want users to see in the Add new button in the Documents area.
+      </td>
+   </tr>
+   <tr>
+      <td><strong>Navigation URL</strong>
+      </td>
+      <td>The system automatically populates the Navigation URL. This URL is used to link to your organization's Assets Essentials instance from the Main Menu for quick access.
+      </td>
+   </tr>
+   <tr>
+      <td>
+      <strong>Experience Manager Assets repository</strong>
+      </td>
+      <td>
+      The system automatically populates the Experience Manager repository associated with your Organization ID.
+      </td>
+   </tr>
+   </table>
 
-1. Click Save or move on to the **Set up metadata (optional)** section in this article.
+1. Click **Save** or move on to the [Set up metadata (optional)](#set-up-metadata-optional) section in this article.
 
 
 ## Set up metadata (optional)
@@ -94,22 +94,25 @@ Map Workfront object data to asset media fields in Experience Manager Assets. Me
 
 Before you begin, you must
 
-* Configure a metadata schema in Experience Manager Assets Essentials as explained in **Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets**.
-* (Optional) Configure custom form fields in Workfront. Workfront has many built-in custom fields you can use. However, you can also create your own custom fields. For more information, see **Create or edit a custom form**.
+* Configure a metadata schema in Experience Manager Assets Essentials as explained in [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+* (Optional) Configure custom form fields in Workfront. Workfront has many built-in custom fields you can use. However, you can also create your own custom fields. For more information, see [Create or edit a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 
 ### Assets
 
 Metadata maps when an asset is pushed from Workfront for the first time. Documents with the built-in or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets Essentials.
 
-1. In the Workfront field column, choose a built-in or custom Workfront field. \
+1. In the **Workfront field** column, choose a built-in or custom Workfront field.
    >[!NOTE]
    >
    >You can map a single Workfront field to multiple Experience Manager Assets fields. You can't map multiple Workfront fields to a single Experience Manager Assets field.
-1. In the Experience Manager field, choose an Experience Manager Assets field.
+1. In the **Experience Manager** field, choose an Experience Manager Assets field.
 1. Repeat steps 1 and 2 as needed.
-1. Click Save or move on to the **Set up linked folders (optional)** section in this article.
+![enable metadata](assets/metadata-assets-essentials.png)
+1. Click **Save** or move on to the [Set up linked folders (optional)](#set-up-linked-folders-optional) section in this article.
 
 
-## Set up linked folders (optional) snippet?
+## Set up linked folders (optional)
+
+{{#setup-linked-folder}}
 
