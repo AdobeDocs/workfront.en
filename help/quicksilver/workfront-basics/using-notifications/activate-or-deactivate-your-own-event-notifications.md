@@ -9,7 +9,9 @@ feature: Get Started with Workfront
 
 # Activate or deactivate your own event notifications
 
+<!--
 {{highlighted-preview}}
+-->
 
 Your Adobe Workfront administrator configures which event notifications users receive when events occur in Workfront (as described in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 

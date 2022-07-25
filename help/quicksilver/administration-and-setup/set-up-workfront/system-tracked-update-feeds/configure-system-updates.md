@@ -76,8 +76,6 @@ You can add fields you want Workfront to track for a particular type of object t
 
    If Workfront is already tracking the field, you cannot add it a second time from the list.
 
-   ![](assets/updates-feeds-box-qs-350x219.png)
-
 1. After adding all the fields you want Workfront to track, click **Add Fields**.
 
    The built-in fields that you added show under the **Built-in Fields** sub-tab.
