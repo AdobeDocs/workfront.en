@@ -139,13 +139,11 @@ Workfront disables all email communication from the Preview Sandbox environment.
 >
 >For more information about report deliveries for the production environment, see [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 >
->For more information about push notifications on the mobile app for the production environment, see the section in .
-
 ## Single Sign-On (SSO)
 
 If you are using SSO, work with our Customer Support team to ensure it is properly configured so that you can use your SSO credentials to log in to the Preview Sandbox. If your initial login fails, please contact your regular support contact or Workfront administrator for assistance.
 
-For more information about Single Sign-On, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+For more information about Single Sign-On, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 ## Configuring Single Sign-On in the Preview Sandbox
 
@@ -154,6 +152,7 @@ If you want to configure your Preview Sandbox to work with a Single Sign-On solu
 When your Preview Sandbox refreshes (every weekend), the SSO information is not copied from your Production environment to overwrite the Preview Sandbox configuration.
 
 The steps for configuring single sign-on in the Preview Sandbox are similar to those for configuring it in the Production environment.  
+
 For more information about configuring Workfront with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 ## Preview environment performance and availability

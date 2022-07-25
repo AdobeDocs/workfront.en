@@ -42,7 +42,7 @@ You must have the following:
    </td>
   </tr>
   <tr>
-   <td><strong>Access level configurations</strong>
+   <td>Access level configurations*
    </td>
    <td>You must be a Workfront administrator. For information on Workfront administrators, see <strong>Grant a user full administrative access</strong>.
    </td>

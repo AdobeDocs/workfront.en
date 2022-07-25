@@ -11,17 +11,14 @@ role: Admin
 
 # Configure system-wide task and issue preferences
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ** ** This is linked to Converting Issues.</p>
--->
+<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
+Linked to Converting Issues.-->
 
 As an Adobe Workfront administrator, you can configure system-wide preferences for tasks and issues. These preferences impact the way that your users create tasks and issues in Workfront.
 
-By default, these preferences are locked and group administrators cannot modify them at the group level unless you unlock them for all groups throughout the system. For more information, see the section [Lock task and issue preferences for groups](#lock-task-and-issue-preferences-for-groups) in this article.
+By default, task and issue preferences are locked and group administrators cannot modify them at the group level unless you unlock them for all groups throughout the system. For more information, see the section [Lock task and issue preferences for groups](#lock-task-and-issue-preferences-for-groups) in this article.
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">SPLIT OUT BOTTOM SECTION TO NEW ARTICLE?</p>
--->
+<!--SPLIT OUT BOTTOM SECTION TO NEW ARTICLE?-->
 
 ## Access requirements
 

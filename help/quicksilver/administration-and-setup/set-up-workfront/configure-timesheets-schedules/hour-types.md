@@ -12,10 +12,8 @@ role: Admin
 
 # Manage hour types
 
-<!--
-**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
-**Linked to Creating Billing Record</p>
--->
+<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
+**Linked to Creating Billing Record-->
 
 You can associate hour types with your hour entries. Hour types are labels you use to define your hour entries.  
 
