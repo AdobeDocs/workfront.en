@@ -114,5 +114,5 @@ Metadata maps when an asset is pushed from Workfront for the first time. Documen
 
 ## Set up linked folders (optional)
 
-{{#setup-linked-folder}}
+{{setup-linked-folder}}
 
