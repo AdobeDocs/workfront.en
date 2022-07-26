@@ -74,8 +74,8 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
       <td>Select a status for the card. If you click <strong>Mark Complete</strong> at the top of the card, the status automatically changes to Complete.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview"><strong>Estimation</strong></span></td> 
-      <td><p><span class="preview">Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</span></p> <p><span class="preview">This field is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</span></p></td>
+      <td role="rowheader"><strong>Estimation</strong></td> 
+      <td><p>Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</p> <p>This field is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>Due date</strong></td> 
@@ -100,13 +100,13 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
 
 1. Click **Close** to add the card to the board.
 
-   The assignees, tags, due date, checklist counter, <span class="preview">and estimated hours</span> are displayed on the card.
+   The assignees, tags, due date, checklist counter, and estimated hours are displayed on the card.
 
    Sample card on a board in the Production environment:
    ![Card added to board](assets/boards-sample-card-on-board.png)
 
-   <span class="preview">Sample card on a board in the Preview environment:</span>
-   <span class="preview">![Card added to board](assets/boards-sample-card-on-board-071822.png)</span>
+   Sample card on a board in the Preview environment:
+   ![Card added to board](assets/boards-sample-card-on-board-071822.png)
 
 ## Quick add an ad hoc card
 

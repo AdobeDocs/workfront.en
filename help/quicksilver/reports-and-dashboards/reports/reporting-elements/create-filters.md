@@ -57,8 +57,6 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-<div class="preview">
-
 ## Types of filter-building interfaces
 
 You can create filters using the types of filter builders described in the table below:
@@ -74,12 +72,12 @@ You can create filters using the types of filter builders described in the table
 <td><strong>Where available</strong></td>
 </tr>
 <tr>
-<td>Standard builder</td>
+<td>Standard builder (all environments)</td>
 <td>All objects </td>
 <td>Lists and reports</td>
 </tr>
 <tr>
-<td><span class="preview">Beta builder</span>
+<td><span class="preview">Beta builder (Preview environment only)</span>
 </td>
 <td>
 <div class="preview">
@@ -97,15 +95,13 @@ You can create filters using the types of filter builders described in the table
 <ul>
 <li> <p>The Projects list in the Scenario Planner</p> <p>The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md">The Scenario Planner overview</a>. </p> </li>
 </ul>
-<p>NOTE: Beta builders for filters are not available in reports, and the beta builder is available only in the Preview environment.
+<p>NOTE: Beta builders for filters are not available in reports.
 </div> </td>
 </tr>
 </tbody>
 </table>
 
 For information about Workfront objects, see [Understand objects in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-
-</div>
 
 ## Create or edit a filter in the standard builder {#create-filter-in-standard-builder}
 
@@ -180,12 +176,7 @@ Regardless of the method you use to create filters, creating a filter from scrat
    * Share filters you create with other users, or make them available system-wide. For information, see [Share a filter, view, or grouping](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
    * Remove filters you no longer want to display in the list. For information, see [Remove filters, views, and groupings](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
-<div class="preview">
-
-## Create or edit a filter in the beta builder
-
->[!NOTE]
->The beta builder for filters is only available in the Preview environment.
+## Create or edit a filter in the beta builder (Preview environment only)
 
 Consider the following when creating filters using the different interfaces:
 
@@ -238,7 +229,7 @@ Create a filter using the beta builder interface:
 
    >[!TIP]
    >
-   >The header of the filter builder interface changes to blue when you enable the beta builder. After you enabled the beta builder interface, Workfront keeps it enabled for all areas where it is available.
+   >The header of the filter builder interface changes to blue when you enable the beta builder. After you enable the beta builder interface, Workfront keeps it enabled for all areas where it is available.
 
    ![Beta filter builder](assets/new-filters-all-filter-types.png)
 
@@ -410,6 +401,4 @@ Create a filter using the beta builder interface:
    * Share the filter with others, or make it available system-wide. For more information, see [Share a filter, view, or grouping](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
    * Delete the filter if it is no longer valid or a duplicate. You can only delete filters that you own. You can remove filters that were shared with you. For information, see [Remove filters, views, and groupings](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
-
-</div>
 

@@ -113,8 +113,8 @@ You must have the following access to perform the steps in this article:
       <td><p>Select a due date for the card.</p></td>
      </tr>
       <tr>
-      <td role="rowheader"><span class="preview"><strong>Estimation</strong></span></td>
-      <td><p><span class="preview">Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</span></p> <p><span class="preview">This field is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</span></p></td>
+      <td role="rowheader"><strong>Estimation</strong></td>
+      <td><p>Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</p> <p>This field is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Tags</strong></td>
@@ -129,13 +129,13 @@ You must have the following access to perform the steps in this article:
    </table>
 
 1. Click **Close** to return to the board.
-   The connected object, assignees, tags, due date, checklist counter, <span class="preview">and estimated hours</span> are displayed on the card.
+   The connected object, assignees, tags, due date, checklist counter, and estimated hours are displayed on the card.
    
    Sample card on a board in the Production environment:
    ![Connected card on board showing details](assets/boards-connected-card-details.png)
 
-   <span class="preview">Sample card on a board in the Preview environment:</span>
-   <span class="preview">![Connected card on board showing details](assets/boards-connected-card-details-071822.png)</span>
+   Sample card on a board in the Preview environment:
+   ![Connected card on board showing details](assets/boards-connected-card-details-071822.png)
 
 ## Disconnect a connected card
 
