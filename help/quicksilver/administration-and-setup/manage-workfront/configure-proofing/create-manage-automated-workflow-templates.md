@@ -83,7 +83,7 @@ You must have the following:
       <td> <p>You can select the stage activities you want available to the person creates proofs using the template.</p> <!--
         <p><b>WARNING</b>: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof. <!--
           <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Test this. Andrzej thinks it's wrong info or a bug.</span>
-         --><br></p>
+         --></p>
       </td> 
      </tr> 
     </tbody> 
@@ -195,7 +195,7 @@ As a Workfront Proof administrator, you can modify an Automated Workflow templat
      </tr> 
      <tr> 
       <td role="rowheader">Allow</td> 
-      <td> <p>Select the stage activities you want available to those who create proofs using the template. </p> <p><b>WARNING</b>: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof.<br></p> </td> 
+      <td> <p>Select the stage activities you want available to those who create proofs using the template. </p> <p><b>WARNING</b>: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof.</p> </td> 
      </tr> 
     </tbody> 
    </table>
