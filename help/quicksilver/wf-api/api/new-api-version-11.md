@@ -2,7 +2,7 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: What's new in API version 11
-description: What's new in API version 11
+description: ReportableBudgedHour has been added to the Adobe Workfront API as a resource for Reporting. It features reference fields, core fields, and default fields that are absent in BudgetedHour.
 author: John
 feature: Workfront API
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
@@ -15,8 +15,144 @@ exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 
 ## Added Resources {#added-resources}
 
- 
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#loginasaccessrule" class="MCXref xref">LoginAsAccessRule</a> </li>
+  -->
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#loginasadditionalrule" class="MCXref xref">LoginAsAdditionalRule</a> </li>
+  -->
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#loginassettings" class="MCXref xref">LoginAsSettings</a> </li>
+  -->
+
 * [ReportableBudgetedHour](#reportablebudgetedhour)
+
+<!--
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasaccessrule">LoginAsAccessRule</h3>
+-->
+
+<table style="table-layout:auto"> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ --> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ --> 
+ <tbody> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">accessExpirationDate</li> 
+     <li style="font-weight: bold;">accessorID</li> 
+     <li style="font-weight: bold;">customerID</li> 
+     <li style="font-weight: bold;">ID</li> 
+     <li style="font-weight: bold;">userID</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Reference Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">accessor</li> 
+     <li style="font-weight: bold;">customer</li> 
+     <li style="font-weight: bold;">user &nbsp;</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Core Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">ID</li> 
+     <li style="font-weight: bold;">objCode</li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!--
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasadditionalrule">LoginAsAdditionalRule</h3>
+-->
+
+<table style="table-layout:auto"> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ --> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ --> 
+ <tbody> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">customerID</li> 
+     <li style="font-weight: bold;">ID</li> 
+     <li style="font-weight: bold;">loginAsSettingsID</li> 
+     <li style="font-weight: bold;">objID</li> 
+     <li style="font-weight: bold;">objObjCode &nbsp;</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Reference Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">customer &nbsp;</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Core Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">ID</li> 
+     <li style="font-weight: bold;">objCode</li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!--
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginassettings">LoginAsSettings</h3>
+-->
+
+<table style="table-layout:auto"> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ --> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ --> 
+ <tbody> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">customerID</li> 
+     <li style="font-weight: bold;">licenseTypes</li> 
+     <li style="font-weight: bold;">ID</li> 
+     <li style="font-weight: bold;">restrictedLoginAs &nbsp;</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Reference Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">customer &nbsp;</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Collection Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">additionalRules</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Core Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">ID</li> 
+     <li style="font-weight: bold;">objCode</li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### ReportableBudgetedHour {#reportablebudgetedhour}
 
@@ -134,7 +270,9 @@ No resources were removed for API v11.
      <li><a href="#templateassignment" class="MCXref xref">TemplateAssignment</a> </li> 
      <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">Timesheet</a> </li> 
-     <li><a href="#update" class="MCXref xref">Update</a> </li> 
+     <li><a href="#update" class="MCXref xref">Update</a> </li> <!--
+      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
+     --> 
      <li><a href="#usernote" class="MCXref xref">UserNote</a> </li> 
      <li><a href="#work" class="MCXref xref">Work </a> </li> 
     </ul> </td> 
@@ -387,6 +525,9 @@ A Company object represents an organization consisting of a collection of people
 
 ### CustomEnum {#customenum}
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">A CustomEnum object is an enumeration that is created in Workfront to be used in objects and fields throughout Workfront.</p>
+-->
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -432,7 +573,15 @@ A Customer object represents an organization that uses an instance of Workfront.
        <li style="font-weight: normal;">CONDITION_OPTASK (Issue Conditions) &nbsp;</li> 
       </ul> </li> 
     </ul> </td> 
-  </tr>
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Reference Fields</td> 
+    <td> 
+     <ul> 
+      <li style="font-weight: bold;"> <p>loginAsSettings</p> <p style="font-weight: normal;">Added. &nbsp;</p> </li> 
+     </ul> </td> 
+   </tr>
+  --> 
   <tr> 
    <td>Actions</td> 
    <td> <p style="font-weight: normal;">The following actions were added to the Customer object</p> 
@@ -449,7 +598,10 @@ A Customer object represents an organization that uses an instance of Workfront.
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
 <table style="table-layout:auto"> <!--
- 
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ --> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ --> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -1020,6 +1172,9 @@ A Template object represents a pattern for a Project. Projects can be created fr
 
 ### TemplateAssignment {#templateassignment}
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">A TemplateAssignment object represents the connection between a Template and the User, Team, or Group it is assigned to.</p>
+-->
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1105,8 +1260,19 @@ Work Items in Workfront can be updated to keep users informed of the current sta
  </tbody> 
 </table>
 
+<!--
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="user">User</h3>
+-->
 
-<table style="table-layout:auto">
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">A User object represents a person with an account in Workfront that can log in and interact with the system.</p>
+-->
+
+<table style="table-layout:auto"> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ --> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ --> 
  <tbody> 
   <tr> 
    <td>Collection Fields</td> 
