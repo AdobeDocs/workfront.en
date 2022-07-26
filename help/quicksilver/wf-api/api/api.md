@@ -3,7 +3,7 @@ filename: _API
 content-type: api;reference
 navigation-topic: api-navigation-topic
 title: API
-description: This section contains the following articles - EDIT ME.
+description: Workfront API Articles
 author: John
 ---
 
@@ -16,9 +16,7 @@ This section contains the following articles:
 * [Filter event subscription messages](../../wf-api/api/filter-event-sub-messages.md) 
 * [Event subscription retries](../../wf-api/api/event-sub-retries.md) 
 * [Specify an API Version in your integrations](../../wf-api/api/specify-api-version-integrations.md) 
-<!--
-* [Access Project Allocation Information via the API](../../wf-api/api/access-proj-allocation-info-api.md) 
--->
+
 * [Core API changes: Status search responses](../../wf-api/api/api-changes-search.md) 
 * [Update integrations that use default API versioning](../../wf-api/api/update-default-api-versioning.md) 
 * [Deprecation of API-Internal](../../wf-api/api/deprecation-api-internal.md) 
@@ -27,10 +25,6 @@ This section contains the following articles:
 * [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md)
 * [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md)
 * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](../../wf-api/api/oauth-app-pkce-flow.md)
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../wf-api/api/oauth-app-jwt-flow.md" class="MCXref xref" xrefformat="{para}">Configure and use your organization's custom OAuth 2 applications using JWT flow</a> </li>
-  -->
-
 * [What's new in API version 14](../../wf-api/api/new-api-version-14.md) 
 * [What's new in API version 13](../../wf-api/api/new-api-version-13.md) 
 * [What's new in API version 12](../../wf-api/api/new-api-version-12.md) 
