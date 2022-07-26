@@ -5,8 +5,8 @@ title: Control playback in a video proof
 description: You must have the following access to perform the steps in this article - EDIT ME.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
 ---
-
 # Control playback in a video proof
 
 ## Access requirements
@@ -77,4 +77,3 @@ You can control the volume in the video playback.
    Or
 
    Click the **Volume** icon to mute and unmute the volume.
-

@@ -6,8 +6,8 @@ title: Create a User Delegation report
 description: Create a User Delegation report
 author: Nolan
 feature: Reports and Dashboards
+exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 ---
-
 # Create a User Delegation report
 
 <!--
@@ -92,4 +92,3 @@ You must have the following access to perform the steps in this article:
 1. Enter a new name in the **Report Name** field, then click **Save Report**.
 
    The report displays.
-

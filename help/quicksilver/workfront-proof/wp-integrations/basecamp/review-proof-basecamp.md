@@ -5,9 +5,9 @@ navigation-topic: basecamp
 title: Review a Proof in Basecamp
 description: The Basecamp integration with Workfront Proof makes it easy for you to review and approve proofs without leaving Basecamp.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 355e6bfe-ae6d-4bac-a648-0e48cf945bb4
 ---
-
 # Review a Proof in Basecamp
 
 >[!IMPORTANT]
@@ -97,4 +97,3 @@ The full-page proof shows:
 * The Go to Basecamp button in the top left corner of the proof. Clicking this will take you back into your Basecamp account (3).
 
 ![ProofHQ_full_screen_view.png](assets/proofhq-full-screen-view-350x217.png)
-

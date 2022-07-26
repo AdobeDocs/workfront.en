@@ -5,9 +5,9 @@ navigation-topic: satellite-accounts
 title: Manage a satellite account in Workfront Proof
 description: As a Workfront Proof administrator, you can manage a satellite account set up on your organization's account.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 6ff109c2-0584-4087-82de-d431dd5abec7
 ---
-
 # Manage a satellite account in Workfront Proof
 
 >[!IMPORTANT]
@@ -36,4 +36,3 @@ To view and manage the Account settings of the Satellite account:
 1. Click the relevant tab to manage the Account setting for the Satellite account.
 
 ![SA_Account_Settings.png](assets/sa-account-settings-350x151.png)
-

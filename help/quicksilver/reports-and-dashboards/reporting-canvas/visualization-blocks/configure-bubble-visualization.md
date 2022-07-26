@@ -4,6 +4,7 @@ description: Configure a bubble visualization in the Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: 79fe46e9-2494-4da5-be3c-40340e3bce9a
 ---
 # Configure a bubble visualization in the Reporting Canvas
 
@@ -129,4 +130,3 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
       -->
 
 1. Click anywhere outside the menu of visualizations settings to close it.
-

@@ -5,8 +5,8 @@ title: Create a dashboard
 description: You can create dashboards to quickly access information in reports, calendars, and external pages.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
 ---
-
 # Create a dashboard
 
 You can create dashboards to quickly access information in reports, calendars, and external pages.

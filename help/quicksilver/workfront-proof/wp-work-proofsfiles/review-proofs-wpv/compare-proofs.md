@@ -5,9 +5,9 @@ navigation-topic: review-proofs-workfront-proofing-viewer
 title: Compare proofs in the proofing viewer
 description: You can view side-by-side comparisons of two proofs. These can be two versions of the same proof, or two completely separate proofs.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
 ---
-
 # Compare proofs in the proofing viewer
 
 >[!IMPORTANT]
@@ -163,4 +163,3 @@ To enable simultaneous navigation if it is not already enabled:
    ![proof_compare_exit.png](assets/proof-compare-exit-350x163.png)
 
    The proof that you do not close remains open in the proofing viewer.&nbsp;
-

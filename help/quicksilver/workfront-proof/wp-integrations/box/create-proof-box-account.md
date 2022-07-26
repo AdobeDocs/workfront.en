@@ -5,9 +5,9 @@ navigation-topic: box
 title: Create a Proof via Your Box Account
 description: It's easy to create proofs and new proof versions via your Box account.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 6fdabea6-c380-4b64-9b26-93b3f773f996
 ---
-
 # Create a Proof via Your Box Account
 
 >[!IMPORTANT]
@@ -54,4 +54,3 @@ It's easy to create a new version&nbsp;of a proof using a new version of the fil
 
 1. Populate the **New version** page as normal (as if you'd uploaded the file directly from within Workfront Proof), then click **Save** to go&nbsp;to the Proof details page.  
    Here you can access the new version by clicking **Go to proof**.
-

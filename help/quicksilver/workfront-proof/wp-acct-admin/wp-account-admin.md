@@ -6,9 +6,9 @@ navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof account administration
 description: This section contains the following subsections - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 451b9f13-edeb-4e4b-9cee-d1a053bea17c
 ---
-
 # Workfront Proof account administration
 
 >[!IMPORTANT]
@@ -23,4 +23,3 @@ This section contains the following subsections:
 * [Partner accounts in Workfront Proof](../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md) 
 * [Satellite accounts in Workfront Proof](../../workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md) 
 * [Tips, tricks, and troubleshooting for Workfront Proof account administration](../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
-

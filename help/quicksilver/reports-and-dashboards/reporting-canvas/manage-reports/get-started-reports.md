@@ -4,6 +4,7 @@ description: Get started with Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: 048ece61-5eef-4ad6-99ea-13b9b3ce114e
 ---
 # Get started with Reporting Canvas
 
@@ -48,4 +49,3 @@ For information on creating or modifying a report in the new Reporting Canvas, s
 * Embed an external source in a report
 * Add a Text block
 * Add a page filter
-

@@ -2,11 +2,11 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Edit text mode in a grouping
-description: "NOTE: make all FVG articles the same for editing in text mode)"
+description: 'NOTE: make all FVG articles the same for editing in text mode)'
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
 ---
-
 # Edit text mode in a grouping
 
 <!--
@@ -229,4 +229,3 @@ For information about creating a report, see [Create a custom report](../../../r
 
 1. Click **Done** if you want to save your changes and continue editing the grouping or report.
 1. Click **Save Grouping** in a list or **Save + Close** to save your report.
-

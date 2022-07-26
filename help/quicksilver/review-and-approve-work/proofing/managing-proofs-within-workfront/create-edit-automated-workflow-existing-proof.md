@@ -5,8 +5,8 @@ title: Create or edit an Automated Workflow for an existing proof
 description: Automated Workflows make it easier to manage the review process if your process is complex or if you regularly send content for review to the same groups of people. When you create a proof with an Automated Workflow, the proof moves from stage to stage until final approval. Participants are notified when it's their turn to review the document.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
 ---
-
 # Create or edit an Automated Workflow for an existing proof
 
 Automated Workflows make it easier to manage the review process if your process is complex or if you regularly send content for review to the same groups of people.&nbsp;When you create a proof with an Automated Workflow, the proof moves from stage to stage&nbsp;until final approval. Participants are notified when it's their turn to review the document.
@@ -147,4 +147,3 @@ Consider the following when&nbsp;adding reviewers to a stage:
 * By default, adding a user&nbsp;to a stage grants&nbsp;that user access to view the proof from the moment the proof is created.
 
   Your Workfront administrator can restrict users from accessing the proof until the workflow enters the stage where the user was added. For more information, see&nbsp;&nbsp;in&nbsp;.
-

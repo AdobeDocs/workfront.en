@@ -4,9 +4,9 @@ product-area: documents;system-administration;setup
 navigation-topic: workfront-library-setup
 title: Required configuration to authenticate to Workfront Library
 description: In order to access Workfront Library, your users must login using the enhanced Workfront authentication experience. For more information on the enhanced authentication experience, see Enhanced Authentication overview.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 1f347047-820c-40cd-bae4-b44887a9d50b
 ---
-
 # Required configuration to authenticate to Workfront Library
 
 In order to access Workfront Library, your users must login using the enhanced Workfront authentication experience. For more information on the enhanced authentication experience, see [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).
@@ -42,4 +42,3 @@ You can map only the following attributes for users:
 * User name
 * Address
 * Phone number
-

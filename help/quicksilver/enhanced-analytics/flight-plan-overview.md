@@ -6,8 +6,8 @@ navigation-topic: enhanced-analytics-navigation-topic
 description: The Flight plan visualization shows how many projects (within the applied filter criteria) were in flight, what condition changes happened throughout the life of these projects, and how closely these projects adhered to their planned completion deadlines.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
 ---
-
 # View the Flight plan visualization in Enhanced analytics
 
 The Flight plan visualization shows how many projects (within the applied filter criteria) were in flight, what condition changes happened throughout the life of these projects, and how closely these projects adhered to their planned completion deadlines.
@@ -143,4 +143,4 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 View the following video to learn more about the Flight plan visualization. This video was recorded in the new Workfront experience. However, the content also applies to Workfront Classic.
 
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/441153800/2a336ba497) 
+[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/441153800/2a336ba497)

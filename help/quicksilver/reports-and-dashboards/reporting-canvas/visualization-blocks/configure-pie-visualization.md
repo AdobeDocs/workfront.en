@@ -4,6 +4,7 @@ description: Configure pie visualization in Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: 0497edb5-9322-406a-b53b-ec498afdd96e
 ---
 # Configure pie visualization in Reporting Canvas
 
@@ -107,4 +108,3 @@ You must have the following access to perform the steps in this article:
       -->
 
 1. Click anywhere outside the menu of visualizations settings to close it.
-

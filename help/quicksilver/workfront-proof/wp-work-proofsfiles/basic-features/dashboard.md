@@ -6,9 +6,9 @@ navigation-topic: basic-features-workfront-proof
 title: The Dashboard in Workfront Proof
 description: The Dashboard is the first page you see when you log in to your Workfront Proof account. It summarizes the activity in your Workfront Proof account and provides quick links to other sections and functions within Workfront Proof.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
 ---
-
 # The Dashboard in Workfront Proof
 
 >[!IMPORTANT]
@@ -253,4 +253,3 @@ To go to the Proof details page of that proof:
 1. Select **View proof details** (2) from the dropdown menu.
 
    ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
-

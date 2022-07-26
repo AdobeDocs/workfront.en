@@ -6,8 +6,8 @@ title: Manage Reports
 description: This section contains the following articles - EDIT ME.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 535b81a4-77bb-4c6b-84e0-e83f080e802e
 ---
-
 # Manage Reports
 
 This section contains the following articles:
@@ -31,4 +31,3 @@ This section contains the following articles:
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reporting-canvas/manage-reports/send-report.md" class="MCXref xref" xrefformat="{para}">Send a report in Reporting Canvas</a> </p> </li>
   -->
-

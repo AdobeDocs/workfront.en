@@ -4,6 +4,7 @@ description: 22.2&nbsp;Project enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
 ---
 # 22.2&nbsp;Project enhancements
 
@@ -166,4 +167,4 @@ Each folder at the sixth level or below inherits its sharing configurations from
 
 For more information about sharing folders, see [Share a document folder](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/675978565/1901e4a8a1) 
+[Watch a video demonstration of this feature.](https://vimeo.com/675978565/1901e4a8a1)

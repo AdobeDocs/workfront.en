@@ -4,6 +4,7 @@ description: Configure a column visualization in Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: 5a0cdcd4-b44b-4a63-964e-1c570cd9ff77
 ---
 # Configure a column visualization in Reporting Canvas
 
@@ -107,4 +108,3 @@ You must have the following access to perform the steps in this article:
       -->
 
 1. Click anywhere outside the menu of visualizations settings to close it.
-

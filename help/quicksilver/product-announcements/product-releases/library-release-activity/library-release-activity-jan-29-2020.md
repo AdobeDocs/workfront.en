@@ -4,9 +4,9 @@ navigation-topic: library-release-activity
 title: Workfront Library release activity - January 29, 2020
 description: This page describes all changes made available to Workfront Library with the release to the Production environment on January 22.
 author: Luke
-feature: "Product Announcements, Workfront Library"
+feature: Product Announcements, Workfront Library
+exl-id: 5d5bfd29-e3aa-4707-bbe1-faca35f516dc
 ---
-
 # Workfront Library release activity - January 29, 2020
 
 This page describes all changes made available to Workfront Library with the release to the Production environment on January 22.
@@ -54,4 +54,4 @@ Previously, when users with assets were removed from Workfront Library, these as
 
 For more information, see [Transfer ownership assets to another user](../../../workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/391362243/6581c1ef43) 
+[Watch a video demonstration of this feature.](https://vimeo.com/391362243/6581c1ef43)

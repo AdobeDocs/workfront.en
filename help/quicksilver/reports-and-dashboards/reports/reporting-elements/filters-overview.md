@@ -6,8 +6,8 @@ title: Filters overview in Adobe Workfront
 description: You can use filters in Adobe Workfront to reduce the amount of information you display on the screen in lists, reports, or other areas.
 author: Lisa
 feature: Reports and Dashboards
+exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
 ---
-
 # Filters overview in Adobe Workfront
 
 <!--
@@ -287,4 +287,3 @@ For example, if you have a field with 3 options (A, B, and C), and select 2 of t
 ## **Limitations about joining multiple filter rules**
 
 You can reference only five objects, excluding the object of the report, when you build a filter in Workfront.
-

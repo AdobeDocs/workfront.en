@@ -5,8 +5,8 @@ title: Add a chart to a report
 description: You can enhance your reports by adding a chart. You can add charts to existing reports or to reports that you are creating.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
 ---
-
 # Add a chart to a report
 
 You can enhance your reports by adding a chart. You can add charts to existing reports or to reports that you are creating.
@@ -316,4 +316,3 @@ Be aware of the following limitations as you are working with charts:
 * You cannot edit the legend of the chart.
 * When using calculated fields for your groupings, you cannot click the chart elements.
 * The most amount of data points you can display in a chart is four, in a bubble chart. All other chart types display two or a maximum of three data points.
-

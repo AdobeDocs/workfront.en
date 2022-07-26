@@ -4,6 +4,7 @@ description: Group table rows in Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: 355bbe5b-9c66-4b6b-b479-a48a20b53fe6
 ---
 # Group table rows in Reporting Canvas
 
@@ -131,4 +132,3 @@ You must have the following access to perform the steps in this article:
    * To display a count in the group row, click the **More menu** icon ![](assets/more-icon-27x15.png) next to the group, then click **Display count**.
    * To remove a group, click the **More menu** icon ![](assets/more-icon.png) next to the group, then click **Remove group**.
    * To rearrange multiple groups you have created, drag them ![](assets/move-icon---dots.png)into a new order.
-

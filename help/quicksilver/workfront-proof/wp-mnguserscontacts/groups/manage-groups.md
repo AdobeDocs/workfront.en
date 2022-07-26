@@ -5,9 +5,9 @@ navigation-topic: groups-workfront-proof
 title: Manage Groups using Workfront Proof
 description: As a Workfront Proof administrator, you can manage your public and private Groups on the Groups page.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
 ---
-
 # Manage Groups using Workfront Proof
 
 >[!IMPORTANT]
@@ -100,4 +100,3 @@ You can Sort Groups by Group name, privacy status, and description.
 
 1. In the&nbsp;**Groups**section, select the group to which you want to add the contact or contacts.
 1. Click&nbsp;**Add to group.**
-

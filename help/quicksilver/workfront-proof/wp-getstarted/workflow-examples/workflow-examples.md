@@ -5,9 +5,9 @@ navigation-topic: basics-workfront-proof
 title: Workflow examples
 description: This section contains the following articles - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 09d204ee-7413-47c2-bffd-239bca3ce101
 ---
-
 # Workflow examples
 
 >[!IMPORTANT]
@@ -20,4 +20,3 @@ This section contains the following articles:
 * [Internal Then External Review in Workfront Proof](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md) 
 * [Working with Designers and Project Managers in Workfront Proof](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md) 
 * [Working with Freelancers in Workfront Proof](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
-

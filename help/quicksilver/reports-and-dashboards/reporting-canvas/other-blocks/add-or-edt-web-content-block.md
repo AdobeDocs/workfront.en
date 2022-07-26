@@ -5,8 +5,8 @@ title: Add or edit a web content block in Reporting Canvas
 description: Web content blocks allow you to display information from external websites directly within your report.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
 ---
-
 # Add or edit a web content block in Reporting Canvas
 
 Web content blocks allow you to display information from external websites directly within your report.
@@ -108,4 +108,3 @@ You must have the following access to perform the steps in this article:
    >Pass parameters are currently disabled.
 
 1. Click **Embed URL** to save your selections and return to your report.
-

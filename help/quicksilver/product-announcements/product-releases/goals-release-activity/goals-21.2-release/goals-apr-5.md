@@ -2,12 +2,12 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: "Adobe Workfront Goals 21.2 release activity: Week of April 5, 2021"
+title: 'Adobe Workfront Goals 21.2 release activity: Week of April 5, 2021'
 description: This page describes all enhancements made with the 21.2 release for Adobe Workfront Goals to the Preview environment the week of April 5, 2021. These enhancements will be made available in the Production environment in the first quarter of 21.2.
 author: Luke
-feature: "Product Announcements, Workfront Goals"
+feature: Product Announcements, Workfront Goals
+exl-id: 8439b983-7817-403e-b9be-dcbf209ad3ee
 ---
-
 # Adobe Workfront Goals 21.2 release activity:&nbsp;Week of April 5, 2021
 
 This page describes all enhancements made with the 21.2 release for Adobe Workfront Goals to the Preview environment the week of April 5, 2021. These enhancements will be made available in the Production environment in the first quarter of 21.2.
@@ -42,4 +42,4 @@ For information about locating goal information on projects, see [Overview of co
 
 For information about goal fields visible in reports, see [Glossary of Adobe Workfront terminology](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/534933839/6b978ed2a5) 
+[Watch a video demonstration of this feature.](https://vimeo.com/534933839/6b978ed2a5)

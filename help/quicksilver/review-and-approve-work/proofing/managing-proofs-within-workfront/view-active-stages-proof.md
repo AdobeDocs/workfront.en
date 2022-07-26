@@ -5,8 +5,8 @@ title: View active stages on a proof
 description: You can view the current active stages on a proof that contains an Automated Workflow.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: db32ca28-d475-4050-b04f-c7c82f79918a
 ---
-
 # View active stages on a proof
 
 You can view the current active stages on a proof that contains an Automated Workflow.
@@ -43,4 +43,3 @@ You must have the following access to perform the steps in this article:
 ## View active stages on a proof
 
 1. Hover over the document that contains the proof you want to view, then select **Proofing Workflow** to view the proof stages.
-

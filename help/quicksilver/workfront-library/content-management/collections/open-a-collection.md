@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: collections
 title: Open a collection in Workfront Library
 description: The Collections area in Workfront Library allows you to view and open all the collections that you have access to.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 62678963-32fb-425e-bab5-4ca449437fe9
 ---
-
 # Open a collection in Workfront Library
 
 The Collections area in Workfront Library allows you to view and open all the collections that you have access to.
@@ -34,4 +34,3 @@ The Collections area in Workfront Library allows you to view and open all the co
    * [Filter content displayed in Workfront Library](../../../workfront-library/content-management/basics/filter-content-displayed.md) 
    * [Sort content in Workfront Library](../../../workfront-library/content-management/basics/sort-content-in-library.md) 
    * [Search for items in Workfront Library](../../../workfront-library/content-management/basics/search-for-items-in-workfront-library.md)
-

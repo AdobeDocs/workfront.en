@@ -4,6 +4,7 @@ description: Filter a table in Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
 ---
 # Filter a table in Reporting Canvas
 
@@ -182,4 +183,3 @@ You must have the following access to perform the steps in this article:
    1. Drag the field that you want to add to the **Add a rule set** area below your other filter rule sets.
    1. Repeat Steps 4-7.
    1. In the operator drop-down left of the new rule set, select **AND** or **OR**. These operators function the same as those listed in Step 7, but apply to entire rule sets as opposed to individual rules within a set.****
-

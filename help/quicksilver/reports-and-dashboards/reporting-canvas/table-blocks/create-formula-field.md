@@ -4,6 +4,7 @@ description: Build a formula field in Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
 ---
 # Build a formula field in Reporting Canvas
 
@@ -84,4 +85,3 @@ You must have the following access to perform the steps in this article:
    -->
 
 1. Click the **Go back** arrow in the top-left corner of the screen to return to your table.
-

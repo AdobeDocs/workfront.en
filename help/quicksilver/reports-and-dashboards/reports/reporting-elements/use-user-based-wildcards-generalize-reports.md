@@ -5,8 +5,8 @@ title: Use user-based wildcards to generalize reports
 description: You can generalize a report by using wildcards instead of specific information when building certain reporting elements.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
 ---
-
 # Use user-based wildcards to generalize reports
 
 You can generalize a report by using wildcards instead of specific information when building certain reporting elements. For example, if you want to create a report that shows the tasks assigned to a specific user, you can use the user's name in the Assigned To field of the filter. However, if you want to create a report that shows tasks assigned to the logged in user, regardless of who that user is, you can use a wildcard that indicates that when someone views the report it displays information pertaining only to them. This way, you build the report once but because you use a wildcard in the filter it produces different results every time someone else reads it.
@@ -95,4 +95,3 @@ See also:
 * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
 * [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) 
 * [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
-

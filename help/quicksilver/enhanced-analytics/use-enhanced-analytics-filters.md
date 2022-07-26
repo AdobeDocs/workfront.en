@@ -5,8 +5,8 @@ navigation-topic: enhanced-analytics-navigation-topic
 description: The filters in the Enhanced analytics area help you focus on specific projects or specific types of data. The types of filters that you use can give you insight on - EDIT ME.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 25854c04-d914-4302-a36b-e8134637efe1
 ---
-
 # Apply filters in Enhanced analytics
 
 The filters in the Enhanced analytics area help you focus on specific projects or specific types of data. The types of filters that you use can give you insight on:
@@ -246,4 +246,3 @@ To remove a filter:
    ![](assets/remove-filter-350x213.png)
 
    The filter is no longer active and doesn't display unless you add it again.
-

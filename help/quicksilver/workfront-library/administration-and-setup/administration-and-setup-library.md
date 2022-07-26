@@ -5,9 +5,9 @@ product-area: documents;system-administration;setup
 navigation-topic: workfront-library-navigation-topic
 title: Administration and setup of Workfront Library
 description: This section contains the following subsections - EDIT ME.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 0cc50f95-9608-4dab-8cf3-cf84fc00730d
 ---
-
 # Administration and setup of Workfront Library
 
 This section contains the following subsections:
@@ -16,4 +16,3 @@ This section contains the following subsections:
 * [User access in Workfront Library](../../workfront-library/administration-and-setup/user-access/user-access.md) 
 * [Metadata in Workfront Library](../../workfront-library/administration-and-setup/metadata/metadata.md) 
 * [Manage assets](../../workfront-library/administration-and-setup/manage-assets/manage-assets.md)
-

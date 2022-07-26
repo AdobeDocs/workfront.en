@@ -4,9 +4,9 @@ product-area: documents;user-management;system-administration
 navigation-topic: user-access
 title: Give users access to Workfront Library
 description: Before users can open Workfront Library, they must be given access. As a Workfront Library administrator, you can give your users the following types of access - EDIT ME.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 3c57f0d5-ec51-4e26-8649-5ff58b1b679f
 ---
-
 # Give users access to Workfront Library
 
 Before users can open Workfront Library, they must be given access. As a Workfront Library administrator, you can give your users the following types of access:
@@ -72,4 +72,3 @@ To give access:
 1. In the drop-down list, select each user grouping that you want to give access to.
 1. After selecting a user grouping, it appears in the table below. The new users receive an email with a link to Workfront Library.
 1. When you add a user grouping, each user in the group automatically has Viewer access to Workfront Library. To learn how to change the access level for the user grouping, see [Change a user's access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/change-user-access.md).
-

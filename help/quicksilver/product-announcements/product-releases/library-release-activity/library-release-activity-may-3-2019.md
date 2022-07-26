@@ -4,9 +4,9 @@ navigation-topic: library-release-activity
 title: Workfront Library release activity - May 3, 2019
 description: This page describes all changes made available to Workfront Library with the release to the Production environment on May 3.
 author: Luke
-feature: "Product Announcements, Workfront Library"
+feature: Product Announcements, Workfront Library
+exl-id: 4e7b51d6-e712-497d-9272-9f89781d72c0
 ---
-
 # Workfront Library release activity - May 3, 2019
 
 This page describes all changes made available to Workfront Library with the release to the Production environment on May 3.

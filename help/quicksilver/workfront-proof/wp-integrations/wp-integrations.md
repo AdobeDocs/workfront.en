@@ -6,9 +6,9 @@ navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof integrations
 description: This section contains the following subsections - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 06d87c0d-1ec9-453c-8848-e84b2713c22b
 ---
-
 # Workfront Proof integrations
 
 >[!IMPORTANT]
@@ -21,4 +21,3 @@ This section contains the following subsections:
 * [Box](../../workfront-proof/wp-integrations/box/box.md) 
 * [Basecamp](../../workfront-proof/wp-integrations/basecamp/basecamp.md) 
 * [Basecamp Classic](../../workfront-proof/wp-integrations/basecamp-classic/basecamp-classic.md)
-
