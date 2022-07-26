@@ -98,22 +98,18 @@ To log your users in with OAuth2, use the following process:
 
 
 
-1. When you have a code, you can request refresh and access tokens by sending the code along with client app credentials to the
-
-   ```
-   /integrations/oauth2/api/v1/token
-   ```
-
-   endpoint.
+1. When you have a code, you can request refresh and access tokens by sending the code along with client app credentials to the `/integrations/oauth2/api/v1/token` endpoint.
 
     The full token request URL is 
 
    ```
    https://<URL of your organization's domain></span>/integrations/oauth2/api/v1/token
    ```
+  
    >**Examples:**  Example of CURL call to token endpoint: 
 
    Example 1
+
    ```
       curl --location --request POST '**<workfront host>**/integrations/oauth2/api/v1/token' \
       --header 'Authorization: Basic **<base64(client_id:client_secret)>**' \
@@ -125,7 +121,9 @@ To log your users in with OAuth2, use the following process:
       }'
 
    ```
+   
    Example 2
+
    ```
       curl --location --request POST '**<workfront host>**/integrations/oauth2/api/v1/token' \
       --header 'Content-Type: application/x-www-form-urlencoded' \
@@ -159,10 +157,12 @@ To log your users in with OAuth2, use the following process:
    > Store the refresh token in a secure place. You will need it to get a new refresh token when the old one is expired. Workfront does not store your refresh token.
 
 1. Now when you have an access token you can make API calls to Workfront
+
    ```
    curl --request GET 'https://<workfront host>/attask/api/v14.0/proj/search \
    --header 'sessionID: <access_token>'
    ```
+
 ## Set Up Refresh Access Token
 
 ![](assets/refresh-access-token-flow-350x142.png)
@@ -188,7 +188,9 @@ curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/toke
 --data-urlencode 'client_id=<client_id>' \
 --data-urlencode 'client_secret=<client_secret>'
 ```
+
 It will return the following result:
+
 ```
 {
   "token_type": "sessionID",
@@ -198,4 +200,5 @@ It will return the following result:
   "wid": "string"
 }
 ```
+
 And again the access token is the ```sessionID``` which can be used to make an API request to Workfront.
