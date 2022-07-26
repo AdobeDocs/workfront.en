@@ -16,7 +16,7 @@ You can export an entire report—or a specific block—into a file format to fi
 
 ## Prerequisites
 
-Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas Beta](../../../product-announcements/betas/reporting-canvas-beta.md).
+Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas Beta](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
 
 ## Export a report
 
