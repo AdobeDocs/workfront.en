@@ -51,7 +51,7 @@ The following table outlines major features of boards along with their current r
    <td>Released</td>
   </tr>
   <tr>
-   <td>Convert standard cards to connected cards</td>
+   <td>Convert ad hoc cards to connected cards</td>
    <td>Released</td>
   </tr>
   <tr>
@@ -65,6 +65,14 @@ The following table outlines major features of boards along with their current r
   <tr>
    <td>Manual estimations on cards</td>
    <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Add a team to a board or a card</td>
+   <td>Planned</td>
+  </tr>
+  <tr>
+   <td>Create a column connected to a Workfront project</td>
+   <td>Planned</td>
   </tr>
  </tbody> 
 </table> 

@@ -22,19 +22,19 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>Edit access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>Contribute permissions or higher to the tasks and issues you need to work on</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -46,11 +46,11 @@ You must have the following access to perform the steps in this article:
 
 You can view updates on any work item in the Work List:
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
+1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click **Home**. 
 1. In the **Work List** area, select the item where you want to view updates.  
    Updates are displayed in the right panel.
 
-1. (Optional) To filter system updates so only user updates are displayed, toggle&nbsp;**Show System Updates** to Off.  
+1. (Optional) To filter system updates so only user updates are displayed, toggle **Show System Updates** to Off.  
   
    ![](assets/show-system-updates-home-350x114.png)
 
@@ -58,7 +58,7 @@ You can view updates on any work item in the Work List:
 
 You can provide updates on any work item in the Work List:
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
+1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click **Home**. 
 1. In the **Work List** area, select the item where you want to provide an update.
 1. In the right panel, click **Update** to display a text field.
 
@@ -87,7 +87,7 @@ You can provide updates on any work item in the Work List:
 
 You can edit any field on any work item that you have access to edit.
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
+1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click **Home**. 
 1. In the **Work List** area, select the item you want to edit.  
    All fields you have access to view are displayed in the right panel.
 
