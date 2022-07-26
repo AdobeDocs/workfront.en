@@ -6,8 +6,8 @@ title: Create a report on reporting activities
 description: When you create a report about reports, you can identify specific report information, which can include if reports are assigned to deactivated users, if reports are set to run with access rights of a deactivated user, if users are accessing a report you plan to delete, and so forth.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
 ---
-
 # Create a report on reporting activities
 
 When you create a report about reports, you can identify specific report information, which can include if reports are assigned to deactivated users, if reports are set to run with access rights of a deactivated user, if users are accessing a report you plan to delete, and so forth.
@@ -96,4 +96,3 @@ After creating your report, you can update your reports as needed.
    * Share a report:&nbsp;For more information, see [Share a report in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
 1. (Conditional) If you copy the original reports, use the information from the report you created in [Create the report about existing reports](#create-the-report-about-existing-reports) to share the new copies with the same entities as the original reports.
-

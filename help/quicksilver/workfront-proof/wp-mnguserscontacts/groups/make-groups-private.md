@@ -5,9 +5,9 @@ navigation-topic: groups-workfront-proof
 title: Make Groups Private using Workfront Proof
 description: Making your group private means that only you will be able to view, use, edit or delete the group. If the group is not private, then all users in your account can see and use the group.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 6bd637b1-1c5f-4bab-85b8-c3852233a306
 ---
-
 # Make Groups Private using Workfront Proof
 
 >[!IMPORTANT]
@@ -33,4 +33,3 @@ To make an existing group private:
 1. Enable the **Private** option on the Group details page. (2)
 
 ![Private_Group_Details.png](assets/private-group-details-350x123.png)
-

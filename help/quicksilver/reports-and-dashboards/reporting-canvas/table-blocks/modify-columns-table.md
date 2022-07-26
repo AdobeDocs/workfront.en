@@ -3,8 +3,8 @@ title: Configure a table column in Reporting Canvas
 description: Configure a table column in Reporting Canvas
 author: Nolan
 feature: Reports and Dashboards
+exl-id: ce33888f-344d-4f69-b527-9679340d134b
 ---
-
 # Configure a table column in Reporting Canvas
 
 The columns in a table can be configured for display. You can modify the following aspects of a column:
@@ -132,4 +132,3 @@ You must have the following access to perform the steps in this article:
    </table>
 
 1. Click the **Go back** arrow in the top-left corner of the screen to return to your report.
-

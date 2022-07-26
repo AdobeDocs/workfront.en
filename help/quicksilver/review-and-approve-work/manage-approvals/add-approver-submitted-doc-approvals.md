@@ -5,8 +5,8 @@ title: Add additional approvers to submitted document approvals
 description: You can add additional approvers to a document approval directly from the Home area.
 author: Courtney
 feature: Work Management
+exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
 ---
-
 # Add additional approvers to submitted document approvals
 
 You can add additional approvers to a document approval directly from the Home area.
@@ -61,4 +61,3 @@ You must have the following access to perform the steps in this article:
    If your Adobe Workfront administrator has enabled the capability to collaborate with people who don't use Workfront, as described in [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), you can type their email addresses to include them.
 
 1. Click **Save**.
-

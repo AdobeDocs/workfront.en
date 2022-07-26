@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: library-basics
 title: View Workfront Library work requests
 description: You can view all the work requests you've submitted. For information on submitting a work request from Workfront Library, see Create a request in Workfront Library.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 816f799f-2235-4ea1-9b04-d00e2c56169c
 ---
-
 # View Workfront Library work requests
 
 You can view all the work requests you've submitted. For information on submitting a work request from Workfront Library, see [Create a request in Workfront Library](../../../workfront-library/content-management/basics/create-a-request-in-wf-library.md).

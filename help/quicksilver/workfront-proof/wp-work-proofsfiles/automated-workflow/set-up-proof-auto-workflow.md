@@ -5,9 +5,9 @@ navigation-topic: automated-workflow-workfront-proof
 title: Set up a proof with an Automated Workflow in Workfront Proof
 description: This repeats information found in Configuring proofs in Workfront. Consolidate here or there. Maybe better here.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 605569df-8e63-476d-a0cd-e73802042011
 ---
-
 # Set up a proof with an Automated Workflow in Workfront Proof
 
 >[!IMPORTANT]
@@ -179,4 +179,3 @@ After a basic proof is converted to Automated Workflow, you can add additional t
    * When a person is added to a stage in an Automated Workflow template, but also already present on the proof then if this template is applied, the system will remove this person from the stage automatically. If there is no one else added to this particular stage, the following error will be shown, as the system will not allow to add an empty stage to the workflow.
 
      ![error_when_adding_template.png](assets/error-when-adding-template-350x66.png)
-

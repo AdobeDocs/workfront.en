@@ -5,9 +5,9 @@ navigation-topic: teams-and-groups
 title: Teams and groups
 description: Review these areas to learn about working with teams and groups.
 author: Lisa
-feature: "Teams and Groups"
+feature: Teams and Groups
+exl-id: 1ff36a4b-637a-46f2-ac1a-6a8d2c146862
 ---
-
 # Teams and groups
 
 This section contains the following subsections:
@@ -17,4 +17,3 @@ This section contains the following subsections:
 * [Work with groups and teams](../people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md) 
 * [Work with team requests](../people-teams-and-groups/work-with-team-requests/work-with-team-requests.md) 
 * [Tips, Tricks, and Troubleshooting for People, Teams, and Groups](../people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
-

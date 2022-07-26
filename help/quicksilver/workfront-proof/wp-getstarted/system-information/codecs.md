@@ -6,9 +6,9 @@ navigation-topic: system-information
 title: Codecs in Workfront Proof
 description: Codecs in Workfront Proof
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: f760dbaf-edbb-49ec-a329-54727372bdc6
 ---
-
 # Codecs in Workfront Proof
 
 >[!IMPORTANT]
@@ -195,4 +195,3 @@ feature: "Workfront Proof, Digital Content and Documents"
 * Go2Meeting4 (G2M4)
 * ER AAC LD (Error Resiliant, Low-Delay variant of AAC)
 * REDCODE
-

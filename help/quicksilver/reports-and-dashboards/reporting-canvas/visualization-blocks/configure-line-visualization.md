@@ -4,6 +4,7 @@ description: Configure a line visualization in Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: cc339b1a-f90e-4934-a95d-6e99363e219a
 ---
 # Configure a line visualization in Reporting Canvas
 
@@ -116,4 +117,3 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
       -->
 
 1. Click anywhere outside the menu of visualizations settings to close it.
-

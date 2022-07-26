@@ -4,9 +4,9 @@ product-area: documents;user-management;system-administration
 navigation-topic: user-access
 title: Remove a user's access to Workfront Library
 description: As a Workfront Library administrator, you can remove a user's access to Workfront Library. When you remove a user from Workfront Library, only their access to Workfront Library is removed. Their Workfront account remains active. Any content that they owned in Workfront Library remains in Workfront Library.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 6c8a0195-d90f-4658-915c-e1c83ab85f3f
 ---
-
 # Remove a user's access to Workfront Library
 
 As a Workfront Library administrator, you can remove a user's access to Workfront Library. When you remove a user from Workfront Library, only their access to Workfront Library is removed. Their Workfront account remains active. Any content that they owned in Workfront Library remains in Workfront Library.
@@ -123,4 +123,3 @@ To remove access for a user grouping in Workfront Library:
    >[!NOTE]
    >
    >To transfer assets owned by members of the grouping, you must go to the Deactivated users list. To learn more about transfering assets, see [Transfer ownership assets to another user](../../../workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md).
-

@@ -5,8 +5,8 @@ title: Create or edit views in Adobe Workfront
 description: You can customize the type of information you display on the screen using views. You can use several types of views in Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 ---
-
 # Create or edit views in Adobe Workfront
 
 You can customize the type of information you display on the screen using views. You can use several types of views in Adobe Workfront.
@@ -244,4 +244,3 @@ To create or customize an Agile view:
    Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
 1. (Optional) Click the **List View** icon ![](assets/list-view-in-agile-view-for-tasks.png) to return to the list of tasks.
-

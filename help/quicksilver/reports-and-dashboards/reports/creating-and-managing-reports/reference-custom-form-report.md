@@ -5,8 +5,8 @@ title: Reference a custom form in a report
 description: You can reference the custom forms of an object in the Views, Filters, and Groupings of a report for that object.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
 ---
-
 # Reference a custom form in a report
 
 You can reference the custom forms of an object in the Views, Filters, and Groupings of a report for that object.
@@ -155,4 +155,3 @@ To filter only on the primary custom form associated with the object type:
 1. Begin creating a report as described in the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. On the **Groupings** tab, expand **Category**, then click **Name**.  
    ![](assets/qs-category-name-grouping-350x373.png)
-

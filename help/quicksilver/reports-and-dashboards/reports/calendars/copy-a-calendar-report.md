@@ -5,8 +5,8 @@ title: Copy a calendar report
 description: If you created a calendar, you can copy the calendar and use it as a starting point for a new calendar.
 author: Lisa
 feature: Reports and Dashboards
+exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
 ---
-
 # Copy a calendar report
 
 If you created a calendar, you can copy the calendar and use it as a starting point for a new calendar.
@@ -56,4 +56,3 @@ You must have the following access to perform the steps in this article:
    Only you have access to the copied calendar. Users with access to the original calendar do not have access to the copied calendar. You can grant access to the newly-created calendar by sharing it with other users. To learn about sharing calendars, see [Share a calendar report](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Optional) Rename the calendar.
-

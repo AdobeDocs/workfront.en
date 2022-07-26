@@ -4,6 +4,7 @@ description: Build a report in Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
 ---
 # Build a report in Reporting Canvas
 
@@ -138,4 +139,3 @@ You must have the following access to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-

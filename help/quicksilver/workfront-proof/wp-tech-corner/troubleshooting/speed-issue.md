@@ -6,9 +6,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Speed issues in Workfront Proof
 description: This help page can help you determine if any speed issues that you might be experiencing when using Workfront Proof are related to your ISP or Workfront Proof's content delivery network.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 42e999a6-5b27-482d-a7cf-b8030272da32
 ---
-
 # Speed issues in Workfront Proof
 
 >[!IMPORTANT]

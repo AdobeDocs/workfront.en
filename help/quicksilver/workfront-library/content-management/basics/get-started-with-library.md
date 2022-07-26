@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: library-basics
 title: Get started with Workfront Library
 description: Workfront Library is designed to be your organization's digital content hub, allowing you to manage the full lifecycle of your organization's digital content.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: aa291378-8e5d-4b28-9d38-7a54eb49c61c
 ---
-
 # Get started with Workfront Library
 
 Workfront Library is designed to be your organization's digital content hub, allowing you to manage the full lifecycle of your organization's digital content.

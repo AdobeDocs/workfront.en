@@ -6,9 +6,9 @@ navigation-topic: faqs-workfront-proof
 title: FAQ - Create and share proofs and files
 description: A proof is a static, audio, or video file that is available for review in the proofing viewer. Reviewers added to a proof have a set of tools available to them to make comments and decisions on the proof.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: eb0eb160-4bcf-4bc1-ad13-df19f692bef6
 ---
-
 # FAQ - Create and share proofs and files
 
 >[!IMPORTANT]

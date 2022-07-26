@@ -5,9 +5,9 @@ navigation-topic: organize-your-work-workfront-proof
 title: Back Up Your Workfront Proof Data
 description: You can request a backup of all of your data in Workfront Proof using the backup function.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 3b831bb5-2d03-4d7e-ad1f-54ae95f05ccd
 ---
-
 # Back Up Your Workfront Proof Data
 
 >[!IMPORTANT]
@@ -110,4 +110,3 @@ Each backup .zip file created at your request has a distinctive name that includ
 >[!NOTE]
 >
 >&nbsp;If Microsoft Excel is installed on your computer, your extract utility might list the file type for the individual CSV files as Microsoft Office Excel Comma Separated Values File.&nbsp;You can open an extracted CSV file using Excel and save the file as an Excel workbook (&#42;.xlsx) or some other file type.
-

@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: display the result of a calculation between two fields in a column"
+title: 'View: display the result of a calculation between two fields in a column'
 description: You can use text mode in a column to display a calculation between two fields.
 author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
 ---
-
 # View: display the result of a calculation between two fields in a column
 
 You can use text mode in a column to display a calculation between two fields.
@@ -62,4 +62,3 @@ To add this column to a task view:
 
 1. (Optional) To aggregate the values displayed in the view in a grouping, follow the steps described in [Grouping: display the result of aggregating multiple calculated values in a grouping](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 1. Click **Save**, then **Save View**.
-

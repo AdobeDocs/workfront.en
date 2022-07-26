@@ -4,6 +4,7 @@ description: Configure a KPI visualization in Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
 ---
 # Configure a KPI visualization in Reporting Canvas
 
@@ -107,4 +108,3 @@ You must have the following access to perform the steps in this article:
       -->
 
 1. Click anywhere outside the menu of visualizations settings to close it.
-

@@ -4,6 +4,7 @@ description: Export a report in Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
 ---
 # Export a report in Reporting Canvas
 
@@ -84,4 +85,3 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
    </table>
 
    The exported PDF&nbsp;file is named in the following format: REPORT_TITLE_YYYY-MM-DDTHH_MM_SS.
-

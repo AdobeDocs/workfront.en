@@ -3,7 +3,8 @@ title: 20.4 Mobile and integration enhancements
 description: 20.4 Mobile and integration enhancements
 author: Luke
 draft: Probably
-feature: "Product Announcements, Workfront Integrations and Apps"
+feature: Product Announcements, Workfront Integrations and Apps
+exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
 ---
 # 20.4 Mobile and integration enhancements
 

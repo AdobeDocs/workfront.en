@@ -5,8 +5,8 @@ title: Embed an external web page in a dashboard
 description: You can embed an external web page in a dashboard to provide access to related information from other systems within Adobe Workfront or to other Workfront pages.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
 ---
-
 # Embed an external web page in a dashboard
 
 You can embed an external web page in a dashboard to provide access to related information from other systems within Adobe Workfront or to other Workfront pages.
@@ -137,4 +137,3 @@ You can view all external pages in Workfront in an External Page report.
    You can view the name and the URL associated with the external pages in your system in the new report.
 
    ![](assets/external-page-report-name-url-columns-nwe-350x213.png)
-

@@ -5,9 +5,9 @@ navigation-topic: account-settings-workfront-proof
 title: Manage Workfront Proof users
 description: As a Workfront Proof administrator, you can view user settings and manage proof users in the Account Settings area.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 4666cb18-e3a9-408b-8eb1-e00ebe2e6f9c
 ---
-
 # Manage Workfront Proof users
 
 >[!IMPORTANT]

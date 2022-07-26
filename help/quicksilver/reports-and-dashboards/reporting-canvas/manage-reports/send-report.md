@@ -4,6 +4,7 @@ description: Send a report in Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: 04d73036-cc3e-48f4-8dfa-85920d77d404
 ---
 # Send a report in Reporting Canvas
 
@@ -61,4 +62,3 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 &nbsp;
 
 1. &nbsp;
-

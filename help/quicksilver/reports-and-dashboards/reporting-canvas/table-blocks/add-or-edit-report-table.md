@@ -4,6 +4,7 @@ description: Add or edit a table block in Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
 ---
 # Add or edit a table block in Reporting Canvas
 
@@ -103,4 +104,3 @@ You must have the following access to perform the steps in this article:
    * **Add a formula field**: Click **New****+** at the top of the **Fields** list. For more instructions on creating a formula field, see [Build a formula field in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md).
    * **Add a filter**: Drag the field that you want the table to be filtered by onto the **Filter** section above the table. For more information on setting up filter rules, see [Filter a table in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md).
    * **Group rows by specific attributes**:&nbsp;Drag the field that you want the table to be grouped by onto the **Group** section above the table. For more information on creating row groups, see [Group table rows in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md).
-

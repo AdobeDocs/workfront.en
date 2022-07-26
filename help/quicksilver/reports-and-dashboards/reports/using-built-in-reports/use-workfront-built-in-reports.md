@@ -5,8 +5,8 @@ title: Use Adobe Workfront built-in reports
 description: Adobe Workfront has an extensive list of built-in reports that you can use.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
 ---
-
 # Use Adobe Workfront built-in reports
 
 Adobe Workfront has an extensive list of built-in reports that you can use.
@@ -365,4 +365,3 @@ The following reports come with the Workfront package. The reports are available
 1. Click **Save Filter**.  
    The reports list displays only built-in reports.  
    For more information about what built-in reports are available, see [Overview of built-in reports](#overview-of-built-in-reports).
-

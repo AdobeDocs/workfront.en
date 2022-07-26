@@ -6,9 +6,9 @@ navigation-topic: faqs-workfront-proof
 title: FAQ - Workfront Proof account
 description: To open a new account, go to the trial signup page and open a trial account. A member of our team will then get in touch with you to help you get started with Workfront Proof.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 47092717-3895-40a3-9db1-0009638e2544
 ---
-
 # FAQ - Workfront Proof account
 
 >[!IMPORTANT]

@@ -3,7 +3,8 @@ title: Adobe Workfront Goals 21.1 release activity:&nbsp;Week of January 11, 202
 description: Adobe Workfront Goals 21.1 release activity:&nbsp;Week of January 11, 2021
 author: Luke
 draft: Probably
-feature: "Product Announcements, Workfront Goals"
+feature: Product Announcements, Workfront Goals
+exl-id: 9898531c-f520-46ed-8943-0878e5193a33
 ---
 # Adobe Workfront Goals 21.1 release activity:&nbsp;Week of January 11, 2021
 
@@ -66,4 +67,4 @@ To improve your interaction with it and make it more user-friendly, we have rede
 
 For information about navigating the Goal Alignment section, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/500518626/5adb573096) 
+[Watch a video demonstration of this feature.](https://vimeo.com/500518626/5adb573096)

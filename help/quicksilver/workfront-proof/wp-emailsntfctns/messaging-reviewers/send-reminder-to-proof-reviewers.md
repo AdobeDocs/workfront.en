@@ -5,9 +5,9 @@ navigation-topic: messaging-reviewers
 title: Send a reminder message to the reviewers on a proof
 description: Make this work for PiW
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 53abbd88-7915-4d74-9bda-d75c59663463
 ---
-
 # Send a reminder message to the reviewers on a proof
 
 >[!IMPORTANT]
@@ -58,4 +58,3 @@ You can also remind somebody about multiple proofs that have been shared with th
      The default message&nbsp;reminds the reviewers that they have been added to the proof and includes the proof's deadline.&nbsp; &nbsp;
    
    * If you want to create your own custom message, type a **Subject** and the **Message,** then click **Send.**A customized reminder email contains the same information as the default reminder email, but it also includes your custom subject line and custom message in the body of the email.
-

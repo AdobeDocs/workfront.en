@@ -5,9 +5,9 @@ navigation-topic: share-proofs-and-files
 title: Share proof links in Workfront Proof
 description: You can email the Proof URL and the Download URL for a proof to anyone, whether or not they have a Workfront Proof account. For information about the Proof URL and the Download URL, see Share the Public URL in Workfront Proof and Download Files Stored in Workfront Proof.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: aa3fd399-6381-4118-a64a-a331784b4854
 ---
-
 # Share proof links in Workfront Proof
 
 >[!IMPORTANT]
@@ -46,4 +46,3 @@ To share proof links:
    >[!NOTE]
    >
    >If one of the links is disabled on the proof, it is not visible in the email.
-

@@ -5,8 +5,8 @@ title: Convert a basic workflow to an Automated Workflow on a proof
 description: If you are the proof owner, you can convert the basic workflow on an existing proof to an Automated Workflow.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: c676c696-ab7d-415b-bf5e-5d0335a3920f
 ---
-
 # Convert a basic workflow to an Automated Workflow on a proof
 
 If you are the proof owner, you can convert the basic workflow on an existing proof to an Automated Workflow.
@@ -92,4 +92,3 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Add stage**.
 1. (Optional) Repeat steps 3 and 4 until your satisfied with your workflow.
-

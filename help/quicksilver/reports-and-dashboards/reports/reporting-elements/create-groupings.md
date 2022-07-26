@@ -5,8 +5,8 @@ title: Create groupings in Adobe Workfront
 description: You can create a custom grouping from scratch or customize an existing grouping.
 author: Lisa
 feature: Reports and Dashboards
+exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
 ---
-
 # Create groupings in Adobe Workfront
 
 <!--
@@ -263,4 +263,3 @@ As you build the grouping, the results appear immediately in the list.
 </div>
 </div>
 -->
-

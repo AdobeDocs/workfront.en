@@ -5,9 +5,9 @@ navigation-topic: users-workfront-proof
 title: Configure User Information using Workfront Proof
 description: Configure User Information using Workfront Proof
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
 ---
-
 # Configure User Information using Workfront Proof
 
 >[!IMPORTANT]
@@ -67,4 +67,3 @@ feature: "Workfront Proof, Digital Content and Documents"
 
       * **Proof subject template:**&nbsp;Create a template for a proof subject.
       * **Proof message template:**Create a template for a proof message and its format.
-

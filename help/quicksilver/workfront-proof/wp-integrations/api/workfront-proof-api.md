@@ -6,9 +6,9 @@ navigation-topic: api-workfront-proof
 title: The Workfront Proof API
 description: If you are a developer with customers who could benefit from having integrated document review, collaboration, and approval, you can easily embed Workfront Proof into your application. The Workfront Proof API allows you to enable that functionality and save hundreds of man hours.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 3b71baaf-8490-4479-bb95-da0b5d28ad15
 ---
-
 # The Workfront Proof API
 
 >[!IMPORTANT]

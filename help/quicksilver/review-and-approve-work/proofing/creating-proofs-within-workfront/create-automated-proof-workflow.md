@@ -5,8 +5,8 @@ title: Create an advanced proof with an Automated workflow
 description: An Automated Workflow makes it easier to manage the review process if your process is complex, or if you send content for review to the same people regularly. The proof moves from stage to stage and Adobe Workfront notifies each user when it is their turn to review it. For more information about Automated workflows, see Automated Workflow overview.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
 ---
-
 # Create an advanced proof with an Automated workflow
 
 An Automated Workflow makes it easier to manage the review process if your process is complex, or if you send content for review to the same people regularly. The proof moves from stage to stage and Adobe Workfront notifies each user when it is their turn to review it. For more information about Automated workflows, see [Automated Workflow overview](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
@@ -214,4 +214,3 @@ You must have the following access to perform the steps in this article:
    ![](assets/open-proof-350x132.png)
 
    Users who do not have proofing enabled on their account&nbsp;are still able to view the document and make comments to the proof [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
-

@@ -5,8 +5,8 @@ title: Run and deliver a report with the access rights of another user
 description: By default, users can only see the objects in a report that they have permissions to View.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
 ---
-
 # Run and deliver a report with the access rights of another user
 
 By default, users can only see the objects in a report that they have permissions to View.
@@ -117,4 +117,3 @@ To deliver a report with the access rights of another user:
 >
 >We do not recommend using a different user other than the user who schedules the delivery for the **Deliver this report with the Access Rights of:** field, if the report contains a filter that uses a wildcard referring to the logged in user. This can create confusion for the users receiving the report, as the delivered report displays as it would for the user who is scheduling the report for delivery. In this case, the delivered report disregards the value specified in the **Deliver this report with the Access Rights of:** field.  
 >For more information about wildcards for user fields, see the "User-Based Variables" section in the [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-

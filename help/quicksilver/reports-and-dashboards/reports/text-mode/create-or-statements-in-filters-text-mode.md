@@ -5,8 +5,8 @@ title: Create "OR" statements in text mode filters
 description: You can include multiple statements when you create a filter in lists and reports.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
 ---
-
 # Create "OR" statements in text mode filters
 
 You can include multiple statements when you create a filter in lists and reports.
@@ -70,4 +70,3 @@ The text mode syntax for an OR filter must contain the following:
   **Example:** To filter for tasks that have a Status of New OR a Percent Complete lower than 100% OR a custom field called "Account Type" with a value of "Equal", use the following text mode code:
 
   <pre>status=NEW</pre><pre>status_Mod=in</pre><pre>OR:1:percentComplete=100</pre><pre>OR:1:percentComplete_Mod=lt</pre><pre>OR:2:DE:Account Type=Capital</pre><pre>OR:2:DE:Account Type_Mod=in</pre>
-

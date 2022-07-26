@@ -3,7 +3,8 @@ title: Code Samples
 description: Code Samples
 author: Becky
 draft: Probably
-feature: "Workfront API, Workfront Proof"
+feature: Workfront API, Workfront Proof
+exl-id: 50e83ed0-42ce-4e94-ab9c-184a3d8a72b5
 ---
 # Code Samples
 
@@ -24,4 +25,3 @@ Result of incorrect reference can be:
 ```
 "The top XML element 'result' from namespace '' references distinct types System.Boolean and ApprovalHQ.SOAPWorkflowTemplateObject. Use XML attributes to specify another XML name or namespace for the element or types."
 ```
-

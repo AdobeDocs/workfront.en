@@ -4,9 +4,9 @@ product-area: documents;user-management;system-administration
 navigation-topic: user-access
 title: Give users access to a Workfront Library portal
 description: Before users can open a Workfront Library portal, they must be given access to the portal. As a user with Manage access or higher to a portal, you can grant users the following types of access to the portal.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 4f12ea2d-feb4-4bf8-8c84-6ae11d2a5db9
 ---
-
 # Give users access to a Workfront Library portal
 
 Before users can open a Workfront Library portal, they must be given access to the portal. As a user with Manage access or higher to a portal, you can grant users the following types of access to the portal.
@@ -91,4 +91,3 @@ Any user grouping that you add to the portal must first exist and be populated w
    1. Click **Save**.
 
 1. (Optional) To view who is in a user grouping, select the desired grouping, then click the arrow next to the grouping's name.
-

@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: library-basics
 title: Search for items in Workfront Library
 description: If your Workfront Library administrator set up content metadata, you can quickly find the content you want by searching for names and metadata. For more information about metadata, see Overview of metadata in Workfront Library.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: cbd0b2f7-58c2-4fec-9d0a-0fb5e8ed325a
 ---
-
 # Search for items in Workfront Library
 
 If your Workfront Library administrator set up content metadata, you can quickly find the content you want by searching for names and metadata. For more information about metadata, see [Overview of metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
@@ -155,4 +155,3 @@ The following table lists the available search operators.
    1. Select the filters and keywords you want to apply.
 
 1. (Optional) To close the Filter panel, click the **X** at the upper-right corner of the panel.
-

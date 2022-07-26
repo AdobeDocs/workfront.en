@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: library-basics
 title: Create a request in Workfront Library
 description: You can create a work request, such as a request for content to be created, and submit the request to a Request Queue in Workfront. You can then assign it to another user or convert it into a task in Workfront. For more information on requests, see Overview of converting issues in Adobe Workfront.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 29789145-3bd1-4f76-b56b-b90cb103587a
 ---
-
 # Create a request in Workfront Library
 
 You can create a work request, such as a request for content to be created, and submit the request to a Request Queue in Workfront. You can then assign it to another user or convert it into a task in Workfront. For more information on requests, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
@@ -23,4 +23,3 @@ Before users can create a request in Workfront Library, a Workfront system admin
 1. Complete the request form, then click **Submit Request**.
 
    The request is submitted to the selected request queue in Workfront. For more information on work requests in Workfront, see [Creating and Submitting Workfront Requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
-

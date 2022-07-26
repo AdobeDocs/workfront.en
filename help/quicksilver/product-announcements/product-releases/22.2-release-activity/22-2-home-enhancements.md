@@ -4,6 +4,7 @@ description: 22.2 Home enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 18ff9c45-f8f0-467c-b232-91e863f16cb8
 ---
 # 22.2 Home enhancements
 
@@ -27,4 +28,4 @@ Prior to this experience, the filters in the Home area did not provide an accura
 
 For more information, see [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/686849626/453a27f3ec) 
+[Watch a video demonstration of this feature.](https://vimeo.com/686849626/453a27f3ec)

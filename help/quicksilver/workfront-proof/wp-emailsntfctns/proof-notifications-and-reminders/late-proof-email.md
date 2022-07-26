@@ -6,9 +6,9 @@ navigation-topic: proof-notifications-and-reminders
 title: Late proof email
 description: The Late Proof email is sent to recipients when a proof is close to deadline or reaching deadline. These types of emails are not possible to disable on a proof level, but are configurable on account and user personal settings level.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 23eb75a7-d7b7-4043-afba-cf45c86ab1ae
 ---
-
 # Late proof email
 
 >[!IMPORTANT]
@@ -44,4 +44,3 @@ Consider the following about proof notifications:
   >The Creator of the proofs receives a separate Proof made email for each of the proofs created. For more information, see [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md).
 
 * If you or your reviewers don't receive an expected email notification, see&nbsp; [Configure Workfront Proof emails to avoid spam filters](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md).
-

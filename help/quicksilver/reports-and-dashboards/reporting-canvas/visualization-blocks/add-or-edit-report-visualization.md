@@ -4,6 +4,7 @@ description: Add or edit a visualization block in Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
 ---
 # Add or edit a visualization block in Reporting Canvas
 
@@ -126,4 +127,3 @@ You must have the following access to perform the steps in this article:
      -->   
    
    * **KPI** visualization: For instructions, see [Configure a KPI visualization in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).
-

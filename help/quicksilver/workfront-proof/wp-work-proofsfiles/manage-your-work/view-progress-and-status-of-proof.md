@@ -5,9 +5,9 @@ navigation-topic: manage-your-work-workfront-proof
 title: View the Progress and Status of a Proof in Workfront Proof
 description: Proof progress indicates the work done on a proof from the time you send the proof to reviewers to the time they make a decision on the proof.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 8fd85595-1403-490e-9d52-2ba5b01457b7
 ---
-
 # View the Progress and Status of a Proof in Workfront Proof
 
 >[!IMPORTANT]

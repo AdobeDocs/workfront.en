@@ -6,9 +6,9 @@ navigation-topic: workflow-examples
 title: Internal Then External Review in Workfront Proof
 description: If your organization completes internal reviews before sharing proofs with clients, we suggest two ways you can use Workfront Proof to enhance your workflow - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
 ---
-
 # Internal Then External Review in Workfront Proof
 
 >[!IMPORTANT]
@@ -60,4 +60,4 @@ This option illustrates a workflow where the proofing process is managed by the 
 
 1. **New version** (if required) - the designer amends the file and uploads it to Workfront Proof as a new version. For more information, see .
 
-You can repeat this process until the proof is approved. 
+You can repeat this process until the proof is approved.

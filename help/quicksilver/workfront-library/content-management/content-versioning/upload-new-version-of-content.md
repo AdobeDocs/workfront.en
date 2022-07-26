@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: content-versioning
 title: Upload a new version of content in Workfront Library
 description: If you have Manage permissions to content, you can upload new versions. For information on managing multiple versions of content, see Overview of content versioning in Workfront Library .
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 27ee4bf2-7245-42f2-a324-7752e48de4cb
 ---
-
 # Upload a new version of content in Workfront Library
 
 If you have Manage permissions to content, you can upload new versions. For information on managing multiple versions of content, see [Overview of content versioning in Workfront Library](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md) .
@@ -51,4 +51,3 @@ You cannot upload new versions of content in bulk. Each version must be uploaded
    Once the upload is complete, the version number is added to the name of the content.
 
    An in-app notification announcing the newly-uploaded version is sent to all users with access to previous versions.
-

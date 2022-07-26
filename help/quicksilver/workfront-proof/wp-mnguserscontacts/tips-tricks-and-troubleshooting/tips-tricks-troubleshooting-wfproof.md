@@ -6,9 +6,9 @@ navigation-topic: manage-your-users-and-contacts
 title: Tips, tricks, and troubleshooting for Workfront Proof users and contacts
 description: This section contains the following articles - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: f6269b63-bd4e-4bc7-b022-779b3556f029
 ---
-
 # Tips, tricks, and troubleshooting for Workfront Proof users and contacts
 
 >[!IMPORTANT]
@@ -18,4 +18,3 @@ feature: "Workfront Proof, Digital Content and Documents"
 This section contains the following articles:
 
 * [Bulk edit user's Other Groups](../../../workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/bulk-edit-users-other-groups.md)
-

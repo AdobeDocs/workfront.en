@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: metadata
 title: Determine the display order of taxonomy fields in Workfront Library
 description: When a user uploads new content to Workfront Library or opens an existing content file, the taxonomy associated with the content displays in the Details panel.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: ab64bf14-51d8-4089-abe4-fa80b957552d
 ---
-
 # Determine the display order of taxonomy fields in Workfront Library
 
 When a user uploads new content to Workfront Library or opens an existing content file, the taxonomy associated with the content displays in the Details panel.
@@ -25,4 +25,3 @@ For more information about taxonomy, see [Overview of taxonomy metadata in Workf
    >[!NOTE]
    >
    >The Name field must be the first field in your taxonomy.&nbsp;
-

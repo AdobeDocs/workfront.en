@@ -5,8 +5,8 @@ title: Text Mode overview
 description: Text Mode overview
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
 ---
-
 # Text Mode overview
 
 <!--

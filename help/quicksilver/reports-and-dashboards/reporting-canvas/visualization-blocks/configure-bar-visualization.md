@@ -4,6 +4,7 @@ description: Configure a bar visualization in the Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: 7dc4f156-d262-482f-aa82-c905f0d1b20f
 ---
 # Configure a bar visualization in the Reporting Canvas
 
@@ -115,4 +116,3 @@ You must have the following access to perform the steps in this article:
       -->
 
 1. Click anywhere outside the menu of visualizations settings to close it.
-

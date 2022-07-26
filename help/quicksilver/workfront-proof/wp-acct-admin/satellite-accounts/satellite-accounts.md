@@ -6,9 +6,9 @@ navigation-topic: account-administration
 title: Satellite accounts in Workfront Proof overview
 description: This section contains the following articles - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 51bf041f-91c6-417c-b4cb-b67389a7127f
 ---
-
 # Satellite accounts in Workfront Proof
 
 >[!IMPORTANT]
@@ -20,4 +20,3 @@ This section contains the following articles:
 * [Satellite accounts in Workfront Proof](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md) 
 * [Configure a satellite account in Workfront Proof](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md) 
 * [Manage a satellite account in Workfront Proof](../../../workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
-

@@ -5,8 +5,8 @@ title: Request document approvals
 description: You can request approval from managers or other users for a document in Adobe Workfront. You can also request document approvals from people without Workfront accounts if your Workfront administrator has enabled this capability, as described in Configure system security preferences.
 author: Courtney
 feature: Work Management
+exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
 ---
-
 # Request document approvals
 
 You can request approval from managers or other users for a document in Adobe Workfront. You can also request document approvals from people without Workfront accounts if your Workfront administrator has enabled this capability, as described in [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
@@ -83,4 +83,3 @@ You can send a message to remind document an approver that you're waiting for th
 1. Scroll down to the **Approvals** section in the Summary, then click the **More** menu inline with the approver's name and select **Remind**.
 
    The approver receives a notification informing them the approval is still pending. They may also receive an email reminder if they have that enabled.
-

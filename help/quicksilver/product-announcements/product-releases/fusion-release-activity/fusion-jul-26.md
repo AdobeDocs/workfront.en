@@ -3,7 +3,8 @@ title: Workfront Fusion release activity:&nbsp;Week of July 26, 2021
 description: Workfront Fusion release activity:&nbsp;Week of July 26, 2021
 author: Luke
 draft: Probably
-feature: "Product Announcements, Workfront Fusion"
+feature: Product Announcements, Workfront Fusion
+exl-id: 07bbdf99-986e-408d-9ee7-3c43dbb5b2ff
 ---
 # Workfront Fusion release activity:&nbsp;Week of July 26, 2021
 
@@ -31,4 +32,4 @@ The consent screens for connections to Adobe Workfront Fusion are now updated. N
 
 For more information, see the [Connect the module's app or web service to Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) section in [Create a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/580421677/ed98219259) 
+[Watch a video demonstration of this feature.](https://vimeo.com/580421677/ed98219259)
