@@ -164,7 +164,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
       <td role="rowheader">Update previous calculations</td> 
       <td>When you are editing an existing calculated custom field, you can select this option to trigger an update in the calculation when you save the custom form. This happens only once when you save the custom form. The option returns to its disabled state after you do so.</td> 
      </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+     <tr> 
       <td role="rowheader">Display formula in instructions</td> 
       <td>Leave this option enabled if you want the users who fill out the custom form to see the field's formula when they hover over the field. For more information, see the information about <a href="#instructions" class="MCXref xref">Instructions</a> earlier in this table.</td> 
      </tr> 

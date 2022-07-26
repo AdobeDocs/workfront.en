@@ -27,7 +27,7 @@ As an Adobe Workfront administrator, you can create another Workfront administra
 >This is different from using an access level to grant users administrative access to certain areas of the system. For more information, see the following:
 >
 >* [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) 
->* [Access of a Workfront administrator vs. access of a Plan user with administrative rights](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights)in this article
+>* [Access of a Workfront administrator vs. access of a Plan user with administrative rights](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in this article
 >
 
 ## Access requirements

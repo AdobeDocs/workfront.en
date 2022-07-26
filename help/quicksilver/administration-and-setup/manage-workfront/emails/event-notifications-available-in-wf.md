@@ -215,10 +215,10 @@ See also [Notifications: Requests I have made](../../../workfront-basics/using-n
    <td> <p>Document</p> </td> 
    <td> <p>Request Document Add to Issue Primary Contact</p> </td> 
    <td> <p>A document is changed or uploaded on an issue for which I am the primary contact.</p> <p>The issue's primary contact receives an email notification when a document is uploaded or changed on the issue, unless the user who uploaded or changed the document is also the primary contact.</p> <p>A notification is sent only if the project status is Current and if the project has the 'Publish as Help Request Queue' enabled on the Queue Setup tab. <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      DRAFTED IN FLARE:
        For more information on publishing a project as a Help Request Queue, see 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
-      </MadCap:conditionalText>
+      
      --></p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
@@ -265,9 +265,9 @@ See also [Notifications: Communication](../../../workfront-basics/using-notifica
    <td> <p>User</p> </td> 
    <td>Directed Update to User</td> 
    <td> <p>Someone includes me on a directed update.</p> <p>A directed update is when a user specifically includes another user in an update, as described in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p> <p>In this case, the user who is included in the directed update receives an email notification about the update.</p> <p>The email notification is sent only if the user has access rights to the object<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      DRAFTED IN FLARE:
         and is not the same user that enters the update
-      </MadCap:conditionalText>
+      
      -->. </p> <p>This event notification is activated by default and cannot be deactivated.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
@@ -428,10 +428,10 @@ See also [Notifications: Information about work assigned to me](../../../workfro
    <td> <p>Document</p> </td> 
    <td> <p>Request Document Add to Issue Assigned To</p> </td> 
    <td> <p>Documents are uploaded or changed on requests I'm assigned to.</p> <p>The issue assignee receives an email notification when documents are uploaded or changed on an issue they added.</p> <p>An email notification is not sent if the user who entered the issue is the issue assignee.</p> <p>A notification is sent only if the project status is Current and if the project has the 'Publish as Help Request Queue' enabled on the Queue Setup tab.<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      DRAFTED IN FLARE:
         For more information on publishing a project as a Help Request Queue, see 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
-      </MadCap:conditionalText>
+      
      --></p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
@@ -739,14 +739,14 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
    <td> </td> 
    <td> <p>Error Notification</p> </td> 
    <td> <p>An error was found that needs your attention.</p> <p>An email notification is generated after Workfront tries and fails to connect to a POP account. After 25 tries, Workfront disables the connection to the POP account in order to preserve resources and it sends out a notification. </p> <p>The email notification is sent to the Project Owner, if the POP email is associated with a request queue, or to the Workfront administrators, if the POP account is associated with the "Incoming Mail" feature in Email Setup.<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      DRAFTED IN FLARE:
        <br>For more information on how to associate a request queue with a POP account, see 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
-      </MadCap:conditionalText>
+      
      --><br><!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      DRAFTED IN FLARE:
        For more information on how to enable a POP account for incoming mail, see . 
-      </MadCap:conditionalText>
+      
      --></p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 

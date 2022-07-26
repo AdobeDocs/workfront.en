@@ -57,7 +57,7 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >If you enable **Allow embedding of Workfront in an iframe**, the **Allow SAML 2.0 authentication in Office 365 add-ins** is dimmed and enabled.
+   >If you enable the option **Allow embedding of Workfront in an iframe**, the option **Allow SAML 2.0 authentication in Office 365 add-ins** is dimmed and enabled.
    >
    >![](assets/if-you-enable.png)
    >
