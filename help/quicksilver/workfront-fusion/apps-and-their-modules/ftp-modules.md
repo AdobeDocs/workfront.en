@@ -146,7 +146,7 @@ This action module changes permission settings of a file or folder.
    <tbody>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Connection</td>
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref_0">Create a connection in an FTP module</a> in this article.</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref xref" >Create a connection in an FTP module</a> in this article.</td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Change permission settings of</td>
@@ -178,7 +178,7 @@ This action module creates a new folder.
    <tbody>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Connection</td>
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref_0">Create a connection in an FTP module</a> in this article.</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref xref" >Create a connection in an FTP module</a> in this article.</td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Folder path</td>
@@ -203,7 +203,7 @@ Deletes a file from the specified folder.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref_0">Create a connection in an FTP module</a> in this article.</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref xref" >Create a connection in an FTP module</a> in this article.</td>
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -226,7 +226,7 @@ This action module permanently deletes the specified folder.
    <tbody>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Connection</td>
-            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref_0">Create a connection in an FTP module</a> in this article.</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref xref" >Create a connection in an FTP module</a> in this article.</td>
          </tr>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Folder</td>
@@ -297,7 +297,7 @@ This action module moves a file or folder to a different location.
    <tbody>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Connection</td>
-            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref_0">Create a connection in an FTP module</a> in this article.</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref xref" >Create a connection in an FTP module</a> in this article.</td>
          </tr>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">Old file path</td>

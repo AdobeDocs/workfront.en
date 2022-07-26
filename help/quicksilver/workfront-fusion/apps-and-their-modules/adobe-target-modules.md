@@ -22,7 +22,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -77,7 +77,7 @@ To create a connection for your Adobe Target modules:
     
 2.  Fill in the following fields:
     
-  <table>
+  <table style="table-layout:auto"> 
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
     </col>
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
@@ -171,13 +171,13 @@ If you see the map button above a field or function, you can use it to set varia
 
 This action module creates an AB or XT activity, an offer, or an audience.
 
-<table>
+<table style="table-layout:auto"> 
 <col/>
 <col/>
 <tbody>
   <tr>
     <td role="rowheader">Connection</td>
-    <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref_0">Create a connection to Adobe Target</a> in this article.</td>
+    <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref xref" >Create a connection to Adobe Target</a> in this article.</td>
   </tr>
   <tr>
     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Record type</td>
@@ -186,19 +186,19 @@ This action module creates an AB or XT activity, an offer, or an audience.
       <ul>
         <li>
           <p>AB&#160;Activity</p>
-          <p>Continue to <a href="#AB%C2%A0Activ" class="MCXref_0">AB&#160;Activity fields</a>.</p>
+          <p>Continue to <a href="#AB%C2%A0Activ" class="MCXref xref" >AB&#160;Activity fields</a>.</p>
         </li>
         <li>
           <p>XT Activity</p>
-          <p>Continue to <a href="#XT" class="MCXref_0">XT Activity fields</a>.</p>
+          <p>Continue to <a href="#XT" class="MCXref xref" >XT Activity fields</a>.</p>
         </li>
         <li>
           <p>Offer</p>
-          <p>Continue to <a href="#Offer" class="MCXref_0">Offer fields</a>.</p>
+          <p>Continue to <a href="#Offer" class="MCXref xref" >Offer fields</a>.</p>
         </li>
         <li>
           <p>Audience</p>
-          <p>Continue to <a href="#Audience" class="MCXref_0">Audience fields</a>.</p>
+          <p>Continue to <a href="#Audience" class="MCXref xref" >Audience fields</a>.</p>
         </li>
       </ul>
     </td>
@@ -208,7 +208,7 @@ This action module creates an AB or XT activity, an offer, or an audience.
 
 ##### AB Activity fields
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -382,7 +382,7 @@ This action module creates an AB or XT activity, an offer, or an audience.
 
 ##### XT Activity fields
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -556,7 +556,7 @@ This action module creates an AB or XT activity, an offer, or an audience.
 
 ##### Offer fields
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -581,7 +581,7 @@ This action module creates an AB or XT activity, an offer, or an audience.
 
 ##### Audience fields
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -640,13 +640,13 @@ This action module creates an AB or XT activity, an offer, or an audience.
 
 This module makes a custom API call to the Adobe Target API
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
       <td role="rowheader">Connection</td>
-      <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref_0">Create a connection to Adobe Target</a> in this article.</td>
+      <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref xref" >Create a connection to Adobe Target</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">Target Base URL</td>
@@ -695,13 +695,13 @@ This module makes a custom API call to the Adobe Target API
 
 This action module deletes a single AB activity, XT activity, Offer, or Audience.
 
-<table>
+<table style="table-layout:auto"> 
 <col/>
 <col/>
 <tbody>
   <tr>
     <td role="rowheader">Connection</td>
-    <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref_0">Create a connection to Adobe Target</a> in this article.</td>
+    <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref xref" >Create a connection to Adobe Target</a> in this article.</td>
   </tr>
   <tr>
     <td role="rowheader">Record type</td>
@@ -718,13 +718,13 @@ This action module deletes a single AB activity, XT activity, Offer, or Audienc
 
 This action module retrieves data for a single Activity, Offer, Audience, Property, or Report.
 
-<table>
+<table style="table-layout:auto"> 
 <col/>
 <col/>
 <tbody>
   <tr>
     <td role="rowheader">Connection</td>
-    <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref_0">Create a connection to Adobe Target</a> in this article.</td>
+    <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref xref" >Create a connection to Adobe Target</a> in this article.</td>
   </tr>
   <tr>
     <td role="rowheader">Record type</td>
@@ -741,13 +741,13 @@ This action module retrieves data for a single Activity, Offer, Audience, Proper
 
 This action module updates an Activity, Offer, or Audience.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
       <td role="rowheader">Connection</td>
-      <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref_0">Create a connection to Adobe Target</a> in this article.</td>
+      <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref xref" >Create a connection to Adobe Target</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">Record type</td>
@@ -757,12 +757,12 @@ This action module updates an Activity, Offer, or Audience.
           <li>
             <p><b>AB Activity</b>
             </p>
-            <p>See field descriptions in <a href="#AB%C2%A0Activ" class="MCXref_0">AB&#160;Activity fields</a> under <a href="#Create2" class="MCXref_0">Create a record</a>.</p>
+            <p>See field descriptions in <a href="#AB%C2%A0Activ" class="MCXref xref" >AB&#160;Activity fields</a> under <a href="#Create2" class="MCXref xref" >Create a record</a>.</p>
           </li>
           <li>
             <p><b>XT&#160;Activity</b>
             </p>
-            <p>See field descriptions in <a href="#XT" class="MCXref_0">XT Activity fields</a> under <a href="#Create2" class="MCXref_0">Create a record</a>.</p>
+            <p>See field descriptions in <a href="#XT" class="MCXref xref" >XT Activity fields</a> under <a href="#Create2" class="MCXref xref" >Create a record</a>.</p>
           </li>
           <li>
             <p><b>Other Activity</b>
@@ -772,12 +772,12 @@ This action module updates an Activity, Offer, or Audience.
           <li>
             <p><b>Offer</b>
             </p>
-            <p>See field descriptions in <a href="#Offer" class="MCXref_0">Offer fields</a> under <a href="#Create2" class="MCXref_0">Create a record</a>.</p>
+            <p>See field descriptions in <a href="#Offer" class="MCXref xref" >Offer fields</a> under <a href="#Create2" class="MCXref xref" >Create a record</a>.</p>
           </li>
           <li>
             <p><b>Audience</b>
             </p>
-            <p>See field descriptions in <a href="#Audience" class="MCXref_0">Audience fields</a> under <a href="#Create2" class="MCXref_0">Create a record</a>.</p>
+            <p>See field descriptions in <a href="#Audience" class="MCXref xref" >Audience fields</a> under <a href="#Create2" class="MCXref xref" >Create a record</a>.</p>
           </li>
         </ul>
       </td>
@@ -800,13 +800,13 @@ This action module updates an Activity, Offer, or Audience.
 
 This search module retrieves a list of records of the selected type.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
       <td role="rowheader">Connection</td>
-      <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref_0">Create a connection to Adobe Target</a> in this article.</td>
+      <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref xref" >Create a connection to Adobe Target</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">Record type</td>
@@ -837,13 +837,13 @@ This search module retrieves a list of records of the selected type.
 
 This search module searches for Activities, Offers, or Audiences based on criteria you specify.
 
-<table>
+<table style="table-layout:auto"> 
 <col/>
 <col/>
 <tbody>
   <tr>
     <td role="rowheader">Connection</td>
-    <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref_0">Create a connection to Adobe Target</a> in this article.</td>
+    <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref xref" >Create a connection to Adobe Target</a> in this article.</td>
   </tr>
   <tr>
     <td role="rowheader">Record type</td>
