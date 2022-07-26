@@ -7,6 +7,7 @@ author: John
 feature: Workfront API
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
 ---
+
 # Configure and use your organization's custom OAuth 2 applications using authorization code flow
 
 In order to integrate with Workfront and allow your client app to communicate with Workfront on behalf of the user, you must:
@@ -34,9 +35,7 @@ Your users need to log in to authorize this integration in their own account. Th
 
 * `client_id`: This is the client ID&nbsp;generated when you created the OAuth2 app in Workfront.
 
-
 * `redirect_uri`: This is the redirect URL that you entered when creating the app. Your users will be directed to this page after they authorize the app for their account.
-
   
 * `response_type`: This must have the value `code`.
 
@@ -141,6 +140,7 @@ To log your users in with OAuth2, use the following process:
 
 
    <br>When all passed parameters are correct the token endpoint returns the following payload:
+
    ```
    {
       "token_type": "sessionID",
@@ -150,6 +150,7 @@ To log your users in with OAuth2, use the following process:
       "wid": "string"
    }
    ```
+   
    The access token is the same as ```sessionID```, and it expires the same way as regular ```sessionID```
 
    >[!IMPORTANT]
