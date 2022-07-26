@@ -6,8 +6,8 @@ title: Remove results, activities, and projects from goals in Adobe Workfront Go
 description: Remove results, activities, and projects from goals in Adobe Workfront Goals
 author: Alina
 feature: Workfront Goals
+exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
 ---
-
 # Remove results, activities, and projects from goals in Adobe Workfront Goals
 
 <!--
@@ -123,4 +123,3 @@ Removing results and activities from goals is identical.
    ![](assets/disconnect-project-goal-details-350x94.png)
 
    The project is disconnected from the goal. The percent complete of the goal updates to exclude the percent complete of the disconnected project.
-

@@ -6,8 +6,8 @@ title: Adobe Workfront for Mobile Device Management (MDM)
 description: Adobe Workfront has partnered with a few Mobile Device Management (MDM) platforms to provide organizations a more secure and controlled mobile experience. The Workfront mobile app is available on the following mobile device management platforms - EDIT ME.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
 ---
-
 # Adobe Workfront for Mobile Device Management (MDM)
 
 Adobe Workfront has partnered with a few Mobile Device Management (MDM) platforms to provide organizations a more secure and controlled mobile experience. The Workfront mobile app is available on the following mobile device management platforms:
@@ -35,4 +35,3 @@ For information on configuring Workfront for MobileIron, see [Configure Adobe Wo
 <li>Android</li>
 </ul>
 -->
-

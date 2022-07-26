@@ -7,8 +7,8 @@ description: For reporting purposes, you might want to create custom quarters if
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
 ---
-
 # Enable custom quarters for projects
 
 For reporting purposes, you might want to create custom quarters if your organization's quarters are based on specific criteria other than calendar dates (such as business days or shopping days).
@@ -63,4 +63,3 @@ You must have the following access to perform the steps in this article:
    For information about reporting elements, see [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
    For information about creating filters, see [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
-

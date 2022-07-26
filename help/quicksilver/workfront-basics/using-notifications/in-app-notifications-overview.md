@@ -2,11 +2,11 @@
 content-type: overview
 navigation-topic: notifications
 title: In-app notifications overview
-description: "This article lists the in-app notifications you can receive. In-app notifications keep you informed about two types of information: announcement notifications and work item notifications. They are available from both the web application and the mobile application."
+description: 'This article lists the in-app notifications you can receive. In-app notifications keep you informed about two types of information: announcement notifications and work item notifications. They are available from both the web application and the mobile application.'
 author: Lisa
 feature: Get Started with Workfront
+exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
 ---
-
 # In-app notifications overview
 
 This article lists the in-app notifications you can receive. In-app notifications keep you informed about two types of information: announcement notifications and work item notifications. They are available from both the web application and the mobile application.

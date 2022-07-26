@@ -4,9 +4,9 @@ navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Link assets and folders from Experience Manager Assets or Assets Essentials
 description: You can link an asset or folder from Experience Manager Assets or Assets Essentials to any Adobe Workfront object that supports documents. Assets sent from Assets Essentials don't count towards your overall document storage in Workfront. Documents uploaded and sent from Workfront to Assets Essentials do count towards overall storage.
 author: Courtney
-feature: "Digital Content and Documents, Workfront Integrations and Apps"
+feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
 ---
-
 # Link assets and folders from Experience Manager Assets or Assets Essentials
 
 You can link an asset or folder from Experience Manager Assets or Assets Essentials to any Adobe Workfront object that supports documents. Assets sent from Assets Essentials don't count towards your overall document storage in Workfront. Documents uploaded and sent from Workfront to Assets Essentials do count towards overall storage.
@@ -114,4 +114,3 @@ To link a new version from Assets Essentials:
 >[!TIP]
 >
 >You can view all versions of an asset if you go to **Document Details** > **Versions**.
-

@@ -5,9 +5,9 @@ navigation-topic: organize-your-work-workfront-proof
 title: Archive in Workfront Proof
 description: Workfront Proof archives proofs after a period of 60 days of inactivity.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 66a15edf-8504-471a-a6be-f632760b50ed
 ---
-
 # Archive in Workfront Proof
 
 >[!IMPORTANT]
@@ -73,4 +73,3 @@ To unarchive a proof from the Archived proofs view:
 1. Click the check box next to any proof or proofs you want to unarchive.
 1. Click **More**, then click **Unarchive** from the menu that appears.  
    A message appears at the top of the page to indicate that your proof is being unarchived.
-

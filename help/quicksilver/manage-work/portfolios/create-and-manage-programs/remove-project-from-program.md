@@ -4,9 +4,9 @@ navigation-topic: create and manage programs
 title: Remove a project from a program
 description: You may remove a project from a program and do one of the following - EDIT ME.
 author: Alina
-feature: "Work Management, Strategic Planning"
+feature: Work Management, Strategic Planning
+exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
 ---
-
 # Remove a project from a program
 
 You may remove a project from a program and do one of the following:
@@ -59,4 +59,3 @@ You must have the following access to perform the steps in this article:
    Click **Remove** **from Program** to remove it from the selected program.
 
    If you clicked Remove from Program, the project is no longer associated with the selected program.
-

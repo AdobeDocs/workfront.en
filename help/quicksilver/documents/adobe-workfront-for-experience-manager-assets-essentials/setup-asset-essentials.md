@@ -4,10 +4,9 @@ navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Configure the Experience Manager Assets Essentials integration
 description: Connect your work with your content in Experience Manager Assets Essentials - EDIT ME.
 author: Courtney
-feature: "Digital Content and Documents, Workfront Integrations and Apps"
+feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
 ---
-
-
 # Configure the Experience Manager Assets Essentials integration
 
 Connect your work with your content in Experience Manager Assets Essentials​:
@@ -115,4 +114,3 @@ Metadata maps when an asset is pushed from Workfront for the first time. Documen
 ## Set up linked folders (optional)
 
 {{setup-linked-folder}}
-

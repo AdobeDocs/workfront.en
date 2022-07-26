@@ -8,8 +8,8 @@ description: As a Workfront administrator, you can define your work week using s
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: eb3e58d4-a8c6-4b5c-a045-742509f2b5c6
 ---
-
 # Configure schedules and timesheet preferences
 
 This section contains the following articles:
@@ -18,5 +18,4 @@ This section contains the following articles:
 * [Configure users to log time in hours or days](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-users-log-time-in-hrs-or-days.md) 
 * [Manage hour types](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) 
 * [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
-* [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) 
-
+* [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)

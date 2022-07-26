@@ -6,8 +6,8 @@ title: Calculate Cost Schedule Performance Index (CSI)
 description: Calculate Cost Schedule Performance Index (CSI)
 author: Alina
 feature: Work Management
+exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
 ---
-
 # Calculate Cost Schedule Performance Index (CSI)
 
 <!--
@@ -62,4 +62,3 @@ You can locate CSI in the following areas of Workfront:
 * Finance area in the Task Details section. 
 * A project or task view
 * A project or task report
-

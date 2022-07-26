@@ -5,9 +5,9 @@ product-area: documents
 navigation-topic: metadata
 title: Overview of metadata in Workfront Library
 description: Metadata is information that describes the attributes and content of an asset and enhances its searchability. Even though your organization might have thousands of assets in Workfront Library, you can quickly locate the content you want using accurate and detailed metadata.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 5d7cf788-46ac-4f64-82dc-f12d86e43b93
 ---
-
 # Overview of metadata in Workfront Library
 
 Metadata is information that describes the attributes and content of an asset and enhances its searchability. Even though your organization might have thousands of assets in Workfront Library, you can quickly locate the content you want using accurate and detailed metadata.

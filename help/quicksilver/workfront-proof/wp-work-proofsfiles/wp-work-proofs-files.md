@@ -6,9 +6,9 @@ navigation-topic: workfront-proof-navigation-topic
 title: Work with proofs and files in Workfront Proof
 description: This section contains the following subsections - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 31b97154-e506-4a1c-ab9a-92395156ed47
 ---
-
 # Work with proofs and files in Workfront Proof
 
 >[!IMPORTANT]
@@ -30,4 +30,3 @@ This section contains the following subsections:
 
 * [Review proofs in the Web Proofing Viewer](../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md) 
 * [Share proofs and files](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
-

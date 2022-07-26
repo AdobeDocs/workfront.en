@@ -7,8 +7,8 @@ description: As part of configuring your Adobe Workfront system, you can manage 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
 ---
-
 # Configure basic information for your system
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>-->
@@ -127,4 +127,3 @@ To configure your Basic Info section in your Customer Info area:
    </table>
 
 1. Click **Save**.
-

@@ -4,8 +4,8 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: The Adobe Workfront Community
 description: TheAdobe Workfront Community is an online group of over 10,000 Workfront users. Through the community you can to stay up-to-date on product releases, learn about customer events, and talk to other users about Workfront products and services. You'll find answers to questions and establish connections with other Workfront customers.
 feature: Get Started with Workfront
+exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
 ---
-
 # The Adobe Workfront Community
 
 TheAdobe Workfront Community is an online group of over 10,000 Workfront users. Through the community you can to stay up-to-date on product releases, learn about customer events, and talk to other users about Workfront products and services. You'll find answers to questions and establish connections with other Workfront customers.

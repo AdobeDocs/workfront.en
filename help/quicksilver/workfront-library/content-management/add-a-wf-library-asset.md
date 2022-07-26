@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: content-management
 title: Add a Workfront Library asset to Workfront
 description: You can add a document that resides in your My Content area to a project, task, or issue in Workfront. In order to add a document to Workfront from Workfront Library, you must have the following permissions - EDIT ME.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: ba125fb5-046e-4fcf-bc3d-cd681317cc50
 ---
-
 # Add a Workfront Library asset to Workfront
 
 You can add a document that resides in your My Content area to a project, task, or issue in Workfront. In order to add a document to Workfront from Workfront Library, you must have the following permissions:
@@ -32,4 +32,3 @@ To learn how to send a document from Workfront to Workfront Library, see [Send d
 1. Click **Link**.
 
    Workfront adds the document to the Workfront object. On the Documents tab for the Workfront object, any documents added from Workfront Library display the Workfront icon.
-

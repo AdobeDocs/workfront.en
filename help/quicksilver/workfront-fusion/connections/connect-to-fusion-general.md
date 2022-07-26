@@ -7,8 +7,8 @@ title: Create a connection to Adobe Workfront Fusion - Basic instructions
 description: Many Adobe Workfront Fusion connectors do not require custom configuration when creating a connection. This article describes the default connection creation process.
 author: Becky
 feature: Workfront Fusion
+exl-id: 6576a515-a1a1-4613-8d04-3c9d36bb1ed9
 ---
-
 # Create a connection to Adobe Workfront Fusion - Basic instructions
 
 ## Access requirements
@@ -55,4 +55,3 @@ To create a connection inside a Workfront Fusion module:
 1. Click **Continue**.
 1. In the sign-in window that displays, enter your credentials to log in to the app if you haven't already done so.
 1. (Conditional) If an **Allow** button displays, examine the actions that the connector will be able to take, then click the button to connect the app to Workfront Fusion.
-

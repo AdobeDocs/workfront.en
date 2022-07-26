@@ -5,8 +5,8 @@ title: Use flags on stories on the Kanban board
 description: On the Kanban board, flags provide a visual indication of when a story is ready to move to the next status. This enables Kanban teams to use a "pull" approach rather than a "push" approach when moving stories across statuses.
 author: Lisa
 feature: Agile
+exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
 ---
-
 # Use flags on stories on the Kanban board
 
 On the Kanban board, flags provide a visual indication of when a story is ready to move to the next status. This enables Kanban teams to use a "pull" approach rather than a "push" approach when moving stories across statuses.
@@ -69,4 +69,3 @@ To change a flag on a story:
 
    * **Ready to Pull:** The story is ready to be moved to the next status by another member of the team.  
      ![kanban_flag_ready.png](assets/kanban-flag-ready.png)
-

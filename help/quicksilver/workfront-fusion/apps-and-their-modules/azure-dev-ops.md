@@ -8,8 +8,8 @@ title: Azure DevOps modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Azure DevOps, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
+exl-id: ecaa93c9-47bb-4fe1-87b4-d2e117cc68ae
 ---
-
 # Azure DevOps modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Azure DevOps, as well as connect it to multiple third-party applications and services.
@@ -401,4 +401,3 @@ When you are configuring this module, the following fields display.
   </tr> 
  </tbody> 
 </table>
-

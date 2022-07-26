@@ -5,8 +5,8 @@ title: Create a project using a template
 description: You can use templates as a framework to create new projects. If you have projects that repeat often, using templates for the general timeline of the new project saves you from having to build the same projects repeatedly.
 author: Alina
 feature: Work Management
+exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 ---
-
 # Create a project using a template
 
 You can use templates as a framework to create new projects. If you have projects that repeat often, using templates for the general timeline of the new project saves you from having to build the same projects repeatedly.
@@ -162,4 +162,3 @@ Instead of starting in the Projects area, you can create a project from a templa
 1. Click **Create Project.**
 
    All details defined in the template associate automatically with the newly created project if you didn't change them in the previous step.
-

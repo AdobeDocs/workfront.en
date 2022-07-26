@@ -6,8 +6,8 @@ title: Adobe Workfront for iOS
 description: The Adobe Workfront app allows you to access your work on any iOS device. You can install and use the Workfront mobile app on phones and tablets running iOS 10 or later. A dedicated Workfront mobile app is available for both the iPhone and the iPad.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
 ---
-
 # Adobe Workfront for iOS
 
 The Adobe Workfront app allows you to access your work on any iOS device. You can install and use the Workfront mobile app on phones and tablets running iOS 10 or later. A dedicated Workfront mobile app is available for both the iPhone and the iPad.

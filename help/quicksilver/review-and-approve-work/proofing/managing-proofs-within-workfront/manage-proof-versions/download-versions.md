@@ -5,8 +5,8 @@ title: Download proof versions
 description: You can download a single version or all versions of a proof.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: eb61cc0b-b402-48db-aa88-9a1dea3180d6
 ---
-
 # Download proof versions
 
 You can download a single version or all versions of a proof.
@@ -53,4 +53,3 @@ You must have the following access to perform the steps in this article:
 1. Click **Document Details**, then select **All Versions** in the left panel.
 
 1. Click **Download All** at the top of the list.
-

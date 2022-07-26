@@ -3,10 +3,10 @@ filename: api-changes-search
 content-type: api
 keywords: object,status,search,best,practice,response
 navigation-topic: api-navigation-topic
-title: "Core API changes: Status search responses"
+title: 'Core API changes: Status search responses'
 description: Changes in the way WorkFront stores status objects.
+exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
 ---
-
 # Core API changes: Status search responses
 
 Changes have been made to the way that Workfront stores status objects. These changes do not affect how status search requests are made, but will affect the response returned by API requests that include a search for status objects by returning an incomplete list of group statuses.

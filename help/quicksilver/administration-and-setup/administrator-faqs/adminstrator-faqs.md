@@ -7,8 +7,8 @@ navigation-topic: administration-and-setup
 description: Find answers to frequently asked questions for Workfront administrators here.
 feature: System Setup and Administration
 role: Admin
+exl-id: 9b230142-de71-4577-8e67-35e8a6b9b932
 ---
-
 # Administrator FAQs
 
 This section contains the following articles:
@@ -18,4 +18,3 @@ This section contains the following articles:
   <!--
   <li Migrating to another cluster</a> </li>
   -->
-

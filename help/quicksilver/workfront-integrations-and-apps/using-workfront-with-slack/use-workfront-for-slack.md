@@ -6,8 +6,8 @@ title: Adobe Workfront for Slack
 description: Adobe Workfront offers an integration with Slack. This article links to instructions about common use cases for this scenario, as well as instruction for configuration.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 64fd0473-b29e-4b6f-a847-20a8d29997ee
 ---
-
 # Adobe Workfront for Slack
 
 This section contains the following articles:
@@ -21,4 +21,3 @@ This section contains the following articles:
 * [Access your favorites and recent items from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) 
 * [Post a Slack comment as an update](../../workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md) 
 * [Receive Adobe Workfront notifications in Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
-

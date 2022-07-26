@@ -5,8 +5,8 @@ title: Create and manage timesheets in Adobe Workfront
 description: This section contains the following articles - EDIT ME.
 author: Lisa
 feature: Timesheets
+exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
 ---
-
 # Create and manage timesheets in&nbsp;Adobe Workfront
 
 This section contains the following articles:
@@ -24,4 +24,3 @@ This section contains the following articles:
 * [Delete timesheets in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) 
 * [Manually generate timesheets](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md) 
 * [Export a list of timesheets](../../timesheets/create-and-manage-timesheets/export-timesheets.md)
-

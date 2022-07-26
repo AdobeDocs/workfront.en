@@ -6,8 +6,8 @@ title: 21. 2 Reporting enhancements
 description: This page describes all Reporting enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see 21.2 Release overview.
 author: Luke
 feature: Product Announcements
+exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
 ---
-
 # 21. 2 Reporting enhancements
 
 This page describes all Reporting enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
@@ -75,4 +75,4 @@ Previously, you could report on system updates only via the Workfront API.
 
 To learn more about this report and what you can use it for, see [Report on the Updates area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/513511262/466fe94246) 
+[Watch a video demonstration of this feature.](https://vimeo.com/513511262/466fe94246)

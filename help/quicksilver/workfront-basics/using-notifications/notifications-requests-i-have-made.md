@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notifications: Requests I have made"
+title: 'Notifications: Requests I have made'
 description: The following notifications let you know about requests you have made in Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
 ---
-
 # Notifications: Requests I have made
 
 The following notifications let you know about requests you have made in Adobe Workfront.
@@ -80,4 +80,3 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
   </tr> 
  </tbody> 
 </table>
-

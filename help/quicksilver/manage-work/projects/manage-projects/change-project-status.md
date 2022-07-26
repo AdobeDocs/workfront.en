@@ -5,8 +5,8 @@ title: Change the status of a project
 description: You can manually change the status of a project.
 author: Alina
 feature: Work Management
+exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
 ---
-
 # Change the status of a project
 
 You can manually change the status of a project.
@@ -57,4 +57,3 @@ You must have the following access to perform the steps in this article:
    Click the **More** menu ![](assets/qs-more-menu.png) next to the name of the project and click **Edit** and select a new status in the **Status** field, then click **Save**.
 
    The project status updates to the status you selected.
-

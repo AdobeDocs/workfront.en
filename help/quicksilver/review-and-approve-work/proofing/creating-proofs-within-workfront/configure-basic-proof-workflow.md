@@ -5,8 +5,8 @@ title: Create an advanced proof with a Basic workflow
 description: With a basic workflow, you can several reviewers to a proof, but they are not organized into stages. All of the reviewers you add can access the proof immediately after you create it.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
 ---
-
 # Create an advanced proof with a Basic workflow
 
 With a basic workflow, you can several reviewers to a proof, but they are not organized into stages. All of the reviewers you add can access the proof immediately after you create it.
@@ -325,4 +325,3 @@ You must have the following access to perform the steps in this article:
    ![](assets/open-proof-350x132.png)
 
    Users who do not have proofing enabled on their account&nbsp;are still able to view the document and make comments to the proof [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
-

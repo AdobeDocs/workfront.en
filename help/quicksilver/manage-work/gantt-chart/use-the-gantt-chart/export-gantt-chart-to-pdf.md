@@ -4,8 +4,8 @@ title: Export the Gantt Chart to PDF
 description: You can export the Gantt chart to a PDF.
 author: Alina
 feature: Work Management
+exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
 ---
-
 # Export the Gantt Chart to PDF
 
 You can export the Gantt chart to a PDF.
@@ -119,4 +119,3 @@ You must have the following to follow the steps in this article:
    For example, milestones are displayed in the legend&nbsp;only if you have at least one&nbsp;task associated with a milestone.
 
    ![gantt_chart_with_updated__limited__legend.png](assets/gantt-chart-with-updated--limited--legend-350x271.png)&nbsp;
-

@@ -8,8 +8,8 @@ title: Qualtrics modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Qualtrics, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
+exl-id: 146802cd-b863-4c93-b767-50e05892c4de
 ---
-
 # Qualtrics modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Qualtrics, as well as connect it to multiple third-party applications and services.
@@ -94,4 +94,3 @@ The following modules are available for the Qualtrics connector:
 * Distribute a Survey via Email
 * Make an API call
 * List Directory Contacts
-

@@ -5,9 +5,9 @@ product-area: documents
 navigation-topic: content-management
 title: Content management in Workfront Library
 description: This section contains the following articles - EDIT ME.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 34e6723c-1e9c-4396-b460-fdaa702690bd
 ---
-
 # Content management in Workfront Library
 
 This section contains the following articles:
@@ -30,4 +30,3 @@ This section contains the following articles:
 * [Filters in Workfront Library](../../workfront-library/content-management/filters/filters.md) 
 * [Manage portals](../../workfront-library/content-management/portals/portals.md) 
 * [Export asset metadata from Workfront Library](../../workfront-library/content-management/export-asset-metadata.md)
-

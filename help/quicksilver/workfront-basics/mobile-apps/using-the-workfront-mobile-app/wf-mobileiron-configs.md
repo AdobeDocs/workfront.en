@@ -5,8 +5,8 @@ title: Configure Adobe Workfront for MobileIron
 description: In the Adobe Workfront for MobileIron app, we support default configurations provided by MobileIron for both Android and iOS.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 294fd42d-89a8-44c2-a97c-95ea5dd876d4
 ---
-
 # Configure Adobe Workfront for MobileIron
 
 In the Adobe Workfront for MobileIron app, we support default configurations provided by MobileIron for both Android and iOS.
@@ -41,4 +41,3 @@ To configure Workfront for MobileIron for iOS:
 |---|---|
 | Allow Printing |When enabled, this option allows users to connect to AirPrint from the Workfront for MobileIron app. |
 | Allow Open-In |When enabled, this option allows users to open URLs with any other applicable application. |
-

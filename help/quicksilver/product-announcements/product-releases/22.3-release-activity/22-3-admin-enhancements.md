@@ -4,8 +4,8 @@ description: 22.3 Administrator enhancements
 author: Luke
 draft: No
 feature: Product Announcements
+exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
 ---
-
 # 22.3 Administrator enhancements
 
 This page describes all Administrator enhancements made with the 22.3 release to the Preview environment. These enhancements were made available the week of July 11, 2022. For a list of all changes available with the 22.3 release, see [22.3 Release overview](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).

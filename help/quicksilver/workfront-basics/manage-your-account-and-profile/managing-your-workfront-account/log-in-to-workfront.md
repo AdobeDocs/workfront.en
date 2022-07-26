@@ -2,11 +2,11 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Log in to Adobe Workfront
-description: You need the following information to log in to Adobe Workfront - EDIT ME.
+description: Read this article to learn how to log in to Workfront.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 ---
-
 # Log in to Adobe Workfront
 
 You need the following information to log in to Adobe Workfront:
@@ -122,4 +122,3 @@ To log in to Workfront using your SSO&nbsp;username and password:
 1. Tap **Okay, got it** or **GETTING STARTED** to navigate through the tutorials displayed.
 
    These tutorials display only the first time you access the app. They display again only when you uninstall and reinstall the Workfront mobile app, or if you log in as another user. After closing out the tutorials, the area that displays is the one that you selected to show
-

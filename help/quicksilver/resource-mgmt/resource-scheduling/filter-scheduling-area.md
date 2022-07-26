@@ -5,8 +5,8 @@ title: Filter information in the Scheduling area
 description: Filter information in the Scheduling area
 author: Alina
 feature: Resource Management
+exl-id: 974b2515-ed10-459d-a317-36e62c52afc7
 ---
-
 # Filter information in the Scheduling area
 
 <!--
@@ -288,4 +288,3 @@ To create a filter for the scheduling timeline on the Staffing&nbsp;tab for a si
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! Users with Plan, Work, or Review licenses are available. Users with Request licenses are not available. - This is what it used to say. I think now instead you select specific users, not license types.])<br></p>
    -->
-

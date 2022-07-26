@@ -4,8 +4,8 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Your quick guide to finding help in Adobe Workfront
 description: Your quick guide to finding help in Adobe Workfront
 feature: Get Started with Workfront
+exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
 ---
-
 # Your quick guide to finding help in Adobe Workfront
 
 <!--
@@ -165,4 +165,3 @@ The following dashboards can help you as a Workfront administrator maintain Work
 | [Workfront Usage Dashboard](https://one.workfront.com/s/article/Workfront-Usage-Dashboard)  |Understanding how your users are leveraging Workfront can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
 |---|---|
 | [Workfront Cleanup Dashboard: Deactivate Unused Objects](https://one.workfront.com/s/article/Workfront-Cleanup-Dashboard)  |Keeping Workfront clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find Workfront data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep Workfront clean. |
-

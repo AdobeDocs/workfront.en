@@ -5,8 +5,8 @@ title: Copy a project
 description: Copy a project
 author: Alina
 feature: Work Management
+exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
 ---
-
 # Copy a project
 
 <!--
@@ -162,4 +162,3 @@ To copy a project:
    This creates a new project which is similar to the project you copied.
 
    You can start making changes to the new copied project, like review task assignments or adjust timelines.
-

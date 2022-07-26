@@ -6,8 +6,8 @@ title: Get started with Resource Management
 description: Get started with Resource Management
 author: Alina
 feature: Resource Management
+exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
 ---
-
 # Get started with Resource Management
 
 <!--
@@ -172,4 +172,3 @@ Although you can assign work to a Reviewer or a Requestor, they cannot complete 
 </ul>
 </div>
 -->
-

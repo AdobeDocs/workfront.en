@@ -5,8 +5,8 @@ title: Keyboard shortcuts in the proofing viewer
 description: The keyboard shortcuts described in this article are available in both the Web Proofing Viewer and the Desktop Proofing Viewer.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 5a408439-9767-4d68-be04-034f0bce275a
 ---
-
 # Keyboard shortcuts in the proofing viewer
 
 The keyboard shortcuts described in this article are available in both the Web Proofing Viewer and the Desktop Proofing Viewer.&nbsp;
@@ -163,4 +163,3 @@ The keyboard shortcuts described in this article are available in both the Web P
   </tr> 
  </tbody> 
 </table>
-

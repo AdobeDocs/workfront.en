@@ -6,8 +6,8 @@ title: Reporting elements overview
 description: All Adobe Workfront reports and lists are a combination of three essential elements - views, filters, and groupings.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
 ---
-
 # Reporting elements overview
 
 All Adobe Workfront reports and lists are a combination of three essential elements:
@@ -43,4 +43,3 @@ This section contains the following articles:
 * [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
 * [Use the Milestone view](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) 
 * [Modify column width and order](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
-

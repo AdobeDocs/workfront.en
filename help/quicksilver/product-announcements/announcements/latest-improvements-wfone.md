@@ -4,6 +4,7 @@ description: Learn about the latest improvements in Adobe Workfront One
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 0af7a610-3974-4907-a898-5bbfc03db344
 ---
 # Learn about the latest improvements in Adobe Workfront One
 

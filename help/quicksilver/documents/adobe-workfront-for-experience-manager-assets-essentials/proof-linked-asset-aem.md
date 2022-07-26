@@ -4,9 +4,9 @@ navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Proof a linked asset for Experience Manager Assets or Assets Essentials
 description: After you've linked an asset from Experience Manager Assets Essentials, you can create a proof and assign users to review and add comments to the asset.
 author: Courtney
-feature: "Digital Content and Documents, Workfront Integrations and Apps"
+feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
 ---
-
 # Proof a linked asset for Experience Manager Assets or Assets Essentials
 
 After you've linked an asset from Experience Manager Assets Essentials, you can create a proof and assign users to review and add comments to the asset.

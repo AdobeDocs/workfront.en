@@ -5,9 +5,9 @@ navigation-topic: documents-webhooks-api
 title: Search via Document Webhooks
 description: Returns metadata for the files and folders returned from a search. This can be implemented as a full-text search or as a regular database query. Adobe Workfront calls the /search endpoint when the user performs a search from the external file browser.
 author: John
-feature: "Workfront API, Digital Content and Documents"
+feature: Workfront API, Digital Content and Documents
+exl-id: 8a3bf0c4-4a20-4311-8c05-15f4ef3a1d42
 ---
-
 # Search via Document Webhooks
 
 Returns metadata for the files and folders returned from a search. This can be implemented as a full-text search or as a regular database query. Adobe Workfront calls the /search endpoint when the user performs a search from the external file browser.

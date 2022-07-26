@@ -5,8 +5,8 @@ title: Share an object
 description: Your Adobe Workfront administrator grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see Create or modify custom access levels.
 author: Alina
 feature: Get Started with Workfront
+exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
 ---
-
 # Share an object
 
 Your Adobe Workfront administrator grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -219,4 +219,3 @@ To share objects in bulk:
    -->
 
 1. Click **Save**.
-

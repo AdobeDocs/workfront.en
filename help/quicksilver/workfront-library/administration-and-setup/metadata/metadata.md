@@ -5,9 +5,9 @@ product-area: documents
 navigation-topic: administration-and-setup-for-workfront-library
 title: Metadata in Workfront Library
 description: This section contains the following articles - EDIT ME.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 7f9ac701-31e1-4fba-bc3c-10afecb9a331
 ---
-
 # Metadata in Workfront Library
 
 This section contains the following articles:
@@ -25,4 +25,3 @@ This section contains the following articles:
 * [Delete a keyword from the picklist in Workfront Library](../../../workfront-library/administration-and-setup/metadata/delete-keyword-from-metadata.md) 
 * [Format your CSV file for metadata import in Workfront Library](../../../workfront-library/administration-and-setup/metadata/format-your-csv-file-for-metadata-import.md) 
 * [Use Workfront Library's import tool to add metadata to content](../../../workfront-library/administration-and-setup/metadata/import-metadata-for-content.md)
-

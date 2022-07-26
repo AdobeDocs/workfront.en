@@ -4,8 +4,8 @@ navigation-topic: get-started-with-workfront
 title: Adobe Workfront browser requirements
 description: Both Adobe Workfront and Workfront Proof require the use of an internet browser.
 feature: Get Started with Workfront
+exl-id: d5252675-ae87-4393-b05a-7810036e2f7d
 ---
-
 # Adobe Workfront browser requirements
 
 Both Adobe Workfront and Workfront Proof require the use of an internet browser. The supported browser versions are as follows:
@@ -35,4 +35,3 @@ Both Adobe Workfront and Workfront Proof require the use of an internet browser.
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><strong>Adobe Flash Plugin:</strong> Version 10.1 or greater. Proofing users must have version 11.1 or greater.</p> <p>The Adobe Flash Plugin is required in order for&nbsp;certain legacy areas of the Workfront interface to function (such as the Resource Grid, Resource Budget Manager, Capacity Planner, and the Legacy Gantt Chart). If you are using these legacy tools in Workfront, you must configure your browser to allow the Adobe Flash Plugin to be used on your&nbsp;Workfront site, because most browsers are configured by default to block the use of the Adobe Flash Plugin.</p> </li>
   -->
-

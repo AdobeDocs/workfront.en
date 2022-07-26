@@ -3,13 +3,13 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: "Kick-Starts scenario: simple project and task import preparation"
+title: 'Kick-Starts scenario: simple project and task import preparation'
 description: Describes in detail the available settings and controls for a basic Project and Task Import using the Kick Start method.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: c095ce9d-b189-449b-bd13-2633837697ed
 ---
-
 # Kick-Starts scenario: simple project and task import preparation
 
 Describes in detail the available settings and controls for a  basic Project and Task Import using the Kick Start method. 
@@ -378,4 +378,3 @@ Set the values for the following task fields:
 * **Import the Excel File**
 
   Follow the directions provided in [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
-

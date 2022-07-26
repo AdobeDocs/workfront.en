@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: list of project users with job roles"
+title: 'View: list of project users with job roles'
 description: You can apply this view in a project list or report to display a list of users that are associated with the project, as well as a list of the job roles they are performing on the project.
 author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: a3f59f69-7f39-4814-bd2f-7734d620081e
 ---
-
 # View: list of project users with job roles
 
 You can apply this view in a project list or report to display a list of users that are associated with the project, as well as a list of the job roles they are performing on the project.
@@ -61,4 +61,3 @@ You must have the following access to perform the steps in this article:
    <pre>column.0.link.valueformat=val<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.namekey=name.abbr<br>column.0.querysort=name<br>column.0.section=0<br>column.0.shortview=false<br>column.0.stretch=100<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=200<br>column.1.displayname=Project Users<br>column.1.listdelimiter=&lt;br&gt;<br>column.1.listmethod=nested(projectUsers).lists<br>column.1.textmode=true<br>column.1.type=iterate<br>column.1.valueexpression={user}.{name}<br>column.1.valueformat=HTML<br>column.2.displayname=Project Roles<br>column.2.listdelimiter=&lt;br&gt;<br>column.2.listmethod=nested(projectUserRoles).lists<br>column.2.textmode=true<br>column.2.type=iterate<br>column.2.valueexpression={role}.{name}<br>column.2.valueformat=HTML</pre>
 
 1. Click **Save View**.
-

@@ -7,8 +7,8 @@ description: You can delete a custom condition.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
 ---
-
 # Delete a custom condition
 
 ## Access requirements
@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
 1. Click **Project Preferences** > **Conditions**. 
 
    <!--
-   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
+   <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
    -->
 
 1. Select the tab of the object type (**Project**, **Task**, or **Issue**) where the condition that you want to delete is located.

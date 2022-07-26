@@ -5,8 +5,8 @@ title: View the Jira Activity Log
 description: As a Jira administrator, you can view the exceptions and errors that occur during the synchronization or creation of the tickets between Adobe Workfront and Jira in an Activity Log.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 3e66c8e3-94b7-4153-abbb-32b872b9402b
 ---
-
 # View the Jira Activity Log
 
 As a Jira administrator, you can view the exceptions and errors that occur during the synchronization or creation of the tickets between Adobe Workfront and Jira in an Activity Log.&nbsp;
@@ -71,4 +71,3 @@ Before you can link items between Workfront and Jira, you must
    * The name of the user in Jira
    * Jira issue number
    * A brief description of the error that occurred.
-

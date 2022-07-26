@@ -6,8 +6,8 @@ navigation-topic: enhanced-analytics-navigation-topic
 description: The Tasks in flight visualization shows how many tasks (within the applied filter criteria) are in progress for a project, the percentage of work completed for each task, and how on schedule the tasks are.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: cc738450-362a-49e8-836f-611fa82057b5
 ---
-
 # View the Tasks in flight visualization in Enhanced analytics
 
 The Tasks in flight visualization shows how many tasks (within the applied filter criteria) are in progress for a project, the percentage of work completed for each task, and how on schedule the tasks are.
@@ -132,4 +132,4 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 View the following video to learn more about the Tasks in flight visualization. This video was recorded in the new Workfront experience. However, the content also applies to Workfront Classic.
 
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/441153099/45304dcf9c) 
+[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/441153099/45304dcf9c)

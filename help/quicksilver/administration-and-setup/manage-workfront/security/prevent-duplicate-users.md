@@ -7,8 +7,8 @@ description: When creating a new user in Adobe Workfront, you can no longer use 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
 ---
-
 # Prevent duplicate users
 
 When creating a new user in Adobe Workfront, you can no longer use an email address that is already being used by another user, even if the email address varies by case (for example, JohnDoe@example.com and johndoe@example.com). In addition, to prepare for future authentication enhancements, ensure that all users have unique email addresses in a Workfront instance.

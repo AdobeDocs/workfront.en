@@ -6,8 +6,8 @@ title: Adobe Workfront for Microsoft Teams Overview
 description: As a team owner, you can install the Adobe Workfront for Microsoft Teams app for your team.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
 ---
-
 # Adobe Workfront for Microsoft Teams Overview
 
 As a team owner, you can install the Adobe Workfront for Microsoft Teams app for your team.
@@ -43,4 +43,3 @@ Consider the following when working with Workfront for Microsoft Teams:
 * You can view some information about the Workfront items in Microsoft Teams. For example, the name, status, priority, assignee, Planned Completion Date of a Workfront item.&nbsp;This information cannot be customized.  
 * You can directly go to the Workfront items and documents from Microsoft Teams. 
 * Microsoft Teams no longer supports Internet Explorer. To use the Adobe Workfront for Microsoft Teams integration, you must use a web browser other than Internet Explorer.
-

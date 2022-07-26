@@ -7,8 +7,8 @@ navigation-topic: administrator-faqs
 description: Adobe Workfront moved to a 100% Software-As-A-Service model and stopped selling on-premise software on December 31, 2011. As of 2014, AtTask OnPremise is no longer supported, with the exception of license key-related problems. The on-premise application is no longer available to download or install.
 feature: System Setup and Administration
 role: Admin
+exl-id: 37c65360-6587-43b3-8eaf-4f1a9b375c1d
 ---
-
 # AtTask OnPremise support policy
 
 Adobe Workfront moved to a 100% Software-As-A-Service model and stopped selling on-premise software on December 31, 2011. As of 2014, AtTask OnPremise is no longer supported, with the exception of license key-related problems. The on-premise application is no longer available to download or install.
@@ -59,4 +59,4 @@ Once you have obtained a new license key,
 1. Copy the new license.key file into place.
 1. Restart the atTask Server.
 
-This article includes the following attachments: 
+This article includes the following attachments:

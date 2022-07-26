@@ -6,8 +6,8 @@ title: Access Workfront Proof from Adobe Workfront
 description: You can quickly access your Workfront Proof account directly from the Adobe Workfront interface without needing log in to Workfront Proof when the following conditions are met - EDIT ME.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
 ---
-
 # Access Workfront Proof from Adobe Workfront
 
 You can quickly access your Workfront Proof&nbsp;account directly from the Adobe Workfront interface without&nbsp;needing log in to Workfront Proof&nbsp;when the following conditions are met:

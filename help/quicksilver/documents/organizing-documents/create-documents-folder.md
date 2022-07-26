@@ -5,8 +5,8 @@ title: Create document folders
 description: Documents can be organized into folders. You can create personal folders in your personal Documents area.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 ---
-
 # Create document folders
 
 Documents can be organized into folders. You can create personal folders in your personal Documents area.

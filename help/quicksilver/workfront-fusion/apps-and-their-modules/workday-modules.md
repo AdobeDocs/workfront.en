@@ -8,8 +8,8 @@ navigation-topic: apps-and-their-modules
 title: Workday modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Workday, as well as connect it to multiple third-party applications and services.
 author: Becky
+exl-id: 535573e0-b6ad-43a2-b7cb-ed32d1dc8d16
 ---
-
 # Workday modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Workday, as well as connect it to multiple third-party applications and services.
@@ -63,7 +63,7 @@ To use the Workday modules, you must:
     
 2.  Fill in the following fields:
     
-    <table>
+    <table style="table-layout:auto"> 
         <col/>
         <col/>
         <tbody>
@@ -131,13 +131,13 @@ If you see the map button above a field or function, you can use it to set varia
 
 This action module updates a single record in Workday.
 
-<table>
+<table style="table-layout:auto"> 
     <col/>
     <col/>
     <tbody>
         <tr>
             <td role="rowheader">Connection</td>
-            <td>For instructions about connecting your Workday account to Workfront Fusion, see <a href="#Connect" class="MCXref_0">Connect Workday to Workfront Fusion</a>.</td>
+            <td>For instructions about connecting your Workday account to Workfront Fusion, see <a href="#Connect" class="MCXref xref" >Connect Workday to Workfront Fusion</a>.</td>
         </tr>
         <tr>
             <td  role="rowheader">Record Type</td>
@@ -158,7 +158,7 @@ This action module updates a single record in Workday.
 
 This action module deletes a single record in Workday.
 
-<table>
+<table style="table-layout:auto"> 
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
     </col>
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
@@ -166,7 +166,7 @@ This action module deletes a single record in Workday.
     <tbody>
         <tr>
             <td role="rowheader">Connection</td>
-            <td>For instructions about connecting your Workday account to Workfront Fusion, see <a href="#Connect" class="MCXref_0">Connect Workday to Workfront Fusion</a>.</td>
+            <td>For instructions about connecting your Workday account to Workfront Fusion, see <a href="#Connect" class="MCXref xref" >Connect Workday to Workfront Fusion</a>.</td>
         </tr>
         <tr>
             <td  role="rowheader">Record type</td>
@@ -202,7 +202,7 @@ The module returns the a status code, along with the headers and body of the API
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-            <td>For instructions about connecting your Workday account to Workfront Fusion, see <a href="#Connect" class="MCXref_0">Connect Workday to Workfront Fusion</a>.</td>
+            <td>For instructions about connecting your Workday account to Workfront Fusion, see <a href="#Connect" class="MCXref xref" >Connect Workday to Workfront Fusion</a>.</td>
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -234,13 +234,13 @@ The module returns the a status code, along with the headers and body of the API
 
 This action module updates a single record in Workday.
 
-  <table>
+  <table style="table-layout:auto"> 
     <col/>
     <col/>
     <tbody>
         <tr>
             <td role="rowheader">Connection</td>
-            <td>For instructions about connecting your Workday account to Workfront Fusion, see <a href="#Connect" class="MCXref_0">Connect Workday to Workfront Fusion</a></td>
+            <td>For instructions about connecting your Workday account to Workfront Fusion, see <a href="#Connect" class="MCXref xref" >Connect Workday to Workfront Fusion</a></td>
         </tr>
         <tr>
             <td  role="rowheader">Record Type</td>
@@ -268,7 +268,7 @@ This action module updates a single record in Workday.
 
 This action module reads a single record.
 
-  <table>
+  <table style="table-layout:auto"> 
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
     </col>
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
@@ -276,7 +276,7 @@ This action module reads a single record.
     <tbody>
         <tr>
             <td role="rowheader">Connection</td>
-            <td>For instructions about connecting your Workday account to Workfront Fusion, see <a href="#Connect" class="MCXref_0">Connect Workday to Workfront Fusion</a></td>
+            <td>For instructions about connecting your Workday account to Workfront Fusion, see <a href="#Connect" class="MCXref xref" >Connect Workday to Workfront Fusion</a></td>
         </tr>
         <tr>
             <td  role="rowheader">Record type</td>
@@ -297,13 +297,13 @@ This action module reads a single record.
 
 This search module retrieves a list of records of the specified type.
 
-  <table>
+  <table style="table-layout:auto"> 
       <col/>
       <col/>
       <tbody>
           <tr>
               <td role="rowheader">Connection</td>
-              <td>For instructions about connecting your Workday account to Workfront Fusion, see <a href="#Connect" class="MCXref_0">Connect Workday to Workfront Fusion</a></td>
+              <td>For instructions about connecting your Workday account to Workfront Fusion, see <a href="#Connect" class="MCXref xref" >Connect Workday to Workfront Fusion</a></td>
           </tr>
           <tr>
               <td  role="rowheader">Record Type</td>
@@ -317,4 +317,3 @@ This search module retrieves a list of records of the specified type.
           </tr>
       </tbody>
   </table>
-  

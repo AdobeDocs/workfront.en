@@ -5,8 +5,8 @@ title: Navigate the Goal Alignment section in Adobe Workfront Goals
 description: Use the Goal Alignment section to display a holistic view of goal alignment across the entire organization in a flowchart. Aligned goals display on cards that interconnect in a hierarchical tree.
 author: Alina
 feature: Workfront Goals
+exl-id: e79ced31-4680-4af7-b083-3d615c747af8
 ---
-
 # Navigate the Goal Alignment section in Adobe Workfront Goals
 
 Use the Goal Alignment section to display a holistic view of goal alignment across the entire organization in a flowchart. Aligned goals display on cards that interconnect in a hierarchical tree.

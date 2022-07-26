@@ -5,10 +5,10 @@ navigation-topic: work-with-a-groups-objects
 title: View and manage subgroup members
 description: When you are viewing a group that you manage, you can view and manage all of the users in the group's subgroups.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
 ---
-
 # View and manage subgroup members
 
 When you are viewing a group that you manage, you can view and manage all of the users in the group's subgroups.
@@ -68,4 +68,3 @@ You must have the following to perform the steps in this article:
      For more information, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
    
    * Export ![](assets/export.png) the list of members.
-

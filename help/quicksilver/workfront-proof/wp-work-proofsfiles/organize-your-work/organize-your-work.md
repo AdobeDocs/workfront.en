@@ -6,9 +6,9 @@ navigation-topic: work-with-proofs-and-files
 title: Organize your work
 description: This section contains the following articles - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 2064baa7-598c-4e42-a4f3-211198fb065f
 ---
-
 # Organize your work
 
 >[!IMPORTANT]
@@ -27,4 +27,3 @@ This section contains the following articles:
 * [Archive in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md) 
 * [Back Up Your Workfront Proof Data](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md) 
 * [Print and Export Comments in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
-

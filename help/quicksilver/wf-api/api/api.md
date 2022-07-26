@@ -5,8 +5,8 @@ navigation-topic: api-navigation-topic
 title: API
 description: Workfront API Articles
 author: John
+exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
 ---
-
 # API
 
 This section contains the following articles:
@@ -34,4 +34,3 @@ This section contains the following articles:
 * [Updates to API Version 8](../../wf-api/api/new-api-version-8-updates.md) 
 * [What's New in API Version 7](../../wf-api/api/new-api-version-7.md) 
 * [What's New in API Version 6](../../wf-api/api/new-api-version-6.md)
-

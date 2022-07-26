@@ -4,8 +4,8 @@ title: Create billing records
 description: In addition to setting up revenue and tracking expenses, you can create billing records on a project for information that needs to be billed.
 author: Alina
 feature: Work Management
+exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
 ---
-
 # Create billing records
 
 In addition to setting up revenue and tracking expenses, you can create billing records on a project for information that needs to be billed.
@@ -259,4 +259,3 @@ After creating a billing record and including hours, expenses and revenues in th
      ```
 
 1. Click **Save****Changes**.
-

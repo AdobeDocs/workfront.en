@@ -5,10 +5,10 @@ navigation-topic: configure-proofing-functionality
 title: Create and manage Automated Workflow templates
 description: As an Adobe Workfront administrator, if your organization's content review process is often repeated or content is often reviewed by the same people, you can create Automated Workflow templates that contain those reviewers with proof roles and notification settings that you specify. An Automated Workflow template can be simple with just one or two reviewers or complex with many stages and dependencies.
 author: Courtney
-feature: "System Setup and Administration, Digital Content and Documents"
+feature: System Setup and Administration, Digital Content and Documents
 role: Admin
+exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
 ---
-
 # Create and manage Automated Workflow templates
 
 As an Adobe Workfront administrator, if your organization's content review process is often repeated or content is often reviewed by the same people, you can create Automated Workflow templates that contain those reviewers with proof roles and notification settings that you specify. An Automated Workflow template can be simple with just one or two reviewers or complex with many stages and dependencies.
@@ -82,7 +82,7 @@ You must have the following:
       <td role="rowheader">Allow</td> 
       <td> <p>You can select the stage activities you want available to the person creates proofs using the template.</p> <!--
         <p><b>WARNING</b>: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof. <!--
-          <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Test this. Andrzej thinks it's wrong info or a bug.</span>
+          <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Test this. Andrzej thinks it's wrong info or a bug.</span>
          --><br></p>
       </td> 
      </tr> 
@@ -128,9 +128,9 @@ You must have the following:
      <tr> 
       <td role="rowheader">Private stage</td> 
       <td>Hides comments and decisions from to people who are not added to the stage or who are not Workfront administrators<!--
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        DRAFTED IN FLARE:
          Supervisors and above
-        </MadCap:conditionalText>
+        
        -->. For more information, see <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automated Workflow overview</a>.</td> 
      </tr> 
      <tr> 
@@ -189,7 +189,7 @@ As a Workfront Proof administrator, you can modify an Automated Workflow templat
       <td role="rowheader">Template group</td> 
       <td> <p> If your organization's Automated Workflows are organized into groups, you can select the name of the group. See <a href="#create-automated-workflow-template-groups" class="MCXref xref">Create Automated Workflow template groups</a> later in this article for more information.</p> </td> 
      </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+     <tr> 
       <td role="rowheader">Template timezone </td> 
       <td> <p>The default timezone for the template is the one you are working in. If the timezone of the proof creators and reviewers who will be using the template is different, you can change it here to ensure that stage deadlines are set at the right times for those users. </p> </td> 
      </tr> 
@@ -274,4 +274,3 @@ You can move the templates between groups by dragging and dropping.
    * Delete one or more template groups
    * Access a template's details
    * Drag a template to a different template group
-

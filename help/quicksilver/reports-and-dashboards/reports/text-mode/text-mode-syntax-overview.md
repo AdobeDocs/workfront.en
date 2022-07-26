@@ -5,8 +5,8 @@ title: Text mode syntax overview
 description: You can use the text mode interface to create more complex views, filters, groupings, and customized prompts in lists and reports. By using text mode, you can access fields and their attributes that are not available in the standard mode interface.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
 ---
-
 # Text mode syntax overview
 
 You can use the text mode interface to create more complex views, filters, groupings, and customized prompts in lists and reports. By using text mode, you can access fields and their attributes that are not available in the standard mode interface.
@@ -361,4 +361,3 @@ You can use the following elements to build filters and custom prompts in text m
      >Statement connectors are case sensitive and always uppercase. "AND" can be omitted in text mode.
 
 * Wildcards to make filters more dynamic and customize them for the current time or the user who is logged in. For information about wildcards, see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-

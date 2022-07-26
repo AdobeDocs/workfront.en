@@ -5,9 +5,9 @@ navigation-topic: documents-webhooks-api
 title: Get metadata for a file or folder
 description: Returns metadata for the specified file or folder.
 author: John
-feature: "Workfront API, Digital Content and Documents"
+feature: Workfront API, Digital Content and Documents
+exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
 ---
-
 # Get metadata for a file or folder
 
 Returns metadata for the specified file or folder.
@@ -105,4 +105,3 @@ GET /metadata?id=[document or folder ID]
 >[!NOTE]
 >
 >Error handling should be consistent across all API calls. See the “Error Handling” section below for details.
-

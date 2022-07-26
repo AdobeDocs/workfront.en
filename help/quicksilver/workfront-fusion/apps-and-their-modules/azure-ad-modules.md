@@ -8,8 +8,8 @@ title: Azure Active Directory modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Azure Active Directory, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
+exl-id: ac966231-251e-44de-be61-00afa5ece3fd
 ---
-
 # Azure Active Directory modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Azure Active Directory, as well as connect it to multiple third-party applications and services.
@@ -252,4 +252,3 @@ This search module looks for records in Azure AD that have been created, updated
   </tr> 
  </tbody> 
 </table>
-

@@ -6,8 +6,8 @@ title: View the Project treemap visualization in Enhanced analytics
 description: The Project treemap visualization is a view of hours—or days—that have been worked in a specific window of time compared against other work efforts in size. This helps you understand how much time people have dedicated to a project.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
 ---
-
 # View the Project treemap visualization in Enhanced analytics
 
 The Project treemap visualization is a view of hours—or days—that have been worked in a specific window of time compared against other work efforts in size. This helps you understand how much time people have dedicated to a project.
@@ -141,4 +141,4 @@ For more information on the Burndown visualization, see [View the Burndown visua
 
 View the following video to learn more about the Project treemap visualization. This video was recorded in the new Workfront experience. However, the content also applies to Workfront Classic.
 
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/441151801/59d2fa726b) 
+[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/441151801/59d2fa726b)

@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: permanently edit the width of a column"
+title: 'View: permanently edit the width of a column'
 description: You can temporarily modify to width of columns by dragging and dropping their margins to match the desired width. For more information, see Modify column width and order.
 author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
 ---
-
 # View: permanently edit the width of a column
 
 You can temporarily modify to width of columns by dragging and dropping their margins to match the desired width. For more information, see [Modify column width and order](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
@@ -69,4 +69,3 @@ You must have the following access to perform the steps in this article:
    For the **width** line, specify any number (in pixels) that represents how wide you want the column to display in the view.
 
 1. Click **Save**, then **Save View**.
-

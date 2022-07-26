@@ -5,8 +5,8 @@ title: Calculate goal progress in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
 author: Alina
 feature: Workfront Goals
+exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
 ---
-
 # Calculate goal progress in Adobe Workfront Goals
 
 Your organization must have the following to use the functionality described in this article:
@@ -140,4 +140,3 @@ The table below lists the goal progress labels and the goal progress percentages
   </tr> 
  </tbody> 
 </table>
-

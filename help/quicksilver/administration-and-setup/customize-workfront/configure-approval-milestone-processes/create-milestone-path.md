@@ -7,8 +7,8 @@ description: Create a milestone path
 author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
 ---
-
 # Create a milestone path
 
 <!--
@@ -92,5 +92,4 @@ For more information on how you can associate a milestone path with a project an
 
    Your milestone path is ready to be associated with a project.
 
-   For more information on how to associate milestone paths to projects and milestones to tasks, see [Associate milestones with tasks](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md). 
-
+   For more information on how to associate milestone paths to projects and milestones to tasks, see [Associate milestones with tasks](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).

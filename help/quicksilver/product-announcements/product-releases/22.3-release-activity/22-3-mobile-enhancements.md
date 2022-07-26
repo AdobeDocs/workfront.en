@@ -4,8 +4,8 @@ description: mobile updates during the 22.3 release timeframe
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: eb62baf2-109c-4b50-8cd1-415d3c40c7ed
 ---
-
 # 22.3 Mobile enhancements
 
 This page describes all Mobile enhancements made with the 22.3 release to the Preview environment. These enhancements were made available in the Production environment the week of July 11, 2022. For a list of all changes available with the 22.3 release, see [22.3 Release overview](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).

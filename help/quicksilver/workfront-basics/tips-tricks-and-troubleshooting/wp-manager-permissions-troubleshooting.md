@@ -6,8 +6,8 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Workfront Proof Manager permissions troubleshooting
 description: Following are the permission profiles available in Adobe Workfront for proofing users - EDIT ME.
 feature: Get Started with Workfront
+exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
 ---
-
 # Workfront Proof Manager permissions troubleshooting
 
 Following are the permission profiles available in Adobe Workfront for proofing users:
@@ -35,4 +35,3 @@ When granting a user Manager permissions, the following troubleshooting informat
 * **PROBLEM:** Users with Manager permissions cannot edit comments of other users on a proof they do not own or they did not create.  
   **SOLUTION:** If users with Manager permissions do not own the proofs, but they should be able to edit comments, add them as Authors (or Moderators).  
   These three types of permissions are available in Workfront for Planner, Worker, Requester, Reviewer type licenses. System Administrator or User Admin in Workfront can edit Users' profiles and adjust Workfront Proof permissions from there.&nbsp;
-

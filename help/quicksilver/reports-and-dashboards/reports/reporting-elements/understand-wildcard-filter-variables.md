@@ -6,8 +6,8 @@ title: Wildcard filter variables
 description: Wildcard filter variablesoverview/ reference" article for those articles. Consider renaming this when that is allowed.)"
 author: Nolan
 feature: Reports and Dashboards
+exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
 ---
-
 # Wildcard filter variables
 
 <!--
@@ -215,4 +215,3 @@ Workfront provides the following user-based variables:
   </tr> 
  </tbody> 
 </table>
-

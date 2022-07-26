@@ -6,8 +6,8 @@ title: Add a user to an organization in Adobe Workfront Fusion
 description: You can add users to organizations in Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
+exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
 ---
-
 # Add a user to an organization in Adobe Workfront Fusion
 
 >[!IMPORTANT]
@@ -98,4 +98,3 @@ To add a user to the organization:
    </div>
 
    The user receives an invitation email where they can accept the invitation by clicking an Accept the Role button.
-

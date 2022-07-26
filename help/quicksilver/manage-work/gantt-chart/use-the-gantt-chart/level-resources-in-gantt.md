@@ -5,8 +5,8 @@ title: Level Resources in the Gantt Chart
 description: Leveling your resources on a project has two purposes - EDIT ME.
 author: Alina
 feature: Work Management
+exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
 ---
-
 # Level Resources in the Gantt Chart
 
 Leveling your resources&nbsp;on a project&nbsp;has two purposes:
@@ -117,4 +117,3 @@ You can use the Task List Gantt Chart to level your resources.
 </ol>
 </div>
 -->
-

@@ -8,8 +8,8 @@ description: Kick-Starts are specially formatted Excel workbooks that you can po
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
 ---
-
 # Import data into Adobe Workfront using a Kick-Start template
 
 Kick-Starts are specially formatted Excel workbooks that you can populate with data you want to import into Workfront. Adobe Workfront provides a Kick-Start template you can use to do this, as explained in [Kick-Starts data importer](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
@@ -465,4 +465,3 @@ To import the template spreadsheet data into Workfront:
    Try importing your data in smaller batches of objects.  
 
 1. (Conditional) If you are using Workfront Fusion, you can now turn on your FLOs or scenarios.
-

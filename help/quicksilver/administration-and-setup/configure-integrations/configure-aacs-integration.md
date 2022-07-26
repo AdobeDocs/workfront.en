@@ -3,9 +3,9 @@ product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Adobe Experience Manager Assets integrations
 description: You can connect your work with the following Adobe Experience Manager Assets Integrations - EDIT ME.
-feature: "Digital Content and Documents, Workfront Integrations and Apps"
+feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 ---
-
 # Configure the Experience Manager Assets as a Cloud Service integration
 
 You can connect your work with your content in Experience Manager Assets​:

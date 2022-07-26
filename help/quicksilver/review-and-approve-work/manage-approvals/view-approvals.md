@@ -5,8 +5,8 @@ title: View approvals
 description: Approval processes provide the flexibility to create multistep approvals for projects, tasks, and issues. Adobe Workfront administrators define approval processes to provide consistency throughout the system.
 author: Courtney
 feature: Work Management
+exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
 ---
-
 # View approvals
 
 Approval processes provide the flexibility to create multistep approvals for projects, tasks, and issues. Adobe Workfront administrators define approval processes to provide consistency throughout the system.
@@ -138,4 +138,3 @@ To see the current state of where a task or issue is in the approval process:
    ![](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
 
    For information about creating an Approval Process, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-

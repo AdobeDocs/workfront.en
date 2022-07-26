@@ -7,8 +7,8 @@ navigation-topic: apps-and-their-modules
 title: Figma modules
 description: With the Adobe Workfront Fusion Figma modules, you can retrieve lists of comments, files, file versions, or projects. You can also post a comment or make a call to the Figma API.
 author: Becky
+exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
 ---
-
 # Figma Modules
 
 With the Adobe Workfront Fusion Figma modules, you can retrieve lists of comments, files, file versions, or projects. You can also post a comment or make a call to the Figma API.
@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -96,7 +96,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This action module deletes a single comment from a file.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col />
   <tbody>
@@ -120,7 +120,7 @@ This action module deletes a single comment from a file.
 
 This search module lists all of the comments attached to a single file in Figma.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -154,7 +154,7 @@ This search module lists all of the comments attached to a single file in Figma.
 
 This action module posts a comment to a Figma file.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -199,7 +199,7 @@ This action module posts a comment to a Figma file.
 
 This action module retrieves a single file or image from a Figma library
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -216,25 +216,25 @@ This action module retrieves a single file or image from a Figma library
             <p><b>File</b>
             </p>
             <p>The module returns the document referred to by Key as a JSON object. The file key can be parsed from any Figma file URL.</p>
-            <p>For fields, see <a href="#Get2" class="MCXref_0">Get a file or image: File</a>.</p>
+            <p>For fields, see <a href="#Get2" class="MCXref xref" >Get a file or image: File</a>.</p>
           </li>
           <li>
             <p><b>File nodes</b>
             </p>
             <p>Returns the nodes referenced to by IDs as a JSON object. The nodes are retrieved from the Figma file referenced to by Key.</p>
-            <p>For fields, see <a href="#Get3" class="MCXref_0">Get a file or image: File nodes</a>.</p>
+            <p>For fields, see <a href="#Get3" class="MCXref xref" >Get a file or image: File nodes</a>.</p>
           </li>
           <li>
             <p><b>Image</b>
             </p>
             <p>The module renders images from a file.</p>
-            <p>For fields, see <a href="#Get4" class="MCXref_0">Get a file or image: Image</a>.</p>
+            <p>For fields, see <a href="#Get4" class="MCXref xref" >Get a file or image: Image</a>.</p>
           </li>
           <li>
             <p><b>Image fills</b>
             </p>
             <p>The module returns download links for all images present in image fills in a document. Image fills are how Figma represents any user-supplied images. When you drag an image into Figma, Figma creates a rectangle with a single fill that represents the image, and the user is able to transform the rectangle (and properties on the fill).</p>
-            <p>For fields, see <a href="#Get5" class="MCXref_0">Get a file or image: Image fills</a>.</p>
+            <p>For fields, see <a href="#Get5" class="MCXref xref" >Get a file or image: Image fills</a>.</p>
           </li>
         </ul>
       </td>
@@ -245,7 +245,7 @@ This action module retrieves a single file or image from a Figma library
     
 ##### Get a file or image: File
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -298,7 +298,7 @@ This action module retrieves a single file or image from a Figma library
 
 ##### Get a file or image: File nodes
  
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -348,7 +348,7 @@ This action module retrieves a single file or image from a Figma library
 
 ##### Get a file or image: Image
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -408,7 +408,7 @@ This action module retrieves a single file or image from a Figma library
 
 ##### Get a file or image: Image fills
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -422,7 +422,7 @@ This action module retrieves a single file or image from a Figma library
 ### List file version history
 
 This search module returns the version history of a single file in Figma.
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -454,7 +454,7 @@ This search module returns the version history of a single file in Figma.
 
 This search module returns a list of all files in the specified project.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -484,7 +484,7 @@ This search module returns a list of all files in the specified project.
 
 This search module returns a list of all projects within the specified team.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -510,7 +510,7 @@ This search module returns a list of all projects within the specified team.
 
 This action module retrieves a single style or component, or a set of styles or components.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -561,7 +561,7 @@ This action module retrieves a single style or component, or a set of styles or 
 
 This action module lets you make a custom authenticated call to the Figma API without having to think through authentication. This way, you can create a data flow automation that can't be accomplished by the other Figma modules.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -620,7 +620,7 @@ This trigger module starts a scenario when one of the following events occur for
     
 *   File comment
     
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>

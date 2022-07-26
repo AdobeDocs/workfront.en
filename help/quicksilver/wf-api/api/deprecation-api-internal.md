@@ -5,8 +5,8 @@ title: Deprecation of API-Internal
 description: Deprecation of API-Internal
 author: John
 feature: Workfront API
+exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
 ---
-
 # Deprecation of API-Internal
 
 API-Internal is a version of the Adobe Workfront API that is unsupported due to its design and purpose. Although it contains the most recent updates to the Workfront API, it is subject to change without notice and therefore should be used with caution in production integrations. Workfront strongly recommends updating all API-Internal integrations to a versioned API.

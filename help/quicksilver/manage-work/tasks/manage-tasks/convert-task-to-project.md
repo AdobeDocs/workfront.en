@@ -5,8 +5,8 @@ title: Convert a task to a project
 description: When a task in a project requires a larger amount of effort to complete than you originally planned, you can convert it to a project.
 author: Alina
 feature: Work Management
+exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 ---
-
 # Convert a task to a project
 
 When a task in a project requires a larger amount of effort to complete than you originally planned, you can convert it to a project.
@@ -87,4 +87,3 @@ You must have the following access to perform the steps in this article:
      >If you are using a template for the conversion and a custom form attached to the template contains a custom field also found in a custom form attached to the task, the field value from the task is used for the new project. However, if the custom field is blank on the task, the value from the template is used.
 
 1. Click **Save Changes**.
-

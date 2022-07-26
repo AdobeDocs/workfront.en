@@ -5,8 +5,8 @@ title: Adjust budgeting dates in the Resource Planner
 description: If you find that there are overallocations of your resources after you have budgeted them in the Resource Planner, you can explore what-if scenarios by moving the Budgeted Hours, FTE, or Costs to another time frame. Based on the findings in these scenarios, you can then adjust your budgeted Hours, FTE, or Cost.
 author: Alina
 feature: Resource Management
+exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
 ---
-
 # Adjust budgeting dates in the Resource Planner
 
 If you find that there are overallocations of your resources after you have budgeted them in the Resource Planner, you can explore what-if scenarios by moving the Budgeted Hours, FTE, or Costs to another time frame. Based on the findings in these scenarios, you can then adjust your budgeted Hours, FTE, or Cost.
@@ -68,4 +68,3 @@ You must have the following:
 1. (Conditional and optional) Click **Save Changes**. 
 1. Return to the Resource Planner and re-enter the Budgeted Hours, FTEs, or Costs in the time frame without budgeting conflicts. 
 1. Click **Save**.
-

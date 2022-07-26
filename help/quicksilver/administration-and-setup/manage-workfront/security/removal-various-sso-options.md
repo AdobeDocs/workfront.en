@@ -8,8 +8,8 @@ description: Adobe Workfront is removing support for various single sign-on (SSO
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 03f3ef0d-8b55-4127-b205-cf259d221290
 ---
-
 # Removal of various single sign-on options
 
 Adobe Workfront is removing support for various single sign-on (SSO) options. The end result will be a consistent and more secure sign-in experience across all Workfront products and services.

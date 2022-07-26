@@ -4,9 +4,9 @@ product-area: documents;system-administration;setup
 navigation-topic: workfront-library-setup
 title: Set up a portal in Workfront Library
 description: Depending on the amount of content your organization stores in Workfront Library, your users might find it beneficial to assemble all the items they need in one place.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: b2fdb581-2f33-4960-a641-e4f90bddd66d
 ---
-
 # Set up a portal in Workfront Library
 
 Depending on the amount of content your organization stores in Workfront Library, your users might find it beneficial to assemble all the items they need in one place.

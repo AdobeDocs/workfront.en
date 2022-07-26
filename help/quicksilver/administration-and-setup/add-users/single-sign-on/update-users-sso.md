@@ -7,8 +7,8 @@ description: You can update users for single sign-on in Workfront.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
 ---
-
 # Update users for single sign-on
 
 {{important-admin-console-onboard}}
@@ -131,4 +131,3 @@ For instructions on building a user report containing SSO Username information, 
    ![](assets/users-with-sso-field-updated.png)
 
    For instructions on updating your users for SSO, see [Update your users for SSO](#update-your-users-for-sso).
-

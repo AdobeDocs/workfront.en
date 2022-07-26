@@ -3,7 +3,8 @@ title: SOAP API FAQs
 description: SOAP API FAQs
 author: Becky
 draft: Probably
-feature: "Workfront API, Workfront Proof"
+feature: Workfront API, Workfront Proof
+exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
 ---
 # SOAP API FAQs
 
@@ -63,4 +64,4 @@ For example, the miniproof URL
 
 ## How to create a Java Web Service Client?
 
-[This video](http://screencast.com/t/xsSNrqs5b) shows how you can create a Java Web Service client using Eclipse and the Workfront Proof WSDL definition. 
+[This video](http://screencast.com/t/xsSNrqs5b) shows how you can create a Java Web Service client using Eclipse and the Workfront Proof WSDL definition.

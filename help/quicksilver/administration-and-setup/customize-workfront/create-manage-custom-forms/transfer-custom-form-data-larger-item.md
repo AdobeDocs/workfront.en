@@ -7,8 +7,8 @@ description: When the work defined in a work item becomes too large, you can con
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
 ---
-
 # Transfer custom form data when converting an object
 
 Depending on the business needs of your organization, the work defined in a task or an issue might become too large to manage it within the task or the issue. In this case, you can convert them to a larger work item:

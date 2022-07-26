@@ -5,8 +5,8 @@ title: Check in on goals in Adobe Workfront Goals
 description: You must review your goals periodically and update their progress to ensure that they are not falling behind or become in danger of not being achieved. You update the progress of your goals by providing a check-in for them.
 author: Alina
 feature: Workfront Goals
+exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
 ---
-
 # Check in on goals in Adobe Workfront Goals
 
 You must review your goals periodically and update their progress to ensure that they are not falling behind or become in danger of not being achieved. You update the progress of your goals by providing a check-in for them.
@@ -200,4 +200,3 @@ When you check in on a goal in the Check-in section, you can update the progress
    The activity and the goal progress updated automatically and you receive a confirmation of your changes.
 
 1. (Optional) Add a comment for your goal, then click **Post** to save your comment.
-

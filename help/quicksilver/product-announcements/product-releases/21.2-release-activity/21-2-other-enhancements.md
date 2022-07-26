@@ -6,8 +6,8 @@ title: 21.2 Other enhancements
 description: This page describes all Other enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see 21.2 Release overview.
 author: Luke
 feature: Product Announcements
+exl-id: f136c08b-63c0-4e1e-a048-09eb84a0ed54
 ---
-
 # 21.2 Other enhancements
 
 This page describes all Other enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).

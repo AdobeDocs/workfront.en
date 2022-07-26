@@ -5,8 +5,8 @@ title: Filter information in Adobe Workfront Goals
 description: You can view goals that you or anyone else added in Adobe Workfront Goals. For information about creating goals, see Create goals in Adobe Workfront Goals. When viewing goals, you can filter information in Workfront Goals to view only goals that are important to you.
 author: Alina
 feature: Workfront Goals
+exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
 ---
-
 # Filter information in Adobe Workfront Goals
 
 You can view goals that you or anyone else added in&nbsp;Adobe Workfront Goals. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md). When viewing goals, you can filter information in Workfront Goals to view only goals that are important to you.
@@ -243,4 +243,3 @@ You can create a filter from scratch or edit one of the built-in filters.
 1. Click&nbsp;**Reapply filter** to apply the filter and omit the items you displayed in the previous step.
 
 &nbsp;
-

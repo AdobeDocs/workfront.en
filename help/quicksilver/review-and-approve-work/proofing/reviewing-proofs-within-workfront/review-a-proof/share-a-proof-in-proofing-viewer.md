@@ -5,8 +5,8 @@ title: Share a proof from the proofing viewer
 description: You can share a proof from the proofing viewer if sharing is enabled by the proof owner or creator.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
 ---
-
 # Share a proof from the proofing viewer
 
 You can share a proof from the proofing viewer if sharing is enabled by the proof owner or creator.
@@ -184,4 +184,3 @@ To share a proof with individual users:
 1. (Optional) Set a **Deadline** for the reviewers (available only if the proof does not have automated workflow). 
 1. (Optional) Select **Send email notification to new recipients** to let them know you have added them to the proof.
 1. When you are finished adding users to the proof, click **Done.**
-

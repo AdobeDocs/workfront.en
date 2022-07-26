@@ -5,8 +5,8 @@ title: Create advanced assignments
 description: You can manage task or issue assignments by using Advanced Assignments.
 author: Alina
 feature: Work Management
+exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 ---
-
 # Create advanced assignments
 
 You can manage task or issue assignments by using Advanced Assignments.
@@ -149,4 +149,3 @@ You must have the following access to perform the steps in this article:
      ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
 
 1. Click **Save**.
-

@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: content-management
 title: Create and manage views in Workfront Library
 description: Workfront Library allows you to select the view you want to use, so that the information you need is readily available. There are two types of views - EDIT ME.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 7954e6f9-7e6b-4307-a8e0-10082adf0399
 ---
-
 # Create and manage views in Workfront Library
 
 ## Views in Workfront Library

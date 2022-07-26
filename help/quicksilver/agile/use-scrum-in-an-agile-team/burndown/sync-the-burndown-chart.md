@@ -5,8 +5,8 @@ title: Synchronize data in the burndown chart
 description: The burndown chart is synchronized automatically with data in your project or iteration. If the burndown chart ever becomes out of sync with data in the project or iteration, you can manually synchronize it.
 author: Lisa
 feature: Agile
+exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
 ---
-
 # Synchronize data in the burndown chart
 
 The burndown chart is synchronized automatically with data in your project or iteration. If the burndown chart ever becomes out of sync with data in the project or iteration, you can manually synchronize it.
@@ -42,4 +42,3 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the iteration where you want to manually synchronize the burndown chart.   
 1. Click the synchronize icon ![Sync icon](assets/agile-syncicon.png) next to the iteration name.
-

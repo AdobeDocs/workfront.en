@@ -5,8 +5,8 @@ title: Delete an iteration
 description: You can delete an iteration for your agile team if it is no longer needed.
 author: Lisa
 feature: Agile
+exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
 ---
-
 # Delete an iteration
 
 You can delete an iteration for your agile team if it is no longer needed.
@@ -46,4 +46,3 @@ You must have the following access to perform the steps in this article:
 
 1. In the left panel, select **Iterations**.
 1. Select the iteration that you want to delete, then click **Delete**.
-

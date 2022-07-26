@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: library-basics
 title: Open a Workfront Library portal
 description: When a Workfront Library administrator adds you to a portal, Workfront sends you an email invitation with a link that opens the portal.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 6df21c27-1368-4476-8de6-3ef0f104a377
 ---
-
 # Open a Workfront Library portal
 
 When a Workfront Library administrator adds you to a portal, Workfront sends you an email invitation with a link that opens the portal.
@@ -37,4 +37,4 @@ When you are first given access to a portal, Workfront sends you an email invita
 
    ![](assets/swains-portal-350x128.png)
 
-&nbsp;  
+&nbsp;

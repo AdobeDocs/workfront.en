@@ -5,8 +5,8 @@ title: Update goals in the Goal Details panel in Adobe Workfront Goals
 description: You can update information for individual goals by accessing the Goal Details panel.
 author: Alina
 feature: Workfront Goals
+exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
 ---
-
 # Update goals in the Goal Details panel in&nbsp;Adobe Workfront Goals
 
 You can update information for individual goals by accessing the Goal Details panel.
@@ -140,4 +140,3 @@ You can access an individual goal which opens the Goal Details panel of the goal
 1. (Optional)&nbsp;Click **Details** under a progress or an editing history update to display additional information about the update.
 
    ![](assets/update-details-in-updates-tab-expanded-highlighted-350x139.png)
-

@@ -6,8 +6,8 @@ title: Use Adobe Workfront View
 description: Review these articles to learn how to use Adobe Workfront View.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: c86aa07d-e260-495b-84b4-d661a2ac6dda
 ---
-
 # Use Adobe Workfront View
 
 This section contains the following articles:
@@ -17,4 +17,3 @@ This section contains the following articles:
 * [Filter project lists in Adobe Workfront View](../../../workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md) 
 * [Update widgets in the Project Details view](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md) 
 * [Add updates in Adobe Workfront View](../../../workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
-

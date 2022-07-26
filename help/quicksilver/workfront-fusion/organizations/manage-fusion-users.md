@@ -7,8 +7,8 @@ title: Manage Adobe Workfront Fusion users in your organization
 description: Manage Adobe Workfront Fusion users in your organization
 author: Becky
 feature: Workfront Fusion
+exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
 ---
-
 # Manage Adobe Workfront Fusion users in your organization
 
 &nbsp;
@@ -53,4 +53,3 @@ Adobe Workfront Fusion administrators can delete users.
 
 * When a user is deleted, the user's connections, keys, and webhooks are removed. Any scenarios belonging to the user are transferred to the organization Owner. The connections in these scenarios must be updated, because the connections belonging to the user are no longer valid.
 * If the deleted user owns any applications or public templates, the applications or public templates are transferred to the organization Owner. If there is not an organization Owner, the applications or public templates are transferred to another user.
-

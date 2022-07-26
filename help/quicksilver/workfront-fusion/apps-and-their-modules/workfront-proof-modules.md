@@ -7,9 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Workfront Proof modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Workfront Proof, as well as connect it to multiple third-party applications and services.
 author: Becky
-feature: "Workfront Fusion, Workfront Proof, Digital Content and Documents"
+feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
+exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
 ---
-
 # Workfront Proof modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Workfront Proof, as well as connect it to multiple third-party applications and services.
@@ -642,4 +642,3 @@ This search module lists all available workflow templates.
   </tr> 
  </tbody> 
 </table>
-

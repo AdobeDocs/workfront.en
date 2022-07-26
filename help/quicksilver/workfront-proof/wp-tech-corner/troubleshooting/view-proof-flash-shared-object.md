@@ -4,11 +4,11 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Problems With Viewing Proofs - Flash Shared Objects Explained
-description: "Note: The information in this article refers to functionality that is currently deprecated and will be removed from Workfront in 2018. We recommend that you use the new Web Proofing Viewer (as described in Reviewing Proofs in the Web Proofing Viewer) or the Desktop Proofing Viewer (as described in Reviewing Proofs in the Desktop Proofing Viewer)."
+description: 'Note: The information in this article refers to functionality that is currently deprecated and will be removed from Workfront in 2018. We recommend that you use the new Web Proofing Viewer (as described in Reviewing Proofs in the Web Proofing Viewer) or the Desktop Proofing Viewer (as described in Reviewing Proofs in the Desktop Proofing Viewer).'
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: f1f3561e-8660-4c1e-b48f-446eb0eaac06
 ---
-
 # Problems With Viewing Proofs - Flash Shared Objects Explained
 
 >[!IMPORTANT]
@@ -57,4 +57,3 @@ By default Flash applications may store up to 100 KB of data on the user's drive
 1. Close the settings pop-up and re-open the proof . &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
 
 ![2017-06-09_1926.png](assets/2017-06-09-1926-350x274.png)
-

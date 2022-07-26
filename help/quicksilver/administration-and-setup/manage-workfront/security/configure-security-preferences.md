@@ -7,8 +7,8 @@ description: Configure system security preferences
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 ---
-
 # Configure system security preferences
 
 <!--
@@ -109,4 +109,3 @@ You must have the following access to perform the steps in this article:
 1. Click **Save**.
 
    The changes that you saved here affect the experience of all the users in Workfront and anyone who interacts with them as an external user.
-

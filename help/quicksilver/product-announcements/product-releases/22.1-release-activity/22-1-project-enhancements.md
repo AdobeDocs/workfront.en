@@ -4,6 +4,7 @@ description: 22.1 Project enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
 ---
 # 22.1 Project enhancements
 
@@ -156,4 +157,4 @@ Now you can share a document folder and its contents from the Documents area. Pr
 
 For more information, see [Share a document folder](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/655509632/920d3db4fb) 
+[Watch a video demonstration of this feature.](https://vimeo.com/655509632/920d3db4fb)

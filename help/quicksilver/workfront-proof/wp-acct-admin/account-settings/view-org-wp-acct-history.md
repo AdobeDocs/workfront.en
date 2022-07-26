@@ -5,9 +5,9 @@ navigation-topic: account-settings-workfront-proof
 title: View your organization's Workfront Proof administrator account history
 description: As a Workfront Proof administrator, you can view usage statistics and a log of the changes made to your organization's Workfront Proof account.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: b4bd3fe3-558c-4ef6-bc0c-ca1724fcfe8d
 ---
-
 # View your organization's Workfront Proof administrator account history
 
 >[!IMPORTANT]
@@ -23,4 +23,3 @@ As a Workfront Proof administrator, you can view usage statistics and a log of t
 
 1. To view a complete list of account changes, click&nbsp;**See complete list**&nbsp;in the **Usage stats** section.  
    The Activity log page displays. For more information, see [Understanding the Workfront Proof Activity Audit Trail](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).
-

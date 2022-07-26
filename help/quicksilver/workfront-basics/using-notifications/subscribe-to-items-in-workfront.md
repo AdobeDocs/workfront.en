@@ -4,8 +4,8 @@ title: Subscribe to items in Adobe Workfront
 description: Adobe Workfront sends notifications about items you are assigned to or that you own. If you want to follow the communication on items that are not assigned to you but might impact your work, you can subscribe to them.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
 ---
-
 # Subscribe to items in Adobe Workfront
 
 Adobe Workfront sends notifications about items you are assigned to or that you own. If you want to follow the communication on items that are not assigned to you but might impact your work, you can subscribe to them.
@@ -230,4 +230,3 @@ Consider&nbsp;the following as you are working with subscriptions:
 
 * You cannot build a report for subscriptions. An audit is recorded in the Update Status of every item when someone subscribes or unsubscribes to the item.
 * Comments made on child objects do not trigger subscription notifications for parent objects. If you subscribe to a project, you will only receive notification of comments made on that project. You will not receive notification of comments made to&nbsp;child items associated with the project (i.e., tasks or issues), unless you subscribe to each&nbsp;child. For more information on object relationships, see the [Interdependency and hierarchy of objects](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) section in [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-

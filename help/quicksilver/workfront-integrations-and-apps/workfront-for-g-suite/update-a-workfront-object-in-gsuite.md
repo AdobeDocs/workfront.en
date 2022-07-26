@@ -6,8 +6,8 @@ title: Update a Adobe Workfront object from G Suite
 description: Without leaving G Suite, you can post a new update or a reply to an existing update on an Adobe Workfront object.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 8e3edfb6-6822-4970-aa59-5fe5ee97d3b2
 ---
-
 # Update an Adobe Workfront object from G Suite
 
 Without leaving G Suite, you can post a new update or a reply to an existing update on a Adobe Workfront object.
@@ -60,4 +60,3 @@ Before you can update a Workfront object in G Suite, you must
    1. Repeat these three steps for any other users or teams you want to notify.
 
 1. Click **Post**.
-

@@ -5,8 +5,8 @@ title: Access and organize reports
 description: You can use reports in Adobe Workfront to review or edit information about objects in the system. You can create your own reports, organize the reports that you create, and view reports that have been shared with you or shared publicly.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
 ---
-
 # Access and organize reports
 
 You can use reports in Adobe Workfront to review or edit information about objects in the system. You can create your own reports, organize the reports that you create, and view reports that have been shared with you or shared publicly.
@@ -89,4 +89,3 @@ You can use folders to organize the reports that you create. You cannot organize
    >You can only move reports from the **My Reports** folder to other folders nested under **My Reports**. You cannot move reports from or to the **Shared with Me** or **All Reports** folder to or from other folders.
 
    ![](assets/nwe-drag-report-to-folder-350x292.png)
-

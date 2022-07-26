@@ -4,6 +4,7 @@ description: Widen modules
 author: Becky
 draft: Probably
 feature: Workfront Fusion
+exl-id: d46935bc-4f6c-4502-bd2f-3927f33241e1
 ---
 # Widen modules
 
@@ -448,4 +449,3 @@ This search module retrieves a list of assets that match the specific search cri
   </tr> 
  </tbody> 
 </table>
-

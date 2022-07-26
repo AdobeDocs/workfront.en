@@ -7,8 +7,8 @@ description: Workfront generates automatic system updates in an object's Updates
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 ---
-
 # Configure system updates
 
 Adobe Workfront generates automatic system updates in an object's Updates area to record the following events:

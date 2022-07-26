@@ -7,8 +7,8 @@ description: A job role represents a functional capacity or a skill set a user m
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
 ---
-
 # Job role overview
 
 A job role represents a functional capacity or a skill set a user might fill. This article describes the various uses of job roles in Adobe Workfront. 
@@ -58,5 +58,3 @@ You can use job roles for the following purposes:
 * You can override job role rates based on different currencies, when working with resources from different countries. This allows you to obtain more accurate Cost and Revenue amounts for work items.
 
   For more information, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
-
- 

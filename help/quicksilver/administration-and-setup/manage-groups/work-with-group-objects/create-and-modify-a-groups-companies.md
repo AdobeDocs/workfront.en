@@ -5,10 +5,10 @@ navigation-topic: work-with-a-groups-objects
 title: Create and modify a group's companies
 description: When you are viewing a group that you manage in the Groups area, you can view and work with companies associated with the group and any of its subgroups.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
 ---
-
 # Create and modify a group's companies
 
 When you are viewing a group that you manage in the Groups area, you can view and work with companies associated with the group and any of its subgroups.
@@ -85,4 +85,3 @@ You must have the following to perform the steps in this article:
    For information about editing a company, see the section [Create or edit a company in Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) in the article [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 1. (Optional) To export the list of companies, click the Export icon ![](assets/export.png), then select the file format you want for the exported list.
-

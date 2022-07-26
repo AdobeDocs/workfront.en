@@ -7,8 +7,8 @@ title: Tools
 description: The Adobe Workfront Fusion Tools section includes several useful modules that can enhance your scenario.
 author: Becky
 feature: Workfront Fusion
+exl-id: 97a68fbc-1272-43fc-b4f2-4c1c9e590741
 ---
-
 # Tools
 
 The Adobe Workfront Fusion Tools section includes several useful modules that can enhance your scenario.
@@ -442,4 +442,3 @@ Checks the input value for a match with the provided list of values. Returns out
   </tr> 
  </tbody> 
 </table>
-

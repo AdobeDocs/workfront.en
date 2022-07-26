@@ -8,8 +8,8 @@ description: This article outlines what you should do after you install a bluepr
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
 ---
-
 # Actions to take after installing a blueprint
 
 This article outlines what you should do after you install a blueprint in Adobe Workfront to fully deploy the blueprint to your system users.
@@ -72,4 +72,3 @@ After installing a blueprint that includes a company:
 * Update organizational chart relationships for any users now associated with the newly added company. For information, see [Create direct reports](../../administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md) and [View the organizational chart](../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 For additional information on companies, see [Create and edit companies](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
-
