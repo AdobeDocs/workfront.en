@@ -131,12 +131,7 @@ Sharing filters, views, and groupings in the standard interface is identical.
 
    Users with whom you shared the filter, view, or grouping can access it by clicking the **Filter**, **View**, or **Grouping** drop-down menu or icon and scrolling down to the **Shared with me** section.
 
-<div class="preview">
-
-### Sharing filters using the beta builder interface {#share-with-beta-builder-interface}
-
->[!NOTE]
->The beta builder for filters is only available in the Preview environment.
+### Sharing filters using the beta builder interface (Preview environment only) {#share-with-beta-builder-interface}
 
 When sharing filters from lists of projects, tasks, or issues, you can share them using the beta builder interface instead of the standard interface.
 
@@ -224,4 +219,3 @@ Share a filter using the beta builder interface:
 
    ![Filters shared with me](assets/new-filters-shared-with-me.png)
 
-</div>

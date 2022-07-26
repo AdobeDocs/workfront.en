@@ -171,7 +171,7 @@ This is an example of the standard filter builder in all environments:
 
 ![Standard filter builder](assets/filter-statements-with-or-and-and-nwe.png)
 
-<span class="preview">This is an example of the beta filter builder, available in the Preview environment only.</span>
+<span class="preview">This is an example of the beta filter builder, available in the Preview environment only:</span>
 
 <span class="preview">![Beta filter builder](assets/filter-sample-with-or.png)</span>
 
