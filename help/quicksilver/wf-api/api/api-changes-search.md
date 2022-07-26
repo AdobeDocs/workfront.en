@@ -22,26 +22,33 @@ In order to reliably fetch the full list of statuses available for a group, the 
 For Project Group Status:
 
 >**Example:**
+
 ```
 /attask/api/<VERSION>/CSTEM/projectGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
+
 For Task Group Status:
 
 >**Example:**
+
 ```
 /attask/api/<VERSION>/CSTEM/taskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
+
 For Issue Group Status:
 
 >**Example:**
+
 ```
 /attask/api/<VERSION>/CSTEM/opTaskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
+
 All three of these endpoints accept the **includeHidden=true** parameter in order to fetch the hidden project/task/issue statuses of a given group. Modeling your status search queries after these best practice examples will ensure that all group-status information is included with each response.
 
 Here is an example of a status search query being made to a task group that includes a system-level locked status **Custom_1** and an unlocked status **Custom_2**:
 
 >**Example:**
+
 ```
 /attask/api/<VERSION>/CSTEM/taskGroupStatuses?groupID=602d286d000004fc8f53942de697a868
 ```
@@ -94,6 +101,7 @@ Using this format ensures that your response will include all of the following:
     ]
 }
 ```
+
 ## Understanding changes made to the legacy status search query
 
 Under the legacy system a status search query would copy all of the system statuses available for all of the groups included in a query. The legacy response would then include all of the system statuses and group-level statuses available for each the group in query.
@@ -101,6 +109,7 @@ Under the legacy system a status search query would copy all of the system statu
 For example, this query (which does not follow the current recommended best practices):
 
 >**Example:**
+
 ```
 /attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK
 ```
@@ -153,6 +162,7 @@ Would have the following response under the legacy system, which includes all ob
     ]
 }
 ```
+
 However, following the updates made to the way that statuses are stored and used, statuses do not copy for groups and are inherited by each group at the system level. As a result, the search API query only reads those statuses which are directly associated with a particular group, so the response includes system-locked and unlocked statuses, but only for those groups that were created after the status in question was added.
 
 Failing to use the updated best practice methods to make status search queries after the legacy system has been updated will result in an incomplete list of group statuses being returned in the response.
@@ -160,6 +170,7 @@ Failing to use the updated best practice methods to make status search queries a
 Here is an example of what this outdated request structure returns after the legacy system has been updated:
 
 >**Example:**
+
 ```
 /attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK
 ```
