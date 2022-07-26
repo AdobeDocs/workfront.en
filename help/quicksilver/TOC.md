@@ -1,9 +1,9 @@
 ---
-user-guide-title: Workfront
-user-guide-description: Use the following Adobe Workfront docs, tutorials, and additional resources to learn how to implement and effectively use Adobe Workfront in your organization.
+user-guide-title: Workfront Guide
+user-guide-description: Use the docs, tutorials, and additional resources to learn how to implement and effectively use Adobe Workfront in your organization.
 feature-set: Workfront
 ---
-# Workfront {#using}
+# Workfront Guide {#using}
 
 * [Workfront documentation](home.md)
 * Product announcements {#product-announcements}
