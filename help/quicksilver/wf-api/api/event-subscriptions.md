@@ -1,8 +1,9 @@
 ---
-title: Event Subscriptions
-description: Event Subscriptions
+content-type: api
+navigation-topic: Event Subscriptions resources
+description: Event Subscriptions resources
 author: John
-draft: Probably
+feature: Workfront API
 ---
 # Event Subscriptions
 
