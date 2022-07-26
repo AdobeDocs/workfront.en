@@ -1,9 +1,9 @@
 ---
-user-guide-title: Workfront
-user-guide-description: Use the following Adobe Workfront docs, tutorials, and additional resources to learn how to implement and effectively use Adobe Workfront in your organization.
+user-guide-title: Workfront Guide
+user-guide-description: Use the docs, tutorials, and additional resources to learn how to implement and effectively use Adobe Workfront in your organization.
 feature-set: Workfront
 ---
-# Workfront {#using}
+# Workfront Guide {#using}
 
 * [Workfront documentation](home.md)
 * Product announcements {#product-announcements}
@@ -11,6 +11,8 @@ feature-set: Workfront
   * Product releases {#product-releases}
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
+    * 22.4 Release {#release-22-4}
+      * [22.4 Release activity: Week of July 18, 2022](product-announcements/product-releases/22.4-release-activity/22-4-july-18.md)
     * 22.3 Release {#release-22-3}
       * [22.3 Release overview](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
       * [22.3 Administrator enhancements](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
@@ -20,11 +22,6 @@ feature-set: Workfront
       * [22.3 Project enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
       * [22.3 Resource Management enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
       * [22.3 Reporting enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
-      * [22.3 release activity: Week of May 23, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-23.md)
-      * [22.3 release activity: Week of May 16, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-16.md)
-      * [22.3 release activity: Week of May 2, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-2.md)
-      * [22.3 release activity: Week of April 18, 2022](product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md)
-      * [22.3 release activity: Week of April 11, 2022](product-announcements/product-releases/22.3-release-activity/22-3-apr-11.md)
       * [Look and feel updates during the 22.3 release timeframe](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
     * 22.2 Release {#release-22-2}
       * [22.2 Release overview](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
@@ -723,6 +720,7 @@ feature-set: Workfront
     * Use the Home area {#use-home-area}
       * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+      * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
       * [Display items in the Work List in the Home area](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
       * [Prioritize work in the Home area](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
       * [Manage work and team requests in the Home area](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
@@ -732,10 +730,9 @@ feature-set: Workfront
       * [Mark an item as Done in the Home area](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
       * [Home Calendar view](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
       * [Configure your Home Calendar view settings](workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
-      * [Home area for Reviewers](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
       * [Use the Home Calendar view](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
       * [View the Home Calendar](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
-      * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
+      * [Home area for Reviewers](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
   * Update work items and view updates {#update-work-items-view-updates}
     * [Update work items and view updates](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Updates tab overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -797,7 +794,7 @@ feature-set: Workfront
       * [Configure your User Profile](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
       * [Configure My Settings](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
       * [Configure personal time off in Adobe Workfront](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
-      * [Create custom tabs or sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+      * [Create custom sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
     * Manage your Adobe Workfront account {#manage-workfront-account}
       * [Manage your Adobe Workfront account](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
       * [Log in to Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)

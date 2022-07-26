@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Updates tab overview
-description: The Updates tab shows up to 200 of the most recent updates made within the past 90 days. You can reply to updates on the following objects - EDIT ME.
+description: The Updates tab shows up to 200 of the most recent updates made within the past 90 days.
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 ---
 # Updates tab overview
 
-The Updates tab shows up to 200 of the most recent updates made within the past 90 days.&nbsp;You can reply to updates on the following objects:
+The Updates tab shows up to 200 of the most recent updates made within the past 90 days. You can reply to updates on the following objects:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -108,14 +108,14 @@ For informatics about the object hierarchy in Adobe Workfront, see [Understand o
 
 ### Limitations for users and teams
 
-You cannot make updates on teams. The Updates tab for teams is&nbsp;populated by updates entered on the following objects:
+You cannot make updates on teams. The Updates tab for teams is populated by updates entered on the following objects:
 
 * Users
 * Timesheets
 * Stories
 * Iterations
 
-On the Updates tab for&nbsp;users and teams, you can view the updates that have been entered in the past 90 days.
+On the Updates tab for users and teams, you can view the updates that have been entered in the past 90 days.
 
 If you want to see all the updates made on a user or a team, beyond the 90-day limit, you can build a report for notes. The report should not have a time filter that displays all updates made for users or teams. For more information, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

@@ -7,7 +7,7 @@ author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 ---
-# Connected cards on boards
+# Use connected cards on boards
 
 You can add a card on your board that is connected to existing tasks and issues in Workfront.
 
