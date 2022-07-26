@@ -3,9 +3,9 @@ content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
 title: Authentication for Document Webhooks
-description: 'Adobe Workfront document webhooks supports two different forms of authentication: OAuth2 and ApiKey. In both cases, Workfront passes authentication tokens in the header when making an API call.'
+description: Authentication for Document Webhooks
 author: John
-feature: Workfront API, Digital Content and Documents
+feature: Workfront API
 exl-id: 2303c202-27c7-4922-a613-e9824910504c
 ---
 # Authentication for Document Webhooks
@@ -48,7 +48,7 @@ apiKey: 12345
 
 username: johndoe@foo.com
 
--------------------------------&nbsp;
+-------------------------------
 ```
 
 The Webhook provider can use the username to apply user-specific permissions. This works best when both systems connect to LDAP using Single Sign On (SSO).
