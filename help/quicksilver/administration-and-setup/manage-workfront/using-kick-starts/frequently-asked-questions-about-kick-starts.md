@@ -9,8 +9,8 @@ description: Find answers to frequently asked questions about importing and expo
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: f286e03e-93a8-43f5-8c2d-2c36203776a8
 ---
-
 # Frequently asked questions about Kick-Starts
 
 The following are frequently asked questions about Kick-Starts:
@@ -45,4 +45,3 @@ To address this:
    Do this for each column.
 1. Try importing the new file again.  
    The Kick-Start should import successfully.
-

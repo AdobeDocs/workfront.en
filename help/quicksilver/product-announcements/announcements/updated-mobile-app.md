@@ -6,8 +6,8 @@ title: Updated Mobile App for iOS and Android (Early August, 2017)
 description: The Adobe Workfront mobile app should be updated in the Apple App and Google Play Stores in early August, 2017.
 author: Luke
 feature: Product Announcements
+exl-id: bcd61b1f-1566-404d-8c73-f05173b90a8d
 ---
-
 # Updated Mobile App for iOS and Android (Early August, 2017)
 
 The Adobe Workfront mobile app should be&nbsp;updated in the Apple App and Google Play Stores in early&nbsp;August, 2017.&nbsp;

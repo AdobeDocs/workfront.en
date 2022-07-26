@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filter: display incomplete cross-project successors"
+title: 'Filter: display incomplete cross-project successors'
 description: This task filter returns incomplete cross-project successors.
 author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: aea955b1-581a-4ce0-8634-863ba1083c05
 ---
-
 # Filter: display incomplete cross-project successors
 
 This task filter returns incomplete cross-project successors.
@@ -53,4 +53,3 @@ To apply this filter:
    <pre>percentComplete=100<br>percentComplete_Mod=ne<br>successorsMM:projectID=FIELD:projectID<br>successorsMM:projectID_Mod=ne</pre>
 
 1. Click **Save Filter**.
-

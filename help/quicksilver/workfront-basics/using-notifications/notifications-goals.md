@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notifications: Goals"
-description: "Notifications: Goals"
+title: 'Notifications: Goals'
+description: 'Notifications: Goals'
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
 ---
-
 # Notifications: Goals
 
 <!--
@@ -116,4 +116,3 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
   </tr> 
  </tbody> 
 </table>
-

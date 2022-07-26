@@ -5,8 +5,8 @@ title: Navigate the Workload Balancer
 description: Use the Workload Balancer to understand the availability of your resources as well as to assign work to your users. This article walks you through using the icons and settings available to update the view for and navigate the Workload Balancer.
 author: Alina
 feature: Resource Management
+exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 ---
-
 # Navigate the Workload Balancer
 
 Use the Workload Balancer to understand the availability of your resources as well as to assign work to your users. This article walks you through using the icons and settings available to update the view for and navigate the Workload Balancer.
@@ -368,4 +368,3 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    >You cannot view initiative job role information if your organization has not purchased a license for the Workfront Scenario Planner. In this case, you can only view the planned hours associated with job roles on the project. For more information, see [Access needed to use the Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md).
 
 1. (Optional) Select **Scheduling** from the drop-down menu in the upper-left corner to access the scheduling area.
-

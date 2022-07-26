@@ -6,9 +6,9 @@ navigation-topic: faqs-workfront-proof
 title: Logging in and changing your password and email for Workfront Proof
 description: The Workfront Proof administrator can set up personalized branding for the Login page. See Brand the Workfront Proof site. Or, if you are using an Enterprise or Unlimited edition plan, see Brand the Workfront Proof site - advanced .
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
 ---
-
 # Logging in and changing your password and email for Workfront Proof
 
 >[!IMPORTANT]
@@ -69,4 +69,3 @@ You can add multiple email addresses to your Workfront Proof account. Your prima
 1. In the validation email you receive, click the confirmation link.  
    The email change is saved in your profile. You may need to refresh the browser where you are viewing Workfront Proof Personal settings page to see that it is confirmed as an alias email.
 1. (Optional) To make the new email address your primary email address in Workfront Proof, click the More (three dot) button to the far-right of the address, then click **Make primary email** in the menu that appears.
-

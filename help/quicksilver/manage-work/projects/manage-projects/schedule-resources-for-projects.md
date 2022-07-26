@@ -5,8 +5,8 @@ title: Schedule resources for a project
 description: You can schedule resources for a single project to indicate what work each resource is assigned to as well as how much time they should spend completing their work. You can schedule resources for a project and allocate hours to each resource using the Scheduling tool or the Workload Balancer at the project level.
 author: Alina
 feature: Work Management
+exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
 ---
-
 # Schedule resources for a project
 
 You can schedule resources for a single project to indicate what work each resource is assigned to as well as how much time they should spend completing their work. You can schedule resources for a project and allocate hours to each resource using the Scheduling tool or the Workload Balancer at the project level.

@@ -5,9 +5,9 @@ navigation-topic: create-proofs-and-files
 title: Generate Proofs in Workfront Proof
 description: Workfront Proof enables you to create proofs from documents or websites, and share those proofs with others. The following steps describe the various configuration options that are available - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
 ---
-
 # Generate Proofs in Workfront Proof
 
 >[!IMPORTANT]
@@ -257,4 +257,3 @@ For information about how to add an interactive URL proof, see  [Generate a proo
    Workfront&nbsp;begins generating a proof of the .zip bundle. Depending on the bundle size, the lag time on a document upload varies. Larger files take longer to generate. You can navigate away from the page and Workfront&nbsp;continues to generate your file.&nbsp;The maximum file upload size is 4GB.
 
    After the proof generates, you can click the **Go to proof**button that appears to open the proof.
-

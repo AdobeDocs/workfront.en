@@ -6,8 +6,8 @@ title: The Scenario Planner overview
 description: The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
 author: Alina
 feature: Workfront Scenario Planner
+exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
 ---
-
 # The Scenario Planner overview
 
 The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license.
@@ -73,4 +73,3 @@ The following functionality is currently included in the Workfront Scenario Plan
 * Estimate or adjust the required job roles or Fixed Costs information monthly, for each month of the duration of an initiative.
 
   For information about estimating resources for initiatives, see [Resolve initiative conflicts in the Scenario Planner](../scenario-planner/resolve-conflicts-in-sp.md).
-

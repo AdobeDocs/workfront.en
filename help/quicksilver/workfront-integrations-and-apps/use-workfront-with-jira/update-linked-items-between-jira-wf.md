@@ -5,8 +5,8 @@ title: Update linked items between Jira and Adobe Workfront
 description: When you link Jira issues to Adobe Workfront tasks or issues, your users can update items in one application and the counterpart of that item also updates for the users working in the second application.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
 ---
-
 # Update linked items between Jira and Adobe Workfront
 
 When you link Jira issues to Adobe Workfront tasks or issues, your users can update items in one application and the counterpart of that item also updates for the users working in the second application.&nbsp;
@@ -249,4 +249,3 @@ To comment from Jira to a Workfront item:
    * The **Workfront** tab of the Jira issue.
    * The **Comments** tab of the Jira issue.
    * The **Updates** tab of the linked item in Workfront.
-

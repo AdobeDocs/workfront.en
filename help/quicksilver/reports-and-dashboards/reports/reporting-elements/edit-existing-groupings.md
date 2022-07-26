@@ -4,6 +4,7 @@ description: Edit existing groupings
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
 ---
 # Edit existing groupings
 
@@ -95,4 +96,3 @@ See also:
 * [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md) 
 * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md) 
 * [Create groupings in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
-

@@ -5,8 +5,8 @@ title: Use date-based wildcards to generalize reports
 description: You can generalize a report by using wildcards instead of specific information when building certain reporting elements.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
 ---
-
 # Use date-based wildcards to generalize reports
 
 You can generalize a report by using wildcards instead of specific information when building certain reporting elements.
@@ -107,4 +107,3 @@ See also:
 * [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
 * [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) 
 * [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
-

@@ -5,8 +5,8 @@ title: Manage board columns
 description: A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need.
 author: Lisa
 feature: Agile
+exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
 ---
-
 # Manage board columns
 
 A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need.
@@ -126,10 +126,11 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >The WIP limit policy in the column settings is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
    >
-   >1. Enable the **Work in progress limit** policy to limit the number of cards that can be added to the column.
-   >1. Type the limit number in the **Set limit** field.
+   >* Enable the **Work in progress limit** policy to limit the number of cards that can be added to the column. Then, type the limit number in the **Set limit** field.
    >
-   >The number of cards and the limit display at the top of the column. If the column contains more cards than the limit, the counter turns red. Note that the WIP limit is simply a visual warning and does not restrict you from having more items in each column than the limit you set.
+   >![WIP limit for column](assets/boards-wip-limit-in-column.png)
+   >
+   >* The number of cards and the limit display at the top of the column. If the column contains more cards than the limit, the counter turns red. Note that the WIP limit is simply a visual warning and does not restrict you from having more items in each column than the limit you set.
    >
    >![WIP limit counter](assets/boards-wip-limit-counter.png)
 

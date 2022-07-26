@@ -4,8 +4,8 @@ navigation-topic: workfront-navigation
 title: Glossary of Adobe Workfront terminology
 description: The following table is a list of commonly used terms in Adobe Workfront - EDIT ME.
 feature: Get Started with Workfront
+exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 ---
-
 # Glossary of Adobe Workfront terminology
 
 >[!IMPORTANT]
@@ -2327,4 +2327,3 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
  </tbody> 
 </table>
-

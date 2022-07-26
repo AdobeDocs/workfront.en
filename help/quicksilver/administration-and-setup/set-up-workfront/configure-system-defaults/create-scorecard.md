@@ -7,8 +7,8 @@ description: A scorecard measures how well a project aligns with the previously 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
 ---
-
 # Create a scorecard
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
@@ -91,4 +91,3 @@ A scorecard is added to a project as part of creating a business case for the pr
 For more information about creating scorecards, see [Create a scorecard](#create-a-scorecard).  
 
 For more information about project permissions, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-

@@ -6,8 +6,8 @@ title: Adobe Workfront licensing role types vs. Adobe Workfront DAM role types
 description: Adobe Workfront administrators use access levels to determine what users can do in an application.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: dcca0158-dc31-4aba-bd87-90ccc64e77cb
 ---
-
 # Adobe Workfront licensing role types vs. Adobe Workfront DAM role types
 
 Adobe Workfront administrators use access levels to determine what users&nbsp;can do in an application.

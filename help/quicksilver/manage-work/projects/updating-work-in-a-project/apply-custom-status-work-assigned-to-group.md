@@ -2,11 +2,11 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Apply statuses to work that is associated with a group
-description: "CO: Alina, I moved this out of an admin article about statuses (Create and customize statuses)"
+description: 'CO: Alina, I moved this out of an admin article about statuses (Create and customize statuses)'
 author: Alina
 feature: Work Management
+exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
 ---
-
 # Apply statuses to work that is associated with a group
 
 <!--
@@ -68,4 +68,3 @@ When you update the Group for a project, the options available for the Status of
    >
 
 1. Select the status of the project. The custom statuses you created and applied to that group display in the list.
-

@@ -5,8 +5,8 @@ title: Copy a project template
 description: Rather than creating a new project template from scratch, you can copy an existing template and make changes to that, if needed.
 author: Alina
 feature: Work Management
+exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
 ---
-
 # Copy a project template
 
 Rather than creating a new project template from scratch, you can copy an existing template and make changes to that, if needed.
@@ -50,4 +50,3 @@ You must have the following access to perform the steps in this article:
 
 1. Select whether you want to **Retain user assignments on tasks and template**: select this option to carry all task and template assignments from the original template to the new template.
 1. Click **Save** to create a copy of the template.
-

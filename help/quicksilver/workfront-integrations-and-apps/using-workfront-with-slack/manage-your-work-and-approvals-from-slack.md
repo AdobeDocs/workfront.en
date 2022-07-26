@@ -5,8 +5,8 @@ title: Manage your work and approvals from Slack
 description: You can access your Home Work List, review and agree to work on tasks and issues, and review or make decisions on approvals directly from Slack.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
 ---
-
 # Manage your work and approvals from Slack
 
 After you have installed Adobe Workfront for Slack, you can do the following:
@@ -199,4 +199,3 @@ Before you can manage your work and approvals from Slack, you must
      Click **Grant Access** to give enhanced permissions to the requested object, or **Ignore** to ignore the request for more access.
 
 1. (Optional) Click the name of the object submitted for approval to open it in Workfront in a new browser tab.&nbsp;
-

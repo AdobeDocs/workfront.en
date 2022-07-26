@@ -5,8 +5,8 @@ title: Document approvals and proofing
 description: You can ask users to approve a document you upload to Workfront. For information, see Request document approvals.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: f8b25cfa-02d9-4c5a-88c1-924a283cdffb
 ---
-
 # Document approvals and proofing
 
 You can ask users to approve a document you upload to Workfront. For information, see [Request document approvals](../../review-and-approve-work/manage-approvals/request-document-approvals.md).

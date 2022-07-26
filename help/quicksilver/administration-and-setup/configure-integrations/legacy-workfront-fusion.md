@@ -5,10 +5,10 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Legacy Workfront Fusion is not available as of March 31, 2021.
 author: Becky, Caroline
-feature: "System Setup and Administration, Workfront Integrations and Apps"
+feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+exl-id: 5d7cc0cb-68ca-4e40-845f-69d243180f50
 ---
-
 # Legacy Workfront Fusion
 
 >[!IMPORTANT]
@@ -46,4 +46,3 @@ If a connection fails when you create it, delete it and create a new one instead
 </note>
 </div>
 -->
-

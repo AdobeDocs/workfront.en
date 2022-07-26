@@ -5,8 +5,8 @@ title: Maintenance Window FAQ
 description: Maintenance windows are blocks of time reserved for Workfront to make updates to infrastructure and other platform-related issues. Occasionally Sandbox environments are included in the maintenance.
 author: Luke
 feature: Product Announcements
+exl-id: d0b811d3-94e7-4062-83ce-080fefb56055
 ---
-
 # Maintenance Window FAQ
 
 ## What is an Adobe Workfront maintenance window?

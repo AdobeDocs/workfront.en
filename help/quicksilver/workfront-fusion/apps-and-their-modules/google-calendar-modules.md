@@ -8,8 +8,8 @@ title: Google Calendar modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Google Calendar, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
+exl-id: 168e8fce-645d-4108-84b7-46a113c83f41
 ---
-
 # Google Calendar modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Google Calendar, as well as connect it to multiple third-party applications and services.
@@ -834,4 +834,3 @@ You can trigger a scenario a specified time before an event with the help of sta
    *Pattern*: `<meta itemprop="eventId/googleCalendar" content="(?<evenitID>.*?)"/>`
 
    *Text*: The `HTML content` item outputted from the Webhooks > Custom mailhook module:
-

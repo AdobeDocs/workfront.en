@@ -7,9 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Google Slides modules
 description: The Adobe Workfront Fusion Google Slides modules allow you to create, update, list, and/or delete presentations and upload images to presentations in your Google Slides account.
 author: Becky
-feature: "Workfront Fusion, Digital Content and Documents"
+feature: Workfront Fusion, Digital Content and Documents
+exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
 ---
-
 # Google Slides modules
 
 The Adobe Workfront Fusion Google Slides modules allow you to create, update, list, and/or delete presentations and upload images to presentations in your Google Slides account.
@@ -480,4 +480,3 @@ This module makes all links in a presentation clickable, or inserts a link into 
   </tr> 
  </tbody> 
 </table>
-

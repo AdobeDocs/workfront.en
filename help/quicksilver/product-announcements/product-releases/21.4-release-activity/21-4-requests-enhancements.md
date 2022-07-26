@@ -4,6 +4,7 @@ description: 21.4 Requests enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: a8fe233f-3947-4afa-9f21-6bd8ed170646
 ---
 # 21.4 Requests enhancements
 
@@ -33,4 +34,4 @@ To keep the look and feel for submitting requests the same everywhere in the new
 
 For information, see [Embed a request queue in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/592770628/30397bbb82) 
+[Watch a video demonstration of this feature.](https://vimeo.com/592770628/30397bbb82)

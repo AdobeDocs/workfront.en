@@ -6,9 +6,9 @@ navigation-topic: workflow-examples
 title: Working with Freelancers in Workfront Proof
 description: If your organization works with freelancers, you can include them in your Workfront Proof process as well.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 8a792e74-4755-4237-8155-d54bbcd97496
 ---
-
 # Working with Freelancers in Workfront Proof
 
 >[!IMPORTANT]

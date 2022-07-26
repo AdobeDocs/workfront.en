@@ -6,8 +6,8 @@ title: Unable to Log Time for Future Dates
 description: You are unable to log hours for future dates on projects, tasks, or issues because the fields are disabled.
 author: Lisa
 feature: Timesheets
+exl-id: 6108fad2-f0a2-4989-8645-69a16820032b
 ---
-
 # Unable to Log Time for Future Dates
 
 ## Problem

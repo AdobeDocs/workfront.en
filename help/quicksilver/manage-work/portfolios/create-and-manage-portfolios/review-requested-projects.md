@@ -4,9 +4,9 @@ navigation-topic: create-and-manage-portfolios
 title: Review Requested Projects
 description: When multiple project requests are submitted for review, the project management office or portfolio committee can meet to review submitted requests and determine project request approvals. To submit a project request for review, do one of the following - EDIT ME.
 author: Alina
-feature: "Work Management, Strategic Planning"
+feature: Work Management, Strategic Planning
+exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
 ---
-
 # Review Requested Projects
 
 When multiple project requests are submitted for review, the project management office or portfolio committee can meet to review submitted requests and determine project request approvals. To submit a project request for review, do one of the following:

@@ -6,8 +6,8 @@ title: Create and compare plan scenarios in the Scenario Planner
 description: When you are planning your company's long-term strategy, there is a lot of information that you might not have or think of in the beginning. It takes time and experimentation to arrive at a final strategy that your stakeholders can accept. Conducting a "what if" analysis to create multiple scenarios for your plan can help you accurately predict and evaluate potential circumstances and ultimately develop the best possible plan.
 author: Alina
 feature: Workfront Scenario Planner
+exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
 ---
-
 # Create and compare plan scenarios in the Scenario Planner
 
 When you are planning your company's long-term strategy, there is a lot of information that you might not have or think of in the beginning. It takes time and experimentation to arrive at a final strategy that your stakeholders can accept. Conducting a "what if" analysis to create multiple scenarios for your plan can help you accurately predict and evaluate potential circumstances and ultimately develop the best possible plan.
@@ -183,4 +183,3 @@ After creating your scenarios, you can compare them to find the best one for you
    For information about deleting scenarios, see [Delete plans in the Scenario Planner](../scenario-planner/delete-plans.md).
 
 1. Click&nbsp;**Save Plan** to save your scenarios and your plan.
-

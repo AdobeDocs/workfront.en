@@ -7,8 +7,8 @@ description: As a Workfront administrator, you can change the order of project, 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
 ---
-
 # Reorder system-level and group statuses
 
 As a Workfront administrator, you can change the order of project, task, and issue statuses for everyone in the system or for a single group.
@@ -139,4 +139,3 @@ By default, statuses display in the following order:
    The new status order is saved automatically.
 
 1. To test the new status order, go to an issue, click the status in the upper-right corner, and make sure the statuses that display are in the order that you configured.
-

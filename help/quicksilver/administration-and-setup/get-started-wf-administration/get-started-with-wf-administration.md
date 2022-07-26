@@ -8,8 +8,8 @@ description: You can configure the Workfront system defaults, timesheets and sch
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
 ---
-
 # Get started with Adobe Workfront administration
 
 This section contains the following articles:
@@ -23,4 +23,3 @@ This section contains the following articles:
 * [Send announcements](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md) 
 * [Browser requirements for Workfront](../../administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md) 
 * [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-

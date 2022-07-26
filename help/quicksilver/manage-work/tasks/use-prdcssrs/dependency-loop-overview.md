@@ -6,8 +6,8 @@ title: Task dependency loop overview
 description: When adding predecessor relationships to tasks you might encounter dependency loops. For information about predecessors, see Overview of task predecessors.
 author: Alina
 feature: Work Management
+exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
 ---
-
 # Task&nbsp;dependency loop overview
 
 When adding predecessor relationships to tasks you might encounter dependency loops. For information about predecessors, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).

@@ -6,8 +6,8 @@ title: The Documents area
 description: In the Documents area, you can organize, manage, and view metadata for documents uploaded to Adobe Workfront. You can also see the proof decision.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 ---
-
 # The Documents area
 
 In the Documents area, you can organize, manage, and view metadata for documents uploaded to Adobe Workfront. You can also see the proof decision.

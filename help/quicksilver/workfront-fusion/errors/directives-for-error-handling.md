@@ -7,8 +7,8 @@ title: Directives for error handling in Adobe Workfront Fusion
 description: This article describes directives that you can use for error handling in your Adobe Workfront Fusion scenarios.
 author: Becky
 feature: Workfront Fusion
+exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
 ---
-
 # Directives for error handling in Adobe Workfront Fusion
 
 ## Access requirements

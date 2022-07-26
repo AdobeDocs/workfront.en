@@ -6,8 +6,8 @@ title: Overview of project Duration
 description: Adobe Workfront calculates the Duration of a project by taking into account the Start Date of the earliest task and the Completion Date of the latest task and counts the number of days between the two dates.
 author: Alina
 feature: Work Management
+exl-id: b558eaad-669b-4079-b61a-07df227edfa2
 ---
-
 # Overview of project Duration
 
 Adobe Workfront calculates the Duration of a project by taking into account the Start Date of the earliest task and the Completion Date of the latest task and counts the number of days between the two dates.&nbsp;
@@ -57,4 +57,3 @@ You can locate the Project Planned and Actual Durations in the following areas o
 * In a Project report, by including the Duration or the Actual&nbsp;Duration fields in the report.
 
   For more information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-

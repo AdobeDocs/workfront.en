@@ -6,8 +6,8 @@ title: Groupings overview in Adobe Workfront
 description: Groupings overview in Adobe WorkfrontGroupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)"
 author: Nolan
 feature: Reports and Dashboards
+exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
 ---
-
 # Groupings overview in Adobe Workfront
 
 <!--
@@ -78,6 +78,3 @@ How you remove a grouping depends on whether you initially created the grouping,
 * **If the grouping was shared with you and you remove it**, the grouping is removed only for you. The user who originally created it and any other users it has been shared with still have access to the grouping.
 
 For information about removing a grouping, see the article [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
-
-
-

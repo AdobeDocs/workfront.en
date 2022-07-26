@@ -4,9 +4,9 @@ navigation-topic: adobe-workfront-for-xd
 title: Find your work in Adobe XD
 description: Find the work assigned to you in Adobe Workfront without leaving Adobe XD.
 author: Courtney
-feature: "Workfront Integrations and Apps, Digital Content and Documents"
+feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: 584a9ba4-e03e-4382-8e99-01a01d27a497
 ---
-
 # Find your work in Adobe XD
 
 Find the work assigned to you in Adobe Workfront without leaving Adobe XD.
@@ -111,4 +111,3 @@ Use the Search bar to locate projects, tasks, issues, and documents you need.
 You can use the Menu icon to navigate to parent items in a project.
 
 ![](assets/main-menu-350x627.png)
-

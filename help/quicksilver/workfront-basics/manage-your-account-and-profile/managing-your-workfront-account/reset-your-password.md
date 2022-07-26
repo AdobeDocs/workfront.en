@@ -5,8 +5,8 @@ title: Reset your password
 description: You can reset your Adobe Workfront password. As an important security measure, we recommend that you do this regularly.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
 ---
-
 # Reset your password
 
 You can reset your Adobe Workfront password. As an important security measure, we recommend that you do this regularly.
@@ -65,4 +65,3 @@ You must have the following access to perform the steps in this article:
    Password rules might be more strict than this, depending on configuration settings set by your Workfront administrator.
 
 1. Click **Save Changes**.
-

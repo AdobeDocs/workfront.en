@@ -7,8 +7,8 @@ title: Markdown modules
 description: In an Adobe Workfront Fusion scenario, you can use the Markdown modules to convert Markdown to HTML and HTML to Markdown.
 author: Becky
 feature: Workfront Fusion
+exl-id: 9e810302-4897-494a-9b50-667d87ce9cb7
 ---
-
 # Markdown modules
 
 In an Adobe Workfront Fusion scenario, you can use the Markdown modules to convert Markdown to HTML and HTML to Markdown.
@@ -91,4 +91,3 @@ This module converts HTML code to Markdown.
   </tr> 
  </tbody> 
 </table>
-

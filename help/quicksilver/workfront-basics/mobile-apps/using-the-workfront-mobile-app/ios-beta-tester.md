@@ -5,8 +5,8 @@ title: Be an iOS beta tester
 description: Review this article to become an iOS beta tester for the Adobe Workfront mobile app.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
 ---
-
 # Be an iOS beta tester
 
 ## Download the beta app
@@ -76,4 +76,3 @@ If you are enrolled as a beta tester, you must update the Workfront app in TestF
 1. Open the TestFlight app.
 1. Tap the Workfront Icon.
 1. At the bottom of the page, tap **Stop Testing**.
-

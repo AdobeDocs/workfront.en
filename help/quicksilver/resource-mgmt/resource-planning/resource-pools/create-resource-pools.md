@@ -5,8 +5,8 @@ title: Create resource pools
 description: Resource pools are collections of users that help you manage resources easier in Adobe Workfront. For more information about resource pools, see Resource pools overview .
 author: Alina
 feature: Resource Management
+exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 ---
-
 # Create resource pools
 
 Resource pools are collections of users that help you manage resources easier in Adobe Workfront. For more information about resource pools, see [Resource pools overview](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
@@ -90,4 +90,3 @@ You must have the following:
 1. (Optional)&nbsp;Click the X icon to the right of a user's name to remove a user.&nbsp;For more information about removing users from a resource pool, see [Remove users from resource pools](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md).
 1. (Optional) Use the **Search** option to find a user in the Resource Pool.
 1. Click **Create**.
-

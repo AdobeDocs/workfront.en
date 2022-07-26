@@ -5,10 +5,10 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Legacy Workfront Fusion is not available as of March 31, 2021.
-feature: "System Setup and Administration, Workfront Integrations and Apps"
+feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+exl-id: 46b86122-6d8f-494b-96be-13de3598c115
 ---
-
 # Legacy Workfront Fusion service outages
 
 >[!IMPORTANT]
@@ -51,4 +51,3 @@ The following table shows how each type of FLO is affected by a service outage:
   </tr> 
  </tbody> 
 </table>
-

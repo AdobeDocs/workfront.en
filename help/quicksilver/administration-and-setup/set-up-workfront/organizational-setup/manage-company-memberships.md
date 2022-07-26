@@ -7,8 +7,8 @@ description: In the Companies area in Setup, you can add and remove a company's 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
 ---
-
 # Manage company memberships
 
 In the Companies area in Setup, you can add and remove a company's members. You can also edit their user profiles, remind them to register in Workfront, deactivate them in Workfront, and remove them from the Workfront system.
@@ -128,4 +128,3 @@ You must have the following in order to manage companies in Workfront:
      </tr> 
     </tbody> 
    </table>
-

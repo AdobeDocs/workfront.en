@@ -6,8 +6,8 @@ title: Approval process overview
 description: You can create an approval process and attach it to an object to make sure that designated users review certain changes before the object progresses.
 author: Courtney
 feature: Work Management
+exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
 ---
-
 # Approval process overview
 
 You can create an approval process and attach it to an object to make sure that designated users review certain changes before the object progresses.

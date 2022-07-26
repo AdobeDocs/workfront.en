@@ -5,8 +5,8 @@ title: Create Queue Topics
 description: Queue Topics work in conjunction with Routing Rules to automatically assign incoming work to a user, job role, team, or to place it on a project. Queue Topics define the conditions that need to exist for the Routing Rule to be implemented.
 author: Alina
 feature: Work Management
+exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
 ---
-
 # Create Queue Topics
 
 Queue Topics work in conjunction with Routing Rules to automatically assign incoming work to a user, job role, team, or to place it on a project. Queue Topics define the conditions that need to exist for the Routing Rule to be implemented.
@@ -122,4 +122,3 @@ You must have the following:
 1. &nbsp;
 1. Click**Save**.   
    The Queue Topic is now available to use and is visible in the Requests area of Workfront, after a Request Queue and a Topic Group are selected.
-

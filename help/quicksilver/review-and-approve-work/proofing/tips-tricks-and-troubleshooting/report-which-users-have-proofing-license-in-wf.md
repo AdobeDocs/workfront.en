@@ -6,8 +6,8 @@ title: List users with a proofing license in Adobe Workfront
 description: You can view which users in Adobe Workfront currently have the option "User can generate proofs" enabled in either of the following ways below.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 4d45ecd9-4348-43a4-9fa7-090b996b4695
 ---
-
 # List users with a proofing license in Adobe Workfront
 
 You can view which users in Adobe Workfront currently have the option "User can generate proofs" enabled in either of the following ways below.
@@ -77,4 +77,3 @@ You can add a new column in the People view to view which users can generate pro
 1. Click **Done**, then click **Save View** or **Save as New View**.
 
    The view displays **True** or **False** depending on whether the user has a proofing license assigned to them.
-

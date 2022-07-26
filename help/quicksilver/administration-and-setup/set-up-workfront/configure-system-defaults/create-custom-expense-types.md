@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can create custom expense 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
 ---
-
 # Create custom expense types
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
@@ -104,4 +104,4 @@ The Expense Types that are in Workfront by default cannot be deleted or edited i
 1. Make your desired changes, then click **Save Changes**.  
    The expense type is now available for users to associate it with their expenses on projects and tasks.
 
-For more information about how to use expenses and how they can affect the cost of a project, see the article [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md). 
+For more information about how to use expenses and how they can affect the cost of a project, see the article [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).

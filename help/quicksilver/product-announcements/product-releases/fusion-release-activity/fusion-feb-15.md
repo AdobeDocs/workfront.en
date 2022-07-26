@@ -3,7 +3,8 @@ title: Workfront Fusion release activity:&nbsp;Week of February 15, 2021
 description: Workfront Fusion release activity:&nbsp;Week of February 15, 2021
 author: Luke
 draft: Probably
-feature: "Product Announcements, Workfront Fusion"
+feature: Product Announcements, Workfront Fusion
+exl-id: d4bac9f7-500a-40c1-bb44-7726830ae154
 ---
 # Workfront Fusion release activity:&nbsp;Week of February 15, 2021
 

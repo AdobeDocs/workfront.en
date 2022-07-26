@@ -4,10 +4,10 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: As anAdobe Workfront administrator, you can disable the connection between Workfront and any of the third-party document providers.
-feature: "System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents"
+feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
+exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
 ---
-
 # Disable document integrations
 
 As anAdobe Workfront administrator, you can disable the connection between Workfront and any of the third-party document providers. 
@@ -73,4 +73,3 @@ To disable document integrations for Workfront DAM, Workfront Library, Box, Drop
 1. Click **Disable**.
 
    Users are not able to connect to the third-party document provider you disabled, and they can no longer link documents from that cloud provider to Workfront.
-

@@ -6,8 +6,8 @@ title: Modify issue assignments overview
 description: You can assign issues to or unassign issues from users, teams, or job roles. You can assign multiple resources at the same time, or just one resource. You can assign one issue at a time, or multiple issues in bulk.
 author: Alina
 feature: Work Management
+exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
 ---
-
 # Modify issue assignments overview
 
 You can assign issues to or unassign issues from users, teams, or job roles. You can assign multiple resources at the same time, or just one resource. You can assign one issue at a time, or multiple issues in bulk.

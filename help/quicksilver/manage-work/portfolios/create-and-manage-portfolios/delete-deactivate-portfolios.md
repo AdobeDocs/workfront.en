@@ -4,9 +4,9 @@ navigation-topic: create-and-manage-portfolios
 title: Delete and deactivate portfolios
 description: Portfolios are collections of projects or programs in Adobe Workfront. You can delete or deactivate a portfolio if you find that it's irrelevant for your system.
 author: Alina
-feature: "Work Management, Strategic Planning"
+feature: Work Management, Strategic Planning
+exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
 ---
-
 # Delete and deactivate portfolios
 
 Portfolios are collections of projects or programs in&nbsp;Adobe Workfront. You can delete or deactivate a portfolio if you find that it's irrelevant for your system.
@@ -73,4 +73,3 @@ When you deactivate a portfolio, you can still access it from the Portfolios are
 1. Click **Portfolios** .
 1. Select the portfolio, then click **Delete**the Delete icon ![](assets/delete.png).
 1. In the box that appears, click **Yes, Delete It** to confirm.
-

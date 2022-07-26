@@ -5,8 +5,8 @@ title: Receive Adobe Workfront notifications in Slack
 description: Receive Adobe Workfront notifications in Slack
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
 ---
-
 # Receive Adobe Workfront notifications in Slack
 
 <!--
@@ -119,4 +119,3 @@ To manage your Workfront notifications for Slack:&nbsp;
    * (Conditional and optional) Click **Grant** or **Ignore** to grant or ignore the request for more access from another user.  
      ![](assets/slack-access-approvals-list-350x213.png)  
      You receive a confirmation that your action has been completed in Workfront, for every decision you make within your notifications.&nbsp;&nbsp;
-

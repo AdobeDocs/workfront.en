@@ -5,9 +5,9 @@ navigation-topic: manage-your-work-workfront-proof
 title: Manage Proof Details in Workfront Proof
 description: The Proof details page lets you manage an existing proof. For example, you can add new reviewers, amend the deadline, change the settings you originally set for the proof, and check what activity has occurred on that proof.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
 ---
-
 # Manage Proof Details in Workfront Proof
 
 >[!IMPORTANT]
@@ -106,4 +106,3 @@ You can find the following information on the Proof details page. If you have ed
    * **Messages** section: Lists the details of all email activity for the proof. For more information, see [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
      You can also view the entire message that was sent to the reviewers by hovering over the "i" icon to the right of the message, then clicking **Show full message**.
-

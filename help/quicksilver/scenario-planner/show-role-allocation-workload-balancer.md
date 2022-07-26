@@ -5,8 +5,8 @@ title: Show role allocation for projects and initiatives in the Workload Balance
 description: After you connect projects and initiatives, you can manage their resource allocation side-by-side to ensure they
 author: Alina
 feature: Workfront Scenario Planner
+exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
 ---
-
 # Show role allocation for projects and initiatives in the Workload Balancer
 
 >[!IMPORTANT]

@@ -5,8 +5,8 @@ description: You can customize the subject line of the emails triggered by event
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
 ---
-
 # Customize email subjects for event notifications
 
 You can customize the subject line of the emails triggered by event notifications:
@@ -88,5 +88,4 @@ For example, requesting a document to be added to an issue is an event that can 
 
 ![](assets/ev-not-mult-subj-lines-diff-actions---qs-350x161.png)
 
-To edit the email subject lines and add additional fields to either subject lines, see [Customize email subject lines for event notifications](#customize-email-subject-lines-for-event-notifications) in this article.  
-
+To edit the email subject lines and add additional fields to either subject lines, see [Customize email subject lines for event notifications](#customize-email-subject-lines-for-event-notifications) in this article.

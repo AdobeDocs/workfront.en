@@ -6,8 +6,8 @@ title: Smart assignments overview
 description: When managing task and issues assignments, you can use smart assignments to identify who the best user is to complete the work. Smart assignments are suggestions that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job.
 author: Alina
 feature: Work Management
+exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
 ---
-
 # Smart assignments overview
 
 When managing task and issues assignments, you can use smart assignments to identify who the best user is to complete the work. Smart assignments are suggestions that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job.
@@ -120,4 +120,3 @@ You must have a Plan or a Work license and have at least Contribute permissions 
 </ol>
 </div>
 -->
-

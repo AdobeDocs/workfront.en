@@ -7,8 +7,8 @@ description: You can configure access for a custom form to control who—person,
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 ---
-
 # Share a custom form
 
 You can configure access for a custom form to control who—person, role, group, team, company—can view, share, and edit it.
@@ -107,4 +107,3 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 1. In the box that displays, click the X to the right of the name of the user, team, role, group, or company whom you no longer want to have special access to the form.
 1. (Optional) Repeat the previous step to for other names you want to remove.
 1. Click **Save**.
-

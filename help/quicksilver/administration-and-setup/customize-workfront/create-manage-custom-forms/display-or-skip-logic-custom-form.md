@@ -7,8 +7,8 @@ description: You can decide which sections of a custom form should be displayed 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
 ---
-
 # Add display logic and skip logic to a custom form
 
 You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
@@ -128,4 +128,3 @@ To learn about this, continue working on the sample custom form you created in t
 1. Click **Save**. 
 1. Click **Preview**  to make sure the logic applies the way you want it. 
 1. Click **Done** in the lower left side of the form.
-

@@ -5,8 +5,8 @@ title: Edit report settings
 description: You can edit the settings of a report to define how it displays for other users, or what kind of information can users prompt for before they run the report.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
 ---
-
 # Edit report settings
 
 You can edit the settings of a report to define how it displays for other users, or what kind of information can users prompt for before they run the report.
@@ -119,4 +119,3 @@ See also:
 * [Get started with reports in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md) 
 * [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md) 
 * [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
-

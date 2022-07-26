@@ -1,13 +1,12 @@
 ---
 title: Add or edit an asset widget in a custom form
-description: You can add or edit the properties of any of the following asset widgets such as images, videos, and PDF files in a custom form. This is useful when you need to include visual content such as branding images, an instructional video, or an interactive prototype for an app you are designing.  
+description: You can add or edit the properties of any of the following asset widgets such as images, videos, and PDF files in a custom form. This is useful when you need to include visual content such as branding images, an instructional video, or an interactive prototype for an app you are designing.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
 ---
 # Add or edit an image or other asset widget in a custom form
-
-The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
 
 You can add or edit the properties of any of the following asset widgets in a custom form:
 
@@ -128,4 +127,3 @@ You must have the following to perform the steps in this article:
 1. Open the proof.
 1. Right-click anywhere on the video, then select **Copy Video Address**.
 1. In the custom form where you are adding the video widget, paste the copied address in the **URL** box.
-

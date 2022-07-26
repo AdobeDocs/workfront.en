@@ -5,8 +5,8 @@ title: My Work section in the mobile app
 description: The My Work section of the Home area displays your tasks, issues, projects, approvals, requests, and timesheets.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
 ---
-
 # My Work section in the mobile app
 
 The My Work section of the Home area displays your tasks, issues, projects, approvals, requests, and timesheets.
@@ -31,4 +31,3 @@ You can choose which menu items to display in My Work and change the item order.
    >The Tasks and Issues menu item is always displayed and you can't hide it.
 
    ![](assets/mobile-settings-338x366.png)
-

@@ -5,8 +5,8 @@ title: Update work items in the Workload Balancer using the Summary
 description: Update work items in the Workload Balancer using the Summary
 author: Alina
 feature: Resource Management
+exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
 ---
-
 # Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience
 
 <!--
@@ -96,4 +96,3 @@ You must have the following:
 
 1. (Conditional) If you opened any of the sections of the work item, click your browser's **Back button** to return to the Workload Balancer.
 1. Click the **Close icon** ![](assets/close-icon.png) in the upper-right corner of the Summary, to close it.
-

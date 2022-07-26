@@ -4,9 +4,9 @@ navigation-topic: adobe-workfront-for-creative-cloud
 title: Update your work in Adobe Photoshop
 description: You can update your work in the following areas - EDIT ME.
 author: Courtney
-feature: "Workfront Integrations and Apps, Digital Content and Documents"
+feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
 ---
-
 # Update your work in Adobe Photoshop
 
 You can update your work in the following areas:
@@ -82,4 +82,3 @@ You must have the following access to perform the steps in this article:
 1. Type your update.
 1. (Optional) To tag a user, type the @ symbol and the user's name, then choose their name from the drop-down menu.
 1. Click **Submit**. Updates are synced with the Adobe Workfront web application in real time.
-

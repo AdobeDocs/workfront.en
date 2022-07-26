@@ -5,8 +5,8 @@ title: Budget resources in the Resource Planner using the Project and Role views
 description: Budget resources in the Resource Planner using the Project and Role views
 author: Alina
 feature: Resource Management
+exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
 ---
-
 # Budget resources in the Resource Planner using the Project and Role views
 
 <!--
@@ -303,4 +303,3 @@ To budget your resources in bulk:
    >   * When Resource Pools that are associated with projects contain users with no job role associated with them.
    >   
    >
-

@@ -5,8 +5,8 @@ title: Create project templates from examples
 description: Create project templates from examples
 author: Alina
 feature: Work Management
+exl-id: fdb72cdf-7d84-4698-a4b9-14520080979f
 ---
-
 # Create project templates from examples
 
 <!--
@@ -19,4 +19,4 @@ As a user with any Workfront license, you can request a blueprint template to be
 
 Blueprints provides basic building blocks to help you create a work management system that grows with you. You can browse the blueprints catalog and install ready-to-use project templates.
 
-Each template is targeted to a department and specific maturity level to help you implement proven best practices in your system faster. 
+Each template is targeted to a department and specific maturity level to help you implement proven best practices in your system faster.

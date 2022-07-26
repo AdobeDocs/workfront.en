@@ -5,8 +5,8 @@ title: Overview of Business Case financial fields
 description: The Business Case sub-tab includes financial fields for the project. In order for some of the financial fields to have values, corresponding areas of the Business Case must be completed.
 author: Alina
 feature: Work Management
+exl-id: d420fc3e-e98d-47a0-a456-b2df17d72f34
 ---
-
 # Overview of Business Case financial fields
 
 The Business Case sub-tab includes financial fields for the project.&nbsp;In order for some of the financial fields to have values, corresponding areas of the Business Case must be completed.&nbsp;&nbsp;
@@ -73,4 +73,3 @@ The following project financial fields display in the Business Case:
   </tr> 
  </tbody> 
 </table>
-

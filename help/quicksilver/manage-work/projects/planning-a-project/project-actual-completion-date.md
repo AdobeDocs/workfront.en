@@ -6,8 +6,8 @@ title: Overview of the project Actual Completion Date
 description: Projects, tasks, and issues have an Actual Completion Date in Adobe Workfront. This is the date when the project, task, or issue were marked as completed.
 author: Alina
 feature: Work Management
+exl-id: 0baba359-a61d-43d7-8336-1f45c7f34374
 ---
-
 # Overview of the project Actual Completion Date
 
 Projects, tasks, and issues have an&nbsp;Actual&nbsp;Completion&nbsp;Date in Adobe Workfront. This is the date when the project, task, or issue were marked as completed.

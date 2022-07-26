@@ -7,8 +7,8 @@ description: If you are an Adobe Workfront administrator, or you have administra
 author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 ---
-
 # Edit an approval process
 
 If you are an Adobe Workfront administrator, or you have administrative access to approval processes, you can see and edit all approval processes in the system.
@@ -109,11 +109,11 @@ You must have the following:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Start approval process when the status is set to</p> </td> 
+      <td role="rowheader"> <p role="rowheader">Start approval process when the status is set to</p> </td> 
       <td> <p>Select the status that will trigger the approval process on work items. When someone updates a work item to this status, its approval process begins. </p> <p>The same status cannot be selected for multiple approval process paths.<br></p> <p>The statuses available are based on what is selected under the option <strong>This approval can be used by</strong> (explained in the table above):</p> 
        <ul> 
         <li> If <b>All groups</b> is selected, only system-wide locked statuses are available<!--
-          <span class="preview" style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> - remove "locked" when story about using an unlocked status in approval processes goes to preview</span>
+          <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> - remove "locked" when story about using an unlocked status in approval processes goes to preview</span>
          --></li> 
         <li> <p>If a specific group is selected, only the statuses available for that group are available</p> </li> 
        </ul> <p>For information about how approval process work with statuses, see the section <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">How approval processes rely on statuses</a> in the article <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </td> 
@@ -133,18 +133,18 @@ You must have the following:
         </ul> 
         <ul> 
          <li> <p>When you assign an approval to the Project Owner and no one is designated as the owner of a project, the approval is reassigned to the main Workfront administrator as indicated in the Customer Info section in the Setup area. For information, see <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configure basic information for your system</a>.  <br></p> </li> 
-        </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>You can repeat this process to add multiple approvers to the stage. A single stage can include a combination of users, teams, and job roles as approvers. There is no limit to the number of approvers you can add to a stage.</p> <p><b>IMPORTANT</b>:  <p>When you assign job roles as approvers, all users associated with that job role that are also on the project team can make a decision on the approval. <br></p> <p>When you assign a team as an approver, any user in that team can make a decision on the approval. <br></p> <p>For more information about the project team, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a>. For more information about approving work, see <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work </a>.</p> </p> </td> 
+        </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>You can repeat this process to add multiple approvers to the stage. A single stage can include a combination of users, teams, and job roles as approvers. There is no limit to the number of approvers you can add to a stage.</p> <p><b>IMPORTANT</b>:  <p>When you assign job roles as approvers, all users associated with that job role that are also on the project team can make a decision on the approval. <br></p> <p>When you assign a team as an approver, any user in that team can make a decision on the approval. <br></p> <p>For more information about the project team, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a>. For more information about approving work, see <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work </a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Only one decision is required</td> 
       <td> <p>(Displays only if you add multiple approvers to the stage) Select this option if any one of the approvers on the stage can approve or reject the work item during this stage. This action allows the work item to leave the stage. </p> <p>When this option is not selected, all of the identified approvers must approve or reject the stage (in any order) before the item leaves the stage. If any one of the approvers rejects the stage, the process interrupts and starts over so that the required changes can be made. Then the approvers can approve or reject the stage once again.</p> <p>When a team is designated as an approver, any member of the team can grant or reject a stage.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Add stage</p> </td> 
+      <td role="rowheader"> <p role="rowheader">Add stage</p> </td> 
       <td>(Optional) Add another a stage to the path, using the options explained in the three rows above. You can add as many stages to the path as you need.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: normal;"><strong>Choose what happens when the approval is rejected</strong></span> </p> </td> 
+      <td role="rowheader"> <p role="rowheader"><span style="font-weight: normal;"><strong>Choose what happens when the approval is rejected</strong></span> </p> </td> 
       <td> <p>Select the action you want to take if the work item is rejected at any stage of the path:</p> 
        <ul> 
         <li><strong>Create an Issue</strong>: (Available only for project and task approval processes) An issue is created in the project or task where the approval process is running. The default assigned resource on the task, or the owner of the project is assigned to the issue. By default, the name of the issue created is <strong>Approval Rejected (&lt;Project or Task Name&gt;)</strong>. This is a Rejection Issue, entered under the task or the project, depending on the approval process where the rejection happened.</li> 

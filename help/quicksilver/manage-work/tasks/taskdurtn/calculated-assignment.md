@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: "Duration Type overview: Calculated Assignment"
+title: 'Duration Type overview: Calculated Assignment'
 description: Calculated Assignment is a Duration Type that you can set for a task in Adobe Workfront. For general information about Duration Types in Workfront, see Overview of Task Duration and Duration Type.
 author: Alina
 feature: Work Management
+exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
 ---
-
 # Duration Type overview: Calculated Assignment
 
 Calculated Assignment is a Duration Type that you can set for a task in Adobe Workfront. For general information about Duration Types in Workfront, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
@@ -56,4 +56,3 @@ For information about changing the Duration Type of a task, see [Update the Dura
 <li value="4">Click <strong>Save</strong> <strong>Changes</strong>.</li>
 </ol>
 -->
-

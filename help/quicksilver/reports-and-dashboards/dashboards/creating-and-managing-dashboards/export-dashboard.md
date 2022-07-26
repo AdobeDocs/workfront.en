@@ -5,8 +5,8 @@ title: Export a dashboard
 description: You can export a dashboard to a .pdf file using the print options available in your web browser.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
 ---
-
 # Export a dashboard
 
 You can export a dashboard to a .pdf file using the print options available in your web browser.
@@ -105,4 +105,3 @@ For information on creating dashboards, see [Create a dashboard](../../../report
      </tr> 
     </tbody> 
    </table>
-

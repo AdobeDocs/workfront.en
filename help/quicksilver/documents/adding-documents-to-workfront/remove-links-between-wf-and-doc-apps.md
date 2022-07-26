@@ -5,8 +5,8 @@ title: Remove links between Adobe Workfront and external document storage provid
 description: When uploading a document from any service for the first time, Adobe Workfront requests permission from the user to access their document service. When the user provides their document service credentials to log in, the document service links itself to Workfront.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
 ---
-
 # Remove links between Adobe Workfront and external document storage providers
 
 When uploading a document from any service for the first time, Adobe Workfront requests permission from the user to access their document service. When the user provides their document service credentials to log in, the document service links itself to Workfront.
@@ -68,4 +68,4 @@ You must have the following:
 
 You must call our Support Team to disconnect Microsoft One Drive or WebDAM from Workfront.
 
-For information about contacting our Support Team, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md). 
+For information about contacting our Support Team, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

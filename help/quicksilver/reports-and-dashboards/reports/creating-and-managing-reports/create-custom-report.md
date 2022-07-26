@@ -5,8 +5,8 @@ title: Create a custom report
 description: Understanding how to create reports helps you provide access to the information your organization needs within Adobe Workfront. You can use any of the built-in reports available in Workfront, or you can build your own reports from scratch.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
 ---
-
 # Create a custom report
 
 Understanding how to create reports helps you provide access to the information your organization needs within Adobe Workfront. You can use any of the built-in reports available in Workfront, or you can build your own reports from scratch.
@@ -269,4 +269,3 @@ To watch a video of how to create a report, see this [Create a custom report](#W
 <li><a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Add a chart to a report</a> </li>
 </ul>
 -->
-

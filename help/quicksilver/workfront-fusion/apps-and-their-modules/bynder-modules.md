@@ -8,8 +8,8 @@ title: Bynder modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Bynder, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
+exl-id: e4dc9588-334a-41a3-85d1-996cb819c3fa
 ---
-
 # Bynder modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Bynder, as well as connect it to multiple third-party applications and services.
@@ -459,4 +459,3 @@ This trigger module starts a scenario when an asset is created or updated.
   </tr> 
  </tbody> 
 </table>
-

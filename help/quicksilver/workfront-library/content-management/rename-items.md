@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: content-management
 title: Rename items in Workfront Library
 description: You can change the name of content, folders, and collections that you have access to.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 95217d3b-1c58-435a-aba1-44b800a176d2
 ---
-
 # Rename items in Workfront Library
 
 You can change the name of content, folders, and collections that you have access to.
@@ -50,4 +50,3 @@ You can rename only the active (or current) version of an asset in Workfront Lib
 1. Navigate to the folder thumbnail and hover, then click the **More** icon in the upper-right corner.
 1. Select **Rename** in the drop-down menu.
 1. Type the new name, then press **Enter**.
-

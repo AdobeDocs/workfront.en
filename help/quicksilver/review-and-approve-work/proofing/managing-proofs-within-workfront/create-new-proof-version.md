@@ -5,8 +5,8 @@ title: Create a new version of a proof
 description: Managing feedback across multiple versions or revisions of a piece of work can be a huge challenge. Workfront simplifies this process by letting you create and compare multiple versions of a proof.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
 ---
-
 # Create a new version of a proof
 
 Managing feedback across multiple versions or revisions of a piece of work can be a huge challenge. Workfront simplifies this process by letting you create and compare multiple versions of a proof.
@@ -219,4 +219,3 @@ If you do not have a default subject and message saved in your personal settings
 
 * If you chose to notify your reviewers by email for the previous version of the proof using the standard email (for example, no custom subject/message), the Notify people by email option will be selected by default on the New version page. To add a custom message click the link.
 * If you chose not to notify your reviewers by email for the previous version of the proof (for example, no standard or custom email), the New version page will not include any message by default. To notify your reviewers of the new version, click the Send a Message link. You can then add a custom subject and message by clicking the Add Custom Message link.
-

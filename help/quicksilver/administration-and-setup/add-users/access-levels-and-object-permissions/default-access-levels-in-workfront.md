@@ -9,8 +9,8 @@ description: Each of the six built-in access levels is designed for a particular
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
 ---
-
 # Built-in access levels in Adobe Workfront
 
 Each of the six built-in access levels are designed for a particular type of user:
@@ -24,12 +24,20 @@ Each of the six built-in access levels are designed for a particular type of use
 
 Depending on the access level, up to 3 settings are available for most of the Workfront object types:
 
-| Edit |Users can create, edit, delete, and share the Workfront object |
-|---|---|
-| View |Users can review and share the Workfront object |
-| No Access |Users cannot access the Workfront object |
-
-{style="table-layout:auto"}
+<table style="table-layout:auto">
+    <tr>
+        <td>Edit</td>
+        <td>Users can create, edit, delete, and share the Workfront object</td>
+    </tr>
+    <tr>
+        <td>View</td>
+        <td>Users can review and share the Workfront object</td>
+    </tr>
+    <tr>
+        <td>No Access</td>
+        <td>Users cannot access the Workfront object</td>
+    </tr>
+</table>
 
 If you need a custom Planner, Worker, Requester, or Reviewer access level, you can copy the built-in access level and determine the amount of access you want it to allow for the various Workfront object types. For information on creating a custom access level or modifying one of the built-in access levels, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -220,13 +228,13 @@ More limited for projects and tasks than the Worker access level, the following 
    <td>✓</td> 
    <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  <tr> 
    <td>Scenario Planner </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
    <td>✓ (The default setting is No Access.)</td> 
   </tr> 
-  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  <tr> 
    <td>Workfront Goals </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
@@ -308,4 +316,3 @@ The following are the highest access settings available for objects in the Exter
 | Resource Management |✓ |&nbsp; |&nbsp; |
 | Scenario Planner  |✓ |&nbsp; |&nbsp; |
 | Workfront Goals  |✓ |&nbsp; |&nbsp; |
-

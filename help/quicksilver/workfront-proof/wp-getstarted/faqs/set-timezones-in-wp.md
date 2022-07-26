@@ -6,9 +6,9 @@ navigation-topic: faqs-workfront-proof
 title: Setting time zones in Workfront Proof
 description: Workfront Proof displays the time when a proof was created and when any activity has taken place on the proof, such as deadlines, decisions, and comments. By default the time is displayed in GMT.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: c55d514e-574b-4982-ae43-6e2b1da5ff7d
 ---
-
 # Setting time zones in Workfront Proof
 
 >[!IMPORTANT]
@@ -37,4 +37,3 @@ If you are an Account Administrators, you can set a default time zone for your o
 1. Click **Settings** > **Personal settings**, then open the **Settings** tab.
 
 1. Under **Account details**, click Edit to the right of **Time zone default** and make the change.
-

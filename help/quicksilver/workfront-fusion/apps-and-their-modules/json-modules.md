@@ -7,8 +7,8 @@ title: JSON modules
 description: The Adobe Workfront Fusion JSON app provides modules to process data in JSON format so that Adobe Workfront Fusion can further work with the data content, or create new JSON content.
 author: Becky
 feature: Workfront Fusion
+exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
 ---
-
 # JSON modules
 
 The Adobe Workfront Fusion JSON app provides modules to process data in JSON format so that Adobe Workfront Fusion can further work with the data content, or create new JSON content.

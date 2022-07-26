@@ -8,8 +8,8 @@ title: Datadog modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Datadog, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
+exl-id: a0b4352d-a1ce-4459-a58e-71de860b8a90
 ---
-
 # Datadog modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Datadog, as well as connect it to multiple third-party applications and services.
@@ -196,4 +196,3 @@ The result can be found in the module's Output under Bundle > Body > dashboards.
 In our example, 3 dashboards were returned:
 
 ![](assets/datadog-api-response-example.png)
-

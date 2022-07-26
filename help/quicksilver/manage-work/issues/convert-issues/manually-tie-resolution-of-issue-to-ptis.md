@@ -5,8 +5,8 @@ title: Manually tie the resolution of an issue to other issues, tasks, or projec
 description: You can manually tie the resolution of an issue to the resolution of a project, task, or issue without converting the issue. The issue becomes one of the Resolvable Objects of the project, task, or issue you select. When you do this, a change in the status of the project, task, or issue triggers a change in the status of the original issue.
 author: Alina
 feature: Work Management
+exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
 ---
-
 # Manually tie the resolution of an issue to other issues, tasks, or projects
 
 You can manually tie the resolution of an issue to the resolution of a project, task, or issue without converting the issue. The issue becomes one of the Resolvable Objects of the project, task, or issue you select. When you do this, a change in the status of the project, task, or issue triggers a change in the status of the original issue.

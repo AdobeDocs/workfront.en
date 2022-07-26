@@ -4,9 +4,9 @@ navigation-topic: adobe-workfront-for-xd
 title: Update your work in Adobe XD
 description: You can update your work in the following areas - EDIT ME.
 author: Courtney
-feature: "Workfront Integrations and Apps, Digital Content and Documents"
+feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: 033c55bb-0324-4644-bf07-7a7827efb672
 ---
-
 # Update your work in Adobe XD
 
 You can update your work in the following areas:
@@ -82,4 +82,3 @@ You must have the following access to perform the steps in this article:
 1. Type your update.
 1. (Optional) To tag a user, type the @ symbol and the user's name, then choose their name from the drop-down menu.
 1. Click **Submit**. Updates are synced with the Adobe Workfront web application in real time.
-

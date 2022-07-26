@@ -6,8 +6,8 @@ title: Overview of the project Critical Path
 description: Determining the Critical Path of a project is an automatic way for Adobe Workfront to flag a sequence of tasks in a project that have the potential to impact the timeline of the project. Tasks that can impact the timeline of the project are flagged as being Critical Path tasks.
 author: Alina
 feature: Work Management
+exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
 ---
-
 # Overview of the project Critical Path
 
 Determining the Critical Path of a project is an automatic way for Adobe Workfront to flag a sequence of tasks in a project that have the potential to impact the timeline of the project. Tasks that can impact the timeline of the project are flagged as being Critical Path tasks.
@@ -115,4 +115,3 @@ To view which tasks are on the critical path in a list of tasks:
 1. Click **Save Filter**.
 
    The list should only display tasks that are on the Critical Path.
-

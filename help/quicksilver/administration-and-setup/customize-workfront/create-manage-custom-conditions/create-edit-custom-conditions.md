@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can create or edit a custo
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 5c950862-4358-4aab-997b-223972662150
 ---
-
 # Create or edit a custom condition
 
 As an Adobe Workfront administrator, you can create or edit a custom condition for projects, tasks, and issues to match the needs of your organization.

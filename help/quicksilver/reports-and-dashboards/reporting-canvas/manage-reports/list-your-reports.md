@@ -4,6 +4,7 @@ description: List your reports in Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: 1c546e6d-ccaa-4066-8cc7-7a7510ff4aa1
 ---
 # List your reports in Reporting Canvas
 
@@ -58,7 +59,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas Beta](../../../product-announcements/betas/reporting-canvas-beta.md).
+Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas Beta](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
 
 ## List your reports
 
@@ -76,4 +77,3 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Admin tags that everyone can see and use</p>   
      -->
-

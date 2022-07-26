@@ -4,10 +4,10 @@ product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 title: Configure the JumpSeat integration
 description: You can integrate JumpSeat with Workfront to create custom, in-product guidance.
-feature: "System Setup and Administration, Workfront Integrations and Apps"
+feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
 ---
-
 # Configure the JumpSeat integration
 
 You can integrate JumpSeat with Workfront to create custom, in-product guidance.
@@ -75,4 +75,3 @@ To configure the JumpSeat integration:
    >The configuration test performed in step 5 must pass in order to activate the integration.
 
    ![JumpSeat Integration page](assets/jumpseat-integration-page-350x159.png)
-

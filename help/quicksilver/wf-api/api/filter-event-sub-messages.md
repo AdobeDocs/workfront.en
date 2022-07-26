@@ -6,9 +6,8 @@ title: Filter event subscription messages
 description: Filter event subscription messages
 author: John
 feature: Workfront API
-
+exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
 ---
-
 # Filter event subscription messages
 
 You can build intermediary processing components that can help you filter and process only the event subscription messages that your business needs.

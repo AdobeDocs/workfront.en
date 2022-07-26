@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can configure the default 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
 ---
-
 # Configure system-wide project preferences
 
 As an Adobe Workfront administrator, you can configure the default preferences for all projects created throughout the system. These preferences impact project, task, and issue behavior.
@@ -241,4 +241,3 @@ Configure any of the following preferences for newly created projects throughout
   </tr> 
  </tbody> 
 </table>
-

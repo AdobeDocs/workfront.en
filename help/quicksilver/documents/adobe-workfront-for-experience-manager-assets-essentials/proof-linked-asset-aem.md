@@ -4,9 +4,9 @@ navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Proof a linked asset for Experience Manager Assets or Assets Essentials
 description: After you've linked an asset from Experience Manager Assets Essentials, you can create a proof and assign users to review and add comments to the asset.
 author: Courtney
-feature: "Digital Content and Documents, Workfront Integrations and Apps"
+feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
 ---
-
 # Proof a linked asset for Experience Manager Assets or Assets Essentials
 
 After you've linked an asset from Experience Manager Assets Essentials, you can create a proof and assign users to review and add comments to the asset.
@@ -46,7 +46,7 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Prerequissites
+## Prerequisites
 
 Before you begin, 
 
@@ -72,11 +72,11 @@ To create a proof:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Simple Proof</td> 
+      <td role="rowheader"><strong>Simple Proof</strong></td> 
       <td>This option creates a proof with no workflow attached and applies the default proof settings. You can update the default proofsettings or add a workflow after you've created the proof. For more information on proof settings, see <a href="../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Edit proof settings</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Advanced Proof</td> 
+      <td role="rowheader"><strong>Advanced Proof</strong></td> 
       <td> <p>This option allows you to configure a Basic or Advanced workflow and modify proof settings for the proof you create. For more information, see </p> 
        <ul> 
         <li> <p><a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Create an advanced proof with a Basic workflow</a> </p> </li> 

@@ -5,8 +5,8 @@ title: Update Commit Dates on tasks and issues
 description: You can manually update the Commit date of a task or an issue that you are assigned to. For more information about Commit Dates in Adobe Workfront, see Commit Date overview.
 author: Alina
 feature: Work Management
+exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
 ---
-
 # Update Commit Dates on tasks and issues
 
 You can manually update the Commit date of a task or an issue that you are assigned to. For more information about Commit Dates in&nbsp;Adobe Workfront, see [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
@@ -89,4 +89,3 @@ Updating the Commit Date is identical for tasks and issues.
      ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
 
      For information about the notifications and updates that are triggered by this change, see the section [Notifications and updates triggered by changing the Commit Date](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) in the article [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
-

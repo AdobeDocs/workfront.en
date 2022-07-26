@@ -6,8 +6,8 @@ title: Overview of the project Projected Start Date
 description: The Projected Start Date is a real-time date of when the project is going to start based on the Projected Start Date of the first task on the project.
 author: Alina
 feature: Work Management
+exl-id: 6277e6cf-0a73-4ba8-a3fd-c0da473dc5d4
 ---
-
 # Overview of the project Projected Start Date
 
 ## Overview of the Projected Start Date for projects and tasks
@@ -40,4 +40,3 @@ You can locate the Projected Start Date of a project or a task in the following 
   For more information about creating a report, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * In the Project&nbsp;Details section of a project or the Task&nbsp;Details section of a task.
-

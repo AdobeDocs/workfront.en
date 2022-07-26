@@ -5,9 +5,9 @@ navigation-topic: 2021-2-release-activity
 title: 21.2 Administrator enhancements
 description: This page describes all administrator enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see 21.2 Release overview.
 author: Luke
-feature: "Product Announcements, System Setup and Administration"
+feature: Product Announcements, System Setup and Administration
+exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
 ---
-
 # 21.2 Administrator enhancements
 
 This page describes all administrator enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
@@ -187,4 +187,4 @@ When users type in Custom Form fields that allow formatting, they can now organi
 
 For more information, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/513508726/a63186ec85) 
+[Watch a video demonstration of this feature.](https://vimeo.com/513508726/a63186ec85)

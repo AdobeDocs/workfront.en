@@ -5,8 +5,8 @@ title: Update task Leveling Delay
 description: At times, there might be conflicts between task schedules on a project. You can level resources or address resource conflicts by rescheduling resources and tasks so that all tasks can be completed within a realistic schedule. For information about leveling tasks, see Level Resources in the Gantt Chart .
 author: Alina
 feature: Work Management
+exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
 ---
-
 # Update task Leveling Delay
 
 At times, there might be conflicts between task schedules on a project. You can level resources or address resource conflicts by rescheduling resources and tasks so that all tasks can be completed within a realistic&nbsp;schedule. For information about leveling tasks, see [Level Resources in the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).

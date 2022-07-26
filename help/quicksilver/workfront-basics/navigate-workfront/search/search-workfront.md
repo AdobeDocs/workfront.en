@@ -3,8 +3,8 @@ navigation-topic: search
 title: Search Adobe Workfront
 description: You can easily locate items in Adobe Workfront by searching for them when you cannot remember their exact location.
 feature: Get Started with Workfront
+exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
 ---
-
 # Search Adobe Workfront
 
 You can easily locate items in Adobe Workfront by searching for them when you cannot remember their exact location.
@@ -268,4 +268,3 @@ To perform an advanced search:
 >[!NOTE]
 >
 >The Search Results page stays open only when it is in focus. Clicking away from the page or opening another page closes the Search Results page.
-

@@ -5,8 +5,8 @@ title: Locate submitted requests
 description: You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront - EDIT ME.
 author: Alina
 feature: Work Management
+exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
-
 # Locate submitted requests
 
 You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:

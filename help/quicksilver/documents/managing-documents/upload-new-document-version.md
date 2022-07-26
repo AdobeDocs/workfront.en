@@ -5,8 +5,8 @@ title: Upload a new version of a document
 description: You can add a new version of a document you have previously uploaded to Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
 ---
-
 # Upload a new version of a document
 
 You can add a new version of a document you have previously uploaded to Adobe Workfront.
@@ -73,4 +73,3 @@ You must have the following:
    ![](assets/add-new-version-350x185.png)
 
 1. Select the type of document you want to upload, then follow the prompts.
-

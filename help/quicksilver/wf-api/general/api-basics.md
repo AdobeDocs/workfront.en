@@ -5,8 +5,8 @@ title: API basics
 description: The goal for the Adobe Workfront API is to simplify building integrations with Workfront by introducing a REST-ful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses and describes the approach taken by the Workfront API.
 author: John
 feature: Workfront API
+exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
 ---
-
 # API basics
 
 The goal for the Adobe Workfront API is to simplify building integrations with Workfront by introducing a REST-ful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses and describes the approach taken by the Workfront API.
@@ -450,4 +450,3 @@ A bulk update statement updates multiple objects at the same time within a singl
 >[!NOTE]
 >
 >Atomic batch operations can only return “success: true” or an error.
-

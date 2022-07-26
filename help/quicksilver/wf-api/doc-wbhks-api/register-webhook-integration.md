@@ -3,11 +3,11 @@ content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
 title: Register a Webhook Integration
-description: Adobe Workfront administrators can add a custom webhook integration for their company by navigating to Setup > Documents > Custom Integrations within Workfront. From the Custom Integration page within Setup, administrators can view a list of existing document Webhook integrations. From this page, integrations can be added, edited, enabled, and disabled.
+description: Adobe Workfront administrators can add a custom webhook integration for their company by navigating to Setup &gt; Documents &gt; Custom Integrations within Workfront. From the Custom Integration page within Setup, administrators can view a list of existing document Webhook integrations. From this page, integrations can be added, edited, enabled, and disabled.
 author: John
-feature: "Workfront API, Digital Content and Documents"
+feature: Workfront API, Digital Content and Documents
+exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
 ---
-
 # Register a Webhook Integration
 
 ## Registering a Webhook Integration
@@ -74,4 +74,3 @@ When adding an integration, the administrator will enter values for the followin
   </tr> 
  </tbody> 
 </table>
-

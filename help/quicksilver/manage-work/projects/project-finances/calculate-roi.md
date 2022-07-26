@@ -6,8 +6,8 @@ title: Calculate Return On Investment (ROI)
 description: Return On Investment (ROI) is Adobe Workfront metric that allows portfolio managers to quickly see how the project is performing against the original Planned Benefit and Budgeted Cost of the project.
 author: Alina
 feature: Work Management
+exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
 ---
-
 # Calculate Return On Investment (ROI)
 
 Return On Investment (ROI) is Adobe Workfront metric that allows portfolio managers to quickly see how the project is performing against the original Planned Benefit and Budgeted Cost of the project.
@@ -50,4 +50,3 @@ You can view the ROI value for a project in the following areas in Workfront:
    * Project (Financial&nbsp;Data)
 
   For more information about building reports in Workfront, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-

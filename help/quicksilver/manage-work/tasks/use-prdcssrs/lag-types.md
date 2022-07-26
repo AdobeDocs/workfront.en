@@ -6,8 +6,8 @@ title: Overview of Lag Types
 description: Lag is the amount of time that must pass after the completion of an enforced predecessor until the dependent task can begin (Positive Lag), or the amount of time that a dependent task could start before the predecessor starts (Negative Lag).
 author: Alina
 feature: Work Management
+exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
 ---
-
 # Overview of Lag Types
 
 Lag is the amount of time that must pass after the completion of an enforced predecessor until the dependent task can begin (Positive Lag), or the amount of time that a dependent task could start before the predecessor starts (Negative Lag).
@@ -170,4 +170,3 @@ Consider the following rules when using negative lags:
 
    * Set a Finish-Finish predecessor relationship between tasks.
    * The Duration of the successor task should equal or exceed the intended number of lag days between tasks.
-

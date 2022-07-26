@@ -5,9 +5,9 @@ navigation-topic: branding-workfront-proof
 title: Brand the Workfront Proof site
 description: As a Workfront Proof administrator, you can brand your Workfront Proof account to give you and your users a more customized experience.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
 ---
-
 # Brand the Workfront Proof site
 
 >[!IMPORTANT]

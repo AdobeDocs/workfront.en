@@ -5,9 +5,9 @@ navigation-topic: manage-your-work-workfront-proof
 title: Manage Files in Workfront Proof
 description: You can manage, share, and view information about the files (not proofs) uploaded to Workfront Proof (see Upload Files and Web Content to Workfront Proof).
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 9bbf2448-74dc-412a-b17c-4321d0acaf07
 ---
-
 # Manage Files in Workfront Proof
 
 >[!IMPORTANT]

@@ -7,8 +7,8 @@ description: To improve system performance and to make forms easier to use for u
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
 ---
-
 # Delete a custom field or widget from the system
 
 To improve system performance and to make forms easier to use for users, you might want to remove custom fields and widgets from your system when they are no longer being used.
@@ -75,4 +75,3 @@ You must have the following to perform the steps in this article:
 1. Modify the original custom form and remove the custom fields that you added to the new form (in Step 2).
 
    The fields that you removed from the original custom form are now available only on the new custom form that you created. Users are able to see the custom form on the object, but users without administrative access are not able to modify the custom form.
-

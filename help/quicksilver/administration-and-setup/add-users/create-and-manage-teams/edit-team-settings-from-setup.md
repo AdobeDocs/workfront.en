@@ -2,9 +2,9 @@
 title: Edit a team's settings from the Setup area
 description: As an Adobe Workfront administrator, you can edit a team's settings from the Setup area. You can add users to a team, set a team's layout template, and set how status is recorded when work items are completed by a team.
 author: Caroline, Courtney
-
 feature: System Setup and Administration
 role: Admin
+exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
 ---
 # Edit a team's settings from the Setup area
 
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
      --> 
      <tr> 
       <td role="rowheader">Group</td> 
-      <td> <p>Associate the team with a group. Start typing the name of the group, then select the name when it appears.</p> <p><b>NOTE</b>: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> </td> 
+      <td> <p>Associate the team with a group. Start typing the name of the group, then select the name when it appears.</p> <p><b>NOTE</b>: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> <p>You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Owner</td> 
@@ -103,4 +103,3 @@ You must have the following access to perform the steps in this article:
    </table>
 
 1. Click **Save Changes**.
-

@@ -7,8 +7,8 @@ description: You can delete job roles that your organization no longer uses. We 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: b0e81d76-5227-4fda-9a58-68fbce3f5b94
 ---
-
 # Delete job roles
 
 You can delete job roles that your organization no longer uses. We recommend that you do not delete job roles if they have been associated with work items in the past.
@@ -67,4 +67,3 @@ You must have the following:
      ​For example, if a task or issue is assigned to only that job role, the task or issue is unassigned after the job role is deleted.
 
 1. Click  **Yes, Delete It**.
-

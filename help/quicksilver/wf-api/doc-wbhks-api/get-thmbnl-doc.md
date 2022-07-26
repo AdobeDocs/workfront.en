@@ -5,9 +5,9 @@ navigation-topic: documents-webhooks-api
 title: Get a thumbnail for a document
 description: Returns the raw thumbnail bytes for a document.
 author: John
-feature: "Workfront API, Digital Content and Documents"
+feature: Workfront API, Digital Content and Documents
+exl-id: 31960689-1811-4ba7-a63d-0842caedf3ea
 ---
-
 # Get a thumbnail for a document
 
 Returns the raw thumbnail bytes for a document.

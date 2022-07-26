@@ -5,8 +5,8 @@ title: Modify user assignments for multiple issues in a list
 description: Modify user assignments for multiple issues in a list
 author: Alina
 feature: Work Management
+exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
 ---
-
 # Modify user assignments for multiple issues in a list
 
 <!--
@@ -139,4 +139,3 @@ You must have the following access to perform the steps in this article:
    * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user.
 
 1. Click **Save Changes**.
-

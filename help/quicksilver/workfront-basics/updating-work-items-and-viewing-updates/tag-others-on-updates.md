@@ -5,8 +5,8 @@ title: Tag others on updates
 description: When providing update comments on a Adobe Workfront object, all users on the project can see the information submitted. However, there may be times when users who are not on the project would benefit from viewing this information. Rather than include those users on the project, you can tag them on the update to share it with them. Tagged users receive an event notification.
 author: Lisa and Alina
 feature: Get Started with Workfront
+exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 ---
-
 # Tag others on updates
 
 When providing update comments on a Adobe Workfront object, all users on the project can see the information submitted. However, there may be times when users who are not on the project would benefit from viewing this information. Rather than include those users on the project, you can tag them on the update to share it with them. Tagged users receive an event notification.
@@ -89,4 +89,3 @@ You must have the following access to perform the steps in this article:
    ![](assets/tagging-transparency-350x192.png)
 
    For information about the additional functionality that is available when updating a work item, see&nbsp; [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-

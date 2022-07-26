@@ -7,8 +7,8 @@ description: When a custom status is set as a default status, the new default st
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
 ---
-
 # Use custom statuses as default statuses
 
 When a custom status is set as a default status, the new default status is used throughout the system in various ways. The ways in which it's used depends on whether it is set as a default system-level status, or a default group-level status.
@@ -87,4 +87,3 @@ If the custom status is an Issue status, all four issue types must be enabled fo
    1. Click the More menu ![](assets/more-icon.png), then click **Edit**.  
    1. In the **Edit Project** box that displays, in the **Group** field under **Project association**, select the group where the status resides.
    1. Click **Save Changes**.
-

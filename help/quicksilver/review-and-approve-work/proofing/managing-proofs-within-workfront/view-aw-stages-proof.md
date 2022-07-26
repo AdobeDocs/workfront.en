@@ -5,8 +5,8 @@ title: View Automated Workflow stages on a proof
 description: You can conveniently track the progress of a proof configured with an Automated Worklow. You can view, modify, add, start, and lock the work already done on stages on the proof.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
 ---
-
 # View Automated Workflow stages on a proof
 
 You can conveniently track the progress of a proof configured with an Automated Worklow. You can view, modify, add, start, and lock the work already done on stages on the proof.
@@ -88,4 +88,3 @@ To view all stages of your Automated Workflow with their details expanded:
 
 1. Click the Change View button at t the top of the page ![](assets/change-view-btn.png), then click **View all stages in detail**.
 1. To view the details of a stage, click the down arrow below its name.
-
