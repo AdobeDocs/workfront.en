@@ -105,7 +105,7 @@ You must have the following access to perform the steps in this article:
         <li>Expenses on projects, tasks or issues they manage</li>
         <li>Their own expenses</li>
         <li>The expenses of their subordinates</li>
-       </ul><p><b>NOTE</b>: This does not allow the user to create new Expense Types.<br></p></td> 
+       </ul><p><b>NOTE</b>: This does not allow the user to create new Expense Types.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Job roles</td> 
