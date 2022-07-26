@@ -5,8 +5,8 @@ title: Review and make decisions on proofs in the Adobe Workfront mobile app
 description: When a proof is assigned to you for approval, it appears in your list of approvals in the mobile app. You can review the proof directly in the app and make a decision on it. For information about reviewing and approving proofs in Adobe Workfront, see Review proofs within Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
 ---
-
 # Review and make decisions on proofs in the Adobe Workfront mobile app
 
 When a proof is assigned to you for approval, it appears in your list of approvals in the mobile app. You can review the proof directly in the app and make a decision on it. For information about reviewing and approving proofs in Adobe Workfront, see [Review proofs within Adobe Workfront](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
@@ -113,4 +113,3 @@ After you have reviewed the document proof, you can make a decision in the proof
    For decisions with reasons, you can choose a different reason or remove the reason.
 
 1. Select **Submit**.
-

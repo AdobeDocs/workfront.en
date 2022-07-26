@@ -5,8 +5,8 @@ title: Tag users to share a proof
 description: When you are commenting on a proof in the proofing viewer, you can tag other users to bring their attention to your comment via email and to add them to the proof's workflow.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
 ---
-
 # Tag users to share a proof
 
 When you are commenting on a proof in the proofing viewer, you can tag other users to bring their attention to your comment via email and to add them to the proof's workflow.

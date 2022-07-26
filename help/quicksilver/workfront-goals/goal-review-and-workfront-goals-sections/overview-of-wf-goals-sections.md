@@ -6,8 +6,8 @@ title: Overview of the Adobe Workfront Goals sections
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
 author: Alina
 feature: Workfront Goals
+exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
 ---
-
 # Overview of the Adobe Workfront Goals sections
 
 Your organization must have the following to use the functionality described in this article:
@@ -159,4 +159,3 @@ Use the Check-in section to do the following:
 * Add a comment to a goal, then click&nbsp;Post to make or ask for updates to a goal. 
 * Access the Goal&nbsp;Details panel and edit and update the goal, its results, or activities.
 * Add new goals.
-

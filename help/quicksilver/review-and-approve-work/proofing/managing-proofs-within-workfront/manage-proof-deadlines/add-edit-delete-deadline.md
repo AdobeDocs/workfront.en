@@ -6,8 +6,8 @@ title: Add, edit, or delete a deadline for a stage
 description: You can adjust the deadline for proofs you create or own.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 23010732-dab7-461d-876a-56f9928a2a23
 ---
-
 # Add, edit, or delete a deadline for a stage
 
 You can adjust the deadline for proofs you create or own.
@@ -59,4 +59,3 @@ You must have the following access to perform the steps in this article:
 
 1. To save your change, click outside the deadline box.
 1. In the prompt that appears, specify whether you want to send an email alert to reviewers.&nbsp;
-

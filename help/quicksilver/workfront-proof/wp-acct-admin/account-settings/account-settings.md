@@ -6,9 +6,9 @@ navigation-topic: account-administration
 title: Account settings in Workfront Proof
 description: This section contains the following articles - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 8f43fee1-02ee-4073-aacb-653a11ad897b
 ---
-
 # Account settings in Workfront Proof
 
 >[!IMPORTANT]
@@ -32,4 +32,3 @@ This section contains the following articles:
 * [View your organization's Workfront Proof administrator account history](../../../workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md) 
 * [Check your Workfront Proof storage](../../../workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md) 
 * [Request a new data backup in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)
-

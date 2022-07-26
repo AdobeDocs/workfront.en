@@ -3,13 +3,13 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Retrieving historical data from Adobe Workfront: pros and cons"
+title: 'Retrieving historical data from Adobe Workfront: pros and cons'
 description: This article explains the pros and cons of 4 options you can use to retrieve your historical data from Workfront.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
 ---
-
 # Retrieving historical data from Adobe Workfront: pros and cons
 
 This article explains the pros and cons of 4 options you can use to retrieve your historical data from Workfront.
@@ -52,4 +52,3 @@ if you have the right resources in your organization, they can build a custom AP
 * **Cons**: The time is spent on your side, and you will have to find resources to code the API and perform the export.  
 
 * **Cost**: Internal to your organization.
-

@@ -5,10 +5,10 @@ navigation-topic: configure-proofing-functionality
 title: Configure a user's proofing access
 description: As a Adobe Workfront administrator or Workfront Proof administrator, you can configure a user's access to create and view proofs in Workfront and Workfront Proof.
 author: Courtney
-feature: "System Setup and Administration, Digital Content and Documents"
+feature: System Setup and Administration, Digital Content and Documents
 role: Admin
+exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
 ---
-
 # Configure a user's proofing access
 
 As a Adobe Workfront administrator or Workfront Proof administrator, you can configure a user's access to create and view proofs in Workfront and Workfront Proof.
@@ -142,4 +142,3 @@ For more information, see [Change interactive proof resolution in the proofing v
 
 1. From Workfront, access the Workfront Proof interface, as described in [Access Workfront Proof from Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 1. Modify the Desktop Proofing Viewer settings, as described in [Configure custom devices for proofs](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs) in the article [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
-

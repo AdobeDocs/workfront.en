@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-subgroups
 title: Create a subgroup
 description: You can create a subgroup under a group you manage to organize users and projects and to assign access rights within Adobe Workfront. Typically, group administrators manage groups and subgroups. They can use the Groups page to manage their groups and subgroups in one place.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
 ---
-
 # Create a subgroup
 
 You can create a subgroup under a group you manage to organize users and projects and to assign access rights within Adobe Workfront.
@@ -63,7 +63,7 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">Description</td> 
       <td>Type a description for the subgroup. You can type up to 512 characters.</td> 
      </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+     <tr> 
       <td role="rowheader">Is Active</td> 
       <td> <p>(Enabled by default) Makes the group active in your Workfront instance.</p> <p>In type-ahead fields like the one shown below, when regular users search for a group to attach it to an object or to share an object with it, only active groups display in the list.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>To streamline this for your users, you can disable the Is Active option for groups that are not currently in use.</p> <p>You can easily view, filter and group the Groups list based on active or inactive status using this field. For information about using views, filters, and groupings in lists, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Reporting elements: filters, views, and groupings</a>.</p>  </td> 
      </tr> 
@@ -99,4 +99,3 @@ You must have the following to perform the steps in this article:
    </table>
 
 1. Click **Save.**
-

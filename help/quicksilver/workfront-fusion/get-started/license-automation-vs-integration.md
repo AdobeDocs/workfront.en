@@ -7,8 +7,8 @@ title: Adobe Workfront Fusion licenses
 description: Adobe Workfront Fusion offers two different licenses that determine the functionality you are able to access. Your organization chose one of these licenses when it purchased Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
+exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
 ---
-
 # Adobe Workfront Fusion licenses
 
 Adobe Workfront Fusion offers two different licenses that determine the functionality you are able to access. Your organization chose one of these licenses when it purchased Workfront Fusion.
@@ -97,4 +97,3 @@ For a list of available dedicated connectors, see [Apps and their modules](../..
 1. Uploads the Workfront user ID back to the spreadsheet.
 
 ![](assets/fusion-integration-example--350x171.png)
-

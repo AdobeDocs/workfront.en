@@ -4,9 +4,9 @@ navigation-topic: adobe-workfront-for-creative-cloud
 title: Log time in Adobe Photoshop
 description: You can log time for projects, tasks, and issues you're working on directly in Photoshop. The Workfront administrator determines which project-specific hour types are available as described in Manage hour types.
 author: Courtney
-feature: "Workfront Integrations and Apps, Digital Content and Documents"
+feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
 ---
-
 # Log time in Adobe Photoshop
 
 You can log time for projects, tasks, and issues you're working on directly in Photoshop. The Workfront administrator determines which project-specific hour types are available as described in [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
@@ -67,4 +67,3 @@ You must have the following access to perform the steps in this article:
    ![](assets/copy-of-log-hours-350x236.png)
 
 1. Click **Submit**.
-

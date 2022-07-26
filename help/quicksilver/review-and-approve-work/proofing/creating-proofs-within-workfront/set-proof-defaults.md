@@ -5,8 +5,8 @@ title: Configure personal proofing defaults
 description: You can define personal proof default settings that apply to proofs you create. These defaults are applied each time you generate a first-time proof or upload a new proof version in Workfront.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 278bff89-0305-407b-9def-d06820d908de
 ---
-
 # Configure personal proofing defaults
 
 You can define personal proof default settings that apply to proofs you create. These defaults are applied each time you generate a first-time proof or upload a new proof version in Workfront.
@@ -110,4 +110,3 @@ You must have the following access to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-

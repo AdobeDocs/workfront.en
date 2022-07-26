@@ -5,8 +5,8 @@ title: Reference collections in a report
 description: Reference collections in a report
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
 ---
-
 # Reference collections in a report
 
 <!--
@@ -416,4 +416,3 @@ To add a reference to a collection&nbsp;in the&nbsp;custom prompt of a report:
    Or
 
    Click&nbsp;**Save + Close** to save the report.
-

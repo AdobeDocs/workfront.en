@@ -7,8 +7,8 @@ description: You can import users to the Adobe Workfront site by synchronizing u
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
 ---
-
 # Import users
 
 >[!IMPORTANT]
@@ -95,4 +95,3 @@ For information about how to synchronize users to your Workfront site via LDAP, 
 1. Click **Import**.
 
    You receive a confirmation message at the top of the screen that the user was successfully imported.
-

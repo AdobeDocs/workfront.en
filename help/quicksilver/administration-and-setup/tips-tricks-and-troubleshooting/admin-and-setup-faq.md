@@ -8,8 +8,8 @@ description: Can I create a report that shows users' access to different objects
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 2c340333-00aa-4d59-9599-364cb3dce73c
 ---
-
 # Administration and setup FAQs
 
 Can I create a report that shows users' access to different objects?

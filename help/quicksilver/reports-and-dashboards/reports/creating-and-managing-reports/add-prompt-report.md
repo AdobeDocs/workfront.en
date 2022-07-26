@@ -5,8 +5,8 @@ title: Add a prompt to a report
 description: Filters and prompts are similar in the sense that they both restrict the amount of information which you display in a report.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
 ---
-
 # Add a prompt to a report
 
 ## The difference between prompts and filters
@@ -149,4 +149,3 @@ The following are limitations in sharing prompted reports from Workfront:
 * When you schedule a prompted report for delivery the report in the email attachment includes the data of the report umprompted. When the user clicks the link in the email to access the report, they must log in first to view the report and run the prompt themselves.
 
   For information about scheduling a delivered report, see [Schedule an automatic report delivery](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
-

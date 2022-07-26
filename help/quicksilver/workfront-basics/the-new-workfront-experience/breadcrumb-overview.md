@@ -3,8 +3,8 @@ content-type: overview
 title: Breadcrumbs overview
 description: Breadcrumbs display the full navigational hierarchy for all object types.
 feature: Get Started with Workfront
+exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 ---
-
 # Breadcrumbs overview
 
 Breadcrumbs display the full navigational hierarchy for all object types. Each object in the breadcrumb path has a label that displays the object type. The page that you are currently on displays both in the page header and at the end of the breadcrumb path in italics. In the example below, this is the "Share with Brand Team" task.
@@ -85,4 +85,3 @@ For information about parent objects in Workfront, see [Understand objects in Ad
 1. Click any object in the breadcrumb path to access that object.
 
    The object page opens.
-

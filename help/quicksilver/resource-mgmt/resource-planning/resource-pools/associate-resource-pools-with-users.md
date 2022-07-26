@@ -5,8 +5,8 @@ title: Associate resource pools with users
 description: Associate resource pools with users
 author: Alina
 feature: Resource Management
+exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
 ---
-
 # Associate resource pools with users
 
 <!--
@@ -91,4 +91,4 @@ To associate resource pools with several users in bulk:
 
 1. Click **Save Changes**.
 
-For more information about how to edit users in bulk, see [Edit user profiles in bulk](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md). 
+For more information about how to edit users in bulk, see [Edit user profiles in bulk](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).

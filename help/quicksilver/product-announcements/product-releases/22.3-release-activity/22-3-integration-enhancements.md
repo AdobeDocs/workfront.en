@@ -4,8 +4,8 @@ description: 22.3 Integration enhancements
 author: Luke
 draft: No
 feature: Product Announcements
+exl-id: caaef6a2-a554-4a2c-a86d-df3f19a4f40c
 ---
-
 # 22.3 Integration enhancements
 
 This page describes all Integration enhancements made with the 22.3 release to the Preview environment. These enhancements will be made available in the Production environment in January 2022the week of July 11, 2022. For a list of all changes available with the 22.3 release, see [22.3 Release overview](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).

@@ -5,8 +5,8 @@ title: View activity on a proof within Adobe Workfront
 description: You can view activity that has occurred on the proof. Activity includes recent changes made on the proof, including the date and description of the activity as well as the user who performed the action.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 74907330-4507-4ea6-ac28-8a760723f46b
 ---
-
 # View activity on a proof within Adobe Workfront
 
 You can view activity that has occurred on the proof. Activity includes recent changes made on the proof, including the date and description of the activity as well as the user who performed the action.
@@ -44,4 +44,3 @@ You must have the following access to perform the steps in this article:
 
 1. Hover over the Document that contains the proof, then select **Document details**.
 1. In the left navigation menu, select **Proofing Activities**.
-

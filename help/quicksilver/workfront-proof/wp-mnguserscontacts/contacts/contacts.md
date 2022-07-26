@@ -6,9 +6,9 @@ navigation-topic: manage-your-users-and-contacts
 title: Contacts
 description: This section contains the following articles - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: a8b70462-28bc-45cc-b19a-cb683172d528
 ---
-
 # Contacts
 
 >[!IMPORTANT]
@@ -20,4 +20,3 @@ This section contains the following articles:
 * [Add a Guest to Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md) 
 * [Manage Your Contacts in Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md) 
 * [Understand Users, Members, and Guests in Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
-

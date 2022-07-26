@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Use the My Updates area
-description: Use the My Updates areaMy Work" folder that is conditioned for Classic only)"
+description: You can use the My Updates area to quickly review the approvals waiting for your decision or the conversations you have been included in.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 809605a0-8c24-4873-b98f-504a158be022
 ---
-
 # Use the My Updates area
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My&nbsp;Work" folder that is conditioned for Classic only)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
 -->
 
 You can use the My Updates area to quickly review the approvals waiting for your decision or the conversations you have been included in.
@@ -30,19 +30,19 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>View access or higher to any objects for which you are tagged in a conversation or need to resolve an approval (Projects,&nbsp;Tasks, Issues,&nbsp;Documents)</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>View permissions or higher to projects, tasks, issues, documents where you are tagged in a conversation or need to resolve an approval</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -54,7 +54,7 @@ You must have the following access to perform the steps in this article:
 
 You must have the following before you begin:
 
-* If you have a Workfront license other than Review, your Workfront or Group administrator must add the My&nbsp;Updates area to the Main&nbsp;Menu using a layout template and assign you to that template.
+* If you have a Workfront license other than Review, your Workfront or Group administrator must add the My Updates area to the Main Menu using a layout template and assign you to that template.
 
 * Review-license users can view the My Updates area in their Main Menu by default.
 
@@ -68,11 +68,9 @@ You must have the following before you begin:
 
    The approvals and requests for access that are assigned to you are listed in the first half of the page, under My Updates.
 
-   &nbsp;
-
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
-1. (Optional)&nbsp;Scroll to the bottom of the My&nbsp;Updates area and click the right-pointing arrow to display more approvals that display on additional pages.
+1. (Optional) Scroll to the bottom of the My Updates area and click the right-pointing arrow to display more approvals that display on additional pages.
 
    >[!TIP]
    >
@@ -89,15 +87,15 @@ You must have the following before you begin:
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">All</td> 
+      <td role="rowheader"><strong>All</strong></td> 
       <td>Approvals that are submitted to you or delegated to you by another user. For information about delegating approvals, see <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegate approval request</a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Delegated Approvals</td> 
+      <td role="rowheader"><strong>Delegated Approvals</strong></td> 
       <td>Approvals delegated to you by another user. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">My Approvals</td> 
+      <td role="rowheader"><strong>My Approvals</strong></td> 
       <td> <p>Approvals submitted to you. </p> <p>For more information about approving items, see <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work </a>.</p> </td> 
      </tr> 
     </tbody> 
@@ -105,7 +103,7 @@ You must have the following before you begin:
 
 1. To approve or reject an item or suggest changes to a document before approving do the following:
 
-   1. (Optional) Click the **drop-down** icon ![](assets/down-arrow-blue.png) next to your approval decision (**Approve**, **Changes**,**Reject**) and add a comment, then click&nbsp;**Add**.
+   1. (Optional) Click the **drop-down** icon ![](assets/down-arrow-blue.png) next to your approval decision (**Approve**, **Changes**,**Reject**) and add a comment, then click **Add**.
 
       Or
 
@@ -137,8 +135,8 @@ You must have the following before you begin:
 
    ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
-1. (Optional)&nbsp;Click&nbsp;**Ignore** to clear the access request from your approval list without granting it. 
-1. Click&nbsp;**Delegate my approvals** to delegate the approvals submitted to you if you are unavailable to make approval decisions for some time. For more information about delegating approvals, see [Delegate approval request](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md). 
+1. (Optional) Click **Ignore** to clear the access request from your approval list without granting it. 
+1. Click **Delegate my approvals** to delegate the approvals submitted to you if you are unavailable to make approval decisions for some time. For more information about delegating approvals, see [Delegate approval request](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md). 
 1. Scroll to the **Mentions** area underneath your approvals. Here, you can view all items where you have been included in a conversation.
 
    ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
@@ -147,10 +145,9 @@ You must have the following before you begin:
    >
    >The first 50 mentions display by default.
 
-1. (Optional)&nbsp;Click&nbsp;**Show More Updates** to view more mentions. 
-1. (Optional)&nbsp;Click&nbsp;**Reply** to respond to a comment, enter your response, then click&nbsp;**Reply** again.
+1. (Optional) Click **Show More Updates** to view more mentions. 
+1. (Optional) Click **Reply** to respond to a comment, enter your response, then click **Reply** again.
 
    For more information about updating items, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Click **Pin current page** to pin the My&nbsp;Updates area to your top navigation.
-
+1. (Optional) Click **Pin current page** to pin the My Updates area to your top navigation.

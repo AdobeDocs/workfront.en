@@ -5,9 +5,9 @@ product-area: documents;user-management;system-administration
 navigation-topic: administration-and-setup-for-workfront-library
 title: User access in Workfront Library
 description: This section contains the following articles - EDIT ME.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: f3103f65-83d1-4d2b-adcb-088a7f849fbc
 ---
-
 # User access in Workfront Library
 
 This section contains the following articles:
@@ -18,4 +18,3 @@ This section contains the following articles:
 * [Remove a user's access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/remove-a-users-access-library.md) 
 * [Give users access to a Workfront Library portal](../../../workfront-library/administration-and-setup/user-access/give-users-access-portal.md) 
 * [Permissions in Workfront Library](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md)
-

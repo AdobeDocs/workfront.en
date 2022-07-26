@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: Planned Hours vs. Actual Hours per assignment in a task view"
+title: 'View: Planned Hours vs. Actual Hours per assignment in a task view'
 description: This task view displays the total Planned Hours of a task, the number of Planned Hours allocated to each assignee, the total Actual Hours, and the number of Actual Hours logged by each assignee.
 author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: f249ff57-50c7-4aa9-a563-cb7f5562b96a
 ---
-
 # View: Planned Hours vs. Actual Hours per assignment in a task view
 
 This task view displays the total Planned Hours of a task,&nbsp;the number of Planned Hours allocated to each assignee, the total Actual Hours, and the number of Actual Hours logged by each assignee.
@@ -58,4 +58,3 @@ You must have the following access to perform the steps in this article:
    ```
 
 1. Click **Save View**.
-

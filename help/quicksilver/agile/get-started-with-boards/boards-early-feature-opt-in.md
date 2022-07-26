@@ -5,8 +5,8 @@ navigation-topic: boards
 title: Early feature opt-in for Adobe Workfront Boards
 description: Boards with ad hoc cards are available to all users, and we are excited to open additional features for early feature opt-in.
 author: Lisa
+exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
 ---
-
 # Early feature opt-in for Adobe Workfront Boards
 
 Boards with ad hoc and connected cards are available to all users, and we are excited to open additional boards features for early feature opt-in beginning in July 2022.
@@ -51,7 +51,7 @@ The following table outlines major features of boards along with their current r
    <td>Released</td>
   </tr>
   <tr>
-   <td>Convert standard cards to connected cards</td>
+   <td>Convert ad hoc cards to connected cards</td>
    <td>Released</td>
   </tr>
   <tr>
@@ -65,6 +65,14 @@ The following table outlines major features of boards along with their current r
   <tr>
    <td>Manual estimations on cards</td>
    <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Add a team to a board or a card</td>
+   <td>Planned</td>
+  </tr>
+  <tr>
+   <td>Create a column connected to a Workfront project</td>
+   <td>Planned</td>
   </tr>
  </tbody> 
 </table> 

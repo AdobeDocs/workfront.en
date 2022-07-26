@@ -5,8 +5,8 @@ title: Review graphs to understand goal progress trends in Adobe Workfront Goals
 description: You can view the overall health of your goals and their progress trend in time in the Graphs section of Adobe Workfront Goals. The charts in this section do not break down the progress of each goal, but instead give you a holistic snapshot of all goals' progress status as well as their progress trend in time during a specified period.
 author: Alina
 feature: Workfront Goals
+exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
 ---
-
 # Review graphs to understand goal progress trends in Adobe Workfront Goals
 
 You can view the overall health of your goals and their progress trend in time in the Graphs section of Adobe Workfront Goals. The charts in this section do not break down the progress of each goal, but instead give you a holistic snapshot of all goals' progress status as well as their progress trend in time during a specified period.

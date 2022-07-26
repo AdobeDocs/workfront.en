@@ -5,8 +5,8 @@ title: What's new in API version 11
 description: What's new in API version 11
 author: John
 feature: Workfront API
+exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 ---
-
 # What's new in API version 11
 
 * [Added Resources](#added-resources) 
@@ -1221,4 +1221,3 @@ A Work object is a common interface that both Task and OpTask inherit, and share
   </tr> 
  </tbody> 
 </table>
-

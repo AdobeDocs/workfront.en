@@ -5,8 +5,8 @@ title: Update work
 description: You can add an update on a Adobe Workfront object (project, task, or issue) to communicate about progress on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update.
 author: Lisa and Alina
 feature: Get Started with Workfront
+exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 ---
-
 # Update work
 
 You can add an update on a Adobe Workfront object (project, task, or issue) to communicate about progress on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update.
@@ -260,4 +260,3 @@ To enable or disable system updates:
    ![](assets/show-system-updates-qs-350x55.png)
 
    This option&nbsp;is persistent across all objects throughout Workfront and remains in the position you select, even if you log out of Workfront.
-

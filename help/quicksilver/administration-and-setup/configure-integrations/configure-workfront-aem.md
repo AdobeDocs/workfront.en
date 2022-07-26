@@ -5,10 +5,10 @@ product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 description: As an Adobe Workfront administrator, you can integrate Workfront with Adobe Experience Manager (AEM) Assets and provide your organization with a comprehensive content management solution for the creation, sharing, and maintenance of assets within your workflow.
 author: Courtney
-feature: "System Setup and Administration, Workfront Integrations and Apps"
+feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
 ---
-
 # Configure Workfront with Adobe Experience Manager legacy connector
 
 As an Adobe Workfront administrator, you can integrate Workfront with Adobe Experience Manager (AEM) Assets and provide your organization with a comprehensive content management solution for the creation, sharing, and maintenance of assets within your workflow.  
@@ -323,4 +323,3 @@ For more information about Workfront permissions, see [Create or modify custom a
       To select a group to which the user is a member, select a group in the **Groups that this user is a member of** section.
 
 1. Click **Save.**
-

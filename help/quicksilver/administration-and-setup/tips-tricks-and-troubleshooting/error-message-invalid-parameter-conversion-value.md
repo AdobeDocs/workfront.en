@@ -3,13 +3,13 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Error message: Invalid Parameter: conversion value"
-description: "You receive the following error message when attempting to change the Format of a Custom Field on an existing Custom Form: 'Invalid Parameter: conversion value `<...>`'"
+title: 'Error message: Invalid Parameter: conversion value'
+description: "You receive the following error message when attempting to change the Format of a Custom Field on an existing Custom Form: 'Invalid Parameter: conversion value `&lt;...&gt;`'"
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
 ---
-
 # Error message: Invalid Parameter: conversion value
 
 ## Problem
@@ -56,5 +56,4 @@ Do the following:
 1. Include the Custom Field you are trying to edit in the view of the report, so you can see which object has this field populated with a text value. 
 1. Correct the Custom Field values of the objects that display in a text format and give them a value formatted as Currency; then attempt to change the Format field on the Custom Form again.  
    Or  
-   If you have too many field values already populated with text-formatted information, consider adding a new Custom Field to your Custom Form and format it as Currency.  
-
+   If you have too many field values already populated with text-formatted information, consider adding a new Custom Field to your Custom Form and format it as Currency.

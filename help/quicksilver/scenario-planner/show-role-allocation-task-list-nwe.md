@@ -5,8 +5,8 @@ title: Show role allocation for projects and initiatives in the task list
 description: After you connect projects and initiatives, you can manage their resource allocation side-by-side to ensure they match. This avoids overallocating or underutilizing them.
 author: Alina
 feature: Workfront Scenario Planner
+exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
 ---
-
 # Show role allocation for projects and initiatives in the task list
 
 >[!IMPORTANT]

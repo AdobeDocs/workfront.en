@@ -5,8 +5,8 @@ title: Set up Adobe Workfront for Outlook
 description: Adobe Workfront Fusion offers an integration with Outlook. This article describes how you can start using this integration in your own workflows.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
 ---
-
 # Set up Adobe Workfront for Outlook
 
 The Adobe Workfront Outlook add-in lets you do the following key&nbsp;Workfront tasks directly from Outlook:
@@ -141,4 +141,4 @@ For more information about setting up the Workfront add-in for Outlook, see [Wor
    >[!NOTE]
    >
    >* When you are prompted to enter the domain of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
-   >* Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
+   >* Enhanced Authentication is not available until a Workfront administrator enables it for this integration.

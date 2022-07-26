@@ -5,8 +5,8 @@ title: Configure and use your organization's custom OAuth 2 applications using a
 description: In order to integrate with Workfront and allow your client app to communicate with Workfront on behalf of the user, you must - EDIT ME.
 author: John
 feature: Workfront API
+exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
 ---
-
 # Configure and use your organization's custom OAuth 2 applications using authorization code flow
 
 In order to integrate with Workfront and allow your client app to communicate with Workfront on behalf of the user, you must:

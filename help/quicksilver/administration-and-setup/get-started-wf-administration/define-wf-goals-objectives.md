@@ -8,8 +8,8 @@ description: When implementing Adobe Workfront, it is important to identify the 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
 ---
-
 # Defining objectives for your Adobe Workfront implementation
 
 When implementing Adobe Workfront, it is important to identify the principles of your success criteria. You may want to ask yourself the following questions:

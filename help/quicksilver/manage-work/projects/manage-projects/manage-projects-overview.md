@@ -6,8 +6,8 @@ title: Manage projects
 description: This section contains the following articles - EDIT ME.
 author: Alina
 feature: Work Management
+exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
 ---
-
 # Manage projects
 
 This section contains the following articles:
@@ -32,4 +32,3 @@ This section contains the following articles:
 * [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) 
 * [Project limits overview](../../../manage-work/projects/manage-projects/project-maximums.md) 
 * [Overview of project metrics](../../../manage-work/projects/manage-projects/project-metrics.md)
-

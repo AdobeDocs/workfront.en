@@ -6,8 +6,8 @@ title: Overview of project owners and sponsors
 description: You can designate a Project Owner and a Project Sponsor for a project.
 author: Alina
 feature: Work Management
+exl-id: e3e8be3f-105f-4702-8c93-ae8092f5d5d3
 ---
-
 # Overview of project owners and sponsors
 
 You can designate a Project&nbsp;Owner and a Project Sponsor for a project.
@@ -116,4 +116,3 @@ Consider the following when assigning a Project Sponsor:
 </ol>
 </div>
 -->
-

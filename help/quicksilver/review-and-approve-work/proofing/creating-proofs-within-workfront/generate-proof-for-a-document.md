@@ -5,8 +5,8 @@ title: Create a proof for a document
 description: You can generate a proof for a document at the time you are uploading it to Workfront.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
 ---
-
 # Create a proof for a document
 
 You can generate a proof for a document at the time you are uploading it to Workfront.
@@ -115,4 +115,3 @@ To use drag-and-drop to generate a new proof or new proof version:
      </tr> 
     </tbody> 
    </table>
-

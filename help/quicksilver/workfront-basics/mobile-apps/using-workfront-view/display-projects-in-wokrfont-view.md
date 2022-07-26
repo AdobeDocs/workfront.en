@@ -6,8 +6,8 @@ title: Display projects in Adobe Workfront View
 description: By default, the list of projects displayed in Adobe Workfront View shows the most recent 100 active projects. The list of projects is not grouped by any criteria.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
 ---
-
 # Display projects in Adobe Workfront View
 
 By default, the list of projects displayed in Adobe Workfront View shows the most recent 100 active projects. The list of projects is not grouped by any criteria.
@@ -71,4 +71,3 @@ To view details about a project in Workfront View:
 1. Swipe from right to left to display the following project in the list.  
    The same widgets display for each project, as you scroll through them.  
    ![Image-1__6__copy.jpg](assets/image-1--6--copy-350x262.jpg)&nbsp;
-

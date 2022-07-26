@@ -4,8 +4,8 @@ description: project updates during the 22.3 release timeframe
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
 ---
-
 # 22.3 Project enhancements
 
 This page describes all Project enhancements made with the 22.3 release to the Preview environment. These enhancements were made available in the Production environment the week of July 11, 2022. For a list of all changes available with the 22.3 release, see [22.3 Release overview](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).

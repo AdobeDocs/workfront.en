@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: library-basics
 title: Filter content displayed in Workfront Library
 description: You can use filters to reduce the amount of content that displays in the Library and My Content areas. You can also use filters to narrow Search results. For information on using Search, see Search for items in Workfront Library.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 84efd754-ff6a-48f0-ab65-f91bc6ae73b4
 ---
-
 # Filter content displayed in Workfront Library
 
 You can use filters to reduce the amount of content that displays in the Library and My Content areas. You can also use filters to narrow Search results. For information on using Search, see [Search for items in Workfront Library](../../../workfront-library/content-management/basics/search-for-items-in-workfront-library.md).
@@ -52,4 +52,3 @@ If your organization allows you to add keywords to uploaded content, you can enh
    The filtered results display.
 
 1. (Optional) To close the Filter panel, click the **X** at the upper-right corner of the Filter panel.
-

@@ -5,8 +5,8 @@ title: Create and edit plans in the Scenario Planner
 description: You can create plans as part of using the Workfront Scenario Planner, when prioritizing your company's higher-level strategy. For more information about plans, see Plans overview in the Scenario Planner.
 author: Alina
 feature: Workfront Scenario Planner
+exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
 ---
-
 # Create and edit plans in the Scenario Planner
 
 You can create plans as part of using the Workfront Scenario Planner, when prioritizing your company's higher-level strategy. For more information about plans, see [Plans overview in the Scenario Planner](../scenario-planner/plans-overview.md).
@@ -344,4 +344,3 @@ To create or edit a plan:
 1. (Optional) Click the **Favorites icon** ![](assets/favorites-icon-small.png) to the right of the plan name to add the plan to your list of Favorites. 
 
 1. (Optional) Copy the URL of the plan and send it to any other user that might need to review or update it. They must have at least View access in their access level to be able to view the plan. They must have Edit access to edit it. If they must review financial information on the plan, like budgets, costs, and job role rates information, they must also have access to Financial Data in their Access level. For information about the access needed for the Scenario Planner, see [Access needed to use the Scenario Planner](../scenario-planner/access-needed-to-use-sp.md).
-

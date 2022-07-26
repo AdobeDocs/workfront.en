@@ -8,8 +8,8 @@ title: ServiceNow modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use ServiceNow, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
+exl-id: b362cd8b-06b3-4f4c-b405-a2afc24abddb
 ---
-
 # ServiceNow modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use ServiceNow, as well as connect it to multiple third-party applications and services.
@@ -429,4 +429,3 @@ The module returns any standard fields associated with the record, along with an
   </tr> 
  </tbody> 
 </table>
-

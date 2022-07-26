@@ -5,8 +5,8 @@ title: Add stories to an existing iteration
 description: You can add stories to an iteration in many ways.
 author: Lisa
 feature: Agile
+exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 ---
-
 # Add stories to an existing iteration
 
 You can add stories to an iteration in any of the following ways:
@@ -105,4 +105,3 @@ You can add any task or issue to any iteration if you have Manage access to the 
 1. If you are adding tasks, click **Add Stories**.  
    Or  
    If you are adding issues, click **Add Issues**.
-

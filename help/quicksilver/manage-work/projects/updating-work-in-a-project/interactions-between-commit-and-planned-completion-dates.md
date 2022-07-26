@@ -5,8 +5,8 @@ title: Interactions between the Commit Date and the Planned Completion Date
 description: Interactions between the Commit Date and the Planned Completion Date
 author: Alina
 feature: Work Management
+exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
 ---
-
 # Interactions between the Commit Date and the Planned Completion Date
 
 <!--
@@ -57,4 +57,3 @@ If the Commit Date offered by the assignee is acceptable to the project owner, t
 
 * [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md) 
 * [Update Commit Dates on tasks and issues](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)
-

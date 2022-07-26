@@ -4,9 +4,9 @@ navigation-topic: adobe-workfront-for-creative-cloud
 title: Mark work items complete in Adobe Photoshop
 description: You can stay in Adobe Photoshop and seamlessly complete your work in Adobe Workfront.
 author: Courtney
-feature: "Workfront Integrations and Apps, Digital Content and Documents"
+feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
 ---
-
 # Mark work items complete in Adobe Photoshop
 
 You can stay in Adobe Photoshop and seamlessly complete your work in Adobe Workfront.
@@ -56,4 +56,3 @@ You must have the following access to perform the steps in this article:
 1. Click **Done**.  
    This marks the item complete in Workfront.  
    ![](assets/complete-work-350x529.png)
-

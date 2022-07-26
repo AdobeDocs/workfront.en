@@ -4,9 +4,9 @@ navigation-topic: create and manage programs
 title: Edit programs
 description: You can edit information on programs that you have created, or that other users have created if they shared them with you.
 author: Alina
-feature: "Work Management, Strategic Planning"
+feature: Work Management, Strategic Planning
+exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 ---
-
 # Edit programs
 
 You can edit information on programs that you have created, or that other users have created if they shared them with you.

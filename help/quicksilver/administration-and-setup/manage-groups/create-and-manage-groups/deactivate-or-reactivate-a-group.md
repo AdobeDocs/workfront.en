@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-groups
 title: Deactivate or reactivate a group
 description: You can deactivate a group you manage that you no longer use.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
 ---
-
 # Deactivate or reactivate a group
 
 <!--
@@ -103,4 +103,3 @@ Deactivating a group also deactivates all subgroups below it. If you need to rea
 * Remove the subgroup from its parent group (which makes the subgroup a top-level group). Then enable the Is Active option for the moved group, as explained in the section [Deactivate or reactivate a group](#View) in this article.
 
   For instructions on removing a subgroup from its parent group, see the section [Remove a subgroup from its parent group and make it a top-level group](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) in the article [Manage a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
-

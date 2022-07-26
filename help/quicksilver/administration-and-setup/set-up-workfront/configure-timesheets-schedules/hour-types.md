@@ -8,8 +8,8 @@ description: You can associate hour types with your hour entries. Hour types are
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
 ---
-
 # Manage hour types
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
@@ -128,4 +128,3 @@ To deactivate an hour type:
 1. Select the hour type you want to deactivate.
 
 1. Click **Deactivate**.
-

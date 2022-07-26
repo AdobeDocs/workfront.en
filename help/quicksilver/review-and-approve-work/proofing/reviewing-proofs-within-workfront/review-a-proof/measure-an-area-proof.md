@@ -5,8 +5,8 @@ title: Measure an area within a proof
 description: You can measure an area within a proof.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
 ---
-
 # Measure an area within a proof
 
 You can measure an area within a proof.
@@ -70,4 +70,3 @@ You must have the following access to perform the steps in this article:
 1. (Optional) If you need the measurement area to be an exact size, type **Selection size** values.
 1. (Optional) If you need to measure a certain percentage within an area, check the calculate percentage box. A new box appears allowing you to adjust it  
    ![](assets/calculate-percentage-350x230.png)
-

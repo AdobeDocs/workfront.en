@@ -7,8 +7,8 @@ description: Your users can use severities to define how serious an issue is. Yo
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
 ---
-
 # Create or customize issue severities
 
 <!--

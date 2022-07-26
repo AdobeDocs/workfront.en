@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Display items in the Work List in the Home area
 description: The Work List in the Home area displays all work items that are assigned to you. You can control which items display in the Work List as described below.
 author: Lisa
-feature: "Get Started with Workfront, Work Management"
+feature: Get Started with Workfront, Work Management
+exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
 ---
-
 # Display items in the Work List in the Home area
 
 The Work List in the Home area displays all work items that are assigned to you. You can control which items display in the Work List as described below.
@@ -244,4 +244,3 @@ By default, the This Week grouping is expanded and all other groupings are colla
 
    Or  
    To expand or collapse all groupings simultaneously, click the **Expand** or **Collapse** arrow next to any grouping while holding down the Shift key.
-

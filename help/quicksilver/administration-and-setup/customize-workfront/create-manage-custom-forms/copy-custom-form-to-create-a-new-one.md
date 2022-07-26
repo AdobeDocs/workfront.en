@@ -8,8 +8,8 @@ description: You can create a new custom form that is based on an existing one.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 946a726e-af88-413c-abe3-55fbc7486380
 ---
-
 # Copy a custom form to create a new one
 
 You can create a new custom form that is based on an existing one.
@@ -58,7 +58,7 @@ You must have the following to perform the steps in this article:
      <tr> 
       <td role="rowheader"> <p role="rowheader">Form Types </p> </td> 
       <td> 
-       <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+       <div class="preview"> 
         <p>In the <b>Form Type</b> box, select the object types that you want the custom form to work with, and click the X next to any types that you want to remove. Types that are already associated with the form are disabled in the list.</p> 
         <p> <img src="assets/copy-form-obj-types-350x582.png" style="width: 350;height: 582;"> </p> 
         <p>The form must be associated with at least one object type.</p> 
@@ -85,4 +85,3 @@ You must have the following to perform the steps in this article:
    * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 1. (Optional) After you click **Save+Close**, attach the form to the object where you want to use it, as described in [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
-

@@ -5,8 +5,8 @@ title: Add ad-hoc events to a calendar report
 description: You can add ad-hoc events to a calendar. An ad-hoc event simply serves as a reminder in your calendar and is not associated with a project, task, or issue.
 author: Lisa
 feature: Reports and Dashboards
+exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
 ---
-
 # Add ad-hoc events to a calendar report
 
 You can add ad-hoc events to a calendar. An ad-hoc event simply serves as a reminder in your calendar and is not associated with a project, task, or issue.
@@ -59,4 +59,3 @@ You must have the following access to perform the steps in this article:
 
    1. Click the event on the calendar to open the details page for the event.
    1. Click the trash can icon, then click **Yes, Delete it.**
-

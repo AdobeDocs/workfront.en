@@ -5,8 +5,8 @@ title: Delete plans in the Scenario Planner
 description: You can delete plans that you created. You cannot delete plans that are shared with you.
 author: Alina
 feature: Workfront Scenario Planner
+exl-id: 74515723-3822-425a-aa9e-970af63f9189
 ---
-
 # Delete plans in the Scenario Planner
 
 You can delete plans that you created. You cannot delete plans that are shared with you.

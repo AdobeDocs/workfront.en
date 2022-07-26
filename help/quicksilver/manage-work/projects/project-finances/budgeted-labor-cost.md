@@ -6,8 +6,8 @@ title: Understand Budgeted Labor Cost and Budgeted Hours for projects
 description: Understand Budgeted Labor Cost and Budgeted Hours for projects
 author: Alina
 feature: Work Management
+exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
 ---
-
 # Understand Budgeted Labor Cost and Budgeted Hours for projects
 
 <!--
@@ -159,4 +159,3 @@ For information, see [View resource utilization information](../../../resource-m
   * Task report
   * Issue report
   * Budgeted Hour report
-

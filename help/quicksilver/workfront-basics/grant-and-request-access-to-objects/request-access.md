@@ -5,8 +5,8 @@ title: Request access to objects
 description: Your visibility to objects in Adobe Workfront depends on your access to that type of object as well as your permissions on an individual object.
 author: Alina
 feature: Get Started with Workfront
+exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
 ---
-
 # Request access to objects
 
 Your visibility to objects in&nbsp;Adobe Workfront depends on your access to that type of object as well as your permissions on an individual object.

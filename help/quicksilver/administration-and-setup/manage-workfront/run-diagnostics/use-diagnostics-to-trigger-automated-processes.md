@@ -6,12 +6,12 @@ title: Use Diagnostics to trigger automated processes
 description: Use Diagnostics to trigger automated processes
 feature: System Setup and Administration
 role: Admin
+exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
 ---
-
 # Use Diagnostics to trigger automated processes
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
 You can use Diagnostics to manually trigger automated processes, such as time-based scripts, recalculations, or email notifications.
@@ -78,4 +78,3 @@ You must have the following to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-

@@ -7,8 +7,8 @@ description: The procedure described on this page applies only to organizations 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
 ---
-
 # Configure password policies for authentication
 
 {{important-admin-console-onboard}}
@@ -111,4 +111,3 @@ To configure enhanced authentication preferences:
    {style="table-layout:auto"}
 
 1. Click **Save**.
-

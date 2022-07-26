@@ -5,8 +5,8 @@ title: Delete tasks
 description: You can delete tasks that might be duplicates, or have been created in error.
 author: Alina
 feature: Work Management
+exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
 ---
-
 # Delete tasks
 
 You can delete tasks that might be duplicates, or have been created in error.

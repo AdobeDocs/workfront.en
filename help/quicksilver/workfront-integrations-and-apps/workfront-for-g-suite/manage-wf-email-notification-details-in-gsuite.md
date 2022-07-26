@@ -6,8 +6,8 @@ title: Manage Adobe Workfront notification details from G Suite
 description: In G Suite, when you open a notification email Adobe Workfront has sent, you can view the associated work item details and respond without leaving your Inbox. If actions are available, such as approving a request, you can perform those actions directly from Workfront for G Suite.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
 ---
-
 # Manage Adobe Workfront notification details from G Suite
 
 In G&nbsp;Suite, when you open a notification email Adobe Workfront has sent, you can view the associated work item details and respond without leaving your Inbox. If actions are available, such as approving a request, you can perform those actions directly from Workfront for G Suite.
@@ -109,4 +109,3 @@ Before you can manage notification details from G Suite, you must
      </tr> 
     </tbody> 
    </table>
-

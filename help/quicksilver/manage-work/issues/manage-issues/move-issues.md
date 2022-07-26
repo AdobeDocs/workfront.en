@@ -5,8 +5,8 @@ title: Move issues
 description: You can move issues between projects and tasks.
 author: Alina
 feature: Work Management
+exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
 ---
-
 # Move issues
 
 You can move issues between the following objects:
@@ -145,5 +145,4 @@ You can move one issue when viewing it.
 1. (Optional) In the **Select Task** section, select the task where you want to move the issue. 
 1. Click **Move issue** or **Move issues**, if you selected multiple issues in a list.
 
-   The moved issues are added to the specified project. 
-
+   The moved issues are added to the specified project.

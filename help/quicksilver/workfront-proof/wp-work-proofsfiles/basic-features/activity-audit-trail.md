@@ -6,9 +6,9 @@ navigation-topic: basic-features-workfront-proof
 title: Understanding the Workfront Proof Activity Audit Trail
 description: The Activity Audit Trail page provides you with a complete list of all activity that has taken place in your account.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: eded97f7-19d6-4bd0-be8f-eecc274aaab8
 ---
-
 # Understanding the Workfront Proof Activity Audit Trail
 
 >[!IMPORTANT]
@@ -34,4 +34,3 @@ To access the Activity page:
    * **Authentication log:** Displays all the login activity on the account, showing both successful and unsuccessful attempts.
    * **Billing log:** Displays the billing history on your account. This view is available only to users with Billing Administrator rights.
    * **Email log:** Displays all the emails sent from your account.&nbsp;
-

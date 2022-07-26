@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Grouping: Home Group of Project Owner in a list of hours"
+title: 'Grouping: Home Group of Project Owner in a list of hours'
 description: You can display the name of the Home Group of the Project Owner in an Hour list or report.
 author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 6491ab9b-c09e-4bdb-99c2-56bb44f66947
 ---
-
 # Grouping: Home Group of Project Owner in a list of hours
 
 You can display the name of the Home Group of the Project Owner in an Hour list or report.
@@ -61,4 +61,3 @@ To apply this grouping:
    ```
 
 1. Click **Save Grouping**.
-

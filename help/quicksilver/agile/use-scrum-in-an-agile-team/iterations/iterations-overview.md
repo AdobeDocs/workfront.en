@@ -5,8 +5,8 @@ title: Iterations overview
 description: Agile iterations consist of three areas - completion status, burndown, and the story board.
 author: Lisa
 feature: Agile
+exl-id: db32d3b9-f573-43e3-b4fb-49b75162057b
 ---
-
 # Iterations overview
 
 Agile iterations consist of three areas: completion status, burndown, and the story board.

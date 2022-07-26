@@ -6,8 +6,8 @@ title: Adobe Workfront Scenario Planner
 description: This section contains the following articles - EDIT ME.
 author: Alina
 feature: Workfront Scenario Planner
+exl-id: 3d942ea6-6860-4463-b610-8c120a109071
 ---
-
 # Adobe Workfront Scenario Planner
 
 This section contains the following articles:

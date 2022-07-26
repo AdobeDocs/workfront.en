@@ -5,8 +5,8 @@ title: Update issue Priority
 description: You can define a priority for an issue to indicate how important the issue is.
 author: Alina
 feature: Work Management
+exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
 ---
-
 # Update issue Priority
 
 You can define a priority for an issue&nbsp; to indicate how important the issue is.
@@ -106,4 +106,3 @@ Refer to the following table to understand each&nbsp;default priority label and 
    Depending on how your Workfront administrator configured Priorities in your system, the options might vary.
 
 1. Click&nbsp;**Save Changes**.
-

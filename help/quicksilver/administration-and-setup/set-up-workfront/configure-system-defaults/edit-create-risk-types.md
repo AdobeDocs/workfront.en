@@ -7,8 +7,8 @@ description: You can add risks to a project in the planning phase to identify po
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 ---
-
 # Edit and create risk types
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->

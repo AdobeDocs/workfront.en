@@ -7,8 +7,8 @@ description: You can edit the properties of a custom field, section break, or wi
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
 ---
-
 # Edit properties of a custom field, section break, or widget in a custom form
 
 You can edit the properties of a custom field, section break, or widget that is used in custom form in your Adobe Workfront instance. These include the item's label, name, instructions, and so on.
@@ -49,15 +49,15 @@ You must have the following to perform the steps in this article:
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Or
-   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [future]</span>
+   <span data-mc-conditions="QuicksilverOrClassic.Draft mode"> [future]</span>
    </p>
    -->
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you are editing the properties for an image or video
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   DRAFTED IN FLARE:
    widget
-   </MadCap:conditionalText>
+   
    , click the <b>Widget Library</b> tab.</p>
    -->
 
@@ -67,4 +67,3 @@ You must have the following to perform the steps in this article:
    For information about these options, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) or [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 1. When you are finished, click **Save + Close**.
-

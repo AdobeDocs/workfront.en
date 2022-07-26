@@ -5,9 +5,9 @@ navigation-topic: email-alerts-workfront-proof
 title: Change email alert settings for a proof in Workfront Proof
 description: You can also change the Workfront Proof email alerts you receive for a proof on which you are a reviewer.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: ac24a339-6f9f-4452-a37b-023752447700
 ---
-
 # Change email alert settings for a proof in Workfront Proof
 
 >[!IMPORTANT]
@@ -30,4 +30,3 @@ You can also change the Workfront Proof email alerts you receive for a proof on 
 1. Click the Details page icon in the lower left corner of the proofing viewer. ![Details_page_btn.png](assets/details-page-btn.png)
 
 1. In the Workflow section of the Proof details page that appears, under **Email alerts**, click the option you want in the dropdown menu.
-

@@ -6,8 +6,8 @@ title: Overview of Billing and Revenue
 description: As a project manager, you can use billing rates to capture revenue on your projects.
 author: Alina
 feature: Work Management
+exl-id: 400abcde-e368-4a70-89a9-05027900ab81
 ---
-
 # Overview of Billing and Revenue
 
 As a project manager, you can use billing rates to capture revenue on your projects.
@@ -359,4 +359,4 @@ You can track the following revenue types for projects:
 
 For information about how task Actual Revenue is calculated, see the [Revenue calculations for tasks based on User and Role assignments](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) section in this article.
 
-For the Actual Revenue associated with the hours logged directly to the project or the issues, Workfront uses the Billing Rate of the user who logs the time on the project. If the user has no Billing Rate associated with their profile, Workfront uses the Billing Rate of their Primary Job Role. If both rates are zero, the Actual Revenue associated with the hours logged on the project or the issues is zero. 
+For the Actual Revenue associated with the hours logged directly to the project or the issues, Workfront uses the Billing Rate of the user who logs the time on the project. If the user has no Billing Rate associated with their profile, Workfront uses the Billing Rate of their Primary Job Role. If both rates are zero, the Actual Revenue associated with the hours logged on the project or the issues is zero.

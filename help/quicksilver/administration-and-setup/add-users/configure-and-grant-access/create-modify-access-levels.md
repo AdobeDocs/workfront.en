@@ -7,13 +7,11 @@ description: As an Adobe Workfront administrator, you can create custom access l
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 ---
-
 # Create and modify custom access levels
 
-<!--
-Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.
--->
+<!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
 
 As an Adobe Workfront administrator, you can create custom access levels and apply them to users, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
@@ -86,7 +84,7 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Approval Processes</td> 
-      <td>Create and manage approval processes for use throughout the system and for specific groups.<br><p>Without this access, users can create only adhoc approval processes on items they have access to manage.</p></td> 
+      <td>Create and manage approval processes for use throughout the system and for specific groups.<p>Without this access, users can create only adhoc approval processes on items they have access to manage.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Companies</td> 

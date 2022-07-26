@@ -6,10 +6,10 @@ navigation-topic: create-and-manage-groups
 title: Configure timesheet and hour preferences for a group
 description: At the system level, an Adobe Workfront administrator can unlock the timesheet and hour preference sections General Preferences and Pre-Populate timesheets with. This allows group administrators to configure the options in those sections independently for their own groups.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
 ---
-
 # Configure timesheet and hour preferences for a group
 
 An Adobe Workfront administrator can unlock the following sections of timesheet and hour preferences at the system level so that group administrators can configure them independently for their own groups:
@@ -154,4 +154,3 @@ Consider the following information about configuring an unlocked timesheet or ho
    </table>
 
 1. Click **Save**.
-

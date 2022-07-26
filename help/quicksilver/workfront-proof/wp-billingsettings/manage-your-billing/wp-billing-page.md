@@ -6,9 +6,9 @@ navigation-topic: manage-your-billing-workfront-proof
 title: The Workfront Proof Billing Page
 description: To access the Billing page, open the Settings menu it the top right of the screen and choose Billing in the drop-down menu.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: f3828671-e950-4649-9f6d-881101100a96
 ---
-
 # The Workfront Proof Billing Page
 
 >[!IMPORTANT]
@@ -133,4 +133,3 @@ If you change your plan to one with a lower user limit (1), users exceeding the 
 ![Billing_Downgrade_log.png](assets/billing-downgrade-log-350x45.png)
 
 &nbsp; ![Account_Activity_-_Deleted_users.png](assets/account-activity---deleted-users-350x94.png)
-

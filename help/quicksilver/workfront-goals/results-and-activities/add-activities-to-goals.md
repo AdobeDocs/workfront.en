@@ -6,8 +6,8 @@ title: Add activities to goals in Adobe Workfront Goals
 description: Activities measure the progress of a goal. Without associated results, activities, or aligned goals, a goal cannot be activated and progress cannot be recorded on it.
 author: Alina
 feature: Workfront Goals
+exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
 ---
-
 # Add activities to goals in&nbsp;Adobe Workfront Goals
 
 Activities measure the progress of a goal. Without associated results, activities, or aligned goals, a goal cannot be activated and progress cannot be recorded on it.
@@ -114,4 +114,3 @@ For more information about activities, see [Get started with results and activit
 1. Click **Save**.
 
    The activity is saved for the selected goal. After you activate the goal, the progress of the goal automatically updates when you update the progress of an activity or when the percent complete of a project updates. For information about activating a goal, see [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
-

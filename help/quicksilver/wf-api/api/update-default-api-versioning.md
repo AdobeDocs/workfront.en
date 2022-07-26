@@ -5,8 +5,8 @@ title: Update integrations that use default API versioning
 description: We release new versions of the Adobe Workfront API on a biannual basis. Each version is supported for three years after its release, with an additional year in a deprecated state where the version is available but not supported.
 author: John
 feature: Workfront API
+exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
 ---
-
 # Update integrations that use default API versioning
 
 We release new versions of the Adobe Workfront API on a biannual basis. Each version is supported for three years after its release, with an additional year in a deprecated state where the version is available but not supported.

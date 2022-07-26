@@ -7,8 +7,8 @@ description: Recalculating timelines allows managers to see how forces outside o
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
 ---
-
 # Configure timeline recalculations for projects
 
 Recalculating timelines allows managers to see how forces outside of the project are impacting the project's timeline. A project's timeline refers to the planned and projected dates for the project.

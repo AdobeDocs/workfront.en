@@ -6,9 +6,9 @@ navigation-topic: billing-settings
 title: Manage your billing
 description: This section contains the following articles - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 8c6a8fb5-842f-4322-9a99-550395207206
 ---
-
 # Manage your billing
 
 >[!IMPORTANT]
@@ -22,4 +22,3 @@ This section contains the following articles:
 * [Choosing Your Payment Method in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md) 
 * [Downloading Your Workfront Proof Invoice](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md) 
 * [Close your Workfront Proof account](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
-

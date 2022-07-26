@@ -5,8 +5,8 @@ title: Event Subscription delivery requirements
 description: Event subscription messages are notifications that can be setup to notify users when certain events occur. To learn more about what Event Subscriptions are see FAQs - Event Subscriptions.
 author: John
 feature: Workfront API
+exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
 ---
-
 # Event Subscription delivery requirements
 
 Event subscription messages are notifications that can be setup to notify users when certain events occur. To learn more about what Event Subscriptions are see [FAQs - Event Subscriptions](../../wf-api/general/event-subs-faq.md).
@@ -23,5 +23,3 @@ Service endpoints that consume Adobe Workfront event subscription messages must 
 
    1. the&nbsp;endpoint save the message information upon receipt and immediately respond with a 200-level status. 
    1. After an endpoint has responded to an event subscription delivery request, then the saved messages can be processed.
-
-

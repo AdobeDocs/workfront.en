@@ -7,8 +7,8 @@ description: As a Workfront administrator or a user with full administrative acc
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
 ---
-
 # Add users
 
 >[!IMPORTANT]

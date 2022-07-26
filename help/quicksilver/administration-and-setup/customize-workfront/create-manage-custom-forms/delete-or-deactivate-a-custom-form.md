@@ -7,8 +7,8 @@ description: You can delete or deactivate a custom form from the system.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
 ---
-
 # Delete or deactivate a custom form
 
 You can delete or deactivate a custom form from the system.
@@ -66,4 +66,3 @@ To deactivate a custom form:
 1. Click the **Form Settings** tab.
 1. Disable the **Is Active** option.
 1. Click **Save + Close**.
-

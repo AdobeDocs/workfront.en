@@ -4,8 +4,8 @@ title: Create a Business Case for a project
 description: You can use the Business Case to request a project and define the purpose, the budget, and the potential benefit for the project. The Portfolio Manager or Project Sponsor uses the information from the Business Case to analyze and prioritize the project before they approve it.
 author: Alina
 feature: Work Management
+exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
 ---
-
 # Create a Business Case for a project
 
 You can use the Business Case to request a project and define the purpose, the budget, and the potential benefit for the project. The Portfolio Manager or Project Sponsor uses the information from the Business Case to analyze and prioritize the project before they approve it.
@@ -109,4 +109,3 @@ Consider the following when requesting a project through a Business Case:
    For more information about approving a Business Case, see the article [Approve a Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 1. (Optional) After completing the Business Case, you can export a copy of it to a .pdf file.&nbsp;For more information about exporting the Business Case to a .pdf file, see the section "Export the Business Case" in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
-

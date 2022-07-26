@@ -5,8 +5,8 @@ title: Add stories and issues from the Kanban board
 description: You can quickly create a new story or issue directly from the Kanban board.
 author: Lisa
 feature: Agile
+exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
 ---
-
 # Add stories and issues from the Kanban board
 
 You can quickly create a new story or issue directly from the Kanban board.
@@ -67,4 +67,3 @@ You must have the following access to perform the steps in this article:
    </table>
 
 1. Click **Add Story** or **Add Issue**.
-

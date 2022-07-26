@@ -8,8 +8,8 @@ description: If users are not receiving Adobe Workfront email notifications, you
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
 ---
-
 # Prevent spoofing and add Adobe Workfront SPF records
 
 ## Problem

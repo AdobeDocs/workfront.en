@@ -7,8 +7,8 @@ title: Errors in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
+exl-id: 16205e28-92e3-4c90-afa5-35eb793b239b
 ---
-
 # Errors in Adobe Workfront Fusion
 
 >[!AVAILABILITY]
@@ -23,4 +23,3 @@ This section contains the following articles:
 * [Retry error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/retry.md) 
 * [Throw error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md) 
 * [Advanced error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/advanced-error-handling.md)
-

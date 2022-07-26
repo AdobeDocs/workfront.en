@@ -2,11 +2,11 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Locate the Resource Planner
-description: "(This came off this article: draft that content in the article when this comes live: /Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html)"
+description: '(This came off this article: draft that content in the article when this comes live: /Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html)'
 author: Alina
 feature: Resource Management
+exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
 ---
-
 # Locate the Resource Planner
 
 <!--
@@ -96,4 +96,3 @@ When using the Resource Planner for one project, the allocation numbers for your
    ![](assets/resource-budgeting-area-on-project-350x70.png)
 
    For information about budgeting resources for one project, see the article [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
-

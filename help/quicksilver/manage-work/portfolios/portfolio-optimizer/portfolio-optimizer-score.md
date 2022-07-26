@@ -5,9 +5,9 @@ navigation-topic: portfolio-optimizer
 title: Overview of the Portfolio Optimizer Score
 description: You can find the Portfolio Optimizer score in the Portfolio Optimizer. It displays in the Score column for every project. This represents a score for every project in the portfolio.
 author: Alina
-feature: "Work Management, Strategic Planning"
+feature: Work Management, Strategic Planning
+exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
 ---
-
 # Overview of the Portfolio Optimizer Score
 
 You can find the Portfolio Optimizer score in the Portfolio Optimizer. It displays in the **Score** column for every project. This represents a score for every project in the portfolio.
@@ -107,4 +107,3 @@ After you have scores calculated for each project, the Optimization Score is def
    ```
    Optimization Score = Rounded ((Score - Minimum / Range)*100)
    ```
-

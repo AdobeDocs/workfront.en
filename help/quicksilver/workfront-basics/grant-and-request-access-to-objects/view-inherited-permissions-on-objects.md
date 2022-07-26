@@ -5,8 +5,8 @@ title: View inherited permissions on objects
 description: Your Adobe Workfront administrator can grant you access to view or edit objects when assigning your access level. For more information, see Grant access to projects.
 author: Alina
 feature: Get Started with Workfront
+exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
 ---
-
 # View inherited permissions on objects
 
 Your Adobe Workfront administrator can grant you access to view or edit objects when assigning your access level. For more information, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).

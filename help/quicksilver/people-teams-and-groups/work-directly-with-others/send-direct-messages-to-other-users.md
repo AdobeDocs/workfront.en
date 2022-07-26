@@ -5,7 +5,8 @@ navigation-topic: people-teams-and-groups
 title: Send direct messages to other users
 description: Adobe Workfront enables you to quickly and easily send messages that are unrelated to any work item directly to other Workfront users.
 author: Lisa
-feature: "People Teams and Groups"
+feature: People Teams and Groups
+exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
 ---
 # Send direct messages to other users
 
@@ -59,4 +60,3 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Update.** 
    The message is posted at the top of the list of messages on the **Updates** tab on the user's home page.
-

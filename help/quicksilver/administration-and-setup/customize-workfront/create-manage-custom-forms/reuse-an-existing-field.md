@@ -7,8 +7,8 @@ description: When you are creating or editing a custom form, you can add a custo
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
 ---
-
 # Reuse a custom field or widget in a custom form
 
 When you are creating or editing a custom form, you can add a custom field or widget that has already been added to another custom form.
@@ -66,4 +66,3 @@ You must have the following to perform the steps in this article:
    * [Position custom fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
    * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
    * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-

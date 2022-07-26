@@ -6,8 +6,8 @@ title: Calendar reports overview
 description: A calendar report is actually a dynamic report that provides a visual representation of your work. You can display date information in a calendar report for the following objects - EDIT ME.
 author: Lisa
 feature: Reports and Dashboards
+exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
 ---
-
 # Calendar reports overview
 
 A calendar report is actually a dynamic report that provides a visual representation of your work.&nbsp;You can display date information in a calendar report for the following objects:

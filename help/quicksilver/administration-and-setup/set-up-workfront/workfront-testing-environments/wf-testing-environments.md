@@ -8,12 +8,11 @@ description: You can use two Workfront testing environments that replicate your 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 3d362be8-89c2-4699-a984-59c9234b4a0c
 ---
-
 # Adobe Workfront testing environments
 
 This section contains the following articles:
 
 * [The Adobe Workfront Preview Sandbox Environment](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
 * [The Adobe Workfront Custom Refresh Sandbox environment](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
-

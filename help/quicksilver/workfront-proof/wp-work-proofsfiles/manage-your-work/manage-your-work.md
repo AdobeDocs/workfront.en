@@ -6,9 +6,9 @@ navigation-topic: work-with-proofs-and-files
 title: Manage your work
 description: This section contains the following articles - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: b587653a-caad-4f4c-8abf-4733ad2adfb1
 ---
-
 # Manage your work
 
 >[!IMPORTANT]
@@ -29,4 +29,3 @@ This section contains the following articles:
 * [Understand Proof State in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md) 
 * [Restore and Empty the Trash in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) 
 * [Run Reports in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
-

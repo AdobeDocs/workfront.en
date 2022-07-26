@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can create custom statuses
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
 ---
-
 # Create or edit a status
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->

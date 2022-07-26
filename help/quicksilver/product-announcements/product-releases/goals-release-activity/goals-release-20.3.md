@@ -5,9 +5,9 @@ navigation-topic: goals-release-activity
 title: Workfront Goals with the 20.3 release - August 14, 2020
 description: Workfront Goals is available with the 20.3 release to Production only in the new Adobe Workfront experience.
 author: Luke
-feature: "Product Announcements, Workfront Goals"
+feature: Product Announcements, Workfront Goals
+exl-id: a25cf5e7-72b9-432c-ab72-1a620475ce74
 ---
-
 # Workfront Goals with the 20.3 release - August 14, 2020
 
 Workfront Goals is available with the 20.3 release to Production only in the new Adobe Workfront experience.

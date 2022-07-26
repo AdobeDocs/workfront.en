@@ -8,8 +8,8 @@ description: A condition is a visual representation of how a project, task, or i
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: bbe6f0a0-18bf-4229-a50a-aa7286b82626
 ---
-
 # Custom conditions
 
 A condition is a visual representation of how a project, task, or issue is progressing. As an Adobe Workfront administrator, you can use the conditions created by Workfront for use in projects, tasks, and issues, or you can create custom conditions to more closely match the needs of your organization.

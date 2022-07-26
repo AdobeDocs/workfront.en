@@ -7,8 +7,8 @@ title: Throw error handling in Adobe Workfront Fusion
 description: In some cases you may want to forcibly stop the scenario execution followed by Rollback or Commit phase or to stop the processing of a route and optionally store it in the queue of View and resolve incomplete executions in Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
+exl-id: 6258bd4d-31a0-4fbb-b1b4-8e9a5a9dbe36
 ---
-
 # Throw error handling in Adobe Workfront Fusion
 
 In some cases you may want to forcibly stop the scenario execution followed by [Rollback](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) or [Commit](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit) phase or to stop the processing of a route and optionally store it in the queue of [View and resolve incomplete executions in Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
@@ -60,4 +60,3 @@ You can then attach one of the [Directives for error handling in Adobe Workfront
 The following example shows the use of the Rollback directive:
 
 ![](assets/rollback-directive-350x175.png)
-

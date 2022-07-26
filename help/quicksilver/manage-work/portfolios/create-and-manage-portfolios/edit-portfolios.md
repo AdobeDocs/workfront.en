@@ -4,9 +4,9 @@ navigation-topic: create-and-manage-portfolios
 title: Edit portfolios
 description: You can edit information on portfolios that you have created, or that other users have created if they shared them with you.
 author: Alina
-feature: "Work Management, Strategic Planning"
+feature: Work Management, Strategic Planning
+exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
 ---
-
 # Edit portfolios
 
 You can edit information on portfolios that you have created, or that other users have created if they shared them with you.

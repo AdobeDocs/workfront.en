@@ -5,8 +5,8 @@ title: Gantt Chart overview
 description: This section contains the following articles - EDIT ME.
 author: Alina
 feature: Work Management
+exl-id: b4dc991e-d89c-4167-ac9c-54bda23d08d8
 ---
-
 # Gantt Chart overview
 
 This section contains the following articles:
@@ -17,4 +17,3 @@ This section contains the following articles:
 * [Update information in the task list Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md) 
 * [Level Resources in the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md) 
 * [Export the Gantt Chart to PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
-

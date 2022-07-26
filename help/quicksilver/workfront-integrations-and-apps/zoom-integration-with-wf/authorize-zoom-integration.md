@@ -4,6 +4,7 @@ description: Authorize the Zoom integration
 author: Becky
 draft: Probably
 feature: Workfront Integrations and Apps
+exl-id: 11a110c9-5496-4f99-a024-bbb0f58f6b25
 ---
 # Authorize the Zoom integration
 
@@ -62,4 +63,3 @@ Your Workfront administrator must enable the Zoom integration before you can use
    Now you can click the camera icon ![](assets/zoom-icon-updates.png) in the Workfront Updates area whenever you want to insert a Zoom meeting URL into an update or comment in the Updates area.
 
    ![](assets/zoom-insert-meeting-id-into-update-350x167.png)
-

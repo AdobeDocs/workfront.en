@@ -8,8 +8,8 @@ description: The default layout is the arrangement of the Main Menu , the left p
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
 ---
-
 # About the default Adobe Workfront layout
 
 The default layout is the arrangement of the Main Menu ![](assets/main-menu-icon.png), the left panel, and the views, groupings, and filters before an Adobe Workfront administrator makes any changes using a layout template.
@@ -220,4 +220,3 @@ The following table shows what left panel items are displayed for each access le
   </tr> 
  </tbody> 
 </table>
-

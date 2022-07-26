@@ -7,8 +7,8 @@ title: Error handling in Adobe Workfront Fusion
 description: When errors occur during the execution of a scenario, it's usually because a service is unavailable due to a failure, a service responds with unexpected data, or the validation of input data fails.
 author: Becky
 feature: Workfront Fusion
+exl-id: a08c18a0-1797-4126-827a-1ea7e11d4bad
 ---
-
 # Error handling in Adobe Workfront Fusion
 
 When errors occur during the execution of a scenario, it's usually because a service is unavailable due to a failure, a service responds with unexpected data, or the validation of input data fails.
@@ -89,4 +89,3 @@ On the other hand, if a scenario execution should be stopped, you must use one o
 
 * [Directives for error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md) 
 * [Advanced error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/advanced-error-handling.md) (includes the set up of the Dropbox Scenario referenced above)
-

@@ -8,8 +8,8 @@ title: Marketo modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Marketo, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
+exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
 ---
-
 # Marketo modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Marketo, as well as connect it to multiple third-party applications and services.
@@ -554,4 +554,3 @@ This search module retrieves a list of records that match specific search criter
   </tr> 
  </tbody> 
 </table>
-

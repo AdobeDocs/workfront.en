@@ -6,8 +6,8 @@ title: Table Blocks
 description: This section contains the following articles - EDIT ME.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 2b4e1515-01fa-494f-9a1b-abd148afe0b0
 ---
-
 # Table Blocks
 
 This section contains the following articles:
@@ -17,4 +17,3 @@ This section contains the following articles:
 * [Build a formula field in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md) 
 * [Group table rows in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md) 
 * [Filter a table in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md)
-

@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: metadata
 title: Edit a taxonomy metadata field in Workfront Library
 description: As your organization's digital content collection grows in Workfront Library, you might find that your taxonomy needs to be updated. Only a Workfront Library administrator can edit taxonomy. For more information about taxonomy, see Overview of taxonomy metadata in Workfront Library.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 3c9abeaa-d928-4b77-9267-9c836db949df
 ---
-
 # Edit a taxonomy metadata field in Workfront Library
 
 As your organization's digital content collection grows in Workfront Library, you might find that your taxonomy needs to be updated. Only a Workfront Library administrator can edit taxonomy. For more information about taxonomy, see [Overview of taxonomy metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
@@ -33,4 +33,3 @@ Any changes you make to the taxonomy are applied to the metadata of all new asse
    >[!NOTE]
    >
    >If you edit the value for a multi- or single-select custom field, you must press **Enter** to save the value.
-

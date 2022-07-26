@@ -8,8 +8,8 @@ description: You can install a blueprint in your Production environment or a San
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
 ---
-
 # Install a blueprint
 
 You can install a blueprint in your Production environment or a Sandbox environment.

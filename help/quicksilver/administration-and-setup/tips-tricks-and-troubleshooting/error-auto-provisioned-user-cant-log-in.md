@@ -8,8 +8,8 @@ description: If an auto-provisioned user tries to log in for the first time and 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 4c88933e-d3da-447e-ab6c-be9261a94a19
 ---
-
 # Error: Auto-provisioned user can't log in
 
 When an auto-provisioned user tries to log in for the first time, they receive the following error:

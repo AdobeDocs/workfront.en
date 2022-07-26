@@ -6,8 +6,8 @@ title: Create and manage Request Queues
 description: This section contains the following articles - EDIT ME.
 author: Alina
 feature: Work Management
+exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
 ---
-
 # Create and manage Request Queues
 
 This section contains the following articles:
@@ -26,4 +26,3 @@ This section contains the following articles:
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;last articles - drafted)</p>
 -->
-

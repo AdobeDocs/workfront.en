@@ -5,9 +5,9 @@ product-area: documents
 navigation-topic: content-versioning
 title: Overview of content versioning in Workfront Library
 description: As a user with Manage permission to content, you can use Workfront Library to view and download all iterations of content through the versioning feature. Access older versions of content in Workfront Library
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 835dca2f-d909-4235-b5cd-4bdf353f30af
 ---
-
 # Overview of content versioning in Workfront Library
 
 As a user with Manage permission to content, you can use Workfront Library to view and download all iterations of content through the versioning feature. [Access older versions of content in Workfront Library](../../../workfront-library/content-management/content-versioning/view-older-versions-of-content-library.md)
@@ -24,4 +24,4 @@ When you share content with another user, the entire content package is shared w
 
 An external links to the content package remain active when you upload a new version, allowing users to view the new version. External users can view only the active version of content.
 
-Workfront Library users with access the content are notified of a new version via an in-app notification. 
+Workfront Library users with access the content are notified of a new version via an in-app notification.

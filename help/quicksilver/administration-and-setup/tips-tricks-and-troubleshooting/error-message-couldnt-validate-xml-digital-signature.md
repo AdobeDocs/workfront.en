@@ -8,8 +8,8 @@ description: You are unable to establish a successful connection to ADFS.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: d30a67dd-4f91-41cf-b1ba-fefadc4e396a
 ---
-
 # Error message: Couldn't validate XML digital signature
 
 ## Problem

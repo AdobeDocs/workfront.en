@@ -5,8 +5,8 @@ title: Create or edit a board
 description: From the boards dashboard, you can create a new board or edit an existing board.
 author: Lisa
 feature: Agile
+exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
 ---
-
 # Create or edit a board
 
 From the boards dashboard, you can create a new board or edit an existing board.
@@ -58,4 +58,3 @@ You must have the following access to perform the steps in this article:
 1. Click **All Boards** to return to the boards dashboard.
 
    You can also locate the drop-down menu labeled with the name of the current board, and click it to switch to another board.
-
