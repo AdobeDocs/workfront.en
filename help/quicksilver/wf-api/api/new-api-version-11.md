@@ -18,9 +18,6 @@ feature: Workfront API
  
 * [ReportableBudgetedHour](#reportablebudgetedhour)
 
-
-
-
 ### ReportableBudgetedHour {#reportablebudgetedhour}
 
 ReportableBudgedHour has been added to the Adobe Workfront API as a resource for Reporting. It features reference fields, core fields, and default fields that are absent in BudgetedHour. 
@@ -137,9 +134,7 @@ No resources were removed for API v11.
      <li><a href="#templateassignment" class="MCXref xref">TemplateAssignment</a> </li> 
      <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">Timesheet</a> </li> 
-     <li><a href="#update" class="MCXref xref">Update</a> </li> <!--
-      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
-     --> 
+     <li><a href="#update" class="MCXref xref">Update</a> </li> 
      <li><a href="#usernote" class="MCXref xref">UserNote</a> </li> 
      <li><a href="#work" class="MCXref xref">Work </a> </li> 
     </ul> </td> 
@@ -392,9 +387,6 @@ A Company object represents an organization consisting of a collection of people
 
 ### CustomEnum {#customenum}
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">A CustomEnum object is an enumeration that is created in Workfront to be used in objects and fields throughout Workfront.</p>
--->
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -440,15 +432,7 @@ A Customer object represents an organization that uses an instance of Workfront.
        <li style="font-weight: normal;">CONDITION_OPTASK (Issue Conditions) &nbsp;</li> 
       </ul> </li> 
     </ul> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Reference Fields</td> 
-    <td> 
-     <ul> 
-      <li style="font-weight: bold;"> <p>loginAsSettings</p> <p style="font-weight: normal;">Added. &nbsp;</p> </li> 
-     </ul> </td> 
-   </tr>
-  --> 
+  </tr>
   <tr> 
    <td>Actions</td> 
    <td> <p style="font-weight: normal;">The following actions were added to the Customer object</p> 
