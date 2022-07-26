@@ -276,13 +276,13 @@ This action module reads a single record.
 
 This action module imports, exports, deletes, or processes an action.
 
-<table>
+<table style="table-layout:auto"> 
      <col/>
      <col/>
      <tbody>
       <tr>
         <td role="rowheader">Connection</td>
-        <td>For instructions on creating a connection to Anaplan, see <a href="#Connect" class="MCXref_0">Connect Anaplan to Workfront Fusion</a> in this article.</td>
+        <td>For instructions on creating a connection to Anaplan, see <a href="#Connect" class="MCXref xref" >Connect Anaplan to Workfront Fusion</a> in this article.</td>
       </tr>
       <tr>
         <td role="rowheader">Workspace ID</td>

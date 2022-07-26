@@ -87,7 +87,7 @@ To create a connection for your Adobe Experience Manager Assets modules:
 >For instructions on setting up Server-to-server flow on the Adobe Developer Console, see [Generating Access Tokens for Server Side APIs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 
  
-  <table>
+  <table style="table-layout:auto"> 
           <col/>
           <col/>
           <tbody>
@@ -131,7 +131,7 @@ To create a connection for your Adobe Experience Manager Assets modules:
 
 ### Configure the connection for AEM Assets Basic
 
-   <table>
+   <table style="table-layout:auto"> 
         <col/>
         <col />
         <tbody>
