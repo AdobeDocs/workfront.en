@@ -13,7 +13,7 @@ exl-id: d2f9494a-170d-4600-a282-69ad14a0cf6f
 # Work with a group's objects
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">When new objects are added to the Groups page, don't forget to update the article Manage groups/Groups overview/groups.html</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">When new objects are added to the Groups page, don't forget to update the article Manage groups/Groups overview/groups.html</p>
 -->
 
 This section contains the following articles:

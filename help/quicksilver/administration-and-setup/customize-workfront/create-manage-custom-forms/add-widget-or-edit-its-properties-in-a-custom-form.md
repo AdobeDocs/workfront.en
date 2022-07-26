@@ -8,8 +8,6 @@ exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
 ---
 # Add or edit an image or other asset widget in a custom form
 
-The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
-
 You can add or edit the properties of any of the following asset widgets in a custom form:
 
 * Image

@@ -21,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -101,7 +101,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This action module archives an element from a library.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -124,7 +124,7 @@ This action module archives an element from a library.
 
 This action module returns a single element from a library.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -170,7 +170,7 @@ This action module returns a single element from a library.
 
 This action module retrieves a list of elements in a library.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -224,7 +224,7 @@ This action module retrieves a list of elements in a library.
 
 This action module uploads a small file asset to an existing library. Maximum file size is 5 MB.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -280,7 +280,7 @@ This trigger module starts a scenario when an element is added to a library.
 
 This trigger module starts a scenario when an element in a library is updated.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -310,7 +310,7 @@ This trigger module starts a scenario when an element in a library is updated.
 
 This trigger module starts a scenario when a new library is created.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -329,7 +329,7 @@ This trigger module starts a scenario when a new library is created.
 
 This trigger module starts a scenario when an existing library is updated.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -350,7 +350,7 @@ This trigger module starts a scenario when an existing library is updated.
 
 This module makes a custom API call to the Adobe Creative Cloud Libraries API.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
