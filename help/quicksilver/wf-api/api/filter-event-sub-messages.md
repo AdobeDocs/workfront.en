@@ -125,13 +125,13 @@ The following example in Python shows how to filter project payloads based on th
           ...
       ```
 
-   2. Parse out the message from the event.  
+   1. Parse out the message from the event.  
 
       ```
       event_subscription_message = json.loads(event['body'])
       ```
 
-   3. Obtain the “newState” attribute of the event subscription message.  
+   1. Obtain the “newState” attribute of the event subscription message.  
       The newState attribute represents the updated state of the resource.  
      
       ```
@@ -140,27 +140,25 @@ The following example in Python shows how to filter project payloads based on th
      
       To learn about the newState format, see [Outbound message format for event subscriptions](../../wf-api/api/message-format-event-subs.md).
 
-   4. After parsing the “newState” Map from the message, ensure the object's group ID matches the group  ID you identified in Step 1.
+   1. After parsing the “newState” Map from the message, ensure the object's group ID matches the group  ID you identified in Step 1.
 
-   5. (Conditional) If the IDs do not match, drop the message so that an empty response is returned. 
+   1. (Conditional) If the IDs do not match, drop the message so that an empty response is returned. 
 
-   ```
-      if new_state['groupID'] == DESIRED_GROUP_ID:
-         # Process the message
-         print('matched group ID')
-         process_message(event_subscription_message)
+         ```
+         if new_state['groupID'] == DESIRED_GROUP_ID:
+            # Process the message
+            print('matched group ID')
+            process_message(event_subscription_message)
 
-      return {
-      'statusCode': 200
+         return {
+         'statusCode': 200
+         ```
 
-   ```
+         >[!NOTE]
+         >
+         >Returning an empty, successful response is crucial. Anything besides a 200-level response is considered a failed delivery.
 
-   >[!NOTE]
-   >
-   >Returning an empty, successful response is crucial. Anything besides a 200-level response is considered a failed delivery.
-
-
-   6. Process the message. 
+   1. Process the message. 
 
       ```
       def process_message(event_subscription_message):
@@ -277,9 +275,12 @@ If you are unable to leverage a cloud architecture for event subscription filter
 
 Before using the filtering examples in a cloudless environment, do the following:
 
-* Omit the Lambda-specific pieces of the examples, such as the Context parameter.``` 
+* Omit the Lambda-specific pieces of the examples, such as the Context parameter.
+
 * Change the invocations of other Lambdas in the examples to making additional asynchronous HTTP requests to other filters or processing components that you host.
-* If referring to the Python and Node.js examples, substitute the first event parameter with the first payload parameter shown in the Java example (see Step 1 in [Java](#java)). 
+
+* If referring to the Python and Node.js examples, substitute the first event parameter with the first payload parameter shown in the Java example. See Step 1 in [Java](#java). 
+
 * Deploythe filters or processors with a web-based API.
 
 ### Preventing Missed Event Subscription Messages
@@ -302,14 +303,14 @@ public static List<Map<String, Object>> projectGroupFilteringStartupRecoveryQuer
     projectGroupIdGetRequest.addHeader("apiKey", WORKFRONT_API_KEY);
  
     List<Map<String, Object>> projects = null;
-
-    try {
+    try 
+    {
         HttpResponse response = httpClient.execute(projectGroupIdGetRequest);
         InputStream responseBodyStream = response.getEntity().getContent();
         Reader reader = new InputStreamReader(responseBodyStream);
         Type listType = new TypeToken<List<Map<String, Object>>>(){}.getType();
         projects = new GsonBuilder().create().fromJson(reader, listType);
-    } catch (IOException e) {
+      } catch (IOException e) {
         logger.log("An IOException was thrown while executing a request to Workfront for projects matching the group ID " + DESIRED_GROUP_ID);
     }
     return projects;
