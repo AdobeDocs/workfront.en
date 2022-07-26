@@ -4,6 +4,7 @@ description: Report on the Updates area
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
 ---
 # Report on the Updates area
 
@@ -645,4 +646,3 @@ You can set up the Journal Entry report to show how many times the project owner
 1. Click **Save + Close**.
 
    Your new report loads.
-

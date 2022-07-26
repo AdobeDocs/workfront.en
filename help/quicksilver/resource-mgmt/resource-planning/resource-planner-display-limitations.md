@@ -6,8 +6,8 @@ title: Resource Planner display limitations
 description: To improve performance, Adobe Workfront is limiting the amount of information you can display as well as the amount of information you can export from the Resource Planner.
 author: Alina
 feature: Resource Management
+exl-id: 12f56f11-59fb-4318-b43a-5ac695ca1e7e
 ---
-
 # Resource Planner display limitations
 
 To improve performance, Adobe Workfront is limiting the amount of information you can display as well as the amount of information you can export from the Resource Planner.
@@ -89,4 +89,3 @@ Consider the following when exporting information from the User view of the Reso
 
 * You can export up to 30,000 rows that contain users, as well as the projects and roles listed underneath, whether you have scrolled to the bottom of the list to display them or not. All the users, projects, and roles are included in the exported file, whether they are expanded or not in the web interface. 
 * Rows without allocation information are included in the exported file.
-

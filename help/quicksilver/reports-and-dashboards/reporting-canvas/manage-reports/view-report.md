@@ -4,6 +4,7 @@ description: View a report in Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: 8f124e17-a32b-470d-889e-c3de371e6f2b
 ---
 # View a report in Reporting Canvas
 
@@ -75,4 +76,3 @@ The Reporting Canvas allows you more control over what displays when you view a 
    </tbody>
    </table></li>
    -->
-

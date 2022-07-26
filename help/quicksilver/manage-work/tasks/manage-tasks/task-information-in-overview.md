@@ -5,8 +5,8 @@ title: Manage task information in the Task Details Overview area
 description: Manage task information in the Task Details Overview area
 author: Alina
 feature: Work Management
+exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
 ---
-
 # Manage task information in the Task Details Overview area
 
 <!--
@@ -348,4 +348,3 @@ You must have the following:
    -->
 
 1. Click **Save****Changes**.
-

@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Grouping: tasks by portfolio, program, and project"
+title: 'Grouping: tasks by portfolio, program, and project'
 description: Use this task grouping to group tasks by the portfolio, by program, and then by the project they are associated with.
 author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
 ---
-
 # Grouping: tasks by portfolio, program, and project
 
 Use this task grouping to group tasks by the portfolio, by program, and then by the project they are associated with.
@@ -56,4 +56,3 @@ To apply this grouping:
    <pre>group.0.linkedname=project<br>group.0.namekey=portfolio<br>group.0.notime=false<br>group.0.valuefield=project:portfolio:name<br>group.0.valueformat=string<br>group.1.linkedname=project<br>group.1.namekey=program<br>group.1.notime=false<br>group.1.valuefield=project:program:name<br>group.1.valueformat=string<br>group.2.name=Project<br>group.2.valuefield=project:name<br>group.2.valueformat=HTML<br>textmode=true<br></pre>
 
 1. Click **Save Grouping**.
-

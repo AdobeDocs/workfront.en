@@ -8,8 +8,8 @@ description: The procedure described on this page applies only to organizations 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 4b481215-36a1-4945-828a-1598502529d8
 ---
-
 # Renew the Adobe Workfront SAML 2.0 metadata certificate
 
 >[!IMPORTANT]

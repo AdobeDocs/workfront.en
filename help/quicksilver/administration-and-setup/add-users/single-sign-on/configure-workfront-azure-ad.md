@@ -7,8 +7,8 @@ description: You can configure Workfront Single Sign-On with Azure Active Direct
 author: Becky, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: e489c6fa-be4a-4dd5-90f0-22477e907e1d
 ---
-
 # Configure Adobe Workfront with Azure Active Directory
 
 {{important-admin-console-onboard}}
@@ -118,4 +118,3 @@ To configure the integration of Workfront SSO with Azure Active Directory, you n
 
 1. Specify the **Change Password URL**.
 1. Click **Save**.
-

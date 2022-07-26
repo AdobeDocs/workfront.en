@@ -4,6 +4,7 @@ description: Send a report in Reporting Canvas
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: 04d73036-cc3e-48f4-8dfa-85920d77d404
 ---
 # Send a report in Reporting Canvas
 
@@ -48,7 +49,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas Beta](../../../product-announcements/betas/reporting-canvas-beta.md).
+Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas Beta](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
 
 ## Send a one-time delivery
 
@@ -61,4 +62,3 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 &nbsp;
 
 1. &nbsp;
-

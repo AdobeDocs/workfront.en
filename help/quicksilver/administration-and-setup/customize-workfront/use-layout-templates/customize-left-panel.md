@@ -7,8 +7,8 @@ description: In a layout template, you can customize what users see in the left 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: b100ea35-e045-4021-b5be-2c9071b381da
 ---
-
 # Customize the left panel using a layout template
 
 In a layout template, you can customize what users see in the left panel area throughout Adobe Workfront.
@@ -213,4 +213,3 @@ You must have the following access to perform the steps in this article:
    >[!TIP]
    >
    >You can click Save at any time to save your progress, then continue to modify the template later.
-

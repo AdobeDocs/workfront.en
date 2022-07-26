@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator you can configure the Resource 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
 ---
-
 # Configure Resource Management preferences
 
 <!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
@@ -105,4 +105,3 @@ You must have the following to perform the steps in this article:
      ```
 
 1. Click **Save**.
-

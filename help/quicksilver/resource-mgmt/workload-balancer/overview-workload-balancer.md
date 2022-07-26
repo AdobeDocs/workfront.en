@@ -6,8 +6,8 @@ title: Overview of the Workload Balancer
 description: Overview of the Workload Balancer
 author: Alina
 feature: Resource Management
+exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 ---
-
 # Overview of the Workload Balancer
 
 <!--

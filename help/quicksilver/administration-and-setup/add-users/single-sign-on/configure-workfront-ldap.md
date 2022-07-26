@@ -7,8 +7,8 @@ description: You can use LDAP with Adobe Workfront.
 author: Becky, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: e8036f57-490f-4cf4-9205-2e2659d565d0
 ---
-
 # Configure Adobe Workfront with LDAP
 
 <!--
@@ -70,7 +70,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Search Base</td> 
-      <td>Specify where in the LDAP directory tree Workfront should find and synchronize initial user information from User objects. This is the container where Workfront begins searching for users on the LDAP server.
+      <td><p>Specify where in the LDAP directory tree Workfront should find and synchronize initial user information from User objects. This is the container where Workfront begins searching for users on the LDAP server.</p>
       <p>Use the following format: <code>ou=people,dc=example,dc=com</code>
       </p>
       </td> 
@@ -85,9 +85,8 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Attribute Synchronization</td> 
-      <td>Click <strong>Map User Attributes</strong>, select the Workfront User Attribute that you want to map from the drop-down list, then specify the corresponding Directory Attribute in the Active Directory server. You can also specify a Default Value for the attribute if you want one to be set. Click <strong>Add Mapping</strong> to include additional attributes, then click <strong>Save</strong> when you are finished.
-      <p>When a discrepancy exists between user information in Workfront and Active Directory, and Active Directory is enabled, the information in the Active Directory updates the user information in Workfront.
-      </p>
+      <td><p>Click <strong>Map User Attributes</strong>, select the Workfront User Attribute that you want to map from the drop-down list, then specify the corresponding Directory Attribute in the Active Directory server. You can also specify a Default Value for the attribute if you want one to be set. Click <strong>Add Mapping</strong> to include additional attributes, then click <strong>Save</strong> when you are finished.</p>
+      <p>When a discrepancy exists between user information in Workfront and Active Directory, and Active Directory is enabled, the information in the Active Directory updates the user information in Workfront.</p>
       <p><b>IMPORTANT</b>:  Workfront attempts to map these attributes every time a user with these attributes logs into the system. If you have existing users in the system, make sure you are not overwriting their current access level, or any other attributes, by applying this mapping. </p><p>You can map the following Workfront attributes:</p> 
       <ul> 
        <li>Access Level</li> 
@@ -117,7 +116,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Change Password URL</td> 
-      <td>Specify a URL that will take users to a site where they can reset their user name or password.
+      <td><p>Specify a URL that will take users to a site where they can reset their user name or password.</p>
       <p>This URL is used when Workfront users attempt to change their password through the Workfront interface. Because the LDAP credentials are used to access Workfront, users need to be redirected to a page where they can change their LDAP password instead of completing this activity through Workfront.</p></td> 
      </tr> 
      <tr> 
@@ -126,18 +125,21 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Admin Exemption</td> 
-      <td>Select this option to allow system administrators to access Workfront via the native Workfront login screen with Workfront login credentials. If this option is not selected, Workfront administrators must use their LDAP user name and password.<p>Workfront first attempts to log in to Workfront via LDAP for users with the Workfront System Administrator access level. If the LDAP authentication fails, Workfront uses local authentication for Workfront administrators.</p><p>We recommend that you always have this option selected, to provide your Workfront administrator a way for logging into Workfront in the event that your LDAP server is temporarily unavailable.</p></td> 
+      <td><p>Select this option to allow system administrators to access Workfront via the native Workfront login screen with Workfront login credentials. If this option is not selected, Workfront administrators must use their LDAP user name and password.</p>
+      <p>Workfront first attempts to log in to Workfront via LDAP for users with the Workfront System Administrator access level. If the LDAP authentication fails, Workfront uses local authentication for Workfront administrators.</p>
+      <p>We recommend that you always have this option selected, to provide your Workfront administrator a way for logging into Workfront in the event that your LDAP server is temporarily unavailable.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Enable</td> 
-      <td>Select this option to activate SSO on the Workfront system. Ensure that you have communicated login instructions to your users.<p>After you enable your SSO configuration in Workfront, you must update users for SSO to enable the <strong>Only Allow LDAP Authentication</strong> setting for all users.</p><p>For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p><p>For more information about user settings, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p></td> 
+      <td><p>Select this option to activate SSO on the Workfront system. Ensure that you have communicated login instructions to your users.</p>
+      <p>After you enable your SSO configuration in Workfront, you must update users for SSO to enable the <strong>Only Allow LDAP Authentication</strong> setting for all users.</p>
+      <p>For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p><p>For more information about user settings, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Confirm Configuration</td> 
-      <td>Verify that your Workfront account can connect to the LDAP server using the connection information and credentials provided.<p>Click <strong>Test Connection</strong>, then specify the <strong>Username</strong> and <strong>Password</strong> for accessing the directory service, then click <strong>Test Connection</strong>.</p><p><img src="assets/sso-active-directory-and-ladap-test-connection.png"></p><p>You should receive an on-screen notification that the connection was successful.</p></td> 
+      <td><p>Verify that your Workfront account can connect to the LDAP server using the connection information and credentials provided.</p><p>Click <strong>Test Connection</strong>, then specify the <strong>Username</strong> and <strong>Password</strong> for accessing the directory service, then click <strong>Test Connection</strong>.</p><p><img src="assets/sso-active-directory-and-ladap-test-connection.png"></p><p>You should receive an on-screen notification that the connection was successful.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Click **Save** to save the LDAP configuration.
-

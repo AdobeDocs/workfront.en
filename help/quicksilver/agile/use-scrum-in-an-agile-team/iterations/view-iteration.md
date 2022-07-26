@@ -5,8 +5,8 @@ title: View an iteration
 description: You can view all iterations for a given team, or you can view an individual iteration. Iterations display data about the stories, issues, and documents that are contained in the iteration.
 author: Lisa
 feature: Agile
+exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
 ---
-
 # View an iteration
 
 You can view all iterations for a given team, or you can view an individual iteration. Iterations display data about the stories, issues, and documents that are contained in the iteration.
@@ -48,4 +48,3 @@ You must have the following access to perform the steps in this article:
    The iteration stories display.
 
    ![Stories in iteration](assets/iteration-stories-list-NWE.png)
-

@@ -4,6 +4,7 @@ description: Get started with Adobe Workfront Goals
 author: Alina
 draft: Probably
 feature: Workfront Goals
+exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
 ---
 # Get started with Adobe Workfront Goals
 

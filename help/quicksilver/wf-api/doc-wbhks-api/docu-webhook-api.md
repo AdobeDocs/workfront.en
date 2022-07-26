@@ -5,9 +5,9 @@ navigation-topic: documents-webhooks-api
 title: Document Webhooks API
 description: Adobe Workfront Document Webhooks defines a set of API endpoints through which Workfront makes authorized API calls to an External Document Provider. This allows anyone to create a middleware plugin for any document storage provider.
 author: John
-feature: "Workfront API, Digital Content and Documents"
+feature: Workfront API, Digital Content and Documents
+exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 ---
-
 # Document Webhooks API
 
 Adobe Workfront Document Webhooks defines a set of API endpoints through which Workfront makes authorized API calls to an External Document Provider. This allows anyone to create a middleware plugin for any document storage provider.

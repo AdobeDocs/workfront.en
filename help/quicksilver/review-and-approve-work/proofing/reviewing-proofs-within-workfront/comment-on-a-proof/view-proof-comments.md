@@ -5,8 +5,8 @@ title: View and reply to proof comments
 description: You can view and reply to proof comments made by other reviewers.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
 ---
-
 # View and reply to proof comments
 
 You can view and reply to proof comments made by other reviewers.
@@ -108,4 +108,3 @@ As a reviewer of a proof, you can quickly mark all comments as Read.
    * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
 
 1. Click **Reply**.
-

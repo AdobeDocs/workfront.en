@@ -8,8 +8,8 @@ description: As an Adobe Workfront administrator, you can configure the system d
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
 ---
-
 # Configure system defaults
 
 This section contains the following articles:
@@ -26,4 +26,3 @@ This section contains the following articles:
 * [Create a scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) 
 * [Configure timeline recalculations for projects](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) 
 * [Enable custom quarters for projects](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
-

@@ -5,8 +5,8 @@ title: Manage cards
 description: You can move a card to any column on the board, or copy a card.
 author: Lisa
 feature: Agile
+exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
 ---
-
 # Manage cards
 
 You can move a card to any column on the board, or copy a card.
@@ -75,4 +75,3 @@ You must have the following access to perform the steps in this article:
    ![More menu](assets/boards-moremenu-350x329.png)
 
    A new card is added in the same column with the title "copy of - [original card name]."
-

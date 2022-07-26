@@ -2,9 +2,9 @@
 title: View and manage a group's details
 description: View and manage a group's details
 author: Caroline
-
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
 ---
 # View and manage a group's details
 
@@ -15,12 +15,11 @@ You can view and edit the Group Details page for a group or subgroup that you ma
 * An option that allows you to make the group and its subgroups public or private
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">An option that allows you to deactivate or reactivate a group and its subgroups.<span style="color: #ff1493;"> </span>
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  <span style="color: #ff1493;">Make this change when Callisto adds the </span>
-  <b style="color: #ff1493;">Is active</b>
-  <span style="color: #ff1493;"> option to the Details page</span>
-  </MadCap:conditionalText>
+  <li>An option that allows you to deactivate or reactivate a group and its subgroups.
+  DRAFTED IN FLARE:
+  Make this change when Callisto adds the
+  <b>Is active</b>
+   option to the Details pag
   </li>
   -->
 
@@ -29,11 +28,10 @@ For information about other ways you can manage a group, see [Create a group](..
 For information about how you can deactivate or reactivate a group, see [Deactivate or reactivate a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md). 
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<span style="color: #ff1493;">Delete this paragraph when Callisto adds the </span>
-<b style="color: #ff1493;">Is active</b>
-<span style="color: #ff1493;"> option to the Details page</span>
-</MadCap:conditionalText>
+DRAFTED IN FLARE:
+Delete this paragraph when Callisto adds the
+<b>Is active</b>
+ option to the Details pag
 -->
 
 ## Access requirements
@@ -103,4 +101,3 @@ You must have the following to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-

@@ -7,8 +7,8 @@ description: As a system administrator, you can enable access for users to reque
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
 ---
-
 # Configure access to blueprints
 
 All Adobe Workfront users can browse the catalog of blueprints. As a system administrator, you can enable access for users to request installation of blueprints by setting up a request queue to store the requests. There, you have a single location to track and update requests.
@@ -92,4 +92,3 @@ Before users can request that you install blueprints for them, you must select a
 </ol>
 </div>
 -->
-

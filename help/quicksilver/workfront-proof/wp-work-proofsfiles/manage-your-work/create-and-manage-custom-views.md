@@ -5,9 +5,9 @@ navigation-topic: manage-your-work-workfront-proof
 title: Create and Manage Custom Views in Workfront Proof Proof
 description: You can create custom views of your files and proofs to list the items you want in the ways you want them displayed. You can also export the information in your Custom view as a report (in CSV, comma separated value, file format).
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
 ---
-
 # Create and Manage Custom Views in Workfront Proof Proof
 
 >[!IMPORTANT]
@@ -365,4 +365,3 @@ You can delete a Custom view easily. To do this:
    ![delete__1_.png](assets/delete--1--350x187.png)
 
 1. The default All items view is displayed and your deleted custom view no longer appears in the **Views** drop-down menu.
-

@@ -3,7 +3,8 @@ title: Link assets and folders with the enhanced connector
 description: You can link an asset or folder from Experience Manager Assets to any Workfront object that supports documents.
 author: Courtney
 draft: Probably
-feature: "Digital Content and Documents, Workfront Integrations and Apps"
+feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
 ---
 # Link assets and folders with the enhanced connector
 
@@ -112,4 +113,3 @@ To link a new version from Experience Manager Assets:
    ![](assets/select-an-asset.png)
 
 1. Click **Link**.
-

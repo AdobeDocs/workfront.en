@@ -8,8 +8,8 @@ description: Workfront provides a centrally managed single sign-on (SSO) configu
 author: Caroline, Becky
 feature: System Setup and Administration
 role: Admin
+exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
 ---
-
 # Overview of single sign-on in Adobe Workfront
 
 {{important-admin-console-onboard}}
@@ -57,4 +57,3 @@ Workfront integrates with the following SSO solutions:
 * Other federated solutions that support SAML 2.0 using ADFS
 
   For information about integrating Workfront with SAML 2.0 using ADFS, see [Configure Adobe Workfront with SAML 2.0 using ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).
-

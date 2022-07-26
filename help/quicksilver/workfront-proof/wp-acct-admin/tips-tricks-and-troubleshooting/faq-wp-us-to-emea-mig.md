@@ -3,12 +3,12 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: tips-tricks-and-troubleshooting-account-administration-workfront-proof
-title: "FAQ: Workfront Proof - US to EMEA migration"
+title: 'FAQ: Workfront Proof - US to EMEA migration'
 description: Workfront is directly contacting all organizations affected by the Workfront Proof US to EMEA migration.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: d1aa69e5-f7e5-46d5-814e-e11a999e36db
 ---
-
 # FAQ: Workfront Proof - US to EMEA migration
 
 >[!IMPORTANT]

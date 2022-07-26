@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can use an access level to
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 169f6357-1fbb-43e0-83af-1c4be682ddbf
 ---
-
 # Grant access to programs
 
 As an Adobe Workfront administrator, you can use an access level to define a user's access to programs, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
@@ -63,11 +63,11 @@ For information about what users in each access level can do with programs, see 
 As the owner or creator of a program, you can share with other users by granting them permissions to it, as explained in [Share a program](../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md).
 
 <!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:</p>
-<p style="color: #ff1493;">* reports, dashboards, and calendars</p>
-<p style="color: #ff1493;">* financial data</p>
-<p style="color: #ff1493;">* issue</p>
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:</p>
+<p>* reports, dashboards, and calendars</p>
+<p>* financial data</p>
+<p>* issue</p>
 </div>
 -->
 
@@ -75,4 +75,3 @@ When you share any object with another user, the recipient's rights on it are de
 
 * The permissions that you grant to your recipient for the object
 * The recipient's access level settings for the object's type
-

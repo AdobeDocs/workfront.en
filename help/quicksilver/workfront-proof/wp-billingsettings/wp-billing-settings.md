@@ -6,9 +6,9 @@ navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof Billing Settings
 description: This section contains the following subsections - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 02c9cb75-2610-44a4-a78c-9f9b187cf8e7
 ---
-
 # Workfront Proof Billing Settings
 
 >[!IMPORTANT]
@@ -18,4 +18,3 @@ feature: "Workfront Proof, Digital Content and Documents"
 This section contains the following subsections:
 
 * [Manage your billing](../../workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
-

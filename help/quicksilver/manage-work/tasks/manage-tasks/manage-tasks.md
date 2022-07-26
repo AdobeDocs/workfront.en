@@ -6,8 +6,8 @@ title: Manage tasks
 description: This section contains the following articles - EDIT ME.
 author: Alina
 feature: Work Management
+exl-id: d87311fc-6f60-4fa8-a180-fda6eae473a0
 ---
-
 # Manage tasks
 
 This section contains the following articles:
@@ -29,4 +29,3 @@ This section contains the following articles:
 * [Recurring tasks overview](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md) 
 * [Associate milestones with tasks](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md) 
 * [Convert a task to a project](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
-

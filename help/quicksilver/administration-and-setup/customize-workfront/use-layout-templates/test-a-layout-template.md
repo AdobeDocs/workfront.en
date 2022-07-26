@@ -7,8 +7,8 @@ description: It's important to test the newly or layout template before assignin
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 8786648a-3630-4aa9-8e85-9df47a9e4609
 ---
-
 # Testing a new layout template
 
 It's important to test the newly or layout template before assigning it to users.

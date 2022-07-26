@@ -6,8 +6,8 @@ title: View and resolve incomplete executions in Adobe Workfront Fusion
 description: The Incomplete executions folder stores scenario executions that were not successfully finalized due to an error. Each stored incomplete execution can be resolved either manually or automatically.
 author: Becky
 feature: Workfront Fusion
+exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
 ---
-
 # View and resolve incomplete executions in Adobe Workfront Fusion
 
 The Incomplete executions folder stores scenario executions that were not successfully finalized due to an error. Each stored incomplete execution can be resolved either manually or automatically.
@@ -106,4 +106,3 @@ If an error occurs on any other module and there is no error handler route attac
 * If the error type is `ConnectionError`, `RateLimitError`, `OutOfSpaceError` or `ModuleTimeoutError`, an incomplete execution record with auto-retry is stored.
 * If the error type is `DataError`, `InvalidConfigurationError`, `InvalidAccessTokenError`, `UnexpectedError`, `MaxFileSizeExceededError`, or `MaxResultsExceededError`, an incomplete execution record without auto-retry is stored.
 * If the error type is anything other than the above, the execution fails.
-

@@ -5,9 +5,9 @@ navigation-topic: manage-your-work-workfront-proof
 title: Run Reports in Workfront Proof
 description: Workfront Proof enables you to view reports so you can track the work progress and efficiencies of your teams.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 342f9282-b6f5-425e-a7ef-e23bd011d284
 ---
-
 # Run Reports in Workfront Proof
 
 >[!IMPORTANT]
@@ -101,4 +101,3 @@ To filter reporting information:&nbsp;
 
 1. Select from the various printing options available.  
    The printing options vary depending on&nbsp;the&nbsp;browser&nbsp;and browser version you use.
-

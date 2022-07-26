@@ -5,9 +5,9 @@ navigation-topic: documents-webhooks-api
 title: Get OAuth2 Tokens
 description: Returns the OAuth2 refresh token and access token for an authenticated user. This is invoked once when the the user provisions a Document Provider. Subsequent calls are made to get an updated access token.
 author: John
-feature: "Workfront API, Digital Content and Documents"
+feature: Workfront API, Digital Content and Documents
+exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
 ---
-
 # Get OAuth2 Tokens
 
 ## Getting OAuth2 Tokens (needed OAuth2 authentication only)

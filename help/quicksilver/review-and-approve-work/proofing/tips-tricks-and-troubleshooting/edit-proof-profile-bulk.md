@@ -6,8 +6,8 @@ title: Edit the Proof Permission Profile field in Bulk
 description: You must have the following access to perform the steps in this article - EDIT ME.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: a804a007-7c9f-471e-ad07-8adca6672575
 ---
-
 # Edit the Proof Permission Profile field in Bulk
 
 ## Access requirements
@@ -56,4 +56,3 @@ You must have the following access to perform the steps in this article:
    ![](assets/proof-permission-profile-350x203.png)
 
 1. Click **Save Changes**.
-

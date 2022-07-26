@@ -5,8 +5,8 @@ title: Uploading files via the API
 description: You can upload files using WorkFront APIs with API tools, such as Postman, or with simple cURL commands.
 author: John
 feature: Workfront API
+exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
 ---
-
 # Uploading files via the API
 
 You can upload files using WorkFront APIs with API tools, such as Postman, or with simple cURL commands.
@@ -29,4 +29,4 @@ To upload documents, see the instructions for **Uploading Documents** in WorkFro
         "currentVersion": {"version": "v1.0", "fileName" : "TestPDF"},
         }</pre>You should receive an ID for the object in the response.
 
-Refer to the help of the specific API tool you are using for more information. 
+Refer to the help of the specific API tool you are using for more information.

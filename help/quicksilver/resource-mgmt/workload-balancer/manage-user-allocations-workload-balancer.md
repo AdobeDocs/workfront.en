@@ -5,8 +5,8 @@ title: Manage user allocations in the Workload Balancer
 description: As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer.
 author: Alina
 feature: Resource Management
+exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 ---
-
 # Manage user allocations in the Workload Balancer
 
 As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
@@ -267,4 +267,3 @@ This is possible when the following conditions exist:
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the statement above might include other duration types in the future)</p>
   -->
-

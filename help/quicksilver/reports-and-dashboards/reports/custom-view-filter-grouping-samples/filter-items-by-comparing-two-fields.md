@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filter: eliminate items in a list by comparing two fields"
+title: 'Filter: eliminate items in a list by comparing two fields'
 description: You can filter items out of a list by comparing two of their fields. For example, you can display only tasks where the Actual Completion Date of the task is greater than the Planned Completion Date.
 author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
 ---
-
 # Filter: eliminate items in a list by comparing two fields
 
 You can filter items out of a list by comparing two of their fields. For example, you can display only tasks where the Actual Completion Date of the task is greater than the Planned Completion Date.
@@ -60,4 +60,3 @@ You must have the following access to perform the steps in this article:
    ```
 
 1. Click **Done**, then **Save Filter**.
-

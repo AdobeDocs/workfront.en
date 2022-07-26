@@ -5,8 +5,8 @@ title: Resolve initiative conflicts in the Scenario Planner
 description: When initiatives conflict with one another they are competing for the same resources. The resources you have available for a scenario are not enough to cover all of the resources required by all initiatives in the scenario.
 author: Alina
 feature: Workfront Scenario Planner
+exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
 ---
-
 # Resolve initiative conflicts in the Scenario Planner
 
 When initiatives conflict with one another they are competing for the same resources. The resources you have available for a scenario are not enough to cover all of the resources required by all initiatives in the scenario.

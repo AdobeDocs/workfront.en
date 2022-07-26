@@ -4,8 +4,8 @@ navigation-topic: the-new-workfront-experience
 title: Left navigation in Adobe Workfront
 description: The left navigation panel in Workfront makes it easy to navigate through the system.
 feature: Get Started with Workfront
+exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
 ---
-
 # Left navigation in Adobe Workfront
 
 Most areas and objects in WF use a simple navigation panel on the left side of the screen. The following are benefits of left panel navigation:
@@ -264,4 +264,3 @@ To learn what sections are available for specific areas, see [Default sections i
    >[!NOTE]
    >
    >When you collapse the left panel, Workfront retains your preference even when you navigate to another Workfront object. To expand the left panel again, click the **Expand** icon ![](assets/left-panel-expand-icon.png).
-

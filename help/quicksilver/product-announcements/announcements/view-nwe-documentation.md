@@ -5,8 +5,8 @@ title: View documentation resources for the new Adobe Workfront experience
 description: The Adobe Workfront product documentation is available for both the new Adobe Workfront experience and Adobe Workfront Classic.
 author: Luke
 feature: Product Announcements
+exl-id: 51e702bb-5669-4fe4-b10b-e1a1f7cac73b
 ---
-
 # View documentation resources for the new Adobe Workfront experience
 
 The Adobe Workfront product documentation is available for both the new Adobe Workfront experience and Adobe Workfront Classic.

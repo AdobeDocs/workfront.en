@@ -6,8 +6,8 @@ title: Kanban overview
 description: Review this article to better understand how the Kanban board functions.
 author: Lisa
 feature: Agile
+exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
 ---
-
 # Kanban overview
 
 The following sections enable you to better understand how the Kanban board functions:
@@ -52,4 +52,3 @@ You can do the following actions when using the Kanban board:
 * [Update the status of stories on the Kanban board](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md) 
 * [Use flags on stories on the Kanban board](../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md) 
 * [Add the backlog to the Kanban board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
-

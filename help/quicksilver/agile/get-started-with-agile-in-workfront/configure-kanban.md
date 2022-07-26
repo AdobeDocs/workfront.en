@@ -5,8 +5,8 @@ title: Configure Kanban
 description: You can configure the following options for Kanban agile teams during or after the team is created.
 author: Lisa
 feature: Agile
+exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 ---
-
 # Configure Kanban
 
 You can configure the following options for agile teams during or after the team is created. You create an agile team (Kanban or Scrum) in Adobe Workfront as described in [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
@@ -195,4 +195,3 @@ You can choose how long completed cards stay on the Kanban board. Tasks that fal
 
 1. In the **Number of days Completed cards stay on the Kanban board** drop-down menu, select a value.
 1. Click **Save Changes**.
-

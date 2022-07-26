@@ -8,8 +8,8 @@ description: The Preview Sandbox is a testing environment that serves as a repli
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
 ---
-
 # The Adobe Workfront Preview Sandbox Environment
 
 There are two testing environments for Workfront that are replicas of your Workfront production environment:

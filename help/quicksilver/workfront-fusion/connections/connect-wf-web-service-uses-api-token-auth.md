@@ -6,8 +6,8 @@ title: Connect Adobe Workfront Fusion to a web service that uses API token autho
 description: Some services do not allow integration solutions such as Adobe Workfront Fusion to create an app that you can easily use in your scenario.
 author: Becky
 feature: Workfront Fusion
+exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
 ---
-
 # Connect Adobe Workfront Fusion to a web service that uses API token authorization
 
 Some services do not allow integration solutions such as Adobe Workfront Fusion to create an app that you can easily use in your scenario.
@@ -178,4 +178,3 @@ For more information about the JSON modules, see [JSON modules](../../workfront-
    -->
 
    Now when you run the scenario, the push notification is sent to the device that has been registered in your Pushover account.
-

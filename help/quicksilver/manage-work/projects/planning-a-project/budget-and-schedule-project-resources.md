@@ -5,8 +5,8 @@ title: Budget and schedule project resources
 description: Budget and schedule project resources
 author: Alina
 feature: Work Management
+exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
 ---
-
 # Budget and schedule project resources
 
 <!--
@@ -30,4 +30,3 @@ Ensure you do the following as you finalize planning for your projects in&nbsp;A
 
    * [Overview of the Workload Balancer](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 
    * [Resource Scheduling](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
-

@@ -7,8 +7,8 @@ description: You can configure details of the project template or organizational
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
 ---
-
 # Configure a blueprint
 
 You can configure details of the project template or organizational structure before you install the blueprint.

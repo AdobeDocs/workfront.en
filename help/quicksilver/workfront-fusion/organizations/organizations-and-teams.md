@@ -7,8 +7,8 @@ title: Adobe Workfront Fusion organizations and teams
 description: Adobe Workfront Fusion's Organization and Teams features make it possible for enterprises to control access to scenarios and other features within Fusion.
 author: Becky
 feature: Workfront Fusion
+exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
 ---
-
 # Adobe Workfront Fusion organizations and teams
 
 Adobe Workfront Fusion's Organization and Teams features make it possible for enterprises to control access to scenarios and other features within Fusion.
@@ -182,4 +182,4 @@ Email notification options are set on the team level.
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/organization-add-team-350x181.png" style="width: 350;height: 181;"> </p>
 -->
 
-Team administrators are able to change team membership. Team management is accessible from the “Teams” option from left navigation. 
+Team administrators are able to change team membership. Team management is accessible from the “Teams” option from left navigation.

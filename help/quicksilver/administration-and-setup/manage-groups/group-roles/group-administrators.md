@@ -6,10 +6,10 @@ product-area: system-administration;user-management
 navigation-topic: group-roles
 description: Adobe Workfront administrators in a large organization with many departments might not want to manage all the organization's departments and groups within those departments. Instead, they can create a group for each department and subgroups within that group, each managed by a group administrator.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
 ---
-
 # Group administrators
 
 Adobe Workfront administrators in a large organization with many departments might not want to manage all the organization's departments and groups within those departments. Instead, they can create a group for each department and subgroups within that group, each managed by a group administrator.
@@ -102,4 +102,3 @@ As a group administrator, you can carry out the tasks below to manage the groups
 
 * Create and edit group statuses for groups you manage. For more information, see [Create or edit a group status](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 * Configure an event notification for groups you manage. You can do this only after a Workfront administrator unlocks the ability to configure event notifications for groups through out the system. For more information, see [View and configure event notifications for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
-

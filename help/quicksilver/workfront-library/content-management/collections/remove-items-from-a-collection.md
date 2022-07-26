@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: collections
 title: Remove items from a collection in Workfront Library
 description: You can remove assets and folders from any collection to which you have Manage permissions.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 460dd40c-e3ad-4093-84bf-66e45200a73d
 ---
-
 # Remove items from a collection in Workfront Library
 
 You can remove assets and folders from any collection to which you have Manage permissions.
@@ -30,4 +30,3 @@ You can remove assets and folders from any collection to which you have Manage p
    The item is removed from the collection.
 
    If the item you removed was used for the cover image on the collection, it remains as the cover image even though the item is no longer in the collection.
-

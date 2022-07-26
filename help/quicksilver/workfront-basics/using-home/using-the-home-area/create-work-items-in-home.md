@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Create work items from the Home area
 description: Create work items from the Home area
 author: Lisa
-feature: "Get Started with Workfront, Work Management"
+feature: Get Started with Workfront, Work Management
+exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
 ---
-
 # Create work items from the Home area
 
 <!--
@@ -104,4 +104,3 @@ You can add a task or issue to an existing project directly from the Home area:
 
 1. Click&nbsp;**Select date**, then select the&nbsp;date and time when the task is due.
 1. Click **Create** to save the task.
-

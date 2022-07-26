@@ -5,8 +5,8 @@ title: Receive email invitations and create a password for Adobe Workfront
 description: You must have the following access to perform the steps in this article - EDIT ME.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
 ---
-
 # Receive email invitations and create a password for Adobe Workfront
 
 ## Access requirements
@@ -67,4 +67,3 @@ To create a password for Workfront using the invitation email:
 1. Select **I accept the Terms and Conditions**.
 1. Click **Log Me In**.  
    This completes the creation of your user account in Workfront.&nbsp;
-

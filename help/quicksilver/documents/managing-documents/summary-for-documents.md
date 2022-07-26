@@ -6,8 +6,8 @@ title: Summary for documents overview
 description: The Summary allows you to interact with important information directly from the documents list.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 ---
-
 # Summary for documents overview
 
 The Summary allows you to interact with important information directly from the documents list.
@@ -101,4 +101,3 @@ Use the Versions section to view the number of versions created for a specific d
 * Delete a proof or document
 
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
-

@@ -4,9 +4,9 @@ navigation-topic: create and manage programs
 title: Create a program
 description: A program represents a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. Programs cannot exist outside of a portfolio.
 author: Alina
-feature: "Work Management, Strategic Planning"
+feature: Work Management, Strategic Planning
+exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 ---
-
 # Create a program
 
 A program represents a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. Programs cannot exist outside of a portfolio.

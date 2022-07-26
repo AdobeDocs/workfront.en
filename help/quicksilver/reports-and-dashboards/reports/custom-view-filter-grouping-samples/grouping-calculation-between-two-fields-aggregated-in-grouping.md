@@ -3,12 +3,12 @@ content-type: reference
 product-area: reporting;projects
 keywords: calculated,aggregates,advanced,views
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Grouping: display the result of aggregating multiple calculated values in a grouping"
+title: 'Grouping: display the result of aggregating multiple calculated values in a grouping'
 description: You can use text mode in a column to display a calculation between two fields in the view of a report or list. Each line displays the calculation for each object in the report or list.
 author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
 ---
-
 # Grouping: display the result of aggregating multiple calculated values in a grouping
 
 You can use text mode in a column to display a calculation between two fields in the view of a report or list. Each line displays the calculation for each object in the report or list.
@@ -135,4 +135,3 @@ viewalias=workrequired<br>displayname=Work Balance<br><br></pre>
 1. Click **Save+Close**.
 
 &nbsp;
-

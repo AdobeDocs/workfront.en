@@ -1,19 +1,19 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: Reporting Canvas beta
-description: Information on the beta program for the upcomming Adobe Workfront Reporting Canvas feature
+title: Reporting Canvas beta overview
+description: Information on the beta program for the upcomming Reporting Canvas tool for Adobe Workfront
 author: Nolan
 feature: Product Announcements
+exl-id: cc0adf28-08ab-4330-b901-219ab687f02f
 ---
+# Reporting Canvas beta overview
 
-# Reporting Canvas beta
-
-## Reporting Canvas Overview
+## The Reporting Canvas beta
 
 A complete reimagination of reporting in Workfront, the new Reporting Canvas tool is nearing completion and will soon be available for public testing. In developing Reporting Canvas, we have worked hard to provide an experience that offers maximal flexibility coupled with an intuitive, modular design—so that users like you can most effectively leverage your own data in making and sharing reports. Through a new, unified report type that allows you to drag-and-drop nearly every element onto a limitless canvas, creating a visual data masterpiece will soon be easier than ever before.
 
-We are excited to open Reporting Canvas for public beta beginning in April 2022. This article contains information about how this beta will function and how your organization can help us improve Reporting Canvas before its official launch.
+This article contains information about how the beta will function and how your organization can help us improve Reporting Canvas before its official launch.
 
 ### Release schedule
 
@@ -21,13 +21,17 @@ We are excited to open Reporting Canvas for public beta beginning in April 2022.
 
   >[!NOTE]
   >
-  >We are excited to be starting a roll-out of the Reporting Canvas Beta. Over the past few weeks, we have had tremendous interest to join the Reporting Canvas Beta. Due to the volume of customers joining the beta, we are going to limit the ability for any additional customers to join at this time. Starting July 19, 2022, any customers who have not already joined the Reporting Canvas beta by accepting terms will have the beta icon removed from their Workfront production instance. We will ensure more customers can join this beta later in 2022 and will announce updates as the beta becomes available to more customers.
+  >We are excited to begin our roll-out of the Reporting Canvas beta. Over the past few weeks, we have had tremendous interest from customers to join the beta. Due to the volume of customers joining the beta, we are limiting the ability of any additional customers to join at this time. Starting July 19, 2022, any customers who have not already joined the Reporting Canvas beta by accepting the terms will have the beta icon removed from their Workfront production instance. We will ensure more customers can join this beta later in 2022 and will announce updates as the beta becomes available to more customers.
 
 * Official release: TBD
 
 ### Features
 
 In developing Reporting Canvas, we have radically redesigned some features—and created some new ones from the ground up—for the purpose of streamlining report making. The following table outlines major features of Reporting Canvas in comparison to existing reporting tools, as well as their current release status:
+
+>[!NOTE]
+>
+>For a chronological list of added features and resolved issues, see [Reporting Canvas beta: release activity](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md). 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -202,12 +206,12 @@ To opt in other users that are not Workfront administrators:
    >Users that you grant access to Reporting Canvas will have access to **all** data in the system in a read-only capacity, regardless of their standard permissions to view this data.
 
 1. Click **Save**.
-1. Add the **Reporting (beta)** icon into the main layout template of each user that was selected. For more information, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+1. Add the **Reporting (beta)** icon into the main layout template of each user that was selected. For more information, see [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 1. Each user must then individually navigate to the **Reporting (beta)** icon in their main menu and accept the terms and conditions.
 
 ### Submit feedback
 
-For information about known beta issues, see [Reporting Canvas beta: known issues](../../product-announcements/betas/reporting-canvas-known-issues.md).
+For information about known beta issues, see [Reporting Canvas beta: known issues](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-known-issues.md).
 
 To submit feedback about the beta:
 

@@ -5,8 +5,8 @@ title: Copy a dashboard
 description: You can copy a dashboard and all of its contents (reports, calendars, and external pages). When you copy the contents of a dashboard, you can choose to keep them as they appear on the original dashboard, or create new items which are copies of those on the original dashboard. You can also choose to not transfer or copy items on the new dashboard.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
 ---
-
 # Copy a dashboard
 
 You can copy a dashboard and all of its contents (reports, calendars, and external pages). When you copy the contents of a dashboard, you can choose to keep them as they appear on the original dashboard, or create new items which are copies of those on the original dashboard. You can also choose to not transfer or copy items on the new dashboard.
@@ -88,4 +88,3 @@ For information on creating dashboards, see [Create a dashboard](../../../report
       * If the user copying the dashboard and its reports has Administrator access rights.
       * If the user copying the dashboard and its reports is currently set as the Run this report with the Access Rights of for the reports being copied.
       * If the user copying the report has Manage permissions on the report.
-

@@ -3,13 +3,13 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Error message: There is a slight problem. That field is used in a multi-form configuration"
+title: 'Error message: There is a slight problem. That field is used in a multi-form configuration'
 description: When you change a calculation in a calculated custom field on a custom form and an error message tells you that the field is used in a multi-form configuration, you need to replace the field with a new field containing the calculation you want to use.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 43668525-5572-4d82-8eed-0e320249f296
 ---
-
 # Error message: There is a slight problem. That field is used in a multi-form configuration
 
 ## Problem
@@ -147,4 +147,3 @@ To avoid losing data in the existing calculated custom field, or if you need to 
 <p>For more information about creating a custom form and adding or removing fields from it, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a>.</p>
 </blockquote>
 -->
-

@@ -5,8 +5,8 @@ title: Ending support for JSONP
 description: Because JSONP (Javascript with Padding) is an old standard with known security vulnerabilities, Adobe Workfront will no longer support JSONP as of November 2018. This decision supports our larger initiative to modernize the Workfront platform.
 author: John
 feature: Workfront API
+exl-id: 681336c2-2f41-4746-8cba-be077f556742
 ---
-
 # Ending support for JSONP
 
 Because JSONP (Javascript with Padding) is an old standard with known security vulnerabilities, Adobe Workfront will no longer support JSONP as of November 2018. This decision supports our larger initiative to modernize the Workfront platform.
@@ -25,4 +25,3 @@ If you are using JSONP as part of any of your Workfront integrations, you must u
 
     
 1. Make changes to your integration code to use CORS.
-

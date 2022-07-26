@@ -5,8 +5,8 @@ title: Downloading a Proof in the proofing viewer
 description: You can download files from an existing proof. Comments and other information associated with the proof are not included in the download.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: dae3e083-3ad4-4a59-9e04-b017d078a89b
 ---
-
 # Downloading a Proof in the proofing viewer
 
 You can download files from an existing proof. Comments and other information associated with the proof are not included in the download.
@@ -49,4 +49,3 @@ You must have the following access to perform the steps in this article:
    ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
 
 1. Browse to the location on your file system where you want to download the proof, then click **Save**.
-

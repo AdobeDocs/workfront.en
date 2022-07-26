@@ -7,8 +7,8 @@ description: If your firewall or mail server is configured to allow access to on
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
 ---
-
 # Configure your firewall's allowlist
 
 If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows the following processes:
@@ -478,8 +478,6 @@ If your organization uses outbound network filtering, add the following domains 
 </table>
 
 ## IP addresses and URLs to add for accessing Workfront Proof
-
-The highlighted information in this section was announced on October 15, 2021, and are required as of November 15, 2021.
 
 You must add the following IP addresses to your allowlist in order to use various functions.
 

@@ -4,8 +4,8 @@ title: Enable delivery of emails from the Preview Sandbox environment
 description: Keep the text in this article highlighted in yellow always
 author: Lisa
 feature: Get Started with Workfront
+exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
 ---
-
 # Enable delivery of emails from the Preview Sandbox environment
 
 <!--
@@ -81,4 +81,3 @@ You must have the following access to perform the steps in this article:
    >This option is not available if you are in a production environment.
 
 1. Click **Save Changes**.
-

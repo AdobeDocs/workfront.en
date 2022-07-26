@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator or a group administrator, you c
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
 ---
-
 # Brand Adobe Workfront using a layout template
 
 You can use a layout template to customize the logos in the top navigation area and on the Main Menu for certain groups, teams, job roles, and users. This is especially useful for groups in a large organization that have their own branding.

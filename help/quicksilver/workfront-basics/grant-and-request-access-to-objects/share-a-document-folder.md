@@ -5,8 +5,8 @@ title: Share a document folder
 description: You can share a folder and its contents from the Documents area.
 author: Alina
 feature: Get Started with Workfront
+exl-id: c0d318a8-b1cf-4522-b478-acf092687658
 ---
-
 # Share a document folder
 
 You can share a folder and its contents from the Documents area.
@@ -136,4 +136,3 @@ When you share an object that has a document folder, your recipients also get ac
   For information about the "Never inherit" option, see [Configure access to Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
 
   For information about sharing a document, see [Share a document](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
-

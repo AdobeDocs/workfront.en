@@ -5,10 +5,10 @@ navigation-topic: work-with-a-groups-objects
 title: Create and modify a group's schedules
 description: When you are viewing a group that you manage in the Groups area, you can view and work with the schedules for which the administrators of the group, or one of its subgroups, have administrative access.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
 ---
-
 # Create and modify a group's schedules
 
 When you are viewing a group that you manage in the Groups area, you can view and work with the schedules for which the administrators of the group, or one of its subgroups, have administrative access.
@@ -57,4 +57,3 @@ You must have the following to perform the steps in this article:
    * Click **New Schedule** to create a new schedule
    * Select a schedule, then use the controls on the toolbar to **Edit**, **Copy**, or **Delete** it. 
    * **Export** the list of schedules for the group.
-

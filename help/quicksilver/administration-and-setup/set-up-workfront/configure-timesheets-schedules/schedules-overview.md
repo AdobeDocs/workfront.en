@@ -9,8 +9,8 @@ description: You can define your work week by using schedules. You can associate
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
 ---
-
 # Schedules overview
 
 You can define your work week using schedules and associate a schedule with a user or a project. This allows Adobe Workfront to calculate timelines and user availability. For instructions, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).

@@ -5,8 +5,8 @@ title: Share a goal in Workfront Goals
 description: When you share a goal you give Manage permissions to a goal to someone who did not create it.
 author: Alina
 feature: Workfront Goals
+exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
 ---
-
 # Share a goal in Workfront Goals
 
 When you share a goal you give Manage permissions to a goal to someone who did not create it.

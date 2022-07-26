@@ -6,10 +6,10 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: You can integrate Adobe Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.
 author: Becky, Caroline
-feature: "System Setup and Administration, Workfront Integrations and Apps"
+feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
 ---
-
 # Adobe Workfront integrations
 
 You can integrate Adobe Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.

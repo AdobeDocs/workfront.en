@@ -3,8 +3,8 @@ navigation-topic: use-lists
 title: Get started with lists in Adobe Workfront
 description: You can view lists of objects in Adobe Workfront to get information about them, such as their start and due dates, users assigned to them, and other objects that are associated with them.
 feature: Get Started with Workfront
+exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
 ---
-
 # Get started with lists in Adobe Workfront
 
 <!--

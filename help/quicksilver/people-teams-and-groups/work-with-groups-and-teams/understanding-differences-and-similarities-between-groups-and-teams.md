@@ -5,9 +5,9 @@ navigation-topic: work-with-groups-and-teams
 title: Groups vs. teams in Adobe Workfront
 description: Groups and teams are collections of users in Adobe Workfront.
 author: Lisa
-feature: "People Teams and Groups"
+feature: People Teams and Groups
+exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
 ---
-
 # Groups vs. teams in Adobe Workfront
 
 Groups and teams are collections of users in Adobe Workfront.
@@ -59,4 +59,3 @@ The following table illustrates differences and similarities between groups and 
 | Customize Statuses |✓&nbsp; |&nbsp; |
 | Customize the Done button |&nbsp; |✓ |
 | Track licenses |✓ |&nbsp; |
-

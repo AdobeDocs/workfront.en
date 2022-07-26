@@ -5,8 +5,8 @@ title: Print a dashboard
 description: You can print or export a dashboard to a .PDF file. To print a dashboard, you must have permission to View it.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
 ---
-
 # Print a dashboard
 
 You can print or export a dashboard to a .PDF file. To print a dashboard, you must have permission to View it.
@@ -96,4 +96,3 @@ The following information is not included in the printed or exported dashboard f
    To learn how to save the dashboard as a .PDF file, see [Export a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 1. Click **Print**.
-

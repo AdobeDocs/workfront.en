@@ -5,8 +5,8 @@ title: Configure My Settings
 description: Your Adobe Workfront profile contains information about yourself (for example, your name, email address, address, phone number, title, etc). It also contains information about your interactions with Workfront and other users in your company.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 ---
-
 # Configure My Settings
 
 <!--

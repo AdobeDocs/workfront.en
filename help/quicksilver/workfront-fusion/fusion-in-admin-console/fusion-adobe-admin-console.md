@@ -7,8 +7,8 @@ title: Platform-based administration differences (Adobe Workfront Fusion/Adobe B
 description: As an Adobe Workfront Fusion administrator, your administration responsibilities and procedures differ based on whether your organization has been onboarded to the Adobe Business Platform. This article lists the procedures that must be handled differently, and links to instructions for processes in both Workfront Fusion and the Adobe Admin Console.
 author: Becky
 feature: Workfront Fusion
+exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
 ---
-
 # Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)
 
 If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access Adobe Workfront Fusion. This means that:
@@ -40,4 +40,3 @@ As an Adobe Workfront Fusion administrator, your administration responsibilities
 Because the Adobe Business Platform controls Single Sign-On (SSO) for users, the following actions and functionality are handled automatically through the Adobe Business Platform. If your organization has not yet been onboarded to the Adobe Business Platform, you must perform these actions in Workfront Fusion. If your organization has been onboarded to the Adobe Business Platform, you can not see these options in your Workfront Fusion environment.
 
 * Setting up Single Sign-on in Workfront Fusion
-

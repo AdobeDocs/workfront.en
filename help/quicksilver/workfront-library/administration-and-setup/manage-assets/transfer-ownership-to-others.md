@@ -4,9 +4,9 @@ product-area: documents;user-management
 navigation-topic: manage-assets
 title: Transfer ownership assets to another user
 description: As a Workfront Library administrator, you can transfer all of the asset in a user's My Content area to a different user.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 8eca9677-0a0f-42a3-850f-db498881dd8d
 ---
-
 # Transfer ownership assets to another user
 
 As a Workfront Library administrator, you can transfer all of the asset in a user's My Content area to a different user.
@@ -54,4 +54,3 @@ To transfer a single asset:
 
 1. In the Transfer asset ownership dialog box, begin typing the name of the user that you want to transfer assets to. Select the name when it appears in the drop-down list.
 1. Click **Transfer**.
-

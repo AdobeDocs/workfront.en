@@ -5,8 +5,8 @@ title: Assign tasks
 description: You can assign tasks to users, roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 author: Alina
 feature: Work Management
+exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 ---
-
 # Assign tasks
 
 You can assign tasks to users, roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
@@ -237,4 +237,3 @@ To assign tasks in a list:
 </ul>
 </div>
 -->
-

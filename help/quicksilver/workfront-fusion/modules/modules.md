@@ -7,8 +7,8 @@ title: Modules in Adobe Workfront Fusion
 description: The artilcles listed here describe specific modules and their functionality in Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
+exl-id: b50b918c-7c74-442c-a91a-3f313d40d00b
 ---
-
 # Modules in Adobe Workfront Fusion
 
 This section contains the following articles:
@@ -23,4 +23,3 @@ This section contains the following articles:
 * [Iterator module in Adobe Workfront Fusion](../../workfront-fusion/modules/iterator-module.md) 
 * [HTTP request methods in Adobe Workfront Fusion](../../workfront-fusion/modules/http-request-methods.md) 
 * [Text parser troubleshooting in Adobe Workfront Fusion](../../workfront-fusion/modules/text-parser-troubleshooting.md)
-

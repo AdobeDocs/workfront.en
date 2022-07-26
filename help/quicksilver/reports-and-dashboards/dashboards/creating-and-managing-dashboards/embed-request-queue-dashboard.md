@@ -5,8 +5,8 @@ title: Embed a request queue in a dashboard
 description: You can embed a new request queue in a dashboard to provide direct access to the request queue to your users, without having to go to the Requests area.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
 ---
-
 # Embed a request queue in a dashboard
 
 You can embed a new request queue in a dashboard to provide direct access to the request queue to your users, without having to go to the Requests area.&nbsp;
@@ -190,4 +190,3 @@ You can embed a link to the requests queue or to a queue topic nested under a re
 <li value="6"> <p>For example, enter a URL similar to one of the following: </p> </li>
 </ol>
 -->
-

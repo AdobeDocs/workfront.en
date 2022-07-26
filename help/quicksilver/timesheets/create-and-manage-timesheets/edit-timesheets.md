@@ -5,8 +5,8 @@ title: Edit timesheet information
 description: As a user with administrative access to Timesheets, you can edit information on existing timesheets in Adobe Workfront . For example, you can edit the Owner, the Approvers, or the time frame of the timesheet.
 author: Lisa
 feature: Timesheets
+exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
 ---
-
 # Edit timesheet information
 
 As a user with administrative access to Timesheets, you can edit information on existing timesheets in Adobe Workfront . For example, you can edit the Owner, the Approvers, or the time frame of the timesheet.
@@ -116,4 +116,3 @@ You must have the following to perform the steps in this article:
    </table>
 
 1. Click Save.
-

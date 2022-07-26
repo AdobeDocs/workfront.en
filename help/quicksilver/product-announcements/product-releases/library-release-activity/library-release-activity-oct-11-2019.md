@@ -4,9 +4,9 @@ navigation-topic: library-release-activity
 title: Workfront Library release activity - October 11, 2019
 description: This page describes all changes made available to Workfront Library with the release to the Production environment on October 11.
 author: Luke
-feature: "Product Announcements, Workfront Library"
+feature: Product Announcements, Workfront Library
+exl-id: 9f7f6fe1-fa58-4f20-a229-7aa1653b5c5b
 ---
-
 # Workfront Library release activity - October 11, 2019
 
 This page describes all changes made available to Workfront Library with the release to the Production environment on October 11.

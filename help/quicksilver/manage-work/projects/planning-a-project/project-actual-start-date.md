@@ -6,8 +6,8 @@ title: Overview of the project Actual Start Date
 description: Projects, tasks, and issues have an Actual Start Date in Adobe Workfront. For tasks, and issues, this is the date when they have been marked as In Progress. For projects, this is the date when the first task on the project is marked as In Progress or has been completed.
 author: Alina
 feature: Work Management
+exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
 ---
-
 # Overview of the project Actual Start Date
 
 Projects, tasks, and issues have an&nbsp;Actual Start&nbsp;Date in&nbsp;Adobe Workfront. For tasks, and issues, this is the date when they have been marked as In Progress. For projects, this is the date when the first task on the project is marked as In Progress or has been completed.

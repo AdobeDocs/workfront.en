@@ -5,9 +5,9 @@ navigation-topic: portfolios-navigation-topic
 title: Portfolios
 description: This section contains the following articles - EDIT ME.
 author: Alina
-feature: "Work Management, Strategic Planning"
+feature: Work Management, Strategic Planning
+exl-id: 655c655c-4bfe-44c8-bbb5-0222b0d158eb
 ---
-
 # Portfolios
 
 This section contains the following articles:

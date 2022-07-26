@@ -8,8 +8,8 @@ description: This article describes the differences between automatic reminders 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
 ---
-
 # Automatic reminders vs. reminder notifications
 
 This article describes the differences between automatic reminders and reminder notifications and provides scenarios for each. For more information on all Adobe Workfront notifications, see [Adobe Workfront notifications](../../workfront-basics/using-notifications/wf-notifications.md).

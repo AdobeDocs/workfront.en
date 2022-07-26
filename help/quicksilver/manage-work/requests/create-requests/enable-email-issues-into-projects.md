@@ -5,8 +5,8 @@ title: Enable users to email an issue into a Request Queue project
 description: Enable users to email an issue into a Request Queue project
 author: Alina
 feature: Work Management
+exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
 ---
-
 # Enable users to email an issue into a Request Queue project
 
 <!--
@@ -107,4 +107,3 @@ When a Workfront user sends an email to Workfront, the following things happen:
 * The user who is sending the email becomes the Primary Contact of the new issue in Workfront.
 * The body text of the email cannot exceed 4,000 characters.
 * Email attachments cannot exceed 7 MB total.
-

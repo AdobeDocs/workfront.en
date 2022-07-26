@@ -8,8 +8,8 @@ description: Workfront has 9 built-in system project statuses. The first 3 in th
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
 ---
-
 # System project statuses
 
 Workfront has 9 built-in system project statuses.
@@ -104,4 +104,3 @@ The following project statuses are provided with your Workfront instance:
 >* Approved
 >* Rejected (or its equivalent)
 >
-

@@ -6,8 +6,8 @@ title: Overview of task predecessors
 description: CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE!
 author: Alina
 feature: Work Management
+exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
 ---
-
 # Overview of task predecessors
 
 <!--
@@ -141,4 +141,3 @@ You can view predecessor information in the following areas of Workfront. This i
 * In the task header when accessing the task.
 
   ![](assets/qs-predecessor-info-in-task-header-350x141.png)
-

@@ -6,8 +6,8 @@ title: Plan a project
 description: For information about project information, the Project Team, and how to plan a project, see the following articles - EDIT ME.
 author: Alina
 feature: Work Management
+exl-id: 67fddb92-4b8a-4628-9b50-a10a806e49d1
 ---
-
 # Plan a project
 
 For information about project information, the Project&nbsp;Team, and how to plan a project, see the following articles:
@@ -31,4 +31,3 @@ For information about project information, the Project&nbsp;Team, and how to pla
 * [Set the project Planned Completion Date](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md) 
 * [Overview of the project Projected Start Date](../../../manage-work/projects/planning-a-project/project-projected-start-date.md) 
 * [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)
-

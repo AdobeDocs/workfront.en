@@ -5,9 +5,9 @@ navigation-topic: manage-your-work-workfront-proof
 title: Delete a Proof in Workfront Proof
 description: Users who have edit rights on a proof can delete it.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 0b2a953f-bd70-4606-b327-57412b0d2095
 ---
-
 # Delete a Proof in Workfront Proof
 
 >[!IMPORTANT]
@@ -42,4 +42,3 @@ You can also delete proofs in the locations described below. For a proof with mu
 * In the proofing viewer, you can click **Delete**&nbsp;in the tool menu on the left.&nbsp;
 * In any list view, you can click the checkbox to the left of the proof (or the checkbox in the header to select all listed proofs), then click Delete above the list.
 * In any list view, you click the **More** menu to the right of the proof, then click&nbsp;**Delete**.
-

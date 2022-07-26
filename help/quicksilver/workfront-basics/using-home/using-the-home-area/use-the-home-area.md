@@ -5,8 +5,8 @@ title: Use the Home area
 description: Review these articles to learn how to use the Home area in Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
 ---
-
 # Use the Home area
 
 This section contains the following articles:
@@ -25,4 +25,3 @@ This section contains the following articles:
 * [Use the Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md) 
 * [View the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md) 
 * [Home area for Reviewers](../../../workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
-

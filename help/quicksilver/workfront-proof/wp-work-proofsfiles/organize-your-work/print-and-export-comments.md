@@ -5,9 +5,9 @@ navigation-topic: organize-your-work-workfront-proof
 title: Print and Export Comments in Workfront Proof
 description: The Comments summary can be accessed directly from the following areas - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
 ---
-
 # Print and Export Comments in Workfront Proof
 
 >[!IMPORTANT]
@@ -101,4 +101,3 @@ All comments will be shown in the PDF reader. If a comment has multiple markups 
 >[!IMPORTANT]
 >
 >The&nbsp;Export to PDF function is available only for static files.
-

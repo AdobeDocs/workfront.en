@@ -4,9 +4,9 @@ navigation-topic: create and manage programs
 title: Add an existing program to a portfolio
 description: You can add existing programs to a portfolio. Because programs cannot exist in two different portfolios, adding an existing program permanently moves it from one portfolio to another.
 author: Alina
-feature: "Work Management, Strategic Planning"
+feature: Work Management, Strategic Planning
+exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
 ---
-
 # Add an existing program to a portfolio
 
 You can add existing programs to a portfolio.&nbsp;Because programs cannot exist in two different portfolios, adding an existing program permanently moves it from one portfolio to another.&nbsp;
@@ -54,4 +54,3 @@ You must have the following access to perform the steps in this article:
 1. (Optional) To add additional programs, type and select the name of a program.
 1. Click **Add Programs**.  
    The program appears in the **Programs** tab on the portfolio you selected.
-

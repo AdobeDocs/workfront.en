@@ -5,8 +5,8 @@ title: Plan a project overview
 description: Plan a project overview
 author: Alina
 feature: Work Management
+exl-id: 23372e16-3933-445d-977c-901f52299cb2
 ---
-
 # Plan a project overview
 
 <!--
@@ -146,4 +146,3 @@ When defining tasks, consider the following:
    * Reassign the tasks to users who are available with no other constraints.  
      For more information about planning your project resources, see the article [Resource Planning in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).  
      For more information about scheduling your resources to accomplish the work on a project, see the article [Resource Scheduling](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
-

@@ -5,10 +5,10 @@ navigation-topic: work-with-a-groups-objects
 title: Create, modify, and view a group's programs
 description: When you are viewing a group that you manage in the Groups area, you can view and work with its programs.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 51111523-8fb7-4379-995e-1834cac51872
 ---
-
 # Create, modify, and view a group's programs
 
 When you are viewing a group that you manage in the Groups area, you can view and work with its programs.
@@ -76,4 +76,3 @@ You must have the following to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-

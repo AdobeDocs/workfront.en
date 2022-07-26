@@ -4,8 +4,8 @@ content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Change the date format in Adobe Workfront when using Chrome
 description: (Drafted this article, per consensus from the team)
+exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
 ---
-
 # Change the date format in Adobe Workfront when using Chrome
 
 <!--
@@ -31,4 +31,3 @@ To change your language settings in Chrome:
 1. Click the 3-dot menu next to the language and region you want to use, then click **Move to the top**.
 1. Return to the Workfront interface, then refresh the page.  
    The date format is now updated in projects and other areas of Workfront that use MM/DD/YYYY or DD/MM/YYYY format when displaying dates.
-

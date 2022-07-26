@@ -6,9 +6,9 @@ navigation-topic: work-with-proofs-and-files
 title: Create proofs and files
 description: This section contains the following articles - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 3515170a-534a-4631-942d-ba55270cdb64
 ---
-
 # Create proofs and files
 
 >[!IMPORTANT]
@@ -22,4 +22,3 @@ This section contains the following articles:
 * [Copying Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) 
 * [The Dropzone](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md) 
 * [Create a multi-page proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
-

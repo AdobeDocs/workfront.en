@@ -7,8 +7,8 @@ description: You can customize the labels for each default issue type to better 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
 ---
-
 # Customize default issue types
 
 Issue types are useful in the following circumstances:
@@ -76,4 +76,3 @@ To customize an issue type:
      ![](assets/customize-issue-type.png)
 
    * Click an issue type to list its associated statuses, then drag the handles that appear when you hover over them and and drop them in the order you want them to appear in your users' issue **Status** drop-down menu.
-

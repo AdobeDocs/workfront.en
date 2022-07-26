@@ -5,8 +5,8 @@ title: Manage the agile backlog
 description: Tasks and issues can be assigned to an agile team and added to that team's backlog as stories, depending on the agile methodology the team is using.
 author: Lisa
 feature: Agile
+exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 ---
-
 # Manage the agile backlog
 
 The following work items can be assigned to an agile team and added to that team's backlog as stories, depending on the agile methodology the team is using:

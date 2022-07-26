@@ -5,8 +5,8 @@ title: Overview of reconciling resource allocations between projects and initiat
 description: Overview of reconciling resource allocations between projects and initiatives
 author: Alina
 feature: Workfront Scenario Planner
+exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
 ---
-
 # Overview of reconciling resource allocations between projects and initiatives
 
 >[!IMPORTANT]
@@ -92,4 +92,3 @@ Both processes create a connection between the projects and their corresponding 
   (NOTE: this might change - project job role visibility into initiative)
   </MadCap:conditionalText>
   -->
-

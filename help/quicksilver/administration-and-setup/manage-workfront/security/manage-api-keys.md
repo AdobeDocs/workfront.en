@@ -7,8 +7,8 @@ description: In order to minimize API security vulnerabilities, Adobe Workfront 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
 ---
-
 # Manage API keys
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>

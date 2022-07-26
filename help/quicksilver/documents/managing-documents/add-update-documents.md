@@ -5,8 +5,8 @@ title: Add an update to a document
 description: You can add or reply to updates on a document to communicate with collaborators and create an audit trail. For information about adding updates to work items, see Update work.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
 ---
-
 # Add an update to a document
 
 You can add or reply to updates on a document to communicate with collaborators and create an audit trail. For information about adding updates to work items, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -64,4 +64,3 @@ In the Updates area, when you reply to a comment someone made while proofing a d
 1. Click **Reply in proof**, type the comment in the proofing viewer that launches, then click **Reply**.
 
    If you need information about typing comments and replies in the proofing viewer, see [Comment on a proof](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
-

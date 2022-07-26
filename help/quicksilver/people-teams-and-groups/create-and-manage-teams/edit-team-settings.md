@@ -4,9 +4,9 @@ navigation-topic: create-and-manage-teams
 title: Edit team settings
 description: Workfront administrators and users with a Plan or Work license can edit Team Settings.
 author: Lisa
-feature: "People Teams and Groups"
+feature: People Teams and Groups
+exl-id: b6761188-8630-446e-bc70-70fe272881ce
 ---
-
 # Edit team settings
 
 As an Adobe Workfront administrator or a user with a Plan or Work license, you can edit Team Settings.
@@ -80,4 +80,3 @@ You must have the following access to perform the steps in this article:
       * [Configure the Done button for issues](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
 
 1. Click **Save Changes**.
-

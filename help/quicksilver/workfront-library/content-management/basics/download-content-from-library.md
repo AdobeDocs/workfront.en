@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: library-basics
 title: Download items from Workfront Library
 description: You can download any item to which you have permissions. For information on access and permissions, see Overview of user access to Workfront Library
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 24e9aa6b-bcb8-4c7c-b699-1bf0cef26f2c
 ---
-
 # Download items from Workfront Library
 
 You can download any item to which you have permissions. For information on access and permissions, see [Overview of user access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
@@ -150,4 +150,3 @@ You can download multiple types of files in the same batch. For example, you can
    Click the **Document** icon ![](assets/library-document-icon.png)in the upper-right corner of the window, then select **Download**.
 
    The items are either downloaded or placed in a .zip file and emailed to you.
-

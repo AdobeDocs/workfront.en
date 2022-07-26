@@ -3,8 +3,8 @@ navigation-topic: use-lists
 title: Apply the quick filter to a list
 description: You can use the quick filter in a list of objects to help you locate only items that are important to you, so you can quickly review, update, or share them with others.
 feature: Get Started with Workfront
+exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
 ---
-
 # Apply the quick filter to a list
 
 <!--
@@ -108,4 +108,3 @@ You must have the following access to perform the steps in this article:
 1. (Optional) To clear the filtered results, click the **Quick Filter** icon in the top right corner of the window.  
    Or  
    Refresh the page.
-

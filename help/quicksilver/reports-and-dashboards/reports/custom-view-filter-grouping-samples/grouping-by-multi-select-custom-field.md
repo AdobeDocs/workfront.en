@@ -6,8 +6,8 @@ title: Group a report by a multi-select custom field
 description: You can group by the value in a multi-select custom field in a Adobe Workfront report. Examples of multi-select custom fields are - EDIT ME.
 author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
 ---
-
 # Group a report by a multi-select custom field
 
 You can group by the value in a multi-select custom field in a Adobe Workfront report. Examples of multi-select custom fields are:
@@ -117,4 +117,3 @@ To group by a multi-select custom field in a report:
 </ol>
 </div>
 -->
-

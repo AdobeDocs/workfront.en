@@ -5,8 +5,8 @@ title: Modify multiple users assignments to tasks in the Scheduling areas
 description: Modify multiple users assignments to tasks in the Scheduling areas
 author: Alina
 feature: Resource Management
+exl-id: 545a5033-a09e-4019-a10e-c388cf977ae4
 ---
-
 # Modify multiple users assignments to tasks in the Scheduling areas
 
 <!--
@@ -199,4 +199,3 @@ To unassign a user from tasks throughout the selected projects or for the select
 
 1. Click **Unassign**.  
    You can make a maximum of 1,000 assignments in a single action. If the selections you make will make more than 1,000 assignment changes, you must re-adjust your selections and try again.
-

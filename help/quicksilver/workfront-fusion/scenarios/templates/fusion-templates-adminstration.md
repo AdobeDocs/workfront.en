@@ -6,8 +6,8 @@ title: Adobe Workfront Fusion Templates administration
 description: If you are an administrator, you have permission to view, modify, rename, publish, approve, and delete templates created by others. You can perform these actions from the Templates page in the Adobe Workfront Fusion Administration area.
 author: Becky
 feature: Workfront Fusion
+exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
 ---
-
 # Adobe Workfront Fusion Templates administration
 
 If you are an administrator, you have permission to view, modify, rename, publish, approve, and delete templates created by others. You can perform these actions from the Templates page in the Adobe Workfront Fusion Administration area.

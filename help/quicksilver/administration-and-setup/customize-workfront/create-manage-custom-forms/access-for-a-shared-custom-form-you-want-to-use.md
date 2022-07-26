@@ -8,8 +8,8 @@ description: When someone shares a custom field with View or Manage access, they
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
 ---
-
 # Access for a shared custom field you want to use
 
 When someone shares a custom field with View or Manage access, they can configure several other settings to further define that access. If you are a recipient of the field, those settings impact what you can do with the field. You might see the following when you view the field.
@@ -79,4 +79,3 @@ For more information about how users configure sharing settings when sharing a c
   </tr> 
  </tbody> 
 </table>
-

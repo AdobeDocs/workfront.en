@@ -6,8 +6,8 @@ title: Overview of the Scheduling areas
 description: Overview of the Scheduling areas
 author: Alina
 feature: Resource Management
+exl-id: ed6f1db9-917d-4a19-9fd4-1ed5d2ca95fb
 ---
-
 # Overview of the Scheduling areas
 
 <!--
@@ -162,4 +162,3 @@ You can see the level in which users are allocated on a given day, as described 
   The schedule that is assigned to the user. This might be the default schedule or a custom schedule. For more information about schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * **Weekends:** Weekends are represented on the scheduling timeline as light gray shading on Saturdays and Sundays. Days of the week that are set as weekends on the scheduling timeline are not configurable. You can schedule users for work on weekends.
-

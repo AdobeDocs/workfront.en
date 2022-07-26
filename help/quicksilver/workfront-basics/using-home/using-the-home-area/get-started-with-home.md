@@ -5,8 +5,8 @@ title: Get started with Home
 description: There are two ways to view your work in the Home area, either from the Work List or the Calendar.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
 ---
-
 # Get started with Home
 
 There are two ways to view your work in the Home area, either from the Work List or the Calendar.
@@ -165,4 +165,3 @@ Keep track of the hours you've worked on individual work items. You can choose a
 For more information on how to log time in the Home area, see the section [Home](../../../timesheets/create-and-manage-timesheets/log-time.md#home) in the article [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ![](assets/log-time-home-350x181.png)
-

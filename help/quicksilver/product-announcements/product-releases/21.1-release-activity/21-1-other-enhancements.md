@@ -6,8 +6,8 @@ title: 21.1 Other enhancements
 description: This page describes all other enhancements made with the 21.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
 author: Luke
 feature: Product Announcements
+exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
 ---
-
 # 21.1 Other enhancements
 
 This page describes all other enhancements made with the 21.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
@@ -95,4 +95,4 @@ To help users to better identify where they are in Workfront and more easily nav
 * Keyboard navigation and screen reader navigation are now available for the breadcrumbs.
 * Additional minor styling changes
 
-[Watch a video demonstration of this feature.](https://vimeo.com/489471468/f4d97efe6a) 
+[Watch a video demonstration of this feature.](https://vimeo.com/489471468/f4d97efe6a)

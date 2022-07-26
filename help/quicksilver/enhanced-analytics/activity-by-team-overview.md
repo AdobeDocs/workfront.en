@@ -6,8 +6,8 @@ navigation-topic: enhanced-analytics-navigation-topic
 description: The Activity by team visualization shows activities that happen during a specific time frame for a home team, allowing you to understand how different home teams spent their time in Adobe Workfront. Depending on how your home team is set up in Workfront, this visualization can give you different insights and answer different questions.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
 ---
-
 # View the Activity by team visualization in Enhanced analytics
 
 The Activity by team visualization shows activities that happen during a specific time frame for a home team, allowing you to understand how different home teams spent their time in Adobe Workfront. Depending on how your home team is set up in Workfront, this visualization can give you different insights and answer different questions.
@@ -132,4 +132,4 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 View the following video to learn more about the Activity by team visualization. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/368319785/c8ec75887b) 
+[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/368319785/c8ec75887b)

@@ -5,8 +5,8 @@ title: What's New in API Version 6
 description: What's New in API Version 6
 author: John
 feature: Workfront API
+exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 ---
-
 # What's New in API Version 6
 
 ## New Objects
@@ -392,4 +392,3 @@ Exchange Rate&nbsp;
 |---|---|---|---|---|---|---|
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |`fileHandle`  |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |`zipAnnouncementAttachments`&nbsp; |&nbsp; |&nbsp; |
-

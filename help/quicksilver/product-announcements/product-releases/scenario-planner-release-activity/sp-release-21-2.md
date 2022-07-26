@@ -6,9 +6,9 @@ navigation-topic: scenario-planner-release-activity
 title: Adobe Workfront Scenario Planner with the 21.2 release
 description: Adobe Workfront Scenario Planner is available only with the new Adobe Workfront experience.
 author: Luke
-feature: "Product Announcements, Workfront Scenario Planner"
+feature: Product Announcements, Workfront Scenario Planner
+exl-id: 66847d81-75db-45b0-83b0-168a1cc5ebdd
 ---
-
 # Adobe Workfront Scenario Planner with the 21.2 release
 
 Adobe Workfront Scenario Planner is available only with the new Adobe Workfront experience.
@@ -47,4 +47,4 @@ For information, see the following articles:
 
 For information, see [Overview of reconciling resource allocations between projects and initiatives](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/539890235/7127d1d666) 
+[Watch a video demonstration of this feature.](https://vimeo.com/539890235/7127d1d666)

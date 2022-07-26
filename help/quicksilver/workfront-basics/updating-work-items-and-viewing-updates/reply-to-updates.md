@@ -5,8 +5,8 @@ title: Reply to updates
 description: When someone adds or replies to an update on a work object, their reply appears in the communication thread on the Updates tab for the object. You can add a reply to an update or Like it if you have View access to the object.
 author: Lisa and Alina
 feature: Get Started with Workfront
+exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 ---
-
 # Reply to updates
 
 When someone adds or replies to an update on a work object, their reply appears in the communication thread on the Updates tab for the object. You can add a reply to an update or Like it if you have View access to the object.
@@ -113,4 +113,3 @@ To add an update to a Workfront email:
 1. Click **Send**.
 
    Your update is added to the communications thread of the object.
-

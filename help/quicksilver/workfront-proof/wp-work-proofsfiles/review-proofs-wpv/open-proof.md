@@ -5,9 +5,9 @@ navigation-topic: review-proofs-workfront-proofing-viewer
 title: Opening a Proof in Workfront Proof
 description: Opening a Proof in Workfront Proof
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 99fb6684-48b6-4a1f-bf2b-2f8c1f2ab355
 ---
-
 # Opening a Proof in Workfront Proof
 
 >[!IMPORTANT]
@@ -28,4 +28,3 @@ feature: "Workfront Proof, Digital Content and Documents"
    * To proof in the Desktop Proofing Viewer, see [Reviewing Proofs in the Desktop Proofing Viewer.](https://support.workfront.com/hc/en-us/search/click?data=BAh7CjoHaWRsKwjm7%2BTRUwA6CXR5cGVJIgxhcnRpY2xlBjoGRVQ6CHVybEkiVC9oYy9lbi11cy9hcnRpY2xlcy8zNjAwMDM3MjczMzQtUmV2aWV3aW5nLVByb29mcy1pbi10aGUtRGVza3RvcC1Qcm9vZmluZy1WaWV3ZXIGOwdUOg5zZWFyY2hfaWRJIik0NDIyMjdkZi0zYTA4LTQ2YjItYTdkMy1kYzM1YjhlN2U4MjUGOwdGOglyYW5raQc%3D--2056c434cf6f4f97ca87532493ebfeb67ca07b63)
 
    To learn more about the proofing viewers, see&nbsp; [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
-

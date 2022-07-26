@@ -8,8 +8,8 @@ description: As a Workfront administrator or a group administrator, you can crea
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 ---
-
 # Create and manage layout templates
 
 <!--

@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can assign a layout templa
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
 ---
-
 # Assign users to a layout template
 
 You can assign a layout template you have created to any user, job role, team, or group who needs to use it.
@@ -103,4 +103,3 @@ If you have more than 2000 users to assign to a layout template, we recommend th
 * Organize the users into groups or teams and assign the layout template to those groups or teams. For more information, see [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) and [Create and manage teams](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 
 * Assign job roles to the users and assign the layout template to their primary job role. For more information, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
-

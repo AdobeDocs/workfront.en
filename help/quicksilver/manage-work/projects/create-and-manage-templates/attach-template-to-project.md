@@ -5,8 +5,8 @@ title: Attach a template to a project
 description: You can attach a template to a project either during the initial creation phase of the project or after it has been created.
 author: Alina
 feature: Work Management
+exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 ---
-
 # Attach a template to a project
 
 You can attach a template to a project either during the initial creation phase of the project or after it has been created.
@@ -192,4 +192,3 @@ To understand what template is applied to a project:
 &nbsp;
 
 &nbsp;
-

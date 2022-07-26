@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Prioritize work in the Home area
 description: You can prioritize items from your Work List in Home. Items you add to My Priority are priorities for you only. They are not prioritized for anyone else, and no one can prioritize them for you. You can add up to 20 items under the My Priority Sort By option.
 author: Lisa
-feature: "Get Started with Workfront, Work Management"
+feature: Get Started with Workfront, Work Management
+exl-id: 8647df70-c9cc-47fb-a7f7-a83d0fd061b4
 ---
-
 # Prioritize work in the Home area
 
 You can prioritize items from your Work List in Home.&nbsp;Items you add to My Priority are priorities for you only. They are not prioritized for anyone else, and no one can prioritize them for you. You can add up to 20 items under the My Priority Sort By option.
@@ -85,4 +85,3 @@ You can remove items from My Priority by completing the work item or manually re
 1. In the left panel, click the **More** icon, then select **Remove from My Priority**.
 
    ![Remove from My Priority](assets/getting-started-remove-from-priority-nwe-350x395.png)
-

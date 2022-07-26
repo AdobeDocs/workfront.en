@@ -5,9 +5,9 @@ navigation-topic: review-proofs-workfront-proofing-viewer
 title: Review a Workflow in the proofing viewer
 description: The Workflow panel displays the workflow of your proof as it appears on the Proof Details page and in your email notifications. For more information about proof details, see Manage Proof Details in Workfront Proof. All assigned reviewers, including users and guests, can view the Workflow panel.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
 ---
-
 # Review a Workflow in the proofing viewer
 
 >[!IMPORTANT]
@@ -45,4 +45,3 @@ To access the Workflow panel:
      ![Screen_Shot_2018-05-01_at_10.33.37_AM.png](assets/screen-shot-2018-05-01-at-10.33.37-am-350x29.png)
 
      For more information about understanding the progress and status of a proof, see [View the Progress and Status of a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
-

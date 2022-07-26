@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can reset or remove the us
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
 ---
-
 # Reset a user's preferences
 
 As an Adobe Workfront administrator, you can reset or remove the user preference settings for any user in the Workfront system.
@@ -110,4 +110,3 @@ When you reset user preferences, some preferences are reverted to the system def
    Or
 
    To reset only custom tabs, select **Reset Tabs**.
-

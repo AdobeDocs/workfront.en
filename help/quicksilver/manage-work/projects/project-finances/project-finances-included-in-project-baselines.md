@@ -6,8 +6,8 @@ title: Project finances included in project baselines
 description: Baselines are snapshots of what the performance of a project looked like at a given moment in time. They store key pieces of information about the project, like key dates, progress, cost and revenue values.
 author: Alina
 feature: Work Management
+exl-id: 705156d0-0daa-40bf-a511-144d56316136
 ---
-
 # Project finances included in project baselines
 
 Baselines are snapshots of what the performance of a project looked like at a given moment in time. They store key pieces of information about the project, like key dates, progress, cost and revenue values.
@@ -69,4 +69,3 @@ The following task financial information is accessible from the Baseline Task ob
 * Cost Performance Index (SPI)
 * Cost Schedule Performance Index (CSI)
 * Schedule Performance Index (CPI)
-

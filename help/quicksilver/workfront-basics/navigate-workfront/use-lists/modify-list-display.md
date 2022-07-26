@@ -3,8 +3,8 @@ navigation-topic: use-lists
 title: Modify how a list displays
 description: In Adobe Workfront, you can customize how a list displays for you. Other users who view the list do not see your changes.
 feature: Get Started with Workfront
+exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
 ---
-
 # Modify how a list displays
 
 In Adobe Workfront, you can customize how a list displays for you. Other users who view the list do not see your changes.
@@ -106,4 +106,3 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >
    >If you are sorting groups in the Groups area in Setup, the hierarchy view of groups and their subgroups does not break up when you change the way the list is sorted—subgroups stay with their parent groups. The list is sorted by top-level groups first. Then, under each parent group, the list of subgroups that are on the same level are sorted together.
-

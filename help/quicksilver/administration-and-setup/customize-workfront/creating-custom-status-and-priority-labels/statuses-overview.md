@@ -8,8 +8,8 @@ description: To find out what the current state of development is for a project,
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
 ---
-
 # Statuses overview
 
 To find out what the current state of development is for a project, task, or issue, a user can view its status.

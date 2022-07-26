@@ -4,6 +4,7 @@ description: Share a link to a request queue
 author: Alina
 draft: Probably
 feature: Work Management
+exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
 ---
 # Share a link to a request queue
 
@@ -63,4 +64,3 @@ You must have the following access to perform the steps in this article:
      For information about embedding a request queue in a dashboard, see [Embed a request queue in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
    Using the shared link, other users are able to navigate directly to the request queue, topic group, or queue topic you selected. They are able to do this even if the request is not submitted and it is saved as a draft.
-

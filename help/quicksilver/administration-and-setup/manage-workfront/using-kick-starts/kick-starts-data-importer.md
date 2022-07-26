@@ -8,8 +8,8 @@ description: Kick-Starts enable Adobe Workfront administrators to import data fr
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 2ded3e49-41b2-4ad8-951c-e9ddbb0a9276
 ---
-
 # Kick-Starts data importer
 
 Kick-Starts enable Adobe Workfront administrators to import data from external data sources into Workfront and to export existing data in Workfront to be used in other systems.

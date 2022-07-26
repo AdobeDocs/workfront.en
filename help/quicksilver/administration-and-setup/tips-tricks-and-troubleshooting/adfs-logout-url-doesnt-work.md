@@ -8,8 +8,8 @@ description: The procedure described on this page applies only to organizations 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
 ---
-
 # ADFS logout URL doesn't work
 
 >[!IMPORTANT]
@@ -56,4 +56,3 @@ You must have the following access to perform the steps in this article:
 1. **Endpoint Type** = SAML Logout, Binding = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 
    You can set a response URL if you want it to redirect to another page. But we recommend the ADFS site because it warns that you are logged off, but you should still close your browser.
-

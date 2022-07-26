@@ -6,8 +6,8 @@ title: Manage proofs
 description: Edit proof settings
 author: Courtney
 feature: Digital Content and Documents
+exl-id: ed1719ff-27e3-4fc0-b5bf-b3f20ffe98f0
 ---
-
 # Manage proofs
 
 * [Edit proof settings](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md) 
@@ -17,4 +17,3 @@ feature: Digital Content and Documents
 * [View activity on a proof within Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md) 
 * [Use the proof approval report](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md) 
 * [Access Workfront Proof from Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
-

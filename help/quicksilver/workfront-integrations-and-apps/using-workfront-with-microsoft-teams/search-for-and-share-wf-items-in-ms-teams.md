@@ -5,8 +5,8 @@ title: Search for and share Adobe Workfront items in Microsoft Teams
 description: You can search for Workfront items in any Adobe WorkfrontWorkfront channel in Microsoft Teams and share these items with members of your teams.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
 ---
-
 # Search for and share Adobe Workfront items in Microsoft Teams
 
 You can search for Workfront items in any Adobe WorkfrontWorkfront channel in Microsoft Teams and share these items with members of your teams.&nbsp;
@@ -87,4 +87,3 @@ To search for a Workfront item from Microsoft Teams and share it with others:
 
 1. Click **View in Workfront** to view the item in Workfront.   
    Only users who have a Workfront license can view an item in Workfront.&nbsp;
-

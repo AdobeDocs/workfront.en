@@ -7,8 +7,8 @@ description: If you try to delete a status, an error message might tell you that
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
 ---
-
 # List objects with a pending approval processes using a certain status
 
 If you try to delete a status, an error message might tell you that it can't be deleted because it's in at least one pending approval processes in your system. You can run a report to list the objects where it is in an pending approval process, then decide what you need to do for each one.

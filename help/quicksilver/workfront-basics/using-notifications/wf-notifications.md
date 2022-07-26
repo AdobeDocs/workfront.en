@@ -5,8 +5,8 @@ title: Adobe Workfront notifications
 description: Adobe Workfront sends email notifications, in-app notifications, and notifications on your mobile device.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
 ---
-
 # Adobe Workfront notifications
 
 Adobe Workfront sends email notifications, in-app notifications, and notifications on your mobile device.

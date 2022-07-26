@@ -5,14 +5,14 @@ product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 description: You can integrate Workfront with SharePoint Online, providing users with the ability to navigate to, link, and add SharePoint documents within Workfront. The functionality provided is similar to that of other Workfront integrations, such as Google Drive, Box, and Dropbox.
 author: Becky, Caroline
-feature: "System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents"
+feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
+exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 ---
-
 # Configure the Legacy SharePoint integration
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
 >[!IMPORTANT]

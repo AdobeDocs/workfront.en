@@ -7,8 +7,8 @@ description: When a user clicks Work on It or adds an update comment to a new ta
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
 ---
-
 # Set a custom condition as the default for tasks and issues
 
 When a user clicks Work on It or adds an update comment to a new task they have been assigned to (without manually setting a condition for the task), Adobe Workfront displays the default condition for tasks, which is configured in Setup. The same is true for issues.

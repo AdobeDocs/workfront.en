@@ -8,8 +8,8 @@ description: Adobe Workfront logs the activity taking place on certain objects i
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: b43b8583-41cb-4a96-8e61-77208eaa219a
 ---
-
 # System-tracked updates feeds
 
 This section contains the following articles:
@@ -17,4 +17,3 @@ This section contains the following articles:
 * [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md) 
 * [Configure system updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) 
 * [Configure preferences for user updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
-

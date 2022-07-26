@@ -7,8 +7,8 @@ description: As a Workfront administrator, you can use a layout template to spec
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
 ---
-
 # Customize the landing page using a layout template
 
 As an Adobe Workfront administrator, you can use a layout template to specify the area you want users to see each time they log in to Workfront.
@@ -59,4 +59,3 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
    >[!TIP]
    >
    >You can click Save at any time to save your progress, then continue to modify the template later.
-

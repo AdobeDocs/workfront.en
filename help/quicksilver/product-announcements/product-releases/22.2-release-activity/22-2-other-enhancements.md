@@ -4,6 +4,7 @@ description: 22.2 Other enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 0f4e08bb-20f1-49f5-ad8a-fb0c42c0e2be
 ---
 # 22.2 Other enhancements
 
@@ -42,4 +43,4 @@ Some of the highlights of this redesign are:
 
 For more information about creating timesheets using the new lists, see [Create a single-use timesheet](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/686854773/ad09d5d435) 
+[Watch a video demonstration of this feature.](https://vimeo.com/686854773/ad09d5d435)

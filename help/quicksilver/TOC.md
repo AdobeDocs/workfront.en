@@ -1,9 +1,9 @@
 ---
-user-guide-title: Workfront
-user-guide-description: Use the following Adobe Workfront docs, tutorials, and additional resources to learn how to implement and effectively use Adobe Workfront in your organization.
+user-guide-title: Workfront Guide
+user-guide-description: Use the docs, tutorials, and additional resources to learn how to implement and effectively use Adobe Workfront in your organization.
 feature-set: Workfront
 ---
-# Workfront {#using}
+# Workfront Guide {#using}
 
 * [Workfront documentation](home.md)
 * Product announcements {#product-announcements}
@@ -11,6 +11,8 @@ feature-set: Workfront
   * Product releases {#product-releases}
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
+    * 22.4 Release {#release-22-4}
+      * [22.4 Release activity: Week of July 18, 2022](product-announcements/product-releases/22.4-release-activity/22-4-july-18.md)
     * 22.3 Release {#release-22-3}
       * [22.3 Release overview](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
       * [22.3 Administrator enhancements](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
@@ -20,11 +22,6 @@ feature-set: Workfront
       * [22.3 Project enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
       * [22.3 Resource Management enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
       * [22.3 Reporting enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
-      * [22.3 release activity: Week of May 23, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-23.md)
-      * [22.3 release activity: Week of May 16, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-16.md)
-      * [22.3 release activity: Week of May 2, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-2.md)
-      * [22.3 release activity: Week of April 18, 2022](product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md)
-      * [22.3 release activity: Week of April 11, 2022](product-announcements/product-releases/22.3-release-activity/22-3-apr-11.md)
       * [Look and feel updates during the 22.3 release timeframe](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
     * 22.2 Release {#release-22-2}
       * [22.2 Release overview](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
@@ -296,8 +293,10 @@ feature-set: Workfront
     * [Outlook 365 Add-In Is Now Available](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
   * Beta programs {#beta}
     * [Beta programs](product-announcements/betas/betas.md)
-    * [Reporting Canvas beta](product-announcements/betas/reporting-canvas-beta.md)
-    * [Reporting Canvas beta: known issues](product-announcements/betas/reporting-canvas-known-issues.md)
+    * Reporting Canvas beta {#reporting-canvas-beta}
+      * [Reporting Canvas beta overview](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
+      * [Reporting Canvas beta: known issues](product-announcements/betas/reporting-canvas-beta/reporting-canvas-known-issues.md)
+      * [Reporting Canvas beta: release activity](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
     * [Campaigns beta](product-announcements/betas/campaign-object-beta.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup](administration-and-setup/administration-and-setup.md)

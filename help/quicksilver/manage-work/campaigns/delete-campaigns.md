@@ -2,10 +2,10 @@
 filename: delete-campaigns
 navigation-topic: campaigns
 title: Delete campaigns
-description: You can delete campaigns. 
+description: You can delete campaigns.
 author: Alina
+exl-id: 01777d5d-6af9-4616-bf2b-a4d12e3332eb
 ---
-
 # Delete campaigns
 
 >[!NOTE]
@@ -72,6 +72,3 @@ Before you begin, you must have the following:
     ![](assets/campaign-delete-and-edit-options-from-campaign-page.png)
 1. Click [!UICONTROL **Delete**].
     The campaign is deleted and cannot be recovered.
-
-
-

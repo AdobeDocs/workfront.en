@@ -3,7 +3,8 @@ title: Workfront Fusion release activity:&nbsp;Week of November 8, 2021
 description: Workfront Fusion release activity:&nbsp;Week of November 8, 2021
 author: Luke
 draft: Probably
-feature: "Product Announcements, Workfront Fusion"
+feature: Product Announcements, Workfront Fusion
+exl-id: 3f3405f9-ea57-4bb8-9dab-c51ccbec9416
 ---
 # Workfront Fusion release activity:&nbsp;Week of November 8, 2021
 

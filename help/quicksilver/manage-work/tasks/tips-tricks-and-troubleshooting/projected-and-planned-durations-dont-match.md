@@ -6,8 +6,8 @@ title: Projected Duration does not match Planned Duration
 description: "You receive the following error message: 'The Projected Duration of a Task/ Issue has gone to 0 and does not match the Planned Duration.'"
 author: Alina
 feature: Work Management
+exl-id: ef135d44-3138-457d-b54a-3f1102ce3116
 ---
-
 # Projected Duration does not match Planned Duration
 
 ## Problem
@@ -30,4 +30,4 @@ Here are the best things to check in those cases with links to their supporting 
 * Task Constraint: [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
 * Duration Type: [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
 
-If the Projected Completion Date, Task Constraint, or Duration type are working as expected, contact support for more in-depth troubleshooting. 
+If the Projected Completion Date, Task Constraint, or Duration type are working as expected, contact support for more in-depth troubleshooting.

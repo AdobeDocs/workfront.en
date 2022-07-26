@@ -6,8 +6,8 @@ title: Publish and share Adobe Workfront Fusion templates
 description: When you create a template, your template becomes available for all your team members. If you want to share the template with someone outside of your team, you must publish it first.
 author: Becky
 feature: Workfront Fusion
+exl-id: aaa59a1e-aa16-41f5-9f56-ce0615c1b685
 ---
-
 # Publish and share Adobe Workfront Fusion templates
 
 When you create a template, your template becomes available for all your team members. If you want to share the template with someone outside of your team, you must publish it first.

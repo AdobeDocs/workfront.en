@@ -5,9 +5,9 @@ navigation-topic: review-proofs-workfront-proofing-viewer
 title: Work with multiple proofs in the proofing viewer
 description: In Workfront Proof, you can use folders to group proofs that you want to work on together or that you want reviewers to work on together. When you or another reviewer opens one of the proofs, launching the proofing viewer, all of the proofs in the folder are also available there. Without leaving the proofing viewer, you can view the other proofs, sort and search for them, and compare them to each other.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
 ---
-
 # Work with multiple proofs in the proofing viewer
 
 >[!IMPORTANT]
@@ -59,4 +59,3 @@ As a reviewer, you can work with multiple proofs in a folder without leaving the
      While you are comparing proofs, if you want to switch to a new proof, either on the left or right side of the proofing viewer, click the Compare button above the proof.
 
      ![](assets/mceclip0-350x126.png)
-

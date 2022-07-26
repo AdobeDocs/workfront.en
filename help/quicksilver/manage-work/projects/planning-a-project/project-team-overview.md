@@ -6,8 +6,8 @@ title: Project Team overview
 description: Project Team overview
 author: Alina
 feature: Work Management
+exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
 ---
-
 # Project Team overview
 
 <!--
@@ -50,4 +50,3 @@ You can see if the Projects I'm On filter is selected in the Projects area heade
 >[!NOTE]
 >
 >If you are the creator of a project, the project remains listed in the Projects I'm On list, even if your name does not appear on the People area of the project or if your name has been removed from that list.
-

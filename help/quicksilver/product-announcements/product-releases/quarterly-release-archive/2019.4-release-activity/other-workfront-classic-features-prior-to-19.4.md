@@ -5,8 +5,8 @@ title: Other Workfront Classic features released to Production prior to the 2019
 description: The following features were made available to the Workfront Classic Production environment prior to the 2019.4 release to Production.
 author: Luke
 feature: Product Announcements
+exl-id: 497214d1-fc31-498c-93f6-ac56d8742c1f
 ---
-
 # Other Workfront Classic features released to Production prior to the 2019.4 release
 
 The following features were made available to the Workfront Classic Production environment prior to the 2019.4 release to Production.
@@ -76,4 +76,3 @@ For information about the release time frame and all functionality available wit
   </tr> 
  </tbody> 
 </table>
-

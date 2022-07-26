@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can create new users and m
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
 ---
-
 # Edit a user's profile
 
 >[!IMPORTANT]
@@ -66,7 +66,7 @@ You must have the following to perform the steps in this article:
       <td> 
        <ul> 
         <li><b>First Name</b>, <b>Last Name</b></li> 
-        <li> <p><b>Email Address:</b> The email address for a user is also their username in Workfront. This field is case-sensitive and must be unique. If any user attempts to add a non-unique email address 3 times within a 10-minute window, a reCAPTCHA response appears.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">If you use the email allowlist and enter an email domain not on the list, the user will not receive email notifications. For more information about the allowlist, see <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Configure your email allowlist</a>.</p> </li> 
+        <li> <p><b>Email Address:</b> The email address for a user is also their username in Workfront. This field is case-sensitive and must be unique. If any user attempts to add a non-unique email address 3 times within a 10-minute window, a reCAPTCHA response appears.</p> <p>If you use the email allowlist and enter an email domain not on the list, the user will not receive email notifications. For more information about the allowlist, see <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Configure your email allowlist</a>.</p> </li> 
         <li> <p><b>Reset Password</b>: Click this link to reset the user's password. You are asked for your own password before you can reset a user's password.</p> <p>To reset another user's password, you must be a Workfront administrator, or a group administrator.</p> <p><b>NOTE</b>:  
           <ul> 
            <li> <p>If you are a group administrator, you can reset passwords only for users in the groups where you are designated as such. Also, the User Admin (Group Users) permission must be enabled in your access level:</p> <p> <img src="assets/group-admin-user.png" > </p> <p>This setting is disabled by default. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </li> 
@@ -158,4 +158,3 @@ You must have the following to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-

@@ -6,9 +6,9 @@ navigation-topic: basecamp
 title: Understand the Basecamp Integration with Workfront Proof
 description: Basecamp is a leading web-based project management and collaboration tool. It provides to-do lists, file sharing, time tracking and messages, schedules and milestones in a simple and easy-to-use way.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 8794a76a-c782-4038-9680-73e72697b21d
 ---
-
 # Understand the Basecamp Integration with Workfront Proof
 
 >[!IMPORTANT]
@@ -39,4 +39,3 @@ The Workfront Proof integration with Basecamp helps you significantly improve re
 * See all versions of your proof inside Basecamp.
 * Workfront Proof is integrated with both versions of Basecamp; the classic version and new 2012 Basecamp version.
 * Integration is available on all Workfront Proof plans, including free trials.
-

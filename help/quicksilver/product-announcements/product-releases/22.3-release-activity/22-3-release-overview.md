@@ -4,49 +4,13 @@ description: 22.3 Release overview
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
 ---
 # 22.3 Release overview
 
 This page provides information about functionality that is included in the 22.3 release. All features listed are available in the new Adobe Workfront experience. Some features are also available in Adobe Workfront Classic; however, [Workfront Classic will be discontinued in March 2022](https://one.workfront.com/s/new-workfront-experience), followed shortly by the end-of-life date for Workfront Classic in July 2022.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-to help you unlock productivity and collaboration.
-</MadCap:conditionalText>
--->
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-[Marketing one-liner for the release]
-</MadCap:conditionalText>
--->
-
-These enhancements are currently available in the Preview environment and will be made available in the Production environment the week of July 11, 2022. As the 22.3 release nears its planned Production release, this page will be updated with all functionality included with 22.3.
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-the week of January 17, 2022
-</MadCap:conditionalText>
--->
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-in October 2021
-</MadCap:conditionalText>
--->
-
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">These enhancements were made available in the Production environment the week of April 4, 2022. </p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">These enhancements are currently available in the Preview environment and will be made available in the Production environment
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-later this year
-</MadCap:conditionalText>
- the week of April 4, 2022, unless otherwise specified. For specific release dates and times for each cluster, see the <a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on <a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times. </p>
--->
+These enhancements were made available in the Production environment the week of July 11, 2022.
 
 ## Adobe Workfront enhancements
 
@@ -66,7 +30,7 @@ later this year
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-11.md#for" class="MCXref xref" xrefformat="{para}">For administrators: Control creating a blank project</a> <span style="color: #ff0000; font-weight: bold;">New in Preview!</span></p></p> <p>As a system or a group administrator, you can now control whether users can create blank projects, without using a template. We have introduced a new setting in the Project Preferences area of Setup that allows you to disable creating blank projects in the following areas:</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Control creating a blank project</a></p></p> <p>As a system or a group administrator, you can now control whether users can create blank projects, without using a template. We have introduced a new setting in the Project Preferences area of Setup that allows you to disable creating blank projects in the following areas:</p> 
    <ul>
    <li><p>From the New Project option in a list of projects</p></li>
    <li><p>When converting an issue to a project from the issue page</p></li>
@@ -82,7 +46,7 @@ later this year
     </ul> </td> 
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-11.md#for" class="MCXref xref" xrefformat="{para}">For administrators: Deactivate a group from the Groups page</a> </p> <p>Recently, we added the ability to deactivate and reactivate groups. To make that action quicker and easier, we have added it to a group's page. Now, after you click a group's name to go to its page, you can select the More menu <img src="assets/more-icon.png"> next to the group's name, then select Deactivate or Reactivate.</p> <p>Previously, you could deactivate or reactivate a group only by using the Is active check box on its Details page. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Deactivate a group from the Groups page</a> </p> <p>Recently, we added the ability to deactivate and reactivate groups. To make that action quicker and easier, we have added it to a group's page. Now, after you click a group's name to go to its page, you can select the More menu <img src="assets/more-icon.png"> next to the group's name, then select Deactivate or Reactivate.</p> <p>Previously, you could deactivate or reactivate a group only by using the Is active check box on its Details page. </p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: April 14, 2022<br></p> </li> 
@@ -93,7 +57,7 @@ later this year
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-11.md#for2" class="MCXref xref" xrefformat="{para}">For administrators: Add videos to custom forms</a> </p> <p>Now you can provide a new mode of information, visual interest, and creativity to a custom form by adding a video. When the form is attached to an object, users who work with the object can play the video any time.</p> <p>Previously, you could add only text-based fields and images to a custom form.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Add videos to custom forms</a> </p> <p>Now you can provide a new mode of information, visual interest, and creativity to a custom form by adding a video. When the form is attached to an object, users who work with the object can play the video any time.</p> <p>Previously, you could add only text-based fields and images to a custom form.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: April 14, 2022<br></p> </li> 
@@ -117,7 +81,7 @@ later this year
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-may-16.md#new" class="MCXref xref" xrefformat="{para}">Smart tagging in the update stream</a> <span style="color: #ff0000; font-weight: bold;">New in Preview!</span></p> <p>We have improved tagging users in the update stream when you create a new update or reply to an existing one. Now, when you tag a user to include them in an update, in addition to their name and avatar, we also display their Primary Role and their email. This helps distinguish between multiple users with similar or identical names.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Smart tagging in the update stream</a></p> <p>We have improved tagging users in the update stream when you create a new update or reply to an existing one. Now, when you tag a user to include them in an update, in addition to their name and avatar, we also display their Primary Role and their email. This helps distinguish between multiple users with similar or identical names.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: May 19, 2022<br></p> </li> 
@@ -128,7 +92,7 @@ later this year
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-may-2.md#new" class="MCXref xref" xrefformat="{para}">New syntax for calculations in custom fields</a> </p> <p>To prepare for future enhancements that will help you add calculations to custom forms, we have standardized the syntax for referenced fields that you add to a calculation. It's easy to use this new syntax because the system enters it for you when you start typing the name of a field and then select it.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New syntax for calculations in custom fields</a> </p> <p>To prepare for future enhancements that will help you add calculations to custom forms, we have standardized the syntax for referenced fields that you add to a calculation. It's easy to use this new syntax because the system enters it for you when you start typing the name of a field and then select it.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: May 5, 2022<br></p> </li> 
@@ -139,7 +103,7 @@ later this year
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md#keep" class="MCXref xref" xrefformat="{para}">Keep accurate information when two users with a common role are involved in an approval process</a> </p> <p>To ensure accuracy of your data for approving work, we have made a change in the way approval information is recorded on an item when a multi-role approval process is associated with the item.</p> <p>Some approval processes require approval from two different roles, and two different approvers might have one of those roles in common. Now when this happens, after the approval decisions are made, Workfront records each approver and their respective role associated with the approval process.</p> <p>Prior to this change, both approvals were recorded for the second user because they shared one of the approval roles with the first approver. In this case, the second approver was overwriting the first approver's information.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Keep accurate information when two users with a common role are involved in an approval process</a> </p> <p>To ensure accuracy of your data for approving work, we have made a change in the way approval information is recorded on an item when a multi-role approval process is associated with the item.</p> <p>Some approval processes require approval from two different roles, and two different approvers might have one of those roles in common. Now when this happens, after the approval decisions are made, Workfront records each approver and their respective role associated with the approval process.</p> <p>Prior to this change, both approvals were recorded for the second user because they shared one of the approval roles with the first approver. In this case, the second approver was overwriting the first approver's information.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: April 21, 2022<br></p> </li> 
@@ -214,7 +178,7 @@ later this year
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md#combine" class="MCXref xref" xrefformat="{para}">Combine multiple files in a single proof in the Creative Cloud plugin</a> <b style="color: #ff0000;">Coming soon to Production!</b></p> <p>You can now upload outside files with the content you've created in the Adobe Workfront for Creative Cloud plugin to create multi-file proofs in Workfront. Outside files appear as additional proof pages inside Workfront. With this enhancement, we've also updated the look and feel of the proof creation experience.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Combine multiple files in a single proof in the Creative Cloud plugin</a> </p> <p>You can now upload outside files with the content you've created in the Adobe Workfront for Creative Cloud plugin to create multi-file proofs in Workfront. Outside files appear as additional proof pages inside Workfront. With this enhancement, we've also updated the look and feel of the proof creation experience.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: N/A<br></p> </li> 
@@ -238,10 +202,18 @@ later this year
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md#global" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 22.3 release timeframe</a> </p> <p>Minor updates to the look and feel of various areas of the  application are being made within the 22.3 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview.</p>
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 22.3 release timeframe</a> </p> <p>Minor updates to the look and feel of various areas of the  application are being made within the 22.3 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview.</p> </td>
+   <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: Throughout the 22.3 release timeframe<br></p> </li> 
+     <li> <p>Production release: A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-may-2.md#enable" class="MCXref xref" xrefformat="{para}">Enable automatic refresh token rotation in your custom OAuth2 applications</a> <span style="color: #ff0000; font-weight: bold;">New in Preview!</span></p> <p>To allow you more control over the security of your custom OAuth2 applications, we've added to option to enable refresh token rotation. When this option is enabled, every time a refresh token is used, your application automatically creates and sends a new refresh token, and disables the old one.</p> <p>Your application must store the new refresh token after every refresh. Workfront does not store this refresh token.</p> <p>Previously, refresh tokens expired after a set amount of time configured in the custom OAuth2 application settings.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Enable automatic refresh token rotation in your custom OAuth2 applications</a></p> <p>To allow you more control over the security of your custom OAuth2 applications, we've added to option to enable refresh token rotation. When this option is enabled, every time a refresh token is used, your application automatically creates and sends a new refresh token, and disables the old one.</p> <p>Your application must store the new refresh token after every refresh. Workfront does not store this refresh token.</p> <p>Previously, refresh tokens expired after a set amount of time configured in the custom OAuth2 application settings.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: May 5, 2022<br></p> </li> 
@@ -252,7 +224,7 @@ later this year
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-may-2.md#use" class="MCXref xref" xrefformat="{para}">Use PKCE in your custom OAuth2 integrations for Single-page web applications</a> <span style="color: #ff0000; font-weight: bold;">New in Preview!</span></p> <p>You can now create Single-page web applications in your custom integrations using PKCE. PKCE is a secure authorization flow that works well with dynamically refreshing applications such as mobile apps, but is valuable across all OAuth2 clients. Instead of a static client secret, PKCE uses a dynamically generated string, eliminating the risk of a leaked client secret.</p> <p>Previously, the available options for custom OAuth2 applications used either a user's name and password, or a client secret.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Use PKCE in your custom OAuth2 integrations for Single-page web applications</a></p> <p>You can now create Single-page web applications in your custom integrations using PKCE. PKCE is a secure authorization flow that works well with dynamically refreshing applications such as mobile apps, but is valuable across all OAuth2 clients. Instead of a static client secret, PKCE uses a dynamically generated string, eliminating the risk of a leaked client secret.</p> <p>Previously, the available options for custom OAuth2 applications used either a user's name and password, or a client secret.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: May 5, 2022<br></p> </li> 
@@ -307,8 +279,7 @@ For information about the maintenance updates made during the 22.3 release, see 
 
 ## 22.3 Release Webinar
 
-The 22.3 release webinar is not yet scheduled. This page will be updated when more information is available.
-
+The 22.3 release webinar was presented on June 23, 2022. You can view the recording [here](https://webinars.on24.com/adobe_workfront/whatsnew223?partnerref=WF1).
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Workfront 22.2 Release Webinar will be presented on March 24, 2022 at 8:00 a.m. MST. You can register for the event on the <a href="https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne" target="_blank">Events page on Workfront One</a>.
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

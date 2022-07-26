@@ -6,9 +6,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-users-and-cont
 title: Bulk edit user's Other Groups
 description: When bulk editing I attempted to add a single Other Groups to numerous users. After Saving Changes, all the existing Other Groups were removed and only the new Other Group remained.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: f2402830-3263-4204-ba8a-9028ef937577
 ---
-
 # Bulk edit user's Other Groups
 
 >[!IMPORTANT]
@@ -33,4 +33,4 @@ The resulting behavior depends&nbsp;on the current group membership of the selec
 
 When you click **Save Changes**, whatever is showing in the Other Groups field is saved.
 
-The previous contents of the field are overwritten.&nbsp; 
+The previous contents of the field are overwritten.&nbsp;

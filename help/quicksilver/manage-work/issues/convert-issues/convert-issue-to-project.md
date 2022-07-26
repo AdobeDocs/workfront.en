@@ -5,8 +5,8 @@ title: Convert an issue to a project in Adobe Workfront
 description: Convert an issue to a project in Adobe Workfront
 author: Alina
 feature: Work Management
+exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 ---
-
 # Convert an issue to a project in Adobe Workfront
 
 If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project.
@@ -191,4 +191,3 @@ You can convert an issue to a blank project or convert an issue to a project usi
    The issue is now converted to a project. 
 
 1. Click [!UICONTROL **Go to project**] inside the [!UICONTROL Success] notification in the upper-right corner of the page. This opens the project page.
-

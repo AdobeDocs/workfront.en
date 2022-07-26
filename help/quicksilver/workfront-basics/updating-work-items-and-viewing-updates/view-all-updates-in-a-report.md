@@ -5,8 +5,8 @@ title: View all updates in a Note report
 description: View all updates in a Note report
 author: Lisa and Alina
 feature: Get Started with Workfront
+exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
 ---
-
 # View all updates in a Note report
 
 <!--
@@ -76,4 +76,3 @@ For example, to create a Note report for all the notes on a project:
 
 1. Click **Save + Close**.  
    All the updates entered on the project by all users with permissions to at least View the project are displayed in the report.
-

@@ -5,8 +5,8 @@ title: Modify column width and order
 description: Review this article to learn about column width guidelines and how to chang the column width and order in Workfront.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
 ---
-
 # Modify column width and order
 
 The following are guidelines about how column widths work in Adobe Workfront:

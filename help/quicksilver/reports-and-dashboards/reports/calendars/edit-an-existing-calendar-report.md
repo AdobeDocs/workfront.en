@@ -5,8 +5,8 @@ title: Edit an existing calendar report
 description: You can modify an existing calendar by adding or deleting a link to a project. You can also modify calendar groupings associated with a calendar report.
 author: Lisa
 feature: Reports and Dashboards
+exl-id: 494d040c-bd1d-4356-824f-a75890803617
 ---
-
 # Edit an existing calendar report
 
 You can modify an existing calendar by adding or deleting a link&nbsp;to a project. You can also modify calendar groupings associated with a calendar report.
@@ -71,4 +71,3 @@ You must have the following access to perform the steps in this article:
       * [Use Planned Dates in a calendar report](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
       * [Use Projected Dates in a calendar report](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [Use custom date fields in a calendar report](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
-

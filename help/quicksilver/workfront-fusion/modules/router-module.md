@@ -7,8 +7,8 @@ title: Router module in Adobe Workfront Fusion
 description: The Router module allows you to branch your flow into several routes and process the data within each route differently. Once a Router module receives a bundle, it forwards it to each connected route in the order the routes were attached to the Router module.
 author: Becky
 feature: Workfront Fusion
+exl-id: 3c39c562-1cee-4f8e-89cc-0ed554079a2b
 ---
-
 # Router module in Adobe Workfront Fusion
 
 The Router module allows you to branch your flow into several routes and process the data within each route differently. Once a Router module receives a bundle, it forwards it to each connected route in the order the routes were attached to the Router module.
@@ -108,4 +108,3 @@ A typical use case of the fallback route is to continue the flow with one route 
 1. Click on the second route and enable the fallback route option:
 
    ![](assets/enable-fallback-route-option-350x238.png)
-

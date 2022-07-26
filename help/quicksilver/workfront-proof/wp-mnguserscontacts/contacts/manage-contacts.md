@@ -5,9 +5,9 @@ navigation-topic: contacts-workfront-proof
 title: Manage Your Contacts in Workfront Proof
 description: You can manage your colleagues, members, and guests on the Contacts page.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: e2fc091a-4c06-40c5-9fb4-256239f09ffc
 ---
-
 # Manage Your Contacts in Workfront Proof
 
 >[!IMPORTANT]
@@ -78,4 +78,3 @@ You can import contacts from a CSV file.
    * The CSV file must have at least one column called "Email" (containing the email addresses).
    * You can also include additional columns for "Name," "Company," "Telephone" and "Mobile."
    * Instead of "Name" you may use two columns for "First Name" and "Last Name". If separate first and last name columns are used, you must ensure you do not also include a "Name" column.
-

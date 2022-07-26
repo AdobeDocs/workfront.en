@@ -7,8 +7,8 @@ description: You can view all audit logs in the system, or those that meet certa
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
 ---
-
 # View and export audit logs
 
 <!--
@@ -79,4 +79,3 @@ You must have the following to perform the steps in this article:
    >You can't export more than 50,000 logs at one time. Workfront exports logs based on the filters you set, not the number of logs showing on the page. You can view the total number of filtered logs in the bottom-right corner of the page.
 
 1. Click **Export**.
-
