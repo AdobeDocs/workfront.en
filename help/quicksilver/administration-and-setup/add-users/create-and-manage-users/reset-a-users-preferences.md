@@ -54,7 +54,7 @@ When you reset user preferences, some preferences are reverted to the system def
  <tbody> 
   <tr> 
    <td>Views</td> 
-   <td> <p> Reverted to the system default</p> <p>Existing Views are not deleted. You can select them again.<br></p> </td> 
+   <td> <p> Reverted to the system default</p> <p>Existing Views are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
    <td>Filters</td> 

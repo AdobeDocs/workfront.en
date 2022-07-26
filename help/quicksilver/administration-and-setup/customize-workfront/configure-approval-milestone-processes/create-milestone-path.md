@@ -82,7 +82,7 @@ For more information on how you can associate a milestone path with a project an
      </tr> 
      <tr> 
       <td role="rowheader">Color</td> 
-      <td> <p>Choose a color to associate with your milestone. <br></p> <p>If you do not choose a color, the system chooses the last color used in a milestone path. We recommend that you choose a unique color for each milestone. The color is used for visual and reporting purposes.</p> </td> 
+      <td> <p>Choose a color to associate with your milestone. </p> <p>If you do not choose a color, the system chooses the last color used in a milestone path. We recommend that you choose a unique color for each milestone. The color is used for visual and reporting purposes.</p> </td> 
      </tr> 
     </tbody> 
    </table>

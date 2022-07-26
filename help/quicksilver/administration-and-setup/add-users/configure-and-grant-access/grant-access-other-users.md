@@ -93,7 +93,7 @@ You can manage what information users can view and edit for other users using a 
         <ul>
          <li><p>Edit, delete, or deactivate the user</p></li>
          <li>Log in as the user</li>
-         <li><p>Reset the user's password</p><p><b>NOTE</b>:  A group administrator cannot log in as or reset the password of a Workfront administrator.<br></p></li>
+         <li><p>Reset the user's password</p><p><b>NOTE</b>:  A group administrator cannot log in as or reset the password of a Workfront administrator.</p></li>
         </ul><p>This option is disabled by default.</p></p> </td> 
      </tr> 
     </tbody> 
