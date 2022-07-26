@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
    <!--
-   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">In the left panel, click <strong>Proofs</strong> > <strong>Proof roles</strong>.</li>
+   <li In the left panel, click Proofs Proof roles.
    -->
 
 1. Click **Review and Approval** near the bottom of the list that appears on the left. 

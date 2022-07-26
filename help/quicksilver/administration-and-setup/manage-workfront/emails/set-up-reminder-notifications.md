@@ -11,12 +11,12 @@ role: Admin
 Reminder notifications send emails to recipients based on specified criteria. As an Adobe Workfront administrator or a user with a Planner access level and administrative access to reminder notifications, you can manually associate reminder notifications with your work items, such as projects, tasks, issues, and timesheets. 
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<span style="color: #ff1493;">An example of how this can be used would be helpful here and/or in the section </span>
-<a href="../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications" style="color: #ff1493;" class="MCXref xref">Reminder notifications</a>
-<span style="color: #ff1493;"> in </span>
-<a href="../../../workfront-basics/using-notifications/wf-notifications.md" style="color: #ff1493;" class="MCXref xref">Adobe Workfront notifications</a>
-</MadCap:conditionalText>
+DRAFTED IN FLARE:
+An example of how this can be used would be helpful here and/or in the section </span>
+<a href="../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications" class="MCXref xref">Reminder notifications</a>
+ in </span>
+<a href="../../../workfront-basics/using-notifications/wf-notifications.md" class="MCXref xref">Adobe Workfront notifications</a>
+
 -->
 
 ## Access requirements

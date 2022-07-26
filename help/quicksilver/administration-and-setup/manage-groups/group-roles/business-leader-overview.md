@@ -22,9 +22,9 @@ If you need general information about groups, see [Groups overview](../../../adm
 >Unlike the group administrator of a group, the Business leader doesn't have the ability to view or change any configurations or memberships for the group.
 
 <!--
-><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+>DRAFTED IN FLARE:
 >At this point the field is added for mainly reporting purposes.>
-></MadCap:conditionalText>
+>
 -->
 
 ## Using the Business Leader field in reporting

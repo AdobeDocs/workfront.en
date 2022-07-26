@@ -7,8 +7,6 @@ role: Admin
 ---
 # Add or edit an image or other asset widget in a custom form
 
-The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
-
 You can add or edit the properties of any of the following asset widgets in a custom form:
 
 * Image

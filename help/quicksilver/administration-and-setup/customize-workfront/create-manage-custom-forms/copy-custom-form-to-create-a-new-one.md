@@ -58,7 +58,7 @@ You must have the following to perform the steps in this article:
      <tr> 
       <td role="rowheader"> <p role="rowheader">Form Types </p> </td> 
       <td> 
-       <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+       <div class="preview"> 
         <p>In the <b>Form Type</b> box, select the object types that you want the custom form to work with, and click the X next to any types that you want to remove. Types that are already associated with the form are disabled in the list.</p> 
         <p> <img src="assets/copy-form-obj-types-350x582.png" style="width: 350;height: 582;"> </p> 
         <p>The form must be associated with at least one object type.</p> 

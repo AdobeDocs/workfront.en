@@ -11,8 +11,6 @@ role: Admin
 
 # Custom forms overview
 
-The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
-
 **Video**:
 
 See this video overview of custom forms.

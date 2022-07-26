@@ -479,8 +479,6 @@ If your organization uses outbound network filtering, add the following domains 
 
 ## IP addresses and URLs to add for accessing Workfront Proof
 
-The highlighted information in this section was announced on October 15, 2021, and are required as of November 15, 2021.
-
 You must add the following IP addresses to your allowlist in order to use various functions.
 
 * [For callbacks and webcapture proofs](#for-callbacks-and-webcapture-proofs) 

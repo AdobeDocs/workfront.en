@@ -11,8 +11,6 @@ role: Admin
 
 # Add a custom field to a custom form
 
-The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
-
 When you are working on a custom form, you can create a new custom field and add it to a custom form.
 
 You can also add a custom field that was already added to another custom form. For instructions, see [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
@@ -194,7 +192,7 @@ You must have the following to perform the steps in this article:
          <li>Custom forms associated with the following object types: Expense, Company, Iteration, Billing Record, and Group.</li> 
          <li>The following field types: Calculated , Descriptive Text , and Section Break</li> 
         </ul> </p> 
-       <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+       <div> 
         <p>Click the drop-down list, then select the object types where you want to automatically track the field's value changes.</p> 
         <p><b>IMPORTANT</b>:   
          <ul> 

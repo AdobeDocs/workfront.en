@@ -890,9 +890,9 @@ In each access level, you can configure the following options for Resource Manag
 The default setting for all access levels is No Access. A Workfront administrator can change this to View or Edit access for any Planner, Worker, and Reviewer access level. 
 
 <!--
-<MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+DRAFTED IN FLARE:
 Alina says: This will change overtime for some of the access levels, but right now once they get Edit access, they can do everything
-</MadCap:conditionalText>
+
 -->
 
 >[!NOTE]

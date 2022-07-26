@@ -3,15 +3,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
 title: Enhanced Authentication overview
-description: The highlighted information on this page refers to functionality not yet generally available. It will be available at some point in the future.
+description: Enhanced Authentication offers users a consistent and secure sign-in experience across all Workfront products and services.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 ---
 
 # Enhanced Authentication overview
-
-The highlighted information on this page refers to functionality not yet generally available. It will be available at some point in the future.
 
 {{important-admin-console-onboard}}
 
@@ -64,9 +62,9 @@ The following table provides details about current and future functionality:
    <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
    <td> <p>✓</p> <p>Multiple users cannot have the same email address if the address differs only by case. </p> </td> 
    <td> <p class="preview">✓</p> <p class="preview">Multiple users cannot have the same email address if the address differs only by case. <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      DRAFTED IN FLARE:
         For more information, see . 
-      </MadCap:conditionalText>
+      
      --></p> <p class="preview">Workfront administrators will be notified toward the end of 2019 to begin fixing duplicate email addresses.</p> </td> 
   </tr> 
   <tr> 
@@ -112,9 +110,9 @@ The following table provides details about current and future functionality:
    <td>✓</td> 
    <td> <p>✓ </p> <p>Enhanced flexibility in choosing specific requirements</p> </td> 
    <td> <p class="preview">✓</p> <p class="preview"> <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      DRAFTED IN FLARE:
         To learn more about setting password requirements, see . 
-      </MadCap:conditionalText>
+      
      --> </p> </td> 
   </tr> 
   <tr> 

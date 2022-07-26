@@ -11,8 +11,6 @@ role: Admin
 
 # Customize object headers using a layout template
 
-The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
-
 As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the fields users see in the object header when they open an object's page.
 
 >[!IMPORTANT]

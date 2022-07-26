@@ -13,8 +13,6 @@ role: Admin
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-{{highlighted-preview}}
-
 A company is an organizational unit in Adobe Workfront that can represent your organization, a department within the organization, or a client you work with. You can add companies to Workfront and use them for financial planning, reporting purposes, to define permissions around objects, and to keep information confidential.
 
 ## Access requirements

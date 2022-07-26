@@ -15,10 +15,6 @@ role: Admin
 
 You can see which access level and license is assigned to each user in a user list or report.
 
->[!TIP]
->
->You can also group the list by license types, or filter it by a specific license.
-
 ## Access requirements
 
 You must have the following:
@@ -46,7 +42,7 @@ You must have the following:
 
 ## List your users' access levels and licenses
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click**Users**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users**.
 
    By default, all users who are set as Active display in the list.
 
@@ -71,4 +67,8 @@ You must have the following:
    1. Click **Save Filter**.
 
       The list displays only the users associated with the license types that you specified in the filter.
+
+>[!TIP]
+>
+>You can also group the list by license types, or filter it by a specific license.      
 

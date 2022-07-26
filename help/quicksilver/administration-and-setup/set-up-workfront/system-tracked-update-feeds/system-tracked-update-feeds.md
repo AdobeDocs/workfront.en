@@ -23,9 +23,9 @@ The Updates area includes the following types of updates:
 * **System updates:** Automatically made by the system. A system update includes a brief note describing what kind of change happened to the item. 
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  DRAFTED IN FLARE:
   Timestamps for system updates are based on your operating system's timezone.
-  </MadCap:conditionalText>
+  
   -->
 
 The following objects can have updates:

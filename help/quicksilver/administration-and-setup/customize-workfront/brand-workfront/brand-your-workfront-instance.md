@@ -38,7 +38,7 @@ You can also change the background image and color of the login screen:
 >* Changing the login background image and color is not available if your organization's Workfront instance uses a custom SSO portal. See your network or IT administrator if you need more information.
 ><!--
 >or is enabled with Adobe IMS  >
-></MadCap:conditionalText>  >
+>  >
 >-->
 >
 >* A Workfront administrator or group administrator can also brand Workfront for certain groups and users using a layout template. Branding in a layout template overrides the system-level branding explained in this article. For instructions on branding in a layout template, see [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
@@ -119,7 +119,7 @@ You must have the following access to perform the steps in this article:
    >This is not available if your organization's Workfront instance uses a custom SSO portal.
    ><!--   >
    >or is enabled with Adobe IMS   >
-   ></MadCap:conditionalText>   >
+   >   >
    >-->   
    >
    >See your network or IT administrator if you need more information.

@@ -190,9 +190,9 @@ For instructions on configuring and using the OAuth2 application with user crede
      <tr> 
       <td role="rowheader">Redirect URLs</td> 
       <td>Users will be redirected to this path after they have authenticated with Workfront. <!--
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        DRAFTED IN FLARE:
          The path will be appended with the authorization code for access, and must have a protocol.
-        </MadCap:conditionalText>
+        
        --></td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -251,9 +251,9 @@ For instructions on configuring and using the OAuth2 application with user crede
      <tr> 
       <td role="rowheader">Redirect URLs</td> 
       <td>Users will be redirected to this path after they have authenticated with Workfront. <!--
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        DRAFTED IN FLARE:
          The path will be appended with the authorization code for access, and must have a protocol.
-        </MadCap:conditionalText>
+        
        --></td> 
      </tr> 
      <tr data-mc-conditions=""> 

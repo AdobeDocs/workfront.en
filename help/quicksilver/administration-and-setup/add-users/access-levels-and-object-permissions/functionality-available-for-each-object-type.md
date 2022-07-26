@@ -193,15 +193,15 @@ Users with a Plan license can have full access to reports. All other Access Leve
 ## Filters, views, and groupings
 
 <!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">Add rows for the following? Alina recommended the first four but Gevorg wants the info limited to what the Access Levels UI covers.</p>
-<p style="color: #ff1493;">View reports*</p>
-<p style="color: #ff1493;">Build reports*</p>
-<p style="color: #ff1493;">Edit reports*</p>
-<p style="color: #ff1493;">Share reports*</p>
-<p style="color: #ff1493;">Export lists</p>
-<p style="color: #ff1493;">Apply quick filters to lists</p>
-<p style="color: #ff1493;">* Requires access to reports</p>
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>Add rows for the following? Alina recommended the first four but Gevorg wants the info limited to what the Access Levels UI covers.</p>
+<p>View reports*</p>
+<p>Build reports*</p>
+<p>Edit reports*</p>
+<p>Share reports*</p>
+<p>Export lists</p>
+<p>Apply quick filters to lists</p>
+<p>* Requires access to reports</p>
 </div>
 -->
 

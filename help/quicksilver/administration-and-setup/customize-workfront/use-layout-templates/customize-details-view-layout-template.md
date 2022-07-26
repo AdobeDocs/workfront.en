@@ -11,8 +11,6 @@ role: Admin
 
 # Customize the Details view using a layout template
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
-
 As an Adobe Workfront administrator, you can use a layout template to determine what information appears when a user clicks the Details icon ![](assets/project-details-icon.png) in the left panel while viewing a task, issue, document, program, or portfolio.
 
 <!--

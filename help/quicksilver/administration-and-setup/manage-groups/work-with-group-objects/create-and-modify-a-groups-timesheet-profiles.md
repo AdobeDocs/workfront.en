@@ -12,7 +12,7 @@ role: Admin
 # Create and manage a group's timesheet profiles
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Do this to other step articles about objects and groups? Remove steps and point to main article; add group or step in that article. Already done previously for approval processes.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Do this to other step articles about objects and groups? Remove steps and point to main article; add group or step in that article. Already done previously for approval processes.</p>
 -->
 
 When you are viewing a group that you manage in the Groups area, you can view and work with the timesheet profiles for which the administrators of the group, or one of its subgroups, have administrative access.
