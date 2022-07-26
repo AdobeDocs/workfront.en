@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas Beta](../../../product-announcements/betas/reporting-canvas-beta.md).
+Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas Beta](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
 
 ## Send a one-time delivery
 
