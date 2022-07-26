@@ -120,7 +120,7 @@ You must have the following:
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Delete a job role</h2>
 <ol data-mc-continue="false">
-<li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <strong>Setup</strong> <img src="assets/gear-icon-settings.png">.</li>
+<li value="1">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <strong>Setup</strong> <img src="assets/gear-icon-settings.png">.</li>
 <li value="2">Click<strong>Job Roles.</strong></li>
 <li value="3">Select the job role that you want to delete, then click <strong>Delete.</strong></li>
 <li value="4">If there are any objects (users, tasks, issues) that are assigned to the job role, do one of the following:<br>

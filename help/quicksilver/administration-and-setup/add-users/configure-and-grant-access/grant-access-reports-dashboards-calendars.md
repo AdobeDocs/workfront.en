@@ -77,11 +77,11 @@ For information about what users in each access level can do with issues, see th
 As the owner or creator of a report, dashboard, or calendar, you can share it with other users by granting them permissions to it, as explained in [Share reports, dashboards, and calendars](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 <!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:</p>
-<p style="color: #ff1493;">* reports, dashboards, and calendars</p>
-<p style="color: #ff1493;">* financial data</p>
-<p style="color: #ff1493;">* issue</p>
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:</p>
+<p>* reports, dashboards, and calendars</p>
+<p>* financial data</p>
+<p>* issue</p>
 </div>
 -->
 

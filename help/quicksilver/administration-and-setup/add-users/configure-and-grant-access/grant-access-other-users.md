@@ -70,7 +70,7 @@ You can manage what information users can view and edit for other users using a 
       <td role="rowheader"><strong>Create</strong> </td> 
       <td> <p>Allows users to create users.<br>This option is enabled by default.</p> 
       <!--
-        <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure this change is being made before undrafting these 2 notes. On 3/29, the req doc says that this depends on investigation results.</p>
+        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure this change is being made before undrafting these 2 notes. On 3/29, the req doc says that this depends on investigation results.</p>
        --> 
        <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p> </td> 
      </tr> 
