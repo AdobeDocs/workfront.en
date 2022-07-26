@@ -11,7 +11,7 @@ exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
 # Set up exchange rates
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
 As an Adobe Workfront administrator, you can set up currency exchange rates in Workfront. This includes the following:

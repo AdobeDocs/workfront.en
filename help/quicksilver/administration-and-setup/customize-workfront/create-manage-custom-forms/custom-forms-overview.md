@@ -11,8 +11,6 @@ exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
 ---
 # Custom forms overview
 
-The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
-
 **Video**:
 
 See this video overview of custom forms.

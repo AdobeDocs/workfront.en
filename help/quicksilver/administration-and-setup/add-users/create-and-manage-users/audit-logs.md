@@ -326,9 +326,9 @@ The system generates a User audit log entry when a user does one of the followin
 * Creates a user
 
   <!--
-  <MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  DRAFTED IN FLARE:
   Gevorg checking with Jonah on whether this note should be here:
-  </MadCap:conditionalText>
+  
   -->
 
   >[!NOTE]

@@ -12,7 +12,7 @@ exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
 # Configure document integrations
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
 As an Adobe Workfront administrator, you can configure document integrations to manage documents in Workfront. You can also configure Workfront so that documents are stored only in document services applications and not in Workfront itself. For more information, see [Update and link a document from Workfront to an external cloud provider](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) in [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
@@ -48,16 +48,14 @@ You must have the following to perform the steps in this article:
 
 ## Supported integrations
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **)</p>
--->
+<!--DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
 You can configure the following integrations for managing documents:
 
 * Workfront Library
 
   <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Experience Manager Assets Essentials </p>
+  Experience Manager Assets Essentials </p>
   -->
 
 * Workfront DAM   

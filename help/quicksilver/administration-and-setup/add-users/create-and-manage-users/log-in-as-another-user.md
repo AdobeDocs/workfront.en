@@ -96,11 +96,11 @@ You must have the following to perform the steps in this article:
 1. Click **Log in.**
 
    <!--
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
    -->
 
    <!--
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">click an Access period and then click Request to ask the user for access to log as him or her for the specified period of time. Continue these steps after the user grants access. Specify somewhere here that this is only for the Enterprise package if they decide on that</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">click an Access period and then click Request to ask the user for access to log as him or her for the specified period of time. Continue these steps after the user grants access. Specify somewhere here that this is only for the Enterprise package if they decide on that</p>
    -->
 
    <!--
