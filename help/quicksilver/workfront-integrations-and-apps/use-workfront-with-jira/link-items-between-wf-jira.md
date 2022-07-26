@@ -5,8 +5,8 @@ title: Link items between Adobe Workfront and Jira
 description: You can link Jira issues to Adobe Workfront tasks or issues either automatically or manually.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
 ---
-
 # Link items between Adobe Workfront and Jira
 
 You can link Jira issues to Adobe Workfront tasks or issues either automatically or manually.&nbsp;
@@ -175,4 +175,3 @@ To unlink a Jira issue from a Workfront item:
 1. Go to the Workfront right panel, and click the **Unlink** icon, then click **Unlink**.  
    ![Jira_WF_unlink_icon.png](assets/jira-wf-unlink-icon-350x222.png)  
    The previously linked Jira and Workfront items are now unlinked. Any fields, comments, or documents that might be updated on them individually in the future are not updated on their previous counterpart in the other application.&nbsp;
-

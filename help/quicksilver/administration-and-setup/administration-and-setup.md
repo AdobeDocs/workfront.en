@@ -7,8 +7,8 @@ title: Administration and setup
 description: Find the information you need to manage the Workfront system in this section.
 feature: System Setup and Administration
 role: Admin
+exl-id: f80bb267-be96-41d4-98c5-398bde66499e
 ---
-
 # Administration and setup
 
 This section contains the following subsections:
@@ -27,4 +27,3 @@ This section contains the following subsections:
 * [Blueprints](../administration-and-setup/blueprints/blueprints.md) 
 * [Administrator FAQs](../administration-and-setup/administrator-faqs/adminstrator-faqs.md) 
 * [Tips, tricks, and troubleshooting for administration and setup](../administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
-

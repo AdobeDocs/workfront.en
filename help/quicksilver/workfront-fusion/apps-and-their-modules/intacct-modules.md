@@ -4,6 +4,7 @@ description: Intacct modules
 author: Becky
 draft: Probably
 feature: Workfront Fusion
+exl-id: fa1aa943-fbda-4eb4-bfa1-ab94a56785a7
 ---
 # Intacct modules
 
@@ -159,4 +160,3 @@ This search module retrieves a list of records that match specific search criter
   </tr> 
  </tbody> 
 </table>
-

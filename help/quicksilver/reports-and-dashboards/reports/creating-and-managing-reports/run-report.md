@@ -5,8 +5,8 @@ title: Run a report
 description: You can run any report that you have access to View.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: bd2202a7-040c-4291-ad02-ba8929a37e2b
 ---
-
 # Run a report
 
 You can run any report that you have access to View.
@@ -85,4 +85,3 @@ Your report might be cached if it has been displayed in your browser for a while
   This option is available in the upper-right corner of the page within the message box that indicates the time that the report was saved, or it is available in the upper-right corner of the dashboard that the report is placed on. For more information about reloading dashboards, see the section "Display Dashboards" in the article [Get started with dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 * Access any page of the report beyond the first page by navigating to the Summary, Matrix, or Chart tabs.
-

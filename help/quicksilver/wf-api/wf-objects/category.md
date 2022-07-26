@@ -5,8 +5,8 @@ title: Category
 description: "Fieldsclass: `java.lang.IllegalArgumentException`, message: 'APIModel INTERNAL does not support field projectid (OpTask)'"
 author: John
 feature: Workfront API
+exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
 ---
-
 # Category
 
 Fieldsclass: "java.lang.IllegalArgumentException",  

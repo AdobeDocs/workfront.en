@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator or a user with administrative a
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
 ---
-
 # Create and manage job roles
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
@@ -134,4 +134,3 @@ Deleting a job role deletes all current and past resource allocation related to 
 </ol>
 </div>
 -->
-

@@ -5,10 +5,10 @@ navigation-topic: workfront-integrations-navigation-topic
 title: Configure integrations
 description: You can integrate Adobe Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.
 author: Becky
-feature: "System Setup and Administration, Workfront Integrations and Apps"
+feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
 ---
-
 # Configure integrations
 
 This section contains the following articles:
@@ -37,4 +37,3 @@ This section contains the following articles:
 * [Configure the JumpSeat integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
 * [Legacy Workfront Fusion](../../administration-and-setup/configure-integrations/legacy-workfront-fusion.md) 
 * [Legacy Workfront Fusion service outages](../../administration-and-setup/configure-integrations/legacy-fusion-service-outages.md)
-

@@ -6,8 +6,8 @@ title: Update work on a project
 description: To update the status and the progress of a project you must update the status and progress on its tasks. That eventually rolls up to show the progress on the project.
 author: Alina
 feature: Work Management
+exl-id: 6f7793f4-93e4-46b5-86f4-6ebede289ccb
 ---
-
 # Update work on a project
 
 To update the status and the progress of a project you must update the status and progress on its tasks. That eventually rolls up to show the progress on the project.
@@ -23,4 +23,3 @@ For information about updating work on a project, see the following articles:
 * [Interactions between the Commit Date and the Planned Completion Date](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md) 
 * [Update Condition for tasks and issues](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md) 
 * [Update Condition for a project](../../../manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
-

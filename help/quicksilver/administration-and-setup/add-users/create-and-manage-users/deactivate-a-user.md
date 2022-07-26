@@ -7,8 +7,8 @@ description: As a Workfront administrator, you can deactivate or reactivate a us
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 ---
-
 # Deactivate or reactivate a user
 
 >[!IMPORTANT]

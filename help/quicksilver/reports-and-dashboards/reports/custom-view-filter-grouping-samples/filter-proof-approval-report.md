@@ -2,12 +2,12 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: "Filter: Proof Approval report to omit previous proof versions"
+title: 'Filter: Proof Approval report to omit previous proof versions'
 description: On a Proof Approval report, you can use the Is Current Document Version filter to include only the current versions of proofs waiting for your approval.
 author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
 ---
-
 # Filter:&nbsp;Proof Approval report to omit previous proof versions
 
 On a Proof Approval report, you can use the&nbsp;**Is Current Document Version** filter to include only the current versions of proofs waiting for your approval.
@@ -65,4 +65,3 @@ You must have the following access to perform the steps in this article:
 1. Click **Proof Approval**.
 1. In the list that appears, click **Is Current Document Version**.
 1. Click **Save + Close** in the lower-left corner of Adobe Workfront, then click **Save Report** in the box that appears.
-

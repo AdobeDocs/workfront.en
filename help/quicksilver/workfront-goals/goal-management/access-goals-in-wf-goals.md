@@ -5,8 +5,8 @@ title: Access and open goals in Adobe Workfront Goals
 description: This article describes how you can find and manage goals in Adobe Workfront.
 author: Alina
 feature: Workfront Goals
+exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
 ---
-
 # Access and open goals in Adobe Workfront Goals
 
 This article describes how you can find and manage goals in Adobe Workfront.
@@ -125,4 +125,3 @@ To access an individual goal in Workfront Goals:
 1. Click the name of a goal in the Goal List or Check-in or Pulse sections, or in a card on the Goal Alignment section.&nbsp;
 
    The Goal Details panel displays on the right. You can update the goal, its results, and activities in the Goal Details panel when you have access to manage it. For information about updating goals using the Goal&nbsp;Details panel, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
-

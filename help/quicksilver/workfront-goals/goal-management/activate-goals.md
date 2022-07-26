@@ -5,8 +5,8 @@ title: Activate goals in Adobe Workfront Goals
 description: When you create a goal, Adobe Workfront Goals saves it with a status of Draft. Drafted goals are not part of goal management.
 author: Alina
 feature: Workfront Goals
+exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
 ---
-
 # Activate goals in Adobe Workfront Goals
 
 When you create a goal, Adobe Workfront Goals saves it with a status of Draft. Drafted goals are not part of goal management.
@@ -112,4 +112,3 @@ You can activate goals you created or a goal that you have Manage permissions to
    Click the **More icon** ![](assets/more-icon.png), then click **Activate**.
 
    The goal status changes to Active. You can now track progress on the goal and the goal displays in the Check-in section as well as is taken into account in the Graphs sections of Workfront Goals
-

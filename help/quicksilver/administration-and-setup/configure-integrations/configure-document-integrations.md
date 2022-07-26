@@ -5,10 +5,10 @@ product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 description: Configure document integrations
 author: Courtney, Caroline
-feature: "System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents"
+feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
+exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
 ---
-
 # Configure document integrations
 
 <!--
@@ -241,5 +241,4 @@ To configure Workfront to send metadata to Workfront DAM:
 1. In the list of fields, select any of the fields you want to remove from metadata mapping.
 1. Click **Delete**.
 
-   The fields are removed from metadata mapping and the information contained in them is not transferred to Workfront DAM with the uploaded documents. 
-
+   The fields are removed from metadata mapping and the information contained in them is not transferred to Workfront DAM with the uploaded documents.

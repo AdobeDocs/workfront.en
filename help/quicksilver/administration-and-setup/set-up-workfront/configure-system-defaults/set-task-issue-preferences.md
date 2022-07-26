@@ -7,8 +7,8 @@ description: You can configure system-wide preferences for tasks and issues. The
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
 ---
-
 # Configure system-wide task and issue preferences
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -283,4 +283,3 @@ To lock or unlock a task or issue preference so that groups can configure it
      >We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
 
 1. Click **Save**.
-

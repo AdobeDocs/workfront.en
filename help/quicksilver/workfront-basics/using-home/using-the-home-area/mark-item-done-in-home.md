@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Mark an item as Done in the Home area
 description: You can mark a task or issue as Done if you are the task or issue assignee. When you mark a task or issue as Done, the status of the task or issue is changed to Complete.
 author: Lisa
-feature: "Get Started with Workfront, Work Management"
+feature: Get Started with Workfront, Work Management
+exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
 ---
-
 # Mark an item as Done in the Home area
 
 You can mark a task or issue as Done if you are the task or issue assignee. When you mark a task or issue as Done, the status of the task or issue is changed to Complete.
@@ -101,4 +101,3 @@ If the Done button is associated with multiple statuses, they are listed under *
 >On a task or issue with multiple assignees, each user is responsible for indicating that their own assignment on the task or issue has actually been completed. For this reason, each assignee must click Done to show they have completed the work assigned to them on the item.
 
 ![](assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x266.png)
-

@@ -5,10 +5,10 @@ navigation-topic: configure-proofing-functionality
 title: Configure default proofing roles
 description: As an Adobe Workfront administrator, you can configure the default proofing roles for users and guest users who access proofs created in Workfront. Any person adding users to a proof can adjust these roles for them.
 author: Courtney
-feature: "System Setup and Administration, Digital Content and Documents"
+feature: System Setup and Administration, Digital Content and Documents
 role: Admin
+exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
 ---
-
 # Configure default proofing roles
 
 As an Adobe Workfront administrator, you can configure the default proofing roles for users and guest users who access proofs created in Workfront. Any person adding users to a proof can adjust these roles for them.
@@ -207,4 +207,3 @@ The following table shows each role and the rights associated with it:
 >[!NOTE]
 >
 >Users on new Workfront plans can grant author or moderator roles to any users in the system. Users on legacy plans can grant author or moderator roles to any user with a proof license in the system.
-

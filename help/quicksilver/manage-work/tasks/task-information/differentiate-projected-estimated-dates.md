@@ -6,8 +6,8 @@ title: Differentiate between Projected and Estimated Dates
 description: There are several types of dates that show the timeline of tasks between when they can start and when they can complete.
 author: Alina
 feature: Work Management
+exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
 ---
-
 # Differentiate between Projected and Estimated Dates
 
 There are several types of dates that show the timeline of tasks between when they can start and when they can complete.&nbsp;
@@ -120,4 +120,3 @@ The following are some examples of what can influence the real timeline of a tas
   >[!NOTE]
   >
   >User allocation can influence the Estimated Completion&nbsp;Date of a task if they affect the speed with which the task can be completed. For example, if the task Duration Type is Effort Driven, you can make the task complete sooner by adding assignees. As a result, the Estimated Completion Date changes.
-

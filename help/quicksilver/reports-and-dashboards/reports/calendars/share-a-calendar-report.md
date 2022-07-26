@@ -5,8 +5,8 @@ title: Share a calendar report
 description: You can share a calendar with other users and you can make it available publicly, allowing someone without an Adobe Workfront license to view it.
 author: Lisa
 feature: Reports and Dashboards
+exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
 ---
-
 # Share a calendar report
 
 You can share a calendar with other users and you can make it available publicly, allowing someone without an Adobe Workfront license to view it.
@@ -104,4 +104,3 @@ You can share a private calendar link with Workfront users. Users are required t
    >
    >Workfront users must have access to the calendar in order to access it with the link. To grant access, see [Share a calendar with Workfront users](#share-a-calendar-with-workfront-users).  
    >If users don't have access, they can request it after pasting the link into their browser.
-

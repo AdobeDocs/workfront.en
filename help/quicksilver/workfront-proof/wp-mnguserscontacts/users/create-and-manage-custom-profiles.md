@@ -5,9 +5,9 @@ navigation-topic: users-workfront-proof
 title: Create and Manage Custom Profiles using Workfront Proof
 description: Billing Administrators and Administrators can create and manage custom profiles to specify what users can do in your organization's account and in Account settings.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 26e76fb7-4a2d-4ae1-b9cb-293c074151da
 ---
-
 # Create and Manage Custom Profiles using Workfront Proof
 
 >[!IMPORTANT]

@@ -6,10 +6,10 @@ navigation-topic: manage-groups
 title: Work with a group's objects
 description: When new objects are added to the Groups page, don't forget to update the article Manage groups/Groups overview/groups.html
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: d2f9494a-170d-4600-a282-69ad14a0cf6f
 ---
-
 # Work with a group's objects
 
 <!--
@@ -30,4 +30,3 @@ This section contains the following articles:
 * [Create and modify a group's project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md) 
 * [View and manage a group's recently deleted items](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) 
 * [View and manage a group's recently restored items](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
-

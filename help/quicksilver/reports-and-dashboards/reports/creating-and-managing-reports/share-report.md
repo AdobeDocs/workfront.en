@@ -5,8 +5,8 @@ title: Share a report in Adobe Workfront
 description: Your Adobe Workfront administrator grants users access to view or edit reports when they assign access levels. For more information about granting access to issues, see Grant access to reports, dashboards, and calendars.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 225e815a-0354-493d-bbcf-59304ef77570
 ---
-
 # Share a report in Adobe Workfront
 
 Your Adobe Workfront administrator grants users access to view or edit reports when they assign access levels. For more information about granting access to issues, see [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
@@ -110,4 +110,3 @@ Sharing one report or several reports from a list is identical.
    * **Make this visible system-wide:** Select this option so that everyone in Workfront with access to reports can see the report.
 
 1. Click **Save**.
-

@@ -6,8 +6,8 @@ title: Create new templates in Adobe Workfront Fusion
 description: You can create new scenario templates in Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
+exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
 ---
-
 # Create new templates in Adobe Workfront Fusion
 
 You can create new scenario templates in Adobe Workfront Fusion.
@@ -86,4 +86,3 @@ The Workfront Fusion template wizard allows you to provide future users of your 
 1. (Optional) To allow users to see this text when using the template, enable **Use as default value**.
 1. Repeat steps 2-4 for each field that you want to provide information for.
 1. Click **OK** to save changes and close the module.
-

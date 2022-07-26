@@ -7,8 +7,8 @@ description: As a Workfront administrator, you can use a layout template to dete
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
 ---
-
 # Customize the Details view using a layout template
 
 As an Adobe Workfront administrator, you can use a layout template to determine what information appears when a user clicks the Details icon ![](assets/project-details-icon.png) in the left panel while viewing a task, issue, document, program, or portfolio.
@@ -93,4 +93,3 @@ To perform them for a group, you must be a manager of that group</p> <p><b>NOTE<
    >[!TIP]
    >
    >You can click Save at any time to save your progress, then continue to modify the template later.
-

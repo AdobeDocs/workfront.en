@@ -4,6 +4,7 @@ description: 21.3 Requests enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: e3cdb642-83f5-4dc0-a4da-1f9378ab3914
 ---
 # 21.3 Requests enhancements
 
@@ -26,4 +27,4 @@ A path includes the request queue and all the topic groups and queue topics that
 
 For more information, see [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/558570896/d931cdef2c) 
+[Watch a video demonstration of this feature.](https://vimeo.com/558570896/d931cdef2c)

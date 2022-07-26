@@ -6,9 +6,9 @@ navigation-topic: basics-workfront-proof
 title: System information in Workfront Proof
 description: This section contains the following articles - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 3fce3bc9-9660-429f-b7af-1701503d703e
 ---
-
 # System information in Workfront Proof
 
 >[!IMPORTANT]
@@ -20,4 +20,3 @@ This section contains the following articles:
 * [Preview Sandbox Testing Environment- Workfront Proof](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md) 
 * [Language Settings in Workfront Proof](../../../workfront-proof/wp-getstarted/system-information/language-settings.md) 
 * [Codecs in Workfront Proof](../../../workfront-proof/wp-getstarted/system-information/codecs.md)
-

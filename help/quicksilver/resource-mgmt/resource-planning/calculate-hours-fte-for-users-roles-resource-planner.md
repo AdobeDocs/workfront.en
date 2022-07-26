@@ -6,8 +6,8 @@ title: Overview of calculating hours and FTE for users and roles in the Resource
 description: Overview of calculating hours and FTE for users and roles in the Resource Planner
 author: Alina
 feature: Resource Management
+exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
 ---
-
 # Overview of calculating hours and FTE for users and roles in the Resource Planner
 
 <!--
@@ -137,4 +137,3 @@ This calculation applies for the following values:
 * FTE Variance (VAR)
 * NET FTE
 * FTE Difference (DIF)
-

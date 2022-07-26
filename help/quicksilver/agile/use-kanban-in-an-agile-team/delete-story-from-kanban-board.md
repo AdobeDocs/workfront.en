@@ -5,8 +5,8 @@ title: Delete story from Kanban board
 description: You can delete a story or issue from the Kanban board. When you delete a story or issue, it is moved to the Recycle Bin for 30 days and can be recovered only by the system administrator.
 author: Lisa
 feature: Agile
+exl-id: 5e838f0a-b26d-4bbe-b9e9-3161e3958b58
 ---
-
 # Delete stories or issues from the Kanban board
 
 You can delete a story or issue from the Kanban board. When you delete a story or issue, it is moved to the Recycle Bin for 30 days and can be recovered only by the system administrator.
@@ -52,4 +52,3 @@ You must have the following access to perform the steps in this article:
    ![Delete kanban story](assets/kanban-delete-story.png)
 
 1. On the confirmation message, click **Yes, delete it**.
-

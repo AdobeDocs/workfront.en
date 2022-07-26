@@ -7,8 +7,8 @@ description: You can configure Workfront for use with SAML 1.1.
 author: Becky, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 0ae4f59f-6e19-4b44-ba3d-3dfd87a5815d
 ---
-
 # Configure Adobe Workfront with SAML 1.1
 
 <!--
@@ -77,4 +77,3 @@ In order to have home page landing preferences honored when implementing a Feder
    * **Enable**: Select this option to enable the integration with SAML 1.1. If it is not selected, SAML 1.1 will not be activated.
 
 1. Click **Save**.
-

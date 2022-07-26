@@ -5,8 +5,8 @@ title: Use conditional formatting in Text Mode
 description: Use conditional formatting in Text Mode
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
 ---
-
 # Use conditional formatting in Text Mode
 
 <!--
@@ -540,4 +540,3 @@ Consider the following when adding aggregators to a column in Text Mode:
   ```
 
   for hours when they are stored in minutes)
-

@@ -6,8 +6,8 @@ title: Change profile settings in Adobe Workfront Fusion
 description: You can change information in your Adobe Workfront Fusion account profile.
 author: Becky
 feature: Workfront Fusion
+exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
 ---
-
 # Change profile settings in Adobe Workfront Fusion
 
 You can change information in your Adobe Workfront Fusion account profile.
@@ -81,4 +81,3 @@ To change information in your account profile:
      </tr> 
     </tbody> 
    </table>
-

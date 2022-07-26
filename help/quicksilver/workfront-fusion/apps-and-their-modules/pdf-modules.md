@@ -3,7 +3,8 @@ title: Adobe PDF&nbsp;Services
 description: Adobe PDF&nbsp;Services
 author: Becky
 draft: Probably
-feature: "Workfront Fusion, Digital Content and Documents"
+feature: Workfront Fusion, Digital Content and Documents
+exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
 ---
 # Adobe PDF&nbsp;Services
 
@@ -680,4 +681,3 @@ This tool removes security (password protection) from a PDF document.
   </tr> 
  </tbody> 
 </table>
-

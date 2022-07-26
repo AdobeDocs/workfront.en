@@ -7,8 +7,8 @@ description: Enhanced Authentication offers users a consistent and secure sign-i
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
 ---
-
 # Enhanced Authentication overview
 
 {{important-admin-console-onboard}}
@@ -193,4 +193,3 @@ The following table provides details about current and future functionality:
   --> 
  </tbody> 
 </table>
-

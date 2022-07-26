@@ -8,8 +8,8 @@ description: You can create an approval process that users can attach to a work 
 author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
 ---
-
 # Approval processes and milestone paths
 
 This section contains the following articles:
@@ -19,4 +19,3 @@ This section contains the following articles:
 * [Configure global approval settings](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
 * [How group and approval process changes affect assigned approval processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md) 
 * [Create a milestone path](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
-

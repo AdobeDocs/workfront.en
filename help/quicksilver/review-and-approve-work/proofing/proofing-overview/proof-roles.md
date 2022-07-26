@@ -6,8 +6,8 @@ title: Proof Roles overview
 description: Proof roles allow you to grant permissions on individual proofs. Proof roles are different from Proof permission profiles. For more information about Proof Permission Profiles, see Proof Permission Profile overview.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
 ---
-
 # Proof Roles overview
 
 Proof roles allow you to grant permissions on individual proofs. Proof roles are different from Proof permission profiles. For more information about Proof Permission Profiles, see [Proof Permission Profile overview](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
@@ -158,4 +158,3 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
   </tr> 
  </tbody> 
 </table>
-

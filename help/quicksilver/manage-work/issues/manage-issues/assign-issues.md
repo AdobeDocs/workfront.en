@@ -5,8 +5,8 @@ title: Assign issues
 description: You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see Modify issue assignments overview.
 author: Alina
 feature: Work Management
+exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 ---
-
 # Assign issues
 
 You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Modify issue assignments overview](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).

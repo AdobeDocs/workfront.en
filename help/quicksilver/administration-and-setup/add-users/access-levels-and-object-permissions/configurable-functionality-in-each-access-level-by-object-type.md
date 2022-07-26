@@ -2,9 +2,9 @@
 title: Configurable access to functionality for each object type
 description: Configurable access to functionality for each object type
 author: Caroline
-
 feature: System Setup and Administration
 role: Admin
+exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
 ---
 # Configurable access to functionality for each object type
 

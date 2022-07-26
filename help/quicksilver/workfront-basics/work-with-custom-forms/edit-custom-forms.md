@@ -6,8 +6,8 @@ title: Edit information in custom form fields
 description: You can edit information on a custom form after the form is attached to an object. For information about adding custom forms to objects, see Add a custom form to an object.
 author: Alina
 feature: Get Started with Workfront
+exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
 ---
-
 # Edit information in custom form fields
 
 You can edit information on a custom form after the form is attached to an object. For information about adding custom forms to objects, see [Add a custom form to an object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

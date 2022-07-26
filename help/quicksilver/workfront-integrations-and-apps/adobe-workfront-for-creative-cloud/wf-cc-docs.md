@@ -4,9 +4,9 @@ navigation-topic: adobe-workfront-for-creative-cloud
 title: Upload documents from Adobe Photoshop
 description: You can upload your projects as documents for a quick review and approval or simply to store in Adobe Workfront.
 author: Courtney
-feature: "Workfront Integrations and Apps, Digital Content and Documents"
+feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
 ---
-
 # Upload documents from Adobe Photoshop
 
 You can upload your projects as documents for a quick review and approval or simply to store in Adobe Workfront.
@@ -69,4 +69,3 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Type a comment in the **Updates** area. 
 1. Click **Upload**.  
    The document appears in the Documents area in the plugin and the desktop app.
-

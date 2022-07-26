@@ -5,8 +5,8 @@ title: Resource pools overview
 description: Resource pools overview
 author: Alina
 feature: Resource Management
+exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
 ---
-
 # Resource pools overview
 
 <!--
@@ -239,4 +239,3 @@ When you edit projects or templates in bulk, only the Resource Pools that are co
 <p> For more information about how to edit templates in bulk, see the "Edit templates in bulk" section in <a href="../../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Edit project templates</a>.</p>
 </div>
 -->
-

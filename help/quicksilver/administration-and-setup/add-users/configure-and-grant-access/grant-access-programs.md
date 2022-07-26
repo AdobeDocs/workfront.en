@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can use an access level to
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 169f6357-1fbb-43e0-83af-1c4be682ddbf
 ---
-
 # Grant access to programs
 
 As an Adobe Workfront administrator, you can use an access level to define a user's access to programs, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
@@ -75,4 +75,3 @@ When you share any object with another user, the recipient's rights on it are de
 
 * The permissions that you grant to your recipient for the object
 * The recipient's access level settings for the object's type
-

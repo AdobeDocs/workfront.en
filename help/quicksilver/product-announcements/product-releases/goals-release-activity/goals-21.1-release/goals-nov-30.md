@@ -2,12 +2,12 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: "Adobe Workfront Goals 21.1 release activity: Week of November 30, 2020"
+title: 'Adobe Workfront Goals 21.1 release activity: Week of November 30, 2020'
 description: This page describes all enhancements made with the 21.1 release for Adobe Workfront Goals to the Preview environment the week of November 30, 2020. These enhancements will be made available in the Production environment in the first quarter of 21.1.
 author: Luke
-feature: "Product Announcements, Workfront Goals"
+feature: Product Announcements, Workfront Goals
+exl-id: 3c3555df-9c8c-40d9-91d7-1e4b0e34ae1f
 ---
-
 # Adobe Workfront Goals 21.1 release activity:&nbsp;Week of November 30, 2020
 
 This page describes all enhancements made with the 21.1 release for Adobe Workfront Goals to the Preview environment the week of November 30, 2020. These enhancements will be made available in the Production environment in the first quarter of 21.1.
@@ -22,4 +22,4 @@ To allow you to manage your email notifications in one place, we have moved the 
 
 For more information, see [Notifications: Goals](../../../../workfront-basics/using-notifications/notifications-goals.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/486872553/4f503f1d66) 
+[Watch a video demonstration of this feature.](https://vimeo.com/486872553/4f503f1d66)

@@ -5,8 +5,8 @@ title: Search, filter, and sort proof comments
 description: You can search, filter, and sort proof comments to easily navigate feedback on content.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
 ---
-
 # Search, filter, and sort proof comments
 
 You can search, filter, and sort proof comments to easily navigate feedback on content.
@@ -166,4 +166,3 @@ When you sort the comment list, the sort option you choose is remembered the nex
      </tr> 
     </tbody> 
    </table>
-

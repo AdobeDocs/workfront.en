@@ -5,8 +5,8 @@ title: Add or remove members from a board
 description: People must be added to the board as members before they can view the board and be assigned to cards.
 author: Lisa
 feature: Agile
+exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
 ---
-
 # Add or remove members from a board
 
 People must be added to the board as members before they can view the board and be assigned to cards.
@@ -61,4 +61,3 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >
    >You can't remove the board owner.
-

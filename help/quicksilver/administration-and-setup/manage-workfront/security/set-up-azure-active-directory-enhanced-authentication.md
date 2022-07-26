@@ -7,8 +7,8 @@ description: The procedure described on this page applies only to organizations 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: d7dff489-1836-43c5-8b67-de85215c6069
 ---
-
 # Set up Azure Active Directory with Enhanced Authentication
 
 {{important-admin-console-onboard}}

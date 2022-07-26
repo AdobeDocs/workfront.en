@@ -5,8 +5,8 @@ title: Filter event subscription messages
 description: You can build intermediary processing components that can help you filter and process only the event subscription messages that your business needs.
 author: John
 feature: Workfront API
+exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
 ---
-
 # Filter event subscription messages
 
 You can build intermediary processing components that can help you filter and process only the event subscription messages that your business needs.
@@ -244,4 +244,4 @@ We recommend that during the startup of your service you implement a query askin
 
 All the examples in the [Filtering Event Messages](#filtering-event-messages) section pass the responsibility of delivering filtered messages to another AWS Lambda. This is done to avoid exceeding the five-second timeout in the delivery request, which is enforced by the Event Subscription service that issues the request.
 
-In a cloudless architecture, you might need to implement an asynchronous processing mechanism similar to how the AWS SDK allows for asynchronous calls to other AWS Lambdas. Most modern programming languages have third-party or core libraries that handle asynchronous processing, allowing you to leverage the async-style of processing implemented in our examples. 
+In a cloudless architecture, you might need to implement an asynchronous processing mechanism similar to how the AWS SDK allows for asynchronous calls to other AWS Lambdas. Most modern programming languages have third-party or core libraries that handle asynchronous processing, allowing you to leverage the async-style of processing implemented in our examples.

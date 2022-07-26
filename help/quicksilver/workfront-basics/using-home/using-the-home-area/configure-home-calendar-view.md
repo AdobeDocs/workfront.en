@@ -5,8 +5,8 @@ title: Configure your Home Calendar view settings
 description: You can configure the Home Calendar settings to do the following - EDIT ME.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
 ---
-
 # Configure your Home Calendar view settings
 
 You can configure the Home Calendar settings to do the following:
@@ -106,4 +106,3 @@ For information about using the Calendar view to manage your&nbsp;work assignmen
 (NOTE: from&nbsp;Courtney: [step #] Type your weekly work hours under How many hours a week do you work?This number affects the Allocation bar, which helps you track your workload against your available work hours.&nbsp;For more information, see "Allocation Bar" in the article&nbsp;"Understanding the Home Calendar View.")
 </MadCap:conditionalText>
 -->
-

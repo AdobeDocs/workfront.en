@@ -8,8 +8,8 @@ description: A POP email account in Microsoft Exchange is disabled.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 4f7b6f40-cfbd-4f02-8c3e-de26b05db13b
 ---
-
 # Configure POP in Microsoft Exchange
 
 ## Problem
@@ -119,4 +119,3 @@ You must have the following access to perform the steps in this article:
       >[!NOTE]
       >
       >In order to have Basic Authentication, you may need to start TLS and Integrated Windows Authentication.
-

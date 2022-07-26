@@ -5,8 +5,8 @@ title: View the Home Calendar
 description: You can use the Calendar view in Adobe Workfront Home to manage all your assigned work items in one place. Your Home Calendar view is visible only to you, and only you can manage your Home Calendar.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: c8801cb4-0485-44a1-9a7d-a17a96bca419
 ---
-
 # View the Home Calendar
 
 You can use the Calendar view in Adobe Workfront Home to manage all your assigned work items in one place. Your Home Calendar view is visible only to you, and only you can manage your Home Calendar.
@@ -66,4 +66,3 @@ You must have the following access to perform the steps in this article:
    All the work items assigned to you or assigned to your groups, teams, or roles display in the left panel.
 
    You can manage your workday by dragging and dropping tasks from the left panel to your calendar. To learn about how to populate your Home Calendar, see [Use the Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
-

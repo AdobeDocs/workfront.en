@@ -5,8 +5,8 @@ title: View calendar reports and event details
 description: You can view calendar reports and event details that you created or were shared with you in Adobe Workfront.
 author: Lisa
 feature: Reports and Dashboards
+exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
 ---
-
 # View calendar reports and event details
 
 You can view calendar reports and event details that you created or were shared with you in Adobe Workfront.
@@ -104,4 +104,3 @@ You can see the details of an event in a calendar.
 
    1. (Optional) To open the associated project, task, or issue, click the title of the object.
    1. (Optional) To close all the opened details pages, click anywhere outside the event details pages.
-

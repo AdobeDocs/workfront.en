@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can access information abo
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
 ---
-
 # Manage available licenses in your system
 
 As an Adobe Workfront administrator, you can access information about your Workfront account, including the number of licenses purchased for your organization, as well as the number of those licenses currently in use.
@@ -140,4 +140,3 @@ To set the maximum license count for a Home group:
    >[!NOTE]
    >
    >To set a group's maximum license value back to the default, do not type 0. Instead, delete the number in the box. Setting the maximum license value to 0 indicates that there are no licenses allocated to that group.
-

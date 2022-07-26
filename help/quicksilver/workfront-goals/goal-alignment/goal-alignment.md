@@ -6,8 +6,8 @@ title: Goal alignment in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
 author: Alina
 feature: Workfront Goals
+exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
 ---
-
 # Goal alignment in Adobe Workfront Goals
 
 Your organization must have the following to use the functionality described in this article:
@@ -27,4 +27,3 @@ Review the following articles to understand how to align goals in&nbsp;Workfront
 * [Align goals by converting results and activities to goals](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md) 
 * [Remove goal alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/remove-goal-alignment.md) 
 * [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)
-

@@ -5,8 +5,8 @@ title: Install Adobe Workfront for Salesforce
 description: To install the app before it becomes available in the Salesforce AppExchange, see Installing Workfront for Salesforce before It Becomes Available in the AppExchange Marketplace.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
 ---
-
 # Install Adobe Workfront for Salesforce
 
 To install the app before it becomes available in the Salesforce AppExchange, see [Installing Workfront for Salesforce before It Becomes Available in the AppExchange Marketplace](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace).
@@ -185,4 +185,3 @@ To install the app before it's available:
 
    Salesforce users can use the Workfront app once you add the Workfront section to their Opportunity or Account page layouts.  
    For information about configuring the Workfront section for users, see [Configure the Adobe Workfront section for Salesforce users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).&nbsp;
-

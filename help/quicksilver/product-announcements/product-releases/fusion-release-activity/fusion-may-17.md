@@ -3,12 +3,12 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: "Workfront Fusion release activity: Week of May 17, 2021"
+title: 'Workfront Fusion release activity: Week of May 17, 2021'
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of May 17, 2021.
 author: Luke
-feature: "Product Announcements, Workfront Fusion"
+feature: Product Announcements, Workfront Fusion
+exl-id: 930c335e-2c88-41af-983f-82be790c1a4b
 ---
-
 # Workfront Fusion release activity:&nbsp;Week of May 17, 2021
 
 This page describes all enhancements made in Adobe Workfront Fusion the week of May 17, 2021.
@@ -50,4 +50,4 @@ New records and updates to existing records are now handled by separate modules.
 * To watch for new records, you can use the Watch Records trigger module. This module no longer watches for updated records.
 * To get updated records, you can use the new Search Users/Groups Delta module. This module returns new, updated, and deleted records.
 
-For more information, see [Azure Active Directory modules](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md). 
+For more information, see [Azure Active Directory modules](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md).

@@ -4,9 +4,9 @@ navigation-topic: portfolio-optimizer
 title: Optimize projects in the Portfolio Optimizer
 description: You can use the Portfolio Optimizer to prioritize your projects based on their scores and other values. The Optimizer takes into account important project information like the cost, alignment, risk and ROI to prioritize the projects according to what is more important to you.
 author: Alina
-feature: "Work Management, Strategic Planning"
+feature: Work Management, Strategic Planning
+exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
 ---
-
 # Optimize projects in the Portfolio Optimizer
 
 You can use the Portfolio Optimizer to prioritize your projects based on their scores and other values. The Optimizer takes into account important project information like the cost, alignment, risk and ROI to prioritize the projects according to what is more important to you.
@@ -73,4 +73,3 @@ You must have the following access to perform the steps in this article:
    For more information about prioritizing projects in the Portfolio Optimizer, see the article [Prioritize projects in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
 1. Click **Save** to save your Portfolio Optimizer.
-

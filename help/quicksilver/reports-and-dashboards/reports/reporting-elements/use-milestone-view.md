@@ -5,8 +5,8 @@ title: Use the Milestone view
 description: The Milestone view is available when viewing a project list or project report.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 ---
-
 # Use the Milestone view
 
 The Milestone view is available when viewing a project list or project report.
@@ -170,4 +170,3 @@ To adjust the percent complete for a task in the Milestone view:
 1. (Conditional) If completion percentages are not current displaying in the Milestone view, click **Options** in the upper-right corner of the Milestone view, then ensure that **Percent Complete** is enabled.
 
 1. Click the completion percentage below a task, specify a new percentage, then press Enter.
-

@@ -5,8 +5,8 @@ title: Edit proof comments
 description: Comments cannot be edited after a reply is added to the comment. This restriction maintains the integrity of the comment thread. When you edit a comment, the time the comment was made is not affected.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: ae92fb7d-372f-4cae-b0c3-03801248ccdc
 ---
-
 # Edit proof comments
 
 Comments cannot be edited after a reply is added to the comment. This restriction maintains the integrity of the comment thread. When you edit a comment, the time the comment was made is not affected.
@@ -68,4 +68,3 @@ To edit proof comments:
    >[!NOTE]
    >
    >The label "Edited" appears on the comment. When a reviewer mouses over this, your name and the date and time of the changes appear. If you edit the comment more than once, this information appears only for the most recent change. This label also appears above the comment when you select the document in the Documents area and view the **Updates** tab in the Summary.
-

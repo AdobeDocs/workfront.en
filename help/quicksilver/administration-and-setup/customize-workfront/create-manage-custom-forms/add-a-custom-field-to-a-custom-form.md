@@ -7,8 +7,8 @@ description: When you are working on a custom form, you can create a new custom 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
 ---
-
 # Add a custom field to a custom form
 
 When you are working on a custom form, you can create a new custom field and add it to a custom form.
@@ -264,4 +264,3 @@ You must have the following to perform the steps in this article:
    * [Reuse an existing calculated custom field in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
    * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
    * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-

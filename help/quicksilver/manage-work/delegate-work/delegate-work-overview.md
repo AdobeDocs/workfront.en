@@ -5,8 +5,8 @@ navigation-topic: delegate-work
 title: Delegate work overview
 description: Delegate work overview
 author: Alina
+exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 ---
-
 # Delegate work overview
 
 <!--
@@ -77,5 +77,3 @@ Consider the following when you delegate tasks and issues:
 | You can assign or delegate work to users in a list, or from a work item's header                                               | Yes                                   | No                                                  |
 | Any user can assign or delegate other users with work items that they are not associated with                                  | Based on permissions and access level | No. Only the assignee can delegate their own items. |
 | Planned, Actual, or Budgeted Hours for work assigned or delegated to a user display for that user in resource management tools | Yes                                   | No                                                  |
-
-

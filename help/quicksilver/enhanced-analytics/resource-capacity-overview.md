@@ -6,8 +6,8 @@ navigation-topic: enhanced-analytics-navigation-topic
 description: The Resource capacity visualization shows whether a team is over, under, or at capacity. This calculation is based on - EDIT ME.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
 ---
-
 # View the Resource capacity visualization in Enhanced analytics
 
 The Resource capacity visualization shows whether a team is over, under, or at capacity. This calculation is based on:
@@ -127,4 +127,4 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 View the following video to learn more about the Resource capacity visualization. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/368320000/cc5bb66ac8) 
+[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/368320000/cc5bb66ac8)

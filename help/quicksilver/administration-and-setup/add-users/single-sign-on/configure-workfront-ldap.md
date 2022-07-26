@@ -7,8 +7,8 @@ description: You can use LDAP with Adobe Workfront.
 author: Becky, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: e8036f57-490f-4cf4-9205-2e2659d565d0
 ---
-
 # Configure Adobe Workfront with LDAP
 
 <!--
@@ -143,4 +143,3 @@ You must have the following access to perform the steps in this article:
    </table>
 
 1. Click **Save** to save the LDAP configuration.
-

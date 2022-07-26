@@ -3,8 +3,8 @@ content-type: overview
 title: Summary overview
 description: ou can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of Adobe Workfront that display tasks and issues.
 feature: Get Started with Workfront
+exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
 ---
-
 # Summary overview
 
 You can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of Adobe Workfront that display tasks and issues.
@@ -179,4 +179,3 @@ Use the Approvals section of the Summary to view approvals attached to the task 
 To go directly to the Approvals tab on the task or issue, click the **Approvals** title.
 
 ![](assets/summary-overview-approvals-350x122.png)
-

@@ -8,8 +8,8 @@ title: Allocadia modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Allocadia, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
+exl-id: f1edefd1-9fe0-48fc-bea2-c3f9facf7363
 ---
-
 # Allocadia modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Allocadia, as well as connect it to multiple third-party applications and services.
@@ -331,4 +331,3 @@ When you are configuring this module, the following fields display.
   </tr> 
  </tbody> 
 </table>
-

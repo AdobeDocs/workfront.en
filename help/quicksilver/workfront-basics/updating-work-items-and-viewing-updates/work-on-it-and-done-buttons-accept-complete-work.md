@@ -6,8 +6,8 @@ title: Work On It and Done button overview
 description: When you are assigned to a task or issue, you can use a contextual button that changes names and function depending on your involvement with the work item.
 author: Lisa and Alina
 feature: Get Started with Workfront
+exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
 ---
-
 # Work On It and Done button overview
 
 When you are assigned to a task or issue, you can use a contextual button that changes names and function depending on your involvement with the work item.
@@ -109,4 +109,3 @@ For information about configuring the Done button for a team, see the following 
 
 * [Configure the Done button for tasks](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) 
 * [Configure the Done button for issues](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
-

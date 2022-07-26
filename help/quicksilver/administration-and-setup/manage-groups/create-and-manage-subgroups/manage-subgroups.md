@@ -6,10 +6,10 @@ navigation-topic: create-and-manage-subgroups
 title: Manage a subgroup
 description: As an group administrator of a subgroup, you can create, move, view, edit, copy, rename, export, and delete the subgroup. You can also make a subgroup a top-level group by removing it from its parent group.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
 ---
-
 # Manage a subgroup
 
 As an group administrator of a subgroup, you can create, move, view, edit, copy, rename, export, and delete the subgroup.
@@ -158,4 +158,3 @@ Consider the following when you copy a subgroup.
   ```
 
 * Any subgroup that belongs to a public group is also public, so any user with edit-user access, in or out of the group, can add users to the subgroup.
-

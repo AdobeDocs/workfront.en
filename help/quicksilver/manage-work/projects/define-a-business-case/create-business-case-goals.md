@@ -4,8 +4,8 @@ title: Create Business Case goals
 description: As part of creating a Business Case, you can create a set of goals to define the objectives of a project. Business Case goals are used to communicate to the Portfolio Manager or the Project Sponsor the purpose of completing a project.
 author: Alina
 feature: Work Management
+exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
 ---
-
 # Create Business Case goals
 
 As part of creating a Business Case, you can create a set of goals to define the objectives of a project. Business Case goals are used to communicate to the Portfolio Manager or the Project Sponsor the purpose of completing a project.
@@ -88,4 +88,3 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) To add another goal, click&nbsp;**Add Another Goal**and repeat Step 5 and Step 6.
 1. Click&nbsp;**Save**.
-

@@ -5,8 +5,8 @@ title: Export a list of timesheets
 description: As a people manager or timesheet approver, you might need to download a list of timesheets to quickly view information about the timesheets of the people you are responsible for. You can do this by exporting a list of timesheets.
 author: Lisa
 feature: Timesheets
+exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
 ---
-
 # Export a list of timesheets
 
 As a people manager or timesheet approver, you might need to download a list of timesheets to quickly view information about the timesheets of the people you are responsible for. You can do this by exporting a list of timesheets.
@@ -104,4 +104,3 @@ You must have the following access to perform the steps in this article:
    * Overtime amount
    * Approvers names
    * Status
-

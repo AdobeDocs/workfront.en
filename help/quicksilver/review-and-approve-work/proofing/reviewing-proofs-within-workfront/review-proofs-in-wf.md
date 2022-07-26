@@ -6,8 +6,8 @@ title: Review proofs within Adobe Workfront
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: cf62d4ef-1244-4038-a56d-4a325140f93a
 ---
-
 # Review proofs within Adobe Workfront
 
 This section contains the following articles:
@@ -18,4 +18,3 @@ This section contains the following articles:
 
 * [Manage notifications for proof comments and decisions](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md) 
 * [Configure proofing viewer settings](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
-

@@ -5,8 +5,8 @@ title: Edit a dashboard
 description: The purpose of the dashboard is to provide quick access to information. You can populate a dashboard with reports, calendars, and exernal pages.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
 ---
-
 # Edit a dashboard
 
 The purpose of the dashboard is to provide quick access to information. You can populate a dashboard with the following items in Adobe Workfront:
@@ -95,4 +95,3 @@ For information on creating dashboards, see [Create a dashboard](../../../report
    For more information about adding or editing external pages in a dashboard, see [Embed an external web page in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 1. Click **Save + Close**.
-

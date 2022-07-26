@@ -7,9 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Adobe Acrobat Sign modules
 description: With the Adobe Acrobat Sign modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe Acrobat Sign account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
 author: Becky
-feature: "Workfront Fusion, Digital Content and Documents"
+feature: Workfront Fusion, Digital Content and Documents
+exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
 ---
-
 # Adobe Acrobat Sign modules
 
 With the Adobe Acrobat Sign modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe Acrobat Sign account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
@@ -1002,4 +1002,3 @@ This search module searches for agreements based on criteria you provide.
   </tr> 
  </tbody> 
 </table>
-

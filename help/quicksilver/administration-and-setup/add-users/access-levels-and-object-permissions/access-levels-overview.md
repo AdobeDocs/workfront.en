@@ -9,8 +9,8 @@ description: Every user must have an access level in order to log in and work in
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
 ---
-
 # Access levels overview
 
 As an Adobe Workfront administrator, you assign an access level to a user for 2 purposes:
@@ -52,4 +52,3 @@ For information on related topics, see the following articles:
   </tr> 
  </tbody> 
 </table>
-

@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator or a user with administrative a
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
 ---
-
 # Deactivate job roles
 
 As an Adobe Workfront administrator or a user with administrative access to Job Roles, you can deactivate job roles that become obsolete in your system. When you deactivate a job role instead of deleting it, you can keep any historical information that is associated with it.
@@ -106,4 +106,3 @@ We recommend that you do the following before deactivating an unused job role:
 1. Click **Save Changes**.
 
    The job role is deactivated and can no longer be assigned to work, associated with layout templates, and so on. For information about all uses of job roles in Workfront, see [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
-

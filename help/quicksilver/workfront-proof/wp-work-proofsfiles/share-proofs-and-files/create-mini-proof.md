@@ -5,9 +5,9 @@ navigation-topic: share-proofs-and-files
 title: Create a Mini proof in Workfront Proof
 description: The Miniproof is a widget that lets you embed a proof in a web page, blog, or wiki.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 6603c361-4c1c-4092-ae70-aae92866ec7d
 ---
-
 # Create a Mini proof in Workfront Proof
 
 >[!IMPORTANT]
@@ -38,4 +38,3 @@ To embed a miniproof in a website, blog or wiki:
 1. Paste the code into the website, blog, or wiki you are working on to embed the Miniproof.
 
 ![Embed_code.png](assets/embed-code-350x218.png)
-

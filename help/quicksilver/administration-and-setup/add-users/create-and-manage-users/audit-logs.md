@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can track user-changes tri
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 ---
-
 # Audit logs
 
 As an Adobe Workfront administrator, you can track user-changes triggered in the system during the past 90 days using the audit logs described below.
@@ -339,4 +339,3 @@ The system generates a User audit log entry when a user does one of the followin
 * Changes a user's access level, company, team, or group
 * Activates a user
 * Deactivates a user
-

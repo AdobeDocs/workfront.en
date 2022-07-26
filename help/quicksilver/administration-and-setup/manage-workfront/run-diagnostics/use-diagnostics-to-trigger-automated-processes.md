@@ -6,8 +6,8 @@ title: Use Diagnostics to trigger automated processes
 description: Use Diagnostics to trigger automated processes
 feature: System Setup and Administration
 role: Admin
+exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
 ---
-
 # Use Diagnostics to trigger automated processes
 
 <!--
@@ -78,4 +78,3 @@ You must have the following to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-

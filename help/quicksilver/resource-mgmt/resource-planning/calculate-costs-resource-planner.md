@@ -2,11 +2,11 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Calculate costs in the Resource Planner
-description: "(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)"
+description: '(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'
 author: Alina
 feature: Resource Management
+exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
 ---
-
 # Calculate costs in the Resource Planner
 
 <!--
@@ -336,4 +336,3 @@ The following table illustrates how Budgeted Cost is calculated in the Resource 
   </tr> 
  </tbody> 
 </table>
-

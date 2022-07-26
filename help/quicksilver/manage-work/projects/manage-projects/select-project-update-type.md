@@ -5,8 +5,8 @@ title: Select the project Update Type
 description: By selecting an Update Type for a project, you can control how frequently the changes you make to the timeline of the project are saved on the parent tasks or the project.
 author: Alina
 feature: Work Management
+exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
 ---
-
 # Select the project Update Type
 
 By selecting an Update Type for a project, you can control how frequently the changes you make to the timeline of the project are saved on the parent tasks or the project.
@@ -90,4 +90,3 @@ When the tasks update, their parent objects (parent tasks or the project) update
      You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).
 
 1. Click **Save**.
-

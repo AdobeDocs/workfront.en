@@ -6,8 +6,8 @@ title: Locate the Workload Balancer
 description: You can use the Workload Balancer to schedule resources for work or review their availability and current allocations.
 author: Alina
 feature: Resource Management
+exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
 ---
-
 # Locate the Workload Balancer
 
 You can use the Workload Balancer to schedule resources for work or review their availability and current allocations.
@@ -128,4 +128,3 @@ Most customizations that you have already applied to the Workload Balancer are p
      -->
 
 1. (Optional) Share the custom tab in a Layout Template as described in  [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
-

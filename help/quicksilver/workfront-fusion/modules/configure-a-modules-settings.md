@@ -6,8 +6,8 @@ title: Configure a module's settings in Adobe Workfront Fusion
 description: You must configure settings for every module you create.
 author: Becky
 feature: Workfront Fusion
+exl-id: 7e66728d-8c6f-4597-98c4-bc6d36f96911
 ---
-
 # Configure a module's settings in Adobe Workfront Fusion
 
 You must configure settings for every module you create.
@@ -69,4 +69,3 @@ You must have the following access to use the functionality in this article:
    For information about the different item data types Workfront Fusion can recognize (such as date, number, and text), see [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
 
 1. (Conditional) If the module has advanced options you want to display and use, select **Show advanced settings**.
-

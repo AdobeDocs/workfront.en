@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can create a team from the
 author: Caroline, Courtney
 feature: System Setup and Administration
 role: Admin
+exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
 ---
-
 # Create a team from the Setup area
 
 As an Adobe Workfront administrator, you can create a team from the Setup area. For information about teams, see [Teams overview](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).

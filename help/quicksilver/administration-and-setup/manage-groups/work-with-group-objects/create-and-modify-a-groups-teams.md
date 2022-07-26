@@ -5,10 +5,10 @@ navigation-topic: work-with-a-groups-objects
 title: Create and modify a group's teams
 description: When you are viewing a group that you manage in the Groups area, you can view and work with teams associated with the group and any of its subgroups.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
 ---
-
 # Create and modify a group's teams
 
 When you are viewing a group that you manage in the Groups area, you can view and work with teams associated with the group and any of its subgroups.
@@ -141,4 +141,3 @@ You must have the following to perform the steps in this article:
 
    * **Delete teams**: Select at least one team, then click the Delete icon ![](assets/delete.png).
    * **Export the list of teams**: Click **Export** ![](assets/export.png), then select the file format you want for the exported list.
-

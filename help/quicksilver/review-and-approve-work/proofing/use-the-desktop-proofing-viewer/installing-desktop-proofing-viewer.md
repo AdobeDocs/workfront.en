@@ -5,8 +5,8 @@ title: Install the Desktop Proofing Viewer
 description: The Desktop Proofing Viewer, which is designed primarily for proofing interactive content, is an application that must be installed on your local machine.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
 ---
-
 # Install the Desktop Proofing Viewer
 
 The Desktop Proofing Viewer, which is designed primarily for proofing interactive content, is an application that must be installed on your local machine.

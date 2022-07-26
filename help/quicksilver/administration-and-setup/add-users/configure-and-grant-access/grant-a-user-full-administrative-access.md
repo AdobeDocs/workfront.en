@@ -4,6 +4,7 @@ description: You can grant users full administrative access to Workfront.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
 ---
 # Grant a user full administrative access
 
@@ -412,4 +413,3 @@ Users with a Plan license who can edit functionality in one area have full acces
   </tr> 
  </tbody> 
 </table>
-

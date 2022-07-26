@@ -5,8 +5,8 @@ title: Home area widgets
 description: The home area widgets for both iOS and Android help you find your work items quickly.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 36af1b05-4c95-4b8e-9b96-03b30fa9852c
 ---
-
 # Home area widgets
 
 The home area widgets for both iOS&nbsp;and Android help you find your work items quickly.

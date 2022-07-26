@@ -6,8 +6,8 @@ title: Calculate Planned Labor Cost
 description: As you plan the work on your projects, Adobe Workfront calculates the Planned Labor Cost for the roles and users assigned to this work based on their Cost Per Hour values.
 author: Alina
 feature: Work Management
+exl-id: af053e9a-09dc-4b4d-8ed4-f681ed611a59
 ---
-
 # Calculate Planned Labor Cost
 
 As you plan the work on your projects, Adobe Workfront calculates the Planned Labor Cost for the roles and users assigned to this work based on their Cost Per Hour values.
@@ -54,4 +54,3 @@ For information about creating reports and using the Workfront API, see the foll
 
 * [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 
 * [API basics](../../../wf-api/general/api-basics.md)
-

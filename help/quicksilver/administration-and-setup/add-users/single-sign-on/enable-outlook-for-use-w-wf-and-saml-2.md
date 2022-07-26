@@ -7,8 +7,8 @@ description: If you enable SAML 2.0 authentication and you want your users to be
 author: Caroline, Becky
 feature: System Setup and Administration
 role: Admin
+exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
 ---
-
 # Enable Outlook for use with Workfront and SAML 2.0
 
 If you enable SAML 2.0 authentication and you want your users to be able to log in to Workfront from Microsoft Outlook using their SAML 2.0 credentials, you must enable SAML 2.0 to authenticate in Office add-ins.
@@ -64,5 +64,4 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Save**.
 
-   The changes that you saved here affect the experience of all the users in Workfront. 
-
+   The changes that you saved here affect the experience of all the users in Workfront.

@@ -2,12 +2,12 @@
 user-type: administrator
 product-area: system-administration;reporting
 navigation-topic: configure-reports-administration
-title: "Edit list controls: filters, views, and groupings"
+title: 'Edit list controls: filters, views, and groupings'
 description: "**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **This is also linked to this article: https://workfront.zendesk.com/hc/en-us/articles/222450207"
 feature: System Setup and Administration
 role: Admin
+exl-id: 3fc03e7b-8c74-485c-8c47-a8f030e7b0fa
 ---
-
 # Edit list controls: filters, views, and groupings
 
 <!--
@@ -150,4 +150,3 @@ You can remove filters, views, and groupings, including most of the default ones
 
 1. Click the trash can button to the left of a the name of a filter, view, grouping, or custom tab.
 1. Click **Save** to remove the filter, view, grouping, or custom tab from the list controls for the selected object.
-

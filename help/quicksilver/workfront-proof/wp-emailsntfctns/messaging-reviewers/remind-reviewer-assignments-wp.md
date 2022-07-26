@@ -5,9 +5,9 @@ navigation-topic: messaging-reviewers
 title: Remind a reviewer about assignments in Workfront Proof
 description: You can send a single message to a reviewer reminding them about multiple items that have been shared with them.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: bb29f888-bc99-47ef-852f-1197efb2b41e
 ---
-
 # Remind a reviewer about assignments in Workfront Proof
 
 >[!IMPORTANT]

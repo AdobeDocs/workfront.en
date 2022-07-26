@@ -6,8 +6,8 @@ title: Activate or deactivate a scenario in Adobe Workfront Fusion
 description: This article describes why active or deactivated scenarios are useful in different situations, and how to activate or deactivate a scenario.
 author: Becky
 feature: Workfront Fusion
+exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
 ---
-
 # Activate or deactivate a scenario in Adobe Workfront Fusion
 
 You can work with scenarios either in an active or an inactive state:
@@ -69,4 +69,3 @@ You must create a scenario before you can activate it.
 1. In the upper-right corner of the window, click the **On/Off** toggle.
 
    ![](assets/on-off-switch.jpg)
-

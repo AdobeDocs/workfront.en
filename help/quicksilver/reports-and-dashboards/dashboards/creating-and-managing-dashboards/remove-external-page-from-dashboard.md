@@ -5,8 +5,8 @@ title: Remove an External Page from a dashboard
 description: You can remove an External Page from a dashboard if it's no longer needed.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
 ---
-
 # Remove an External Page from a dashboard
 
 You can remove an External Page from a dashboard if it's no longer needed.
@@ -56,4 +56,3 @@ You must have the following access to perform the steps in this article:
 1. Click **Save + Close** in the lower-left corner.
 
    This removes the external page from the selected dashboard. The external page remains in Workfront and can be accessed from a report. For information, see the "View external pages in a report" section in the article [Embed an external web page in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
-

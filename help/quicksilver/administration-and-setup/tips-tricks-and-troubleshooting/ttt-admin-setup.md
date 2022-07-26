@@ -8,8 +8,8 @@ description: Find miscellaneous helps for administrating your organization's Wor
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
 ---
-
 # Tips, tricks, and troubleshooting for administration and setup
 
 This section contains the following articles:
@@ -36,4 +36,3 @@ This section contains the following articles:
 * [Save an email header file](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md) 
 * [Sharing shows more than one permission](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md) 
 * [Unauthenticated email is not accepted due to domain's DMARC policy](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-

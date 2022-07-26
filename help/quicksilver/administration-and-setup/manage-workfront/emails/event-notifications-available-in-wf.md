@@ -7,8 +7,8 @@ description: Event notifications are emails triggered by various types of events
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
 ---
-
 # Event notifications available in Adobe Workfront
 
 Event notifications are emails triggered by various types of events on objects such as projects, tasks, and issues, as explained in [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).

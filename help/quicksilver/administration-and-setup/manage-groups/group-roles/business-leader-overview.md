@@ -5,10 +5,10 @@ navigation-topic: group-roles
 title: Business Leader overview
 description: In a group, the Business Leader is the person who makes decisions for the group regarding goals, strategies, budget, and hiring and so on. For example, in an organization that has a Chief Marketing Officer, that person would likely be the Business Leader for Marketing.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 4081587f-1ace-4f40-a3a1-57231d5a5d43
 ---
-
 # Business Leader overview
 
 In a group, the Business Leader is the person who makes decisions for the group regarding goals, strategies, budget, and hiring and so on. For example, in an organization that has a Chief Marketing Officer, that person would likely be the Business Leader for Marketing.

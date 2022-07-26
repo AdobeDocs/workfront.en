@@ -5,8 +5,8 @@ title: Delete or archive a card from a board
 description: When you delete a card from a board, it is permanently deleted and can't be restored. Archiving a card sends it to the archive and you can restore it to the board later.
 author: Lisa
 feature: Agile
+exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
 ---
-
 # Delete or archive a card from a board
 
 When you delete a card from a board, it is permanently deleted and can't be restored. Archiving a card sends it to the archive and you can restore it to the board later.
@@ -62,4 +62,3 @@ By default, only active cards are displayed on a board. You can filter the board
    ![Filter archived cards](assets/boards-filter-by-archived-cards.png)
 
 1. Select **Archived cards** again to clear the option and display only active cards.
-

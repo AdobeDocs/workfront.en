@@ -4,10 +4,10 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: As an Adobe Workfront administrator, you can create OAuth2 applications for your instance of Workfront, which allow other applications to access Workfront. Your users can then give permission to those other applications to access their Workfront data. In this way, you can integrate Workfront with applications of your choice, including your own in-house applications.
-feature: "System Setup and Administration, Workfront Integrations and Apps"
+feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
 ---
-
 # Create OAuth2 applications for Workfront integrations
 
 As an Adobe Workfront administrator, you can create OAuth2 applications for your instance of Workfront, which allow other applications to access Workfront. Your users can then give permission to those other applications to access their Workfront data. In this way, you can integrate Workfront with applications of your choice, including your own in-house applications.
@@ -323,5 +323,3 @@ Further configuration and use of the created OAuth2 application requires some te
 For security, access tokens expire after a short amount of time. To get new access tokens without having to enter credentials every time, OAuth2 uses refresh tokens. Refresh tokens are stored by the client.
 
 The process for acquiring a refresh token is the same as the procedure discussed in the section [Authorizing with an authorization code and access token](#authorizing-with-an-authorization-code-and-access-token). The request for the authorization code includes the scope `offline_access`, which indicates that the request should return a request token along with the authorization code.
-
- 

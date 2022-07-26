@@ -6,8 +6,8 @@ title: Work Effort overview
 description: Work Effort overview
 author: Alina
 feature: Work Management
+exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
 ---
-
 # Work Effort overview
 
 <!--
@@ -204,4 +204,3 @@ You can locate the Work Effort field for a task in the following areas:
 * The Overview area in the Edit Task box
 * The Overview area of the Task Details section, in the Working time area
 * A task list or report
-

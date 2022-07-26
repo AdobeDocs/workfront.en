@@ -5,8 +5,8 @@ title: Create a predecessor relationship using the Predecessors area
 description: You can use predecessor tasks (or just predecessors) to link tasks that depend on other tasks to start or complete. For example, you would not want to host a party (dependent task) before you send out the invitations (predecessor task).
 author: Alina
 feature: Work Management
+exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
 ---
-
 # Create a predecessor relationship using the Predecessors area
 
 You can use predecessor tasks (or just predecessors) to link tasks that depend on other tasks to start or complete. For example, you would not want to host a party (dependent task) before you send out the invitations (predecessor task).
@@ -80,4 +80,3 @@ You must have the following access to perform the steps in this article:
    For information about enforcing predecessors, see [Enforce predecessors](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 1. Click **Save**.
-

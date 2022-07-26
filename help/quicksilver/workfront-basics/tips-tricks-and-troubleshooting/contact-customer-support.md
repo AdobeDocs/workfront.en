@@ -4,8 +4,8 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Contact Customer Support
 description: Contact Customer Support
 feature: Get Started with Workfront
+exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
 ---
-
 # Contact Customer Support
 
 <!--
@@ -69,4 +69,4 @@ If you are logged in as an Authorized Support Contact, you can contact Workfront
 
 1. Click **Submit** to submit the case to Workfront Customer Support.
 
-If you have any questions or problems submitting a request, please call the Customer Support team. 
+If you have any questions or problems submitting a request, please call the Customer Support team.

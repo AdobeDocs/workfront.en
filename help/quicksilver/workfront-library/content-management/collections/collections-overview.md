@@ -5,9 +5,9 @@ product-area: documents
 navigation-topic: collections
 title: Overview of collections in Workfront Library
 description: Depending on the amount of content your organization stores in Workfront Library, you might have to search through hundreds of folders containing thousands of assets in order to find the items you need for your work.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 47d3b758-ca3a-4168-826d-adfba6d1b189
 ---
-
 # Overview of collections in Workfront Library
 
 Depending on the amount of content your organization stores in Workfront Library, you might have to search through hundreds of folders containing thousands of assets in order to find the items you need for your work.

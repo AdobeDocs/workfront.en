@@ -5,8 +5,8 @@ title: Update the Duration Type of a task
 description: The Duration Type of a task identifies the relationship between the number of resources assigned to a task, the total effort, and the total Duration of the task. For more information, see Overview of Task Duration and Duration Type.
 author: Alina
 feature: Work Management
+exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
 ---
-
 # Update the Duration&nbsp;Type of a task
 
 The Duration Type of a task identifies the relationship between the number of resources assigned to a task, the total effort, and the total Duration of the task. For more information, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).

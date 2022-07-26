@@ -6,9 +6,9 @@ navigation-topic: proof-notifications-and-reminders
 title: New proof email
 description: Make this article work better for PiW.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: d879b1c6-e862-4653-aa93-90ad92170951
 ---
-
 # New proof email
 
 >[!IMPORTANT]
@@ -102,4 +102,3 @@ You can select if a new reviewer added to an existing proof will be notified of 
 * If you choose to add a custom message, the box expands and you will be able to put in a custom subject line (4) and custom text in the body of the email (5). You can also discard the custom message by clicking on the link (6).
 
 ![Proof_Details_page_3.png](assets/proof-details-page-3-350x258.png)
-

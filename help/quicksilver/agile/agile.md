@@ -6,8 +6,8 @@ title: Agile
 description: Review the articles in these areas to learn how to use Agile in Adobe Workfront.
 author: Lisa
 feature: Agile
+exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
 ---
-
 # Agile
 
 This section contains the following subsections:
@@ -21,4 +21,3 @@ This section contains the following subsections:
 * [Scrum in an agile team](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md) 
 * [Work in an agile environment](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md) 
 * [Tips, tricks, and troubleshooting for agile](../agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
-

@@ -3,14 +3,14 @@ content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
 title: Grant and request permissions to objects
-description: This section contains the following articles about you can grant and request permission to objects - EDIT ME.
+description: Review these articles to learn how to grant and request permission to objects in Workfront.
 author: Alina
 feature: Get Started with Workfront
+exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
 ---
-
 # Grant and request permissions to objects
 
-This section contains the following articles about you can grant and request permission to objects:
+This section contains the following articles about how you can grant and request permission to objects:
 
 * [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) 
 * [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) 
@@ -39,4 +39,3 @@ This section contains the following articles about you can grant and request per
   This requires an additional license to Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 * [Configure access to Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
-

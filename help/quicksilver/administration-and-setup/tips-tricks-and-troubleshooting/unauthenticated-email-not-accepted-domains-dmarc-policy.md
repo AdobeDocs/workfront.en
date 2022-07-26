@@ -8,8 +8,8 @@ description: If an email sent from the Workfront system is not accepted due to d
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 2443267a-dcc0-485b-be29-17539fb54188
 ---
-
 # Unauthenticated email is not accepted due to domain's DMARC policy
 
 ## Issue

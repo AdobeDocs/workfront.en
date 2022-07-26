@@ -6,8 +6,8 @@ title: Project Percent Complete overview
 description: The Percent Complete value of a project is calculated based on either the Planned Duration or Planned Hours of tasks in the project. Your Adobe Workfront administrator or a group administrator defines which value is taken into account when calculating percent complete in your system when they configure information in the Project Preferences area. For information about configuring project preferences, see Configure system-wide project preferences.
 author: Alina
 feature: Work Management
+exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
 ---
-
 # Project Percent Complete overview
 
 The Percent Complete value of a project is calculated based on either the Planned Duration or Planned Hours of tasks in the project. Your Adobe Workfront administrator or a group administrator defines which value is taken into account when calculating percent complete in your system when they configure information in the Project Preferences area. For information about configuring project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
@@ -108,4 +108,3 @@ Now, to calculate the percent complete of the project, use the following formula
 ```
 Project Percent Complete =((100 * 0.04 + 63 * 0.5329))/163)*100 = 23.05%
 ```
-

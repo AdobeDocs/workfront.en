@@ -5,8 +5,8 @@ title: Designate Resource Managers for a project or template
 description: Designate Resource Managers for a project or template
 author: Alina
 feature: Work Management
+exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
 ---
-
 # Designate Resource Managers for a project or template
 
 <!--
@@ -123,4 +123,3 @@ You must have the following access to perform the steps in this article:
    Repeat this step to add multiple resource managers to the template. Up to 30&nbsp;resource managers can be designated for a given template.&nbsp;
 
 1. Click **Save Changes**.
-

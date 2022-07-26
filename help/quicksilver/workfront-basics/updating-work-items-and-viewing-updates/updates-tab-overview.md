@@ -6,8 +6,8 @@ title: Updates tab overview
 description: The Updates tab shows up to 200 of the most recent updates made within the past 90 days. You can reply to updates on the following objects - EDIT ME.
 author: Lisa and Alina
 feature: Get Started with Workfront
+exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 ---
-
 # Updates tab overview
 
 The Updates tab shows up to 200 of the most recent updates made within the past 90 days.&nbsp;You can reply to updates on the following objects:

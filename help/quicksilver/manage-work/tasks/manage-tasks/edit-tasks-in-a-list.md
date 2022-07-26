@@ -5,8 +5,8 @@ title: Edit tasks in a list
 description: You can edit task information in a list of tasks by editing the fields displayed in the list. For information about other ways to edit tasks, see Edit tasks.
 author: Alina
 feature: Work Management
+exl-id: 2af81907-3657-459e-b780-65983e224ca8
 ---
-
 # Edit tasks in a list {#edit-tasks-in-a-list}
 
 You can edit task information in a list of tasks by editing the fields displayed in the list. For information about other ways to edit tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).

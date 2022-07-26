@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can determine the global s
 author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
 ---
-
 # Configure global approval settings
 
 As an Adobe Workfront administrator, you can determine the global settings for approval processes in Workfront. These settings impact all work item approval processes in your system.
@@ -85,5 +85,4 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click **Save Changes.** 
-
+1. Click **Save Changes.**

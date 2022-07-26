@@ -19,6 +19,7 @@ feature-set: Workfront
       * [22.3 Other enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
       * [22.3 Project enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
       * [22.3 Resource Management enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
+      * [22.3 Reporting enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
       * [22.3 release activity: Week of May 23, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-23.md)
       * [22.3 release activity: Week of May 16, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-16.md)
       * [22.3 release activity: Week of May 2, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-2.md)
@@ -295,8 +296,10 @@ feature-set: Workfront
     * [Outlook 365 Add-In Is Now Available](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
   * Beta programs {#beta}
     * [Beta programs](product-announcements/betas/betas.md)
-    * [Reporting Canvas beta](product-announcements/betas/reporting-canvas-beta.md)
-    * [Reporting Canvas beta: known issues](product-announcements/betas/reporting-canvas-known-issues.md)
+    * Reporting Canvas beta {#reporting-canvas-beta}
+      * [Reporting Canvas beta overview](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
+      * [Reporting Canvas beta: known issues](product-announcements/betas/reporting-canvas-beta/reporting-canvas-known-issues.md)
+      * [Reporting Canvas beta: release activity](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
     * [Campaigns beta](product-announcements/betas/campaign-object-beta.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup](administration-and-setup/administration-and-setup.md)
@@ -966,13 +969,15 @@ feature-set: Workfront
       * [Send a Document with the enhanced connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
       * [Proof a linked asset with the enhanced connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
       * [View or download a linked asset with the enhanced connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
-    * Adobe Workfront for Experience Manager Assets Essentials {#wf-aem-essentials}
-      * [Adobe Workfront for Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
-      * [Adobe Experience Manager Assets integrations](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
+    * Adobe Workfront for Experience Manager Assets and Assets Essentials {#wf-aem-essentials}
+      * [Adobe Workfront for Experience Manager Assets and Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+      * [Adobe Experience Manager Assets integrations overview](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
       * [Link assets and folders from Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
-      * [View or download a linked asset from Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
-      * [Send a Document to Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
-      * [Proof a linked asset for Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
+      * [View mapped metadata for Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
+      * [View or download a linked asset from Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
+      * [Send a Document to Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
+      * [Proof a linked asset for Experience Manager Assets or Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
+      * [Create a folder linked with Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
 * Manage Work {#manage-work}
   * [Manage work](manage-work/manage-work.md)
   * Projects {#projects}

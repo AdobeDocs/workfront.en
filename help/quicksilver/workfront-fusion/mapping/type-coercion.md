@@ -7,8 +7,8 @@ title: Type coercion in Adobe Workfront Fusion
 description: This document describes how Adobe Workfront Fusion behaves in situations when it receives values in expected and unexpected data formats.
 author: Becky
 feature: Workfront Fusion
+exl-id: 847a17c9-bd67-4132-81a8-2a5fe8d516cb
 ---
-
 # Type coercion in Adobe Workfront Fusion
 
 ## Access requirements
@@ -210,4 +210,3 @@ This document describes how Adobe Workfront Fusion behaves in situations when it
   </tr> 
  </tbody> 
 </table>
-

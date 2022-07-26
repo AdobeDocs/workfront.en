@@ -9,8 +9,8 @@ description: Each of the six built-in access levels is designed for a particular
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
 ---
-
 # Built-in access levels in Adobe Workfront
 
 Each of the six built-in access levels are designed for a particular type of user:
@@ -316,4 +316,3 @@ The following are the highest access settings available for objects in the Exter
 | Resource Management |✓ |&nbsp; |&nbsp; |
 | Scenario Planner  |✓ |&nbsp; |&nbsp; |
 | Workfront Goals  |✓ |&nbsp; |&nbsp; |
-

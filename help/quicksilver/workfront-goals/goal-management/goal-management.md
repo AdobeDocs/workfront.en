@@ -6,8 +6,8 @@ title: Goal management in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
 author: Alina
 feature: Workfront Goals
+exl-id: cba07613-9912-4929-bda4-50f503faa3e1
 ---
-
 # Goal management in Adobe Workfront Goals
 
 Your organization must have the following to use the functionality described in this article:
@@ -40,4 +40,3 @@ Review the following articles to learn where you start with Workfront Goals, the
 * [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md) 
 * [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md) 
 * [Review in-trouble goals in Adobe Workfront Goals](../../workfront-goals/goal-management/view-in-trouble-goals.md)
-

@@ -6,8 +6,8 @@ title: Understand the Timesheet layout
 description: This article describes the layout of timesheets in Adobe Workfront, allowing you to better understand how to customize and utilize timesheets to record time.
 author: Lisa
 feature: Timesheets
+exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
 ---
-
 # Understand the Timesheet layout
 
 This article describes the layout of timesheets in Adobe Workfront, allowing you to better understand how to customize and utilize timesheets to record time.
@@ -140,4 +140,3 @@ The timesheet provides input fields for each work item and day of the timesheet 
 ![](assets/timesheet-totals-column-and-header-unshimmed-redesign.png)
 
 Review the sum of all hours entered on the timesheet, summarized by day (in the header of the timesheet) as well as by object (in the last column).
-

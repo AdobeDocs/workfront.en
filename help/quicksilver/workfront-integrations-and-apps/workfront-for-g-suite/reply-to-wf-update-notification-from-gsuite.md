@@ -6,8 +6,8 @@ title: Reply to a Adobe Workfront update notification from G Suite
 description: When you receive a notification about an update in Adobe Workfront, you can quickly post a reply from Workfront for G Suite.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
 ---
-
 # Reply to a Adobe Workfront update notification from G Suite
 
 When you receive a notification about an update in Adobe Workfront, you can quickly post a reply from Workfront for G Suite.
@@ -69,4 +69,3 @@ Before you can create a Workfront task in G Suite, you must
    You can repeat this step for any other names you want to add.
 
 1. Click **Post**.
-

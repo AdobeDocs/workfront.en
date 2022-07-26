@@ -4,6 +4,7 @@ description: 22.2 Mobile enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 72761545-9781-4a66-8672-2ff6a15cce9f
 ---
 # 22.2 Mobile enhancements
 
@@ -31,4 +32,4 @@ You can also reply to comments that others have made on the proof.
 
 The following article will be updated when the app is released to the app stores:
 
-[Review and make decisions on proofs in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md) 
+[Review and make decisions on proofs in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)

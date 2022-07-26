@@ -4,8 +4,8 @@ description: As an Adobe administrator, you can create Adobe Workfront users and
 author: Becky, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
 ---
-
 # Manage users in the Adobe Admin Console
 
 >[!IMPORTANT]

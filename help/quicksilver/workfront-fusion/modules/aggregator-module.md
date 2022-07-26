@@ -7,8 +7,8 @@ title: Aggregator module in Adobe Workfront Fusion
 description: An aggregator module is a type of module designed to merge several bundles of data into a single bundle.
 author: Becky
 feature: Workfront Fusion
+exl-id: cdc32842-8717-4e05-ab19-2661ee14c12c
 ---
-
 # Aggregator module in Adobe Workfront Fusion
 
 An aggregator module is a type of module designed to merge several bundles of data into a single bundle.
@@ -113,4 +113,3 @@ The following image shows a typical setup of the aggregator module :
 >Below is a sample setup of the Archive > Create an archive aggregator:
 >
 >![](assets/archive-create-an-archive-350x484.png)
-

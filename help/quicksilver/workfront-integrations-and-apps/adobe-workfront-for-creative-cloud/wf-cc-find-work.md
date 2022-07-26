@@ -4,9 +4,9 @@ navigation-topic: adobe-workfront-for-creative-cloud
 title: Find your work in Adobe Photoshop
 description: Find the work assigned to you in Adobe Workfront without leaving Adobe Photoshop.
 author: Courtney
-feature: "Workfront Integrations and Apps, Digital Content and Documents"
+feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
 ---
-
 # Find your work in Adobe Photoshop
 
 Find the work assigned to you in Adobe Workfront without leaving Adobe Photoshop.
@@ -113,4 +113,3 @@ Use the Search bar to locate projects, tasks, issues, and documents you need.
 You can use the Menu icon to navigate to parent items in a project.
 
 ![](assets/go-back-to-work-list-350x314.png)
-

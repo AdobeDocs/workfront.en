@@ -6,8 +6,8 @@ title: The scenario editor in Adobe Workfront Fusion
 description: The scenario editor allows you to create and edit scenarios in a visual interface.
 author: Becky
 feature: Workfront Fusion
+exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
 ---
-
 # The scenario editor in&nbsp;Adobe Workfront Fusion
 
 The scenario editor allows you to create and edit scenarios in a visual interface.

@@ -5,8 +5,8 @@ title: Edit project templates
 description: Edit project templatesWorking with Resource Pools" article)"
 author: Alina
 feature: Work Management
+exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 ---
-
 # Edit project templates
 
 <!--
@@ -602,4 +602,3 @@ You can add the following items to the tasks in the template:
 * Approvals
 
   For more information about associating approvals with work, see [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-

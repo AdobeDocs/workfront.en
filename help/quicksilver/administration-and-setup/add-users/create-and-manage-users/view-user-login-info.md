@@ -7,8 +7,8 @@ description: You can see how often users log in to Workfront, as well as the las
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
 ---
-
 # View user login information
 
 You can see how often users log in to Adobe Workfront, as well as the last time they logged in, by indicating that you want to include this information in the view of a list of users, or in a report for users.
@@ -79,4 +79,3 @@ To display usage information in the view of a list of users:
 
 1. Click **Save View**.  
    The view includes information about how many times the users have logged in and when they logged in last.
-

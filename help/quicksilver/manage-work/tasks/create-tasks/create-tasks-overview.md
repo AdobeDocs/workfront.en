@@ -5,8 +5,8 @@ title: Create tasks overview
 description: You can create tasks in a project only after you created the project.
 author: Alina
 feature: Work Management
+exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
 ---
-
 # Create tasks overview
 
 You can create tasks in a project only after you created the project.
@@ -85,4 +85,3 @@ When defining default information to be associated with tasks added to a project
 * When you move the task to another project, the default task settings are saved on the tasks from the original project, regardless of the task default settings on the new project.
 
   For information about moving tasks, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
-

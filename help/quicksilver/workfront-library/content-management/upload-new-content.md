@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: content-management
 title: Upload content to Workfront Library
 description: If you have Manager or higher access to Workfront Library, you can upload new content.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 7ff0bf34-aa9c-4e60-886a-dde47202b3f3
 ---
-
 # Upload content to Workfront Library
 
 If you have Manager or higher access to Workfront Library, you can upload new content.
@@ -83,4 +83,3 @@ You cannot upload a file using third-party applications such as Google Drive and
    The files upload to Workfront Library. You can now share the uploaded items with others.
 
    For information on giving others access to the item, see [Share a Workfront Library item with other users](../../workfront-library/content-management/share-an-asset-with-users.md).
-

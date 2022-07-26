@@ -5,9 +5,9 @@ navigation-topic: review-proofs-workfront-proofing-viewer
 title: Downloading a Proof
 description: You can download files from an existing proof. However, only the files are downloaded; comments and other information associated with the proof are not included in the download.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 630db335-79b6-40f0-80b7-d8ccf7ac23fa
 ---
-
 # Downloading a Proof in the proofing viewer
 
 >[!IMPORTANT]
@@ -20,4 +20,3 @@ You can download files from an existing proof. However, only the files are downl
    ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
 
 1. Browse to the location on your file system where you want to download the proof, then click&nbsp;**Save.**
-

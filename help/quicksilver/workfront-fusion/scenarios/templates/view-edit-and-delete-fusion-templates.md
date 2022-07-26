@@ -6,8 +6,8 @@ title: View, edit, and delete Adobe Workfront Fusion templates
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
+exl-id: 97e3402c-d1d0-44f6-9752-11b0f5abee22
 ---
-
 # View, edit, and delete Adobe Workfront Fusion templates
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
@@ -108,4 +108,3 @@ Please note that once you delete a template, it cannot be restored. Team templat
    Click the name of the template to go into the template. Click **Options** in the top right corner and select **Delete**.
 
 1. Click **Really?** to confirm the delete.
-

@@ -5,8 +5,8 @@ title: Delegate approval request
 description: Delegating approval requests allows you to assign another user to approve your requests for a period of time, for example, if you will be out of the office on vacation.
 author: Courtney
 feature: Work Management
+exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
 ---
-
 # Delegate approval request
 
 You can temporarily delegate the work you are assigned to while you are out of the office. You can delegate task and issue assignments or you can delegate approval requests. This article describes how to delegate approval requests. For information about delegating tasks and issues, see [Manage task and issue delegation](../../manage-work/delegate-work/how-to-delegate-work.md).
@@ -174,4 +174,3 @@ To view delegated approvals:
    All approvals display in the list by default, including approvals assigned to you and approvals delegated to you.
 
    ![](assets/delegated-to-me-nwe-350x93.png)
-

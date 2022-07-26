@@ -3,12 +3,12 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: "Workfront Fusion release activity: Week of November 2, 2020"
+title: 'Workfront Fusion release activity: Week of November 2, 2020'
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of November 2, 2020.
 author: Luke
-feature: "Product Announcements, Workfront Fusion"
+feature: Product Announcements, Workfront Fusion
+exl-id: 60e04bd9-3de2-4053-9358-6922e6316aa4
 ---
-
 # Workfront Fusion release activity:&nbsp;Week of November 2, 2020
 
 This page describes all enhancements made in Adobe Workfront Fusion the week of November 2, 2020.
