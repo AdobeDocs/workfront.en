@@ -12,7 +12,7 @@ exl-id: 699199a7-1a11-4025-aa90-6721e5cb6b45
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;from&nbsp;Alina:&nbsp;not sure if we should still keep this one or not. In the past, Reviewers had a limited "Home" area which was their default page.&nbsp;Since now they created a "My Updates" area which is their new default, not sure if this makes much sense to still keep. The "My Updates" article is linked from this one, right at the top.)</p>
 -->
 
-Reviewers are assigned the My&nbsp;Updates area by default. They can access a modified version of the Home area only when an&nbsp;Adobe Workfront administrator adds the Home area to their layout template.
+Reviewers are assigned the My Updates area by default. They can access a modified version of the Home area only when an Adobe Workfront administrator adds the Home area to their layout template.
 
 This article describes activities that you can perform in the Home area if you have a Review license.
 
@@ -35,11 +35,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Review </p> </td> 
   </tr> 
  </tbody> 
@@ -79,7 +79,7 @@ You must have the following access to perform the steps in this article:
 
 ## Delegate approvals
 
-1. (Conditional)&nbsp;If your Workfront administrator added the Home area to your layout template, click the **Workfront avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront
+1. (Conditional) If your Workfront administrator added the Home area to your layout template, click the **Workfront avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront
 
    Or
 
@@ -99,7 +99,7 @@ You must have the following access to perform the steps in this article:
 
 ## Remind or recall approvals you've submitted
 
-1. (Conditional)&nbsp;If your Workfront administrator added the Home area to your layout template, click the **Workfront avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront
+1. (Conditional) If your Workfront administrator added the Home area to your layout template, click the **Workfront avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront
 
    Or
 
@@ -113,7 +113,7 @@ You must have the following access to perform the steps in this article:
 
 ## Make comments
 
-1. (Conditional)&nbsp;If your Workfront administrator added the Home area to your layout template, click the **Workfront avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront
+1. (Conditional) If your Workfront administrator added the Home area to your layout template, click the **Workfront avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront
 
    Or
 

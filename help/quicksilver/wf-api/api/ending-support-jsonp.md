@@ -2,7 +2,7 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Ending support for JSONP
-description: Because JSONP (Javascript with Padding) is an old standard with known security vulnerabilities, Adobe Workfront will no longer support JSONP as of November 2018. This decision supports our larger initiative to modernize the Workfront platform.
+description: Ending support for JSONP
 author: John
 feature: Workfront API
 exl-id: 681336c2-2f41-4746-8cba-be077f556742
@@ -17,7 +17,7 @@ If you are using JSONP as part of any of your Workfront integrations, you must u
 
 1. Submit a request with the Workfront support team to have any domains that are being used to make cross-origin requests to our allowlist. 
  
-   To have your domains added to the allowlist for CORS, please contact Workfront Customer Support at 844-306-HELP(4357) or by submitting a support ticket online.
+   To have your domains added to the allowlist for CORS, contact Workfront Customer Support at 844-306-HELP(4357) or by submitting a support ticket online.
 
    >[!NOTE]
    >
