@@ -282,7 +282,7 @@ The following limitations exist when exporting data via kick-starts (data is exp
     <tbody> 
      <tr> 
       <td scope="col" valign="top"> <p>Dashboard</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Portal Tab Section<br>Dashboard<br>Preferences<br></p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Portal Tab Section<br>Dashboard<br>Preferences</p> </td> 
       <td scope="col" valign="top">&nbsp;Exports as .zip file.</td> 
      </tr> 
      <tr> 
@@ -337,7 +337,7 @@ The following limitations exist when exporting data via kick-starts (data is exp
     <tbody> 
      <tr> 
       <td scope="col" valign="top"> <p>Dashboard</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Portal Tab Section<br>Dashboard<br>Preferences<br></p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Portal Tab Section<br>Dashboard<br>Preferences</p> </td> 
       <td scope="col" valign="top">&nbsp;Exports as .zip file.</td> 
      </tr> 
      <tr> 

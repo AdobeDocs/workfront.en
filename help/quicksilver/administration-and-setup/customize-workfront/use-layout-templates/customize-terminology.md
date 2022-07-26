@@ -81,15 +81,14 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
        <tr>
         <td role="rowheader"><p>Workfront objects</p></td>
         <td>
-         <ul>
-          <li>Portfolio</li>
-          <li>Program</li>
-          <li>Project</li>
-          <li>Task</li>
-          <li>Issue</li>
-          <li>Goal</li>
-          <li>Result</li>
-          <li>Activity</li>
+          <p>Portfolio</p>
+          <p>Program</p>
+          <p>Project</p>
+          <p>Task</p>
+          <p>Issue</p>
+          <p>Goal</p>
+          <p>Result</p>
+          <p>Activity</p>
          </ul></td>
         <td><p>For more information about these objects, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p></td>
        </tr>
@@ -97,9 +96,9 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
         <td role="rowheader"><p>Workfront Goals objects</p></td>
         <td>
          <ul>
-          <li>Goal</li>
-          <li>Result</li>
-          <li>Activity</li>
+          <p>Goal</p>
+          <p>Result</p>
+          <p>Activity</p>
          </ul></td>
         <td><p>These objects require an additional license. For more information, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>.</p></td>
        </tr>
@@ -107,9 +106,9 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
         <td role="rowheader"><p>Workfront Scenario Planner objects</p></td>
         <td>
          <ul>
-          <li>Initiative</li>
-          <li>Scenario</li>
-          <li>Plan </li>
+          <p>Initiative</p>
+          <p>Scenario</p>
+          <p>Plan </p>
          </ul></td>
         <td><p>These objects require an additional license. For information, see <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">Get started with the Scenario Planner</a>.</p></td>
        </tr>

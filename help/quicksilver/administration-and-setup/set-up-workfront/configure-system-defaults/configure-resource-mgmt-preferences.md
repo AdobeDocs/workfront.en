@@ -79,7 +79,7 @@ You must have the following to perform the steps in this article:
         <div>      
         <p>For example, if the Default Schedule is 40 hours a week and the FTE in the profile of the user is 0.5, the user is available to work for 20 hours a week.</p>      
         <p>If the user has 1 hour of Time off one day, their Available Hours will be calculated as follows:</p>      
-        <p><code>User Daily Available Hours = (40 - 1)* 0.5 = 19.5 hours</code><br></p>      
+        <p><code>User Daily Available Hours = (40 - 1)* 0.5 = 19.5 hours</code></p>      
         </div>      
         </div></li>      
         -->

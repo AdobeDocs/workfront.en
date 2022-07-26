@@ -18,6 +18,8 @@ Depending on the business needs of your organization, the work defined in a task
 
 To transfer custom form data from an issue to a task or a project, you must complete the two tasks in this article, in the order below.
 
+For more information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md) or [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+
 ## Access requirements
 
 You must have the following to perform the steps in this article:
@@ -70,14 +72,13 @@ First you need to make sure that you retain any custom form data on a task or is
 ## Second: Convert the issue or task and transfer the custom form data {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
 1. Copy the custom form on the issue or task you are converting, as explained in the section [First: Copy the custom form](#first-copy-the-custom-form) in this article.
-1. Convert the issue or task, as described in on of the following articles, using the **Custom Forms** option in the box that displays to select the custom form you copied:
+1. Convert the issue or task using the **Custom Forms** option in the box that displays to select the custom form you copied. For instructions, see the following articles:
 
    * [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [Convert an issue to a task in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [Convert a task to a project](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
-1. In the **Convert to `<Object type>`** dialog box that displays, click the **Add Forms** drop-down menu and select the form you copied in the previous section.
+1. In the **Convert to (object type)** dialog box that displays, click the **Add Forms** drop-down menu and select the form you copied in the previous section.
 
    The information captured in the custom fields of the issue is now transferred to the custom form on the task.
 
-For more information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md) or [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
