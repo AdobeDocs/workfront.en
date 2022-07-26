@@ -2,7 +2,7 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Receive email invitations and create a password for Adobe Workfront
-description: You must have the following access to perform the steps in this article - EDIT ME.
+description: When a Workfront administrator creates a new user and chooses to send the user an email invitation, the new user receives an invitation email.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
@@ -34,20 +34,20 @@ You must have the following access to perform the steps in this article:
 
 ## Receive email invitations {#receive-email-invitations}
 
-When a Workfront administrator creates a new user and chooses to send the user an email invitation, the new user receives an invitation email, which&nbsp;looks similar to the following:  
+When a Workfront administrator creates a new user and chooses to send the user an email invitation, the new user receives an invitation email, which looks similar to the following:  
 ![](assets/email-invitation-for-all-users-preview-350x262.png)
 
-For more information about how a Workfront administrator sends email invitations&nbsp;while creating new users, see [Generate email invitations](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md#generating-email-invitations).
+For more information about how a Workfront administrator sends email invitations while creating new users, see [Generate email invitations](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md#generating-email-invitations).
 
 For more information about how a Workfront administrator adds new users to Adobe Workfront, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Create a password for Workfront
 
-As a new user, after you&nbsp;receive the invitation email, you&nbsp;can follow the link in the email invitation and finish creating your Workfront account by choosing a password.&nbsp;
+As a new user, after you receive the invitation email, you can follow the link in the email invitation and finish creating your Workfront account by choosing a password.
 
 >[!NOTE]
 >
->The link in the email is valid only the amount of days specified in the general options area of the Invitations page&nbsp;by your Workfront administrator.&nbsp;
+>The link in the email is valid only the amount of days specified in the general options area of the Invitations page by your Workfront administrator.
 
 To create a password for Workfront using the invitation email:
 
@@ -62,8 +62,8 @@ To create a password for Workfront using the invitation email:
    **Last Name**: Your last name (it should be prefilled).  
    **Title**: Your title in your organization.  
    **Password**: Choose a password to log in to Workfront.  
-   **Confirm Password**: Confirm your Workfront password.&nbsp;
+   **Confirm Password**: Confirm your Workfront password.
 
 1. Select **I accept the Terms and Conditions**.
 1. Click **Log Me In**.  
-   This completes the creation of your user account in Workfront.&nbsp;
+   This completes the creation of your user account in Workfront.

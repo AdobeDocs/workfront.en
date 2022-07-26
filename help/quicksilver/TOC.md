@@ -797,7 +797,7 @@ feature-set: Workfront
       * [Configure your User Profile](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
       * [Configure My Settings](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
       * [Configure personal time off in Adobe Workfront](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
-      * [Create custom tabs or sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+      * [Create custom sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
     * Manage your Adobe Workfront account {#manage-workfront-account}
       * [Manage your Adobe Workfront account](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
       * [Log in to Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
