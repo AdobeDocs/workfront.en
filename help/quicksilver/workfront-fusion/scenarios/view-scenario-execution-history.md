@@ -6,8 +6,8 @@ title: View a scenario's execution history in Adobe Workfront Fusion
 description: You can display information about all the runs for a scenario, or you can search all executions of the scenario for specific data.
 author: Becky
 feature: Workfront Fusion
+exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
 ---
-
 # View a scenario's execution history in Adobe Workfront Fusion
 
 You can display information about all the runs for a scenario, or you can search all executions of the scenario for specific data.
@@ -162,4 +162,3 @@ The Search in history window opens.
 1. (Optional) To copy a scenario execution ID, click the **Copy execution ID** icon <img src="assets/copy-fusion-execution-id-icon.png"> in the row of the desired execution
 
 1. (Optional) Click on a result of the Fulltext search to examine the scenario module output bundle that contains the information.
-

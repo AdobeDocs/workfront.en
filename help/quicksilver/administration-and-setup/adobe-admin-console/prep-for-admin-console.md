@@ -9,8 +9,8 @@ description: Because Adobe Workfront is an Adobe product, you can access it thro
 author: Becky, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
 ---
-
 # Prepare to onboard your organization to the Adobe Admin Console
 
 Because Adobe Workfront is an Adobe product, you can access it through the Adobe Admin Console. This enables you to manage Workfront along with other Adobe accounts and products for your users in a central place.

@@ -7,8 +7,8 @@ description: In a layout template, you can pin the pages that you want users to 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
 ---
-
 # Customize pinned pages using a layout template
 
 In a layout template, you can pin the pages that you want users to always have available at the top of Adobe Workfront. These can be either pages accessed via the Main Menu ![](assets/main-menu-icon.png) or dashboards.
@@ -70,4 +70,3 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
    >[!TIP]
    >
    >You can click Save at any time to save your progress, then continue to modify the template later.
-

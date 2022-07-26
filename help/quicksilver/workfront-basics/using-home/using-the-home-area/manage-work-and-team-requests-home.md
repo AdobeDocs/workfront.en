@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Manage work and team requests in the Home area
 description: When work tasks and issues are assigned to you, they are listed on the Work List in the Home area. You can view, reassign, reply to, work on, or remove a request. Work requests in the Home area are not limited to issues associated with request queues.
 author: Lisa
-feature: "Get Started with Workfront, Work Management"
+feature: Get Started with Workfront, Work Management
+exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
 ---
-
 # Manage work and team requests in the Home area
 
 When work tasks and issues&nbsp;are assigned to you, they are listed on the Work List in the Home area. You can view, reassign, reply to, work on, or remove a request. Work requests in the Home area are not limited to issues associated with request queues.
@@ -148,4 +148,3 @@ If you decide that you should not be working on the request, you can either conv
    * **Remove:** Select this option&nbsp;to remove a request from your Work List.  
      You are unassigned from the&nbsp;request and the&nbsp;request is&nbsp;no longer associated with your name in Adobe Workfront.  
      If the request is not assigned to anyone else or to another team or job role, the request is&nbsp;left unassigned.
-

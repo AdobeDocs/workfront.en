@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can use an access level to
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: f4a9c4f3-8ed4-4629-aced-9cc09b8acd3f
 ---
-
 # Grant access to portfolios
 
 As an Adobe Workfront administrator, you can use an access level to define a user's access to portfolios, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 

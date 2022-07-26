@@ -7,8 +7,8 @@ description: You can reposition custom fields and widgets in a custom form.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: f96425e3-8e20-43ac-8340-915538ae5886
 ---
-
 # Position custom fields and widgets in a custom form
 
 You can reposition custom fields and widgets in a custom form.
@@ -69,4 +69,3 @@ You must have the following to perform the steps in this article:
    * [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
    * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
    * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-

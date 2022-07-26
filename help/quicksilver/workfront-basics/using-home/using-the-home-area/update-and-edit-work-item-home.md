@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Update or edit a work item in the Home area
 description: You can view and add updates to a work item within the Home area in Adobe Workfront. You can also edit other data related to the work item if you have access to edit it.
 author: Lisa
-feature: "Get Started with Workfront, Work Management"
+feature: Get Started with Workfront, Work Management
+exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
 ---
-
 # Update or edit a work item in the Home area
 
 You can view and add updates to a work item within the Home area in Adobe Workfront. You can also edit other data related to the work item if you have access to edit it.
@@ -98,4 +98,3 @@ You can edit any field on any work item that you have access to edit.
 
 1. Click the field you want to edit, then make your desired update.  
 1. Click away from the field to save your changes.
-

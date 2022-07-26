@@ -5,8 +5,8 @@ navigation-topic: boards
 title: Early feature opt-in for Adobe Workfront Boards
 description: Boards with ad hoc cards are available to all users, and we are excited to open additional features for early feature opt-in.
 author: Lisa
+exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
 ---
-
 # Early feature opt-in for Adobe Workfront Boards
 
 Boards with ad hoc and connected cards are available to all users, and we are excited to open additional boards features for early feature opt-in beginning in July 2022.

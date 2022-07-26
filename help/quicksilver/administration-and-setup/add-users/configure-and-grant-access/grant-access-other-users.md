@@ -4,6 +4,7 @@ description: As an Adobe Workfront administrator, you can use an access level to
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
 ---
 # Grant access to users
 
@@ -107,5 +108,4 @@ You can manage what information users can view and edit for other users using a 
 
 ## Access to users by license type
 
-For information about what users in each access level can do with users, see the section [Users](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).  
-
+For information about what users in each access level can do with users, see the section [Users](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).

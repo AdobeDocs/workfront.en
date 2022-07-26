@@ -6,8 +6,8 @@ title: Deactivate a User via the API
 description: When a user leaves your organization, you can deactivate the user, making their Adobe Workfront license available for another user and preventing them from being inadvertently assigned work. By deactivating a user, you preserve their work history, including their work assignments and their association with notes, hours, and documents.
 author: John
 feature: Workfront API
+exl-id: 45b06cce-4622-4739-b9f3-2edb9101c099
 ---
-
 # Deactivate a User via the API
 
 When a user leaves your organization, you can deactivate the user, making their Adobe Workfront license available for another user and preventing them from being inadvertently assigned work. By deactivating a user, you preserve their work history, including their work assignments and their association with notes, hours, and documents.

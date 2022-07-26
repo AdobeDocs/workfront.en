@@ -7,8 +7,8 @@ description: As a Workfront administrator, you can use a layout template to dete
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
 ---
-
 # Customize the Details view using a layout template
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
@@ -95,4 +95,3 @@ To perform them for a group, you must be a manager of that group</p> <p><b>NOTE<
    >[!TIP]
    >
    >You can click Save at any time to save your progress, then continue to modify the template later.
-

@@ -8,8 +8,8 @@ description: The three built-in system task statuses in Workfront are required, 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
 ---
-
 # System task statuses
 
 The three built-in system task statuses in Workfront are required, which means that you can unlock, rename, and reorder them, but you cannot hide or delete them.
@@ -49,4 +49,3 @@ The following task statuses are provided with your Workfront instance:
   </tr> 
  </tbody> 
 </table>
-

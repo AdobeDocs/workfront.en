@@ -6,8 +6,8 @@ title: Create scenarios with Adobe Workfront Fusion templates
 description: Adobe Workfront FusionTemplates feature allow you to create and use existing templates as a starting point for your Workfront Fusion scenarios.
 author: Becky
 feature: Workfront Fusion
+exl-id: 43b30244-f4a5-4036-939c-aff7827c21b1
 ---
-
 # Create scenarios with Adobe Workfront Fusion templates
 
 Adobe Workfront FusionTemplates feature allow you to create and use existing templates as a starting point for your Workfront Fusion scenarios.
@@ -64,4 +64,3 @@ You must create a template before you can use it.
    For information on building a scenario, see [Create a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. Click the **Save** icon ![](assets/save-icon.png) to save your scenario. The scenario saves to the Scenario area of Workfront Fusion.
-

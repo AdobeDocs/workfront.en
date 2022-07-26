@@ -5,8 +5,8 @@ title: Assign work in the Workload Balancer by dragging and dropping
 description: Assign work in the Workload Balancer by dragging and dropping
 author: Alina
 feature: Resource Management
+exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
 ---
-
 # Assign work in the Workload Balancer by dragging and dropping
 
 <!--

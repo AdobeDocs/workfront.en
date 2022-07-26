@@ -5,10 +5,10 @@ navigation-topic: manage-group-statuses
 title: Create or edit a group status
 description: As a group administrator, you can create custom statuses for a group that you manage. This helps to eliminate the need for dozens of company-wide custom statuses and allows more autonomy in your group hierarchies.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
 ---
-
 # Create or edit a group status
 
 As a group administrator, you can create custom statuses for a group that you manage. This helps to eliminate the need for dozens of company-wide custom statuses and allows more autonomy in your group hierarchies.
@@ -172,4 +172,3 @@ If you are a group administrator (or a Workfront administrator), you can create 
    The status is dimmed and no longer visible to all users in that group.
 
 1. Repeat steps 3 through Step 5 to hide the custom status from any other groups who don't need it.
-

@@ -7,8 +7,8 @@ description: You can delete a custom condition.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
 ---
-
 # Delete a custom condition
 
 ## Access requirements

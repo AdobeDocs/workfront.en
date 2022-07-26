@@ -4,8 +4,8 @@ navigation-topic: recent-and-favorites
 title: View and manage favorites
 description: The Favorites menu allows you to access items quickly. Items remain on the Favorites menu until you remove them. You can have up to 40 items on the Favorites menu.
 feature: Get Started with Workfront
+exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
 ---
-
 # View and manage favorites
 
 The Favorites menu allows you to access items quickly. Items remain on the Favorites menu until you remove them. You can have up to 40 items on the Favorites menu.
@@ -86,4 +86,3 @@ You can add recent items or the current page to the Favorites menu.
    Or
 
    If you are on the page that you want to remove as a favorite, click the **Favorites** icon ![](assets/favorites-icon.png) next to the object name to remove it from the Favorites menu.
-

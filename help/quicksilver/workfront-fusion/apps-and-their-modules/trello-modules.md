@@ -8,8 +8,8 @@ title: Trello modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Trello, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
+exl-id: 60630b23-e057-4ecf-a014-6e63b6d69b48
 ---
-
 # Trello modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Trello, as well as connect it to multiple third-party applications and services.

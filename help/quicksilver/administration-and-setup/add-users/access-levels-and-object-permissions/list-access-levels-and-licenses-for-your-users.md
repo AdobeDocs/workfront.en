@@ -9,8 +9,8 @@ description: You can see which access level and license is assigned to each user
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
 ---
-
 # List your users' access levels and licenses
 
 You can see which access level and license is assigned to each user in a user list or report.
@@ -71,4 +71,3 @@ You must have the following:
    1. Click **Save Filter**.
 
       The list displays only the users associated with the license types that you specified in the filter.
-

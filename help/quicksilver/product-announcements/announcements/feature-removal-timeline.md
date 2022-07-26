@@ -6,8 +6,8 @@ title: Schedule of features no longer supported
 description: Various features are being phased out of the Adobe Workfront product. Following is a brief description of each feature, links to additional information, and key dates to be aware of.
 author: Luke
 feature: Product Announcements
+exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
 ---
-
 # Schedule of features no longer supported
 
 Various features are being phased out of the Adobe Workfront product. Following is a brief description of each feature, links to additional information, and key dates to be aware of.
@@ -65,4 +65,3 @@ Various features are being phased out of the Adobe Workfront product. Following 
   --> 
  </tbody> 
 </table>
-

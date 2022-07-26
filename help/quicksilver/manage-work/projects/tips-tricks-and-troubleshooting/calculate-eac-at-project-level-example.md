@@ -6,8 +6,8 @@ title: Calculation example - calculate EAC at the Project Level
 description: PIM = Hour-Based
 author: Alina
 feature: Work Management
+exl-id: ff88b7e3-2a5b-464f-bed1-6848067840b8
 ---
-
 # Calculation example - calculate EAC at the Project Level
 
 ## EAC method: Calculate at the project level
@@ -957,4 +957,3 @@ EAC Method = Calculate at project level
    **EAC****Project** = EAC Labor + EAC Expense  
    **EAC****Project** &nbsp;= $22,448.98 + 9,800.00  
    **EAC****Project** &nbsp;= $32,248.98
-

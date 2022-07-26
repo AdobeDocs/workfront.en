@@ -4,6 +4,7 @@ description: Copy and submit requests
 author: Alina
 draft: Probably
 feature: Work Management
+exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 ---
 # Copy and submit requests
 
@@ -193,4 +194,3 @@ You must have a request that you or someone in your organization previously subm
 1. Click&nbsp;**Submit**.
 
    The copied request is submitted as a new request in the request queue you specified.
-

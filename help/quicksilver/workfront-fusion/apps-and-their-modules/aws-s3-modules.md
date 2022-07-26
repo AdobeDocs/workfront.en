@@ -8,8 +8,8 @@ title: AWS S3 modules
 description: The Adobe Workfront Fusion AWS S3 modules let you perform operations on your S3 buckets.
 author: Becky
 feature: Workfront Fusion
+exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
 ---
-
 # AWS S3 modules
 
 The Adobe Workfront Fusion AWS S3 modules let you perform operations on your S3 buckets.
@@ -315,4 +315,3 @@ Returns a list of folders from a specified location.
   </tr> 
  </tbody> 
 </table>
-

@@ -7,8 +7,8 @@ description: You can create default filters, views, and groupings, then make the
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
 ---
-
 # Create, edit, and share default filters, views, and groupings
 
 <!--
@@ -115,4 +115,3 @@ These steps explain how to make filters, views, and groupings available from the
    * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
    * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
    * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
-

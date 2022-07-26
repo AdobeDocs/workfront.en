@@ -5,8 +5,8 @@ title: Edit issues
 description: You can edit information on issues that you have created, or that other users have created if they shared the issues with you.
 author: Alina
 feature: Work Management
+exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
 ---
-
 # Edit issues
 
 You can edit information on issues that you have created, or that other users have created if they shared the issues with you.
@@ -341,4 +341,3 @@ You can edit the following fields in the issue header:
 * Planned Completion Date and time 
 * Status
 * Make approval decisions if you are set as the approver in a current approval process
-

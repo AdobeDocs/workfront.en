@@ -5,8 +5,8 @@ title: Updates to API Version 9
 description: Updated Resources
 author: John
 feature: Workfront API
+exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
 ---
-
 # Updates to API Version 9
 
 ## Updated Resources
@@ -180,4 +180,3 @@ Assignment
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | `storyBoardOrder`  |  `agileWork`  |   |   | `getWFHomeObjects`  |   |   |
-

@@ -5,8 +5,8 @@ title: Event notifications
 description: Event notifications are emails triggered by various types of events on objects such as projects, tasks, or issues. They are sent when something occurs on the project that others need to know about. Depending on the event, users receive instant, daily, or both instant and daily email notifications about it.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 09b70427-691d-437a-b9d2-86f78bd4d6a2
 ---
-
 # Event notifications
 
 Event notifications are emails triggered by various types of events on objects such as projects, tasks, or issues. They are sent when something occurs on the project that others need to know about. Depending on the event, users receive instant, daily, or both instant and daily email notifications about it.

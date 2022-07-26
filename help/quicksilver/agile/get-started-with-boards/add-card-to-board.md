@@ -5,8 +5,8 @@ title: Add a card to a board
 description: You can quickly add an ad hoc card to a board and assign it to a member on the board. The card can represent a task, issue, person, group, or any type of item that you want to include on the board.
 author: Lisa
 feature: Agile
+exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
 ---
-
 # Add an ad hoc card to a board
 
 You can quickly add a card to a board and assign it to a member on the board. The card can represent a task, issue, person, group, or any type of item that you want to include on the board.
@@ -156,4 +156,3 @@ You can add ad hoc cards with only a title to quickly populate your board.
 1. Click **Close** to return to the board.
 
    The counter on the card is also updated.
-

@@ -7,8 +7,8 @@ description: If you are an Adobe Workfront administrator, or you have administra
 author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 ---
-
 # Edit an approval process
 
 If you are an Adobe Workfront administrator, or you have administrative access to approval processes, you can see and edit all approval processes in the system.

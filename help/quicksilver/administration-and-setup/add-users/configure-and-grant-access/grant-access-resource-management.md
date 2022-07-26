@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can use an access level to
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 14948e33-3dd7-4ef3-9307-51628dedd1f5
 ---
-
 # Grant access to Resource Management
 
 As an Adobe Workfront administrator, you can use an access level to define a user's access to Resource Management, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).

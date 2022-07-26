@@ -7,8 +7,8 @@ description: You can connect  Workfront with an Active Directory Server.
 author: Becky, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: cbc3b070-dc96-4e21-a7b5-04834b9152ff
 ---
-
 # Configure Adobe Workfront with Active Directory
 
 <!--
@@ -104,4 +104,3 @@ To connect Adobe Workfront with an Active Directory Server:
    </table>
 
 1. Click **Save** to save the Active Directory configuration.
-

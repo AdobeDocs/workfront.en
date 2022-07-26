@@ -7,8 +7,8 @@ title: Scenario execution flow in Adobe Workfront Fusion
 description: This article explains how a scenario executes and how data flows through it. It also explains where you can find information about your processed data and how to read it.
 author: Becky
 feature: Workfront Fusion
+exl-id: 95c6e969-66b4-4b57-9e62-aae0cfb9bf98
 ---
-
 # Scenario execution flow in Adobe Workfront Fusion
 
 This article explains how a scenario executes and how data flows through it. It also explains where you can find information about your processed data and how to read it.

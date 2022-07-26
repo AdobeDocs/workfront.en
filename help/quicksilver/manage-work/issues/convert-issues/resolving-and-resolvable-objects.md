@@ -6,8 +6,8 @@ title: Overview of Resolving and Resolvable Objects
 description: A Resolvable Object is an issue whose resolution is tied to a Resolving Object. A Resolving Object is a project, task, or another issue.
 author: Alina
 feature: Work Management
+exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
 ---
-
 # Overview of Resolving and Resolvable Objects
 
 A Resolvable Object is an issue whose resolution is tied to a Resolving Object. A Resolving Object is a project, task, or another issue.
@@ -262,4 +262,3 @@ The following table shows what fields you can display and in which views you can
   </tr> 
  </tbody> 
 </table>
-

@@ -6,8 +6,8 @@ title: Set up exchange rates
 description: Set up exchange rates
 feature: System Setup and Administration
 role: Admin
+exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
 ---
-
 # Set up exchange rates
 
 <!--

@@ -4,10 +4,10 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Legacy Workfront Fusion is not available as of March 31, 2021.
-feature: "System Setup and Administration, Workfront Integrations and Apps"
+feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+exl-id: d7177c79-5e6c-4bfc-8161-915fa18d244f
 ---
-
 # Slack app for Legacy Workfront Fusion
 
 >[!IMPORTANT]
@@ -71,4 +71,3 @@ role: Admin
 </div>
 </div>
 -->
-

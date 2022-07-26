@@ -7,6 +7,7 @@ description: You can delete a custom system status if it is no longer useful to 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 73c4eb87-94f6-47bf-b447-eb02a703f7ef
 ---
 # Delete a custom status
 
@@ -78,4 +79,3 @@ You must have the following access to perform the steps in this article:
    For example, if you are deleting a status that equates with Current, only statuses that also equate with Current are available to select.
 
 1. Click **Delete Status**.
-

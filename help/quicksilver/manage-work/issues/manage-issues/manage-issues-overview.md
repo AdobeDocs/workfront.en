@@ -6,8 +6,8 @@ title: Manage issues
 description: This section contains the following articles - EDIT ME.
 author: Alina
 feature: Work Management
+exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
 ---
-
 # Manage issues
 
 This section contains the following articles:
@@ -23,4 +23,3 @@ This section contains the following articles:
 * [Delete issues](../../../manage-work/issues/manage-issues/delete-issues.md) 
 * [Modify user assignments for multiple issues in a list](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md) 
 * [Automatically update issue statuses from Awaiting Feedback to In Progress](../../../manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
-

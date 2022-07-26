@@ -5,9 +5,9 @@ navigation-topic: documents-webhooks-api
 title: Create a Folder with Document Webhooks
 description: Creates a folder in a given directory.
 author: John
-feature: "Workfront API, Digital Content and Documents"
+feature: Workfront API, Digital Content and Documents
+exl-id: 50905915-58c9-4b50-b8a1-133833884a88
 ---
-
 # Create a Folder with Document Webhooks
 
 Creates a folder in a given directory.

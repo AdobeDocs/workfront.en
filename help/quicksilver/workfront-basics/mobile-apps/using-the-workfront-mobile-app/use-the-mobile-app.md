@@ -5,8 +5,8 @@ title: Use the Adobe Workfront mobile app
 description: Review these articles to learn how to use the Adobe Workfront mobile app.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
 ---
-
 # Use the Adobe Workfront mobile app
 
 This section contains the following articles:
@@ -25,4 +25,3 @@ This section contains the following articles:
 * [Adobe Workfront for Mobile Device Management (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md) 
 * [Configure Adobe Workfront for MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md) 
 * [Adobe Workfront mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
-

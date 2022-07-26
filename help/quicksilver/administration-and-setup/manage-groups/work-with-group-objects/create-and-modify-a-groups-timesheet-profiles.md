@@ -5,10 +5,10 @@ navigation-topic: work-with-a-groups-objects
 title: Create and manage a group's timesheet profiles
 description: Do this to other step articles about objects and groups? Remove steps and point to main article; add group or step in that article. Already done previously for approval processes.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
 ---
-
 # Create and manage a group's timesheet profiles
 
 <!--
@@ -68,4 +68,3 @@ For information about on deleting group timesheets, see [Delete timesheets in Ad
 1. Click the name of the group with the timesheet profiles you want to export.
 1. Click **Timesheet Profiles**.
 1. Click **Export** to export the list of timesheet profiles for the group.
-

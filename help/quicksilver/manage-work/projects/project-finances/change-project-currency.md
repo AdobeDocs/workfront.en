@@ -5,8 +5,8 @@ title: Change the project currency
 description: As a Project Manager, you can configure a project to use a currency other than the default currency for your Adobe Workfront system. This allows you to display financial information on your project in the desired currency when calculating labor costs and revenue.
 author: Alina
 feature: Work Management
+exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
 ---
-
 # Change the project currency
 
 As a Project Manager, you can configure a project to use a currency other than the default currency for your Adobe Workfront system. This allows you to display financial information on your project in the desired currency when calculating labor costs and revenue.
@@ -66,4 +66,3 @@ You must have the following access to perform the steps in this article:
 
 1. (Conditional) If you select a currency other than the default currency that is set for your Workfront system, specify the rate for the currency that you selected, as it relates to the currency that is set as the base currency in the system.
 1. Click **Save Changes**.
-

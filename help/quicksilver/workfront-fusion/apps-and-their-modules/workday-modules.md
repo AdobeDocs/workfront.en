@@ -8,8 +8,8 @@ navigation-topic: apps-and-their-modules
 title: Workday modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Workday, as well as connect it to multiple third-party applications and services.
 author: Becky
+exl-id: 535573e0-b6ad-43a2-b7cb-ed32d1dc8d16
 ---
-
 # Workday modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Workday, as well as connect it to multiple third-party applications and services.
@@ -317,4 +317,3 @@ This search module retrieves a list of records of the specified type.
           </tr>
       </tbody>
   </table>
-  

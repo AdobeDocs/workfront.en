@@ -6,8 +6,8 @@ title: View restored item
 description: View restored item
 feature: System Setup and Administration
 role: Admin
+exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
 ---
-
 # View restored item
 
 <!--
@@ -52,4 +52,3 @@ You must have the following to perform the steps in this article:
 1. Click the linked name of the item that you want to view.
 
    The project, task, issue, or document is displayed.
-

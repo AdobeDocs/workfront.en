@@ -7,8 +7,8 @@ description: The highlighted information on this page refers to functionality no
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
 ---
-
 # Enhanced Authentication overview
 
 The highlighted information on this page refers to functionality not yet generally available. It will be available at some point in the future.
@@ -195,4 +195,3 @@ The following table provides details about current and future functionality:
   --> 
  </tbody> 
 </table>
-

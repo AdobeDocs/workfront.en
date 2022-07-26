@@ -6,8 +6,8 @@ title: Map items using functions in Adobe Workfront Fusion
 description: When you map items, you can use functions to create simple or complex formulas.
 author: Becky
 feature: Workfront Fusion
+exl-id: e64d9b1e-8576-43db-ac29-0d386a482fbc
 ---
-
 # Map items using functions in Adobe Workfront Fusion
 
 When you map items, you can use functions to create simple or complex formulas.
@@ -111,4 +111,3 @@ If Workfront Fusion does not feature a function you want to use, but it is featu
 1. Configure the module, using the same Cell ID that you used in step 4.
 
    ![](assets/exploit-google-sheet-functions-2-350x187.png)
-

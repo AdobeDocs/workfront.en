@@ -5,8 +5,8 @@ title: Use the My Updates area
 description: Use the My Updates areaMy Work" folder that is conditioned for Classic only)"
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 809605a0-8c24-4873-b98f-504a158be022
 ---
-
 # Use the My Updates area
 
 <!--
@@ -153,4 +153,3 @@ You must have the following before you begin:
    For more information about updating items, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Optional) Click **Pin current page** to pin the My&nbsp;Updates area to your top navigation.
-

@@ -6,8 +6,8 @@ title: Add a section break to a custom form
 description: You can group the custom fields and widgets in a custom form into sections with headings. This is useful for presenting an organized experience to users who will fill out the form. Also, if you need to limit access to certain custom fields and widgets to certain users, you can place them in a section and then grant access to the section to only those users.
 feature: System Setup and Administration
 role: Admin
+exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
 ---
-
 # Add a section break to a custom form
 
 You can group the custom fields and widgets in a custom form into sections with headings. This is useful for presenting an organized experience to users who will fill out the form. Also, if you need to limit access to certain custom fields and widgets to certain users, you can place them in a section and then grant access to the section to only those users.
@@ -211,4 +211,4 @@ In a custom form with a section break configured with the Limited Edit permissio
 >
 >You add the Portfolio object type to the form, which means that the Limited Edit permission option is no longer available for the section break in the form.
 >
->An on-screen message prompts you to switch to the Edit permission, which is the most similar option to Limited Edit, and compatible with both the Project object type and the Portfolio object type. 
+>An on-screen message prompts you to switch to the Edit permission, which is the most similar option to Limited Edit, and compatible with both the Project object type and the Portfolio object type.

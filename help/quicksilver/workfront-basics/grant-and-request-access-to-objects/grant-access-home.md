@@ -5,8 +5,8 @@ title: Grant access to objects in the Home area
 description: Users can request access to objects within Adobe Workfront. For more information about requesting access, see Request access to objects .
 author: Alina
 feature: Get Started with Workfront
+exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
 ---
-
 # Grant access to objects in the Home area
 
 Users can request access to objects within Adobe Workfront. For more information about requesting access, see&nbsp; [Request access to objects](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
@@ -76,4 +76,3 @@ You can configure whether you receive email notifications for access requests. Y
 1. In the **Email Me When** drop-down list, select or deselect **Someone requests access from me**, depending on whether you want to receive email notifications when another user requests access from you or not.
 
 1. Click **Save Changes**.
-

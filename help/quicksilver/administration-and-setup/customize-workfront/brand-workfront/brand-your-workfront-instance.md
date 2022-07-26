@@ -7,8 +7,8 @@ description: As a Workfront administrator, you can brand Workfront with logos in
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 94603393-bdea-4673-9256-08da14f6916e
 ---
-
 # Brand your Adobe Workfront instance
 
 <!--
@@ -125,4 +125,3 @@ You must have the following access to perform the steps in this article:
    >See your network or IT administrator if you need more information.
 
 1. Click **Save**.
-

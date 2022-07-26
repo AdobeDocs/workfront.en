@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can create new users and m
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
 ---
-
 # Edit a user's profile
 
 >[!IMPORTANT]
@@ -158,4 +158,3 @@ You must have the following to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-

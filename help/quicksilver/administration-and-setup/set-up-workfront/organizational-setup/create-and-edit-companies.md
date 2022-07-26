@@ -7,8 +7,8 @@ description: You can add companies to Workfront and use them for financial plann
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: bb597032-3395-4c9a-b622-5c920ba55131
 ---
-
 # Create and edit companies
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->

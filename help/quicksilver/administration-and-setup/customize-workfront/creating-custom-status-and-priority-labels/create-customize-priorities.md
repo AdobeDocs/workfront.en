@@ -4,6 +4,7 @@ description: You can control the priorities for projects, tasks, and issues in t
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
 ---
 # Create and customize priorities
 
@@ -126,4 +127,3 @@ For instructions on applying priorities to projects, tasks and issues, see the f
 * [Understand and update project priorities](../../../manage-work/projects/planning-a-project/project-priority.md) 
 * [Update Task Priority](../../../manage-work/tasks/task-information/task-priority.md) 
 * [Update issue Priority](../../../manage-work/issues/issue-information/update-issue-priority.md)
-

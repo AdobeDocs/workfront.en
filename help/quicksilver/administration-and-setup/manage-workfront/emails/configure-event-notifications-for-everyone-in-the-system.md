@@ -2,9 +2,9 @@
 title: Configure event notifications for everyone in the system
 description: Configure event notifications for everyone in the system
 author: Lisa
-
 feature: System Setup and Administration
 role: Admin
+exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
 ---
 # Configure event notifications for everyone in the system
 
@@ -81,4 +81,3 @@ You must enable notifications in the Setup area of Workfront before users can en
    >This functionality is available initially only to customers on Cluster 4 as part of a phased roll-out. It will become available for other clusters shortly thereafter. This article will be updated as this occurs.
 
    For more information, see [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
-

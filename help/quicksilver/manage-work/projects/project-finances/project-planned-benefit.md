@@ -6,8 +6,8 @@ title: Overview of project Planned Benefit
 description: The Planned Benefit is the estimated amount of money that an organization might benefit from if a project is completed.
 author: Alina
 feature: Work Management
+exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
 ---
-
 # Overview of project Planned Benefit
 
 The Planned Benefit is the estimated amount of money that an organization might benefit from if a project is completed.
@@ -66,4 +66,3 @@ You can view or update the Planned Benefit of a project in the following areas i
 1. Click **Edit Project Info** and specify the planned benefit amount in the **Planned Benefit** field.
 
 1. Click **Save**.
-

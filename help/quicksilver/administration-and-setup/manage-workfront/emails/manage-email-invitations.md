@@ -7,8 +7,8 @@ description: Manage email invitations to new users
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
 ---
-
 # Manage email invitations to new users
 
 <!--
@@ -114,4 +114,3 @@ As a Workfront administrator, you can configure the message you include with the
    </table>
 
 1. Click **Save**.
-

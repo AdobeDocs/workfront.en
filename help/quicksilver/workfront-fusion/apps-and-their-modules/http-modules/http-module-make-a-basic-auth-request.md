@@ -4,12 +4,12 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
-title: HTTP > Make a Basic Authorization request module
+title: HTTP &gt; Make a Basic Authorization request module
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
+exl-id: df8b53de-1af2-4026-b7dd-ff5133b4aac2
 ---
-
 # HTTP > Make a Basic Authorization request module
 
 This Adobe Workfront Fusion module enables you to configure an HTTP request with HTTP basic authorization and submit it to a server. The received HTTP response is then contained in the output bundle.
@@ -142,4 +142,3 @@ If you see the map button above a field or function, you can use it to set varia
   </tr> 
  </tbody> 
 </table>
-

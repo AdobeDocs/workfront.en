@@ -8,8 +8,8 @@ description: As an Adobe Workfront administrator, you can use the Kick-Starts da
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
 ---
-
 # Export data from Adobe Workfront via Kick-Starts
 
 <!--
@@ -383,4 +383,3 @@ The following limitations exist when exporting data via kick-starts (data is exp
    For large exports, Workfront works in the background to produce the Excel file and gives you a warning message about the delay. The kick-start file is emailed to you, when the download finishes.
 
    ![](assets/large-kick-start-file-warning-350x65.png)
-

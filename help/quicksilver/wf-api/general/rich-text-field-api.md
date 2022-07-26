@@ -5,8 +5,8 @@ title: Rich text fields in the Adobe Workfront API
 description: Some objects in Adobe Workfront allow for the storage of text with rich-text formatting. In the Workfront API rich text is stored as JSON using the open source framework Draft.js.
 author: John
 feature: Workfront API
+exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
 ---
-
 # Rich text fields in the Adobe Workfront API
 
 Some objects in Adobe Workfront allow for the storage of text with rich-text formatting. In the Workfront API rich text is stored as JSON using the open source framework Draft.js.
@@ -111,4 +111,3 @@ To save the following values of a rich-text field using the Workfront API:
 
    <!-- [Copy](javascript:void(0);) --> 
    <pre><code>PUT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/attask/api-internal/<OBJ Code>/<OBJ ID>?updates={"DE:Field with rich text"="{\n&nbsp;&nbsp;&nbsp;\"blocks\":[\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\"key\":\"0\",\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\"text\":\"Hello World!!!\",\n\t\t\t\t \"inlineStyleRanges\": [\n\t\t\t\t\t\t{\n\"offset\":6,\n\"length\":11,\n\"style\":\"BOLD\"\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] \n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\"key\":\"1\",\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\"text\":\"My first Rich Text\",\n\t\t\t\t \"inlineStyleRanges\": [\n\t\t\t\t\t\t{\n\"offset\":9,\n\"length\":18,\n\"style\":\"BOLD\"\n},\n\t\t\t\t\t\t{\n\"offset\":9,\n\"length\":18,\n\"style\":\"ITALIC\"\n}\n]\n}\n],\n\"entityMap\":{\n}\n}"}</code></pre>
-

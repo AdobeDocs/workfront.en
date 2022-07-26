@@ -5,10 +5,10 @@ navigation-topic: manage-group-statuses
 title: How groups inherit statuses
 description: When you list the statuses available for a group, you see the following
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 3937fd72-fa54-4777-9ec4-1f097df7a2ee
 ---
-
 # How groups inherit statuses
 
 When you list the statuses available for a group, you see the following

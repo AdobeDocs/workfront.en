@@ -7,8 +7,8 @@ description: On an existing custom form, you can delete object types that are as
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
 ---
-
 # Delete object types on a custom form
 
 On an existing custom form, you can delete object types that are associated with the form. After you do this, users can no longer attach the form to objects of that type.
@@ -60,4 +60,3 @@ A custom form must have at least one object type.
 
 1. (Optional) Repeat the previous step for any other object type you want to remove from the form.
 1. Click **Done**, then click **Close and Save**.
-

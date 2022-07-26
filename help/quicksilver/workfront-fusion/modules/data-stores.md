@@ -7,8 +7,8 @@ title: Data Stores in Adobe Workfront Fusion
 description: A data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
 author: Becky
 feature: Workfront Fusion
+exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
 ---
-
 # Data Stores in Adobe Workfront Fusion
 
 A data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
@@ -225,4 +225,3 @@ To reduce the number of existing data stores, consider doing one of the followin
 
 * Combine existing data stores
 * Delete unused data stores
-

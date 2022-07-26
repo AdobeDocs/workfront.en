@@ -6,8 +6,8 @@ title: Calculate Schedule Performance Index (SPI)
 description: Calculate Schedule Performance Index (SPI)
 author: Alina
 feature: Work Management
+exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
 ---
-
 # Calculate Schedule Performance Index (SPI)
 
 <!--
@@ -88,4 +88,3 @@ For example, if you have a project with 1 task and the task has 10 planned hours
       ![](assets/spi-on-project-nwe.png)
 
 1. Find the **CPI/ SPI/ CSI** field.
-

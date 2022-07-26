@@ -3,12 +3,12 @@ title: Customize object headers using a layout template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: As an Adobe Workfront administrator or a group administrator , you can use a layout template to configure the fields users see in the object header when they open an object's page. 
+description: As an Adobe Workfront administrator or a group administrator , you can use a layout template to configure the fields users see in the object header when they open an object's page.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
 ---
-
 # Customize object headers using a layout template
 
 The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
@@ -93,6 +93,3 @@ If you already have five fields selected, you must remove a field before you can
     >[!TIP]
     >
     >You can click Save at any time to save your progress, then continue to modify the template later.
-
-
- 

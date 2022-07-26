@@ -5,9 +5,9 @@ navigation-topic: documents-navigation-topic
 title: View mapped metadata for Experience Manager Assets or Assets Essentials
 description: You can see a real-time view of mapped metadata in the Document Details and Summary for documents panel.
 author: Courtney
-feature: "Digital Content and Documents, Workfront Integrations and Apps"
+feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
 ---
-
 # View mapped metadata for Experience Manager Assets or Assets Essentials
 
 You can see a real-time view of mapped metadata in the Document Details and Summary for documents panel. Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets or Assets Essentials. Project fields remain up to date if they are changed in either application.
@@ -90,4 +90,3 @@ To open the Metadata panel in the Summary panel:
     >You can't edit fields in this section. They are view-only.
 
 ![summary for documents](assets/metadata-panel-summary.png)
-

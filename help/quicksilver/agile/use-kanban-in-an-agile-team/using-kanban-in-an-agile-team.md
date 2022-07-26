@@ -6,8 +6,8 @@ title: Kanban in an agile team
 description: Review these articles to learn more about using Kanban in an agile team.
 author: Lisa
 feature: Agile
+exl-id: 20bb4534-796c-48ac-b43e-85717fefe1bf
 ---
-
 # Kanban in an agile team
 
 This section contains the following articles:
@@ -25,4 +25,3 @@ This section contains the following articles:
 * [Use flags on stories on the Kanban board](../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md) 
 * [Add the backlog to the Kanban board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md) 
 * [Delete stories or issues from the Kanban board](../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-

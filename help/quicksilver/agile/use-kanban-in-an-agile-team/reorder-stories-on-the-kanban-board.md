@@ -5,8 +5,8 @@ title: Reorder stories on the Kanban board
 description: You might want to change the order in which stories are displayed within status columns on the Kanban board.
 author: Lisa
 feature: Agile
+exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
 ---
-
 # Reorder stories on the Kanban board
 
 You might want to change the order in which stories are displayed within status columns on the Kanban board.
@@ -56,4 +56,3 @@ To change the order or stories:
 
 1. Go to the Kanban board that contains the stories that you want to reorder.
 1. Drag a story tile to the desired vertical location within a status column on the Kanban board.
-

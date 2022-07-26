@@ -5,8 +5,8 @@ title: Override Project-Level Billing Rates with Company-Level Billing Rates
 description: Override Project-Level Billing Rates with Company-Level Billing Rates
 author: Alina
 feature: Work Management
+exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
 ---
-
 # Override Project-Level Billing Rates with Company-Level Billing Rates
 
 <!--
@@ -87,4 +87,3 @@ After you have enabled the company-level billing rates override option on a proj
 
       1. Go to the project for which you enabled company-level billing rates override.
       1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the project name in the header, then click **Recalculate Finance**.
-

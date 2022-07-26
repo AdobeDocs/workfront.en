@@ -7,8 +7,8 @@ description: When a user leaves your organization, can remove that user from Wor
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
 ---
-
 # Delete users
 
 When a user leaves your organization, can remove that user from Adobe Workfront.
@@ -121,4 +121,3 @@ You can permanently delete users one at a time, or you can permanently delete mu
    After receiving the confirmation in Workfront that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
 
    At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.
-

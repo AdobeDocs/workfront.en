@@ -5,8 +5,8 @@ title: Save a project as a template
 description: Save a project as a templateSave as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)"
 author: Alina
 feature: Work Management
+exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
 ---
-
 # Save a project as a template
 
 <!--
@@ -94,4 +94,3 @@ You must have the following access to perform the steps in this article:
 1. Click **Finish and Save Template.**
 
    Your template now appears in the list of available templates and can either be attached to an existing project or used to create a new one.
-

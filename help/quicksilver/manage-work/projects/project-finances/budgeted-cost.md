@@ -6,8 +6,8 @@ title: Calculate Budgeted Cost
 description: Calculate Budgeted CostTracking Project Progress with a Utilization Report""
 author: Alina
 feature: Work Management
+exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
 ---
-
 # Calculate Budgeted Cost
 
 <!--
@@ -75,4 +75,3 @@ The Budgeted Cost as reflected in the Resource Budgeting area of the Business Ca
     </tr> 
    </tbody> 
   </table>
-

@@ -5,8 +5,8 @@ title: Move tasks
 description: You can move tasks in Adobe Workfront between the following objects - EDIT ME.
 author: Alina
 feature: Work Management
+exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
 ---
-
 # Move tasks
 
 You can move tasks in Adobe Workfront between the following objects:
@@ -212,4 +212,3 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
 
    Click **Move tasks** when you select multiple tasks in a list. 
    The moved&nbsp;tasks are&nbsp;now on the specified project and&nbsp;are either subtasks to a parent task, or the last tasks on the project.
-

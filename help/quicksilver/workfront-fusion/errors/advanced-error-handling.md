@@ -7,8 +7,8 @@ title: Advanced error handling in Adobe Workfront Fusion
 description: Advanced error handling techniques include filtering and nesting.
 author: Becky
 feature: Workfront Fusion
+exl-id: 57f43fc2-23ed-44f5-8785-90739329b5ee
 ---
-
 # Advanced error handling in Adobe Workfront Fusion
 
 Advanced error handling techniques include filtering and nesting.
@@ -132,4 +132,3 @@ That is a combination of filtering and nesting error handlers.
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Watch this 4-part video course to learn all about error handling in less than 22 minutes</p>
 -->
-

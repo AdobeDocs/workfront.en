@@ -5,8 +5,8 @@ title: FAQs - Event Subscriptions
 description: FAQs - Event Subscriptions
 author: John
 feature: Workfront API
+exl-id: a6120939-5d76-4f46-a304-125de6b22502
 ---
-
 # FAQs - Event Subscriptions
 
 <!--
@@ -87,4 +87,3 @@ In general, you can expect to receive Event Subscription event delivery requests
 * **Understanding Event Subscription retries**: [Event subscription retries](../../wf-api/api/event-sub-retries.md)
 
 * **Configuring your firewall for Workfront**: [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
-

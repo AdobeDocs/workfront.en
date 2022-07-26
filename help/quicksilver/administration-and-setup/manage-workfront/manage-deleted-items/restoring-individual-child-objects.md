@@ -6,8 +6,8 @@ title: Restoring individual child objects
 description: This document describes how you can get help recovering individual child objects that have been deleted from your Adobe Workfront Production or Preview environments fewer than 30 days previously.
 feature: System Setup and Administration
 role: Admin
+exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
 ---
-
 # Restoring individual child objects
 
 This document describes how you can get help recovering individual child objects that have been deleted from your Adobe Workfront Production or Preview environments fewer than 30 days previously.
@@ -58,4 +58,3 @@ Once you have gathered this information or if you require assistance, please cal
 1. The Database Team will restore the information to your Preview Sandbox environment where you will have the chance to review the restored data. Our Customer Support Team will let you know when the data can be found in the Preview Sandbox. 
 1. Once you are satisfied with the restore in the sandbox, let our Customer Support Team know  and they will contact our Database Team to notify them that they can restore the data to your production environment. 
 1. You will have a chance to review the restored data before the request is closed.
-

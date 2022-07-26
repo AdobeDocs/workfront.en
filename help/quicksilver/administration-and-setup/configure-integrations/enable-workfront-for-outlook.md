@@ -5,10 +5,10 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Before users can begin using Adobe Workfront for Outlook, you first need to enable it for your system.
 author: Becky
-feature: "System Setup and Administration, Workfront Integrations and Apps"
+feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+exl-id: be523b27-191f-46ca-9a87-d512f9a15a1e
 ---
-
 # Enable Adobe Workfront for Outlook
 
 Before users can begin using Adobe Workfront for Outlook, you first need to enable it for your system.

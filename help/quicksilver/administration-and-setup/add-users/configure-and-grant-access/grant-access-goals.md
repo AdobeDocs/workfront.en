@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can use an access level to
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
 ---
-
 # Grant access to Adobe Workfront Goals
 
 As an Adobe Workfront administrator, you can use an access level to define a user's access to Adobe Workfront Goals, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).

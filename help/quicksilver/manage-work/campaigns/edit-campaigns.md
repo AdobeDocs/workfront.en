@@ -5,8 +5,8 @@ navigation-topic: campaigns
 title: Edit campaigns
 description: You can edit information about a campaign.
 author: Alina
+exl-id: ac0c1271-930d-4e11-81cf-4129214b4178
 ---
-
 # Edit Campaigns
 
 >[!NOTE]

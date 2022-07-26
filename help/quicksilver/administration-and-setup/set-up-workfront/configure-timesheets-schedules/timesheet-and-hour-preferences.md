@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can specify preferences fo
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
 ---
-
 # Configure timesheet and hour preferences
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
@@ -186,4 +186,3 @@ To unlock a project preference so that groups can configure it:
      >We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
 
 1. Click **Save**.
-

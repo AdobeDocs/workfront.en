@@ -6,8 +6,8 @@ title: Install Adobe Workfront for G Suite
 description: You can install the Adobe Workfront for G Suite add-on from the G Suite Marketplace.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
 ---
-
 # Install Adobe Workfront for G Suite
 
 You can install the Adobe Workfront for G Suite add-on from the G Suite Marketplace.

@@ -5,9 +5,9 @@ navigation-topic: documents-navigation-topic
 title: Create a folder linked with Experience Manager Assets or Assets Essentials
 description: You can create a folder linked with Experience Manager Assets or Assets Essentials while in Workfront.
 author: Courtney
-feature: "Digital Content and Documents, Workfront Integrations and Apps"
+feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
 ---
-
 # Create a folder linked with Experience Manager Assets or Assets Essentials
 
 You can create a folder linked with Experience Manager Assets or Assets Essentials while in Workfront. Because the folder is linked, any asset added to the folder will automatically show up in both Workfront and Experience Manger. You don't have to manually send the asset if it's in a linked folder.

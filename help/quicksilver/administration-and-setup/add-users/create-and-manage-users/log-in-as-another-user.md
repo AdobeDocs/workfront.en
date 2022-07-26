@@ -7,8 +7,8 @@ description: As the Adobe Workfront administrator, sometimes you might need to a
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
 ---
-
 # Log in as another user
 
 <!--
@@ -154,4 +154,3 @@ For example, if you comment on an item while logged in as another user, a statem
    * By user who has logged in
    * By user who has been logged in as
    * By date
-

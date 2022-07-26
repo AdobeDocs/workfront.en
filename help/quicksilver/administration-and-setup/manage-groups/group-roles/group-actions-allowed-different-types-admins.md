@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-groups
 title: Actions allowed for different types of administrators
 description: This table compares the administration activities available for an Adobe Workfront administrator managing the Workfront system, a group administrator managing a top-level group, and a group administrator managing a subgroup.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
 ---
-
 # Actions allowed for group administrators
 
 This table lists the administration activities available for:

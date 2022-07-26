@@ -7,8 +7,8 @@ description: You can enable authentication to Workfront with SAML 2.0.
 author: Becky, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
 ---
-
 # Configure Adobe Workfront with SAML 2.0 using ADFS
 
 {{important-admin-console-onboard}}
@@ -189,4 +189,3 @@ As a Workfront administrator, you can also manually assign a Federation ID editi
 >[!NOTE]
 >
 >When editing users' profiles to include a Federation ID, selecting **Only Allow SAML 2.0 Authentication** removes the ability to log in to Workfront using the bypass url (`<yourdomain>`.my.workfront.com/login).
-

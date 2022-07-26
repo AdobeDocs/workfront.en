@@ -1,11 +1,11 @@
 ---
 navigation-topic: notifications
 title: View and manage in-app notifications
-description: "In-app notifications keep you informed about two types of information: announcement notifications and work item notifications. They are available from both the web application and the mobile application."
+description: 'In-app notifications keep you informed about two types of information: announcement notifications and work item notifications. They are available from both the web application and the mobile application.'
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
 ---
-
 # View and manage in-app notifications
 
 In-app notifications keep you informed about two types of information: announcement notifications and work item notifications. They are available from both the web application and the mobile application.
@@ -147,4 +147,3 @@ You can access a notification that you deleted within the past 30 days.
 
 1. Click the message that you want to view.
 1. (Optional) If you want to restore the announcement, click **Move to Inbox** above and to the right of the body of the announcement.
-

@@ -5,8 +5,8 @@ title: Campaigns beta
 description: Information about participating in the Campaigns beta program.
 author: Luke
 feature: Product Announcements
+exl-id: 941af6ed-edf7-4ad3-a426-831bd3c05297
 ---
-
 # Campaigns beta
 
 >[!NOTE]
@@ -140,4 +140,3 @@ To submit feedback that you have learned about campaigns during the beta period:
 For more information about campaigns, also see the following resources:
 
 * [Campaigns](../../manage-work/campaigns/campaigns-section-toc.md)
-

@@ -6,8 +6,8 @@ title: Using the API to sync data for programs and services
 description: These are some common ways for you to utilize the API to sync data for programs and services.
 author: John
 feature: Workfront API
+exl-id: 1d0583fc-1573-4279-a3fa-a912d9a4213c
 ---
-
 # Using the API to sync data for programs and services
 
 These are some common ways for you to utilize the API&nbsp;to sync data for programs and services.
@@ -57,4 +57,3 @@ When a field is setup to be logged as a part of the Journal Entry object a corre
 >[!NOTE]
 >
 >"entryDate" is used to look at a journal entry of a change, as opposed to looking at the changed object, itself.
-

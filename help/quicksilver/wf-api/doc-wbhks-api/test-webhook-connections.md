@@ -5,9 +5,9 @@ navigation-topic: documents-webhooks-api
 title: Test Webhook connections
 description: To verify that your document webhook implementation works correctly, run the manual tests in this section. These steps go through the Adobe Workfront web interface and indirectly hit the endpoints for your webhook implementation.
 author: John
-feature: "Workfront API, Digital Content and Documents"
+feature: Workfront API, Digital Content and Documents
+exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
 ---
-
 # Test Webhook connections
 
 To verify that your document webhook implementation works correctly, run the manual tests in this section. These steps go through the Adobe Workfront web interface and indirectly hit the endpoints for your webhook implementation.
@@ -113,4 +113,3 @@ Tests the following endpoints: Token Endpoint URL
 >[!NOTE]
 >
 >Currently, the Send To... is not available for linked documents. This will be added by Workfront. You can test the /download endpoint by hitting the endpoint manually using a REST client, such as Postman. Alternatively, the /download endpoint can be tested by generating a digital proof. To enable, digital proofing please contact Workfront.
-

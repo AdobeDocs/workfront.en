@@ -7,8 +7,8 @@ description: If an object such as a project, issue, or task contains rich text, 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 2e4b18be-14bb-4d47-8e63-e2f4a5dc376f
 ---
-
 # Rich text field storage in the API
 
 If an object such as a project, issue, or task contains rich text, it is stored and accessible as a parameter value through the Workfront API.

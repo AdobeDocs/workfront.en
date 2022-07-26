@@ -5,10 +5,10 @@ navigation-topic: work-with-a-groups-objects
 title: Create and modify group projects
 description: As a group administrator, when you are viewing a group that you manage in the Groups area, you can view and work with its projects.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
 ---
-
 # Create and modify a group's projects
 
 As a group administrator, when you are viewing a group that you manage in the Groups area, you can view and work with its projects.
@@ -77,4 +77,3 @@ You must have the following to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-

@@ -5,8 +5,8 @@ title: Manage project expenses
 description: The process for creating and managing expenses is the same for both project and task-related expenses. Any expenses that are added to the project in the Business Case are added to the Expenses tab as planned expenses. For more information on the Business Case, see the article Create a Business Case for a project .
 author: Alina
 feature: Work Management
+exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
 ---
-
 # Manage project expenses
 
 The process for creating and managing expenses&nbsp;is the same for both project and task-related expenses. Any expenses that are added to the project in the Business Case are added to the Expenses tab as planned expenses. For more information on the Business Case, see the article [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
@@ -78,4 +78,3 @@ You must have the following access to perform the steps in this article:
 1. Select the expenses that you want to delete, then click **Delete** ![Delete](assets/delete.png).
 
 1. Click&nbsp;**Yes, Delete It** to confirm deletion.&nbsp;
-

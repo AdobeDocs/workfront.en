@@ -5,8 +5,8 @@ title: Manage board columns
 description: A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need.
 author: Lisa
 feature: Agile
+exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
 ---
-
 # Manage board columns
 
 A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need.

@@ -5,8 +5,8 @@ title: Assign work manually using the Workload Balancer
 description: You can manually assign work items to users using the Adobe Workfront Workload Balancer.
 author: Alina
 feature: Resource Management
+exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
 ---
-
 # Assign work manually using the Workload Balancer
 
 You can manually assign work items to users using the Adobe Workfront Workload Balancer.
@@ -121,4 +121,3 @@ You can assign work items that have not yet been assigned to a user or reassign 
    For information about removing assignments from a work item using the Workload Balancer, see [Unassign work in the Workload Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
    &nbsp;
-

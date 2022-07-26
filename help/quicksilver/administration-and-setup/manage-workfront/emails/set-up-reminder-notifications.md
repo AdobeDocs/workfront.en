@@ -2,9 +2,9 @@
 title: Set up reminder notifications
 description: Set up reminder notifications
 author: Lisa
-
 feature: System Setup and Administration
 role: Admin
+exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
 ---
 # Set up reminder notifications
 
@@ -135,4 +135,3 @@ To cause a reminder notification to trigger manually:
 1. Click **Send Reminder Notifications** and wait for the confirmation at the top of the screen that they have been sent.
 
    The users designated in the reminder notification receive an email.
-

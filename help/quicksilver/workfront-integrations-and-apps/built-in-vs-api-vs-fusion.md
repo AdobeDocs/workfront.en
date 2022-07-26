@@ -5,9 +5,9 @@ keywords: native,ootb
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront integration methods
 description: You can integrate Adobe Workfront with third-party applications. These integrations can extend the utility of Workfront and tailor it to the needs of your organization. You can use any or all of these integrations, depending on which is most useful for a given task.
-feature: "Workfront Integrations and Apps, Workfront Fusion"
+feature: Workfront Integrations and Apps, Workfront Fusion
+exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
 ---
-
 # Adobe Workfront integration methods
 
 You can integrate Adobe Workfront with third-party applications. These integrations can extend the utility of Workfront and tailor it to the needs of your organization. You can use any or all of these integrations, depending on which is most useful for a given task.

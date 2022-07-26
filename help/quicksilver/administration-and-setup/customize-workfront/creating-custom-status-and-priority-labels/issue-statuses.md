@@ -8,8 +8,8 @@ description: You can use the status of an issue to show users in the system in w
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
 ---
-
 # Access the list of system issue statuses
 
 You can use the status of an issue to show users in the system in what stage of development an issue is at a given time.

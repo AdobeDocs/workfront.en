@@ -5,8 +5,8 @@ title: Comment on proofs in iOS
 description: You can review and resolve existing comments on a proof, and add new comments and annotations to the proof document.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
 ---
-
 # Comment on proofs in iOS
 
 You can review and resolve existing comments on a proof, and add new comments and annotations to the proof document.
@@ -92,4 +92,3 @@ You can associate your proof comments to a specific area on the document. Use th
    Click the X on the thumbnail image to remove the attachment.
 
 1. Select the **Send** icon ![Send icon](assets/mobile-send-icon-25x26.png) to add the comment and drawing to the proof.
-

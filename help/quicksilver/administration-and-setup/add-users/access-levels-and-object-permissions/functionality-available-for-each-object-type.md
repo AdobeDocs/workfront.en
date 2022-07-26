@@ -9,8 +9,8 @@ description: The following tables lists the functionality available for each obj
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
 ---
-
 # Functionality available for each object type
 
 The following tables lists the functionality available for each object type in the various access levels.
@@ -582,4 +582,3 @@ Only users with a Plan license can have full access to [select object or area]. 
 | View the Check-in area in the left panel |&nbsp; |✓ |
 | View the Settings area in the left panel |✓ |✓  |
 | Print a list of goals |✓ |✓  |
-

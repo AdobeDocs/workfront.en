@@ -4,6 +4,7 @@ description: In an Adobe Workfront Fusion scenario, you can automate workflows t
 author: Becky
 draft: Probably
 feature: Workfront Fusion
+exl-id: 45d4d7fe-a70c-4906-adb4-f913a870fe47
 ---
 # MariaDB modules
 
@@ -150,4 +151,3 @@ This module reads record from your database.
   </tr> 
  </tbody> 
 </table>
-

@@ -4,8 +4,8 @@ navigation-topic: workfront-navigation
 title: Understand objects in Adobe Workfront
 description: Understand objects in Adobe Workfront
 feature: Get Started with Workfront
+exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
 ---
-
 # Understand objects in Adobe Workfront
 
 <!--
@@ -370,4 +370,3 @@ You can report on the following objects when using the report builder in the Wor
   
 * View
 * Work Item (this refers to tasks and issues)
-

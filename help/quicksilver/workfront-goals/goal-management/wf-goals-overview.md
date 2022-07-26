@@ -6,8 +6,8 @@ title: Adobe Workfront Goals overview
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
 author: Alina
 feature: Workfront Goals
+exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
 ---
-
 # Adobe Workfront Goals overview
 
 Your organization must have the following to use the functionality described in this article:

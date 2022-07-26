@@ -5,8 +5,8 @@ title: Resize and collapse the burndown chart
 description: You can resize or collapse the burndown chart to adjust how much room it occupies on the story board.
 author: Lisa
 feature: Agile
+exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
 ---
-
 # Resize and collapse the burndown chart
 
 You can resize or collapse the burndown chart to adjust how much room it occupies on the story board.
@@ -54,4 +54,3 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the iteration that contains the burndown chart you want to collapse.
 1. Click the arrow icon in the left of the Percent Complete status bar.
-

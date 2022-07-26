@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-subgroups
 title: Create a subgroup
 description: You can create a subgroup under a group you manage to organize users and projects and to assign access rights within Adobe Workfront. Typically, group administrators manage groups and subgroups. They can use the Groups page to manage their groups and subgroups in one place.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
 ---
-
 # Create a subgroup
 
 You can create a subgroup under a group you manage to organize users and projects and to assign access rights within Adobe Workfront.
@@ -99,4 +99,3 @@ You must have the following to perform the steps in this article:
    </table>
 
 1. Click **Save.**
-

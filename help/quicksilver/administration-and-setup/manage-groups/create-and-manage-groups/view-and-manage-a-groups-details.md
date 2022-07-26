@@ -2,9 +2,9 @@
 title: View and manage a group's details
 description: View and manage a group's details
 author: Caroline
-
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
 ---
 # View and manage a group's details
 
@@ -103,4 +103,3 @@ You must have the following to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-

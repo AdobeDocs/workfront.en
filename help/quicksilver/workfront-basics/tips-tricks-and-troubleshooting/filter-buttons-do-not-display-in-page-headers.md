@@ -4,8 +4,8 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Filter buttons do not display in page headers
 description: You must have the following access to perform the steps in this article - EDIT ME.
 feature: Get Started with Workfront
+exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
 ---
-
 # Filter buttons do not display in page headers
 
 ## Access requirements
@@ -86,4 +86,3 @@ The filter buttons in the Projects and Timesheets area do not display because th
    For more information, see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. Assign the layout template to the correct users, job roles, teams, or groups. For information, see [Assign users to a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
-

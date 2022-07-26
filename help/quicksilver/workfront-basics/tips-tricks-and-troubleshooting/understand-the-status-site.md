@@ -3,6 +3,7 @@ title: The Adobe Workfront Status site
 description: The Adobe Workfront Status site
 draft: Probably
 feature: Get Started with Workfront
+exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
 ---
 # The Adobe Workfront Status site
 

@@ -8,8 +8,8 @@ description: Adobe Workfront captures the activity taking place on certain objec
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 ---
-
 # System-tracked updates
 
 Adobe Workfront captures the activity taking place on certain objects by logging status information in the object's Updates area.

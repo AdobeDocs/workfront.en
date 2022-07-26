@@ -7,8 +7,8 @@ description: You can define your users' work weeks by using schedules. You can a
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
 ---
-
 # Create a schedule
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
@@ -133,4 +133,3 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Associate the schedule with a project.
 
    For information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
-
