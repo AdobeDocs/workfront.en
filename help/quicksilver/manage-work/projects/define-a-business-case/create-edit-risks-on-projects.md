@@ -93,12 +93,12 @@ In addition to creating and editing risks in the Business Case, you can do so us
 1. Go to the project you want to create risks for.
 1. Click **Risks** in the left panel.
 
-   Production environment:
+   Sample image in the Production environment:
    ![](assets/risks-section-on-project-nwe-350x76.png)
 
    <div class="preview">
 
-   Preview environment:
+   Sample image in the Preview environment:
    ![Risks section of task](assets/risks-section-on-project-2022.png)
    
    </div>

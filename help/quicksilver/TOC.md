@@ -720,6 +720,7 @@ feature-set: Workfront
     * Use the Home area {#use-home-area}
       * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+      * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
       * [Display items in the Work List in the Home area](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
       * [Prioritize work in the Home area](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
       * [Manage work and team requests in the Home area](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
@@ -729,10 +730,9 @@ feature-set: Workfront
       * [Mark an item as Done in the Home area](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
       * [Home Calendar view](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
       * [Configure your Home Calendar view settings](workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
-      * [Home area for Reviewers](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
       * [Use the Home Calendar view](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
       * [View the Home Calendar](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
-      * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
+      * [Home area for Reviewers](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
   * Update work items and view updates {#update-work-items-view-updates}
     * [Update work items and view updates](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Updates tab overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -794,7 +794,7 @@ feature-set: Workfront
       * [Configure your User Profile](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
       * [Configure My Settings](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
       * [Configure personal time off in Adobe Workfront](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
-      * [Create custom tabs or sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+      * [Create custom sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
     * Manage your Adobe Workfront account {#manage-workfront-account}
       * [Manage your Adobe Workfront account](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
       * [Log in to Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)

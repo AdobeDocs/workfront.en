@@ -72,12 +72,12 @@ To find the predecessors of a task do one of the following:
 
       The number in the **#** column shows the predecessor task number. For example "6" means the sixth task in the project.
 
-      Production environment:
+      Sample image in the Production environment:
       ![](assets/nwe-predecessors-tab-with-task-header-350x56.png)
 
       <div class="preview">
 
-      Preview environment:
+      Sample image in the Preview environment:
       ![Predecessors section of task](assets/predecessors-area-with-task-header.png)
       
       </div>
