@@ -206,7 +206,7 @@ To opt in other users that are not Workfront administrators:
    >Users that you grant access to Reporting Canvas will have access to **all** data in the system in a read-only capacity, regardless of their standard permissions to view this data.
 
 1. Click **Save**.
-1. Add the **Reporting (beta)** icon into the main layout template of each user that was selected. For more information, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+1. Add the **Reporting (beta)** icon into the main layout template of each user that was selected. For more information, see [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 1. Each user must then individually navigate to the **Reporting (beta)** icon in their main menu and accept the terms and conditions.
 
 ### Submit feedback
