@@ -34,11 +34,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -60,14 +60,14 @@ To log into Workfront using your Workfront username and password:
 
    Your username is typically the email address associated with your Workfront account. If you forgot your password, see [Reset your password](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md).
 
-1. (Conditional) If your organization's Workfront login URL&nbsp;doesn't contain a domain, you must specify your domain in the Domain field.
+1. (Conditional) If your organization's Workfront login URL doesn't contain a domain, you must specify your domain in the Domain field.
 1. Click **Login**.
 
 ## Log in to Workfront with SSO {#log-in-to-workfront-with-sso}
 
 If your Workfront administrator integrated Workfront with a single sign-on solution, you should contact them for the information needed for your logging in to Workfront. For more information about integrating Workfront with an SSO solution, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
-To log in to Workfront using your SSO&nbsp;username and password:
+To log in to Workfront using your SSO username and password:
 
 1. Open a browser window.
 
@@ -82,9 +82,9 @@ To log in to Workfront using your SSO&nbsp;username and password:
 1. Your Workfront administrator can ensure that you have the correct URL.
 1. On the login screen, enter your username and password.
 
-   Your username and password are typically&nbsp;your network user name and password, which you use for all your applications. If you forgot your password or your user name, use the tools provided in your environment for resetting them, or contact your Workfront administrator.
+   Your username and password are typically your network user name and password, which you use for all your applications. If you forgot your password or your user name, use the tools provided in your environment for resetting them, or contact your Workfront administrator.
 
-   The look and feel of your login screen changes depending on what SSO solution you use and the way it was configured by your Workfront administrator.&nbsp;
+   The look and feel of your login screen changes depending on what SSO solution you use and the way it was configured by your Workfront administrator.
 
 1. Complete your login.
 
