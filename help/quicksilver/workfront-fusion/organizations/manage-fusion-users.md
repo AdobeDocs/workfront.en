@@ -13,6 +13,8 @@ exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
 
 &nbsp;
 
+<!-->
+
 >[!IMPORTANT]
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
@@ -24,6 +26,8 @@ exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
 >* Contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md).
+
+-->
 
 ## View or edit user roles {#view}
 
