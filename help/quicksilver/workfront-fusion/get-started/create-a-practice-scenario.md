@@ -18,6 +18,10 @@ For instructions on building a Workfront-only automation scenario, see [Create a
 
 For more information on Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+>[!NOTE]
+>
+>Your organization may not allow access to Google Sheets. If that is the case, you will not be able to set up this integration, but the information presented here can be used as a general example of how integration scenarios function.
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
