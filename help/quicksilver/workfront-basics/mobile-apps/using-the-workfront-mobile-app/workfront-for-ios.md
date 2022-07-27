@@ -109,6 +109,9 @@ For information on reviewing and approving proofs, see [Review and make decision
 
 The Notifications area allows you to view and respond to in-app notifications for your work.
 
+>[!NOTE]
+>Hyperlinks are not available in the update notifications unless the entire content of a note is a hyperlink without display text.
+
 ![](assets/mobile-notifications-adobe-350x601.png)
 
 ## Requests
