@@ -9,13 +9,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
 ---
-# Reuse a custom field or widget in a custom form
+# Reuse a custom field or asset widget in a custom form
 
-When you are creating or editing a custom form, you can add a custom field or widget that has already been added to another custom form.
+When you are creating or editing a custom form, you can add a custom field or asset widget that has already been added to another custom form.
 
-For information about adding an existing calculated custom field, see [Reuse an existing calculated custom field in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md).
+You can also reuse an existing calculated custom field in a custom form. For instructions, see [Reuse an existing calculated custom field in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md).
 
-For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+For information about custom fields and asset widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Access requirements
 
