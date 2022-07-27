@@ -29,11 +29,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -47,7 +47,7 @@ The numbered icon in the upper-right corner of Workfront displays the number of 
 
 >[!NOTE]
 >
->You can view all in-app notifications both from the web application and the mobile&nbsp;application. Only some of these notifications are sent as push notifications in the mobile application. For more information about notifications in the mobile app, see [Adobe Workfront for iOS](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) or [Adobe Workfront for Android](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+>You can view all in-app notifications both from the web application and the mobile application. Only some of these notifications are sent as push notifications in the mobile application. For more information about notifications in the mobile app, see [Adobe Workfront for iOS](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) or [Adobe Workfront for Android](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
 1. Click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications.
 
@@ -76,7 +76,7 @@ The numbered icon in the upper-right corner of Workfront displays the number of 
 
 1. Click the notification that you want to view:
 
-   * If the notification you click is about a work item, the associated Workfront object opens, showing the full message on the **Updates** tab.&nbsp;You can **Start a new update area** or **Type a reply**.
+   * If the notification you click is about a work item, the associated Workfront object opens, showing the full message on the **Updates** tab. You can **Start a new update area** or **Type a reply**.
 
      ![](assets/object-opens-click-work-ntfctn-qs-350x183.png)
 
@@ -92,7 +92,7 @@ The numbered icon in the upper-right corner of Workfront displays the number of 
 
 After viewing notifications, you can acknowledge them to clear them from the Notifications list or leave them to respond to later.
 
-On the Notifications page, you can&nbsp;view current and cleared notifications. You can also bring cleared notifications back to the Notifications list.
+On the Notifications page, you can view current and cleared notifications. You can also bring cleared notifications back to the Notifications list.
 
 * [Acknowledge notifications](#acknowledge-notifications) 
 * [View acknowledged notifications](#view-acknowledged-notifications)
@@ -101,7 +101,7 @@ On the Notifications page, you can&nbsp;view current and cleared notifications. 
 
 Clicking the numbered icon to open the Notifications list does not automatically acknowledge that you have read all notifications.
 
-To acknowledge a notification&nbsp;and clear it&nbsp;from the Notifications list:
+To acknowledge a notification and clear it from the Notifications list:
 
 1. Click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications.
 1. Do one of the following:
@@ -141,7 +141,7 @@ However, you can delete an announcement notifications. You can also access an an
 You can access a notification that you deleted within the past 30 days.
 
 1. Click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications.
-1. Click **Announcements**&nbsp;or **View All Announcements**.
+1. Click **Announcements** or **View All Announcements**.
 
 1. In the **Announcements** page that displays, click **Deleted**.
 

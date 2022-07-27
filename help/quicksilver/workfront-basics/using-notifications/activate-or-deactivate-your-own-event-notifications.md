@@ -9,10 +9,6 @@ exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
 ---
 # Activate or deactivate your own event notifications
 
-<!--
-{{highlighted-preview}}
--->
-
 Your Adobe Workfront administrator configures which event notifications users receive when events occur in Workfront (as described in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
 Your group administrator can also configure which event notifications are activated for you and the users in your Home Group. If your Home Group is a subgroup, you receive the event notifications activated for the top-level group above your group.
@@ -38,11 +34,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
