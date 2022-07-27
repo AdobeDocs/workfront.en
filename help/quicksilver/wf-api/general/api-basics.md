@@ -249,6 +249,7 @@ You can specify filters using the request parameters as name-value pairs. For ex
 ```
 GET /attask/api/v9.0/project/search?status=CUR
 ```
+
 The following request finds all the tasks that are not yet complete and that are assigned to a user named John.
 
 ```
@@ -455,7 +456,10 @@ The following is an example of a request to create a new project:
 ### Copying an Object
 
 Some objects support being copied. For these object types, it is possible to create new objects by posting with a copySourceID parameter. For example, the following request copies the given project and gives it a new name:
-<pre>POST /attask/api/v9.0/project?copySourceID=4c7...&name=Copied Project</pre>
+
+```
+POST /attask/api/v9.0/project?copySourceID=4c7...&name=Copied Project
+```
 
 ### Uploading Documents
 
