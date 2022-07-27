@@ -22,15 +22,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td>Adobe Workfront license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -59,32 +59,32 @@ You must have the following access to perform the steps in this article:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Condition Name</td> 
+      <td>Condition Name</td> 
       <td>(Required) Type a descriptive name for the condition.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Description</td> 
+      <td>Description</td> 
       <td>(Optional) Type a description of the condition's purpose for those who will use it.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Color</td> 
+      <td>Color</td> 
       <td>(Optional) Click the color icon, then choose the color you want for the condition when it displays in projects, task, or issues. You can also type a hex number.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Equates With </td> 
-      <td>(Required, for projects only) Click the option in the drop-down list that best describes the function of your new condition. For example, for a condition named Tracking Well, you would click On Target. This determines how your default conditions work. Every condition you create must equate with one of the options in the drop-down menu.
+      <td>Equates With </td> 
+      <td><p>(Required, for projects only) Click the option in the drop-down list that best describes the function of your new condition. For example, for a condition named Tracking Well, you would click On Target. This determines how your default conditions work. Every condition you create must equate with one of the options in the drop-down menu.</p>
       <p>For information about default conditions, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Set a custom condition as the default for projects</a> and <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">Set a custom condition as the default for tasks and issues</a>.</p>
       <p>This option cannot be modified after you finish creating the condition.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Key</td> 
-      <td>(Required) For a project condition, type an alphanumeric abbreviation that users will be able to recognize. For a task or issue condition, type a two-digit numeric code from 01 to 99. 
+      <td>Key</td> 
+      <td><p>(Required) For a project condition, type an alphanumeric abbreviation that users will be able to recognize. For a task or issue condition, type a two-digit numeric code from 01 to 99. </p>
       <p>This key, which is used in the API and can be used for reporting purposes, must be unique for each object.</p>
       <p>You cannot change the key for a condition after you save the condition. </p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Hide Condition</td> 
-      <td>(Optional) This option is available for custom conditions that you no longer want people to use, but want to keep for historical reasons. 
+      <td>Hide Condition</td> 
+      <td><p>(Optional) This option is available for custom conditions that you no longer want people to use, but want to keep for historical reasons. </p>
       <p>If you hide a custom condition that has been used on work items, it continues to appear on those work items after you hide it. </p></td> 
      </tr> 
     </tbody> 
