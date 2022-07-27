@@ -5,6 +5,7 @@ navigation-topic: navigate-workfront
 title: Recents and favorites in Adobe Workfront
 description: Review the following articles to learn about using favorites and recents in Workfront.
 feature: Get Started with Workfront
+author: Lisa
 exl-id: 43052270-0b2d-46af-9521-30f0d48d5ddc
 ---
 # Recents and favorites in&nbsp;Adobe Workfront
