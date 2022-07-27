@@ -39,9 +39,9 @@
 1. Click the **Main Menu** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **Main Menu** icon ![Main Menu](assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Setup** ![](assets/gear-icon-setup.png).
 
 
-## make sure you're associating right group-team {#right-group-team}
+## Associate right group with team {#right-group-team}
 
-You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that appears next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and who its administrators are.
+You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that appears next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and the names of its administrators.
 
 
 ## Important note for Admin Console onboarding {#important-admin-console-onboard}
