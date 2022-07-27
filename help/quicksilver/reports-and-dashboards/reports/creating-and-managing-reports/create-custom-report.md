@@ -7,6 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
 ---
+
 # Create a custom report
 
 Understanding how to create reports helps you provide access to the information your organization needs within Adobe Workfront. You can use any of the built-in reports available in Workfront, or you can build your own reports from scratch.
@@ -95,10 +96,6 @@ To watch a video of how to create a report, see this [Create a custom report](#W
 
 ### Add columns (view) to a report {#add-columns-view-to-a-report}
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I have left all these mini-how-tos in this article because this is how the video is conducted, too - it gives details about each tab; video kept just for Classic.) </p>
--->
-
 1. Start creating a report as described in the [Create a report](#create-a-report) section in this article.
 1. In the report builder, select the **Columns (View)** tab to identify the columns to appear in the report.
 1. (Optional) Click **Apply an Existing View** to use an existing view.
@@ -185,7 +182,6 @@ To watch a video of how to create a report, see this [Create a custom report](#W
    Or
 
    Choose **Apply an Existing Grouping** to select an existing grouping
-
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. Start typing the field that you want to add as a grouping. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to that grouping.
@@ -196,10 +192,6 @@ To watch a video of how to create a report, see this [Create a custom report](#W
 1. (Optional) Select **Collapse this grouping by default** if you want the results in this grouping to display collapsed rather than expanded.
 
    This setting is disabled by default and the results of the grouping always display in an expanded list.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Common uses of text mode, Edit groupings to organize reports, Understanding Text Mode) </p>
-   -->
 
    >[!TIP]
    >
@@ -239,10 +231,6 @@ To watch a video of how to create a report, see this [Create a custom report](#W
 
 ### Add a chart to a report {#add-a-chart-to-a-report}
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Consider taking this out and just keeping the separate article about charts??) </p>
--->
-
 1. Start creating a report as described in the [Create a report](#create-a-report) section in this article.
 1. In the report builder, select the **Chart** tab, then select the type of chart you want to add.
 
@@ -253,19 +241,3 @@ To watch a video of how to create a report, see this [Create a custom report](#W
 1. Click **Apply** to apply your changes so far and continue editing the report with the following options.
 
    Click **Save + Close** if you are finished editing the report and you want to save the report.
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Additional information</h2>
--->
-
-<!--
-<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p><a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a> </p> </li>
-<li><a href="../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Get started with reports in Adobe Workfront</a> </li>
-<li><a href="../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md" class="MCXref xref">Use Adobe Workfront built-in reports</a> </li>
-<li><a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Text Mode overview</a></li>
-<li><a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md" class="MCXref xref">Edit report settings</a> </li>
-<li><a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Wildcard filter variables</a> </li>
-<li><a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Add a chart to a report</a> </li>
-</ul>
--->

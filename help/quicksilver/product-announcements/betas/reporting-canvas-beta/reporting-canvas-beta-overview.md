@@ -1,13 +1,14 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: Reporting Canvas beta overview
+title: 'Reporting Canvas beta: overview'
 description: Information on the beta program for the upcomming Reporting Canvas tool for Adobe Workfront
 author: Nolan
 feature: Product Announcements
 exl-id: cc0adf28-08ab-4330-b901-219ab687f02f
 ---
-# Reporting Canvas beta overview
+
+# Reporting Canvas beta: overview
 
 ## The Reporting Canvas beta
 
@@ -206,7 +207,7 @@ To opt in other users that are not Workfront administrators:
    >Users that you grant access to Reporting Canvas will have access to **all** data in the system in a read-only capacity, regardless of their standard permissions to view this data.
 
 1. Click **Save**.
-1. Add the **Reporting (beta)** icon into the main layout template of each user that was selected. For more information, see [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+1. Add the **Reporting (beta)** icon into the main layout template of each user that was selected. For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 1. Each user must then individually navigate to the **Reporting (beta)** icon in their main menu and accept the terms and conditions.
 
 ### Submit feedback
@@ -231,7 +232,7 @@ Our current strategy for migration in the official releaseis to enable you to do
 
 1. Identify the reports and dashboards that are relevant
 
-   1. Give you the ability to export a CSV of all the reports and dashboards in the system along with any relevant tracking information (number of views, when and by whom).
+   1. Give you the ability to export a CSV of all the reports and dashboards in the system along with any relevant tracking information (number of views, when, and by whom).
    1. Provide an export of reports that are set up with scheduled deliveries along with the recipients.
 
 1. Select the reports and dashboards that you want to migrate, then click **Migrate**
