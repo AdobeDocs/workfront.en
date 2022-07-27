@@ -8,6 +8,7 @@ author: John
 feature: Workfront API
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
 ---
+
 # File upload via Document Webhooks
 
 Uploading a file to a document storage provider is a two-step process that requires two separate API endpoints. Adobe Workfront begins the upload process by calling /uploadInit . This endpoint returns a document ID which is then passed to /upload when uploading the document bytes. Depending on the underlying document storage system, it might be necessary to create a zero-length document, then update the contents of the document later.
@@ -57,7 +58,8 @@ POST /uploadInit
 
 The metadata for the file, as defined by the /metadata endpoint. This includes the document ID used by the provider.
 
-**Example:** 
+**Example:**
+
 ```
 https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&documentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b
 ```
