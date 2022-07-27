@@ -2,11 +2,12 @@
 content-type: api
 navigation-topic: general-api
 title: Rich text fields in the Adobe Workfront API
-description: Some objects in Adobe Workfront allow for the storage of text with rich-text formatting. In the Workfront API rich text is stored as JSON using the open source framework Draft.js.
+description: Rich text fields in the Adobe Workfront API
 author: John
 feature: Workfront API
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
 ---
+
 # Rich text fields in the Adobe Workfront API
 
 Some objects in Adobe Workfront allow for the storage of text with rich-text formatting. In the Workfront API rich text is stored as JSON using the open source framework Draft.js.
@@ -17,7 +18,7 @@ A custom field with rich-text formatting is called **Field with rich text** and 
 
 ![](assets/rich-text-example-350x158.png)
 
-**Example:** A basic GET&nbsp;request to retrieve the value of the custom form field **Field with rich text**&nbsp;
+**Example:** A basic GET request to retrieve the value of the custom form field **Field with rich text**:
 
 <!-- [Copy](javascript:void(0);) --> 
 <pre><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GET /attask/api-internal/<OBJ Code>/<OBJ ID>?fields=parameterValues#&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GET /attask/api/v12.0/<OBJ Code>/<OBJ ID>?fields=parameterValues</code></pre>&nbsp;
@@ -64,7 +65,7 @@ In the case where multiple types of formatting have been applied to a single lin
 
 >[!NOTE]
 >
->The 20.3 release will support bold, italic, and underline formatting options.
+>All versions after the 20.3 release will support bold, italic, and underline formatting options.
 
 ## entityMaps and entityRanges
 
