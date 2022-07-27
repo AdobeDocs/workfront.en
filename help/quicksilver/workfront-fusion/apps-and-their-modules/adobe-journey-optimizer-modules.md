@@ -137,3 +137,62 @@ This module makes a custom API call to the Adobe Journey Optimizer API
     </tr>
   </tbody>
 </table>
+
+#### Get records
+
+This search module lists records of the selected type, returning results based on criteria you specify.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Connection</td>
+      <td>Connection</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Record type</p>
+      </td>
+      <td>
+        <p>Select the type of record that you want to list.</p>
+        <ul>
+        <li>Placements</li>
+        <li>Decision rules</li>
+        <li>Tags</li>
+        <li>Personalized offers</li>
+        <li>Collections</li>
+        <li>Fallback offers</li>
+       </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Query operator</p>
+      </td>
+      <td>
+        <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader"></td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader"> </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader"></td>
+   <td>
+    </td>
+     </tr>
+     <tr>
+      <td role="rowheader">  </td>
+      <td>
+      </td>
+    </tr>
+  </tbody>
+</table>
