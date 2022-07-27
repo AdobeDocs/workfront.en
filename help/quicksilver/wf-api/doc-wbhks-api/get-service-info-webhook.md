@@ -71,4 +71,15 @@ JSON containing information about this service
 **Example:** `https://www.acme.com/api/serviceInfo`
 
 returns
-<pre>{<br>webhook version: “1.2”, version: “1.0”, publisher: “Acme, LLC”, availableEndpoints: [“files”, “metadata”, “search”, “download”<br>“thumbnail”, “uploadInit”, “upload” ], customActions [<br>{<br>name: “archive”, displayName: “Archive” }, {<br>name: “doSomethingElse”, displayName: “Do Something” }, ] }</pre>
+
+```
+{
+webhook version: “1.2”, version: “1.0”, publisher: “Acme, LLC”, availableEndpoints: [“files”, “metadata”, “search”, “download”
+“thumbnail”, “uploadInit”, “upload” ], customActions [
+{
+name: “archive”, displayName: “Archive” 
+}, 
+{name: “doSomethingElse”, displayName: “Do Something” }, 
+] 
+}
+```
