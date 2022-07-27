@@ -37,7 +37,3 @@ For reference information about various aspects and features found in Workfront 
 * [Errors in Adobe Workfront Fusion](../workfront-fusion/errors/errors.md) 
 * [Organizations in Adobe Workfront Fusion](../workfront-fusion/organizations/organizations.md) 
 * [Apps and their modules](../workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</li>
-  -->
