@@ -10,13 +10,13 @@ exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
 
 The  Main Menu changes with the access level you have been assigned by your Adobe Workfront administrator. By default, you are given access only to the areas that include functionality allowed by your access level. To understand the components of the default layout of each access level, see [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
-## Understand the default  Main Menu of a Reviewer
+## Understand the default Main Menu of a Reviewer
 
 As a Reviewer, your main responsibility is to review, comment on, and approve work. The areas that are visible to you in the Main Menu allow you to do that.
 
 The following areas are included in the default layout of a Reviewer:
 
-* **My&nbsp;Updates**: The **Home** area which is available to users of all access levels is replaced by the **My Updates** for users with a Review license type, by default. As a Reviewer, you do not complete work. You need to only see information about work you have to review, comment on, or approve. The **My Updates** area allows you to perform these actions. This is the default landing area for new Review users.
+* **My Updates**: The **Home** area which is available to users of all access levels is replaced by the **My Updates** for users with a Review license type, by default. As a Reviewer, you do not complete work. You need to only see information about work you have to review, comment on, or approve. The **My Updates** area allows you to perform these actions. This is the default landing area for new Review users.
 
   >[!TIP]
   >
@@ -26,7 +26,7 @@ The following areas are included in the default layout of a Reviewer:
 * **Documents**: You can upload documents, or review documents shared with you here.
 * **Analytics**: Look at project data and identify trends with planning and completion. This area displays insight into projects you have access to view. For more information, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-* **Blueprints**: Review existing blueprints in your system and request one to be installed, if the Workfront administrator configured the request queue for blueprints.&nbsp;For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
+* **Blueprints**: Review existing blueprints in your system and request one to be installed, if the Workfront administrator configured the request queue for blueprints. For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 &nbsp;
 

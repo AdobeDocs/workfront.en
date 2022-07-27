@@ -4,6 +4,7 @@ navigation-topic: get-started-with-workfront
 title: Adobe Workfront browser requirements
 description: Both Adobe Workfront and Workfront Proof require the use of an internet browser.
 feature: Get Started with Workfront
+author: Caroline
 exl-id: d5252675-ae87-4393-b05a-7810036e2f7d
 ---
 # Adobe Workfront browser requirements

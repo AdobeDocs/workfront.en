@@ -3,6 +3,7 @@ navigation-topic: use-lists
 title: Apply the quick filter to a list
 description: You can use the quick filter in a list of objects to help you locate only items that are important to you, so you can quickly review, update, or share them with others.
 feature: Get Started with Workfront
+author: Lisa
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
 ---
 # Apply the quick filter to a list
@@ -24,7 +25,16 @@ You can use temporary quick filters in all lists, except the following:
 
 * The Reports area
 * Document lists and reports
-* Several Setup areas (the quick filter is currently available in <span class ="preview">Custom Forms, </span>Groups, Teams, Companies, Schedules, and Layout Templates)
+* Several Setup areas 
+
+  The quick filter is currently available in Groups, Teams, Companies, Schedules, and Layout Templates. 
+
+<!--Remove the following note box and add "Custom Forms" to the sentence directly above when this goes to Production. Or do this using the Preview highlighting when it becomes available.-->
+
+>[!NOTE]
+>
+>  If you are using the Preview environment, the quick filter is also available in Custom Forms.
+
 
 Consider the following when applying quick filters to a list:
 
@@ -45,19 +55,19 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><b>Adobe Workfront plan*</b></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><b>Adobe Workfront license*</b></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><b>Access level configurations*</b></td> 
    <td> <p>View access to the area the list is in</p> <p>For example, to apply a quick filter to a project, you need View access to Projects.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><b>Object permissions</b></td> 
    <td> <p>View</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 

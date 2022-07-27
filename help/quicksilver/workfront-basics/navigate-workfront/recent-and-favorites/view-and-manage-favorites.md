@@ -4,6 +4,7 @@ navigation-topic: recent-and-favorites
 title: View and manage favorites
 description: The Favorites menu allows you to access items quickly. Items remain on the Favorites menu until you remove them. You can have up to 40 items on the Favorites menu.
 feature: Get Started with Workfront
+author: Lisa
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
 ---
 # View and manage favorites
@@ -21,11 +22,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 

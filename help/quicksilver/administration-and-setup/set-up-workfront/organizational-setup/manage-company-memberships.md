@@ -91,7 +91,7 @@ You must have the following in order to manage companies in Workfront:
         </ul> </p> 
        <ol> 
         <li value="1"> <p>Select the user, then click the Copy icon <img src="assets/copy-icon.png">. </p> </li> 
-        <li value="2"> <p>In the <b>New User</b> box that displays, edit the fields available for the new user.<br></p> <p>For information about all fields associated with a user, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </li> 
+        <li value="2"> <p>In the <b>New User</b> box that displays, edit the fields available for the new user.</p> <p>For information about all fields associated with a user, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </li> 
         <li value="3"> <p>Click <strong>Add This User</strong>.</p> <p>Or</p> <p>Click <strong>Add Person User &amp; Start Another</strong> to save the new user and add another one.</p> </li> 
        </ol> <p>This creates a new account in Workfront for the user.</p> <p>If you selected the option to send an invite to the user, they should receive an email where they can follow a link to create their Workfront password.</p> </td> 
      </tr> 

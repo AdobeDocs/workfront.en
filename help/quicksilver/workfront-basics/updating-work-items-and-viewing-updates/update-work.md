@@ -11,7 +11,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 You can add an update on a Adobe Workfront object (project, task, or issue) to communicate about progress on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update.
 
-You&nbsp;can add updates to an object from the following areas of Workfront:
+You can add updates to an object from the following areas of Workfront:
 
 * From a Workfront object, in the Updates  section  
 * From the Home area (for tasks and issues)
@@ -29,19 +29,19 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>View or Edit access for the object the update is on</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>View access to the object</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
 ## Add an update to a work item
 
 1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
-1. Click the **Updates** section .
+1. Click the **Updates** section.
 1. Click **Start a new update,** then type your update.  
 
 1. (Optional) To add rich text formatting to your update, use any attributes on the **Rich Text** toolbar as you type.
@@ -64,7 +64,7 @@ You must have the following access to perform the steps in this article:
    | Underline | ![mceclip8.png](assets/mceclip8.png)|⌘+u |Ctrl+U |
    | Hyperlink | ![mceclip7.png](assets/mceclip7.png)|⌘+K |Ctrl+K |
    | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
-   | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |&nbsp;Ctrl+Shift+7 |
+   | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
    | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |Ctrl+Shift+9 |
 
    {style="table-layout:auto"}
@@ -113,7 +113,7 @@ You must have the following access to perform the steps in this article:
    >* The first time you use this integration, you need to follow the prompts requesting you to connect Zoom to Workfront. You need to do this only once.
    >* Although the integration uses your Zoom account, the Zoom meeting ID that you add to your update is a unique meeting URL, not your personal Zoom meeting room URL.
 
-1. (Optional) To attach an image to your update, click the **Image** icon ![](assets/addimageicon-35x32.png)&nbsp;and browse to the image on your computer.  
+1. (Optional) To attach an image to your update, click the **Image** icon ![](assets/addimageicon-35x32.png) and browse to the image on your computer.  
    Or  
    Drag the image into the update area.
 
@@ -131,27 +131,27 @@ You must have the following access to perform the steps in this article:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Notify</td> 
+      <td role="rowheader"><strong>Notify</strong></td> 
       <td>Identify users who need to be notified of the update. Users assigned or subscribed to the object automatically receive notification when an update is made.<br><p>For information about how to include others on an update, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Commit Date</td> 
+      <td role="rowheader"><strong>Commit Date</strong></td> 
       <td>In the date picker, select the date that you commit to complete the work item. For information about Commit Date, see <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Condition</td> 
+      <td role="rowheader"><strong>Condition</strong></td> 
       <td>Select a new condition for the task or issue. For information about selecting a condition, see <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Status</td> 
-      <td>Click the arrow beside&nbsp;the current status, then select the desired status from the drop-down menu. For information about setting a Status, see <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.<p>Updating the status of a&nbsp;work item&nbsp;does not automatically change the status of a project. Depending on how your project is set up, you might need to make updates to the project status separately. For more information on the various project update types, see <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p><p>Note: You cannot change the status of a work item while it is in a Pending Approval status.</p></td> 
+      <td role="rowheader"><strong>Status</strong></td> 
+      <td>Click the arrow beside the current status, then select the desired status from the drop-down menu. For information about setting a Status, see <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.<p>Updating the status of a work item does not automatically change the status of a project. Depending on how your project is set up, you might need to make updates to the project status separately. For more information on the various project update types, see <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p><p>Note: You cannot change the status of a work item while it is in a Pending Approval status.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Completion Bar</td> 
+      <td role="rowheader"><strong>Completion Bar</strong></td> 
       <td>(Only available on tasks) Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Private to my company</td> 
+      <td role="rowheader"><strong>Private to my company</strong></td> 
       <td> <p>Disable this option to prevent users outside your company from having access to view this update.</p> </td> 
      </tr> 
     </tbody> 
@@ -202,7 +202,7 @@ This option copies a specific update link to the clipboard. When you share the u
 
 ## Delete an update or reply
 
-Depending on the access&nbsp;your Workfront administrator gives you, you might be able to delete updates you added on the Updates tab of an object. For more information, see&nbsp; [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) in the article [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Depending on the access your Workfront administrator gives you, you might be able to delete updates you added on the Updates tab of an object. For more information, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) in the article [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 No Workfront user (including the Workfront administrator) can delete updates made by another user. However, if a user's access level allows them to delete their own updates, the Workfront administrator can log in as that user and delete updates they made. For more information, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) and [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
@@ -248,15 +248,15 @@ The Updates tab for a Workfront object displays two types of information:
 
   ![](assets/system-updates-cl-350x277.png)
 
-Depending on your Workfront license, system updates might be enabled&nbsp;by default. Workfront administrators can determine what is tracked in system updates,&nbsp;as explained in [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). You can also filter out&nbsp;system updates or activities so that you see&nbsp;only user updates for all objects.
+Depending on your Workfront license, system updates might be enabled by default. Workfront administrators can determine what is tracked in system updates, as explained in [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). You can also filter out system updates or activities so that you see only user updates for all objects.
 
 For more information about the difference between user and system updates, see [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 To enable or disable system updates:
 
-1. Click the **Updates** tab on an&nbsp;object.
+1. Click the **Updates** tab on an object.
 1. Click **Show System Updates** to slide the switch left (disabled) or right (enabled).
 
    ![](assets/show-system-updates-qs-350x55.png)
 
-   This option&nbsp;is persistent across all objects throughout Workfront and remains in the position you select, even if you log out of Workfront.
+   This option is persistent across all objects throughout Workfront and remains in the position you select, even if you log out of Workfront.

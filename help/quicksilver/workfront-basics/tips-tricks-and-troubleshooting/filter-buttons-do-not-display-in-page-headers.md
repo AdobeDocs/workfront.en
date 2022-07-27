@@ -4,6 +4,7 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Filter buttons do not display in page headers
 description: Read this article to troubleshoot filter buttons not displaying in page headers.
 feature: Get Started with Workfront
+author: Lisa and Alina
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
 ---
 # Filter buttons do not display in page headers
@@ -17,15 +18,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
    <td> <p>System administrator</p> </td> 
   </tr> 
  </tbody> 
@@ -40,8 +41,8 @@ The following filter buttons do not display in their respective areas:
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront area</td> 
-   <td>Filter buttons</td> 
+   <td><strong>Adobe Workfront area</strong></td> 
+   <td><strong>Filter buttons</strong></td> 
   </tr> 
   <tr> 
    <td> <p>Projects </p> </td> 

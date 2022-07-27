@@ -76,7 +76,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Expenses</td> 
-      <td><p>View all expenses on objects in Workfront.</p><p>This does not allow the user to create new Expense Types.<br></p><p>Without this access, the user can only view the following:</p>
+      <td><p>View all expenses on objects in Workfront.</p><p>This does not allow the user to create new Expense Types.</p><p>Without this access, the user can only view the following:</p>
        <ul>
         <li>Expenses on projects, tasks or issues they manage</li>
         <li>Their own expenses</li>
