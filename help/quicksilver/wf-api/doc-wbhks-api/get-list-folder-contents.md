@@ -2,17 +2,18 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Get item list of folder contents
-description: Returns metadata for the files and folders for a given folder.
+title: Lists metadata for files or folders
+description: Lists metadata for files or folders
 author: John
-feature: Workfront API, Digital Content and Documents
+feature: Workfront API
 exl-id: 9c9f9222-59ac-4643-8297-d4939bec7e64
 ---
+
 # Get item list of folder contents
 
-Returns metadata for the files and folders for a given folder.
+Lists metadata for the files and folders for a given folder.
 
-## URL
+**URL**
 
 GET /files
 
@@ -24,32 +25,34 @@ GET /files
 | max&nbsp; |The maximum number of items to return. Used for pagination. |
 | offset&nbsp; |&nbsp;The page offset, used in conjunction with ‘max'. |
 
-{style="table-layout:auto"}
 
 ## Response
 
 JSON containing a list of files and folders. The metadata for each item is the same that returned by the /metadata endpoint.
 
 **Example:** https://www.acme.com/api/files?parentId=123456
-<pre>[ 
+
+```
+[ 
 {
-title:"Folder A",< br />
-kind:"folder"< br />
-id":"2lj23lkj",< br />
-viewLink:" https://www.acme.com/viewDocument?id=2lj23lkj ”,< br />
-downloadLink:"https://www.acme.com/downloadDocument?id=2lj23lkj",< br />
-mimeType:"",< br />
-dateModified:"2014­06­05T17:39:45.251Z"< br />
-size: ""< br />
-},< br />
-{< br />
-title:"My Document",< br />
-kind:"file"< br />
-id":"da8cj234",< br />
-viewLink:" https://www.acme.com/viewDocument?id=da8cj234 ”,< br />
-downloadLink:"https://www.acme.com/downloadDocument?id=da8cj234",< br />
-mimeType:"image/png",< br />
-dateModified:"2014­06­05T17:39:45.251Z"< br />
-size: "32554694"< br />
+title:"Folder A",
+kind:"folder"
+id":"2lj23lkj",
+viewLink:" https://www.acme.com/viewDocument?id=2lj23lkj ”,
+downloadLink:"https://www.acme.com/downloadDocument?id=2lj23lkj",
+mimeType:"",
+dateModified:"2014­06­05T17:39:45.251Z"
+size: ""
+},
+{
+title:"My Document",
+kind:"file"
+id":"da8cj234",
+viewLink:" https://www.acme.com/viewDocument?id=da8cj234 ”,
+downloadLink:"https://www.acme.com/downloadDocument?id=da8cj234",
+mimeType:"image/png",
+dateModified:"2014­06­05T17:39:45.251Z"
+size: "32554694"
 }
-]</pre>
+]
+```
