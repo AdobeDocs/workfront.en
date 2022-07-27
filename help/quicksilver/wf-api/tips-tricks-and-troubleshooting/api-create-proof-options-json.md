@@ -1,12 +1,13 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: Add advanced proofing options when creating a proof through the Adobe Workfront API
-description: When creating a proof in the Workfront API, you can add advanced proofing options.
+title: Add advanced proofing options with Adobe Workfront API
+description: Add advanced proofing options with Adobe Workfront API
 author: John
 feature: Workfront API, Workfront Proof
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
 ---
+
 # Add advanced proofing options when creating a proof through the Adobe Workfront API
 
 When creating a proof in the Workfront API, you can add advanced proofing options.
@@ -14,17 +15,16 @@ When creating a proof in the Workfront API, you can add advanced proofing option
 Use one of the following workflows to add proofing options to a proof using the API:
 
 * (Recommended) Create a simple proof using the Workfront API, then add advanced proofing options to the proof using the ProofHQ API 
+
 * Create a proof with advanced proofing options using JSON in the Workfront API
 
 ## Create a proof using the Workfront and ProofHQ&nbsp;APIs (Recommended) {#create-a-proof-using-the-workfront-and-proofhq-apis-recommended}
 
 This section describes how to create a proof with advanced proofing options through the Workfront API, using a combination of Workfront and ProofHQ APIs.
 
-The ProofHQ API is a powerful tool with a wide variety of actions not available to proofs in the Workfront API. by using these actions, you can modify or configure the proof with more precision than is available in the Workfront API.
+The ProofHQ API includes a variety of actions not available to proofs in the Workfront API. By using these actions, you can modify or configure the proof with more precision than is available in the Workfront API.
 
-For an overview of the ProofHQ&nbsp;API, see [Overview](../../proofhq-api/general/overview.md).
-
-For ProofHQ&nbsp;API documentation, see [ProofHQ](https://api.proofhq.com/home.html).
+For an overview of the ProofHQ&nbsp;API, see the [PoofHQ Overview](../../proofhq-api/general/overview.md). You can also refer to the [ProofHQ Documentation](https://api.proofhq.com/home.html).
 
 >[!NOTE]
 >
@@ -34,13 +34,7 @@ For ProofHQ&nbsp;API documentation, see [ProofHQ](https://api.proofhq.com/home.h
 
 ### Create a proof with advanced proofing options
 
-1. Create a proof using the 
-
-   ```
-   Document createProof
-   ```
-
-   action in the Workfront API
+1. Create a proof using the `Document createProof` action in the Workfront API.
 
    >[!NOTE]
    >
@@ -54,11 +48,11 @@ This section shows some sample updates that you can make with the ProofHQ API.
 
 **Examples:** 
 
-* [Proof can be downloaded, has a message, and is shared publicly](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly) 
+* [A Proof can be downloaded, has a message, and is shared publicly](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly) 
 * [Update a stage so that it is not private, not mandatory, and requires only one approval](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval) 
 * [Add two recipients to a proof with no primary decision maker](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
 
-#### Proof can be downloaded, has a message, and is shared publicly  {#proof-can-be-downloaded-has-a-message-and-is-shared-publicly}
+**A Proof can be downloaded, has a message, and is shared publicly**
 
 Documentation for this endpoint can be found on the [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) page.
 
@@ -82,7 +76,7 @@ Documentation for this endpoint can be found on the [ProofHQ API updateProof](ht
 </soapenv:Envelope>
 ```
 
-#### Update a stage so that it is not private, not mandatory, and requires only one approval {#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval}
+**Update a stage so that it is not private, not mandatory, and requires only one approval**
 
 Documentation for this endpoint can be found on the [ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) page.
 
@@ -107,7 +101,7 @@ Documentation for this endpoint can be found on the [ProofHQ API updateWorkflowP
 </soapenv:Envelope>
 ```
 
-#### Add two recipients to a proof with no primary decision maker {#add-two-recipients-to-a-proof-with-no-primary-decision-maker}
+**Add two recipients to a proof with no primary decision maker**
 
 Documentation for this endpoint can be found on the [ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) page.
 

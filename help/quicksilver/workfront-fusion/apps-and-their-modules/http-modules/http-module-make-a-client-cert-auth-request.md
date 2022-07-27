@@ -12,7 +12,7 @@ exl-id: c0b0057f-3db0-4c10-a274-ebaec1a5b87b
 ---
 # HTTP > Make a Client Certificate Authorization request module
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 

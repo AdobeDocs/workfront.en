@@ -12,7 +12,7 @@ exl-id: 70bf87c7-6d51-4ef4-9dce-80ad004e613f
 ---
 # HTTP > Make an API Key Authorization request
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 

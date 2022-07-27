@@ -12,7 +12,7 @@ exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
 ---
 # HTTP > Other modules
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
