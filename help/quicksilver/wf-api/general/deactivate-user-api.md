@@ -3,11 +3,12 @@ content-type: api
 product-area: user-management
 navigation-topic: general-api
 title: Deactivate a User via the API
-description: When a user leaves your organization, you can deactivate the user, making their Adobe Workfront license available for another user and preventing them from being inadvertently assigned work. By deactivating a user, you preserve their work history, including their work assignments and their association with notes, hours, and documents.
+description: Deactivate a User via the API
 author: John
 feature: Workfront API
 exl-id: 45b06cce-4622-4739-b9f3-2edb9101c099
 ---
+
 # Deactivate a User via the API
 
 When a user leaves your organization, you can deactivate the user, making their Adobe Workfront license available for another user and preventing them from being inadvertently assigned work. By deactivating a user, you preserve their work history, including their work assignments and their association with notes, hours, and documents.
@@ -20,17 +21,23 @@ To deactivate a user via the API:
 
 1. Generate an API key by using the following API request:
 
-   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=`username`&password=`password`&method=PUT
+```
+<domain>.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=`username`&password=`password`&method=PUT`
+```
 
 1. Locate the GUID for the user you want to deactivate.
 
    1. Use the following API request to retrieve the GUID for all users in your system, note that the **isActive** field shows **true** for users that are currently active and **false** for users that have been deactivated:
 
-      `<domain>`.my.workfront.com/attask/api/v7.0/USER/search?fields=isActive
+```
+<domain>`.my.workfront.com/attask/api/v7.0/USER/search?fields=isActive
+```
 
 1. Locate the GUID for the user you want to deactivate, use the following **PUT** request to change the user's **isActive** field value to **false**:
 
-   `<domain>`.my.workfront.com/attask/api/v7.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
+```
+<domain>`.my.workfront.com/attask/api/v7.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
+```
 
 1. The response will show that the **isActive** field value has changed&nbsp;from **true** to **false**indicating that the user has been deactivated:
 
