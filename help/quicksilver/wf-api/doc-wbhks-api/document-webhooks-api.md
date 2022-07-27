@@ -4,7 +4,7 @@ content-type: api
 product-area: documents
 navigation-topic: workfront-api
 title: Document Webhooks API
-description: This section contains the following articles - EDIT ME.
+description: Document Webhooks API topics
 author: John
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
 ---
