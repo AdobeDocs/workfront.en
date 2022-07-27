@@ -2,11 +2,12 @@
 content-type: api
 navigation-topic: general-api
 title: API example scripts
-description: Following are examples of different programming languages that are used to interact with the Workfront RESTful API. Each example performs the following operations - EDIT ME.
+description: FAPI example scripts
 author: John
 feature: Workfront API
 exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
 ---
+
 # API example scripts
 
 ## Adobe Workfront API Examples

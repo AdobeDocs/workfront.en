@@ -3,11 +3,12 @@ content-type: api;overview
 product-area: documents
 navigation-topic: documents-webhooks-api
 title: Webhooks Overview
-description: Adobe Workfront Document Webhooks defines a set of API endpoints through which Workfront makes authorized API calls to an External Document Provider. This allows anyone to create a middleware plugin for any document storage provider.
+description: Webhooks Overview
 author: John
 feature: Workfront API
 exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
 ---
+
 # Webhooks Overview
 
 Adobe Workfront Document Webhooks defines a set of API endpoints through which Workfront makes authorized API calls to an External Document Provider. This allows anyone to create a middleware plugin for any document storage provider.
@@ -28,22 +29,16 @@ To help jumpstart the development of a new webhooks implementation, Workfront pr
 
 ## Versions
 
-* Version 1.0 (Release Date - May, 2015)
+* Version 1.0 (Release Date - May, 2015): Initial Specification
 
-   * Initial Specification
+* Version 1.1 (Release Date - June, 2015). Updated /uploadInit - Added documentId and documentVersionId
 
-* Version 1.1 (Release Date - June, 2015)
+* Version 1.2 (Release Date - October, 2015): Added /createFolder
 
-   * Updated /uploadInit - Added documentId and documentVersionId
+* Upcoming versions (Release Date - TBD):
 
-* Version 1.2 (Release Date - October, 2015)
-
-   * Added /createFolder
-
-* Upcoming versions (Release Date - TBD)
-
-   * Added /delete
-   * Added /rename
-   * Added /serviceInfo
-   * Added /customAction
-   * Add pagination and parentId to /search
+  * Added /delete
+  * Added /rename
+  * Added /serviceInfo
+  * Added /customAction
+  * Add pagination and parentId to /search
