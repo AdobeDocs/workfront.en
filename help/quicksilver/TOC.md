@@ -731,6 +731,7 @@ feature-set: Workfront
       * [Mark an item as Done in the Home area](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
       * [Home Calendar view](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
       * [Configure your Home Calendar view settings](workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
+      * [Home area for Reviewers](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
       * [Use the Home Calendar view](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
       * [View the Home Calendar](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
       * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
