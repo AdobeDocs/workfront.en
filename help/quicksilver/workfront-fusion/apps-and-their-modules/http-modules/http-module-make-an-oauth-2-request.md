@@ -12,7 +12,7 @@ exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
 ---
 # HTTP > Make an OAuth 2.0 request module
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
