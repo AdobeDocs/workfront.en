@@ -235,8 +235,8 @@ Configure any of the following preferences for newly created projects throughout
        <li>Edit issues within a project after the project has been marked Complete, Dead, or Pending Approval.</li>
        <li>Add issues to a project after the project has been marked Complete or Dead. (You cannot add issues to a project that is Pending Approval.)</li>
       </ul></li> 
-     <li> <p><strong>Add documents to the project and to its tasks and issues</strong>: Allows users to add documents to a project (or to add documents to tasks and issues within the project) after the project has been marked Complete or Dead.<br></p> <p>This option does not apply to projects that are pending approval.</p> </li> 
-     <li> <p><strong>Attach templates</strong>: Allows users to attach templates to a project after the project has been marked Complete or Dead.<br></p> <p>This option does not apply to projects that are pending approval.</p> </li> 
+     <li> <p><strong>Add documents to the project and to its tasks and issues</strong>: Allows users to add documents to a project (or to add documents to tasks and issues within the project) after the project has been marked Complete or Dead.</p> <p>This option does not apply to projects that are pending approval.</p> </li> 
+     <li> <p><strong>Attach templates</strong>: Allows users to attach templates to a project after the project has been marked Complete or Dead.</p> <p>This option does not apply to projects that are pending approval.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
