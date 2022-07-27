@@ -47,13 +47,6 @@ You must have the following access to use the functionality in this article:
       <td role="rowheader">Product</td>
       <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td>
     </tr>
-    <tr>
-      <td role="rowheader">Access level configurations*</td>
-      <td>
-        <p>You must be a Workfront Fusion administrator for your organization.</p>
-        <p>You must be a Workfront Fusion administrator for your team.</p>
-      </td>
-    </tr>
   </tbody>
 </table>
 

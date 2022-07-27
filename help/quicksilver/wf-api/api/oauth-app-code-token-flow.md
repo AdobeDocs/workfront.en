@@ -1,12 +1,13 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Configure and use your organization's custom OAuth 2 applications using authorization code flow
-description: In order to integrate with Workfront and allow your client app to communicate with Workfront on behalf of the user, you must - EDIT ME.
+title: Authorization code flow for custom OAuth 2 applications
+description: Authorization code flow for custom OAuth 2 applications
 author: John
 feature: Workfront API
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
 ---
+
 # Configure and use your organization's custom OAuth 2 applications using authorization code flow
 
 In order to integrate with Workfront and allow your client app to communicate with Workfront on behalf of the user, you must:
@@ -31,29 +32,12 @@ Your users need to log in to authorize this integration in their own account. Th
   https://myorganization.my.workfront.com
   ```
 
-  ```
-  client_id
-  ```
 
-  This is the client ID&nbsp;generated when you created the OAuth2 app in Workfront.
+* `client_id`: This is the client ID&nbsp;generated when you created the OAuth2 app in Workfront.
 
-  ```
-  redirect_uri
-  ```
-
-  This is the redirect URL that you entered when creating the app. Your users will be directed to this page after they authorize the app for their account.
-
-  ```
-  response_type
-  ```
-
-  : This must have the value 
-
-  ```
-  code
-  ```
-
-  .
+* `redirect_uri`: This is the redirect URL that you entered when creating the app. Your users will be directed to this page after they authorize the app for their account.
+  
+* `response_type`: This must have the value `code`.
 
 The URL for the authorization page is therefore: 
 
@@ -99,136 +83,123 @@ To log your users in with OAuth2, use the following process:
 
    ![](assets/consent-screen-350x227.png)
 
-1. If the user Allows the access, the page is redirected to the 
+1. If the user Allows the access, the page is redirected to the `redirect_url`. The redirect must include the following query parameters:
 
-   ```
-   redirect_url
-   ```
+* `code`: The authorization code which is required for getting the access/refresh token.
 
-   . The redirect must include the following query parameters
+* `domain`: Your organization's domain. Example: in `myorganization.my.workfront.com`, the domain is `myorganization`.
 
-   ```
-   code
-   ```
-
-   : The authorization code which is required for getting the access/refresh token.
-
-   ```
-   domain
-   ```
-
-   : Your organization's domain. Example: in 
-
-   ```
-   myorganization.my.workfront.com
-   ```
-
-   , the domain is 
-
-   ```
-   myorganization
-   ```
-
-   .
-
-   ```
-   lane
-   ```
-
-   : the lane of the request. Example: in 
-
-   ```
-   myorganization.preview.workfront.com
-   ```
-
-   , the lane is 
-
-   ```
-   preview
-   ```
-
-   .
+* `lane`: the lane of the request. Example: in `myorganization.preview.workfront.com`, the lane is `preview`.
 
    >[!IMPORTANT]
    >
-   >The    >
-   >
-   >```   >
-   >code
-   >```   >
-   >
-   >is only valid for 2 minutes. Therefore, you must get the refresh and access tokens within 2 minutes.
+   >The `code` is only valid for 2 minutes. Therefore, you must get the refresh and access tokens within that time.
 
-1. When you have a code, you can request refresh and access tokens by sending the code along with client app credentials to the
+
+
+1. When you have a code, you can request refresh and access tokens by sending the code along with client app credentials to the `/integrations/oauth2/api/v1/token` endpoint.
+
+    The full token request URL is 
 
    ```
-   /integrations/oauth2/api/v1/token
+   https://<URL of your organization's domain></span>/integrations/oauth2/api/v1/token
    ```
-
-   endpoint.
-
-   The full token request URL is 
-
-   <!-- [Copy](javascript:void(0);) --> 
-   <pre><code>https://<span style="color: #63a35c; "><URL of your organization's domain></span>/integrations/oauth2/api/v1/token</code></pre>
-   **Examples:**  Example of CURL call to token endpoint:
+  
+   >**Examples:**  Example of CURL call to token endpoint: 
 
    Example 1
 
-   <!-- [Copy](javascript:void(0);) --> 
-   <pre><code>curl --location --request POST '**<workfront host>**/integrations/oauth2/api/v1/token' \<br>--header 'Authorization: Basic **<base64(client_id:client_secret)>**' \<br>--header 'Content-Type: application/json' \<br>--data-raw '{<br>"code": "**<code>**",<br>"grant_type": "**authorization_code**",<br>"redirect_uri": "**<redirect_url>**"<br>}'</code></pre>Example 2
+   ```
+      curl --location --request POST '**<workfront host>**/integrations/oauth2/api/v1/token' \
+      --header 'Authorization: Basic **<base64(client_id:client_secret)>**' \
+      --header 'Content-Type: application/json' \
+      --data-raw '{
+      "code": "**<code>**",
+      "grant_type": "**authorization_code**",
+      "redirect_uri": "**<redirect_url>**"
+      }'
 
-   <!-- [Copy](javascript:void(0);) --> 
-   <pre><code>curl --location --request POST '**<workfront host>**/integrations/oauth2/api/v1/token' \<br>--header 'Content-Type: application/x-www-form-urlencoded' \<br>--data-urlencode 'grant_type=**authorization_code**' \<br>--data-urlencode 'redirect_uri=**<redirect_url>**' \<br>--data-urlencode 'code=**<code>**' \<br>--data-urlencode 'client_id=**<client_id>**' \<br>--data-urlencode 'client_secret=**<client_secret>**'</code></pre>
+   ```
+   
+   Example 2
+
+   ```
+      curl --location --request POST '**<workfront host>**/integrations/oauth2/api/v1/token' \
+      --header 'Content-Type: application/x-www-form-urlencoded' \
+      --data-urlencode 'grant_type=**authorization_code**' \
+      --data-urlencode 'redirect_uri=**<redirect_url>**' \
+      --data-urlencode 'code=**<code>**' \
+      --data-urlencode 'client_id=**<client_id>**' \
+      --data-urlencode 'client_secret=**<client_secret>**'  
+   ```
+
 
    >[!IMPORTANT]
    >
-   >The Client secret was generated when registering the app in Workfront. You should store it in a secure place, because it cannot be recovered if it is lost.
+   > The Client secret was generated when registering the app in Workfront. You should store it in a secure place, because it cannot be recovered if it is lost.
 
-   &nbsp;
 
-   When all passed parameters are correct the token endpoint returns the following payload:
-
-   <!-- [Copy](javascript:void(0);) --> 
-   <pre><code>{<br>&nbsp;&nbsp;<span style="color: #dd1144; ">"token_type"</span>: <span style="color: #dd1144; ">"sessionID"</span>,<br>&nbsp;&nbsp;<span style="color: #dd1144; ">"access_token"</span>: <span style="color: #dd1144; ">"string"</span>, <span style="color: #999988; font-style: italic; ">// the value of sessionID</span><br>&nbsp;&nbsp;<span style="color: #dd1144; ">"refresh_token"</span>: <span style="color: #dd1144; ">"string"</span>,<br>&nbsp;&nbsp;<span style="color: #dd1144; ">"expires_in"</span>: <span style="color: #008080; ">0</span>,<br>&nbsp;&nbsp;<span style="color: #dd1144; ">"wid"</span>: <span style="color: #dd1144; ">"string"</span><br>}</code></pre>&nbsp;
-
-   The access token is the same as 
+   <br>When all passed parameters are correct the token endpoint returns the following payload:
 
    ```
-   sessionID
+   {
+      "token_type": "sessionID",
+      "access_token": "string", // the value of sessionID
+      "refresh_token": "string",
+      "expires_in": 0,
+      "wid": "string"
+   }
    ```
-
-   , and it expires the same way as regular 
-
-   ```
-   sessionID
-   ```
+   
+   The access token is the same as ```sessionID```, and it expires the same way as regular ```sessionID```
 
    >[!IMPORTANT]
    >
-   >Store the refresh token in a secure place. You will need it to get a new refresh token when the old one is expired. Workfront does not store your refresh token.
+   > Store the refresh token in a secure place. You will need it to get a new refresh token when the old one is expired. Workfront does not store your refresh token.
 
 1. Now when you have an access token you can make API calls to Workfront
 
-   <!-- [Copy](javascript:void(0);) --> 
-   <pre><code>curl --request GET 'https://<workfront host>/attask/api/v14.0/proj/search \<br>--header 'sessionID: <access_token>'</code></pre>
+   ```
+   curl --request GET 'https://<workfront host>/attask/api/v14.0/proj/search \
+   --header 'sessionID: <access_token>'
+   ```
 
 ## Set Up Refresh Access Token
 
 ![](assets/refresh-access-token-flow-350x142.png)
 
-To refresh the access_token we again need to do a `POST` call to the token endpoint. This time we send a different form data as follows:
+To refresh the access_token we again need to do a 'POST' call to the token endpoint. This time we send a different form data as follows:
 
-<!-- [Copy](javascript:void(0);) --> 
-<pre><code>curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/token' \<br>--header 'Authorization: Basic <base64(client_id:client_secret)>' \<br>--header 'Content-Type: application/json' \<br>--data-raw '{<br>&nbsp;&nbsp;&nbsp;"grant_type": "refresh_token",<br>&nbsp;&nbsp;&nbsp;"refresh_token": "<refresh_token>"<br>}'<br><br>###### OR<br><br>curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/token' \<br>--header 'Content-Type: application/x-www-form-urlencoded' \<br>--data-urlencode 'grant_type=refresh_token' \<br>--data-urlencode 'redirect_uri=<redirect_url>' \<br>--data-urlencode 'refresh_token=<refresh_token>' \<br>--data-urlencode 'client_id=<client_id>' \<br>--data-urlencode 'client_secret=<client_secret>'</code></pre>&nbsp;
+```
+curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/token' \
+--header 'Authorization: Basic <base64(client_id:client_secret)>' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+   "grant_type": "refresh_token",
+   "refresh_token": "<refresh_token>"
+}'
+
+###### OR
+
+curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'grant_type=refresh_token' \
+--data-urlencode 'redirect_uri=<redirect_url>' \
+--data-urlencode 'refresh_token=<refresh_token>' \
+--data-urlencode 'client_id=<client_id>' \
+--data-urlencode 'client_secret=<client_secret>'
+```
 
 It will return the following result:
 
-<!-- [Copy](javascript:void(0);) --> 
-<pre><code>{<br>&nbsp;&nbsp;"token_type": "sessionID",<br>&nbsp;&nbsp;"access_token": "string", // the value of sessionID<br>&nbsp;&nbsp;"refresh_token": "string",<br>&nbsp;&nbsp;"expires_in": 0,<br>&nbsp;&nbsp;"wid": "string"<br>}</code></pre>And again the access token is the 
-
 ```
-sessionID
+{
+  "token_type": "sessionID",
+  "access_token": "string", // the value of sessionID
+  "refresh_token": "string",
+  "expires_in": 0,
+  "wid": "string"
+}
 ```
 
-which can be used to make an API request to Workfront.
+And again the access token is the ```sessionID``` which can be used to make an API request to Workfront.

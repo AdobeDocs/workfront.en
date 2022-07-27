@@ -3,11 +3,12 @@ content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
 title: Document Webhooks API
-description: Adobe Workfront Document Webhooks defines a set of API endpoints through which Workfront makes authorized API calls to an External Document Provider. This allows anyone to create a middleware plugin for any document storage provider.
+description: Document Webhooks API
 author: John
-feature: Workfront API, Digital Content and Documents
+feature: Workfront API
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 ---
+
 # Document Webhooks API
 
 Adobe Workfront Document Webhooks defines a set of API endpoints through which Workfront makes authorized API calls to an External Document Provider. This allows anyone to create a middleware plugin for any document storage provider.
@@ -246,43 +247,20 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
 
 ```
 POST /oauth2/token
-```
-
-```
 grant_type=authorization_code
-```
-
-```
 code=d9ac7asdf6asdf579d7a8
-```
-
-```
 client_id=123456
-```
-
-```
 client_secret=6asdf7a7a9a4af
 ```
+
 
 **Response** 
 
 ```
 {
-```
-
-```
 "access_token":"ad8af5ad5ads759", 
-```
-
-```
 "refresh_token":"9a0h5d87d808ads", 
-```
-
-```
 "expires_id":"3600" 
-```
-
-```
 }
 ```
 
@@ -383,41 +361,14 @@ GET /metadata?id=[document or folder ID]
 
 ```
 {
-```
-
-```
 "title":"My Document", 
-```
-
-```
-"kind":"file" 
-```
-
-```
+"kind":"file"
 "id":"12345", 
-```
-
-```
 "viewLink":"https://www.acme.com/viewDocument?id=12345”, 
-```
-
-```
-"downloadLink":"https://www.acme.com/downloadDocument?id=12345", 
-```
-
-```
-"mimeType":"image/png", 
-```
-
-```
+"downloadLink":"https://www.acme.com/downloadDocument?id=12345",
+"mimeType":"image/png",
 "dateModified":"2014­06­05T17:39:45.251Z",
-```
-
-```
-"size": "32554694" 
-```
-
-```
+"size": "32554694"
 }
 ```
 
@@ -453,89 +404,26 @@ JSON containing a list of files and folders. The metadata for each item is the s
 
 ```
 [
-```
-
-```
 {
-```
-
-```
-"title":"Folder A", 
-```
-
-```
+"title":"Folder A",
 "kind":"folder",
-```
-
-```
-"id":"2lj23lkj", 
-```
-
-```
-"viewLink":"https://www.acme.com/viewDocument?id=2lj23lkj”, 
-```
-
-```
-"downloadLink":"https://www.acme.com/downloadDocument?id=2lj23lkj", 
-```
-
-```
-"mimeType":"", 
-```
-
-```
+"id":"2lj23lkj",
+"viewLink":"https://www.acme.com/viewDocument?id=2lj23lkj”,
+"downloadLink":"https://www.acme.com/downloadDocument?id=2lj23lkj",
+"mimeType":"",
 "dateModified":"2014­06­05T17:39:45.251Z",
-```
-
-```
 "size":"" 
-```
-
-```
-}, 
-```
-
-```
+},
 {
-```
-
-```
-"title":"My Document", 
-```
-
-```
+"title":"My Document",
 "kind":"file",
-```
-
-```
-"id":"da8cj234", 
-```
-
-```
-"viewLink":"https://www.acme.com/viewDocument?id=da8cj234”, 
-```
-
-```
+"id":"da8cj234"
+"viewLink":"https://www.acme.com/viewDocument?id=da8cj234”,
 "downloadLink":"https://www.acme.com/downloadDocument?id=da8cj234",
-```
-
-```
-"mimeType":"image/png", 
-```
-
-```
+"mimeType":"image/png",
 "dateModified":"2014­06­05T17:39:45.251Z",
-```
-
-```
-"size":"32554694" 
-```
-
-```
-}, 
-```
-
-```
+"size":"32554694"
+},
 ]
 ```
 
@@ -590,17 +478,8 @@ JSON containing a list of metadata for files and folders matching the query. Wha
 
 ```
 [
-```
-
-```
-{ File/Folder Metadata }, 
-```
-
-```
+{ File/Folder Metadata },
 { File/Folder Metadata }
-```
-
-```
 ]
 ```
 
@@ -731,7 +610,6 @@ PUT /upload
 |---|---|
 | id&nbsp; |&nbsp;The document ID, which was just created. |
 
-{style="table-layout:auto"}
 
 &nbsp;
 
@@ -743,13 +621,7 @@ The raw content bytes for the document.
 
 ```
 {
-```
-
-```
-"result": “success” 
-```
-
-```
+"result": “success”
 }
 ```
 
@@ -757,13 +629,7 @@ or
 
 ```
 {
-```
-
-```
-"result": “fail” 
-```
-
-```
+"result": “fail”
 }
 ```
 
@@ -773,13 +639,7 @@ or
 
 ```
 {
-```
-
-```
 "result":"success"
-```
-
-```
 }
 ```
 
@@ -845,25 +705,12 @@ JSON containing information about this service
 
 ```
 {
-```
-
-```
 "webhook version": “1.2”, "version": “1.0”, "publisher": “Acme, LLC”, "availableEndpoints": [“files”, “metadata”, “search”, “download”
-```
 
-```
 “thumbnail”, “uploadInit”, “upload” ], "customActions" [
-```
-
-```
 {
-```
-
-```
 "name": “archive”, "displayName": “Archive” }, {
-```
 
-```
 "name": “doSomethingElse”, "displayName": “Do Something” }, ] }
 ```
 
@@ -939,29 +786,15 @@ returns
 
 ```
 {
-```
-
-```
 "status": “success” 
-```
-
-```
 }
 ```
 
-```
 returns
-```
 
 ```
 {
-```
-
-```
-"status": “failure”, "error": “File not found” 
-```
-
-```
+"status": “failure”, "error": “File not found”
 }
 ```
 
@@ -1065,13 +898,7 @@ response
 
 ```
 {
-```
-
-```
 "status": “success” 
-```
-
-```
 }
 ```
 
@@ -1091,17 +918,8 @@ Problems may arise when processing API requests. This should handled in a consis
 
 ```
 {
-```
-
-```
-"status": “error” 
-```
-
-```
+"status": “error”
 "error": “Sample error message” 
-```
-
-```
 }
 ```
 

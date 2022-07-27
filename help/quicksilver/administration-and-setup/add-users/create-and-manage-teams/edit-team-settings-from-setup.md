@@ -57,7 +57,7 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td role="rowheader">Team Name</td> 
       <td>Type a name for the team.</td> 
-     </tr> <!--
+     </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader"><span class="preview">Is Active</span> </td> 
        <td><span class="preview">New and existing teams have this box checked by default. Uncheck this box to deactivate the team. For more information, see <a href="../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md" class="MCXref xref">Deactivate a team</a></span> </td> 
@@ -73,7 +73,8 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Team Members</td> 
-      <td> <p>Add and team members. Start typing the name of a user, then select the name when it appears. Repeat this process to add multiple users to the team.</p> <p>Tip: There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team's work management might become too complex.</p> </td> 
+      <td> <p>Add and team members. Start typing the name of a user, then select the name when it appears. Repeat this process to add multiple users to the team.</p> 
+      <p><b>Tip</b>: You can add any number of users to a team. However, we recommend that you dont' add an excessively large number in one team, because the team's work management might become too complex.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 

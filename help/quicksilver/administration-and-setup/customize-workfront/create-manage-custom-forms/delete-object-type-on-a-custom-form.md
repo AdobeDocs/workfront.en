@@ -56,7 +56,7 @@ A custom form must have at least one object type.
 1. Select the custom form you want to edit, then click **Edit**.
 1. Click the X on any of the **Object Types** that you want to delete from the form, then click **Delete** on the warning message that displays.
 
-   ![](assets/click-x-object-types-350x196.jpg)
+   ![](assets/click-x-object-types.jpg)
 
 1. (Optional) Repeat the previous step for any other object type you want to remove from the form.
 1. Click **Done**, then click **Close and Save**.

@@ -22,7 +22,6 @@ exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 | templateID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search&nbsp; |
 
-{style="table-layout:auto"}
 
 ### Ews
 
@@ -32,7 +31,6 @@ exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 | handle |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | objCode |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-{style="table-layout:auto"}
 
 ### Custom Label
 
@@ -45,13 +43,10 @@ exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
 
-{style="table-layout:auto"}
-
-&nbsp;
 
 ## Updated Objects
 
-Changes to existing objects: additions are simply listed, removals have strikethrough, changes to existing have an attached&nbsp;note after the table
+Changes to existing objects: additions are simply listed, removals have strikethrough, changes to existing have an attached note after the table
 
 ### Update
 
