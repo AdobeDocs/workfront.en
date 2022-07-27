@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Disable approval delegation</td> 
-      <td> <p>Select this option to disable the functionality for users in your system to delegate approvals to another user. When this option is selected, the option to delegate approvals is removed from Workfront, and any existing approval delegations are stopped.</p> <p>For more information about delegating approvals in Workfront, see<a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegate approval request</a> .</p> </td> 
+      <td> <p>Select this option to disable the functionality for users in your system to delegate approvals to another user. When this option is selected, the option to delegate approvals is removed from Workfront, and any existing approval delegations are stopped.</p> <p>For more information about delegating approvals in Workfront, see <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegate approval request</a> .</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Allow Editing the custom form when the project, task, or issue is in pending approval status</td> 
