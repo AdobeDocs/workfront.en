@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Configure personal time off in Workfront
 

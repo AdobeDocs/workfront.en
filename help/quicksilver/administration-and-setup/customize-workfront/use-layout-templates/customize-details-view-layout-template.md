@@ -39,7 +39,7 @@ The changes you make to the Details view for an object also determine the availa
 
 * Conversion boxes, such as the Convert issue to task or Convert issue to project boxes. 
 
-![Convert issue to task box](assets/convert-issue-to-task-box.png)
+  ![Convert issue to task box](assets/convert-issue-to-task-box.png)
 
 For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 

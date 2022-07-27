@@ -28,11 +28,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/edit-person-box-350x196.jpg)
 
-   If your organization has integrated Workfront with an SSO solution, you may be routed to reset your passwords through your SSO&nbsp;system when you click **Reset Password**.&nbsp;This resets your SSO password which affects logging in to all your other applications inside your organization.
+   If your organization has integrated Workfront with an SSO solution, you may be routed to reset your passwords through your SSO system when you click **Reset Password**. This resets your SSO password which affects logging in to all your other applications inside your organization.
 
 1. Type your old password, then type the new password you want twice.
 

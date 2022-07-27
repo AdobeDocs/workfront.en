@@ -65,9 +65,9 @@ As a Workfront administrator, you can make the following modifications to the de
 
   For more information on the functionality of hiding priorities, see [Create a priority for a project task, or issue](#create-a-priority-for-a-project-task-or-issue).
 
->[!NOTE]
->
->You must have at least one priority in your Workfront account for each object.
+  >[!NOTE]
+  >
+  >You must have at least one priority in your Workfront account for each object.
 
 The priorities provided by default for each object type (project, task, and issue) are identical:
 
@@ -115,7 +115,9 @@ In addition to the default priorities provided in Workfront, you can add your ow
      </tr> 
      <tr> 
       <td role="rowheader">Hide</td> 
-      <td> <p>Select this box if you want to hide the priority.<br>When you select the <strong>Hide</strong> option, the priority does not display anywhere in Workfront and users are not able to choose it for their projects, tasks, and issues.</p> <p><b>IMPORTANT</b>:  We recommend that you hide the priorities that you no longer want to use, rather than deleting them. By hiding them, you still keep all your historic data, of objects that have been completed with this priority, while preventing people from choosing this priority in the future. </p>(Optional) You can change the listing order of your priorities by dragging and dropping them in your desired order. This changes the order in which they display for projects, tasks, and issues. This does not change the <strong>Importance</strong> number. </td> 
+      <td> <p>Select this box if you want to hide the priority.</p><p>When you select the <b>Hide</b> option, the priority does not display anywhere in Workfront and users are not able to choose it for their projects, tasks, and issues.</p> 
+      <p><b>IMPORTANT</b>:  We recommend that you hide the priorities that you no longer want to use, rather than deleting them. By hiding them, you still keep all your historic data, of objects that have been completed with this priority, while preventing people from choosing this priority in the future. </p>
+      <p>Optionally, you can change the listing order of your priorities by dragging and dropping them in your desired order. This changes the order in which they display for projects, tasks, and issues. This does not change the <b>Importance</b> number. </p></td> 
      </tr> 
     </tbody> 
    </table>

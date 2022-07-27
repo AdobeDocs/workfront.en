@@ -4,6 +4,7 @@ navigation-topic: navigate-workfront
 title: Adobe Workfront Search
 description: Review these articles to learn how to search in Workfront.
 feature: Get Started with Workfront
+author: Lisa
 exl-id: 4e7a4338-0b1a-4516-8604-e80f26714814
 ---
 # Adobe Workfront Search

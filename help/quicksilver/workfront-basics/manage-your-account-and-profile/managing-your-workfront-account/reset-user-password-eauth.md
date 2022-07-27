@@ -20,32 +20,34 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>System administrator </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
 ## Reset a user's password in an eAuth enabled environment
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
 
-1. ![](assets/main-menu-options-350x481.png)
+   ![](assets/main-menu-options-350x481.png)
 
 1. Select the **User** that requires a password reset.
-1. ![](assets/100520classicnweselectuser-350x105.png)
+   ![](assets/100520classicnweselectuser-350x105.png)
 
 1. Click the **More button** that appears after you've chosen the desired **User** and select the **Send Forgot Password Email** option from the drop-down menu.
 
-1. ![](assets/100520classicnwesendemail-350x134.png)
+   ![](assets/100520classicnwesendemail-350x134.png)
 
 After selecting the **Send Forgot Password Email** option, an email is sent to the selected user that contains instructions for them to change their own password.
 
