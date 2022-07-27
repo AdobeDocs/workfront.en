@@ -11,7 +11,7 @@ exl-id: 16205e28-92e3-4c90-afa5-35eb793b239b
 ---
 # Errors in Adobe Workfront Fusion
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
