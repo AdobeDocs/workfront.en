@@ -2,11 +2,12 @@
 content-type: api
 navigation-topic: general-api
 title: API basics
-description: The goal for the Adobe Workfront API is to simplify building integrations with Workfront by introducing a REST-ful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses and describes the approach taken by the Workfront API.
+description: API basics
 author: John
 feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
 ---
+
 # API basics
 
 The goal for the Adobe Workfront API is to simplify building integrations with Workfront by introducing a REST-ful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses and describes the approach taken by the Workfront API.
@@ -34,7 +35,14 @@ This section provides a high-level introduction of how to interact with the Work
 ### Object URI
 
 Each object in the system is given a unique URI consisting of the object type and the ID. The following examples show URIs describing three unique objects:
-<pre>/attask/api/v9.0/project/4c78821c0000d6fa8d5e52f07a1d54d0<br>/attask/api/v9.0/task/4c78821c0000d6fa8d5e52f07a1d54d1<br>/attask/api/v9.0/issue/4c78821c0000d6fa8d5e52f07a1d54d2</pre>The object type is case insensitive and can be either the abbreviated ObjCode (such as&nbsp;proj) or the alternate object name (project).
+
+```
+/attask/api/v9.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
+/attask/api/v9.0/task/4c78821c0000d6fa8d5e52f07a1d54d1
+/attask/api/v9.0/issue/4c78821c0000d6fa8d5e52f07a1d54d2
+```
+
+The object type is case insensitive and can be either the abbreviated ObjCode (such as&nbsp;proj) or the alternate object name (project).
 
 For a list of valid ObjCodes, see&nbsp; [API Explorer](../../wf-api/general/api-explorer.md).
 
@@ -55,7 +63,14 @@ In order to work around client deficiencies or protocol length limits, the metho
 ### Response
 
 Each request is given a response in JSON format. The response has&nbsp;either a data attribute if the request was successful or an error attribute if there was a problem. For example, the request
-<pre>GET /attask/api/v9.0/proj/4c7c08b20000002de5ca1ebc19edf2d5</pre>returns a JSON response similar to the following:
+
+```
+GET /attask/api/v9.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
+```
+
+returns a JSON response similar to the following:
+
+
 <pre>{<br>&nbsp;&nbsp;&nbsp;&nbsp;"data": [<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"percentComplete": 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"status": "CUR",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"priority": 2,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name": "Brand New Project",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <br>&nbsp;&nbsp;&nbsp;&nbsp;] <br>}</pre>
 
 >[!NOTE]
@@ -76,12 +91,18 @@ Authentication is performed by passing in a session ID which can be given using 
 The preferred method of authentication is to pass a request header named SessionID containing the session token. This has the advantage of being safe against [Cross-site Request Forgery (CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) attacks and not interfering with the URI for caching purposes.
 
 The following is an example of a request header:
-<pre>GET /attask/api/v9.0/project/search <br>SessionID: abc1234</pre>
+
+```
+GET /attask/api/v9.0/project/search <br>SessionID: abc1234
+```
 
 #### **Request Parameter Authentication**
 
 You can authenticate by passing a request parameter named sessionID, as shown in the following example:&nbsp;
-<pre>GET /attask/api/v9.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234</pre>
+
+```
+GET /attask/api/v9.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
+```
 
 #### **Cookie-Based Authentication**
 
@@ -113,7 +134,12 @@ The API uses the same cookie-based authentication that is used by the web UI to 
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Using a valid username and password, you can use the following request to obtain a session ID:
-<pre>POST&nbsp;/attask/api/v9.0/login?username=admin&password=user</pre>This sets a cookie to authenticate future requests as well as return a JSON response with the newly created sessionID, the userID of the logged in user, and other session attributes.
+
+```
+POST /attask/api/v9.0/login?username=admin&password=user
+```
+
+This sets a cookie to authenticate future requests as well as return a JSON response with the newly created sessionID, the userID of the logged in user, and other session attributes.
 
 >[!NOTE]
 >
@@ -122,23 +148,48 @@ Using a valid username and password, you can use the following request to obtain
 **Generating an API Key**
 
 You can generate&nbsp;an API Key when you log into the system as that user, as shown in the following example:
-<pre>PUT&nbsp;/attask/api/v9.0/user?action=generateApiKey&username= username&password=password&method=put</pre>**Retrieving a Previously-Generated API Key**
+
+
+```
+PUT /attask/api/v9.0/user?action=generateApiKey&username= username&password=password&method=put
+```
+
+**Retrieving a Previously-Generated API Key**
 
 You can also retrieve an API Key that has been previously generated for a particular user by running getApiKey:
-<pre>PUT&nbsp;/attask/api/v9.0/user?action=getApiKey&username=user@email.com&password=userspassword&method=put</pre>You can then use this result to authenticate any API call by adding "apiKey" as a request parameter with this value in place of a sessionID or username and password. This is beneficial from a security perspective.
+
+
+```
+PUT /attask/api/v9.0/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
+```
+
+You can then use this result to authenticate any API call by adding "apiKey" as a request parameter with this value in place of a sessionID or username and password. This is beneficial from a security perspective.
 
 The following request is an example of retrieving data from a project using the apiKey:
-<pre>GET /attask/api/v9.0/project/abc123xxxxx?apiKey=123abcxxxxxxxxx</pre>To learn more about viewing or managing your apiKey, see .
+
+```
+GET /attask/api/v9.0/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
+```
 
 **Invalidating an API Key**
 
 If the apiKey value has been compromised, you can run "clearApiKey" which invalidates the current API Key, as shown in the following example:
-<pre>GET /attask/api/v9.0/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put</pre>Once cleared, you can run getApiKey again to generate a new API Key.
+
+```
+GET /attask/api/v9.0/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put
+```
+
+Once cleared, you can run getApiKey again to generate a new API Key.
 
 ### Logout
 
 When a session is complete, you can use the following request to log the user out, preventing any further access with the sessionID.
-<pre>GET /attask/api/v9.0/logout?sessionID=abc1234</pre>The sessionID to be logged out can be specified either as a cookie, request header, or request parameter.
+
+```
+GET /attask/api/v9.0/logout?sessionID=abc1234
+```
+
+The sessionID to be logged out can be specified either as a cookie, request header, or request parameter.
 
 To log out a user:
 
@@ -164,18 +215,46 @@ You can enhance a search for objects using modifiers and filters.
 #### Retrieving an Object Using the Object ID
 
 If you know the ID of an object, you can retrieve the object by accessing its unique URI. For example, the request
-<pre>GET /attask/api/v9.0/project/4c78821c0000d6fa8d5e52f07a1d54d0</pre>returns a response similar to the following:
-<pre>{<br>&nbsp;&nbsp;&nbsp;&nbsp;"percentComplete": 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;"status": "CUR",<br>&nbsp;&nbsp;&nbsp;&nbsp;"priority": 2,<br>&nbsp;&nbsp;&nbsp;&nbsp;"name": "Brand New Project",<br>&nbsp;&nbsp;&nbsp;&nbsp;"ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>}</pre>You can retrieve multiple objects in the same request by specifying the id request parameter and giving a comma-separated list of IDs, as shown in the following example:
-<pre>GET /attask/api/v9.0/project?id=4c78...54d0,4c78...54d1</pre>Notice the /attask/api/v9.0/project?id=... request is the same as the /attask/api/v9.0/project/... request.
+
+```
+GET /attask/api/v9.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
+```
+
+returns a response similar to the following:
+
+<pre>{<br>&nbsp;&nbsp;&nbsp;&nbsp;"percentComplete": 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;"status": "CUR",<br>&nbsp;&nbsp;&nbsp;&nbsp;"priority": 2,<br>&nbsp;&nbsp;&nbsp;&nbsp;"name": "Brand New Project",<br>&nbsp;&nbsp;&nbsp;&nbsp;"ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>}</pre>
+
+
+You can retrieve multiple objects in the same request by specifying the id request parameter and giving a comma-separated list of IDs, as shown in the following example:
+
+
+```
+GET /attask/api/v9.0/project?id=4c78...54d0,4c78...54d1
+```
+
+Notice the /attask/api/v9.0/project?id=... request is the same as the `/attask/api/v9.0/project/...` request.
 
 #### Retrieving an Object Using the URI
 
 If you want to retrieve an object by criteria other than the ID, you can search for the URI.
 
 For example, you can use the following request to return a list of all the projects in the system:
-<pre>GET /attask/api/v9.0/project/search</pre>You can specify filters using the request parameters as name-value pairs. For example, the following example shows a request that would find all current projects:
-<pre>GET /attask/api/v9.0/project/search?status=CUR</pre>The following request finds all the tasks that are not yet complete and that are assigned to a user named John.
-<pre>GET /attask/api/v9.0/task/search?percentComplete=100 <br>&percentComplete_Mod=lt <br>&assignedTo:firstName=John</pre>
+
+```
+GET /attask/api/v9.0/project/search
+```
+
+You can specify filters using the request parameters as name-value pairs. For example, the following example shows a request that would find all current projects:
+
+```
+GET /attask/api/v9.0/project/search?status=CUR
+```
+The following request finds all the tasks that are not yet complete and that are assigned to a user named John.
+
+```
+GET /attask/api/v9.0/task/search?percentComplete=100
+&percentComplete_Mod=lt &assignedTo:firstName=John
+```
 
 #### Using Search Modifiers
 
