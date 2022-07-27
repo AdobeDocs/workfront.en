@@ -108,7 +108,7 @@ You must have the following to perform the steps in this article:
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If a prompt appears indicating that the user has restricted access to their account, contact the user to request access.<br></p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If a prompt appears indicating that the user has restricted access to their account, contact the user to request access.</p>
    -->
 
    <!--

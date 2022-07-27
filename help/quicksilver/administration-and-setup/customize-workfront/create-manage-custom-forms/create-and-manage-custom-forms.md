@@ -33,7 +33,7 @@ This section contains the following articles:
 * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md) 
 * [Delete object types on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
 
-## Manage and work with custom forms and custom fields
+## Manage custom forms and custom fields
 
 * [Referencing custom forms in a report](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md) 
 * [View all reports that use a particular custom field or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md) 
