@@ -197,14 +197,16 @@ Below are some types of object lists that you can find in Workfront and some of 
     <ul> 
      <li> <p>Projects &gt; select a project</p> </li> 
      <li> <p>Projects &gt; select a project &gt; Tasks &gt; select a task &gt; Hours</p> </li> 
-     <li> <p>Projects &gt; select a project &gt; Issues &gt; select an issue &gt; Hours</p> </li> 
+     <li> <p>Projects &gt; select a project &gt; Issues &gt; select an issue &gt; Hours</p> </li>
     </ul> </td> 
   </tr>
   <tr> 
    <td class="preview">List of custom forms</td> 
    <td> 
     <ul> 
-     <li class="preview"> <p>Setup &gt; Custom Forms</p> </li> 
+     <li class="preview"> <p>Setup &gt; Custom Forms</p>
+     <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
+     <p><b>NOTE</b>: This is currently available only in the Preview environment</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
