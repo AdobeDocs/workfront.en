@@ -1962,6 +1962,7 @@ feature-set: Workfront
     * [Workfront Proof modules](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
     * [Adobe Acrobat Sign modules](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
     * [Adobe Creative Cloud Libraries modules](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
+    * [Adobe Campaign Classic modules](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
     * [Adobe Experience Manager Assets modules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)    
     * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
     * [Adobe Target modules](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)

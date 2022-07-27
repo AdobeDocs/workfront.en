@@ -28,6 +28,7 @@ This section contains the following articles:
 * [Adobe Workfront modules](../../workfront-fusion/apps-and-their-modules/workfront-modules.md) 
 * [Workfront Proof modules](../../workfront-fusion/apps-and-their-modules/workfront-proof-modules.md) 
 * [Adobe Acrobat Sign modules](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
+* [Adobe Campaign Classic modules](../../workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md) 
 * [Adobe Creative Cloud Libraries moduels](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md) 
 * [Adobe Experience Manager Assets modules](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
 * [Adobe PDF Services modules](../../workfront-fusion/apps-and-their-modules/pdf-modules.md) 
