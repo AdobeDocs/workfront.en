@@ -22,8 +22,6 @@ Use the following voice commands to manage work in the mobile app:
 
 ### Show me, Find, Search for {#show-me-find-search-for}
 
-* [Examples](#examples)
-
 Use the show me command to see information about the following objects:
 
 <table style="table-layout:auto"> 
@@ -101,9 +99,7 @@ Use the show me command to see information about the following objects:
  </tbody> 
 </table>
 
-#### &nbsp; Examples {#examples}
-
-For a full list of virtual assistant commands, see 
+#### Examples {#examples}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -151,7 +147,7 @@ For a full list of virtual assistant commands, see
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colspan="2">Search my personal tasks</td> 
+   <td colspan="2"><strong>Search my personal tasks</strong></td> 
   </tr> 
   <tr> 
    <td> 
@@ -166,7 +162,7 @@ For a full list of virtual assistant commands, see
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colspan="2">Search my late items</td> 
+   <td colspan="2"><strong>Search my late items</strong></td> 
   </tr> 
   <tr> 
    <td> 
@@ -184,7 +180,7 @@ For a full list of virtual assistant commands, see
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colspan="2">Search for objects by assignee (Person/Team). Available only on iOS devices.</td> 
+   <td colspan="2"><strong>Search for objects by assignee (Person/Team). Available only on iOS devices.</strong></td> 
   </tr> 
   <tr> 
    <td> 
@@ -209,8 +205,6 @@ For a full list of virtual assistant commands, see
 
 ### Delete  {#delete}
 
-* [Examples](#examples)
-
 Use the delete command to delete the following object types:
 
 * Task
@@ -220,14 +214,12 @@ Use the delete command to delete the following object types:
 
 #### Examples {#examples-1}
 
-For a full list of virtual assistant commands, see 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td colspan="2">Delete object</td> 
+   <td colspan="2"><strong>Delete object</strong></td> 
   </tr> 
   <tr> 
    <td> 
@@ -254,9 +246,6 @@ Use the help command to view a list of available commands directly in the mobile
 ## Pin commands
 
 Use the pin feature to access saved virtual assistant commands as well as pins from your web browser. Once you pin a command, you can access it any time from the Pin area.
-
-* [Virtual assistant (VA)](#virtual-assistant-va) 
-* [Web browser](#web-browser)
 
 ### Virtual assistant (VA) {#virtual-assistant-va}
 

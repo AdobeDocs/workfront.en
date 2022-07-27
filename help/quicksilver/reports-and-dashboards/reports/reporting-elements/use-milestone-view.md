@@ -61,7 +61,7 @@ The Milestone view is available on project lists and project reports. This view 
 
 For information about how to switch to the Milestone view, see the section [Switch to the Milestone view](#switch-to-the-milestone-view) in this article.
 
-![project_with_milestone_view_with___complete.png](assets/project-with-milestone-view-with---complete-350x109.png)
+![Project with milestone view](assets/project-with-milestone-view-with-complete.png)
 
 When viewing a project list or project report in the Milestone view, the following information is available:
 

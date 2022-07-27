@@ -32,7 +32,7 @@ You can add up to three groupings to a report. You can organize your information
 
 In a standard grouping report, the first grouping is a darker color, the second and third groupings are lighter. You cannot customize the color of the highlight for your grouping, or the font of the grouping name. The number in parentheses after the name of the grouping represents the number of results under that grouping. If your report spans multiple pages, ensure that you display *All* the results in the report or list to get an accurate count for your results under each grouping.
 
-![](assets/screen-shot-2016-10-11-at-4.05.35-pm-350x43.png)
+![Sample grouping](assets/grouping-example-blue.png)
 
 Consider the following when working with groupings:
 
