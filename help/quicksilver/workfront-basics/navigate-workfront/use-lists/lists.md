@@ -4,6 +4,7 @@ title: Lists in Adobe Workfront
 description: Review these articles to learn how to use lists in Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
+author: Lisa
 exl-id: 71819834-2e2d-4bdd-8c82-a01d2849355e
 ---
 # Lists in Adobe Workfront
