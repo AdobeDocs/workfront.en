@@ -1,22 +1,18 @@
 ---
 title: Configure event notifications for everyone in the system
-description: Configure event notifications for everyone in the system
-author: Lisa
+description: Event notifications trigger emails to users when a certain event occurs. As an Adobe Workfront administrator or a user with a Planner access level, you can configure an event notification for all users in the system. Configuration of an event notification consists of activating or deactivating it.
+author: Caroline, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
 ---
 # Configure event notifications for everyone in the system
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS</p>
--->
+<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
 Event notifications trigger emails to users when a certain event occurs. As an Adobe Workfront administrator or a user with a Planner access level, you can configure an event notification for all users in the system. Configuration of an event notification consists of activating or deactivating it.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Alina annotation on the word "all" in 2nd sentence: abive, drafted and remains QS only</p>
--->
+<!--Alina annotation on the word "all" in 2nd sentence: abive, drafted and remains QS only-->
 
 Depending on the event you enable and the user keeps enabled on their own profile, users receive instant, daily, or both instant and daily email notifications when an event occurs.
 
@@ -66,7 +62,7 @@ You must enable notifications in the Setup area of Workfront before users can en
 1. Click **Email** > **Notifications**.
 
 1. Make sure the **Event Notifications** tab is open.
-1. .Click the switch to the left of the event name to turn it on or off.
+1. Click the switch to the left of the event name to turn it on or off.
 
    To see the default notification status for an event, see [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
 

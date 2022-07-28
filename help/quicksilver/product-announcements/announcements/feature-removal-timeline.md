@@ -18,7 +18,7 @@ Various features are being phased out of the Adobe Workfront product. Following 
  <col> 
  <tbody> 
   <tr> 
-   <td>Feature or product area</td> 
+   <td><b>Feature or product area</b></td> 
    <td><strong>Last release with new features</strong> </td> 
    <td> <p rowspan="2"><strong>Key dates</strong> </p> <p rowspan="2">&nbsp;</p> </td> 
   </tr> 
