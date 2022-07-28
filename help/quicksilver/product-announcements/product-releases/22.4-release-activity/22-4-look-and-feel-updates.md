@@ -4,8 +4,8 @@ description: 22.4 release activity: Week of July 18, 2022
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: e5c347ef-aa14-4607-bf30-11b2812ff40d
 ---
-
 # Look-and-feel updates during the 22.4 release timeframe
 
 This page describes minor updates to the look and feel of various areas of the Adobe Workfront application that were made within the 22.4 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview.
