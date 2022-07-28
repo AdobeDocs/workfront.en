@@ -84,7 +84,7 @@ You must have the following to perform the steps in this article:
       <td> 
        <ul> 
         <li> <p><b>Time Zone:</b> The user's time zone.</p> <p>For information about helping users collaborate in Workfront across time zones, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Working across time zones</a>.</p> </li> 
-        <li><b>Locale</b>: The user's preferred locale. This affects the format of numbers and dates in the emails that come from Workfront.</li> 
+        <li><b>Email Locale</b>: The user's preferred email locale. This affects the format of numbers and dates in the emails that come from Workfront.</li> 
         <li><b>Show percent complete on update status</b>: Check this option if you want to display a percent complete bar inside the Update area of this user's tasks.</li> 
         <li><b>Send work I assign to myself to my Working On tab</b>: Check this option if you want everything that the user assigns to themselves to appear directly on the Working On tab. The default is to list everything assigned to a user on their Work Request tab.</li> 
        </ul> </td> 
