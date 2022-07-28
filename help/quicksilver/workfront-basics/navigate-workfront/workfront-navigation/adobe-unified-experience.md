@@ -38,7 +38,7 @@ Your organization's instance of Workfront must be onboarded to the Adobe Busines
 
 ## Log in to Adobe Experience Cloud
 
-1. Open a browser window and go to <experience.adobe.com>.
+1. Open a browser window and go to <https://experience.adobe.com>.
 1. On the Sign in screen, type your email address and click **Continue**.
 
    ![Sign in to Adobe Experience Cloud](assets/aec-login-page.png)
