@@ -116,7 +116,6 @@ You must have the following to perform the steps in this article:
    -->
 
    <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
    This triggers an email to let you know that you have access to log in as the user, depending on how your event notifications are enabled. For more information, see <a href="../../../workfront-basics/using-notifications/event-notifications.md" class="MCXref xref">Event notifications</a>.
    </div>
    -->

@@ -48,17 +48,8 @@ You must have the following to perform the steps in this article:
 1. Click the **Fields** tab.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Or
-   <span data-mc-conditions="QuicksilverOrClassic.Draft mode"> [future]</span>
-   </p>
-   -->
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you are editing the properties for an image or video
-   DRAFTED IN FLARE:
-   widget
-   
-   , click the <b>Widget Library</b> tab.</p>
+   Or
+   If you are editing the properties for an image or video widget, click the <b>Widget Library</b> tab.</p>
    -->
 
 1. Select the custom field, section break, or widget, then click **Edit**.

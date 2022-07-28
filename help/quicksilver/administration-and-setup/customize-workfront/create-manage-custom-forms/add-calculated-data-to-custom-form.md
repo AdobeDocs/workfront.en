@@ -139,6 +139,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
    >* Find calculation errors, highlighted in pink, as you go. You can hover over a highlighted error to display a brief description of its cause.
    >  ![](assets/error-help.png) 
    >* In the area below your calculation, preview the results on an existing Workfront object.
+   <!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
    >  ![](assets/preview-calc.jpg)
    >* Reference expressions in a long calculation using the line numbers that display on the left.
 
@@ -199,27 +200,25 @@ Each field must use the syntax explained below, with curly brackets around each 
 
 * If you want the calculation to reference a built-in field, the name of the field must be surrounded by curly brackets.
 
-  >[!INFO]
-  >
-  >**Example:** `{actualRevenue}`
+For example: `{actualRevenue}`
+
+Field names are case-sensitive and must appear in the calculation exactly how they appear in the Workfront system.
 
 * If you want the calculation to reference a custom field, the name of the field must be surrounded by curly brackets, and preceded by `DE:` within the brackets.
 
-  >[!INFO]
-  >
-  >**Example:** `{DE:profit}`
+For example: `{DE:Profit}`
 
-  The system lists all of the custom fields you can choose from when you type when you type `DE:`.
+The system lists all of the custom fields you can choose from when you type `DE:`.  
 
-* If you want the calculation to reference a field that will pull data from  the parent object when the custom form is attached to an object, you must precede the field name with the object type of the parent object, also in curly brackets.
+* If you want the calculation to reference a field that will pull data from  the *parent* object when the custom form is attached to an object, you must precede the field name with the object type of the parent object, also in curly brackets.
 
-  For instance, if the custom form is configured to work with tasks, and you want the field to calculate the actual revenue of the parent object when the form is attached to a task, you need to indicate Project as the object type of the field, as in the first example shown below.
-
-  >[!INFO]
-  >
-  >**Example:** `{project}.{actualRevenue}`
-  >
-  >Or, if it's a custom field: `{project}.{DE:profit}`
+  For example, if the custom form is configured to work with tasks, and you want the field to calculate the actual revenue of the parent object when the form is attached to a task, you need to indicate `Project` as the object type of the field: 
+  
+  `{project}.{actualRevenue}`
+  
+  Or, if it's a custom field: 
+  
+  `{project}.{DE:profit}`
 
   If you're not sure what the object type of the parent object will be because the custom for is configured for multiple object types, you can use the wildcard filter variable `$$OBJCODE` to allow the calculation to work for each of the possible types. For more information, see [Calculated custom fields in multi-object custom forms](#calculated-custom-fields-in-multi-object-custom-forms) in this article.
 
@@ -227,27 +226,28 @@ Each field must use the syntax explained below, with curly brackets around each 
 
 When you reference a related object in a calculated custom field, you must separate object names and attributes with periods.
 
-  >[!INFO]
-  >
-  >**Example:**
-  >
-  >In a task-type custom form, to display the name of the Portfolio Owner in a calculated custom field, you would type the following: 
-  >
-  >`{project}.{porfolio}.{owner}`
-  >
-  >This would determine the following: From the object of the custom form (a task), you can access the next object related to the task (a project). From there, you can access the next related object to the project (a portfolio), then the next related object to the portfolio (the owner).
+For example, in a task-type custom form, to display the name of the Portfolio Owner in a calculated custom field, you would type the following: 
+
+`{project}.{porfolio}.{owner}`
+
+This would determine the following: From the object of the custom form (a task), you can access the next object related to the task (a project). From there, you can access the next related object to the project (a portfolio), then the next related object to the portfolio (the owner).
 
 ### Name syntax for referencing a custom field
 
 When you reference another custom field in a calculated custom field, you need to enter the name of the field appears as it displays in the Workfront user interface.
 
->[!INFO]
+For example, to reference the selected option in a custom field labeled Executive sponsor, you would type the following:
+
+`{DE:Executive sponsor}`
+
+>[!NOTE]
 >
->**Example:**
+>The syntax for a typeahead field is a bit different than it is for other types of fields because you need to add `:name` at the end.
 >
->To reference the selected option in a custom field labeled Executive sponsor, you would enter the following:
+>For example, to reference the selected option in a custom typeahead field named "Executive sponsor," you would type:
 >
->`{DE:Executive sponsor}`
+>`{DE:Executive sponsor:name}`
+
 
 ## Calculated custom fields in multi-object custom forms {#calculated-custom-fields-in-multi-object-custom-forms}
 

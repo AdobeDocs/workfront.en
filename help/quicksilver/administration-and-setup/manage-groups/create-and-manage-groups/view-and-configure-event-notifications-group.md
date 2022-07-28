@@ -97,9 +97,9 @@ You must have the following to perform the steps in this article:
      <!--
      This row is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added.
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <td role="rowheader"><span class="preview">Customize the email subject line of an event notification</span> </td> 
+       <td role="rowheader">Customize the email subject line of an event notification </td> 
        <td> 
-        <ol class="preview"> 
+        <ol> 
          <li value="1">Click the name of the event notification.</li> 
          <li value="2"> <p>In the <strong>Event Notification</strong> box that displays, in the <strong>Email Subject Line</strong> box, change the text and fields, including custom fields, then click <strong>Update</strong> to save the new subject lines for your emails.</p> <p><b>IMPORTANT</b>: The names of the fields added must match the camel case syntax of our database structure. <!--For more information about how our objects and their fields are named in the Workfront database, see the <a href="../../../wf-api/workfront-api.md" class="MCXref xref">Adobe Workfront API</a>.</p> <p>For more information about customizing the email subject line of an event notification, see <a href="../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md" class="MCXref xref">Customize email subjects for event notifications</a>. </p> </li> 
         </ol> </td> 
