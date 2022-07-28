@@ -1332,12 +1332,8 @@ feature-set: Workfront
     * [Reporting Canvas](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
     * Manage reports {#manage-reports}
       * [Manage Reports overview](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
-      * [Get started with Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/get-started-reports.md)
       * [Build a report in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-      * [List your reports in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/list-your-reports.md)
-      * [View a report in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/view-report.md)
       * [Export a report in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
-      * [Send a report in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/send-report.md)
     * Table Blocks {#table-blocks}
       * [Table Blocks](reports-and-dashboards/reporting-canvas/table-blocks/table-blocks.md)
       * [Add or edit a table block in Reporting Canvas](reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
@@ -1350,9 +1346,7 @@ feature-set: Workfront
       * [Add or edit a visualization block in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
       * [Configure a bar visualization in the Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
       * [Configure a column visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
-      * [Configure a line visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-line-visualization.md)
       * [Configure pie visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
-      * [Configure a bubble visualization in the Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bubble-visualization.md)
       * [Configure a KPI visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)
     * Other Blocks {#other-blocks}
       * [Other Blocks](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)

@@ -25,7 +25,7 @@ You can manage, share, and view information about the files (not proofs) uploade
 
 1. (Optional) If you have edit rights for the file, use the action buttons in the upper-right corner to manage and share the file:
 
-* **Tags**. Manage****tags&nbsp;applied to the file.  
+* **Tags**. Manage tags&nbsp;applied to the file.  
   ![](assets/tags-button.png)  
   Beneath the action buttons, you can view any tags applied to the file. You can remove an unwanted tag by clicking the x next to it.  
   ![](assets/view-file-tags-350x64.png)

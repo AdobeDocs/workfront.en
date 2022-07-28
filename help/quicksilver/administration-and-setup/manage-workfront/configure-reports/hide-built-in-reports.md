@@ -42,6 +42,6 @@ You must have the following access to perform the steps in this article:
 1. Select the access level for which you want to hide built-in reports, then click **Edit**.
 1. For the **Reports** object, click the **Settings** icon next to the highest level of access available, then deselect **View Built-In Reports**.
 
-   ![](assets/nwe-edit-access-level-350x295.png)
+   ![](assets/edit-access-level.png)
 
 1. Click **Save**.
