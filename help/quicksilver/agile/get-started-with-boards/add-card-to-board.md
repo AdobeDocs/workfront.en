@@ -91,21 +91,13 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
      </tr> 
     </tbody> 
    </table>
-   
-   Sample card in the Production environment:
-   ![Ad hoc card details](assets/boards-edit-ad-hoc-card.png)
 
-   <span class="preview">Sample card in the Preview environment:</span>
-   <span class="preview">![Ad hoc card details](assets/boards-edit-ad-hoc-card-071822.png)</span>
+   ![Ad hoc card details](assets/boards-edit-ad-hoc-card-071822.png)
 
 1. Click **Close** to add the card to the board.
 
    The assignees, tags, due date, checklist counter, and estimated hours are displayed on the card.
 
-   Sample card on a board in the Production environment:
-   ![Card added to board](assets/boards-sample-card-on-board.png)
-
-   Sample card on a board in the Preview environment:
    ![Card added to board](assets/boards-sample-card-on-board-071822.png)
 
 ## Quick add an ad hoc card
