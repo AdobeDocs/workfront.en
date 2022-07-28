@@ -278,7 +278,6 @@ feature-set: Workfront
     * [Announcements](product-announcements/announcements/announcements.md)
     * [Learn about the latest improvements in Adobe Workfront One](product-announcements/announcements/latest-improvements-wfone.md)
     * [Custom form enhancements](product-announcements/announcements/custom-form-enhancements.md)
-    * [View documentation resources for the new Adobe Workfront experience](product-announcements/announcements/view-nwe-documentation.md)
     * [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
     * [Remove custom SMTP as an outgoing email option](product-announcements/announcements/remove-custom-smtp.md)
     * [Customers on Clusters 1, 2, and 3 must update any allowlist IP blocks to prevent the blocking of Adobe Workfront services](product-announcements/announcements/clusters-1-3-update-whitelist.md)
