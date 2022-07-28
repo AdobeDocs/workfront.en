@@ -170,7 +170,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
-                        <p>Look-and-feel updates during the 22.4 release timeframe<p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-enhancements.md" class="MCXref xref" xrefformat="{para}">Deactivate a group from the Groups page</a> </p>
+                        <p>Look-and-feel updates during the 22.4 release timeframe<p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Deactivate a group from the Groups page</a> </p>
                         <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the 22.4 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
                     </td>
                     <td><span class="bold">Available on these dates:</span>
