@@ -77,9 +77,7 @@ You can configure the following integrations for managing documents:
    * Microsoft OneDrive
    * Google Drive
 
-     <!--   
-     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">Quip</li>   
-     -->
+     <!--Quip-->
 
   >[!TIP]
   >

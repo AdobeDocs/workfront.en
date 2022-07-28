@@ -112,10 +112,10 @@ You must have the following:
       <td role="rowheader"> <p role="rowheader">Start approval process when the status is set to</p> </td> 
       <td> <p>Select the status that will trigger the approval process on work items. When someone updates a work item to this status, its approval process begins. </p> <p>The same status cannot be selected for multiple approval process paths.</p> <p>The statuses available are based on what is selected under the option <b>This approval can be used by</b> (explained in the table above):</p> 
        <ul> 
-        <li> If <b>All groups</b> is selected, only system-wide locked statuses are available<!--
-          <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> - remove "locked" when story about using an unlocked status in approval processes goes to preview</span>
-         --></li> 
-        <li> <p>If a specific group is selected, only the statuses available for that group are available</p> </li> 
+      <li> If <b>All groups</b> is selected, only system-wide locked statuses are available
+      <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
+      </li> 
+      <li> <p>If a specific group is selected, only the statuses available for that group are available</p> </li> 
        </ul> <p>For information about how approval process work with statuses, see the section <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">How approval processes rely on statuses</a> in the article <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </td> 
      </tr> 
      <tr> 

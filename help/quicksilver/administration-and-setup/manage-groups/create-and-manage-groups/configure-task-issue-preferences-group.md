@@ -76,7 +76,7 @@ You must have the following to perform the steps in this article:
    * [Actual Dates](#actual-dates)
 
      <!--   
-     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>   
+     <li><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>   
      -->   
    
    * [Access](#access)

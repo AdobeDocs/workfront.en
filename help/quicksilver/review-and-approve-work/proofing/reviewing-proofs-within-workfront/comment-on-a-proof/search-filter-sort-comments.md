@@ -155,7 +155,7 @@ When you sort the comment list, the sort option you choose is remembered the nex
       <td>Available only for video proofs.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Device (up)</strong> </td> 
+      <td role="rowheader">Device (up)</td> 
       <td>Displays comments in order according to the device selected when the comment was made. Comments made on lower resolutions display first.</td> 
       <td>Available only for interactive proofs.</td> 
      </tr> 

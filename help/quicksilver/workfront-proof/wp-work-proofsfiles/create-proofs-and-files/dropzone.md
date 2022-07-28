@@ -82,7 +82,7 @@ This article explains the following about the Dropzone:
 
 ## Completing Your Submission
 
-Workfront sends you (the submitter) a Complete your submission email asking you to confirm whether the file was a new proof or a new version. The link in the email notification is valid for 24 hours.****
+Workfront sends you (the submitter) a Complete your submission email asking you to confirm whether the file was a new proof or a new version. The link in the email notification is valid for 24 hours.
 
 1. Click the link and follow the steps above, depending on whether it is a new proof or a new version of an existing proof.
 
