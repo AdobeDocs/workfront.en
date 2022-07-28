@@ -139,7 +139,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
    >* Find calculation errors, highlighted in pink, as you go. You can hover over a highlighted error to display a brief description of its cause.
    >  ![](assets/error-help.png) 
    >* In the area below your calculation, preview the results on an existing Workfront object.
-   <!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
+   ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
    >  ![](assets/preview-calc.jpg)
    >* Reference expressions in a long calculation using the line numbers that display on the left.
 
