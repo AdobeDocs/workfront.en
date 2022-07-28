@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Manage email invitations to new users
 description: Manage email invitations to new users
-author: Lisa
+author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b

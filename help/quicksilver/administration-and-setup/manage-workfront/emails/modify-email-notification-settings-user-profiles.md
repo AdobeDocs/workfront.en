@@ -5,7 +5,7 @@ keywords: modify,email,notification,settings,bulk,bulk-edit,configure,multiple,u
 navigation-topic: emails-administration
 title: Modify email notification settings in users' profiles
 description: If you are an Adobe Workfront administrator or you have a Planner access level allowing you to edit other users' settings, you can configure the notification settings for multiple users at one time. This includes specifying whether users receive notifications as events happen, or in one daily digest email, as described in Adobe Workfront notifications. For information about the access level needed to edit users, see Grant access to users.
-author: Lisa
+author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
 ## Modify the email notification settings of multiple users in bulk
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). Select the users, then click **Edit**. 
-1. In the**Edit Person** box that appears, click **Notifications**.
+1. In the **Edit Person** box that appears, click **Notifications**.
 
 1. Expand a category to view notification settings related to that category.
 
