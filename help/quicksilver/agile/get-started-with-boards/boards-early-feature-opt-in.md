@@ -18,7 +18,7 @@ For general information about boards, see [Boards overview](/help/quicksilver/ag
 ## Release schedule
 
 * Early feature opt-in launch in Preview: July 22, 2022
-* Official release: TBD
+* Official release: July 28, 2022
 
 ## Features
 
@@ -27,8 +27,8 @@ The following table outlines major features of boards along with their current r
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <th>Feature description or name</th>
-   <th>Status</th> 
+   <th><strong>Feature description or name</strong></th>
+   <th><strong>Status</strong></th> 
   </tr>
   <tr>
    <td>Boards area in the Main Menu</td>
@@ -59,11 +59,11 @@ The following table outlines major features of boards along with their current r
    <td>Released</td>
   </tr>
   <tr>
-   <td>Work in Progress limits</td>
+   <td>Add Work in Progress limits</td>
    <td>Partially released</td>
   </tr>
   <tr>
-   <td>Manual estimations on cards</td>
+   <td>Add manual estimations on cards</td>
    <td>Partially released</td>
   </tr>
   <tr>
@@ -72,6 +72,10 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Create a column connected to a Workfront project</td>
+   <td>Planned</td>
+  </tr>
+  <tr>
+   <td>Add checklist item details</td>
    <td>Planned</td>
   </tr>
  </tbody> 

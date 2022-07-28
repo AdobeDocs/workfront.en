@@ -12,7 +12,9 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * 22.4 Release {#release-22-4}
+      * [22.4 Release overview](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
       * [22.4 Release activity: Week of July 18, 2022](product-announcements/product-releases/22.4-release-activity/22-4-july-18.md)
+      * [22.4 Look and feel updates](product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md)
     * 22.3 Release {#release-22-3}
       * [22.3 Release overview](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
       * [22.3 Administrator enhancements](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
@@ -277,7 +279,6 @@ feature-set: Workfront
     * [Announcements](product-announcements/announcements/announcements.md)
     * [Learn about the latest improvements in Adobe Workfront One](product-announcements/announcements/latest-improvements-wfone.md)
     * [Custom form enhancements](product-announcements/announcements/custom-form-enhancements.md)
-    * [View documentation resources for the new Adobe Workfront experience](product-announcements/announcements/view-nwe-documentation.md)
     * [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
     * [Remove custom SMTP as an outgoing email option](product-announcements/announcements/remove-custom-smtp.md)
     * [Customers on Clusters 1, 2, and 3 must update any allowlist IP blocks to prevent the blocking of Adobe Workfront services](product-announcements/announcements/clusters-1-3-update-whitelist.md)
@@ -720,7 +721,6 @@ feature-set: Workfront
     * Use the Home area {#use-home-area}
       * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
-      * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
       * [Display items in the Work List in the Home area](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
       * [Prioritize work in the Home area](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
       * [Manage work and team requests in the Home area](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
@@ -730,9 +730,10 @@ feature-set: Workfront
       * [Mark an item as Done in the Home area](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
       * [Home Calendar view](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
       * [Configure your Home Calendar view settings](workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
+      * [Home area for Reviewers](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
       * [Use the Home Calendar view](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
       * [View the Home Calendar](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
-      * [Home area for Reviewers](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
+      * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
   * Update work items and view updates {#update-work-items-view-updates}
     * [Update work items and view updates](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Updates tab overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -1323,7 +1324,7 @@ feature-set: Workfront
     * [Team requests overview](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
     * [Manage work and team requests](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
   * Tips, tricks, and troubleshooting for people, teams, and groups {#tips-tricks-people-teams-groups}
-    * [Tips, Tricks, and Troubleshooting for People, Teams, and Groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
+    * [Tips, Tricks, and Troubleshooting for Teams and Groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
     * [Username Already in Use](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Reporting {#reporting}
   * [Reporting](reports-and-dashboards/reports-and-dashboards-overview.md)
@@ -1331,12 +1332,8 @@ feature-set: Workfront
     * [Reporting Canvas](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
     * Manage reports {#manage-reports}
       * [Manage Reports overview](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
-      * [Get started with Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/get-started-reports.md)
       * [Build a report in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-      * [List your reports in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/list-your-reports.md)
-      * [View a report in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/view-report.md)
       * [Export a report in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
-      * [Send a report in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/send-report.md)
     * Table Blocks {#table-blocks}
       * [Table Blocks](reports-and-dashboards/reporting-canvas/table-blocks/table-blocks.md)
       * [Add or edit a table block in Reporting Canvas](reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
@@ -1349,9 +1346,7 @@ feature-set: Workfront
       * [Add or edit a visualization block in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
       * [Configure a bar visualization in the Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
       * [Configure a column visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
-      * [Configure a line visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-line-visualization.md)
       * [Configure pie visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
-      * [Configure a bubble visualization in the Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bubble-visualization.md)
       * [Configure a KPI visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)
     * Other Blocks {#other-blocks}
       * [Other Blocks](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
@@ -1868,11 +1863,6 @@ feature-set: Workfront
     * [Change profile settings in Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
     * [Delete user data In Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/delete-user-data.md)
     * [Adobe Workfront Fusion FAQ](workfront-fusion/workfront-fusion-basics/faq.md)
-  * Adobe Workfront Fusion in the Adobe Admin Console {#workfront-fusion-admin-console}
-    * [Adobe Workfront Fusion in the Adobe Admin Console](workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md)
-    * [Add users to Adobe Workfront Fusion through the Adobe Admin Console](workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
-    * [Delete users in Adobe Workfront Fusion through the Adobe Admin Console](workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
-    * [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
   * Connections in Adobe Workfront Fusion {#connections-in-fusion}
     * [Connections in Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
     * [About connecting Adobe Workfront Fusion to an app or service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)

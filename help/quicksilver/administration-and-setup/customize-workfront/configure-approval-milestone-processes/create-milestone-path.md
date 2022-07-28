@@ -58,13 +58,24 @@ For more information on how you can associate a milestone path with a project an
 1. Click **New Milestone Path.**
 1. Specify the following information in the **Basic Info** area:
 
-   | Milestone Path Name |Enter a name for the milestone path. |
-   |---|---|
-   | Description |Enter a description to define the milestone path. |
-   | **Is Active** |Select this checkbox if you want the milestone path to be active. Other users can find this path and attach it to projects when creating or editing projects. Inactive milestone paths cannot be attached to projects. This is enabled by default. |
-   | Groups |Select the groups listed to allow users in these groups to see and apply this milestone path to their projects. The home group of the user entering the milestone path is selected by default. |
-
-   {style="table-layout:auto"}
+   <table style="table-layout:auto">
+    <tr>
+      <td>Milestone Path Name</td>
+       <td>Enter a name for the milestone path.</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>Enter a description to define the milestone path.</td>
+    </tr>
+    <tr>
+       <td>Is Active</td>
+      <td>Select this checkbox if you want the milestone path to be active. Other users can find this path and attach it to projects when creating or editing projects. Inactive milestone paths cannot be attached to projects. This is enabled by default.</td>
+    </tr>
+    <tr>
+      <td>Groups</td>
+      <td>Select the groups listed to allow users in these groups to see and apply this milestone path to their projects. The home group of the user entering the milestone path is selected by default.</td>
+    </tr>
+   </table>
 
 1. Specify the following information in the **Milestones** area:
 
@@ -77,7 +88,7 @@ For more information on how you can associate a milestone path with a project an
       <td>Type descriptive names for each milestone.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Description</strong> </td> 
+      <td role="rowheader">Description</td> 
       <td>Type a description for the milestone.</td> 
      </tr> 
      <tr> 

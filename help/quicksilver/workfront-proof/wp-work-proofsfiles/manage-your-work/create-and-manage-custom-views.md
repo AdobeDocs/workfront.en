@@ -65,10 +65,7 @@ To create a custom view:
 
       <table style="table-layout:auto">
       <thead>  
-      <tr>   
-      <th><strong>Column</strong></th>   
-      <th><strong>Function</strong></th>
-      </tr> 
+     
       </thead>
       <tbody>  
       <tr>   
@@ -284,7 +281,10 @@ You can edit a custom view easily. To edit a custom view:
 
 ![Edit_custom_view_page.png](assets/edit-custom-view-page-350x543.png)
 
-**NOTE**If you edit your Custom view, the&nbsp;columns in Selected columns list will arrange in an alphabetical order automatically. You will need to rearrange them if needed before updating the view.
+>[!NOTE]
+>
+>If you edit your Custom view, the columns in Selected columns list will arrange in an alphabetical order automatically. You will need to rearrange them if needed before updating the view.
+
 
 ## Copying Custom Views
 

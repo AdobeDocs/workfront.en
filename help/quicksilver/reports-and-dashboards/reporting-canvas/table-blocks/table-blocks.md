@@ -3,7 +3,6 @@ content-type: reference
 product-area: reporting
 navigation-topic: reporting-canvas
 title: Table Blocks
-description: This section contains the following articles - EDIT ME.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2b4e1515-01fa-494f-9a1b-abd148afe0b0

@@ -42,11 +42,11 @@ You can add an automated workflow to a proof when uploading the document, or aft
 1. Specify the following information to configure&nbsp;the first stage of the Automated Workflow:
 
    * **Name:** The stage name appears on the Workflow diagram and is included in the email notifications sent to reviewers.
-   * **Deadline:**The functionality of this field differs depending on what option you select in the **Deadline calculated from** drop-down list.
+   * **Deadline:** The functionality of this field differs depending on what option you select in the **Deadline calculated from** drop-down list.
    
-   * **From proof creation:**Select the deadline date for the proof.
-   * **From stage activation:**Select the number of business days that will be added to the stage activation date to automatically set a deadline on the proof.
-   * **Activate stage:**For each stage of your Workflow, you can decide when it should be activated. For your first stage, the following options are available.
+   * **From proof creation:** Select the deadline date for the proof.
+   * **From stage activation:** Select the number of business days that will be added to the stage activation date to automatically set a deadline on the proof.
+   * **Activate stage:** For each stage of your Workflow, you can decide when it should be activated. For your first stage, the following options are available.
 
       * On proof creation
       * On a specific time and date
@@ -57,18 +57,18 @@ You can add an automated workflow to a proof when uploading the document, or aft
       * All decisions are Approved
       * All decisions are made
 
-   * **Deadline calculated from:**The option you select in this drop-down list affects what options are available in the&nbsp;**Deadline**field.
+   * **Deadline calculated from:** The option you select in this drop-down list affects what options are available in the&nbsp;**Deadline**field.
    
-   * **Proof creation:**In the&nbsp;**Deadline**field, select the deadline date for the proof.
+   * **Proof creation:** In the&nbsp;**Deadline**field, select the deadline date for the proof.
    
-   * **Stage activation:**In the&nbsp;**Deadline**field, select the number of business days that will be added to the stage activation date to automatically set a deadline on the proof.
+   * **Stage activation:** In the&nbsp;**Deadline**field, select the number of business days that will be added to the stage activation date to automatically set a deadline on the proof.
    
-   * **Lock stage:**Select when the stage can be locked. 
-   * **Primary decision maker:**Select the Primary decision maker on the stage. Decision makers are available&nbsp;in the drop-down list only after you add&nbsp;reviewers to the stage.
-   * **Only one decision required:**Select this option for the review to be&nbsp;completed after one of the decision makers makes their decision.  
-     This option is not available if you designated a user in the&nbsp;**Primary decision maker**drop-down menu.
+   * **Lock stage:** Select when the stage can be locked. 
+   * **Primary decision maker:** Select the Primary decision maker on the stage. Decision makers are available&nbsp;in the drop-down list only after you add&nbsp;reviewers to the stage.
+   * **Only one decision required:** Select this option for the review to be&nbsp;completed after one of the decision makers makes their decision.  
+     This option is not available if you designated a user in the&nbsp;**Primary decision maker** drop-down menu.
    
-   * **Private stage:**When this option is selected,&nbsp;comments and decisions are not visible to people who are not added to this stage or are not Supervisors, Administrators, or Billing Administrators in the account
+   * **Private stage:** When this option is selected,&nbsp;comments and decisions are not visible to people who are not added to this stage or are not Supervisors, Administrators, or Billing Administrators in the account
 
 1. (Optional) Add reviewers to the stage.
 1. Consider the following when&nbsp;adding reviewers:

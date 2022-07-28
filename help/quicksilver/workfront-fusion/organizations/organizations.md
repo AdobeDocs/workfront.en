@@ -11,7 +11,7 @@ exl-id: c777b9e7-87cd-428f-9980-ef556f30e70f
 ---
 # Organizations in Adobe Workfront Fusion
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 

@@ -3,7 +3,7 @@ filename: tips-troubleshoot-api
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: workfront-api
 title: Tips, tricks, and troubleshooting for Adobe Workfront API
-description: This section contains the following articles - EDIT ME.
+description: Tips, tricks, and troubleshooting for Adobe Workfront API
 author: John
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
 ---

@@ -11,7 +11,7 @@ exl-id: 31612996-988c-450c-8a1e-eb6c77f74692
 ---
 # Mapping in Adobe Workfront Fusion
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 

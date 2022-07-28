@@ -55,7 +55,7 @@ You can find the following information on the Proof details page. If you have ed
    
    * **Owner:** The person who owns the proof. You can choose a different owner for the proof here. For more information, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
    
-   * **Delegated:******If the Out of office&nbsp;function is enabled, the delegated owner of the proof displays. For more information, see [Designating Temporary Proof Owners in Workfront Proof](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
+   * **Delegated:** If the Out of office function is enabled, the delegated owner of the proof displays. For more information, see [Designating Temporary Proof Owners in Workfront Proof](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
    
    * **Created:** Time and date when the proof was uploaded.
    * **State:**&nbsp;Current state&nbsp;of the proof. You can change the state of the proof here. For more information, see [View the Progress and Status of a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).

@@ -12,7 +12,7 @@ exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
 ---
 # Use Mutual TLS in HTTP modules in Adobe Workfront Fusion
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
