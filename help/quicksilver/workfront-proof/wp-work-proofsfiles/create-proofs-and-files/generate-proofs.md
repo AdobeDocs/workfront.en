@@ -109,11 +109,11 @@ Workfront Proof enables you to create proofs from documents or websites, and sha
      </tr> 
      <tr> 
       <td role="rowheader">Lock proof when all required decisions are made</td> 
-      <td> <p><strong>:</strong>&nbsp;When this setting is enabled, the proof state is locked after all decisions have been made. The state is automatically changed from unlocked to locked when the final approver makes their decision.</p> <p>This option is disabled by default.</p> </td> 
+      <td> <p><strong></strong>&nbsp;When this setting is enabled, the proof state is locked after all decisions have been made. The state is automatically changed from unlocked to locked when the final approver makes their decision.</p> <p>This option is disabled by default.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Download original file</td> 
-      <td> <p><strong>:</strong>&nbsp;When this option is selected, reviewers are able to download the original file from which the proof was created.</p> <p>When this option is deselected, the Download icon is no longer visible.<br>This option is enabled by default.</p> </td> 
+      <td> <p><strong></strong> When this option is selected, reviewers are able to download the original file from which the proof was created.</p> <p>When this option is deselected, the Download icon is no longer visible.<br>This option is enabled by default.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Share proof via public URL or embed code</td> 
@@ -244,7 +244,7 @@ For information about how to add an interactive URL proof, see  [Generate a proo
    
    * Submit via Dropzone (Enterprise feature).
 
-1. In the **New proof** page that appears, drag and drop your interactive .zip bundle into the&nbsp;**Add files**area.
+1. In the **New proof** page that appears, drag and drop your interactive .zip bundle into the&nbsp;**Add files** area.
 
 1. (Optional) Configure any advanced proofing options, such as sharing the proof, adding an automated workflow, or setting up access and subscription settings. For more details about these options, see the following articles:
 
@@ -252,8 +252,8 @@ For information about how to add an interactive URL proof, see  [Generate a proo
    * in the article 
    * [Configure access and subscription settings for a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
-1. Click&nbsp;**Create Proof**.
+1. Click **Create Proof**.
 
    Workfront&nbsp;begins generating a proof of the .zip bundle. Depending on the bundle size, the lag time on a document upload varies. Larger files take longer to generate. You can navigate away from the page and Workfront&nbsp;continues to generate your file.&nbsp;The maximum file upload size is 4GB.
 
-   After the proof generates, you can click the **Go to proof**button that appears to open the proof.
+   After the proof generates, you can click the **Go to proof** button that appears to open the proof.
