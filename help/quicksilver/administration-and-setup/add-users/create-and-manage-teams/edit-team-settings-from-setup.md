@@ -59,10 +59,9 @@ You must have the following access to perform the steps in this article:
       <td>Type a name for the team.</td> 
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <td role="rowheader"><span class="preview">Is Active</span> </td> 
-       <td><span class="preview">New and existing teams have this box checked by default. Uncheck this box to deactivate the team. For more information, see <a href="../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md" class="MCXref xref">Deactivate a team</a></span> </td> 
+       <td role="rowheader">Is Active </td> 
+       <td>This option is enabled for new and existing teams by default. Disable it to deactivate the team. For more information, see <a href="../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md" class="MCXref xref">Deactivate a team</a> </td> 
       </tr>
-     --> 
      <tr> 
       <td role="rowheader">Group</td> 
       <td> <p>Associate the team with a group. Start typing the name of the group, then select the name when it appears.</p> <p><b>NOTE</b>: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> <p>You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> </td> 
@@ -74,7 +73,7 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td role="rowheader">Team Members</td> 
       <td> <p>Add and team members. Start typing the name of a user, then select the name when it appears. Repeat this process to add multiple users to the team.</p> 
-      <p><b>Tip</b>: You can add any number of users to a team. However, we recommend that you dont' add an excessively large number in one team, because the team's work management might become too complex.</p> </td> 
+      <p><b>TIP</b>: You can add any number of users to a team. However, we recommend that you dont' add an excessively large number in one team, because the team's work management might become too complex.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
