@@ -131,10 +131,6 @@ You must have the following access to perform the steps in this article:
 1. Click **Close** to return to the board.
    The connected object, assignees, tags, due date, checklist counter, and estimated hours are displayed on the card.
    
-   Sample card on a board in the Production environment:
-   ![Connected card on board showing details](assets/boards-connected-card-details.png)
-
-   Sample card on a board in the Preview environment:
    ![Connected card on board showing details](assets/boards-connected-card-details-071822.png)
 
 ## Disconnect a connected card
