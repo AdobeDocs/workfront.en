@@ -10,7 +10,7 @@ exl-id: e5c347ef-aa14-4607-bf30-11b2812ff40d
 
 This page describes minor updates to the look and feel of various areas of the Adobe Workfront application that were made within the 22.4 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview.
 
-For a list of all changes available with the 22.4 release, see 22.4 Release overview.
+For a list of all changes available with the 22.4 release, see [22.4 Release overview](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Updated lists in the Custom Forms area
 
