@@ -159,7 +159,7 @@ To modify a approval process already attached to an item:
 
 1. After the global approval process is added, click the **Edit**icon ![](assets/edit-icon.png) in the upper-right corner of the approval page. This action turns the global or group-level approval process into a single-use approval process. 
 1. Make any changes to the existing approval process. For more information, see the section [Associate a single-use approval process with a project, task, issue, template, or template task](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task) in this article. 
-1. Click **Save**, then click**Save** again to confirm that you want to convert the global approval process to a single-use approval process that is available only on this object.
+1. Click **Save**, then click **Save** again to confirm that you want to convert the global approval process to a single-use approval process that is available only on this object.
 
 ## Associate a single-use approval process with a project, task, issue, template, or template task {#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task}
 
