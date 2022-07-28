@@ -2,21 +2,21 @@
 title: Set up reminder notifications
 description: Set up reminder notifications
 author: Lisa
-draft: Probably
 feature: System Setup and Administration
 role: Admin
+exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
 ---
 # Set up reminder notifications
 
 Reminder notifications send emails to recipients based on specified criteria. As an Adobe Workfront administrator or a user with a Planner access level and administrative access to reminder notifications, you can manually associate reminder notifications with your work items, such as projects, tasks, issues, and timesheets. 
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<span style="color: #ff1493;">An example of how this can be used would be helpful here and/or in the section </span>
-<a href="../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications" style="color: #ff1493;" class="MCXref xref">Reminder notifications</a>
-<span style="color: #ff1493;"> in </span>
-<a href="../../../workfront-basics/using-notifications/wf-notifications.md" style="color: #ff1493;" class="MCXref xref">Adobe Workfront notifications</a>
-</MadCap:conditionalText>
+DRAFTED IN FLARE:
+An example of how this can be used would be helpful here and/or in the section </span>
+<a href="../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications" class="MCXref xref">Reminder notifications</a>
+ in </span>
+<a href="../../../workfront-basics/using-notifications/wf-notifications.md" class="MCXref xref">Adobe Workfront notifications</a>
+
 -->
 
 ## Access requirements
@@ -29,11 +29,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -50,19 +50,19 @@ You can customize the reminder notification with a custom email that includes a 
 
 Or, you can use the default email included with the reminder notification. The default email uses the reminder notification name as the email subject and the object name in the email body, including the event that triggered the notification.
 
-If you want to customize the reminder email, you need to&nbsp;create&nbsp;an email template and attach&nbsp;it to the reminder notification.
+If you want to customize the reminder email, you need to create an email template and attach it to the reminder notification.
 
 For information about how to create an email template, see [Configure email templates](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
 
-## Create&nbsp;a reminder notification
+## Create a reminder notification
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. Click **Email** > **Notifications**.
 
-1. Click the **Reminder Notifications**&nbsp;tab, then click **New Reminder Notification**.
+1. Click the **Reminder Notifications** tab, then click **New Reminder Notification**.
 
-1. In the drop-down list, click&nbsp;the&nbsp;object type you want to associate with the reminder notification.
+1. In the drop-down list, click the object type you want to associate with the reminder notification.
 
    For example, if you want to attach a reminder notification to a timesheet, click **Timesheet**.
 
@@ -91,21 +91,21 @@ For information about how to create an email template, see [Configure email temp
      </tr> 
      <tr> 
       <td role="rowheader">Criteria</td> 
-      <td> <p>Select the criteria to qualify the reminder notification to be scheduled. Reminder notifications are not scheduled unless the criteria selection is met.</p> <p>The following criteria options are available, depending on the object type that you&nbsp;selected in Step 4:</p> 
+      <td> <p>Select the criteria to qualify the reminder notification to be scheduled. Reminder notifications are not scheduled unless the criteria selection is met.</p> <p>The following criteria options are available, depending on the object type that you selected in Step 4:</p> 
        <ul> 
-        <li><strong>Incomplete in Current Projects:</strong>&nbsp;(Available for task and issue reminders) The reminder notification is scheduled to be sent only when the object status that the reminder notification is associated with is not Complete and the project status is Current.</li> 
+        <li><strong>Incomplete in Current Projects:</strong> (Available for task and issue reminders) The reminder notification is scheduled to be sent only when the object status that the reminder notification is associated with is not Complete and the project status is Current.</li> 
         <li><strong>All in Current Projects:</strong>(Available for task and issue reminders) The reminder notification is scheduled to be sent regardless of the object status and only when the project status that the reminder notification is associated with is Current.</li> 
         <li><strong>Incomplete Projects:</strong> (Available for project reminders) The reminder notification is scheduled to be sent when the project status is anything but Complete.</li> 
         <li><strong>Complete Projects:</strong> (Available for project reminders) The reminder notification is scheduled to be sent when the project status is Complete.</li> 
         <li><strong>Open Timesheets:</strong> (Available for timesheet reminders) The reminder notification is scheduled to be sent when the timesheet status is Open.</li> 
         <li><strong>Submitted Timesheets:</strong> (Available for timesheet reminders) The reminder notification is scheduled to be sent when the timesheet status is Submitted.</li> 
         <li><strong>Open Timesheet or Less than 40 Hours per Week:</strong> (Available for timesheet reminders) The reminder notification is scheduled to be sent when the timesheet status is Open or when the timesheet has less than 40 hours logged.</li> 
-        <li><strong>Email Template:</strong>&nbsp;From the drop-down, select an email template to attach to your reminder.<br>For information on how to build an email template, refer to <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configure email templates</a>.</li> 
+        <li><strong>Email Template:</strong> From the drop-down, select an email template to attach to your reminder.<br>For information on how to build an email template, refer to <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configure email templates</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Recipients</td> 
-      <td>Select the types of&nbsp;users you want to&nbsp;receive the notification. Select from various object stakeholders, such as owner, approver, or assignee.</td> 
+      <td>Select the types of users you want to receive the notification. Select from various object stakeholders, such as owner, approver, or assignee.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -115,24 +115,23 @@ For information about how to create an email template, see [Configure email temp
 
 ## Receive a reminder notification
 
-When the condition is met on the item which has&nbsp;the reminder notification attached, an email notification is triggered to the user defined in the reminder notification.
+When the condition is met on the item which has the reminder notification attached, an email notification is triggered to the user defined in the reminder notification.
 
-For more information about receiving&nbsp;reminder notifications, see the [Reminder notifications](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) section in [Adobe Workfront notifications](../../../workfront-basics/using-notifications/wf-notifications.md).
+For more information about receiving reminder notifications, see the [Reminder notifications](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) section in [Adobe Workfront notifications](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Test reminder notification delivery
 
-Reminder notifications trigger every night at midnight, Mountain Time. All the objects that qualify for a reminder notification trigger a notification to the designated users shortly&nbsp;after that.
+Reminder notifications trigger every night at midnight, Mountain Time. All the objects that qualify for a reminder notification trigger a notification to the designated users shortly after that.
 
-To cause reminder notifications to trigger manually, the condition for the reminder&nbsp;must first be met.  
-For instance, if a reminder is set to trigger an hour after the Planned Completion Date&nbsp;of a project, that time must&nbsp;have passed between when the reminder was set and now.&nbsp;Any projects that had planned completion dates passed before the reminder was activated will not trigger a notification.
+To cause reminder notifications to trigger manually, the condition for the reminder must first be met.  
+For instance, if a reminder is set to trigger an hour after the Planned Completion Date of a project, that time must have passed between when the reminder was set and now. Any projects that had planned completion dates passed before the reminder was activated will not trigger a notification.
 
 To cause a reminder notification to trigger manually:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click&nbsp;**System** > **Diagnostics** in the lower left corner of Workfront. 
+1. Click **System** > **Diagnostics** in the lower left corner of Workfront. 
 
 1. Click **Send Reminder Notifications** and wait for the confirmation at the top of the screen that they have been sent.
 
-   The users&nbsp;designated in the reminder notification receive an email.
-
+   The users designated in the reminder notification receive an email.

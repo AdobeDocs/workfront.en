@@ -5,8 +5,8 @@ title: Change required for adding proofs to your allowlist
 description: The proofing domain is changing from proofhq.com to workfront.com.
 author: Luke
 feature: Product Announcements
+exl-id: 05a1fd37-224b-4a0b-abef-4d9a015de524
 ---
-
 # Change required for adding proofs to your allowlist
 
 The proofing domain is changing from&nbsp;proofhq.com to workfront.com.
@@ -22,4 +22,3 @@ For more information about updating your allowlist, see [Configure your firewall
 >[!NOTE]
 >
 >This update applies only to proofing within Workfront; it does not apply when using the Workfront Proof stand-alone application.
-

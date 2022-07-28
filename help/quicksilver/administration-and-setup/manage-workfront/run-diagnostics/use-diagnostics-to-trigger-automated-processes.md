@@ -6,12 +6,12 @@ title: Use Diagnostics to trigger automated processes
 description: Use Diagnostics to trigger automated processes
 feature: System Setup and Administration
 role: Admin
+exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
 ---
-
 # Use Diagnostics to trigger automated processes
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
 You can use Diagnostics to manually trigger automated processes, such as time-based scripts, recalculations, or email notifications.
@@ -26,7 +26,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a> </td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a> </td> 
@@ -52,7 +52,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Send Early Notifications</td> 
-      <td> <p>Manually sends the automatic reminder notifications for&nbsp;tasks and issues that are approaching their due dates.</p> <p>For more information about setting up automatic reminders, see <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Set up automatic reminders</a>.</p> </td> 
+      <td> <p>Manually sends the automatic reminder notifications for tasks and issues that are approaching their due dates.</p> <p>For more information about setting up automatic reminders, see <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Set up automatic reminders</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Send Reminder Notifications</td> 
@@ -61,7 +61,7 @@ You must have the following to perform the steps in this article:
      <tr> 
       <td role="rowheader">Check All POP Accounts</td> 
       <td> <p>Checks for new emails that have been sent to POP accounts linked to Workfront. </p> <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about Workfront and POP account integrations, see and&nbsp;<a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.</p>
+        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about Workfront and POP account integrations, see and <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.</p>
        --> </td> 
      </tr> 
      <tr> 
@@ -70,12 +70,11 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Restore Default Customer Reports</td> 
-      <td>Restores the default reports that were originally delivered with Workfront, so that they are visible in the <strong>Reports</strong> section for all&nbsp;users.</td> 
+      <td>Restores the default reports that were originally delivered with Workfront, so that they are visible in the <strong>Reports</strong> section for all users.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Generate Timesheets</td> 
-      <td>Generates timesheets for users based on their recurring&nbsp;timesheet profiles. This option needs to be run only if the timesheet profile has been altered significantly after it has been assigned to users, and only after any current and future timesheets have been deleted.</td> 
+      <td>Generates timesheets for users based on their recurring timesheet profiles. This option needs to be run only if the timesheet profile has been altered significantly after it has been assigned to users, and only after any current and future timesheets have been deleted.</td> 
      </tr> 
     </tbody> 
    </table>
-

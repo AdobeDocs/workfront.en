@@ -5,9 +5,9 @@ navigation-topic: account-settings-workfront-proof
 title: View and edit your organization's Workfront Proof account details
 description: As the Workfront Proof administrator, you can view the account settings for your organization's Workfront Proof account.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 31360d27-3017-408c-9286-1a6c8bc66854
 ---
-
 # View and edit your organization's Workfront Proof account details
 
 >[!IMPORTANT]
@@ -46,4 +46,3 @@ The Your plan section displays information about your organization's Workfront P
 
 * **Current Plan:**&nbsp;Your organization's current Workfront Proof plan.
 * **Plan Renewal Date:**&nbsp;The renewal date for your organization's Workfront Proof plan.
-

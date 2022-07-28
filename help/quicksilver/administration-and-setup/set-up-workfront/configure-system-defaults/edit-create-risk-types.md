@@ -3,21 +3,17 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Edit and create risk types
-description: "**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ****Linked here: https://workfront.zendesk.com/hc/en-us/articles/216673908"
+description: You can add risks to a project in the planning phase to identify potential obstacles prior to the approval of any work. Risks are possible events that could prevent completion of the project on time or within budget.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 ---
-
 # Edit and create risk types
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ****Linked here: https://workfront.zendesk.com/hc/en-us/articles/216673908</p>
--->
+<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Risks are possible events that prevent your project from finishing on time or within budget.
-
-You can add risks to your projects in the planning phase to identify potential obstacles prior to the approval of any work.
+You can add risks to a project in the planning phase to identify potential obstacles prior to the approval of any work. Risks are possible events that could prevent completion of the project on time or within budget.
 
 ## Access requirements
 
@@ -29,11 +25,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

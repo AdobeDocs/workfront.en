@@ -5,8 +5,8 @@ title: Remove users from resource pools
 description: Although there is no limit to how many users you can have in a resource pool, the list of users only displays the first 2000 users, listed alphabetically.
 author: Alina
 feature: Resource Management
+exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
 ---
-
 # Remove users from resource pools
 
 Although there is no limit to how many users you can have in a&nbsp;resource pool, the list of users only displays the first 2000 users, listed alphabetically.
@@ -68,4 +68,3 @@ To remove a user from a Resource Pool:
    To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool. 
 
 1. Click **Save**.
-

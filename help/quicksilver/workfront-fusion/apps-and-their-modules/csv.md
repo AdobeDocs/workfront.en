@@ -7,8 +7,8 @@ title: CSV
 description: This is a transformer, not an app
 author: Becky
 feature: Workfront Fusion
+exl-id: 4e37482a-e84e-4ab2-a48f-7e7bfbecee56
 ---
-
 # CSV
 
 The Adobe Workfront Fusion CSV modules let you create CSV files and parse CSV text from a received text value or a file.
@@ -161,4 +161,3 @@ The Parse CSV transformer lets you parse CSV text from a received text value or 
   </tr> 
  </tbody> 
 </table>
-

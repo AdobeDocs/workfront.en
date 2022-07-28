@@ -7,8 +7,8 @@ title: Overview of connecting projects to goals in Adobe Workfront Goals
 description: Overview of connecting projects to goals in Adobe Workfront Goals
 author: Alina
 feature: Workfront Goals
+exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
 ---
-
 # Overview of connecting projects to goals in Adobe Workfront Goals
 
 <!--
@@ -102,4 +102,3 @@ The following goal information is visible in a project list or report:
 |---|---|
 | Goal Hierarchy |The hierarchy that a goal belongs to. Only the parents of the goal and the goal display in this field. Children goals do not display.  |
 | Number of Linked Goals |The number of goals linked to one project. |
-

@@ -5,9 +5,9 @@ navigation-topic: portfolios-navigation-topic
 title: Manage projects in the Portfolio Optimizer
 description: The Portfolio Optimizer is the tool used for project evaluation and comparison. The process of reviewing and comparing Business Case values for projects assigned to a portfolio is how a portfolio manager can prioritize projects and generate the most value for an organization.
 author: Alina
-feature: "Work Management, Strategic Planning"
+feature: Work Management, Strategic Planning
+exl-id: 662d4975-3af5-4de6-befa-abadeedf2b0d
 ---
-
 # Manage projects in the Portfolio Optimizer
 
 The Portfolio Optimizer is the tool used for project evaluation and comparison. The process of reviewing and comparing Business Case values for projects assigned to a portfolio is how a portfolio manager can prioritize projects and generate the most value for an organization.
@@ -20,4 +20,3 @@ This section contains the following articles:
 * [Prioritize projects in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md) 
 * [Optimize projects in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md) 
 * [Calculate the Risk to Net Value in a portfolio](../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
-

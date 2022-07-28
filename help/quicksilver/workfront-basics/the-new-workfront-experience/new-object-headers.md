@@ -4,8 +4,8 @@ navigation-topic: the-new-workfront-experience
 title: New object headers overview
 description: You can view information at a glance about objects in Adobe Workfront when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
 feature: Get Started with Workfront
+exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 ---
-
 # New object headers overview
 
 You can view information at a glance about objects in Adobe Workfront when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
@@ -837,4 +837,3 @@ The plan header displays the following information:
   </tr> 
  </tbody> 
 </table>
-

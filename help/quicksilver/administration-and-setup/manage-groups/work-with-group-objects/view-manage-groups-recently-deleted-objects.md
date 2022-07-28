@@ -5,10 +5,10 @@ navigation-topic: work-with-a-groups-objects
 title: View and manage a group's recently deleted items
 description: When you are viewing a group that you manage in the Groups area, you can view, filter, restore, and export its recently deleted work items, documents, and templates.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
 ---
-
 # View and manage a group's recently deleted items
 
 When you are viewing a group that you manage in the Groups area, you can view and work with its recently deleted projects, tasks, issues, documents, and templates in the following ways:
@@ -33,7 +33,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -93,4 +93,3 @@ You must have the following to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-

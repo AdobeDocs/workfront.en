@@ -5,9 +5,9 @@ product-area: documents
 navigation-topic: metadata
 title: Overview of keyword metadata in Workfront Library
 description: Keywords are a type of metadata that uses specific terms to describe the content of an asset. Applying consistent keyword metadata to content allows users to quickly find and filter the assets they need for their work. For information about metadata and how it is used in Workfront Library, see Overview of metadata in Workfront Library.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: f89e7c6a-17c3-4741-9b26-1d87b21d59d2
 ---
-
 # Overview of keyword metadata in Workfront Library
 
 Keywords are a type of metadata that uses specific terms to&nbsp;describe the content of an asset. Applying consistent keyword metadata to content allows users to quickly find and filter the assets they need for their work. For information about metadata and how it is used in Workfront Library, see [Overview of metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
@@ -38,4 +38,3 @@ For more information on ways to manage keywords, see the following articles:
 
 * [Add keywords to metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/add-keywords-to-metadata.md) 
 * [Delete a keyword from the picklist in Workfront Library](../../../workfront-library/administration-and-setup/metadata/delete-keyword-from-metadata.md)
-

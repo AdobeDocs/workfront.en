@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: metadata
 title: Delete a keyword from the picklist in Workfront Library
 description: As a Workfront Library administrator you can remove keywords from the keyword picklist. For information about keywords, see Overview of keyword metadata in Workfront Library
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: c76ed1c6-4569-4019-a860-c14e71b52563
 ---
-
 # Delete a keyword from the picklist in Workfront Library
 
 As a Workfront Library administrator you can remove keywords from the keyword picklist. For information about keywords, see [Overview of keyword metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
@@ -42,4 +42,3 @@ When you delete a keyword from the picklist, the keyword is also removed from al
 1. Click **Delete**.
 
    The keyword and any child keywords are deleted from the picklist and from all tagged assets.
-

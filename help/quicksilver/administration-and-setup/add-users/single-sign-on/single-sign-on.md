@@ -8,8 +8,8 @@ description: You can integrate Workfront with your existing corporate SSO soluti
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 1ae65deb-bc02-4fdc-b229-30603b33fe7e
 ---
-
 # Single sign-on in Adobe Workfront
 
 This section contains the following articles:
@@ -25,4 +25,3 @@ This section contains the following articles:
 * [Configure Adobe Workfront with SAML 1.1](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-1.1.md) 
 * [Configure Adobe Workfront with Azure Active Directory](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-azure-ad.md) 
 * [Deactivate single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-

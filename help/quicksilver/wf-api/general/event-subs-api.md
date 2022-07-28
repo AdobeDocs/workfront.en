@@ -2,18 +2,19 @@
 content-type: api
 navigation-topic: general-api
 title: Event Subscription API
-description: When an action occurs on a Adobe Workfront object that is supported by event subscriptions, you can configure Workfront to send a response to your desired endpoint. This means that third-party applications can receive updates from Workfront interactions via the Workfront API soon after they occur. In general, you can expect to receive webhook notifications in less than 5 seconds from the data change being logged. On average, customers receive webhook notifications in less than 1 second from the data change being logged.
+description: Event Subscription API
 author: John
 feature: Workfront API
+exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 ---
 
 # Event Subscription API
 
 <!--BOB clean this up-->
 
+<!--
 {{highlighted-preview}}
-
-&nbsp;
+-->
 
 When an action occurs on a Adobe Workfront object that is supported by event subscriptions, you can configure Workfront to send a response to your desired endpoint. This means that third-party applications can receive updates from Workfront interactions via the Workfront API soon after they occur. In general, you can expect to receive webhook notifications in less than 5 seconds from the data change being logged. On average, customers receive webhook notifications in less than 1 second from the data change being logged.&nbsp;&nbsp;
 
@@ -71,11 +72,8 @@ To create, query, or delete an event subscription, your Workfront user needs the
 
 **Request URL:** 
 
-<!-- [Copy](javascript:void(0);) --> 
-
-```javascript
-[PUT]
-          https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
+```
+PUT https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
 ```
 
 **Request Headers:** 
@@ -108,9 +106,7 @@ To create, query, or delete an event subscription, your Workfront user needs the
 
 **Response Body Example:** 
 
-<!-- [Copy](javascript:void(0);) --> 
-
-```javascript
+```
 {
                "data"{
                "result": "rekxqndrw9783j4v79yhdsakl56bu1jn"
@@ -122,11 +118,9 @@ To create, query, or delete an event subscription, your Workfront user needs the
 >
 >&nbsp;If this is your first time using the Workfront API, then you need to generate an apiKey which you can do via this link:
 
-<!-- [Copy](javascript:void(0);) --> 
 
 ```
-[PUT]
-     https://<HOSTNAME>/attask/api/v7.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
+PUT https://<HOSTNAME>/attask/api/v7.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
 ```
 
 ## Forming the Subscription&nbsp;Resource
@@ -135,11 +129,11 @@ The subscription resource&nbsp;contains the following fields.
 
 * objId (optional)
 
-   * **String** - The ID of the object of the specified objCode for which events are fired. If this field is not specified, the user receives events for all objects of the specified type.
+  * **String** - The ID of the object of the specified objCode for which events are fired. If this field is not specified, the user receives events for all objects of the specified type.
 
 * objCode (required)
 
-   * **String** - The objCode of the object being subscribed to changes. The possible values for objCode are listed in the table below.
+  * **String** - The objCode of the object being subscribed to changes. The possible values for objCode are listed in the table below.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -243,10 +237,9 @@ Use the following syntax to construct the URL.
 
 **Request URL:** 
 
-<!-- [Copy](javascript:void(0);) --> 
 
 ```
-[POST] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
+POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
 **Request Headers:** 
@@ -292,8 +285,6 @@ Use the following syntax to construct the URL.
 | 401 (Unauthorized) |The apiKey provided was empty or deemed invalid. |
 | 403 (Forbidden) |The user, which matches the provided apiKey, does not have administrator access. |
 
-{style="table-layout:auto"}
-
 Passing a&nbsp;subscription resource&nbsp;as the body of a&nbsp;request (with the content-type being&nbsp;“application/json”) results in an event subscription being created for the object specified. A response code of 201 (Created) indicates the subscription was created. A response code other than 201 means the subscription was **NOT** created.
 
 >[!NOTE]
@@ -308,12 +299,6 @@ Passing a&nbsp;subscription resource&nbsp;as the body of a&nbsp;request (with th
 | Date |`→Wed, 05 Apr 2017 21:23:33 GMT` |
 | Location |`→https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/750a636c-5628-48f5-ba26-26b7ce537ac2` |
 | Server |`→Apache-Coyote/1.1` |
-
-{style="table-layout:auto"}
-
-**Response Body Example:**
-
-N/A
 
 ## Querying Event Subscriptions
 
@@ -333,7 +318,7 @@ The request syntax for listing all event subscriptions for a specific customer i
 <!-- [Copy](javascript:void(0);) --> 
 
 ```
-[GET] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
+GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
 **Request Headers:** 
@@ -363,7 +348,6 @@ The request syntax for listing all event subscriptions for a specific customer i
 | 401 (Unauthorized) |The apiKey provided was empty. |
 | 403 (Forbidden) |The user, which matches the provided apiKey, does not have administrator access. |
 
-{style="table-layout:auto"}
 
 **Response Headers Example:** 
 
@@ -374,7 +358,6 @@ The request syntax for listing all event subscriptions for a specific customer i
 | Server |`→Apache-Coyote/1.1` |
 | Transfer-Encoding |`→chunked` |
 
-{style="table-layout:auto"}
 
 **Response Body Example:** 
 
@@ -428,7 +411,7 @@ You can query for event subscriptions by the event subscription's ID. The reques
 <!-- [Copy](javascript:void(0);) --> 
 
 ```
-[GET] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
+GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
 **Request Headers:** 
@@ -458,7 +441,6 @@ You can query for event subscriptions by the event subscription's ID. The reques
 | 401 (Unauthorized)  |The apiKey provided was empty. |
 | 403 (Forbidden) |The user, which matches the provided apiKey, does not have administrator access. |
 
-{style="table-layout:auto"}
 
 **Response Body Example:** 
 
@@ -547,7 +529,7 @@ When deleting Workfront's HTTP use the DELETE method. The request syntax for del
 <!-- [Copy](javascript:void(0);) --> 
 
 ```
-[DELETE] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
+DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
 **Request Headers:**
@@ -607,7 +589,6 @@ When deleting Workfront's HTTP use the DELETE method. The request syntax for del
 | Date |`→Wed, 05 Apr 2017 21:33:41 GMT` |
 | Server |`→Apache-Coyote/1.1` |
 
-{style="table-layout:auto"}
 
 **Response Body Example:** N/A
 
@@ -791,7 +772,7 @@ You can query all event subscriptions for a customer as specified by the apiKey 
 <!-- [Copy](javascript:void(0);) --> 
 
 ```
-[GET] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
+GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
 ```
 
 **Request Headers:** 

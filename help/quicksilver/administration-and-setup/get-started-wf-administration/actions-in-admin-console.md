@@ -7,8 +7,8 @@ description: If your organization has been onboarded to the Adobe Business Platf
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
 ---
-
 # Platform-based administration differences (Adobe Workfront/Adobe Business Platform)
 
 If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access Adobe Workfront. This means that:
@@ -174,5 +174,3 @@ Because the Adobe Business Platform controls Single Sign-On (SSO) for users, the
 * [Configure password policies for authentication](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md) 
 * [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) 
 * [Set up Azure Active Directory with Enhanced Authentication](../../administration-and-setup/manage-workfront/security/set-up-azure-active-directory-enhanced-authentication.md)
-
-&nbsp;

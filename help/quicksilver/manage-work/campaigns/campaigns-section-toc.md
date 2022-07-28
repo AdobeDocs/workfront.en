@@ -3,10 +3,10 @@ filename: campaigns-section-toc
 content-type: reference
 navigation-topic: projects-navigation-topic
 title: Campaigns
-description: These articles contain information about campaigns. 
+description: These articles contain information about campaigns.
 author: Alina
+exl-id: 4de6b2f3-065c-442c-9862-23275a81d7e7
 ---
-
 # Campaigns
 
 >[!NOTE]

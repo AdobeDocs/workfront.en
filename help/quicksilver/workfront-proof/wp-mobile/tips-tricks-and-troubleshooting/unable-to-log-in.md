@@ -6,9 +6,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-mobile
 title: Unable to Log In to the Workfront Proof Mobile App
 description: When trying to log in to the Workfront Proof Mobile App it returns - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
 ---
-
 # Unable to Log In to the Workfront Proof Mobile App
 
 >[!IMPORTANT]
@@ -32,4 +32,3 @@ When using both Workfront & Workfront Proof,
 1. Click the&nbsp;three-dot icon in the upper-right of the screen, then click **Proofing**.   
    The Workfront Proof Mobile App automatically launches logs you in.  
    You can now work with proofing in the document.
-

@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can access information abo
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
 ---
-
 # Manage available licenses in your system
 
 As an Adobe Workfront administrator, you can access information about your Workfront account, including the number of licenses purchased for your organization, as well as the number of those licenses currently in use.
@@ -23,11 +23,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -80,7 +80,7 @@ If an organization has other paid add-on products, their license information als
 >
 >Users without administrative access can use a Group report to view license count. In the Report tab, create a new group report and add the following columns:>
 >* License Type Limit: Worker Limit
->* License Type Limit: Planner Limit&nbsp;
+>* License Type Limit: Planner Limit 
 >
 >To learn more about creating a report, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 >
@@ -140,4 +140,3 @@ To set the maximum license count for a Home group:
    >[!NOTE]
    >
    >To set a group's maximum license value back to the default, do not type 0. Instead, delete the number in the box. Setting the maximum license value to 0 indicates that there are no licenses allocated to that group.
-

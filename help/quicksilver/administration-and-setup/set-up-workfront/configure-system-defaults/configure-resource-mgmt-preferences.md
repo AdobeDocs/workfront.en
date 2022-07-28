@@ -3,25 +3,19 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Configure Resource Management preferences
-description: "(CO: Linked to lots of articles for resource planning."
+description: As an Adobe Workfront administrator you can configure the Resource Management Preferences for your system. These Resource Management preferences determine how user availability or capacity and FTE are calculated for the Workfront resource scheduling and planning tools.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
 ---
-
 # Configure Resource Management preferences
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(CO: Linked to lots of articles for resource planning.</p>
-<p>LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
-<p>Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the)</p>
-</div>
+<!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
+Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
 
-As an Adobe Workfront administrator you can configure the Resource Management Preferences for your system.
-
-The Resource Management preferences determine how user availability or capacity and FTE are calculated for the Workfront resource scheduling and planning tools.
+As an Adobe Workfront administrator you can configure the Resource Management Preferences for your system. These Resource Management preferences determine how user availability or capacity and FTE are calculated for the Workfront resource scheduling and planning tools.
 
 For information about planning and scheduling resources in Workfront, see [Get started with Resource Management](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
@@ -35,11 +29,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -61,7 +55,7 @@ You must have the following to perform the steps in this article:
    * **The Default Schedule**: Workfront uses the Default Schedule of the system and the individual FTE of the user to calculate the Available Hours of the user in resource management tools.   
      For more information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-     For more information about the value of the user FTE, see&nbsp; [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+     For more information about the value of the user FTE, see  [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
    
      Workfront calculates the Available Hours of a user using the following formula when the Workfront administrator chooses The Default Schedule:
 
@@ -79,13 +73,13 @@ You must have the following to perform the steps in this article:
      ```
 
         <!--      
-        <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>In the Production environment: (NOTE:&nbsp;this is the old way it was working, before the 22.2 release)</p><p><code>User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off hours)) * User FTE value</code></p>      
+        <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>In the Production environment: (NOTE: this is the old way it was working, before the 22.2 release)</p><p><code>User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off hours)) * User FTE value</code></p>      
         <div class="example" data-mc-autonum="<b>Example: </b>">      
         <span class="autonumber"><span><b>Example: </b></span></span>      
         <div>      
         <p>For example, if the Default Schedule is 40 hours a week and the FTE in the profile of the user is 0.5, the user is available to work for 20 hours a week.</p>      
         <p>If the user has 1 hour of Time off one day, their Available Hours will be calculated as follows:</p>      
-        <p><code>User Daily Available Hours = (40 - 1)* 0.5 = 19.5 hours</code><br></p>      
+        <p><code>User Daily Available Hours = (40 - 1)* 0.5 = 19.5 hours</code></p>      
         </div>      
         </div></li>      
         -->
@@ -102,7 +96,7 @@ You must have the following to perform the steps in this article:
      User Available FTE = (Hours from the Schedule of the User - Time off hours) / Default Schedule Hours
      ```
 
-     **Example:** For example, if the Default Schedule is 40 hours a week and the schedule of the user is 30 hours a week,&nbsp;the FTE of the user is 0.75.&nbsp;
+     **Example:** For example, if the Default Schedule is 40 hours a week and the schedule of the user is 30 hours a week, the FTE of the user is 0.75. 
 
      If the user has 2 hours of Time off one day, their Weekly Available FTE will be calculated as follows:
 
@@ -111,4 +105,3 @@ You must have the following to perform the steps in this article:
      ```
 
 1. Click **Save**.
-

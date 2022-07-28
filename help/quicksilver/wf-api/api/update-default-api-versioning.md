@@ -2,11 +2,11 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Update integrations that use default API versioning
-description: We release new versions of the Adobe Workfront API on a biannual basis. Each version is supported for three years after its release, with an additional year in a deprecated state where the version is available but not supported.
+description: Update integrations that use default API versioning
 author: John
 feature: Workfront API
+exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
 ---
-
 # Update integrations that use default API versioning
 
 We release new versions of the Adobe Workfront API on a biannual basis. Each version is supported for three years after its release, with an additional year in a deprecated state where the version is available but not supported.
@@ -41,13 +41,13 @@ If your Workfront API requests do not specify a version, then they are using Def
 
 For example, the following Workfront API request does not specify an API version:
 
-*https://davidwhite.my.workfront.com/attask/api/project/metadata*
+`https://davidwhite.my.workfront.com/attask/api/project/metadata`
 
 When this request is made, you receive a response with JSON encoded text that specifies data from your Workfront instance.&nbsp;Because no API version is specified in this&nbsp;URI, the call goes to Default.&nbsp;
 
 To turn a Default API request into a versioned API request, simply call a supported API version. For example, the following URI requests Version 9:
 
-*https://davidwhite.my.workfront.com/attask/api/**v9.0**/project/metadata*
+`https://davidwhite.my.workfront.com/attask/api/`**v9.0**`/project/metadata`
 
 When updating your Workfront API requests, you can specify any supported version of our API. To learn more about referencing a specific API, see [Specify an API Version in your integrations](../../wf-api/api/specify-api-version-integrations.md).
 

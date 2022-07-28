@@ -5,9 +5,9 @@ navigation-topic: account-settings-workfront-proof
 title: Configure approval decision options in Workfront Proof
 description: As a Workfront Proof administrator using a Select or Premium edition plan, you can configure approval decision options in the following ways for all proofs created by Workfront Proof users in your organization - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 9e1c2a4e-0641-4334-8ff9-dbb203ccbc82
 ---
-
 # Configure approval decision options in Workfront Proof
 
 >[!IMPORTANT]
@@ -82,4 +82,3 @@ You can create a post decision message to display after a reviewer saves their d
 1. In the&nbsp;**Display message column**, specify the decisions this message should be displayed on.   
    If you do not&nbsp;select at least one decision, the message will not&nbsp;show on your proofs. Be sure to check at least one box in this column.  
    ![post_decision_message_set_up_2.png](assets/post-decision-message-set-up-2-350x151.png)
-

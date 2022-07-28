@@ -5,8 +5,8 @@ title: Access needed to manage resources in the Workload Balancer
 description: Without correct access or permissions, you may not be able to view or manage your work assignments in the Workload Balancerr.
 author: Alina
 feature: Resource Management
+exl-id: b3da9a62-481e-4503-8f27-136d6513262e
 ---
-
 # Access needed to manage resources in the Workload Balancer
 
 Without correct access or permissions, you may not be able to view or manage your work assignments in the Workload Balancerr.

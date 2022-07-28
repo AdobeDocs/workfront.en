@@ -6,8 +6,8 @@ title: Overview of the Projected Completion Date for projects, tasks, and issues
 description: The Projected Completion Date is a real-time, calculated indicator of when the project, task, or issue will be completed. When the project, task, or issue is marked as Completed, the Projected Completion Date changes to the date of the Actual Completion Date.
 author: Alina
 feature: Work Management
+exl-id: dde400e6-189f-4431-8f2f-7142ce424826
 ---
-
 # Overview of the Projected Completion Date for projects, tasks, and issues
 
 The Projected Completion Date is a real-time, calculated indicator of when the project, task, or issue will be completed. When&nbsp;the project, task, or issue is marked as Completed, the Projected Completion Date changes to&nbsp;the date of the&nbsp;Actual Completion Date.
@@ -110,4 +110,3 @@ To create an issue report that includes the Projected Completion Date:
    The **Projected Completion Date**&nbsp;column in the report is populated.&nbsp;
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
-

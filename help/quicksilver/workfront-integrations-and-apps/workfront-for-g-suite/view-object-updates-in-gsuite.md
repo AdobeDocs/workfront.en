@@ -6,8 +6,8 @@ title: View Adobe Workfront object updates from G Suite
 description: Without leaving G Suite, you can view updates and replies to updates on a Adobe Workfront object.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 13cd0478-4557-4d4c-915e-5b7b70aee8ce
 ---
-
 # View Adobe Workfront object updates from G&nbsp;Suite
 
 Without leaving G Suite, you can view updates and replies to updates on a Adobe Workfront object.
@@ -70,4 +70,3 @@ Before you can view object updates in G Suite, you must
    * If you want to add the first reply to the update, click **Reply**, then type your comment.
 
 1. To return to the **Updates** tab, click **View All Updates**.
-

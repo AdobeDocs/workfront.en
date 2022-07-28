@@ -5,8 +5,8 @@ title: Create an Adobe Workfront request from an Outlook email
 description: You can create a Adobe Workfront request from an email in Outlook.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
 ---
-
 # Create an Adobe Workfront request from an Outlook email
 
 You can create a Adobe Workfront request from an email in Outlook.
@@ -73,4 +73,3 @@ To create a Workfront Request from Outlook:
 1. (Optional) Navigate back to Outlook, and select the original email.  
    At the top of the Workfront add-in panel, notice the confirmation with a link that the email was added to Workfront as a request. The link includes the date on which it was converted.  
    ![outlook_submitted_as_a_request.png](assets/outlook-submitted-as-a-request-350x130.png)
-

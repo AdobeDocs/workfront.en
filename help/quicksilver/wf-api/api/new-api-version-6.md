@@ -5,8 +5,8 @@ title: What's New in API Version 6
 description: What's New in API Version 6
 author: John
 feature: Workfront API
+exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 ---
-
 # What's New in API Version 6
 
 ## New Objects
@@ -22,7 +22,6 @@ feature: Workfront API
 | templateID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search&nbsp; |
 
-{style="table-layout:auto"}
 
 ### Ews
 
@@ -32,7 +31,6 @@ feature: Workfront API
 | handle |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | objCode |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-{style="table-layout:auto"}
 
 ### Custom Label
 
@@ -45,13 +43,10 @@ feature: Workfront API
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
 
-{style="table-layout:auto"}
-
-&nbsp;
 
 ## Updated Objects
 
-Changes to existing objects: additions are simply listed, removals have strikethrough, changes to existing have an attached&nbsp;note after the table
+Changes to existing objects: additions are simply listed, removals have strikethrough, changes to existing have an attached note after the table
 
 ### Update
 
@@ -392,4 +387,3 @@ Exchange Rate&nbsp;
 |---|---|---|---|---|---|---|
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |`fileHandle`  |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |`zipAnnouncementAttachments`&nbsp; |&nbsp; |&nbsp; |
-

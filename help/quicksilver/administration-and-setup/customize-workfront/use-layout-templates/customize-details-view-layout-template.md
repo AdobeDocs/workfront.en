@@ -3,15 +3,13 @@ title: Customize the Details view using a layout template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: As a Workfront administrator, you can use a layout template to determine what information appears when a user selects the Details section in the left panel while viewing a task, issue, document, program, or portfolio.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
 ---
-
 # Customize the Details view using a layout template
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 As an Adobe Workfront administrator, you can use a layout template to determine what information appears when a user clicks the Details icon ![](assets/project-details-icon.png) in the left panel while viewing a task, issue, document, program, or portfolio.
 
@@ -41,7 +39,7 @@ The changes you make to the Details view for an object also determine the availa
 
 * Conversion boxes, such as the Convert issue to task or Convert issue to project boxes. 
 
-![Convert issue to task box](assets/convert-issue-to-task-box.png)
+  ![Convert issue to task box](assets/convert-issue-to-task-box.png)
 
 For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
@@ -55,11 +53,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -95,4 +93,3 @@ To perform them for a group, you must be a manager of that group</p> <p><b>NOTE<
    >[!TIP]
    >
    >You can click Save at any time to save your progress, then continue to modify the template later.
-

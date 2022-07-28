@@ -5,8 +5,8 @@ title: Create an advanced proof with an Automated workflow
 description: An Automated Workflow makes it easier to manage the review process if your process is complex, or if you send content for review to the same people regularly. The proof moves from stage to stage and Adobe Workfront notifies each user when it is their turn to review it. For more information about Automated workflows, see Automated Workflow overview.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
 ---
-
 # Create an advanced proof with an Automated workflow
 
 An Automated Workflow makes it easier to manage the review process if your process is complex, or if you send content for review to the same people regularly. The proof moves from stage to stage and Adobe Workfront notifies each user when it is their turn to review it. For more information about Automated workflows, see [Automated Workflow overview](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
@@ -69,7 +69,7 @@ You must have the following access to perform the steps in this article:
 
       >[!NOTE]
       >
-      >Consider the following when&nbsp;adding reviewers to a stage:
+      >Consider the following when adding reviewers to a stage:
       >   
       >* You can add external users to a stage with an email address.
       >* After you add a user to a stage, you can configure settings for that user on the proof.
@@ -146,11 +146,19 @@ You must have the following access to perform the steps in this article:
 
 1. In the **Email notification** section, select whether to send email notifications and a custom message to&nbsp;the users you selected in [Create an advanced proof with an Automated workflow](#workflow) earlier in this article:
 
-   | Notify recipients about this proof |Select this option to send an email notification to users. When **Basic sharing** is selected in the **Workflow** section, an email notification is sent when the proof is created. When **Automated workflow** is selected in the **Workflow** section, an email notification is sent when the proof enters the stage of the Automated Workflow that the user is associated with. |
-   |---|---|
-   | Add custom message |Select this option to include a custom message in the notification. You can specify a subject and message body. The message body can include rich text formatting, such as bold, bullets, and hyperlinks. |
+      <table>
+      <tbody>
+      <tr>
+      <td>Notify recipients about this proof</td>
+      <td>Select this option to send an email notification to users. When <strong>Basic sharing</strong> is selected in the <strong>Workflow</strong> section, an email notification is sent when the proof is created. When <strong>Automated workflow</strong> is selected in the <strong>Workflow</strong> section, an email notification is sent when the proof enters the stage of the Automated Workflow that the user is associated with.</td>
+      </tr>
+      <tr>
+      <td>Add custom message</td>
+      <td>Select this option to include a custom message in the notification. You can specify a subject and message body. The message body can include rich text formatting, such as bold, bullets, and hyperlinks.</td>
+      </tr>
+      </tbody>
+      </table>
 
-   {style="table-layout:auto"}
 
 1. Continue with [Configure proof settings](#configure-proof-settings) below.
 
@@ -200,18 +208,17 @@ You must have the following access to perform the steps in this article:
        </ul><p>
         <ul>
          <li><strong>Proof access via email link required for:</strong>&nbsp;Configure whether the subscriber receives an email with a link to the proof. You can select <strong>No email</strong> (email link is not required to access the proof), <strong>Proof notification email only</strong> (subscriber receives a link to the proof via email without any verification), or <strong>Validation and proof notification emails</strong> (subscriber receives a link to the proof via email and must click the link to access a proof, the purpose of this option is to ensure that the person has entered a correct email address to which they have access).</li>
-        </ul><p>Note: &nbsp;If the proofs have Automated Workflow attached all subscriptions will generate confirmation emails to the proof Owners, so they could decide which stage the person should be added to.<br></p></p></td> 
+        </ul><p><strong>Note:</strong> If the proofs have Automated Workflow attached all subscriptions will generate confirmation emails to the proof Owners, so they could decide which stage the person should be added to.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Click **Create Proof**.
 
-   Workfront&nbsp;begins generating a proof of the selected documents or websites.&nbsp;Depending on the file size and type, the lag time on a document upload can vary. Be patient as bigger files take longer to generate. You can navigate away from the page and Workfront&nbsp;continues to generate your file.&nbsp;The maximum file upload size is 4GB.
+   Workfront&nbsp;begins generating a proof of the selected documents or websites. Depending on the file size and type, the lag time on a document upload can vary. Be patient as bigger files take longer to generate. You can navigate away from the page and Workfront continues to generate your file. The maximum file upload size is 4GB.
 
-1. After&nbsp;the proof is generated, click&nbsp;**Open proof**&nbsp;to launch the proofing viewer.
+1. After the proof is generated, click **Open proof** to launch the proofing viewer.
 
    ![](assets/open-proof-350x132.png)
 
-   Users who do not have proofing enabled on their account&nbsp;are still able to view the document and make comments to the proof [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
-
+   Users who do not have proofing enabled on their account are still able to view the document and make comments to the proof [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

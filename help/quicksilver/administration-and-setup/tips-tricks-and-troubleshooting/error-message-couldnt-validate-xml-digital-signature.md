@@ -8,8 +8,8 @@ description: You are unable to establish a successful connection to ADFS.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: d30a67dd-4f91-41cf-b1ba-fefadc4e396a
 ---
-
 # Error message: Couldn't validate XML digital signature
 
 ## Problem
@@ -32,11 +32,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

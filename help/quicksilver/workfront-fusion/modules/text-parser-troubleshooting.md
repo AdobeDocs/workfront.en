@@ -7,8 +7,8 @@ title: Text parser troubleshooting in Adobe Workfront Fusion
 description: Use this information if you can not get text parser to produce any output.
 author: Becky
 feature: Workfront Fusion
+exl-id: 8a3821cf-d0c6-4917-86e7-90a4872a5795
 ---
-
 # Text parser troubleshooting in Adobe Workfront Fusion
 
 Use this information if you can not get text parser to produce any output.

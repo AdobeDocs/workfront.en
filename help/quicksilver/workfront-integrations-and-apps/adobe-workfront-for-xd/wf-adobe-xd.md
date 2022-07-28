@@ -5,9 +5,9 @@ navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront for XD
 description: The Adobe Workfront plugin for XD allows you to - EDIT ME.
 author: Courtney
-feature: "Workfront Integrations and Apps, Digital Content and Documents"
+feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: 3e08a7fd-6412-48e0-a8fb-5238dbc0df0e
 ---
-
 # Adobe Workfront for XD
 
 The Adobe Workfront plugin for XD allows you to:
@@ -19,4 +19,4 @@ The Adobe Workfront plugin for XD allows you to:
 * [Upload XD art boards as documents to Workfront](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-docs.md) 
 * [Update your work in Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-update.md) 
 * [Mark work items complete in Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-complete.md)
-
+* [Log time in Adobe XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-xd/wf-xd-log-time.md)

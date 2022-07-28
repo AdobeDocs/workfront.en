@@ -6,9 +6,9 @@ navigation-topic: work-with-proofs-and-files
 title: Review proofs in the Web Proofing Viewer
 description: This section contains the following articles - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 0cfac975-a561-4e0a-8703-8173b50957ca
 ---
-
 # Review proofs in the Web Proofing Viewer
 
 >[!IMPORTANT]
@@ -27,4 +27,3 @@ This section contains the following articles:
 * [Downloading a Proof in the proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md) 
 * [Keyboard shortcuts in the Workfront Proof proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md) 
 * [Legacy proofing viewer Removed](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
-

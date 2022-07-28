@@ -7,14 +7,14 @@ description: As an Adobe Workfront administrator, you can configure email templa
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: 2ebc3be5-2734-4012-9277-86176c070137
 ---
-
 # Configure email templates
 
 As an Adobe Workfront administrator, you can configure email templates to support reminder notifications.
 
 Email templates contain the message sent to users when a reminder notification is initiated.  
-Without an email template, the reminder notification will be delivered as&nbsp;empty content in the body of the email.
+Without an email template, the reminder notification will be delivered as empty content in the body of the email.
 
 Email templates can be associated with reminder notifications for issues, tasks, projects, and timesheets. When creating email templates, your Workfront administrator can provide content for the email and a subject line.
 
@@ -28,11 +28,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan</p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the panel on the left, click **Email**&nbsp;> **Notifications**.
+1. In the panel on the left, click **Email** > **Notifications**.
 
 1. Click the **Email Templates** tab, then click **New Email Template**.  
 
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Object type</td> 
-      <td>Specify the&nbsp;object type that you want to associate the template with (required, by default it will be set to 'Issue').</td> 
+      <td>Specify the object type that you want to associate the template with (required, by default it will be set to 'Issue').</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Subject </td> 
@@ -135,7 +135,7 @@ To get the "wildcard" value for an object, do one of the following:
 
 You can include links to users and custom fields by using the **$$**wildcard to tell the email generator to look for values from the database associated with the object. They must be present on either side of the database attribute reference.
 
-For example, adding the following&nbsp;text as HTML would add the assigned user's first name to the reminder&nbsp;notification associated with a task:&nbsp;**$$assignedTo:firstName$$**.
+For example, adding the following text as HTML would add the assigned user's first name to the reminder notification associated with a task: **$$assignedTo:firstName$$**.
 
 To add custom fields using the same formatting, you can add this in your email notification: **$$DE:Custom Field As It Appears in Workfront$$**.
 
@@ -182,7 +182,7 @@ Replace `<your domain>` with your company's Workfront domain, without the bracke
 
 To edit an email template for a late project reminder, consider this information for the Subject and Content fields.
 
-Replace `<your domain>` with your company's Workfront domain, without the brackets.&nbsp;
+Replace `<your domain>` with your company's Workfront domain, without the brackets. 
 
 **Subject:**
 
@@ -208,13 +208,13 @@ A Project You Manage Has Become Late
 </html>
 ```
 
-This produces an email similar&nbsp;to the following:&nbsp;
+This produces an email similar to the following: 
 
 ![](assets/screen-shot-2016-09-16-at-3.52.54-pm-350x103.png)
 
 #### **Task or Issue About to Start reminder (example)** {#task-or-issue-about-to-start-reminder-example}
 
-You might&nbsp;also want to create a reminder notification for an upcoming task or issue.
+You might also want to create a reminder notification for an upcoming task or issue.
 
 The following code can be included in an email template to be used for task and issue reminder notifications that are sent any number of days before the planned start date of the task or issue.
 

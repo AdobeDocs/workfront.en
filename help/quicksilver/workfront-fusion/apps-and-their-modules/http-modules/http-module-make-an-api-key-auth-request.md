@@ -4,15 +4,15 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
-title: HTTP > Make an API Key Authorization request
+title: HTTP &gt; Make an API Key Authorization request
 description: This Adobe Workfront Fusion action module sends an HTTPS request to a specified URL that requires an API Key Auth authorization, and processes the response.
 author: Becky
 feature: Workfront Fusion
+exl-id: 70bf87c7-6d51-4ef4-9dce-80ad004e613f
 ---
-
 # HTTP > Make an API Key Authorization request
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
@@ -149,4 +149,3 @@ If you see the map button above a field or function, you can use it to set varia
   </tr> 
  </tbody> 
 </table>
-

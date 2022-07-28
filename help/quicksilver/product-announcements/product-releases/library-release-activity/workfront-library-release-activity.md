@@ -4,9 +4,9 @@ navigation-topic: product-releases
 title: Workfront Library release activity
 description: Workfront Library release activity
 author: Luke
-feature: "Product Announcements, Workfront Library"
+feature: Product Announcements, Workfront Library
+exl-id: 949e30c1-d106-4a40-aa91-a2c4c7f8f1bb
 ---
-
 # Workfront Library release activity
 
 * [Workfront Library release activity - February 13, 2020](../../../product-announcements/product-releases/library-release-activity/library-release-activity-feb-13-2020.md) 
@@ -16,4 +16,3 @@ feature: "Product Announcements, Workfront Library"
 * [Workfront Library release activity - June 19, 2019](../../../product-announcements/product-releases/library-release-activity/library-release-activity-jun-19-2019.md) 
 * [Workfront Library release activity - May 3, 2019](../../../product-announcements/product-releases/library-release-activity/library-release-activity-may-3-2019.md) 
 * [Workfront Library release activity - April 18, 2019](../../../product-announcements/product-releases/library-release-activity/library-release-activity-apr-18-2019.md)
-

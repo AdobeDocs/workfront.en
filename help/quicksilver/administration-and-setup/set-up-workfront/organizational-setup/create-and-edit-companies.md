@@ -7,16 +7,12 @@ description: You can add companies to Workfront and use them for financial plann
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: bb597032-3395-4c9a-b622-5c920ba55131
 ---
-
 # Create and edit companies
 
-<!--
-**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.**
--->
-
-{{highlighted-preview}}
-
+<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+ 
 A company is an organizational unit in Adobe Workfront that can represent your organization, a department within the organization, or a client you work with. You can add companies to Workfront and use them for financial planning, reporting purposes, to define permissions around objects, and to keep information confidential.
 
 ## Access requirements
@@ -33,10 +29,10 @@ You must have the following in order to manage companies in Workfront:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Access level configurations*</strong> </td> 
+   <td role="rowheader">Access level configurations*</td> 
    <td> <p>One of the following:</p> 
     <ul> 
      <li> <p>The System Administrator access level, which allows you to edit any company in the system. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 

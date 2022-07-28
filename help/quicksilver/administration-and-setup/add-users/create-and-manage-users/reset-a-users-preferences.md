@@ -3,12 +3,12 @@ title: Reset a user's preferences
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: As an  Adobe Workfront administrator, you can reset or remove the user preference settings for any user in the Workfront system. Individual users can also reset their own user preference settings.
+description: As an Adobe Workfront administrator, you can reset or remove the user preference settings for any user in the Workfront system. Individual users can also reset their own user preference settings.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
 ---
-
 # Reset a user's preferences
 
 As an Adobe Workfront administrator, you can reset or remove the user preference settings for any user in the Workfront system.
@@ -25,11 +25,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -54,7 +54,7 @@ When you reset user preferences, some preferences are reverted to the system def
  <tbody> 
   <tr> 
    <td>Views</td> 
-   <td> <p> Reverted to the system default</p> <p>Existing Views are not deleted. You can select them again.<br></p> </td> 
+   <td> <p> Reverted to the system default</p> <p>Existing Views are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
    <td>Filters</td> 
@@ -62,7 +62,7 @@ When you reset user preferences, some preferences are reverted to the system def
   </tr> 
   <tr> 
    <td>Groupings</td> 
-   <td> <p>Reverted to the system default</p> <p>Existing Groupings&nbsp;are not&nbsp;deleted. You can select them again.</p> </td> 
+   <td> <p>Reverted to the system default</p> <p>Existing Groupings are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
    <td>Recent Items list</td> 
@@ -110,4 +110,3 @@ When you reset user preferences, some preferences are reverted to the system def
    Or
 
    To reset only custom tabs, select **Reset Tabs**.
-

@@ -6,19 +6,19 @@ title: Set up exchange rates
 description: Set up exchange rates
 feature: System Setup and Administration
 role: Admin
+exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
 ---
-
 # Set up exchange rates
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***&nbsp;DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-As an Adobe Workfront administrator, you can set up currency exchange&nbsp;rates in Workfront. This includes the following:
+As an Adobe Workfront administrator, you can set up currency exchange rates in Workfront. This includes the following:
 
-* Setting the default currency for the Workfront&nbsp;system
+* Setting the default currency for the Workfront system
 * Updating exchange rates in Workfront to match current exchange rates
-* Configuring the exchange rates for&nbsp;multiple currencies (doing so enables&nbsp;users to choose a default currency for individual projects)
+* Configuring the exchange rates for multiple currencies (doing so enables users to choose a default currency for individual projects)
 
 Exchange rates impact all financial elements in Workfront. The Base Currency is the default currency for all projects throughout the system, unless it is overridden for a given project or job role. You can also select to display financial information in currencies available in your system that are different than the base currency or that of the project when viewing them in a report or list. For more information, see [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
@@ -31,7 +31,7 @@ The way that you set up exchange rates affects whether users can modify exchange
 
 >[!IMPORTANT]
 >
->Exchange rates in Workfront&nbsp;are not dynamic; the value that you set must&nbsp;be updated when changes in exchange&nbsp;rates occur.&nbsp;
+>Exchange rates in Workfront are not dynamic; the value that you set must be updated when changes in exchange rates occur. 
 
 ## Access requirements
 
@@ -43,11 +43,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -60,17 +60,17 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
-1. Click **Project Preferences**&nbsp;> **Exchange Rates.** 
+1. Click **Project Preferences** > **Exchange Rates.** 
 
 1. Click**Add Currency.**
 1. Begin typing the name of the currency, then click it when it appears in the drop-down list.  
 
 1. In the provided field, specify the rate for the currency that you selected, as it relates to the currency that is set as the base currency in the system.
-1. (Optional) Set the currency&nbsp;as the base (default) currency for Workfront.
+1. (Optional) Set the currency as the base (default) currency for Workfront.
 
    This is the currency that is used as the default for all projects and reports throughout the system.
 
-1. Click**Save**&nbsp;to save your changes.&nbsp;
+1. Click**Save** to save your changes. 
 
 ## Enable users to modify the default currency for a project
 
@@ -88,7 +88,7 @@ For information about how users can change the default currency on a given proje
 
 Users can modify the currency for a job role when the following conditions are met:
 
-* The user has a Plan license with administrative access to Job&nbsp;Roles.
+* The user has a Plan license with administrative access to Job Roles.
 
   For more information, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 

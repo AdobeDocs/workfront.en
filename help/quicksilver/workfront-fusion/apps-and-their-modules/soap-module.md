@@ -8,8 +8,8 @@ title: SOAP module
 description: You can use the SOAP module to connect to SOAP APIs in Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
+exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
 ---
-
 # SOAP module
 
 You can use the SOAP module to connect to SOAP APIs in Adobe Workfront Fusion.

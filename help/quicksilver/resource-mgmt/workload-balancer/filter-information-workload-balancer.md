@@ -2,11 +2,11 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Manage filters in the Workload Balancer
-description: "NOTE: when they add custom fields to filtering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down >> ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER)"
+description: 'NOTE: when they add custom fields to filtering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down &gt;&gt; ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER)'
 author: Alina
 feature: Resource Management
+exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
 ---
-
 # Manage filters in the Workload Balancer
 
 <!--
@@ -394,5 +394,4 @@ The filters that you mark as a favorite do not count towards your system Favorit
 1. The filter is listed in the **Favorited** section inside the filter panel. 
 1. (Optional) Click the **Favorite** icon again to remove the filter from the list of favorite filters
 (I logged bugs for "Favorited" and "Unfavorite" wordings - make sure these have not updated)
---> 
-
+-->

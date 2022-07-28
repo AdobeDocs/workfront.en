@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-groups
 title: Move a group
 description: You can move a group under another group that you manage.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: f5227454-457d-40d3-865c-c2551471d83e
 ---
-
 # Move a group
 
 You can move a group under another group that you manage.
@@ -23,7 +23,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -55,4 +55,3 @@ You must have the following to perform the steps in this article:
 >[!TIP]
 >
 >You can also make a subgroup a top-level group. For instructions, see the section [Remove a subgroup from its parent group and make it a top-level group](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) in the article [Manage a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
-

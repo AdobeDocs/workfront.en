@@ -5,8 +5,8 @@ title: Add existing tasks or issues to the Kanban board
 description: You can add any task or issue to a Kanban board if you have Manage access to the project.
 author: Lisa
 feature: Agile
+exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
 ---
-
 # Add existing tasks or issues to the Kanban board
 
 You can add any task or issue to a Kanban board if you have Manage access to the project. Keep the following in mind when moving a task or issue to a Kanban board:
@@ -54,4 +54,3 @@ To add a task or issue to a Kanban board:
 1. If you are adding tasks, click **Add Stories**.  
    Or  
    If you are adding issues, click **Add Issues**.
-

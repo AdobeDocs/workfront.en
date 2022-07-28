@@ -7,8 +7,8 @@ description: You can delete a custom condition.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
 ---
-
 # Delete a custom condition
 
 ## Access requirements
@@ -21,11 +21,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
 1. Click **Project Preferences** > **Conditions**. 
 
    <!--
-   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
+   <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
    -->
 
 1. Select the tab of the object type (**Project**, **Task**, or **Issue**) where the condition that you want to delete is located.
@@ -57,6 +57,6 @@ You must have the following access to perform the steps in this article:
 
 >[!NOTE]
 >
->You cannot delete&nbsp;the built-in conditions, which are On Target, At Risk, and In Trouble. However, you can change their names and colors.
+>You cannot delete the built-in conditions, which are On Target, At Risk, and In Trouble. However, you can change their names and colors.
 
 For information about custom conditions, see [Custom conditions](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

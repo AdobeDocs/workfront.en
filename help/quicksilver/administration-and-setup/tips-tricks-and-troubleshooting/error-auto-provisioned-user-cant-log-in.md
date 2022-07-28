@@ -8,8 +8,8 @@ description: If an auto-provisioned user tries to log in for the first time and 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 4c88933e-d3da-447e-ab6c-be9261a94a19
 ---
-
 # Error: Auto-provisioned user can't log in
 
 When an auto-provisioned user tries to log in for the first time, they receive the following error:
@@ -30,11 +30,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

@@ -5,8 +5,8 @@ title: Create an agile story
 description: You can create an agile story on an iteration in various ways. After you create an agile story, you can add subtasks to the story.
 author: Lisa
 feature: Agile
+exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
 ---
-
 # Create an agile story
 
 You can create an agile story on an iteration in various ways. After you create an agile story, you can add subtasks to the story.
@@ -114,4 +114,3 @@ You can create a subtask to an agile story by using either of the following meth
 * By using the **Subtasks** tab, as described in [Create subtasks](../../manage-work/tasks/create-tasks/create-subtasks.md#creating-subtasks) in [Create subtasks](../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 * Directly from the story board, as described in [Create an iteration](../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
-

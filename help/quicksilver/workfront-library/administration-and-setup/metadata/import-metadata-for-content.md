@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: metadata
 title: Use Workfront Library's import tool to add metadata to content
 description: If you're new to Workfront Library and have just uploaded hundreds or thousands of assets, there's no need to manually add metadata to each asset individually. A Workfront Library Administrator can easily import metadata to these assets using a CSV file. To learn more about metadata, see Overview of metadata in Workfront Library.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: fd1652b6-6053-43e9-9d6d-6ede5b8bbcc9
 ---
-
 # Use Workfront Library's import tool to add metadata to content
 
 If you're new to Workfront Library and have just uploaded hundreds or thousands of assets, there's no need to manually add metadata to each asset individually. A Workfront Library Administrator can easily import metadata to these assets using a CSV file. To learn more about metadata, see [Overview of metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
@@ -43,4 +43,3 @@ After completing the actions above, you can import the file.
    If a row in the CSV file fails to map to an asset in Workfront Library, a link appears allowing you to download a report detailing the filenames and filepath of rows that did not import. You may need to manually update the metadata for these assets.
 
    ![](assets/download-error-report-350x256.png)
-

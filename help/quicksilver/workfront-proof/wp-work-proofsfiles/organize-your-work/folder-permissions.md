@@ -6,9 +6,9 @@ navigation-topic: organize-your-work-workfront-proof
 title: Understand Folder Permissions in Workfront Proof
 description: If a person has permission to see an item in a folder, they can also see the folder itself. However, they can see only the items in the folder that have been explicitly shared with them.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 96162fe8-eef9-40f4-bc94-02911b970f02
 ---
-
 # Understand Folder Permissions in Workfront Proof
 
 >[!IMPORTANT]
@@ -67,4 +67,3 @@ You can set this for each person individually on the New folder page and change 
 >* The Creator and Owner of the folder will always have access to it and will not be removable. 
 >* Only the Creator and Owner of the private folder can delete the folder. 
 >
-

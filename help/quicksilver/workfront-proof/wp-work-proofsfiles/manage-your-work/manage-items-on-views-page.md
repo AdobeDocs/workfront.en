@@ -5,9 +5,9 @@ navigation-topic: manage-your-work-workfront-proof
 title: Manage Items on the Views Page in Workfront Proof
 description: The Views page allows you to see and work with all of your proofs, files and folders in one place.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
 ---
-
 # Manage Items on the Views Page in Workfront Proof
 
 >[!IMPORTANT]
@@ -183,4 +183,3 @@ If you have the edit rights to do so, you can move proofs, files and folders to 
 
    * To move one item, click and hold it, dragging and dropping it to the folder where you want to put it.
    * To move multiple items at the same time, you can select the check boxes to the left of the items, then click **Move to**&nbsp;above the list, then select the folder where you want to put them, or create a new folder for them.
-

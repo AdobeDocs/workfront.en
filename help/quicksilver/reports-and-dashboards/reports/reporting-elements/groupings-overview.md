@@ -6,8 +6,8 @@ title: Groupings overview in Adobe Workfront
 description: Groupings overview in Adobe WorkfrontGroupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)"
 author: Nolan
 feature: Reports and Dashboards
+exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
 ---
-
 # Groupings overview in Adobe Workfront
 
 <!--
@@ -32,7 +32,7 @@ You can add up to three groupings to a report. You can organize your information
 
 In a standard grouping report, the first grouping is a darker color, the second and third groupings are lighter. You cannot customize the color of the highlight for your grouping, or the font of the grouping name. The number in parentheses after the name of the grouping represents the number of results under that grouping. If your report spans multiple pages, ensure that you display *All* the results in the report or list to get an accurate count for your results under each grouping.
 
-![](assets/screen-shot-2016-10-11-at-4.05.35-pm-350x43.png)
+![Sample grouping](assets/grouping-example-blue.png)
 
 Consider the following when working with groupings:
 
@@ -78,6 +78,3 @@ How you remove a grouping depends on whether you initially created the grouping,
 * **If the grouping was shared with you and you remove it**, the grouping is removed only for you. The user who originally created it and any other users it has been shared with still have access to the grouping.
 
 For information about removing a grouping, see the article [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
-
-
-

@@ -4,12 +4,12 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
-title: HTTP > Make a request module
-description: The Adobe Workfront Fusion HTTP > Make a request module is a universal module that enables you to configure an HTTP request and submit it to a server. The received HTTP response is then contained in the output bundle.
+title: HTTP &gt; Make a request module
+description: The Adobe Workfront Fusion HTTP &gt; Make a request module is a universal module that enables you to configure an HTTP request and submit it to a server. The received HTTP response is then contained in the output bundle.
 author: Becky
 feature: Workfront Fusion
+exl-id: 7857c395-ce84-480e-8fa2-065035ac5b95
 ---
-
 # HTTP > Make a request module
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
@@ -158,4 +158,3 @@ If you see the map button above a field or function, you can use it to set varia
 >To make sure your JSON is valid, you can use one of the available online services such as [https://jsonlint.com/](https://jsonlint.com/). You can also use JSON > Create JSON module to create the JSON dynamically and take care of all the necessary escaping.
 >
 >Mixing JSON pieces with expressions and items directly in the Request content field is not recommended as it can result in invalid JSON.
-

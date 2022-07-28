@@ -5,9 +5,9 @@ navigation-topic: manage-your-billing-workfront-proof
 title: Downloading Your Workfront Proof Invoice
 description: On the first day of a new billing period, your subscription invoice is sent to the main Billing contact on your account and to the Billing CC email address, if you have one defined.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 6bfb82b8-f127-4dac-a1cf-7c7962a86e48
 ---
-
 # Downloading Your Workfront Proof Invoice
 
 >[!IMPORTANT]
@@ -56,4 +56,3 @@ To change the billing information on your account, go to the Billing contact and
 For information on how to change the credit card details on your account, see [Choosing Your Payment Method in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
 
 <!--For the detailed information on payments and invoicing, see [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md).&nbsp;-->
-

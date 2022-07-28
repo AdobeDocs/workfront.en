@@ -5,8 +5,8 @@ title: Assign work in bulk using the Workload Balancer
 description: Assign work in bulk using the Workload Balancer
 author: Alina
 feature: Resource Management
+exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 ---
-
 # Assign work in bulk using theWorkload Balancer
 
 <!--

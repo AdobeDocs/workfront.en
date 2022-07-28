@@ -3,13 +3,13 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: "Kick-Starts Scenario: Company, Group, Role, and User Kick-Starts Preparation"
+title: 'Kick-Starts Scenario: Company, Group, Role, and User Kick-Starts Preparation'
 description: When you begin implementing Adobe Workfront, rather than manually inputting data, you can import your customer list, internal departments, job roles, and user information.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
 ---
-
 # Kick-Starts Scenario: Company, Group, Role, and User Kick-Starts Preparation
 
 When you begin implementing Adobe Workfront, rather than manually inputting data, you can import your customer list, internal departments, job roles, and user information.
@@ -24,11 +24,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -61,7 +61,7 @@ The following table displays the Companies, Groups, and Roles to import:
  </tbody> 
 </table>
 
-Role names must be unique, existing&nbsp;job roles cannot be imported.
+Role names must be unique, existing job roles cannot be imported.
 
 The following tables display the users to import and several user attributes for each:
 
@@ -160,7 +160,7 @@ The following tables display the users to import and several user attributes for
 
 ## Input company information
 
-1. Open the **Workfront.xlsx**&nbsp;file you just downloaded.
+1. Open the **Workfront.xlsx** file you just downloaded.
 
    >[!TIP]
    >
@@ -176,8 +176,8 @@ The following tables display the users to import and several user attributes for
 
    ![](assets/companyid--1--350x78.png)
 
-1. Specify&nbsp;TRUE&nbsp;into the **isNew**&nbsp;column.
-1. Repeat this action for each company being added. (In this example, complete this action for&nbsp;rows 3-6, because four&nbsp;companies are being added.)
+1. Specify TRUE into the **isNew** column.
+1. Repeat this action for each company being added. (In this example, complete this action for rows 3-6, because four companies are being added.)
 
    ![](assets/cmpyisnew-350x86.png)
 
@@ -189,7 +189,7 @@ The following tables display the users to import and several user attributes for
 
 1. Set a Name.
 
-   Specify the names of each customer in&nbsp;the **setName**&nbsp;column.
+   Specify the names of each customer in the **setName** column.
 
    ![](assets/companyid-350x78.png)
 
@@ -199,7 +199,7 @@ The following tables display the users to import and several user attributes for
 
    ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
 
-1. Set the **isNew**&nbsp;column.According to the scenario, 4 groups will be imported, so specify TRUE into rows 4 through 7 for the 'isNew' column.
+1. Set the **isNew** column.According to the scenario, 4 groups will be imported, so specify TRUE into rows 4 through 7 for the 'isNew' column.
 1. Specify a unique ID.
 
    This must be done for each row for the ID column. Integers starting at 1 work well when creating new records.
@@ -208,13 +208,13 @@ The following tables display the users to import and several user attributes for
 
 1. Set a Name.
 
-   Specify the names of each department in&nbsp;the **setName**&nbsp;column.
+   Specify the names of each department in the **setName** column.
 
    ![](assets/groupnames-350x85.png)
 
-   Specify role information.&nbsp;Go to the ROLE Role sheet.
+   Specify role information. Go to the ROLE Role sheet.
 
-1. Unless you have already created or deleted roles in your account, this sheet should display 8 roles that are provisioned with every account of&nbsp;Workfront.
+1. Unless you have already created or deleted roles in your account, this sheet should display 8 roles that are provisioned with every account of Workfront.
 
    ![](assets/groupnames-350x85.png)
 
@@ -226,7 +226,7 @@ The following tables display the users to import and several user attributes for
 
 1. Specify a unique ID.
 
-   This must be done for each row for the ID column. Integers starting at 1 work well when creating new records.&nbsp;
+   This must be done for each row for the ID column. Integers starting at 1 work well when creating new records. 
 
    ![](assets/usersheet-350x16.png)
 
@@ -246,33 +246,33 @@ The following tables display the users to import and several user attributes for
 
    ![](assets/rolenames-350x104.png) ![](assets/emptyusersheet-350x52.png)
 
-1. Set True value by specifying&nbsp;TRUE into rows 4 through 9 for the 'isNew' column, since 6 users are being imported.
+1. Set True value by specifying TRUE into rows 4 through 9 for the 'isNew' column, since 6 users are being imported.
 
    ![](assets/userisnew-350x52.png)
 
-1. Set a unique ID by specifying&nbsp;a unique ID in each row for the ID column. Typically integers starting at 1 work well for new records.
+1. Set a unique ID by specifying a unique ID in each row for the ID column. Typically integers starting at 1 work well for new records.
 
    ![](assets/userisnew-350x52.png)
 
-1. Input the names of each user into the 'setFirstName'&nbsp;and 'setLastName' columns.
+1. Input the names of each user into the 'setFirstName' and 'setLastName' columns.
 
    ![](assets/usernames-350x52.png)
 
-1. Set detail values by specifying&nbsp;values into the 'setEmail,'&nbsp;'setPassword,' and 'setUsername' columns.
+1. Set detail values by specifying values into the 'setEmail,' 'setPassword,' and 'setUsername' columns.
 
    ![](assets/usercredentials-350x52.png)
 
 1. Specify Access Level values.
 
-   For example, Chris Manning, who is a Team Member, look up the ID on the ACSLVL Access Level sheet for the Team Member access level. Copy the ID into your clipboard, and on the USER User sheet paste it in the **setAccessLevelID** column on Chris' row.&nbsp;
+   For example, Chris Manning, who is a Team Member, look up the ID on the ACSLVL Access Level sheet for the Team Member access level. Copy the ID into your clipboard, and on the USER User sheet paste it in the **setAccessLevelID** column on Chris' row. 
 
    Repeat this step for each user and access level.
 
    ![](assets/copyalid-350x171.png) ![](assets/pastealid-350x59.png)
 
-1. Specify&nbsp;Home Group details.
+1. Specify Home Group details.
 
-   According to the scenario, Chris Manning belongs to the Marketing group. On the GROUP Group sheet, locate the ID for the Marketing group, copy it into the clipboard, and on the USER User sheet paste it in the **setHomeGroupID**column on Chris' row.&nbsp;​Repeat this step for each user and group assignment.
+   According to the scenario, Chris Manning belongs to the Marketing group. On the GROUP Group sheet, locate the ID for the Marketing group, copy it into the clipboard, and on the USER User sheet paste it in the **setHomeGroupID**column on Chris' row. ​Repeat this step for each user and group assignment.
 
    ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
 
@@ -288,7 +288,7 @@ The following tables display the users to import and several user attributes for
 
 1. Specify Job Role details.
 
-   According to the scenario, Chris Manning will have the Business Analyst role. On the ROLE Role sheet, locate the ID for the Business Analyst role, copy it into the clipboard, and on the USER User sheet paste it in the 'setRoleID' column on Chris' row.&nbsp;​Repeat this step for each user and group assignment.
+   According to the scenario, Chris Manning will have the Business Analyst role. On the ROLE Role sheet, locate the ID for the Business Analyst role, copy it into the clipboard, and on the USER User sheet paste it in the 'setRoleID' column on Chris' row. ​Repeat this step for each user and group assignment.
 
    ![](assets/copyroleid-350x149.png)
 
@@ -298,4 +298,3 @@ The following tables display the users to import and several user attributes for
 1. Import the Excel File.
 
    Follow the directions provided in the **Importing Kick Start Files** section of this article.
-

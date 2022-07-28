@@ -7,8 +7,8 @@ description: If you create a custom  internal help site  containing information 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
 ---
-
 # Configure a custom help URL
 
 If you create a custom  internal help site  containing information about how your organization uses Workfront, you can configure the Main Menu Help icon to go to that site.
@@ -31,11 +31,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

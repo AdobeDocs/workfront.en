@@ -6,8 +6,8 @@ title: Text Mode resources
 description: Text Mode resources
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 892f1746-b9c6-4414-bfa1-24f68a3be6fb
 ---
-
 # Text Mode resources
 
 <!--
@@ -48,4 +48,3 @@ This section contains the following articles:
 * [Create "OR" statements in text mode filters](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md) 
 * [Create complex Text Mode filters using EXISTS statements](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md) 
 * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)
-

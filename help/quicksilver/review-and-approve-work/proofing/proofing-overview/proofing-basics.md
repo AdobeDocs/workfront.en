@@ -6,8 +6,8 @@ title: Proofing overview
 description: Proof Permission Profile overview
 author: Courtney
 feature: Digital Content and Documents
+exl-id: d15819af-7860-489c-b722-0dbaf6d71e69
 ---
-
 # Proofing overview
 
 * [Proof Permission Profile overview](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md) 
@@ -19,5 +19,5 @@ feature: Digital Content and Documents
 * [Document reprocessing for proofing overview](../../../review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md) 
 * [Supported proofing file types and size limits overview](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) 
 * [Proof security overview](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md) 
+* [Proof progress status and overview](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
 * [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
-

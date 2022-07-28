@@ -5,8 +5,8 @@ title: Lock or unlock a proof
 description: You can manually lock and unlock a proof any time in the review process.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
 ---
-
 # Lock or unlock a proof
 
 You can manually lock and unlock a proof any time in the review process.
@@ -76,4 +76,3 @@ To unlock a proof:
 1. In the left panel, click the **Unlock** icon ![](assets/unlock-proof-icon.png), then click **Yes, unlock**.
 
    ![](assets/copy-of-unlock-proof-350x279.png)
-

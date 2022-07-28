@@ -3,19 +3,17 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Create and manage job roles
-description: Create and manage job roles
+description: As an Adobe Workfront administrator or a user with administrative access to Job Roles, you can create job roles which can be assigned to users and delete default job roles that are not relevant to your organization.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
 ---
-
 # Create and manage job roles
 
-<!--
-**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
--->
+<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-As an Adobe Workfront administrator or a user with administrative access to Job&nbsp;Roles, you can create job roles which can be assigned to users and delete default job roles that are not relevant to your organization. For information about administrative access in Workfront, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+As an Adobe Workfront administrator or a user with administrative access to Job Roles, you can create job roles which can be assigned to users and delete default job roles that are not relevant to your organization. For information about administrative access in Workfront, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 ## Access requirements
 
@@ -31,7 +29,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -56,7 +54,7 @@ You must have the following:
     <tbody> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>Indicate a name for the job role.&nbsp;This is the name that displays everywhere in&nbsp;Workfront where the Job&nbsp;Role field displays. </p> <p>Tip: The name of a job role may contain up to 255 characters. However, longer names might be truncated in certain areas of Workfront. </p> </td> 
+      <td> <p>Indicate a name for the job role. This is the name that displays everywhere in Workfront where the Job Role field displays. </p> <p>Tip: The name of a job role may contain up to 255 characters. However, longer names might be truncated in certain areas of Workfront. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>Is Active</span> </td> 
@@ -72,7 +70,7 @@ You must have the following:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>Base Currency</span> </td> 
-      <td> <p><span>This is the Base Currency, as set in the Setup area by your Workfront administrator. For information, see</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a> .</p> <p>Tip: <span>You cannot edit the Base Currency at the job role level.&nbsp;This field is dimmed and serves as a reminder for what the base currency is for your system.</span> </p> </td> 
+      <td> <p><span>This is the Base Currency, as set in the Setup area by your Workfront administrator. For information, see</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a> .</p> <p>Tip: <span>You cannot edit the Base Currency at the job role level. This field is dimmed and serves as a reminder for what the base currency is for your system.</span> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Cost/ Hr.</td> 
@@ -114,21 +112,21 @@ You must have the following:
 
    >[!TIP]
    >
-   >Job roles are an integral&nbsp;part of managing resources. To use the resource planning tools, job roles need a cost and billing rate associated with them. For information, see [Get started with Resource Management](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+   >Job roles are an integral part of managing resources. To use the resource planning tools, job roles need a cost and billing rate associated with them. For information, see [Get started with Resource Management](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-1. Click **Create Job Role**. The job role is now available to be assigned to tasks, issues, approvals, or you can share layout templates or other objects with it. For information about all uses of job roles in&nbsp;Workfront, see [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). For information about deleting a job role, see [Delete job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
+1. Click **Create Job Role**. The job role is now available to be assigned to tasks, issues, approvals, or you can share layout templates or other objects with it. For information about all uses of job roles in Workfront, see [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). For information about deleting a job role, see [Delete job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Delete a job role</h2>
 <ol data-mc-continue="false">
-<li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <strong>Setup</strong> <img src="assets/gear-icon-settings.png">.</li>
+<li value="1">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <strong>Setup</strong> <img src="assets/gear-icon-settings.png">.</li>
 <li value="2">Click<strong>Job Roles.</strong></li>
 <li value="3">Select the job role that you want to delete, then click <strong>Delete.</strong></li>
-<li value="4">If there are any objects (users, tasks, issues) that&nbsp;are assigned to the job role, do one of the following:<br>
+<li value="4">If there are any objects (users, tasks, issues) that are assigned to the job role, do one of the following:<br>
 <ul>
-<li><p><strong>Replace the job role with a different job role:</strong> Select the new job role from the drop-down list.</p><p>Any current and past resource allocations that are&nbsp;associated with the deleted job role are transferred to the job role that you select.</p><p>Users who have only one job role assigned to&nbsp;them are reassigned to the job role that you select; users who have a secondary job role assigned to them are not reassigned to the job role that you select.</p></li>
-<li><p><strong>Delete the job role and its resource allocation:</strong> Select<strong>None</strong>&nbsp;from the drop-down list.</p><note type="important">
+<li><p><strong>Replace the job role with a different job role:</strong> Select the new job role from the drop-down list.</p><p>Any current and past resource allocations that are associated with the deleted job role are transferred to the job role that you select.</p><p>Users who have only one job role assigned to them are reassigned to the job role that you select; users who have a secondary job role assigned to them are not reassigned to the job role that you select.</p></li>
+<li><p><strong>Delete the job role and its resource allocation:</strong> Select<strong>None</strong> from the drop-down list.</p><note type="important">
 Deleting a job role deletes all current and past resource allocation related to that job role for all projects.
 </note><p>​For example, if a task or issue is assigned to only that job role, the task or issue is unassigned after the job role is deleted.</p></li>
 </ul></li>
@@ -136,4 +134,3 @@ Deleting a job role deletes all current and past resource allocation related to 
 </ol>
 </div>
 -->
-

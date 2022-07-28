@@ -7,8 +7,8 @@ description: To improve system performance and to make forms easier to use for u
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
 ---
-
 # Delete a custom field or widget from the system
 
 To improve system performance and to make forms easier to use for users, you might want to remove custom fields and widgets from your system when they are no longer being used.
@@ -35,7 +35,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -67,7 +67,7 @@ You must have the following to perform the steps in this article:
    1. Add the custom fields to the new form that you want to remove from the original custom form, as described in [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
    1. Save the new custom form.
 
-1. Limit access to the custom form to only users with&nbsp;administrative access, as described in [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).&nbsp;
+1. Limit access to the custom form to only users with administrative access, as described in [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md). 
 1. Apply the new custom form to the objects where the original custom form is already applied, as described in [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
    Applying the new custom form to these objects ensures that historical reporting data is not affected.
@@ -75,4 +75,3 @@ You must have the following to perform the steps in this article:
 1. Modify the original custom form and remove the custom fields that you added to the new form (in Step 2).
 
    The fields that you removed from the original custom form are now available only on the new custom form that you created. Users are able to see the custom form on the object, but users without administrative access are not able to modify the custom form.
-

@@ -2,12 +2,12 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: "Adobe Workfront Goals 21.2 release activity: Week of April 19, 2021"
+title: 'Adobe Workfront Goals 21.2 release activity: Week of April 19, 2021'
 description: This page describes all enhancements made with the 21.2 release for Adobe Workfront Goals to the Preview environment the week of April 19, 2021. These enhancements will be made available in the Production environment in the first quarter of 21.2.
 author: Luke
-feature: "Product Announcements, Workfront Goals"
+feature: Product Announcements, Workfront Goals
+exl-id: afff3bfc-f888-46fd-8dc9-18b89289d8cd
 ---
-
 # Adobe Workfront Goals 21.2 release activity:&nbsp;Week of April 19, 2021
 
 This page describes all enhancements made with the 21.2 release for Adobe Workfront Goals to the Preview environment the week of April 19, 2021. These enhancements will be made available in the Production environment in the first quarter of 21.2.
@@ -55,4 +55,4 @@ You can now share a goal you create or which was shared with you and control who
 
 For information about sharing goals, see [Share a goal in Workfront Goals](../../../../workfront-goals/workfront-goals-settings/share-a-goal.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/539894647/9d9ce20149) 
+[Watch a video demonstration of this feature.](https://vimeo.com/539894647/9d9ce20149)

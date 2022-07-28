@@ -6,10 +6,10 @@ navigation-topic: create-and-manage-subgroups
 title: Manage a subgroup
 description: As an group administrator of a subgroup, you can create, move, view, edit, copy, rename, export, and delete the subgroup. You can also make a subgroup a top-level group by removing it from its parent group.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
 ---
-
 # Manage a subgroup
 
 As an group administrator of a subgroup, you can create, move, view, edit, copy, rename, export, and delete the subgroup.
@@ -30,7 +30,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -65,9 +65,9 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Create a new subgroup</td> 
-      <td> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">If you want to create the new subgroup one level down from the group you are viewing, click <strong>Add subgroup</strong>.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Or, if you want to create the new subgroup beneath another subgroup in the list, select that subgroup, then click <strong>Add s</strong><strong>ubgroup</strong>.</p> <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md" class="MCXref xref">Create a subgroup</a>.</p> <p>A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups.</p> </td> 
+      <td> <p>If you want to create the new subgroup one level down from the group you are viewing, click <strong>Add subgroup</strong>.</p> <p>Or, if you want to create the new subgroup beneath another subgroup in the list, select that subgroup, then click <strong>Add s</strong><strong>ubgroup</strong>.</p> <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md" class="MCXref xref">Create a subgroup</a>.</p> <p>A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups.</p> </td> 
      </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+     <tr> 
       <td role="rowheader">Move a subgroup </td> 
       <td> <p>You can move existing subgroups under another group you administer.</p> <p>A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups.</p> 
        <ol> 
@@ -81,7 +81,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Edit a subgroup</td> 
-      <td> <p>Select the subgroup you want to edit, then click the Edit icon <img src="assets/edit-icon.png" data-mc-conditions="QuicksilverOrClassic.Quicksilver">.</p> <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Create a group</a>.</p> </td> 
+      <td> <p>Select the subgroup you want to edit, then click the Edit icon <img src="assets/edit-icon.png">.</p> <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Create a group</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Export one or more subgroups</td> 
@@ -158,4 +158,3 @@ Consider the following when you copy a subgroup.
   ```
 
 * Any subgroup that belongs to a public group is also public, so any user with edit-user access, in or out of the group, can add users to the subgroup.
-

@@ -6,12 +6,12 @@ title: Restore deleted items
 description: Restore deleted items
 feature: System Setup and Administration
 role: Admin
+exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
 ---
-
 # Restore deleted items
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
 If you are a Workfront administrator, you can restore projects, tasks, issues, documents, and templates in Adobe Workfront if they have been deleted in the past 30 days. After 30 days, these items are permanently deleted and cannot be restored.
@@ -36,11 +36,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,19 +77,19 @@ When you restore a project, task, or issue, the following associated information
 
 * Baselines
 
-  Task baselines are recovered when you restore their parent project or task, but not&nbsp;when you restore individually deleted tasks.
+  Task baselines are recovered when you restore their parent project or task, but not when you restore individually deleted tasks.
 
 * Hours (and hour IDs)
 
   Whether hours are restored to the deleted item depends on the settings you chose when configuring preferences for timesheets and hours. For more information, see [Configure affect on hours when an object is deleted and restored](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
 
-* The URL of the&nbsp;item
+* The URL of the item
 
-  When restored, the URL of the item&nbsp;remains the same. If people have created browser bookmarks for the item, they&nbsp;remain valid.
+  When restored, the URL of the item remains the same. If people have created browser bookmarks for the item, they remain valid.
 
 * Access and permissions
 
-  Users who had access to the item&nbsp;before it was deleted regain access after it is restored.
+  Users who had access to the item before it was deleted regain access after it is restored.
 
 * Documents (including proofed documents)
 

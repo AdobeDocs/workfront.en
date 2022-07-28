@@ -2,11 +2,11 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Edit a filter using text mode
-description: "NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)"
+description: 'NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)'
 author: Nolan
 feature: Reports and Dashboards
+exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
 ---
-
 # Edit a filter using text mode
 
 <!--
@@ -170,4 +170,3 @@ For information about creating a report, see [Create a custom report](../../../r
 
 1. Click **Done** if you want to save your changes and continue editing the report or the filter.
 1. Click **Save + Close** to save your report or **Save Filter** to save the filter in the list.
-

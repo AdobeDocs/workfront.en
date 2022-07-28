@@ -6,9 +6,9 @@ navigation-topic: workflow-examples
 title: Basic Proofing Process in Workfront Proof
 description: This example explains the basic workflow between a designer or project manager and one or more reviewers, such as a client.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: fcbbd2d2-dc27-4456-901f-5b1a15d023f8
 ---
-
 # Basic Proofing Process in Workfront Proof
 
 >[!IMPORTANT]
@@ -29,4 +29,4 @@ This example explains the basic workflow between a designer or project manager a
 
 * **New version** (if required) - The designer or project manager amends the file and uploads it to Workfront Proof as a new version. (See .)
 
-You can repeat this process until the proof is approved. 
+You can repeat this process until the proof is approved.

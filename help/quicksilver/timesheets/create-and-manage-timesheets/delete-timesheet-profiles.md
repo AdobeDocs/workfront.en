@@ -5,8 +5,8 @@ title: Delete timesheet profiles
 description: You can delete a timesheet profile.
 author: Lisa
 feature: Timesheets
+exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
 ---
-
 # Delete timesheet profiles
 
 You can delete a timesheet profile.
@@ -51,4 +51,3 @@ You must have the following to perform the steps in this article:
 1. Click **Timesheet Profiles**.
 1. Select at least one timesheet profile that you want to delete, then click **More > Delete**.
 1. On the message box that displays, click **Yes, Delete I**t.
-

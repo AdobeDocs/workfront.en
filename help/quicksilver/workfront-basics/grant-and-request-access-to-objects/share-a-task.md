@@ -5,8 +5,8 @@ navigation-topic: grant-and-request-access-to-objects
 description: Your Adobe Workfront administrator can grant you access to view or edit tasks when they assign access levels. For more information about granting access to tasks, see Grant access to tasks.
 author: Alina
 feature: Get Started with Workfront
+exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
 ---
-
 # Share a task
 
 Your Adobe Workfront administrator can grant you access to view or edit tasks when they assign access levels. For more information about granting access to tasks, see [Grant access to tasks](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).

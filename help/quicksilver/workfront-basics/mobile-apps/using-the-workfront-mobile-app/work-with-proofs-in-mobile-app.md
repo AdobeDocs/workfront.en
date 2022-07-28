@@ -2,11 +2,11 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Review and make decisions on proofs in the Adobe Workfront mobile app
-description: When a proof is assigned to you for approval, it appears in your list of approvals in the mobile app. You can review the proof directly in the app and make a decision on it. For information about reviewing and approving proofs in Adobe Workfront, see Review proofs within Adobe Workfront.
+description: When a proof is assigned to you for approval, it appears in your list of approvals in the mobile app. You can review the proof directly in the app and make a decision on it.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
 ---
-
 # Review and make decisions on proofs in the Adobe Workfront mobile app
 
 When a proof is assigned to you for approval, it appears in your list of approvals in the mobile app. You can review the proof directly in the app and make a decision on it. For information about reviewing and approving proofs in Adobe Workfront, see [Review proofs within Adobe Workfront](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
@@ -79,15 +79,15 @@ After you have reviewed the document proof, you can make a decision in the proof
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Approved</td> 
+      <td role="rowheader"><strong>Approved</strong></td> 
       <td>The proof is ready to move to the next stage of the workflow.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Approved with changes</td> 
+      <td role="rowheader"><strong>Approved with changes</strong></td> 
       <td> <p>The proof requires some changes, but you do not need to see the revision before it moves to the next stage of the workflow.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Rejected</td> 
+      <td role="rowheader"><strong>Rejected</strong></td> 
       <td>The proof is rejected and will not move forward in the workflow.</td> 
      </tr> 
     </tbody> 
@@ -113,4 +113,3 @@ After you have reviewed the document proof, you can make a decision in the proof
    For decisions with reasons, you can choose a different reason or remove the reason.
 
 1. Select **Submit**.
-

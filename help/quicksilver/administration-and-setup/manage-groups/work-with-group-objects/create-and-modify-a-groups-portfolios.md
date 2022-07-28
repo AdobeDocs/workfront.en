@@ -5,10 +5,10 @@ navigation-topic: work-with-a-groups-objects
 title: Create and modify group projects
 description: As a group administrator, when you are viewing a group that you manage in the Groups area, you can view and work with its projects.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
 ---
-
 # Create and modify a group's projects
 
 As a group administrator, when you are viewing a group that you manage in the Groups area, you can view and work with its projects.
@@ -25,7 +25,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront plan</a>*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Adobe Workfront license</a>*</td> 
@@ -77,4 +77,3 @@ You must have the following to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-

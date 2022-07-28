@@ -3,7 +3,8 @@ title: Adobe Workfront Scenario Planner with the 21.3 release
 description: Adobe Workfront Scenario Planner with the 21.3 release
 author: Luke
 draft: Probably
-feature: "Product Announcements, Workfront Scenario Planner"
+feature: Product Announcements, Workfront Scenario Planner
+exl-id: 70e1b54b-2bf9-498a-8a77-9b220543e385
 ---
 # Adobe Workfront Scenario Planner with the 21.3 release
 
@@ -40,4 +41,4 @@ For information, see the following articles:
 * [Customize the landing page using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) 
 * [Customize pinned pages using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 
-[Watch a video demonstration of this feature.](https://vimeo.com/559082874/197496a122) 
+[Watch a video demonstration of this feature.](https://vimeo.com/559082874/197496a122)

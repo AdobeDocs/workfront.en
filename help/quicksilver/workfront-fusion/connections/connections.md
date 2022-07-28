@@ -7,11 +7,11 @@ title: Connections in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
+exl-id: 7fc257ea-0c17-4bf5-aa07-e81f6f2d756c
 ---
-
 # Connections in Adobe Workfront Fusion
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
@@ -33,4 +33,3 @@ This section contains the following articles:
 * [Call the MS Graph REST API via the Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md) 
 * [Keys in Adobe Workfront Fusion](../../workfront-fusion/connections/keys.md) 
 * [Receive a webhook from a web service](../../workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)
-

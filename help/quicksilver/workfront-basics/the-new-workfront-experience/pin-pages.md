@@ -3,8 +3,9 @@ navigation-topic: the-new-workfront-experience
 title: Pin pages to customize your workspace
 description: You can pin your most important work Adobe Workfront for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in Workfront.
 feature: Get Started with Workfront
+author: Lisa
+exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 ---
-
 # Pin pages to customize your workspace
 
 You can pin your most important work in Adobe Workfront for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in the new Adobe Workfront experience.
@@ -22,11 +23,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -86,4 +87,3 @@ You can rearrange the order that pinned pages appear.
    <!--
    <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the arrow next to the pin name and select <strong>Unpin</strong>.</p> <p> <img src="assets/unpinpage.png" class="preview" alt="Unpin page"> </p> <p>The page is no longer accessible from the top of any page in Workfront.</p> </li>
    -->
-

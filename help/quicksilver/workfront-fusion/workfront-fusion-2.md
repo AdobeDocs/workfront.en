@@ -7,8 +7,8 @@ title: Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
+exl-id: d28b6344-070a-4cfc-ab5a-b5c279a8b805
 ---
-
 # Adobe Workfront Fusion
 
 >[!NOTE]
@@ -37,8 +37,3 @@ For reference information about various aspects and features found in Workfront 
 * [Errors in Adobe Workfront Fusion](../workfront-fusion/errors/errors.md) 
 * [Organizations in Adobe Workfront Fusion](../workfront-fusion/organizations/organizations.md) 
 * [Apps and their modules](../workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</li>
-  -->
-

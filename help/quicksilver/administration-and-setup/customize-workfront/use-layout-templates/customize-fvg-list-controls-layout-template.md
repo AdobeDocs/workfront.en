@@ -3,12 +3,12 @@ title: Customize Filters, Views, and Groupings using a layout template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: As an Adobe Workfront administrator, you can use a layout template to specify which list controls appear in the Filter, View, and Grouping drop-down menus. These menus appear above lists throughout Workfront, such as the list of tasks for a project.
+description: As a Workfront administrator, you can use a layout template to specify which list controls appear in the Filter, View, and Grouping drop-down menus. These menus appear above lists throughout Workfront, such as the list of tasks for a project.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 ---
-
 # Customize Filters, Views, and Groupings using a layout template
 
 As an Adobe Workfront administrator, you can use a layout template to specify which list controls appear in the Filter, View, and Grouping drop-down menus. These menus appear above lists throughout Workfront, such as the list of tasks for a project:
@@ -29,11 +29,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -111,4 +111,3 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
    >[!TIP]
    >
    >You can click Save at any time to save your progress, then continue to modify the template later.
-

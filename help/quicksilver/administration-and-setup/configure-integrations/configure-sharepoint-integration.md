@@ -5,14 +5,14 @@ product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 description: You can integrate Workfront with SharePoint Online, providing users with the ability to navigate to, link, and add SharePoint documents within Workfront. The functionality provided is similar to that of other Workfront integrations, such as Google Drive, Box, and Dropbox.
 author: Becky, Caroline
-feature: "System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents"
+feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
+exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 ---
-
 # Configure the Legacy SharePoint integration
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
 >[!IMPORTANT]
@@ -43,11 +43,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -219,7 +219,7 @@ When you have created a site app in SharePoint, you can now copy information fro
      </tr> 
      <tr> 
       <td role="rowheader">SharePoint Client ID</td> 
-      <td>Enter the Client ID&nbsp;that you generated in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a Sharepoint site </a>.</td> 
+      <td>Enter the Client ID that you generated in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a Sharepoint site </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">SharePoint Client Secret</td> 
@@ -234,7 +234,7 @@ When you have created a site app in SharePoint, you can now copy information fro
           <ol> 
            <li value="1">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <strong>Setup</strong> <img src="assets/gear-icon-settings.png">.<li><p>In the left panel, click <strong>Documents</strong> &gt; <strong>SharePoint Integration</strong>.</p></li><li><p>Click the SharePoint integration you are setting up, then click Edit.</p></li><li><p>Delete the stem for the master site from the Visible Site Collections field.</p></li><li><p>For each subsite you want to add to your SharePoint integration, enter the stem of the subsite.</p></li><p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p></li> 
           </ol> </p> </li> 
-       </ul> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
+       </ul> <p> </p> <p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -267,7 +267,7 @@ For instructions, see [Link an external document to Workfront](../../documents/a
 >[!IMPORTANT]
 >
 >If the user who linked a folder no longer has access to the external application, Workfront can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company. To ensure continued access, a user with access to the folder must re-link the folder.
->&nbsp;
+> 
 
 
 ## Disable linking to the legacy SharePoint integration{#disable-linking}
@@ -374,7 +374,7 @@ To ensure continued access, a user with access to the folder must re-link the fo
 
 For information on linking folders from external providers, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-### Problem: I&nbsp;see a "404 not found" error when attempting to add a document from Sharepoint
+### Problem: I see a "404 not found" error when attempting to add a document from Sharepoint
 
 #### Solution:
 

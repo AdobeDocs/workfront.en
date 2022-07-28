@@ -8,8 +8,8 @@ title: Cvent modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Cvent, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
+exl-id: c95b9764-29a5-4d8c-8e6d-68a3969129e0
 ---
-
 # Cvent modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Cvent, as well as connect it to multiple third-party applications and services.
@@ -303,4 +303,3 @@ This search module retrieves information about all records of a specific type.
   </tr> 
  </tbody> 
 </table>
-

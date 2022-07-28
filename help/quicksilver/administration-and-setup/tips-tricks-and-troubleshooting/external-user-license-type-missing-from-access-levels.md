@@ -8,8 +8,8 @@ description: I can no longer see External User license type under Access Levels 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: fcc876d9-0512-424a-a731-6bbacd55af3f
 ---
-
 # External user license type missing from access levels
 
 ## Problem
@@ -26,11 +26,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -46,4 +46,3 @@ You must have the following access to perform the steps in this article:
 1. In the **Security** section, ensure the option **Collaborate with people without Workfront accounts by using their email address** is enabled.
 
    If this option is not enabled, the external user does not appear in Access Level Setup.
-

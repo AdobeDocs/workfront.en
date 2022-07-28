@@ -5,8 +5,8 @@ title: Get started with the Gantt Chart
 description: In Adobe Workfront, there are two Gantt charts with similar functionality - EDIT ME.
 author: Alina
 feature: Work Management
+exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
 ---
-
 # Get started with the Gantt Chart
 
 In Adobe Workfront, there are two Gantt charts with similar functionality:

@@ -2,14 +2,14 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Escaped characters in API Responses
-description: The syntax of some API responses may contain the escape character, "\" (backslash). An escape character indicates that the character or string of characters that immediately follow the escaped character have a special value. For example, \t tells the reading device that "t" should be interpreted as "tab" and not as the letter t. A string of one or more characters following the backslash is called an escape sequence.
+description: Escaped characters in API Responses
 author: John
 feature: Workfront API
+exl-id: 1477b98e-1cdc-4661-b3ee-0b6ab1e8c3ee
 ---
-
 # Escaped characters in API Responses
 
-The syntax of some API responses may contain the escape character, "\" (backslash). An escape character indicates that the character or string of characters that immediately follow the escaped character have a special value. For example, \t tells the reading device that "t" should be interpreted as "tab" and not as the letter t. A string of one or more characters following the backslash is called an escape sequence.&nbsp;
+The syntax of some API responses may contain the escape character, `\` (backslash). An escape character indicates that the character or string of characters that immediately follow the escaped character have a special value. For example, `\t` tells the reading device that `t` should be interpreted as `tab` and not as the letter "t". A string of one or more characters following the backslash is called an escape sequence.
 
 Hexadecimal escaped sequences require the use of valid hexadecimal digits. The following table lists the escape sequences that are encoded in Adobe Workfront API responses:
 
@@ -87,4 +87,3 @@ Hexadecimal escaped sequences require the use of valid hexadecimal digits. The f
   </tr> 
  </tbody> 
 </table>
-

@@ -8,14 +8,12 @@ description: You can associate hour types with your hour entries. Hour types are
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
 ---
-
 # Manage hour types
 
-<!--
-**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
-**Linked to Creating Billing Record</p>
--->
+<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
+**Linked to Creating Billing Record-->
 
 You can associate hour types with your hour entries. Hour types are labels you use to define your hour entries.  
 
@@ -49,11 +47,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -130,4 +128,3 @@ To deactivate an hour type:
 1. Select the hour type you want to deactivate.
 
 1. Click **Deactivate**.
-

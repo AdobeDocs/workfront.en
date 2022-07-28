@@ -7,8 +7,8 @@ description: Groups in your organization might need a project preference configu
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
 ---
-
 # Lock or unlock project preferences for all groups in the system
 
 Groups in your organization might need a project preference configured differently for their unique workf lows. You can unlock the preference for all groups throughout the organization so that they can configure it on their own.
@@ -25,11 +25,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -66,4 +66,3 @@ For instructions on locking or unlocking a system-level project, task, or issue 
      >We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
 
 1. Click **Save**.
-

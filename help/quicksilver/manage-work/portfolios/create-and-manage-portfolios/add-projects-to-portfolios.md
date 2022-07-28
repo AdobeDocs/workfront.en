@@ -4,9 +4,9 @@ navigation-topic: create-and-manage-portfolios
 title: Add projects to a portfolio
 description: We recommend that you add projects to portfolios when you initiate them. However, you can add them to a portfolio at any time during their lifetime.
 author: Alina
-feature: "Work Management, Strategic Planning"
+feature: Work Management, Strategic Planning
+exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 ---
-
 # Add projects to a portfolio
 
 We recommend that you add projects&nbsp;to portfolios when you initiate them. However, you can add them to a portfolio at any time during their lifetime.
@@ -95,4 +95,3 @@ You must have the following access to perform the steps in this article:
 1. Click **Add Projects**.
 
    The project or projects you selected are now associated with the portfolio.&nbsp;
-

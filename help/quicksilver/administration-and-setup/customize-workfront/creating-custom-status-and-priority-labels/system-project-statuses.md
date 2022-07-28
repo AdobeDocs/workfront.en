@@ -4,11 +4,12 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: System project statuses
-description: Workfront has 9 built-in system project statuses.
+description: Workfront has 9 built-in system project statuses. The first 3 in the table below are required, which means that you can unlock, rename, and reorder them, but you cannot hide or delete them. Changing a project status is typically a manual process. However, sometimes a project status is changed automatically, depending on other factors that are happening in the system.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
 ---
-
 # System project statuses
 
 Workfront has 9 built-in system project statuses.
@@ -103,4 +104,3 @@ The following project statuses are provided with your Workfront instance:
 >* Approved
 >* Rejected (or its equivalent)
 >
-

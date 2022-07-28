@@ -3,13 +3,13 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Error message: Invalid Parameter: conversion value"
-description: "You receive the following error message when attempting to change the Format of a Custom Field on an existing Custom Form: 'Invalid Parameter: conversion value `<...>`'"
+title: 'Error message: Invalid Parameter: conversion value'
+description: "You receive the following error message when attempting to change the Format of a Custom Field on an existing Custom Form: 'Invalid Parameter: conversion value `&lt;...&gt;`'"
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
 ---
-
 # Error message: Invalid Parameter: conversion value
 
 ## Problem
@@ -21,7 +21,7 @@ You receive the following error message when attempting to change the Format of 
 
 This message occurs in the following scenario:
 
-For example, you have a Custom Field formatted as Text.&nbsp; Now, you want to change the Format of the Custom Field to Currency. Somewhere in your Adobe Workfront instance, this field is already attached to an object and it has information already specified in it. The existing information in at least one such field is already formatted as Text. Therefore, the Format of the field cannot be changed to Currency.
+For example, you have a Custom Field formatted as Text.  Now, you want to change the Format of the Custom Field to Currency. Somewhere in your Adobe Workfront instance, this field is already attached to an object and it has information already specified in it. The existing information in at least one such field is already formatted as Text. Therefore, the Format of the field cannot be changed to Currency.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ For example, you have a Custom Field formatted as Text.&nbsp; Now, you want to c
   </tr> 
   <tr> 
    <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"><strong>Access level*</strong> </td> 
@@ -53,8 +53,7 @@ Do the following:
 1. Build reports for all the objects that might have this field associated with their Custom Forms.  
    For information about building a report, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Include the Custom Field you are trying to edit in the view of the report, so you can see which object has this field populated with a text value.&nbsp;
+1. Include the Custom Field you are trying to edit in the view of the report, so you can see which object has this field populated with a text value. 
 1. Correct the Custom Field values of the objects that display in a text format and give them a value formatted as Currency; then attempt to change the Format field on the Custom Form again.  
    Or  
-   If you have too many field values already populated with text-formatted information, consider adding a new Custom Field to your Custom Form and format it as Currency.&nbsp;&nbsp;
-
+   If you have too many field values already populated with text-formatted information, consider adding a new Custom Field to your Custom Form and format it as Currency.

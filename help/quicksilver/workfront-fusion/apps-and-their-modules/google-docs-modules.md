@@ -7,9 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Google Docs modules
 description: The Adobe Workfront Fusion Google Docs modules enable you to monitor, create, edit and retrieve documents in your Google Docs and Google Shared Drive (for G Suite users).
 author: Becky
-feature: "Workfront Fusion, Digital Content and Documents"
+feature: Workfront Fusion, Digital Content and Documents
+exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
 ---
-
 # Google Docs modules
 
 The Adobe Workfront Fusion Google Docs modules enable you to monitor, create, edit and retrieve documents in your Google Docs and Google Shared Drive (for G Suite users).
@@ -622,4 +622,3 @@ This action module finds all links in the document and makes them clickable.
   </tr> 
  </tbody> 
 </table>
-

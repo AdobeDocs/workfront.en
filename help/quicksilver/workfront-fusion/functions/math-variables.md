@@ -7,8 +7,8 @@ title: Math variables in Adobe Workfront Fusion
 description: The following math variables are available in the Adobe Workfront Fusion mapping panel.
 author: Becky
 feature: Workfront Fusion
+exl-id: 2fb561d2-0780-4fd6-87b3-5360a02df177
 ---
-
 # Math variables in Adobe Workfront Fusion
 
 ## Access requirements

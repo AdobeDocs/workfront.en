@@ -2,11 +2,11 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Event subscription resource fields
-description: Event subscription resource fields represent triggers for events that result in an event subscription sending an outbound message to a configured endpoint. When a resource field is edited, an UPDATE event is triggered.
+description: Event subscription resource fields
 author: John
 feature: Workfront API
+exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 ---
-
 # Event subscription resource fields
 
 Event subscription resource fields represent triggers for events that result in an event subscription sending an outbound message to a configured endpoint. When a resource field is edited, an UPDATE event is triggered.
@@ -173,7 +173,7 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-   <td> <p>lastUpdateDate</p> <p>Note:  LastUpdateDate will only trigger an event the first time that it is updated during each day. </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>Note: LastUpdateDate will only trigger an event the first time that it is updated during each day. </p> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;</td> 

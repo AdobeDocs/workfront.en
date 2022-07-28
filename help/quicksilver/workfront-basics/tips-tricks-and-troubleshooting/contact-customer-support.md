@@ -4,8 +4,8 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Contact Customer Support
 description: Contact Customer Support
 feature: Get Started with Workfront
+exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
 ---
-
 # Contact Customer Support
 
 <!--
@@ -24,7 +24,7 @@ You can contact Workfront Customer Support 7 days a week, 24 hours a day, throug
 
 * US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
-* Australia:&nbsp;+61 1800 849259
+* Australia: +61 1800 849259
 
 These numbers are also found at the bottom of every page in the Workfront One site ([**one.workfront.com**](https://one.workfront.com/)).
 
@@ -47,16 +47,36 @@ If you are logged in as an Authorized Support Contact, you can contact Workfront
 
 1. Complete the fields in the **Create a Support Case** form. All fields are required.  
 
-   | Subject: |Type a brief question or explanation of the issue you are experiencing. |
-   |---|---|
-   | Description: |Type a detailed description of the issue. Include as much information as possible. |
-   | Priority: |&nbsp; |
-   | Case Product: |Select the product in which you are experiencing the issue. If the issue is not related to a specific product, select None. |
-   | Product Area: |Select the area of the product that best relates to the issue. If the related area is not listed in the drop-down menu, select Not Listed. |
-   | Environment: |Select the environment in which the issue occurs. If you are seeing the issue in both the Production and Sandbox&nbsp;environments, please select&nbsp;Production. |
-   | Customer Region: |&nbsp; |
-
-   {style="table-layout:auto"}
+   <table style="table-layout:auto">
+    <tr>
+        <td><strong>Subject</strong></td>
+        <td>Type a brief question or explanation of the issue you are experiencing.</td>
+    </tr>
+    <tr>
+        <td><strong>Description</strong></td>
+        <td>Type a detailed description of the issue. Include as much information as possible.</td>
+    </tr>
+    <tr>
+        <td><strong>Priority</strong></td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td><strong>Case Product</strong></td>
+        <td>Select the product in which you are experiencing the issue. If the issue is not related to a specific product, select None.</td>
+    </tr>
+    <tr>
+        <td><strong>Product Area</strong></td>
+        <td>Select the area of the product that best relates to the issue. If the related area is not listed in the drop-down menu, select Not Listed.</td>
+    </tr>
+    <tr>
+        <td><strong>Environment</strong></td>
+        <td>Select the environment in which the issue occurs. If you are seeing the issue in both the Production and Sandbox environments, please select Production.</td>
+    </tr>
+    <tr>
+        <td><strong>Customer Region</strong></td>
+        <td> </td>
+    </tr>
+   </table>
 
 1. (Optional) Attach a file, such as an image or video file.
 
@@ -69,4 +89,4 @@ If you are logged in as an Authorized Support Contact, you can contact Workfront
 
 1. Click **Submit** to submit the case to Workfront Customer Support.
 
-If you have any questions or problems submitting a request, please call the Customer Support team. 
+If you have any questions or problems submitting a request, please call the Customer Support team.

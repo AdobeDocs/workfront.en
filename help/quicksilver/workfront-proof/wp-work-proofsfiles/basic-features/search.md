@@ -6,9 +6,9 @@ navigation-topic: basic-features-workfront-proof
 title: Searching Workfront Proof
 description: You can search for the following types of content across the Workfront Proof site - EDIT ME.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc
 ---
-
 # Searching Workfront Proof
 
 >[!IMPORTANT]
@@ -38,7 +38,9 @@ To search the Workfront Proof site:
    * If you enter the name of a previous proof version into the search field, the most recent version of that proof appears in the search results.
    * Parent folders and subfolders are listed separately.
 
-1. (Optional) In the Search results that appear, sort by column by clicking the header at the top of a column. (Optional) Add filtering to your results results by clicking the search icon at the end of the header row. ![Search_filter_in_Search_results.png](assets/search-filter-in-search-results-350x90.png) This adds dropdown menus in which you can select filters to narrow your search.
+1. (Optional) In the Search results that appear, sort by column by clicking the header at the top of a column. (Optional) Add filtering to your results results by clicking the search icon at the end of the header row. ![Search_filter_in_Search_results.png](assets/search-filter-in-search-results-350x90.png) 
+
+This adds dropdown menus in which you can select filters to narrow your search.
 1. ![Search_filter_boxes_appear_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
 
 1. (Optional) Narrow your search by opening the Tags tab and clicking a tag in the navigation sidebar on the left.Items associated with that tag appear in the Search results.  

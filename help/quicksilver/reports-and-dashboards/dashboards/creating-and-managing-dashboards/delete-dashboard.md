@@ -5,8 +5,8 @@ title: Delete a dashboard
 description: If you no longer have use for a dashboard, you can remove it from Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
 ---
-
 # Delete a dashboard
 
 If you no longer have use for a dashboard, you can remove it from Adobe Workfront.

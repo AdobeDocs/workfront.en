@@ -5,8 +5,8 @@ title: Be an Android beta tester
 description: Review this article to become an Android beta tester for the Adobe Workfront mobile app.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
 ---
-
 # Be an Android beta tester
 
 ## Download the beta app
@@ -54,4 +54,3 @@ To stop beta testing the Workfront app:
 1. Search for Workfront, then tap it when it appears in the list.
 1. Scroll down to the **You're a beta tester** section, then tap **Leave**.  
    It takes a few minutes to be removed as a beta tester. You may have to reopen the Play Store to see the changes.
-

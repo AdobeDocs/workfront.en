@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator or a group administrator, you c
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
 ---
-
 # Brand Adobe Workfront using a layout template
 
 You can use a layout template to customize the logos in the top navigation area and on the Main Menu for certain groups, teams, job roles, and users. This is especially useful for groups in a large organization that have their own branding.
@@ -19,7 +19,7 @@ For information about layout templates for groups, see [Create and modify a grou
 >
 >A Workfront administrator can make the same branding customizations for the entire organization at the system level, as explained in [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). But branding in a layout template overrides system-level branding. >
 ><!--
->Maybe add a section about deleting these 2 settings to revert to default branding?</span>>
+>Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->
 
 ## Access requirements
@@ -32,11 +32,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

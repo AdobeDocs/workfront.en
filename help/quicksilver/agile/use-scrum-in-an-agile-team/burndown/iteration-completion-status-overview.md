@@ -6,8 +6,8 @@ title: Iteration completion status overview
 description: The completion information described in this article is displayed above the burndown chart.
 author: Lisa
 feature: Agile
+exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
 ---
-
 # Iteration completion status overview
 
 The completion information described in this article is displayed above the burndown chart.
@@ -48,4 +48,3 @@ The following information is available:
   For example, "(+9 days)" indicates that the Estimated Completion date is 9 working days later than the iteration's planned end date.
 
   For more information, see [Iteration completion status overview](#Understanding-How-Days-Off-Affect-the-Burndown-Chart).
-

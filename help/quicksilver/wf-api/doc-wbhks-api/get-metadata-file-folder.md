@@ -3,16 +3,17 @@ content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
 title: Get metadata for a file or folder
-description: Returns metadata for the specified file or folder.
+description: Get metadata for a file or folder
 author: John
-feature: "Workfront API, Digital Content and Documents"
+feature: Workfront API
+exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
 ---
 
 # Get metadata for a file or folder
 
 Returns metadata for the specified file or folder.
 
-## URL
+**URL**
 
 GET /metadata?id=[document or folder ID]
 
@@ -30,7 +31,8 @@ GET /metadata?id=[document or folder ID]
  <tbody> 
   <tr> 
    <td>id</td> 
-   <td> <p>The ID of file or folder, as referenced by the webhook provider. This is different than Adobe Workfront's document ID. To get the metadata of the root directory, use the value ‘/'.</p> <p>Note: The maximum length for the ID is 255 characters.</p> </td> 
+   <td>The ID of file or folder, as referenced by the webhook provider. This is different than Adobe Workfront's document ID. To get the metadata of the root directory, use the value ‘/'.
+   <p>Note: The maximum length for the ID is 255 characters.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -105,4 +107,3 @@ GET /metadata?id=[document or folder ID]
 >[!NOTE]
 >
 >Error handling should be consistent across all API calls. See the “Error Handling” section below for details.
-

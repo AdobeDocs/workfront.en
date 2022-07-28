@@ -6,8 +6,8 @@ title: Initiatives overview in the Scenario Planner
 description: The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
 author: Alina
 feature: Workfront Scenario Planner
+exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
 ---
-
 # Initiatives overview in the Scenario Planner
 
 The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../scenario-planner/scenario-planner-overview.md). 

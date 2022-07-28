@@ -7,8 +7,8 @@ description: Workfront generates automatic system updates in an object's Updates
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 ---
-
 # Configure system updates
 
 Adobe Workfront generates automatic system updates in an object's Updates area to record the following events:
@@ -32,11 +32,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -75,8 +75,6 @@ You can add fields you want Workfront to track for a particular type of object t
 1. In the**Update Feeds** box that appears, start typing either a built-in (standard) field or a custom field for the object, then click to select it when it appears in the list.
 
    If Workfront is already tracking the field, you cannot add it a second time from the list.
-
-   ![](assets/updates-feeds-box-qs-350x219.png)
 
 1. After adding all the fields you want Workfront to track, click **Add Fields**.
 

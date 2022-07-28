@@ -5,10 +5,10 @@ navigation-topic: manage-group-statuses
 title: Use a custom status as a default status for a group
 description: As a group administrator, you can configure a custom status as a default status for a group or subgroup that you manage. This is useful when the system needs to automatically assign a Workfront status to a project, task, or issue. A project, task, or issue always displays the custom status that you set as a default status instead of displaying the Workfront status that it equates to.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
 ---
-
 # Use a custom status as a default status for a group
 
 As a group administrator, you can configure a custom status as a default status for a group or subgroup that you manage. This is useful when the system needs to automatically assign a Workfront status to a project, task, or issue. A project, task, or issue always displays the custom status that you set as a default status instead of displaying the Workfront status that it equates to.
@@ -33,7 +33,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -91,4 +91,3 @@ If you hide a default status (by enabling the Hide status option for it), the sy
 If there is no available status of the equivalent type, the status type displays as **Hidden** and is not available for work items.
 
 ![](assets/when-hide-default-status-no-equivalent.png)
-

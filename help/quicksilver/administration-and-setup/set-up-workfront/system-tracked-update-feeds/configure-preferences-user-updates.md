@@ -7,8 +7,8 @@ description: You can configure preferences that access to certain features when 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
 ---
-
 # Configure preferences for user updates
 
 You can configure preferences that give users access to certain features when they are adding comments in an object's Updates area.
@@ -23,11 +23,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -56,4 +56,3 @@ By default, users cannot add images in updates. When you enable this preference,
 1. Select **Save**.
 
    When this preference is enabled, you can disable it at any time. Any images already posted in updates will remain in the Updates area on the object.
-

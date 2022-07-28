@@ -6,8 +6,8 @@ title: View and manage documents from G Suite
 description: You can view and manage documents associated with a Adobe Workfront object without leaving G Suite.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
 ---
-
 # View and manage documents from G&nbsp;Suite
 
 You can view and manage documents associated with a Adobe Workfront object without leaving G Suite.

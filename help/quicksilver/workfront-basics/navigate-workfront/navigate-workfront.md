@@ -4,8 +4,8 @@ navigation-topic: get-started-with-workfront
 title: Navigate Adobe Workfront
 description: Review these areas to get an understanding of how to navigate Workfront.
 feature: Get Started with Workfront
+exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
 ---
-
 # Navigate Adobe Workfront
 
 This section contains the following subsections:
@@ -30,5 +30,4 @@ This section contains the following subsections:
 * [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md) 
 * [Breadcrumbs overview](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md) 
 * [New object headers overview](../../workfront-basics/the-new-workfront-experience/new-object-headers.md) 
-* [Pin pages to customize your workspace](../../workfront-basics/the-new-workfront-experience/pin-pages.md) 
-
+* [Pin pages to customize your workspace](../../workfront-basics/the-new-workfront-experience/pin-pages.md)

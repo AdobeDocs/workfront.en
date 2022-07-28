@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can configure the Workfron
 author: Becky, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
 ---
-
 # Configure Adobe Workfront with SAML 2.0
 
 <!--
@@ -31,11 +31,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -172,4 +172,3 @@ You must have the following access to perform the steps in this article:
    </table>
 
 1. Click **Save** to save the SAML 2.0 configuration.
-

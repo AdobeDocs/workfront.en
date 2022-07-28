@@ -5,8 +5,8 @@ title: Share the Workload Balancer with a link
 description: You can share the Workload Balancer with other users who might not have the Resourcing area available to them. For information about using the Workload Balancer, see Navigate the Workload Balancer.
 author: Alina
 feature: Resource Management
+exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
 ---
-
 # Share the Workload Balancer with a link
 
 You can share the Workload Balancer with other users who might not have the Resourcing area available to them. For information about using the Workload Balancer, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
@@ -123,4 +123,3 @@ You need the following access to view information in the Workload Balancer from 
      >[!IMPORTANT]
      >
      >When you add the Workload Balancer to the custom section of an object, the information in the Workload Balancer is not filtered by the object.&nbsp;The Workload Balancer displays the information filtered by the originally applied filters.
-

@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: metadata
 title: Set up taxonomy metadata for Workfront Library
 description: As a Workfront Library administrator, you can set up your organization's taxonomy to gather the information your users search for and to track content. For more information about the different types of taxonomy you can collect, see Overview of taxonomy metadata in Workfront Library.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 7f9249eb-af41-41d3-9498-1580e70aa03f
 ---
-
 # Set up taxonomy metadata for Workfront Library
 
 As a Workfront Library administrator, you can set up your organization's taxonomy to gather the information your users search for and to track content. For more information about the different types of taxonomy you can collect, see [Overview of taxonomy metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
@@ -97,4 +97,3 @@ To learn about the XMP metadata that Workfront Library supports, see [Overview o
    The field name becomes the label that displays in the Details panel for content. 
 
 1. Click **Save**.
-

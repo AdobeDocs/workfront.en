@@ -4,9 +4,9 @@ navigation-topic: library-release-activity
 title: Workfront Library release activity - April 18, 2019
 description: This page describes all changes made available to Workfront Library with the release to the Production environment on April 18.
 author: Luke
-feature: "Product Announcements, Workfront Library"
+feature: Product Announcements, Workfront Library
+exl-id: eb637b61-2ab9-45c5-a7de-089be6b636a5
 ---
-
 # Workfront Library release activity - April 18, 2019
 
 This page describes all changes made available to Workfront Library with the release to the Production environment on April 18.

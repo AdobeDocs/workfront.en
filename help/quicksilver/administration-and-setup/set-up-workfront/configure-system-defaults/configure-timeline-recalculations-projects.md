@@ -7,8 +7,8 @@ description: Recalculating timelines allows managers to see how forces outside o
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
 ---
-
 # Configure timeline recalculations for projects
 
 Recalculating timelines allows managers to see how forces outside of the project are impacting the project's timeline. A project's timeline refers to the planned and projected dates for the project.
@@ -27,11 +27,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -42,7 +42,7 @@ You must have the following to perform the steps in this article:
 
 ## Configure automatic recalculations
 
-As an Adobe Workfront administrator, you can configure when&nbsp;Workfront automatically recalculates project timelines. Workfront can recalculate project timelines either every night or when the project scope changes, or both.
+As an Adobe Workfront administrator, you can configure when Workfront automatically recalculates project timelines. Workfront can recalculate project timelines either every night or when the project scope changes, or both.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Setup** ![](assets/gear-icon-settings.png). 
 
@@ -50,16 +50,13 @@ As an Adobe Workfront administrator, you can configure when&nbsp;Workfront autom
 
 1. In the **Timelines** section, enable or disable one or both of the settings below. By default, both settings are enabled.
 
-   * **Every night:** Workfront​​​ recalculates timelines at night only for projects where both of the following conditions are met:
-
-      * Have a status of Current
-      * Have had an update in the past three months
+   * **Every night:** Workfront​​​ recalculates timelines at night only for projects that have a status of Current and were updated in the past three months.
 
      In this case, Workfront recalculates the timeline for all projects that have an Update Type of Automatic or Automatic and On Change. 
    
    * **When a project's scope changes**: For information about what constitutes a project scope change, see [Recalculate project timelines](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-     In this case, Workfront recalculates the timeline for all projects that have an Update Type of Automatic and On&nbsp;Change or On Change Only.
+     In this case, Workfront recalculates the timeline for all projects that have an Update Type of Automatic and On Change or On Change Only.
 
    For information about project Update Types, see [Project Update Type overview](../../../manage-work/projects/planning-a-project/project-update-type-overview.md). 
 
@@ -67,6 +64,6 @@ As an Adobe Workfront administrator, you can configure when&nbsp;Workfront autom
 
    The timeline of all projects in the system recalculates automatically based on the Update Type of each project.
 
-## Recalculate timelines for the entire&nbsp;Workfront instance
+## Recalculate timelines for the entire Workfront instance
 
 You can run the Recalculate Timeline diagnostic to manually recalculate all timelines in the Workfront system. This allows all Project Managers to see the influence of external changes immediately on both planned and projected dates. For more information, see [Use Diagnostics to trigger automated processes](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).

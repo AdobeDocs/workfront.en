@@ -7,8 +7,8 @@ description: You can deactivate a company that you no longer use while retaining
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
 ---
-
 # Deactivate or reactivate a company
 
 You can deactivate a company that you no longer use while retaining all of its associated historical data. If you deactivate a company already in use somewhere in the system, it continues to function just like it always has. It is not removed or blocked.
@@ -27,7 +27,7 @@ You must have the following in order to manage companies in Workfront:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"><strong>Access level configurations*</strong> </td> 
@@ -65,4 +65,3 @@ You must have the following in order to manage companies in Workfront:
    For multiple companies, select **No** from the **Is Active** drop-down menu to deactivate them, or **Yes** to activate them.
 
 1. Click **Save Changes**.
-

@@ -6,9 +6,9 @@ navigation-topic: scenario-planner-release-activity
 title: Workfront Scenario Planner with the 20.4 release - October 14, 2020
 description: Workfront Scenario Planner is available only with the new Adobe Workfront experience.
 author: Luke
-feature: "Product Announcements, Workfront Scenario Planner"
+feature: Product Announcements, Workfront Scenario Planner
+exl-id: 32e124fe-81ea-42b3-b4aa-069aed78263e
 ---
-
 # Workfront Scenario Planner with the 20.4 release - October 14, 2020
 
 Workfront Scenario Planner is available only with the new Adobe Workfront experience.
@@ -44,4 +44,4 @@ To invite other users to collaborate with you when working in the Workfront Scen
 
 For information about sharing a plan in the Scenario Planner, see [Share a plan in the Scenario Planner](../../../scenario-planner/share-a-plan.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/468347771/c38e5cd092) 
+[Watch a video demonstration of this feature.](https://vimeo.com/468347771/c38e5cd092)

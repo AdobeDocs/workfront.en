@@ -6,8 +6,8 @@ title: Add results to goals in Adobe Workfront Goals
 description: Results measure the progress of a goal. Without associating results, activities, or aligned goals to a goal, you cannot activate the goal and you cannot record progress on it.
 author: Alina
 feature: Workfront Goals
+exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
 ---
-
 # Add results to goals in Adobe Workfront Goals
 
 Results measure the progress of a goal. Without associating results, activities, or aligned goals to a goal, you cannot activate the goal and you cannot record progress on it.
@@ -104,4 +104,3 @@ You must have the following before you can start:
 1. Click **Save**.
 
    The result is saved for the selected goal. The progress of the goal automatically updates when you update the progress of a result.
-

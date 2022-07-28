@@ -6,8 +6,8 @@ title: Agile burndown chart overview
 description: The burndown chart provides a visual representation of how stories are progressing through the iteration or project . The actual burndown rate is measured against the ideal burndown rate for the iteration or project timeline.
 author: Lisa
 feature: Agile
+exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
 ---
-
 # Agile burndown chart overview
 
 The burndown chart provides a visual representation of how stories are progressing through the iteration. The actual burndown rate is measured against the ideal burndown rate for the iteration timeline.
@@ -86,6 +86,4 @@ Days off are reflected in the burndown chart only if:
 
   When planning the iteration, if you set the iteration end date for a non-working day and the iteration is tracking to finish on time, the Estimated Completion date is set for the last working day prior to the iteration end date that you set (because work is not scheduled to be burned down on non-working days).
 
-  The end date for the iteration is specified when the iteration is planned, as described in the article [Create an iteration](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md). 
-
-
+  The end date for the iteration is specified when the iteration is planned, as described in the article [Create an iteration](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).

@@ -7,8 +7,8 @@ description: As the Adobe Workfront administrator, sometimes you might need to a
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
 ---
-
 # Log in as another user
 
 <!--
@@ -52,11 +52,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -96,11 +96,11 @@ You must have the following to perform the steps in this article:
 1. Click **Log in.**
 
    <!--
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
    -->
 
    <!--
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">click an Access period and then click Request to ask the user for access to log as him or her for the specified period of time. Continue these steps after the user grants access. Specify somewhere here that this is only for the Enterprise package if they decide on that</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">click an Access period and then click Request to ask the user for access to log as him or her for the specified period of time. Continue these steps after the user grants access. Specify somewhere here that this is only for the Enterprise package if they decide on that</p>
    -->
 
    <!--
@@ -108,7 +108,7 @@ You must have the following to perform the steps in this article:
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If a prompt appears indicating that the user has restricted access to their account, contact the user to request access.<br></p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If a prompt appears indicating that the user has restricted access to their account, contact the user to request access.</p>
    -->
 
    <!--
@@ -116,7 +116,6 @@ You must have the following to perform the steps in this article:
    -->
 
    <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
    This triggers an email to let you know that you have access to log in as the user, depending on how your event notifications are enabled. For more information, see <a href="../../../workfront-basics/using-notifications/event-notifications.md" class="MCXref xref">Event notifications</a>.
    </div>
    -->
@@ -154,4 +153,3 @@ For example, if you comment on an item while logged in as another user, a statem
    * By user who has logged in
    * By user who has been logged in as
    * By date
-

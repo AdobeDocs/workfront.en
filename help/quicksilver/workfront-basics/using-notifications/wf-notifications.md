@@ -5,8 +5,8 @@ title: Adobe Workfront notifications
 description: Adobe Workfront sends email notifications, in-app notifications, and notifications on your mobile device.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
 ---
-
 # Adobe Workfront notifications
 
 Adobe Workfront sends email notifications, in-app notifications, and notifications on your mobile device.
@@ -19,21 +19,14 @@ Workfront sends out a number of email notifications to alert users about activit
 >
 >If you want to receive email notifications from the Sandbox environment, you must enable emails from your user profile in that environment.
 
-<!--
-><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
->Becky: Keep the note>
-></MadCap:conditionalText>
--->
-
 You can receive the following email notifications from Workfront:
 
-* [Event notifications](#event-notifications) 
-* [Daily digest notifications](#daily-digest-notifications) 
-* [Notification of posted comments](#notification-of-posted-comments) 
-* [Automatic reminders](#automatic-reminders) 
-* [Reminder notifications](#reminder-notifications) 
-* [Other Workfront emails](#other-workfront-emails) 
-* [Email notifications from Workfront Goals](#email-notifications-from-workfront-goals)
+* [Event notifications](#event-notifications)
+* [Daily digest notifications](#daily-digest-notifications)
+* [Notification of posted comments](#notification-of-posted-comments)
+* [Automatic reminders](#automatic-reminders)
+* [Reminder notifications](#reminder-notifications)
+* [Other Workfront emails](#other-workfront-emails)
 
 ### Event notifications {#event-notifications}
 
@@ -63,17 +56,17 @@ For a complete list of what email notifications have been enabled for a daily di
 
 There are several things to be aware of when receiving daily digest notifications:
 
-* Each notifications section in your **My Settings** panel generates its own daily digest email. You can have as many daily digest emails every day as notification settings that are enabled&nbsp;for daily digest emails.  
+* Each notifications section in your **My Settings** panel generates its own daily digest email. You can have as many daily digest emails every day as notification settings that are enabled for daily digest emails.  
   For example, if you selected to receive a daily digest email for several actions under the **Information about Projects I Own,** you receive one email notification listing all the events met for this area. 
 
 * Notifications in a daily digest email are grouped by various criteria. For example, in the case of **Information about Projects I Own**, the events are grouped by the project name.
 
   For the **Communication** category, the notifications are grouped by the object where the communication happened.
 
-* The daily digest email lists events that happened for the actions&nbsp;in one particular area (like **Information about projects I Own**) within the 24 hours prior to the time chosen for delivery.
-* The timezone for the time selected for daily digest delivery matches&nbsp;your timezone, as it is configured on your browser.
+* The daily digest email lists events that happened for the actions in one particular area (like **Information about projects I Own**) within the 24 hours prior to the time chosen for delivery.
+* The timezone for the time selected for daily digest delivery matches your timezone, as it is configured on your browser.
 * The daily digest emails have the name of the section in the subject line, as well as the date on which they are delivered.
-* At least one event must trigger a notification&nbsp;in order for the daily digest to be delivered. Daily digests are not sent if no events marked for daily digest emails are met.
+* At least one event must trigger a notification in order for the daily digest to be delivered. Daily digests are not sent if no events marked for daily digest emails are met.
 
 ### Notification of posted comments {#notification-of-posted-comments}
 
@@ -124,7 +117,7 @@ A Workfront administrator (or a user with a Planner access level and administrat
 >
 >If the deadline changes after a user receives a reminder notification for any of the objects mentioned above, the user doesn't receive another reminder notification.
 
-Reminder notifications&nbsp;are sent from the email address that the Workfront administrator selected to handle outgoing emails.
+Reminder notifications are sent from the email address that the Workfront administrator selected to handle outgoing emails.
 
 For information about setting up and enabling reminder notifications, see [Set up reminder notifications](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
@@ -135,35 +128,14 @@ There are other emails you might receive from Workfront which cannot be configur
 * Restore an item: When the Workfront administrator restores an object from the Recycle Bin, an email is sent to the Workfront administrator.
 * Failed to be restored: When the Workfront administrator attempts to restore an object from the Recycle Bin, and the restore fails, an email is sent to the Workfront administrator.
 
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Global POP email configuration problem detected: This email is generated as a result of Workfront having trouble connecting to a POP account which is configured to allow users to reply to email notifications. For more information about how you can allow users to reply to Workfront email notifications, see .<br>If Workfront connects to the&nbsp;POP account and it finds 10 emails in the POP account that are not&nbsp;related to comments in Workfront, it stops&nbsp;processing the rest of the emails and sends a notification to the Workfront administrator.<br>For more information about the message sent when Workfront cannot process emails from the POP account, see the section in .</li>
-  -->
+The following emails can only be configured at the user profile level. They cannot be enabled or disabled at the system level:
 
-The following emails can only be configured at the user profile level. They cannot be enabled or disabled&nbsp;at the system level:
-
-* Completion of personal task: when a personal task you assigned to someone else is completed, you will receive an email.&nbsp;
-* Comment added to user: when someone comments on your user profile, you will receive an email.&nbsp;
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p><strong>Email notifications from Workfront Goals</strong></p> <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted because the Goals emailed merged with the regular notifications in other articles. This is no longer possible from JUST WF goals.)</p>
--->
-<div class="workfront_plans">
-<p>Your organization must have the following to use the functionality described in this article: </p>
-<ul>
-<li> <p>A Pro or higher <a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>. </p> </li>
-<li> <p>An Adobe Workfront Goals license in addition to a Workfront license.</p> <p>Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p>Workfront Goals is available only in the new Adobe Workfront experience. </p> </li>
-</ul>
-<p>For additional information about access to Workfront Goals, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Requirements to use Workfront Goals</a>.</p>
-</div>
-<p>If you are a Workfront Goals user, you can configure notifications for yourself to receive communication about events happening in that area. For information, see <a href="../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md" class="MCXref xref" xrefformat="{para}">Enable Adobe Workfront Goals notifications</a>.</p>
-</div>
--->
+* Completion of personal task: when a personal task you assigned to someone else is completed, you will receive an email.
+* Comment added to user: when someone comments on your user profile, you will receive an email.
 
 ## In-app notifications
 
-You can receive notifications inside the Workfront web application, when certain events happen.&nbsp;
+You can receive notifications inside the Workfront web application, when certain events happen.
 
 For more information about in-app notifications, see [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 

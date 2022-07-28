@@ -5,9 +5,9 @@ navigation-topic: groups-workfront-proof
 title: Create Proofing Groups using Workfront Proof
 description: A Select or Premium Plan is required to use this feature. For more information about the various plans available, see Workfront Plans.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: c0433621-3988-45f2-9d6b-68ef92b5b7d2
 ---
-
 # Create Proofing Groups using Workfront Proof
 
 >[!IMPORTANT]
@@ -31,4 +31,3 @@ You can create groups of users that you can add as reviewers on multiple proofs.
    If you need information about email alert options, see [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
 1. Click **Save**.
-

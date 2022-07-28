@@ -5,8 +5,8 @@ title: Create Topic Groups
 description: Topic Groups are associated with Request Queues. They allow you to layer your Request Queues in multiple categories, depending on the nature of the requests.
 author: Alina
 feature: Work Management
+exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
 ---
-
 # Create Topic Groups
 
 Topic Groups are associated with Request Queues. They allow you to layer your Request Queues in multiple categories, depending on the nature of the requests.
@@ -76,4 +76,3 @@ To create a Topic Group:
 1. Click **Save**.  
    This creates a new Topic Group in your Request Queue. You can now select additional categories from the first drop-down menu under a Request Queue.  
    For more information about submitting requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
-

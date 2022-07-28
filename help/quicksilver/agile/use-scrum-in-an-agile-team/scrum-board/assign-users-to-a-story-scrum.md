@@ -5,8 +5,8 @@ title: Assign users to a story on the Scrum board
 description: Review this article to learn how to assign users to a story on the Scrum board.
 author: Lisa
 feature: Agile
+exl-id: 57fa28cc-f93d-4938-9d65-3dcf90fdf6a0
 ---
-
 # Assign users to a story on the Scrum board
 
 ## Access requirements
@@ -51,4 +51,3 @@ You must have the following access to perform the steps in this article:
    >You can also assign a job role to a story. You can only assign active users and active roles.
 
    ![Add assignment to story card](assets/addassignmenttostorycard-350x472.png)
-

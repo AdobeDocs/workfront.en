@@ -5,9 +5,9 @@ navigation-topic: manage-your-work-workfront-proof
 title: Manage Files in Workfront Proof
 description: You can manage, share, and view information about the files (not proofs) uploaded to Workfront Proof (see Upload Files and Web Content to Workfront Proof).
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 9bbf2448-74dc-412a-b17c-4321d0acaf07
 ---
-
 # Manage Files in Workfront Proof
 
 >[!IMPORTANT]
@@ -25,7 +25,7 @@ You can manage, share, and view information about the files (not proofs) uploade
 
 1. (Optional) If you have edit rights for the file, use the action buttons in the upper-right corner to manage and share the file:
 
-* **Tags**. Manage****tags&nbsp;applied to the file.  
+* **Tags**. Manage tags&nbsp;applied to the file.  
   ![](assets/tags-button.png)  
   Beneath the action buttons, you can view any tags applied to the file. You can remove an unwanted tag by clicking the x next to it.  
   ![](assets/view-file-tags-350x64.png)

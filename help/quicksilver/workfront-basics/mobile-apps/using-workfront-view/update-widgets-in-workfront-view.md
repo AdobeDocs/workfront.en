@@ -5,8 +5,8 @@ title: Update widgets in the Project Details view
 description: You can view additional information about the project after you have accessed it from the project list by adding widgets to your Project Details screen. Each user can customize their own widgets.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
 ---
-
 # Update widgets in the Project Details view
 
 You can view additional information about the project after you have accessed it from the project list by adding widgets to your Project Details screen. Each user can customize their own widgets.
@@ -83,4 +83,3 @@ You must have the following access in Workfront to perform the steps in this art
 
    * **Team**: Displays the names of the users who are on the Project Team.  
      For more information about project teams, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
-

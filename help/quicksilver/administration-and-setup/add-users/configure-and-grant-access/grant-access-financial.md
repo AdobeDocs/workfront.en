@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can define a user's access
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
 ---
-
 # Grant access to financial data
 
 As an Adobe Workfront administrator, you can define a user's access to the following through the user's access level, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
@@ -26,11 +26,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -65,7 +65,7 @@ Consider the following when granting users access to financial data in Workfront
      </tr> 
      <tr> 
       <td role="rowheader">Expenses</td> 
-      <td> <p>View all expenses on objects in Workfront.<br></p> <p>This does not allow the user to create new Expense Types.<br></p> <p>Without this access, the user can only view the following:</p> 
+      <td> <p>View all expenses on objects in Workfront.</p> <p>This does not allow the user to create new Expense Types.</p> <p>Without this access, the user can only view the following:</p> 
        <ul> 
         <li>Expenses on projects, tasks or issues they manage</li> 
         <li>Their own expenses</li> 
@@ -148,4 +148,3 @@ A user with Edit access to financial data can view and edit the following:
 * Cost per hour and billing per hour on Job Roles
 
   You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
-

@@ -2,14 +2,16 @@
 content-type: api
 navigation-topic: general-api
 title: Event subscription best practices
-description: Adobe Workfront Event Subscription messages automatically send from Workfront after you have correctly configured your service and created an Event Subscription to trigger those message deliveries. To learn more about properly setting up Event Subscriptions, see Event Subscription delivery requirements.
+description: Event subscription best practices
 author: John
 feature: Workfront API
+exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
 ---
 
 # Event subscription best practices
 
 Adobe Workfront Event Subscription messages automatically send from Workfront after you have correctly configured your service and created an Event Subscription to trigger those message deliveries. To learn more about properly setting up Event Subscriptions, see [Event Subscription delivery requirements](../../wf-api/general/setup-event-sub-endpoint.md).
+
 
 Listed below are a few best practices to help you effectively create Event Subscriptions.
 
@@ -45,4 +47,3 @@ To create, query, or delete an Event Subscription, your Workfront user needs:
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
   -->
-

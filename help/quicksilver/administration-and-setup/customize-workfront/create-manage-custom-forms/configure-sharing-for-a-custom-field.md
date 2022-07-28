@@ -7,8 +7,8 @@ description: By default, when you add a new custom field or widget to a custom f
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
 ---
-
 # Configure sharing for custom fields and widgets
 
 By default, when you add a new custom field or widget to a custom form, anyone in the system with access to custom forms can edit the properties for that item, such as its label and name. You can change this by controlling who it can be shared with.
@@ -29,7 +29,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -60,11 +60,11 @@ You must have the following to perform the steps in this article:
 
    1. Near the lower-left corner of the **Custom Field Access** box, under **Give custom field access to**, start typing the name of a user, team, job role, group, or company you want to share the item with, then click the name when it appears.
 
-      ![](assets/share-field-give-access-to-350x456.jpg)
+      ![](assets/share-field-give-access-to.jpg)
 
    1. If you want to be more specific about how you want to share the item, click the drop-down list to the right of the name, then use any of the following options:
 
-      ![](assets/share-field-view-mng-options-350x457.jpg)
+      ![](assets/share-field-view-mng-options.jpg)
 
       <table style="table-layout:auto"> 
        <col> 
@@ -86,7 +86,7 @@ You must have the following to perform the steps in this article:
 
    Not all of the following options display in this drop-down menu at the same time. For example, the second one displays only when one of the other two are selected.
 
-   * **Make this editable system-wide****so that everyone in Workfront can edit it** (the default option)
+   * **Make this editable system-wide so that everyone in Workfront can edit it** (the default option)
 
      When you add a custom field or widget and you don't limit sharing for it, everyone in the system who has access to custom forms can view it and edit its properties.
    

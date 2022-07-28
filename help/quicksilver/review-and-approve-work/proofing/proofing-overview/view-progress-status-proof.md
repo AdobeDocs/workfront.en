@@ -5,8 +5,8 @@ title: Proof progress and status overview
 description: You can view information about how a proof is progressing through the review process and see an overall summary of the proof's decision status from the Documents area.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
 ---
-
 # Proof progress and status overview
 
 You can view information about how a proof is progressing through the review process and see an overall summary of the proof's decision status from the Documents area.
@@ -163,4 +163,3 @@ If custom decisions are configured in your account, the status options reflect y
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can view information about proofs that you have submitted for approval. Proof approval information is displayed in the Home area only while the proof is pending approval.&nbsp;For information about how to view information about proof approvals in the Home area, see&nbsp;<a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals </a>.</p>
 -->
-

@@ -8,8 +8,8 @@ description: You can build a custom form that users can attach to a Workfront ob
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: a732344d-aca5-4825-b360-a4b49076b4d0
 ---
-
 # Custom forms
 
 This section contains the following articles:
@@ -33,7 +33,7 @@ This section contains the following articles:
 * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md) 
 * [Delete object types on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
 
-## Manage and work with custom forms and custom fields
+## Manage custom forms and custom fields
 
 * [Referencing custom forms in a report](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md) 
 * [View all reports that use a particular custom field or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md) 

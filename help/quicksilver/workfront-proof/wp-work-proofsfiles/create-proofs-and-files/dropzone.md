@@ -5,9 +5,9 @@ navigation-topic: create-proofs-and-files
 title: The Dropzone
 description: If you have the Enterprise plan, you can use the Dropzone to submit new proofs and new versions of proofs to your account without having to log in to your account.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: e66142fa-3b0d-4821-9aa5-040c62f00d62
 ---
-
 # The Dropzone
 
 >[!IMPORTANT]
@@ -82,7 +82,7 @@ This article explains the following about the Dropzone:
 
 ## Completing Your Submission
 
-Workfront sends you (the submitter) a Complete your submission email asking you to confirm whether the file was a new proof or a new version. The link in the email notification is valid for 24 hours.****
+Workfront sends you (the submitter) a Complete your submission email asking you to confirm whether the file was a new proof or a new version. The link in the email notification is valid for 24 hours.
 
 1. Click the link and follow the steps above, depending on whether it is a new proof or a new version of an existing proof.
 
@@ -121,4 +121,3 @@ The Dropzone page makes it easy to manage the submissions to your Dropzone. Your
 The page layout and sorting and filtering options are the same as in the Views lists. See [Manage Items on the Views Page in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) for more information.
 
 ![New_Dropzone_design__Feb_2013_.jpg](assets/new-dropzone-design--feb-2013--350x224.jpg)
-

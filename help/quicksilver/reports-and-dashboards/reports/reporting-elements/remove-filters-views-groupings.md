@@ -5,11 +5,13 @@ title: Remove filters, views, and groupings
 description: You can remove a filter, view, or grouping from lists and reports if you created them or they have been shared with you. You cannot remove default filters, views, or groupings.
 author: Lisa
 feature: Reports and Dashboards
+exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
 ---
-
 # Remove filters, views, and groupings
 
+<!--
 {{highlighted-preview}}
+-->
 
 
 You can remove a filter, view, or grouping from lists and reports if you created them or they have been shared with you. You cannot remove default filters, views, or groupings.
@@ -34,7 +36,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View or higher access to&nbsp;Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -77,9 +79,7 @@ The following scenarios exist when you remove a grouping:
 
 1. Click **Done**.
 
-<div class="preview">
-
-## Remove or delete a filter using the beta builder
+## Remove or delete a filter using the beta builder (Preview environment only)
 
 You can remove a filter that was shared with you from lists of projects, tasks, or issues using the beta builder interface. The beta builder interface is not available for any other objects, or for views or groupings.
 
@@ -117,6 +117,4 @@ The following scenarios exist when you remove or delete a filter:
 1. Click **Delete** on the confirmation message to confirm the deletion.
                         
    The filter is deleted for you and all users who had permissions to it.
-
-</div>
 

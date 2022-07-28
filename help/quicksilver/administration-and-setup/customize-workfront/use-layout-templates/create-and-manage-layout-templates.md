@@ -4,12 +4,12 @@ user-type: administrator
 content-type: overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: Create and manage layout templates
+description: As a Workfront administrator or a group administrator, you can create and modify layout templates to customize layout elements in Workfront for your users.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 ---
-
 # Create and manage layout templates
 
 <!--
@@ -38,11 +38,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

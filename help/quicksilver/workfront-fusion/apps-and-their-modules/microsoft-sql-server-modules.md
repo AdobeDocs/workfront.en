@@ -8,8 +8,8 @@ title: Microsoft SQL Server modules
 description: You can use Adobe Workfront Fusion to connect to Microsoft SQL Server.
 author: Becky
 feature: Workfront Fusion
+exl-id: d79cf00d-a81e-4d88-ac4a-f80b7b5a92b3
 ---
-
 # Microsoft SQL Server modules
 
 You can use Adobe Workfront Fusion to connect to Microsoft SQL Server.
@@ -74,4 +74,3 @@ Turn on Auto-commit. Auto-commit finishes (commits) every transaction immediatel
 1. Click the Scenario settings icon ![](assets/scenario-settings-icon.png)at the bottom of the screen.
 1. Click the **Auto commit** checkbox.
 1. Click **OK** to save the scenario settings.
-

@@ -3,12 +3,12 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: "Workfront Fusion release activity: Week of May 16, 2022"
+title: 'Workfront Fusion release activity: Week of May 16, 2022'
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of May 16, 2022.
 author: Luke
-feature: "Product Announcements, Workfront Fusion"
+feature: Product Announcements, Workfront Fusion
+exl-id: ed844acd-3f1c-466c-89ca-a644fa01c825
 ---
-
 # Workfront Fusion release activity:&nbsp;Week of May 16, 2022
 
 This page describes all enhancements made in Adobe Workfront Fusion the week of May 16, 2022. 

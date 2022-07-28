@@ -8,8 +8,8 @@ description: A POP email account in Microsoft Exchange is disabled.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 4f7b6f40-cfbd-4f02-8c3e-de26b05db13b
 ---
-
 # Configure POP in Microsoft Exchange
 
 ## Problem
@@ -34,11 +34,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -60,9 +60,9 @@ You must have the following access to perform the steps in this article:
    >By default, POP3 service is not started.
 
    1. Start Microsoft's Server Manager.
-   1. Navigate:&nbsp;**Server Manager** > **Configuration** >**Windows Firewall with Advanced Security** > **Services.**
+   1. Navigate: **Server Manager** > **Configuration** >**Windows Firewall with Advanced Security** > **Services.**
    
-   1. Right-click **Microsoft Exchange POP3**, then click&nbsp;**Properties**.
+   1. Right-click **Microsoft Exchange POP3**, then click **Properties**.
    
    1. (Conditional) To ensure the POP service automatically starts, on the **General** tab, set the **Startup** type to Automatic**.**
 
@@ -71,13 +71,13 @@ You must have the following access to perform the steps in this article:
    1. Start the Microsoft Exchange Management console.
    1. Navigate: Microsoft **Exchange On-Premise** > **Server Configuration** > **Client Access**.
    
-   1. Choose&nbsp;**POP3.**
+   1. Choose **POP3.**
 
       POP3 is on the list under the POP3 and IMAP4 tabs.
 
-   1. On&nbsp;the right side under **Actions,** select&nbsp;**POP3**, then choose **Properties**.
+   1. On the right side under **Actions,** select **POP3**, then choose **Properties**.
    
-   1. Click&nbsp;**POP3 Properties**, then open the **Binding** tab.
+   1. Click **POP3 Properties**, then open the **Binding** tab.
 
       All available IP addresses and port numbers configured for the POP3 server display. The top box shows the Unencrypted and the bottom box shows the IP and ports for SSL/TLS connections.
    
@@ -89,7 +89,7 @@ You must have the following access to perform the steps in this article:
 
 1. Enable or allow users to connect to POP.
 
-   1. Start the Microsoft&nbsp;Exchange&nbsp;Management console.
+   1. Start the Microsoft Exchange Management console.
    1. Navigate: Microsoft **Exchange On-Premise** > **Recipient Configuration** > **Mailbox.**
 
       A list of mailboxes or users displays.
@@ -103,20 +103,19 @@ You must have the following access to perform the steps in this article:
 
 1. Configure receive connectors.
 
-   1. Start Microsoft Exchange&nbsp;Management console.
+   1. Start Microsoft Exchange Management console.
    1. Navigate: Microsoft **Exchange On-Premise** > **Server Configuration** > **Hub Transport.**
 
       A list of receive connectors displays.
    
    1. Confirm the receive connector *Client* *EX01* is enabled.
 
-      Where *Client*&nbsp;*EX01* is the name of your Exchange server.
+      Where *Client* *EX01* is the name of your Exchange server.
    
-   1. Select&nbsp;*Client EX01*, then on the right under **Actions**, select **Properties.**
+   1. Select *Client EX01*, then on the right under **Actions**, select **Properties.**
    
    1. Open the **Authentication** tab, then ensure **Transport Layer Security (TLS)** is checked.
 
       >[!NOTE]
       >
       >In order to have Basic Authentication, you may need to start TLS and Integrated Windows Authentication.
-

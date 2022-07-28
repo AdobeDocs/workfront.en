@@ -7,8 +7,8 @@ description: When a job role is created, you have the option to select an hourly
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
 ---
-
 # Override job role billing rates at the company level
 
 When a job role is created, you have the option to select an hourly billing rate for that role. You can create an hourly billing rate that is specific to a company.
@@ -29,7 +29,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -52,4 +52,3 @@ You must have the following:
    >[!NOTE]
    >
    >Job role rates changed on the project will only impact only that project. Rates changed at the company level will impact all projects. For more information, see [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
-

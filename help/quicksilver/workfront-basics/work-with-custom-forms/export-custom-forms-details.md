@@ -4,6 +4,7 @@ description: Export custom forms and object details
 author: Alina
 draft: Probably
 feature: Get Started with Workfront
+exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
 ---
 # Export custom forms and object details
 
@@ -106,4 +107,3 @@ Exporting information from the Details section of an object is identical for all
    * The date and time when the PDF was produced
    * The name of the forms you exported
    * Information from the fields completed on the form
-

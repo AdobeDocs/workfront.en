@@ -5,10 +5,10 @@ navigation-topic: work-with-a-groups-objects
 title: Create, modify, and view a group's programs
 description: When you are viewing a group that you manage in the Groups area, you can view and work with its programs.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 51111523-8fb7-4379-995e-1834cac51872
 ---
-
 # Create, modify, and view a group's programs
 
 When you are viewing a group that you manage in the Groups area, you can view and work with its programs.
@@ -25,7 +25,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront plan</a>*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Adobe Workfront license</a>*</td> 
@@ -76,4 +76,3 @@ You must have the following to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-

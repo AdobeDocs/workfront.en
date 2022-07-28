@@ -7,8 +7,8 @@ description: If your organization uses the WorkfrontEnterprise plan, you can cre
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
 ---
-
 # Configure your email allowlist
 
 If your organization uses the WorkfrontEnterprise plan, you can create a Workfront email allowlist to control:
@@ -41,11 +41,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -71,4 +71,3 @@ Also, if your firewall or mail server is configured to allow access to only cert
 
 1. Repeat the previous step to add any other domains you want to allow.
 1. When you are finished, click **Save**.
-

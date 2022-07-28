@@ -5,8 +5,8 @@ title: Request a Document
 description: You can request a document on any object that supports Documents.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 ---
-
 # Request a document
 
 You can request a document on any object that supports Documents.
@@ -68,4 +68,3 @@ You must have the following:
 1. After you upload the document, the person who requested it can access the document in their personal **Documents**&nbsp;area.
 
    You can access your personal **Documents**&nbsp;area by clicking your user profile picture in the upper-right corner of any Workfront page, clicking your name, then clicking the **Documents**&nbsp;tab.
-

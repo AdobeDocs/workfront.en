@@ -7,8 +7,8 @@ title: IP Addresses for accessing Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
+exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
 ---
-
 # IP Addresses for accessing Adobe Workfront Fusion
 
 >[!NOTE]

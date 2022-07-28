@@ -5,9 +5,9 @@ navigation-topic: organize-your-work-workfront-proof
 title: Create and Manage Tags in Workfront Proof
 description: You can create and edit tags and apply them to your proofs and files. This is great for when you have lots of different Workfront Proof items, such as projects, divisions, and clients, and you want to identify and find them easily.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
 ---
-
 # Create and Manage Tags in Workfront Proof
 
 >[!IMPORTANT]
@@ -96,4 +96,3 @@ You can search for an item using the name of a tag that you know is applied to t
 1. In any list view or on the Dashboard, open the **Tags** tab in the left sidebar, then click the tag in the list of tags that appear.  
    ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)  
    The tag name appears in the search field in the upper-right corner of Workfront Proof. You can refine your search by selecting additional tags&nbsp;or by typing further keywords into the search field.&nbsp;You can remove a tag from the search field by clicking the x icon next to the tag name.
-

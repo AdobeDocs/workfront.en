@@ -1,16 +1,12 @@
 ---
 navigation-topic: notifications
 title: Enable delivery of emails from the Preview Sandbox environment
-description: Keep the text in this article highlighted in yellow always
+description: If you want to receive email notifications from the Preview Sandbox environment, you must enable this functionality in your user settings while you are logged into Preview.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
 ---
-
 # Enable delivery of emails from the Preview Sandbox environment
-
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Keep the text in this article highlighted in yellow always</p>
--->
 
 Adobe Workfront disables all email communication from both the Preview and the Custom Refresh Sandbox environments. For information about the Preview Sandbox environment, see [The Adobe Workfront Preview Sandbox Environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md). For information about the Custom Refresh Sandbox environment, see [The Adobe Workfront Custom Refresh Sandbox environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
@@ -40,15 +36,15 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher to change your own setting</p> <p>Plan to edit the setting for other users</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>You must have one of the following:</p> 
     <ul> 
      <li> <p>The System Administrator access level.</p> <p> For information about this access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
@@ -81,4 +77,3 @@ You must have the following access to perform the steps in this article:
    >This option is not available if you are in a production environment.
 
 1. Click **Save Changes**.
-

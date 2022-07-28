@@ -8,8 +8,8 @@ description: Kick-Starts are specially formatted Excel workbooks that you can po
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
 ---
-
 # Import data into Adobe Workfront using a Kick-Start template
 
 Kick-Starts are specially formatted Excel workbooks that you can populate with data you want to import into Workfront. Adobe Workfront provides a Kick-Start template you can use to do this, as explained in [Kick-Starts data importer](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
@@ -40,11 +40,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -173,7 +173,7 @@ To export a Kick-Start template:
      <tr> 
       <td>Group</td> 
       <td>Exports as Excel file</td> 
-      <td> <p> Group</p> <p>Preferences&nbsp;</p> </td> 
+      <td> <p> Group</p> <p>Preferences </p> </td> 
      </tr> 
      <tr> 
       <td>Grouping</td> 
@@ -208,7 +208,7 @@ To export a Kick-Start template:
      <tr> 
       <td>Portfolio</td> 
       <td>Exports as Excel file</td> 
-      <td> <p> Portfolio</p> <p>Preferences&nbsp;</p> </td> 
+      <td> <p> Portfolio</p> <p>Preferences </p> </td> 
      </tr> 
      <tr> 
       <td>Project</td> 
@@ -228,7 +228,7 @@ To export a Kick-Start template:
      <tr> 
       <td>Risk</td> 
       <td>Exports as Excel file</td> 
-      <td> <p> Risk</p> <p>Preferences&nbsp;</p> </td> 
+      <td> <p> Risk</p> <p>Preferences </p> </td> 
      </tr> 
      <tr> 
       <td>Risk Type</td> 
@@ -238,7 +238,7 @@ To export a Kick-Start template:
      <tr> 
       <td>Scorecard</td> 
       <td>Exports as Excel file</td> 
-      <td> <p>Scorecard Questions</p> <p>Scorecard Option</p> <p>Scorecard</p> <p>Preferences&nbsp;</p> </td> 
+      <td> <p>Scorecard Questions</p> <p>Scorecard Option</p> <p>Scorecard</p> <p>Preferences </p> </td> 
      </tr> 
      <tr> 
       <td>Task</td> 
@@ -268,7 +268,7 @@ To export a Kick-Start template:
      <tr> 
       <td>View </td> 
       <td> <p>Exports as ZIP file</p> </td> 
-      <td> <p> View</p> <p>Preferences&nbsp;</p> </td> 
+      <td> <p> View</p> <p>Preferences </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -402,7 +402,7 @@ Though it is a best practice to use IDs whenever possible, sometimes it's inconv
 
 * **(project import)**
 
-  When importing projects,&nbsp;set the **setGroupID**&nbsp;of the projects by going to the **GROUP Group** sheet, making note of the respective Group IDs, and pasting them in the correct cells (**setGroupID** column) on the **PROJ Project** sheet.
+  When importing projects, set the **setGroupID** of the projects by going to the **GROUP Group** sheet, making note of the respective Group IDs, and pasting them in the correct cells (**setGroupID** column) on the **PROJ Project** sheet.
 
   This is feasible when working with only a few groups and projects, but if you are working with several of each, it's not practical.
 
@@ -414,11 +414,11 @@ Though it is a best practice to use IDs whenever possible, sometimes it's inconv
 
 * **(user import)**
 
-  When importing users,&nbsp;fill in the **setRoleID** from a list of roles on the **ROLE Role** tab.
+  When importing users, fill in the **setRoleID** from a list of roles on the **ROLE Role** tab.
 
   Some of the Role IDs are for records that already exist in the account, and others are being created during the import.
 
-  For the new user&nbsp;records assigned to existing roles, you can use name substitution. For the new user&nbsp;records assigned to newly imported roles, you cannot.
+  For the new user records assigned to existing roles, you can use name substitution. For the new user records assigned to newly imported roles, you cannot.
 
   Here is how you can use both methods on the same import file:
 
@@ -462,7 +462,6 @@ To import the template spreadsheet data into Workfront:
 
    If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and the file cannot be uploaded.
 
-   Try importing your data in smaller batches of objects. &nbsp;
+   Try importing your data in smaller batches of objects.  
 
 1. (Conditional) If you are using Workfront Fusion, you can now turn on your FLOs or scenarios.
-

@@ -5,8 +5,8 @@ title: Create or edit an Automated Workflow for an existing proof
 description: Automated Workflows make it easier to manage the review process if your process is complex or if you regularly send content for review to the same groups of people. When you create a proof with an Automated Workflow, the proof moves from stage to stage until final approval. Participants are notified when it's their turn to review the document.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
 ---
-
 # Create or edit an Automated Workflow for an existing proof
 
 Automated Workflows make it easier to manage the review process if your process is complex or if you regularly send content for review to the same groups of people.&nbsp;When you create a proof with an Automated Workflow, the proof moves from stage to stage&nbsp;until final approval. Participants are notified when it's their turn to review the document.
@@ -67,15 +67,36 @@ You must have the following access to perform the steps in this article:
    1. (Optional) Set a deadline for the stage. 
    1. In the **Activate stage** section, choose how you want the stage to activate:
 
-      | On proof creation |The stage becomes active automatically because the proof has already been created.  |
-      |---|---|
-      | **When previous stage deadline passes** |Click the previous stage in the **Parent stage** drop-down list . |
-      | **On a specific date & time** |Click the **On** box to select the date, then click the box to the right to select the time. |
-      | **All decisions are Approved or Approved with changes on parent stage** |Click the parent stage in the **Parent stage** drop-down list. |
-      | **All decisions are Approved on parent stage** |Click the parent stage in the **Parent stage** drop-down list. |
-      | All decisions are made |Click the parent stage in the **Parent stage** drop-down list. |
+      
+      <table>
+      <tbody>
+      <tr>
+      <td><strong>On proof creation</strong></td>
+      <td>The stage becomes active automatically because the proof has already been created.</td>
+      </tr>
+      <tr>
+      <td><strong>When previous stage deadline passes</strong></td>
+      <td>Click the previous stage in the <strong>Parent stage</strong> drop-down list .</td>
+      </tr>
+      <tr>
+      <td><strong>On a specific date &amp; time</strong></td>
+      <td>Click the <strong>On</strong> box to select the date, then click the box to the right to select the time.</td>
+      </tr>
+      <tr>
+      <td><strong>All decisions are Approved or Approved with changes on parent stage</strong></td>
+      <td>Click the parent stage in the <strong>Parent stage</strong> drop-down list.</td>
+      </tr>
+      <tr>
+      <td><strong>All decisions are Approved on parent stage</strong></td>
+      <td>Click the parent stage in the <strong>Parent stage</strong> drop-down list.</td>
+      </tr>
+      <tr>
+      <td><strong>All decisions are made</strong></td>
+      <td>Click the parent stage in the <strong>Parent stage</strong> drop-down list.</td>
+      </tr>
+      </tbody>
+      </table> 
 
-      {style="table-layout:auto"}
 
    1. Enter a contact name or email address, and configure settings for reviewers for the stage.
 
@@ -105,7 +126,7 @@ You must have the following access to perform the steps in this article:
         </tr>
         <tr>
          <td role="rowheader">Only one decision required</td>
-         <td>Ends the entire review process when one of the decision makers makes a decision.<p>This option is not available if you designated a user in the&nbsp;<strong>Primary decision maker</strong>drop-down menu.</p></td>
+         <td>Ends the entire review process when one of the decision makers makes a decision.<p>This option is not available if you designated a user in the&nbsp;<strong>Primary decision maker</strong> drop-down menu.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Private stage</td>
@@ -147,4 +168,3 @@ Consider the following when&nbsp;adding reviewers to a stage:
 * By default, adding a user&nbsp;to a stage grants&nbsp;that user access to view the proof from the moment the proof is created.
 
   Your Workfront administrator can restrict users from accessing the proof until the workflow enters the stage where the user was added. For more information, see&nbsp;&nbsp;in&nbsp;.
-

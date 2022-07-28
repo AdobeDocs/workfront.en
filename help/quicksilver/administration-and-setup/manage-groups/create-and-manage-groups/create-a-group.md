@@ -6,10 +6,10 @@ navigation-topic: create-and-manage-groups
 title: Create a group
 description: As an Adobe Workfront administrator, you can create groups to organize users and projects and to assign access rights within Workfront.
 author: Caroline
-feature: "System Setup and Administration, People Teams and Groups"
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
 ---
-
 # Create a group
 
 <!--
@@ -32,7 +32,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -74,7 +74,7 @@ You must be a Workfront administrator to create a top-level group.
       <td role="rowheader">Description</td> 
       <td>Type a description for the group. You can type up to 512 characters.</td> 
      </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+     <tr> 
       <td role="rowheader">Is Active</td> 
       <td> <p>(Enabled by default) Makes the group active in your Workfront instance.</p> <p>In type-ahead fields like the one shown below, when regular users search for a group to attach it to an object or to share an object with it, only active groups display in the list.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>To streamline this for your users, you can disable the Is Active option for groups that are not currently in use.</p> <p>You can easily view, filter and group the Groups list based on active or inactive status using this field. For information about using views, filters, and groupings in lists, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> </td> 
      </tr> 
@@ -146,7 +146,7 @@ To create a new top-level group by copying a group or subgroup:
       <td role="rowheader">Description</td> 
       <td>Type a description for the group. You can type up to 512 characters.</td> 
      </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+     <tr> 
       <td role="rowheader">Is Active</td> 
       <td> <p>(Enabled by default) Makes the group active in your Workfront instance.</p> <p>In type-ahead fields like the one shown below, when regular users search for a group to attach it to an object or to share an object with it, only active groups display in the list.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>To streamline this for your users, you can disable the Is Active option for groups that are not currently in use.</p> <p>You can easily view, filter and group the Groups list based on active or inactive status using this field. For information about using views, filters, and groupings in lists, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Reporting elements: filters, views, and groupings</a>.</p>  </td> 
      </tr> 
@@ -187,4 +187,3 @@ To create a new top-level group by copying a group or subgroup:
    >* You can eliminate any user or subgroup from the original group by clicking the X to the right of the user's or subgroup's name.
 
 1. Click **Create Group**.
-

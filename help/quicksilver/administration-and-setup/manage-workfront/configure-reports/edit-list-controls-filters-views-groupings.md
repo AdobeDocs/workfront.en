@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;reporting
 navigation-topic: configure-reports-administration
-title: "Edit list controls: filters, views, and groupings"
+title: 'Edit list controls: filters, views, and groupings'
 description: "**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **This is also linked to this article: https://workfront.zendesk.com/hc/en-us/articles/222450207"
 feature: System Setup and Administration
 role: Admin
+exl-id: 3fc03e7b-8c74-485c-8c47-a8f030e7b0fa
 ---
-
 # Edit list controls: filters, views, and groupings
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **This is also linked to this article:&nbsp;https://workfront.zendesk.com/hc/en-us/articles/222450207</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **This is also linked to this article: https://workfront.zendesk.com/hc/en-us/articles/222450207</p>
 -->
 
 <!--
@@ -34,11 +34,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -68,15 +68,15 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Views</td> 
-      <td>A list of views&nbsp;associated with the object type you selected. If the view&nbsp;is displayed in the list, it shows for every user in the system, when they are viewing a list of objects of the type you selected.</td> 
+      <td>A list of views associated with the object type you selected. If the view is displayed in the list, it shows for every user in the system, when they are viewing a list of objects of the type you selected.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Groupings</td> 
-      <td>list of groupings&nbsp;associated with the object type you selected. If the grouping&nbsp;is displayed in the list, it shows for every user in the system, when they are viewing a list of objects of the type you selected.</td> 
+      <td>list of groupings associated with the object type you selected. If the grouping is displayed in the list, it shows for every user in the system, when they are viewing a list of objects of the type you selected.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Custom Tabs</td> 
-      <td> <p>The tabs you see listed in this column can be found by&nbsp;all users in the system&nbsp;and they can add them to their own interface.&nbsp;</p> <p><b>IMPORTANT</b>:  <p>Only custom tabs built before 2012 (prior to the Anaconda release) can be shared with all the users in the system using list controls. Any custom tabs built after that release need to be shared with users using the layout template functionality. For more information about layout templates, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.<br></p> <p>Only the following object types allow for custom tabs to be added to list controls:</p> 
+      <td> <p>The tabs you see listed in this column can be found by all users in the system and they can add them to their own interface. </p> <p><b>IMPORTANT</b>:  <p>Only custom tabs built before 2012 (prior to the Anaconda release) can be shared with all the users in the system using list controls. Any custom tabs built after that release need to be shared with users using the layout template functionality. For more information about layout templates, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p> <p>Only the following object types allow for custom tabs to be added to list controls:</p> 
         <ul> 
          <li>Project</li> 
          <li>Task</li> 
@@ -94,14 +94,14 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   Simply click **Search**, to list all existing filters, views, groupings, or custom tabs.&nbsp;
+   Simply click **Search**, to list all existing filters, views, groupings, or custom tabs. 
 
    You must have at least one custom tab built before 2012 in the system before you can see any results when searching for custom tabs.
 
 1. Click the plus sign to the left of the name of a filter, view, grouping, or custom tab that you want to add in your list controls.
 1. Click **Save**.
 
-   All the users in the system can find the filters, views, and groupings in their drop-down menus at the top of lists that display the selected object. In the case of custom tabs, they can now add the custom tabs in their interface, for the object specified.&nbsp;
+   All the users in the system can find the filters, views, and groupings in their drop-down menus at the top of lists that display the selected object. In the case of custom tabs, they can now add the custom tabs in their interface, for the object specified. 
 
 ## Remove filters, views, and groupings
 
@@ -130,15 +130,15 @@ You can remove filters, views, and groupings, including most of the default ones
      </tr> 
      <tr> 
       <td role="rowheader">Views</td> 
-      <td>A list of views&nbsp;associated with the object type you selected. If the view&nbsp;is displayed in the list, it shows for every user in the system, when they are viewing a list of objects of the type you selected.</td> 
+      <td>A list of views associated with the object type you selected. If the view is displayed in the list, it shows for every user in the system, when they are viewing a list of objects of the type you selected.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Groupings</td> 
-      <td>list of groupings&nbsp;associated with the object type you selected. If the grouping&nbsp;is displayed in the list, it shows for every user in the system, when they are viewing a list of objects of the type you selected.</td> 
+      <td>list of groupings associated with the object type you selected. If the grouping is displayed in the list, it shows for every user in the system, when they are viewing a list of objects of the type you selected.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Custom Tabs</td> 
-      <td> <p>The tabs you see listed in this column can be found by&nbsp;all users in the system&nbsp;and they can add them to their own interface.&nbsp;</p> <p><b>IMPORTANT</b>:  <p>Only custom tabs built before 2012 (prior to the Anaconda release) can be shared with all the users in the system using list controls. Any custom tabs built after that release need to be shared with users using the layout template functionality. For more information about layout templates, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.<br></p> <p>Only the following object types allow for custom tabs to be added to list controls:</p> 
+      <td> <p>The tabs you see listed in this column can be found by all users in the system and they can add them to their own interface. </p> <p><b>IMPORTANT</b>:  <p>Only custom tabs built before 2012 (prior to the Anaconda release) can be shared with all the users in the system using list controls. Any custom tabs built after that release need to be shared with users using the layout template functionality. For more information about layout templates, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p> <p>Only the following object types allow for custom tabs to be added to list controls:</p> 
         <ul> 
          <li>Project</li> 
          <li>Task</li> 
@@ -149,5 +149,4 @@ You can remove filters, views, and groupings, including most of the default ones
    </table>
 
 1. Click the trash can button to the left of a the name of a filter, view, grouping, or custom tab.
-1. Click **Save** to remove&nbsp;the filter, view, grouping, or custom tab from&nbsp;the list controls for the selected object.
-
+1. Click **Save** to remove the filter, view, grouping, or custom tab from the list controls for the selected object.

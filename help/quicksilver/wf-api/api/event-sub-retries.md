@@ -2,14 +2,14 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Event subscription retries
-description: When implementing a message delivery system there are a few caveats that must be addressed in order to ensure stability, consistency, and good user experience. One of the shortcomings of a message delivery system is ensuring messages reach their destination successfully and knowing what to do when messages fail to arrive.
+description: Event subscription retries
 author: John
 feature: Workfront API
+exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
 ---
-
 # Event subscription retries
 
-When implementing a message delivery system there are a few caveats that must be addressed in order to ensure stability, consistency, and good user experience. One of the shortcomings of a message delivery system is ensuring messages reach their destination successfully and knowing what to do when messages fail to arrive.&nbsp;
+When implementing a message delivery system there are a few caveats that must be addressed in order to ensure stability, consistency, and good user experience. One of the shortcomings of a message delivery system is ensuring messages reach their destination successfully and knowing what to do when messages fail to arrive.
 
 Some integrations can accept failure of delivery, and then drop the message and move to the next message.  In other integrations, failure to deliver a message cannot be ignored. For example, a financial integration might attempt to deliver a message, but instead receives an HTTP status code of 404, which indicates the server could not find the endpoint to which the message was to be delivered. In such cases, a missing message could mean someone not being paid for their time or an organization going over budget on contracted resources.
 

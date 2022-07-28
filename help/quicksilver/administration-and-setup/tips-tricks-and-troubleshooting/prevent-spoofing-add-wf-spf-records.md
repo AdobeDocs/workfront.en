@@ -8,13 +8,13 @@ description: If users are not receiving Adobe Workfront email notifications, you
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
 ---
-
 # Prevent spoofing and add Adobe Workfront SPF records
 
 ## Problem
 
-If users are not receiving Adobe Workfront&nbsp;email notifications, you need to add Workfront SPF records to your firewall. You must work with your IT team to add SPF records.
+If users are not receiving Adobe Workfront email notifications, you need to add Workfront SPF records to your firewall. You must work with your IT team to add SPF records.
 
 ## Access requirements
 
@@ -26,11 +26,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -41,29 +41,29 @@ You must have the following access to perform the steps in this article:
 
 ## Solution
 
-If you already added the IP addresses to your allowlist for your production environment as described in&nbsp; [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)&nbsp;and users are still not receiving emails:
+If you already added the IP addresses to your allowlist for your production environment as described in [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) and users are still not receiving emails:
 
 1. Add the following SPF record to your firewall:
 
    *spf.workfront.com*
 
-   This automatically adds all Workfront IP addresses to your allowlist on your firewall&nbsp;and allows all spam filters (that use SPF records) to validate Workfront servers as valid senders for&nbsp;your domain.
+   This automatically adds all Workfront IP addresses to your allowlist on your firewall and allows all spam filters (that use SPF records) to validate Workfront servers as valid senders for your domain.
 
    >[!NOTE]
    >
-   >&nbsp;An SPF record is a TXT record that is part of a DNS zone file. We do not support modifying your DNS zone file.
+   > An SPF record is a TXT record that is part of a DNS zone file. We do not support modifying your DNS zone file.
 
-1. You must specify what type of SPF record needs to be configured. These are the valid types of SPF records:&nbsp;
+1. You must specify what type of SPF record needs to be configured. These are the valid types of SPF records: 
 
    * all (https://dmarcian.com/spf-syntax-table/#all)
    * ip4 (https://dmarcian.com/spf-syntax-table/#ip4)
    * ip6 (https://dmarcian.com/spf-syntax-table/#ip6)
    * a (https://dmarcian.com/spf-syntax-table/#a)
-   * mx&nbsp;(https://dmarcian.com/spf-syntax-table/#mx)
+   * mx (https://dmarcian.com/spf-syntax-table/#mx)
    * ptr (https://dmarcian.com/spf-syntax-table/#ptr)
    * exists (https://dmarcian.com/spf-syntax-table/#exists)
    * include (https://dmarcian.com/spf-syntax-table/#include)
 
-   For example, “v=spf1 a mx include: [spf.workfront.com](http://spf.workfront.com/)&nbsp;-all”
+   For example, “v=spf1 a mx include: [spf.workfront.com](http://spf.workfront.com/) -all”
 
 If you cannot add SPF records to your firewall due to company policy, please work with your Workfront Support Representative.

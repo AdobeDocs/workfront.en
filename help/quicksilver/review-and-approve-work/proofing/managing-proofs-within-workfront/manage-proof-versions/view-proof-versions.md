@@ -5,8 +5,8 @@ title: View proof versions
 description: You can view past versions of a proof.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 909b8924-c0f6-47a6-ba30-fbff7c2e0d55
 ---
-
 # View proof versions
 
 You can view past versions of a proof.
@@ -65,4 +65,3 @@ Any user in Workfront with View access to the document can view past versions of
 1. In the Summary, scroll down to **Versions**, click the **More** menu, then select **Open proof**.
 
    ![](assets/proof-versions-in-summary-350x167.png)
-

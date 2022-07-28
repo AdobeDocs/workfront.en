@@ -6,8 +6,8 @@ title: Reports
 description: Review these areas to get an understanding of how to use reporting in Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
 ---
-
 # Reports
 
 This section contains the following subsections:
@@ -23,4 +23,4 @@ This section contains the following subsections:
 * [Calendars](../../reports-and-dashboards/reports/calendars/calendars.md) 
 * [Tips, tricks, and troubleshooting for reports](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
 
-For in-depth training on reports, see  [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program). 
+For in-depth training on reports, see  [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).

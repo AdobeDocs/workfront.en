@@ -5,8 +5,8 @@ title: Create custom sections
 description: The information you see in the Workfront web application is often displayed in the sections in the left panel by default. Each section contains different information about a Workfront area or object.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
 ---
-
 # Create custom sections
 
 ## Adobe Workfront sections {#adobe-workfront-sections}

@@ -4,9 +4,9 @@ navigation-topic: add-documents-to-workfront
 title: Link documents from external applications
 description: You can link documents and folders to Adobe Workfront from the following sources - EDIT ME.
 author: Courtney
-feature: "Digital Content and Documents, Workfront Integrations and Apps"
+feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
 ---
-
 # Link documents from external applications
 
 You can link documents and folders to Adobe Workfront from the following sources:
@@ -354,4 +354,3 @@ If you want the name to match in Workfront and in the external application, you 
 >[!IMPORTANT]
 >
 >Do not rename a document in Workfront that is linked&nbsp;to Dropbox; doing so renders the file in Workfront inaccessible. Instead, rename the file in Dropbox, then re-synchronize the file, as described in [Link documents from external applications](#synchronizing-changes-made-on-a-linked-document).
-

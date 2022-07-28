@@ -6,8 +6,8 @@ title: Restore a scenario version in Adobe Workfront Fusion
 description: You can restore a previous version of a scenario. This allows you to make changes to a scenario, then easily revert those changes if you prefer the previous functionality.
 author: Becky
 feature: Workfront Fusion
+exl-id: 8885fe4e-a9ae-4cfa-895f-68a2f8228034
 ---
-
 # Restore a scenario version in Adobe Workfront Fusion
 
 ## Access requirements
@@ -53,4 +53,3 @@ You must have the following access to use the functionality in this article:
 >[!NOTE]
 >
 >The restored version of the scenario is not automatically saved. If you want to save the restored version of the scenario, you have to do so manually.
-

@@ -7,8 +7,8 @@ description: As an Adobe Workfront administrator, you can grant administrative a
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
 ---
-
 # Grant administrative access for a layout template
 
 As an Adobe Workfront administrator, you can grant administrative access for a layout template to the group administrators of a particular group so that they can edit the template. This does not assign the template to the users in the group.
@@ -29,15 +29,15 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>The System Administrator access level</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td><p>The System Administrator access level</p><p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,4 +57,3 @@ You must have the following access to perform the steps in this article:
    >* If you don't grant administrative access to the group administrators in a particular group, all users who can edit user accounts have administrative access to the layout template. Some Workfront administrators purposefully choose not to grant administrative access for a layout template in order to make it a system-level layout template. 
 
 1. You can click Save at any time to save your progress, then continue to modify the template later.
-

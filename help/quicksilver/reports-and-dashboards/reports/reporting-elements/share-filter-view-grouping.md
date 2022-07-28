@@ -5,11 +5,13 @@ title: Share a filter, view, or grouping
 description: You can share filters, views, and groupings that you have access to view with other users.
 author: Lisa
 feature: Reports and Dashboards
+exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 ---
-
 # Share a filter, view, or grouping
 
+<!--
 {{highlighted-preview}}
+-->
 
 
 <!--
@@ -129,9 +131,7 @@ Sharing filters, views, and groupings in the standard interface is identical.
 
    Users with whom you shared the filter, view, or grouping can access it by clicking the **Filter**, **View**, or **Grouping** drop-down menu or icon and scrolling down to the **Shared with me** section.
 
-<div class="preview">
-
-### Sharing filters using the beta builder interface {#share-with-beta-builder-interface}
+### Sharing filters using the beta builder interface (Preview environment only) {#share-with-beta-builder-interface}
 
 When sharing filters from lists of projects, tasks, or issues, you can share them using the beta builder interface instead of the standard interface.
 
@@ -156,28 +156,28 @@ Share a filter using the beta builder interface:
 
 1. Review the following lists of filters:
 
-<table style="table-layout:auto">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader"><strong>Favorited</strong></td>
-<td>Filters that you marked as favorites. When you favorite a filter, its original location is shown below the filter name, and it is hidden from the original list unless you remove it as a favorite.</td>
-</tr>
-<tr>
-<td role="rowheader"><strong>Saved</strong></td>
-<td>Filters that you built and saved yourself.</td>
-</tr>
-<tr>
-<td role="rowheader"><strong>System defaults</strong></td>
-<td>Workfront system default filters, as well as filters that the Workfront administrator added to your list of filters, either at the system level or in your layout template.</td>
-</tr>
-<tr>
-<td role="rowheader"><strong>Shared with me</strong></td>
-<td>Filters that others created and shared with you or that are shared system-wide.</td>
-</tr>
-</tbody>
-</table>
+   <table style="table-layout:auto">
+   <col>
+   <col>
+   <tbody>
+   <tr>
+   <td role="rowheader"><strong>Favorited</strong></td>
+   <td>Filters that you marked as favorites. When you favorite a filter, its original location is shown below the filter name, and it is hidden from the original list unless you remove it as a favorite.</td>
+   </tr>
+   <tr>
+   <td role="rowheader"><strong>Saved</strong></td>
+   <td>Filters that you built and saved yourself.</td>
+   </tr>
+   <tr>
+   <td role="rowheader"><strong>System defaults</strong></td>
+   <td>Workfront system default filters, as well as filters that the Workfront administrator added to your list of filters, either at the system level or in your layout template.</td>
+   </tr>
+   <tr>
+   <td role="rowheader"><strong>Shared with me</strong></td>
+   <td>Filters that others created and shared with you or that are shared system-wide.</td>
+   </tr>
+   </tbody>
+   </table>
 
 1. Hover over a filter you have access to at least view and share, then click the **More** menu ![More menu](assets/more-icon-spectrum.png), then click **Share**.
 
@@ -219,4 +219,3 @@ Share a filter using the beta builder interface:
 
    ![Filters shared with me](assets/new-filters-shared-with-me.png)
 
-</div>

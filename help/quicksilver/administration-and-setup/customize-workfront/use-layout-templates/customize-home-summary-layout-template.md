@@ -7,8 +7,8 @@ description: You can use a Layout Template to configure what users see when they
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
 ---
-
 # Customize Home and Summary using a layout template
 
 You can use a Layout Template to configure what users see when they click a task or issue in Home and in the Summary. Each configuration you make using the steps below affects the Home area and the Summary panel in the same way. These customizations don't apply to the Document Summary panel.
@@ -34,11 +34,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

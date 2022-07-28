@@ -7,21 +7,18 @@ description: You can configure system-wide preferences for tasks and issues. The
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
 ---
-
 # Configure system-wide task and issue preferences
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **&nbsp;** This is linked to Converting Issues.</p>
--->
+<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
+Linked to Converting Issues.-->
 
 As an Adobe Workfront administrator, you can configure system-wide preferences for tasks and issues. These preferences impact the way that your users create tasks and issues in Workfront.
 
-By default, these preferences are locked and group administrators cannot modify them at the group level unless you unlock them for all groups throughout the system. For more information, see the section [Lock task and issue preferences for groups](#lock-task-and-issue-preferences-for-groups) in this article.
+By default, task and issue preferences are locked and group administrators cannot modify them at the group level unless you unlock them for all groups throughout the system. For more information, see the section [Lock task and issue preferences for groups](#lock-task-and-issue-preferences-for-groups) in this article.
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">SPLIT&nbsp;OUT&nbsp;BOTTOM SECTION TO NEW ARTICLE?</p>
--->
+<!--SPLIT OUT BOTTOM SECTION TO NEW ARTICLE?-->
 
 ## Access requirements
 
@@ -33,11 +30,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -103,7 +100,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>When someone converts an issue into a project or task, both the original issue and the converted project or task become resolving objects. This setting lets you correlate the resolution of the original issue to the resolution of its resolvable object. For more information on resolving objects, see <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> <p>In order for this setting to have any effect, the option to <strong>Keep the original issue and tie its resolution to the task</strong> must be selected.</p> 
     <ul> 
      <li>When this setting is enabled, you can create custom statuses with the same key for both issues and projects or tasks. When the project or task (as a resolvable object) turns into the custom status, the change also reflects on the status of the issue. The status key must be the same for the issue and project or task statuses.</li> 
-     <li>When this setting is disabled, resolving&nbsp;object statuses are automatically set to the default status, instead of the custom ones. For more information about the default statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Access the list of system issue statuses</a>.</li> 
+     <li>When this setting is disabled, resolving object statuses are automatically set to the default status, instead of the custom ones. For more information about the default statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Access the list of system issue statuses</a>.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -115,9 +112,9 @@ You must have the following access to perform the steps in this article:
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>Allow Primary Contact to have access to the task</strong>: Gives the primary contact (issue creator)&nbsp;access to the task to review the task, make updates, and stay informed of its progress</li> 
+     <li><strong>Allow Primary Contact to have access to the task</strong>: Gives the primary contact (issue creator) access to the task to review the task, make updates, and stay informed of its progress</li> 
      <li> <p><strong>Allow these settings to be changed during conversion</strong>: Allows the user who is converting the issue to change these options during the conversion of an issue to a task.</p> <!--
-       <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot when possible</p>
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot when possible</p>
       --> </li> 
     </ul> </td> 
   </tr> 
@@ -125,12 +122,12 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">When converting an issue to a project</td> 
    <td> <p>The settings in this section determine what happens during the conversion process from issue to project:</p> 
     <ul> 
-     <li> <p><strong>Keep the original issue and tie its resolution to the project</strong>: When you are converting the issue, it remains visible as an issue until the project is complete. The status of the issue automatically changes to Closed when the project&nbsp;completes. When this is deselected, the issue is deleted. </p> <p><b>NOTE</b>:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
+     <li> <p><strong>Keep the original issue and tie its resolution to the project</strong>: When you are converting the issue, it remains visible as an issue until the project is complete. The status of the issue automatically changes to Closed when the project completes. When this is deselected, the issue is deleted. </p> <p><b>NOTE</b>:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>Allow Primary Contact to have access to the project</strong>: Gives the primary contact (issue creator)&nbsp;access to the project to review the project, make updates, and stay informed of its progress.</li> 
+     <li><strong>Allow Primary Contact to have access to the project</strong>: Gives the primary contact (issue creator) access to the project to review the project, make updates, and stay informed of its progress.</li> 
      <li><strong>Allow these settings to be changed during conversion</strong>: Allows the user who is converting the issue to change the listed options during the conversion of an issue to a project.</li> 
     </ul> </td> 
   </tr> 
@@ -146,7 +143,7 @@ You must have the following access to perform the steps in this article:
 >This setting also applies to deleting projects that have tasks or issues with hours logged on them. This setting does not apply to deleting projects where time is logged directly for the project.
 
 <!--
-><span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">NWE only</span>>
+><span data-mc-conditions="QuicksilverOrClassic.Draft mode">NWE only</span>>
 >-->
 
 * When it is selected, you receive an informational warning when you delete a task or issue. The warning reminds you that if the task or issue has logged hours, they will either be moved to the project or deleted. You can configure whether the hours are deleted or moved to the project in the Timesheet & Hours Preferences area of the Setup. After you confirm that you have seen the warning, the task or issue is deleted. For more information about configuring Timesheet & Hours Preferences, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
@@ -173,10 +170,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">When a task or issue is completed, set the Actual Completion Date to</td> 
-   <td> <p>Select one of the following options for when the Actual Completion Date is&nbsp;recorded in Workfront when a task or issue is completed:</p> 
+   <td> <p>Select one of the following options for when the Actual Completion Date is recorded in Workfront when a task or issue is completed:</p> 
     <ul> 
      <li><strong>Now:</strong> The Actual Completion Date is set to the current date.</li> 
-     <li> <p><strong>The Planned Completion Date:</strong> The Actual Completion Date is set to&nbsp;the Planned Completion Date of the task or issue.</p> </li> 
+     <li> <p><strong>The Planned Completion Date:</strong> The Actual Completion Date is set to the Planned Completion Date of the task or issue.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -201,9 +198,9 @@ For information about delegating work to others, see the following articles:
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p><strong>Work On It</strong></p>
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This was a Ninja story in Summer/Fall 2020 that may never be implemented Leaving it here drafted in case Ninja decides to add it.</p>
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Here's what Jeremy Flores says on 12/1/20:</p>
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">I have not had a chance to follow up with customers to verify if this is still a need. It has not come up organically. I can follow up with a few customers, but overall I would say that we're probably safe to move on and just mark what we've done to support this as complete. It could still come up but I don't want to push it unless customers really want it.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">This was a Ninja story in Summer/Fall 2020 that may never be implemented Leaving it here drafted in case Ninja decides to add it.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Here's what Jeremy Flores says on 12/1/20:</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">I have not had a chance to follow up with customers to verify if this is still a need. It has not come up organically. I can follow up with a few customers, but overall I would say that we're probably safe to move on and just mark what we've done to support this as complete. It could still come up but I don't want to push it unless customers really want it.</p>
 <p>You can replace the Work On It button with a Start button. When a user assigned to a task or issue clicks Start, the status and Actual Start Date of the work item update automatically, letting others know that the user started work.</p>
 <p>Workfront's default Work On It button also signals that a user started work on a task or issue, but it doesn't update the status and Actual Start Date.</p>
 <p>To switch to the Start button:</p>
@@ -286,4 +283,3 @@ To lock or unlock a task or issue preference so that groups can configure it
      >We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
 
 1. Click **Save**.
-

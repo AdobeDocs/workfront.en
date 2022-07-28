@@ -6,8 +6,8 @@ title: Home Calendar view
 description: Updated for QS except for section about expanding a work item in the list--this isn't working yet in QS.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 174bf68f-bbb7-4777-aeeb-53a0b3a8b1f7
 ---
-
 # Home Calendar view
 
 <!--
@@ -81,4 +81,3 @@ The Due bar on your Home Calendar displays the items that are due for the week c
 >[!NOTE]
 >
 >If you have integrated your Microsoft calendar with your Workfront calendar, items in the Due bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your Workfront Calendar. For more information, see the section&nbsp; [Work list on the Home Calendar](#work-list-on-the-home-calendar)&nbsp;above and the article&nbsp; [Configure your Home Calendar view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
-

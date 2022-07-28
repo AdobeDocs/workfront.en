@@ -6,10 +6,10 @@ navigation-topic: configure-proofing-functionality
 title: Access to proofing functionality in Workfront
 description: The proofing functionality available to your users depends on which Workfront plan your organization purchased.
 author: Courtney
-feature: "System Setup and Administration, Digital Content and Documents"
+feature: System Setup and Administration, Digital Content and Documents
 role: Admin
+exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
 ---
-
 # Access to proofing functionality in Workfront
 
 The proofing functionality available to your users depends on which Workfront plan your organization purchased.
@@ -37,9 +37,9 @@ For information about granting and revoking a user's access to create and view p
   These profiles affect permissions only in Workfront Proof permissions, not in Workfront.
 
 * Compare two proofs or two versions of the same proof. For more information, see [Compare proofs](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md).
-* Create a Proof Approval report. For more information, see&nbsp; [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-* View the proof stage that is currently active on each document version in the Document Version report. The name of the stage is displayed in the "Active Proof Stages" column. If no stage is currently active on the document version, the column is blank. For more information about available fields in views and reports, see&nbsp; [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
-* Configure when proofs with an automated workflow are visible to users who are associated with a given stage. For more information, see&nbsp; [Configure proof visibility based on workflow stage activity](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md#configuring-proof-visibility-based-on-workflow-stage-activity)&nbsp;in&nbsp; [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).
+* Create a Proof Approval report. For more information, see  [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* View the proof stage that is currently active on each document version in the Document Version report. The name of the stage is displayed in the "Active Proof Stages" column. If no stage is currently active on the document version, the column is blank. For more information about available fields in views and reports, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+* Configure when proofs with an automated workflow are visible to users who are associated with a given stage. For more information, see [Configure proof visibility based on workflow stage activity](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md#configuring-proof-visibility-based-on-workflow-stage-activity) in  [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).
 * Seamless access to Workfront Proof directly from the Workfront Global Navigation Bar (no extra login required). For more information, see [Access Workfront Proof from Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
 <!--
@@ -47,4 +47,3 @@ For information about granting and revoking a user's access to create and view p
 >
 >There are some capabilities included in Workfront Proof standalone that are not included in Proofing in Workfront. To learn more, see [Standalone Workfront Proof to Integrated Proofing in Workfront overview](../../../administration-and-setup/manage-workfront/configure-proofing/move-to-proofing-in-workfront.md)
 -->
-

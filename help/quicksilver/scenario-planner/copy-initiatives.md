@@ -5,8 +5,8 @@ title: Copy initiatives in the Scenario Planner
 description: You can create initiatives by copying existing ones. You can copy initiatives on a plan that you create or on a plan that someone shares with you.
 author: Alina
 feature: Workfront Scenario Planner
+exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
 ---
-
 # Copy initiatives in the Scenario Planner
 
 You can create initiatives by copying existing ones. You can copy initiatives on a plan that you create or on a plan that someone shares with you.
@@ -100,4 +100,3 @@ Consider the following when copying initiatives:
    For information about prioritizing initiatives, see [Update initiative priorities in the Scenario Planner](../scenario-planner/prioritize-initiatives.md). 
 
 1. Click **Save Plan** to save your changes.
-

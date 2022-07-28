@@ -2,10 +2,11 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Get information about the service (not yet implemented)
-description: "Note: The release date for this feature is yet to be determined."
+title: Get information about the service
+description: Get information about the service
 author: John
-feature: "Workfront API, Digital Content and Documents"
+feature: Workfront API
+exl-id: a3a423ff-29a6-466e-a568-f64e02dcb484
 ---
 
 # Get information about the service (not yet implemented)
@@ -16,7 +17,7 @@ feature: "Workfront API, Digital Content and Documents"
 
 Returns information about the service, such as features and capabilities. Adobe Workfront will use this information to customize the user interface in Workfront. For example, if the webhook implementation contains some custom actions, the JSON should list those operations in the JSON. Users would then be able to invoke these actions from Workfront.
 
-## URL
+**URL**
 
 GET /serviceInfo
 
@@ -71,4 +72,15 @@ JSON containing information about this service
 **Example:** `https://www.acme.com/api/serviceInfo`
 
 returns
-<pre>{<br>webhook version: “1.2”, version: “1.0”, publisher: “Acme, LLC”, availableEndpoints: [“files”, “metadata”, “search”, “download”<br>“thumbnail”, “uploadInit”, “upload” ], customActions [<br>{<br>name: “archive”, displayName: “Archive” }, {<br>name: “doSomethingElse”, displayName: “Do Something” }, ] }</pre>
+
+```
+{
+webhook version: “1.2”, version: “1.0”, publisher: “Acme, LLC”, availableEndpoints: [“files”, “metadata”, “search”, “download”
+“thumbnail”, “uploadInit”, “upload” ], customActions [
+{
+name: “archive”, displayName: “Archive” 
+}, 
+{name: “doSomethingElse”, displayName: “Do Something” }, 
+] 
+}
+```

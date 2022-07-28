@@ -7,11 +7,11 @@ description: As an Adobe Workfront administrator, you can use an access level to
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 3c15f90f-ce87-484d-93a7-9eeb2963a798
 ---
-
 # Grant access to issues
 
-As an Adobe Workfront administrator, you can use an access level to define a user's access to issues, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
+As an Adobe Workfront administrator, you can use an access level to define a user's access to issues, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
 
 For information about using custom access levels to manage users' access to other object types in Workfront, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -25,11 +25,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -59,11 +59,11 @@ For information about what users in each access level can do with issues, see th
 As the owner or creator of an issue, you can share with other users by granting them permissions to it, as explained in [Share an issue](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
 <!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:</p>
-<p style="color: #ff1493;">* reports, dashboards, and calendars</p>
-<p style="color: #ff1493;">* financial data</p>
-<p style="color: #ff1493;">* issue</p>
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:</p>
+<p>* reports, dashboards, and calendars</p>
+<p>* financial data</p>
+<p>* issue</p>
 </div>
 -->
 
@@ -75,4 +75,3 @@ When you share any object with another user, the recipient's rights on it are de
 Also, if allowed by their access level, users can gain access to an issue through object hierarchy: if a user already has permission on an issue's parent project or task, they also have permission on the issue (see Step 3 above). When you are sharing an issue, you can see a list of the users who have inherited permission to it.
 
 ![](assets/screen-shot-2014-01-22-at-10.09.50-am-350x397.png)
-

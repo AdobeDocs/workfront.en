@@ -1,13 +1,13 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: workfront-for-experience-manager-enhanced-connector
-title: Send a Document to Experience Manager Assets
+title: Send a Document with the enhanced connector
 description: You can send documents from Workfront to Experience Manager Assets. Documents uploaded and sent from Workfront to Experience Manager Assets still count against your overall document storage. Assets linked from Experience Manager Assets don't count towards overall storage.
 author: Courtney
-feature: "Digital Content and Documents, Workfront Integrations and Apps"
+feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: d687d2db-28e0-45e8-9d60-8419921f02e9
 ---
-
-# Send a Document to Experience Manager Assets
+# Send a Document with the enhanced connector
 
 You can send documents from Workfront to Experience Manager Assets. Documents uploaded and sent from Workfront to Experience Manager Assets still count against your overall document storage. Assets linked from Experience Manager Assets don't count towards overall storage.
 
@@ -84,4 +84,3 @@ To send the most recent version:
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Click **Save**. The new version saves in the same location as the previous version.
-

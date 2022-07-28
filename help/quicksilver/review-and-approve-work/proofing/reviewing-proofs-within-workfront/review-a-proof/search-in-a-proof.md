@@ -5,8 +5,8 @@ title: Search content within a proof
 description: You can quickly locate text in a proof created for the following types of documents - EDIT ME.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
 ---
-
 # Search content within a proof
 
 You can quickly locate text in a proof created for the following types of documents:
@@ -17,7 +17,7 @@ You can quickly locate text in a proof created for the following types of docume
 
 >[!NOTE]
 >
->&nbsp;Proofs created prior to April 26, 2017 might not be searchable.
+>Proofs created prior to April 26, 2017 might not be searchable.
 
 ## Access requirements
 
@@ -62,4 +62,3 @@ You must have the following access to perform the steps in this article:
    ![Search_text_highlighted_as_you_type.png](assets/search-text-highlighted-as-you-type-350x214.png)
 
 1. Finish typing the text you want to search for, then click the&nbsp;**Up**&nbsp;and&nbsp;**Down**&nbsp;arrows to scan through the search results within the proof.
-

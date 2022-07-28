@@ -4,8 +4,8 @@ title: Attach a Custom Form to a Business Case
 description: Custom Forms are used to collect information that is not displayed in existing Adobe Workfront fields.
 author: Alina
 feature: Work Management
+exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
 ---
-
 # Attach a Custom Form to a Business Case
 
 Custom Forms are used to collect information that is not displayed in existing Adobe Workfront fields.&nbsp;
@@ -73,4 +73,3 @@ To attach a custom form:
    ![](assets/acf1-350x122.png)
 
 1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** .
-

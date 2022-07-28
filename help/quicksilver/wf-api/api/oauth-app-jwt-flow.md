@@ -1,12 +1,12 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Configure and use your organization's custom OAuth 2 applications using JWT flow
-description: In order to integrate with Workfront and allow your client app to communicate with Workfront on behalf of the user, you must - EDIT ME.
+title: Using JWT flow for custom OAuth 2 applications 
+description: Using JWT flow for custom OAuth 2 applications
 author: John
 feature: Workfront API
+exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
 ---
-
 # Configure and use your organization's custom OAuth 2 applications using JWT flow
 
 In order to integrate with Workfront and allow your client app to communicate with Workfront on behalf of the user, you must:

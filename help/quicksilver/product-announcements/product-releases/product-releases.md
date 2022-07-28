@@ -5,8 +5,8 @@ title: Product releases
 description: Following are links to the release notes for current and past releases.
 author: Luke
 feature: Product Announcements
+exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
 ---
-
 # Product releases
 
 Following are links to the release notes for current and past releases.
@@ -64,4 +64,3 @@ For information about the Adobe Workfront release schedule, see [Adobe Workfront
   </tr> 
  </tbody> 
 </table>
-

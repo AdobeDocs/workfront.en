@@ -7,8 +7,8 @@ description: You can find out which custom forms are using a custom field or wid
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
 ---
-
 # View all custom forms that use a particular custom field or widget
 
 You can find out which custom forms are using a custom field or widget that you want to change or delete. It's important to assess whether those custom forms will need adjustments to keep working properly or to continue to be useful after you change or delete the field or widget.
@@ -29,7 +29,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -47,4 +47,3 @@ You must have the following to perform the steps in this article:
 1. In the left panel, click **Custom Forms**.
 1. Open the **Fields** tab, look for the field or widget in the **Name** column, then view the **Forms** column to see which custom forms are using the field or widget.
 1. (Optional) Click the name of any of those custom forms to go to the form and consider what changes you might need to make there if you modify the field or widget.
-

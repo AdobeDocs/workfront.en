@@ -2,10 +2,10 @@
 filename: create-campaigns
 navigation-topic: campaigns
 title: Create campaigns
-description: You can create campaigns to organize your work objects. 
+description: You can create campaigns to organize your work objects.
 author: Alina
+exl-id: 08853e63-2d6a-4f4d-a7f0-34910ea390a4
 ---
-
 # Create campaigns
 
 >[!NOTE]

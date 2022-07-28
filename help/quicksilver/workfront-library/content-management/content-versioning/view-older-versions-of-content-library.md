@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: content-versioning
 title: Access older versions of content in Workfront Library
 description: As a user with Manage permission to content, you can use Workfront Library to view and download all iterations of content through the versioning feature. For more on managing versioning content, see Overview of content versioning in Workfront Library.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 73ac8f54-3d20-4243-b97f-11b1659a1117
 ---
-
 # Access older versions of content in Workfront Library
 
 As a user with Manage permission to content, you can use Workfront Library to view and download all iterations of content through the versioning feature.&nbsp;For more on managing versioning content, see [Overview of content versioning in Workfront Library](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md).
@@ -33,4 +33,3 @@ Users with View permission to content can view only the active version.
 1. Click the **Version** drop-down arrow following the content title, then select the version that you want to view.
 
    For information on downloading older version of content, see [Download items from Workfront Library](../../../workfront-library/content-management/basics/download-content-from-library.md).
-

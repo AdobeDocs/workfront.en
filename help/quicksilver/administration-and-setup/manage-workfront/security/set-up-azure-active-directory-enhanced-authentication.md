@@ -7,8 +7,8 @@ description: The procedure described on this page applies only to organizations 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: d7dff489-1836-43c5-8b67-de85215c6069
 ---
-
 # Set up Azure Active Directory with Enhanced Authentication
 
 {{important-admin-console-onboard}}
@@ -25,11 +25,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

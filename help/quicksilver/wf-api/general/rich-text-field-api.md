@@ -2,9 +2,10 @@
 content-type: api
 navigation-topic: general-api
 title: Rich text fields in the Adobe Workfront API
-description: Some objects in Adobe Workfront allow for the storage of text with rich-text formatting. In the Workfront API rich text is stored as JSON using the open source framework Draft.js.
+description: Rich text fields in the Adobe Workfront API
 author: John
 feature: Workfront API
+exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
 ---
 
 # Rich text fields in the Adobe Workfront API
@@ -17,7 +18,7 @@ A custom field with rich-text formatting is called **Field with rich text** and 
 
 ![](assets/rich-text-example-350x158.png)
 
-**Example:** A basic GET&nbsp;request to retrieve the value of the custom form field **Field with rich text**&nbsp;
+**Example:** A basic GET request to retrieve the value of the custom form field **Field with rich text**:
 
 <!-- [Copy](javascript:void(0);) --> 
 <pre><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GET /attask/api-internal/<OBJ Code>/<OBJ ID>?fields=parameterValues#&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GET /attask/api/v12.0/<OBJ Code>/<OBJ ID>?fields=parameterValues</code></pre>&nbsp;
@@ -64,7 +65,7 @@ In the case where multiple types of formatting have been applied to a single lin
 
 >[!NOTE]
 >
->The 20.3 release will support bold, italic, and underline formatting options.
+>All versions after the 20.3 release will support bold, italic, and underline formatting options.
 
 ## entityMaps and entityRanges
 
@@ -111,4 +112,3 @@ To save the following values of a rich-text field using the Workfront API:
 
    <!-- [Copy](javascript:void(0);) --> 
    <pre><code>PUT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/attask/api-internal/<OBJ Code>/<OBJ ID>?updates={"DE:Field with rich text"="{\n&nbsp;&nbsp;&nbsp;\"blocks\":[\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\"key\":\"0\",\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\"text\":\"Hello World!!!\",\n\t\t\t\t \"inlineStyleRanges\": [\n\t\t\t\t\t\t{\n\"offset\":6,\n\"length\":11,\n\"style\":\"BOLD\"\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] \n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\"key\":\"1\",\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\"text\":\"My first Rich Text\",\n\t\t\t\t \"inlineStyleRanges\": [\n\t\t\t\t\t\t{\n\"offset\":9,\n\"length\":18,\n\"style\":\"BOLD\"\n},\n\t\t\t\t\t\t{\n\"offset\":9,\n\"length\":18,\n\"style\":\"ITALIC\"\n}\n]\n}\n],\n\"entityMap\":{\n}\n}"}</code></pre>
-

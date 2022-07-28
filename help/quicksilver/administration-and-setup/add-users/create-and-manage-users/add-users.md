@@ -7,8 +7,8 @@ description: As a Workfront administrator or a user with full administrative acc
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
 ---
-
 # Add users
 
 >[!IMPORTANT]
@@ -42,11 +42,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

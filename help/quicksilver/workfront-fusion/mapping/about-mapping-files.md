@@ -7,8 +7,8 @@ title: About mapping files in Adobe Workfront Fusion
 description: Some modules have the capability to process files. These modules can either return an output file to be sent for further processing or require a file to be passed to them for processing. Before these modules can work together to process files, they have to be mapped to each other.
 author: Becky
 feature: Workfront Fusion
+exl-id: 9ed5f176-86d8-4139-b582-c2f58aaed8d4
 ---
-
 # About mapping files in Adobe Workfront Fusion
 
 Some modules have the capability to process files. These modules can either return an output file to be sent for further processing or require a file to be passed to them for processing. Before these modules can work together to process files, they have to be mapped to each other.
@@ -65,4 +65,3 @@ When you map a file, you choose the modules in your scenario from which you want
 >However, if you wanted to rename the file, but keep the data as it is, you could use the Map option to map the file name and file content separately. You would enter the full file name, including the extension. Text formats and binary formats, such as photos, videos, and PDF, are supported.
 >
 >![](assets/use-the-map-option-350x358.png)
-

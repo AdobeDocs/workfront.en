@@ -8,8 +8,8 @@ description: The Custom Refresh Sandbox is an environment where you can test and
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
 ---
-
 # The Adobe Workfront Custom Refresh Sandbox environment
 
 The Custom Refresh Sandbox is an environment where you can test and work using data from your production environment. It's also ideal for running trainings and determining setup functionality.
@@ -87,7 +87,7 @@ To access your Custom Refresh Sandbox:
 
    Your Custom Refresh Sandbox credentials are the same as your production credentials, unless you have changed your production credentials since you last refreshed your Custom Refresh Sandbox. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.
 
-   The Custom Refresh Sandbox&nbsp;shows the version as well as the last refresh date in the banner at the top of the screen. All information from production is available and ready to work with after a&nbsp;refresh completes.
+   The Custom Refresh Sandbox shows the version as well as the last refresh date in the banner at the top of the screen. All information from production is available and ready to work with after a refresh completes.
 
 ## Access the Custom Refresh Sandbox using a URL {#access-the-custom-refresh-sandbox-using-a-url}
 
@@ -110,12 +110,12 @@ To access your Custom Refresh Sandbox using a URL:
 
    https://companyname.sb02.workfront.com (old URL:https://cr2.attasksandbox.com/)
 
-1. On the login screen, log in using your Custom Refresh Sandbox credentials.&nbsp;
-1. Your Custom Refresh Sandbox credentials are the same as your production credentials, unless you have changed your production credentials since your Custom Refresh Sandbox was last refreshed. The logins are synchronized&nbsp;only when a refresh occurs. They do not synchronize automatically.
+1. On the login screen, log in using your Custom Refresh Sandbox credentials. 
+1. Your Custom Refresh Sandbox credentials are the same as your production credentials, unless you have changed your production credentials since your Custom Refresh Sandbox was last refreshed. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.
 
 ### **Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)** {#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts}
 
-If your Workfront account is on Cluster 4 (EMEA cluster), you can access your Custom Refresh Sandbox only using a URL. To&nbsp;find out what cluster your account is on, contact our Customer Support team.&nbsp;
+If your Workfront account is on Cluster 4 (EMEA cluster), you can access your Custom Refresh Sandbox only using a URL. To find out what cluster your account is on, contact our Customer Support team. 
 
 Depending on your Support package, you should have access to one or two Custom Refresh Sandboxes.
 
@@ -135,7 +135,7 @@ To access your Custom Refresh Sandbox using a URL:
 
 1. On the login screen, log in using your Custom Refresh Sandbox credentials.
 
-   Your Custom Refresh Sandbox credentials are the same as your production credentials, unless you have changed your production credentials since your Custom Refresh Sandbox was last refreshed. The logins are synchronized&nbsp;only when a refresh occurs. They do not synchronize automatically.
+   Your Custom Refresh Sandbox credentials are the same as your production credentials, unless you have changed your production credentials since your Custom Refresh Sandbox was last refreshed. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.
 
 ## Schedule a refresh of your Custom Refresh Sandbox
 
@@ -163,15 +163,15 @@ To schedule a refresh of your Customer Refresh Sandbox:
 
 1. Click **Go To Production** in the banner at the top of the screen.
 
-   Remember that work done in the sandbox will not be visible in the production environment, as the transfer of data is unidirectional, from production to your Custom Refresh Sandbox,&nbsp;and not in reverse.
+   Remember that work done in the sandbox will not be visible in the production environment, as the transfer of data is unidirectional, from production to your Custom Refresh Sandbox, and not in reverse.
 
 ## Receive emails from the Custom Refresh Sandbox
 
-Workfront disables all email communication from the Custom Refresh&nbsp;Sandbox environment. If you want to receive email notifications from the Custom Refresh Sandbox environment, you must enable this functionality in your user settings. For more information about enabling email notifications in the Custom Refresh Sandbox environment, see [Enable delivery of emails from the Preview Sandbox environment](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Workfront disables all email communication from the Custom Refresh Sandbox environment. If you want to receive email notifications from the Custom Refresh Sandbox environment, you must enable this functionality in your user settings. For more information about enabling email notifications in the Custom Refresh Sandbox environment, see [Enable delivery of emails from the Preview Sandbox environment](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 >[!NOTE]
 >
->Report delivery and push notifications on the mobile app are always disabled for the Custom Refresh&nbsp;Sandbox environment. Neither you nor the Workfront administrator can enable report delivery or push notifications for the mobile app when you access the Custom Refresh&nbsp;Sandbox environment.  
+>Report delivery and push notifications on the mobile app are always disabled for the Custom Refresh Sandbox environment. Neither you nor the Workfront administrator can enable report delivery or push notifications for the mobile app when you access the Custom Refresh Sandbox environment.  
 >For more information about report deliveries for the production environment, see [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).For more information about push notifications on the mobile app for the production environment, see the section in .
 
 ## Configure Single Sign-On in the Custom Refresh Sandbox

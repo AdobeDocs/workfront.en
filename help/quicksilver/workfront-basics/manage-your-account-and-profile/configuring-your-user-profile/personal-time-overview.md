@@ -6,8 +6,8 @@ title: Configure personal time off in Adobe Workfront
 description: Adobe Workfront is not designed to replicate or replace your existing systems for managing, accruing, and tracking personal time off. However, it is important to indicate when approved time off happens, because this affects your schedule and impacts the Planned Completion Dates of the tasks you are assigned to.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: e7710495-c418-47b1-8598-725580054fc5
 ---
-
 # Configure personal time off in Adobe Workfront
 
 Adobe Workfront is not designed to replicate or replace your existing systems for managing, accruing, and tracking personal time off.
@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Configure personal time off in Workfront
 
@@ -64,4 +64,3 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Save**.  
    Your time off is now visible across the Workfront system in scheduling tools like the Resource Grid. When you are assigned work during this time, a tool tip appears informing the user you have scheduled time off.
-

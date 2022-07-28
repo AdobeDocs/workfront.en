@@ -5,9 +5,9 @@ navigation-topic: groups-workfront-proof
 title: Add Groups to a Proof
 description: Add a group to a proof to automatically send the content to all group members.
 author: Courtney
-feature: "Workfront Proof, Digital Content and Documents"
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 6ec52948-0317-4ffa-b135-1c9696a937b7
 ---
-
 # Add Groups to a Proof
 
 >[!IMPORTANT]
@@ -33,4 +33,3 @@ For information about how to create a group, see [Create Proofing Groups using W
 1. (Optional) Change an individual member's&nbsp;<strong>Proof role</strong>or&nbsp;<strong>Email alerts</strong> with the drop-down menus.<br>For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>&nbsp;and <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Configure email notification settings in Workfront Proof</a>. 
 1. (Optional) Delete a group member from the proof by hovering over the user's information and clicking the&nbsp;<strong>X.</strong><br>Or<br>Delete all members from the proof by clicking <strong>Delete all</strong>. 
 1. Continue creating the proof as described in <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md" class="MCXref xref">Generate Proofs in Workfront Proof</a>&nbsp;&nbsp;or&nbsp;<a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref">Copying Proofs in Workfront Proof</a>.&nbsp;
-

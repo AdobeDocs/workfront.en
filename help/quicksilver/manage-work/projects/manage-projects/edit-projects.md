@@ -5,8 +5,8 @@ title: Edit projects
 description: Edit projects
 author: Alina
 feature: Work Management
+exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 ---
-
 # Edit projects
 
 <!--
@@ -706,4 +706,3 @@ To edit projects in bulk:
 1. Click **Save Changes**.
 
    All changes you made are now visible on all the selected projects.
-

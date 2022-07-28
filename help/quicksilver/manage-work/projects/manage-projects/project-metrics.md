@@ -7,8 +7,8 @@ title: Overview of project metrics
 description: To access the Metrics area from the left panel of a project, you must - EDIT ME.
 author: Alina
 feature: Work Management
+exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
 ---
-
 # Overview of project metrics
 
 >[!NOTE]
@@ -160,4 +160,3 @@ You can interact with the charts in the Metrics area to look at different aspect
    >[!TIP]
    >
    >When you export the dashboard, the exported file includes only what currently displays in your viewport. To include certain things in the exported file, you may need to scroll up or down on the page or adjust your browser's zoom settings.
-
