@@ -174,11 +174,7 @@ After you connect Workfront Fusion to your Google Sheets account, you can specif
    This second module needs to be a Workfront module, but we didn't pre-load the Workfront app.
 
 1. To find the Workfront app, start typing "workfront" and click the app when it appears.
-1. In the list of Workfront modules that appears, click**Create Record**.
-
-   >[!IMPORTANT]
-   >
-   >As you continue these steps, don't click outside the Workfront box until you click OK in step 10. Clicking away from the box cancels the work you've done inside it.
+1. In the list of Workfront modules that appears, click **Create Record**.
 
 1. As you did before with the Google Sheets app, click **Add** in the Workfront box to add a connection between Workfront Fusion and Workfront.
 
