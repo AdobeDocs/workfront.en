@@ -110,6 +110,10 @@ To set up linked folders:
 
 <!-- Mobile -->
 
+## Mobile Proof - More Menu {#mobile-proof-more-menu}
+
+1. Open the document proof and select the **More** menu ![More menu](assets/mobile-verticalmoremenu-20x33.png) on the upper right of the document. Then, select **More**.
+
 <!-- Notifications -->
 
 <!-- Teams and Groups -->
@@ -139,6 +143,60 @@ To set up linked folders:
 ## Step 1 - Getting to a team - {#step1-to-team}
 
 1. Click the **Main Menu** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **Main Menu** icon ![Main Menu](assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Teams**.
+
+## Done button for one or more statuses {#configure-done-button}
+
+You can change which status is applied to the work item with the Done button. You can also set multiple statuses and allow the user to choose which status is appropriate.
+
+1. Click the **Main Menu** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **Main Menu** icon ![Main Menu](assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Teams**.
+
+1. Click the **Switch team** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
+1. Click the **More** menu, then click **Edit**.
+1. Find the **Done Button** section at the bottom of the **Team Settings** page.
+
+1. Select one status or more than one status for each work item type.
+
+   >[!NOTE]
+   >
+   >Consider the following when selecting statuses for tasks or issues:
+   >
+   >* When you select one status for each type of work item, the task or issue status is set to that status when a user clicks Done on their item. If you set multiple statuses for each type of work item, a drop-down menu is added to the Done button and the user must pick a status to change the status on the work item.  
+   >* You can associate only system-level statuses with the Done button. You cannot associate Group-specific statuses with work item statuses.
+   >* When a user assigned to the item places the item in the status associated with the Done button, the item displays as Done for that user regardless of whether the status you select is a Completed or Closed status or a working status. 
+   >   
+   >   
+   >  For example, associating the Done button with In Progress causes the work item to display as Done for the user who changes the status from New to In progress. 
+   >   
+   >* Issue types are customizable and they might have different names than listed below in your environment.  
+   >  Following are the default tasks and issue types:
+   >     
+   >   * Tasks
+   >   * Issue
+   >   * Request
+   >   * Change Order
+   >   * Bug Report
+
+   If the task or issue is assigned to multiple users, you see a "Done with my part" option in the drop-down menu, in addition to the multiple statuses chosen for your team.  
+
+1. Click **Save Changes**.
+
+## Associate users with a Home Team {#associate-users-with-home-team}
+
+To make the changes to the Done button functionality visible to users, you can make the team whose settings you changed the Home Team of the users.
+
+To associate users with a Home Team:
+
+1. Click the **Main Menu** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **Main Menu** icon ![Main Menu](assets/main-menu-icon-left-nav.png) in the upper-left corner.
+
+1. Click **Users**, then select the user or users you want to associate with a Home Team.
+1. Click the **More** menu, then select **Edit**.  
+   ![](assets/user-settings-nwe-350x291.png)
+
+1. In the **Organization** section, select the **Home Team** field. Start typing the name of the team whose settings you want to associate with the users. Click the name of the team when you see it in the list.
+
+1. Click **Save Changes**.  
+   The users you selected are now associated with a Home Team. 
+   Any team settings, including the statuses associated with the Done button, are now visible to these users.
 
 <!-- Timesheets -->
 
