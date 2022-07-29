@@ -4,8 +4,8 @@ description: 22.4 release overview
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
 ---
-
 # 22.4 Release overview
 
 This page provides information about functionality that is included in the 22.4 release.
