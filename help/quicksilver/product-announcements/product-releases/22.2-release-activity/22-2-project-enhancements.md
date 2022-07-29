@@ -54,8 +54,6 @@ The following additional improvements are now available for Workfront Boards:
    * Copy a card: Create a copy of an existing card on your board.
    * Move a card: Quickly move cards to either the top or bottom of a board with the new Top of column and Bottom of column menu options.
 
-     [View a demo video of this feature.](https://vimeo.com/691598645/3d9f9d5401)
-
 * Search in Boards
 
   We've added a search bar to help you search all of the cards on your board.
