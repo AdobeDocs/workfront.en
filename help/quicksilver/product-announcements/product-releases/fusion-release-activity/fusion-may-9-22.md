@@ -7,6 +7,7 @@ navigation-topic: fusion-release-activity
 title: "Workfront Fusion release activity: Week of May 9, 2022"
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of May 9, 2022.
 author: Luke
+hidefromtoc: yes
 ---
 
 # Workfront Fusion release activity:&nbsp;Week of May 9, 2022

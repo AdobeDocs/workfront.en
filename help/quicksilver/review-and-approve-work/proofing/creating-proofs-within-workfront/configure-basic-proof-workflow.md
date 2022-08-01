@@ -199,7 +199,7 @@ You must have the following access to perform the steps in this article:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Resolve comments and apply actions</strong> </td> 
+      <td role="rowheader">Resolve comments and apply actions </td> 
       <td> <p>Allows the Workfront user to do the following:</p> 
        <ul> 
         <li>Resolve a comment after it has been addressed, as explained in <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md" class="MCXref xref">Resolve proof comments</a>.</li> 
@@ -207,7 +207,7 @@ You must have the following access to perform the steps in this article:
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Share proof by tagging</strong> </td> 
+      <td role="rowheader">Share proof by tagging</td> 
       <td> <p>Allows the reviewer to add any Workfront user to the proof as explained in <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Tag users to share a proof</a>.</p> <p>Note:  <p>If these two options are unavailable (dimmed), the user already has a permission profile that allows resolving comments, applying actions to comments, and tagging any user. </p> <p>If the options do not display, the person you added is not a Workfront license holder.</p> </p> </td> 
      </tr> 
     </tbody> 
@@ -257,11 +257,19 @@ You must have the following access to perform the steps in this article:
 
 1. In the **Email notification** section, select whether to send email notifications and a custom message to&nbsp;the users you selected in [Create an advanced proof with a Basic workflow](#workflow) earlier in this article:
 
-   | Notify recipients about this proof |Select this option to send an email notification to users. When **Basic sharing** is selected in the **Workflow** section, an email notification is sent when the proof is created. When **Automated workflow** is selected in the **Workflow** section, an email notification is sent when the proof enters the stage of the Automated Workflow that the user is associated with. |
-   |---|---|
-   | Add custom message |Select this option to include a custom message in the notification. You can specify a subject and message body. The message body can include rich text formatting, such as bold, bullets, and hyperlinks. |
+   <table>
+   <tbody>
+   <tr>
+   <td>Notify recipients about this proof</td>
+   <td>Select this option to send an email notification to users. When <strong>Basic sharing</strong> is selected in the <strong>Workflow</strong> section, an email notification is sent when the proof is created. When <strong>Automated workflow</strong> is selected in the <strong>Workflow</strong> section, an email notification is sent when the proof enters the stage of the Automated Workflow that the user is associated with.</td>
+   </tr>
+   <tr>
+   <td>Add custom message</td>
+   <td>Select this option to include a custom message in the notification. You can specify a subject and message body. The message body can include rich text formatting, such as bold, bullets, and hyperlinks.</td>
+   </tr>
+   </tbody>
+   </table>
 
-   {style="table-layout:auto"}
 
 1. Continue with [Configure proof settings](#configure-proof-settings) below.
 
@@ -324,4 +332,4 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/open-proof-350x132.png)
 
-   Users who do not have proofing enabled on their account&nbsp;are still able to view the document and make comments to the proof [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
+   Users who do not have proofing enabled on their account&nbsp;are still able to view the document and make comments to the proof.

@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;reporting
 navigation-topic: configure-reports-administration
 title: 'Edit list controls: filters, views, and groupings'
-description: "**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **This is also linked to this article: https://workfront.zendesk.com/hc/en-us/articles/222450207"
+description: As an Adobe Workfront administrator, you use the List Controls area to determine which filters, views, and groupings you want available in your Workfront instance and listed in all layout templates in the system. In a layout template, you can then enable the filters, views, and groupings that you want available for the users who are assigned to that layout template. Users can see them as options in their drop-down menus above their lists of objects and reports.
 feature: System Setup and Administration
 role: Admin
 exl-id: 3fc03e7b-8c74-485c-8c47-a8f030e7b0fa
@@ -11,11 +11,9 @@ exl-id: 3fc03e7b-8c74-485c-8c47-a8f030e7b0fa
 # Edit list controls: filters, views, and groupings
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **This is also linked to this article: https://workfront.zendesk.com/hc/en-us/articles/222450207</p>
--->
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **This is also linked to this article: https://workfront.zendesk.com/hc/en-us/articles/222450207
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider breaking this article into 2</p>
+Consider breaking this article into 2</p>
 -->
 
 As an Adobe Workfront administrator, you use the List Controls area to determine which filters, views, and groupings you want available in your Workfront instance and listed in all layout templates in the system.
@@ -86,7 +84,7 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click **Add Filter**,**Add View**, or**Grouping**.
+1. Click **Add Filter**, **Add View**, or **Grouping**.
 
    If you have custom tabs built before 2012 and the object is a project, a task or an issue, you can also click **Add Custom Tab** to add custom tabs to the list controls.
 
@@ -138,12 +136,13 @@ You can remove filters, views, and groupings, including most of the default ones
      </tr> 
      <tr> 
       <td role="rowheader">Custom Tabs</td> 
-      <td> <p>The tabs you see listed in this column can be found by all users in the system and they can add them to their own interface. </p> <p><b>IMPORTANT</b>:  <p>Only custom tabs built before 2012 (prior to the Anaconda release) can be shared with all the users in the system using list controls. Any custom tabs built after that release need to be shared with users using the layout template functionality. For more information about layout templates, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p> <p>Only the following object types allow for custom tabs to be added to list controls:</p> 
-        <ul> 
-         <li>Project</li> 
-         <li>Task</li> 
-         <li>Issue</li> 
-        </ul> </p> </td> 
+      <td> <p>The tabs you see listed in this column can be found by all users in the system and they can add them to their own interface. </p> <p><b>IMPORTANT</b>:  <p>Only custom tabs built before 2012 (prior to the Anaconda release) can be shared with all the users in the system using list controls. Any custom tabs built after that release need to be shared with users using the layout template functionality. For more information about layout templates, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p>
+      <p>Only the following object types allow for custom tabs to be added to list controls:</p> 
+      <ul> 
+      <li>Project</li> 
+      <li>Task</li> 
+      <li>Issue</li> 
+      </ul> </p> </td> 
      </tr> 
     </tbody> 
    </table>

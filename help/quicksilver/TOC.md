@@ -628,7 +628,7 @@ feature-set: Workfront
       * [Manage a group's restored items](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
   * Configure integrations {#configure-integrations}
     * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations.md)
-    * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations-1.md)
+    * [Adobe Workfront integrations](administration-and-setup/configure-integrations/workfront-integrations-1.md)
     * [Slack app for Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-fusion-slack-app.md)
     * [Configure Workfront with Adobe Experience Manager legacy connector](administration-and-setup/configure-integrations/configure-workfront-aem.md)
     * [Configure the Experience Manager Assets as a Cloud Service integration](administration-and-setup/configure-integrations/configure-aacs-integration.md)

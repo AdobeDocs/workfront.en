@@ -189,11 +189,7 @@ For instructions on configuring and using the OAuth2 application with user crede
      </tr> 
      <tr> 
       <td role="rowheader">Redirect URLs</td> 
-      <td>Users will be redirected to this path after they have authenticated with Workfront. <!--
-        DRAFTED IN FLARE:
-         The path will be appended with the authorization code for access, and must have a protocol.
-        
-       --></td> 
+      <td>Users will be redirected to this path after they have authenticated with Workfront.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Refresh token rotation</td> 
@@ -250,11 +246,7 @@ For instructions on configuring and using the OAuth2 application with user crede
      </tr> 
      <tr> 
       <td role="rowheader">Redirect URLs</td> 
-      <td>Users will be redirected to this path after they have authenticated with Workfront. <!--
-        DRAFTED IN FLARE:
-         The path will be appended with the authorization code for access, and must have a protocol.
-        
-       --></td> 
+      <td>Users will be redirected to this path after they have authenticated with Workfront.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Refresh token rotation</td> 

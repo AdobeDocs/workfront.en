@@ -70,8 +70,6 @@ The following table contains information about fields that may be required when 
 
 1. The body of the request should contain URL-encoded parameters with your Client ID, Client Secret, and JWT:
 
-   &nbsp;
-
    <!-- [Copy](javascript:void(0);) --> 
    <pre><code>client_id={client_id_value}&client_secret={client_secret_value}&jwt_token={base64_encoded_JWT}</code></pre>
 
