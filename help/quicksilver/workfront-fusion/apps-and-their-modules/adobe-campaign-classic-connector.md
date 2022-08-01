@@ -69,7 +69,7 @@ This action module creates a new record in Adobe Campaign Classic.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Adobe Target, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
+   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Resource</td> 
@@ -86,6 +86,66 @@ This action module creates a new record in Adobe Campaign Classic.
  </tbody> 
 </table>
 
+#### Make a custom API call
+
+This module makes a custom API call to the Adobe Campaign Classic API
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Connection</td>
+   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">Action</td>
+      <td><p>Select the action that you want the API call to perform.</p>
+      <p>Execute query</p>
+      <p>Write</p>
+      <p>Get entity if more recent</p>
+      <p>Select all</p>
+      <p>Push event</p>
+    </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Path</p>
+      </td>
+      <td>
+        <p>Enter a path relative to {baseURL}/</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Method</p>
+      </td>
+      <td>
+        <p>Select the HTTP request method you need to configure the API call. For more information, see HTTP request methods.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Headers</td>
+      <td>
+        <p>Add the headers of the request in the form of a standard JSON object.</p>
+        <p>For example, <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion adds authorization headers and x-api-key headers automatically.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Query String  </td>
+      <td>
+        <p>Enter the request query string.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Body</td>
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td>     </tr>
+  </tbody>
+</table>
 
 
 
