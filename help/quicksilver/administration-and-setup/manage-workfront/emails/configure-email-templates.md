@@ -98,10 +98,7 @@ You can include links to Workfront fields by using the `$$` wildcard to tell the
 For example, the body of the email for a notification alerting the assignee of the task that the task is about to start can follow this structure:
 
 ```html
-      <html>
-```
-
-```html
+<html>
 <p>$$assignedTo:firstName$$</p>
 <p>You are assigned to work on <b><a href="https://<your domain>.my.workfront.com/task/view?ID=$$ID$$">$$name$$</a></b>, which is due to start on $$plannedStartDate$$.</p>
 <table width="350" style="font-size:12px;">
@@ -117,15 +114,12 @@ For example, the body of the email for a notification alerting the assignee of t
 <td><b>HEADING</b></td>
 <td>$$WILDCARD$$</td></tr>
 </table>
-```
-
-```html
-      </html>
+</html>
 ```
 
 To get the "wildcard" value for an object, do one of the following:
 
-<!--* Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+<!-- Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
 * Use the "valuefield" value you find inside of a text mode view of a report. For more information about text mode values, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
@@ -133,11 +127,15 @@ To get the "wildcard" value for an object, do one of the following:
 
 ### Link to custom fields with HTML {#link-to-custom-fields-with-html}
 
-You can include links to users and custom fields by using the **$$**wildcard to tell the email generator to look for values from the database associated with the object. They must be present on either side of the database attribute reference.
+You can include links to users and custom fields by using the **$$** wildcard to tell the email generator to look for values from the database associated with the object. They must be present on either side of the database attribute reference.
 
-For example, adding the following text as HTML would add the assigned user's first name to the reminder notification associated with a task: **$$assignedTo:firstName$$**.
+For example, adding the following text as HTML would add the assigned user's first name to the reminder notification associated with a task: 
 
-To add custom fields using the same formatting, you can add this in your email notification: **$$DE:Custom Field As It Appears in Workfront$$**.
+`assignedTo:firstName`
+
+To add custom fields using the same formatting, you can add the following in your email notification:
+
+`DE:Custom Field As It Appears in Workfront`
 
 For example, this is an email template which includes a reference to a custom field named Delivery Date, and it's assuming that the field Delivery Date belongs to a task.
 
@@ -171,7 +169,9 @@ Replace `<your domain>` with your company's Workfront domain, without the bracke
 
 >[!NOTE]
 >
->If the field belongs to a project, replace task with project: $$DE:Project:Delivery Date$$"
+>If the field belongs to a project, replace task with project: 
+>
+>`DE:Project:Delivery Date`
 
 ### HTML email examples {#html-email-examples}
 
@@ -212,7 +212,7 @@ This produces an email similar to the following:
 
 ![](assets/screen-shot-2016-09-16-at-3.52.54-pm-350x103.png)
 
-#### **Task or Issue About to Start reminder (example)** {#task-or-issue-about-to-start-reminder-example}
+#### **Task or Issue About to Start reminder** {#task-or-issue-about-to-start-reminder-example}
 
 You might also want to create a reminder notification for an upcoming task or issue.
 
@@ -220,11 +220,13 @@ The following code can be included in an email template to be used for task and 
 
 Replace `<your domain>` with your company's Workfront domain, without the brackets.  
 
-To use this for an Issue email, change the **`/task/view.`** value in the link to the work item to **`/issue/view`**.
+To use this for an Issue email, change the `/task/view.` value in the link to the work item to `/issue/view`.
 
 **Subject:**
 
-$$name$$ to start on $$plannedStartDate$$
+`$$name$$ to start on $$plannedStartDate$$`
+
+**Content:**
 
 ```html
 <html>
@@ -261,6 +263,6 @@ $$name$$ to start on $$plannedStartDate$$
 </html>
 ```
 
-![email_template_delivered.png](assets/email-template-delivered-350x185.png)
+![email_template_delivered.png](assets/email-template-delivered.png)
 
 After an email template is created, users can associate it with reminder notifications, as described in [Set up reminder notifications](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).

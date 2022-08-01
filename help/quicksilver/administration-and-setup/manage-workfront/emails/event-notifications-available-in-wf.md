@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Event notifications available in Adobe Workfront
 description: Event notifications are emails triggered by various types of events on objects such as projects, tasks, and issues, as explained in Event notifications.
-author: Lisa
+author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
@@ -33,9 +33,9 @@ See also [Notifications: Action needed](../../../workfront-basics/using-notifica
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Object Type</strong> </th> 
-   <th><strong>Event</strong> </th> 
-   <th><strong>Description</strong> </th> 
+   <th>Object Type</th> 
+   <th>Event</th> 
+   <th>Description</th> 
    <th>Default state</th> 
   </tr> 
  </thead> 
@@ -67,19 +67,19 @@ See also [Notifications: Action needed](../../../workfront-basics/using-notifica
   <tr> 
    <td> <p>Issue</p> </td> 
    <td> <p>Issue Pending Approval to Approvers</p> </td> 
-   <td> <p>I need to approve an issue.</p> <p>Which users receive an email notification for this event depends on whether the 'Approver not required to be on the project team (for approval processes that include a role)' setting is enabled (as described in <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configure global approval settings</a>). </p> <p><strong>If this option is enabled</strong>, an email notification is sent to all users in the system with the 'Approver' Job Role.</p> <p><strong>If this option is disabled</strong>, only project team members with the 'Approver' Job Role receive an email notification.</p> <p>A notification is sent if the project is in the Planning or Current status. </p> </td> 
+   <td> <p>I need to approve an issue.</p> <p>Which users receive an email notification for this event depends on whether the "Approver not required to be on the project team (for approval processes that include a role)" setting is enabled (as described in <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configure global approval settings</a>). </p> <p>If this option is enabled</strong>, an email notification is sent to all users in the system with the "Approver" Job Role.</p> <p>If this option is disabled</strong>, only project team members with the "Approver" Job Role receive an email notification.</p> <p>A notification is sent if the project is in the Planning or Current status. </p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
    <td> <p>Issue Pending Approval to Delegated Approver</p> </td> 
-   <td> <p>I need to review an issue approval I've been delegated.</p> <p>When someone delegates an issue approval to another user, that user is notified. </p> <p>A notification is sent only when the project is in the Current status.</p> </td> 
+   <td> <p>I need to review an issue approval I"ve been delegated.</p> <p>When someone delegates an issue approval to another user, that user is notified. </p> <p>A notification is sent only when the project is in the Current status.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project</p> </td> 
    <td> <p>Project Pending Approval to Approvers</p> </td> 
-   <td> <p>I need to approve a project.</p> <p>Which users receive an email notification for this event depends on whether the 'Approver not required to be on the project team (for approval processes that include a job role)' setting is enabled (as described in <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configure global approval settings</a>).</p> <p><strong>If this option is enabled</strong>, an email notification is sent to all users in the system with the 'Approver' Job Role.</p> <p><strong>If this option is disabled</strong>, only project team members with the 'Approver' Job Role receive an email notification.</p> </td> 
+   <td> <p>I need to approve a project.</p> <p>Which users receive an email notification for this event depends on whether the "Approver not required to be on the project team (for approval processes that include a job role)" setting is enabled (as described in <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configure global approval settings</a>).</p> <p>If this option is enabled</strong>, an email notification is sent to all users in the system with the "Approver" Job Role.</p> <p>If this option is disabled</strong>, only project team members with the "Approver" Job Role receive an email notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ See also [Notifications: Action needed](../../../workfront-basics/using-notifica
   <tr> 
    <td> <p>Task</p> </td> 
    <td> <p>Task Pending Approval to Approvers</p> </td> 
-   <td> <p>I need to approve a task.</p> <p>Which users receive an email notification for this event depends on whether the 'Approver not required to be on the project team (for approval processes that include a role)' setting is enabled (as described in <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configure global approval settings</a>). </p> <p><strong>If this option is enabled</strong>, an email notification is sent to all users in the system with the 'Approver' Job Role.</p> <p><strong>If this option is disabled</strong>, only project team members with the 'Approver' Job Role receive an email notification.</p> <p>A notification is sent only if the project status is Current at the time of the request.</p> </td> 
+   <td> <p>I need to approve a task.</p> <p>Which users receive an email notification for this event depends on whether the "Approver not required to be on the project team (for approval processes that include a role)" setting is enabled (as described in <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configure global approval settings</a>). </p> <p>If this option is enabled</strong>, an email notification is sent to all users in the system with the "Approver" Job Role.</p> <p>If this option is disabled</strong>, only project team members with the "Approver" Job Role receive an email notification.</p> <p>A notification is sent only if the project status is Current at the time of the request.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
@@ -150,9 +150,9 @@ See also [Notifications: Requests I have made](../../../workfront-basics/using-n
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Object Type</strong> </th> 
-   <th><strong>Event</strong> </th> 
-   <th><strong>Description</strong> </th> 
+   <th>Object Type</th> 
+   <th>Event</th> 
+   <th>Description</th> 
    <th> Default state</th> 
   </tr> 
  </thead> 
@@ -196,25 +196,25 @@ See also [Notifications: Requests I have made](../../../workfront-basics/using-n
   <tr> 
    <td> <p>Issue</p> </td> 
    <td> <p>Request Add to Issue Primary Contact</p> </td> 
-   <td> <p>I submit a request (confirmation).</p> <p>The Primary Contact on the issue receives an email notification when they submit an issue.</p> <p>A notification is sent only if the project status is Current and if the project is using a 'Is Help Desk' View.</p> </td> 
+   <td> <p>I submit a request (confirmation).</p> <p>The Primary Contact on the issue receives an email notification when they submit an issue.</p> <p>A notification is sent only if the project status is Current and if the project is using a "Is Help Desk" View.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
    <td> <p>Request Assignment to Issue Primary Contact</p> </td> 
-   <td> <p>Someone is assigned to my request.</p> <p>The primary contact of the issue receives an email notification when a user is assigned to the issue, unless the primary contact and the assigned user are the same user.</p> <p>A notification is sent only if the project status is Current and if the project is using a 'Is Help Desk' View.</p> </td> 
+   <td> <p>Someone is assigned to my request.</p> <p>The primary contact of the issue receives an email notification when a user is assigned to the issue, unless the primary contact and the assigned user are the same user.</p> <p>A notification is sent only if the project status is Current and if the project is using a "Is Help Desk" View.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
    <td> <p>Request Closed to Issue Primary Contact</p> </td> 
-   <td> <p>My request is closed (confirmation).</p> <p>The issue's primary contact receives an email notification when the request is closed.</p> <p>A notification is sent only if the project status is Current and if the project is using a 'Is Help Desk' View.</p> <p>If the notifications for "issue completion" are enabled, they will always trigger instead of the "Request closed to Issue Primary Contact." If you want this notification to trigger, you must deactivate the "issue completion" notifications.</p> </td> 
+   <td> <p>My request is closed (confirmation).</p> <p>The issue's primary contact receives an email notification when the request is closed.</p> <p>A notification is sent only if the project status is Current and if the project is using a "Is Help Desk" View.</p> <p>If the notifications for "issue completion" are enabled, they will always trigger instead of the "Request closed to Issue Primary Contact." If you want this notification to trigger, you must deactivate the "issue completion" notifications.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Request Document Add to Issue Primary Contact</p> </td> 
-   <td> <p>A document is changed or uploaded on an issue for which I am the primary contact.</p> <p>The issue's primary contact receives an email notification when a document is uploaded or changed on the issue, unless the user who uploaded or changed the document is also the primary contact.</p> <p>A notification is sent only if the project status is Current and if the project has the 'Publish as Help Request Queue' enabled on the Queue Setup tab. <!--
+   <td> <p>A document is changed or uploaded on an issue for which I am the primary contact.</p> <p>The issue's primary contact receives an email notification when a document is uploaded or changed on the issue, unless the user who uploaded or changed the document is also the primary contact.</p> <p>A notification is sent only if the project status is Current and if the project has the "Publish as Help Request Queue" enabled on the Queue Setup tab. <!--
       DRAFTED IN FLARE:
        For more information on publishing a project as a Help Request Queue, see 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
@@ -225,7 +225,7 @@ See also [Notifications: Requests I have made](../../../workfront-basics/using-n
   <tr> 
    <td> <p>Issue</p> </td> 
    <td> <p>Request Status Change to Issue Primary Contact</p> </td> 
-   <td> <p>The status changes on my request.</p> <p>The primary contact of the issue receives an email notification when the issue status changes, unless the user who changed the status is also the primary contact.</p> <p>A notification is sent only if the project status is Current and the project is using a 'Is Help Desk' View.</p> </td> 
+   <td> <p>The status changes on my request.</p> <p>The primary contact of the issue receives an email notification when the issue status changes, unless the user who changed the status is also the primary contact.</p> <p>A notification is sent only if the project status is Current and the project is using a "Is Help Desk" View.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
  </tbody> 
@@ -242,9 +242,9 @@ See also [Notifications: Communication](../../../workfront-basics/using-notifica
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Object Type</strong> </th> 
-   <th><strong>Event</strong> </th> 
-   <th><strong>Description</strong> </th> 
+   <th>Object Type</th> 
+   <th>Event</th> 
+   <th>Description</th> 
    <th> Default state</th> 
   </tr> 
  </thead> 
@@ -318,9 +318,9 @@ See also [Notifications: Approval information](../../../workfront-basics/using-n
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Object Type</strong> </th> 
-   <th><strong>Event</strong> </th> 
-   <th><strong>Description</strong> </th> 
+   <th>Object Type</th> 
+   <th>Event</th> 
+   <th>Description</th> 
    <th> Default state</th> 
   </tr> 
  </thead> 
@@ -375,9 +375,9 @@ See also [Notifications: Information about work assigned to me](../../../workfro
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Object Type</strong> </th> 
-   <th><strong>Event</strong> </th> 
-   <th><strong>Description</strong> </th> 
+   <th>Object Type</th> 
+   <th>Event</th> 
+   <th>Description</th> 
    <th> Default state</th> 
   </tr> 
  </thead> 
@@ -427,7 +427,7 @@ See also [Notifications: Information about work assigned to me](../../../workfro
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Request Document Add to Issue Assigned To</p> </td> 
-   <td> <p>Documents are uploaded or changed on requests I'm assigned to.</p> <p>The issue assignee receives an email notification when documents are uploaded or changed on an issue they added.</p> <p>An email notification is not sent if the user who entered the issue is the issue assignee.</p> <p>A notification is sent only if the project status is Current and if the project has the 'Publish as Help Request Queue' enabled on the Queue Setup tab.<!--
+   <td> <p>Documents are uploaded or changed on requests I'm assigned to.</p> <p>The issue assignee receives an email notification when documents are uploaded or changed on an issue they added.</p> <p>An email notification is not sent if the user who entered the issue is the issue assignee.</p> <p>A notification is sent only if the project status is Current and if the project has the "Publish as Help Request Queue" enabled on the Queue Setup tab.<!--
       DRAFTED IN FLARE:
         For more information on publishing a project as a Help Request Queue, see 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
@@ -473,9 +473,9 @@ See also [Notifications: Information about projects I'm on](../../../workfront-b
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Object Type</strong> </th> 
-   <th><strong>Event</strong> </th> 
-   <th><strong>Description</strong> </th> 
+   <th>Object Type</th> 
+   <th>Event</th> 
+   <th>Description</th> 
    <th> Default state</th> 
   </tr> 
  </thead> 
@@ -554,9 +554,9 @@ See also [Notifications: Information about projects I own](../../../workfront-ba
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Object Type</strong> </th> 
-   <th><strong>Event</strong> </th> 
-   <th><strong>Description</strong> </th> 
+   <th>Object Type</th> 
+   <th>Event</th> 
+   <th>Description</th> 
    <th> Default state</th> 
   </tr> 
  </thead> 
@@ -641,9 +641,9 @@ See also [Notifications: Information about projects I sponsor](../../../workfron
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Object Type</strong> </th> 
-   <th><strong>Event</strong> </th> 
-   <th><strong>Description</strong> </th> 
+   <th>Object Type</th> 
+   <th>Event</th> 
+   <th>Description</th> 
    <th> Default state</th> 
   </tr> 
  </thead> 
@@ -716,9 +716,9 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Object Type</strong> </th> 
-   <th><strong>Event</strong> </th> 
-   <th><strong>Description</strong> </th> 
+   <th>Object Type</th> 
+   <th>Event</th> 
+   <th>Description</th> 
    <th> Default state</th> 
   </tr> 
  </thead> 
@@ -738,16 +738,13 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
   <tr> 
    <td> </td> 
    <td> <p>Error Notification</p> </td> 
-   <td> <p>An error was found that needs your attention.</p> <p>An email notification is generated after Workfront tries and fails to connect to a POP account. After 25 tries, Workfront disables the connection to the POP account in order to preserve resources and it sends out a notification. </p> <p>The email notification is sent to the Project Owner, if the POP email is associated with a request queue, or to the Workfront administrators, if the POP account is associated with the "Incoming Mail" feature in Email Setup.<!--
+   <td> <p>An error was found that needs your attention.</p> <p>An email notification is generated after Workfront tries and fails to connect to a POP account. After 25 tries, Workfront disables the connection to the POP account in order to preserve resources and it sends out a notification. </p> <p>The email notification is sent to the Project Owner, if the POP email is associated with a request queue, or to the Workfront administrators, if the POP account is associated with the "Incoming Mail" feature in Email Setup.
+     <!--
       DRAFTED IN FLARE:
        <br>For more information on how to associate a request queue with a POP account, see 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
-      
-     --><br><!--
-      DRAFTED IN FLARE:
-       For more information on how to enable a POP account for incoming mail, see . 
-      
-     --></p> </td> 
+       For more information on how to enable a POP account for incoming mail, see .
+      --></p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
@@ -759,7 +756,7 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
   <tr> 
    <td> <p>User</p> </td> 
    <td> <p>New User to User</p> </td> 
-   <td> <p>When a new user is created in Workfront, email the user.</p> <p>After the new user is created, the user receives an email invitation, notifying them that a Workfront account has been created and prompting them to set their password.</p> <p>When creating a new user, users can select the option "Send an invite email to this person" (as described in <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a><span style="font-weight: 400;">). However, when the "New User to User" option is enabled globally, all new users receive the email invitation regardless of whether the 'Send an invite email to this person' option is selected.</span></p> </td> 
+   <td> <p>When a new user is created in Workfront, email the user.</p> <p>After the new user is created, the user receives an email invitation, notifying them that a Workfront account has been created and prompting them to set their password.</p> <p>When creating a new user, users can select the option "Send an invite email to this person" (as described in <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a><span style="font-weight: 400;">). However, when the "New User to User" option is enabled globally, all new users receive the email invitation regardless of whether the "Send an invite email to this person" option is selected.</span></p> </td> 
    <td> Inactive </td> 
   </tr> 
   <tr> 
