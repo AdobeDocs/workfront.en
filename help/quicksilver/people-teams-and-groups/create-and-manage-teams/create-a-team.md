@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 
    ![Select Create new team.](assets/create-new-team-350x198.png)
 
-1. In the **New Team** box that displays, specify the following information:
+1. In the **New Team** box that displays, enter the following information:
 
    * **Team Name:** Type a name for the new team.
    * **Group**: If you want to assign the team to an associated group, start typing the name of the group, then select the name when it appears.
@@ -68,5 +68,7 @@ You must have the following access to perform the steps in this article:
      There is no limit for how many users you can add to a team. However, we recommend to not have an excessively high number of users in one team, as your work management might become too complex for these teams.
    
    * **Description:** Type a description for the team.
+
+     The description displays on the top right of the Teams area when the team is selected. If the description is long, you can click it to display the full description in a pop-up. If you have access to edit the team settings, you can also edit the description directly in the pop-up.
 
 1. Click **Create**.
