@@ -109,47 +109,56 @@ This module makes a custom API call to the Adobe Campaign Classic API
     </td>
     </tr>
     <tr>
-      <td role="rowheader">
-        <p>Path</p>
-      </td>
-      <td>
-        <p>Enter a path relative to {baseURL}/</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>Method</p>
-      </td>
-      <td>
-        <p>Select the HTTP request method you need to configure the API call. For more information, see HTTP request methods.</p>
-      </td>
-    </tr>
-    <tr>
       <td role="rowheader">Headers</td>
       <td>
         <p>Add the headers of the request in the form of a standard JSON object.</p>
         <p>For example, <code>{"Content-type":"application/json"}</code></p>
-        <p>Workfront Fusion adds authorization headers and x-api-key headers automatically.</p>
+        <p>Workfront Fusion adds the x-security token header automatically.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Query String  </td>
-      <td>
-        <p>Enter the request query string.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">Body</td>
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td>     </tr>
+      <td role="rowheader">XML Body</td>
+   <td> <p>Add the body content for the API call in XML, without the session element. </td>     </tr>
   </tbody>
 </table>
 
+### Misc Action
+
+This action module performs a selected action on an object in the Adobe Campaign Classic API.
+
+For information on specific actions and fields, see [Adobe Campaign - API Documentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Action</td> 
+   <td>Select the action to perform on the object.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Resource</td> 
+   <td>Select the type of Adobe Campaign Classic record you want to create.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Fields </td> 
+   <td>Select the fields that you want to set values for when the record is created, then fill in the values for those fields. Fields vary based on the type of record you select.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Custom fields</td> 
+   <td> For each custom field that you want to add to the new record, click <b>Add item</b> and enter or map the field's name and value. </td> 
+  </tr> 
+ </tbody> 
+</table>
 
+### Subscription
+
+This action module subscribes a user to an information service.
 
 
 
