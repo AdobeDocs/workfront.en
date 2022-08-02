@@ -45,6 +45,12 @@ The timesheet header includes the following information:
 * The name of the timesheet's owner.
 * The Total Hours number for hours logged for items displayed in the timesheet.
 * The number of overtime hours. This is a manual entry and it is visible only when the **Overtime** setting is enabled on a timesheet. For more information, see [Edit timesheet information](../create-and-manage-timesheets/edit-timesheets.md).
+
+>[!TIP]
+>
+>You cannot log a larger number of overtime hours than the current total hours on the timesheet. For example, if you logged 7 hours on the timesheet so far, you cannot log 8 hours of overtime. 
+
+
 * The timesheet status.
 
 ## The left panel

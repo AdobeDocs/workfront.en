@@ -45,7 +45,7 @@ You must have the following to perform the steps in this article:
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Optional) Click the **search** icon ![](assets/search-icon.png) and type a keyword and search for a speicific timesheet. For example, you can search for a timehsset time frame or owner name. 
+1. (Optional) Click the **search** icon ![](assets/search-icon.png) and type a keyword and search for a specific timesheet. For example, you can search for a timesheet time frame or owner name. 
 
 1. (Optional) Do one of the following to update the filter in the list of timesheets:
 
