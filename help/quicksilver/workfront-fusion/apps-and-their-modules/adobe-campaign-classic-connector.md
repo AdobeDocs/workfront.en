@@ -214,3 +214,26 @@ This action module updates a single record in Adobe Campaign Classic.
  </tbody> 
 </table>
 
+### Search
+
+This search module returns records based on the specified criteria.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Resource</td> 
+   <td>Select the type of Adobe Campaign Classic record you want to create.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Limit </td> 
+   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
