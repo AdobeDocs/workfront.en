@@ -3,9 +3,10 @@ product-previous: workfront-goals
 navigation-topic: goal-management
 title: Manage goal comments in Adobe Workfront Goals
 description: You can add comments to all goals you can view in Adobe Workfront Goals.
+author: Alina
 feature: Workfront Goals
+exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
 ---
-
 # Manage goal comments in Adobe Workfront Goals
 
 You can add comments to all goals you can view in&nbsp;Adobe Workfront Goals.
@@ -178,4 +179,3 @@ You can also like goal comments that other users have added to mark your approva
    ![](assets/list-of-likes-users-350x121.png)
 
 1. (Conditional)&nbsp;Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
-

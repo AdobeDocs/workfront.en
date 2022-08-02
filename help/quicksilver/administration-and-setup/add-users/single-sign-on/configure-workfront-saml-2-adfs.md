@@ -3,11 +3,12 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
 title: Configure Adobe Workfront with SAML 2.0 using ADFS
-description: The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+description: You can enable authentication to Workfront with SAML 2.0.
+author: Becky, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
 ---
-
 # Configure Adobe Workfront with SAML 2.0 using ADFS
 
 {{important-admin-console-onboard}}
@@ -15,10 +16,6 @@ role: Admin
 As an Adobe Workfront administrator, you can integrate Workfront with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on while using Active Directory Federation Services (ADFS).
 
 This guide focuses on setting up ADFS without auto provisioning or attribute mappings. We recommend that you complete the setup and test it prior to setting up any auto provisioning.
-
->[!NOTE]
->
->This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 ## Access requirements
 
@@ -30,11 +27,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -68,24 +65,12 @@ To enable authentication to the Workfront web application and the Workfront mobi
 1. Click **ADFS 2.0 Management.**
 1. Select **ADFS** and expand **Trust Relationships**.
 1. Right-click **Relying Party Trusts**, then select **Add Relying Party Trust** to launch the Add Relying Party Trust Wizard.
-
-   ![](assets/screen-shot-2014-10-22-at-2.48.12-pm-1-350x153.png)
-
 1. From the **Welcome Page**, select **Start**. 
 1. In the **Select Date Source** section, paste the metadata URL from Workfront.
 1. Click **Next**.
 1. Click **OK** to acknowledge the warning message.
-
-   This opens the **Specify Display Name** section.
-
-1. Add a **Display Name** and **Notes** to distinguish the Trust, then click **Next**.
-
-   ![](assets/screen-shot-2014-10-22-at-2.50.58-pm-350x282.png)
-
+1. In the **Specify Display Name** section, add a **Display Name** and **Notes** to distinguish the Trust, then click **Next**.
 1. Select **Permit all user to access this relying party** (Or **None** if you want to configure this later).
-
-   ![](assets/screen-shot-2014-10-22-at-2.53.19-pm-350x232.png)
-
 1. Click **Next**.
 
    This takes you to the **Ready to Add Trust** section.
@@ -94,22 +79,14 @@ To enable authentication to the Workfront web application and the Workfront mobi
 
 ### Configure Claim Rules {#configure-claim-rules}
 
-*   Click **Next** in the **Ready to Add Trust** section, then ensure that the **Open the Edit Claim Rules dialog box** option is selected.
+1. Click **Next** in the **Ready to Add Trust** section, then ensure that the **Open the Edit Claim Rules dialog box** option is selected.
     
     This will allow you to edit Claim Rules in a future step.
-
-    ![](assets/screen-shot-2014-10-22-at-2.53.28-pm-350x236.png)
     
 1. Click **Close**.
 1. Click **Add Rule.**
-1. Select **Send LDAP Attribute as Claims**.
-    
-   ![](assets/screen-shot-2014-10-22-at-2.56.29-pm-350x185.png)
-    
+1. Select **Send LDAP Attribute as Claims**.    
 1. Click **Next** to display the **Configure Claim Rule** step.  
-
-   ![](assets/screen-shot-2014-10-22-at-2.57.00-pm-350x224.png)
-
 1. Specify the following minimum requirements to configure the claim rule: (This will go in the **Federation ID** on the user setup and is used to distinguish who is logging in.)
     
 
@@ -142,17 +119,12 @@ To enable authentication to the Workfront web application and the Workfront mobi
     * E-Mail Address
 
 1. Click **Finish**, then click **OK** on the next screen.
-1. Right-click the new **Relying Party Trust**, then select **Properties**.
-    
-   ![](assets/screen-shot-2014-10-22-at-3.03.47-pm-350x129.png)
-    
+1. Right-click the new **Relying Party Trust**, then select **Properties**.    
 1. Select the**Advanced Tab**. And under **Secure Hash Algorithm** select SHA-1 or SHA-256.
 
    >[!NOTE]
    >
-   >What you select under Secure Hash Algorithm here must match the Secure Hash Algorithm field in Workfront under Setup > System > Single Sign-ON (SSO).
-
-   ![](assets/screen-shot-2014-10-22-at-3.04.55-pm-350x232.png)
+   >The option that you select under Secure Hash Algorithm must match the Secure Hash Algorithm field in Workfront under Setup > System > Single Sign-ON (SSO).
 
 1. Continue to the following section [Upload the metadata file and test the connection](#upload-the-metadata-file-and-test-the-connection).
 
@@ -192,4 +164,3 @@ As a Workfront administrator, you can also manually assign a Federation ID editi
 >[!NOTE]
 >
 >When editing users' profiles to include a Federation ID, selecting **Only Allow SAML 2.0 Authentication** removes the ability to log in to Workfront using the bypass url (`<yourdomain>`.my.workfront.com/login).
-

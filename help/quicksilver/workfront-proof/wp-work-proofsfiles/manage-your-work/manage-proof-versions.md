@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Managing Proof Versions in Workfront Proof
 description: Managing feedback across multiple versions or revisions of a piece of work can be a huge challenge. Workfront Proof simplifies this process by letting you create and compare multiple versions of a proof.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: d1bee64d-c091-40d3-a9c1-847c7f645b96
 ---
-
 # Managing Proof Versions in Workfront Proof
 
 >[!IMPORTANT]

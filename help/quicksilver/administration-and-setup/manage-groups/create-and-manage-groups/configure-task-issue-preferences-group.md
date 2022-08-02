@@ -5,10 +5,11 @@ product-area: system-administration;user-management;setup
 keywords: group,preferences,task,issue,unlock
 navigation-topic: create-and-manage-groups
 description: If groups in your organization need to configure a task or issue preference independently from the way it is configured at the system level, an Adobe Workfront administrator can unlock the preference. Then, as a group administrator, you can configure the preference for your group and it will affect all tasks or issues associated with your group.
-feature: "System Setup and Administration, People Teams and Groups"
+author: Caroline
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
 ---
-
 # Configure task and issue preferences for a group
 
 If groups in your organization need to configure a task or issue preference independently from the way it is configured at the system level, an Adobe Workfront administrator can unlock the preference. Then, as a group administrator, you can configure the preference for your group and it will affect all tasks or issues associated with your group.
@@ -40,7 +41,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -75,7 +76,7 @@ You must have the following to perform the steps in this article:
    * [Actual Dates](#actual-dates)
 
      <!--   
-     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>   
+     <li><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>   
      -->   
    
    * [Access](#access)
@@ -116,7 +117,7 @@ You must have the following to perform the steps in this article:
       <td> <p>When someone converts an issue into a project or task, both the original issue and the converted project or task become resolving objects. This setting lets you correlate the resolution of the original issue to the resolution of its resolvable object. For more information on resolving objects, see <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> <p>In order for this setting to have any effect, the option to <strong>Keep the original issue and tie its resolution to the task</strong> must be selected.</p> 
        <ul> 
         <li>When this setting is enabled, you can create custom statuses with the same key for both issues and projects or tasks. When the project or task (as a resolvable object) turns into the custom status, the change also reflects on the status of the issue. The status key must be the same for the issue and project or task statuses.</li> 
-        <li>When this setting is disabled, resolving&nbsp;object statuses are automatically set to the default status, instead of the custom ones. For more information about the default statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Access the list of system issue statuses</a>.</li> 
+        <li>When this setting is disabled, resolving object statuses are automatically set to the default status, instead of the custom ones. For more information about the default statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Access the list of system issue statuses</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -124,7 +125,7 @@ You must have the following to perform the steps in this article:
       <td> <p>The settings in this section determine what happens during the conversion process from issue to task:</p> 
        <ul> 
         <li><strong>Keep the original issue and tie its resolution to the task</strong>: When you are converting the issue, it remains visible as an issue until the task is complete. The status of the issue automatically changes to Closed when the task completes.</li> 
-        <li><strong>Allow Primary Contact to have access to the task</strong>: Gives the primary contact (issue creator)&nbsp;access to the task to review the task, make updates, and stay informed of its progress</li> 
+        <li><strong>Allow Primary Contact to have access to the task</strong>: Gives the primary contact (issue creator) access to the task to review the task, make updates, and stay informed of its progress</li> 
         <li> <p><strong>Allow these settings to be changed during conversion</strong>: Allows the user who is converting the issue to change these options during the conversion of an issue to a task.</p> <!--
           Screenshot when possible</p>
          --> </li> 
@@ -134,8 +135,8 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">When converting an issue to a project</td> 
       <td> <p>The settings in this section determine what happens during the conversion process from issue to project:</p> 
        <ul> 
-        <li><strong>Keep the original issue and tie its resolution to the project</strong>: When you are converting the issue, it remains visible as an issue until the project is complete. The status of the issue automatically changes to Closed when the project&nbsp;completes.</li> 
-        <li><strong>Allow Primary Contact to have access to the project</strong>: Gives the primary contact (issue creator)&nbsp;access to the project to review the project, make updates, and stay informed of its progress.</li> 
+        <li><strong>Keep the original issue and tie its resolution to the project</strong>: When you are converting the issue, it remains visible as an issue until the project is complete. The status of the issue automatically changes to Closed when the project completes.</li> 
+        <li><strong>Allow Primary Contact to have access to the project</strong>: Gives the primary contact (issue creator) access to the project to review the project, make updates, and stay informed of its progress.</li> 
         <li><strong>Allow these settings to be changed during conversion</strong>: Allows the user who is converting the issue to change the listed options during the conversion of an issue to a project.</li> 
        </ul> </td> 
      </tr> 
@@ -179,10 +180,10 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">When a task or issue is completed, set the Actual Completion Date to</td> 
-      <td> <p>Select one of the following options for when the Actual Completion Date is&nbsp;recorded in Workfront when a task or issue is completed:</p> 
+      <td> <p>Select one of the following options for when the Actual Completion Date is recorded in Workfront when a task or issue is completed:</p> 
        <ul> 
         <li><strong>Now:</strong> The Actual Completion Date is set to the current date.</li> 
-        <li> <p><strong>The Planned Completion Date:</strong> The Actual Completion Date is set to&nbsp;the Planned Completion Date of the task or issue.</p> </li> 
+        <li> <p><strong>The Planned Completion Date:</strong> The Actual Completion Date is set to the Planned Completion Date of the task or issue.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -244,4 +245,3 @@ You must have the following to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-

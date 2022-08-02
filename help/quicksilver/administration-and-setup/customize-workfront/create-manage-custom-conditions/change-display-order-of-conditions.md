@@ -3,14 +3,15 @@ title: Change the display order of conditions
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
-description: You can change the order in which Conditions display in projects, tasks and issues - EDIT ME.
+description: You can change the order in which conditions display when a user edits project or changes the condition for a task or issue.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
 ---
-
 # Change the display order of conditions
 
-You can change the order in which Conditions display in projects, tasks and issues:
+You can change the order in which conditions display in projects, tasks and issues:
 
 * When a user is editing a project
 
@@ -30,11 +31,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

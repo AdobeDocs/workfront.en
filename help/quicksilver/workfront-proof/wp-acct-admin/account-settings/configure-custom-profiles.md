@@ -4,9 +4,10 @@ product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Configure custom profiles in Workfront Proof
 description: As a Workfront Proof Billing Administrator or Workfront Proof Administrator, you can configure custom profiles for other users.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: a2bd8d41-896a-436e-b160-018081db1c95
 ---
-
 # Configure custom profiles in Workfront Proof
 
 >[!IMPORTANT]
@@ -67,4 +68,3 @@ To view the list of users who have been assigned a particular profile:
 
 1. The list shows you both active and deactivated users in your account that have been assigned the profile in question. If your list is too long, you can conveniently adjust the layout of the page to view only the information you are looking for. 
 1. ![Users_list_2.png](assets/users-list-2-350x178.png)
-

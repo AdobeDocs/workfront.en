@@ -1,13 +1,12 @@
 ---
 title: Edit a team's settings from the Setup area
-description: Edit a team's settings from the Setup area
-draft: Probably
+description: As an Adobe Workfront administrator, you can edit a team's settings from the Setup area. You can add users to a team, set a team's layout template, and set how status is recorded when work items are completed by a team.
+author: Caroline, Courtney
 feature: System Setup and Administration
 role: Admin
+exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
 ---
 # Edit a team's settings from the Setup area
-
-{{highlighted-preview}}
 
 As an Adobe Workfront administrator, you can edit a team's settings from the Setup area. You can add users to a team, set a team's layout template, and set how status is recorded when work items are completed by a team.
 
@@ -29,11 +28,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -58,15 +57,14 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td role="rowheader">Team Name</td> 
       <td>Type a name for the team.</td> 
-     </tr> <!--
+     </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <td role="rowheader"><span class="preview">Is Active</span> </td> 
-       <td><span class="preview">New and existing teams have this box checked by default. Uncheck this box to deactivate the team. For more information, see <a href="../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md" class="MCXref xref">Deactivate a team</a></span> </td> 
+       <td role="rowheader">Is Active </td> 
+       <td>This option is enabled for new and existing teams by default. Disable it to deactivate the team. For more information, see <a href="../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md" class="MCXref xref">Deactivate a team</a> </td> 
       </tr>
-     --> 
      <tr> 
       <td role="rowheader">Group</td> 
-      <td> <p>Associate the team with a group. Start typing the name of the group, then select the name when it appears.</p> <p><b>NOTE</b>: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> </td> 
+      <td> <p>Associate the team with a group. Start typing the name of the group, then select the name when it appears.</p> <p><b>NOTE</b>: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> <p>You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Owner</td> 
@@ -74,7 +72,8 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Team Members</td> 
-      <td> <p>Add and team members. Start typing the name of a user, then select the name when it appears. Repeat this process to add multiple users to the team.</p> <p>Tip: There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team's work management might become too complex.</p> </td> 
+      <td> <p>Add and team members. Start typing the name of a user, then select the name when it appears. Repeat this process to add multiple users to the team.</p> 
+      <p><b>TIP</b>: You can add any number of users to a team. However, we recommend that you dont' add an excessively large number in one team, because the team's work management might become too complex.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
@@ -104,4 +103,3 @@ You must have the following access to perform the steps in this article:
    </table>
 
 1. Click **Save Changes**.
-

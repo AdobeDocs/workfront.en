@@ -4,20 +4,16 @@ content-type: reference;overview
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: Overview of single sign-on in Adobe Workfront
-description: The functionality described on this page applies only to organizations that are not yet onboarded to the Adobe Business Platform.
+description: Workfront provides a centrally managed single sign-on (SSO) configuration that easily integrates Workfront with your existing corporate SSO solution. This configuration is easy to set up and manage, and is available for both OnDemand and OnPremise Enterprise customers.
+author: Caroline, Becky
 feature: System Setup and Administration
 role: Admin
+exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
 ---
-
 # Overview of single sign-on in Adobe Workfront
 
->[!IMPORTANT]
->
->The functionality described on this page applies only to organizations that are not yet onboarded to the Adobe Business Platform.
->
->If your organization has been onboarded to the Adobe Business Platform, Single Sign-On (SSO) is handled automatically as part of that integration. You do not need to configure or enable this functionality.
->
->For a list of procedures that differ based on whether your organization is migrated to Adobe IMS, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+{{important-admin-console-onboard}}
+
 
 Workfront provides a centrally managed single sign-on (SSO) configuration that easily integrates Workfront with your existing corporate SSO solution. This configuration is easy to set up and manage, and is available for both OnDemand and OnPremise Enterprise customers. 
 
@@ -31,11 +27,6 @@ Federated solutions allow users to log in to all their applications by entering 
 
 ![](assets/overview-sso-wf.png)
 
->[!NOTE]
->
->This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
->
->Although Adobe Workfront supports integration with an SSO system, it is outside of the scope of Workfront Support and the Workfront Customer Support team to assist in the configuration of your internal authentication system.
 
 ## Configure your firewall
 
@@ -66,4 +57,3 @@ Workfront integrates with the following SSO solutions:
 * Other federated solutions that support SAML 2.0 using ADFS
 
   For information about integrating Workfront with SAML 2.0 using ADFS, see [Configure Adobe Workfront with SAML 2.0 using ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).
-

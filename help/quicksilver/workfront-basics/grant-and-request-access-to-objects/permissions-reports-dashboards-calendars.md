@@ -4,9 +4,10 @@ content-type: reference
 product-area: user-management;reports;dashboards;calendars
 navigation-topic: grant-and-request-access-to-objects
 description: Your Adobe Workfront administrator grants users access to view or edit reports, dashboards, and calendars when they assign access levels. For more information about granting access to reports, dashboards, and calendars, see Grant access to reports, dashboards, and calendars.
+author: Alina
 feature: Get Started with Workfront
+exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
 ---
-
 # Share reports, dashboards, and calendars
 
 Your Adobe Workfront administrator grants users access to view or edit reports, dashboards, and calendars when they assign access levels. For more information about granting access to reports, dashboards, and calendars, see [Grant access to reports, dashboards, and calendars](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
@@ -70,4 +71,3 @@ In addition to the considerations below, also see [Overview of sharing permissio
   >[!CAUTION]
   >
   >We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization.
-

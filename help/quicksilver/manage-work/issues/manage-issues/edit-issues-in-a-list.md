@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: manage-issues
 title: Edit issues in a list
 description: You can edit an individual issue or you can edit issues in an issue list or report. This article describes how to edit issues in lists.
+author: Alina
 feature: Work Management
+exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 ---
-
 # Edit issues in a list
 
 You can edit an individual issue or you can edit issues in an issue list or report. This article describes how to edit issues in lists.
@@ -148,4 +149,3 @@ To edit issues in bulk:
 1. Click **Save Changes**.
 
    All changes you made are now visible on all the selected issues.
-

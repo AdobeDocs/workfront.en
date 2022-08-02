@@ -5,10 +5,11 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Save an email header file
 description: Occasionally, Adobe Workfront support may request an email Header file. Each email application has its own way of getting this file. Here are a few different email application instructions to locate and save the Header. Outlook
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: ee048fc8-63cc-4905-b5e2-f5870bcc6cb2
 ---
-
 # Save an email header file
 
 Occasionally, Adobe Workfront support may request an email Header file. Each email application has its own way of getting this file. Here are a few different email application instructions to locate and save the Header.
@@ -53,4 +54,3 @@ Occasionally, Adobe Workfront support may request an email Header file. Each ema
 1. Go to the message list.
 1. Right-click on the message, and select **View Message Source**.
 1. Save the complete header file.
-

@@ -3,9 +3,10 @@ product-area: reporting
 navigation-topic: report-usage
 title: View report usage
 description: View report usage
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
 ---
-
 # View report usage
 
 <!--
@@ -132,4 +133,3 @@ The following are some exceptions to be aware of when working with report usage 
 * Workfront does not collect usage information for reports by custom quarters. Only the standard built-in quarters are referenced in the report usage fields.
 * Workfront does not collect usage information for reports that are shared and viewed publicly. When a public report is viewed by someone without logging into Workfront, the report views are not counted.  
   For more information about sharing reports, see the article [Share a report in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
-

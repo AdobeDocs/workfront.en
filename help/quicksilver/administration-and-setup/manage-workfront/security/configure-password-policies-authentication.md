@@ -4,10 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: security
 title: Configure password policies for authentication
 description: The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
 ---
-
 # Configure password policies for authentication
 
 {{important-admin-console-onboard}}
@@ -28,11 +29,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -44,10 +45,6 @@ You must have the following access to perform the steps in this article:
 ## Configure authentication (available for all customers) {#configure-authentication-available-for-all-customers}
 
 Authentication options are displayed for all customers. Improved password management capabilities are coming soon or might already be available for your organization, as described in the section [Configure enhanced authentication (coming soon)](#configure-enhanced-authentication-coming-soon) in this article.
-
->[!NOTE]
->
->This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 To configure authentication preferences:
 
@@ -114,4 +111,3 @@ To configure enhanced authentication preferences:
    {style="table-layout:auto"}
 
 1. Click **Save**.
-

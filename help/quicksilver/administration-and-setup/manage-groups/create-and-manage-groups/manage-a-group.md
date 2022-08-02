@@ -5,10 +5,11 @@ keywords: manage,group,edit,
 navigation-topic: create-and-manage-groups
 title: Manage a group
 description: As a group administrator, you can manage a group that you administer from the Groups area in Setup. If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
-feature: "System Setup and Administration, People Teams and Groups"
+author: Caroline
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
 ---
-
 # Manage a group
 
 <!--
@@ -31,7 +32,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -65,19 +66,19 @@ For instructions, see [View and manage a group's details](../../../administratio
 Without leaving the main page of a group you are viewing, you can quickly edit, copy, or delete
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+DRAFTED IN FLARE:
 or deactivate
-</MadCap:conditionalText>
+
 -->
 
 the group. 
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<span style="color: #ff1493;">Make this change when they add the </span>
-<b style="color: #ff1493;">Is active</b>
-<span style="color: #ff1493;"> option to the Details page!</span>
-</MadCap:conditionalText>
+DRAFTED IN FLARE:
+Make this change when they add the </span>
+<b>Is active</b>
+ option to the Details page!</span>
+
 -->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
@@ -177,11 +178,11 @@ For instructions, see [Create and modify a group's projects](../../../administra
 ## Deactivate or reactivate a group
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<span style="color: #ff1493;">Delete this section when they add the </span>
-<b style="color: #ff1493;">Is active</b>
-<span style="color: #ff1493;"> option to the Details page!</span>
-</MadCap:conditionalText>
+DRAFTED IN FLARE:
+Delete this section when they add the </span>
+<b>Is active</b>
+ option to the Details page!</span>
+
 -->
 
 You can keep a group in its default active state or deactivate it.

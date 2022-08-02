@@ -3,9 +3,10 @@ product-area: resource-management
 navigation-topic: resource-pools
 title: Associate resource pools with projects and templates
 description: Associate resource pools with projects and templates
+author: Alina
 feature: Resource Management
+exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
 ---
-
 # Associate resource pools with projects and templates
 
 <!--

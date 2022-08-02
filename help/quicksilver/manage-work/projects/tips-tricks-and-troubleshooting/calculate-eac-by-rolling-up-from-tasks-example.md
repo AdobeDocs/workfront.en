@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: Calculation example - Calculate EAC as a roll up from tasks
 description: PIM = Hour-Based
+author: Alina
 feature: Work Management
+exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
 ---
-
 # Calculation example - Calculate EAC as a roll up from tasks
 
 ## EAC method: roll up from tasks or subtasks
@@ -483,4 +484,3 @@ EAC Method = Roll up from tasks/ subtasks
    **EAC****for Project** = EAC Task 1 + EAC Task 2 + EAC Task 3  
    **EAC****for Project** = $13,400.00 + $8,433.33 + $6,950.00  
    **EAC****for Project** = $28,783.33
-

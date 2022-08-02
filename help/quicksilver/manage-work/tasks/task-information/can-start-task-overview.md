@@ -2,11 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: "`Can Start` overview for tasks"
+title: '`Can Start` overview for tasks'
 description: When a task is ready to start, Adobe Workfront adds a Can Start indicator to the task to easily identify that it's safe for you to start working on the task. You can view this indicator in the view of a task list or report.
+author: Alina
 feature: Work Management
+exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
 ---
-
 # "Can Start" overview for tasks
 
 When a task is ready to start, Adobe Workfront adds a Can Start indicator to the task to easily identify that it's safe for you to start working on the task. You can view this indicator in the view of a task list or report.
@@ -28,4 +29,3 @@ Workfront checks for the following things before it marks a task as True for the
 * If a task has a cross-project predecessor, the completion of the predecessor does not trigger the Can Start indicator to apply to the successor automatically. You must manually recalculate the timeline of the successor's project or Workfront must automatically recalculate it, before the successor task displays as a Can&nbsp;Start task. For more information about recalculating project timelines, see [Recalculate project timelines](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
   For information about cross-project predecessors, see [Create cross-project predecessors](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
-

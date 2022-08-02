@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: results-and-activities
 title: Get started with results and activities in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+author: Alina
 feature: Workfront Goals
+exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
 ---
-
 # Get started with results and activities in Adobe Workfront Goals
 
 Your organization must have the following to use the functionality described in this article:
@@ -182,4 +183,3 @@ The following table displays similarities and differences between results, activ
   </tr> 
  </tbody> 
 </table>
-

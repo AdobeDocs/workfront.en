@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: manage-issues
 title: View issues
 description: You can view issues that are associated with a project, task, or iteration.
+author: Alina
 feature: Work Management
+exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
 ---
-
 # View issues
 
 You can view issues that are associated with a project, task, or iteration.
@@ -144,4 +145,3 @@ To add icons that display whether a project has issues in a project report:
    The issue icons display on the projects that have issues in the **Status Icons** column.
 
    ![project_list_with_issue_icon.png](assets/project-list-with-issue-icon-350x132.png)
-

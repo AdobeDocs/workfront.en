@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: organize-documents
 title: Create and Manage Smart Folders
 description: Smart folders are used to manage documents outside of a project, task, or issue, and are found in the main Documents area in the Main Menu . You can set up a smart folder to filter assets and display only those important to you, rather than searching through all of your assets.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
 ---
-
 # Create and Manage Smart Folders
 
 Smart folders are used to manage documents outside of a project, task, or issue, and&nbsp;are found in the main Documents&nbsp;area in the Main Menu . You can set up a smart folder to filter assets and display only those important to you, rather than searching through all of your assets.
@@ -87,4 +88,3 @@ You can display folders in thumbnail, standard, or list view. To change the view
 1. In the **Folders** column, click the drop-down arrow next to the smart folder that you want to delete.
 1. Click **Delete**.
 1. Click **Yes, Delete It**.
-

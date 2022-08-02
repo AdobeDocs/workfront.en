@@ -3,9 +3,10 @@ product-area: templates
 navigation-topic: templates-navigation-topic
 title: Project template overview
 description: You can use project templates to capture most of the repeatable processes, information, and settings associated with the projects in your organization.
+author: Alina
 feature: Work Management
+exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
 ---
-
 # Project template overview
 
 You can use project templates to capture most of the repeatable processes, information, and settings associated with the projects in your organization.
@@ -77,4 +78,3 @@ You can create a new template in the following ways:
 
 * By using our example templates.   
   For more information about building your templates using our example templates, see [Create project templates from examples](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md).
-

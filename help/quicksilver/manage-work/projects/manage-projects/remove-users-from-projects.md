@@ -3,9 +3,10 @@ product-area: projects;user-management
 navigation-topic: manage-projects
 title: Remove users from projects
 description: Remove users from projects
+author: Alina
 feature: Work Management
+exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
 ---
-
 # Remove users from projects
 
 <!--
@@ -71,4 +72,3 @@ You can remove users from a project from the People sectionof the project.
 1. Click the **Remove** icon  ![Remove item](assets/remove-icon---x-in-circle.png) at the top of the list of users.
 
 1. Click&nbsp;**Yes, Remove Selected Users** to confirm removal.
-

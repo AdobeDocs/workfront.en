@@ -2,14 +2,15 @@
 filename: delete-campaigns
 navigation-topic: campaigns
 title: Delete campaigns
-description: You can delete campaigns. 
+description: You can delete campaigns.
+author: Alina
+exl-id: 01777d5d-6af9-4616-bf2b-a4d12e3332eb
 ---
-
 # Delete campaigns
 
 >[!NOTE]
 >
->The information in this article is available only in the Preview environemnt when you participate in the [!UICONTROL Campaigns] beta program. The functionality described in the following articles might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
+>The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described in the following articles might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
 
 You can delete campaigns that are no longer needed.
 
@@ -71,6 +72,3 @@ Before you begin, you must have the following:
     ![](assets/campaign-delete-and-edit-options-from-campaign-page.png)
 1. Click [!UICONTROL **Delete**].
     The campaign is deleted and cannot be recovered.
-
-
-

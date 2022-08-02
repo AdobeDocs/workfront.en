@@ -1,8 +1,11 @@
 ---
 title: Workfront Fusion release activity:&nbsp;Week of August 23, 2021
 description: Workfront Fusion release activity:&nbsp;Week of August 23, 2021
+author: Luke
 draft: Probably
-feature: "Product Announcements, Workfront Fusion"
+feature: Product Announcements, Workfront Fusion
+exl-id: 8630ef90-0b8c-4c68-938d-4875050f78fd
+hidefromtoc: yes
 ---
 # Workfront Fusion release activity:&nbsp;Week of August 23, 2021
 
@@ -57,4 +60,3 @@ For more information, see [Adobe Workfront modules](../../../workfront-fusion/ap
 <p>For more information on filtering and sorting execution history, see <a href="../../../workfront-fusion/scenarios/view-scenario-execution-history.md" class="MCXref xref" xrefformat="{para}">View a scenario's execution history in Adobe Workfront Fusion</a>.</p>
 </div>
 -->
-

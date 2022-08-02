@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: create-projects
 title: Request a project
 description: You can request a project for approval before you start working on it. This creates a project with a status of Idea. We recommend building a Business Case for your project to outline some of the key points you want to achieve by completing it, as well as to present to your management your labor and expense budget.
+author: Alina
 feature: Work Management
+exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
 ---
-
 # Request a project
 
 You can request a project for approval before you start working on it. This creates a project with a status of&nbsp;Idea. We recommend building a Business Case for your project to outline some of the key points you want to achieve by completing it, as well as to present to your management your labor and expense budget.
@@ -70,4 +71,3 @@ You must have the following access to perform the steps in this article:
      For information about creating a project, see [Create a project](../../../manage-work/projects/create-projects/create-project.md) or [Create a project using a template](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
    The project you request has a status of&nbsp;**Requested** and it displays on the **Requested Projects** tab of a Portfolio, if you associated it with a Portfolio. A portfolio manager can now review it and either approve it or reject it, in which case the status of the project changes to either **Approved** or **Rejected**.
-

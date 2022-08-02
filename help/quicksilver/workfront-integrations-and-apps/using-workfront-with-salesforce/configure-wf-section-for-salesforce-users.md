@@ -3,9 +3,10 @@ product-area: workfront-integrations;setup;user-management
 navigation-topic: workfront-for-salesforce
 title: Configure the Adobe Workfront section for Salesforce users
 description: A Pro Workfront Plan is required to use this feature. For more information about the various plans available, see Workfront Plans.
+author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 81481813-74db-4408-8c85-c3b5b844f932
 ---
-
 # Configure the Adobe Workfront section for Salesforce users
 
 A Pro Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)
@@ -152,4 +153,3 @@ You can add the Workfront section to the layout of a Salesforce Opportunity or A
    >Users see a Workfront login screen on the Workfront section. If they do not have a Workfront account, they can collapse the section, but not remove it from their layout. Users can log in using the authentication method you have enabled: Enhanced Authentication or your Security Assertion Markup Language (SAML) URL.
 
    ![salesforce_lightning__workfront_panel.png](assets/salesforce-lightning--workfront-panel-350x127.png)
-

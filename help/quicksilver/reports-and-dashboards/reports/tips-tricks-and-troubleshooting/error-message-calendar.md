@@ -4,9 +4,10 @@ product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: "Error message on calendar: 'This calendar has the view rights of a deactivated user.'"
 description: You must have the following access to perform the steps in this article - EDIT ME.
+author: Lisa
 feature: Reports and Dashboards
+exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
 ---
-
 # Error message on calendar: "This calendar has the view rights of a deactivated user."
 
 ## Access requirements
@@ -59,4 +60,3 @@ You can resolve this in the following way:
 
 1. Share the copied calendar with the same users as the original calendar. All users should see the same information on the new calendar.
 1. (Optional and conditional) If you have permissions to manage the original calendar, remove all other users with whom the calendar is shared from the calendar Sharing area. This eliminates the confusion of the users trying to display the wrong calendar.
-

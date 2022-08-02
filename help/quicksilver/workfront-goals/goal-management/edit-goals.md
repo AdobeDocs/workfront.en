@@ -3,9 +3,10 @@ product-previous: workfront-goals
 navigation-topic: goal-management
 title: Edit goals in Adobe Workfront Goals
 description: You can edit existing goals from any time period and in any status.
+author: Alina
 feature: Workfront Goals
+exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
 ---
-
 # Edit goals in Adobe Workfront Goals
 
 You can edit existing goals from any time period and in any status.

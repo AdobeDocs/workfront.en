@@ -5,10 +5,11 @@ product-area: system-administration
 navigation-topic: manage-workfront
 title: Emails
 description: Email in Adobe Workfront consists of notifications, reminders, and user invitations. System Administrators are responsible for establishing many of the email settings; however, other users (depending on access level) can benefit from using email features to manage their own communication surrounding work.
+author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
 ---
-
 # Emails
 
 Email in Adobe Workfront consists of notifications, reminders, and user invitations. System Administrators are responsible for establishing many of the email settings; however, other users (depending on access level) can benefit from using email features to manage their own communication surrounding work.
@@ -31,4 +32,3 @@ This section contains the following articles:
 * [Configure email templates](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md) 
 * [Allowing emails from the Adobe Workfront application](../../../administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md) 
 * [Manage email invitations to new users](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
-

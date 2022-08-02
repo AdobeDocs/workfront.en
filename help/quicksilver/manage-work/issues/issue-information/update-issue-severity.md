@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: issue-information
 title: Update issue severity
 description: You can associate a severity with issues in Adobe Workfront. Tasks and projects do not have severities.
+author: Alina
 feature: Work Management
+exl-id: 81302e9c-8861-4a08-b8b3-c4eeac54524e
 ---
-
 # Update issue severity
 
 You can associate a severity with issues in Adobe Workfront. Tasks and projects do not have severities.
@@ -70,4 +71,3 @@ To update the severity of an issue in the Issue Details area of an issue:
    Depending on how your Workfront administrator configured severities in your system, the options might vary.
 
 1. Click **Save Changes**.
-

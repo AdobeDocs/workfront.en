@@ -1,10 +1,11 @@
 ---
 title: Manage users in the Adobe Admin Console
 description: As an Adobe administrator, you can create Adobe Workfront users and system administrators using the Adobe Admin Console.
+author: Becky, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
 ---
-
 # Manage users in the Adobe Admin Console
 
 >[!IMPORTANT]
@@ -27,7 +28,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe administrator rights</td> 
@@ -129,9 +130,9 @@ You must add a user to your Production instance of Workfront before you can make
 * The Workfront System Administrator access level can only be edited from within the Adobe Admin Console.
 
   <!--
-  <MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  DRAFTED IN FLARE:
   How is this done?
-  </MadCap:conditionalText>
+  
   -->
 
 * Editing a user who is a system admin to any other access level must be done through the Admin Console first.
@@ -154,11 +155,11 @@ You must add a user to your Production instance of Workfront before you can make
 <p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
 <h2>Create users</h2>
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>
 --> 
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">May need to add something about oging throug WF -- check with Jonah</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">May need to add something about oging throug WF -- check with Jonah</p>
 
 <p>To create users in Workfront with the Admin Console:</p>
 <ol>

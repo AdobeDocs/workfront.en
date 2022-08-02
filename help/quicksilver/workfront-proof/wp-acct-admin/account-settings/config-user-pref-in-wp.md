@@ -4,9 +4,10 @@ product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: Configure a user's Proof Permission Profile in Workfront Proof
 description: As a Workfront administrator or Workfront Proof administrator, you can grant permissions to users by assigning them user profiles. When you do this, those permissions are available to the user for all proofs in the system.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: d3922b1f-6857-40de-ad0b-0cd5997188ff
 ---
-
 # Configure a user's Proof Permission Profile in Workfront Proof
 
 >[!IMPORTANT]

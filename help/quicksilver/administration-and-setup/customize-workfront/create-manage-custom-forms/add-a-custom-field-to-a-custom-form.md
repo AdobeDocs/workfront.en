@@ -3,14 +3,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Add a custom field to a custom form
-description: The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
+description: When you are working on a custom form, you can create a new custom field and add it to a custom form. You can also add a custom field that was already added to another custom form.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
 ---
-
 # Add a custom field to a custom form
-
-The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
 
 When you are working on a custom form, you can create a new custom field and add it to a custom form.
 
@@ -36,7 +35,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -123,15 +122,18 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions.</p> <p>When you are configuring the custom field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p><b>IMPORTANT</b>:   
-        <ul> 
-         <li> <p><span>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.</span> </p> <p>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.</p> </li> 
-         <li> <p>We recommend that you do not type a name that is already used for built-in Workfront fields.</p> </li> 
-        </ul> </p> <p>Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. For more information, see <a href="#Add" class="MCXref xref">Add a custom field to a custom form</a> in this article.</p> </td> 
+      <td> <p>(Required) This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions.</p> <p>When you are configuring the custom field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> 
+      <p><b>IMPORTANT</b>:   
+      <ul> 
+      <li>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront. <p>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.</p> </li> 
+      <li> <p>We recommend that you do not type a name that is already used for built-in Workfront fields.</p> </li> 
+      </ul> <p>Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. For more information, see <a href="#Add" class="MCXref xref">Add a custom field to a custom form</a> in this article.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> <p> <img src="assets/custom-field-tooltip-350x83.png" alt="custom_field_tooltip.png"> </img> </p> </td> 
+      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> 
+      <p> <img src="assets/custom-field-tooltip.png"> </p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
@@ -188,20 +190,16 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Track field changes in update feeds</td> 
-      <td> <p><b>NOTE</b>:   <p>This option is not available for the following:</p> 
-        <ul> 
-         <li>Custom forms associated with the following object types: Expense, Company, Iteration, Billing Record, and Group.</li> 
-         <li>The following field types: Calculated , Descriptive Text , and Section Break</li> 
-        </ul> </p> 
-       <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-        <p>Click the drop-down list, then select the object types where you want to automatically track the field's value changes.</p> 
-        <p><b>IMPORTANT</b>:   
-         <ul> 
-          <li> <p>Selecting or deselecting an object type here affects all custom forms that are associated with the selected object type and that contain this field.</p> <p>For example, if you deselect an object type here and save the custom form, the field's value changes are no longer tracked for that object type in any custom form that contains the field.</li> 
-           </ul> </li> 
-          <li> <p>After you select an object type here for a field and save the custom form, the field displays on the Custom Fields tab in the Update Feeds area in Setup.</p> <p>Conversely, if this field is deleted in the Update Feeds area in Setup, the object type for this setting is deselected on all custom forms that are associated with the object type and that contain this field.</p> </li> 
-         </ul> </p> 
-       </div> <p>For more information, see the section <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">Add fields you want Workfront to track</a> in the article <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">Configure system updates</a>.</p> </td> 
+      <td><p>Click the drop-down list, then select the object types where you want to automatically track the field's value changes.</p> 
+      <p><b>NOTE</b>: This option is not available for the following:</p> 
+      <ul> 
+      <li>Custom forms associated with the following object types: Expense, Company, Iteration, Billing Record, and Group.</li> 
+      <li>The following field types: Calculated , Descriptive Text , and Section Break</li> 
+      </ul>
+      <p><b>IMPORTANT</b>:  Selecting or deselecting an object type here affects all custom forms that are associated with the selected object type and that contain this field. For example, if you deselect an object type here and save the custom form, the field's value changes are no longer tracked for that object type in any custom form that contains the field.</p>
+       <p>After you select an object type here for a field and save the custom form, the field displays on the Custom Fields tab in the Update Feeds area in Setup.</p> 
+       <p>Conversely, if this field is deleted in the Update Feeds area in Setup, the object type for this setting is deselected on all custom forms that are associated with the object type and that contain this field.</p> 
+       <p>For more information, see the section <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">Add fields you want Workfront to track</a> in the article <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">Configure system updates</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Add Logic</td> 
@@ -265,4 +263,3 @@ You must have the following to perform the steps in this article:
    * [Reuse an existing calculated custom field in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
    * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
    * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-

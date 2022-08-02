@@ -5,11 +5,12 @@ content-type: reference
 product-area: system-administration
 keywords: access,level,system,administrator,planner,worker,reviewer,requestor,external,user
 navigation-topic: access-levels
-description: As an Adobe Workfront administrator, you assign an access level to a user for 2 purposes - EDIT ME.
+description: Every user must have an access level in order to log in and work in Workfront. You use the access level to control what a user can see and do with certain Workfront objects and areas. Each of the six built in access levels is attached to one of the five Workfront licenses, which are Plan, Work, Review, Request, and External.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
 ---
-
 # Access levels overview
 
 As an Adobe Workfront administrator, you assign an access level to a user for 2 purposes:
@@ -17,9 +18,9 @@ As an Adobe Workfront administrator, you assign an access level to a user for 2 
 * Every user must have an access level in order to log in and work in Workfront. 
 * You use the access level to control what a user can see and do with certain Workfront objects and areas.
 
-Each of the 6 built-in access levels except one (External User) is attached to one of the 4 Workfront licenses: Plan, Work, Review, or Request:
+Each of the six built-in access levels is attached to one of the five Workfront licenses: Plan, Work, Review, Request, and Externall. (External is an unpaid license designed primarily for sharing documents with collaborators who don't use Workfront.)
 
-![](assets/access-levels-and-licenses.png)
+![](assets/old-access-levels-and-licenses.png)
 
 For information on related topics, see the following articles:
 
@@ -51,4 +52,3 @@ For information on related topics, see the following articles:
   </tr> 
  </tbody> 
 </table>
-

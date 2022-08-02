@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: create-proofs-and-files
 title: Copying Proofs in Workfront Proof
 description: Reviewers with edit rights on a proof can create a copy of the proof, either as a new version of the existing proof or as a new proof. (For more information, see . For information about edit rights, see Proof Permissions Profiles in Workfront Proof.)
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
 ---
-
 # Copying Proofs in Workfront Proof
 
 >[!IMPORTANT]
@@ -78,4 +79,3 @@ To copy existing proof settings for a new proof:
 
 1. Click **Copy with new file** in the dropdown menu.
 1. In the **New proof** page that appears,&nbsp;upload a new file, then click **Create**.
-

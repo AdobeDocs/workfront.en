@@ -1,15 +1,14 @@
 ---
 title: Grant users administrative access to certain areas
-description: Grant users administrative access to certain areas
-draft: Probably
+description: As an Adobe Workfront administrator, you can use an access level to grant users with a Plan license administrative access to certain areas of the system.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
 ---
 # Grant users administrative access to certain areas
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">*** Linked in several places, do not rename or change URL.</p>
--->
+<!--Linked in several places, do not rename or change URL.-->
 
 As an Adobe Workfront administrator, you can use an access level to grant users with a Plan license administrative access to certain areas of the system.
 
@@ -27,11 +26,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -60,15 +59,16 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Approval Processes</td> 
-      <td>Create and manage approval processes for use throughout the system and for specific groups.<br><p>Without this access, users can create only ad-hoc approval processes on items they have access to manage.</p></td> 
+      <td><p>Create and manage approval processes for use throughout the system and for specific groups.</p><p>Without this access, users can create only ad-hoc approval processes on items they have access to manage.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Companies</td> 
-      <td>Add new and edit existing companies in Workfront.<br><p>Without this access, users can only view existing companies.</p></td> 
+      <td><p>Add new and edit existing companies in Workfront</p>
+      <p>Without this access, users can only view existing companies.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Custom forms</td> 
-      <td>Create and edit (add, edit, and delete the fields) custom forms within their group.<br><p>Without this access, users can only attach existing forms to objects where they have access to contribute or manage.</p></td> 
+      <td><p>Create and edit (add, edit, and delete the fields) custom forms within their group.</p><p>Without this access, users can only attach existing forms to objects where they have access to contribute or manage.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exchange rates</td> 
@@ -76,7 +76,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Expenses</td> 
-      <td>View all expenses on objects in Workfront.<br><p>This does not allow the user to create new Expense Types.<br></p><p>Without this access, the user can only view the following:</p>
+      <td><p>View all expenses on objects in Workfront.</p><p>This does not allow the user to create new Expense Types.</p><p>Without this access, the user can only view the following:</p>
        <ul>
         <li>Expenses on projects, tasks or issues they manage</li>
         <li>Their own expenses</li>
@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Milestones in my group</td> 
-      <td>View all the milestone paths in the system under the Milestone Paths menu in Setup. Users can also edit or&nbsp;delete any milestone paths belonging to any of their&nbsp;groups. Users&nbsp;cannot manage (edit or delete) the milestone paths that are not assigned to any of their of groups.<br><p>Without this access, users can only view existing milestone paths and apply them to projects they have access to manage.</p></td> 
+      <td>View all the milestone paths in the system under the Milestone Paths menu in Setup. Users can also edit or delete any milestone paths belonging to any of their groups. Users cannot manage (edit or delete) the milestone paths that are not assigned to any of their of groups.<br><p>Without this access, users can only view existing milestone paths and apply them to projects they have access to manage.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Reminder notifications</td> 
@@ -119,4 +119,3 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >
    >You can allow users to have administrative access to users. For more information about giving users administrative access to users so they can manage user accounts, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-

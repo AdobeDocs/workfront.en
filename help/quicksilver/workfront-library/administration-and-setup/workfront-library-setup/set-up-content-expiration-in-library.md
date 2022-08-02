@@ -4,9 +4,9 @@ product-area: documents;system-administration;setup
 navigation-topic: workfront-library-setup
 title: Set up content expiration in Workfront Library
 description: As a Workfront Library administrator, you can set up content expiration to either restrict or eliminate users' access to expired content.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: a311252b-e79e-4f31-961f-cc64bedac3ad
 ---
-
 # Set up content expiration in Workfront Library
 
 As a Workfront Library administrator, you can set up content expiration to either restrict or eliminate users' access to expired content.
@@ -81,4 +81,3 @@ Expired items migrated from Workfront DAM to Workfront Library remain expired.
    Workfront sends an email notification only when the active (most current) version of content is expiring. No notification is sent when older versions of content expire. For more information about how content versions are managed in Workfront Library, see [Overview of content versioning in Workfront Library](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md).
 
 1. Click **Save.**&nbsp;
-

@@ -1,8 +1,10 @@
 ---
 title: 20.4 Resource Management enhancements
 description: 20.4 Resource Management enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 9f660a38-4a59-4135-8178-0841088cc7d6
 ---
 # 20.4 Resource Management enhancements
 
@@ -113,4 +115,4 @@ To make your filtering experience in the Workload Balancer more efficient, we ha
 
 For information about using filters in the Workload Balancer, see [Filter information in the Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/461465895/0e567c9080) 
+[Watch a video demonstration of this feature.](https://vimeo.com/461465895/0e567c9080)

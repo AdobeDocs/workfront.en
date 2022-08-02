@@ -3,9 +3,10 @@ content-type: release-notes
 navigation-topic: library-release-activity
 title: Workfront Library release activity - February 13, 2020
 description: This page describes all changes made available to Workfront Library with the release to the Production environment on February 12.
-feature: "Product Announcements, Workfront Library"
+author: Luke
+feature: Product Announcements, Workfront Library
+exl-id: 4f852f6e-edd9-4078-8fe7-c4551655852b
 ---
-
 # Workfront Library release activity - February 13, 2020
 
 This page describes all changes made available to Workfront Library with the release to the Production environment on February 12.

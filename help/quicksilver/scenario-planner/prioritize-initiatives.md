@@ -3,9 +3,10 @@ product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Update initiative priorities in the Scenario Planner
 description: Prioritizing initiatives is important because initiatives receive job roles and budget resources from the plan in the order they are listed on the plan.
+author: Alina
 feature: Workfront Scenario Planner
+exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
 ---
-
 # Update initiative priorities in the Scenario Planner
 
 Prioritizing initiatives is important because initiatives receive job roles and budget resources from the plan in the order they are listed on the plan.
@@ -83,4 +84,3 @@ To update initiative priority:
      Workfront immediately places the selected initiatives where you indicate and the numbers of all initiatives update accordingly.
 
 1. Click **Save Plan** to save your changes.
-

@@ -4,10 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: security
 title: Prevent duplicate users
 description: When creating a new user in Adobe Workfront, you can no longer use an email address that is already being used by another user, even if the email address varies by case (for example, JohnDoe@example.com and johndoe@example.com). In addition, to prepare for future authentication enhancements, ensure that all users have unique email addresses in a Workfront instance.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
 ---
-
 # Prevent duplicate users
 
 When creating a new user in Adobe Workfront, you can no longer use an email address that is already being used by another user, even if the email address varies by case (for example, JohnDoe@example.com and johndoe@example.com). In addition, to prepare for future authentication enhancements, ensure that all users have unique email addresses in a Workfront instance.
@@ -22,11 +23,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -53,7 +54,7 @@ As the Workfront administrator, you must update existing users who have matching
 
 To fix duplicate email addresses within a Workfront instance:
 
-1. &nbsp;Examine any duplicate users and decide which user is no longer needed.
+1. Examine any duplicate users and decide which user is no longer needed.
 
    1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Users**. ![](assets/users-icon-in-main-menu.png)
 
@@ -65,15 +66,15 @@ To fix duplicate email addresses within a Workfront instance:
    
    1. Customize the User Login view.
 
-      1. Click **View** >&nbsp;**Customize View**.
+      1. Click **View** > **Customize View**.
       
-      1. Replace the **ID**&nbsp;column with the **Email Address** column.
+      1. Replace the **ID** column with the **Email Address** column.
       
       1. Rename the View and save it.
 
    1. Create a new Grouping.
 
-      1. Click **Grouping** >&nbsp;**New Grouping**.
+      1. Click **Grouping** > **New Grouping**.
       
       1. Click **Switch to Text Mode** in the upper-right corner of the page.
       1. Paste the following Text Mode code:
@@ -86,13 +87,13 @@ To fix duplicate email addresses within a Workfront instance:
    
    1. Rename the Grouping and save it.
 
-1. &nbsp;Do any of the following:
+1. Do any of the following:
 
    * (Preferred method) Add a + address to the user's email address for each additional account.
 
      Choose this option if a single user in your organization needs access to more than 1 user account. If plus addressing is not supported by your email provider you must provide a separate email account for each Workfront account.
 
-     For example, John Doe can have one user account for his daily-use account and one to use for testing purposes:&nbsp;
+     For example, John Doe can have one user account for his daily-use account and one to use for testing purposes: 
 
       * johndoe@workfront.com
       * johndoe+reviewer@workfront.com
@@ -103,8 +104,8 @@ To fix duplicate email addresses within a Workfront instance:
      
      For example,John Doe could have the following domains: (These must be unique.)
 
-      * johndoe@workfront.inactive
-      * johndoe@workfront.inactive2
+     * johndoe@workfront.inactive
+     * johndoe@workfront.inactive2
 
      You can no longer log in to these accounts because password resets require a valid email address. These accounts can be accessed only by using the Login As feature.
    

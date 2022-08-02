@@ -4,9 +4,10 @@ product-area: resource-management
 navigation-topic: resource-scheduling
 title: Get started with Resource Scheduling
 description: We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources.
+author: Alina
 feature: Resource Management
+exl-id: 1858f6af-92e7-4d32-a401-40004eeb0cef
 ---
-
 # Get started with Resource Scheduling
 
 >[!NOTE]
@@ -291,4 +292,3 @@ You can determine how the Planned Hours for a task or issue are allocated to use
 * Across the duration of the task or issue.
 
 For more information, see the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
-

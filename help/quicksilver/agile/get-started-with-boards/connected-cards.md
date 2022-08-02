@@ -3,19 +3,23 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Connected cards on boards
 description: You can add a card on your board that is connected to existing tasks and issues in Workfront.
+author: Lisa
 feature: Agile
+exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 ---
-
-# Connected cards on boards
+# Use connected cards on boards
 
 You can add a card on your board that is connected to existing tasks and issues in Workfront.
 
-When the following information is updated for the card in one location, it is automatically updated in the other location:
+When any one of the following details is updated for the card in one location, it is automatically updated in the other location:
 
 * Name
 * Description
 * Assignees
 * Status
+
+>[!NOTE]
+>A single connected task or issue can only be added once per board. The same task or issue can be connected to multiple boards.
 
 ## Access requirements
 
@@ -51,9 +55,11 @@ You must have the following access to perform the steps in this article:
 1. Click **Add card &gt; Connected card**.
 1. Choose a project, then choose a task or issue to add as a card on the board.
 
+   You can select multiple objects and they will all be added as separate cards.
+
    >[!NOTE]
    >
-   >Only objects that you have permissions to are available in the search results.
+   >Only objects that you have permissions to are available in the search results. If an item is dimmed, it has already been added to the board.
 
 1. Click **Add**.
 
@@ -106,6 +112,10 @@ You must have the following access to perform the steps in this article:
       <td role="rowheader"><strong>Due date</strong></td>
       <td><p>Select a due date for the card.</p></td>
      </tr>
+      <tr>
+      <td role="rowheader"><strong>Estimation</strong></td>
+      <td><p>Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</p> <p>This field is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</p></td>
+     </tr>
      <tr>
       <td role="rowheader"><strong>Tags</strong></td>
       <td><p>Search for and select tags for the card.</p>
@@ -119,9 +129,9 @@ You must have the following access to perform the steps in this article:
    </table>
 
 1. Click **Close** to return to the board.
-   The connected object, assignees, tags, due date, and checklist counter are displayed on the card.
-
-   ![Connected card on board showing details](assets/boards-connected-card-details.png)
+   The connected object, assignees, tags, due date, checklist counter, and estimated hours are displayed on the card.
+   
+   ![Connected card on board showing details](assets/boards-connected-card-details-071822.png)
 
 ## Disconnect a connected card
 

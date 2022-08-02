@@ -5,10 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Install a blueprint
 description: You can install a blueprint in your Production environment or a Sandbox environment.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
 ---
-
 # Install a blueprint
 
 You can install a blueprint in your Production environment or a Sandbox environment.
@@ -27,10 +28,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td role="rowheader">Access level configurations*</td> 
    <td> <p>System administrator</p> </td> 
   </tr> 
  </tbody> 

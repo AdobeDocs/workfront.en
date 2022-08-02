@@ -4,9 +4,10 @@ content-type: overview
 product-area: projects
 navigation-topic: manage-projects
 description: The project Condition is a visual representation of how the project is progressing. It is a reportable variable determined by the relationship between the planned, projected, and estimated dates of the project.
+author: Alina
 feature: Work Management
+exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
 ---
-
 # Overview of Project Condition and Condition Type
 
 The project Condition is a visual representation of how the project is progressing. It is a reportable variable determined by the relationship between the planned, projected, and estimated dates of the project.
@@ -107,5 +108,4 @@ In the view of a project report, you can show the following fields related to th
 * **Last Condition Note**: Displays the update last entered on an object by the owner of the object. This field is helpful to display the owner's most recent activity or interaction on an object.   
   The **Last Condition Note** column is empty if the note text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.
 
-For information about how to create a report, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).  
-
+For information about how to create a report, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

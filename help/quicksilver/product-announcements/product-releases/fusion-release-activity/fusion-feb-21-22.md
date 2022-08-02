@@ -1,8 +1,11 @@
 ---
 title: Workfront Fusion release activity:&nbsp;Week of February 21, 2022
 description: Workfront Fusion release activity:&nbsp;Week of February 21, 2022
+author: Luke
 draft: Probably
-feature: "Product Announcements, Workfront Fusion"
+feature: Product Announcements, Workfront Fusion
+exl-id: 8349dd47-6233-4f26-af9c-2f180c7aecd1
+hidefromtoc: yes
 ---
 # Workfront Fusion release activity:&nbsp;Week of February 21, 2022
 

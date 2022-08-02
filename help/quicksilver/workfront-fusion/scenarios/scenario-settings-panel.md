@@ -4,9 +4,10 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: The scenario settings panel in Adobe Workfront Fusion
 description: This article describes the settings available in the scenario settings panel in your Adobe Workfront Fusion scenarios.
+author: Becky
 feature: Workfront Fusion
+exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
 ---
-
 # The scenario settings panel in Adobe Workfront Fusion
 
 ## Access requirements
@@ -140,4 +141,3 @@ For more information on errors, see [Error processing in Adobe Workfront Fusion]
 >[!NOTE]
 >
 >If a scenario starts with an instant trigger, the setting is ignored and the scenario is deactivated immediately once the first error has occurred.
-

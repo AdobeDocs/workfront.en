@@ -5,9 +5,10 @@ product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Understand How Cache and Cookies Affect Workfront Proof
 description: Clearing your browser's cookies and cache can improve performance in Workfront Proof.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 87b6e319-2f11-485b-bbcf-bd612a4cb5d4
 ---
-
 # Understand How Cache and Cookies Affect Workfront Proof
 
 >[!IMPORTANT]
@@ -22,4 +23,3 @@ Clearing your browser's cookies and cache can improve performance in Workfront P
 * **The browser cache** stores downloaded parts of&nbsp;web pages and applications such as images, scripts, CSS files. This speeds up your browser because it doesn't need to retrieve pages of data every time you visit a particular site; it simply loads the data from your computer.  
   Your browser updates the cache periodically, but not constantly, so you may not always see the most recent version of a&nbsp;web page you are working with.&nbsp;Sometimes, as you change information on a website, its pages may freeze, some elements may not display properly, and some functions may not work.  
   Workfront releases new features and critical fixes every other week, so we recommend clearing your browser's cache regularly to ensure that all the data is compatible and up to date. See your browser's online Help if you need instructions. If you need help from Workfront, contact our Support team at https://support.workfront.com.
-

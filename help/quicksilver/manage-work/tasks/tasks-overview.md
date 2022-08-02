@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: projects-navigation-topic
 title: Tasks
 description: This section contains the following subsections - EDIT ME.
+author: Alina
 feature: Work Management
+exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
 ---
-
 # Tasks
 
 This section contains the following subsections:
@@ -19,4 +20,3 @@ This section contains the following subsections:
 * [Task Duration and Duration Types](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md) 
 * [Use task predecessors](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md) 
 * [Tips, tricks, and troubleshooting for tasks](../../manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
-

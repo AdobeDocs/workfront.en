@@ -4,9 +4,10 @@ product-area: agile-and-teams
 navigation-topic: people-teams-and-groups
 title: Create and manage teams overview
 description: Review these articles to learn how to create and manage teams in Adobe Workfront.
-feature: "People Teams and Groups"
+author: Lisa
+feature: People Teams and Groups
+exl-id: a5bf6aee-e41f-44d8-a377-baeea6a0a911
 ---
-
 # Create and manage teams
 
 This section contains the following articles:
@@ -20,4 +21,3 @@ This section contains the following articles:
 * [Configure the Done button for tasks](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) 
 * [Configure the Done button for issues](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md) 
 * [Replace the Work On It button with a Start button](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
-

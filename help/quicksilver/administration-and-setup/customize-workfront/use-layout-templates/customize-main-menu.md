@@ -3,11 +3,12 @@ title: Customize the Main Menu using a layout template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront - EDIT ME.
+description: As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 ---
-
 # Customize the Main Menu using a layout template
 
 As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront:
@@ -30,11 +31,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

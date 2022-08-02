@@ -4,11 +4,11 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: administration-and-setup
-description: This section contains the following subsections - EDIT ME.
+description: As a Workfront administrator, you can customize elements such as layout templates, custom forms, and statuses to meet the needs of the users in your organization.
 feature: System Setup and Administration
 role: Admin
+exl-id: c9b16408-c02f-409e-91df-33288f3aae23
 ---
-
 # Customize Adobe Workfront
 
 This section contains the following subsections:
@@ -19,4 +19,3 @@ This section contains the following subsections:
 * [Statuses and priority labels](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md) 
 * [Approval processes and milestone paths](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md) 
 * [Custom conditions](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
-

@@ -3,9 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Update the status of stories and subtasks on the Scrum board
 description: You can change the status of a story directly from the agile story board to reflect how the stories are progressing through the iteration or project.
+author: Lisa
 feature: Agile
+exl-id: 3f414901-883c-45ac-b30a-60841e883e35
 ---
-
 # Update the status of stories and subtasks on the Scrum board
 
 You can change the status of a story directly from the agile story board to reflect how the stories are progressing through the iteration or project.
@@ -50,4 +51,3 @@ You must have the following access to perform the steps in this article:
 1. Navigate to an active iteration.
 1. Drag a story from one status column on the story board into another column.  
    ![Move story to another column](assets/agile-storyboard-progress.png)
-

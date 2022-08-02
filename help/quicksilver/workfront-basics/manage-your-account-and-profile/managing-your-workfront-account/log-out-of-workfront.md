@@ -3,9 +3,10 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Log out of Adobe Workfront
 description: For security reasons, it is important to log out of Adobe Workfront regularly. By default, Workfront automatically logs users out after 8 hours of inactivity.
+author: Lisa
 feature: Get Started with Workfront
+exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
 ---
-
 # Log out of Adobe Workfront
 
 For security reasons, it is important to log out of Adobe Workfront regularly. By default, Workfront automatically logs users out after 8 hours of inactivity.
@@ -31,11 +32,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -47,4 +48,3 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Logout** ![](assets/logout-icon.png). 
 1. This returns you to the login page where you can re-enter your username and password.
-

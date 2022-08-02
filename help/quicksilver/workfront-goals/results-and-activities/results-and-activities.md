@@ -4,9 +4,10 @@ product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
 title: Results and activities in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+author: Alina
 feature: Workfront Goals
+exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
 ---
-
 # Results and activities in Adobe Workfront Goals
 
 Your organization must have the following to use the functionality described in this article:
@@ -27,4 +28,3 @@ This section contains the following articles:
 * [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md) 
 * [Edit results and activities in Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md) 
 * [Remove results, activities, and projects from goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
-

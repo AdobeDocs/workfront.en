@@ -3,9 +3,10 @@ title: Delete projects
 product-area: projects
 navigation-topic: manage-projects
 description: You can delete a project if the project and its data are no longer needed.
+author: Alina
 feature: Work Management
+exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 ---
-
 # Delete projects
 
 You&nbsp;can delete a project if the project and its data are no longer needed.&nbsp;

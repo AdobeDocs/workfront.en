@@ -6,9 +6,10 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: NetSuite modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use NetSuite, as well as connect it to multiple third-party applications and services.
+author: Becky
 feature: Workfront Fusion
+exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
 ---
-
 # NetSuite modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use NetSuite, as well as connect it to multiple third-party applications and services.
@@ -104,4 +105,3 @@ When you are configuring this module, the following fields display.
   </tr> 
  </tbody> 
 </table>
-

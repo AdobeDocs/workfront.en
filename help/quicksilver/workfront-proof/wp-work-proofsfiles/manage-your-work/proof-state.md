@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Understand Proof State in Workfront Proof
 description: In Workfront Proof, proofs exist in different states. These states determine what actions you can take on the proof, such as commenting or making decisions.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
 ---
-
 # Understand Proof State in Workfront Proof
 
 >[!IMPORTANT]
@@ -75,4 +76,3 @@ For information about viewing a list of all proofs in a specific state, such as&
 1. (Optional) To change the state, mouse over the current&nbsp;**State**and click the drop-down menu, then select a new state.
 
    ![](assets/screen-shot-2018-05-02-at-11.35.30-am.png)
-

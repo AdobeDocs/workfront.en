@@ -2,10 +2,11 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Reply to email notifications
-description: Make comments on objects without logging in to Adobe Workfront. You can respond to Workfront email that is generated from comments made to the following objects - EDIT ME.
+description: Make comments on objects without logging in to Adobe Workfront. You can respond to Workfront email that is generated from comments made to projects, tasks, issues, and other objects.
+author: Lisa and Alina
 feature: Get Started with Workfront
+exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
 ---
-
 # Reply to email notifications
 
 Make comments on objects without logging in to Adobe Workfront. You can respond to Workfront email that is generated from comments made to the following objects:
@@ -27,4 +28,3 @@ Make comments on objects without logging in to Adobe Workfront. You can respond 
 >[!NOTE]
 >
 >Replying to updates by email is not available for environments on Cluster 6.
-

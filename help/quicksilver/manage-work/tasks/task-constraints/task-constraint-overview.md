@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: task-constraints
 title: Task Constraint overview
 description: Task constraints determine when a task should start and end on a project.
+author: Alina
 feature: Work Management
+exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
 ---
-
 # Task Constraint overview
 
 Task constraints determine when a task should start and end on a project.
@@ -104,4 +105,3 @@ The following table shows the default Task Constraint when choosing different va
 | Start Date |Today |Start No Earlier Than |
 | Completion Date |Based on the Project Planned Date |As Late as Possible |
 | Completion Date |Today |Start No Later Than |
-

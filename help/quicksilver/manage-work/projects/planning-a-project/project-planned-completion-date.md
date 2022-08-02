@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: plan-a-project
 title: Set the project Planned Completion Date
 description: The Planned Completion Date of a project is the date by which the project is set to complete.
+author: Alina
 feature: Work Management
+exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
 ---
-
 # Set the project Planned Completion Date
 
 The Planned Completion Date of a project is the date by which the project is set to complete.
@@ -140,4 +141,3 @@ To schedule a project from Start Date:
 </note>
 </div>
 -->
-

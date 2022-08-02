@@ -4,9 +4,10 @@ product-area: agile-and-teams
 navigation-topic: scrum-board
 title: Scrum board overview
 description: The Scrum agile story board displays together with the completion status and the burndown chart.
+author: Lisa
 feature: Agile
+exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
 ---
-
 # Scrum board overview
 
 The Scrum agile story board displays together with the completion status and the burndown chart. These agile components are available in the following situations in Adobe Workfront:

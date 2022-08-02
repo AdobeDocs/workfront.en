@@ -3,9 +3,10 @@ content-type: release-notes
 navigation-topic: 2020-3-release-activity
 title: 20.3 other enhancements
 description: This page describes all other enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
+author: Luke
 feature: Product Announcements
+exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
 ---
-
 # 20.3 other enhancements
 
 This page describes all other enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
@@ -96,8 +97,6 @@ There is also now a User details link that displays the following user informati
 * Job role
 * Email address
 * Profile picture
-
-For more information, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
 
 [Watch a video demonstration of this feature.](https://vimeo.com/434805153/b8d6061d09)
 

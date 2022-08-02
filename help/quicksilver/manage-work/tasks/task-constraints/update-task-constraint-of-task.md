@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: task-constraints
 title: Update the Task Constraint of a task
 description: Task constraints determine when a task should start and end on a project. For more information, see Task Constraint overview.
+author: Alina
 feature: Work Management
+exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
 ---
-
 # Update the Task Constraint of a task
 
 Task constraints determine when a task should start and end on a project. For more information, see [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).

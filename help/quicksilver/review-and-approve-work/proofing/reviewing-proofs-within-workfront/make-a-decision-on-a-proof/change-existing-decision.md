@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: make-a-decision-on-a-proof
 title: Change an existing decision on a proof
 description: As long as the proof is active (not locked or archived), you can change your decision at any time.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 07825eeb-9dbd-4ad8-9dca-d3b5345012f8
 ---
-
 # Change an existing decision on a proof
 
 As long as the proof is active (not locked or archived), you can change your decision at any time.&nbsp;
@@ -50,4 +51,3 @@ You must have the following access to perform the steps in this article:
 
 1. Click the decision you made at the top-center of the proofing viewer.
 1. In the **Proof decision** box that appears, click **Remove decision** beneath the decision you made previously.
-

@@ -1,9 +1,10 @@
 ---
 title: Grant access to users
-description: Grant access to users
-draft: Probably
+description: As an Adobe Workfront administrator, you can use an access level to define a user's access to other users in Workfront.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
 ---
 # Grant access to users
 
@@ -19,11 +20,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -67,13 +68,15 @@ You can manage what information users can view and edit for other users using a 
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Create</strong> </td> 
-      <td> <p>Allows users to create users.<br>This option is enabled by default.</p> <!--
-        <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure this change is being made before undrafting these 2 notes. On 3/29, the req doc says that this depends on investigation results.</p>
-       --> <p><b>NOTE</b>: This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
+      <td> <p>Allows users to create users.<br>This option is enabled by default.</p> 
+      <!--
+        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure this change is being made before undrafting these 2 notes. On 3/29, the req doc says that this depends on investigation results.</p>
+       --> 
+       <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Delete</strong> </td> 
-      <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p><b>NOTE</b>: This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
+      <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>User Admin (All Users)</strong> </td> 
@@ -90,7 +93,7 @@ You can manage what information users can view and edit for other users using a 
         <ul>
          <li><p>Edit, delete, or deactivate the user</p></li>
          <li>Log in as the user</li>
-         <li><p>Reset the user's password</p><p><b>NOTE</b>:  A group administrator cannot log in as or reset the password of a Workfront administrator.<br></p></li>
+         <li><p>Reset the user's password</p><p><b>NOTE</b>:  A group administrator cannot log in as or reset the password of a Workfront administrator.</p></li>
         </ul><p>This option is disabled by default.</p></p> </td> 
      </tr> 
     </tbody> 
@@ -105,5 +108,4 @@ You can manage what information users can view and edit for other users using a 
 
 ## Access to users by license type
 
-For information about what users in each access level can do with users, see the section [Users](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).  
-
+For information about what users in each access level can do with users, see the section [Users](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).

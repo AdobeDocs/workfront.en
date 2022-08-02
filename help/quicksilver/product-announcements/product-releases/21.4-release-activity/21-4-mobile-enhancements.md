@@ -1,8 +1,10 @@
 ---
 title: 21.4 Mobile enhancements
 description: 21.4 Mobile enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: cbc013eb-aecc-405b-91b8-ce45f2ea10dc
 ---
 # 21.4 Mobile enhancements
 
@@ -35,4 +37,3 @@ The following articles will be updated when the app is released to the app store
 
 * [Adobe Workfront for iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) 
 * [Adobe Workfront for Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
-

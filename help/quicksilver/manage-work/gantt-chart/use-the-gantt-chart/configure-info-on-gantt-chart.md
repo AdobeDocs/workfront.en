@@ -4,9 +4,10 @@ product-area: setup
 navigation-topic: use-the-gantt-chart
 title: Configure how information displays on the Gantt Chart
 description: You can configure what information displays in both the Task List Gantt Chart and the Project List Gantt Chart.
+author: Alina
 feature: Work Management
+exl-id: 465365a2-d94b-47b6-a393-16770fca2714
 ---
-
 # Configure how information displays on the Gantt Chart
 
 You can configure what information displays&nbsp;in both the Task List Gantt Chart and the Project List Gantt Chart.
@@ -123,4 +124,3 @@ The following table details the display options for the Gantt chart:
    >
 
 1. Click anywhere in the Gantt chart to close the&nbsp;**Options**&nbsp;dialog box.&nbsp;
-

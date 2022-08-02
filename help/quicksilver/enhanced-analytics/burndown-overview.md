@@ -4,9 +4,10 @@ content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
 description: The Burndown visualization shows a specific project's burndown over time and helps you understand the relationship between project condition, velocity, and remaining hours—or days.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
 ---
-
 # View the Burndown visualization in Enhanced analytics
 
 The Burndown visualization shows a specific project's burndown over time and helps you understand the relationship between project condition, velocity, and remaining hours—or days.
@@ -147,5 +148,4 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 View the following video to learn more about the Burndown visualization. This video was recorded in the new Workfront experience. However, the content also applies to Workfront Classic.
 
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/441154380/51a7bd4040)   
-
+[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/441154380/51a7bd4040)

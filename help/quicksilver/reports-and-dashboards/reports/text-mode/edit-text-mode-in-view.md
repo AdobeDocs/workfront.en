@@ -2,10 +2,11 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Edit a view using text mode
-description: "NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article)"
+description: 'NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article)'
+author: Nolan
 feature: Reports and Dashboards
+exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
 ---
-
 # Edit a view using text mode
 
 <!--
@@ -202,4 +203,3 @@ For information about creating a report, see [Create a custom report](../../../r
    Or
 
    Click **Save View** to save the view in a list.
-

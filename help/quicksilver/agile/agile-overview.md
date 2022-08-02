@@ -4,9 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Agile overview
 description: Agile is a work methodology that allows teams to complete small, manageable amounts of work at a consistent cadence. In agile, teams manage stories on a backlog or story board and not tasks in a project. Adobe Workfront provides tools that help teams work in an agile way.
+author: Lisa
 feature: Agile
+exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
 ---
-
 # Agile overview
 
 Agile is a work methodology that allows teams to complete small, manageable amounts of work at a consistent cadence. In agile, teams manage stories on a backlog or story board and not tasks in a project. Adobe Workfront provides tools that help teams work in an agile way.
@@ -36,4 +37,3 @@ To begin using advanced agile in Workfront:
 1. Add tasks from projects to the backlog or the story board for the team.
 
    For information, see [Manage the agile backlog](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Add existing tasks or issues to the Kanban board](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md), and [Add stories to an existing iteration](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
-

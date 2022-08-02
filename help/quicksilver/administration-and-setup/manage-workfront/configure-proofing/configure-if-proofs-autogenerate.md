@@ -5,9 +5,10 @@ product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
 title: Configure whether proofs are automatically generated
 description: You can configure whether the system automatically generates proofs when users you specify add documents to Workfront. This setting is disabled by default.
+author: Courtney
 ---
 
-# Configure whether proofs are&nbsp;automatically generated
+# Configure whether proofs are automatically generated
 
 You can configure whether the system automatically generates proofs when users you specify add documents to Workfront. This setting is disabled by default.
 
@@ -21,11 +22,11 @@ You must have the following:
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a> </td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td> <p>Plan</p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access configurations</td> 
@@ -36,17 +37,17 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Configure whether proofs are&nbsp;automatically generated for a single user
+## Configure whether proofs are automatically generated for a single user
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
 1. Select a user with proofing access, then click **Edit**.
-1. In the **Preferences**&nbsp;section, enable or disable the **Automatically generate proofs when uploading documents** checkbox.
+1. In the **Preferences** section, enable or disable the **Automatically generate proofs when uploading documents** checkbox.
 
    ![](assets/autogenerate-proofs-350x216.png)
 
 1. Click **Save Changes**.
 
-## Configure whether proofs are&nbsp;automatically generated for multiple users
+## Configure whether proofs are automatically generated for multiple users
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
 1. Select users with proofing access, then click **Edit**.
@@ -55,7 +56,7 @@ You must have the following:
    >
    >If all users do not have proofing access, the Automatically generate proofs when uploading documents option does not appear.
 
-1. In the **Preferences**&nbsp;section, enable **Automatically generate proofs when uploading documents** checkbox, then select **Yes** or **No**.
+1. In the **Preferences** section, enable **Automatically generate proofs when uploading documents** checkbox, then select **Yes** or **No**.
 
    ![](assets/autogenerate-proofs-bulk-350x285.png)
 

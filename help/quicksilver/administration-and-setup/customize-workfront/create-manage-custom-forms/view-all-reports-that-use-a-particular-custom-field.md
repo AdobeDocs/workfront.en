@@ -1,9 +1,10 @@
 ---
 title: View all reports that use a particular custom field or widget
-description: View all reports that use a particular custom field or widget
-draft: Probably
+description: You can add a custom view in the Custom Forms area that shows which reports are using a particular custom field or widget. This is useful when you need to edit or delete the field or widget, because it might already be implemented in one or more reports. It's important to assess whether those reports will need adjustments in order to keep working properly.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
 ---
 # View all reports that use a particular custom field or widget
 
@@ -25,7 +26,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -75,14 +76,14 @@ You must have the following to perform the steps in this article:
 
    >[!TIP]
    >
-   >* If you don't have time to investigate the reports that are using the custom field or widget, you can click Export to create a file that lists them. You could share this file with anyone who owns a report that's using the field or widget and discuss the change that needs to happen, the impact it might have on the report, and what needs to be done to make sure that the report continue to work correctly.
-   >* This view is also available in a Parameter report:
+   >If you don't have time to investigate the reports that are using the custom field or widget, you can click Export to create a file that lists them. You could share this file with anyone who owns a report that's using the field or widget and discuss the change that needs to happen, the impact it might have on the report, and what needs to be done to make sure that the report continue to work correctly.
+   >
+   >This view is also available in a Parameter report:
    >      
-   >1. In the Main Menu, click **Reports**.
-   >1. Near the upper-left corner, click **New Report**, then click **Parameter** in the list that displays.
-   >      
-   >1. Click **Add Column** near the lower-right corner.
-   >1. In the **Show in this column** box that displays near the upper-left corner, start typing *report*, then select **Reports** when it appears in the list below the box.
-   >1. (Conditional) If you want to move the **Reports** column you just added to a different horizontal position, drag its header in the **Column Preview** area at the bottom of the page.
-   >1. Click **Done**, then click **Save+Close**.
-   >1. Type a descriptive name for the report, such as *Fields and widgets*.
+   > 1. In the Main Menu, click **Reports**.
+   > 1. Near the upper-left corner, click **New Report**, then click **Parameter** in the list that displays.
+   > 1. Click **Add Column** near the lower-right corner.
+   > 1. In the **Show in this column** box that displays near the upper-left corner, start typing *report*, then select **Reports** when it appears in the list below the box.
+   > 1. (Conditional) If you want to move the **Reports** column you just added to a different horizontal position, drag its header in the **Column Preview** area at the bottom of the page.
+   > 1. Click **Done**, then click **Save+Close**.
+   > 1. Type a descriptive name for the report, such as *Fields and widgets*.

@@ -4,9 +4,10 @@ content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
 description: At the top of the screen in the Enhanced analytics area, 4 key performance indicators (KPIs) display. These metrics allow you to quickly understand how long projects are taking, how big the projects are, and how many projects are being completed within a specific time frame. These numbers are not limited to the 50-project maximum that displays for the visualizations on this page. Instead, this data is based on all projects that apply to any set filters, and these numbers adjust if you change the selected date range or any of the filters.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
 ---
-
 # Understand Enhanced analytics KPIs
 
 >[!IMPORTANT]
@@ -51,4 +52,3 @@ The Avg. project duration KPI shows the average amount of completion time—in d
 The Avg, tasks per project KPI shows the average number of tasks assigned to projects within the filtered time period, as well as how the percentage increased or decreased since the previous time period. Below these numbers, you can see the the average number of tasks assigned to projects in the previous time period, as well as the number of days in the previous time period.
 
 ![](assets/kpi-average-tasks-per-project-350x179.png)
-

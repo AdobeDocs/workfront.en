@@ -3,9 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Deactivate a team
 description: You can deactivate teams you no longer use while retaining the associated historical data. Adobe Workfront administrators can reactivate a team at any time from the Teams area in Setup.
-feature: "People Teams and Groups"
+author: Lisa
+feature: People Teams and Groups
+exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
 ---
-
 # Deactivate a team
 
 You can deactivate teams you no longer use while retaining the associated historical data. Adobe Workfront administrators can reactivate a team at any time from the Teams area in Setup. If you deactivate a team, the team no longer displays in the following areas:
@@ -80,4 +81,3 @@ When using request queues, if you deactivate a team assigned as the default team
 Deactivated teams display in the following areas:
 
 * The Owner field in Workfront Goals. This requires an additional license for Adobe Workfront Goals. For more information, see [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
-

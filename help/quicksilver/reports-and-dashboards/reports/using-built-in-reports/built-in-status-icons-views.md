@@ -3,9 +3,10 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: Built-in Status Icons in Views
 description: Built-in Status Icons in Views
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
 ---
-
 # Built-in Status Icons in Views
 
 <!--
@@ -281,4 +282,3 @@ You must have permissions to at least View the objects in order to be able to cl
   </tr> 
  </tbody> 
 </table>
-

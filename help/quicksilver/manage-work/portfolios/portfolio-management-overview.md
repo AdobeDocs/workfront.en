@@ -4,9 +4,10 @@ product-area: portfolios
 navigation-topic: projects-navigation-topic
 title: Portfolio Management
 description: This section contains the following subsections - EDIT ME.
-feature: "Work Management, Strategic Planning"
+author: Alina
+feature: Work Management, Strategic Planning
+exl-id: 89f572a8-f585-4eee-a346-9e3188496c6d
 ---
-
 # Portfolio Management
 
 This section contains the following subsections:
@@ -15,4 +16,3 @@ This section contains the following subsections:
 * [Create and manage portfolios](../../manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md) 
 * [Create and manage programs](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) 
 * [Manage projects in the Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
-

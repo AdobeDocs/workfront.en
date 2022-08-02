@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: share-proofs-and-files
 title: Share Files in Workfront Proof
 description: You can use Workfront Proof for more than just managing proofs. It is also an ideal solution for storing and sharing files.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: c4ca7a87-cacc-4b9b-aa9b-d7022ef9e267
 ---
-
 # Share Files in Workfront Proof
 
 >[!IMPORTANT]
@@ -43,4 +44,3 @@ Billing Administrators, Administrators, Supervisors and Managers can share files
    The email alert contains a personal URL which takes them to a page where they can download the file.
 
 1. Click **Share**.
-

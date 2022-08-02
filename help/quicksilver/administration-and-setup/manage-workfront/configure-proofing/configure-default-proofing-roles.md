@@ -4,10 +4,11 @@ product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
 title: Configure default proofing roles
 description: As an Adobe Workfront administrator, you can configure the default proofing roles for users and guest users who access proofs created in Workfront. Any person adding users to a proof can adjust these roles for them.
-feature: "System Setup and Administration, Digital Content and Documents"
+author: Courtney
+feature: System Setup and Administration, Digital Content and Documents
 role: Admin
+exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
 ---
-
 # Configure default proofing roles
 
 As an Adobe Workfront administrator, you can configure the default proofing roles for users and guest users who access proofs created in Workfront. Any person adding users to a proof can adjust these roles for them.
@@ -22,11 +23,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan</p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -42,7 +43,7 @@ You must have the following access to perform the steps in this article:
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
    <!--
-   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">In the left panel, click <strong>Proofs</strong> > <strong>Proof roles</strong>.</li>
+   <li In the left panel, click Proofs Proof roles.
    -->
 
 1. Click **Review and Approval** near the bottom of the list that appears on the left. 
@@ -87,7 +88,7 @@ The following table shows each role and the rights associated with it:
  <col> 
  <thead> 
   <tr> 
-   <th> <p>&nbsp;</p> </th> 
+   <th> <p> </p> </th> 
    <th> <p><strong>View a proof</strong> </p> </th> 
    <th> <p><strong>Add markups</strong> </p> </th> 
    <th> <p><strong>Add comments</strong> </p> </th> 
@@ -206,4 +207,3 @@ The following table shows each role and the rights associated with it:
 >[!NOTE]
 >
 >Users on new Workfront plans can grant author or moderator roles to any users in the system. Users on legacy plans can grant author or moderator roles to any user with a proof license in the system.
-

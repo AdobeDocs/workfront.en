@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: automated-workflow-workfront-proof
 title: Manage a proof configured with an Automated Workflow in Workfront Proof
 description: You can conveniently track the progress of your Automated Workflow proofs in the Workflow section of the Proof details page. You can view the work done on each stage and modify, add, start and lock the stages on your proof.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 1d0ad905-f3fb-471a-8766-096b978cdf4e
 ---
-
 # Manage a proof configured with an Automated Workflow in Workfront Proof
 
 >[!IMPORTANT]
@@ -118,4 +119,4 @@ The Actions menu (1) for each stage has the following options:
 
 * Message all (2) - you can send a reminder email to all reviewers on the stage
 * Share (3) - you can add new reviewers to the stage
-* Delete stage (4) - if the proof owner is on that stage, you will be asked to pick a new stage for them  
+* Delete stage (4) - if the proof owner is on that stage, you will be asked to pick a new stage for them

@@ -3,9 +3,10 @@ product-previous: workfront-goals
 navigation-topic: goal-alignment
 title: Align goals by converting results and activities to goals
 description: You can manually align two goals or you can convert the results and activities of an existing goal to another goal. The converted result or activity becomes the child goal of the original goal. For information about manually aligning two goals, see Align goals by connecting them in Adobe Workfront Goals.
+author: Alina
 feature: Workfront Goals
+exl-id: 48371389-952c-4732-b519-9774cd4d1b93
 ---
-
 # Align goals by converting results and activities to goals
 
 You can manually align two goals or you can convert the results and activities of an existing goal to another goal.&nbsp;The converted result or activity becomes the child goal of the original goal. For information about manually aligning two goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
@@ -87,4 +88,3 @@ Consider the following when converting results and activities to goals:
 1. (Optional) Remove the name of the original activity or result owner from the **Goal Owner** field and replace it with another user, team, group, or your organization's name. By default, Workfront selects the owner of the result or the activity as the goal owner. 
 1. Click&nbsp;**Convert**. The activity or result displays as an aligned goal in the Goal&nbsp;Details panel of the original goal and the original activity or result is removed from the original goal and transferred to the second goal. By default, the new goal has the same name as the original converted result or activity. 
 1. (Optional) Click the name of the new goal to open the **Goal Details** panel and edit the name of the goal. For information about editing any information for an existing goal, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
-

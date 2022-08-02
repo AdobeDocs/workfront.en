@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: proof-types
 title: Create a Static Website Proof using Workfront Proof
 description: You can create static proofs from your web pages. In addition, you can simulate various devices by defining screen resolution of the captures.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: b93ed288-1bf2-4268-96c3-6263ab6be633
 ---
-
 # Create a Static Website Proof using Workfront Proof
 
 >[!IMPORTANT]
@@ -56,4 +57,3 @@ In order to create proofs from pages that require authorization, your IT team mu
 * Text hyperlinks are clickable on the proofs,&nbsp;and the&nbsp;linked pages open in the new browser tabs.
 * Hyperlinks on the images are&nbsp;not be clickable if the&nbsp;style="display:block" elements are used inside the `<a>` tags. We recommend adjusting these parts of the page design.
 * For best results we recommend to creating the pages using the best coding practices and acknowledged standards.
-

@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: manage-tasks
 title: Associate milestones with tasks
 description: You can associate milestones with tasks to indicate when you reach important steps in the lifetime of the project.
+author: Alina
 feature: Work Management
+exl-id: 56410640-fde4-417f-8ea0-f089315476f7
 ---
-
 # Associate milestones with tasks
 
 You can associate milestones with tasks to indicate when you reach important steps in the lifetime of the project.
@@ -72,4 +73,3 @@ Before you can associate a milestone with a task, the following must exist:
 1. (Optional) In a list of projects, select the **Milestone** view to identify the progress of your milestone tasks.
 
    ![Screen_Shot_2018-06-13_at_3.57.56_PM.png](assets/screen-shot-2018-06-13-at-3.57.56-pm-350x57.png)
-

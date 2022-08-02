@@ -5,9 +5,10 @@ product-area: documents;workfront-integrations
 navigation-topic: box
 title: Introduction to the Workfront Proof and Box integration
 description: Our integration with the Box online file sharing and content management system allows you to create new proofs and new proof versions directly from files in your Box account. For information about Box, see www.box.com.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 0050a478-30a9-4400-9854-9d6339114243
 ---
-
 # Introduction to the Workfront Proof and Box integration
 
 >[!IMPORTANT]
@@ -55,4 +56,4 @@ Please follow the few simple steps below to add our app to your Box account:
 
 <!--WRITER
 <iframe class="vimeo-player_0" src="assets/60652062?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
---> 
+-->

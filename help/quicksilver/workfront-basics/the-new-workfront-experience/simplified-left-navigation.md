@@ -4,8 +4,8 @@ navigation-topic: the-new-workfront-experience
 title: Left navigation in Adobe Workfront
 description: The left navigation panel in Workfront makes it easy to navigate through the system.
 feature: Get Started with Workfront
+exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
 ---
-
 # Left navigation in Adobe Workfront
 
 Most areas and objects in WF use a simple navigation panel on the left side of the screen. The following are benefits of left panel navigation:
@@ -123,20 +123,20 @@ The following sections display in the left panel for the **Resourcing** area:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Planner</td> 
+   <td role="rowheader"><strong>Planner</strong></td> 
    <td>Displays the Resource Planner. Use this area to plan your resources across multiple projects. For information about using the Resource Planner, see <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Get started with Resource Planning</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Scheduling</td> 
+   <td role="rowheader"><strong>Scheduling</strong></td> 
    <td>Displays the Resource Scheduler. Use this area to assign actual work to your resources. You must be designated as a Resource Manager for at least one project to display information in this area.<br>For information about using scheduling resources, see <a href="../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md" class="MCXref xref">Get started with Resource Scheduling</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Utilization</td> 
+   <td role="rowheader"><strong>Utilization</strong></td> 
    <td>Displays the Utilization Report. For information about how to read the Utilization Report, see <a href="../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Overview of the Resource Utilization report</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Resource Pools</td> 
-   <td>Displays all Resource Pools in Workfront. For information about Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.</td> 
+   <td role="rowheader"><strong>Resource Pools</strong></td> 
+   <td>Displays all Resource Pools in Workfront. For information about Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.</td>
   </tr> 
  </tbody> 
 </table>
@@ -264,4 +264,3 @@ To learn what sections are available for specific areas, see [Default sections i
    >[!NOTE]
    >
    >When you collapse the left panel, Workfront retains your preference even when you navigate to another Workfront object. To expand the left panel again, click the **Expand** icon ![](assets/left-panel-expand-icon.png).
-

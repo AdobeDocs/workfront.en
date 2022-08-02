@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: create-proofs-and-files
 title: Upload Files and Web Content to Workfront Proof
 description: You can upload files to Workfront Proof without creating a proof. You can also add URLs for websites and other web content to Workfront Proof.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
 ---
-
 # Upload Files and Web Content to Workfront Proof
 
 >[!IMPORTANT]
@@ -56,4 +57,3 @@ To upload a file to Workfront Proof:
    >&nbsp;Folders you add in Workfront Proof are part of the proofing system only; they are not part of the file folder system you access on your computer or on your company's servers.&nbsp;
 
 1. Click **Save**.&nbsp;
-

@@ -4,9 +4,10 @@ keywords: attach,apply
 navigation-topic: work-with-custom-forms
 title: Add a custom form to an object
 description: You can add an existing custom form to any of the objects listed below. A custom form contains custom fields where you can store information about the object.
+author: Alina
 feature: Get Started with Workfront
+exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
 ---
-
 # Add a custom form to an object
 
 You can add an existing custom form to any of the objects listed below. A custom form contains custom fields where you can store information about the object.
@@ -117,4 +118,3 @@ You can add custom forms to multiple objects by selecting them in a list.
 1. Click **Save Changes**.
 
    If the form contains any required fields (marked with a red asterisk), you don't have to complete them at this time.
-

@@ -3,9 +3,10 @@ product-area: user-management;portfolios
 navigation-topic: grant-and-request-access-to-objects
 title: Remove permissions from objects
 description: You can remove other users' permissions on objects that you have access to Share. Removing permissions from objects is identical for all objects that can be shared.
+author: Alina
 feature: Get Started with Workfront
+exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
 ---
-
 # Remove permissions from objects
 
 You can remove other users' permissions on objects that you have access to Share. Removing permissions from objects is identical for all objects that can be shared.&nbsp;
@@ -140,4 +141,3 @@ To make an object private:
 1. Click **Remove public access** to remove the access of external users to viewing the report.
 1. Click **Remove system-wide access** to stop sharing it with all Workfront users.&nbsp;
 1. Click **Save**.
-

@@ -3,9 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Categorize stories by color on the Scrum board
 description: The default color association of Scrum board stories differs depending on whether the story board is located on an iteration or on a project.
+author: Lisa
 feature: Agile
+exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
 ---
-
 # Categorize stories by color on the Scrum board
 
 ## Change the default color association of stories
@@ -59,4 +60,3 @@ If the agile team settings have been configured so the Associate Card Color to o
 1. Click **Change color**, then select the desired color.  
   
    ![](assets/agile-story-color2-nwe-350x138.png)
-

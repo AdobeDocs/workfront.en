@@ -3,9 +3,10 @@ product-area: workfront-integrations;projects
 navigation-topic: workfront-for-salesforce
 title: Create Adobe Workfront projects from Salesforce objects
 description: After installing Adobe Workfront for Salesforce, you can define triggers that create Workfront projects when certain criteria are met on Salesforce Opportunities and Accounts.
+author: Becky
 feature: Workfront Integrations and Apps
+exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
 ---
-
 # Create Adobe Workfront projects from Salesforce objects
 
 After installing Adobe Workfront for Salesforce, you can define triggers that create Workfront projects when certain criteria are met on Salesforce Opportunities and Accounts.
@@ -211,4 +212,3 @@ To view projects created from an Opportunity or Account:&nbsp;
    >[!NOTE]
    >
    >The Go to Salesforce link is visible to all Workfront users who can view the project. You must have a Salesforce account to be able to go to the Salesforce Opportunity or Account from where the project was generated.&nbsp;&nbsp;
-

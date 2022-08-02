@@ -3,10 +3,11 @@ content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
 title: Update work items and view updates
-description: This section contains the following articles - EDIT ME.
+description: Review these articles to learn how to work with updates in Adobe Workfront.
+author: Lisa and Alina
 feature: Get Started with Workfront
+exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
 ---
-
 # Update work items and view updates
 
 This section contains the following articles:
@@ -19,4 +20,3 @@ This section contains the following articles:
 * [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md) 
 * [View all updates in a Note report](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md) 
 * [Work On It and Done button overview](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-

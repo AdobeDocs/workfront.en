@@ -5,10 +5,11 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: groups-overview
 description: A Workfront administrator can create groups of users that coincide with your departmental structure. Groups are similar to but distinct from teams and companies. The Workfront administrator grants groups the access to the Workfront areas where they need to work and communicate. Each group can then keep their Workfront information such as users, templates, and custom forms, and projects separate from those of other departments. At least one group administrator is required for every group. Group administrators can use the Groups page to manage their groups in one place. You can create up to 14 levels of subgroups under one group.
-feature: "System Setup and Administration, People Teams and Groups"
+author: Caroline
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 1353ab04-7de7-4d30-a092-27807c950777
 ---
-
 # Groups overview
 
 A Workfront administrator can create groups of users that coincide with your departmental structure. Groups are similar to but distinct from teams and companies.
@@ -72,4 +73,3 @@ When you are creating or editing one of the following Workfront objects, you can
 * **Template**: You can assign a group to a project template. This can help you streamline the project creation process and to help you more easily identify and report on which groups own which project templates. For more information, see the section [Overview](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#overview) in the article [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 * **Recently deleted and restored items**: You can view and manage the groups recently deleted items. For more information, see [View and manage a group's recently deleted items](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) and [View and manage a group's recently restored items](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
-

@@ -4,9 +4,10 @@ keywords: publish,plans,projects,scenario,scenarios
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Update or create projects by publishing initiatives in the Scenario Planner
 description: Publishing a scenario from the Adobe Workfront Scenario Planner accomplishes the following - EDIT ME.
+author: Alina
 feature: Workfront Scenario Planner
+exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
 ---
-
 # Update or create projects by publishing initiatives in the Scenario Planner
 
 Publishing a scenario from the Adobe Workfront Scenario Planner accomplishes the following:

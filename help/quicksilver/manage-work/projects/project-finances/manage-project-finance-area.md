@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: financials
 title: Manage information in the project Finance area
 description: Manage information in the project Finance area
+author: Alina
 feature: Work Management
+exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
 ---
-
 # Manage information in the project Finance area
 
 <!--
@@ -201,4 +202,3 @@ To edit information on the Project Finance subtab:
    </table>
 
 1. Click **Save****Changes**.
-

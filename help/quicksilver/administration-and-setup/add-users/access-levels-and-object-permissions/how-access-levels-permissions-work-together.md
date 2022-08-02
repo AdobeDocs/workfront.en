@@ -6,10 +6,11 @@ product-area: system-administration
 keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
 description: The Adobe Workfront administrator determines what access level each user should have. That access level defines what users can see and do with object types and areas in the system.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
 ---
-
 # How access levels and permissions work together
 
 The Adobe Workfront administrator determines what access level each user should have. That access level defines what users can see and do with object types and areas in the system.
@@ -134,4 +135,3 @@ Tony's actions on the project can be further restricted on the project, but they
 
 * If Tony's access level doesn't allow him to create tasks, he can't add tasks to the project , even if Olivia gave him permissions to add tasks to it.
 * If Tony's access level does allow him to create tasks, but Olivia did not grant permissions to add tasks to the project, he can't add tasks to that project, but he can add tasks to other projects where he has been granted permissions to do so.
-

@@ -4,11 +4,12 @@ content-type: reference;overview
 product-area: system-administration
 navigation-topic: start-with-workfront-administration
 title: Defining objectives for your Adobe Workfront implementation
-description: When implementing Adobe Workfront, it is important to identify the principles of your success criteria. You may want to ask yourself the following questions - EDIT ME.
+description: When implementing Adobe Workfront, it is important to identify the principles of your success criteria. We recommend you start by documenting your current processes, organizational structure, and workflows, and then define your overall goals and objectives for how Workfront will fit in your organization.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
 ---
-
 # Defining objectives for your Adobe Workfront implementation
 
 When implementing Adobe Workfront, it is important to identify the principles of your success criteria. You may want to ask yourself the following questions:
@@ -18,7 +19,7 @@ When implementing Adobe Workfront, it is important to identify the principles of
 * How do you plan to use the software to improve your processes?
 * How would you know whether you are successful?
 
-There are a few factors to consider as you map your goals and identify the business processes you want to improve. We recommend you start by documenting your current processes, organizational structure, and workflows, and then define your overall goals and objectives for how Workfront will fit in your organization.&nbsp;
+There are a few factors to consider as you map your goals and identify the business processes you want to improve. We recommend you start by documenting your current processes, organizational structure, and workflows, and then define your overall goals and objectives for how Workfront will fit in your organization. 
 
 The following are examples of goals defined by a company and how they fit within Workfront. You may consider some of these as you gather your requirements:
 
@@ -61,7 +62,7 @@ You can achieve this in Workfront by configuring the following:
 
 You can achieve this in Workfront by configuring the following:
 
-* Develop a process for delivery of services and use Workfront to manage tasks associated with any daily or weekly responsibilities.&nbsp;
+* Develop a process for delivery of services and use Workfront to manage tasks associated with any daily or weekly responsibilities. 
 * Use Resource Management tools to view the allocation of resources to tasks so you can better understand how to improve productivity and quality of delivery.  
   For more information about Resource Planning, see [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 

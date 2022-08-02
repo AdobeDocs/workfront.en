@@ -3,9 +3,10 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
 title: Upload XD art boards as proofs to Workfront
 description: You can upload your art boards as proofs directly to Adobe Workfront for a thorough review and approval.
-feature: "Workfront Integrations and Apps, Digital Content and Documents"
+author: Courtney
+feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
 ---
-
 # Upload XD art boards as proofs to Workfront
 
 You can upload your art boards as proofs directly to Adobe Workfront for a thorough review and approval.
@@ -228,4 +229,3 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
 
 1. Click **Upload**.  
    The document appears in the Documents area in the plugin and the desktop app.
-

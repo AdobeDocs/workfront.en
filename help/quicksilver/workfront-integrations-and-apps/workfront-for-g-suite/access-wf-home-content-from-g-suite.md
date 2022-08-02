@@ -4,9 +4,10 @@ keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
 title: Access Adobe Workfront Home content from G Suite
 description: You can access your Adobe Workfront Home content, including all tasks, issues, approvals, and access requests assigned to you, without leaving G Suite.
+author: Becky
 feature: Workfront Integrations and Apps
+exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
 ---
-
 # Access Adobe Workfront Home content from G Suite
 
 You can access your Adobe Workfront Home content, including all tasks, issues, approvals, and access requests assigned to you, without leaving G Suite.
@@ -69,4 +70,3 @@ Before you can access Home content from G Suite, you must
    * **Access requests** display the requester's name, object name, and submission date. The icon for the object type displays on the left.
 
 1. Click anywhere on a work item to see its details, updates, and documents.
-

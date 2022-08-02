@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: use-predecessors
 title: Create a predecessor relationship on the task list
 description: You can use predecessor tasks (or just predecessors) to link tasks that depend on other tasks to start or complete. For example, you would not want to host a party (dependent task) before you send out the invitations (predecessor task).
+author: Alina
 feature: Work Management
+exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
 ---
-
 # Create a predecessor relationship on the task list
 
 You can use predecessor tasks (or just predecessors) to link tasks that depend on other tasks to start or complete. For example, you would not want to host a party (dependent task) before you send out the invitations (predecessor task).
@@ -88,4 +89,3 @@ You can quickly view details about the predecessor from the task list.
    **Due Date:** The date when the predecessor task is due.
 
    **Number of successors (right of details box):** The number of successor (or dependent) tasks for the predecessor being referenced. In the above example, the predecessor being referenced has 1 successor.
-

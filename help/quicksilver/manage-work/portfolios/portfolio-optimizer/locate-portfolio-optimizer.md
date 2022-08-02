@@ -3,9 +3,10 @@ product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
 title: Locate the Portfolio Optimizer
 description: You must have the following access to perform the steps in this article - EDIT ME.
-feature: "Work Management, Strategic Planning"
+author: Alina
+feature: Work Management, Strategic Planning
+exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
 ---
-
 # Locate the Portfolio Optimizer
 
 ## Access requirements
@@ -50,4 +51,3 @@ You must have the following access to perform the steps in this article:
    The Portfolio Optimizer displays.
 
    ![](assets/nwe-portfolio-optimizer-350x83.png)
-

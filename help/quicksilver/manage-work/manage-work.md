@@ -3,10 +3,11 @@ content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
 title: Manage work
-description: This section contains the following subsections - EDIT ME. 
+description: This section contains the following subsections - EDIT ME.
+author: Alina
 feature: Work Management
+exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
 ---
-
 # Manage work
 
 This section contains the following subsections:

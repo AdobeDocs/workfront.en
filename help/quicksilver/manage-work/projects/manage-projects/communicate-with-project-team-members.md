@@ -3,9 +3,10 @@ product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: Communicate with Project Team members
 description: You can easily communicate with the members of your project team through Adobe Workfront.
+author: Alina
 feature: Work Management
+exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
 ---
-
 # Communicate with Project Team members
 
 You can easily communicate with the members of your project team through Adobe Workfront.
@@ -92,4 +93,3 @@ You can send project updates to team members and to other users that might not b
 <li value="7"> <p>Click <strong>Send.</strong></p> <p>The update and the names of the users included in it display in the Updates tab of the project.</p> </li>
 </ol> </p>
 -->
-

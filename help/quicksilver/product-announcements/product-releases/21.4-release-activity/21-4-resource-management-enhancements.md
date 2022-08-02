@@ -1,8 +1,10 @@
 ---
 title: 21.4 Resource Management enhancements
 description: 21.4 Resource Management enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
 ---
 # 21.4 Resource Management enhancements
 
@@ -45,4 +47,4 @@ For more information, see [Manage filters in the Workload Balancer](../../../res
 >
 >With the filter updates, we have eliminated the **All work items** and **This project's work items** built-in filters in the Workload Balancer of a project.
 
-[Watch a video demonstration of this feature.](https://vimeo.com/600531468/314ff38a21) 
+[Watch a video demonstration of this feature.](https://vimeo.com/600531468/314ff38a21)

@@ -4,10 +4,11 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Delete or deactivate a custom form
 description: You can delete or deactivate a custom form from the system.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
 ---
-
 # Delete or deactivate a custom form
 
 You can delete or deactivate a custom form from the system.
@@ -30,7 +31,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -65,4 +66,3 @@ To deactivate a custom form:
 1. Click the **Form Settings** tab.
 1. Disable the **Is Active** option.
 1. Click **Save + Close**.
-

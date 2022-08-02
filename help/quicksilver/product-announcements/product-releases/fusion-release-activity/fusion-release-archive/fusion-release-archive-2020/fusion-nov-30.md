@@ -4,11 +4,13 @@ content-type: release-notes
 product-area: workfront-integrations
 keywords: fusion
 navigation-topic: fusion-release-activity
-title: "Workfront Fusion release activity: Week of November 30, 2020"
+title: 'Workfront Fusion release activity: Week of November 30, 2020'
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of November 30, 2020.
-feature: "Product Announcements, Workfront Fusion"
+author: Luke
+feature: Product Announcements, Workfront Fusion
+exl-id: 9621683b-735d-40a6-8d7c-b5bd167cbdd2
+hidefromtoc: yes
 ---
-
 # Workfront Fusion release activity:&nbsp;Week of November 30, 2020
 
 This page describes all enhancements made in Adobe Workfront Fusion the week of November 30, 2020.
@@ -70,4 +72,3 @@ For more information on the Workfront > Misc. Action module, see [Adobe Workfron
 <p>For information about available Microsoft Dynamics 365 modules, see <a href="../../../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md" class="MCXref xref" xrefformat="{para}">Microsoft Dynamics 365 modules</a>.</p>
 </div>
 -->
-

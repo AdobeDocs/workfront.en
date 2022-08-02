@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View and grouping: display project Actual Duration aggregated by the average in a Grouping"
+title: 'View and grouping: display project Actual Duration aggregated by the average in a Grouping'
 description: You can add the following column in a project report to show the Actual Duration aggregated as an average in a grouping.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 31794fe9-a04a-437d-8d2e-40e0cb6e6104
 ---
-
 # View and grouping: display project Actual Duration aggregated by the average in a Grouping
 
 You can add the following column in a project report to show the Actual Duration aggregated as an average in a grouping.
@@ -59,4 +60,3 @@ To add this column to a project view:
    <pre>aggregator.displayformat=compound <br>aggregator.function=AVG <br>aggregator.namekey=view.relatedcolumn <br>aggregator.namekeyargkey=actualduration <br>aggregator.valuefield=actualDurationMinutes <br>aggregator.valueformat=val <br>displayname=Project Actual Duration <br>durationunitfield=durationUnit.value <br>linkedname=project <br>namekey=actualduration <br>namekeyargkey=actualduration <br>querysort=actualDurationMinutes <br>textmode=true <br>valuefield=actualDurationMinutes <br>valueformat=compound#M:D <br>viewalias=actualduration</pre>
 
 1. Click **Save View**.
-

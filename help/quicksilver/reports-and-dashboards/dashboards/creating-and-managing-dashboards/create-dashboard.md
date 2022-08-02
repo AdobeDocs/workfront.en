@@ -3,9 +3,10 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Create a dashboard
 description: You can create dashboards to quickly access information in reports, calendars, and external pages.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
 ---
-
 # Create a dashboard
 
 You can create dashboards to quickly access information in reports, calendars, and external pages.
@@ -16,21 +17,18 @@ To learn more about dashboards, see [Get started with dashboards](../../../repor
 
 You must have the following:
 
-<table style="table-layout:auto"> 
- <caption style="text-align: left;">
-  *To find out what plan, license type, or access you have, contact your Workfront administrator.
- </caption> 
+<table style="table-layout:auto">
  <col> 
  </col> 
  <col> 
  </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
+   <td> <p><strong>Adobe Workfront plan*</strong></p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront license*</p> </td> 
+   <td> <p><strong>Adobe Workfront license*</strong></p> </td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
@@ -44,6 +42,8 @@ You must have the following:
  </tbody> 
 </table>
 
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
 ## Prerequisites
 
 You must create any of the following objects before you can add them to a dashboard:
@@ -56,10 +56,6 @@ You must create any of the following objects before you can add them to a dashbo
 
 ## Create a dashboard
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To see a video of this process, see [link to video below/in new tab/in Video gallery].</p>
--->
-
 1. Click the Main Menu icon ![](assets/main-menu-icon.png), then click **Dashboards.** 
 1. Click **New Dashboard**.  
    The New Dashboard dialog box displays.
@@ -71,11 +67,11 @@ You must create any of the following objects before you can add them to a dashbo
     <col>
     <tbody>
      <tr>
-      <td role="rowheader">Name</td>
+      <td role="rowheader"><strong>Name</strong></td>
       <td><p>This is the name of your dashboard.</p><p>If you do not specify a name, the name of the first report on the dashboard becomes the name of the dashboard, by default.</p></td>
      </tr>
      <tr>
-      <td role="rowheader">Description (Optional)</td>
+      <td role="rowheader"><strong>Description (Optional)</strong></td>
       <td>This is a description of your dashboard.</td>
      </tr>
     </tbody>
@@ -99,25 +95,10 @@ You must create any of the following objects before you can add them to a dashbo
    >
    >When searching for an item, the search returns any of the 2,000 most recently created reports. Report names that include unicode characters are not returned in search results. As a best practice, avoid including unicode characters when naming objects in Workfront by typing names rather than copying and pasting names from another source.
 
-   ![](assets/qs-new-dashboard-ui-350x143.png)
+   ![Search for reports](assets/qs-new-dashboard-ui-0722.png)
 
 1. (Optional) Click **Add External Page** to add an External Page to the dashboard.   
    For more information about creating external pages and embedding them into dashboards, see [Embed an external web page in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 1. Click **Save + Close**.  
    A timestamp is displayed in the upper-right corner of the dashboard. The timestamp includes the date, time, and time zone when the dashboard was last refreshed.
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Video walk-through</h2>
--->
-
-This video was recorded in [the new Workfront experience or Workfront Classic]. However, the content also applies to [the new Workfront experience or Workfront Classic].
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Add link to this video: <img src="assets/video-walk-through--350x197.png" style="width: 350;height: 197;"></p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more in-depth training on reports and dashboards, see [Learning Path for reports and dashboards].</p>
--->
-

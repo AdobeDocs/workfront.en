@@ -6,9 +6,10 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365 Excel modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft 365 Excel, as well as connect it to multiple third-party applications and services.
-feature: "Workfront Fusion, Digital Content and Documents"
+author: Becky
+feature: Workfront Fusion, Digital Content and Documents
+exl-id: 9aa3739d-6800-4eb1-a17f-32fdfd8ed0f2
 ---
-
 # Microsoft Office 365 Excel modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft 365 Excel, as well as connect it to multiple third-party applications and services.
@@ -696,4 +697,3 @@ This action module allows you to make a custom API call.
   </tr> 
  </tbody> 
 </table>
-

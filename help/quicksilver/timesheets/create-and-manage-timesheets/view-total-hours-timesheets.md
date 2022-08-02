@@ -3,9 +3,10 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: View total hours on the timesheet
 description: You can view the total number of hours on your timesheet. The total number of timesheet hours includes hours logged for projects, tasks, issues, and all general hours.
+author: Lisa
 feature: Timesheets
+exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
 ---
-
 # View total hours on the timesheet
 
 You can view the total number of hours on your timesheet. The total number of timesheet hours includes hours logged for projects, tasks, issues, and all general hours.
@@ -93,4 +94,3 @@ You can view a timesheet's Total Hours in the timesheet header.
    >[!TIP]
    >
    >When using the Standard view for a list of timesheets, the Total Hours column displays in red if the time logged for the items on the timesheet exceeds the number of hours in the timesheet's time frame.&nbsp;For more information, see the "Total Hours"&nbsp;field in [Glossary of Adobe Workfront terminology](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
-

@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Export the Business Case of a project
 description: You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format.
+author: Alina
 feature: Work Management
+exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
 ---
-
 # Export the Business Case of a project
 
 You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format.&nbsp;
@@ -51,4 +52,3 @@ You must have the following:
    ![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)
 
 1. (Optional) You can attach the PDF file to an email, or print it to share it with others.&nbsp;
-

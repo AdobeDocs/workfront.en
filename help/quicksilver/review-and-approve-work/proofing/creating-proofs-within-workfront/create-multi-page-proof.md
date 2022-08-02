@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Create a multi-page proof
 description: You can combine multiple files into a single multi-page proof. Reviewers can use the navigation tools in the proofing viewer to browse through the pages in a multi-page proof.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: a8ad80d8-0758-4fea-824e-8c206424e295
 ---
-
 # Create a multi-page proof
 
 You can combine multiple files into a single multi-page proof. Reviewers can use the navigation tools in the proofing viewer to browse through the pages in a multi-page proof.
@@ -79,4 +80,3 @@ Consider the following when combining files into a single proof:
 * The proof's thumbnail image is taken from the first page of the proof (see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)).
 * You can check the names of files that were combined to create the proof on the Proof details page. For more information, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 * If the option to&nbsp;download the original files is enabled on the proof, you can download all the files that have been combined in order to create the proof as a .zip file. For more information, see&nbsp; [Download Files Stored in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
-

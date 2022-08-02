@@ -4,9 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner
 description: Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner
+author: Alina
 feature: Resource Management
+exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
 ---
-
 # Overview of hours, FTE, and cost information in the Project and&nbsp;Role views of the Resource Planner
 
 <!--
@@ -482,6 +483,3 @@ When the Hours, FTE, or Cost Variance displays in red, you have estimated less B
 </tbody>
 </table>
 -->
-
-
-

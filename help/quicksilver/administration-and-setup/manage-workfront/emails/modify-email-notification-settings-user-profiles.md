@@ -5,10 +5,11 @@ keywords: modify,email,notification,settings,bulk,bulk-edit,configure,multiple,u
 navigation-topic: emails-administration
 title: Modify email notification settings in users' profiles
 description: If you are an Adobe Workfront administrator or you have a Planner access level allowing you to edit other users' settings, you can configure the notification settings for multiple users at one time. This includes specifying whether users receive notifications as events happen, or in one daily digest email, as described in Adobe Workfront notifications. For information about the access level needed to edit users, see Grant access to users.
+author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 658f97cd-0500-421d-9c89-26041ca59655
 ---
-
 # Modify email notification settings in users' profiles
 
 If you are an Adobe Workfront administrator or you have a Planner access level allowing you to edit other users' settings, you can configure the notification settings for multiple users at one time. This includes specifying whether users receive notifications as events happen, or in one daily digest email, as described in [Adobe Workfront notifications](../../../workfront-basics/using-notifications/wf-notifications.md). For information about the access level needed to edit users, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
@@ -27,11 +28,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,7 +42,7 @@ You must have the following access to perform the steps in this article:
 ## Modify the email notification settings of multiple users in bulk
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). Select the users, then click **Edit**. 
-1. In the**Edit Person** box that appears, click **Notifications**.
+1. In the **Edit Person** box that appears, click **Notifications**.
 
 1. Expand a category to view notification settings related to that category.
 
@@ -60,4 +61,3 @@ You must have the following access to perform the steps in this article:
    The daily digest includes events that meet the criteria of the notifications 24 hours prior to the selected time. Users receive one daily digest email for each notification type.
 
    The daily digest may arrive after the time you select, depending on how many emails are queued for delivery in the system. The time listed is your local time as specified in your browser settings.
-

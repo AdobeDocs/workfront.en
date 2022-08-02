@@ -1,8 +1,10 @@
 ---
 title: 20.4 Project management enhancements
 description: 20.4 Project management enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
 ---
 # 20.4 Project management enhancements
 
@@ -157,4 +159,4 @@ When discarding a saved draft, you can now click Cancel on the confirmation mess
 
 This feature is available only in the new Workfront experience. For information, see [Create and Submit Workfront requests](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FManage_work%2FRequests%2FCreate_Requests%2Fcreate-submit-requests.html).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/461469587/4c6a154ac4) 
+[Watch a video demonstration of this feature.](https://vimeo.com/461469587/4c6a154ac4)

@@ -3,9 +3,10 @@ product-area: workfront-integrations;setup
 navigation-topic: workfront-for-slack
 title: Configure Adobe Workfront for Slack
 description: Integrating Adobe Workfront with Slack allows you to access and create Workfront work items, approvals, favorites, recent items from Slack.
+author: Becky
 feature: Workfront Integrations and Apps
+exl-id: cac75a81-26e8-4713-a6be-453943b431ab
 ---
-
 # Configure Adobe Workfront for Slack
 
 Integrating Adobe Workfront with Slack allows you to do the following:
@@ -105,4 +106,3 @@ You can install the Workfront app directly from the Slack application:
 1. Click **Add to Slack**.
 1. Follow the steps to finish the installation.&nbsp;
 1. When the installation completes, you can access Workfront from Slack, as described in the [Access Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
-

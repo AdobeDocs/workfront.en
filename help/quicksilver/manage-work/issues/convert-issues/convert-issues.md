@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: convert-issues
 title: Overview of converting issues in Adobe Workfront
 description: If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project or to a task.
+author: Alina
 feature: Work Management
+exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
 ---
-
 # Overview of converting issues in Adobe Workfront
 
 If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project or to a task.
@@ -229,4 +230,3 @@ The following table illustrates which&nbsp;issue fields are visible from the con
 >[!CAUTION]
 >
 >If the Primary&nbsp;Contact of an issue changes or if the issue becomes unlinked from the project or task after the issue has been converted, the Converted Issue Originator Name does not update and it displays the original&nbsp;Primary&nbsp;Contact of the issue at the time the issue was converted.
-

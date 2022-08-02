@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: task-information
 title: Overview of task Original Duration and Original Planned Hours
 description: As part of planning a project, you should determine the values for the Planned Hours and for the Duration (or Planned Duration) of every task in the project.
+author: Alina
 feature: Work Management
+exl-id: 96d77d9f-3d5f-457e-a4ad-10edc371a991
 ---
-
 # Overview of task Original Duration and Original Planned Hours
 
 As part of planning a project, you should determine the values for the Planned Hours and for the Duration (or Planned Duration) of every task in the project.
@@ -52,4 +53,3 @@ When the first task becomes the parent of the second task, the Original Duration
 When the parent becomes a standalone task again, the Duration and Planned Hours revert back to the original values, while the Original Duration and the Original Planned Hours remain populated. They do not revert to zero.
 
 ![original_duration_and_planned_hours_after_reversal_of_a_parent.png](assets/original-duration-and-planned-hours-after-reversal-of-a-parent-350x39.png)
-

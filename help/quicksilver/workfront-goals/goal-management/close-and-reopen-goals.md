@@ -3,9 +3,10 @@ product-previous: workfront-goals
 navigation-topic: goal-management
 title: Close and reopen goals in Adobe Workfront Goals
 description: You can close a goal when you want to indicate the following - EDIT ME.
+author: Alina
 feature: Workfront Goals
+exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
 ---
-
 # Close and reopen goals in Adobe Workfront Goals
 
 You can close a goal when you want to indicate the following:
@@ -135,4 +136,3 @@ You can reopen closed goals if you decided that they have become relevant again 
    This reopens the goal in a status of Active. The progress of the goal is recalculated starting with the current date. 
 
 1. (Optional) Modify your filters again to display only active goals. The goals you opened display on the screen.
-

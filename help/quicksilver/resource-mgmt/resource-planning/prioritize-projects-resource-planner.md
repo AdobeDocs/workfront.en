@@ -3,9 +3,10 @@ product-area: resource-management;projects
 navigation-topic: resource-planning
 title: Prioritize projects in the Resource Planner
 description: Projects are listed in order of priority in the Resource Planner with the most important project at the top.
+author: Alina
 feature: Resource Management
+exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
 ---
-
 # Prioritize projects in the Resource Planner
 
 Projects are listed in order of priority in the Resource Planner with the most important project at the top.
@@ -142,4 +143,3 @@ We recommend updating the Budgeted Hours column for your users in the order of t
 >The user who budgets the hours first allocates that resource and reduces the number of Available Hours for that resource across the system. The amount of Available Hours should update for all the users as soon as the Budgeted Hours are saved for a resource in the Resource Planner.
 >
 >For more information about Available Hours, see [Availability and allocation of resources](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#availability-and-allocation-of-resources).
-

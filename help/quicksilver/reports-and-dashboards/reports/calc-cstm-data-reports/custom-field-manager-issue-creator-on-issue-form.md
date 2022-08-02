@@ -4,9 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: "Calculated custom field example: display the manager of an issue's creator on the issue custom form"
 description: Using a calculated custom field, you can display the name of the manager of an issue's creator on a custom form attached to the issue. Using the same statement, you can build similar calculated fields for projects, issues, and other objects.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
 ---
-
 # Calculated custom field example: display the manager of an issue's creator on the issue custom form
 
 Using a calculated custom field, you can display the name of the manager of an issue's creator on a custom form attached to the issue. Using the same statement, you can build similar calculated fields for projects, issues, and other objects.
@@ -68,4 +69,3 @@ The following steps show how you can create a calculated field for an issue cust
 1. Click **Done**, then **Save + Close**.
 
    The manager of the user who created the issue displays in the calculated field when the form that contains the field is attached to an issue.
-

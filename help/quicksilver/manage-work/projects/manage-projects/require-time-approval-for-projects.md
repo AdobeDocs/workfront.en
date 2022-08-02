@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: manage-projects
 title: Require time to be approved for a project
 description: Require time to be approved for a project
+author: Alina
 feature: Work Management
+exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
 ---
-
 # Require time to be approved for a project
 
 <!--
@@ -98,4 +99,3 @@ To approve or reject hours on a project:
 
 1. (Optional) Click **Reject** to reject the time entries on the project.  
    The status of the hours changes to **Rejected**.
-

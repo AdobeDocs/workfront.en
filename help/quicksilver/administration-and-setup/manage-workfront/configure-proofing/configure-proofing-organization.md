@@ -4,10 +4,11 @@ product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
 title: Configure proof settings for your organization
 description: As an Adobe Workfront administrator or Workfront Proof administrator, you can customize the default proof settings for your organization. These settings include default sharing options, branding, and more.
-feature: "System Setup and Administration, Digital Content and Documents"
+author: Courtney
+feature: System Setup and Administration, Digital Content and Documents
 role: Admin
+exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
 ---
-
 # Configure proof settings for your organization
 
 As an Adobe Workfront administrator or Workfront Proof administrator, you can customize the default proof settings for your organization. These settings include default sharing options, branding, and more.
@@ -51,11 +52,11 @@ You can configure actions for your organization in the following ways:
 
 1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof.  
 
-1. Click **Settings** >&nbsp;**Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
+1. Click **Settings** > **Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
 
 1. Do either of the following:
 
-   * To create a new action, in the **Actions** section, click&nbsp;**New action**.
+   * To create a new action, in the **Actions** section, click **New action**.
 
      There is no limit to the number of actions you can set up in your account.
    
@@ -68,7 +69,7 @@ You can configure actions for your organization in the following ways:
 
 1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof.  
 
-1. Click **Settings** >&nbsp;**Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
+1. Click **Settings** > **Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
 
 1. Click **Setup** next to the action you want to deactivate or reactivate.
 1. Select **Activate** or **Deactivate**, then click **Save**.
@@ -77,9 +78,9 @@ You can configure actions for your organization in the following ways:
 
 1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof.  
 
-1. Click **Settings** >&nbsp;**Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
+1. Click **Settings** > **Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
 
-1. Click the blue up and down arrows next to&nbsp;**Setup**&nbsp;to reorder the actions.
+1. Click the blue up and down arrows next to **Setup** to reorder the actions.
 
    ![Re-order_actions.png](assets/re-order-actions-350x103.png)
 
@@ -93,7 +94,7 @@ To add a custom device:
 
 1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof.  
 
-1. Click **Settings** >&nbsp;**Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
+1. Click **Settings** > **Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
 
 1. In the **Custom Devices for proofs** section, click **Add new device**.
 
@@ -105,7 +106,7 @@ To add a custom device:
     <tbody> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td>The name users see when selecting the device in the Desktop Proofing Viewer, as described in&nbsp;<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Change interactive proof resolution in the proofing viewer</a>.</td> 
+      <td>The name users see when selecting the device in the Desktop Proofing Viewer, as described in <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Change interactive proof resolution in the proofing viewer</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dimensions</td> 
@@ -121,7 +122,7 @@ To add a custom device:
      </tr> 
      <tr> 
       <td role="rowheader">User agent string</td> 
-      <td>Enter the user agent for the device to&nbsp;provide information that makes our software run and display as designed for the device.<p>You can obtain the user agent by going to&nbsp;<a href="https://www.whatismybrowser.com/detect/what-is-my-user-agent">https://www.whatismybrowser.com/detect/what-is-my-user-agent</a>&nbsp;from the device.</p></td> 
+      <td>Enter the user agent for the device to provide information that makes our software run and display as designed for the device.<p>You can obtain the user agent by going to <a href="https://www.whatismybrowser.com/detect/what-is-my-user-agent">https://www.whatismybrowser.com/detect/what-is-my-user-agent</a> from the device.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Disabled</td> 
@@ -147,7 +148,7 @@ To create pop-up messages for proofs:
 
 1. Click **Edit** to the right of the message you want to customize.
 1. Specify a message and include the appropriate formatting, then click **Save**.
-1. (Optional) If you customized the On load message and you want to also customize the confirmation button label, click&nbsp;**Edit** to the right of&nbsp;**Confirm button text**, specify a label, then click&nbsp;**Save**.&nbsp;
+1. (Optional) If you customized the On load message and you want to also customize the confirmation button label, click **Edit** to the right of **Confirm button text**, specify a label, then click **Save**. 
 
 ## Configure proof defaults
 
@@ -156,9 +157,9 @@ For information about configuring proof defaults for your organization, see [Con
 
 ## Configure sharing defaults
 
-You can specify who your organization's proofs can be shared with, what versions are available for reviewers, and&nbsp;when proofs with an Automated Workflow are visible to users who are associated with a given stage.
+You can specify who your organization's proofs can be shared with, what versions are available for reviewers, and when proofs with an Automated Workflow are visible to users who are associated with a given stage.
 
-For more detailed information about sharing settings within Workfront Proof, see [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).&nbsp;
+For more detailed information about sharing settings within Workfront Proof, see [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md). 
 
 ## Brand the Workfront Proof site
 
@@ -168,7 +169,7 @@ If you are using Workfront Proof, you can set up branding for the following area
 * Log in and Log out screens
 * Email notifications
 
-For detailed information about how to brand the Workfront Proof site, see&nbsp; [Brand the Workfront Proof site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+For detailed information about how to brand the Workfront Proof site, see  [Brand the Workfront Proof site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
 ## Configure advanced password settings
 
@@ -186,7 +187,7 @@ Under **Advanced password settings**, you can enhance password security for your
     <tbody> 
      <tr> 
       <td role="rowheader">Minimum password length</td> 
-      <td>The default Workfront Proof password length is six&nbsp;characters. You may want to increase the number, depending on your organization's policies.</td> 
+      <td>The default Workfront Proof password length is six characters. You may want to increase the number, depending on your organization's policies.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Character mix</strong> </td> 
@@ -210,7 +211,7 @@ Under **Advanced password settings**, you can enhance password security for your
      </tr> 
      <tr> 
       <td role="rowheader">Lock user if password not reset after 30 days</td> 
-      <td>If your user doesn't change their initial password within 30 days from their profile activation, they are locked out of the account.<br><p>Account Administrators can unlock (reactivate) users who get automatically locked by the system. This will give them additional seven&nbsp;days to change&nbsp;their password.</p></td> 
+      <td>If your user doesn't change their initial password within 30 days from their profile activation, they are locked out of the account.<br><p>Account Administrators can unlock (reactivate) users who get automatically locked by the system. This will give them additional seven days to change their password.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lock user account if inactive for 120 days</td> 
@@ -222,4 +223,3 @@ Under **Advanced password settings**, you can enhance password security for your
      </tr> 
     </tbody> 
    </table>
-

@@ -4,18 +4,16 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: Administration and setup
-description: This section contains the following subsections - EDIT ME.
+description: Find the information you need to manage the Workfront system in this section.
 feature: System Setup and Administration
 role: Admin
+exl-id: f80bb267-be96-41d4-98c5-398bde66499e
 ---
-
 # Administration and setup
 
 This section contains the following subsections:
 
-* [Get started with Adobe Workfront administration](../administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md) 
-* [Opt in to the new Adobe Workfront experience](../administration-and-setup/the-new-workfront-experience/opt-in-to-the-new-workfront-experience.md)
-
+* [Get started with Adobe Workfront administration](../administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md" class="MCXref xref" xrefformat="{para}">Workfront administration in the Adobe Admin Console</a> </li>
   -->
@@ -29,4 +27,3 @@ This section contains the following subsections:
 * [Blueprints](../administration-and-setup/blueprints/blueprints.md) 
 * [Administrator FAQs](../administration-and-setup/administrator-faqs/adminstrator-faqs.md) 
 * [Tips, tricks, and troubleshooting for administration and setup](../administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
-

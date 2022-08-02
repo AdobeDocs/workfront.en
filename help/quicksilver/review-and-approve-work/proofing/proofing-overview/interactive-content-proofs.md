@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: proofing-overview
 title: Interactive content proofs overview
 description: Interactive content provides multiple methods of engaging viewers. Agencies can measure the success of their campaigns using analytics gathered from responses to this content.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
 ---
-
 # Interactive content proofs overview
 
 Interactive content provides multiple methods of engaging viewers. Agencies can measure the success of their campaigns using analytics gathered from responses to this content.

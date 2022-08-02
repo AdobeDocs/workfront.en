@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Manage Folders in Workfront Proof
 description: All of your folders are allocated in the left navigation sidebar on in the Folders tab. If a user from a different Workfront Proof account shares a folder with you (or shares proofs that are in a folder), the folder is also listed on the Folders tab.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: ddc8d388-d161-4c70-8e7b-16c16b6ac3d7
 ---
-
 # Manage Folders in Workfront Proof
 
 >[!IMPORTANT]
@@ -121,4 +122,3 @@ You can delete a folder from the following locations:
 
 1. Click the **Delete**&nbsp;(trash can) icon at the top of the page.&nbsp;
 1. Click **OK** to confirm the deletion.
-

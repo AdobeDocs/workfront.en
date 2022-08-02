@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Share an issue
 description: Your Adobe Workfront administrator grants users access to view or edit issues when they assign access levels. For more information about granting access to issues, see Grant access to issues.
+author: Alina
 feature: Get Started with Workfront
+exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
 ---
-
 # Share an issue
 
 Your Adobe Workfront administrator grants users access to view or edit issues when they assign access levels. For more information about granting access to issues, see [Grant access to issues](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).

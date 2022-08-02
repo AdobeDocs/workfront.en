@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: manage-documents
 title: Check out documents
 description: You can check out a document to prevent other users from deleting it or uploading a new version of it. Only one user can check out a document at a time. You can check out any document uploaded to Adobe Workfront as well as documents linked to third-party document providers (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint, or any other custom provider).
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
 ---
-
 # Check out documents
 
 You can check out&nbsp;a document to prevent other users from deleting it or uploading a new version of it. Only one user can check out a document at a time.&nbsp;You can check out any document uploaded to Adobe Workfront as well as documents linked to third-party document providers (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint, or any other custom provider).&nbsp;
@@ -95,4 +96,3 @@ To check in a document:
    A lock icon ![](assets/lock-icon-locked-qs.png) displays to the right of the document name.
 
 1. Click the **Check In** icon ![](assets/check-in-25x22.png).
-

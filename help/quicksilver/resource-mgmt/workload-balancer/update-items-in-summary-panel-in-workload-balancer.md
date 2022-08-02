@@ -3,9 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Update work items in the Workload Balancer using the Summary
 description: Update work items in the Workload Balancer using the Summary
+author: Alina
 feature: Resource Management
+exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
 ---
-
 # Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience
 
 <!--
@@ -91,8 +92,7 @@ You must have the following:
    >
    >Navigating from the Summary to the Substasks section to add subtasks removes the original task, because parent tasks do not display in the Workload Balancer.
 
-   For more information about updating information using the Summary, see [Summary overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   For more information about updating information using the Summary, see [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 1. (Conditional) If you opened any of the sections of the work item, click your browser's **Back button** to return to the Workload Balancer.
 1. Click the **Close icon** ![](assets/close-icon.png) in the upper-right corner of the Summary, to close it.
-

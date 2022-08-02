@@ -3,9 +3,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Export information from the Resource Planner
 description: You can export information from any view of the Resource Planner to an Excel (.xlsx) file which is saved on your computer.
+author: Alina
 feature: Resource Management
+exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
 ---
-
 # Export information from the Resource Planner
 
 You can export information from any view of the Resource Planner to an Excel (.xlsx) file which is saved on your computer.
@@ -116,4 +117,3 @@ You must have the following:
    This takes you back to Workfront where you can download the file.   
    You must be logged into Workfront for the download to complete.  
    If you do not download the file when it is delivered, the Download link remains active for 7 days after you initiate the export.
-

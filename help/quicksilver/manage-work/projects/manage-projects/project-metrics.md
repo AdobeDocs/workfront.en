@@ -5,17 +5,15 @@ keywords: analytics,metrics,project,enhanced,tasks,assignee,complete,status,over
 navigation-topic: manage-projects
 title: Overview of project metrics
 description: To access the Metrics area from the left panel of a project, you must - EDIT ME.
+author: Alina
 feature: Work Management
+exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
 ---
-
 # Overview of project metrics
 
 >[!NOTE]
 >
 >To access the Metrics area from the left panel of a project, you must:
->
->* Be enrolled in the new Adobe Workfront experience.  
->  To learn how an Adobe Workfront administrator or group administrator can enroll you in the new Adobe Workfront experience, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
 >
 >* Have View access to a project.  
 >  To learn how to request access to an object, see [Request access to objects](../../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
@@ -162,4 +160,3 @@ You can interact with the charts in the Metrics area to look at different aspect
    >[!TIP]
    >
    >When you export the dashboard, the exported file includes only what currently displays in your viewport. To include certain things in the exported file, you may need to scroll up or down on the page or adjust your browser's zoom settings.
-

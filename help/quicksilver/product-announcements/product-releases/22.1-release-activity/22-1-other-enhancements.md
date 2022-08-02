@@ -1,8 +1,10 @@
 ---
 title: 22.1 Other enhancements
 description: 22.1 Other enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 761ad16f-0c6e-48c7-a3d3-49ebfa1694e5
 ---
 # 22.1 Other enhancements
 
@@ -70,8 +72,6 @@ For more information, see the following articles:
 A more modern and intuitive toolbar makes it easier to manage users in a Users list. The toolbar buttons let you quickly add people to Workfront, remind them to register, and manage their profiles. You can also export a Users list.
 
 For more information about these actions, see [Create and manage users](../../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md).
-
-For information about the new toolbar in lists throughout Workfront, see [Toolbar for lists in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md).
 
 ## Updated Help menu
 

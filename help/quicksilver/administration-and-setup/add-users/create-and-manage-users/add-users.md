@@ -3,11 +3,12 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Add users
-description: The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+description: As a Workfront administrator or a user with full administrative access, you can add users in Workfront.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
 ---
-
 # Add users
 
 >[!IMPORTANT]
@@ -41,11 +42,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

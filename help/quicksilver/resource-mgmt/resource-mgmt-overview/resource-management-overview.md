@@ -4,9 +4,10 @@ product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Resource Management
 description: Resource Management allows resource managers to make business decisions that ensure the individual workers available today are budgeted against the highest priority work. While it may begin at the job role level, eventually Resource Management is concerned with users and their under-utilization or over-commitment.
+author: Alina
 feature: Resource Management
+exl-id: 137787c9-82f6-4b18-a427-720589221a7c
 ---
-
 # Resource Management
 
 Resource Management allows resource managers to make business decisions that ensure the individual workers available today are budgeted against the highest priority work. While it may begin at the job role level, eventually Resource Management is concerned with users and their under-utilization or over-commitment.
@@ -29,4 +30,3 @@ This section contains the following articles:
 
 <!--* [Migrate from Resource Scheduling to the Workload Balancer](../../resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md) -->
 * [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-

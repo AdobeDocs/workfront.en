@@ -5,9 +5,10 @@ product-area: documents
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof
 description: This section contains the following subsections - EDIT ME.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
 ---
-
 # Workfront Proof
 
 >[!IMPORTANT]
@@ -26,4 +27,3 @@ This section contains the following subsections:
 * [Workfront Proof mobile](../workfront-proof/wp-mobile/wp-mobile.md) 
 * [Workfront Proof tech corner](../workfront-proof/wp-tech-corner/tech-corner.md) 
 * [Workfront Proof integrations](../workfront-proof/wp-integrations/wp-integrations.md)
-

@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: manage-documents
 title: Preview documents
 description: You can preview a document from the Documents area. This is especially useful for images.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
 ---
-
 # Preview documents
 
 You can preview a&nbsp;document from the Documents area. This is especially useful for images.
@@ -48,4 +49,3 @@ You must have the following:
 
    * If you have not prepared the document for review, it displays in a new browser tab.
    * If you have prepared the document for review, the proofing viewer opens to display it.
-

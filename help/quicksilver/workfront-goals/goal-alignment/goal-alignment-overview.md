@@ -4,9 +4,10 @@ product-previous: workfront-goals
 navigation-topic: goal-alignment
 title: Goal alignment overview in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+author: Alina
 feature: Workfront Goals
+exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
 ---
-
 # Goal alignment overview in Adobe Workfront Goals
 
 Your organization must have the following to use the functionality described in this article:
@@ -73,4 +74,3 @@ After aligning goals they are part of the same hierarchy and are visible in vari
    * Pulse section
 
 * You can view all the parent goals of a goal in the Goal Hierarchy field of a Project or Goal report.
-

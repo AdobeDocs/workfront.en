@@ -2,11 +2,12 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint overview: Start No Earlier Than"
+title: 'Task Constraint overview: Start No Earlier Than'
 description: Use the Start No Earlier Than (SNET) Task Constraint to schedule a task to start after the date you specify.
+author: Alina
 feature: Work Management
+exl-id: 857859fb-87ee-4397-b292-239ed9dc8281
 ---
-
 # Task Constraint overview: Start No Earlier Than
 
 Use the Start No Earlier Than (SNET) Task Constraint to schedule a task to start after the date you specify.
@@ -53,4 +54,3 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 </ol>
 </div>
 -->
-

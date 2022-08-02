@@ -5,9 +5,10 @@ keywords: disable,public,sharing,proof,public,url
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: Disable sharing proof via public URL or embed code
 description: You can turn off the ability to share a proof with a public URL or embed code on a proof by proof basis or for individual users.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 73f08e12-f70d-4347-8a5b-441f94d24590
 ---
-
 # Disable sharing proof via public URL or embed code
 
 You can turn off the ability to share a proof with a public URL or embed code on a proof by proof basis or for individual users.
@@ -59,4 +60,3 @@ You can disable the Public proof setting for individual users in your Workfront 
 1. In the **Default proof settings** section, disable the **Public Sharing** checkbox.
 
    ![](assets/default-proof-settings--public-sharing-350x210.png)
-

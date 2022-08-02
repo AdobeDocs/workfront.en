@@ -3,9 +3,10 @@ product-area: workfront-integrations;setup
 navigation-topic: workfront-for-microsoft-teams
 title: Install Adobe Workfront for Microsoft Teams
 description: The Adobe Workfront for Microsoft Teams app allows you to perform basic actions in Workfront without leaving your Microsoft Teams chat channels.
+author: Becky
 feature: Workfront Integrations and Apps
+exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
 ---
-
 # Install Adobe Workfront for Microsoft Teams
 
 The Adobe Workfront for Microsoft Teams app allows you to perform basic actions in Workfront without leaving your Microsoft Teams chat channels.
@@ -152,4 +153,3 @@ To log in to Workfront from Microsoft Teams:
 1. Close the browser tab you used to log in and return to Microsoft Teams.
 
    A notification displays in the Workfront bot chat channel to confirm that you logged in to Workfront successfully.
-

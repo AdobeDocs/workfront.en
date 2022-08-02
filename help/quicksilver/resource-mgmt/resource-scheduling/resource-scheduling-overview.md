@@ -4,9 +4,10 @@ product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Resource Scheduling
 description: Resource Scheduling
+author: Alina
 feature: Resource Management
+exl-id: e09363dc-ddaf-4595-9abd-cd721512442b
 ---
-
 # Resource Scheduling
 
 <!--
@@ -35,4 +36,3 @@ This section contains the following articles:
 * [Modify multiple users assignments to tasks in the Scheduling areas](../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md) 
 * [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) 
 * [Configure how Workfront calculates resource hour and FTE availability for the Scheduling area](../../resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md)
-

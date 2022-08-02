@@ -3,9 +3,10 @@ product-area: documents;setup
 navigation-topic: review-a-proof
 title: Configure proofing viewer settings
 description: You can configure the following settings for both the Web Proofing Viewer and the Desktop Proofing Viewer - EDIT ME.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
 ---
-
 # Configure proofing viewer settings
 
 You can configure the following settings for both the Web Proofing Viewer and the Desktop Proofing Viewer:
@@ -166,4 +167,3 @@ To configure proofing viewer settings:
      The data that is cleared includes the HTTP cache (such as images to be reused after the next page refresh) and the web storage data cache (such as cookies and data that identifies users).
 
      This setting affects only the proof you have open.
-

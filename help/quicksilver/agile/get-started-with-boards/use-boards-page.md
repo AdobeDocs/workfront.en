@@ -3,9 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Use the boards dashboard
 description: The boards dashboard shows the list of boards that you have access to, including boards you have created and boards that you have been added to.
+author: Lisa
 feature: Agile
+exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
 ---
-
 # Use the boards dashboard
 
 The boards dashboard shows the list of boards that you have access to, including boards you have created and boards that you have been added to.
@@ -72,4 +73,3 @@ When you delete a board, it is permanently removed from Workfront and can't be r
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
 1. Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the board, and select **Delete**.
 1. Click **Delete board** on the confirmation message.
-

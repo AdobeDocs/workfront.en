@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Review a proof simultaneously with multiple reviewers
 description: Multiple reviewers can review a proof at the same time. When you are reviewing a proof, you can see who else is currently reviewing the same proof.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 4f55af53-0ca8-4f50-b539-b93d13655f0c
 ---
-
 # Review a proof simultaneously with multiple reviewers
 
 >[!IMPORTANT]
@@ -26,4 +27,3 @@ You can see presence indicators when other reviewers have the same proof open, w
 1. (Optional) Mouse over a presence indicator to view the name of the user.
 
    ![](assets/proof-presence.png)
-

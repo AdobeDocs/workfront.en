@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Create proofs
 description: This section contains the following articles - EDIT ME.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: c8cdde5a-75c3-48ae-ad22-0ee4fed591fc
 ---
-
 # Create proofs
 
 This section contains the following articles:
@@ -19,4 +20,3 @@ This section contains the following articles:
 * [Create a proof for interactive content in a ZIP file](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md) 
 * [Create a static proof for a website or other web content](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) 
 * [Create a proof for a document](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
-

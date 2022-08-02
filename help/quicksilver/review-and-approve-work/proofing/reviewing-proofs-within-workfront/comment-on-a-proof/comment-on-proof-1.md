@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: comment-on-a-proof
 title: Comment on a proof
 description: Comments enable you to provide feedback on content and collaborate with other users in the proofing viewer.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
 ---
-
 # Comment on a proof
 
 Comments enable you&nbsp;to provide feedback on content and collaborate with other users in the proofing viewer.
@@ -122,4 +123,3 @@ You must have the following access to perform the steps in this article:
    * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
 
 1. Click **Post**.
-

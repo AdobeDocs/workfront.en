@@ -3,9 +3,10 @@ product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Manage the Project Team
 description: Manage the Project Team
+author: Alina
 feature: Work Management
+exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
 ---
-
 # Manage the Project Team
 
 <!--

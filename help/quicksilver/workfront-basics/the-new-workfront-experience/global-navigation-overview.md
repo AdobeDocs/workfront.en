@@ -1,16 +1,15 @@
 ---
 content-type: overview
-navigation-topic: the-new-workfront-experience
-title: Top navigation bar overview in the new Adobe Workfront experience
+title: Top navigation bar overview
 description: The top navigation bar—which appears at the top of your screen in the new Adobe Workfront experience—allows you to easily find and navigate to other areas of the platform.
 feature: Get Started with Workfront
+exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
 ---
+# Top navigation bar overview
 
-# Top navigation bar overview in the new Adobe Workfront experience
+The top navigation bar—which appears at the top of your screen in Adobe Workfront allows you to easily find and navigate to other areas of the platform.
 
-The top navigation bar—which appears at the top of your screen in the new Adobe Workfront experience—allows you to easily find and navigate to other areas of the platform.
-
-![Top navigation bar](assets/global-navigation-bar-350x15.png)
+![Top navigation bar](assets/global-navigation-bar.png)
 
 ## Home icon
 
@@ -20,11 +19,11 @@ An Adobe Workfront administrator can customize the Home icon to match your compa
 
 ## Pinned pages
 
-You can pin pages that you visit frequently so that they display within the top navigation bar. To learn more about pinned pages, see [Pin pages to customize your workspace in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/pin-pages.md).
+You can pin pages that you visit frequently so that they display within the top navigation bar. To learn more about pinned pages, see [Pin pages to customize your workspace](../../workfront-basics/the-new-workfront-experience/pin-pages.md).
 
 ## Help menu
 
-The **Help** menu allows you to search for help with a specific task, find more information on using the new Adobe Workfront experience, view content related to the page you are currently on, or submit feedback about your experience.
+The **Help** menu allows you to search for help with a specific task, find more information on using Workfront, view content related to the page you are currently on, or submit feedback about your experience.
 
 To learn more about the Help menu, see [Access Adobe Workfront help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
@@ -117,16 +116,10 @@ Below these options in the Main Menu, you can access:
    <td> <p class="bold">Help</p> </td> 
    <td> <p>Clicking <b>Help</b> takes you to Adobe Workfront One where you can access help articles, find training, submit a customer support ticket, and so on.</p> <p>For more information on Workfront One or other methods of getting help, see <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Your quick guide to finding help in Adobe Workfront</a>.</p> </td> 
   </tr> 
-  <tr> 
-   <td> <p class="bold">Switch to Classic</p> <!--
-     <p class="bold" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span style="font-weight: normal;">(NOTE: Move this and update name when Blueprints is in Prod.)</span> </p>
-    --> </td> 
-   <td> <p>Clicking <b>Switch to Classic</b>—which is only available for&nbsp;Adobe Workfront administrators and group administrators—takes you to the Adobe Workfront Classic environment.</p> <p>For more information on switching to Adobe Workfront Classic, see the section "Switch your admin account to Adobe Workfront Classic" in <a href="../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md" class="MCXref xref">Enroll users in the new Adobe Workfront experience</a>.</p> </td> 
-  </tr> 
+  
   <tr> 
    <td> <p class="bold">Logout</p> </td> 
    <td>Clicking <b>Logout</b> logs you out of Workfront.</td> 
   </tr> 
  </tbody> 
 </table>
-

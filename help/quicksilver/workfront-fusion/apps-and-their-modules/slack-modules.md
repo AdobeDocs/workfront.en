@@ -6,9 +6,10 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Slack modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Slack, as well as connect it to multiple third-party applications and services.
+author: Becky
 feature: Workfront Fusion
+exl-id: ba5bad6a-3cb3-4024-82f7-d38ee9a8e0b5
 ---
-
 # Slack modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Slack, as well as connect it to multiple third-party applications and services.
@@ -1499,4 +1500,3 @@ The following terminology may be useful when configuring Slack modules:
 * **Private Channel**: formerly Group
 * **Direct Message**: formerly IM
 * **Channel**: Conversation in the API documentation, channel in the Slack app.
-

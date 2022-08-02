@@ -3,9 +3,10 @@ product-area: templates
 navigation-topic: templates-navigation-topic
 title: Share project templates
 description: You can share a template with users, or you can define how the projects that are created from a template will be shared with users by using the following sharing options at the template level.
+author: Alina
 feature: Work Management
+exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
 ---
-
 # Share project templates
 
 You can share a template with users, or you can define how the projects that are created from a template will be shared with users by using the following sharing options at the template level.
@@ -158,4 +159,3 @@ You can share multiple templates as well as projects from multiple templates at 
 
    * [Share a template](#share-a-template) 
    * [Share a project from a template](#share-a-project-from-a-template)
-

@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: use-predecessors
 title: Enforce predecessors
 description: Predecessors are tasks on which other tasks are dependent for completion. Predecessor relationships affect the Start and Completion Dates of the tasks and ultimately impact the timeline of the project.
+author: Alina
 feature: Work Management
+exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
 ---
-
 # Enforce predecessors
 
 Predecessors are tasks on which other tasks are dependent for completion. Predecessor relationships affect the Start and Completion Dates of the tasks and ultimately impact the timeline of the project.
@@ -79,4 +80,3 @@ You must have the following access to perform the steps in this article:
 1. Click Enter to save your predecessor information for the task.
 
    ![predecessor_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
-

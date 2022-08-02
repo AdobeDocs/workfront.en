@@ -3,9 +3,10 @@ product-area: resource-management;setup
 navigation-topic: resource-scheduling
 title: Configure settings in the Scheduling areas
 description: We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources.
+author: Alina
 feature: Resource Management
+exl-id: d76b59c0-d0fd-4698-8017-fa0778f61dc7
 ---
-
 # Configure settings in the Scheduling areas
 
 >[!NOTE]
@@ -274,4 +275,3 @@ To configure whether all tasks assigned to each user (not just the tasks associa
    ![RS_project_scheduling_area__1_.png](assets/rs-project-scheduling-area--1--350x340.png)
 
 1. Click **Return to Scheduling**.
-

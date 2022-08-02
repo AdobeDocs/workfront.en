@@ -5,9 +5,10 @@ product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
 title: Workfront Proof - frequently asked questions
 description: This section contains the following articles - EDIT ME.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: e2bbb311-b56a-46aa-8595-420482fa4ed8
 ---
-
 # Workfront Proof - frequently asked questions
 
 >[!IMPORTANT]
@@ -26,4 +27,3 @@ This section contains the following articles:
   -->
 
 * [Setting time zones in Workfront Proof](../../../workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
-

@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: create-tasks
 title: Create tasks in a project
 description: You can create tasks in a project only after you created the project.
+author: Alina
 feature: Work Management
+exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 ---
-
 # Create tasks in a project
 
 You can create tasks in a project only after you created the project.
@@ -138,4 +139,3 @@ You must have the following access to perform the steps in this article:
          * Click **Undo** at any time to reverse your last change, or **Cancel** to reverse all the changes you made to the task list. 
          * If you previously clicked **Undo**, click **Redo** to re-apply the last change you canceled.
          * Click **Save** to save your changes to the task list.
-

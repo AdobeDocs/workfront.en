@@ -3,9 +3,10 @@ title: Recalculate project finances
 product-area: projects
 navigation-topic: financials
 description: Finances are calculated on a project as changes occur in the hours logged for the project or in the rates used to calculate costs and revenue.
+author: Alina
 feature: Work Management
+exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
 ---
-
 # Recalculate project finances
 
 Finances are calculated on a project as changes occur in the hours logged for the project or in the rates used to calculate costs and revenue.
@@ -187,4 +188,4 @@ The following actions trigger the financial recalculation of projects in Workfro
 >
 >When you change the project status, only the planned values are being recalculated.
 
-You can also recalculate finances manually under the **More** menu ![](assets/qs-more-menu.png) at the project level, by clicking **Recalculate Finances**. 
+You can also recalculate finances manually under the **More** menu ![](assets/qs-more-menu.png) at the project level, by clicking **Recalculate Finances**.

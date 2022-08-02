@@ -3,9 +3,10 @@ product-previous: workfront-goals
 navigation-topic: goal-management
 title: Copy goals in Adobe Workfront Goals
 description: You can copy goals in Adobe Workfront Goals to create a goal. Some of the original goal information transfers to the new goal.
+author: Alina
 feature: Workfront Goals
+exl-id: 690a6030-ee29-4e50-869f-cd014050b364
 ---
-
 # Copy goals in Adobe Workfront Goals
 
 You can copy goals in&nbsp;Adobe Workfront Goals to create a goal. Some of the original goal information transfers to the new goal.
@@ -146,4 +147,3 @@ Consider the following when copying goals:
    1. Go to the original goal in the Goal List, Check-in page, or Pulse section and comment on the goal, to indicate that this goal was copied to another, more current goal. For information about commenting on a goal, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
    1. Close the original goal, to preserve the progress in its original time period. For information about closing goals, see [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md). 
    1. Update the the **Initial** value of the new Result to match the **End At** value of the previous result, so that your new goal progress will start calculating from the point you achieved in the previous period.
-

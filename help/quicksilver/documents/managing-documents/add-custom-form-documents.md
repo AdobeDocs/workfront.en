@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: manage-documents
 title: Add or edit a custom form to a document
 description: You can add a custom form to a document or to a document version to capture additional information or metadata specific to your assets.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 ---
-
 # Add or edit a custom form to a document
 
 You can add a custom form to a document or to a document version to capture additional information or metadata specific to your assets.
@@ -67,4 +68,3 @@ To add a custom form to a document:
 1. Make the needed changes, then click **Save**.
 
    ![](assets/edit-custom-form-350x265.png)
-

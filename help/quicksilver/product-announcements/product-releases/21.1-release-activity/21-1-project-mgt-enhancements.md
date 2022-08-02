@@ -4,9 +4,10 @@ keywords: notes,quarterly,update
 navigation-topic: product-releases
 title: 21.1 Project Management enhancements
 description: This page describes all Project Management enhancements made with the 21.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
+author: Luke
 feature: Product Announcements
+exl-id: 95e75a28-5ac2-4d1d-acc3-dbc0b295b28f
 ---
-
 # 21.1 Project Management enhancements
 
 This page describes all Project Management enhancements made with the 21.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.

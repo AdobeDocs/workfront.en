@@ -1,9 +1,9 @@
 ---
-user-guide-title: Workfront
-user-guide-description: Workfront
+user-guide-title: Workfront Guide
+user-guide-description: Use the docs, tutorials, and additional resources to learn how to implement and effectively use Adobe Workfront in your organization.
 feature-set: Workfront
 ---
-# Workfront {#using}
+# Workfront Guide {#using}
 
 * [Workfront documentation](home.md)
 * Product announcements {#product-announcements}
@@ -11,13 +11,19 @@ feature-set: Workfront
   * Product releases {#product-releases}
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
+    * 22.4 Release {#release-22-4}
+      * [22.4 Release overview](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
+      * [22.4 Release activity: Week of July 18, 2022](product-announcements/product-releases/22.4-release-activity/22-4-july-18.md)
+      * [22.4 Look and feel updates](product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md)
     * 22.3 Release {#release-22-3}
       * [22.3 Release overview](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
-      * [22.3 release activity: Week of May 23, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-23.md)
-      * [22.3 release activity: Week of May 16, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-16.md)
-      * [22.3 release activity: Week of May 2, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-2.md)
-      * [22.3 release activity: Week of April 18, 2022](product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md)
-      * [22.3 release activity: Week of April 11, 2022](product-announcements/product-releases/22.3-release-activity/22-3-apr-11.md)
+      * [22.3 Administrator enhancements](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
+      * [22.3 Integration enhancements](product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md)
+      * [22.3 Mobile enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
+      * [22.3 Other enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
+      * [22.3 Project enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
+      * [22.3 Resource Management enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
+      * [22.3 Reporting enhancements ](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
       * [Look and feel updates during the 22.3 release timeframe](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
     * 22.2 Release {#release-22-2}
       * [22.2 Release overview](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
@@ -273,7 +279,6 @@ feature-set: Workfront
     * [Announcements](product-announcements/announcements/announcements.md)
     * [Learn about the latest improvements in Adobe Workfront One](product-announcements/announcements/latest-improvements-wfone.md)
     * [Custom form enhancements](product-announcements/announcements/custom-form-enhancements.md)
-    * [View documentation resources for the new Adobe Workfront experience](product-announcements/announcements/view-nwe-documentation.md)
     * [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
     * [Remove custom SMTP as an outgoing email option](product-announcements/announcements/remove-custom-smtp.md)
     * [Customers on Clusters 1, 2, and 3 must update any allowlist IP blocks to prevent the blocking of Adobe Workfront services](product-announcements/announcements/clusters-1-3-update-whitelist.md)
@@ -289,8 +294,10 @@ feature-set: Workfront
     * [Outlook 365 Add-In Is Now Available](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
   * Beta programs {#beta}
     * [Beta programs](product-announcements/betas/betas.md)
-    * [Reporting Canvas beta](product-announcements/betas/reporting-canvas-beta.md)
-    * [Reporting Canvas beta: known issues](product-announcements/betas/reporting-canvas-known-issues.md)
+    * Reporting Canvas beta {#reporting-canvas-beta}
+      * [Reporting Canvas beta overview](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
+      * [Reporting Canvas beta: known issues](product-announcements/betas/reporting-canvas-beta/reporting-canvas-known-issues.md)
+      * [Reporting Canvas beta: release activity](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
     * [Campaigns beta](product-announcements/betas/campaign-object-beta.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup](administration-and-setup/administration-and-setup.md)
@@ -353,7 +360,6 @@ feature-set: Workfront
       * [Manage users](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
       * [Add users](administration-and-setup/add-users/create-and-manage-users/add-users.md)
       * [Import users](administration-and-setup/add-users/create-and-manage-users/import-users.md)
-      * [Enroll users in new Workfront experience](administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md)
       * [Edit a user's profile](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
       * [Edit user profiles in bulk](administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
       * [Create direct reports](administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md)
@@ -416,10 +422,6 @@ feature-set: Workfront
       * [Manage teams](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
       * [Create a team](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
       * [Edit a team's settings](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
-  * Opt in to the new Adobe Workfront experience {#opt-in-nwe}
-    * [Opt in to new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/opt-in-to-the-new-workfront-experience.md)
-    * [Available only in new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/feature-list-and-release-timing-for-the-new-workfront-experience.md)
-    * [Move to new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/admin-prep-for-nwe.md)
   * Customize Adobe Workfront {#customize}
     * [Customize Workfront](administration-and-setup/customize-workfront/customize-workfront.md)
     * Custom branding in Adobe Workfront {#custom-branding}
@@ -444,7 +446,6 @@ feature-set: Workfront
       * [Administrative access for layout templates](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
       * [Assign users to layout templates](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
       * [Copy a layout template](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-      * [Move layout templates to new Adobe Workfront experience](administration-and-setup/customize-workfront/use-layout-templates/migrate-layout-templates-to-nwe.md)
     * Custom forms {#custom-forms}
       * [Custom forms](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
       * [Custom forms overview](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
@@ -627,9 +628,11 @@ feature-set: Workfront
       * [Manage a group's restored items](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
   * Configure integrations {#configure-integrations}
     * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations.md)
-    * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations-1.md)
+    * [Adobe Workfront integrations](administration-and-setup/configure-integrations/workfront-integrations-1.md)
     * [Slack app for Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-fusion-slack-app.md)
     * [Configure Workfront with Adobe Experience Manager legacy connector](administration-and-setup/configure-integrations/configure-workfront-aem.md)
+    * [Configure the Experience Manager Assets as a Cloud Service integration](administration-and-setup/configure-integrations/configure-aacs-integration.md)
+    * [Configure the Experience Manager Assets Essentials integration](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
     * [Enable users to access the mobile application](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
     * [Enable Adobe Workfront for Outlook](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
     * [Configure document integrations](administration-and-setup/configure-integrations/configure-document-integrations.md)
@@ -702,6 +705,12 @@ feature-set: Workfront
       * [Export a list](workfront-basics/navigate-workfront/use-lists/export-lists.md)
       * [Inline edit items in a list in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
       * [Modify how a list displays](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
+    * [Top navigation bar overview](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
+    * [Simplified left navigation](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
+    * [Summary overview](workfront-basics/the-new-workfront-experience/summary-overview.md)
+    * [Breadcrumbs overview](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+    * [New object headers overview](workfront-basics/the-new-workfront-experience/new-object-headers.md)
+    * [Pin pages to customize your workspace](workfront-basics/the-new-workfront-experience/pin-pages.md)
     * [Access Adobe Workfront help](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
     * [Understand objects in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
     * [Understand the navigation for a Work-license user](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
@@ -786,7 +795,7 @@ feature-set: Workfront
       * [Configure your User Profile](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
       * [Configure My Settings](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
       * [Configure personal time off in Adobe Workfront](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
-      * [Create custom tabs or sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+      * [Create custom sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
     * Manage your Adobe Workfront account {#manage-workfront-account}
       * [Manage your Adobe Workfront account](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
       * [Log in to Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
@@ -821,24 +830,11 @@ feature-set: Workfront
       * [Add updates in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
     * Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps {#tips-tricks-for-mobile-apps}
       * [Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
-      * [Error Message on the Adobe Workfront Mobile App: "Your account is not API enabled."](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
-  * Redesigned functionality in the new Adobe Workfront experience {#redesigned-new-workfront-experience}
-    * [Redesigned functionality in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/redesigned-features-in-nwe.md)
-    * [Top navigation bar overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
-    * [Simplified left navigation in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
-    * [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/subtabs-removed.md)
-    * [Summary overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/summary-overview.md)
-    * [Breadcrumbs overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
-    * [Edit object details in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/combined-pages-object-details.md)
-    * [New object headers](workfront-basics/the-new-workfront-experience/new-object-headers.md)
-    * [New object actions area](workfront-basics/the-new-workfront-experience/new-object-actions-area.md)
-    * [Toolbar for lists in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md)
-    * [Pin pages to customize your workspace in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/pin-pages.md)
-    * [New Layout Templates area in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/new-layout-templates.md)
-    * [New Edit Object box](workfront-basics/the-new-workfront-experience/new-edit-object-box.md)
+      * [Error Message on the Adobe Workfront Mobile App: "Your account is not API enabled."](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md) 
   * Tips, Tricks, and Troubleshooting for Adobe Workfront Basics {#tips-tricks-for-basics}
     * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
     * [Your quick guide to finding help in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
+    * [Change the date format in Adobe Workfront when using Chrome](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
     * [Contact Customer Support](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
     * [The Adobe Workfront Community](workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
     * [The Adobe Workfront Status site](workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
@@ -967,18 +963,19 @@ feature-set: Workfront
       * [Workfront for Experience Manager enhanced connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
       * [Workfront for Experience Manager enhanced connector overview](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
       * [Workfront for Experience Manager enhanced connector metadata overview](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
-      * [Link assets and folders from Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
-      * [Send a Document to Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
-      * [Proof a linked asset for Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
-      * [View or download a linked asset from Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
-    * Adobe Workfront for Experience Manager Assets Essentials {#wf-aem-essentials}
-      * [Adobe Workfront for Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
-      * [Adobe Experience Manager Assets integrations](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-      * [Configure the Experience Manager Assets Essentials integration](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+      * [Link assets and folders with the enhanced connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
+      * [Send a Document with the enhanced connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
+      * [Proof a linked asset with the enhanced connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
+      * [View or download a linked asset with the enhanced connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
+    * Adobe Workfront for Experience Manager Assets and Assets Essentials {#wf-aem-essentials}
+      * [Adobe Workfront for Experience Manager Assets and Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+      * [Adobe Experience Manager Assets integrations overview](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
       * [Link assets and folders from Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
-      * [View or download a linked asset from Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
-      * [Send a Document to Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
-      * [Proof a linked asset for Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
+      * [View mapped metadata for Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
+      * [View or download a linked asset from Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
+      * [Send a Document to Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
+      * [Proof a linked asset for Experience Manager Assets or Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
+      * [Create a folder linked with Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
 * Manage Work {#manage-work}
   * [Manage work](manage-work/manage-work.md)
   * Projects {#projects}
@@ -1302,8 +1299,8 @@ feature-set: Workfront
     * [Delegate work](manage-work/delegate-work/delegate-work.md)
     * [Delegate tasks and issues overview](manage-work/delegate-work/delegate-work-overview.md)
     * [Manage task and issue delegation](manage-work/delegate-work/how-to-delegate-work.md)
-* People, teams, and groups {#people-teams-groups}
-  * [People, teams, and groups](people-teams-and-groups/people-teams-and-groups.md)
+* Teams and groups {#teams-groups}
+  * [Teams and groups](people-teams-and-groups/people-teams-and-groups.md)
   * Create and manage teams {#create-manage-teams}
     * [Create and manage teams](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
     * [Teams overview](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
@@ -1327,7 +1324,7 @@ feature-set: Workfront
     * [Team requests overview](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
     * [Manage work and team requests](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
   * Tips, tricks, and troubleshooting for people, teams, and groups {#tips-tricks-people-teams-groups}
-    * [Tips, Tricks, and Troubleshooting for People, Teams, and Groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
+    * [Tips, Tricks, and Troubleshooting for Teams and Groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
     * [Username Already in Use](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Reporting {#reporting}
   * [Reporting](reports-and-dashboards/reports-and-dashboards-overview.md)
@@ -1335,12 +1332,8 @@ feature-set: Workfront
     * [Reporting Canvas](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
     * Manage reports {#manage-reports}
       * [Manage Reports overview](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
-      * [Get started with Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/get-started-reports.md)
       * [Build a report in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-      * [List your reports in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/list-your-reports.md)
-      * [View a report in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/view-report.md)
       * [Export a report in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
-      * [Send a report in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/send-report.md)
     * Table Blocks {#table-blocks}
       * [Table Blocks](reports-and-dashboards/reporting-canvas/table-blocks/table-blocks.md)
       * [Add or edit a table block in Reporting Canvas](reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
@@ -1353,9 +1346,7 @@ feature-set: Workfront
       * [Add or edit a visualization block in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
       * [Configure a bar visualization in the Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
       * [Configure a column visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
-      * [Configure a line visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-line-visualization.md)
       * [Configure pie visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
-      * [Configure a bubble visualization in the Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bubble-visualization.md)
       * [Configure a KPI visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)
     * Other Blocks {#other-blocks}
       * [Other Blocks](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
@@ -1383,7 +1374,6 @@ feature-set: Workfront
       * [Use user-based wildcards to generalize reports](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
       * [Share a filter, view, or grouping](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
       * [Remove filters, views, and groupings](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
-      * [Delete filters](reports-and-dashboards/reports/reporting-elements/delete-filters.md)
       * [Use the Milestone view](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
       * [Modify column width and order](reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
     * Use built-in reports {#built-in-reports}
@@ -1873,11 +1863,6 @@ feature-set: Workfront
     * [Change profile settings in Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
     * [Delete user data In Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/delete-user-data.md)
     * [Adobe Workfront Fusion FAQ](workfront-fusion/workfront-fusion-basics/faq.md)
-  * Adobe Workfront Fusion in the Adobe Admin Console {#workfront-fusion-admin-console}
-    * [Adobe Workfront Fusion in the Adobe Admin Console](workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md)
-    * [Add users to Adobe Workfront Fusion through the Adobe Admin Console](workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
-    * [Delete users in Adobe Workfront Fusion through the Adobe Admin Console](workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
-    * [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
   * Connections in Adobe Workfront Fusion {#connections-in-fusion}
     * [Connections in Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
     * [About connecting Adobe Workfront Fusion to an app or service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
@@ -2072,6 +2057,7 @@ feature-set: Workfront
       * [Upload XD art boards as documents to Workfront](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-docs.md)
       * [Update your work in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-update.md)
       * [Mark work items complete in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-complete.md)
+      * [Log time in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-xd-log-time.md)
     * Workfront Extension for Illustrator and InDesign {#workfront-for-illustrator-indesign}
       * [Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md)
       * [Install the Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md)
@@ -2469,7 +2455,9 @@ feature-set: Workfront
       * [Integrate Workfront Proof with Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
       * [Review a Proof in Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
 * Adobe Workfront API {#adobe-workfront-api}
+  * [Workfront API](wf-api/workfront-api.md)
   * API Notes {#api-notes}
+    * [API Notes](wf-api/api/api.md)
     * [Uploading files via the API](wf-api/api/uploading-files-api.md)
     * [Ending support for JSONP](wf-api/api/ending-support-jsonp.md)
     * [Update integrations that use default API versioning](wf-api/api/update-default-api-versioning.md)
@@ -2496,6 +2484,7 @@ feature-set: Workfront
     * [What's New in API Version 7](wf-api/api/new-api-version-7.md)
     * [What's New in API Version 6](wf-api/api/new-api-version-6.md)
   * API General Information {#api-general-information}
+    * [API general information](wf-api/general/api-general.md)
     * [API basics](wf-api/general/api-basics.md)
     * [API Explorer](wf-api/general/api-explorer.md)
     * [Using the API Explorer](wf-api/general/using-api-explorer.md)
@@ -2512,6 +2501,7 @@ feature-set: Workfront
     * [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
     * [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
   * Document Webhooks API {#document-webhooks-api}
+    * [Document Webhooks API articles](wf-api/doc-wbhks-api/document-webhooks-api.md)
     * [Webhooks Overview](wf-api/doc-wbhks-api/webhooks-overview.md)
     * [Register a Webhook Integration](wf-api/doc-wbhks-api/register-webhook-integration.md)
     * [Authentication for Document Webhooks](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
@@ -2531,8 +2521,10 @@ feature-set: Workfront
     * [Test Webhook connections](wf-api/doc-wbhks-api/test-webhook-connections.md)
     * [Document Webhooks Error Handling](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
   * Workfront Object Descriptions {#workfrtont-object-descriptions}
+    * [Workfront object descriptions](wf-api/wf-objects/workfront-objects.md)
     * [Category](wf-api/wf-objects/category.md)
   * Tips, tricks, and troubleshooting for Adobe Workfront API {#tips-troubleshooting-apis}
+    * [Tips, tricks, and troubleshooting for Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
     * [API Error: “The remote server returned an error: (400) Bad Request”](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
     * [Duplicates returned during a large paginated search](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
     * [Sorting query results in the API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)

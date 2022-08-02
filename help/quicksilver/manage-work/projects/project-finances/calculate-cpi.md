@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Calculate Cost Performance Index (CPI)
 description: Calculate Cost Performance Index (CPI)
+author: Alina
 feature: Work Management
+exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
 ---
-
 # Calculate Cost Performance Index (CPI)
 
 <!--
@@ -188,4 +189,3 @@ You can display the CPI of a project or a task in a project or task list or repo
    The CPI displays in the **CPI/ SPI/ CSI** field.
 
    ![](assets/cpi-on-project-nwe.png)
-

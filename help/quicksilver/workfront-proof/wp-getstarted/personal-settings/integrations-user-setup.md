@@ -5,9 +5,10 @@ product-area: documents;system-administration;user-management
 navigation-topic: personal-settings
 title: Integrations - User Setup
 description: This section shows you the options you have for setting up pre-built integration links with third-party applications.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 43ecf257-44ea-4d2c-ac55-21192e7c2a45
 ---
-
 # Integrations - User Setup
 
 >[!IMPORTANT]
@@ -27,4 +28,3 @@ Current integration points are available for the following:
 * WorkFront (4)
 
 ![Integrations_tab_-_Personal_Settings.png](assets/integrations-tab---personal-settings-350x323.png)
-

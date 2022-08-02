@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Filter and condition modifiers
 description: The filter and condition modifiers allow you to build filters and establish conditions for formatting your report results.
-req doc: "https://docs.google.com/document/d/1WA0zZ_wws-2qb908i53BFQ8zDwL3nPJHyIybtJvvnqU/edit)"
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
 ---
-
 # Filter and condition modifiers
 
 <!--
@@ -170,4 +170,3 @@ You can use the following condition modifiers in filters and conditional formatt
   </tr> 
  </tbody> 
 </table>
-

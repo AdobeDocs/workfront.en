@@ -2,11 +2,12 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: "Single Sign-On in Workfront Proof: AD FS configuration"
+title: 'Single Sign-On in Workfront Proof: AD FS configuration'
 description: If you are an administrator on your AD server, you can install and configure AD FS.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
 ---
-
 # Single Sign-On in Workfront Proof: AD FS configuration
 
 >[!IMPORTANT]
@@ -101,4 +102,3 @@ Once your Relying Party Trust configuration is complete, you are ready to config
 
    * E-mail (Send LDAP Attributes as Claims rule template)
    * NameID (Transform an Incoming Claim rule template)
-

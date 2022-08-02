@@ -4,9 +4,10 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Track Hour Records with the Adobe Workfront API
 description: If your organization uses Adobe Workfront to enter hours worked, but uses another tool as the system of record for that data, you can use the Workfront API to synchronize data between the two systems.
+author: Lisa
 feature: Timesheets
+exl-id: b26f8156-f9dc-43e7-8e0d-8c0905dc7a12
 ---
-
 # Track Hour Records with the Adobe Workfront API
 
 If your organization uses Adobe Workfront to enter hours worked,&nbsp;but uses another tool as the system of record for that data, you can use the Workfront API to synchronize data between the two systems.

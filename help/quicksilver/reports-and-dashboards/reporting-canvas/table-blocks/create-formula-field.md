@@ -1,49 +1,19 @@
 ---
 title: Build a formula field in Reporting Canvas
 description: Build a formula field in Reporting Canvas
+author: Nolan
 draft: Probably
 feature: Reports and Dashboards
+exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
 ---
+
 # Build a formula field in Reporting Canvas
 
 The field builder in Reporting Canvas allows you to create fields that perform custom calculations.
 
 ## Prerequisites
 
-Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas Beta](../../../product-announcements/betas/reporting-canvas-beta.md).
-
-## Access requirements
-
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront license*</td> 
-   <td> <p>Plan</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>The contents of this article are available as part of a beta program that must be joined by a Workfront administrator. After joining, the Workfront administrator may then grant access to other users in their environment. For more information on participating in the beta and granting access to users, see <a href="../../../product-announcements/betas/reporting-canvas-beta.md" class="MCXref xref">Reporting Canvas beta</a>.</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit access to create reports, calendars, and dashboards</p>
-    --> <!--
-     <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>
-    --> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage access to the report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
 
 ## Create a formula field
 
@@ -78,9 +48,4 @@ You must have the following access to perform the steps in this article:
 
    {style="table-layout:auto"}
 
-   <!--
-   <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(Optional)&nbsp;You can edit, reorder, or delete multiple functions in a field.</p> </li>
-   -->
-
 1. Click the **Go back** arrow in the top-left corner of the screen to return to your table.
-

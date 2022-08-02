@@ -3,9 +3,10 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Create a Request Queue
 description: Create a Request Queue
+author: Alina
 feature: Work Management
+exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 ---
-
 # Create a Request Queue
 
 <!--
@@ -262,4 +263,3 @@ To create a Request Queue:
 
    For information about creating sub-sections for the Request Queue, see the articles [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) and [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).  
    For information about routing the requests to the appropriate assignee, team, and appropriate project, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
-

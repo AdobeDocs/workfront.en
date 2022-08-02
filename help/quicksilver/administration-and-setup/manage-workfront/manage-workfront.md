@@ -4,11 +4,11 @@ content-type: reference
 product-area: system-administration
 navigation-topic: administration-and-setup
 title: Manage Adobe Workfront
-description: This section contains the following subsections - EDIT ME.
+description: As a Workfront administrator, you can configure proofing Workfront functionality, reports, emails, security, exchange rates, deleted items, diagnostics.
 feature: System Setup and Administration
 role: Admin
+exl-id: 94f3e03f-ea62-47cd-858c-600ea72ac529
 ---
-
 # Manage Adobe Workfront
 
 This section contains the following subsections:
@@ -21,4 +21,3 @@ This section contains the following subsections:
 * [Manage deleted items](../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md) 
 * [Diagnostics](../../administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md) 
 * [Kick-Starts](../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
-

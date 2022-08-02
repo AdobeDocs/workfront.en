@@ -6,9 +6,10 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Forms modules
 description: The Adobe Workfront Fusion Google Forms modules allow you to monitor, select, add, update or delete responses on your Google Forms.
+author: Becky
 feature: Workfront Fusion
+exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
 ---
-
 # Google Forms modules
 
 The Adobe Workfront Fusion Google Forms modules allow you to monitor, select, add, update or delete responses on your Google Forms.
@@ -332,4 +333,3 @@ This module performs a search using the [Google Charts Query Language](https://d
   </tr> 
  </tbody> 
 </table>
-

@@ -5,9 +5,10 @@ product-area: documents;system-administration
 navigation-topic: manage-security-workfront-proof
 title: Proof security in Workfront Proof
 description: Data security is paramount for Workfront Proof. We invest significant resources to keep our security infrastructure updated and current.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: bee0fece-e22b-4f92-9641-81a130f5c346
 ---
-
 # Proof security in Workfront Proof
 
 >[!IMPORTANT]

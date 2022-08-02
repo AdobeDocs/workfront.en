@@ -3,9 +3,10 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Install Workfront for Adobe Photoshop
 description: You can install the Workfront for Adobe Photoshop plugin from the Adobe Marketplace.
-feature: "Workfront Integrations and Apps, Digital Content and Documents"
+author: Courtney
+feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
 ---
-
 # Install Workfront for Adobe Photoshop
 
 You can install the Workfront for Adobe Photoshop plugin from the Adobe Marketplace.
@@ -82,4 +83,3 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Allow Access** to finish logging in.
 1. Go back to Adobe Photoshop to see your work.
-

@@ -4,17 +4,18 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Reuse a custom field or widget in a custom form
 description: When you are creating or editing a custom form, you can add a custom field or widget that has already been added to another custom form.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
 ---
+# Reuse a custom field or asset widget in a custom form
 
-# Reuse a custom field or widget in a custom form
+When you are creating or editing a custom form, you can add a custom field or asset widget that has already been added to another custom form.
 
-When you are creating or editing a custom form, you can add a custom field or widget that has already been added to another custom form.
+You can also reuse an existing calculated custom field in a custom form. For instructions, see [Reuse an existing calculated custom field in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md).
 
-For information about adding an existing calculated custom field, see [Reuse an existing calculated custom field in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md).
-
-For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+For information about custom fields and asset widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Access requirements
 
@@ -30,7 +31,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -65,4 +66,3 @@ You must have the following to perform the steps in this article:
    * [Position custom fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
    * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
    * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-

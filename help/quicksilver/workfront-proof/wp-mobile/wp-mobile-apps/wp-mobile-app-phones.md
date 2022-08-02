@@ -5,9 +5,10 @@ product-area: documents
 navigation-topic: workfront-proof-mobile-apps
 title: Workfront Proof mobile app
 description: Download the Workfront Proof app from the Apple App Store or Google Store to be productive wherever you are. The Workfront Proof app has the following features on the iPhone and iPod Touch - EDIT ME.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
 ---
-
 # Workfront Proof mobile app
 
 >[!IMPORTANT]
@@ -178,4 +179,3 @@ Reviewing an audio-video proof in the iOS app is just as simple as reviewing a s
 1. To make a decision, tap the **Decision** button (6), then follow the instructions above.
 
    ![AV_proof.png](assets/av-proof-350x545.png)
-

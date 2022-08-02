@@ -3,11 +3,12 @@ title: Create or edit a custom form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: You can create or edit new custom form. Both tasks are explained in this article.
+description: You can create or edit new custom form.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
 ---
-
 # Create or edit a custom form
 
 You can create or edit new custom form. Both tasks are explained in this article.
@@ -28,7 +29,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -124,4 +125,3 @@ You can edit a custom form any time after it has been created.
    * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
    * [Reuse an existing calculated custom field in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
    * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-

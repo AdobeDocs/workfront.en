@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: task-information
 title: Tasks overview
 description: A task is a work item inside of a project. It represents a finite amount of work smaller than the project.
+author: Alina
 feature: Work Management
+exl-id: 060918b2-8c3f-4f85-a8ac-bcd36141d071
 ---
-
 # Tasks overview
 
 A task is a work item inside of a project. It represents a finite amount of work smaller than the project.
@@ -52,4 +53,4 @@ You can update and complete working tasks without influencing the update or reso
 
 ## Recurring tasks
 
-If you have a task that occurs repeatedly, you can create it as a recurring task with multiple recurrences. For information about recurring tasks, see [Recurring tasks overview](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md). 
+If you have a task that occurs repeatedly, you can create it as a recurring task with multiple recurrences. For information about recurring tasks, see [Recurring tasks overview](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).

@@ -3,9 +3,10 @@ product-area: templates
 navigation-topic: templates-navigation-topic
 title: Create template from project
 description: Create template from project
+author: Alina
 feature: Work Management
+exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
 ---
-
 # Create template from project
 
 <!--

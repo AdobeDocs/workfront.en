@@ -6,9 +6,10 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365 Email
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Office 365 Email, as well as connect it to multiple third-party applications and services.
+author: Becky
 feature: Workfront Fusion
+exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
 ---
-
 # Microsoft Office 365 Email
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Office 365 Email, as well as connect it to multiple third-party applications and services.
@@ -575,4 +576,3 @@ This module adds a large attachment to a message.
   </tr> 
  </tbody> 
 </table>
-

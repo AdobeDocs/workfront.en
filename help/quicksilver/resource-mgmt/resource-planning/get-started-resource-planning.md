@@ -4,9 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Get started with Resource Planning
 description: (**** THIS WILL BE LINKED TO THE PRODUCT UI IN THE PLANNER AREA***DO NOT DELETE OR CHANGE URL FOR THIS ARTICLE****)
+author: Alina
 feature: Resource Management
+exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
 ---
-
 # Get started with Resource Planning
 
 <!--
@@ -251,4 +252,3 @@ The following prerequisites are required only when viewing the Resource Planner 
 <p>For information about adding users to Resource Pools and associating them with projects, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools</a> and <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">Associate resource pools with users </a>.</p>
 </div>
 -->
-

@@ -6,9 +6,10 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Frame.io modules
 description: The Adobe Workfront Fusion Frame.io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your Frame.io account.
+author: Becky
 feature: Workfront Fusion
+exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
 ---
-
 # Frame.io modules
 
 The Adobe Workfront Fusion Frame.io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your Frame.io account.
@@ -719,4 +720,3 @@ The result can be found in the module's Output under Bundle > Body.
 In our example, the details of 1 team were returned:
 
 ![](assets/api-call-output.png)
-

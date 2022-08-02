@@ -3,9 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Add stories and issues from the Scrum board
 description: You can quickly create a new story or issue directly from the Scrum board, or add an existing story or issue from the board.
+author: Lisa
 feature: Agile
+exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
 ---
-
 # Add stories and issues from the Scrum board
 
 You can quickly create a new story or issue directly from the Scrum board, or add an existing story or issue from the board.
@@ -80,4 +81,3 @@ You must have the following access to perform the steps in this article:
 1. Click **Add** on the right side of the Scrum board and select **Existing Story** or **Existing Issue**.
 1. In the **Add Existing from Backlog** dialog box, start typing the name of a story or issue, then select it when it displays in the list.
 1. Click **Add Story** or **Add Issue**.
-

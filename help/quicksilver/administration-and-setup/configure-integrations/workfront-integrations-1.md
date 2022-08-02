@@ -5,10 +5,11 @@ content-type: reference;overview
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: You can integrate Adobe Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.
-feature: "System Setup and Administration, Workfront Integrations and Apps"
+author: Becky, Caroline
+feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
 ---
-
 # Adobe Workfront integrations
 
 You can integrate Adobe Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.
@@ -19,7 +20,7 @@ The integrations for Workfront fall into the following categories:
 
 Workfront provides various integrations you can configure either directly from the Workfront application, or directly from another application by installing the Workfront add-in for that application.
 
-Some of these integrations are available at no additional&nbsp;cost, while other integrations require an additional purchase:
+Some of these integrations are available at no additional cost, while other integrations require an additional purchase:
 
 * [Get started with built-in (native) integrations](#get-started-with-built-in-native-integrations) 
 * [Integrations available at no additional cost](#integrations-available-at-no-additional-cost) 
@@ -310,7 +311,7 @@ Workfront enables you to leverage other built-in integrations and integrated pro
 
 Workfront has a rich partner ecosystem that includes dozens of integrations that enrich your Workfront experience.
 
-Examples of existing partner offerings&nbsp;include integrations with Salesforce.com, Oracle Responsys, and Microsoft Visual Studio. For more information about these and other exciting integrations, see the [Workfront Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+Examples of existing partner offerings include integrations with Salesforce.com, Oracle Responsys, and Microsoft Visual Studio. For more information about these and other exciting integrations, see the [Workfront Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
 
 ## Workfront API
 

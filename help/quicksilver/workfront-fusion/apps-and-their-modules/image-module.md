@@ -5,9 +5,10 @@ product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Image modules
 description: Adobe Workfront Fusion Image modules allow you get information about a specific image (dimensions, type, and so on), convert an image to another file format, and directly change the size of the image.
-feature: "Workfront Fusion, Digital Content and Documents"
+author: Becky
+feature: Workfront Fusion, Digital Content and Documents
+exl-id: 89efa9d5-00c9-4bb5-97b3-2b2f9d73721d
 ---
-
 # Image modules
 
 Adobe Workfront Fusion Image modules allow you get information about a specific image (dimensions, type, and so on), convert an image to another file format, and directly change the size of the image.
@@ -165,4 +166,3 @@ There are three cases when an action can terminate with an error:
 * Received data was not in the JPG/GIF/PNG/BMP format
 * The maximum width/height limit had been exceeded while changing the image dimensions. The image size must not exceed 3840 px width and 2160 px height
 * The maximum allowable size of an image had been exceeded while changing the dimensions or format of the image.
-

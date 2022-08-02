@@ -3,9 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Send a report in the Preview Sandbox environment
 description: The information on this page refers to functionality that is available only in the Preview and Custom Refresh Sandbox environments. This functionality is not available in the Production environment.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
 ---
-
 # Send a report in the Preview Sandbox environment
 
 The information on this page refers to functionality that is available only in the Preview and Custom Refresh Sandbox environments. This functionality is not available in the Production environment.

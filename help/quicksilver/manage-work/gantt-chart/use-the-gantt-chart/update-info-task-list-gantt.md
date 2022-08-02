@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: use-the-gantt-chart
 title: Update information in the task list Gantt Chart
 description: The task list Gantt Chart shows details about tasks that are on a project or template.
+author: Alina
 feature: Work Management
+exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
 ---
-
 # Update information in the task list Gantt Chart
 
 The task list Gantt Chart shows details about tasks that are on a project or template.
@@ -243,4 +244,3 @@ Your resources might be overallocated if they are assigned to multiple tasks whi
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"> </h2>
 -->
-

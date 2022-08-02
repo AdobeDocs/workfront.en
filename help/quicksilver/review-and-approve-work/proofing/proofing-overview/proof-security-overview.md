@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: proofing-overview
 title: Proof security overview
 description: You can add extra security measures to proofs.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 2f6737d5-627d-463f-8127-504755bd0380
 ---
-
 # Proof security overview
 
 You can add extra security measures to proofs.
@@ -43,4 +44,3 @@ When the electronic signature setting is enabled on a proof, an electronic signa
 >To electronically sign a proof with SSO credentials, you must set SSO up in Workfront Proof. For more information on enabling SSO, see >
 >* [Configure Single Sign-On for Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >
-

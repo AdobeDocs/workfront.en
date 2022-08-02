@@ -2,9 +2,10 @@
 filename: add-objects-to-a-campaign
 navigation-topic: campaigns
 title: Add objects to a campaign
-description: You can add other objects to a campaign. 
+description: You can add other objects to a campaign.
+author: Alina
+exl-id: a70ac760-f4ba-4b01-9cd0-275e86236758
 ---
-
 # Add objects to a campaign
 
 >[!NOTE]
@@ -66,4 +67,3 @@ Before you begin, you must have the following:
    If the project belongs to a portfolio or a program, the campaign displays in the breadcrumb after the program and immediately before the project.
 
    ![](assets/project-with-multiple-campaigns-in-breadcrumb.png)
-

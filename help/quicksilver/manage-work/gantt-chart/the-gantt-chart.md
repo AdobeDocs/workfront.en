@@ -3,9 +3,10 @@ content-type: reference
 navigation-topic: projects-navigation-topic
 title: The Gantt Chart
 description: This section contains the following subsections - EDIT ME.
+author: Alina
 feature: Work Management
+exl-id: d3a82d86-2554-414f-9878-c5a7a417e010
 ---
-
 # The Gantt Chart
 
 This section contains the following subsections:

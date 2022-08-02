@@ -3,9 +3,10 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: Adobe Workfront basics
 description: Review these areas to get an understanding of the basics of Adobe Workfront.
+author: Lisa
 feature: Get Started with Workfront
+exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
 ---
-
 # Adobe Workfront basics
 
 This section contains the following subsections:
@@ -21,6 +22,4 @@ This section contains the following subsections:
 * [Grant and request permissions to objects](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) 
 * [Manage your account and profile](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md) 
 * [Mobile Apps](../workfront-basics/mobile-apps/mobile-apps.md) 
-* [Redesigned functionality in the new Adobe Workfront experience](../workfront-basics/the-new-workfront-experience/redesigned-features-in-nwe.md) 
 * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
-

@@ -1,9 +1,10 @@
 ---
 title: Configurable access to functionality for each object type
 description: Configurable access to functionality for each object type
-draft: Probably
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
 ---
 # Configurable access to functionality for each object type
 
@@ -889,9 +890,9 @@ In each access level, you can configure the following options for Resource Manag
 The default setting for all access levels is No Access. A Workfront administrator can change this to View or Edit access for any Planner, Worker, and Reviewer access level. 
 
 <!--
-<MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+DRAFTED IN FLARE:
 Alina says: This will change overtime for some of the access levels, but right now once they get Edit access, they can do everything
-</MadCap:conditionalText>
+
 -->
 
 >[!NOTE]

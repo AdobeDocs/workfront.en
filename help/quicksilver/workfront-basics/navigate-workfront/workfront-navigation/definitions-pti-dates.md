@@ -4,8 +4,8 @@ navigation-topic: workfront-navigation
 title: Overview of the Project, Task, and Issue dates in Adobe Workfront
 description: Overview of the Project, Task, and Issue dates in Adobe Workfront
 feature: Get Started with Workfront
+exl-id: 3808200f-a573-4c39-8965-b254f69c893c
 ---
-
 # Overview of the Project, Task, and Issue dates in Adobe Workfront
 
 <!--
@@ -161,4 +161,3 @@ For more information, see [Log time](../../../timesheets/create-and-manage-times
 You can view the Hour Entry Dates in hour reports and lists.
 
 ![](assets/hour-entry-date-in-view-nwe-350x173.png)
-

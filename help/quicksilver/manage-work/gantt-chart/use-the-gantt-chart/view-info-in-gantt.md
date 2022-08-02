@@ -2,9 +2,10 @@
 navigation-topic: use-the-gantt-chart
 title: View information in the Gantt Chart
 description: The task list Gantt Chart and project list Gantt Chart display information about projects and tasks.
+author: Alina
 feature: Work Management
+exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
 ---
-
 # View information in the Gantt Chart
 
 The task list Gantt Chart and project list Gantt Chart display information about projects and tasks.

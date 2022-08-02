@@ -6,12 +6,12 @@ title: View restored item
 description: View restored item
 feature: System Setup and Administration
 role: Admin
+exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
 ---
-
 # View restored item
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
 As an Adobe Workfront administrator or a user with a Plan license, you can view which projects, tasks, issues, and documents have been restored in the past 7 days.
@@ -28,11 +28,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +49,6 @@ You must have the following to perform the steps in this article:
 
 1. Click the **Projects**, **Tasks**, **Issues**, or **Documents** tab, depending on the type of item that was restored.
 
-1. Click the linked name of the item&nbsp;that you want to view.
+1. Click the linked name of the item that you want to view.
 
    The project, task, issue, or document is displayed.
-

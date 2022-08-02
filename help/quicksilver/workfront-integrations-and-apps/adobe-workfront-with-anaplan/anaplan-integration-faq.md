@@ -3,9 +3,10 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: Adobe Workfront with Anaplan Integration FAQs
 description: Do I have to use Adobe Workfront Fusion?
-feature: "Workfront Integrations and Apps, Workfront Fusion"
+author: Becky
+feature: Workfront Integrations and Apps, Workfront Fusion
+exl-id: bbc24834-8e96-44ce-8098-63765d86ccc2
 ---
-
 # Adobe Workfront with Anaplan Integration FAQs
 
 * [Do I have to use Adobe Workfront Fusion?](#do-i-have-to-use-adobe-workfront-fusion) 

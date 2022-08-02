@@ -5,9 +5,10 @@ product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: Groups
 description: This section contains the following articles - EDIT ME.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 59962f6b-e2e9-4ac7-b60f-6c8f9ca9958b
 ---
-
 # Groups
 
 >[!IMPORTANT]
@@ -20,4 +21,3 @@ This section contains the following articles:
 * [Create Proofing Groups using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md) 
 * [Make Groups Private using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md) 
 * [Manage Groups using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
-

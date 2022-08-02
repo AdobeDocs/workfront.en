@@ -4,9 +4,10 @@ product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
 title: Create Users using Workfront Proof
 description: As a Workfront Proof administrator, you can create new users.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 23a692ba-88d4-487f-beaf-52671259ebaf
 ---
-
 # Create Users using Workfront Proof
 
 >[!IMPORTANT]
@@ -51,4 +52,3 @@ For more information on Guests and users, see [Understand Users, Members, and Gu
 1. In the **New User** dialog box that displays, set configuration options for the user, as described in&nbsp; [Configure User Information using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md).
 
 1. Click&nbsp;**Convert to User.**&nbsp;
-

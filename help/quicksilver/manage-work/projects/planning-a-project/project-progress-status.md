@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: plan-a-project
 title: Project Progress Status overview
 description: Adobe Workfront determines the Progress Status of a project by looking at the progression of the project across its timeline. You can configure Workfront to determine the Condition of a project based on the value of the Progress Status of the tasks. For more information about configuring the Condition of the project, see the article Overview of Project Condition and Condition Type.
+author: Alina
 feature: Work Management
+exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
 ---
-
 # Project Progress Status overview
 
 Adobe Workfront determines the Progress Status of a project by looking at the progression of the project across its timeline. You can configure Workfront to determine the Condition of a project based on the value of the Progress Status of the tasks. For more information about configuring the Condition of the project, see the article [Overview of Project Condition and Condition Type](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
@@ -47,4 +48,4 @@ Consider the following:
 
 For information about the project&nbsp;Critical&nbsp;Path, see [Overview of the project Critical Path](../../../manage-work/tasks/manage-tasks/critical-path.md).
 
-For information about Projected Completion Dates, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md). 
+For information about Projected Completion Dates, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).

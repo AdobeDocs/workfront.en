@@ -3,9 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: Filter by user on the Scrum board
 description: You can use the filter on the scrum board to see which work items are associated with other users and which are unassigned.
+author: Lisa
 feature: Agile
+exl-id: ccb1dc6e-b6c0-4897-9278-7410f10d40ae
 ---
-
 # Filter by user on the Scrum board
 
 You can use the filter on the scrum board to see which work items are associated with other users and which are unassigned.
@@ -52,4 +53,3 @@ You must have the following access to perform the steps in this article:
 >The column totals do not change based on the filtered results. Column totals display the totals for all work items on the board.
 
 ![Filter by user](assets/filter-by-user-agile-nwe.png)
-

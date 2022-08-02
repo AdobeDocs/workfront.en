@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: plan-a-project
 title: Understand and update project priorities
 description: There are several ways to use priorities for projects and they do not communicate with one another. We recommend that you select one of the priorities for projects that matches your needs and refer to it when you categorize the importance of your projects.
+author: Alina
 feature: Work Management
+exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
 ---
-
 # Understand and update project priorities
 
 There are several ways to use priorities for projects and they do not communicate with one another. We recommend that you select one of the priorities for projects that matches your needs and refer to it when you categorize the importance of your projects.&nbsp;
@@ -99,4 +100,3 @@ Consider the following when selecting a Priority for your projects:
 1. Click **Save Changes**.
 
    You must communicate with other users and have an understanding what each level of priority means for the project.
-

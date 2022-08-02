@@ -4,9 +4,10 @@ product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Access needed to use the Scenario Planner
 description: The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
+author: Alina
 feature: Workfront Scenario Planner
+exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
 ---
-
 # Access needed to use the Scenario Planner
 
 The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../scenario-planner/scenario-planner-overview.md).
@@ -105,4 +106,3 @@ By default, you have access only to plans that you created. To view plans that o
 
 If a user shares a link to a plan without also sharing the plan, you can request permissions to the plan. For information about requesting permissions to plans, see [Request access to a plan in the Scenario Planner](../scenario-planner/request-access-to-plan.md). 
 &nbsp;
-

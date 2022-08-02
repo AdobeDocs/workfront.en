@@ -4,11 +4,12 @@ user-type: administrator
 content-type: overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: Create and manage layout templates
+description: As a Workfront administrator or a group administrator, you can create and modify layout templates to customize layout elements in Workfront for your users.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 ---
-
 # Create and manage layout templates
 
 <!--
@@ -37,11 +38,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -55,14 +56,6 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 
 * Users can customize a few areas of their own layout. When you change a layout template, your changes merge with any customizations they have made, without overwriting or resetting them. This is also true if you assign users to a new layout template.
 * Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
-
-  If you created a layout template recently in Workfront Classic and want it available for your users in the new Adobe Workfront experience, you can migrate it there. For instructions, see [Migrate your layout templates to the new Adobe Workfront experience](../../../administration-and-setup/customize-workfront/use-layout-templates/migrate-layout-templates-to-nwe.md).
-
-  Keep in mind that the migrated version and the original version of each layout template are separate because they serve two different environments, so if you edit one version, your changes don't affect the other version.
-  <!--
-   **delete this bullet item soon
-  -->
-
 * Group administrators and users with a Plan license who can edit other users can add system-level and group-level layout templates to the users they can manage when editing their profile.
 * Group administrators cannot assign layout templates to job roles or teams.
 

@@ -4,10 +4,11 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: You can copy an existing layout template. This is helpful when your organization needs multiple layout templates that share many of the same settings.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
 ---
-
 # Copy a layout template
 
 You can copy an existing layout template. This is helpful when your organization needs multiple layout templates that share many of the same settings.
@@ -26,11 +27,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -64,4 +65,3 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
    * [Customize the landing page using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) 
    * [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
    * [Customize user interface terminology using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
-

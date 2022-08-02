@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: merge information from multiple columns in one shared column"
+title: 'View: merge information from multiple columns in one shared column'
 description: You can merge the information that displays in multiple separate columns and display it in one shared column.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
 ---
-
 # View: merge information from multiple columns in one shared column
 
 You can merge the information that displays in multiple separate columns and display it in one shared column.
@@ -284,4 +285,3 @@ Do the following to merge the data from multiple columns to display it in one co
    <pre><img src="assets/shared-column-with-line-breaks-350x199.png" style="width: 350;height: 199;"></pre>
 
 1. Click **Save**, then **Save View**.
-

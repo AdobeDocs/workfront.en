@@ -3,11 +3,12 @@ title: Import users
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+description: You can import users to the Adobe Workfront site by synchronizing users from a network directory service (such as Active Directory or another LDAP directory), or you can import users using a spreadsheet import file.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
 ---
-
 # Import users
 
 >[!IMPORTANT]
@@ -18,7 +19,7 @@ role: Admin
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-You can import users to the Adobe Workfront site by synchronizing users from network directory service (such as Active Directory or another LDAP directory), or you can import users using a spreadsheet import file.
+You can import users to the Adobe Workfront site by synchronizing users from a network directory service (such as Active Directory or another LDAP directory), or you can import users using a spreadsheet import file.
 
 Before you create a new user, first ensure that you have created all objects that you want to associate with the user. For example, if you have not created a schedule, you cannot assign a schedule to the new user, and the field you use to associate a schedule with the new user does not appear in the New User screen.
 
@@ -32,11 +33,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -57,9 +58,9 @@ For information about how to synchronize users to your Workfront site via LDAP, 
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
 
-1. Click the **New PersonUser** drop-down arrow, then click **Import PeopleUsers**.
+1. Click the **New User** drop-down arrow, then click **Import Users**.
 
-1. In the **Import PeopleUsers** box that displays, download the sample file, then update the sample file to include your own user's personal information.
+1. In the **Import Users** box that displays, download the sample file, then update the sample file to include your own user's personal information.
 
    Each row includes the following fields:
 
@@ -79,17 +80,18 @@ For information about how to synchronize users to your Workfront site via LDAP, 
 
    * Ensure that no extra spaces exist before or after a user's email address.
 
+   When you are finished with a row, it should look like this:
+
      ![importing-new-users.png](assets/importing-new-users.png)
 
 1. Save the file to a location on your workstation.
-1. Click **Choose File** in the **Import PeopleUsers** box.
+1. Click **Choose File** in the **Import Users** box.
 
 1. Navigate to and select the file that you saved.  
-1. (Optional) Select the **Send an invite email to this personuser** option to send an email invitation to the user, notifying them that a Workfront account has been created and prompting them to set their password.
+1. (Optional) Select the **Send an invite email to this user** option to send an email invitation to the user, notifying them that a Workfront account has been created and prompting them to set their password.
 
    Deselect this option if you want to set the password for the user.
 
 1. Click **Import**.
 
    You receive a confirmation message at the top of the screen that the user was successfully imported.
-

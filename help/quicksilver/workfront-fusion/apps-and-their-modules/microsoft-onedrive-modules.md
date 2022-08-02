@@ -6,9 +6,10 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft OneDrive modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use OneDrive, as well as connect it to multiple third-party applications and services.
+author: Becky
 feature: Workfront Fusion
+exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
 ---
-
 # Microsoft OneDrive modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use OneDrive, as well as connect it to multiple third-party applications and services.
@@ -711,4 +712,3 @@ There are several possible issues when uploading or updating a file fails:
 * The uploaded file is too big and exceeds the maximum file size limit for your OneDrive plan or you have used all of your OneDrive account's storage quota. To get more storage space, delete existing files from OneDrive or upgrade your OneDrive account.
 * OneDrive does not allow to upload two files with the same name to one single folder. If the target folder contains a file with the same name as the file being uploaded, the scenario run terminates with an error. The solution is to simply rename the file being uploaded. If your aim is to update a file, use the Update a file action.
 * The previously selected folder, to which the file is being uploaded, no longer exists. The scenario stops and you will need to select the target folder again.
-

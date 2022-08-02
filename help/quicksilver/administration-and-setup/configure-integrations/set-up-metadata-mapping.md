@@ -4,10 +4,11 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Metadata is descriptive information associated with a document. You can set up Adobe Workfront to include metadata with documents sent to Workfront applications.
-feature: "System Setup and Administration, Workfront Integrations and Apps"
+author: Caroline
+feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
 ---
-
 # Set up metadata mapping
 
 Metadata is descriptive information associated with a document. You can set up Adobe Workfront to include metadata with documents sent to Workfront applications.
@@ -22,11 +23,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -86,4 +87,3 @@ Before you can map fields for the metadata mapping process, you must enable the 
    The designated fields are no longer mapped. Now when a user sends a document from Workfront to Workfront Library or Workfront DAM, the metadata contained within the deleted fields is not transferred with the document.
 
    A document sent prior to you deleting the mapped fields retains the original metadata sent with it, including the metadata for the deleted fields.
-

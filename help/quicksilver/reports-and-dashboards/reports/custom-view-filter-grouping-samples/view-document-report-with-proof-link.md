@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: document report with link to a proof"
-description: "View: document report with link to a proof"
+title: 'View: document report with link to a proof'
+description: 'View: document report with link to a proof'
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
 ---
-
 # View: document report with link to a proof
 
 <!--
@@ -95,4 +96,3 @@ To apply this view:
    1. Click **Save Filter**, type the name of the filter, then click&nbsp;**Save Filter**.
 
 1. Click the link in the Proof Link column to access the proof of the last version of the document.
-

@@ -3,9 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: Locate submitted requests
 description: You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront - EDIT ME.
+author: Alina
 feature: Work Management
+exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
-
 # Locate submitted requests
 
 You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
@@ -100,7 +101,7 @@ To locate requests that you or other users have submitted:
    >
    >When you navigate away from the Submitted requests list, the selected sorting option is preserved.
 
-1. (Optional) Select a request in the list, then click the **Open Summary** icon ![](assets/open-summary-with-text-nwe.png) to open the Summary panel and display additional information about the request, add comments, documents, or assign it. For information about the Summary panel, see [Summary overview in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Optional) Select a request in the list, then click the **Open Summary** icon ![](assets/open-summary-with-text-nwe.png) to open the Summary panel and display additional information about the request, add comments, documents, or assign it. For information about the Summary panel, see [Summary overview](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >

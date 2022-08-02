@@ -1,8 +1,10 @@
 ---
 title: 21.4 Other enhancements
 description: 21.4 Other enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 7afff4ec-a296-483c-819f-84932b6da4d8
 ---
 # 21.4 Other enhancements
 

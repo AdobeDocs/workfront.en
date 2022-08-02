@@ -3,9 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Move an agile story
 description: You can move an agile story either to a different iteration (for Scrum teams), or to the backlog (for Kanban and Scrum teams).
+author: Lisa
 feature: Agile
+exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
 ---
-
 # Move an agile story
 
 You can move an agile story either to a different iteration (for Scrum teams), or to the backlog (for Kanban and Scrum teams).
@@ -81,4 +82,3 @@ You can move a story to a different iteration for your Scrum team.
    >The work item Planned Start Date and Planned Completion Date are affected by a setting on the Edit Team page. For information, see the section [Configure how dates are applied when adding work items to an iteration](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in the article [Configure Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Click **Move Story**.
-

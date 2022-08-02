@@ -4,9 +4,10 @@ product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
 title: Browse the blueprints catalog and request installation of blueprints
 description: Blueprints provide basic building blocks to help you create a work management system that grows with you. All Adobe Workfront users can browse the catalog of blueprints. You can additionally make a request to have your Workfront administrator install a specific blueprint for you, if your administrator has enabled blueprint requests.
-feature: "System Setup and Administration, Work Management"
+author: Lisa
+feature: System Setup and Administration, Work Management
+exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
 ---
-
 # Browse the blueprints catalog and request installation of blueprints
 
 Blueprints provide basic building blocks to help you create a work management system that grows with you. All Adobe Workfront users can browse the catalog of blueprints. You can additionally make a request to have your Workfront administrator install a specific blueprint for you, if your administrator has enabled blueprint requests.
@@ -51,7 +52,7 @@ The catalog displays all of the blueprints that are available for your organizat
 
 ## Request installation of a blueprint
 
-You can request the installation of a blueprint if a system administrator configures blueprint requests.&nbsp;For more information, see [Configure access to blueprints](../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
+You can request the installation of a blueprint if a system administrator configures blueprint requests. For more information, see [Configure access to blueprints](../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
 When you request to have a blueprint installed, the request is sent to the system administrator. You are notified when the request is completed, according to your notification preferences.
 
@@ -62,4 +63,3 @@ When you request to have a blueprint installed, the request is sent to the syste
    If the **Request** button does not appear on the blueprint, your system administrator has not enabled requests.
 
    ![Request blueprint](assets/blueprints-non-admin-request-bp-350x283.png)
-

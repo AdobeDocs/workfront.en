@@ -3,9 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: API versioning and support schedule
 description: API versioning and support schedule
+author: John
 feature: Workfront API
+exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
 ---
-
 # API versioning and support schedule
 
 &nbsp;

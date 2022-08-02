@@ -3,9 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Add a subtask to an existing story on the Kanban board
 description: Review this article to learn how to create subtasks for existing stories on the Kanban board.
+author: Lisa
 feature: Agile
+exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
 ---
-
 # Add a subtask to an existing story on the Kanban board
 
 When creating subtasks for existing stories, keep in mind the following:
@@ -54,4 +55,3 @@ You must have the following access to perform the steps in this article:
 1. Go to the Kanban board that contains the story where you want to add a subtask.
 1. Click the name of the task on the story tile on the Kanban board.
 1. Add a subtask to the task as you would in any other task list within Workfront, as described in [Create subtasks](../../manage-work/tasks/create-tasks/create-subtasks.md).
-

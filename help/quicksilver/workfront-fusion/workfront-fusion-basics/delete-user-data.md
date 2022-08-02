@@ -4,9 +4,10 @@ product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
 title: Delete user data In Adobe Workfront Fusion
 description: You can store and delete user data in your Adobe Workfront Fusion account.
+author: Becky
 feature: Workfront Fusion
+exl-id: 4b0a0abe-a913-429b-b02e-809b2e7410af
 ---
-
 # Delete user data In Adobe Workfront Fusion
 
 You can store and delete user data in the following areas in your Adobe Workfront Fusion account:
@@ -46,16 +47,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -73,4 +65,3 @@ To delete user data:
 
 1. Click the down arrow to the right of the item you want to delete, then click **Delete**.
 1. Click **Really** to confirm.
-

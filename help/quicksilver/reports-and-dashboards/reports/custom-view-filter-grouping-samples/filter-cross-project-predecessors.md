@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filter: display incomplete cross-project predecessors"
+title: 'Filter: display incomplete cross-project predecessors'
 description: This task filter returns incomplete cross-project predecessors.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 7ee2432c-1d82-454e-a73a-f1f6b6a5c10d
 ---
-
 # Filter: display incomplete cross-project predecessors
 
 This task filter returns incomplete cross-project predecessors.
@@ -52,4 +53,3 @@ To apply this filter:
    <pre>predecessorsMM:projectID=FIELD:projectID<br>predecessorsMM:projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
 
 1. Click **Save Filter**.
-

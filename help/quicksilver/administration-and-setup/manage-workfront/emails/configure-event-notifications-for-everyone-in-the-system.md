@@ -1,21 +1,18 @@
 ---
 title: Configure event notifications for everyone in the system
-description: Configure event notifications for everyone in the system
-draft: Probably
+description: Event notifications trigger emails to users when a certain event occurs. As an Adobe Workfront administrator or a user with a Planner access level, you can configure an event notification for all users in the system. Configuration of an event notification consists of activating or deactivating it.
+author: Caroline, Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
 ---
 # Configure event notifications for everyone in the system
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS</p>
--->
+<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
 Event notifications trigger emails to users when a certain event occurs. As an Adobe Workfront administrator or a user with a Planner access level, you can configure an event notification for all users in the system. Configuration of an event notification consists of activating or deactivating it.
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Alina annotation on the word "all" in 2nd sentence: abive, drafted and remains QS only</p>
--->
+<!--Alina annotation on the word "all" in 2nd sentence: abive, drafted and remains QS only-->
 
 Depending on the event you enable and the user keeps enabled on their own profile, users receive instant, daily, or both instant and daily email notifications when an event occurs.
 
@@ -37,11 +34,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -65,7 +62,7 @@ You must enable notifications in the Setup area of Workfront before users can en
 1. Click **Email** > **Notifications**.
 
 1. Make sure the **Event Notifications** tab is open.
-1. .Click the switch to the left of the event name to turn it on or off.
+1. Click the switch to the left of the event name to turn it on or off.
 
    To see the default notification status for an event, see [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -80,4 +77,3 @@ You must enable notifications in the Setup area of Workfront before users can en
    >This functionality is available initially only to customers on Cluster 4 as part of a phased roll-out. It will become available for other clusters shortly thereafter. This article will be updated as this occurs.
 
    For more information, see [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
-

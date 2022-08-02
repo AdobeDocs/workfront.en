@@ -3,9 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: Create and submit Adobe Workfront requests
 description: Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work—in the form of random requests—can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues.
+author: Alina
 feature: Work Management
+exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 ---
-
 # Create and submit Adobe Workfront requests
 
 <!--
@@ -333,4 +334,4 @@ You can submit requests using any applications that have been integrated with Wo
 
 ## Locate submitted requests
 
-For information about locating submitted or drafted requests, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md). 
+For information about locating submitted or drafted requests, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).

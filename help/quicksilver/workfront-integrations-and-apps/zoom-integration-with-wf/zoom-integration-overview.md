@@ -4,9 +4,10 @@ product-area: workfront-integrations
 navigation-topic: zoom-integration-in-workfront
 title: Zoom integration overview
 description: If your Adobe Workfront administrator has enabled the Zoom integration, you can start a Zoom meeting with collaborators by inserting a Zoom link into an Update comment or a reply.
+author: Becky
 feature: Workfront Integrations and Apps
+exl-id: b74c3559-4b62-40b1-bbcc-27dfabe31534
 ---
-
 # Zoom integration overview
 
 If your Adobe Workfront administrator has enabled the Zoom integration, you can start a Zoom meeting with collaborators by inserting a Zoom link into an Update comment or a reply.

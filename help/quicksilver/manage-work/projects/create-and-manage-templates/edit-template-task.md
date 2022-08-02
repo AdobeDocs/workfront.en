@@ -4,9 +4,10 @@ keywords: task,defaults,automate,creation
 navigation-topic: templates-navigation-topic
 title: Edit a template task
 description: After creating a template, you can edit information on the template tasks. The information you update on a template task is associated with project tasks after you use the template to create a project or you attach the template to a project.
+author: Alina
 feature: Work Management
+exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 ---
-
 # Edit a template task
 
 After creating a template, you can edit information on the template tasks. The information you update on a template task is associated with project tasks after you use the template to create a project or you attach the template to a project.
@@ -371,4 +372,3 @@ You can define default custom forms to be automatically attached to tasks when t
    Your changes will be submitted for this template task.
 
    When you or another user creates a project from this template, all settings you applied to template tasks become the settings for the project tasks.
-

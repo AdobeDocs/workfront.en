@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: manage-documents
 title: Download Documents
 description: You can download documents from Adobe Workfront either individually or in bulk. Documents can be downloaded from any area that contains documents in Workfront.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
 ---
-
 # Download Documents
 
 You can download documents from Adobe Workfront either individually or in bulk. Documents can be downloaded from any area that contains documents in Workfront.&nbsp;
@@ -61,4 +62,3 @@ You can download multiple documents simultaneously.&nbsp;
 1. Click the Download Selected icon ![](assets/download-icon.png).
 
    Folders are downloaded as .zip files and are limited to 4GB.
-

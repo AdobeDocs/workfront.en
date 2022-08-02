@@ -4,9 +4,10 @@ product-area: dashboards
 navigation-topic: understand-dashboards
 title: Understand how reports display on a dashboard
 description: You can manage how reports added to dashboards display on the dashboards.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 5ec2380e-e4fc-42f5-a553-b61c11573b9b
 ---
-
 # Understand how reports display on a dashboard
 
 You can manage how reports added to dashboards display on the dashboards.
@@ -28,4 +29,3 @@ When the report is selected for an area of the dashboard that takes up the full 
 
 When the report is selected for an area of the dashboard that takes up less than the full width of the dashboard, then by default only the first column of the report displays on the dashboard.  
 ![Show first column options](assets/qs-dashboard-truncated-reports-350x118.png)
-

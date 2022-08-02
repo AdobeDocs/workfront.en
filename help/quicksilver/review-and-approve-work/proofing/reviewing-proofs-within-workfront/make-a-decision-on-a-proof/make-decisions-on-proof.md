@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Make a decision on a proof in the proofing viewer
 description: You can make a decision on a proof directly in the proofing viewer.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: cf74ac54-b8c1-4404-b35f-2aa94831ecad
 ---
-
 # Make a decision on a proof in the proofing viewer
 
 You can make a decision on a proof directly in the proofing viewer.
@@ -122,4 +123,3 @@ You must have the following access to perform the steps in this article:
 <li value="3">In the <strong>Proof decision</strong> box that appears, select whether you want to <strong>Approve</strong>, require <strong>Changes</strong>, or <strong>Reject</strong> the approval request.</li>
 </ol>
 -->
-

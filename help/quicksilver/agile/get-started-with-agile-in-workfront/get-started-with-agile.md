@@ -5,9 +5,10 @@ keywords: agile
 navigation-topic: agile-navigation-topic
 title: Get started with agile in Adobe Workfront
 description: Review these articles to get started with agile in Workfront.
+author: Lisa
 feature: Agile
+exl-id: 151aec93-3ccb-475f-b894-61be20a8544a
 ---
-
 # Get started with agile in Adobe Workfront
 
 This section contains the following articles:
@@ -15,4 +16,3 @@ This section contains the following articles:
 * [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) 
 * [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) 
 * [Configure Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
-

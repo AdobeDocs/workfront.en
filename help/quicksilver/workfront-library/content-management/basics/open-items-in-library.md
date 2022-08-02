@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: library-basics
 title: Open items in Workfront Library
 description: You can open any Workfront Library item to which you have permissions. For information on access and permissions, see Overview of user access to Workfront Library
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 9ce09936-6095-4036-949a-110756c8a113
 ---
-
 # Open items in Workfront Library
 
 You can open any Workfront Library item to which you have permissions. For information on access and permissions, see [Overview of user access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
@@ -31,4 +31,3 @@ You can open the following items:
 1. (Conditional) If you are in the list view, click the **Show grid view** icon ![](assets/grid-view-icon.png) to switch to the grid view.
 1. Navigate to the item.
 1. Hover over the item, click the **More** icon in the upper-right corner, then select **Open** in the drop-down menu.
-

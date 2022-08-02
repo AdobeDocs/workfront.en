@@ -5,9 +5,10 @@ keywords: proof,permission
 navigation-topic: proofing-overview
 title: Proof Permission Profile overview
 description: Proof Permission Profiles determine what overall permissions users have over all proofs in your account. Proof Permission Profiles are assigned to users in their User Profile. Proof Permission Profiles are different from proof roles. For more information about proof roles, see Proof Roles overview.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
 ---
-
 # Proof Permission Profile overview
 
 Proof Permission Profiles determine what overall permissions users have over all proofs in your account. Proof Permission Profiles are assigned to users in their User Profile. Proof Permission Profiles are different from proof roles. For more information about proof roles, see [Proof Roles overview](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
@@ -253,4 +254,3 @@ Managers have the following permissions:
 &nbsp;Guests are not Workfront Proof users, so they cannot see all the proofs shared with them in their own Dashboard.
 </note>
 -->
-

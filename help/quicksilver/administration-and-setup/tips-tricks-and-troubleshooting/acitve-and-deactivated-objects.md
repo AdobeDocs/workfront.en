@@ -5,10 +5,11 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Active and deactivated objects
 description: As an Adobe Workfront administrator, you can activate or deactivate objects within the system. We recommend that you never delete the objects that you can deactivate. You should simply deactivate the object to prevent future use and to remove it from the drop-down menus of other objects.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
 ---
-
 # Active and deactivated objects
 
 As an Adobe Workfront administrator, you can activate or deactivate objects within the system. We recommend that you never delete the objects that you can deactivate. You should simply deactivate the object to prevent future use and to remove it from the drop-down menus of other objects.

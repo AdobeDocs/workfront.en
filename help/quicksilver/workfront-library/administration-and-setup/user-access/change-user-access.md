@@ -4,9 +4,9 @@ product-area: documents;user-management;system-administration
 navigation-topic: user-access
 title: Change a user's access to Workfront Library
 description: As a Workfront Library administrator, you can change a user's access level in order to increase or decrease the permissions they have to content in Workfront Library. If a user has multiple access sources, their access level is determined by the highest access level they've been assigned. For information on the permissions allowed in each access level, see Permissions in Workfront Library. For information on user access, see Overview of user access to Workfront Library
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: d6e38d4d-fd46-45ba-8721-15e741b4c7e7
 ---
-
 # Change a user's access to Workfront Library
 
 As a Workfront Library administrator, you can change a user's access level in order to increase or decrease the permissions they have to content in Workfront Library. If a user has multiple access sources, their access level is determined by the highest access level they've been assigned. For information on the permissions allowed in each access level, see [Permissions in Workfront Library](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md). For information on user access, see [Overview of user access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
@@ -46,4 +46,3 @@ When you change the access level of a user grouping, you change the access of th
 1. In the drop-down menu, select the access level you want to assign the user grouping, then click **Change access**.
 
    The access level of the user grouping updates.
-

@@ -3,11 +3,12 @@ title: Delete users
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: When a user leaves your organization, can remove that user from Adobe Workfront.
+description: When a user leaves your organization, can remove that user from Workfront, though we recommend deactivating users instead of deleting them.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
 ---
-
 # Delete users
 
 When a user leaves your organization, can remove that user from Adobe Workfront.
@@ -32,11 +33,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -103,7 +104,7 @@ Deleting a user causes the following things to happen:
 
 For more information about deactivating users, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-You can permanently delete users one at a time, or you can permanently delete multiple users simultaneously. When you delete individual users, you must wait for the deletion process to complete prior to&nbsp;moving on to other activities in Workfront. The process of deleting multiple users simultaneously runs as a background process, so you can continue using Workfront as the users are deleted.
+You can permanently delete users one at a time, or you can permanently delete multiple users simultaneously. When you delete individual users, you must wait for the deletion process to complete prior to moving on to other activities in Workfront. The process of deleting multiple users simultaneously runs as a background process, so you can continue using Workfront as the users are deleted.
 
 ## Delete one or more users
 
@@ -120,4 +121,3 @@ You can permanently delete users one at a time, or you can permanently delete mu
    After receiving the confirmation in Workfront that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
 
    At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.
-

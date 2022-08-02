@@ -3,9 +3,10 @@ product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
 title: Add an Outlook email to a project as a task or an issue
 description: You can convert emails to Adobe Workfront tasks or issues. After an email is converted, the task or issue appears on the project that is selected as you are converting it.
+author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
 ---
-
 # Add an Outlook email to a project as a task or an issue
 
 You can convert emails to Adobe Workfront tasks or issues. After an email is converted, the task or issue appears on the project that is selected as you are converting it.&nbsp;
@@ -91,4 +92,3 @@ Your Workfront administrator must enable Outlook for Office with Workfront befor
    At the top of the Workfront add-in panel, notice the confirmation with a link that the email was added to Workfront as a task or an issue. The link includes the date on which it was converted.
 
    ![outlook_this_email_was_added_as_an_issue.png](assets/outlook-this-email-was-added-as-an-issue-350x126.png)
-

@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: create-tasks
 title: Create subtasks
 description: In Workfront, tasks can have parent-child relationships. Child tasks are called subtasks. You can create subtasks on the tasks list by making a main task a subtask. You can also make a subtask a main task.
+author: Alina
 feature: Work Management
+exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
 ---
-
 # Create subtasks
 
 In Workfront, tasks can have&nbsp;parent-child relationships. Child tasks are called subtasks. You can create subtasks&nbsp;on the tasks list by making a main task a subtask.&nbsp;You can also make a subtask a main task.
@@ -90,4 +91,3 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >
    >You can&nbsp;outdent tasks only when the list of tasks is sorted by Task Number and when there are no groupings applied to the task list.
-

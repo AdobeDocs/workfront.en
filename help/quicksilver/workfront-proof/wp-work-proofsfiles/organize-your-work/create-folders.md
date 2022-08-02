@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Create Folders in Workfront Proof
 description: You can create sub-folders in either of the following ways - EDIT ME.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0
 ---
-
 # Create Folders in Workfront Proof
 
 >[!IMPORTANT]
@@ -115,4 +116,3 @@ In the Share section you can:
 &nbsp;Please also see [Share Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
 
 ![New_folder_page_-_share.png](assets/new-folder-page---share-350x138.png)
-

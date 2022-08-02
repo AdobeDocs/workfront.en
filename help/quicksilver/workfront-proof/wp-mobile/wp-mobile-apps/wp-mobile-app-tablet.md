@@ -5,9 +5,10 @@ product-area: documents
 navigation-topic: workfront-proof-mobile-apps
 title: Workfront Proof mobile app for tablets
 description: The Workfront Proof tablet app lets you conveniently review and approve your proofs when you're on the go. The app is available for download for everyone, you don't have to be a Workfront Proof user to be able to review proofs on your tablet or your phone.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
 ---
-
 # Workfront Proof mobile app for tablets
 
 >[!IMPORTANT]
@@ -215,4 +216,3 @@ The sidebar contains a lot of useful features and functionalities. Depending on 
 | **Settings** |You can decide to show pins and/or markups on the proof, you can also enable Keep me logged in to prevent you from getting logged out of the app. |
 | **Help** |Lets you bring up the app tour again. |
 | **Log out** |Logs you out from the app and your account. |
-

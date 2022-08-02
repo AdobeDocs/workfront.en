@@ -3,9 +3,10 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Modify multiple user assignments in a task list
 description: Modify multiple user assignments in a task list
+author: Alina
 feature: Work Management
+exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
 ---
-
 # Modify multiple user assignments in a task list
 
 <!--
@@ -169,4 +170,3 @@ When assigning users to work, their availability according to their schedules af
    * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Adobe Workfront automatically selects the Primary Role of the user.
 
 1. Click **Save Changes.**
-

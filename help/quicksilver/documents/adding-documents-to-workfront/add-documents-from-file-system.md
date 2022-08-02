@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Add documents to Adobe Workfront from your file system
 description: You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront - EDIT ME.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 ---
-
 # Add documents to Adobe Workfront from your file system
 
 You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront:
@@ -104,4 +105,3 @@ All corrupted files are removed within 24 hours of detection unless you remove i
 ### File name restrictions {#file-name-restrictions}
 
 Files that are uploaded to Workfront cannot contain certain characters in file names. If a file contains any of the following characters in the file name, the characters are removed from the file name when the file is uploaded: `< > { }`.
-

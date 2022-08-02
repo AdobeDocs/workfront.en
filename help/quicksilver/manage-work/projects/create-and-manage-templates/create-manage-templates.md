@@ -4,9 +4,10 @@ product-area: templates
 navigation-topic: create-and-manage-projects
 title: Create and manage project templates
 description: This section contains the following articles - EDIT ME.
+author: Alina
 feature: Work Management
+exl-id: 64fbad12-ce16-449f-8991-62af31e595b2
 ---
-
 # Create and manage project templates
 
 This section contains the following articles:
@@ -27,4 +28,3 @@ You can use project templates to capture most of the repeatable processes, infor
 * [Remove template information from a project](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md) 
 * [Delete project templates](../../../manage-work/projects/create-and-manage-templates/delete-templates.md) 
 * [Overview of Start and Completion Days in a template](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
-

@@ -5,9 +5,10 @@ product-area: documents;system-administration
 navigation-topic: account-administration
 title: Tips, tricks, and troubleshooting for Workfront Proof account administration
 description: This section contains the following articles - EDIT ME.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 1e6bd078-b794-4fac-bbda-3ba125408370
 ---
-
 # Tips, tricks, and troubleshooting for Workfront Proof account administration
 
 >[!IMPORTANT]
@@ -17,4 +18,3 @@ feature: "Workfront Proof, Digital Content and Documents"
 This section contains the following articles:
 
 * [FAQ: Workfront Proof - US to EMEA migration](../../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
-

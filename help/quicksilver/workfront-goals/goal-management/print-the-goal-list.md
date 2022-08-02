@@ -3,9 +3,10 @@ product-previous: workfront-goals
 navigation-topic: goal-management
 title: Print the Goal List in Adobe Workfront Goals
 description: You can print a list of goals from the Goal List section of Adobe Workfront Goals. Printing sends a file to your printer or produces a .pdf file if your browser's printing Destination is set to Save as PDF.
+author: Alina
 feature: Workfront Goals
+exl-id: 66488d2f-ed35-4571-93e3-e0e025da7b33
 ---
-
 # Print the Goal List in Adobe Workfront Goals
 
 You can print a list of goals from the Goal List section of Adobe Workfront Goals. Printing sends a file to your printer or produces a .pdf file if your browser's printing Destination is set to Save as PDF.
@@ -87,4 +88,3 @@ You must have the following before you can start:
 1. Click&nbsp;**Print**.
 
    The list of goals is delivered to your selected destination.
-

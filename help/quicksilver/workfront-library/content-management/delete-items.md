@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: content-management
 title: Delete items from Workfront Library
 description: As a Workfront Library administrator, you can delete assets, folders, and collections in Workfront Library.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: cf7e91bc-009e-4b43-9028-bda8fd8351af
 ---
-
 # Delete items from Workfront Library
 
 As a Workfront Library administrator, you can delete assets, folders, and collections in Workfront Library.
@@ -33,4 +33,3 @@ Currently, you cannot restore a deleted item.
    >[!NOTE]
    >
    >If you delete an item that is used as the cover image of a folder or collection, it remains the cover image until you select a different item, regardless of the item being deleted from Workfront Library. For information on changing the cover image, see [Change the cover image on an item in Workfront Library](../../workfront-library/content-management/change-cover-image-of-folder.md).
-

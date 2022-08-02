@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: manage-tasks
 title: Overview of saving concurrent changes within a task list
 description: When you edit tasks in a list, you can use separate saving settings for indicating whether you want your changes saved automatically on manually when editing tasks in a list.
+author: Alina
 feature: Work Management
+exl-id: dff52425-4711-40a8-8f40-205d75c506ef
 ---
-
 # Overview of saving concurrent changes within a task list
 
 When you edit tasks in a list, you can use separate saving settings for indicating whether you want your changes saved automatically on manually when editing tasks in a list.
@@ -59,4 +60,3 @@ When you select to keep your changes over all other changes, your changes are sa
 </div>
 </div>
 -->
-

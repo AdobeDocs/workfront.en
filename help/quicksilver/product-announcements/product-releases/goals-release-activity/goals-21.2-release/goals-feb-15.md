@@ -2,11 +2,12 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: "Adobe Workfront Goals 21.2 release activity: Week of February 15, 2021"
+title: 'Adobe Workfront Goals 21.2 release activity: Week of February 15, 2021'
 description: This page describes all enhancements made with the 21.2 release for Adobe Workfront Goals to the Preview environment the week of February 15, 2021. These enhancements will be made available in the Production environment in the first quarter of 21.2.
-feature: "Product Announcements, Workfront Goals"
+author: Luke
+feature: Product Announcements, Workfront Goals
+exl-id: 013a69c1-6fbd-4283-9e4d-fb461fe48936
 ---
-
 # Adobe Workfront Goals 21.2 release activity:&nbsp;Week of February 15, 2021
 
 This page describes all enhancements made with the 21.2 release for Adobe Workfront Goals to the Preview environment the week of February 15, 2021. These enhancements will be made available in the Production environment in the first quarter of 21.2.
@@ -23,4 +24,4 @@ Prior to this enhancement, there was an indication that some goals are removed b
 
 For information about the Alignment Chart, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/513512168/660456ba79) 
+[Watch a video demonstration of this feature.](https://vimeo.com/513512168/660456ba79)

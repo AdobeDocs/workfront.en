@@ -3,9 +3,10 @@ product-previous: mobile
 navigation-topic: use-workfront-view
 title: Get started with Adobe Workfront View
 description: You can keep track of the progress on your projects when you are on the go by using the Adobe Workfront View mobile app.
+author: Lisa
 feature: Get Started with Workfront
+exl-id: cca4d969-8237-49df-98fb-f70ee40a7e93
 ---
-
 # Get started with Adobe Workfront View
 
 You can keep track of the progress on your projects when you are on the go by using the Adobe Workfront View mobile app.
@@ -66,4 +67,3 @@ You must have an Apple Cloud account to be able to install applications on an iP
    The URL should be in this format: `yourCompanyDomain.my.workfront.com`
 
 1. Tap **LOG IN**.
-

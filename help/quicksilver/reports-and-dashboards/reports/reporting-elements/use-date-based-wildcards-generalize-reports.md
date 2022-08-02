@@ -3,9 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Use date-based wildcards to generalize reports
 description: You can generalize a report by using wildcards instead of specific information when building certain reporting elements.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
 ---
-
 # Use date-based wildcards to generalize reports
 
 You can generalize a report by using wildcards instead of specific information when building certain reporting elements.
@@ -29,19 +30,19 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit reporting elements in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>Manage permissions to a report to edit reporting elements in a report</p> <p>Manage permissions to a view or filter to edit them</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -80,46 +81,16 @@ To insert a date-based wildcard in a report:
    >
    >You must always select the **Equal** filter variable when working with wildcards in Adobe Workfront.
 
-1. In the **Start typing name ...** box, type: 
-
-   ```
-   $$TODAY
-   ```
-
-   if you want to display information about something that occurs the same day that the report is run.
+1. In the **Start typing name ...** box, type: `$$TODAY` if you want to display information about something that occurs the same day that the report is run.
 
    Or
 
-   Type 
-
-   ```
-   $$NOW
-   ```
-
-   if you want to display information about something that occurs at the same date and time that the report is run.
+   Type `$$NOW` if you want to display information about something that occurs at the same date and time that the report is run.
 
    This date is always different, as it changes with the date the report is actually viewed by a user. so the information in the report is different from day to day.
 
-1. (Optional) If you want to display information that occurs within a timeframe after the date when the report is run, type
-
-   ```
-   $$TODAY+1w
-   ```
-
-   to display information in the following week, or 
-
-   ```
-   $$TODAY+2m
-   ```
-
-   to display information in the next two months. You can also indicate timeframes for quarters, hours, days, or years.
-1. (Optional) If you want to display information about something that occurred within a timeframe before the date when the report is run, type $$TODAY-1w to display information from the previous week, or 
-
-   ```
-   $$TODAY-2m
-   ```
-
-   to display information from the previous two months. You can also indicate timeframes for quarters, hours, days, or years.
+1. (Optional) If you want to display information that occurs within a timeframe after the date when the report is run, type `$$TODAY+1w` to display information in the following week, or `$$TODAY+2m` to display information in the next two months. You can also indicate timeframes for quarters, hours, days, or years.
+1. (Optional) If you want to display information about something that occurred within a timeframe before the date when the report is run, type `$$TODAY-1w` to display information from the previous week, or `$$TODAY-2m` to display information from the previous two months. You can also indicate timeframes for quarters, hours, days, or years.
 
    For a complete list of attributes, qualifiers, and operators that you can use in date-based wildcards, see the article [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
@@ -136,4 +107,3 @@ See also:
 * [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
 * [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) 
 * [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
-

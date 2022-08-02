@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Calculate Net Value
 description: The Net Value of a project is the total expected value of the project after calculating its benefit and removing the costs.
+author: Alina
 feature: Work Management
+exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
 ---
-
 # Calculate Net Value
 
 The Net Value of a project is the total expected value of the project after calculating its benefit and removing the costs.&nbsp;
@@ -59,4 +60,3 @@ You can find the Net Value for a project in the following areas in Workfront:
    * Project (Financial Data)
 
   For more information about creating a report, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-

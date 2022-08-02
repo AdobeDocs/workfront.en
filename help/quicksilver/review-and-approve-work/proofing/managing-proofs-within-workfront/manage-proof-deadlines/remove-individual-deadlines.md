@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: manage-proof-deadlines
 title: Remove individual reviewer deadlines
 description: You can remove a deadline for the stage the reviewer is on.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 80daeadb-5780-4f83-b757-54146a4dcd6e
 ---
-
 # Remove individual reviewer deadlines
 
 You can remove a deadline for the stage the reviewer is on.
@@ -52,4 +53,3 @@ You can remove a deadline for the stage the reviewer is on.
 1. Click **Clear** on the calendar that appears.
 1. To save your change, click outside the deadline box.
 1. In the prompt that appears, specify whether you want to send an email alert to reviewers.
-

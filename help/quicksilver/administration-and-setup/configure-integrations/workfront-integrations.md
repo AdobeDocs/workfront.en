@@ -3,11 +3,12 @@ content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Configure integrations
-description: This section contains the following articles - EDIT ME.
-feature: "System Setup and Administration, Workfront Integrations and Apps"
+description: You can integrate Adobe Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.
+author: Becky
+feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
 ---
-
 # Configure integrations
 
 This section contains the following articles:
@@ -15,6 +16,8 @@ This section contains the following articles:
 * [Adobe Workfront integrations](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) 
 * [Slack app for Legacy Workfront Fusion](../../administration-and-setup/configure-integrations/legacy-fusion-slack-app.md) 
 * [Configure Workfront with Adobe Experience Manager legacy connector](../../administration-and-setup/configure-integrations/configure-workfront-aem.md) 
+* [Configure the Experience Manager Assets as a Cloud Service integration](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
+* [Configure the Experience Manager Assets Essentials integration](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 * [Workfront and Experience Manager Assets Integrations](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md) 
 * [Enable Adobe Workfront for Outlook](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md) 
 * [Configure document integrations](../../administration-and-setup/configure-integrations/configure-document-integrations.md) 
@@ -34,4 +37,3 @@ This section contains the following articles:
 * [Configure the JumpSeat integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
 * [Legacy Workfront Fusion](../../administration-and-setup/configure-integrations/legacy-workfront-fusion.md) 
 * [Legacy Workfront Fusion service outages](../../administration-and-setup/configure-integrations/legacy-fusion-service-outages.md)
-

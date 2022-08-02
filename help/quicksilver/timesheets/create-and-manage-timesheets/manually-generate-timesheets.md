@@ -3,9 +3,10 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Manually generate timesheets
 description: To enable changes that you made to the timesheet profiles to reflect in current timesheets, you have to first delete the existing timesheets and then manually generate new ones. You can manually generate timesheets from the Timesheets area or the Diagnostics area in Setup, as explained in this article.
+author: Lisa
 feature: Timesheets
+exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
 ---
-
 # Manually generate timesheets
 
 To enable changes that you made to the timesheet profiles to reflect&nbsp;in current timesheets, you have to first delete the existing timesheets and then manually generate new ones. You can manually generate timesheets from the Timesheets area or the Diagnostics area in Setup, as explained in this article.
@@ -71,4 +72,3 @@ You can manually generate system-level timesheets from the Diagnostics area in S
 
 1. Click **Conduct Diagnostics**.&nbsp;
 1. Click **Generate Timesheets**.
-

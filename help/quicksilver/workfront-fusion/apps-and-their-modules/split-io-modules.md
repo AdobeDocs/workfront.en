@@ -6,9 +6,10 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Split.io modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Split.io, as well as connect it to multiple third-party applications and services.
+author: Becky
 feature: Workfront Fusion
+exl-id: 4576a2e4-b495-430e-a9de-4e1ec7379ab8
 ---
-
 # Split.io modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Split.io, as well as connect it to multiple third-party applications and services.
@@ -495,4 +496,3 @@ This search module retrieves a list of traffic types.
   </tr> 
  </tbody> 
 </table>
-

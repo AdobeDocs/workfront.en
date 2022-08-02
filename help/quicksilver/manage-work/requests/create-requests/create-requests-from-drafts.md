@@ -3,9 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: Create requests from drafts
 description: In addition to using the available drafts that Workfront suggests to you when you enter a new request, you can also access a draft request from the Drafts section and finish submitting it from there.
+author: Alina
 feature: Work Management
+exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
 ---
-
 # Create requests from drafts
 
 In addition to using the available drafts that Workfront suggests to you when you enter a new request, you can also access a draft request from the Drafts section and finish submitting it from there.
@@ -80,4 +81,3 @@ You must do the following before you can create a request from a draft:&nbsp;
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      When you submit the request, the draft is deleted and cannot be restored.
-

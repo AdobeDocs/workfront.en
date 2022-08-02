@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: user personal time off"
-description: "View: user personal time off"
+title: 'View: user personal time off'
+description: 'View: user personal time off'
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
 ---
-
 # View: user personal time off
 
 <!--
@@ -122,4 +123,3 @@ You must have the following access to perform the steps in this article:
    <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Click <strong>Save</strong>+<strong>Close</strong>.</li>
    -->
-

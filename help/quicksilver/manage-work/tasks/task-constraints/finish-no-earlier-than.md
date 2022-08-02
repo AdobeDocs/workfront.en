@@ -2,11 +2,12 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint overview: Finish No Earlier Than"
+title: 'Task Constraint overview: Finish No Earlier Than'
 description: Finish No Earlier Than (FNET) is a Task Constraint that schedules a task to complete after the date you specify.
+author: Alina
 feature: Work Management
+exl-id: b1dbf5c9-34b6-4c25-b582-ce9454501e03
 ---
-
 # Task Constraint overview: Finish No Earlier Than
 
 Finish No Earlier Than (FNET) is a Task Constraint that schedules a task to complete after the date you specify.
@@ -50,4 +51,3 @@ Consider the following when using the Finish No Earlier Than (FNET) constraint f
 </ol>
 </div>
 -->
-

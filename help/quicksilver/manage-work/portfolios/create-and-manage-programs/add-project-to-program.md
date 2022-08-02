@@ -3,9 +3,10 @@ product-area: programs;projects
 navigation-topic: create and manage programs
 title: Add a project to a program
 description: You can organize your projects by adding them to programs within portfolios. You can have multiple projects inside of one program, but you can associate only one program with a project.
-feature: "Work Management, Strategic Planning"
+author: Alina
+feature: Work Management, Strategic Planning
+exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
 ---
-
 # Add a project to a program
 
 You can organize your projects by adding them to&nbsp;programs within&nbsp;portfolios. You can have multiple projects inside of one program, but you can associate only one program with a project.
@@ -90,4 +91,3 @@ You must have the following access to perform the steps in this article:
 
    1. In the **Add Projects** dialog box, type the name of the project in the field provided, then select it when it appears in the list. You may add several projects at a time. 
    1. Click **Add Projects**.****The project appears in the **Projects** tab of the program and is now associated with the program and portfolio.&nbsp;
-

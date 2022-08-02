@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Share Folders in Workfront Proof
 description: You can share a folder with users and whole companies that have Workfront Proof accounts (not with guests).
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 57f846a1-f315-42c1-911a-cfbc8b4879ba
 ---
-
 # Share Folders in Workfront Proof
 
 >[!IMPORTANT]

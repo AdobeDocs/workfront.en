@@ -4,9 +4,10 @@ product-area: reporting
 navigation-topic: reports
 title: Calculated custom data in reports
 description: This section contains the following articles - EDIT ME.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
 ---
-
 # Calculated custom data in reports
 
 This section contains the following articles:
@@ -19,4 +20,3 @@ This section contains the following articles:
 * [Calculated custom field example: display a Status timestamp in a Custom Form](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md) 
 * [Calculated custom field example: display a field's edit history](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md) 
 * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)
-

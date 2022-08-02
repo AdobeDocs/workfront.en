@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Grouping: add a fourth grouping to a list"
+title: 'Grouping: add a fourth grouping to a list'
 description: You can have 4 groupings in a matrix report. For more information about matrix reports, see Create a matrix report.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 1147a47b-c6e2-496e-b202-eefeb500054e
 ---
-
 # Grouping: add a fourth grouping to a list
 
 You can have 4 groupings in a matrix report. For more information about matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
@@ -61,4 +62,3 @@ To add a fourth grouping:
    ```
 
 1. Click **Done**, then **Save Grouping**.
-

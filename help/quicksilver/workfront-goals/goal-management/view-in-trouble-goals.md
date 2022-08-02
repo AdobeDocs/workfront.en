@@ -3,9 +3,10 @@ product-previous: workfront-goals
 navigation-topic: goal-management
 title: Review in-trouble goals in Adobe Workfront Goals
 description: Review in-trouble goals in Adobe Workfront Goalsred" used to be called At Risk. Now, it is "in trouble")"
+author: Alina
 feature: Workfront Goals
+exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
 ---
-
 # Review in-trouble goals in&nbsp;Adobe Workfront Goals
 
 <!--
@@ -115,4 +116,3 @@ This article describes how to review goals in the Goal List.
 
 1. (Optional) Click **Print** to export the list of the in-trouble goals in various formats and share it with others. For information about printing goal lists, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
 1. Click a **goal name** to open the Goal Details panel, then click **Check in** to update the progress of the Results or Activities associated with the delayed goals. This updates the goals' progress as well. For information about updating the progress of results and activities to check in a goal, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
-

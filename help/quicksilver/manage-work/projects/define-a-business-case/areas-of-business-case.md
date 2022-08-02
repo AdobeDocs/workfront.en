@@ -3,9 +3,10 @@ content-type: overview
 navigation-topic: business-case-and-scorecards
 title: Overview of the Areas of the Business Case
 description: This article describes the areas of the Business Case of a project.
+author: Alina
 feature: Work Management
+exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
 ---
-
 # Overview of the Areas of the Business Case
 
 This article describes the areas of the Business Case of a project.
@@ -229,4 +230,3 @@ For information, see [Export the Business Case of a project](../../../manage-wor
 -->
 </div>
 -->
-

@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: comment-on-a-proof
 title: Resolve proof comments
 description: You can mark comments resolved after they been addressed. You can re-open a comment that you or another reviewer has resolved.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
 ---
-
 # Resolve proof comments
 
 You can mark comments resolved after they been addressed. You can re-open a comment that you or another reviewer has resolved.
@@ -50,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
 1. Select the comment. 
-1. Click the check mark icon in the lower-right corner of the comment. A green check mark appears in the upper-left corner of the comment and a "Thread resolved" label and message appear below it. The user who submitted the comment receives a notification that the comment was resolved.
+1. Click the check mark icon in the lower-right corner of the comment. A green check mark appears in the upper-left corner of the comment and a "Thread resolved" label and message appear below it. The user who submitted the comment receives an email notification that the comment was resolved.
 
    ![](assets/resolve-comment-350x247.png)
 
@@ -61,7 +62,6 @@ You must have the following access to perform the steps in this article:
 
 1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
 1. Select the comment.
-1. Click the green check mark icon in the lower-right corner of the comment (to the right of the **Reply** button). The check mark in the upper-left corner of the comment disappears and a "Thread reopened" label and message appear below it. The user who submitted the comment receives a notification that the comment was reopened.
+1. Click the green check mark icon in the lower-right corner of the comment (to the right of the **Reply** button). The check mark in the upper-left corner of the comment disappears and a "Thread reopened" label and message appear below it. The user who submitted the comment receives an email notification that the comment was reopened.
 
    ![](assets/reopen-resolved-comment-350x334.png)
-

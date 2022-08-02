@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: View activity on a proof in the proofing viewer
 description: You can view the recent activity for a given proof. This includes all activity and decisions made by any user assigned to the proof.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: e99f4e8f-eb3f-4575-83fb-97acb8932e25
 ---
-
 # View activity on a proof in the proofing viewer
 
 >[!IMPORTANT]
@@ -33,4 +34,3 @@ You can view the recent activity for a given proof.&nbsp;This includes all activ
    * **Date**:&nbsp;The time and date the action took place.
    * **Action**:&nbsp;The action that occurred on the proof.&nbsp;
    * **Details**:&nbsp;The user who performed the action.
-

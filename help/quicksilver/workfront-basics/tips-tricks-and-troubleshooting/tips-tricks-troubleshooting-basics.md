@@ -1,8 +1,9 @@
 ---
 title: Tips, Tricks, and Troubleshooting for Adobe Workfront Basics
 description: Tips, Tricks, and Troubleshooting for Adobe Workfront Basics
-draft: Probably
+author: Lisa
 feature: Get Started with Workfront
+exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
 ---
 # Tips, Tricks, and Troubleshooting for Adobe Workfront Basics
 
@@ -21,4 +22,3 @@ This section contains the following articles:
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md" class="MCXref xref" xrefformat="{para}">Change the date format in Adobe Workfront when using Chrome</a> </li>
   -->
-

@@ -1,8 +1,10 @@
 ---
 title: Adobe Workfront Goals
 description: Adobe Workfront Goals
+author: Alina
 draft: Probably
 feature: Workfront Goals
+exl-id: 945a7d15-f10e-4829-aedb-e0de46cd6090
 ---
 # Adobe Workfront Goals
 
@@ -29,4 +31,3 @@ This section contains the following subsections:
   -->
 
 * [Adobe Workfront Goals settings](../workfront-goals/workfront-goals-settings/wf-goals-settings.md)
-

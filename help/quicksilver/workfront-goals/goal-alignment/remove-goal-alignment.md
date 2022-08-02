@@ -3,9 +3,10 @@ product-previous: workfront-goals
 navigation-topic: goal-alignment
 title: Remove goal alignment in Adobe Workfront Goals
 description: You can remove the alignment between two goals if it no longer makes sense for them to be connected.
+author: Alina
 feature: Workfront Goals
+exl-id: a6196356-ca11-4759-9cff-64850a60208e
 ---
-
 # Remove goal alignment in&nbsp;Adobe Workfront Goals
 
 You can remove the alignment between two goals if it no longer makes sense for them to be connected.
@@ -85,4 +86,3 @@ Consider the following when removing alignment between two goals:
 
    * [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md) 
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-

@@ -4,18 +4,18 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: add-users-to-workfront
-description: This section contains the following articles - EDIT ME.
+description: You can add users in Adobe Workfront by creating individual users from scratch or by copy existing users.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
 ---
-
 # Create and manage users
 
 This section contains the following articles:
 
 * [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) 
 * [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md) 
-* [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md) 
 * [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 
 * [Edit user profiles in bulk](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md) 
 * [Create direct reports](../../../administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md) 
@@ -30,4 +30,3 @@ This section contains the following articles:
 * [View and export audit logs](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md) 
 * [View user login information](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md) 
 * [Manage users in the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-

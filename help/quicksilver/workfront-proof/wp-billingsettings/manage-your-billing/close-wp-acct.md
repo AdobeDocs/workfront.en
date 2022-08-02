@@ -4,9 +4,10 @@ product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: Close your Workfront Proof account
 description: After completing the steps in this section, your account will be closed immediately. All data in your account will be deleted and cannot be restored.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: df19f99b-974d-47ad-87ba-79775cb08a4d
 ---
-
 # Close your Workfront Proof account
 
 >[!IMPORTANT]
@@ -37,4 +38,3 @@ You can contact us at support@proofhq.com with your comments; all feedback is we
 1. Enter your password to close your account. (6)
 
    ![Close_Account_-_password_pop-up.png](assets/close-account---password-pop-up-350x152.png)
-

@@ -3,9 +3,10 @@ filename: tips-troubleshoot-api
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: workfront-api
 title: Tips, tricks, and troubleshooting for Adobe Workfront API
-description: This section contains the following articles - EDIT ME.
+description: Tips, tricks, and troubleshooting for Adobe Workfront API
+author: John
+exl-id: 644b9323-c6c3-49bd-8295-b51352992316
 ---
-
 # Tips, tricks, and troubleshooting for Adobe Workfront API
 
 This section contains the following articles:
@@ -15,4 +16,3 @@ This section contains the following articles:
 * [Sorting query results in the API](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md) 
 * [Update to emailAddr does not update the username](../../wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md) 
 * [Add advanced proofing options when creating a proof through the Adobe Workfront API](../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
-

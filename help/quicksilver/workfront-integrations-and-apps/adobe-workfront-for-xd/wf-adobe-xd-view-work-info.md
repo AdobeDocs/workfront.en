@@ -3,9 +3,10 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
 title: View work item information in Adobe XD
 description: You can see information about projects, tasks, issues, and documents from Adobe XD.
-feature: "Workfront Integrations and Apps, Digital Content and Documents"
+author: Courtney
+feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: c6836ad0-573a-4ac7-ae62-96391bfbce00
 ---
-
 # View work item information in Adobe XD
 
 You can see information about projects, tasks, issues, and documents from Adobe XD.
@@ -117,4 +118,3 @@ You must have the following access to perform the steps in this article:
    * Custom Form data
 
    ![](assets/custom-form-data-350x472.png)
-

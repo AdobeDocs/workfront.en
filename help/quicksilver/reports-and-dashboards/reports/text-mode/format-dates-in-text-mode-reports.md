@@ -3,9 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Format dates in text mode reports
 description: Dates can be configured to display in a variety of formats in reports and lists in Adobe Workfront. To establish a date format, you must modify the valueformat line of the text mode code in the column.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
 ---
-
 # Format dates in text mode reports
 
 Dates can be configured to display in a variety of formats in reports and lists in Adobe Workfront. To establish a date format, you must modify the `valueformat` line of the text mode code in the column.
@@ -42,4 +43,3 @@ valueformat
 | Mth, DD, YR |Oct, 11, 2018 |`mediumAtDate` |
 | DW, Mth, Day, YR |Mon, Oct, 11, 2018 |`partialAtDate` |
 | DW, Mth, Day, YR Time |Mon, Oct, 11, 2018 12:00 pm |`fullAtDate` |
-

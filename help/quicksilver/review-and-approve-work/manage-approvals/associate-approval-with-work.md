@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: approvals
 title: Associate a new or existing approval process with work
 description: This article describes how you can associate approval processes with work items. For information about associating approvals with proofs or documents, see the following articles - EDIT ME.
+author: Courtney
 feature: Work Management
+exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 ---
-
 # Associate a new or existing approval process with work
 
 This article describes how you can associate approval processes with work items. For information about associating approvals with proofs or documents, see the following articles:
@@ -158,7 +159,7 @@ To modify a approval process already attached to an item:
 
 1. After the global approval process is added, click the **Edit**icon ![](assets/edit-icon.png) in the upper-right corner of the approval page. This action turns the global or group-level approval process into a single-use approval process. 
 1. Make any changes to the existing approval process. For more information, see the section [Associate a single-use approval process with a project, task, issue, template, or template task](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task) in this article. 
-1. Click **Save**, then click**Save** again to confirm that you want to convert the global approval process to a single-use approval process that is available only on this object.
+1. Click **Save**, then click **Save** again to confirm that you want to convert the global approval process to a single-use approval process that is available only on this object.
 
 ## Associate a single-use approval process with a project, task, issue, template, or template task {#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task}
 
@@ -238,4 +239,3 @@ You can associate an approval process automatically with work items using the fo
 * For projects and tasks, you can associate an approval process using a template. You can attach an existing approval process to the Template Approvals tab or the Template Task Approvals tab. For information about associating an existing approval with a work item, see [Associate a global approval process with a work item](#associate-a-global-approval-process-with-a-work-item) in this article.
 * For new tasks on an existing project, you can associate a global approval process or a group-level global approval process in the Task Settings area of the Edit Project box. For information, see the section "Task Settings"&nbsp;in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 * For issues, you can associate an approval with every new issue that is added to a project by associating an existing approval process with a request queue. For information about configuring request queues, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-

@@ -2,10 +2,11 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Use notifications
-description: This section contains the following articles - EDIT ME.
+description: Review these articles to learn how to use notifications in Adobe Workfront.
+author: Lisa
 feature: Get Started with Workfront
+exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
 ---
-
 # Use notifications
 
 This section contains the following articles:
@@ -33,4 +34,3 @@ This section contains the following articles:
 * [Notifications: Miscellaneous information](../../workfront-basics/using-notifications/notifications-misc-information.md) 
 * [Notifications: Requests I have made](../../workfront-basics/using-notifications/notifications-requests-i-have-made.md)
 * [Notifications: Delegation](../../workfront-basics/using-notifications/notifications-delegation.md)
-

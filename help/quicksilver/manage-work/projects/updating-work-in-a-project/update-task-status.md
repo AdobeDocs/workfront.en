@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: update-work-in-a-project
 title: Update task status
 description: You can update a task's status to inform others about where the task is (and the overall project) and how it is progressing.
+author: Alina
 feature: Work Management
+exl-id: e1efc676-e110-486e-91dc-f521421575e8
 ---
-
 # Update task status
 
 You can update a task's status to inform others about where the task is (and the overall project) and how it is progressing.
@@ -95,4 +96,3 @@ Workfront automatically updates the existing status of a task to a different sta
   </tr> 
  </tbody> 
 </table>
-

@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Create a proof for interactive content in a ZIP file
 description: You can generate a proof for non-website interactive content stored in a ZIP file. Examples of this type of web content include ads with streaming video or audio, HTML animations, Interactive banners.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 2ab00d17-a3a3-4417-a958-ac3d95cb8fc8
 ---
-
 # Create a proof for interactive content in a ZIP file
 
 You can generate a proof for non-website interactive content stored in a ZIP file. Examples of this type of web content include ads with streaming video or audio, HTML animations, Interactive banners.
@@ -65,4 +66,3 @@ Once you add interactive content in a ZIP file to a proof, Adobe Workfront&nbsp;
 
    * [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    * [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
-

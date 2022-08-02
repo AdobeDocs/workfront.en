@@ -4,9 +4,10 @@ product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
 title: Brand the Workfront Proof site - advanced
 description: Advanced branding is available on Select and Premium plans and is included in the cost of the plan.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
 ---
-
 # Brand the Workfront Proof site - advanced
 
 >[!IMPORTANT]
@@ -296,4 +297,3 @@ The wording of the alerts cannot be changed as these are the system messages.
 <note type="note"> Workfront Proof will not design your custom pages, the PSD files must be supplied by you, but if you have any questions, please contact our Support team.
 </note>
 -->
-

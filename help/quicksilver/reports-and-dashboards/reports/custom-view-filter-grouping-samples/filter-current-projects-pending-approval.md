@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filter: display your current projects pending approval"
+title: 'Filter: display your current projects pending approval'
 description: The following project filter displays projects in the Current - Pending Approval status, where the logged-in user is either the Project Sponsor or the Portfolio Manager.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 32045aec-acc5-44d2-bad5-7759dc797414
 ---
-
 # Filter: display your current projects pending approval
 
 The following project filter displays projects in the Current - Pending Approval status,&nbsp;where the logged-in user is either the Project Sponsor or the Portfolio Manager.
@@ -52,4 +53,3 @@ To apply this filter:
    <pre>status=CUR:A<br>sponsorID=$$USER.ID<br>OR:a:status=CUR:A<br>OR:a:portfolio:ownerID=$$USER.ID</pre>
 
 1. Click **Save Filter**.
-

@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filter: display only items in an approval status"
+title: 'Filter: display only items in an approval status'
 description: You can display only items in a certain status which is currently in Pending Approval. This works the same for any other object with an approval status.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
 ---
-
 # Filter: display only items in an approval status
 
 You can display only items in a certain status which is currently in Pending Approval. This works the same for any other object with an approval status.
@@ -65,4 +66,3 @@ You must have the following access to perform the steps in this article:
 1. Click **Done**, then **Save Filter**.
 
    The list displays only projects that are in a status of Planning - Pending Approval.
-

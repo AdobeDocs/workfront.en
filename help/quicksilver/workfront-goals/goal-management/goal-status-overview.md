@@ -4,9 +4,10 @@ product-previous: workfront-goals
 navigation-topic: goal-management
 title: Goal status overview in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+author: Alina
 feature: Workfront Goals
+exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
 ---
-
 # Goal status overview in Adobe Workfront Goals
 
 Your organization must have the following to use the functionality described in this article:
@@ -124,4 +125,3 @@ Goals can have one of the following statuses in Workfront Goals:
    * Goal Alignment section (only as aligned goals)
    * Pulse
    * Information from closed goals is also taken into account in the Graphs section.
-

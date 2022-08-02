@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Report: Budgeted Hour"
-description: "Report: Budgeted Hour"
+title: 'Report: Budgeted Hour'
+description: 'Report: Budgeted Hour'
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
 ---
-
 # Report: Budgeted Hour
 
 <!--
@@ -127,4 +128,3 @@ The following information is available in the Budgeted Hour report by default:
   </tr> 
  </tbody> 
 </table>
-

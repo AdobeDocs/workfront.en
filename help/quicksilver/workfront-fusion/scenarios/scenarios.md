@@ -5,9 +5,10 @@ product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Scenarios in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+author: Becky
 feature: Workfront Fusion
+exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
 ---
-
 # Scenarios in Adobe Workfront Fusion
 
 >[!INFO]
@@ -39,4 +40,3 @@ This section contains the following articles:
 * [Adobe Workfront Fusion scenario example: Connect email, Text Parser, and Google Sheets](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md) 
 * [Restore a scenario version in Adobe Workfront Fusion](../../workfront-fusion/scenarios/restore-a-scenario-version.md) 
 * [Copy modules or scenarios in Adobe Workfront Fusion](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
-

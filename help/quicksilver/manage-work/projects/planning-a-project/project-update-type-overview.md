@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: plan-a-project
 title: Project Update Type overview
 description: The Update Type of a project indicates how Adobe Workfront calculates the timeline of a project. Changes in the project plan might trigger changes in the timeline of the project. The timeline of the project must be automatically or manually recalculated to ensure it is up to date with these changes.
+author: Alina
 feature: Work Management
+exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
 ---
-
 # Project Update Type overview
 
 The Update Type of a project indicates how Adobe Workfront calculates the timeline of a project. Changes in the project plan might trigger changes in the timeline of the project. The timeline of the project must be automatically or manually recalculated to ensure it is up to date with these changes.
@@ -44,4 +45,3 @@ For information about how to update the project's Update Type, see [Select the p
 
 * **Manual Only:**&nbsp;The project timeline is updated only&nbsp;when you select the option to **Recalculate Timelines**, as described in the section "Manual Recalculation" in&nbsp;the article [Recalculate project timelines](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).  
   You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).
-

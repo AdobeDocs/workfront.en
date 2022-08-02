@@ -3,9 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: What's New in API Version 7
 description: Collections
+author: John
 feature: Workfront API
+exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 ---
-
 # What's New in API Version 7
 
 ## New Objects
@@ -558,4 +559,4 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 {style="table-layout:auto"}
 
-¹ Changes to possible Values 
+¹ Changes to possible Values

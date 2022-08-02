@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: results-and-activities
 title: Edit results and activities in Adobe Workfront Goals
 description: After your Adobe Workfront administrator has granted you the correct access to Adobe Workfront Goals, you can create and edit goals, results, and activities.
+author: Alina
 feature: Workfront Goals
+exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
 ---
-
 # Edit results and activities in&nbsp;Adobe Workfront Goals
 
 After your Adobe Workfront administrator has granted you the correct access to Adobe Workfront Goals, you can create and edit goals, results, and activities.&nbsp;
@@ -133,4 +134,3 @@ You must have the following before you can start:
    {style="table-layout:auto"}
 
 1. Click **Save**.
-

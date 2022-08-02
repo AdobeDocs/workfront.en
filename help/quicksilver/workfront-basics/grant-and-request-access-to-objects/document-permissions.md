@@ -4,9 +4,10 @@ content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 description: Your Adobe Workfront administrator grants users access to view or edit documents when they assign access levels, as explained in Grant access to documents.
+author: Alina
 feature: Get Started with Workfront
+exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 ---
-
 # Share a document
 
 Your Adobe Workfront administrator grants users access to view or edit documents when they assign access levels, as explained in [Grant access to documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
@@ -207,4 +208,4 @@ The following table displays what permissions you can grant users when allowing 
 
 &#42; Action is shared by both Documents and Document Folders.
 
-&#42;&#42; You must have a separate proofing license associated with your Workfront account to be able to proof documents. Contact your account manager about acquiring a proofing license. For more information about proofing in Workfront, see [Proofing](../../review-and-approve-work/proofing/proofing.md). 
+&#42;&#42; You must have a separate proofing license associated with your Workfront account to be able to proof documents. Contact your account manager about acquiring a proofing license. For more information about proofing in Workfront, see [Proofing](../../review-and-approve-work/proofing/proofing.md).

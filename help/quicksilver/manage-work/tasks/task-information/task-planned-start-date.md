@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: task-information
 title: Overview of the task Planned Start Date
 description: The Planned Start Date of a task is the date when you, as the task creator, decide that the work on the task should start. Planned task dates influence the dates and the timeline on the project. For information about the project Planned Start Date, see Overview of the project Planned Start Date.
+author: Alina
 feature: Work Management
+exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
 ---
-
 # Overview of the task Planned Start Date
 
 The Planned Start Date of a task is the date when you, as the task creator, decide that the work on the task should start. Planned task dates influence the dates and the timeline on the project. For information about the project Planned Start Date, see [Overview of the project Planned Start Date](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
@@ -86,4 +87,3 @@ For example, if your task has a Completion Date of September 16 and a duration o
 >
 >&nbsp;The Update Type for the project must also be&nbsp;set to 'Automatic and On Change' or 'Automatically' in order for the Planned Hours and Duration to be automatically&nbsp;adjusted.   
 >For more information about the Update Type, see the article [Select the project Update Type](../../../manage-work/projects/manage-projects/select-project-update-type.md).
-

@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: remove link to an object in a column"
+title: 'View: remove link to an object in a column'
 description: Some objects that you display in a view link to the Details page of the object, by default. For example, the column that displays the Name of a project is a link to the project; the column that displays the Name of a user is a link to the user's profile page.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
 ---
-
 # View: remove link to an object in a column
 
 Some objects that you display in a view link to the Details page of the object, by default. For example, the column that displays the Name of a project is a link to the project; the column that displays the Name of a user is a link to the user's profile page.
@@ -89,4 +90,3 @@ You must have the following access to perform the steps in this article:
    >
 
 1. Click **Save**, then **Save View**.
-

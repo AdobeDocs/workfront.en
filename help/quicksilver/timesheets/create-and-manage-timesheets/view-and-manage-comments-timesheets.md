@@ -3,9 +3,10 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: View and manage comments on a timesheet
 description: You can make comments on the following items in a timesheet - EDIT ME.
+author: Lisa
 feature: Timesheets
+exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
 ---
-
 # View and manage comments on a timesheet
 
 You can make comments on the following items in a timesheet:
@@ -120,6 +121,4 @@ You can comment only on tasks and issues in a timesheet. You cannot comment on p
 The update displays in the Updates section of the task and issue.
 1. (Optional) Click [!UICONTROL **Close Summary**] to close the Summary panel. 
 
-   For more information about updating tasks and issues in the Summary panel, see [Summary overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
-
-
+   For more information about updating tasks and issues in the Summary panel, see [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md).

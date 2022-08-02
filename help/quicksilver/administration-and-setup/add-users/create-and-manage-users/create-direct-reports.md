@@ -3,11 +3,12 @@ title: Create direct reports
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: You can designate users as direct reports to another user. This allows you to create an organization chart that displays the management structure of your organization. For more information, see View the organizational chart.
+description: You can designate users as direct reports to another user. This allows you to create an organization chart that displays the management structure of your organization.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
 ---
-
 # Create direct reports
 
 You can designate users as direct reports to another user. This allows you to create an organization chart that displays the management structure of your organization. For more information, see [View the organizational chart](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
@@ -22,11 +23,11 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -50,4 +51,3 @@ You must have the following to perform the steps in this article:
 
 1. (Optional) In the **Reports To** field, specify the name of the user who this user reports to.
 1. Click **Save Changes**.
-

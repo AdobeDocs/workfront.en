@@ -3,9 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: Delete a request draft
 description: You can delete request drafts as you are creating them, by discarding them.
+author: Alina
 feature: Work Management
+exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
 ---
-
 # Delete a request draft
 
 You can delete request drafts as you are creating them, by discarding them.
@@ -62,4 +63,3 @@ You must do the following before you can delete&nbsp;a request draft:
 1. Click **Yes, Delete it**.
 
    The draft is deleted and cannot be recovered.
-

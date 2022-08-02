@@ -3,9 +3,10 @@ product-previous: workfront-goals
 navigation-topic: goal-management
 title: Move goals from one time period to another in Adobe Workfront Goals
 description: You can move goals from one time period to another by editing their Period field. All goal information is preserved, including the status, progress, and results and activities connected to the goal.
+author: Alina
 feature: Workfront Goals
+exl-id: 89ec0f55-49e3-48d2-b08f-12f4fbb90247
 ---
-
 # Move goals from one time period to another in Adobe Workfront Goals
 
 You can move goals from one time period to another by editing their Period field. All goal information is preserved, including the status, progress, and results and activities connected to the goal.
@@ -59,4 +60,4 @@ You must have the following before you can start:
 
 ## Move goals to another time period
 
-You can update the Period field on a goal when you edit it. For information about editing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md). 
+You can update the Period field on a goal when you edit it. For information about editing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).

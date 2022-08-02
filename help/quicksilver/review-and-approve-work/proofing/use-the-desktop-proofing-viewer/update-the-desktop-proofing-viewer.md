@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
 title: Update the Desktop Proofing Viewer
 description: Occasionally, new software updates containing improvements and bug fixes become available for the Desktop Proofing Viewer. Users can run these updates without the help of an Adobe Workfront administrator.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: b29ce9d0-9203-49aa-aa4c-70dee121cd17
 ---
-
 # Update the Desktop Proofing Viewer
 
 Occasionally, new software updates containing improvements and bug fixes become available for the Desktop Proofing Viewer. Users can run these updates without the help of an Adobe Workfront administrator.
@@ -28,7 +29,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td> <p>Any</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,4 +72,3 @@ It is important that you run required updates for the Desktop Proofing Viewer. A
 1. In the box that appears, click&nbsp;**Relaunch.**
 
    The Desktop Proofing Viewer relaunches and you can resume work on your proof.&nbsp;
-

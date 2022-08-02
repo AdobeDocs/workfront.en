@@ -4,9 +4,10 @@ product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
 title: Review a Proof in Basecamp Classic
 description: Basecamp is an online project management tool developed by 37signals. If you use Basecamp for project management you can offer your project team richer review and approval tools using Workfront Proof.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: b14f33dc-e059-4ee2-a429-9f1852a2b9bb
 ---
-
 # Review a Proof in Basecamp Classic
 
 >[!IMPORTANT]

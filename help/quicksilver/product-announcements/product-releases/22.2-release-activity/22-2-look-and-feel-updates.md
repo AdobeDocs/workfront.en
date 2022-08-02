@@ -1,8 +1,10 @@
 ---
 title: Look-and-feel updates during the 22.2 release timeframe
 description: Look-and-feel updates during the 22.2 release timeframe
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 00113f7e-2f69-445d-847e-14fd464241de
 ---
 # Look-and-feel updates during the 22.2 release timeframe
 
@@ -74,7 +76,5 @@ The toolbars on the following lists and reports now have a modern look and feel,
 * Project: Expenses list
 * Project:&nbsp;Hours list
 * Project: People list
-
-For information about the new toolbar in lists throughout Workfront, see [Toolbar for lists in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md).
 
 &nbsp;

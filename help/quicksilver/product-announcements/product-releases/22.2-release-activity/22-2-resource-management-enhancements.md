@@ -1,8 +1,10 @@
 ---
 title: 22.2 Resource Management enhancements
 description: 22.2 Resource Management enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 5f11c43c-3aa8-4135-b6bf-07b9993e63d9
 ---
 # 22.2 Resource Management enhancements
 
@@ -52,4 +54,4 @@ User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off
 
 For more information, see [Configure Resource Management preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/686855756/688f5494a6) 
+[Watch a video demonstration of this feature.](https://vimeo.com/686855756/688f5494a6)

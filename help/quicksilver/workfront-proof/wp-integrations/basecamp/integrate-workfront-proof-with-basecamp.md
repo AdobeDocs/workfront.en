@@ -4,9 +4,10 @@ product-area: documents;workfront-integrations
 navigation-topic: basecamp
 title: Integrate Workfront Proof with Basecamp
 description: If you use Basecamp for project management you can offer your project team richer review and approval tools using Workfront Proof.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: f6d5aef6-573d-4398-a057-ffea2e67288f
 ---
-
 # Integrate Workfront Proof with Basecamp
 
 >[!IMPORTANT]
@@ -105,4 +106,3 @@ After you set up [Account settings](https://support.workfront.com/hc/en-us/secti
    1. Click **Integrate with this account** to connect it with Workfront Proof.  
       ![Basecamp_switching_accounts_2.png](assets/basecamp-switching-accounts-2-350x138.png)  
       You can now add proofs to Basecamp projects.
-

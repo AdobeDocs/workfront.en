@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: task-information
 title: Planned Hours overview
 description: The Planned Hours associated with a task, issue, or project represent the amount of time required for the assigned users to complete the task, issue, or project.
+author: Alina
 feature: Work Management
+exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
 ---
-
 # Planned Hours overview
 
 The Planned Hours associated with a task, issue, or project represent the amount of time required for the assigned users to complete the task, issue, or project.
@@ -402,4 +403,3 @@ When viewing Planned Hours in the Resource Management tools by a specific time f
 </ul>
 </div>
 -->
-

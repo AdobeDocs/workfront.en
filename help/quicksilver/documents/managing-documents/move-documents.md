@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: manage-documents
 title: Move documents
 description: A user with manage rights on a document can move the document to another object.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
 ---
-
 # Move documents
 
 A user with manage rights on a document can move the document to another object.

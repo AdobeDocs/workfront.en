@@ -1,8 +1,10 @@
 ---
 title: 20. 4 Analytics enhancements
 description: 20. 4 Analytics enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
 ---
 # 20. 4 Analytics enhancements
 

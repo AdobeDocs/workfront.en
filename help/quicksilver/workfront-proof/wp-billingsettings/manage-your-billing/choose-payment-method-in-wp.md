@@ -4,9 +4,10 @@ product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: Choosing Your Payment Method in Workfront Proof
 description: The following payment options are available - EDIT ME.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: cc23012f-ea1a-41e6-b101-877b85605775
 ---
-
 # Choosing Your Payment Method in Workfront Proof
 
 >[!IMPORTANT]
@@ -62,4 +63,3 @@ If you have Satellite accounts, you need to update your credit card details and 
 1. Choose the satellite account (2) that is associated with the credit card you want to update.
 1. Continue with [Changing your payment method and credit card details](#changing-your-payment-method-and-credit-card-details).  
    ![Satellite_Account_Billing_Page.png](assets/satellite-account-billing-page-350x167.png)
-

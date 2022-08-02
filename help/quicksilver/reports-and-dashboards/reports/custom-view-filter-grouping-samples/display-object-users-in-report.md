@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Reports or lists: display users associated with an object"
+title: 'Reports or lists: display users associated with an object'
 description: You can display users, job roles, and teams associated with objects in reports or lists as well as reference them in filters. You cannot group by users, job roles, or teams associated with objects.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
 ---
-
 # Reports or lists: display users associated with an object
 
 You can display users, job roles, and teams associated with objects in reports or lists as well as reference them in filters. You cannot group by users, job roles, or teams associated with objects.
@@ -92,4 +93,4 @@ You can display all users and roles associated with a program by displaying them
 
 For information about building a project report to display all users and their roles on the project, see [View: list of project users with job roles](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
-You cannot filter for users or job roles associated with projects in a program or project filter. 
+You cannot filter for users or job roles associated with projects in a program or project filter.

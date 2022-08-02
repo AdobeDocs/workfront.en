@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: task-information
 title: View Actual Hours
 description: The hours you log on your work items in Adobe Workfront are considered Actual Hours.
+author: Alina
 feature: Work Management
+exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
 ---
-
 # View Actual Hours
 
 The hours you log on your work items in Adobe Workfront are considered Actual Hours.
@@ -140,5 +141,4 @@ If you want to see the progress of the work your users are doing on their assign
 
 You can log time on tasks, issues, and projects in multiple ways.
 
-For more information about logging time in Workfront, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).   
-
+For more information about logging time in Workfront, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).

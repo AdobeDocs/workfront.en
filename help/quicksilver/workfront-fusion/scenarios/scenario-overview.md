@@ -5,12 +5,13 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion scenario overview
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+author: Becky
 feature: Workfront Fusion
+exl-id: 13d6230d-51f6-4f68-8697-30f8ce6c8599
 ---
-
 # Adobe Workfront Fusion scenario overview
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
@@ -63,4 +64,3 @@ For a list of dedicated connectors, see [Apps and their modules](../../workfront
 >* [SOAP module](../../workfront-fusion/apps-and-their-modules/soap-module.md) 
 >* [JSON modules](../../workfront-fusion/apps-and-their-modules/json-modules.md) 
 >
-

@@ -3,9 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Updates to API Version 8
 description: The following existing resources have been updated with this release of the Adobe Workfront API. To view the resources that are new to versions 8, please see What's New in API Version 8. Changes made to a resource are indicated in the following manner - EDIT ME.
+author: John
 feature: Workfront API
+exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
 ---
-
 # Updates to API Version 8
 
 ## Updated Resources
