@@ -158,6 +158,7 @@ You must have the following:
       <td role="rowheader"> Choose what happens when the approval is rejected</td> 
       <td> <p>Select the action you want to take if the work item is rejected at any stage of the path:</p> 
        <ul> 
+
        <li><b>Create an Issue</b>: (Available only for project and task approval processes) An issue is created in the project or task where the approval process is running. The default assigned resource on the task, or the owner of the project is assigned to the issue. By default, the name of the issue created is <b>Approval Rejected (&lt;Project or Task Name&gt;)</b>. This is a Rejection Issue, entered under the task or the project, depending on the approval process where the rejection happened.</li> 
        <li> 
        <p><b>Set Status to</b>: Choose one of the following:</p> 
@@ -172,6 +173,7 @@ You must have the following:
       <p>For information about how approval process work with statuses, see the section <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">How approval processes rely on statuses</a> in the article <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </li> 
       </ul> 
       </td> 
+
      </tr> 
     </tbody> 
    </table>

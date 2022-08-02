@@ -264,11 +264,11 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 >[!NOTE]
 >
->The `styledef.case.0.comparison.icon` line is always false unless working with icons.
+>The *styledef.case.0.comparison.icon* line is always false unless working with icons.
 >
->The `styledef.case.0.comparison.truetext` line is always left blank until working with overwriting text.
+>The *styledef.case.0.comparison.truetext* line is always left blank until working with overwriting text.
 >
->The `styledef.case.0.comparison.righttext` line is blank when the qualifier is notblank.
+>The *styledef.case.0.comparison.righttext* line is blank when the qualifier is notblank.
 
 For example, if we wanted to show the Company Name in green text on a project report, you can use the following code:
 

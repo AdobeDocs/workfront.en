@@ -85,7 +85,7 @@ You must have the following:
      </tr> 
      <tr> 
       <td role="rowheader">Is Active</td> 
-      <td> <p>Keep this option enabled if you want other users to be able to attach the approval process to projects, tasks, and issues that they create. </p> <p>This option is enabled by default.</p> <p>Tip: Marking an approval process as inactive is useful when your organization no longer needs to use it, but you want to preserve historical information about its use.</p> </td> 
+      <td> <p>Keep this option enabled if you want other users to be able to attach the approval process to projects, tasks, and issues that they create. </p> <p>This option is enabled by default.</p> <p> Marking an approval process as inactive is useful when your organization no longer needs to use it, but you want to preserve historical information about its use.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">This approval process can be used by </td> 
@@ -155,13 +155,7 @@ You must have the following:
        <li><p><b>Any other status in the list</b>: The rejected object moves to the status you choose, such as On Hold. You can choose one of the default statuses or a custom statuses you added to your Workfront system.</p>
        <p>If you select a status associated with an approval process as the rejection status, the rejected object moves to the selected status and it will be marked as "Pending approval".</p> 
        <p> For example, if you select On Hold for the rejection status and the On Hold status is associated with an approval process, the rejected object is placed in the status of "On Hold - Pending approval" status, requiring the approval.</p> 
-       <!--
-       (NOTE: the caveat about the rejection status in an approval below might change; this is on the Product roadmap and might be fixed. Right now, this is a bug but we had to document it due to a request from customers - September 2021)--> 
-       <p>For a system-wide approval process, only system-wide statuses are available.</p> 
-       <p>For a group-specific approval process, all group statuses are available. This includes any custom statuses that the group administrator created specifically for the group, as well as any system-wide statuses. </p> 
-       <p>For information about how approval process work with statuses, see the section <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">How approval processes rely on statuses</a> in the article <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> 
-       </li> 
-       </ul> </li> 
+      
      </tr> 
     </tbody> 
    </table>
