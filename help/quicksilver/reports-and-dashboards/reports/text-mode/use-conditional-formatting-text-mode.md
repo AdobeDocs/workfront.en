@@ -10,7 +10,7 @@ exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
 # Use conditional formatting in Text Mode
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))</p>
+(NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))
 -->
 
 The standard interface builder provides a great range of flexibility when creating reporting elements to meet the needs in your organization.
