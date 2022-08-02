@@ -286,7 +286,7 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 
 >[!NOTE]
 >
->* While this statement could be applied to a Company Name column, it could also be applied to any other column on the report. Green text would only be displayed if the project had a Company associated with it. Remember the [field name], [value], and [qualifier] drive whether or not the conditioning ultimately displays on the column.
+>* While this statement could be applied to a Company Name column, it could also be applied to any other column on the report. Green text would only be displayed if the project had a Company associated with it. Remember the `[field name]`, `[value]`, and `[qualifier]` drive whether or not the conditioning ultimately displays on the column.
 >* When working with qualifiers, we recommended using `cicontains` rather than `equal`. By default, `equal` looks for ID numbers. Using the `cicontains` qualifier, you can access items by their name.
 
 ![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
@@ -550,11 +550,11 @@ To use the images available, apply the following code and values:
 
 ### Conditionally format a `valueexpression` {#conditionally-format-a-valueexpression}
 
-To display a calculated value in a column, you can replace the `valuefield` line of code in the column with a `valueexpression`. A calculated value allows you to display a new value for an objects based on the calculation between two existing fields on that same object.  
+To display a calculated value in a column, you can replace the `valuefield` line of code in the column with a `valueexpression`. A calculated value allows you to display a new value for an objects based on the calculation between two existing fields on that same object.
+
 For more information about how to format the `valueexpression line`, see [Text mode syntax overview](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-You cannot conditionally format a column which contains a `valueexpression` line of code. 
-Instead, you can add a Calculated Custom Field to a Custom Form and associate it with the objects you are displaying in the report. Then, you can conditionally format the columns displaying this field.
+You cannot conditionally format a column which contains a `valueexpression` line of code. Instead, you can add a Calculated Custom Field to a Custom Form and associate it with the objects you are displaying in the report. Then, you can conditionally format the columns displaying this field.
 
 For more information about Calculated Custom Fields, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
