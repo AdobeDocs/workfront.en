@@ -1,6 +1,6 @@
 ---
 title: Configurable access to functionality for each object type
-description: Configurable access to functionality for each object type
+description: This article explains what you can allow as an Adobe Workfront administrator for each object type, in each access level. It also explains what the default configuration is for each type of access level.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
