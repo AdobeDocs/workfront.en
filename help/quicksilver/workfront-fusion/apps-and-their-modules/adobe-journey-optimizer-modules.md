@@ -258,7 +258,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
     </tr>
    <tr>
       <td role="rowheader">Placements</td>
-      <td>Select the placements to add to thid decision
+      <td>Select the placements to add to this decision
       </td>
     </tr>
    <tr>
@@ -316,9 +316,78 @@ This action module creates a placement, decision rule, tag, personalized offer, 
 
 ##### Fallback offer fields
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Name</td>
+     <td>Enter or map a name for the fallback offer.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        Status
+      </td>
+      <td> Select the status of the fallback offer.
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        Placement
+      </td>
+      <td>Enter or map the placement for the fallback offer.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ##### Personalized offer fields
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Name</td>
+     <td>Enter or map a name for the description rule.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Status</td>
+      <td>Select the status for the decision.
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Placement</td>
+      <td>Select the placement for the personalized offer.
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Start date</td>
+      <td><p>Enter or map the start date for the personalized offer.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</p>
+      </td>
+    </tr>
+   <tr>
+      <td role="rowheader">End date</td>
+      <td><p>Enter or map the end date for the personalized offer.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</p>
+      </td>
+    </tr>
+   <tr>
+      <td role="rowheader">Decision rules</td>
+      <td>Select the decision rules to add to this personalized offer.
+      </td>
+    </tr>
+   <tr>
+      <td role="rowheader">Priority</td>
+      <td>Select the priority of this offer. Priority affects whether this offer will be presented rather than another offer.
+      </td>
+    </tr>
+   <tr>
+      <td role="rowheader">Capping constraint</td>
+      <td>Enter or map the number of times this offer will be presented.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 #### Make a custom API call
 
