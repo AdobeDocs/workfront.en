@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: run-diagnostics
 title: Use Diagnostics to trigger automated processes
-description: Use Diagnostics to trigger automated processes
+description: You can use Diagnostics to manually trigger automated processes, such as time-based scripts, recalculations, or email notifications.
 feature: System Setup and Administration
 role: Admin
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511

@@ -157,14 +157,13 @@ You must have the following:
      <tr> 
       <td role="rowheader"> Choose what happens when the approval is rejected</td> 
       <td> <p>Select the action you want to take if the work item is rejected at any stage of the path:</p> 
+
        <ul> <li><strong>Create an Issue</strong>: (Available only for project and task approval processes) An issue is created in the project or task where the approval process is running. The default assigned resource on the task, or the owner of the project is assigned to the issue. By default, the name of the issue created is <strong>Approval Rejected (Project or Task Name)</strong>. This is a Rejection Issue, entered under the task or the project, depending on the approval process where the rejection happened.</li> 
        <li> <p><strong>Set Status to</strong>: Choose one of the following:</p> 
        <ul> <li><strong>Previous Status</strong>: The rejected project, task, or issue reverts to the status prior to the status that activates the approval process.</li> 
        <li> <p><strong>Any other status in the list</strong>: The rejected object moves to the status you choose, such as On Hold. You can choose one of the default statuses or a custom statuses you added to your Workfront system.</p> <p>If you select a status associated with an approval process as the rejection status for an approval path, the rejected object moves to the selected status, and it will be marked as “Pending approval”.</p>
        <p>For example, if you select On Hold for the rejection status and the On Hold status is associated with an approval process, the rejected object is placed in the status of “On Hold- Pending approval”, requiring the approval.</p>    <p>For a system-wide approval process, only system-wide statuses are available.</p> <p>For a group-specific approval process, all group statuses are available. This includes any custom statuses that the group administrator created specifically for the group, as well as any system-wide statuses. </p> <p>For information about how approval process work with statuses, see the section <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">How approval processes rely on statuses</a> in the article <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </li>
        </ul> </li> 
-       </ul> </td> 
-
      </tr> 
     </tbody> 
    </table>
