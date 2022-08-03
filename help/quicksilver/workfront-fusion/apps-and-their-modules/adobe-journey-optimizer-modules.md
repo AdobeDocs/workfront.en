@@ -73,6 +73,76 @@ Before you can use the Adobe Journey Optimizer connector, you must ensure that t
 
 *   You must have an active Adobe Journey Optimizer account.
 
+## Create a connection to Adobe Journey Optimizer
+
+To create a connection for your Adobe Journey Optimizer modules:
+
+1.  In any Adobe Journey Optimizer module, click **Add** next to the Connection box.
+    
+1.  Fill in the following fields:
+      
+    <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">Connection name</td>
+          <td>
+            <p>Enter a name for this connection.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">Client ID</td>
+          <td>Enter your Adobe Client ID. This can be found in the Credentials details section of the Adobe Developer Console</td>
+        </tr>
+        <tr>
+          <td role="rowheader">Client Secret</td>
+          <td>Enter your Adobe Client Secret. This can be found in the Credentials details section of the Adobe Developer Console</td>
+        </tr>
+        <tr>
+          <td role="rowheader">Technical account ID</td>
+          <td>Enter your Adobe Technical account ID. This can be found in the Credentials details section of the Adobe Developer Console</td>
+        </tr>
+        <tr>
+          <td role="rowheader">Organization ID</td>
+          <td>Enter your Adobe Organization ID. This can be found in the Credentials details section of the Adobe Developer Console</td>
+        </tr>
+        <tr>
+          <td role="rowheader">Meta Scopes</td>
+          <td>
+            Enter any meta scopes needed for the connection.
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">Private key</td>
+          <td>
+            <p>Enter the private key that was generated when your credentials were created in the Adobe Developer Console. </p>
+            <p>To extract your private key or certificate:</p>
+            <ol>
+              <li value="1">
+                <p>Click <b>Extract</b>.</p>
+              </li>
+              <li value="2">
+                <p>Select the type of file you are extracting.</p>
+              </li>
+              <li value="3">
+                <p>Select the file that contains the private key or certificate.</p>
+              </li>
+              <li value="4">
+                <p>Enter the password for the file.</p>
+              </li>
+              <li value="5">
+                <p>Click <b>Save</b> to extract the file and return to the connection setup.</p>
+              </li>
+            </ol>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+1. Click **Continue** to save the connection and return to the module.
+
 ## Adobe Journey Optimizer modules and their fields
 
 When you configure Adobe Journey Optimizer modules, Workfront Fusion displays the fields listed below. Along with these, additional Adobe Journey Optimizer fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
@@ -80,6 +150,150 @@ When you configure Adobe Journey Optimizer modules, Workfront Fusion displays th
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
+
+#### Create a record
+
+This action module creates a placement, decision rule, tag, personalized offer, collection, or fallback offer.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Connection</td>
+     <td>For instructions on creating a connection to Adobe Journey Optimizer, see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to Adobe Journey Optimizer</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        Record Type
+      </td>
+      <td>
+        Select the type of record that you want to create
+        <ul>
+        <li><b>Placement</b>: Continue to <a href="#placement-fields" >Placement fields</a>.</li>
+        <li><b>Decision rule</b>: Continue to <a href="#decision-rule-fields" >Decision rule fields</a>.</li>
+        <li><b>Decision</b>: Continue to <a href="#decision-fields" >Decision fields</a>.</li>
+        <li><b>Tag</b>: Continue to <a href="#tag-fields" >Tag fields</a>.</li>
+        <li><b>Collection</b>: Continue to <a href="#collection-fields" >Collection fields</a>.</li>
+        <li><b>Fallback offer</b>: Continue to <a href="fallback-offer-fields" >Fallback offer fields</a>.</li>
+        <li><b>Personalized offer</b>: Continue to <a href="#personalized-offer-fields" >Personalized offer fields</a>.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+##### Placement fields
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Name</td>
+     <td>Enter or map a name for the placement.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        Description
+      </td>
+      <td>Enter or map a description for the placement.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+##### Decision rule fields
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Name</td>
+     <td>Enter or map a name for the description rule.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        Description
+      </td>
+      <td>Enter or map a description for the decision rule.
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        Condition
+      </td>
+      <td>Enter or map the condition the decision rule.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+##### Decision fields
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Name</td>
+     <td>Enter or map a name for the description rule.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Status</td>
+      <td>Select the status for the decision.
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Start date</td>
+      <td><p>Enter or map the start date for the decision.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</p>
+      </td>
+    </tr>
+   <tr>
+      <td role="rowheader">End date</td>
+      <td><p>Enter or map the end date for the decision.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</p>
+      </td>
+    </tr>
+   <tr>
+      <td role="rowheader">Placements</td>
+      <td>Select the placements to add to thid decision
+      </td>
+    </tr>
+   <tr>
+      <td role="rowheader">Collection</td>
+      <td>Select the offer collection that contains the offers that this decision will consider.
+      </td>
+    </tr>
+   <tr>
+      <td role="rowheader">Fallback offer</td>
+      <td>Select the fallback offer that will be presented to customers that do not match the rules for this decision.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+##### Tag fields
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Name</td>
+     <td>Enter or map a name for the tag.</td>
+    </tr>
+  </tbody>
+</table>
+
+##### Collection fields
+
+##### Fallback offer fields
+
+##### Personalized offer fields
+
+
 
 #### Make a custom API call
 
@@ -91,7 +305,7 @@ This module makes a custom API call to the Adobe Journey Optimizer API
   <tbody>
     <tr>
       <td role="rowheader">Connection</td>
-      <td>Connection</td>
+     <td>For instructions on creating a connection to Adobe Journey Optimizer, see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to Adobe Journey Optimizer</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -148,7 +362,7 @@ This search module lists records of the selected type, returning results based o
   <tbody>
     <tr>
       <td role="rowheader">Connection</td>
-      <td>Connection</td>
+     <td>For instructions on creating a connection to Adobe Journey Optimizer, see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to Adobe Journey Optimizer</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
