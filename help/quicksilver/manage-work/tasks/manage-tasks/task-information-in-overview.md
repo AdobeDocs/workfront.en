@@ -42,7 +42,7 @@ You must have the following:
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>View or higher access to Projects and Tasks</p> <p>Note: If you have the correct access level but still can't edit the Details  section  of the task, ask your Adobe Workfront if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects and Tasks</p> <p>If you have the correct access level but still can't edit the Details  section  of the task, ask your Adobe Workfront if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
@@ -88,7 +88,7 @@ You must have the following:
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
-      <td> <p>Users with Contribute or Manage permissions to a task can specify any links to internal or external pages that reference the task in this field.</p> </td> 
+      <td> <p>Users with Manage permissions to a task can specify a link to an internal or external page in this field.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Status</td> 
@@ -129,9 +129,9 @@ You must have the following:
          <p>Important: Because the task duration is typically the amount of time between the Planned Start and the Planned Completion Dates, it affects the timeline of the project.</p> 
          <p>To indicate the Duration of the task and the unit of time do the following:</p> 
          <ul> 
-          <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> <p>Tip: When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </p> </li> 
-         </ul> 
-         <p> You can choose from the regular time or elapsed time options in the following table: </p> 
+          <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> </li> </ul> 
+
+      <p><strong>TIP</strong></p> <p> When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </p>      <p> You can choose from the regular time or elapsed time options in the following table: </p> 
          <table style="table-layout:auto"> 
           <col> 
           <col data-mc-conditions=""> 
@@ -182,12 +182,10 @@ You must have the following:
            </tr> 
           </tbody> 
          </table> 
-         <p>Note: Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task. For more information about task duration, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> 
-         <p> <!--
-           <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-             You cannot specify the Duration of a task when the Duration Type of the task is Simple, or when the Task Constraint is Fixed Dates. (NOTE: Anna said this is now possible for all duration types in the Assignments area. It's not here, but to clear confusion, I am drafting this out of here.) 
-           </MadCap:conditionalText>
-          --></p> 
+         <p><strong>NOTE</strong> </p>
+         <p> Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task. For more information about task duration, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> 
+         <p> 
+         <!--You cannot specify the Duration of a task when the Duration Type of the task is Simple, or when the Task Constraint is Fixed Dates. (NOTE: Anna said this is now possible for all duration types in the Assignments area. It's not here, but to clear confusion, I am drafting this out of here.)--></p> 
         </div> 
        </div> </td> 
      </tr> 
@@ -222,7 +220,8 @@ You must have the following:
          <li>Medium <span style="font-weight: normal;">(this is the default value for a new task)</span></li> 
          <li>Large</li> 
         </ul> 
-        <p>Note: Updating the amount of effort could update the task Planned Hours. The update is immediate if the project Update Type is Automatic. When the project Update Type is Manual you must recalculate timeline to see the updated Planned Hours. </p> 
+        <p><strong>NOTE</strong></p> 
+        <p> Updating the amount of effort could update the task Planned Hours. The update is immediate if the project Update Type is Automatic. When the project Update Type is Manual you must recalculate timeline to see the updated Planned Hours. </p> 
         <p>For information about using Work Effort instead of Planned Hours to estimate task effort, see <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort overview</a>. </p> 
        </div> </td> 
      </tr> 
@@ -306,7 +305,7 @@ You must have the following:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Duration per Occurrence</td> 
-      <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p>Note: Durations modified in individual recurring tasks do not display the value indicated in this field. </p> </td> 
+      <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p><strong>NOTE</strong></p> <p> Durations modified in individual recurring tasks do not display the value indicated in this field. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -347,4 +346,4 @@ You must have the following:
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about editing financial information for a task, see <a href="../../../manage-work/tasks/manage-tasks/task-finances-in-details.md" class="MCXref xref">Manage task finances in the Task Details section</a>. </p>
    -->
 
-1. Click **Save****Changes**.
+1. Click **Save Changes**.
