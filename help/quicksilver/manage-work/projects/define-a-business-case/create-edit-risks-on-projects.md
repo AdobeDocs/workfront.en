@@ -96,12 +96,8 @@ In addition to creating and editing risks in the Business Case, you can do so us
    Sample image in the Production environment:
    ![](assets/risks-section-on-project-nwe-350x76.png)
 
-   <div class="preview">
-
    Sample image in the Preview environment:
    ![Risks section of task](assets/risks-section-on-project-2022.png)
-   
-   </div>
 
 1. Click **Start Adding Risks** and create risks by in-line editing their information.
 
