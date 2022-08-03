@@ -289,6 +289,31 @@ This action module creates a placement, decision rule, tag, personalized offer, 
 
 ##### Collection fields
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Name</td>
+     <td>Enter or map a name for the collection.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        Filter Type
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        Elements
+      </td>
+      <td>Select the tags to include in the colelction.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ##### Fallback offer fields
 
 ##### Personalized offer fields
