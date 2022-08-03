@@ -73,7 +73,7 @@ You must have the following:
 You can share filters in select lists using the following interfaces:
 
 * Standard interface
-* <span class="preview">Beta builder interface (available in the Preview environment only)</span>
+* Beta builder interface (available in the Preview environment only)
 
 Sharing filters in select lists is different depending on which interface you use to share the filter from. For information about the types of filter-building interfaces, see [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
