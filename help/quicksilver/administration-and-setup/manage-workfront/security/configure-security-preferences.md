@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
 title: Configure system security preferences
-description: Configure system security preferences
+description: As an Adobe Workfront administrator, you can configure security preferences for your Workfront system.
 author: Caroline
 feature: System Setup and Administration
 role: Admin

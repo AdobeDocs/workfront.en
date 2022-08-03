@@ -87,7 +87,7 @@ Consider the following when locating daily, weekly or monthly allocations for ta
 >
 >``` 
 >
->  Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
+>  Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours
 >```
 >
 >  For our example, the daily allocation hours for each day are: 

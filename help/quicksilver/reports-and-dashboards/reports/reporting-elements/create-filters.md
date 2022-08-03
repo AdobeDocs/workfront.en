@@ -77,18 +77,16 @@ You can create filters using the types of filter builders described in the table
 <td>Lists and reports</td>
 </tr>
 <tr>
-<td><span class="preview">Beta builder (Preview environment only)</span>
+<td>Beta builder (Preview environment only)
 </td>
 <td>
-<div class="preview">
 <ul>
 <li> <p>Projects</p> </li>
 <li> <p>Tasks </p> </li>
 <li> <p>Issues</p> </li>
 </ul>
-</div> </td>
+</td>
 <td>
-<div class="preview">
 <ul>
 <li> <p>Lists </p> </li>
 </ul>
@@ -96,7 +94,7 @@ You can create filters using the types of filter builders described in the table
 <li> <p>The Projects list in the Scenario Planner</p> <p>The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md">The Scenario Planner overview</a>. </p> </li>
 </ul>
 <p>NOTE: Beta builders for filters are not available in reports.
-</div> </td>
+</td>
 </tr>
 </tbody>
 </table>

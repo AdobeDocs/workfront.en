@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Create and manage a group's timesheet profiles
-description: Do this to other step articles about objects and groups? Remove steps and point to main article; add group or step in that article. Already done previously for approval processes.
+description: When you are viewing a group that you manage in the Groups area, you can view and work with the timesheet profiles for which the administrators of the group, or one of its subgroups, have administrative access.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
