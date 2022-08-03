@@ -46,9 +46,11 @@ For information on related topics, see the following articles:
    <td>Assigning access levels</td> 
    <td> <p>For instructions on how to assign an access level to a user, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </td> 
   </tr> 
+  <!--
   <tr> 
    <td>Access levels and proofing</td> 
    <td> <p>Your users' access levels can affect proofing for each permission profile. For more information, see the section in the article .</p> </td> 
   </tr> 
+  -->
  </tbody> 
 </table>

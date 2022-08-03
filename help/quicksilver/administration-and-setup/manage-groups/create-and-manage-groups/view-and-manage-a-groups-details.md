@@ -1,6 +1,6 @@
 ---
 title: View and manage a group's details
-description: View and manage a group's details
+description: You can view and edit the Group Details page for a group or subgroup that you manage.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin

@@ -1,6 +1,6 @@
 ---
 title: Update SAML 2.0 metadata in your IDP when using enhanced authentication
-description: Update SAML 2.0 metadata in your IDP when using enhanced authentication.
+description: As an Adobe Workfront administrator, you can integrate Workfront single sign-on (SSO) with any identity provider that supports the Security Assertion Markup Language (SAML) 2.0 protocol.
 author: Caroline
 feature: System Setup and Administration
 role: Admin

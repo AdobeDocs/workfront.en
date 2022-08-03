@@ -15,10 +15,6 @@ As an Adobe Workfront administrator, you can use an access level to define a use
 
 For information about the filter, view, and grouping controls, see [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
-<!--
-Maybe we need an article explaining how there are List Controls as a whole admin set of settings, list controls in Layout Templates, and list elements that users can work with?
--->
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 
