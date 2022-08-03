@@ -39,12 +39,21 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
    | Function |Description |Output |
    |---|---|---|
    | CONCAT |Merge two or more strings together end-to-end to create a new string. |String |
-   | CONTAINS |Evaluate if an argument field ("Find text" string) is contained within another argument field ("Within text" string). |True/False |
-   | IF |&nbsp; |&nbsp; |
+   | CONTAINS |Evaluate if a string argument field (Find text) is contained within another string argument field (Within text). |True/False |
    | ISBLANK |Evaluate if an argument field is blank. |True/False |
    | LEN |Measure the length (in number of characters) of an argument field. |Number |
-   | ROUND |&nbsp; |&nbsp; |
+   | ROUND |Returns a rounded number based on the selected precision. |Number |
    | SUBSTR |Create a new string from a larger string, which contains the characters between one index number (Start) through another (End). |String |
+   | LEFT |Create a new string from a larger string, which contains characters starting with the left-most and counting right a number of characters (Length). |String |
+   | RIGHT |Create a new string from a larger string, which contains characters starting with the right-most and counting left a number of characters (Length). |String |
+   | SUM |Add the values of two or more argument fields together. |Number |
+   | SUB |Subtract the values of two or more argument fields (in order from left to right). |Number |
+   | PROD |Multiply the values of two or more argument fields together. |Number |
+   | DIV |Divide the value of two or more argument fields (in order from left to right). |Number |
+   | MONTH |Returns a number equal to the month value for a date. |Number |
+   | YEAR |Returns a number equal to the year value for a date. |Number |
+   | DATEDIFF |Calculates the total number of days between two dates, rounded to one decimal place. |Number |
+   | WEEKDAYDIFF |Calculates the number of weekdays between two dates, rounded to one decimal place. |Number |   
 
    {style="table-layout:auto"}
 
