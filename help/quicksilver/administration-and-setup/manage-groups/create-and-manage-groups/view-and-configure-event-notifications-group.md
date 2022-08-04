@@ -66,10 +66,14 @@ You must have the following to perform the steps in this article:
    >* If a button in the <strong>Active</strong> column is grey and not dimmed <img src="assets/email-notification-disabled-unlocked.png">, the event notification is <strong>deactivated for all users and</strong> group administrators can activate it for their groups.
    >* If a button in the <strong>Active</strong> column is blue and dimmed <img src="assets/email-notification-enabled-locked.png">, the event notification is activated for all users and group administrators can't deactivate it or edit its email subject line for their groups.
    >* If a button in the <strong>Active</strong> column is blue and not dimmed <img src="assets/email-notification-enabled-unlocked.png">, the event notification is <strong>activated for all users and</strong> group administrators can deactivate it for their groups.
-<!--This step (with substeps) is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. 
+
+<!--
+This step (with substeps) is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. 
+
 1. To customize the email subject line of an event notification,
   1. Click the name of the event notification.
   1. In the <strong>Event Notification</strong> box that displays, in the <strong>Email Subject Line</strong> box, change the text and fields, including custom fields, then click <strong>Update</strong> to save the new subject lines for your emails.
   IMPORTANT: The names of the fields added must match the camel case syntax of our database structure. For more information about how our objects and their fields are named in the Workfront database, see the <a href="../../../wf-api/workfront-api.md" class="MCXref xref">Adobe Workfront API</a>.
   For more information about customizing the email subject line of an event notification, see <a href="../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md" class="MCXref xref">Customize email subjects for event notifications</a>. 
+-->
     
