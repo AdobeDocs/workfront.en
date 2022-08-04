@@ -32,15 +32,16 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
 
-## Access the Adobe Workfront help site
+## Access the Adobe Workfront documentation on Experience League
 
-1. Go to the [Adobe Workfront One site](https://one.workfront.com/).
+1. Go to the [Adobe Workfront documentation page on Experience League](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en).
 
-In addition to searching for help documentation, you can also access the following from Adobe Workfront One:
+In addition to searching for help documentation, you can also access the following Workfront resources from Experience League:
 
-* Training: For more information, see [Learn Workfront online](https://one.workfront.com/s/training).
-* Innovation Lab: For more information, see [The Innovation Lab](../../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md).
-* Workfront Community: For more information, see [The Adobe Workfront Community](../../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
+* Workfront Tutorials: For more information, see [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=en).
+
+* Innovation Lab: For more information, see [The Innovation Lab](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
+* Workfront Community: For more information, see [The Adobe Workfront Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
 ## Access help from inside Workfront
 
