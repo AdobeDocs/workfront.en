@@ -71,15 +71,16 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Actual Start</td> 
    <td>The timestamp when a user changes an object in in-progress on work assigned to them.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <!--<tr> 
  <td>A type of work process that is unplanned.</td> 
+ -->
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Additional Schedules</td> 
     <td>An additional preset to be used for a new user group.</td> 
    </tr>
   --> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>Agile Methodology</td> 
    <td>A type of methodology based on the collaborative evolution of needs and solutions with cross-functional teams. It encourages flexibility and change based on a fixed timeline.</td> 
   </tr> 
@@ -226,9 +227,8 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Billing Record</td> 
-   <td> <p>Records the revenue, hours, or expenses that can be billed. This information can be used to create invoices in an external accounting system.</p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Create billing records</a>. </p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Combined from Taxonomy: take hours and expenses recorded in Workfront and create invoices in an external financial system.)</p>
-    --> </td> 
+   <td> <p>Records the revenue, hours, or expenses that can be billed. This information can be used to create invoices in an external accounting system.</p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/create-billing-records.md">Create billing records</a>. </p> 
+   </td> 
   </tr> 
   <tr> 
    <td>Branding</td> 
@@ -236,7 +236,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Breadcrumbs</td> 
-   <td> <p>The area at the top of the page that shows the hierarchical location of where the user is in the application.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For more information, see <a href="../../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview in the new Adobe Workfront experience</a>.</p> </td> 
+   <td> <p>The area at the top of the page that shows the hierarchical location of where the user is in the application.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For more information, see <a href="../../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Budget Status</td> 
@@ -344,7 +344,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td> <p>This is the cost associated with the hours that you, as the Resource Manager, budget for your job roles for the work they need to complete on projects. </p> <p>The Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Budgeted Labor Cost = SUM(Job Role Cost per Hour * Budgeted Hours per Job Role)</code> </p> <p>This field  may refer to the following:</p> 
     <ul> 
      <li> <p>Labor costs displayed in the Resource Budgeting area of the Business Case or in the Resource Planner that are associated with the cost of job roles on a project. For information about calculating the Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a></p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Labor costs displayed in the Resource Budgeting area of the Business Case that reflect the People Costs estimated in an initiative linked to the project from the Scenario Planner when you use the Scenario Planner to budget your project resources. For information about initiatives, see <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Scenario Planner</a>. </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> </li> 
+     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Labor costs displayed in the Resource Budgeting area of the Business Case that reflect the People Costs estimated in an initiative linked to the project from the Scenario Planner when you use the Scenario Planner to budget your project resources. For information about initiatives, see <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Scenario Planner</a>. </p> <p>The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> </li> 
      <p>It displays in the following areas of  under the following names:</p>
    <ul>
    <li><strong>Budgeted Labor Cost</strong>: in the Resource Budgeting area of the Business Case.
@@ -861,8 +861,8 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Goal</td> 
    <td><p>There are two concepts of goals in Workfront: </p> 
     <ul> 
-     <li> <p>A set of business objectives agreed to by the relevant stakeholders. Project goals are part of the Business Case of a project. </p> <p>You cannot display project goals in lists or reports but you can access them through the API. </p> <p>For information about Business Case project goals, see <a href="../../../manage-work/projects/define-a-business-case/create-business-case-goals.md">Create Business Case goals </a>. </p> </li> 
-     <li> <p>A strategic goal is an objective that you create to plan your work strategy for a specific time-period. You can create these types of goals using Workfront Goals. Your organization must purchase an additional license and you must have access to this feature to be able to create strategic goals. Workfront Goals are available only in the new Adobe Workfront experience.</p> 
+     <li> <p><b>Project goals</b>: A set of business objectives agreed to by the relevant stakeholders of a project. Project goals are part of the Business Case of a project. </p> <p>You cannot display project goals in lists or reports but you can access them through the API. </p> <p>For information about Business Case project goals, see <a href="../../../manage-work/projects/define-a-business-case/create-business-case-goals.md">Create Business Case goals </a>. </p> </li> 
+     <li> <p><b>Strategic goals</b>: A strategic goal is an objective that you create to plan your work strategy for a specific time-period. You can create these types of goals using Workfront Goals. Your organization must purchase an additional license and you must have access to this feature to be able to create strategic goals. Workfront Goals are available only in the new Adobe Workfront experience.</p> 
      <p>For more information, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">Adobe Workfront Goals overview </a>. </p> 
      <p>You can display strategic goals in a goal or a project report and access them through the API. </p> </li> 
     </ul> </td> 
@@ -876,11 +876,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Goal Success Score</td> 
    <td> In a Project report this field used to refer to project-level goals associated with the Business Case. Currently, this is a deprecated field and is not associated with any functionality.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td><span>Goals</span> </td> 
-   <td> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays in both QS and classic)</p>
-    <p><span>In a Project report, this is a collection field that displays all the goals that are associated with a project. The goals are separated by commas.</span> </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. <!--(NOTE: Link is hard coded to work both in QS and classic)--></p> </td> 
+  <tr> 
+   <td>Goals </td> 
+   <td> <p>In a Project report, this is a collection field that displays all the strategic goals that are associated with a project. The goals are separated by commas.</p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">Workfront Goals overview</a>. For more information about strategic goals and project goals in Workfront, see <i>Goal</i> in this table.</p> </td> 
   </tr> 
   <tr> 
    <td>Global Interface Preferences</td> 
@@ -932,23 +930,23 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Initiative</td> 
-   <td> <p>In&nbsp;the Workfront Scenario Planner, you can divide a plan into several initiatives to make it easier to manage the plan. <span>You can build an Initiative report and you can access Initiative information in a Project report.</span></p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <p>The Initiative report is not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license. You cannot access Initiatives through the API. For information about initiatives in the Scenario Planner, see <a href="https://one.workfront.com/s/csh?context=2066&amp;pubname=the-new-workfront-experience">Initiatives overview in the Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>In&nbsp;the Workfront Scenario Planner, you can divide a plan into several initiatives to make it easier to manage the plan. <span>You can build an Initiative report and you can access Initiative information in a Project report.</span></p> <p>The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <p>The Initiative report is not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license. You cannot access Initiatives through the API.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>Initiative Job&nbsp;Role</span> </td> 
-   <td> <p><span>The Initiative Job&nbsp;Role report type displays information about the job roles associated with a plan initiative in the Workfront Scenario Planner.</span> </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <p><span>This report type is not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license. For information about initiatives in the Scenario Planner, see</span><a href="https://one.workfront.com/s/csh?context=2066&amp;pubname=the-new-workfront-experience">Initiatives overview in the Workfront Scenario Planner</a>.</p> </td> 
+   <td><span>Initiative Job Role</span> </td> 
+   <td> <p><span>The Initiative Job Role report type displays information about the job roles associated with a plan initiative in the Workfront Scenario Planner.</span> </p> <p>The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md">The Scenario Planner overview</a>. </p> <p><span>This report type is not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Initiative Job&nbsp;Role Hours</span> </td> 
-   <td> <p><span> In an Initiative Job&nbsp;Role report, this displays the number of hours associated with a job role in an initiative.</span> </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <p><span>This field and the Initiative Job&nbsp;Role report type are not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license.</span><span>For information about initiatives in the Scenario Planner and associating them with job roles, see <a href="https://one.workfront.com/s/csh?context=2061&amp;pubname=the-new-workfront-experience">Create and edit initiatives in the Workfront Scenario Planner.</a></span> </p> </td> 
+   <td> <p><span> In an Initiative Job&nbsp;Role report, this displays the number of hours associated with a job role in an initiative.</span> </p> <p>The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md">The Scenario Planner overview</a>. </p> <p>This field and the Initiative Job Role report type are not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td><span>Initiative Job&nbsp;Role Count</span> </td> 
-   <td> <p><span>In an Initiative Job&nbsp;Role report, this displays the number of a specific job role associated with an initiative.</span> </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <p><span>This field and the Initiative Job&nbsp;Role report type are not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license. For information about initiatives in the Scenario Planner and associating them with job roles, see</span><a href="../../../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Create and edit initiatives in the Scenario Planner</a> </p> </td> 
+  <tr> 
+   <td>Initiative Job Role Count</td> 
+   <td> <p>In an Initiative Job Role report, this displays the number of a specific job role associated with an initiative.</p> <p>The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md">The Scenario Planner overview</a>. </p> <p>This field and the Initiative Job Role report type are not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td><span>Initiative Last Published Date</span> </td> 
-   <td> <p><span>A field in an Initiative, Initiative Job Role, and Project reports that displays the date that a plan initiative was last published to a project. You can publish initiatives to create projects or to update projects linked to the initiatives.</span> </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <p><span>For information about publishing initiatives, see</span><a href="https://one.workfront.com/s/csh?context=2153&amp;pubname=the-new-workfront-experience">Publish scenarios to create and update projects in the Workfront Scenario Planner</a><span>. This field is not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license.</span> </p> </td> 
+  <tr> 
+   <td>Initiative Last Published Date</td> 
+   <td> <p>A field in an Initiative, Initiative Job Role, and Project reports that displays the date that a plan initiative was last published to a project. You can publish initiatives to create projects or to update projects linked to the initiatives.</p> <p>The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md">The Scenario Planner overview</a>. </p> <p><span>For information about publishing initiatives, see</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">Publish scenarios to create and update projects in the Workfront Scenario Planner</a>. This field is not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license.</p> </td> 
   </tr> 
   <tr> 
    <td>Inline Search</td> 
@@ -1045,9 +1043,8 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Last Note</td> 
-   <td> <p>This field displays the update last entered on an object by any user. This is the most recent activity or interaction on an object.</p> <p>The Last Note column is empty if the text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Follow up and see if this is fixed after New Reporting releases.) </p>
-    --> <p>When this field is added to a Task report, any updates left on child objects—such as issues, subtasks, documents, etc.—of the task do not display in this column.</p> </td> 
+   <td> <p>This field displays the update last entered on an object by any user. This is the most recent activity or interaction on an object.</p> <p>The Last Note column is empty if the text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.</p>
+   <p>When this field is added to a Task report, any updates left on child objects — such as issues, subtasks, documents, etc. — of the task do not display in this column.</p> </td> 
   </tr> 
   <tr> 
    <td>Last Viewed By</td> 
@@ -1351,9 +1348,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Plan</td> 
    <td> <p>This is a full license type in the Workfront system. Users must have this to access all of the features in Workfront.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  <tr> 
    <td>Plan (in the Scenario Planner)</td> 
-   <td> <p>A plan is the main object when working with the Workfront Scenario Planner. You can outline the strategy for your company's near and long-term future and identify each high-level outcome and add it as a plan to the Workfront Scenario Planner. </p> <p>You cannot display Scenario Planner plans in a report and you cannot access them through the Workfront API. </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> </td> 
+   <td> <p>A plan is the main object when working with the Workfront Scenario Planner. You can outline the strategy for your company's near and long-term future and identify each high-level outcome and add it as a plan to the Workfront Scenario Planner. </p> <p>You cannot display Scenario Planner plans in a report and you cannot access them through the Workfront API. </p> <p>The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md">The Scenario Planner overview</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>Planned</td> 
@@ -1377,7 +1374,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Planned Cost</td> 
-   <td> <p>A total of the Planned Labor Cost&nbsp;and the Planned Expense Cost of the project. This does not include the Planned Risk Cost on the project.&nbsp;&nbsp;</p> </td> 
+   <td> <p>A total of the Planned Labor Cost and the Planned Expense Cost of the project. This does not include the Planned Risk Cost on the project.&nbsp;&nbsp;</p> </td> 
   </tr> 
   <tr> 
    <td>Planned Duration</td> 
@@ -1407,17 +1404,11 @@ The following table is a list of commonly used terms in Adobe Workfront:
     </ul> 
     <ul> 
      <li> <p>For projects, Workfront calculates the Planned Hours by adding all Planned Hours from all the tasks on the project. </p> </li> 
-    </ul> <p>Tip: You can display Planned Hours in project, task, or issues reports also by using text mode and reference additional fields. For more information, see the "<code>work</code>", "Work", and "<code>workRequiredExpression</code>" fields in this table. </p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A baseline measurement for task KPI and a communication tool for the resource managers </p>
-    --> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: above, From Taxonomy)</p>
-    --> </td> 
+    </ul> <p><b>TIP</b></p> <p>You can display Planned Hours in project, task, or issues reports also by using text mode and reference additional fields. For more information, see the "<code>work</code>", "Work", and "<code>workRequiredExpression</code>" fields in this table. </p> </td> 
   </tr> 
   <tr> 
    <td>Planned Labor Cost</td> 
-   <td> <!--
-     <p>(NOTE: this is linked elsewhere)</p>
-    --> 
+   <td> 
     <p>For a task, the hourly rate of the user or role multiplied by the number of hours assigned to the user or role.</p> <p>For a project, it is a total of all Planned Labor Costs of all the tasks.</p> <p>Whether the rate of the user or role is used depends on the Cost Type that is selected for the given task. </p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/track-costs.md">Track costs</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -1429,7 +1420,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
     --> 
     <p>The project Planned Revenue that displays in the Project Details area and in project reports differs from the Planned Revenue that displays in the Utilization report. </p> <p>The Planned Revenue in the Project Details area reflects the task revenue as well as the Fixed Revenue of the project. The Planned Revenue in the Utilization Report displays Planned Revenue associated only with the tasks in the project. </p> 
-     <p><b>EXAMPLE</b>/p>  
+     <p><b>EXAMPLE</b></p>  
       <p>If the project has 1 task with 10 hours, assigned to a Consultant with $20 hourly rate, and the project has $100 Fixed Revenue, the Utilization report displays $200 for Planned Revenue (the Planned Revenue associated with the hours on the task). The Project&nbsp;Details section displays $300 (the Planned Revenue from the task and the Fixed Revenue for the project.) </p> 
     <p>For information about tracking revenue in Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md">Overview of Billing and Revenue</a>. </p> 
     <p>For information about Planned Revenue calculations in the Utilization report, see <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md">View resource utilization information </a>. </p> 
@@ -1801,9 +1792,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Scenario (in&nbsp;Workfront Fusion) </td> 
    <td> <p>A scenario is comprised of a series of steps (modules) that indicate how data should be transferred and transformed between apps/ services.</p> <p>For information about scenarios in Workfront Fusion, see <a href="../../../workfront-fusion/scenarios/scenario-overview.md" class="MCXref xref">Adobe Workfront Fusion scenario overview</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  <tr> 
    <td>Scenario (in the Workfront Scenario Planner) </td> 
-   <td> <p>In the Scenario Planner, a scenario is a copy of a plan. </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <p>For information, see <a href="../../../scenario-planner/create-and-compare-scenarios-for-a-plan.md" class="MCXref xref">Create and compare plan scenarios in the Scenario Planner</a>. </p> </td> 
+   <td> <p>In the Scenario Planner, a scenario is a copy of a plan. </p> <p>The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <p>For information about creating scenarios, see <a href="../../../scenario-planner/create-and-compare-scenarios-for-a-plan.md">Create and compare plan scenarios in the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>Schedule</td> 
