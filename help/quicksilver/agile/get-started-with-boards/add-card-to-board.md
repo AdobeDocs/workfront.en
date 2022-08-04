@@ -63,11 +63,11 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Assignees</strong> </td> 
-      <td> <p>To assign the card, start typing a name in the search field, then select it when it displays in the list. You can assign more than one person to a card.</p> <p>Assignees must be members on the board or they will not appear in the selection list.</p> </td> 
+      <td> <p>To assign the card, start typing a name in the search field, then select it when it displays in the list. In the Production environment, you can add individual people. In the Preview environment, you can add both individuals and teams. You can assign more than one person or team to a card.</p> <p>Assignees must be members on the board or they will not appear in the selection list.</p> <p>Adding a team is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Column</strong> </td> 
-      <td>Select the column for the card. If you leave the <strong>Column</strong> field blank, the card is placed in the first column on the left of the board.</td> 
+      <td>Select the column for the card. If you leave the <strong>Column</strong> field blank, the card is placed in the first column on the left of the board.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 

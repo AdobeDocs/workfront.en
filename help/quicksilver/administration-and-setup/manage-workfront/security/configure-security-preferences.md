@@ -93,7 +93,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Automatically log users out after</td> 
-      <td> <p><b>NOTE</b>: <p>This option lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. </p> <p>This option also affects Workfront customers who are using a single sign-on solution.</p> </td> 
+      <td> Lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Automatically log mobile users out after </td> 
