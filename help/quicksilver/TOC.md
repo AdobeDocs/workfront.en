@@ -707,7 +707,7 @@ feature-set: Workfront
       * [Inline edit items in a list in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
       * [Modify how a list displays](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
     * [Top navigation bar overview](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
-    * [Simplified left navigation](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
+    * [Left navigation in Adobe Workfront](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
     * [Summary overview](workfront-basics/the-new-workfront-experience/summary-overview.md)
     * [Breadcrumbs overview](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
     * [New object headers overview](workfront-basics/the-new-workfront-experience/new-object-headers.md)
@@ -1324,7 +1324,7 @@ feature-set: Workfront
     * [Work with team requests](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
     * [Team requests overview](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
     * [Manage work and team requests](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
-  * Tips, tricks, and troubleshooting for people, teams, and groups {#tips-tricks-people-teams-groups}
+  * Tips, tricks, and troubleshooting for teams and groups {#tips-tricks-people-teams-groups}
     * [Tips, Tricks, and Troubleshooting for Teams and Groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
     * [Username Already in Use](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Reporting {#reporting}
