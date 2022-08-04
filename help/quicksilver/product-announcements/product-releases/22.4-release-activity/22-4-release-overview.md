@@ -113,7 +113,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-july-18.md" class="MCXref xref" xrefformat="{para}">Custom Form enhancements: Adobe XD and the Quick Filter</a><span style="color: #ff0000;"> New in Preview!</span>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md" class="MCXref xref" xrefformat="{para}">Custom Form enhancements: Adobe XD and the Quick Filter</a><span style="color: #ff0000;"> New in Preview!</span>
                         </p>
                         <p>Based on your feedback, we've introduced the following enhancements to improve your experience when managing custom forms:
 
