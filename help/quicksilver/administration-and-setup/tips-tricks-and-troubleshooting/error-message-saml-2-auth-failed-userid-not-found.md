@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 'Error message: SAML 2.0 Authentication Failed: User Identifier Not Found'
-description: "I am receiving this error when using SAML 2.0: 'SAML 2.0 Authentication Failed: User Identifier Not Found.'"
+description: When you are using SAML 2.0, the error "SAML 2.0 Authentication Failed-User Identifier Not Found" means that a UID or NAME ID is not passed from the ADFS Claim rules. In ADFS the Relying Party Trust needs to have a Claim rule that passes either a UID or a NAME ID value. When you run a Workfront Test Connection, it should show this if successful.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
