@@ -9,11 +9,6 @@ exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
 ---
 # Create or edit filters in Adobe Workfront
 
-<!--
-{{highlighted-preview}}
---> 
-
-
 You can limit the amount of information you display on the screen in a list of items with a filter. You can define certain criteria based on particular pieces of information about an object and only display the objects that meet those criteria.
 
 You can apply the following types of filters in Adobe Workfront:
@@ -72,13 +67,12 @@ You can create filters using the types of filter builders described in the table
 <td><strong>Where available</strong></td>
 </tr>
 <tr>
-<td>Standard builder (all environments)</td>
+<td>Standard builder</td>
 <td>All objects </td>
 <td>Lists and reports</td>
 </tr>
 <tr>
-<td>Beta builder (Preview environment only)
-</td>
+<td>Beta builder</td>
 <td>
 <ul>
 <li> <p>Projects</p> </li>
@@ -174,7 +168,7 @@ Regardless of the method you use to create filters, creating a filter from scrat
    * Share filters you create with other users, or make them available system-wide. For information, see [Share a filter, view, or grouping](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
    * Remove filters you no longer want to display in the list. For information, see [Remove filters, views, and groupings](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
-## Create or edit a filter in the beta builder (Preview environment only)
+## Create or edit a filter in the beta builder
 
 Consider the following when creating filters using the different interfaces:
 
@@ -380,7 +374,7 @@ Create a filter using the beta builder interface:
    
    Hover over any filter in the filter drawer, click the More menu ![More menu](assets/more-icon-spectrum.png), and click **Favorite**.
 
-1.  (Optional) Click the **Stack filters** button to activate stacked filters. This option allows you to apply more than one saved filter. The filter rules are applied in the order you select them.
+1. (Optional) Click the **Stack filters** button to activate stacked filters. This option allows you to apply more than one saved filter. The filter rules are applied in the order you select them.
 
    >[!TIP]
    >
