@@ -9,11 +9,6 @@ exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
 ---
 # Remove filters, views, and groupings
 
-<!--
-{{highlighted-preview}}
--->
-
-
 You can remove a filter, view, or grouping from lists and reports if you created them or they have been shared with you. You cannot remove default filters, views, or groupings.
 
 ## Access requirements
@@ -79,7 +74,7 @@ The following scenarios exist when you remove a grouping:
 
 1. Click **Done**.
 
-## Remove or delete a filter using the beta builder (Preview environment only)
+## Remove or delete a filter using the beta builder
 
 You can remove a filter that was shared with you from lists of projects, tasks, or issues using the beta builder interface. The beta builder interface is not available for any other objects, or for views or groupings.
 
@@ -87,7 +82,7 @@ You can also delete filters that you own from lists of projects, tasks, or issue
 
 System default filters can't be removed or deleted.
 
-### Considerations about removing or deleting filters
+### Considerations about removing or deleting filters using the beta builder
 
 The following scenarios exist when you remove or delete a filter:
 
