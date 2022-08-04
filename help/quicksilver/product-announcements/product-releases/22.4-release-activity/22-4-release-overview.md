@@ -217,71 +217,8 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                         </ul>
                     </td>
                 </tr>
-                <tr>
-                    <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md" class="MCXref xref" xrefformat="{para}">Custom Form enhancements: Adobe XD and the Quick Filter</a> </p>
-                        <p>Based on your feedback, we've introduced the following enhancements to improve your experience when managing custom forms:</p>
-                        <ul>
-                        <li>
-                        <p>Add an Adobe XD file to make a custom form more visual and informative. When the form is attached to an object, users who work with the object can view and interact with the XD file from within the form.
-                        </p>
-                        </li>
-                        <li>
-                        <p>Use the Quick Filter to easily locate items in the modernized custom forms and fields list. Also enjoy an improved look and feel while managing your forms and fields.
-                        </p>
-                        </li>
-                        </ul>
-                        <p>After you add the team to the board, you can assign the team to cards. On connected cards, only one team assignment is allowed. On ad hoc cards, you can assign more than one team.</p>
-                    </td>
-                    <td><b>Available on these dates:</b><p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: August 4, 2022 <br /></p>
-                            </li>
-                            <li>
-                                <p>Production release:&#160;Aug 11, 2022</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
             </tbody>
-        </table>    
-
-### Agile enhancements
-
- <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates and environments</span>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md" class="MCXref xref" xrefformat="{para}">Add a team to a board or a card</a> </p>
-                        <p>You can now add a team as a member of the board. The individual team members are no longer added when you add a team to the board, though all of the team members have access to the board.</p>
-                        <p>After you add the team to the board, you can assign the team to cards. On connected cards, only one team assignment is allowed. On ad hoc cards, you can assign more than one team.</p>
-                    </td>
-                    <td><b>Available on these dates:</b>
-                        <ul>
-                            <li>
-                                <p>Preview release: August 4, 2022 <br /></p>
-                            </li>
-                            <li>
-                                <p>Production release:&#160;Aug 11, 2022 (This feature is only available through the early feature opt-in for Workfront Boards.)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-            </tbody>
-        </table>        
+        </table>            
 
 ### Other enhancements
 
