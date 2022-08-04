@@ -453,6 +453,7 @@ feature-set: Workfront
       * [Create or edit a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
       * [Copy a custom form to create a new one](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
       * [Add a custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+      * [Add an asset widget to a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
       * [Add a section break](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
       * [Access to custom fields](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
       * [Add calculated data](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
