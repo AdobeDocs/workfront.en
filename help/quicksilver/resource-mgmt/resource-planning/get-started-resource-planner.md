@@ -177,7 +177,7 @@ Ensure the following task and issue setup exists before starting budgeting resou
 
 ### System-level prerequisites {#system-level-prerequisites}
 
-You must understand how your instance of Workfront calculates user availability according to the Resource Management Preferences in your system. Workfront can calculate user availability using the user's schedule or the Default Schedule of your system.
+You must understand how your instance of Workfront calculates user availability according to the Resource Management Preferences in your system. Workfront can calculate user availability using the user's schedule as defined in their User Profile page, or the Default Schedule of your system.
 
 ![](assets/resource-management-preferences-section-in-setup-350x89.png)
 
