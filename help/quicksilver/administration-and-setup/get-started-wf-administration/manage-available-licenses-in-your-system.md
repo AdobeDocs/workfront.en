@@ -135,7 +135,7 @@ To set the maximum license count for a Home group:
 1. In the **Max** column of the group, click the value that you want to set a maximum for.
 1. Type the maximum number, then press Enter.
 
-   ![Screen4.png](assets/screen4.png)
+   ![](assets/screen4.png)
 
    >[!NOTE]
    >
