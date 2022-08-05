@@ -37,7 +37,7 @@ You must have the following access to perform the actions described in this arti
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>View or higher access to&nbsp;Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -54,7 +54,7 @@ You must have the following access to perform the actions described in this arti
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -71,7 +71,7 @@ The following charts are available in the Graphs section or Workfront Goals:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">The Goal&nbsp;Health Chart</td> 
+   <td role="rowheader">The Goal Health Chart</td> 
    <td> <p>A gauge chart that displays the following:</p> 
     <ul> 
      <li>A total number of goals for the selected period of time. Goals with any status are taken into account. </li> 
@@ -91,7 +91,10 @@ The following charts are available in the Graphs section or Workfront Goals:
 
 ## Review goal progress in graphs
 
-1. Click the **Main Menu icon** ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click **Goals**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
 
    This opens the Workfront Goals area. 
 
@@ -123,9 +126,8 @@ The following charts are available in the Graphs section or Workfront Goals:
    | Average percent complete |At the top of the chart, this number indicates the average percent complete of active and closed goals in the selected time period. |
    | Goals and their progress |The number of goals for each progress status segment, when you hover over the segments of the chart. Only goals in a status of Active or Closed are counted in the segments.  |
 
-   {style="table-layout:auto"}
-
-1. Review the information in the table below when you review the Goal&nbsp;Progress Chart.
+   
+1. Review the information in the table below when you review the Goal Progress Chart.
 
    ![](assets/line-graph-wf-align-350x161.png)
 
@@ -147,10 +149,10 @@ The following charts are available in the Graphs section or Workfront Goals:
 1. Hover a week node in the goal progress chart and review the following:
 
    * **Week date**: The month, day, and year of the selected week.
-   * **Progress**:&nbsp;An average of the actual percent complete of all goals for the selected week.
+   * **Progress**: An average of the actual percent complete of all goals for the selected week.
    * **Baseline**: An average of the expected percent complete of all goals for the selected week.
 
-1. (Optional)&nbsp;Click **Progress** at the bottom of the progress chart to remove the actual overall progress line
+1. (Optional) Click **Progress** at the bottom of the progress chart to remove the actual overall progress line
 
    Or
 
