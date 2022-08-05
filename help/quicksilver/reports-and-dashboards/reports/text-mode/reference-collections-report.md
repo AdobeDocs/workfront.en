@@ -129,62 +129,47 @@ The view displays task or issue information in a list format, with every line of
 * [Understand the lines of a collection View in Text Mode](#understand-the-lines-of-a-collection-view-in-text-mode) 
 * [Limitations of a collection View](#limitations-of-a-collection-view)
 
-#### **Add a collection column in a report View** {#add-a-collection-column-in-a-report-view}
+### Add a collection column in a report View {#add-a-collection-column-in-a-report-view}
 
 To add a collection column in a report view:
 
 1. Click the **Main** menu ![](assets/main-menu-icon.png), then click&nbsp;**Reports**.
 1. Click **New Report**.
 1. Select the object of your report.
-1. Navigate away from your report, and using the [API Explorer](../../../wf-api/general/api-explorer.md), determine what collections are available for the object you selected for your report.  
-   For more information about selecting the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in this article.  
-   Make a note of what the name of the object for the collection is.  
+1. Navigate away from your report, and using the [API Explorer](../../../wf-api/general/api-explorer.md), determine what collections are available for the object you selected for your report.
 
-1. Using the&nbsp; [API Explorer](../../../wf-api/general/api-explorer.md), go to the list of fields for the object you want to display in the collection.  
+   For more information about selecting the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in this article.  
+   Make a note of what the name of the object for the collection is.
+
+1. Using the&nbsp; [API Explorer](../../../wf-api/general/api-explorer.md), go to the list of fields for the object you want to display in the collection.
+
    For more information about finding the fields of the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in this article.  
+
    Make a note of what the name of the field you want to display in the collection is. 
 
 1. Navigate back to your report, and in the **Columns (View)** tab, click **Add Column**. 
-
 1. Click **Switch to Text Mode**.
 1. Mouse over the dialog box, and click **Click to edit text**.
-1. Select all text in the **Text Mode** dialog box and remove it, then paste the following code if you are referencing a field of&nbsp;the collection object:  
-   <pre>valueformat=HTML<br>textmode=true<br>type=iterate<br>listdelimiter=<p><br>displayname=<strong>Column Name</strong>listmethod=nested(<strong>collection object name</strong>).lists<br>valuefield=<strong>collection object field</strong></pre>
-
-1. Replace **Column Name** with the name of your column in the 
+1. Select all text in the **Text Mode** dialog box and remove it, then paste the following code if you are referencing a field of&nbsp;the collection object:
 
    ```
-   displayname
+   valueformat=HTML
+   textmode=true
+   type=iteratelistdelimiter=<p>
+   displayname=<strong>Column Name</strong>listmethod=nested(<strong>collection object name</strong>).lists
+   valuefield=<strong>collection object field</strong>
    ```
 
-   line.
+1. Replace **Column Name** with the name of your column in the `displayname` line.
+1. Replace **collection object name**with the name of your collection object in the `listmethod` line, as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md).
 
-1. Replace **collection object name**with the name of your collection object in the 
+1. Replace **collection object field** with the name of the field of your collection object in the `valuefield` line, as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md).
 
-   ```
-   listmethod
-   ```
+   You can replace **valuefield** with **valueexpression**, if you want to create a custom expression in your view.
 
-   line, as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md).
-
-1. Replace **collection object field** with the name of the field of your collection object in the 
-
-   ```
-   valuefield
-   ```
-
-   line, as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md).
-
-   You can replace **valuefield** with **valueexpression**, if you want to create a custom expression in your view.  
    For more information about calculated custom expressions, see [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-   For example, if you want to display a list of the tasks in a project report. This collection uses a 
-
-   ```
-   valuefield
-   ```
-
-   line for referencing the names of the tasks.
+   For example, if you want to display a list of the tasks in a project report. This collection uses a `valuefield` line for referencing the names of the tasks.
 
    Do one of the following:
 
@@ -202,7 +187,8 @@ To add a collection column in a report view:
    
      Notice that in a collection you must use **issues** for the&nbsp;**listmethod** line, instead of **opTasks** which is the database name for Issues. For information about when to use **issue** and when to use **opTask** when referring to issues, see [Use "opTask" and "issue" when referencing issues](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
    
-   * If you&nbsp;want to display a list of the tasks in a project report along with their primary assignee, you would use a&nbsp;**valueexpression**&nbsp;line for referencing the names of the tasks adjacent to the names of their primary assignees instead of **valuefield**.  
+   * If you&nbsp;want to display a list of the tasks in a project report along with their primary assignee, you would use a&nbsp;**valueexpression**&nbsp;line for referencing the names of the tasks adjacent to the names of their primary assignees instead of **valuefield**.
+
      Use the following code to build your column:
 
      ```   
@@ -214,12 +200,13 @@ To add a collection column in a report view:
    ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png)
 
 1. Click **Save**.
-1. (Optional) Continue editing the report.  
+1. (Optional) Continue editing the report. 
+
    Or
 
    Click **Save + Close** to save the report.
 
-#### **Understand the lines of a collection View in Text Mode** {#understand-the-lines-of-a-collection-view-in-text-mode}
+#### Understand the lines of a collection View in Text Mode
 
 The lines in a text mode view for a collection are outlined in the following table: 
 
@@ -235,14 +222,14 @@ The lines in a text mode view for a collection are outlined in the following tab
  <tbody> 
   <tr> 
    <td><code>valueformat=HTML</code> </td> 
-   <td> <p>You can use various values for this line, but we recommend that the <code style="font-weight: normal;">valueformat</code> for a collection list should be <strong>HTML.</strong></p> <p> <!--
+   <td> <p>You can use various values for this line, but we recommend that the <code style="font-weight: normal;">valueformat</code> for a collection list should be <strong>HTML.</strong></p> <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         For more information about conditional formatting in a view, see 
        <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Use conditional formatting in Text Mode</a>. 
       </MadCap:conditionalText>
-     --></p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I drafted this per the request of a customer - really, this article is wrong to be linked here. We do have articles about number and date formatting but we need articles with all other data types and their formatting.)</p>
-    --> </td> 
+    --> 
+   </td> 
   </tr> 
   <tr> 
    <td><code>textmode=true</code> </td> 
@@ -271,7 +258,7 @@ The lines in a text mode view for a collection are outlined in the following tab
  </tbody> 
 </table>
 
-#### **Limitations of a collection View** {#limitations-of-a-collection-view}
+#### Limitations of a collection View {#limitations-of-a-collection-view}
 
 Consider the&nbsp;following limitations when you are building a collection view:
 
@@ -292,55 +279,59 @@ To add a reference to a collection&nbsp;in a report filter:
 1. Click the **Main** menu ![](assets/main-menu-icon.png), then click&nbsp;**Reports**.
 1. Click&nbsp;**New Report**.
 1. Select the object of your report.
-1. Navigate away from your report, and using the [API Explorer](../../../wf-api/general/api-explorer.md), determine what collections are available for the object you selected for your report.  
+1. Navigate away from your report, and using the [API Explorer](../../../wf-api/general/api-explorer.md), determine what collections are available for the object you selected for your report.
+
    For more information about selecting the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in this article.  
+
    Make a note of what the name of the object for the collection is.  
 
-1. Using the&nbsp; [API Explorer](../../../wf-api/general/api-explorer.md), go to the list of fields for the object you want to display in the collection.  
+1. Using the&nbsp; [API Explorer](../../../wf-api/general/api-explorer.md), go to the list of fields for the object you want to display in the collection.
+
    For more information about finding the fields of the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in this article.  
+
    Make a note of the field you want to display in the collection. 
 
-1. Navigate back to your report, and in the **Filters**&nbsp;tab, click&nbsp;**Switch to Text Mode**.
+1. Navigate back to your report, and in the **Filters** tab, click **Switch to Text Mode**.
 
-1. In the **Set Filter Rules for your Report** area, paste the following code:  
-   <pre>collection object name:collection object field=collection object value<br>collection object name:collection object field_Mod=value of the modifier</pre>
+1. In the **Set Filter Rules for your Report** area, paste the following code:
 
-1. Replace&nbsp;**collection object name**&nbsp;with the name of your collection object as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md).&nbsp;This value is typically the plural form of the collection object name.
+   ```
+   collection object name:collection object field=collection object value
+   collection object name:collection object field_Mod=value of the modifier
+   ```
 
-1. Replace&nbsp;**collection object field**&nbsp;with the name of the field of your collection object in, as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md).
+1. Replace **collection object name** with the name of your collection object as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md). This value is typically the plural form of the collection object name.
+
+1. Replace **collection object field** with the name of the field of your collection object in, as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md).
 
 1. Replace **collection object value** with the value of the collection object as it appears in Workfront.
-1. &nbsp;
 1. Replace **value of the modifier** with a valid modifier.
 
    For a list of modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).  
    For example, to build a project report that&nbsp;displays only projects with tasks that have "Marketing" in their name, use&nbsp;the following code:
-   <pre>tasks:name=Marketing<br>tasks:name_Mod=cicontains</pre>This report only displays projects which have at least one&nbsp;task that has the word "marketing" in their name.
+
+   ```
+   tasks:name=Marketing<br>tasks:name_Mod=cicontains
+   ```
+   
+   This report only displays projects which have at least one&nbsp;task that has the word "marketing" in their name.
 
    ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png)
 
 1. To filter for the name of an issue, use the following code:
-   <pre>issues:name=Marketing
-</pre><pre>issues:name_Mod=cicontains</pre>
+   
+   ```
+   issues:name=Marketing
+   issues:name_Mod=cicontains
+   ```
 
    >[!TIP]
    >
-   >Notice that you must use    >
-   >
-   >```   >
-   >issues
-   >```   >
-   >
-   >for the collection object name, instead of    >
-   >
-   >```   >
-   >optask
-   >```   >
-   >
-   >which is how issues appear in the API&nbsp;Explorer.
+   >Notice that you must use `issues` for the collection object name, instead of `optask` which is how issues appear in the API&nbsp;Explorer.
 
 1. Click&nbsp;**Done**.
-1. (Optional) Continue editing the report.  
+1. (Optional) Continue editing the report.
+
    Or
 
    Click&nbsp;**Save + Close**to save the report.
@@ -372,15 +363,17 @@ To add a reference to a collection&nbsp;in the&nbsp;custom prompt of a report:
 1. Specify the name of the prompt in the&nbsp;**Field****name** field.
 
 1. Specify a **Dropdown Item Label**.
-1. Specify the following in the **Condition** field:  
-   <pre>collection object name:collection object field_Mod=value of the modifier</pre>
+1. Specify the following in the **Condition** field:
+
+   ```
+   collection object name:collection object field_Mod=value of the modifier
+   ```
 
 1. (Optional) Specify if this choice is displayed by default in the prompt.
 1. Replace&nbsp;**collection object name**&nbsp;with the name of your collection object as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md).&nbsp;This value is typically the plural form of the collection object name.
-
 1. Replace&nbsp;**collection object field**&nbsp;with the name of the field of your collection object, as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md).
+1. Replace&nbsp;**collection object value**&nbsp;with the value of the collection object as it appears in Workfront.
 
-1. Replace&nbsp;**collection object value**&nbsp;with the value of the collection object as it appears in Workfront.  
    For example, if you are filtering for projects in which the name of the task contains "Marketing", replace&nbsp;**collection object value**&nbsp;with&nbsp;**marketing**.
 
 1. Replace&nbsp;**value of the modifier**&nbsp;with a valid modifier.
@@ -413,6 +406,7 @@ To add a reference to a collection&nbsp;in the&nbsp;custom prompt of a report:
 
 1. Click&nbsp;**Done**.
 1. (Optional) Continue editing the report.  
+
    Or
 
    Click&nbsp;**Save + Close** to save the report.
