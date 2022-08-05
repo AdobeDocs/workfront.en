@@ -8,6 +8,10 @@ exl-id: 11a110c9-5496-4f99-a024-bbb0f58f6b25
 ---
 # Authorize the Zoom integration
 
+>[!IMPORTANT]
+>
+>The Zoom integration will be deprecated with the 22.4 release (September 2022).
+
 After your Adobe Workfront administrator enables the Zoom integration, you need to authorize the connection between Workfront and your Zoom account. This is necessary for each Workfront user.
 
 ## Access requirements
