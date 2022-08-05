@@ -106,10 +106,10 @@ Provide your network administrator with the following information:
 
    Your cluster displays near the upper-right of the **Basic Info** section.
 
-   ![](assets/locate-cluster-350x189.png)
+   ![](assets/locate-cluster.png)
 
 1. To view your Workfront plan, select **Licenses**.
 
    Your plan displays near the bottom of the page.
 
-   ![](assets/locate-plan-350x162.png)
+   ![](assets/locate-plan.png)

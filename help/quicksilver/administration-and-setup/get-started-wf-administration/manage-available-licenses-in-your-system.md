@@ -58,7 +58,7 @@ To view license information in your system:
 
 In the screen shot below, **5 of 10 Proof licenses** indicates that this organization has the paid Workfront Proof add-on and is currently using 5 of the 10 Workfront Proof licenses they purchased.
 
-![](assets/license-count-paid-add-on-350x233.png)
+![](assets/license-count-paid-add-on.png)
 
 If your organization has purchased Workfront Goals, the license information for this product also displays here. In this case, you can view the following information:
 
@@ -135,7 +135,7 @@ To set the maximum license count for a Home group:
 1. In the **Max** column of the group, click the value that you want to set a maximum for.
 1. Type the maximum number, then press Enter.
 
-   ![Screen4.png](assets/screen4-350x152.png)
+   ![](assets/Screen4.png)
 
    >[!NOTE]
    >

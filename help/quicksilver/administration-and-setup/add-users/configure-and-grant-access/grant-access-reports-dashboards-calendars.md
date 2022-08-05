@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Reports, then select the abilities you want to grant under **Fine-tune your settings**.
 
-   ![reports_access.png](assets/reports-access-350x140.png)
+   ![reports_access.png](assets/reports-access.png)
 
    The following options are enabled by default:
 
