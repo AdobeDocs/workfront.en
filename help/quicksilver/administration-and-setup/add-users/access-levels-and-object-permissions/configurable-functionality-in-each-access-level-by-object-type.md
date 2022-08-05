@@ -30,8 +30,8 @@ In each access level, you can configure the following options for projects:
    <td>Planner (Plan license type)</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to projects.</p> </li> 
-     <li> <b>View</b> <p>To fine-tune this, you can configure the ability to share projects. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share projects. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to projects.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -47,8 +47,8 @@ In each access level, you can configure the following options for projects:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to projects.</p> </li> 
-     <li> <b>View</b> <p>To fine-tune this, you can configure the ability to share projects. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share projects. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows limited editing access to projects. To see how Edit access is limited in a Worker access level as compared to a Planner access level (which allows full Edit access to projects), see the section <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects" class="MCXref xref">Projects</a> in the article <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md" class="MCXref xref">Functionality available for each object type</a>.</p> <p>To fine-tune this, you can configure the ability to share projects. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the Edit button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
     </ul> </td> 
   </tr> 
@@ -56,7 +56,7 @@ In each access level, you can configure the following options for projects:
    <td>Reviewer</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to projects.</p> </li> 
+     <li> <b>No access</b> </li> 
      <li> <b>View</b> (default selection) </li> 
     </ul> </td> 
   </tr> 
@@ -64,8 +64,8 @@ In each access level, you can configure the following options for projects:
    <td>Requestor</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to projects.</p> </li> 
-     <li> <b>View</b> (default selection) <p>View access is limited because you can't fine-tune it to enable or disable project sharing.</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li><p> <b>View</b></p> (default selection) <p>View access is limited because you can't fine-tune it to enable or disable project sharing.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -93,8 +93,8 @@ In each access level, you can configure the following options for tasks:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to tasks.</p> </li> 
-     <li> <b>View</b> <p>To fine-tune this, you can configure the ability to share tasks. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share tasks. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to tasks.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -108,8 +108,8 @@ In each access level, you can configure the following options for tasks:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to tasks.</p> </li> 
-     <li> <b>View</b> <p>To fine-tune this, you can configure the ability to share tasks. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share tasks. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to tasks.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -122,7 +122,7 @@ In each access level, you can configure the following options for tasks:
    <td>Reviewer</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to tasks.</p> </li> 
+     <li> <b>No access</b> </li> 
      <li> <b>View</b> (default selection) </li> 
     </ul> </td> 
   </tr> 
@@ -130,8 +130,8 @@ In each access level, you can configure the following options for tasks:
    <td>Requestor</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to tasks.</p> </li> 
-     <li> <b>View</b> (default selection)<p>View access is limited because you can't fine-tune it to enable or disable project sharing.</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li><p> <b>View</b></p> (default selection)<p>View access is limited because you can't fine-tune it to enable or disable project sharing.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -159,8 +159,8 @@ In each access level, you can configure the following options for issues:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to issues.</p> </li> 
-     <li> <b>View</b><p>To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li> <p><b>View</b></p><p>To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to issues.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -174,8 +174,8 @@ In each access level, you can configure the following options for issues:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to issues.</p> </li> 
-     <li> <b>View</b> <p>To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to issues.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -188,8 +188,8 @@ In each access level, you can configure the following options for issues:
    <td>Reviewer</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to issues.</p> </li> 
-     <li> <b>View</b> <p>To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to issues.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -202,8 +202,8 @@ In each access level, you can configure the following options for issues:
    <td>Requestor</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to issues.</p> </li> 
-     <li> <b>View</b> <p>To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to issues.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -237,8 +237,8 @@ In each access level, you can configure the following options for portfolios:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to portfolios.</p> </li> 
-     <li> <b>View</b> <p>To fine-tune this, you can configure the ability to share portfolios. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share portfolios. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to portfolios.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -252,7 +252,7 @@ In each access level, you can configure the following options for portfolios:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to portfolios.</p> </li> 
+     <li> <b>No access</b> </li> 
      <li> <b>View</b> (default selection) </li> 
     </ul> </td> 
   </tr> 
@@ -260,7 +260,7 @@ In each access level, you can configure the following options for portfolios:
    <td>Reviewer</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to portfolios.</p> </li> 
+     <li> <b>No access</b> </li> 
      <li> <b>View</b> (default selection)</li> 
     </ul> </td> 
   </tr> 
@@ -293,8 +293,8 @@ In each access level, you can configure the following options for programs:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to programs.</p> </li> 
-     <li> <b>View</b> <p>To fine-tune this, you can configure the ability to share programs. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share programs. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to programs.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -308,7 +308,7 @@ In each access level, you can configure the following options for programs:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to programs.</p> </li> 
+     <li> <b>No access</b> </li> 
      <li> <b>View</b> (default selection) </li> 
     </ul> </td> 
   </tr> 
@@ -316,7 +316,7 @@ In each access level, you can configure the following options for programs:
    <td>Reviewer</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to programs.</p> </li> 
+     <li> <b>No access</b> </li> 
      <li> <b>View</b> (default selection)</li> 
     </ul> </td> 
   </tr> 
@@ -349,8 +349,8 @@ In each access level, you can configure the following options for reports, dashb
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to reports, dashboards, and calendars.</p> </li> 
-     <li> <b>View</b><p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button), then disable or enable any of the following actions. Both of them are enabled by default:</p> 
+     <li> <b>No access</b> </li> 
+     <li> <p><b>View</b></p><p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button), then disable or enable any of the following actions. Both of them are enabled by default:</p> 
       <ul> 
        <li> <p>View Built-In Reports</p> </li> 
        <li> <p>Share</p> </li> 
@@ -370,8 +370,8 @@ In each access level, you can configure the following options for reports, dashb
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to programs.</p> </li> 
-     <li> <b>View</b> (default selection)<p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following actions. Both of them are enabled by default:</p> 
+     <li> <b>No access</b> </li> 
+     <li><p> <b>View</b></p> (default selection)<p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following actions. Both of them are enabled by default:</p> 
       <ul> 
        <li> <p>View Built-In Reports</p> </li> 
        <li> <p>Share</p> </li> 
@@ -382,7 +382,7 @@ In each access level, you can configure the following options for reports, dashb
    <td>Reviewer</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to reports, dashboards, and calendars.</p> </li> 
+     <li> <b>No access</b> </li> 
      <li> <p><b>View</b> (default selection)<p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following actions. Only the Share option is enabled by default.</p> 
       <ul> 
        <li> <p>View Built-In Reports</p> </li> 
@@ -394,7 +394,7 @@ In each access level, you can configure the following options for reports, dashb
    <td>Requestor</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to reports, dashboards, and calendars.</p> </li> 
+     <li> <b>No access</b> </li> 
      <li> <p><b>View</b> (default selection): Allows view-only access to reports, dashboards, and calendars that have been shared with them.</p> <p>To fine-tune this, you can configure the ability to view built-in reports. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable <b>View Built-in</b>(disabled by default).</p> </li> 
     </ul> </td> 
   </tr> 
@@ -423,7 +423,7 @@ In each access level, you can configure the following options for filters, views
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <b>View</b><p>To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <p><b>View</b></p><p>To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to filters, views, and groupings.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -437,7 +437,7 @@ In each access level, you can configure the following options for filters, views
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <b>View</b><p>To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <p><b>View</b></p><p>To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to filters, views, and groupings.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -451,7 +451,7 @@ In each access level, you can configure the following options for filters, views
    <td>Reviewer</td> 
    <td> 
     <ul> 
-     <li> <b>View</b> <p>To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to filters, views, and groupings.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -465,7 +465,7 @@ In each access level, you can configure the following options for filters, views
    <td>Requestor</td> 
    <td> 
     <ul> 
-     <li> <b>View</b>: <p>To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <p><b>View</b>:</p> <p>To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to filters, views, and groupings.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -500,8 +500,8 @@ In each access level, you can configure the following options for documents:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to documents.</p> </li> 
-     <li> <b>View</b> <p>To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to documents.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default except for <b>Share Documents Publicly</b> and <b>Share system-wide</b>.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -516,8 +516,8 @@ In each access level, you can configure the following options for documents:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to documents.</p> </li> 
-     <li> <b>View</b><p>To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li> <p><b>View</b></p><p>To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to documents.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default except for <b>Share Documents Publicly</b> and <b>Share system-wide</b>.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -532,8 +532,8 @@ In each access level, you can configure the following options for documents:
    <td>Reviewer</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to documents.</p> </li> 
-     <li> <b>View</b> <p>To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to documents.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following actions. All of them are enabled by default except for the last two, <b>Share Documents Publicly</b> and <b>Share system-wide</b>.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -548,8 +548,8 @@ In each access level, you can configure the following options for documents:
    <td>Requestor</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to documents.</p> </li> 
-     <li> <b>View</b><p>To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li> <p><b>View</b></p><p>To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to documents.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -583,7 +583,7 @@ In each access level, you can configure the following options for users:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <b>View</b><p>To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable the <b>View Contact Info</b> option (enabled by default).</p> </li> 
+     <li> <p><b>View</b></p><p>To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable the <b>View Contact Info</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to users.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following actions. Only the first two options, <b>Create</b> and <b>Delete</b>, are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -597,21 +597,21 @@ In each access level, you can configure the following options for users:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <b>View</b> (only option available)<p>To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable the <b>View Contact Info</b> option (enabled by default).</p> </li> 
+     <li><p> <b>View</b> (only option available)</p><p>To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable the <b>View Contact Info</b> option (enabled by default).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Reviewer</td> 
    <td> 
     <ul> 
-     <li> <b>View</b> (only option available) <p>To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then enable or disable the <b>View Contact Info</b> option (disabled by default).</p> </li> 
+     <li><p> <b>View</b> (only option available)</p> <p>To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then enable or disable the <b>View Contact Info</b> option (disabled by default).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Requestor</td> 
    <td> 
     <ul> 
-     <li> <b>View</b> (only option available)<p>To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then enable or disable the <b>View Contact Info</b> option (disabled by default).</p> </li> 
+     <li> <p><b>View</b> (only option available)</p><p>To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then enable or disable the <b>View Contact Info</b> option (disabled by default).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -677,7 +677,7 @@ In each access level, you can configure the following options for teams:
    <td>Reviewer</td> 
    <td> 
     <ul> 
-     <li> <b>View</b> (only option available) <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable any of the following options*. Both are enabled by default.</p> 
+     <li> <p><b>View</b> (only option available)</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable any of the following options*. Both are enabled by default.</p> 
       <ul> 
        <li> <p>View all teams</p> </li> 
        <li>View teams associated with my groups</li> 
@@ -688,7 +688,7 @@ In each access level, you can configure the following options for teams:
    <td>Requestor</td> 
    <td> 
     <ul> 
-     <li> <b>View</b> (only option available) <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable any of the following options*. Both are enabled by default.</p> 
+     <li> <p><b>View</b> (only option available)</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable any of the following options*. Both are enabled by default.</p> 
       <ul> 
        <li> <p>View all teams</p> </li> 
        <li>View teams associated with my groups</li> 
@@ -702,9 +702,6 @@ In each access level, you can configure the following options for teams:
  </tbody> 
 </table>
 
-<!--
-&#42; For information about these options, see [Grant access to teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md).
--->
 
 ## Templates
 
@@ -724,8 +721,8 @@ In each access level, you can configure the following options for templates:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to templates.</p> </li> 
-     <li> <b>View</b> <p>To fine-tune this, you can configure the ability to share templates. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
+     <li> <b>No access</b> </li> 
+     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share templates. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to templates.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -739,21 +736,21 @@ In each access level, you can configure the following options for templates:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b> (only option available): Blocks all access to templates.</p> </li> 
+     <li> <p><b>No access</b> (only option available)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Reviewer</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b> (only option available): Blocks all access to templates.</p> </li> 
+     <li> <p><b>No access</b> (only option available)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Requestor</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b> (only option available): Blocks all access to templates.</p> </li> 
+     <li> <p><b>No access</b> (only option available)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -781,8 +778,8 @@ In each access level, you can configure the following options for financial data
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b>: Blocks all access to financial data.</p> </li> 
-     <li> <b>View</b>: <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable any of the following options*. Both are enabled by default.</p> 
+     <li> <b>No access</b> </li> 
+     <li> <p><b>View</b>:</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable any of the following options*. Both are enabled by default.</p> 
       <ul> 
        <li>View Role Billing &amp; Cost Rates</li> 
        <li> <p>View User Billing &amp; Cost Rates</p> </li> 
@@ -800,7 +797,7 @@ In each access level, you can configure the following options for financial data
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b> (default selection): Blocks all access to financial data.</p> </li> 
+     <li> <p><b>No access</b> (default selection)</p> </li> 
      <li> <b>View</b> </li> 
     </ul> </td> 
   </tr> 
@@ -808,7 +805,7 @@ In each access level, you can configure the following options for financial data
    <td>Reviewer</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b> (default selection): Blocks all access to financial data.</p> </li> 
+     <li> <p><b>No access</b> (default selection)</p> </li> 
      <li><b>View</b> </li> 
     </ul> </td> 
   </tr> 
@@ -816,7 +813,7 @@ In each access level, you can configure the following options for financial data
    <td>Requestor</td> 
    <td> 
     <ul> 
-     <li> <p><b>No access</b> (only option available): Blocks all access to financial data.</p> </li> 
+     <li> <p><b>No access</b> (only option available)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
