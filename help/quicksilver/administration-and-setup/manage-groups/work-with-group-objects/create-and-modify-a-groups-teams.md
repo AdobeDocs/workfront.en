@@ -110,7 +110,7 @@ You must have the following to perform the steps in this article:
        </tr> 
        <tr> 
        <td role="rowheader">Team Members</td> 
-       <td> <p>Add and team members. Start typing the name of a user, then select the name when it appears. Repeat this process to add multiple users to the team.</p> <p>Tip: There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team's work management might become too complex.</p> </td> 
+       <td> <p>Add and team members. Start typing the name of a user, then select the name when it appears. Repeat this process to add multiple users to the team.</p> <p><b>TIP</b>: There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team's work management might become too complex.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Description</td> 

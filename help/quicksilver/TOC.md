@@ -486,7 +486,7 @@ feature-set: Workfront
       * [Locked and unlocked system-level statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)
       * [Make custom statuses default statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)
       * [Delete a custom status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
-      * [List objects with a pending approval processes using a certain status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
+      * [List pending objects using a certain status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
       * [Create and customize priorities](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
       * [Create and customize issue severities](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
     * Approval processes and milestone pages {#approvals-milestones}
@@ -526,7 +526,7 @@ feature-set: Workfront
       * [Email Notifications](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
       * [Configure event notifications](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
       * [Available event notification](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
-      * [View and manage event notifications](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
+      * [Unlock event notifications for all groups](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
       * [Event notification subject lines](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
       * [Modify users' email notification settings](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
       * [Reminder notifications](administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
@@ -563,9 +563,9 @@ feature-set: Workfront
     * Kick-Starts {#kick-starts}
       * [Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
       * [Export Workfront data via Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
-      * [Import data into Adobe Workfront using a Kick-Start template](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
+      * [Import data using a Kick-Start template](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
       * [Kick-Starts data importer](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)
-      * [Kick-Starts Scenario: Company and Group](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
+      * [Kick-Starts scenario: Company and group](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
       * [Kick-Starts scenario: Object import](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
       * [Kick-Starts FAQ](administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)
   * Manage groups {#manage-groups}
@@ -605,9 +605,9 @@ feature-set: Workfront
       * [Business Leader overview](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
     * Manage group statuses {#group-statuses}
       * [Manage group statuses](administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
-      * [Manage a group status](administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
+      * [Create or edit a group status](administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
       * [Reorder group statuses](administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md)
-      * [Use a custom status as a default status for a group](administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md)
+      * [Use a custom status as the default for a group](administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md)
       * [Unlock group configuration of statuses](administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md)
       * [How groups inherit statuses](administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md)
       * [Delete a group status](administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)

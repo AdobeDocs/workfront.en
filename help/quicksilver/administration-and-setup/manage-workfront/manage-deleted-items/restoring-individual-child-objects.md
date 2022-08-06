@@ -25,6 +25,7 @@ You can import the exported data in the following ways:
 
 * Manually, if you are using exported reports 
 * In bulk, if you are using Kick-Starts  
+  
   For more information about importing data into Workfront using Kick-Starts, see [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 The Preview Sandbox environment is refreshed during our maintenance windows over the weekend.
@@ -43,10 +44,11 @@ Once you have determined a deleted object needs restoring by our Database Team, 
 * Object Type (Task, Issue, Project, etc) 
 * Estimated Date and Time of deletion 
 * Object GUID (if possible)  
+  
   Refer to the following information when locating the GUID of an object:
 
    * The GUID can be found by referencing e-mail notifications triggered by interacting with the object (assignments to, comments on, etc.) 
-   * Example of a GUID found at the end of a URL: yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b
+   * Example of a GUID found at the end of a URL: `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`
 
 Once you have gathered this information or if you require assistance, please call our Customer Support Team at 844-306-HELP(4357) or submit a ticket online.
 

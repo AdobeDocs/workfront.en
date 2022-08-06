@@ -66,7 +66,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Recalculate Timelines</td> 
-      <td> <p>Recalculates the timeline for all projects in Workfront that are in a status of Current. </p> <p>For more information about calculating the timeline of projects automatically or manually, one project at a time, see<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculate project timelines</a>.</p> </td> 
+      <td> <p>Recalculates the timeline for all projects in Workfront that are in a status of Current. </p> <p>For more information about calculating the timeline of projects automatically or manually, one project at a time, see <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculate project timelines</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Restore Default Customer Reports</td> 
