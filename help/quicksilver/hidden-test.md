@@ -1,5 +1,6 @@
 ---
 title: Hidden test file
+author: Bob
 description: Hidden from search and from the left nav
 role: Admin
 hidefromtoc: yes
@@ -13,3 +14,7 @@ This file is hidden from search (`hide: yes`) and from the left nav (`hidefromto
 ## New heading
 
 This is a new paragraph.
+
+## New heading pushed to main
+
+Body text pushed to main.
