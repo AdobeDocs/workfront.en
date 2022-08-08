@@ -46,15 +46,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Walk-through
-
-View the following video to learn how to create groupings to organize the information in your reports.
-
-This video was recorded in Adobe Workfront Classic. However, the content also applies to the new Workfront experience.
-
-[ ![](assets/video-create-a-grouping-350x199.png)](https://workfront-video.wistia.com/medias/f9kdcqy520)
-
-## How-to steps
+## Create a grouping
 
 1. Go to the report or the list where you want to create your custom grouping.
 1. Click the **Grouping** icon .  
@@ -89,7 +81,6 @@ This video was recorded in Adobe Workfront Classic. However, the content also ap
 
 See also:
 
-* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
 * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md) 
 * [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md) 
 * [Edit existing groupings](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
