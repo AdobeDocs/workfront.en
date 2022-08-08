@@ -167,13 +167,13 @@ Consider the following when working with filters in lists or reports:
 
 When you build a filter, you connect multiple elements together that make up filter statements. You can have multiple filter statements that define the criteria for your filter.
 
-This is an example of the standard filter builder in all environments:
+This is an example of the standard filter builder:
 
 ![Standard filter builder](assets/filter-statements-with-or-and-and-nwe.png)
 
-<span class="preview">This is an example of the beta filter builder, available in the Preview environment only:</span>
+This is an example of the beta filter builder:
 
-<span class="preview">![Beta filter builder](assets/filter-sample-with-or.png)</span>
+![Beta filter builder](assets/filter-sample-with-or.png)
 
 A filter contains the following elements:
 

@@ -79,11 +79,11 @@ To fix duplicate email addresses within a Workfront instance:
       1. Click **Switch to Text Mode** in the upper-right corner of the page.
       1. Paste the following Text Mode code:
 
-      `group.0.linkedname=direct`
-      `group.0.namekey=emailAddr`
-      `group.0.valueexpression=LOWER({emailAddr})`
-      `group.0.valueformat=string`
-      `textmode=true`
+         `group.0.linkedname=direct`
+         `group.0.namekey=emailAddr`
+         `group.0.valueexpression=LOWER({emailAddr})`
+         `group.0.valueformat=string`
+         `textmode=true`
    
    1. Rename the Grouping and save it.
 

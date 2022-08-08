@@ -94,9 +94,10 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr>
       <td role="rowheader"><strong>Assignees</strong></td>
-      <td><p>To assign more people to the card, start typing a name in the search field, then select it when it displays in the list.</p>
+      <td><p>To assign more people or a team to the card, start typing a name in the search field, then select it when it displays in the list. In the Production environment, you can add individual people. In the Preview environment, you can add both individuals and teams. Only one team assignment is allowed on a connected card.</p>
       <p>Assignees must be members on the board or they will not appear in the selection list.</p>
-      <p>Any assignees you select are also assigned to the task or issue in Workfront.</p></td>
+      <p>Any assignees you select are also assigned to the task or issue in Workfront.</p>
+      <p>Adding a team is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Column</strong></td>

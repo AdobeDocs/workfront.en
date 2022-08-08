@@ -17,10 +17,6 @@ exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
 
 Workfront provides a centrally managed single sign-on (SSO) configuration that easily integrates Workfront with your existing corporate SSO solution. This configuration is easy to set up and manage, and is available for both OnDemand and OnPremise Enterprise customers. 
 
-<!--
-What are OnDemand and OnPremise Enterprise customers?
--->
-
 In order to use the SSO functionality in Workfront, your organization needs to setup an SSO application, such as LDAP or Active Directory. You can then configure Workfront so that it can communicate with your SSO solution.
 
 Federated solutions allow users to log in to all their applications by entering their username and password in a centralized login portal.

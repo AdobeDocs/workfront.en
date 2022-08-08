@@ -39,7 +39,7 @@ You need to following:
   </tr> 
   <tr> 
    <td><b>Product</b> </td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md">Access needed to use the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Access level configurations*</strong> </td> 
@@ -47,7 +47,7 @@ You need to following:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access to a plan, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FScenario_Planner%2Frequest-access-to-plan.htm" target="_blank">Request access to a plan in the Workfront Scenario Planner</a>.</p> <p>For information about requesting additional access to a project, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>. </p> </td> 
+   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md">Request access to a plan in the Workfront Scenario Planner</a>.</p> <p>For information about requesting additional access to a project, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,8 +60,8 @@ If your company has purchased a Workfront Scenario Planner license, you can reco
 
 1. (Conditional) Connect a project with an initiative using one of the methods described in the following articles:
 
-   * [Import projects to plans in the Adobe Workfront Scenario Planner](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FScenario_Planner%2Fimport-projects-to-plans.htm&_LANG=enus) 
-   * [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FScenario_Planner%2Fpublish-scenarios-update-projects.htm&_LANG=enus)
+   * [Import projects to plans in the Adobe Workfront Scenario Planner](import-projects-to-plans.md).
+   * [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](publish-scenarios-update-projects.md). 
 
    >[!IMPORTANT]
    >
@@ -143,7 +143,7 @@ If your company has purchased a Workfront Scenario Planner license, you can reco
      >
      >You must have additional access and permissions to edit tasks and issues.
 
-   * Increase the number of required hours for role that shows the overallocation on the initiative. For more information, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FScenario_Planner%2Fcreate-and-edit-initiatives.htm&_LANG=enus).
+   * Increase the number of required hours for role that shows the overallocation on the initiative. For more information, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](create-and-edit-initiatives.md).
 
      >[!NOTE]
      >

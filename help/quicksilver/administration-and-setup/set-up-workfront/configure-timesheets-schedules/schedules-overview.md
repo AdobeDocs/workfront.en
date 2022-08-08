@@ -69,7 +69,7 @@ The order in which the schedules are used by the system when more than one exist
 * If the user assigned to the task has no schedule, or the task is assigned only to a job role, a team, or is unassigned, Workfront uses the project schedule for the timeline calculations.
 * If the user assigned to the task has no schedule, or the task is assigned only to a job role, a team, or is unassigned, and the project has no schedule, then Workfront uses the schedule in the system designated as the Default Schedule for timeline calculations.
 
-  ![default_schedule.png](assets/default_schedule.png)
+  ![](assets/default-schedule.png)
 
 ## Collaboration in Workfront across time zones
 

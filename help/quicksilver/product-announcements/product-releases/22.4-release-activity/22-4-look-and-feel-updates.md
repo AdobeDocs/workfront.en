@@ -16,7 +16,7 @@ For a list of all changes available with the 22.4 release, see [22.4 Release ove
 
 >[!NOTE]
 >
->Preview release: July 21, 2022; Production release: TBD (prior to the 22.4 release to Production)
+>Preview release: July 21, 2022; Production release: August 18, 2022
 
 In the Custom Forms area, lists now have the more modern look and feel found in most other lists throughout Workfront. This update adds the quick filter, which lets you list only the custom forms you need to review, edit, or share.
 
