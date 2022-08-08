@@ -49,7 +49,7 @@ The following table provides details about current and future functionality:
    <td> <p>Enable a single username to be used for all Workfront products and services, including training, support, and others</p> </td> 
    <td>Not available</td> 
    <td> <p>Not available</p> </td> 
-   <td> <p class="preview">✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Allow using the same email address across Workfront instances</p> </td> 
@@ -61,11 +61,7 @@ The following table provides details about current and future functionality:
    <td> <p>Email addresses are case-insensitive</p> </td> 
    <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
    <td> <p>✓</p> <p>Multiple users cannot have the same email address if the address differs only by case. </p> </td> 
-   <td> <p class="preview">✓</p> <p class="preview">Multiple users cannot have the same email address if the address differs only by case. <!--
-      DRAFTED IN FLARE:
-        For more information, see . 
-      
-     --></p> <p class="preview">Workfront administrators will be notified toward the end of 2019 to begin fixing duplicate email addresses.</p> </td> 
+   <td> <p>✓</p> <p>Multiple users cannot have the same email address if the address differs only by case. </p> <p>Workfront administrators will be notified toward the end of 2019 to begin fixing duplicate email addresses.</p> </td> 
   </tr> 
   <tr> 
    <td colspan="3"> <p><strong>Password management options</strong> </p> </td> 
@@ -75,13 +71,13 @@ The following table provides details about current and future functionality:
    <td> <p>Instigate a password reset email for a user as the Workfront administrator</p> </td> 
    <td> <p>Not available </p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p class="preview">✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Set a temporary password for a user as the Workfront administrator</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>Not planned</p> <p>This functionality is not a security best practice</p> </td> 
-   <td> <p class="preview">Not planned</p> <p class="preview">This functionality is not a security best practice</p> </td> 
+   <td> <p>Not planned</p> <p>This functionality is not a security best practice</p> </td> 
   </tr> 
   <tr> 
    <td colspan="3"> <p><strong>Password policy requirements</strong> </p> </td> 
@@ -91,41 +87,39 @@ The following table provides details about current and future functionality:
    <td> <p>Require users to reset passwords after a certain timeframe</p> </td> 
    <td>✓</td> 
    <td> <p>Not planned</p> </td> 
-   <td> <p class="preview">✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Restrict users from using a previous password </p> </td> 
    <td>✓</td> 
    <td>Not planned </td> 
-   <td> <p class="preview">✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Safeguard against incorrect password entry attempts </p> </td> 
    <td> <p>✓ </p> <p>Locks the account after 5 incorrect password entry attempts. The wait time required after lockout is configured by the Workfront administrator</p> </td> 
    <td> <p>✓</p> <p>Wait time is exponentially increased after each successive incorrect password based on industry best practices; the time required is not configurable by the Workfront administrator</p> </td> 
-   <td> <p class="preview">✓</p> <p class="preview">Uses a lock-out algorithm that proactively blocks a variety of suspicious behavior.</p> </td> 
+   <td> <p>✓</p> <p>Uses a lock-out algorithm that proactively blocks a variety of suspicious behavior.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Require a mix of lowercase, uppercase, numbers, and special characters</p> </td> 
    <td>✓</td> 
    <td> <p>✓ </p> <p>Enhanced flexibility in choosing specific requirements</p> </td> 
-   <td> <p class="preview">✓</p> <p class="preview"> <!--
-      DRAFTED IN FLARE:
-        To learn more about setting password requirements, see . 
-      
-     --> </p> </td> 
+   <td> <p>✓</p> <p> 
+     </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Set a minimum password length </p> </td> 
    <td> Not available </td> 
    <td> ✓ </td> 
-   <td> <p class="preview">✓</p> </td> 
-  </tr> <!--
+   <td> <p>✓</p> </td> 
+  </tr> 
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Restrict users from using more than 2 identical characters in a row</td> 
     <td>Not available</td> 
     <td>Not available</td> 
-    <td> <p class="preview">✓</p> </td> 
+    <td> <p>✓</p> </td> 
    </tr>
   --> 
   <tr> 
@@ -136,31 +130,31 @@ The following table provides details about current and future functionality:
    <td> <p>Supports SSO integrations that are compliant with Active Directory and LDAP protocols</p> </td> 
    <td> ✓&nbsp;</td> 
    <td> <p> Deprecated</p> <p>Active Directory, Azure, and LDAP systems should use SAML 2.0</p> </td> 
-   <td> <p class="preview">Deprecated</p> <p class="preview">Active Directory, Azure, and LDAP systems can be configured with encrypted SAML 2.0 or OpenID Connect.</p> </td> 
+   <td> <p>Deprecated</p> <p>Active Directory, Azure, and LDAP systems can be configured with encrypted SAML 2.0 or OpenID Connect.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Supports SSO protocols that are compliant with SAML 2.0&nbsp;</p> </td> 
    <td>✓</td> 
    <td> ✓&nbsp;</td> 
-   <td> <p class="preview">✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Supports Open ID Connect protocols</p> </td> 
    <td> <p>Not available</p> </td> 
    <td> <p>Not available</p> </td> 
-   <td> <p class="preview">✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p> Configure the Workfront login page to always redirect to the identity provider login page </p> </td> 
    <td> Enabled by default and cannot be disabled</td> 
    <td> <p>✓</p> <p>Workfront administrator can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
-   <td> <p class="preview">✓</p> <p class="preview"> Workfront administrators can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
+   <td> <p>✓</p> <p> Workfront administrators can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Allow each instance to enable multiple SSO providers</p> </td> 
    <td> <p>N/A</p> </td> 
    <td> <p>Not planned</p> </td> 
-   <td> <p class="preview">✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td colspan="3"> <p><strong>Environment support</strong> </p> </td> 
@@ -170,25 +164,26 @@ The following table provides details about current and future functionality:
    <td> <p>A single username and password for Preview environments</p> </td> 
    <td> <p>Not available</p> </td> 
    <td> <p>Not available</p> </td> 
-   <td> <p class="preview">✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>A single username and password for Sandbox environments</p> </td> 
    <td> <p>Not available</p> </td> 
    <td> <p>Not available</p> </td> 
-   <td> <p class="preview">✓</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td> <p>✓</p> </td> 
+  </tr> 
+  <!--
+   <tr> 
     <td> <p>Available for Production environments</p> </td> 
     <td>✓</td> 
     <td> ✓&nbsp;</td> 
-    <td> <p class="preview">✓</p> </td> 
+    <td> <p>✓</p> </td> 
    </tr>
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> Available for Preview and Sandbox environments&nbsp;</td> 
     <td> ✓&nbsp;</td> 
     <td> ✓</td> 
-    <td> <p class="preview">✓</p> </td> 
+    <td> <p>✓</p> </td> 
    </tr>
   --> 
  </tbody> 

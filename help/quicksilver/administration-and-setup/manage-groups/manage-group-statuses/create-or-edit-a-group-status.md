@@ -136,10 +136,11 @@ You must have the following to perform the steps in this article:
        <p><b>NOTE</b>: You can use both locked and unlocked statuses in a group approval process. If you create a group approval process with an unlocked group status, users can attach the approval process to any project, task, or issue that is associated with the group.</p> </p>
        </td> 
      </tr>
+     <!-- This story is on hold 
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <td role="rowheader"><span class="preview">Users can select this status only if required fields on the object are completed</span> </td> 
-       <td> <p><span class="preview">(Applies only if you selected Tasks in Step 3) Assures that users can select this status for an object only if all required fields on the object are completed.</span> </p>
-       <!-- This story is on the back burner -->
+      <td role="rowheader">Users can select this status only if required fields on the object are completed</td> 
+      <td> <p>(Applies only if you selected Tasks in Step 3) Assures that users can select this status for an object only if all required fields on the object are completed. </p>
+      -->
        </td> 
       </tr>
     </tbody> 
@@ -171,4 +172,4 @@ If you are a group administrator (or a Workfront administrator), you can create 
 
    The status is dimmed and no longer visible to all users in that group.
 
-1. Repeat steps 3 through Step 5 to hide the custom status from any other groups who don't need it.
+1. Repeat steps 3 through 5 to hide the custom status from any other groups who don't need it.

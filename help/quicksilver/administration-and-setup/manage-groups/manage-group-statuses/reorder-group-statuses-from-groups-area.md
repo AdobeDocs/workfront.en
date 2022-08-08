@@ -69,36 +69,33 @@ By default, statuses display in the following order:
  <tbody> 
   <tr> 
    <td> 
-    <ul> 
-     <li>Current</li> 
-     <li>Dead</li> 
-     <li> On Hold </li> 
-     <li> Planning </li> 
-     <li> Complete </li> 
-     <li> Requested </li> 
-     <li> Approved </li> 
-     <li> Rejected </li> 
-     <li> Idea </li> 
-    </ul> </td> 
+     <p>Current</p> 
+     <p>Dead</p> 
+     <p> On Hold </p> 
+     <p> Planning </p> 
+     <p> Complete </p> 
+     <p> Requested </p> 
+     <p> Approved </p> 
+     <p> Rejected </p> 
+     <p> Idea </p> 
+   </td> 
    <td> 
-    <ul> 
-     <li>New</li> 
-     <li>In Progress</li> 
-     <li>Complete</li> 
-    </ul> </td> 
+     <p>New</p> 
+     <p>In Progress</p> 
+     <p>Complete</p> 
+   </td> 
    <td> 
-    <ul> 
-     <li>New</li> 
-     <li>In Progress</li> 
-     <li>Reopened</li> 
-     <li>Awaiting Feedback</li> 
-     <li>On Hold</li> 
-     <li>Cannot Duplicate</li> 
-     <li>Closed</li> 
-     <li>Resolved</li> 
-     <li>Verified Complete</li> 
-     <li>Won't Resolve</li> 
-    </ul> </td> 
+     <p>New</p> 
+     <p>In Progress</p> 
+     <p>Reopened</p> 
+     <p>Awaiting Feedback</p> 
+     <p>On Hold</p> 
+     <p>Cannot Duplicate</p> 
+     <p>Closed</p> 
+     <p>Resolved</p> 
+     <p>Verified Complete</p> 
+     <p>Won't Resolve</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>

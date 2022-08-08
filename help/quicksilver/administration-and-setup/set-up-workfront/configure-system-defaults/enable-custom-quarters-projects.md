@@ -49,14 +49,14 @@ You must have the following access to perform the steps in this article:
 1. Type a name for the custom quarter, such as "Fiscal Q1 2021."
 1. Select start and end dates for the custom quarter.
 
-   ![](assets/custom-quarters-nwe-350x107.png)
+   ![](assets/custom-quarters-nwe.png)
 
 1. (Optional) Click **Add Custom Quarter** to add additional custom quarters to the system.
 1. (Optional) Create a reporting element that refers to the fiscal quarters.
 
    **Example:** Create a filter for a project list and include the Planned Completion Date of a project referencing the custom quarters.
 
-   ![](assets/example-of-project-filter-with-custom-quarters-350x406.png)
+   ![](assets/example-of-project-filter-with-custom-quarters.png)
 
    The references to "This Quarter", "Next Quarter", and "Last Quarter" are replaced with new references to the custom quarters.
 

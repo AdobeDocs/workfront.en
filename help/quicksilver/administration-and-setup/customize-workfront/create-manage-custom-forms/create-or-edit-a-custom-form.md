@@ -51,7 +51,7 @@ You must have the following to perform the steps in this article:
 1. Click **New Custom Form.**
 1. Select at least one object type that you want to associate with the custom form, then click **Continue**.
 
-   ![](assets/choose-object-type-350x186.jpg)
+   ![](assets/choose-object-type.jpg)
 
 1. On the **Form Settings** tab that opens, type a **Form Title** and an optional **Description** for the custom form.
 
