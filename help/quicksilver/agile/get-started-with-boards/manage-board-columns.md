@@ -45,6 +45,8 @@ You must have the following access to perform the steps in this article:
 
    ![Add new column](assets/boards-add-column.png)
 
+   To add the new column as an intake column, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
 ## Reorder columns on a board
 
 1. Access the board.
