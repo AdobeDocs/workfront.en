@@ -7,7 +7,7 @@ hidefromtoc: yes
 hide: yes
 ---
 
-# Hidden test file
+# Hidden test file Bob
 
 This file is hidden from search (`hide: yes`) and from the left nav (`hidefromtoc: yes`).
 
