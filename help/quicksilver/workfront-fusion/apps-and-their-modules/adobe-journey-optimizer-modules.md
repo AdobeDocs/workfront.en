@@ -175,7 +175,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
         <li><b>Decision</b>: Continue to <a href="#decision-fields" >Decision fields</a>.</li>
         <li><b>Tag</b>: Continue to <a href="#tag-fields" >Tag fields</a>.</li>
         <li><b>Collection</b>: Continue to <a href="#collection-fields" >Collection fields</a>.</li>
-        <li><b>Fallback offer</b>: Continue to <a href="fallback-offer-fields" >Fallback offer fields</a>.</li>
+        <li><b>Fallback offer</b>: Continue to <a href="#fallback-offer-fields" >Fallback offer fields</a>.</li>
         <li><b>Personalized offer</b>: Continue to <a href="#personalized-offer-fields" >Personalized offer fields</a>.</li>
         </ul>
       </td>
