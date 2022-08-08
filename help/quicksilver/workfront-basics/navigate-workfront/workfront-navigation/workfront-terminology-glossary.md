@@ -862,7 +862,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td><p>There are two concepts of goals in Workfront: </p> 
     <ul> 
      <li> <p><b>Project goals</b>: A set of business objectives agreed to by the relevant stakeholders of a project. Project goals are part of the Business Case of a project. </p> <p>You cannot display project goals in lists or reports but you can access them through the API. </p> <p>For information about Business Case project goals, see <a href="../../../manage-work/projects/define-a-business-case/create-business-case-goals.md">Create Business Case goals </a>. </p> </li> 
-     <li> <p><b>Strategic goals</b>: A strategic goal is an objective that you create to plan your work strategy for a specific time-period. You can create these types of goals using Workfront Goals. Your organization must purchase an additional license and you must have access to this feature to be able to create strategic goals. Workfront Goals are available only in the new Adobe Workfront experience.</p> 
+     <li> <p><b>Strategic goals</b>: A strategic goal is an objective that you create to plan your work strategy for a specific time-period. You can create these types of goals using Workfront Goals. Your organization must purchase an additional license and you must have access to this feature to be able to create strategic goals. Workfront Goals are available only with an additional license.</p> 
      <p>For more information, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">Adobe Workfront Goals overview </a>. </p> 
      <p>You can display strategic goals in a goal or a project report and access them through the API. </p> </li> 
     </ul> </td> 
@@ -957,12 +957,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>The area of the application that allows defining Custom Views, Filters, Groupings, List Controls, etc.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><span>Is Company</span> </p> <p><span>Goal</span> </p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;it stays in both QS and classic)</p>
-    --> </td> 
-   <td> <p>In goal reports, this displays a "True/ False"&nbsp;value for each strategic goal to indicate whether your organization is assigned to the goal as its owner. </p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;link in the second snippet below is hard-coded for Goals)</p>
-    --> <p>This requires an additional license. For information about Workfront Goals, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>. </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. <!--(NOTE: Link is hard coded to work both in QS and classic)--></p> </td> 
+   <td> <p>Is Company Goal</p></td> 
+   <td> <p>In goal reports, this displays a "True/ False" value for each strategic goal to indicate whether your organization is assigned to the goal as its owner. </p> 
+   <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">Adobe Workfront Goals overview </a>.</p>
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Issue</td> 
@@ -1087,11 +1084,11 @@ The following table is a list of commonly used terms in Adobe Workfront:
     --> </td> 
   </tr> 
   <tr> 
-   <td>Legacy Resource Pool</td> 
+   <!-- <td>Legacy Resource Pool</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> 
    <p>Although not recommended, you may update the information in this report using the API.</p> 
    <p>See <i>Resource Pools</i> for updated fields. </p> 
-   <!-- <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
+   <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
   </tr> 
   <tr> 
@@ -1217,7 +1214,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Companies</li> 
     </ul> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  <tr> 
    <td>Object Types</td> 
    <td>If you create a report or list containing all of your custom forms, you can use this field as a view or filter to see which object types are associated with each form. </td> 
   </tr> 
