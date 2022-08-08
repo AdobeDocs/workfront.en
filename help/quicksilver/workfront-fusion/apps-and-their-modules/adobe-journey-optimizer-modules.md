@@ -151,7 +151,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-#### Create a record
+### Create a record
 
 This action module creates a placement, decision rule, tag, personalized offer, collection, or fallback offer.
 
@@ -183,7 +183,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
   </tbody>
 </table>
 
-##### Placement fields
+#### Placement fields
 
 <table>
   <col/>
@@ -204,7 +204,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
 </table>
 
 
-##### Decision rule fields
+#### Decision rule fields
 
 <table>
   <col/>
@@ -231,7 +231,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
   </tbody>
 </table>
 
-##### Decision fields
+#### Decision fields
 
 <table>
   <col/>
@@ -274,7 +274,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
   </tbody>
 </table>
 
-##### Tag fields
+#### Tag fields
 
 <table>
   <col/>
@@ -287,7 +287,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
   </tbody>
 </table>
 
-##### Collection fields
+#### Collection fields
 
 <table>
   <col/>
@@ -314,7 +314,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
   </tbody>
 </table>
 
-##### Fallback offer fields
+#### Fallback offer fields
 
 <table>
   <col/>
@@ -341,7 +341,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
   </tbody>
 </table>
 
-##### Personalized offer fields
+#### Personalized offer fields
 
 <table>
   <col/>
@@ -389,7 +389,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
   </tbody>
 </table>
 
-#### Make a custom API call
+### Make a custom API call
 
 This module makes a custom API call to the Adobe Journey Optimizer API
 
@@ -446,7 +446,7 @@ This module makes a custom API call to the Adobe Journey Optimizer API
   </tbody>
 </table>
 
-#### Get records
+### Get records
 
 This search module lists records of the selected type, returning results based on criteria you specify.
 
