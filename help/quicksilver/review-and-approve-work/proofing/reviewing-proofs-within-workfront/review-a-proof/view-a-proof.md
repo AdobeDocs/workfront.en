@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: review-a-proof
 title: View content in a proof
 description: You must have the following access to perform the steps in this article - EDIT ME.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
 ---
-
 # View content in a proof
 
 ## Access requirements
@@ -149,4 +150,3 @@ You can adjust the zoom percentage when viewing the proof. When viewing a proof 
    >[!TIP]
    >
    >To easily switch between the Zoom and Pan tools, hold down the spacebar when using the Zoom icon to pan.
-

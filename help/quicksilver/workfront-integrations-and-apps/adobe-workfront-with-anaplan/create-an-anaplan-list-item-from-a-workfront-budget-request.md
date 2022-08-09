@@ -3,9 +3,10 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: Create an Anaplan list item from an Adobe Workfront budget request
 description: This integration scenario links an Adobe Workfront project (campaign) with an Anaplan budget list item. This is accomplished by adding a budget request to the Workfront project that needs to receive funding. This scenario watches for unprocessed budget requests, then executes a process to create an empty budget list item in Anaplan to kick off budget allocation processes in Anaplan.
-feature: "Workfront Integrations and Apps, Workfront Fusion"
+author: Becky
+feature: Workfront Integrations and Apps, Workfront Fusion
+exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
 ---
-
 # Create an Anaplan list item from an Adobe Workfront budget request
 
 This integration scenario links an Adobe Workfront project (campaign) with an Anaplan budget list item. This is accomplished by adding a budget request to the Workfront project that needs to receive funding. This scenario watches for unprocessed budget requests, then executes a process to create an empty budget list item in Anaplan to kick off budget allocation processes in Anaplan.
@@ -190,4 +191,3 @@ Additional scenarios for spend optimization include:
 * [Send Adobe Workfront project updates to an Anaplan list item](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md) 
 * [Send Adobe Workfront actual hours updates to an an Anaplan list item](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md) 
 * [Send Adobe Workfront expenses to an Anaplan list item](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-

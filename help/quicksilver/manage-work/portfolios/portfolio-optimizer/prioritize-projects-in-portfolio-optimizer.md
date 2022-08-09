@@ -3,9 +3,10 @@ title: Prioritize projects in the Portfolio Optimizer
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
 description: You can prioritize your projects in the Portfolio Optimizer, to establish the order in which they should be completed.
-feature: "Work Management, Strategic Planning"
+author: Alina
+feature: Work Management, Strategic Planning
+exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
 ---
-
 # Prioritize projects in the Portfolio Optimizer
 
 You can prioritize your projects in the Portfolio Optimizer, to establish the order in which they should be completed.
@@ -75,4 +76,3 @@ You must have the following access to perform the steps in this article:
    You can see the priority of the project as it appears in the Portfolio Optimizer in the Resource Planner, by enabling the **Display Portfolio Priorities** setting in the Resource Planner.
 
    For information about prioritizing projects in the Resource Planner, see the article [Prioritize projects in the Resource Planner](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
-

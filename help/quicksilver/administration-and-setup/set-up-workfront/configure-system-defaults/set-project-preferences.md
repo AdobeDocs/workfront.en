@@ -4,10 +4,11 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Configure system-wide project preferences
 description: As an Adobe Workfront administrator, you can configure the default preferences for all projects created throughout the system. These preferences impact project, task, and issue behavior.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
 ---
-
 # Configure system-wide project preferences
 
 As an Adobe Workfront administrator, you can configure the default preferences for all projects created throughout the system. These preferences impact project, task, and issue behavior.
@@ -26,11 +27,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -102,7 +103,7 @@ Configure any of the following preferences for newly created projects throughout
   </tr> 
   <tr> 
    <td role="rowheader">Automatically set the project's Condition based on the Progress Status</td> 
-   <td> <p>This preference allows users to set the Condition of a project manually (On Target, At Risk, In Trouble) or have Workfront set the Condition (Progress Status) automatically based on the project's progression on the timeline. For more information about the Condition of projects, see&nbsp;<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Overview of Project Condition and Condition Type</a>.</p> </td> 
+   <td> <p>This preference allows users to set the Condition of a project manually (On Target, At Risk, In Trouble) or have Workfront set the Condition (Progress Status) automatically based on the project's progression on the timeline. For more information about the Condition of projects, see <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Overview of Project Condition and Condition Type</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Create baselines automatically</p> </td> 
@@ -216,7 +217,7 @@ Configure any of the following preferences for newly created projects throughout
    <td role="rowheader"> <p>After a project has been marked as Complete, people can still </p> </td> 
    <td> <p>Determine the rules for your organization (or group, if you are configuring project preferences for a group) regarding whether a task or an issue can be deleted after the project status has been marked Complete.</p> 
     <ul> 
-     <li><strong>Delete Tasks</strong>: Allows users to delete tasks from a&nbsp;project after the project has been marked Complete.<br></li> 
+     <li><strong>Delete Tasks</strong>: Allows users to delete tasks from a project after the project has been marked Complete.<br></li> 
      <li><strong>Delete Issues</strong>: Allows users to delete issues from a project after the project has been marked Complete.</li> 
     </ul> </td> 
   </tr> 
@@ -234,10 +235,9 @@ Configure any of the following preferences for newly created projects throughout
        <li>Edit issues within a project after the project has been marked Complete, Dead, or Pending Approval.</li>
        <li>Add issues to a project after the project has been marked Complete or Dead. (You cannot add issues to a project that is Pending Approval.)</li>
       </ul></li> 
-     <li> <p><strong>Add documents to the project and to its tasks and issues</strong>: Allows users to add documents to a project (or to add documents to tasks and issues within the project) after the project has been marked Complete or Dead.<br></p> <p>This option does not apply to projects that are pending approval.</p> </li> 
-     <li> <p><strong>Attach templates</strong>: Allows users to attach templates to a project after the project has been marked Complete or Dead.<br></p> <p>This option does not apply to projects that are pending approval.</p> </li> 
+     <li> <p><strong>Add documents to the project and to its tasks and issues</strong>: Allows users to add documents to a project (or to add documents to tasks and issues within the project) after the project has been marked Complete or Dead.</p> <p>This option does not apply to projects that are pending approval.</p> </li> 
+     <li> <p><strong>Attach templates</strong>: Allows users to attach templates to a project after the project has been marked Complete or Dead.</p> <p>This option does not apply to projects that are pending approval.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
-

@@ -3,9 +3,10 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Approve a timesheet
 description: The process of approving timesheets provides managers with visibility into the work hours of their direct reports. Approvers can verify that all time recorded has been allocated in the correct areas and that a sufficient number of hours have been recorded for the period.
+author: Lisa
 feature: Timesheets
+exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
 ---
-
 # Approve a timesheet
 
 The process of approving timesheets provides&nbsp;managers with visibility into the work hours of their direct reports. Approvers can verify that all time recorded has been allocated in the correct areas and that a sufficient number of hours have been recorded for the period.
@@ -91,4 +92,3 @@ To approve a timesheet:
    If approved, the timesheet status changes to **Closed**.
 
    If rejected, the timesheet status changes to **Rejected**.
-

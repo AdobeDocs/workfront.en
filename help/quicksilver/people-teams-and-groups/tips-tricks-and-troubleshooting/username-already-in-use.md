@@ -4,9 +4,10 @@ product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-groups
 title: Username Already in Use
 description: Read these tips when you get an error that the username is already taken.
-feature: "People Teams and Groups"
+author: Lisa
+feature: People Teams and Groups
+exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
 ---
-
 # Username Already in Use
 
 ## Access requirements
@@ -62,4 +63,3 @@ Ensure that the username and email address is unique in the current Workfront in
       This results in a view to display the usernames where you can look for the duplicate.
 
 1. In the list of people, look in the **Username** column to ensure there are no duplicate usernames.
-

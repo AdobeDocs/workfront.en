@@ -4,9 +4,10 @@ keywords: publish,plans,projects,scenario,scenarios
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Update or create projects by publishing initiatives in the Scenario Planner
 description: Publishing a scenario from the Adobe Workfront Scenario Planner accomplishes the following - EDIT ME.
+author: Alina
 feature: Workfront Scenario Planner
+exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
 ---
-
 # Update or create projects by publishing initiatives in the Scenario Planner
 
 Publishing a scenario from the Adobe Workfront Scenario Planner accomplishes the following:
@@ -60,7 +61,6 @@ For additional information about access to the Workfront Scenario Planner, see [
 
 Before you begin:
 
-* You must use the new Adobe Workfront experience to be able to access the Scenario Planner. 
 * You must create and save a plan before you can publish initiatives from it.
 
 ## Considerations about publishing initiatives to projects
@@ -190,13 +190,9 @@ Before you begin:
 
    * **The Overview area of the Project Details section**: A new Scenario Planner section is created in this area that contains information from the linked initiative.
 
-     >[!TIP]
-     >
-     >This information is visible only when viewing Project&nbsp;Details in the new Adobe Workfront experience.
-
      ![](assets/scenario-planner-on-project-details-350x135.png)
 
-     The following initiative information is published in the Scenario Planner area of the Project&nbsp;Details section:
+     The following initiative information is published in the Scenario Planner area of the Project Details section:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -241,7 +237,7 @@ Before you begin:
      >   
      >
 
-   * **The Role Allocation panel in the**Workload Balancer** or the task list of the project**: Information about role allocation on the initiative populates in this area, in addition to role allocations on the project.
+   * **The Role Allocation panel in the Workload Balancer or the task list of the project**: Information about role allocation on the initiative populates in this area, in addition to role allocations on the project.
 
      For more information, see [Overview of reconciling resource allocations between projects and initiatives](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 

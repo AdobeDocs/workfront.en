@@ -4,11 +4,20 @@ product-area: system-administration
 navigation-topic: security
 title: Change your Adobe Workfront domain
 description: As an Adobe Workfront administrator and an authorized Workfront Support contact, you can request help from the Workfront Support team to change your organization's Workfront domain.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
 ---
-
 # Change your Adobe Workfront domain
+
+>[!IMPORTANT]
+>
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>
+>To change your Adobe Workfront domain if your organization has been onboarded to the Adobe Admin Console, see [Set up domains](https://helpx.adobe.com/enterprise/using/set-up-identity.html#setup-domains).
+>
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 As an Adobe Workfront administrator and an authorized Workfront Support contact, you can request help from the Workfront Support team to change your organization's Workfront domain.
 
@@ -22,11 +31,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -65,4 +74,3 @@ If your company utilizes SSO, the following steps are required after you have yo
 
 1. Provide the downloaded metadata file to your Identity Provider so that they can update it on their end.
 1. Make sure the domain is updated for all Workfront integrations used by your organization.
-

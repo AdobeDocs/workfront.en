@@ -4,15 +4,15 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Create a schedule
 description: You can define your users' work weeks by using schedules. You can associate a schedule with a user or a project. This allows Workfront to calculate timelines and user availability.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
 ---
-
 # Create a schedule
 
-<!--
-**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
-**Linked to Editing Users, Editing Projects, Creating and managing groups</p>
+<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
+Linked to Editing Users, Editing Projects, Creating and managing groups
 -->
 
 As an Adobe Workfront administrator, you can define your work week by using schedules. You can associate a schedule with a user or a project. This allows Workfront to calculate timelines and user availability.
@@ -38,11 +38,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -122,7 +122,7 @@ You must have the following access to perform the steps in this article:
 
 1. Specify the start and end time for the partial day exceptions.
 
-   ![partial_day_exception_on_schedules.png](assets/partial-day-exception-on-schedules.png)
+   ![partial-day-exception-on-schedules.png](assets/partial-day-exception-on-schedules.png)
 
 1. Click **Save**, then click **Save Changes**.
 
@@ -130,7 +130,6 @@ You must have the following access to perform the steps in this article:
 
    For information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. (Optional)&nbsp;Associate the schedule with a project.
+1. (Optional) Associate the schedule with a project.
 
    For information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
-

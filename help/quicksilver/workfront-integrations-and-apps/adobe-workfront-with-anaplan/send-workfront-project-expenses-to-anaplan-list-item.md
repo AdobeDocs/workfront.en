@@ -3,9 +3,10 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: Send Adobe Workfront expenses to an Anaplan list item
 description: This integration scenario shares expense-related details from an Adobe Workfront project with an Anaplan budget list item. Sharing this information allows you to take better advantage of the spend optimization and financial analysis that Anaplan provides.
-feature: "Workfront Integrations and Apps, Workfront Fusion"
+author: Becky
+feature: Workfront Integrations and Apps, Workfront Fusion
+exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
 ---
-
 # Send Adobe Workfront expenses to an Anaplan list item
 
 This integration scenario shares expense-related details from an Adobe Workfront project with an Anaplan budget list item. Sharing this information allows you to take better advantage of the spend optimization and financial analysis that Anaplan provides.
@@ -193,4 +194,3 @@ Additional scenarios for linking campaign requests:
 
 * [Create an Anaplan list item from an Adobe Workfront campaign request](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md) 
 * [Apply an Anaplan budget allocation to an Adobe Workfront campaign request or campaign project](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-

@@ -5,9 +5,10 @@ product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Basic terms in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+author: Becky
 feature: Workfront Fusion
+exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
 ---
-
 # Basic terms in Adobe Workfront Fusion
 
 >[!NOTE]
@@ -109,4 +110,3 @@ feature: Workfront Fusion
   </tr> 
  </tbody> 
 </table>
-

@@ -4,10 +4,10 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 title: View and manage custom OAuth2 applications
 description: As an Adobe Workfront administrator, you can view and manage the OAuth2 applications for your instance of Workfront, which allow other applications to access Workfront.
-feature: "System Setup and Administration, Workfront Integrations and Apps"
+feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
 ---
-
 # View and manage custom OAuth2 applications
 
 As an Adobe Workfront administrator, you can view and manage the OAuth2 applications for your instance of Workfront, which allow other applications to access Workfront.
@@ -132,4 +132,3 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 1. Hover over the application and click the **Edit** icon when it appears on the far right.
 1. Locate the Client Secret that you want to delete.
 1. Click the **Delete** icon ![](assets/delete.png) next to the Client Secret.
-

@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
 title: FAQ - Desktop Proofing Viewer
 description: No. The Desktop Proofing Viewer is specifically designed for real-time website proofing and for proofing interactive web content such as banner advertisements.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
 ---
-
 # FAQ - Desktop Proofing Viewer
 
 ## **My organization doesn't proof interactive content. Do I still need to install the Desktop Proofing Viewer?**

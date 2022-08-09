@@ -2,10 +2,11 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Edit a dashboard
-description: The purpose of the dashboard is to provide quick access to information. You can populate a dashboard with the following items in Adobe Workfront - EDIT ME.
+description: The purpose of the dashboard is to provide quick access to information. You can populate a dashboard with reports, calendars, and exernal pages.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
 ---
-
 # Edit a dashboard
 
 The purpose of the dashboard is to provide quick access to information. You can populate a dashboard with the following items in Adobe Workfront:
@@ -37,19 +38,19 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>Edit access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -83,7 +84,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 
    >[!NOTE]
    >
-   >&nbsp;When searching for an item, the search returns any of the 2,000 most recently created reports.&nbsp;Report names that include unicode characters are not returned in search results. As a best practice, avoid including&nbsp;unicode characters when naming objects in Workfront&nbsp;by typing names rather than copying and pasting names from another source.
+   >When searching for an item, the search returns any of the 2,000 most recently created reports. Report names that include unicode characters are not returned in search results. As a best practice, avoid including unicode characters when naming objects in Workfront by typing names rather than copying and pasting names from another source.
 
 1. (Optional) Select a new layout for the dashboard by clicking a radio button corresponding to the layout you want.
 1. (Optional) Mouse over the name of an existing report and click the trash can icon to remove it from the dashboard.
@@ -94,4 +95,3 @@ For information on creating dashboards, see [Create a dashboard](../../../report
    For more information about adding or editing external pages in a dashboard, see [Embed an external web page in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 1. Click **Save + Close**.
-

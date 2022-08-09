@@ -4,9 +4,10 @@ product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Create a practice integration scenario in Adobe Workfront Fusion
 description: This article describes how to create an integration scenario with Adobe Workfront Fusion. Integration scenarios connect separate apps together, allowing your data to flow through different applications.
+author: Becky
 feature: Workfront Fusion
+exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
 ---
-
 # Create a practice integration scenario in Adobe Workfront Fusion
 
 This article describes how to create an integration scenario with Adobe Workfront Fusion. Integration scenarios connect separate apps together, allowing your data to flow through different applications.
@@ -16,6 +17,10 @@ To create an integration scenario, your organization must have a Workfront Fusio
 For instructions on building a Workfront-only automation scenario, see [Create a practice automation scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
 
 For more information on Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+>[!NOTE]
+>
+>Your organization may not allow access to Google Sheets. If that is the case, you will not be able to set up this integration, but the information presented here can be used as a general example of how integration scenarios function.
 
 ## Access requirements
 
@@ -169,11 +174,7 @@ After you connect Workfront Fusion to your Google Sheets account, you can specif
    This second module needs to be a Workfront module, but we didn't pre-load the Workfront app.
 
 1. To find the Workfront app, start typing "workfront" and click the app when it appears.
-1. In the list of Workfront modules that appears, click**Create Record**.
-
-   >[!IMPORTANT]
-   >
-   >As you continue these steps, don't click outside the Workfront box until you click OK in step 10. Clicking away from the box cancels the work you've done inside it.
+1. In the list of Workfront modules that appears, click **Create Record**.
 
 1. As you did before with the Google Sheets app, click **Add** in the Workfront box to add a connection between Workfront Fusion and Workfront.
 

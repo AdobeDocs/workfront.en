@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: issues
 title: Convert issues
 description: This section contains the following articles - EDIT ME.
+author: Alina
 feature: Work Management
+exl-id: bb84c18e-5270-44ae-9e6e-0a2099d6d164
 ---
-
 # Convert issues
 
 This section contains the following articles:
@@ -17,4 +18,3 @@ This section contains the following articles:
 * [Overview of Resolving and Resolvable Objects](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md) 
 * [Manually tie the resolution of an issue to other issues, tasks, or projects](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md) 
 * [Unlink issues from their Resolving Objects](../../../manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)
-

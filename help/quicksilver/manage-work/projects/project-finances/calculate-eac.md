@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Calculate Estimate At Completion (EAC)
 description: Calculate Estimate At Completion (EAC)
+author: Alina
 feature: Work Management
+exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
 ---
-
 # Calculate Estimate At Completion (EAC)
 
 <!--
@@ -127,4 +128,3 @@ EAC = EAC Labor + EAC Expense
    The EAC value displays in the **Estimate at Completion** field.
 
    ![](assets/eac-highlighted-on-project-350x112.png)
-

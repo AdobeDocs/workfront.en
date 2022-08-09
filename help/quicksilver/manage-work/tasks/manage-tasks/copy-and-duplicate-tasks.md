@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: manage-tasks
 title: Copy and duplicate tasks
 description: You can copy a task from a project to another project, or you can duplicate a task within the same project.
+author: Alina
 feature: Work Management
+exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 ---
-
 # Copy and duplicate tasks
 
 You can copy a task from a project to another project, or you can duplicate a task within the same project.

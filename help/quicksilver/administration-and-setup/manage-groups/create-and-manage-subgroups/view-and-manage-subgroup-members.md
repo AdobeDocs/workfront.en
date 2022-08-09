@@ -4,10 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: View and manage subgroup members
 description: When you are viewing a group that you manage, you can view and manage all of the users in the group's subgroups.
-feature: "System Setup and Administration, People Teams and Groups"
+author: Caroline
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
 ---
-
 # View and manage subgroup members
 
 When you are viewing a group that you manage, you can view and manage all of the users in the group's subgroups.
@@ -23,11 +24,11 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront plan</a>*</td> 
-   <td> <p>Any</p> </td> 
+   <td role="rowheader">Workfront plan*</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Adobe Workfront license</a>*</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan </p> <p>You must be a group administrator of the group or a Workfront administrator. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -67,4 +68,3 @@ You must have the following to perform the steps in this article:
      For more information, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
    
    * Export ![](assets/export.png) the list of members.
-

@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: share-proofs-and-files
 title: Share the Public URL in Workfront Proof
 description: You can share a proof by providing the desired recipient with the Public proof URL.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: b5fceaf9-f812-4368-8a13-d7fadebb7d28
 ---
-
 # Share the Public URL in Workfront Proof
 
 >[!IMPORTANT]
@@ -53,4 +54,3 @@ To access the proof from a Public&nbsp;URL:
 * Users open the proof by using their login details which include their registered email and password for Workfront Proof.
 * Non-users open the proof by entering an email address and display name.
 * In either case, select **Remember me** so that you will have to enter your details this one time (for this proof).
-

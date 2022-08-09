@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Grouping: Project Sponsor for hours"
+title: 'Grouping: Project Sponsor for hours'
 description: This hour grouping organizes hours by the sponsor of the project where the hours are logged. The standard report builder interface for hour groupings does not provide a mapping to the Project Sponsor field. You must use the Text Mode interface to access this field.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
 ---
-
 # Grouping: Project Sponsor for hours
 
 This hour grouping organizes hours by the sponsor of the project where the hours are logged. The standard report builder interface for hour groupings does not provide a mapping to the Project Sponsor field. You must use the Text Mode interface to access this field.
@@ -56,4 +57,3 @@ To apply this grouping:
    <pre>group.0.linkedname=project:sponsor:name<br>group.0.name=<br>group.0.valuefield=project:sponsor:name<br>group.0.valueformat=HTML<br>textmode=true<br></pre>
 
 1. Click **Save Grouping**.
-

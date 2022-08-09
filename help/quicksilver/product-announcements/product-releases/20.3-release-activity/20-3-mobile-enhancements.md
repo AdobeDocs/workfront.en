@@ -3,9 +3,10 @@ content-type: release-notes
 navigation-topic: 2020-3-release-activity
 title: 20.3 Integration and mobile enhancements
 description: This page describes all integration and mobile enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
-feature: "Product Announcements, Workfront Integrations and Apps"
+author: Luke
+feature: Product Announcements, Workfront Integrations and Apps
+exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
 ---
-
 # 20.3 Integration and mobile enhancements
 
 This page describes all integration and mobile enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
@@ -54,4 +55,4 @@ You can use the pin feature to access saved virtual assistant commands as well a
 
 For more information about both of these features, see [Adobe Workfront mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/448649564/f04d00ea6d) 
+[Watch a video demonstration of this feature.](https://vimeo.com/448649564/f04d00ea6d)

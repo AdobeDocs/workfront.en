@@ -3,25 +3,25 @@ content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
 title: Get OAuth2 Tokens
-description: Returns the OAuth2 refresh token and access token for an authenticated user. This is invoked once when the the user provisions a Document Provider. Subsequent calls are made to get an updated access token.
-feature: "Workfront API, Digital Content and Documents"
+description: Get OAuth2 Tokens
+author: John
+feature: Workfront API
+exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
 ---
 
 # Get OAuth2 Tokens
 
-## Getting OAuth2 Tokens (needed OAuth2 authentication only)
+## Getting OAuth2 Tokens
 
 Returns the OAuth2 refresh token and access token for an authenticated user. This is invoked once when the the user provisions a Document Provider. Subsequent calls are made to get an updated access token.
 
-## URL
+**URL**
 
-HTTP Request POST /any/url
+POST /any/url
 
 The URL is configurable and corresponds to the Token Endpoint URL value on the custom integration Setup page.
 
-## Query
-
-## Parameters
+### Query Parameters
 
 <table style="table-layout:auto">
  <col>
@@ -97,9 +97,22 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
  </tbody>
 </table>
 
-Example
-<pre>POST /oauth2/token<br>grant_type=authorization_code<br>code=d9ac7asdf6asdf579d7a8<br>client_id=123456<br>client_secret=6asdf7a7a9a4af</pre>
+**Example**
+
+```
+POST /oauth2/token
+grant_type=authorization_code
+code=d9ac7asdf6asdf579d7a8
+client_id=123456
+client_secret=6asdf7a7a9a4af
+```
 
 ## Response
 
-<pre>{<br>access_token:"ad8af5ad5ads759",<br>refresh_token:"9a0h5d87d808ads",<br>expires_id:3600<br>}</pre>
+```
+{
+access_token:"ad8af5ad5ads759",
+refresh_token:"9a0h5d87d808ads",
+expires_id:3600
+}
+```

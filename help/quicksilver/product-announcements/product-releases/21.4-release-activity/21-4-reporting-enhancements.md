@@ -1,8 +1,10 @@
 ---
 title: 21.4 Reporting enhancements
 description: 21.4 Reporting enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: db33cee1-45d3-4641-9afa-790de92654c5
 ---
 # 21.4 Reporting enhancements
 
@@ -52,4 +54,3 @@ To match the modern look of other areas in the new Workfront experience, the sty
 For information on updated lists, see the [The difference between the updated and the legacy lists](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) section in the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)
-

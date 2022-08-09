@@ -3,9 +3,10 @@ product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: Schedule an automatic report delivery
 description: Schedule an automatic report delivery
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
 ---
-
 # Schedule an automatic report delivery
 
 <!--
@@ -180,4 +181,3 @@ View the following video to learn how to schedule a report delivery. This video 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a> </p>
   -->
-

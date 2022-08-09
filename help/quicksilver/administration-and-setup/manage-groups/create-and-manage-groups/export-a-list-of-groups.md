@@ -4,10 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Export a list of groups
 description: When you are viewing groups that you manage, you can export a list of those groups.
-feature: "System Setup and Administration, People Teams and Groups"
+author: Caroline
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 66c1f049-c7b5-4d6b-9dc2-3c5f527764e9
 ---
-
 # Export a list of groups
 
 When you are viewing groups that you manage, you can export a list of those groups.
@@ -24,7 +25,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -48,4 +49,3 @@ You must have the following to perform the steps in this article:
    To export some of the groups you manage, select those groups, then click the Export icon ![](assets/export.png). 
 
 1. Select the file format you want for the exported list.
-

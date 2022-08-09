@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Manage Proof Details in Workfront Proof
 description: The Proof details page lets you manage an existing proof. For example, you can add new reviewers, amend the deadline, change the settings you originally set for the proof, and check what activity has occurred on that proof.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
 ---
-
 # Manage Proof Details in Workfront Proof
 
 >[!IMPORTANT]
@@ -54,7 +55,7 @@ You can find the following information on the Proof details page. If you have ed
    
    * **Owner:** The person who owns the proof. You can choose a different owner for the proof here. For more information, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
    
-   * **Delegated:******If the Out of office&nbsp;function is enabled, the delegated owner of the proof displays. For more information, see [Designating Temporary Proof Owners in Workfront Proof](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
+   * **Delegated:** If the Out of office function is enabled, the delegated owner of the proof displays. For more information, see [Designating Temporary Proof Owners in Workfront Proof](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
    
    * **Created:** Time and date when the proof was uploaded.
    * **State:**&nbsp;Current state&nbsp;of the proof. You can change the state of the proof here. For more information, see [View the Progress and Status of a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
@@ -105,4 +106,3 @@ You can find the following information on the Proof details page. If you have ed
    * **Messages** section: Lists the details of all email activity for the proof. For more information, see [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
      You can also view the entire message that was sent to the reviewers by hovering over the "i" icon to the right of the message, then clicking **Show full message**.
-

@@ -4,11 +4,12 @@ content-type: reference
 product-area: system-administration;documents;setup
 navigation-topic: manage-workfront
 title: Configure proofing functionality
-description: This section contains the following articles - EDIT ME.
-feature: "System Setup and Administration, Digital Content and Documents"
+description: You can configure the proofing settings for your organization.
+author: Courtney
+feature: System Setup and Administration, Digital Content and Documents
 role: Admin
+exl-id: 62361d01-1154-4d42-aa8d-f68091c76e18
 ---
-
 # Configure proofing functionality
 
 This section contains the following articles:
@@ -22,4 +23,3 @@ This section contains the following articles:
 * [Configure a user's proofing access](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md) 
 * [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md) 
 * [Create and manage Automated Workflow templates](../../../administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
-

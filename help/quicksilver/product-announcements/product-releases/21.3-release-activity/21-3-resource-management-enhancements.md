@@ -1,8 +1,10 @@
 ---
 title: 21.3 Resource Management enhancements
 description: 21.3 Resource Management enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: d665f71d-3d17-4c5b-93a3-93b11a81af19
 ---
 # 21.3 Resource Management enhancements
 
@@ -22,4 +24,4 @@ Tasks and issues assigned to a deactivated role as well as approval processes or
 
 For more information, see [Deactivate job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/555728654/ceb3bc26f1) 
+[Watch a video demonstration of this feature.](https://vimeo.com/555728654/ceb3bc26f1)

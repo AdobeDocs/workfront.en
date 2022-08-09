@@ -4,9 +4,10 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: Scenario execution, cycles, and phases in Adobe Workfront Fusion
 description: This article describes events that occur while an Adobe Workfront Fusion scenario is running, such as initialization, operations, commits, and rollbacks.
+author: Becky
 feature: Workfront Fusion
+exl-id: 5403f476-226d-4268-affc-8e06b1117684
 ---
-
 # Scenario execution, cycles, and phases in Adobe Workfront Fusion
 
 Adobe Workfront Fusion is a transactional system, similar to relational databases. Each scenario execution starts with the initialization phase, continues with at least one cycle composed of the operation and commit/rollback phases, and ends with the finalization phase:
@@ -120,4 +121,3 @@ Modules not marked with this tag cannot be reverted back to their initial state 
 <p>Finally, during the finalization phase, each module closes its connection to the database.</p>
 </div>
 -->
-

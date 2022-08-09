@@ -4,9 +4,10 @@ product-area: documents;workfront-integrations
 navigation-topic: box
 title: Sync Box Folders With Workfront Proof
 description: You can synchronize a Box folder with a folder in Workfront Proof. Every change you make to your files in the Box folder will be reflected in Workfront Proof (so uploading a new file, adding a new version, renaming of a file, etc).
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: d85577f5-6aa0-40a3-a6e3-45555a3124db
 ---
-
 # Sync Box Folders With Workfront Proof
 
 >[!IMPORTANT]
@@ -55,4 +56,3 @@ To synchronize a Box folder with a folder in Workfront Proof:
 >* If you have enabled the Single Sign-On (SSO) functionality in your Workfront Proof account, you will be taken to the SSO login page and asked to enter your SSO login credentials, but only if you are are using the same email address for your Box account and Workfront Proof. If you need more information, see [Single Sign-On in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
 >* If you are not using the same email address for both your Box account and your Workfront Proof account, you will always be taken to the standard Workfront Proof login page. 
 >
-

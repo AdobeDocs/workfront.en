@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Change interactive proof resolution in the proofing viewer
 description: You can preview how an interactive proof looks on various devices, allowing you to see how content displays and responds based on different resolutions.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 99165790-0c34-4540-92d9-956ae178a874
 ---
-
 # Change interactive proof resolution in the proofing viewer
 
 You can preview how an interactive proof looks on various devices, allowing you to see how content displays and responds based on different resolutions.
@@ -90,4 +91,3 @@ Your Adobe Workfront administrator has configured your system so that you review
      ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
 
    * In any comments reviewers add to the proof. Each comment includes the screen resolution that was selected when the reviewer created the comment.
-

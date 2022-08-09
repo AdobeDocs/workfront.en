@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: Resolvable Objects in a task or project report"
+title: 'View: Resolvable Objects in a task or project report'
 description: You can display a list of all Resolvable Objects in a project or task view or report.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 2b0d8e7c-9211-44e5-9d92-c87a2fe4336d
 ---
-
 # View: Resolvable Objects in a task or project report
 
 You can display a list of all Resolvable Objects in a project or task view or report.
@@ -60,4 +61,3 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Save View**.  
    A list of all Resolvable Objects displays in the new column. The names of the objects in the list cannot be linked directly to the objects.
-

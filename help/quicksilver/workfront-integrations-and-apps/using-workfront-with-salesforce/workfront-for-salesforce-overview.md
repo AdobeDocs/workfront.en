@@ -4,9 +4,10 @@ product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
 title: Adobe Workfront for Salesforce overview
 description: A Pro Workfront Plan is required to use this feature. For more information about the various plans available, see Workfront Plans.
+author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
 ---
-
 # Adobe Workfront for Salesforce overview
 
 A Pro Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)
@@ -65,4 +66,3 @@ Consider the following when working with Workfront for Salesforce:
 
   You cannot view any information about the Salesforce items in Workfront, but you have a link to the Salesforce item from Workfront to review it in Salesforce. 
 * Updating fields on one item in one application does not update any information on linked items in the other application.
-

@@ -3,9 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Edit story information
 description: When viewing a story tile on the Kanban board, certain information is available to edit inline, directly from the story tile.
+author: Lisa
 feature: Agile
+exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
 ---
-
 # Edit story information
 
 ## Understand what information can be viewed and edited {#understand-what-information-can-be-viewed-and-edited}
@@ -105,4 +106,3 @@ You must have the following access to perform the steps in this article:
 >[!NOTE]
 >
 >To change the Percent Complete, you must type a number between 0 and 100. The field is not a slider that you can move.
-

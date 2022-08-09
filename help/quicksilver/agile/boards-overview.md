@@ -4,9 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Boards overview
 description: Adobe Workfront Boards are flexible tools that allow team collaboration by providing access to a shared board that contains columns and cards.
+author: Lisa
 feature: Agile
+exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
 ---
-
 # Boards overview
 
 Adobe Workfront Boards are flexible tools that allow team collaboration by providing access to a shared board that contains columns and cards.
@@ -17,12 +18,8 @@ Using boards, you can:
 
 * Quickly set up a task board
 * Configure columns to show a status or category
-* Customize workflows with open-ended cards
+* Customize workflows with open-ended cards (either ad hoc cards or cards connected to Workfront tasks and issues)
 * Organize and manage work for a team in one place
-
->[!NOTE]
->
->The ad hoc cards on a board are not connected to work items in Adobe Workfront. For details about connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 >[!IMPORTANT]
 >

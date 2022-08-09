@@ -2,10 +2,11 @@
 product-area: calendars;setup
 navigation-topic: use-the-home-area
 title: Configure your Home Calendar view settings
-description: You can configure the Home Calendar settings to do the following - EDIT ME.
+description: You can configure the Home Calendar settings to integrate with a web-based version of Outlook and help you track your workload against your available work hours.
+author: Lisa
 feature: Get Started with Workfront
+exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
 ---
-
 # Configure your Home Calendar view settings
 
 You can configure the Home Calendar settings to do the following:
@@ -26,11 +27,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -50,7 +51,7 @@ Consider the following as you configure your Home Calendar with your Microsoft O
 
 * Attachments associated with your Outlook events are not attached to the Outlook events in your Home Calendar. 
 * Integration with an Outlook calendar must be completed for each user individually. 
-* Events that appear in the Due bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your Adobe Workfront Calendar. For more information, see [Due bar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar)&nbsp;and [Work list on the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view) in [Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+* Events that appear in the Due bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your Adobe Workfront Calendar. For more information, see [Due bar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar) and [Work list on the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view) in [Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 * When you enable the integration with Outlook, only work items that are dragged onto the Home Calendar from that point forward will sync. Items that were on the Home Calendar prior to enabling the integration will not appear, and you must drag them onto the Home Calendar again if you want them to appear in Outlook.
 * When you share (or unshare) an Outlook calendar with other people, or when you change the permission level for a calendar you share with others, this change does not affect their calendars for about 30 minutes (for more information, consult the Microsoft Outlook documentation).  
@@ -105,4 +106,3 @@ For information about using the Calendar view to manage your&nbsp;work assignmen
 (NOTE: from&nbsp;Courtney: [step #] Type your weekly work hours under How many hours a week do you work?This number affects the Allocation bar, which helps you track your workload against your available work hours.&nbsp;For more information, see "Allocation Bar" in the article&nbsp;"Understanding the Home Calendar View.")
 </MadCap:conditionalText>
 -->
-

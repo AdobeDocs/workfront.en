@@ -3,9 +3,10 @@ product-area: resource-management
 navigation-topic: resource-scheduling
 title: Manage user allocations in the Scheduling areas
 description: We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources.
+author: Alina
 feature: Resource Management
+exl-id: c8ddb250-145e-4321-8747-4f4967fcce41
 ---
-
 # Manage user allocations in the Scheduling areas
 
 >[!NOTE]
@@ -284,4 +285,3 @@ Some of the most common criteria that could reset user allocations in the Schedu
 * Changing the amount of Planned Hours of tasks or issues.
 
   For information about Planned Hours in Workfront, see [Planned Hours overview](../../manage-work/tasks/task-information/planned-hours.md).
-

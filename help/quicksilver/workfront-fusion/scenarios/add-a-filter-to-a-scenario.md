@@ -4,9 +4,10 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: Add a filter to a scenario in Adobe Workfront Fusion
 description: In some scenarios, you need to work only with bundles that meet specific criteria. Filters allow you to select those bundles.
+author: Becky
 feature: Workfront Fusion
+exl-id: 114ab37f-71e0-494e-9f3d-93ff5a9d13ba
 ---
-
 # Add a filter to a scenario in Adobe Workfront Fusion
 
 In some scenarios, you need to work only with bundles that meet specific criteria. Filters allow you to select those bundles.
@@ -101,4 +102,3 @@ To copy a filter without copying modules, you can use Google Chrome for the foll
    1. Set the **Target Module** as the module right before the filter you want to copy.
 
 1. Click **Run**.
-

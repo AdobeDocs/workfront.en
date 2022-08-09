@@ -3,9 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: What's New in API Version 8
 description: This is a list of resources that are new to API Version 9. For a list of updates that have been made to the resources of version 8 please visit Updates to API Version 8
+author: John
 feature: Workfront API
+exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
 ---
-
 # What's New in API Version 8
 
 ## New Resources
@@ -145,4 +146,3 @@ This is a list of resources that are new to API&nbsp;Version 9. For a list of up
 | roleID |role |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | timePercentage |user |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | userID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-

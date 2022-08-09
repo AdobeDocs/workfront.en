@@ -3,9 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: View and edit story information on the Scrum board
 description: When viewing a story tile on the Kanban board, certain information is available to edit inline, directly from the story tile.
+author: Lisa
 feature: Agile
+exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
 ---
-
 # View and edit story information on the Scrum board
 
 ## Understand what information can be viewed and edited
@@ -113,4 +114,3 @@ You must have the following access to perform the steps in this article:
 >[!NOTE]
 >
 >To change the Percent Complete, you must type a number between 0 and 100. The field is not a slider that you can move.
-

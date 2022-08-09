@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: tasks
 title: Task Duration and Duration Types
 description: This section contains the following articles - EDIT ME.
+author: Alina
 feature: Work Management
+exl-id: df6cd9bc-e34f-4e84-8a1b-484a6bffe53c
 ---
-
 # Task Duration and Duration Types
 
 This section contains the following articles:

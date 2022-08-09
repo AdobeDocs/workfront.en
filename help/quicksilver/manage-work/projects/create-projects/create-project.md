@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: create-projects
 title: Create a project
 description: (NOTE:this is linked from the UI from the Projects global nav section in classic. Do not change/ remove)
+author: Alina
 feature: Work Management
+exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 ---
-
 # Create a project
 
 <!--
@@ -70,9 +71,9 @@ You can create a project in Workfront by using one of the following methods:
 
 ## Prerequisites
 
-Before you begin, ensure you have the following:
+Before you begin you must ensure that
 
-* Your system or group administrator enabled the Allow users to create projects without using a template preference in the Setup area. 
+* Your system or group administrator enabled the "Allow users to create projects without using a template" preference in the Setup area. 
   
   For more information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -144,4 +145,3 @@ For more information about setting up the default status and other default setti
    This indicates that the project is now ready to start and users assigned to the tasks can now start working on them.
 
    For more information about project statuses, see [Access the list of system project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
-

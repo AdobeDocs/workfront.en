@@ -4,11 +4,12 @@ product-area: system-administration;user-management
 keywords: group,projects
 navigation-topic: work-with-a-groups-objects
 title: Create and modify a group's projects
-description: When you are viewing a group that you manage in the Groups area, you can view and work with its projects in the following ways - EDIT ME.
-feature: "System Setup and Administration, People Teams and Groups"
+description: When you are viewing a group that you manage in the Groups area, you can create, edit export, copy, and delete the group's projects.
+author: Caroline
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
 ---
-
 # Create and modify a group's projects
 
 When you are viewing a group that you manage in the Groups area, you can view and work with its projects in the following ways:
@@ -27,11 +28,11 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront plan</a>*</td> 
-   <td> <p>Any</p> </td> 
+   <td >Workfront plan</a>*</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Adobe Workfront license</a>*</td> 
+   <td>Adobe Workfront license</a>*</td> 
    <td> <p>Plan </p> <p>You must be a group administrator of the group or a Workfront administrator. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -80,4 +81,3 @@ You must have the following to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-

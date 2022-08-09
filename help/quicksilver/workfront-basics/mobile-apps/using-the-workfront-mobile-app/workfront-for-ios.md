@@ -4,9 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront for iOS
 description: The Adobe Workfront app allows you to access your work on any iOS device. You can install and use the Workfront mobile app on phones and tablets running iOS 10 or later. A dedicated Workfront mobile app is available for both the iPhone and the iPad.
+author: Lisa
 feature: Get Started with Workfront
+exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
 ---
-
 # Adobe Workfront for iOS
 
 The Adobe Workfront app allows you to access your work on any iOS device. You can install and use the Workfront mobile app on phones and tablets running iOS 10 or later. A dedicated Workfront mobile app is available for both the iPhone and the iPad.
@@ -107,6 +108,9 @@ For information on reviewing and approving proofs, see [Review and make decision
 ## Notifications
 
 The Notifications area allows you to view and respond to in-app notifications for your work.
+
+>[!NOTE]
+>Hyperlinks are not available in the update notifications unless the entire content of a note is a hyperlink without display text.
 
 ![](assets/mobile-notifications-adobe-350x601.png)
 

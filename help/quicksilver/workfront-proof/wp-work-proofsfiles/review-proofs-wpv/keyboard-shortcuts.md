@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Keyboard shortcuts in the Workfront Proof proofing viewer
 description: The information described in this section is available in both the Web Proofing Viewer and the Desktop Proofing Viewer.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: e134ac7a-7a9d-4923-8622-b602856e4925
 ---
-
 # Keyboard shortcuts in the Workfront Proof proofing viewer
 
 >[!IMPORTANT]
@@ -167,4 +168,3 @@ The information&nbsp;described in this section is available in both the Web Proo
   </tr> 
  </tbody> 
 </table>
-

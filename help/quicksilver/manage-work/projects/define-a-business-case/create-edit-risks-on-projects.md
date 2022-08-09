@@ -3,10 +3,15 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Create and edit risks on projects
 description: Risks are possible events or factors that prevent a project from finishing on time or within budget. Risks can be recorded as part of creating the Business Case of a project or by using the Risks tab. Risks are created only on a project. You cannot associate risks with tasks or issues.
+author: Alina
 feature: Work Management
+exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
 ---
-
 # Create and edit risks on projects
+
+<!--
+{{highlighted-preview}}
+-->
 
 Risks are possible events or factors that prevent a project from finishing on time or within budget. Risks can be recorded as part of creating the Business Case of a project or by using the Risks tab. Risks are created only on a project. You cannot associate risks with tasks or issues.
 
@@ -78,7 +83,7 @@ To create or edit a risk in the Business Case:
 
 ## Create and edit risks in the Risks area
 
-In addition to creating and editing risks in the Business Case, you can do so using the **Risks** sectionof a project.
+In addition to creating and editing risks in the Business Case, you can do so using the **Risks** section of a project.
 
 * [Create risks in the Risks area](#create-risks-in-the-risks-area) 
 * [Edit risks in the Risks area](#edit-risks-in-the-risks-area)
@@ -88,13 +93,17 @@ In addition to creating and editing risks in the Business Case, you can do so us
 1. Go to the project you want to create risks for.
 1. Click **Risks** in the left panel.
 
+   Sample image in the Production environment:
    ![](assets/risks-section-on-project-nwe-350x76.png)
+
+   Sample image in the Preview environment:
+   ![Risks section of task](assets/risks-section-on-project-2022.png)
 
 1. Click **Start Adding Risks** and create risks by in-line editing their information.
 
    Or
 
-   Click **New Risk**. The **New Risk** dialogue box opens.
+   Click **New Risk**. The **New Risk** dialog box opens.
 
 1. Enter the following information:
 
@@ -156,4 +165,3 @@ To edit risks:
    >[!NOTE]
    >
    >You cannot edit the **Status** of risks in the **Edit Risk** dialog box. You can do so only in an in-line edit.
-

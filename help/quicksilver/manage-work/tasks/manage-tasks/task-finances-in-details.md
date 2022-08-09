@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: manage-tasks
 title: Manage task finances in the Task Details section
 description: Manage task finances in the Task Details section
+author: Alina
 feature: Work Management
+exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
 ---
-
 # Manage task finances in the Task Details  section
 
 <!--
@@ -131,4 +132,3 @@ You must have the following access to perform the steps in this article:
    </table>
 
 1. (Conditional) If you are editing the fields in the Finance section, click **Save****Changes**.
-

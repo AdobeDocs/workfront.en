@@ -5,10 +5,11 @@ product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: Organizational setup
 description: As a part of organizing your users in Adobe Workfront, you can associate them with job roles or companies.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 82204f86-be52-49df-b070-66003c528dd4
 ---
-
 # Organizational setup
 
 As a part of organizing your users in Adobe Workfront, you can associate them with job roles or companies.
@@ -23,4 +24,3 @@ This section contains the following articles:
 * [Deactivate job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md) 
 * [Delete job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md) 
 * [Override job role billing rates at the company level](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
-

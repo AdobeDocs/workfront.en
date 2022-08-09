@@ -3,9 +3,10 @@ product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: Report delivery overview
 description: Report delivery overview
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
 ---
-
 # Report delivery overview
 
 <!--
@@ -369,4 +370,3 @@ You can see whether a report has been configured to be delivered by creating the
    <!--
    <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Send Now</strong>.<br> The report is sent to all users that you identified.<br> Or<br> Click <strong>Make Repeating Delivery</strong>&nbsp;if you want to set up&nbsp;a scheduled delivery with this same information, then complete the additional information regarding the frequency of when the report is sent.</li>
    -->
-

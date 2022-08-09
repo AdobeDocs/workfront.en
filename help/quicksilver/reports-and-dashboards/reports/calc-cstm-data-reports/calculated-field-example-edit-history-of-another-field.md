@@ -5,9 +5,10 @@ keywords: audit,trail,custom,field
 navigation-topic: calculate-custom-data-reports
 title: "Calculated custom field example: display a field's edit history"
 description: If users update custom fields on a regular basis and you want to capture a log of all the changes made to a field as well as a date when the changes happen, you can capture this information in a calculated custom field.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
 ---
-
 # Calculated custom field example: display a field's edit history
 
 If users update custom fields on a regular basis and you want to capture a log of all the changes made to a field as well as a date when the changes happen, you can capture this information in a calculated custom field.
@@ -99,4 +100,3 @@ To add a calculated field that displays a field's edit history to a custom form,
    Now, when you attach the custom form to an object and then someone changes the information in the *Instructions* field, the *Instructions Edit History" field displays the latest value, followed by the current date in parentheses, and a vertical bar. If further changes are made, they are added to this information in the same way.
 
    In the above calculation, you can replace *Instructions* with the exact name of your single-line text field whose history you want to track, and *Instructions Edit History* with the exact name of your calculated field.
-

@@ -1,12 +1,14 @@
 ---
 title: Look-and-feel updates during the 22.3 release timeframe
 description: Look-and-feel updates during the 22.3 release timeframe
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 7f85bc50-52c7-4fe8-9f0f-489eaf19b441
 ---
 # Look-and-feel updates during the 22.3 release timeframe
 
-This page describes minor updates to the look and feel of various areas of the Adobe Workfront application that were made within the 22.3 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview.
+This page describes minor updates to the look and feel of various areas of the Adobe Workfront application that were made within the 22.3 release timeframe. These enhancements were made available in the Production environment a minimum of 2 weeks after releasing to Preview.
 
 For a list of all changes available with the 22.3 release, see [22.3 Release overview](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
@@ -34,6 +36,6 @@ The toolbars on the following lists and reports now have a modern look and feel,
 
 >[!NOTE]
 >
->This change was updated in Production on May 23, 2022. See the  Maintenance Update on May 26, 2022 for more information. 
+>This change was updated in Production on May 23, 2022. See the [Maintenance Update on May 26, 2022 for more information](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022). 
 
 We have updated the breadcrumb separators in all areas where breadcrumbs are available. Now, the objects in the breadcrumbs are separated by pipes (|). Prior to this update, they were separated by forward slashes (/).

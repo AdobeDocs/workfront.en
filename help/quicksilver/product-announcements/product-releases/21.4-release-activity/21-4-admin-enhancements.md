@@ -1,8 +1,10 @@
 ---
 title: 21.4 Administrator enhancements
 description: 21.4 Administrator enhancements
+author: Luke
 draft: Probably
-feature: "Product Announcements, System Setup and Administration"
+feature: Product Announcements, System Setup and Administration
+exl-id: fc85b4c2-4a76-4226-9120-11635b03aa4e
 ---
 # 21.4 Administrator enhancements
 
@@ -153,8 +155,6 @@ Previously, when you entered information in one custom form or expandable area f
 
 If you do want to edit all custom forms and expandable areas in the Details section for an object, you can click Edit all on the new Edit menu that we added to the Edit icon. Or, on the same menu, you can click a name to scroll to the custom form or section where you want to make changes
 
-For more information, see [Edit object details in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/combined-pages-object-details.md).
-
 [Watch a video demonstration of this feature.](https://vimeo.com/577660078/70db05b492)
 
 ## New for group administrators: Create and manage statuses for a group at any level
@@ -188,8 +188,6 @@ For more information, see [Manage group statuses](../../../administration-and-se
 To help you manage layout templates while your users switch to using the new Workfront experience, we have created a button you can use to migrate layout templates from Workfront Classic to the new experience without relying on Workfront Customer Support.
 
 Previously, only Workfront Customer Support could migrate your layout templates from Workfront Classic to the new Workfront experience.
-
-For more information, see [Migrate your layout templates to the new Adobe Workfront experience](../../../administration-and-setup/customize-workfront/use-layout-templates/migrate-layout-templates-to-nwe.md).
 
 [Watch a video demonstration of this feature.](https://vimeo.com/574937296/eb4fa79f0c)
 

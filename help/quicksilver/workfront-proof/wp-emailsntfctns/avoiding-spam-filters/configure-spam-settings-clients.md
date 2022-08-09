@@ -4,9 +4,10 @@ product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: Configure spam settings for common email clients
 description: You can configure your email client to ensure that Workfront Proof emails are not sent to the spam folder.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 41517540-c5a8-4bf5-997b-e7a605337e73
 ---
-
 # Configure spam settings for common email clients
 
 >[!IMPORTANT]
@@ -219,4 +220,3 @@ To check whether any Workfront Proof "from" addresses are blocked in the Aol Spa
 1. If **Block mail from addresses I specify** is selected in the **Sender Filter** field and any Workfront Proof addresses or domain names are included in the list of blocked addresses, delete each of those addresses from the list.
 
 1. Click **Save**.
-

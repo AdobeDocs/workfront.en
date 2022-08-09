@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: proofing-overview
 title: Open proofs in the Desktop Proofing Viewer
 description: If you cannot open a proof as described below, contact your Adobe Workfront administrator or your Workfront Proof administrator.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
 ---
-
 # Open proofs in the Desktop Proofing Viewer
 
 If you cannot open a proof as described below, contact your Adobe Workfront administrator or your Workfront Proof administrator.
@@ -28,7 +29,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Proof role</td> 
-   <td>Read only or higher</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof Permission Profile </td> 

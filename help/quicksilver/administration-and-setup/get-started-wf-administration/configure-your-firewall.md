@@ -3,12 +3,21 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Configure your firewall's allowlist
-description: If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows the following processes - EDIT ME.
+description: If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows your users to send messages from Workfront and to use SSO with Active Directory or LDAP.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
 ---
-
 # Configure your firewall's allowlist
+
+>[!IMPORTANT]
+>
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>
+>To configure your allowlist if your organization has been onboarded to the Adobe Admin Console, see [Domains to be allowed for Adobe Apps and Services](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows the following processes:
 
@@ -43,8 +52,7 @@ The IP addresses that you must add to your allowlist on your firewall depend on 
 >
 >* Workfront for G Suite 
 >* Workfront for Outlook 
->* Workfront for Salesforce 
->
+>* Workfront for Salesforce
 
 * [IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9) 
 * [IP addresses to allow for Cluster 4](#ip-addresses-to-allow-for-cluster-4) 
@@ -478,8 +486,6 @@ If your organization uses outbound network filtering, add the following domains 
 </table>
 
 ## IP addresses and URLs to add for accessing Workfront Proof
-
-The highlighted information in this section was announced on October 15, 2021, and are required as of November 15, 2021.
 
 You must add the following IP addresses to your allowlist in order to use various functions.
 

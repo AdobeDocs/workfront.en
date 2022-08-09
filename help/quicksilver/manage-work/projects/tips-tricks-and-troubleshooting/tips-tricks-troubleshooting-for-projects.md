@@ -1,8 +1,10 @@
 ---
 title: Tips, tricks, and troubleshooting for projects
 description: Tips, tricks, and troubleshooting for projects
+author: Alina
 draft: Probably
 feature: Work Management
+exl-id: dd849f4e-aa48-4e27-80b7-af321f730708
 ---
 # Tips, tricks, and troubleshooting for projects
 
@@ -32,4 +34,3 @@ This section contains the following articles:
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/tips-tricks-and-troubleshooting/work-with-templates-from-completion.md" class="MCXref xref" xrefformat="{para}">Work with templates scheduled from Completion</a> </li>
   -->
-

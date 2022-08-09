@@ -3,9 +3,10 @@ product-area: projects;user-management
 navigation-topic: work-with-custom-forms
 title: Manage custom forms attached to objects
 description: You can update the order in which the custom forms attached to one object display, remove them, or bulk-edit the way custom forms display on multiple objects.
+author: Alina
 feature: Get Started with Workfront
+exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
 ---
-
 # Manage custom forms attached to objects
 
 You can update the order in which the custom forms attached to one object display, remove them, or bulk-edit the way custom forms display on multiple objects.
@@ -147,4 +148,3 @@ To edit multiple custom forms when editing objects in bulk:
    Click **Expand Forms** to expand all forms at the same time.&nbsp;
 
 1. Click **Save Changes**.
-

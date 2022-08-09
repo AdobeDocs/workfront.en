@@ -4,9 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Wildcard filter variables
 description: Wildcard filter variablesoverview/ reference" article for those articles. Consider renaming this when that is allowed.)"
+author: Nolan
 feature: Reports and Dashboards
+exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
 ---
-
 # Wildcard filter variables
 
 <!--
@@ -103,7 +104,7 @@ To indicate various periods of time and various points in time (future or past),
 
 {style="table-layout:auto"}
 
-For example, the wildcard `$$TODAYb+2w` refers to "2 weeks from the beginning of this week". The wildcard *`$$NOW+2h` refers to '2 hours from now'.
+For example, the wildcard `$$TODAYb+2w` refers to "2 weeks from the beginning of this week." The wildcard *`$$NOW+2h` refers to "2 hours from now."
 
 ## User-based wildcard filter variables
 
@@ -214,4 +215,3 @@ Workfront provides the following user-based variables:
   </tr> 
  </tbody> 
 </table>
-

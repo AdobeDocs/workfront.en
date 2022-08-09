@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: tasks
 title: Task information
 description: This section contains the following articles - EDIT ME.
+author: Alina
 feature: Work Management
+exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
 ---
-
 # Task information
 
 This section contains the following articles:
@@ -34,4 +35,3 @@ This section contains the following articles:
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/tasks/task-information/project-task-issue-dates.md" class="MCXref xref" xrefformat="{para}">Overview of project, task, and issue dates</a> </li>
   -->
-

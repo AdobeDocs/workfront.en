@@ -3,9 +3,10 @@ product-area: templates
 navigation-topic: templates-navigation-topic
 title: Overview of Start and Completion Days in a template
 description: You can use project templates to capture most of the repeatable processes, information, and settings associated with the projects in your organization. While projects have specific start and completion dates, templates have generic start and completion days as an indication for where these dates will fall on the project, based on the overall timeline of the project.
+author: Alina
 feature: Work Management
+exl-id: caa0e7b1-37c3-4973-92ce-cc93df4e4186
 ---
-
 # Overview of Start and Completion Days in a template
 
 You can use project templates to capture most of the repeatable processes, information, and settings associated with the projects in your organization. While projects have specific start and completion dates, templates have generic start and completion days as an indication for where these dates will fall on the project, based on the overall timeline of the project.
@@ -52,4 +53,3 @@ Consider the following when working with templates scheduled from Completion Dat
 * When the template is scheduled from&nbsp;Completion Day, the Task Constraint Day is calculated from the Completion Day.
 
   **Example:** Your template's duration is 285 days, and you have a template task with duration 60 days. If you set the Task Constraint to Must Start On and Constraint Day to 120, you will have a Start Day of 165 (285 - 120) and Completion Day of 225 (165 + 60). So&nbsp;when you edit the Start Day, it is actually being interpreted as Constraint Day.
-

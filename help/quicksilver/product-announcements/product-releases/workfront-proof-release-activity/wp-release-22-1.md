@@ -1,8 +1,10 @@
 ---
 title: Workfront Proof release activity:&nbsp;Week of November 29, 2021
 description: Workfront Proof release activity:&nbsp;Week of November 29, 2021
+author: Luke
 draft: Probably
-feature: "Product Announcements, Workfront Proof"
+feature: Product Announcements, Workfront Proof
+exl-id: ea19cb35-6972-4741-ba44-2e3973f68072
 ---
 # Workfront Proof release activity:&nbsp;Week of November 29, 2021
 

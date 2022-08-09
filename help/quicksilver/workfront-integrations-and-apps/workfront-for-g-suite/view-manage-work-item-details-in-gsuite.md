@@ -4,9 +4,10 @@ keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
 title: View and manage Adobe Workfront object details from G Suite
 description: You can view and manage the details of a work item without leaving G Suite. For example, you can read a task's description, view its parent object, change its status, and mark it as complete, all within Adobe Workfront for G Suite.
+author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
 ---
-
 # View and manage Adobe Workfront object details from G Suite
 
 You can view and manage the details of a work item without leaving G Suite. For example, you can read a task's description, view its parent object, change its status, and mark it as complete, all within Adobe Workfront for G&nbsp;Suite.

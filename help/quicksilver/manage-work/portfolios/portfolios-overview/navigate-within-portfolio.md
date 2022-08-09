@@ -3,9 +3,10 @@ product-area: portfolios
 navigation-topic: portfolios-overview
 title: Navigate within a portfolio
 description: Navigate within a portfolio
-feature: "Work Management, Strategic Planning"
+author: Alina
+feature: Work Management, Strategic Planning
+exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 ---
-
 # Navigate within a portfolio
 
 <!--
@@ -116,4 +117,3 @@ You must have the following access to perform the steps in this article:
    * Share the portfolio with other users.
 
 1. (Optional) Click the **Star** icon ![](assets/qs-star-icon-favorites-39x38.png) to the right of the portfolio name to add the portfolio to your list of favorites.
-

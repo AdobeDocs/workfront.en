@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: approvals
 title: View submitted proof approvals
 description: Proofing approvals display in the Home area only if your Adobe Workfront environment is integrated with a Workfront Proof Premium account. If you cannot use proofing as discussed here, contact your Workfront administrator.
+author: Courtney
 feature: Work Management
+exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
 ---
-
 # View submitted proof approvals
 
 Proofing approvals display in the Home area&nbsp;only if your Adobe Workfront environment is integrated with a Workfront Proof Premium account. If you cannot use proofing as discussed here, contact your Workfront administrator.
@@ -69,4 +70,3 @@ You must have the following access to perform the steps in this article:
    You must have View or Edit access to Documents in your Access Level to launch the proofing viewer.
    </note>
    -->
-

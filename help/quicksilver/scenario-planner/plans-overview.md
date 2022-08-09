@@ -3,13 +3,14 @@ content-type: overview
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Plans overview in the Scenario Planner
-description: The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
+description: As a business manager, you can use the Adobe Workfront Scenario Planner to outline the strategy for your organization's near and long-term future by outlining its one-, three-, or five-year plans.
+author: Alina
 feature: Workfront Scenario Planner
+exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
 ---
-
 # Plans overview in the Scenario Planner
 
-The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../scenario-planner/scenario-planner-overview.md).
+The Scenario Planner requires a separate license in addition to the Adobe Workfront license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../scenario-planner/scenario-planner-overview.md).
 
 As a business manager, you can use the Adobe Workfront Scenario Planner to outline the strategy for your organization's near and long-term future by outlining its one-, three-, or five-year plans.
 

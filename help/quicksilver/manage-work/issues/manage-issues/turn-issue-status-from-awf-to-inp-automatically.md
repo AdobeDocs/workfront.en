@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: manage-issues
 title: Automatically update issue statuses from Awaiting Feedback to In Progress
 description: When the Primary Contact of an issue makes an update to the issue by either updating a field (including a custom field) or adding a comment, the issue status updates to In Progress automatically.
+author: Alina
 feature: Work Management
+exl-id: f94bb644-910f-4b46-80fd-fecbdf9cb18a
 ---
-
 # Automatically update issue statuses from Awaiting Feedback to In Progress
 
 When the Primary Contact of an issue makes an update to the issue by either updating a field (including a custom field) or adding a comment, the issue status updates to In Progress automatically.
@@ -28,4 +29,3 @@ In order for this automatic status change to occur, the following is required:
 * There must be an Awaiting Feedback (AWF) status available for issues at the system level.
 
   For more information about system-level statuses, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
-

@@ -4,10 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: As an Adobe Workfront administrator, you can use a layout template to change the labels of some objects that appear throughout Workfront to match terms used in your organization.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
 ---
-
 # Customize user interface terminology using a layout template
 
 As an Adobe Workfront administrator, you can use a layout template to change the labels of some objects that appear throughout Workfront to match terms used in your organization.
@@ -42,11 +43,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -62,7 +63,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 1. Click **Set Terminology** near the upper-right corner of the page.
 1. Do any of the following:
 
-   * To use an alternative term provided by Workfront, click the down arrow&nbsp; ![](assets/dropdown-arrow.png) next to the label, then click the alternative label you want in the drop-down list.
+   * To use an alternative term provided by Workfront, click the down arrow  ![](assets/dropdown-arrow.png) next to the label, then click the alternative label you want in the drop-down list.
 
      >[!NOTE]
      >
@@ -80,15 +81,14 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
        <tr>
         <td role="rowheader"><p>Workfront objects</p></td>
         <td>
-         <ul>
-          <li>Portfolio</li>
-          <li>Program</li>
-          <li>Project</li>
-          <li>Task</li>
-          <li>Issue</li>
-          <li>Goal</li>
-          <li>Result</li>
-          <li>Activity</li>
+          <p>Portfolio</p>
+          <p>Program</p>
+          <p>Project</p>
+          <p>Task</p>
+          <p>Issue</p>
+          <p>Goal</p>
+          <p>Result</p>
+          <p>Activity</p>
          </ul></td>
         <td><p>For more information about these objects, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p></td>
        </tr>
@@ -96,9 +96,9 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
         <td role="rowheader"><p>Workfront Goals objects</p></td>
         <td>
          <ul>
-          <li>Goal</li>
-          <li>Result</li>
-          <li>Activity</li>
+          <p>Goal</p>
+          <p>Result</p>
+          <p>Activity</p>
          </ul></td>
         <td><p>These objects require an additional license. For more information, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>.</p></td>
        </tr>
@@ -106,9 +106,9 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
         <td role="rowheader"><p>Workfront Scenario Planner objects</p></td>
         <td>
          <ul>
-          <li>Initiative</li>
-          <li>Scenario</li>
-          <li>Plan </li>
+          <p>Initiative</p>
+          <p>Scenario</p>
+          <p>Plan </p>
          </ul></td>
         <td><p>These objects require an additional license. For information, see <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">Get started with the Scenario Planner</a>.</p></td>
        </tr>

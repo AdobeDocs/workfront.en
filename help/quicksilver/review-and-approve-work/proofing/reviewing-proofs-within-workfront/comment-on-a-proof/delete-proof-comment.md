@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: comment-on-a-proof
 title: Delete proof comments
 description: You can delete a comment or a reply to a comment as long as no one has already replied to it. It is usually better to resolve a comment rather than delete it. For more information, see Resolve proof comments.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: a558cd5c-0341-48bf-b00a-d6db232bda14
 ---
-
 # Delete proof comments
 
 You can delete a comment or a reply to a comment as long as no one has already replied to it. It is usually better to resolve a&nbsp;comment rather than delete it. For more information, see [Resolve proof comments](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md).
@@ -54,4 +55,3 @@ You must have the following access to perform the steps in this article:
    ![phq_viewer_comment_edit.png](assets/phq-viewer-comment-edit.png)
 
 1. Click **Delete** >**Yes, delete it**. After a comment is deleted, the system logs an&nbsp;entry in the proof activity section, showing that the comment was deleted.
-

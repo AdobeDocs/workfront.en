@@ -2,10 +2,11 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Post a Slack comment as an update
-description: "You can add a Slack comment as an update to a specific project, task, or issue in Adobe Workfront."
+description: You can add a Slack comment as an update to a specific project, task, or issue in Adobe Workfront.
+author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
 ---
-
 # Post a Slack comment as an update
 
 You can add a Slack comment as an update to a specific project, task, or issue in Adobe Workfront.
@@ -62,4 +63,3 @@ Before you can post a Slack comment as an update, you must
    There is an indication in Workfront that the update originated in Slack.&nbsp;
 
    ![](assets/slack-update-posted-from-slack-350x112.png)
-

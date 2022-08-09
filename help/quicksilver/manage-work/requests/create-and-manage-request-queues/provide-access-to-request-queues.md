@@ -3,9 +3,10 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Provide access to request queues
 description: When you provide access to a request queue, you determine who in your organization can view the request queue in the Requests area of Adobe Workfront.
+author: Alina
 feature: Work Management
+exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
 ---
-
 # Provide access to request queues
 
 When you provide access to a request queue, you determine who in your organization can view the request queue in the Requests area of Adobe Workfront.
@@ -73,4 +74,3 @@ Before the request queue is available for users in the Requests area, you must c
      Groups and companies can be associated with the project when editing the project. For more information about editing projects, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Click **Save**.
-

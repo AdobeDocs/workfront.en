@@ -1,8 +1,11 @@
 ---
 title: Workfront Fusion release activity:&nbsp;Week of November 15, 2021
 description: Workfront Fusion release activity:&nbsp;Week of November 15, 2021
+author: Luke
 draft: Probably
-feature: "Product Announcements, Workfront Fusion"
+feature: Product Announcements, Workfront Fusion
+exl-id: 36befe2a-6655-4213-a74f-635542c2cec2
+hidefromtoc: yes
 ---
 # Workfront Fusion release activity:&nbsp;Week of November 15, 2021
 
@@ -39,4 +42,3 @@ The new look and feel does not affect the functionality of Adobe Workfront Fusio
 <p>For more information, see <a href="../../../workfront-fusion/apps-and-their-modules/pdf-modules.md" class="MCXref xref" xrefformat="{para}">Adobe PDF&nbsp;Services</a>.</p>
 </div>
 -->
-

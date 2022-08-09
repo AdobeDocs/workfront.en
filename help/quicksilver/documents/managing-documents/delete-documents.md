@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: manage-documents
 title: Delete Documents
 description: You can delete documents you upload. If you're given manage access to specific documents, you can delete those as well.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
 ---
-
 # Delete Documents
 
 You can delete documents you upload. If you're given manage access to specific documents, you can delete those as well.

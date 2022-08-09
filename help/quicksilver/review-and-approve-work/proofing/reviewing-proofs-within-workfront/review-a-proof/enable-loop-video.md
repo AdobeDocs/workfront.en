@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: review-a-proof
 title: Enable loop in a video proof
 description: You can configure the video to continuously loop (the video begins playing again after it finishes).
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 944c4d15-e868-4481-9d35-318a319dc375
 ---
-
 # Enable loop in a video proof
 
 You can configure the video to continuously loop (the video begins playing again after it finishes).&nbsp;
@@ -49,4 +50,3 @@ You must have the following access to perform the steps in this article:
    ![phq_viewer_video_playbackspeed__3_.png](assets/phq-viewer-video-playbackspeed--3-.png)
 
 1. Enable the **Loop** option.
-

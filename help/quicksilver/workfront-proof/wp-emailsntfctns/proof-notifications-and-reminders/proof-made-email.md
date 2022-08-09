@@ -5,9 +5,10 @@ product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
 title: The Proof Made email
 description: A Proof Made email is sent to the proof creator only when he or she has created a proof. If a person has created a proof and made another person the Owner, only the new Owner also receives the Proof made email. The Creator and/or Owner will not get one; they receive only the Proof Made email. For more information about the New Proof email, see New proof email.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: a6bfe471-2032-4b74-8316-584f923e8651
 ---
-
 # The Proof Made email
 
 >[!IMPORTANT]
@@ -50,4 +51,3 @@ If you don't want this link to appear on your recipient's email, you should disa
 
 1. See [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)&nbsp;for more detailed instructions.
 1. If the email notifications are disabled as a default in the&nbsp;Account settings,&nbsp;the Creator or Owner of the proof won't receive any&nbsp;Proof Made&nbsp;or&nbsp;New Proof&nbsp;emails, even if this is enabled in their&nbsp;Personal settings&nbsp;and the Notify people by email box is checked on the&nbsp;New proof page.&nbsp;
-

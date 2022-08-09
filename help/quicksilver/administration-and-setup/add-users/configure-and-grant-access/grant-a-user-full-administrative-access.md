@@ -1,9 +1,10 @@
 ---
 title: Grant a user full administrative access
-description: Grant a user full administrative access
-draft: Probably
+description: You can grant users full administrative access to Workfront.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
 ---
 # Grant a user full administrative access
 
@@ -14,27 +15,19 @@ role: Admin
 >For instructions on granting full administrator access in the Adobe Admin Console:
 >
 >* See [Create system administrators in Workfront with the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create2)
->* See the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
+>* See the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) in the Adobe Admin Console documentation.
 >* Contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 As an Adobe Workfront administrator, you can create another Workfront administrator by assigning them the System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
 
-<!--
-Replace first paragraph with the following for IMS:
-
-As an Adobe administrator, you can create a Workfront administrator by assigning a user the Workfront System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
-
-For instructions, see the section <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create" class="MCXref xref">Create users in Workfront with the Adobe Admin Console</a>in the article <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.
--->
-
 >[!NOTE]
 >
 >This is different from using an access level to grant users administrative access to certain areas of the system. For more information, see the following:
 >
 >* [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) 
->* [Access of a Workfront administrator vs. access of a Plan user with administrative rights](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights)in this article
+>* [Access of a Workfront administrator vs. access of a Plan user with administrative rights](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in this article
 >
 
 ## Access requirements
@@ -47,11 +40,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -60,15 +53,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This ^ will need to change for IMS, not sure how</p>
--->
-
 ## Grant full System Administrator access to a single user
-
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Remove this entire section for IMS</p>
--->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png).   
 
@@ -77,7 +62,7 @@ You must have the following access to perform the steps in this article:
 
 1. On the **Edit Person** box that appears, click **Access**.
 
-1. In the **Access Level** drop-down list, select the **System Administrator**&nbsp;access level.
+1. In the **access level** drop-down list, select the **System Administrator** access level.
 
    Depending on changes made in your system, the name of this access level might have changed.
 
@@ -182,7 +167,7 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <td>Groups</td> 
    <td>Full access</td> 
-   <td> <p>No access to create Groups.</p> <p>Only group administrators can manage group membership, subgroups, and group-level statuses for the groups they manage.&nbsp;</p> </td> 
+   <td> <p>No access to create Groups.</p> <p>Only group administrators can manage group membership, subgroups, and group-level statuses for the groups they manage. </p> </td> 
   </tr> 
   <tr> 
    <td>Companies</td> 
@@ -191,18 +176,18 @@ Users with a Plan license who can edit functionality in one area have full acces
   </tr> 
   <tr> 
    <td>Log in As</td> 
-   <td>Full access&nbsp;</td> 
-   <td> <p>If their group administrative access is enabled on their Access Level and they are designated as a group administrator, they can log in as the users in the group they administer and their subgroups. They cannot log in as a System Administrator.<br>For more information about enabling group administrative access for users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </td> 
+   <td>Full access </td> 
+   <td> <p>If their group administrative access is enabled on their access level and they are designated as a group administrator, they can log in as the users in the group they administer and their subgroups. They cannot log in as a System Administrator.<br>For more information about enabling group administrative access for users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Schedules</td> 
    <td>Full access</td> 
-   <td> <p>No access to edit Schedules.</p> <p>Access to add existing schedules to other users, at the user level.&nbsp;</p> </td> 
+   <td> <p>No access to edit Schedules.</p> <p>Access to add existing schedules to other users, at the user level. </p> </td> 
   </tr> 
   <tr> 
    <td>Timesheet &amp; Hours: Timesheet Profiles</td> 
    <td>Full access</td> 
-   <td> <p>Access to assign existing Timesheet Profiles to users, at the user level.</p> <p>Users who are group administrators can create Timesheet Profiles for the groups they administer and their subgroups.&nbsp;</p> </td> 
+   <td> <p>Access to assign existing Timesheet Profiles to users, at the user level.</p> <p>Users who are group administrators can create Timesheet Profiles for the groups they administer and their subgroups. </p> </td> 
   </tr> 
   <tr> 
    <td>Timesheet &amp; Hours: Hour Types</td> 
@@ -267,7 +252,7 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <td>Interface: Layout Templates</td> 
    <td>Full access</td> 
-   <td> <p>Access to assign existing Layout Templates to other users, at the user level. </p> <p>Users designated as&nbsp;group administrators can create Layout Templates for groups and subgroups they manage.</p> </td> 
+   <td> <p>Access to assign existing Layout Templates to other users, at the user level. </p> <p>Users designated as group administrators can create Layout Templates for groups and subgroups they manage.</p> </td> 
   </tr> 
   <tr> 
    <td>Interface: Update Feeds</td> 
@@ -312,7 +297,7 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <td>Documents: Custom Integration</td> 
    <td>Full access</td> 
-   <td> <p>No access to configure a Custom Integration.</p> <p>Access to link&nbsp;documents to and from third-party providers from the Documents tab, after the third-party providers have been integrated with Workfront.</p> </td> 
+   <td> <p>No access to configure a Custom Integration.</p> <p>Access to link documents to and from third-party providers from the Documents tab, after the third-party providers have been integrated with Workfront.</p> </td> 
   </tr> 
   <tr> 
    <td>System: Branding</td> 
@@ -424,8 +409,7 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <td>Users</td> 
    <td>Full access</td> 
-   <td> <p>Limited access</p> <p>They cannot assign groups to users for which they are not a group administrator or groups that are not public.</p> <p>They cannot assign an access level to users which is higher then their own access level.</p> <p>If their group administrative access is enabled on their Access Level and they are designated as a group administrator on a group, they can reset the password of and log in as the users in the group they administer and their subgroups. They cannot reset the password of or log in as a System Administrator.<br>For more information about enabling group administrative access for users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </td> 
+   <td> <p>Limited access</p> <p>They cannot assign groups to users for which they are not a group administrator or groups that are not public.</p> <p>They cannot assign an access level to users which is higher then their own access level.</p> <p>If their group administrative access is enabled on their access level and they are designated as a group administrator on a group, they can reset the password of and log in as the users in the group they administer and their subgroups. They cannot reset the password of or log in as a System Administrator.<br>For more information about enabling group administrative access for users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
-

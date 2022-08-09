@@ -5,9 +5,10 @@ product-area: documents;system-administration;user-management
 navigation-topic: basics-workfront-proof
 title: Personal settings in Workfront Proof
 description: This section contains the following articles - EDIT ME.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 6d19a4f9-04f6-4965-9651-4763892955fd
 ---
-
 # Personal settings in Workfront Proof
 
 >[!IMPORTANT]
@@ -18,4 +19,3 @@ This section contains the following articles:
 
 * [Designating Temporary Proof Owners in Workfront Proof](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md) 
 * [Integrations - User Setup](../../../workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)
-

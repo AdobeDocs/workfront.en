@@ -1,8 +1,10 @@
 ---
 title: 22.2&nbsp;Project enhancements
 description: 22.2&nbsp;Project enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
 ---
 # 22.2&nbsp;Project enhancements
 
@@ -51,8 +53,6 @@ The following additional improvements are now available for Workfront Boards:
 
    * Copy a card: Create a copy of an existing card on your board.
    * Move a card: Quickly move cards to either the top or bottom of a board with the new Top of column and Bottom of column menu options.
-
-     [View a demo video of this feature.](https://vimeo.com/691598645/3d9f9d5401)
 
 * Search in Boards
 
@@ -165,4 +165,4 @@ Each folder at the sixth level or below inherits its sharing configurations from
 
 For more information about sharing folders, see [Share a document folder](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/675978565/1901e4a8a1) 
+[Watch a video demonstration of this feature.](https://vimeo.com/675978565/1901e4a8a1)

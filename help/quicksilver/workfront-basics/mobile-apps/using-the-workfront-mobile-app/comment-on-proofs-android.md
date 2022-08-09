@@ -3,9 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Comment on proofs in Android
 description: You can review and resolve existing comments on a proof, and add new comments and annotations to the proof document.
+author: Lisa
 feature: Get Started with Workfront
+exl-id: 5124144e-b613-46c4-8697-b40caf22af04
 ---
-
 # Comment on proofs in Android
 
 You can review and resolve existing comments on a proof, and add new comments and annotations to the proof document.
@@ -101,4 +102,3 @@ You can associate your proof comments to a specific area on the document. Use th
    Click the X on the thumbnail image to remove the attachment.
 
 1. Select the **Send** icon ![Send icon](assets/mobile-send-icon-25x26.png) to add the comment and drawing to the proof.
-

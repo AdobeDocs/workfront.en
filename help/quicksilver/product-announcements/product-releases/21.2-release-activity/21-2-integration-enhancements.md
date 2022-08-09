@@ -4,9 +4,10 @@ keywords: notes,quarterly,update,release
 navigation-topic: 2021-2-release-activity
 title: 21.2 Integration enhancements
 description: This page describes all Integration enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see 21.2 Release overview.
-feature: "Product Announcements, Workfront Integrations and Apps"
+author: Luke
+feature: Product Announcements, Workfront Integrations and Apps
+exl-id: 82279305-d758-4ab3-b77c-8e65a3d19a9f
 ---
-
 # 21.2 Integration enhancements
 
 This page describes all Integration enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
@@ -36,4 +37,4 @@ When linking to, uploading, or creating files on Google Drive from the Documents
 
 Previously, files were accessed through a file dialog based in Workfront.
 
-[Watch a video demonstration of this feature.](https://vimeo.com/521967892/ab11b067b4) 
+[Watch a video demonstration of this feature.](https://vimeo.com/521967892/ab11b067b4)

@@ -1,8 +1,10 @@
 ---
 title: Adobe Workfront with Anaplan
 description: Adobe Workfront with Anaplan
+author: Becky
 draft: Probably
-feature: "Workfront Integrations and Apps, Workfront Fusion"
+feature: Workfront Integrations and Apps, Workfront Fusion
+exl-id: c78d1276-6545-44f0-8ec9-62cfe1b66e35
 ---
 # Adobe Workfront with Anaplan
 
@@ -33,4 +35,3 @@ The Adobe Workfront with Anaplan integration offers the following workflows:
 ## Adobe Workfront with Anaplan FAQs
 
 * [Adobe Workfront with Anaplan Integration FAQs](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-faq.md)
-

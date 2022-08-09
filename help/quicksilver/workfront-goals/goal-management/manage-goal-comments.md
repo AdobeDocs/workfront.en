@@ -3,15 +3,16 @@ product-previous: workfront-goals
 navigation-topic: goal-management
 title: Manage goal comments in Adobe Workfront Goals
 description: You can add comments to all goals you can view in Adobe Workfront Goals.
+author: Alina
 feature: Workfront Goals
+exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
 ---
-
 # Manage goal comments in Adobe Workfront Goals
 
 You can add comments to all goals you can view in&nbsp;Adobe Workfront Goals.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change slightly with access levels?!)</p>
+(NOTE: this might change slightly with access levels?!)
 -->
 
 ## Access requirements
@@ -36,7 +37,7 @@ You must have the following access to perform the actions described in this arti
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>View or higher access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -53,7 +54,7 @@ You must have the following access to perform the actions described in this arti
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -81,7 +82,10 @@ You can add comments to goals in the Goal&nbsp;Details panel, as part of updatin
 
 You can edit or delete a comment that you entered in this area, or you can like comments.
 
-1. Click the **Main Menu icon** ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click **Goals**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
 
    This opens the Workfront Goals area. 
 
@@ -125,18 +129,21 @@ You can add comments to goals in the Check-in section of Workfront Goals, as par
 
 You can also like goal comments that other users have added to mark your approval of them in the Check-in section.
 
-1. Click the **Main Menu icon** ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click **Goals**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
 
    This opens the Workfront Goals area. 
 
-1. Click the Check-in section in the left panel.
+1. Click the **Check-in** section in the left panel.
 
    ![](assets/check-in-icon-left.png)
 
    Goals assigned to you or that have results and activities that are assigned to you display in this area. 
 
 1. (Optional) Click the right-pointing arrow to the left of the goal name to expand the goal, if the goal is not already expanded. 
-1. Type your comment in the **Add a comment to this goal (optional)** field, then click&nbsp;**Post**.
+1. Type your comment in the **Add a comment to this goal (optional)** field, then click **Post**.
 
    Two most recent comments display by default under each goal.
 
@@ -155,7 +162,10 @@ You can add comments to goals in the Pulse section of Workfront Goals, as part o
 
 You can also like goal comments that other users have added to mark your approval of them in the Pulse section.
 
-1. Click the **Main Menu icon** ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click **Goals**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
 
    This opens the Workfront Goals area. 
 
@@ -165,17 +175,16 @@ You can also like goal comments that other users have added to mark your approva
 
    All current goals display in this section, regardless of their status.
 
-1. Click&nbsp;**Add a comment**, then type your comment in the **Add a comment to this goal (optional)** field.
-1. Click&nbsp;**Post**.
+1. Click **Add a comment**, then type your comment in the **Add a comment to this goal (optional)** field.
+1. Click **Post**.
 
    Three comments display by default under each goal.
 
 1. Click **Show all updates** to display all comments on a goal. A number of total comments for the goal also displays. Comments display in the order they were entered, with the most recent first. 
 1. (Optional) Click the **Like icon** ![](assets/like-icon.png) to like a comment. The icon updates with the number of likes. 
 
-1. (Optional)&nbsp;Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
+1. (Optional) Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
 
    ![](assets/list-of-likes-users-350x121.png)
 
-1. (Conditional)&nbsp;Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
-
+1. (Conditional) Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.

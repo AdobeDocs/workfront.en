@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: approvals
 title: Recall submitted approvals
 description: You can recall any of the following objects submitted for approval - EDIT ME.
+author: Courtney
 feature: Work Management
+exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
 ---
-
 # Recall submitted approvals
 
 You can recall any of the following objects submitted for approval:
@@ -206,4 +207,3 @@ To recall a document approval, you must manually remove one or all users from th
    ![](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. Click **Recall** in the upper-right corner of the right panel.
-

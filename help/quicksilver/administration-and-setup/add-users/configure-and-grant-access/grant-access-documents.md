@@ -3,14 +3,15 @@ title: Grant access to documents
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
-description: As an Adobe Workfront administrator, you can use an access level to define a user's access to documents in Workfront, as explained in Access levels overview.
+description: As an Adobe Workfront administrator, you can use an access level to define a user's access to documents in Workfront.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: ba1d9a9b-7a1f-498b-a6e5-c548a11ac87c
 ---
-
 # Grant access to documents
 
-As an Adobe Workfront administrator, you can use an access level to define a user's access to documents, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
+As an Adobe Workfront administrator, you can use an access level to define a user's access to documents, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
 
 This access also applies to document folders.
 
@@ -26,11 +27,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -81,7 +82,7 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >When you configure an access level setting for a certain type of object, that configuration doesn't affect the users' access to objects with a lower rank. For example, you can restrict users from deleting projects in their access level, but this does not restrict them from deleting documents, which are lower-ranking than projects.For more information about the hierarchy of objects, see the section [Interdependency and hierarchy of objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in&nbsp;the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   >When you configure an access level setting for a certain type of object, that configuration doesn't affect the users' access to objects with a lower rank. For example, you can restrict users from deleting projects in their access level, but this does not restrict them from deleting documents, which are lower-ranking than projects.For more information about the hierarchy of objects, see the section [Interdependency and hierarchy of objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Optional) To restrict inherited permissions for documents from higher ranking objects, click **Set additional restrictions**, then select **Never inherit document access from projects, tasks, issues, etc**.
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
@@ -108,4 +109,3 @@ When you share any object with another user, the recipient's rights on it are de
 
 * The permissions that you grant to your recipient for the object
 * The recipient's access level settings for the object's type
-

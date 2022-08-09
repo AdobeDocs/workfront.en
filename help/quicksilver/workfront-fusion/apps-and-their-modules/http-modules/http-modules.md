@@ -4,14 +4,15 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: HTTP > Other modules
+title: HTTP &gt; Other modules
 description: The Adobe Workfront Fusion HTTP app provides various modules for communication based on Hypertext Transfer Protocol (HTTP) protocol. HTTP is the foundation of data communication for the World Wide Web. You can use the modules to download web pages and files, call webhooks and API endpoints, and so on.
+author: Becky
 feature: Workfront Fusion
+exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
 ---
-
 # HTTP > Other modules
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 

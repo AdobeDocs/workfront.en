@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Restore an archived proof
 description: A proof is automatically archived when it is not opened for 60 consecutive days. Archived proofs still display in the Document list the same way as it did prior to the proof being archived.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
 ---
-
 # Restore an archived proof
 
 A proof is automatically archived when it is not opened for 60 consecutive days. Archived proofs still display in the Document list the same way as it did&nbsp;prior to the proof being archived.
@@ -48,4 +49,3 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Unarchive**&nbsp;to unarchive&nbsp;the proof.
 1. Refresh the browser, then click **Proof**&nbsp;again.
-

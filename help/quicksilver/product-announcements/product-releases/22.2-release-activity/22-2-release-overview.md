@@ -1,8 +1,10 @@
 ---
 title: 22.2 Release overview
 description: 22.2 Release overview
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
 ---
 # 22.2 Release overview
 

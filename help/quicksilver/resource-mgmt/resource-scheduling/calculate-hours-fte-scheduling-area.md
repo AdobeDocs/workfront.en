@@ -2,10 +2,11 @@
 product-area: resource-management
 navigation-topic: resource-scheduling
 title: Configure how Workfront calculates resource hour and FTE availability for the Scheduling area
-description: "NOTE: Alina: ***Note that the FTE for scheduling is not yet working the same way as the FTE for planning - confirmed with Vazgen and this parity is planned for the future, but not right now. This article has to remain live in addition to the Planning article that talks about the calculation of FTEs in the Planner."
+description: 'NOTE: Alina: ***Note that the FTE for scheduling is not yet working the same way as the FTE for planning - confirmed with Vazgen and this parity is planned for the future, but not right now. This article has to remain live in addition to the Planning article that talks about the calculation of FTEs in the Planner.'
+author: Alina
 feature: Resource Management
+exl-id: 75bf6d3a-95e9-4cef-a1cc-f19a0f56a42e
 ---
-
 # Configure how Workfront calculates resource hour and FTE&nbsp;availability for the Scheduling area
 
 <!--
@@ -107,4 +108,3 @@ If you still don't have access, ask your Workfront administrator if they set add
 </ol>
 </div>
 -->
-

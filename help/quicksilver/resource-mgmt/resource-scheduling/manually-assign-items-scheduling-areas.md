@@ -2,10 +2,11 @@
 product-area: resource-management;user-management
 navigation-topic: resource-scheduling
 title: Manually assign unassigned tasks and issues in the Scheduling areas
-description: "NOTE: Alina: several sections ask for the screen shot to be updated - check into those notes; Alina: broken off article, needs formatting, restructuring, new linking)"
+description: 'NOTE: Alina: several sections ask for the screen shot to be updated - check into those notes; Alina: broken off article, needs formatting, restructuring, new linking)'
+author: Alina
 feature: Resource Management
+exl-id: 627e4442-767a-41a2-9700-76f2ad2dc9cf
 ---
-
 # Manually assign unassigned tasks and issues in the Scheduling areas
 
 <!--
@@ -112,4 +113,3 @@ To assign unassigned tasks or issues to users on the scheduling timeline:
 1. (Conditional) After assigning an unassigned task or issue to a user, you might want to adjust the existing assignments for tasks and issues among the users on the scheduling timeline. When scheduling resources for projects (either on the Scheduling tab or the Staffing tab), only users that have the same job role can receive the assignment.   
    To re-assign a task or issue to another user, drag the task from the row of one user to the row of another user.
 1. (Optional) Configure the number of hours each assigned user is allocated to the task or issue, as described in [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) .
-

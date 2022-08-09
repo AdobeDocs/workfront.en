@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Configure Proof Settings in Workfront Proof
 description: You can configure a proof you are creating or editing in any of the following ways - EDIT ME.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: ca379054-4737-4796-a812-f2ec38b437ba
 ---
-
 # Configure Proof Settings in Workfront Proof
 
 >[!IMPORTANT]
@@ -124,4 +125,3 @@ To allow other users to subscribe to a proof:
 1. For a new proof, under **Proof settings**, deselect **Subscribe to proof via public URL or embed code**.  
    Or  
    For an existing proof, under **Settings**, select **Subscription**.
-

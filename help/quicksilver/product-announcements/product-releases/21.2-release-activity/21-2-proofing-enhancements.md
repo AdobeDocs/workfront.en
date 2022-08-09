@@ -4,9 +4,10 @@ keywords: notes,quarterly,update,release
 navigation-topic: 2021-2-release-activity
 title: 21.2 Proofing enhancements
 description: This page describes all Proofing enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see 21.2 Release overview.
-feature: "Product Announcements, Workfront Proof, Digital Content and Documents"
+author: Luke
+feature: Product Announcements, Workfront Proof, Digital Content and Documents
+exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
 ---
-
 # 21.2 Proofing enhancements
 
 This page describes all Proofing enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).

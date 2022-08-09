@@ -5,9 +5,10 @@ product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
 title: Getting started with Workfront Proof
 description: This section contains the following subsections - EDIT ME.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 71fe6ed9-62f8-4c08-8883-6c70aa9f7678
 ---
-
 # Getting started with Workfront Proof
 
 >[!IMPORTANT]
@@ -20,4 +21,3 @@ This section contains the following subsections:
 * [Personal settings in Workfront Proof](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md) 
 * [System information in Workfront Proof](../../workfront-proof/wp-getstarted/system-information/system-information.md) 
 * [Workfront Proof - frequently asked questions](../../workfront-proof/wp-getstarted/faqs/faqs.md)
-

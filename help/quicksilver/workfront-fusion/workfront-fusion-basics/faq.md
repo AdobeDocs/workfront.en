@@ -5,9 +5,10 @@ product-area: workfront-integrations
 navigation-topic: workfront-fusion-basics
 title: Adobe Workfront Fusion FAQ
 description: This article addresses common questions related to Adobe Workfront Fusion, including information about object commonly used in Fusion workflows
+author: Becky
 feature: Workfront Fusion
+exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
 ---
-
 # Adobe Workfront Fusion FAQ
 
 ## Access requirements
@@ -33,16 +34,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 

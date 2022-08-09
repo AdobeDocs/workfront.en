@@ -6,6 +6,7 @@ product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion Security Standards
 description: Workfront Fusion includes a set of application connectors that enable administrators to connect to other applications without coding. Each connector is built to ensure that it connects in the most secure way that is supported by the given service. In some cases (such as FTP, databases, etc.) you have the option to set the security level manually.
+author: Becky
 hidefromtoc: true
 ---
 

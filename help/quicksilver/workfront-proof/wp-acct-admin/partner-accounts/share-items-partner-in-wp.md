@@ -4,9 +4,10 @@ product-area: documents;system-administration
 navigation-topic: partner-accounts
 title: Share items with a partner in Workfront Proof
 description: If you have a Workfront Proof partner relationship with another organization (such as a client or another department in your company), you can share proofs, files, folders, and contact details with the partner. For more information about partner relationships, see Manage a partner relationship between Workfront Proof accounts.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: d80acefe-19d3-45c2-8acb-1db89f6e49be
 ---
-
 # Share items with a partner in Workfront Proof
 
 >[!IMPORTANT]
@@ -54,4 +55,3 @@ To make a user in a partner account the owner of a proof:
 
 1. Choose a user from a Partner account to be the owner of the proof. (2)  
    ![Make_a_user_in_a_partner_account_the_owner_of_a_proof__1_.png](assets/make-a-user-in-a-partner-account-the-owner-of-a-proof--1--350x209.png)
-

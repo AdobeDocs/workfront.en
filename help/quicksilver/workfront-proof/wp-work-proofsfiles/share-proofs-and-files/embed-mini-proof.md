@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: share-proofs-and-files
 title: Embed a Mini proof
 description: The Miniproof is a widget that lets you embed a proof in a web page, blog, or wiki. The Miniproof shows the proof and all existing comments and mark-ups. You can use it to work on the proof as if you were in Workfront Proof.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 13227944-2bf8-49d9-8ff3-18ecb706d5d4
 ---
-
 # Embed a Mini proof
 
 >[!IMPORTANT]
@@ -34,4 +35,3 @@ To embed a Miniproof in a web page, blog, or wiki:
 
 1. Click **Copy code** to copy the embed code to your clipboard.&nbsp; 
 1. Paste the code into the website, blog, or wiki where you want to embed the Miniproof.
-

@@ -4,9 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Groupings overview in Adobe Workfront
 description: Groupings overview in Adobe WorkfrontGroupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)"
+author: Nolan
 feature: Reports and Dashboards
+exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
 ---
-
 # Groupings overview in Adobe Workfront
 
 <!--
@@ -25,13 +26,13 @@ You can add groupings to reports in the following ways:
 
   For information about creating a grouping from scratch, see [Create groupings in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
-By default, groupings are shown in a blue highlight in your report or list. The results of the report or list are listed under their individual grouping, with no highlight.
+By default, groupings are shown in a gray or blue highlight in your report or list. The results of the report or list are listed under their individual grouping, with no highlight.
 
 You can add up to three groupings to a report. You can organize your information with up to four groupings by creating a matrix report. For more information on matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-In a standard grouping report, the first grouping is darker blue, the second and third groupings are lighter blue. You cannot customize the color of the highlight for your grouping, or the font of the grouping name. The number in parentheses after the name of the grouping represents the number of results under that grouping. If your report spans multiple pages, ensure that you display *All* the results in the report or list to get an accurate count for your results under each grouping.
+In a standard grouping report, the first grouping is a darker color, the second and third groupings are lighter. You cannot customize the color of the highlight for your grouping, or the font of the grouping name. The number in parentheses after the name of the grouping represents the number of results under that grouping. If your report spans multiple pages, ensure that you display *All* the results in the report or list to get an accurate count for your results under each grouping.
 
-![](assets/screen-shot-2016-10-11-at-4.05.35-pm-350x43.png)
+![Sample grouping](assets/grouping-example-blue.png)
 
 Consider the following when working with groupings:
 
@@ -43,7 +44,7 @@ Consider the following when working with groupings:
 * Your level of permissions to a grouping dictates how a grouping is saved. If you created the grouping originally, you can save the changes, otherwise you are prompted to save a version of the grouping. If you make changes to a grouping you have shared with others it impacts them as well.
 * You can customize a grouping that was shared with you only if the user who shared it granted you Manage access.&nbsp;For information about sharing a grouping, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 * You cannot edit a grouping inline.
-* You cannot group by multi-select custom fields (for example, Checkboxes), or by fields that can have multiple values (for example, Resource Manager).
+* You cannot group by multi-select custom fields (for example, check boxes), or by fields that can have multiple values (for example, Resource Manager).
 
 ## Additional information about groupings
 
@@ -64,7 +65,6 @@ You can aggregate the data displayed in your report in your grouping line by sum
 >* All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents. 
 >* Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks. 
 >* Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
->
 
 ### Sort by a grouping {#sort-by-a-grouping}
 
@@ -78,263 +78,3 @@ How you remove a grouping depends on whether you initially created the grouping,
 * **If the grouping was shared with you and you remove it**, the grouping is removed only for you. The user who originally created it and any other users it has been shared with still have access to the grouping.
 
 For information about removing a grouping, see the article [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Old content</p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Content starting from here has been drafted - the new content is above this mark. Update only the above part)</p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The results of a report or a list can be organized with a grouping. Groupings categorize information based on a particular piece of information.</p>
--->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#understanding-groupings" class="MCXref xref">Understanding Groupings</a> </li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#creating-or-customizing-a-grouping" class="MCXref xref">Creating or Customizing a Grouping</a> </li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#aggregating-values-in-groupings" class="MCXref xref">Aggregating Values in Groupings</a> </li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#sort-by-a-grouping" class="MCXref xref">Sort by a grouping</a> </li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#remove-a-grouping" class="MCXref xref">Remove a grouping</a> </li>
-  -->
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="understanding-groupings">Understanding Groupings</h2>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Your access level dictates how a grouping is saved. If you created the grouping originally, you can save the changes, otherwise you are prompted to save a version of the grouping. If you make changes to a grouping you have shared with others it impacts them as well. </p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">By default, groupings are shown in a blue highlight in your report or list. The results of the report or list are listed under their individual grouping, with no highlight.</p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can add up to three groupings to a report. You can organize your information with up to four groupings by creating a matrix report. For more information on matrix reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">In a standard grouping report, the first grouping is darker blue, the second and third groupings are lighter blue. You cannot customize the color of the highlight for your grouping, or the font of the grouping name. The number in parentheses after the name of the grouping represents the number of results under that grouping. If your report spans multiple pages, ensure that you display <em>All</em> the results in the report or list to get an accurate count for your results under each grouping. </p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/screen-shot-2016-10-11-at-4.05.35-pm-350x43.png" alt="" style="width: 350;height: 43;"> </p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider the following when working with groupings:</p>
--->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">You can customize the information in existing groupings.</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">You can create new groupings based on existing groupings.</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">You can create new groupings from scratch.</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">You cannot edit a grouping in-line.</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">You cannot group by multi-select custom fields (for example, Checkboxes), or by fields that can have multiple values (for example, Resource Manager). </li>
-  -->
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="creating-or-customizing-a-grouping">Creating or Customizing a Grouping</h2>
--->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#customizing-an-existing-grouping" class="MCXref xref">Customizing an Existing Grouping</a> </li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#creating-a-new-grouping-based-on-an-existing-grouping" class="MCXref xref">Creating a New Grouping Based on an Existing Grouping</a> </li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#creating-a-new-grouping-from-scratch" class="MCXref xref">Creating a New Grouping from Scratch</a> </li>
-  -->
-
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="customizing-an-existing-grouping">Customizing an Existing Grouping</h3>
--->
-
-   <!--
-   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Navigate to a list of objects that contains the grouping that you want to customize.</li>
-   -->
-
-   <!--
-   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>Grouping</strong> drop-down list.</li>
-   -->
-
-   <!--
-   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the grouping that you want to customize.</li>
-   -->
-
-   <!--
-   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>Grouping</strong> drop-down list, then click <strong>Customize Grouping.</strong><br><img src="assets/customize-grouping-285x427.png" alt="" style="width: 285;height: 427;"><br><br>The interface builder for customizing the Grouping is launched.</li>
-   -->
-
-   <!--
-   <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <strong>Grouping Preview</strong> section, click <strong>Add Grouping</strong> to define how you want information in the report to be organized. A preview of what the grouping looks like in the report is shown below. </li>
-   -->
-
-   <!--
-   <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode">Begin typing the name of the field that represents the way that you want to organize information in the report, then click it when it appears in the drop-down list.</li>
-   -->
-
-   <!--
-   <li value="7" data-mc-conditions="QuicksilverOrClassic.Draft mode">Repeat Step 4 and Step 5 to define additional groupings.<br>You can define up to three groupings for organizing information. You can further organize your information with up to four groupings by creating a matrix report. For more information on matrix reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</li>
-   -->
-
-   <!--
-   <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save Grouping</strong> to replace the current grouping with your changes.</li>
-   -->
-
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="creating-a-new-grouping-based-on-an-existing-grouping">Creating a New Grouping Based on an Existing Grouping</h3>
--->
-
-   <!--
-   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Go to the report that contains the grouping that you want to use as a basis for your new grouping.</li>
-   -->
-
-   <!--
-   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>Grouping</strong> drop-down list.</li>
-   -->
-
-   <!--
-   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the Grouping that you want to use as the basis for the new grouping.</li>
-   -->
-
-   <!--
-   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>Grouping</strong> drop-down list, then click <strong>Customize Grouping.</strong> <br>The interface builder for customizing the grouping is launched. </li>
-   -->
-
-   <!--
-   <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <strong>Grouping Preview</strong> section, click <strong>Add Grouping</strong> to define how you want information in the report to be organized. A preview of what the grouping looks like in the report is shown below. </li>
-   -->
-
-   <!--
-   <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode">Begin typing the name of the field that represents the way that you want to organize information in the report, then click it when it appears in the drop-down list.</li>
-   -->
-
-   <!--
-   <li value="7" data-mc-conditions="QuicksilverOrClassic.Draft mode">Repeat Step 4 and Step 5 to define additional groupings.<br>You can define up to three groupings for organizing information. You can further organize your information with up to four groupings by creating a matrix report. For more information on matrix reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</li>
-   -->
-
-   <!--
-   <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save as New Grouping</strong> to save your changes as a new grouping.</li>
-   -->
-
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="creating-a-new-grouping-from-scratch">Creating a New Grouping from Scratch</h3>
--->
-
-   <!--
-   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Go to the report where you want to create your new grouping.</li>
-   -->
-
-   <!--
-   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>Grouping</strong> drop-down list.<br><img src="assets/new-grouping-317x455.png" alt="" style="width: 317;height: 455;"> </li>
-   -->
-
-   <!--
-   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>New Grouping.</strong><br>The interface builder for creating the grouping is launched.</li>
-   -->
-
-   <!--
-   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <strong>Grouping Preview</strong> section, click <strong>Add Grouping</strong> to define how you want information in the report to be organized. A preview of what the grouping looks like in the report is shown below. </li>
-   -->
-
-   <!--
-   <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">Begin typing the name of the field that represents the way that you want to organize information in the report, then click it when it appears in the drop-down list.</li>
-   -->
-
-   <!--
-   <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode">Repeat Step 4 and Step 5 to define additional groupings.<br>You can define up to three groupings for organizing information. You can further organize your information with up to four groupings by creating a matrix report. For more information on matrix reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</li>
-   -->
-
-   <!--
-   <li value="7" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save Grouping</strong>.</li>
-   -->
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="aggregating-values-in-groupings">Aggregating Values in Groupings</h2>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You can aggregate the data displayed in your report in your grouping line by summarizing the values in each column of the report. For more information about summarizing column data in a grouping, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p>
--->
-
->[!NOTE]
->
-><!--
-><p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:</p>>
->-->
->  <!--
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents. </li>>
->  -->
->  <!--
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks. </li>>
->  -->
->  <!--
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks. </li>>
->  -->
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Sorting by a Grouping</h2>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> Groupings cannot be sorted. Views can be sorted. In order to sort a list by the value captured in the grouping, you must include that same value in one of the columns of the view and apply the sorting in the view. This way, the list sorts by the value in the grouping indirectly (it sorts by the value in the view which is also captured in the grouping). For more information about creating views and sorting by values inside the views, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>. </p>
--->
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Removing a Grouping</h2>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The ability to remove a grouping functions differently depending on whether you initially created the grouping, or the grouping was shared with you. You cannot remove a default filter.</p>
--->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>If you created the grouping and you remove it</strong>, the grouping is removed from the Workfront system. The grouping is no longer available to any users who you previously shared it with.</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>If the grouping was shared with you and you remove it</strong>, the grouping is removed only for you. The user who originally created it and any other users it has been shared with still have access to the grouping.</li>
-  -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To remove a grouping:</p>
--->
-
-   <!--
-   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <strong>Grouping</strong> drop-down menu, click <strong>Remove Grouping</strong>.<br>The <strong>My Groupings</strong> dialog box is displayed.<br>All groupings that you have rights to remove are available to remove. Other groupings are displayed as dimmed.</li>
-   -->
-
-   <!--
-   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the (<strong>x</strong>) next to any groupings you want to remove, then click <strong>Done</strong>.</li>
-   -->
-

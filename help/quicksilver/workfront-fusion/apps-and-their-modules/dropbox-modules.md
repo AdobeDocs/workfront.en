@@ -6,9 +6,10 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Dropbox modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Dropbox, as well as connect it to multiple third-party applications and services.This allows you to automate activities such as monitoring, searching, retrieving, listing, creating, and editing files and folders in your Dropbox.
-feature: "Workfront Fusion, Digital Content and Documents"
+author: Becky
+feature: Workfront Fusion, Digital Content and Documents
+exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
 ---
-
 # Dropbox modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Dropbox, as well as connect it to multiple third-party applications and services.This allows you to automate activities such as monitoring, searching, retrieving, listing, creating, and editing files and folders in your Dropbox.
@@ -675,4 +676,3 @@ You can also copy it and paste it into the field. Replace `1.url` with the URL.
 ```
 {{replace(replace(1.url; "?dl=0"; ""); "www"; "dl")}}
 ```
-

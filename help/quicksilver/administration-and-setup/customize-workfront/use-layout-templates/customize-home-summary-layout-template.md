@@ -4,10 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: You can use a Layout Template to configure what users see when they click a task or issue in Home and in the Summary. Each configuration you make using the steps below affects the Home area and the Summary panel in the same way. These customizations don't apply to the Document Summary panel.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
 ---
-
 # Customize Home and Summary using a layout template
 
 You can use a Layout Template to configure what users see when they click a task or issue in Home and in the Summary. Each configuration you make using the steps below affects the Home area and the Summary panel in the same way. These customizations don't apply to the Document Summary panel.
@@ -19,7 +20,7 @@ You can configure:
 
 You can also customize the fields that users see in the Home area when users click a project approval, document approval, or document version approval that is assigned to them.
 
-For information about the Home area, see [Use the Home area](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). For information about the Summary panel, see [Summary overview in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+For information about the Home area, see [Use the Home area](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). For information about the Summary panel, see [Summary overview](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
@@ -33,11 +34,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

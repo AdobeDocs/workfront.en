@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: update-work-in-a-project
 title: Update Condition for tasks and issues
 description: The Condition of a task or issue is a flag placed on it to indicate how it's going. This is different than the Status of the work item, which indicates the current stage of the development of the item.
+author: Alina
 feature: Work Management
+exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
 ---
-
 # Update Condition for tasks and issues
 
 The Condition of a task or issue is a flag placed on it to indicate how it's going. This is different than the Status of the work item, which indicates the current stage of the development of the item.
@@ -89,4 +90,3 @@ To manually set the Condition of a task or an issue:
      <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p></li>   
      -->
-

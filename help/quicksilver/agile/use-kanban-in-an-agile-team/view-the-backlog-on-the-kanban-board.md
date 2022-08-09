@@ -3,9 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Add the backlog to the Kanban board
 description: You can display a Backlog column directly on your Kanban board. The Backlog column on the Kanban board contains the first 20 items from your backlog on the Kanban board. Tasks and issues must belong to a project with a status that equates with Current to appear on the backlog.
+author: Lisa
 feature: Agile
+exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
 ---
-
 # Add the backlog to the Kanban board
 
 You can display a Backlog column directly on your Kanban board. The Backlog column on the Kanban board contains the first 20 items from your backlog on the Kanban board. Tasks and issues must belong to a project with a status that equates with Current to appear on the backlog.

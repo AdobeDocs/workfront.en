@@ -2,11 +2,12 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: "Adobe Workfront Fusion scenario example: Connect email, Text Parser, and Google Sheets"
+title: 'Adobe Workfront Fusion scenario example: Connect email, Text Parser, and Google Sheets'
 description: This scenario helps you create a log of all email messages and tag them for further action in a spreadsheet. It captures an email body in two separate tables in a spreadsheet using Regular Expressions (Regex) as search patterns. The first pattern searches for a phrase and the second searches for the same phrase and an email address.
+author: Becky
 feature: Workfront Fusion
+exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
 ---
-
 # Adobe Workfront Fusion scenario example: Connect email, Text Parser, and Google Sheets
 
 This scenario helps you create a log of all email messages and tag them for further action in a spreadsheet. It captures an email body in two separate tables in a spreadsheet using Regular Expressions (Regex) as search patterns. The first pattern searches for a phrase and the second searches for the same phrase and an email address.
@@ -214,4 +215,3 @@ Instead of Google Sheets, you can use another app like Airtable or a CRM such as
 * [Learn about Phone Number Matching](https://regexone.com/problem/matching_phone_numbers) using Regex
 * [Learn about Email Matching](https://regexone.com/problem/matching_emails) using Regex
 * [Test your Regular Expressions](https://regex101.com/)
-

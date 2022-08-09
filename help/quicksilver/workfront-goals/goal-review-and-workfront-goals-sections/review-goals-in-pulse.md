@@ -3,9 +3,10 @@ product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
 title: Review goals in the Adobe Workfront Goals Pulse section
 description: You can view all goals in your organization, regardless of who the owner is. For information about creating goals, see Create goals in Adobe Workfront Goals.
+author: Alina
 feature: Workfront Goals
+exl-id: 33873797-183d-4efc-9099-26eb907ca799
 ---
-
 # Review goals in the Adobe Workfront Goals Pulse section
 
 You can view all goals in your organization, regardless of who the owner is. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).

@@ -1,8 +1,10 @@
 ---
 title: View and manage proof version details
 description: View and manage proof version details
+author: Courtney
 draft: Probably
 feature: Digital Content and Documents
+exl-id: 360d0f4a-a78c-4c17-b4a1-6d4b811f7bb6
 ---
 # View and manage proof version details
 
@@ -62,4 +64,3 @@ Users must have a proofing license in order to view the proof details of a past 
    * Send reminder messages to reviewers on the proof.
 
 1. Click **Done**.
-

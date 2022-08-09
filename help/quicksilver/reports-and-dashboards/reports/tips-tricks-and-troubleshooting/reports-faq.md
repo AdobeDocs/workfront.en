@@ -4,9 +4,10 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: Reports FAQs
 description: Reports FAQs
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
 ---
-
 # Reports FAQs
 
 <!--
@@ -190,4 +191,3 @@ If you have View access to the report, you can do the following:
 
 1. Update the dashboard to include the copied report.  
    To learn how to edit a dashboard, see [Edit a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).
-

@@ -3,9 +3,10 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Create Routing Rules
 description: Routing Rules control what Adobe Workfront does with issues when they are submitted to a Request Queue. For more information about creating Request Queues, see Create a Request Queue.
+author: Alina
 feature: Work Management
+exl-id: 640f9054-f2f8-4594-9311-e93518f58453
 ---
-
 # Create Routing Rules
 
 Routing Rules control what Adobe Workfront does with issues when they are submitted to a Request Queue. For more information about creating Request Queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -92,4 +93,3 @@ You must have the following:
 1. Select**Save**&nbsp;when done.  
    This process only defines&nbsp;the Routing Rule. To ensure that the issue is routed when it is submitted to the Request Queue, you must&nbsp;select the routing&nbsp;rule&nbsp;on the **Queue Details** tab under&nbsp;**Default Route**. For information about adding a Default Route to a Request Queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).  
    If you want to associate multiple routing rules with the Request Queue, you must create multiple Queue Topics and associate each one with a separate Routing Rule. For more information about creating a queue topic, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
-

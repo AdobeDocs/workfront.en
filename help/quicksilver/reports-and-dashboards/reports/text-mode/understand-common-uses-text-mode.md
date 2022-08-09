@@ -3,9 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Overview of common uses for Text Mode
 description: Overview of common uses for Text Mode
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
 ---
-
 # Overview of common uses for Text Mode
 
 <!--

@@ -1,8 +1,10 @@
 ---
 title: Replacement of Flash-based tools in Adobe Workfront
 description: Replacement of Flash-based tools in Adobe Workfront
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
 ---
 # Replacement of Flash-based tools in Adobe Workfront
 
@@ -241,4 +243,3 @@ Except where specified otherwise, all Legacy features have been replaced by new 
   </tr> 
  </tbody> 
 </table>
-

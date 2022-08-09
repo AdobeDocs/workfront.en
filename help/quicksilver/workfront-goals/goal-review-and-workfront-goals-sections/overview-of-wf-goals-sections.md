@@ -4,9 +4,10 @@ product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
 title: Overview of the Adobe Workfront Goals sections
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+author: Alina
 feature: Workfront Goals
+exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
 ---
-
 # Overview of the Adobe Workfront Goals sections
 
 Your organization must have the following to use the functionality described in this article:
@@ -15,8 +16,6 @@ Your organization must have the following to use the functionality described in 
 * An Adobe Workfront Goals license in addition to a Workfront license.
 
   Contact your Workfront account manager to learn about a Workfront Goals license.
-
-  Workfront Goals is available only in the new Adobe Workfront experience.
 
 For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 After your Workfront administrator has granted you access to Workfront Goals, you can view goals that you or anyone else in your organization created in the Workfront Goals area.
@@ -158,4 +157,3 @@ Use the Check-in section to do the following:
 * Add a comment to a goal, then click&nbsp;Post to make or ask for updates to a goal. 
 * Access the Goal&nbsp;Details panel and edit and update the goal, its results, or activities.
 * Add new goals.
-

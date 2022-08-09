@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: show name of parent tasks as all caps"
+title: 'View: show name of parent tasks as all caps'
 description: You can add this column to a task view to display the name of the parent tasks in all capital letters.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
 ---
-
 # View: show name of parent tasks as all caps
 
 You can add this column to a task view to display the name of the parent tasks in all capital letters.
@@ -57,4 +58,3 @@ To build this column in a task view:
 1. Remove the text you find in the **Text Mode** box, and replace it with the following code: <pre>descriptionkey=name<br>displayname=Task Name<br>textmode=true<br>valueexpression=IF({numberOfChildren}>"0",UPPER({name}),{name})<br>valueformat=HTML<br>width=150<br></pre>
 
 1. Click **Save View**.
-

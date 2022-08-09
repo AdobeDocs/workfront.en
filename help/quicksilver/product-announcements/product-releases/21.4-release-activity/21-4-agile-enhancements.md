@@ -1,8 +1,10 @@
 ---
 title: 21.4 Agile enhancements
 description: 21.4 Agile enhancements
+author: Luke
 draft: Probably
-feature: "Product Announcements, Agile"
+feature: Product Announcements, Agile
+exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
 ---
 # 21.4 Agile enhancements
 
@@ -52,4 +54,4 @@ You can now create a new story or issue directly from the Kanban board. This mak
 
 For more information, see [Add stories and issues from the Kanban board](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/578094546/cbdd9b0d72) 
+[Watch a video demonstration of this feature.](https://vimeo.com/578094546/cbdd9b0d72)

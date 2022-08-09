@@ -2,10 +2,11 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Manage user allocations in the Workload Balancer
-description: As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
+description: As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer.
+author: Alina
 feature: Resource Management
+exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 ---
-
 # Manage user allocations in the Workload Balancer
 
 As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
@@ -34,11 +35,11 @@ You must have the following:
      <li> <p>Projects</p> </li> 
      <li> <p>Tasks</p> </li> 
      <li> <p>Issues</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher that include Make Assignments to the tasks <span>and issues</span> that you want to manage allocations for. </p> <p>Or </p> <p>Manage permissions to the tasks what you want to update the Planned Hours for, in addition to updating allocations. For information about updating Planned Hours in the Workload Balancer, see the <a href="#update-task-planned-hours-when-managing-user-allocations" class="MCXref xref">Update task Planned Hours when managing user allocations</a> section in this article. </p> <p>For information about tasks permissions, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a><span> and for information about issue permissions, see</span> <span href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></span>. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute permissions or higher that include Make Assignments to the tasks <span>and issues</span> that you want to manage allocations for. </p> <p>Or </p> <p>Manage permissions to the tasks that you want to update the Planned Hours for, in addition to updating allocations. For information about updating Planned Hours in the Workload Balancer, see the <a href="#update-task-planned-hours-when-managing-user-allocations" class="MCXref xref">Update task Planned Hours when managing user allocations</a> section in this article. </p> <p>For information about tasks permissions, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a><span> and for information about issue permissions, see</span> <span href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></span>. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +48,7 @@ You must have the following:
 
 ## Understand user allocations
 
-User allocations are amounts of hours that indicate the time that a user should spend on one given day or week day, week, or month to complete the work item. They are included in the Planned Hours of the work item.
+User allocations are amounts of hours that indicate the time that a user should spend on one given day or weekday, week, or month to complete the work item. They are included in the Planned Hours of the work item.
 
 This article describes how to update daily, weekly, or monthly hourly allocations for users assigned to tasks or issues. For information about managing overall allocations for users and job roles to tasks, see [Manage user and role allocation hours on tasks](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
 
@@ -86,7 +87,7 @@ Consider the following when locating daily, weekly or monthly allocations for ta
 >
 >``` 
 >
->  `Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
+>  Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours
 >```
 >
 >  For our example, the daily allocation hours for each day are: 
@@ -266,4 +267,3 @@ This is possible when the following conditions exist:
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the statement above might include other duration types in the future)</p>
   -->
-

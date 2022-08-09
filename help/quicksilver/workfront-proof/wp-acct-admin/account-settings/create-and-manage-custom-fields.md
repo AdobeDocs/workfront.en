@@ -4,9 +4,10 @@ product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Create and manage custom fields in Workfront Proof
 description: A Select or Premium Workfront Plan is required to use this feature. For more information about the various plans available, see Workfront Plans.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
 ---
-
 # Create and manage custom fields in Workfront Proof
 
 >[!IMPORTANT]
@@ -110,4 +111,3 @@ You can view and edit the details of your Custom field section or individual Cus
    * Edit the field type.
    * Set/edit a default value for the field.
    * Set up visibility and dependency rules (as described above in steps 11 and 12).
-

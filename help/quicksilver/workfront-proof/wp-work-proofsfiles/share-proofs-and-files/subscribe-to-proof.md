@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: share-proofs-and-files
 title: Subscribe to a Proof in Workfront Proof
 description: When another user sends you open a Proof URL and you open it in your browser, it launches the proofing viewer in Read Only mode. Before you can work on the proof, you need to identify yourself by subscribing to it.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 8f488839-efb5-44fb-9757-7e4d1c4aceef
 ---
-
 # Subscribe to a Proof in Workfront Proof
 
 >[!IMPORTANT]
@@ -29,4 +30,3 @@ When another user sends you open a Proof URL and you open it in your browser, it
    Depending on the proof sharing email settings selected by the person who shared the proof, you might need to follow validation instructions in an email sent to you via email. 
 
 1. Your role on the proof is Subscription, which is set on the Proof details page for the proof. For more information about setting roles for proofs, see*&nbsp;* [Configure Proof Settings in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
-

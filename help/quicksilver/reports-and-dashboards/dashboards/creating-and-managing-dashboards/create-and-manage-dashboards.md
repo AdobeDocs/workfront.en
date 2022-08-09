@@ -3,10 +3,11 @@ content-type: reference
 product-area: dashboards
 navigation-topic: dashboards-navigation-topic
 title: Create and manage dashboards
-description: This section contains the following articles - EDIT ME.
+description: Review these articles to learn how to create dashboards in Adobe Workfront.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: a7f29a8e-1aa8-4c6c-adeb-e6177291999a
 ---
-
 # Create and manage dashboards
 
 This section contains the following articles:
@@ -22,8 +23,3 @@ This section contains the following articles:
 * [Embed an external web page in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) 
 * [Embed a request queue in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md) 
 * [Remove an External Page from a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://experience.workfront.com/s/reporting" target="_blank">Learning Path for reports and dashboards</a> (NOTE:&nbsp;drafted, because link is not working)</li>
-  -->
-

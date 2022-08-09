@@ -6,10 +6,11 @@ product-area: system-administration
 keywords: license,type
 navigation-topic: access-levels
 description: Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of 4 types of paid Workfront licenses to each user when you assign the user an access level.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
 ---
-
 # Adobe Workfront licenses overview
 
 Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of 4 types of paid Workfront licenses to each user when you assign the user an access level.
@@ -29,7 +30,9 @@ This table and diagram show the main levels of access to Workfront:
 |Review|Reviewer|
 |External*|External User|
 
-*The External license is not a paid license. It is designed primarily for sharing documents with collaborators who don't use Workfront. For more information, see [Built-in access levels in Adobe Workfront](default-access-levels-in-workfront.md).
+>[!NOTE]
+>
+>The External license is not a paid license. It is designed primarily for sharing documents with collaborators who don't use Workfront. For more information, see [Built-in access levels in Adobe Workfront](default-access-levels-in-workfront.md).
 
 ![](assets/licenses-and-access-levels.png)
 
@@ -49,5 +52,4 @@ For example, if you assign the Planner access level to a user, your number of av
 
 You can view the licenses and access levels assigned to your users. For more information, see [List your users' access levels and licenses](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
-For information about managing your licenses, see [Manage available licenses in your system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).  
-
+For information about managing your licenses, see [Manage available licenses in your system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

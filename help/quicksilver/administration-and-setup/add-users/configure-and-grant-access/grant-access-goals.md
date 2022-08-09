@@ -3,11 +3,12 @@ title: Grant access to Adobe Workfront Goals
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
-description: As an Adobe Workfront administrator, you can use an access level to define a user's access to Adobe Workfront Goals, as explained in Access levels overview.
+description: As an Adobe Workfront administrator, you can use an access level to define a user's access to Workfront Goals.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
 ---
-
 # Grant access to Adobe Workfront Goals
 
 As an Adobe Workfront administrator, you can use an access level to define a user's access to Adobe Workfront Goals, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
@@ -26,11 +27,11 @@ You must have the following to grant users access to Workfront Goals:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Workfront Goals <p>Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p>Workfront Goals is available only in the new Adobe Workfront experience. For information about enrolling users in the new Adobe Workfront experience, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md" class="MCXref xref" data-mc-variable-override="">Enroll users in the new Adobe Workfront experience</a>.</p> </td> 
+   <td>Workfront Goals <p>Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p>Workfront Goals is available only in the new Adobe Workfront experience.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configuration*</td> 
@@ -48,7 +49,7 @@ For additional information about access to Workfront Goals, see [Requirements to
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Click the option to the right of **Goals** that you want to use for this access level.
 
-   ![](assets/edit-access-level-goals-350x139.png)
+   ![](assets/edit-access-level-goals.png)
 
    >[!NOTE]
    >

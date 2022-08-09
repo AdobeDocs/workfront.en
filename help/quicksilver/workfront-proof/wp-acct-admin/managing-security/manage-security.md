@@ -5,9 +5,10 @@ product-area: documents;system-administration
 navigation-topic: account-administration
 title: Manage security
 description: This section contains the following articles - EDIT ME.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 4db4c3b4-14fa-4222-ad52-d29a3ffc9736
 ---
-
 # Manage security
 
 >[!IMPORTANT]
@@ -19,4 +20,3 @@ This section contains the following articles:
 * [Proof security in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md) 
 * [Single Sign-On in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) 
 * [Understanding electronic signatures in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
-

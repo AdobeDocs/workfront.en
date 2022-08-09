@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: review-a-proof
 title: View previous proof versions in the proofing viewer
 description: You can view a previous version of a proof if one exists. Previous versions are locked by default. You cannot add comments or change a decision on a locked version.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 9416a3ee-2812-4a25-af38-2c5daeaeef07
 ---
-
 # View previous proof versions in the proofing viewer
 
 You can view a previous version of a proof if one exists. Previous versions are locked by default. You cannot add comments or change a decision on a locked version.
@@ -54,4 +55,3 @@ You must have the following access to perform the steps in this article:
 
 1. In the list that appears, click the version you want to view.
 1. (Optional) To unlock the version if you want users to be able to add comments or change a decision, if you have rights to do so, click the **Unlock** icon in the left panel, then click **Yes, unlock**. For more information, see [Lock or unlock a proof](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md).
-

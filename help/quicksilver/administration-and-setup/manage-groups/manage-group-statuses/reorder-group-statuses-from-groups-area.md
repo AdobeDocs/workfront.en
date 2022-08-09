@@ -4,10 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Reorder group statuses
 description: As a group administrator, you can change the order of project, task, and issue statuses for a group you manage.
-feature: "System Setup and Administration, People Teams and Groups"
+author: Caroline
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90
 ---
-
 # Reorder group statuses
 
 As a group administrator, you can change the order of project, task, and issue statuses for a group you manage.
@@ -39,7 +40,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan* </td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConditions-wf-groups.groups"> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -68,36 +69,33 @@ By default, statuses display in the following order:
  <tbody> 
   <tr> 
    <td> 
-    <ul> 
-     <li>Current</li> 
-     <li>Dead</li> 
-     <li> On Hold </li> 
-     <li> Planning </li> 
-     <li> Complete </li> 
-     <li> Requested </li> 
-     <li> Approved </li> 
-     <li> Rejected </li> 
-     <li> Idea </li> 
-    </ul> </td> 
+     <p>Current</p> 
+     <p>Dead</p> 
+     <p> On Hold </p> 
+     <p> Planning </p> 
+     <p> Complete </p> 
+     <p> Requested </p> 
+     <p> Approved </p> 
+     <p> Rejected </p> 
+     <p> Idea </p> 
+   </td> 
    <td> 
-    <ul> 
-     <li>New</li> 
-     <li>In Progress</li> 
-     <li>Complete</li> 
-    </ul> </td> 
+     <p>New</p> 
+     <p>In Progress</p> 
+     <p>Complete</p> 
+   </td> 
    <td> 
-    <ul> 
-     <li>New</li> 
-     <li>In Progress</li> 
-     <li>Reopened</li> 
-     <li>Awaiting Feedback</li> 
-     <li>On Hold</li> 
-     <li>Cannot Duplicate</li> 
-     <li>Closed</li> 
-     <li>Resolved</li> 
-     <li>Verified Complete</li> 
-     <li>Won't Resolve</li> 
-    </ul> </td> 
+     <p>New</p> 
+     <p>In Progress</p> 
+     <p>Reopened</p> 
+     <p>Awaiting Feedback</p> 
+     <p>On Hold</p> 
+     <p>Cannot Duplicate</p> 
+     <p>Closed</p> 
+     <p>Resolved</p> 
+     <p>Verified Complete</p> 
+     <p>Won't Resolve</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -135,4 +133,3 @@ By default, statuses display in the following order:
    The new status order is saved automatically.
 
 1. To test the new status order, go to an issue associated with the group, click the status in the upper-right corner, and make sure the statuses that display are in the order that you configured.
-

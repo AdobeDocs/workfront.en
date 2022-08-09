@@ -4,9 +4,10 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: Data from shared columns not displayed in dashboard reports
 description: Data from shared columns does not display when the report is placed in a multiple column dashboard layout, but it does display on a single column layout. Line breaks are also overridden.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: b8307182-3ec1-4f16-8427-48ef7a65f969
 ---
-
 # Data from shared columns not displayed in dashboard reports
 
 ## Problem

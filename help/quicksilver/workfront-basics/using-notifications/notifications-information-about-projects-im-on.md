@@ -3,9 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: "Notifications: Information about projects I'm on"
 description: The following notifications alert you about activities happening in projects you're working on.
+author: Lisa
 feature: Get Started with Workfront
+exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
 ---
-
 # Notifications:&nbsp;Information about projects I'm on
 
 The following notifications alert you about activities happening in projects you're working on.
@@ -83,4 +84,3 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
   </tr> 
  </tbody> 
 </table>
-

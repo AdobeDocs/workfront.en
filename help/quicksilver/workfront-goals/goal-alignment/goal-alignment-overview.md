@@ -4,19 +4,16 @@ product-previous: workfront-goals
 navigation-topic: goal-alignment
 title: Goal alignment overview in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+author: Alina
 feature: Workfront Goals
+exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
 ---
-
 # Goal alignment overview in Adobe Workfront Goals
 
 Your organization must have the following to use the functionality described in this article:
 
 * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-* An Adobe Workfront Goals license in addition to a Workfront license.
-
-  Contact your Workfront account manager to learn about a Workfront Goals license.
-
-  Workfront Goals is available only in the new Adobe Workfront experience.
+* An Adobe Workfront Goals license in addition to a Workfront license. Contact your Workfront account manager to learn about a Workfront Goals license.
 
 For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 Goal alignment is an important part of goal management. You can ensure everyone in your organization is on the same page about what must be achieved to drive strategy forward by aligning their goals to each other and to the organizational goals of teams, groups, and the company.
@@ -73,4 +70,3 @@ After aligning goals they are part of the same hierarchy and are visible in vari
    * Pulse section
 
 * You can view all the parent goals of a goal in the Goal Hierarchy field of a Project or Goal report.
-

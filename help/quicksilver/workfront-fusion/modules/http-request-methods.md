@@ -5,9 +5,10 @@ product-area: workfront-integrations
 navigation-topic: modules
 title: HTTP request methods in Adobe Workfront Fusion
 description: When you are configuring an API call in a module, you need to fill in the field for the HTTP request method.
+author: Becky
 feature: Workfront Fusion
+exl-id: 20b3c0f4-4a4c-4ba0-8570-ac39573ef1c0
 ---
-
 # HTTP request methods in Adobe Workfront Fusion
 
 When you are configuring an API call in a module, you need to fill in the field for the HTTP request method.
@@ -52,4 +53,3 @@ Use one of the following HTTP methods.
 * **PUT**: Sends data to a location in the web server based on your parameters. PUT requests include actions like uploading a file. The difference between a PUT and POST is that PUT is idempotent, meaning that the result of a single successful PUT is the same as many identical PUTs. If a PUT is successful, you receive a 200 response message (usually 201 or 204).
 * **PATCH**: (Not available for some API call modules) Applies partial modifications to a resource on a web server based on your parameters. PATCH is not idempotent, meaning that the result of multiple PATCH's could have unintended consequences. If a PUT is successful, you will receive a 200 response message (usually 204).
 * **DELETE**: Deletes the specified resource from the web server based on your parameters (if the resource exists). If a DELETE is successful, you receive a 200 OK response message.
-

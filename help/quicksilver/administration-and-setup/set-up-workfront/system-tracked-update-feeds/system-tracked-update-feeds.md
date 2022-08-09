@@ -5,10 +5,11 @@ product-area: system-administration
 navigation-topic: system-tracked-update-feeds
 title: System-tracked updates
 description: Adobe Workfront captures the activity taking place on certain objects by logging status information in the object's Updates area.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 ---
-
 # System-tracked updates
 
 Adobe Workfront captures the activity taking place on certain objects by logging status information in the object's Updates area.
@@ -22,9 +23,9 @@ The Updates area includes the following types of updates:
 * **System updates:** Automatically made by the system. A system update includes a brief note describing what kind of change happened to the item. 
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  DRAFTED IN FLARE:
   Timestamps for system updates are based on your operating system's timezone.
-  </MadCap:conditionalText>
+  
   -->
 
 The following objects can have updates:

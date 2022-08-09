@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: collections
 title: Add items to a collection in Workfront Library
 description: You can add content and folders to a collection that you create or that has been shared with you. When you add content to a collection, the content remains in its original location, and you simply create a link to the content file.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 4ed9e49d-28a1-481c-b251-d152693c9ada
 ---
-
 # Add items to a collection in Workfront Library
 
 You can add content and folders to a collection that you create or that has been shared with you. When you add content to a collection, the content remains in its original location, and you simply create a link to the content file.
@@ -43,4 +43,3 @@ You can add content and folders to a collection that you create or that has been
    Only users with Manage permissions to the item can remove it from its original location.
 
 1. Click **Add**.
-

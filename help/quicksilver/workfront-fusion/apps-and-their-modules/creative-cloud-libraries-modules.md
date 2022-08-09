@@ -6,9 +6,10 @@ product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Creative Cloud Libraries modules
 description: With the Adobe Workfront Fusion Adobe Creative Cloud Libraries modules, you can start a scenario when an element or library is created or updated. You can also upload, retrieve, archive, or list elements, or make a call to the Adobe Creative Cloud Libraries API.
+author: Becky
+exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
 ---
-
-# Figma Modules
+# Adobe Creative Cloud Libraries Modules
 
 With the Adobe Workfront Fusion Adobe Creative Cloud Libraries modules, you can start a scenario when an element or library is created or updated. You can also upload, retrieve, archive, or list elements, or make a call to the Adobe Creative Cloud Libraries API.
 
@@ -20,7 +21,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 You must have the following access to use the functionality in this article:
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -45,13 +46,6 @@ You must have the following access to use the functionality in this article:
     <tr>
       <td role="rowheader">Product</td>
       <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">Access level configurations*</td>
-      <td>
-        <p>You must be a Workfront Fusion administrator for your organization.</p>
-        <p>You must be a Workfront Fusion administrator for your team.</p>
-      </td>
     </tr>
   </tbody>
 </table>
@@ -100,7 +94,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This action module archives an element from a library.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -123,7 +117,7 @@ This action module archives an element from a library.
 
 This action module returns a single element from a library.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -169,7 +163,7 @@ This action module returns a single element from a library.
 
 This action module retrieves a list of elements in a library.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -223,7 +217,7 @@ This action module retrieves a list of elements in a library.
 
 This action module uploads a small file asset to an existing library. Maximum file size is 5 MB.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -279,7 +273,7 @@ This trigger module starts a scenario when an element is added to a library.
 
 This trigger module starts a scenario when an element in a library is updated.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -309,7 +303,7 @@ This trigger module starts a scenario when an element in a library is updated.
 
 This trigger module starts a scenario when a new library is created.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -328,7 +322,7 @@ This trigger module starts a scenario when a new library is created.
 
 This trigger module starts a scenario when an existing library is updated.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
@@ -349,7 +343,7 @@ This trigger module starts a scenario when an existing library is updated.
 
 This module makes a custom API call to the Adobe Creative Cloud Libraries API.
 
-<table>
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>

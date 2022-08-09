@@ -3,9 +3,10 @@ product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
 title: Share a goal in Workfront Goals
 description: When you share a goal you give Manage permissions to a goal to someone who did not create it.
+author: Alina
 feature: Workfront Goals
+exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
 ---
-
 # Share a goal in Workfront Goals
 
 When you share a goal you give Manage permissions to a goal to someone who did not create it.
@@ -32,7 +33,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>Edit access to Goals or higher</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -87,17 +88,20 @@ Before you begin, you must have the following:
 
 ## Share a goal
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
 
    The Goal List displays. 
 
-1. Click the name of a goal in the list. The Goal&nbsp;Details panel opens.
+1. Click the name of a goal in the list. The Goal Details panel opens.
 
    >[!TIP]
    >
-   >You can click the name of a list from any section in the Goals area to open the Goal&nbsp;Details panel.
+   >You can click the name of a list from any section in the Goals area to open the Goal Details panel.
 
-1. Click the **More icon** next to the goal name, then click&nbsp;**Share**.
+1. Click the **More icon** next to the goal name, then click **Share**.
 
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
@@ -200,9 +204,9 @@ The following table lists the permissions that you can grant when sharing a goal
  </tbody> 
 </table>
 
-&#42; You must have Edit access to Goals in your access level to be able to convert results and activities to goals.
+*You must have Edit access to Goals in your access level to be able to convert results and activities to goals.
 
-&#42;&#42; You must have access to View Projects and View permission to the projects added or that you want to add to the goal to view them.
+**You must have access to View Projects and View permission to the projects added or that you want to add to the goal to view them.
 
 For information about project access level, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 

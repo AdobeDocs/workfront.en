@@ -4,9 +4,10 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Timesheets overview
 description: You can use timesheets to track the time that you spend on work. For information about the timesheet layout in Adobe Workfront, see Understand the Timesheet layout.
+author: Lisa
 feature: Timesheets
+exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
 ---
-
 # Timesheets overview
 
 You can use timesheets to track the time that you spend on work. For information about the timesheet layout in Adobe Workfront, see [Understand the Timesheet layout](../../timesheets/timesheets/timesheet-layout.md).
@@ -52,4 +53,3 @@ You can track time in&nbsp;Workfront by accessing timesheets in the Timesheets a
 * The My Timesheet Approvals filter which displays timesheets where you are set as the approver.
 
   ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
-

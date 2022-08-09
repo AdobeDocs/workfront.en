@@ -5,10 +5,11 @@ product-area: system-administration
 navigation-topic: access-levels
 title: Access to objects and areas by license type
 description: The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
 ---
-
 # Access to objects and areas by license type
 
 The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
@@ -63,4 +64,3 @@ You can find detailed information about what the access levels allow for each ob
 * [Grant access to Resource Management](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md) 
 * [Grant access to Scenario Planner](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) 
 * [Grant access to Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-

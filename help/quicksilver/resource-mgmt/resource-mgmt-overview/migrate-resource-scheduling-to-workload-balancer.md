@@ -4,8 +4,9 @@ product-area: resource-management
 navigation-topic: resource-management-overview
 title: Migrate from Resource Scheduling to the [!UICONTROL Workload Balancer]
 description: We want you to experience as little work disruption as possible by helping you design a migration plan. The steps below will help you get your team trained and determine the best time for you to switch to the Workload Balancer.
+author: Alina
+exl-id: 4bc08d5f-99c7-40e2-85d6-1de0b585aef8
 ---
-
 # Migrate from Resource [!UICONTROL Scheduling] to the [!UICONTROL Workload Balancer]
 
 >[!IMPORTANT]
@@ -109,4 +110,4 @@ Consider the following when making the transition to the [!UICONTROL Workload Ba
 
 ## Need more assistance
 
-If you need additional information with this migration, contact Custom Support. For information about contacting Support, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md). 
+If you need additional information with this migration, contact Custom Support. For information about contacting Support, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

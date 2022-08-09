@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: task-information
 title: Task Slack Date overview
 description: Tasks can sometimes start and complete late without impacting the Completion Date of the project.
+author: Alina
 feature: Work Management
+exl-id: ccdaa27d-e212-45dc-afca-08539f2b4001
 ---
-
 # Task Slack Date overview
 
 Tasks can sometimes start and complete late without impacting the Completion Date of the project.

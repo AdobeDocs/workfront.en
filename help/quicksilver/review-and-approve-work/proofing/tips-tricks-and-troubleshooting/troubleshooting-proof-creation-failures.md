@@ -5,6 +5,7 @@ product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
 title: Troubleshoot proof creation failures
 description: The proof creation process includes both importing and proof generation. Occasionally when you are creating a proof, a file might fail to import, or the proof might fail to generate after the file is imported.
+author: Courtney
 ---
 
 # Troubleshoot proof creation failures

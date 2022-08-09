@@ -3,8 +3,9 @@ navigation-topic: use-lists
 title: Modify how a list displays
 description: In Adobe Workfront, you can customize how a list displays for you. Other users who view the list do not see your changes.
 feature: Get Started with Workfront
+author: Lisa
+exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
 ---
-
 # Modify how a list displays
 
 In Adobe Workfront, you can customize how a list displays for you. Other users who view the list do not see your changes.
@@ -32,19 +33,19 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>View access to the area the list is in</p> <p>For example, to modify the view on a project, you need View access to Projects.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>View or higher permissions to the view applied to the list</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -106,4 +107,3 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >
    >If you are sorting groups in the Groups area in Setup, the hierarchy view of groups and their subgroups does not break up when you change the way the list is sorted—subgroups stay with their parent groups. The list is sorted by top-level groups first. Then, under each parent group, the list of subgroups that are on the same level are sorted together.
-

@@ -5,9 +5,10 @@ product-area: documents;system-administration
 navigation-topic: satellite-accounts
 title: Satellite accounts in Workfront Proof
 description: Satellite accounts are paid accounts that you set up and manage from within your own Workfront Proof account.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 139e9a6c-b9ed-4819-970b-d62f47ccd71b
 ---
-
 # Satellite accounts in Workfront Proof
 
 >[!IMPORTANT]
@@ -52,4 +53,3 @@ By creating Satellite accounts for your clients.
 | &nbsp;Enhanced workflow for your client |&nbsp;You can tailor the proofing process to meet the needs of the specific client&nbsp; |
 | &nbsp;Your client can upload proofs from the Satellite account and share these with you |&nbsp;Your client can initiate their own proofs |
 | &nbsp;Any proofs that have previously been shared with your client will automatically show in their account |&nbsp;No need to re-share previous proofs&nbsp; |
-

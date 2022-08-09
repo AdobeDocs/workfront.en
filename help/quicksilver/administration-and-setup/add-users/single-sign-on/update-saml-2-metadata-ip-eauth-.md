@@ -1,9 +1,10 @@
 ---
 title: Update SAML 2.0 metadata in your IDP when using enhanced authentication
-description: Update SAML 2.0 metadata in your IDP when using enhanced authentication
-draft: Probably
+description: As an Adobe Workfront administrator, you can integrate Workfront single sign-on (SSO) with any identity provider that supports the Security Assertion Markup Language (SAML) 2.0 protocol.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
 ---
 # Update SAML 2.0 metadata in your IDP when using enhanced authentication
 
@@ -15,9 +16,6 @@ The following sections describe the integration process when your Workfront acco
 
 For information about configuring SAML prior to your migration to the enhanced authentication experience, see [Update SAML 2.0 metadata in your identity provider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
 
->[!NOTE]
->
->This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 ## Access requirements
 
@@ -29,11 +27,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

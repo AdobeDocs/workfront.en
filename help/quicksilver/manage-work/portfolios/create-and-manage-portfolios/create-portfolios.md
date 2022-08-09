@@ -3,9 +3,10 @@ product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: Create a portfolio
 description: A Portfolio is a collection of projects competing for the same resources, budget, and schedule. The projects in a Portfolio are similar enough that they would use the same Resource Pool and be measured against the same scorecard.
-feature: "Work Management, Strategic Planning"
+author: Alina
+feature: Work Management, Strategic Planning
+exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 ---
-
 # Create a portfolio
 
 A Portfolio is a collection of projects competing for the same resources, budget, and schedule. The projects in a Portfolio are similar enough that they would use the same Resource Pool and be measured against the same scorecard.
@@ -114,4 +115,3 @@ You must have the following access to perform the steps in this article:
 </ol>
 </div>
 -->
-

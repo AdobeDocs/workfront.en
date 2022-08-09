@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Grouping: edit the display name in a grouping"
+title: 'Grouping: edit the display name in a grouping'
 description: You can rename groupings to something more familiar to your users.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
 ---
-
 # Grouping: edit the display name in a grouping
 
 You can rename groupings to something more familiar to your users.
@@ -99,4 +100,3 @@ To change the display name in a project grouping:
      ![](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Click **Done**, then **Save Grouping**.
-

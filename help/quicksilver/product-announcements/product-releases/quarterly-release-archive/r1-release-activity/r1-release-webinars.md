@@ -3,9 +3,10 @@ content-type: release-notes
 navigation-topic: product-releases-archive
 title: R1 release webinars
 description: These webinars were focused on functionality included in the R1 release.
+author: Luke
 feature: Product Announcements
+exl-id: 5656710c-873b-4f8c-822f-49858f149892
 ---
-
 # R1 release webinars
 
 These webinars were focused on functionality included in the R1 release.&nbsp;

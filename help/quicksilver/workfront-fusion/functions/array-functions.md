@@ -5,9 +5,10 @@ product-area: workfront-integrations
 navigation-topic: functions
 title: Array functions in Adobe Workfront Fusion
 description: The following array functions are available in the Adobe Workfront Fusion mapping panel.
+author: Becky
 feature: Workfront Fusion
+exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
 ---
-
 # Array functions in Adobe Workfront Fusion
 
 ## Access requirements
@@ -196,4 +197,3 @@ Enter one of the following values for the `mode` parameter.
   >*  `arrayDifference [myArray, yourArray, symmetric]`
   >
   >    Returns `[1,2,6,7]`
-

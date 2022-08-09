@@ -4,10 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configure a blueprint
 description: You can configure details of the project template or organizational structure before you install the blueprint.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
 ---
-
 # Configure a blueprint
 
 You can configure details of the project template or organizational structure before you install the blueprint.
@@ -22,14 +23,14 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td role="rowheader">Access level configurations*</td> 
    <td> <p>System administrator</p> </td> 
   </tr> 
  </tbody> 

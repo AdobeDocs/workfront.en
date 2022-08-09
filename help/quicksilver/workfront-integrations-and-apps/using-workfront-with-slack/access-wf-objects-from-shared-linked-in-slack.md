@@ -3,9 +3,10 @@ product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Access Adobe Workfront objects from a shared link in Slack
 description: When links to Adobe Workfront objects are shared with you in a Slack channel, you can view additional information about them in Slack, after you have installed and configured Workfront for Slack.
+author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
 ---
-
 # Access Adobe Workfront objects from a shared link in Slack
 
 When links to Adobe Workfront objects are shared with you in a Slack channel, you can view additional information about them in Slack, after you have installed and configured Workfront for Slack.
@@ -204,4 +205,3 @@ Before you can access your favorites and recent items from Slack, you must
    >The user who is sharing the link must have at least View permissions to the report in order for you to see additional information about it.
    
 1. (Optional) Click the name of the report to open it in Workfront in a new browser tab.&nbsp;
-

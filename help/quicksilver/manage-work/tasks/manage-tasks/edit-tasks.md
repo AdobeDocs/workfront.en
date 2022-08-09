@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: manage-tasks
 title: Edit tasks
 description: Edit tasks
+author: Alina
 feature: Work Management
+exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 ---
-
 # Edit tasks
 
 <!--

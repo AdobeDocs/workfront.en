@@ -5,8 +5,8 @@ navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront built-in integrations overview
 description: You can integrate Adobe Workfront with third-party applications. These integrations can extend the utility of Workfront and tailor it to the needs of your organization. For example, if you are a creative worker in the marketing industry, you can use the Adobe Creative Cloud add-in to export assets directly from Photoshop to Workfront.
 feature: Workfront Integrations and Apps
+exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
 ---
-
 # Adobe Workfront built-in integrations overview
 
 You can integrate Adobe Workfront with third-party applications. These integrations can extend the utility of Workfront and tailor it to the needs of your organization. For example, if you are a creative worker in the marketing industry, you can use the Adobe Creative Cloud add-in to export assets directly from Photoshop to Workfront.
@@ -153,7 +153,7 @@ The following built-in integrations are currently available in Workfront.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Zoom</p> <p> <img src="assets/zoom-logo.png"> </p> </td> 
+   <td role="rowheader"> <p>Zoom</p> <p> <img src="assets/zoom-logo.png"> </p> <p>NOTE: The Zoom integration will be deprecated with the 22.4 release (September 2022).</p> </td> 
    <td> 
     <ul> 
      <li>Start a Zoom meeting as you collaborate in Workfront by inserting a Zoom link into a comment or a reply in the Updates area</li> 

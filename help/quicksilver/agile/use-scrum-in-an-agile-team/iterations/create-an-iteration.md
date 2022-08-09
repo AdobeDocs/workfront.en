@@ -3,9 +3,10 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: Create an iteration
 description: Iterations are a key component for Scrum agile teams in planning out work capacity. Adobe Workfront allows Scrum agile teams to manage their work by creating multiple iterations to accommodate team needs.
+author: Lisa
 feature: Agile
+exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
 ---
-
 # Create an iteration
 
 Iterations are a key component for Scrum agile teams in planning out work capacity. Adobe Workfront allows Scrum agile teams to manage their work by creating multiple&nbsp;iterations to accommodate team needs.
@@ -143,4 +144,4 @@ Iteration End Date minus (-) Task Duration equals (=) Task Planned Start Date
 
 The Project End Date is used instead of the Iteration End Date if the project start date is after the iteration start date, and the project end date is after the iteration end date.
 
-You can configure individual Scrum teams to use the project dates by default, rather than the iteration dates. For information, see the section [Configure how dates are applied when adding work items to an iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md). 
+You can configure individual Scrum teams to use the project dates by default, rather than the iteration dates. For information, see the section [Configure how dates are applied when adding work items to an iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

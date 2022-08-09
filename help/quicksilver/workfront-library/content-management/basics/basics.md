@@ -5,9 +5,9 @@ product-area: documents
 navigation-topic: content-management
 title: Workfront Library Basics
 description: This section contains the following articles - EDIT ME.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: f09e14eb-3c8b-4f57-9608-c60ae782b082
 ---
-
 # Workfront Library Basics
 
 This section contains the following articles:
@@ -23,4 +23,3 @@ This section contains the following articles:
 * [View Workfront Library work requests](../../../workfront-library/content-management/basics/view-work-requests-in-library.md) 
 * [Open a Workfront Library portal](../../../workfront-library/content-management/basics/open-a-portal.md) 
 <!--* [Remove an asset from a folder](../../../workfront-library/content-management/basics/remove-asset-from-folder.md)-->
-

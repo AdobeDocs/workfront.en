@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: Project status will not change from Complete to Current
 description: (Although this can be added as an FAQ, I have left this as its own article for search-ability reasons)
+author: Alina
 feature: Work Management
+exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
 ---
-
 # Project status will not change from Complete to Current
 
 <!--
@@ -32,4 +33,3 @@ To update a project's completion mode to Manual:
 1. Locate the **Completion Mode** drop-down menu, and select **Manual**.
 
 1. Click **Save** .
-

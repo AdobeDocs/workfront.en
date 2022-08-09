@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: manage-documents
 title: Document Details overview
 description: The Document Details page lets you view, communicate about, and manage the properties of a document attached to a Adobe Workfront object.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
 ---
-
 # Document Details overview
 
 The Document Details page lets you view, communicate about, and manage the properties of a document attached to a Adobe Workfront object.
@@ -49,4 +50,3 @@ You can perform the following actions from the document details page if your on 
 * Edit Proofing Custom Fields
 
   Proofing Custom Fields must be set up in Workfront Proof. For more information, see [Create and manage custom fields in Workfront Proof](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).
-

@@ -4,9 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Calculated custom fields vs. calculated columns
 description: To aggregate several fields in Adobe Workfront and display that aggregate value in a new field, you can do the following - EDIT ME.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
 ---
-
 # Calculated custom fields vs. calculated columns
 
 To aggregate several fields in Adobe Workfront and display that aggregate value in a new field, you can do the following:
@@ -111,4 +112,3 @@ For examples of calculated custom columns in views see the following articles:
 
 * [Overview of common uses for Text Mode](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) 
 * [Custom View, Filter, and Grouping samples](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
-

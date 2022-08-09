@@ -4,9 +4,10 @@ product-area: reporting
 navigation-topic: reports
 title: Custom View, Filter, and Grouping samples
 description: Custom View, Filter, and Grouping samplesTOC-proper article". I did not see much value in organizing this by objects.)"
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: beac1ea6-a983-4d12-8972-91150914f731
 ---
-
 # Custom View, Filter, and Grouping samples
 
 <!--
@@ -277,4 +278,3 @@ This section provides examples of custom views, filters, and groupings that you 
 <p>This Work Item report shows both tasks and issues which users have accepted to work on in one report. It is best when combined with a custom grouping.</p>
 </div>
 -->
-

@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Compare proofs
 description: You can use the proofing viewer to compare two different proofs or two versions of the same proof.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
 ---
-
 # Compare proofs
 
 You can use the proofing viewer to compare two different proofs or two versions of the same proof.
@@ -70,4 +71,3 @@ You can compare two proofs within any single document list, such as within the D
 ## Compare two versions of the same proof
 
 For information about comparing two versions of the same proof, see [Compare proof versions](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) in [Compare proofs in the proofing viewer](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
-

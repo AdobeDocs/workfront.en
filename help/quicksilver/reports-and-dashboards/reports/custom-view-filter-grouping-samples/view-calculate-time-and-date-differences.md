@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: calculate time and date differences"
+title: 'View: calculate time and date differences'
 description: You can calculate the difference between the following - EDIT ME.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
 ---
-
 # View: calculate time and date differences
 
 >[!IMPORTANT]
@@ -107,4 +108,3 @@ For example, you can calculate the difference between the Planned Completion Dat
      ```
 
 1. Click **Save**, then **Save View**.
-

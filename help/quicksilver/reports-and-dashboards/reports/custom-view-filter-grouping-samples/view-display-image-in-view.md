@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: display an image instead of a string in a column"
+title: 'View: display an image instead of a string in a column'
 description: You can replace the name of an object in a view with an image using text mode. You can also add a link to the image that can open the object it replaces.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
 ---
-
 # View: display an image instead of a string in a column
 
 You can replace the name of an object in a view with an image using text mode. You can also add a link to the image that can open the object it replaces.
@@ -125,4 +126,3 @@ You must have the following access to perform the steps in this article:
    The image you selected replaces the Project Name in the project view and the image is a link to the project.
 
 1. Click **Save View**.
-

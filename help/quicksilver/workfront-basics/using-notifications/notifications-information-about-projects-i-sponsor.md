@@ -1,11 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notifications: Information about projects I sponsor"
+title: 'Notifications: Information about projects I sponsor'
 description: The following notifications alert you about activities happening on a project you are sponsoring.
+author: Lisa
 feature: Get Started with Workfront
+exl-id: b4c7c046-f15f-4e6e-9332-5232c7b7080b
 ---
-
 # Notifications: Information about projects I sponsor
 
 The following notifications alert you about activities happening on a project you are sponsoring.
@@ -73,4 +74,3 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
   </tr> 
  </tbody> 
 </table>
-

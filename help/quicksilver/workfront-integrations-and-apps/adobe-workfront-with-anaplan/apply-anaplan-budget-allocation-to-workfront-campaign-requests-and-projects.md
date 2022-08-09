@@ -3,9 +3,10 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: Apply an Anaplan budget allocation to an Adobe Workfront campaign request or campaign project
 description: This integration scenario syncs any budget allocations that have been made in Anaplan back to Workfront. The scenario pulls all linked campaign budget items, then passes the budged value to the linked Workfront project if the budget value has been changed.
-feature: "Workfront Integrations and Apps, Workfront Fusion"
+author: Becky
+feature: Workfront Integrations and Apps, Workfront Fusion
+exl-id: 8ae28911-fa18-459a-aa50-cfb347e70e61
 ---
-
 # Apply an Anaplan budget allocation to an Adobe Workfront campaign request or campaign project
 
 This integration scenario syncs any budget allocations that have been made in Anaplan back to Workfront. The scenario pulls all linked campaign budget items, then passes the budged value to the linked Workfront project if the budget value has been changed.
@@ -158,4 +159,3 @@ Additional scenarios for spend optimization include:
   [Send Adobe Workfront actual hours updates to an an Anaplan list item](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md) 
 
 * [Send Adobe Workfront expenses to an Anaplan list item](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-

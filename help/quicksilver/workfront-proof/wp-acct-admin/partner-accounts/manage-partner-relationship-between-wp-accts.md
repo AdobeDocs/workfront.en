@@ -4,9 +4,10 @@ product-area: documents;system-administration
 navigation-topic: partner-accounts
 title: Manage a partner relationship between Workfront Proof accounts
 description: If you are collaborating with another organization who also uses a Workfront Proof (for example, another department in your company or a client), you can set up a partner relationship between the two accounts. Setting up a partner relationship between your account and another organization will allow you to share proofs, files, folders, as well as contact details with your partners.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: ee06c9a7-baeb-4c2b-a6c5-ec4ac542dd5a
 ---
-
 # Manage a partner relationship between Workfront Proof accounts
 
 >[!IMPORTANT]

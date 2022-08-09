@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: use-predecessors
 title: Create cross-project predecessors
 description: A Cross-Project Predecessor is a task that another task (called a successor task) in another project depends on. The predecessor is the task that takes priority over the dependent (successor) task. For example, you can create a dependency that requires that the predecessor task be marked Complete before the dependent task can start.
+author: Alina
 feature: Work Management
+exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
 ---
-
 # Create cross-project predecessors
 
 A Cross-Project Predecessor is a task that another task (called a successor task) in another project depends on. The predecessor is the task that takes priority over the dependent (successor) task. For example, you can create a dependency that requires that the predecessor task be marked Complete before the dependent task can start.
@@ -77,4 +78,3 @@ You must have the following access to perform the steps in this article:
    The predecessor icon turns green when the predecessor task is marked complete. This signals that the dependent task is ready for work.
 
    Mouse over this value, to get more information on the predecessor, the project, and the dates.
-

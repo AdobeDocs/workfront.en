@@ -5,10 +5,11 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: You can enable or disable access to the Adobe Workfront mobile app.
-feature: "System Setup and Administration, Workfront Integrations and Apps"
+author: Lisa
+feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
 ---
-
 # Enable users to access the mobile application
 
 You can enable or disable access to the Adobe Workfront mobile app.
@@ -23,11 +24,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -51,4 +52,4 @@ You must have the following access to perform the steps in this article:
 
 For information about how to use the Workfront mobile app after it is enabled for the site, see [Use the Adobe Workfront mobile app](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
-For information about how to use Workfront for Outlook, see the [Using Workfront with Outlook](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) section. 
+For information about how to use Workfront for Outlook, see the [Using Workfront with Outlook](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) section.

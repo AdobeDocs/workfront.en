@@ -2,10 +2,11 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Create groupings in Adobe Workfront
-description: Create groupings in Adobe Workfront
+description: You can create a custom grouping from scratch or customize an existing grouping.
+author: Lisa
 feature: Reports and Dashboards
+exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
 ---
-
 # Create groupings in Adobe Workfront
 
 <!--
@@ -25,19 +26,19 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to create a grouping in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>Manage permissions to a report to edit a grouping in a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -45,22 +46,14 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Walk-through
-
-View the following video to learn how to create groupings to organize the information in your reports.
-
-This video was recorded in Adobe Workfront Classic. However, the content also applies to the new Workfront experience.
-
-[ ![](assets/video-create-a-grouping-350x199.png)](https://workfront-video.wistia.com/medias/f9kdcqy520)
-
-## How-to steps
+## Create a grouping
 
 1. Go to the report or the list where you want to create your custom grouping.
 1. Click the **Grouping** icon .  
   
    ![Select New Grouping](assets/newgrouping-nwe-standard-350x304.png)
 
-1. Click **New Grouping**.  
+1. Click **New Grouping**.
    The interface builder for creating the grouping launches.
 
 1. In the **Grouping Preview** section, click **Add Grouping** to define how you want information in the report to be organized. A preview of what the grouping looks like in the report is shown below.
@@ -79,10 +72,6 @@ This video was recorded in Adobe Workfront Classic. However, the content also ap
    >* When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
    >* The results of a grouping always display expanded after accessing them from a chart element or in a legacy list. In these cases, this setting is ignored.
 
-   <!--WRITER
-   >     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Legacy lists in classic do NOT have this option; legacy lists in NWE DO have this option but it's not functional; this is conditioned only for QS)</p>   >   
-   -->
-
 1. Repeat Steps  4, 5, and 6  to define additional groupings.  
    You can define up to three groupings for organizing information. You can further organize your information with up to four groupings by creating a matrix report. For more information on matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
@@ -92,7 +81,6 @@ This video was recorded in Adobe Workfront Classic. However, the content also ap
 
 See also:
 
-* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
 * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md) 
 * [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md) 
 * [Edit existing groupings](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
@@ -266,4 +254,3 @@ As you build the grouping, the results appear immediately in the list.
 </div>
 </div>
 -->
-

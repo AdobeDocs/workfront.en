@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: manage-proof-deadlines
 title: Set a deadline for an existing basic proof
 description: You can set a single deadline for a basic proof after it's been created.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 8e0c6fd3-5506-4b23-b64a-473c4d20b506
 ---
-
 # Set a deadline for an existing basic proof
 
 You can set a single deadline for a basic proof after it's been created.
@@ -55,4 +56,3 @@ You must have the following access to perform the steps in this article:
 
 1. Choose a date, and specify a time, then click anywhere on the screen. 
 1. Choose if you want to notify reviewers of the new deadline.
-

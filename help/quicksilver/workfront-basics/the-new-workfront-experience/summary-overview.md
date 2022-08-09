@@ -1,24 +1,11 @@
 ---
 content-type: overview
-navigation-topic: the-new-workfront-experience
-title: Summary overview in the new Adobe Workfront experience
-description: The Summary allows you to interact with important work item information from the following areas - EDIT ME.
+title: Summary overview
+description: ou can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of Adobe Workfront that display tasks and issues.
 feature: Get Started with Workfront
+exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
 ---
-
-# Summary overview in the new Adobe Workfront experience
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Summary allows you to interact with important work item information from the following areas:</p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;from&nbsp;Courtney: May need to rethink this for beta doc depending when Summary will be in Home.)</p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/summary-overview-summary-areas-350x145.png" style="width: 350;height: 145;"> </p>
--->
+# Summary overview
 
 You can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of Adobe Workfront that display tasks and issues.
 
@@ -88,19 +75,19 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>View or higher access to Tasks, Issues, Documents</p> <p>View or higher access to any objects for which you want to view documents' Summary</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>View or higher permissions to a task, issue, or document</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -192,4 +179,3 @@ Use the Approvals section of the Summary to view approvals attached to the task 
 To go directly to the Approvals tab on the task or issue, click the **Approvals** title.
 
 ![](assets/summary-overview-approvals-350x122.png)
-

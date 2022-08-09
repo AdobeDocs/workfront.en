@@ -1,8 +1,10 @@
 ---
 title: 21.1 Mobile enhancements
 description: 21.1 Mobile enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 9232e204-6813-40ec-b1ad-ae2c0b9e8cdc
 ---
 # 21.1 Mobile enhancements
 

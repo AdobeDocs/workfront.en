@@ -1,12 +1,13 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Proof a linked asset for Experience Manager Assets Essentials
+title: Proof a linked asset for Experience Manager Assets or Assets Essentials
 description: After you've linked an asset from Experience Manager Assets Essentials, you can create a proof and assign users to review and add comments to the asset.
-feature: "Digital Content and Documents, Workfront Integrations and Apps"
+author: Courtney
+feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
 ---
-
-# Proof a linked asset for Experience Manager Assets Essentials
+# Proof a linked asset for Experience Manager Assets or Assets Essentials
 
 After you've linked an asset from Experience Manager Assets Essentials, you can create a proof and assign users to review and add comments to the asset.
 
@@ -24,11 +25,13 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td> <p>Work or higher</p>
+   <p>You must have proofing enabled for your user.</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have Experience Manager Assets Essentials.</td> 
+   <td>You must have Experience Manager as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -42,6 +45,12 @@ You must have the following:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+## Prerequisites
+
+Before you begin, 
+
+* Your Workfront Administrator must configure an Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) or [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Create a Proof
 
@@ -63,11 +72,11 @@ To create a proof:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Simple Proof</td> 
+      <td role="rowheader"><strong>Simple Proof</strong></td> 
       <td>This option creates a proof with no workflow attached and applies the default proof settings. You can update the default proofsettings or add a workflow after you've created the proof. For more information on proof settings, see <a href="../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Edit proof settings</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Advanced Proof</td> 
+      <td role="rowheader"><strong>Advanced Proof</strong></td> 
       <td> <p>This option allows you to configure a Basic or Advanced workflow and modify proof settings for the proof you create. For more information, see </p> 
        <ul> 
         <li> <p><a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Create an advanced proof with a Basic workflow</a> </p> </li> 

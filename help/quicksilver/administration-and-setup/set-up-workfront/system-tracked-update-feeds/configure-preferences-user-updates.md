@@ -3,11 +3,12 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Configure preferences for user updates
-description: You can configure preferences that give users access to certain features when they are adding comments in an object's Updates area.
+description: You can configure preferences that access to certain features when users add comments in an object's Updates area.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
 ---
-
 # Configure preferences for user updates
 
 You can configure preferences that give users access to certain features when they are adding comments in an object's Updates area.
@@ -22,15 +23,15 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p><p>To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,7 +46,7 @@ By default, users cannot add images in updates. When you enable this preference,
 >* Images are only accessible through the Updates tab on an object and are not available on the Documents tab.
 >
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the Main Menu icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 1. In the left panel, select **Interface** > **Update Feeds**.
 1. Select the **Preferences** tab.
 
@@ -55,4 +56,3 @@ By default, users cannot add images in updates. When you enable this preference,
 1. Select **Save**.
 
    When this preference is enabled, you can disable it at any time. Any images already posted in updates will remain in the Updates area on the object.
-

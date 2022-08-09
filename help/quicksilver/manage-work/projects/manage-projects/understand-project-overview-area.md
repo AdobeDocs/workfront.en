@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: manage-projects
 title: Manage information in the project Overview area
 description: Manage information in the project Overview area
+author: Alina
 feature: Work Management
+exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
 ---
-
 # Manage information in the project Overview area
 
 <!--
@@ -195,4 +196,3 @@ You must have the following access to perform the steps in this article:
    For information about linking projects with initiatives, see [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 1. Click **Save Changes**.
-

@@ -3,11 +3,12 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Customize default issue types
-description: Issue types are useful in the following circumstances - EDIT ME.
+description: You can customize the labels for each default issue type to better match the terminology used in your organization. Issue types are useful for customizing issue statuses and creating request queues.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
 ---
-
 # Customize default issue types
 
 Issue types are useful in the following circumstances:
@@ -27,11 +28,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -45,7 +46,7 @@ You must have the following access to perform the steps in this article:
 If you have Adobe Workfront administrator access, there are four default issue types that you can configure and rename:
 
 * **Bug Report** Used to track reported bugs in the system.
-* **Change Order** Used to track issues&nbsp;that need to&nbsp;be updated or revised.
+* **Change Order** Used to track issues that need to be updated or revised.
 * **Issue** An object in Workfront that communicates unplanned work, a problem that arises, or something that must be resolved in order to continue a task.
 * **Request** An issue type that applies to a request queue where users make requests in Workfront.
 
@@ -75,4 +76,3 @@ To customize an issue type:
      ![](assets/customize-issue-type.png)
 
    * Click an issue type to list its associated statuses, then drag the handles that appear when you hover over them and and drop them in the order you want them to appear in your users' issue **Status** drop-down menu.
-

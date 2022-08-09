@@ -1,8 +1,10 @@
 ---
 title: 22.1 Resource Management enhancements
 description: 22.1 Resource Management enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
 ---
 # 22.1 Resource Management enhancements
 
@@ -49,4 +51,4 @@ To help you easily manage cost and billing rates across global organizations, we
 
 For information, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/652599823/847eb1bc31) 
+[Watch a video demonstration of this feature.](https://vimeo.com/652599823/847eb1bc31)

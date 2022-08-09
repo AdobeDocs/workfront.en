@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: projects-navigation-topic
 title: Projects
 description: This section contains the following subsections - EDIT ME.
+author: Alina
 feature: Work Management
+exl-id: 17ece62a-971d-4dc7-b9e3-ed79a3a4a157
 ---
-
 # Projects
 
 This section contains the following subsections:
@@ -19,4 +20,3 @@ This section contains the following subsections:
 * [Define a Business Case](../../manage-work/projects/define-a-business-case/define-business-case.md) 
 * [Project finances](../../manage-work/projects/project-finances/project-finances-overview.md) 
 * [Tips, tricks, and troubleshooting for projects](../../manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
-

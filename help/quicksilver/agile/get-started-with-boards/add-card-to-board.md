@@ -3,9 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Add a card to a board
 description: You can quickly add an ad hoc card to a board and assign it to a member on the board. The card can represent a task, issue, person, group, or any type of item that you want to include on the board.
+author: Lisa
 feature: Agile
+exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
 ---
-
 # Add an ad hoc card to a board
 
 You can quickly add a card to a board and assign it to a member on the board. The card can represent a task, issue, person, group, or any type of item that you want to include on the board.
@@ -62,15 +63,19 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Assignees</strong> </td> 
-      <td> <p>To assign the card, start typing a name in the search field, then select it when it displays in the list. You can assign more than one person to a card.</p> <p>Assignees must be members on the board or they will not appear in the selection list.</p> </td> 
+      <td> <p>To assign the card, start typing a name in the search field, then select it when it displays in the list. In the Production environment, you can add individual people. In the Preview environment, you can add both individuals and teams. You can assign more than one person or team to a card.</p> <p>Assignees must be members on the board or they will not appear in the selection list.</p> <p>Adding a team is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Column</strong> </td> 
-      <td>Select the column for the card. If you leave the <strong>Column</strong> field blank, the card is placed in the first column on the left of the board.</td> 
+      <td>Select the column for the card. If you leave the <strong>Column</strong> field blank, the card is placed in the first column on the left of the board.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 
       <td>Select a status for the card. If you click <strong>Mark Complete</strong> at the top of the card, the status automatically changes to Complete.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Estimation</strong></td> 
+      <td><p>Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</p> <p>This field is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>Due date</strong></td> 
@@ -87,13 +92,13 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
     </tbody> 
    </table>
 
-   ![Ad hoc card details](assets/boards-edit-ad-hoc-card.png)
+   ![Ad hoc card details](assets/boards-edit-ad-hoc-card-071822.png)
 
 1. Click **Close** to add the card to the board.
 
-   The assignees, tags, due date, and checklist counter are displayed on the card.
+   The assignees, tags, due date, checklist counter, and estimated hours are displayed on the card.
 
-   ![Card added to board](assets/boards-sample-card-on-board.png)
+   ![Card added to board](assets/boards-sample-card-on-board-071822.png)
 
 ## Quick add an ad hoc card
 
@@ -143,4 +148,3 @@ You can add ad hoc cards with only a title to quickly populate your board.
 1. Click **Close** to return to the board.
 
    The counter on the card is also updated.
-

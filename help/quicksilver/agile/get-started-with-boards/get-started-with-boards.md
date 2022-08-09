@@ -3,9 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Get started with boards in Adobe Workfront
 description: Review these articles to learn how to use boards in Workfront.
+author: Lisa
 feature: Agile
+exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
 ---
-
 # Get started with boards in Adobe Workfront
 
 This section contains the following articles:
@@ -22,4 +23,3 @@ This section contains the following articles:
 * [Delete or archive a card from a board](../../agile/get-started-with-boards/delete-board-items.md) 
 * [Filter and search in a board](../../agile/get-started-with-boards/filter-search-in-board.md) 
 * [Add tags](../../agile/get-started-with-boards/add-tags.md)
-

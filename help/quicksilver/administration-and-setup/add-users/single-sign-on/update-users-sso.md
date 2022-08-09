@@ -3,11 +3,12 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: single-sign-on-in-workfront
 title: Update users for single sign-on
-description: The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+description: You can update users for single sign-on in Workfront.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
 ---
-
 # Update users for single sign-on
 
 {{important-admin-console-onboard}}
@@ -18,9 +19,6 @@ If you have an existing system that is already populated with users associated w
 
 For more information about integrating Workfront with an SSO system, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
->[!NOTE]
->
->This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 ## Access requirements
 
@@ -32,11 +30,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -133,4 +131,3 @@ For instructions on building a user report containing SSO Username information, 
    ![](assets/users-with-sso-field-updated.png)
 
    For instructions on updating your users for SSO, see [Update your users for SSO](#update-your-users-for-sso).
-

@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: create-projects
 title: Create project baselines
 description: A baseline is a project snapshot that represents key pieces of information included in the initial project plan or at any given time during the life of the project.
+author: Alina
 feature: Work Management
+exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
 ---
-
 # Create project baselines
 
 A baseline is a project snapshot that represents key pieces of information included in the initial project plan or at any given time during the life of the project.
@@ -110,4 +111,4 @@ For information about creating a report, see [Create a custom report](../../../r
 
 We recommend that you add a Project Name grouping to your Baseline or Baseline report to make it easier to read.
 
-For information about creating a grouping, see [Create groupings in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md). 
+For information about creating a grouping, see [Create groupings in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).

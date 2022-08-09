@@ -3,9 +3,10 @@ content-type: release-notes
 navigation-topic: 2020-3-release-activity
 title: 20.3 Agile enhancements
 description: This page describes all Agile enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
+author: Luke
 feature: Product Announcements
+exl-id: f86122a2-17c7-4df5-a958-177cc3d14f73
 ---
-
 # 20.3 Agile enhancements
 
 This page describes all Agile enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.

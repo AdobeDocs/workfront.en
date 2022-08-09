@@ -3,11 +3,12 @@ title: Audit logs
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: As an Adobe Workfront administrator, you can track user-changes triggered in the system during the past 90 days using the audit logs described below.
+description: As an Adobe Workfront administrator, you can track user-changes triggered in the system during the past 90 days using audit logs.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 ---
-
 # Audit logs
 
 As an Adobe Workfront administrator, you can track user-changes triggered in the system during the past 90 days using the audit logs described below.
@@ -239,7 +240,7 @@ Login Attempt Logs do not record when a Workfront administrator uses the Log In 
 
 >[!NOTE]
 >
->This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
 
 ### Priority {#priority}
 
@@ -325,17 +326,16 @@ The system generates a User audit log entry when a user does one of the followin
 * Creates a user
 
   <!--
-  <MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  DRAFTED IN FLARE:
   Gevorg checking with Jonah on whether this note should be here:
-  </MadCap:conditionalText>
+  
   -->
 
   >[!NOTE]
   >
-  >This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+  >This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
 
 * Deletes a user
 * Changes a user's access level, company, team, or group
 * Activates a user
 * Deactivates a user
-

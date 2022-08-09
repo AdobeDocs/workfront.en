@@ -2,9 +2,10 @@
 navigation-topic: business-case-and-scorecards
 title: Budget resources in the Business Case using the Resource Planner
 description: As part of resource planning, you can use the project-level Resource Planner to budget the job roles necessary for completing the work in a project when you build the business case.
+author: Alina
 feature: Work Management
+exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
 ---
-
 # Budget resources in the Business Case using the Resource Planner
 
 As part of resource planning, you can use the project-level Resource Planner to budget the job roles necessary for completing the work in a project when you build the business case.
@@ -176,4 +177,3 @@ To apply Resource Pools and budget project resources in the Business Case for a 
    >Cost displays in the Business Case in the currency of the project.
 
    The budgeting information specified in the Business Case is also displayed in the Resource Planner.
-

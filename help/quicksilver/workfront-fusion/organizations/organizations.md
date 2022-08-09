@@ -5,12 +5,13 @@ product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Organizations in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+author: Becky
 feature: Workfront Fusion
+exl-id: c777b9e7-87cd-428f-9980-ef556f30e70f
 ---
-
 # Organizations in Adobe Workfront Fusion
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
@@ -20,4 +21,3 @@ This section contains the following articles:
 * [Add a user to an organization in Adobe Workfront Fusion](../../workfront-fusion/organizations/add-user-to-an-organization.md)
 * [Manage users in Adobe Workfront Fusion](../../workfront-fusion/organizations/manage-fusion-users.md)
 * [Organization roles in Adobe Workfront Fusion](../../workfront-fusion/organizations/organization-roles.md)
-

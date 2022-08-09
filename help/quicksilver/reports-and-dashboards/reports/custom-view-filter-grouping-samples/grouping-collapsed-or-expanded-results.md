@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode"
-description: "Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode"
+title: 'Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode'
+description: 'Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode'
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
 ---
-
 # Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode
 
 <!--
@@ -78,4 +79,3 @@ You must have the following access to perform the steps in this article:
    ```
 
 1. Click **Done**, then **Save Grouping**.
-

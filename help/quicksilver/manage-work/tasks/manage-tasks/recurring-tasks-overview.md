@@ -5,9 +5,10 @@ keywords: recurrent,reoccur,reoccurring
 navigation-topic: manage-tasks
 title: Recurring tasks overview
 description: Recurring tasks overview
+author: Alina
 feature: Work Management
+exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
 ---
-
 # Recurring tasks overview
 
 <!--

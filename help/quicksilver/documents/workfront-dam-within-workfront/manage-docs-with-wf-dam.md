@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: workfront-dam-within-workfront
 title: Managing Documents with Adobe Workfront DAM
 description: Adobe Workfront DAM is a native Digital Asset Management (DAM) system within Adobe Workfront that provides users controlled access to digital assets.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 50d5939d-64a2-4e8d-b5bd-c7b981fbf36d
 ---
-
 # Managing Documents with Adobe Workfront DAM
 
 Adobe Workfront DAM is a native Digital Asset Management (DAM) system within Adobe Workfront that provides users controlled access to digital assets.
@@ -47,4 +48,3 @@ Workfront DAM provides a dedicated storage area where your DAM assets are stored
    Thumbnail images are displayed on the Documents tab. Select the thumbnail to view the filename.&nbsp;
 
    After the documents are linked to Workfront, the Workfront logo is displayed next to the document title, indicating that the document actually resides in Workfront DAM.
-

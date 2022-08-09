@@ -4,9 +4,10 @@ product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: The Workload Balancer
 description: The Workload Balancer is a resource scheduling tool that will eventually replace the current resource scheduling tools which are currently deprecated.
+author: Alina
 feature: Resource Management
+exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
 ---
-
 # The Workload Balancer
 
 >[!NOTE]
@@ -41,4 +42,3 @@ For information about what the Workload Balancer is, how to navigate it, and how
   -->
 
 * [Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
-

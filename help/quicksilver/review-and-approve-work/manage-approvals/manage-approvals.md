@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: projects-navigation-topic
 title: Manage approvals
 description: This section contains the following articles - EDIT ME.
+author: Courtney
 feature: Work Management
+exl-id: 66674732-6ad7-477b-8473-03b1dac750a3
 ---
-
 # Manage approvals
 
 This section contains the following articles:
@@ -21,4 +22,3 @@ This section contains the following articles:
 * [Delegate approval request](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md) 
 * [Associate a new or existing approval process with work](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) 
 * [Recall submitted approvals](../../review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-

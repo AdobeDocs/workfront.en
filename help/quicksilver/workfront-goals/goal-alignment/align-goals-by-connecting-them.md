@@ -3,9 +3,10 @@ product-previous: workfront-goals
 navigation-topic: goal-alignment
 title: Align goals by connecting them in Adobe Workfront Goals
 description: If you are an individual contributor who has a personal goal, you may want to align it to your team's goals in order to effectively display the progress of your own goal in the larger context of your organization's strategy.
+author: Alina
 feature: Workfront Goals
+exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
 ---
-
 # Align goals by connecting them in Adobe Workfront Goals
 
 If you are an individual contributor who has a personal goal, you may want to align it to your team's goals in order to effectively display the progress of your own goal in the larger context of your organization's strategy.
@@ -104,4 +105,3 @@ You must have the following before you can start:
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
 1. (Optional)&nbsp;Remove the alignment between two goals, when you consider that no longer is relevant to your organization's overall strategy For information about removing alignment between goals, see [Remove goal alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
-

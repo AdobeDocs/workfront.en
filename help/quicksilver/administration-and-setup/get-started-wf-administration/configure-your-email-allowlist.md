@@ -3,11 +3,12 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Configure your email allowlist
-description: If your organization uses the WorkfrontEnterprise plan, you can create a Workfront email allowlist to control - EDIT ME.
+description: If your organization uses the WorkfrontEnterprise plan, you can create a Workfront email allowlist to control which email domains are allowed to accept emails from Workfront and which email domains can be in the email address that users specify in their user profile. This is useful if your organization's security policy restricts users from sending data stored in Workfront to external email addresses—you can include only your internal company domains in the allowlist to ensure that this policy is followed..
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
 ---
-
 # Configure your email allowlist
 
 If your organization uses the WorkfrontEnterprise plan, you can create a Workfront email allowlist to control:
@@ -40,11 +41,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -70,4 +71,3 @@ Also, if your firewall or mail server is configured to allow access to only cert
 
 1. Repeat the previous step to add any other domains you want to allow.
 1. When you are finished, click **Save**.
-

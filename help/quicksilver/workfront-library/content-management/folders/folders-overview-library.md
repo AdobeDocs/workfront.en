@@ -5,9 +5,10 @@ product-area: documents
 navigation-topic: folders
 title: Overview of folders in Workfront Library
 description: Folders enable you to logically organize items that you own or that you have Manage permissions to. You can create as many levels of folders and subfolders as you need based on how your organization manages digital content. For example, you could create a folder structure arranged by client, job, campaign, department, and so on.
-feature: "Workfront Library, Digital Content and Documents"
+author: Courtney
+feature: Workfront Library, Digital Content and Documents
+exl-id: 12911acd-2b60-4bea-9e89-e6f6588a4985
 ---
-
 # Overview of folders in Workfront Library
 
 Folders enable you to logically organize items that you own or that you have Manage permissions to.&nbsp;You can create as many levels of folders and subfolders as you need based on how your organization manages digital content. For example, you could create a folder structure arranged by client, job, campaign, department, and so on.

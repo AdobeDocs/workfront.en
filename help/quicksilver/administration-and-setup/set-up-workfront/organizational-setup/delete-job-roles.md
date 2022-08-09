@@ -4,10 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Delete job roles
 description: You can delete job roles that your organization no longer uses. We recommend that you do not delete job roles if they have been associated with work items in the past. To keep all your historical information about work assignments, we recommend that you deactivate roles, rather than delete them when they become obsolete. For information about deactivating roles, see Deactivate job roles.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: b0e81d76-5227-4fda-9a58-68fbce3f5b94
 ---
-
 # Delete job roles
 
 You can delete job roles that your organization no longer uses. We recommend that you do not delete job roles if they have been associated with work items in the past.
@@ -28,7 +29,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -57,7 +58,7 @@ You must have the following:
 
      Users who have only one job role assigned to them are reassigned to the job role that you select; users who have a secondary job role assigned to them are not reassigned to the job role that you select.
    
-   * **Delete the job role and its resource allocation:** Select**None** from the drop-down list.
+   * **Delete the job role and its resource allocation:** Select **None** from the drop-down list.
 
      >[!IMPORTANT]
      >
@@ -66,4 +67,3 @@ You must have the following:
      ​For example, if a task or issue is assigned to only that job role, the task or issue is unassigned after the job role is deleted.
 
 1. Click  **Yes, Delete It**.
-

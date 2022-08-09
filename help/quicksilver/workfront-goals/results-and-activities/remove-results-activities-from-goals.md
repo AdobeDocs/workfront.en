@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: results-and-activities
 title: Remove results, activities, and projects from goals in Adobe Workfront Goals
 description: Remove results, activities, and projects from goals in Adobe Workfront Goals
+author: Alina
 feature: Workfront Goals
+exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
 ---
-
 # Remove results, activities, and projects from goals in Adobe Workfront Goals
 
 <!--
@@ -44,7 +45,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>Edit access to Goals or higher</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -86,11 +87,12 @@ You must have the following before you can start:
 
 Removing results and activities from goals is identical.
 
-1. Click the **Main Menu icon** ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click **Goals**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
-   This opens the Workfront Goals area.
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
 
-   The Goal List displays by default. 
+   This opens the Workfront Goals area and the Goal List displays by default. 
 
 1. Click the name of a goal you want to remove results and activities from.
 
@@ -106,11 +108,12 @@ Removing results and activities from goals is identical.
 
 ## Disconnect projects from goals
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner of your screen.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
-   This opens the Workfront Goals area.
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
 
-   The Goal List displays by default. 
+   This opens the Workfront Goals area and the Goal List displays by default. 
 
 1. Click the name of a goal you want to remove results and activities from.
 
@@ -122,4 +125,3 @@ Removing results and activities from goals is identical.
    ![](assets/disconnect-project-goal-details-350x94.png)
 
    The project is disconnected from the goal. The percent complete of the goal updates to exclude the percent complete of the disconnected project.
-

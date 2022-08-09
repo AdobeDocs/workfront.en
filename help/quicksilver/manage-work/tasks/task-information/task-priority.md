@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: task-information
 title: Update Task Priority
 description: You can define a priority for a task to indicate how important the task is.
+author: Alina
 feature: Work Management
+exl-id: 653b62fe-6195-4288-ac05-f89e4a6113fd
 ---
-
 # Update Task Priority
 
 You can define a priority for a task to indicate how important the task is.
@@ -71,4 +72,3 @@ Consider the following when using task priorities:
 1. Click **Task Details** in the left panel. 
 1. Click the **Edit** icon ![](assets/qs-edit-icon.png), then in the **Overview** area, select a value for the **Priority** field. 
 1. Click **Save** **Changes**.
-

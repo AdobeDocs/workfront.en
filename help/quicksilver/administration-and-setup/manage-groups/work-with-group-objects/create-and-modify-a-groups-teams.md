@@ -4,10 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Create and modify a group's teams
 description: When you are viewing a group that you manage in the Groups area, you can view and work with teams associated with the group and any of its subgroups.
-feature: "System Setup and Administration, People Teams and Groups"
+author: Caroline
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
 ---
-
 # Create and modify a group's teams
 
 When you are viewing a group that you manage in the Groups area, you can view and work with teams associated with the group and any of its subgroups.
@@ -28,7 +29,7 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -84,7 +85,7 @@ You must have the following to perform the steps in this article:
        </tr> 
        <tr> 
        <td role="rowheader">Done Button</td> 
-       <td>Select the status that you want set for&nbsp;items when the Done button is clicked.</td> 
+       <td>Select the status that you want set for items when the Done button is clicked.</td> 
        </tr> 
       </tbody> 
      </table>
@@ -101,7 +102,7 @@ You must have the following to perform the steps in this article:
        </tr> 
        <tr> 
        <td role="rowheader">Group</td> 
-       <td> <p>Associate the team with a group. Start typing the name of the group, then select the name when it appears.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p><b>NOTE</b>: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
+       <td> <p>Associate the team with a group. Start typing the name of the group, then select the name when it appears.</p> <p>You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p><b>NOTE</b>: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Owner</td> 
@@ -109,7 +110,7 @@ You must have the following to perform the steps in this article:
        </tr> 
        <tr> 
        <td role="rowheader">Team Members</td> 
-       <td> <p>Add and team members. Start typing the name of a user, then select the name when it appears. Repeat this process to add multiple users to the team.</p> <p>Tip: There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team's work management might become too complex.</p> </td> 
+       <td> <p>Add and team members. Start typing the name of a user, then select the name when it appears. Repeat this process to add multiple users to the team.</p> <p><b>TIP</b>: There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team's work management might become too complex.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Description</td> 
@@ -117,7 +118,7 @@ You must have the following to perform the steps in this article:
        </tr> 
        <tr> 
        <td role="rowheader">Layout Template</td> 
-       <td> <p>Start typing the name of the layout template you want the team to use, then click it when it appears.</p> <p>When you designate the team with this layout template as the Home Team of users, all users in this team will see the customizations in this layout template.<br>Their individual layout template settings will override the settings of the home team layout template.&nbsp;</p> </td> 
+       <td> <p>Start typing the name of the layout template you want the team to use, then click it when it appears.</p> <p>When you designate the team with this layout template as the Home Team of users, all users in this team will see the customizations in this layout template.<br>Their individual layout template settings will override the settings of the home team layout template. </p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Agile</td> 
@@ -140,4 +141,3 @@ You must have the following to perform the steps in this article:
 
    * **Delete teams**: Select at least one team, then click the Delete icon ![](assets/delete.png).
    * **Export the list of teams**: Click **Export** ![](assets/export.png), then select the file format you want for the exported list.
-

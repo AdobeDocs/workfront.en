@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: update-work-in-a-project
 title: Update issue status
 description: You can update the status of an issue to inform others about where the issue is and how it is progressing.
+author: Alina
 feature: Work Management
+exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
 ---
-
 # Update issue status
 
 You can update the status of an issue to inform others about where the issue is and how it is progressing.
@@ -133,4 +134,3 @@ Workfront automatically updates the existing status of an issue to a different s
   </tr> 
  </tbody> 
 </table>
-

@@ -2,8 +2,10 @@
 content-type: api
 navigation-topic: general-api
 title: API example scripts
-description: Following are examples of different programming languages that are used to interact with the Workfront RESTful API. Each example performs the following operations - EDIT ME.
+description: FAPI example scripts
+author: John
 feature: Workfront API
+exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
 ---
 
 # API example scripts
@@ -32,4 +34,3 @@ To locate examples in the repository, enter `example` into the **Find a reposito
 >[!IMPORTANT]
 >
 >This software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
-

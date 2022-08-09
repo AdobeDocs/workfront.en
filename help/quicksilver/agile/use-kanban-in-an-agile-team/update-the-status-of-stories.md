@@ -3,9 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Update the status of stories on the Kanban board
 description: You can change the status of a story directly from the Kanban board in order to reflect how the stories are progressing.
+author: Lisa
 feature: Agile
+exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
 ---
-
 # Update the status of stories on the Kanban board
 
 You can change the status of a story directly from the Kanban board in order to reflect how the stories are progressing.
@@ -49,4 +50,3 @@ You must have the following access to perform the steps in this article:
 1. Drag a story from one status column on the Kanban board and into another column.  
    A story remains in the Complete column for two weeks after it is added.  
    ![Move story to another column](assets/agile-storyboard-progress.png)
-

@@ -4,9 +4,10 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: Create a scenario in Adobe Workfront Fusion
 description: The following tasks explain how to create a Adobe Workfront Fusion scenario.
+author: Becky
 feature: Workfront Fusion
+exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
 ---
-
 # Create a scenario in Adobe Workfront Fusion
 
 The following tasks explain how to create a Adobe Workfront Fusion scenario.
@@ -256,4 +257,3 @@ You can use the following keyboard shortcuts when creating or editing a scenario
   </tr> 
  </tbody> 
 </table>
-

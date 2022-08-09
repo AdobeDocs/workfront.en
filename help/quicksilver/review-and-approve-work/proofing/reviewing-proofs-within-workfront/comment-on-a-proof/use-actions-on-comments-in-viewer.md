@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: comment-on-a-proof
 title: Use actions on proof comments
 description: You can use actions to keep track of what needs to happen on each comment thread on a proof. An action is a word or phrase such as "To do," "Done," or "In progress" that your Adobe Workfront administrator configures in the system for your organization. Reviewers can add an action to a comment to provide information about what has been done or what still needs to be done in response to the comment.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
 ---
-
 # Use actions on proof comments
 
 You can use actions to keep track of what needs to happen on each comment thread on a proof. An action is a word or phrase such as "To do," "Done," or "In progress" that your Adobe Workfront administrator configures in the system for your organization. Reviewers can add an action to a comment to provide information about what has been done or what still needs to be done in response to the comment.
@@ -71,4 +72,3 @@ To apply an action to an existing comment in the proofing viewer:
 >[!TIP]
 >
 >You can filter comments by a certain action. For more information, see [Search, filter, and sort proof comments](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md).
-

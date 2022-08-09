@@ -2,14 +2,15 @@
 filename: add-objects-to-a-campaign
 navigation-topic: campaigns
 title: Add objects to a campaign
-description: You can add other objects to a campaign. 
+description: You can add other objects to a campaign.
+author: Alina
+exl-id: a70ac760-f4ba-4b01-9cd0-275e86236758
 ---
-
 # Add objects to a campaign
 
 >[!NOTE]
 >
->The information in this article is available when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
+>The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
 
 You can associate other objects with campaigns to indicate that multiple work endeavors contribute to a larger effort. For this purpose, you can associate projects with campaigns. 
 
@@ -66,4 +67,3 @@ Before you begin, you must have the following:
    If the project belongs to a portfolio or a program, the campaign displays in the breadcrumb after the program and immediately before the project.
 
    ![](assets/project-with-multiple-campaigns-in-breadcrumb.png)
-

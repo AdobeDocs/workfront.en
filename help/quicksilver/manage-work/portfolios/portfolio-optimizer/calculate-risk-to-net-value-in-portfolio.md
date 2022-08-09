@@ -3,9 +3,10 @@ product-area: portfolios
 navigation-topic: portfolio-optimizer
 title: Calculate the Risk to Net Value in a portfolio
 description: In the Portfolio Optimizer, the Risk to Net Value indicator measures the Potential Risk taking into account the Net Value provided by all projects displayed in the Portfolio Optimizer.
-feature: "Work Management, Strategic Planning"
+author: Alina
+feature: Work Management, Strategic Planning
+exl-id: 9e86f6eb-dd82-4731-aebb-ce8da1df5614
 ---
-
 # Calculate the Risk to Net Value in a portfolio
 
 In the Portfolio Optimizer, the Risk to Net Value indicator measures the Potential Risk taking into account the Net Value provided by all projects displayed in the Portfolio Optimizer.&nbsp;
@@ -37,4 +38,3 @@ Adobe Workfront calculates the Risk and Net Value indicators using the following
 >[!NOTE]
 >
 >The Risk to Net Value indicator calculates based on the projects that you display in the Portfolio Optimizer, and not on all the projects which are associated with the portfolio.&nbsp;
-

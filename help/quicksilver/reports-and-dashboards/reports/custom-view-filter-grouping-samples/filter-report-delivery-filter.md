@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filter: display reports scheduled for delivery"
+title: 'Filter: display reports scheduled for delivery'
 description: This report filter displays all reports scheduled to be delivered automatically in Adobe Workfront. It is best used with the standard view.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
 ---
-
 # Filter: display reports scheduled for delivery
 
 This report filter displays all reports scheduled to be delivered automatically in Adobe Workfront. It is best used with the standard view.
@@ -55,4 +56,3 @@ To apply this filter:
    ```
 
 1. Click **Save Filter**.
-

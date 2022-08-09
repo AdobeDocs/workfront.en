@@ -3,9 +3,10 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Embed a request queue in a dashboard
 description: You can embed a new request queue in a dashboard to provide direct access to the request queue to your users, without having to go to the Requests area.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
 ---
-
 # Embed a request queue in a dashboard
 
 You can embed a new request queue in a dashboard to provide direct access to the request queue to your users, without having to go to the Requests area.&nbsp;
@@ -23,19 +24,19 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports, Dashboards,&nbsp;Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -71,7 +72,7 @@ Users can change the request type or choose another topic if they need to. The n
    >
    >Selecting topic groups and queue topics is optional.
 
-1. Click&nbsp;**Share path** in the upper-right corner of the New Request area.
+1. Click **Share path** in the upper-right corner of the New Request area.
 
    This copies the link to the request queue or the queue topic as you display it on the screen. Users can update the Request Type or any of the topic groups and queue topics available.
 
@@ -138,7 +139,7 @@ When you share a link to a preselected request type, the request type is selecte
 You can embed a link to the requests queue or to a queue topic nested under a request queue into a dashboard to give users direct access to entering requests.
 
 1. Obtain a request queue&nbsp;URL using one of the methods described in the [Obtain the URL of the request queue](#obtain-the-url-of-the-request-queue) section of this article. 
-1. Click the **Main Menu** >&nbsp;**Dashboards** > **New Dashboard**.
+1. Click the **Main Menu** > **Dashboards** > **New Dashboard**.
 1. Type a **Name** for the dashboard. This is a required field.
 1. Click **Add External Page**.
 
@@ -148,7 +149,7 @@ You can embed a link to the requests queue or to a queue topic nested under a re
 
    * **Name**: enter the name of the request queue as you want it to appear on the dashboard. This is a required field.
 
-   * **Description**: enter a description about that this external page displays. This is not a required field and it is important only for reporting purposes. It does not display in the dashboard.&nbsp;
+   * **Description**: enter a description about that this external page displays. This is not a required field and it is important only for reporting purposes. It does not display in the dashboard.
    * **URL**: paste the URL you obtained using one of the methods described in Step 1. 
    
      <!--   
@@ -159,12 +160,12 @@ You can embed a link to the requests queue or to a queue topic nested under a re
      </MadCap:conditionalText>   
      -->
 
-   * **Height**: enter the height of the external page. This defines how much space the external page containing the request queue occupies on the dashboard. This is a required field and the default value is 500.&nbsp;
+   * **Height**: enter the height of the external page. This defines how much space the external page containing the request queue occupies on the dashboard. This is a required field and the default value is 500.
 
 1. Click **Save**. 
 1. Click **Save + Close**.&nbsp;
 
-   The request queue displays in the dashboard as a separate dashboard component.&nbsp;
+   The request queue displays in the dashboard as a separate dashboard component.
 
    ![](assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png)
 
@@ -189,4 +190,3 @@ You can embed a link to the requests queue or to a queue topic nested under a re
 <li value="6"> <p>For example, enter a URL similar to one of the following: </p> </li>
 </ol>
 -->
-

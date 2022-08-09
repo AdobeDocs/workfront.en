@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: update-work-in-a-project
 title: View and update Percent Complete for tasks
 description: You can update the percent complete for a task in any of the following ways - EDIT ME.
+author: Alina
 feature: Work Management
+exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
 ---
-
 # View and update Percent Complete for tasks
 
 You can update the percent complete for a task&nbsp;in any of the following ways:

@@ -1,12 +1,13 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: workfront-for-experience-manager-enhanced-connector
-title: View or download a linked asset from Experience Manager Assets
+title: View or download a linked asset with the enhanced connector
 description: You can view or download an asset in Adobe Workfront that is linked from Experience Manager Assets.
-feature: "Digital Content and Documents, Workfront Integrations and Apps"
+author: Courtney
+feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: 4516ddf7-b39d-4bd7-8e59-4b3bdad5b643
 ---
-
-# View or download a linked asset from Experience Manager Assets
+# View or download a linked asset with the enhanced connector
 
 You can view or download an asset in Adobe Workfront that is linked from Experience Manager Assets.
 
@@ -56,4 +57,3 @@ Before you begin, you must
 1. In the Document Summary on the right, hover over the thumbnail at the top and choose **Preview** or **Download**.
 
    ![](assets/view-or-download-enhanced-connector-350x123.png)
-

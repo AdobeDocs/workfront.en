@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: share-proofs-and-files
 title: Share a Proof in Workfront Proof
 description: If you have editing rights on a proof, you can easily share the proof with other reviewers. Anyone can be added to a proof, because you don't need to have a Workfront Proof account to review proofs.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
 ---
-
 # Share a Proof in Workfront Proof
 
 >[!IMPORTANT]

@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: content-management
 title: Export asset metadata from Workfront Library
 description: You can export Workfront Library asset metadata from the list view. Consider the following when exporting metadata - EDIT ME.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 35f89ebe-166a-4117-b7c5-63bf1de8565a
 ---
-
 # Export asset metadata from Workfront Library
 
 You can export Workfront Library asset metadata from the list view. Consider the following when exporting metadata:
@@ -29,4 +29,3 @@ You can export Workfront Library asset metadata from the list view. Consider the
    Or
 
    In your email, locate the email regarding your Library export file. Open it, then click **Download**.
-

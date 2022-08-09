@@ -4,9 +4,10 @@ product-area: reporting
 navigation-topic: reporting-navigation-topic
 title: Get started with reports in Adobe Workfront
 description: Reports provide visibility into what is happening with users and work. Using reports, you can display information about objects in Adobe Workfront.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 478512af-a47c-4488-878a-581e238e0064
 ---
-
 # Get started with reports in Adobe Workfront
 
 Reports provide visibility into what is happening with users and work. Using reports, you can display information about objects in Adobe Workfront.
@@ -15,7 +16,7 @@ For information about understanding objects and how they can be reported on in t
 
 ## Report elements
 
-Reports are a combination of the following 3 elements in Workfront:
+Reports are a combination of the following three elements in Workfront:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -408,4 +409,3 @@ The following terms are used in reference to Workfront reports:
   </tr> 
  </tbody> 
 </table>
-

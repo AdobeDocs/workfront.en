@@ -5,9 +5,10 @@ product-area: workfront-integrations
 navigation-topic: functions
 title: Date and time functions in Adobe Workfront Fusion
 description: The following date and time functions are available in the Adobe Workfront Fusion mapping panel.
+author: Becky
 feature: Workfront Fusion
+exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
 ---
-
 # Date and time functions in Adobe Workfront Fusion
 
 ## Access requirements

@@ -5,9 +5,10 @@ product-area: documents
 navigation-topic: tech-corner
 title: Troubleshooting in Workfront Proof
 description: This section contains the following articles - EDIT ME.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: f9e93cc2-9dff-4150-a809-10598e110ef8
 ---
-
 # Troubleshooting in Workfront Proof
 
 >[!IMPORTANT]
@@ -21,4 +22,3 @@ This section contains the following articles:
 * [Speed issues in Workfront Proof](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md) 
 * [Problems With Viewing Proofs - Flash Shared Objects Explained](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) 
 * [Troubleshooting - Workfront Proof proofing viewer](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
-

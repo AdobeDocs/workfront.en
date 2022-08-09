@@ -4,9 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Chart a report by a multi-select custom field
 description: You cannot chart a report by a multi-select custom field. You need to create an additional calculated field that refers to the multi-select custom field to also chart the report by the value of the multi-select custom field.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: cda77319-dce6-409d-8f59-53838820cafb
 ---
-
 # Chart a report by a multi-select custom field
 
 You cannot chart a report by a multi-select custom field. You need to create an additional calculated field that refers to the multi-select custom field to also chart the report by the value of the multi-select custom field.
@@ -106,4 +107,3 @@ To build the calculated custom field that references the multi-select custom fie
 1. Select the <strong>Chart</strong> tab, and add a chart to your report.<br>For information about adding a chart to a report, see the section <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Add a chart to a report</a> in the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>. 
 1. Select the <strong>Calculated Multi-select Field</strong> as one of the fields to display in the chart. 
 1. Click <strong>Save + Close</strong>.<br>The report displays the results grouped by the Calculated Multi-select Field in a chart.
-

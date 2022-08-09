@@ -3,14 +3,15 @@ title: Grant access to templates
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: configure-access-to-workfront
-description: As an Adobe Workfront administrator, you can use an access level to define a user's access to templates in Workfront, as explained in Access levels overview.
+description: As an Adobe Workfront administrator, you can use an access level to define a user's access to templates in Workfront.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: c8e6af1b-8cf3-4522-b0eb-7e5f2d34f5a9
 ---
-
 # Grant access to templates
 
-As an Adobe Workfront administrator, you can use an access level to define a user's access to templates, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
+As an Adobe Workfront administrator, you can use an access level to define a user's access to templates, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
 
 Only users with a Plan license can have full access to templates.
 
@@ -26,11 +27,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -70,4 +71,3 @@ When you share any object with another user, the recipient's rights on it are de
 
 * The permissions that you grant to your recipient for the object
 * The recipient's access level settings for the object's type
-

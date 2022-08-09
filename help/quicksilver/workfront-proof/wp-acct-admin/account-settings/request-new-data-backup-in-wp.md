@@ -4,9 +4,10 @@ product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Request a new data backup in Workfront Proof
 description: After requesting a backup of proofing data, you can request that a new backup of the data be created. For more information about data backups, see Back Up Your Workfront Proof Data.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 3e485d6c-6c88-4857-8396-8cc90593bda7
 ---
-
 # Request a new data backup in Workfront Proof
 
 >[!IMPORTANT]
@@ -21,4 +22,3 @@ After requesting a backup of proofing data, you can request that a new backup of
 1. Click **Request New Backup**.  
    ![New_backup.png](assets/new-backup-350x115.png)  
    The data is sent to you as a zip file. &nbsp;
-

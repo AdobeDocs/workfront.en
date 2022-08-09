@@ -3,9 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: Filter by user on the Kanban board
 description: You can use the filter on a Kanban board to see which work items are associated with other users and which are unassigned.
+author: Lisa
 feature: Agile
+exl-id: e6f6beda-aaf9-4053-97ed-3a48e617d8e9
 ---
-
 # Filter by user on the Kanban board
 
 You can use the filter on a Kanban board to see which work items are associated with other users and which are unassigned.
@@ -53,4 +54,3 @@ To filter a Kanban board:
    >* Filters are not applied to the Backlog column.
 
    ![Filter by user](assets/filter-by-user-agile-nwe.png)
-

@@ -3,9 +3,10 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
 title: Mark work items complete in Adobe XD
 description: You can stay in Adobe XD and seamlessly complete your work in Adobe Workfront.
-feature: "Workfront Integrations and Apps, Digital Content and Documents"
+author: Courtney
+feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: 947c4d4c-d442-409a-a368-9a71b99c5da2
 ---
-
 # Mark work items complete in Adobe XD
 
 You can stay in Adobe XD and seamlessly complete your work in Adobe Workfront.
@@ -55,4 +56,3 @@ To complete a work item:
 1. Click **Done**.  
    This marks the item complete in Workfront.  
    ![](assets/mark-as-done-350x646.png)
-

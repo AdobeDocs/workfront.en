@@ -2,10 +2,11 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Manage filters in the Workload Balancer
-description: "NOTE: when they add custom fields to filtering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down >> ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER)"
+description: 'NOTE: when they add custom fields to filtering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down &gt;&gt; ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER)'
+author: Alina
 feature: Resource Management
+exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
 ---
-
 # Manage filters in the Workload Balancer
 
 <!--
@@ -146,6 +147,11 @@ You can create a filter from scratch or edit one of the predefined filters. For 
    >
    >The Default filter displays users that belong to any of your teams and their work items. You can edit a copy of this filter.
 
+   If you access the [!UICONTROL Workload Balancer] from a project, the "[!UICONTROL This project's work items]" filter might already be applied. This displays only work items assigned to users in this project. You can duplicate and save a copy of this filter. 
+   
+   By default, the [!UICONTROL Workload Balancer] of a project displays all work items assigned to all users on the project.
+
+
 1. Click **New filter.**
 
    ![](assets/new-filters-empty-panel-workload-balancer-350x460.png)
@@ -175,7 +181,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
    
       >[!NOTE]
       >
-      > When you want to display work objects from a specific portfolio, you can apply the following filter: "Portfolio:&nbsp;name contains marketing." This displays work items that belong to any portfolio that contains "marketing" in the name.
+      > When you want to display work objects from a specific portfolio, you can apply the following filter: "Portfolio name contains marketing." This displays work items that belong to any portfolio that contains "marketing" in the name.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
 
@@ -388,5 +394,4 @@ The filters that you mark as a favorite do not count towards your system Favorit
 1. The filter is listed in the **Favorited** section inside the filter panel. 
 1. (Optional) Click the **Favorite** icon again to remove the filter from the list of favorite filters
 (I logged bugs for "Favorited" and "Unfavorite" wordings - make sure these have not updated)
---> 
-
+-->

@@ -1,16 +1,14 @@
 ---
 title: Get started with the Scenario Planner
-description: Get started with the Scenario Planner
+description: You can use the Adobe Workfront Scenario Planner to build enterprise-level plans that outline your company's overall strategic outcomes. You can define several initiatives for a plan and place them in various scenarios to find the optimal solution for executing the plan.
+author: Alina
 draft: Probably
 feature: Workfront Scenario Planner
+exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
 ---
 # Get started with the Scenario Planner
 
-The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../scenario-planner/scenario-planner-overview.md).
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this artcle might be replaced altogether or at least most parts (the best practices parts) when Michael's pdf is available; see the SP overview article; the two will be combined)</p>
--->
+The Scenario Planner requires an additional license to the Adobe Workfront license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../scenario-planner/scenario-planner-overview.md).
 
 You can use the Adobe Workfront Scenario Planner to build enterprise-level plans that outline your company's overall strategic outcomes. You can define several initiatives for a plan and place them in various scenarios to find the optimal solution for executing the plan.
 
@@ -63,8 +61,8 @@ The table below describes the Workfront Scenario Planner objects. Your Workfront
 
 For information about Workfront objects, see [Understand objects in Adobe Workfront](../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md). 
 
-| Plan |A parent object where you can roadmap your organization's high-level, upcoming strategy for the next one, three, or five years. You can set the budget and the number of people that might be available in carrying out the plan to completion. |
+|Object name|Description|
 |---|---|
+| Plan |A parent object where you can roadmap your organization's high-level, upcoming strategy for the next one, three, or five years. You can set the budget and the number of people that might be available in carrying out the plan to completion. |
 | Scenario |A version of the same plan. You can create multiple copies or versions of the same plan to plot your initiatives differently in each one and see what makes the best sense for the plan that will become final.  |
 | Initiative |A child object for a plan that defines, still at a high level, the actual work that needs to get done to achieve the strategy defined by the plan. You can add initiatives manually, or you can import them from existing projects. You can add the possible cost and number of people required to complete the initiatives. After you define all your initiatives, and associate them with cost and number of resources, should conflicts arise between the initiatives and the budget available for the plan, you can re-plan them to better align with each other and the plan. |
-

@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: task-information
 title: Overview of the task Planned Completion Date
 description: The Planned Completion Date of a task is the date by which the task is set to complete.
+author: Alina
 feature: Work Management
+exl-id: b0522db5-9c68-4b1a-82c8-5a9e613eb2ff
 ---
-
 # Overview of the task Planned Completion Date
 
 The Planned Completion Date of a task is the date by which the task is set to complete. 
@@ -101,4 +102,3 @@ For example, if your task has a start date of September 16 and a Duration of 10 
 >
 >&nbsp;The Update Type for the project must be&nbsp;set to Automatic and On Change or Automatically in order for the Planned Hours and Duration to be automatically&nbsp;adjusted.   
 >For more information about the Update Type, see the article [Select the project Update Type](../../../manage-work/projects/manage-projects/select-project-update-type.md).
-

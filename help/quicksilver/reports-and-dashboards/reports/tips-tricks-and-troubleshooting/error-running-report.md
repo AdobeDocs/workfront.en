@@ -4,9 +4,10 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: "Error message when running a report: 'You are not currently logged in.'"
 description: You must have the following access to perform the steps in this article - EDIT ME.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: fda4630a-2590-46f4-94ff-499a485367ee
 ---
-
 # Error message when running a report: "You are not currently logged in."
 
 ## Access requirements
@@ -66,4 +67,3 @@ To adjust the report and see the results:
 1. Click **Done**.
 1. Click **Save + Close**.  
    The error should not appear again when running this report.
-

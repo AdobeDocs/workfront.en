@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: tasks
 title: Use task predecessors
 description: This section contains the following articles - EDIT ME.
+author: Alina
 feature: Work Management
+exl-id: 56048927-39cd-49a0-b00a-bf145bca90a1
 ---
-
 # Use task predecessors
 
 This section contains the following articles:
@@ -20,4 +21,3 @@ This section contains the following articles:
 * [Enforce predecessors](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) 
 * [Overview of Lag Types](../../../manage-work/tasks/use-prdcssrs/lag-types.md) 
 * [Task dependency loop overview](../../../manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
-

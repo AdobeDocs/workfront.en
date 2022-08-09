@@ -2,14 +2,15 @@
 filename: create-campaigns
 navigation-topic: campaigns
 title: Create campaigns
-description: You can create campaigns to organize your work objects. 
+description: You can create campaigns to organize your work objects.
+author: Alina
+exl-id: 08853e63-2d6a-4f4d-a7f0-34910ea390a4
 ---
-
 # Create campaigns
 
 >[!NOTE]
 >
->The information in this article is available when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
+>The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
 
 A campaign is a new object in Adobe Workfront that allows you to organize work across multiple projects. A campaign is a larger work object than projects, similar but not identical to portfolios or programs.  A campaign can be  associated with multiple projects that may or may not belong to different portfolios or programs.  
 

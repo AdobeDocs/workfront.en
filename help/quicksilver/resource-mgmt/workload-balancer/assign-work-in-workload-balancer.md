@@ -3,9 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Overview of assigning work in the Workload Balancer
 description: As a resource manager, you can use the Adobe Workfront Workload Balancer to view work items that have not yet been assigned to users as well as assign these items to them.
+author: Alina
 feature: Resource Management
+exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 ---
-
 # Overview of assigning work in the Workload Balancer
 
 As a resource manager, you can use the Adobe Workfront Workload Balancer to view work items that have not yet been assigned to users as well as assign these items to them.
@@ -27,14 +28,16 @@ You must understand how Workfront calculates the available time for a user.
 
 Workfront uses the following information to calculate the capacity of the user in the Workload Balancer:
 
-* The Resource Management Preferences. The Workfront administrator determines how the available time is calculated for the system by selecting to use one of the following in the Resource Management area in&nbsp;Setup:
+* The Resource Management Preferences. The Workfront administrator determines how the available time is calculated for the system by selecting to use one of the following in the Resource Management area in Setup:
 
-   * The Default Schedule of the system and the user's FTE. 
-   * The user's schedule.&nbsp;
+   * The Default Schedule of the Workfront system and the user's FTE. 
+   * The user's schedule, as indicated in the User Profile area. 
 
      This calculates the user's daily and weekly availability. Any schedule exceptions on the schedule selected are reflected in the user's capacity in the Workload Balancer.
 
   For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+  For information about schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
 * The user's time off. This indicates which days the user is planning to take off.
 
@@ -227,4 +230,3 @@ Unassigned issues do not display in the Unassigned area.
 </ol>
 </div>
 -->
-

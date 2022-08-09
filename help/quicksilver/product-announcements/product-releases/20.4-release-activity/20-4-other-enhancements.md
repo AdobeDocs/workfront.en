@@ -1,8 +1,10 @@
 ---
 title: 20.4 Other enhancements
 description: 20.4 Other enhancements
+author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
 ---
 # 20.4 Other enhancements
 
@@ -17,8 +19,6 @@ For a more efficient and convenient experience, Group administrators and Workfro
 In the new Workfront experience, the option Switch to Classic appears in the Main Menu.
 
 In Workfront Classic, the option Switch to the new experience appears in the menu that displays when clicking the profile picture in the top-right corner of the Global Navigation Bar.
-
-For more information, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
 
 [Watch a video demonstration of this feature.](https://vimeo.com/466353836/c1f3faa632)
 

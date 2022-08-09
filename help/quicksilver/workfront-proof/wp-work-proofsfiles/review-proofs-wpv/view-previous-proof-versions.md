@@ -3,10 +3,11 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: View previous proof versions in the Web Proofing Viewer
-description: "Note: The information described in this section is available only with the Web Proofing Viewer and only when reviewing video or static (not interactive) proofs."
-feature: "Workfront Proof, Digital Content and Documents"
+description: 'Note: The information described in this section is available only with the Web Proofing Viewer and only when reviewing video or static (not interactive) proofs.'
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 98a9917d-246d-438f-b6a6-98b5958df4a3
 ---
-
 # View previous proof versions in the Web Proofing Viewer
 
 >[!IMPORTANT]
@@ -28,4 +29,3 @@ To view a previous version:
 
 1. In the list that appears, click the version you want to view.
 1. (Optional) To unlock the version if you want users to be able to add comments or change a decision, if you have rights to do so, click the **Unlock** icon in the left panel, then click **Yes, unlock**.
-

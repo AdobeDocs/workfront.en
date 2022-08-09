@@ -1,8 +1,11 @@
 ---
 title: Workfront Fusion release activity:&nbsp;Week of August 30, 2021
 description: Workfront Fusion release activity:&nbsp;Week of August 30, 2021
+author: Luke
 draft: Probably
-feature: "Product Announcements, Workfront Fusion"
+feature: Product Announcements, Workfront Fusion
+exl-id: 988349f9-aa12-4017-9032-be4d0078959e
+hidefromtoc: yes
 ---
 # Workfront Fusion release activity:&nbsp;Week of August 30, 2021
 
@@ -35,4 +38,4 @@ For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenan
 
 For more information on event filters in the Workfront > Watch events module, see [Adobe Workfront modules](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/594670449/76ee783470) 
+[Watch a video demonstration of this feature.](https://vimeo.com/594670449/76ee783470)

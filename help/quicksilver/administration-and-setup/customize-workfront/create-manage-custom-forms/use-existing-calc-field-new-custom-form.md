@@ -4,10 +4,11 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Reuse an existing calculated custom field in a custom form
 description: You can use the same calculated custom field on custom forms that belong to different objects. For example, you can use the Profit calculated field that you created for the project custom form on a task custom form.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 24482fca-94e4-406d-9d62-3db9f51481e6
 ---
-
 # Reuse an existing calculated custom field in a custom form
 
 You can use the same calculated custom field on custom forms that belong to different objects. For example, you can use the Profit calculated field that you created for the project custom form on a task custom form.
@@ -30,4 +31,3 @@ You can also have a different calculation for the same field, on the new form. K
 >* Select the Recalculate Custom Expressions option when editing objects in bulk.
 >* Select the Update previous calculations option when editing a Calculated Custom Field on a custom form.
 >
-

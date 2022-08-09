@@ -3,9 +3,10 @@ content-type: reference
 navigation-topic: create-and-manage-projects
 title: Define a Business Case
 description: This section contains the following articles - EDIT ME.
+author: Alina
 feature: Work Management
+exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
 ---
-
 # Define a Business Case
 
 This section contains the following articles:
@@ -22,4 +23,3 @@ This section contains the following articles:
 * [Attach a Custom Form to a Business Case](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md) 
 * [Create and edit risks on projects](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md) 
 * [Export the Business Case of a project](../../../manage-work/projects/define-a-business-case/export-business-case.md)
-

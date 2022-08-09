@@ -5,9 +5,10 @@ product-area: documents
 navigation-topic: tech-corner
 title: Proof types
 description: This section contains the following articles - EDIT ME.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: fd98edb2-7f5a-4d09-88cb-dc6072f4aed0
 ---
-
 # Proof types
 
 >[!IMPORTANT]
@@ -17,4 +18,3 @@ feature: "Workfront Proof, Digital Content and Documents"
 This section contains the following articles:
 
 * [Create a Static Website Proof using Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
-

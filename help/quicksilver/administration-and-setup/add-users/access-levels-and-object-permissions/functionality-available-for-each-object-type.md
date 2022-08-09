@@ -6,10 +6,11 @@ keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
 title: Functionality available for each object type
 description: The following tables lists the functionality available for each object type in the various access levels.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
 ---
-
 # Functionality available for each object type
 
 The following tables lists the functionality available for each object type in the various access levels.
@@ -35,7 +36,6 @@ Only users with a Plan license can be granted full access to projects.
 | Add document |✓ |✓ |✓ |&nbsp; |&nbsp; |
 | Add issue |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
 | Add tasks |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
-| View a project |✓ |✓ |✓ |✓ |&nbsp; |
 | Give updates/comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
 | Change status |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Log hours |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
@@ -53,7 +53,7 @@ Only users with a Plan license can be granted full access to projects.
 | Recalculate finance/timeline |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Set queue properties |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-{style="table-layout:auto"}
+
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -75,7 +75,7 @@ Only users with a Plan license can be granted full access to projects.
 | Move a task |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
 | Log hours |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
 | Accept an assignment |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
-| Make an assignment |✓ |✓ |^only in in-line edit |^only in in-line edit |&nbsp; |
+| Make an assignment |✓ |✓ |Only in in-line edit |Only in in-line edit |&nbsp; |
 | Attach a custom form |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
 | Edit custom fields |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
 | Create an approval process |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
@@ -111,9 +111,9 @@ Only users with a Plan license can be granted full access to projects.
 | Convert an issue to a to task |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Accept assignments |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
 | Make assignments |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
-| Updates and comments |✓ |✓ |✓ |✓ |&nbsp; |
+| Add updates and comments |✓ |✓ |✓ |✓ |&nbsp; |
 
-{style="table-layout:auto"}
+
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -135,9 +135,9 @@ Only users with a Plan license can have full access to portfolios.
 | Approve projects |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Portfolio optimization |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Add documents |✓ |✓ |✓ |&nbsp; |&nbsp; |
-| Updates and comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Add updates and comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
 
-{style="table-layout:auto"}
+
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -159,13 +159,13 @@ Only users with a Plan license can have full access to programs.
 | Approve projects |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Portfolio Optimization |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Add documents |✓ |✓ |✓ |&nbsp; |&nbsp; |
-| Updates and comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Add Add updates and comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
 
-{style="table-layout:auto"}
+
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-## Reports
+## Reports, dashboards, and calendars
 
 Users with a Plan license can have full access to reports. All other Access Levels have View access to reports.
 
@@ -191,20 +191,7 @@ Users with a Plan license can have full access to reports. All other Access Leve
 
 ## Filters, views, and groupings
 
-<!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">Add rows for the following? Alina recommended the first four but Gevorg wants the info limited to what the Access Levels UI covers.</p>
-<p style="color: #ff1493;">View reports*</p>
-<p style="color: #ff1493;">Build reports*</p>
-<p style="color: #ff1493;">Edit reports*</p>
-<p style="color: #ff1493;">Share reports*</p>
-<p style="color: #ff1493;">Export lists</p>
-<p style="color: #ff1493;">Apply quick filters to lists</p>
-<p style="color: #ff1493;">* Requires access to reports</p>
-</div>
--->
-
-<table border="2" cellspacing="15" cellpadding="1"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -300,7 +287,7 @@ Users with a Plan license can have full access to reports. All other Access Leve
 | Edit custom fields |✓ |✓ |✓ |✓ |&nbsp; |
 | Move to (object) |✓ |✓ |✓ |✓ |&nbsp; |
 | Send to (integration) |✓ |✓ |✓ |✓ |&nbsp; |
-| Updates and comments |✓ |✓ |✓ |✓ |&nbsp; |
+| Add updates and comments |✓ |✓ |✓ |✓ |&nbsp; |
 | Upload new version |✓ |✓ |✓ |✓ |&nbsp; |
 | Delete a version |✓ |✓ |✓ |✓ |&nbsp; |
 | Preview |✓ |✓ |✓ |✓ |✓ |
@@ -581,4 +568,3 @@ Only users with a Plan license can have full access to [select object or area]. 
 | View the Check-in area in the left panel |&nbsp; |✓ |
 | View the Settings area in the left panel |✓ |✓  |
 | Print a list of goals |✓ |✓  |
-

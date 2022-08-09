@@ -4,9 +4,10 @@ product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
 title: Enable Adobe Workfront Goals notifications
 description: Adobe Workfront Goals comes with a set of predefined event notifications that you can enable for your account. These event notifications trigger email communication every time the condition defined by the event is met.
+author: Alina
 feature: Workfront Goals
+exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
 ---
-
 # Enable Adobe Workfront Goals notifications
 
 Adobe Workfront Goals comes with a set of predefined event notifications that you can enable for your account. These event notifications trigger email communication every time the condition defined by the event is met.
@@ -117,4 +118,3 @@ A personal goal is a goal where you are designated as the owner.
 When the event defined by the notification you enabled occurs, you receive an email describing the event. The following is an example of email notifying you that you are assigned as the Owner of a new goal:
 
 ![](assets/wf-align-notification-email-350x164.png)
-

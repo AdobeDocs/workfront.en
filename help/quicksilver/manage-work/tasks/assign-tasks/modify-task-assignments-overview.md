@@ -4,9 +4,10 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Overview of modifying task assignments
 description: You can assign tasks to or unassign tasks from users, teams, or job roles. You can assign multiple resources at the same time, or just one resource. You can assign one task at a time, or multiple tasks in bulk.
+author: Alina
 feature: Work Management
+exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
 ---
-
 # Overview of modifying task assignments
 
 You can assign tasks to or unassign tasks from users, teams, or job roles. You can assign multiple resources at the same time, or just one resource. You can assign one task at a time, or multiple tasks in bulk.
@@ -84,4 +85,3 @@ Consider the following when removing assignments from tasks:
 
 * When you unassign a user from a task, the task remains assigned to the job role that the user fulfilled on the task.
 * When you unassign a job role or a team from a task, the task remains unassigned if it is not assigned to any other resources.
-

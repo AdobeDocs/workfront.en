@@ -5,9 +5,10 @@ product-area: documents
 navigation-topic: basic-features-workfront-proof
 title: Page Layout on the Views Tab in Workfront Proof
 description: You can adjust the page layout on the Views tab. The following layout options are available - EDIT ME.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 28aff312-1803-44d4-953c-1298e039edbf
 ---
-
 # Page Layout on the Views Tab in Workfront Proof
 
 >[!IMPORTANT]
@@ -47,4 +48,3 @@ To change the page layout on your dashboard or trash page, choose your preferred
 To change the page layout on all other views pages in your account, expand the drop-down menu at the top of the page and click on your preferred page layout:
 
 ![Page_views_new_menu.png](assets/page-views-new-menu.png)
-

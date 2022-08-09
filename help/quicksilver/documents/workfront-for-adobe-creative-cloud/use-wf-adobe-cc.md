@@ -3,9 +3,10 @@ product-area: documents;workfront-integrations
 navigation-topic: workfront-for-adobe-creative-cloud
 title: Use the Workfront Extension for Illustrator and InDesign
 description: You can use the Workfront Extension to export digital content you save and create in Adobe Illustrator and Adobe InDesign to Workfront. This speeds up the document review and approval process.
-feature: "Workfront Integrations and Apps, Digital Content and Documents"
+author: Courtney
+feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
 ---
-
 # Use the Workfront Extension for Illustrator and InDesign
 
 You can use the Workfront Extension to export digital content you save and create in Adobe Illustrator and Adobe InDesign to Workfront. This speeds up the document review and approval process.
@@ -373,4 +374,4 @@ Workfront supports the following file formats for exporting a file from Illustra
 * SWF - Flash Player &#42;
 * TIFF - Tagged Image File Format
 
-&#42; This file format is not available when **Upload a new proof** is enabled (for information about this option, see [Generate a proof from Illustrator or InDesign](#generate-a-proof-from-illustrator-or-indesign) in this article). If this file format is already selected before you enable **Upload a new proof**, the system changes the file format to PNG. You can select a different format from the list. 
+&#42; This file format is not available when **Upload a new proof** is enabled (for information about this option, see [Generate a proof from Illustrator or InDesign](#generate-a-proof-from-illustrator-or-indesign) in this article). If this file format is already selected before you enable **Upload a new proof**, the system changes the file format to PNG. You can select a different format from the list.

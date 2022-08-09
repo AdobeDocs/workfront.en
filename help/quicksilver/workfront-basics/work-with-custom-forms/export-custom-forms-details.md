@@ -1,8 +1,10 @@
 ---
 title: Export custom forms and object details
 description: Export custom forms and object details
+author: Alina
 draft: Probably
 feature: Get Started with Workfront
+exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
 ---
 # Export custom forms and object details
 
@@ -16,8 +18,8 @@ This functionality is supported for the following objects:
 * Portfolio
 * Programs
 
-  <!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Billing records</p> <p>After you open a billing record on a project, you can use the Details area to attach a custom form to the record and fill it out. You can also export billing record information from the Details area.</p> </li>
+<!--
+* Billing records</p> <p>After you open a billing record on a project, you can use the Details area to attach a custom form to the record and fill it out. You can also export billing record information from the Details area.</p> </li>
   -->
 
 >[!NOTE]
@@ -105,4 +107,3 @@ Exporting information from the Details section of an object is identical for all
    * The date and time when the PDF was produced
    * The name of the forms you exported
    * Information from the fields completed on the form
-

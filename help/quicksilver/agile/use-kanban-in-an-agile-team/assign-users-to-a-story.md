@@ -3,9 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: Assign users to a story on the Kanban board
 description: Review this article to learn how to assign users to a story on the Kanban board.
+author: Lisa
 feature: Agile
+exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
 ---
-
 # Assign users to a story on the Kanban board
 
 ## Access requirements
@@ -47,4 +48,3 @@ You must have the following access to perform the steps in this article:
    >You can also assign a job role to a story. You can only assign active users and active roles.
 
    ![Add assignment to story card](assets/addassignmenttostorycard-350x472.png)
-

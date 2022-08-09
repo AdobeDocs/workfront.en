@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: proofing-overview
 title: Review non-interactive content in the Desktop Proofing Viewer
 description: Though the Desktop Proofing Viewer is designed for reviewing interactive content, you can also use it to review static and video content. Your Adobe Workfront administrator can configure the Desktop Proofing Viewer to open every time you launch a static or video proof.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: c1ee9c6e-0805-432a-8846-92ae17ec5371
 ---
-
 # Review non-interactive content in the Desktop Proofing Viewer
 
 Though the Desktop Proofing Viewer is designed for reviewing interactive content, you can also use it to review static and video content. Your Adobe Workfront administrator can configure the Desktop Proofing Viewer to open every time you launch a static or video proof.

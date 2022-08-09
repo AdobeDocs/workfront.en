@@ -3,15 +3,15 @@ content-type: overview
 product-area: user-management
 navigation-topic: workfront-navigation
 title: Understand the navigation for a Work-license user
-description: The Main Menu changes with the access level you have been assigned by your Adobe Workfront administrator. By default, you are given access only to the areas that include functionality allowed by your access level. To understand the components of the default layout of each access level, see About the default Adobe Workfront layout.
+description: The Main Menu changes with the access level you have been assigned by your Adobe Workfront administrator. By default, you are given access only to the areas that include functionality allowed by your access level.
 feature: Get Started with Workfront
+exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
 ---
-
 # Understand the navigation for a Work-license user
 
 The  Main Menu  changes with the access level you have been assigned by your Adobe Workfront administrator. By default, you are given access only to the areas that include functionality allowed by your access level. To understand the components of the default layout of each access level, see [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
-## Understand the default  Main Menu  of a Worker
+## Understand the default Main Menu of a Worker
 
 As a Worker, your main responsibility is to complete work. The areas in the  Main Menu  that are visible to you allow you to do that.
 
@@ -21,31 +21,19 @@ The following areas are included in the default layout of a Worker:
 
 * **Projects**: Projects that are shared with you display here. For information, see [Projects](../../../manage-work/projects/projects-overview.md). 
 
-* **Report** s : Reports that are shared with you display here. For information, see [Reports](../../../reports-and-dashboards/reports/reports-overview.md). 
+* **Reports**: Reports that are shared with you display here. For information, see [Reports](../../../reports-and-dashboards/reports/reports-overview.md). 
 
-* **Dashboards**:&nbsp;Dashboards that are shared with you display here. For information, see [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
+* **Dashboards**: Dashboards that are shared with you display here. For information, see [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
 * **Calendars**: Calendars that are shared with you display here. For information, see [Calendars](../../../reports-and-dashboards/reports/calendars/calendars.md). 
 
 * **Teams**: Tasks and issues assigned to your teams display in this area. As a Worker, you are the only Workfront user who sees the Teams area by default.
 
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  This area is named "
-  Users
-  " for users with a Plan license. As a Worker, you cannot edit users, so the
-  Users
-  area is not available to you. You can see the work assigned to your Teams, however, and this is why this
-  area
-  is more accurately renamed to "Teams."
-  </MadCap:conditionalText>
-  -->
-
   For information, see [Create and manage teams](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md). 
 
 * **Requests**: You can submit requests and review requests you or your team members have submitted here. For information, see [Requests](../../../manage-work/requests/requests-overview.md). 
 
-* **Timesheets** ****: You can access your current, future, or old timesheets here. For information, see [Timesheets](../../../timesheets/timesheets-all.md).
+* **Timesheets**: You can access your current, future, or old timesheets here. For information, see [Timesheets](../../../timesheets/timesheets-all.md).
 
 * **Documents**: You can upload documents, or review documents shared with you, here. For information, see [Documents](../../../documents/documents-overview.md). 
 
@@ -55,18 +43,10 @@ The following areas are included in the default layout of a Worker:
 
 * **Boards**: Work with flexibility and collaboration with your team members by using shared boards that contains columns and cards reflecting work you want to get done. For information, see [Get started with boards in Adobe Workfront](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;from&nbsp;Alina: originally, we messaged that this is not on for Workers by default because it was believed that they need a layout template to see Boards; however, in this issue, Jake Turpin said it's not required to have it in a template: https://hub.workfront.com/issue/6256c241000127cb28186b5bfa17aaa0?email-source=comm)</p>
-  -->
-
-* **Blueprints**: Review existing blueprints in your system and request one to be installed, if the Workfront administrator configured the request queue for blueprints.&nbsp;For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
+* **Blueprints**: Review existing blueprints in your system and request one to be installed, if the Workfront administrator configured the request queue for blueprints. For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 ![](assets/worker-main-menu-350x426.png)
 
-## Customize your default  Main Menu
+## Customize your default Main Menu
 
-You can customize the areas that you see in your Main Menu  by removing or adding areas.
-
-For more information about customizing the  Main Menu , see [Customize the Adobe Workfront navigation](../../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
-
-Your Workfront administrator can also modify your Workfront default layout by assigning you a Layout Template. For more information about working with Layout Templates, see  [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) .
+Your Workfront administrator can modify your Workfront default layout by assigning you a layout template. For more information about working with layout templates, see  [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).

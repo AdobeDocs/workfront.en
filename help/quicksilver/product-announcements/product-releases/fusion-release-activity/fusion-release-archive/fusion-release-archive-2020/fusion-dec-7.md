@@ -3,11 +3,13 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: "Workfront Fusion release activity: Week of December 7, 2020"
+title: 'Workfront Fusion release activity: Week of December 7, 2020'
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of December 7, 2020.
-feature: "Product Announcements, Workfront Fusion"
+author: Luke
+feature: Product Announcements, Workfront Fusion
+exl-id: fb8275b5-ef37-48cc-bde1-cfd0e065a896
+hidefromtoc: yes
 ---
-
 # Workfront Fusion release activity:&nbsp;Week of December 7, 2020
 
 This page describes all enhancements made in Adobe Workfront Fusion the week of December 7, 2020.
@@ -82,4 +84,3 @@ For more information on available Jira modules, see [Jira Software modules](../.
 <p>For information about available Microsoft Dynamics 365 modules, see <a href="../../../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md" class="MCXref xref" xrefformat="{para}">Microsoft Dynamics 365 modules</a>.</p>
 </div>
 -->
-

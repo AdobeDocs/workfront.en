@@ -3,9 +3,10 @@ product-area: workfront-integrations;setup
 navigation-topic: workfront-for-jira
 title: Configure Adobe Workfront for Jira
 description: You can use Adobe Workfront for Jira to integrate your Jira and Workfront systems.
+author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
 ---
-
 # Configure Adobe Workfront for Jira
 
 You can use Adobe Workfront for Jira to integrate your Jira and Workfront systems.
@@ -331,4 +332,3 @@ To resolve this error, try one of the following:
 
 * Ask your Jira administrator to update the affected Jira objects to ensure that they have a due date field.
 * Disable the synchronization of Workfront's planned completion date in the Workfront "Setup" page
-

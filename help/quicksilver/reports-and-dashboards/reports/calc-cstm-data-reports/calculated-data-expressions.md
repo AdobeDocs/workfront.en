@@ -4,9 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Calculated data expressions
 description: You can use data expressions to define calculated custom data fields in Adobe Workfront. They connect existing Workfront fields in statements that generate a new field.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
 ---
-
 # Calculated data expressions
 
 You can use data expressions to define calculated custom data fields in Adobe Workfront. They connect existing Workfront fields in statements that generate a new field.
@@ -370,4 +371,3 @@ The lists below define the available expressions you can use when you are buildi
   </tr> 
  </tbody> 
 </table>
-

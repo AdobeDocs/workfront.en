@@ -3,12 +3,13 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Error Message: SAML 2.0 Error: User Identifier Not Found"
+title: 'Error Message: SAML 2.0 Error: User Identifier Not Found'
 description: You are unable to establish a successful connection to ADFS.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: c4c70532-de4f-4264-b661-2d30cefd403c
 ---
-
 # Error Message: SAML 2.0 Error: User Identifier Not Found
 
 ## Problem
@@ -35,11 +36,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -50,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
 ## Solution
 
-On the ADFS server, make sure&nbsp;there is a claim for name ID:
+On the ADFS server, make sure there is a claim for name ID:
 
 1. In Windows, click **Start** > **Administration** > **ADFS 2.0 Management**.  
    The ADFS 2.0 Management dialog box is displayed.
@@ -61,4 +62,3 @@ On the ADFS server, make sure&nbsp;there is a claim for name ID:
 1. Verify the claim has an **Outgoing Claim Type** of **Name ID**.
 
 ![1.png](assets/1-350x287.png)
-

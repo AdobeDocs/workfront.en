@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: proofing-overview
 title: Notifications for proof comments and decisions overview
 description: You can receive email notifications about comments and decisions made on proofs you work on in one of the following ways - EDIT ME.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: d6ded72c-a140-4c19-b1e0-60456804fc61
 ---
-
 # Notifications for proof comments and decisions overview
 
 You can receive email notifications about comments and decisions made on proofs you work on in one of the following ways:
@@ -49,4 +50,3 @@ The settings that determine how you receive email alerts about proof comments an
 >* [The New Version email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md) 
 >* [Late proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md) 
 >* [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
-

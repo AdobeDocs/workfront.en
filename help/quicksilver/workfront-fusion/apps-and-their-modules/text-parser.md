@@ -5,9 +5,10 @@ product-area: workfront-integrations;documents
 navigation-topic: apps-and-their-modules
 title: Text parser
 description: You can use the Text parser tool to parse text for use in other Adobe Workfront Fusion scenario modules. The Text parser does not require a connection.
-feature: "Workfront Fusion, Digital Content and Documents"
+author: Becky
+feature: Workfront Fusion, Digital Content and Documents
+exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
 ---
-
 # Text parser
 
 You can use the Text parser tool to parse text for use in other Adobe Workfront Fusion scenario modules. The Text parser does not require a connection.
@@ -224,4 +225,4 @@ Data scraping, sometimes called web scraping, data extraction, or web harvesting
 * [Apify](https://apify.com/) 
 * [Best Data Scraping Tools for 2019](https://www.octoparse.com/blog/best-data-scraping-tools-for-2019-top-10-reviews) 
 
-If the data scraping tool provides a REST API, you can connect to it via our universal [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) and [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) modules. 
+If the data scraping tool provides a REST API, you can connect to it via our universal [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) and [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) modules.

@@ -1,11 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notifications: Miscellaneous information"
+title: 'Notifications: Miscellaneous information'
 description: The following notifications alert you about activities happening on a project you are sponsoring.
+author: Lisa
 feature: Get Started with Workfront
+exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
 ---
-
 # Notifications: Miscellaneous information
 
 The following notifications alert you about activities happening on a project you are sponsoring.
@@ -82,4 +83,3 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
   </tr> 
  </tbody> 
 </table>
-

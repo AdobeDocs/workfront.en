@@ -4,10 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: How groups inherit statuses
 description: When you list the statuses available for a group, you see the following
-feature: "System Setup and Administration, People Teams and Groups"
+author: Caroline
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 3937fd72-fa54-4777-9ec4-1f097df7a2ee
 ---
-
 # How groups inherit statuses
 
 When you list the statuses available for a group, you see the following
@@ -38,8 +39,7 @@ The table below explains each of these circumstances.
     <ul> 
      <li>Locked statuses at the system level .</li> 
     </ul> 
-    <div class="example" data-mc-autonum="<b>Example: </b>">
-     <span class="autonumber"><span><b>Example: </b></span></span> 
+     <b>EXAMPLE:</b></span></span> 
      <p>Suppose that a group called Marketing has 2 subgroups called Marketing Communications and Branding.</p> 
      <p>A group administrator of the Marketing group creates a new custom status called Discovery.</p> 
      <p>Later, you create a new subgroup under the Marketing group and call it Advertising.</p> 
@@ -50,18 +50,16 @@ The table below explains each of these circumstances.
   <tr> 
    <td role="rowheader">When an administrator locks a status at a higher level</td> 
    <td> <p>When a Workfront administrator locks a status at the system level, your group inherits it along with all other groups in the system.</p> <p>Similarly, when an administrator locks a status for a group above your group, your group inherits it along with any other subgroups below the higher group.</p> <p><b>NOTE</b>: Later, if an administrator unlocks one of these statuses at the system level or in a group above your group, your group retains the status that it inherited earlier. Now it is a separate version of the status and you can customize it just for your group.</p> 
-    <div class="example" data-mc-autonum="<b>Example: </b>">
-     <span class="autonumber"><span><b>Example: </b></span></span> 
-     <p>The Marketing group administrator locks the Discovery status mentioned above to make sure that all 3 subgroups have it.</p> 
-     <p>Along with your Advertising group, the Marketing Communications and Branding groups have the Discovery status now. They inherited it when it was locked in the Marketing group above them.</p> 
-     <p>The Marketing group administrator then unlocks the Discovery status so that all 3 subgroups have their own version of the Discovery status. Now you and the administrators of the other 2 groups can customize the Discovery status to meet the needs of your groups.</p> 
-    </div> </td> 
+    <p><b>EXAMPLE:</b></p>
+    <p>The Marketing group administrator locks the Discovery status mentioned above to make sure that all 3 subgroups have it.</p> 
+    <p>Along with your Advertising group, the Marketing Communications and Branding groups have the Discovery status now. They inherited it when it was locked in the Marketing group above them.</p> 
+    <p>The Marketing group administrator then unlocks the Discovery status so that all 3 subgroups have their own version of the Discovery status. Now you and the administrators of the other 2 groups can customize the Discovery status to meet the needs of your groups.</p> 
+  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">When an administrator deletes a group</td> 
    <td> <p>When an administrator deletes a group and chooses yours to take its place in the system, your group inherits the custom statuses of the deleted group if they don't already exist in your group.</p> 
-    <div class="example" data-mc-autonum="<b>Example: </b>">
-     <span class="autonumber"><span><b>Example: </b></span></span> 
+   <p><b>EXAMPLE: </b></p>
      <p>A group called Messaging needs to merge with your Advertising group, so a Workfront administrator deletes the Messaging group and chooses your group to take its place.</p> 
      <p>The Messaging group had a unique status called In Process. Your Advertising group now has that status available for use.</p> 
     </div> </td> 

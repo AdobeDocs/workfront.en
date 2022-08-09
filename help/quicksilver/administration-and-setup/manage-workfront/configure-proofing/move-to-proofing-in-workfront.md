@@ -4,7 +4,8 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
 title: Standalone Workfront Proof to Integrated Proofing in Workfront overview
-description: If your organization changes from the standalone version of Workfront Proof to the Workfront Pro plan, in which Workfront Proof Premium is integrated with Workfront, the following functionality is not available - EDIT ME.
+description: If your organization changes from the standalone version of Workfront Proof to the Workfront Pro plan, in which Workfront Proof Premium is integrated with Workfront, some proofing functionality is not available.
+author: Courtney
 ---
 
 # Standalone Workfront Proof to Integrated Proofing in Workfront overview
@@ -17,9 +18,9 @@ If your organization changes from the standalone version of Workfront Proof to t
   >
   >In Workfront Proof, the New proof button is disabled; proofs can be created only Workfront.
 
-* Ability to copy a version of a proof. For more information, see&nbsp; [Copying Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).  
+* Ability to copy a version of a proof. For more information, see  [Copying Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).  
 
-* Ability to copy the settings of an existing proof. For more information, see [Copying Existing Proof Settings for a New Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md#copy-with-new-file)&nbsp;in [Copying Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).  
+* Ability to copy the settings of an existing proof. For more information, see [Copying Existing Proof Settings for a New Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md#copy-with-new-file) in [Copying Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).  
 
 * Ability to change the previous version of a proof. For more information, see [Linking Proof Versions](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md#linking-and-unlinking-proof-versions) in [Managing Proof Versions in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md).  
 
@@ -27,7 +28,7 @@ If your organization changes from the standalone version of Workfront Proof to t
 
 * Ability to add tags to proofs. For more information, see [Create and Manage Tags in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).  
 
-* Ability of administrator to assign custom proof permission profiles. For more information, see&nbsp; [Configure custom profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).  
+* Ability of administrator to assign custom proof permission profiles. For more information, see  [Configure custom profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).  
 
 * Ability of administrator to enable and disable proofing functionality for a single user.
 
@@ -35,7 +36,7 @@ If your organization changes from the standalone version of Workfront Proof to t
 
 * This ability is no longer necessary because proofing functionality is now available for all users with a worker license or higher. Reviewers and guests can access and work on proofs, but cannot generate proofs.
 * Ability of users to access the standalone version of Workfront Proof (this is limited to Workfront administrators).
-* Ability to connect between the new integrated account and the Workfront Proof account.&nbsp;
+* Ability to connect between the new integrated account and the Workfront Proof account. 
 * Ability to run Workfront Proof reports:
 
    * Recently Accessed Items

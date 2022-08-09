@@ -3,9 +3,10 @@ product-previous: workfront-goals
 navigation-topic: goal-management
 title: Access and open goals in Adobe Workfront Goals
 description: This article describes how you can find and manage goals in Adobe Workfront.
+author: Alina
 feature: Workfront Goals
+exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
 ---
-
 # Access and open goals in Adobe Workfront Goals
 
 This article describes how you can find and manage goals in Adobe Workfront.
@@ -34,7 +35,7 @@ You must have the following to perform the activities described in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Goals</p> <p>Note:   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -64,20 +65,21 @@ You must have the following before you can start:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
+
    ![](assets/main-menu-align-icon-highlighted-350x463.png)
 
    The Goal List displays.
 
+   
    >[!IMPORTANT]
    >
-   >When you have the correct access to Workfront Goals, you can view goals they you or anyone else created in the Goal List, by default.    >
-   >
-   ><!--   >
-   ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
-   >(NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)   >
-   ></MadCap:conditionalText>   >
-   >-->   >
-   >
+   >   When you have the correct access to Workfront Goals, you can view goals they you or anyone else created in the Goal List, by default.    
+   
+   <!--   
+   (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
+   -->
 
 1. (Optional) Click the name of a goal to open or edit it.
 
@@ -105,6 +107,9 @@ To access an individual goal in Workfront Goals:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner of Workfront.
 
+     <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
+
    The Goal List displays by default. 
 
 1. Click the name of a goal in the list to access it
@@ -124,4 +129,3 @@ To access an individual goal in Workfront Goals:
 1. Click the name of a goal in the Goal List or Check-in or Pulse sections, or in a card on the Goal Alignment section.&nbsp;
 
    The Goal Details panel displays on the right. You can update the goal, its results, and activities in the Goal Details panel when you have access to manage it. For information about updating goals using the Goal&nbsp;Details panel, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
-

@@ -1,13 +1,14 @@
 ---
 navigation-topic: the-new-workfront-experience
-title: Pin pages to customize your workspace in the new Adobe Workfront experience
-description: You can pin your most important work in the new Adobe Workfront experience for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in the new Adobe Workfront experience.
+title: Pin pages to customize your workspace
+description: You can pin your most important work Adobe Workfront for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in Workfront.
 feature: Get Started with Workfront
+author: Lisa
+exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 ---
+# Pin pages to customize your workspace
 
-# Pin pages to customize your workspace in the new Adobe Workfront experience
-
-You can pin your most important work in the new Adobe Workfront experience for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in the new Adobe Workfront experience.
+You can pin your most important work in Adobe Workfront for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in the new Adobe Workfront experience.
 
 You might be assigned to a Layout Template that has pages already pinned (as described in [Customize pinned pages using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). Any pages you pin display to the right of any existing pins.
 
@@ -22,11 +23,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -38,15 +39,15 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the page you want to pin.
 
-   This can be any work item in the new Adobe Workfront experience, such as a project, task, request queue, etc.
+   This can be any work item, such as a project, task, request queue, etc.
 
 1. Click **Pin current page** at the top of the page.
 
-   The pinned page is now accessible from the top of any page in the new Adobe Workfront experience.
+   The pinned page is now accessible from the top of any page in Workfront.
 
 ## Access a pinned page
 
-1. At the top of any page in the new Adobe Workfront experience, click the pinned page you want to view.
+1. At the top of any page, click the pinned page you want to view.
 
    >[!TIP]
    >
@@ -68,7 +69,7 @@ You can rearrange the order that pinned pages appear.
    >
    >You can't reorder pinned pages that are in the **More menu** ![](assets/more-icon-spectrum.png).
 
-   Your changes automatically save and are remembered the next time you access the new Adobe Workfront experience.
+   Your changes automatically save and are remembered the next time you access Workfront.
 
 ## Remove a pinned page
 
@@ -81,9 +82,8 @@ You can rearrange the order that pinned pages appear.
 
    ![Unpin page](assets/unpinpage-withx.png)
 
-   The page is no longer accessible from the top of any page in the new Adobe Workfront experience.
+   The page is no longer accessible from the top of any page in Workfront.
 
    <!--
-   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the arrow next to the pin name and select <strong>Unpin</strong>.</p> <p> <img src="assets/unpinpage.png" class="preview" alt="Unpin page"> </p> <p>The page is no longer accessible from the top of any page in the new Adobe Workfront experience.</p> </li>
+   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the arrow next to the pin name and select <strong>Unpin</strong>.</p> <p> <img src="assets/unpinpage.png" class="preview" alt="Unpin page"> </p> <p>The page is no longer accessible from the top of any page in Workfront.</p> </li>
    -->
-

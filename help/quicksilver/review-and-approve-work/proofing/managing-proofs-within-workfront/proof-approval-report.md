@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Use the proof approval report
 description: You can use the proof approval report to view information about proofs in your environment.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
 ---
-
 # Use the proof approval report
 
 You can use the proof approval report to view information about proofs in your environment.

@@ -4,9 +4,10 @@ content-type: reference
 product-area: enhanced-analytics
 navigation-topic: reports-and-dashboards
 description: This section contains the following articles - EDIT ME.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 5d5be823-77d9-4d0c-bec6-cc172ea7f50b
 ---
-
 # Enhanced analytics
 
 This section contains the following articles:

@@ -2,11 +2,12 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint overview: Earliest Available Time"
+title: 'Task Constraint overview: Earliest Available Time'
 description: Earliest Available Time is a Task Constraint that schedules a task to begin at the earliest available time after considering any predecessor relationships.
+author: Alina
 feature: Work Management
+exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
 ---
-
 # Task Constraint overview: Earliest Available Time
 
 Earliest Available Time is a Task Constraint that schedules a task to begin at the earliest available time after considering any predecessor relationships.
@@ -70,4 +71,3 @@ In this situation:
   **Example:**  Task A is a predecessor to Task B. Task B has the As Soon As Possible constraint and Task A has the As Late As Possible constraint. In this situation, Task B is scheduled as close to the start of the project as possible.
 
   ![As Soon As Possible constraint when task has the dates close to the project's Start Date](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
-

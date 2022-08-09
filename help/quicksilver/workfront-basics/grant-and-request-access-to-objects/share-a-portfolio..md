@@ -1,8 +1,10 @@
 ---
 title: Share a portfolio
 description: Share a portfolio
+author: Alina
 draft: Probably
 feature: Get Started with Workfront
+exl-id: 79643202-2d91-4028-b673-c3443b50d898
 ---
 # Share a portfolio
 

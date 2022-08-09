@@ -3,9 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Filter reports by time frames
 description: You can filter a report by the time frame of a date that exists on an object. For example, you can filter an hour report for a particular time frame of when the hours were entered.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
 ---
-
 # Filter reports by time frames
 
 You can filter a report by the time frame of a date that exists on an object.&nbsp;For example, you can filter an hour report for a particular time frame of when the hours were entered.
@@ -178,4 +179,3 @@ For example, if you are building an hour report and would like to display hours 
   </tr> 
  </tbody> 
 </table>
-

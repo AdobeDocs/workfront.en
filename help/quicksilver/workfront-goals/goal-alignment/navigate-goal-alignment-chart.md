@@ -3,9 +3,10 @@ product-previous: workfront-goals
 navigation-topic: goal-alignment
 title: Navigate the Goal Alignment section in Adobe Workfront Goals
 description: Use the Goal Alignment section to display a holistic view of goal alignment across the entire organization in a flowchart. Aligned goals display on cards that interconnect in a hierarchical tree.
+author: Alina
 feature: Workfront Goals
+exl-id: e79ced31-4680-4af7-b083-3d615c747af8
 ---
-
 # Navigate the Goal Alignment section in Adobe Workfront Goals
 
 Use the Goal Alignment section to display a holistic view of goal alignment across the entire organization in a flowchart. Aligned goals display on cards that interconnect in a hierarchical tree.
@@ -37,7 +38,7 @@ You must have the following to perform the activities described in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Goals</p> <p>Note:   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -54,7 +55,7 @@ You must have the following to perform the activities described in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -64,6 +65,10 @@ You must have the following before you can start:
 
 ## Navigate the Goal Alignment section
 
+1. Click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/dots-main-menu-icon.png) in the upper-right corner of your screen, then click **Goals**. 
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
+1. Click **Goal Alignment** in the left panel.
 1. Use the filters in the upper-right corner of the alignment chart to select only goals that are important to you. For information about using filters in Workfront Goals, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    The goals that match your filters display in the alignment chart on cards.

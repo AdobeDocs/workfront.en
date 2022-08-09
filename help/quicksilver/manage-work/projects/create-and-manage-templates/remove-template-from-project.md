@@ -3,9 +3,10 @@ product-area: templates
 navigation-topic: templates-navigation-topic
 title: Remove template information from a project
 description: You cannot remove a template from a project. You can only manually remove information that was added to the project after a template was attached to the project. For information about attaching templates, see Attach a template to a project.
+author: Alina
 feature: Work Management
+exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
 ---
-
 # Remove template information from a project
 
 You cannot remove a template from a project. You can only manually remove information that was added to the project after a template was attached to the project. For information about attaching templates, see [Attach a template to a project](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
@@ -77,4 +78,3 @@ To remove template information that was added to the project, you can do one of 
      For information about creating a view, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 1. Select all the tasks identified in Step 2 as created from a template, then click&nbsp;**the Delete icon****> Yes, Delete it**. For more information, see [Delete tasks](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
-

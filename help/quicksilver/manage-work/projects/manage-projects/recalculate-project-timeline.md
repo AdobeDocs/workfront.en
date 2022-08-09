@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: manage-projects
 title: Recalculate project timelines
 description: Recalculating Timelines allows managers to see how different factors related to the project are impacting the project's timeline. A project's timeline refers to planned and projected dates.
+author: Alina
 feature: Work Management
+exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
 ---
-
 # Recalculate project timelines
 
 Recalculating Timelines allows managers to see how different factors related to the project are impacting the project's timeline. A project's timeline refers to planned and projected dates.

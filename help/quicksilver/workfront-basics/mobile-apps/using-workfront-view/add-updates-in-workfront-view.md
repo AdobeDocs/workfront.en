@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: Add updates in Adobe Workfront View
 description: You can review and add updates to projects you are reviewing in the Adobe Workfront View app.
+author: Lisa
 feature: Get Started with Workfront
+exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
 ---
-
 # Add updates in Adobe Workfront View
 
 You can review and add updates to projects you are reviewing in the Adobe Workfront View app.
@@ -51,4 +52,3 @@ You must have the following access in Workfront to perform the steps in this art
 
 1. Tap **Post**.  
    The update appears on the project, in the **Updates** widget.
-

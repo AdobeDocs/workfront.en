@@ -1,8 +1,11 @@
 ---
 title: Workfront Fusion release activity:&nbsp;Week of August 2, 2021
 description: Workfront Fusion release activity:&nbsp;Week of August 2, 2021
+author: Luke
 draft: Probably
-feature: "Product Announcements, Workfront Fusion"
+feature: Product Announcements, Workfront Fusion
+exl-id: 051fb2b6-336e-432c-b2cb-0286e5bdf168
+hidefromtoc: yes
 ---
 # Workfront Fusion release activity:&nbsp;Week of August 2, 2021
 
@@ -62,4 +65,3 @@ Two new functions are now available in the mapping panel.
 <p><a href="https://vimeo.com/580431792/7edc0f6d48" target="_blank">Watch a video demonstration of this feature.</a> </p>
 </div>
 -->
-

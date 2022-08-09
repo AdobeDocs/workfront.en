@@ -4,9 +4,10 @@ keywords: plan,permissions,share,initiatives,scenarios,scenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Share a plan in the Scenario Planner
 description: You can share a plan that you created in the Adobe Workfront Scenario Planner with other users.
+author: Alina
 feature: Workfront Scenario Planner
+exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
 ---
-
 # Share a plan in the Scenario Planner
 
 You can share a plan in the Adobe Workfront Scenario Planner with other users, so they can collaborate on the same work that you do. 
@@ -207,4 +208,4 @@ The following table lists the permissions that you can grant when sharing a plan
 
 For information about project access level, see [Grant access to projects](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-For information about project permissions, see [Share a project in Adobe Workfront](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md). 
+For information about project permissions, see [Share a project in Adobe Workfront](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).

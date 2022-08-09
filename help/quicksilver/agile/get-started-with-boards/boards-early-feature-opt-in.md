@@ -2,13 +2,14 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Boards beta
-description: Boards with ad hoc cards are available to all users, and we are excited to open additional features for early feature optin-in beginning in July 2022.
+title: Early feature opt-in for Adobe Workfront Boards
+description: Boards with ad hoc cards are available to all users, and we are excited to open additional features for early feature opt-in.
+author: Lisa
+exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
 ---
-
 # Early feature opt-in for Adobe Workfront Boards
 
-Boards with ad hoc cards are available to all users, and we are excited to open additional features for early feature opt-in beginning in July 2022.
+Boards with ad hoc and connected cards are available to all users, and we are excited to open additional boards features for early feature opt-in beginning in July 2022.
 
 Adobe Workfront Boards are flexible tools that allow team collaboration by providing access to a shared board that contains columns and cards.
 
@@ -16,8 +17,8 @@ For general information about boards, see [Boards overview](/help/quicksilver/ag
 
 ## Release schedule
 
-* Early feature opt-in launch in Preview: July 2022
-* Official release: TBD
+* Early feature opt-in launch in Preview: July 22, 2022
+* Official release: July 28, 2022
 
 ## Features
 
@@ -26,8 +27,8 @@ The following table outlines major features of boards along with their current r
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <th>Feature description or name</th>
-   <th>Status</th> 
+   <th><strong>Feature description or name</strong></th>
+   <th><strong>Status</strong></th> 
   </tr>
   <tr>
    <td>Boards area in the Main Menu</td>
@@ -50,12 +51,36 @@ The following table outlines major features of boards along with their current r
    <td>Released</td>
   </tr>
   <tr>
-   <td>Convert standard cards to connected cards</td>
+   <td>Convert ad hoc cards to connected cards</td>
    <td>Released</td>
   </tr>
   <tr>
    <td>Use column automation</td>
    <td>Released</td>
+  </tr>
+  <tr>
+   <td>Add Work in Progress limits</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Add manual estimations on cards</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Add a team to a board or a card</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Create a column connected to Workfront</td>
+   <td>Planned</td>
+  </tr>
+  <tr>
+   <td>Add checklist item details</td>
+   <td>Planned</td>
+  </tr>
+  <tr>
+   <td>Group cards on a board</td>
+   <td>Planned</td>
   </tr>
  </tbody> 
 </table> 

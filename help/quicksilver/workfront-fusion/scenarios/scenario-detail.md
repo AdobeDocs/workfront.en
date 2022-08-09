@@ -4,9 +4,10 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: Scenario details in Adobe Workfront Fusion
 description: Scenario details in Adobe Workfront Fusion
+author: Becky
 feature: Workfront Fusion
+exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
 ---
-
 # Scenario details in Adobe Workfront Fusion
 
 The scenario detail page is the homepage of a specific scenario. It provides access to specific information for the scenario that is represented on the page.
@@ -127,4 +128,3 @@ You must have the following access to use the functionality in this article:
      </tr> 
     </tbody> 
    </table>
-

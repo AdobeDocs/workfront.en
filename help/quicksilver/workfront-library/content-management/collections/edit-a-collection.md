@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: collections
 title: Edit a Workfront Library collection
 description: You can make the following changes to a collection that you have Manage access to - EDIT ME.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 776cd0ac-e9e1-479b-8619-1c110706b545
 ---
-
 # Edit a Workfront Library collection
 
 You can make the following changes to a collection that you have Manage access to:
@@ -33,4 +33,3 @@ You can make the following changes to a collection that you have Manage access t
 1. In the **Name** box, type a name for the collection.
 1. (Optional) In the **Description** box, type a description of the collection.
 1. Click **Save**.
-

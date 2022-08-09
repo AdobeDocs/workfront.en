@@ -4,20 +4,21 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Error: Auto-provisioned user can't log in"
-description: When an auto-provisioned user tries to log in for the first time, the receive the following error - EDIT ME.
+description: If an auto-provisioned user tries to log in for the first time and receives an error saying that the system is not assigning them an access level, this might be because your system lacks access levels that are associated with the Request license. Auto-provisioning uses the Request license type, so you can fix this problem by creating an access level that is associated with a Request license.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 4c88933e-d3da-447e-ab6c-be9261a94a19
 ---
-
 # Error: Auto-provisioned user can't log in
 
-When an auto-provisioned user tries to log in for the first time, the receive the following error:
+When an auto-provisioned user tries to log in for the first time, they receive the following error:
 
 ## Problem
 
-The system is not assigning&nbsp;the new user an access level.
+The system is not assigning the new user an access level.
 
-By default,&nbsp;auto-provisioning uses the Request license type. When no access levels with a Request license&nbsp;exists, the system cannot assign the user an access level.&nbsp;
+By default, auto-provisioning uses the Request license type. When no access levels with a Request license exists, the system cannot assign the user an access level. 
 
 ## Access requirements
 
@@ -29,11 +30,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

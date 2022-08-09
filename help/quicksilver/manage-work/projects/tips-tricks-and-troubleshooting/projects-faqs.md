@@ -1,8 +1,10 @@
 ---
 title: Projects FAQs
 description: Projects FAQs
+author: Alina
 draft: Probably
 feature: Work Management
+exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
 ---
 # Projects FAQs
 

@@ -4,9 +4,9 @@ product-area: documents
 navigation-topic: library-basics
 title: Access content in Workfront Library
 description: Depending on your access level, you can access content in the following areas of Workfront Library - EDIT ME.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: c3758c7e-f447-4976-88e5-ac13c825888a
 ---
-
 # Access content in Workfront Library
 
 Depending on your access level, you can access content in the following areas of Workfront Library:
@@ -48,4 +48,3 @@ You can sort and filter the items that display in the area, and you can search f
 
 * [Search for items in Workfront Library](../../../workfront-library/content-management/basics/search-for-items-in-workfront-library.md) 
 * [Sort content in Workfront Library](../../../workfront-library/content-management/basics/sort-content-in-library.md)
-

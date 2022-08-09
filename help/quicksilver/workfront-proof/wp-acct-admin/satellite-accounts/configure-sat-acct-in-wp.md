@@ -4,9 +4,10 @@ product-area: documents;system-administration;setup
 navigation-topic: satellite-accounts
 title: Configure a satellite account in Workfront Proof
 description: Satellite accounts are paid accounts that you configure and manage from within your own Workfront Proof account. For more information, see "Satellite accounts in Workfront Proof.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 82c6dff3-6187-4145-951c-3f5312049b59
 ---
-
 # Configure a satellite account in Workfront Proof
 
 >[!IMPORTANT]
@@ -90,4 +91,3 @@ All you need to do is provide us with the following details:
 
 * The name of your Workfront Proof account and the email address you used to set it up
 * The names of the separate accounts you want linked to your account and the email addresses used to set up the separate accounts.
-

@@ -4,9 +4,10 @@ product-area: projects
 navigation-topic: create-and-manage-projects
 title: Project finances
 description: For information about areas where you can find project financial information and about how to manage project finances, see the following articles - EDIT ME.
+author: Alina
 feature: Work Management
+exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
 ---
-
 # Project finances
 
 For information about areas where you can find project financial information and about how to manage project finances, see the following articles:&nbsp;
@@ -77,4 +78,4 @@ For information about areas where you can find project financial information and
 
 [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
 
-[Override Job Role Billing Rates at the project level](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md) 
+[Override Job Role Billing Rates at the project level](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)

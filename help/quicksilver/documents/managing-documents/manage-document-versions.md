@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: manage-documents
 title: Manage document versions
 description: You can manage multiple versions of a document in Workfront.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 477153e4-847b-46ec-8107-72a7399c3767
 ---
-
 # Manage document versions
 
 You can manage multiple versions of a document in Workfront.
@@ -95,4 +96,3 @@ To delete a document version:
    If the document is linked to an outside source, that link is deleted and the document is no longer accessible through Workfront.
 
    ![](assets/more-versions-350x143.png)
-

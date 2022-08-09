@@ -3,9 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
 title: Create an agile team
 description: Adobe Workfront enables agile teams to complete work in an incremental, organized way.
+author: Lisa
 feature: Agile
+exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 ---
-
 # Create an agile team
 
 Adobe Workfront enables agile teams to complete work in an incremental, organized way.
@@ -141,4 +142,3 @@ You can convert an existing team to be an agile team:
 
    * [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) 
    * [Configure Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
-

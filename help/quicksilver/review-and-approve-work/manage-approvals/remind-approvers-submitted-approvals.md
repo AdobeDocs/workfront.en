@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: approvals
 title: Remind approvers about submitted approvals
 description: You can remind approvers about pending approvals for the following objects - EDIT ME.
+author: Courtney
 feature: Work Management
+exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
 ---
-
 # Remind approvers about submitted approvals
 
 You can remind approvers about pending approvals for the following objects:&nbsp;
@@ -99,4 +100,3 @@ To remind another user to approve your access request for an object:
 1. Click **Manage Approvals** in the upper-right corner of the right panel.
 1. Click the **Remind** icon to send a notification to the approver.  
    ![remind.png](assets/remind-350x41.png)
-

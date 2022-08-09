@@ -3,18 +3,14 @@ content-type: reference
 product-area: dashboards
 navigation-topic: dashboards-navigation-topic
 title: Understand dashboards
-description: This section contains the following articles - EDIT ME.
+description: Review these articles to understand the basics of dashboards in Adobe Workfront.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 9c7e0810-80e4-4048-a79b-cb91319e5e37
 ---
-
 # Understand dashboards
 
 This section contains the following articles:
 
 * [Get started with dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md) 
 * [Understand how reports display on a dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://experience.workfront.com/s/reporting" target="_blank">Learning Path for reports and dashboards </a>(NOTE: drafted because the link is outdated)</li>
-  -->
-

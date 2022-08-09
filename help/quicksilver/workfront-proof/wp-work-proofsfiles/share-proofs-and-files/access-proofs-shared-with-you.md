@@ -4,9 +4,10 @@ product-area: documents
 navigation-topic: share-proofs-and-files
 title: Access a proof shared with you
 description: When you receive an email about a proof, it contains a personal URL to access the proof. For more information, see New proof email.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 901013f2-833f-4f6b-921c-eddd4f063247
 ---
-
 # Access a proof shared with you
 
 >[!IMPORTANT]
@@ -37,4 +38,3 @@ To open a proof from an email you have received:
 1. Click&nbsp;**Go to proof**&nbsp;in the email.
 
    The proof opens in the proofing viewer, ready for review. For information about reviewing the proof, see [Review a proof](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
-

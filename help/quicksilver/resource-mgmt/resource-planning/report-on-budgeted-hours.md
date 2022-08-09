@@ -3,9 +3,10 @@ product-area: resource-management;reporting
 navigation-topic: resource-planning
 title: Report on Resource Planner Budgeted Hours
 description: You can budget resources on your projects by using the Resource Planner. For information about budgeting your resources using the Adobe Workfront Resource Planner, see the article Budget resources in the Resource Planner using the Project and Role views.
+author: Alina
 feature: Resource Management
+exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
 ---
-
 # Report on Resource Planner Budgeted Hours
 
 You can budget resources on your projects by using the Resource Planner. For information about budgeting your resources using the Adobe Workfront Resource Planner, see the article [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
@@ -143,4 +144,3 @@ Budgeting resources means that you define (or budget) a certain number of hours 
 </tbody>
 </table>
 -->
-

@@ -3,9 +3,10 @@ product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: View additional information about Adobe Workfront for Outlook and log out
 description: You can view details about the version of the Adobe Workfront add-in for Outlook, navigate directly to the web version, submit feedback, or log out.
+author: Becky
 feature: Workfront Integrations and Apps
+exl-id: f2200d71-c81e-4b15-b631-07e08562609b
 ---
-
 # View additional information about Adobe Workfront for Outlook and log out
 
 You can view details about the version of the Adobe Workfront add-in for Outlook, navigate directly to the web version, submit feedback, or log out.
@@ -51,4 +52,3 @@ Your Workfront administrator must enable Outlook for Office with Workfront befor
    * **Logout:** Log out of the Workfront add-in.
 
      This option&nbsp;does not log you out of&nbsp;Outlook.
-

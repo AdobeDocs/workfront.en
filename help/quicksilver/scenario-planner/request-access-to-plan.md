@@ -4,9 +4,10 @@ keywords: plan,permissions,share,initiatives,,scenarios,scenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Request access to a plan in the Scenario Planner
 description: You can request access to a plan in the Adobe Workfront Scenario Planner when the link to the plan is shared with you.
+author: Alina
 feature: Workfront Scenario Planner
+exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
 ---
-
 # Request access to a plan in the Scenario Planner
 
 You can request access to a plan in the Adobe Workfront Scenario Planner when the link to the plan is shared with you.
@@ -91,4 +92,3 @@ To request permissions:
    For information about enabling system notifications, see [Configure event notifications for everyone in the system](../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
    For information about enabling notifications in your profile, see [Notifications: Miscellaneous information](../workfront-basics/using-notifications/notifications-misc-information.md).
-

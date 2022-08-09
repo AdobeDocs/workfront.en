@@ -4,10 +4,11 @@ product-area: system-administration
 navigation-topic: security
 title: Restrict access to Adobe Workfront by IP address
 description: You can configure an Adobe Workfront IP allowlist that limits access to Workfront to 45 IP addresses or IP address ranges that you specify. This provides an additional layer of security for the Workfront application.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: aed65b42-d534-453a-885d-f922114987bc
 ---
-
 # Restrict access to Adobe Workfront by IP address
 
 You can configure an Adobe Workfront IP allowlist that limits access to Workfront to 45 IP addresses or IP address ranges that you specify. This provides an additional layer of security for the Workfront application.
@@ -28,7 +29,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -69,4 +70,3 @@ After you add IP addresses to the Workfront allowlist, only those IP addresses c
    You can add up to 30 addresses or ranges.
 
 1. Click **Save.**
-

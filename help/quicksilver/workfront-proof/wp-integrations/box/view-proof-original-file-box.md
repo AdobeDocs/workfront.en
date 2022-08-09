@@ -4,9 +4,10 @@ product-area: documents;workfront-integrations
 navigation-topic: box
 title: View a Proof's Original File in Box
 description: If you are using the Workfront Proof - Box integration, in Box, you can view the original file used to create a proof. You can do this in two ways - EDIT ME.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: c6da023c-4dbe-4770-82dc-3246568c01a2
 ---
-
 # View a Proof's Original File in Box
 
 >[!IMPORTANT]
@@ -25,4 +26,3 @@ When a new proof or a new version is created from a Box file, the creator and re
 The More sharing options section of the Proof details page of the proof you created from a Box file includes a link to the file in your Box account (1).
 
 ![Box_-_Proof_Details_page.png](assets/box---proof-details-page-350x93.png)
-

@@ -1,8 +1,10 @@
 ---
 title: Adobe PDF&nbsp;Services
 description: Adobe PDF&nbsp;Services
+author: Becky
 draft: Probably
-feature: "Workfront Fusion, Digital Content and Documents"
+feature: Workfront Fusion, Digital Content and Documents
+exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
 ---
 # Adobe PDF&nbsp;Services
 
@@ -55,16 +57,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -72,7 +65,7 @@ You must have the following access to use the functionality in this article:
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Adobe PDF Services and their fields
+## Adobe PDF Services modules and their fields
 
 When you configure PDF&nbsp;Services, Workfront Fusion displays the fields listed below. Along with these, additional fields might display, depending on factors such as your access level in the app or service. A bold title in a module indicates a required field.
 
@@ -679,4 +672,3 @@ This tool removes security (password protection) from a PDF document.
   </tr> 
  </tbody> 
 </table>
-

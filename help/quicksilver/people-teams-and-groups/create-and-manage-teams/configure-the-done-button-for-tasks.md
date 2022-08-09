@@ -3,9 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: Configure the Done button for tasks
 description: The Done button can automatically set the status of a task or an issue. By default, Adobe Workfront marks a task as Completed when an assignee clicks Done on their work item.
-feature: "People Teams and Groups"
+author: Lisa
+feature: People Teams and Groups
+exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
 ---
-
 # Configure the Done button for tasks
 
 The Done button can automatically set the status of a task or an issue. By default, Adobe Workfront marks a task as Completed when an assignee clicks Done on their work item.
@@ -93,4 +94,3 @@ To associate users with a Home Team:
 1. Click **Save Changes**.  
    The users you selected are now associated with a Home Team. 
    Any team settings, including the statuses associated with the Done button are now visible to these users.
-

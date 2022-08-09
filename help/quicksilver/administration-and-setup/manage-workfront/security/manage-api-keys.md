@@ -3,29 +3,29 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
 title: Manage API keys
-description: In order to minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront&nbsp;on behalf of a user.
+description: In order to minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront on behalf of a user.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
 ---
-
 # Manage API keys
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
-In order to&nbsp;minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront&nbsp;on behalf of a user.
+In order to minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront on behalf of a user.
 
-You can reset or remove your current administrator API Key,&nbsp;configure API Keys to expire, and remove the API Keys for all users.
+You can reset or remove your current administrator API Key, configure API Keys to expire, and remove the API Keys for all users.
 
-Examples of applications that leverage the&nbsp;Workfront API are:
+Examples of applications that leverage the Workfront API are:
 
 * Document integrations such as Dropbox, Google Drive, and Workfront DAM
 * Workfront mobile applications
 
 >[!IMPORTANT]
 >
->When resetting or removing an API Key, any application&nbsp;that&nbsp;leverages&nbsp;the Workfront API and authenticates to Workfront via this API Key&nbsp;must&nbsp;be re-configured in order to regain access to Workfront.
+>When resetting or removing an API Key, any application that leverages the Workfront API and authenticates to Workfront via this API Key must be re-configured in order to regain access to Workfront.
 
 ## Access requirements
 
@@ -37,11 +37,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -52,35 +52,35 @@ You must have the following access to perform the steps in this article:
 
 ## Workfront API Keys
 
-Each user in Workfront has a unique&nbsp;API Key. This key&nbsp;is generated on a per-user basis at the time the user&nbsp;accesses an integration that leverages the Workfront API (such as the Workfront mobile app or a document integration).
+Each user in Workfront has a unique API Key. This key is generated on a per-user basis at the time the user accesses an integration that leverages the Workfront API (such as the Workfront mobile app or a document integration).
 
 >[!NOTE]
 >
->&nbsp;API Keys you generate in the production environment are copied to your Preview environment during the weekly refresh. Any API Keys you generate in the Preview environment will be&nbsp;overwritten with your production API Keys during the weekly refresh.
+> API Keys you generate in the production environment are copied to your Preview environment during the weekly refresh. Any API Keys you generate in the Preview environment will be overwritten with your production API Keys during the weekly refresh.
 
-Workfront administrators also&nbsp;have a unique API Key.&nbsp;When an application uses an administrator API Key to access Workfront, the application has administrator access to Workfront.
+Workfront administrators also have a unique API Key. When an application uses an administrator API Key to access Workfront, the application has administrator access to Workfront.
 
 ## Manage an administrator API key
 
-You can generate, reset, or remove the API Key for your administrator&nbsp;user account.&nbsp;
+You can generate, reset, or remove the API Key for your administrator user account. 
 
 >[!NOTE]
 >
 >You can also generate an API Key through the API. For more information, see the [Event Subscription API](../../../wf-api/general/event-subs-api.md) section in [Event Subscription API](../../../wf-api/general/event-subs-api.md).
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).&nbsp;
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png). 
 
 1. Click **System >** **Customer Info.**
 1. (Conditional) Perform one of the following actions:
 
-   To generate an API Key:&nbsp;In the **API Key Settings** section,&nbsp;click **Generate API Key**.
+   To generate an API Key: In the **API Key Settings** section, click **Generate API Key**.
 
    Or  
-   To reset an API Key: In the **API Key Settings** section, click&nbsp;**Reset**, then**Reset.**
+   To reset an API Key: In the **API Key Settings** section, click **Reset**, then**Reset.**
 
    Or
 
-   To remove the API Key: In&nbsp;the&nbsp;**API Key Settings** section,&nbsp;click **Remove**, then **Remove**.&nbsp;
+   To remove the API Key: In the **API Key Settings** section, click **Remove**, then **Remove**. 
 
 ## Generate an API Key for Non-Admin Users
 
@@ -92,7 +92,7 @@ You can generate and manage API Keys for users in roles other than Workfront adm
 
 1. (Conditional) If your organization uses Single Sign-On (SSO) access management, temporarily disable the option requiring SSO authentication.
 
-   1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).&nbsp;&nbsp;
+   1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
    
    1. Expand **System**, then click **Single Sign-on (SSO)**.  
       ![](assets/sysadmin-security-sso-disable-31620-350x320.png)  
@@ -103,13 +103,13 @@ You can generate and manage API Keys for users in roles other than Workfront adm
 
 1. In the address bar of a browser, enter the following API call:
 
-   **`<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
+   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
 
    Replace `<domain>` with your Workfront domain name, and username and password with the user's Workfront credentials.
 
 1. (Conditional) Enable the option requiring SSO authentication if you disabled it in Step 1.
 
-   1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).&nbsp;
+   1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png). 
    
    1. Expand **System**, then click **Single Sign-on (SSO)**.
    
@@ -118,14 +118,14 @@ You can generate and manage API Keys for users in roles other than Workfront adm
 
 ## Configure when API keys expire
 
-You can configure API Keys to expire for all users in your system. When the API Key of a user expires, the user&nbsp;must re-authenticate to any applications that use the Workfront API to access Workfront. You can change the frequency with which the API Keys expire. You can also configure&nbsp;whether API Keys expire when the password of a user expires.
+You can configure API Keys to expire for all users in your system. When the API Key of a user expires, the user must re-authenticate to any applications that use the Workfront API to access Workfront. You can change the frequency with which the API Keys expire. You can also configure whether API Keys expire when the password of a user expires.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).&nbsp;&nbsp;  
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).    
 
 1. Click **System** > **Customer Info**.
-1. In the **API Key Settings** area, in the **After creation***, ***API keys expire in** drop-down list, select the timeframe when you want the API keys to expire.
+1. In the **API Key Settings** area, in the **After creation**, **API keys expire in** drop-down list, select the timeframe when you want the API keys to expire.
 
-   When you change this option, the new timeframe begins from the time that you made the change. For example, if you change this option from *1 month* to *6 months*, the API Keys expire 6 months from the time&nbsp;you make the change.
+   When you change this option, the new timeframe begins from the time that you made the change. For example, if you change this option from *1 month* to *6 months*, the API Keys expire 6 months from the time you make the change.
 
    By default, API Keys expire each month.
 
@@ -133,19 +133,19 @@ You can configure API Keys to expire for all users in your system. When the API 
 
    By default, this option is not selected.
 
-   For information about how to configure user passwords to expire, see [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).&nbsp;
+   For information about how to configure user passwords to expire, see [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). 
 
 1. Click **Save**.
 
 ## Remove the API keys for all users
 
-If you are concerned about a particular security breach regarding your Workfront system, you can&nbsp;remove API Keys simultaneously for all users.
+If you are concerned about a particular security breach regarding your Workfront system, you can remove API Keys simultaneously for all users.
 
 >[!IMPORTANT]
 >
->Removing API Keys for all users invalidates ALL of the API Keys for all the users in the system. This action will cause all of your integrations in Workfront to fail until you generate a new API Key in Workfront and update all your&nbsp;integrations.
+>Removing API Keys for all users invalidates ALL of the API Keys for all the users in the system. This action will cause all of your integrations in Workfront to fail until you generate a new API Key in Workfront and update all your integrations.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).&nbsp;&nbsp;  
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).    
 
 1. Expand **System**, then click **Customer Info.**
 
@@ -159,7 +159,7 @@ If you are concerned about a particular security breach regarding your Workfront
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Third-party applications can communicate with Workfront through the API. To increase the security of your Workfront site, you can configure Workfront to restrict API login requests by uploading an X.509 certificate to Workfront Workfront.&nbsp;Once enabled, all login requests through the API must include a client certificate in addition to username and password.
+Third-party applications can communicate with Workfront through the API. To increase the security of your Workfront site, you can configure Workfront to restrict API login requests by uploading an X.509 certificate to Workfront. Once enabled, all login requests through the API must include a client certificate in addition to username and password.
 
 >[!NOTE]
 >
@@ -171,7 +171,7 @@ Third-party applications can communicate with Workfront through the API. To incr
 
 ### Obtain the X.509 certificate {#obtain-the-x-509-certificate}
 
-Obtain a valid X.509 certificate from a trusted Certificate Authority (such as Verisign), and place it in a temporary location on your workstation.&nbsp;
+Obtain a valid X.509 certificate from a trusted Certificate Authority (such as Verisign), and place it in a temporary location on your workstation. 
 
 ### Upload the certificate to Workfront {#upload-the-certificate-to-workfront}
 
@@ -181,9 +181,9 @@ After you have obtained the X.509 certificate from your Certificate Authority, y
 
 1. Expand **System**, then click **Customer Info**.
 
-1. In the**API Key Settings** area, select **Enable X.509 Certificate**.
+1. In the **API Key Settings** area, select **Enable X.509 Certificate**.
 1. On your workstation, browse to and select the X.509 certificate that you previously downloaded.
-1. (Optional) Click **View Details**&nbsp;next to the certificate name to view the following details about the certificate:
+1. (Optional) Click **View Details** next to the certificate name to view the following details about the certificate:
 
    * Subject Common Name
    * Subject Organization
@@ -195,11 +195,11 @@ After you have obtained the X.509 certificate from your Certificate Authority, y
    * Issue Date
    * Expiration Date
 
-1. Click **Save**.&nbsp;
+1. Click **Save**. 
 
 ### Verify API login calls are restricted {#verify-api-login-calls-are-restricted}
 
-Prior to configuring your instance of Workfront to require an X.509 certificate, perform an API request to the **/login** endpoint using valid username and password parameters. You will receive a 200 response that contains a sessionID.
+Prior to configuring your instance of Workfront to require an X.509 certificate, perform an API request to the `/login` endpoint using valid username and password parameters. You will receive a 200 response that contains a sessionID.
 
 After making the X.509 certificate a requirement via the customer info page in your instance of Workfront, make another login attempt. This time you will receive a 500 error response with the following message: “Untrusted request. Please contact your system administrator and attach certificate."
 

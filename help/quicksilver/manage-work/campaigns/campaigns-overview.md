@@ -4,13 +4,14 @@ content-type: overview
 navigation-topic: campaigns
 title: Campaigns overview
 description: You can associate your projects with campaigns to centralize and align the work happening across multiple portfolios or programs. You can manage the dependencies, resources, and finances of all projects in one place.
+author: Alina
+exl-id: 101094be-ed04-4b22-8fac-80e7f3ffe983
 ---
-
 # Campaigns overview
 
 >[!NOTE]
 >
->You can opt in to access [!UICONTROL Campaigns] by enrolling in the beta program. The functionality described in this article might not be fully available yet. For more information about current available functionality and how to enroll, see [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
+>The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
 
 
 To centralize and align the work happening across multiple portfolios or programs, you can associate your projects with campaigns. You can manage the dependencies, resources, and finances of all projects in one place.

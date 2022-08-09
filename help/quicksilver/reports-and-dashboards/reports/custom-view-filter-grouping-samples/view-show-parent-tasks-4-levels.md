@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: show parent tasks up to 4 levels deep"
+title: 'View: show parent tasks up to 4 levels deep'
 description: This task view shows the task name in the first column and (if they exist) up to 4 parent tasks in separate columns in the same list.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 66b45d64-794d-4adc-b208-2ded0dc9c5dc
 ---
-
 # View: show parent tasks up to 4 levels deep
 
 This task view shows the task name in the first column and (if they exist) up to 4 parent tasks in separate columns in the same list.
@@ -61,4 +62,3 @@ You must have the following access to perform the steps in this article:
 1. Click **Save View**.
 
    The name of the task displays in the first column, and if the task has any parents, up to 4 parents display in the remaining columns.
-

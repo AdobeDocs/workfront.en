@@ -4,10 +4,11 @@ product-area: system-administration
 navigation-topic: start-with-workfront-administration
 title: Send announcements
 description: As a Adobe Workfront administrator, you can use the Announcements page to send announcements to users.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
 ---
-
 # Send announcements
 
 As a Adobe Workfront administrator, you can use the Announcements page to send announcements to users.
@@ -26,11 +27,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -102,4 +103,3 @@ By default, you receive all messages sent from Workfront. This is the recommende
 1. On the **Announcements** page, click **Settings.**
 1. Select the topics for which you no longer want to receive messages.
 1. Click **Save Settings.**
-

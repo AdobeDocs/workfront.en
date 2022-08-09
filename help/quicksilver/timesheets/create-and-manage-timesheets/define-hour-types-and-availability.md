@@ -3,9 +3,10 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Define hour types and availability for timesheets
 description: There are two sets of hour types in Adobe Workfront - EDIT ME.
+author: Lisa
 feature: Timesheets
+exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
 ---
-
 # Define hour types and availability for timesheets
 
 There are two sets of hour types in Adobe Workfront:
@@ -103,4 +104,3 @@ To define the hour types that are available to a user:
 1. Click **Save Changes**.
 
    Now when you log hours on a project, task, or issue, the hour types you select are available if those same hour types have been made available at the project level.
-

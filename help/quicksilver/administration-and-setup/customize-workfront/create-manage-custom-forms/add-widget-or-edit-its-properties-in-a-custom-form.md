@@ -1,25 +1,25 @@
 ---
-title: Add or edit an asset widget in a custom form
-description: Add or edit an asset widget in a custom form
-draft: Probably
+title: Add or edit an image or other asset widget in a custom form
+description: You can add or edit the properties of any of the following asset widgets such as images, videos, PDF files, and Adobe XD files in a custom form. This is useful when you need to include visual content such as branding images, an instructional video, or an interactive prototype for an app you are designing.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
 ---
 # Add or edit an image or other asset widget in a custom form
-
-The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
 
 You can add or edit the properties of any of the following asset widgets in a custom form:
 
 * Image
 * Video
 * PDF file
+* Adobe XD file
+
+  >[!NOTE]
+  >
+  >  The ability to add an Adobe XD widget to a custom form is not yet generally available. It is available only in the Preview Sandbox environment.
 
 This is useful when you need to include visual content such as branding images, an instructional video, or an interactive prototype for an app you are designing.  
-
->[!NOTE]
->
->If you add an Adobe XD prototype, people who use the form on a object can interact with the prototype.
 
 ## Access requirements
 
@@ -35,7 +35,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -53,7 +53,11 @@ You must have the following to perform the steps in this article:
 
    * If you are adding a new widget, select **Image**, **PDF**, **Video**, or **Adobe XD** to add it at the bottom of the form, or drag it where you want it on the form.
 
-   ![](assets/add-widget.png)
+     ![](assets/add-widget.png)
+
+     >[!NOTE]
+     >
+     >The ability to add an Adobe XD widget to a custom form is not yet generally available. It is available only in the Preview Sandbox environment.
 
    * If you want to add a widget that has already been added to another custom form, click **Field library**, then click the name of the widget in the list that displays. For more information, see [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
    
@@ -71,30 +75,29 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the widget.</p> <p>When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p><b>IMPORTANT</b>: <span>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in widget. If you do, the system will no longer recognize the widget where it might now be referenced in other areas of Workfront.</span> </p> <p>Each widget name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. </p> </td> 
+      <td> <p>(Required) This name is how the system identifies the widget.</p> <p>When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p><b>IMPORTANT</b>: Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in widget. If you do, the system will no longer recognize the widget where it might now be referenced in other areas of Workfront. </p> <p>Each widget name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Required) Type or paste the URL of the widget where it is stored on the internet.</p> 
-       <div class="preview"> 
-        <p>If you are adding a video widget, currently you can do so by adding the following in the URL box:</p> 
-        <ul> 
-         <li> <p>YouTube or Vimeo link</p> </li> 
-         <li> <p>Google Drive video link</p> </li> 
-         <li> <p>Link to video with MP4 and MOV extension</p> </li> 
-         <li> <p>Link to video already uploaded to the Documents area in your Workfront instance. For instructions, see <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Add a video widget to a custom form from the Documents area</a> in this article.</p> </li> 
-        </ul> 
-       </div> <p><b>NOTE</b>:  <p>When a custom form containing a widget is attached to an object, users who work with the object can see it in the following areas:</p> 
-        <ul> 
-         <li> <p>The object's Details area (for example, for a project, the Project Details area)​</p> </li> 
-         <li> <p>The Edit box for the object, if it has the new Adobe Workfront experience look and feel (for example, the Edit Project and Edit Task boxes)​</p> </li> 
-        </ul> <p>Currently, users cannot see the widget in the following areas:​</p> 
-        <ul> 
-         <li> <p>Lists and reports</p> </li> 
-         <li> <p>Home and Summary</p> </li> 
-         <li> <p>The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)</p> </li> 
-         <li> <p>​The Workfront Mobile app</p> </li> 
-        </ul> </p> </td> 
+      <p>If you are adding a video widget, currently you can do so by adding the following in the URL box:</p> 
+      <ul> 
+      <li> <p>YouTube or Vimeo link</p> </li> 
+      <li> <p>Google Drive video link</p> </li> 
+      <li> <p>Link to video with MP4 and MOV extension</p> </li> 
+      <li> <p>Link to video already uploaded to the Documents area in your Workfront instance. For instructions, see <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Add a video widget to a custom form from the Documents area</a> in this article.</p> </li> 
+      </ul> 
+       <p><b>NOTE</b>:  <p>When a custom form containing a widget is attached to an object, users who work with the object can see it in the following areas:</p> 
+       <ul> 
+      <li> <p>The object's Details area (for example, for a project, the Project Details area)​</p> </li> 
+      <li> <p>The Edit box for the object, if it has the new Adobe Workfront experience look and feel (for example, the Edit Project and Edit Task boxes)​</p> </li> 
+      </ul> <p>Currently, users cannot see the widget in the following areas:​</p> 
+      <ul> 
+      <li> <p>Lists and reports</p> </li> 
+      <li> <p>Home and Summary</p> </li> 
+      <li> <p>The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)</p> </li> 
+      <li> <p>​The Workfront Mobile app</p> </li> 
+      </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
@@ -128,4 +131,3 @@ You must have the following to perform the steps in this article:
 1. Open the proof.
 1. Right-click anywhere on the video, then select **Copy Video Address**.
 1. In the custom form where you are adding the video widget, paste the copied address in the **URL** box.
-

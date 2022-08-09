@@ -3,9 +3,10 @@ product-area: documents;setup
 navigation-topic: use-the-desktop-proofing-viewer
 title: Install the Desktop Proofing Viewer
 description: The Desktop Proofing Viewer, which is designed primarily for proofing interactive content, is an application that must be installed on your local machine.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
 ---
-
 # Install the Desktop Proofing Viewer
 
 The Desktop Proofing Viewer, which is designed primarily for proofing interactive content, is an application that must be installed on your local machine.
@@ -31,7 +32,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td> <p>Any</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,9 +4,10 @@ product-area: dashboards
 navigation-topic: understand-dashboards
 title: Get started with dashboards
 description: The purpose of a dashboard is to provide quick access to information. You can gather information in reports and you can then place them on dashboards to make the information easier to access.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
 ---
-
 # Get started with dashboards
 
 The purpose of a dashboard is to provide quick access to information. You can gather information in reports and you can then place them on dashboards to make the information easier to access.
@@ -15,21 +16,18 @@ The purpose of a dashboard is to provide quick access to information. You can ga
 
 You must have the following:
 
-<table style="table-layout:auto"> 
- <caption style="text-align: left;">
-  *To find out what plan, license type, or access you have, contact your Workfront administrator.
- </caption> 
+<table style="table-layout:auto">
  <col> 
  </col> 
  <col> 
  </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
+   <td> <p><strong>Adobe Workfront plan*</strong></p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront licenses overview*</p> </td> 
+   <td> <p><strong>Adobe Workfront license*</strong></p> </td> 
    <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
@@ -42,6 +40,8 @@ You must have the following:
   </tr> 
  </tbody> 
 </table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Objects that you can add to a dashboard
 
@@ -65,10 +65,10 @@ You can share a dashboard with users in the following ways:
 * Sharing on an individual basis.  
   For more information about sharing dashboards, see [Share reports, dashboards, and calendars](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) and [Share a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
-* Add a custom section to any area or object in Workfront and add a dashboard to it.  
-  For more information on creating custom sections, see [Simplified left navigation in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Add a dashboard to any area or object in Workfront with a custom section.  
+  For more information on creating custom sections, see [Left navigation in the Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
-* Place the dashboards on layout templates which you can share with users.  
+* Place the dashboards on layout templates, which you can share with users.  
   For more information about sharing dashboards through layout templates, see [Customize the left panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 * Print a hard copy of them to share with users.  
@@ -88,7 +88,7 @@ When you share a dashboard with users, all the reports, calendars, and external 
 You can display a dashboard in the following ways:
 
 * Access the section that it is placed on and the dashboard placed on the section displays.  
-  For more information on placing dashboards on custom sections, see [Simplified left navigation in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+  For more information on placing dashboards on custom sections, see [Left navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Search for and manually access it when you find it.
 
@@ -101,18 +101,18 @@ You can display a dashboard in the following ways:
 
      >[!TIP]
      >
-     >If you don't have Edit access to&nbsp;Reports,&nbsp;Dashboards, and Calendars in your access level, you cannot create dashboards. In this case, the My Dashboards list is empty.
+     >If you don't have Edit access to Reports, Dashboards, and Calendars in your access level, you cannot create dashboards. In this case, the My Dashboards list is empty.
 
    * **Shared Dashboards**: Dashboards that are created by other users and shared with you are listed here.
    * **All Dashboards**: Both your and other users' dashboards that are shared with you are listed here.
 
-   ![](assets/nwe-dashboards-area-350x490.png)
+   ![Dashboards area](assets/dashboards-area.png)
 
 1. Click the name of a dashboard to display it.  
    The dashboard displays the information included in the reports, calendars, or external pages that populate it.
 1. (Optional and conditional) Click the **Reload** icon in the upper right of the dashboard to refresh the information on the dashboard.  
    The information on the dashboard is synchronized in real time when you first access it. If you have displayed the dashboard for a while in your browser, the information inside the reports on the dashboard could become outdated. The date and time when the dashboard was last refreshed is listed to the left of this icon.  
-   ![](assets/qs-reload-icon-350x112.png)
+   ![Reload icon](assets/dashboard-reload-icon.png)
 
 ## Delete dashboards
 

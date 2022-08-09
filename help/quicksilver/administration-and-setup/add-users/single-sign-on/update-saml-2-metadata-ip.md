@@ -3,11 +3,12 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: Update SAML 2.0 metadata in your identity provider
-description: The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+description: You can update SAML 2.0 metadata in your identity provider.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
 ---
-
 # Update SAML 2.0 metadata in your identity provider
 
 {{important-admin-console-onboard}}
@@ -26,11 +27,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

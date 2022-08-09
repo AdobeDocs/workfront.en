@@ -3,9 +3,10 @@ product-area: workfront-integrations;setup
 navigation-topic: workfront-for-jira
 title: Install Adobe Workfront for Jira
 description: You can use Adobe Workfront for Jira to integrate your Jira and Workfront systems.
+author: Becky
 feature: Workfront Integrations and Apps
+exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
 ---
-
 # Install Adobe Workfront for Jira
 
 You can use Adobe Workfront for Jira to integrate your Jira and Workfront systems.
@@ -14,7 +15,7 @@ After installing the add-on, you can define workflows that create Jira issues au
 
 All users in Workfront and Jira can benefit from this integration. They only need a license for the system in which they work the most, and not for both systems.&nbsp;
 
-This add-on is available for the Server, Data Center, and OnDemand (or Cloud) versions of Jira Software.
+This add-on is available for the Server and OnDemand (or Cloud) versions of Jira Software. This add-on is not available for the Data Center version of Jira Software.
 
 For a list of Jira versions that Workfront for Jira currently supports, see [Workfront for Jira](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) at the Atlassian Marketplace.
 
@@ -68,7 +69,7 @@ To install Workfront for Jira:
 
    For more information, see [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-## Considerations for a Jira Server or Jira Data Center installation
+## Considerations for a Jira Server installation
 
 >[!NOTE]
 >
@@ -94,4 +95,3 @@ Although installing the Workfront add-on in the two Jira environments is similar
      `18.205.251.4`
 
   For more information about configuring your firewall for optimal functionality with Workfront, see [Configuring Your Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
-

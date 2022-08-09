@@ -3,9 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: Configure the Done button for issues
 description: The Done button can automatically set the status of a task or an issue. By default, Adobe Workfront marks an issue as Resolved when an assignee clicks Done on their work item.
-feature: "People Teams and Groups"
+author: Lisa
+feature: People Teams and Groups
+exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
 ---
-
 # Configure the Done button for issues
 
 The Done button can automatically set the status of a task or an issue. By default, Adobe Workfront marks an issue as Resolved when an assignee clicks Done on their work item.
@@ -93,7 +94,7 @@ To associate users with a Home Team:
 1. Click the **More** menu, then select **Edit**.  
    ![](assets/user-settings-nwe-350x291.png)
 
-1. In the **Organization** section, select&nbsp;the **Home Team** field. Start typing the name of the team whose settings you want to associate with the&nbsp;users. Click the name of the team when you see it in the list.
+1. In the **Organization** section, select the **Home Team** field. Start typing the name of the team whose settings you want to associate with the users. Click the name of the team when you see it in the list.
 
 1. Click **Save Changes**.  
    The users you selected are now associated with a Home Team. 
@@ -131,4 +132,3 @@ As a Workfront administrator, you can update the status for a specific group:
    >This status is used only when the user has no assigned Home Team and the RLV status has been deleted.
 
 1. Click **Save**.
-

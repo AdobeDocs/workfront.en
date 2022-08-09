@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Grouping: Project Sponsor for a task list"
+title: 'Grouping: Project Sponsor for a task list'
 description: This task grouping allows you to group tasks by the Project Sponsor.
+author: Lisa and Nolan
 feature: Reports and Dashboards
+exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
 ---
-
 # Grouping: Project Sponsor for a task list
 
 This task grouping allows you to group tasks by the Project Sponsor.
@@ -58,4 +59,3 @@ To apply this grouping:
    ```
 
 1. Click **Save Grouping**.
-

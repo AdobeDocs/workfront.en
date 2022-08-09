@@ -4,11 +4,12 @@ content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Security
-description: This section contains the following articles - EDIT ME.
+description: As an Adobe Workfront administrator, you can configure security preferences for your Workfront system.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: a8be3e69-0e1d-4a9e-9da8-4cde9643ca25
 ---
-
 # Security
 
 This section contains the following articles:
@@ -25,4 +26,3 @@ This section contains the following articles:
 * [Manage API keys](../../../administration-and-setup/manage-workfront/security/manage-api-keys.md) 
 * [Set up Azure Active Directory with Enhanced Authentication](../../../administration-and-setup/manage-workfront/security/set-up-azure-active-directory-enhanced-authentication.md) 
 * [Adobe Workfront Privacy Policy](../../../administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
-

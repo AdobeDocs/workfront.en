@@ -4,9 +4,10 @@ content-type: api
 product-area: documents
 navigation-topic: workfront-api
 title: Document Webhooks API
-description: This section contains the following articles - EDIT ME.
+description: Document Webhooks API topics
+author: John
+exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
 ---
-
 # Document Webhooks API
 
 This section contains the following articles:
@@ -29,4 +30,3 @@ This section contains the following articles:
 * [Document Webhooks Error Handling](../../wf-api/doc-wbhks-api/docu-webhooks-errors.md) 
 * [Test Webhook connections](../../wf-api/doc-wbhks-api/test-webhook-connections.md) 
 * [Document Webhooks API](../../wf-api/doc-wbhks-api/docu-webhook-api.md)
-

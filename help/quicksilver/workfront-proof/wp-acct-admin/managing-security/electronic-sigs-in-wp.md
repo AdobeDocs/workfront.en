@@ -5,9 +5,10 @@ product-area: documents;system-administration;user-
 navigation-topic: manage-security-workfront-proof
 title: Understanding electronic signatures in Workfront Proof
 description: Electronic signatures allow you to enhance security on your proofs and comply with industry standards such as ISO.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: caff2a03-cccc-4779-9dcc-3362c527dcb9
 ---
-
 # Understanding electronic signatures in Workfront Proof
 
 >[!IMPORTANT]

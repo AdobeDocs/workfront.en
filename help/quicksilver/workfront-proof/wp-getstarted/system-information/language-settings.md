@@ -5,9 +5,10 @@ product-area: documents;system-administration
 navigation-topic: system-information
 title: Language Settings in Workfront Proof
 description: As a Workfront Proof administrator, you can choose the language to be used in Workfront Proof for all the users in your account.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: ca585494-5cda-4c41-b9b2-908e24d210d6
 ---
-
 # Language Settings in Workfront Proof
 
 >[!IMPORTANT]
@@ -81,4 +82,3 @@ For guests, the proofing viewer displays content in the language the proof owner
 >[!NOTE]
 >
 >If there are custom actions or decisions present in the account, these will be displayed in the language in which they were originally added regardless of the reviewers' language preferences.
-

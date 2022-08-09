@@ -3,9 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configure Scrum
 description: You can configure the following options for Scrum agile teams during or after the team is created.
+author: Lisa
 feature: Agile
+exl-id: 7509608e-96af-4601-80d4-791ee29046da
 ---
-
 # Configure Scrum
 
 You can configure the following options for agile teams during or after the team is created. You create an agile team (Kanban or Scrum) in Adobe Workfront as described in [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
@@ -198,4 +199,3 @@ By default, when you add a work item to a Scrum iteration, the Planned Start Dat
    These options can affect dates when teams assign work items to each others' iterations. For example, team A modifies work item dates to the iteration dates and team B does not modify work item dates. If team B assigns a work item to team A's iteration, the work item dates will be changed. However, if team A assigns a work item to team B's iteration, the dates will not change.
 
 1. Click **Save Changes**.
-

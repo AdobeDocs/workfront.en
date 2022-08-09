@@ -4,10 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Manage available licenses in your system
 description: As an Adobe Workfront administrator, you can access information about your Workfront account, including the number of licenses purchased for your organization, as well as the number of those licenses currently in use.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
 ---
-
 # Manage available licenses in your system
 
 As an Adobe Workfront administrator, you can access information about your Workfront account, including the number of licenses purchased for your organization, as well as the number of those licenses currently in use.
@@ -22,11 +23,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -57,7 +58,7 @@ To view license information in your system:
 
 In the screen shot below, **5 of 10 Proof licenses** indicates that this organization has the paid Workfront Proof add-on and is currently using 5 of the 10 Workfront Proof licenses they purchased.
 
-![](assets/license-count-paid-add-on-350x233.png)
+![](assets/license-count-paid-add-on.png)
 
 If your organization has purchased Workfront Goals, the license information for this product also displays here. In this case, you can view the following information:
 
@@ -79,7 +80,7 @@ If an organization has other paid add-on products, their license information als
 >
 >Users without administrative access can use a Group report to view license count. In the Report tab, create a new group report and add the following columns:>
 >* License Type Limit: Worker Limit
->* License Type Limit: Planner Limit&nbsp;
+>* License Type Limit: Planner Limit 
 >
 >To learn more about creating a report, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 >
@@ -134,9 +135,8 @@ To set the maximum license count for a Home group:
 1. In the **Max** column of the group, click the value that you want to set a maximum for.
 1. Type the maximum number, then press Enter.
 
-   ![Screen4.png](assets/screen4-350x152.png)
+   ![](assets/Screen4.png)
 
    >[!NOTE]
    >
    >To set a group's maximum license value back to the default, do not type 0. Instead, delete the number in the box. Setting the maximum license value to 0 indicates that there are no licenses allocated to that group.
-

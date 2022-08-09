@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: manage-documents
 title: Paste images from the Clipboard
 description: You can add an image file to Adobe Workfront by copying it and pasting it from the system clipboard on your workstation.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
 ---
-
 # Paste images from the Clipboard
 
 You can add an image file to Adobe Workfront by copying it and pasting it from the system clipboard on your workstation.&nbsp;
@@ -75,4 +76,3 @@ To add an image or screenshot&nbsp;to Workfront via the clipboard:
    Each image you paste into the dialog box is added as a separate file.
 
 1. Click **Done**.
-

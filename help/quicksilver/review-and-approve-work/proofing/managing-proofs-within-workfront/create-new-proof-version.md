@@ -3,9 +3,10 @@ product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Create a new version of a proof
 description: Managing feedback across multiple versions or revisions of a piece of work can be a huge challenge. Workfront simplifies this process by letting you create and compare multiple versions of a proof.
+author: Courtney
 feature: Digital Content and Documents
+exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
 ---
-
 # Create a new version of a proof
 
 Managing feedback across multiple versions or revisions of a piece of work can be a huge challenge. Workfront simplifies this process by letting you create and compare multiple versions of a proof.
@@ -55,21 +56,35 @@ You must have the following access to perform the steps in this article:
 ## Create a new version of a proof in Workfront
 
 There are several ways to upload a new proof version in Workfront. Default proof settings may or may not carry over from the previous version depending on the method you choose:
+
 * **Automatically generate proofs when uploading documents**: Default proof settings do not carry over. If you have this setting enabled in your user profile, default proof settings do not carry over when you drag and drop a new version.
 * **Create proof > Simple**: Default proof settings do not carry over. If you choose Simple when creating a new proof version, default proof settings do not carry over from the previous version.
 * **Add new > Version > Proof**: Default proof settings carry over from the previous version.
 * **Create proof > Advanced**: Default proof settings carry over from the previous version.
 
-<!-- WRITER - Please check table below-->>
+  <table>
+  <tbody>
+  <tr>
+  <td>Automatically generate proofs when uploading documents</td>
+  <td>Default proof settings do not carry over. If you have this setting enabled in your user profile, default proof settings do not carry over when you drag and drop a new version.</td>
+  </tr>
+  <tr>
+  <td>Create proof &gt; Simple</td>
+  <td>Default proof settings do not carry over. If you choose Simple when creating a new proof version, default proof settings do not carry over from the previous version.</td>
+  </tr>
+  <tr>
+  <td>Add new &gt; Version &gt; Proof</td>
+  <td>Default proof settings carry over from the previous version.</td>
+  </tr>
+  <tr>
+  <td>Create proof &gt; Advanced</td>
+  <td>Default proof settings carry over from the previous version.</td>
+  </tr>
+  </tbody>
+  </table>
 
-|Setting| Description|
-|---|---|
-| Automatically generate proofs when uploading documents | Default proof settings do not carry over. If you have this setting enabled in your user profile, default proof settings do not carry over when you drag and drop a new version. |
-| Create proof > Simple | Default proof settings do not carry over. If you choose Simple when creating a new proof version, default proof settings do not carry over from the previous version.|
-| Add new > Version > Proof | Default proof settings carry over from the previous version. |
-| Create proof > Advanced | Default proof settings carry over from the previous version. |
 
-{style="table-layout:auto"}
+
 
 To create a new version of a proof:
 
@@ -101,7 +116,7 @@ To create a new version of a proof in Workfront Proof:
 
    Or
 
-   Capture a web page as a new version of the proof by typing a URL
+   Capture a web page as a new version of the proof by typing a URL.
 
    >[!NOTE]
    >
@@ -137,7 +152,7 @@ To create a new version of a proof in Workfront Proof:
    * Apply one or more tags to the proof. For more information, see [Create and Manage Tags in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).  
      Note that tags are inherited from the previous version of the proof, as well. If you add a new tag&nbsp;to the new version, previous versions are also tagged.
    
-   * Add the version to a folder. See [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) for more information.****The folder&nbsp;will be copied from the previous version of the proof. If you select a different folder, the whole proof (all versions) will be moved.
+   * Add the version to a folder. See [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) for more information. The folder&nbsp;will be copied from the previous version of the proof. If you select a different folder, the whole proof (all versions) will be moved.
    
    * Billing administrators and Administrators can make the folder field mandatory across the whole account on the Settings tab. See for more information.
 
@@ -218,4 +233,3 @@ If you do not have a default subject and message saved in your personal settings
 
 * If you chose to notify your reviewers by email for the previous version of the proof using the standard email (for example, no custom subject/message), the Notify people by email option will be selected by default on the New version page. To add a custom message click the link.
 * If you chose not to notify your reviewers by email for the previous version of the proof (for example, no standard or custom email), the New version page will not include any message by default. To notify your reviewers of the new version, click the Send a Message link. You can then add a custom subject and message by clicking the Add Custom Message link.
-

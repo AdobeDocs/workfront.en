@@ -4,9 +4,9 @@ product-area: documents;user-management
 navigation-topic: content-management
 title: Share a Workfront Library item with other users
 description: If you have Manage permission to a Workfront Library item, you can share it with other users and organizational units in Workfront Library and with external users.
-feature: "Workfront Library, Digital Content and Documents"
+feature: Workfront Library, Digital Content and Documents
+exl-id: 45ac89cb-3cab-4409-8ebf-4d7a2f906ea8
 ---
-
 # Share a Workfront Library item with other users
 
 ## Understand sharing items
@@ -86,4 +86,3 @@ You cannot give a user permissions to an item that exceeds their Workfront Libra
    1. Paste the link in a third-party tool such as a chat or email application, then distribute to the user.
 
 1. Click **Save**.
-

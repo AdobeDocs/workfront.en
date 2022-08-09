@@ -4,9 +4,10 @@ keywords: notes,quarterly,update,release
 navigation-topic: 2021-2-release-activity
 title: 21.2 Project enhancements
 description: This page describes all project enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see 21.2 Release overview.
+author: Luke
 feature: Product Announcements
+exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
 ---
-
 # 21.2 Project enhancements
 
 This page describes all project enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
@@ -32,8 +33,6 @@ This feature is now included in the [Planner Fundamentals for the new Workfront 
 >This feature is not yet available in Preview. It will release to the Preview environment on April 29, 2021.
 
 To allow you to quickly filter the list of projects on the Projects page, there are two new buttons in the header that allow you to quickly apply the Projects I'm On or Projects I Own filter.
-
-For more information on these filters, see [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md).
 
 [Watch a video demonstration of this feature.](https://vimeo.com/539899695/71295bba4f)
 
@@ -214,4 +213,4 @@ Prior to this change, disabling the setting prevented users just from deleting t
 
 For more information, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/532018749/1926533b87) 
+[Watch a video demonstration of this feature.](https://vimeo.com/532018749/1926533b87)

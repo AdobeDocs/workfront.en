@@ -4,9 +4,10 @@ product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Check your Workfront Proof storage
 description: Your account plan comes with a fixed amount of storage. Plan storage does not renew with each subscription because proofs and files from previous subscriptions are still saved on your account.
-feature: "Workfront Proof, Digital Content and Documents"
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: e387b209-3a76-423f-982b-6c1046ee6198
 ---
-
 # Check your Workfront Proof storage
 
 >[!IMPORTANT]

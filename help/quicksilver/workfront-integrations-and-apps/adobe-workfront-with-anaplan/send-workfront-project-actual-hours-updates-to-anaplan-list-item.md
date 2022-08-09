@@ -3,9 +3,10 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: Send Adobe Workfront actual hours updates to an an Anaplan list item
 description: This integration scenario shares actual hours details captured on an Adobe Workfront project with an Anaplan budget list item. Sharing this information allows you to take better advantage of the spend optimization and financial analysis that Anaplan provides.
-feature: "Workfront Integrations and Apps, Workfront Fusion"
+author: Becky
+feature: Workfront Integrations and Apps, Workfront Fusion
+exl-id: 450b9a87-79c6-4d10-a9ea-29766b4f5962
 ---
-
 # Send Adobe Workfront actual hours updates to an an Anaplan list item
 
 This integration scenario shares actual hours details captured on an Adobe Workfront project with an Anaplan budget list item. Sharing this information allows you to take better advantage of the spend optimization and financial analysis that Anaplan provides.
@@ -166,4 +167,3 @@ Additional scenarios for linking campaign requests:
 
 * [Create an Anaplan list item from an Adobe Workfront campaign request](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md) 
 * [Apply an Anaplan budget allocation to an Adobe Workfront campaign request or campaign project](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-

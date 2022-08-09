@@ -3,9 +3,10 @@ product-area: projects
 navigation-topic: create-tasks
 title: Create recurring tasks
 description: You can create recurring tasks for tasks you have to repeat as part of a single project.
+author: Alina
 feature: Work Management
+exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
 ---
-
 # Create recurring tasks
 
 You can create recurring tasks for tasks you have to repeat as part of a single project.
@@ -120,4 +121,3 @@ You must have the following access to perform the steps in this article:
    >[!IMPORTANT]
    >
    >Modifying the parent recurrence after the children have been modified individually may cause different information between the children or between the children and the parent.&nbsp;For more information, see [Recurring tasks overview](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
-

@@ -2,10 +2,11 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Specify an API Version in your integrations
-description: All Adobe Workfront URIs are required to reference a specific version of the API after the “attask/api” portion of the URI. The following example calls Version 7.0 - EDIT ME.
+description: Specify an API Version in your integrations
+author: John
 feature: Workfront API
+exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
 ---
-
 # Specify an API Version in your integrations
 
 All Adobe Workfront URIs are required to reference a specific version of the API after the “attask/api” portion of the URI. The following example calls Version 7.0:
@@ -47,4 +48,4 @@ To make updating integrations more efficient, you should consider the following 
 * Create a web service to manage properties in real time
 * Store property values in a data store that your application can read
 
-Designing your Workfront integrations with this in mind alleviates the need for extensive development work when those values inevitably change. 
+Designing your Workfront integrations with this in mind alleviates the need for extensive development work when those values inevitably change.

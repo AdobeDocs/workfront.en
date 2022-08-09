@@ -3,9 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Use Projected Dates in a calendar report
 description: A calendar report is a dynamic report that provides a visual representation of your work. You can use Projected Date fields in a calendar report for the following objects - EDIT ME.
+author: Lisa
 feature: Reports and Dashboards
+exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
 ---
-
 # Use Projected Dates in a calendar report
 
 A calendar report is a dynamic report that provides a visual representation of your work.&nbsp;You can use Projected Date fields in a calendar report for the following objects:
@@ -133,4 +134,3 @@ After you set up how you want items to display, you need to add the objects you 
    >If the default label&nbsp;options are not available for a certain object, the object name is&nbsp;shown instead. For example, when the Parent Task label is selected and&nbsp;there is no parent task associated with the object,&nbsp;Adobe Workfront displays the object name you are viewing in the calendar.
 
 1. Click **Save**.
-

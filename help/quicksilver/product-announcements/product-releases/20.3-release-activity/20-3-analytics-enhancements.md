@@ -3,9 +3,10 @@ content-type: release-notes
 navigation-topic: 2020-3-release-activity
 title: 20.3 Analytics enhancements
 description: This page describes all analytics enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
+author: Luke
 feature: Product Announcements
+exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
 ---
-
 # 20.3 Analytics enhancements
 
 This page describes all analytics enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
@@ -28,4 +29,4 @@ In addition to the insights you can gain, you can also complete actions on tasks
 
 For more information, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/439034612/2a36ac08b8) 
+[Watch a video demonstration of this feature.](https://vimeo.com/439034612/2a36ac08b8)

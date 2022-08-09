@@ -4,10 +4,11 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Preview and complete a custom form
 description: When you are finished building or editing a custom form, you can preview it to see how it will look to users, then save and close it.
+author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
 ---
-
 # Preview and complete a custom form
 
 When you are finished building or editing a custom form, you can preview it to see how it will look to users, then save and close it.
@@ -26,7 +27,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -39,7 +40,7 @@ You must have the following to perform the steps in this article:
 
 ## Preview and finish creating a custom form
 
-1. Begin creating and configuring a custom form, as described in the articles [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md),and others.
+1. Begin creating and configuring a custom form, as described in the articles [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md), and others.
 
 1. (Optional) Click **Preview** to see how the form will look when being used, then click **End Preview** to return to editing the form.  
 
@@ -58,4 +59,3 @@ You must have the following to perform the steps in this article:
    Regular users can also do this if they have manage rights to the object.
 
    After you add the custom form to an object, users with permissions to manage the object and edit the custom form can fill out and update the information in its custom fields.
-

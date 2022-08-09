@@ -3,9 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Create complex Text Mode filters using EXISTS statements
 description: Create complex Text Mode filters using EXISTS statements
+author: Nolan
 feature: Reports and Dashboards
+exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
 ---
-
 # Create complex Text Mode filters using EXISTS statements
 
 <!--
@@ -347,4 +348,3 @@ To filter tasks by the Portfolio Owner Name and Portfolio Alignment Scorecard ID
    >* Replace the ownerID with a User ID from your environment.
 
 1. Click **Save Filter**.
-

@@ -2,40 +2,23 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Modify column width and order
-description: The following are guidelines about how column widths work in Adobe Workfront - EDIT ME.
+description: Review this article to learn about column width guidelines and how to chang the column width and order in Workfront.
+author: Nolan
 feature: Reports and Dashboards
+exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
 ---
-
 # Modify column width and order
 
 The following are guidelines about how column widths work in Adobe Workfront:
 
 * Workfront defines the width of columns in lists and reports, by default.
-* Workfront automatically adjusts the width of the columns according to the 
-
-  ```
-  valueformat
-  ```
-
-  information in the all the lists and reports, unless otherwise specified in the text mode of the column.
+* Workfront automatically adjusts the width of the columns according to the `valueformat`information in all lists and reports, unless otherwise specified in the text mode of the column.
 
   >[!NOTE]
   >
-  >Workfront does not adjust the width of the columns according to the   >
-  >
-  >```  >
-  >valueformat
-  >```  >
-  >
-  >information in the lists available in the Setup and Reports areas.
+  >Workfront does not adjust the width of the columns according to the `valueformat` information in the lists available in the Setup and Reports areas.
 
-  The 
-
-  ```
-  valueformat
-  ```
-
-  value defines what kind of information displays in the column. For example, columns that display a number are narrower than columns that display the Description field.
+  The `valueformat` value defines what kind of information displays in the column. For example, columns that display a number are narrower than columns that display the Description field.
 
 * You can customize the width of the columns in your Workfront lists and reports to match your needs, depending on what kind of information you want to display in columns.
 
@@ -54,19 +37,19 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit the view in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>Manage permissions to a report to edit a view in a report</p> <p>Manage permissions to a view to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 

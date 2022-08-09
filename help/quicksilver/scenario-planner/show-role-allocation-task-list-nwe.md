@@ -3,9 +3,10 @@ product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Show role allocation for projects and initiatives in the task list
 description: After you connect projects and initiatives, you can manage their resource allocation side-by-side to ensure they match. This avoids overallocating or underutilizing them.
+author: Alina
 feature: Workfront Scenario Planner
+exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
 ---
-
 # Show role allocation for projects and initiatives in the task list
 
 >[!IMPORTANT]
@@ -116,7 +117,7 @@ If your company has purchased a Workfront Scenario Planner license, you can reco
 
 1. (Optional) If the Variance column shows that your resources are overallocated, adjust one of the following:
 
-   * Lower the number of Planned Hours for one job role that shows overallocated or add more resources to the tasks and distribute more Planned Hours to the new resources. You can update assignments or the number of Planned Hours on tasks or issues when editing them.&nbsp;For more information see the following articles:
+   * Lower the number of Planned Hours for one job role that shows overallocated or add more resources to the tasks and distribute more Planned Hours to the new resources. You can update assignments or the number of Planned Hours on tasks or issues when editing them. For more information see the following articles:
 
       * [Edit tasks](../manage-work/tasks/manage-tasks/edit-tasks.md) 
       * [Edit issues](../manage-work/issues/manage-issues/edit-issues.md)
@@ -125,7 +126,7 @@ If your company has purchased a Workfront Scenario Planner license, you can reco
      >
      >You must have additional access and permissions to edit tasks and issues.
 
-   * Increase the number of required hours for role that shows the overallocation on the initiative. For more information, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FScenario_Planner%2Fcreate-and-edit-initiatives.htm&_LANG=enus).
+   * Increase the number of required hours for the role that shows the overallocation on the initiative. For more information, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](create-and-edit-initiatives.md).
 
      >[!NOTE]
      >

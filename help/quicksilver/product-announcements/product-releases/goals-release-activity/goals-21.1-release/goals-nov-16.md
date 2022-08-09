@@ -2,11 +2,12 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: "Adobe Workfront Goals 21.1 release activity: Week of November 16, 2020"
+title: 'Adobe Workfront Goals 21.1 release activity: Week of November 16, 2020'
 description: This page describes all enhancements made with the 21.1 release for Adobe Workfront Goals to the Preview environment the week of November 30, 2020. These enhancements will be made available in the Production environment in the first quarter of 21.1.
-feature: "Product Announcements, Workfront Goals"
+author: Luke
+feature: Product Announcements, Workfront Goals
+exl-id: 9596ff23-6dd7-4608-9655-410482d56663
 ---
-
 # Adobe Workfront Goals 21.1 release activity:&nbsp;Week of November 16, 2020
 
 This page describes all enhancements made with the 21.1 release for Adobe Workfront Goals to the Preview environment the week of November 30, 2020. These enhancements will be made available in the Production environment in the first quarter of 21.1.
@@ -34,4 +35,3 @@ To eliminate the confusion of displaying an empty tab, we have removed the "My T
 For information about what information displays in Workfront Goals, see [Filter information in Adobe Workfront Goals](../../../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 ![](assets/goals-page-with-no-my-teams-tab-350x114.png)
-

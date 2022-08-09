@@ -4,10 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Custom statuses in a group that is moved or deleted
 description: This article explains what happens to group custom statuses when you move or delete a group.
-feature: "System Setup and Administration, People Teams and Groups"
+author: Caroline
+feature: System Setup and Administration, People Teams and Groups
 role: Admin
+exl-id: 83885d86-eb00-46cc-93e9-e3364b6125e8
 ---
-
 # Custom statuses in a group that is moved or deleted
 
 This article explains what happens to group custom statuses when you move or delete a group.
@@ -44,8 +45,7 @@ For information about moving a group, see [Move a group](../../../administration
      <li>If the previous parent group locks a custom status that was unlocked when the group moved, the moved subgroup's status is not locked.</li> 
      <li>The moved group can now unlock statuses that were locked when it inherited them from the previous parent group.</li> 
     </ul> 
-    <div class="example" data-mc-autonum="<b>Example: </b>">
-     <span class="autonumber"><span><b>Example: </b></span></span> 
+     <p><b>EXAMPLE:</b><p> 
      <p>Olivia, the group administrator for the Marketing group, creates two statuses for the group. She names one First Review, with the key ABC, and locks it. She names the other Final Review, with the key XYZ, and doesn't lock it.</p> 
      <p>She also creates a subgroup under the Marketing group called Product Marketing. At the moment when it's created, it automatically inherits both First Review and Final Review from the Marketing group.</p> 
      <p>Later, Olivia moves the Product Marketing subgroup under the Product group. Both First Review and Final Review go with the Product Marketing group to its new location under the Product group.</p> 
@@ -65,7 +65,8 @@ If one of the deleted group's statuses was also being used by the destination gr
 
 >[!INFO]
 >
->**Example:** 
+>**EXAMPLE:** 
+>
 >The group administrator of Group A renames an unlocked system-level status for her group. The group administrator of a Group B also renames that status for his group. Though the status has different names in the two groups, it has the same key.
 >
 >Later, Group A is deleted and all of its information is reassigned to Group B.

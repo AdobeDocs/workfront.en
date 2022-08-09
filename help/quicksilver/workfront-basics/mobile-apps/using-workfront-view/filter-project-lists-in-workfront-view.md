@@ -5,8 +5,9 @@ navigation-topic: use-workfront-view
 title: Filter project lists in Adobe Workfront View
 feature: Get Started with Workfront
 description: By default, Adobe Workfront View displays the All Projects list in Workfront, so all the projects you have access to view are listed, regardless of their status.
+author: Lisa
+exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
 ---
-
 # Filter project lists in Adobe Workfront View
 
 By default, Adobe Workfront View displays the All Projects list in Workfront, so all the projects you have access to view are listed, regardless of their status.
@@ -74,4 +75,3 @@ You must have the following access in Workfront to perform the steps in this art
    * Sponsor: Select to display projects that are assigned to a specific Sponsor.
 
 1. Tap anywhere on the list of projects to close the list icon.
-

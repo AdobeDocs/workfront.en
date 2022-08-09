@@ -3,9 +3,10 @@ product-area: resource-management
 navigation-topic: resource-utilization
 title: View resource utilization information
 description: View resource utilization information
+author: Alina
 feature: Resource Management
+exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 ---
-
 # View resource utilization information
 
 <!--
@@ -627,4 +628,3 @@ You can visualize the data from the Utilization report in a chart view.
 
 1. (Optional) Adjust the filters to decide what information is displayed in the chart. For information about adjusting the filters, see the section [Filter utilization information](#filter-utilization-information) in this article. 
 1. (Optional) Configure the time frame of the chart report, as described in the section [Adjust the date range for which information is displayed](#adjust-the-date-range-for-which-information-is-displayed) in this article.
-

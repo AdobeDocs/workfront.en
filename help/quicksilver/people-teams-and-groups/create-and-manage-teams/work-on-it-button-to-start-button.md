@@ -3,9 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Replace the Work On It button with a Start button
 description: Adobe Workfront's default configuration includes a Work On It button for tasks and issues that displays for items that you have been assigned to.
-feature: "People Teams and Groups"
+author: Lisa
+feature: People Teams and Groups
+exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
 ---
-
 # Replace the Work On It button with a Start button
 
 Adobe Workfront's default configuration includes a Work On It button for tasks and issues that displays for items that you have been assigned to. When you click Work On It on items assigned to you, you signal to other users that you received the work and acknowledge that you'll work on it. However, the Work On It button doesn't update the task or issue status to signal that work has actually started.
@@ -91,4 +92,3 @@ To associate users with a Home Team:
 1. Click **Save Changes**.  
    The&nbsp;users you selected are now associated with a&nbsp;Home Team. &nbsp;  
    Any team settings, including the statuses associated with the Done button are now visible to these users.&nbsp;
-

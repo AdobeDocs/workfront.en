@@ -6,9 +6,10 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Box modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Box, as well as connect it to multiple third-party applications and services. monitors a specified folder to check for file changes, to modify and delete existing files, or to upload new files to a folder.
+author: Becky
 feature: Workfront Fusion
+exl-id: 965ce570-40bf-474d-b318-0d2de8be6b9d
 ---
-
 # Box modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Box, as well as connect it to multiple third-party applications and services. monitors a specified folder to check for file changes, to modify and delete existing files, or to upload new files to a folder.
@@ -255,4 +256,3 @@ When you are configuring this module, the following fields display.
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">When the scenario started, the file was being uploaded to the server and was not ready to be downloaded. The scenario run gets stopped and Workfront Fusion tries downloading the file again during the next execution of the scenario.</li>
   -->
-

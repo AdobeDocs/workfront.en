@@ -6,9 +6,10 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Gmail modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Gmail, as well as connect it to multiple third-party applications and services.
+author: Becky
 feature: Workfront Fusion
+exl-id: 1987156c-e003-4f99-8913-cb47f77efbfc
 ---
-
 # Gmail modules
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Gmail, as well as connect it to multiple third-party applications and services.
@@ -437,4 +438,3 @@ You can iterate email attachments. Each attachment is a separate bundle in the m
   </tr> 
  </tbody> 
 </table>
-

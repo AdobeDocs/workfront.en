@@ -3,9 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Filter and search in a board
 description: You can filter a board to only display only certain cards.
+author: Lisa
 feature: Agile
+exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
 ---
-
 # Filter and search in a board
 
 You can filter a board to display:
@@ -99,4 +100,3 @@ By default, only active cards are displayed on a board. You can filter the board
    Click the X to clear the search.
 
    ![Search for cards in a board](assets/boards-searchbox.png)
-
