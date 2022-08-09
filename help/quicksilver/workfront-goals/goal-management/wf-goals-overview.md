@@ -17,8 +17,6 @@ Your organization must have the following to use the functionality described in 
 
   Contact your Workfront account manager to learn about a Workfront Goals license.
 
-  Workfront Goals is available only in the new Adobe Workfront experience.
-
 For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone's efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.

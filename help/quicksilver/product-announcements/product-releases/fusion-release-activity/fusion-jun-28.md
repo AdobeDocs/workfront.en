@@ -9,6 +9,7 @@ description: This page describes all enhancements made in Adobe Workfront Fusion
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: abd14599-2c5e-4c8a-b8ba-5434483434a8
+hidefromtoc: yes
 ---
 # Workfront Fusion release activity:&nbsp;Week of June 28, 2021
 

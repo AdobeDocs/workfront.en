@@ -44,7 +44,7 @@ You must have the following to perform the steps in this article:
 1. In the left panel, click **Custom Forms**.
 1. Open the **Fields** tab to display a report listing all of custom fields and widgets in your Workfront instance.
 
-   ![](assets/fields-tab-350x221.png)
+   ![](assets/fields-tab.png)
 
 1. Click the **View** drop down menu in the header at the top of the list, then check for any custom views in the list that include the **Reports** column (which is not a default column on this tab).
 

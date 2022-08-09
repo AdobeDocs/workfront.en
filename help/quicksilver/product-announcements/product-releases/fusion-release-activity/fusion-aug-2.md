@@ -5,6 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
 exl-id: 051fb2b6-336e-432c-b2cb-0286e5bdf168
+hidefromtoc: yes
 ---
 # Workfront Fusion release activity:&nbsp;Week of August 2, 2021
 

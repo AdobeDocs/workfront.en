@@ -129,6 +129,12 @@ You can log general hours or project-specific hours on a timesheet.
 
    You log time in either hours or days. This setting is configured by users with a Plan license or the system administrator, as described in [Configure whether time is logged in hours or days](../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
 
+1. (Optional) Specify the amount of overtime in the Overtime field in the timesheet's header. 
+
+   >[!TIP]
+   >
+   >You cannot log a larger number of overtime hours than the current total hours on the timesheet. For example, if you logged 7 hours on the timesheet so far, you cannot log 8 hours of overtime.
+
 1. (Optional) Click **Comment** to add a comment for your hour entry, then click **Done**.
 
    ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)

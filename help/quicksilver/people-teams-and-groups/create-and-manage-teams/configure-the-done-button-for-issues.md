@@ -94,7 +94,7 @@ To associate users with a Home Team:
 1. Click the **More** menu, then select **Edit**.  
    ![](assets/user-settings-nwe-350x291.png)
 
-1. In the **Organization** section, select&nbsp;the **Home Team** field. Start typing the name of the team whose settings you want to associate with the&nbsp;users. Click the name of the team when you see it in the list.
+1. In the **Organization** section, select the **Home Team** field. Start typing the name of the team whose settings you want to associate with the users. Click the name of the team when you see it in the list.
 
 1. Click **Save Changes**.  
    The users you selected are now associated with a Home Team. 

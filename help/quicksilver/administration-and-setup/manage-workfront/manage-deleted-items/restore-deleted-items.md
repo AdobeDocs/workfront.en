@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Restore deleted items
-description: Restore deleted items
+description: If you are a Workfront administrator, you can restore projects, tasks, issues, documents, and templates in Adobe Workfront if they have been deleted in the past 30 days. After 30 days, these items are permanently deleted and cannot be restored. When you restore an object, all of its child objects and fields are also restored. For example, if you restore a project, all tasks, issues, documents, hours, notes, assignments, and custom data in the project are also restored.items
 feature: System Setup and Administration
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
@@ -11,7 +11,7 @@ exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
 # Restore deleted items
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
 If you are a Workfront administrator, you can restore projects, tasks, issues, documents, and templates in Adobe Workfront if they have been deleted in the past 30 days. After 30 days, these items are permanently deleted and cannot be restored.
@@ -115,7 +115,7 @@ When you restore a project, task, or issue, the following associated information
 
 * Resolving objects
 
-  A resolving object is a converted issue configured with the option **Keep the original issue and tie its resolution to this** <**project** or**task)**>. If you delete the parent project or task, the issue is no longer identified as a resolving object because there is no longer a link connecting it to the project or task. If you restore the parent, the link is not restored.
+  A resolving object is a converted issue configured with the option **Keep the original issue and tie its resolution to this** <**project** or **task)**>. If you delete the parent project or task, the issue is no longer identified as a resolving object because there is no longer a link connecting it to the project or task. If you restore the parent, the link is not restored.
 
   For more information about how a Workfront administrator or group administrator configures issues to match the resolving object when converted, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) and [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 

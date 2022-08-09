@@ -4,8 +4,8 @@ description: 22.4 release overview
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
 ---
-
 # 22.4 Release overview
 
 This page provides information about functionality that is included in the 22.4 release.
@@ -39,7 +39,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
-                        <p>Early feature opt-in for the latest features on boards<p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-july-18.md" class="MCXref xref" xrefformat="{para}">Deactivate a group from the Groups page</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-july-18.md" class="MCXref xref" xrefformat="{para}">Early feature opt-in for the latest features on boards</a> </p>
                         <p>We are excited to open new boards features for early feature opt-in. This optional tool is available to all organizations.</p>
                         <p>Only a Workfront administrator can opt in to the early features. When the administrator opts in to early features, all users in the organization are opted in, and the additional features are enabled in your production Workfront environment.</p>
                     </td>
@@ -75,7 +75,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
-                        <p>New filter experience for projects, tasks, and issues<p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-july-18.md" class="MCXref xref" xrefformat="{para}">Deactivate a group from the Groups page</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-july-18.md" class="MCXref xref" xrefformat="{para}">New filter experience for projects, tasks, and issues</a> </p>
                         <p>Filtering in project, task, and issue lists has been redesigned to help you create and share filters quickly. Features include:</p>
                         <ul>
                             <li>
@@ -113,11 +113,79 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
-                        <p>Work In Progress limit now available on board columns<p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-july-18.md" class="MCXref xref" xrefformat="{para}">Deactivate a group from the Groups page</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md" class="MCXref xref" xrefformat="{para}">Custom Form enhancements: Adobe XD and the Quick Filter</a><span style="color: #ff0000;"> New in Preview!</span>
+                        </p>
+                        <p>Based on your feedback, we've introduced the following enhancements to improve your experience when managing custom forms:
+
+</p>
+<ol>
+<li>Add an Adobe XD file to make a custom form more visual and informative. When the form is attached to an object, users who work with the object can view and interact with the XD file from within the form.
+</li>
+<li>Use the Quick Filter to easily locate items in the modernized custom forms and fields list. Also enjoy an improved look and feel while managing your forms and fields.
+</li>
+</ol>
+<p>After you add the team to the board, you can assign the team to cards. On connected cards, only one team assignment is allowed. On ad hoc cards, you can assign more than one team.
+</p>
+                    </td>
+                    <td>
+                        <p><b>Available on these dates:</b>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 4, 2022 <br /></p>
+                            </li>
+                            <li>
+                                <p>Production release:&#160;August 11, 2022</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>    
+
+### Agile enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates and environments</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md" class="MCXref xref" xrefformat="{para}">Add a team to a board or card</a><span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <p>You can now add a team as a member of the board. The individual team members are no longer added when you add a team to the board, though all of the team members have access to the board.</p>
+                        <p>After you add the team to the board, you can assign the team to cards. On connected cards, only one team assignment is allowed. On ad hoc cards, you can assign more than one team.
+                        </p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 4, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: August 11, 2022</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-july-18.md" class="MCXref xref" xrefformat="{para}">Work In Progress limit now available on board columns</a> </p>
                         <p>You can now set a Work In Progress (WIP) limit for any column on a board. When you enable a WIP limit, a counter appears on the column with the current number of cards and the limit. The counter turns red if the column contains more cards than the limit. This is simply a visual warning and you are not stopped from adding more cards than the limit.</p>
                     </td>
                     <td><b>Available on these dates:</b>
-                        <p><span style="color: #ff0000;">This feature is only available through the early feature opt-in for Workfront Boards.</span>
+                        <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
                         </p>
                         <ul>
                             <li>
@@ -131,13 +199,13 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
-                        <p>Estimation field added to cards<p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-july-18.md" class="MCXref xref" xrefformat="{para}">Deactivate a group from the Groups page</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-july-18.md" class="MCXref xref" xrefformat="{para}">Estimation field added to cards</a> </p>
                         <p>A new Estimation field on both ad hoc and connected cards allows you to enter the estimated number of hours for the card to be completed. This is a manual entry, not a calculated value, and the value can't be more than 99. The estimate is displayed on the card on the board as well as in the card details.</p>
                     </td>
                     <td>
                         <p><b>Available on these dates:</b>
-                        </p>
-                        <p><span style="color: #ff0000;">This feature is only available through the early feature opt-in for Workfront Boards.</span>
+                        <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+  </p>
                         </p>
                         <ul>
                             <li>
@@ -150,7 +218,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                     </td>
                 </tr>
             </tbody>
-        </table>    
+        </table>            
 
 ### Other enhancements
 
@@ -170,7 +238,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
-                        <p>Look-and-feel updates during the 22.4 release timeframe<p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Deactivate a group from the Groups page</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 22.4 release timeframe</a> </p>
                         <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the 22.4 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
                     </td>
                     <td><span class="bold">Available on these dates:</span>
@@ -185,7 +253,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                     </td>
                 </tr>
             </tbody>
-        </table>    
+        </table>   
 
 ## Announcements
 
@@ -235,3 +303,13 @@ The 22.4 release webinar is not yet scheduled. This page will be updated when mo
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
+
+### Functionality no longer supported
+
+The following features will be removed with the 22.4 release to Production:
+
+* List Controls
+
+* Resource Scheduler
+
+* Zoom integration

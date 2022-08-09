@@ -153,7 +153,7 @@ The following built-in integrations are currently available in Workfront.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Zoom</p> <p> <img src="assets/zoom-logo.png"> </p> </td> 
+   <td role="rowheader"> <p>Zoom</p> <p> <img src="assets/zoom-logo.png"> </p> <p>NOTE: The Zoom integration will be deprecated with the 22.4 release (September 2022).</p> </td> 
    <td> 
     <ul> 
      <li>Start a Zoom meeting as you collaborate in Workfront by inserting a Zoom link into a comment or a reply in the Updates area</li> 

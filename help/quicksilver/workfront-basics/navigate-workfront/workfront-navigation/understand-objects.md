@@ -52,7 +52,7 @@ For a complete list of objects in Workfront, see the [API Explorer](../../../wf-
 
 *Goals are the objects of Workfront Goals. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-**Campaigns are available when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md).
+**Campaigns are available only in the Preview environment when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md).
 
 ## Customize object names
 
@@ -97,7 +97,7 @@ As a Workfront administrator, you can customize the names of the following objec
 
 * Campaigns
   
-  Campaigns are available when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md). 
+  Campaigns are available only in the Preview environment when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md).
 
 For example, if the larger amount of work in your organization is known as a 'Engagement', you can replace the name 'Project' with 'Engagement'. Your Workfront interface shows 'Engagement' instead of 'Project' everywhere where the name 'Project' would appear.
 
@@ -156,14 +156,14 @@ The following is a list of objects and their corresponding icons in Workfront.
 
 | **Object** |**Icon** |**Customizable object name** |
 |---|---|---|
-|Campaign |![](assets/campaing-icon-without-beta-in-color.png),![](assets/campaing-icon-without-beta-black-and-white.png) |✔ |
+|Campaign* |![](assets/campaing-icon-without-beta-in-color.png),![](assets/campaing-icon-without-beta-black-and-white.png) |✔ |
 | Company | ![](assets/company-icon-nwe.png)  , ![](assets/nwe-company-icon-54x54.png)|  |
 | Dashboard | ![](assets/dashboard-icon-nwe.png)  , ![](assets/nwe-dashboards-icon.png)|  |
 | Goal | ![](assets/nwe-goal-icon.png)|✔ |
 | Group | ![](assets/groups-icon-nwe.png)  , ![](assets/nwe-group-icon.png)|  |
 | Issue | ![](assets/issue-icon-nwe.png)  , ![](assets/nwe-issues-icon.png)|✔ |
 | Job Role | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png)|  |
-| Plan | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png)|&nbsp; |
+| Plan | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png)| |
 | Portfolio | ![](assets/portfolio-icon-nwe.png)  , ![](assets/nwe-portfolios-icon.png)|✔ |
 | Program | ![](assets/program-icon-nwe.png)  , ![](assets/nwe-programs-icon.png)|✔ |
 | Project | ![](assets/project-icon-nwe.png)  , ![](assets/nwe-projects-icon.png)|✔ |
@@ -171,6 +171,8 @@ The following is a list of objects and their corresponding icons in Workfront.
 | Task | ![](assets/task-icon-new.png)  , ![](assets/nwe-tasks-icon.png)|✔ |
 | Team | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png)|  |
 | Template | ![](assets/template-icon-nwe.png)  , ![](assets/nwe-templates-icon.png)|  |
+
+*Campaigns are available only in the Preview environment when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md).
 
 ## Reference Numbers of objects
 

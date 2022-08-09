@@ -33,7 +33,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>Edit access to Goals or higher</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -76,11 +76,14 @@ You can create a new goal in one of the following ways:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
+
    ![](assets/main-menu-align-icon-highlighted-350x463.png)
 
-   The Goal List displays by default and you can view all the goals in the system. 
+   The Goal List displays.
 
-1. (Conditional) Click Goal List, **Graphs**, Pulse,or Check-in in the left pane, then click&nbsp;**Add Goal** in the upper-right corner of the page. The Add Goal box displays.
+1. (Conditional) Click Goal List, **Graphs**, Pulse,or Check-in in the left pane, then click **Add Goal** in the upper-right corner of the page. The Add Goal box displays.
 
    ![](assets/add-goal-box-350x235.png)
 

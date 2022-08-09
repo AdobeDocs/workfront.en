@@ -10,11 +10,6 @@ exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 # Share a filter, view, or grouping
 
 <!--
-{{highlighted-preview}}
--->
-
-
-<!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)</p>
 <p>(NOTE: This is linked from the TOC article in WF Basics > permissions section)&nbsp;</p>
@@ -73,7 +68,7 @@ You must have the following:
 You can share filters in select lists using the following interfaces:
 
 * Standard interface
-* <span class="preview">Beta builder interface (available in the Preview environment only)</span>
+* Beta builder interface
 
 Sharing filters in select lists is different depending on which interface you use to share the filter from. For information about the types of filter-building interfaces, see [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
@@ -131,7 +126,7 @@ Sharing filters, views, and groupings in the standard interface is identical.
 
    Users with whom you shared the filter, view, or grouping can access it by clicking the **Filter**, **View**, or **Grouping** drop-down menu or icon and scrolling down to the **Shared with me** section.
 
-### Sharing filters using the beta builder interface (Preview environment only) {#share-with-beta-builder-interface}
+### Sharing filters using the beta builder interface {#share-with-beta-builder-interface}
 
 When sharing filters from lists of projects, tasks, or issues, you can share them using the beta builder interface instead of the standard interface.
 

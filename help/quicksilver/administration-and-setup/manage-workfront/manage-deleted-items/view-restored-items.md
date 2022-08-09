@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: View restored item
-description: View restored item
+description: As an Adobe Workfront administrator or a user with a Plan license, you can view which projects, tasks, issues, and documents have been restored in the past 7 days.
 feature: System Setup and Administration
 role: Admin
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238

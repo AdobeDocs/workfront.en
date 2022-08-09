@@ -127,7 +127,7 @@ You must have the following access to perform the steps in this article:
 
    ![WIP limit for column](assets/boards-wip-limit-in-column.png)
    
-1. The number of cards and the limit display at the top of the column. If the column contains more cards than the limit, the counter turns red. Note that the WIP limit is simply a visual warning and does not restrict you from having more items in each column than the limit you set.
+   The number of cards and the limit display at the top of the column. If the column contains more cards than the limit, the counter turns red. Note that the WIP limit is simply a visual warning and does not restrict you from having more items in each column than the limit you set.
 
    ![WIP limit counter](assets/boards-wip-limit-counter.png)
 
