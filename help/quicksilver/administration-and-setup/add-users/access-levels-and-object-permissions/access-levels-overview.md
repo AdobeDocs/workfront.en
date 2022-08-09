@@ -20,7 +20,7 @@ As an Adobe Workfront administrator, you assign an access level to a user for 2 
 
 Each of the six built-in access levels is attached to one of the five Workfront licenses: Plan, Work, Review, Request, and Externall. (External is an unpaid license designed primarily for sharing documents with collaborators who don't use Workfront.)
 
-![](assets/old-access-levels-and-licenses.png)
+![](assets/access-levels-and-licenses-old.png)
 
 For information on related topics, see the following articles:
 
@@ -46,9 +46,11 @@ For information on related topics, see the following articles:
    <td>Assigning access levels</td> 
    <td> <p>For instructions on how to assign an access level to a user, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </td> 
   </tr> 
+  <!--
   <tr> 
    <td>Access levels and proofing</td> 
    <td> <p>Your users' access levels can affect proofing for each permission profile. For more information, see the section in the article .</p> </td> 
   </tr> 
+  -->
  </tbody> 
 </table>

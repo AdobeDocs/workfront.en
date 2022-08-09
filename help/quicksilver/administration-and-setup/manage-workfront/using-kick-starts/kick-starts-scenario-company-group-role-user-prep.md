@@ -70,7 +70,7 @@ The following tables display the users to import and several user attributes for
 | **First Name** |Chris |
 |---|---|
 | **Last Name** |Manning |
-| **Username/Email** | [cmanning@foo.com](mailto:cmanning@foo.com)  |
+| **Username/Email** |mailto:cmanning@foo.com  |
 | **Password** |updateMe |
 | **Access** |Team Member |
 | **Company** |<*Your Company>* |
@@ -165,10 +165,6 @@ The following tables display the users to import and several user attributes for
    >[!TIP]
    >
    >When working with very wide data sheets, you may want to use your spreadsheet editor's Freeze Pane (or equivalent) tool to make the spreadsheet easier to work with.
-   >
-   >
-   >![](assets/freezepanes-350x140.png)   >
-   >
 
 1. Go to the 'CMPY Company' sheet.
 

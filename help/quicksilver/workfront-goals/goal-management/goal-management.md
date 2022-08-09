@@ -17,8 +17,6 @@ Your organization must have the following to use the functionality described in 
 
   Contact your Workfront account manager to learn about a Workfront Goals license.
 
-  Workfront Goals is available only in the new Adobe Workfront experience.
-
 For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 Review the following articles to learn where you start with Workfront Goals, the importance of using goals, how to create, edit, comment, and manage goals, as well as how to filter and print goal information:
 

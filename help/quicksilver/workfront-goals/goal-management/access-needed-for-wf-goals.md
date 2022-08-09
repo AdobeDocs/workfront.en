@@ -31,10 +31,6 @@ Your Adobe Workfront administrator or your Group administrator must ensure all o
 
   For information about assigning license types and access levels, see the section [Update license types and access level settings](#update-license-types-and-access-level-settings)in this article. 
 
-* Enroll you in the new Adobe Workfront experience.
-
-  For information, see the section [Enroll users in the new Adobe Workfront experience](#enroll-users-in-the-new-adobe-workfront-experience) in this article. 
-
 * Assign you Layout Template that includes the Goals area in the Main&nbsp;Menu.
 
   For information see the section [Add Workfront Goals to a layout template](#add-workfront-goals-to-a-layout-template) in this article. 

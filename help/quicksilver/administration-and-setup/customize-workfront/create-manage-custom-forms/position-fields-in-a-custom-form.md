@@ -47,11 +47,14 @@ You must have the following to perform the steps in this article:
 
 1. (Optional) To position custom fields and widgets on the same row, drag one next to the other until a line appears between them.
 
+<!--
+Courtney, this is a story that got postponed after I did the work. Slated for some time in 22.4 (https://hub.workfront.adobe.com/task/6220d425000140d7f7d3ea68cc9529c8/documents)
    You can drag multiple items. Press the following keys while you select the items, then drag the items together to the new row:
-   * Mac: Command+Shift
+   * Mac: Command+Shift [Courtney, double-check these commands]
    * Windows: Ctrl+Shift
 
    When you drop the custom field or widget, a gray box displays around the two items to indicate that they share a row.
+-->
 
    >[!NOTE]
    >
