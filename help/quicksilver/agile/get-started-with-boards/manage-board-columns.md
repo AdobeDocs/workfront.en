@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 1. Click **Add Column** to the right of the existing columns.
 1. In the new column, type a name and click **Add Column**.
 
-   ![Add new column](assets/boards-add-column.png)
+   ![Add new column](assets/boards-add-column-with-intake-option.png)
 
    To add the new column as an intake column, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
