@@ -304,7 +304,7 @@ The 22.4 release webinar is not yet scheduled. This page will be updated when mo
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
 
-### Functionality no longer supported
+### Functionality being removed with the 22.4 release
 
 The following features will be removed with the 22.4 release to Production:
 
