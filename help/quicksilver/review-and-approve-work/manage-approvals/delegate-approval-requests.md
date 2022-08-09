@@ -9,7 +9,7 @@ exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
 ---
 # Delegate approval request
 
-You can temporarily delegate the work you are assigned to while you are out of the office. You can delegate task and issue assignments or you can delegate approval requests. This article describes how to delegate approval requests. For information about delegating tasks and issues, see [Manage task and issue delegation](../../manage-work/delegate-work/how-to-delegate-work.md).
+You can temporarily delegate the work you are assigned to while you are out of the office. You can delegate task and issue assignments or you can delegate approval requests. This article describes how to delegate approval requests. For information about delegating task and issue assignments, see [Manage task and issue delegation](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 >[!NOTE]
 >
@@ -30,11 +30,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
    <td> <p>Review or higher</p> </td> 
   </tr> 
  </tbody> 

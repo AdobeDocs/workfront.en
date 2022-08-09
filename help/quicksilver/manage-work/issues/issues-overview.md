@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
 title: Issues
-description: This section contains the following subsections - EDIT ME.
+description: The following sections contain information about managing and converting issues in Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: 3615f31e-72a1-4c85-b093-c6f8295e7fda
