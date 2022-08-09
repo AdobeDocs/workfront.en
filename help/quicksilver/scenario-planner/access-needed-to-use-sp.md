@@ -3,14 +3,14 @@ content-type: reference
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Access needed to use the Scenario Planner
-description: The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
+description: The Scenario Planner requires a separate license from Adobe Workfront and additional access. 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
 ---
 # Access needed to use the Scenario Planner
 
-The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../scenario-planner/scenario-planner-overview.md).
+The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: might need to add information about the permissions to plans/ initiatives if those will be coming later?) </p>
@@ -43,14 +43,13 @@ You must ensure that the following conditions are all met before you can access 
 
   >[!NOTE]
   >
-  >Users with a&nbsp;Request&nbsp;or External license type cannot access the Workfront Scenario Planner.
+  >Users with a Request or External license type cannot access the Workfront Scenario Planner.
 
 * Your Workfront administrator must give you View or Edit access to Scenario Planner in your access level.
 
   For information about granting access to the Workfront Scenario Planner, see [Grant access to Scenario Planner](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 * (Optional and recommended) To view or update financial information for your plans and initiatives, your Workfront administrator must also grant you access to Financial Data in your access level.&nbsp;For information about granting financial data in your access level, see [Grant access to financial data](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-* Your Workfront administrator must enroll you in the new Adobe Workfront experience.&nbsp;
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
