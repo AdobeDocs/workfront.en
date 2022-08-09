@@ -2,17 +2,17 @@
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
 title: Level Resources in the Gantt Chart
-description: Leveling your resources on a project has two purposes - EDIT ME.
+description: Information about how to level resources in the Gantt Chart. 
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
 ---
 # Level Resources in the Gantt Chart
 
-Leveling your resources&nbsp;on a project&nbsp;has two purposes:
+Leveling your resources on a project has two purposes:
 
-* To automatically adjust&nbsp;over-allocation of time for assignees.
-* To automatically create a realistic task schedule for a&nbsp;project.&nbsp;
+* To automatically adjust over-allocation of time for assignees.
+* To automatically create a realistic task schedule for a project.
 
 ## Access requirements
 
