@@ -39,9 +39,14 @@ For information about requesting additional permissions, see [Request access to 
 
 ## Prerequisites
 
-Before you begin, you must have the following: 
+Before you begin you must have the following:
 
-* A System or Group administrator must add the [!UICONTROL Campaigns] area to the layout template associated with you. 
+* A System or Group administrator must add the Campaigns area to the layout template associated with you.
+* You are the owner of the campaign 
+
+   Or
+
+   You are a System Administrator.
 
 ## Add projects to a campaign
 
