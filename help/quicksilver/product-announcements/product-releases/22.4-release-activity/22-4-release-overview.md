@@ -308,7 +308,7 @@ Explore the latest updates made to learning programs, learning paths, videos, an
 
 The following features will be removed with the 22.4 release to Production:
 
-* List Controls
+* List Controls (from the Interface area in Setup)
 
 * Resource Scheduler
 
