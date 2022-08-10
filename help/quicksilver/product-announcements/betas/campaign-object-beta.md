@@ -39,13 +39,14 @@ The following features will release as part of a tiered product release plan. Fe
 
 Unless mentioned otherwise, the features listed in this table are available to everyone in the environment specified. 
 
-| Features currently available in Preview beta                                                                               
+| Features currently available in Preview beta|                                                                               
 |-----------------------------------------------------------------------------------------------------------|
 | Add the [!UICONTROL Campaigns] areas to the [!UICONTROL Main Menu], pins, and the landing page using a [!UICONTROL Layout Template] | 
 | Customize the Campaigns name using a [!UICONTROL Layout Template]                                                      | 
 | [!UICONTROL Campaigns] area in the [!UICONTROL Main Menu] of any user                                                               | 
-| Create campaigns                                                                                          | campaigns                                                                                            | 
+| Create campaigns |                                                                               | 
 | Delete campaigns                                                                                          | 
+| Edit campaigns|
 | Add existing projects to a campaign                                                                                | 
 | Add new projects to a campaign                                                                                | 
 | Add projects using a template to a campaign                                                                                | 
