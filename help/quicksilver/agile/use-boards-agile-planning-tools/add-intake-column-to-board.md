@@ -84,6 +84,10 @@ You must have the following access to perform the steps in this article:
 
    ![Saved filter](assets/intake-filter-dialog4.png)
 
+   >[!NOTE]
+   >
+   >The filter you added is visible and editable for all members of the board.
+
    On the Intake Column dialog, the Filtering By section shows the name of the filter you added.
 
    ![Intake Column dialog](assets/intake-column-dialog2.png)
