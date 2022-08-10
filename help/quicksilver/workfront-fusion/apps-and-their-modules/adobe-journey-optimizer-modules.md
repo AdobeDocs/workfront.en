@@ -151,7 +151,9 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-### Create a record
+### Actions
+
+#### Create a record
 
 This action module creates a placement, decision rule, tag, personalized offer, collection, or fallback offer.
 
@@ -183,7 +185,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
   </tbody>
 </table>
 
-#### Placement fields
+##### Placement fields
 
 <table>
   <col/>
@@ -204,7 +206,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
 </table>
 
 
-#### Decision rule fields
+##### Decision rule fields
 
 <table>
   <col/>
@@ -231,7 +233,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
   </tbody>
 </table>
 
-#### Decision fields
+##### Decision fields
 
 <table>
   <col/>
@@ -274,7 +276,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
   </tbody>
 </table>
 
-#### Tag fields
+##### Tag fields
 
 <table>
   <col/>
@@ -287,7 +289,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
   </tbody>
 </table>
 
-#### Collection fields
+##### Collection fields
 
 <table>
   <col/>
@@ -314,7 +316,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
   </tbody>
 </table>
 
-#### Fallback offer fields
+##### Fallback offer fields
 
 <table>
   <col/>
@@ -341,7 +343,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
   </tbody>
 </table>
 
-#### Personalized offer fields
+##### Personalized offer fields
 
 <table>
   <col/>
@@ -389,7 +391,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
   </tbody>
 </table>
 
-### Make a custom API call
+#### Make a custom API call
 
 This module makes a custom API call to the Adobe Journey Optimizer API
 
@@ -446,7 +448,52 @@ This module makes a custom API call to the Adobe Journey Optimizer API
   </tbody>
 </table>
 
-### Get records
+#### Delete a Record
+
+This action module deletes a single record in Adobe Journey Optimizer.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Connection</td>
+     <td>For instructions on creating a connection to Adobe Journey Optimizer, see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to Adobe Journey Optimizer</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        Record Type
+      </td>
+      <td>
+        Select the type of record that you want to delete
+        <ul>
+        <li>Placement</li>
+        <li>Decision rule</li>
+        <li>Decision</li>
+        <li>Tag</li>
+        <li>Collection</li>
+        <li>Fallback offer</li>
+        <li>Personalized offer</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        (Record Type)
+      </td>
+      <td>
+        Select the record that you want to delete.
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+#### Update a record
+
+### Searches
+
+#### Get records
 
 This search module lists records of the selected type, returning results based on criteria you specify.
 
@@ -479,28 +526,23 @@ This search module lists records of the selected type, returning results based o
         <p>Query operator</p>
       </td>
       <td>
-        <p></p>
+        <p>Select an operator to apply to parameters in the query</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader"></td>
-      <td>
+      <td role="rowheader">Fields</td>
+      <td><p>If you want to limit the search to specific fields, enter the fields. For each field that you want to limit the search to, click Add item and enter the name of the field.</p><p>Path expressions are in the form of dot separated paths such as <code>_instance.xdm:name</code>.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader"> </td>
-      <td>
+      <td role="rowheader">Order by </td>
+      <td>Enter or map the property by which you want to order results.
       </td>
     </tr>
     <tr>
-      <td role="rowheader"></td>
-   <td>
+      <td role="rowheader">Order direction</td>
+   <td>Select whether you want to order results by ascending or descending direction.
     </td>
      </tr>
-     <tr>
-      <td role="rowheader">  </td>
-      <td>
-      </td>
-    </tr>
   </tbody>
 </table>
