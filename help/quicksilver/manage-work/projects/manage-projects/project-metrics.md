@@ -11,7 +11,7 @@ exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
 ---
 # Overview of project metrics
 
-Project metrics give you a general view in chart format about how your project is performing.
+Project metrics give you a general view in chart format about how a project is performing.
 
 ## Access requirements
 

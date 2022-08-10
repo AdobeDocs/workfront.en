@@ -48,6 +48,10 @@ Before you begin you must have the following:
 
     You are a System Administrator.
 
+>[!NOTE]
+>
+>Only a system administrator can edit a campaign that has no owner.
+
 ## Edit a campaign
 
 1. Click the [!UICONTROL **Main Menu**] icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click [!UICONTROL **Campaigns**]. 
