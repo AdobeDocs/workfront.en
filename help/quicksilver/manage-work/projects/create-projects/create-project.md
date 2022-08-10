@@ -122,6 +122,13 @@ For more information about setting up the default status and other default setti
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
 
+    * In the Preview environment, go to a **Campaign** and expand **New Project**.
+
+    >[!NOTE]
+    >
+    >    Campaigns are available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md). For information about adding projects to a campaign, see [Add objects to a campaign](../../campaigns/add-objects-to-a-campaign.md). 
+
+
 1. Click **New Project** if you want to create a project from scratch.
 1. Enter a name for your project. Press Enter to save the name.
 
