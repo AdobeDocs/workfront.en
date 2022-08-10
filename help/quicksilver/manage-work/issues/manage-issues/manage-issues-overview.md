@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: projects
 navigation-topic: issues
 title: Manage issues
-description: This section contains the following articles - EDIT ME.
+description: The following articles contain information about managing issues.
 author: Alina
 feature: Work Management
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd

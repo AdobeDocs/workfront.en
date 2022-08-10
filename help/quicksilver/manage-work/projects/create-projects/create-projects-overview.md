@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
 title: Create projects
-description: This section contains the following articles - EDIT ME.
+description: Learn information about creating projects in the following articles.
 author: Alina
 feature: Work Management
 exl-id: a49c9157-05d8-41a6-93c3-068d835b52e3
