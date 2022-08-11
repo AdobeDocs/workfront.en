@@ -60,7 +60,7 @@ You must have the following access to perform the steps in this article:
 * [Budget resources in the Role View](#budget-resources-in-the-role-view) 
 * [Budget resources in bulk](#budget-resources-in-bulk)
 
-### **Budget resources in the Project View** {#budget-resources-in-the-project-view}
+### Budget resources in the Project View {#budget-resources-in-the-project-view}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)</p>
@@ -138,7 +138,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Select the User view to notice any user overallocations or underutilization between the Available and the Planned Hours for each user. Budgeted Hours are not visible in the User view.
 
-### **Budget resources in the Role View** {#budget-resources-in-the-role-view}
+### Budget resources in the Role View {#budget-resources-in-the-role-view}
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -20,7 +20,7 @@ exl-id: ff88b7e3-2a5b-464f-bed1-6848067840b8
 * [Simple example: project has no children tasks](#simple-example-project-has-no-children-tasks) 
 * [Complicated example: project has children tasks](#complicated-example-project-has-children-tasks)
 
-#### **Simple example: project has no children tasks** {#simple-example-project-has-no-children-tasks}
+#### Simple example: project has no children tasks {#simple-example-project-has-no-children-tasks}
 
 PIM = Hour-Based
 
@@ -93,7 +93,7 @@ EAC Method = Calculate at project level ****
    **EAC for Project** = 30 / .13333  
    **EAC for Project** = 225 hrs
 
-#### **Complicated example: project has children tasks** {#complicated-example-project-has-children-tasks}
+#### Complicated example: project has children tasks {#complicated-example-project-has-children-tasks}
 
 PIM = Hour-Based
 
@@ -227,7 +227,7 @@ EAC Method = Calculate at project level
 * [Simple example: project has no children tasks](#simple-example-project-has-no-children-tasks) 
 * [Complicated example: project has children tasks](#complicated-example-project-has-children-tasks)
 
-#### **Simple example: project has no children tasks** {#simple-example-project-has-no-children-tasks-1}
+#### Simple example: project has no children tasks {#simple-example-project-has-no-children-tasks-1}
 
 PIM = Cost-Based
 
@@ -479,7 +479,7 @@ EAC Method = Calculate at project level
    **EAC****Project** &nbsp;= $22,500.00 + $5,700.00  
    **EAC****Project** &nbsp;= $28,200.00
 
-#### **Complicated example: project has children tasks** {#complicated-example-project-has-children-tasks-1}
+#### Complicated example: project has children tasks {#complicated-example-project-has-children-tasks-1}
 
 PIM = Cost-Based
 
