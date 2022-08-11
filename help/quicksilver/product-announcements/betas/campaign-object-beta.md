@@ -39,19 +39,22 @@ The following features will release as part of a tiered product release plan. Fe
 
 Unless mentioned otherwise, the features listed in this table are available to everyone in the environment specified. 
 
-| Feature description or name                                                                               | Status                |
-|-----------------------------------------------------------------------------------------------------------|-----------------------|
-| Add the [!UICONTROL Campaigns] areas to the [!UICONTROL Main Menu], pins, and the landing page using a [!UICONTROL Layout Template] | Currently in Preview beta|
-| Customize the Campaigns name using a [!UICONTROL Layout Template]                                                      | Currently in Preview beta |
-| [!UICONTROL Campaigns] area in the [!UICONTROL Main Menu] of any user                                                               | Currently in Preview beta|
-| Create campaigns                                                                                          | Currently in Preview beta|
-| Edit campaigns                                                                                            | Currently in Preview beta|
-| Delete campaigns                                                                                          | Currently in Preview beta|
-| Add existing projects to a campaign                                                                                | Currently in Preview beta|
-| Add new projects to a campaign                                                                                | Planned |
-| Share campaigns                                                                                           | Planned               |
-| Manage campaign finances                                                                                  | Planned               |
-| Add custom forms to a campaign                                                                            | Planned               |
+| Features currently available in Preview beta|                                                                               
+|-----------------------------------------------------------------------------------------------------------|
+| Add the [!UICONTROL Campaigns] areas to the [!UICONTROL Main Menu], pins, and the landing page using a [!UICONTROL Layout Template] | 
+| Customize the Campaigns name using a [!UICONTROL Layout Template]                                                      | 
+| [!UICONTROL Campaigns] area in the [!UICONTROL Main Menu] of any user                                                               | 
+| Create campaigns |                                                                               | 
+| Delete campaigns                                                                                          | 
+| Edit campaigns|
+| Add existing projects to a campaign                                                                                | 
+| Add new projects to a campaign                                                                                | 
+| Add projects using a template to a campaign                                                                                | 
+| **Features planned for future releases** |
+| Share campaigns                                                                                           | 
+| Manage campaign finances                                                                                  | 
+| Add custom forms to a campaign                                                                            | 
+| Access campaigns from projects                                                                                | 
 
 
 ## Participate in the beta
@@ -76,7 +79,7 @@ Only system or group administrators can opt in to the beta on their own. All oth
 * [Participate as a system or group administrator](#participate-as-a-system-or-group-administrator) 
 * [Participate as a regular user](#participate-as-a-regular-user)
 
-#### **Participate as a system or group administrator**
+#### Participate as a system or group administrator
 
 As a system or group administrator, you can participate in the beta, or enable others to participate.
 
@@ -92,7 +95,7 @@ As a system or group administrator, you can participate in the beta, or enable o
     The [!UICONTROL Campaigns] list displays.
 1. Start using the [!UICONTROL **Campaigns**] area.
 
-#### **Participate as a regular user**
+#### Participate as a regular user
 
 After your system or group administrator has added the Campaigns area to your Main Menu, do the following:
 

@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: projects
 navigation-topic: issues
 title: Convert issues
-description: This section contains the following articles - EDIT ME.
+description: Find out information about converting issues in the following articles.
 author: Alina
 feature: Work Management
 exl-id: bb84c18e-5270-44ae-9e6e-0a2099d6d164

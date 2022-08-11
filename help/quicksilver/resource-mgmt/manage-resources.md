@@ -3,7 +3,7 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Manage resources
-description: This section contains the following subsections - EDIT ME.
+description: Resource Management is important for properly managing your work and forecasting availability. Learn how to plan and schedule your resources for work in the following articles. 
 author: Alina
 feature: Resource Management
 exl-id: 6f8b3f4a-acdc-4d15-95f7-c71b85d5a8d3

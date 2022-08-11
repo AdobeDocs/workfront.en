@@ -2,7 +2,7 @@
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Close and reopen goals in Adobe Workfront Goals
-description: You can close a goal when you want to indicate the following - EDIT ME.
+description: You can close a goal when you want to indicate that you have completed it or that you are no longer working on it because it became obsolete. 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef

@@ -49,6 +49,12 @@ You must have the following:
 
 You can add new documents to Workfront from the file system on your workstation. You can also link documents from third-party applications such as Google Drive and SharePoint.
 
+>[!NOTE]
+>
+>While there is no size limit for document uploads, document downs are limited to 4GB.
+
+To add a document:
+
 1. Go to the project, task, or issue where you want to add a new document.
 1. Click the **Documents**&nbsp;tab, then click the **Add New** drop-down menu.
 
