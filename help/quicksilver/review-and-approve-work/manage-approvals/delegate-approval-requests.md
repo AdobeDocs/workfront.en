@@ -85,7 +85,7 @@ Consider the following when delegating approvals:
 * You can delegate approvals to only one user; you cannot delegate approvals to multiple users at the same time.  
   All approvals for all projects, tasks, and issues are delegated to the user who you designate.
 * A maximum of 5 users can delegate approvals to the same user at the same time. In other words, a single user cannot be designated as a temporary approver for more than 5 users at the same time.
-* Activity regarding approvals displays on the Updates tab. You must have Show System Updates togged on. Both the user delegating the approval and the user to whom approvals are being delegated receive an email notification regarding approval activity.
+* Activity regarding approvals displays on the Updates tab. You must have Show System Updates enabled. Both the user delegating the approval and the user to whom approvals are being delegated receive an email notification regarding approval activity.
 
 To delegate approvals to another user:
 
@@ -170,7 +170,7 @@ To view delegated approvals:
    >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
    >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
-1. Click the&nbsp;**Filter**&nbsp;drop-down menu, then click&nbsp;**Approvals**.  
+1. Click the **Filter** drop-down menu, then click **Approvals**.  
    All approvals display in the list by default, including approvals assigned to you and approvals delegated to you.
 
    ![](assets/delegated-to-me-nwe-350x93.png)

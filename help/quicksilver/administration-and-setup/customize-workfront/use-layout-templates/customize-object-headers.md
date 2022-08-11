@@ -72,15 +72,20 @@ If you still don't have access, ask your Workfront administrator if they set add
 If you already have five fields selected, you must remove a field before you can add a new one.
 1. In the **Add field** box, start typing the name of a non-editable Workfront field that you want to add, then select it when it displays in the list. 
 
-    <!--(update the tip below when editable fields will come)
-    -->
+    <!--Add this above: The field is added to the immediate right of the Add field box.-->
+    <!--(update the tip below when editable fields will come)-->
 
     >[!TIP]
     >
-    >    Non-editable fields are fields that users cannot manually edit. They are automatically calculated by Workfront. You cannot add an editable field or a custom field to a custom header.
+    >Non-editable fields are fields that users cannot manually edit. They are automatically calculated by Workfront. You can only add fields that display in the Overview area of the object's Details section. 
 
+    ![](assets/add-field-to-header-in-lt-list.png)  
 
-    ![](assets/add-field-to-header-in-lt-list.png)
+    
+    <!--Add this when we release task customizable headers: 
+    * Editable fields that are already part of the default headers (for example, Status, Percent Complete, Assignments) are allowed. -->
+
+1. (Optional) Drag and drop the fields added in a different order.       
     
 1. Continue customizing the layout template.
 

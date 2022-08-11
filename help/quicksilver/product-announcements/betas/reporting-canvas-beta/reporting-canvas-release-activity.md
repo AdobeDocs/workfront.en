@@ -14,6 +14,18 @@ This page lists new features that are added and issues that are resolved for the
 
 For general information on the Reporting Canvas beta, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
 
+## Week of July 24th
+
+### New Features
+
+* Added IF and YEAR functions in Field Builder
+
+## Week of July 17th
+
+### New Features
+
+* Added WEEKDAYDIFF function in Field Builder
+
 ## Week of June 26th
 
 ### New Features

@@ -48,6 +48,11 @@ Before you begin you must have the following:
 
    You are a System Administrator.
 
+>[!NOTE]
+>
+>Only a system administrator can add objects to a campaign that has no owner.
+
+
 ## Add projects to a campaign
 
 1. Click the [!UICONTROL **Main Menu**] icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click [!UICONTROL **Campaigns**].
@@ -57,14 +62,26 @@ Before you begin you must have the following:
 1. Click the name of a campaign to open it. 
 
    The [!UICONTROL Projects] section should open by default.
-1. Click [!UICONTROL **New Project**], then [!UICONTROL **Existing Project**].  
-
-   The Add projects box opens and displays a list of projects.
-1. (Optional) Click the [!UICONTROL **search**] icon ![](assets/search-icon.png) to type a keyword and find a particular project.
-1. (Optional) Click the [!UICONTROL **Filter**], [!UICONTROL **View**], or [!UICONTROL **Grouping**] icons to modify the list of projects in the list.
-1. Select the projects that you want to add to the campaign, then click [!UICONTROL **Add**].
+1. Click [!UICONTROL **New Project**], then click one of the following options: 
    
-   The projects are added to the [!UICONTROL Projects] section of the campaign.
+   1. [!UICONTROL **Existing Project**] to add an existing project, then do the following:
+
+      1. (Optional) Click the [!UICONTROL **search**] icon ![](assets/search-icon.png) to type a keyword and find a particular project.
+      
+      1. (Optional) Click the [!UICONTROL **Filter**], [!UICONTROL **View**], or [!UICONTROL **Grouping**] icons to modify the list of projects in the list.
+      1. Select the projects that you want to add to the campaign, then click [!UICONTROL **Add**].
+      
+         The projects are added to the [!UICONTROL Projects] section of the 
+         campaign.
+   
+   1. **New Project** to create a project from scratch. For more information, see [Create a project](../../manage-work/projects/create-projects/create-project.md). 
+
+   1. **New Project from Template** to create a project from an existing template. For more information, see [Create project from template](../../manage-work/projects/create-projects/create-project-from-template.md).
+
+   ![](assets/new-project-drop-down-options-in-campaign.png)
+   The projects are added to the campaign. 
+   
+   
 1. (Optional) Click a project to open it.
 
    If the added project belongs to multiple campaigns, there is an indication in the breadcrumb of the project that displays all the campaigns connected to the project.
