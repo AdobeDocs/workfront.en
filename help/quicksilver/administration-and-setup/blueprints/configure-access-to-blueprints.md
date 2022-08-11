@@ -36,7 +36,7 @@ You must have the following access to perform the steps in this article:
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
    <td> <p>System Administrator</p> </td> 
   </tr> 
  </tbody> 
