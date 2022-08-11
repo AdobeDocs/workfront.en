@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: workfront-navigation
 title: Glossary of Adobe Workfront terminology
-description: The following table is a list of commonly used terms in Adobe Workfront - EDIT ME.
+description: The Adobe Workfront glossary lists commonly used terms in Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 ---
