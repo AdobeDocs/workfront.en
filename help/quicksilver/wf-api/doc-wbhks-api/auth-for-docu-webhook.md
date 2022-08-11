@@ -10,7 +10,7 @@ exl-id: 2303c202-27c7-4922-a613-e9824910504c
 ---
 # Authentication for Document Webhooks
 
-## **Authentication**
+## Authentication
 
 Adobe Workfront document webhooks supports two different forms of authentication: OAuth2 and ApiKey. In both cases, Workfront passes authentication tokens in the header when making an API call.
 

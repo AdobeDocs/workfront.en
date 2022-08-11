@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## **Calculate the time and date difference between two date fields on the same object**
+## Calculate the time and date difference between two date fields on the same object
 
 For example, you can calculate the difference between the Planned Completion Date and the Actual Completion Date of a task.
 
@@ -76,7 +76,7 @@ For example, you can calculate the difference between the Planned Completion Dat
 
 1. Click **Save**, then **Save View**.
 
-## **Calculate the time and date difference between the field on an object and another field on a parent object**
+## Calculate the time and date difference between the field on an object and another field on a parent object
 
 For a list of objects and their parents, see the "Understanding the Interdependency and Hierarchy of Objects" section in [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).  
 For example, you can calculate the difference between the Planned Completion Date of a task and the Planned Completion Date of its parent task, or of the project that the task is on.
