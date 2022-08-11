@@ -118,7 +118,7 @@ To budget your resources in the new Resource Management tools, do either of the 
 * [Budget resources at the Project Level](#budget-resources-at-the-project-level) 
 * [Budget resources across multiple projects](#budget-resources-across-multiple-projects)
 
-#### **Budget resources at the Project Level** {#budget-resources-at-the-project-level}
+#### Budget resources at the Project Level {#budget-resources-at-the-project-level}
 
 1. Go to one project on which you want to match the Legacy Resource Estimates section and the Resource Budgeting section in the Business Case. 
 1. Click **Edit Resource Budgeting**, then **Apply** to select the appropriate Resource Pools.
@@ -143,7 +143,7 @@ To budget your resources in the new Resource Management tools, do either of the 
 
 1. Click **Save** .
 
-#### **Budget resources across multiple projects** {#budget-resources-across-multiple-projects}
+#### Budget resources across multiple projects {#budget-resources-across-multiple-projects}
 
 1. Go to the **Resource Planner** . 
 1. Select the **Project View** . 
@@ -194,7 +194,7 @@ Do the following, in the following order:&nbsp;
 1. [Compare the two reports and update the projects with the new Resource Pools](#compare-the-two-reports-and-update-the-projects-with-the-new-resource-pools) 
 1. [Compare the two reports and update the projects with the new Resource Pools](#compare-the-two-reports-and-update-the-projects-with-the-new-resource-pools)
 
-#### **Build a Resource Estimates report with Budgeting Hours and job role information** {#build-a-resource-estimates-report-with-budgeting-hours-and-job-role-information}
+#### Build a Resource Estimates report with Budgeting Hours and job role information {#build-a-resource-estimates-report-with-budgeting-hours-and-job-role-information}
 
 You can build the following Resource Estimates report to identify the Job Roles associated with your projects and what job roles have been budgeted for work in the Legacy Resource Estimates area of the project, or the Capacity Planner. The report also displays the new Resource Pools associated with the projects, if there are any:
 
@@ -219,7 +219,7 @@ You can build the following Resource Estimates report to identify the Job Roles 
    The Sch. Hours (or Scheduled Hours) column displays the amount of Planned Hours associated with the tasks where the job role is assigned.  
    The Project: Resource Pools column displays the name of the Resource Pools associated with each project, if any.&nbsp; Consider adding Resource Pools to the projects that are not associated with them.&nbsp;
 
-#### **Build a Resource Pool report with users' job roles information**
+#### Build a Resource Pool report with users' job roles information
 
 You can build a Resource Pool report to identify which users are associated with Resource Pools and what Job Role each user is associated with.
 
@@ -255,7 +255,7 @@ To build the report:
 1. (Optional) Select the **Filters** tab and filter for only the Resource Pools that you plan associating with the projects whose resources you want to manage. 
 1. Click **Save + Close** .
 
-#### **Compare the two reports and update the projects with the new Resource Pools** {#compare-the-two-reports-and-update-the-projects-with-the-new-resource-pools}
+#### Compare the two reports and update the projects with the new Resource Pools {#compare-the-two-reports-and-update-the-projects-with-the-new-resource-pools}
 
 After building the two reports:
 

@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
 By default, when you add an existing task to an iteration, the task's Planned Start Date and Planned Completion Date are set as follows:
 
-### **Task Planned Start Date**
+### Task Planned Start Date
 
 * The task uses the iteration's Start Date when:
 
@@ -62,7 +62,7 @@ By default, when you add an existing task to an iteration, the task's Planned St
 
   * The project's Planned Start Date is *after* the iteration's start date.
 
-### **Task Planned Completion Date**
+### Task Planned Completion Date
 
 * The task uses the iteration's End Date when:
 
@@ -83,7 +83,7 @@ To add stories to an iteration directly from the task or issue:
 >
 >After the task moves to the iteration, you cannot update the Duration Type or Task Constraint. Duration Type is set to Simple and Task Constraint is set to Fixed Dates to keep the task timeline consistent with the iteration's timeline.
 
-### **From the tasks or issues tab**
+### From the tasks or issues tab
 
 You can add any task or issue to any iteration if you have Manage access to the project. Keep the following in mind when moving a task or issue to an iteration:
 
