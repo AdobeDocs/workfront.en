@@ -2,14 +2,14 @@
 product-area: programs;projects
 navigation-topic: create and manage programs
 title: Remove a project from a program
-description: You may remove a project from a program and do one of the following - EDIT ME.
+description: When no longer needed, you can remove a project from a program.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
 ---
 # Remove a project from a program
 
-You may remove a project from a program and do one of the following:
+You may remove a project from a program by doing one of the following:
 
 * Move it to another program.
 * Permanently remove it from the current program and do not associate it with another program.
@@ -35,7 +35,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Portfolios, Programs , and Projects</p> <p>You must have Delete access to Projects to delete projects.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Portfolios, Programs , and Projects</p> <p>You must have Delete access to Projects to delete projects.</p> <p><b> NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 

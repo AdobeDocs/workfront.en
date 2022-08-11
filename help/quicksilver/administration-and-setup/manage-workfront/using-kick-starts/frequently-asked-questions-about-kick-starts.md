@@ -45,3 +45,15 @@ To address this:
    Do this for each column.
 1. Try importing the new file again.  
    The Kick-Start should import successfully.
+
+## Why is the country field not populating on the user profile in a Kick-Start import?
+
+### Problem
+
+When importing a User Kick-Start with the field **setCountry**, that data doesn't come over to the country on the user profile.
+
+### Answer
+
+If the user is enabled for Unified User Management (UUM) or Adobe Identity Management System (IMS), the **Country** field only accepts country code values (for example, US, GB, IN). Verify that the **setCountry** field in your Kick-Start template is using country code values before you import.
+
+For more information about correctly importing data in Workfront using Kick-Starts, see [Import data into Adobe Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
