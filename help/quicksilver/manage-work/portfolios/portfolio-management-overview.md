@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: portfolios
 navigation-topic: projects-navigation-topic
 title: Portfolio Management
-description: This section contains the following subsections - EDIT ME.
+description: Find out information about portfolio management in the following sections.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 89f572a8-f585-4eee-a346-9e3188496c6d

@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: gantt-chart
 title: Gantt Chart overview
-description: This section contains the following articles - EDIT ME.
+description: Find information about the Gantt Chart in the following articles.
 author: Alina
 feature: Work Management
 exl-id: b4dc991e-d89c-4167-ac9c-54bda23d08d8
