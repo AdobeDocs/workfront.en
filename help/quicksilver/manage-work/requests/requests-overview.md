@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: requests
 navigation-topic: projects-navigation-topic
 title: Requests
-description: This section contains the following subsections - EDIT ME.
+description: Learn information about creating requests and request queues in the following sections. 
 author: Alina
 feature: Work Management
 exl-id: f7c12f06-868e-45da-816b-4eb94e06c783
