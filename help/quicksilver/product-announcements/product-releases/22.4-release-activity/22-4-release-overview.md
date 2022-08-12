@@ -35,7 +35,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates and environments</span>
+                        <p><span class="bold">Release dates</span>
                         </p>
                     </td>
                 </tr>
@@ -71,7 +71,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates and environments</span>
+                        <p><span class="bold">Release dates</span>
                         </p>
                     </td>
                 </tr>
@@ -157,7 +157,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates and environments</span>
+                        <p><span class="bold">Release dates</span>
                         </p>
                     </td>
                 </tr>
@@ -234,7 +234,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates and environments</span>
+                        <p><span class="bold">Release dates</span>
                         </p>
                     </td>
                 </tr>
@@ -352,5 +352,10 @@ The following features will be removed with the 22.4 release to Production:
 * List Controls (from the Interface area in Setup)
 
 * Resource Scheduler
+
+  The Workload Balancer is replacing the Resource Scheduler. For more information about the deprecation and how you can prepare to use the Workload Balancer, see the following resources:
+  * [Deprecation of Resource Scheduling tools in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
+
+  * [Migrate from Resource Scheduling to the Workload Balancer](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
 
 * Zoom integration
