@@ -22,4 +22,3 @@ Conversely, unlocking a group's custom statuses allows the administrators of low
 For instructions on locking or unlocking a group status, see [Create or edit a group status](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
 You can use both locked and unlocked statuses in a group approval process. If you create a group approval process with an unlocked group status, users can attach the approval process to any project, task, or issue that is associated with the group.
- 
