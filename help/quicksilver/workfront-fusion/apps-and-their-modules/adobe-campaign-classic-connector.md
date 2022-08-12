@@ -59,7 +59,9 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-### Create a record
+### Actions
+
+#### Create a record
 
 This action module creates a new record in Adobe Campaign Classic.
 
@@ -122,7 +124,7 @@ This module makes a custom API call to the Adobe Campaign Classic API
   </tbody>
 </table>
 
-### Misc Action
+#### Misc Action
 
 This action module performs a selected action on an object in the Adobe Campaign Classic API.
 
@@ -156,7 +158,7 @@ For information on specific actions and fields, see [Adobe Campaign - API Docume
  </tbody> 
 </table>
 
-### Subscription
+#### Subscription
 
 This action module subscribes a user to an information service.
 
@@ -183,7 +185,7 @@ This action module subscribes a user to an information service.
  </tbody> 
 </table>
 
-### Update record
+#### Update record
 
 This action module updates a single record in Adobe Campaign Classic.
 
@@ -214,7 +216,9 @@ This action module updates a single record in Adobe Campaign Classic.
  </tbody> 
 </table>
 
-### Search
+### Searches
+
+#### Seach
 
 This search module returns records based on the specified criteria.
 
