@@ -215,7 +215,7 @@ This section includes the following sub-sections:
 * [Job info](#job-info) 
 * [Contact info](#contact-info)
 
-#### **Basic info** {#basic-info}
+#### Basic info {#basic-info}
 
 This information should already be configured by your Workfront administrator. All the fields in this sub-section are required fields.
 

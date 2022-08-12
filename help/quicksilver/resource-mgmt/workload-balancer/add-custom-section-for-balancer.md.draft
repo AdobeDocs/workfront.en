@@ -3,8 +3,7 @@ filename: add-custom-section-for-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Add a custom section to display the Workload Balancer
-description: "NOTE: finish writing this article and publish it - some of the steps are in this article: Share the Workload Balancer with a link - maybe move those here and link from here to the other article?!"
-author: Alina
+description: Learn how to add the Workload Balancer to a custom section. 
 hidefromtoc: true
 ---
 

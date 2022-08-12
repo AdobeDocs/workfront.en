@@ -88,7 +88,7 @@ For example, a user's billing rate changes during the course of a project from $
 * [Preserve Project Revenue by creating a Billing Record](#preserve-project-revenue-by-creating-a-billing-record) 
 * [Preserve Project Revenue by using multiple Billing Rate overrides](#preserve-project-revenue-by-using-multiple-billing-rate-overrides)
 
-#### **Preserve Project Revenue by creating a Billing Record** {#preserve-project-revenue-by-creating-a-billing-record}
+#### Preserve Project Revenue by creating a Billing Record {#preserve-project-revenue-by-creating-a-billing-record}
 
 When billing rates change at any level mentioned above, you can preserve existing revenue which has already been calculated on the project by avoiding to use the manual Recalculate Finance option or by locking the time recorded on the project and calculated using the old rate into a billing record with a status of Billed.
 
@@ -96,7 +96,7 @@ When you do not recalculate finances on the project or when you lock the hours l
 
 For more information about creating billing records, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md).
 
-#### **Preserve Project Revenue by using multiple Billing Rate overrides** {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
+#### Preserve Project Revenue by using multiple Billing Rate overrides {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
 When billing rates change for job roles at the project level, you can preserve existing revenue which has already been calculated on the project by using multiple billing rates overrides which are locked within a specified time frame.
 

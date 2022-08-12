@@ -24,7 +24,7 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfrontplan*</td> 
+   <td role="rowheader">Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
@@ -33,7 +33,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -119,6 +121,13 @@ For more information about setting up the default status and other default setti
      >When you create a project using a template from a group, the group you create the project from displays in the Group field of the new project only when the Group field of the template is not specified. If the template Group field is specified, the Group field of the new project is that of the template.
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
+
+    * In the Preview environment, go to a **Campaign** and expand **New Project**.
+
+    >[!NOTE]
+    >
+    >    Campaigns are available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md). For information about adding projects to a campaign, see [Add objects to a campaign](../../campaigns/add-objects-to-a-campaign.md). 
+
 
 1. Click **New Project** if you want to create a project from scratch.
 1. Enter a name for your project. Press Enter to save the name.
