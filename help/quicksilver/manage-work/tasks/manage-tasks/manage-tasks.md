@@ -3,7 +3,7 @@ content-type: reference
 product-area: projects
 navigation-topic: tasks
 title: Manage tasks
-description: This section contains the following articles - EDIT ME.
+description: Learn information about managing tasks in the following articles.
 author: Alina
 feature: Work Management
 exl-id: d87311fc-6f60-4fa8-a180-fda6eae473a0
@@ -17,7 +17,7 @@ This section contains the following articles:
 * [Overview of saving concurrent changes within a task list](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/tasks/manage-tasks/manage-task-details-forms-finances.md" class="MCXref xref" xrefformat="{para}">Manage task details, custom forms, and finances</a> (drafted not to lose the TOC spot, but the article is in draft)</li>
+  <li><a href="../../../manage-work/tasks/manage-tasks/manage-task-details-forms-finances.md" class="MCXref xref" xrefformat="{para}">Manage task details, custom forms, and finances</a> (drafted not to lose the TOC spot, but the article is in draft)</li>
   -->
 
 * [Manage task information in the Task Details Overview area](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md) 

@@ -2,17 +2,17 @@
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
 title: Level Resources in the Gantt Chart
-description: Leveling your resources on a project has two purposes - EDIT ME.
+description: Information about how to level resources in the Gantt Chart. 
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
 ---
 # Level Resources in the Gantt Chart
 
-Leveling your resources&nbsp;on a project&nbsp;has two purposes:
+Leveling your resources on a project has two purposes:
 
-* To automatically adjust&nbsp;over-allocation of time for assignees.
-* To automatically create a realistic task schedule for a&nbsp;project.&nbsp;
+* To automatically adjust over-allocation of time for assignees.
+* To automatically create a realistic task schedule for a project.
 
 ## Access requirements
 
@@ -32,7 +32,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -54,7 +56,7 @@ Consider the following when leveling resources on a project:
 * When multiple users are assigned to the same task, leveling will be canceled.
 * Conditions for the type of **Task Constraint**&nbsp;will take precedence over the leveling of resources. For example,&nbsp;if **Fixed Dates** is selected as the Task Constraint, resource leveling will not change the task dates.
 * Predecessor relationships will take precedence over resource leveling.
-* **Resource Leveling** needs to be set to **Manual** for the project in order to adjust leveling in the Gantt chart. If you have Manage permissions to the project, you can can have the system automatically level resources by adjusting this setting on the project and selecting **Automatic** instead of **Manual**in the Edit Project box**.**
+* **Resource Leveling** needs to be set to **Manual** for the project in order to adjust leveling in the Gantt chart. If you have Manage permissions to the project, you can can have the system automatically level resources by adjusting this setting on the project and selecting **Automatic** instead of **Manual** in the **Edit Project** box.
 
   ![](assets/resource-leveling-mode-350x177.png)
 

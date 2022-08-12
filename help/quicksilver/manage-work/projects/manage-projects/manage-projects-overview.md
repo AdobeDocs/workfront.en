@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
 title: Manage projects
-description: This section contains the following articles - EDIT ME.
+description: Find out information about managing projects in the following articles.
 author: Alina
 feature: Work Management
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb

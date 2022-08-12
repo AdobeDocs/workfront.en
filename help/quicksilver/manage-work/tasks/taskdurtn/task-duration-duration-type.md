@@ -3,7 +3,7 @@ content-type: reference
 product-area: projects
 navigation-topic: tasks
 title: Task Duration and Duration Types
-description: This section contains the following articles - EDIT ME.
+description: The Duration Type of a task identifies the relationship between the number of resources assigned to a task, the total effort, and the total Duration of the task. Learn about task Duration and Duration Type in the following articles. 
 author: Alina
 feature: Work Management
 exl-id: df6cd9bc-e34f-4e84-8a1b-484a6bffe53c
@@ -21,4 +21,4 @@ This section contains the following articles:
 * [Update the Planned Hours and Duration of a task with a Simple Duration Type](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md) 
 * [Duration Types in Adobe Workfront and Microsoft Project](../../../manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
 
-&nbsp;
+

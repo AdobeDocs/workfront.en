@@ -19,6 +19,8 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
 *   [Administrator enhancements](#Administ)
     
 *   [Project enhancements](#Project)
+
+*   [Other enhancements](#Other)
     
 
 ### Administrator enhancements
@@ -252,6 +254,45 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                         </ul>
                     </td>
                 </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (Beta)</a> </p>
+                        <p>We are introducing a new object to Adobe Workfront that has the potential to change the way you manage work. </p>
+                        <p>Workfront Campaigns enables you to organize projects from different portfolios and programs in a new work container.
+Campaigns were released to Preview beta with the 22.3 release, in July 2022. For more information, see <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3 Project enhancements</a> </p>
+<p>This new container will evolve in future releases to connect work objects that are currently managed in separate silos.</p>
+<p>For more information about the Workfront Campaigns beta, as well as information about new features as they release to Preview, see <a href="../../../product-announcements/betas/campaign-object-beta.md" class="MCXref xref" xrefformat="{para}">Campaigns beta</a> </p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;Throughout the 22.4 release timeframe<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release:&#160;TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Expanded team description</a> </p>
+                        <p>In the Teams area, you can now view the full team description by clicking the description to display it in a pop-up. Any URLs in the description are clickable in the pop-up, and you can click in the description text to edit it (if you have access to edit the team settings).</p>
+                        <p>Previously, scrolling through the description in a narrow area was the only way to see all of the content.</p>
+<p>This enhancement to the description applies to both agile and non-agile teams.</p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;Throughout the 22.4 release timeframe<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release:&#160;TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
             </tbody>
         </table>   
 
@@ -304,11 +345,11 @@ The 22.4 release webinar is not yet scheduled. This page will be updated when mo
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
 
-### Functionality no longer supported
+### Functionality being removed with the 22.4 release
 
 The following features will be removed with the 22.4 release to Production:
 
-* List Controls
+* List Controls (from the Interface area in Setup)
 
 * Resource Scheduler
 

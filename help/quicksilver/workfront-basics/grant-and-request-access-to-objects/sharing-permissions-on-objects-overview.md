@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: grant-and-request-access-to-objects
 title: Overview of sharing permissions on objects
-description: Redundancy here with the article Permissions for shared objects?
+description: You can share or remove permissions to an object you created or an object that was shared with you.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
@@ -12,8 +12,6 @@ exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Redundancy here with the article Permissions for shared objects?</p>
 -->
-
-The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
 
 You do not have to be an Adobe Workfront administrator to share permissions on objects that you have access to, but permissions on objects work within the access levels set by the Workfront administrator.
 
@@ -163,7 +161,7 @@ For more information about the hierarchy and interdependency of objects in Workf
 
 If you grant Manage permissions to a Group of users on an object, and you grant View permissions to an individual user in that Group on the same object, the user has the highest level of permissions (Manage) granted through the Group membership on the object.&nbsp;
 
-If you want to grant lower permissions to a user who is already part of an organizational unit (Group, Team, Job Role, or Company) with a higher permission level, you must remove the permissions from the organizational unit, and add users individually with a lower level of permissions.&nbsp;&nbsp;
+If you want to grant lower permissions to a user who is already part of an organizational unit (Group, Team, Job Role, or Company) with a higher permission level, you must remove the permissions from the organizational unit, and add users individually with a lower level of permissions.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

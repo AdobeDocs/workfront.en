@@ -13,6 +13,7 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * 22.4 Release {#release-22-4}
       * [22.4 Release overview](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
+      * [22.4 Release activity: Week of August 7, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-7.md)
       * [22.4 Release activity: Week of August 1, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md)
       * [22.4 Release activity: Week of July 18, 2022](product-announcements/product-releases/22.4-release-activity/22-4-july-18.md)
       * [22.4 Look and feel updates](product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md)
@@ -865,7 +866,7 @@ feature-set: Workfront
 )
     * [Add or remove members from a board](agile/get-started-with-boards/add-members-to-board.md)
     * [Manage board columns](agile/get-started-with-boards/manage-board-columns.md)
-    * [Add a card to a board](agile/get-started-with-boards/add-card-to-board.md)
+    * [Add an ad hoc card to a board](agile/get-started-with-boards/add-card-to-board.md)
     * [Use connected cards on boards](agile/get-started-with-boards/connected-cards.md)
     * [Manage cards](agile/get-started-with-boards/move-board-items.md)
     * [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)

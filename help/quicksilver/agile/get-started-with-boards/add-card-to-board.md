@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Add a card to a board
+title: Add an ad hoc card to a board
 description: You can quickly add an ad hoc card to a board and assign it to a member on the board. The card can represent a task, issue, person, group, or any type of item that you want to include on the board.
 author: Lisa
 feature: Agile
@@ -63,7 +63,7 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Assignees</strong> </td> 
-      <td> <p>To assign the card, start typing a name in the search field, then select it when it displays in the list. In the Production environment, you can add individual people. In the Preview environment, you can add both individuals and teams. You can assign more than one person or team to a card.</p> <p>Assignees must be members on the board or they will not appear in the selection list.</p> <p>Adding a team is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</p> </td>
+      <td> <p>To assign the card, start typing a name in the search field, then select it when it displays in the list. You can add both individuals and teams, and you can assign more than one person or team to a card.</p> <p>Assignees must be members on the board or they will not appear in the selection list. When a team is a member on the board, then the individual team members can be assigned to the card.</p> <p>Adding a team is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Column</strong> </td> 
