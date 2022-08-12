@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
 title: Tasks
-description: This section contains the following subsections - EDIT ME.
+description: Tasks are smaller work items in Adobe Workfront that contribute to the completion of a project. Learn information about managing tasks in the following articles. 
 author: Alina
 feature: Work Management
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248

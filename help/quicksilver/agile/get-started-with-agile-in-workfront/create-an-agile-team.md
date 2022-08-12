@@ -17,7 +17,7 @@ Workfront supports the following agile methodologies:
 
 * **Scrum**: Teams have a backlog of work that needs to be done. When the team is ready to work on a specific chunk of work, the work is moved from the backlog to an iteration. For more detailed information about managing a Scrum team, see [Scrum in an agile team](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
 
-* **Kanban:** Teams move work in&nbsp;the Kanban view across predetermined&nbsp;statuses. Default statuses are: backlog, in-process, and done. For more detailed information about managing a Kanban&nbsp;team, see [Kanban in an agile team](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
+* **Kanban:** Teams move work in the Kanban view across predetermined statuses. Default statuses are: backlog, in-process, and done. For more detailed information about managing a Kanban team, see [Kanban in an agile team](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
 ## Access requirements
 
@@ -108,7 +108,8 @@ The following functionality supports this methodology:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Description</strong> </td> 
-      <td>Type a description for the team.</td> 
+      <td><p>Type a description for the team.</p> <p>The description displays on the top right of the Teams area when the team is selected.</p>
+      <p>In the Preview environment only: If the description is long, you can click it to display the full description in a pop-up. If you have access to edit the team settings, you can also edit the description directly in the pop-up.</p></td>
      </tr> 
     </tbody> 
    </table>

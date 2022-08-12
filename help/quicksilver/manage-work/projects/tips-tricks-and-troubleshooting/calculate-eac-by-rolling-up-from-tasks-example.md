@@ -20,7 +20,7 @@ exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
 * [Simple example: project has no children tasks](#simple-example-project-has-no-children-tasks) 
 * [Complicated example: project has children tasks](#complicated-example-project-has-children-tasks)
 
-#### **Simple example: project has no children tasks** {#simple-example-project-has-no-children-tasks}
+#### Simple example: project has no children tasks {#simple-example-project-has-no-children-tasks}
 
 PIM = Hour-Based
 
@@ -102,7 +102,7 @@ EAC Method = Roll up from tasks/ subtasks
    **EAC for Project** = 125 + 83.33 + 62.5  
    **EAC for Project** = 270.83 hrs
 
-#### **Complicated example: project has children tasks** {#complicated-example-project-has-children-tasks}
+#### Complicated example: project has children tasks {#complicated-example-project-has-children-tasks}
 
 PIM = Hour-Based
 
@@ -255,7 +255,7 @@ EAC Method = Roll up from tasks/ subtasks
 
 * [Simple example: project has no children tasks](#simple-example-project-has-no-children-tasks)
 
-#### **Simple example: project has no children tasks** {#simple-example-project-has-no-children-tasks-1}
+#### Simple example: project has no children tasks {#simple-example-project-has-no-children-tasks-1}
 
 PIM = Cost-Based
 

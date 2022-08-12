@@ -121,7 +121,7 @@ If the user who logs the hours or their Primary Job Role is associated with a Bi
 * [What hours can be added to a billing record](#what-hours-can-be-added-to-a-billing-record) 
 * [Add Hours to a billing record](#add-hours-to-a-billing-record)
 
-#### **What hours can be added to a billing record** {#what-hours-can-be-added-to-a-billing-record}
+#### What hours can be added to a billing record {#what-hours-can-be-added-to-a-billing-record}
 
 You can add hours to a billing record when the following conditions are met:
 
@@ -145,7 +145,7 @@ You can add hours to a billing record when the following conditions are met:
 * If **Require time to be approved for this project** is checked under Project Settings, then the Project Owner must approve the hours logged.  
   For more information about requiring approval on project hours, see the article [Require time to be approved for a project](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
 
-#### **Add Hours to a billing record** {#add-hours-to-a-billing-record}
+#### Add Hours to a billing record {#add-hours-to-a-billing-record}
 
 To add billable hours to a billing record:
 

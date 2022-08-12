@@ -53,7 +53,7 @@ The following financial fields display in the Portfolio Optimizer:
 * [Portfolio header](#portfolio-header) 
 * [Portfolio finances for selected projects](#portfolio-finances-for-selected-projects)
 
-#### **Portfolio header** {#portfolio-header}
+#### Portfolio header {#portfolio-header}
 
 ![](assets/portfolio-header-nwe-350x14.png)
 

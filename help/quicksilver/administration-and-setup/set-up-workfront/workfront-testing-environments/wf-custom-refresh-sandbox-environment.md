@@ -96,7 +96,7 @@ Any user can access the Custom Refresh Sandbox by using a URL.
 * [Access the Custom Refresh Sandbox for accounts on Clusters 1,2,3, and 5](#access-the-custom-refresh-sandbox-for-accounts-on-clusters-1-2-3-and-5) 
 * [Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)
 
-### **Access the Custom Refresh Sandbox for accounts on Clusters 1,2,3, and 5** {#access-the-custom-refresh-sandbox-for-accounts-on-clusters-1-2-3-and-5}
+### Access the Custom Refresh Sandbox for accounts on Clusters 1,2,3, and 5 {#access-the-custom-refresh-sandbox-for-accounts-on-clusters-1-2-3-and-5}
 
 Depending on your Support package, you should have access to one or two Custom Refresh Sandboxes.
 
@@ -113,7 +113,7 @@ To access your Custom Refresh Sandbox using a URL:
 1. On the login screen, log in using your Custom Refresh Sandbox credentials. 
 1. Your Custom Refresh Sandbox credentials are the same as your production credentials, unless you have changed your production credentials since your Custom Refresh Sandbox was last refreshed. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.
 
-### **Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)** {#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts}
+### Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts) {#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts}
 
 If your Workfront account is on Cluster 4 (EMEA cluster), you can access your Custom Refresh Sandbox only using a URL. To find out what cluster your account is on, contact our Customer Support team. 
 

@@ -32,6 +32,8 @@ The following headers are available in Home:
 
 Your Workfront  or group administrator  can customize the header of projects by using a layout template. This article describes the default headers for all objects, including projects. For information about customizing information on the header of an object, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). 
 
+<!--drafted for task headers: replace first sentence above with this: Your Workfront  or group administrator  can customize the header of projects and tasks by using a layout template.-->
+
 ## Project header overview {#project-header-overview}
 
 ![](assets/project-header-350x18.png)
