@@ -132,17 +132,10 @@ You must have the following to perform the steps in this article:
       <td> 
        <p>If you leave this option enabled, the users in your group and its subgroups can see and use the status and group administrators cannot customize it for lower subgroups.</p> 
        <p>When this option is disabled, group administrators can customize the status for lower subgroups.</p> 
+       <p><b>NOTE</b>: You can use both locked and unlocked statuses in a group approval process. If you create a group approval process with an unlocked group status, users can attach the approval process to any project, task, or issue that is associated with the group.</p> 
        <p>For more information about locking statuses, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Locked and unlocked group statuses</a>.</p> 
-       <p><b>NOTE</b>: You can use both locked and unlocked statuses in a group approval process. If you create a group approval process with an unlocked group status, users can attach the approval process to any project, task, or issue that is associated with the group.</p> </p>
        </td> 
      </tr>
-     <!-- This story is on hold 
-      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-      <td role="rowheader">Users can select this status only if required fields on the object are completed</td> 
-      <td> <p>(Applies only if you selected Tasks in Step 3) Assures that users can select this status for an object only if all required fields on the object are completed. </p>
-      -->
-       </td> 
-      </tr>
     </tbody> 
    </table>
 
