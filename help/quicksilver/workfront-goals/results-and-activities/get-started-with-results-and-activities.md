@@ -3,21 +3,25 @@ product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Get started with results and activities in Adobe Workfront Goals
-description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+description: You must add results, activities, or aligned goals to a goal to be able to activate it. This updates the goal status from Draft to Active and starts recording progress on the goal. 
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
 ---
 # Get started with results and activities in Adobe Workfront Goals
 
-Your organization must have the following to use the functionality described in this article:
+>[!NOTE]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
+>* An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>  Contact your Workfront account manager to learn about a Workfront Goals license.
+>
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-* An Adobe Workfront Goals license in addition to a Workfront license.
 
-  Contact your Workfront account manager to learn about a Workfront Goals license.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 When you create a goal, the goal has a status of Draft. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 In order to start recording progress on a goal, you must activate it. To activate your goal and change its status to Active you must first add the following to it:

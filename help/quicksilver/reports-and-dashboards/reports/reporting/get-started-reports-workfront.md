@@ -137,13 +137,13 @@ Text Mode enables you to create more complex views, filters, groupings, and prom
 * [Calculated Columns, Conditional Formatting, and other uses of Text Mode](#calculated-columns-conditional-formatting-and-other-uses-of-text-mode) 
 * [Text Mode samples](#text-mode-samples)
 
-#### **Text Mode terminology** {#text-mode-terminology}
+#### Text Mode terminology {#text-mode-terminology}
 
 You must use a specific syntax to use the Workfront Text Mode interface.
 
 For more details about the Workfront syntax for text mode, see [Text mode syntax overview](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-#### **Calculated Columns, Conditional Formatting, and other uses of Text Mode** {#calculated-columns-conditional-formatting-and-other-uses-of-text-mode}
+#### Calculated Columns, Conditional Formatting, and other uses of Text Mode {#calculated-columns-conditional-formatting-and-other-uses-of-text-mode}
 
 Outside of reporting on fields that are not available in the builder interface, you can use Text Mode to display calculations or comparisons between certain fields.
 
@@ -156,7 +156,7 @@ For information about comparing fields in conditional formatting, see the articl
 You can also refer to collection fields using Text Mode in reports.  
 For information about using Text Mode to display collection information in a report, see the article [Reference collections in a report](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
-#### **Text Mode samples** {#text-mode-samples}
+#### Text Mode samples {#text-mode-samples}
 
 We have a library of samples of the most used Views, Filters, and Groupings you can create with Text Mode.
 

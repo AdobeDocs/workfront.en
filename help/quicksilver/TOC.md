@@ -13,6 +13,7 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * 22.4 Release {#release-22-4}
       * [22.4 Release overview](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
+      * [22.4 Release activity: Week of August 7, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-7.md)
       * [22.4 Release activity: Week of August 1, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md)
       * [22.4 Release activity: Week of July 18, 2022](product-announcements/product-releases/22.4-release-activity/22-4-july-18.md)
       * [22.4 Look and feel updates](product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md)

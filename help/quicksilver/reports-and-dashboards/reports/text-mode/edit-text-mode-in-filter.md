@@ -54,7 +54,7 @@ For more information, see:
 * [Text mode syntax overview](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md) 
 * [Custom View, Filter, and Grouping samples](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## **Edit text mode in a filter**
+## Edit text mode in a filter
 
 Editing a filter using text mode is identical for reports and lists.&nbsp;Accessing the view from a report or from a list differs.
 

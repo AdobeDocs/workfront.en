@@ -103,7 +103,7 @@ There are some differences when using agile views on a project versus working in
 * [The Agile Team is not used](#the-agile-team-is-not-used) 
 * [Each user on the project can view the project in a different Agile view](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
 
-#### **Tasks and subtasks follow different display rules on the Story Board** {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
+#### Tasks and subtasks follow different display rules on the Story Board {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
 * Tasks that have neither a parent task nor a subtask are always displayed as a single story card on the story board.   
   For example, these tasks appear as follows in the project list view:   
@@ -123,32 +123,32 @@ There are some differences when using agile views on a project versus working in
 * Second-level subtasks (subtasks of subtasks) are displayed as a hanging gray card off the immediate parent task.
 * Third-level subtasks (subtasks of subtasks of subtasks) are never displayed on the story board.
 
-#### **Backlogs and iterations are not used** {#backlogs-and-iterations-are-not-used}
+#### Backlogs and iterations are not used {#backlogs-and-iterations-are-not-used}
 
 When viewing a project in an agile view, the following agile components are not used:
 
 * **Backlog:** No backlog is used because any tasks in the project are automatically displayed as stories.
 * **Iterations:** Rather than creating iterations to define the dates when work will be accomplished, the days currently designated on the project timeline become the working days.
 
-#### **Task order is maintained in the Agile view and cannot be reordered** {#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered}
+#### Task order is maintained in the Agile view and cannot be reordered {#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered}
 
 The order in which&nbsp;tasks appear in a project is maintained when you view the project in an agile story board.
 
 You cannot reaorder tasks in the project when viewing the project in an agile view. Because modifying the task order can&nbsp;affect other tasks that might have dependencies, you must view the project in a standard&nbsp;view in order to modify task order.
 
-#### **Tasks are measured only in Planned Hours** {#tasks-are-measured-only-in-planned-hours}
+#### Tasks are measured only in Planned Hours {#tasks-are-measured-only-in-planned-hours}
 
 Tasks on a project are always measured in Planned Hours.
 
 In an iteration, tasks (stories) can be measured in hours or points.
 
-#### **The Agile Team is not used** {#the-agile-team-is-not-used}
+#### The Agile Team is not used {#the-agile-team-is-not-used}
 
 Because agile teams complete the work on iterations that are assigned to them, agile teams are not used when viewing a project in an agile view.
 
 Instead, any users on the project essentially become&nbsp;the agile team for that project.
 
-#### **Each user on the project can view the project in a different Agile view** {#each-user-on-the-project-can-view-the-project-in-a-different-agile-view}
+#### Each user on the project can view the project in a different Agile view {#each-user-on-the-project-can-view-the-project-in-a-different-agile-view}
 
 Unlike an agile iteration, users on a project can customize the agile view for themselves, while other users use a different agile view.
 

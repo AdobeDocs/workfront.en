@@ -59,6 +59,10 @@ For more information, see [Add or edit an image or other asset widget in a custo
 
 ## Custom form field calculation editor displays error information
 
+>[!NOTE]
+>
+>This feature is temporarily unavailable. This page will be updated when the feature is available.
+
 Editing calculations for custom fields is now easier with helpful error information indicated directly in the calculation. While you are creating a calculated field in a custom form, errors are highlighted in pink. When you hover over the highlighted portion, a tooltip displays to describe what the problem is.
 
 For more information, see [Add calculated data to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).

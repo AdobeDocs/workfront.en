@@ -558,15 +558,17 @@ You can define default custom forms to be automatically attached to tasks when t
 
 1. Click **Save**.
 
-&nbsp;
-
 ## Edit a task in the task header (limited)
 
 You can edit a limited amount of information in the task header.
 
+<!--drafted for task headers: In the Preview environment, your system or group administrator can customize the fields you see in the task header.-->
+
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
 You can edit the following fields in the task header:
+
+<!--drafted for task headers: replace the sentence above with this: The following fields are included in the project header, by default:-->
 
 * Task name
 * Percent complete

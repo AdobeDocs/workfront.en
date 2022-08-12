@@ -162,11 +162,11 @@ TotalBudgetedCostWorkPerformed = Planned Hours &#42; (Percent Complete/100)
 
 &nbsp;
 
-# **Formulas**
+# Formulas
 
-## **PIM= Hour-based**
+## PIM= Hour-based
 
-### **TotalBudgetedCostWorkPerformed**
+### TotalBudgetedCostWorkPerformed
 
 **For a non parent task** :
 
@@ -180,21 +180,21 @@ TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed f
 
 &nbsp;
 
-### **CPI**
+### CPI
 
 * IF * Actual Hours > 0 * THEN * CPI = TotalBudgetedCostWorkPerformed / Actual Hours
 
 * ELSE * CPI = 1
 
-### **EAC**
+### EAC
 
 * IF * CPI <> 0 * THEN * EAC = Planned Hours / CPI
 
 * ELSE * EAC = Planned Hours + Actual Hours
 
-## **PIM =Cost-Based**
+## PIM =Cost-Based
 
-### **TotalBudgetedCostWorkPerformed**
+### TotalBudgetedCostWorkPerformed
 
 **For a non parent task** :
 
@@ -208,7 +208,7 @@ TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed f
 
 &nbsp;
 
-### **CPI**
+### CPI
 
 * IF * Actual Labor Cost + IncurredActualExpenseCost <> 0 * THEN * CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
 
@@ -216,7 +216,7 @@ TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed f
 
 &nbsp;
 
-### **EAC**
+### EAC
 
 **EAC** = **EAC Labor** + **EAC Expense**
 
@@ -240,11 +240,11 @@ ELSE CPI_Labor = 1
 
 &nbsp;
 
-# **EAC Method: Calculate at Project Level**
+# EAC Method: Calculate at Project Level
 
-## **PIM = Hour-Based**
+## PIM = Hour-Based
 
-### **Simple example: Project has no child tasks**
+### Simple example: Project has no child tasks
 
 PIM = Hour-Based
 
@@ -343,7 +343,7 @@ Task 3 = .24 / 62.5 hrs
 
 **EAC for Project** = 225 hrs
 
-### **Complicated Example: Project has child tasks**
+### Complicated Example: Project has child tasks
 
 PIM = Hour-Based
 
@@ -531,9 +531,9 @@ Task 6: 1.2 / 16.67 hrs
 
 **EAC for Project** = 224.49 hrs
 
-## **PIM = Cost-Based**
+## PIM = Cost-Based
 
-### **Simple Example: Project has no child tasks**
+### Simple Example: Project has no child tasks
 
 PIM = Cost-Based
 
@@ -809,7 +809,7 @@ ELSE CPI_Labor = 1
 
 **EAC****Project** = $28,200.00
 
-### **Complicated Example: Project has child tasks**
+### Complicated Example: Project has child tasks
 
 PIM = Cost-Based
 
@@ -1369,11 +1369,11 @@ ELSE CPI_Labor = 1
 
 &nbsp;
 
-# **EAC Method: Roll up from tasks/subtasks**
+# EAC Method: Roll up from tasks/subtasks
 
-## **PIM = Hour-Based**
+## PIM = Hour-Based
 
-### **Simple Example: Project has no child tasks**
+### Simple Example: Project has no child tasks
 
 PIM = Hour-Based
 
@@ -1470,7 +1470,7 @@ Task 3 = .24 / 62.5 hrs
 
 **EAC for Project** = 270.83 hrs
 
-### **Complicated Example: Project has child tasks**
+### Complicated Example: Project has child tasks
 
 PIM = Hour-Based
 
@@ -1654,9 +1654,9 @@ Task 6 = 1.2 / 16.67 hrs
 
 &nbsp;
 
-## **PIM = Cost-Based**
+## PIM = Cost-Based
 
-### **Simple Example: Project has no child tasks**
+### Simple Example: Project has no child tasks
 
 PIM = Cost-Based
 
@@ -1903,7 +1903,7 @@ Task 3 = .44 / $6,950.00
 
 &nbsp;
 
-### **Complicated Example: Project has child tasks**
+### Complicated Example: Project has child tasks
 
 PIM = Cost-Based
 

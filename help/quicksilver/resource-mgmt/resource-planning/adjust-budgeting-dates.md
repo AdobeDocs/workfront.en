@@ -42,7 +42,7 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## **Adjust Budgeting Dates**
+## Adjust Budgeting Dates
 
 1. Go to the Resource Planner and select **View by Project**.
 

@@ -95,7 +95,10 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
    * Blueprints (available in the Preview environment only)
    * Campaigns
 
-    Campaigns are available in the Preview environment when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md).
+      >[!NOTE]
+      >
+      >Campaigns are available in the Preview environment when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md).
+
 
 1. Do any of the following:
 
