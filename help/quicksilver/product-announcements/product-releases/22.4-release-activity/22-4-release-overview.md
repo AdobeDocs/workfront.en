@@ -163,7 +163,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md" class="MCXref xref" xrefformat="{para}">Add a team to a board or card</a><span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md" class="MCXref xref" xrefformat="{para}">Add a team to a board or card</a> </p>
                         <p>You can now add a team as a member of the board. The individual team members are no longer added when you add a team to the board, though all of the team members have access to the board.</p>
                         <p>After you add the team to the board, you can assign the team to cards. On connected cards, only one team assignment is allowed. On ad hoc cards, you can assign more than one team.
                         </p>
@@ -277,7 +277,7 @@ Campaigns were released to Preview beta with the 22.3 release, in July 2022. For
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Expanded team description</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-7.md" class="MCXref xref" xrefformat="{para}">Expanded team description</a><span style="color: #ff0000;"> New in Preview!</span> </p>
                         <p>In the Teams area, you can now view the full team description by clicking the description to display it in a pop-up. Any URLs in the description are clickable in the pop-up, and you can click in the description text to edit it (if you have access to edit the team settings).</p>
                         <p>Previously, scrolling through the description in a narrow area was the only way to see all of the content.</p>
 <p>This enhancement to the description applies to both agile and non-agile teams.</p>
@@ -285,10 +285,10 @@ Campaigns were released to Preview beta with the 22.3 release, in July 2022. For
                     <td><span class="bold">Available on these dates:</span>
                         <ul>
                             <li>
-                                <p>Preview release:&#160;Throughout the 22.4 release timeframe<br /></p>
+                                <p>Preview release:&#160;August 11, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release:&#160;TBD</p>
+                                <p>Production release:&#160;With the 22.4 release</p>
                             </li>
                         </ul>
                     </td>
