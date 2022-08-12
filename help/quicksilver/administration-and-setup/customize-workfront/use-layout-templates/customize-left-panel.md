@@ -138,7 +138,7 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td>Scrum Team</td> 
       <td>The name of a Scrum team</td> 
-      <td>Iterations, Current iteration, Backlog, Schedule, Updates, Team Settings </td> 
+      <td><p>Iterations, Current iteration, Backlog, Schedule, Updates, Team Settings</p> <p><strong>NOTE:</strong> The <strong>Current iteration</strong> item only displays in the left panel when there is at least one task or issue on the iteration.</p></td> 
      </tr> 
      <tr> 
       <td>Kanban Team</td> 
