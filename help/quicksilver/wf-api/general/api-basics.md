@@ -86,7 +86,7 @@ The API authenticates each request to ensure that the client has access to view 
 
 Authentication is performed by passing in a session ID which can be given using one the following methods:
 
-#### **Request Header Authentication**
+#### Request Header Authentication
 
 The preferred method of authentication is to pass a request header named SessionID containing the session token. This has the advantage of being safe against [Cross-site Request Forgery (CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) attacks and not interfering with the URI for caching purposes.
 
@@ -96,7 +96,7 @@ The following is an example of a request header:
 GET /attask/api/v9.0/project/search <br>SessionID: abc1234
 ```
 
-#### **Request Parameter Authentication**
+#### Request Parameter Authentication
 
 You can authenticate by passing a request parameter named sessionID, as shown in the following example:&nbsp;
 
@@ -104,7 +104,7 @@ You can authenticate by passing a request parameter named sessionID, as shown in
 GET /attask/api/v9.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
 ```
 
-#### **Cookie-Based Authentication**
+#### Cookie-Based Authentication
 
 The API uses the same cookie-based authentication that is used by the web UI to the system. Where, if a client logs into Workfront using the web UI, any AJAX calls made from within the same browser uses the same authentication.
 

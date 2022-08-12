@@ -2,14 +2,16 @@
 product-area: portfolios;projects
 navigation-topic: create-and-manage-portfolios
 title: Review Requested Projects
-description: When multiple project requests are submitted for review, the project management office or portfolio committee can meet to review submitted requests and determine project request approvals. To submit a project request for review, do one of the following - EDIT ME.
+description: Project requests display as projects with a status of Requested in Adobe Workfront. This article describes how to review project requests. 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
 ---
 # Review Requested Projects
 
-When multiple project requests are submitted for review, the project management office or portfolio committee can meet to review submitted requests and determine project request approvals. To submit a project request for review, do one of the following:
+When multiple project requests are submitted for review, the project management office or portfolio committee can meet to review submitted requests and determine project request approvals. Project requests display as projects with a status of Requested in Adobe Workfront. 
+
+You can submit a project request for review by doing one of the following:
 
 * Change the project status to **Requested**.
 * Complete the Business Case of the project and submit it for approval.   

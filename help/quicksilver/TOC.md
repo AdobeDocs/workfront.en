@@ -13,6 +13,7 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * 22.4 Release {#release-22-4}
       * [22.4 Release overview](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
+      * [22.4 Release activity: Week of August 7, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-7.md)
       * [22.4 Release activity: Week of August 1, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md)
       * [22.4 Release activity: Week of July 18, 2022](product-announcements/product-releases/22.4-release-activity/22-4-july-18.md)
       * [22.4 Look and feel updates](product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md)
@@ -865,7 +866,7 @@ feature-set: Workfront
 )
     * [Add or remove members from a board](agile/get-started-with-boards/add-members-to-board.md)
     * [Manage board columns](agile/get-started-with-boards/manage-board-columns.md)
-    * [Add a card to a board](agile/get-started-with-boards/add-card-to-board.md)
+    * [Add an ad hoc card to a board](agile/get-started-with-boards/add-card-to-board.md)
     * [Use connected cards on boards](agile/get-started-with-boards/connected-cards.md)
     * [Manage cards](agile/get-started-with-boards/move-board-items.md)
     * [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)
@@ -2527,7 +2528,7 @@ feature-set: Workfront
     * [Category](wf-api/wf-objects/category.md)
   * Tips, tricks, and troubleshooting for Adobe Workfront API {#tips-troubleshooting-apis}
     * [Tips, tricks, and troubleshooting for Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
-    * [API Error: “The remote server returned an error: (400) Bad Request”](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
+    * [API Error: "The remote server returned an error: (400) Bad Request"](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
     * [Duplicates returned during a large paginated search](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
     * [Sorting query results in the API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
     * [Update to emailAddr does not update the username](wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
@@ -2539,7 +2540,7 @@ feature-set: Workfront
     * [Overview](proofhq-api/general/overview.md)
     * [Code Samples](proofhq-api/general/code-samples.md)
     * [SOAP API FAQs](proofhq-api/general/soap-api-faqs.md)
-
+* [Hidden file](hidden-test.md)
 
 <!--
 Moved and commented out sections from line 1477 - I believe the entire section is duped but need to verify

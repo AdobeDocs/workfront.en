@@ -80,9 +80,22 @@ Configure any of the following preferences for newly created projects associated
  <col> 
  <col> 
  <tbody> 
+
+<tr><td>Allow users to create projects without using a template</td>
+<td><p>This preference allows users to create projects without using a template when creating a project from the following areas:</p>
+<ul>
+<li><p>Use the New Project option in a list of projects</p></li>
+
+<li><p>Convert an issue to a project from the issue's page</p></li>
+</ul>
+
+<p>This preference is enabled by default at the system level.</p>
+<p><b>NOTE</b></p>
+<p>When a user belongs to multiple groups with different preferences, the user will be allowed to create a project without a template if at least one of their groups has this preference enabled.</p>
+</td></tr>
   <tr> 
    <td role="rowheader">Set new project's status to</td> 
-   <td> <p>Determine the status of new projects.</p> <p><b>NOTE</b>:   
+   <td> <p>Determine the status of new projects.</p> <p><b>NOTE</b>   
      <ul> 
       <li>If you or another Workfront administrator hides the status selected here, the default status changes to the first status in the status list.</li> 
      </ul> 

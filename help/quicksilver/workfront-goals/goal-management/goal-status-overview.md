@@ -3,23 +3,25 @@ content-type: overview;reference
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Goal status overview in Adobe Workfront Goals
-description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+description: Goal statuses indicate whether a goal is active and currently recording progress, or if it is inactive, drafted, or already achieved.
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
 ---
 # Goal status overview in Adobe Workfront Goals
 
-Your organization must have the following to use the functionality described in this article:
-
-* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-* An Adobe Workfront Goals license in addition to a Workfront license.
-
-  Contact your Workfront account manager to learn about a Workfront Goals license.
-
-  Workfront Goals is available only in the new Adobe Workfront experience.
+>[!NOTE]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
+>* An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.
 
 For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+
 Goal statuses indicate whether a goal is active and currently recording progress, or if it is inactive, drafted, or already achieved.
 
 ## Consideration when updating goal statuses in Workfront Goals

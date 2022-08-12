@@ -111,7 +111,7 @@ To acknowledge a notification and clear it from the Notifications list:
    * If the notification is for an announcement, click the notification to open the **Announcements** page.
    * Click **All Notifications** in the lower-right corner of the list of notifications to display the **Notifications** page, then click **Mark all as seen** in the upper-right corner of Workfront.
 
-### **View acknowledged notifications** {#view-acknowledged-notifications}
+### View acknowledged notifications {#view-acknowledged-notifications}
 
 To view notifications that you have already acknowledged:
 

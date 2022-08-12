@@ -30,6 +30,47 @@ These enhancements were made available in the Production environment the week of
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Integrate Adobe Workfront with JumpSeat
+</a></p></p> <p>You now can integrate JumpSeat with Workfront to create custom, in-product guidance for your users. You must have an Adobe Workfront enterprise license and an active JumpSeat subscription to enable the integration.</p> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr>
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof default settings moved to Workfront
+</a></p></p> <p>You can now edit the following proof settings inside the Workfront Setup Area:</p> 
+<ul>
+   <li><p>Proof default settings</p></li>
+   <li><p>Proof decision settings</p></li>
+   </ul>
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr>
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Use unlocked statuses in an approval processes
+</a></p></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
+<p>To give you more control over the approval processes and statuses in your system, we’ve made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn’t streamline their group’s list of statuses to fit their specific needs.</p>
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr>
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Add a PDF file to a custom form
+</a></p></p> <p>We are continuing to help you make custom forms more visual and informative with new asset widgets you can add, such as images and videos. Now you can add a link to a PDF file to a custom form. When the form is attached to an object, users who work with the object can view and interact with the PDF from within the form.</p>
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr>
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Custom form field calculation editor displays error information
+</a><span style="color: #ff0000; font-weight: bold;"> (Temporarily unavailable)</span></p></p> <p>Editing calculations for custom fields is now easier with helpful error information indicated directly in the calculation. While you are creating a calculated field in a custom form, errors are highlighted in pink. When you hover over the highlighted portion, a tooltip displays to describe what the problem is.</p>
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr>
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Project header customization
+</a></p></p> <p>As a Workfront or group administrator, you can now customize the fields that display in the header of a project when you use a Layout Template.</p>
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr>
+  <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Control creating a blank project</a></p></p> <p>As a system or a group administrator, you can now control whether users can create blank projects, without using a template. We have introduced a new setting in the Project Preferences area of Setup that allows you to disable creating blank projects in the following areas:</p> 
    <ul>
    <li><p>From the New Project option in a list of projects</p></li>
@@ -164,6 +205,26 @@ These enhancements were made available in the Production environment the week of
      <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic will be discontinued in March 2022</a>, followed shortly by the end-of-life date for Workfront Classic in July 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
+  <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (Beta)</a> </p>
+                        <p>We are introducing a new object to Adobe Workfront that has the potential to change the way you manage work. </p>
+                        <p>Workfront Campaigns enables you to organize projects from different portfolios and programs in a new work container.
+Campaigns were released to Preview beta with the 22.3 release, in July 2022. For more information, see <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3 Project enhancements</a> </p>
+<p>This new container will evolve in future releases to connect work objects that are currently managed in separate silos.</p>
+<p>For more information about the Workfront Campaigns beta, as well as information about new features as they release to Preview, see <a href="../../../product-announcements/betas/campaign-object-beta.md" class="MCXref xref" xrefformat="{para}">Campaigns beta</a> </p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;Throughout the 22.4 release timeframe<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release:&#160;TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
  </tbody> 
 </table>
 

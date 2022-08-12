@@ -178,7 +178,7 @@ Replace `<your domain>` with your company's Workfront domain, without the bracke
 * [Late Project reminder notification (example)](#late-project-reminder-notification-example) 
 * [Task or Issue About to Start reminder (example)](#task-or-issue-about-to-start-reminder-example)
 
-#### **Late Project reminder notification (example)** {#late-project-reminder-notification-example}
+#### Late Project reminder notification (example) {#late-project-reminder-notification-example}
 
 To edit an email template for a late project reminder, consider this information for the Subject and Content fields.
 
@@ -212,7 +212,7 @@ This produces an email similar to the following:
 
 ![](assets/screen-shot-2016-09-16-at-3.52.54-pm-350x103.png)
 
-#### **Task or Issue About to Start reminder** {#task-or-issue-about-to-start-reminder-example}
+#### Task or Issue About to Start reminder {#task-or-issue-about-to-start-reminder-example}
 
 You might also want to create a reminder notification for an upcoming task or issue.
 

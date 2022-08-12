@@ -71,7 +71,7 @@ In Adobe Workfront, the calculation for CPI depends on the Performance Index Met
 * [CPI calculations when using Hour-based PIM](#cpi-calculations-when-using-hour-based-pim) 
 * [CPI Calculations when using Cost-based PIM](#cpi-calculations-when-using-cost-based-pim)
 
-#### **CPI calculations when using Hour-based PIM** {#cpi-calculations-when-using-hour-based-pim}
+#### CPI calculations when using Hour-based PIM {#cpi-calculations-when-using-hour-based-pim}
 
 If 
 
@@ -99,7 +99,7 @@ CPI = 1
 
 For information about the total Budgeted Cost Work Performed (BCWP), see [Calculate Budgeted Cost Work Performed (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
-#### **CPI Calculations when using Cost-based PIM** {#cpi-calculations-when-using-cost-based-pim}
+#### CPI Calculations when using Cost-based PIM {#cpi-calculations-when-using-cost-based-pim}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>CPI = (Planned Cost of Work Performed + Planned Cost of Incurred Expenses) / (Total Actual Cost + Actual Cost of Incurred Expenses) </code> </p>

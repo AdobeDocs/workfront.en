@@ -3,7 +3,7 @@ content-type: reference
 product-area: requests
 navigation-topic: requests-navigation-topic
 title: Create and manage Request Queues
-description: This section contains the following articles - EDIT ME.
+description: Learn information about creating and managing request queues in Adobe Workfront in the following articles.
 author: Alina
 feature: Work Management
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
@@ -20,9 +20,5 @@ This section contains the following articles:
 * [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref" xrefformat="{para}">Overview of the Queue Details tab in a project</a> </li>
+  <li><a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref" xrefformat="{para}">Overview of the Queue Details tab in a project</a> </li>
   -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;last articles - drafted)</p>
--->

@@ -2,7 +2,7 @@
 product-area: requests
 navigation-topic: create-requests
 title: Locate submitted requests
-description: You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront - EDIT ME.
+description: Learn about the areas of Adobe Workfront where you can locate requests that you or someone else submitted or requests that you never submitted and were saved as drafts. 
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
@@ -11,8 +11,8 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 
 You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
-* Submitted section: All requests that you or someone else submitted and you have access to at least View. 
-* Draft section : All requests that you started but you never finished and you never submitted. For more information about draft requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* **Submitted section**: All requests that you or someone else submitted and you have access to at least View. 
+* **Draft section** : All requests that you started but you never finished and you never submitted. For more information about draft requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
   >[!TIP]
   >
@@ -36,7 +36,9 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Issues</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -45,7 +47,7 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Locate submitted requests
 
@@ -70,7 +72,9 @@ To locate requests that you or other users have submitted:
     <tbody> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>The name of the request.</p> <p>Click the name of a request to open it. </p> <p>Tip: If the issue was not preserved when it was converted to a task or a project, the name of the issue is dimmed and can no longer be clicked. For information about converting issues, see <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Overview of converting issues in Adobe Workfront</a>. </p> </td> 
+      <td> <p>The name of the request.</p> <p>Click the name of a request to open it. </p> <p><b>TIP</b>
+      
+      If the issue was not preserved when it was converted to a task or a project, the name of the issue is dimmed and can no longer be clicked. For information about converting issues, see <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Overview of converting issues in Adobe Workfront</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Converted to</td> 
@@ -123,7 +127,9 @@ To locate requests that you or other users have submitted:
      </tr> 
      <tr> 
       <td role="rowheader">Open</td> 
-      <td> <p>All submitted requests that are currently open, regardless of who submitted them. Only requests you have at least permissions to view display here if you did not submit them yourself. </p> <p>Requests without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the Open subtab.</p> <p>Tip: Requests that are in any status that does not equate with Closed are considered open.</p> </td> 
+      <td> <p>All submitted requests that are currently open, regardless of who submitted them. Only requests you have at least permissions to view display here if you did not submit them yourself. </p> <p>Requests without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the Open subtab.</p> <p><b>TIP</b> 
+      
+      Requests that are in any status that does not equate with Closed are considered open.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">My Requests</td> 
@@ -131,7 +137,9 @@ To locate requests that you or other users have submitted:
      </tr> 
      <tr> 
       <td role="rowheader">My Open&nbsp;Requests</td> 
-      <td> <p>Requests you submitted that are still open. </p> <p>Requests without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the My Open Requests subtab.&nbsp;</p> <p>Tip: Requests that are not in a status that equates with Closed are considered open.</p> </td> 
+      <td> <p>Requests you submitted that are still open. </p> <p>Requests without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the My Open Requests subtab.&nbsp;</p> <p><b>TIP</b> 
+      
+      Requests that are not in a status that equates with Closed are considered open.</p> </td> 
      </tr> 
     </tbody> 
    </table>

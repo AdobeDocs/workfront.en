@@ -3,7 +3,7 @@ product-area: enterprise-scenario-planner-product-area
 keywords: publish,plans,projects,scenario,scenarios
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Update or create projects by publishing initiatives in the Scenario Planner
-description: Publishing a scenario from the Adobe Workfront Scenario Planner accomplishes the following - EDIT ME.
+description: You can create projects from existing initiatives as well as update projects previously linked to initiatives by publishing scenarios in the Adobe Workfront Scenario Planner.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
@@ -32,18 +32,21 @@ You must have the following:
    <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Product</strong> </td> 
+   <td>Product </td> 
    <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>&nbsp;</p> <p><strong>Access level*</strong> </p> </td> 
+   <td> <p></p> <p>Access level*</p> </td> 
    <td> 
     <ul> 
-     <li>Edit for Scenario Planner and Projects</li> 
-    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    <li>Edit access for Scenario Planner and Projects</li></ul> 
+    
+   <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Object permissions</p> </td> 
    <td> 
     <ul> 
      <li>Manage permissions for the plan </li> 
@@ -61,7 +64,6 @@ For additional information about access to the Workfront Scenario Planner, see [
 
 Before you begin:
 
-* You must use the new Adobe Workfront experience to be able to access the Scenario Planner. 
 * You must create and save a plan before you can publish initiatives from it.
 
 ## Considerations about publishing initiatives to projects
@@ -191,13 +193,9 @@ Before you begin:
 
    * **The Overview area of the Project Details section**: A new Scenario Planner section is created in this area that contains information from the linked initiative.
 
-     >[!TIP]
-     >
-     >This information is visible only when viewing Project&nbsp;Details in the new Adobe Workfront experience.
-
      ![](assets/scenario-planner-on-project-details-350x135.png)
 
-     The following initiative information is published in the Scenario Planner area of the Project&nbsp;Details section:
+     The following initiative information is published in the Scenario Planner area of the Project Details section:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -225,8 +223,11 @@ Before you begin:
          <ul> 
           <li>Job&nbsp;Role name</li> 
           <li>Number of FTEs</li> 
-          <li> <p>Number of Hours for all&nbsp;FTEs</p> <p>You can estimate the amount of job roles needed for your plan or initiative using hours or FTEs.&nbsp;</p> <p>For more information, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a>. </p> </li> 
-         </ul> <p>Tip: <span>If the number of job role is different for each month in the initiative, this field displays the maximum amount of roles needed for the initiative. For example, if you need 1 Consultant for January and 2 for February, the column displays 2FTE and the corresponding amount of hours for 2 FTEs for all months.</span> </p> </td> 
+          <li> <p>Number of Hours for all FTEs</p> <p>You can estimate the amount of job roles needed for your plan or initiative using hours or FTEs.</p> <p>For more information, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a>. </p> </li> 
+         </ul> 
+      <p><b>TIP</b> 
+      
+      If the number of job role is different for each month in the initiative, this field displays the maximum amount of roles needed for the initiative. For example, if you need 1 Consultant for January and 2 for February, the column displays 2FTE and the corresponding amount of hours for 2 FTEs for all months.</p> </td> 
        </tr> 
       </tbody> 
      </table>
@@ -238,11 +239,11 @@ Before you begin:
      >   
      >   
      >   * For information about adding or removing areas in the Details section using a layout template, see [Customize the Details view using a layout template](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
-     >   * For more information about viewing information in the Overview area of the Project&nbsp;Details, see [Manage information in the project Overview area](../manage-work/projects/manage-projects/understand-project-overview-area.md).
+     >   * For more information about viewing information in the Overview area of the Project Details, see [Manage information in the project Overview area](../manage-work/projects/manage-projects/understand-project-overview-area.md).
      >   
      >
 
-   * **The Role Allocation panel in the**Workload Balancer** or the task list of the project**: Information about role allocation on the initiative populates in this area, in addition to role allocations on the project.
+   * **The Role Allocation panel in the Workload Balancer or the task list of the project**: Information about role allocation on the initiative populates in this area, in addition to role allocations on the project.
 
      For more information, see [Overview of reconciling resource allocations between projects and initiatives](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
