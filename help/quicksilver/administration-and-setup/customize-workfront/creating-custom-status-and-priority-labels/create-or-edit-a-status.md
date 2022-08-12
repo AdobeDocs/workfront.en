@@ -104,15 +104,23 @@ When you create a custom status for the entire organization, you can configure i
      </tr> 
      <tr> 
       <td role="rowheader">Lock for all groups</td> 
-      <td><p>If you leave this enabled, users throughout the system can see and use the status and group administrators cannot customize it for their groups.</p> 
-       <p>When this option is disabled, group administrators can customize the status for their individual groups.</p> 
-       <p>For more information about locking statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Locked and unlocked system-level statuses</a>.</p>  
+      <td>
+       <p>When a status is locked, users throughout the system can see and use it and group administrators cannot customize it for their groups.</p> 
+       <p>When a status is locked, group administrators can customize it for their individual groups.</p>
+
+       <!--
+       <p>You can use both locked and unlocked statuses in a system approval process. If you create a system approval process with an unlocked system status, users throughout the system can attach the approval process to any project, task, or issue in the system.</p>
+       <p> In the following scenarios, warning messages display to help you and your users understand outcomes of unlocking a status:</p>
+       <ul>
+       <li>An administrator unlocks a system-level status that is used in an approval process. A message warns that  might delete the unlocked status for their groups, which would prevent group members from using that approval process properly for objects assigned to their group.</li>
+       <li>A user starts to edit an approval process that uses an unlocked status. A message alerts the user about the unlocked status so they can evaluate whether it would be a good idea to re-lock or replace it.</li>
+       <li>A system-level approval process with an unlocked status is attached on an object, and the status was deleted for the group assigned to the object. When a group member goes to the Approvals section for the object, a message explains that the approval process can't be initiated for the object.</li>
+       </ul>
+       -->
+       
+       <p>For more information about locking statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Locked and unlocked system-level statuses</a>.</p>
+      </td>
      </tr> 
-     <!-- [This story is on the back burner]
-       Users can select this status only if required fields on the object are completed -- (Applies only if you selected Tasks in Step 3) Assures that users can select this status for an object only if all required fields on the object are completed.
-      --> 
-      </td> 
-      </tr>
     </tbody> 
    </table>
 
