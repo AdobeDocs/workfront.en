@@ -17,7 +17,7 @@ This file is hidden from search (`hide: yes`) and from the left nav (`hidefromto
 
 ## Test of preview highlighting
 
-**Use DIV for blocks of components.
+**Use DIV for blocks of components.**
 
 DIV starts below.
 
@@ -58,7 +58,7 @@ You can also specify the `class="preview"` syntax in `<p>`, `<td>`, `<tr>`, and 
    <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><*</td> 
+   <td role="rowheader"></td> 
    <td> <p class="preview">Plan</p> </td> 
   </tr> 
   <tr> 
