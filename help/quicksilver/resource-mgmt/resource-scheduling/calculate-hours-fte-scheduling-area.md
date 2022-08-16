@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: resource-scheduling
 title: Configure how Workfront calculates resource hour and FTE availability for the Scheduling area
-description: 'NOTE: Alina: ***Note that the FTE for scheduling is not yet working the same way as the FTE for planning - confirmed with Vazgen and this parity is planned for the future, but not right now. This article has to remain live in addition to the Planning article that talks about the calculation of FTEs in the Planner.'
+description: The Adobe Workfront administrator determines how Workfront calculates resource availability and user allocation at the system level (considering hours as well as FTE availability) when they configure Resource Management preferences.
 author: Alina
 feature: Resource Management
 exl-id: 75bf6d3a-95e9-4cef-a1cc-f19a0f56a42e
@@ -17,13 +17,13 @@ exl-id: 75bf6d3a-95e9-4cef-a1cc-f19a0f56a42e
 </div>
 -->
 
->[!NOTE]
+>[!CAUTION]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
+>We are no longer supporting the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
 >
->For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>* For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 The Adobe Workfront administrator determines how Workfront calculates resource availability and user allocation at the system level (considering hours as well as FTE availability) when they configure Resource Management preferences.
 
