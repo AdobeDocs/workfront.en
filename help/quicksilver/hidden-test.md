@@ -11,6 +11,10 @@ exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
 
 This file is hidden from search (`hide: yes`) and from the left nav (`hidefromtoc: yes`).
 
+<span class="preview">This file is **hidden** from search (`hide: yes`) and from the left nav (`hidefromtoc: yes`).</span>
+
+<p class="preview">This file is **hidden** from search (`hide: yes`) and from the left nav (`hidefromtoc: yes`).</p>
+
 ## Test of preview highlighting
 
 **Use DIV for blocks of components.
