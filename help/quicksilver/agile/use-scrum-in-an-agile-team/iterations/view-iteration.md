@@ -44,6 +44,11 @@ You must have the following access to perform the steps in this article:
 
    ![Iteration list](assets/view-iteration-NWE.png)
 
+   >[!NOTE]
+   >
+   >**Current Iteration** only displays in the left panel when it is assigned to the layout template and there is at least one task or issue on the iteration. For more information, see [Customize the left panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+
+
 1. (Optional) Click the name of the specific iteration that you want to view.  
    The iteration stories display.
 
