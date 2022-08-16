@@ -19,7 +19,7 @@ Times you see in Workfront are based on time zone configurations for your organi
 
 >[!NOTE]
 >
-><div class="preview">In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved by Coordinated Universal Time (UTC), not by the time zone configurations set for your organization's instance and your user profile. Calculations in a custom form generate based on each users' individual time zones.</div>
+><div class="preview">In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved by Coordinated Universal Time (UTC), not by the time zone configurations set for your organization's instance and your user profile. Calculations in a custom form are generated and displayed based on each users' individual time zones.</div>
 
 
 * [Your organization's Workfront instance](#your-organization-s-workfront-instance) 
