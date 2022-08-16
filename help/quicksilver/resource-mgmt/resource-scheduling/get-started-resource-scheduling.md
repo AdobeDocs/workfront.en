@@ -3,20 +3,24 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-scheduling
 title: Get started with Resource Scheduling
-description: We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources.
+description: When using the resource scheduling functionality in Adobe Workfront you can more easily assign tasks and issues to the appropriate users.
 author: Alina
 feature: Resource Management
 exl-id: 1858f6af-92e7-4d32-a401-40004eeb0cef
 ---
 # Get started with Resource Scheduling
 
->[!NOTE]
+>[!CAUTION]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
+>We are no longer supporting the Resource Scheduling tools and they will soon be removed from Adobe Workfront. 
 >
->For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>We recommend that you use the Workload Balancer for scheduling your resources. 
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>* For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>
+>* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -67,8 +71,6 @@ By default, assignments can be made only to users who have a role defined on the
 <a href="../../product-announcements/announcements/replace-flash-tools.md" class="MCXref xref">Replacement of Flash-based tools in Adobe Workfront</a>.
 </note>
 -->
-
-* *
 
 **When scheduling resources as a team member (from the Working On tab):**
 
