@@ -57,7 +57,7 @@ You can view smart assignments in the following areas where you can assign tasks
 
 ## Smart assignments criteria
 
-Smart assignments display the top fifty recommendations based on a proprietary algorithm.
+Smart assignments display the top 50 recommendations based on a proprietary algorithm.
 
 Users are recommended in the smart assignments drop-down list based on a combination of the following criteria (listed in order from most important to least important):
 
