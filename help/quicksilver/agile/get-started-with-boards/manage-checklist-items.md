@@ -52,7 +52,6 @@ You must have the following access to perform the steps in this article:
    The counter at the top of the checklist shows the number of completed items and the total number of items.
 
    <div class="preview">
-
 1. Click ![Details icon](assets/checklist-chevron.png) to open the Checklist Item Details box.
 
    >[!NOTE]
@@ -67,15 +66,12 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Close** to return to the card details and the full list of checklist items.
 1. To copy an item, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Copy**.
-   
    </div>
 
-1. To delete a checklist item in the Production environment, click the <strong>Delete</strong> icon <img src="assets/delete.png">.
+1. To delete a checklist item in the Production environment, click the **Delete** icon ![Delete icon](assets/delete.png).
 
    <div class="preview">
-
 1. To delete a checklist item in the Preview environment, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Delete**.
-   
    </div>
 
 ## Complete checklist items
