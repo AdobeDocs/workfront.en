@@ -51,8 +51,7 @@ You must have the following access to perform the steps in this article:
 
    The counter at the top of the checklist shows the number of completed items and the total number of items.
 
-<div class="preview">
-
+   <div class="preview">
 1. Click ![Details icon](assets/checklist-chevron.png) to open the Checklist Item Details box.
 
    >[!NOTE]
@@ -66,12 +65,17 @@ You must have the following access to perform the steps in this article:
    For information about any of these fields, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) or [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 1. Click **Close** to return to the card details and the full list of checklist items.
+   </div>
 
-</div>
+   <span class="preview">
+1. To copy an item, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Copy**.
+   </span>
 
-1. <span class="preview">To copy an item, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Copy**.</span>
 1. To delete a checklist item in the Production environment, click the <strong>Delete</strong> icon <img src="assets/delete.png">.
-1. <span class="preview">To delete a checklist item in the Preview environment, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Delete**.</span>
+
+   <span class="preview">
+1. To delete a checklist item in the Preview environment, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Delete**.
+   </span>
 
 ## Complete checklist items
 
