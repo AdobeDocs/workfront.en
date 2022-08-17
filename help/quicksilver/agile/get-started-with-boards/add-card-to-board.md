@@ -11,8 +11,6 @@ exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
 
 You can quickly add a card to a board and assign it to a member on the board. The card can represent a task, issue, person, group, or any type of item that you want to include on the board.
 
-Using a checklist on a card allows you to break down work into smaller increments or add notes to the card.
-
 >[!NOTE]
 >
 >The ad hoc cards on a board are not connected to work items in Adobe Workfront. For details about connected cards, see [Connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
@@ -87,7 +85,7 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
      </tr>  
      <tr> 
       <td role="rowheader"><strong>Checklist Items</strong> </td> 
-      <td> <p>Click <strong>Add checklist item</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>To delete an item, click the <strong>Delete</strong> icon <img src="assets/delete.png">.</p> </td> 
+      <td> <p>Click <strong>Add checklist item</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -127,24 +125,3 @@ You can add ad hoc cards with only a title to quickly populate your board.
 1. In the Card Details box, update the information as needed, and click **Close** to return to the board.
 
    If you have column policies enabled for updating field values, changing the status on the card automatically moves the card to the corresponding column. For more information, see "Define column settings and policies" in the article [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
-
-## Complete checklist items {#complete-checklist}
-
-1. Access the board and locate the card the checklist is on.
-1. Click the card to open the Card Details box.
-
-   Or
-
-   Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **Edit**.
-
-1. Select the check box next to the item that is complete.
-
-   The counter updates to show the completed items.
-
-   You can clear the check box if you need to add the item back to the list.
-
-   ![Completed checklist item](assets/boards-completedchecklistitem-350x192.png)
-
-1. Click **Close** to return to the board.
-
-   The counter on the card is also updated.
