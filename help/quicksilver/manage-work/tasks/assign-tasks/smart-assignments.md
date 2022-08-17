@@ -70,8 +70,10 @@ Users are recommended in the smart assignments drop-down list based on a combina
 
      >[!TIP]
      >
-     >If you're not part of any team and there is no role or team assigned on the task or issue, Workfront displays all the users assigned for the last 30 days, up to 50 users.
+     >* If <!--you're not part of any team and --> there is no role or team assigned on the task or issue, Workfront displays all the users assigned for the last 30 days, up to 50 users.
+     >* If you have not made any assigments in the past 30 days, only users that belong to either the assigned team or have the role assigned to the work item dispplay in the smart assignments list. 
 
+<!--the commented out piece in the tip above was there but I am not totally sure that smart assignments look at your team. I think they look JUST at the team/ role assigned to the work item; see this help site request for more info: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/62fd222200037eb87572c5b6ad6bf53e/overview -->
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <div>
