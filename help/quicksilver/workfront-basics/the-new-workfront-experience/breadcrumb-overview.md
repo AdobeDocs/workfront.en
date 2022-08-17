@@ -36,7 +36,7 @@ You can also use the following keys to navigate the breadcrumbs:
  </tbody> 
 </table>
 
-## Access requirements
++++Access requirements
 
 You must have the following access to perform the steps in this article:
 
@@ -58,6 +58,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 *To find out what plan or license type you have, contact your Workfront administrator.
+
++++
 
 ## Multi-object breadcrumbs
 
