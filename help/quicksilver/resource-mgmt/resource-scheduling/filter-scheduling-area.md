@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: resource-scheduling
 title: Filter information in the Scheduling area
-description: Filter information in the Scheduling area
+description: Using a filter in the Resource Scheduling area enables you to determine which work items are displayed on the scheduling timeline. This includes which tasks and issues are displayed in the Unassigned area, as well as which users are displayed.
 author: Alina
 feature: Resource Management
 exl-id: 974b2515-ed10-459d-a317-36e62c52afc7
@@ -13,21 +13,23 @@ exl-id: 974b2515-ed10-459d-a317-36e62c52afc7
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Cannot do QS because the Teams area is not done) </p>
 -->
 
->[!NOTE]
+>[!CAUTION]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
+>We are no longer supporting the Resource Scheduling tools and they will soon be removed from Adobe Workfront. 
 >
->For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>We recommend that you use the Workload Balancer for scheduling your resources. 
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>* For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>
+>* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: SEVERAL SECTIONS BELOW LINKED TO THE PRODUCT. SEE NOTES)&nbsp;</p>
 -->
 
-Using a filter in the Resource Scheduling area enables you to determine which work items are&nbsp;displayed on the scheduling timeline. This includes which tasks and issues are displayed in the Unassigned area, as well as which users are displayed.&nbsp;
+Using a filter in the Resource Scheduling area enables you to determine which work items are displayed on the scheduling timeline. This includes which tasks and issues are displayed in the Unassigned area, as well as which users are displayed.
 
-Before you begin filtering content as&nbsp;described in this section, become familiar with how resource scheduling works in Adobe Workfront.  
+Before you begin filtering content as described in this section, become familiar with how resource scheduling works in Adobe Workfront.  
 For information about resource scheduling in Workfront, see the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).  
 For more information about the scheduling timeline, see the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
@@ -51,7 +53,9 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View access or higher to Projects, Tasks,&nbsp;and Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to Projects, Tasks,&nbsp;and Issues</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -60,7 +64,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: sections below - LINKED TO THE ui. DO NOT RENAME/ DELETE)</p>
