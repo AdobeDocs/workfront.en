@@ -1231,7 +1231,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
  <tr> 
    <td>Old Number Value</td> 
-   <td>In a Journal Entry report, this displays original value of a field before it was updated. Once a field's value is updated, it will display as the New Number Value in a Journal Entry report. For more information, also see <i>New Number Value</i> </td> 
+   <td>In a Journal Entry report, this displays the original value of a field before it was updated. Once a field's value is updated, it will display as the New Number Value in a Journal Entry report. For more information, also see <i>New Number Value</i> </td> 
   </tr>
   <tr> 
    <td>On Change Only</td> 
