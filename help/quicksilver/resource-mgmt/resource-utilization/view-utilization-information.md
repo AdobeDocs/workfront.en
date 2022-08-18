@@ -401,6 +401,7 @@ The following information is available in the Utilization report when comparing 
 <!--Note from the table from above "Function" header in the middle of the table; right after the "Planned Revenue"/"Margin" definition: 
      <p scope="col" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This needs to be either split in two tables of formatted differently)</p>
     -->
+    
 ## Track progress, cost, and revenue with the Utilization report {#track-progress-cost-and-revenue-with-the-utilization-report}
 
 You can track the progress or cost of a project, program, or portfolio.
