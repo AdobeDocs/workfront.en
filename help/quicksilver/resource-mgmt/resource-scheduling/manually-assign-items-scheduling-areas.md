@@ -2,7 +2,7 @@
 product-area: resource-management;user-management
 navigation-topic: resource-scheduling
 title: Manually assign unassigned tasks and issues in the Scheduling areas
-description: 'NOTE: Alina: several sections ask for the screen shot to be updated - check into those notes; Alina: broken off article, needs formatting, restructuring, new linking)'
+description: Using the scheduling timeline, you can manage user assignments, in addition to specifying how much time each user is allocated for a work item.
 author: Alina
 feature: Resource Management
 exl-id: 627e4442-767a-41a2-9700-76f2ad2dc9cf
@@ -13,19 +13,18 @@ exl-id: 627e4442-767a-41a2-9700-76f2ad2dc9cf
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: Alina: several sections ask for the screen shot to be updated - check into those notes; Alina: broken off article, needs formatting, restructuring, new linking) </p>
 -->
 
->[!NOTE]
+>[!CAUTION]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
+>We are no longer supporting the Resource Scheduling tools and they will soon be removed from Adobe Workfront. 
 >
->For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>We recommend that you use the Workload Balancer for scheduling your resources. 
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>* For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>
+>* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
-In addition to assigning users to work items from the task and issue level, or in a list of tasks and issues using inline edit, you can also manage user assignments as part of the resource scheduling functionality in Adobe Workfront.
 
-For general information about assigning tasks, see [Overview of modifying task assignments](../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
-
-Using the scheduling timeline, you can manage user assignments, including how much time each user is allocated for a work item.
+Using the scheduling timeline, you can manage user assignments, in addition to specifying how much time each user is allocated for a work item.
 
 ## Access requirements
 
@@ -45,7 +44,9 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to Projects, Tasks,&nbsp;and Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects, Tasks,&nbsp;and Issues</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -54,7 +55,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites before assigning tasks and issues in the Scheduling timeline
 
