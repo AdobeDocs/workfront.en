@@ -5,6 +5,7 @@ title: Manage checklist items on cards
 description: Using a checklist on a card allows you to break down work into smaller increments or add notes to the card. Checklist items are available on both ad hoc and connected cards.
 author: Lisa
 feature: Agile
+exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
 ---
 # Manage checklist items on cards
 
