@@ -11,7 +11,7 @@ exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 ---
 # Customize the Main Menu using a layout template
 
-{{#highlighted-preview}}
+{{highlighted-preview}}
 
 As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront:
 

@@ -11,22 +11,18 @@ exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
 ---
 # Configure access to blueprints
 
-{{#highlighted-preview}}
+{{highlighted-preview}}
 
 All Adobe Workfront users can browse the catalog of blueprints.
 
 As a system administrator, you can:
 
-<div class="preview">
-
-* Add Blueprints to the main menu in layout templates and assign the layout template to users or groups. For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and [Assign users to a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+* <span class="preview">Add Blueprints to the main menu in layout templates and assign the layout template to users or groups. For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and [Assign users to a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).</span>
 
   >[!NOTE]
   >
-  >* Users who do not have a layout template assigned to them will see the Blueprints icon in the Main Menu.
-  >* When you create a new layout template, the Blueprints icon is included in the Active Items list for the Main Menu by default.
-
-</div>
+  >* <span class="preview">Users who do not have a layout template assigned to them will see the Blueprints icon in the Main Menu.</span>
+  >* <span class="preview">When you create a new layout template, the Blueprints icon is included in the Active Items list for the Main Menu by default.</span>
 
 * Enable access for users to request installation of blueprints by setting up a request queue to store the requests. There, you have a single location to track and update requests. For more information, follow the procedure below.
 * Install blueprints. For information, see [Install a blueprint](../../administration-and-setup/blueprints/blueprints-install.md).
