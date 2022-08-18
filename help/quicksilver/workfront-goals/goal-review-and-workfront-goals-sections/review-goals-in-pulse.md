@@ -72,48 +72,53 @@ You must have the following before you can start:
 
    All goals display by default.
 
-1. Click Pulse in the left panel. 
+1. Click **Pulse** in the left panel. 
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: see the numbering in the procedure)
-   </MadCap:conditionalText>
-   -->
+      <!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      (NOTE: see the numbering in the procedure)
+      </MadCap:conditionalText>
+      -->
 
    A list of goals displays. The list contains the following columns with information about each goal: 
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Goals</td> 
-      <td>The goal name.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Owner</td> 
-      <td>The name of goal owner.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Period</td> 
-      <td>The time period for which the goal is scheduled.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Progress</td> 
-      <td>The progress indicator for the goal which is typically a percentage value.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> <p>Status (includes alignment icon)</p> <p> <img src="assets/alignment-icon-large.png"> </p> </td> 
-      <td> <p>The status of the goal which can be one of the following:</p> 
-       <ul> 
-        <li>Active</li> 
-        <li>Draft</li> 
-        <li>Inactive</li> 
-        <li>Closed</li> 
-       </ul> <p>The alignment icon appears on goals that are aligned to other goals. For information about aligning goals, see <a href="../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md" class="MCXref xref">Align goals by connecting them in Adobe Workfront Goals</a>.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+      <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Goals</td> 
+         <td>The goal name.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Owner</td> 
+         <td>The name of goal owner.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Period</td> 
+         <td>The time period for which the goal is scheduled.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Progress</td> 
+         <td>The progress indicator for the goal which is typically a percentage value.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"> <p>Status (includes alignment icon)</p> <p> <img src="assets/alignment-icon-large.png"> </p> </td> 
+         <td> <p>The status of the goal which can be one of the following:</p> 
+         <ul> 
+         <li>Active</li> 
+         <li>Draft</li> 
+         <li>Inactive</li> 
+         <li>Closed</li> 
+         </ul> <p>The alignment icon appears on goals that are aligned to other goals. For information about aligning goals, see <a href="../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md" class="MCXref xref">Align goals by connecting them in Adobe Workfront Goals</a>.</p> 
+         
+      <p>The Status column also includes the incremental updates made for each result or activity with each check in on the goal.</p>
+
+   For example, if the goal has one manual progress bar activity and you check in on the goal and update the activity to 50%, the  Status column displays 50% for that goal's activity. Later on, you might update the same activity to 60%. In this case, a new line displays under the same goal for the same activity for 10% - because you just added 10% to the progress of the activity. 
+         </td> 
+      </tr> 
+      </tbody> 
+      </table>
 
 1. (Optional) Select the type of information you want to display by updating the filters in the upper-right corner of the Pulse section.
 
@@ -121,7 +126,7 @@ You must have the following before you can start:
 
    For more information about filtering goals, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-1. Click&nbsp;the right-pointing arrow to the left of the goal name to expand a goal and view additional information about the updates on each goal.
+1. Click the right-pointing arrow to the left of the goal name to expand a goal and view additional information about the updates on each goal.
 
    The following information displays in the Pulse section under each goal:
 

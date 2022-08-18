@@ -41,7 +41,7 @@ This article describes the general purpose for the&nbsp;Workload Balancer and so
 >[!CAUTION]
 >
 >
->Although you may still find the Scheduling areas in Workfront, we do not recommend that you use the Scheduling areas to schedule resources for work, as these areas are currently depreacated and will be removed from the system. We recommend that you use the Workload Balancer for resource scheduling. 
+>Although you may find the Scheduling areas in Workfront, we do not recommend that you use the Scheduling areas to schedule resources for work, as these areas are currently depreacated and will be removed from the system. We recommend that you use the Workload Balancer for resource scheduling. 
 
 For information about using the Workload Balancer, continue reading this article and all articles in this section. 
 
