@@ -11,7 +11,7 @@ exl-id: ac0c1271-930d-4e11-81cf-4129214b4178
 
 >[!NOTE]
 >
->The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
+><span class="preview">The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).</span>
 
 You can edit information about a campaign after it is created. 
 
