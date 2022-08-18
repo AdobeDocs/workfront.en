@@ -548,26 +548,31 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Condition</td> 
-   <td> <p>This is a visual representation of the progress of a task, issue or project.&nbsp;</p> <p>For projects, the condition can be manually set by the project owner or it can be automatically set by Workfront, based on the progress status of the project. </p> <p>The possible values for the project condition are:</p> 
+   <td> <p>This is a visual representation of the progress of a task, issue or project.</p> <p>For projects, the condition can be manually set by the project owner or it can be automatically set by Workfront, based on the progress status of the project. </p> <p>The possible values for the project condition are:</p> 
     <ul> 
      <li>On Target</li> 
      <li>At Risk</li> 
      <li>In Trouble</li> 
-    </ul> <p>For more information about project condition, see the article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a>.&nbsp;</p> <p>For tasks, the condition is set manually by the task&nbsp;owner. The possible values for the task condition are:</p> 
+    </ul> <p>For more information about project condition, see the article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a>.</p>
+     <p>You can associate task and issue conditions with a number that can display in reports. The lists below display the default names and numbers for task and issue conditions. Your system administrator can update the names of conditions and they can add new conditions with different numbers. After a number is associated with a condition, it cannot be edited.  </p> 
+     <p>For tasks, the condition is set manually by the task owner. The possible values for the task condition are:</p> 
     <ul> 
-     <li>Going Smoothly<br></li> 
-     <li> Some Concerns<br></li> 
-     <li>Major Roadblocks</li> 
-    </ul> <p>For more information about task condition, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</p> <p>For issues, the condition is set manually by the issue&nbsp;owner. The possible values for the task condition are:<br></p> 
+     <li>Going Smoothly (0)<br></li> 
+     <li> Some Concerns (1)<br></li> 
+     <li>Major Roadblocks (2)</li> 
+    </ul> <p>For more information about task condition, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</p> <p>For issues, the condition is set manually by the issue owner. The possible values for the task condition are:<br></p> 
     <ul> 
-     <li>Going Smoothly<br></li> 
-     <li>Some Concerns<br></li> 
-     <li>Major Roadblocks</li> 
-    </ul> </td> 
+     <li>Going Smoothly (0)<br></li> 
+     <li>Some Concerns (1)<br></li> 
+     <li>Major Roadblocks (2)</li> 
+    </ul> 
+   <p><b>NOTE</b></p>
+    <p>When the Condition field is tracked in Journal Entry reports, the New and Old Number Values display the number associated with the condition instead of its name. If a condition is originally not defined for a task or an issue and you later update it, the journal entry that captures the update will display the Old Number Value of the Condition field as -2,147,483,648. See also <i>New Number Value</i>, <i>Old Number Value</i>, and <i>Journal Entry</i>. </p> 
+    </td> 
   </tr> 
   <tr> 
    <td>Condition Update</td> 
-   <td> <p>This field shows the current condition of tasks, projects or issues. This option&nbsp;shows the most recent&nbsp;updates&nbsp;that the owners of tasks, projects or issues&nbsp;have provided in the Update Status field, along with the new condition.&nbsp;</p> <p>Comments made on condition updates are not displayed in the Condition Update column; only the main update is displayed.</p> </td> 
+   <td> <p>This field shows the current condition of tasks, projects or issues. This option shows the most recent updates that the owners of tasks, projects or issues have provided in the Update Status field, along with the new condition.</p> <p>Comments made on condition updates are not displayed in the Condition Update column; only the main update is displayed.</p> </td> 
   </tr> 
   <tr> 
    <td>Constraint Date</td> 
@@ -1178,6 +1183,12 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Navigation Menu</td> 
    <td>The top-center panel of the application that has links to main areas of Workfront.</td> 
   </tr> 
+ </tr> 
+  <tr> 
+   <td>New Number Value</td> 
+   <td>In a Journal Entry report, this displays the updated value of a field that replaces the Old Number Value.
+   For more information, see the <i>Old Number Value</i> in this table.</td> 
+  </tr>
   <tr> 
    <td>Non Work Day</td> 
    <td>A day that is not allocation to the completion of any assignments. This is usually a vacation day, holiday, or weekend.</td> 
@@ -1218,6 +1229,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Object Types</td> 
    <td>If you create a report or list containing all of your custom forms, you can use this field as a view or filter to see which object types are associated with each form. </td> 
   </tr> 
+ <tr> 
+   <td>Old Number Value</td> 
+   <td>In a Journal Entry report, this displays the original value of a field before it was updated. Once a field's value is updated, it will display as the New Number Value in a Journal Entry report. For more information, also see <i>New Number Value</i> </td> 
+  </tr>
   <tr> 
    <td>On Change Only</td> 
    <td> <p>One of the Project Update Types. When this is selected, the Project Projected and Planned timelines update only when an update or change is made to the Project or to a Task within the Project. It does not update the project every night.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
@@ -1246,7 +1261,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td><span>Override Currency</span> </td> 
    <td> 
     <div> 
-     <p>In a Job&nbsp;Role report, this is the currency associated with a job role. It is an override of the Base Currency as established in the Setup area by the Workfront administrator. </p> 
+     <p>In a Job Role report, this is the currency associated with a job role. It is an override of the Base Currency as established in the Setup area by the Workfront administrator. </p> 
      <p>For more information, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> 
     </div> </td> 
   </tr> 

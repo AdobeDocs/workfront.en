@@ -16,7 +16,7 @@ You can see the Search box in the upper-right corner of any page within Workfron
 
 You must have permissions to View an object before you can find it in a search. For this reason, search results vary from user to user.
 
-## Access requirements
++++ Access requirements
 
 You must have the following access to perform the steps in this article:
 
@@ -44,6 +44,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Understand Search {#understand-search}
 
