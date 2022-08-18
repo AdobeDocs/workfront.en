@@ -54,7 +54,9 @@ You must have the following to access the Utilization report:
      <li> <p>Portfolios</p> </li> 
      <li> <p>Programs</p> </li> 
      <li> <p>Financial Data if you want to view information by Cost</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p><b>NOTE</b>
+    
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -63,7 +65,7 @@ You must have the following to access the Utilization report:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must have View access to the projects you want to view utilization information for as described in this section. If you are still unable to access this information, contact your Workfront administrator. (NOTE:&nbsp;replaced with above table)</p>
@@ -128,8 +130,7 @@ The following information is available in the Utilization report when tracking H
    <td scope="col"> <p>The total budgeted hours on the included projects. You can view the total budgeted hours for the overall life of the included projects, or you can view total budgeted hours only for the specified date range (you can specify an individual week or month). </p> <p>Budgeted Hours are populated from information available in the new Resource Budgeting area of the Business Case or the Resource Planner<em>.</em></p> <p>Budgeted Hours appear on the Utilization report in any of the following rows:</p> 
     <ul> 
      <li> Budgeted hours are summarized by job role and by individual user in the Utilization report, as follows:<br><strong>Individual User:</strong> Budgeted Hours are summarized for each user in the utilization report. These Budgeted Hours are associated with the tasks and issues that the user is assigned to on the included projects. (You can expand the row of the corresponding job role to view a list of users with that job role.)<br><strong>Job Role:</strong> Budgeted Hours are summarized by job role in the utilization report.<br>Budgeted Hours appear in a particular job role as a result of any of the following scenarios: 
-      <ul> 
-       <li>The job role is defined as the primary job role of the user who is assigned to the task or issue where the Budgeted Hours are associated. </li> 
+     <li>The job role is defined as the primary job role of the user who is assigned to the task or issue where the Budgeted Hours are associated. </li> 
        <li>When you view utilization information for a single project, the job role of the user assigned the hours is used whether there is no assignment on the task or issue, another user is assigned with no job role assignment, another user is assigned with a different job role, or another team is assigned.</li> 
        <li>When you view utilization information for several projects, programs, or portfolios, the job role of the user assigned the hours is used only when the role is assigned on a task or issue in a project. </li> 
        <li>The job role is assigned to the task or issue that has Budgeted Hours associated, and the user assigned to the task or issue does not have a job role defined in the system.</li> 
@@ -141,7 +142,9 @@ The following information is available in the Utilization report when tracking H
   </tr> 
   <tr> 
    <td scope="col"><strong>Planned Hours</strong> </td> 
-   <td scope="col"> <p>The Planned Hours on the included projects that are associated with the assignments on each task and issue. You can view the total planned hours of all assignments on the project for the overall life of the included projects, or you can view total planned hours only for the specified date range (you can specify an individual week or month). </p> <p>Tip: The planned hours from items that have a Duration of 0 are not taken into account. </p> <p>Planned Hours in the Utilization report take into consideration whether the Planned Hours have been re-allocated across the duration of a task or issue. </p> <p>When the user daily allocation for hours has been modified using the Workload Balancer, the data in the Utilization report can be affected if the dates selected in the Utilization report contain only a portion of a task's or issue's Duration. For information about modifying allocations for users, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a> . </p> <p>Planned Hours appear on the Utilization report in any of the following rows:</p> 
+   <td scope="col"> <p>The Planned Hours on the included projects that are associated with the assignments on each task and issue. You can view the total planned hours of all assignments on the project for the overall life of the included projects, or you can view total planned hours only for the specified date range (you can specify an individual week or month). </p> <p><b>TIP</b>
+   
+   The planned hours from items that have a Duration of 0 are not taken into account. </p> <p>Planned Hours in the Utilization report take into consideration whether the Planned Hours have been re-allocated across the duration of a task or issue. </p> <p>When the user daily allocation for hours has been modified using the Workload Balancer, the data in the Utilization report can be affected if the dates selected in the Utilization report contain only a portion of a task's or issue's Duration. For information about modifying allocations for users, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a> . </p> <p>Planned Hours appear on the Utilization report in any of the following rows:</p> 
     <ul> 
      <li> Planned Hours are summarized by job role and by individual user in the utilization report, as follows:<br><strong>Individual User:</strong> Planned Hours are summarized for each user in the utilization report. These Planned Hours are associated with the tasks and issues that the user is assigned to on the included projects. (You can expand the row of the corresponding job role to view a list of users with that job role.)<br><strong>Job Role:</strong> Planned Hours are summarized by job role in the utilization report of a single project.<br>Planned Hours appear in a particular job role as a result of any of the following scenarios: </li> 
     </ul> 
@@ -267,18 +270,25 @@ For information on the specific fields and how Workfront calculates them, also s
   <tr> 
    <td scope="col"><strong>Planned Revenue</strong> </td> 
    <td scope="col"> <p>Planned Revenue in the Utilization report is the revenue associated with the Planned Hours allocated to the resources assigned to the tasks on the project.</p> <p>Workfront calculates the project Planned Revenue for the Utilization report using the following formula:</p> <p><code>Project Planned Revenue = SUM&nbsp;(All Tasks Planned Revenue)</code> </p> 
-   <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the note below is duplicated in this article: /Content/Manage work/Projects/Project Finances/billing-and-revenue-overview.html and in the glossary)</p>
-   --> <p>Note:   <p>The project Planned Revenue that displays in the Utilization report differs from the Planned Revenue that displays in the Project&nbsp;Details area and project reports. </p> <p>The Planned Revenue in the Project Details area reflects the task revenue as well as the Fixed&nbsp;Revenue of the project. The Planned Revenue in the Utilization&nbsp;Report displays Planned Revenue associated only with the tasks in the project. </p> 
+   <p><b>NOTE</b>
+   <p>The project Planned Revenue that displays in the Utilization report differs from the Planned Revenue that displays in the Project&nbsp;Details area and project reports. </p> <p>The Planned Revenue in the Project Details area reflects the task revenue as well as the Fixed&nbsp;Revenue of the project. The Planned Revenue in the Utilization&nbsp;Report displays Planned Revenue associated only with the tasks in the project. </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p>If the project has 1 task with 10 hours, assigned to a Consultant with $20 hourly rate, and the project has $100 Fixed Revenue, the Utilization report displays $200 for Planned Revenue (the Planned Revenue associated with the hours on the task). The Project&nbsp;Details section displays $300 (the Planned Revenue from the task and the Fixed Revenue for the project.) </p> 
-     </div> <p>For more information about the task and project Planned Revenue outside of the Utilization report, see <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p> </p> <p>The way the Utilization report calculates and displays Planned Revenue for the included projects takes into account the Revenue Type set on the task. </p> <p>Depending on the Revenue Type of each task in the project, the following scenarios exist: </p> <p><strong>Fixed Revenue:</strong> Regardless of the task assignments, the revenue on the task is always calculated using the Fixed Amount specified on the task.</p> <p>Important: Unlike in other areas of Workfront, the Utilization report calculates Planned Revenue for Fixed Revenue tasks by dividing Fixed Revenue evenly by the number of Planned Hours on the task. </p> <p>For example, a task has a revenue of $200. If there are 4 Planned Hours on the task, each hour would be $50. This is distributed on a user and role level. This distribution is unique to the Utilization report.</p> <p>Note:   If you have a Fixed Revenue task and there are no Planned Hours for the task, the Revenue does not display in the Utilization Report because there is no way to distribute it to the hours. If you have Planned Hours on tasks with Fixed Revenue and no assignments, the Revenue displays as Unallocated Revenue. </p> <p><strong>Role Hourly:</strong> The revenue on the task is calculated using t he billing rate set for a specific role, multiplied by the number of Planned Hours associated with that role. Workfront uses the following formula:</p> <p><code>Role Hourly Planned Revenue = SUM(Planned Hours from role on all tasks) * Role Billing Rate</code></p> <p><strong>User Hourly:</strong> The revenue on the task is calculated using the billing rate set for a specific user, multiplied by the number of Planned Hours associated with that user. Workfront uses the following formula:</p> <p><code>User Hourly Planned Revenue = SUM(Planned Hours from users on all tasks) * User Billing Rate</code> </p> <p><b>Role Hourly or User Hourly Plus Fixed</b> </p> <p>Important: Unlike in other areas of Workfront, the Utilization report calculates Planned Revenue by dividing Fixed Revenue evenly by the number of Planned Hours on the task. </p> <p>The following cases exist: </p> 
+     </div> <p>For more information about the task and project Planned Revenue outside of the Utilization report, see <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p> </p> <p>The way the Utilization report calculates and displays Planned Revenue for the included projects takes into account the Revenue Type set on the task. </p> <p>Depending on the Revenue Type of each task in the project, the following scenarios exist: </p> <p><strong>Fixed Revenue:</strong> Regardless of the task assignments, the revenue on the task is always calculated using the Fixed Amount specified on the task.</p> <p><b>IMPORTANT</b>
+     
+   Unlike in other areas of Workfront, the Utilization report calculates Planned Revenue for Fixed Revenue tasks by dividing Fixed Revenue evenly by the number of Planned Hours on the task. </p> <p>For example, a task has a revenue of $200. If there are 4 Planned Hours on the task, each hour would be $50. This is distributed on a user and role level. This distribution is unique to the Utilization report.</p> <p><b>NOTE</b>
+     
+   If you have a Fixed Revenue task and there are no Planned Hours for the task, the Revenue does not display in the Utilization Report because there is no way to distribute it to the hours. If you have Planned Hours on tasks with Fixed Revenue and no assignments, the Revenue displays as Unallocated Revenue. </p> <p><strong>Role Hourly:</strong> The revenue on the task is calculated using t he billing rate set for a specific role, multiplied by the number of Planned Hours associated with that role. Workfront uses the following formula:</p> <p><code>Role Hourly Planned Revenue = SUM(Planned Hours from role on all tasks) * Role Billing Rate</code></p> <p><strong>User Hourly:</strong> The revenue on the task is calculated using the billing rate set for a specific user, multiplied by the number of Planned Hours associated with that user. Workfront uses the following formula:</p> <p><code>User Hourly Planned Revenue = SUM(Planned Hours from users on all tasks) * User Billing Rate</code> </p> <p><b>Role Hourly or User Hourly Plus Fixed</b> </p> <p><b>IMPORTANT</b>
+   
+   Unlike in other areas of Workfront, the Utilization report calculates Planned Revenue by dividing Fixed Revenue evenly by the number of Planned Hours on the task. </p> <p>The following cases exist: </p> 
     <ul> 
      <li> <p><strong>Role Hourly Plus Fixed:</strong> The revenue on the task is calculated using the billing rate set for a specific role, multiplied by the number of Planned Hours associated with the role. In addition, a fixed amount that is specified on the task is added to the role rate. Workfront uses the following formula:</p> <p><code>Role Hourly Plus Fixed Planned Revenue = [SUM(Planned Hours from role on all tasks) * Role Billing Rate] + SUM(Cap or Fixed Amount of the task / Planned Hours of the task)</code> </p> </li> 
     </ul> 
     <ul> 
      <li> <p><strong>User Hourly Plus Fixed:</strong> The billing rate set for a specific user, multiplied by the number of Planned Hours on the task from that user. In addition, a fixed amount that is specified on the task is added to the user rate. Workfront uses the following formula:</p> <p><code>User Hourly Plus Fixed Planned Revenue = [SUM(Planned Hours from user on all tasks) * User Billing Rate] + SUM(Cap or Fixed Amount of the task / Planned Hours of the task)</code> </p> </li> 
-    </ul> <p><b>Role or User Hourly w/ Cap</b> </p> <p>Important:  Unlike in other areas of Workfront, if the Planned Revenue exceeds the cap, the amount over the Cap Amount is considered Fixed Revenue. The Planned Revenue is calculated by dividing Fixed Revenue evenly by the number of Planned Hours on the task, then adding to that the Cap Amount and the role or user hourly revenue. <br></p> <p>The following cases exist: </p> 
+    </ul> <p><b>Role or User Hourly w/ Cap</b> </p> <p><b>IMPORTANT</b>
+    
+   Unlike in other areas of Workfront, if the Planned Revenue exceeds the cap, the amount over the Cap Amount is considered Fixed Revenue. The Planned Revenue is calculated by dividing Fixed Revenue evenly by the number of Planned Hours on the task, then adding to that the Cap Amount and the role or user hourly revenue. <br></p> <p>The following cases exist: </p> 
     <ul> 
      <li> <p><strong>Role Hourly w/Cap:</strong> Tasks are billed hourly as in Role Hourly, but they have a maximum Cap Amount that you can specify. Workfront uses the following formula:</p> <p><code>Role Hourly w/ Cap Planned Revenue = [SUM(Planned Hours from role on all tasks and issues) * Role Billing Rate] + Cap Amount of the task + SUM(Amount over the Cap Amount / Planned Hours of the task)</code> </p> </li> 
     </ul> 
@@ -288,15 +298,23 @@ For information on the specific fields and how Workfront calculates them, also s
   </tr> 
   <tr> 
    <td><strong>Actual Revenue</strong> </td> 
-   <td> <p>Actual Revenue is the revenue associated with the Actual Hours of the tasks <span>and of the project</span>. For more information about Actual Revenue, see the section "Track Revenue amounts" in the article <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Actual Revenue is displayed in the Utilization report only after the task is marked as Complete or Done (or a status that equates with Complete).</p>
-    --> <p>The way that the Utilization report calculates Actual Revenue for the included projects differs depending on the Revenue Type set on the task, as follows:</p> <p><strong>Fixed Revenue:</strong> Regardless of the task assignments, the revenue on the task is always calculated using the Fixed Amount specified on the task.</p> <p>Important: Unlike in other areas of Workfront, the Utilization report calculates Actual Revenue by dividing Fixed Revenue evenly by the number of hours logged on the task. </p> <p> </p> <p>For example, a task has an Actual Revenue of $200. If there are 4 Actual Hours on the task, each hour would be $50. This is distributed on a user and role level. This distribution is unique to the Utilization report.</p> <p>Note:   If you have a Fixed Revenue task and there are no Actual Hours on the task, the Actual&nbsp;Revenue does not display in the Utilization Report because there is no way to distribute hours. </p> <p><strong>Role Hourly:</strong> The revenue on the task is calculated using t he billing rate set for a specific role, multiplied by the number of Planned Hours.</p> <p>Workfront uses the following formula:</p> <p><code>Role Hourly Actual Revenue = SUM(Actual Hours from role on all tasks) * Role Billing Rate</code> </p> <p><strong>User Hourly:</strong> The revenue on the task is calculated using the billing rate set for a specific user, multiplied by the number of hours logged against the task from that user. Workfront uses the following formula:</p> <p><code>User Hourly Actual Revenue = SUM(Actual Hours from user on all tasks) * User Billing Rate</code></p> <p><b>Role or User Hourly Plus Fixed</b> </p> <p>Important: Unlike in other areas of Workfront, the Utilization report calculates Actual Revenue by dividing Fixed Revenue evenly by the number of hours logged on the task. </p> <p>The following cases exist: </p> 
+   <td> <p>Actual Revenue is the revenue associated with the Actual Hours of the tasks <span>and of the project</span>. For more information about Actual Revenue, see the section "Track Revenue amounts" in the article <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p> 
+   
+   <p>The way that the Utilization report calculates Actual Revenue for the included projects differs depending on the Revenue Type set on the task, as follows:</p> <p><strong>Fixed Revenue:</strong> Regardless of the task assignments, the revenue on the task is always calculated using the Fixed Amount specified on the task.</p> <p><b>IMPORTANT</b>
+
+Unlike in other areas of Workfront, the Utilization report calculates Actual Revenue by dividing Fixed Revenue evenly by the number of hours logged on the task. </p> <p> </p> <p>For example, a task has an Actual Revenue of $200. If there are 4 Actual Hours on the task, each hour would be $50. This is distributed on a user and role level. This distribution is unique to the Utilization report.</p> <p><b>NOTE</b>
+   
+   If you have a Fixed Revenue task and there are no Actual Hours on the task, the Actual&nbsp;Revenue does not display in the Utilization Report because there is no way to distribute hours. </p> <p><strong>Role Hourly:</strong> The revenue on the task is calculated using t he billing rate set for a specific role, multiplied by the number of Planned Hours.</p> <p>Workfront uses the following formula:</p> <p><code>Role Hourly Actual Revenue = SUM(Actual Hours from role on all tasks) * Role Billing Rate</code> </p> <p><strong>User Hourly:</strong> The revenue on the task is calculated using the billing rate set for a specific user, multiplied by the number of hours logged against the task from that user. Workfront uses the following formula:</p> <p><code>User Hourly Actual Revenue = SUM(Actual Hours from user on all tasks) * User Billing Rate</code></p> <p><b>Role or User Hourly Plus Fixed</b> </p> <p><b>IMPORTANT</b>
+   
+Unlike in other areas of Workfront, the Utilization report calculates Actual Revenue by dividing Fixed Revenue evenly by the number of hours logged on the task. </p> <p>The following cases exist: </p> 
     <ul> 
      <li> <p><strong>Role Hourly Plus Fixed:</strong> The billing rate set for a specific role, multiplied by the number of hours logged against the task from a user with that role. In addition, a fixed amount that is specified on the task is added to the role rate. </p> <p>Workfront uses the following formula:</p> <p><code>Role Hourly Plus Fixed Actual Revenue = [SUM(Actual Hours from role on all tasks) * Role Billing Rate] + SUM(Cap or Fixed Amount of the task / Actual Hours of the task)</code> </p> </li> 
     </ul> 
     <ul> 
      <li> <p><strong>User Hourly Plus Fixed:</strong> The billing rate set for a specific user, multiplied by the number of hours logged against the task from that user. In addition, a fixed amount that is specified on the task is added to the user rate. </p> <p>Workfront uses the following formula:</p> <p><code>User Hourly Plus Fixed Actual Revenue = [SUM(Actual Hours from role on all tasks) * User Billing Rate] + SUM(Cap or Fixed Amount of the task / User Hours of the task)</code> </p> </li> 
-    </ul> <p><b>Role or User Hourly w/ Cap</b> </p> <p>Important:  Unlike in other areas of Workfront, if the Planned Revenue exceeds the cap, the amount over the Cap Amount is considered Fixed Revenue. The Planned Revenue is calculated by dividing Fixed Revenue evenly by the number of Planned Hours on the task, then adding to that the Cap Amount and the role or user hourly revenue. <br></p> <p>The following scenarios exist:</p> 
+    </ul> <p><b>Role or User Hourly w/ Cap</b> </p> <p><b>IMPORTANT</b>
+    
+   Unlike in other areas of Workfront, if the Planned Revenue exceeds the cap, the amount over the Cap Amount is considered Fixed Revenue. The Planned Revenue is calculated by dividing Fixed Revenue evenly by the number of Planned Hours on the task, then adding to that the Cap Amount and the role or user hourly revenue. <br></p> <p>The following scenarios exist:</p> 
     <ul> 
      <li> <p><strong>Role Hourly w/Cap:</strong> Tasks are billed hourly as in Role Hourly, but they have a maximum Cap Amount that you can specify. Workfront uses the following formula:</p> <p><code>Role Hourly w/ Cap Actual Revenue = [SUM(Actual Hours from role on all tasks and issues) * Role Billing Rate] + Cap Amount of the task + SUM(Amount over the Cap Amount / Actual Hours of the task)</code></p> </li> 
     </ul> 
@@ -305,7 +323,9 @@ For information on the specific fields and how Workfront calculates them, also s
     </ul> 
     <div> 
      <p><strong>Project Revenue</strong>: The revenue associated with the hours logged on the project is calculated taking into account the Billing per Hour amount of the primary job role of the user who logs the time. We do not recommend logging time on the project. </p> 
-     <p>Note: If the user is not associated with a job role or if the Billing per Hour of the Primary Role is zero, Workfront calculates Actual Revenue using the Billing per Hour amount for the user. If the user does not have a Billing per Hour amount in their profile, the Actual Revenue is zero. </p> 
+     <p><b>NOTE</b>
+   
+   If the user is not associated with a job role or if the Billing per Hour of the Primary Role is zero, Workfront calculates Actual Revenue using the Billing per Hour amount for the user. If the user does not have a Billing per Hour amount in their profile, the Actual Revenue is zero. </p> 
     </div> </td> 
   </tr> 
   <tr> 
@@ -318,6 +338,14 @@ For information on the specific fields and how Workfront calculates them, also s
   </tr> 
  </tbody> 
 </table>
+
+<!--Note from the table about Actual revenue: 
+     <p>Actual Revenue is displayed in the Utilization report only after the task is marked as Complete or Done (or a status that equates with Complete).</p>
+    -->
+
+<!--More notes from the table: 
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the note below is duplicated in this article: /Content/Manage work/Projects/Project Finances/billing-and-revenue-overview.html and in the glossary)</p>
+   -->
 
 ### Compare Revenue against Planned and Actual Costs {#compare-revenue-against-planned-and-actual-costs}
 
@@ -345,13 +373,13 @@ The following information is available in the Utilization report when comparing 
   </tr> 
   <tr> 
    <td scope="col"><strong>Margin</strong> </td> 
-   <td scope="col"> <p>The Margin percentage is calculated as follows:</p> <p>Planned Revenue - Planned Cost / Planned Revenue * 100. </p> <p>Note:   If Planned Revenue equals 0, Margin is displayed as 0. </p> </td> 
+   <td scope="col"> <p>The Margin percentage is calculated as follows:</p> <p><code>Planned Revenue - Planned Cost / Planned Revenue * 100. </code></p> <p><b>NOTE</b>
+   
+   If Planned Revenue equals 0, Margin is displayed as 0. </p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p scope="col"><strong>Column Title When Viewing Revenue vs Cost (Actual)</strong> </p> <!--
-     <p scope="col" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This needs to be either split in two tables of formatted differently)</p>
-    --> </td> 
-   <td scope="col"><strong>Function</strong> </td> 
+   <td scope="col"> <p scope="col"><strong>Column Title When Viewing Revenue vs Cost (Actual)</strong> </p>  </td> 
+   <td scope="col"><p><strong>Function</strong></p></td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Actual Cost</strong> </td> 
@@ -363,11 +391,16 @@ The following information is available in the Utilization report when comparing 
   </tr> 
   <tr> 
    <td scope="col"><strong>Margin</strong> </td> 
-   <td> <p>The Margin percentage is calculated as follows:</p> <p>Actual Revenue - Actual Cost / Actual Revenue * 100. </p> <p>Note:   If Actual Revenue equals 0, Margin is displayed as 0. </p> </td> 
+   <td> <p>The Margin percentage is calculated as follows:</p> <p>Actual Revenue - Actual Cost / Actual Revenue * 100. </p> <p><b>NOTE</b> 
+   
+   If Actual Revenue equals 0, Margin is displayed as 0. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+<!--Note from the table from above "Function" header in the middle of the table; right after the "Planned Revenue"/"Margin" definition: 
+     <p scope="col" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This needs to be either split in two tables of formatted differently)</p>
+    -->
 ## Track progress, cost, and revenue with the Utilization report {#track-progress-cost-and-revenue-with-the-utilization-report}
 
 You can track the progress or cost of a project, program, or portfolio.

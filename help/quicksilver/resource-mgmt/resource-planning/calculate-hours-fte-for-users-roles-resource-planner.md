@@ -41,7 +41,7 @@ It is important to understand what the FTE is for each of your users and their j
 The Workfront administrator determines how the available time for a user is calculated by selecting to use one of the following in the Resource Management area in&nbsp;Setup:
 
 * The Default Schedule of the system and the user's FTE. 
-* The user's schedule.&nbsp;
+* The user's schedule. 
 
 For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
@@ -100,8 +100,6 @@ For this example, we are using the following numbers:
 |---|---|---|---|---|---|
 | **The Default Schedule** |Ignored |40 |0.75 |**30** (calculated) |**0.75** |
 | **The User's Schedule** |20 |40 |Ignored |**20** |**0.5** (calculated) |
-
-{style="table-layout:auto"}
 
 Schedule exceptions and time off might affect the amount of Planned Hours or FTE. For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
