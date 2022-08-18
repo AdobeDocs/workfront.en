@@ -142,28 +142,67 @@ The following information is available in the Utilization report when tracking H
   </tr> 
   <tr> 
    <td scope="col"><strong>Planned Hours</strong> </td> 
-   <td scope="col"> <p>The Planned Hours on the included projects that are associated with the assignments on each task and issue. You can view the total planned hours of all assignments on the project for the overall life of the included projects, or you can view total planned hours only for the specified date range (you can specify an individual week or month). </p> <p><b>TIP</b>
+   <td scope="col"> <!-- Yay, no errors, warnings, or alerts! -->
+
+<p>
+The Planned Hours on the included projects that are associated with the assignments on each task and issue. You can view the total planned hours of all assignments on the project for the overall life of the included projects, or you can view total planned hours only for the specified date range (you can specify an individual week or month). 
+</p>
+<p>
+<strong>TIP </strong>
+</p>
+<p>
+The planned hours from items that have a Duration of 0 are not taken into account. 
+</p>
+<p>
+Planned Hours in the Utilization report take into consideration whether the Planned Hours have been re-allocated across the duration of a task or issue. 
+</p>
+<p>
+When the user daily allocation for hours has been modified using the Workload Balancer, the data in the Utilization report can be affected if the dates selected in the Utilization report contain only a portion of a task's or issue's Duration. 
+</p>
+<p>
+For information about modifying allocations for users, see <a href="../workload-balancer/manage-user-allocations-workload-balancer.md">Manage user allocations in the Workload Balancer</a>.
+
+
+</p>
+<p>
+Planned Hours appear on the Utilization report in any of the following rows:
+</p>
+<ul>
+
+<li>Planned Hours are summarized by job role and by individual user in the utilization report, as follows: 
+<ul>
+ 
+<li><strong>Individual User</strong>: Planned Hours are summarized for each user in the utilization report. These Planned Hours are associated with the tasks and issues that the user is assigned to on the included projects. (You can expand the row of the corresponding job role to view a list of users with that job role.)
+ 
+<li><strong>Job Role</strong>: Planned Hours are summarized by job role in the utilization report of a single project.<br>Planned Hours appear in a particular job role as a result of any of the following scenarios:  
+<ul>
+  
+<li>The job role is defined as the primary job role of the user who is assigned to the task or issue where the Planned Hours are associated. 
+  
+<li>When you view utilization information for a single project, the hours associated with a job role do not display for the job role in the following scenarios:   
+<ul>
    
-   The planned hours from items that have a Duration of 0 are not taken into account. </p> <p>Planned Hours in the Utilization report take into consideration whether the Planned Hours have been re-allocated across the duration of a task or issue. </p> <p>When the user daily allocation for hours has been modified using the Workload Balancer, the data in the Utilization report can be affected if the dates selected in the Utilization report contain only a portion of a task's or issue's Duration. For information about modifying allocations for users, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a> . </p> <p>Planned Hours appear on the Utilization report in any of the following rows:</p> 
-    <ul> 
-     <li> Planned Hours are summarized by job role and by individual user in the utilization report, as follows:<br><strong>Individual User:</strong> Planned Hours are summarized for each user in the utilization report. These Planned Hours are associated with the tasks and issues that the user is assigned to on the included projects. (You can expand the row of the corresponding job role to view a list of users with that job role.)<br><strong>Job Role:</strong> Planned Hours are summarized by job role in the utilization report of a single project.<br>Planned Hours appear in a particular job role as a result of any of the following scenarios: </li> 
-    </ul> 
-    <ul>
-     <li>
-      <ul> 
-       <li>The job role is defined as the primary job role of the user who is assigned to the task or issue where the Planned Hours are associated. </li> 
-       <li> <p>When you view utilization information for a single project, the hours associated with a job role do not display for the job role in the following scenarios:</p> 
-        <ul> 
-         <li> <p>There is no assignment on the task or issue</p> </li> 
-         <li> <p>A user is assigned with no job role assignment</p> </li> 
-         <li> <p> A user is assigned with a different job role </p> </li> 
-         <li> <p>A team is assigned to the task or issue</p> </li> 
-        </ul> </li> 
-       <li> <p>When you view utilization information for several projects, programs, or portfolios, the job role of the user assigned the hours is used only when the role is assigned on a task or issue in a project. Job role hours do not display separately when viewing the Utilization report for multiple projects. </p> </li> 
-       <li>The job role is assigned to the task or issue that has Planned Hours associated, and the user assigned to the task or issue does not have a job role defined in the system.</li> 
-      </ul></li>  
-     <li><strong>Unallocated Hours</strong>: Planned Hours are displayed in the utilization report in the Unallocated Hours section when Planned Hours are associated with a task or issue and there is no user or role assigned to the task or issue.<br>This section appears only when there are hours on the project that match this description and when viewing the Utilization report for a single project. <br></li> 
-    </ul> <p>For more information about planned hours, see <a href="../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</p> </td> 
+<li>There is no assignment on the task or issue
+   
+<li>A user is assigned with no job role assignment
+   
+<li>A user is assigned with a different job role 
+   
+<li>A team is assigned to the task or issue
+</li>   
+</ul>
+  
+<li>When you view utilization information for several projects, programs, or portfolios, the job role of the user assigned the hours is used only when the role is assigned on a task or issue in a project. Job role hours do not display separately when viewing the Utilization report for multiple projects. 
+  
+<li>The job role is assigned to the task or issue that has Planned Hours associated, and the user assigned to the task or issue does not have a job role defined in the system.
+</li>  
+</ul>
+ 
+<li><strong>Unallocated Hours</strong>: Planned Hours are displayed in the utilization report in the Unallocated Hours section when Planned Hours are associated with a task or issue and there is no user or role assigned to the task or issue.This section appears only when there are hours on the project that match this description and when viewing the Utilization report for a single project. <br>For more information about planned hours, see <a href="../../manage-work/tasks/task-information/planned-hours.md">Planned Hours overview</a>.
+</li> 
+</ul>
+</li> 
+</ul> </td> 
   </tr> 
   <tr> 
    <td><strong>Actual Hours</strong> </td> 
