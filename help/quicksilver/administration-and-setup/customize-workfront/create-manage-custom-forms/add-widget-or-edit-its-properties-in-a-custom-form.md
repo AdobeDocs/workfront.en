@@ -55,9 +55,6 @@ You must have the following to perform the steps in this article:
 
      ![](assets/add-widget.png)
 
-     >[!NOTE]
-     >
-     >The ability to add an Adobe XD widget to a custom form is not yet generally available. It is available only in the Preview Sandbox environment.
 
    * If you want to add a widget that has already been added to another custom form, click **Field library**, then click the name of the widget in the list that displays. For more information, see [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
    
