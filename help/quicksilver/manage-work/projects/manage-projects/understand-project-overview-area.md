@@ -151,8 +151,8 @@ You must have the following access to perform the steps in this article:
    | Field |Description  |
    |---|---|
    | Reference Number |This is an automatically generated field and it always has a unique value for each project.  |
-    Projected Start Date |This is a 'real time' date of when work is going to start based on completed work and remaining work. |
-   | Projected Completion Date |This is a ‘real time' date of when the project is going to be completed based on the progress of completed tasks&nbsp;and based on the progress updates on the tasks that are either New or In Progress status. |
+   | Projected Start Date |This is a 'real time' date of when work is going to start based on completed work and remaining work. |
+   | Projected Completion Date |This is a ‘real time' date of when the project is going to be completed based on the progress of completed tasks and based on the progress updates on the tasks that are either New or In Progress status. |
    | Planned Hours |Hours planned on the project. These hours are a total of Planned Hours for each task.  |
    | Actual Hours |Hours logged on the project. These hours are a total of the logged hours on the project, the tasks, or the issues of the project.  |
    | Planned Duration |Amount of time the project will span, based on the time frame between the earliest Planned Start Date of a task and the latest Planned Completion Date of a task on the project.  |
