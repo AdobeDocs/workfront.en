@@ -11,6 +11,8 @@ exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 ---
 # Customize the Main Menu using a layout template
 
+{{highlighted-preview}}
+
 As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront:
 
 ![Main Menu options](assets/main-menu-with-blueprints-no-branding.png)
@@ -92,13 +94,12 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 
    * My Updates
    * Boards
-   * Blueprints (available in the Preview environment only)
+   * <span class="preview">Blueprints</span>
    * Campaigns
 
       >[!NOTE]
       >
       >Campaigns are available in the Preview environment when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md).
-
 
 1. Do any of the following:
 

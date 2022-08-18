@@ -61,7 +61,6 @@ Workfront has the following limits:
 * DOCX - Microsoft Word Document 2007
 * DRW - DRaWing
 * DWF - AutoDesk Vector
-* DXF - Drawing Interchange
 * ECW - Enhanced Compressed Wavelet
 * EMF - Windows Metafile
 * EXIF - Exchangeable Image File Format
