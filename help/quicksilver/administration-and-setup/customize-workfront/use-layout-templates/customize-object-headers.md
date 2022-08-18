@@ -72,10 +72,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 
 1. You can have up to five fields in the header of an object.
 If you already have five fields selected, you must remove a field before you can add a new one.
-1. In the **Add field** box, start typing the name of a non-editable Workfront field that you want to add, then select it when it displays in the list. 
-
-    <!--Add this above: The field is added to the immediate right of the Add field box.-->
-    <!--(update the tip below when editable fields will come)-->
+1. In the **Add field** box, start typing the name of a non-editable Workfront field that you want to add, then select it when it displays in the list. The field is added to the immediate right of the Add field box and will display as the first field in the upper-left corner of the object's header.
 
     >[!TIP]
     >

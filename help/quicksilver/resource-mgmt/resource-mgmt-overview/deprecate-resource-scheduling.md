@@ -15,7 +15,7 @@ We are currently in the process of deprecating all Scheduling tools from Adobe W
 
 >[!IMPORTANT]
 >
->The deprecation of the Scheduling tools means that as of now, we are no longer implementing new feature functionality for the current Scheduling solution and we consider and prioritize only High and Critical severity defects for a fix.
+>The deprecation of the Scheduling tools means that as of now, we are no longer implementing new feature functionality for the current Scheduling solution and we no longer consider nor prioritize defects for a fix in this area of Adobe Workfront.
 
 This article describes a tentative timeline for this deprecation and it compares the functionality of the Scheduling tools and that of the Workload Balancer. 
 
@@ -56,7 +56,7 @@ The following is a tentative timeline for the deprecation process of Resource Sc
 
 * [2020.4 release (November 2020)](#2020-4-release-november-2020) 
 * [2021.4 release (October 2021)](#2021-4-release-october-2021) 
-* [2022.4 release (October 2022 (tentative) ](#20224-release-october-2022-tentative)
+* [2022.4 release (October 2022) (tentative) ](#20224-release-october-2022-tentative)
 
 ### 2020.4 release (November 2020) {#2020-4-release-november-2020}
 
@@ -71,6 +71,7 @@ The following is a tentative timeline for the deprecation process of Resource Sc
 
 ### 2022.4 release (October 2022) (tentative)
 
+* No defects will be prioritized for a fix during the 2022.4 release
 * All Scheduling areas are removed from Workfront
 * The Workload Balancer is the only resource scheduling tool available in Workfront
 
