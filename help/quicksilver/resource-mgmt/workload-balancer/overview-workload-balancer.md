@@ -24,9 +24,9 @@ After project managers plan the work on projects and create tasks, you can use t
 
 This article describes the general purpose for the&nbsp;Workload Balancer and some of the best practices for how you can set up your projects and resources to successfully use it.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->The Workload Balancer is a resource scheduling tool that will eventually replace the current resource scheduling tools which are currently deprecated. 
+>The Workload Balancer is a resource scheduling tool that is replacing the Scheduling areas which are currently deprecated. 
 >
 >For more information about removing the resource scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 >
@@ -38,29 +38,18 @@ This article describes the general purpose for the&nbsp;Workload Balancer and so
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be taken out when all we will have is one tool - should be replaced by a blurb that says you can add this tool anywhere, in any custom tab, etc (long term dev promise)) </p>
 -->
 
-You can assign work items to users in the following areas of Adobe Workfront:
+>[!CAUTION]
+>
+>
+>Although you may still find the Scheduling areas in Workfront, we do not recommend that you use the Scheduling areas to schedule resources for work, as these areas are currently depreacated and will be removed from the system. We recommend that you use the Workload Balancer for resource scheduling. 
 
-* At the system level, in the Resourcing area:
+For information about using the Workload Balancer, continue reading this article and all articles in this section. 
 
-  You can use the following tools:
+We recommend using the Workload Balancer in the following areas for scheduling resources: 
 
-   * The Workload Balancer in the Scheduling section.
-
-     For information about using the Workload Balancer, continue reading this article and all articles in this section. 
-   
-   * The existing resource scheduler in the Scheduling section
-
-* At the project level, in the following areas of Workfront:
-
-   * The Workload Balancer in the Scheduling section of a project. The Scheduling section becomes the Workload Balancer section.
-   * The existing resource scheduler in the  Scheduling section of a project
-
-* At the team level, in the following areas of Workfront:
-
-   * The Workload Balancer in the Schedule section of a team. The Schedule section becomes the Workload Balancer section. 
-   * The existing resource scheduler in the Schedule section of a team.
-
-For information about scheduling resources at the project, team level, or at the system level when using the existing resource scheduling tools see the articles in the section [Resource Scheduling](../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+* At the system level, in the Resourcing area.
+* At the project level, in the Workload Balancer section of a project. 
+* At the team level, in the Workload Balancer section of a team. 
 
 For more information about locating the Workload Balancer, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
