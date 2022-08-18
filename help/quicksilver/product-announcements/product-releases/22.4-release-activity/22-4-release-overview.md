@@ -92,6 +92,33 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Calculated date fields are always saved based on Coordinated Universal Time (UTC)</a><span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <p>Now, you can be sure that all date functions in calculated fields work consistently and produce the same result for everyone, regardless of how a custom data expression is updated, or where users are collaborating on the object across the world. </p>
+                        <p>All calculations are now calculated and saved by one standard— Coordinated Universal Time (UTC)—not by the time zone configurations set for your organization's instance and your individual user profile. However, calculations are displayed in a custom form based on each users' individual time zones set in their browser.</p>
+                        <p>Previously, time settings in calculations caused confusion when they varied in these situations:</p>
+                        <ul>
+                            <li>
+                                <p>If someone recalculated a calculated field expression using “Update previous calculations" on the form builder, date function results were determined by UTC time zone of your organization.</p>
+                            </li>
+                            <li>
+                                <p>If someone edited the object and that caused the calculated field expression to recalculate, date function results were determined by the user's local time zone. Calculated date field results in this scenario will also be calculated based on the UTC.</p>
+                            </li>
+                        </ul>
+                        <p>For more information, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref" xrefformat="{para}">Working across timezones</a>.</p>
+                    </td>
+                    <td><b>Available on these dates:</b>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 18, 2022</p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-july-18.md" class="MCXref xref" xrefformat="{para}">New filter experience for projects, tasks, and issues</a> </p>
                         <p>Filtering in project, task, and issue lists has been redesigned to help you create and share filters quickly. Features include:</p>
                         <ul>
@@ -130,7 +157,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md" class="MCXref xref" xrefformat="{para}">Custom Form enhancements: Adobe XD and the Quick Filter</a><span style="color: #ff0000;"> New in Preview!</span>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md" class="MCXref xref" xrefformat="{para}">Custom Form enhancements: Adobe XD and the Quick Filter</a>
                         </p>
                         <p>Based on your feedback, we've introduced the following enhancements to improve your experience when managing custom forms:
 
@@ -174,6 +201,24 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                     <td>
                         <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md" class="MCXref xref" xrefformat="{para}">Enhancements to checklist items on boards</a> </p>
+                        <p>Opening a checklist item on a card now allows you to add more detailed information about the item, including a description, due date, assignees, and estimation. You can also copy a checklist item, which was not available previously.</p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 17, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: August 25, 2022</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
