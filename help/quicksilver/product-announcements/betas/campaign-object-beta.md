@@ -79,7 +79,7 @@ Only system or group administrators can opt in to the beta on their own. All oth
 * [Participate as a system or group administrator](#participate-as-a-system-or-group-administrator) 
 * [Participate as a regular user](#participate-as-a-regular-user)
 
-#### **Participate as a system or group administrator**
+#### Participate as a system or group administrator
 
 As a system or group administrator, you can participate in the beta, or enable others to participate.
 
@@ -95,7 +95,7 @@ As a system or group administrator, you can participate in the beta, or enable o
     The [!UICONTROL Campaigns] list displays.
 1. Start using the [!UICONTROL **Campaigns**] area.
 
-#### **Participate as a regular user**
+#### Participate as a regular user
 
 After your system or group administrator has added the Campaigns area to your Main Menu, do the following:
 

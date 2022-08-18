@@ -97,7 +97,7 @@ To access the Preview Sandbox:
 * [Accessing the Preview Sandbox for Accounts on Cluster 1,2,3, and 5](#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5) 
 * [Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts)
 
-#### **Accessing the Preview Sandbox for Accounts on Cluster 1,2,3, and 5** {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
+#### Accessing the Preview Sandbox for Accounts on Cluster 1,2,3, and 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
 Historically, you accessed the Preview Sandbox by going to [https://companyname.attasksandbox.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.attasksandbox.com%2F&sa=D&sntz=1&usg=AFQjCNGTfPKCDnAylzkclNwdSuEXksLFRg).
 
@@ -117,7 +117,7 @@ To log into the Preview Sandbox using a URL:
 
    Your Preview credentials should be the same as your production credentials, unless you changed them in Production after the Preview refresh happened. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.
 
-#### **Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)** {#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts}
+#### Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts) {#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts}
 
 To log into the Preview Sandbox using a URL:
 

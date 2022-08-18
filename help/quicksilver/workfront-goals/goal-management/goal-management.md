@@ -3,21 +3,24 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
 title: Goal management in Adobe Workfront Goals
-description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+description: Review the following articles to learn where you start with Workfront Goals, the importance of using goals, how to create, edit, comment, and manage goals, as well as how to filter and print goal information
 author: Alina
 feature: Workfront Goals
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
 ---
 # Goal management in Adobe Workfront Goals
 
-Your organization must have the following to use the functionality described in this article:
+>[!NOTE]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
+>* An Adobe Workfront Goals license in addition to a Workfront license.
+>Contact your Workfront account manager to learn about a Workfront Goals license.
+>
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-* An Adobe Workfront Goals license in addition to a Workfront license.
 
-  Contact your Workfront account manager to learn about a Workfront Goals license.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 Review the following articles to learn where you start with Workfront Goals, the importance of using goals, how to create, edit, comment, and manage goals, as well as how to filter and print goal information:
 
 * [Adobe Workfront Goals overview](../../workfront-goals/goal-management/wf-goals-overview.md) 

@@ -15,7 +15,12 @@ It can be helpful to understand how Adobe Workfront uses time zones to calculate
 
 ## Time zones in Workfront
 
-Times you see in Workfront are based on time zone configurations for your organization's Workfront instance and for your user profile. If these two time zones are different, you might see time discrepancies in different areas and features you use in Workfront.
+Times you see in Workfront are based on time zone configurations for your organization's Workfront instance and for your user profile. If these two time zones are different, you might see time discrepancies in different areas and features you use in Workfront. 
+
+>[!NOTE]
+>
+><div class="preview">In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved by Coordinated Universal Time (UTC), not by the time zone configurations set for your organization's instance and your user profile. Calculations in a custom form are generated and displayed based on each users' individual time zones.</div>
+
 
 * [Your organization's Workfront instance](#your-organization-s-workfront-instance) 
 * [Your user profile](#your-user-profile)
@@ -60,23 +65,17 @@ You can help users working more easily across several time zones in several ways
 
 ### Use schedules {#use-schedules}
 
-A Workfront administrator can define the work week in your organization by configuring schedules for certain projects and certain users.
-
-This also allows Workfront to calculate timelines and user availability, as explained in [Schedules overview](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md).
-
-We recommend that your Workfront administrators create separate schedules for each time zone within your organization to ensure that work is scheduled appropriately for your users, wherever they are.
-
-After schedules are created for your organization, you can associate them with projects and users:
+Workfront administrators create separate schedules for each time zone within your organization to ensure that work is scheduled appropriately for everyone, wherever they are. Once the administrator creates the schedules, they can be associated with certain projects and users:
 
 * **Projects**: A project creator can select a schedule for an individual project. This determines the scheduling of the tasks in the project, based on the working hours set for the assignees' time zones. 
 * **Users**:&nbsp;A Workfront administrator (or someone with Edit access to users) can select a schedule for individual user in the user's profile.
 
   This schedule might be different from a project schedule. For example, when someone creates a task in the project and hasn't assigned anyone to it yet, the task uses the project schedule. When a user is assigned to the task, the task uses that user's schedule.
 
-  If multiple users are assigned to a task, the system uses one of the following, as configured in&nbsp;the system-wide project&nbsp;preferences:
+  If multiple users are assigned to a task, the system uses one of the following, as configured in the system-wide project preferences:
 
-   * The time zone for the schedule of the task's primary qwner
-   * The time zone for the schedule of the project.&nbsp;
+   * The time zone for the schedule of the task's primary owner
+   * The time zone for the schedule of the project.
 
   This can cause tasks dates to change.
 

@@ -3,7 +3,7 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-scheduling
 title: Overview of the Scheduling areas
-description: Overview of the Scheduling areas
+description: The following sections describe where you can access the scheduling area within Adobe Workfront, as well as the functionality available in the scheduling area.
 author: Alina
 feature: Resource Management
 exl-id: ed6f1db9-917d-4a19-9fd4-1ed5d2ca95fb
@@ -14,13 +14,13 @@ exl-id: ed6f1db9-917d-4a19-9fd4-1ed5d2ca95fb
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: broken off the main article, retitle, relink, reformat)</p>
 -->
 
->[!NOTE]
+>[!CAUTION]
 >
 >We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
 >
->For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>* For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 The following sections describe where you can access the scheduling area within Adobe Workfront, as well as the functionality available in the scheduling area.
 
@@ -64,7 +64,7 @@ You can adjust the date range for which data is displayed on the scheduling time
 * [When scheduling resources as a member of the project team (from a project)](#when-scheduling-resources-as-a-member-of-the-project-team-from-a-project) 
 * [When scheduling resources as a team member (from a team)](#when-scheduling-resources-as-a-team-member-from-a-team)
 
-#### **When scheduling resources as the resource manager (for multiple projects in the Scheduling area)** {#when-scheduling-resources-as-the-resource-manager-for-multiple-projects-in-the-scheduling-area}
+#### When scheduling resources as the resource manager (for multiple projects in the Scheduling area) {#when-scheduling-resources-as-the-resource-manager-for-multiple-projects-in-the-scheduling-area}
 
 The **Unassigned** area on the scheduling timeline displays only those tasks and issues that meet all the following criteria:
 
@@ -86,7 +86,7 @@ The **Unassigned** area at the top of the scheduling timeline displays tasks and
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;[! Is it even possible to have the task assigned to a member who is not part of the project team? If so, then would this end up in the Unassigned area?])</p>
   -->
 
-#### ****When scheduling resources as a team member (from a team)**** {#when-scheduling-resources-as-a-team-member-from-a-team}
+#### **When scheduling resources as a team member (from a team)** {#when-scheduling-resources-as-a-team-member-from-a-team}
 
 The **Unassigned** area at the top of the scheduling timeline displays tasks and issues that meet the following criteria:
 
@@ -100,7 +100,7 @@ The **Unassigned** area at the top of the scheduling timeline displays tasks and
 * [When scheduling resources as a member of the project team (from a project)](#when-scheduling-resources-as-a-member-of-the-project-team-from-a-project) 
 * [When scheduling resources as a team member (from a team)](#when-scheduling-resources-as-a-team-member-from-a-team)
 
-#### **When scheduling resources as the resource manager (for multiple projects in the Scheduling area)** {#when-scheduling-resources-as-the-resource-manager-for-multiple-projects-in-the-scheduling-area-1}
+#### When scheduling resources as the resource manager (for multiple projects in the Scheduling area) {#when-scheduling-resources-as-the-resource-manager-for-multiple-projects-in-the-scheduling-area-1}
 
 Any users who are eligible to be assigned one of the unassigned tasks are located below the **Unassigned** area. Users are available on the scheduling timeline to be assigned a task or issue in the following circumstances:
 
@@ -117,7 +117,7 @@ Any other tasks or issues assigned to those users are also displayed on the time
 
 You can see the level in which users are allocated on a given day, as described in [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md). Tasks that you do not have at least Contribute permissions display as a gray bar on the scheduling timeline.
 
-#### **When scheduling resources as a member of the project team (from a project)** {#when-scheduling-resources-as-a-member-of-the-project-team-from-a-project-1}
+#### When scheduling resources as a member of the project team (from a project) {#when-scheduling-resources-as-a-member-of-the-project-team-from-a-project-1}
 
 Each member of the team is always displayed on the scheduling timeline, regardless of the job role assignments of the users and the role assignments of the tasks in the Unassigned area.
 
@@ -126,7 +126,7 @@ If a user has multiple job roles defined in the system, the user appears multipl
 * There are tasks or issues displayed in the **Unassigned** area that are assigned to the job roles that are associated with the user.
 * There are tasks or issues on the project that have assigned job roles, and those tasks or issues are assigned to a user who has that job role defined in the system.
 
-#### **When scheduling resources as a team member (from a team)** {#when-scheduling-resources-as-a-team-member-from-a-team-1}
+#### When scheduling resources as a team member (from a team) {#when-scheduling-resources-as-a-team-member-from-a-team-1}
 
 Each member of the team is always displayed on the scheduling timeline, regardless of the job role assignments of the users and the role assignments of the tasks in the Unassigned area.
 

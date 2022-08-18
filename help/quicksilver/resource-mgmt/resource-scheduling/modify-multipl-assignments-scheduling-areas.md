@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: resource-scheduling
 title: Modify multiple users assignments to tasks in the Scheduling areas
-description: Modify multiple users assignments to tasks in the Scheduling areas
+description: Modify multiple users assignments to tasks in the Scheduling areas. 
 author: Alina
 feature: Resource Management
 exl-id: 545a5033-a09e-4019-a10e-c388cf977ae4
@@ -13,13 +13,15 @@ exl-id: 545a5033-a09e-4019-a10e-c388cf977ae4
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article for doing the same function in a task list in: Manage Work> Tasks> Assign Tasks)</p>
 -->
 
->[!NOTE]
+>[!CAUTION]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
+>We are no longer supporting the Resource Scheduling tools and they will soon be removed from Adobe Workfront. 
 >
->For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>We recommend that you use the Workload Balancer for scheduling your resources. 
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>* For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>
+>* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 This article refers to modifying user assignments for multiple tasks using the Scheduling area of Adobe Workfront . Please also see the following articles for modifying assignments on multiple tasks in other areas:
 
@@ -50,7 +52,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to&nbsp;Projects, Tasks, and Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects, Tasks, and Issues</p> <p><b>NOTE</b> If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -59,7 +61,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations for making multiple assignments in the Scheduling areas
 
