@@ -65,6 +65,9 @@ You must have the following access to perform the steps in this article:
    <span class="preview">For information about any of these fields, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) or [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).</span>
 
 1. <span class="preview">Click **Close** to return to the card details and the full list of checklist items.</span>
+
+   <span class="preview">The assignees and due date appear on the item.</span>
+
 1. <span class="preview">To copy an item, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Copy**.</span>
 1. To delete a checklist item in the Production environment, click the **Delete** icon ![Delete icon](assets/delete.png).
 1. <span class="preview">To delete a checklist item in the Preview environment, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Delete**.</span>
