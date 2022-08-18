@@ -3,7 +3,7 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
 title: Access needed to budget resources in Adobe Workfront
-description: You can view and manage information about resource planning and scheduling for the projects that you have access to view when you have certain access level settings and the permissions for your work items, users, job roles, and teams. 
+description: You can view and manage information about resource planning for the projects that you have access to view when you have certain access level settings and the permissions for your work items, users, job roles, and teams. 
 author: Alina
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
@@ -20,7 +20,7 @@ exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
 </div>
 -->
 
-You can view resource budgeting information for the projects that you have access to view when your company has purchased an Adobe Workfront license that includes Resource Planning.
+When your company has purchased an Adobe Workfront license that includes Resource Planning you can view resource budgeting information for the projects that you have permissions to view. You can view budgeting information in the Resource Planner. 
 
 For additional information about prerequisites for using the budgeting tools in Workfront, see [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
