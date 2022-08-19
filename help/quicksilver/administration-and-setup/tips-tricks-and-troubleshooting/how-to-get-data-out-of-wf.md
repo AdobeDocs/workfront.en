@@ -22,13 +22,13 @@ AtAppStore, a Workfront certified partner, has an easy-to-use app that allows yo
 
 * **Cons:** Documents are not exported. You will have to download them separately. For more information, go to [http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx.](http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx)
 
-## Request an Oracle data dump file from our Database team
+## Request an Postgres data dump file from our Database team
 
-Your Account Executive can submit a request to our Database team to export a database dump file (.dmp Oracle file) with your data. An additional request will go to our AOS team to retrieve all of your stored documents.
+Your Account Executive can submit a request to our Database team to export a database dump file (.dmp Postgres file) with your data. An additional request will go to our AOS team to retrieve all of your stored documents.
 
 * **Pros**: You get your entire data load, including custom fields, as well as documents that are stored in the system.  
 
-* **Cons**: The database file is hard to read: there is no way you can read this file unless you upload it to an Oracle database and re-establish the relationships between the tables. The documents are stored on a separate file server and must be extracted separately using a separate process by the AOS team. In doing so, there is no organization to the documents, and they are all referenced by their GUID.
+* **Cons**: The database file is hard to read: there is no way you can read this file unless you upload it to an Postgres database and re-establish the relationships between the tables. The documents are stored on a separate file server and must be extracted separately using a separate process by the AOS team. In doing so, there is no organization to the documents, and they are all referenced by their GUID.
 * **Cost**: There is a cost associated with this download, depending on how long it takes the team to create the file. Check with your AE/ CAE for more information or to get this process started.
 
 ## Export via Kick-Starts
