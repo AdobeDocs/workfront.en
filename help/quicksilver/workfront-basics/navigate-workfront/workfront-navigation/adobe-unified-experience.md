@@ -1,7 +1,7 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Adobe Unified Experience for Wokfront
+title: Adobe Unified Experience for Workfront
 description: Accessing Workfront through Adobe Experience Cloud gives you a seamless, unified experience for managing all of your Adobe applications.
 author: Lisa
 feature: Workfront navigation
