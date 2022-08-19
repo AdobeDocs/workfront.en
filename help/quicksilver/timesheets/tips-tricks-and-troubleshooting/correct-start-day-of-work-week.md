@@ -3,8 +3,8 @@ content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Correct the start day of the work week for Timesheets
-description: The start day of the week on my timesheet does not match the start day of the week that is configured on my timesheet profile (as described in Create, edit, and assign timesheet profiles.).
-author: Lisa
+description: The start day of the week on my timesheet does not match the start day of the week that is configured on my timesheet profile. 
+author: Alina
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
 ---

@@ -4,7 +4,7 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Understand the Timesheet layout
 description: This article describes the layout of timesheets in Adobe Workfront, allowing you to better understand how to customize and utilize timesheets to record time.
-author: Lisa
+author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
 ---
@@ -29,6 +29,7 @@ The following are the areas of a timesheet:
 * [Hour Type](#hour-type)
 * [Updates area in the left panel](#updates-area-in-the-left-panel)
 * [Summary panel](#summary-panel)
+* [Time frame and hour-entry area](#time-frame-and-hour-entry-area)
 * [Hour entry comments](#hour-entry-comments)
 * [Hours](#hours)
 * [Totals](#totals)
@@ -124,6 +125,18 @@ Any comments made on the timesheet display in this area, at the bottom of the ti
 You can comment access the Summary panel for tasks or issues displayed in a timesheet. From here, you can comment on tasks and issues, or update their information. For more information, see [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md). 
 
 The comments you enter for work items in the timesheet Summary panel display in the Updates area of the task or the issue. The Summary panel is not available for projects.
+
+## Time frame and hour-entry area
+
+![](assets/timesheet-time-frame-log-time-area.png)
+
+The time frame of the timesheet displays to the right of the work items. 
+
+You can create timesheets for one, two, or four weeks. 
+
+The time frame displays in full-week increments. Days outside of the specified timesheet time frame are dimmed. You cannot log time for days that are outside of the timesheet's time frame. 
+
+For information, see [Create  single-use timesheet](../create-and-manage-timesheets/create-tmshts.md) or [Create, edit, and assign timesheet profiles](../create-and-manage-timesheets/create-timesheet-profiles.md). 
 
 ## Hour entry comments
 
