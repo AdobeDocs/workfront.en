@@ -21,19 +21,17 @@ You can use the quick filter in a list of objects to help you locate only items 
 If you want to save a quick filter, we recommend that you build a permanent filter for your list instead.  
 For information about how to build filters in Adobe Workfront, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
+The quick filter is currently available in the following areas
+
+
 You can use temporary quick filters in all lists, except the following:
 
 * The Reports area
 * Document lists and reports
-* Several Setup areas 
-
-  The quick filter is currently available in Groups, Teams, Companies, Schedules, and Layout Templates. 
-
-<!--Remove the following note box and add "Custom Forms" to the sentence directly above when this goes to Production. Or do this using the Preview highlighting when it becomes available.-->
-
->[!NOTE]
->
->  If you are using the Preview environment, the quick filter is also available in Custom Forms.
+* Several Setup areas
+   >[!NOTE]
+   >
+   >Quick filters are available in the following setup areas: Groups, Teams, Companies, Schedules, Layout Templates, and Custom Forms.
 
 
 Consider the following when applying quick filters to a list:

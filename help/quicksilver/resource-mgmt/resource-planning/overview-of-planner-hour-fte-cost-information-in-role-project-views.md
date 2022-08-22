@@ -143,7 +143,9 @@ The following tables show the allocation and availability information that displ
   </tr> 
   <tr> 
    <td>Project</td> 
-   <td> <p>The total of the Planned Hours, FTEs, or Cost from all the job roles or users listed under the project, including in the <strong>No Role</strong> or <strong>No User</strong> sections, for the time frame selected, and as displayed in the Project Details tab of the project. </p> <p>Note: Manual adjustments of daily user allocations could change the weekly, monthly, or quarterly Planned Hours value in the Resource Planner. You can manually adjust daily user allocations for tasks and issues using the Workload Balancer. For more information, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </td> 
+   <td> <p>The total of the Planned Hours, FTEs, or Cost from all the job roles or users listed under the project, including in the <strong>No Role</strong> or <strong>No User</strong> sections, for the time frame selected, and as displayed in the Project Details tab of the project. </p> <p><b>NOTE</b>
+   
+   Manual adjustments of daily user allocations could change the weekly, monthly, or quarterly Planned Hours value in the Resource Planner. You can manually adjust daily user allocations for tasks and issues using the Workload Balancer. For more information, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Role</td> 
@@ -199,7 +201,7 @@ Consider the following when viewing Planned Hours:
   </tr> 
   <tr> 
    <td>User</td> 
-   <td> <p>A manual entry to estimate how many hours you budget for a user, for a selected time frame. </p> <p> <p>Note:   You can estimate the Budgeted Hours for users who are not assigned to tasks, but are associated with a Resource Pool on a project because these users also appear in the Resource Planner. Their Planned Hours should be zero, however, if they are not assigned to tasks. </p> </p> </td> 
+   <td> <p>A manual entry to estimate how many hours you budget for a user, for a selected time frame. </p> <p> <p><b>NOTE</b>   You can estimate the Budgeted Hours for users who are not assigned to tasks, but are associated with a Resource Pool on a project because these users also appear in the Resource Planner. Their Planned Hours should be zero, however, if they are not assigned to tasks. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -277,7 +279,13 @@ Consider the following when working with Budgeted Hours:
      <p>The project Net Hours, FTE, or Cost may show one of the following: </p> 
      <ul> 
       <li> <p>The difference between the Available time or cost and the Budgeted time or cost for the project:</p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>The difference between the Available time or cost and the Planned time or cost for the project, when the Use Planned (PLN) values in NET calculations setting is enabled:</span> </p> <p><span><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code></span> </p> <p>Tip: <span>This option is applied only when you customize the view in the Display selected items section.</span> </p> <p><span>For more information, see</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Review resource availability and allocation using the Adobe Workfront Resource Planner</a> </p> </li> 
+      <li> <p>The difference between the Available time or cost and the Planned time or cost for the project, when the Use Planned (PLN) values in NET calculations setting is enabled: </p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code>
+      </p> 
+
+  <p><b>TIP</b></p>        
+  <p>This option is applied only when you customize the view in the Display selected items section.</p>
+  <p>For more information, see <a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" >Review resource availability and allocation using the Adobe Workfront Resource Planner</a> </p> 
+      </li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -288,7 +296,9 @@ Consider the following when working with Budgeted Hours:
      <p>The role Net Hours, FTE, or Cost may show one of the following: </p> 
      <ul> 
       <li> <p>The difference between the Available time or cost and the Budgeted time or cost for the role:</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>The difference between the Available time or cost and the Planned time or cost for the role, when the Use Planned (PLN) values in NET calculations setting is enabled:</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p>Tip: <span>This option is applied only when you customize the view in the Display selected items section.</span> </p> <p><span>For more information, see</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Review resource availability and allocation using the Adobe Workfront Resource Planner</a> </p> </li> 
+      <li> <p><span>The difference between the Available time or cost and the Planned time or cost for the role, when the Use Planned (PLN) values in NET calculations setting is enabled:</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIP</b> <span>
+      
+  This option is applied only when you customize the view in the Display selected items section.</span> </p> <p><span>For more information, see</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Review resource availability and allocation using the Adobe Workfront Resource Planner</a> </p> </li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -299,7 +309,9 @@ Consider the following when working with Budgeted Hours:
      <p>The user Net Hours, FTE, or Cost may show one of the following: </p> 
      <ul> 
       <li> <p>The difference between the Available time or cost and the Budgeted time or cost for the user:</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>The difference between the Available time or cost and the Planned time or cost for the user, when the Use Planned (PLN) values in NET calculations setting is enabled:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p>Tip: <span>This option is applied only when you customize the view in the Display selected items section.</span> </p> <p><span>For more information, see</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Review resource availability and allocation using the Adobe Workfront Resource Planner</a> </p> </li> 
+      <li> <p><span>The difference between the Available time or cost and the Planned time or cost for the user, when the Use Planned (PLN) values in NET calculations setting is enabled:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIP</b> <span>
+  
+  This option is applied only when you customize the view in the Display selected items section.</span> </p> <p><span>For more information, see</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Review resource availability and allocation using the Adobe Workfront Resource Planner</a> </p> </li> 
      </ul> 
     </div> </td> 
   </tr> 

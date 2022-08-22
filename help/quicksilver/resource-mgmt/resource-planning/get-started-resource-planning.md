@@ -3,7 +3,7 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
 title: Get started with Resource Planning
-description: (**** THIS WILL BE LINKED TO THE PRODUCT UI IN THE PLANNER AREA***DO NOT DELETE OR CHANGE URL FOR THIS ARTICLE****)
+description: You can use resource planning tools to manage your job roles, their availability, and general allocation to projects based on this availability.
 author: Alina
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
@@ -21,9 +21,9 @@ You can use the Adobe Workfront Resource Management tools to forecast the alloca
 
 You can use resource planning tools to manage your job roles, their availability, and general allocation to projects based on this availability.
 
-Budgeting users' general allocation to projects does not assign them to actual work (tasks and issues). You must assign your resources to work by using the Resource Scheduling tools.
+Budgeting users' general allocation to projects does not assign them to actual work (tasks and issues). You must assign your resources to work by using the Workload Balancer.
 
-For more information about scheduling resources in Workfront, see [Resource Scheduling](../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) .
+For more information about scheduling resources in Workfront using the Workload Balancer, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
 
 ## Resource planning tools in&nbsp;Workfront
 
@@ -35,7 +35,7 @@ To budget time for your resources for the projects you plan to assign them to, y
 
   For information about the Resource Planner, see [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* For budgeting allocations for a single project: use the&nbsp;project-level Resource Planner in the Resource Budgeting area of the Business Case of a the project. For information about budgeting resources for one project, see the article [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+* For budgeting allocations for a single project: use the project-level Resource Planner in the Resource Budgeting area of the Business Case of a the project. For information about budgeting resources for one project, see the article [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
   To manage users and organize them in pools based on common skills or departmental structure and then manage their allocations for the projects they are assigned to, you must create resource pools.&nbsp;For more information about creating resource pools, see [Create resource pools](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
@@ -43,9 +43,9 @@ To budget time for your resources for the projects you plan to assign them to, y
   >
   >The Resource Budgeting area of a project is the Resource Planner at the project level. When you budget resources in the Business Case of a project, the information is also reflected in the system-level Resource Planner.
 
-* For managing resources at a high-level, across multiple initiatives, and align your work with your organization's strategy, use the Adobe Workfront Scenario Planner. The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
+* For managing resources at a high-level, across multiple initiatives, and align your work with your organization's strategy, use the Adobe Workfront Scenario Planner. The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
 
-  You can use the Scenario Planner both at the system-level, across multiple initiatives, as well as to budget resources for a single project in the Resource Budgeting area of the business case. &nbsp;For more information about budgeting resources for a project in the business case, see [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  You can use the Resource Planner both at the system-level, across multiple projects, as well as to budget resources for a single project in the Resource Budgeting area of the business case. For more information about budgeting resources for a project in the business case, see [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ## The purpose of the resource planning tools
 
@@ -57,7 +57,9 @@ To budget time for your resources for the projects you plan to assign them to, y
 
   For information about working in the Resource Planner, see the article [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Using the Scenario Planner, you can build enterprise-level plans across multiple initiatives that outline your company's overall strategic outcomes. For more information, see [Get started with the Scenario Planner](../../scenario-planner/get-started-with-scenario-planning.md).
+* Using the Scenario Planner, you can build enterprise-level plans across multiple initiatives that outline your company's overall strategic outcomes. For more information, see [Get started with the Scenario Planner](../../scenario-planner/get-started-with-scenario-planning.md). 
+
+  The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>
