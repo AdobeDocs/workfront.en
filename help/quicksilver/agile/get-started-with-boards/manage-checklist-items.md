@@ -5,6 +5,7 @@ title: Manage checklist items on cards
 description: Using a checklist on a card allows you to break down work into smaller increments or add notes to the card. Checklist items are available on both ad hoc and connected cards.
 author: Lisa
 feature: Agile
+exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
 ---
 # Manage checklist items on cards
 
@@ -64,6 +65,9 @@ You must have the following access to perform the steps in this article:
    <span class="preview">For information about any of these fields, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) or [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).</span>
 
 1. <span class="preview">Click **Close** to return to the card details and the full list of checklist items.</span>
+
+   <span class="preview">The assignees and due date appear on the item.</span>
+
 1. <span class="preview">To copy an item, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Copy**.</span>
 1. To delete a checklist item in the Production environment, click the **Delete** icon ![Delete icon](assets/delete.png).
 1. <span class="preview">To delete a checklist item in the Preview environment, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Delete**.</span>

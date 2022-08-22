@@ -11,7 +11,7 @@ exl-id: 941af6ed-edf7-4ad3-a426-831bd3c05297
 
 >[!NOTE]
 >
->The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaign] beta program. The functionality described here might not be fully available yet. 
+><span class="preview">The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaign] beta program. The functionality described here might not be fully available yet.</span> 
 
 <!--the note above needs to be updated with Production 22.4 - this was released to Preview in 22.3; notice that the note says PREVIEW BETA - it might remain in BETA for a while (Production) but you might be able to remove "Preview" after 22.4 - ???  -->
 
