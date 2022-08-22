@@ -51,7 +51,7 @@ You can add new documents to Workfront from the file system on your workstation.
 
 >[!NOTE]
 >
->While there is no size limit for document uploads, document downs are limited to 4GB.
+>While there is no size limit for document uploads, document downloads are limited to 4GB.
 
 To add a document:
 

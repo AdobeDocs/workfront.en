@@ -10,9 +10,9 @@ exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
 ---
 # The Workload Balancer
 
->[!NOTE]
+>[!IMPORTANT]
 >
->The Workload Balancer is a resource scheduling tool that will eventually replace the current resource scheduling tools which are currently deprecated. 
+>The Workload Balancer is a resource scheduling tool that is replacing the Scheduling tools which are currently deprecated. 
 >
 >For more information about removing the resource scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 >

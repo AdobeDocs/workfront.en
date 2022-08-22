@@ -24,7 +24,7 @@ You can use the Resource Planner to easily understand the availability of users 
 
 >[!IMPORTANT]
 >
->You cannot use the Resource Planner to assign actual work (tasks and issues) to users. You can only estimate the amount of time needed for the users or job roles to complete a project, regardless of the tasks and issues they are assigned to.  >
+>You cannot use the Resource Planner to assign actual work (tasks and issues) to users. You can only estimate the amount of time needed for the users or job roles to complete a project, regardless of the tasks and issues they are assigned to.  
 >To assign actual work to users you must use the Workload Balancer. For more information about the Workload Balancer, see [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 You can view information in the Resource Planner using three separate views. You can use each view to fulfill one of the following purposes:
@@ -165,7 +165,7 @@ Ensure the following task and issue setup exists before starting budgeting resou
 
   >[!NOTE]
   >
-  >Teams assigned to tasks or issues do not display in the Resource Planner*. *The Planned Hours of tasks and issues assigned to job roles display in the Resource Planner, but these hours cannot be budgeted unless a user who is associated with the job role is listed in a resource pool associated with the project.
+  >The Planned Hours of tasks and issues assigned to job roles display in the Resource Planner, but these hours cannot be budgeted unless a user who is associated with the job role is listed in a resource pool associated with the project.
 
 * You should not assign parent tasks to users or roles.
 

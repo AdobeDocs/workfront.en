@@ -124,8 +124,8 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr> 
       <td role="rowheader"><strong>Checklist Items</strong> </td> 
-      <td> <p>Click <strong>Add checklist item</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>To delete an item, click the <strong>Delete</strong> icon <img src="assets/delete.png">.</p><p>For information about completing checklist items, see "Complete checklist items" in the article <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Add an ad hoc card to a board</a>.</p></td> 
-     </tr> 
+      <td> <p>Click <strong>Add checklist item</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p></td> 
+     </tr>
     </tbody> 
    </table>
 
