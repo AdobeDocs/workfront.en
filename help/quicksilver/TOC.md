@@ -1520,7 +1520,7 @@ feature-set: Workfront
       * [Edit an existing calendar report](reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md)
       * [Delete a calendar report](reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
       * [Copy a calendar report](reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)
-      * [Add ad-hoc events to a calendar report](reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)
+      * [Add ad hoc events to a calendar report](reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)
     * Tips, tricks, and troubleshooting for reports {#troubleshooting-tips-tricks-reports}
       * [Tips, tricks, and troubleshooting for reports](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
       * [Reports FAQs](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
