@@ -17,7 +17,7 @@ As an Adobe Workfront administrator or a group administrator, you can use a layo
 >
 >Customizing object headers is currently available only for projects.
 
-<!--drafted for task headers: replace above with this: Customizing object headers is currentlu available for projects and tasks. -->
+<!--drafted for task headers: replace above with this: Customizing object headers is currently available for projects <span class="preview">and tasks</span>. -->
 
 For information about layout templates for groups, see [Create and modify a group’s layout templates](../../manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md). 
 
@@ -78,8 +78,8 @@ If you already have five fields selected, you must remove a field before you can
     >
     >Non-editable fields are fields that users cannot manually edit. They are automatically calculated by Workfront. You can only add fields that display in the Overview area of the object's Details section. 
 
-    <!--drafted for task customizable headers: 
-    * Editable fields that are already part of the default headers (for example, Status, Percent Complete, Assignments) are allowed. -->
+    <!--drafted for task customizable headers - add is as a second bullet for the TIPS above and make what is there the first bullet: 
+    * Editable fields that are already part of the default headers (for example, Project Owner, <span class="preview">Status, Percent Complete, Assignments</span>) are allowed. -->
 
     ![](assets/add-field-to-header-in-lt-list.png)  
   
