@@ -85,8 +85,6 @@ These KPIs are broken down into the following categories:
 | Overdue tasks |**Overdue tasks** shows the number of tasks that are past the Planned Completion Date and are not in a Complete or Closed status or a status that equates with Complete or Closed. |
 | Total tasks |**Total tasks** shows the total number of tasks in the project. |
 
-{style="table-layout:auto"}
-
 >[!TIP]
 >
 >To display a list of work items for a specific KPI, click that KPI. In that list, you can click a specific work item to view more details in a new tab.  
@@ -123,8 +121,6 @@ In the drop-down menu above the chart, you can select:
 |---|---|
 | All issues |Selecting **issues** shows you the total number of issues in the project, as well as the ratio between completed and incomplete issues. |
 
-{style="table-layout:auto"}
-
 >[!TIP]
 >
 >To display a list of work items that are completed or incomplete, click that section in the donut chart. In that list, you can click a specific work item to view more details in a new tab.  
@@ -144,8 +140,6 @@ You can choose to look at task assignments for a project in the following catego
 | Incomplete |Selecting **Incomplete** shows the number of tasks assigned to each user that have not been completed yet. |
 | Upcoming |Selecting **Upcoming** shows the number of tasks assigned to each user that have not yet reached the Planned Start Date. |
 | Overdue |Selecting **Overdue** shows the number of tasks assigned to each user that are past the Planned Completion Date and have not yet been completed. |
-
-{style="table-layout:auto"}
 
 >[!TIP]
 >

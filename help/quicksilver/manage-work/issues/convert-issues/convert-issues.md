@@ -225,7 +225,6 @@ The following table illustrates which&nbsp;issue fields are visible from the con
 | Primary Contact | Converted Issue Originator Name |✔ | `✔`  |✔ |&nbsp; |
 | Entry Date |Converted Issue Entry&nbsp;Date |✔ |&nbsp; |✔ |&nbsp; |
 
-{style="table-layout:auto"}
 
 >[!CAUTION]
 >

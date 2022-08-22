@@ -2,20 +2,22 @@
 product-area: resource-management;setup
 navigation-topic: resource-scheduling
 title: Configure settings in the Scheduling areas
-description: We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources.
+description: You can configure various settings to customize how and what information displays in the scheduling timeline.
 author: Alina
 feature: Resource Management
 exl-id: d76b59c0-d0fd-4698-8017-fa0778f61dc7
 ---
 # Configure settings in the Scheduling areas
 
->[!NOTE]
+>[!CAUTION]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
+>We are no longer supporting the Resource Scheduling tools and they will soon be removed from Adobe Workfront. 
 >
->For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>We recommend that you use the Workload Balancer for scheduling your resources. 
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>* For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>
+>* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 You can configure various settings to customize how and what information displays in the scheduling timeline.
 
@@ -37,7 +39,9 @@ You must have the following access to perform the steps in this article::
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View access or higher to Projects, Tasks,&nbsp;and Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to Projects, Tasks,&nbsp;and Issues</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -46,7 +50,7 @@ You must have the following access to perform the steps in this article::
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Configure issues to display on the scheduling timeline
 
@@ -192,8 +196,6 @@ The following table outlines when the parent tasks display in the Scheduling tab
 | Enabled |Manual |Manual |Subtasks and Parent Tasks |
 | Enabled |Manual |Automatic |Subtasks only |
 
-{style="table-layout:auto"}
-
 For information about configuring&nbsp;the**Completion Mode** and the **Summary Completion Mode** fields for each project, see the section "Settings"&nbsp;in&nbsp;the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
 You can manually configure the Show Parent Tasks setting in the Scheduling  section  for multiple projects.&nbsp;
@@ -230,8 +232,6 @@ The following table outlines when the Parent Tasks display in the Staffing  sect
 | Automatic |Automatic |Subtasks only |Subtasks only |
 | Manual |Manual |Subtasks and Parent Tasks |Subtasks only |
 | Manual |Automatic |Subtasks only |Subtasks only |
-
-{style="table-layout:auto"}
 
 ## Configure whether daily Planned Hours are displayed on the scheduling timeline
 

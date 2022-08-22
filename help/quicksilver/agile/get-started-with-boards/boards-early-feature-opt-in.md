@@ -71,11 +71,11 @@ The following table outlines major features of boards along with their current r
    <td>Partially released</td>
   </tr>
   <tr>
-   <td>Create a column connected to Workfront</td>
-   <td>Planned</td>
+   <td>Add checklist item details</td>
+   <td>Partially released</td>
   </tr>
   <tr>
-   <td>Add checklist item details</td>
+   <td>Create a column connected to Workfront</td>
    <td>Planned</td>
   </tr>
   <tr>
