@@ -19,6 +19,8 @@ As an Adobe Workfront administrator or a group administrator, you can use a layo
 
 <!--drafted for task headers: replace above with this: Customizing object headers is currently available for projects <span class="preview">and tasks</span>. -->
 
+<!--drafted for task AND issue headers: replace above with this when issue custom headers are coming too: Customizing object headers is currently available for projects <span class="preview">, tasks</span>, and <span class="preview">issues</span>. -->
+
 For information about layout templates for groups, see [Create and modify a group’s layout templates](../../manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md). 
 
 ![](assets/object-header-fields.png)

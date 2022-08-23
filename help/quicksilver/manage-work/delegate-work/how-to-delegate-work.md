@@ -24,7 +24,13 @@ For general information about delegating work, see [Delegate work overview](../.
 
 >[!IMPORTANT]
 >
->The users that you select as delegates receive the same  permissions as your permissions on the tasks and issues you delegate to them. The permissions must work within their access levels, and sometimes their access levels might be lower than yours. For example, if a user has only View access to tasks in their access level and you have Manage permissions on the tasks you delegate to them, they receive Manage permissions to the tasks you delegate to them. However, they will not be able to perform the same actions as you on the delegated tasks. They must request Edit access to Tasks from the system administrator to be able to update tasks in your absence. For information on how a  can modify your access level, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>The users that you select as delegates receive the same  permissions as your permissions on the tasks and issues you delegate to them. The permissions must work within their access levels, and sometimes their access levels might be lower than yours. 
+>
+>For example, if a user has only View access to tasks in their access level and you have Manage permissions on the tasks you delegate to them, they receive Manage permissions to the tasks you delegate to them. However, they will not be able to perform the same actions as you on the delegated tasks. They must request Edit access to Tasks from the system administrator to be able to update tasks in your absence. 
+>
+>For information on how a  can modify your access level, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>
+>It can take up to one hour since the start of the delegation before Workfront shares the delegated items with the delegate.
 
 You must have the following access to perform the steps in this article:
 
@@ -47,21 +53,22 @@ You must have the following access to perform the steps in this article:
    </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Issues <!--
-      <(NOTE: add Projects here when you can delegate them?)
-     -->
+   <td> <p>Edit access to Tasks and Issues 
      If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the tasks or issues that you are assigned to</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
-    --> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher permissions to the tasks or issues that you are assigned to</p> 
+    <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 *To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+<!--note from the table for Object permissions:
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
+    -->
 
 ## Prerequisites
 
@@ -92,7 +99,7 @@ To delegate your tasks and issues to others:
       
         >[!TIP]
         >
-        >      The Start date cannot be in the past.
+        >The Start date cannot be in the past.
    
     * [!UICONTROL **No end date**]: Select this option if you do not want to specify the end-date for your delegation. 
     
@@ -109,6 +116,9 @@ To delegate your tasks and issues to others:
    The following things happen: 
 
    * Your work is delegated to the specified user. Any tasks or issues that have dates within the time frame you selected (including newly assigned ones, after the delegation was enabled) are delegated.
+
+    <!-- drafted for the update when only incomplete tasks and issues are delegated - within the 22.4 release: change the sentence/ bullet above to this:
+    * Your work is delegated to the specified user. Any incomplete tasks or issues that have dates within the time frame you selected (including newly assigned ones, after the delegation was enabled) are delegated.-->
 
    * You receive a message in the upper-right corner of the screen to confirm that you have enabled the delegation of your work to another user. The name of the delegate user displays in the confirmation message.
    
@@ -151,7 +161,7 @@ You can let a delegation expire, if you selected an End Date, or you can manuall
 
     Click [!UICONTROL **Stop delegation**] in the confirmation box to confirm stopping the delegation.
 
-    The delegation either updated the dates or it stopped and the delegated users have been removed from your tasks and issues. Their permissions to the tasks and issues remains in place.
+    The delegation either updated the dates or it stopped and the delegated users have been removed from your tasks and issues. Their permissions to the tasks and issues remain in place.
 
 
 ## Locate delegated work and delegates information

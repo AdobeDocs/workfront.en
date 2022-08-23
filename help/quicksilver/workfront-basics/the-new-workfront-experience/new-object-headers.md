@@ -30,9 +30,21 @@ The following headers are available in Home:
 
 ## Customizable headers
 
-Your Workfront  or group administrator  can customize the header of projects by using a layout template. This article describes the default headers for all objects, including projects. For information about customizing information on the header of an object, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). 
+Your Workfront  or group administrator  can customize the header of projects by using a layout template. 
 
-<!--drafted for task headers: replace first sentence above with this: Your Workfront  or group administrator  can customize the header of projects and tasks by using a layout template.-->
+<!--drafted for task headers and ensure it stays in yellow for preview 22.4: replace first sentence above with this: Your Workfront  or group administrator  can customize the header of projects <span class="preview">and tasks</span> by using a layout template.-->
+
+<!--drafted for task AND issue headers and ensure it stays in yellow for preview 22.4: replace first sentence above with this: Your Workfront  or group administrator  can customize the header of projects, <span class="preview">tasks</span>, and <span class="preview">issues</span> by using a layout template.-->
+
+This article describes the default headers for all objects, including projects. 
+
+<!--drafted for 22.4 release - replace the sentence above with this at preview - no yellow - this is for projects + tasks: This article describes the default headers for all objects, including projects and tasks.--> 
+
+<!--drafted for 22.4 release - replace the sentence above with this at preview - no yellow - this is for projects + tasks + issues: This article describes the default headers for all objects, including projects and tasks and issues.--> 
+
+For information about customizing information on the header of an object, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). 
+
+
 
 ## Project header overview {#project-header-overview}
 
