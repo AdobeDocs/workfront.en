@@ -2,14 +2,14 @@
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Use Projected Dates in a calendar report
-description: A calendar report is a dynamic report that provides a visual representation of your work. You can use Projected Date fields in a calendar report for the following objects - EDIT ME.
+description: A calendar report is a dynamic report that provides a visual representation of your work. You can use Projected Date fields in a calendar report for tasks, issues, and projects.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
 ---
 # Use Projected Dates in a calendar report
 
-A calendar report is a dynamic report that provides a visual representation of your work.&nbsp;You can use Projected Date fields in a calendar report for the following objects:
+A calendar report is a dynamic report that provides a visual representation of your work. You can use Projected Date fields in a calendar report for the following objects:
 
 * Tasks
 * Issues
@@ -26,19 +26,19 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>Edit access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>Manage access to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -69,15 +69,15 @@ You can choose how you want the group of items to display on your calendar.
     <col>
     <tbody>
      <tr>
-      <td role="rowheader">Name this group of items</td>
+      <td role="rowheader"><strong>Name this group of items</strong></td>
       <td>Type a name for the group of items.</td>
      </tr>
      <tr>
-      <td role="rowheader">Color</td>
+      <td role="rowheader"><strong>Color</strong></td>
       <td>Select a color for the group of items. All items display in the selected color on the calendar report.</td>
      </tr>
      <tr>
-      <td role="rowheader">Date Field</td>
+      <td role="rowheader"><strong>Date Field</strong></td>
       <td><p>Choose <strong>Projected dates</strong>. For more information on Projected Dates, see </p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Overview of the project Projected Start Date</a></li>
@@ -85,7 +85,7 @@ You can choose how you want the group of items to display on your calendar.
        </ul></td>
      </tr>
      <tr>
-      <td role="rowheader">On the calendar, show</td>
+      <td role="rowheader"><strong>On the calendar, show</strong></td>
       <td><p>Choose how you want the dates to show:</p>
        <ul>
         <li><strong>Start Date Only</strong>: The calendar displays the object on a single date.</li>
@@ -94,7 +94,7 @@ You can choose how you want the group of items to display on your calendar.
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
-      <td role="rowheader">Switch to Actual Dates when available</td>
+      <td role="rowheader"><strong>Switch to Actual Dates when available</strong></td>
       <td><p>The calendar automatically switches to actual dates when they are available. <br>Choose <strong>Yes</strong> or <strong>No</strong> to switch to actual dates when available. For more information on Actual Dates, see</p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Overview of the project Actual Start Date </a></li>
@@ -117,20 +117,20 @@ After you set up how you want items to display, you need to add the objects you 
    * **Issues**
 
 1. Click **Add Tasks**, **Add Projects**, or **Add Issues**, depending on the object type you are adding to the calendar.  
-   ![FieldName.png](assets/fieldname-350x144.png)
+   ![Select object for calendar](assets/field-name.png)
 
-1. In the drop-down menu, begin typing the field name, then select the&nbsp;field source of the object you want to display on the calendar (for example,&nbsp;**Late Tasks**).
+1. In the drop-down menu, begin typing the field name, then select the field source of the object you want to display on the calendar (for example,&nbsp;**Late Tasks**).
 1. Set a condition statement for the calendar grouping.
 
-   ![CondStmt.png](assets/condstmt-350x56.png)
+   ![Condition statement](assets/condition-statement-calendar.png)
 
    To learn about setting conditions, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 1. (Optional) Specify additional objects for the calendar grouping by repeating Steps 1-4.
-1. In the **Set the Tasks/Projects/Issues labels to be the...**&nbsp;field, select how the objects in this calendar grouping are labeled in the calendar.
+1. In the **Set the Tasks/Projects/Issues labels to be the...** field, select how the objects in this calendar grouping are labeled in the calendar.
 
    >[!NOTE]
    >
-   >If the default label&nbsp;options are not available for a certain object, the object name is&nbsp;shown instead. For example, when the Parent Task label is selected and&nbsp;there is no parent task associated with the object,&nbsp;Adobe Workfront displays the object name you are viewing in the calendar.
+   >If the default label options are not available for a certain object, the object name is shown instead. For example, when the Parent Task label is selected and there is no parent task associated with the object, Adobe Workfront displays the object name you are viewing in the calendar.
 
 1. Click **Save**.
