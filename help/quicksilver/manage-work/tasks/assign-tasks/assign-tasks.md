@@ -118,25 +118,32 @@ Consider the following when assigning multiple resources to a work item:
 ## Assign a single task
 
 1. Go to a task that you want to assign.
-1. Click **Assign this to ...** in the right panel
+1. Click **Assign to** in the **Assignments** field in the header of the task or issue.
 
    Or
 
-   Click **Edit assignment** if the task is already assigned.
+   Click the name of the assignments if the task or issue is already assigned.
 
-   ![](assets/classic-assign-this-to-button-on-task-card-350x405.png)
+![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
 1. Do one of the following:
 
    * Start typing the name of a user, role, or team that you want to assign, then click it when it appears on the list.
-   * (Conditional) Click one of the names in the **Here are a few recommendations** list, if this list displays. For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md). 
+
+      <!--drafted for unique identifier story for 22.4 and yellow:
+      >[!TIP]
+      >
+      ><span class="preview">When adding a user assignment, notice the avatar, the user’s Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>--> 
+
+      
+   * (Conditional) Click one of the names in the **Suggested assignments** list, if this list displays. For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md). 
    
-   * Click **make Advanced Assignments**
+   * Click **Advanced**
 
      For information about how to make advanced assignments, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. Click **Assign** or click **Save Changes**, if you clicked **make Advanced Assignments**.
-1. (Optional) Click the **X icon** next to the name of the assignment in the right panel of the task to remove an assignment.
+1. Click **Save**.
+1. (Optional and conditional) Click the **X icon** next to the name of the assignment in the right panel of the task to remove an assignment, if you clicked **Advanced**.
 
 ## Assign a task in a list
 
@@ -144,24 +151,24 @@ You can assign tasks in a list or a report when any of the assignments fields ar
 
 Depending on which field is visible in the view, you can assign the following entities to the task: 
 
-| **Assign To** |Assign one user  |
+| Field |Entities assigned  |
 |---|---|
+| **Assign To** |Assign one user  |
 | **Assigned** |Assign one user |
-| **Assignments** |Assign users, job roles, or a team |
+| **Assignments** |Assign users, job roles, or teams |
 
 To assign tasks in a list:
 
 1. Go to a list of tasks that has the Assigned To, Assigned, or Assignments fields in the view.
 1. (Optional) Click the **Autosave** drop-down menu and select from the following options: 
 
+    | Option |Option description |
+   |---|---| 
    | Autosave |Changes you make to the tasks are automatically saved and you cannot revert them |
-   |---|---|
    | Manual save |You must manually save your changes. You can revert your changes before you save them.  |
    | Timeline Planning |You must manually save your changes. You can revert your changes before you save them. Saving your changes and all the project dependencies is faster than when selecting Manual save.  |
 
-   {style="table-layout:auto"}
-
-   For more information about saving tasks as you edit them in a list, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+      For more information about saving tasks as you edit them in a list, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 1. To assign tasks do one of the following:
 
