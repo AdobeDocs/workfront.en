@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -68,13 +68,13 @@ You can configure whether the BCWS is calculated in hours or costs by configurin
 
 1. Select from the following options:
 
-   | Hour-Based |Workfront calculates the BCWS using the Planned Hours of the tasks. |
+   |Option|How the calculation is performed|
    |---|---|
+   | Hour-Based |Workfront calculates the BCWS using the Planned Hours of the tasks. |
    | Cost-Based |Workfront calculates the BCWS using the Planned Cost of the tasks. |
 
-   {style="table-layout:auto"}
-
-1. Click&nbsp;**Save Changes**.
+   
+1. Click **Save Changes**.
 
    The BCWS of the tasks on the project is calculated using hours or costs.
 
@@ -92,11 +92,10 @@ Workfront calculates the Budgeted Cost of Work Scheduled (BCWS) for tasks or pro
 
 The following values are used in this calculation:
 
-| Planned Percent Complete |This is what the percent complete of the task should be by looking at the amount of time passed between the beginning of the task and today. |
+|Value used| Description of value used|
 |---|---|
+| Planned Percent Complete |This is what the percent complete of the task should be by looking at the amount of time passed between the beginning of the task and today. |
 | Task Budget |This is the value for the Planned Hours or Planned Cost of the task. |
-
-{style="table-layout:auto"}
 
 For example, if it is February 12 today, and a task is scheduled to last from February 10 to February 20, the task should be 20% complete today. If the Task Budget (Planned Cost) is $10,000, then the BCWS for the task is:
 

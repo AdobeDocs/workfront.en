@@ -3,8 +3,8 @@ content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Timesheets
-description: This section contains the following subsections - EDIT ME.
-author: Lisa
+description: Learn more about how to create, edit, approve, and manage timesheets, timesheet profiles, hour types in the following sections. 
+author: Alina
 feature: Timesheets
 exl-id: aff5e7a9-e1a0-460e-bb6b-be9c50db5755
 ---

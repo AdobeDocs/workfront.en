@@ -9,7 +9,7 @@ exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
 ---
 # Review resource availability and allocation using the Adobe Workfront Resource Planner
 
-You can view the availability of your resources and the amount of planned or budgeted work for your projects in the Resource Planner. These values are displayed in Hours, FTE (Full&nbsp;Time Equivalent), or Cost amounts and are organized in columns.
+You can view the availability of your resources and the amount of planned or budgeted work for your projects in the Resource Planner. These values are displayed in Hours, FTE (Full Time Equivalent), or Cost amounts and are organized in columns.
 
 ## Access requirements
 
@@ -25,11 +25,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       (waiting on Vazgen to confirm - working differenly in classic)
-      </MadCap:conditionalText>
-     --></p> </td> 
+   <td> <p>Review or higher </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -39,7 +35,9 @@ You must have the following access to perform the steps in this article:
      <li> <p>Financial Data</p> </li> 
      <li> <p>Users</p> </li> 
      <li> <p>Projects</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p><b>NOTE</b>
+    
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -48,7 +46,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+<!--note from the table about the license: Review or higher: 
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       (waiting on Vazgen to confirm - working differenly in classic)
+      </MadCap:conditionalText>
+     -->
 
 ## Prerequisites
 
@@ -125,7 +129,9 @@ Consider the following when changing your view to the Resource Planner:
      </tr> 
      <tr> 
       <td role="rowheader">Cost</td> 
-      <td> <p>Displays availability and allocation information by cost, if you are viewing the Resource Planner in the Project or Role views. The information displays values in the currency of your system. Your Workfront administrator defines the system currency. For more information about setting up the system currency in Workfront, see <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> <p>Note: You must associate users and job roles with Cost per Hour rates in order to display Cost information in the Resource Planner.<br style="font-style: italic;">For more information about associating Cost per Hour rates with job roles, see <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.<br style="font-style: italic;">For more information about associating Cost per Hour rates with users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.<br style="font-style: italic;">For more information about how Cost is calculated in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calculate costs in the Resource Planner </a>.</p> </td> 
+      <td> <p>Displays availability and allocation information by cost, if you are viewing the Resource Planner in the Project or Role views. The information displays values in the currency of your system. Your Workfront administrator defines the system currency. For more information about setting up the system currency in Workfront, see <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> <p><b>NOTE</b>
+      
+      You must associate users and job roles with Cost per Hour rates in order to display Cost information in the Resource Planner.<br style="font-style: italic;">For more information about associating Cost per Hour rates with job roles, see <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.<br style="font-style: italic;">For more information about associating Cost per Hour rates with users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.<br style="font-style: italic;">For more information about how Cost is calculated in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calculate costs in the Resource Planner </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Customize</td> 
@@ -156,8 +162,6 @@ Consider the following when changing your view to the Resource Planner:
    | Actual |✔ |&nbsp; |&nbsp; |
    | Difference |✔ |&nbsp; |&nbsp; |
    | Percent |✔ |&nbsp; |&nbsp; |
-
-   {style="table-layout:auto"}
 
 1. Select **Use Planned (PLN) values in NET calculations** to use Planned instead of Budgeted information when calculating the Net values in the Project and Role views.
 
@@ -210,12 +214,16 @@ To display the allocation of users in a chart:
       <td>This is the amount of time that all users are available for work in a time period, shown as a percentage from their total available time. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Overallocation % for all users</strong> </td> 
-      <td> <p>This is the amount of time that users are overallocated in a time period, shown as a percentage from the total available time.</p> <p>Note:  An overallocation happens when the Planned Hours are higher than the Available Hours. </p> </td> 
+      <td role="rowheader">Overallocation % for all users </td> 
+      <td> <p>This is the amount of time that users are overallocated in a time period, shown as a percentage from the total available time.</p> <p><b>NOTE</b> 
+      
+      An overallocation happens when the Planned Hours are higher than the Available Hours. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Underutilization % for all users</td> 
-      <td> <p>This is the amount of time that users are underutilized in a time period, shown as a percentage from the total available time.</p> <p>Note: Underutilization happens when the Planned Hours are lower than the Available Hours. </p> </td> 
+      <td> <p>This is the amount of time that users are underutilized in a time period, shown as a percentage from the total available time.</p> <p><b>NOTE</b> 
+      
+      Underutilization happens when the Planned Hours are lower than the Available Hours. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">There is an overallocation for at least one user during this time period</td> 
