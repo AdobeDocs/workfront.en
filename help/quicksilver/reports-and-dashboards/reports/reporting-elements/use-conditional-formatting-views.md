@@ -116,7 +116,7 @@ For information on creating a report, see [Create a report](../../../reports-and
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Text Color</trong></td> 
+      <td role="rowheader"><strong>Text Color</strong></td> 
       <td> <p>Select the color in which the text is displayed. There are 8 colors available.</p> <p>Note: If the field contains a hyperlink, the text color selections are not applied to this field.</p> </td> 
      </tr> 
      <tr> 
