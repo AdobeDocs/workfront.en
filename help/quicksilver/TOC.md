@@ -89,7 +89,11 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
-       * [Workfront Fusion release activity: Week of May 16, 2022](product-announcements/product-releases/fusion-release-activity/fusion-may-16-22.md)
+      * [Workfront Fusion release activity: Week of July 11, 2022](product-announcements/product-releases/fusion-release-activity/fusion-july-11-22.md)
+      * [Workfront Fusion release activity: Week of June 27, 2022](product-announcements/product-releases/fusion-release-activity/fusion-jun-27-22.md)
+      * [Workfront Fusion release activity: Week of June 20, 2022](product-announcements/product-releases/fusion-release-activity/fusion-jun-20-22.md)
+      * [Workfront Fusion release activity: Week of May 16, 2022](product-announcements/product-releases/fusion-release-activity/fusion-may-16-22.md)
+      * [Workfront Fusion release activity: Week of May 9, 2022](product-announcements/product-releases/fusion-release-activity/fusion-may-9-22.md)
       * [Workfront Fusion release activity: Week of April 25, 2022](product-announcements/product-releases/fusion-release-activity/fusion-apr-25-22.md)
       * [Workfront Fusion release activity: Week of April 18, 2022](product-announcements/product-releases/fusion-release-activity/fusion-apr-18-22.md)
       * [Workfront Fusion release activity: Week of March 21, 2022](product-announcements/product-releases/fusion-release-activity/fusion-mar-21-22.md)
