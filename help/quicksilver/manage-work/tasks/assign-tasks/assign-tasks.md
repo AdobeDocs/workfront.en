@@ -162,7 +162,7 @@ To assign tasks in a list:
 1. Go to a list of tasks that has the Assigned To, Assigned, or Assignments fields in the view.
 1. (Optional) Click the **Autosave** drop-down menu and select from the following options: 
 
-    | Option |Option description |
+   | Option |Option description |
    |---|---| 
    | Autosave |Changes you make to the tasks are automatically saved and you cannot revert them |
    | Manual save |You must manually save your changes. You can revert your changes before you save them.  |
