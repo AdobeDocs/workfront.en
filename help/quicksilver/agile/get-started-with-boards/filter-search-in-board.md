@@ -172,4 +172,3 @@ By default, only active cards are displayed on a board. You can filter the board
    Click the X to clear the search.
 
    ![Search for cards in a board](assets/boards-searchbox.png)
-
