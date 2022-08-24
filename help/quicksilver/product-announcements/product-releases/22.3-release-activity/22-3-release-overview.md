@@ -62,9 +62,8 @@ These enhancements were made available in the Production environment the week of
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Use unlocked statuses in an approval processes
 </a></p></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
-<p>To give you more control over the approval processes and statuses in your system, we’ve made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn’t streamline their group’s list of statuses to fit their specific needs.</p>
-      
-    </td> 
+<p>To give you more control over the approval processes and statuses in your system, we’ve made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn’t streamline their group’s list of statuses to fit their specific needs.</p>   
+   </td> 
     <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: June 2, 2022<br></p> </li> 
