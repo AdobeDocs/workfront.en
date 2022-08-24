@@ -22,6 +22,55 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 ## Connect GitLab to Workfront Fusion {#connect-gitlab-to-workfront-fusion}
 
+1. In any Workfront Fusion Gitlab module, click **Add** next to the connection field.
+1. Configure the following fields:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Connection name</td> 
+      <td> <p>Enter a name for the connection.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">GitLab URL</td> 
+      <td>Enter the URL of your GitLab instance.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Access Token</td> 
+      <td>Enter your Private Token or Personal Access Token.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click **Continue**.
+1. Click **Authorize** to create the connection and return to the module.
+
+## GitLab modules and their fields
+
+When you configure GitLab modules, Workfront Fusion displays the fields listed below. Along with these, additional GitLab fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+![](assets/map-toggle-350x74.png)
+
+### Triggers
+
+#### Watch build status {#watch-build-status}
+
+This instant trigger module retrieves project details when a new project is created.
+
+
+
+
+
+<!--
+
+Everything beyond this point is the draft as moved over from Flare. Included here as source material or in case we go back to what it was.
+
+## Connect GitLab to Workfront Fusion {#connect-gitlab-to-workfront-fusion}
+
 The procedure for connecting GitLab to Workfront Fusion is different based on whether you are connecting to a GitLab private server using a private token, or .connecting to GitLab.com using OAuth
 
 >[!TIP]
@@ -1069,7 +1118,7 @@ Allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
-   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
@@ -1081,3 +1130,6 @@ Allows you to perform a custom API call.
  </tbody> 
 </table>
 
+
+
+-->
