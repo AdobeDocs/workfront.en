@@ -11,6 +11,10 @@ exl-id: 7fa644cd-cf6a-40f8-ae28-bf222bb45d3f
 ---
 # Deprecation of Resource Scheduling tools in Adobe Workfront
 
+<!--drafted for 22.4 preview: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+-->
+
 We are currently in the process of deprecating all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
 
 >[!IMPORTANT]
@@ -90,7 +94,7 @@ In addition to existing features, the Workload Balancer has or will have new fun
  <tbody> 
   <tr> 
    <td rowspan="2"><span style="font-weight: normal;">Features</span> </td> 
-   <td rowspan="2"> <strong>Resource Scheduling tools feature availability</strong></td> 
+   <td rowspan="2"> Resource Scheduling tools feature availability</td> 
    <td colspan="3">Workload Balancer feature availability</td> 
   </tr> 
   <tr> 
@@ -281,7 +285,7 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td>Color-code work items and projects by Project&nbsp;Status</td> 
+   <td>Color-code work items and projects by Project Status</td> 
    <td>&nbsp;</td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
@@ -314,10 +318,24 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td><span>✓</span> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
+  </tr>
+  <td><span>Work-license users can adjust user allocations</span> </td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>✓</td> 
+   <td></td> 
   </tr> 
+  <tr> 
+   <td>Dispplay issues in the Unassigned Work area</td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>✓</td> 
+   <td></td> 
+  </tr> 
+
  </tbody> 
 </table>
 
 *These features are available only in the new Adobe Workfront experience.
 
-&nbsp;
+<!--drafted for 22.4 preview: move the check boxes in "Available now"column for the last two features and put them in yellow>
