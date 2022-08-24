@@ -562,13 +562,14 @@ You can define default custom forms to be automatically attached to tasks when t
 
 You can edit a limited amount of information in the task header.
 
-<!--drafted for task headers: In the Preview environment, your system or group administrator can customize the fields you see in the task header.-->
+<!--drafted for task headers and mark it yellow for Preview: <span class="preview">Your system or group administrator can customize the fields you see in the task header. For more information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>--> 
+
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
 You can edit the following fields in the task header:
 
-<!--drafted for task headers: replace the sentence above with this: The following fields are included in the project header, by default:-->
+<!--drafted for task headers and mark it yellow: replace the sentence above with this: <span class="preview">The following fields are included in the project header, by default:</span>-->
 
 * Task name
 * Percent complete

@@ -21,7 +21,7 @@ You can access the Workload Balancer in the following ways:
 >
 >Regardless of the method you use to access the Workload Balancer, navigating it and managing resources is identical. 
 >
->For information about the&nbsp;Workload Balancer and how to use it for managing and scheduling your resources for work, see the following articles: 
+>For information about the Workload Balancer and how to use it for managing and scheduling your resources for work, see the following articles: 
 >
 >* [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 
 >* [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) 

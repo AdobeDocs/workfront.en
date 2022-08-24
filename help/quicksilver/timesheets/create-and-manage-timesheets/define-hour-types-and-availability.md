@@ -2,21 +2,21 @@
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Define hour types and availability for timesheets
-description: There are two sets of hour types in Adobe Workfront - EDIT ME.
-author: Lisa
+description: An Hour Type is a label that allows you to categorize time entry. Depending on the reporting requirements of your organization for hours, this can be an essential part of logging time.
+author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
 ---
 # Define hour types and availability for timesheets
 
+An Hour Type is a label that allows you to categorize time entry. Depending on the reporting requirements of your organization for hours, this can be an essential part of logging time.
+
 There are two sets of hour types in Adobe Workfront:
 
 * **General hours:** Hours that are not associated with a project, such as sick time or administration. You can log general hours only on the timesheet.
-* **Project-specific hours:** Hours logged on projects, tasks, and issues. You can log project-specific hours from any&nbsp;locations where you can log time.
+* **Project-specific hours:** Hours logged on projects, tasks, and issues. You can log project-specific hours from any locations where you can log time.
 
-When logging&nbsp;time in Workfront, the project-specific hour types that are available depend on configuration options set at the system, project, and user levels. (The following default project-specific hour types are always available: Project Time, Task Time, and Issue Time.)
-
-An Hour Type is a label that allows you&nbsp;to categorize time entry. Depending on the reporting requirements of your organization for hours, this can&nbsp;be an essential part of logging time.
+When logging time in Workfront, the project-specific hour types that are available depend on configuration options set at the system, project, and user levels. (The following default project-specific hour types are always available: Project Time, Task Time, and Issue Time.)
 
 The hour types that are available to select when logging time (on projects, tasks, and issues) are determined first by the hour types made available system-wide by the system administrator, and then by the hour types&nbsp;selected at the project and user levels.
 

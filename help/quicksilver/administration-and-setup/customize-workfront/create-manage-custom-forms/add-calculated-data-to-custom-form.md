@@ -286,3 +286,7 @@ Calculated custom fields on an object recalculate automatically when the followi
 * Something on the object changes, such as a daily timeline calculation.
 * Someone edits another field that is referenced by a calculated custom field on the object.
 * The calculated expression is empty and the field contains a value—this sets the value to null.
+
+   >[!NOTE]
+   >
+   ><div class="preview">In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved by Coordinated Universal Time (UTC), not by the time zone configurations set for your organization's instance and your user profile. Calculations in a custom form generate based on each users' individual time zones.</div>

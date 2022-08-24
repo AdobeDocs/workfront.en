@@ -205,7 +205,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                  <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md" class="MCXref xref" xrefformat="{para}">Enhancements to checklist items on boards</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Enhancements to checklist items on boards</a> </p>
                         <p>Opening a checklist item on a card now allows you to add more detailed information about the item, including a description, due date, assignees, and estimation. You can also copy a checklist item, which was not available previously.</p>
                     </td>
                     <td><span class="bold">Available on these dates:</span>
@@ -337,7 +337,7 @@ Campaigns were released to Preview beta with the 22.3 release, in July 2022. For
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-7.md" class="MCXref xref" xrefformat="{para}">Expanded team description</a><span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-7.md" class="MCXref xref" xrefformat="{para}">Expanded team description</a></p>
                         <p>In the Teams area, you can now view the full team description by clicking the description to display it in a pop-up. Any URLs in the description are clickable in the pop-up, and you can click in the description text to edit it (if you have access to edit the team settings).</p>
                         <p>Previously, scrolling through the description in a narrow area was the only way to see all of the content.</p>
 <p>This enhancement to the description applies to both agile and non-agile teams.</p>
@@ -410,6 +410,11 @@ Explore the latest updates made to learning programs, learning paths, videos, an
 The following features will be removed with the 22.4 release to Production:
 
 * List Controls (from the Interface area in Setup)
+
+>[!NOTE]
+>
+>The deprecation of List Controls has been postponed until after the 22.4 release. The deprecation date will be announced in future communications.
+
 
 * Resource Scheduler
 
