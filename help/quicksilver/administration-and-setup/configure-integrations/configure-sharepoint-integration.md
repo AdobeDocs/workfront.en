@@ -27,7 +27,7 @@ exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 >    
 >     For instructions, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 >    
->The procedure described in this document will be deprecated with the 22.3 release, and is here for your information only.
+>The procedure described in this document was deprecated with the 22.3 release, and is here for your information only.
 
 You can integrate Workfront with SharePoint Online, providing users with the ability to navigate to, link, and add SharePoint documents within Workfront. The functionality provided is similar to that of other Workfront integrations, such as Google Drive, Box, and Dropbox.
 
@@ -199,7 +199,7 @@ When you have created a site app in SharePoint, you can now copy information fro
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Name</p> </td> 
-      <td> <p>Enter a name for the SharePoint integration. Users see this name when they click Add &gt; From ‘name of integration'. </p> </td> 
+      <td> <p>Enter a name for the SharePoint integration. Users see this name when they click Add &gt; From 'name of integration'. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Sharepoint Host Instance</p> </td> 
