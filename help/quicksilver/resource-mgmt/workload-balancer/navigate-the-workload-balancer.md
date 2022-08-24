@@ -243,20 +243,19 @@ After selecting the settings you want to apply to your view, the Workload Balanc
      >
      >Issues don't display in the Unassigned Work area of the Workload Balancer.
 
-<!--drafted for 22.4  release: take the tip above out at Preview-->
+      <!--drafted for 22.4  release: take the tip above out at Preview-->
+      * **Show Projected Dates**: When this is selected, the projected timeline of work items displays in addition to the planned timeline. Notice the following:
 
-   * **Show Projected Dates**: When this is selected, the projected timeline of work items displays in addition to the planned timeline. Notice the following:
+         * The projected timeline of project, tasks, and issues displays as a dark blue line above the task, issue, and project bars.
+         * The projected timeline that is outside of the planned timeline displays in light blue, even when you update the color theme, as described below.
+         * The projected timeline for the items that you have no access to view displays in light gray with a line underneath.
+         * When a task or issue completes before the due Planned Completion Date the allocation numbers for the remaining days are struck through and do not count towards the user's allocation. This displays only when both the Show Projected Dates setting and the Show allocation icon are enabled.
 
-      * The projected timeline of project, tasks, and issues displays as a dark blue line above the task, issue, and project bars.
-      * The projected timeline that is outside of the planned timeline displays in light blue, even when you update the color theme, as described below.
-      * The projected timeline for the items that you have no access to view displays in light gray with a line underneath.
-      * When a task or issue completes before the due Planned Completion Date the allocation numbers for the remaining days are struck through and do not count towards the user's allocation. This displays only when both the Show Projected Dates setting and the Show allocation icon are enabled.
+         ![](assets/task-issue-projected-timelines-350x91.png)
 
-     ![](assets/task-issue-projected-timelines-350x91.png)
-
-     >[!TIP]
-     >
-     >Notice that work items display in the Workload Balancer when either their planned or the projected timelines (not necessarily both at the same time) occur during the timeframe selected.
+         >[!TIP]
+         >
+         >Notice that work items display in the Workload Balancer when either their planned or the projected timelines (not necessarily both at the same time) occur during the timeframe selected.
 
    * **Show completed work**: When this is enabled, tasks and issues that are completed display in the Assigned Work area. This is enabled by default.
 

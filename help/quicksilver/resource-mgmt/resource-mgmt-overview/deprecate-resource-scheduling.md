@@ -338,4 +338,4 @@ In addition to existing features, the Workload Balancer has or will have new fun
 
 *These features are available only in the new Adobe Workfront experience.
 
-<!--drafted for 22.4 preview: move the check boxes in "Available now"column for the last two features and put them in yellow>
+<!--drafted for 22.4 preview: move the check boxes in "Available now"column for the last two features and put them in yellow-->
