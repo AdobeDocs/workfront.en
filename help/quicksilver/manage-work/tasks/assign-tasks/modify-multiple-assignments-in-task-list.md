@@ -86,14 +86,11 @@ When assigning users to work, their availability according to their schedules af
 
    For example, if your project contains a specific role as the default assignee for multiple tasks, you can create a filter to display only tasks with that role as the assignee. Then, you can replace the role with a specific user.
 
+   For information about creating a filter, see [Create or edit filters](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md). 
+
    Do the following to create a filter for your assignees:
 
-   1. Click the **Filter** drop-down list, then click **New Filter.**
-
-      The New Filter dialog box displays.
-   
-   1. Click **Add a Filter Rule.**
-   1. To filter on a role, expand **Assignment Roles**, then click **ID**.
+1. To filter on a role, select **Assignment Roles**, then click **ID**.
 
       >[!TIP]
       >
@@ -101,15 +98,11 @@ When assigning users to work, their availability according to their schedules af
 
       Or
 
-      To filter for a user, expand **Assignment Users,** then click **ID.**
+      To filter for a user, select **Assignment Users,** then click **ID.**
 
       >[!TIP]
       >
       >Do not use the **Assigned to** field. This finds only the Primary Owner for the task instead of any of the users that could be assigned to them.
-
-   1. In the drop-down list, select **Equal** as the filter qualifier.
-   1. Begin typing the name of the user or role that you want to filter for, then click the name when it appears in the drop-down list.
-   1. Click **Save Filter.**
 
 1. Select the tasks for which you want to modify assignments, then click the **Edit** icon ![](assets/edit-icon.png).
 
@@ -122,9 +115,9 @@ When assigning users to work, their availability according to their schedules af
    >
    >Removing assignees can affect the task hours and allocation percentages. For more information, see the section [How removing assignees affects task hours and allocation percentages](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in this article.
 
-   1. &nbsp;To add a new assignee:
+   * To add a new assignee:
 
-      1. In the **Assignments** section, select **Assignee**.&nbsp;
+      1. In the **Assignments** section, select **Assignee**.
 
          Information that is common across all tasks selected displays. For example, if the same user is assigned to all tasks, that user displays in the **Assignee**&nbsp;column. If information is not common across the tasks selected, no information displays.
       
@@ -139,7 +132,7 @@ When assigning users to work, their availability according to their schedules af
          >* Reassign the work item to active resources.
          >* Associate the users in a deactivated team with an active team and reassign the work item to the active team.
 
-   1. To remove individual assignees:
+   * To remove individual assignees:
 
       1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
 
@@ -147,17 +140,19 @@ When assigning users to work, their availability according to their schedules af
 
          (Conditional) If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the tasks that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
 
-   1. To remove all existing assignees:
+   * To remove all existing assignees:
 
       1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
 
          This removes not only common assignees (assignees that are displayed in the edit&nbsp;dialog box), but also all assignees on all the selected tasks.
 
-   1. Removing users from tasks can affect task hours and allocation percentages.&nbsp;For more information, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+      Removing users from tasks can affect task hours and allocation percentages.
+      
+      For more information, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 1. (Optional) Modify any of the following options for assignees:
 
-   * (Conditional)**Allocation % or Hours**: Specify a new allocation percentage or hours.
+   * (Conditional) **Allocation % or Hours**: Specify a new allocation percentage or hours.
 
      >[!NOTE]
      >

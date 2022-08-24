@@ -3,7 +3,7 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: View total hours on the timesheet
 description: You can view the total number of hours on your timesheet. The total number of timesheet hours includes hours logged for projects, tasks, issues, and all general hours.
-author: Lisa
+author: Alina
 feature: Timesheets
 exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
 ---
