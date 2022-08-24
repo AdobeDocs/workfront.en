@@ -30,7 +30,7 @@ For general information about delegating work, see [Delegate work overview](../.
 >
 >For information on how a  can modify your access level, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
->It can take up to one hour since the start of the delegation before Workfront shares the delegated items with the delegate.
+>It can take up to one hour after the delegation was created before Workfront shares the delegated items with the delegate.
 
 You must have the following access to perform the steps in this article:
 
