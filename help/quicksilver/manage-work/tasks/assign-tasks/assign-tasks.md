@@ -248,3 +248,6 @@ To assign tasks in a list:
 </ul>
 </div>
 -->
+
+
+<a href='mailto:DocumentationTeam@workfront.com?subject=FEEDBACK: Assign tasks'>Send feedback on this help article</a>
