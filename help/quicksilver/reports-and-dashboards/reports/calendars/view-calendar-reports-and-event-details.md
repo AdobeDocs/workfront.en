@@ -22,19 +22,19 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>View or higher access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>View or higher permissions to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -57,38 +57,38 @@ You must have the following access to perform the steps in this article:
      To learn about sharing calendars, see [Share a calendar report](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Conditional) Click the **View** drop-down, then select the calendar duration you want to view.  
-   ![View_menu_Calendar_report.png](assets/view-menu-calendar-report-350x189.png)  
+   ![Calendar duration](assets/view-menu-calendar-report-350x189.png)  
    You can choose from the following calendar report views:
 
    * **Month**: Displays four weeks of the calendar
    * **Week**: Displays one week of the calendar
    * **Gantt**: Displays a continuous view of the calendar  
-     ![Gantt_calendar_report.png](assets/gantt-calendar-report-350x141.png)  
+     ![Gantt calendar report](assets/gantt-calendar-report.png)
      You can see more events in a Gantt view by scrolling down or sideways. A loading symbol appears as data is populated for the view.
 
 1. (Optional) If you are viewing the calendar in the Month or Week views, you can change your calendar view with the following options:
 
    * To include or exclude weekends:
 
-      1. On the **Calendar** toolbar, click&nbsp;**Calendar Actions**, then from the drop-down list select either **Show Weekend** or **Hide Weekend**.
+      1. On the **Calendar** toolbar, click **Calendar Actions**, then from the drop-down list select either **Show Weekend** or **Hide Weekend**.
 
-   * To quickly change the dates displayed:
+   * To quickly change the displayed dates:
 
       1. On the **Calendar** toolbar, click the left arrow of the date indicator to move back in the calendar or the right arrow to move forward.  
-         ![click_arrows_the_change_dates_calendar_report.png](assets/click-arrows-the-change-dates-calendar-report-350x50.png)  
-         The dates displayed are adjusted by an interval based your current calendar view.&nbsp;For example, if you are viewing the calendar in the Week view, the calendar displays either one week forward or one week back, depending on the arrow you select.
+         ![Click arrow to change date](assets/click-arrows-to-change-dates-calendar-report.png)  
+         The displayed dates are adjusted by an interval based your current calendar view. For example, if you are viewing the calendar in the Week view, the calendar displays either one week forward or one week back, depending on the arrow you select.
       
       1. (Optional) To return to the current day, click **Today**.
 
-1. (Optional) To view a calendar in full-screen, click the full-screen arrows on the right-hand side of the **Calendar**&nbsp;toolbar.  
-   ![click_arrows_to_change_dates_calendar_report.png](assets/click-arrows-to-change-dates-calendar-report-350x50.png)  
+1. (Optional) To view a calendar in full-screen, click the full-screen arrows on the right-hand side of the **Calendar** toolbar. 
+   ![Click arrow to change date](assets/click-arrows-to-change-dates-calendar-report.png)  
    Press Esc to return to the normal view of the calendar.
 
-1. (Optional) To hide the events for&nbsp;a project or calendar grouping linked to the calendar, deselect the project or calendar grouping in the project list.  
-   ![hide_events_for_project_or_cal_grouping.png](assets/hide-events-for-project-or-cal-grouping-350x124.png)  
-   You can make the events once again visible by selecting the project or calendar grouping in the project list.
+1. (Optional) To hide the events for a project or calendar grouping linked to the calendar, clear the project or calendar grouping in the project list.
+   ![Hide events](assets/hide-events-for-project-or-cal-grouping.png)  
+   You can make the events visible again by selecting the project or calendar grouping in the project list.
 
-## View calendar&nbsp;report event details
+## View calendar report event details
 
 You can see the details of an event in a calendar.
 
@@ -98,7 +98,7 @@ You can see the details of an event in a calendar.
 
 1. (Optional) To view additional details on the object:
 
-   1. Mouse over the project, task, or issue name.  
+   1. Hover over the project, task, or issue name.  
       A details page opens for the object.  
       ![additional_object_details_-_calendar_report.png](assets/additional-object-details---calendar-report-350x131.png)
 

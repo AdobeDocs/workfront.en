@@ -133,10 +133,13 @@ The comments you enter for work items in the timesheet Summary panel display in 
 The time frame of the timesheet displays to the right of the work items. 
 
 You can create timesheets for one, two, or four weeks. 
-
+ 
 The time frame displays in full-week increments. Days outside of the specified timesheet time frame are dimmed. You cannot log time for days that are outside of the timesheet's time frame. 
 
 For information, see [Create  single-use timesheet](../create-and-manage-timesheets/create-tmshts.md) or [Create, edit, and assign timesheet profiles](../create-and-manage-timesheets/create-timesheet-profiles.md). 
+
+<!--drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
+You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.-->
 
 ## Hour entry comments
 

@@ -1,10 +1,10 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Adobe Unified Experience for Wokfront
+title: Adobe Unified Experience for Workfront
 description: Accessing Workfront through Adobe Experience Cloud gives you a seamless, unified experience for managing all of your Adobe applications.
 author: Lisa
-feature: Workfront navigation
+feature: Get Started with Workfront
 ---
 
 # Adobe Unified Experience for Workfront
@@ -61,8 +61,8 @@ Workfront appears in the list of Adobe Experience Cloud products you have access
 
 Use the Main Menu icon ![](assets/main-menu-icon-left-nav.png) on the left of the Workfront navigation bar to navigate to any pages that you have access to. The options that are available in the Main Menu are dependent on:
 
-* **Layout template configurations**: To learn how a Workfront administrator can modify the Main Menu from a layout template, see [Customize the Main Menu using a layout template](help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-* **License type**: To learn the default configurations for different license types, see [Understand the navigation for a Review-license user](help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand the navigation for a Work-license user](help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **Layout template configurations**: To learn how a Workfront administrator can modify the Main Menu from a layout template, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+* **License type**: To learn the default configurations for different license types, see [Understand the navigation for a Review-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand the navigation for a Work-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 ![Main menu](assets/main-menu-options-left-nav.png)
 
@@ -76,5 +76,5 @@ This menu allows you to:
 
 * Choose **Dark theme** formatting for Adobe Experience Cloud.
 * Set **Preferences** for Adobe Experience Cloud, including primary and secondary language preferences.
-* Access your **Workfront Profile**. Once you are on the profile, click the **More** menu ![](assets/more-icon.png) and select **Edit**. For more information about the profile, see [Configure My Settings](help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* Access your **Workfront Profile**. Once you are on the profile, click the **More** menu ![](assets/more-icon.png) and select **Edit**. For more information about the profile, see [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **Sign out** of Adobe Experience Cloud.
