@@ -411,6 +411,11 @@ The following features will be removed with the 22.4 release to Production:
 
 * List Controls (from the Interface area in Setup)
 
+>[!NOTE]
+>
+>The deprecation of List Controls has been postponed until after the 22.4 release. The deprecation date will be announced in future communications.
+
+
 * Resource Scheduler
 
   The Workload Balancer is replacing the Resource Scheduler. For more information about the deprecation and how you can prepare to use the Workload Balancer, see the following resources:

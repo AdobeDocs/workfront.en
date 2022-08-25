@@ -239,18 +239,23 @@ Some settings mentioned in this article might be modified from their default sta
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Project Owner</strong> </td> 
-      <td> <p>The user specified in this field is added to the project team and is automatically given manage permissions to the project. The user who is designated as the Project Owner must be a Workfront active user.</p> </td> 
+      <td> <p>Start typing the name of a user to add them to the project, then select it when it displays in the list. The user is added to the project team and is automatically given Manage permissions to the project. The user who is designated as the Project Owner must be a Workfront active user.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Project Sponsor</strong> </td> 
-      <td> <p>The specified user is added to the project team and is automatically given view permissions to the project. The user who is designated as the Project Sponsor must be a Workfront active user.<br></p> </td> 
+      <td> <p>Start typing the name of a user to add them to the project, then select it when it displays in the list. The user is added to the project team and is automatically given View permissions to the project. The user who is designated as the Project Sponsor must be a Workfront active user.<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Resource Manager</strong> </td> 
-      <td> <p>The specified user is automatically given Manage permissions to the project and can assign resources to the tasks and issues on the project. The user maintains Manage permissions on the project even when they are removed from the Resource Manager field. You can specify more than one Resource Manager.<br></p> </td> 
+      <td> <p> Start typing the names of users to add them to the project, then select them when they display in the list. The users are added to the project team and are automatically given Manage permissions to the project and can assign resources to the tasks and issues on the project. Users maintain Manage permissions on the project even when they are removed from the Resource Manager field. You can specify more than one Resource Manager.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
+
+   <!-- drafted for unique identifier story for 22.4 releaase, and ensure it's yellow at preview release:
+   >[!TIP]
+   >
+   >   <span class="preview">When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user’s Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span> -->
 
 1. (Optional) Continue editing the following sections, depending on the information you want to modify. 
 
@@ -601,7 +606,7 @@ The following fields are included in the project header, by default.
 
   >[!NOTE]
   >
-  >You can edit this field only when the Condition&nbsp;Type of the project is Manual. When the Condition Type is set to Progress Status, Workfront calculates the condition based on the progress of the tasks. For information, see [Overview of Project Condition and Condition Type](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+  >You can edit this field only when the Condition Type of the project is Manual. When the Condition Type is set to Progress Status, Workfront calculates the condition based on the progress of the tasks. For information, see [Overview of Project Condition and Condition Type](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 * Status
 * Make approval decisions if you are set as the approver in a current approval process
