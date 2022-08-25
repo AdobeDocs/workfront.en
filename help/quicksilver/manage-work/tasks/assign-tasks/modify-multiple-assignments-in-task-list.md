@@ -88,7 +88,6 @@ When assigning users to work, their availability according to their schedules af
 
    For information about creating a filter, see [Create or edit filters](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md). 
 
-   Do the following to create a filter for your assignees:
 
 1. To filter on a role, select **Assignment Roles**, then click **ID**.
 
