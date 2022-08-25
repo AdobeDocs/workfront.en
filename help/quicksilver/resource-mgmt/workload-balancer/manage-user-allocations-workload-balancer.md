@@ -11,9 +11,8 @@ exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 
 <!--drafted note for 22.4 release: remove all production/ preview references at Prod release-->
 
-<!--drafted for 22.4 preview: 
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
 
 As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
 
@@ -31,7 +30,8 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Plan, in the Production environment</p>
+   <p><span class="preview">Work,  in the Preview environment </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configuration*</td> 
@@ -49,8 +49,6 @@ You must have the following:
   </tr> 
  </tbody> 
 </table>
-
-<!--drafted for worker license story 22.4: - replace "Plan" above with this and keep yellow: Plan, in the Production environment, <span class="preview">and Work in the Preview environment.</span>-->
 
 *To find out what plan, license type, or access you have, contact your Workfront administrator.
 
