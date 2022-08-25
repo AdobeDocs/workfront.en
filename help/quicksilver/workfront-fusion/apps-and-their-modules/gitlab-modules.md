@@ -59,7 +59,142 @@ If you see the map button above a field or function, you can use it to set varia
 
 #### Watch build status {#watch-build-status}
 
-This instant trigger module retrieves project details when a new project is created.
+This instant trigger module starts a scenario when the status of a build changes.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Webhook</td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for build status changes</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   </tr> 
+   </tbody> 
+</table>
+
+#### Watch commit/MR/issue/snippet comments {#watch-commit-mr-issue-snippet-comments}
+
+This instant trigger module starts a scenario when a comment is made on a commit, merge request, issue, or code snippet.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Webhook</td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for comments</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   </tr> 
+   </tbody> 
+</table>
+
+#### Watch commits (pushes) {#watch-commits-pushes}
+
+This instant trigger module starts a scenario when a commit is pushed to a repository. This module does not start a scenario when a tag is pushed.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Webhook</td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for commits</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   </tr> 
+   </tbody> 
+</table>
+
+#### Watch issue comment {#watch-issue-comment}
+
+This instant trigger module starts a scenario when a comment is made on an issue.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Webhook</td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for issue comments</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   </tr> 
+   </tbody> 
+</table>
+
+#### Watch issues {#watch-issues}
+
+This instant trigger module starts a scenario when an issue is created or when an existing issue is updated, closed, or reopened.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Webhook</td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for issues</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   </tr> 
+   </tbody> 
+</table>
+
+#### Watch merge requests {#watch-merge-requests}
+
+This instant trigger module starts a scenario when one of the following occurs:
+
+* A new merge request is created
+* An existing merge request is updated, merged, or closed
+* A commit is added in the source branch
+
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Webhook</td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for merge requests</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   </tr> 
+   </tbody> 
+</table>
+
+#### Watch merge request comments {#watch-merge-request-comments}
+
+This instant trigger module starts a scenario when a comment is made on a merge request.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Webhook</td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for merge request comments</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   </tr> 
+   </tbody> 
+</table>
+
+#### Watch pipeline status {#watch-pipeline-status}
+
+This instant trigger module starts a scenario when the status of a pipeline changes.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Webhook</td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for pipeline status changes</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   </tr> 
+   </tbody> 
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
