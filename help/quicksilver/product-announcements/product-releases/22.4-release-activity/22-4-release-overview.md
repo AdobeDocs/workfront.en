@@ -35,6 +35,16 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
             <tbody>
                 <tr>
                     <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Migration to Adobe Unified Experience</a> <span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release. After the release, all net new customers will be onboarded to both the Adobe Admin Console and Adobe Unified Experience.</p>
                     </td>
@@ -43,7 +53,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                         </p>
                         <ul>
                             <li>
-                                <p>Preview release: August 25, 2022<br /></p>
+                                <p>Preview release: N/A<br /></p>
                             </li>
                             <li>
                                 <p>Production release: With the 22.4 release</p>
@@ -85,16 +95,6 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                                 <p>Production release: With the 22.4 release</p>
                             </li>
                         </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
                     </td>
                 </tr>
                 <tr>
@@ -375,7 +375,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                  <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Workload Balancer enhancements for Work-license users and Issue settings</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Workload Balancer enhancements for Work-license users and Issue settings</a> <span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>The following enhancements have been added to the Workload Balancer, in preparation for the deprecation of the Scheduling tools:</p>
                         <ul>
                             <li>
@@ -388,7 +388,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                         <p>Prior to these enhancements, only Plan-license users could adjust user allocations and issues displayed only in the Assigned Work area.</p>
                     </td>
                     <td><span class="bold">Available on these dates:</span>
-                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                     <p>
                         </p>
                         <ul>
                             <li>
