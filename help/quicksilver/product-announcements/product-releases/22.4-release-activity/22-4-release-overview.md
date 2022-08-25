@@ -20,6 +20,10 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
     
 *   [Project enhancements](#Project)
 
+*   [Agile enhancements](#Agile)
+
+*   [Release Management enhancements](#Release)
+
 *   [Other enhancements](#Other)
     
 
@@ -29,6 +33,60 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Migration to Adobe Unified Experience</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release. After the release, all net new customers will be onboarded to both the Adobe Admin Console and Adobe Unified Experience.</p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 25, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Blueprints icon on the Main Menu now controlled through layout templates</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>System administrators can now add or remove the Blueprints icon on the Main Menu through layout template configuration. This provides greater control of who can browse the Blueprints catalog.</p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 25, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Task header customization</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>As a Workfront or group administrator, you can now customize the fields that display in the header of a task when you use a Layout Template. This update includes several enhancements, including the ability to remove or rearrange existing fields from the task header and add new, non-editable Task Overview fields.</p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 25, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <p><span class="bold">Feature</span>
@@ -92,13 +150,30 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Calculated date fields are always saved based on Coordinated Universal Time (UTC)</a><span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Smart user selection for project roles in the Edit and Details areas</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>We have improved the way users display when you add them to the Project Owner, Project Sponsor, and Resource Manager project fields from the Edit box and the Details section of the project.</p>
+                        <p>Now, when you add a user to any of these fields in the Edit or Details areas, in addition to their name and avatar, we also display their Primary Role and their email. This helps distinguish between multiple users with similar or identical names.</p>
+                    </td>
+                    <td><b>Available on these dates:</b>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 25, 2022</p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Calculated date fields are always saved based on Coordinated Universal Time (UTC)</a> </p>
                         <p>Now, you can be sure that all date functions in calculated fields work consistently and produce the same result for everyone, regardless of how a custom data expression is updated, or where users are collaborating on the object across the world. </p>
                         <p>All calculations are now calculated and saved by one standard— Coordinated Universal Time (UTC)—not by the time zone configurations set for your organization's instance and your individual user profile. However, calculations are displayed in a custom form based on each users' individual time zones set in their browser.</p>
                         <p>Previously, time settings in calculations caused confusion when they varied in these situations:</p>
                         <ul>
                             <li>
-                                <p>If someone recalculated a calculated field expression using “Update previous calculations" on the form builder, date function results were determined by UTC time zone of your organization.</p>
+                                <p>If someone recalculated a calculated field expression using "Update previous calculations" on the form builder, date function results were determined by UTC time zone of your organization.</p>
                             </li>
                             <li>
                                 <p>If someone edited the object and that caused the calculated field expression to recalculate, date function results were determined by the user's local time zone. Calculated date field results in this scenario will also be calculated based on the UTC.</p>
@@ -282,6 +357,52 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
             </tbody>
         </table>            
 
+### Resource Management enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Workload Balancer enhancements for Work-license users and Issue settings</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>The following enhancements have been added to the Workload Balancer, in preparation for the deprecation of the Scheduling tools:</p>
+                        <ul>
+                            <li>
+                                <p>Work-license users can now adjust allocations<br /></p>
+                            </li>
+                            <li>
+                                <p>Issues display in the Unassigned Work area when enabling the "Include hours from issues" setting.</p>
+                            </li>
+                        </ul>
+                        <p>Prior to these enhancements, only Plan-license users could adjust user allocations and issues displayed only in the Assigned Work area.</p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 25, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
 ### Other enhancements
 
 <table>
@@ -360,7 +481,7 @@ Campaigns were released to Preview beta with the 22.3 release, in July 2022. For
 
 ### Upgrade the Desktop Proofing Viewer to the latest version
 
-We have released a new version of the Desktop Proofing Viewer. This upgrade contains a technical change that requires all users to take action. The actions needed depend on each user’s operating system:
+We have released a new version of the Desktop Proofing Viewer. This upgrade contains a technical change that requires all users to take action. The actions needed depend on each user's operating system:
 
 *   Mac users must manually reinstall the Desktop Proofing Viewer to upgrade to the latest version. For help reinstalling, see  Install the Desktop Proofing Viewer. After it is reinstalled, future updates to the Desktop Proofing Viewer will be automatic.
     
