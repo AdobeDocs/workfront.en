@@ -182,19 +182,211 @@ This instant trigger module starts a scenario when the status of a pipeline chan
    </tbody> 
 </table>
 
+#### Watch projects {#watch-projects}
 
+This scheduled trigger module starts a scenario when a new project is added, of which the authenticated user is a member.
 
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Max Results</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to watch during each scenario execution cycle.</p> </td> 
+   </tr> 
+   </tbody> 
+</table>
 
+#### Watch repository branches {#watch-repository-branches}
 
+This scheduled trigger module starts a scenario when a new branch is added to a repository.
 
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Max Results</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to watch during each scenario execution cycle.</p> </td> 
+   </tr> 
+   </tbody> 
+</table>
 
+#### Watch repository tags {#watch-repository-tags}
 
+This instant trigger module starts a scenario when a tag is created or deleted in a repository.
 
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Webhook</td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for tags</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   </tr> 
+   </tbody> 
+</table>
 
+#### Watch snippet comments {#watch-snippet-comments}
 
+This instant trigger module starts a scenario when a new comment is made on a snippet.
 
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Webhook</td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for comments</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   </tr> 
+   </tbody> 
+</table>
 
+#### Watch todos {#watch-todos}
 
+This scheduled trigger module starts a scenario when a new todo is added. When no filter is applied, the trigger is run when a new pending todo is added.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select the project that you want to watch for todos.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Author ID</td> 
+   <td> Enter or map the ID of the author that you want to return todos for.  </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Action</td> 
+   <td> <p>Select the type of action that created the todos you want to watch.</p>
+   <ul><li>Assigned:</li>
+   <li>Mentioned</li>
+   <li>Build failed: The </li>
+   <li>Marked</li>
+   <li>Approval required</li></ul>
+    </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">State</td> 
+   <td> Select whether you want to watch Pending todos or Done todos. </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Max Results</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to watch during each scenario execution cycle.</p> </td> 
+   </tr> 
+   </tbody> 
+</table>
+
+#### Watch wiki page {#watch-wiki-page}
+
+This instant trigger module starts a scenario when a wiki page is create or edited.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Webhook</td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for wiki pages</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   </tr> 
+   </tbody> 
+</table>
+
+### Actions
+
+#### Accept merge request
+
+This action module merges submitted with the given merge request.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select the project that contains the merge request you want to accept.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Merge Request ID</td> 
+   <td> <p>Enter or map the ID of the merge request that you want to accept.</p> <p>To search for a merge request, click <b>Search</b> and select the state of the merge requests you want to search. Select the merge request from the list.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Merge commit message</td> 
+   <td> Enter or map a commit message for the merge.
+    </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Should remove source branch</td> 
+   <td>Select whether you want to remove the source branch when the merge is complete.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Merge when build succeeds</td> 
+   <td>Select whether to merge the merge request as soon as the build is completed.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">SHA</td> 
+   <td>If present, then this SHA must match the HEAD of the source branch. If it does not match, the merge fails.</td> 
+   </tr> 
+   </tbody> 
+</table>
+
+#### Cancel a build
+
+This action module cancels a single build of a project.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project that contains the build you want to cancel.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Build ID</td> 
+   <td>Select or map the build that you want to cancel.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Merge commit message</td> 
+   <td> Enter or map a commit message for the merge.
+    </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Should remove source branch</td> 
+   <td>Select whether you want to remove the source branch when the merge is complete.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Merge when build succeeds</td> 
+   <td>Select whether to merge the merge request as soon as the build is completed.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">SHA</td> 
+   <td>If present, then this SHA must match the HEAD of the source branch. If it does not match, the merge fails.</td> 
+   </tr> 
+   </tbody> 
+</table>
 
 
 
