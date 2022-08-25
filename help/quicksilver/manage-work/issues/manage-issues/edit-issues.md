@@ -331,9 +331,13 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 You can edit a limited amount of information in the issue header.
 
+<!--drafted for 22.4 release <span class="preview">Your system or group administrator can customize the fields you see in the issue header.</span>-->
+
 ![](assets/issue-header-350x19.png)
 
 You can edit the following fields in the issue header:
+
+<!--drafted for the 22.4 release - replace the one above with this: <span class="preview">The following fields are included in the project header, by default.</span>-->
 
 * Issue name
 * Percent complete

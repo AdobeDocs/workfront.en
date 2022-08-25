@@ -146,6 +146,12 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
+   <!--drafted for the user identifier story for 22.4 release - make this yellow when live
+   >[!TIP]
+   >
+   >   <span class="preview">When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user’s Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span> -->
+
+
 1. Review the following fields in the Overview section.&nbsp;You cannot edit the following fields: 
 
    | Field |Description  |
