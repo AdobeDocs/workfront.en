@@ -2,8 +2,8 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: View and manage comments on a timesheet
-description: You can make comments on the following items in a timesheet - EDIT ME.
-author: Lisa
+description: You can make comments on timesheets, the work items included in the timesheets, as well as on every hour entry that you log. 
+author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
 ---

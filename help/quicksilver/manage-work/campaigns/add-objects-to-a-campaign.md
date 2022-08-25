@@ -10,7 +10,7 @@ exl-id: a70ac760-f4ba-4b01-9cd0-275e86236758
 
 >[!NOTE]
 >
->The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
+><span class="preview">The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).</span>
 
 You can associate other objects with campaigns to indicate that multiple work endeavors contribute to a larger effort. For this purpose, you can associate projects with campaigns. 
 

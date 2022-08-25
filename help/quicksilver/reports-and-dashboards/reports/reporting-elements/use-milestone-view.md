@@ -59,9 +59,12 @@ You must have the following access to perform the steps in this article:
 
 The Milestone view is available on project lists and project reports. This view enables you to quickly view all milestones that are associated with tasks within the projects you are viewing.
 
-<!--Make this a note when undrafted:
-The Milestone view is not available in the following areas:
-* Timesheets, in the project list when adding a project.-->
+
+>[!NOTE]
+>
+>The Milestone view is not available in the following areas:
+>* Timesheets, in the project list when adding a project.
+
 
 For information about how to switch to the Milestone view, see the section [Switch to the Milestone view](#switch-to-the-milestone-view) in this article.
 
