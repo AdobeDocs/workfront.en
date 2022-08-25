@@ -1,8 +1,8 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Migrate
-description: add text
+title: Migrate from the legacy or enhanced connector to Workfront for Adobe Experience Manager as a Cloud Service integration
+description: The information on this page explains the best practices for moving from the Workfront for Experience Cloud enhanced or legacy connectors to the latest native integration connecting Workfront and Adobe Experience Manager Assets as a Cloud Service.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 ---
