@@ -388,6 +388,90 @@ This action module cancels a single build of a project.
    </tbody> 
 </table>
 
+#### Cancel a pipeline's builds
+
+This action module cancels the builds for a single pipeline.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project that contains the pipeline that you want to cancel builds for.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Pipeline ID</td> 
+   <td>Select the pipeline that you want to cancel builds for.</td> 
+   </tr> 
+   </tbody> 
+</table>
+
+#### Cancel merge when pipeline succeeds
+
+If a merge request is set to merge when a pipeline succeeds, this action module cancels that action.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project that contains the pipeline that you want to cancel the merge for.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Merge Request ID</td> 
+   <td> <p>Enter or map the ID of the merge request that you want to cancel.</p> <p>To search for a merge request, click <b>Search</b> and select the state of the merge requests you want to search. Select the merge request from the list.</p></td> 
+   </tr> 
+   </tbody> 
+</table>
+
+#### Cherry pick a commit
+
+This action module cherry picks a commit to a given branch.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project that contains the commit that you want to cherry-pick.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Commit SHA</td> 
+   <td> Enter or map the commit hash for the commit you want to cherry pick</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Branch Name</td> 
+   <td>Select the branch for which you want to cherry-pick the commit.</td> 
+   </tr> 
+   </tbody> 
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
