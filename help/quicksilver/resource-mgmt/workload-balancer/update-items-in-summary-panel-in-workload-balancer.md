@@ -15,7 +15,7 @@ exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
 
 You can use the Summary panel of a task or an issue to update important information for that item. in the Workload Balancer.
 
-The Summary panel is available for tasks <span class="preview">and issues in both areas of the Workload Balancer</span>.
+The Summary panel is available for tasks <span class="preview">and issues</span> in both the Assigned and Unassigned Work areas of the Workload Balancer.
 
 ## Access requirements
 
