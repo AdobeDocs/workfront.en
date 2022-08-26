@@ -11,8 +11,10 @@ exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
 # Manage information in the project Overview area
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
+<p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 You can view or edit the information of a project by accessing the Overview area of the Project Details section. There is a limited number of fields that you can view or edit in this area. For information about editing all information for a project see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -146,10 +148,9 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-   <!--drafted for the user identifier story for 22.4 release - make this yellow when live
    >[!TIP]
    >
-   >   <span class="preview">When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user’s Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span> -->
+   ><span class="preview">When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>
 
 
 1. Review the following fields in the Overview section.&nbsp;You cannot edit the following fields: 
@@ -158,7 +159,7 @@ You must have the following access to perform the steps in this article:
    |---|---|
    | Reference Number |This is an automatically generated field and it always has a unique value for each project.  |
    | Projected Start Date |This is a 'real time' date of when work is going to start based on completed work and remaining work. |
-   | Projected Completion Date |This is a ‘real time' date of when the project is going to be completed based on the progress of completed tasks and based on the progress updates on the tasks that are either New or In Progress status. |
+   | Projected Completion Date |This is a 'real time' date of when the project is going to be completed based on the progress of completed tasks and based on the progress updates on the tasks that are either New or In Progress status. |
    | Planned Hours |Hours planned on the project. These hours are a total of Planned Hours for each task.  |
    | Actual Hours |Hours logged on the project. These hours are a total of the logged hours on the project, the tasks, or the issues of the project.  |
    | Planned Duration |Amount of time the project will span, based on the time frame between the earliest Planned Start Date of a task and the latest Planned Completion Date of a task on the project.  |

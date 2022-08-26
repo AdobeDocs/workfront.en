@@ -10,7 +10,6 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 # Edit projects
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: ***Linked to many articles,</p>
 <p>The Resource Pools part also duplicates in the "Working with Resource Pools" article -</p>
 <p>The Update Type section is also documented in Selecting the Project Update Type article</p>
@@ -21,6 +20,8 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 <p>If you need to update just one field, check to see if that field is also listed there and update in both places.)</p>
 </div>
 -->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 You can edit a project in Adobe Workfront as often as needed. We recommend that you edit projects minimally after they become Current, to avoid confusion by sending out notifications about the changes to the entire project team. You should ideally edit a project when the project is in Planning status. For information about the Project Team, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
@@ -227,7 +228,7 @@ Some settings mentioned in this article might be modified from their default sta
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Group</strong></td> 
-      <td> <p> <p>Specify the name of the group associated with the project. </p>This is a required field. You cannot have a project which is not associated with a group. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> By default, one of the following groups is automatically associated <span data-mc-edit-date="2020-12-02T17:06:08.1586452-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted, only in QS" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2020-12-02T17:06:00.8315301-05:00">with</span> a project when it is created, unless you specify a different group:</p> 
+      <td> <p> <p>Specify the name of the group associated with the project. </p>This is a required field. You cannot have a project which is not associated with a group. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> By default, one of the following groups is automatically associated with a project when it is created, unless you specify a different group:</p> 
         <ul> 
          <li> <p><span>When the project is created from the Projects area, the Home Group of the project creator is associated with the project.</span> </p> <p>This is also true when the project is created from the Projects  section  in a portfolio or program.</p> </li> 
          <li> <p>When the project is created from a group's main page in the Setup area, that group is associated with the project.</p> </li> 
@@ -252,10 +253,9 @@ Some settings mentioned in this article might be modified from their default sta
     </tbody> 
    </table>
 
-   <!-- drafted for unique identifier story for 22.4 releaase, and ensure it's yellow at preview release:
    >[!TIP]
    >
-   >   <span class="preview">When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user’s Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span> -->
+   >   <span class="preview">When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>
 
 1. (Optional) Continue editing the following sections, depending on the information you want to modify. 
 
@@ -614,7 +614,7 @@ The following fields are included in the project header, by default.
 ## Edit projects in bulk
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: *******THIS WHOLE SECTION WILL NEED TO BE RE-WRITTEN FOR NWE BULK WHEN EDITING PROJECTS IN BULK IN NWE WILL BE UPDATED***** THE SECTION AS IS NOW WILL STAY FOR CLASSIC, BUT REMOVE ALL THE NWE CONDITIONING AND CROSS-REFERENCES*****)</p>
+<p>(NOTE: *******THIS WHOLE SECTION WILL NEED TO BE RE-WRITTEN FOR NWE BULK WHEN EDITING PROJECTS IN BULK IN NWE WILL BE UPDATED***** THE SECTION AS IS NOW WILL STAY FOR CLASSIC, BUT REMOVE ALL THE NWE CONDITIONING AND CROSS-REFERENCES*****)</p>
 -->
 
 You can edit projects in bulk and update all their information at the same time.
@@ -658,7 +658,7 @@ To edit projects in bulk:
      For information, continue with step 7 below.
 
      <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;make sure this stays accurate)</p>   
+     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
      -->
 
    * **Tasks**
@@ -674,7 +674,7 @@ To edit projects in bulk:
      For information, continue with step 9 below.
 
      <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this step stays accurate)</p>   
+     <p>(NOTE: ensure this step stays accurate)</p>   
      -->
 
    >[!NOTE]

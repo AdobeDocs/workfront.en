@@ -17,11 +17,16 @@ exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
 </div>
 -->
 
+
+<!--remove production and preview preferences at release-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 Resource Management allows you to configure your system to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.
 
 ## Overview of Resource Management in Adobe Workfront
 
-Resource Management refers to all the activities performed by the Adobe Workfront administrator, the resource manager, and the Project Owner to plan and schedule an organization's resources and assign them to the work that needs to be done, taking into account their availability. 
+Resource Management refers to all the activities performed by the Adobe Workfront administrator, the resource manager, and the Project Owner to plan (Resource or Scenario Planning) and schedule (Resource Scheduling) an organization's resources and assign them to the work that needs to be done, taking into account their availability. Additionally, resource management also refers to viewing information about the planned and actual resource allocations in a report view (Utilization report). 
 
 Workfront has several sets of tools used to manage resources. Each tool has an individual scope. Currently, you can use the following Resource Management tools in Workfront, depending on which stage of resource management you are in:
 
@@ -130,15 +135,17 @@ The following users have access to the Resource Management tools in Workfront:
 You must be one of the following users and have the following access and permissions to access resource management tools:
 
 * The system administrator.
-* A user with a Plan license
+* A user with Plan license, in the Production environment. 
+  
+  <span class="preview">In the Preview environment, a user with a Work license cannot use the Utilization report.</span>
 
-  In addition to having a Plan license, you must have the following to use specific resource management tools:
+  In addition to having a <span class="preview">Work</span> or higher license, you must have the following to use specific resource management tools:
 
-   * Edit access to Resource Management to use the Scheduling tool
+   * Edit access to Resource Management <span class="preview">(not needed for making assignments in the Workload Balancer)</span>
    * Edit access to Financial Data to display Cost information in the Resource Planner
-   * View access to Financial Data to view Cost and Revenue information in the Utilization Report
+   * View access to Financial Data to view Cost and Revenue information in the Utilization Report (only users with a Plan license)
 
-* Manage permissions on the projects you want to manage resources for.  
+* <span class="preview">Contribute or higher</span> permissions on the projects you want to manage resources for.  
 * Designated as a Resource Manager for projects to use the Scheduling tool (the Scheduling tool is deprecated).
 
   >[!TIP]

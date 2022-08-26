@@ -17,6 +17,11 @@ exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 </div>
 -->
 
+<!--remove production and preview preferences at release-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
+
 You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to.
 
 ## Access requirements
@@ -37,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Tasks and&nbsp;Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -561,15 +566,11 @@ You can define default custom forms to be automatically attached to tasks when t
 ## Edit a task in the task header (limited)
 
 You can edit a limited amount of information in the task header.
-
-<!--drafted for task headers and mark it yellow for Preview: <span class="preview">Your system or group administrator can customize the fields you see in the task header. For more information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>--> 
-
+Your system or group administrator can customize the fields you see in the task header. For more information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
-You can edit the following fields in the task header:
-
-<!--drafted for task headers and mark it yellow: replace the sentence above with this: <span class="preview">The following fields are included in the project header, by default:</span>-->
+The following fields are included in the task header, by default:
 
 * Task name
 * Percent complete
