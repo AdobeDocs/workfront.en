@@ -11,9 +11,7 @@ exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 
 <!--drafted note for 22.4 release: remove all production/ preview references at Prod release-->
 
-<!--drafted for 22.4 preview: 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
 
 Use the Workload Balancer to understand the availability of your resources as well as to assign work to your users. This article walks you through using the icons and settings available to update the view for and navigate the Workload Balancer.
 
@@ -46,7 +44,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Plan, in the Production environment</p>
+   <p><span class="preview">Work, in the Preview environment</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -66,7 +65,6 @@ You must have the following access to perform the steps in this article:
 </table>
 
 *To find out what plan, license type, or access you have, contact your Workfront administrator.
-<!--drafted for worker license story 22.4: - replace "Plan" above with this and keep yellow: Plan, in the Production environment, <span class="preview">and Work in the Preview environment.</span>-->
 
 ## Considerations for viewing items in the Workload Balancer
 
@@ -115,7 +113,7 @@ The two areas of the Workload Balancer display the following information:
  <tbody> 
   <tr> 
    <td role="rowheader">Unassigned Work</td> 
-   <td> <p>This area displays tasks unassigned to users. It does not display issues. </p> <p>Projects display when the Group by Project setting is enabled.</p> <p>This area does not display any work items by default. We recommend using filters to display relevant information for you in this area.</p> <p>After you apply a filter, this area displays the following work items:</p> 
+   <td> <p>This area displays tasks <span class="preview">and issues</span> unassigned to users. </p> <p>Projects display when the Group by Project setting is enabled.</p> <p>This area does not display any work items by default. We recommend using filters to display relevant information for you in this area.</p> <p>After you apply a filter, this area displays the following work items:</p> 
     <ul> 
      <li>unassigned</li> 
      <li>assigned to a team </li> 
@@ -129,9 +127,6 @@ The two areas of the Workload Balancer display the following information:
   </tr> 
  </tbody> 
 </table>
-
-<!--drafted for issues in Unassigned story: replace this above, in the table "This area displays tasks unassigned to users. It does not display issues." with this: "This area displays tasks <apsn class="preview">and issues</span> unassigned to users." -->
-
 
 For information about applying a filter in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
@@ -231,19 +226,11 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
      ![](assets/group-by-project-350x530.png)
 
-   * **Include hours from issues**: When this is selected, issues assigned to users display under the user's name in the Assigned Work area and the Planned Hours from the issues also display for the issues, the project, and the user.
+   * **Include hours from issues**: When this is selected, issues assigned to users display under the user's name in the Assigned Work area <span class="preview">and issues that are not assigned to users display in the Unassigned Work area</span>. The Planned Hours from the issues also display for the issues, the project, and, for the Assigned Work area, also for the user.
 
-   <!--drafted for 22.4 preview release: replace the above statement after the field name with this: 
+        ![](assets/issue-on-workload-balancer-350x20.png)
+
    
-   When this is selected, issues assigned to users display under the user's name in the Assigned Work area <span class="preview">and unassigned issues display in the Unassigend Work area</span>. The Planned Hours from the issues also display for the issues, the project, and, for the Assigned Work area, also for the user.-->
-
-     ![](assets/issue-on-workload-balancer-350x20.png)
-
-     >[!TIP]
-     >
-     >Issues don't display in the Unassigned Work area of the Workload Balancer.
-
-      <!--drafted for 22.4  release: take the tip above out at Preview-->
       * **Show Projected Dates**: When this is selected, the projected timeline of work items displays in addition to the planned timeline. Notice the following:
 
          * The projected timeline of project, tasks, and issues displays as a dark blue line above the task, issue, and project bars.
@@ -349,13 +336,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    For information about updating task information in the Summary in the Workload Balancer, see [Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
-   >[!TIP]
-   >
-   >This option is available for tasks in the Unassigned Work area and for tasks and issues in the Assigned Work area. This is not available for projects or users.
-
-   <!--drafted for the 22.4  release: remove the tip above with 22.4 Preview-->
-
-   The Summary panel opens on the right. 
+    The Summary panel opens on the right. 
 
 1. Click **Bulk Assignments** to assign work items in bulk.
 
