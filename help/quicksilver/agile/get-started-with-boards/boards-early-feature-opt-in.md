@@ -75,12 +75,8 @@ The following table outlines major features of boards along with their current r
    <td>Partially released</td>
   </tr>
   <tr>
-   <td>Updated filters</td>
-   <td>Partially released</td>
-  </tr>
-  <tr>
-   <td>Filter by project</td>
-   <td>Partially released</td>
+   <td>Filter connected cards by project</td>
+   <td>Planned</td>
   </tr>
   <tr>
    <td>Create a column connected to Workfront</td>
