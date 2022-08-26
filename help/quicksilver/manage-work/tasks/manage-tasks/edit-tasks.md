@@ -599,7 +599,7 @@ You can edit a limited amount of information in the task header.
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
-<span class="preview">The following fields are included in the project header, by default:</span>-->
+<span class="preview">The following fields are included in the project header, by default:</span>
 
 * Task name
 * Percent complete

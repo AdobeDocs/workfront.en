@@ -7,7 +7,7 @@ author: Alina
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 ---
-# Assign work in bulk using theWorkload Balancer
+# Assign work in bulk using the Workload Balancer
 
 <!--remove production and preview preferences at release-->
 
