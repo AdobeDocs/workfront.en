@@ -50,7 +50,7 @@ Consider the following when you delegate tasks and issues:
 * You can view delegated work and delegates names in several areas of Workfront. For more information, see the section "Locate delegated work and delegates information" in the article [Manage task and issue delegation](../delegate-work/how-to-delegate-work.md).
 * The users that you select as delegates receive the same  permissions as your permissions on the tasks and issues you delegate to them. The permissions must work within their access levels, and sometimes their access levels might be lower than yours.
 
-  It can take up to one hour since the start of the delegation before Workfront shares the delegated items with the delegate.
+  It can take up to one hour after the delegation was created before Workfront shares the delegated items with the delegate.
 
   >[!IMPORTANT]
   >

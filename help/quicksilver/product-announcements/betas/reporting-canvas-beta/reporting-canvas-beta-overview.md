@@ -222,7 +222,7 @@ To submit feedback about the beta:
 
 ## Beta FAQ
 
-### Can I migrate my legacy reports to Reporting Canvas?
++++Can I migrate my legacy reports to Reporting Canvas?
 
 In short, migrating legacy reports won't be available during the beta. However, it is a planned feature (with some caveats described below) for the official launch.
 
@@ -242,8 +242,9 @@ Our current strategy for migration in the official releaseis to enable you to do
    You can migrate the same report or dashboard as many times as you want.
 
 1. In Reporting Canvas, make sure that all of the reports and dashboards you selected were migrated.
++++
 
-### Why can't I see all the objects I normally do?
++++Why can't I see all the objects I normally do?
 
 In order to provide the beta to our customers as early as possible, we have released it with only a subset of the many object types available in Workfront today. Below are the object types currently supported in the beta:
 
@@ -260,12 +261,14 @@ In order to provide the beta to our customers as early as possible, we have rele
 * Task
 * Timesheet
 * Work Item
++++
 
-### If something goes wrong in Reporting Canvas during the beta, will my organization's data be impacted?
++++If something goes wrong in Reporting Canvas during the beta, will my organization's data be impacted?
 
 No. The beta uses a copy of your organization's data that is populated into Reporting Canvas. While this means that you are safe to experiment during the beta without risk of impacting important data, it also means that in-line editing of data in Reporting Canvas will be unavailable until the official launch.
++++
 
-### Can I opt out of the beta once I've joined?
++++Can I opt out of the beta once I've joined?
 
 A Workfront administrator cannot opt out of the beta; however, non-system administrators can be removed by doing the following:
 
@@ -274,3 +277,4 @@ A Workfront administrator cannot opt out of the beta; however, non-system admini
 1. Click Reporting Canvas **permissions**.
 1. Remove the users you want to opt out of the beta from the list that have been opted in.
 1. Click **Save**.
++++

@@ -18,7 +18,7 @@ For general information on the Reporting Canvas beta, see [Reporting Canvas beta
 
 ### New Features
 
-* Added IF and YEAR functions in Field Builder
+* Added YEAR function in Field Builder
 
 ## Week of July 17th
 
