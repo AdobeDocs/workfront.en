@@ -67,6 +67,6 @@ After you add IP addresses to the Workfront allowlist, only those IP addresses c
 1. Click **Add IP Range,** then specify the IP address or range of IP addresses that you want to be able to access Workfront.
 1. (Optional) Repeat the previous step to add additional IP addresses or IP address ranges.
 
-   You can add up to 30 addresses or ranges.
+   You can add up to 45 addresses or ranges.
 
 1. Click **Save.**
