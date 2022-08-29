@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Manage email invitations to new users
-description: Manage email invitations to new users
+description: As an Adobe Workfront administrator, you can add users to Workfront and notify them that they have been added, by using email invitations.
 author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
@@ -14,6 +14,12 @@ exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+>[!IMPORTANT]
+>
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 As an Adobe Workfront administrator, you can add users to Workfront and notify them that they have been added, by using email invitations.
 
@@ -29,9 +35,6 @@ You can configure the new user emails for:
 All new users see the same email when an email invitation is sent.
 
 For information about receiving email invitations, see [Receive email invitations and create a password for Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
-
-* [Generate email invitations](#generate-email-invitations) 
-* [Configure email invitations](#configure-email-invitations)
 
 ## Access requirements
 
@@ -79,6 +82,14 @@ To manually generate email invitations to existing unregistered users:
 1. Click the More icon ![](assets/more-icon.png), then click **Remind user to register**.
 
    An email invitation is sent to the new user with a new link they can use to create their Workfront password.
+
+   >[!NOTE]
+   >
+   >If your organization has been onboarded to the Admin Console and you add a user through Workfront, you do not have the option to send an email invitation to new users.
+   >
+   >New Adobe users are added to the Admin Console, and the Admin Console delivers an email to invite them to complete the registration process. All users must complete the registration process to access any Adobe system.
+   >
+   >For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product.
 
 ## Configure email invitations {#configure-email-invitations}
 
