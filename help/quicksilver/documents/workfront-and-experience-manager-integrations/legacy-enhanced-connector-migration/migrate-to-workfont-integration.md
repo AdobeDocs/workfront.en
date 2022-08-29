@@ -21,8 +21,8 @@ Customers that intend to use the new native integration between Workfront and Ad
 
  Adobe must help carry out this migration. To request help, do one of the following:
 
- * If you have Workfront Hub access, submit the request to the [Workfront Migration to Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=629674d500054a38133cf26e01d06a97&path=).
  * If you do not have Workfront Hub access, email mreed@adobe.com to reqeust help with your migration.
+* If you have Workfront Hub access, submit the request to the [Workfront Migration to Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=629674d500054a38133cf26e01d06a97&path=).
 
 ## Configure your new Workfront for Adobe Experience Manager assets as a Cloud Service integration
 
