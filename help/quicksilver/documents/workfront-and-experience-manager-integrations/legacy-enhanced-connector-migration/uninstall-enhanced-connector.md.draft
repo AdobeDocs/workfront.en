@@ -29,7 +29,8 @@ You must uninstall the Workfront with Adobe Experience Manager enhanced connecto
 
 1. Remove the following dependency from the pom.xml file of the project's root.
 
-   ` <!-- Workfront Tools -->
+   ``` 
+   <!-- Workfront Tools -->
 <dependency>
     <groupId>digital.hoodoo</groupId>
     <artifactId>workfront-tools.ui.apps</artifactId>
@@ -37,7 +38,8 @@ You must uninstall the Workfront with Adobe Experience Manager enhanced connecto
     <version>1.8.0</version>
     <scope>system</scope>
     <systemPath>${project.basedir}/ui.apps/src/main/resources/workfront-tools.ui.apps.zip</systemPath>
-</dependency>`
+</dependency>
+    ```
 
     >[!NOTE]
     >
@@ -56,6 +58,7 @@ You must uninstall the Workfront with Adobe Experience Manager enhanced connecto
     ```
 1. Remove the following embedded from the pom.xml file of  the project's submodule named all.
 
+    ```
     <!-- Workfront Tools -->
     <embedded>
         <groupId>digital.hoodoo</groupId>
@@ -63,6 +66,7 @@ You must uninstall the Workfront with Adobe Experience Manager enhanced connecto
         <type>zip</type>
         <target>/apps/<path-to-project-install-folder>/install</target>
     </embedded>
+    ```
 
 1. (Conditional) Remove the repository configuration from the pom.xml file of the project's root.
 
