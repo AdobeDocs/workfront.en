@@ -94,9 +94,12 @@ You can log general hours or project-specific hours on a timesheet.
 
 1. (Optional) Expand the filter, view, or grouping drop-down menus to apply or customize one and to view the item information that you want. 
 
-1. Select an item in the list when it displays, then click **Add**. 
+1. Select one or several items in the list, then click **Add**. 
+   
+   <!--drafted for the 22.4 release - maintenance update: A confirmation message displaying the number of items added to your timesheet displays in the upper-right corner of the page.-->
 
-   The item is added to the timesheet and it is pinned. You must manually unpin it to remove it from the timesheet. For information about unpinning items to remove them from the timesheet, continue with Step 9. <!--(ensure this stays accurate)-->
+   The item is added to the timesheet and it is pinned. You must manually unpin it to remove it from the timesheet. For information about unpinning items to remove them from the timesheet, continue with Step 9. 
+   <!--(ensure this stays accurate)-->
    
    When you add tasks or issues to the timesheet, the project is also added. 
 
