@@ -95,7 +95,7 @@ Before you add a user, gather the information about the user listed below and de
 
    If you are importing users, you don't need to continue these steps. For more information, see [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 
-1. In the **New User** box that appears, click **Show Advanced Options**, then configure the available options to enter the person's information,
+1. In the **New User** box that appears, click **Show Advanced Options**, then configure the available options to enter the person's information.
 
    For information about these options, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -108,6 +108,14 @@ Before you add a user, gather the information about the user listed below and de
    >
    >If your Workfront administrator enabled an SSO integration with Workfront, then the Only Allow &lt;SSO Configuration&gt; Authentication field is hidden if you disable the email invitation. The Federation ID or &lt;SSO Configuration&gt; Username field remains visible.
  
+   >[!NOTE]
+   >
+   >If your organization has been onboarded to the Admin Console and you add a user through Workfront, you do not have the option to send an email invitation.
+   >
+   >New Adobe users are added to the Admin Console, and the Admin Console delivers an email to invite them to complete the registration process. All users must complete the registration process to access any Adobe system.
+   >
+   >For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product.
+
 1. Click **Add This User**.
 
    Or
@@ -143,4 +151,12 @@ To create new user by copying an existing one:
 
 This creates a new account in Workfront for the user.
 
-If you selected the option to send an invite to the user, they should receive an email where they can follow a link to create their Workfront password.
+If you selected the option to send an invitation to the user, they should receive an email where they can follow a link to create their Workfront password.
+
+>[!NOTE]
+>
+>If your organization has been onboarded to the Admin Console and you add a user through Workfront, you do not have the option to send an email invitation.
+>
+>New Adobe users are added to the Admin Console, and the Admin Console delivers an email to invite them to complete the registration process. All users must complete the registration process to access any Adobe system.
+>
+>For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product.
