@@ -44,5 +44,5 @@ Last, you need to uninstall the legacy or enhanced connector. The native integra
 
 To uninstall, see 
 
-* Legacy connector uninstall instructions: Uninstalling Workfront.docx - new doc
-* Enhanced connector uninstall instructions: AdobeDAM:Workfront for Experience Manager enhanced connector - new doc
+* Legacy connector uninstall instructions: [Uninstall the Workfront with Adobe Experience Manager legacy connector](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
+* Enhanced connector uninstall instructions: [Uninstall the Workfront with Adobe Experience Manager enhanced connector](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)

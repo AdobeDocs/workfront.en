@@ -64,7 +64,8 @@ You must uninstall the Workfront with Adobe Experience Manager enhanced connecto
         <target>/apps/<path-to-project-install-folder>/install</target>
     </embedded>
 
-1. (If dependency is on Hoodoo Distribution point) Remove the repository configuration from the pom.xml file of the project's root.
+1. (Conditional) Remove the repository configuration from the pom.xml file of the project's root.
+
 
     ```
     <repository>
@@ -74,7 +75,7 @@ You must uninstall the Workfront with Adobe Experience Manager enhanced connecto
     </repository>
     ```
 
-1. (If dependency is on Hoodoo Distribution point) Remove the server configuration from the settings.xml, present in the following path ./cloudmanager/maven/settings.xml in the project root.'
+1. (Conditional) Remove the server configuration from the settings.xml, present in the following path ./cloudmanager/maven/settings.xml in the project root.'
 
     ```
 
