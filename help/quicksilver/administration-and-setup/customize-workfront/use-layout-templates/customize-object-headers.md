@@ -11,17 +11,17 @@ exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
 ---
 # Customize object headers using a layout template
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the fields users see in the object header when they open an object's page.
 
 >[!IMPORTANT]
 >
->Customizing object headers is currently available only for projects.
-
-<!--drafted for task headers: replace above with this: Customizing object headers is currently available for projects <span class="preview">and tasks</span>. -->
+>Customizing object headers is currently available for projects <span class="preview">and tasks</span>.
 
 <!--drafted for task AND issue headers: replace above with this when issue custom headers are coming too: Customizing object headers is currently available for projects <span class="preview">, tasks</span>, and <span class="preview">issues</span>. -->
 
-For information about layout templates for groups, see [Create and modify a group’s layout templates](../../manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md). 
+For information about layout templates for groups, see [Create and modify a group's layout templates](../../manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md). 
 
 ![](assets/object-header-fields.png)
 
@@ -78,11 +78,11 @@ If you already have five fields selected, you must remove a field before you can
 
     >[!TIP]
     >
-    >Non-editable fields are fields that users cannot manually edit. They are automatically calculated by Workfront. You can only add fields that display in the Overview area of the object's Details section. 
+    >* Non-editable fields are fields that users cannot manually edit. They are automatically calculated by Workfront. You can only add fields that display in the Overview area of the object's Details section. 
+    >
+    >* Editable fields that are already part of the default headers (for example, Project Owner, <span class="preview">Status, Percent Complete, Assignments</span>) are allowed.
 
-    <!--drafted for task customizable headers - add is as a second bullet for the TIPS above and make what is there the first bullet: 
-    * Editable fields that are already part of the default headers (for example, Project Owner, <span class="preview">Status, Percent Complete, Assignments</span>) are allowed. -->
-
+   
     ![](assets/add-field-to-header-in-lt-list.png)  
   
 

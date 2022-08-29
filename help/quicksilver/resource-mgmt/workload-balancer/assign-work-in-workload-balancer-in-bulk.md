@@ -7,11 +7,11 @@ author: Alina
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 ---
-# Assign work in bulk using theWorkload Balancer
+# Assign work in bulk using the Workload Balancer
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: NWE only article)</p>
--->
+<!--remove production and preview preferences at release-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 You can manually assign work items to users using the Adobe Workfront Workload Balancer.
 
@@ -31,11 +31,12 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Plan, in the Production environment</p>
+   <p><span class="preview">Work, in the Preview environment</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to&nbsp;the following:</p> 
+   <td> <p>Edit access to the following:</p> 
     <ul> 
      <li> <p>Resource Management</p> </li> 
      <li> <p>Projects</p> </li> 
@@ -47,7 +48,7 @@ If you still don't have access, ask your Workfront administrator if they set add
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the projects, tasks, and issues that include Make Assignments</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,27 +65,24 @@ If you still don't have access, ask your Workfront administrator if they set add
    * Replace user assignments between users.
    * Unassign a user from all their work items.
 
-**Examples:** 
+**EXAMPLES** 
 
 * You are responsible for making user assignments on several new projects. The projects were originally created from templates and job roles are already assigned to the various tasks within the projects. You want to assign a specific user, Jackie Simms, to all tasks that are currently assigned to a job role. You can use the Assign function to assign these tasks to Jackie Simms.
 * 45 tasks across 3 different projects are assigned to Jackie Simms. Jackie leaves the organization, and now you need to reassign her tasks to another user. You can use the Replace function to assign these tasks to the new person. 
-* 10 tasks across 2 different projects are assigned to another user, Rick Kuvec. You realize that&nbsp;Rick was assigned to these tasks in error, but you are not sure who the they need to be assigned to at this time. You need to unassign Rick to all the tasks at the same time. You can use the Unassign function to remove Rick from these tasks.
+* 10 tasks across 2 different projects are assigned to another user, Rick Kuvec. You realize that Rick was assigned to these tasks in error, but you are not sure who the they need to be assigned to at this time. You need to unassign Rick to all the tasks at the same time. You can use the Unassign function to remove Rick from these tasks.
 
 ## Assign work in bulk in the Workload Balancer
 
 1. Go to the Workload Balancer where you want to assign work.
 
-   You can assign work to users using the Workload Balancer in the Resourcing area, at the project, or at the team level. For more information about where the Workload Balancer is located in&nbsp;Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   You can assign work to users using the Workload Balancer in the Resourcing area, at the project, or at the team level. For more information about where the Workload Balancer is located in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-   >[!IMPORTANT]
-   >
-   >**You cannot view or assign issues from the Unassigned Work area. You can only reassign issues already assigned to users in the Assigned Work area. Otherwise,** you can assign issues from a list or at the issue level. For information, see [Assign issues](../../manage-work/issues/manage-issues/assign-issues.md).
 
-1. Click **Bulk Assignments** ![](assets/bulk-assignments-wb.png)at the top of the Workload Balancer.
+1. Click **Bulk Assignments** ![](assets/bulk-assignments-wb.png) at the top of the Workload Balancer.
 
    The Bulk Assignments panel opens to the right of the Workload Balancer. 
 
-1. (Conditional)&nbsp;If you are accessing the Workload Balancer from the Resourcing area or for a team, expand the **Project: Name** drop-down menu to select the project or projects that you want to make assignments for. You can select projects by name (this is the default option) or by status.
+1. (Conditional) If you are accessing the Workload Balancer from the Resourcing area or for a team, expand the **Project: Name** drop-down menu to select the project or projects that you want to make assignments for. You can select projects by name (this is the default option) or by status.
 
    >[!NOTE]
    >
@@ -102,18 +100,13 @@ If you still don't have access, ask your Workfront administrator if they set add
 
    >[!TIP]
    >
-   >Leave this selection blank if you want to make bulk assignments for issues as well as tasks.   >
-   >
-   ><!--   >
-   ><span style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"></span>   >
-   >-->   >
-   >
+   >Leave this selection blank if you want to make bulk assignments for issues as well as tasks.
 
-1. (Optional)&nbsp;Click the **Delete** icon ![](assets/delete.png) next to one of the selected criteria
+1. (Optional) Click the **Delete** icon ![](assets/delete.png) next to one of the selected criteria
 
    Or
 
-   Click **Clear all** in the upper-right corner of the Bulk&nbsp;Assignments panel to remove all selections. 
+   Click **Clear all** in the upper-right corner of the Bulk Assignments panel to remove all selections. 
 
 1. Select one of the following options and continue with the steps described below:
 
