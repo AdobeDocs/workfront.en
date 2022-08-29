@@ -461,19 +461,166 @@ This action module cherry picks a commit to a given branch.
    </tbody> 
 </table>
 
+#### Create a new label
 
+This action module creates a new label for the given repository.
 
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project that you are creating a label for.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Name</td> 
+   <td> Enter or map a name for the new label</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Color</td> 
+   <td>Enter the color in 6 digit hex notation with a leading # sign.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Description</td> 
+   <td>Enter or map a description for the new label</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Priority</td> 
+   <td>Enter or map the priority of the label. Must be greater than or equal to zero. To remove priority, or to not set priority, leave this field blank. </td> 
+   </tr> 
+   </tbody> 
+</table>
 
+#### Create a new pipeline
 
+This action module creates a new pipeline for the given project.
 
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project that you are creating a pipeline for.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Commit Ref</td> 
+   <td>Select the branch or tag to run the pipeline on. To select a reference, click <b>Select</b> and fill in the type of reference, the reference's name, and the dates that you want to search for. </td> 
+   </tr> 
+</table>
 
+#### Create a new release
 
+This action module adds release notes to the existing git tag.
 
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project that you are creating a release for.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Tag name</td> 
+   <td>Enter or map the name of the tag that the release is created from. </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Description</td> 
+   <td>Enter or map a description for the release. You can use Markdown in this description.</td> 
+   </tr> 
+</table>
 
+#### Create a new tag
 
+This action module creates a new tag in the repository that points to the supplied ref.
 
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project that you are creating a tag for.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Tag name</td> 
+   <td>Enter or map the name of the new tag. </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Ref Type</td> 
+   <td><p>Select the ref that you are using to create the tag</p><ul><li><p>Branch</p><p>Select the branch that you want to use for this tag.</p></li><li><p>Commit</p><p>Enter or map the commit SHA that you want to use for this tag.</p></li><li><p>Tag</p><p>Enter or map the name of the tag that you want to create this new tag from.</p></li></td> 
+   <tr> 
+   <td role="rowheader">Message</td> 
+   <td>To create an annotated tag, enter a message. An annotated tag is an unchangeable part of Git history.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Release description</td> 
+   <td>To add release notes to the Git tag and store it in the GitLab database, add a release description. </td> 
+   </tr> 
+   </tr> 
+</table>
 
+#### Create a todo
 
+This action module creates a todo for the current user on the selected issue. The current user is the user identified by the credentials on the connection used for this module.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project that you are creating a todo for.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Issue ID</td> 
+   <td>Enter or map the ID of the issue that you want to create a todo for. </td> 
+   </tr> 
+   </table>
+
+#### Create a todo on a merge request
+
+This action module creates a todo for the current user on the selected merge request. The current user is the user identified by the credentials on the connection used for this module.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project that you are creating a todo for.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Merge request ID</td> 
+   <td><p>Enter or map the ID of the merge request that you want to create a todo for. </p><p>To locate a specific merge request, click <b>Search</b>, select the state of the merge request, and select the merge request from the list.</p> </td> 
+   </tr> 
+   </table>
 
 
 <!--
