@@ -3,7 +3,7 @@ content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Cost Performance Index (CPI)
-description: Calculate Cost Performance Index (CPI)
+description: The Cost Performance Index (CPI) describes the relationship at the project or task level between the planned cost and actual cost. Project Managers review this metric to identify tasks or projects currently tracking under or over cost at a given point.
 author: Alina
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
@@ -36,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Projects and Financial&nbsp;Data</p> <p> If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -62,7 +62,6 @@ Project managers understand that a CPI value of 1 means the project is exactly o
 | > 1 (greater than 1) |Under budget |
 | < 1 (less than 1) |Over budget |
 
-{style="table-layout:auto"}
 
 ### How CPI is calculated {#how-cpi-is-calculated}
 
@@ -71,7 +70,7 @@ In Adobe Workfront, the calculation for CPI depends on the Performance Index Met
 * [CPI calculations when using Hour-based PIM](#cpi-calculations-when-using-hour-based-pim) 
 * [CPI Calculations when using Cost-based PIM](#cpi-calculations-when-using-cost-based-pim)
 
-#### **CPI calculations when using Hour-based PIM** {#cpi-calculations-when-using-hour-based-pim}
+#### CPI calculations when using Hour-based PIM {#cpi-calculations-when-using-hour-based-pim}
 
 If 
 
@@ -99,7 +98,7 @@ CPI = 1
 
 For information about the total Budgeted Cost Work Performed (BCWP), see [Calculate Budgeted Cost Work Performed (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
-#### **CPI Calculations when using Cost-based PIM** {#cpi-calculations-when-using-cost-based-pim}
+#### CPI Calculations when using Cost-based PIM {#cpi-calculations-when-using-cost-based-pim}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>CPI = (Planned Cost of Work Performed + Planned Cost of Incurred Expenses) / (Total Actual Cost + Actual Cost of Incurred Expenses) </code> </p>

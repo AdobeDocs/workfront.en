@@ -19,6 +19,12 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
 *   [Administrator enhancements](#Administ)
     
 *   [Project enhancements](#Project)
+
+*   [Agile enhancements](#Agile)
+
+*   [Release Management enhancements](#Release)
+
+*   [Other enhancements](#Other)
     
 
 ### Administrator enhancements
@@ -33,8 +39,62 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates and environments</span>
+                        <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Migration to Adobe Unified Experience</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release. After the release, all net new customers will be onboarded to both the Adobe Admin Console and Adobe Unified Experience.</p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Blueprints icon on the Main Menu now controlled through layout templates</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>System administrators can now add or remove the Blueprints icon on the Main Menu through layout template configuration. This provides greater control of who can browse the Blueprints catalog.</p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 25, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Task header customization</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>As a Workfront or group administrator, you can now customize the fields that display in the header of a task when you use a Layout Template. This update includes several enhancements, including the ability to remove or rearrange existing fields from the task header and add new, non-editable Task Overview fields.</p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 25, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -54,6 +114,21 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                         </ul>
                     </td>
                 </tr>
+                <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Custom form field calculation editor displays error information
+</a><span style="color: #ff0000;"> Coming soon to Production!</span></p></p> <p>Editing calculations for custom fields is now easier with helpful error information indicated directly in the calculation. While you are creating a calculated field in a custom form, errors are highlighted in pink. When you hover over the highlighted portion, a tooltip displays to describe what the problem is.</p>
+</td>
+    <td><b>Available on these dates:</b>
+                        <ul>
+                            <li>
+                                <p>Preview release: During the 22.3 release time frame <br /></p>
+                            </li>
+                            <li>
+                                <p>Production release:&#160;September 1, 2022</p>
+                            </li>
+                        </ul>
+                    </td> 
+  </tr>
             </tbody>
         </table>
 
@@ -69,8 +144,52 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates and environments</span>
+                        <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Smart user selection for project roles in the Edit and Details areas</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>We have improved the way users display when you add them to the Project Owner, Project Sponsor, and Resource Manager project fields from the Edit box and the Details section of the project.</p>
+                        <p>Now, when you add a user to any of these fields in the Edit or Details areas, in addition to their name and avatar, we also display their Primary Role and their email. This helps distinguish between multiple users with similar or identical names.</p>
+                    </td>
+                    <td><b>Available on these dates:</b>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 25, 2022</p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Calculated date fields are always saved based on Coordinated Universal Time (UTC)</a> </p>
+                        <p>Now, you can be sure that all date functions in calculated fields work consistently and produce the same result for everyone, regardless of how a custom data expression is updated, or where users are collaborating on the object across the world. </p>
+                        <p>All calculations are now calculated and saved by one standard— Coordinated Universal Time (UTC)—not by the time zone configurations set for your organization's instance and your individual user profile. However, calculations are displayed in a custom form based on each users' individual time zones set in their browser.</p>
+                        <p>Previously, time settings in calculations caused confusion when they varied in these situations:</p>
+                        <ul>
+                            <li>
+                                <p>If someone recalculated a calculated field expression using "Update previous calculations" on the form builder, date function results were determined by UTC time zone of your organization.</p>
+                            </li>
+                            <li>
+                                <p>If someone edited the object and that caused the calculated field expression to recalculate, date function results were determined by the user's local time zone. Calculated date field results in this scenario will also be calculated based on the UTC.</p>
+                            </li>
+                        </ul>
+                        <p>For more information, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref" xrefformat="{para}">Working across timezones</a>.</p>
+                    </td>
+                    <td><b>Available on these dates:</b>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 18, 2022</p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -113,11 +232,97 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md" class="MCXref xref" xrefformat="{para}">Custom Form enhancements: Adobe XD and the Quick Filter</a>
+                        </p>
+                        <p>Based on your feedback, we've introduced the following enhancements to improve your experience when managing custom forms:
+
+</p>
+<ol>
+<li>Add an Adobe XD file to make a custom form more visual and informative. When the form is attached to an object, users who work with the object can view and interact with the XD file from within the form.
+</li>
+<li>Use the Quick Filter to easily locate items in the modernized custom forms and fields list. Also enjoy an improved look and feel while managing your forms and fields.
+</li>
+</ol>
+<p>After you add the team to the board, you can assign the team to cards. On connected cards, only one team assignment is allowed. On ad hoc cards, you can assign more than one team.
+</p>
+                    </td>
+                    <td>
+                        <p><b>Available on these dates:</b>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 4, 2022 <br /></p>
+                            </li>
+                            <li>
+                                <p>Production release:&#160;August 11, 2022</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>    
+
+### Agile enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Enhancements to checklist items on boards</a> </p>
+                        <p>Opening a checklist item on a card now allows you to add more detailed information about the item, including a description, due date, assignees, and estimation. You can also copy a checklist item, which was not available previously.</p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 17, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: August 25, 2022</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md" class="MCXref xref" xrefformat="{para}">Add a team to a board or card</a> </p>
+                        <p>You can now add a team as a member of the board. The individual team members are no longer added when you add a team to the board, though all of the team members have access to the board.</p>
+                        <p>After you add the team to the board, you can assign the team to cards. On connected cards, only one team assignment is allowed. On ad hoc cards, you can assign more than one team.
+                        </p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 4, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: August 11, 2022</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-july-18.md" class="MCXref xref" xrefformat="{para}">Work In Progress limit now available on board columns</a> </p>
                         <p>You can now set a Work In Progress (WIP) limit for any column on a board. When you enable a WIP limit, a counter appears on the column with the current number of cards and the limit. The counter turns red if the column contains more cards than the limit. This is simply a visual warning and you are not stopped from adding more cards than the limit.</p>
                     </td>
                     <td><b>Available on these dates:</b>
-                        <p><span style="color: #ff0000;">This feature is only available through the early feature opt-in for Workfront Boards.</span>
+                        <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
                         </p>
                         <ul>
                             <li>
@@ -136,8 +341,8 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                     </td>
                     <td>
                         <p><b>Available on these dates:</b>
-                        </p>
-                        <p><span style="color: #ff0000;">This feature is only available through the early feature opt-in for Workfront Boards.</span>
+                        <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+  </p>
                         </p>
                         <ul>
                             <li>
@@ -150,7 +355,53 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                     </td>
                 </tr>
             </tbody>
-        </table>    
+        </table>            
+
+### Resource Management enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Workload Balancer enhancements for Work-license users and Issue settings</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>The following enhancements have been added to the Workload Balancer, in preparation for the deprecation of the Scheduling tools:</p>
+                        <ul>
+                            <li>
+                                <p>Work-license users can now adjust allocations<br /></p>
+                            </li>
+                            <li>
+                                <p>Issues display in the Unassigned Work area when enabling the "Include hours from issues" setting.</p>
+                            </li>
+                        </ul>
+                        <p>Prior to these enhancements, only Plan-license users could adjust user allocations and issues displayed only in the Assigned Work area.</p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 25, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### Other enhancements
 
@@ -164,7 +415,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates and environments</span>
+                        <p><span class="bold">Release dates</span>
                         </p>
                     </td>
                 </tr>
@@ -184,14 +435,53 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                         </ul>
                     </td>
                 </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (Beta)</a> </p>
+                        <p>We are introducing a new object to Adobe Workfront that has the potential to change the way you manage work. </p>
+                        <p>Workfront Campaigns enables you to organize projects from different portfolios and programs in a new work container.
+Campaigns were released to Preview beta with the 22.3 release, in July 2022. For more information, see <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3 Project enhancements</a> </p>
+<p>This new container will evolve in future releases to connect work objects that are currently managed in separate silos.</p>
+<p>For more information about the Workfront Campaigns beta, as well as information about new features as they release to Preview, see <a href="../../../product-announcements/betas/campaign-object-beta.md" class="MCXref xref" xrefformat="{para}">Campaigns beta</a> </p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;Throughout the 22.4 release timeframe<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release:&#160;TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-7.md" class="MCXref xref" xrefformat="{para}">Expanded team description</a></p>
+                        <p>In the Teams area, you can now view the full team description by clicking the description to display it in a pop-up. Any URLs in the description are clickable in the pop-up, and you can click in the description text to edit it (if you have access to edit the team settings).</p>
+                        <p>Previously, scrolling through the description in a narrow area was the only way to see all of the content.</p>
+<p>This enhancement to the description applies to both agile and non-agile teams.</p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;August 11, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release:&#160;With the 22.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
             </tbody>
-        </table>    
+        </table>   
 
 ## Announcements
 
 ### Upgrade the Desktop Proofing Viewer to the latest version
 
-We have released a new version of the Desktop Proofing Viewer. This upgrade contains a technical change that requires all users to take action. The actions needed depend on each user’s operating system:
+We have released a new version of the Desktop Proofing Viewer. This upgrade contains a technical change that requires all users to take action. The actions needed depend on each user's operating system:
 
 *   Mac users must manually reinstall the Desktop Proofing Viewer to upgrade to the latest version. For help reinstalling, see  Install the Desktop Proofing Viewer. After it is reinstalled, future updates to the Desktop Proofing Viewer will be automatic.
     
@@ -235,3 +525,23 @@ The 22.4 release webinar is not yet scheduled. This page will be updated when mo
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
+
+### Functionality being removed with the 22.4 release
+
+The following features will be removed with the 22.4 release to Production:
+
+* List Controls (from the Interface area in Setup)
+
+>[!NOTE]
+>
+>The deprecation of List Controls has been postponed until after the 22.4 release. The deprecation date will be announced in future communications.
+
+
+* Resource Scheduler
+
+  The Workload Balancer is replacing the Resource Scheduler. For more information about the deprecation and how you can prepare to use the Workload Balancer, see the following resources:
+  * [Deprecation of Resource Scheduling tools in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
+
+  * [Migrate from Resource Scheduling to the Workload Balancer](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+
+* Zoom integration

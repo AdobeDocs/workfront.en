@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Connected cards on boards
+title: Use connected cards on boards
 description: You can add a card on your board that is connected to existing tasks and issues in Workfront.
 author: Lisa
 feature: Agile
@@ -94,9 +94,10 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr>
       <td role="rowheader"><strong>Assignees</strong></td>
-      <td><p>To assign more people to the card, start typing a name in the search field, then select it when it displays in the list.</p>
-      <p>Assignees must be members on the board or they will not appear in the selection list.</p>
-      <p>Any assignees you select are also assigned to the task or issue in Workfront.</p></td>
+      <td><p>To assign more people or a team to the card, start typing a name in the search field, then select it when it displays in the list. You can add both individuals and teams. Only one team assignment is allowed on a connected card.</p>
+      <p>Assignees must be members on the board or they will not appear in the selection list. When a team is a member on the board, then the individual team members can be assigned to the card.</p>
+      <p>Any assignees you select are also assigned to the task or issue in Workfront.</p>
+      <p>Adding a team is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Column</strong></td>
@@ -123,8 +124,8 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr> 
       <td role="rowheader"><strong>Checklist Items</strong> </td> 
-      <td> <p>Click <strong>Add checklist item</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>To delete an item, click the <strong>Delete</strong> icon <img src="assets/delete.png">.</p><p>For information about completing checklist items, see "Complete checklist items" in the article <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Add an ad hoc card to a board</a>.</p></td> 
-     </tr> 
+      <td> <p>Click <strong>Add checklist item</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p></td> 
+     </tr>
     </tbody> 
    </table>
 

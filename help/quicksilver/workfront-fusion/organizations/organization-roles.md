@@ -11,6 +11,12 @@ exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
 ---
 # Organization roles in Adobe Workfront Fusion
 
+This article describes the access and functionality available to the different organization roles in Workfront Fusion.
+
+>[!NOTE]
+>
+>Organization roles are separate from team roles in Workfront Fusion. For more information on team roles, see [Team Roles](../organizations/organizations-and-teams.md#team-roles-team-roles).
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
@@ -27,10 +33,9 @@ You must have the following access to use the functionality in this article:
     <td role="rowheader">Adobe Workfront license*</td> 
     <td> <p>Plan, Work</p> </td> 
    </tr>
-  --> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration,</p>  </td> 
+   <td> <p>Workfront Fusion for Work Automation</p> <p>Workfront Fusion for Work Automation and Integration</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -39,7 +44,7 @@ You must have the following access to use the functionality in this article:
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
    <td> 
-     <>You must be a Workfront Fusion administrator for your organization.</p>
+     <p>You must be a Workfront Fusion administrator for your organization.</p>
      <p>You must be a Workfront Fusion administrator for your team.</p>
    </td> 
   </tr> 

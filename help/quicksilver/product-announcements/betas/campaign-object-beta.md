@@ -11,13 +11,13 @@ exl-id: 941af6ed-edf7-4ad3-a426-831bd3c05297
 
 >[!NOTE]
 >
->The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaign] beta program. The functionality described here might not be fully available yet. 
+><span class="preview">The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaign] beta program. The functionality described here might not be fully available yet.</span> 
 
 <!--the note above needs to be updated with Production 22.4 - this was released to Preview in 22.3; notice that the note says PREVIEW BETA - it might remain in BETA for a while (Production) but you might be able to remove "Preview" after 22.4 - ???  -->
 
 [!DNL Adobe Workfront Campaigns] offer a new way to manage your work. As a new object in Workfront, a campaign enables you to organize projects from different portfolios and programs in a new work container that will evolve and which will eventually include all work objects that you are currently managing in separate silos.
 
-We are excited to open the [!UICONTROL Campaigns] area for public beta beginning with the 22.3 release.
+We are excited to open the [!UICONTROL Campaigns] area for public beta. This program started with the 22.3 release.
 
 The new [!UICONTROL Campaigns] area is currently under development.
 
@@ -25,16 +25,13 @@ For general information about campaigns, see [Campaigns overview](../../manage-w
 
 ## Release schedule
 
+Currently, the [!UICONTROL Campaigns] area is accessible only in the Preview environment and it is in the beta phase. The official dates for the Production beta release as well as for the final launch are to be determined. 
+
 * Public beta launch:
   * Preview beta launch: June 2022
-  * Production beta launch (for select customers): July 2022
-    
-    Contact your account representative if you would like to opt in for the Campaigns Beta in your Production environment. 
-  
-  * Production beta launch (for all customers): October 2022 (tentative)   
-  * Beta completion: December 2022 (tentative)
-* Final official release:
-  * Will be announced at a later date
+  * Production beta launch: To be determined   
+  * Beta completion: To be determined
+* Final official release: To be determined
 
 ## Features
 
@@ -42,48 +39,51 @@ The following features will release as part of a tiered product release plan. Fe
 
 Unless mentioned otherwise, the features listed in this table are available to everyone in the environment specified. 
 
-| Feature description or name                                                                               | Status                |
-|-----------------------------------------------------------------------------------------------------------|-----------------------|
-| Add the [!UICONTROL Campaigns] areas to the [!UICONTROL Main Menu], pins, and the landing page using a [!UICONTROL Layout Template] | Currently in Preview |
-| Customize the Campaigns name using a [!UICONTROL Layout Template]                                                      | Currently in Preview |
-| [!UICONTROL Campaigns] area in the [!UICONTROL Main Menu] of any user                                                               | Currently in Preview |
-| Create campaigns                                                                                          | Currently in Preview|
-| Edit campaigns                                                                                            | Currently in Preview |
-| Delete campaigns                                                                                          | Currently in Preview |
-| Add existing projects to a campaign                                                                                | Currently in Preview |
-| Add new projects to a campaign                                                                                | Planned |
-| Share campaigns                                                                                           | Planned               |
-| Manage campaign finances                                                                                  | Planned               |
-| Add custom forms to a campaign                                                                            | Planned               |
+| Features currently available in Preview beta|                                                                               
+|-----------------------------------------------------------------------------------------------------------|
+| Add the [!UICONTROL Campaigns] areas to the [!UICONTROL Main Menu], pins, and the landing page using a [!UICONTROL Layout Template] | 
+| Customize the Campaigns name using a [!UICONTROL Layout Template]                                                      | 
+| [!UICONTROL Campaigns] area in the [!UICONTROL Main Menu] of any user                                                               | 
+| Create campaigns |                                                                               | 
+| Delete campaigns                                                                                          | 
+| Edit campaigns|
+| Add existing projects to a campaign                                                                                | 
+| Add new projects to a campaign                                                                                | 
+| Add projects using a template to a campaign                                                                                | 
+| **Features planned for future releases** |
+| Share campaigns                                                                                           | 
+| Manage campaign finances                                                                                  | 
+| Add custom forms to a campaign                                                                            | 
+| Access campaigns from projects                                                                                | 
 
 
 ## Participate in the beta
 
 >[!NOTE]
 >
->The Campaigns Beta is available for all customers in the Preview environment. Involvement and participation in this beta program is voluntary and optional. 
+>The [!UICONTROL Campaigns] beta is available for all customers in the Preview environment. Involvement and participation in this beta program is voluntary and optional. 
 
 
 ### Availability
 
 <!--With production, add here that it will be available in preview for everyone but they need to call to get in in Prod if they want or wait till 22.4 / Oct to get it there-->
 
-The [!UICONTROL Campaigns] beta will be available to all customers. The [!UICONTROL Campaigns] area will be available in the [!UICONTROL Layout Templates ] and any system or group administrator can add it in the [!UICONTROL Set Main Menu] area of the layout template for other users. Once added, all users assigned to the layout template will be able to see the [!UICONTROL Campaigns] area in their [!UICONTROL Main Menu] and will be able to create campaigns.
+The [!UICONTROL Campaigns] beta is available to all customers. The [!UICONTROL Campaigns] area is available in the [!UICONTROL Layout Templates ] and any system or group administrator can add it in the [!UICONTROL Set Main Menu] area of the layout template for other users. Once added, all users assigned to the layout template will be able to see the [!UICONTROL Campaigns] area in their [!UICONTROL Main Menu] and will be able to create campaigns.
 
 For more information, see the [Participate in the beta](#participate-in-beta) section in this article.
 
 ### Participate in the beta
 
-Only system or group administrators can opt in to the beta on their own. All other users will be able to access the [!UICONTROL Campaigns] area after a system or group administrator has added it to their layout template.
+Only system or group administrators can opt in to the beta on their own. All other users can access the [!UICONTROL Campaigns] area after a system or group administrator has added it to their layout template.
 
 * [Participate as a system or group administrator](#participate-as-a-system-or-group-administrator) 
 * [Participate as a regular user](#participate-as-a-regular-user)
 
-#### **Participate as a system or group administrator**
+#### Participate as a system or group administrator
 
 As a system or group administrator, you can participate in the beta, or enable others to participate.
 
-1. In the [!UICONTROL **Main Menu**] ![](assets/main-menu-icon.png) , click [!UICONTROL **Setup**] > [!UICONTROL **Interface**] > [!UICONTROL **Layout Templates**].
+1. In the [!UICONTROL **Main Menu**] ![Main menu icon](assets/main-menu-icon.png), click [!UICONTROL **Setup**] > [!UICONTROL **Interface**] > [!UICONTROL **Layout Templates**].
 1. Click an existing layout template to edit it, or click [!UICONTROL **New Layout Template**] to create a new one.
 1. Click [!UICONTROL **Set Main Menu**], then click the **+** icon for the [!UICONTROL **Campaigns**] area  in the [!UICONTROL **Available items**] section to add it to the template.
 1. Click [!UICONTROL **Assign this to**] and add users, job roles, teams, or groups to assign users to the layout template, then click [!UICONTROL **Done**].
@@ -95,11 +95,11 @@ As a system or group administrator, you can participate in the beta, or enable o
     The [!UICONTROL Campaigns] list displays.
 1. Start using the [!UICONTROL **Campaigns**] area.
 
-#### **Participate as a regular user**
+#### Participate as a regular user
 
 After your system or group administrator has added the Campaigns area to your Main Menu, do the following:
 
-1. In the [!UICONTROL **Main Menu**] ![](assets/main-menu-icon.png), click the [!UICONTROL **Campaigns (beta)**] icon.
+1. In the [!UICONTROL **Main Menu**] ![Main menu icon](assets/main-menu-icon.png), click the [!UICONTROL **Campaigns (beta)**] icon.
 
     The [!UICONTROL Campaigns] list displays.
 1. Start using the [!UICONTROL **Campaigns**] area.

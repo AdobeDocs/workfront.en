@@ -160,7 +160,7 @@ To create a story from the backlog:
 
 1. Click **Save Story**.
 
-### **Assign a task or issue to an agile team** {#assign-a-task-or-issue-to-an-agile-team}
+### Assign a task or issue to an agile team {#assign-a-task-or-issue-to-an-agile-team}
 
 You can assign a task or issue to an agile team. After it is assigned, the task or issue appears as a new story on the team backlog.
 

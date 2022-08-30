@@ -3,7 +3,7 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
 title: Access needed to budget resources in Adobe Workfront
-description: '(LINKED TO PRODUCT: This is also linked to the product, in two different tooltips in the RP - EDIT ME.'
+description: You can view and manage information about resource planning for the projects that you have access to view when you have certain access level settings and the permissions for your work items, users, job roles, and teams. 
 author: Alina
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
@@ -20,7 +20,7 @@ exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
 </div>
 -->
 
-You can view resource budgeting information for the projects that you have access to view when your company has purchased an&nbsp;Adobe Workfront license that includes Resource Planning.
+When your company has purchased an Adobe Workfront license that includes Resource Planning you can view resource budgeting information for the projects that you have permissions to view. You can view budgeting information in the Resource Planner. 
 
 For additional information about prerequisites for using the budgeting tools in Workfront, see [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
@@ -49,13 +49,21 @@ In order to budget resources, manage Resource Pools, and see Cost information in
       </ul> <p>For information about the Resource Management access level, see the article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Grant access to Resource Management</a>.</p> </li> 
      <li> <p>Edit access to Projects and Users. </p> </li> 
      <li> <p> Edit access to Financial Data in your Access Level, if you need to view or manage information by&nbsp;Cost.</p> <p>For more information about the Financial Data access level, see the article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> 
+    
+  <p><b>NOTE</b> </p>
+  
+  <p> If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the project that include Manage Finance permissions.</p> <p>For information about project permissions, see the article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information about financial permissions on a project, see the article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Share financial permissions on an object</a></a>.</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> <p>Note: When budgeting resource in the Role view, if you have less than Manage permissions for at least one project listed under the role, you cannot budget hours, FTE, or Cost for the role. You can budget only the projects that you have Manage permissions for.</p> </td> 
+   <td> <p>Manage permissions on the project that include Manage Finance permissions.</p> <p>For information about project permissions, see the article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information about financial permissions on a project, see the article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Share financial permissions on an object</a></a>.</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">Request access to objects </a>.</p> 
+   
+   <p><b>NOTE</b> 
+   
+   When budgeting resource in the Role view, if you have less than Manage permissions for at least one project listed under the role, you cannot budget hours, FTE, or Cost for the role. You can budget only the projects that you have Manage permissions for.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.

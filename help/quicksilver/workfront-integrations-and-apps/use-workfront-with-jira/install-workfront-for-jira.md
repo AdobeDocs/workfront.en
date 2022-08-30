@@ -15,7 +15,7 @@ After installing the add-on, you can define workflows that create Jira issues au
 
 All users in Workfront and Jira can benefit from this integration. They only need a license for the system in which they work the most, and not for both systems.&nbsp;
 
-This add-on is available for the Server, Data Center, and OnDemand (or Cloud) versions of Jira Software.
+This add-on is available for the Server and OnDemand (or Cloud) versions of Jira Software. This add-on is not available for the Data Center version of Jira Software.
 
 For a list of Jira versions that Workfront for Jira currently supports, see [Workfront for Jira](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) at the Atlassian Marketplace.
 
@@ -69,7 +69,7 @@ To install Workfront for Jira:
 
    For more information, see [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-## Considerations for a Jira Server or Jira Data Center installation
+## Considerations for a Jira Server installation
 
 >[!NOTE]
 >

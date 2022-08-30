@@ -2,23 +2,23 @@
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Calculate goal progress in Adobe Workfront Goals
-description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+description: Goal progress is driven by progress indicators like activities, results, or children goals. 
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
 ---
 # Calculate goal progress in Adobe Workfront Goals
 
-Your organization must have the following to use the functionality described in this article:
+>[!NOTE]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
+>* An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-* An Adobe Workfront Goals license in addition to a Workfront license.
-
-  Contact your Workfront account manager to learn about a Workfront Goals license.
-
-  Workfront Goals is available only in the new Adobe Workfront experience.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 Adobe Workfront calculates goal progress automatically, based on the progress of its progress indicators.
 
 ## Prerequisites
@@ -31,12 +31,11 @@ You must have the following before you can start:
 
 After you activate a goal, Workfront Goals starts calculating its progress and displays the following progress indicators: 
 
-| Actual percent complete |How much of the goal has actually been completed so far. Workfront Goals calculates this value by averaging the percent complete of all progress indicators associated with the goal.  |
+|Progress indicator|Progress indicator description|
 |---|---|
+| Actual percent complete |How much of the goal has actually been completed so far. Workfront Goals calculates this value by averaging the percent complete of all progress indicators associated with the goal.  |
 | Expected percent complete |How much of the goal should be completed so far in order for the goal to complete on time. Workfront Goals calculates this value by looking at the Duration of the goal and the current moment in time. The goal should display this value at the current time, if it were to complete on time.  |
 | Progress  |A label that indicates whether the goal is on target to be completed on time, or if it is at risk or in trouble of not completing.  |
-
-{style="table-layout:auto"}
 
 * [Actual percent complete](#actual-percent-complete) 
 * [Expected percent complete](#expected-percent-complete) 
@@ -109,10 +108,10 @@ The table below lists the goal progress labels and the goal progress percentages
  <col> 
  <tbody> 
   <tr> 
-   <td>Goal progress name</td> 
-   <td>Goal progress definition</td> 
-   <td><strong>Goal progress percentage</strong> </td> 
-   <td>Color of percent complete bar</td> 
+   <td><b>Goal progress name</b></td> 
+   <td><b>Goal progress definition</b></td> 
+   <td><b>Goal progress percentage</b></td> 
+   <td><b>Color of percent complete bar</b></td> 
   </tr> 
   <tr> 
    <td>New</td> 

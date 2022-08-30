@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Move tasks
-description: You can move tasks in Adobe Workfront between the following objects - EDIT ME.
+description: You can move tasks to different projects or to different parent tasks in Adobe Workfront. 
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
@@ -36,7 +36,9 @@ You must have the following access to perform the actions in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -45,7 +47,7 @@ You must have the following access to perform the actions in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Move a task in a list
 
@@ -141,7 +143,20 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
      </tr> 
      <tr> 
       <td role="rowheader">Constraint</td> 
-      <td> <p>The task constraint is set to As Soon As Possible or As Late As Possible based on the project Schedule Mode setting.</p> <p> When selected, the current constraint of the task transfers with the task. </p> <p>Note: When moving or copying a task with date-specific constraints to another project and the constraint dates of the task are outside the dates of the new project, either the Task&nbsp;Constraint changes to As Soon as Possible or As Late as Possible or the Planned Start or Planned Completion dates of the projects are adjusted. Some examples of date-specific constraints are Must Start On, Must&nbsp;Finish On, Start No Earlier Than, Start No Later Than, etc. For information about task constraints and how task constraints or project dates can be affected, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a> and look for a specific constraint.</p> </td> 
+      <td> <p>The task constraint is set to As Soon As Possible or As Late As Possible based on the project Schedule Mode setting.</p> <p> When selected, the current constraint of the task transfers with the task. </p> 
+      <p><b>NOTE</b> 
+      
+      When moving or copying a task with date-specific constraints to another project and the constraint dates of the task are outside the dates of the new project, either the Task Constraint changes to As Soon as Possible or As Late as Possible or the Planned Start or Planned Completion dates of the projects are adjusted. 
+      
+      The following are examples of date-specific constraints:
+      <ul>
+      <li> Start On</li>
+      <li> Must Finish On</li>
+      <li> Start No Earlier Than</li>
+      <li> Start No Later Than</li>
+      </ul>
+      
+      For information about task constraints and how task constraints or project dates can be affected, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a> and look for a specific constraint.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Assignments</td> 
@@ -182,7 +197,6 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
     </tbody> 
    </table>
 
-1. &nbsp;
 1. (Optional) Click **Select Parent** in the left panel
 
    Or

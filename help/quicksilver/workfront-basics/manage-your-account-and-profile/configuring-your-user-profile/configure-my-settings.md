@@ -215,7 +215,7 @@ This section includes the following sub-sections:
 * [Job info](#job-info) 
 * [Contact info](#contact-info)
 
-#### **Basic info** {#basic-info}
+#### Basic info {#basic-info}
 
 This information should already be configured by your Workfront administrator. All the fields in this sub-section are required fields.
 
@@ -326,7 +326,8 @@ You can change any of the following in this sub-section:
  <tbody>
   <tr> 
    <td role="rowheader"><strong>Time Zone</strong> </td> 
-   <td>Specify your time zone. This controls the time shown in your outgoing email messages.</td> 
+   <td><p>Specify your time zone. This controls the time shown in your outgoing email messages.</p>
+       <p>The time zone also affects what displays in a PTO calendar report.</p></td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Email Locale</strong> </td> 

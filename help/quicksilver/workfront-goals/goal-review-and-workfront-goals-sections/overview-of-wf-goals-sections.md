@@ -3,23 +3,24 @@ content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
 title: Overview of the Adobe Workfront Goals sections
-description: Your organization must have the following to use the functionality described in this article - EDIT ME.
+description: You can access lists of goals or individual goals and manage them from several sections of Adobe Workfront Goals. Which section you use depends on the purpose you want to achieve when you are working with goals.
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
 ---
 # Overview of the Adobe Workfront Goals sections
 
-Your organization must have the following to use the functionality described in this article:
+>[!NOTE]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
+>* An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>  Contact your Workfront account manager to learn about a Workfront Goals license.
+>
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-* An Adobe Workfront Goals license in addition to a Workfront license.
-
-  Contact your Workfront account manager to learn about a Workfront Goals license.
-
-  Workfront Goals is available only in the new Adobe Workfront experience.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 After your Workfront administrator has granted you access to Workfront Goals, you can view goals that you or anyone else in your organization created in the Workfront Goals area.
 
 You can access lists of goals or individual goals and manage them from several sections of Workfront Goals. Which section you use depends on the purpose you want to achieve as you are working with goals.

@@ -54,7 +54,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -114,10 +114,12 @@ Consider the following when assigning multiple resources to a work item:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
    * (Conditional) Click one of the names in the **Suggested Assignments** list 
-   * Click&nbsp;**Assign to me** to assign it to yourself
+   * Click**Assign to me** to assign it to yourself
    * Click **Advanced**
 
      Creating advanced assignments is similar for tasks and issues. For information about how to make advanced assignments, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+
+     <!--drafted for unique identifier story for 22.4 and yellow - make this a TIP:  <span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>-->
 
 1. Click **Save** to complete assigning the issue. 
 1. (Optional)&nbsp;Click the **X icon** next to the name of the assignments in the Assignments area on the header of the issue to remove an assignment.
@@ -128,12 +130,11 @@ You can assign issues in a list or a report when any of the assignments fields a
 
 Depending on which field is visible in the view you can assign the following entities to the issue: 
 
-| **Assign To** |Assign one user  |
+| Option |Assignment  |
 |---|---|
+| **Assign To** |Assign one user  |
 | **Assigned** |Assign one user |
 | **Assignments** |Assign users, job roles, or a team.  |
-
-{style="table-layout:auto"}
 
 To assign issues in a list:
 
@@ -147,6 +148,8 @@ To assign issues in a list:
    * Click inside the **Assignments** field and start typing the name of an active user, job role, or active team that you want to assign to the issue, then click it when it displays in the list.
 
      ![](assets/assignments-field-task-list-nwe.png)
+
+     <!--drafted for unique identifier story for 22.4 and yellow - turn this into a TIP AND UPDATE SCREEN SHOT BELOW:  <span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>--> 
 
 1. (Conditional) When visible in the Assignments field, click the **People icon** ![](assets/teams.png) in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 

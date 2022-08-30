@@ -148,7 +148,7 @@ For more information about the information displayed in the Portfolio Optimizer,
 
   ![](assets/alignment-score-in-portfolio-optimizer-nwe-350x97.png)
 
-#### **Locate the Alignment Score of the project in the Portfolio Optimizer** {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
+#### Locate the Alignment Score of the project in the Portfolio Optimizer {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then **Portfolios**. 
 

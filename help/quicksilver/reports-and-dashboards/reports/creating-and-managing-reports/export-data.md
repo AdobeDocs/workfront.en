@@ -12,13 +12,16 @@ exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
 You can export Adobe Workfront data from various lists, reports, dashboards, and searches. 
 The information in this article does not apply to the following exports:
 
-* Exporting information from chart reports.  
+* Exporting information from chart reports.
+
   For more information about exporting a chart report, see [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-* Exporting information from the Gantt chart.  
+* Exporting information from the Gantt chart.
+
   For more information about exporting the Gantt chart, see [Export the Gantt Chart to PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
 
-* Exporting information from the Resource Planner.  
+* Exporting information from the Resource Planner.
+
   For more information about exporting the information from the Resource Planner, see "Export Option" in [Resource Planner navigation overview](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 Some of the reasons to export data are:
@@ -26,7 +29,7 @@ Some of the reasons to export data are:
 * You want to provide a hard copy of your data to someone outside of Workfront.
 * You want to send the results of a report as an attachment to an external user.
 * You want to create an external back-up of your Workfront data.
-* There is a limit to display only 2,000 results on one page inside the Workfront web application. If your report produces more than 2,000, you can export the report to any of the&nbsp;below-mentioned formats and get view all the results in the report in one list.
+* There is a limit to display only 2,000 results on one page inside the Workfront web application. If your report produces more than 2,000, you can export the report to any of the below-mentioned formats and get view all the results in the report in one list.
 
 You can either export a report manually, from the Workfront interface, or you can schedule a delivery for a report and that report will be sent to you at a later time. For more information on scheduling delivered reports, see [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
@@ -91,33 +94,38 @@ Information can be exported in the following formats:
 
 There are several limitations around the way reports display in Workfront as well as the way they export through a manual export, a delivered report, or through the API.
 
-* **50,000 rows:** The number of rows of data allowed in a report export for .pdf and Tab Delimited files.  
-  For Excel .xls files, this limit is **65,000 rows**.  
-  For Excel .xlsx files, this limit is **100,000 rows**.  
-  These limits exclude the column headings, as well as rows for groupings in the report. For instance, if you have 6 groupings in a report, and 50,000&nbsp;rows or data, the exported file will have 50,000&nbsp;rows.
+* **50,000 rows:** The number of rows of data allowed in a report export for .pdf and Tab Delimited files.
+
+  * For Excel .xls files, this limit is **65,000 rows**.  
+  * For Excel .xlsx files, this limit is **100,000 rows**.  
+  * These limits exclude the column headings, as well as rows for groupings in the report. For instance, if you have 6 groupings in a report, and 50,000&nbsp;rows or data, the exported file will have 50,000&nbsp;rows.
 
   >[!NOTE]
   >
   >If your report has more items than these limits, you receive an error that the export is not successful. Reduce the number of items you see on the screen to a number less than or equal to these limits to be able to export the results.
 
-  If your report has more than 50,000/ 65,000/ 100,000 rows and you want to export all the data, we suggest that you use filters or prompts to obtain smaller loads&nbsp;of data, and perform multiple exports.  
+  If your report has more than 50,000/ 65,000/ 100,000 rows and you want to export all the data, we suggest that you use filters or prompts to obtain smaller loads&nbsp;of data, and perform multiple exports.
+
   For information on using filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).  
+  
   For information about using prompts, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 * These limits apply to:
 
-   * A manual export of a report.
-   * A scheduled report.
-   * An export through an API integration.
-   * Data exported through a kick-start.  
-     For more information about exporting data via kick-starts, see [Export data from Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)   
-   
-     >[!NOTE]
-     >
-     >You can export 50,000 rows in a kick-start file, although you can export the data only to an Excel format file.&nbsp;
+  * A manual export of a report.
+  * A scheduled report.
+  * An export through an API integration.
+  * Data exported through a kick-start.  
 
-   * Exporting utilization information for a project.  
-     For more information about exporting utilization information for a project, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project) in [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+    For more information about exporting data via kick-starts, see [Export data from Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)   
+   
+    >[!NOTE]
+    >
+    >You can export 50,000 rows in a kick-start file, although you can export the data only to an Excel format file.&nbsp;
+
+  * Exporting utilization information for a project.
+
+    For more information about exporting utilization information for a project, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
 * **10MB file size:** File size limit for any exported report scheduled for delivery. If an exported file attached to an email is larger than 5MB, a link where the file can be downloaded is emailed instead of the attached exported report.
 * **65,530 hyperlinks:** This is a limit imposed by Excel on documents that contain more than 65,530 hyperlinks. These documents cannot be opened when they are exported manually, or sent in a delivered report. Note that an Excel document may have just 200 rows of data, but if there are more than 65,530 links inside the document, the document does not open. This limit exists on Excel files only, not on the other supported formats.&nbsp;
@@ -150,8 +158,7 @@ If you have concerns or issues regarding your limit, please contact Workfront Te
    >[!NOTE]
    >
    >To export a Dashboard report, you must have a Plan license.  
-   >![](assets/nwe-dashboard-export-note-350x271.png)   >
-   >
+   >![](assets/nwe-dashboard-export-note-350x271.png)
 
    Or
 
@@ -196,7 +203,7 @@ Whether you export a list of objects or a report, your exported file will have a
 * [File names for exported lists](#file-names-for-exported-lists) 
 * [File names for exported reports](#file-names-for-exported-reports)
 
-#### **File names for exported lists** {#file-names-for-exported-lists}
+#### File names for exported lists {#file-names-for-exported-lists}
 
 When you export a list of objects, the type of the object is displayed on the exported file in the file name and in the title of the list.
 
@@ -204,24 +211,21 @@ When you export a list of task or issues, the **File Name** can be one of the fo
 
 * When you export Task and Issue Lists in a Project:
 
-   * *The_project_name_Exported_Tasks*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
-   
-   * *The_project_name_Exported_Issues*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
+  * *The_project_name_Exported_Tasks*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
+  * *The_project_name_Exported_Issues*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
 
 * When you export Task and Issue Lists in a Task (subtasks):
 
-   * **The_project_name_the_task_name_Exported_Tasks**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
-   
-   * **The_project_name_the_task_name_Exported_Issues**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
+  * **The_project_name_the_task_name_Exported_Tasks**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
+  * **The_project_name_the_task_name_Exported_Issues**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
 
 When you export a list of any other objects from a project to a PDF file, the file name of the exported document indicates the type of objects you exported.  
 For example, the file name may be:
 
 * *Exported_Users*, when exporting the People tab on the project(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
-
 * *Exported_Risks*, when exporting a list of Risks on the project(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
 
-#### **File names for exported reports** {#file-names-for-exported-reports}
+#### File names for exported reports {#file-names-for-exported-reports}
 
 When you export a report, the file name of the exported report is:
 
@@ -234,7 +238,7 @@ When you export a list of objects, only the file in the PDF format will have a t
 * [Titles for exported lists](#titles-for-exported-lists) 
 * [Titles for exported reports](#titles-for-exported-reports)
 
-#### **Titles for exported lists** {#titles-for-exported-lists}
+#### Titles for exported lists {#titles-for-exported-lists}
 
 When you export Task and Issue&nbsp;Lists in a Project to a PDF file, the title of the exported document is one of the following:
 
@@ -252,7 +256,7 @@ For example, the title may be:
 * *Exported Users*, when exporting the People tab on the project.
 * *Exported Risks*, when exporting a list of Risks on the project.
 
-#### **Titles for exported reports** {#titles-for-exported-reports}
+#### Titles for exported reports {#titles-for-exported-reports}
 
 A report which is exported to a PDF file will have a title.
 
@@ -295,16 +299,14 @@ Links can point to any object in Workfront that supports linking. When you expor
 
 >[!TIP]
 >
->If the line >
->```>
->valueformat=HTML
->```>
->appears in text mode for a custom field column and the link values do not display in an exported .pdf file, you need to enter additional lines of code to your column in text mode.  
->For example, if you have a custom field called Open Q1 Projects that contains links, you would add the following code:  
+>If the line `valueformat=HTML` appears in text mode for a custom field column and the link values do not display in an exported .pdf file, you need to enter additional lines of code to your column in text mode.
 >
->```>
->link.url=customDataLabelsAsString(Open Q1 Projects)<br>linkedname=direct
->```>
+>For example, if you have a custom field called Open Q1 Projects that contains links, you would add the following code: 
+>
+>```
+>link.url=customDataLabelsAsString(Open Q1 Projects)
+>linkedname=direct
+>```
 
 When you export to an Excel format, only links to objects within Workfront are included in the exported file and they are only supported in places where you can select to allow links in exported Excel documents, such as report deliveries.
 

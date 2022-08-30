@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
 title: Plan a project
-description: For information about project information, the Project Team, and how to plan a project, see the following articles - EDIT ME.
+description: The following articles contain information about projects, the Project Team, and how to plan a project. 
 author: Alina
 feature: Work Management
 exl-id: 67fddb92-4b8a-4628-9b50-a10a806e49d1

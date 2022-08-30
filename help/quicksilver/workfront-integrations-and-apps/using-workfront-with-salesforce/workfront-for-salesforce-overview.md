@@ -10,9 +10,11 @@ exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
 ---
 # Adobe Workfront for Salesforce overview
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 A Pro Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)
 
-You can install Adobe Workfront for Salesforce to allow your Salesforce users to submit Workfront requests and automatically create projects without ever leaving Salesforce.&nbsp;
+You can install Adobe Workfront for Salesforce to allow your Salesforce users to submit Workfront requests and automatically create projects without ever leaving Salesforce.
 
 As a Workfront administrator, you can download and configure Workfront for Salesforce. Then, you can share it will all other Salesforce users.
 
@@ -62,7 +64,10 @@ Consider the following when working with Workfront for Salesforce:
 
   For a list of Workfront fields that you can view from Salesforce, see  [Submit Adobe Workfront requests from Salesforce objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)&nbsp; and [Create Adobe Workfront projects from Salesforce objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
 
-* You can directly Go to the Salesforce items from Workfront.  
+* You can directly access items linked to Salesforce by clicking the **Go to the Salesforce** link from Workfront.  
 
   You cannot view any information about the Salesforce items in Workfront, but you have a link to the Salesforce item from Workfront to review it in Salesforce. 
+
+  [!UICONTROL The **Go to Salesforce**] link displays either in the Details section of a project, <span class="preview">or in the project header. Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the Go to Salesforce link in the project header.</span> 
+
 * Updating fields on one item in one application does not update any information on linked items in the other application.

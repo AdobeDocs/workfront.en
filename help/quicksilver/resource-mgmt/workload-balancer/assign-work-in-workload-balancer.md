@@ -28,14 +28,16 @@ You must understand how Workfront calculates the available time for a user.
 
 Workfront uses the following information to calculate the capacity of the user in the Workload Balancer:
 
-* The Resource Management Preferences. The Workfront administrator determines how the available time is calculated for the system by selecting to use one of the following in the Resource Management area in&nbsp;Setup:
+* The Resource Management Preferences. The Workfront administrator determines how the available time is calculated for the system by selecting to use one of the following in the Resource Management area in Setup:
 
-   * The Default Schedule of the system and the user's FTE. 
-   * The user's schedule.&nbsp;
+   * The Default Schedule of the Workfront system and the user's FTE. 
+   * The user's schedule, as indicated in the User Profile area. 
 
      This calculates the user's daily and weekly availability. Any schedule exceptions on the schedule selected are reflected in the user's capacity in the Workload Balancer.
 
   For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+  For information about schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
 * The user's time off. This indicates which days the user is planning to take off.
 
@@ -65,11 +67,11 @@ For information about unassigning work, see [Unassign work in the Workload Balan
 
 ## Assignment areas in the Workload Balancer
 
-You can assign work to users using the Workload Balancer in the Resourcing area, at the project, or at the team level. For more information about where the Workload Balancer is located in&nbsp;Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+You can assign work to users using the Workload Balancer in the Resourcing area, at the project, or at the team level. For more information about where the Workload Balancer is located in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 There are two areas in the Workload Balancer where you can view work items:
 
-* **Unassigned Work**:&nbsp;displays items that are not assigned to users.
+* **Unassigned Work**: displays items that are not assigned to users.
 * **Assigned Work**: displays items that are assigned to users.
 
 The following table describes which items display in each area based on their assignments:
@@ -144,11 +146,11 @@ Consider the following when assigning multiple resources to a work item:
 * Users can have more than one job role associated with their profile. For information about associating users with job roles, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Tasks or issues are usually first assigned to one or multiple job roles or to a team. When projects are ready to start, they might need to also be assigned to users.   
-  If a task or an issue is assigned to one or multiple roles and then you also assign a user, Adobe Workfront decides which job role to associate with the additional user (if any)&nbsp;according to the following rules:
+  If a task or an issue is assigned to one or multiple roles and then you also assign a user, Adobe Workfront decides which job role to associate with the additional user (if any) according to the following rules:
 
-   * If there is only one job role assigned and it matches the user's Primary Role, then the task or issue is assigned only to the user fulfilling their&nbsp;Primary Role. 
+   * If there is only one job role assigned and it matches the user's Primary Role, then the task or issue is assigned only to the user fulfilling their Primary Role. 
    * If there are multiple roles assigned and at least one of the roles matches the user's secondary roles, then the task or issue is assigned to the user fulfilling one of their Other Roles — which Workfront selects at random if there are multiple matches — as well as any additional roles that are assigned.
-   * If there is one or more job roles assigned and there are no matches to the user's roles, then the task or issue is assigned to both&nbsp;the role or roles as well as to the user.
+   * If there is one or more job roles assigned and there are no matches to the user's roles, then the task or issue is assigned to both the role or roles as well as to the user.
 
 * If a task or an issue is assigned to a team and you also assign a user, the task or issue remains assigned to both the team and the user.
 

@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: exchange-rates
-title: Set up exchange rates
+title: As an Adobe Workfront administrator, you can set up currency exchange rates in Workfront.
 description: Set up exchange rates
 feature: System Setup and Administration
 role: Admin
@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Project Preferences** > **Exchange Rates.** 
 
-1. Click**Add Currency.**
+1. Click **Add Currency.**
 1. Begin typing the name of the currency, then click it when it appears in the drop-down list.  
 
 1. In the provided field, specify the rate for the currency that you selected, as it relates to the currency that is set as the base currency in the system.
@@ -70,7 +70,7 @@ You must have the following access to perform the steps in this article:
 
    This is the currency that is used as the default for all projects and reports throughout the system.
 
-1. Click**Save** to save your changes. 
+1. Click **Save** to save your changes. 
 
 ## Enable users to modify the default currency for a project
 

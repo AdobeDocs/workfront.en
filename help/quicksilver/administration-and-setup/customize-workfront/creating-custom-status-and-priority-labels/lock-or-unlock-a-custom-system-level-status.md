@@ -20,11 +20,3 @@ Conversely, unlocking custom statuses allows group administrators more flexibili
 >If you lock a custom status after it has been unlocked for any period of time, your system-wide settings for the status replace those made by group administrators. While the status is locked, group administrators cannot modify or delete the status for their groups.
 
 For instructions on locking or unlocking a system-level status, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
-
-**Unlocked statuses in approval processes**
-
-* You can use both locked and unlocked statuses in a system approval process. If you create a system approval process with an unlocked system status, users throughout the system can attach the approval process to any project, task, or issue in the system.
-* Warning messages display in the following scenarios to help you and your users make sure you understand outcomes of the following scenarios:
-  * An administrator unlocks a system-level status that is used in an approval process. A message warns that group administrators might delete the unlocked status for their groups, which would prevent group members from using that approval process properly for objects assigned to their group. 
-  * A user starts to edit an approval process that uses an unlocked status. A message alerts the user about the unlocked status so they can evaluate whether it would be a good idea to re-lock or replace it. 
-  * A system-level approval process with an unlocked status is attached on an object, and the status was deleted for the group assigned to the object. When a group member goes to the Approvals section for the object, a message explains that the approval process can't be initiated for the object.

@@ -123,7 +123,7 @@ When an issue is the Resolvable Object of a task or a project, the changes in th
 * [Synchronize the Default Status of the Resolving Object with the Default Status of the Resolvable Object](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object) 
 * [Synchronize the Custom Status of the Resolving Object with the Custom Status of the Resolvable Object](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
 
-#### **Synchronize the Default Status of the Resolving Object with the Default Status of the Resolvable Object** {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
+#### Synchronize the Default Status of the Resolving Object with the Default Status of the Resolvable Object {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
 
 Regardless of whether the "Automatically set issue statuses to match the resolvable object using the Status keys" option is selected, every time the default status changes on the Resolving Objects (projects or tasks), the status of the Resolvable Object (issues) changes, accordingly. Only default statuses are already mapped to trigger such a change.
 
@@ -134,8 +134,6 @@ The following default statuses for tasks trigger the following changes in the de
 | New |New |
 | In Progress |In Progress |
 | Complete |Closed |
-
-{style="table-layout:auto"}
 
 The following default statuses for projects trigger the following changes in the default statuses for issues, when the issue is set as a Resolvable Object of a project. Some project statuses do not trigger changes to the status of the issues. The issues remain in the status they were before the project was turned into one of these statuses:
 
@@ -151,13 +149,11 @@ The following default statuses for projects trigger the following changes in the
 | Dead |Closed |
 | Completed |Closed |
 
-{style="table-layout:auto"}
-
 >[!NOTE]
 >
 >After the status of the issue becomes Closed (as a result of closing the task or the project), regardless of what status the task or project changes to after closing them, the issue remains Closed.
 
-#### **Synchronize the Custom Status of the Resolving Object with the Custom Status of the Resolvable Object** {#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object}
+#### Synchronize the Custom Status of the Resolving Object with the Custom Status of the Resolvable Object {#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object}
 
 When you change the status of the task or project to a custom status, the status of the issue changes to a custom issue status only if the following two conditions are met:
 

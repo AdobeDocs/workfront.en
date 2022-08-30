@@ -13,6 +13,10 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * 22.4 Release {#release-22-4}
       * [22.4 Release overview](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
+      * [22.4 Release activity: Week of August 22, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md)
+      * [22.4 Release activity: Week of August 15, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md)
+      * [22.4 Release activity: Week of August 7, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-7.md)
+      * [22.4 Release activity: Week of August 1, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md)
       * [22.4 Release activity: Week of July 18, 2022](product-announcements/product-releases/22.4-release-activity/22-4-july-18.md)
       * [22.4 Look and feel updates](product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md)
     * 22.3 Release {#release-22-3}
@@ -86,7 +90,11 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
-       * [Workfront Fusion release activity: Week of May 16, 2022](product-announcements/product-releases/fusion-release-activity/fusion-may-16-22.md)
+      * [Workfront Fusion release activity: Week of July 11, 2022](product-announcements/product-releases/fusion-release-activity/fusion-july-11-22.md)
+      * [Workfront Fusion release activity: Week of June 27, 2022](product-announcements/product-releases/fusion-release-activity/fusion-jun-27-22.md)
+      * [Workfront Fusion release activity: Week of June 20, 2022](product-announcements/product-releases/fusion-release-activity/fusion-jun-20-22.md)
+      * [Workfront Fusion release activity: Week of May 16, 2022](product-announcements/product-releases/fusion-release-activity/fusion-may-16-22.md)
+      * [Workfront Fusion release activity: Week of May 9, 2022](product-announcements/product-releases/fusion-release-activity/fusion-may-9-22.md)
       * [Workfront Fusion release activity: Week of April 25, 2022](product-announcements/product-releases/fusion-release-activity/fusion-apr-25-22.md)
       * [Workfront Fusion release activity: Week of April 18, 2022](product-announcements/product-releases/fusion-release-activity/fusion-apr-18-22.md)
       * [Workfront Fusion release activity: Week of March 21, 2022](product-announcements/product-releases/fusion-release-activity/fusion-mar-21-22.md)
@@ -452,6 +460,7 @@ feature-set: Workfront
       * [Create or edit a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
       * [Copy a custom form to create a new one](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
       * [Add a custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+      * [Add an image or other asset widget to a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
       * [Add a section break](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
       * [Access to custom fields](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
       * [Add calculated data](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
@@ -459,7 +468,6 @@ feature-set: Workfront
       * [Position custom fields and widgets](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
       * [Sharing for custom fields and widgets](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
       * [Reuse a custom field or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
-      * [Manage asset widgets in a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
       * [Add display logic and skip logic](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
       * [Share a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
       * [Preview and complete a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
@@ -485,7 +493,7 @@ feature-set: Workfront
       * [Locked and unlocked system-level statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)
       * [Make custom statuses default statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)
       * [Delete a custom status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
-      * [List objects with a pending approval processes using a certain status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
+      * [List pending objects using a certain status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
       * [Create and customize priorities](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
       * [Create and customize issue severities](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
     * Approval processes and milestone pages {#approvals-milestones}
@@ -525,7 +533,7 @@ feature-set: Workfront
       * [Email Notifications](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
       * [Configure event notifications](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
       * [Available event notification](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
-      * [View and manage event notifications](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
+      * [Unlock event notifications for all groups](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
       * [Event notification subject lines](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
       * [Modify users' email notification settings](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
       * [Reminder notifications](administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
@@ -562,9 +570,9 @@ feature-set: Workfront
     * Kick-Starts {#kick-starts}
       * [Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
       * [Export Workfront data via Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
-      * [Import data into Adobe Workfront using a Kick-Start template](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
+      * [Import data using a Kick-Start template](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
       * [Kick-Starts data importer](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)
-      * [Kick-Starts Scenario: Company and Group](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
+      * [Kick-Starts scenario: Company and group](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
       * [Kick-Starts scenario: Object import](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
       * [Kick-Starts FAQ](administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)
   * Manage groups {#manage-groups}
@@ -604,9 +612,9 @@ feature-set: Workfront
       * [Business Leader overview](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
     * Manage group statuses {#group-statuses}
       * [Manage group statuses](administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
-      * [Manage a group status](administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
+      * [Create or edit a group status](administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
       * [Reorder group statuses](administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md)
-      * [Use a custom status as a default status for a group](administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md)
+      * [Use a custom status as the default for a group](administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md)
       * [Unlock group configuration of statuses](administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md)
       * [How groups inherit statuses](administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md)
       * [Delete a group status](administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
@@ -705,8 +713,9 @@ feature-set: Workfront
       * [Export a list](workfront-basics/navigate-workfront/use-lists/export-lists.md)
       * [Inline edit items in a list in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
       * [Modify how a list displays](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
+    * [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
     * [Top navigation bar overview](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
-    * [Simplified left navigation](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
+    * [Left navigation in Adobe Workfront](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
     * [Summary overview](workfront-basics/the-new-workfront-experience/summary-overview.md)
     * [Breadcrumbs overview](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
     * [New object headers overview](workfront-basics/the-new-workfront-experience/new-object-headers.md)
@@ -860,13 +869,13 @@ feature-set: Workfront
     * [Boards early feature opt-in](agile/get-started-with-boards/boards-early-feature-opt-in.md)
     * [Use the boards dashboard](agile/get-started-with-boards/use-boards-page.md)
     * [Create or edit a board](agile/get-started-with-boards/create-edit-board.md)
-    * [Delete or archive a board](agile/get-started-with-boards/delete-archive-board.md
-)
+    * [Delete or archive a board](agile/get-started-with-boards/delete-archive-board.md)
     * [Add or remove members from a board](agile/get-started-with-boards/add-members-to-board.md)
     * [Manage board columns](agile/get-started-with-boards/manage-board-columns.md)
-    * [Add a card to a board](agile/get-started-with-boards/add-card-to-board.md)
+    * [Add an ad hoc card to a board](agile/get-started-with-boards/add-card-to-board.md)
     * [Use connected cards on boards](agile/get-started-with-boards/connected-cards.md)
     * [Manage cards](agile/get-started-with-boards/move-board-items.md)
+    * [Manage checklist items on cards](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
     * [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)
     * [Filter and search in a board](agile/get-started-with-boards/filter-search-in-board.md)
     * [Add tags](agile/get-started-with-boards/add-tags.md)
@@ -976,6 +985,10 @@ feature-set: Workfront
       * [Send a Document to Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
       * [Proof a linked asset for Experience Manager Assets or Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
       * [Create a folder linked with Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+    * Migrate from the legacy or enhanced connectors {#migrate-from-legacy-enhanced-connectors}
+      * [Migrate from the legacy or enhanced connector to Workfront for Adobe Experience Mangaer as a Cloud Service integration](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+     <!--- * [Unistall the Workfront with Adobe Experience Manager legacy connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md) -->
+     <!--- * [Uninstall the Workfront with Adobe Experience Manager enhanced connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md) -->
 * Manage Work {#manage-work}
   * [Manage work](manage-work/manage-work.md)
   * Projects {#projects}
@@ -1323,7 +1336,7 @@ feature-set: Workfront
     * [Work with team requests](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
     * [Team requests overview](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
     * [Manage work and team requests](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
-  * Tips, tricks, and troubleshooting for people, teams, and groups {#tips-tricks-people-teams-groups}
+  * Tips, tricks, and troubleshooting for teams and groups {#tips-tricks-people-teams-groups}
     * [Tips, Tricks, and Troubleshooting for Teams and Groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
     * [Username Already in Use](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Reporting {#reporting}
@@ -1517,7 +1530,7 @@ feature-set: Workfront
       * [Edit an existing calendar report](reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md)
       * [Delete a calendar report](reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
       * [Copy a calendar report](reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)
-      * [Add ad-hoc events to a calendar report](reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)
+      * [Add ad hoc events to a calendar report](reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)
     * Tips, tricks, and troubleshooting for reports {#troubleshooting-tips-tricks-reports}
       * [Tips, tricks, and troubleshooting for reports](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
       * [Reports FAQs](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
@@ -2087,6 +2100,7 @@ feature-set: Workfront
   * Adobe Workfront for Outlook {#workfront-for-outlook}
     * [Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
     * [Set up Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
+    * [Permissions levels for Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md) 
     * [Reply to a comment from Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
     * [Update an existing object from an Outlook email](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
     * [Add an Outlook email to a project as a task or an issue](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2471,6 +2485,7 @@ feature-set: Workfront
     * [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](wf-api/api/oauth-app-pkce-flow.md)    
     * [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
+    * [What's new in API version 15](wf-api/api/new-api-version-15.md)
     * [What's new in API version 14](wf-api/api/new-api-version-14.md)
     * [What's new in API version 13](wf-api/api/new-api-version-13.md)
     * [What's new in API version 12](wf-api/api/new-api-version-12.md)
@@ -2525,7 +2540,7 @@ feature-set: Workfront
     * [Category](wf-api/wf-objects/category.md)
   * Tips, tricks, and troubleshooting for Adobe Workfront API {#tips-troubleshooting-apis}
     * [Tips, tricks, and troubleshooting for Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
-    * [API Error: “The remote server returned an error: (400) Bad Request”](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
+    * [API Error: "The remote server returned an error: (400) Bad Request"](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
     * [Duplicates returned during a large paginated search](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
     * [Sorting query results in the API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
     * [Update to emailAddr does not update the username](wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
@@ -2537,7 +2552,7 @@ feature-set: Workfront
     * [Overview](proofhq-api/general/overview.md)
     * [Code Samples](proofhq-api/general/code-samples.md)
     * [SOAP API FAQs](proofhq-api/general/soap-api-faqs.md)
-
+* [Hidden file](hidden-test.md)
 
 <!--
 Moved and commented out sections from line 1477 - I believe the entire section is duped but need to verify

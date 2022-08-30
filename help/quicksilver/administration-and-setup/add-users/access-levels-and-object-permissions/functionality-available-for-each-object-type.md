@@ -36,7 +36,6 @@ Only users with a Plan license can be granted full access to projects.
 | Add document |✓ |✓ |✓ |&nbsp; |&nbsp; |
 | Add issue |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
 | Add tasks |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
-| View a project |✓ |✓ |✓ |✓ |&nbsp; |
 | Give updates/comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
 | Change status |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Log hours |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
@@ -76,7 +75,7 @@ Only users with a Plan license can be granted full access to projects.
 | Move a task |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
 | Log hours |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
 | Accept an assignment |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
-| Make an assignment |✓ |✓ |^only in in-line edit |^only in in-line edit |&nbsp; |
+| Make an assignment |✓ |✓ |Only in in-line edit |Only in in-line edit |&nbsp; |
 | Attach a custom form |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
 | Edit custom fields |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
 | Create an approval process |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
@@ -112,7 +111,7 @@ Only users with a Plan license can be granted full access to projects.
 | Convert an issue to a to task |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Accept assignments |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
 | Make assignments |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
-| Updates and comments |✓ |✓ |✓ |✓ |&nbsp; |
+| Add updates and comments |✓ |✓ |✓ |✓ |&nbsp; |
 
 
 
@@ -136,7 +135,7 @@ Only users with a Plan license can have full access to portfolios.
 | Approve projects |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Portfolio optimization |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Add documents |✓ |✓ |✓ |&nbsp; |&nbsp; |
-| Updates and comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Add updates and comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
 
 
 
@@ -160,13 +159,13 @@ Only users with a Plan license can have full access to programs.
 | Approve projects |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Portfolio Optimization |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Add documents |✓ |✓ |✓ |&nbsp; |&nbsp; |
-| Updates and comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Add Add updates and comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
 
 
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-## Reports
+## Reports, dashboards, and calendars
 
 Users with a Plan license can have full access to reports. All other Access Levels have View access to reports.
 
@@ -192,20 +191,7 @@ Users with a Plan license can have full access to reports. All other Access Leve
 
 ## Filters, views, and groupings
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>Add rows for the following? Alina recommended the first four but Gevorg wants the info limited to what the Access Levels UI covers.</p>
-<p>View reports*</p>
-<p>Build reports*</p>
-<p>Edit reports*</p>
-<p>Share reports*</p>
-<p>Export lists</p>
-<p>Apply quick filters to lists</p>
-<p>* Requires access to reports</p>
-</div>
--->
-
-<table border="2" cellspacing="15" cellpadding="1"> 
+<table> 
  <col> 
  </col> 
  <col> 
@@ -301,7 +287,7 @@ Users with a Plan license can have full access to reports. All other Access Leve
 | Edit custom fields |✓ |✓ |✓ |✓ |&nbsp; |
 | Move to (object) |✓ |✓ |✓ |✓ |&nbsp; |
 | Send to (integration) |✓ |✓ |✓ |✓ |&nbsp; |
-| Updates and comments |✓ |✓ |✓ |✓ |&nbsp; |
+| Add updates and comments |✓ |✓ |✓ |✓ |&nbsp; |
 | Upload new version |✓ |✓ |✓ |✓ |&nbsp; |
 | Delete a version |✓ |✓ |✓ |✓ |&nbsp; |
 | Preview |✓ |✓ |✓ |✓ |✓ |

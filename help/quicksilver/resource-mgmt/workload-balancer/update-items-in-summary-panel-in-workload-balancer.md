@@ -1,25 +1,21 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Update work items in the Workload Balancer using the Summary
-description: Update work items in the Workload Balancer using the Summary
+title: Update work items in the Workload Balancer using the Summary 
+description: You can open the Summary panel in the Workload Balancer to update work items in the Assigned and Unassigned Work areas. 
 author: Alina
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
 ---
-# Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience
+# Update work items in the Workload Balancer using the Summary
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is NWE&nbsp;only -- leave NWE in the title for NWE only articles to make it clear)</p>
--->
+<!--remove production and preview preferences at release-->
 
-The information on this page refers to functionality available only in the new Adobe Workfront experience and after your Adobe Workfront administrator has enabled this experience for you.
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 You can use the Summary panel of a task or an issue to update important information for that item. in the Workload Balancer.
 
->[!TIP]
->
->The Summary panel is available for tasks in both areas of the Workload Balancer and for issues in the Assigned Work area. Issues do not display in the Unassigned Work area.
+The Summary panel is available for tasks <span class="preview">and issues</span> in both the Assigned and Unassigned Work areas of the Workload Balancer.
 
 ## Access requirements
 
@@ -35,7 +31,8 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Plan, in the Production environment</p>
+   <p><span class="preview">Work, in the Preview environment</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -45,7 +42,7 @@ You must have the following:
      <li> <p>Projects</p> </li> 
      <li> <p>Tasks</p> </li> 
      <li> <p>Issues</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -76,11 +73,7 @@ You must have the following:
 
    Or
 
-   Click the **More** menu ![](assets/more-icon.png) to the right of a task or issue, then click&nbsp;Open&nbsp;Summary.
-
-   >[!TIP]
-   >
-   >This option is available for tasks in the Unassigned Work area and for tasks and issues in the Assigned Work area. This is not available for projects or users.
+   Click the **More** menu ![](assets/more-icon.png) to the right of a task or issue, then click **Open Summary**.
 
    The Summary panel opens on the right.
 

@@ -33,7 +33,7 @@ You must have the following access to perform the actions described in this arti
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>View or higher access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -50,13 +50,13 @@ You must have the following access to perform the actions described in this arti
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
 
 ## Print the goal list
 
@@ -66,7 +66,10 @@ You must have the following before you can start:
 >* When you do not expand the goals in the list before printing the list, the .pdf file displays only goals without their results and activities.
 >
 
-1. Click the **Main Menu icon** ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click **Goals**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
 
    This opens the Workfront Goals area.
 
@@ -76,7 +79,7 @@ You must have the following before you can start:
 
    For information about filtering information in the Goal List, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md). 
 
-1. Click&nbsp;**Print**. The Print box displays. 
+1. Click **Print**. The Print box displays. 
 1. (Conditional) Depending on the browser you are using and other applications you have installed on your computer, you can select from the following destinations:
 
    * Print to a printer
@@ -85,6 +88,6 @@ You must have the following before you can start:
    * Send the list of goals to another application (for example, One Note)
 
 1. (Optional) Adjust your printing options. 
-1. Click&nbsp;**Print**.
+1. Click **Print**.
 
    The list of goals is delivered to your selected destination.

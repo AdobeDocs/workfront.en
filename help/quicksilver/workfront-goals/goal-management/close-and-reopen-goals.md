@@ -2,7 +2,7 @@
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Close and reopen goals in Adobe Workfront Goals
-description: You can close a goal when you want to indicate the following - EDIT ME.
+description: You can close a goal when you want to indicate that you have completed it or that you are no longer working on it because it became obsolete. 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
@@ -36,7 +36,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>Edit access to Goals or higher</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -74,14 +74,17 @@ You must have the following before you can start:
 
 * Closing a goal removes it from your Check-in page, as you will no longer be responsible for updating the progress.
 * Check in on your goal to update its progress indicators before you close the goal to ensure the goal closes with an accurate progress value. If all progress indicators have been achieved then the goal percent complete should be 100% and your goal has been achieved. For information about checking in on your goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
-* Leave any final comments as an update to the goals that you close.&nbsp;For information about adding comments to goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
+* Leave any final comments as an update to the goals that you close. For information about adding comments to goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
 * You can no longer update the progress of results and activities on a goal you close. 
 * You can reopen a closed goal if you want to continue working on it. 
 * If the goal has not been achieved, consider copying most of its information to the next time period (quarter or year). This is a great option for goals that are the same from one time period to the next or goals that you may still need to work on achieving in the next timeframe.&nbsp;For information about copying goals, see [Copy goals in Adobe Workfront Goals](../../workfront-goals/goal-management/copy-goals.md).
 
 ## Close goals
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner of Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
 
    The Goal List opens. 
 
@@ -117,7 +120,10 @@ You can reopen closed goals if you decided that they have become relevant again 
 >
 >You can reopen closed goals from a past period.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner of Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
 
    The Goal List opens. 
 

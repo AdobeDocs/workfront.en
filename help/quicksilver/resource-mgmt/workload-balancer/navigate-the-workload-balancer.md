@@ -9,6 +9,10 @@ exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 ---
 # Navigate the Workload Balancer
 
+<!--drafted note for 22.4 release: remove all production/ preview references at Prod release-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 Use the Workload Balancer to understand the availability of your resources as well as to assign work to your users. This article walks you through using the icons and settings available to update the view for and navigate the Workload Balancer.
 
 >[!NOTE]
@@ -19,7 +23,7 @@ Use the Workload Balancer to understand the availability of your resources as we
 >
 >We recommend that you use the Workload Balancer for scheduling your resources.
 
-The Workload Balancer is available in multiple areas of Adobe Workfront. Navigating it is similar in all areas.&nbsp;This article describes how to navigate the Workload Balancer for multiple projects in the Resourcing area. For more information about where the Workload Balancer is located, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+The Workload Balancer is available in multiple areas of Adobe Workfront. Navigating it is similar in all areas. This article describes how to navigate the Workload Balancer for multiple projects in the Resourcing area. For more information about where the Workload Balancer is located, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 For information about managing resources using the Workload Balancer, also consider reading the following articles:
 
@@ -40,11 +44,12 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Plan, in the Production environment</p>
+   <p><span class="preview">Work, in the Preview environment</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;the following:</p> 
+   <td> <p>View or higher access to the following:</p> 
     <ul> 
      <li> <p>Resource Management</p> </li> 
      <li> <p>Projects</p> </li> 
@@ -108,7 +113,7 @@ The two areas of the Workload Balancer display the following information:
  <tbody> 
   <tr> 
    <td role="rowheader">Unassigned Work</td> 
-   <td> <p>This area displays tasks unassigned to users. It does not display issues. </p> <p>Projects display when the Group by Project setting is enabled.</p> <p>This area does not display any work items by default. We recommend using filters to display relevant information for you in this area.</p> <p>After you apply a filter, this area displays the following work items:</p> 
+   <td> <p>This area displays tasks <span class="preview">and issues</span> unassigned to users. </p> <p>Projects display when the Group by Project setting is enabled.</p> <p>This area does not display any work items by default. We recommend using filters to display relevant information for you in this area.</p> <p>After you apply a filter, this area displays the following work items:</p> 
     <ul> 
      <li>unassigned</li> 
      <li>assigned to a team </li> 
@@ -221,26 +226,23 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
      ![](assets/group-by-project-350x530.png)
 
-   * **Include hours from issues**: When this is selected, issues assigned to users display under the user's name in the Assigned Work area and the Planned Hours from the issues also display for the issues, the project, and the user.
+   * **Include hours from issues**: When this is selected, issues assigned to users display under the user's name in the Assigned Work area <span class="preview">and issues that are not assigned to users display in the Unassigned Work area</span>. The Planned Hours from the issues also display for the issues, the project, and, for the Assigned Work area, also for the user.
 
-     ![](assets/issue-on-workload-balancer-350x20.png)
+        ![](assets/issue-on-workload-balancer-350x20.png)
 
-     >[!TIP]
-     >
-     >Issues don't display in the Unassigned Work area of the Workload Balancer.
+   
+      * **Show Projected Dates**: When this is selected, the projected timeline of work items displays in addition to the planned timeline. Notice the following:
 
-   * **Show Projected Dates**: When this is selected, the projected timeline of work items displays in addition to the planned timeline. Notice the following:
+         * The projected timeline of project, tasks, and issues displays as a dark blue line above the task, issue, and project bars.
+         * The projected timeline that is outside of the planned timeline displays in light blue, even when you update the color theme, as described below.
+         * The projected timeline for the items that you have no access to view displays in light gray with a line underneath.
+         * When a task or issue completes before the due Planned Completion Date the allocation numbers for the remaining days are struck through and do not count towards the user's allocation. This displays only when both the Show Projected Dates setting and the Show allocation icon are enabled.
 
-      * The projected timeline of project, tasks, and issues displays as a dark blue line above the task, issue, and project bars.
-      * The projected timeline that is outside of the planned timeline displays in light blue, even when you update the color theme, as described below.
-      * The projected timeline for the items that you have no access to view displays in light gray with a line underneath.
-      * When a task or issue completes before the due Planned Completion Date the allocation numbers for the remaining days are struck through and do not count towards the user's allocation. This displays only when both the Show Projected Dates setting and the Show allocation icon are enabled.
+         ![](assets/task-issue-projected-timelines-350x91.png)
 
-     ![](assets/task-issue-projected-timelines-350x91.png)
-
-     >[!TIP]
-     >
-     >Notice that work items display in the Workload Balancer when either their planned or the projected timelines (not necessarily both at the same time) occur during the timeframe selected.
+         >[!TIP]
+         >
+         >Notice that work items display in the Workload Balancer when either their planned or the projected timelines (not necessarily both at the same time) occur during the timeframe selected.
 
    * **Show completed work**: When this is enabled, tasks and issues that are completed display in the Assigned Work area. This is enabled by default.
 
@@ -330,15 +332,11 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    Or
 
-   Click the **More** menu ![](assets/more-icon.png) to the right of a task or issue, then click&nbsp;Open&nbsp;Summary.
+   Click the **More** menu ![](assets/more-icon.png) to the right of a task or issue, then click **Open Summary**.
 
    For information about updating task information in the Summary in the Workload Balancer, see [Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
-   >[!TIP]
-   >
-   >This option is available for tasks in the Unassigned Work area and for tasks and issues in the Assigned Work area. This is not available for projects or users.
-
-   The Summary panel opens on the right. 
+    The Summary panel opens on the right. 
 
 1. Click **Bulk Assignments** to assign work items in bulk.
 
@@ -368,3 +366,5 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    >You cannot view initiative job role information if your organization has not purchased a license for the Workfront Scenario Planner. In this case, you can only view the planned hours associated with job roles on the project. For more information, see [Access needed to use the Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md).
 
 1. (Optional) Select **Scheduling** from the drop-down menu in the upper-left corner to access the scheduling area.
+
+<!--take the last step above out when we remove Scheduling from the system-->

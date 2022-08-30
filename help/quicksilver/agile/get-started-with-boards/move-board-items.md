@@ -69,6 +69,10 @@ You must have the following access to perform the steps in this article:
 
 ## Copy a card
 
+>[!NOTE]
+>
+>You can't copy connected cards.
+
 1. Access the board.
 1. Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **Copy**.
 

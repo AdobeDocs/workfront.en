@@ -4,23 +4,53 @@ product-area: projects
 keywords: analytics,metrics,project,enhanced,tasks,assignee,complete,status,overdue,upcoming
 navigation-topic: manage-projects
 title: Overview of project metrics
-description: To access the Metrics area from the left panel of a project, you must - EDIT ME.
+description: Project metrics give you a visualization of what is happening in a project, allowing you quickly assess the needs and status of a project. Find out how to interpret the Metrics area in the left panel of a project.
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
 ---
 # Overview of project metrics
 
->[!NOTE]
->
->To access the Metrics area from the left panel of a project, you must:
->
->* Have View access to a project.  
->  To learn how to request access to an object, see [Request access to objects](../../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
->
->* Have the Left panel option Metrics enabled in the Projects area of your Layout template.  
->  To learn how a Workfront administrator or group administrator can customize the left panel with a Layout Template, see [Customize the left panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).  
->
+Project metrics give you a general view in chart format about how a project is performing.
+
+## Access requirements
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>Review or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>View access to Projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a project</p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+## Prerequisites
+
+To access the Metrics area from the left panel of a project, you must:
+
+* Have the Left panel option Metrics enabled in the Projects area of your Layout Template.  
+
+  To learn how a Workfront administrator or group administrator can customize the left panel with a Layout Template, see [Customize the left panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).  
+
+## Overview of the project Metrics area
 
 Project metrics give you a visualization of what is happening in a project, allowing you quickly assess the needs and status of a project.
 
@@ -54,8 +84,6 @@ These KPIs are broken down into the following categories:
 | Incomplete tasks |**Incomplete tasks** shows the number of tasks that are not in a Complete or Closed status or a status that equates with Complete. |
 | Overdue tasks |**Overdue tasks** shows the number of tasks that are past the Planned Completion Date and are not in a Complete or Closed status or a status that equates with Complete or Closed. |
 | Total tasks |**Total tasks** shows the total number of tasks in the project. |
-
-{style="table-layout:auto"}
 
 >[!TIP]
 >
@@ -93,8 +121,6 @@ In the drop-down menu above the chart, you can select:
 |---|---|
 | All issues |Selecting **issues** shows you the total number of issues in the project, as well as the ratio between completed and incomplete issues. |
 
-{style="table-layout:auto"}
-
 >[!TIP]
 >
 >To display a list of work items that are completed or incomplete, click that section in the donut chart. In that list, you can click a specific work item to view more details in a new tab.  
@@ -114,8 +140,6 @@ You can choose to look at task assignments for a project in the following catego
 | Incomplete |Selecting **Incomplete** shows the number of tasks assigned to each user that have not been completed yet. |
 | Upcoming |Selecting **Upcoming** shows the number of tasks assigned to each user that have not yet reached the Planned Start Date. |
 | Overdue |Selecting **Overdue** shows the number of tasks assigned to each user that are past the Planned Completion Date and have not yet been completed. |
-
-{style="table-layout:auto"}
 
 >[!TIP]
 >

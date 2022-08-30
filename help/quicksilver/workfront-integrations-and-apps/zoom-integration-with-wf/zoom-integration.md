@@ -10,6 +10,10 @@ exl-id: fc15f105-ea8c-4b11-90f2-d736703a2241
 ---
 # Zoom integration
 
+>[!IMPORTANT]
+>
+>The Zoom integration will be deprecated with the 22.4 release (September 2022).
+
 This section contains the following articles:
 
 * [Zoom integration overview](../../workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md) 

@@ -138,6 +138,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
    >  ![](assets/colors-fields-expressions.jpg)
    >* Find calculation errors, highlighted in pink, as you go. You can hover over a highlighted error to display a brief description of its cause.
    >  ![](assets/error-help.png) 
+   >  **NOTE**: This functionality is currently unavailable.
    >* In the area below your calculation, preview the results on an existing Workfront object.
    ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
    >  ![](assets/preview-calc.jpg)
@@ -194,7 +195,7 @@ Each field must use the syntax explained below, with curly brackets around each 
 
 >[!NOTE]
 >
->Currently, the system makes suggestions only when you starting typing the name of a field you want to reference  on an object that the custom form will be attached to, not on the object's parent.
+>Currently, the system makes suggestions only when you starting typing the name of a field you want to reference on an object that the custom form will be attached to, not on the object's parent.
 
 ### Surround field names with curly brackets
 
@@ -285,3 +286,7 @@ Calculated custom fields on an object recalculate automatically when the followi
 * Something on the object changes, such as a daily timeline calculation.
 * Someone edits another field that is referenced by a calculated custom field on the object.
 * The calculated expression is empty and the field contains a value—this sets the value to null.
+
+   >[!NOTE]
+   >
+   ><div class="preview">In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved by Coordinated Universal Time (UTC), not by the time zone configurations set for your organization's instance and your user profile. Calculations in a custom form generate based on each users' individual time zones.</div>

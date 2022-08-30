@@ -42,7 +42,9 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Resource Management that includes access to&nbsp;Edit priorities and budget hours in the Resource Planner</p> <p>Edit access to Financial Data, Projects, and Users</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Resource Management that includes access to&nbsp;Edit priorities and budget hours in the Resource Planner</p> <p>Edit access to Financial Data, Projects, and Users</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -98,11 +100,15 @@ The following table illustrates how Available Cost is calculated in the Resource
  <tbody> 
   <tr> 
    <td>User Available Cost</td> 
-   <td> <p>The Available Cost per user is calculated using the following formula:</p> <p><code>Available User Cost = User Available Hours * User Cost per Hour Rate</code> </p> <p>Note:  If the user does not have a Cost per Hour rate in their profile, the Cost per Hour rate of the job role under which they are listed is used in the calculation. If the user has no role associated with them, the Available User Cost is $0. </p> </td> 
+   <td> <p>The Available Cost per user is calculated using the following formula:</p> <p><code>Available User Cost = User Available Hours * User Cost per Hour Rate</code> </p> <p><b>NOTE</b>
+   
+   If the user does not have a Cost per Hour rate in their profile, the Cost per Hour rate of the job role under which they are listed is used in the calculation. If the user has no role associated with them, the Available User Cost is $0. </p> </td> 
   </tr> 
   <tr> 
    <td>Role Available Cost</td> 
-   <td> <p>The Available Cost per role is calculated using the following formula:</p> <p><code>Available Role Cost = Role Available Hours * Role Cost per Hour Rate</code> </p> <p>Note:  If the role does not have a Cost per Hour rate, the Available Role Cost is $0.</p> </td> 
+   <td> <p>The Available Cost per role is calculated using the following formula:</p> <p><code>Available Role Cost = Role Available Hours * Role Cost per Hour Rate</code> </p> <p><b>NOTE</b>
+   
+   If the role does not have a Cost per Hour rate, the Available Role Cost is $0.</p> </td> 
   </tr> 
   <tr> 
    <td>Project Available Cost</td> 
@@ -324,11 +330,15 @@ The following table illustrates how Budgeted Cost is calculated in the Resource 
  <tbody> 
   <tr> 
    <td>User Budgeted Cost</td> 
-   <td> <p>The Budgeted Cost per user is calculated using the following formula:</p> <p><code>Budgeted User Cost = User Budgeted Hours * User Cost per Hour Rate</code> </p> <p> <p>Note:  If the user does not have a Cost per Hour rate in their profile, the Budgeted User Cost is $0.00.</p> </p> </td> 
+   <td> <p>The Budgeted Cost per user is calculated using the following formula:</p> <p><code>Budgeted User Cost = User Budgeted Hours * User Cost per Hour Rate</code> </p> <p> <p><b>NOTE</b>
+   
+   If the user does not have a Cost per Hour rate in their profile, the Budgeted User Cost is $0.00.</p> </p> </td> 
   </tr> 
   <tr> 
    <td>Role Budgeted Cost</td> 
-   <td> <p>The Role Budgeted Cost is calculated using the following formula:</p> <p><code>Role Budgeted Cost = Role Budgeted Hours * Role Cost per Hour Rate</code> </p> <p> <p>Note:  If the role does not have a Cost per Hour rate, the Budgeted Role Cost is $0.00.</p> </p> </td> 
+   <td> <p>The Role Budgeted Cost is calculated using the following formula:</p> <p><code>Role Budgeted Cost = Role Budgeted Hours * Role Cost per Hour Rate</code> </p> <p> <p><b>NOTE</b>
+   
+   If the role does not have a Cost per Hour rate, the Budgeted Role Cost is $0.00.</p> </p> </td> 
   </tr> 
   <tr> 
    <td>Project Budgeted Cost</td> 

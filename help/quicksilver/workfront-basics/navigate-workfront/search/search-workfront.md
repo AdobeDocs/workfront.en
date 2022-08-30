@@ -18,7 +18,7 @@ You must have permissions to View an object before you can find it in a search. 
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand this section to view the access needed to perform the steps in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,6 +44,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Understand Search {#understand-search}
 

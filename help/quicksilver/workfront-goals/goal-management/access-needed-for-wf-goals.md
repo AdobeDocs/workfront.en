@@ -3,14 +3,14 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Requirements to use Workfront Goals
-description: Your Adobe Workfront administrator or your Group administrator must ensure all of the following conditions are met before you can access Adobe Workfront Goals - EDIT ME.
+description: Your Adobe Workfront administrator must ensure certain conditions are met before you can access Adobe Workfront Goals. 
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
 ---
 # Requirements to use Workfront Goals
 
-Your Adobe Workfront administrator or your Group administrator must ensure all of the following conditions are met before you can access Adobe Workfront Goals:
+Your Adobe Workfront administrator must ensure all of the following conditions are met before you can access Adobe Workfront Goals:
 
 * Your organization must purchase a Workfront Goals license, in addition to a Adobe Workfront license. Contact your Workfront Account Representative to learn about Workfront Goals licenses.
 
@@ -30,10 +30,6 @@ Your Adobe Workfront administrator or your Group administrator must ensure all o
 * Give you access to Goals in your access level.
 
   For information about assigning license types and access levels, see the section [Update license types and access level settings](#update-license-types-and-access-level-settings)in this article. 
-
-* Enroll you in the new Adobe Workfront experience.
-
-  For information, see the section [Enroll users in the new Adobe Workfront experience](#enroll-users-in-the-new-adobe-workfront-experience) in this article. 
 
 * Assign you Layout Template that includes the Goals area in the Main&nbsp;Menu.
 

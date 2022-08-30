@@ -9,6 +9,10 @@ exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
 ---
 # Link items between Adobe Workfront and Jira
 
+<!--remove production and preview preferences at release-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 You can link Jira issues to Adobe Workfront tasks or issues either automatically or manually.&nbsp;
 
 Only one item in Workfront can be linked to one item in Jira. You can never link one Workfront item to multiple Jira issues, nor one Jira issue to multiple Workfront items.
@@ -98,13 +102,15 @@ To automatically link a Workfront task to a Jira issue:
 
    Or
 
-   In the **Integrations** area on the Details panel of the task, click the **Go to Jira** link to open the Jira issue.
+   Click the **Go to Jira** link in the *[!UICONTROL *Integrations**] area on the Details panel or the task header of the task, to open the Jira issue .
+
+   <span class="preview">Your system or group administrator must add the [!UICONTROL Integrations] field to your layout template to display it in the task header. For information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
    Any Jira user can immediately start working on items automatically created from Workfront and their updates will transfer to Workfront without needing a license for Workfront to do so.
 
    Only the fields that you as a Workfront administrator configured during the setup of the Workfront add-on are updated.
 
-   For more information about synchronizing fields between Workfront and Jira, see the&nbsp; [Configure Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#configuring-the-add-on-for-jira)&nbsp;section in&nbsp; [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+   For more information about synchronizing fields between Workfront and Jira, see the [Configure Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#configuring-the-add-on-for-jira)&nbsp;section in&nbsp; [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
    >[!NOTE]
    >

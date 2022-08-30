@@ -11,7 +11,7 @@ exl-id: 101094be-ed04-4b22-8fac-80e7f3ffe983
 
 >[!NOTE]
 >
->The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
+><span class="preview">The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).</span>
 
 
 To centralize and align the work happening across multiple portfolios or programs, you can associate your projects with campaigns. You can manage the dependencies, resources, and finances of all projects in one place.
@@ -20,7 +20,7 @@ For example, you can capture the work necessary to complete a marketing campaign
 
 >[!NOTE]
 >
->A campaign is a new object in Adobe Workfront that allows you to organize work across multiple projects. A campaign is a larger work object than projects, similar but not identical to portfolios or programs. A campaign can be  associated with multiple projects that may or may not belong to different portfolios or programs.
+>A campaign is a new object in Adobe Workfront that allows you to organize work across multiple projects. A campaign is a larger work item  than projects, similar but not identical to portfolios or programs. A campaign can be associated with multiple projects that may or may not belong to different portfolios or programs.
 
 Because you can associate the same project with multiple campaigns, Workfront allows you to organize work both vertically and horizontally in your strategic roadmap and move away from the linear hierarchy you have been used to so far.
 

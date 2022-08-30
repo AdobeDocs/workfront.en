@@ -59,12 +59,10 @@ For information about what users in each access level can do with issues, see th
 As the owner or creator of an issue, you can share with other users by granting them permissions to it, as explained in [Share an issue](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:</p>
 <p>* reports, dashboards, and calendars</p>
 <p>* financial data</p>
 <p>* issue</p>
-</div>
 -->
 
 When you share any object with another user, the recipient's rights on it are determined by a combination of two things:
@@ -74,4 +72,4 @@ When you share any object with another user, the recipient's rights on it are de
 
 Also, if allowed by their access level, users can gain access to an issue through object hierarchy: if a user already has permission on an issue's parent project or task, they also have permission on the issue (see Step 3 above). When you are sharing an issue, you can see a list of the users who have inherited permission to it.
 
-![](assets/screen-shot-2014-01-22-at-10.09.50-am-350x397.png)
+![](assets/inherited-permissions.png)

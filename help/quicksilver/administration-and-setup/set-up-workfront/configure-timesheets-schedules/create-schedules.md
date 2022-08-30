@@ -122,7 +122,7 @@ You must have the following access to perform the steps in this article:
 
 1. Specify the start and end time for the partial day exceptions.
 
-   ![partial_day_exception_on_schedules.png](assets/partial-day-exception-on-schedules.png)
+   ![partial-day-exception-on-schedules.png](assets/partial-day-exception-on-schedules.png)
 
 1. Click **Save**, then click **Save Changes**.
 

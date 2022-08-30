@@ -97,7 +97,7 @@ To access the Preview Sandbox:
 * [Accessing the Preview Sandbox for Accounts on Cluster 1,2,3, and 5](#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5) 
 * [Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts)
 
-#### **Accessing the Preview Sandbox for Accounts on Cluster 1,2,3, and 5** {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
+#### Accessing the Preview Sandbox for Accounts on Cluster 1,2,3, and 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
 Historically, you accessed the Preview Sandbox by going to [https://companyname.attasksandbox.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.attasksandbox.com%2F&sa=D&sntz=1&usg=AFQjCNGTfPKCDnAylzkclNwdSuEXksLFRg).
 
@@ -117,7 +117,7 @@ To log into the Preview Sandbox using a URL:
 
    Your Preview credentials should be the same as your production credentials, unless you changed them in Production after the Preview refresh happened. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.
 
-#### **Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)** {#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts}
+#### Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts) {#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts}
 
 To log into the Preview Sandbox using a URL:
 
@@ -147,6 +147,13 @@ If you are using SSO, work with our Customer Support team to ensure it is proper
 For more information about Single Sign-On, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 ## Configuring Single Sign-On in the Preview Sandbox
+
+>[!IMPORTANT]
+>
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
+>
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
 
 If you want to configure your Preview Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Preview Sandbox is independent from your SSO configuration in the Production environment.
 

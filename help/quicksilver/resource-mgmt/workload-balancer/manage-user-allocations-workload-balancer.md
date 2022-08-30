@@ -9,6 +9,11 @@ exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 ---
 # Manage user allocations in the Workload Balancer
 
+<!--drafted note for 22.4 release: remove all production/ preview references at Prod release-->
+
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
 
 ## Access requirements {#access-requirements}
@@ -25,11 +30,12 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Plan, in the Production environment</p>
+   <p><span class="preview">Work,  in the Preview environment </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configuration*</td> 
-   <td> <p>Edit access to&nbsp;the following:</p> 
+   <td> <p>Edit access to the following:</p> 
     <ul> 
      <li> <p>Resource Management</p> </li> 
      <li> <p>Projects</p> </li> 
@@ -39,7 +45,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher that include Make Assignments to the tasks <span>and issues</span> that you want to manage allocations for. </p> <p>Or </p> <p>Manage permissions to the tasks that you want to update the Planned Hours for, in addition to updating allocations. For information about updating Planned Hours in the Workload Balancer, see the <a href="#update-task-planned-hours-when-managing-user-allocations" class="MCXref xref">Update task Planned Hours when managing user allocations</a> section in this article. </p> <p>For information about tasks permissions, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a><span> and for information about issue permissions, see</span> <span href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></span>. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute permissions or higher that include Make Assignments to the tasks and issues that you want to manage allocations for. </p> <p>Or </p> <p>Manage permissions to the tasks that you want to update the Planned Hours for, in addition to updating allocations. For information about updating Planned Hours in the Workload Balancer, see the <a href="#update-task-planned-hours-when-managing-user-allocations">Update task Planned Hours when managing user allocations</a> section in this article. </p> <p>For information about tasks permissions, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md">Share a task </a><span> and for information about issue permissions, see</span> <span href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md">Share an issue </a></span>. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +71,7 @@ The task Planned Hours are distributed equally between all the days within the D
 
 >[!CAUTION]
 >
->The Workload Balancer displays only up to 1000 Planned Hours per work item. The allocations in the Workload Balancer display as zero after the 1000 hour limit is reached. We recommend dividing the task in smaller subtasks to accommodate for a larger number of Planned Hours.
+>The Workload Balancer displays only up to 1000 Planned Hours per work item and up to 1000 days of an item's duration. The allocations in the Workload Balancer display as zero after the 1000 hour or 1000 day limit is reached. We recommend dividing tasks in smaller subtasks to accommodate for a larger number of Planned Hours or for Durations of more than 1000 days.
 
 Consider the following when locating daily, weekly or monthly allocations for tasks or issues in the Workload Balancer:
 
@@ -87,7 +93,7 @@ Consider the following when locating daily, weekly or monthly allocations for ta
 >
 >``` 
 >
->  Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
+>  Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours
 >```
 >
 >  For our example, the daily allocation hours for each day are: 

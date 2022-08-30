@@ -167,13 +167,13 @@ Consider the following when working with filters in lists or reports:
 
 When you build a filter, you connect multiple elements together that make up filter statements. You can have multiple filter statements that define the criteria for your filter.
 
-This is an example of the standard filter builder in all environments:
+This is an example of the standard filter builder:
 
 ![Standard filter builder](assets/filter-statements-with-or-and-and-nwe.png)
 
-<span class="preview">This is an example of the beta filter builder, available in the Preview environment only:</span>
+This is an example of the beta filter builder:
 
-<span class="preview">![Beta filter builder](assets/filter-sample-with-or.png)</span>
+![Beta filter builder](assets/filter-sample-with-or.png)
 
 A filter contains the following elements:
 
@@ -231,7 +231,7 @@ You can use filter modifiers to indicate what kind of information you want your 
 
 For more information about filter modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-## **Create filters in the builder interface**
+## Create filters in the builder interface
 
 You can create a filter using the standard or beta builder interface in the following ways:
 
@@ -247,12 +247,12 @@ You can build filters using the text mode interface. We recommend to build most 
 
 For more information about creating a filter using the text mode interface, see [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-## **Create filters for complex fields**
+## Create filters for complex fields
 
 * [Create filters for fields whose values contain commas](#create-filters-for-fields-whose-values-contain-commas) 
 * [Create filters for whose values are a multi-select custom field](#create-filters-for-whose-values-are-a-multi-select-custom-field)
 
-### **Create filters for fields whose values contain commas** {#create-filters-for-fields-whose-values-contain-commas}
+### Create filters for fields whose values contain commas {#create-filters-for-fields-whose-values-contain-commas}
 
 When building a filter in text mode and filtering for field values that contain commas, you must add a slash ("/") before the commas separating the values, to ensure that the value is read as one filter option. This only applies for the following field types:
 
@@ -276,7 +276,7 @@ This syntax ensures that the values are read together, as one option. If you omi
 
 This syntax also applies when building prompts. For more information about using prompts, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-### **Create filters for whose values are a multi-select custom field** {#create-filters-for-whose-values-are-a-multi-select-custom-field}
+### Create filters for whose values are a multi-select custom field {#create-filters-for-whose-values-are-a-multi-select-custom-field}
 
 You can report on multi-select custom fields. For example, you can report on fields that are checkboxes.
 
@@ -284,6 +284,6 @@ However, when you want to exclude results that have only one of the options sele
 
 For example, if you have a field with 3 options (A, B, and C), and select 2 of the 3 options (A and B, but not C) on an object, you can create a report with a filter with a qualifier of Not Equal for options A and B, and it will only filter out projects that have both A and B, but not only A, and not only B selected. If you create a filter with a qualifier for Not Equal for option A, it will only filter out objects with only A selected, but if A and B are selected, those objects still display in the report.
 
-## **Limitations about joining multiple filter rules**
+## Limitations about joining multiple filter rules
 
 You can reference only five objects, excluding the object of the report, when you build a filter in Workfront.

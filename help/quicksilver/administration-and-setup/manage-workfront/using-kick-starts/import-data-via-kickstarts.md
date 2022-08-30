@@ -292,8 +292,6 @@ To export a Kick-Start template:
 
 When you open a blank Kick-Starts template, a number of tabs (data sheets) are available. They depend on the objects that you selected for download. Each one represents an object in the application, such as project, tasks, hours, dashboard, and users:
 
-![](assets/kick-start-spreadsheet-example-350x383.png)
-
 When you open one of these tabs, row 2 displays the fields for each object that can be set during an import. In a column header, after the word "set," the name of the field displays as it appears in the database. These fields act as column headers.
 
 >[!IMPORTANT]

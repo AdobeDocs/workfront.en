@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
 title: Projects
-description: This section contains the following subsections - EDIT ME.
+description: Find out information about projects in the following sections.
 author: Alina
 feature: Work Management
 exl-id: 17ece62a-971d-4dc7-b9e3-ed79a3a4a157

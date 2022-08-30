@@ -132,16 +132,10 @@ You must have the following to perform the steps in this article:
       <td> 
        <p>If you leave this option enabled, the users in your group and its subgroups can see and use the status and group administrators cannot customize it for lower subgroups.</p> 
        <p>When this option is disabled, group administrators can customize the status for lower subgroups.</p> 
+       <p><b>NOTE</b>: You can use both locked and unlocked statuses in a group approval process. If you create a group approval process with an unlocked group status, users can attach the approval process to any project, task, or issue that is associated with the group.</p> 
        <p>For more information about locking statuses, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Locked and unlocked group statuses</a>.</p> 
-       <p><b>NOTE</b>: You can use both locked and unlocked statuses in a group approval process. If you create a group approval process with an unlocked group status, users can attach the approval process to any project, task, or issue that is associated with the group.</p> </p>
        </td> 
      </tr>
-      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <td role="rowheader"><span class="preview">Users can select this status only if required fields on the object are completed</span> </td> 
-       <td> <p><span class="preview">(Applies only if you selected Tasks in Step 3) Assures that users can select this status for an object only if all required fields on the object are completed.</span> </p>
-       <!-- This story is on the back burner -->
-       </td> 
-      </tr>
     </tbody> 
    </table>
 
@@ -171,4 +165,4 @@ If you are a group administrator (or a Workfront administrator), you can create 
 
    The status is dimmed and no longer visible to all users in that group.
 
-1. Repeat steps 3 through Step 5 to hide the custom status from any other groups who don't need it.
+1. Repeat steps 3 through 5 to hide the custom status from any other groups who don't need it.

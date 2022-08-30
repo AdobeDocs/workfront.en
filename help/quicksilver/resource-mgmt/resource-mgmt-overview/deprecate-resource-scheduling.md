@@ -11,11 +11,13 @@ exl-id: 7fa644cd-cf6a-40f8-ae28-bf222bb45d3f
 ---
 # Deprecation of Resource Scheduling tools in Adobe Workfront
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 We are currently in the process of deprecating all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
 
 >[!IMPORTANT]
 >
->The deprecation of the Scheduling tools means that as of now, we are no longer implementing new feature functionality for the current Scheduling solution and we consider and prioritize only High and Critical severity defects for a fix.
+>The deprecation of the Scheduling tools means that as of now, we are no longer implementing new feature functionality for the current Scheduling solution and we no longer consider nor prioritize defects for a fix in this area of Adobe Workfront.
 
 This article describes a tentative timeline for this deprecation and it compares the functionality of the Scheduling tools and that of the Workload Balancer. 
 
@@ -56,7 +58,7 @@ The following is a tentative timeline for the deprecation process of Resource Sc
 
 * [2020.4 release (November 2020)](#2020-4-release-november-2020) 
 * [2021.4 release (October 2021)](#2021-4-release-october-2021) 
-* [2022.4 release (October 2022 (tentative) ](#20224-release-october-2022-tentative)
+* [2022.4 release (October 2022) (tentative) ](#20224-release-october-2022-tentative)
 
 ### 2020.4 release (November 2020) {#2020-4-release-november-2020}
 
@@ -71,6 +73,7 @@ The following is a tentative timeline for the deprecation process of Resource Sc
 
 ### 2022.4 release (October 2022) (tentative)
 
+* No defects will be prioritized for a fix during the 2022.4 release
 * All Scheduling areas are removed from Workfront
 * The Workload Balancer is the only resource scheduling tool available in Workfront
 
@@ -89,7 +92,7 @@ In addition to existing features, the Workload Balancer has or will have new fun
  <tbody> 
   <tr> 
    <td rowspan="2"><span style="font-weight: normal;">Features</span> </td> 
-   <td rowspan="2"> <strong>Resource Scheduling tools feature availability</strong></td> 
+   <td rowspan="2"> Resource Scheduling tools feature availability</td> 
    <td colspan="3">Workload Balancer feature availability</td> 
   </tr> 
   <tr> 
@@ -216,6 +219,20 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 
+  <tr>
+   <td><span class="preview">Work-license users can adjust user allocations</span> </td> 
+   <td>✓</td> 
+   <td><span class="preview">✓</span></td> 
+   <td></td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Display issues in the Unassigned Work area</span></td> 
+   <td>✓</td> 
+   <td><span class="preview">✓</span></td> 
+   <td></td> 
+   <td></td> 
+  </tr> 
   <tr> 
    <td>Visible to all Plan users, without being designated a Resource Manager on the project.</td> 
    <td>&nbsp;</td> 
@@ -280,7 +297,7 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td>Color-code work items and projects by Project&nbsp;Status</td> 
+   <td>Color-code work items and projects by Project Status</td> 
    <td>&nbsp;</td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
@@ -313,10 +330,9 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td><span>✓</span> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr> 
+  </tr>
+  
  </tbody> 
 </table>
 
 *These features are available only in the new Adobe Workfront experience.
-
-&nbsp;

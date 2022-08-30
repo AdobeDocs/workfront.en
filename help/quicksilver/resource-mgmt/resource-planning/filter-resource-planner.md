@@ -37,7 +37,9 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Projects, Users, and Resource Management </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects, Users, and Resource Management </p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -46,7 +48,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Overview of Resource Planner filters
 
@@ -251,7 +253,7 @@ You can duplicate an existing filter. The original filtering criteria remain the
 1. In the **Filter Name** field, specify a new name for the duplicated filter.  
    The default name for the new filter is *`<Original Filter Name>`(copy)*.
 
-1. Click **Save.**A new filter is created with the same criteria as the original filter and with a new name.
+1. Click **Save**. A new filter is created with the same criteria as the original filter and with a new name.
 
    >[!NOTE]
    >
