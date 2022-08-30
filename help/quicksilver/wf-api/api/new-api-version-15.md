@@ -12,17 +12,17 @@ Adobe Workfront released API version 15 on June 14, 2022. API version 15 feature
 
 ## Added resources 
 
-*   [Initiative (INITIV)](#Initiati)
+* [Initiative (INITIV)](#Initiati)
     
-*   [IssueDef (ISSDEF)](#IssueDef)
+* [IssueDef (ISSDEF)](#IssueDef)
     
-*   [ObjectIntegration (OBJINT)](#ObjectIn)
+* [ObjectIntegration (OBJINT)](#ObjectIn)
     
-*   [RichTextGroupParameterValue (GRCVAL)](#RichText)
+* [RichTextGroupParameterValue (GRCVAL)](#RichText)
     
-*   [TaskDef (TSKDEF)](#TaskDef)
+* [TaskDef (TSKDEF)](#TaskDef)
     
-*   [UserApproval (USRAPV)](#UserAppr)
+* [UserApproval (USRAPV)](#UserAppr)
     
 ### Initiative (INITIV)
 
@@ -536,61 +536,61 @@ No resources were removed for API version 15.
 
 ## Modified resources
 
-*   [AccessLevel (ACSLVL)](#AccessLe)
+* [AccessLevel (ACSLVL)](#AccessLe)
     
-*   [AccessLevelPermissions (ALVPER)](#AccessLe2)
+* [AccessLevelPermissions (ALVPER)](#AccessLe2)
     
-*   [AccessRequest (ACSREQ)](#AccessRe)
+* [AccessRequest (ACSREQ)](#AccessRe)
     
-*   [AccessRule (ACSRUL)](#AccessRu)
+* [AccessRule (ACSRUL)](#AccessRu)
     
-*   [Approval (APPROVAL)](#Approval)
+* [Approval (APPROVAL)](#Approval)
     
-*   [Category (CTGY)](#Category)
+* [Category (CTGY)](#Category)
     
-*   [CategoryParameter (CTGYPA)](#Category2)
+* [CategoryParameter (CTGYPA)](#Category2)
     
-*   [CustomerPreferences (CUSTPR)](#Customer)
+* [CustomerPreferences (CUSTPR)](#Customer)
     
-*   [DocumentFolder (DOCFDR)](#Document)
+* [DocumentFolder (DOCFDR)](#Document)
     
-*   [DocumentVersion (DOCV)](#Document2)
+* [DocumentVersion (DOCV)](#Document2)
     
-*   [Group (GROUP)](#Group)
+* [Group (GROUP)](#Group)
     
-*   [JournalEntry (JRNLE)](#JournalE)
+* [JournalEntry (JRNLE)](#JournalE)
     
-*   [LinkedFolder (LNKFDR)](#LinkedFo)
+* [LinkedFolder (LNKFDR)](#LinkedFo)
     
-*   [OpTask / Issue (OPTASK)](#OpTask)
+* [OpTask / Issue (OPTASK)](#OpTask)
     
-*   [Parameter (PARAM)](#Paramete)
+* [Parameter (PARAM)](#Paramete)
     
-*   [Portfolio (PORT)](#Portfoli)
+* [Portfolio (PORT)](#Portfoli)
     
-*   [Program (PRGM)](#Program)
+* [Program (PRGM)](#Program)
     
-*   [Project (PROJ)](#Project)
+* [Project (PROJ)](#Project)
     
-*   [QueueDef (QUED)](#QueueDef)
+* [QueueDef (QUED)](#QueueDef)
     
-*   [ScoreCardQuestion (SCOREQ)](#ScoreCar)
+* [ScoreCardQuestion (SCOREQ)](#ScoreCar)
     
-*   [Task (TASK)](#Task)
+* [Task (TASK)](#Task)
     
-*   [Template (TMPL)](#Template)
+* [Template (TMPL)](#Template)
     
-*   [Timesheet (TSHET)](#Timeshee)
+* [Timesheet (TSHET)](#Timeshee)
     
-*   [View (UIVIEW)](#View)
+* [View (UIVIEW)](#View)
     
-*   [Update (UPDATE)](#Update)
+* [Update (UPDATE)](#Update)
     
-*   [User (USER)](#User)
+* [User (USER)](#User)
     
-*   [UserNote (USRNOT)](#UserNote)
+* [UserNote (USRNOT)](#UserNote)
     
-*   [Work (WORK)](#Work)
+* [Work (WORK)](#Work)
 
 ### AccessLevel (ACSLVL)
 
