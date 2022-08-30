@@ -13,6 +13,7 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * 22.4 Release {#release-22-4}
       * [22.4 Release overview](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
+      * [22.4 Release activity: Week of August 22, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md)
       * [22.4 Release activity: Week of August 15, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md)
       * [22.4 Release activity: Week of August 7, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-7.md)
       * [22.4 Release activity: Week of August 1, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md)
@@ -988,6 +989,10 @@ feature-set: Workfront
       * [Send a Document to Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
       * [Proof a linked asset for Experience Manager Assets or Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
       * [Create a folder linked with Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+    * Migrate from the legacy or enhanced connectors {#migrate-from-legacy-enhanced-connectors}
+      * [Migrate from the legacy or enhanced connector to Workfront for Adobe Experience Mangaer as a Cloud Service integration](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+     <!--- * [Unistall the Workfront with Adobe Experience Manager legacy connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md) -->
+     <!--- * [Uninstall the Workfront with Adobe Experience Manager enhanced connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md) -->
 * Manage Work {#manage-work}
   * [Manage work](manage-work/manage-work.md)
   * Projects {#projects}
@@ -2484,6 +2489,7 @@ feature-set: Workfront
     * [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](wf-api/api/oauth-app-pkce-flow.md)    
     * [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
+    * [What's new in API version 15](wf-api/api/new-api-version-15.md)
     * [What's new in API version 14](wf-api/api/new-api-version-14.md)
     * [What's new in API version 13](wf-api/api/new-api-version-13.md)
     * [What's new in API version 12](wf-api/api/new-api-version-12.md)
