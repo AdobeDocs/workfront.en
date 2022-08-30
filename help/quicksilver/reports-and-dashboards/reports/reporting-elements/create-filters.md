@@ -21,7 +21,7 @@ You can apply the following types of filters in Adobe Workfront:
 
 * Filters in other areas of Workfront, outside of lists and reports.
 
-  For a list of all filters in  and the areas where you can apply them, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  For a list of all filters in Workfront and the areas where you can apply them, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Access requirements
 

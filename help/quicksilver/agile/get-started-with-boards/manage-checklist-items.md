@@ -9,8 +9,6 @@ exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
 ---
 # Manage checklist items on cards
 
-{{highlighted-preview}}
-
 Using a checklist on a card allows you to break down work into smaller increments or add notes to the card. Checklist items are available on both ad hoc and connected cards.
 
 For information on cards, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md), [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md), and [Manage cards](/help/quicksilver/agile/get-started-with-boards/move-board-items.md).
@@ -52,25 +50,27 @@ You must have the following access to perform the steps in this article:
 
    The counter at the top of the checklist shows the number of completed items and the total number of items.
 
-1. <span class="preview">Click ![Details icon](assets/checklist-chevron.png) to open the Checklist Item Details box.</span>
+1. Click ![Details icon](assets/checklist-chevron.png) to open the Checklist Item Details box.
 
    >[!NOTE]
    >
    >Checklist item details are available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-   <span class="preview">![Checklist Item Details box](assets/checklist-item-details.png)</span>
+   ![Checklist Item Details box](assets/checklist-item-details.png)
 
-1. <span class="preview">(Optional) Add a description, assignees, due date, and estimation hours for the checklist item.</span>
+1. (Optional) Add a description, assignees, due date, and estimation hours for the checklist item.
 
-   <span class="preview">For information about any of these fields, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) or [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).</span>
+   For information about any of these fields, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) or [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-1. <span class="preview">Click **Close** to return to the card details and the full list of checklist items.</span>
+1. Click **Close** to return to the card details and the full list of checklist items.
 
-   <span class="preview">The assignees and due date appear on the item.</span>
+   The assignees and due date appear on the item.
 
-1. <span class="preview">To copy an item, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Copy**.</span>
-1. To delete a checklist item in the Production environment, click the **Delete** icon ![Delete icon](assets/delete.png).
-1. <span class="preview">To delete a checklist item in the Preview environment, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Delete**.</span>
+1. To copy an item (only available with the early feature opt-in), click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Copy**.
+1. To delete a checklist item:
+
+   * When the early feature opt-in is not used, click the **Delete** icon ![Delete icon](assets/delete.png).
+   * When the early feature opt-in is in use, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Delete**.
 
 ## Complete checklist items
 
@@ -87,11 +87,11 @@ You must have the following access to perform the steps in this article:
 
    You can clear the check box if you need to add the item back to the list.
 
-   Sample image in the Production environment:
+   Sample image when the early feature opt-in is not used:
    ![Completed checklist item](assets/boards-completedchecklistitem-350x192.png)
 
-   <span class="preview">Sample image in the Preview environment:</span>
-   <span class="preview">![Completed checklist item](assets/checklist-items-with-chevron.png)</span>
+   Sample image when the early feature opt-in is in use:
+   ![Completed checklist item](assets/checklist-items-with-chevron.png)
 
 1. Click **Close** to return to the board.
 

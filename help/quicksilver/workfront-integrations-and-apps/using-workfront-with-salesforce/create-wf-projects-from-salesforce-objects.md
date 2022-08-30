@@ -9,6 +9,8 @@ exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
 ---
 # Create Adobe Workfront projects from Salesforce objects
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 After installing Adobe Workfront for Salesforce, you can define triggers that create Workfront projects when certain criteria are met on Salesforce Opportunities and Accounts.
 
 ## Access requirements
@@ -66,7 +68,7 @@ Consider the following when configuring triggers to automatically create Workfro
 * After you configure the triggers, anyone who updates the Stage of an Opportunity or the Type of an Account can trigger the creation of a Workfront project. This includes Salesforce users who do not have a Workfront account.&nbsp;
 * There is no limit to how many triggers you can have.
 * You cannot create multiple triggers based on the same conditions. Triggers are unique by default.
-* Once the project is created it is automatically linked to the opportunity or the account where it was generated.&nbsp;Once established, this link cannot be broken.
+* Once the project is created it is automatically linked to the opportunity or the account where it was generated. Once established, this link cannot be broken.
 * One opportunity or account can be linked to multiple projects in Workfront when a triggered condition has been met multiple times in the life of the opportunity or the account.
 
   For example, if you define more then one Stage for an Opportunity to trigger a Project, a project is created for every defined stage that the opportunity reaches, for the life of that opportunity. Also, if you update the Stage of an Opportunity from one defined stage to another, and then update it back to the defined stage, a second project is created for the second time you update the Stage field to the same defined stage.&nbsp;
@@ -206,9 +208,9 @@ To view projects created from an Opportunity or Account:&nbsp;
    
       When this information is updated in Workfront, you can see the fields updated in this list.&nbsp;
 
-1. (Optional) Click the name of a project to open it in Workfront.&nbsp;
-1. (Optional) Click **Go to Salesforce** to access the Opportunity or Account where the project originated.
+1. (Optional) Click the name of a project to open it in Workfront.
+1. (Optional) Click [!UICONTROL **Go to Salesforce**] in the [!UICONTROL Project Details] area <span class="preview">or the project header</span> to access the Opportunity or the Account where the project originated. <span class="preview">Your system or group administrator must add the Integrations field to your layout template to find it in the project header.</span>
 
    >[!NOTE]
    >
-   >The Go to Salesforce link is visible to all Workfront users who can view the project. You must have a Salesforce account to be able to go to the Salesforce Opportunity or Account from where the project was generated.&nbsp;&nbsp;
+   >The Go to Salesforce link is visible to all Workfront users who can view the project. You must have a Salesforce account to be able to go to the Salesforce Opportunity or Account from where the project was generated.

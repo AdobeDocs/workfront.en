@@ -80,21 +80,28 @@ You can log general hours or project-specific hours on a timesheet.
 
    The timesheet is pre-populated with items assigned to you during the timesheet's time frame. For information about how timesheets are prepopulated, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). If you do not see an item on the timesheet, you can add it. 
 
+1. (Optional) Click the **full-screen** icon ![](assets/full-screen.png) to display the timesheet in full-screen mode, then click the **exit-full-screen** ![](assets/exit-full-screen.png) icon to return to the timesheet. 
+
+   <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
+
 1. (Optional) To add a project, task, or issue to the timesheet, click the **Add item** drop-down menu in the upper-left corner of the timesheet, then click **Add Projects**, **Add Tasks**, or **Add Issues**. 
 
    A list of projects, tasks, or issues displays. 
+
+   <!--drafted for full screen mode for add projects story - align it with the rest of the steps when you enable this:: 1. (Optional) Click the **full-screen** icon ![](assets/full-screen.png) to display the list of objects in full-screen mode.-->
 
 1. (Optional) Click the search icon ![Search for an item](assets/search-icon.png) to search for a specific item  using a keyword to add to the timesheet.
 
 1. (Optional) Expand the filter, view, or grouping drop-down menus to apply or customize one and to view the item information that you want. 
 
-1. Select an item in the list when it displays, then click **Add**. 
+1. Select one or several items in the list, then click **Add**. 
+   
+   <!--drafted for the 22.4 release - maintenance update: A confirmation message displaying the number of items added to your timesheet displays in the upper-right corner of the page.-->
 
-   The item is added to the timesheet and it is pinned. You must manually unpin it to remove it from the timesheet. For information about unpinning items to remove them from the timesheet, continue with Step 9. <!--(ensure this stays accurate)-->
+   The item is added to the timesheet and it is pinned. You must manually unpin it to remove it from the timesheet. For information about unpinning items to remove them from the timesheet, continue with Step 9. 
+   <!--(ensure this stays accurate)-->
    
    When you add tasks or issues to the timesheet, the project is also added. 
-
-1. (Optional) Click the **full-screen** icon ![](assets/full-screen.png) to display the timesheet in full-screen mode, then click the **exit-full-screen** ![](assets/exit-full-screen.png) icon to return to the timesheet. 
 
 1. (Optional) Click the search icon ![](assets/search-icon.png) and start typing a keyword to find a project, task, or an issue on the timesheet. 
 
