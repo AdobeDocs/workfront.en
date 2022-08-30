@@ -9,7 +9,7 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 ---
 # Assign tasks
 
-You can assign tasks to users, roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
+You can assign tasks to users, job roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 
 >[!TIP]
 >
@@ -133,7 +133,7 @@ Consider the following when assigning multiple resources to a work item:
       <!--drafted for unique identifier story for 22.4 and yellow:
       >[!TIP]
       >
-      ><span class="preview">When adding a user assignment, notice the avatar, the user’s Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>--> 
+      ><span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>--> 
 
       
    * (Conditional) Click one of the names in the **Suggested assignments** list, if this list displays. For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md). 
@@ -173,7 +173,9 @@ To assign tasks in a list:
 1. To assign tasks do one of the following:
 
    * Click inside the **Assigned To** or **Assigned** fields and start typing the name of an active user that you want to assign to the task, then click it when it displays in the list.
-   * Click inside the **Assignments** field and start typing the name of an active user, `job role`, or team that you want to assign to the task, then click it when it displays in the list.
+   * Click inside the **Assignments** field and start typing the name of an active user, job role, or team that you want to assign to the task, then click it when it displays in the list.
+
+      <!--drafted for unique identifier story for 22.4 and yellow - make it a TIP when live:  <span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>--> 
 
 1. (Conditional) When visible in the **Assignments** field, click the **People** icon  in the upper-right corner of the assignments box to open the **Advanced Assignments** box and create advanced assignments.
 
@@ -187,7 +189,7 @@ To assign tasks in a list:
    >
    >You cannot make advanced assignments from the Assigned To or Assigned fields.
 
-1. After adding your assignees to the task, press Enter or click anywhere on the page to save your changes if you selected Autosave. Otherwise, click**Save**.
+1. After adding your assignees to the task, press Enter or click anywhere on the page to save your changes if you selected Autosave. Otherwise, click **Save**.
 
 ## Assign multiple tasks to a user
 
@@ -248,3 +250,6 @@ To assign tasks in a list:
 </ul>
 </div>
 -->
+
+
+<a href='mailto:DocumentationTeam@workfront.com?subject=FEEDBACK: Assign tasks'>Send feedback on this help article</a>

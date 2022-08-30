@@ -9,6 +9,10 @@ exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
 ---
 # Unassign work in the Workload Balancer
 
+<!--remove production and preview preferences at release-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 You can unassign users from work items in the Assigned Work area of the Adobe Workfront Workload Balancer, or reassign them to other users, roles, or teams.
 
 You can unassign users from work items manually, by dragging and dropping, or in bulk. This article describes how to unassign users manually.
@@ -31,7 +35,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Plan, in the Production environment</p>
+   <p><span class="preview">Work, in the Preview environment</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -45,7 +50,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the projects, tasks, and issues that include Make Assignments</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,14 +69,10 @@ To unassign work items from users:
 1. Do one of the following:
 
    * Find the item you want to unassign in a user's area, click it, and drag and drop it in the Unassigned area or in another user's area. 
-   * Click the **More** icon ![](assets/more-icon-task-list.png) to the right of the name of a work item, click&nbsp;**Assign this to**, then remove the name of the entities assigned to the work item or enter another name, and click&nbsp;**Save**.
+   * Click the **More** icon ![](assets/more-icon-task-list.png) to the right of the name of a work item, click **Assign this to**, then remove the name of the entities assigned to the work item or enter another name, and click **Save**.
 
      ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    The item displays in the Unassigned Work area if it matches the filtering criteria for that area and it is not assigned to any other users, or it displays in the user area if it is assigned to another user.
-
-   >[!TIP]
-   >
-   >Unassigned issues do not display in the Unassigned area.
 
    For information about filtering information in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).

@@ -99,6 +99,12 @@ Before using the Admin Console for Workfront, you should receive a receive an em
 
 1. Repeat steps 3 and 4 to add more users.
 
+   >[!NOTE]
+   >
+   >For new Adobe users, the Admin Console delivers an email to invite them to complete the registration process. All users must complete the registration process to access any Adobe system.
+   >
+   >For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product.
+
 ## Create system administrators in Workfront with the Adobe Admin Console {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
 
 The System Administrator access level is granted only on the Adobe Admin Console. You cannot grant or remove admin access from within Workfront.

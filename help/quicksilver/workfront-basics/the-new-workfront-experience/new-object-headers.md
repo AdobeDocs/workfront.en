@@ -8,6 +8,10 @@ exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 ---
 # New object headers overview
 
+<!--remove production and preview preferences at release-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 You can view information at a glance about objects in Adobe Workfront when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
 
 ## Access the header of an object
@@ -30,15 +34,11 @@ The following headers are available in Home:
 
 ## Customizable headers
 
-Your Workfront  or group administrator  can customize the header of projects by using a layout template. 
-
-<!--drafted for task headers and ensure it stays in yellow for preview 22.4: replace first sentence above with this: Your Workfront  or group administrator  can customize the header of projects <span class="preview">and tasks</span> by using a layout template.-->
+Your Workfront  or group administrator  can customize the header of projects <span class="preview">or tasks</span> by using a layout template. 
 
 <!--drafted for task AND issue headers and ensure it stays in yellow for preview 22.4: replace first sentence above with this: Your Workfront  or group administrator  can customize the header of projects, <span class="preview">tasks</span>, and <span class="preview">issues</span> by using a layout template.-->
 
-This article describes the default headers for all objects, including projects. 
-
-<!--drafted for 22.4 release - replace the sentence above with this at preview - no yellow - this is for projects + tasks: This article describes the default headers for all objects, including projects and tasks.--> 
+This article describes the information that is included by default in the headers of all objects, including projects and tasks. 
 
 <!--drafted for 22.4 release - replace the sentence above with this at preview - no yellow - this is for projects + tasks + issues: This article describes the default headers for all objects, including projects and tasks and issues.--> 
 

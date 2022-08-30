@@ -9,6 +9,8 @@ exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
 ---
 # Create Adobe Workfront projects from Salesforce objects
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 After installing Adobe Workfront for Salesforce, you can define triggers that create Workfront projects when certain criteria are met on Salesforce Opportunities and Accounts.
 
 ## Access requirements
@@ -207,11 +209,8 @@ To view projects created from an Opportunity or Account:&nbsp;
       When this information is updated in Workfront, you can see the fields updated in this list.&nbsp;
 
 1. (Optional) Click the name of a project to open it in Workfront.
-1. (Optional) Click **Go to Salesforce** to access the Opportunity or Account where the project originated.
-
-<!--drafted for the Integration widget for projects - replace the sentence above with this one:
-(Optional) Click **Go to Salesforce** in the Project Details area or the project header to access the Opportunity or the Account where the project originated. Your system or group administrator must add the Integrations field to your layout template to find it in the project header. -->
+1. (Optional) Click [!UICONTROL **Go to Salesforce**] in the [!UICONTROL Project Details] area <span class="preview">or the project header</span> to access the Opportunity or the Account where the project originated. <span class="preview">Your system or group administrator must add the Integrations field to your layout template to find it in the project header.</span>
 
    >[!NOTE]
    >
-   >The Go to Salesforce link is visible to all Workfront users who can view the project. You must have a Salesforce account to be able to go to the Salesforce Opportunity or Account from where the project was generated.&nbsp;&nbsp;
+   >The Go to Salesforce link is visible to all Workfront users who can view the project. You must have a Salesforce account to be able to go to the Salesforce Opportunity or Account from where the project was generated.

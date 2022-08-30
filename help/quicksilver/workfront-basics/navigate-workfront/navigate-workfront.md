@@ -4,18 +4,20 @@ navigation-topic: get-started-with-workfront
 title: Navigate Adobe Workfront
 description: Review these areas to get an understanding of how to navigate Workfront.
 feature: Get Started with Workfront
+author: Lisa
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
 ---
 # Navigate Adobe Workfront
 
 This section contains the following subsections:
 
-* [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 
-* [Glossary of Adobe Workfront terminology](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md) 
-* [Adobe Workfront Search](../../workfront-basics/navigate-workfront/search/search.md) 
-* [Recents and favorites in Adobe Workfront](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md) 
-* [Top navigation bar overview](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md) 
-* [Left navigation in Adobe Workfront](../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) 
+* [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+* [Glossary of Adobe Workfront terminology](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
+* [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
+* [Adobe Workfront Search](../../workfront-basics/navigate-workfront/search/search.md)
+* [Recents and favorites in Adobe Workfront](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
+* [Top navigation bar overview](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
+* [Left navigation in Adobe Workfront](../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
 * [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md) 
 * [Breadcrumbs overview](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md) 
 * [New object headers overview](../../workfront-basics/the-new-workfront-experience/new-object-headers.md) 

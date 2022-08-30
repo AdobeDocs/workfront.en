@@ -44,13 +44,17 @@ Consider the following when you delegate tasks and issues:
   * Requestors cannot delegate work to others. They cannot view work items in their [!UICONTROL Home] area
 * You can only delegate the tasks and issues assigned to you. You cannot delegate tasks and issues that are assigned to other users, teams, or job roles.
 <!-- drafted this bullet - make it live when the change is made during 22.4 release: * You can only delegate tasks and issues that are not completed before the delegation's start date. If a work item completes during the delegation time frame, the item remains in the Home area of the delegate and of the assignee for 2 weeks before Workfront automatically removes it. -->
+* The users that you select as delegates receive the same  permissions as your permissions on the tasks and issues you delegate to them. The permissions must work within their access levels, and sometimes their access levels might be lower than yours.
+
+>[!NOTE]
+>
+>  For items that are assigned after the delegation already started, it can take up to one hour after the item was assigned for Workfront to share the newly-assigned items with the delegate.
+
 * If additional tasks and issues are assigned to you during the time you have selected to have your work delegated to other users, the new assigned work is automatically delegated to the same person for the time frame you selected if the task or issue dates are within that time frame. 
 * The same user can be selected as the delegate by multiple users. 
 * Delegated tasks and issues do not display in resource management tools, like the [!UICONTROL Workload Balancer] or the [!UICONTROL Resource Planner] for the delegated users. 
 * You can view delegated work and delegates names in several areas of Workfront. For more information, see the section "Locate delegated work and delegates information" in the article [Manage task and issue delegation](../delegate-work/how-to-delegate-work.md).
-* The users that you select as delegates receive the same  permissions as your permissions on the tasks and issues you delegate to them. The permissions must work within their access levels, and sometimes their access levels might be lower than yours.
 
-  It can take up to one hour since the start of the delegation before Workfront shares the delegated items with the delegate.
 
   >[!IMPORTANT]
   >
