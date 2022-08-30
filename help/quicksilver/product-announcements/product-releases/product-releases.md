@@ -11,8 +11,6 @@ exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
 
 Following are links to the release notes for current and past releases.
 
-For release information in addition to product documentation about current releases, see the [Product Releases page](https://one.workfront.com/s/product-releases).
-
 For information about the Adobe Workfront release schedule, see [Adobe Workfront release schedule and process](../../product-announcements/product-releases/workfront-release-schedule.md).
 
 <table style="table-layout:auto"> 
