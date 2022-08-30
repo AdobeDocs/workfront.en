@@ -2471,7 +2471,6 @@ feature-set: Workfront
     * [Uploading files via the API](wf-api/api/uploading-files-api.md)
     * [Ending support for JSONP](wf-api/api/ending-support-jsonp.md)
     * [Update integrations that use default API versioning](wf-api/api/update-default-api-versioning.md)
-    * [Users available time](wf-api/api/api-user-available-time.md)
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
     * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
     * [Specify an API Version in your integrations](wf-api/api/specify-api-version-integrations.md)
