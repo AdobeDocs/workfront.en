@@ -10,11 +10,9 @@ feature: Agile
 
 # Add an intake column to a board
 
->[!NOTE]
->
->An intake column is available only in the Preview environment.
+{{highlighted-preview-article-level}}
 
-You can optionally add an intake column to your board that automatically pulls in tasks and issues as connected cards when they are added in Workfront, based on filters that you defin. The intake column can serve as a backlog column for a Kanban team, an intake location for a support team to see issues as they are added to a request queue, or any other purpose you need.
+You can optionally add an intake column to your board that automatically pulls in tasks and issues as connected cards when they are added in Workfront, based on filters that you define. The intake column can serve as a backlog column for a Kanban team, an intake location for a support team to see issues as they are added to a request queue, or any other purpose you need.
 
 Only one intake column is permitted on a board, and it always appears as the left-most column.
 
@@ -72,7 +70,7 @@ You must have the following access to perform the steps in this article:
 
    This example shows a filter for tasks from a specific project that are in the status of New or In Progress, and are assigned to me.
 
-   For details about building a filter, see the section “Create or edit a filter in the beta builder” in the article [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   For details about building a filter, see the section "Create or edit a filter in the beta builder" in the article [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. Name the filter and click **Save**.
 
