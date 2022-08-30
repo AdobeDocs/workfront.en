@@ -487,7 +487,7 @@ This action module creates a new label for the given repository.
    </tr> 
    <tr> 
    <td role="rowheader">Description</td> 
-   <td>Enter or map a description for the new label</td> 
+   <td>Enter or map a description for the new label.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">Priority</td> 
@@ -516,6 +516,7 @@ This action module creates a new pipeline for the given project.
    <td role="rowheader">Commit Ref</td> 
    <td>Select the branch or tag to run the pipeline on. To select a reference, click <b>Select</b> and fill in the type of reference, the reference's name, and the dates that you want to search for. </td> 
    </tr> 
+   </tbody> 
 </table>
 
 #### Create a new release
@@ -542,6 +543,7 @@ This action module adds release notes to the existing git tag.
    <td role="rowheader">Description</td> 
    <td>Enter or map a description for the release. You can use Markdown in this description.</td> 
    </tr> 
+   </tbody> 
 </table>
 
 #### Create a new tag
@@ -576,6 +578,7 @@ This action module creates a new tag in the repository that points to the suppli
    <td>To add release notes to the Git tag and store it in the GitLab database, add a release description. </td> 
    </tr> 
    </tr> 
+   </tbody> 
 </table>
 
 #### Create a todo
@@ -598,7 +601,8 @@ This action module creates a todo for the current user on the selected issue. Th
    <td role="rowheader">Issue ID</td> 
    <td>Enter or map the ID of the issue that you want to create a todo for. </td> 
    </tr> 
-   </table>
+      </tbody> 
+</table>
 
 #### Create a todo on a merge request
 
@@ -620,7 +624,283 @@ This action module creates a todo for the current user on the selected merge req
    <td role="rowheader">Merge request ID</td> 
    <td><p>Enter or map the ID of the merge request that you want to create a todo for. </p><p>To locate a specific merge request, click <b>Search</b>, select the state of the merge request, and select the merge request from the list.</p> </td> 
    </tr> 
+   </tbody> 
    </table>
+
+#### Create merge request
+
+This action module creates a new merge request on a project.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project where you want to create a merge request.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Source branch</td> 
+   <td> <p>Enter or map the branch that you want to use as the source branch. </p><p>To select the branch from a list, click <b> Select</b> and select the branch.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Target branch</td> 
+   <td> Enter or map a title for the new merge request.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Assignee ID</td> 
+   <td> <p>Enter or map the ID of the user that you want to assign to this merge request. </p><p>To locate a user's ID, click <b> Select</b> and select the user. Workfront Fusion then inserts the selected user's ID into this field.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Description</td> 
+   <td>Enter or map a description for the new merge request.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Target project ID</td> 
+   <td><p>Enter or map the ID of the target project for this merge request. </p><p>To locate a project's ID, click <b> Select</b> and select the project. Workfront Fusion then inserts the selected project's ID into this field.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Labels</td> 
+   <td>Enter or map a comma-separated list of labels to add to this new merge request.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Milestone ID</td> 
+   <td><p>Enter or map the ID of the target project for this merge request. </p><p>To locate a milestone's ID, click <b> Select</b>, select whether to search active or closed milestones, and select the milestone. Workfront Fusion then inserts the selected milestone's ID into this field.</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Remove source branch</td> 
+   <td>Indicate whether you would like to remove the source branch after the merge request successfully merges.</td> 
+   </tr> 
+   </tbody> 
+</table>
+
+#### Create new file in repository
+
+This action module creates a new file in the selected repository.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project where you want to create a file.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Full path</td> 
+   <td> <p>Enter or map the full path to the file in the repository. Use URL encoding. Example: <code>lib%2Fclass%2Erb</code>. </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Branch name</td> 
+   <td> Enter or map a name for the new branch that the commit for the file will be added to.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Encoding</td> 
+   <td> Enter the encoding for this file. Options are <code>base64</code> and <code>text</code>. Default value is <code>text</code>.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Author email</td> 
+   <td>Enter or map the email address of the user that is the author of this commit.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Source file</td> 
+   <td>Select a source file from a previous module, or map the source file's content.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Commit message</td> 
+   <td>Enter or map the text of the commit message for the commit that adds the file.</td> 
+   </tr> 
+   </tbody> 
+</table>
+
+#### Create new issue note
+
+This action module creates an issue note for a single project issue.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project that contains the issue where you want to create a note.</p> </td> 
+   </tr> 
+   <td role="rowheader">Issue ID</td> 
+   <td> <p>Enter or map the ID of the issue where you want to create a note.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Body</td> 
+   <td>Enter or map the body text for the note.</td> 
+   </tr> 
+   </tbody> 
+   </table>
+
+#### Create new merge request note
+
+This action module creates note for a single merge request.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project that contains the merge request where you want to create a note.</p> </td> 
+   </tr> 
+   <td role="rowheader">Merge request ID</td> 
+   <td><p>Enter or map the ID of the merge request where you want to create a note. </p><p>To locate a merge request's ID, click <b> Search</b>, select the status of merge requests to search, and select the merge request. Workfront Fusion then inserts the selected merge request's ID into this field.</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Body</td> 
+   <td>Enter or map the body text for the note.</td> 
+   </tr> 
+   </tbody> 
+   </table>
+
+#### Create a new milestone
+
+This action module creates a new milestone for a project.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project where you want to create a milestone.</p> </td> 
+   </tr> 
+   <td role="rowheader">Title</td> 
+   <td>Enter a title for new milestone.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Description</td> 
+   <td>Enter or map a description for the new milestone.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Due date</td> 
+   <td><p>Enter or map the due date for the new milestone.</p><p>For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Start date</td> 
+   <td><p>Enter or map the start date for the new milestone.</p><p>For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</p></td> 
+   </tr> 
+   </tbody> 
+   </table>
+
+#### Create new snippet note
+
+This action module creates note for a single snippet.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project that contains the snippet where you want to create a note.</p> </td> 
+   </tr> 
+   <td role="rowheader">Snippet ID</td> 
+   <td><p>Enter or map the ID of the snippet where you want to create a note. </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Body</td> 
+   <td>Enter or map the body text for the note.</td> 
+   </tr> 
+   </tbody> 
+   </table>
+
+#### Create repository branch
+
+This action module creates a single repository branch.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project that you want to create a branch in.</p> </td> 
+   </tr> 
+   <td role="rowheader">Branch name</td> 
+   <td><p>Enter or map a name for the new branch</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Ref Type</td> 
+   <td><p>Select whether you want to create the new branch from another branch or from a specific commit.</p><ul><li><p><b>Branch</b></p><p>Select the branch that you want to create the new branch from.</p></li><li><p><b>Commit</b></p><p>Select the commit SHA to build the new branch from</p><p>To locate an SHA, click <b>Select</b>, then select the whether you want to search branches or tags, the branch or tag name, and any limiting dates. Select the branch or tag from the list.  Workfront Fusion then inserts the SHA for the selected branch or tag into this field.</td> 
+   </tr> 
+   </tbody> 
+   </table>
+
+#### Create build variable
+
+This action module creates a new build variable.
+
+<table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select or map the project that you want to create a variable in.</p> </td> 
+   </tr> 
+   <td role="rowheader">Key</td> 
+   <td><p>Enter or map the key for the new variable. The key must have the following features.</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Ref Type</td> 
+   <td><p>Select whether you want to create the new branch from another branch or from a specific commit.</p><ul><li><p><b>Branch</b></p><p>Select the branch that you want to create the new branch from.</p></li><li><p><b>Commit</b></p><p>Select the commit SHA to build the new branch from</p><p>To locate an SHA, click <b>Select</b>, then select the whether you want to search branches or tags, the branch or tag name, and any limiting dates. Select the branch or tag from the list.  Workfront Fusion then inserts the SHA for the selected branch or tag into this field.</td> 
+   </tr> 
+   </tbody> 
+   </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!--
