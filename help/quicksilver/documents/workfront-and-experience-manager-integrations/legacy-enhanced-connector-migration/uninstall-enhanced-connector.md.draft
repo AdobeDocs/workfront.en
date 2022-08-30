@@ -31,14 +31,14 @@ You must uninstall the Workfront with Adobe Experience Manager enhanced connecto
 
    ``` 
    <!-- Workfront Tools -->
-<dependency>
-    <groupId>digital.hoodoo</groupId>
-    <artifactId>workfront-tools.ui.apps</artifactId>
-    <type>zip</type>
-    <version>1.8.0</version>
-    <scope>system</scope>
-    <systemPath>${project.basedir}/ui.apps/src/main/resources/workfront-tools.ui.apps.zip</systemPath>
-</dependency>
+    <dependency>
+        <groupId>digital.hoodoo</groupId>
+        <artifactId>workfront-tools.ui.apps</artifactId>
+        <type>zip</type>
+        <version>1.8.0</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/ui.apps/src/main/resources/workfront-tools.ui.apps.zip</systemPath>
+    </dependency>
     ```
 
     >[!NOTE]
