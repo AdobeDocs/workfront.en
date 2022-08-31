@@ -25,7 +25,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   
   <tr> 
-   <td role="rowheader">Proof review access </td> 
+   <td role="rowheader">Proof access </td> 
    <td>Guest or higher</td> 
   </tr> 
  </tbody> 
