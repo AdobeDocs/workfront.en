@@ -16,6 +16,8 @@ hidefromtoc: true
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 In an Adobe Workfront Fusion scenario, you can automate workflows that use GitLab, as well as connect it to multiple third-party applications and services.
 
+This article expects some familiarity with API documentation, and of GitLab functionality in general.
+
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
@@ -39,7 +41,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
      </tr> 
      <tr> 
       <td role="rowheader">Access Token</td> 
-      <td>Enter your Private Token or Personal Access Token.</td> 
+      <td><p>Enter your Private Token or Personal Access Token.</p><p>For information on locating or creating a personal access token in GitLab, see "Create a personal access token" in <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">Personal access tokens</a> in the GitLab documentation.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -254,42 +256,7 @@ This instant trigger module starts a scenario when a new comment is made on a sn
 
 This scheduled trigger module starts a scenario when a new todo is added. When no filter is applied, the trigger is run when a new pending todo is added.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select the project that you want to watch for todos.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Author ID</td> 
-   <td> Enter or map the ID of the author that you want to return todos for.  </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Action</td> 
-   <td> <p>Select the type of action that created the todos you want to watch.</p>
-   <ul><li>Assigned:</li>
-   <li>Mentioned</li>
-   <li>Build failed: The </li>
-   <li>Marked</li>
-   <li>Approval required</li></ul>
-    </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">State</td> 
-   <td> Select whether you want to watch Pending todos or Done todos. </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Max Results</td> 
-   <td> <p>Enter or map the maximum number of records you want the module to watch during each scenario execution cycle.</p> </td> 
-   </tr> 
-   </tbody> 
-</table>
+For information on fields, see [Get a list of to dos](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) in the GitLab documentation.
 
 #### Watch wiki page {#watch-wiki-page}
 
@@ -310,43 +277,9 @@ This instant trigger module starts a scenario when a wiki page is create or edit
 
 #### Accept merge request
 
-This action module merges submitted with the given merge request.
+This action module merges submitted changes with the given merge request.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select the project that contains the merge request you want to accept.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Merge Request ID</td> 
-   <td> <p>Enter or map the ID of the merge request that you want to accept.</p> <p>To search for a merge request, click <b>Search</b> and select the state of the merge requests you want to search. Select the merge request from the list.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Merge commit message</td> 
-   <td> Enter or map a commit message for the merge.
-    </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Should remove source branch</td> 
-   <td>Select whether you want to remove the source branch when the merge is complete.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Merge when build succeeds</td> 
-   <td>Select whether to merge the merge request as soon as the build is completed.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">SHA</td> 
-   <td>If present, then this SHA must match the HEAD of the source branch. If it does not match, the merge fails.</td> 
-   </tr> 
-   </tbody> 
-</table>
+For information on fields, see [Accept merge request](https://docs.gitlab.com/ee/api/merge_requests.html#accept-mr) in the GitLab documentation.
 
 #### Cancel a build
 
@@ -392,498 +325,104 @@ This action module cancels a single build of a project.
 
 This action module cancels the builds for a single pipeline.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project that contains the pipeline that you want to cancel builds for.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Pipeline ID</td> 
-   <td>Select the pipeline that you want to cancel builds for.</td> 
-   </tr> 
-   </tbody> 
-</table>
+For information on fields, see [Cancel a pipeline's jobs](https://docs.gitlab.com/ee/api/pipelines.html#cancel-a-pipelines-jobs) in the GitLab documentation.
 
 #### Cancel merge when pipeline succeeds
 
 If a merge request is set to merge when a pipeline succeeds, this action module cancels that action.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project that contains the pipeline that you want to cancel the merge for.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Merge Request ID</td> 
-   <td> <p>Enter or map the ID of the merge request that you want to cancel.</p> <p>To search for a merge request, click <b>Search</b> and select the state of the merge requests you want to search. Select the merge request from the list.</p></td> 
-   </tr> 
-   </tbody> 
-</table>
+For information on fields, see [Cancel merge when pipeline succeeds](https://docs.gitlab.com/ee/api/merge_requests.html) in the GitLab documentation.
 
 #### Cherry pick a commit
 
 This action module cherry picks a commit to a given branch.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project that contains the commit that you want to cherry-pick.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Commit SHA</td> 
-   <td> Enter or map the commit hash for the commit you want to cherry pick</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Branch Name</td> 
-   <td>Select the branch for which you want to cherry-pick the commit.</td> 
-   </tr> 
-   </tbody> 
-</table>
+For information on fields, see [Cherry pick a commit](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit) in the GitLab documentation.
 
 #### Create a new label
 
 This action module creates a new label for the given repository.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project that you are creating a label for.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Name</td> 
-   <td> Enter or map a name for the new label</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Color</td> 
-   <td>Enter the color in 6 digit hex notation with a leading # sign.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Description</td> 
-   <td>Enter or map a description for the new label.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Priority</td> 
-   <td>Enter or map the priority of the label. Must be greater than or equal to zero. To remove priority, or to not set priority, leave this field blank. </td> 
-   </tr> 
-   </tbody> 
-</table>
+For information on fields, see [Create a new label](https://docs.gitlab.com/ee/api/labels.html#create-a-new-label) in the GitLab documentation.
 
 #### Create a new pipeline
 
 This action module creates a new pipeline for the given project.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project that you are creating a pipeline for.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Commit Ref</td> 
-   <td>Select the branch or tag to run the pipeline on. To select a reference, click <b>Select</b> and fill in the type of reference, the reference's name, and the dates that you want to search for. </td> 
-   </tr> 
-   </tbody> 
-</table>
+For information on fields, see [Create a new pipeline](https://docs.gitlab.com/ee/api/pipelines.html#create-a-new-pipeline) in the GitLab documentation.
 
 #### Create a new release
 
 This action module adds release notes to the existing git tag.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project that you are creating a release for.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Tag name</td> 
-   <td>Enter or map the name of the tag that the release is created from. </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Description</td> 
-   <td>Enter or map a description for the release. You can use Markdown in this description.</td> 
-   </tr> 
-   </tbody> 
-</table>
+For information on fields, see [Create a release](https://docs.gitlab.com/ee/api/releases/#create-a-release) in the GitLab documentation.
 
 #### Create a new tag
 
 This action module creates a new tag in the repository that points to the supplied ref.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project that you are creating a tag for.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Tag name</td> 
-   <td>Enter or map the name of the new tag. </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Ref Type</td> 
-   <td><p>Select the ref that you are using to create the tag</p><ul><li><p>Branch</p><p>Select the branch that you want to use for this tag.</p></li><li><p>Commit</p><p>Enter or map the commit SHA that you want to use for this tag.</p></li><li><p>Tag</p><p>Enter or map the name of the tag that you want to create this new tag from.</p></li></td> 
-   <tr> 
-   <td role="rowheader">Message</td> 
-   <td>To create an annotated tag, enter a message. An annotated tag is an unchangeable part of Git history.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Release description</td> 
-   <td>To add release notes to the Git tag and store it in the GitLab database, add a release description. </td> 
-   </tr> 
-   </tr> 
-   </tbody> 
-</table>
+For information on fields, see [Create a new tag](https://docs.gitlab.com/ee/api/tags.html#create-a-new-tag) in the GitLab documentation.
 
 #### Create a todo
 
 This action module creates a todo for the current user on the selected issue. The current user is the user identified by the credentials on the connection used for this module.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project that you are creating a todo for.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Issue ID</td> 
-   <td>Enter or map the ID of the issue that you want to create a todo for. </td> 
-   </tr> 
-      </tbody> 
-</table>
+For information on fields, see [Create a to do](https://docs.gitlab.com/ee/api/issues.html#create-a-todo) in the GitLab documentation.
 
 #### Create a todo on a merge request
 
 This action module creates a todo for the current user on the selected merge request. The current user is the user identified by the credentials on the connection used for this module.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project that you are creating a todo for.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Merge request ID</td> 
-   <td><p>Enter or map the ID of the merge request that you want to create a todo for. </p><p>To locate a specific merge request, click <b>Search</b>, select the state of the merge request, and select the merge request from the list.</p> </td> 
-   </tr> 
-   </tbody> 
-   </table>
+For information on fields, see [Create a to-do](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo) in the GitLab documentation.
 
 #### Create merge request
 
 This action module creates a new merge request on a project.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project where you want to create a merge request.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Source branch</td> 
-   <td> <p>Enter or map the branch that you want to use as the source branch. </p><p>To select the branch from a list, click <b> Select</b> and select the branch.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Target branch</td> 
-   <td> Enter or map a title for the new merge request.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Assignee ID</td> 
-   <td> <p>Enter or map the ID of the user that you want to assign to this merge request. </p><p>To locate a user's ID, click <b> Select</b> and select the user. Workfront Fusion then inserts the selected user's ID into this field.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Description</td> 
-   <td>Enter or map a description for the new merge request.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Target project ID</td> 
-   <td><p>Enter or map the ID of the target project for this merge request. </p><p>To locate a project's ID, click <b> Select</b> and select the project. Workfront Fusion then inserts the selected project's ID into this field.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Labels</td> 
-   <td>Enter or map a comma-separated list of labels to add to this new merge request.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Milestone ID</td> 
-   <td><p>Enter or map the ID of the target project for this merge request. </p><p>To locate a milestone's ID, click <b> Select</b>, select whether to search active or closed milestones, and select the milestone. Workfront Fusion then inserts the selected milestone's ID into this field.</p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Remove source branch</td> 
-   <td>Indicate whether you would like to remove the source branch after the merge request successfully merges.</td> 
-   </tr> 
-   </tbody> 
-</table>
+For information on fields, see [Create merge request](https://docs.gitlab.com/ee/api/merge_requests.html#create-mr) in the GitLab documentation.
 
 #### Create new file in repository
 
 This action module creates a new file in the selected repository.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project where you want to create a file.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Full path</td> 
-   <td> <p>Enter or map the full path to the file in the repository. Use URL encoding. Example: <code>lib%2Fclass%2Erb</code>. </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Branch name</td> 
-   <td> Enter or map a name for the new branch that the commit for the file will be added to.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Encoding</td> 
-   <td> Enter the encoding for this file. Options are <code>base64</code> and <code>text</code>. Default value is <code>text</code>.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Author email</td> 
-   <td>Enter or map the email address of the user that is the author of this commit.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Source file</td> 
-   <td>Select a source file from a previous module, or map the source file's content.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Commit message</td> 
-   <td>Enter or map the text of the commit message for the commit that adds the file.</td> 
-   </tr> 
-   </tbody> 
-</table>
+For information on fields, see [Create new file in repository](https://docs.gitlab.com/ee/api/repository_files.html#create-new-file-in-repository) in the GitLab documentation.
 
 #### Create new issue note
 
 This action module creates an issue note for a single project issue.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project that contains the issue where you want to create a note.</p> </td> 
-   </tr> 
-   <td role="rowheader">Issue ID</td> 
-   <td> <p>Enter or map the ID of the issue where you want to create a note.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Body</td> 
-   <td>Enter or map the body text for the note.</td> 
-   </tr> 
-   </tbody> 
-   </table>
+For information on fields, see [Create new issue note](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note) in the GitLab documentation.
 
 #### Create new merge request note
 
 This action module creates note for a single merge request.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project that contains the merge request where you want to create a note.</p> </td> 
-   </tr> 
-   <td role="rowheader">Merge request ID</td> 
-   <td><p>Enter or map the ID of the merge request where you want to create a note. </p><p>To locate a merge request's ID, click <b> Search</b>, select the status of merge requests to search, and select the merge request. Workfront Fusion then inserts the selected merge request's ID into this field.</p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Body</td> 
-   <td>Enter or map the body text for the note.</td> 
-   </tr> 
-   </tbody> 
-   </table>
+For information on fields, see [Create new merge request note](https://docs.gitlab.com/ee/api/notes.html#create-new-merge-request-note) in the GitLab documentation.
 
 #### Create a new milestone
 
 This action module creates a new milestone for a project.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project where you want to create a milestone.</p> </td> 
-   </tr> 
-   <td role="rowheader">Title</td> 
-   <td>Enter a title for new milestone.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Description</td> 
-   <td>Enter or map a description for the new milestone.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Due date</td> 
-   <td><p>Enter or map the due date for the new milestone.</p><p>For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Start date</td> 
-   <td><p>Enter or map the start date for the new milestone.</p><p>For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</p></td> 
-   </tr> 
-   </tbody> 
-   </table>
+For information on fields, see [Create new milestone](https://docs.gitlab.com/ee/api/milestones.html#create-new-milestone) in the GitLab documentation.
 
 #### Create new snippet note
 
-This action module creates note for a single snippet.
+This action module creates a new note for a single snippet. Snippet notes are comments users can post to a snippet.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project that contains the snippet where you want to create a note.</p> </td> 
-   </tr> 
-   <td role="rowheader">Snippet ID</td> 
-   <td><p>Enter or map the ID of the snippet where you want to create a note. </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Body</td> 
-   <td>Enter or map the body text for the note.</td> 
-   </tr> 
-   </tbody> 
-   </table>
+For information on fields, see [Create new snippet note](https://docs.gitlab.com/ee/api/notes.html#create-new-snippet-note) in the GitLab documentation.
 
 #### Create repository branch
 
 This action module creates a single repository branch.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project that you want to create a branch in.</p> </td> 
-   </tr> 
-   <td role="rowheader">Branch name</td> 
-   <td><p>Enter or map a name for the new branch</p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Ref Type</td> 
-   <td><p>Select whether you want to create the new branch from another branch or from a specific commit.</p><ul><li><p><b>Branch</b></p><p>Select the branch that you want to create the new branch from.</p></li><li><p><b>Commit</b></p><p>Select the commit SHA to build the new branch from</p><p>To locate an SHA, click <b>Select</b>, then select the whether you want to search branches or tags, the branch or tag name, and any limiting dates. Select the branch or tag from the list.  Workfront Fusion then inserts the SHA for the selected branch or tag into this field.</td> 
-   </tr> 
-   </tbody> 
-   </table>
+For information on fields, see [Create repository branch](https://docs.gitlab.com/ee/api/branches.html#create-repository-branch) in the GitLab documentation.
 
 #### Create build variable
 
 This action module creates a new build variable.
 
-<table style="table-layout:auto"> 
-   <col> 
-   <col> 
-   <tbody> 
-   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Project ID</td> 
-   <td> <p>Select or map the project that you want to create a variable in.</p> </td> 
-   </tr> 
-   <td role="rowheader">Key</td> 
-   <td><p>Enter or map the key for the new variable. The key must have the following features.</p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Ref Type</td> 
-   <td><p>Select whether you want to create the new branch from another branch or from a specific commit.</p><ul><li><p><b>Branch</b></p><p>Select the branch that you want to create the new branch from.</p></li><li><p><b>Commit</b></p><p>Select the commit SHA to build the new branch from</p><p>To locate an SHA, click <b>Select</b>, then select the whether you want to search branches or tags, the branch or tag name, and any limiting dates. Select the branch or tag from the list.  Workfront Fusion then inserts the SHA for the selected branch or tag into this field.</td> 
-   </tr> 
-   </tbody> 
-   </table>
+For information on fields, see [Create variable](https://docs.gitlab.com/ee/api/project_level_variables.html#create-variable) in the GitLab documentation.
+
 
 
 
@@ -1197,12 +736,6 @@ This action module retrieves a single note for a specific project issue.
 
 For information on fields, see [Get single issue note](https://docs.gitlab.com/ee/api/notes.html#get-single-issue-note) in the GitLab documentation.
 
-#### Create an Issue Note {#create-an-issue-note}
-
-This action module creates a new note to a single project issue.
-
-For information on fields, see [Create new issue note](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note) in the GitLab documentation.
-
 #### Update an Issue Note {#update-an-issue-note}
 
 Modifies an existing note of an issue.
@@ -1273,12 +806,6 @@ This action module adds a comment to a commit.
 
 For information on fields, see [Post comment to commit](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) in the GitLab documentation.
 
-#### Cherry Pick a Commit {#cherry-pick-a-commit}
-
-This action module cherry picks a commit to a given branch.
-
-For information on fields, see [Cherry pick a commit](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit) in the GitLab documentation.
-
 ### Merge Requests {#merge-requests}
 
 * [Watch Merge Requests](#watch-merge-requests) 
@@ -1347,23 +874,11 @@ This action module retrieves a list of merge request commits.
 
 For information on fields, see [Get single merge request commits](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits) in the GitLab documentation.
 
-#### Create a Merge Request {#create-a-merge-request}
-
-This action module creates a new merge request.
-
-For information on fields, see [Create merge request](https://docs.gitlab.com/ee/api/merge_requests.html#create-mr) in the GitLab documentation.
-
 #### Update a Merge Request {#update-a-merge-request}
 
 This action module updates an existing merge request. You can change the target branch, title, or even close the MR.
 
 For information on fields, see [Update merge request](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr) in the GitLab documentation.
-
-#### Create a To-do Item on a Merge Request {#create-a-to-do-item-on-a-merge-request}
-
-This action module manually creates a to-do item for the current user on a merge request.
-
-For information on fields, see [Create a to-do](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo) in the GitLab documentation.
 
 #### Accept a Merge Request {#accept-a-merge-request}
 
@@ -1376,12 +891,6 @@ For information on fields, see [Accept merge request](https://docs.gitlab.com/ee
 This action module is only for admins and project owners. It deletes the merge request in question
 
 For information on fields, see Delete a merge request in the GitLab documentation.
-
-#### Cancel Merge When Pipeline Succeeds {#cancel-merge-when-pipeline-succeeds}
-
-This action module cancels a merge request when the pipeline succeeds.
-
-For information on fields, see [Cancel merge when pipeline succeeds](https://docs.gitlab.com/ee/api/merge_requests.html) in the GitLab documentation.
 
 ### Merge Request Notes {#merge-request-notes}
 
@@ -1401,12 +910,6 @@ For information on fields, see [List all merge request notes](https://docs.gitla
 This action module returns a single note for a given merge request.
 
 For information on fields, see [Get single merge request note](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note) in the GitLab documentation.
-
-#### Create a Merge Request Note {#create-a-merge-request-note}
-
-Creates a new note for a single merge request.
-
-For information on fields, see [Create new merge request note](https://docs.gitlab.com/ee/api/notes.html#create-new-merge-request-note) in the GitLab documentation.
 
 #### Update a Merge Request Note {#update-a-merge-request-note}
 
@@ -1447,12 +950,6 @@ This action module retrieves file content from a repository.
 
 For information on fields, see [Get raw file from repository](https://docs.gitlab.com/ee/api/repository_files.html#get-raw-file-from-repository) in the GitLab documentation.
 
-#### Create a File in Repository {#create-a-file-in-repository}
-
-This action module adds a file to the repository.
-
-For information on fields, see [Create new file in repository](https://docs.gitlab.com/ee/api/repository_files.html#create-new-file-in-repository) in the GitLab documentation.
-
 #### Delete a File in Repository {#delete-a-file-in-repository}
 
 This action module deletes an existing file from the repository.
@@ -1477,12 +974,6 @@ For information on fields, see [List repository branches](https://docs.gitlab.co
 This action module retrieves repository branch details.
 
 For information on fields, see [Get single repository branch](https://docs.gitlab.com/ee/api/branches.html#get-single-repository-branch) in the GitLab documentation.
-
-#### Create a Repository Branch {#create-a-repository-branch}
-
-This action module creates a new branch in the repository.
-
-For information on fields, see [Create repository branch](https://docs.gitlab.com/ee/api/branches.html#create-repository-branch) in the GitLab documentation.
 
 #### Delete a Repository Branch {#delete-a-repository-branch}
 
@@ -1539,12 +1030,6 @@ For information on fields, see [Get a single pipeline](https://docs.gitlab.com/e
 This action module retries failed builds in a pipeline.
 
 For information on fields, see [Retry jobs in a pipeline](https://docs.gitlab.com/ee/api/pipelines.html#retry-jobs-in-a-pipeline) in the GitLab documentation.
-
-#### Create a Pipeline {#create-a-pipeline}
-
-This action module creates a new pipeline.
-
-For information on fields, see [Create a new pipeline](https://docs.gitlab.com/ee/api/pipelines.html#create-a-new-pipeline) in the GitLab documentation.
 
 #### Cancel a Pipeline's Jobs {#cancel-a-pipeline-s-jobs}
 
@@ -1664,12 +1149,6 @@ This action module retrieves a specific repository tag determined by its name.
 
 For information on fields, see [Get a single repository tag](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag) in the GitLab documentation.
 
-#### Create a Tag {#create-a-tag}
-
-This action module creates a new tag in the repository that points to the supplied ref.
-
-For information on fields, see [Create a new tag](https://docs.gitlab.com/ee/api/tags.html#create-a-new-tag) in the GitLab documentation.
-
 #### Delete a Tag {#delete-a-tag}
 
 This action module deletes a tag.
@@ -1694,12 +1173,6 @@ For information on fields, see [Get a list of to dos](https://docs.gitlab.com/ee
 This search module retrieves a list of to-do items.
 
 For information on fields, see [Get a list of to dos](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) in the GitLab documentation.
-
-#### Create a To-do Item {#create-a-to-do-item}
-
-This action module creates a to-do item for the authenticated user on an issue.
-
-For information on fields, see [Create a to do](https://docs.gitlab.com/ee/api/issues.html#create-a-todo) in the GitLab documentation.
 
 #### Mark a To-do Item as Done {#mark-a-to-do-item-as-done}
 
@@ -1727,11 +1200,7 @@ This action module retrieves label details.
 
 For information on fields, see [Get a single project label](https://docs.gitlab.com/ee/api/labels.html#get-a-single-project-label) in the GitLab documentation.
 
-#### Create a Label {#create-a-label}
 
-This action module creates a new label for the given repository with the given name and color.
-
-For information on fields, see [Create a new label](https://docs.gitlab.com/ee/api/labels.html#create-a-new-label) in the GitLab documentation.
 
 #### Update a Label {#update-a-label}
 
@@ -1765,12 +1234,6 @@ This action module retrieves milestone details.
 
 For information on fields, see [Get single milestone](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone) in the GitLab documentation.
 
-#### Create a Milestone {#create-a-milestone}
-
-This action module creates a new project milestone.
-
-For information on fields, see [Create new milestone](https://docs.gitlab.com/ee/api/milestones.html#create-new-milestone) in the GitLab documentation.
-
 #### Update a Milestone {#update-a-milestone}
 
 This action module updates an existing project milestone.
@@ -1802,12 +1265,6 @@ For information on fields, see [List project variables](https://docs.gitlab.com/
 This module retrieves details of a project's specific variable.
 
 For information on fields, see [Show variable details](https://docs.gitlab.com/ee/api/project_level_variables.html#show-variable-details) in the GitLab documentation.
-
-#### Create a Variable {#create-a-variable}
-
-This action module creates a new variable.
-
-For information on fields, see [Create variable](https://docs.gitlab.com/ee/api/project_level_variables.html#create-variable) in the GitLab documentation.
 
 #### Update a Variable {#update-a-variable}
 
@@ -1865,12 +1322,6 @@ This module retrieves a single note for a given snippet.
 
 For information on fields, see [Get a single snippet note](https://docs.gitlab.com/ee/api/notes.html#get-single-snippet-note) in the GitLab documentation.
 
-#### Create a Snippet Note {#create-a-snippet-note}
-
-This action module creates a new note for a single snippet. Snippet notes are comments users can post to a snippet.
-
-For information on fields, see [Create new snippet note](https://docs.gitlab.com/ee/api/notes.html#create-new-snippet-note) in the GitLab documentation.
-
 #### Update a Snippet Note {#update-a-snippet-note}
 
 This action module modifies an existing note of a snippet.
@@ -1906,12 +1357,6 @@ For information on fields, see [List project deployments](https://docs.gitlab.co
 
 * [Create a Release](#create-a-release) 
 * [Update a Release](#update-a-release)
-
-#### Create a Release {#create-a-release}
-
-This action module creates a release.
-
-For information on fields, see [Create a release](https://docs.gitlab.com/ee/api/releases/#create-a-release) in the GitLab documentation.
 
 #### Update a Release {#update-a-release}
 
