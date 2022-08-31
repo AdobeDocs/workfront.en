@@ -88,7 +88,7 @@ To find the predecessors of a task do one of the following:
 
       <span class="preview">Hover over this value to get more information on the predecessor, the project and the dates.</span>
 
-      <span class="preview">![Predecessor details](assets/cross-project-predecessor-in-task-view-350x165.png)</span>
+      <span class="preview">![Predecessor details](assets/predecessor-details-in-task-list.png)</span>
 
 ## Examples of predecessor values in a task list {#examples-of-predecessor-values-in-a-task-list}
 

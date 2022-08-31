@@ -68,7 +68,7 @@ You must have the following access to perform the steps in this article:
 
    For more information about the relationship types available in the Predecessors column, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) in [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-## View predecessor details (available in Preview only)
+## View predecessor details (available only in the Preview environment)
 
 <span class="preview">You can quickly view details about the predecessor from the task list.</span>
 
@@ -78,21 +78,21 @@ You must have the following access to perform the steps in this article:
 
    A box with the details of the predecessor displays.
 
-   ![Predecessor details](assets/cpr4-350x175.png)
+   ![Predecessor details](assets/predecessor-details-in-task-list.png)
 
    The following details are displayed:
 
-   **Predecessor name:** The name of the predecessor that is being referenced. The task number of the predecessor is included. For cross-project predecessors, you can click the task name to open it in a new browser window. In the above example, the predecessor is Market Research.
+   **Predecessor name:** The name of the predecessor that is being referenced. The task number of the predecessor is included. For cross-project predecessors, you can click the task name to open it in a new browser window. In the above example, the predecessor is Production/Execution/Delivery.
 
-   **Project name:** The name of the project where the predecessor resides. The project is identified as the current project or a cross project. In the above example, the project name is Target Markets.
+   **Project name:** The name of the project where the predecessor resides. The project is identified as the current project or a cross project. In the above example, the project name is Digital Asset Production (Integrated) - Project.
 
-   You can expand the project details to see the project's start and end dates, condition, status, percent complete, and owner. For a cross project, you can then click See project to open the project in a new browser window.
+   You can expand the project details to see the project's planned start and end dates, condition, status, percent complete, and owner. For a cross project, you can then click **See Project** to open the project in a new browser window.
 
-   **Start:** The date when the predecessor task was requested.
+   **Planned Start:** The planned start date of the predecessor task.
 
-   **End Date:** The date when the predecessor task is due.
+   **Planned End:** The planned completion date of the predecessor task.
 
-   **Number of predecessors:** The number of predecessors for the predecessor being referenced. In the above example, the predecessor being referenced has 0 predecessors.
+   **Number of predecessors:** The number of predecessors for the predecessor being referenced. In the above example, the predecessor being referenced has 1 predecessor.
 
    **Number of successors:** The number of successor (or dependent) tasks for the predecessor being referenced. In the above example, the predecessor being referenced has 1 successor.
 
