@@ -68,7 +68,7 @@ You must have the following access to perform the steps in this article:
 
    For more information about the relationship types available in the Predecessors column, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) in [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-## View predecessor details (available in Preview only)
+## View predecessor details (available only in the Preview environment)
 
 <span class="preview">You can quickly view details about the predecessor from the task list.</span>
 
