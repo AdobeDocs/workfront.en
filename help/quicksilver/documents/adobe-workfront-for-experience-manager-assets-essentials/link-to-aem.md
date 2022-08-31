@@ -11,6 +11,8 @@ exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
 
 You can link an asset or folder from Experience Manager Assets or Assets Essentials to any Adobe Workfront object that supports documents. Assets sent from Assets Essentials don't count towards your overall document storage in Workfront. Documents uploaded and sent from Workfront to Assets Essentials do count towards overall storage.
 
+Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets or Assets Essentials. Project fields remain up to date if they are changed in either application.
+
 ## Access requirements
 
 You must have the following:

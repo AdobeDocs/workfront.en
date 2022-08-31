@@ -173,7 +173,9 @@ To assign tasks in a list:
 1. To assign tasks do one of the following:
 
    * Click inside the **Assigned To** or **Assigned** fields and start typing the name of an active user that you want to assign to the task, then click it when it displays in the list.
-   * Click inside the **Assignments** field and start typing the name of an active user, `job role`, or team that you want to assign to the task, then click it when it displays in the list.
+   * Click inside the **Assignments** field and start typing the name of an active user, job role, or team that you want to assign to the task, then click it when it displays in the list.
+
+      <!--drafted for unique identifier story for 22.4 and yellow - make it a TIP when live:  <span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>--> 
 
 1. (Conditional) When visible in the **Assignments** field, click the **People** icon  in the upper-right corner of the assignments box to open the **Advanced Assignments** box and create advanced assignments.
 
@@ -187,7 +189,7 @@ To assign tasks in a list:
    >
    >You cannot make advanced assignments from the Assigned To or Assigned fields.
 
-1. After adding your assignees to the task, press Enter or click anywhere on the page to save your changes if you selected Autosave. Otherwise, click**Save**.
+1. After adding your assignees to the task, press Enter or click anywhere on the page to save your changes if you selected Autosave. Otherwise, click **Save**.
 
 ## Assign multiple tasks to a user
 
