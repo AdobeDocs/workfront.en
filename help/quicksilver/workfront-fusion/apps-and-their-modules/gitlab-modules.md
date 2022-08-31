@@ -423,8 +423,213 @@ This action module creates a new build variable.
 
 For information on fields, see [Create variable](https://docs.gitlab.com/ee/api/project_level_variables.html#create-variable) in the GitLab documentation.
 
+#### Delete a merge request {#delete-a-merge-request}
 
+This action module is only for admins and project owners. It deletes the merge request in question
 
+For information on fields, see Delete a merge request in the GitLab documentation.
+
+#### Delete existing file in repository {#delete-a-file-in-repository}
+
+This action module deletes an existing file from the repository.
+
+For information on fields, see [Delete existing file in repository](https://docs.gitlab.com/ee/api/repository_files.html#delete-existing-file-in-repository) in the GitLab documentation.
+
+#### Delete repository branch {#delete-a-repository-branch}
+
+This action module deletes a branch from the repository.
+
+For information on fields, see [Delete repository branch](https://docs.gitlab.com/ee/api/branches.html#delete-repository-branch) in the GitLab documentation.
+
+#### Edit issue {#update-an-issue}
+
+This action module updates an existing project issue. This call is also used to mark an issue as closed.
+
+For information on fields, see [Edit issue](https://docs.gitlab.com/ee/api/issues.html#edit-issue) in the GitLab documentation.
+
+#### Edit mMilestone {#update-a-milestone}
+
+This action module updates an existing project milestone.
+
+For information on fields, see [Edit milestone](https://docs.gitlab.com/ee/api/milestones.html#edit-milestone) in the GitLab documentation.
+
+#### Erase a build {#erase-a-job}
+
+This action module erases a build of a project (removes job artifacts and job log).
+
+For information on fields, see [Erase a job](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job) in the GitLab documentation.
+
+#### Get a list of todos {#list-to-do-items}
+
+This search module retrieves a list of to-do items.
+
+For information on fields, see [Get a list of to dos](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) in the GitLab documentation.
+
+#### Get a single build {#get-a-job}
+
+This action module retrieves a single job of a project.
+
+For information on fields, see [Get a single job](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job) in the GitLab documentation.
+
+#### Get a single repository tag {#get-a-tag}
+
+This action module retrieves a specific repository tag determined by its name.
+
+For information on fields, see [Get a single repository tag](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag) in the GitLab documentation.
+
+#### Get a specific deployment {#get-a-tag}
+
+This action module retrieves a specific deployment.
+
+For information on fields, see [Get a specific deployment](https://docs.gitlab.com/ee/api/deployments.html#get-a-specific-deployment) in the GitLab documentation.
+
+#### Get all issues assigned to a single milestone {#list-milestone-issues}
+
+This search module retrieves all issues assigned to a single project milestone.
+
+For information on fields, see [Get all issues assigned to a single milestone](https://docs.gitlab.com/ee/api/milestones.html#get-all-issues-assigned-to-a-single-milestone) in the GitLab documentation.
+
+#### Get file from repository {#get-a-file-from-repository}
+
+This action module retrieves information about a file in the repository like name, size, or content.
+
+For information on fields, see [Get file from repository](https://docs.gitlab.com/ee/api/repository_files.html#get-file-from-repository) in the GitLab documentation.
+
+#### Get project users {#list-a-project-s-users}
+
+This search module retrieves the users of the project.
+
+For information on fields, see [Get project users](https://docs.gitlab.com/ee/api/projects.html#get-project-users) in the GitLab documentation.
+
+#### Get a single issue {#get-an-issue}
+
+This action module retrieves issue details.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>To create a new connection, see <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Project</td> 
+   <td> <p>Select the project that contains the issue you want to retrieve details about.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Issue ID</td> 
+   <td> <p>Enter or map the name of the issue you want to retrieve details about.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Get single issue note {#get-an-issue-note}
+
+This action module retrieves a single note for a specific project issue.
+
+For information on fields, see [Get single issue note](https://docs.gitlab.com/ee/api/notes.html#get-single-issue-note) in the GitLab documentation.
+
+#### Get single merge request {#get-a-merge-request}
+
+This action module retrieves information about a single merge request.
+
+For information on fields, see [Get single merge request](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr) in the GitLab documentation.
+
+#### Get single merge request changes {#list-merge-request-changes}
+
+This search module retrieves information about the merge request including its files and changes.
+
+For information on fields, see [Get single merge request changes](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-changes) in the GitLab documentation.
+
+#### Get single merge request commits {#get-merge-request-commits}
+
+This action module retrieves a list of merge request commits.
+
+For information on fields, see [Get single merge request commits](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits) in the GitLab documentation.
+
+#### Get single merge request note {#get-a-merge-request-note}
+
+This action module returns a single note for a given merge request.
+
+For information on fields, see [Get single merge request note](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note) in the GitLab documentation.
+
+#### Get a Milestone {#get-a-milestone}
+
+This action module retrieves milestone details.
+
+For information on fields, see [Get single milestone](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone) in the GitLab documentation.
+
+#### Get single project {#get-a-project}
+
+This action module retrieves project details.
+
+For information on fields, see [Get single project](https://docs.gitlab.com/ee/api/projects.html#get-single-project) in the GitLab documentation.
+
+#### Get single repository branch {#get-a-repository-branch}
+
+This action module retrieves repository branch details.
+
+For information on fields, see [Get single repository branch](https://docs.gitlab.com/ee/api/branches.html#get-single-repository-branch) in the GitLab documentation.
+
+#### Get snippet note {#get-a-snippet-note}
+
+This module retrieves a single note for a given snippet.
+
+For information on fields, see [Get a single snippet note](https://docs.gitlab.com/ee/api/notes.html#get-single-snippet-note) in the GitLab documentation.
+
+#### Get the comments of a commit {#list-commit-comments}
+
+This search module retrieves comments of a commit in a project.
+
+For information on fields, see [Get the comments of a commit](https://docs.gitlab.com/ee/api/commits.html#get-the-comments-of-a-commit) in the GitLab documentation.
+
+#### Get the diff of a commit {#get-a-diff-of-a-commit}
+
+This action module gets the diff of a commit in a project.
+
+For information on fields, see [Get the diff of a commit](https://docs.gitlab.com/ee/api/commits.html#get-the-diff-of-a-commit) in the GitLab documentation.
+
+#### Keep artifacts {#keep-artifacts}
+
+Prevents artifacts from being deleted when expiration is set.
+
+For information on fields, see [Keep artifacts](https://docs.gitlab.com/ee/api/job_artifacts.html#keep-artifacts) in the GitLab documentation.
+
+#### List all merge request notes {#list-merge-request-notes}
+
+This search module retrieves a list of all notes for a single merge request.
+
+For information on fields, see [List all merge request notes](https://docs.gitlab.com/ee/api/notes.html#list-all-merge-request-notes) in the GitLab documentation.
+
+#### List all snippet notes {#list-snippet-notes}
+
+This module gets a list of all notes for a single snippet. Snippet notes are comments users can post to a snippet.
+
+For information on fields, see [](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) in the GitLab documentation.
+
+#### Get a single issue {#get-an-issue}
+
+This action module retrieves issue details.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>To create a new connection, see <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Project ID</td> 
+   <td> <p>Select the project that contains the commit that you want to list builds for.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Scope</td> 
+   <td> To limit the search to build with a specific status, select the status. Leaving this field blank returns all builds of the commit.  </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 
 
@@ -581,18 +786,6 @@ This search module retrieves projects where the authenticated user is set as own
 
 For information on fields, see [List user projects](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) in the GitLab documentation.
 
-#### List a Project's Users {#list-a-project-s-users}
-
-This search module retrieves the users of the project.
-
-For information on fields, see [Get project users](https://docs.gitlab.com/ee/api/projects.html#get-project-users) in the GitLab documentation.
-
-#### Get a Project {#get-a-project}
-
-This action module retrieves project details.
-
-For information on fields, see [Get single project](https://docs.gitlab.com/ee/api/projects.html#get-single-project) in the GitLab documentation.
-
 ### Issues {#issues}
 
 * [Watch Issues](#watch-issues) 
@@ -628,28 +821,7 @@ This trigger module starts a scenario when a new issue is created, or an existin
  </tbody> 
 </table>
 
-#### Get an Issue {#get-an-issue}
 
-This action module retrieves issue details.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>To create a new connection, see <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Project</td> 
-   <td> <p>Select the project that contains the issue you want to retrieve details about.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Issue ID</td> 
-   <td> <p>Enter or map the name of the issue you want to retrieve details about.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 #### Search Issues {#search-issues}
 
@@ -663,12 +835,6 @@ This search module returns all issues in a specified project.
 
 For information on fields, see [List project issues](https://docs.gitlab.com/ee/api/issues.html#list-project-issues) in the GitLab documentation.
 
-#### List Milestone Issues {#list-milestone-issues}
-
-This search module retrieves all issues assigned to a single project milestone.
-
-For information on fields, see [Get all issues assigned to a single milestone](https://docs.gitlab.com/ee/api/milestones.html#get-all-issues-assigned-to-a-single-milestone) in the GitLab documentation.
-
 #### List Issues That Close on Merge {#list-issues-that-close-on-merge}
 
 This search module retrieves all the issues that would be closed by merging the provided merge request.
@@ -680,12 +846,6 @@ For information on fields, see [List issues that will close on merge](https://do
 This action module creates a new project issue.
 
 For information on fields, see [New issue](https://www.integromat.com/en/help/app/gitlab) in the GitLab documentation.
-
-#### Update an Issue {#update-an-issue}
-
-This action module updates an existing project issue. This call is also used to mark an issue as closed.
-
-For information on fields, see [Edit issue](https://docs.gitlab.com/ee/api/issues.html#edit-issue) in the GitLab documentation.
 
 #### Delete an Issue {#delete-an-issue}
 
@@ -730,12 +890,6 @@ This search module retrieves a list of all notes for a single issue.
 
 For information on fields, see [List project issue notes](https://docs.gitlab.com/ee/api/notes.html#list-project-issue-notes) in the GitLab documentation.
 
-#### Get an Issue Note {#get-an-issue-note}
-
-This action module retrieves a single note for a specific project issue.
-
-For information on fields, see [Get single issue note](https://docs.gitlab.com/ee/api/notes.html#get-single-issue-note) in the GitLab documentation.
-
 #### Update an Issue Note {#update-an-issue-note}
 
 Modifies an existing note of an issue.
@@ -776,12 +930,6 @@ This trigger module starts a scenario when you push to the repository, except wh
 * [Post a Comment to Commit](#post-a-comment-to-commit) 
 * [Cherry Pick a Commit](#cherry-pick-a-commit)
 
-#### List Commit Comments {#list-commit-comments}
-
-This search module retrieves comments of a commit in a project.
-
-For information on fields, see [Get the comments of a commit](https://docs.gitlab.com/ee/api/commits.html#get-the-comments-of-a-commit) in the GitLab documentation.
-
 #### Search Repository Commits {#search-repository-commits}
 
 This search module retrieves a list of repository commits in a project.
@@ -793,12 +941,6 @@ For information on fields, see [List repository commits](https://docs.gitlab.com
 This action module retrieves a specific commit identified by the commit hash or name of a branch or tag.
 
 For information on fields, see [Get a single commit](https://docs.gitlab.com/ee/api/commits.html#get-a-single-commit) in the GitLab documentation.
-
-#### Get a Diff of a Commit {#get-a-diff-of-a-commit}
-
-This action module gets the diff of a commit in a project.
-
-For information on fields, see [Get the diff of a commit](https://docs.gitlab.com/ee/api/commits.html#get-the-diff-of-a-commit) in the GitLab documentation.
 
 #### Post a Comment to Commit {#post-a-comment-to-commit}
 
@@ -850,29 +992,11 @@ This search module retrieves all merge requests by the filter settings.
 
 For information on fields, see [List merge requests](https://docs.gitlab.com/ee/api/merge_requests.html#list-merge-requests) in the GitLab documentation.
 
-#### List Merge Request Changes {#list-merge-request-changes}
-
-This search module retrieves information about the merge request including its files and changes.
-
-For information on fields, see [Get single merge request changes](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-changes) in the GitLab documentation.
-
 #### List Merge Requests Closing an Issue {#list-merge-requests-closing-an-issue}
 
 This search module retrieves all the issues that will be closed by merging the provided merge request.
 
 For information on fields, see [List issues that will close on merge](https://docs.gitlab.com/ee/api/merge_requests.html#list-issues-that-will-close-on-merge) in the GitLab documentation.
-
-#### Get a Merge Request {#get-a-merge-request}
-
-This action module retrieves information about a single merge request.
-
-For information on fields, see [Get single merge request](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr) in the GitLab documentation.
-
-#### Get Merge Request Commits {#get-merge-request-commits}
-
-This action module retrieves a list of merge request commits.
-
-For information on fields, see [Get single merge request commits](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits) in the GitLab documentation.
 
 #### Update a Merge Request {#update-a-merge-request}
 
@@ -886,30 +1010,12 @@ This action module merges changes submitted with merge request.
 
 For information on fields, see [Accept merge request](https://docs.gitlab.com/ee/api/merge_requests.html#accept-mr) in the GitLab documentation.
 
-#### Delete a Merge Request {#delete-a-merge-request}
-
-This action module is only for admins and project owners. It deletes the merge request in question
-
-For information on fields, see Delete a merge request in the GitLab documentation.
-
 ### Merge Request Notes {#merge-request-notes}
 
 * [List Merge Request Notes](#list-merge-request-notes) 
 * [Get a Merge Request Note](#get-a-merge-request-note) 
 * [Create a Merge Request Note](#create-a-merge-request-note) 
 * [Update a Merge Request Note](#update-a-merge-request-note)
-
-#### List Merge Request Notes {#list-merge-request-notes}
-
-This search module retrieves a list of all notes for a single merge request.
-
-For information on fields, see [List all merge request notes](https://docs.gitlab.com/ee/api/notes.html#list-all-merge-request-notes) in the GitLab documentation.
-
-#### Get a Merge Request Note {#get-a-merge-request-note}
-
-This action module returns a single note for a given merge request.
-
-For information on fields, see [Get single merge request note](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note) in the GitLab documentation.
 
 #### Update a Merge Request Note {#update-a-merge-request-note}
 
@@ -938,23 +1044,11 @@ This search module retrieves a list of repository files and directories in a pro
 
 For information on fields, see [List repository tree](https://docs.gitlab.com/ee/api/repositories.html#list-repository-tree) in the GitLab documentation.
 
-#### Get a File From Repository {#get-a-file-from-repository}
-
-This action module retrieves information about a file in the repository like name, size, or content.
-
-For information on fields, see [Get file from repository](https://docs.gitlab.com/ee/api/repository_files.html#get-file-from-repository) in the GitLab documentation.
-
 #### Get a Raw File From Repository {#get-a-raw-file-from-repository}
 
 This action module retrieves file content from a repository.
 
 For information on fields, see [Get raw file from repository](https://docs.gitlab.com/ee/api/repository_files.html#get-raw-file-from-repository) in the GitLab documentation.
-
-#### Delete a File in Repository {#delete-a-file-in-repository}
-
-This action module deletes an existing file from the repository.
-
-For information on fields, see [Delete existing file in repository](https://docs.gitlab.com/ee/api/repository_files.html#delete-existing-file-in-repository) in the GitLab documentation.
 
 ### Branches {#branches}
 
@@ -968,18 +1062,6 @@ For information on fields, see [Delete existing file in repository](https://docs
 This module searches for repository branches by the search term.
 
 For information on fields, see [List repository branches](https://docs.gitlab.com/ee/api/branches.html#list-repository-branches) in the GitLab documentation.
-
-#### Get a Repository Branch {#get-a-repository-branch}
-
-This action module retrieves repository branch details.
-
-For information on fields, see [Get single repository branch](https://docs.gitlab.com/ee/api/branches.html#get-single-repository-branch) in the GitLab documentation.
-
-#### Delete a Repository Branch {#delete-a-repository-branch}
-
-This action module deletes a branch from the repository.
-
-For information on fields, see [Delete repository branch](https://docs.gitlab.com/ee/api/branches.html#delete-repository-branch) in the GitLab documentation.
 
 ### Pipeline {#pipeline}
 
@@ -1076,12 +1158,6 @@ This search module retrieves a list of jobs in a project.
 
 For information on fields, see [List project jobs](https://docs.gitlab.com/ee/api/jobs.html#list-project-jobs) in the GitLab documentation.
 
-#### Get a Job {#get-a-job}
-
-This action module retrieves a single job of a project.
-
-For information on fields, see [Get a single job](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job) in the GitLab documentation.
-
 #### Cancel a Job {#cancel-a-job}
 
 This action module cancels a single job of a project.
@@ -1093,18 +1169,6 @@ For information on fields, see [Cancel a job](https://docs.gitlab.com/ee/api/job
 This action module triggers a manual action to start a job.
 
 For information on fields, see [Play a job](https://docs.gitlab.com/ee/api/jobs.html#play-a-job) in the GitLab documentation.
-
-#### Erase a Job {#erase-a-job}
-
-This action module erases a job of a project (removes job artifacts and job log).
-
-For information on fields, see [Erase a job](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job) in the GitLab documentation.
-
-#### Keep Artifacts {#keep-artifacts}
-
-Prevents artifacts from being deleted when expiration is set.
-
-For information on fields, see [Keep artifacts](https://docs.gitlab.com/ee/api/job_artifacts.html#keep-artifacts) in the GitLab documentation.
 
 ### Tags {#tags}
 
@@ -1143,12 +1207,6 @@ This search module retrieves a list of repository tags from a project, sorted by
 
 For information on fields, see [List project repository tags](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags) in the GitLab documentation.
 
-#### Get a Tag {#get-a-tag}
-
-This action module retrieves a specific repository tag determined by its name.
-
-For information on fields, see [Get a single repository tag](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag) in the GitLab documentation.
-
 #### Delete a Tag {#delete-a-tag}
 
 This action module deletes a tag.
@@ -1165,12 +1223,6 @@ For information on fields, see [Delete a tag](https://docs.gitlab.com/ee/api/tag
 #### Watch To-do Items {#watch-to-do-items}
 
 This module retrieves to-do item details when a new item is added.
-
-For information on fields, see [Get a list of to dos](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) in the GitLab documentation.
-
-#### List To-do Items {#list-to-do-items}
-
-This search module retrieves a list of to-do items.
 
 For information on fields, see [Get a list of to dos](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) in the GitLab documentation.
 
@@ -1227,18 +1279,6 @@ For information on fields, see [Delete a label](https://docs.gitlab.com/ee/api/l
 This search module retrieves all milestones in the project.
 
 For information on fields, see [List project milestones](https://docs.gitlab.com/ee/api/milestones.html#list-project-milestones) in the GitLab documentation.
-
-#### Get a Milestone {#get-a-milestone}
-
-This action module retrieves milestone details.
-
-For information on fields, see [Get single milestone](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone) in the GitLab documentation.
-
-#### Update a Milestone {#update-a-milestone}
-
-This action module updates an existing project milestone.
-
-For information on fields, see [Edit milestone](https://docs.gitlab.com/ee/api/milestones.html#edit-milestone) in the GitLab documentation.
 
 #### Delete a Milestone
 
@@ -1309,12 +1349,6 @@ This trigger module starts a scenario when a wiki page is created, updated, or d
 * [Get a Snippet Note](#get-a-snippet-note) 
 * [Create a Snippet Note](#create-a-snippet-note) 
 * [Update a Snippet Note](#update-a-snippet-note)
-
-#### List Snippet Notes {#list-snippet-notes}
-
-This module gets a list of all notes for a single snippet. Snippet notes are comments users can post to a snippet.
-
-For information on fields, see [List all snippet notes](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) in the GitLab documentation.
 
 #### Get a Snippet Note {#get-a-snippet-note}
 
