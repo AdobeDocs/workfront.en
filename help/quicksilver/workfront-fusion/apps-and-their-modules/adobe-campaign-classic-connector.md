@@ -59,6 +59,36 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
+### Triggers
+
+#### Watch records
+
+This scheduled trigger module starts a scenario when a record changes.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">x</td> 
+   <td>x</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">x </td> 
+   <td>x</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">x</td> 
+   <td> x </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 ### Actions
 
 #### Create a record
