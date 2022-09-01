@@ -43,7 +43,8 @@ Consider the following when you delegate tasks and issues:
   * Reviewers can delegate work to others. They cannot view work items in their [!UICONTROL Home] area. They can view only approvals. 
   * Requestors cannot delegate work to others. They cannot view work items in their [!UICONTROL Home] area
 * You can only delegate the tasks and issues assigned to you. You cannot delegate tasks and issues that are assigned to other users, teams, or job roles.
-<!-- drafted this bullet - make it live when the change is made during 22.4 release: * You can only delegate tasks and issues that are not completed before the delegation's start date. If a work item completes during the delegation time frame, the item remains in the Home area of the delegate and of the assignee for 2 weeks before Workfront automatically removes it. -->
+* You can only delegate tasks and issues that are not completed before the delegation's start date. 
+* If a work item completes during the delegation time frame, the item remains in the Home area of the delegate and of the assignee for 2 weeks before Workfront automatically removes it. 
 * The users that you select as delegates receive the same  permissions as your permissions on the tasks and issues you delegate to them. The permissions must work within their access levels, and sometimes their access levels might be lower than yours.
 
 >[!NOTE]
