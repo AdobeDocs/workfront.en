@@ -32,7 +32,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Issues</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -70,6 +72,8 @@ You must have a request that you or someone in your organization previously subm
      >If the queue topic was the only one in the request queue, you can still copy and submit the request and it will be saved under the request queue itself.
 
    * The request queue is no longer published as a Help Request Queue. For information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * If the request queue has no queue topic and the original request was submitted before January 2022.
+
    * The Status of the project associated with the request queue is no longer Current.
 
 * You can copy and submit a copy of a converted request if the request was preserved in the conversion process. For more information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
@@ -179,7 +183,9 @@ You must have a request that you or someone in your organization previously subm
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Documents</strong> </td> 
-      <td> <p>Add documents to your request. The documents attached to the original request do not transfer to the copied request.</p> <p>Tip: Depending on how the request queue was set up, the Documents section might display before or after the custom fields.</p> <p> </p> </td> 
+      <td> <p>Add documents to your request. The documents attached to the original request do not transfer to the copied request.</p> <p><b>TIP</b> 
+      
+      Depending on how the request queue was set up, the Documents section might display before or after the custom fields.</p> <p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -191,6 +197,6 @@ You must have a request that you or someone in your organization previously subm
    >* All custom forms attached to the original request and the values included in the custom fields transfer to the copied request. This includes fields that contain logic.
    >* You cannot remove custom forms from the copied request.
 
-1. Click&nbsp;**Submit**.
+1. Click **Submit**.
 
    The copied request is submitted as a new request in the request queue you specified.

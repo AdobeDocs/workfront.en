@@ -52,6 +52,10 @@ Modules that have the ability to work with files require two pieces of informati
 
 When you map a file, you choose the modules in your scenario from which you want to obtain the data. The file name and file content are then automatically mapped as they are.
 
+>[!NOTE]
+>
+>If you need to process a file from a URL, we recommend using the `HTTP > Get a File` module to download the file from the URL, and then mapping the file from the `HTTP > Get a File` module to the desired module's field in your scenario.
+
 >[!INFO]
 >
 >**Example:** This example shows how to download documents from Adobe Workfront to Google Drive. The Workfront trigger Watch Record returns detailed information about each document, including its name and ID.

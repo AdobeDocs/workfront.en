@@ -2,7 +2,7 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Receive email invitations and create a password for Adobe Workfront
-description: When a Workfront administrator creates a new user and chooses to send the user an email invitation, the new user receives an invitation email.
+description: When a Workfront administrator creates a new user, the new user may receive an invitation email based on several factors.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
@@ -32,12 +32,16 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
 
-## Receive email invitations {#receive-email-invitations}
+## Receive email invitations
 
-When a Workfront administrator creates a new user and chooses to send the user an email invitation, the new user receives an invitation email, which looks similar to the following:  
-![](assets/email-invitation-for-all-users-preview-350x262.png)
+When a Workfront administrator creates a new user, the new user may receive an invitation email based on several factors:
 
-For more information about how a Workfront administrator sends email invitations while creating new users, see [Generate email invitations](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md#generating-email-invitations).
+* Whether the user's organization has been onboarded to the Adobe Admin Console
+* Whether the user was added in Workfront or the Admin Console
+* Whether the user has access to other Adobe products or is a new Adobe user
+* Whether the administrator chose to send the user an email invitation (only applies to organizations not yet on the Admin Console)
+
+For more information about how a Workfront administrator sends email invitations while creating new users, see [Manage email invitations to new users](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md).
 
 For more information about how a Workfront administrator adds new users to Adobe Workfront, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
@@ -52,8 +56,6 @@ As a new user, after you receive the invitation email, you can follow the link i
 To create a password for Workfront using the invitation email:
 
 1. Click **Get Started** in the invitation email from Workfront.
-
-   For more information about receiving an invitation email, see [Receive email invitations](#receive-email-invitations).
 
    ![New user screen from email invitation](assets/new-user-screen-from-invitation-adobe-350x292.png)
 

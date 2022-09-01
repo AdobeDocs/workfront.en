@@ -16,7 +16,10 @@ These enhancements were made available in the Production environment the week of
 
 * [Administrator enhancements](#administrator-enhancements) 
 * [Project enhancements](#project-enhancements) 
+* [Resource Management enhancements](#resource-management-enhancements)
+* [Reporting enhancements](#reporting-enhancements)
 * [Integration enhancements](#integration-enhancements) 
+* [Mobile enhancements](#mobile-enhancements) 
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements {#administrator-enhancements}
@@ -31,9 +34,30 @@ These enhancements were made available in the Production environment the week of
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Integrate Adobe Workfront with JumpSeat
-</a></p></p> <p>You now can integrate JumpSeat with Workfront to create custom, in-product guidance for your users. You must have an Adobe Workfront enterprise license and an active JumpSeat subscription to enable the integration.</p> 
+</a></p></p> <p>You now can integrate JumpSeat with Workfront to create custom, in-product guidance for your users. You must have an Adobe Workfront enterprise license and an active JumpSeat subscription to enable the integration.</p>  
+    </td>
+    <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: June 2, 2022<br></p> </li> 
+     <li> <p>Production release: With the 22.3 release</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
      <li> <p>The new Adobe Workfront experience </p> </li> 
     </ul> </td> 
+  </tr>
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Use unlocked statuses in an approval processes
+</a></p></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
+<p>To give you more control over the approval processes and statuses in your system, we’ve made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn’t streamline their group’s list of statuses to fit their specific needs.</p>   
+   </td> 
+    <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: June 2, 2022<br></p> </li> 
+     <li> <p>Production release: September 15, 2022</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td>
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof default settings moved to Workfront
@@ -41,34 +65,55 @@ These enhancements were made available in the Production environment the week of
 <ul>
    <li><p>Proof default settings</p></li>
    <li><p>Proof decision settings</p></li>
-   </ul>
+   </ul> 
+   </td> 
+    <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: June 1, 2022<br></p> </li> 
+     <li> <p>Production release: With the 22.3 release</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
      <li> <p>The new Adobe Workfront experience </p> </li> 
-    </ul> </td> 
-  </tr>
-  <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Use unlocked statuses in an approval processes
-</a></p></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
-<p>To give you more control over the approval processes and statuses in your system, we’ve made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn’t streamline their group’s list of statuses to fit their specific needs.</p>
-     <li> <p>The new Adobe Workfront experience </p> </li> 
-    </ul> </td> 
+    </ul> </td>
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Add a PDF file to a custom form
 </a></p></p> <p>We are continuing to help you make custom forms more visual and informative with new asset widgets you can add, such as images and videos. Now you can add a link to a PDF file to a custom form. When the form is attached to an object, users who work with the object can view and interact with the PDF from within the form.</p>
+   </td> 
+    <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: June 2, 2022<br></p> </li> 
+     <li> <p>Production release: With the 22.3 release</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
      <li> <p>The new Adobe Workfront experience </p> </li> 
-    </ul> </td> 
+    </ul> </td>
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Custom form field calculation editor displays error information
 </a><span style="color: #ff0000; font-weight: bold;"> (Temporarily unavailable)</span></p></p> <p>Editing calculations for custom fields is now easier with helpful error information indicated directly in the calculation. While you are creating a calculated field in a custom form, errors are highlighted in pink. When you hover over the highlighted portion, a tooltip displays to describe what the problem is.</p>
+    </td> 
+    <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: June 9, 2022<br></p> </li> 
+     <li> <p>Production release: With the 22.3 release</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
      <li> <p>The new Adobe Workfront experience </p> </li> 
-    </ul> </td> 
+    </ul> </td>
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Project header customization
 </a></p></p> <p>As a Workfront or group administrator, you can now customize the fields that display in the header of a project when you use a Layout Template.</p>
      <li> <p>The new Adobe Workfront experience </p> </li> 
     </ul> </td> 
+    <td>
+    <ul> 
+     <li> <p>Preview release: June 2, 2022<br></p> </li> 
+     <li> <p>Production release: With the 22.3 release</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+   </td>
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Control creating a blank project</a></p></p> <p>As a system or a group administrator, you can now control whether users can create blank projects, without using a template. We have introduced a new setting in the Project Preferences area of Setup that allows you to disable creating blank projects in the following areas:</p> 
@@ -121,6 +166,42 @@ These enhancements were made available in the Production environment the week of
    <td> <p><strong>Feature</strong> </p> </td> 
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Out-of-office work delegation</a></p> <p>Now, you can temporarily delegate the tasks and issues assigned to you to other users when you plan to be out of the office for a brief period of time. This ensures that your absence does not become a roadblock to work being completed.</p> 
+   <p>Prior to this enhancement, you could only delegate approvals.</p></td> 
+   <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: June 9, 2022<br></p> </li> 
+     <li> <p>Production release: With the 22.3 release</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr>
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New experience when converting an issue to a task</a></p> <p>To make your use of Workfront consistent with the new Workfront experience, we have redesigned the interface for converting an issue to a task.</p> 
+   </td> 
+   <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: June 9, 2022<br></p> </li> 
+     <li> <p>Production release: With the 22.3 release</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr>
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New experience when converting an issue to a project without a template</a></p> <p>To make your use of Workfront consistent with the new Workfront experience, we have redesigned the interface for converting an issue to a project without using a template.</p> 
+   <p>In addition to an updated user interface that matches the rest of the new Workfront experience, we have also added the ability to convert an issue to blank projects from a list or a report.</p></td> 
+   <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: June 2, 2022<br></p> </li> 
+     <li> <p>Production release: With the 22.3 release</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Smart tagging in the update stream</a></p> <p>We have improved tagging users in the update stream when you create a new update or reply to an existing one. Now, when you tag a user to include them in an update, in addition to their name and avatar, we also display their Primary Role and their email. This helps distinguish between multiple users with similar or identical names.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
@@ -228,6 +309,55 @@ Campaigns were released to Preview beta with the 22.3 release, in July 2022. For
  </tbody> 
 </table>
 
+### Resource Management enhancements {#resource-management-enhancements}
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p><strong>Feature</strong> </p> </td> 
+   <td> <p><strong>Release dates and environments</strong> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Sorting preferences and usability enhancements in the Workload Balancer</a> </p> <p>To improve your experience when using the Workload Balancer, we have introduced the following enhancements, including improved sorting in the Unnasigned and Assigned sections, a new look and feel for project bars, an updated, easier-to-read design for Projected Dates, and more.</p> 
+   <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: June 2, 2022<br></p> </li> 
+     <li> <p>Production release:&nbsp;With the 22.3 release</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Reporting enhancements {#reporting-enhancements}
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p><strong>Feature</strong> </p> </td> 
+   <td> <p><strong>Release dates and environments</strong> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Removal and addition of resource budgeting fields in lists and reports
+</a> </p> <p>To reflect resource budgeting information from the Resource Planner, we have added a new Resource Planner Budgeted Hours field to lists and reports. Various fields were removed from lists and reports because they referred to deprecated tools that have been removed from Workfront in previous releases.</p> 
+   <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: June 23, 2022<br></p> </li> 
+     <li> <p>Production release:&nbsp;June 23, 2022</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Integration enhancements {#integration-enhancements}
 
 <table style="table-layout:auto"> 
@@ -239,11 +369,61 @@ Campaigns were released to Preview beta with the 22.3 release, in July 2022. For
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for Experience Manager Assets integration</a> </p> <p>We are excited to announce that the Adobe Workfront Experience Manager Assets integration is now available for Cloud Service.</p>
+   <p>We’ve also introduced new functionality for both Cloud Service and Assets Essentials.</p> </td> 
+   <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: N/A<br></p> </li> 
+     <li> <p>Production release:&nbsp;With the 22.3 release</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Combine multiple files in a single proof in the Creative Cloud plugin</a> </p> <p>You can now upload outside files with the content you've created in the Adobe Workfront for Creative Cloud plugin to create multi-file proofs in Workfront. Outside files appear as additional proof pages inside Workfront. With this enhancement, we've also updated the look and feel of the proof creation experience.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: N/A<br></p> </li> 
      <li> <p>Production release:&nbsp;TBD</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr> 
+   <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">New SharePoint (Graph API) integration now available</a> </p> <p>We've created a new, simpler SharePoint integration. Now, you don't need to configure the SharePoint integration. Instead, the new SharePoint integration is simply an option you can choose, similar to other document integrations.</p>
+   <p>You will not lose access to documents that are currently linked through the legacy SharePoint integration. However, you will be unable to link new documents through the legacy integration.</p>
+   <p>Workfront Administrators can enable and disable SharePoint and legacy SharePoint integrations separately, based on the needs of their organization.</p> </td> 
+   <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: June 2, 2022<br></p> </li> 
+     <li> <p>Production release:&nbsp;With the 22.3 release</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Mobile enhancements {#mobile-enhancements}
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p><strong>Feature</strong> </p> </td> 
+   <td> <p><strong>Release dates and environments</strong> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Proofing enhancements in the mobile app</a> </p> <p>The Adobe Workfront mobile app now allows you to view attachments on proof comments and add new attachments. Supported file types for attachments are images, documents, and videos.</p> </td>
+   <td> <p><b>Available on these dates:</b> </p> 
+   <p>You can also tag other proof users in comments and replies. Anyone you tag receives an email notification.</p>
+    <ul> 
+     <li> <p>Preview release: N/A<br></p> </li> 
+     <li> <p>Production release: Available in the Apple App Store and Google Play Store in mid to late July 2022.</p> </li> 
     </ul> <p><strong>Available in these environments:</strong> </p> 
     <ul> 
      <li> <p>The new Adobe Workfront experience </p> </li> 
@@ -261,6 +441,17 @@ Campaigns were released to Preview beta with the 22.3 release, in July 2022. For
   <tr> 
    <td> <p><strong>Feature</strong> </p> </td> 
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated timesheets</a> </p> <p>We are continuing to improve and update your experience when working with timesheets. </p> </td>
+   <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: June 2, 2022<br></p> </li> 
+     <li> <p>Production release: With the 22.3 release</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 22.3 release timeframe</a> </p> <p>Minor updates to the look and feel of various areas of the  application are being made within the 22.3 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview.</p> </td>
