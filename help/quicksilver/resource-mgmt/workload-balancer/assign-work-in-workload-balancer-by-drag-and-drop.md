@@ -9,9 +9,9 @@ exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
 ---
 # Assign work in the Workload Balancer by dragging and dropping
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is just a NWE article)</p>
--->
+<!--remove production and preview preferences at release-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 You can assign work items using the Adobe Workfront Workload Balancer by dragging and dropping work items to the correct users.
 
@@ -31,7 +31,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Plan, in the Production environment</p>
+   <p><span class="preview">Work, in the Preview environment</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
@@ -47,7 +48,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the projects, tasks, and issues that include Make Assignments</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,15 +63,11 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
 
    You can assign work to users using the Workload Balancer in the Resourcing area, at the project, or at the team level. For more information about where the Workload Balancer is located in&nbsp;Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Optional) Go to the **Unassigned Work** area and apply a filter to view work items
+1. (Optional) Go to the **Unassigned Work** area and apply a filter to view tasks <span class="preview">and issues</span> that are not assigned to users
 
    Or
 
    Go to the **Assigned Work** area and expand the name of a user to view the work items assigned to them, if you want to reassign their items.
-
-   >[!IMPORTANT]
-   >
-   >**You cannot view or assign issues from the Unassigned Work area. You can only reassign issues already assigned to users in the Assigned Work area. Otherwise,** you can assign issues from a list or at the issue level. For information, see [Assign issues](../../manage-work/issues/manage-issues/assign-issues.md).
 
 1. Click the bar of a work item that indicates either the planned or the projected timeline and drag it over the name of a user in the **Assigned** area.
 
@@ -91,7 +88,7 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
    >
    >The item displays according to the Workload Balancer criteria for sorting work items.&nbsp;For more information, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. (Optional) Click the bar of a work item under the name of a user in the Assigned Work area and drag it then drop it over the Unassigned area to unassign it. The item is unassigned from the user, but it might still be assigned to a job role in which case it displays in the Unassigned Work area. If the item is assigned to another user, it remains in the Assigned Work area under the name of the user who is still assigned. 
+1. (Optional) Click the bar of a work item under the name of a user in the Assigned Work area and drag it then drop it over the Unassigned Work area to unassign it. The item is unassigned from the user, but it might still be assigned to a job role in which case it displays in the Unassigned Work area. If the item is assigned to another user, it remains in the Assigned Work area under the name of the user who is still assigned. 
 1. (Optional) Click the **Show allocations icon** ![](assets/show-allocations-icon-small.png), then click the **More menu** ![](assets/qs-more-menu.png) > **Edit allocations**. 
 
    <!--

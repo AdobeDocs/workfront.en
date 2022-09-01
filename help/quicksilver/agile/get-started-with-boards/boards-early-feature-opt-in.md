@@ -55,11 +55,11 @@ The following table outlines major features of boards along with their current r
    <td>Released</td>
   </tr>
   <tr>
-   <td>Use column automation</td>
+   <td>Set column policies</td>
    <td>Released</td>
   </tr>
   <tr>
-   <td>Add Work in Progress limits</td>
+   <td>Add Work in Progress limits to columns</td>
    <td>Partially released</td>
   </tr>
   <tr>
@@ -73,6 +73,10 @@ The following table outlines major features of boards along with their current r
   <tr>
    <td>Add checklist item details</td>
    <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Filter connected cards by project</td>
+   <td>Planned</td>
   </tr>
   <tr>
    <td>Create a column connected to Workfront</td>

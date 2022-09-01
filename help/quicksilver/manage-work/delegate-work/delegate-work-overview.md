@@ -3,15 +3,11 @@ filename: delegate-work-overview
 content-type: overview
 navigation-topic: delegate-work
 title: Delegate work overview
-description: Delegate work overview
+description: When you plan to be out of the office for a short period of time, you can temporarily delegate your work to other users to ensure that your absence does not become a roadblock to work being completed. 
 author: Alina
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 ---
 # Delegate work overview
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;TOC and Becky - not submitted to Becky yet because not sure if this will be the final place or title for this??)</p>
--->
 
 When you plan to be out of the office for a short period of time, you can temporarily delegate your work to other users to ensure that your absence does not become a roadblock to work being completed. 
 
@@ -25,11 +21,6 @@ You can delegate the following objects in Adobe Workfront:
 
 * Tasks assigned to you
 * Issues assigned to you
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Proof approvals assigned to you (NOTE:&nbsp;is this true?? does the new functionality include proof approvals??)</p> </li>
-  -->
-
 * Project, task, issue, document approvals assigned to you.
 
 This article contains general information about delegating tasks and issues.
@@ -52,11 +43,18 @@ Consider the following when you delegate tasks and issues:
   * Reviewers can delegate work to others. They cannot view work items in their [!UICONTROL Home] area. They can view only approvals. 
   * Requestors cannot delegate work to others. They cannot view work items in their [!UICONTROL Home] area
 * You can only delegate the tasks and issues assigned to you. You cannot delegate tasks and issues that are assigned to other users, teams, or job roles.
+<!-- drafted this bullet - make it live when the change is made during 22.4 release: * You can only delegate tasks and issues that are not completed before the delegation's start date. If a work item completes during the delegation time frame, the item remains in the Home area of the delegate and of the assignee for 2 weeks before Workfront automatically removes it. -->
+* The users that you select as delegates receive the same  permissions as your permissions on the tasks and issues you delegate to them. The permissions must work within their access levels, and sometimes their access levels might be lower than yours.
+
+>[!NOTE]
+>
+>  For items that are assigned after the delegation already started, it can take up to one hour after the item was assigned for Workfront to share the newly-assigned items with the delegate.
+
 * If additional tasks and issues are assigned to you during the time you have selected to have your work delegated to other users, the new assigned work is automatically delegated to the same person for the time frame you selected if the task or issue dates are within that time frame. 
 * The same user can be selected as the delegate by multiple users. 
 * Delegated tasks and issues do not display in resource management tools, like the [!UICONTROL Workload Balancer] or the [!UICONTROL Resource Planner] for the delegated users. 
 * You can view delegated work and delegates names in several areas of Workfront. For more information, see the section "Locate delegated work and delegates information" in the article [Manage task and issue delegation](../delegate-work/how-to-delegate-work.md).
-* The users that you select as delegates receive the same  permissions as your permissions on the tasks and issues you delegate to them. The permissions must work within their access levels, and sometimes their access levels might be lower than yours.
+
 
   >[!IMPORTANT]
   >
