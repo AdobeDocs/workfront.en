@@ -163,10 +163,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Assignments</td> 
-   <td> <p>In a Task or Issue report, this field displays a list of all entities (users, job roles, teams) that are assigned to the task or issue. You can filter by this field using the fields Assignment Users and Assignment Roles. You can filter by the team assigned to the task or issue using the Team field. You cannot group a report by this field.</p> <p>Work items that have been placed in the Recycle Bin will continue to display in some reports that refer to the Assignment object where an OR filter modifier is used.</p> </td> 
+   <td> <p>In a Task or Issue report, this field displays a list of all entities (users, job roles, teams) that are assigned to the task or issue. You can filter by this field using the fields Assigned Users and Assigned Roles. You can filter by the team assigned to the task or issue using the Team field. You cannot group a report by this field.</p> <p>Work items that have been placed in the Recycle Bin will continue to display in some reports that refer to the Assignment object where an OR filter modifier is used.</p> </td> 
   </tr> 
   <tr> 
-   <td>Assignment Roles</td> 
+   <td>Assigned Roles (formerly Assignment Roles)</td> 
    <td>In a Task or Issue report, this field displays information about the job roles assigned to the tasks or issues. This field displays Primary Owners, as well as other job roles assigned to tasks or issues. </td> 
   </tr> 
   <tr> 
@@ -179,7 +179,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
     </ul> <p>For more information, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md" class="MCXref xref">Work On It and Done button overview</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td>Assignment Users</td> 
+   <td>Assigned Users (formerly Assignment Users)</td> 
    <td>In a Task or Issue report, this field displays information about the users assigned to the tasks or issues. This field displays Primary Owners, as well as other users assigned to tasks or issues. </td> 
   </tr> 
   <tr> 
