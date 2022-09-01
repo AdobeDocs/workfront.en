@@ -34,6 +34,39 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
             <col style="width: 50%;" />
             <tbody>
             <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-29.md" class="MCXref xref" xrefformat="{para}">Updated names for the user- and role- assignment fields
+</a><span style="color: #ff0000;"> Available in Production</span></p>
+<p>We’ve updated the names of two assignment fields in Workfront. The fields still function the same and retrieve the same data:
+
+* **Assignment Users** is now **Assigned Users**.
+* **Assignment Roles** is now **Assigned Roles**.
+
+Please use these new names as you search for fields and build reports.
+
+The field names have been updated in the [Glossary of Adobe Workfront terminology](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+</p>   
+   </td> 
+    <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: September 1, 2022<br></p> </li> 
+     <li> <p>Production release: September 1, 2022</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td>
+  </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+            <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-29.md" class="MCXref xref" xrefformat="{para}">Use unlocked statuses in an approval processes
 </a><span style="color: #ff0000;"> Coming soon to Production!</span></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
 <p>To give you more control over the approval processes and statuses in your system, we’ve made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn’t streamline their group’s list of statuses to fit their specific needs.</p>   
