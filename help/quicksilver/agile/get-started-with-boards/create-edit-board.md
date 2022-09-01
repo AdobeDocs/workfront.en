@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
 1. Type a name for the board in the **Board** field and press Enter.
 1. Configure the board as needed.
 
-   For information, see [Add or remove members from a board](../../agile/get-started-with-boards/add-members-to-board.md), [Manage board columns](../../agile/get-started-with-boards/manage-board-columns.md), and [Add a card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
+   For information, see [Add or remove members from a board](../../agile/get-started-with-boards/add-members-to-board.md), [Manage board columns](../../agile/get-started-with-boards/manage-board-columns.md), [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md), and [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 1. Click **All Boards** to return to the boards dashboard.
 
