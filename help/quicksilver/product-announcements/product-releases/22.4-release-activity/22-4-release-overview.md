@@ -36,10 +36,10 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
             <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-29.md" class="MCXref xref" xrefformat="{para}">Updated names for the user- and role- assignment fields
 </a><span style="color: #ff0000;"> Available in Production</span></p>
-<p>We've updated the name of two assignment fields in Workfront. The fields still function the same and retrieve the same data:
+<p>We’ve updated the names of two assignment fields in Workfront. The fields still function the same and retrieve the same data:
 
-* Assignment Users is now **Assigned Users**.
-* Assignment Roles is now **Assigned Roles**.
+* **Assignment Users** is now **Assigned Users**.
+* **Assignment Roles** is now **Assigned Roles**.
 
 Please use these new names as you search for fields and build reports.
 
