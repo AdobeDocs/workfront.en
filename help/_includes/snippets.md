@@ -18,7 +18,7 @@
 >
 >The procedure described on this page applies only to organizations that are not yet onboarded to Adobe Experience Cloud.
 >
-> <!--If your organization has been onboarded to Adobe Experience Cloud, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). -->
+> If your organization has been onboarded to Adobe Experience Cloud, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Step 1 - Click Main Menu only {#step1-click-main-menu}
 

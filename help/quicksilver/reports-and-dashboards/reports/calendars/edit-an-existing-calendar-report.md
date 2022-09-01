@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
 
    1. Click **Add to Calendar.**
    1. In the **Project name** field, begin typing the name of a project from which you want to add calendar events, then click the name when it displays in the drop-down list.  
-      ![Select the project name](assets/calendarprojname-350x278.png)  
+      ![Select the project name](assets/calendar-project-name.png)
       Items from the project and its associated tasks and issues are added to the calendar report.
 
 1. (Optional) To add a calendar grouping or to modify an existing calendar grouping:
