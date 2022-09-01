@@ -65,6 +65,10 @@ If this is not the case, you can follow the steps below.
 
 If your Workfront or Workfront Proof administrator has downloaded the app on your workstation and configured the Desktop Proofing Viewer as the default viewer for interactive proofs, you can finish the installation simply by opening an interactive proof from the Documents area.
 
+>[!TIP]
+>
+>You can use the command line to install the Desktop Proofing Viewer by running `Workfront Proof Setup 2.1.9.exe" /S` 
+
 1. Do one of the following to download the app:
 
    * In the Production environment, click&nbsp; [Windows Production download for the Desktop Proofing Viewer.](https://cdn.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof.exe)
