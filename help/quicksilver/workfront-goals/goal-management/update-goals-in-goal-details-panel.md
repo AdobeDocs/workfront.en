@@ -132,11 +132,12 @@ You can access an individual goal which opens the Goal Details panel of the goal
 
 1. (Optional) Deselect any of the following options if you want to not display them in the Updates tab.&nbsp;They are selected by default: 
 
-   | Progress Updates |Displays information about the history of progress updates on results and activities.  |
+   | Option |Description  |
    |---|---|
+   | Progress Updates |Displays information about the history of progress updates on results and activities.  |
    | Comments |Displays comments made by users on the goal.  |
    | Editing History |Displays information about creating and updating the goal, results, and activities.  |
 
-1. (Optional)&nbsp;Click **Details** under a progress or an editing history update to display additional information about the update.
+1. (Optional) Click **Details** under a progress or an editing history update to display additional information about the update.
 
    ![](assets/update-details-in-updates-tab-expanded-highlighted-350x139.png)

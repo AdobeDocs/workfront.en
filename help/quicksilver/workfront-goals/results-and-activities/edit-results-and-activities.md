@@ -102,8 +102,9 @@ You must have the following before you can start:
 
 1. Click **Edit** to edit the following information:
 
-   | Name |The name of the result. |
+   | Field |Description|
    |---|---|
+   | Name |The name of the result. |
    | Owner |The owner of result.  |
    | Value |How you measure the progress of the result. |
    | Initial |The original value of the result. |
@@ -125,8 +126,9 @@ You must have the following before you can start:
 
 1. Click **Edit** to edit the following information:
 
-   | Name |The name of the activity. |
+   | Field |Description |
    |---|---|
+   | Name |The name of the activity. |
    | Owner |The owner of activity.  |
 
 1. Click **Save**.
