@@ -231,24 +231,24 @@ This action module updates a single record in Adobe Campaign Classic.
    <td role="rowheader">Resource</td> 
    <td>Select the type of Adobe Campaign Classic record you want to create.</td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Fields </td> 
-   <td>Select the fields that you want to set values for when the record is created, then fill in the values for those fields. Fields vary based on the type of record you select.</td> 
-  </tr> 
-  <tr> 
+    <tr> 
    <td role="rowheader">ID </td> 
    <td>Enter of map the ID of the record you want to update.</td> 
   </tr> 
+<tr> 
+   <td role="rowheader">Fields </td> 
+   <td>Select the fields that you want to update values for, then fill in the values for those fields. Fields vary based on the type of record you select.</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Custom fields</td> 
-   <td> For each custom field that you want to add to the new record, click <b>Add item</b> and enter or map the field's name and value. </td> 
+   <td> For each custom field that you want to update, click <b>Add item</b> and enter or map the field's name and value. </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Searches
 
-#### Seach
+#### Search
 
 This search module returns records based on the specified criteria.
 
