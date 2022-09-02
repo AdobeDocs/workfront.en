@@ -9,6 +9,8 @@ exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 ---
 # Assign issues
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Modify issue assignments overview](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
@@ -67,6 +69,10 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations for multiple assignments to job roles, teams, and users
 
+>[!NOTE]
+>
+><span class="preview">In the Preview environment, you can assign multiple teams to a single task or issue.</span>
+
 Consider the following when assigning multiple resources to a work item:
 
 * Users can have more than one job role associated with their profile. For information about associating users with job roles, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
@@ -114,10 +120,12 @@ Consider the following when assigning multiple resources to a work item:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
    * (Conditional) Click one of the names in the **Suggested Assignments** list 
-   * Click&nbsp;**Assign to me** to assign it to yourself
+   * Click**Assign to me** to assign it to yourself
    * Click **Advanced**
 
      Creating advanced assignments is similar for tasks and issues. For information about how to make advanced assignments, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+
+     <!--drafted for unique identifier story for 22.4 and yellow - make this a TIP:  <span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>-->
 
 1. Click **Save** to complete assigning the issue. 
 1. (Optional)&nbsp;Click the **X icon** next to the name of the assignments in the Assignments area on the header of the issue to remove an assignment.
@@ -128,8 +136,9 @@ You can assign issues in a list or a report when any of the assignments fields a
 
 Depending on which field is visible in the view you can assign the following entities to the issue: 
 
-| **Assign To** |Assign one user  |
+| Option |Assignment  |
 |---|---|
+| **Assign To** |Assign one user  |
 | **Assigned** |Assign one user |
 | **Assignments** |Assign users, job roles, or a team.  |
 
@@ -145,6 +154,8 @@ To assign issues in a list:
    * Click inside the **Assignments** field and start typing the name of an active user, job role, or active team that you want to assign to the issue, then click it when it displays in the list.
 
      ![](assets/assignments-field-task-list-nwe.png)
+
+     <!--drafted for unique identifier story for 22.4 and yellow - turn this into a TIP AND UPDATE SCREEN SHOT BELOW:  <span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>--> 
 
 1. (Conditional) When visible in the Assignments field, click the **People icon** ![](assets/teams.png) in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 

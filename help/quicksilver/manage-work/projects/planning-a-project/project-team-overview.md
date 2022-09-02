@@ -3,7 +3,7 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Project Team overview
-description: Project Team overview
+description: A project team is a group of users associated with a project. Users listed under the People area of a project are the users who make up the project team.
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
@@ -11,7 +11,7 @@ exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
 # Project Team overview
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This also links here - some information is duplicated between these 2 articles, so update both: https://workfront.zendesk.com/hc/en-us/articles/217238917) </p>
+<This also links here - some information is duplicated between these 2 articles, so update both: https://workfront.zendesk.com/hc/en-us/articles/217238917) </p>
 -->
 
 A project team is a group of users associated with a project. Users listed under the People area of a project are the users who make up the project team.
@@ -32,7 +32,7 @@ Depending on what email notifications your Adobe Workfront administrator enables
 
 To use role-based approvals on a project, users must be assigned to the project team and have the correct job role assigned in their user profile.
 
-See the following articles for information on how to set a user up for role-based approvals:
+See the following articles for information on how to add a user to the project team and how to assign them a job role:
 
 * [Manage the Project Team](../../../manage-work/projects/planning-a-project/manage-project-team.md) 
 * [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)

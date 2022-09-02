@@ -201,8 +201,6 @@ Not all objects are searchable in Workfront. You can run basic and advanced sear
 | Companies | ✓ | ✓ |
 | Notes | ✓ |  |
 
-{style="table-layout:auto"}
-
 For more information about running basic and advanced searches in Workfront, see [Search Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## Report on objects

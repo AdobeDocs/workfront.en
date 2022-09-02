@@ -13,6 +13,7 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * 22.4 Release {#release-22-4}
       * [22.4 Release overview](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
+      * [22.4 Release activity: Week of August 29, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-29.md)
       * [22.4 Release activity: Week of August 22, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md)
       * [22.4 Release activity: Week of August 15, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md)
       * [22.4 Release activity: Week of August 7, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-7.md)
@@ -2482,6 +2483,7 @@ feature-set: Workfront
     * [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](wf-api/api/oauth-app-pkce-flow.md)    
     * [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
+    * [What's new in API version 15](wf-api/api/new-api-version-15.md)
     * [What's new in API version 14](wf-api/api/new-api-version-14.md)
     * [What's new in API version 13](wf-api/api/new-api-version-13.md)
     * [What's new in API version 12](wf-api/api/new-api-version-12.md)

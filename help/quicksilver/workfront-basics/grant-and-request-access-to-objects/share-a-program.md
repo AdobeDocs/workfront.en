@@ -3,7 +3,7 @@ title: Share a program
 product-area: projects
 keywords: share,program,permissions
 navigation-topic: grant-and-request-access-to-objects
-description: Your Adobe Workfront administrator can grant you access to view or edit programs when assigning your access level. You must have a Plan license to have access to edit a program. For more information, see Grant access to programs.
+description: Your Adobe Workfront administrator can grant you access to view or edit programs when assigning your access level. You must have a Plan license to have access to edit a program. 
 author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
@@ -59,6 +59,4 @@ The following table displays what permissions you can grant users when allowing 
 | Share |✓ |✓ |
 | Share system-wide |&nbsp; |✓ |
 
-{style="table-layout:auto"}
-
-&#42; These permissions are controlled by the access level and permissions on other objects, like projects.&nbsp;
+*These permissions are controlled by the access level and permissions on other objects, like projects.&nbsp;
