@@ -96,8 +96,7 @@ To create initiatives from scratch:
    | Quarter |Displays the timeline by quarter. This option is available only when the Duration of the plan is 3 or 5 years. This is the default option for a 3-year plan. |
    | Year |Displays the timeline by year. This option is available only when the Duration of the plan is 5 years. This is the default option for a 5-year plan.  |
 
-   {style="table-layout:auto"}
-
+   
 1. (Optional) Scroll from left to right to see the entire duration of the initiative. 
 1. (Optional) Click the **Today** indicator line to come back to the current date.
 
