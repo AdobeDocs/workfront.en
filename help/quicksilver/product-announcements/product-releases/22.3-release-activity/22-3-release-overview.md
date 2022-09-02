@@ -46,6 +46,20 @@ These enhancements were made available in the Production environment the week of
     </ul> </td> 
   </tr>
   <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Use unlocked statuses in an approval processes
+</a></p></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
+<p>To give you more control over the approval processes and statuses in your system, we’ve made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn’t streamline their group’s list of statuses to fit their specific needs.</p>   
+   </td> 
+    <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: June 2, 2022<br></p> </li> 
+     <li> <p>Production release: September 15, 2022</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td>
+  </tr>
+  <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof default settings moved to Workfront
 </a></p></p> <p>You can now edit the following proof settings inside the Workfront Setup Area:</p> 
 <ul>
@@ -57,20 +71,6 @@ These enhancements were made available in the Production environment the week of
     <ul> 
      <li> <p>Preview release: June 1, 2022<br></p> </li> 
      <li> <p>Production release: With the 22.3 release</p> </li> 
-    </ul> <p><strong>Available in these environments:</strong> </p> 
-    <ul> 
-     <li> <p>The new Adobe Workfront experience </p> </li> 
-    </ul> </td>
-  </tr>
-  <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Use unlocked statuses in an approval processes
-</a></p></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
-<p>To give you more control over the approval processes and statuses in your system, we’ve made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn’t streamline their group’s list of statuses to fit their specific needs.</p>   
-   </td> 
-    <td> <p><b>Available on these dates:</b> </p> 
-    <ul> 
-     <li> <p>Preview release: June 2, 2022<br></p> </li> 
-     <li> <p>Production release: With the 22.3 release <span style="color: #ff0000; font-weight: bold;">Removed from the 22.3 Production release. Planned to release to Production at a future time.</span></p> </li> 
     </ul> <p><strong>Available in these environments:</strong> </p> 
     <ul> 
      <li> <p>The new Adobe Workfront experience </p> </li> 
