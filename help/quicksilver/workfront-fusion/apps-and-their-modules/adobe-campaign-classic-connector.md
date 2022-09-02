@@ -74,16 +74,20 @@ This scheduled trigger module starts a scenario when a record changes.
    <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">x</td> 
-   <td>x</td> 
+   <td role="rowheader">Resource</td> 
+   <td>Select the resource that you want to watch for.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">x </td> 
-   <td>x</td> 
+   <td role="rowheader">Fields </td> 
+   <td>Select the fields that you want to include in the module's output.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">x</td> 
-   <td> x </td> 
+   <td role="rowheader">Custom fields</td> 
+   <td>For each custom field that you want to include in output, click <b>Add</b> and enter the name of the custom field.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Limit</td> 
+   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -154,12 +158,36 @@ This module makes a custom API call to the Adobe Campaign Classic API
   </tbody>
 </table>
 
+#### Delete Record
+
+This action module deletes a single record from Adobe Campaign Classic.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Resource</td> 
+   <td>Select the type of resource that you want to delete.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">ID</td> 
+   <td>Enter or map the ID of the resourece you want to delete.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 #### Misc Action
 
 This action module performs a selected action on an object in the Adobe Campaign Classic API.
 
 For information on specific actions and fields, see [Adobe Campaign - API Documentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
-
+ [test](#delete-record)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -171,22 +199,54 @@ For information on specific actions and fields, see [Adobe Campaign - API Docume
   </tr> 
   <tr> 
    <td role="rowheader">Action</td> 
-   <td>Select the action to perform on the object.</td> 
+   <td><p>Select the action to perform on the object.</p>
+   <ul>
+   <li><p><b>List</b></p><p> For available fields, see <a href="#search" class="MCXref xref" >Search</a> in this article. </p></li>
+     <li><p><b>Get</b></p><p> For available fields, see <a href="#search" class="MCXref xref" >Search</a> in this article. </p></li> 
+   <li><p><b>Create</b></p><p> For available fields, see <a href="#create-a-record" class="MCXref xref" >Create a record</a> in this article. </p></li>
+   <li><p><b>Update</b></p><p> For available fields, see <a href="#update-record" class="MCXref xref" >Update a record</a> in this article. </p></li>
+   <li><p><b>Delete</b></p><p> For available fields, see <a href="#delete-record" class="MCXref xref" >Delete a record</a> in this article. </p></li>
+   </ul>
+   </td>
+</tr> 
+ </tbody> 
+</table>
+
+#### Read a record
+
+This action module reads a record from Adobe Campaign Classic.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Resource</td> 
-   <td>Select the type of Adobe Campaign Classic record you want to create.</td> 
+   <td>Select the type of Adobe Campaign Classic record you want to read.</td> 
   </tr> 
-  <tr> 
+    <tr> 
+   <td role="rowheader">ID </td> 
+   <td>Enter of map the ID of the record you want to read.</td> 
+  </tr> 
+ <tr> 
    <td role="rowheader">Fields </td> 
-   <td>Select the fields that you want to set values for when the record is created, then fill in the values for those fields. Fields vary based on the type of record you select.</td> 
+   <td>Select the fields that you want to include in the module's output.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Custom fields</td> 
-   <td> For each custom field that you want to add to the new record, click <b>Add item</b> and enter or map the field's name and value. </td> 
+   <td>For each custom field that you want to include in output, click <b>Add</b> and enter the name of the custom field.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Limit</td> 
+   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
+
 
 #### Subscription
 
