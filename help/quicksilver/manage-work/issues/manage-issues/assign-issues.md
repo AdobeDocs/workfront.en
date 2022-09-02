@@ -9,6 +9,8 @@ exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 ---
 # Assign issues
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Modify issue assignments overview](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
@@ -66,6 +68,10 @@ You must have the following access to perform the steps in this article:
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations for multiple assignments to job roles, teams, and users
+
+>[!NOTE]
+>
+><span class="preview">In the Preview environment, you can assign multiple teams to a single task or issue.</span>
 
 Consider the following when assigning multiple resources to a work item:
 
