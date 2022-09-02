@@ -477,7 +477,7 @@ This action module retrieves a specific repository tag determined by its name.
 
 For information on fields, see [Get a single repository tag](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag) in the GitLab documentation.
 
-#### Get a specific deployment {#get-a-tag}
+#### Get a specific deployment {#get-a-deployment}
 
 This action module retrieves a specific deployment.
 
