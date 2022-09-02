@@ -109,8 +109,6 @@ You must have the following before you can start:
    | Initial |The original value of the result. |
    | Target |The desired value when the result is completed. &nbsp; |
 
-   {style="table-layout:auto"}
-
 1. Click **Save**.
 
 ## Edit activities
@@ -130,7 +128,5 @@ You must have the following before you can start:
    | Name |The name of the activity. |
    |---|---|
    | Owner |The owner of activity.  |
-
-   {style="table-layout:auto"}
 
 1. Click **Save**.

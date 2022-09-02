@@ -79,8 +79,6 @@ To create or edit a plan:
    | My plans |Displays plans that you created.  |
    | Shared with me |Displays plans shared with you.  |
 
-   {style="table-layout:auto"}
-
    ![](assets/plans-filters-dropdown-options-scenario-planer.png)
 
 1. (Optional)&nbsp;Click the **Search** icon ![](assets/search-icon.png) to type a keyword and quickly locate a plan in the list. 
@@ -158,8 +156,6 @@ To create or edit a plan:
    |---|---|
    | Quarter |Displays the timeline by quarter. This option is available only when the Duration of the plan is 3 or 5 years. This is the default option for a 3-year plan. |
    | Year |Displays the timeline by year. This option is available only when the Duration of the plan is 5 years. This is the default option for a 5-year plan.  |
-
-   {style="table-layout:auto"}
 
 1. (Optional) Scroll from left to right to view the entire duration of the plan. 
 1. (Optional) Click the **Today** indicator line to return to the current day.
