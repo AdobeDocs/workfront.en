@@ -2,7 +2,7 @@
 product-area: timesheets;setup
 navigation-topic: configure-timesheet-preferences
 title: Configure whether time is logged in hours or days
-description: As a user with a Planner license, you can configure whether you log time in Adobe Workfront in hours or days. System administrators can configure this setting for individual users or for multiple users in their organization. By default, users log time in hours. For information about how to log time in Workfront, see Log time.
+description: As a user with a Plan license, you can configure whether you log time in Adobe Workfront in hours or days. System administrators can configure this setting for individual users or for multiple users in their organization. By default, users log time in hours. 
 author: Alina
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
@@ -58,8 +58,6 @@ You must have the following access to perform the steps in this article:
    | **Hours:** |Users specify hours when logging time in Workfront. |
    |---|---|
    | **Days:** | Users specify days when logging time in Workfront. |
-
-   {style="table-layout:auto"}
 
 1. (Conditional) If you selected to log time in days, in the **Equivalent Hours for Full Workday** field, type the number of hours that equal a full day. One day on a user's timesheet is the equivalent of the number of hours you enter here.
 

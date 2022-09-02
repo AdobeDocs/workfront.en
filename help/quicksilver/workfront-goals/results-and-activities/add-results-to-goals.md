@@ -89,9 +89,7 @@ You must have the following before you can start:
    | # |Number value |
    |---|---|
    | % |Percentage value |
-   | $, CN¥, DKK, KR, Mex$, R, R$, zł, £ , ¥ , € , ₹, ฿, MYR, ₪  |Currency values |
-
-   {style="table-layout:auto"}
+   | $, CN¥, DKK, KR, Mex$, R, R$, zł, £ , ¥ , &euro; , ₹, ฿, MYR, ₪  |Currency values |
 
    For example, if you want to increase profit to 8%, and profit is currently at 4%, you can select % as the Measured Value.
 

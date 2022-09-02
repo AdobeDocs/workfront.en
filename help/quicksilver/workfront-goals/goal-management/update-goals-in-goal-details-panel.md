@@ -137,8 +137,6 @@ You can access an individual goal which opens the Goal Details panel of the goal
    | Comments |Displays comments made by users on the goal.  |
    | Editing History |Displays information about creating and updating the goal, results, and activities.  |
 
-   {style="table-layout:auto"}
-
 1. (Optional)&nbsp;Click **Details** under a progress or an editing history update to display additional information about the update.
 
    ![](assets/update-details-in-updates-tab-expanded-highlighted-350x139.png)
