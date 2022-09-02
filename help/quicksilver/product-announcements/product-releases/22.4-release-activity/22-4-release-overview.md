@@ -33,6 +33,20 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
+            <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-29.md" class="MCXref xref" xrefformat="{para}">Use unlocked statuses in an approval processes
+</a><span style="color: #ff0000;"> Coming soon to Production!</span></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
+<p>To give you more control over the approval processes and statuses in your system, we’ve made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn’t streamline their group’s list of statuses to fit their specific needs.</p>   
+   </td> 
+    <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: June 2, 2022<br></p> </li> 
+     <li> <p>Production release: September 15, 2022</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td>
+  </tr>
                 <tr>
                     <td>
                         <p><span class="bold">Feature</span>
@@ -45,7 +59,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Migration to Adobe Unified Experience</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Migration to Adobe Unified Experience</a> </p>
                         <p>If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release. After the release, all net new customers will be onboarded to both the Adobe Admin Console and Adobe Unified Experience.</p>
                     </td>
                     <td><span class="bold">Available on these dates:</span>
@@ -63,7 +77,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Blueprints icon on the Main Menu now controlled through layout templates</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Blueprints icon on the Main Menu now controlled through layout templates</a></p>
                         <p>System administrators can now add or remove the Blueprints icon on the Main Menu through layout template configuration. This provides greater control of who can browse the Blueprints catalog.</p>
                     </td>
                     <td><span class="bold">Available on these dates:</span>
@@ -81,7 +95,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Task header customization</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Task header customization</a></p>
                         <p>As a Workfront or group administrator, you can now customize the fields that display in the header of a task when you use a Layout Template. This update includes several enhancements, including the ability to remove or rearrange existing fields from the task header and add new, non-editable Task Overview fields.</p>
                     </td>
                     <td><span class="bold">Available on these dates:</span>
@@ -116,7 +130,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Custom form field calculation editor displays error information
-</a><span style="color: #ff0000;"> Coming soon to Production!</span></p></p> <p>Editing calculations for custom fields is now easier with helpful error information indicated directly in the calculation. While you are creating a calculated field in a custom form, errors are highlighted in pink. When you hover over the highlighted portion, a tooltip displays to describe what the problem is.</p>
+</a></p></p> <p>Editing calculations for custom fields is now easier with helpful error information indicated directly in the calculation. While you are creating a calculated field in a custom form, errors are highlighted in pink. When you hover over the highlighted portion, a tooltip displays to describe what the problem is.</p>
 </td>
     <td><b>Available on these dates:</b>
                         <ul>
@@ -124,7 +138,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                                 <p>Preview release: During the 22.3 release time frame <br /></p>
                             </li>
                             <li>
-                                <p>Production release:&#160;September 1, 2022</p>
+                                <p>Production release: With the 22.4 release</p>
                             </li>
                         </ul>
                     </td> 
@@ -150,7 +164,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Smart user selection for project roles in the Edit and Details areas</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Smart user selection for project roles in the Edit and Details areas</a> </p>
                         <p>We have improved the way users display when you add them to the Project Owner, Project Sponsor, and Resource Manager project fields from the Edit box and the Details section of the project.</p>
                         <p>Now, when you add a user to any of these fields in the Edit or Details areas, in addition to their name and avatar, we also display their Primary Role and their email. This helps distinguish between multiple users with similar or identical names.</p>
                     </td>
@@ -375,7 +389,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                  <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Workload Balancer enhancements for Work-license users and Issue settings</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Workload Balancer enhancements for Work-license users and Issue settings</a></p>
                         <p>The following enhancements have been added to the Workload Balancer, in preparation for the deprecation of the Scheduling tools:</p>
                         <ul>
                             <li>

@@ -183,6 +183,11 @@ Consider the following when creating filters using the different interfaces:
   * Duplicate an existing filter, edit it, and save it as a new filter
 
 * Saved filters are available in both builders, regardless of which experience you used to originally build them. For example, if you created a filter using the standard builder, you can find and modify it in the beta builder interface as well.
+
+  >[!TIP]
+  >
+  >An "All" filter is not included with the beta builder because all list items are displayed when no filters are applied. Click **Clear all** on the top right of the builder to clear any active filters and display all items. If **Clear all** is dimmed, then no filters are applied.
+
 * The standard and beta builders have a slightly different syntax when building multiple-statement filters that combine the AND and OR operators. As a result, these filters may display differently when you switch from one builder to another.
 
   >[!INFO]
