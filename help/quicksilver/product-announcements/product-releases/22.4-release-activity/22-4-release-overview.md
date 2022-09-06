@@ -152,6 +152,51 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
+            <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-29.md" class="MCXref xref" xrefformat="{para}">Assign multiple teams to a task or issue
+</a><span style="color: #ff0000;"> New in Preview!</span></p> 
+<p>To give you much more flexibility in the way you manage tasks and issues, we have made it possible to assign multiple teams to a task or issue. Previously, only one team could be assigned to a task or issue.
+
+Note: This functionality is not currently available in the Workload Balancer in the Teams area.</p>   
+   </td> 
+    <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: September 2, 2022<br></p> </li> 
+     <li> <p>Production release: With the 22.4 release</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td>
+  </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Migration to Adobe Unified Experience</a> </p>
+                        <p>If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release. After the release, all net new customers will be onboarded to both the Adobe Admin Console and Adobe Unified Experience.</p>
+                    </td>
+                    <td><span class="bold">Available on these dates:</span>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
                 <tr>
                     <td>
                         <p><span class="bold">Feature</span>

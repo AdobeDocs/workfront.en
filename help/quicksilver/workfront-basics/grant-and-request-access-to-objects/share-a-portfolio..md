@@ -1,6 +1,6 @@
 ---
 title: Share a portfolio
-description: Share a portfolio
+description: You can share a portfolio with other users if you have permissions to access it. 
 author: Alina
 draft: Probably
 feature: Get Started with Workfront
@@ -23,7 +23,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 >A Workfront administrator can add or remove permissions to any items in the system, for all users, without being the owner of those items.
 
 * The creator of a portfolio has Manage permissions to it, by default.
-* You&nbsp;can share a portfolio individually or you can share several portfolios at the same time. Sharing a portfolio is identical to sharing other objects in Workfront. For information, see [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* You can share a portfolio individually or you can share several portfolios at the same time. Sharing a portfolio is identical to sharing other objects in Workfront. For information, see [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 * You can only grant View or Manage permissions on Portfolios.
 
@@ -56,6 +56,4 @@ The following table displays what permissions you can grant users when allowing 
 | Share |✓ |✓ |
 | Share system-wide |&nbsp; |✓ |
 
-{style="table-layout:auto"}
-
-&#42; These permissions are controlled by the access level and permissions on other objects, like projects, programs, documents.&nbsp;
+*These permissions are controlled by the access level and permissions on other objects, like projects, programs, documents.

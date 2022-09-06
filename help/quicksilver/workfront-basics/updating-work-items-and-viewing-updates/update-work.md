@@ -67,9 +67,7 @@ You must have the following access to perform the steps in this article:
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
    | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |Ctrl+Shift+9 |
 
-   {style="table-layout:auto"}
-
-   To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
+    To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
 
    >[!NOTE]
    >
