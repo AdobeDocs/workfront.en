@@ -33,20 +33,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-            <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-29.md" class="MCXref xref" xrefformat="{para}">Use unlocked statuses in an approval processes
-</a><span style="color: #ff0000;"> Coming soon to Production!</span></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
-<p>To give you more control over the approval processes and statuses in your system, we’ve made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn’t streamline their group’s list of statuses to fit their specific needs.</p>   
-   </td> 
-    <td> <p><b>Available on these dates:</b> </p> 
-    <ul> 
-     <li> <p>Preview release: June 2, 2022<br></p> </li> 
-     <li> <p>Production release: September 15, 2022</p> </li> 
-    </ul> <p><strong>Available in these environments:</strong> </p> 
-    <ul> 
-     <li> <p>The new Adobe Workfront experience </p> </li> 
-    </ul> </td>
-  </tr>
+</tr>
                 <tr>
                     <td>
                         <p><span class="bold">Feature</span>
@@ -56,7 +43,20 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                         <p><span class="bold">Release dates</span>
                         </p>
                     </td>
-                </tr>
+                </tr>            
+<tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-29.md" class="MCXref xref" xrefformat="{para}">Use unlocked statuses in an approval processes
+</a><span style="color: #ff0000;"> Coming soon to Production!</span></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
+<p>To give you more control over the approval processes and statuses in your system, we've made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn't streamline their group's list of statuses to fit their specific needs.</p>   
+   </td> 
+    <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: June 2, 2022<br></p> </li> 
+     <li> <p>Production release: September 15, 2022</p> </li> 
+    </ul> <p><strong>Available in these environments:</strong> </p> 
+    <ul> 
+     <li> <p>The new Adobe Workfront experience </p> </li> 
+    </ul> </td>
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Migration to Adobe Unified Experience</a> </p>
@@ -152,7 +152,17 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-            <tr data-mc-conditions=""> 
+ <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+<tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-29.md" class="MCXref xref" xrefformat="{para}">Assign multiple teams to a task or issue
 </a><span style="color: #ff0000;"> New in Preview!</span></p> 
 <p>To give you much more flexibility in the way you manage tasks and issues, we have made it possible to assign multiple teams to a task or issue. Previously, only one team could be assigned to a task or issue.
@@ -170,16 +180,6 @@ Note: This functionality is not currently available in the Workload Balancer in 
   </tr>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Migration to Adobe Unified Experience</a> </p>
                         <p>If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release. After the release, all net new customers will be onboarded to both the Adobe Admin Console and Adobe Unified Experience.</p>
                     </td>
@@ -194,17 +194,6 @@ Note: This functionality is not currently available in the Workload Balancer in 
                                 <p>Production release: With the 22.4 release</p>
                             </li>
                         </ul>
-                    </td>
-                </tr>
-                <tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
                     </td>
                 </tr>
                 <tr>
@@ -579,7 +568,7 @@ For information about the maintenance updates made during the 22.3 release, see 
 
 ### 22.4 Release Webinar
 
-The 22.4 release webinar is not yet scheduled. This page will be updated when more information is available.
+The 22.4 release webinar will be held on Thursday, September 22, 2022 at 9:00 AM PDT. You can [register for the webinar here](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
 
 ### Training updates
 
