@@ -55,9 +55,10 @@ You must have the following access to perform the steps in this article:
 1. (Conditional) If you are a system administrator editing multiple users simultaneously, select **Log Time in**.
 1. Select from the following options for logging time:   
 
-   | **Hours:** |Users specify hours when logging time in Workfront. |
+   | Option |Description |
    |---|---|
-   | **Days:** | Users specify days when logging time in Workfront. |
+   | **Hours** |Users specify hours when logging time in Workfront. |
+   | **Days** | Users specify days when logging time in Workfront. |
 
 1. (Conditional) If you selected to log time in days, in the **Equivalent Hours for Full Workday** field, type the number of hours that equal a full day. One day on a user's timesheet is the equivalent of the number of hours you enter here.
 
