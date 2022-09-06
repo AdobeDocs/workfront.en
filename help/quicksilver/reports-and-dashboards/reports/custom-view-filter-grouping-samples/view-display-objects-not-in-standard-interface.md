@@ -18,19 +18,8 @@ You can determine which fields can be included in a view in either of the follow
 
 * Find the object 's ID field in a column. Most objects that have a field ID also have a corresponding column or field name which may not be accessible through the standard mode interface.
 
-  You can use text mode to include in a view the column or field name instead of the ID by replacing the 
+  You can use text mode to include in a view the column or field name instead of the ID by replacing the `fieldnameID` with the `fieldname:name`.
 
-  ```
-  fieldnameID
-  ```
-
-  with the 
-
-  ```
-  fieldname:name
-  ```
-
-  .  
   For example, in the standard mode interface, the **Portfolio Owner ID** field is available for a project view, but the **Portfolio Owner Name** field is not. You can use text mode to display the **Portfolio Owner Name** in the column of a view.
 
 ## Access requirements
@@ -71,19 +60,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Switch to Text Mode**.
 1. Hover over the text mode area, and click **Click to edit text**.
-1. Replace the 
-
-   ```
-   valuefield
-   ```
-
-   line (
-
-   ```
-   valuefield=portfolio:ownerID
-   ```
-
-   ) with the following line: 
+1. Replace the `valuefield` line (`valuefield=portfolio:ownerID`) with the following line: 
 
    ```
    valuefield=portfolio:owner:name
@@ -92,46 +69,19 @@ You must have the following access to perform the steps in this article:
    Or
 
    Remove the text you find in the **Text Mode** box, and replace it with the following code:
-   <pre>valuefield=portfolio:owner:name</pre><pre>querysort=portfolio:ownerID</pre><pre>valueformat=HTML</pre><pre>displayname=Portfolio Owner Name</pre><pre>linkedname=portfolio</pre>In this particular example, the report will sort the report by the Portfolio Owner ID, as indicated by the 
 
    ```
-   querysort
+   valuefield=portfolio:owner:name
+   querysort=portfolio:ownerID
+   valueformat=HTML
+   displayname=Portfolio Owner Name
+   linkedname=portfolio
    ```
 
-   line.
+   In this particular example, the report will sort the report by the Portfolio Owner ID, as indicated by the `querysort` line.
 
    >[!TIP]
    >
-   >To replace any field    >
-   >
-   >```   >
-   >ID
-   >```   >
-   >
-   >with the field    >
-   >
-   >```   >
-   >name
-   >```   >
-   >
-   >using text mode, always replace    >
-   >
-   >```   >
-   >ID
-   >```   >
-   >
-   >with    >
-   >
-   >```   >
-   >:name
-   >```   >
-   >
-   >in the    >
-   >
-   >```   >
-   >valuefield
-   >```   >
-   >
-   >line.
+   >To replace any field `ID` with the field `name` using text mode, always replace `ID` with `:name` in the `valuefield` line.
 
 1. Click **Save**, then **Save View**.
