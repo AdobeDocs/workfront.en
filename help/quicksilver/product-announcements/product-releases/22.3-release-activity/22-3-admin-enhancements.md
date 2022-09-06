@@ -32,7 +32,7 @@ For more information, see [Configure default proof settings](/help/quicksilver/a
 
 ## Use unlocked statuses in an approval processes
 
-**Note:** Removed from the 22.3 Production release. This feature is planned to release to Production at a future time.
+**Note:** Removed from the 22.3 Production release. This feature is planned to release to Production on September 15, 2022.
 
 To give you more control over the approval processes and statuses in your system, we’ve made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process.
 

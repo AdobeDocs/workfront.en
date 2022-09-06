@@ -23,24 +23,19 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
+  
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Proof Permission Profile </td> 
-   <td>Manager or higher</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Proof access </td> 
+   <td>Guest or higher</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
+&#42;To find out what plan or proof access you have, contact your Workfront or Workfront Proof administrator.
 
 ## Restore an archived proof
+
+Anyone, even guest reviewers, can restore an archived proof.
 
 1. Go to the document that contains the archived&nbsp;proof that you want to access.
 1. Click **Open Proof**.

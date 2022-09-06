@@ -9,6 +9,8 @@ exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
 ---
 # Access and open goals in Adobe Workfront Goals
 
+<!--drafted for goal redesign release: <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+
 This article describes how you can find and manage goals in Adobe Workfront.
 
 ## Access requirements
@@ -63,19 +65,17 @@ You must have the following before you can start:
 
 ## Access Workfront Goals
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-   ![](assets/main-menu-align-icon-highlighted-350x463.png)
-
-   The Goal List displays.
+      The Goal List displays.
 
    
    >[!IMPORTANT]
    >
-   >   When you have the correct access to Workfront Goals, you can view goals they you or anyone else created in the Goal List, by default.    
+   >   When you have the correct access to Workfront Goals, you can view goals that you or anyone else created in the Goal List, by default.    
    
    <!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
@@ -86,6 +86,10 @@ You must have the following before you can start:
    Or
 
    Click **Add Goal** in the upper-right corner to add a new goal.
+   
+   <!--drafted for goal redesign: <span class="preview">Or
+   
+   Click **New goal** to add a new goal.</span>-->
 
    For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
@@ -105,27 +109,42 @@ You must access an individual goal to perform the following actions as you manag
 
 To access an individual goal in Workfront Goals:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner of Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
 
-     <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+     <!--drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    The Goal List displays by default. 
 
-1. Click the name of a goal in the list to access it
+1. Click the name of a goal in the list 
 
    Or
 
-   Click one of the following options in the left panel:
+   Click one of the options below in the left panel, then click the name of a goal to access it:
 
    * Goal Alignment
-   * Check-in 
+   * Check-in <!-- drafted for goal redesign: <span class="preview">(this option was removed from the Preview environment)</span>-->
    * Pulse
 
    >[!NOTE]
    >
    >Depending on what action you want to perform on the individual goal, you might choose to select different sections every time. For information about the differences between the Workfront Goals sections, see [Overview of the Adobe Workfront Goals sections](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
-1. Click the name of a goal in the Goal List or Check-in or Pulse sections, or in a card on the Goal Alignment section.&nbsp;
+   The Goal Details panel displays on the right. You can update the goal, its results, and activities in the Goal Details panel when you have access to manage it. For information about updating goals using the Goal Details panel, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
 
-   The Goal Details panel displays on the right. You can update the goal, its results, and activities in the Goal Details panel when you have access to manage it. For information about updating goals using the Goal&nbsp;Details panel, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
+   <!--drafted for the goal redesign release: replace the last paragraph above with this: 
+
+   In the Production environment,  the Goal Details panel displays on the right. You can update the goal, its results, and activities in the Goal Details panel when you have access to manage it. For information about updating goals using the Goal Details panel, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
+
+   <div class="preview">
+   In the Preview environment, the Goal Details page opens. You can do the following:
+   
+   * Update goal information in the Details section when the goal is active. For more information, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md). 
+   * Select the Progress Indicators or Updates sections to further add information to the goal. For more information, see the following articles:
+   
+      * [Add results to goals in Adobe Workfront Goals](../results-and-activities/add-results-to-goals.md)
+      * [Add activities to goals in Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md)
+      * [Manage goal comments in Adobe Workfront Goals](../goal-management/manage-goal-comments.md) 
+      
+      </div>
+      -->
