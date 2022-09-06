@@ -54,7 +54,7 @@ To view license information in your system:
 
 1. (Conditional) If you see the message **To set a maximum, you must add a Home Group**, add a Home Groups in your system as explained in the section [Add or remove a Home Group to the Licenses page](#add-or-remove-a-home-group-to-the-licenses-page) in this article.
 
-## Viewing information about licenses for Workfront addons
+## Viewing information about licenses for Workfront add-ons
 
 In the screen shot below, **5 of 10 Proof licenses** indicates that this organization has the paid Workfront Proof add-on and is currently using 5 of the 10 Workfront Proof licenses they purchased.
 
@@ -64,6 +64,12 @@ If your organization has purchased Workfront Goals, the license information for 
 
 * The total number of Workfront Goals licenses that your company has purchased
 * The number of Workfront Goals licenses associated with users. This is the number of users to whom to have granted at least View access to Goals in their access level.
+
+<div class="preview">
+
+![](assets/updated-licenses-page.png)
+
+</div>
 
 For information about Workfront Goals, see [Adobe Workfront Goals overview](../../workfront-goals/goal-management/wf-goals-overview.md). For information about access to Workfront Goals, see [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
 
@@ -136,6 +142,12 @@ To set the maximum license count for a Home group:
 1. Type the maximum number, then press Enter.
 
    ![](assets/Screen4.png)
+
+  <div class="preview">
+
+![](assets/updated-max.png)
+
+</div>
 
    >[!NOTE]
    >
