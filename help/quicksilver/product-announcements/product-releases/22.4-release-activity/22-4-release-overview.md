@@ -198,7 +198,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Smart user selection for project roles in the Edit and Details areas</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Smart user selection for project roles in the Edit and Details areas</a> </p>
                         <p>We have improved the way users display when you add them to the Project Owner, Project Sponsor, and Resource Manager project fields from the Edit box and the Details section of the project.</p>
                         <p>Now, when you add a user to any of these fields in the Edit or Details areas, in addition to their name and avatar, we also display their Primary Role and their email. This helps distinguish between multiple users with similar or identical names.</p>
                     </td>
