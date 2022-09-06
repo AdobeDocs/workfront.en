@@ -74,16 +74,14 @@ You can create a new goal in one of the following ways:
 
 ### Create a goal from scratch {#create-a-goal-from-scratch}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-   ![](assets/main-menu-align-icon-highlighted-350x463.png)
-
    The Goal List displays.
 
-1. (Conditional) Click Goal List, **Graphs**, Pulse,or Check-in in the left pane, then click **Add Goal** in the upper-right corner of the page. The Add Goal box displays.
+1. (Conditional) Click **Goal List**, **Graphs**, **Pulse**, or **Check-in** in the left pane, then click **Add Goal** in the upper-right corner of the page. The Add Goal box displays.
 
    ![](assets/add-goal-box-350x235.png)
 

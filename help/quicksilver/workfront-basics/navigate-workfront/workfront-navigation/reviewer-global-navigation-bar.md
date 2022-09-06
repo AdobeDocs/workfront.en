@@ -3,6 +3,7 @@ product-area: user-management
 navigation-topic: workfront-navigation
 title: Understand the navigation for a Review-license user
 description: The Main Menu changes with the access level you have been assigned by your Adobe Workfront administrator. By default, you are given access only to the areas that include functionality allowed by your access level.
+author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
 ---
@@ -28,7 +29,6 @@ The following areas are included in the default layout of a Reviewer:
 
 * **Blueprints**: Review existing blueprints in your system and request one to be installed, if the Workfront administrator configured the request queue for blueprints. For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-&nbsp;
 
 ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
