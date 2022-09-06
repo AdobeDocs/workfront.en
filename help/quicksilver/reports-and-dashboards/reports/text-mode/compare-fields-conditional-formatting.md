@@ -78,27 +78,13 @@ To compare the Planned Start Date and Actual Start Date of task using conditiona
    >If you are comparing a Workfront native field, use camel case syntax for the name of the field. If you are comparing a custom field, use **DE:Actual Name of the Field** for the name field you are comparing with the first field.  
    >For example, if you are comparing the **Actual Start Date** with a custom field labeled **Delivery Date**, add the following statement in your text mode code:  
    >
-   >
-   >```   >
-   >styledef.case.0.comparison.rightmethod=DE:Delivery Date
-   >```   >
-   >
+   >`styledef.case.0.comparison.rightmethod=DE:Delivery Date`
 
-1. Ensure that the 
+1. Ensure that the `righttext` line of code matches the statement in the `rightmethod` line of code.
 
-   ```
-   righttext
-   ```
-
-   line of code matches the statement in the 
-
-   ```
-   rightmethod
-   ```
-
-   line of code.  
    ![](assets/cond-format-2-350x171.png)
 
 1. Click **Save**.
 1. Click **Save + Close**.  
+
    The column highlights the fields that meet your criteria.
