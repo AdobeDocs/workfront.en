@@ -570,8 +570,6 @@ For information about the maintenance updates made during the 22.3 release, see 
 
 The 22.4 release webinar will be held on Thursday, September 22, 2022 at 9:00 AM PDT. You can [register for the webinar here](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
 
-<!-->The 22.4 release webinar is not yet scheduled. This page will be updated when more information is available.<-->
-
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
