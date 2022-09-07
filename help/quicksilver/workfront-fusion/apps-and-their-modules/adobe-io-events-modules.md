@@ -4,15 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: Adobe IO Events modules
-description: With the Adobe IO Events modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe applications.
+title: "Adobe I/O Events modules"
+description: "With the Adobe I/O Events modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe applications."
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
 ---
-# Adobe IO Events modules
+# Adobe I/O Events module
 
-With the Adobe IO Events modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe IO Events account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
+With the Adobe I/O Events modules, you can start an Adobe Workfront Fusion scenario based on events in Adobe accounts and services that do not have a dedicated Workfront Fusion connector. 
 
 ## Access requirements
 
@@ -47,24 +46,30 @@ You must have the following access to use the functionality in this article:
 
 ## Prerequisites
 
-Before you can use the Adobe IO Events connector, you must ensure that the following prerequisites are met:
+Before you can use the Adobe I/O Events connector, you must ensure that the following prerequisites are met:
 
 *   You must have an active Adobe account.
 
-## Create a connection to Adobe IO Events
+## Create a connection to Adobe I/O Events
 
-To create a connection for your Adobe IO Events modules:
+To create a connection for your Adobe I/O Events modules:
 
 1.  Click Add next to the Connection box.
     
 2.  Fill in the following fields:
     
-  <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
     </col>
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
     </col>
     <tbody>
+      <tr>
+        <td role="rowheader">Connection type</td>
+        <td>
+          <p>Select whether you want to connect using a service account or using OAuth.</p>
+        </td>
+      </tr>
       <tr>
         <td role="rowheader">Connection name</td>
         <td>
@@ -80,19 +85,12 @@ To create a connection for your Adobe IO Events modules:
         <td>Enter your Adobe Client Secret. This can be found in the Credentials details section of the Adobe Developer Console</td>
       </tr>
       <tr>
-        <td role="rowheader">Organization ID</td>
-        <td>Enter your Adobe Organization ID. This can be found in the Credentials details section of the Adobe Developer Console</td>
-      </tr>
-      <tr>
         <td role="rowheader">Technical account ID</td>
         <td>Enter your Adobe Technical account ID. This can be found in the Credentials details section of the Adobe Developer Console</td>
       </tr>
       <tr>
-        <td role="rowheader">Tenant</td>
-        <td>
-          <p> To locate your Tenant, log in to the Adobe Experience Cloud, open IO Events, and click the IO Events card. Use the Tenant ID value as noted in the URL subdomain.</p>
-          <p>For example, if your URL when logged in to Adobe IO Events is <code>&lt;https://mycompany.experiencecloud.adobe.com/...&gt;</code> then your Tenant ID is "mycompany."</p>
-        </td>
+        <td role="rowheader">Organization ID</td>
+        <td>Enter your Adobe Organization ID. This can be found in the Credentials details section of the Adobe Developer Console</td>
       </tr>
       <tr>
         <td role="rowheader">Private key</td>
@@ -118,10 +116,24 @@ To create a connection for your Adobe IO Events modules:
           </ol>
         </td>
       </tr>
+        <tr>
+        <td role="rowheader">Consumer Org ID</td>
+        <td>Enter your Consumer Org ID. This can be found in the credential URL of the project: <code>https://developer.adobe.com/console/projects/{consumerOrgId}/ {projectId}/credentials/{credentialId}/details</code></td>
+      </tr>
+      <tr>
+        <td role="rowheader">Credential ID</td>
+        <td>Enter your Adobe Technical account ID. This can be found in the credential URL of the project: <code>https://developer.adobe.com/console/projects/{consumerOrgId}/ {projectId}/credentials/{credentialId}/details</code></td>
+      </tr>
     </tbody>
-  </table>
+    </table>
     
 1.  Click **Continue** to save the connection and return to the module.
+
+## Adobe I/O Events module and its fields
+
+Watch Events
+
+This trigger module starts a scenario when an event occurs in the chosen Adobe product or service.
 
 <table style="table-layout:auto"> 
    <col> 
@@ -129,7 +141,7 @@ To create a connection for your Adobe IO Events modules:
    <tbody> 
    <tr> 
    <td role="rowheader">Webhook</td> 
-   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for build status changes</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The source of the events you want to watch</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
    </tr> 
    </tbody> 
 </table>
