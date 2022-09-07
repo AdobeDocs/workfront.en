@@ -51,9 +51,16 @@ You can view smart assignments in the following areas where you can assign tasks
 
   ![](assets/smart-assignments-scheduling-350x219.png)
 
+  >[!CAUTION]
+  >
+  >Resource Scheduling is a deprecated feature. For more information, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+
+
 * Workload Balancer
 
   ![](assets/smart-assignments-wb-nwe-350x359.png)
+
+  <!--drafted note: update the screen shot above with the two sections for this list AND highlight "Suggested assignments" in red (leave "Other assignments" out of the highlight); replace this screen shot everywhere else in the repo - do an all-repo search to relink the new picture-->
 
 ## Smart assignments criteria
 
