@@ -11,7 +11,7 @@ exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
 ---
 # Create or edit a status
 
-{{#highlighted-preview}}
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
