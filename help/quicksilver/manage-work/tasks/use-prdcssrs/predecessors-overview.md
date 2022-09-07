@@ -73,10 +73,12 @@ To find the predecessors of a task do one of the following:
       Sample image in the Production environment:
       ![](assets/nwe-predecessors-tab-with-task-header-350x56.png)
 
+
       <div class="preview">
 
       Sample image in the Preview environment:
       ![Predecessors section of task](assets/predecessors-area-with-task-header.png)
+
 
       </div>
 
@@ -90,9 +92,9 @@ To find the predecessors of a task do one of the following:
 
       The predecessor icon turns green when the predecessor task is marked complete. This signals that the dependent task is ready for work.
 
-      Hover over this value to get more information on the predecessor, the project and the dates.
+      <span class="preview">Hover over this value to get more information on the predecessor, the project and the dates.</span>
 
-      ![](assets/cross-project-predecessor-in-task-view-350x165.png)
+      <span class="preview">![Predecessor details](assets/predecessor-details-in-task-list.png)</span>
 
 ## Examples of predecessor values in a task list {#examples-of-predecessor-values-in-a-task-list}
 

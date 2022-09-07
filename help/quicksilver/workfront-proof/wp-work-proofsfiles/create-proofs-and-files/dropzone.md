@@ -16,9 +16,7 @@ exl-id: e66142fa-3b0d-4821-9aa5-040c62f00d62
 
 If you have the Enterprise plan, you can use the Dropzone to submit new proofs and new versions of proofs to your account without having to log in to your account.
 
-When you submit a proof via the Dropzone, it appears in the Dropzone page in your Workfront Proof account. From there, you can route it into your workflow.&nbsp;
-
-This article explains the following about the Dropzone:
+When you submit a proof via the Dropzone, it appears in the Dropzone page in your Workfront Proof account. From there, you can route it into your workflow.
 
 ## Submitting a New Proof via the Dropzone URL
 
@@ -71,14 +69,7 @@ This article explains the following about the Dropzone:
    * Once the proof has been activated and unlocked, it shows in your Dropzone as Active.
    * If the proof is locked, it shows in your Dropzone as Locked.
 
-## Emailing a Proof to the Dropzone
 
-1. Send an email with the file attached to the Dropzone email address.  
-   You can find the Dropzone email address in the Dropzone tab within Account settings. For more information, see&nbsp; [Configure the dropzone in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)  
-   Workfront sends a Complete your submission email asking you to confirm whether the file was a new proof or a new version. The link in the email notification valid for only 24 hours.
-
-1. Click the link and follow the steps above, depending on whether it is a new proof or a new version of an existing proof.  
-1. The Dropzone owner (and any people set to be notified) will not be notified that there has been a new submission to the Dropzone until all the steps above have been completed.
 
 ## Completing Your Submission
 
