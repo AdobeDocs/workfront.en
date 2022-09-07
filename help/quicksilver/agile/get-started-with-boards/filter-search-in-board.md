@@ -24,6 +24,10 @@ Searching also helps you locate a specific card on the board.
 
 In the Production environment:
 
+Searching also helps you locate a specific card on the board.
+
+In the Production environment:
+
 When filters are applied on the board, an indicator is displayed on the filter icon ![Filter applied to board](assets/boards-filterapplied-30x30.png). The indicator also appears in a section with applied filters, and the number at the top of the filter shows the total number of selected filters. Click **Clear All** to remove all filters from the board.
 
 ![Filters applied](assets/Boards_AllFilterSections.png)
