@@ -116,8 +116,6 @@ When you create a custom status for the entire organization, you can configure i
        <li>A user starts to edit an approval process that uses an unlocked status. A message alerts the user about the unlocked status so they can evaluate whether it would be a good idea to re-lock or replace it.</li>
        <li>A system-level approval process with an unlocked status is attached on an object, and the status was deleted for the group assigned to the object. When a group member goes to the Approvals section for the object, a message explains that the approval process can't be initiated for the object.</li>
        </ul>
-       
-       
        <p>For more information about locking statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Locked and unlocked system-level statuses</a>.</p>
        </div>
       </td>
