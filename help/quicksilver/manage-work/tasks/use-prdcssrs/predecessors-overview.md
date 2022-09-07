@@ -10,9 +10,7 @@ exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
 ---
 # Overview of task predecessors
 
-<!--
 {{highlighted-preview}}
--->
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE!</p>
@@ -75,8 +73,12 @@ To find the predecessors of a task do one of the following:
       Sample image in the Production environment:
       ![](assets/nwe-predecessors-tab-with-task-header-350x56.png)
 
+      <div class="preview">
+
       Sample image in the Preview environment:
       ![Predecessors section of task](assets/predecessors-area-with-task-header.png)
+
+      </div>
 
 * Go to the project you are working on and do the following:
 

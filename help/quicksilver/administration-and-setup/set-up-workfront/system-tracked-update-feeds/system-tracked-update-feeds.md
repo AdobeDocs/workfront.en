@@ -41,8 +41,6 @@ The following objects can have updates:
 * Documents
 * Timesheets
 
-  Timesheets do not have an Updates area. The Update Status feed is located at the bottom of the timesheet.
-
 Your Workfront license determines whether system updates display by default in the Updates area of objects. Workfront users with a Plan license have system updates displayed in the Updates area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other Workfront licenses filter system updates by default.
 
 Workfront administrators can define what type of changes the system should track in the Updates area. Not all objects have configurable update status feeds. The following objects have an Updates area that captures system-tracked update feeds, but do not have configurable update status feeds:
