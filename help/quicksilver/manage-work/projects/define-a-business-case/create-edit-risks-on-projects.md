@@ -9,9 +9,7 @@ exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
 ---
 # Create and edit risks on projects
 
-<!--
 {{highlighted-preview}}
--->
 
 Risks are possible events or factors that prevent a project from finishing on time or within budget. Risks can be recorded as part of creating the Business Case of a project or by using the Risks tab. Risks are created only on a project. You cannot associate risks with tasks or issues.
 
@@ -96,8 +94,12 @@ In addition to creating and editing risks in the Business Case, you can do so us
    Sample image in the Production environment:
    ![](assets/risks-section-on-project-nwe-350x76.png)
 
+   <div class="preview">
+
    Sample image in the Preview environment:
    ![Risks section of task](assets/risks-section-on-project-2022.png)
+
+   </div>
 
 1. Click **Start Adding Risks** and create risks by in-line editing their information.
 
