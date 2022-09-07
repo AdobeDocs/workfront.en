@@ -83,7 +83,7 @@ The following table outlines major features of boards along with their current r
    <td>Planned</td>
   </tr>
   <tr>
-   <td>Create a column connected to Workfront</td>
+   <td>Filter connected cards by project</td>
    <td>Planned</td>
   </tr>
   <tr>
