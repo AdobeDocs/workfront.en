@@ -73,12 +73,10 @@ To find the predecessors of a task do one of the following:
       Sample image in the Production environment:
       ![](assets/nwe-predecessors-tab-with-task-header-350x56.png)
 
-
       <div class="preview">
 
       Sample image in the Preview environment:
       ![Predecessors section of task](assets/predecessors-area-with-task-header.png)
-
 
       </div>
 
