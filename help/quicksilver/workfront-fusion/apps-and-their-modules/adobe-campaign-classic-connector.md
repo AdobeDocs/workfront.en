@@ -59,6 +59,10 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
+* [Triggers](#triggers)
+* [Actions](#actions)
+* [Searches](#searches)
+
 ### Triggers
 
 #### Watch records
@@ -94,6 +98,14 @@ This scheduled trigger module starts a scenario when a record changes.
 
 
 ### Actions
+
+* [Create a record](#create-a-record)
+* [Custom API call](#make-a-custom-api-call)
+* [Delete a record](#delete-record)
+* [Misc action](#misc-action)
+* [Read a record](#read-a-record)
+* [Subscription](#subscription)
+* [Update a record](#update-record)
 
 #### Create a record
 
