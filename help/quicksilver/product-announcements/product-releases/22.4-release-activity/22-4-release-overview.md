@@ -53,16 +53,13 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
     <ul> 
      <li> <p>Preview release: June 2, 2022<br></p> </li> 
      <li> <p>Production release: September 15, 2022</p> </li> 
-    </ul> <p><strong>Available in these environments:</strong> </p> 
-    <ul> 
-     <li> <p>The new Adobe Workfront experience </p> </li> 
-    </ul> </td>
+    </ul>  </td>
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Migration to Adobe Unified Experience</a> </p>
-                        <p>If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release. After the release, all net new customers will be onboarded to both the Adobe Admin Console and Adobe Unified Experience.</p>
+                        <p>If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release.</p>
                     </td>
-                    <td><span class="bold">Available on these dates:</span>
+                    <td><p><b>Available on these dates:</b></p>
                      <p>
                         </p>
                         <ul>
@@ -80,7 +77,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Blueprints icon on the Main Menu now controlled through layout templates</a></p>
                         <p>System administrators can now add or remove the Blueprints icon on the Main Menu through layout template configuration. This provides greater control of who can browse the Blueprints catalog.</p>
                     </td>
-                    <td><span class="bold">Available on these dates:</span>
+                    <td><p><b>Available on these dates:</b></p>
                      <p>
                         </p>
                         <ul>
@@ -95,10 +92,28 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-sept-5.md" class="MCXref xref" xrefformat="{para}">Issue header customization</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>As a Workfront or group administrator, you can now customize the fields that display in the header of an issue when you use a Layout Template. This update includes several enhancements, including the ability to remove or rearrange existing fields from the issue header and add new, non-editable Issue Overview fields.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: September 8, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Task header customization</a></p>
                         <p>As a Workfront or group administrator, you can now customize the fields that display in the header of a task when you use a Layout Template. This update includes several enhancements, including the ability to remove or rearrange existing fields from the task header and add new, non-editable Task Overview fields.</p>
                     </td>
-                    <td><span class="bold">Available on these dates:</span>
+                    <td><p><b>Available on these dates:</b></p>
                      <p>
                         </p>
                         <ul>
@@ -163,8 +178,21 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                     </td>
                 </tr>
 <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-29.md" class="MCXref xref" xrefformat="{para}">Predecessor details now available
+</a><span style="color: #ff0000;"> Coming soon to Preview!</span></p> 
+<p>To view the details of a task's predecessors, you can now hover over the predecessor number in the Predecessors column. The details box displays the predecessor task and project being referenced, planned start and end dates for the predecessor task, and the predecessor task's number of predecessors and successors. You can expand the project details to see more information about the project. Additional information is included for cross-project predecessors.
+
+Note: This functionality is not currently available in the Workload Balancer in the Teams area.</p>   
+   </td> 
+    <td> <p><b>Available on these dates:</b> </p> 
+    <ul> 
+     <li> <p>Preview release: TBD <br></p> </li> 
+     <li> <p>Production release: With the 22.4 release</p> </li> 
+     </td>
+  </tr>                
+<tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-29.md" class="MCXref xref" xrefformat="{para}">Assign multiple teams to a task or issue
-</a><span style="color: #ff0000;"> New in Preview!</span></p> 
+</a></p> 
 <p>To give you much more flexibility in the way you manage tasks and issues, we have made it possible to assign multiple teams to a task or issue. Previously, only one team could be assigned to a task or issue.
 
 Note: This functionality is not currently available in the Workload Balancer in the Teams area.</p>   
@@ -173,17 +201,15 @@ Note: This functionality is not currently available in the Workload Balancer in 
     <ul> 
      <li> <p>Preview release: September 2, 2022<br></p> </li> 
      <li> <p>Production release: With the 22.4 release</p> </li> 
-    </ul> <p><strong>Available in these environments:</strong> </p> 
-    <ul> 
-     <li> <p>The new Adobe Workfront experience </p> </li> 
-    </ul> </td>
+    </ul> 
+    </td>
   </tr>
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Migration to Adobe Unified Experience</a> </p>
                         <p>If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release. After the release, all net new customers will be onboarded to both the Adobe Admin Console and Adobe Unified Experience.</p>
                     </td>
-                    <td><span class="bold">Available on these dates:</span>
+                    <td><b><p>Available on these dates:</b></p>
                      <p>
                         </p>
                         <ul>
@@ -326,12 +352,71 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-sept-5.md" class="MCXref xref" xrefformat="{para}">Intake column available on boards</a> <span style="color: #ff0000;">New in Preview!</span></p>
+                        <p>You can now add an intake column to a board. This column automatically pulls in tasks and issues to the board as they are added in Workfront, based on filters that you define.</p>
+                        <p>The intake column can serve as a backlog column for a Kanban team, an intake location for a support team to see issues as they are added to a request queue, or any other purpose you need.</p>
+                        <p>Only one intake column is permitted on a board.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: September 8, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: September 15, 2022</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-sept-5.md" class="MCXref xref" xrefformat="{para}">Updated filter panel in boards</a> <span style="color: #ff0000;">New in Preview!</span></p>
+                        <p>The filter and search icons on a board have been moved to the left of the screen. When you click the filter icon, a panel opens on the left to display all of the filter options.</p>
+                        <p>Previously, the filters were displayed in a drop-down on the right side of the board.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: September 8, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: September 15, 2022</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Use groups on a board to create swimlanes</a> <span style="color: #ff0000;">Coming soon to Preview!</span></p>
+                        <p>You can now group cards on a board by assignee or by tag. When you select an option to group by, the cards appear in a swimlane format. Unassigned cards or cards without tags appear in their own swimlane.</p>
+                        <p>You can also define what happens when a card is moved from one group to another. The assignee or tag in the group the card is moved to can be added to the existing assignees/tags, or override the other assignees/tags on the card.</p>
+                        <p>Any cards in the intake column are not included in a group.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: TBD<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Enhancements to checklist items on boards</a> </p>
                         <p>Opening a checklist item on a card now allows you to add more detailed information about the item, including a description, due date, assignees, and estimation. You can also copy a checklist item, which was not available previously.</p>
                     </td>
-                    <td><span class="bold">Available on these dates:</span>
+                    <td><p><b>Available on these dates:</b></p>
                      <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
                         </p>
                         <ul>
@@ -351,7 +436,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>After you add the team to the board, you can assign the team to cards. On connected cards, only one team assignment is allowed. On ad hoc cards, you can assign more than one team.
                         </p>
                     </td>
-                    <td><span class="bold">Available on these dates:</span>
+                    <td><p><b>Available on these dates:</b></p>
                      <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
                         </p>
                         <ul>
@@ -421,6 +506,51 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-sept-5.md" class="MCXref xref" xrefformat="{para}">Show all users for the Workload Balancer of a project</a> <span style="color: #ff0000;">New in Preview!</span></p>
+                        <p>To allow you to have visibility into all users in the system and their capacity without leaving the Workload Balancer of a project, we have added a “Show all users” option. When enabled, the project's Workload Balancer displays all the users in the system in the Assigned Work area. With this enhancement, you can easily identify who needs to be assigned to work listed in the Unassigned Work area.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: September 8, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-sept-5.md" class="MCXref xref" xrefformat="{para}">Show all users with a selected job role in the Workload Balancer when assigning work in bulk</a> <span style="color: #ff0000;">New in Preview!</span></p>
+                        <p>To make it easier to find the right person when replacing job roles with users in the Workload Balancer in bulk, we have improved the way the list of available users populates. Now, you can view all users in the system that can fulfil the selected role in two separate areas in the same list of users:</p>
+                        <ul>
+                            <li>
+                                <p>The first area (Suggested Assignments) displays users identified by the Smart Assignments logic.<br /></p>
+                            </li>
+                            <li>
+                                <p>The second area (Other Assignments) displays all users that can fulfil the selected role.</p>
+                            </li>
+                        </ul>
+                        <p>Prior to these enhancements, only Plan-license users could adjust user allocations and issues displayed only in the Assigned Work area.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: September 8, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 22.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Workload Balancer enhancements for Work-license users and Issue settings</a></p>
@@ -435,7 +565,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         </ul>
                         <p>Prior to these enhancements, only Plan-license users could adjust user allocations and issues displayed only in the Assigned Work area.</p>
                     </td>
-                    <td><span class="bold">Available on these dates:</span>
+                    <td><p><b>Available on these dates:</b></p>
                      <p>
                         </p>
                         <ul>
@@ -472,7 +602,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 22.4 release timeframe</a> </p>
                         <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the 22.4 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
                     </td>
-                    <td><span class="bold">Available on these dates:</span>
+                    <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
                                 <p>Preview release:&#160;Throughout the 22.4 release timeframe<br /></p>
@@ -493,7 +623,7 @@ Campaigns were released to Preview beta with the 22.3 release, in July 2022. For
 <p>This new container will evolve in future releases to connect work objects that are currently managed in separate silos.</p>
 <p>For more information about the Workfront Campaigns beta, as well as information about new features as they release to Preview, see <a href="../../../product-announcements/betas/campaign-object-beta.md" class="MCXref xref" xrefformat="{para}">Campaigns beta</a> </p>
                     </td>
-                    <td><span class="bold">Available on these dates:</span>
+                    <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
                                 <p>Preview release:&#160;Throughout the 22.4 release timeframe<br /></p>
@@ -511,7 +641,7 @@ Campaigns were released to Preview beta with the 22.3 release, in July 2022. For
                         <p>Previously, scrolling through the description in a narrow area was the only way to see all of the content.</p>
 <p>This enhancement to the description applies to both agile and non-agile teams.</p>
                     </td>
-                    <td><span class="bold">Available on these dates:</span>
+                    <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
                                 <p>Preview release:&#160;August 11, 2022<br /></p>
