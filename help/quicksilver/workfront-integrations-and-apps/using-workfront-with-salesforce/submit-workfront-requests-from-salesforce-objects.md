@@ -9,6 +9,9 @@ exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
 ---
 # Submit Adobe Workfront requests from Salesforce objects
 
+<!--drafted for customize issue headers:
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+
 After installing Adobe Workfront for Salesforce, you can submit Workfront requests from Salesforce Opportunities and Accounts. This functionality exists in both the Classic and Lightning Experience frameworks.
 
 ## Access requirements
@@ -86,21 +89,25 @@ To submit a Workfront request from a Salesforce Opportunity or Account ensure th
 
    You can view the following information about the submitted requests:
 
-   * Requests Name (in the Subject&nbsp;column)
+   * Requests Name (in the Subject column)
    * Reference Number
-   * Request&nbsp;Type
+   * Request Type
    * Status
-   * Submitted on&nbsp;Date
+   * Submitted on Date
    * Requested by Name
    * Assigned to Name  
-     When this information is updated in Workfront, it is also updated in this list.&nbsp;
+     When this information is updated in Workfront, it is also updated in this list.
 
-1. (Optional) Click the name of the request to open it in Workfront.&nbsp;
+1. (Optional) Click the name of the request to open it in Workfront.
 
-   On the Summary panel ![](assets/summary-panel-icon.png), notice the **Integrations** indicator that signifies that this issue originated in Salesforce and is currently linked to an item there.&nbsp;
+1. (Optional) Click **Go to Salesforce** to access the Opportunity or Account where the issue originated from the following areas of Workfront: 
 
-1. (Optional) Click **Go to Salesforce** to access the Opportunity or Account where the issue originated.
+   * In the Details section of the issue
+   * In the Summary panel  when selecting the issue in a list, after clicking Open Summary ![](assets/summary-panel-icon.png) in the list's toolbar. 
+
+   <!--drafted for issue custom headers:
+   * <span class="preview">In the issue header, when the Integrations field is available. Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the Go to Salesforce link in the issue eader. For more information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>-->
 
    >[!NOTE]
    >
-   >The Go to Salesforce link is visible to all Workfront users who can view the issue. You must have a Salesforce account to be able to go to the Salesforce Opportunity or Account where the issue was logged.&nbsp;
+   >The Go to Salesforce link is visible to all Workfront users who can view the issue. You must have a Salesforce account to be able to go to the Salesforce Opportunity or Account where the issue was logged.
