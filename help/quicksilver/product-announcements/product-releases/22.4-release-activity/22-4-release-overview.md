@@ -178,11 +178,9 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                     </td>
                 </tr>
 <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-29.md" class="MCXref xref" xrefformat="{para}">Predecessor details now available
+   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-sept-5.md" class="MCXref xref" xrefformat="{para}">Predecessor details now available
 </a><span style="color: #ff0000;"> Coming soon to Preview!</span></p> 
-<p>To view the details of a task's predecessors, you can now hover over the predecessor number in the Predecessors column. The details box displays the predecessor task and project being referenced, planned start and end dates for the predecessor task, and the predecessor task's number of predecessors and successors. You can expand the project details to see more information about the project. Additional information is included for cross-project predecessors.
-
-Note: This functionality is not currently available in the Workload Balancer in the Teams area.</p>   
+<p>To view the details of a task's predecessors, you can now hover over the predecessor number in the Predecessors column. The details box displays the predecessor task and project being referenced, planned start and end dates for the predecessor task, and the predecessor task's number of predecessors and successors. You can expand the project details to see more information about the project. Additional information is included for cross-project predecessors.</p>   
    </td> 
     <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
@@ -204,24 +202,6 @@ Note: This functionality is not currently available in the Workload Balancer in 
     </ul> 
     </td>
   </tr>
-                <tr>
-                    <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Migration to Adobe Unified Experience</a> </p>
-                        <p>If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release. After the release, all net new customers will be onboarded to both the Adobe Admin Console and Adobe Unified Experience.</p>
-                    </td>
-                    <td><b><p>Available on these dates:</b></p>
-                     <p>
-                        </p>
-                        <ul>
-                            <li>
-                                <p>Preview release: N/A<br /></p>
-                            </li>
-                            <li>
-                                <p>Production release: With the 22.4 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md" class="MCXref xref" xrefformat="{para}">Smart user selection for project roles in the Edit and Details areas</a> </p>
@@ -393,7 +373,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md" class="MCXref xref" xrefformat="{para}">Use groups on a board to create swimlanes</a> <span style="color: #ff0000;">Coming soon to Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-sept-5.md" class="MCXref xref" xrefformat="{para}">Use groups on a board to create swimlanes</a> <span style="color: #ff0000;">Coming soon to Preview!</span></p>
                         <p>You can now group cards on a board by assignee or by tag. When you select an option to group by, the cards appear in a swimlane format. Unassigned cards or cards without tags appear in their own swimlane.</p>
                         <p>You can also define what happens when a card is moved from one group to another. The assignee or tag in the group the card is moved to can be added to the existing assignees/tags, or override the other assignees/tags on the card.</p>
                         <p>Any cards in the intake column are not included in a group.</p>
