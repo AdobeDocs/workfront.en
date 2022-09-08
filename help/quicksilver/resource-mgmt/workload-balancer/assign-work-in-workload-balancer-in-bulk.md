@@ -136,23 +136,24 @@ To assign a user to work items previously assigned to job roles:
 1. In the **Task role assignment** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field. 
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: ensure this stays Task and not chages to "Work item"?? if it changes, change the screen shot below)
-   </MadCap:conditionalText>
+   (ensure this stays Task and not chages to "Work item"?? if it changes, change the screen shot below)
    -->
 
    ![](assets/bulk-assignments-workload-balancer-assign-selected-350x330.png)
 
-1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user's name. Users listed in the list by default match the criteria for Smart Assignments.For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user's name.
+
+   Select users from the following areas:
+
+   * **Suggested Assignments**: Users who can fulfill the selected role and who match the criteria for Smart Assignments. For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * <span class="preview">**Other Assignments**: All users in the system who can fulfill the selected role.</span> 
+   
+      >[!TIP]
+      >
+      >Only the first 50 users are listed in the Other Assignments area.
+
 
    Workfront displays a note about the number of items where the user you specified will be assigned and what job role they will replace.
-
-   <!--drafted for bulk assingments all users with the same role - 22.4 - add this before the "Workfront displays" sentence above: 
-   Select users from the following areas:
-   * **Suggested Assignments**: Users who can fulfill the selected role and who match the criteria for Smart Assignments. For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
-   * **Other Assignments**: All users in the system who can fulfill the selected role. 
-   **TIP** Only the first 50 users are listed in the Other Assignments area.-->
-
 
 1. Click **Assign**.
 

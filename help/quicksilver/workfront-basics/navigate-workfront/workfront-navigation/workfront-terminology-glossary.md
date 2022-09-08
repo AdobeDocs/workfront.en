@@ -167,7 +167,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Assignment Roles</td> 
-   <td><p>Note: This field name has been temporarily changed to <b>Assigned Roles</b>. This change will be reverted September 8, 2022.</p>
+   <td>
    <p>In a Task or Issue report, this field displays information about the job roles assigned to the tasks or issues. This field displays Primary Owners, as well as other job roles assigned to tasks or issues.</p> </td> 
   </tr> 
   <tr> 
@@ -182,7 +182,6 @@ The following table is a list of commonly used terms in Adobe Workfront:
   <tr> 
    <td>Assignment Users</td> 
    <td>
-   <p>Note: This field name has been temporarily changed to <b>Assigned Users</b>. This change will be reverted September 8, 2022.</p>
    <p>In a Task or Issue report, this field displays information about the users assigned to the tasks or issues. This field displays Primary Owners, as well as other users assigned to tasks or issues. </p></td> 
   </tr> 
   <tr> 

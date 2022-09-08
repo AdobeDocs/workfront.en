@@ -22,14 +22,14 @@ This article contains general information about smart assignments.&nbsp;For info
 
 Consider the following when working with smart assignments:
 
-* The algorithm works independently for tasks and issues.&nbsp;This means that the list of suggested users for issues might differ from the list of suggested users for a task because Workfront builds the lists according to criteria pertaining to issues and tasks separately. 
+* The algorithm works independently for tasks and issues. This means that the list of suggested users for issues might differ from the list of suggested users for a task because Workfront builds the lists according to criteria pertaining to issues and tasks separately. 
 * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. 
 * The suggested assignments are always active users. 
 * The user listed first should be the best match for the task.
 
 ## Locate smart assignment suggestions
 
-You can view smart assignments in the following areas where you can assign tasks or issues:&nbsp;
+You can view smart assignments in the following areas where you can assign tasks or issues:
 
 * A task or issue list or report
 
@@ -58,9 +58,8 @@ You can view smart assignments in the following areas where you can assign tasks
 
 * Workload Balancer
 
-  ![](assets/smart-assignments-wb-nwe-350x359.png)
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
-  <!--drafted note: update the screen shot above with the two sections for this list AND highlight "Suggested assignments" in red (leave "Other assignments" out of the highlight); replace this screen shot everywhere else in the repo - do an all-repo search to relink the new picture-->
 
 ## Smart assignments criteria
 
@@ -78,7 +77,7 @@ Users are recommended in the smart assignments drop-down list based on a combina
      >[!TIP]
      >
      >* If <!--you're not part of any team and --> there is no role or team assigned on the task or issue, Workfront displays all the users assigned for the last 30 days, up to 50 users.
-     >* If you have not made any assigments in the past 30 days, only users that belong to either the assigned team or have the role assigned to the work item dispplay in the smart assignments list. 
+     >* If you have not made any assignments in the past 30 days, only users that belong to either the assigned team or have the role assigned to the work item display in the smart assignments list. 
 
 <!--the commented out piece in the tip above was there but I am not totally sure that smart assignments look at your team. I think they look JUST at the team/ role assigned to the work item; see this help site request for more info: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/62fd222200037eb87572c5b6ad6bf53e/overview -->
 <!--
