@@ -38,8 +38,8 @@ The following are benefits of the Workfront Scenario Planner to help you achieve
 ## Locate the Workfront Scenario Planner in Workfront
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Scenarios**.
-
-   ![](assets/scenarios-main-menu-highlighted-350x463.png)
+   
+   <!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
 
    The Workfront Scenario Planner displays.
 

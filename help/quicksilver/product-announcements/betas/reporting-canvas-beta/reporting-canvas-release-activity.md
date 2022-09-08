@@ -14,61 +14,48 @@ This page lists new features that are added and issues that are resolved for the
 
 For general information on the Reporting Canvas beta, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
 
-## Week of July 24th
+## Week of September 4th
 
-### New Features
+* Added NUMBER, STRING, and IN functions in Field Builder
+
+## Week of August 21st
+
+* Added IF Function in Field Builder
+
+## Week of July 24th
 
 * Added YEAR function in Field Builder
 
 ## Week of July 17th
 
-### New Features
-
 * Added WEEKDAYDIFF function in Field Builder
 
 ## Week of June 26th
 
-### New Features
-
 * Added MONTH and DATEDIFF functions in Field Builder
-
-### Issues Resolved
-
 * KPI visualization average aggregation now correctly displays decimals
 
 ## Week of June 19th
-
-### New Features
 
 * Added LEFT and RIGHT functions in Field Builder
 
 ## Week of June 12th
 
-### New Features
-
 * Moved conditional formatting options to the table Style menu
 
 ## Week of May 29th
-
-### New Features
 
 * Added table grouping categories for date fields: day, week, month, quarter, and year
 
 ## Week of May 22nd
 
-### New Features
-
 * Added DIV and ROUND functions in Field Builder
 
 ## Week of May 15th
 
-### Issues Resolved
-
 * Fixed x-axis text alignment issue in charts
 
 ## Week of May 8th
-
-### New Features
 
 * Added SUM, PROD, SUB functions in Field builder
 * Display a no results message when a filter has eliminated all the results from a table
@@ -77,8 +64,6 @@ For general information on the Reporting Canvas beta, see [Reporting Canvas beta
 * Provided more room for the group name
 
 ## Week of May 1st
-
-### New Features
 
 * #Value! is shown in cell when a calculation can not be performed on a per row basis
 * Added validation when dragging and dropping certain data types into certain function in Field builder

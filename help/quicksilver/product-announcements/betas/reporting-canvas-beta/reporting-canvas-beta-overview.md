@@ -212,11 +212,8 @@ To opt in other users that are not Workfront administrators:
 
 ### Submit feedback
 
-For information about known beta issues, see [Reporting Canvas beta: known issues](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-known-issues.md).
-
 To submit feedback about the beta:
 
-1. Check the list of currently known issues above to make sure it hasn't already been submitted.
 1. While in Reporting Canvas in Workfront, click the **Send Feedback** button.
 1. Fill out the form, then click **Submit**.
 

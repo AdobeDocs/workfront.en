@@ -3,6 +3,7 @@ content-type: overview
 title: Top navigation bar overview
 description: The top navigation bar—which appears at the top of your screen in the new Adobe Workfront experience—allows you to easily find and navigate to other areas of the platform.
 feature: Get Started with Workfront
+author: Lisa
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
 ---
 # Top navigation bar overview

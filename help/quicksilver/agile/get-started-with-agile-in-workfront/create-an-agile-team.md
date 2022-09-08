@@ -9,6 +9,8 @@ exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 ---
 # Create an agile team
 
+{{highlighted-preview}}
+
 Adobe Workfront enables agile teams to complete work in an incremental, organized way.
 
 Any user in the organization can see the agile team and view all agile components for the team, including the backlog, iterations, story board, and individual stories. However, only members of the team with Edit access to work can make changes to work assigned to the team.
@@ -109,7 +111,7 @@ The following functionality supports this methodology:
      <tr> 
       <td role="rowheader"><strong>Description</strong> </td> 
       <td><p>Type a description for the team.</p> <p>The description displays on the top right of the Teams area when the team is selected.</p>
-      <p>In the Preview environment only: If the description is long, you can click it to display the full description in a pop-up. If you have access to edit the team settings, you can also edit the description directly in the pop-up.</p></td>
+      <p><span class="preview">If the description is long, you can click it to display the full description in a pop-up. If you have access to edit the team settings, you can also edit the description directly in the pop-up.</span></p></td>
      </tr> 
     </tbody> 
    </table>
