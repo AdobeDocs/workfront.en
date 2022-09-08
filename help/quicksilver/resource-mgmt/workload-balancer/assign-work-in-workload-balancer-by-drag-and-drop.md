@@ -69,16 +69,20 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
 
    Go to the **Assigned Work** area and expand the name of a user to view the work items assigned to them, if you want to reassign their items.
 
-   <!-- drafted for the Show all users 22.4 release: make sure you format the TIP below correctly AND add screen shots: 
-   1. <span class="preview">(Conditional) In the Workload Balancer of a project, click the **Show all users** icon <insert icon here> to display all Workfront users.</span> -->
+1. <span class="preview">(Conditional) In the Workload Balancer of a project, click the **Show all users** icon ![](assets/show-all-users-icon-project-workload-balancer.png) to display all Workfront users.</span>
 
-      <!--<span class="preview">This displays all users that you have access to view.</span> 
-      <span class="preview">The users who are also part of the project team and are already assigned to itens on the project have the project icon <insert icon here> to the right of their name in the Assigned Work area.</span> -->
+   <span class="preview">This displays all users that you have access to view.</span> 
 
-      <!--[!TIP]
-      
-         * <span class="preview">The Show all users option is only available in the Workload Balancer for a project.</span> 
-      * <span class="preview">Use filters to display only the  users that are important to you. For example, use the filter to display only users from your teams or groups.</span> -->
+   <span class="preview">The users who are also part of the project team and are already assigned to items on the project have the project icon to the right of their name in the Assigned Work area.</span>
+
+   <span class="preview">![](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)</span>
+
+         
+   >[!TIP]
+   >
+   >* <span class="preview">The Show all users option is only available in the Workload Balancer of a project.</span> 
+   >* <span class="preview">Use filters to display only the  users that are important to you. For example, use the filter to display only users from your teams or groups.</span>
+
 
 
 1. Click the bar of a work item that indicates either the planned or the projected timeline and drag it over the name of a user in the **Assigned** area.
@@ -101,22 +105,20 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
    >     The item displays according to the Workload Balancer criteria for sorting work items. For more information, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
    >
    >
-   ><!--drafted for the Show all users 22.4 release: * <span class="preview">If you enabled Show all users in the Workload Balancer of a project and assigned items to users who were not previously assigned to items on the project, the users are added to the Project Team. For more information, see [Manage project team](../../manage-work/projects/planning-a-project/manage-project-team.md)</span>. -->
+   >* <span class="preview">If you enabled Show all users in the Workload Balancer of a project and assigned items to users who were not previously assigned to items on the project, the users are added to the Project Team. For more information, see [Manage project team](../../manage-work/projects/planning-a-project/manage-project-team.md)</span>.
 
 
 1. (Optional) Click the bar of a work item under the name of a user in the Assigned Work area and drag it then drop it over the Unassigned Work area to unassign it. The item is unassigned from the user, but it might still be assigned to a job role in which case it displays in the Unassigned Work area. If the item is assigned to another user, it remains in the Assigned Work area under the name of the user who is still assigned. 
 1. (Optional) Click the **Show allocations icon** ![](assets/show-allocations-icon-small.png), then click the **More menu** ![](assets/qs-more-menu.png) > **Edit allocations**. 
 
    <!--
-   (NOTE: make sure these are still called this, and that the icon has not changed)
-   </MadCap:conditionalText>
+   (make sure these are still called this, and that the icon has not changed)
    -->
    Or
 
    Double-click a daily or weekly allocation to modify the amount of time the user is allocated to the work item.
 
-   For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations"&nbsp;section in the article [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations" section in the article [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
    For information about removing assignments from a work item using the Workload Balancer, see [Unassign work in the Workload Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
-&nbsp;
