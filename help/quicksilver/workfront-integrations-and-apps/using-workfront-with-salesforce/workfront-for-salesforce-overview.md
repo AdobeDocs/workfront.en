@@ -3,7 +3,7 @@ content-type: overview
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
 title: Adobe Workfront for Salesforce overview
-description: A Pro Workfront Plan is required to use this feature. For more information about the various plans available, see Workfront Plans.
+description: You can install Adobe Workfront for Salesforce to allow your Salesforce users to submit Workfront requests and automatically create projects without ever leaving Salesforce.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
@@ -56,7 +56,7 @@ You can do the following when using Workfront for Salesforce:
 
 Consider the following when working with Workfront for Salesforce:
 
-* We support both the Salesforce Classic and Lightning Experience frameworks.&nbsp;
+* We support both the Salesforce Classic and Lightning Experience frameworks.
 * Items can be created only from Salesforce in to Workfront. 
 * You can view some information about the Workfront items in Salesforce.  
 
@@ -68,6 +68,16 @@ Consider the following when working with Workfront for Salesforce:
 
   You cannot view any information about the Salesforce items in Workfront, but you have a link to the Salesforce item from Workfront to review it in Salesforce. 
 
-  [!UICONTROL The **Go to Salesforce**] link displays either in the Details section of a project or and issue, <span class="preview">or in the project <!--drafted for custom issue headers: or issue--> header. Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the Go to Salesforce link in the project <!--drafted for custom issue headers: or issue--> header.</span> 
+  [!UICONTROL The **Go to Salesforce**] link displays in the following areas:
+  
+    * The Details section of a project or and issue
+    * The header of a project <span class="preview"> or an issue.</span>
+    
+      Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the Go to Salesforce link in the project <span class="preview"> or issue</span>--> header. 
+    * The Summary panel  of an issue when selecting the issue in a list, after clicking Open Summary ![](assets/summary-panel-icon.png) in the list's toolbar.
+
+      >[!NOTE]
+      >
+      >The Go to Salesforce link is visible to all Workfront users who can view the project or the issue. You must have a Salesforce account to be able to go to the Salesforce Opportunity or Account where the issue was logged.
 
 * Updating fields on one item in one application does not update any information on linked items in the other application.
