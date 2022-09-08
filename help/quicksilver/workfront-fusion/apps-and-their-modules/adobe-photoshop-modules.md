@@ -137,3 +137,15 @@ If you see the map button above a field or function, you can use it to set varia
 ![](assets/map-toggle-350x74.png)
 
 
+### Actions
+
+#### Custom API Call
+
+#### Edit text layers
+
+#### Execute Depth Blur
+
+#### Execute Photoshop Actions
+
+#### Execure Product Crop
+
