@@ -65,11 +65,10 @@ If your organization has purchased Workfront Goals, the license information for 
 * The total number of Workfront Goals licenses that your company has purchased
 * The number of Workfront Goals licenses associated with users. This is the number of users to whom to have granted at least View access to Goals in their access level.
 
-<div class="preview">
+<span class="preview">In the Preview environment, the license information is in the top-right corner:</span>
 
 ![](assets/updated-licenses-page.png)
 
-</div>
 
 For information about Workfront Goals, see [Adobe Workfront Goals overview](../../workfront-goals/goal-management/wf-goals-overview.md). For information about access to Workfront Goals, see [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
 
@@ -142,12 +141,6 @@ To set the maximum license count for a Home group:
 1. Type the maximum number, then press Enter.
 
    ![](assets/Screen4.png)
-
-  <div class="preview">
-
-![](assets/updated-max.png)
-
-</div>
 
    >[!NOTE]
    >
