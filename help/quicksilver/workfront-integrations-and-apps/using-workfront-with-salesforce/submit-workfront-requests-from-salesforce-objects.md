@@ -9,8 +9,7 @@ exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
 ---
 # Submit Adobe Workfront requests from Salesforce objects
 
-<!--drafted for customize issue headers:
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
 After installing Adobe Workfront for Salesforce, you can submit Workfront requests from Salesforce Opportunities and Accounts. This functionality exists in both the Classic and Lightning Experience frameworks.
 
@@ -23,11 +22,11 @@ You must have the following access to use the functionality described in this ar
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
    <td> <p>Plan</p> </td> 
   </tr> 
  </tbody> 
@@ -104,9 +103,7 @@ To submit a Workfront request from a Salesforce Opportunity or Account ensure th
 
    * In the Details section of the issue
    * In the Summary panel  when selecting the issue in a list, after clicking Open Summary ![](assets/summary-panel-icon.png) in the list's toolbar. 
-
-   <!--drafted for issue custom headers:
-   * <span class="preview">In the issue header, when the Integrations field is available. Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the Go to Salesforce link in the issue eader. For more information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>-->
+   * <span class="preview">In the issue header, when the Integrations field is available. Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the Go to Salesforce link in the issue header. For more information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
    >[!NOTE]
    >

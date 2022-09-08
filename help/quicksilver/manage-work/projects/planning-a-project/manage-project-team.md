@@ -10,8 +10,8 @@ exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
 # Manage the Project Team
 
 <!--
-<drafted for Scheduling depreacation: 
-remove the NWE way of doing this when the Scheduling tools will be removed from the app)</p>
+<drafted for Scheduling deprecation: 
+remove the NWE way of doing this when the Scheduling tools will be removed from the app; leave just "adding automatically" and how to remove users - the People tab should still be there </p>
 -->
 
 The Project Team consists of users who are associated with the project. They display  in the People section of the project.
@@ -79,7 +79,11 @@ You can manually add users to a project team by using the Scheduling section of 
 
 >[!IMPORTANT]
 >
->The Scheduling tools are currently deprecated in Workfront and will be removed. For more information, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md). 
+>The Scheduling tools are currently deprecated in Workfront and will be removed. 
+> 
+>After the removal of the Scheduling tools in Workfront, users will be added to the project team automatically, as described in the section [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team-automatically-add-users-to-a-project-team) in this article
+>
+>For more information, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md). 
 
 You can add users to a Project Team if they don't need to be assigned to any work items in the project but they need to be notified about certain actions that take place on the project. For more information about what notifications can be enabled for users on the project team, see [Event notifications available in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
 
