@@ -22,7 +22,11 @@ As a Workfront Proof administrator, you can set, view, and edit your users'&nbsp
 
    * **Web Dropzone**: Enable or disable the Dropzone.
    * **Web Dropzone URL**: The URL that you must enter into your browser to submit proofs via the Dropzone.
-   
+   * **Email Dropzone**: Enable or disable the Email Dropzone.
+      >[!NOTE]
+      >
+      >Emailing to dropzones is no longer supported.
+
    * **Dropzone Owner**: Set or edit the Dropzone owner. This is the person who will be notified of new submissions to the Dropzone. To be set as the Dropzone owner, the user must be a Supervisor, Admin, Billing Admin, or the account Creator. For more information, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
    
    * **Default role for creators**: All submitters are added to the proof with this role as a default.
