@@ -22,8 +22,12 @@ exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 >1.  Disable the legacy SharePoint integration so that your users do not use it to link to new documents.
 >    
 >     For instructions, see [Disable linking to the legacy SharePoint integration](#disable-linking) in this article.
+>
+>1. Configure your legacy SharePoint Client Secret so that your users will continue to have access to documents linked through the legacy SharePoint integration. 
+>
+>    For more information, see [Configure the Client Secret for continued access to the legacy SharePoint integration](#configure-client-secret-for-continued-access-to-the-legacy-sharepoint-integration) in this article.
 >    
->2.  Link documents that are currently linked through the legacy SharePoint integration through the new integration.
+>1.  Link documents that are currently linked through the legacy SharePoint integration through the new integration.
 >    
 >     For instructions, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 >    
@@ -98,13 +102,7 @@ To create and configure a Sharepoint Site:
 
    If you did not create a site in step 1, go to your organization's root site.
 
-1. Add 
-
-   ```
-   /_layouts/15/appregnew.aspx
-   ```
-
-   to the end of the URL in the search bar at the top of your browser window.
+1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
 1. Configure the following fields:
 
    <table style="table-layout:auto"> 
@@ -247,8 +245,8 @@ When you have created a site app in SharePoint, you can now copy information fro
 The basic configuration is almost complete.
 
 1. In Workfront, Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Documents** ![](assets/document-icon.png).
-1. Click**Add new**.
-1. Click**From `<title of your SharePoint site>`** in the dropdown.
+1. Click **Add new**.
+1. Click **From `<title of your SharePoint site>`** in the dropdown.
 
    A dialog that invites you to Trust this site appears.
 
@@ -286,6 +284,23 @@ To ensure that you can access documents linked through the legacy SharePoint int
 1. Select **Documents** in the left navigation, then select **SharePoint Integration**.
 1. Select the checkmark on the left of the list for all existing integrations, then select **Disable**.
     
+## Configure the Client Secret for continued access to the legacy SharePoint integration
+
+Your SharePoint Client Secret expires once a year. To ensure continued access to the documents in your legacy SharePoint integration, you must keep its SharePoint Client Secret up to date.
+
+<!--1. Go to the site that your SharePoint integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
+
+1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
+
+1. Generate a new client secret as descriped in [Replace an expiring client secret in a SharePoint Add-in](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)
+2. Copy this Client Secret to a secure location. 
+3. Log into Workfront as an administrator.
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click **Documents** > **SharePoint Integration**.
+1. Click on the SharePoint integration you want to update, then click **Edit**.
+1. Enter the new Client Secret into the **Client Secret** field.
+1. Click **Save**.
 
 
 ## Troubleshooting
