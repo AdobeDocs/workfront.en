@@ -69,6 +69,11 @@ When you submit a proof via the Dropzone, it appears in the Dropzone page in you
    * Once the proof has been activated and unlocked, it shows in your Dropzone as Active.
    * If the proof is locked, it shows in your Dropzone as Locked.
 
+## Emailing a Proof to the Dropzone
+
+>[!NOTE]
+>
+>Emailing a proof to the dropzone is no longer supported.
 
 
 ## Completing Your Submission
