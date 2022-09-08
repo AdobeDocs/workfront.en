@@ -4,6 +4,7 @@ description: Workfront Fusion release activity:&nbsp;Week of April 18, 2022
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+hidefromtoc: yes
 exl-id: cd669a0f-6255-4ce3-bcba-c9aeb49bc8c8
 ---
 # Workfront Fusion release activity:&nbsp;Week of April 18, 2022

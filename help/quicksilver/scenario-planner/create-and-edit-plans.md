@@ -40,11 +40,11 @@ You must have the following:
    <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
+   <td>Access level configurations* </td> 
    <td> <p>Edit access or higher to the Scenario Planner</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Object permissions </p> </td> 
    <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Scenario Planner</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -74,12 +74,11 @@ To create or edit a plan:
 
 1. (Optional) Click the **Filter** icon ![](assets/filter-icon-34x37.png)in the upper-right corner of the plan list, and select from the following:
 
-   | All |Displays all plans that you created or that have been shared with you.  |
+   | Filter |Description  |
    |---|---|
+   | All |Displays all plans that you created or that have been shared with you.  |
    | My plans |Displays plans that you created.  |
    | Shared with me |Displays plans shared with you.  |
-
-   {style="table-layout:auto"}
 
    ![](assets/plans-filters-dropdown-options-scenario-planer.png)
 
@@ -154,12 +153,11 @@ To create or edit a plan:
 
    ![](assets/month-dropdown-with-all-options.png)
 
-   | Month |Displays the timeline by month. This is the default and only option for a one year plan.  |
+   | Drop-down menu option |Description  |
    |---|---|
+   | Month |Displays the timeline by month. This is the default and only option for a one year plan.  |
    | Quarter |Displays the timeline by quarter. This option is available only when the Duration of the plan is 3 or 5 years. This is the default option for a 3-year plan. |
    | Year |Displays the timeline by year. This option is available only when the Duration of the plan is 5 years. This is the default option for a 5-year plan.  |
-
-   {style="table-layout:auto"}
 
 1. (Optional) Scroll from left to right to view the entire duration of the plan. 
 1. (Optional) Click the **Today** indicator line to return to the current day.
