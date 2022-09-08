@@ -35,11 +35,11 @@ To use the Adobe Workfront Scenario Planner you must have the following access:
    <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Access level*</strong> </td> 
+   <td role="rowheader">Access level*</td> 
    <td> <p>View access or higher to the Scenario Planner</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p><strong>Object permissions</strong> </p> </td> 
+   <td role="rowheader"> <p>Object permissions</p> </td> 
    <td> <p>View permissions or higher for a plan<!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         (NOTE: this might change if they have permissions for initiatives/ scenarios, etc) 
@@ -49,7 +49,7 @@ To use the Adobe Workfront Scenario Planner you must have the following access:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Plans overview
 
@@ -57,7 +57,9 @@ To use the Adobe Workfront Scenario Planner you must have the following access:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: add information about utilization percentage for job roles - per this story?? - https://hub.workfront.com/task/5eb0784900083e1f2cabb60d6e0d04d3/overview)</p>
 -->
 
-You can identify each high-level organizational outcome and add it as a plan to the Workfront Scenario Planner. A plan is the largest work item in the Scenario Planner. To make it easier to achieve the plan, you can divide it in several initiatives, to indicate what steps individual organizational units need to take towards its completion. You can then connect initiatives with real projects to indicate how real work factors into actually completing the plan. This article provides general information about plans. For information about initiatives, see [Initiatives overview in the Scenario Planner](../scenario-planner/initiatives-overview.md).
+You can identify each high-level organizational outcome and add it as a plan to the Workfront Scenario Planner. A plan is the largest work item in the Scenario Planner. To make it easier to achieve the plan, you can divide it in several initiatives, to indicate what steps individual organizational units need to take towards its completion.
+
+ You can then connect initiatives with real projects to indicate how real work factors into actually completing the plan. This article provides general information about plans. For information about initiatives, see [Initiatives overview in the Scenario Planner](../scenario-planner/initiatives-overview.md).
 
 You can define the labor and financial resources needed to complete the work identified on the plan. You can also view the labor and financial resources required by the initiatives in the plan in order for them to complete.
 
@@ -93,8 +95,9 @@ You can review job role general information for plans that indicates the amount 
 
 You can view the following in the job role box:
 
-| FTE/ Hours indicator |The (FTE) or (Hours) indicator next to the "Job Role" title indicates whether the plan was set up to use FTEs or Hours when it was created. The plan, all the scenarios, and initiatives use this unit.  |
+| Information|Description  |
 |---|---|
+| FTE/ Hours indicator |The (FTE) or (Hours) indicator next to the "Job Role" title indicates whether the plan was set up to use FTEs or Hours when it was created. The plan, all the scenarios, and initiatives use this unit.  |
 | Available |The number of job role FTEs or hours that are available for the current scenario.  |
 | Required |The number of job role FTEs or hours that are required by all the initiatives in the current scenario so that they can be completed.  |
 
