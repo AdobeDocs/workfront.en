@@ -82,11 +82,11 @@ You must have the following access to perform the steps in this article:
 
    The following details are displayed:
 
-   **Predecessor name:** The name of the predecessor that is being referenced. The task number of the predecessor is included. For cross-project predecessors, you can click the task name to open it in a new browser window. In the above example, the predecessor is Production/Execution/Delivery.
+   **Predecessor name:** The name of the predecessor that is being referenced. The task number of the predecessor is included. Click the task name to open it. In the above example, the predecessor is Production/Execution/Delivery.
 
    **Project name:** The name of the project where the predecessor resides. The project is identified as the current project or a cross project. In the above example, the project name is Digital Asset Production (Integrated) - Project.
 
-   You can expand the project details to see the project's planned start and end dates, condition, status, percent complete, and owner. For a cross project, you can then click **See Project** to open the project in a new browser window.
+   You can expand the project details to see the project's planned start and end dates, condition, status, percent complete, and owner. For a cross project, you can then click **See Project** to open the project.
 
    **Planned Start:** The planned start date of the predecessor task.
 
