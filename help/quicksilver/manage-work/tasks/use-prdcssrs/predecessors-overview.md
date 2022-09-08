@@ -86,7 +86,7 @@ To find the predecessors of a task do one of the following:
 
       The predecessor icon turns green when the predecessor task is marked complete. This signals that the dependent task is ready for work.
 
-      <span class="preview">Hover over this value to get more information on the predecessor, the project and the dates.</span>
+      <span class="preview">Hover over this value to get more information on the predecessor, the project, and the dates.</span>
 
       <span class="preview">![Predecessor details](assets/predecessor-details-in-task-list.png)</span>
 
