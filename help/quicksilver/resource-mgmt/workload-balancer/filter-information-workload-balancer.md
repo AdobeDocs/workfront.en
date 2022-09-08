@@ -9,8 +9,10 @@ exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
 ---
 # Manage filters in the Workload Balancer
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: when they add custom fields to fitlering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down >> ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER) </p>
+(when they add custom fields to fitlering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down >> ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER)
 -->
 
 As a resource manager, you can use the Workload Balancer to view and manage the workload of your users. For more general information about the Workload Balancer, see the following articles:
@@ -118,12 +120,14 @@ Depending on where you access the Workload Balancer from, the Unassigned and Ass
   <tr> 
    <td role="rowheader">A project</td> 
    <td> <p>Unassigned work items or items assigned to teams or job roles in the selected project display in this area.</p> </td> 
-   <td> <p>Users that are assigned to at least one work item on the selected project and their work items on the selected project or on other projects that match the timeline selected on the screen.</p> </td> 
+   <td> <p>Users that are assigned to at least one work item on the selected project and their work items on the selected project or on other projects that match the timeline selected on the screen.</p> 
+   <b>NOTE</b>
+   <p class="preview">You can enable the Show all users option in the Workload Balancer of a project to display all users in the system. For more information, see <a href="../workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">Navigate the Workload Balancer</a></p> 
+   
+   </td> 
   </tr> 
  </tbody> 
 </table>
-
-&nbsp;
 
 ## Create Workload Balancer filters
 

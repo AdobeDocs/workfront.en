@@ -102,9 +102,9 @@ To automatically link a Workfront task to a Jira issue:
 
    Or
 
-   Click the **Go to Jira** link in the *[!UICONTROL *Integrations**] area on the Details panel <span class="preview">or the task <!--drafted for issue custom header: or issue--> header</span>, to open the Jira issue.
+   Click the **Go to Jira** link in the *[!UICONTROL **Integrations**] area of the [!UICONTROL **Details**] section <span class="preview">of the task or issue header</span>, to open the Jira issue.
 
-   <span class="preview">Your system or group administrator must add the [!UICONTROL Integrations] field to your layout template to display it in the task <!--drafted for issue custom header: or issue--> header. For information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+   <span class="preview">Your system or group administrator must add the [!UICONTROL Integrations] field to your layout template to display it in the task or issue header. For information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
    Any Jira user can immediately start working on items automatically created from Workfront and their updates will transfer to Workfront without needing a license for Workfront to do so.
 
