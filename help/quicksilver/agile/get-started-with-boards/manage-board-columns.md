@@ -45,6 +45,10 @@ You must have the following access to perform the steps in this article:
 
    ![Add new column](assets/boards-add-column.png)
 
+>[!TIP]
+>
+>To add an intake column, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
 ## Reorder columns on a board
 
 1. Access the board.
@@ -127,11 +131,6 @@ You must have the following access to perform the steps in this article:
 
    ![WIP limit for column](assets/boards-wip-limit-in-column.png)
    
-   The number of cards and the limit display at the top of the column. If the column contains more cards than the limit, the counter turns red. Note that the WIP limit is simply a visual warning and does not restrict you from having more items in each column than the limit you set.
-
-   ![WIP limit counter](assets/boards-wip-limit-counter.png)
-
-   >[!NOTE]
-   >The WIP limit policy in the column settings is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+   For more information, see [Manage the Work in Progress (WIP) limit on a board](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
 1. Click **Close** to exit the Settings area and view the column and its cards.

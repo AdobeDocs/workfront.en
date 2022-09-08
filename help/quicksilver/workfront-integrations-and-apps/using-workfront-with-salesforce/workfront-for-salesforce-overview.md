@@ -68,6 +68,6 @@ Consider the following when working with Workfront for Salesforce:
 
   You cannot view any information about the Salesforce items in Workfront, but you have a link to the Salesforce item from Workfront to review it in Salesforce. 
 
-  [!UICONTROL The **Go to Salesforce**] link displays either in the Details section of a project, <span class="preview">or in the project header. Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the Go to Salesforce link in the project header.</span> 
+  [!UICONTROL The **Go to Salesforce**] link displays either in the Details section of a project or and issue, <span class="preview">or in the project <!--drafted for custom issue headers: or issue--> header. Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the Go to Salesforce link in the project <!--drafted for custom issue headers: or issue--> header.</span> 
 
 * Updating fields on one item in one application does not update any information on linked items in the other application.
