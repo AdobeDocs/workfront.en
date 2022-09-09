@@ -226,7 +226,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
      ![](assets/group-by-project-350x530.png)
 
-   * **Include hours from issues**: When this is selected, issues assigned to users display under the user's name in the Assigned Work area <span class="preview">and issues that are not assigned to users display in the Unassigned Work area</span>. The Planned Hours from the issues also display for the issues, the project, and, for the Assigned Work area, also for the user.
+   * **Include hours from issues**: When this is selected, issues assigned to users display under the user's name in the Assigned Work area <span class="preview">and issues that are not assigned to users display in the Unassigned Work area</span>. The Planned Hours from the issues count towards the Planned Hours for the project and for the user in the Assigned Work area. 
 
         ![](assets/issue-on-workload-balancer-350x20.png)
 
@@ -250,16 +250,23 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    
    * **Show remaining time**: When this is enabled, Workfront displays the difference between the daily time for which the user is available to work based on their schedules and the hours for which they are allocated in the Assigned Work area for the users. This is disabled by default and allocated time displays by default.
 
-   * In the **Select color theme section**, select from the following:
+   * In the **Select color theme** section, select the color that you want for the project and task bars.  
 
-      * **Default**: The bars for all projects and their work items display in blue. 
-      * **Project**: The bars associated with each project and its work items change according to the name of the project. All tasks that belong to the project display in bars that match the color of the project. The project bars display in a lighter shade to distinguish them from the tasks. The project bars also include a project icon when choosing not to display allocations.
+      >[!NOTE]
+      >
+      >The setting for selecting the color theme  does not affect the color of the issue bars. Issues always display in a maroon-color bar. 
+
+
+      Select from the following:
+
+      * **Default**: The bars for all projects and their work items display in blue.  
+      * **Project**: The bars associated with each project and its tasks change according to the name of the project. All tasks that belong to the project display in bars that match the color of the project. The project bars display in a lighter shade to distinguish them from the tasks. The project bars also include a project icon when choosing not to display allocations.
       * **Project Status**: The bars associated with each project and its work items change to the color of the status of the project.
 
         >[!TIP]
         >
-        >The project status is that associated with the Group of the project. If the Group does not have group-specific statuses, the color of the work item bars is that of the system-level project status. Both system as well as custom statuses display. For information about group statuses, see [Create or edit a group status](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
-
+        >* The project status is that associated with the Group of the project. If the Group does not have group-specific statuses, the color of the work item bars is that of the system-level project status. Both system as well as custom statuses display. For information about group statuses, see [Create or edit a group status](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+        
    * In the **Display user allocation in** section, select from the following:
 
       * **Hours**: Displays allocated time as hours. This is the default. 
