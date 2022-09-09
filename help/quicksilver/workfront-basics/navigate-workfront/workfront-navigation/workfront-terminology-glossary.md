@@ -180,6 +180,11 @@ The following table is a list of commonly used terms in Adobe Workfront:
     </ul> <p>For more information, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md" class="MCXref xref">Work On It and Done button overview</a>. </p> </td> 
   </tr> 
   <tr> 
+   <td><span class="preview">Assignment Teams</span></td> 
+   <td>
+   <p class="preview">In a task or issue report, this field displays information about the teams assigned to the tasks or issues. The field displays Primary Owners, as well as other teams assigned to tasks or issues. </p></td> 
+  </tr> 
+  <tr> 
    <td>Assignment Users</td> 
    <td>
    <p>In a Task or Issue report, this field displays information about the users assigned to the tasks or issues. This field displays Primary Owners, as well as other users assigned to tasks or issues. </p></td> 
