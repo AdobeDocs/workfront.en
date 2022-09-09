@@ -282,6 +282,12 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    ![](assets/hover-over-project-status-tooltip-350x115.png)
 
+1. <span class="preview">(Conditional) In the Workload Balancer of a project, click the **Show all users** icon ![](assets/show-all-users-icon-project-workload-balancer.png) to display all users in the system in the Assigned Work area. This allows you to assign tasks or issues to users who might not be already assigned on the project. For more information, see [Assign work in the Workload Balancer by dragging and dropping](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).</span>
+
+   >[!TIP]
+   >
+   >The Show all users icon is available only for the Workload Balancer of a project. 
+
 1. Click the **Chart icon** ![](assets/user-allocation-chart-icon.png) to display the user allocation in a chart format. Days where the user is overallocated display as red blocks, and days where the user is underallocated or at capacity display as blue blocks. The size of the blocks indicates the amount of the allocation: the larger the box, the more time the user is allocated to work items for that day or week.
 
    ![](assets/user-allocation-chart-350x237.png)

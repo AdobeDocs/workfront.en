@@ -53,7 +53,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Actual Hours</td> 
-   <td> <p>In a project, task, or issue report, Actual Hours are the sum of all hours logged on the project, task, or issue.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If from the Updates tab for Task 1, you click ‘Log Time' and enter 25 hours, the Actual Hours of Task 1 = 25 hours. </p> <p>Workfront calculates Actual Hours for parent tasks or projects using the following formulas:</p> 
+   <td> <p>In a project, task, or issue report, Actual Hours are the sum of all hours logged on the project, task, or issue.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If from the Updates tab for Task 1, you click 'Log Time' and enter 25 hours, the Actual Hours of Task 1 = 25 hours. </p> <p>Workfront calculates Actual Hours for parent tasks or projects using the following formulas:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children Actual Hours + Actual Hours on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = Actual Hours logged on the project + Actual Hours logged on standalone or children tasks in the project</code> </p> </li> 
@@ -167,7 +167,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Assignment Roles</td> 
-   <td><p>Note: This field name has been temporarily changed to <b>Assigned Roles</b>. This change will be reverted September 8, 2022.</p>
+   <td>
    <p>In a Task or Issue report, this field displays information about the job roles assigned to the tasks or issues. This field displays Primary Owners, as well as other job roles assigned to tasks or issues.</p> </td> 
   </tr> 
   <tr> 
@@ -180,9 +180,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
     </ul> <p>For more information, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md" class="MCXref xref">Work On It and Done button overview</a>. </p> </td> 
   </tr> 
   <tr> 
+   <td><span class="preview">Assignment Teams</span></td> 
+   <td>
+   <p class="preview">In a task or issue report, this field displays information about the teams assigned to the tasks or issues. The field displays Primary Owners, as well as other teams assigned to tasks or issues. </p></td> 
+  </tr> 
+  <tr> 
    <td>Assignment Users</td> 
    <td>
-   <p>Note: This field name has been temporarily changed to <b>Assigned Users</b>. This change will be reverted September 8, 2022.</p>
    <p>In a Task or Issue report, this field displays information about the users assigned to the tasks or issues. This field displays Primary Owners, as well as other users assigned to tasks or issues. </p></td> 
   </tr> 
   <tr> 
@@ -570,7 +574,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Major Roadblocks (2)</li> 
     </ul> 
    <p><b>NOTE</b></p>
-    <p>When the Condition field is tracked in Journal Entry reports, the New and Old Number Values display the number associated with the condition instead of its name. If a condition is originally not defined for a task or an issue and you later update it, the journal entry that captures the update will display the Old Number Value of the Condition field as -2,147,483,648. See also <i>New Number Value</i>, <i>Old Number Value</i>, and <i>Journal Entry</i>. </p> 
+    <p>When the Condition field is tracked in Journal Entry reports, the New and Old Number Values display the number associated with the condition instead of its name. If a condition is originally not defined for a task or an issue and you later update it, the journal entry that captures the update will display the Old Number Value of the Condition field as -2,147,483,648. See also "New Number Value", "Old Number Value", and "Journal Entry" in this article. </p> 
     </td> 
   </tr> 
   <tr> 
@@ -587,13 +591,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Start No Earlier Than</li> 
     </ul> <p>Tip:   
      <ul> 
-      <li> <p>A task with a Constraint of Fixed Dates has no&nbsp;Constraint Date. </p> </li> 
+      <li> <p>A task with a Constraint of Fixed Dates has no Constraint Date. </p> </li> 
       <li> <p> Constraint Date is only viewable in a report or customized view.</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td>Constraint Day</td> 
-   <td> <p>If you are using a Task Constraint in a template task that is tied to a specific day, such as Must Start On, then that specific day becomes the Constraint Day of the template task.&nbsp;</p> <p>The following task constraints update the Constraint Day field:</p> 
+   <td> <p>If you are using a Task Constraint in a template task that is tied to a specific day, such as Must Start On, then that specific day becomes the Constraint Day of the template task.</p> <p>The following task constraints update the Constraint Day field:</p> 
     <ul> 
      <li>Must Start On</li> 
      <li>Must Finish On</li> 
@@ -611,11 +615,11 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Converted Issue Originator</td> 
-   <td>A field in a project or task report that displays information about the user who is the Primary Contact of an issue when the issue is converted into a project or task. The field also displays in the Project Details  section  where it displays the name of the Primary Contact of the converted issue. </td> 
+   <td>A field in a project or task report that displays information about the user who is the Primary Contact of an issue when the issue is converted into a project or task. The field also displays in the Project Details  section  where it displays the name of the Primary Contact of the converted issue. See also "Primary Contact" in this article.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Cost</td> 
-   <td> <p>The monetary amount that you must spend when completing a project, task, or issue. </p> <p>You can track various types of costs for labor, expenses, risks that relate to the project.bFor information about tracking costs in Workfront see <a href="../../../manage-work/projects/project-finances/track-costs.md">Track costs</a>.</p> 
+   <td> <p>The monetary amount that you must spend when completing a project, task, or issue. </p> <p>You can track various types of costs for labor, expenses, risks that relate to the project.For information about tracking costs in Workfront see <a href="../../../manage-work/projects/project-finances/track-costs.md">Track costs</a>.</p> 
    </td> 
   </tr> 
   <tr> 
@@ -687,11 +691,11 @@ The following table is a list of commonly used terms in Adobe Workfront:
  <tbody> 
   <tr> 
    <td>Dashboards</td> 
-   <td> <p> You can add this field in a report or a list of the report object, to display the dashboards on which the report is listed in a list. </p> <p> You can use this field to filter for reports that are listed on a specific dashboard, as well. </p> <p> For more information about including dashboard information on report object reports, see the “Understanding What Reports Are Listed on Dashboards” section in the article <a href="../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md" class="MCXref xref">Access and organize reports</a></p> </td> 
+   <td> <p> You can add this field in a report or a list of the report object, to display the dashboards on which the report is listed in a list. </p> <p> You can use this field to filter for reports that are listed on a specific dashboard, as well. </p> <p> For more information about including dashboard information on report object reports, see the "Understanding What Reports Are Listed on Dashboards" section in the article <a href="../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md" class="MCXref xref">Access and organize reports</a></p> </td> 
   </tr> 
   <tr> 
    <td>Data Type</td> 
-   <td>See <i>Custom Data Type</i>.</td> 
+   <td>See "Custom Data Type".</td> 
   </tr> 
   <tr> 
    <td>Days Late</td> 
@@ -783,7 +787,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>Engagement</td> 
-   <td>The Work Performance Indicator (WPI) that indicates when commitment and belief in the task, project, team, or organization is waning. This indicates that you need to act to revive that belief and commitment. WPI would be measured by asking the simple questions, “Did you understand what was expected of you? Did the work you were assigned make a difference to the organization? Did you do great work?”</td> 
+   <td>The Work Performance Indicator (WPI) that indicates when commitment and belief in the task, project, team, or organization is waning. This indicates that you need to act to revive that belief and commitment. WPI would be measured by asking the simple questions, "Did you understand what was expected of you? Did the work you were assigned make a difference to the organization? Did you do great work?"</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Enterprise Goals</td> 
@@ -886,7 +890,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Goals </td> 
-   <td> <p>In a Project report, this is a collection field that displays all the strategic goals that are associated with a project. The goals are separated by commas.</p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">Workfront Goals overview</a>. For more information about strategic goals and project goals in Workfront, see <i>Goal</i> in this table.</p> </td> 
+   <td> <p>In a Project report, this is a collection field that displays all the strategic goals that are associated with a project. The goals are separated by commas.</p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">Workfront Goals overview</a>. For more information about strategic goals and project goals in Workfront, see "Goal" in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Global Interface Preferences</td> 
@@ -1032,7 +1036,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Large Thumbnail</td> 
-   <td> <p> In a Document list or report, it displays a preview of the document in a thumbnail. </p> <p>Select <strong>Large Thumbnail</strong> to view a 400 pixel-wide thumbnail in the report.</p> <p>The size of the thumbnail adjusts when you modify the width of the column in a list or report.</p> <p>See also "Thumbnail" in this document.</p> </td> 
+   <td> <p> In a Document list or report, it displays a preview of the document in a thumbnail. </p> <p>Select <strong>Large Thumbnail</strong> to view a 400 pixel-wide thumbnail in the report.</p> <p>The size of the thumbnail adjusts when you modify the width of the column in a list or report.</p> <p>See also "Thumbnail" in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Last 10 Viewers</td> 
@@ -1190,7 +1194,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   <tr> 
    <td>New Number Value</td> 
    <td>In a Journal Entry report, this displays the updated value of a field that replaces the Old Number Value.
-   For more information, see the <i>Old Number Value</i> in this table.</td> 
+   For more information, see "Old Number Value" in this article.</td> 
   </tr>
   <tr> 
    <td>Non Work Day</td> 
@@ -1207,7 +1211,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   <tr data-mc-conditions=""> 
    <td>Number of Linked Goals</td> 
    <td> <p>In a Project report, this is the number of strategic goals that are associated with the project. For information about associating projects with strategic goals, see <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Overview of connecting projects to goals in Workfront Goals</a>.</p> 
-   <p>For information about strategic goals, also see <i>Goal</i> in this table.</p> 
+   <p>For information about strategic goals, also see "Goal" in this article.</p> 
    <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Workfront Goals overview</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -1234,7 +1238,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
  <tr> 
    <td>Old Number Value</td> 
-   <td>In a Journal Entry report, this displays the original value of a field before it was updated. Once a field's value is updated, it will display as the New Number Value in a Journal Entry report. For more information, also see <i>New Number Value</i> </td> 
+   <td>In a Journal Entry report, this displays the original value of a field before it was updated. Once a field's value is updated, it will display as the New Number Value in a Journal Entry report. For more information, also see "New Number Value".</td> 
   </tr>
   <tr> 
    <td>On Change Only</td> 
@@ -1272,7 +1276,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td><span>Override Currency Billing/ Hour</span> </td> 
    <td> 
     <div> 
-     <p>In a Job&nbsp;Role report, this is the billing per hour rate of the job role using the selected Override Currency of the job role.</p> 
+     <p>In a Job Role report, this is the billing per hour rate of the job role using the selected Override Currency of the job role.</p> 
      <p> For more information, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> 
     </div> </td> 
   </tr> 
@@ -1280,7 +1284,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td><span>Override Currency Cost/ Hour</span> </td> 
    <td> 
     <div> 
-     <p>In a Job&nbsp;Role report, this is the cost per hour rate of the job role using the selected Override Currency of the job role. </p> 
+     <p>In a Job Role report, this is the cost per hour rate of the job role using the selected Override Currency of the job role. </p> 
      <p>For more information, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> 
     </div> </td> 
   </tr> 
@@ -1475,7 +1479,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>The stakeholder responsible for the prioritization and budget for a portfolio.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Potential&nbsp;Risk&nbsp;Cost</td> 
+   <td>Potential Risk Cost</td> 
    <td>This is a project field that you can locate in lists and reports. It shows the potential cost for the risks associated with the project, should they occur. For more information see <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Calculate Potential Risk Cost </a>. </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
@@ -1486,6 +1490,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Primary Company</td> 
    <td>The Company that the user belongs to as designated in their user settings. Companies can also be associated with Projects.</td> 
   </tr> 
+  <tr> 
+   <td>Primary Contact</td> 
+   <td><p>The Primary Contact is the creator of an issue and it is automatically designated by Workfront when the someone creates the issue. You can manually update this field if you have Manage permissions to the issue. An issue can have only one Primary Contact.</p> 
+   <p>If you change the Primary Contact, the user originally designated as the primary contact still has Manage access to the issue.</p>
+   <p>When converting an issue to a task or a project, the user designated as the Primary Contact of the becomes the Converted Issue Originator of the project or task. If the Primary Contact of the issue is updated after the issue was converted, the Converted Issue Originator will be preserved as the Primary Contact of the issue at the moment when the conversion happened. See also "Converted Issue Originator" in this article.</p> 
+   </td> 
+  </tr>
   <tr> 
    <td>Priority</td> 
    <td>A value that can be assigned to a Task, Issue or Project to designate how important it is. </td> 
@@ -1538,7 +1549,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Project Budgeted Cost</td> 
-   <td> <p> This is the Budgeted Cost of a project as it displays in lists and reports.</p><p>See <i>Budgeted Cost</i></p></td> 
+   <td> <p> This is the Budgeted Cost of a project as it displays in lists and reports.</p><p>See also "Budgeted Cost" in this article.</p></td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Project Management</td> 
@@ -1635,7 +1646,11 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Reference Number</td> 
-   <td> <p>Projects, tasks, and issues are automatically associated with a unique reference number as they are created. You can view the Reference Number in the Details page of projects, tasks, or issues, or in a list or report. </p> <p>Tip: You can defer to reference numbers when two items have the same name, as reference numbers are always unique. </p> <p>Workfront automatically generates sequential reference number at the system level. Each project, task, or issue gets the next available number in the sequence. <br></p> <p>For example, if User A creates a task, Workfront might automatically assign the task the Reference Number of 100. If User B creates an issue right after this, Workfront assigns the issue the Reference Number of 101. You cannot manually edit Reference Numbers. </p> </td> 
+   <td> <p>Projects, tasks, and issues are automatically associated with a unique reference number as they are created. You can view the Reference Number in the Details page of projects, tasks, or issues, or in a list or report. </p> <p>
+   
+   <b>TIP</b>
+   
+    You can defer to reference numbers when two items have the same name, as reference numbers are always unique. </p> <p>Workfront automatically generates sequential reference number at the system level. Each project, task, or issue gets the next available number in the sequence. <br></p> <p>For example, if User A creates a task, Workfront might automatically assign the task the Reference Number of 100. If User B creates an issue right after this, Workfront assigns the issue the Reference Number of 101. You cannot manually edit Reference Numbers. </p> </td> 
   </tr> 
   <tr> 
    <td>Rejection&nbsp;Issue</td> 
@@ -1671,7 +1686,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Reserved Time</td> 
-   <td>Days specified on a User's Personal Time, indicating that the User will not be available for work. See <i>Non Work Days</i>.</td> 
+   <td>Days specified on a User's Personal Time, indicating that the User will not be available for work. See "Non Work Days".</td> 
   </tr> 
   <tr> 
    <td>Resolve Issue</td> 
@@ -1712,7 +1727,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr>
   <tr> 
    <td>Resource Planner Budgeted Hours </td> 
-   <td>The hours budgeted for the project and the resources associated with it in the Resource Planner. see <i>Budgeted Hours</i>. </td> 
+   <td>The hours budgeted for the project and the resources associated with it in the Resource Planner. See also "Budgeted Hours" in this article. </td> 
   </tr>  
   <tr> 
    <td>Resource Planner </td> 
@@ -1720,7 +1735,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Resource Planner Budgeted Labor Cost</td> 
-   <td> <p>These are the cost associated with the hours budgeted for project job roles using the Resource Planner. </p> <p>See <i>Budgeted Labor Cost</i>. </p> </td> 
+   <td> <p>These are the cost associated with the hours budgeted for project job roles using the Resource Planner. </p> <p>See also "Budgeted Labor Cost" in this article. </p> </td> 
 
   </tr> 
   <tr> 
@@ -1760,12 +1775,12 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Risk&nbsp;Cost</td> 
+   <td>Risk Cost</td> 
    <td> <p>The cost associated with the risks on a project. The following are risk costs associated with projects that you can display in reports:</p> 
     <ul> 
-     <li> <p>Actual&nbsp;Cost: a field on a risk that shows the actual cost for the risk that has occurred. In addition to reports and lists, you can locate it in the Edit Risk box when editing or creating a risk. </p> <p>For project, task, or issue costs, see "Actual Cost" in this article. </p> </li> 
-     <li> <p>Planned Risk&nbsp;Cost: a field on the project that shows a total of all Potential&nbsp;Risk Costs for the project. See also "Planned Risk Cost" in this article. </p> <p>For information about Potential Risk Cost, see <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Calculate Potential Risk Cost </a>. </p> </li> 
-     <li> <p>Remaining Risk Cost: a field on the project that displays the difference between the total of the Actual Costs of all risks and the Planned Risk Cost. See also "Remaining Risk&nbsp;Cost" in this article. See also "Remaining Risk Cost" in this article. </p> </li> 
+     <li> <p>Actual Cost: a field on a risk that shows the actual cost for the risk that has occurred. In addition to reports and lists, you can locate it in the Edit Risk box when editing or creating a risk. </p> <p>For project, task, or issue costs, see "Actual Cost" in this article. </p> </li> 
+     <li> <p>Planned Risk Cost: a field on the project that shows a total of all Potential Risk Costs for the project. See also "Planned Risk Cost" in this article. </p> <p>For information about Potential Risk Cost, see <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Calculate Potential Risk Cost </a>. </p> </li> 
+     <li> <p>Remaining Risk Cost: a field on the project that displays the difference between the total of the Actual Costs of all risks and the Planned Risk Cost. See also "Remaining Risk Cost" in this article. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -1774,7 +1789,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Role</td> 
-   <td>See <i>Job Role</i>.</td> 
+   <td>See "Job Role" in this article.</td> 
   </tr> 
   <tr> 
    <td>Routing</td> 
@@ -1837,7 +1852,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Security</td> 
-   <td>The settings that allow a User to interact with certain objects in the system and not others. See <i>Access Levels</i>.</td> 
+   <td>The settings that allow a User to interact with certain objects in the system and not others. See also "Access Levels" in this article.</td> 
   </tr> 
   <tr> 
    <td>Setup</td> 
@@ -1849,7 +1864,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Severities</td> 
-   <td>See <i>Severity</i>.</td> 
+   <td>See "Severity" in this article.</td> 
   </tr> 
   <tr> 
    <td>Sharing</td> 
@@ -1909,7 +1924,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
       <li>Inactive</li> 
       <li>Closed</li> 
      </ul> 
-     <p>For more information about strategic goals, also see <i>Goal</i> or <i>Goals</i> in this table. </p> 
+     <p>For more information about strategic goals, also see "Goal" or "Goals" in this article. </p> 
      <p>For strategic goals, this field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">Workfront Goals overview</a>. </p>
     </td> 
   </tr> 
@@ -1945,7 +1960,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Statuses</td> 
-   <td>See <i>Status</i>.</td> 
+   <td>See "Status" in this article.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>Storyboard</td> 
@@ -1973,7 +1988,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Summary Task</td> 
-   <td>See <i>Parent Task</i>.</td> 
+   <td>See "Parent Task" in this article.</td> 
   </tr> 
   <tr> 
    <td>Subtask</td> 
@@ -1997,7 +2012,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Task Constraint</td> 
-   <td>See <i>Constraint Type</i> and <i>Constraint Date</i>.</td> 
+   <td>See "Constraint Type" and "Constraint Date".</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Task Management</td> 
@@ -2030,7 +2045,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Thumbnail</td> 
-   <td> <p> In a Document list or report, it displays a preview of the document in a thumbnail. </p> <p> Select <strong>Thumbnail</strong> &nbsp;to view a 33-66 pixel-wide thumbnail in the report. </p> <p>The size of the thumbnail adjusts when you modify the width of the column in a list or report.</p> <p>See also "Large Thumbnail" in this document.</p> </td> 
+   <td> <p> In a Document list or report, it displays a preview of the document in a thumbnail. </p> <p> Select <strong>Thumbnail</strong> &nbsp;to view a 33-66 pixel-wide thumbnail in the report. </p> <p>The size of the thumbnail adjusts when you modify the width of the column in a list or report.</p> <p>See also "Large Thumbnail" in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Time Off</td> 
@@ -2112,7 +2127,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>User Utilization</td> 
-   <td> <p>A search combined with a report that shows how Users (Resources) are allocated or over-allocated. See <i>Resource Utilization</i>.</p> </td> 
+   <td> <p>A search combined with a report that shows how Users (Resources) are allocated or over-allocated. See "Resource Utilization" in this article.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2121,11 +2136,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 <table style="table-layout:auto"> 
  <col> 
- <col> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> 
+ <col> 
  <thead> 
   <tr> 
    <th>Object Name</th> 

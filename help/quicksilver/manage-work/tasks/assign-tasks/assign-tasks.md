@@ -9,6 +9,8 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 ---
 # Assign tasks
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 You can assign tasks to users, job roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 
 >[!TIP]
@@ -67,6 +69,10 @@ You must have the following access to perform the steps in this article:
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations for multiple assignments to job roles, teams, and users
+
+>[!NOTE]
+>
+><span class="preview">In the Preview environment, you can assign multiple teams to a single task or issue.</span>
 
 Consider the following when assigning multiple resources to a work item:
 

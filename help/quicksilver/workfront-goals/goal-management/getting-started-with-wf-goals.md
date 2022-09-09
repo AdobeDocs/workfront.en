@@ -45,7 +45,7 @@ A goal should represent a value statement that indicates the outcome you are wor
 
 >[!TIP]
 >
->Think of a statement you would want to make about your company, brand, organization after successful achievement and think of way you want to measure your achievement. For example, your goal could be “Our brand is globally recognized as a leader in our industry.” and the result associated with it which measures its achievement could be “ We obtain 55% market share within our industry.”
+>Think of a statement you would want to make about your company, brand, organization after successful achievement and think of way you want to measure your achievement. For example, your goal could be "Our brand is globally recognized as a leader in our industry." and the result associated with it which measures its achievement could be " We obtain 55% market share within our industry."
 
 We recommend the following:
 
@@ -67,7 +67,7 @@ Cascade the high level goals. Building upon the strategic pillars outlined first
 
 Consider the following guidelines when creating and aligning goals:
 
-* Consider the question: “What must my teams and I achieve to drive the accomplishment of this top level goal?”
+* Consider the question: "What must my teams and I achieve to drive the accomplishment of this top level goal?"
 * Cascaded goals should represent a necessary outcome that must be achieved to drive or enable the achievement of its parent. The scope of that achievement should be more narrow than that of its parent.
 * Don't create complex goal hierarchies that are difficult to follow or have too many layers.
 
@@ -84,7 +84,7 @@ Do the following:
 
 * Review and activate proposed goals.
 
-  So, far, your goals have been in a “draft” state, but once you have refined and finished entering the first few levels of the goal hierarchy, it is now time to activate them.
+  So, far, your goals have been in a "draft" state, but once you have refined and finished entering the first few levels of the goal hierarchy, it is now time to activate them.
 
   After activating your goals, communicate with the teams who will ultimately perform and manage the work which will drive these outcomes. As in Workfront can be connected to goals in Workfront Goals, teams truly see the connectedness between their work and outcomes. 
 
@@ -134,17 +134,14 @@ The table below describes the Workfront Goals objects. You can customize their n
 
 Workfront Goals uses the following main objects: 
 
-| Goal |The overall outcome you wish to achieve. You can create multiple goals for a defined period of time. Each goal has an owner, typically an individual or team (although you can also assign a goal to a group.) |
+| Object |Description |
 |---|---|
+| Goal |The overall outcome you wish to achieve. You can create multiple goals for a defined period of time. Each goal has an owner, typically an individual or team (although you can also assign a goal to a group.) |
 | Result |A metric indicator of goal success. Each goal can have one or more results and their progress indicate the progress of the goal. |
 | Activity |A primary action that needs to take place to gain a result. You can add one or more activities to a goal in order to indicate what work has been planned to achieve that goal. Activities are also important, as this is how you align work objects (i.e. projects) from Workfront to goals.|
 
-{style="table-layout:auto"}
-
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (NOTE: edit when more objects will come)
-</MadCap:conditionalText>
 -->
 
 For information about goals, results, and activities, see:
