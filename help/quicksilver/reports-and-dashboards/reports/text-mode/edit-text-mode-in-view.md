@@ -87,13 +87,7 @@ For information about creating a report, see [Create a custom report](../../../r
 
    >[!NOTE]
    >
-   >When you edit a column in text mode, Workfront adds the    >
-   >
-   >```   >
-   >textmode=true
-   >```   >
-   >
-   >line of code to the column. This indicates that the column is modified in text mode.
+   >When you edit a column in text mode, Workfront adds the `textmode=true` line of code to the column. This indicates that the column is modified in text mode.
 
    ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 

@@ -116,10 +116,12 @@ To delegate your tasks and issues to others:
 
    The following things happen: 
 
-   * Your work is delegated to the specified user. Any tasks or issues that have dates within the time frame you selected (including newly assigned ones, after the delegation was enabled) are delegated.
+   * Your work is delegated to the specified user. Any incomplete tasks or issues that have dates within the time frame you selected (including newly assigned ones, after the delegation was enabled) are delegated.
 
-    <!-- drafted for the update when only incomplete tasks and issues are delegated - within the 22.4 release: change the sentence/ bullet above to this:
-    * Your work is delegated to the specified user. Any incomplete tasks or issues that have dates within the time frame you selected (including newly assigned ones, after the delegation was enabled) are delegated.-->
+    >[!TIP]
+    >
+    >   Completed work items that have dates within the time frame of the delegation are not delegated.
+
 
    * You receive a message in the upper-right corner of the screen to confirm that you have enabled the delegation of your work to another user. The name of the delegate user displays in the confirmation message.
    
