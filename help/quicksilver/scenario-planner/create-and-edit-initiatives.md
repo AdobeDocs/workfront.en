@@ -20,23 +20,23 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td> <p>Adobe Workfront plan*</p> </td> 
    <td>Business or higher</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Adobe Workfront license* </p> </td> 
    <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Product</b> </td> 
+   <td>Product </td> 
    <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article. </p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
+   <td>Access level configurations* </td> 
    <td> <p>Edit access or higher to the Scenario Planner</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Object permissions </p> </td> 
    <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Scenario Planner</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -91,13 +91,13 @@ To create initiatives from scratch:
 
 1. (Optional) From the **Month** drop-down menu, select one of the following options to change the timeline of the plan:
 
-   | Month |Displays the timeline by month. This is the default option for a one-year plan.  |
+   | Drop-down menu option |Description  |
    |---|---|
+   | Month |Displays the timeline by month. This is the default option for a one-year plan.  |
    | Quarter |Displays the timeline by quarter. This option is available only when the Duration of the plan is 3 or 5 years. This is the default option for a 3-year plan. |
    | Year |Displays the timeline by year. This option is available only when the Duration of the plan is 5 years. This is the default option for a 5-year plan.  |
 
-   {style="table-layout:auto"}
-
+   
 1. (Optional) Scroll from left to right to see the entire duration of the initiative. 
 1. (Optional) Click the **Today** indicator line to come back to the current date.
 
