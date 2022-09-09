@@ -16,15 +16,15 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
 
 ## Adobe Workfront enhancements
 
-*   [Administrator enhancements](#Administ)
+*   [Administrator enhancements](#administrator-enhancements)
     
-*   [Project enhancements](#Project)
+*   [Project enhancements](#project-enhancements)
 
-*   [Agile enhancements](#Agile)
+*   [Agile enhancements](#agile-enhancements)
 
-*   [Release Management enhancements](#Release)
+*   [Resource Management enhancements](#resource-management-enhancements)
 
-*   [Other enhancements](#Other)
+*   [Other enhancements](#other-enhancements)
     
 
 ### Administrator enhancements
@@ -179,7 +179,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
 <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-sept-5.md" class="MCXref xref" xrefformat="{para}">Predecessor details now available
-</a><span style="color: #ff0000;"> Coming soon to Preview!</span></p> 
+</a><span style="color: #ff0000;"> New in Preview!</span></p> 
 <p>To view the details of a task's predecessors, you can now hover over the predecessor number in the Predecessors column. The details box displays the predecessor task and project being referenced, planned start and end dates for the predecessor task, and the predecessor task's number of predecessors and successors. You can expand the project details to see more information about the project. Additional information is included for cross-project predecessors.</p>   
    </td> 
     <td> <p><b>Available on these dates:</b> </p> 
@@ -513,10 +513,10 @@ Note: This functionality is not currently available in the Workload Balancer in 
                                 <p>The first area (Suggested Assignments) displays users identified by the Smart Assignments logic.<br /></p>
                             </li>
                             <li>
-                                <p>The second area (Other Assignments) displays all users that can fulfil the selected role.</p>
+                                <p>The second area (Other Assignments) displays all users that can fulfill the selected role.</p>
                             </li>
                         </ul>
-                        <p>Prior to these enhancements, only Plan-license users could adjust user allocations and issues displayed only in the Assigned Work area.</p>
+                        <p>Prior to this enhancement, you could view only the list of users available for assigning according to the Smart Assignments logic.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                      <p>
