@@ -386,7 +386,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                                 <p>Preview release: September 9, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release: TBD</p>
+                                <p>Production release: With the 22.4 release</p>
                             </li>
                         </ul>
                     </td>
