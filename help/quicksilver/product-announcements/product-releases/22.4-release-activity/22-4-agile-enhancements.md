@@ -38,8 +38,6 @@ For more information, see [Filter and search in a board](/help/quicksilver/agile
 
 ## Use groups on a board to create swimlanes
 
-NOTE: This feature is currently unavailable. This page will be updated when the feature is available in Preview.
-
 You can now group cards on a board by assignee or by tag. When you select an option to group by, the cards appear in a swimlane format. Unassigned cards or cards without tags appear in their own swimlane.
 
 You can also define what happens when a card is moved from one group to another. The assignee or tag in the group the card is moved to can be added to the existing assignees/tags, or override the other assignees/tags on the card.
