@@ -379,14 +379,12 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>Any cards in the intake column are not included in a group.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
-                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
-                        </p>
                         <ul>
                             <li>
                                 <p>Preview release: September 9, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release: TBD</p>
+                                <p>Production release: With the 22.4 release</p>
                             </li>
                         </ul>
                     </td>
