@@ -15,7 +15,7 @@ author: Becky
 Becky: pull from main, add to TOCs, then push to merge.
 -->
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Adobe Journey Optimizer, as well as connect it to multiple third-party applications and services. Adobe Journey Optimizer modules allow you to ,reate, read, update, or delete records,list all records of a given type, search records based on criteria you specify, or perform a custom API call to the Adobe Journey Optimizer API.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Adobe Journey Optimizer, as well as connect it to multiple third-party applications and services. Adobe Journey Optimizer modules allow you to create, read, update, or delete records, or perform a custom API call to the Adobe Journey Optimizer API.
 
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
@@ -51,13 +51,6 @@ You must have the following access to use the functionality in this article:
     <tr>
       <td role="rowheader">Product</td>
       <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">Access level configurations*</td>
-      <td>
-        <p>You must be a Workfront Fusion administrator for your organization.</p>
-        <p>You must be a Workfront Fusion administrator for your team.</p>
-      </td>
     </tr>
   </tbody>
 </table>
