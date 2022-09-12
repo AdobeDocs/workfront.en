@@ -83,11 +83,11 @@ The following table outlines major features of boards along with their current r
    <td>Partially released</td>
   </tr>
   <tr>
-   <td>Filter connected cards by project</td>
-   <td>Planned</td>
+   <td>Group cards on a board</td>
+   <td>Partially released</td>
   </tr>
   <tr>
-   <td>Group cards on a board</td>
+   <td>Filter connected cards by project</td>
    <td>Planned</td>
   </tr>
  </tbody> 
