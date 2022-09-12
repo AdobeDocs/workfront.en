@@ -46,6 +46,8 @@ You can also define what happens when a card is moved from one group to another.
 
 Any cards in the intake column are not included in a group.
 
+For more information, see [Use groups on a board](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
+
 ## Enhancements to checklist items on boards
 
 >[!NOTE]

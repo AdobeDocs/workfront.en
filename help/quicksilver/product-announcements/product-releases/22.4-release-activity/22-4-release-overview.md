@@ -373,7 +373,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Use groups on a board to create swimlanes</a> <span style="color: #ff0000;">Coming soon to Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Use groups on a board to create swimlanes</a> <span style="color: #ff0000;">New in Preview!</span></p>
                         <p>You can now group cards on a board by assignee or by tag. When you select an option to group by, the cards appear in a swimlane format. Unassigned cards or cards without tags appear in their own swimlane.</p>
                         <p>You can also define what happens when a card is moved from one group to another. The assignee or tag in the group the card is moved to can be added to the existing assignees/tags, or override the other assignees/tags on the card.</p>
                         <p>Any cards in the intake column are not included in a group.</p>
@@ -383,7 +383,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         </p>
                         <ul>
                             <li>
-                                <p>Preview release: TBD<br /></p>
+                                <p>Preview release: September 9, 2022<br /></p>
                             </li>
                             <li>
                                 <p>Production release: TBD</p>
