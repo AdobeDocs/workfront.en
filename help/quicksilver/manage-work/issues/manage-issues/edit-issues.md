@@ -9,6 +9,8 @@ exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
 ---
 # Edit issues
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+
 You can edit information on issues that you have created, or that other users have created if they shared the issues with you.
 
 You can edit a single issue or you can edit issues in a list. For information about editing issues in a list, see [Edit issues in a list](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md).
@@ -329,15 +331,13 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 ## Edit an issue in the issue header (limited)
 
-You can edit a limited amount of information in the issue header.
+You can edit a limited amount of information in the issue header. 
 
-<!--drafted for 22.4 release <span class="preview">Your system or group administrator can customize the fields you see in the issue header.</span>-->
+<span class="preview">Your system or group administrator can customize the fields you see in the issue header. For information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
 ![](assets/issue-header-350x19.png)
 
-You can edit the following fields in the issue header:
-
-<!--drafted for the 22.4 release - replace the one above with this: <span class="preview">The following fields are included in the project header, by default.</span>-->
+<span class="preview">The following fields are included in the issue header, by default:</span>
 
 * Issue name
 * Percent complete

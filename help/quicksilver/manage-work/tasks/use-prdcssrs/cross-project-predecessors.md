@@ -79,6 +79,6 @@ You must have the following access to perform the steps in this article:
 
    The predecessor icon turns green when the predecessor task is marked complete. This signals that the dependent task is ready for work.
 
-   <span class="preview">Hover over this value to get more information on the predecessor, the project, and the dates. If you click the cross-project predecessor in the details box, the task opens in a new browser window. Click **See Project** to open the cross project in a new window.</span>
+   <span class="preview">Hover over this value to get more information on the predecessor, the project, and the dates. Click the cross-project predecessor in the details box to open the task. Click **See Project** to open the cross project.</span>
 
    <span class="preview">![Cross-project predecessor details](assets/cross-project-predecessor-details.png)</span>

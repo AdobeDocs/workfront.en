@@ -3,7 +3,7 @@ filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
 title: Early feature opt-in for Adobe Workfront Boards
-description: Boards with ad hoc cards are available to all users, and we are excited to open additional features for early feature opt-in.
+description: Read this article to learn about the Workfront Boards early feature opt-in.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
 ---
@@ -22,7 +22,7 @@ For general information about boards, see [Boards overview](/help/quicksilver/ag
 
 ## Features
 
-The following table outlines major features of boards along with their current release status. Features that you can access in this beta may not be available in the full release, based on the input we receive during the beta phase.
+The following table outlines major features of boards along with their current release status. Features that you can access via early feature opt-in may not be available in the full release, based on the input we receive.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -79,15 +79,15 @@ The following table outlines major features of boards along with their current r
    <td>Partially released</td>
   </tr>
   <tr>
-   <td>Filter by project</td>
-   <td>Planned</td>
-  </tr>
-  <tr>
-   <td>Filter connected cards by project</td>
-   <td>Planned</td>
+   <td>Add an intake column</td>
+   <td>Partially released</td>
   </tr>
   <tr>
    <td>Group cards on a board</td>
+   <td>Planned for 22.4 release; not part of the early feature opt-in</td>
+  </tr>
+  <tr>
+   <td>Filter connected cards by project</td>
    <td>Planned</td>
   </tr>
  </tbody> 
@@ -121,7 +121,7 @@ Only Workfront administrators can opt in to early features for boards. When a W
 
 ### How do I know if my organization has opted in to early features?
 
-When your Workfront administrator has has enabled early features for boards, you will see an Public beta access enabled button on the top of the dashboard screen. Click the button to see which features are enabled with the current version of the beta.
+When your Workfront administrator has has enabled early features for boards, you will see an Early Feature Opt-In Enabled button on the top of the dashboard screen. Click the button to see which features are enabled.
 
 ### Can early features be enabled only for certain users?
 
@@ -135,7 +135,7 @@ However, the Workfront administrator can hide the Boards option from the Main Me
 
 ### Can I opt out of the early features once I've joined?
 
-Only Workfront administrators can opt out of receiving early features. If a Workfront administrator disables the beta, all users in the organization are opted out.
+Only Workfront administrators can opt out of receiving early features. If a Workfront administrator disables the early features, all users in the organization are opted out.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
 1. Click **Early feature opt-in enabled** at the top of the dashboard screen.
