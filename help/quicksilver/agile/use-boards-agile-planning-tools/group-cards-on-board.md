@@ -11,10 +11,6 @@ author: Lisa
 
 {{highlighted-preview-article-level}}
 
->[!NOTE]
->
->Grouping cards is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
 You can group cards on a board by assignee or by tag. When you select an option to group by, the cards appear in a swimlane format. Unassigned cards or cards without tags appear in their own swimlane.
 
 >[!NOTE]
