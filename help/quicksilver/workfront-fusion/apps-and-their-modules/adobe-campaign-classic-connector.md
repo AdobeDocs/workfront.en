@@ -262,7 +262,7 @@ This action module reads a record from Adobe Campaign Classic.
 
 #### Subscription
 
-This action module subscribes a user to an information service.
+This action module subscribes a user to or unsubscribes a user from an information service.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -278,7 +278,7 @@ This action module subscribes a user to an information service.
   </tr> 
   <tr> 
    <td role="rowheader">Service name</td> 
-   <td>Select the type of Adobe Campaign Classic record you want to create.</td> 
+   <td>Select the service that you want to subscribe to or unsubscribe from.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Recipient email address </td> 
