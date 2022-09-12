@@ -151,7 +151,15 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
+* [Actions](#actions)
+* [Searches](#searches)
+
 ### Actions
+
+* [Create a record](#create-a-record)
+* [Make a custom API call](#make-a-custom-api-call)
+* [Delete a record](#delete-a-record)
+* [Update a record](#update-a-record)
 
 #### Create a record
 
