@@ -9,7 +9,7 @@ exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
 # Contact Customer Support
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ** We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
+<p>(We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
 -->
 
 As a Adobe Workfront customer, you can contact the Workfront Customer Support team by phone or by submitting a ticket online.
@@ -26,11 +26,17 @@ You can contact Workfront Customer Support 7 days a week, 24 hours a day, throug
 * EMEA: +44 1256 274200
 * Australia: +61 1800 849259
 
-These numbers are also found at the bottom of every page in the Workfront One site ([**one.workfront.com**](https://one.workfront.com/)).
-
-![contacting-customer-support.png](assets/contacting-customer-support-350x52.png)
-
 ## Web
+
+To access the Support portal, visit the Experience League website and select the **Support** tab located at the top of the page. Alternatively, you can visit [experienceleague.adobe.com/support](https://experienceleague.adobe.com/support).
+
+![](assets/experience-league-top-navigation-with-support-highlighted.png)
+
+For more information about logging a support ticket, see the 
+[How to Submit a Support Ticket on Experience League](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737) article.
+
+
+<!--drafted and it needs to be replaced by the steps in the article linked above: 
 
 If you are logged in as an Authorized Support Contact, you can contact Workfront Customer Support through the Workfront One site and create a case, formally called a ticket.
 
@@ -88,5 +94,7 @@ If you are logged in as an Authorized Support Contact, you can contact Workfront
    1. Click **Done** to upload the file to the case.
 
 1. Click **Submit** to submit the case to Workfront Customer Support.
+
+-->
 
 If you have any questions or problems submitting a request, please call the Customer Support team.

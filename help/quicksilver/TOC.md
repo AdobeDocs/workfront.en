@@ -13,12 +13,11 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * 22.4 Release {#release-22-4}
       * [22.4 Release overview](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
-      * [22.4 Release activity: Week of August 29, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-29.md)
-      * [22.4 Release activity: Week of August 22, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-22.md)
-      * [22.4 Release activity: Week of August 15, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-15.md)
-      * [22.4 Release activity: Week of August 7, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-7.md)
-      * [22.4 Release activity: Week of August 1, 2022](product-announcements/product-releases/22.4-release-activity/22-4-aug-1.md)
-      * [22.4 Release activity: Week of July 18, 2022](product-announcements/product-releases/22.4-release-activity/22-4-july-18.md)
+      * [22.4 Administrator enhancements](product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md)
+      * [22.4 Project enhancements](product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md)
+      * [22.4 Agile enhancements](product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md)
+      * [22.4 Resource Management enhancements](product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md)
+      * [22.4 Other enhancements](product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md)
       * [22.4 Look and feel updates](product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md)
     * 22.3 Release {#release-22-3}
       * [22.3 Release overview](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
@@ -305,7 +304,6 @@ feature-set: Workfront
     * [Beta programs](product-announcements/betas/betas.md)
     * Reporting Canvas beta {#reporting-canvas-beta}
       * [Reporting Canvas beta overview](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
-      * [Reporting Canvas beta: known issues](product-announcements/betas/reporting-canvas-beta/reporting-canvas-known-issues.md)
       * [Reporting Canvas beta: release activity](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
     * [Campaigns beta](product-announcements/betas/campaign-object-beta.md)
 * Administration and setup {#administration-and-setup}
@@ -880,6 +878,11 @@ feature-set: Workfront
     * [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)
     * [Filter and search in a board](agile/get-started-with-boards/filter-search-in-board.md)
     * [Add tags](agile/get-started-with-boards/add-tags.md)
+  * Use agile planning tools in boards {#agile-planning-boards}
+    * [Agile planning tools overview](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
+    * [Manage the work in progress (WIP) limit on a board](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
+    * [Add an intake column to a board](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
+    * [Use groups on a board](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
   * Kanban in an agile team {#kanban}
     * [Kanban in an agile team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
     * [Kanban overview](agile/use-kanban-in-an-agile-team/kanban-overview.md)

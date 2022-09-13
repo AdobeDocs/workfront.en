@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Use user-based wildcards to generalize reports
 description: You can generalize a report by using wildcards instead of specific information when building certain reporting elements.
-author: Nolan
+author: Lisa
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
 ---
@@ -52,14 +52,6 @@ You must create a report before you can add a wildcard variable to it.
 
 For instructions on creating reports, see [Create a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## Walk-through
-
-View the following video to learn how you can generalize the information in your reports and adapt them to the user who runs the report by using user-based wildcards.
-
-This video was recorded in Adobe Workfront Classic. However, the content also applies to the new Workfront experience.
-
-[ ![](assets/video-user-based-wildcards-front-350x201.png)](https://workfront-video.wistia.com/medias/jfn0iczd8m)
-
 ## How-to steps
 
 To insert a user-based wildcard in a report:
@@ -89,7 +81,7 @@ To insert a user-based wildcard in a report:
 
 See also:
 
-* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
+* [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) 
 * [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md) 
 * [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
 * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 

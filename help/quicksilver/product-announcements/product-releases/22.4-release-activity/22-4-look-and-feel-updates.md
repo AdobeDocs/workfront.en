@@ -12,6 +12,12 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the 22.4 release, see [22.4 Release overview](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
+## Look and feel updates to the licenses page
+
+We've moved important license information to the top-right corner of the page and updated the look of the text and buttons to match other areas of Workfront.
+
+For more information, see [Manage available licenses in your system](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+
 ## Updated lists in the Custom Forms area
 
 >[!NOTE]
