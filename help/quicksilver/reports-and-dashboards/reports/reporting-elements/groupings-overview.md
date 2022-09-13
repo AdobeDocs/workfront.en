@@ -3,8 +3,8 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Groupings overview in Adobe Workfront
-description: Groupings overview in Adobe WorkfrontGroupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)"
-author: Nolan
+description: You can add groupings to manage the layout of the information in your reports and lists.
+author: Lisa
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
 ---
@@ -42,7 +42,7 @@ Consider the following when working with groupings:
   For information about granting access to Filters, Views, and Groupings, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Your level of permissions to a grouping dictates how a grouping is saved. If you created the grouping originally, you can save the changes, otherwise you are prompted to save a version of the grouping. If you make changes to a grouping you have shared with others it impacts them as well.
-* You can customize a grouping that was shared with you only if the user who shared it granted you Manage access.&nbsp;For information about sharing a grouping, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* You can customize a grouping that was shared with you only if the user who shared it granted you Manage access. For information about sharing a grouping, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 * You cannot edit a grouping inline.
 * You cannot group by multi-select custom fields (for example, check boxes), or by fields that can have multiple values (for example, Resource Manager).
 
