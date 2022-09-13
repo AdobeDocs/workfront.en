@@ -20,21 +20,28 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
-   <td> <p>Any</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> <p>Workfront Fusion for Work Automation </p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your Workfront Fusion administrator.
 
 ## Prerequisites
 
-Your organization's instance of Workfront must be onboarded to the Adobe Business Platform / Adobe Admin Console.
+Your organization's instance of Workfront Fusion must be onboarded to the Adobe Business Platform / Adobe Admin Console.
 
 ## Log in to Adobe Experience Cloud
 
@@ -45,7 +52,7 @@ Your organization's instance of Workfront must be onboarded to the Adobe Busines
 
 ## Access Workfront Fusion
 
-Once you are logged in to Adobe Experience Cloud, you can view all of the Workfront organizations and environments that you have access to by clicking the organization switcher in the top navigation area. Select the Workfront organization or environment that you want to work in. Environments could include Preview and Sandbox if your organization uses them.
+Once you are logged in to Adobe Experience Cloud, you can view all of the Workfront Fusion organizations and environments that you have access to by clicking the organization switcher in the top navigation area. Select the Workfront Fusion organization or environment that you want to work in. Environments could include Preview and Sandbox if your organization uses them.
 
 ![View Workfront organizations and environments](assets/aec-view-all-orgs.png)
 
@@ -53,9 +60,11 @@ Once you are logged in to Adobe Experience Cloud, you can view all of the Workfr
 >
 >The first time you log in to Adobe Experience Cloud, the organization defaults to the first one in the alphabetical list. The next time you log in, the organization defaults to the last one you visited.
 
-Workfront appears in the list of Adobe Experience Cloud products you have access to. You can choose Workfront in the quick access menu on the Experience Cloud home page, or use the product switcher ![Product switcher](assets/main-menu-icon.png) to change applications at any time.
+Workfront Fusion appears in the list of Adobe Experience Cloud products you have access to. You can choose Workfront in the quick access menu on the Experience Cloud home page, or use the product switcher ![Product switcher](assets/main-menu-icon.png) to change applications at any time.
 
 ![Select Workfront to access the application](assets/aec-product-switcher.png)
+
+<!-- The following info is from Lisa's article and is here so I remember what to put in.
 
 ## Navigate Workfront
 
@@ -65,6 +74,8 @@ Use the Main Menu icon ![](assets/main-menu-icon-left-nav.png) on the left of th
 * **License type**: To learn the default configurations for different license types, see [Understand the navigation for a Review-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand the navigation for a Work-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 ![Main menu](assets/main-menu-options-left-nav.png)
+
+-->
 
 ## Access your profile and preferences
 
