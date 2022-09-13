@@ -16,7 +16,9 @@ hidefromtoc: true
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 In an Adobe Workfront Fusion scenario, you can automate workflows that use GitLab, as well as connect it to multiple third-party applications and services.
 
-This article expects some familiarity with API documentation, and of GitLab functionality in general.
+>[!NOTE]
+>
+>This article expects some familiarity with API documentation, and of GitLab functionality in general.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
