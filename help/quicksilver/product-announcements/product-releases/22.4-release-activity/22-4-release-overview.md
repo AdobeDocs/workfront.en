@@ -297,8 +297,6 @@ Note: This functionality is not currently available in the Workload Balancer in 
 <li>Use the Quick Filter to easily locate items in the modernized custom forms and fields list. Also enjoy an improved look and feel while managing your forms and fields.
 </li>
 </ol>
-<p>After you add the team to the board, you can assign the team to cards. On connected cards, only one team assignment is allowed. On ad hoc cards, you can assign more than one team.
-</p>
                     </td>
                     <td>
                         <p><b>Available on these dates:</b>
