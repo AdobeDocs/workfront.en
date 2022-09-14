@@ -9,13 +9,11 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 ---
 # Assign tasks
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 You can assign tasks to users, job roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 
 >[!TIP]
 >
->You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams.
+>You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
 >
 >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
 >
@@ -70,10 +68,6 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations for multiple assignments to job roles, teams, and users
 
->[!NOTE]
->
-><span class="preview">In the Preview environment, you can assign multiple teams to a single task or issue.</span>
-
 Consider the following when assigning multiple resources to a work item:
 
 * Users can have more than one job role associated with their profile. For information about associating users with job roles, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
@@ -82,6 +76,8 @@ Consider the following when assigning multiple resources to a work item:
   For instructions on changing this, see the information about the Make Primary button in the article [Create advanced assignments](create-advanced-assignments.md).
 
 * If a task or an issue is assigned to a team and you also assign a user, the task or issue remains assigned to both the team and the user.
+
+* If a task is assigned to multiple teams, the primary team sees the Work On It button. <!--true? -->
 
 * Tasks and issues on a project might be assigned first to one or more teams or job roles. When the project is ready to start, they might need to also be assigned to users:
 
