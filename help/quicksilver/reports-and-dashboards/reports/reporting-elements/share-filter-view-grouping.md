@@ -96,6 +96,11 @@ Sharing filters, views, and groupings in the standard interface is identical.
    **To share with individual users, teams, roles, groups, or companies:** In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.  
    Repeat this process to share access with multiple users, teams, roles, groups, or companies.
 
+      >[!TIP]
+      >
+      >Sharing with groups gives permissions to the filter, view, or grouping to the members of the group and of all the subgroups. 
+
+
    **To share with all users in the system:** Click the **Settings** icon, then click **Make this visible system-wide**.  
    Your administrator must select the Share System-wide option for this option to be available. For more information, see the articles [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) and [Share reports, dashboards, and calendars](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
@@ -209,6 +214,10 @@ Share a filter using the beta builder interface:
    >Users cannot receive a higher permission than their access level. If they don't have access to Edit filters in their access level, they cannot receive permissions to manage a filter. Workfront disables the Manage option for these users and the option is dimmed.
 
 1. Click **Share**. The filter is shared with the entities you specified.
+
+      >[!TIP]
+      >
+      >Sharing with groups gives permissions to the filter to the members of the group and of all the subgroups. 
 
    The filters you shared display in the **Shared with me** section of the filter panel for those entities.
 
