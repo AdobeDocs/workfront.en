@@ -387,7 +387,7 @@ You can change any of the following in this sub-section:
   --> 
   <tr> 
    <td role="rowheader"><strong>(Conditional) User can generate proofs (... out of ... proof licenses left)</strong></td> 
-   <td>This field is available only if your company uses a legacy Workfront plan and has purchased the Workfront Proof component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable&nbsp;only to users who are also Workfront administrators. For more information about the plan options for proofing in Workfront, see .</td> 
+   <td>This field is available only if your company uses a legacy Workfront plan and has purchased the Workfront Proof component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable only to users who are also Workfront administrators. For more information about the plan options for proofing in Workfront, see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Access to proofing functionality in Workfront</a>.</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Conditional) Permission Profile</strong></td> 
