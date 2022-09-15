@@ -248,7 +248,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New filter experience for projects, tasks, and issues</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New filter experience for projects, tasks, and issues (Beta)</a> </p>
                         <p>Filtering in project, task, and issue lists has been redesigned to help you create and share filters quickly. Features include:</p>
                         <ul>
                             <li>
