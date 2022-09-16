@@ -990,6 +990,7 @@ feature-set: Workfront
     * [Migrate from the legacy or enhanced connector to Workfront for Adobe Experience Mangaer as a Cloud Service integration](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
      * [Unistall the Workfront with Adobe Experience Manager legacy connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md) -->
      * [Uninstall the Workfront with Adobe Experience Manager enhanced connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
+     * [Migrate linked folders and documents](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)
 * Manage Work {#manage-work}
   * [Manage work](manage-work/manage-work.md)
   * Projects {#projects}

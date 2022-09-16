@@ -11,3 +11,4 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 * [Migrate from the legacy or enhanced connector to Workfront for Adobe Experience Manager as a Cloud Service integration](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
 * [Uninstall the Workfront with Adobe Experience Manager enhanced connector](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
 * [Uninstall the Workfront with Adobe Experience Manager legacy connector](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
+* [Migrate linked folders and documents](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)

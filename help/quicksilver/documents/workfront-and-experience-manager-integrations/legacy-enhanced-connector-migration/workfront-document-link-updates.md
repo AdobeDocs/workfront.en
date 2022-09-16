@@ -51,7 +51,7 @@ To migrate linked folders and documents:
 
         >[!IMPORTANT]
         >
-        >Documents are temporally stored. Meaning, you have all versions of the document. When you link from, we can specify the existing document ID, so that we are simply writing a new version to that document, with the data being hosted externally, in the new provider.  This document id would be the same as the document id found on the document link we are replacing. It's the same conceptual document. We are simply indicating that the bytes for this new version are stored with a different provider.
+        >Documents are temporally stored. Meaning, you have all versions of the document. When you link from, we can specify the existing document ID, so that we are simply writing a new version to that document, with the data being hosted externally, in the new provider. This document id would be the same as the document id found on the document link we are replacing. It's the same conceptual document. We are simply indicating that the bytes for this new version are stored with a different provider.
 
         ```
         Http Method: POST
