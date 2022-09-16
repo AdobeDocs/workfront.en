@@ -36,9 +36,9 @@ Our&nbsp;folder syncing functionality lets you&nbsp;synchronize a Box folder wit
 * Enable your project team to collaborate and make decisions in real time on different media formats including print, digital, web, video and interactive content.
 * Use Workfront Proof to meet regulatory requirements and identify process improvements.
 
-## >Box Workfront Proof Sync - Overview Video
+## Box Workfront Proof Sync - Overview Video
 
-<iframe class="vimeo-player_0" src="assets/61894774?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+[Box Workfront Proof Sync - Overview Video](https://vimeo.com/61894774).
 
 ## Adding the Workfront Proof Sync App to Your Box Account
 
@@ -52,4 +52,4 @@ Please follow the few simple steps below to add our app to your Box account:
 
 ## Configuring the Integration - Video Tutorial
 
-<iframe class="vimeo-player_0" src="assets/60652062?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+[Configuring the Integration - Video Tutorial](https://vimeo.com/60652062)
