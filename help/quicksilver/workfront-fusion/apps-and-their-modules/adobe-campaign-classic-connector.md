@@ -78,19 +78,23 @@ This scheduled trigger module starts a scenario when a record changes.
    <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
   </tr> 
   <tr> 
+   <td role="rowheader">Filter</td> 
+   <td>Select whether you want to watch for new records, updated records, or both.</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Resource</td> 
    <td>Select the resource that you want to watch for.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Fields </td> 
+   <td role="rowheader">Fields to inlcude in output</td> 
    <td>Select the fields that you want to include in the module's output.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Custom fields</td> 
+   <td role="rowheader">Custom fields to inlcude in output</td> 
    <td>For each custom field that you want to include in output, click <b>Add</b> and enter the name of the custom field.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Limit</td> 
+   <td role="rowheader">Maximum number of returned results</td> 
    <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 
@@ -194,7 +198,7 @@ This action module deletes a single record from Adobe Campaign Classic.
 </table>
 
 
-#### Misc Action
+#### Perform an action
 
 This action module performs a selected action on an object in the Adobe Campaign Classic API.
 
@@ -245,22 +249,18 @@ This action module reads a record from Adobe Campaign Classic.
    <td>Enter of map the ID of the record you want to read.</td> 
   </tr> 
  <tr> 
-   <td role="rowheader">Fields </td> 
+   <td role="rowheader">Fields to include in output </td> 
    <td>Select the fields that you want to include in the module's output.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Custom fields</td> 
+   <td role="rowheader">Custom fields to include in output</td> 
    <td>For each custom field that you want to include in output, click <b>Add</b> and enter the name of the custom field.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Limit</td> 
-   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
 
 
-#### Subscription
+#### Subscribe or unsubscribe
 
 This action module subscribes a user to or unsubscribes a user from an information service.
 
@@ -273,7 +273,7 @@ This action module subscribes a user to or unsubscribes a user from an informati
    <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Subscription</td> 
+   <td role="rowheader">Subscribe or unsubscribe</td> 
    <td>Select whether you want to subscribe or unsubscribe to the information service.</td> 
   </tr> 
   <tr> 
