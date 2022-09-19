@@ -73,7 +73,7 @@ Consider the following when working with Workfront for Salesforce:
     * The Details section of a project or and issue
     * The header of a project <span class="preview"> or an issue.</span>
     
-      Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the Go to Salesforce link in the project <span class="preview"> or issue</span>--> header. 
+      Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the Go to Salesforce link in the project <span class="preview"> or issue</span> header. 
     * The Summary panel  of an issue when selecting the issue in a list, after clicking Open Summary ![](assets/summary-panel-icon.png) in the list's toolbar.
 
       >[!NOTE]

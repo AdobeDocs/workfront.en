@@ -112,7 +112,7 @@ For information about how to configure status columns for a project, see the sec
 
 >[!NOTE]
 >
->This setting is temporarily unavailable in the new Workfront Experience while in beta.
+>This setting is temporarily unavailable while in beta.
 
 When you add fields to story cards, fields are view-only and display-only when the field is populated.
 

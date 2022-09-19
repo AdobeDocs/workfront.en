@@ -47,7 +47,12 @@ You must have the following access to perform the steps in this article:
    >
    >If your organization participates in early features and you choose a team, the team itself is added to the board. Individual team members are then available to assign to a card.
    >
-   >The option to add the team itself is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).  
+   >The option to add the team itself is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+
+   >[!NOTE]
+   >
+   >An individual user must have the **View** or **Edit** option set in their access level for teams, or they will not be able to view the board.
+
 
    ![Add members to board](assets/boards-add-members.png)
 
