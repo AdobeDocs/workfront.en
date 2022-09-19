@@ -248,7 +248,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New filter experience for projects, tasks, and issues</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New filter experience for projects, tasks, and issues (Beta)</a> </p>
                         <p>Filtering in project, task, and issue lists has been redesigned to help you create and share filters quickly. Features include:</p>
                         <ul>
                             <li>
@@ -297,8 +297,6 @@ Note: This functionality is not currently available in the Workload Balancer in 
 <li>Use the Quick Filter to easily locate items in the modernized custom forms and fields list. Also enjoy an improved look and feel while managing your forms and fields.
 </li>
 </ol>
-<p>After you add the team to the board, you can assign the team to cards. On connected cards, only one team assignment is allowed. On ad hoc cards, you can assign more than one team.
-</p>
                     </td>
                     <td>
                         <p><b>Available on these dates:</b>
@@ -701,3 +699,13 @@ The following features will be removed with the 22.4 release to Production:
   * [Migrate from Resource Scheduling to the Workload Balancer](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
 
 * Zoom integration
+
+### Functionality being removed after the 22.4 release
+
+The following feature will be removed in November 2022:
+
+* The SHARE event type in the Event Subscriptions API. 
+  
+  This event type allowed customers to watch when permissions for objects were updated.
+
+  For more information about Event Subscriptions, as well as other event types that will continue to be supported, see [Event Subscription API](/help/quicksilver/wf-api/general/event-subs-api.md)

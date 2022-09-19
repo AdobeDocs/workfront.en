@@ -10,8 +10,6 @@ feature: Agile
 
 # Add an intake column to a board
 
-{{highlighted-preview-article-level}}
-
 You can optionally add an intake column to your board that automatically pulls in tasks and issues as connected cards when they are added in Workfront, based on filters that you define. The intake column can serve as a backlog column for a Kanban team, an intake location for a support team to see issues as they are added to a request queue, or any other purpose you need.
 
 Only one intake column is permitted on a board, and it always appears as the left-most column.
