@@ -73,7 +73,7 @@ Link **Documents (DOCU)** from **External Document Provider** of **providerType*
 
 >[!IMPORTANT]
 >
->Documents are temporally stored. Meaning, you have access to all versions of the document. When you create the link, you can specify the existing document ID, so you are simply writing a new version to that document, with the data being hosted externally in the new provider. This document ID is the same as the document ID found on the document link you are replacing. It's the same conceptual document. You are simply indicating that the bytes for this new version are stored with a different provider.
+>Documents are temporarily stored. Meaning, you have access to all versions of the document. When you create the link, you can specify the existing document ID, so you are simply writing a new version to that document, with the data being hosted externally in the new provider. This document ID is the same as the document ID found on the document link you are replacing. It's the same conceptual document. You are simply indicating that the bytes for this new version are stored with a different provider.
 
 ```
 Http Method: POST
