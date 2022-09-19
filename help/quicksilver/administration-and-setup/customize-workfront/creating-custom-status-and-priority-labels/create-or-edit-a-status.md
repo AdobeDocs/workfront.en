@@ -11,8 +11,6 @@ exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
 ---
 # Create or edit a status
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
 As an Adobe Workfront administrator, you can create custom statuses for projects, tasks, and issues. These can be for users throughout the entire Workfront system or for specific groups or subgroups. For more information about statuses, see [Statuses overview](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
@@ -110,7 +108,7 @@ When you create a custom status for the entire organization, you can configure i
        <p>When a status is locked, users throughout the system can see and use it and group administrators cannot customize it for their groups.</p> 
        <p>When a status is locked, group administrators can customize it for their individual groups.</p>
 
-      <div class="preview">
+      <div>
        <p>You can use both locked and unlocked statuses in a system approval process. If you create a system approval process with an unlocked system status, users throughout the system can attach the approval process to any project, task, or issue in the system.</p>
        <p> In the following scenarios, warning messages display to help you and your users understand outcomes of unlocking a status:</p>
        <ul>
