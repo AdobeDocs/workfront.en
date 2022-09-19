@@ -3,8 +3,8 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Wildcard filter variables
-description: Wildcard filter variablesoverview/ reference" article for those articles. Consider renaming this when that is allowed.)"
-author: Nolan
+description: By using wildcards in filters, you can reference a generic user or date instead of a specific user or date. In this way, the elements you build are dynamic and the results change depending on the context in which they are used.
+author: Lisa
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
 ---
@@ -58,7 +58,7 @@ For information about adding a date-based wildcard to a report, see the article 
 
 >[!NOTE]
 >
->If you create a date and time calculation that doesn’t include a time portion, or that uses the date wildcards $$TODAY or $$NOW, the system uses the date according to the Coordinated Universal Time (UTC) zone, not according your local timezone. This can cause an unexpected date result.
+>If you create a date and time calculation that doesn't include a time portion, or that uses the date wildcards $$TODAY or $$NOW, the system uses the date according to the Coordinated Universal Time (UTC) zone, not according your local timezone. This can cause an unexpected date result.
 
 Choose from the following date-based wildcards:
 
