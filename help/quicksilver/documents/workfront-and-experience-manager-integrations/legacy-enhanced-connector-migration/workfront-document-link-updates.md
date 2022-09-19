@@ -2,7 +2,7 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Migrate linked folders and documents
-description: text
+description: You can use the API to migrate linked folders and documents to Adobe Experience Manager Assets.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 ---
