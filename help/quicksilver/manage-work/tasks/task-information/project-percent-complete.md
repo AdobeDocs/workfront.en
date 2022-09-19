@@ -46,7 +46,7 @@ Consider the following scenarios:
 
 * If the system calculates the percent complete based on Planned Hours, the parent task percent complete is calculated using the following formula:
 
-  `Parent Task Percent Complete = (Task 1 Planned Hours * Task 1 Percent Complete + Task 2 Planned Hours * Task 2 Percent Complete)/Total Planned Hours of Parent*100`
+  `Parent Task Percent Complete = (((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of Parent)*100`
 
   The Total Planned Hours of the parent represent the sum of all Planned Hours of each of the children. 
 
@@ -54,7 +54,7 @@ Consider the following scenarios:
 
 * If the system calculates the percent complete based on the  Duration, the parent task percent complete is calculated using the following formula:
 
-  `Parent Task Percent Complete = (Task 1 Duration * Task 1 Percent Complete + Task 2 Duration * Task 2 Percent Complete)/ Total Duration of Parent*100`
+  `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
     ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
@@ -85,7 +85,7 @@ Depending on what your Workfront or group administrator selected in the Project 
 
     >[!IMPORTANT]
     >
-    >The Total Duration of the Project is the total of all the durations of the main tasks. For example, a project with a standalone task with a Duration of 2 Days and a parent task with a Duration of 5 Days will have a Total Duration of 7 Days, even if the two tasks can start on the same day. 
+    >The Duration of the Project is the total of all the durations of the main tasks that display a percent complete. For example, a project with a standalone task with a Duration of 2 Days and a parent task with a Duration of 5 Days that have had work completed on them will have a Total Duration of 7 Days, even if the two tasks can start on the same day. 
 
     ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
@@ -105,6 +105,7 @@ The following information is used to calculate the percent complete of the proje
 * The percent complete of the parent task (Task 2 - 25%)
 * The Duration of Task 1 (5 Days)
 * The Duration of Task 2 (2 Days)
+* The Duration of the project (7 days)
 
 
 To calculate the percent complete of the project using Duration: 
@@ -113,6 +114,34 @@ To calculate the percent complete of the project using Duration:
 
 Or
 
-`((5*0.2)+(2*0.25))/7*100= 21.43%`
+`(((5*0.2)+(2*0.25))/7)*100= 21.43%`
 
 
+<!--drafted, this was the old example:
+
+When using the Planned Duration of the tasks to calculate the percent complete of a project, consider the following example:
+
+percent_complete_on_project_example.png
+
+Only the parent task (Task 1) and the standalone task (Task 8) are used to calculate the percent complete of the project.
+
+The secondary parents of Task 1 are used to calculate the percent complete of the main parent (Task 1).
+
+To calculate the percent complete of the main parent (Task 1), first calculate the percent complete of its secondary parents:
+
+Task 5 Percent Complete = ((14 * 0.75 + 12 * 0.25)/(12 + 14))*100 = 51.92%
+
+Task 2 Percent Complete = ((5 * 0.7 + 2 * 0.5)/(5 + 2))*100 = 64.29 %
+
+Then, to calculate the percent complete of the main parent (Task 1), use the following formula:
+
+Task 1 Percent Complete =((56 * 0.5192 + 7 * 0.6429)/63)*100 = 53.29%
+
+To calculate the percent complete of the project, you will need to have the following numbers ready:
+
+Task 1 Duration (63 hours) and Percent Complete (53.29%)
+Task 8 Duration (100 hours) and Percent Complete (4%)
+Now, to calculate the percent complete of the project, use the following formula:
+
+Project Percent Complete =((100 * 0.04 + 63 * 0.5329))/163)*100 = 23.05%
+-->
