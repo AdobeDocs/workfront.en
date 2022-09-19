@@ -9,102 +9,36 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 
 # Migrate linked folders and documents
 
-To migrate linked folders and documents:
+You can use the API to migrate linked folders and documents to Adobe Experience Manager Assets
 
-1. Using the API, identify all documents and folders linked with the previous external document storage provider, noting their Workfront internal document or folder identifiers as well as the folder ID of any containing folder:
+## Procedure
 
-    1. **Documents**
+1. Identify all documents and folders linked with the previous external document storage provider, noting their Workfront internal document or folder identifiers as well as the folder id of any containing folder.
 
-        Find All Documents (DOCU) Linked to Document Provider of providerType with documentProviderID
+    >[!NOTE]
+    >
+    > You should check for all discovered folders or documents to verify they have not already created a link for them with the new provider.
 
-        ```
-        Http Method: GET
-        
-        Http Endpoint: {host}/attask/api/v14.0/document/search?fields=currentVersion:*&currentVersion:externalIntegrationType={providerType}
+1. Locate these documents and folders in the new repository by path and lookup their identity in that external system. Create a mapping of the internal Workfront id, to the id in the new, external store. We'll need this to create a new link
 
-        ```
-
-        API DOCS: https://developer.workfront.com/documents.html#get-/docu/search
-
-    1. **Folders** 
-
-        Find All Document Folders (DOCFDR) Linked to Document Provider of providerType with documentProviderID
-
-        ```
-        Http Method: GET
-        
-        Http Endpoint: {host}/attask/api/v14.0/documentFolder/search?fields=*,linkedFolder:*&linkedFolder:externalIntegrationType={providerType}
-
-        ```
-
-        API DOCS: (Document Folder Endpoints Not Currently Covered at developer.workfront.com )
-
-1. In the new repository, locate the discovered documents and folders by path and lookup their identity in that external system. 
-
-1. Create a mapping of the internal Workfront ID, to the ID in the new external store. You need this to create a new link.
-
-1. Create a new document or document folder link in Workfront that points to the resource in its new location, via its new external id.
-
-    1. **Documents**: Add a new version of the existing document with the new external document provider:
-
-        Link **Documents (DOCU)** from **External Document Provider** of **providerType** with **documentProviderID**.
-
-        >[!IMPORTANT]
-        >
-        >Documents are temporally stored. Meaning, you have all versions of the document. When you link from, we can specify the existing document ID, so that we are simply writing a new version to that document, with the data being hosted externally, in the new provider. This document id would be the same as the document id found on the document link we are replacing. It's the same conceptual document. We are simply indicating that the bytes for this new version are stored with a different provider.
-
-        ```
-        Http Method: POST
-        
-        Endpoint: {host}/internal/documents/linkExternalObjects
-        
-        Http Body:
-        refObjCode=DOCU&refObjID={documentId}&providerType={providerType}&documentProviderID={documentProviderID}
-
-        ```
-
-        API DOCS: (Internal Link Endpoints Not Currently Covered at developer.workfront.com)
-
-    1. **Folders**: Create a new folder in the same place with the same name, then disable the old Workfront provider to filter out old links once complete.
-        Link **Document Folders (DOCFDR)** from **External Document Provider** of **providerType** with **documentProviderID**.
-
-        
-
-        >[!IMPORTANT]
-        >
-        >For folder links , unlike Document links, we need the 'documentFolderId' of the folder in workfront we want to place our new link into. This would be the same parent folder, most likely as the linked folder we are copying. Also of note, folders are not temporally stored. We will create a new folder and then simply disable the old folder when we disable the prior document provider.
-
-        ```
-        Http Method: POST
-        
-        Endpoint: {host}/internal/document/version/linkExternal
-        
-        Http Body:
-        providerType={providerType}&documentProviderID={documentProviderID}&breadcrumb=[]&linkAction=LINKEXTERNAL&refObjCode={USER|PROJECT_TASK|TEMPLATE_TASK|securityRootObjectCode}&refObjID={userID|taskID|templateTaskID|securityRootId}&destFolderID={parentFolderId}
-
-        ```
-
-        API DOCS: (Internal Link Endpoints Not Currently Covered at developer.workfront.com)
+1. Create a new document or document folder link in Workfront , pointing to the resource in its new location, via its new external id.  Note that documents are temporally organized and folders are not. For documents we'll be adding a new version of the existing document with the new external document provider, being the new store for this new versions bytes. For folders however, we'll create a new folder, in the same place, with the same name, and then simply disable the old Workfront provider to filter out the old links once complete.
 
 >[!IMPORTANT]
 >
->When changing folder links, it's not advisable to delete the old linked folder, in an automated way after linking as this would not be recoverable. If done at scale, the loss of data could be significant. Simply disable the old provider to remove the old folder links from the Workfront application view.
+>When changing folder links, It's not advisable to delete the old linked folder, in an automated way after linking as this would not be recoverable. If done at scale, the loss of data could be significant. Simply disable the old provider to remove the old folder links from the Workfront application view. Also, for documents, we are adding a new version to the existing document, so there again, a delete would not be part of the process.
 
-Also, for documents, we are adding a new version to the existing document, so there again, a delete would not be part of the process.
 
 ## Example process for migrating links
 
 ![simplified-link-flow](assets/links-flow-simplified.png)
 
-## APIs involved
+## API information
 
 For more information on the Workfront APIs in this section, see [Developer Documentation:Documents](https://developer.workfront.com/documents.html).
 
 ### Find all documents
 
 Find All **Documents (DOCU)** Linked to **Document Provider** of **providerType** with **documentProviderID**.
-
-[API DOCS reference](https://developer.workfront.com/documents.html#get-/docu/search)
 
 ```
 Http Method: GET
@@ -113,11 +47,11 @@ Http Endpoint: {host}/attask/api/v14.0/document/search?fields=currentVersion:*&c
 
 ```
 
+[API DOCS reference](https://developer.workfront.com/documents.html#get-/docu/search)
+
 ### Find all folders
 
 Find All **Document Folders (DOCFDR)** Linked to Document Provider of **providerType** with **documentProviderID**.
-
-API DOCS: (Document Folder Endpoints Not Currently Covered at developer.workfront.com )
 
 ```
 Http Method: GET
@@ -126,11 +60,11 @@ Http Endpoint: {host}/attask/api/v14.0/documentFolder/search?fields=*,linkedFold
 
 ```
 
+API DOCS: (Document Folder Endpoints Not Currently Covered at developer.workfront.com)
+
 ### Link documents
 
 Link **Documents (DOCU)** from **External Document Provider** of **providerType** with **documentProviderID**.
-
-API DOCS: (Internal Link Endpoints Not Currently Covered at developer.workfront.com)
 
 >[!IMPORTANT]
 >
@@ -146,11 +80,11 @@ refObjCode=DOCU&refObjID={documentId}&providerType={providerType}&documentProvid
 
 ```
 
+API DOCS: (Internal Link Endpoints Not Currently Covered at developer.workfront.com)
+
 ### Link folders
 
 Link **Document Folders (DOCFDR)** from **External Document Provider** of **providerType** with **documentProviderID**.
-
-API DOCS: (Internal Link Endpoints Not Currently Covered at developer.workfront.com)
 
 >[!IMPORTANT]
 >
@@ -165,6 +99,8 @@ Http Body:
 providerType={providerType}&documentProviderID={documentProviderID}&breadcrumb=[]&linkAction=LINKEXTERNAL&refObjCode={USER|PROJECT_TASK|TEMPLATE_TASK|securityRootObjectCode}&refObjID={userID|taskID|templateTaskID|securityRootId}&destFolderID={parentFolderId}
 
 ```
+
+API DOCS: (Internal Link Endpoints Not Currently Covered at developer.workfront.com)
 
 ## Important terms
 
