@@ -64,18 +64,15 @@ Workfront Fusion appears in the list of Adobe Experience Cloud products you have
 
 ![Select Workfront to access the application](assets/aec-product-switcher.png)
 
-<!-- The following info is from Lisa's article and is here so I remember what to put in.
 
-## Navigate Workfront
 
-Use the Main Menu icon ![](assets/main-menu-icon-left-nav.png) on the left of the Workfront navigation bar to navigate to any pages that you have access to. The options that are available in the Main Menu are dependent on:
+## Navigate Workfront Fusion
 
-* **Layout template configurations**: To learn how a Workfront administrator can modify the Main Menu from a layout template, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-* **License type**: To learn the default configurations for different license types, see [Understand the navigation for a Review-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand the navigation for a Work-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+Use the Main Menu icon ![](assets/main-menu-icon-left-nav.png) on the left of the Workfront Fusion navigation bar to open the Organization and Team menus.
 
-![Main menu](assets/main-menu-options-left-nav.png)
+The Organization and Team switchers are no longer in the left navigation.
 
--->
+To switch organizations, use the 
 
 ## Access your profile and preferences
 
