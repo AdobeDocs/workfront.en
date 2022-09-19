@@ -103,7 +103,7 @@ To create a connection for your Adobe Journey Optimizer modules:
           <td>Enter your Adobe Organization ID. This can be found in the Credentials details section of the Adobe Developer Console</td>
         </tr>
         <tr>
-          <td role="rowheader">Meta Scopes</td>
+          <td role="rowheader">Meta scopes</td>
           <td>
             Enter any meta scopes needed for the connection.
           </td>
@@ -168,7 +168,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
     </tr>
     <tr>
       <td role="rowheader">
-        Record Type
+        Record type
       </td>
       <td>
         Select the type of record that you want to create
@@ -392,6 +392,46 @@ This action module creates a placement, decision rule, tag, personalized offer, 
   </tbody>
 </table>
 
+#### Delete a record
+
+This action module deletes a single record in Adobe Journey Optimizer.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Connection</td>
+     <td>For instructions on creating a connection to Adobe Journey Optimizer, see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to Adobe Journey Optimizer</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        Record type
+      </td>
+      <td>
+        Select the type of record that you want to delete
+        <ul>
+        <li>Placement</li>
+        <li>Decision rule</li>
+        <li>Decision</li>
+        <li>Tag</li>
+        <li>Collection</li>
+        <li>Fallback offer</li>
+        <li>Personalized offer</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Placement/Decision rule/Decision/Tag/Collection/Fallback offer/Personalized offer
+      </td>
+      <td>
+        Select the record that you want to delete.
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
 #### Make a custom API call
 
 This module makes a custom API call to the Adobe Journey Optimizer API
@@ -503,7 +543,7 @@ This action module creates a placement, decision, decision rule, tag, personaliz
     </tr>
     <tr>
       <td role="rowheader">
-        Record Type
+        Record type
       </td>
       <td>
         Select the type of record that you want to update
@@ -533,7 +573,7 @@ This action module creates a placement, decision, decision rule, tag, personaliz
       <ol>
       <li>Click <b>Add</b>.</li>
       <li>Select whether you want to add, replace, or remove values.</li>
-      <li>Enter the Field that you want to update.</li>
+      <li>Enter the field that you want to update.</li>
       <li>Enter the new value for the field.</li>
       </td>
     </tr>
@@ -544,7 +584,7 @@ This action module creates a placement, decision, decision rule, tag, personaliz
 
 ### Searches
 
-#### Get records
+#### List records
 
 This search module lists records of the selected type, returning results based on criteria you specify.
 
