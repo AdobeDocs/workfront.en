@@ -699,3 +699,13 @@ The following features will be removed with the 22.4 release to Production:
   * [Migrate from Resource Scheduling to the Workload Balancer](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
 
 * Zoom integration
+
+### Functionality being removed after the 22.4 release
+
+The following feature will be removed in November 2022:
+
+* The SHARE event type in the Event Subscriptions API. 
+  
+  This event type allowed customers to watch when permissions for objects were updated.
+
+  For more information about Event Subscriptions, as well as other event types that will continue to be supported, see [Event Subscription API](/help/quicksilver/wf-api/general/event-subs-api.md)
