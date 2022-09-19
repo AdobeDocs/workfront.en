@@ -19,13 +19,18 @@ You can use the API to migrate linked folders and documents to Adobe Experience 
     >
     > You should check for all discovered folders or documents to verify they have not already created a link for them with the new provider.
 
-1. Locate these documents and folders in the new repository by path and lookup their identity in that external system. Create a mapping of the internal Workfront id, to the id in the new, external store. We'll need this to create a new link
+1. Locate the documents and folders in the new repository by path, then look up their identity in the external system. 
 
-1. Create a new document or document folder link in Workfront , pointing to the resource in its new location, via its new external id.  Note that documents are temporally organized and folders are not. For documents we'll be adding a new version of the existing document with the new external document provider, being the new store for this new versions bytes. For folders however, we'll create a new folder, in the same place, with the same name, and then simply disable the old Workfront provider to filter out the old links once complete.
+1. Create a mapping of the internal Workfront ID, to the ID in the new external store. You need this to create a new link in the following step.
 
->[!IMPORTANT]
+1. Create a new document or document folder link in Workfront, pointing to the resource in its new location via its new external ID.
+
+    1. **Documents**: Add a new version of the existing document with the new external document provider.
+    1. **Folders**: Create a new filder in the same place with the same name.
+
+>[!CAUTION]
 >
->When changing folder links, It's not advisable to delete the old linked folder, in an automated way after linking as this would not be recoverable. If done at scale, the loss of data could be significant. Simply disable the old provider to remove the old folder links from the Workfront application view. Also, for documents, we are adding a new version to the existing document, so there again, a delete would not be part of the process.
+>   Do not delete the existing linked folders. This could result in data loss. To remove old folder links from the Workfront application, disable the custom document integration in the Setup area. 
 
 
 ## Example process for migrating links
@@ -68,7 +73,7 @@ Link **Documents (DOCU)** from **External Document Provider** of **providerType*
 
 >[!IMPORTANT]
 >
->Documents are temporally stored. Meaning we have all versions of the document. When we do the link from, we can specify the existing document id, so that we are simply writing a new version to that document, with the data being hosted externally, in the new provider.  This document id would be the same as the document id found on the document link we are replacing. It's the same conceptual document. We are simply indicating that the bytes for this new version are stored with a different provider.
+>Documents are temporally stored. Meaning, you have access to all versions of the document. When you create the link, you can specify the existing document ID, so you are simply writing a new version to that document, with the data being hosted externally in the new provider. This document ID is the same as the document ID found on the document link you are replacing. It's the same conceptual document. You are simply indicating that the bytes for this new version are stored with a different provider.
 
 ```
 Http Method: POST
@@ -88,7 +93,12 @@ Link **Document Folders (DOCFDR)** from **External Document Provider** of **prov
 
 >[!IMPORTANT]
 >
->For folder links , unlike Document links, we need the 'documentFolderId' of the folder in workfront we want to place our new link into. This would be the same parent folder, most likely as the linked folder we are copying. Also of note, folders are not temporally stored. We will create a new folder and then simply disable the old folder when we disable the prior document provider.
+>For folder links , unlike Document links, you need the 'documentFolderId' of the folder in Workfront you want to place your new link into. This is the same parent folder, most likely, as the linked folder we are copying. 
+
+>[!CAUTION]
+>
+>Folders are not temporally stored. Do not delete the old folers. Disable the custom document integration in the setup area to remove old folers.
+
 
 ```
 Http Method: POST
@@ -108,15 +118,17 @@ API DOCS: (Internal Link Endpoints Not Currently Covered at developer.workfront.
 
 * **Document Folder**: A container for digital assets within Workfront
 
-* **Document ID**: Workfront internal id for a digital asset
+* **Document ID**: Workfront internal ID for a digital asset
 
-* **Document Folder ID**: Workfront internal id for a digital asset folder
+* **Document Folder ID**: Workfront internal ID for a digital asset folder
 
-* **Document Provider ID**
+* **Document Provider ID**: ID associated with specific doc providers
 
-   This is important to note. For any given Document Provider Type, a customer may have multiple connected instances. They may have multiple AEM Repositories linked for example. Or multiple Google One Drive instances linked.  The id indicates the specific instance of the connection type we want to replace or switch to.
+>[!IMPORTANT]
+>
+> For any given Document Provider Type, a customer may have multiple connected instances. They may have multiple AEM Repositories linked for example. Or multiple Google Drive instances linked. The Document Provider ID indicates the specific instance of the connection type we want to replace or switch to.
 
-* **Document Storage Provider Type (also "External Integration Type")**: This is a type of document storage provider integration that we support. Either via a dedicated integration or a "custom integration". 
+* **Document Storage Provider Type (also "External Integration Type")**: The type of document storage provider integration that Workfront supports. Either via a dedicated integration or a "custom integration". 
 
 * **Current Document Storage Provider Types ( providerType)**:
 
@@ -138,17 +150,17 @@ API DOCS: (Internal Link Endpoints Not Currently Covered at developer.workfront.
     MOCK
     ```
 
-* **Linked Document**: A digital asset hosted externally, in an external document storage provider. Workfront will have its own internal "Document Id' for the asset, but the bytes are stored externally. To facilitate this, Workfront also stores an "external document id" to assist with locating the externally referenced resource within the remote repository or store.
+* **Linked Document**: A digital asset hosted in an external document storage provider. Workfront will have its own internal "Document ID' for the asset, but the bytes are stored externally. To facilitate this, Workfront also stores an "external document ID" to assist with locating the externally referenced resource within the remote repository or store.
 
-* **Linked Document Folder**: A container for digital assets hosted externally, in an external document storage provider. Workfront will have its own internal "Document Folder Id' for the asset, but the bytes are stored externally. To facilitate this, Workfront also stores an "external document id" to assist with locating the externally referenced resource within the remote repository or store.
+* **Linked Document Folder**: A container for digital assets hosted in an external document storage provider. Workfront will have its own internal "Document Folder ID' for the asset, but the bytes are stored externally. To facilitate this, Workfront also stores an "external document ID" to assist with locating the externally referenced resource within the remote repository or store.
 
-* **External Document ID**: When assets are stored outside of workfront. Workfront maps its internal identifier, to the identifier used to locate the asset in the external system, via this "external document identifier" field. Therefore, when linking the document or folder from a new external store, a new external document identifier must be composed, in the appropriate format for the external document provider to identify the document in the new repository or store. 
+* **External Document ID**: ID assigned when assets are stored outside of workfront. Workfront maps its internal identifier, to the identifier used to locate the asset in the external system, via this "external document identifier" field. Therefore, when linking the document or folder from a new external store, a new external document identifier must be composed, in the appropriate format for the external document provider to identify the document in the new repository or store. 
 
     >[!NOTE]
     >
-    > It's important to note that workfront does not yet have a standard for external document identifiers. A new spec is being used for AEM ids, but for other ids the external document id may take on different forms depending on the provider type.
+    > Workfront does not yet have a standard for external document identifiers. A new spec is being used for AEM IDs, but for other IDs, the external document ID may take on different forms depending on the provider type.
 
 
-* **Object Type**: This is an API only term for the purposes of this document. it's a type of generic object within workfront that we wish to interact with. In our cases we'll be interacting with documents and folders having the types "DOCU" and "DOCFDR" respectively. 
+* **Object Type**: This is an API only term for the purposes of this document. It's a type of generic object within workfront that you wish to interact with. In this cases, you'll interact with documents and folders having the types "DOCU" and "DOCFDR" respectively.
 
-* **Object ID**: The internal Workfront identifier for the generic object we wish to interact with. Again in this case we will be interacting with documents and folders so this will be either the document ID or document folder ID respectively.
+* **Object ID**: The internal Workfront identifier for the generic object you wish to interact with. You'll interact with documents and folders so this will be either the document ID or document folder ID respectively.
