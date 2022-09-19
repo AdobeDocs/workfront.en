@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Assign work in the Workload Balancer by dragging and dropping
-description: Assign work in the Workload Balancer by dragging and dropping
+description: You can assign work items using the Adobe Workfront Workload Balancer by dragging and dropping work items to the correct users.
 author: Alina
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
@@ -97,6 +97,8 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
 
 1. When you are ready, drop the selected work item in the same line as the user's name in the Assigned Area. The item is assigned and the allocated Planned Hours are updated for the user with the new hours from the work item.
 
+   If the item was assigned to a job role that the user cannot fulfill, the item displays under the user's name in the Assigned Work area and it also remains in the Unassigned Work area to indicate that the job role associated with it has not been replaced by a user yet. 
+
    >[!TIP]
    >
    >* If you enabled Group by Project in the Settings area, the assigned task displays under the corresponding project. If the setting is disabled, the assigned task displays in the user area. 
@@ -105,7 +107,7 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
    >     The item displays according to the Workload Balancer criteria for sorting work items. For more information, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
    >
    >
-   >* <span class="preview">If you enabled Show all users in the Workload Balancer of a project and assigned items to users who were not previously assigned to items on the project, the users are added to the Project Team. For more information, see [Manage project team](../../manage-work/projects/planning-a-project/manage-project-team.md)</span>.
+   >* <span class="preview">If you enabled Show all users in the Workload Balancer of a project and assigned items to users who were not previously assigned to items on the project, the users are added to the Project Team. For more information, see [Manage project team](../../manage-work/projects/planning-a-project/manage-project-team.md).</span>
 
 
 1. (Optional) Click the bar of a work item under the name of a user in the Assigned Work area and drag it then drop it over the Unassigned Work area to unassign it. The item is unassigned from the user, but it might still be assigned to a job role in which case it displays in the Unassigned Work area. If the item is assigned to another user, it remains in the Assigned Work area under the name of the user who is still assigned. 

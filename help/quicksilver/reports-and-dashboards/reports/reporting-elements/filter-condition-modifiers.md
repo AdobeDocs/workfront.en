@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Filter and condition modifiers
 description: The filter and condition modifiers allow you to build filters and establish conditions for formatting your report results.
-author: Nolan
+author: Lisa
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
 ---
