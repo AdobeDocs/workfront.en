@@ -44,7 +44,7 @@ The catalog displays all of the blueprints that are available for your organizat
    * Use case (such as Human Resources or Marketing)
    * Maturity level (managed or integrated)
    * Installation status (installed or not installed)
-   * Blueprint type (organizational structure or project template)
+   * Blueprint type (Custom Form, Organizational Structure, Project Template, Dashboard, Request Queue, Setup Feature)
 
 1. (Optional) Click **Details** on a blueprint to learn how it works.
 
@@ -52,11 +52,11 @@ The catalog displays all of the blueprints that are available for your organizat
 
 ## Request installation of a blueprint
 
-You can request the installation of a blueprint if a system administrator configures blueprint requests. For more information, see [Configure access to blueprints](../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
+You can request the installation of a blueprint if your system administrator allows blueprint requests. For more information, see [Configure access to blueprints](../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
 When you request to have a blueprint installed, the request is sent to the system administrator. You are notified when the request is completed, according to your notification preferences.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click**Blueprints**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Blueprints**.
 1. Find the blueprint you want to install. You can filter by use case, maturity level, installation status, and type using the filters in the right panel.
 1. Click **Request** on the blueprint.
 

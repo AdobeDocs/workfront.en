@@ -75,8 +75,8 @@ You can install your package in any of the following environments:
    For more information, see the [Where should I install a blueprint?](#where-should-i-install-a-blueprint) section in this article.
 1. On the Configure page, you can choose to do one of the following:
 
-   * Install the blueprint as is and configure later. Click **Install as is**.
-   * Configure the blueprint before installation. Make your configuration selections, and click **Install blueprint**.  
+   * Install the blueprint as is. For blueprint types that do not require any configuration, this is the only option. For blueprint types that need configuration, you can optionally choose to install the blueprint now and configure it later. Click **Install as is**.
+   * Configure the blueprint before installation, for blueprints that require configuration. Make your configuration selections, and click **Install blueprint**.  
      For more information, see [Configure a blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
 
    When the installation is complete, a message displays a list of the specific objects (such as roles, teams, or groups) that were successfully installed with the blueprint and any objects that failed to install.
