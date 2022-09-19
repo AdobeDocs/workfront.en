@@ -32,7 +32,7 @@ After your Workfront environment has been migrated to an Adobe Admin Console, Wo
 
 After you configure your environment, you can move existing linked assets and folders to Adobe Experience Manager. This is an optional step but will ensure that previously linked folders and assets through the legacy or enhanced connector will still be accessible once those connectors are uninstalled.
 
-For more information on moving your assets, see XXXXXXXXXXXXXX.
+For more information on moving your assets, see [Migrate linked folders and documents](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md).
 
 ## Validate all critical use cases intended to be used
 
@@ -44,5 +44,5 @@ Last, you need to uninstall the legacy or enhanced connector. The native integra
 
 To uninstall, see 
 
-* Legacy connector uninstall instructions: <!--- [Uninstall the Workfront with Adobe Experience Manager legacy connector](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md) -->
-* Enhanced connector uninstall instructions:<!--- [Uninstall the Workfront with Adobe Experience Manager enhanced connector](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md) -->
+* Legacy connector uninstall instructions: [Uninstall the Workfront with Adobe Experience Manager legacy connector](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md).
+* Enhanced connector uninstall instructions: [Uninstall the Workfront with Adobe Experience Manager enhanced connector](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md).
