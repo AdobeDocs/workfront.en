@@ -173,4 +173,4 @@ For a project:
    * Assign work to any user that might not be on the project.
 
    * View additional work that users are assigned to on other projects.
-   * Adjust user allocations to work items.>
+   * Adjust user allocations to work items.-->
