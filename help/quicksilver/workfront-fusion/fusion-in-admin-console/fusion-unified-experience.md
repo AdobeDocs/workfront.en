@@ -64,15 +64,13 @@ Workfront Fusion appears in the list of Adobe Experience Cloud products you have
 
 ![Select Workfront to access the application](assets/aec-product-switcher.png)
 
-
-
 ## Navigate Workfront Fusion
 
 Use the Main Menu icon ![](assets/main-menu-icon-left-nav.png) on the left of the Adobe navigation bar to open the Organization and Team menus. If you are a Workfront Fusion administrator, your Administration menu also appears here.
 
-To switch teams, click on the team name at the top of the page. This appears only on pages that are specific to a team, such as a scenario builder or the Connection page. 
+To switch teams, click on the team name at the top of the page, then select the team. This appears only on pages that are specific to a team, such as a scenario builder or the Connection page. 
 
-For more information about the Organization and Team menus, see 
+To switch organizations, click the organization name at the upper-right of your screen, then select the organization.
 
 ## Access your profile and preferences
 
