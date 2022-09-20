@@ -28,15 +28,69 @@ You can contact Workfront Customer Support 7 days a week, 24 hours a day, throug
 
 ## Web
 
-To access the Support portal, visit the Experience League website and select the **Support** tab located at the top of the page. Alternatively, you can visit [experienceleague.adobe.com/support](https://experienceleague.adobe.com/support).
+You can submit a support ticket from the self-serve Experience League portal. 
 
-![](assets/experience-league-top-navigation-with-support-highlighted.png)
+>[!CAUTION]
+>
+>Only authorized support contacts (or entitled customers) can submit online support tickets.
 
-For more information about logging a support ticket, see the 
-[How to Submit a Support Ticket on Experience League](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737) article.
+
+1. From the [Experience League](https://experienceleague.adobe.com) website, click **Support**  at the top of the page. 
+
+    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
+
+    From the support homepage, you can easily navigate to your open support cases, log a new case, view the top Support articles, or access additional learning sources.
+ 
+1. To submit a case, select the option "Open a support case", then click **Sign In**.
+
+1. Click **Open case** in the left sidebar. 
+
+    ![](assets/left-nav-bar-for-exl-support-portal.png)
+    
+    The case creation page opens where you can enter your product name (Adobe Workfront, Adobe Workfront Fusion, etc.), case title, and case description. 
+    
+    >[!TIP]
+    >
+    >Be as descriptive as possible when describing the issue you are facing to help us expedite the troubleshooting process.
 
 
-<!--drafted and it needs to be replaced by the steps in the article linked above: 
+1. Fill in the information for the following fields to provide us with more specific details:
+
+    * **Case Priority** (Low, Medium, High, Critical)
+    * **Case Product** (DAM, Fusion, Goals, etc.)
+    * **Environment** (Production, Preview, Sandbox, etc.)
+    * **Customer Region** (Americas, EMEA, APAC)
+
+1. Upload any relevant files, then click **Submit case**.
+
+    The My cases page displays. 
+
+    ![](assets/all-cases-list-exl-support-portal.png)
+
+1. (Optional) On the **My cases** page, review cases that your organization has submitted. 
+
+    >[!TIP]
+    >
+    >You can also navigate to the My cases page by clicking **My cases** in the left sidebar. 
+
+1. On the My cases page, use the options at the top of the page to filter by Product (Experience Cloud solution) or case Status (open or closed). You can also use the search box to search for any keywords pertaining to your support cases.
+
+1. To view more details on a case, click the **Case Number** to access it. The case view opens.
+
+1. In the case view, review the latest comments with the assigned case owner and add any additional attachments or responses.
+
+1. Click **Escalate to management** on the right side of the page under **Case Detail** to escalate the case. 
+
+1. Click the **Close case** button to close the case.
+
+
+If you have any questions or problems submitting a request, call the Customer Support team.
+
+
+
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
+
+- this is the information that was there before - pointing to WorkfrontOne: 
 
 If you are logged in as an Authorized Support Contact, you can contact Workfront Customer Support through the Workfront One site and create a case, formally called a ticket.
 
@@ -97,4 +151,4 @@ If you are logged in as an Authorized Support Contact, you can contact Workfront
 
 -->
 
-If you have any questions or problems submitting a request, please call the Customer Support team.
+

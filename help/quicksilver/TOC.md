@@ -90,6 +90,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of September 19, 2022](product-announcements/product-releases/fusion-release-activity/fusion-sept-19-22.md)
       * [Workfront Fusion release activity: Week of July 11, 2022](product-announcements/product-releases/fusion-release-activity/fusion-july-11-22.md)
       * [Workfront Fusion release activity: Week of June 27, 2022](product-announcements/product-releases/fusion-release-activity/fusion-jun-27-22.md)
       * [Workfront Fusion release activity: Week of June 20, 2022](product-announcements/product-releases/fusion-release-activity/fusion-jun-20-22.md)
@@ -1965,7 +1966,9 @@ feature-set: Workfront
     * [Workfront Proof modules](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
     * [Adobe Acrobat Sign modules](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
     * [Adobe Creative Cloud Libraries modules](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
+    * [Adobe Campaign Classic modules](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
     * [Adobe Experience Manager Assets modules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)    
+    * [Adobe Journey Optimizer modules](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
     * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
     * [Adobe Target modules](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
     * [Allocadia modules](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
