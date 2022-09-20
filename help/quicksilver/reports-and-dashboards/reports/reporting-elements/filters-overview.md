@@ -81,7 +81,7 @@ You can use either built-in filters or build custom filters in the following are
 
 * Workload Balancer
 
-  For information, see [Manage filters in the Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+  For information, see [Filter information in the Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 * Analytics area
 

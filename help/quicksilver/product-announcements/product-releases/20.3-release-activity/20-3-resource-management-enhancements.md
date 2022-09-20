@@ -41,7 +41,7 @@ These filters replace the wildcard filter variables of $$USER.ID, $$USER.roleID,
 
 When you apply one of these filters and then share the Workload Balancer or place it on a dashboard, all other users will see their own information.
 
-For information about applying filters to the Workload Balancer, see [Manage filters in the Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+For information about applying filters to the Workload Balancer, see [Filter information in the Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 [Watch a video demonstration of this feature.](https://vimeo.com/425680462/5e65fb50f7)
 

@@ -1627,7 +1627,7 @@ feature-set: Workfront
     * [Locate the Workload Balancer](resource-mgmt/workload-balancer/locate-workload-balancer.md)
     * [Overview of assigning work in the Workload Balancer](resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
     * [Unassign work in the Workload Balancer](resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)
-    * [Manage filters in the Workload Balancer](resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
+    * [Filter information in the Workload Balancer](resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
     * [Assign work in bulk using the Workload Balancer](resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)
     * [Assign work in the Workload Balancer by dragging and dropping](resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
     * [Assign work manually using the Workload Balancer](resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)

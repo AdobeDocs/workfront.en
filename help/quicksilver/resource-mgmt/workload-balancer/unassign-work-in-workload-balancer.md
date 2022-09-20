@@ -75,4 +75,4 @@ To unassign work items from users:
 
    The item displays in the Unassigned Work area if it matches the filtering criteria for that area and it is not assigned to any other users, or it displays in the user area if it is assigned to another user.
 
-   For information about filtering information in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+   For information about filtering information in the Workload Balancer, see [Filter information in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
