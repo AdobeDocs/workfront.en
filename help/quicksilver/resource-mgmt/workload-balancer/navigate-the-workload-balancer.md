@@ -128,7 +128,7 @@ The two areas of the Workload Balancer display the following information:
  </tbody> 
 </table>
 
-For information about applying a filter in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+For information about applying a filter in the Workload Balancer, see [Filter information in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 ![](assets/balancer-empty-unassiged-area-350x179.png)
 
