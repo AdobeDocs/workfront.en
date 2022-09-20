@@ -211,7 +211,23 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
      </tr> 
      <tr> 
       <td role="rowheader">Resolved By</td> 
-      <td> <p>This shows whether the issue is resolved by another object. You can select whether this issue is resolved by a task, a project, or another issue from the drop-down menu, then start typing the name of the task, project, or issue that will resolve the issue. Select it when it appears in the list.<br></p> <p>Note:  When you select an object to resolve an issue, the issue status is linked to the status of the resolving object and cannot be changed on the issue. For more information about resolving objects, see <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </td> 
+      <td> <p>This shows whether the issue is resolved by another object. You can select whether this issue is resolved by a task, a project, or another issue from the drop-down menu, then start typing the name of the task, project, or issue that will resolve the issue. Select it when it appears in the list.</p> 
+      
+      <b>NOTE</b>
+          
+      When you select an object to resolve an issue, the issue status is linked to the status of the resolving object and cannot be changed on the issue. For more information about resolving objects, see <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>. 
+      
+      <b>TIP</b>
+
+      <span class="preview">When your system or group administrator adds the "Resolved By" field to an issue custom header, the field changes to "Resolving Issue", "Resolving Task", or "Resolving Project" when there is a resolving object associated with the issue. </span>
+
+      <span class="preview">You cannot edit this field when it displays in the issue header. For more information about customizing issue headers, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">Customize object headers using a layout template </a></span>
+      </td> 
+     </tr>
+
+     <tr> 
+      <td role="rowheader">Resolving Issue, Resolving Task, or Resolving Project</td> 
+      <td>The name of the issue, task, or issue that resolves the issue displays with a link to the actual item.  </td> 
      </tr> 
     </tbody> 
    </table>
