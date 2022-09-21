@@ -2,18 +2,18 @@
 product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
-title: Search for items in Workfront Library
-description: If your Workfront Library administrator set up content metadata, you can quickly find the content you want by searching for names and metadata. For more information about metadata, see Overview of metadata in Workfront Library.
+title: Search for items in [!DNL Workfront] Library
+description: If your [!DNL Workfront] Library administrator set up content metadata, you can quickly find the content you want by searching for names and metadata. For more information about metadata, see Overview of metadata in [!DNL Workfront] Library.
 feature: Workfront Library, Digital Content and Documents
 exl-id: cbd0b2f7-58c2-4fec-9d0a-0fb5e8ed325a
 ---
-# Search for items in Workfront Library
+# Search for items in [!DNL Workfront] Library
 
-If your Workfront Library administrator set up content metadata, you can quickly find the content you want by searching for names and metadata. For more information about metadata, see [Overview of metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
+If your [!DNL Workfront] Library administrator set up content metadata, you can quickly find the content you want by searching for names and metadata. For more information about metadata, see [Overview of metadata in [!DNL Workfront] Library](../../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
 
 ## Understand searching for content
 
-You can search Workfront Library and the entire Workfront platform for items to which you have permissions. Portal users can search only for items in the portal.
+You can search [!DNL Workfront] Library and the entire [!DNL Workfront] platform for items to which you have permissions. Portal users can search only for items in the portal.
 
 You can search for the following items:
 
@@ -25,15 +25,15 @@ When you search for items, you can query for different types of metadata, such a
 
 >[!NOTE]
 >
->If your Workfront Library administrator has not configure metadata for content in Workfront Library, then Workfront Library searches only for asset names, folder names, and collection names.
+>If your [!DNL Workfront] Library administrator has not configure metadata for content in [!DNL Workfront Library], then [!DNL Workfront Library] searches only for asset names, folder names, and collection names.
 
-If you are searching for content that has multiple versions, you can search only for the metadata associated with the active (or current) version of the content. Metadata for older versions is not searchable. For more information about content versions, see [Overview of content versioning in Workfront Library](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md).
+If you are searching for content that has multiple versions, you can search only for the metadata associated with the active (or current) version of the content. Metadata for older versions is not searchable. For more information about content versions, see [Overview of content versioning in [!DNL Workfront] Library](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md).
 
-Users with Viewer access to Workfront Library or to a portal can search for:
+Users with Viewer access to [!DNL Workfront Library] or to a portal can search for:
 
 * Content shared with them
 
-Users with Manager access to Workfront Library or to a portal can search for:
+Users with Manager access to [!DNL Workfront Library] or to a portal can search for:
 
 * Content shared with them
 * Content that they uploaded
@@ -42,9 +42,9 @@ Users with Manager access to Workfront Library or to a portal can search for:
 
 Workfront Library looks for matches based on the following relevance order:&nbsp;
 
-1. File names: Because the file name is searched for first, we recommend that your organization use a consistent file naming convention.&nbsp; 
-1. Keywords: For more information about keywords, see [Overview of keyword metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md).
-1. Taxonomy fields: For more information about taxonomy, see [Overview of taxonomy metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
+1. File names: Because the file name is searched for first, we recommend that your organization use a consistent file naming convention.&nbsp;
+1. Keywords: For more information about keywords, see [Overview of keyword metadata in [!DNL Workfront] Library](../../../workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md).
+1. Taxonomy fields: For more information about taxonomy, see [Overview of taxonomy metadata in [!DNL Workfront] Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
 
 The returned search results usually consists of content with metadata that exactly matches your query terms and with items that have file names that are partial matches.
 
@@ -58,7 +58,7 @@ Content with metadata that contain "maps" (plural) are not included in the searc
 
 ## Use search operators to refine a search {#use-search-operators-to-refine-a-search}
 
-You can expand or refine your search in Workfront Library or in a portal by using search operators.
+You can expand or refine your search in [!DNL Workfront Library] or in a portal by using search operators.
 
 The following table lists the available search operators.
 
@@ -82,7 +82,7 @@ The following table lists the available search operators.
   </tr> 
   <tr> 
    <td>OR</td> 
-   <td> <p>Use to return results that contain one or more of the search terms.&nbsp;</p> <p>Example: casual OR formal</p> <p>Returns items with either "casual" or "formal", or both "casual" and "formal" in the name or metadata.</p> </td> 
+   <td> <p>Use to return results that contain one or more of the search terms. </p> <p>Example: casual OR formal</p> <p>Returns items with either "casual" or "formal", or both "casual" and "formal" in the name or metadata.</p> </td> 
   </tr> 
   <tr> 
    <td>NOT</td> 
@@ -90,31 +90,31 @@ The following table lists the available search operators.
   </tr> 
   <tr> 
    <td>Phrase</td> 
-   <td> <p>Use to search for content with metadata containing a specific phrase encased by double quote marks.&nbsp;</p> <p>Example: "summer sale ad"</p> <p>Returns items with "summer sale ad" in the name or metadata.</p> </td> 
+   <td> <p>Use to search for content with metadata containing a specific phrase encased by double quote marks. </p> <p>Example: "summer sale ad"</p> <p>Returns items with "summer sale ad" in the name or metadata.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Search for items in Workfront Library
+## Search for items in [!DNL Workfront] Library
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
-1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where you want to search.
 
-   Depending on your access level to Workfront Library, you might be able to search from the following areas:
+   Depending on your access level to [!DNL Workfront Library], you might be able to search from the following areas:
 
    * **Library**: Search for items shared with you
-   * **My Content**: Search for items that you uploaded to Workfront Library
+   * **My Content**: Search for items that you uploaded to [!DNL Workfront] Library
    * **Collections**: Search for items in collections that you created or that were shared with you
 
    Workfront searches through all the files, folders, and sub-folders in the area you select for the search.
 
 1. (Optional) To search within a folder or collection, navigate to and open the folder or collection.
-1. In the **Search** box in the upper-right corner, type the search terms and any applicable search operators.
+1. In the **[!UICONTROL Search]** box in the upper-right corner, type the search terms and any applicable search operators.
 
    Search terms are not case-sensitive.
 
-1. (Optional) To perform the same search in Workfront, click **Search Workfront** in the Search list.
+1. (Optional) To perform the same search in [!DNL Workfront], click **[!UICONTROL Search Workfront]** in the Search list.
 
    Workfront opens in a new browser window. For more information on performing a search Workfront, see [Search Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
@@ -129,7 +129,7 @@ The following table lists the available search operators.
       ![](assets/filter-icon-location-350x102.png)
 
       The Filter panel opens and displays facets and keywords that allow you to filter the search results based metadata applied to the content.
-   
+
    1. In the Filter panel, select the filters and keywords you want to apply.
 
       ![](assets/search-results-library-350x157.png)
@@ -142,7 +142,7 @@ The following table lists the available search operators.
 
 1. Open the portal. For information on opening a portal, see [Open a Workfront Library portal](../../../workfront-library/content-management/basics/open-a-portal.md).
 1. (Optional) To search within a folder or collection, navigate to and open the folder or collection.
-1. In the **Search** box in the upper-right corner, type the search terms and any applicable search operators, then press **Enter**.
+1. In the **[!UICONTROL Search]** box in the upper-right corner, type the search terms and any applicable search operators, then press **Enter**.
 
    Search terms are not case-sensitive.
 
@@ -151,7 +151,7 @@ The following table lists the available search operators.
    1. Click the **Filter** icon in the upper-left corner of the results area.
 
       The Filter panel opens and displays facets and keywords that allow you to filter the search results based metadata applied to the content.
-   
+
    1. Select the filters and keywords you want to apply.
 
 1. (Optional) To close the Filter panel, click the **X** at the upper-right corner of the panel.

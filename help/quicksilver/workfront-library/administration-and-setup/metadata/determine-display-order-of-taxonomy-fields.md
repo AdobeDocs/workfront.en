@@ -2,21 +2,21 @@
 product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
-title: Determine the display order of taxonomy fields in Workfront Library
-description: When a user uploads new content to Workfront Library or opens an existing content file, the taxonomy associated with the content displays in the Details panel.
+title: Determine the display order of taxonomy fields in [!DNL Workfront] Library
+description: When a user uploads new content to [!DNL Workfront] Library or opens an existing content file, the taxonomy associated with the content displays in the [!UICONTROL Details] panel.
 feature: Workfront Library, Digital Content and Documents
 exl-id: ab64bf14-51d8-4089-abe4-fa80b957552d
 ---
-# Determine the display order of taxonomy fields in Workfront Library
+# Determine the display order of taxonomy fields in [!DNL Workfront] Library
 
-When a user uploads new content to Workfront Library or opens an existing content file, the taxonomy associated with the content displays in the Details panel.
+When a user uploads new content to [!DNL Workfront] Library or opens an existing content file, the taxonomy associated with the content displays in the [!UICONTROL Details] panel.
 
-As a Workfront Library administrator, you can determine the order that taxonomy fields display in the Details panel.
+As a [!DNL Workfront] Library administrator, you can determine the order that taxonomy fields display in the [!UICONTROL Details] panel.
 
-For more information about taxonomy, see [Overview of taxonomy metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
+For more information about taxonomy, see [Overview of taxonomy metadata in [!DNL Workfront] Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
-1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **Setup >** **Taxonomy**.
 1. Locate the field you want to move, then drag the field to the desired order.
 

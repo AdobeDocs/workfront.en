@@ -12,4 +12,4 @@ exl-id: 010eb7a0-4c4b-4280-a5e0-e2ca15798f14
 
 This section contains the following articles:
 
-* [Overview of Workfront Library portals](../../../workfront-library/content-management/portals/portals-overview.md)
+* [Overview of [!DNL Workfront] Library portals](../../../workfront-library/content-management/portals/portals-overview.md)

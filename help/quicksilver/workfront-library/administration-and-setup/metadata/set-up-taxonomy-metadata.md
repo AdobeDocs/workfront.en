@@ -2,19 +2,19 @@
 product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
-title: Set up taxonomy metadata for Workfront Library
-description: As a Workfront Library administrator, you can set up your organization's taxonomy to gather the information your users search for and to track content. For more information about the different types of taxonomy you can collect, see Overview of taxonomy metadata in Workfront Library.
+title: Set up taxonomy metadata for [!DNL Workfront] Library
+description: As a [!DNL Workfront] Library administrator, you can set up your organization's taxonomy to gather the information your users search for and to track content. For more information about the different types of taxonomy you can collect, see Overview of taxonomy metadata in [!DNL Workfront] Library.
 feature: Workfront Library, Digital Content and Documents
 exl-id: 7f9249eb-af41-41d3-9498-1580e70aa03f
 ---
-# Set up taxonomy metadata for Workfront Library
+# Set up taxonomy metadata for [!DNL Workfront] Library
 
-As a Workfront Library administrator, you can set up your organization's taxonomy to gather the information your users search for and to track content. For more information about the different types of taxonomy you can collect, see [Overview of taxonomy metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
+As a [!DNL Workfront] Library administrator, you can set up your organization's taxonomy to gather the information your users search for and to track content. For more information about the different types of taxonomy you can collect, see [Overview of taxonomy metadata in [!DNL Workfront] Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
-1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
-1. In the left panel, click **Setup** > **Taxonomy**.
-1. Click **Add Field**, then select the type of field you want to add to your taxonomy.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In the left panel, click **[!UICONTROL Setup]** > **[!UICONTROL Taxonomy]**.
+1. Click **[!UICONTROL Add Field]**, then select the type of field you want to add to your taxonomy.
 
    You can choose from the following field types:
 
@@ -27,15 +27,15 @@ As a Workfront Library administrator, you can set up your organization's taxonom
 
 Use custom taxonomy to gather information tailored to your organization, such as campaign, department, or location.
 
-1. In the **Field Type** drop-down list, select the type of field you want to configure.
+1. In the **[!UICONTROL Field Type]** drop-down list, select the type of field you want to configure.
 
    You can choose from the following field types:
 
-   | Date |Allows users to manually enter a date or select a date from a date picker |
+   | Date | Allows users to manually enter a date or select a date from a date picker |
    |---|---|
-   | Multi-select |Lists multiple options in a picklist from which users can choose several options |
-   | Single-select |Lists multiple options in a picklist from which users can choose one option |
-   | Text field |Allows users to freely enter text |
+   | Multi-select | Lists multiple options in a picklist from which users can choose several options |
+   | Single-select | Lists multiple options in a picklist from which users can choose one option |
+   | Text field | Allows users to freely enter text |
 
    {style="table-layout:auto"}
 
@@ -69,20 +69,20 @@ The metadata for attribute fields is derived from the device or application used
 
 ### EXIF
 
-Although some asset files contain large amounts of EXIF metadata, you can configure your taxonomy to collect only the EXIF metadata you need.&nbsp;If at a later date you decide to collect additional EXIF metadata, simply add the appropriate EXIF field to your taxonomy. Workfront Library then updates the EXIF metadata for all content embedded with the appropriate EXIF metadata.
+Although some asset files contain large amounts of EXIF metadata, you can configure your taxonomy to collect only the EXIF metadata you need.&nbsp;If at a later date you decide to collect additional EXIF metadata, simply add the appropriate EXIF field to your taxonomy. [!DNL Workfront] Library then updates the EXIF metadata for all content embedded with the appropriate EXIF metadata.
 
-To learn about the EXIF metadata that Workfront Library supports, see [Overview of taxonomy field types](../../../workfront-library/administration-and-setup/metadata/taxonomy-field-types-overview.md).
+To learn about the EXIF metadata that [!DNL Workfront Library] supports, see [Overview of taxonomy field types](../../../workfront-library/administration-and-setup/metadata/taxonomy-field-types-overview.md).
 
-1. In the **EXIF Field** box, begin typing the EXIF tag you want to capture and select the tag when it displays in the drop-down list.
-1. In the **Custom Label** box, enter a unique name for the field.  
-   The field name becomes the label that displays in the Details panel for content.
-1. Click **Save**.
+1. In the **[!UICONTROL EXIF Field]** box, begin typing the EXIF tag you want to capture and select the tag when it displays in the drop-down list.
+1. In the **[!UICONTROL Custom Label]** box, enter a unique name for the field.\
+   The field name becomes the label that displays in the [!UICONTROL Details] panel for content.
+1. Click **[!UICONTROL Save]**.
 
 ### XMP
 
-You can configure XMP taxonomy fields to embed specific types of metadata to content when it is uploaded to Workfront Library.
+You can configure XMP taxonomy fields to embed specific types of metadata to content when it is uploaded to [!DNL Workfront] Library.
 
-To learn about the XMP metadata that Workfront Library supports, see [Overview of taxonomy field types](../../../workfront-library/administration-and-setup/metadata/taxonomy-field-types-overview.md).
+To learn about the XMP metadata that [!DNL Workfront] Library supports, see [Overview of taxonomy field types](../../../workfront-library/administration-and-setup/metadata/taxonomy-field-types-overview.md).
 
 1. In the **XMP Field**&nbsp;box, begin typing the XMP tag you want to capture in the taxonomy and select the tag when it displays in the drop-down list.
 
@@ -92,8 +92,8 @@ To learn about the XMP metadata that Workfront Library supports, see [Overview o
    </note>
    -->
 
-1. In the **Custom Label** box, enter a label for the field.
+1. In the **[!UICONTROL Custom Label]** box, enter a label for the field.
 
-   The field name becomes the label that displays in the Details panel for content. 
+   The field name becomes the label that displays in the [!UICONTROL Details] panel for content.
 
 1. Click **Save**.

@@ -12,6 +12,6 @@ exl-id: ba21e112-66f1-48b5-8a1a-a573e4a25095
 
 This section contains the following articles:
 
-* [Required configuration to authenticate to Workfront Library](../../../workfront-library/administration-and-setup/workfront-library-setup/required-configuration-to-authenticate-to-library.md) 
-* [Set up a portal in Workfront Library](../../../workfront-library/administration-and-setup/workfront-library-setup/set-up-a-portal-in-library.md) 
-* [Set up content expiration in Workfront Library](../../../workfront-library/administration-and-setup/workfront-library-setup/set-up-content-expiration-in-library.md)
+* [Required configuration to authenticate to [!DNL Workfront] Library](../../../workfront-library/administration-and-setup/workfront-library-setup/required-configuration-to-authenticate-to-library.md)
+* [Set up a portal in [!DNL Workfront] Library](../../../workfront-library/administration-and-setup/workfront-library-setup/set-up-a-portal-in-library.md)
+* [Set up content expiration in [!DNL Workfront] Library](../../../workfront-library/administration-and-setup/workfront-library-setup/set-up-content-expiration-in-library.md)

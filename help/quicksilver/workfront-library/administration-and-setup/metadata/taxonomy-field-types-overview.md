@@ -24,7 +24,7 @@ Known EXIF metadata:
  <thead> 
   <tr> 
    <th>EXIF metadata</th> 
-   <th>Taxonomy field type in Workfront Library</th> 
+   <th>Taxonomy field type in [!DNL Workfront] Library</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -251,7 +251,7 @@ Additional EXIF metadata supported:
  <thead> 
   <tr> 
    <th>EXIF metadata</th> 
-   <th>Taxonomy field type in Workfront Library</th> 
+   <th>Taxonomy field type in [!DNL Workfront] Library</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -376,7 +376,7 @@ IPTC metadata:
  <thead> 
   <tr> 
    <th>IPTC metadata</th> 
-   <th>Taxonomy field type in Workfront Library</th> 
+   <th>Taxonomy field type in [!DNL Workfront] Library</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -475,7 +475,7 @@ XMP:
  <thead> 
   <tr> 
    <th>XMP metadata</th> 
-   <th>Taxonomy field type in Workfront Library</th> 
+   <th>Taxonomy field type in [!DNL Workfront] Library</th> 
   </tr> 
  </thead> 
  <tbody> 

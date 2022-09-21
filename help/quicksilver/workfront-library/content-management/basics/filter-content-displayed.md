@@ -2,12 +2,12 @@
 product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
-title: Filter content displayed in Workfront Library
+title: Filter content displayed in [!DNL Workfront] Library
 description: You can use filters to reduce the amount of content that displays in the Library and My Content areas. You can also use filters to narrow Search results. For information on using Search, see Search for items in Workfront Library.
 feature: Workfront Library, Digital Content and Documents
 exl-id: 84efd754-ff6a-48f0-ab65-f91bc6ae73b4
 ---
-# Filter content displayed in Workfront Library
+# Filter content displayed in [!DNL Workfront] Library
 
 You can use filters to reduce the amount of content that displays in the Library and My Content areas. You can also use filters to narrow Search results. For information on using Search, see [Search for items in Workfront Library](../../../workfront-library/content-management/basics/search-for-items-in-workfront-library.md).
 
@@ -19,11 +19,11 @@ Each filter on the Filter panel contains facets, which are filters that allow yo
 
 If your organization allows you to add keywords to uploaded content, you can enhance your filtering by selecting the keywords you want to filter for.
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
-1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area you want to filter.
 
-   * If you have Manager or higher access to Workfront Library, you can filter the My Content and Library areas. 
+   * If you have Manager or higher access to [!DNL Workfront] Library, you can filter the [!UICONTROL My Content] and [!UICONTROL Library] areas.
    * Users with Viewer access can filter only the Library area.
 
 1. Click the **Filter** icon.
@@ -47,7 +47,7 @@ If your organization allows you to add keywords to uploaded content, you can enh
    ![](assets/filterfacets.png)
 
 1. Repeat steps 5 and 6 until you have selected all the filters and facets you want to apply.
-1. (Optional) To filter using keywords, click in the **Keywords** box, then select the keywords you want to filter with.
+1. (Optional) To filter using keywords, click in the **[!UICONTROL Keywords]** box, then select the keywords you want to filter with.
 
    The filtered results display.
 

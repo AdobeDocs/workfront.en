@@ -2,14 +2,14 @@
 product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
-title: Access content in Workfront Library
-description: Depending on your access level, you can access content in the following areas of Workfront Library - EDIT ME.
+title: Access content in [!DNL Workfront] Library
+description: Depending on your access level, you can access content in the following areas of [!DNL Workfront] Library - EDIT ME.
 feature: Workfront Library, Digital Content and Documents
 exl-id: c3758c7e-f447-4976-88e5-ac13c825888a
 ---
-# Access content in Workfront Library
+# Access content in [!DNL Workfront] Library
 
-Depending on your access level, you can access content in the following areas of Workfront Library:
+Depending on your access level, you can access content in the following areas of [!DNL Workfront] Library:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,18 +25,18 @@ Depending on your access level, you can access content in the following areas of
   </tr> 
   <tr> 
    <td role="rowheader">Collections</td> 
-   <td> <p>Contains collections that you create and collections that users share with you. For information on collections, see <a href="../../../workfront-library/content-management/collections/collections-overview.md" class="MCXref xref">Overview of collections in Workfront Library</a>.</p> </td> 
+   <td> <p>Contains collections that you create and collections that users share with you. For information on collections, see <a href="../../../workfront-library/content-management/collections/collections-overview.md" class="MCXref xref">Overview of collections in [!DNL Workfront] Library</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Portals</td> 
-   <td>Contains assets, folders, and collections that you and other portal users have uploaded to a portal. For information about portals, see <a href="../../../workfront-library/content-management/portals/portals-overview.md" class="MCXref xref">Overview of Workfront Library portals</a>.</td> 
+   <td>Contains assets, folders, and collections that you and other portal users have uploaded to a portal. For information about portals, see <a href="../../../workfront-library/content-management/portals/portals-overview.md" class="MCXref xref">Overview of [!DNL Workfront] Library portals</a>.</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more information on the areas in Workfront Library, see [Get started with Workfront Library](../../../workfront-library/content-management/basics/get-started-with-library.md).
+For more information on the areas in [!DNL Workfront] Library, see [Get started with Workfront Library](../../../workfront-library/content-management/basics/get-started-with-library.md).
 
-1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 
    ![](assets/library-left-panel---new-350x217.png)
 
@@ -46,5 +46,5 @@ Each Workfront Library area displays only the content that you have access to. Y
 
 You can sort and filter the items that display in the area, and you can search for specific content within the active area. For more information, see the following:
 
-* [Search for items in Workfront Library](../../../workfront-library/content-management/basics/search-for-items-in-workfront-library.md) 
-* [Sort content in Workfront Library](../../../workfront-library/content-management/basics/sort-content-in-library.md)
+* [Search for items in [!DNL Workfront] Library](../../../workfront-library/content-management/basics/search-for-items-in-workfront-library.md)
+* [Sort content in [!DNL Workfront] Library](../../../workfront-library/content-management/basics/sort-content-in-library.md)
