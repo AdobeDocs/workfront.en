@@ -99,7 +99,7 @@ Before using the Admin Console for Workfront, you should receive a receive an em
     >
     > Do not make any changes to the Product Profile itself.
     
-1.  Go to the user and admin area in the Admin Console, as described in [Add users to Adobe Workfront Fusion through the Adobe Admin Console](#Access) in this article.
+1.  Go to the user and admin area in the Admin Console, as described in [Add users to Adobe Workfront Fusion through the Adobe Admin Console](#add-users-to-adobe-workfront-fusion-through-the-adobe-admin-console) in this article.
 1.  With the Users tab selected above the list, select **Add User**.
     
 1.  In the **Add users to this product profile** box, enter the email address or name of a user you want to add, then select **Save**.
