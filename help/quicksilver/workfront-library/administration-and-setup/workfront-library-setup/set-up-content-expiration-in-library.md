@@ -2,26 +2,26 @@
 product-previous: workfront-library
 product-area: documents;system-administration;setup
 navigation-topic: workfront-library-setup
-title: Set up content expiration in [!DNL Workfront] Library
-description: As a [!DNL Workfront] Library administrator, you can set up content expiration to either restrict or eliminate users' access to expired content.
+title: Set up content expiration in [!DNL Workfront Library]
+description: As a [!DNL Workfront Library] administrator, you can set up content expiration to either restrict or eliminate users' access to expired content.
 feature: Workfront Library, Digital Content and Documents
 exl-id: a311252b-e79e-4f31-961f-cc64bedac3ad
 ---
-# Set up content expiration in [!DNL Workfront] Library
+# Set up content expiration in [!DNL Workfront Library]
 
-As a [!DNL Workfront] Library administrator, you can set up content expiration to either restrict or eliminate users' access to expired content.
+As a [!DNL Workfront Library] administrator, you can set up content expiration to either restrict or eliminate users' access to expired content.
 
 Content expiration can be useful when you want to prevent users from accessing out-of-date content or when you have content that should be used only for a specific period of time, such as time-sensitive advertising or licensing materials.
 
 ## Content expiration overview
 
-Once you set up content expiration, users can specify an expiration date in the metadata of content when they upload files. In addition, users with Manage permissions to content shared with them can add or edit expiration metadata.
+Once you set up content expiration, users can specify an expiration date in the metadata of content when they upload files. In addition, users with [!UICONTROL Manage] permissions to content shared with them can add or edit expiration metadata.
 
-When you set up content expiration, you specify who can access expired content based on users' permission levels. You can also determine whether users can search for and download expired content. Users with Manage permission to content that has expired can activate the Show Expired filter, which allows them to view expired items. For information on using the Show Expired filter, see [Filter for expired content in Workfront Library](../../../workfront-library/content-management/filters/filter-for-expired-content.md).
+When you set up content expiration, you specify who can access expired content based on users' permission levels. You can also determine whether users can search for and download expired content. Users with [!UICONTROL Manage] permission to content that has expired can activate the [!UICONTROL Show Expired] filter, which allows them to view expired items. For information on using the [!UICONTROL Show Expired] filter, see [Filter for expired content in [!DNL Workfront Library]](../../../workfront-library/content-management/filters/filter-for-expired-content.md).
 
-An expiration date applies only to content in [!DNL Workfront] Library. Content that is also in [!DNL Workfront] is not affected by expiration. Folders, collections, and portals cannot expire.
+An expiration date applies only to content in [!DNL Workfront Library]. Content that is also in [!DNL Workfront] is not affected by expiration. Folders, collections, and portals cannot expire.
 
-Expired content remains in [!DNL Workfront Library] and displays an Expired banner.
+Expired content remains in [!DNL Workfront Library] and displays an [!UICONTROL Expired] banner.
 
 ![](assets/expired-asset.png)
 
@@ -34,20 +34,20 @@ Expired items migrated from [!UICONTROL Workfront DAM] to [!DNL Workfront Librar
 ## Setup content expiration
 
 1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
-1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon ![](assets/library-menu-icon.png).
-1. In the left panel, click **Setup**> **Content expiration**.
+1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
+1. In the left panel, click **[!UICONTROL Setup]**> **[!UICONTROL Content expiration]**.
 
    ![](assets/contexpire-350x184.png)
 
-1. In the **Asset Expiration** section, select **[!UICONTROL Allow assets to expire in the] system**.
+1. In the **[!UICONTROL Asset Expiration]** section, select **[!UICONTROL Allow assets to expire in the system]**.
 
    This option adds the [!UICONTROL Expiration Date] field to the taxonomy and allows users to enter an expiration date when uploading new content.
 
    ![](assets/config-expire-meta-350x177.png)
 
-   For more information about taxonomy, see [Overview of taxonomy metadata in [!DNL Workfront] Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
+   For more information about taxonomy, see [Overview of taxonomy metadata in [!DNL Workfront Library]](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
 
-1. (Optional) To require users to specify whether content has an expiration date, select **Require an expiration date on asset upload**.
+1. (Optional) To require users to specify whether content has an expiration date, select **[!DNL Require an expiration date on asset upload]**.
 
    This option requires users to either enter an expiration date or select [!UICONTROL No Date] before content is uploaded.
 
@@ -55,30 +55,30 @@ Expired items migrated from [!UICONTROL Workfront DAM] to [!DNL Workfront Librar
 
    >[!NOTE]
    >
-   >If a user opens an asset that was uploaded prior to your system requiring content expiration metadata, the [!UICONTROL expiration taxonomy] field is added to the asset's metadata. [!DNL Workfront] Library will require the user to either enter an expiration date or select No Date.
+   >If a user opens an asset that was uploaded prior to your system requiring content expiration metadata, the [!UICONTROL expiration taxonomy] field is added to the asset's metadata. [!DNL Workfront Library] will require the user to either enter an expiration date or select [!UICONTROL No Date].
 
 1. In the **[!UICONTROL Visibility]** section, specify who can view expired content by choosing one of the following options:
 
-   * **Everyone:** All users with permissions to the expired content can view the content and can also see it in search results.
+   * **[!UICONTROL Everyone]:** All users with permissions to the expired content can view the content and can also see it in search results.
 
       * Users with [!DNL View] permission to the expired content can see it in their personal collections.
       * Users with [!UICONTROL Manage] permission to the expired content can see it in their [!UICONTROL Shared With Me] or [!UICONTROL My Library] areas and in any collections to which they have access.
-   * **Admins and Managers only:** Only users with Admin access to [!DNL Workfront] Library or Manage permission to the expired content can view the content and see it in search results.
+   * **[!UICONTROL Admins and Managers only]:** Only users with Admin access to [!DNL Workfront Library] or [!UICONTROL Manage] permission to the expired content can view the content and see it in search results.
 
-      * Users with View permission to the expired content cannot view it in [!DNL Workfront] Library once it expires.
+      * Users with [!UICONTROL View] permission to the expired content cannot view it in [!DNL Workfront Library] once it expires.
       * Users with [!UICONTROL Manage] permission to the expired content can view it in their [!UICONTROL Shared With Me] or [!UICONTROL My Library] areas and in any collections to which they have access.
 
-      For more information on content permissions, see [Permissions in [!DNL Workfront] Library](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md).
+      For more information on content permissions, see [Permissions in [!DNL Workfront Library]](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md).
 
 
 
-1. (Conditional) If you selected **Everyone** in Step 6 and you want to prevent users from downloading or sharing expired content to which they have View permission, select **Prevent Viewer download**.\
+1. (Conditional) If you selected **[!UICONTROL Everyone]** in Step 6 and you want to prevent users from downloading or sharing expired content to which they have View permission, select **[!UICONTROL Prevent Viewer downloa]d**.\
    When this option is enabled, all&nbsp;public links to expired content become disabled.
 
 1. (Optional) To notify content owners of the impending expiration of their content, in the **[!UICONTROL Notify Users]** section select the days you want email notifications sent.
 
    You can select multiple options.
 
-   Workfront sends an email notification only when the active (most current) version of content is expiring. No notification is sent when older versions of content expire. For more information about how content versions are managed in Workfront Library, see [Overview of content versioning in Workfront Library](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md).
+   [!DNL Workfront] sends an email notification only when the active (most current) version of content is expiring. No notification is sent when older versions of content expire. For more information about how content versions are managed in [!DNL Workfront Library], see [Overview of content versioning in [!DNL Workfront Library]](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md).
 
-1. Click **Save.**&nbsp;
+1. Click **[!UICONTROL Save].**&nbsp;

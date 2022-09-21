@@ -9,11 +9,11 @@ exl-id: 7954e6f9-7e6b-4307-a8e0-10082adf0399
 ---
 # Create and manage views in [!DNL Workfront Library]
 
-## Views in [!DNL Workfront] Library
+## Views in [!DNL Workfront Library]
 
 Workfront Library allows you to select the view you want to use, so that the information you need is readily available. There are two types of views:
 
-* **Grid view**&#x200B;**:** The default view, which shows thumbnails of your [!DNL Workfront] Library assets. To switch to grid view, click the **[!UICONTROL Show grid view]** icon ![](assets/grid-view-icon.png).
+* **Grid view**&#x200B;**:** The default view, which shows thumbnails of your [!DNL Workfront Library] assets. To switch to grid view, click the **[!UICONTROL Show grid view]** icon ![](assets/grid-view-icon.png).
 
 * **List view**&#x200B;**:** Allows you to see more details about your library assets at a glance. You can save customized list views, as well as export asset metadata from the list view. To switch to the list view, click the **[!UICONTROL Show list view]** icon ![](assets/list-view-icon.png).
 
@@ -23,7 +23,7 @@ You can customize a list view to show the metadata you choose and save it for la
 
 To create a custom list view:
 
-1. In the upper-left corner of [!DNL Workfront] Library, click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
+1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. Select the area where the assets you want to view are located.
 
    ![](assets/grid-view-match-list-view-350x220.png)

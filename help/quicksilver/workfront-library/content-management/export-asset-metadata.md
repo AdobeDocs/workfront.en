@@ -2,20 +2,20 @@
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
-title: Export asset metadata from [!DNL Workfront] Library
-description: You can export [!DNL Workfront] Library asset metadata from the list view. Consider the following when exporting metadata - EDIT ME.
+title: Export asset metadata from [!DNL Workfront Library]
+description: You can export [!DNL Workfront Library] asset metadata from the list view. Consider the following when exporting metadata - EDIT ME.
 feature: Workfront Library, Digital Content and Documents
 exl-id: 35f89ebe-166a-4117-b7c5-63bf1de8565a
 ---
-# Export asset metadata from [!DNL Workfront] Library
+# Export asset metadata from [!DNL Workfront Library]
 
-You can export [!DNL Workfront] Library asset metadata from the list view. Consider the following when exporting metadata:
+You can export [!DNL Workfront Library] asset metadata from the list view. Consider the following when exporting metadata:
 
-* Exporting metadata from the [!DNL Workfront] Library list view creates a CSV showing all metadata fields for the assets listed in the list view. You can select which assets are included by using filters. You cannot select which metadata fields are included.
-* You can only export metadata for assets in [!DNL Workfront] Library. Folders can't be exported.
+* Exporting metadata from the [!DNL Workfront Library] list view creates a CSV showing all metadata fields for the assets listed in the list view. You can select which assets are included by using filters. You cannot select which metadata fields are included.
+* You can only export metadata for assets in [!DNL Workfront Library]. Folders can't be exported.
 * Exported Library metadata files are available for download for 72 hours after they are created.
 
-## Export metadata from the [!DNL Workfront] Library list view
+## Export metadata from the [!DNL Workfront Library] list view
 
 1. (Conditional) If you are in the grid view, click the **[!UICONTROL Show list view]** icon ![](assets/list-view-icon.png)to switch to the list view.
 

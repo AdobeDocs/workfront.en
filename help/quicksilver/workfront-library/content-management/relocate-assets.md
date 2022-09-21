@@ -2,17 +2,17 @@
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
-title: Relocate assets in [!DNL Workfront] Library
+title: Relocate assets in [!DNL Workfront Library]
 description: When you no longer want an item in a folder or in your [!UICONTROL My Content] area, you can relocate it by first adding it to a new location and then removing it from its original location. You can relocate only items to which you have Manage access.
 feature: Workfront Library, Digital Content and Documents
 exl-id: d80a5d46-a106-4fbf-9891-804a78f4fe32
 ---
-# Relocate assets in [!DNL Workfront] Library
+# Relocate assets in [!DNL Workfront Library]
 
 When you no longer want an item in a folder or in your [!UICONTROL My Content] area, you can relocate it by first adding it to a new location and then removing it from its original location. You can relocate only items to which you have Manage access.
 
 1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
-1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In the upper-left corner of [!DNL Workfront Library], click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where the item you want to remove is located.
 
    You can choose My Content or Collections.

@@ -2,12 +2,12 @@
 product-previous: workfront-library
 product-area: documents
 navigation-topic: filters
-title: Filter for expired content in [!DNL Workfront] Library
+title: Filter for expired content in [!DNL Workfront Library]
 description: Depending on how your Workfront Library administrator setup the Expiration feature, you might be able to view expired content by enabling the [!UICONTROL Show Expired] filter. For more information on expired content, see Set up content expiration in Workfront Library.
 feature: Workfront Library, Digital Content and Documents
 exl-id: 613cf80a-ddb6-4650-b516-3dfe39396061
 ---
-# Filter for expired content in [!DNL Workfront] Library
+# Filter for expired content in [!DNL Workfront Library]
 
 Depending on how your Workfront Library administrator setup the Expiration feature, you might be able to view expired content by enabling the [!UICONTROL Show Expired] filter. For more information on expired content, see [Set up content expiration in Workfront Library](../../../workfront-library/administration-and-setup/workfront-library-setup/set-up-content-expiration-in-library.md).
 
@@ -23,4 +23,4 @@ Depending on how your Workfront Library administrator setup the Expiration featu
 
    ![](assets/show-expired-filter-350x237.png)
 
-   You can now view expired content. The [!UICONTROL Show Expired] filter affects only your instance of [!DNL Workfront] Library and does not make expired items visible for other users.
+   You can now view expired content. The [!UICONTROL Show Expired] filter affects only your instance of [!DNL Workfront Library] and does not make expired items visible for other users.

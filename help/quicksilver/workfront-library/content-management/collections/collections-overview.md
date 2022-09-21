@@ -3,12 +3,12 @@ content-type: overview
 product-previous: workfront-library
 product-area: documents
 navigation-topic: collections
-title: Overview of collections in [!DNL Workfront] Library
+title: Overview of collections in [!DNL Workfront Library]
 description: Depending on the amount of content your organization stores in [!DNL Workfront Library], you might have to search through hundreds of folders containing thousands of assets in order to find the items you need for your work.
 feature: Workfront Library, Digital Content and Documents
 exl-id: 47d3b758-ca3a-4168-826d-adfba6d1b189
 ---
-# Overview of collections in [!DNL Workfront] Library
+# Overview of collections in [!DNL Workfront Library]
 
 Depending on the amount of content your organization stores in [!DNL Workfront Library], you might have to search through hundreds of folders containing thousands of assets in order to find the items you need for your work.
 
@@ -20,11 +20,11 @@ The [!UICONTROL Collections] area displays all the collections that you have cre
 
 ![](assets/collections-2-350x120.png)
 
-Your [!DNL Workfront] Library access level and the permissions you have to a collection determine the activities you can do with the collection. If you have [!DNL Manager] access or higher to [!DNL Workfront Library], you can create, manage, and share collections that you create. Users with Viewer access can create collections for their personal use, but cannot share their collections with other users. For more information on access levels and permissions, see [Overview of user access to [!DNL Workfront Library]](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
+Your [!DNL Workfront Library] access level and the permissions you have to a collection determine the activities you can do with the collection. If you have [!DNL Manager] access or higher to [!DNL Workfront Library], you can create, manage, and share collections that you create. Users with Viewer access can create collections for their personal use, but cannot share their collections with other users. For more information on access levels and permissions, see [Overview of user access to [!DNL Workfront Library]](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
 
 When you share a collection with another user, you give that user access to all the items in the collection and you assign them a permission level to the collection. Their permissions determine the activities they can do with the collection and its contents.
 
-You search for a collection by its name. For information on using the Search feature, see [Search for items in [!DNL Workfront] Library](../../../workfront-library/content-management/basics/search-for-items-in-workfront-library.md)
+You search for a collection by its name. For information on using the Search feature, see [Search for items in [!DNL Workfront Library]](../../../workfront-library/content-management/basics/search-for-items-in-workfront-library.md)
 
 Depending on your access level to [!DNL Workfront Library], you can manage a collection in the following ways:
 
@@ -39,11 +39,11 @@ Depending on your access level to [!DNL Workfront Library], you can manage a col
 
 ## Add items to a collection {#add-items-to-a-collection}
 
-If you have Manager or higher access to [!DNL Workfront] Library, you can add content and folders to any collection to which you have access. Users with Viewer access can add items only to collections they create. Viewers cannot add items to a collection shared with them. For more information, see [Add items to a folder in Workfront Library](../../../workfront-library/content-management/folders/add-items-to-a-folder-library.md).
+If you have Manager or higher access to [!DNL Workfront Library], you can add content and folders to any collection to which you have access. Users with Viewer access can add items only to collections they create. Viewers cannot add items to a collection shared with them. For more information, see [Add items to a folder in Workfront Library](../../../workfront-library/content-management/folders/add-items-to-a-folder-library.md).
 
 ## Remove items from a collection {#remove-items-from-a-collection}
 
-If you have Manager access or higher to [!DNL Workfront Library], you can remove content and folders from all instances of a collection. Users with Viewer access cannot remove items from a collection. For more information, see [Remove items from a collection in [!DNL Workfront] Library](../../../workfront-library/content-management/collections/remove-items-from-a-collection.md)
+If you have Manager access or higher to [!DNL Workfront Library], you can remove content and folders from all instances of a collection. Users with Viewer access cannot remove items from a collection. For more information, see [Remove items from a collection in [!DNL Workfront Library]](../../../workfront-library/content-management/collections/remove-items-from-a-collection.md)
 
 ## Share a collection {#share-a-collection}
 

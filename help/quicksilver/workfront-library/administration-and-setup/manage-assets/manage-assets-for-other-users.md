@@ -3,13 +3,13 @@ product-previous: workfront-library
 product-area: documents;user-management
 navigation-topic: manage-assets
 title: Manage assets for other users
-description: As a [!DNL Workfront] administrator, you can access and manage all of the assets in [!DNL Workfront] Library. You can perform basic actions, such as sharing, renaming, or deleting, for all user content. You can also transfer ownership of individual assets. For information on how to transfer individual assets, see the sectionTransfer individual assets in Transfer ownership assets to another user.
+description: As a [!DNL Workfront] administrator, you can access and manage all of the assets in [!DNL Workfront Library]. You can perform basic actions, such as sharing, renaming, or deleting, for all user content. You can also transfer ownership of individual assets. For information on how to transfer individual assets, see the sectionTransfer individual assets in Transfer ownership assets to another user.
 feature: Workfront Library, Digital Content and Documents
 exl-id: cc0558b9-752a-4b4f-8202-a7922283acfd
 ---
 # Manage assets for other users
 
-As a [!DNL Workfront] administrator, you can access and manage all of the assets in [!DNL Workfront] Library. You can perform basic actions, such as sharing, renaming, or deleting, for all user content. You can also transfer ownership of individual assets. For information on how to transfer individual assets, see the section [Transfer individual assets](../../../workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md#transfer) in [Transfer ownership assets to another user](../../../workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md).
+As a [!DNL Workfront] administrator, you can access and manage all of the assets in [!DNL Workfront Library]. You can perform basic actions, such as sharing, renaming, or deleting, for all user content. You can also transfer ownership of individual assets. For information on how to transfer individual assets, see the section [Transfer individual assets](../../../workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md#transfer) in [Transfer ownership assets to another user](../../../workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md).
 
 ## View All Content by Owner
 
@@ -43,20 +43,20 @@ The [!UICONTROL All Content] area contains content belonging to all users. You c
 
 You can perform the following actions in the [!UICONTROL All Content] section:
 
-* **Open assets and folders.** For information, see [Open items in [!DNL Workfront] Library](../../../workfront-library/content-management/basics/open-items-in-library.md).
+* **Open assets and folders.** For information, see [Open items in [!DNL Workfront Library]](../../../workfront-library/content-management/basics/open-items-in-library.md).
 
-* **Download assets and folders.** For information, see [Download items from Workfront Library](../../../workfront-library/content-management/basics/download-content-from-library.md).
+* **Download assets and folders.** For information, see [Download items from [!DNL Workfront Library]](../../../workfront-library/content-management/basics/download-content-from-library.md).
 
-* **Share assets and folders.** For information, see [Share a Workfront Library item with other users](../../../workfront-library/content-management/share-an-asset-with-users.md).
+* **Share assets and folders.** For information, see [Share a [!DNL Workfront Library] item with other users](../../../workfront-library/content-management/share-an-asset-with-users.md).
 
-* **Relocate assets and folders.** For information, see [Relocate assets in Workfront Library](../../../workfront-library/content-management/relocate-assets.md)
+* **Relocate assets and folders.** For information, see [Relocate assets in [!DNL Workfront Library]](../../../workfront-library/content-management/relocate-assets.md)
 
-* **Rename assets and folders.** For information, see [Rename items in Workfront Library](../../../workfront-library/content-management/rename-items.md).
+* **Rename assets and folders.** For information, see [Rename items in [!DNL Workfront Library]](../../../workfront-library/content-management/rename-items.md).
 
-* **Create a new version of an asset.** For information, see [Upload a new version of content in Workfront Library](../../../workfront-library/content-management/content-versioning/upload-new-version-of-content.md).
+* **Create a new version of an asset.** For information, see [Upload a new version of content in [!DNL Workfront Library]](../../../workfront-library/content-management/content-versioning/upload-new-version-of-content.md).
 
-* **Hide and unhide assets.** For information, see [Hide and unhide content in [!DNL Workfront] Library](../../../workfront-library/content-management/hide-and-unhide-content.md).
+* **Hide and unhide assets.** For information, see [Hide and unhide content in [!DNL Workfront Library]](../../../workfront-library/content-management/hide-and-unhide-content.md).
 
-* **Select a new cover image for a folder or collection.** For information, see [Change the cover image on an item in Workfront Library](../../../workfront-library/content-management/change-cover-image-of-folder.md).
+* **Select a new cover image for a folder or collection.** For information, see [Change the cover image on an item in [!DNL Workfront Library]](../../../workfront-library/content-management/change-cover-image-of-folder.md).
 
-* Delete assets and folders. For more information, see [Delete items from Workfront Library](../../../workfront-library/content-management/delete-items.md).
+* Delete assets and folders. For more information, see [Delete items from [!DNL Workfront Library]](../../../workfront-library/content-management/delete-items.md).

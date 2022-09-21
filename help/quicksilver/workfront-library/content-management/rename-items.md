@@ -2,18 +2,18 @@
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
-title: Rename items in [!DNL Workfront] Library
+title: Rename items in [!DNL Workfront Library]
 description: You can change the name of content, folders, and collections that you have access to.
 feature: Workfront Library, Digital Content and Documents
 exl-id: 95217d3b-1c58-435a-aba1-44b800a176d2
 ---
-# Rename items in [!DNL Workfront] Library
+# Rename items in [!DNL Workfront Library]
 
 You can change the name of content, folders, and collections that you have access to.
 
 ## Understand renaming items
 
-When you change the name of an item that you've shared with other users in [!DNL Workfront] Library, the item's name is automatically updated in all the shared instances. Users are not notified when you change the name of an item.
+When you change the name of an item that you've shared with other users in [!DNL Workfront Library], the item's name is automatically updated in all the shared instances. Users are not notified when you change the name of an item.
 
 For information on changing the name of a collection, see [Edit a Workfront Library collection](../../workfront-library/content-management/collections/edit-a-collection.md).
 
@@ -21,12 +21,12 @@ If you want to rename a portal, contact your Customer Success Manager for more i
 
 ## Rename an asset
 
-When you rename an asset, [!DNL Workfront] Library changes the file name of the asset and updates the metadata to reflect the new name. If the asset is also uploaded to an object in [!DNL Workfront], such as a project or task, the asset in [!DNL Workfront] is not renamed.
+When you rename an asset, [!DNL Workfront Library] changes the file name of the asset and updates the metadata to reflect the new name. If the asset is also uploaded to an object in [!DNL Workfront], such as a project or task, the asset in [!DNL Workfront] is not renamed.
 
-You can rename only the active (or current) version of an asset in [!DNL Workfront] Library. Older versions of the asset cannot be edited.
+You can rename only the active (or current) version of an asset in [!DNL Workfront Library]. Older versions of the asset cannot be edited.
 
 1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
-1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In the upper-left corner of [!DNL Workfront Library], click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where the content you want to rename is located.
 
    You can choose [!UICONTROL Library] or My Content.
@@ -41,7 +41,7 @@ You can rename only the active (or current) version of an asset in [!DNL Workfro
 ## Rename a folder
 
 1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
-1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In the upper-left corner of [!DNL Workfront Library], click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where the folder you want to rename is located.
 
    You can choose [!UICONTROL Library] or My Content.

@@ -9,20 +9,20 @@ exl-id: 4f12ea2d-feb4-4bf8-8c84-6ae11d2a5db9
 ---
 # Give users access to a [!DNL Workfront Library] portal
 
-Before users can open a [!DNL Workfront Library] portal, they must be given access to the portal. As a user with Manage access or higher to a portal, you can grant users the following types of access to the portal.
+Before users can open a [!DNL Workfront Library] portal, they must be given access to the portal. As a user with [!UICONTROL Manage] access or higher to a portal, you can grant users the following types of access to the portal.
 
 * **Individual**: Access that you grant to individual users
 * **User grouping**: Access that users receive through their membership in a user grouping that you've added to the portal
 
-When you add individual users and user groupings to a portal, you assign them an access level, which defines the activities that users can perform on content in the portal. For information on the permissions allowed for each access level, see [Permissions in [!DNL Workfront] Library](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md).
+When you add individual users and user groupings to a portal, you assign them an access level, which defines the activities that users can perform on content in the portal. For information on the permissions allowed for each access level, see [Permissions in [!DNL Workfront Library]](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md).
 
 For information on setting up a portal, see [Set up a portal in Workfront Library](../../../workfront-library/administration-and-setup/workfront-library-setup/set-up-a-portal-in-library.md).
 
 ## Add users to a portal
 
 1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
-1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon.
-1. In the left panel, click **Portals**.
+1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon.
+1. In the left panel, click **[!UICONTROL Portals]**.
 
    ![](assets/portals-red-square-350x224.png)
 
@@ -30,8 +30,8 @@ For information on setting up a portal, see [Set up a portal in Workfront Librar
 
    The portal opens.
 
-1. Click the **Menu** icon in the upper-left corner of the portal, then click **Setup** > **Users**.
-1. Click **Add**.
+1. Click the **[!UICONTROL Menu]** icon in the upper-left corner of the portal, then click **[!UICONTROL Setup]** > **[!UICONTROL Users]**.
+1. Click **[!UICONTROL Add]**.
 1. In the **[!UICONTROL Search]** box, begin typing the name of the user to whom you want to give access, then select the user's name when it displays in the dropdown menu.
 1. Repeat step 7 until you have selected all the users you want to add.
 
@@ -47,11 +47,11 @@ For information on setting up a portal, see [Set up a portal in Workfront Librar
 
    1. In the **[!UICONTROL Access Level]** drop-down menu, select the desired access level.
 
-1. Click **Save.**
+1. Click **[!UICONTROL Save].**
 
    The users are added to the portal.
 
-   Workfront Library sends the users an email with a link to the portal.
+   [!DNL Workfront Library] sends the users an email with a link to the portal.
 
 ## Add user groupings to a portal
 
@@ -59,18 +59,18 @@ Users can inherit access to a portal through a [!DNL Workfront] user grouping th
 
 You can add the following [!DNL Workfront] user groupings to a portal:
 
-* Job roles
-* Teams
-* Groups
-* Companies
+* [!UICONTROL Job roles]
+* [!UICONTROL Teams]
+* [!UICONTROL Groups]
+* [!UICONTROL Companies]
 
 When you add a user grouping, all members of that grouping are given access to the portal.
 
 Any user grouping that you add to the portal must first exist and be populated with users in Workfront.
 
 1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
-1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon.
-1. In the left panel, click **Portals**.
+1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon.
+1. In the left panel, click **[!UICONTROL Portals]**.
 
    ![](assets/portals-red-square-350x224.png)
 
@@ -78,16 +78,16 @@ Any user grouping that you add to the portal must first exist and be populated w
 
    The portal opens.
 
-1. Click the **Menu** icon in the upper-left corner of the portal, then click **Setup**.
-1. Click the type of user grouping you want to give access to, then click **Add**.
+1. Click the **[!UICONTROL Menu]** icon in the upper-left corner of the portal, then click **[!UICONTROL Setup]**.
+1. Click the type of user grouping you want to give access to, then click **[!UICONTROL Add]**.
 1. In the **[!UICONTROL Search]** box, begin typing the name of the user grouping you want to add and select the grouping name when it displays in the drop-down menu.
 
    The user grouping now has access to the portal and is automatically assigned Viewer access. All members of the grouping receive an email inviting them to see the content shared with them through the portal.
 
 1. (Optional) Assign a different access level to the user grouping.
 
-   1. Select the user grouping that you want to change access to, then click **Edit**.
+   1. Select the user grouping that you want to change access to, then click **[!UICONTROL Edit]**.
    1. In the **[!UICONTROL Access Level]** dropdown menu, select the desired access level.
-   1. Click **Save**.
+   1. Click **[!UICONTROL Save]**.
 
 1. (Optional) To view who is in a user grouping, select the desired grouping, then click the arrow next to the grouping's name.

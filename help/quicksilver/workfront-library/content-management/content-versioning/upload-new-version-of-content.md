@@ -2,19 +2,19 @@
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-versioning
-title: Upload a new version of content in [!DNL Workfront] Library
-description: If you have Manage permissions to content, you can upload new versions. For information on managing multiple versions of content, see Overview of content versioning in [!DNL Workfront] Library .
+title: Upload a new version of content in [!DNL Workfront Library]
+description: If you have Manage permissions to content, you can upload new versions. For information on managing multiple versions of content, see Overview of content versioning in [!DNL Workfront Library] .
 feature: Workfront Library, Digital Content and Documents
 exl-id: 27ee4bf2-7245-42f2-a324-7752e48de4cb
 ---
-# Upload a new version of content in [!DNL Workfront] Library
+# Upload a new version of content in [!DNL Workfront Library]
 
-If you have Manage permissions to content, you can upload new versions. For information on managing multiple versions of content, see [Overview of content versioning in [!DNL Workfront] Library](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md) .
+If you have Manage permissions to content, you can upload new versions. For information on managing multiple versions of content, see [Overview of content versioning in [!DNL Workfront Library]](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md) .
 
 You cannot upload new versions of content in bulk. Each version must be uploaded individually.
 
 1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
-1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In the upper-left corner of [!DNL Workfront Library], click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where the active (or current) version is located.
 
    You can choose Library, My Content , or Collections.

@@ -12,6 +12,6 @@ exl-id: 3d788221-b43e-4a40-aa3d-f427206ba4f7
 
 This section contains the following subsections:
 
-* [Administration and setup of [!DNL Workfront] Library](../workfront-library/administration-and-setup/administration-and-setup-library.md)
-* [Content management in [!DNL Workfront] Library](../workfront-library/content-management/content-management.md)
-* [[!DNL Workfront] Library Basics](../workfront-library/content-management/basics/basics.md)
+* [Administration and setup of [!DNL Workfront Library]](../workfront-library/administration-and-setup/administration-and-setup-library.md)
+* [Content management in [!DNL Workfront Library]](../workfront-library/content-management/content-management.md)
+* [[!DNL Workfront Library] Basics](../workfront-library/content-management/basics/basics.md)

@@ -2,14 +2,14 @@
 product-previous: workfront-library
 product-area: documents
 navigation-topic: library-basics
-title: Download items from [!DNL Workfront] Library
-description: You can download any item to which you have permissions. For information on access and permissions, see Overview of user access to [!DNL Workfront] Library
+title: Download items from [!DNL Workfront Library]
+description: You can download any item to which you have permissions. For information on access and permissions, see Overview of user access to [!DNL Workfront Library]
 feature: Workfront Library, Digital Content and Documents
 exl-id: 24e9aa6b-bcb8-4c7c-b699-1bf0cef26f2c
 ---
-# Download items from [!DNL Workfront] Library
+# Download items from [!DNL Workfront Library]
 
-You can download any item to which you have permissions. For information on access and permissions, see [Overview of user access to [!DNL Workfront] Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
+You can download any item to which you have permissions. For information on access and permissions, see [Overview of user access to [!DNL Workfront Library]](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
 
 ## Understand downloading items
 
@@ -19,22 +19,22 @@ You can download the following items from [!DNL Workfront] or from a portal:
 * Folders
 * Collections
 
-Depending on how your Workfront Library administrator set up Workfront Library, users with Viewer access to Workfront Library might not be able to download expired content. For more information on the expiration feature, see [Set up content expiration in Workfront Library](../../../workfront-library/administration-and-setup/workfront-library-setup/set-up-content-expiration-in-library.md).
+Depending on how your [!DNL Workfront Library] administrator set up [!DNL Workfront Library], users with [!UICONTROL Viewer] access to [!UICONTROL Workfront Library] might not be able to download expired content. For more information on the expiration feature, see [Set up content expiration in [!UICONTROL Workfront Library]](../../../workfront-library/administration-and-setup/workfront-library-setup/set-up-content-expiration-in-library.md).
 
-Content that you download is saved to the area you designate in your browser. For downloading large files and groups of items, such as folders and collections, [!DNL Workfront] Library places the items in a .zip file and emails the file to you.
+Content that you download is saved to the area you designate in your browser. For downloading large files and groups of items, such as folders and collections, [!DNL Workfront Library] places the items in a .zip file and emails the file to you.
 
-Only the XMP and EXIF metadata downloads with content files.
+Only the [!UICONTROL XMP] and [!UICONTROL EXIF] metadata downloads with content files.
 
-You can change the file format of an item you download. Only the format of the downloaded file is changed. The format of the file in [!DNL Workfront] Library remains unchanged.
+You can change the file format of an item you download. Only the format of the downloaded file is changed. The format of the file in [!DNL Workfront Library] remains unchanged.
 
-If you change the file format of the item and then upload it back to Workfront Library, the item is treated as a new version. If the item is an image file, XMP and EXIF metadata of the orginal file is not applied to the new version. For more information see, [Upload a new version of content in Workfront Library](../../../workfront-library/content-management/content-versioning/upload-new-version-of-content.md).
+If you change the file format of the item and then upload it back to [!DNL Workfront Library], the item is treated as a new version. If the item is an image file, [!UICONTROL XMP] and [!UICONTROL EXIF] metadata of the orginal file is not applied to the new version. For more information see, [Upload a new version of content in [!DNL Workfront Library]](../../../workfront-library/content-management/content-versioning/upload-new-version-of-content.md).
 
 ## Download content
 
-1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. Select the area where the item you want to download is located.
 
-   Depending on your access level to [!DNL Workfront] Library, you might be able to choose Library, My Content , or Collections.
+   Depending on your access level to [!DNL Workfront Library], you might be able to choose [!UICONTROL Library], [!UICONTROL My Content], or [!UICONTROL Collections].
 
    ![](assets/library-left-panel---new-350x217.png)
 
@@ -71,7 +71,7 @@ If you change the file format of the item and then upload it back to Workfront L
           <li>PNG</li>
           <li>TIFF</li>
          </ul></li> 
-       </ul> <p>Only the format of the downloaded file is changed. The format of the file in [!DNL Workfront] Library remains unchanged. </p> </td> 
+       </ul> <p>Only the format of the downloaded file is changed. The format of the file in [!DNL Workfront Library] remains unchanged. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Height and width</strong> </td> 
@@ -105,7 +105,7 @@ If you change the file format of the item and then upload it back to Workfront L
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>You can change the format of the downloaded file to PDF.</p> <p>Only the format of the downloaded file is changed. The format of the file in [!DNL Workfront] Library remains unchanged. </p> </td> 
+      <td> <p>You can change the format of the downloaded file to PDF.</p> <p>Only the format of the downloaded file is changed. The format of the file in [!DNL Workfront Library] remains unchanged. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -114,10 +114,10 @@ If you change the file format of the item and then upload it back to Workfront L
 
 Depending on the size of the folder or collection you want to download, its might be placed in a .zip file that is emailed to you. Only the content to which you have permissions is included in the .zip file.
 
-1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon ![](assets/library-menu-icon.png).
-1. (Conditional) If you are in [!DNL Workfront] Library and you want to download a folder, select the area where the folder you want to download is located.
+1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
+1. (Conditional) If you are in [!DNL Workfront Library] and you want to download a folder, select the area where the folder you want to download is located.
 
-   Depending on your access level, you might be able to choose Library, My Content , or Collections.
+   Depending on your access level, you might be able to choose [!UICONTROL Library], [!UICONTROL My Content], or [!UICONTROL Collections].
 
 1. (Conditional) If you want to download a collection, select **[!UICONTROL Collections]**.
 
@@ -134,10 +134,10 @@ Depending on the size of the folder or collection you want to download, its migh
 
 You can download multiple types of files in the same batch. For example, you can down folders, collections, and content files at the same time. Depending on the size of the download, the items might be placed in a .zip file and emailed to you.
 
-1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. Select the area where the items you want to download are located.
 
-   Depending on your access level to [!DNL Workfront] Library, you might be able to choose Library, My Content , or Collections.
+   Depending on your access level to [!DNL Workfront Library], you might be able to choose [!UICONTROL Library], [!UICONTROL My Content], or [!UICONTROL Collections].
 
    If the items you want to download are spread out on different areas, you will need to do a download batch for each area separately.
 
@@ -147,6 +147,6 @@ You can download multiple types of files in the same batch. For example, you can
 
    ![](assets/downloadbtn-350x73.png)
 
-   Click the **Document** icon ![](assets/library-document-icon.png)in the upper-right corner of the window, then select **[!UICONTROL Download]**.
+   Click the **[!UICONTROL Document]** icon ![](assets/library-document-icon.png)in the upper-right corner of the window, then select **[!UICONTROL Download]**.
 
    The items are either downloaded or placed in a .zip file and emailed to you.

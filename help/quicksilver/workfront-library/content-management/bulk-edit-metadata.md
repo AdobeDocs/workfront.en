@@ -2,14 +2,14 @@
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
-title: Bulk edit metadata in [!DNL Workfront] Library
-description: Metadata consists of information that describes the attributes and content of an asset. Users can edit the metadata of multiple assets at once. For more information about metadata, see Overview of Metadata in [!DNL Workfront] Library.
+title: Bulk edit metadata in [!DNL Workfront Library]
+description: Metadata consists of information that describes the attributes and content of an asset. Users can edit the metadata of multiple assets at once. For more information about metadata, see Overview of Metadata in [!DNL Workfront Library].
 feature: Workfront Library, Digital Content and Documents
 exl-id: 1c42afcd-55b8-4a2f-841a-f9cb446ce177
 ---
-# Bulk edit metadata in [!DNL Workfront] Library
+# Bulk edit metadata in [!DNL Workfront Library]
 
-Metadata consists of information that describes the attributes and content of an asset. Users can edit the metadata of multiple assets at once. For more information about metadata, see [Overview of Metadata in [!DNL Workfront] Library](../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
+Metadata consists of information that describes the attributes and content of an asset. Users can edit the metadata of multiple assets at once. For more information about metadata, see [Overview of Metadata in [!DNL Workfront Library]](../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
 
 To bulk edit metadata:
 
@@ -19,7 +19,7 @@ To bulk edit metadata:
 
    In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
 
-1. In the upper-left corner of [!DNL Workfront] Library, click the **Menu** icon.
+1. In the upper-left corner of [!DNL Workfront Library], click the **Menu** icon.
 1. Select the area where the asset is located:
 
    * **Library**

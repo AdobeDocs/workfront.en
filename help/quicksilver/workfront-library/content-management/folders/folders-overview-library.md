@@ -3,19 +3,19 @@ content-type: overview
 product-previous: workfront-library
 product-area: documents
 navigation-topic: folders
-title: Overview of folders in [!DNL Workfront] Library
+title: Overview of folders in [!DNL Workfront Library]
 description: Folders enable you to logically organize items that you own or that you have Manage permissions to. You can create as many levels of folders and subfolders as you need based on how your organization manages digital content. For example, you could create a folder structure arranged by client, job, campaign, department, and so on.
 author: Courtney
 feature: Workfront Library, Digital Content and Documents
 exl-id: 12911acd-2b60-4bea-9e89-e6f6588a4985
 ---
-# Overview of folders in [!DNL Workfront] Library
+# Overview of folders in [!DNL Workfront Library]
 
 Folders enable you to logically organize items that you own or that you have Manage permissions to.&nbsp;You can create as many levels of folders and subfolders as you need based on how your organization manages digital content. For example, you could create a folder structure arranged by client, job, campaign, department, and so on.
 
-In order to create and maintain content folders, you must have [!DNL Manager] or higher access to [!DNL Workfront] Library. Additionally, to add content and subfolders to a folder, you must have [!DNL Manage] permissions to the folder. For information on access levels and permissions, see [Overview of user access to [!DNL Workfront] Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
+In order to create and maintain content folders, you must have [!DNL Manager] or higher access to [!DNL Workfront Library]. Additionally, to add content and subfolders to a folder, you must have [!DNL Manage] permissions to the folder. For information on access levels and permissions, see [Overview of user access to [!DNL Workfront Library]](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
 
-Users with Viewer access to [!DNL Workfront] Library cannot create folders, but they can view and download the contents of a folder that is shared with them. For information on sharing folders, see [Share a Workfront Library item with other users](../../../workfront-library/content-management/share-an-asset-with-users.md).
+Users with Viewer access to [!DNL Workfront Library] cannot create folders, but they can view and download the contents of a folder that is shared with them. For information on sharing folders, see [Share a Workfront Library item with other users](../../../workfront-library/content-management/share-an-asset-with-users.md).
 
 You can add folders to a collection you create. If you have Manage permissions to a folder, you can add that folder to a collection that has been shared with you. For information on addition folders to collections, see [Add items to a collection in Workfront Library](../../../workfront-library/content-management/collections/add-items-to-a-collection.md).
 
@@ -23,7 +23,7 @@ When you create a folder, you are the owner of the folder. There can be only one
 
 By giving permissions to other users, you give them access to all the contents of the folder, including the contents of any subfolder within the folder. A user's permissions level to a parent folder applies to all subfolders under the parent folder.
 
-You can search for a folder by its name. For information on using the Search feature, see [Search for items in [!DNL Workfront] Library](../../../workfront-library/content-management/basics/search-for-items-in-workfront-library.md)
+You can search for a folder by its name. For information on using the Search feature, see [Search for items in [!DNL Workfront Library]](../../../workfront-library/content-management/basics/search-for-items-in-workfront-library.md)
 
 ## Add items to a folder
 
@@ -31,7 +31,7 @@ If you have Manager or higher access to Workfront Library, you can add content a
 
 ## Remove items from a folder
 
-If you have [!DNL Manager] access or higher to [!DNL Workfront] Library, you can remove content and sub-folders from a folder. Users with Viewer access cannot remove items from a folder.
+If you have [!DNL Manager] access or higher to [!DNL Workfront Library], you can remove content and sub-folders from a folder. Users with Viewer access cannot remove items from a folder.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
