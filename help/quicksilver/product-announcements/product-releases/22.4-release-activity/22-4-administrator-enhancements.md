@@ -66,7 +66,11 @@ This update includes the following enhancements:
 
 * The issue header can include up to five fields.
 
+* You can now add the “Resolved By” field to the issue header. When a resolving object is associated with the issue, the "Resolved By" field changes to "Resolving Issue," "Resolving Task," or "Resolving Project," depending on the type of object that is associated with the issue.
+
 Prior to this release, only project and task headers could be customized.
+
+
 
 For more information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 

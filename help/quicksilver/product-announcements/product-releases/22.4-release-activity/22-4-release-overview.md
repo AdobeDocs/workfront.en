@@ -92,7 +92,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Issue header customization</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Issue header customization</a></p>
                         <p>As a Workfront or group administrator, you can now customize the fields that display in the header of an issue when you use a Layout Template. This update includes several enhancements, including the ability to remove or rearrange existing fields from the issue header and add new, non-editable Issue Overview fields.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -179,7 +179,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>
 <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Predecessor details now available
-</a><span style="color: #ff0000;"> New in Preview!</span></p> 
+</a></p> 
 <p>To view the details of a task's predecessors, you can now hover over the predecessor number in the Predecessors column. The details box displays the predecessor task and project being referenced, planned start and end dates for the predecessor task, and the predecessor task's number of predecessors and successors. You can expand the project details to see more information about the project. Additional information is included for cross-project predecessors.</p>   
    </td> 
     <td> <p><b>Available on these dates:</b> </p> 
@@ -332,7 +332,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Intake column available on boards</a> <span style="color: #ff0000;">New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Intake column available on boards</a></p>
                         <p>You can now add an intake column to a board. This column automatically pulls in tasks and issues to the board as they are added in Workfront, based on filters that you define.</p>
                         <p>The intake column can serve as a backlog column for a Kanban team, an intake location for a support team to see issues as they are added to a request queue, or any other purpose you need.</p>
                         <p>Only one intake column is permitted on a board.</p>
@@ -352,7 +352,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated filter panel in boards</a> <span style="color: #ff0000;">New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated filter panel in boards</a></p>
                         <p>The filter and search icons on a board have been moved to the left of the screen. When you click the filter icon, a panel opens on the left to display all of the filter options.</p>
                         <p>Previously, the filters were displayed in a drop-down on the right side of the board.</p>
                     </td>
@@ -371,7 +371,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Use groups on a board to create swimlanes</a> <span style="color: #ff0000;">New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Use groups on a board to create swimlanes</a></p>
                         <p>You can now group cards on a board by assignee or by tag. When you select an option to group by, the cards appear in a swimlane format. Unassigned cards or cards without tags appear in their own swimlane.</p>
                         <p>You can also define what happens when a card is moved from one group to another. The assignee or tag in the group the card is moved to can be added to the existing assignees/tags, or override the other assignees/tags on the card.</p>
                         <p>Any cards in the intake column are not included in a group.</p>
@@ -484,7 +484,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Show all users for the Workload Balancer of a project</a> <span style="color: #ff0000;">New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Show all users for the Workload Balancer of a project</a></p>
                         <p>To allow you to have visibility into all users in the system and their capacity without leaving the Workload Balancer of a project, we have added a “Show all users” option. When enabled, the project's Workload Balancer displays all the users in the system in the Assigned Work area. With this enhancement, you can easily identify who needs to be assigned to work listed in the Unassigned Work area.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -502,7 +502,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Show all users with a selected job role in the Workload Balancer when assigning work in bulk</a> <span style="color: #ff0000;">New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Show all users with a selected job role in the Workload Balancer when assigning work in bulk</a></p>
                         <p>To make it easier to find the right person when replacing job roles with users in the Workload Balancer in bulk, we have improved the way the list of available users populates. Now, you can view all users in the system that can fulfil the selected role in two separate areas in the same list of users:</p>
                         <ul>
                             <li>
