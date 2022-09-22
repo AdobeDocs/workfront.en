@@ -59,7 +59,7 @@ When you unhide content, it becomes visible to all users who had access to it pr
 
 1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 
-1. (Conditional) If you haven't enabled the [!UICONTROL Show Hidden] filter, click the **[!UICONTROL Filter]** icon ![](assets/library-filter-icon.png)in the upper-right corner, then enable the **Show Hidden** toggle at the bottom of the filter list.
+1. (Conditional) If you haven't enabled the [!UICONTROL Show Hidden] filter, click the **[!UICONTROL Filter]** icon ![](assets/library-filter-icon.png)in the upper-right corner, then enable the **[!UICONTROL Show Hidden]** toggle at the bottom of the filter list.
 
    >[!TIP]
    >

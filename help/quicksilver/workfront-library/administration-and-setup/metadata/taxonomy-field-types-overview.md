@@ -4,7 +4,7 @@ product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Overview of taxonomy field types
-description: [!DNL Workfront Library] supports a set list of EXIF and XMP metadata. If you have an EXIF or XMP metadata field that needs to be added to [!DNL Workfront Library], reach out to your customer success manager or account representative.
+description: "[!DNL Workfront Library] supports a set list of EXIF and XMP metadata. If you have an EXIF or XMP metadata field that needs to be added to [!DNL Workfront Library], reach out to your customer success manager or account representative."
 feature: Workfront Library, Digital Content and Documents
 exl-id: d0801424-21e6-415a-855a-e89cdf1fa5d6
 ---

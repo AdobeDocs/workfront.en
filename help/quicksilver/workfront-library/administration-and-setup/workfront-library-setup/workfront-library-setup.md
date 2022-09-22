@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-library
 product-area: documents;system-administration;setup
 navigation-topic: administration-and-setup-for-workfront-library
-title: [!DNL Workfront Library] Setup
+title: "[!DNL Workfront Library] Setup"
 description: This section contains the following articles - EDIT ME.
 feature: Workfront Library, Digital Content and Documents
 exl-id: ba21e112-66f1-48b5-8a1a-a573e4a25095

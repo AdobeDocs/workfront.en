@@ -3,7 +3,7 @@ product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Format your CSV file for metadata import in [!DNL Workfront Library]
-description: [!DNL Workfront Library] can consume a CSV file with up to 100,000 rows of data. While a larger file can take longer to import, Workfront recommends importing one file—if possible—because Workfront Library only processes one metadata import at a time. If you need to import multiple files, you must wait until the first file has finished before you can start another import.
+description: "[!DNL Workfront Library] can consume a CSV file with up to 100,000 rows of data. While a larger file can take longer to import, Workfront recommends importing one file—if possible—because Workfront Library only processes one metadata import at a time. If you need to import multiple files, you must wait until the first file has finished before you can start another import."
 feature: Workfront Library, Digital Content and Documents
 exl-id: 8fd74886-8539-40f3-8e0e-f1ad016c6d37
 ---

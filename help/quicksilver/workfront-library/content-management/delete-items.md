@@ -15,7 +15,7 @@ You can delete only the active (or current) version of an asset in [!DNL Workfro
 
 When you delete a container such as a folder or a collection, the items within the deleted container remain in [!DNL Workfront Library]. Users who had permissions to the deleted container lose access to the items that were linked to the container, unless they have explicit access to the items or have permissions through another folder or collection. For more information on access levels and permissions, see [Overview of user access to [!DNL Workfront Library]](../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
 
-When you delete an asset that is also linked to a [!DNL Workfront] object, such as a project, task or issue, the asset remains with the object in Workfront and only the link between [!DNL Workfront Library] and the asset in [!DNL Workfront] is deactivated. For information on deleting content in Workfront, see [Delete Documents](../../documents/managing-documents/delete-documents.md).
+When you delete an asset that is also linked to a [!DNL Workfront] object, such as a project, task or issue, the asset remains with the object in [!DNL Workfront] and only the link between [!DNL Workfront Library] and the asset in [!DNL Workfront] is deactivated. For information on deleting content in Workfront, see [Delete Documents](../../documents/managing-documents/delete-documents.md).
 
 Users with permissions to an item that is deleted do not receive notification of its deletion.
 
