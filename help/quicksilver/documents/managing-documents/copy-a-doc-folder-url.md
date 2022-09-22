@@ -2,18 +2,43 @@
 product-area: documents
 navigation-topic: manage-documents
 title: Copy and share a link to a document folder
-description: You can copy a link for any document folder contained in any of the following [!DNL Workfront] objects: [!UICONTROL Program], [!UICONTROL Portfolio], [!UICONTROL Project], [!UICONTROL Task], or [!UICONTROL Issue].
+description: You can copy a link for any document folder contained in any Workfront object.
 author: Courtney
 feature: Digital Content and Documents
 ---
 
 # Copy and share a link to a document folder
 
-You can copy a link for any document folder contained in any of the following [!DNL Workfront] objects: [!UICONTROL Program], [!UICONTROL Portfolio], [!UICONTROL Project], [!UICONTROL Task], or [!UICONTROL Issue]. You can't copy a link for any folders contained in the [!UICONTROL Documents] area from the Main Menu, as those are documents linked directly to your user profile and can't be shared with others. 
+You can copy a direct link for any document folder contained in any of the following [!DNL Workfront] objects: [!UICONTROL Program], [!UICONTROL Portfolio], [!UICONTROL Project], [!UICONTROL Task], or [!UICONTROL Issue]. You can't copy a link for any folders contained in the [!UICONTROL Documents] area from the Main Menu, as those are documents linked directly to your user profile and can't be shared with others. 
 
 ## Access Requirements
 
+You must have the following access to perform the steps in this article:
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>figure out</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage access to the Document</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Copy and share a link to a document folder
 
