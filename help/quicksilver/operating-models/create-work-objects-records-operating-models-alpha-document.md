@@ -39,10 +39,6 @@ After defining your work objects and designing your operational model's structur
 
     The Work objects page displays with a list of work objects.  
 
-    >[!TIP]
-    >
-    >Notice that existing work objects are listed on the Work objects page. 
-
 
 1. Click **Create a work object** in the upper-right corner to create a new object.  
 1. Update the name for the work object.

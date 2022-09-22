@@ -331,6 +331,22 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr>
+
+   <tr> 
+   <td><span>Color-code work items by projects and project status</span> </td> 
+   <td>&nbsp;</td> 
+   <td><span>✓</span> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+
+   <tr> 
+   <td><span>Add users to the project team</span> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td><span>✓</span></td> 
+   <td>&nbsp;</td> 
+
+  </tr>
   
  </tbody> 
 </table>

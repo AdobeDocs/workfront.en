@@ -9,7 +9,7 @@ hide: yes
 
 <!--this is hidden-->
 
-You can define the structure of your work by defining one or mutliple operating models. 
+You can define the structure of your work by defining one or multiple operating models. 
 
 This section contains the following articles: 
 
