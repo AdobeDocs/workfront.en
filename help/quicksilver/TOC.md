@@ -1315,7 +1315,7 @@ feature-set: Workfront
     * [Manage task and issue delegation](manage-work/delegate-work/how-to-delegate-work.md)
 * Operating models {#operating-models}
   * [Operating models overview](operating-models/operating-models-overview.md)
-  * [Design flexible operating models in Adobe Workfront](operating-models/create-work-objects-records-operating-models-alpha-document.mds)  
+  * [Design flexible operating models in Adobe Workfront](operating-models/create-work-objects-records-operating-models-alpha-document.md)  
 * Teams and groups {#teams-groups}
   * [Teams and groups](people-teams-and-groups/people-teams-and-groups.md)
   * Create and manage teams {#create-manage-teams}
