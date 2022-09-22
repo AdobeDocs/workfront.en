@@ -2,14 +2,14 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Upload proofs from Adobe Photoshop
-description: You can upload your art boards as proofs directly to Adobe Workfront for a thorough review and approval.
+description: You can upload your art boards as proofs directly to [!DNL Adobe Workfront] for a thorough review and approval.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
 ---
 # Upload proofs from Adobe Photoshop
 
-You can upload your art boards as proofs directly to Adobe Workfront for a thorough review and approval.
+You can upload your art boards as proofs directly to [!DNL Adobe Workfront] for a thorough review and approval.
 
 ## Access requirements
 
@@ -29,7 +29,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
+   <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof Permission Profile </td> 
@@ -42,13 +42,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
+&#42;To find out what plan, role, or Proof Permission Profile you have, contact your [!DNL Workfront] or [!DNL Workfront] Proof administrator.
 
 ## Prerequisites
 
-* You must install the Workfront for Adobe Photoshop plugin before you can upload proofs from Adobe Photoshop.
+* You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can upload proofs from Adobe Photoshop.
 
-  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+   For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
 
 ## Upload a Basic Proof
 
@@ -57,25 +57,25 @@ You must have the following access to perform the steps in this article:
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Go to the work item where you want to upload a proof.
-1. Click the **Document** icon ![](assets/documents.png) in the navigation bar. 
-1. Click **New File** near the bottom of the plugin.
-1. Enable the **Create a proof** toggle.
-1. Choose the **Asset Type** from the drop-down menu.
+1. Click the **Document** icon ![](assets/documents.png) in the navigation bar.
+1. Click **[!UICONTROL New File]** near the bottom of the plugin.
+1. Enable the **[!UICONTROL Create a proof]** toggle.
+1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
 
    ![](assets/plugin-create-proof-350x182.png)
 
-1. In the **Proof Approvals** section, select **Basic**.
+1. In the **[!UICONTROL Proof Approvals]** section, select **[!UICONTROL Basic]**.
 1. (Optional) Add approvers.
-1. (Optional) Type a comment in the **Updates** area.
+1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
    ![](assets/plugin-proof-approvals-350x450.png)
 
-1. (Optional) Type a name for the proof in the**Proof Name** text box.
-1. (Optional) Select **Add outside file** to add a file from your computer.
-1. Click **Upload**.
+1. (Optional) Type a name for the proof in the&#x200B;**Proof Name** text box.
+1. (Optional) Select **[!UICONTROL Add outside file]** to add a file from your computer.
+1. Click **[!UICONTROL Upload]**.
 
-   ![](assets/plugin-files-350x307.png)   
-   The document appears in the Documents area in the plugin and the desktop app.
+   ![](assets/plugin-files-350x307.png)\
+   The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
 
 ## Upload an Automated Proof
 
@@ -84,25 +84,25 @@ You must have the following access to perform the steps in this article:
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Go to the work item where you want to upload a proof.
-1. Click the **Document** icon ![](assets/documents.png) in the navigation bar. 
+1. Click the **Document** icon ![](assets/documents.png) in the navigation bar.
 
-1. Click **New File** near the bottom of the plugin.
-1. Enable the **Create a proof** toggle, then choose the **Asset Type** from the drop-down menu.
+1. Click **[!UICONTROL New File]** near the bottom of the plugin.
+1. Enable the **[!UICONTROL Create a proof]** toggle, then choose the **[!UICONTROL Asset Type]** from the drop-down menu.
 
    ![](assets/plugin-create-proof-350x182.png)
 
-1. In the **Proof Approvals** section, select **Automated**.
-1. (Optional) In the **Workflow Template** box, type the name of a proof workflow template.
-1. (Optional) Type a comment in the **Updates** area.
+1. In the **[!UICONTROL Proof Approvals]** section, select **[!UICONTROL Automated]**.
+1. (Optional) In the **[!DNL Workflow Template]** box, type the name of a proof workflow template.
+1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
    ![](assets/copy-of-proof-approvals-advanced-350x424.png)
 
-1. (Optional) Type a name for the proof in the**Proof Name** text box.
-1. (Optional) Select **Add outside file** to add a file from your computer.
-1. Click **Upload**.
+1. (Optional) Type a name for the proof in the&#x200B;**Proof Name** text box.
+1. (Optional) Select **[!UICONTROL Add outside file]** to add a file from your computer.
+1. Click **[!UICONTROL Upload]**.
 
-   ![](assets/plugin-files-350x307.png)   
-   The document appears in the Documents area in the plugin and the desktop app.
+   ![](assets/plugin-files-350x307.png)\
+   The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
 
 ## Upload a new proof version
 
@@ -113,18 +113,18 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Go to the work item you need to upload a document to.
-1. Click the **Document** icon ![](assets/documents.png)in the navigation bar. 
+1. Click the **Document** icon ![](assets/documents.png)in the navigation bar.
 
-1. Click **New Version** near the bottom of the plugin.
-1. Choose the **Asset Type** from the drop-down menu.
-1. Enable the **Create a proof** toggle, then choose the **Asset Type** from the drop-down menu.
+1. Click **[!UICONTROL New Version]** near the bottom of the plugin.
+1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
+1. Enable the **[!UICONTROL Create a proof]** toggle, then choose the **Asset Type** from the drop-down menu.
 
    ![](assets/plugin-create-proof-350x182.png)
 
-1. In the **Proof approvals** section, choose **Basic**or **Automated**.
+1. In the **[!UICONTROL Proof approvals]** section, choose **Basic**&#x200B;or **Automated**.
 
-1. Add **Reviewers**or a **Workflow template** based on the approval type you selected in step 7.
+1. Add **Reviewers**&#x200B;or a **Workflow template** based on the approval type you selected in step 7.
 
 1. (Optional) Type a comment in the **Updates** area.
-1. Click **Upload**.  
-   The document appears in the Documents area in the plugin and the desktop app.
+1. Click **Upload**.\
+   The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.

@@ -29,7 +29,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
+   <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -38,13 +38,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Prerequisites
 
-* You must install the Workfront for Adobe XD plugin before you can mark work items complete in Adobe XD.
+* You must install the [!DNL Workfront] for Adobe XD plugin before you can mark work items complete in Adobe XD.
 
-  For instructions, see [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
+   For instructions, see [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
 To complete a work item:
 
@@ -52,7 +52,7 @@ To complete a work item:
 
    ![](assets/menu-350x440.png)
 
-1. From the **Work List**, select the task or issue you wish to mark complete. 
-1. Click **Done**.  
-   This marks the item complete in Workfront.  
+1. From the **[!UICONTROL Work List]**, select the task or issue you wish to mark complete.
+1. Click **[!UICONTROL Done]**.\
+   This marks the item complete in Workfront.\
    ![](assets/mark-as-done-350x646.png)

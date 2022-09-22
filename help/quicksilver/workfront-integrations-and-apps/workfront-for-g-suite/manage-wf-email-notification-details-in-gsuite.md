@@ -2,15 +2,15 @@
 product-area: workfront-integrations
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
-title: Manage Adobe Workfront notification details from G Suite
-description: In G Suite, when you open a notification email Adobe Workfront has sent, you can view the associated work item details and respond without leaving your Inbox. If actions are available, such as approving a request, you can perform those actions directly from Workfront for G Suite.
+title: Manage [!DNL Adobe Workfront] notification details from G Suite
+description: In G Suite, when you open a notification email Adobe [!DNL Workfront] has sent, you can view the associated work item details and respond without leaving your Inbox. If actions are available, such as approving a request, you can perform those actions directly from Workfront for G Suite.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
 ---
-# Manage Adobe Workfront notification details from G Suite
+# Manage [!DNL Adobe Workfront] notification details from G Suite
 
-In G&nbsp;Suite, when you open a notification email Adobe Workfront has sent, you can view the associated work item details and respond without leaving your Inbox. If actions are available, such as approving a request, you can perform those actions directly from Workfront for G Suite.
+In G&nbsp;Suite, when you open a notification email [!DNL Adobe Workfront] has sent, you can view the associated work item details and respond without leaving your Inbox. If actions are available, such as approving a request, you can perform those actions directly from [!DNL Workfront] for G Suite.
 
 >[!NOTE]
 >
@@ -54,24 +54,24 @@ You must have the following access to perform the steps in this article:
   --> </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Prerequisites
 
 Before you can manage notification details from G Suite, you must
 
-* Install Workfront for G suite  
-  For instructions, see [Install Adobe Workfront for G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront] for G suite\
+   For instructions, see [Install Adobe Workfront for G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Manage Adobe Workfront notification details from G Suite
+## Manage [!DNL Adobe Workfront] notification details from G Suite
 
-1. If the Workfront for G Suite panel is not displayed, click the&nbsp;Workfront icon ![](assets/wf-lion-icon.png) in the G Suite add-ons sidebar at the far-right of the page. 
-1. In G&nbsp;Suite, open a Workfront notification email.
-1. Click **View all updates** if it is displayed near the top of the panel.
+1. If the [!UICONTROL Workfront for G Suite] panel is not displayed, click the&nbsp;Workfront icon ![](assets/wf-lion-icon.png) in the G Suite add-ons sidebar at the far-right of the page.
+1. In G&nbsp;Suite, open a [!DNL Workfront] notification email.
+1. Click **[!UICONTROL View all updates]** if it is displayed near the top of the panel.
 1. Click **Details**.
 1. Click any available options.
 
-   The options that might display relate to the type of email notification you have opened. For example, if it's an email notification asking you to approve a task, you see **Approve** and **Reject** instead of options such as **Work on It** or **Done**:
+   The options that might display relate to the type of email notification you have opened. For example, if it's an email notification asking you to approve a task, you see **[!UICONTROL Approve]** and **Reject** instead of options such as **[!UICONTROL Work on] It** or **[!UICONTROL Done]**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,7 +97,7 @@ Before you can manage notification details from G Suite, you must
      </tr> 
      <tr> 
       <td>Update </td> 
-      <td> <p>View any part of the entire list of updates for the item so that you have the context you need to <strong>Post</strong> a new update or a <strong>Reply</strong>. You can click <strong>Notify</strong> to alert particular users about your reply. </p> <p>For more information, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Reply to a Adobe Workfront update notification from G Suite</a>.</p> </td> 
+      <td> <p>View any part of the entire list of updates for the item so that you have the context you need to <strong>Post</strong> a new update or a <strong>Reply</strong>. You can click <strong>[!UICONTROL Notify]</strong> to alert particular users about your reply. </p> <p>For more information, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Reply to a [!DNL Adobe Workfront] update notification from G Suite</a>.</p> </td> 
      </tr> 
      <tr> 
       <td>Approval request</td> 

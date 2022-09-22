@@ -29,7 +29,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
+   <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -38,13 +38,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Prerequisites
 
-* You must install the Workfront for Adobe Photoshop plugin before you can mark work items complete in Adobe Photoshop.
+* You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can mark work items complete in Adobe Photoshop.
 
-  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+   For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
 
 ## Complete a work item
 
@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. From the **Work List**, select the task or issue you wish to mark complete. 
-1. Click **Done**.  
-   This marks the item complete in Workfront.  
+1. From the **[!UICONTROL Work List]**, select the task or issue you wish to mark complete.
+1. Click **[!UICONTROL Done]**.\
+   This marks the item complete in Workfront.\
    ![](assets/complete-work-350x529.png)

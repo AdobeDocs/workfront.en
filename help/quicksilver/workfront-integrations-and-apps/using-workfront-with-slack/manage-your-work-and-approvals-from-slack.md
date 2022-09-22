@@ -182,20 +182,25 @@ Before you can manage your work and approvals from Slack, you must
 1. Consider managing approvals for the following objects:&nbsp;
 
    * **Projects** 
+
      Click **Approve** or **Reject** to accept or reject the status change of a project.
    
    * **Tasks** 
+
      Click **Approve** or **Reject** to accept or reject the status change of a task.
    
    * **Issues** 
+
      Click **Approve** or **Reject** to accept or reject the status change of an issue.
    
    * **Documents** 
+
      Click **Approve** to approve a document, **Reject** to reject it, or **Changes** to indicate that you approve it, but that the document needs additional changes.  
      (Optional) Mouse over the document thumbnail to click the magnifying glass and preview the document.&nbsp;
    
-   * **Proofs**Click the proof name to open it in Workfront in a separate tab and manage the approval.&nbsp;
+   * **Proofs**&#x200B;Click the proof name to open it in Workfront in a separate tab and manage the approval.&nbsp;
    * **Access Requests** 
+
      Click **Grant Access** to give enhanced permissions to the requested object, or **Ignore** to ignore the request for more access.
 
 1. (Optional) Click the name of the object submitted for approval to open it in Workfront in a new browser tab.&nbsp;

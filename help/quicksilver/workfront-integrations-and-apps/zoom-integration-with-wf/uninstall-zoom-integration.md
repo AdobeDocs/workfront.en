@@ -34,20 +34,20 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Prerequisites
 
-Your Workfront administrator must enable the Zoom integration before you can use it.
+Your [!DNL Workfront] administrator must enable the Zoom integration before you can use it.
 
 You must have installed the Zoom integration before you can uninstall it.
 
 ## Uninstall the Zoom integration
 
 1. Go to the Zoom App Marketplace and log in with your Zoom account.
-1. Click **Manage** > **Installed Apps**.
+1. Click **[!UICONTROL Manage]** > **Installed Apps**.
 
-1. Locate and select **Workfront for Zoom**, then click **Uninstall**.
+1. Locate and select **[!DNL Workfront] for Zoom**, then click **Uninstall**.
 
 For information about this integration, see [Zoom integration overview](../../workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md).
 

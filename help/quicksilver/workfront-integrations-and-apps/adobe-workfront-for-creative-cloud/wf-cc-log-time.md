@@ -2,14 +2,14 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Log time in Adobe Photoshop
-description: You can log time for projects, tasks, and issues you're working on directly in Photoshop. The Workfront administrator determines which project-specific hour types are available as described in Manage hour types.
+description: You can log time for projects, tasks, and issues you're working on directly in Photoshop. The [!DNL Workfront] administrator determines which project-specific hour types are available as described in Manage hour types.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
 ---
 # Log time in Adobe Photoshop
 
-You can log time for projects, tasks, and issues you're working on directly in Photoshop. The Workfront administrator determines which project-specific hour types are available as described in [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+You can log time for projects, tasks, and issues you're working on directly in Photoshop. The [!DNL Workfront] administrator determines which project-specific hour types are available as described in [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Access requirements
 
@@ -29,11 +29,11 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
+   <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to tasks or issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to tasks or issues</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -42,13 +42,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Prerequisites
 
-* You must install the Workfront for Adobe Photoshop plugin before you can log time in Adobe Photoshop.
+* You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can log time in Adobe Photoshop.
 
-  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+   For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
 
 ## Log time in Adobe Photoshop
 
@@ -56,14 +56,14 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. From the **Work List**, select the work item you need to log time to.
-1. Click **Time** in the navigation bar.
+1. From the **[!UICONTROL Work List]**, select the work item you need to log time to.
+1. Click **[!UICONTROL Time]** in the navigation bar.
 
    ![](assets/log-time-350x337.png)
 
-1. (Optional) Choose the **Hour Type** from the drop-down menu.
+1. (Optional) Choose the **[!UICONTROL Hour Type]** from the drop-down menu.
 1. Enter the time in hours for the day you need.
 
    ![](assets/copy-of-log-hours-350x236.png)
 
-1. Click **Submit**.
+1. Click **[!UICONTROL Submit]**.

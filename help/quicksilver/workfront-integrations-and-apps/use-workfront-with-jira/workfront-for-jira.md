@@ -12,8 +12,8 @@ exl-id: 924f3c9b-394d-4637-b981-9062c1fdd5aa
 
 This section contains the following articles:
 
-* [Install Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md) 
-* [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) 
-* [Link items between Adobe Workfront and Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md) 
-* [Update linked items between Jira and Adobe Workfront](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md) 
+* [Install [!DNL Adobe Workfront] for [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
+* [Configure [!DNL Adobe Workfront] for [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
+* [Link items between [!DNL Adobe Workfront] and [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
+* [Update linked items between [!DNL Jira] and [!DNL Adobe Workfront]](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
 * [View the Jira Activity Log](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)

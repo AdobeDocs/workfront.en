@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Manage Adobe Workfront notifications in Microsoft Teams
-description: You can receive notifications from Adobe Workfront about items you need to approve, assignments you've been given, or comments and changes to items you're associated with.
+title: Manage [!DNL Adobe Workfront] notifications in [!DNL Microsoft] Teams
+description: You can receive notifications from [!DNL Adobe Workfront] about items you need to approve, assignments you've been given, or comments and changes to items you're associated with.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
 ---
-# Manage Adobe Workfront notifications in Microsoft Teams
+# Manage [!DNL Adobe Workfront] notifications in [!DNL Microsoft] Teams
 
-You can receive notifications from Adobe Workfront about items you need to approve, assignments you've been given, or comments and changes to items you're associated with.
+You can receive notifications from [!DNL Adobe Workfront] about items you need to approve, assignments you've been given, or comments and changes to items you're associated with.
 
-These notifications contain Workfront actions that you can take within Microsoft Teams without navigating away from Microsoft Teams to accomplish them.&nbsp;
+These notifications contain [!DNL Workfront] actions that you can take within [!DNL Microsoft Teams] without navigating away from [!DNL Microsoft Teams] to accomplish them.&nbsp;
 
 >[!NOTE]
 >
->Microsoft Teams no longer supports Internet Explorer. To use the Adobe Workfront for Microsoft Teams integration, you must use a web browser other than Internet Explorer.
+>Microsoft Teams no longer supports Internet Explorer. To use the [!DNL Adobe Workfront] for Microsoft Teams integration, you must use a web browser other than Internet Explorer.
 
 ## Access requirements
 
@@ -36,39 +36,39 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Prerequisites for Receiving Workfront Notifications in Microsoft Teams
+## Prerequisites for Receiving [!DNL Workfront] Notifications in [!DNL Microsoft Teams]
 
-You can receive Workfront notifications in Microsoft Teams if the following conditions are met:
+You can receive [!DNL Workfront] notifications in [!DNL Microsoft Teams] if the following conditions are met:
 
-* A team owner has installed and configured Workfront for Microsoft Teams for your team.
-* You are logged into Workfront from Microsoft Teams.
+* A team owner has installed and configured [!DNL Workfront for Microsoft Teams] for your team.
+* You are logged into [!DNL Workfront] from Microsoft Teams.
 * You have enabled instant notifications in Workfront. For information on enabling instant notifications, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 For information about installing Workfront for Microsoft Teams and logging in to Workfront from Microsoft Teams, see [Install Adobe Workfront for Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-## Managing Workfront Notifications in Microsoft Teams
+## Managing [!DNL Workfront] Notifications in [!DNL Microsoft Teams]
 
-When the Workfront for Microsoft Teams app is installed, a Workfront chat channel is created in Microsoft Teams for every member of that team. When an certain action is performed in Workfront, you can configure the settings for Workfront for Microsoft Teams to receive notifications about that action in the Workfront chat channel of Microsoft Teams.
+When the [!DNL Workfront for Microsoft Teams] app is installed, a [!DNL Workfront] chat channel is created in [!DNL Microsoft] Teams for every member of that team. When an certain action is performed in [!DNL Workfront], you can configure the settings for [!DNL Workfront] for Microsoft Teams to receive notifications about that action in the [!DNL Workfront] chat channel of Microsoft Teams.
 
-Consider the following when working with Workfront notifications from Microsoft Teams:
+Consider the following when working with [!DNL Workfront] notifications from [!DNL Microsoft] Teams:
 
-* You cannot receive all, but only a select number of Workfront notifications in Microsoft Teams.
-* All notifications you receive from Workfront appear in the Workfront bot chat channel.
+* You cannot receive all, but only a select number of [!DNL Workfront] notifications in Microsoft Teams.
+* All notifications you receive from [!DNL Workfront] appear in the [!DNL Workfront] bot chat channel.
 
-  For information on installing the Workfront bot channel, see the [Logging in to Workfront from Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) section in [Installing Workfront for Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) article.
+   For information on installing the Workfront bot channel, see the [Logging in to Workfront from Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) section in [Installing Workfront for Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) article.
 
-* There can be up to a 5 minute delay between the time when an update is made in Workfront and when you receive the notification about it in Microsoft Teams.
-* For each Microsoft Teams notification, you also receive an email notification.
+* There can be up to a 5 minute delay between the time when an update is made in [!DNL Workfront] and when you receive the notification about it in Microsoft Teams.
+* For each [!DNL Microsoft Teams] notification, you also receive an email notification.
 
-To manage the Workfront notifications that you can receive in Microsoft Teams:
+To manage the [!DNL Workfront] notifications that you can receive in [!DNL Microsoft] Teams:
 
 1. Click the **More added** apps icon on the left navigation bar in Microsoft Teams.
 
    ![](assets/ms-teams-more-added-apps-icon.png)
 
-1. Click Workfront in the list that appears.
+1. Click [!UICONTROL Workfront] in the list that appears.
 1. Select the **Settings** tab.
 
    ![](assets/ms-teams-settings-tab-350x552.png)
@@ -77,35 +77,35 @@ To manage the Workfront notifications that you can receive in Microsoft Teams:
 
    All notifications are enabled by default.
 
-   The notifications settings for Workfront for Microsoft Teams are saved automatically.
+   The notifications settings for [!DNL Workfront] for Microsoft Teams are saved automatically.
 
    >[!NOTE]
    >
    >You cannot add more notifications to the ones that are available by default.
 
-## Responding to Workfront Notifications and Approval Requests in Microsoft Teams
+## Responding to [!DNL Workfront] Notifications and Approval Requests in [!DNL Microsoft Teams]
 
-1. Log in to Workfront from Microsoft Teams.  
-   For information about logging in to Workfront, see [Install Adobe Workfront for Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).  
+1. Log in to [!DNL Workfront] from Microsoft Teams.\
+   For information about logging in to Workfront, see [Install Adobe Workfront for Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-1. Go to the **Chat** area and click the&nbsp;**Workfront** bot&nbsp;channel.  
-   This channel is for your personal chat with the Workfront bot. All Workfront notifications display here.&nbsp;
+1. Go to the **Chat** area and click the&nbsp;**Workfront** bot&nbsp;channel.\
+   This channel is for your personal chat with the [!DNL Workfront] bot. All [!DNL Workfront] notifications display here.&nbsp;
 1. Depending on what type of notification you receive, proceed&nbsp;to the relevant section:
 
-   * [Approval notifications](#approval-notifications) 
-   * [Assignment notifications](#assignment-notifications) 
-   * [Comment notifications](#comment-notifications) 
-   * [Update notifications](#update-notifications) 
+   * [Approval notifications](#approval-notifications)
+   * [Assignment notifications](#assignment-notifications)
+   * [Comment notifications](#comment-notifications)
+   * [Update notifications](#update-notifications)
    * [Date Change notifications](#date-change-notifications)
 
 ### Approval notifications {#approval-notifications}
 
 You receive approval notifications when you are asked to approve an object, such as a task, timesheet, or proof. You can still comment on the notification, however.From the approval notification, you can perform the following actions:
 
-* **Approve**: Click to approve the item.
-* **Change**: Click to approve the item with changes. 
+* **[!UICONTROL Approve]**: Click to approve the item.
+* **[!UICONTROL Change]**: Click to approve the item with changes.
 * **Reject**: Click to reject the item.&nbsp;
-* **Comment**: Click to make a comment. Your comment also appears in Workfront as an update to the object that the notification is about. 
+* **Comment**: Click to make a comment. Your comment also appears in [!DNL Workfront] as an update to the object that the notification is about.
 * **Go to Proof**: Click to open the proof. You can then make a decision directly in the proof. For more information, see [Make a decision on a proof in the proofing viewer](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 >[!NOTE]
@@ -136,24 +136,24 @@ You receive approval notifications when you are asked to approve an object, such
    <td role="rowheader">You need to approve a project</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">You need to approve a task</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">You need to approve an issue</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -161,80 +161,80 @@ You receive approval notifications when you are asked to approve an object, such
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">You need to approve access to an object</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">You need to approve a timesheet</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Someone wants you to approve this proof</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Your timesheet is rejected</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Your timesheet is re-opened</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">A document approval request that you requested is approved</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">A document approval request that you requested is approved with changes</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">A document approval request that you requested is rejected</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Your timesheet is approved</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -244,7 +244,7 @@ You receive approval notifications when you are asked to approve an object, such
 You receive assignment notifications when you, or a team you are on, are assigned to a task or issue in Workfront. From the assignment notification, you can perform the following actions:
 
 * **Work on it**: Select to commit to work on the item. A notification displays briefly to confirm that a new item was added to your work list.
-* **View in Workfront**: Select to view the assigned issue or task in Workfront, which opens a new tab.
+* **View in [!DNL Workfront]**: Select to view the assigned issue or task in Workfront, which opens a new tab.
 * **Start**: Click to start work on the item. A&nbsp;notification displays briefly to confirm that a new item was added to your work list.&nbsp;
 * **Comment**: Click to make a comment on the item. Your comment also appears in the item's update stream in Workfront.
 * **Status**: Click, then select the new status for the work item from the drop-down menu.
@@ -296,7 +296,7 @@ You receive assignment notifications when you, or a team you are on, are assigne
 
 You receive a communication notification when someone comments on an item you are associated with, or includes you in an update. From the communication notification, you can perform the following actions:
 
-* **Reply**: Click to reply to the comment or update. Your reply also appears in the update stream where the comment appears in Workfront.
+* **Reply**: Click to reply to the comment or [!UICONTROL update]. Your reply also appears in the update stream where the comment appears in Workfront.
 * **View in Workfront**: Select to view the comment and the item in Workfront, which is opened in a new tab.
 * **Status**: Click, then select a new status for the work item that the comment or update is about.
 
@@ -337,22 +337,22 @@ You receive a communication notification when someone comments on an item you ar
   <tr> 
    <td role="rowheader">Someone comments on a timesheet you approve</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">A comment is added on your user profile page or by bulk editing multiple users</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">A comment is added on one of your updates</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">A comment is added on your timesheet</td> 
    <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -361,9 +361,9 @@ You receive a communication notification when someone comments on an item you ar
 
 You receive an information notification when there is an update to an item you are associated with, but you do not need to take any action on the item. From the information notification, you can perform the following actions:
 
-* **Reply**: Click to reply to the update. Your reply also appears in the item's update stream in Workfront.
+* **Reply**: Click to reply to the [!UICONTROL update]. Your reply also appears in the item's update stream in Workfront.
 * **View in Workfront**: Select to view the comment and the item in Workfront, which is opened in a new tab.
-* **Status**: Click, then select the new status for the item from the drop-down menu.
+* **[!UICONTROL Status]**: Click, then select the new status for the item from the drop-down menu.
 
 #### Actions available on specific information notifications:
 
@@ -390,7 +390,7 @@ You receive an information notification when there is an update to an item you a
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Someone includes your team on a directed update</td> 
+   <td role="rowheader">Someone includes your team on a [!UICONTROL directed update]</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

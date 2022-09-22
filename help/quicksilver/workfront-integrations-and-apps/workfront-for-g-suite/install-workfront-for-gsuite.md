@@ -2,15 +2,15 @@
 product-area: workfront-integrations;setup
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
-title: Install Adobe Workfront for G Suite
-description: You can install the Adobe Workfront for G Suite add-on from the G Suite Marketplace.
+title: Install [!DNL Adobe Workfront] for G Suite
+description: You can install the [!DNL Adobe Workfront] for G Suite add-on from the G Suite Marketplace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
 ---
-# Install Adobe Workfront for G Suite
+# Install [!DNL Adobe Workfront] for G Suite
 
-You can install the Adobe Workfront for G Suite add-on from the G Suite Marketplace.
+You can install the [!DNL Adobe Workfront] for G Suite add-on from the G Suite Marketplace.
 
 ## Access requirements
 
@@ -50,9 +50,9 @@ You must have the following access to perform the steps in this article:
   --> </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Install Workfront for G Suite
+## Install [!DNL Workfront] for G Suite
 
 1. Click the following link:
 
@@ -60,9 +60,9 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   Click the plus sign icon in the G Suite add-ons sidebar at the far-right of a G Suite app (Gmail, Google Calendar, or Google Drive). Search for *Workfront for G Suite*, then click the Workfront for G Suite app item that appears.
+   Click the plus sign icon in the G Suite add-ons sidebar at the far-right of a G Suite app (Gmail, Google Calendar, or Google Drive). Search for *[!UICONTROL Workfront] for G Suite*, then click the [!UICONTROL Workfront for G Suite] app item that appears.
 
-1. Click **Install**, then follow the prompts that appear.
-1. (Conditional) In your G&nbsp;Suite app, if you don't see the Workfront icon ![](assets/wf-lion-icon.png) in the G Suite add-ons sidebar at the far-right of the page, refresh the page.
+1. Click **[!UICONTROL Install]**, then follow the prompts that appear.
+1. (Conditional) In your G&nbsp;Suite app, if you don't see the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the G Suite add-ons sidebar at the far-right of the page, refresh the page.
 
 For information about logging in, see [Log in and out of Adobe Workfront for G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).

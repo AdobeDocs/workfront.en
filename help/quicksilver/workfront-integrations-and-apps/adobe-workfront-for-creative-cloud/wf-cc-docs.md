@@ -29,11 +29,11 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
+   <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -42,13 +42,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Prerequisites
 
-* You must install the Workfront for Adobe Photoshop plugin before you can upload Adobe Photoshop projects to Workfront.
+* You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can upload Adobe Photoshop projects to Workfront.
 
-  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+   For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
 
 ## Upload documents to Adobe Photoshop
 
@@ -56,16 +56,16 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Go to the work item where you want to upload a document. 
-1. Click the **Document** icon ![](assets/documents.png) in the navigation bar. 
+1. Go to the work item where you want to upload a document.
+1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar.
 
-1. Click **New File** near the bottom of the plugin.
-1. Choose the **Asset Type** from the drop-down menu.
+1. Click **[!UICONTROL New File]** near the bottom of the plugin.
+1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
 
    >[!NOTE]
    >
-   >If you add an approver, the image uploads to Workfront as a simple Proof.
+   >If you add an approver, the image uploads to [!DNL Workfront] as a simple Proof.
 
-1. (Optional) Type a comment in the **Updates** area. 
-1. Click **Upload**.  
-   The document appears in the Documents area in the plugin and the desktop app.
+1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
+1. Click **[!UICONTROL Upload]**.\
+   The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.

@@ -1,214 +1,218 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: Access Adobe Workfront from Slack
-description: Integrating Adobe Workfront with Slack allows you to access Workfront from Slack, or perform certain actions in Workfront using a slash command. The integration can be used from any Slack environment, including the Slack mobile app.
+title: Access [!DNL Adobe Workfront] from [!DNL Slack]
+description: Integrating [!DNL Adobe Workfront] with [!DNL Slack] allows you to access [!DNL Workfront] from Slack, or perform certain actions in [!DNL Workfront] using a slash command. The integration can be used from any [!DNL Slack] environment, including the [!DNL Slack] mobile app.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
 ---
-# Access Adobe Workfront from Slack
+# Access [!DNL Adobe Workfront] from [!DNL Slack]
 
-Integrating Adobe Workfront with Slack allows you to access Workfront from Slack, or perform certain actions in Workfront using a slash command. The integration can be used from any Slack environment, including the Slack mobile app.
+Integrating [!DNL Adobe Workfront] with [!DNL Slack] allows you to access [!DNL Workfront] from Slack, or perform certain actions in [!DNL Workfront] using a slash command. The integration can be used from any [!DNL Slack] environment, including the [!DNL Slack] mobile app.
 
 You or your Slack administrator must install the Workfront app in your Slack instance before you can use Workfront from Slack. For more information, see [Configure Adobe Workfront for Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## About slash commands {#about-slash-commands}
 
-When using Slack, you type messages inside of a message field. When you start your message with a slash, it becomes a command and it behaves differently than a simple message. The command tells Slack to perform an action.
+When using [!DNL Slack], you type messages inside of a message field. When you start your message with a slash, it becomes a command and it behaves differently than a simple message. The command tells [!DNL Slack] to perform an action.
 
-You can access your Workfront instance from Slack by typing a slash command in any Slack channel.
+You can access your [!DNL Workfront] instance from [!DNL Slack] by typing a slash command in any Slack channel.
 
-Remember the following when using a slash command in Slack to access Workfront:
+Remember the following when using a slash command in [!DNL Slack] to access [!DNL Workfront]:
 
-* Slash commands are case sensitive. 
-* The commands for Workfrontare only visible to you, regardless of which channel you are typing them in.
-* The command should always start with `/workfront` or `/wf`, followed by a space and the name of an action you want to perform in Workfront.  
+* Slash commands are case sensitive.
+* The commands for [!DNL Workfrontare] only visible to you, regardless of which channel you are typing them in.
+* The command should always start with `/workfront` or `/wf`, followed by a space and the name of an action you want to perform in Workfront.
 
-  This indicates that your command is meant for the Workfront app. The commands for Workfront work only when you have already configured the Workfront app with your Slack instance.
+   This indicates that your command is meant for the [!DNL Workfront] app. The commands for [!DNL Workfront] work only when you have already configured the [!DNL Workfront] app with your [!DNL Slack] instance.
 
-For a list of all the commands you can run from Slack for Workfront, see [Access Workfront from a slash command in Slack](#access-workfront-from-a-slash-command-in-slack).
+For a list of all the commands you can run from Slack for [!DNL Workfront], see [Access Workfront from a slash command in Slack](#access-workfront-from-a-slash-command-in-slack).
 
-## Log in to Workfront from Slack {#log-in-to-workfront-from-slack}
+## Log in to [!DNL Workfront] from [!DNL Slack] {#log-in-to-workfront-from-slack}
 
-When you type any command in the message field in Slack, you will be asked to log in to Workfront first.   
-For a complete list of Workfront commands from Slack, see&nbsp;the [Access Workfront from a slash command in Slack](#access-workfront-from-a-slash-command-in-slack) section in this article.&nbsp;
+When you type any command in the message field in Slack, you will be asked to log in to [!DNL Workfront] first.\
+For a complete list of [!DNL Workfront] commands from [!DNL Slack], see&nbsp;the [Access Workfront from a slash command in Slack](#access-workfront-from-a-slash-command-in-slack) section in this article.&nbsp;
 
-To log in to Workfront from Slack:
+To log in to [!DNL Workfront] from Slack:
 
 1. Log in to your Slack instance.
-1. From any channel, type one of the following commands:  
-   `/workfront log in` 
-   
-   Or  
+1. From any channel, type one of the following commands:\
+   `/workfront log in`
+
+   Or
 
    `/wf log in`
 
-1. Click the Workfront **Log In** link displayed in the response.  
-   A new tab opens with fields for Workfront credentials.
+1. Click the Workfront **Log In** link displayed in the response.\
+   A new tab opens with fields for [!DNL Workfront] credentials.
 
-1. Follow the prompts to log in to Workfront using Enhanced Authentication, OAuth 2.0, or your Security Assertion Markup Language (SAML) URL.
+1. Follow the prompts to log in to [!DNL Workfront] using Enhanced Authentication, OAuth 2.0, or your Security Assertion Markup Language (SAML) URL.
 
    >[!NOTE]
    >
-   >* When you are prompted to enter the host of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
-   >* Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
+   >* When you are prompted to enter the host of your [!DNL Workfront] account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
+   >* Enhanced Authentication is not available until a [!DNL Workfront] administrator enables it for this integration.
 
-   The configuration page for Workfront notifications in Slack opens.
 
-1. (Optional) Disable any Workfront notifications that you do not want to receive in Slack.  
+   The configuration page for [!DNL Workfront] notifications in [!DNL Slack] opens.
 
-   For information about configuring Workfront settings for Slack, see the [Configure settings](#configure-settings) section in this article
+1. (Optional) Disable any [!DNL Workfront] notifications that you do not want to receive in Slack.
+
+   For information about configuring [!DNL Workfront] settings for Slack, see the [[!UICONTROL Configure settings]](#configure-settings) section in this article
 
 1. Navigate back to your Slack channel.
-  
-   You are logged in to Workfront from your Slack instance.&nbsp;
 
-## Access Workfront from Slack
+   You are logged in to [!DNL Workfront] from your Slack instance.&nbsp;
 
-* [About slash commands](#about-slash-commands) 
-* [Access Workfront from a shared link in Slack](#access-workfront-from-a-shared-link-in-slack)
+## Access [!DNL Workfront] from [!DNL Slack]
 
-## Access Workfront from a slash command in Slack {#access-workfront-from-a-slash-command-in-slack}
+* [About slash commands](#about-slash-commands)
+* [Access [!DNL Workfront] from a shared link in [!DNL Slack]](#access-workfront-from-a-shared-link-in-slack)
 
-1. Log in to your Slack instance and log in to Workfront from Slack.  
+## Access [!DNL Workfront] from a slash command in [!DNL Slack] {#access-workfront-from-a-slash-command-in-slack}
+
+1. Log in to your Slack instance and log in to [!DNL Workfront] from Slack.\
    For more information about logging in to Workfront from Slack, see [Log in to Workfront from Slack](#log-in-to-workfront-from-slack)
 
-1. From any channel, start typing the following command in the message field:&nbsp;  
+1. From any channel, start typing the following command in the message field:&nbsp;
 
-   `/workfront help` 
-   
+   `/workfront help`
+
    Or
-     
+
    `/wf help`
 
 1. Select from the following commands:&nbsp;
 
-   * `/wf home` 
-   
-     Displays buttons from which you can access lists of your tasks, issues, and approvals. Clicking one of the buttons displays the first 20 items of each list in Slack.
+   * `/wf home`
 
-     ![](assets/slack-home-buttons-350x80.png)
+      Displays buttons from which you can access lists of your tasks, issues, and approvals. Clicking one of the buttons displays the first 20 items of each list in Slack.
 
-     For more information about managing Workfront work items from Slack, see [Manage your work and approvals from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
-   
+      ![](assets/slack-home-buttons-350x80.png)
+
+      For more information about managing [!DNL Workfront] work items from Slack, see [Manage your work and approvals from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
+
    * `/wf add task <TaskName>`
 
-     Include the name of the task as it will appear in the Workfront interface.
+      Include the name of the task as it will appear in the [!DNL Workfront] interface.
 
-     Adds a task to Workfront.
+      Adds a task to Workfront.
 
-     For more information about adding tasks to Workfront from Slack, see the "Creating Tasks from Slack" section in [Create tasks and issues from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
-   
+      For more information about adding tasks to [!DNL Workfront] from Slack, see the "Creating Tasks from Slack" section in [Create tasks and issues from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
+
    * `/wf add issue <Issue Name>`
 
-     Include the name of the issue as it will appear in the Workfront interface.   
-     
-     Adds an issue to Workfront  
+      Include the name of the issue as it will appear in the [!DNL Workfront] interface.
 
-     For more information about adding issues to Workfront from Slack, see the "Creating Issues from Slack" section in [Create tasks and issues from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
-   
+      Adds an issue to [!DNL Workfront]
+
+      For more information about adding issues to [!DNL Workfront] from Slack, see the "Creating Issues from Slack" section in [Create tasks and issues from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
+
    * `/wf favorites`
 
-     Displays the list of your Workfront Favorites.  
+      Displays the list of your [!DNL Workfront] Favorites.
 
-     For more information about accessing your Favorites from Slack, see the [Accessing Your Favorites List from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-favorites) section in the [Accessing Your Favorites and Recent Items from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) article.
-   
+      For more information about accessing your Favorites from Slack, see the [Accessing Your Favorites List from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-favorites) section in the [Accessing Your Favorites and Recent Items from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) article.
+
    * `/wf recent`
 
-     Displays the list of your most recently accessed items in Workfront.  
+      Displays the list of your most recently accessed items in Workfront.
 
-     For more information about accessing your Recent Items from Slack, see the [Accessing Your Recent Items List from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-recent-items) section in the [Access your favorites and recent items from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) article.
+      For more information about accessing your Recent Items from Slack, see the [[!UICONTROL Accessing Your Recent Items] List from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-recent-items) section in the [[!UICONTROL Access your favorites] and [!UICONTROL recent items from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) article.
 
    * `wf tasks`
 
-     Displays a list of your tasks.
+      Displays a list of your tasks.
 
-     For more information about managing your tasks from Slack, see the "Managing Your Tasks from Slack" section in [Managing Your Work and Approvals from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
-   
+      For more information about managing your tasks from Slack, see the "Managing Your Tasks from Slack" section in [Managing Your Work and Approvals from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
+
    * `/wf issues`
 
-     Displays a list of your issues.
+      Displays a list of your issues.
 
-     For more information about managing your issues from Slack, see the "Managing Your Issues from Slack" section in [Managing Your Work and Approvals from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
+      For more information about managing your issues from Slack, see the "Managing Your Issues from Slack" section in [Managing Your Work and Approvals from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
 
-   * `/wf approvals` Displays your Workfront approvals.  
-     For more information about managing your approvals from Slack, see the "Managing Your Approvals from Slack" section in [Manage your work and approvals from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).  
+   * `/wf approvals` Displays your [!DNL Workfront] approvals.\
 
-   * `/wf search <keyword>`   
-   
-     Include keyword.
+      For more information about managing your approvals from Slack, see the "Managing Your Approvals from Slack" section in [Manage your work and approvals from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
 
-     Search for a specific keyword. You can search for the following types objects:
+   * `/wf search <keyword>`
 
-      * Project 
-      * Task&nbsp; 
-      * Issue 
-      * Report 
-      * People 
-      * Template 
-      * Document 
-      * Portfolio 
-      * Program 
-      * Dashboard 
-      * Company 
-      * Note &nbsp;  
-        For more information about searching in Slack, see [Search for Adobe Workfront items from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
+      Include keyword.
 
-   * `/wf log in` 
-   
-     Logs you in to Workfront from Slack.&nbsp; 
+      Search for a specific keyword. You can search for the following types objects:
 
-   * `/wf log out ` 
-   
-     Logs you out of Workfront from Slack. You remain logged in to Workfront if you have a separate Workfront instance open in another browser tab on in another application.&nbsp; 
-   * `/wf settings` 
-   
-     Gives you access to configuring your Workfront settings in Slack.
+      * Project
+      * Task&nbsp;
+      * Issue
+      * Report
+      * People
+      * Template
+      * Document
+      * Portfolio
+      * Program
+      * Dashboard
+      * Company
+      * Note &nbsp;\
 
-     For information about configuring Workfront settings in Slack, see [Configure settings](#configure-settings).
-   
-   * `/wf help` 
-     Displays a complete list of commands for Workfront.&nbsp; 
+         For more information about searching in [!DNL Slack], see [Search for [!DNL Adobe Workfront] items from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
+   * `/wf log in`
+
+      Logs you in to [!DNL Workfront] from Slack.&nbsp;
+
+   * `/wf log out `
+
+      Logs you out of [!DNL Workfront] from Slack. You remain logged in to [!DNL Workfront] if you have a separate [!DNL Workfront] instance open in another browser tab on in another application.&nbsp;
+   * `/wf settings`
+
+      Gives you access to configuring your [!DNL Workfront] settings in Slack.
+
+      For information about configuring Workfront settings in Slack, see [Configure settings](#configure-settings).
+
+   * `/wf help`
+Displays a complete list of commands for Workfront.&nbsp;
 
 
-   * `Visit Workfront Help`: Opens the Slack section on the Workfront Help Site in a new browser tab.&nbsp;
+   * `Visit Workfront Help`: Opens the [!UICONTROL Slack] section on the [!DNL Workfront] Help Site in a new browser tab.&nbsp;
 
-1. (Optional) To delete the message of any command, mouse over the upper-right corner of the Slack message containing the command and click**Show message actions**, then click **Delete message**. 
 
-1. (Optional and conditional) Click **Delete** to confirm you want to delete this message.&nbsp;
+1. (Optional) To delete the message of any command, mouse over the upper-right corner of the Slack message containing the command and click&#x200B;**Show message actions**, then click **Delete message**.
 
-### Access Workfront from a shared link in Slack {#access-workfront-from-a-shared-link-in-slack}
+1. (Optional and conditional) Click **[!UICONTROL Delete]** to confirm you want to delete this message.&nbsp;
 
-You can access Workfront objects from a link to those objects that is shared with you in Slack.&nbsp;
+### Access [!DNL Workfront] from a shared link in [!DNL Slack] {#access-workfront-from-a-shared-link-in-slack}
+
+You can access [!DNL Workfront] objects from a link to those objects that is shared with you in Slack.&nbsp;
 
 For more information about accessing Workfront from a shared link, see [Access Adobe Workfront objects from a shared link in Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md).
 
 ## Configure settings {#configure-settings}
 
-1. Inside a Slack message field, type the following command:  
+1. Inside a Slack message field, type the following command:
 
-   `/workfront settings` 
-   
-   Or  
+   `/workfront settings`
 
-   `/wf settings` 
-   
+   Or
+
+   `/wf settings`
+
    ![](assets/slack-configuring-settings-350x302.png)
 
    All settings are enabled by default.
 
 1. Deselect from the following options, to disable your settings for Workfront:
 
-   * In the **General Settings** area, disable the **When pasting a Workfront URL in a Slack channel, show additional description, due date, or requestor name.**setting if you do not want Slack to add additional information about your Workfront objects when you share a URL to the object in Slack.
-   
-   * In the **Notifications Settings** area, disable notifications that you want to stop receiving from Workfront.  
-     For information about receiving Workfront notifications in Slack, see [Receive Adobe Workfront notifications in Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+   * In the **[!UICONTROL General Settings]** area, disable the **When pasting a [!DNL Workfront] URL in a [!DNL Slack] channel, show additional description, due date, or requestor name.**&#x200B;setting if you do not want Slack to add additional information about your [!DNL Workfront] objects when you share a URL to the object in Slack.
 
-## Log out of Workfront from Slack&nbsp;
+   * In the **[!UICONTROL Notifications Settings]** area, disable notifications that you want to stop receiving from Workfront.\
 
-1. Inside a Slack message field, type the following command:  
-   `/workfront log out` Or  
-   `/wf log out`  
-   You receive a confirmation that you have been logged out of Workfront.  
-   You remain logged in to Workfront if you have a separate Workfront instance open in another browser tab on in another application.&nbsp;
+      For information about receiving [!DNL Workfront] notifications in Slack, see [Receive Adobe Workfront notifications in Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+
+## Log out of [!DNL Workfront] from Slack&nbsp;
+
+1. Inside a Slack message field, type the following command:\
+   `/workfront log out` Or\
+   `/wf log out`\
+   You receive a confirmation that you have been logged out of Workfront.\
+   You remain logged in to [!DNL Workfront] if you have a separate [!DNL Workfront] instance open in another browser tab on in another application.&nbsp;
