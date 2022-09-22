@@ -13,8 +13,8 @@ If you have [!UICONTROL Manage] permissions to a folder or a collection, you can
 
 When you change the cover image, it is changed for all users who have access to the folder or collection.
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
-1. In the upper-left corner of [!DNL Workfront Library], click the **Menu** icon.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon.
 1. Navigate to the folder or collection that you want to change, hover over it and click the **[!UICONTROL More]** icon in the upper-right corner.
 1. Select **[!UICONTROL Select cover image]** in the drop-down menu.
 
@@ -24,7 +24,7 @@ When you change the cover image, it is changed for all users who have access to 
 
    You can choose any asset thumbnails in your [!UICONTROL Library], [!UICONTROL My Content], or [!UICONTROL Collections] areas. You cannot use an expired or hidden item as a cover image.
 
-1. &nbsp;Select the image, then click **Save.**
+1. &nbsp;Select the image, then click **[!UICONTROL Save].**
 
    The new image displays on the cover of the folder.
 

@@ -11,7 +11,7 @@ exl-id: 7f9249eb-af41-41d3-9498-1580e70aa03f
 
 As a [!DNL Workfront Library] administrator, you can set up your organization's taxonomy to gather the information your users search for and to track content. For more information about the different types of taxonomy you can collect, see [Overview of taxonomy metadata in [!DNL Workfront Library]](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **[!UICONTROL Setup]** > **[!UICONTROL Taxonomy]**.
 1. Click **[!UICONTROL Add Field]**, then select the type of field you want to add to your taxonomy.

@@ -17,7 +17,7 @@ When you delete a keyword from the picklist, the keyword is also removed from al
 >
 >When you delete a keyword from the picklist, all child keywords related to the deleted keyword are deleted from the picklist and from all tagged assets.
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **[!UICONTROL Setup]**> **[!UICONTROL Keywords]**.
 1. Hover over the keyword you want to delete, and click the **[!UICONTROL trash can]** icon.

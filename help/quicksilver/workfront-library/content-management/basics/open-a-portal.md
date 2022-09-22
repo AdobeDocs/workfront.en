@@ -23,7 +23,7 @@ When you are first given access to a portal, [!DNL Workfront] sends you an email
 
 ## Open a portal from within [!DNL Workfront Library]
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon !![main menu icon] (assets/main-menu-icon.png, then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon !![main menu icon] (assets/main-menu-icon.png, then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 
    If the [!DNL Workfront Library] icon does not display on your Global Navigation Bar, then you don't have access to [!DNL Workfront Library]. Talk with your [!DNL Workfront Library] administrator for access.
 

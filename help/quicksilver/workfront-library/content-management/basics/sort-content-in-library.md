@@ -13,7 +13,7 @@ You can sort the items that display in an area in [!DNL Workfront Library]. You 
 
 When you sort items in [!DNL Workfront Library], you sort only your instance of [!DNL Workfront Library].
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. Select the area you want to sort.
 

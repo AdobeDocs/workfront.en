@@ -9,17 +9,17 @@ exl-id: 613cf80a-ddb6-4650-b516-3dfe39396061
 ---
 # Filter for expired content in [!DNL Workfront Library]
 
-Depending on how your Workfront Library administrator setup the Expiration feature, you might be able to view expired content by enabling the [!UICONTROL Show Expired] filter. For more information on expired content, see [Set up content expiration in Workfront Library](../../../workfront-library/administration-and-setup/workfront-library-setup/set-up-content-expiration-in-library.md).
+Depending on how your [!DNL Workfront Library] administrator setup the Expiration feature, you might be able to view expired content by enabling the [!UICONTROL Show Expired] filter. For more information on expired content, see [Set up content expiration in [!DNL Workfront Library]](../../../workfront-library/administration-and-setup/workfront-library-setup/set-up-content-expiration-in-library.md).
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
-1. Click the **Filter** icon.\
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. Click the **[!UICONTROL Filter]** icon.\
    ![](assets/filter-icon-location-350x102.png)
 
    >[!TIP]
    >
-   >Depending on the view you have activated, the name displayed on the Content View drop-down menu can be either Name, Relevant, or Last Modified.
+   >Depending on the view you have activated, the name displayed on the [!UICONTROL Content View] drop-down menu can be either [!UICONTROL Name], [!UICONTROL Relevant], or [!UICONTROL Last Modified].
 
-1. In the **Filter** menu, enable the **[!UICONTROL Show Expired]** toggle.
+1. In the **[!UICONTROL Filter]** menu, enable the **[!UICONTROL Show Expired]** toggle.
 
    ![](assets/show-expired-filter-350x237.png)
 

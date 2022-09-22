@@ -11,11 +11,11 @@ exl-id: d80a5d46-a106-4fbf-9891-804a78f4fe32
 
 When you no longer want an item in a folder or in your [!UICONTROL My Content] area, you can relocate it by first adding it to a new location and then removing it from its original location. You can relocate only items to which you have Manage access.
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
-1. In the upper-left corner of [!DNL Workfront Library], click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. Select the area where the item you want to remove is located.
 
-   You can choose My Content or Collections.
+   You can choose [!UICONTROL My Content] or [!UICONTROL Collections].
 
    ![](assets/library-left-panel---new-350x217.png)
 
@@ -28,7 +28,7 @@ When you no longer want an item in a folder or in your [!UICONTROL My Content] a
 1. Click the plus sign next to the location where you want to relocate the item.
 1. (Optional) Continue to open folders until you locate where you want to move the item.
 1. Click **[!UICONTROL Remove from original location]** to remove the item from where you accessed it in Step 4.
-1. Click **Move**.
+1. Click **[!UICONTROL Move]**.
 
    The item is added to the new location and removed from the original location.
 

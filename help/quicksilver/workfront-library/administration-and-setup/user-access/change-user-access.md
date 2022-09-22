@@ -15,7 +15,7 @@ As a [!DNL Workfront Library] administrator, you can change a user's access leve
 
 When you change a user's individual access to [!DNL Workfront Library], any access that the user has through a user grouping is not affected.
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon.
 1. In the left panel, click **[!UICONTROL Setup]** > **[!UICONTROL Users]**.
 1. Hover over a user's row, click the [!UICONTROL More] menu next to the user's name, and select **[!UICONTROL Change access level]** from the drop-down list that appears.
@@ -28,7 +28,7 @@ When you change a user's individual access to [!DNL Workfront Library], any acce
 
 When you change the access level of a user grouping, you change the access of the users who are members of the grouping.
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 1. In the upper-left corner of , click the **[!UICONTROL Menu]** icon.
 1. In the left panel, click **[!UICONTROL Setup]**, then in the **[!UICONTROL Access]** section, select the type of user grouping that you want to change access for:
 

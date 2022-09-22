@@ -15,7 +15,7 @@ As a [!DNL Workfront Library] administrator, you can transfer all of the asset i
 
 To transfer all of a user's content:
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon.
 1. In the left panel, click **[!UICONTROL Setup]** > **[!UICONTROL Users]**.
 
@@ -38,7 +38,7 @@ To transfer all of a user's content:
 
 To transfer a single asset:
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. Select **[!UICONTROL All Content]** from the left menu.
 1. (Optional) Filter to find the assets you want to transfer. To filter by Owner, see the [Filter by owner](../../../workfront-library/administration-and-setup/manage-assets/manage-assets-for-other-users.md#filter) section in [Manage assets for other users](../../../workfront-library/administration-and-setup/manage-assets/manage-assets-for-other-users.md). To filter by other facets, see [Filter content displayed in [!DNL Workfront Library]](../../../workfront-library/content-management/basics/filter-content-displayed.md).

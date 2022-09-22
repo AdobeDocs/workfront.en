@@ -15,13 +15,13 @@ In [!DNL Workfront Library], the active (or current) version of content is packa
 
 You cannot search for an older version of content. Instead, you must search for the name of the active version. Once you have the active version open, you access the older versions.
 
-Users with View permission to content can view only the active version.
+Users with [!UICONTROL View] permission to content can view only the active version.
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
-1. In the upper-left corner of [!DNL Workfront Library], click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. Select the area where the active version is located.
 
-   You can choose Library, My Content , or Collections.
+   You can choose [!UICONTROL Library], [!UICONTROL My Content], or [!UICONTROL Collections].
 
    ![](assets/library-left-panel---new-350x217.png)
 
@@ -32,4 +32,4 @@ Users with View permission to content can view only the active version.
 
 1. Click the **[!UICONTROL Version]** drop-down arrow following the content title, then select the version that you want to view.
 
-   For information on downloading older version of content, see [Download items from Workfront Library](../../../workfront-library/content-management/basics/download-content-from-library.md).
+   For information on downloading older version of content, see [Download items from [!DNL Workfront Library]](../../../workfront-library/content-management/basics/download-content-from-library.md).

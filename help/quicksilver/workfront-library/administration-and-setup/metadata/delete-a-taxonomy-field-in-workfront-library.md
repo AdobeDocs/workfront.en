@@ -13,7 +13,7 @@ On rare occasion you might need to delete a taxonomy field. When you delete a ta
 
 Only a [!DNL Workfront Library] administrator can delete a taxonomy field. For more information on taxonomy, see [Overview of taxonomy metadata in [!DNL Workfront Library]](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **[!UICONTROL Setup] >** **[!UICONTROL Taxonomy]**.
 1. Hover over the field you want to delete, then click **[!UICONTROL Edit]**.

@@ -13,7 +13,7 @@ You can view all the work requests you've submitted. For information on submitti
 
 Users with [!UICONTROL Manager] or higher access to [!DNL Workfront Library] can view requests other users have submitted.
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **[!UICONTROL Requests]** >**[!UICONTROL Requests I've Submitted]**.
 

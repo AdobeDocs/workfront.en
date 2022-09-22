@@ -11,7 +11,7 @@ exl-id: 7954e6f9-7e6b-4307-a8e0-10082adf0399
 
 ## Views in [!DNL Workfront Library]
 
-Workfront Library allows you to select the view you want to use, so that the information you need is readily available. There are two types of views:
+[!DNL Workfront Library] allows you to select the view you want to use, so that the information you need is readily available. There are two types of views:
 
 * **Grid view**&#x200B;**:** The default view, which shows thumbnails of your [!DNL Workfront Library] assets. To switch to grid view, click the **[!UICONTROL Show grid view]** icon ![](assets/grid-view-icon.png).
 
@@ -34,12 +34,12 @@ To create a custom list view:
 
 1. Do any of the following:
 
-   * Filter for the items you want to display. For more information, see [Filter content displayed in Workfront Library](../../workfront-library/content-management/basics/filter-content-displayed.md).
-   * Select the columns you want to display by clicking the **Toggle Columns** icon ![](assets/columns-icon.png) and selecting your columns from the drop-down list. The available columns are based on the metadata available for your assets. The columns will appear in the order they are in the list, and the order cannot be changed.
+   * Filter for the items you want to display. For more information, see [Filter content displayed in [!DNL Workfront Library]](../../workfront-library/content-management/basics/filter-content-displayed.md).
+   * Select the columns you want to display by clicking the **[!UICONTROL Toggle Columns]** icon ![](assets/columns-icon.png) and selecting your columns from the drop-down list. The available columns are based on the metadata available for your assets. The columns will appear in the order they are in the list, and the order cannot be changed.
 
    * Modify the column width by moving your mouse to the header row, hovering over the border of the column you want to resize, and dragging the border to resize the column.
 
-1. To save this view, click the **[!UICONTROL Saved views]** icon ![](assets/saved-views-icon.png), type a name into the **[!UICONTROL New view name]** field in the drop-down menu, and click **Saved view**.
+1. To save this view, click the **[!UICONTROL Saved views]** icon ![](assets/saved-views-icon.png), type a name into the **[!UICONTROL New view name]** field in the drop-down menu, and click **[!UICONTROL Saved view]**.
 
 ## Return to a saved list view
 

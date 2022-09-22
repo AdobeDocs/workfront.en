@@ -19,7 +19,7 @@ Each filter on the [!UICONTROL Filter] panel contains facets, which are filters 
 
 If your organization allows you to add keywords to uploaded content, you can enhance your filtering by selecting the keywords you want to filter for.
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. Select the area you want to filter.
 

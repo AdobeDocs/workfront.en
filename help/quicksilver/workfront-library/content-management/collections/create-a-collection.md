@@ -9,7 +9,7 @@ exl-id: 614feb3f-c531-4208-b073-089606758c53
 ---
 # Create a collection in [!DNL Workfront Library]
 
-You can organize content by adding it to collections that you have created or that have been shared with you. For information on sharing collections, see [Share a Workfront Library item with other users](../../../workfront-library/content-management/share-an-asset-with-users.md).
+You can organize content by adding it to collections that you have created or that have been shared with you. For information on sharing collections, see [Share a [!DNL Workfront Library] item with other users](../../../workfront-library/content-management/share-an-asset-with-users.md).
 
 When you create a collection, you have the option to select the image you want as the collection cover image. If you don't select a cover image, the collection thumbnail is gray as long as the collection remains empty. When you add content to the collection, [!DNL Workfront Library] randomly selects a cover image from the added content. If a collection contains only folders, the cover remains gray.
 
@@ -19,8 +19,8 @@ For information on changing the cover image, see [Change the cover image on an i
 
 You&nbsp;can create an unlimited number of collections.&nbsp;
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
-1. In the upper-left corner of [!DNL Workfront Library], click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. Click **[!UICONTROL Collections]** in the left panel.
 
    ![](assets/library-left-panel-collections--new-350x217.png)
@@ -42,7 +42,7 @@ You&nbsp;can create an unlimited number of collections.&nbsp;
 
       >[!NOTE]
       >
-      >The image you select remains as the cover image, even if the asset is updated with a new version or is deleted from Workfront Library. For information on changing a cover image, see [Change the cover image on an item in Workfront Library](../../../workfront-library/content-management/change-cover-image-of-folder.md).
+      >The image you select remains as the cover image, even if the asset is updated with a new version or is deleted from [!DNL Workfront Library]. For information on changing a cover image, see [Change the cover image on an item in [!DNL Workfront Library]](../../../workfront-library/content-management/change-cover-image-of-folder.md).
 
    1. Select the image, then click **[!UICONTROL Save]**.
 
@@ -50,4 +50,4 @@ You&nbsp;can create an unlimited number of collections.&nbsp;
 
       ![](assets/collection-cover-350x214.png)
 
-      You can now add assets to the collection. For information on adding assets, see [Add items to a collection in Workfront Library](../../../workfront-library/content-management/collections/add-items-to-a-collection.md).
+      You can now add assets to the collection. For information on adding assets, see [Add items to a collection in [!DNL Workfront Library]](../../../workfront-library/content-management/collections/add-items-to-a-collection.md).

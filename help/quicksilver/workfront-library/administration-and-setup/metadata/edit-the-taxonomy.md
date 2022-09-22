@@ -24,7 +24,7 @@ You can make the following modifications to a taxonomy field:
 
 Any changes you make to the taxonomy are applied to the metadata of all new assets uploaded. The changes do not apply to assets already in [!DNL Workfront Library]. However, when a user opens an asset that was in [!DNL Workfront Library] prior to the changes you made to the taxonomy, the modified taxonomy is applied to the asset's [!UICONTROL Detail] panel.
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **[!UICONTROL Setup] >** **[!UICONTROL Taxonomy]**.
 1. Hover over the field you want to edit, then click **[!UICONTROL Edit]**.

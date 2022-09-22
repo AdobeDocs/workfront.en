@@ -13,31 +13,31 @@ Metadata consists of information that describes the attributes and content of an
 
 To bulk edit metadata:
 
-1. In [!DNL Workfront], click the **[!UICONTROL Workfront Library]** icon on the Global Navigation Bar to open [!UICONTROL Workfront Library] in a new browser tab.
+1. In [!DNL Workfront], click the **[!DNL Workfront Library]** icon on the Global Navigation Bar to open [!UICONTROL Workfront Library] in a new browser tab.
 
    ![](assets/workfront-library-icon-350x186.jpg)
 
-   In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+   In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 
-1. In the upper-left corner of [!DNL Workfront Library], click the **Menu** icon.
+1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon.
 1. Select the area where the asset is located:
 
-   * **Library**
-   * **My Content**
-   * **Collections**
+   * **[!UICONTROL Library]**
+   * **[!UICONTROL My Content]**
+   * **[!UICONTROL Collections]**
 
 1. On your keyboard, hold the **CTRL** key—or **COMMAND** key for Mac users—and click on each thumbnail of the asset you would like to edit metadata for.
-1. After selecting all assets, click the **[!UICONTROL Details] Slideout** icon ![](assets/details-icon.png)in the upper-right corner to display the metadata details for the selected assets.
-1. In the Details slideout, click **Edit**.
+1. After selecting all assets, click the **[!UICONTROL Details Slideout]** icon ![](assets/details-icon.png)in the upper-right corner to display the metadata details for the selected assets.
+1. In the [!UICONTROL Details] slideout, click **[!UICONTROL Edit]**.
 
-   Any changes you make during these edits are applied to all selected assets. If the selections for a field vary between assets, the text “Mixed” appears in the field.
+   Any changes you make during these edits are applied to all selected assets. If the selections for a field vary between assets, the text "[!UICONTROL Mixed]" appears in the field.
 
-1. (Optional) Enter a new **Expiration Date** or click the **[!UICONTROL No Date]** checkbox. When the assets reach the expiration date, users with View access can no longer see the content.
+1. (Optional) Enter a new **[!UICONTROL Expiration Date]** or click the **[!UICONTROL No Date]** checkbox. When the assets reach the expiration date, users with [!UICONTROL View] access can no longer see the content.
 1. Make changes to the remainder of the metadata fields to update all selected assets.
 
    >[!NOTE]
    >
-   >Depending on the type of field you're updating, you make changes differently.    >
+   >Depending on the type of field you're updating, you make changes differently.    
    >   
    >   
    >   * **Date**: To change a date, click the field and select a date from the pop-up that appears.
@@ -52,4 +52,4 @@ To bulk edit metadata:
 
    ![](assets/selected-keywords-350x403.png)
 
-1. When finished, scroll to the top of the Details slideout and click **Save**.
+1. When finished, scroll to the top of the [!UICONTROL Details] slideout and click **[!UICONTROL Save]**.

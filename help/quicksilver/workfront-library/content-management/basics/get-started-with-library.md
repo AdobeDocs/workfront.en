@@ -42,7 +42,7 @@ If you have Manager or higher access to Workfront Library, you can upload conten
 
 Once you have your assigned access level, you can open [!UICONTROL Workfront Library] from Workfront. Click the **[!DNL Workfront Library]** icon in the upper-right corner of the Global Navigation Bar.
 
-In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 
 ![](assets/library-left-panel---new-350x217.png)
 

@@ -25,28 +25,28 @@ When you rename an asset, [!DNL Workfront Library] changes the file name of the 
 
 You can rename only the active (or current) version of an asset in [!DNL Workfront Library]. Older versions of the asset cannot be edited.
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
-1. In the upper-left corner of [!DNL Workfront Library], click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. Select the area where the content you want to rename is located.
 
-   You can choose [!UICONTROL Library] or My Content.
+   You can choose [!UICONTROL Library] or [!UICONTROL My Content].
 
    ![](assets/library-left-panel---new-350x217.png)
 
 1. (Conditional) If you are in the list view, click the **[!UICONTROL Show grid view]** icon ![](assets/grid-view-icon.png) to switch to the grid view.
 1. Navigate to the thumbnail for the content and hover, then click the **[!UICONTROL More]** icon in the upper-right corner.
 1. Select **[!UICONTROL Rename]** in the drop-down menu.
-1. Type the new name, then press **Enter**.
+1. Type the new name, then press **[!UICONTROL Enter]**.
 
 ## Rename a folder
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
-1. In the upper-left corner of [!DNL Workfront Library], click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. Select the area where the folder you want to rename is located.
 
-   You can choose [!UICONTROL Library] or My Content.
+   You can choose [!UICONTROL Library] or [!UICONTROL My Content].
 
 1. (Conditional) If you are in the list view, click the **[!UICONTROL Show grid view]** icon ![](assets/grid-view-icon.png) to switch to the grid view.
 1. Navigate to the folder thumbnail and hover, then click the **[!UICONTROL More]** icon in the upper-right corner.
 1. Select **[!UICONTROL Rename]** in the drop-down menu.
-1. Type the new name, then press **Enter**.
+1. Type the new name, then press **[!UICONTROL Enter]**.

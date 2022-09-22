@@ -15,7 +15,7 @@ As a [!DNL Workfront Library] administrator, you can determine the order that ta
 
 For more information about taxonomy, see [Overview of taxonomy metadata in [!DNL Workfront Library]](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **[!UICONTROL Setup] >** **[!UICONTROL Taxonomy]**.
 1. Locate the field you want to move, then drag the field to the desired order.

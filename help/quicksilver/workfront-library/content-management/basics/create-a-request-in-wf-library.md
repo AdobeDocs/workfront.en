@@ -13,7 +13,7 @@ You can create a work request, such as a request for content to be created, and 
 
 Before users can create a request in [!DNL Workfront Library], a [!DNL Workfront] system administrator must create a request queue and make it available to users. For more information on request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!UICONTROL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
 1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **[!UICONTROL Requests]** >**[!UICONTROL Make a Request]**.
 1. Click in the **[!UICONTROL Select a Request Type]** box, and in the drop-down list, select the request queue you want to send your request.
