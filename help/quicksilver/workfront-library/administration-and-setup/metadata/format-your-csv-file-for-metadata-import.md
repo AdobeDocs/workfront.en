@@ -84,7 +84,7 @@ If an asset already has metadata information in [!DNL Workfront Library] but the
  <tbody> 
   <tr> 
    <td role="rowheader"> <p><strong>Single-select fields</strong> </p> </td> 
-   <td>Regardless of whether metadata exists for the asset already, the tag entered in the column of a single-select field is mapped to the asset listed and all previous selections are removed from that field. If there are multiple tags listed for a single-select metadata]option, only the first tag maps to the asset. However, the additonal tags listed will be added as options if they weren't already options for that field.</td> 
+   <td>Regardless of whether metadata exists for the asset already, the tag entered in the column of a single-select field is mapped to the asset listed and all previous selections are removed from that field. If there are multiple tags listed for a single-select metadata option, only the first tag maps to the asset. However, the additonal tags listed will be added as options if they weren't already options for that field.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p><strong>Multi-select fields</strong> </p> </td> 
