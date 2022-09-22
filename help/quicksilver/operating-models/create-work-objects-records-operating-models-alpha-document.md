@@ -8,7 +8,7 @@ hide: yes
 
 # Design flexible operating models in Adobe Workfront
 
-Currently, the work hierarchy in Adobe Workfront is very strict and only allows for the Portfolio-Program-Project relationships between larger work objects (in this order).  
+Currently, the work hierarchy in Adobe Workfront is set and only allows for the Portfolio-Program-Project relationships between larger work objects (in this order).  
 
 Using the new operating model capabilities, you can define the types of work objects you want to work with as well as the relationships between them, or their place in the hierarchy of objects.  
 
@@ -27,9 +27,9 @@ After defining your work objects and designing your operational model's structur
 
 ## Prerequisites 
 
-* To create an operating model or to later create work records, you must first decide what work objects you want. You can use existing work objects or create new ones.  
+* To create an operating model or to later create work records, you must first decide what work objects you want. You can use existing work objects or create them from scratch.  
 
-## Create work objects 
+## Create a work object 
 
 1. Log in to your instance of Workfront in the Preview environment.  
 1. Click the **Main menu** icon ![](assets/dots-main-menu-icon.png), then click **Setup**.  
@@ -40,12 +40,12 @@ After defining your work objects and designing your operational model's structur
     The Work objects page displays with a list of work objects.  
 
 
-1. Click **Create a work object** in the upper-right corner to create a new object.  
+1. Click **Create a work object** in the upper-right corner to create an object.  
 1. Update the name for the work object.
 
     ![](assets/new-work-object-untitled.png)
 
-1. (Optional) Expand the icon to the left of the object name to select a new icon and color for the new work object. 
+1. (Optional) Expand the icon to the left of the object name to select a new icon an icon color for the new work object. 
 
     ![](assets/change-work-object-icon-expanded-and-highlighted.png)
 
@@ -79,7 +79,7 @@ After defining your work objects and designing your operational model's structur
     
     The Operating models page displays.  
 
-1. Click **Create operating model** in the upper-right corner to create a new structure for your work.
+1. Click **Create operating model** in the upper-right corner to create a structure for your work.
 
 1. Update the name of the operating model. 
 
@@ -93,7 +93,7 @@ After defining your work objects and designing your operational model's structur
 
     Or
 
-    Click **Create work object** to create a new work object. Follow steps 5-7 to create a work object.
+    Click **Create work object** to create a work object. Follow steps described in the [Create a work object](#create-work-objects) section in this article. 
 
     >[!NOTE]
     >
@@ -118,7 +118,7 @@ After defining your work objects and designing your operational model's structur
     
     The Work records page displays.
 
-1. Click **Create New** in the upper-right corner of the screen to create a new work record.
+1. Click **Create New** in the upper-right corner of the screen to create a work record.
 
     ![](assets/create-new-work-object-form-empty.png)
 
