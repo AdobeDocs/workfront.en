@@ -123,7 +123,7 @@ The two areas of the Workload Balancer display the following information:
   </tr> 
   <tr> 
    <td role="rowheader">Assigned Work</td> 
-   <td> <p> All active users in the system display in this area by default.&nbsp;We recommend using filters to limit the amount of information in this area.  </p> <p>Both tasks and issues display in the Assigned Work area. </p> <p>Projects display when the Group by Project setting is enabled.</p> <p>The work items that the users are assigned to display under their names. </p> <p>If a work item is assigned to multiple users, the item displays under each assigned user. </p> </td> 
+   <td> <p> All active users in the system display in this area by default. We recommend using filters to limit the amount of information in this area.  </p> <p>Both tasks and issues display in the Assigned Work area. </p> <p>Projects display when the Group by Project setting is enabled.</p> <p>The work items that the users are assigned to display under their names. </p> <p>If a work item is assigned to multiple users, the item displays under each assigned user. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,8 +140,6 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Resourcing**.
 1. Click **Workload Balancer** in the left panel.
-
-   You might need to click **Scheduling**, then select **Workload Balancer** in the upper-left corner. <!--(NOTE: take this out when Scheduling is removed)-->
 
    The Workload Balancer displays work assignment information starting with the current week. The names of work items are listed on the left side as well as represented by bars on the right side of the of the Workload Balancer within their respective timelines. By default, blue bars represent the timelines of projects and tasks and maroon bars represent issues.
 

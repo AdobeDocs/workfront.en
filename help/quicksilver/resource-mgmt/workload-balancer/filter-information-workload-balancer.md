@@ -7,7 +7,7 @@ author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
 ---
-# Manage filters in the Workload Balancer
+# Filter information in the Workload Balancer
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
