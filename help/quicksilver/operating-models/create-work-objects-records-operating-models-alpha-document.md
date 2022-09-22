@@ -87,7 +87,7 @@ After defining your work objects and designing your operational model's structur
 
 1. Update the name of the operating model. 
 
-    ![](assets/new-operating%20model-blank-canvas-untitled.png)
+    ![](assets/new-operating model-blank-canvas-untitled.png)
 
 1. Add existing objects from Workfront or other Experience Cloud applications 
 
