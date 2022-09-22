@@ -1,14 +1,10 @@
 ---
-product-area: operating-models; setup
-navigation-topic: operating-models
 title: Design flexible operating models in Adobe Workfront
 description: Hidden from search and from the left nav
-author: Alina
-feature: Operating Models
 hidefromtoc: yes
 hide: yes
 ---
-<!--this article is hidden-->
+<!--this article is hidden; when you make this public maybe create a new one to avoid writing a redirect? And also keeping this hidden or drafting it? -->
 
 # Design flexible operating models in Adobe Workfront
 

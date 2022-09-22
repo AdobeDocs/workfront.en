@@ -1,10 +1,6 @@
 ---
-product-area: operating-models; setup
-navigation-topic: operating-models
 title: Design flexible operating models in Adobe Workfront to create a system of record
 description: Hidden from search and from the left nav
-author: Alina
-feature: Operating Models
 hidefromtoc: yes
 hide: yes
 ---
