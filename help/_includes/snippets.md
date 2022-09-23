@@ -104,6 +104,16 @@ To set up linked folders:
 
 <!-- Integrations -->
 
+<!-- Creative Cloud Plugins -->
+
+## Prerequisites {#cc-install-prereq}
+
+You must install the correct plugin for the Adobe Creative Cloud application you’re using:
+* For Photoshop, see [Install Workfront for Adobe Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md)
+* For XD, see [Install Workfront for Adobe XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+* For InDesign, see [Install Workfront for Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+
+
 <!-- Log Time -->
 
 <!-- Manage Work -->

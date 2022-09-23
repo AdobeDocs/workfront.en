@@ -1,15 +1,21 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Install Workfront for Adobe Photoshop
-description: You can install the Workfront for Adobe Photoshop plugin from the Adobe Marketplace.
+title: Install Workfront for Creative Cloud
+description: You can install the Workfront for Creative Cloud plugin from the Adobe Marketplace. 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
 ---
-# Install Workfront for Adobe Photoshop
+# Install Workfront for Creative Cloud
 
-You can install the Workfront for Adobe Photoshop plugin from the Adobe Marketplace.
+You can install the Workfront for Creative Cloud plugin from the Adobe Marketplace. The Workfront for Creative Cloud plugin supports the following applications:
+
+* Indesign
+
+>[!NOTE]
+>
+>There are seprate installation instructions for Photoshop and Adobe XD, see [insert links when moved] for more information. 
+
 
 ## Access requirements
 
@@ -38,9 +44,9 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the Adobe Photoshop app before you install the Workfront plugin.
+* You must install the Creative Cloud app you wish to use before installing the plugin. <!-- maybe obvious -->
 
-## Install the Workfront for Adobe Photoshop plugin
+## Install the Workfront for Creative plugin
 
 1. Open the Adobe Creative Cloud app.
 1. Click the **Marketplace** tab near the top of the window.
@@ -48,18 +54,18 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/adobe-marketplace-350x218.png)
 
-1. When Adobe Workfront for Photoshop plugin appears in the search results, click **Get**.
+1. When Workfront for Creative Cloud plugin appears in the search results, click **Get**.
 1. Read the information in the dialog box, then click **OK**.
-1. Once the plugin in installed, open Adobe Photoshop and locate the Workfront plugin in the plugin panel.
+1. Once the plugin in installed, open the Creative Cloud application you need and locate the Workfront plugin in the plugin panel.
 
-   ![](assets/photoshop-plugin-350x789.png)
+   <!-- new screen -->
 
 1. Continue to the following section for information on how to log in to the plugin.
 
-## Log In to Workfront for Adobe Photoshop
+## Log In to Workfront for Creative Cloud
 
 1. From the **Plugins** menu at the top of the screen, select **Plugin Panel**.
-1. Select **Adobe Workfront for Photoshop**.
+1. Select **Workfront for Creative Cloud**.
 1. Enter your domain, then click **Log in**. A browser page opens.
 
    >[!TIP]
@@ -74,7 +80,7 @@ You must have the following access to perform the steps in this article:
    >
    >You may not be prompted to enter your Workfront credentials if you logged in recently.
 
-   Follow the prompts to log in to Workfront.
+1. Follow the prompts to log in to Workfront.
 
    >[!NOTE]
    >

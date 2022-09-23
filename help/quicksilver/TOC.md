@@ -2060,6 +2060,8 @@ feature-set: Workfront
     * Adobe Workfront for Photoshop {#workfront-for-photoshop}
       * [Adobe Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/workfront-for-photoshop.md)
       * [Install Workfront for Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md)
+      * [Install Workfront for Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md)
+      * [Install Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
       * [Find your work in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
       * [View work item information in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
       * [Update your work in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
@@ -2069,7 +2071,7 @@ feature-set: Workfront
       * [Log time in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
     * Adobe Workfront for XD {#workfront-for-xd}
       * [Adobe Workfront for XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd.md)
-      * [Install Workfront for Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md)
+      
       * [Find your work in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-find-work.md)
       * [View work item information in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-view-work-info.md)
       * [Upload XD art boards as proofs to Workfront](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-proofs.md)
