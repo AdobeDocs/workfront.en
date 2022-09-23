@@ -37,7 +37,7 @@ Next, you need to delete Workfront Property Mapping.
 
 ## User permissions 
 
-All users that access AEM Dam from Workfront were given read permissions to `/content/dam`. If a user doesn’t need that anymore, you may remove the permissions given to said users. 
+All users that access AEM Dam from Workfront were given read permissions to `/content/dam`. If a user doesn't need that anymore, you may remove the permissions given to said users. 
  
 The connector operates using the system user workfront-service. This is uninstalled when uninstalling the connector.  
 
@@ -47,13 +47,13 @@ The connector operates using the system user workfront-service. This is uninstal
 
 ## Day CQ Link Externalizer 
 
-If you do not need the Day CQ Link Externalizer, you can revert this back to `localhost:4502` by going to `/system/console/configMgr` and looking for ‘Day CQ Link Externalizer’.
+If you do not need the Day CQ Link Externalizer, you can revert this back to `localhost:4502` by going to `/system/console/configMgr` and looking for 'Day CQ Link Externalizer'.
 
 >[!NOTE]
 >
 >If you are using Adobe Experience Manager as a Cloud Service, you can change this by looking into your project and locating the file _com.day.cq.commons.impl.ExternalizerImpl.xml_ inside _ui.apps/src/main/content/jcr_root/apps/mysite/config_. 
 
-![Day CQ Link Externalizer](assets/Day%20CQ%20Link%20Externalizer%20.png)
+![Day CQ Link Externalizer](assets/Day-CQ-Link-Externalizer.png)
 
 ## Uninstall Connector Package 
 
@@ -67,8 +67,8 @@ Please check under `/conf` to make sure all Workfront created files have been re
 
 ### Adobe Experience Manager as a Cloud Service
 
-For Adobe Experience Manager as a Cloud Service, you can remove the dependencies for the connector from the project’s pom.files.
+For Adobe Experience Manager as a Cloud Service, you can remove the dependencies for the connector from the project's pom.files.
 
 ## Firewall and Dispatcher 
 
-Don’t forget to remove your whitelisted Workfront URLs if communication is not needed anymore. Also, the connector uses the headers apiKey and username which was set to the dispatcher. These can be removed as well. 
+Don't forget to remove your whitelisted Workfront URLs if communication is not needed anymore. Also, the connector uses the headers apiKey and username which was set to the dispatcher. These can be removed as well. 
