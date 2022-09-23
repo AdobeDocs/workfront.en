@@ -34,13 +34,9 @@ The following headers are available in Home:
 
 ## Customizable headers
 
-Your Workfront  or group administrator  can customize the header of projects <span class="preview">or tasks</span> by using a layout template. 
+Your Workfront  or group administrator  can customize the header of projects, <span class="preview">tasks, and issues</span> by using a layout template.
 
-<!--drafted for task AND issue headers and ensure it stays in yellow for preview 22.4: replace first sentence above with this: Your Workfront  or group administrator  can customize the header of projects, <span class="preview">tasks</span>, and <span class="preview">issues</span> by using a layout template.-->
-
-This article describes the information that is included by default in the headers of all objects, including projects and tasks. 
-
-<!--drafted for 22.4 release - replace the sentence above with this at preview - no yellow - this is for projects + tasks + issues: This article describes the default headers for all objects, including projects and tasks and issues.--> 
+This article describes the default headers for all objects, including projects and tasks and issues.
 
 For information about customizing information on the header of an object, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). 
 
@@ -530,7 +526,7 @@ The user header displays the following information:
    <td role="rowheader">Name of the user and title</td> 
    <td> <p> The title of the user displays in all capital letters above their name. You cannot edit the name of the user in the header.</p> </td> 
   </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <tr> 
     <td role="rowheader">Name of the object type</td> 
     <td> <p>The name of the object type does not display.</p> </td> 
    </tr>

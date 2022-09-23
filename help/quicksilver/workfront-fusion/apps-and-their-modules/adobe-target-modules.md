@@ -69,9 +69,9 @@ To create a connection for your Adobe Target modules:
 
 1.  Click Add next to the Connection box.
     
-2.  Fill in the following fields:
+1.  Fill in the following fields:
     
-  <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
     </col>
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
@@ -103,8 +103,12 @@ To create a connection for your Adobe Target modules:
         <td role="rowheader">Tenant</td>
         <td>
           <p> To locate your Tenant, log in to the Adobe Experience Cloud, open Target, and click the Target card. Use the Tenant ID value as noted in the URL subdomain.</p>
-          <p>For example, if your URL when logged in to Adobe Target is <code>&lt;https://mycompany.experiencecloud.adobe.com/...&gt;</code> then your Tenant ID is “mycompany.”</p>
+          <p>For example, if your URL when logged in to Adobe Target is <code>&lt;https://mycompany.experiencecloud.adobe.com/...&gt;</code> then your Tenant ID is "mycompany."</p>
         </td>
+      </tr>
+      <tr>
+        <td role="rowheader">Meta Scopes</td>
+        <td>Enter <code>ent_marketing_sdk</code>       </td>
       </tr>
       <tr>
         <td role="rowheader">Private key</td>
@@ -131,7 +135,7 @@ To create a connection for your Adobe Target modules:
         </td>
       </tr>
     </tbody>
-  </table>
+    </table>
     
 1.  Click **Continue** to save the connection and return to the module.
     

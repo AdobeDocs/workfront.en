@@ -59,6 +59,14 @@ By default, only active cards are displayed on a board. You can filter the board
 
    The filter shows the number of archived cards.
 
+   Sample image when the early feature opt-in is not used:
    ![Filter archived cards](assets/boards-filter-by-archived-cards.png)
+
+   Sample image when the early feature opt-in is in use:
+   ![Filter archived cards](assets/boards-filter-by-archived-cards_0822.png)
+  
+   >[!NOTE]
+   >
+   >The updated filters are available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 1. Select **Archived cards** again to clear the option and display only active cards.

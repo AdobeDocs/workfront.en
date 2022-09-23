@@ -13,7 +13,7 @@ exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-You can link Jira issues to Adobe Workfront tasks or issues either automatically or manually.&nbsp;
+You can link Jira issues to Adobe Workfront tasks or issues either automatically or manually.
 
 Only one item in Workfront can be linked to one item in Jira. You can never link one Workfront item to multiple Jira issues, nor one Jira issue to multiple Workfront items.
 
@@ -69,7 +69,7 @@ For more information about defining triggers for creating Jira issues automatica
 
 >[!NOTE]
 >
->You can create Jira items automatically by attaching a template to a project. If the template contains tasks with assignments&nbsp;that meet the Jira triggers, the new tasks generate new Jira issues.&nbsp;
+>You can create Jira items automatically by attaching a template to a project. If the template contains tasks with assignments that meet the Jira triggers, the new tasks generate new Jira issues.
 
 Automatically linking a Workfront issue to a Jira issue is identical to automatically linking a Workfront task to a Jira issue.
 
@@ -85,9 +85,9 @@ To automatically link a Workfront task to a Jira issue:
 
    Or
 
-   Select an existing task, then click **Edit**.&nbsp;
+   Select an existing task, then click **Edit**.
 
-1. Specify or update any of the fields available for the task.&nbsp;
+1. Specify or update any of the fields available for the task.
 1. Click **Assignments** and assign the task to a user, role, or team which is specified as a trigger in the Jira integration.  
 
 1. Click **Save Changes**.
@@ -102,15 +102,15 @@ To automatically link a Workfront task to a Jira issue:
 
    Or
 
-   Click the **Go to Jira** link in the *[!UICONTROL *Integrations**] area on the Details panel or the task header of the task, to open the Jira issue .
+   Click the **Go to Jira** link in the *[!UICONTROL **Integrations**] area of the [!UICONTROL **Details**] section <span class="preview">or the task or issue header</span>, to open the Jira issue.
 
-   <span class="preview">Your system or group administrator must add the [!UICONTROL Integrations] field to your layout template to display it in the task header. For information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+   <span class="preview">Your system or group administrator must add the [!UICONTROL Integrations] field to your layout template to display it in the task or issue header. For information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
    Any Jira user can immediately start working on items automatically created from Workfront and their updates will transfer to Workfront without needing a license for Workfront to do so.
 
    Only the fields that you as a Workfront administrator configured during the setup of the Workfront add-on are updated.
 
-   For more information about synchronizing fields between Workfront and Jira, see the [Configure Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#configuring-the-add-on-for-jira)&nbsp;section in&nbsp; [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+   For more information about synchronizing fields between Workfront and Jira, see the [Configure Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#configuring-the-add-on-for-jira) section in  [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
    >[!NOTE]
    >
@@ -119,11 +119,11 @@ To automatically link a Workfront task to a Jira issue:
 ## Manually link Jira issues to Workfront items
 
 After items have been created in Jira and Workfront, independent of each other, you can manually link a Jira issue to an existing Workfront task or issue.  
-You cannot manually link a Workfront item from Workfront to an existing Jira item.&nbsp;
+You cannot manually link a Workfront item from Workfront to an existing Jira item.
 
 >[!NOTE]
 >
->If the Jira issue is not on a project which is not identified as a trigger in the Workfront Integration you cannot manually link it to a Workfront item when using the integration with Jira On-Premise.&nbsp;&nbsp;  
+>If the Jira issue is not on a project which is not identified as a trigger in the Workfront Integration you cannot manually link it to a Workfront item when using the integration with Jira On-Premise.  
 >For more information about setting up triggers for the Workfront to Jira workflow, see [Automatically link Workfront items to Jira issues](#automatically-link-workfront-items-to-jira-issues).
 
 When Workfront and Jira items are linked, certain fields from one item can be automatically updated on the other.  
@@ -131,15 +131,16 @@ For more information about updating linked items, see [Update linked items betwe
 
 To manually link Jira issues to Workfront items:
 
-1. (Conditional) Log in to Workfront and find an issue or a task that you want to link to Jira issue.&nbsp;
+1. (Conditional) Log in to Workfront and find an issue or a task that you want to link to Jira issue.
 1. (Conditional) From the address bar of the item, copy the **URL** of the item in Workfront.  
+   
    Or
-
-1. From the Details area ![](assets/details-icon-in-left-panel.png), copy the **Reference Number** of the item in Workfront.&nbsp;
+   
+   From the Details area ![](assets/details-icon-in-left-panel.png), copy the **Reference Number** of the item in Workfront.
 
    >[!NOTE]
    >
-   >You must have a Workfront license to log in to Workfront. Otherwise, a Workfront user must supply this information to you.&nbsp;
+   >You must have a Workfront license to log in to Workfront. Otherwise, a Workfront user must supply this information to you.
 
 1. In Jira, navigate to an issue that you want to manually link to the Workfront item.
 1. In the Workfront right panel, paste the **URL** or the **Reference Number** of the Workfront item which you want to link to it.  

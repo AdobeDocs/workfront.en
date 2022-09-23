@@ -17,9 +17,8 @@ As an Adobe Workfront administrator or a group administrator, you can use a layo
 
 >[!IMPORTANT]
 >
->Customizing object headers is currently available for projects <span class="preview">and tasks</span>.
+>Customizing object headers is currently available for projects, <span class="preview"> tasks, and issues</span>.
 
-<!--drafted for task AND issue headers: replace above with this when issue custom headers are coming too: Customizing object headers is currently available for projects <span class="preview">, tasks</span>, and <span class="preview">issues</span>. -->
 
 For information about layout templates for groups, see [Create and modify a group's layout templates](../../manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md). 
 
@@ -57,9 +56,9 @@ If you still don't have access, ask your Workfront administrator if they set add
 ## Customize object headers
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. In the **Customize what users see** drop-down menu, select **Projects**.
+1. In the **Customize what users see** drop-down menu, select **Projects**, <span class="preview">**Tasks** or **Issues**</span>.
 
-    <!--(NOTE: when more objects are supported, update this to say "select an object you want to customize in the Customize what users see drop-down menu). -->
+    <!--after preview 22.4, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
 1. In the [!UICONTROL Header fields] section, mouse over the fields displayed and do one of the following:
     * Click the **x** icon to remove a field
@@ -81,6 +80,8 @@ If you already have five fields selected, you must remove a field before you can
     >* Non-editable fields are fields that users cannot manually edit. They are automatically calculated by Workfront. You can only add fields that display in the Overview area of the object's Details section. 
     >
     >* Editable fields that are already part of the default headers (for example, Project Owner, <span class="preview">Status, Percent Complete, Assignments</span>) are allowed.
+    >
+    >* When adding the "Resolved By" field to the header of an issue, the field changes to "Resolving Issue, Task, or Project", when there is a resolving object associated with the issue.  
 
    
     ![](assets/add-field-to-header-in-lt-list.png)  

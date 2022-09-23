@@ -22,8 +22,6 @@ Any user can change status to any goal according to the rules below:
 | Inactive |No |Yes |-  |No |
 | Closed |No |Yes |No |- |
 
-{style="table-layout:auto"}
-
 Goal is created in Draft status. This is the first stage where the goal can be changed without any restrictions. Draft goals are displayed in the Goal alignment, in the Goal list, on the Check-in page (as contributing goals), but Draft goals are not calculated to get the average progress in Graphs.
 
 To Activate a goal there should be at least one Result/Activity/Contribution (to drive progress).

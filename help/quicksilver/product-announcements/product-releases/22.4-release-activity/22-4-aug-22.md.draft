@@ -8,7 +8,7 @@ exl-id: 423eaf1f-e439-4976-817f-f2ae764551ed
 ---
 # 22.4 release activity: Week of August 22, 2022
 
-This page describes all enhancements made with the 22.4 release to the Preview environment the week of July 18, 2022. These enhancements will be made available in the Production environment later this year.
+This page describes all enhancements made with the 22.4 release to the Preview environment the week of August 22, 2022. These enhancements will be made available in the Production environment later this year.
 
 For a list of all changes available at this point in the 22.4 release cycle, see [22.4 Release overview](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
@@ -32,7 +32,7 @@ For more information, see [Configure access to Blueprints](/help/quicksilver/adm
 
 ## Migration to Adobe Unified Experience
 
-If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release. After the release, all net new customers will be onboarded to both the Adobe Admin Console and Adobe Unified Experience.
+If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release.
 
 The Adobe Unified Experience includes:
 
