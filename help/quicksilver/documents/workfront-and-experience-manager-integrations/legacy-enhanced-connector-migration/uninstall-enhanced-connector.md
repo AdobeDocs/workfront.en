@@ -39,11 +39,11 @@ You must uninstall the Workfront with Adobe Experience Manager enhanced connecto
         <scope>system</scope>
         <systemPath>${project.basedir}/ui.apps/src/main/resources/workfront-tools.ui.apps.zip</systemPath>
     </dependency>
-    ```
+   ```
 
-    >[!NOTE]
-    >
-    >Please ensure the version referenced in above code block, i.e 1.8.0, reflects the version that is being uninstalled from the code.
+   >[!NOTE]
+   >
+   >Please ensure the version referenced in above code block, i.e 1.8.0, reflects the version that is being uninstalled from the code.
 
 1. Remove the following dependency from the pom.xml file of the project's submodule named **all**.
 
