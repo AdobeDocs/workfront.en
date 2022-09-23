@@ -16,6 +16,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 Consider breaking this article into 2</p>
 -->
 
+>[!IMPORTANT]
+>
+>The functionality on this page will be removed with the 22.4 release.
+
 As an Adobe Workfront administrator, you use the List Controls area to determine which filters, views, and groupings you want available in your Workfront instance and listed in all layout templates in the system.
 
 In a layout template, you can then enable the filters, views, and groupings that you want available for the users who are assigned to that layout template. Users can see them as options in their drop-down menus above their lists of objects and reports.
