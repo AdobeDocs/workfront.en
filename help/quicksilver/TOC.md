@@ -2057,11 +2057,13 @@ feature-set: Workfront
   * [Adobe Workfront integration methods](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
   * Adobe Workfront for Creative Cloud {#workfront-for-creative-cloud}
     * [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
-    * Adobe Workfront for Photoshop {#workfront-for-photoshop}
-      * [Adobe Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/workfront-for-photoshop.md)
+    * Install Adobe Workfront for Creative Cloud Applications {install-wf-cc}
+      * [Install Adobe Workfront for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
       * [Install Workfront for Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md)
       * [Install Workfront for Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md)
       * [Install Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+    * Adobe Workfront for Photoshop {#workfront-for-photoshop}
+      * [Adobe Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/workfront-for-photoshop.md)
       * [Find your work in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
       * [View work item information in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
       * [Update your work in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
