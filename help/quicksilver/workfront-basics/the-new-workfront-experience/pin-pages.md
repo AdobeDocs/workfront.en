@@ -8,6 +8,8 @@ exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 ---
 # Pin pages to customize your workspace
 
+{{highlighted-preview}}
+
 You can pin your most important work in Adobe Workfront for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in the new Adobe Workfront experience.
 
 You might be assigned to a Layout Template that has pages already pinned (as described in [Customize pinned pages using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). Any pages you pin display to the right of any existing pins.
@@ -59,6 +61,25 @@ You must have the following access to perform the steps in this article:
 
    The pinned page displays.
 
+<div class="preview">
+
+## Rename pinned pages
+
+You can change the name of a pinned page to be more meaningful to you.
+
+1. Hover over the pinned page in the top navigation.
+1. Click the arrow next to the pin name and select **Rename pin**.
+
+   ![Rename pin](assets/rename-remove-pin.png)
+
+1. Type the new pin name, and click the check mark icon or press Enter.
+
+   ![Click the check mark to rename pin](assets/rename-pin-click-checkmark.png)
+
+   A small pop-up window appears for several seconds after you click the check mark or press Enter, allowing you to undo the pin name change before it is saved.
+
+</div>   
+
 ## Reorder pinned pages
 
 You can rearrange the order that pinned pages appear.
@@ -78,12 +99,18 @@ You can rearrange the order that pinned pages appear.
 
    Or
 
+   In the Production environment:
    Hover over the pinned page that you want to unpin, and click the X next to the pin name.
 
    ![Unpin page](assets/unpinpage-withx.png)
 
-   The page is no longer accessible from the top of any page in Workfront.
+   <div class="preview">
 
-   <!--
-   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the arrow next to the pin name and select <strong>Unpin</strong>.</p> <p> <img src="assets/unpinpage.png" class="preview" alt="Unpin page"> </p> <p>The page is no longer accessible from the top of any page in Workfront.</p> </li>
-   -->
+   In the Preview environment:
+   Click the arrow next to the pin name and select **Remove pin**.
+
+   ![Remove pin](assets/rename-remove-pin.png)
+
+   </div>
+
+   The page is no longer accessible from the top of any page in Workfront.
