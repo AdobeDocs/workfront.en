@@ -10,7 +10,7 @@ exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
 
 This page provides information about functionality that is included in the 22.4 release.
 
-These enhancements are currently available in the Preview environment and will be made available in the Production environment with the 22.4 release later this year. As the 22.4 release nears its planned Production release, this page will be updated with all functionality included with 22.4.
+These enhancements are currently available in the Preview environment and will be made available in the Production environment with the 22.4 release the week of October 3, 2022. As the 22.4 release nears its planned Production release, this page will be updated with all functionality included with 22.4.
 
 For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/en/products/5943) on [status.adobe.com](http://status.adobe.com/). You must log in to see specific release times.
 
