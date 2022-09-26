@@ -93,7 +93,7 @@ After defining your work objects and designing your operational model's structur
 
     Or
 
-    Click **Create work object** to create a work object. Follow steps described in the [Create work objects](#create-work-objects) section in this article. 
+    Click **Create work object** to create a work object. Follow steps described in the [Create a work object](#create-a-work-object) section in this article. 
 
     >[!NOTE]
     >
