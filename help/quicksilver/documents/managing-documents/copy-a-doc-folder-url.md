@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 
 # Copy and share a link to a document folder
 
-You can copy a direct link for any document folder contained in any of the following [!DNL Workfront] objects: [!UICONTROL Program], [!UICONTROL Portfolio], [!UICONTROL Project], [!UICONTROL Task], or [!UICONTROL Issue]. You can't copy a link for any folders contained in the [!UICONTROL Documents] area from the Main Menu, as those are documents linked directly to your user profile and can't be shared with others. 
+You can copy a direct link for any document folder contained in any of the following [!DNL Workfront] objects: [!UICONTROL Program], [!UICONTROL Portfolio], [!UICONTROL Project], [!UICONTROL Task], or [!UICONTROL Issue]. You can't copy a link for any folders contained in the [!UICONTROL Documents] area from the Main Menu, as those folders are linked directly to your user profile and can't be shared with others. 
 
 ## Access Requirements
 
