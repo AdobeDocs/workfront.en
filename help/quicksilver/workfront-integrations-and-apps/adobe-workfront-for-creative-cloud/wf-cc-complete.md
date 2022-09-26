@@ -42,9 +42,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the Workfront for Adobe Photoshop plugin before you can mark work items complete in Adobe Photoshop.
-
-  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+{{#cc-install-prereq}}
 
 ## Complete a work item
 
