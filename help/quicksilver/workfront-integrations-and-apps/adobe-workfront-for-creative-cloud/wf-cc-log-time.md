@@ -1,15 +1,17 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Log time in Adobe Photoshop
-description: You can log time for projects, tasks, and issues you're working on directly in Photoshop. The Workfront administrator determines which project-specific hour types are available as described in Manage hour types.
+title: Log time using the Adobe Workfront plugin
+description: You can log time for projects, tasks, and issues you're working on directly in Adobe Creative Cloud applications.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
 ---
-# Log time in Adobe Photoshop
+# Log time using the Adobe Workfront plugin
 
-You can log time for projects, tasks, and issues you're working on directly in Photoshop. The Workfront administrator determines which project-specific hour types are available as described in [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+You can log time for projects, tasks, and issues you're working on directly in any of the following Adobe Creative Cloud applications:
+
+{{cc-app-list}}
 
 ## Access requirements
 
@@ -46,11 +48,13 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the Workfront for Adobe Photoshop plugin before you can log time in Adobe Photoshop.
+{{cc-install-prereq}}
 
-  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+## Log time using the Adobe Workfront plugin
 
-## Log time in Adobe Photoshop
+The Workfront administrator determines which project-specific hour types are available as described in [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+
+To log time using the Workfront plugin:
 
 1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 

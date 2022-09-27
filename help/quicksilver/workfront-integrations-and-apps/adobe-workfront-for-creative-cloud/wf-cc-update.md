@@ -7,29 +7,12 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
 ---
-# Update your work in Adobe Photoshop
+# Update your work using the Adobe Workfront plugin
 
-You can update your work in the following areas:
+You can update your work from any of the following Adobe Creative Cloud applications:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>Projects</li> 
-     <li>Tasks</li> 
-     <li>Subtasks</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Issues</li> 
-     <li>Documents</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+{{cc-app-list}}
+
 
 ## Access requirements
 
@@ -64,11 +47,33 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the Workfront for Adobe Photoshop plugin before you can mark work items complete in Adobe Photoshop.
-
-  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+{{cc-install-prereq}}
 
 ## Post an update
+
+You can update your work from any of the following areas in the plugin:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>Projects</li> 
+     <li>Tasks</li> 
+     <li>Subtasks</li> 
+    </ul> </td> 
+   <td> 
+    <ul> 
+     <li>Issues</li> 
+     <li>Documents</li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+To post an update:
 
 1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 

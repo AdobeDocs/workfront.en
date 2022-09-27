@@ -1,15 +1,17 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Find your work in Adobe Photoshop
-description: Find the work assigned to you in Adobe Workfront without leaving Adobe Photoshop.
+title: Find your work using the Adobe Workfront plugin
+description: Find the work assigned to you in Adobe Workfront without leaving Adobe Creative Cloud applications.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
 ---
-# Find your work in Adobe Photoshop
+# Find your work using the Adobe Workfront plugin
 
-Find the work assigned to you in Adobe Workfront without leaving Adobe Photoshop.
+Find the work assigned to you in Adobe Workfront without leaving the following Adobe Creative Cloud applications:
+
+{{cc-app-list}}
 
 ## Access requirements
 
@@ -38,9 +40,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the Workfront for Adobe Photoshop plugin before you can find your work in Adobe Photoshop.
-
-  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+{{cc-install-prereq}}
 
 ## Use the Work List to access important information
 
@@ -99,7 +99,7 @@ Use the Search bar to locate projects, tasks, issues, and documents you need.
   <tr> 
    <td> 
     <ul> 
-     <li>See recent items: You can view up to 5 of your most recent work items accessed through Workfront or the Photoshop plugin.</li> 
+     <li>See recent items: You can view up to 5 of your most recent work items accessed through either the desktop or plugin versions of Workfront.</li> 
      <li>Locate pinned items: You can access projects, tasks, issues, and documents you've pinned in the new Adobe Workfront experience.</li> 
      <li>Find your favorites: You can see any project, task, issue, or document you saved as a favorite.</li> 
     </ul> </td> 
