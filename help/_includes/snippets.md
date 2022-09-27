@@ -117,9 +117,8 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 * XD 
 * InDesign
 
-<!-- the list below specifically for the Adobe Workfront for Creative Cloud plugin -->
-
 # WF for CC application list {#cc-plugin-app-list} 
+
 * InDesign
 
 
