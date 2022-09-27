@@ -79,7 +79,7 @@ After defining your work objects and designing your operational model's structur
     
     The Operating models page displays.  
 
-1. Click **Create operating model** in the upper-right corner to create a structure for your work.
+1. Click **Create an operating model** in the upper-right corner to create a structure for your work.
 
 1. Update the name of the operating model. 
 
@@ -133,5 +133,8 @@ After defining your work objects and designing your operational model's structur
 1. Click **Create** in the upper-right corner.
 
     The work record is created and is visible to all users with a Plan license.  
+1. (Optional) Click **Sub-records** in the left panel, then click **Create sub-record** in the upper-right corner. 
+
+1. Select from the types of sub-records available, specify a **Name** for the sub-record, then click **Create**. The sub-records of a work record are children objects to the work records. You can only select the types of sub-records that are specified in the operating model used to create the work record. 
 
  -->
