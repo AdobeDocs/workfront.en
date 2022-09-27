@@ -58,7 +58,7 @@ The following is a tentative timeline for the deprecation process of Resource Sc
 
 * [2020.4 release (November 2020)](#2020-4-release-november-2020) 
 * [2021.4 release (October 2021)](#2021-4-release-october-2021) 
-* [2022.4 release (October 2022) (tentative) ](#20224-release-october-2022-tentative)
+* [2022.4 release (October 2022)](#20224-release-october-2022-tentative)
 
 ### 2020.4 release (November 2020) {#2020-4-release-november-2020}
 
@@ -71,10 +71,10 @@ The following is a tentative timeline for the deprecation process of Resource Sc
 * Workload Balancer is set as default for any first-time user of Workfront
 * Enhanced filters that can be shared and include additional fields
 
-### 2022.4 release (October 2022) (tentative)
+### 2022.4 release (October 2022) 
 
 * No defects will be prioritized for a fix during the 2022.4 release
-* All Scheduling areas are removed from Workfront
+* All Scheduling areas are removed from Workfront after the 2022.4 release 
 * The Workload Balancer is the only resource scheduling tool available in Workfront
 
 ## Feature availability {#feature-availability}
@@ -170,20 +170,6 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 
-  <tr> 
-   <td><span>Assign and unassign tasks and issues by dragging and dropping*</span> </td> 
-   <td>✓</td> 
-   <td><span>✓</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td>Automatically assign tasks and issues</td> 
-   <td>✓</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>✓</td> 
-  </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Quickly assign users based on roles*</span> </td> 
    <td>✓</td> 
@@ -232,6 +218,13 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td><span class="preview">✓</span></td> 
    <td></td> 
    <td></td> 
+  </tr> 
+  <tr> 
+   <td><span>Assign and unassign tasks and issues by dragging and dropping*</span> </td> 
+   <td>✓</td> 
+   <td><span>✓</span> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Visible to all Plan users, without being designated a Resource Manager on the project.</td> 
@@ -338,7 +331,7 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td><span>✓</span> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-
+    
    <tr> 
    <td><span>Add users to the project team</span> </td> 
    <td>✓</td> 
@@ -347,7 +340,14 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
 
   </tr>
-  
+   <tr> 
+   <td>Automatically assign tasks and issues</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+  </tr> 
+
  </tbody> 
 </table>
 
