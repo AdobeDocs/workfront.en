@@ -117,7 +117,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 * XD 
 * InDesign
 
-# WF for CC application list {#cc-plugin-app-list} 
+## WF for CC application list {#cc-plugin-app-list} 
 
 * InDesign
 
