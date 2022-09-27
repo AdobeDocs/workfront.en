@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
 * You must install the Workfront for Adobe Photoshop plugin before you can upload Adobe Photoshop projects to Workfront.
 
-  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
 
 ## Upload documents to Adobe Photoshop
 
