@@ -2062,25 +2062,21 @@ feature-set: Workfront
       * [Install Workfront for Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md)
       * [Install Workfront for Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
       * [Install Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
-    * Adobe Workfront for Photoshop {#workfront-for-photoshop}
-      * [Adobe Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/workfront-for-photoshop.md)
-      * [Find your work in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
-      * [View work item information in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
-      * [Update your work in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
-      * [Upload proofs from Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs.md)
-      * [Upload documents from Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs.md)
-      * [Mark work items complete in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
-      * [Log time in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-    * Adobe Workfront for XD {#workfront-for-xd}
-      * [Adobe Workfront for XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd.md)
-      
-      * [Find your work in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-find-work.md)
-      * [View work item information in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-view-work-info.md)
-      * [Upload XD art boards as proofs to Workfront](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-proofs.md)
-      * [Upload XD art boards as documents to Workfront](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-docs.md)
-      * [Update your work in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-update.md)
-      * [Mark work items complete in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-complete.md)
-      * [Log time in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-xd-log-time.md)
+    * Manage work with the Adobe Workfront plugin for Creative Cloud Applications {#manage-wf-cc}
+      * [Manage work with the Adobe Workfront plugin for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
+      * [Find your work using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
+      * [View work item information using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
+      * [Update your work using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
+      * [Mark work items complete using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
+      * [Log time using the Adobe Workfront plugin](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+    * Upload documents and proofs with the Adobe Workfront plugin for Creative Cloud Applications {#upload-docs-proofs-wf-cc}
+      * [Upload documents and proofs with the Adobe Workfront plugin for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
+      * [Upload proofs from Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
+      * [Upload documents from Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
+      * [Upload XD art boards as proofs to Workfront](/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md))
+      * [Upload XD art boards as documents to Workfront](/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+      * [Upload proofs from Adobe InDesign]
+      * [Upload documents from Adobe InDesign]
     * Workfront Extension for Illustrator and InDesign {#workfront-for-illustrator-indesign}
       * [Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md)
       * [Install the Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md)

@@ -1,15 +1,17 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: View work item information in Adobe Photoshop
-description: You can see information about projects, tasks, issues, and documents from Adobe Photoshop.
+title: View work item information using the Adobe Workfront plugin
+description: You can see information about projects, tasks, issues, and documents from Adobe Creative Cloud applications.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
 ---
-# View work item information in Adobe Photoshop
+# View work item information using the Adobe Workfront plugin
 
-You can see information about projects, tasks, issues, and documents from Adobe Photoshop.
+You can see information about projects, tasks, issues, and documents from the following Adobe Creative Cloud applications:
+
+{{cc-app-list}}
 
 ## Access requirements
 
@@ -48,9 +50,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the Workfront for Adobe Photoshop plugin before you can mark work items complete in Adobe Photoshop.
-
-  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+{{cc-install-prereq}}
 
 ## View details and custom form data
 
