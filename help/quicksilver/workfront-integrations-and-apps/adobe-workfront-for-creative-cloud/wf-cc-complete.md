@@ -1,15 +1,17 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Mark work items complete in Adobe Photoshop
-description: You can stay in Adobe Photoshop and seamlessly complete your work in Adobe Workfront.
+title: Mark work items complete with the Adobe Workfront plugin
+description: You can stay in Adobe Creative Cloud applications and seamlessly complete your work in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
 ---
-# Mark work items complete in Adobe Photoshop
+# Mark work items complete with the Adobe Workfront plugin
 
-You can stay in Adobe Photoshop and seamlessly complete your work in Adobe Workfront.
+You can stay in the following Adobe Creative Cloud applications and seamlessly complete your work in Adobe Workfront with the plugin:
+
+{{cc-app-list}}
 
 ## Access requirements
 
@@ -38,7 +40,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
