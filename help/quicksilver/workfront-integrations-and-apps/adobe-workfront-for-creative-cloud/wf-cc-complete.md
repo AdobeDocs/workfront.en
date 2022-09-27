@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-{{#cc-install-prereq}}
+{{cc-install-prereq}}
 
 ## Complete a work item
 
