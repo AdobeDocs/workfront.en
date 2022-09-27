@@ -115,7 +115,12 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 * Photoshop
 * XD 
-* Indesign
+* InDesign
+
+# WF for CC application list {#cc-plugin-app-list} <!-- this is a list specifically for the Adobe Workfront for Creative Cloud plugin -->
+
+* InDesign
+
 
 <!-- Log Time -->
 

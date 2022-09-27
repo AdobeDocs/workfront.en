@@ -10,7 +10,7 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 
 You can install the Workfront for Creative Cloud plugin from the Adobe Marketplace. The Workfront for Creative Cloud plugin supports the following applications:
 
-* Indesign
+{{cc-plugin-app-list}} 
 
 >[!NOTE]
 >
