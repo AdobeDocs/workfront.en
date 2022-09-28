@@ -9,6 +9,8 @@ exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
 ---
 # Create or edit filters in Adobe Workfront
 
+{{highlighted-preview}}
+
 You can limit the amount of information you display on the screen in a list of items with a filter. You can define certain criteria based on particular pieces of information about an object and only display the objects that meet those criteria.
 
 You can apply the following types of filters in Adobe Workfront:
@@ -78,6 +80,10 @@ You can create filters using the types of filter builders described in the table
 <li> <p>Projects</p> </li>
 <li> <p>Tasks </p> </li>
 <li> <p>Issues</p> </li>
+<li> <span class="preview"><p>Portfolios</p></span> </li>
+<li> <span class="preview"><p>Programs</p></span> </li>
+<li> <span class="preview"><p>Users</p></span> </li>
+<li> <span class="preview"><p>Templates</p></span> </li>
 </ul>
 </td>
 <td>
@@ -175,7 +181,7 @@ Consider the following when creating filters using the different interfaces:
 * You can find the beta builder in the same places you find the standard filter interface for the areas listed in the table above.
 * You can switch back and forth between the standard and the beta builder interface, where the beta option is available.
 * After you have enabled the beta builder in one area, it is the default experience for all areas where it is available. For example, if you enable the beta builder in a project list, it is the default experience for building task and issue filters in lists as well.
-* You can create filters using the beta builder interface in project, task, and issue lists in the following ways:
+* You can create filters using the beta builder interface in the following ways:
 
   * From scratch
   * Edit an existing filter
@@ -217,7 +223,7 @@ Consider the following when creating filters using the different interfaces:
 
 Create a filter using the beta builder interface:
 
-1. Go to a project, task, or issue list where you want to create a filter or that contains the filter you want to customize.
+1. Go to a list where you want to create a filter or that contains the filter you want to customize.
 1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png), then enable the **Beta setting** ![Beta setting](assets/beta-toggle-white-on-existing-filters.png) to access the beta builder. It is disabled by default.
  
    Next, agree to the beta agreement if required. You only have to agree once, and the beta builder stays enabled.
