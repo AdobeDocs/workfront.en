@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the Creative Cloud app you wish to use before installing the plugin. <!-- maybe obvious -->
+* You must install the Creative Cloud app you wish to use before installing the plugin. 
 
 ## Install the Workfront for Creative plugin
 
