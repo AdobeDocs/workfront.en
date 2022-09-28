@@ -7,6 +7,7 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
 ---
+
 # Upload XD art boards as documents to Workfront
 
 You can upload your art boards as documents for a quick review and approval or simply to store in Adobe Workfront.
