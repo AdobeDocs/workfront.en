@@ -2,19 +2,20 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Install Workfront for Creative Cloud
-description: You can install the Workfront for Creative Cloud plugin from the Adobe Marketplace. 
+description: You can install Workfront for Creative Cloud plugin from the Adobe Marketplace. 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 ---
 # Install Workfront for Creative Cloud
 
-You can install the Workfront for Creative Cloud plugin from the Adobe Marketplace. The Workfront for Creative Cloud plugin supports the following applications:
+You can install the Workfront for Creative Cloud plugin from the Adobe Marketplace. Workfront for Creative Cloud plugin supports the following applications:
 
 {{cc-plugin-app-list}} 
 
 >[!NOTE]
 >
->There are seprate installation instructions for Photoshop and Adobe XD, see [insert links when moved] for more information. 
+>There are separate installation instructions for Photoshop and XD. For more information, see [Install Workfront for Adobe Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) and [Install Workfront for Adobe XD
+](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
 
 ## Access requirements
