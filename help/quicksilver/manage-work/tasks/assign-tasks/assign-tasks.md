@@ -77,7 +77,7 @@ Consider the following when assigning multiple resources to a work item:
 
 * If a task or an issue is assigned to a team and you also assign a user, the task or issue remains assigned to both the team and the user.
 
-* If a task is assigned to multiple teams, the primary team sees the Work On It button. <!--true? -->
+<!-- If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is ture -->
 
 * Tasks and issues on a project might be assigned first to one or more teams or job roles. When the project is ready to start, they might need to also be assigned to users:
 

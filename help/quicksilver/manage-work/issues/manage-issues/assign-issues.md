@@ -69,10 +69,6 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations for multiple assignments to job roles, teams, and users
 
->[!NOTE]
->
-><span class="preview">In the Preview environment, you can assign multiple teams to a single task or issue.</span>
-
 Consider the following when assigning multiple resources to a work item:
 
 * Users can have more than one job role associated with their profile. For information about associating users with job roles, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
