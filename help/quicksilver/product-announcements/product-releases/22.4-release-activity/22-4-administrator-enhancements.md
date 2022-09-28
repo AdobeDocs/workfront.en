@@ -20,22 +20,6 @@ For a list of all changes available with the 22.4 release, see [22.4 Release ove
 
 To give you more control over the approval processes and statuses in your system, we’ve made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn’t streamline their group’s list of statuses to fit their specific needs.
 
-## Migration to Adobe Unified Experience
-
-If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release.
-
-The Adobe Unified Experience includes:
-
-* A single login for all Adobe applications through Adobe Experience Cloud
-
-* An "organization switcher" to move between Workfront organizations and environments
-
-* Navigation with options for Workfront pages, Adobe Experience Cloud preferences, and your Workfront profile
-
-For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
-[View a video demonstration of this feature.](https://vimeo.com/743154706){target=_blank}
-
 ## Blueprints icon on the Main Menu now controlled through layout templates
 
 System administrators can now add or remove the Blueprints icon on the Main Menu through layout template configuration. This provides greater control of who can browse the Blueprints catalog.
@@ -115,4 +99,22 @@ Editing calculations for custom fields is now easier with helpful error informat
 For more information, see [Add calculated data to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 [View a video demonstration of this feature.](https://vimeo.com/718739286/bcc39b1b9e)
+
+## Migration to Adobe Unified Experience
+
+NOTE: This migration has been postponed to mid to late-October. Any affected customers will be notified at that time.
+
+If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release.
+
+The Adobe Unified Experience includes:
+
+* A single login for all Adobe applications through Adobe Experience Cloud
+
+* An "organization switcher" to move between Workfront organizations and environments
+
+* Navigation with options for Workfront pages, Adobe Experience Cloud preferences, and your Workfront profile
+
+For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+[View a video demonstration of this feature.](https://vimeo.com/743154706){target=_blank}
 
