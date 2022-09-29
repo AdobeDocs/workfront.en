@@ -14,7 +14,7 @@ You can add extra security measures to proofs.
 
 ## Login required
 
-Login required enhances the security of the proofs created in your account. You can enable login required for all proofs at the account level or you can enable it for individual proofs as needed. For more information about enabling for your account, see .
+Login required enhances the security of the proofs created in your account. You can enable login required for all proofs at the account level or you can enable it for individual proofs as needed. For more information about enabling for your account, see [Configure default proof settings](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ When login required is enabled, reviewers are required to log in using their ema
 
 ## Electronic signature
 
-Electronic signatures allow you to enhance security on your proofs and comply with industry security standards, such as ISO. You can enable electronic signatures for all proofs at the account level, or you can enable it for individual proofs as needed. For more information, see .
+Electronic signatures allow you to enhance security on your proofs and comply with industry security standards, such as ISO. You can enable electronic signatures for all proofs at the account level, or you can enable it for individual proofs as needed. For more information, see [Configure default proof settings](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 ## Sign a proof electronically
 

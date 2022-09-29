@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View or higher permissions to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher permissions to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,6 +66,10 @@ You must have the following access to perform the steps in this article:
      ![Gantt calendar report](assets/gantt-calendar-report.png)
      You can see more events in a Gantt view by scrolling down or sideways. A loading symbol appears as data is populated for the view.
 
+   >[!NOTE]
+   >
+   >In the Month and Week views, events that are current or future (including events that span multiple days, as long as they contain today or a future day) have shading that corresponds to the color in the project or calendar grouping. Past events have lighter shading to indicate that they are no longer current, but you can still select and view those events.
+
 1. (Optional) If you are viewing the calendar in the Month or Week views, you can change your calendar view with the following options:
 
    * To include or exclude weekends:
@@ -90,7 +94,7 @@ You must have the following access to perform the steps in this article:
 
 ## View calendar report event details
 
-You can see the details of an event in a calendar.
+You can see the details of an event in a calendar, for both current and past events.
 
 1. Go to the event that you want to know the details for, then click the event.  
    A details page for the event opens.  
@@ -99,6 +103,7 @@ You can see the details of an event in a calendar.
 1. (Optional) To view additional details on the object:
 
    1. Hover over the project, task, or issue name.  
+      
       A details page opens for the object.  
       ![additional_object_details_-_calendar_report.png](assets/additional-object-details---calendar-report-350x131.png)
 

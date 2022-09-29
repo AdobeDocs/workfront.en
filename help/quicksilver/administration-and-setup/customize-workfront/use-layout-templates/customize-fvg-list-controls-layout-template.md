@@ -11,10 +11,6 @@ exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 ---
 # Customize Filters, Views, and Groupings using a layout template
 
->[!IMPORTANT]
->
->The functionality on this page will be removed with the 22.4 release.
-
 As an Adobe Workfront administrator, you can use a layout template to specify which list controls appear in the Filter, View, and Grouping drop-down menus. These menus appear above lists throughout Workfront, such as the list of tasks for a project:
 
 ![](assets/filter-view-grouping-layout-templates.png)

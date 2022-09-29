@@ -80,6 +80,8 @@ If you already have five fields selected, you must remove a field before you can
     >* Non-editable fields are fields that users cannot manually edit. They are automatically calculated by Workfront. You can only add fields that display in the Overview area of the object's Details section. 
     >
     >* Editable fields that are already part of the default headers (for example, Project Owner, <span class="preview">Status, Percent Complete, Assignments</span>) are allowed.
+    >
+    >* When adding the "Resolved By" field to the header of an issue, the field changes to "Resolving Issue, Task, or Project", when there is a resolving object associated with the issue.  
 
    
     ![](assets/add-field-to-header-in-lt-list.png)  

@@ -106,7 +106,7 @@ When you create a custom status for the entire organization, you can configure i
       <td role="rowheader">Lock for all groups</td> 
       <td>
        <p>When a status is locked, users throughout the system can see and use it and group administrators cannot customize it for their groups.</p> 
-       <p>When a status is locked, group administrators can customize it for their individual groups.</p>
+       <p>When a status is unlocked, group administrators can customize it for their individual groups.</p>
 
       <div>
        <p>You can use both locked and unlocked statuses in a system approval process. If you create a system approval process with an unlocked system status, users throughout the system can attach the approval process to any project, task, or issue in the system.</p>
