@@ -990,6 +990,12 @@ feature-set: Workfront
       * [Send a Document to Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
       * [Proof a linked asset for Experience Manager Assets or Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
       * [Create a folder linked with Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+  * Migrate from the legacy or enhanced connectors {#migrate-from-legacy-enhanced-connectors}
+    * [Migrate from the legacy or enhanced connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
+    * [Migrate from the legacy or enhanced connector to Workfront for Adobe Experience Mangaer as a Cloud Service integration](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+    * [Uninstall the Workfront with Adobe Experience Manager legacy connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
+    * [Uninstall the Workfront with Adobe Experience Manager enhanced connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
+    * [Migrate linked folders and documents](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)
 * Manage Work {#manage-work}
   * [Manage work](manage-work/manage-work.md)
   * Projects {#projects}
@@ -1313,6 +1319,9 @@ feature-set: Workfront
     * [Delegate work](manage-work/delegate-work/delegate-work.md)
     * [Delegate tasks and issues overview](manage-work/delegate-work/delegate-work-overview.md)
     * [Manage task and issue delegation](manage-work/delegate-work/how-to-delegate-work.md)
+* Operating models {#operating-models}
+  * [Operating models overview](operating-models/operating-models-overview.md)
+  * [Design flexible operating models in Adobe Workfront](operating-models/create-work-objects-records-operating-models-alpha-document.md)  
 * Teams and groups {#teams-groups}
   * [Teams and groups](people-teams-and-groups/people-teams-and-groups.md)
   * Create and manage teams {#create-manage-teams}
@@ -1627,7 +1636,7 @@ feature-set: Workfront
     * [Locate the Workload Balancer](resource-mgmt/workload-balancer/locate-workload-balancer.md)
     * [Overview of assigning work in the Workload Balancer](resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
     * [Unassign work in the Workload Balancer](resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)
-    * [Manage filters in the Workload Balancer](resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
+    * [Filter information in the Workload Balancer](resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
     * [Assign work in bulk using the Workload Balancer](resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)
     * [Assign work in the Workload Balancer by dragging and dropping](resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
     * [Assign work manually using the Workload Balancer](resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)
