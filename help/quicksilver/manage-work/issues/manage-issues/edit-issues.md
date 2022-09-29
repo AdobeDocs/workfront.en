@@ -227,8 +227,14 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
      <tr> 
       <td role="rowheader">Resolving Issue, Resolving Task, or Resolving Project</td> 
-      <td>The name of the issue, task, or issue that resolves the issue displays with a link to the actual item.  </td> 
+      <td>The linked name of the issue, task, or issue that resolves the issue.  </td> 
      </tr> 
+      <tr> 
+      <td role="rowheader">This Resolves</td> 
+      <td>The linked name of the issue which completes when the issue you are accessing is resolved.  </td> 
+     </tr> 
+
+
     </tbody> 
    </table>
 

@@ -4,27 +4,27 @@ product-previous: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Overview of taxonomy field types
-description: Workfront Library supports a set list of EXIF and XMP metadata. If you have an EXIF or XMP metadata field that needs to be added to Workfront Library, reach out to your customer success manager or account representative.
+description: "[!DNL Workfront Library] supports a set list of EXIF and XMP metadata. If you have an EXIF or XMP metadata field that needs to be added to [!DNL Workfront Library], reach out to your customer success manager or account representative."
 feature: Workfront Library, Digital Content and Documents
 exl-id: d0801424-21e6-415a-855a-e89cdf1fa5d6
 ---
 # Overview of taxonomy field types
 
-Workfront Library supports a set list of EXIF and XMP metadata. If you have an EXIF or XMP metadata field that needs to be added to Workfront Library, reach out to your customer success manager or account representative.
+[!DNL Workfront Library] supports a set list of [!UICONTROL EXIF] and [!UICONTROL XMP] metadata. If you have an [!UICONTROL EXIF] or [!UICONTROL XMP] metadata field that needs to be added to [!DNL Workfront Library], reach out to your customer success manager or account representative.
 
-## EXIF metadata fields
+## [!UICONTROL EXIF] metadata fields
 
-Workfront Library supports known EXIF metadata, as well as a list of additional EXIF metadata. The tables below show each supported EXIF metadata and its field type in Workfront Library.
+[!DNL Workfront Library] supports known [!UICONTROL EXIF] metadata, as well as a list of additional [!UICONTROL EXIF] metadata. The tables below show each supported [!UICONTROL EXIF] metadata and its field type in Workfront Library.
 
-Known EXIF metadata:
+Known [!UICONTROL EXIF] metadata:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th>EXIF metadata</th> 
-   <th>Taxonomy field type in Workfront Library</th> 
+   <th>[!UICONTROL EXIF] metadata</th> 
+   <th>Taxonomy field type in [!DNL Workfront Library]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -243,7 +243,7 @@ Known EXIF metadata:
  </tbody> 
 </table>
 
-Additional EXIF metadata supported:
+Additional [!UICONTROL EXIF] metadata supported:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -251,7 +251,7 @@ Additional EXIF metadata supported:
  <thead> 
   <tr> 
    <th>EXIF metadata</th> 
-   <th>Taxonomy field type in Workfront Library</th> 
+   <th>Taxonomy field type in [!DNL Workfront Library]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -364,19 +364,19 @@ Additional EXIF metadata supported:
 
 
 
-## XMP metadata fields
+## [!UICONTROL XMP] metadata fields
 
-Workfront Library supports both IPTC and XMP metadata. The tables below show each supported XMP metadata and its field type in Workfront Library.
+Workfront Library supports both [!UICONTROL IPTC] and [!UICONTROL XMP] metadata. The tables below show each supported [!UICONTROL XMP] metadata and its field type in Workfront Library.
 
-IPTC metadata:
+[!UICONTROL IPTC] metadata:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th>IPTC metadata</th> 
-   <th>Taxonomy field type in Workfront Library</th> 
+   <th>[!UICONTROL IPTC] metadata</th> 
+   <th>Taxonomy field type in [!DNL Workfront Library]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -467,15 +467,15 @@ IPTC metadata:
  </tbody> 
 </table>
 
-XMP:
+[!UICONTROL XMP]:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th>XMP metadata</th> 
-   <th>Taxonomy field type in Workfront Library</th> 
+   <th>[!UICONTROL XMP] metadata</th> 
+   <th>Taxonomy field type in [!DNL Workfront Library]</th> 
   </tr> 
  </thead> 
  <tbody> 

@@ -2,33 +2,33 @@
 product-previous: workfront-library
 product-area: documents
 navigation-topic: content-management
-title: Relocate assets in Workfront Library
-description: When you no longer want an item in a folder or in your My Content area, you can relocate it by first adding it to a new location and then removing it from its original location. You can relocate only items to which you have Manage access.
+title: Relocate assets in [!DNL Workfront Library]
+description: When you no longer want an item in a folder or in your [!UICONTROL My Content] area, you can relocate it by first adding it to a new location and then removing it from its original location. You can relocate only items to which you have Manage access.
 feature: Workfront Library, Digital Content and Documents
 exl-id: d80a5d46-a106-4fbf-9891-804a78f4fe32
 ---
-# Relocate assets in Workfront Library
+# Relocate assets in [!DNL Workfront Library]
 
-When you no longer want an item in a folder or in your My Content area, you can relocate it by first adding it to a new location and then removing it from its original location. You can relocate only items to which you have Manage access.
+When you no longer want an item in a folder or in your [!UICONTROL My Content] area, you can relocate it by first adding it to a new location and then removing it from its original location. You can relocate only items to which you have Manage access.
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
-1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In [!DNL Workfront], click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then select **[!DNL Library]** to open [!DNL Workfront Library] in a new browser tab.
+1. In the upper-left corner of [!DNL Workfront Library], click the **[!UICONTROL Menu]** icon ![](assets/library-menu-icon.png).
 1. Select the area where the item you want to remove is located.
 
-   You can choose My Content or Collections.
+   You can choose [!UICONTROL My Content] or [!UICONTROL Collections].
 
    ![](assets/library-left-panel---new-350x217.png)
 
-1. (Conditional) If you are in the list view, click the **Show grid view** icon ![](assets/grid-view-icon.png) to switch to the grid view.
-1. Navigate to the item, hover over it and click the **More** icon in the upper-right corner of the item.
-1. Select **Add To** in the drop-down menu.
+1. (Conditional) If you are in the list view, click the **[!UICONTROL Show grid view]** icon ![](assets/grid-view-icon.png) to switch to the grid view.
+1. Navigate to the item, hover over it and click the **[!UICONTROL More]** icon in the upper-right corner of the item.
+1. Select **[!UICONTROL Add To]** in the drop-down menu.
 
    ![](assets/addtobox-350x184.png)
 
 1. Click the plus sign next to the location where you want to relocate the item.
 1. (Optional) Continue to open folders until you locate where you want to move the item.
-1. Click **Remove from original location** to remove the item from where you accessed it in Step 4.
-1. Click **Move**.
+1. Click **[!UICONTROL Remove from original location]** to remove the item from where you accessed it in Step 4.
+1. Click **[!UICONTROL Move]**.
 
    The item is added to the new location and removed from the original location.
 
