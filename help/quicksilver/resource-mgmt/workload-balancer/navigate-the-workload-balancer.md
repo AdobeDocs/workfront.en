@@ -346,7 +346,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    Click the **More** menu ![](assets/more-icon.png) to the right of a task or issue, then click **Open Summary**.
 
-   For information about updating task information in the Summary in the Workload Balancer, see [Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+   For information about updating task information in the Summary in the Workload Balancer, see [Update work items in the Workload Balancer using the Summary](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
     The Summary panel opens on the right. 
 
@@ -355,7 +355,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    For more information, see [Assign work in bulk using the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md). 
 
 1. Click the **Full screen** icon ![](assets/full-screen.png) to display the Workload Balancer in full screen, then click the **Exit full screen** icon ![](assets/exit-full-screen.png) to return to the default screen. 
-1. (Optional) Double-click a daily or weekly allocation for a user inside the bar of a work item to edit the number of allocated hours, then click the **Save** icon ![](assets/save-allocations-wb.png)to save the allocations or the **Cancel** icon ![](assets/cancel-allocations-wb.png) to remove the allocations you adjusted.
+1. (Optional) Double-click a daily or weekly allocation for a user inside the bar of a work item to edit the number of allocated hours, then click the **Save** icon ![](assets/save-allocations-wb.png) to save the allocations or the **Cancel** icon ![](assets/cancel-allocations-wb.png) to remove the allocations you adjusted.
 
    >[!TIP]
    >

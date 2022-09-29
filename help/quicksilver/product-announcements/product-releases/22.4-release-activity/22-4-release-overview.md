@@ -67,7 +67,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                                 <p>Preview release: N/A<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 22.4 release</p>
+                                <p>Production release: With the 22.4 release <span style="color: #ff0000;">This migration has been postponed to mid to late-October. Any affected customers will be notified at that time. </span></p>
                             </li>
                         </ul>
                     </td>
