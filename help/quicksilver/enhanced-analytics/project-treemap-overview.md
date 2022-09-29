@@ -14,38 +14,6 @@ The Project treemap visualization is a view of hours—or days—that have been 
 
 ![](assets/project-treemap-350x126.png)
 
-The boxes in the Project treemap visualization represent projects and the size of the boxes shows a comparison of how much time was spent on different projects. The larger the box is, the more time spent on the project.
-
-The Project treemap visualization is comprised of:
-
-* **Smaller, light blue boxes**: Projects that have fewer hours—or days—display as smaller boxes with a light blue color.
-
-  ![](assets/project-treemap-smaller-box.png)
-
-* **Larger, dark blue boxes**: Projects that have more hours—or days—display as larger boxes with a dark blue color.
-
-  ![](assets/project-treemap-larger-box-350x205.png)
-
-* **Medium-sized, blue boxes**: Projects that fall in between the two categories display as medium-sized boxes with a shade of blue between the dark blue and light blue colors. There are 3 possible shades of blue for the medium-sized boxes.
-
-The legend on the right side shows a breakdown of completed hours for each shade of blue. This legend is dynamic and updates according to the data.
-
-![](assets/project-treemap-hours-completed.png)
-
->[!NOTE]
->
->If you are looking at the Project treemap visualization by duration instead of by planned hours, this legend shows a breakdown of days worked for each shade of blue.  
->![](assets/project-treemap-days-worked.png)>
-
-Seeing this information helps you determine:
-
-* The priority of things being worked on during the selected date range.
-* What teams are spending time on.
-* If teams are focusing on the right things.
-* When a specific project is clicked, how much the scope of a project changed over that time period.
-
-To learn how to get the best data for this visualization, see [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
-
 ## Access requirements
 
 You must have the following:
@@ -77,7 +45,41 @@ You must have the following:
 
 ## Prerequisites
 
-For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-analytics/enhanced-analytics-overview.md#prerequi) in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+For prerequisites to using Enhanced Analytics, see the "Prerequisites" section in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+
+## Understand the Project treemap visualization
+
+The boxes in the Project treemap visualization represent projects and the size of the boxes shows a comparison of how much time was spent on different projects. The larger the box is, the more time spent on the project.
+
+The Project treemap visualization is comprised of:
+
+* **Smaller, light blue boxes**: Projects that have fewer hours—or days—display as smaller boxes with a light blue color.
+
+  ![](assets/project-treemap-smaller-box.png)
+
+* **Larger, dark blue boxes**: Projects that have more hours—or days—display as larger boxes with a dark blue color.
+
+  ![](assets/project-treemap-larger-box-350x205.png)
+
+* **Medium-sized, blue boxes**: Projects that fall in between the two categories display as medium-sized boxes with a shade of blue between the dark blue and light blue colors. There are 3 possible shades of blue for the medium-sized boxes.
+
+The legend on the right side shows a breakdown of completed hours for each shade of blue. This legend is dynamic and updates according to the data.
+
+![](assets/project-treemap-hours-completed.png)
+
+>[!NOTE]
+>
+>If you are looking at the Project treemap visualization by duration instead of by planned hours, this legend shows a breakdown of days worked for each shade of blue.  
+>![](assets/project-treemap-days-worked.png)>
+
+Seeing this information helps you determine:
+
+* The priority of things being worked on during the selected date range.
+* What teams are spending time on.
+* If teams are focusing on the right things.
+* When a specific project is clicked, how much the scope of a project changed over that time period.
+
+To learn how to get the best data for this visualization, see [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## View the Project treemap visualization
 
