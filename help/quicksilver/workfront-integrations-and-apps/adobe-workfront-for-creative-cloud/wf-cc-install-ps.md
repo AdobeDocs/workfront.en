@@ -7,9 +7,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
 ---
-# Install Workfront for Adobe Photoshop
+# Install Adobe Workfront for Photoshop
 
-You can install the Workfront for Adobe Photoshop plugin from the Adobe Marketplace.
+You can install the Adobe Workfront for Adobe Photoshop plugin from the Adobe Marketplace.
 
 ## Access requirements
 

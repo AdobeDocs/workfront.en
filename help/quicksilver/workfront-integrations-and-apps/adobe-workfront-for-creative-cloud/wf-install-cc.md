@@ -8,7 +8,7 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 ---
 # Install Workfront for Creative Cloud
 
-You can install the Workfront for Creative Cloud plugin from the Adobe Marketplace. Workfront for Creative Cloud plugin supports the following applications:
+You can install the Adobe Workfront for Creative Cloud plugin from the Adobe Marketplace. Workfront for Creative Cloud plugin supports the following applications:
 
 {{cc-plugin-app-list}} 
 

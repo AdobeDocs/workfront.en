@@ -1,13 +1,13 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Upload proofs from Adobe Photoshop
-description: You can upload your art boards as proofs directly to Adobe Workfront for a thorough review and approval.
+title: Upload proofs from InDesign
+description: You can upload your art boards as documents for a quick review and approval or simply to store in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
 ---
-# Upload proofs from Photoshop
+
+# Upload proofs from InDesign
 
 You can upload your art boards as proofs directly to Adobe Workfront for a thorough review and approval.
 
@@ -46,9 +46,9 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the Workfront for Adobe Photoshop plugin before you can upload proofs from Adobe Photoshop.
+* You must install the Adobe Workfront for Creative Cloud plugin before you can upload proofs from InDesign.
 
-  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
+  For instructions, see [Install Workfront for Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
 ## Upload a Basic Proof
 
@@ -72,7 +72,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Type a name for the proof in the**Proof Name** text box.
 1. (Optional) Select **Add outside file** to add a file from your computer.
-1. Click **Upload**.
+1. Click **Upload**, then configure any desired export options based on the asset type chosen above. 
 
    ![](assets/plugin-files-350x307.png)   
    The document appears in the Documents area in the plugin and the desktop app.
@@ -97,12 +97,13 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/copy-of-proof-approvals-advanced-350x424.png)
 
-1. (Optional) Type a name for the proof in the**Proof Name** text box.
+1. (Optional) Type a name for the proof in the **Proof Name** text box.
 1. (Optional) Select **Add outside file** to add a file from your computer.
-1. Click **Upload**.
+1. Click **Upload**, then configure any desired export options based on the asset type chosen above. 
 
    ![](assets/plugin-files-350x307.png)   
    The document appears in the Documents area in the plugin and the desktop app.
+
 
 ## Upload a new proof version
 
@@ -126,5 +127,5 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
 1. Add **Reviewers**or a **Workflow template** based on the approval type you selected in step 7.
 
 1. (Optional) Type a comment in the **Updates** area.
-1. Click **Upload**.  
+1. Click **Upload**, then configure any desired export options based on the asset type chosen above. 
    The document appears in the Documents area in the plugin and the desktop app.

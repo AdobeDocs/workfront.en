@@ -1,13 +1,13 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Upload documents from Adobe Photoshop
-description: You can upload your projects as documents for a quick review and approval or simply to store in Adobe Workfront.
+title: Upload documents from InDesign
+description: You can upload your art boards as documents for a quick review and approval or simply to store in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
 ---
-# Upload documents from Photoshop
+
+# Upload documents from InDesign
 
 You can upload your projects as documents for a quick review and approval or simply to store in Adobe Workfront.
 
@@ -46,11 +46,11 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the Workfront for Adobe Photoshop plugin before you can upload Adobe Photoshop projects to Workfront.
+* You must install the Adobe Workfront for Creative Cloud plugin before you can upload proofs from InDesign.
 
-  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
+  For instructions, see [Install Workfront for Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
-## Upload documents to Adobe Photoshop
+## Upload documents to InDesign
 
 1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
@@ -67,5 +67,5 @@ You must have the following access to perform the steps in this article:
    >If you add an approver, the image uploads to Workfront as a simple Proof.
 
 1. (Optional) Type a comment in the **Updates** area. 
-1. Click **Upload**.  
+1. Click **Upload**, then configure any desired export options based on the asset type chosen above. 
    The document appears in the Documents area in the plugin and the desktop app.
