@@ -90,7 +90,7 @@ We recommend the following best practices for planning projects, configuring use
 
 We recommend that you use filters so you can display only the information that is pertinent to you for both unassigned and assigned work items.
 
-For information about creating and using filters in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+For information about creating and using filters in the Workload Balancer, see [Filter information in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 ### Best practices for setting up users
 
