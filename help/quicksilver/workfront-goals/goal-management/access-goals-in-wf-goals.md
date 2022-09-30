@@ -9,7 +9,9 @@ exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
 ---
 # Access and open goals in Adobe Workfront Goals
 
-<!--drafted for goal redesign release: <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<!--drafted for goal redesign release: <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+updates for the redesign are in this file: https://docs.google.com/document/d/12T-xHHh5sT53nnYK-ByTMvTbVWPzHHCn9Po_X2N3L2c/edit#heading=h.2qukiki7lqh
+-->
 
 This article describes how you can find and manage goals in Adobe Workfront.
 
@@ -55,13 +57,13 @@ You must have the following to perform the activities described in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
 
 ## Access Workfront Goals
 
@@ -123,8 +125,8 @@ To access an individual goal in Workfront Goals:
    Click one of the options below in the left panel, then click the name of a goal to access it:
 
    * Goal Alignment
-   * Check-in <!-- drafted for goal redesign: <span class="preview">(this option was removed from the Preview environment)</span>-->
-   * Pulse
+   * Check-in 
+   * Pulse 
 
    >[!NOTE]
    >
@@ -132,19 +134,4 @@ To access an individual goal in Workfront Goals:
 
    The Goal Details panel displays on the right. You can update the goal, its results, and activities in the Goal Details panel when you have access to manage it. For information about updating goals using the Goal Details panel, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
 
-   <!--drafted for the goal redesign release: replace the last paragraph above with this: 
-
-   In the Production environment,  the Goal Details panel displays on the right. You can update the goal, its results, and activities in the Goal Details panel when you have access to manage it. For information about updating goals using the Goal Details panel, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
-
-   <div class="preview">
-   In the Preview environment, the Goal Details page opens. You can do the following:
    
-   * Update goal information in the Details section when the goal is active. For more information, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md). 
-   * Select the Progress Indicators or Updates sections to further add information to the goal. For more information, see the following articles:
-   
-      * [Add results to goals in Adobe Workfront Goals](../results-and-activities/add-results-to-goals.md)
-      * [Add activities to goals in Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md)
-      * [Manage goal comments in Adobe Workfront Goals](../goal-management/manage-goal-comments.md) 
-      
-      </div>
-      -->
