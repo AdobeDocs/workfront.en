@@ -7,9 +7,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
 ---
-# View work item information in Adobe Photoshop
+# View work item information in [!DNL Adobe Photoshop]
 
-You can see information about projects, tasks, issues, and documents from Adobe Photoshop.
+You can see information about projects, tasks, issues, and documents from [!DNL Adobe Photoshop].
 
 ## Access requirements
 
@@ -22,11 +22,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>Work or Plan</p> </td> 
   </tr> 
   <tr> 
@@ -50,11 +50,11 @@ You must have the following access to perform the steps in this article:
 
 * You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can mark work items complete in Adobe Photoshop.
 
-   For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+   For instructions, see [Install [!DNL Workfront for Adobe Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
 
 ## View details and custom form data
 
-1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
+1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >Use the **Menu** icon to go to the parent objects of the work item.
+   >Use the **[!UICONTROL Menu]** icon to go to the parent objects of the work item.
 
 1. Click the **[!UICONTROL Details]** icon ![](assets/details.png) in the navigation bar to view:
 
@@ -75,7 +75,7 @@ You must have the following access to perform the steps in this article:
 
 ## View Document Details
 
-1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
+1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
@@ -83,9 +83,9 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >Use the **Menu** icon to go to the parent objects of the work item.
+   >Use the **[!UICONTROL Menu]** icon to go to the parent objects of the work item.
 
-1. Click the **Document** icon ![](assets/documents.png) in the navigation bar, then double-click on a document to view:
+1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar, then double-click on a document to view:
 
    * Description
    * File Type
@@ -104,7 +104,7 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >Use the **Menu** icon to go to the parent objects of the work item.
+   >Use the **[!UICONTROL Menu]** icon to go to the parent objects of the work item.
 
 1. Click the **[!UICONTROL Issue]** icon ![](assets/issues.png) or **[!UICONTROL Subtask]** icon ![](assets/subtasks.png).
 

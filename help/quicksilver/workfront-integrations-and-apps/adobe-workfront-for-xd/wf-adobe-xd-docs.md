@@ -7,9 +7,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
 ---
-# Upload XD art boards as documents to [!DNL Workfront]
+# Upload [!DNL XD] art boards as documents to [!DNL Workfront]
 
-You can upload your art boards as documents for a quick review and approval or simply to store in Adobe Workfront.
+You can upload your art boards as documents for a quick review and approval or simply to store in [!DNL Adobe Workfront].
 
 ## Access requirements
 
@@ -20,11 +20,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>Work or Plan</p> </td> 
   </tr> 
   <tr> 
@@ -46,9 +46,9 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Workfront] for Adobe XD plugin before you can upload XD art boards as documents to Workfront.
+* You must install the [!DNL Workfront for Adobe XD] plugin before you can upload XD art boards as documents to Workfront.
 
-   For instructions, see [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
+   For instructions, see [Install [!DNL Workfront for Adobe XD]](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
 ## Add a new document
 
@@ -77,19 +77,19 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader">.png</td>
-      <td>The art board upoads as a .png to the work item's Documents tab in WorkfrontWork. </td>
+      <td>The art board upoads as a .png to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">.jpg</td>
-      <td>The art board uploads as a .jpg to the work item's [!UICONTROL Documents] tab in Workfront. <br></td>
+      <td>The art board uploads as a .jpg to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. <br></td>
      </tr>
      <tr>
       <td role="rowheader">.svg</td>
-      <td>The art board uploads as a .svg to the work item's [!UICONTROL Documents] tab in Workfront. </td>
+      <td>The art board uploads as a .svg to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">.pdf</td>
-      <td>The art board uploads as a .pdf to the work item's [!UICONTROL Documents] tab in Workfront.</td>
+      <td>The art board uploads as a .pdf to the work item's [!UICONTROL Documents] tab in [!DNL Workfront].</td>
      </tr>
     </tbody>
    </table>
@@ -119,7 +119,7 @@ You must have the following access to perform the steps in this article:
    >
    >If you want to upload a new version of an svg, png, or jpg, you can upload only one art board.
 
-1. Choose the **Asset Type** from the drop-down menu:
+1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu:
 
    <table style="table-layout:auto">
     <col>
@@ -130,19 +130,19 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader">png</td>
-      <td>The art board upoads as a png to the work item's Documents tab in WorkfrontWork. </td>
+      <td>The art board upoads as a png to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">jpg</td>
-      <td>The art board uploads as a jpg to the work item's [!UICONTROL Documents] tab in Workfront. <br></td>
+      <td>The art board uploads as a jpg to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. <br></td>
      </tr>
      <tr>
       <td role="rowheader">svg</td>
-      <td>The art board uploads as a svg to the work item's [!UICONTROL Documents] tab in Workfront. </td>
+      <td>The art board uploads as a svg to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">pdf</td>
-      <td>The art board uploads as a pdf to the work item's [!UICONTROL Documents] tab in Workfront.</td>
+      <td>The art board uploads as a pdf to the work item's [!UICONTROL Documents] tab in [!DNL Workfront].</td>
      </tr>
     </tbody>
    </table>

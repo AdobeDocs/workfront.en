@@ -7,9 +7,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
 ---
-# Find your work in [!DNL Adobe] Photoshop
+# Find your work in [!DNL Adobe Photoshop]
 
-Find the work assigned to you in [!DNL Adobe Workfront] without leaving Adobe Photoshop.
+Find the work assigned to you in [!DNL Adobe Workfront] without leaving [!DNL Adobe Photoshop].
 
 ## Access requirements
 
@@ -20,11 +20,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>Work or Plan</p> </td> 
   </tr> 
   <tr> 
@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
 
 * You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can find your work in Adobe Photoshop.
 
-   For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+   For instructions, see [Install [!DNL Workfront for Adobe Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
 
 ## Use the [!UICONTROL Work List] to access important information
 
@@ -57,10 +57,10 @@ Use the [!UICONTROL Sort by] option to group similar items in the Work List. You
   <tr> 
    <td> 
     <ul> 
-     <li>Due Date</li> 
-     <li>Name</li> 
-     <li>Project Name</li> 
-     <li>My Priority</li> 
+     <li>[!UICONTROL Due Date]</li> 
+     <li>[!UICONTROL Name]</li> 
+     <li>[!UICONTROL Project Name]</li> 
+     <li>[!UICONTROL My Priority]</li> 
     </ul> </td> 
    <td> <img src="assets/copy-of-sort-by-350x606.png" style="width: 350;height: 606;"> </td> 
   </tr> 
@@ -81,8 +81,8 @@ Use the Filter to narrow your focus to specific work items. There are a couple o
    <td> <p>The first is filtering based solely on work item type or attributes:</p> 
     <ul> 
      <li><strong>Work item</strong>: Tasks, Subtasks, Issues, or Personal tasks</li> 
-     <li><strong>Work item state</strong>: Working On, Ready to Start, or Not Ready</li> 
-    </ul> <p>The second is filtering using [!UICONTROL work item] and [!UICONTROL work item state] together. For example, you can select [!UICONTROL Tasks] and [!UICONTROL Ready to Start] to find all of the tasks in your work list that are ready for work.</p> <p>You can also use [!DNL Field Match] to search for a specific item within your filter set. </p> </td> 
+     <li><strong>Work item state</strong>: [!UICONTROL Working On], [!UICONTROL Ready to Start], or [!UICONTROL Not Ready]</li> 
+    </ul> <p>The second is filtering using work item and work item state together. For example, you can select [!UICONTROL Tasks] and [!UICONTROL Ready to Start] to find all of the tasks in your work list that are ready for work.</p> <p>You can also use [!DNL Field Match] to search for a specific item within your filter set. </p> </td> 
    <td> <img src="assets/copy-of-filter-p-350x603.png" style="width: 350;height: 603;"> </td> 
   </tr> 
  </tbody> 
@@ -108,7 +108,7 @@ Use the Search bar to locate projects, tasks, issues, and documents you need.
  </tbody> 
 </table>
 
-## Use the Menu to navigate projects
+## Use the [!UICONTROL Menu] to navigate projects
 
 You can use the [!UICONTROL Menu] icon to navigate to parent items in a project.
 

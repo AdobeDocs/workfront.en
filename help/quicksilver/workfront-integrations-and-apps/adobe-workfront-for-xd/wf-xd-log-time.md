@@ -7,9 +7,9 @@ description: You can log time for projects, tasks, and issues you're working on 
 author: Courtney
 exl-id: 5b334184-86e9-4f81-9a56-59ce8f83480f
 ---
-# Log time in Adobe XD
+# Log time in [!DNL Adobe XD]
 
-You can log time for projects, tasks, and issues you're working on directly in Adobe XD. The [!DNL Workfront] administrator determines which project-specific hour types are available as described in [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+You can log time for projects, tasks, and issues you're working on directly in [!DNL Adobe XD]. The [!DNL Workfront] administrator determines which project-specific hour types are available as described in [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Access requirements
 
@@ -22,11 +22,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>Work or Plan</p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
 
 * You must install the [!DNL Workfront for Adobe XD] plugin before you can log time in Adobe XD.
 
-   For instructions, see [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
+   For instructions, see [Install [!DNL Workfront for Adobe XD]](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
 ## Log time in Adobe XD
 

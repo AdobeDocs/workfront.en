@@ -7,9 +7,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: c6836ad0-573a-4ac7-ae62-96391bfbce00
 ---
-# View work item information in Adobe XD
+# View work item information in [!DNL Adobe XD]
 
-You can see information about projects, tasks, issues, and documents from Adobe XD.
+You can see information about projects, tasks, issues, and documents from [!DNL Adobe XD].
 
 ## Access requirements
 
@@ -22,11 +22,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] license*</td> 
    <td> <p>Work or Plan</p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
 
 * You must install the [!DNL Workfront for Adobe XD] plugin before you can view work item information in Adobe XD.
 
-   For instructions, see [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
+   For instructions, see [Install [!DNL Workfront for Adobe XD]](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
 ## View details and custom form data
 
@@ -66,12 +66,12 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **[!UICONTROL Details]** icon ![](assets/details.png) in the navigation bar to view:
 
-   * Description
-   * Planned Completion Date
-   * Status
-   * Assigned to
+   * [!UICONTROL Description]
+   * [!UICONTROL Planned Completion Date]
+   * [!UICONTROL Status]
+   * [!UICONTROL Assigned to]
    * Project Owner (Projects only)
-   * Custom form data
+   * Custom f[!UICONTROL ]orm data
 
    ![](assets/custom-form-data-350x472.png)
 
@@ -112,9 +112,9 @@ You must have the following access to perform the steps in this article:
 
 1. Select the task or issue, then click the **[!UICONTROL Details]** icon ![](assets/details.png) in the navigation bar to view:
 
-   * Planned Completion Date
-   * Status
-   * Assigned to
+   * [!UICONTROL Planned Completion Date]
+   * [!UICONTROL Status]
+   * [!UICONTROL Assigned to]
    * Custom Form data
 
    ![](assets/custom-form-data-350x472.png)

@@ -7,7 +7,7 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
 ---
-# Upload proofs from Adobe Photoshop
+# Upload proofs from [!DNL Adobe Photoshop]
 
 You can upload your art boards as proofs directly to [!DNL Adobe Workfront] for a thorough review and approval.
 
@@ -20,11 +20,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Premium</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>Current plan: Work or Proof</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
@@ -48,16 +48,16 @@ You must have the following access to perform the steps in this article:
 
 * You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can upload proofs from Adobe Photoshop.
 
-   For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+   For instructions, see [Install [!DNL Workfront for Adobe Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
 
 ## Upload a Basic Proof
 
-1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
+1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Go to the work item where you want to upload a proof.
-1. Click the **Document** icon ![](assets/documents.png) in the navigation bar.
+1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar.
 1. Click **[!UICONTROL New File]** near the bottom of the plugin.
 1. Enable the **[!UICONTROL Create a proof]** toggle.
 1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
@@ -70,7 +70,7 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/plugin-proof-approvals-350x450.png)
 
-1. (Optional) Type a name for the proof in the&#x200B;**Proof Name** text box.
+1. (Optional) Type a name for the proof in the&#x200B;**[!UICONTROL Proof Name]** text box.
 1. (Optional) Select **[!UICONTROL Add outside file]** to add a file from your computer.
 1. Click **[!UICONTROL Upload]**.
 
@@ -79,12 +79,12 @@ You must have the following access to perform the steps in this article:
 
 ## Upload an Automated Proof
 
-1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
+1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Go to the work item where you want to upload a proof.
-1. Click the **Document** icon ![](assets/documents.png) in the navigation bar.
+1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar.
 
 1. Click **[!UICONTROL New File]** near the bottom of the plugin.
 1. Enable the **[!UICONTROL Create a proof]** toggle, then choose the **[!UICONTROL Asset Type]** from the drop-down menu.
@@ -97,7 +97,7 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/copy-of-proof-approvals-advanced-350x424.png)
 
-1. (Optional) Type a name for the proof in the&#x200B;**Proof Name** text box.
+1. (Optional) Type a name for the proof in the&#x200B;**[!UICONTROL Proof Name]** text box.
 1. (Optional) Select **[!UICONTROL Add outside file]** to add a file from your computer.
 1. Click **[!UICONTROL Upload]**.
 
@@ -108,23 +108,23 @@ You must have the following access to perform the steps in this article:
 
 You can upload a new version of a proof. The plugin remembers the proofing workflow set on the previous version, but you can change this if you wish.
 
-1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
+1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Go to the work item you need to upload a document to.
-1. Click the **Document** icon ![](assets/documents.png)in the navigation bar.
+1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png)in the navigation bar.
 
 1. Click **[!UICONTROL New Version]** near the bottom of the plugin.
 1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
-1. Enable the **[!UICONTROL Create a proof]** toggle, then choose the **Asset Type** from the drop-down menu.
+1. Enable the **[!UICONTROL Create a proof]** toggle, then choose the **[!UICONTROL Asset Type]** from the drop-down menu.
 
    ![](assets/plugin-create-proof-350x182.png)
 
-1. In the **[!UICONTROL Proof approvals]** section, choose **Basic**&#x200B;or **Automated**.
+1. In the **[!UICONTROL Proof approvals]** section, choose **[!UICONTROL Basic]**&#x200B;or **[!UICONTROL Automated]**.
 
-1. Add **Reviewers**&#x200B;or a **Workflow template** based on the approval type you selected in step 7.
+1. Add **[!UICONTROL Reviewers]**&#x200B;or a **[!UICONTROL Workflow template]** based on the approval type you selected in step 7.
 
-1. (Optional) Type a comment in the **Updates** area.
-1. Click **Upload**.\
-   The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
+1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
+1. Click **[!UICONTROL Upload]**.\
+   The document appears in the [!UICONTROL [!UICONTROL Documents]] area in the plugin and the desktop app.

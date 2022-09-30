@@ -7,7 +7,7 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
 ---
-# Update your work in Adobe Photoshop
+# Update your work in [!DNL Adobe Photoshop]
 
 You can update your work in the following areas:
 
@@ -18,14 +18,14 @@ You can update your work in the following areas:
   <tr> 
    <td> 
     <ul> 
-     <li>Projects</li> 
-     <li>Tasks</li> 
-     <li>Subtasks</li> 
+     <li>[!UICONTROL Projects]</li> 
+     <li>[!UICONTROL Tasks]</li> 
+     <li>[!UICONTROL Subtasks]</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Issues</li> 
-     <li>Documents</li> 
+     <li>[!UICONTROL Issues]</li> 
+     <li>[!UICONTROL Documents]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -42,11 +42,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>Work or Plan</p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
 
 * You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can mark work items complete in Adobe Photoshop.
 
-   For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+   For instructions, see [Install [!DNL Workfront for Adobe Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
 
 ## Post an update
 

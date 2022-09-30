@@ -7,7 +7,7 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
 ---
-# Upload XD art boards as proofs to [!DNL Workfront]
+# Upload [!DNL XD] art boards as proofs to [!DNL Workfront]
 
 You can upload your art boards as proofs directly to [!DNL Adobe Workfront] for a thorough review and approval.
 
@@ -20,11 +20,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Premium</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>Current plan: Work or Proof</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
@@ -32,7 +32,7 @@ You must have the following access to perform the steps in this article:
    <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof Permission Profile </td> 
+   <td role="rowheader">[!UICONTROL Proof Permission Profile] </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
@@ -42,22 +42,22 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or Proof Permission Profile you have, contact your [!DNL Workfront] or [!DNL Workfront] Proof administrator.
+&#42;To find out what plan, role, or [!UICONTROL Proof Permission Profile] you have, contact your [!DNL Workfront] or [!DNL Workfront Proof] administrator.
 
 ## Prerequisites
 
 * You must install the [!DNL Workfront for Adobe XD] plugin before you can upload proofs in Adobe XD.
 
-   For instructions, see [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
+   For instructions, see [Install [!DNL Workfront for Adobe XD]](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
 ## Upload a static Proof
 
-1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
+1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
    ![](assets/menu-350x440.png)
 
-1. Go to the [!UICONTROL work] item where you want to upload a static proof.
-1. Click the **Document** icon ![](assets/documents.png) in the navigation bar.
+1. Go to the work item where you want to upload a static proof.
+1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar.
 
 1. Click **[!UICONTROL New File]** near the bottom of the plugin.
 1. Select the art boards you wish to upload.
@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
    >
    >To select more than one art board, click and drag the mouse over the art boards you want.
 
-1. Enable **Create a Proof**.
+1. Enable **[!UICONTROL Create a Proof]**.
 1. Choose the export format from the **[!UICONTROL Asset Type]** drop-down menu.
 
    ![](assets/create-a-proof-xd-350x202.png)
@@ -78,32 +78,32 @@ You must have the following access to perform the steps in this article:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Basic: </td> 
+      <td role="rowheader">[!UICONTROL Basic]: </td> 
       <td> <p>Basic approval processes are ad-hoc and can include different reviewers as needed: </p> 
        <ul> 
         <li> <p>(Optional) Add <strong>Approvers</strong>in the box.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Automated</td> 
+      <td role="rowheader">[!UICONTROL Automated]</td> 
       <td> <p>Automated approval processes are pre-built by administrators and include specific reviewers and stages. For more information, see <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automated Workflow overview</a>.</p> 
        <ul> 
-        <li> <p>Choose a Workflow Template from the drop-down menu.</p> </li> 
+        <li> <p>Choose a [!UICONTROL Workflow Template] from the drop-down menu.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Optional) Type a comment in the **Updates**&#x200B;area.
+1. (Optional) Type a comment in the **[!UICONTROL Updates]**&#x200B;area.
 
    ![](assets/proof-approvals-xd-350x396.png)
 
-1. Click **Upload**.\
+1. Click **[!UICONTROL Upload]**.\
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
 
 ## Upload an interactive proof {#upload-an-interactive-proof}
 
-You can create an interactive proof for your art boards with the [!DNL Workfront] for Adobe plugin. It is a 2-step process. First you need to create an interactive link, then you need to upload the proof to a work item.
+You can create an interactive proof for your art boards with the [!DNL Workfront for Adobe] plugin. It is a 2-step process. First you need to create an interactive link, then you need to upload the proof to a work item.
 
 ### Create an interactive link for your art board  {#create-an-interactive-link-for-your-art-board}
 
@@ -130,12 +130,12 @@ You can create an interactive proof for your art boards with the [!DNL Workfront
 
    ![](assets/menu-350x440.png)
 
-1. Go to the [!UICONTROL work] item where you want to upload an interactive proof.
+1. Go to the work item where you want to upload an interactive proof.
 1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar.
 
 1. Click **[!UICONTROL New File]** near the bottom of the plugin.
-1. Enable **Create a Proof**.
-1. In the **Asset Type** drop-down menu, choose the link you just created under the **[!UICONTROL Shared links]** tab. For more information, see [Create an interactive link for your art board](#create-an-interactive-link-for-your-art-board).\
+1. Enable **[!UICONTROL Create a Proof]**.
+1. In the **[!UICONTROL Asset Type]** drop-down menu, choose the link you just created under the **[!UICONTROL Shared links]** tab. For more information, see [Create an interactive link for your art board](#create-an-interactive-link-for-your-art-board).\
    ![](assets/shared-links-xd-350x870.png)
 
    <!--
@@ -149,23 +149,23 @@ You can create an interactive proof for your art boards with the [!DNL Workfront
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Basic: </td> 
+      <td role="rowheader">[!UICONTROL Basic]: </td> 
       <td> <p>Basic approval processes are ad-hoc and can include different reviewers as needed: </p> 
        <ul> 
         <li> <p>(Optional) Add <strong>Approvers</strong>in the box.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Automated</td> 
-      <td> <p>Automated approval processes are pre-built by administrators and include specific reviewers and stages. For more information, see <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automated Workflow overview</a>.</p> 
+      <td role="rowheader">[!UICONTROL Automated]</td> 
+      <td> <p>Automated approval processes are pre-built by administrators and include specific reviewers and stages. For more information, see <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">[!UICONTROL Automated Workflow] overview</a>.</p> 
        <ul> 
-        <li> <p>Choose a Workflow Template from the drop-down menu.</p> </li> 
+        <li> <p>Choose a [!UICONTROL Workflow Template] from the drop-down menu.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Optional) Type a comment in the **Updates**&#x200B;area.
+1. (Optional) Type a comment in the **[!UICONTROL Updates]**&#x200B;area.
 
    ![](assets/proof-approvals-xd-350x396.png)
 
@@ -175,18 +175,18 @@ You can create an interactive proof for your art boards with the [!DNL Workfront
 
    >[!IMPORTANT]
    >
-   >Users must have access to the Desktop Proofing Viewer to review and approve interactive proofs. For more information, see [Install the Desktop Proofing Viewer](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+   >Users must have access to the [!UICONTROL Desktop Proofing Viewer] to review and approve interactive proofs. For more information, see [Install the Desktop Proofing Viewer](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Upload a new proof version
 
 You can upload a new version of a proof. The plugin remembers the proofing workflow set on the previous version, but you can change this if you wish.
 
-1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
+1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
    ![](assets/menu-350x440.png)
 
 1. Go to the work item you need to upload a document to.
-1. Click the **Document** icon ![](assets/documents.png)in the navigation bar.
+1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png)in the navigation bar.
 
 1. Click **[!UICONTROL New Version]** near the bottom of the plugin.
 1. Enable **[!UICONTROL Create a Proof]**.
@@ -207,23 +207,23 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Basic: </td> 
+      <td role="rowheader">[!UICONTROL Basic]: </td> 
       <td> <p>Basic approval processes are ad-hoc and can include different reviewers as needed: </p> 
        <ul> 
         <li> <p>(Optional) Add <strong>Approvers</strong>in the box.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Automated</td> 
-      <td> <p>Automated approval processes are pre-built by administrators and include specific reviewers and stages. For more information, see <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automated Workflow overview</a>.</p> 
+      <td role="rowheader">[!UICONTROL Automated]</td> 
+      <td> <p>Automated approval processes are pre-built by administrators and include specific reviewers and stages. For more information, see <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">[!UICONTROL Automated Workflow] overview</a>.</p> 
        <ul> 
-        <li> <p>Choose a Workflow Template from the drop-down menu.</p> </li> 
+        <li> <p>Choose a [!UICONTROL Workflow Template] from the drop-down menu.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Optional) Type a comment in the **Updates**&#x200B;area.
+1. (Optional) Type a comment in the **[!UICONTROL Updates]**&#x200B;area.
 
    ![](assets/proof-approvals-xd-350x396.png)
 

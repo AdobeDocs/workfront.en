@@ -7,9 +7,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 947c4d4c-d442-409a-a368-9a71b99c5da2
 ---
-# Mark work items complete in Adobe XD
+# Mark work items complete in [!DNL Adobe XD]
 
-You can stay in Adobe XD and seamlessly complete your work in Adobe Workfront.
+You can stay in [!DNL Adobe XD] and seamlessly complete your work in [!DNL Adobe Workfront].
 
 ## Access requirements
 
@@ -20,11 +20,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
@@ -42,17 +42,17 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Workfront] for Adobe XD plugin before you can mark work items complete in Adobe XD.
+* You must install the [!DNL Workfront for Adobe XD] plugin before you can mark work items complete in Adobe XD.
 
-   For instructions, see [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
+   For instructions, see [Install [!DNL Workfront for Adobe XD]](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
 To complete a work item:
 
-1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
+1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
    ![](assets/menu-350x440.png)
 
 1. From the **[!UICONTROL Work List]**, select the task or issue you wish to mark complete.
 1. Click **[!UICONTROL Done]**.\
-   This marks the item complete in Workfront.\
+   This marks the item complete in [!DNL Workfront].\
    ![](assets/mark-as-done-350x646.png)
