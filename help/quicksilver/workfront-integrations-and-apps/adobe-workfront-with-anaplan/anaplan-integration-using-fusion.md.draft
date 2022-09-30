@@ -2,21 +2,21 @@
 filename: anaplan-integration-using-fusion
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: Integrate with Anaplan using Adobe Workfront Fusion
+title: Integrate with [!DNL Anaplan] using Adobe Workfront Fusion
 description: Do not undraft
 author: Becky
 hidefromtoc: true
 ---
 
-# Integrate with Anaplan using Adobe Workfront Fusion
+# Integrate with [!DNL Anaplan] using Adobe Workfront Fusion
 
 <!--
 <p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Do not undraft</p>
 -->
 
-Adobe Workfront Fusion allows you to integrate Workfront with your Anaplan account. For example, you can create campaigns in Anaplan, then create a Workfront project or program linked to the campaign. Any costs tracked in Workfront can then be uploaded back to Anaplan to review campaign performance.
+Adobe Workfront Fusion allows you to integrate Workfront with your [!DNL Anaplan] account. For example, you can create campaigns in Anaplan, then create a Workfront project or program linked to the campaign. Any costs tracked in Workfront can then be uploaded back to [!DNL Anaplan] to review campaign performance.
 
-Campaign in this article refers to the Anaplan object. Campaigns in Anaplan are in no way related to the Campaign object in Workfront, nor are they related to the Fusion connector for Adobe Campaign.
+Campaign in this article refers to the [!DNL Anaplan] object. Campaigns in [!DNL Anaplan] are in no way related to the Campaign object in Workfront, nor are they related to the Fusion connector for Adobe Campaign.
 
 ## Access requirements
 
@@ -56,19 +56,19 @@ You must have the following access to use the functionality in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
-You must have an Anaplan account in addition to your Workfront Fusion account.
+You must have an [!DNL Anaplan] account in addition to your Workfront Fusion account.
 
-The user must be have Anaplan administrator permissions
+The user must be have [!DNL Anaplan] administrator permissions
 
-## Example: Configure Anaplan for integration with Workfront Fusion
+## Example: Configure [!DNL Anaplan] for integration with Workfront Fusion
 
-This example provides all the lists, modules, and actions that are needed to integrate an Anaplan model to use for marketing relationship management with Workfront.
+This example provides all the lists, modules, and actions that are needed to integrate an [!DNL Anaplan] model to use for marketing relationship management with Workfront.
 
-### Anaplan Lists for Workfront
+### [!DNL Anaplan] Lists for Workfront
 
 1. Campaigns - this list can roll up to a brand or a geography hierarchy
 
@@ -90,9 +90,9 @@ This example provides all the lists, modules, and actions that are needed to int
 >
 >Campaigns can be a list on their own or they can roll up to a Geography or Product Hierarchy. The list here is provided with a roll up by brand and geography
 
-### Anaplan Modules for Workfront
+### [!DNL Anaplan] Modules for Workfront
 
-Modules have been built out in the Anaplan Model to hold imported data and to perform basic data input tasks.
+Modules have been built out in the [!DNL Anaplan] Model to hold imported data and to perform basic data input tasks.
 
 #### Campaigns module
 
@@ -235,7 +235,7 @@ Line items
 
 #### Workfront integration: Campaign detail
 
-This module is used to load data from Workfront to Anaplan to hold project level (campaign) details.
+This module is used to load data from Workfront to [!DNL Anaplan] to hold project level (campaign) details.
 
 Clients may customize the columns or data from Workfront, and these should be built into this module
 
@@ -247,7 +247,7 @@ Line items
 
 | Line Item Name  |Format  |Formula  |Summary  |Notes  |
 |---|---|---|---|---|
-| Anaplan ID  |Text  |Code(item(Campaigns)  |None  |&nbsp; |
+| [!DNL Anaplan] ID  |Text  |Code(item(Campaigns)  |None  |&nbsp; |
 | Workfront - Name  |Text  |&nbsp; |None  |Data Load  |
 | Workfront - ownerID  |Text  |&nbsp; |None  |Data Load  |
 | Workfront - ProjectID  |Text  |&nbsp; |None  |Data Load  |
@@ -263,7 +263,7 @@ Line items
 
 {style="table-layout:auto"}
 
-### Anaplan Actions for Workfront
+### [!DNL Anaplan] Actions for Workfront
 
 #### (Import) Workfront integration: Add Roles
 
@@ -307,7 +307,7 @@ Source Object: WorkfrontUpdateLinkedProjects_ActExpenses.csv
 
 #### (Import) Workfront integration: Campaign Expense Actuals
 
-Loads the data for Campaign Expense Actuals data from Workfront to Anaplan based on the Work Expense GUID.
+Loads the data for Campaign Expense Actuals data from Workfront to [!DNL Anaplan] based on the Work Expense GUID.
 
 Target Object: Workfront Integration - Campaign Expense Data Module
 
@@ -323,7 +323,7 @@ Source Object: WorkfrontUpdateLinkedProjects_ActExpenses.csv
 
 #### (Import) Workfront integration: Campaign Expense Planned
 
-Loads the data for Campaign Expense Planned data from Workfront to Anaplan based on the Workfront Expense GUID.
+Loads the data for Campaign Expense Planned data from Workfront to [!DNL Anaplan] based on the Workfront Expense GUID.
 
 >[!NOTE]
 >
@@ -343,7 +343,7 @@ Source Object: WorkfrontUpdateLinkedProjects_PlannedExpenses.csv
 
 (Import) Workfront integration: Update Campaign Details
 
-Loads the data for Campaign Details from Workfront to Anaplan based on the Mapped Anaplan ItemID to Workfront Project GUID.
+Loads the data for Campaign Details from Workfront to [!DNL Anaplan] based on the Mapped [!DNL Anaplan] ItemID to Workfront Project GUID.
 
 Target Object: Workfront Integration - Campaign Details
 
@@ -357,7 +357,7 @@ Source Object: WorkfrontUpdateLinkedProject.csv
 <p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
 -->
 
-### Anaplan processes for Workfront
+### [!DNL Anaplan] processes for Workfront
 
 #### (Process) Workfront integration - Load Project Hours by Role
 
