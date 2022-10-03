@@ -135,9 +135,9 @@ The following users have access to the Resource Management tools in Workfront:
 You must be one of the following users and have the following access and permissions to access resource management tools:
 
 * The system administrator.
-* A user with a Plan license, in the Production environment.  
+* A user with a Plan license.  
   
-  <span class="preview">A user with a Work license</span>, in the Preview environment. (Work-license users cannot access the Utilization report.)
+  <span class="preview">A user with a Work license can use the Workload Balancer of a project and manage assignments and allocations, in the Preview environment. </span>
 
   In addition to having a <span class="preview">Work</span> or higher license, you must have the following to use specific resource management tools:
 
