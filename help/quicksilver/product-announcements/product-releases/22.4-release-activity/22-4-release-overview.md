@@ -533,7 +533,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>The following enhancements have been added to the Workload Balancer, in preparation for the deprecation of the Scheduling tools:</p>
                         <ul>
                             <li>
-                                <p>Work-license users can now adjust allocations<br /></p>
+                                <p>Work-license users can now adjust allocations when using the Workload Balancer of a project<br /></p>
                             </li>
                             <li>
                                 <p>Issues display in the Unassigned Work area when enabling the "Include hours from issues" setting.</p>
