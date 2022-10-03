@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
 ---
-# Create [!DNL Adobe Workfront] tasks from [!DNL Microsoft] Teams
+# Create [!DNL Adobe Workfront] tasks from [!DNL Microsoft Teams]
 
 ## Access requirements
 
@@ -18,12 +18,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work, Plan</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -35,43 +35,43 @@ You must have the following access to perform the steps in this article:
 You can create personal tasks in [!DNL Adobe Workfront] from [!DNL Microsoft Teams] if the following conditions are met:
 
 * A team owner has installed and configured [!DNL Workfront for Microsoft Teams] for your team.
-* You are logged into [!DNL Workfront] from Microsoft Teams.
+* You are logged into [!DNL Workfront] from [!DNL Microsoft Teams].
 
 >[!NOTE]
 >
->Microsoft Teams no longer supports Internet Explorer. To use the [!DNL Adobe Workfront] for Microsoft Teams integration, you must use a web browser other than Internet Explorer.
+>[!DNL Microsoft Teams] no longer supports [!DNL Internet Explorer]. To use the [!DNL Adobe Workfront for Microsoft Teams] integration, you must use a web browser other than [!DNL Internet Explorer].
 
-For information about installing Workfront for Microsoft Teams and logging in to Workfront from Microsoft Teams, see [Install Adobe Workfront for Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+For information about installing [!DNL Workfront for Microsoft Teams] and logging in to [!UICONTROL Workfront] from [!DNL Microsoft Teams], see [Install [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-## Create personal tasks from [!DNL Microsoft] Teams
+## Create personal tasks from [!DNL Microsoft Teams]
 
-1. Log in to [!DNL Workfront] from Microsoft Teams.
+1. Log in to [!DNL Workfront] from [!DNL Microsoft Teams].
 
-   For information about logging in to Workfront, see [Install Adobe Workfront for Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+   For information about logging in to [!DNL Workfront], see [Install [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-1. To open a **New task** card:
+1. To open a **[!UICONTROL New task]** card:
 
-   * If you are in the [!DNL Workfront] bot chat channel, type **New task** in the [!UICONTROL conversation] field to create a new task.&nbsp;
-   * If you are in a chat channel other than the Workfront bot chat channel:
+   * If you are in the [!DNL Workfront] bot chat channel, type **[!UICONTROL New task]** in the [!UICONTROL conversation] field to create a new task.&nbsp;
+   * If you are in a chat channel other than the [!DNL Workfront] bot chat channel:
 
-      * Start typing **[!DNL @workfront]** in the [!UICONTROL conversation] field, then select the Workfront bot channel you want.
-      * Continue typing&nbsp;**New task** in the [!UICONTROL conversation] field to create a new task.
+      * Start typing **[!DNL @workfront]** in the [!UICONTROL conversation] field, then select the [!DNL Workfront] bot channel you want.
+      * Continue typing&nbsp;**[!UICONTROL New task]** in the [!UICONTROL conversation] field to create a new task.
 
-         The New task card displays in the [!DNL Workfront] bot channel.
+         The [!UICONTROL New task] card displays in the [!DNL Workfront] bot channel.
 
          ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
-1. In the [!UICONTROL Workfront bot] channel, specify the following information on the New task card:
+1. In the [!UICONTROL Workfront] bot channel, specify the following information on the [!UICONTROL New task] card:
 
-   * Task name in the **Write the task's title** field.
-   * Task description in the **Write the tasks's description** field.
-   * The [!UICONTROL take the task must be completed by], in the **[!UICONTROL Due Date]** field.
+   * Task name in the **[!UICONTROL Write the task's title]** field.
+   * Task description in the **[!UICONTROL Write the tasks's description]** field.
+   * The date the task must be completed by, in the **[!UICONTROL Due Date]** field.
 
-1. Click **Save.**&nbsp;
+1. Click **[!UICONTROL Save].**&nbsp;
 
-   The new personal task is created in Workfront. A Reference Number is assigned to it and visible on the [!UICONTROL new task] card.
+   The new personal task is created in [!DNL Workfront]. A [!UICONTROL Reference Number] is assigned to it and visible on the [!UICONTROL new task] card.
 
-   For information about reference numbers, see the [[!UICONTROL Reference Numbers] of objects](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) section in the [[!UICONTROL Understand] objects in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) article.
+   For information about reference numbers, see the [[!UICONTROL Reference Numbers] of objects](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) section in the [Understand objects in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) article.
 
 1. (Optional) Click **[!UICONTROL Edit]** to edit the task information further.
-1. (Optional) Click **View in [!DNL Workfront]** to open the task in a new tab in Workfront and edit the task further, move it to a project, or assign it to someone else.&nbsp;
+1. (Optional) Click **[!UICONTROL View in [!DNL Workfront]]** to open the task in a new tab in [!DNL Workfront] and edit the task further, move it to a project, or assign it to someone else.&nbsp;

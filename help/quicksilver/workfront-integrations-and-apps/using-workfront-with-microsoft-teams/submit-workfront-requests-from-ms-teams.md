@@ -9,11 +9,12 @@ exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
 ---
 # Submit [!DNL Adobe Workfront] requests from [!DNL Microsoft] Teams
 
-After your team owner installs Adobe Workfront for Microsoft Teams, you can submit Workfront requests from your Microsoft Teams account. To do so, you must have a Workfront account with access to submit requests. For information about installing Workfront for Microsoft Teams, see [Installing Workfront for Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+After your team owner installs [!DNL Adobe Workfront for Microsoft Teams], you can submit [!DNL Workfront] requests from your [!DNL Microsoft Teams] account. To do so, you must have a Workfront account with access to submit requests. For information about installing [!DNL Workfront for Microsoft Teams], see [Installing [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]
 >
->Microsoft Teams no longer supports Internet Explorer. To use the [!DNL Adobe Workfront] for Microsoft Teams integration, you must use a web browser other than Internet Explorer.
+>[!DNL Microsoft Teams] no longer supports [!DNL Internet Explorer]. To use the [!DNL Adobe Workfront for Microsoft Teams] integration, you must use a web browser other than [UICONTROL Internet Explorer]
+.
 
 ## Access requirements
 
@@ -24,11 +25,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>Work, Plan, Review, Request</p> </td> 
   </tr> 
  </tbody> 
@@ -40,20 +41,20 @@ You must have the following access to perform the steps in this article:
 
 Your [!DNL Microsoft Teams] team owner must install [!DNL Workfront] for [!DNL Microsoft Teams] before you can use it.
 
-## Submit [!DNL Workfront] requests from [!DNL Microsoft] Teams
+## Submit [!DNL Workfront] requests from [!DNL Microsoft Teams]
 
-1. Click the **More added apps** icon on the left navigation bar in Microsoft Teams.
+1. Click the **[!UICONTROL More added apps]** icon on the left navigation bar in Microsoft Teams.
 
    ![](assets/ms-teams-more-added-apps-icon.png)
 
-1. Click **[!UICONTROL Workfront]** in the list that appears.
-1. Click the **Requests** tab.
-1. Click **New Request**.
-1. In the **[!UICONTROL Select a Request] Type** box, select the request queue where you want to submit the request.
+1. Click **[!DNL Workfront]** in the list that appears.
+1. Click the **[!UICONTROL Requests]** tab.
+1. Click **[!UICONTROL New Request]**.
+1. In the **[!UICONTROL Select a Request Type]** box, select the request queue where you want to submit the request.
 1. (Optional) Select a Topic Group or a Queue Topic, if they are available on the request queue.
 1. Specify the following information:
 
-   (Depending on how the request queue was set up, the options and boxes you see might vary. For a complete list and description of possible fields, see [Create and submit Adobe Workfront requests](../../manage-work/requests/create-requests/create-submit-requests.md).)
+   (Depending on how the request queue was set up, the options and boxes you see might vary. For a complete list and description of possible fields, see [Create and submit [!DNL Adobe Workfront] requests](../../manage-work/requests/create-requests/create-submit-requests.md).)
 
    <table style="table-layout:auto"> 
     <col> 
@@ -76,18 +77,18 @@ Your [!DNL Microsoft Teams] team owner must install [!DNL Workfront] for [!DNL M
 
 1. (Optional) If the [!DNL Workfront] administrator attached custom forms to the request queue, provide the information in the fields available on the custom forms.
 1. The custom forms display at the bottom of the new request.
-1. Click **Submit**.
+1. Click **[!UICONTROL Submit]**.
 
    The Request appears in [!DNL Workfront], in the specified request queue. You receive a confirmation that the request was submitted successfully.
 
-## View [!DNL Workfront] requests you submitted in [!DNL Microsoft] Teams
+## View [!DNL Workfront] requests you submitted in [!DNL Microsoft Teams]
 
-1. Click the **More added apps** icon on the left navigation bar in Microsoft Teams.
+1. Click the **[!UICONTROL More added apps]** icon on the left navigation bar in Microsoft Teams.
 
    ![](assets/ms-teams-more-added-apps-icon.png)
 
-1. Click **[!UICONTROL Workfront]** in the list that appears.
-1. Click the **Requests** tab.
+1. Click **[!DNL Workfront]** in the list that appears.
+1. Click the **[!UICONTROL Requests]** tab.
 
    ![](assets/ms-teams-requests-page-with-count-350x198.png)
 
@@ -96,10 +97,10 @@ Your [!DNL Microsoft Teams] team owner must install [!DNL Workfront] for [!DNL M
    You can view the following information about your submitted requests in the [!UICONTROL My submitted requests] area of the [!UICONTROL Requests] tab:
 
    * **[!UICONTROL Subject]**: The name of the request
-   * **Reference number**
-   * **Request type**: The name of the request queue where you submitted the request
-   * **Status**
+   * **[!UICONTROL Reference number]**
+   * **[!UICONTROL Request type]**: The name of the request queue where you submitted the request
+   * **[!UICONTROL Status]**
    * **[!UICONTROL Submitted on]**: The date when you submitted the request
-   * **Assigned to**
+   * **[!UICONTROL Assigned to]**
 
-1. (Optional) Click the header of any of the columns in the list to sort the list by that column. By default, [!DNL Workfront] sorts the list by the Submitted on date, starting with the most recently submitted request.
+1. (Optional) Click the header of any of the columns in the list to sort the list by that column. By default, [!DNL Workfront] sorts the list by the [!UICONTROL Submitted on] date, starting with the most recently submitted request.

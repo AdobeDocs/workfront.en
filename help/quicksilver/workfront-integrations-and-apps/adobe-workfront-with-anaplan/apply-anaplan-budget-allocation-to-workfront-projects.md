@@ -25,7 +25,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
@@ -64,11 +64,11 @@ You must have the following in [!DNL Anaplan] to use this scenario:
 
    The list's module must support receiving the following attributes:
 
-   * [!UICONTROL Workfront Project GUID]
-   * [!UICONTROL Campaign Name]
-   * [!UICONTROL Requested Labor Funds]
-   * [!UICONTROL Estimated Revenue]
-   * [!UICONTROL Brand]
+    * [!UICONTROL Workfront Project GUID]
+    * [!UICONTROL Campaign Name]
+    * [!UICONTROL Requested Labor Funds]
+    * [!UICONTROL Estimated Revenue]
+    * [!UICONTROL Brand]
 
    This list and module must store additional details that are necessary for the normal functionality of [!DNL Anaplan], including the ability to set a budget and communicate that the budget list item is ready to be synced back to [!DNL Workfront].
 

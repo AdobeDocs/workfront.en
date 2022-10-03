@@ -11,8 +11,8 @@ exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
 
 You can search for [!DNL Workfront] items in any [!DNL Adobe WorkfrontWorkfront] channel in [!DNL Microsoft Teams] and share these items with members of your teams.&nbsp;
 
-* [Prerequisites for sharing [!DNL Workfront] items in [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams)
-* [Search for and share [!DNL Workfront] items in [!DNL Microsoft Teams]](#search-for-and-share-workfront-items-in-microsoft-teams)
+* [Prerequisites for sharing [!DNL Workfront] items in [!DNL Microsoft Teams]](#prerequisites-for-sharing-dnl-workfront-items-in-dnl-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
+* [Search for and share [!DNL Workfront] items in [!DNL Microsoft Teams]](#search-for-and-share-dnl-adobe-workfront-items-in-dnl-microsoft-teams)
 
 ## Access requirements
 
@@ -23,12 +23,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work, Plan</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,13 +40,14 @@ You must have the following access to perform the steps in this article:
 You can search for and share [!DNL Workfront] items in [!DNL Microsoft Teams] if the following conditions are met:
 
 * A team owner has installed and configured [!DNL Workfront for Microsoft Teams] for your team.
-* You are logged into [!DNL Workfront] from Microsoft Teams.
+* You are logged into [!DNL Workfront] from [!UICONTROL Microsoft Teams].
 
-For information about installing Workfront for Microsoft Teams and logging in to Workfront from Microsoft Teams, see [Install Adobe Workfront for Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+For information about installing [!UICONTROL Workfront for Microsoft Teams] and logging in to [!UICONTROL Workfront] from [!DNL Microsoft Teams], see [Install Adobe Workfront for Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]
 >
->Microsoft Teams no longer supports Internet Explorer. To use the [!DNL Adobe Workfront] for Microsoft Teams integration, you must use a web browser other than Internet Explorer.
+>[!DNL Microsoft Teams] no longer supports [!DNL Internet Explorer]. To use the [!DNL Adobe Workfront for Microsoft Teams] integration, you must use a web browser other than [UICONTROL Internet Explorer]
+.
 
 ## Search for and share [!DNL Workfront] items in [!DNL Microsoft Teams] {#search-for-and-share-workfront-items-in-microsoft-teams}
 
@@ -61,7 +62,7 @@ You can search for the following [!DNL Workfront] items from a [!DNL Microsoft T
 
 * Issues
 
-After you have found the items you searched for you can share them with other users in Microsoft Teams.&nbsp;
+After you have found the items you searched for you can share them with other users in [!DNL Microsoft Teams].&nbsp;
 
 To search for a [!DNL Workfront] item from [!DNL Microsoft Teams] and share it with others:
 
@@ -75,7 +76,7 @@ To search for a [!DNL Workfront] item from [!DNL Microsoft Teams] and share it w
       ![more_icon.png](assets/more-icon-52x34.png)\
       The **[!UICONTROL Search]** box appears by default.
 
-   * Type *@[!DNL Workfront]*&nbsp;from any channel, select Workfront and then select **Search.**
+   * Type *@[!DNL Workfront]*&nbsp;from any channel, select Workfront and then select **[!UICONTROL Search].**
 
       ![ms_teams_search_from_command.png](assets/ms-teams-search-from-command-350x74.png)
 
@@ -83,7 +84,7 @@ To search for a [!DNL Workfront] item from [!DNL Microsoft Teams] and share it w
    ![ms_teams_searching_for_items.png](assets/ms-teams-searching-for-items-350x359.png)\
    This adds a card with the [!DNL Workfront] item in the chat field. Some information about the item is included on the card, including the name of the item, the parent object, status, priority, percent complete.
 
-1. (Optional) Add a comment underneath the [!DNL Workfront] card, then click&nbsp;**Send**&nbsp;or press Enter.\
+1. (Optional) Add a comment underneath the [!DNL Workfront] card, then click&nbsp;**[!UICONTROL Send]**&nbsp;or press Enter.\
    This sends the message including the [!DNL Workfront] item to your channel.\
    All members of the channel can see this message, including the information on the [!DNL Workfront] card.
 
