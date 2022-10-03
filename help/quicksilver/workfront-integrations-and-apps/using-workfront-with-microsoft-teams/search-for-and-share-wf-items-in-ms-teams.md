@@ -46,8 +46,7 @@ For information about installing [!UICONTROL Workfront for Microsoft Teams] and 
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] no longer supports [!DNL Internet Explorer]. To use the [!DNL Adobe Workfront for Microsoft Teams] integration, you must use a web browser other than [UICONTROL Internet Explorer]
-.
+> [!DNL Microsoft Teams] no longer supports [!DNL Internet Explorer]. To use the [!DNL Adobe Workfront for Microsoft Teams] integration, you must use a web browser other than [UICONTROL Internet Explorer].
 
 ## Search for and share [!DNL Workfront] items in [!DNL Microsoft Teams] {#search-for-and-share-workfront-items-in-microsoft-teams}
 

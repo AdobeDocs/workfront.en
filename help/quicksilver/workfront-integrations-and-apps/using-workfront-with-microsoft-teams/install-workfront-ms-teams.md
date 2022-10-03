@@ -13,8 +13,7 @@ The [!DNL Adobe Workfront for Microsoft Teams] app allows you to perform basic a
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] no longer supports [!DNL Internet Explorer]. To use the [!DNL Adobe Workfront for Microsoft Teams] integration, you must use a web browser other than [UICONTROL Internet Explorer]
-.
+> [!DNL Microsoft Teams] no longer supports [!DNL Internet Explorer]. To use the [!DNL Adobe Workfront for Microsoft Teams] integration, you must use a web browser other than [UICONTROL Internet Explorer].
 
 ## Access requirements
 

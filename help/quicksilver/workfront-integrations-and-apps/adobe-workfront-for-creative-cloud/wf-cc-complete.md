@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
 
 * You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can mark work items complete in [!DNL Adobe Photoshop].
 
-   For instructions, see [Install [!DNLWorkfront for  Adobe Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+   For instructions, see [Install [!DNL Workfront for  Adobe Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
 
 ## Complete a work item
 

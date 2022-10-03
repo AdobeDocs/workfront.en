@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 97e9dac6-f5b5-4d6e-b58b-93acd19048ee
 ---
-* # Send [!DNL Adobe Workfront] project updates to an [!DNL Anaplan] list item
+# Send [!DNL Adobe Workfront] project updates to an [!DNL Anaplan] list item
 
 This integration scenario shares progress, status, and key schedule details from an [!DNL Adobe Workfront] project with an [!DNL Anaplan] budget list item. Sharing this information allows you to take better advantage of the spend optimization and financial analysis that [!DNL Anaplan] provides.
 

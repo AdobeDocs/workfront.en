@@ -15,8 +15,7 @@ These notifications contain [!DNL Workfront] actions that you can take within [!
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] no longer supports [!DNL Internet Explorer]. To use the [!DNL Adobe Workfront for Microsoft Teams] integration, you must use a web browser other than [UICONTROL Internet Explorer]
-.
+> [!DNL Microsoft Teams] no longer supports [!DNL Internet Explorer]. To use the [!DNL Adobe Workfront for Microsoft Teams] integration, you must use a web browser other than [UICONTROL Internet Explorer].
 
 ## Access requirements
 
