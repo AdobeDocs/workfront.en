@@ -32,7 +32,7 @@ You must have the following:
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront plan]</a>*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>

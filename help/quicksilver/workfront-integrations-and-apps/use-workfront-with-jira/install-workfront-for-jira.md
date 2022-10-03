@@ -7,17 +7,17 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
 ---
-# Install [!DNL Adobe Workfront] for [!DNL Jira]
+# Install [!DNL Adobe Workfront for Jira]
 
-You can use [!DNL Adobe Workfront] for [!DNL Jira] to integrate your [!DNL Jira] and [!DNL Workfront] systems.
+You can use [!DNL Adobe Workfront for Jira] to integrate your [!DNL Jira] and [!DNL Workfront] systems.
 
 After installing the add-on, you can define workflows that create [!DNL Jira] issues automatically when [!DNL Workfront] work items are created. The items in both applications become linked, and some of their information can be automatically updated in both systems.&nbsp;
 
 All users in [!DNL Workfront] and [!DNL Jira] can benefit from this integration. They only need a license for the system in which they work the most, and not for both systems.&nbsp;
 
-This add-on is available for the Server and OnDemand (or Cloud) versions of [!DNL Jira] Software. This add-on is not available for the [!DNL Data Center] version of [!DNL Jira] Software.
+This add-on is available for the [!UICONTROL Server] and [!UICONTROL OnDemand] (or [!UICONTROL Cloud]) versions of [!DNL Jira] Software. This add-on is not available for the [!DNL Data Center] version of [!DNL Jira] Software.
 
-For a list of [!DNL Jira] versions that [!DNL Workfront for Jira] currently supports, see [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) at the Atlassian Marketplace.
+For a list of [!DNL Jira] versions that [!DNL Workfront for Jira] currently supports, see [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) at the Atlassian Marketplace.
 
 ## Access requirements
 
@@ -28,15 +28,15 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront plan]</a>*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] plan</a>*</td> 
+   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront] licenses overview</a>*</td> 
-   <td> <p>Plan</p> </td> 
+   <td> <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Jira access</td> 
+   <td role="rowheader">[!DNL Jira] access</td> 
    <td> <p>System administrator access</p> <p>Important:  We recommend that you create separate system administrator accounts in [!DNL Jira] and [!DNL Workfront] to dedicate to this integration, rather than using existing ones that might be attached to users.</p> </td> 
   </tr> 
   <tr> 
@@ -58,28 +58,28 @@ If you are not a [!DNL Jira] administrator, you can browse for the [!DNL Workfro
 
 For more information about requesting an add-on to be installed on your [!DNL Jira] application, see [Managing user requests for add-ons.](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html)
 
-To install [!DNL Workfront] for Jira:
+To install [!DNL Workfront for Jira]:
 
 1. Log in to [!DNL Jira] as a [!DNL Jira] administrator.
-1. Find the **Workfront for Jira**&nbsp;add-on in the [[!DNL Atlassian] Marketplace](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview).
+1. Find the **[!DNL Workfront for Jira]**&nbsp;add-on in the [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview).
 
 1. Click **[!UICONTROL Get it now]** to install it.
 
    After the installation completes, you can log in to [!DNL Workfront] from [!DNL Jira] and configure your integration.
-
+[!DNL ]
    For more information, see [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-## Considerations for a Jira Server installation
+## Considerations for a [!DNL Jira Server] installation
 
 >[!NOTE]
 >
->These requirements do not apply to the OnDemand (Cloud) version of [!DNL Jira] Software.
+>These requirements do not apply to the [!UICONTROL OnDemand] ([!UICONTROL Cloud]) version of [!DNL Jira] Software.
 
-Although installing the [!DNL Workfront] add-on in the two [!DNL Jira] environments is similar, you must consider the following when working with a [!DNL Jira] Server installation:
+Although installing the [!DNL Workfront] add-on in the two [!DNL Jira] environments is similar, you must consider the following when working with a [!DNL Jira Server] installation:
 
 * When configuring the add-on in [!DNL Jira], the address specified in the&nbsp;**[!DNL JIRA Base URL]**&nbsp;field may not be the same URL you use to access [!DNL Jira] on your private server. The **[!DNL JIRA Base URL]** must be a publicly-accessible address connected to your private server using NAT or reverse proxy protocols, so [!DNL Workfront] can access it to make requests to your server.&nbsp;&nbsp;
 
-* You must use SSL encryption to secure the communication between JIRA and Workfront. When you enable SSL, you must have a full SSL certificate stack from a certificate authority. We do not support self-signed certificates.&nbsp;
+* You must use SSL encryption to secure the communication between [!DNL Jira] and [!DNL Workfront]. When you enable SSL, you must have a full SSL certificate stack from a certificate authority. We do not support self-signed certificates.&nbsp;
 * You must ensure that the [!DNL jira.workfront.com] domain is accessible from your corporate servers. It serves as a middleware environment between [!DNL Workfront] and [!DNL Jira] and is required for the add-on to operate.
 
    You must also add the following static IP addresses to the allowlist on your firewall for outbound and inbound connections.

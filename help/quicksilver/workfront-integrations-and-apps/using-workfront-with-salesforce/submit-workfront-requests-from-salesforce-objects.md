@@ -23,7 +23,7 @@ You must have the following access to use the functionality described in this ar
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
