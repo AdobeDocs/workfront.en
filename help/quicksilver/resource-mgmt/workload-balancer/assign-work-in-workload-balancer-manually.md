@@ -31,8 +31,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, in the Production environment</p>
-   <p><span class="preview">Work, in the Preview environment</span></p> </td> 
+   <td> <p>Plan, when using the Workload Balancer in all areas in the Production environment</p>
+   <p><span class="preview">Work, when using the Workload Balancer of a project, in the Preview environment</span> </p>
+ </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 

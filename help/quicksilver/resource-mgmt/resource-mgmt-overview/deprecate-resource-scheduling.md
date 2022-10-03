@@ -206,7 +206,7 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
   </tr> 
   <tr>
-   <td><span class="preview">Work-license users can adjust user allocations</span> </td> 
+   <td><span class="preview">Work-license users can adjust user allocations when accessing the Workload Balancer from a project</span> </td> 
    <td>✓</td> 
    <td><span class="preview">✓</span></td> 
    <td></td> 
